@@ -16,6 +16,7 @@ export default function RemotionPlayerComponent() {
       loop
       controls={false}
       clickToPlay={false}
+      acknowledgeRemotionLicense
     />
   );
 }
