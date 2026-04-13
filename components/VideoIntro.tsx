@@ -10,7 +10,7 @@ export default function VideoIntro() {
   return (
     <section
       ref={ref}
-      className="relative bg-seoul-black section-padding overflow-hidden hangul-bg"
+      className="relative bg-seoul-black py-24 overflow-hidden"
     >
       {/* Corner glows — same as Courses section */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-seoul-red/5 rounded-full blur-3xl pointer-events-none" />
