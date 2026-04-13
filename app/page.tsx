@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
+import VideoIntro from '@/components/VideoIntro';
 import About from '@/components/About';
 import Courses from '@/components/Courses';
 import Benefits from '@/components/Benefits';
@@ -14,6 +15,7 @@ export default function HomePage() {
     <main className="relative">
       <Navigation />
       <Hero />
+      <VideoIntro />
       <About />
       <Courses />
       <Benefits />
