@@ -5,7 +5,7 @@ import { motion, useInView } from 'framer-motion';
 
 export default function VideoIntro() {
   const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: '0px' });
+  const inView = true;
 
   return (
     <section
