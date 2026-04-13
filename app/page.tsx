@@ -1,7 +1,7 @@
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
-import VideoIntro from '@/components/VideoIntro';
 import About from '@/components/About';
+import VideoIntro from '@/components/VideoIntro';
 import Courses from '@/components/Courses';
 import Benefits from '@/components/Benefits';
 import KoreanCulture from '@/components/KoreanCulture';
@@ -15,8 +15,8 @@ export default function HomePage() {
     <main className="relative">
       <Navigation />
       <Hero />
-      <VideoIntro />
       <About />
+      <VideoIntro />
       <Courses />
       <Benefits />
       <KoreanCulture />
