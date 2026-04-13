@@ -21,7 +21,7 @@ export default function VideoIntro() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-full bg-gradient-to-b from-transparent via-seoul-red/20 to-transparent" />
       </div>
 
-      <div className="container-tight relative z-10">
+      <div className="max-w-6xl mx-auto px-6 relative z-10">
 
         {/* Header — same style as all other sections */}
         <motion.div
