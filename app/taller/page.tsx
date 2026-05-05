@@ -293,17 +293,19 @@ export default function TallerPage() {
       {/* ── INSTRUCTOR ── */}
       <section className="bg-[#0D0D0D] py-24 px-6 md:px-14">
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Image placeholder */}
-          <div className="relative">
-            <div className="aspect-[4/5] bg-gradient-to-br from-[#C8001E] to-[#9a0016] flex items-center justify-center">
-              <div className="text-white font-black text-7xl"
-                style={{ fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
-              >
-                Jay Chingu
-              </div>
-            </div>
-            <div className="absolute -bottom-1 -left-1 -right-1 h-1.5 bg-gradient-to-r from-[#003478] via-white to-[#C8001E]" />
-          </div>
+{/* YouTube Short — 10 palabras en coreano */}
+<div className="relative w-full max-w-sm mx-auto lg:mx-0">
+  <div className="aspect-[9/16] overflow-hidden bg-black">
+    <iframe
+      src="https://www.youtube.com/embed/0SA2X1LGsgA?rel=0"
+      title="10 palabras en coreano — Jay Chingu"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      className="w-full h-full border-0"
+    />
+  </div>
+  <div className="absolute -bottom-1 -left-1 -right-1 h-1.5 bg-gradient-to-r from-[#003478] via-white to-[#C8001E]" />
+</div>
 
           {/* Text */}
           <div>
