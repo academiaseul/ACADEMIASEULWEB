@@ -334,12 +334,16 @@ export default function TallerPage() {
 
       {/* ── REGISTRO ── */}
       <section id="registro" className="bg-[#C8001E] py-24 px-6 md:px-14 relative overflow-hidden">
-        <div
-          className="absolute right-0 top-1/2 -translate-y-1/2 text-white/4 font-black leading-none pointer-events-none select-none"
-          style={{ fontSize: "280px", fontFamily: "'Noto Sans KR', sans-serif" }}
-        >
-          한글
-        </div>
+      <div
+  className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 font-black leading-none pointer-events-none select-none"
+  style={{
+    fontSize: "280px",
+    fontFamily: "'Noto Sans KR', sans-serif",
+    color: "rgba(255, 255, 255, 0.06)",
+  }}
+>
+  한글
+</div>
 
         <div className="max-w-xl mx-auto relative z-10 text-center">
           <p className="text-[#E8B84B] text-xs font-bold tracking-[3px] uppercase mb-3">
