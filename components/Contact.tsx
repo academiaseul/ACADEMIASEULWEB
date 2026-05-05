@@ -2,7 +2,7 @@
 
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Phone, Mail, Instagram, MessageCircle, MapPin } from 'lucide-react';
+import { Phone, Mail, Instagram, MessageCircle, MapPin, Facebook } from 'lucide-react';
 import clsx from 'clsx';
 
 const levels = ['Principiante (sin experiencia)', 'Básico A1-A2', 'Intermedio B1-B2', 'Avanzado C1-C2', 'No sé mi nivel'];
@@ -12,7 +12,28 @@ const CONTACT_PHONE_DISPLAY = '+56 9 4211 5562';
 const CONTACT_EMAIL = 'hola.academiaseul@gmail.com';
 const WHATSAPP_URL =
   'https://wa.me/56942115562?text=Hola,%20me%20interesa%20una%20clase%20de%20prueba%20gratuita%20en%20Academia%20Seúl';
+
+// Brand (academy) channel — used in the contact info card
 const INSTAGRAM_URL = 'https://www.instagram.com/academiaseul/';
+
+// Personal channels (jaychingu.oficial) — used in the "Síguenos" row
+const PERSONAL_INSTAGRAM_URL = 'https://www.instagram.com/jaychingu.oficial/';
+const TIKTOK_URL = 'https://www.tiktok.com/@jaychingu.oficial';
+const FACEBOOK_URL = 'https://www.facebook.com/jaychingu.oficial';
+
+// TikTok isn't included in lucide-react, so we use a small inline SVG
+const TikTokIcon = ({ size = 18 }: { size?: number }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.8a8.16 8.16 0 0 0 4.77 1.52V6.87a4.85 4.85 0 0 1-1.84-.18z" />
+  </svg>
+);
 
 type FormData = {
   nombre: string;
@@ -93,8 +114,7 @@ export default function Contact() {
             <span className="text-gradient-red">es completamente gratis</span>
           </h2>
           <p className="mt-5 text-base text-white/45 max-w-md leading-relaxed">
-            Completa el formulario y te contactaremos en menos de 24 horas
-            para coordinar tu clase de prueba sin costo.
+            Déjanos tus datos y te escribimos en menos de 24 h para agendar tu clase.
           </p>
         </motion.div>
 
@@ -115,7 +135,7 @@ export default function Contact() {
                 <div className="text-5xl mb-6">🎉</div>
                 <h3 className="text-2xl font-bold text-seoul-white mb-3">¡Mensaje recibido!</h3>
                 <p className="text-white/50 text-sm leading-relaxed">
-                  Te contactaremos en las próximas 24 horas para coordinar tu clase de prueba gratuita. ¡Hasta pronto!
+                  Te escribimos en las próximas 24 h para agendar tu clase gratis. ¡Hasta pronto!
                 </p>
                 <p className="mt-4 text-2xl font-korean text-white/20">안녕히 계세요 👋</p>
               </motion.div>
@@ -170,11 +190,11 @@ export default function Contact() {
                   whileTap={{ scale: loading ? 1 : 0.99 }}
                   className="w-full py-4 bg-seoul-red hover:bg-red-600 text-white font-bold text-base rounded-lg transition-all duration-200 shadow-xl shadow-seoul-red/25 hover:shadow-seoul-red/40 disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  {loading ? 'Enviando...' : 'Solicitar mi clase de prueba gratuita →'}
+                  {loading ? 'Enviando...' : 'Reservar mi clase gratis →'}
                 </motion.button>
 
                 <p className="text-xs text-white/25 text-center leading-relaxed">
-                  Al enviar este formulario aceptas ser contactado por Academia Seúl. No compartimos tus datos con terceros.
+                  Al enviar aceptas ser contactado por Academia Seúl. No compartimos tus datos.
                 </p>
               </form>
             )}
@@ -210,12 +230,49 @@ export default function Contact() {
 
             <div>
               <h3 className="text-sm font-semibold text-white/50 uppercase tracking-widest mb-4">Síguenos</h3>
-              <div className="flex gap-3">
-                <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-seoul-red hover:border-seoul-red/30 transition-all duration-200" aria-label="Instagram @academiaseul">
+              <div className="flex gap-3 flex-wrap">
+                <a
+                  href={PERSONAL_INSTAGRAM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-seoul-red hover:border-seoul-red/30 transition-all duration-200"
+                  aria-label="Instagram @jaychingu.oficial"
+                >
                   <Instagram size={18} />
                 </a>
-                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-green-400 hover:border-green-400/30 transition-all duration-200" aria-label="WhatsApp">
+                <a
+                  href={TIKTOK_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-white hover:border-white/30 transition-all duration-200"
+                  aria-label="TikTok @jaychingu.oficial"
+                >
+                  <TikTokIcon size={18} />
+                </a>
+                <a
+                  href={FACEBOOK_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-blue-400 hover:border-blue-400/30 transition-all duration-200"
+                  aria-label="Facebook jaychingu.oficial"
+                >
+                  <Facebook size={18} />
+                </a>
+                <a
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-green-400 hover:border-green-400/30 transition-all duration-200"
+                  aria-label="WhatsApp"
+                >
                   <MessageCircle size={18} />
+                </a>
+                <a
+                  href={`mailto:${CONTACT_EMAIL}`}
+                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-seoul-red hover:border-seoul-red/30 transition-all duration-200"
+                  aria-label="Email"
+                >
+                  <Mail size={18} />
                 </a>
               </div>
             </div>

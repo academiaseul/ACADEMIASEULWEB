@@ -6,12 +6,13 @@ import { Menu, X } from 'lucide-react';
 import clsx from 'clsx';
 
 const navLinks = [
-  { label: 'Inicio',       href: '#hero'     },
-  { label: 'Academia',     href: '#about'    },
-  { label: 'Cursos',       href: '#courses'  },
-  { label: 'Cultura',      href: '#culture'  },
-  { label: 'Testimonios',  href: '#testimonials' },
-  { label: 'Contacto',     href: '#contact'  },
+  { label: 'Inicio',       href: '/#hero'     },
+  { label: 'Academia',     href: '/#about'    },
+  { label: 'Cursos',       href: '/#courses'  },
+  { label: 'Taller Gratis', href: '/taller', highlight: true },
+  { label: 'Cultura',      href: '/#culture'  },
+  { label: 'Testimonios',  href: '/#testimonials' },
+  { label: 'Contacto',     href: '/#contact'  },
 ];
 
 export default function Navigation() {
@@ -48,7 +49,7 @@ export default function Navigation() {
           <div className="flex items-center justify-between h-16 md:h-20">
 
             {/* Logo */}
-            <a href="#hero" className="flex items-center gap-3 group">
+            <a href="/" className="flex items-center gap-3 group">
               <img
                 src="/logo-tiger-red.png"
                 alt="Academia Seúl"
@@ -67,10 +68,20 @@ export default function Navigation() {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="text-sm font-medium text-seoul-white/70 hover:text-seoul-white transition-colors duration-200 relative group"
+                  className={clsx(
+                    'text-sm font-medium transition-colors duration-200 relative group',
+                    link.highlight
+                      ? 'text-seoul-red hover:text-red-400'
+                      : 'text-seoul-white/70 hover:text-seoul-white',
+                  )}
                 >
                   {link.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-px bg-seoul-red group-hover:w-full transition-all duration-300" />
+                  <span
+                    className={clsx(
+                      'absolute -bottom-1 left-0 w-0 h-px group-hover:w-full transition-all duration-300',
+                      link.highlight ? 'bg-red-400' : 'bg-seoul-red',
+                    )}
+                  />
                 </a>
               ))}
             </nav>
@@ -78,13 +89,13 @@ export default function Navigation() {
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center gap-4">
               <a
-                href="#contact"
+                href="/#contact"
                 className="text-sm font-medium text-seoul-white/70 hover:text-seoul-white transition-colors duration-200"
               >
                 Inscríbete
               </a>
               <a
-                href="#contact"
+                href="/#contact"
                 className="px-5 py-2.5 bg-seoul-red hover:bg-red-700 text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-seoul-red/20 hover:shadow-seoul-red/40 hover:-translate-y-0.5"
               >
                 Clase de prueba gratis →
@@ -128,7 +139,12 @@ export default function Navigation() {
             <motion.a
               key={link.href}
               href={link.href}
-              className="py-4 text-2xl font-bold text-seoul-white/80 hover:text-seoul-red border-b border-white/[0.06] transition-colors duration-200"
+              className={clsx(
+                'py-4 text-2xl font-bold border-b border-white/[0.06] transition-colors duration-200',
+                link.highlight
+                  ? 'text-seoul-red hover:text-red-400'
+                  : 'text-seoul-white/80 hover:text-seoul-red',
+              )}
               onClick={() => setMobileOpen(false)}
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: mobileOpen ? 1 : 0, x: mobileOpen ? 0 : -20 }}
@@ -140,7 +156,7 @@ export default function Navigation() {
         </nav>
         <div className="mt-auto">
           <a
-            href="#contact"
+            href="/#contact"
             className="block w-full text-center py-4 bg-seoul-red text-white font-bold text-lg rounded-lg mt-8 hover:bg-red-700 transition-colors duration-200"
             onClick={() => setMobileOpen(false)}
           >
