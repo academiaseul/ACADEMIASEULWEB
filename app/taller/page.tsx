@@ -109,8 +109,20 @@ export default function TallerPage() {
     },
     {
       q: "¿En qué plataforma será?",
-      a: "¡Próximamente anunciamos la plataforma! Te notificaremos por correo una vez que registres tu lugar.",
+      a: "Te enviaremos el link de Zoom por correo unas horas antes del taller. Solo necesitas conexión a internet.",
     },
+  ];
+
+  // LATAM time zones for Saturday June 7, 2026 at 20:00 Chile time
+  // Chile is UTC-4 in June (winter, no DST)
+  const timezones = [
+    { flag: "🇲🇽", country: "México (CDMX)",         time: "18:00" },
+    { flag: "🇨🇴", country: "Colombia",              time: "19:00" },
+    { flag: "🇵🇪", country: "Perú / Ecuador",         time: "19:00" },
+    { flag: "🇨🇱", country: "Chile",                 time: "20:00", highlight: true },
+    { flag: "🇦🇷", country: "Argentina / Uruguay",    time: "20:00" },
+    { flag: "🇧🇴", country: "Bolivia / Venezuela",    time: "20:00" },
+    { flag: "🇪🇸", country: "España",                time: "01:00 (dom)" },
   ];
 
   // Form field configurations
@@ -202,16 +214,24 @@ export default function TallerPage() {
             en 1 hora
           </h1>
 
+          {/* Date badge */}
+          <div className="flex flex-col gap-1 bg-[#0D0D0D] border-2 border-[#E8B84B] px-5 py-3 w-fit mb-6 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+            <span className="text-[#E8B84B] text-[10px] font-bold tracking-[2px] uppercase">📅 Fecha confirmada</span>
+            <span className="text-white font-black text-lg leading-tight" style={{ fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}>
+              Sábado 7 de Junio · 20:00 hrs Chile
+            </span>
+          </div>
+
           <p className="text-white/85 text-base md:text-lg leading-relaxed max-w-sm mb-8">
             El sistema de escritura coreano es{" "}
             <strong className="text-white">más fácil de lo que crees</strong>.
-            En este taller gratuito leerás tu primera palabra en coreano antes de que termine la sesión.
+            En este taller en vivo leerás tu primera palabra en coreano antes de que termine la sesión.
           </p>
 
           <div className="flex flex-col gap-3 mb-10">
             {[
               { icon: "🎓", text: "100% gratuito — sin tarjeta de crédito" },
-              { icon: "⏱", text: "1 hora en vivo — con Jay Chingu" },
+              { icon: "⏱", text: "1 hora en vivo por Zoom — con Jay Chingu" },
               { icon: "🌎", text: "Para hispanohablantes de toda Latinoamérica" },
             ].map((m) => (
               <div key={m.text} className="flex items-center gap-3 text-white/90 text-sm">
@@ -259,6 +279,53 @@ export default function TallerPage() {
         </div>
       </section>
 
+      {/* ── TIME ZONES ── */}
+      <section className="bg-[#0D0D0D] py-16 px-6 md:px-14">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-[#E8B84B] text-xs font-bold tracking-[3px] uppercase mb-3 text-center">
+            Horario por país
+          </p>
+          <h2 className="font-black text-white leading-none mb-2 text-center"
+            style={{ fontSize: "clamp(28px, 4vw, 44px)", fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
+          >
+            Sábado 7 de Junio
+          </h2>
+          <p className="text-white/60 text-sm text-center mb-10">
+            Conéctate desde donde estés — encuentra tu hora local 🌎
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {timezones.map((tz) => (
+              <div
+                key={tz.country}
+                className={`flex items-center justify-between gap-3 px-5 py-4 border-2 transition-all ${
+                  tz.highlight
+                    ? "bg-[#C8001E] border-[#E8B84B] shadow-[4px_4px_0_#E8B84B]"
+                    : "bg-white/5 border-white/15 hover:border-white/30"
+                }`}
+              >
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl">{tz.flag}</span>
+                  <span className={`text-sm font-semibold ${tz.highlight ? "text-white" : "text-white/80"}`}>
+                    {tz.country}
+                  </span>
+                </div>
+                <span
+                  className={`font-black text-lg ${tz.highlight ? "text-[#E8B84B]" : "text-white"}`}
+                  style={{ fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
+                >
+                  {tz.time}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-white/40 text-xs text-center mt-6">
+            ¿No estás seguro de tu horario? Te lo confirmaremos por correo al registrarte.
+          </p>
+        </div>
+      </section>
+
       {/* ── LEARNS ── */}
       <section className="bg-[#FDF6EC] py-24 px-6 md:px-14">
         <div className="max-w-6xl mx-auto">
@@ -293,19 +360,19 @@ export default function TallerPage() {
       {/* ── INSTRUCTOR ── */}
       <section className="bg-[#0D0D0D] py-24 px-6 md:px-14">
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-{/* YouTube Short — 10 palabras en coreano */}
-<div className="relative w-full max-w-sm mx-auto lg:mx-0">
-  <div className="aspect-[9/16] overflow-hidden bg-black">
-    <iframe
-      src="https://www.youtube.com/embed/0SA2X1LGsgA?rel=0"
-      title="10 palabras en coreano — Jay Chingu"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowFullScreen
-      className="w-full h-full border-0"
-    />
-  </div>
-  <div className="absolute -bottom-1 -left-1 -right-1 h-1.5 bg-gradient-to-r from-[#003478] via-white to-[#C8001E]" />
-</div>
+          {/* YouTube Short — 10 palabras en coreano */}
+          <div className="relative w-full max-w-sm mx-auto lg:mx-0">
+            <div className="aspect-[9/16] overflow-hidden bg-black">
+              <iframe
+                src="https://www.youtube.com/embed/0SA2X1LGsgA?rel=0"
+                title="10 palabras en coreano — Jay Chingu"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full border-0"
+              />
+            </div>
+            <div className="absolute -bottom-1 -left-1 -right-1 h-1.5 bg-gradient-to-r from-[#003478] via-white to-[#C8001E]" />
+          </div>
 
           {/* Text */}
           <div>
@@ -336,16 +403,16 @@ export default function TallerPage() {
 
       {/* ── REGISTRO ── */}
       <section id="registro" className="bg-[#C8001E] py-24 px-6 md:px-14 relative overflow-hidden">
-      <div
-  className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 font-black leading-none pointer-events-none select-none"
-  style={{
-    fontSize: "280px",
-    fontFamily: "'Noto Sans KR', sans-serif",
-    color: "rgba(255, 255, 255, 0.06)",
-  }}
->
-  한글
-</div>
+        <div
+          className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 font-black leading-none pointer-events-none select-none"
+          style={{
+            fontSize: "280px",
+            fontFamily: "'Noto Sans KR', sans-serif",
+            color: "rgba(255, 255, 255, 0.06)",
+          }}
+        >
+          한글
+        </div>
 
         <div className="max-w-xl mx-auto relative z-10 text-center">
           <p className="text-[#E8B84B] text-xs font-bold tracking-[3px] uppercase mb-3">
@@ -356,8 +423,11 @@ export default function TallerPage() {
           >
             Reserva tu lugar
           </h2>
-          <p className="text-white/80 text-base leading-relaxed mb-10">
-            Regístrate gratis y te avisamos cuando confirme la fecha. No necesitas saber nada de coreano — solo ganas. 화이팅 chingu 🇰🇷
+          <p className="text-white/90 text-sm font-bold mb-2 tracking-wider uppercase">
+            📅 Sábado 7 de Junio · 20:00 hrs Chile
+          </p>
+          <p className="text-white/70 text-base leading-relaxed mb-10">
+            Regístrate gratis y te enviamos el link de Zoom por correo. No necesitas saber nada de coreano — solo ganas. 화이팅 chingu 🇰🇷
           </p>
 
           {submitted ? (
@@ -368,8 +438,11 @@ export default function TallerPage() {
               >
                 ¡Tu lugar está reservado!
               </h3>
-              <p className="text-white/80 text-sm">
-                Te avisaremos por correo con la fecha y el link del taller. 화이팅!
+              <p className="text-white/80 text-sm mb-3">
+                Nos vemos el <strong>sábado 7 de junio a las 20:00 hrs Chile</strong>.
+              </p>
+              <p className="text-white/70 text-sm">
+                Te enviaremos el link de Zoom por correo unas horas antes. 화이팅!
               </p>
             </div>
           ) : (
@@ -450,12 +523,15 @@ export default function TallerPage() {
       {/* ── BOTTOM CTA ── */}
       <section className="bg-[#0D0D0D] py-20 px-6 text-center">
         <p className="text-white/50 text-xs font-bold tracking-[3px] uppercase mb-4">¿Listo para empezar?</p>
-        <h2 className="font-black text-white leading-none mb-6"
+        <h2 className="font-black text-white leading-none mb-3"
           style={{ fontSize: "clamp(36px, 5vw, 60px)", fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
         >
           Tu primera palabra coreana<br />
           <span className="text-[#C8001E]">te espera.</span>
         </h2>
+        <p className="text-[#E8B84B] text-sm font-bold tracking-wider uppercase mb-6">
+          📅 Sábado 7 de Junio · 20:00 hrs Chile
+        </p>
         <a
           href="#registro"
           className="inline-flex items-center gap-3 bg-[#C8001E] text-white font-bold text-sm px-10 py-4 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:bg-[#9a0016] transition-colors"
