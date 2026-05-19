@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter, DM_Serif_Display } from 'next/font/google';
 import './globals.css';
+import TallerPopup from '@/components/TallerPopup';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -54,6 +55,7 @@ export default function RootLayout({
       </head>
       <body className="bg-seoul-black antialiased overflow-x-hidden">
         {children}
+        <TallerPopup />
       </body>
     </html>
   );
