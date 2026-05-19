@@ -16,10 +16,13 @@ const courses = [
       'Empieza desde cero. Aprende el alfabeto Hangul, pronunciación perfecta, saludos y conversaciones cotidianas. El punto de partida ideal.',
     duration: '3 meses',
     sessions: '2 clases / semana',
-    groupSize: 'Máx. 8 alumnos',
-    badge: null,
+    groupSize: 'Grupo con cupos limitados',
+    badge: 'Lanzamiento Julio',
     color: '#C8001E',
     bgGlow: 'rgba(200,0,30,0.08)',
+    status: 'launching' as const,
+    cta: 'Únete a la lista de espera',
+    ctaLink: '/taller',
   },
   {
     id: 'intermedio',
@@ -31,10 +34,13 @@ const courses = [
       'Consolida tu gramática y expande tu vocabulario. Participa en conversaciones fluidas sobre temas reales y actuales de la vida coreana.',
     duration: '4 meses',
     sessions: '2 clases / semana',
-    groupSize: 'Máx. 8 alumnos',
-    badge: 'Popular',
+    groupSize: 'Grupo con cupos limitados',
+    badge: 'Próximamente',
     color: '#003478',
     bgGlow: 'rgba(0,52,120,0.08)',
+    status: 'comingSoon' as const,
+    cta: 'Notifícame cuando lance',
+    ctaLink: '/notificarme?curso=intermedio',
   },
   {
     id: 'avanzado',
@@ -46,10 +52,13 @@ const courses = [
       'Perfecciona tu dominio del idioma. Análisis de textos complejos, expresiones idiomáticas, registros formales e informales.',
     duration: '5 meses',
     sessions: '2 clases / semana',
-    groupSize: 'Máx. 6 alumnos',
-    badge: null,
+    groupSize: 'Grupo con cupos limitados',
+    badge: 'Próximamente',
     color: '#D4AF37',
     bgGlow: 'rgba(212,175,55,0.08)',
+    status: 'comingSoon' as const,
+    cta: 'Notifícame cuando lance',
+    ctaLink: '/notificarme?curso=avanzado',
   },
   {
     id: 'kpop',
@@ -61,10 +70,13 @@ const courses = [
       'Aprende coreano a través de la cultura que amas. Canciones, diálogos de series, slang moderno y la jerga generacional de Corea.',
     duration: '2 meses',
     sessions: '1 clase / semana',
-    groupSize: 'Máx. 12 alumnos',
-    badge: 'Nuevo',
+    groupSize: 'Grupo con cupos limitados',
+    badge: 'Próximamente',
     color: '#C8001E',
     bgGlow: 'rgba(200,0,30,0.08)',
+    status: 'comingSoon' as const,
+    cta: 'Notifícame cuando lance',
+    ctaLink: '/notificarme?curso=kpop',
   },
   {
     id: 'conversacion',
@@ -76,10 +88,13 @@ const courses = [
       'Clases intensivas de conversación para estudiantes que quieren fluir rápidamente. Simulaciones reales, role-play y debates.',
     duration: '6 semanas',
     sessions: '3 clases / semana',
-    groupSize: 'Máx. 6 alumnos',
-    badge: null,
+    groupSize: 'Grupo con cupos limitados',
+    badge: 'Próximamente',
     color: '#003478',
     bgGlow: 'rgba(0,52,120,0.08)',
+    status: 'comingSoon' as const,
+    cta: 'Notifícame cuando lance',
+    ctaLink: '/notificarme?curso=conversacion',
   },
   {
     id: 'topik',
@@ -91,10 +106,13 @@ const courses = [
       'Preparación intensiva y enfocada para el examen oficial TOPIK I y TOPIK II. Simulacros, estrategias y material oficial.',
     duration: '3 meses',
     sessions: '3 clases / semana',
-    groupSize: 'Máx. 8 alumnos',
-    badge: 'Certificación',
+    groupSize: 'Grupo con cupos limitados',
+    badge: 'Próximamente',
     color: '#D4AF37',
     bgGlow: 'rgba(212,175,55,0.08)',
+    status: 'comingSoon' as const,
+    cta: 'Notifícame cuando lance',
+    ctaLink: '/notificarme?curso=topik',
   },
 ];
 
@@ -109,6 +127,8 @@ function CourseCard({
   const inView = useInView(ref, { once: true, margin: '-60px' });
   const Icon = course.icon;
 
+  const isComingSoon = course.status === 'comingSoon';
+
   return (
     <motion.div
       ref={ref}
@@ -120,7 +140,10 @@ function CourseCard({
         ease: [0.22, 1, 0.36, 1],
       }}
       whileHover={{ y: -6, transition: { duration: 0.25 } }}
-      className="relative group glass rounded-2xl p-8 flex flex-col gap-5 cursor-pointer overflow-hidden"
+      className={clsx(
+        'relative group glass rounded-2xl p-8 flex flex-col gap-5 cursor-pointer overflow-hidden transition-opacity duration-300',
+        isComingSoon && 'opacity-75 hover:opacity-100'
+      )}
       style={{ boxShadow: `0 0 0 1px rgba(255,255,255,0.06)` }}
     >
       {/* Glow on hover */}
@@ -133,7 +156,11 @@ function CourseCard({
       {course.badge && (
         <span
           className="absolute top-5 right-5 text-[11px] font-bold tracking-widest uppercase px-3 py-1 rounded-full"
-          style={{ background: course.color, color: '#fff' }}
+          style={{
+            background: isComingSoon ? 'rgba(255,255,255,0.1)' : course.color,
+            color: isComingSoon ? 'rgba(255,255,255,0.7)' : '#fff',
+            border: isComingSoon ? '1px solid rgba(255,255,255,0.15)' : 'none',
+          }}
         >
           {course.badge}
         </span>
@@ -177,18 +204,18 @@ function CourseCard({
 
       {/* CTA */}
       <a
-        href="#contact"
+        href={course.ctaLink}
         className="mt-2 flex items-center justify-between group/btn"
       >
         <span
           className="text-sm font-semibold group-hover/btn:underline underline-offset-2"
-          style={{ color: course.color }}
+          style={{ color: isComingSoon ? 'rgba(255,255,255,0.75)' : course.color }}
         >
-          Inscríbete ahora
+          {course.cta}
         </span>
         <span
           className="w-8 h-8 rounded-full flex items-center justify-center text-white group-hover/btn:scale-110 transition-transform duration-200"
-          style={{ background: course.color }}
+          style={{ background: isComingSoon ? 'rgba(255,255,255,0.15)' : course.color }}
         >
           →
         </span>

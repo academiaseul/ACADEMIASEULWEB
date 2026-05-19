@@ -29,7 +29,7 @@ const benefits = [
   {
     icon: Trophy,
     title: 'Preparación TOPIK oficial',
-    desc: 'Somos tu puerta al certificado internacional TOPIK I y TOPIK II. Con nuestros alumnos, la tasa de aprobación supera el 94%.',
+    desc: 'Somos tu puerta al certificado internacional TOPIK I y TOPIK II. Te preparamos con simulacros, estrategias y material oficial.',
     color: '#C8001E',
   },
   {
@@ -47,7 +47,7 @@ const benefits = [
   {
     icon: HeartHandshake,
     title: 'Comunidad vibrante',
-    desc: 'Únete a una comunidad de más de 800 estudiantes. Eventos culturales, intercambios de idiomas y actividades de inmersión a lo largo del año.',
+    desc: 'Sé parte de la primera comunidad Chingu en Santiago. Eventos culturales, intercambios y actividades de inmersión durante el año.',
     color: '#C8001E',
   },
   {

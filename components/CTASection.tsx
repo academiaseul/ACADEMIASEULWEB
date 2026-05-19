@@ -71,8 +71,8 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-base md:text-lg text-white/50 max-w-lg mx-auto leading-relaxed mb-12"
         >
-          Únete a más de 800 estudiantes que ya están viviendo la cultura coreana
-          desde Santiago. Tu primera clase es completamente gratis.
+          Únete a la primera cohorte de Academia Seúl y empieza a leer coreano
+          en 30 días. Apúntate al taller gratuito del 7 de junio.
         </motion.p>
 
         {/* CTA Buttons */}

@@ -5,13 +5,13 @@ import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
 
 const stats = [
-  { value: '800+', label: 'Estudiantes formados',   suffix: '' },
-  { value: '8',    label: 'Años de experiencia',     suffix: '+' },
-  { value: '97',   label: 'Satisfacción de alumnos', suffix: '%' },
-  { value: '6',    label: 'Niveles disponibles',     suffix: '' },
+  { value: '🇰🇷',     label: 'Profesora nativa de Seúl',  sublabel: 'Bilingüe coreano-español' },
+  { value: '8',        label: 'Años enseñando coreano',    sublabel: 'Experiencia comprobada',     suffix: '+' },
+  { value: 'Chingu™',  label: 'Método propio',             sublabel: 'Diseñado para hispanohablantes' },
+  { value: '6',        label: 'Cursos diseñados',          sublabel: 'Del A1 al C2 + especializados' },
 ];
 
-function StatCard({ value, label, suffix, index }: (typeof stats)[0] & { index: number }) {
+function StatCard({ value, label, sublabel, suffix, index }: (typeof stats)[0] & { index: number }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
 
@@ -24,11 +24,16 @@ function StatCard({ value, label, suffix, index }: (typeof stats)[0] & { index: 
       className="text-center md:text-left"
     >
       <div className="text-5xl md:text-6xl font-black tracking-tighter text-gradient-red mb-2">
-        {value}{suffix}
+        {value}{suffix || ''}
       </div>
-      <div className="text-sm text-seoul-white/50 uppercase tracking-widest font-medium">
+      <div className="text-sm text-seoul-black/60 uppercase tracking-widest font-medium">
         {label}
       </div>
+      {sublabel && (
+        <div className="text-xs text-seoul-black/40 mt-1 font-medium normal-case tracking-normal">
+          {sublabel}
+        </div>
+      )}
     </motion.div>
   );
 }
