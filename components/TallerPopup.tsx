@@ -3,37 +3,51 @@
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Calendar, Clock, Globe } from 'lucide-react';
+import { X } from 'lucide-react';
 import Link from 'next/link';
 
 const STORAGE_KEY = 'taller_popup_dismissed_v1';
-const SHOW_AFTER_MS = 15000; // 15 segundos
+const SHOW_AFTER_MS = 15000;
 const EXCLUDED_PATHS = ['/taller', '/notificarme'];
+
+const TIMEZONES = [
+  { flag: 'MX', country: 'México',    time: '18:00' },
+  { flag: 'CO', country: 'Colombia',  time: '19:00' },
+  { flag: 'PE', country: 'Perú',      time: '19:00' },
+  { flag: 'CL', country: 'Chile',     time: '20:00' },
+  { flag: 'AR', country: 'Argentina', time: '20:00' },
+  { flag: 'ES', country: 'España',    time: '01:00*' },
+];
+
+const FLAG_EMOJI: Record<string, string> = {
+  MX: '\u{1F1F2}\u{1F1FD}',
+  CO: '\u{1F1E8}\u{1F1F4}',
+  PE: '\u{1F1F5}\u{1F1EA}',
+  CL: '\u{1F1E8}\u{1F1F1}',
+  AR: '\u{1F1E6}\u{1F1F7}',
+  ES: '\u{1F1EA}\u{1F1F8}',
+};
 
 export default function TallerPopup() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
-    // No mostrar en paginas excluidas
     if (EXCLUDED_PATHS.some((p) => pathname?.startsWith(p))) return;
 
-    // No mostrar si ya lo cerro antes
     try {
       const dismissed = localStorage.getItem(STORAGE_KEY);
       if (dismissed) return;
     } catch {
-      // localStorage podria fallar en algunos navegadores, seguir
+      // ignore
     }
 
     let exitHandler: ((e: MouseEvent) => void) | null = null;
 
-    // Timer: aparece despues de 15 segundos
     const timer = setTimeout(() => {
       setIsOpen(true);
     }, SHOW_AFTER_MS);
 
-    // Exit intent: aparece si el mouse sale por arriba (cerrar tab)
     exitHandler = (e: MouseEvent) => {
       if (e.clientY <= 0 && !isOpen) {
         setIsOpen(true);
@@ -53,7 +67,7 @@ export default function TallerPopup() {
     try {
       localStorage.setItem(STORAGE_KEY, Date.now().toString());
     } catch {
-      // ignorar
+      // ignore
     }
   };
 
@@ -61,7 +75,6 @@ export default function TallerPopup() {
     <AnimatePresence>
       {isOpen && (
         <>
-          {/* Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -71,23 +84,19 @@ export default function TallerPopup() {
             onClick={handleClose}
           />
 
-          {/* Popup */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.92, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.95, y: 10 }}
-            transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[101] w-[92%] max-w-md"
-          >
-            <div
-              className="relative rounded-2xl overflow-hidden border border-white/10"
+          <div className="fixed inset-0 z-[101] flex items-center justify-center p-4 pointer-events-none">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.92, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: 10 }}
+              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+              className="relative w-full max-w-md max-h-[92vh] overflow-y-auto pointer-events-auto rounded-2xl border border-white/10"
               style={{
                 background:
                   'radial-gradient(ellipse 90% 60% at 50% 0%, rgba(200,0,30,0.18) 0%, transparent 60%), #0f0f1a',
                 boxShadow: '0 20px 60px rgba(0,0,0,0.5)',
               }}
             >
-              {/* Close button */}
               <button
                 onClick={handleClose}
                 aria-label="Cerrar"
@@ -96,91 +105,86 @@ export default function TallerPopup() {
                 <X size={16} />
               </button>
 
-              {/* Top accent: badge */}
-              <div className="pt-7 pb-2 px-7">
-                <span className="inline-block text-[10px] font-bold tracking-[0.25em] uppercase text-seoul-red bg-seoul-red/10 border border-seoul-red/30 px-3 py-1.5 rounded-full">
-                  🎁 Taller gratuito
+              <div className="px-7 py-8 text-center">
+                <span className="inline-block text-[10px] font-bold tracking-[0.25em] uppercase text-seoul-red bg-seoul-red/10 border border-seoul-red/30 px-3 py-1.5 rounded-full mb-5">
+                  Taller gratuito
                 </span>
-              </div>
 
-              {/* Korean Mark */}
-              <div className="px-7 pt-2">
                 <div
                   aria-hidden
-                  className="font-korean font-black text-seoul-red/60 leading-none select-none"
-                  style={{ fontSize: '3.5rem', letterSpacing: '-0.05em' }}
+                  className="font-korean font-black text-seoul-red leading-none select-none mb-2"
+                  style={{ fontSize: '3.25rem', letterSpacing: '-0.05em' }}
                 >
-                  한글
+                  {'한글'}
                 </div>
-              </div>
 
-              {/* Title */}
-              <div className="px-7 pt-2">
                 <h2 className="font-serif text-3xl md:text-4xl text-seoul-white leading-tight">
                   Aprende a leer
                   <br />
                   <span className="text-gradient-red">coreano</span> en 1 hora
                 </h2>
-              </div>
 
-              {/* Description */}
-              <p className="px-7 pt-4 text-sm text-white/55 leading-relaxed">
-                Taller en vivo por Zoom, 100% gratuito. Sé parte de la primera cohorte de Academia Seúl.
-              </p>
+                <p className="pt-4 text-sm text-white/55 leading-relaxed max-w-xs mx-auto">
+                  Taller en vivo por Zoom, 100% gratuito. Se parte de la primera cohorte de Academia Seul.
+                </p>
 
-              {/* Details grid */}
-              <div className="px-7 pt-5 grid grid-cols-3 gap-3 text-xs">
-                <div className="flex flex-col gap-1.5">
-                  <Calendar size={14} className="text-seoul-red" />
-                  <div>
-                    <div className="text-[10px] uppercase tracking-wider text-white/40">Fecha</div>
-                    <div className="text-white/85 font-semibold">7 Junio</div>
-                  </div>
+                <div className="mt-6 inline-flex items-center gap-3 px-4 py-2.5 rounded-full bg-white/[0.04] border border-white/10">
+                  <span className="text-xs uppercase tracking-widest text-white/40 font-semibold">
+                    Sabado
+                  </span>
+                  <span className="text-base font-bold text-seoul-white">7 de junio</span>
                 </div>
-                <div className="flex flex-col gap-1.5">
-                  <Clock size={14} className="text-seoul-red" />
-                  <div>
-                    <div className="text-[10px] uppercase tracking-wider text-white/40">Hora</div>
-                    <div className="text-white/85 font-semibold">20:00 CL</div>
-                  </div>
-                </div>
-                <div className="flex flex-col gap-1.5">
-                  <Globe size={14} className="text-seoul-red" />
-                  <div>
-                    <div className="text-[10px] uppercase tracking-wider text-white/40">Modo</div>
-                    <div className="text-white/85 font-semibold">Zoom · LATAM</div>
-                  </div>
-                </div>
-              </div>
 
-              {/* CTA */}
-              <div className="px-7 pt-6 pb-7">
+                <div className="mt-6 pt-6 border-t border-white/[0.08]">
+                  <div className="text-[10px] uppercase tracking-[0.2em] text-white/40 font-semibold mb-4">
+                    Horario por pais
+                  </div>
+                  <div className="grid grid-cols-3 gap-3">
+                    {TIMEZONES.map((tz) => (
+                      <div
+                        key={tz.country}
+                        className="flex flex-col items-center gap-0.5 py-2 px-1 rounded-lg bg-white/[0.025] border border-white/[0.05]"
+                      >
+                        <span className="text-xl leading-none mb-1">{FLAG_EMOJI[tz.flag]}</span>
+                        <span className="text-[10px] text-white/50 uppercase tracking-wider font-medium">
+                          {tz.country}
+                        </span>
+                        <span className="text-sm text-white/90 font-bold tabular-nums">
+                          {tz.time}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-[10px] text-white/35 mt-3 italic">
+                    *Espana: 01:00 del domingo (replay disponible 48h)
+                  </p>
+                </div>
+
                 <Link
                   href="/taller"
                   onClick={handleClose}
-                  className="group w-full flex items-center justify-center gap-2 px-6 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold text-sm rounded-xl transition-all duration-300"
+                  className="group mt-6 w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold text-sm rounded-xl transition-all duration-300"
                 >
                   <span>Reservar mi cupo gratis</span>
                   <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
                 </Link>
                 <button
                   onClick={handleClose}
-                  className="w-full mt-3 text-white/40 hover:text-white/70 text-xs font-medium tracking-wide transition-colors"
+                  className="block mx-auto mt-3 text-white/40 hover:text-white/70 text-xs font-medium tracking-wide transition-colors"
                 >
-                  No, gracias — quizás otra vez
+                  No, gracias - quizas otra vez
                 </button>
               </div>
 
-              {/* Bottom hangul decoration */}
               <div
                 aria-hidden
-                className="absolute -bottom-6 -right-6 font-korean font-black text-white/[0.025] leading-none select-none pointer-events-none"
-                style={{ fontSize: '8rem' }}
+                className="absolute bottom-0 right-0 font-korean font-black text-white/[0.025] leading-none select-none pointer-events-none translate-x-4 translate-y-4"
+                style={{ fontSize: '7rem' }}
               >
-                무료
+                {'무료'}
               </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </>
       )}
     </AnimatePresence>
