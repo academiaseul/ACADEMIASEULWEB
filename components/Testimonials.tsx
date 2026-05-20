@@ -1,125 +1,75 @@
 'use client';
 
-import { useRef, useState } from 'react';
-import { motion, useInView, AnimatePresence } from 'framer-motion';
-import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
+import { useRef } from 'react';
+import { motion, useInView } from 'framer-motion';
+import { Globe, Languages, GraduationCap, BookOpenCheck, Users, ShieldCheck } from 'lucide-react';
 
-const testimonials = [
+const reasons = [
   {
-    id: 0,
-    name: 'Isidora Figueroa',
-    role: 'Estudiante · Nivel A1',
-    initials: 'IF',
-    stars: 5,
-    quote: 'Para mi fue un gran profesor! Le entendí muy bien y era bueno explicando. Si alguien no entendía volvía a explicar. Sus clases eran muy divertidas y aprendimos muchas cosas sobre la cultura coreana.',
-    course: 'Coreano Básico',
-    achievement: 'Cultura coreana + idioma',
+    icon: Globe,
+    title: 'Profesora nativa de Seúl',
+    description:
+      'Nací en Seúl en 1990 y llegué a Chile a los 10 años. No "hablo coreano" — lo viví desde pequeña. La pronunciación, los matices culturales y los modismos son parte de mi día a día.',
+    color: '#C8001E',
   },
   {
-    id: 1,
-    name: 'Nedielka Curkovic',
-    role: 'Estudiante · Nivel A2',
-    initials: 'NC',
-    stars: 5,
-    quote: 'Las clases son bastante entretenidas porque más que pasar solo contenido también nos enseña de otras cosas. Cuando le preguntamos un concepto nos cuenta una pequeña historia relacionada — así lo recuerdo más fácilmente.',
-    course: 'Coreano Básico',
-    achievement: 'Aprendizaje dinámico y cultural',
+    icon: Languages,
+    title: 'Bilingüe perfecto coreano-español',
+    description:
+      'Crucé los dos idiomas durante 25+ años. Conozco exactamente dónde se traba un hispanohablante con el coreano — y cómo destrabarlo en minutos, no en años.',
+    color: '#003478',
   },
   {
-    id: 2,
-    name: 'Carolina Morales',
-    role: 'Estudiante · Nivel B1',
-    initials: 'CM',
-    stars: 5,
-    quote: 'Excelente profesor. Siempre disponible para responder dudas dentro y fuera del horario de clases, además de explicar hasta que se entienda. Las clases son divertidas y entendibles. ¡Gracias profesor!',
-    course: 'Coreano Intermedio',
-    achievement: 'Atención personalizada',
+    icon: GraduationCap,
+    title: '8+ años enseñando coreano',
+    description:
+      'No es mi primer rodeo. Llevo años enseñando coreano formal e informalmente a estudiantes chilenos y latinoamericanos. Cada error que cometes, ya lo he visto antes.',
+    color: '#D4AF37',
   },
   {
-    id: 3,
-    name: 'Catalina Saavedra',
-    role: 'Estudiante · Nivel A2',
-    initials: 'CS',
-    stars: 5,
-    quote: 'Muy buen profesor, sus explicaciones son muy claras y siempre da distintos ejemplos. Además nos enseña sobre cultura y cosas típicas de Corea. También enseña con música, lo cual facilita mucho el oído y la pronunciación correcta.',
-    course: 'Coreano Básico',
-    achievement: 'Pronunciación perfecta con música',
+    icon: BookOpenCheck,
+    title: 'Método Chingu™',
+    description:
+      'Diseñado específicamente para hispanohablantes. No es un programa coreano traducido — es un enfoque pensado desde el español, con metáforas y referencias que sí entiendes.',
+    color: '#C8001E',
   },
   {
-    id: 4,
-    name: 'Paulina Cerda',
-    role: 'Estudiante · Nivel B1',
-    initials: 'PC',
-    stars: 5,
-    quote: 'Clases claras y didácticas, con entrega de material adecuado para estudio. Se agradece el esfuerzo para fomentar la participación en clases y explicar reiteradamente en caso de dudas. Además la disposición para resolver dudas fuera del horario.',
-    course: 'Coreano Intermedio',
-    achievement: 'Material completo incluido',
+    icon: Users,
+    title: 'Grupos con cupos limitados',
+    description:
+      'No saturamos las cohortes. Grupos pequeños para que cada Chingu reciba atención personal, dudas resueltas en vivo y feedback de pronunciación real.',
+    color: '#003478',
   },
   {
-    id: 5,
-    name: 'Mariam',
-    role: 'Estudiante · Nivel A1',
-    initials: 'MA',
-    stars: 5,
-    quote: 'Jae Hee tiene muy buena disposición cuando alguien tiene una duda, complementa sus clases con cultura general y se dan espacios de confianza donde se pueden compartir experiencias.',
-    course: 'Coreano Básico',
-    achievement: 'Ambiente de confianza',
+    icon: ShieldCheck,
+    title: 'Garantía y transparencia',
+    description:
+      'Si después de la primera semana sientes que no es para ti, devolvemos el 100%. Cero letra chica. Cero atadura. Si vienes, es porque quieres estar.',
+    color: '#D4AF37',
   },
-  {
-    id: 6,
-    name: 'Valentina San Martín',
-    role: 'Estudiante · Nivel A1',
-    initials: 'VS',
-    stars: 5,
-    quote: 'Fue entretenido y entendí muy bien las clases. Tiene mucha paciencia y hace agradable el aprender.',
-    course: 'Coreano Básico',
-    achievement: 'Paciencia y dedicación',
-  },
-];
-
-function StarRating({ count }: { count: number }) {
-  return (
-    <div className="flex gap-1">
-      {Array.from({ length: count }).map((_, i) => (
-        <Star key={i} size={14} className="fill-seoul-gold text-seoul-gold" />
-      ))}
-    </div>
-  );
-}
-
-function Avatar({ initials, color }: { initials: string; color: string }) {
-  return (
-    <div
-      className="w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 border-2 border-seoul-red/20 text-white font-bold text-lg"
-      style={{ background: color }}
-    >
-      {initials}
-    </div>
-  );
-}
-
-const avatarColors = [
-  '#C8001E', '#003478', '#D4AF37', '#C8001E', '#003478', '#D4AF37', '#C8001E',
 ];
 
 export default function Testimonials() {
-  const [active, setActive] = useState(0);
   const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: '-80px' });
-
-  const prev = () => setActive((v) => (v - 1 + testimonials.length) % testimonials.length);
-  const next = () => setActive((v) => (v + 1) % testimonials.length);
-
-  const t = testimonials[active];
+  const inView = useInView(ref, { once: true, margin: '-100px' });
 
   return (
     <section
       id="testimonials"
       ref={ref}
-      className="relative bg-seoul-white section-padding overflow-hidden"
+      className="relative bg-seoul-black section-padding overflow-hidden"
     >
-      {/* Decorative red strip */}
-      <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-seoul-red to-transparent" />
+      {/* Corner glows */}
+      <div className="absolute top-0 left-0 w-96 h-96 bg-seoul-red/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-seoul-blue/5 rounded-full blur-3xl pointer-events-none" />
+
+      {/* Subtle hangul watermark */}
+      <div
+        aria-hidden
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[18rem] font-black text-white/[0.015] leading-none select-none pointer-events-none font-korean"
+      >
+        {'신뢰'}
+      </div>
 
       <div className="container-tight relative z-10">
         {/* Header */}
@@ -127,134 +77,132 @@ export default function Testimonials() {
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="text-center mb-16"
+          className="mb-16 text-center"
         >
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
-            Testimonios reales
+            Por qué Academia Seúl
           </span>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight">
-            Lo que dicen
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-white leading-tight max-w-3xl mx-auto">
+            Lo que nos hace
             <br />
-            <em className="not-italic text-gradient-red">nuestros estudiantes</em>
+            <span className="text-gradient-red">diferentes</span>
           </h2>
+          <p className="mt-6 text-white/50 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
+            Academia Seúl recién abre sus puertas. No tenemos cientos de testimonios todavía
+            — tenemos algo mejor: una propuesta honesta de quién soy y cómo voy a enseñarte.
+          </p>
         </motion.div>
 
-        {/* Main testimonial */}
+        {/* Jay bio card destacado */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-4xl mx-auto"
+          className="relative glass rounded-2xl p-8 md:p-12 mb-12 overflow-hidden"
+          style={{
+            background:
+              'radial-gradient(ellipse 80% 60% at 20% 20%, rgba(200,0,30,0.12) 0%, transparent 60%), rgba(255,255,255,0.02)',
+            boxShadow: '0 0 0 1px rgba(255,255,255,0.06)',
+          }}
         >
-          <div className="relative bg-white rounded-3xl shadow-xl shadow-black/5 border border-black/[0.05] p-10 md:p-14 overflow-hidden">
-            {/* Quote icon */}
-            <Quote
-              size={60}
-              className="absolute top-8 right-10 text-seoul-red/10 rotate-180"
-              fill="currentColor"
-            />
-
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={t.id}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
-                transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              >
-                {/* Stars */}
-                <div className="mb-6">
-                  <StarRating count={t.stars} />
-                </div>
-
-                {/* Quote text */}
-                <blockquote className="text-xl md:text-2xl text-seoul-black/80 leading-relaxed font-medium mb-8">
-                  "{t.quote}"
-                </blockquote>
-
-                {/* Author row */}
-                <div className="flex items-center gap-4">
-                  <Avatar initials={t.initials} color={avatarColors[t.id]} />
-                  <div className="flex-1">
-                    <div className="font-bold text-seoul-black text-base">{t.name}</div>
-                    <div className="text-sm text-seoul-black/50">{t.role}</div>
-                  </div>
-                  <div className="hidden md:flex flex-col items-end gap-1">
-                    <span className="text-xs bg-seoul-red/10 text-seoul-red font-semibold px-3 py-1 rounded-full">
-                      {t.course}
-                    </span>
-                    <span className="text-xs text-seoul-black/40">✓ {t.achievement}</span>
-                  </div>
-                </div>
-              </motion.div>
-            </AnimatePresence>
-          </div>
-
-          {/* Controls */}
-          <div className="flex items-center justify-between mt-8 px-2">
-            {/* Dots */}
-            <div className="flex gap-2">
-              {testimonials.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setActive(i)}
-                  className={`transition-all duration-300 rounded-full ${
-                    i === active
-                      ? 'w-8 h-2 bg-seoul-red'
-                      : 'w-2 h-2 bg-black/15 hover:bg-black/30'
-                  }`}
-                  aria-label={`Testimonio ${i + 1}`}
-                />
-              ))}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center relative z-10">
+            {/* Jay info */}
+            <div className="md:col-span-1 text-center md:text-left">
+              <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-seoul-red text-white font-black text-3xl mb-4 border-2 border-white/10">
+                {'JC'}
+              </div>
+              <div className="text-2xl font-bold text-seoul-white">Jay Chingu</div>
+              <div className="text-sm font-korean text-white/50 mt-1">{'제이 친구'}</div>
+              <div className="text-xs uppercase tracking-widest text-seoul-red mt-3 font-semibold">
+                Fundadora · Profesora
+              </div>
             </div>
 
-            {/* Arrows */}
-            <div className="flex gap-3">
-              <button
-                onClick={prev}
-                className="w-11 h-11 rounded-full border border-black/10 flex items-center justify-center hover:border-seoul-red hover:text-seoul-red text-black/50 transition-all duration-200 hover:bg-seoul-red/5"
-                aria-label="Anterior"
-              >
-                <ChevronLeft size={18} />
-              </button>
-              <button
-                onClick={next}
-                className="w-11 h-11 rounded-full bg-seoul-red text-white flex items-center justify-center hover:bg-red-700 transition-colors duration-200 shadow-lg shadow-seoul-red/20"
-                aria-label="Siguiente"
-              >
-                <ChevronRight size={18} />
-              </button>
+            {/* Story */}
+            <div className="md:col-span-2 space-y-3">
+              <p className="text-base md:text-lg text-seoul-white/85 leading-relaxed">
+                <span className="font-korean">{'안녕'}</span>, soy Jay. Nací en Seúl, llegué a
+                Chile a los 10 años, y crecí entre kimchi y empanadas — entre{' '}
+                <span className="font-korean">{'한글'}</span> y español.
+              </p>
+              <p className="text-sm text-white/55 leading-relaxed">
+                De día soy gerente en una empresa coreana de genómica en Las Condes. De noche
+                hago lo que más amo: enseñar mi idioma a quienes lo aprenden por amor a la
+                cultura. Academia Seúl nació para construir el puente que yo no tuve a los 10.
+              </p>
+              <div className="pt-3 flex flex-wrap gap-2">
+                {[
+                  '🇰🇷 Nativa de Seúl',
+                  '🇨🇱 Bilingüe español',
+                  '8+ años enseñando',
+                  'Método Chingu™',
+                ].map((tag) => (
+                  <span
+                    key={tag}
+                    className="text-[11px] font-semibold text-white/70 bg-white/[0.04] border border-white/10 px-3 py-1 rounded-full"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </motion.div>
 
-        {/* Rating summary */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.7, delay: 0.4 }}
-          className="mt-14 flex flex-col items-center gap-4"
-        >
-          <div className="flex -space-x-3">
-            {testimonials.slice(0, 7).map((t) => (
-              <div
-                key={t.id}
-                className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center text-white text-xs font-bold"
-                style={{ background: avatarColors[t.id], zIndex: 7 - t.id }}
+        {/* Grid de razones */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {reasons.map((reason, i) => {
+            const Icon = reason.icon;
+            return (
+              <motion.div
+                key={reason.title}
+                initial={{ opacity: 0, y: 30 }}
+                animate={inView ? { opacity: 1, y: 0 } : {}}
+                transition={{
+                  duration: 0.6,
+                  delay: 0.2 + (i % 3) * 0.08,
+                  ease: [0.22, 1, 0.36, 1],
+                }}
+                className="relative glass rounded-2xl p-7 flex flex-col gap-4 hover:translate-y-[-4px] transition-transform duration-300"
+                style={{ boxShadow: '0 0 0 1px rgba(255,255,255,0.06)' }}
               >
-                {t.initials}
-              </div>
-            ))}
-          </div>
-          <div className="text-center">
-            <div className="flex items-center gap-1.5 justify-center mb-1">
-              <StarRating count={5} />
-              <span className="text-sm font-bold text-seoul-black">5.0</span>
-            </div>
-            <p className="text-xs text-seoul-black/50">
-              Basado en +16 reseñas verificadas de estudiantes reales
-            </p>
-          </div>
+                <div
+                  className="w-12 h-12 rounded-xl flex items-center justify-center"
+                  style={{
+                    background: `${reason.color}20`,
+                    border: `1px solid ${reason.color}30`,
+                  }}
+                >
+                  <Icon size={22} style={{ color: reason.color }} />
+                </div>
+                <h3 className="text-lg font-bold text-seoul-white leading-tight">
+                  {reason.title}
+                </h3>
+                <p className="text-sm text-white/55 leading-relaxed flex-1">
+                  {reason.description}
+                </p>
+              </motion.div>
+            );
+          })}
+        </div>
+
+        {/* Footer CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-14 text-center"
+        >
+          <p className="text-white/40 text-sm mb-5">
+            La mejor forma de conocerme: el taller gratuito del 7 de junio.
+          </p>
+          <a
+            href="/taller"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
+          >
+            Conoce el método en vivo (gratis)
+            <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
+          </a>
         </motion.div>
       </div>
     </section>
