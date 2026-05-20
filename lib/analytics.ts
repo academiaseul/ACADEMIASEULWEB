@@ -1,21 +1,33 @@
 import { trackMetaEvent } from '@/components/MetaPixel';
 import { trackGAEvent } from '@/components/GoogleAnalytics';
-import { track as trackVercel } from '@vercel/analytics';
 
 /**
  * Track a conversion event across all analytics providers
  * (Vercel Analytics, Meta Pixel, Google Analytics).
+ * Only runs on the client side.
  */
 export function trackConversion(
   eventName: string,
   params?: Record<string, string | number | boolean>,
 ) {
-  // Vercel Analytics (custom event)
-  try {
-    trackVercel(eventName, params);
-  } catch {
-    // Vercel might not be loaded yet
-  }
+  if (typeof window === 'undefined') return;
+
+  // Vercel Analytics (custom event) - dynamic import to avoid SSR issues
+  import('@vercel/analytics')
+    .then((mod) => {
+      try {
+        if (params) {
+          mod.track(eventName, params);
+        } else {
+          mod.track(eventName);
+        }
+      } catch {
+        // Vercel analytics not loaded yet
+      }
+    })
+    .catch(() => {
+      // ignore
+    });
 
   // Google Analytics 4
   trackGAEvent(eventName, params);
