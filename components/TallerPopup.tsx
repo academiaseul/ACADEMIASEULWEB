@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import Link from 'next/link';
+import { events } from '@/lib/analytics';
 
 const STORAGE_KEY = 'taller_popup_dismissed_v1';
 const SHOW_AFTER_MS = 15000;
@@ -69,6 +70,11 @@ export default function TallerPopup() {
     } catch {
       // ignore
     }
+  };
+
+  const handleCtaClick = () => {
+    events.popupCtaClick();
+    handleClose();
   };
 
   return (
@@ -162,11 +168,11 @@ export default function TallerPopup() {
 
                 <Link
                   href="/taller"
-                  onClick={handleClose}
+                  onClick={handleCtaClick}
                   className="group mt-6 w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold text-sm rounded-xl transition-all duration-300"
                 >
                   <span>Reservar mi cupo gratis</span>
-                  <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
+                  <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
                 </Link>
                 <button
                   onClick={handleClose}

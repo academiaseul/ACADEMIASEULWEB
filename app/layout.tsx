@@ -1,8 +1,13 @@
 import type { Metadata } from 'next';
 import { Inter, DM_Serif_Display } from 'next/font/google';
+import { Suspense } from 'react';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import TallerPopup from '@/components/TallerPopup';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
+import MetaPixel from '@/components/MetaPixel';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -58,6 +63,14 @@ export default function RootLayout({
         {children}
         <TallerPopup />
         <WhatsAppFloat />
+
+        {/* Analytics (cargan solo si las env vars existen) */}
+        <Suspense fallback={null}>
+          <MetaPixel />
+          <GoogleAnalytics />
+        </Suspense>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
