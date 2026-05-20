@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, DM_Serif_Display } from 'next/font/google';
 import './globals.css';
 import TallerPopup from '@/components/TallerPopup';
+import WhatsAppFloat from '@/components/WhatsAppFloat';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -56,6 +57,7 @@ export default function RootLayout({
       <body className="bg-seoul-black antialiased overflow-x-hidden">
         {children}
         <TallerPopup />
+        <WhatsAppFloat />
       </body>
     </html>
   );
