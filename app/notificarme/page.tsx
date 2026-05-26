@@ -146,7 +146,7 @@ function NotificarmeForm() {
 
       <div className="mt-12 pt-12 border-t border-white/10 text-center">
         <p className="text-white/50 text-sm mb-4">
-          ¿Quieres empezar YA? Te invito al taller gratuito del 7 de junio:
+          ¿Quieres empezar YA? Te invito al taller gratuito del 6 de junio:
         </p>
         <Link
           href="/taller"

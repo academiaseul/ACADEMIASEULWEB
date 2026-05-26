@@ -337,7 +337,7 @@ export default function Testimonials() {
           className="mt-14 text-center"
         >
           <p className="text-white/40 text-sm mb-5">
-            La mejor forma de conocer mi metodo: el taller gratuito del 7 de junio.
+            La mejor forma de conocer mi metodo: el taller gratuito del 6 de junio.
           </p>
           <a
             href="/taller"

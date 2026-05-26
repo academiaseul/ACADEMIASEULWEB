@@ -138,7 +138,7 @@ export default function TallerPopup() {
                   <span className="text-xs uppercase tracking-widest text-white/40 font-semibold">
                     Sabado
                   </span>
-                  <span className="text-base font-bold text-seoul-white">7 de junio</span>
+                  <span className="text-base font-bold text-seoul-white">6 de junio</span>
                 </div>
 
                 <div className="mt-6 pt-6 border-t border-white/[0.08]">

@@ -111,7 +111,7 @@ export default function Terminos() {
                 de 7 días aplica únicamente sobre el saldo restante.
               </li>
               <li>
-                El taller gratuito del 7 de junio no genera obligación económica de
+                El taller gratuito del 6 de junio no genera obligación económica de
                 ninguna parte: es 100% gratuito.
               </li>
             </ul>

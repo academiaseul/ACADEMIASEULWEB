@@ -113,7 +113,7 @@ export default function TallerPage() {
     },
   ];
 
-  // LATAM time zones for Saturday June 7, 2026 at 20:00 Chile time
+  // LATAM time zones for Saturday June 6, 2026 at 20:00 Chile time
   // Chile is UTC-4 in June (winter, no DST)
   const timezones = [
     { flag: "🇲🇽", country: "México (CDMX)",         time: "18:00" },
@@ -218,7 +218,7 @@ export default function TallerPage() {
           <div className="flex flex-col gap-1 bg-[#0D0D0D] border-2 border-[#E8B84B] px-5 py-3 w-fit mb-6 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
             <span className="text-[#E8B84B] text-[10px] font-bold tracking-[2px] uppercase">📅 Fecha confirmada</span>
             <span className="text-white font-black text-lg leading-tight" style={{ fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}>
-              Sábado 7 de Junio · 20:00 hrs Chile
+              Sábado 6 de Junio · 20:00 hrs Chile
             </span>
           </div>
 
@@ -288,7 +288,7 @@ export default function TallerPage() {
           <h2 className="font-black text-white leading-none mb-2 text-center"
             style={{ fontSize: "clamp(28px, 4vw, 44px)", fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
           >
-            Sábado 7 de Junio
+            Sábado 6 de Junio
           </h2>
           <p className="text-white/60 text-sm text-center mb-10">
             Conéctate desde donde estés — encuentra tu hora local 🌎
@@ -424,7 +424,7 @@ export default function TallerPage() {
             Reserva tu lugar
           </h2>
           <p className="text-white/90 text-sm font-bold mb-2 tracking-wider uppercase">
-            📅 Sábado 7 de Junio · 20:00 hrs Chile
+            📅 Sábado 6 de Junio · 20:00 hrs Chile
           </p>
           <p className="text-white/70 text-base leading-relaxed mb-10">
             Regístrate gratis y te enviamos el link de Zoom por correo. No necesitas saber nada de coreano — solo ganas. 화이팅 chingu 🇰🇷
@@ -439,7 +439,7 @@ export default function TallerPage() {
                 ¡Tu lugar está reservado!
               </h3>
               <p className="text-white/80 text-sm mb-3">
-                Nos vemos el <strong>sábado 7 de junio a las 20:00 hrs Chile</strong>.
+                Nos vemos el <strong>sábado 6 de junio a las 20:00 hrs Chile</strong>.
               </p>
               <p className="text-white/70 text-sm">
                 Te enviaremos el link de Zoom por correo unas horas antes. 화이팅!
@@ -530,7 +530,7 @@ export default function TallerPage() {
           <span className="text-[#C8001E]">te espera.</span>
         </h2>
         <p className="text-[#E8B84B] text-sm font-bold tracking-wider uppercase mb-6">
-          📅 Sábado 7 de Junio · 20:00 hrs Chile
+          📅 Sábado 6 de Junio · 20:00 hrs Chile
         </p>
         <a
           href="#registro"
