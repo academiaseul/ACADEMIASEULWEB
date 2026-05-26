@@ -176,7 +176,7 @@ export default function Testimonials() {
           </p>
         </motion.div>
 
-        {/* Jay bio card */}
+        {/* 김재희 bio card */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -190,19 +190,20 @@ export default function Testimonials() {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center relative z-10">
             <div className="md:col-span-1 text-center md:text-left">
-              <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-seoul-red text-white font-black text-3xl mb-4 border-2 border-white/10">
-                JC
+              <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-seoul-red text-white font-black text-2xl mb-4 border-2 border-white/10 font-korean">
+                {'김재희'}
               </div>
-              <div className="text-2xl font-bold text-seoul-white">Jay Chingu</div>
-              <div className="text-sm font-korean text-white/50 mt-1">{'제이 친구'}</div>
+              <div className="text-2xl font-bold text-seoul-white font-korean">{'김재희'}</div>
+              <div className="text-sm text-white/60 mt-1">Jay Chingu</div>
               <div className="text-xs uppercase tracking-widest text-seoul-red mt-3 font-semibold">
-                Fundadora / Profesora
+                Fundador / Profesor
               </div>
             </div>
 
             <div className="md:col-span-2 space-y-3">
               <p className="text-base md:text-lg text-seoul-white/85 leading-relaxed">
-                <span className="font-korean">{'안녕'}</span>, soy Jay. Naci en Seul, llegue a
+                <span className="font-korean">{'안녕하세요'}</span>, soy{' '}
+                <span className="font-korean font-bold">{'김재희'}</span> - mejor conocido como Jay. Naci en Seul, llegue a
                 Chile a los 10 anos, y creci entre kimchi y empanadas - entre{' '}
                 <span className="font-korean">{'한글'}</span> y espanol.
               </p>
@@ -213,7 +214,7 @@ export default function Testimonials() {
               </p>
               <div className="pt-3 flex flex-wrap gap-2">
                 {[
-                  'Nativa de Seul',
+                  'Nativo de Seul',
                   'Bilingue espanol',
                   '8+ anos ensenando',
                   'Metodo Chingu',
@@ -231,7 +232,7 @@ export default function Testimonials() {
         </motion.div>
 
         {/* Razones grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-14">
           {reasons.map((reason, i) => {
             const Icon = reason.icon;
             return (
@@ -267,11 +268,30 @@ export default function Testimonials() {
           })}
         </div>
 
-        {/* Testimonios reales */}
+        {/* CTA principal (despues de las razones) */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
+          className="text-center mb-20"
+        >
+          <p className="text-white/40 text-sm mb-5">
+            La mejor forma de conocer mi metodo: el taller gratuito del 6 de junio.
+          </p>
+          <a
+            href="/taller"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
+          >
+            Conoce el Metodo Chingu en vivo (gratis)
+            <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
+          </a>
+        </motion.div>
+
+        {/* Testimonios reales DEBAJO del CTA */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ duration: 0.7, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
           className="mb-12 text-center"
         >
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
@@ -294,7 +314,7 @@ export default function Testimonials() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{
                 duration: 0.6,
-                delay: 0.4 + (i % 3) * 0.08,
+                delay: 0.6 + (i % 3) * 0.08,
                 ease: [0.22, 1, 0.36, 1],
               }}
               className="relative glass rounded-2xl p-7 flex flex-col gap-4 hover:translate-y-[-4px] transition-transform duration-300"
@@ -328,25 +348,6 @@ export default function Testimonials() {
             </motion.div>
           ))}
         </div>
-
-        {/* Footer CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-14 text-center"
-        >
-          <p className="text-white/40 text-sm mb-5">
-            La mejor forma de conocer mi metodo: el taller gratuito del 6 de junio.
-          </p>
-          <a
-            href="/taller"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
-          >
-            Conoce el metodo en vivo (gratis)
-            <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
-          </a>
-        </motion.div>
       </div>
     </section>
   );
