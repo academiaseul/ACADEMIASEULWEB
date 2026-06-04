@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
@@ -35,6 +35,7 @@ const FLAG_EMOJI: Record<string, string> = {
 export default function TallerPopup() {
   const [isOpen, setIsOpen] = useState(false);
   const [tallerOver, setTallerOver] = useState(false);
+  const hasShownRef = useRef(false); // show at most once per visit
   const pathname = usePathname();
 
   useEffect(() => {
@@ -51,22 +52,22 @@ export default function TallerPopup() {
       // ignore
     }
 
-    let exitHandler: ((e: MouseEvent) => void) | null = null;
-
-    const timer = setTimeout(() => {
+    const show = () => {
+      if (hasShownRef.current) return;
+      hasShownRef.current = true;
       setIsOpen(true);
-    }, SHOW_AFTER_MS);
+    };
 
-    exitHandler = (e: MouseEvent) => {
-      if (e.clientY <= 0 && !isOpen) {
-        setIsOpen(true);
-      }
+    const timer = setTimeout(show, SHOW_AFTER_MS);
+
+    const exitHandler = (e: MouseEvent) => {
+      if (e.clientY <= 0) show();
     };
     document.addEventListener('mouseleave', exitHandler);
 
     return () => {
       clearTimeout(timer);
-      if (exitHandler) document.removeEventListener('mouseleave', exitHandler);
+      document.removeEventListener('mouseleave', exitHandler);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
