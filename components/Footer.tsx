@@ -1,6 +1,8 @@
 import { Instagram, Youtube, Facebook, MessageCircle } from 'lucide-react';
 
 const INSTAGRAM_URL = 'https://www.instagram.com/academiaseul/';
+const YOUTUBE_URL = 'https://www.youtube.com/@JayChingu.Oficial';
+const FACEBOOK_URL = 'https://www.facebook.com/jaychingu.oficial';
 const WHATSAPP_URL =
   'https://wa.me/56942115562?text=Hola%20Jay!%20Quiero%20apuntarme%20al%20taller%20gratuito%20de%20Hangul%20(mi%20clase%20de%20prueba)';
 
@@ -57,8 +59,8 @@ export default function Footer() {
             <div className="flex gap-3">
               {[
                 { icon: Instagram, href: INSTAGRAM_URL, label: 'Instagram', external: true },
-                { icon: Youtube, href: '#', label: 'YouTube', external: false },
-                { icon: Facebook, href: '#', label: 'Facebook', external: false },
+                { icon: Youtube, href: YOUTUBE_URL, label: 'YouTube', external: true },
+                { icon: Facebook, href: FACEBOOK_URL, label: 'Facebook', external: true },
                 { icon: MessageCircle, href: WHATSAPP_URL, label: 'WhatsApp', external: true },
               ].map(({ icon: Icon, href, label, external }) => (
                 <a
