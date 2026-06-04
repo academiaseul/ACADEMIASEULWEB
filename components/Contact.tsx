@@ -2,7 +2,7 @@
 
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Phone, Mail, Instagram, MessageCircle, MapPin, Facebook } from 'lucide-react';
+import { Phone, Mail, Instagram, MessageCircle, MapPin, Facebook, Youtube } from 'lucide-react';
 import clsx from 'clsx';
 
 const levels = ['Principiante (sin experiencia)', 'Básico A1-A2', 'Intermedio B1-B2', 'Avanzado C1-C2', 'No sé mi nivel'];
@@ -19,6 +19,7 @@ const INSTAGRAM_URL = 'https://www.instagram.com/academiaseul/';
 // Personal channels (jaychingu.oficial) — used in the "Síguenos" row
 const PERSONAL_INSTAGRAM_URL = 'https://www.instagram.com/jaychingu.oficial/';
 const TIKTOK_URL = 'https://www.tiktok.com/@jaychingu.oficial';
+const YOUTUBE_URL = 'https://www.youtube.com/@JayChingu.Oficial';
 const FACEBOOK_URL = 'https://www.facebook.com/jaychingu.oficial';
 
 // TikTok isn't included in lucide-react, so we use a small inline SVG
@@ -248,6 +249,15 @@ export default function Contact() {
                   aria-label="TikTok @jaychingu.oficial"
                 >
                   <TikTokIcon size={18} />
+                </a>
+                <a
+                  href={YOUTUBE_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-red-500 hover:border-red-500/30 transition-all duration-200"
+                  aria-label="YouTube @JayChingu.Oficial"
+                >
+                  <Youtube size={18} />
                 </a>
                 <a
                   href={FACEBOOK_URL}
