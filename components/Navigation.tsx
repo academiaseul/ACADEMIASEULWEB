@@ -96,7 +96,7 @@ export default function Navigation() {
                 Inscríbete
               </a>
               <a
-                href="/#contact"
+                href="/taller"
                 className="px-5 py-2.5 bg-seoul-red hover:bg-red-700 text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-seoul-red/20 hover:shadow-seoul-red/40 hover:-translate-y-0.5"
               >
                 Clase de prueba gratis →
@@ -157,7 +157,7 @@ export default function Navigation() {
         </nav>
         <div className="mt-auto">
           <a
-            href="/#contact"
+            href="/taller"
             className="block w-full text-center py-4 bg-seoul-red text-white font-bold text-lg rounded-lg mt-8 hover:bg-red-700 transition-colors duration-200"
             onClick={() => setMobileOpen(false)}
           >

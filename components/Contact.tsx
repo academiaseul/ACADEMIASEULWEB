@@ -11,7 +11,7 @@ const interests = ['Coreano General', 'K-pop / K-drama', 'Conversación', 'Prepa
 const CONTACT_PHONE_DISPLAY = '+56 9 4211 5562';
 const CONTACT_EMAIL = 'hola.academiaseul@gmail.com';
 const WHATSAPP_URL =
-  'https://wa.me/56942115562?text=Hola,%20me%20interesa%20una%20clase%20de%20prueba%20gratuita%20en%20Academia%20Seúl';
+  'https://wa.me/56942115562?text=Hola%20Jay!%20Quiero%20apuntarme%20al%20taller%20gratuito%20de%20Hangul%20(mi%20clase%20de%20prueba)';
 
 // Brand (academy) channel — used in the contact info card
 const INSTAGRAM_URL = 'https://www.instagram.com/academiaseul/';

@@ -2,7 +2,7 @@ import { Instagram, Youtube, Facebook, MessageCircle } from 'lucide-react';
 
 const INSTAGRAM_URL = 'https://www.instagram.com/academiaseul/';
 const WHATSAPP_URL =
-  'https://wa.me/56942115562?text=Hola,%20me%20interesa%20una%20clase%20de%20prueba%20gratuita%20en%20Academia%20Se%C3%BAl';
+  'https://wa.me/56942115562?text=Hola%20Jay!%20Quiero%20apuntarme%20al%20taller%20gratuito%20de%20Hangul%20(mi%20clase%20de%20prueba)';
 
 const footerLinks = {
   Cursos: [
