@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { PROXIMO_TALLER, tallerVigente } from "@/lib/taller";
 
 type FormData = {
   nombre: string;
@@ -25,6 +26,14 @@ export default function TallerPage() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  // true mientras haya un taller anunciado y vigente; false => modo "próximo taller"
+  const [vigente, setVigente] = useState(true);
+
+  useEffect(() => {
+    setVigente(tallerVigente());
+  }, []);
+
+  const fechaCompleta = `${PROXIMO_TALLER.fechaLabel} · ${PROXIMO_TALLER.horaLabel}`;
 
   const handleSubmit = async () => {
     if (!formData.nombre || !formData.email) return;
@@ -37,7 +46,9 @@ export default function TallerPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
-          _subject: "Nueva inscripción — Taller Hangul",
+          _subject: vigente
+            ? "Nueva inscripción — Taller Hangul"
+            : "Lista de espera — Próximo Taller",
         }),
       });
 
@@ -216,9 +227,11 @@ export default function TallerPage() {
 
           {/* Date badge */}
           <div className="flex flex-col gap-1 bg-[#0D0D0D] border-2 border-[#E8B84B] px-5 py-3 w-fit mb-6 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
-            <span className="text-[#E8B84B] text-[10px] font-bold tracking-[2px] uppercase">📅 Fecha confirmada</span>
+            <span className="text-[#E8B84B] text-[10px] font-bold tracking-[2px] uppercase">
+              {vigente ? "📅 Fecha confirmada" : "📅 Próximo taller"}
+            </span>
             <span className="text-white font-black text-lg leading-tight" style={{ fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}>
-              Sábado 6 de Junio · 20:00 hrs Chile
+              {vigente ? fechaCompleta : "Fecha por anunciar — déjanos tu correo"}
             </span>
           </div>
 
@@ -247,7 +260,7 @@ export default function TallerPage() {
             href="#registro"
             className="inline-flex items-center gap-3 bg-[#E8B84B] text-[#0D0D0D] font-bold text-sm px-8 py-4 w-fit shadow-[4px_4px_0_rgba(0,0,0,0.25)] hover:shadow-[6px_6px_0_rgba(0,0,0,0.3)] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
           >
-            Reservar mi lugar gratis <span className="text-lg">→</span>
+            {vigente ? "Reservar mi lugar gratis" : "Avísame del próximo taller"} <span className="text-lg">→</span>
           </a>
         </div>
 
@@ -279,7 +292,8 @@ export default function TallerPage() {
         </div>
       </section>
 
-      {/* ── TIME ZONES ── */}
+      {/* ── TIME ZONES (solo con taller vigente) ── */}
+      {vigente && (
       <section className="bg-[#0D0D0D] py-16 px-6 md:px-14">
         <div className="max-w-4xl mx-auto">
           <p className="text-[#E8B84B] text-xs font-bold tracking-[3px] uppercase mb-3 text-center">
@@ -288,7 +302,7 @@ export default function TallerPage() {
           <h2 className="font-black text-white leading-none mb-2 text-center"
             style={{ fontSize: "clamp(28px, 4vw, 44px)", fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
           >
-            Sábado 6 de Junio
+            {PROXIMO_TALLER.fechaLabel}
           </h2>
           <p className="text-white/60 text-sm text-center mb-10">
             Conéctate desde donde estés — encuentra tu hora local 🌎
@@ -325,6 +339,7 @@ export default function TallerPage() {
           </p>
         </div>
       </section>
+      )}
 
       {/* ── LEARNS ── */}
       <section className="bg-[#FDF6EC] py-24 px-6 md:px-14">
@@ -424,10 +439,12 @@ export default function TallerPage() {
             Reserva tu lugar
           </h2>
           <p className="text-white/90 text-sm font-bold mb-2 tracking-wider uppercase">
-            📅 Sábado 6 de Junio · 20:00 hrs Chile
+            {vigente ? `📅 ${fechaCompleta}` : "📅 Próximo taller · Fecha por anunciar"}
           </p>
           <p className="text-white/70 text-base leading-relaxed mb-10">
-            Regístrate gratis y te enviamos el link de Zoom por correo. No necesitas saber nada de coreano — solo ganas. 화이팅 chingu 🇰🇷
+            {vigente
+              ? "Regístrate gratis y te enviamos el link de Zoom por correo. No necesitas saber nada de coreano — solo ganas. 화이팅 chingu 🇰🇷"
+              : "Déjanos tus datos y serás de los primeros en enterarte cuando anunciemos la fecha del próximo taller en vivo. 화이팅 chingu 🇰🇷"}
           </p>
 
           {submitted ? (
@@ -436,13 +453,19 @@ export default function TallerPage() {
               <h3 className="text-white font-black text-2xl mb-2"
                 style={{ fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
               >
-                ¡Tu lugar está reservado!
+                {vigente ? "¡Tu lugar está reservado!" : "¡Estás en la lista!"}
               </h3>
               <p className="text-white/80 text-sm mb-3">
-                Nos vemos el <strong>sábado 6 de junio a las 20:00 hrs Chile</strong>.
+                {vigente ? (
+                  <>Nos vemos el <strong>{fechaCompleta}</strong>.</>
+                ) : (
+                  <>Te avisaremos por correo apenas anunciemos la fecha del próximo taller.</>
+                )}
               </p>
               <p className="text-white/70 text-sm">
-                Te enviaremos el link de Zoom por correo unas horas antes. 화이팅!
+                {vigente
+                  ? "Te enviaremos el link de Zoom por correo unas horas antes. 화이팅!"
+                  : "Mientras tanto, sígueme en @jaychingu.oficial para contenido diario. 화이팅!"}
               </p>
             </div>
           ) : (
@@ -489,7 +512,7 @@ export default function TallerPage() {
                 disabled={loading || !formData.nombre || !formData.email}
                 className="w-full py-4 mt-2 bg-[#E8B84B] text-[#0D0D0D] font-bold text-base border-2 border-[#0D0D0D] shadow-[4px_4px_0_#0D0D0D] hover:shadow-[6px_6px_0_#0D0D0D] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {loading ? "Enviando..." : "🎓 ¡Quiero mi lugar gratis!"}
+                {loading ? "Enviando..." : vigente ? "🎓 ¡Quiero mi lugar gratis!" : "🔔 Avísame del próximo taller"}
               </button>
               <p className="text-white/50 text-xs text-center pt-1">
                 Sin spam. Sin cargos. Solo te avisamos sobre el taller.
@@ -530,13 +553,13 @@ export default function TallerPage() {
           <span className="text-[#C8001E]">te espera.</span>
         </h2>
         <p className="text-[#E8B84B] text-sm font-bold tracking-wider uppercase mb-6">
-          📅 Sábado 6 de Junio · 20:00 hrs Chile
+          {vigente ? `📅 ${fechaCompleta}` : "📅 Próximo taller · Fecha por anunciar"}
         </p>
         <a
           href="#registro"
           className="inline-flex items-center gap-3 bg-[#C8001E] text-white font-bold text-sm px-10 py-4 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:bg-[#9a0016] transition-colors"
         >
-          Reservar mi lugar gratis →
+          {vigente ? "Reservar mi lugar gratis" : "Avísame del próximo taller"} →
         </a>
       </section>
 

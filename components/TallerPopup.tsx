@@ -6,13 +6,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import Link from 'next/link';
 import { events } from '@/lib/analytics';
+import { PROXIMO_TALLER, tallerVigente } from '@/lib/taller';
 
 const STORAGE_KEY = 'taller_popup_dismissed_v2';
 const SHOW_AFTER_MS = 15000;
 const EXCLUDED_PATHS = ['/taller', '/notificarme', '/nivel-1'];
-
-// After the June 6 taller ends, the popup promotes the Nivel 1 launch promo
-const TALLER_END = new Date('2026-06-06T22:00:00-04:00').getTime();
 
 const TIMEZONES = [
   { flag: 'MX', country: 'México',    time: '18:00' },
@@ -39,7 +37,8 @@ export default function TallerPopup() {
   const pathname = usePathname();
 
   useEffect(() => {
-    setTallerOver(Date.now() > TALLER_END);
+    // Sin taller vigente => el popup promociona el Nivel 1
+    setTallerOver(!tallerVigente());
   }, []);
 
   useEffect(() => {
@@ -201,9 +200,9 @@ export default function TallerPopup() {
 
                 <div className="mt-6 inline-flex items-center gap-3 px-4 py-2.5 rounded-full bg-white/[0.04] border border-white/10">
                   <span className="text-xs uppercase tracking-widest text-white/40 font-semibold">
-                    Sabado
+                    En vivo
                   </span>
-                  <span className="text-base font-bold text-seoul-white">6 de junio</span>
+                  <span className="text-base font-bold text-seoul-white">{PROXIMO_TALLER.fechaLabel}</span>
                 </div>
 
                 <div className="mt-6 pt-6 border-t border-white/[0.08]">
