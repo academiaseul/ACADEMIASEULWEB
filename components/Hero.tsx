@@ -81,8 +81,8 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.8 }}
           className="mt-4 max-w-xl text-base leading-relaxed text-white/70"
         >
-          La academia de coreano más premium de Santiago. Clases presenciales
-          y online · Profesores nativos · Todos los niveles.
+          Clases de coreano en vivo con profesora nativa · Grupos pequeños ·
+          Para LATAM y España.
         </motion.p>
 
         {/* CTA Buttons — real anchor tags with real click targets */}
@@ -93,10 +93,10 @@ export default function Hero() {
           className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
           <a
-            href="#contact"
+            href="/nivel-1"
             className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:bg-red-700 hover:shadow-seoul-red/40 focus:outline-none focus:ring-2 focus:ring-seoul-red focus:ring-offset-2 focus:ring-offset-seoul-black"
           >
-            Empieza a aprender <span aria-hidden>→</span>
+            Empieza a aprender · Nivel 1 <span aria-hidden>→</span>
           </a>
           <a
             href="#courses"

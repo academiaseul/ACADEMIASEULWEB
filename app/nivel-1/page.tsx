@@ -12,7 +12,7 @@ export default function Nivel1Page() {
 
   // Countdown to Monday June 8, 2026 23:59 Chile time
   useEffect(() => {
-    const deadline = new Date("2026-06-08T23:59:00-04:00").getTime();
+    const deadline = new Date("2026-06-30T23:59:00-04:00").getTime();
     const tick = () => {
       const now = new Date().getTime();
       const diff = deadline - now;
@@ -80,7 +80,7 @@ export default function Nivel1Page() {
   const faqs = [
     {
       q: "¿Necesito haber asistido al taller?",
-      a: "No es obligatorio, pero los que vinieron al taller del 6 de junio tienen el precio especial de $89 USD (en lugar de $129) válido hasta el lunes 8 de junio a las 23:59 hora Chile.",
+      a: "No, para nada. El precio de lanzamiento de $89 USD (en lugar de $129) es para todos y está vigente hasta el 30 de junio.",
     },
     {
       q: "¿Las clases son en vivo o grabadas?",
@@ -134,7 +134,7 @@ export default function Nivel1Page() {
 
             {/* Countdown */}
             <div className="mt-10 inline-block bg-white/10 backdrop-blur rounded-2xl px-6 py-4">
-              <div className="text-xs tracking-widest opacity-80 mb-2">⏰ OFERTA TALLER · TERMINA EN</div>
+              <div className="text-xs tracking-widest opacity-80 mb-2">⏰ PROMO DE LANZAMIENTO · TERMINA EN</div>
               <div className="flex gap-4 md:gap-6 justify-center text-2xl md:text-4xl font-bold">
                 <div><div>{timeLeft.days}</div><div className="text-xs opacity-70 mt-1">DÍAS</div></div>
                 <div className="opacity-40">:</div>
@@ -252,7 +252,7 @@ export default function Nivel1Page() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="inline-block px-4 py-1 mb-4 rounded-full text-xs font-bold tracking-widest text-white" style={{ backgroundColor: "#FF5C5C" }}>
-              OFERTA TALLER · HASTA LUNES 8 JUN 23:59
+              PROMO DE LANZAMIENTO · HASTA EL 30 DE JUNIO
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
               Tu inversión
@@ -269,7 +269,7 @@ export default function Nivel1Page() {
               <div className="text-4xl">→</div>
               <div className="text-center">
                 <div className="text-6xl md:text-7xl font-bold" style={{ color: "#3D2EE8" }}>$89</div>
-                <div className="text-sm font-bold mt-1" style={{ color: "#FF5C5C" }}>USD · OFERTA TALLER</div>
+                <div className="text-sm font-bold mt-1" style={{ color: "#FF5C5C" }}>USD · PROMO LANZAMIENTO</div>
               </div>
             </div>
 
@@ -302,7 +302,7 @@ export default function Nivel1Page() {
 
             {/* Bonos */}
             <div className="bg-gradient-to-br from-[#FFE2E2] to-[#FFF5F5] rounded-2xl p-6 mb-8">
-              <h3 className="font-bold text-gray-900 mb-4 text-center">+ 4 BONOS GRATIS para los del Taller</h3>
+              <h3 className="font-bold text-gray-900 mb-4 text-center">+ 4 BONOS GRATIS por inscribirte en junio</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {bonos.map((b) => (
                   <div key={b.title} className="bg-white rounded-xl p-4 flex gap-3">
@@ -450,7 +450,7 @@ export default function Nivel1Page() {
             ¿Listo para empezar?
           </h2>
           <p className="text-lg opacity-90 mb-8">
-            El 7 de julio arranca el Nivel 1. La oferta del taller termina el lunes 8 de junio a las 23:59 hora Chile.
+            El 7 de julio arranca el Nivel 1. El precio de lanzamiento de $89 termina el 30 de junio.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a href="#pricing" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">

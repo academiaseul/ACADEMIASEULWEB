@@ -23,25 +23,41 @@ const dmSerifDisplay = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Academia Seúl | Aprende Coreano en Santiago de Chile',
+  metadataBase: new URL('https://www.academiaseul.com'),
+  title: {
+    default: 'Academia Seúl | Aprende Coreano Online con Clases en Vivo',
+    template: '%s | Academia Seúl',
+  },
   description:
-    'La academia de coreano más premium de Santiago. Clases presenciales y online para todos los niveles. Profesores nativos, metodología moderna y certificación TOPIK.',
+    'Aprende coreano desde cero con clases en vivo por Zoom. Profesora nativa, grupos de máximo 15 alumnos, método Korea Foundation. Para LATAM y España.',
   keywords: [
-    'academia coreano santiago',
-    'clases coreano chile',
+    'clases de coreano online',
     'aprender coreano',
-    'coreano santiago',
-    'TOPIK chile',
+    'curso coreano en vivo',
+    'academia coreano',
+    'coreano para hispanohablantes',
+    'TOPIK',
+    'hangul',
     'k-pop aprender coreano',
-    'korean academy',
   ],
+  alternates: { canonical: '/' },
   openGraph: {
-    title: 'Academia Seúl | Aprende Coreano en Santiago',
-    description: 'La academia de coreano más premium de Santiago de Chile.',
+    title: 'Academia Seúl | Aprende Coreano Online con Clases en Vivo',
+    description:
+      'Clases de coreano en vivo con profesora nativa. Grupos pequeños, método Korea Foundation. LATAM y España.',
+    url: 'https://www.academiaseul.com',
     type: 'website',
     locale: 'es_CL',
     siteName: 'Academia Seúl',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Academia Seúl' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Academia Seúl | Aprende Coreano Online',
+    description: 'Clases de coreano en vivo con profesora nativa. LATAM y España.',
+    images: ['/og-image.png'],
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({

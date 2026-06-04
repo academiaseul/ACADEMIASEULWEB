@@ -9,7 +9,7 @@ const navLinks = [
   { label: 'Inicio',       href: '/#hero'     },
   { label: 'Academia',     href: '/#about'    },
   { label: 'Cursos',       href: '/#courses'  },
-  { label: 'Taller Gratis', href: '/taller', highlight: true },
+  { label: 'Nivel 1 · $89', href: '/nivel-1', highlight: true },
   { label: 'Cultura',      href: '/#culture'  },
   { label: 'Testimonios',  href: '/#testimonials' },
   { label: 'Contacto',     href: '/#contact'  },

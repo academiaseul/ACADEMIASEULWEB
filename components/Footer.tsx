@@ -18,7 +18,7 @@ const footerLinks = {
     { label: 'Nuestro metodo',         href: '#about' },
     { label: 'Por que Academia Seul',  href: '#testimonials' },
     { label: 'Cultura coreana',        href: '#culture' },
-    { label: 'Taller gratuito',        href: '/taller' },
+    { label: 'Curso Nivel 1 · A1',     href: '/nivel-1' },
   ],
   Legal: [
     { label: 'Politica de privacidad', href: '/privacidad' },

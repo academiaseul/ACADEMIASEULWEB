@@ -276,13 +276,13 @@ export default function Testimonials() {
           className="text-center mb-20"
         >
           <p className="text-white/40 text-sm mb-5">
-            La mejor forma de conocer mi metodo: el taller gratuito del 6 de junio.
+            La mejor forma de conocer mi metodo: la primera cohorte del Nivel 1.
           </p>
           <a
-            href="/taller"
+            href="/nivel-1"
             className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
           >
-            Conoce el Metodo Chingu en vivo (gratis)
+            Empieza el Nivel 1 · Promo de lanzamiento $89
             <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
           </a>
         </motion.div>

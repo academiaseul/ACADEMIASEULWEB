@@ -13,8 +13,8 @@ const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${DEFAULT_MESSAGE}`;
 
 const QUICK_REPLIES = [
   {
-    label: 'Quiero el taller gratis del 7 jun',
-    msg: 'Hola Jay! Quiero apuntarme al taller gratis de Hangul del 6 de junio.',
+    label: 'Quiero la promo de $89 del Nivel 1',
+    msg: 'Hola Jay! Quiero inscribirme al Nivel 1 con la promo de lanzamiento de $89.',
   },
   {
     label: 'Info del Curso Nivel 1 (julio)',

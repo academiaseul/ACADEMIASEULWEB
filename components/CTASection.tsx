@@ -72,7 +72,7 @@ export default function CTASection() {
           className="text-base md:text-lg text-white/50 max-w-lg mx-auto leading-relaxed mb-12"
         >
           Únete a la primera cohorte de Academia Seúl y empieza a leer coreano
-          en 30 días. Apúntate al taller gratuito del 6 de junio.
+          en 30 días. Nivel 1 arranca el 7 de julio · Promo de lanzamiento $89 hasta el 30 de junio.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -83,11 +83,11 @@ export default function CTASection() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <a
-            href="#contact"
+            href="/nivel-1"
             className="group relative px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-red-600 transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
           >
             <span className="relative z-10">
-              Empieza a aprender coreano hoy →
+              Inscribirme al Nivel 1 · $89 →
             </span>
           </a>
           <a
@@ -106,9 +106,9 @@ export default function CTASection() {
           className="mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center"
         >
           {[
-            '✓ Primera clase gratis',
-            '✓ Sin compromiso',
-            '✓ Test de nivelación incluido',
+            '✓ Pago único, sin cuotas',
+            '✓ Grabaciones incluidas',
+            '✓ Máximo 15 alumnos',
             '✓ Garantía 7 días',
           ].map((item) => (
             <span key={item} className="text-sm text-white/35 font-medium">

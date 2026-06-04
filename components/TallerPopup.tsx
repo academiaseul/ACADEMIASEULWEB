@@ -7,9 +7,12 @@ import { X } from 'lucide-react';
 import Link from 'next/link';
 import { events } from '@/lib/analytics';
 
-const STORAGE_KEY = 'taller_popup_dismissed_v1';
+const STORAGE_KEY = 'taller_popup_dismissed_v2';
 const SHOW_AFTER_MS = 15000;
-const EXCLUDED_PATHS = ['/taller', '/notificarme'];
+const EXCLUDED_PATHS = ['/taller', '/notificarme', '/nivel-1'];
+
+// After the June 6 taller ends, the popup promotes the Nivel 1 launch promo
+const TALLER_END = new Date('2026-06-06T22:00:00-04:00').getTime();
 
 const TIMEZONES = [
   { flag: 'MX', country: 'México',    time: '18:00' },
@@ -31,7 +34,12 @@ const FLAG_EMOJI: Record<string, string> = {
 
 export default function TallerPopup() {
   const [isOpen, setIsOpen] = useState(false);
+  const [tallerOver, setTallerOver] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    setTallerOver(Date.now() > TALLER_END);
+  }, []);
 
   useEffect(() => {
     if (EXCLUDED_PATHS.some((p) => pathname?.startsWith(p))) return;
@@ -111,6 +119,62 @@ export default function TallerPopup() {
                 <X size={16} />
               </button>
 
+              {tallerOver ? (
+              /* ============ NIVEL 1 LAUNCH PROMO (after June 6) ============ */
+              <div className="px-7 py-8 text-center">
+                <span className="inline-block text-[10px] font-bold tracking-[0.25em] uppercase text-seoul-red bg-seoul-red/10 border border-seoul-red/30 px-3 py-1.5 rounded-full mb-5">
+                  Promo de lanzamiento
+                </span>
+
+                <div
+                  aria-hidden
+                  className="font-korean font-black text-seoul-red leading-none select-none mb-2"
+                  style={{ fontSize: '3.25rem', letterSpacing: '-0.05em' }}
+                >
+                  {'한국어'}
+                </div>
+
+                <h2 className="font-serif text-3xl md:text-4xl text-seoul-white leading-tight">
+                  Aprende <span className="text-gradient-red">coreano</span>
+                  <br />
+                  desde cero
+                </h2>
+
+                <p className="pt-4 text-sm text-white/55 leading-relaxed max-w-xs mx-auto">
+                  Nivel 1 · 11 sesiones en vivo por Zoom · Empieza el 7 de julio. Grupos de máximo 15 alumnos.
+                </p>
+
+                <div className="mt-6 inline-flex items-center gap-3 px-5 py-3 rounded-full bg-white/[0.04] border border-white/10">
+                  <span className="text-sm text-white/40 line-through">$129</span>
+                  <span className="text-2xl font-bold text-seoul-white">$89 USD</span>
+                  <span className="text-[10px] uppercase tracking-widest text-seoul-red font-bold">
+                    hasta 30 jun
+                  </span>
+                </div>
+
+                <div className="mt-5 flex justify-center gap-2 text-[11px] text-white/50">
+                  <span className="px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/[0.08]">Martes 🇨🇱</span>
+                  <span className="px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/[0.08]">Jueves 🇨🇱</span>
+                  <span className="px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/[0.08]">Sábado 🇪🇸</span>
+                </div>
+
+                <Link
+                  href="/nivel-1"
+                  onClick={handleCtaClick}
+                  className="group mt-6 w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold text-sm rounded-xl transition-all duration-300"
+                >
+                  <span>Ver el curso · $89 USD</span>
+                  <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
+                </Link>
+                <button
+                  onClick={handleClose}
+                  className="block mx-auto mt-3 text-white/40 hover:text-white/70 text-xs font-medium tracking-wide transition-colors"
+                >
+                  No, gracias - quizas otra vez
+                </button>
+              </div>
+              ) : (
+              /* ============ TALLER (until June 6) ============ */
               <div className="px-7 py-8 text-center">
                 <span className="inline-block text-[10px] font-bold tracking-[0.25em] uppercase text-seoul-red bg-seoul-red/10 border border-seoul-red/30 px-3 py-1.5 rounded-full mb-5">
                   Taller gratuito
@@ -181,6 +245,7 @@ export default function TallerPopup() {
                   No, gracias - quizas otra vez
                 </button>
               </div>
+              )}
 
               <div
                 aria-hidden
