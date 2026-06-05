@@ -16,7 +16,7 @@ const navLinks = [
   { label: 'Contacto',     href: '/#contact'  },
 ];
 
-export default function Navigation() {
+export default function Navigation({ solid = false }: { solid?: boolean }) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const { scrollY } = useScroll();
@@ -38,7 +38,7 @@ export default function Navigation() {
       <motion.header
         className={clsx(
           'fixed top-0 left-0 right-0 z-50 transition-all duration-500',
-          scrolled
+          scrolled || solid
             ? 'bg-seoul-black/90 backdrop-blur-xl border-b border-white/[0.06] shadow-2xl'
             : 'bg-transparent',
         )}

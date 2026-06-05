@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
 import { PROXIMO_TALLER, tallerVigente } from "@/lib/taller";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 type FormData = {
   nombre: string;
@@ -131,9 +131,9 @@ export default function TallerPage() {
     { flag: "🇨🇴", country: "Colombia",              time: "19:00" },
     { flag: "🇵🇪", country: "Perú / Ecuador",         time: "19:00" },
     { flag: "🇨🇱", country: "Chile",                 time: "20:00", highlight: true },
-    { flag: "🇦🇷", country: "Argentina / Uruguay",    time: "20:00" },
+    { flag: "🇦🇷", country: "Argentina / Uruguay",    time: "21:00" },
     { flag: "🇧🇴", country: "Bolivia / Venezuela",    time: "20:00" },
-    { flag: "🇪🇸", country: "España",                time: "01:00 (dom)" },
+    { flag: "🇪🇸", country: "España",                time: "02:00 (dom)" },
   ];
 
   // Form field configurations
@@ -192,21 +192,10 @@ export default function TallerPage() {
     <main className="bg-[#FDF6EC] overflow-x-hidden">
 
       {/* ── NAV ── */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-6 py-3 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo-tiger-red.png" alt="Academia Seúl" width={32} height={32} />
-          <Image src="/logo-text-red.png" alt="Academia Seúl" width={110} height={28} />
-        </Link>
-        <a
-          href="#registro"
-          className="bg-[#C8001E] text-white text-sm font-semibold px-5 py-2 hover:bg-[#9a0016] transition-colors"
-        >
-          Reservar lugar →
-        </a>
-      </nav>
+      <Navigation solid />
 
       {/* ── HERO ── */}
-      <section className="min-h-screen pt-16 grid grid-cols-1 lg:grid-cols-2">
+      <section className="min-h-screen pt-16 md:pt-20 grid grid-cols-1 lg:grid-cols-2">
 
         {/* Left — Red */}
         <div className="bg-[#C8001E] flex flex-col justify-center px-8 md:px-14 py-20 relative">
@@ -562,6 +551,9 @@ export default function TallerPage() {
           {vigente ? "Reservar mi lugar gratis" : "Avísame del próximo taller"} →
         </a>
       </section>
+
+      {/* ── FOOTER ── */}
+      <Footer />
 
     </main>
   );

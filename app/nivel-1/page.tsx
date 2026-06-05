@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 type Cohorte = "martes" | "jueves" | "sabado";
 
@@ -114,8 +116,11 @@ export default function Nivel1Page() {
 
   return (
     <main className="min-h-screen bg-white">
+      {/* Nav */}
+      <Navigation solid />
+
       {/* Hero Cobalto */}
-      <section className="relative overflow-hidden text-white" style={{ backgroundColor: "#3D2EE8" }}>
+      <section className="relative overflow-hidden text-white pt-16 md:pt-20" style={{ backgroundColor: "#3D2EE8" }}>
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-28">
           <div className="text-center">
             <div className="inline-block px-4 py-1 mb-6 rounded-full bg-white/10 text-xs font-bold tracking-widest">
@@ -467,11 +472,8 @@ export default function Nivel1Page() {
       </section>
 
       {/* Back link */}
-      <div className="bg-white py-8 text-center">
-        <Link href="/" className="text-sm text-gray-600 hover:text-[#3D2EE8] transition">
-          ← Volver al inicio
-        </Link>
-      </div>
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }

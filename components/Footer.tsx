@@ -8,18 +8,18 @@ const WHATSAPP_URL =
 
 const footerLinks = {
   Cursos: [
-    { label: 'Basico A1-A2',       href: '#courses' },
-    { label: 'Intermedio B1-B2',   href: '#courses' },
-    { label: 'Avanzado C1-C2',     href: '#courses' },
-    { label: 'K-pop & K-drama',    href: '#courses' },
-    { label: 'Conversacion',       href: '#courses' },
-    { label: 'Preparacion TOPIK',  href: '#courses' },
+    { label: 'Basico A1-A2',       href: '/#courses' },
+    { label: 'Intermedio B1-B2',   href: '/#courses' },
+    { label: 'Avanzado C1-C2',     href: '/#courses' },
+    { label: 'K-pop & K-drama',    href: '/#courses' },
+    { label: 'Conversacion',       href: '/#courses' },
+    { label: 'Preparacion TOPIK',  href: '/#courses' },
   ],
   Academia: [
-    { label: 'Sobre nosotros',         href: '#about' },
-    { label: 'Nuestro metodo',         href: '#about' },
-    { label: 'Por que Academia Seul',  href: '#testimonials' },
-    { label: 'Cultura coreana',        href: '#culture' },
+    { label: 'Sobre nosotros',         href: '/#about' },
+    { label: 'Nuestro metodo',         href: '/#about' },
+    { label: 'Por que Academia Seul',  href: '/#testimonials' },
+    { label: 'Cultura coreana',        href: '/#culture' },
     { label: 'Curso Nivel 1 · A1',     href: '/nivel-1' },
   ],
   Legal: [
@@ -34,7 +34,7 @@ export default function Footer() {
       <div className="container-tight py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
           <div className="lg:col-span-2">
-            <a href="#hero" className="flex items-center gap-3 group mb-5">
+            <a href="/#hero" className="flex items-center gap-3 group mb-5">
               <img
                 src="/logo-tiger-red.png"
                 alt="Academia Seul"
