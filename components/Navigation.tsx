@@ -12,6 +12,7 @@ const navLinks = [
   { label: 'Taller Gratis', href: '/taller'   },
   { label: 'Nivel 1 · $89', href: '/nivel-1', highlight: true },
   { label: 'Cultura',      href: '/#culture'  },
+  { label: 'Blog',         href: '/blog'      },
   { label: 'Testimonios',  href: '/#testimonials' },
   { label: 'Contacto',     href: '/#contact'  },
 ];
