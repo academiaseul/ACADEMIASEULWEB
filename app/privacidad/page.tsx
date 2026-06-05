@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Política de Privacidad | Academia Seúl',
@@ -9,8 +11,9 @@ export const metadata: Metadata = {
 
 export default function Privacidad() {
   return (
-    <main className="min-h-screen bg-seoul-black text-white py-20 px-6">
-      <div className="max-w-3xl mx-auto">
+    <main className="min-h-screen bg-seoul-black text-white">
+      <Navigation solid />
+      <div className="max-w-3xl mx-auto pt-32 pb-20 px-6">
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-white/40 hover:text-seoul-red text-sm mb-8 transition-colors"
@@ -232,6 +235,7 @@ export default function Privacidad() {
           </Link>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

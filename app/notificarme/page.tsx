@@ -3,6 +3,8 @@
 import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const cursoLabels: Record<string, { nombre: string; korean: string }> = {
   intermedio:   { nombre: "Coreano Intermedio",   korean: "중급 한국어" },
@@ -161,10 +163,14 @@ function NotificarmeForm() {
 
 export default function Notificarme() {
   return (
-    <main className="min-h-screen bg-seoul-black text-white py-20 px-6">
-      <Suspense fallback={<div className="text-white/40 text-center py-20">Cargando...</div>}>
-        <NotificarmeForm />
-      </Suspense>
+    <main className="min-h-screen bg-seoul-black text-white">
+      <Navigation solid />
+      <div className="pt-32 pb-20 px-6">
+        <Suspense fallback={<div className="text-white/40 text-center py-20">Cargando...</div>}>
+          <NotificarmeForm />
+        </Suspense>
+      </div>
+      <Footer />
     </main>
   );
 }
