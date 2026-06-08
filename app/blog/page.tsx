@@ -12,6 +12,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "nunchi-el-arte-coreano-de-leer-el-ambiente",
+    korean: "눈치",
+    title: "눈치 (nunchi): el superpoder coreano de leer el ambiente",
+    excerpt:
+      "Existe una palabra coreana para esa habilidad de entrar a un lugar y, sin que nadie diga nada, saber exactamente qué está pasando. Una vez que la conoces, la ves en todas partes — incluso en tus K-dramas favoritos.",
+    date: "7 de junio, 2026",
+    readTime: "5 min",
+    tag: "Palabras intraducibles",
+  },
+  {
     slug: "hangul-el-alfabeto-mas-cientifico",
     korean: "한글",
     title: "Hangul: el alfabeto que un rey inventó para su pueblo",

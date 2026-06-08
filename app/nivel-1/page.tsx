@@ -12,6 +12,48 @@ export default function Nivel1Page() {
   const [selectedCohorte, setSelectedCohorte] = useState<Cohorte>("martes");
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
+  // Inscripción form
+  const [form, setForm] = useState({ nombre: "", correo: "", edad: "", rut: "" });
+  const [submitting, setSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [formError, setFormError] = useState("");
+  const [showTransfer, setShowTransfer] = useState(false);
+
+  const handleInscribir = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!form.nombre || !form.correo || !form.edad || !form.rut) {
+      setFormError("Completa todos los campos para continuar.");
+      return;
+    }
+    setSubmitting(true);
+    setFormError("");
+    try {
+      // NOTE: replace this Formspree endpoint with a dedicated one for el curso si quieres separarlo del taller.
+      const res = await fetch("https://formspree.io/f/mzdypyky", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          _subject: "Nueva inscripción — Nivel 1 A1",
+          curso: "Nivel 1 · A1 (CEFR A1 → TOPIK 1)",
+          nombre: form.nombre,
+          correo: form.correo,
+          edad: form.edad,
+          rut: form.rut,
+          clase: cohortes[selectedCohorte].label,
+        }),
+      });
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setFormError("Hubo un problema al enviar. Intenta de nuevo o escríbenos por WhatsApp.");
+      }
+    } catch {
+      setFormError("Hubo un problema al enviar. Intenta de nuevo o escríbenos por WhatsApp.");
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
   // Countdown to Monday June 8, 2026 23:59 Chile time
   useEffect(() => {
     const deadline = new Date("2026-06-30T23:59:00-04:00").getTime();
@@ -152,13 +194,54 @@ export default function Nivel1Page() {
             </div>
 
             <div className="mt-10 flex flex-col md:flex-row gap-4 justify-center items-center">
-              <a href="#pricing" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
+              <a href="#inscripcion" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
                 Inscribirme · $89 USD
               </a>
               <a href="#programa" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">
                 Ver el programa
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Por qué enamorarte del coreano */}
+      <section className="py-16 md:py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <div className="inline-block px-4 py-1 mb-5 rounded-full text-xs font-bold tracking-widest" style={{ backgroundColor: "#FFE2E2", color: "#C8001E" }}>
+            NO ES SOLO UN IDIOMA
+          </div>
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-5">
+            Aprender coreano es <span style={{ color: "#3D2EE8" }}>entrar a otra forma</span> de sentir el mundo
+          </h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
+            No vas a memorizar reglas frías. Vas a vivir el idioma: la primera vez que lees una palabra y la
+            entiendes, la canción que de pronto cobra sentido, la escena del drama que sientes sin subtítulos.
+            Eso engancha — y no se olvida.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+            {[
+              { emoji: "🎬", title: "Tus K-dramas, sin subtítulos", desc: "Entender lo que de verdad dicen — y lo que no se dice — cambia por completo cómo los sientes." },
+              { emoji: "🎵", title: "Tus canciones, por dentro", desc: "Cantar el coreano que ya conoces de memoria… y por fin saber qué significa cada línea." },
+              { emoji: "💛", title: "Palabras que el español no tiene", desc: "정 (jeong), 눈치 (nunchi)… conceptos que te hacen ver la vida de otra manera." },
+            ].map((c) => (
+              <div key={c.title} className="bg-[#F5F3FF] rounded-2xl p-6 border border-[#E5E1FB]">
+                <div className="text-4xl mb-3">{c.emoji}</div>
+                <h3 className="font-bold text-gray-900 mb-2">{c.title}</h3>
+                <p className="text-sm text-gray-600">{c.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 bg-[#0D0D0D] text-white rounded-3xl px-8 py-10 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl font-bold leading-relaxed">
+              &ldquo;El coreano no es difícil. Simplemente nadie te lo había enseñado pensando en ti.&rdquo;
+            </p>
+            <p className="text-white/60 mt-4">— El Método Chingu™ pone la cultura antes que la gramática. Por eso se siente distinto.</p>
+            <a href="#inscripcion" className="inline-block mt-7 px-8 py-3.5 rounded-full font-bold" style={{ backgroundColor: "#E8B84B", color: "#0D0D0D" }}>
+              Quiero empezar →
+            </a>
           </div>
         </div>
       </section>
@@ -188,6 +271,49 @@ export default function Nivel1Page() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Camino CEFR A1 → TOPIK 1 */}
+      <section className="py-16 bg-[#0D0D0D] text-white">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="text-center mb-10">
+            <div className="inline-block px-4 py-1 mb-4 rounded-full bg-white/10 text-xs font-bold tracking-widest">
+              TU CAMINO EN EL COREANO
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-3">
+              De cero a tu primer certificado oficial
+            </h2>
+            <p className="text-white/70 max-w-2xl mx-auto">
+              El Nivel 1 es el primer escalón del marco <strong className="text-white">CEFR A1</strong>. Está
+              diseñado para llevarte, paso a paso, hacia tu meta: aprobar el <strong className="text-white">TOPIK 1</strong>,
+              el examen oficial de coreano reconocido en todo el mundo.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { step: "1", badge: "ESTÁS AQUÍ", title: "Nivel 1 · CEFR A1", desc: "Leer Hangul, presentarte, hablar de tu día y comprar. La base sólida.", active: true },
+              { step: "2", badge: "SIGUIENTE", title: "Nivel 2 · CEFR A1+", desc: "Más gramática y vocabulario para conversaciones reales.", active: false },
+              { step: "3", badge: "LA META", title: "TOPIK 1 (초급 1)", desc: "Preparación y rendición del examen oficial 한국어능력시험.", active: false },
+            ].map((s) => (
+              <div
+                key={s.step}
+                className={`rounded-2xl p-6 border ${
+                  s.active ? "bg-[#3D2EE8] border-[#3D2EE8]" : "bg-white/5 border-white/10"
+                }`}
+              >
+                <div className={`inline-block text-[10px] font-bold tracking-widest px-2 py-1 rounded-full mb-3 ${s.active ? "bg-white text-[#3D2EE8]" : "bg-white/10 text-white/70"}`}>
+                  {s.badge}
+                </div>
+                <div className="text-2xl font-bold mb-1">{s.title}</div>
+                <p className={`text-sm ${s.active ? "text-white/90" : "text-white/60"}`}>{s.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-center text-white/50 text-sm mt-8">
+            Empieza por la base correcta. El resto del camino se construye sobre el Nivel 1.
+          </p>
         </div>
       </section>
 
@@ -249,6 +375,105 @@ export default function Nivel1Page() {
           <div className="text-center text-sm text-gray-600">
             <p>📌 15 cupos por cohorte · Para que pueda corregir tu pronunciación personalmente</p>
           </div>
+        </div>
+      </section>
+
+      {/* Inscripción form */}
+      <section id="inscripcion" className="py-20 bg-white">
+        <div className="max-w-2xl mx-auto px-6">
+          <div className="text-center mb-8">
+            <div className="inline-block px-4 py-1 mb-4 rounded-full text-xs font-bold tracking-widest text-white" style={{ backgroundColor: "#3D2EE8" }}>
+              PASO 1 · TUS DATOS
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Reserva tu cupo</h2>
+            <p className="text-gray-600">
+              Déjanos tus datos y elige tu clase. Luego eliges cómo pagar. Cupos limitados a 15 por cohorte.
+            </p>
+          </div>
+
+          {!submitted ? (
+            <form onSubmit={handleInscribir} className="bg-[#F5F3FF] rounded-3xl p-6 md:p-8 border border-[#E5E1FB] space-y-4">
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-1">Nombre completo</label>
+                <input
+                  type="text"
+                  value={form.nombre}
+                  onChange={(e) => setForm({ ...form, nombre: e.target.value })}
+                  placeholder="Tu nombre y apellido"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
+                />
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-bold text-gray-700 mb-1">Correo</label>
+                  <input
+                    type="email"
+                    value={form.correo}
+                    onChange={(e) => setForm({ ...form, correo: e.target.value })}
+                    placeholder="tucorreo@email.com"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-bold text-gray-700 mb-1">Edad</label>
+                  <input
+                    type="number"
+                    min={1}
+                    value={form.edad}
+                    onChange={(e) => setForm({ ...form, edad: e.target.value })}
+                    placeholder="Ej: 24"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
+                  />
+                </div>
+              </div>
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-1">RUT / Documento de identidad</label>
+                <input
+                  type="text"
+                  value={form.rut}
+                  onChange={(e) => setForm({ ...form, rut: e.target.value })}
+                  placeholder="12.345.678-9 (o tu ID si estás fuera de Chile)"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
+                />
+                <p className="text-xs text-gray-500 mt-1">Lo usamos para tu certificado oficial.</p>
+              </div>
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-1">Clase (cohorte)</label>
+                <select
+                  value={selectedCohorte}
+                  onChange={(e) => setSelectedCohorte(e.target.value as Cohorte)}
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition bg-white"
+                >
+                  {Object.entries(cohortes).map(([key, c]) => (
+                    <option key={key} value={key}>{c.label} · {c.day} {c.hora}</option>
+                  ))}
+                </select>
+              </div>
+
+              {formError && <p className="text-sm text-[#C8001E] font-medium">{formError}</p>}
+
+              <button
+                type="submit"
+                disabled={submitting}
+                className="w-full py-4 rounded-full text-white font-bold text-lg hover:scale-[1.02] transition disabled:opacity-60"
+                style={{ backgroundColor: "#3D2EE8" }}
+              >
+                {submitting ? "Enviando..." : "Reservar mi cupo →"}
+              </button>
+              <p className="text-center text-xs text-gray-500">🔒 Tus datos están protegidos y no se comparten.</p>
+            </form>
+          ) : (
+            <div className="bg-[#F0FBF4] rounded-3xl p-8 border border-[#BCEBCD] text-center">
+              <div className="text-5xl mb-3">🎉</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">¡Cupo reservado, {form.nombre.split(" ")[0]}!</h3>
+              <p className="text-gray-700 mb-2">
+                Te anotamos en la <strong>{cohortes[selectedCohorte].label}</strong>. Ahora elige cómo pagar abajo para confirmar tu lugar.
+              </p>
+              <a href="#pricing" className="inline-block mt-4 px-8 py-3 rounded-full text-white font-bold" style={{ backgroundColor: "#3D2EE8" }}>
+                Ir a pagar · $89 USD ↓
+              </a>
+            </div>
+          )}
         </div>
       </section>
 
@@ -327,9 +552,12 @@ export default function Nivel1Page() {
 
             {/* Payment buttons */}
             <div className="space-y-3">
-              <div className="text-center text-sm text-gray-600 mb-3">
+              <div className="text-center text-sm text-gray-600 mb-1">
                 Cohorte seleccionada: <strong className="text-gray-900">{cohortes[selectedCohorte].label}</strong>
               </div>
+              <p className="text-center text-xs font-bold tracking-widest text-gray-400 mb-3">ELIGE CÓMO PAGAR</p>
+
+              {/* Tarjeta crédito/débito (Mercado Pago) */}
               <a
                 href={cohortes[selectedCohorte].paymentLink}
                 target="_blank"
@@ -337,28 +565,64 @@ export default function Nivel1Page() {
                 className="block w-full py-4 rounded-full text-white font-bold text-lg text-center hover:scale-[1.02] transition"
                 style={{ backgroundColor: "#3D2EE8" }}
               >
-                💳 Pagar con Mercado Pago · ~85.000 CLP / $89 USD
+                💳 Tarjeta de crédito / débito · Mercado Pago
               </a>
+              <p className="text-center text-xs text-gray-500 -mt-1">Acepta Visa, Mastercard y débito · ~85.000 CLP / $89 USD · cuotas según tu banco</p>
+
+              {/* PayPal */}
               <a
                 href="https://wa.me/56942115562?text=Hola%20Jay%2C%20quiero%20pagar%20con%20PayPal%20%2489%20USD%20por%20Nivel%201."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full py-4 rounded-full text-[#3D2EE8] font-bold text-lg text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition"
               >
-                🌍 Pagar con PayPal · $89 USD (escribime por WA)
+                🌍 PayPal · pago internacional · $89 USD
               </a>
-              <a
-                href="https://wa.me/56942115562?text=Hola%20Jay%2C%20quiero%20inscribirme%20al%20Nivel%201%20A1%20por%20%2489.%20Mi%20cohorte%20preferida%20es%20___"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full py-3 text-center text-sm font-bold text-gray-700 hover:text-[#3D2EE8] transition"
+
+              {/* Transferencia bancaria */}
+              <button
+                type="button"
+                onClick={() => setShowTransfer(!showTransfer)}
+                className="block w-full py-4 rounded-full text-gray-800 font-bold text-lg text-center border-2 border-gray-300 hover:border-[#3D2EE8] hover:text-[#3D2EE8] transition"
               >
-                💬 O escribime por WhatsApp para coordinar transferencia
-              </a>
+                🏦 Transferencia bancaria · Chile {showTransfer ? "▲" : "▼"}
+              </button>
+
+              {showTransfer && (
+                <div className="bg-[#F5F3FF] border border-[#E5E1FB] rounded-2xl p-6 text-left">
+                  <p className="text-sm font-bold text-gray-900 mb-3">
+                    Transferencia nacional (Chile) · <span style={{ color: "#3D2EE8" }}>$85.000 CLP</span>
+                  </p>
+                  <dl className="text-sm text-gray-700 space-y-1.5">
+                    <div className="flex justify-between gap-4"><dt className="text-gray-500">Titular</dt><dd className="font-medium text-gray-900">Jae Hee Kim</dd></div>
+                    <div className="flex justify-between gap-4"><dt className="text-gray-500">RUT</dt><dd className="font-medium text-gray-900">14.714.427-K</dd></div>
+                    <div className="flex justify-between gap-4"><dt className="text-gray-500">Banco</dt><dd className="font-medium text-gray-900">BCI</dd></div>
+                    <div className="flex justify-between gap-4"><dt className="text-gray-500">Tipo de cuenta</dt><dd className="font-medium text-gray-900">Cuenta Corriente</dd></div>
+                    <div className="flex justify-between gap-4"><dt className="text-gray-500">N° de cuenta</dt><dd className="font-medium text-gray-900">70954542</dd></div>
+                    <div className="flex justify-between gap-4"><dt className="text-gray-500">Correo</dt><dd className="font-medium text-gray-900">hola.academiaseul@gmail.com</dd></div>
+                  </dl>
+                  <p className="text-xs text-gray-600 mt-4">
+                    Después de transferir, envía tu comprobante por WhatsApp o al correo para confirmar tu cupo.
+                  </p>
+                  <a
+                    href="https://wa.me/56942115562?text=Hola%20Jay%2C%20ya%20hice%20la%20transferencia%20del%20Nivel%201%20A1%20(%2485.000%20CLP).%20Aqu%C3%AD%20va%20mi%20comprobante%3A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-3 px-5 py-2.5 rounded-full text-white text-sm font-bold"
+                    style={{ backgroundColor: "#25D366" }}
+                  >
+                    📲 Enviar comprobante por WhatsApp
+                  </a>
+                </div>
+              )}
+
+              <p className="text-center text-xs text-gray-500">
+                ¿Fuera de Chile? Escríbenos por WhatsApp y coordinamos tu transferencia internacional.
+              </p>
             </div>
 
             <div className="text-center text-xs text-gray-500 mt-6">
-              🔒 Pago seguro · Tu información está protegida
+              🔒 Pago único · Sin cuotas mensuales · Tu información está protegida
             </div>
           </div>
         </div>
