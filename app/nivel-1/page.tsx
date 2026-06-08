@@ -13,7 +13,7 @@ export default function Nivel1Page() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   // Inscripción form
-  const [form, setForm] = useState({ nombre: "", correo: "", edad: "", rut: "" });
+  const [form, setForm] = useState({ nombre: "", correo: "", whatsapp: "", edad: "", rut: "" });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [formError, setFormError] = useState("");
@@ -21,7 +21,7 @@ export default function Nivel1Page() {
 
   const handleInscribir = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!form.nombre || !form.correo || !form.edad || !form.rut) {
+    if (!form.nombre || !form.correo || !form.whatsapp || !form.edad || !form.rut) {
       setFormError("Completa todos los campos para continuar.");
       return;
     }
@@ -37,6 +37,7 @@ export default function Nivel1Page() {
           curso: "Nivel 1 · A1 (CEFR A1 → TOPIK 1)",
           nombre: form.nombre,
           correo: form.correo,
+          whatsapp: form.whatsapp,
           edad: form.edad,
           rut: form.rut,
           clase: cohortes[selectedCohorte].label,
@@ -415,16 +416,26 @@ export default function Nivel1Page() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-1">Edad</label>
+                  <label className="block text-sm font-bold text-gray-700 mb-1">WhatsApp</label>
                   <input
-                    type="number"
-                    min={1}
-                    value={form.edad}
-                    onChange={(e) => setForm({ ...form, edad: e.target.value })}
-                    placeholder="Ej: 24"
+                    type="tel"
+                    value={form.whatsapp}
+                    onChange={(e) => setForm({ ...form, whatsapp: e.target.value })}
+                    placeholder="+56 9 1234 5678"
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
                   />
                 </div>
+              </div>
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-1">Edad</label>
+                <input
+                  type="number"
+                  min={1}
+                  value={form.edad}
+                  onChange={(e) => setForm({ ...form, edad: e.target.value })}
+                  placeholder="Ej: 24"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
+                />
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">RUT / Documento de identidad</label>
