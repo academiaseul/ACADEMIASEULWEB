@@ -13,7 +13,7 @@ export default function Nivel1Page() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   // Inscripción form
-  const [form, setForm] = useState({ nombre: "", correo: "", whatsapp: "", edad: "", rut: "" });
+  const [form, setForm] = useState({ nombre: "", correo: "", whatsapp: "", edad: "", rut: "", comoConocio: "" });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [formError, setFormError] = useState("");
@@ -21,7 +21,7 @@ export default function Nivel1Page() {
 
   const handleInscribir = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!form.nombre || !form.correo || !form.whatsapp || !form.edad || !form.rut) {
+    if (!form.nombre || !form.correo || !form.whatsapp || !form.edad || !form.rut || !form.comoConocio) {
       setFormError("Completa todos los campos para continuar.");
       return;
     }
@@ -40,6 +40,7 @@ export default function Nivel1Page() {
           whatsapp: form.whatsapp,
           edad: form.edad,
           rut: form.rut,
+          como_nos_conociste: form.comoConocio,
           clase: cohortes[selectedCohorte].label,
         }),
       });
@@ -416,7 +417,7 @@ export default function Nivel1Page() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-1">WhatsApp</label>
+                  <label className="block text-sm font-bold text-gray-700 mb-1">WhatsApp / Teléfono</label>
                   <input
                     type="tel"
                     value={form.whatsapp}
@@ -447,6 +448,24 @@ export default function Nivel1Page() {
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
                 />
                 <p className="text-xs text-gray-500 mt-1">Lo usamos para tu certificado oficial.</p>
+              </div>
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-1">¿Cómo nos conociste?</label>
+                <select
+                  value={form.comoConocio}
+                  onChange={(e) => setForm({ ...form, comoConocio: e.target.value })}
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition bg-white"
+                >
+                  <option value="">Selecciona una opción</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="TikTok">TikTok</option>
+                  <option value="YouTube">YouTube</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Taller gratuito">El taller gratuito</option>
+                  <option value="Recomendación de un amigo">Recomendación de un amigo</option>
+                  <option value="Google / búsqueda">Google / búsqueda</option>
+                  <option value="Otro">Otro</option>
+                </select>
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Clase (cohorte)</label>
