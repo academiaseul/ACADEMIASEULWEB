@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'Bebas Neue';src:url('/tmp/node_modules/@fontsource/bebas-neue/files/bebas-neue-latin-400-normal.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-weight:400;src:url('/tmp/node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-weight:600;src:url('/tmp/node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-weight:700;src:url('/tmp/node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2') format('woff2');}
+@font-face{font-family:'KR';font-weight:700;src:url('/tmp/node_modules/@fontsource/noto-sans-kr/files/noto-sans-kr-korean-700-normal.woff2') format('woff2');}
+@font-face{font-family:'KR';font-weight:900;src:url('/tmp/node_modules/@fontsource/noto-sans-kr/files/noto-sans-kr-korean-900-normal.woff2') format('woff2');}
+*{margin:0;padding:0;box-sizing:border-box;}
+@page{size:A4 landscape;margin:0;}
+body{width:1123px;height:794px;font-family:'Inter',sans-serif;background:#FDF6EC;position:relative;overflow:hidden;}
+.frame{position:absolute;inset:22px;border:3px solid #0D0D0D;}
+.frame2{position:absolute;inset:30px;border:1px solid #A8842E;}
+.kr{font-family:'KR',sans-serif;}
+.content{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;text-align:center;padding-top:50px;}
+.logo{height:80px;margin-bottom:18px;}
+h1{font-family:'Bebas Neue';font-size:86px;line-height:.9;color:#0D0D0D;letter-spacing:3px;}
+.sub{font-size:21px;font-weight:700;letter-spacing:11px;color:#0D0D0D;text-transform:uppercase;margin:8px 0 3px;}
+.krsub{font-family:'KR';font-size:13px;color:#9a8f80;letter-spacing:5px;margin-bottom:20px;}
+.otorga{font-size:17px;color:#555;margin-bottom:6px;}
+.nameblock{width:620px;border-bottom:2px solid #0D0D0D;padding-bottom:8px;margin-bottom:8px;}
+.name-es{font-size:38px;font-weight:700;color:#0D0D0D;line-height:1.05;}
+.name-kr{font-family:'KR';font-size:26px;font-weight:700;color:#A8842E;margin-top:4px;}
+.por{font-size:17px;color:#555;margin:12px 0 5px;}
+.evento{font-size:27px;font-weight:700;color:#0D0D0D;}
+.evento .kr{color:#0D0D0D;}
+.fecha{font-size:16px;color:#777;}
+.firma{position:relative;margin-top:48px;display:flex;flex-direction:column;align-items:center;}
+.firma .sig{position:absolute;left:50%;transform:translateX(-50%);top:-58px;height:78px;}
+.firma .line{width:300px;border-bottom:1.5px solid #0D0D0D;margin-bottom:7px;}
+.firma .nom{font-size:17px;font-weight:700;color:#0D0D0D;}
+.firma .cargo{font-size:13px;color:#777;}
+.sello{position:absolute;right:62px;bottom:118px;width:128px;opacity:.92;}
+.web{position:absolute;bottom:30px;width:100%;text-align:center;color:#9a8f80;font-size:13px;letter-spacing:2px;font-weight:600;}
+</style></head><body>
+<div class="frame"></div><div class="frame2"></div>
+<img class="sello" src="/tmp/certb/sello.png">
+<div class="content">
+  <img class="logo" src="/tmp/certb/logo.png">
+  <h1>Certificado</h1>
+  <div class="sub">De Participación</div>
+  <div class="krsub">수료증 · 아카데미아 서울</div>
+  <div class="otorga">Se otorga el presente certificado a:</div>
+  <div class="nameblock">
+    <div class="name-es">{{NOMBRE}}</div>
+    <div class="name-kr">{{NOMBRE_KR}}</div>
+  </div>
+  <div class="por">Por su participación en el taller en vivo</div>
+  <div class="evento">&ldquo;Aprende a leer <span class="kr">한글</span> en 1 hora&rdquo;</div>
+  <div class="fecha">Online vía Zoom · 6 de junio de 2026</div>
+  <div class="firma">
+    <img class="sig" src="/tmp/certb/sig.png">
+    <div class="line"></div>
+    <div class="nom">Jay Kim · <span class="kr">김재희</span></div>
+    <div class="cargo">Fundador e Instructor · Academia Seúl</div>
+  </div>
+</div>
+<div class="web">academiaseul.com</div>
+</body></html>
