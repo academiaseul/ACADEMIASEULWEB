@@ -32,8 +32,20 @@ body {
 
 /* ─── Selection ────────────────────────────────────────────────────── */
 ::selection {
-  background-color: #C8001E;
-  color: #fafaf5;
+  background-color: #d1d5db;
+  color: #111111;
+}
+
+/* ─── Form fields ──────────────────────────────────────────────────────
+   El reset de Tailwind hace que los inputs hereden el color del body
+   (blanco). En formularios sobre fondo claro esto deja el texto invisible.
+   Forzamos texto negro por defecto; los formularios sobre fondo oscuro que
+   usan utilidades como `text-white`/`text-seoul-white` lo sobrescriben. */
+input, textarea, select {
+  color: #111111;
+}
+input::placeholder, textarea::placeholder {
+  color: #9ca3af;
 }
 
 /* ─── Scrollbar ────────────────────────────────────────────────────── */
