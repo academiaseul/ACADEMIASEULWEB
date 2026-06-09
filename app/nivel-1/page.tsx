@@ -17,7 +17,6 @@ export default function Nivel1Page() {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [formError, setFormError] = useState("");
-  const [showTransfer, setShowTransfer] = useState(false);
 
   // Confirmación de pago (avisa al owner quién pagó)
   const [payConfirming, setPayConfirming] = useState(false);
@@ -691,65 +690,60 @@ export default function Nivel1Page() {
               </div>
               <p className="text-center text-xs font-bold tracking-widest text-gray-400 mb-3">ELIGE CÓMO PAGAR</p>
 
+              {/* Transferencia bancaria — RECOMENDADA (sin comisión) */}
+              <div className="bg-[#F5F3FF] border-2 border-[#3D2EE8] rounded-2xl p-6 text-left">
+                <div className="flex items-center justify-between gap-2 flex-wrap mb-2">
+                  <p className="text-base font-bold text-gray-900">🏦 Transferencia bancaria · Chile</p>
+                  <span className="text-[10px] font-bold text-white px-3 py-1 rounded-full" style={{ backgroundColor: "#16a34a" }}>RECOMENDADO · SIN COMISIÓN</span>
+                </div>
+                <p className="text-sm text-gray-700 mb-4">
+                  Pagas <strong style={{ color: "#3D2EE8" }}>$85.000 CLP</strong> y el monto llega completo (sin recargos).
+                </p>
+                <dl className="text-sm text-gray-700 space-y-1.5">
+                  <div className="flex justify-between gap-4"><dt className="text-gray-500">Titular</dt><dd className="font-medium text-gray-900">Jae Hee Kim</dd></div>
+                  <div className="flex justify-between gap-4"><dt className="text-gray-500">RUT</dt><dd className="font-medium text-gray-900">14.714.427-K</dd></div>
+                  <div className="flex justify-between gap-4"><dt className="text-gray-500">Banco</dt><dd className="font-medium text-gray-900">BCI</dd></div>
+                  <div className="flex justify-between gap-4"><dt className="text-gray-500">Tipo de cuenta</dt><dd className="font-medium text-gray-900">Cuenta Corriente</dd></div>
+                  <div className="flex justify-between gap-4"><dt className="text-gray-500">N° de cuenta</dt><dd className="font-medium text-gray-900">70954542</dd></div>
+                  <div className="flex justify-between gap-4"><dt className="text-gray-500">Correo</dt><dd className="font-medium text-gray-900">hola.academiaseul@gmail.com</dd></div>
+                </dl>
+                <p className="text-xs text-gray-600 mt-4">
+                  Importante: pon <strong>tu nombre completo</strong> como referencia/glosa de la transferencia
+                  para que podamos asociarla a tu inscripción. Luego envía tu comprobante por WhatsApp o al correo.
+                </p>
+                <a
+                  href="https://wa.me/56942115562?text=Hola%20Jay%2C%20ya%20hice%20la%20transferencia%20del%20Nivel%201%20A1%20(%2485.000%20CLP).%20Aqu%C3%AD%20va%20mi%20comprobante%3A"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-3 px-5 py-2.5 rounded-full text-white text-sm font-bold"
+                  style={{ backgroundColor: "#25D366" }}
+                >
+                  📲 Enviar comprobante por WhatsApp
+                </a>
+              </div>
+
+              <p className="text-center text-xs text-gray-400 pt-2">o paga al instante con</p>
+
               {/* Tarjeta crédito/débito (Mercado Pago — checkout con tus datos) */}
               <button
                 type="button"
                 onClick={pagarConTarjeta}
                 disabled={payLoading}
-                className="block w-full py-4 rounded-full text-white font-bold text-lg text-center hover:scale-[1.02] transition disabled:opacity-60"
-                style={{ backgroundColor: "#3D2EE8" }}
+                className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition disabled:opacity-60"
               >
-                {payLoading ? "Abriendo pago seguro…" : "💳 Pagar con tarjeta · Mercado Pago"}
+                {payLoading ? "Abriendo pago seguro…" : "💳 Tarjeta de crédito / débito · Mercado Pago"}
               </button>
-              <p className="text-center text-xs text-gray-500 -mt-1">Acepta Visa, Mastercard y débito · ~85.000 CLP / $89 USD · cuotas según tu banco. Reserva tu cupo arriba antes de pagar.</p>
+              <p className="text-center text-xs text-gray-500 -mt-1">Pago al instante · Visa, Mastercard y débito (incluye comisión de Mercado Pago). Reserva tu cupo arriba antes de pagar.</p>
 
               {/* PayPal */}
               <a
                 href="https://wa.me/56942115562?text=Hola%20Jay%2C%20quiero%20pagar%20con%20PayPal%20%2489%20USD%20por%20Nivel%201."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full py-4 rounded-full text-[#3D2EE8] font-bold text-lg text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition"
+                className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition"
               >
                 🌍 PayPal · pago internacional · $89 USD
               </a>
-
-              {/* Transferencia bancaria */}
-              <button
-                type="button"
-                onClick={() => setShowTransfer(!showTransfer)}
-                className="block w-full py-4 rounded-full text-gray-800 font-bold text-lg text-center border-2 border-gray-300 hover:border-[#3D2EE8] hover:text-[#3D2EE8] transition"
-              >
-                🏦 Transferencia bancaria · Chile {showTransfer ? "▲" : "▼"}
-              </button>
-
-              {showTransfer && (
-                <div className="bg-[#F5F3FF] border border-[#E5E1FB] rounded-2xl p-6 text-left">
-                  <p className="text-sm font-bold text-gray-900 mb-3">
-                    Transferencia nacional (Chile) · <span style={{ color: "#3D2EE8" }}>$85.000 CLP</span>
-                  </p>
-                  <dl className="text-sm text-gray-700 space-y-1.5">
-                    <div className="flex justify-between gap-4"><dt className="text-gray-500">Titular</dt><dd className="font-medium text-gray-900">Jae Hee Kim</dd></div>
-                    <div className="flex justify-between gap-4"><dt className="text-gray-500">RUT</dt><dd className="font-medium text-gray-900">14.714.427-K</dd></div>
-                    <div className="flex justify-between gap-4"><dt className="text-gray-500">Banco</dt><dd className="font-medium text-gray-900">BCI</dd></div>
-                    <div className="flex justify-between gap-4"><dt className="text-gray-500">Tipo de cuenta</dt><dd className="font-medium text-gray-900">Cuenta Corriente</dd></div>
-                    <div className="flex justify-between gap-4"><dt className="text-gray-500">N° de cuenta</dt><dd className="font-medium text-gray-900">70954542</dd></div>
-                    <div className="flex justify-between gap-4"><dt className="text-gray-500">Correo</dt><dd className="font-medium text-gray-900">hola.academiaseul@gmail.com</dd></div>
-                  </dl>
-                  <p className="text-xs text-gray-600 mt-4">
-                    Importante: pon <strong>tu nombre completo</strong> como referencia/glosa de la transferencia
-                    para que podamos asociarla a tu inscripción. Luego envía tu comprobante por WhatsApp o al correo.
-                  </p>
-                  <a
-                    href="https://wa.me/56942115562?text=Hola%20Jay%2C%20ya%20hice%20la%20transferencia%20del%20Nivel%201%20A1%20(%2485.000%20CLP).%20Aqu%C3%AD%20va%20mi%20comprobante%3A"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-3 px-5 py-2.5 rounded-full text-white text-sm font-bold"
-                    style={{ backgroundColor: "#25D366" }}
-                  >
-                    📲 Enviar comprobante por WhatsApp
-                  </a>
-                </div>
-              )}
 
               <p className="text-center text-xs text-gray-500">
                 ¿Fuera de Chile? Escríbenos por WhatsApp y coordinamos tu transferencia internacional.
