@@ -9,7 +9,7 @@ const navLinks = [
   { label: 'Inicio',        href: '/#hero'     },
   { label: 'Nivel 1 · $89', href: '/nivel-1', highlight: true },
   { label: 'Taller Gratis', href: '/taller'    },
-  { label: 'Tu nombre en 한글', href: '/generador-nombre' },
+  { label: 'Recursos',      href: '/recursos'  },
   { label: 'Blog',          href: '/blog'      },
   { label: 'Contacto',      href: '/#contact'  },
 ];

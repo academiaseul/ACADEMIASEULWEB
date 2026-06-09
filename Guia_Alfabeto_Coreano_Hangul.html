@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Guía del Alfabeto Coreano · Hangul — Academia Seúl</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Inter:wght@400;600;700;900&display=swap');
+  :root{ --cobalt:#3D2EE8; --navy:#1A1A2E; --gold:#A8842E; --cream:#FDF6EC; --gray:#6B6B7C; }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{ font-family:'Inter',Arial,sans-serif; color:var(--navy); background:#fff; }
+  .kr{ font-family:'Noto Sans KR','Malgun Gothic',sans-serif; }
+  .page{ width:210mm; min-height:297mm; margin:0 auto; padding:9mm 13mm 7mm; }
+
+  /* HEADER */
+  .hero{ background:var(--navy); color:#fff; border-radius:6mm; padding:6.5mm 12mm; text-align:center; position:relative; overflow:hidden; }
+  .hero .logobg{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:61mm; max-width:50%; height:auto; opacity:.15; pointer-events:none; }
+  .hero > *{ position:relative; z-index:1; }
+  .hero .big{ font-family:'Noto Sans KR',sans-serif; font-weight:900; font-size:42pt; color:var(--gold); line-height:1; }
+  .hero h1{ font-size:21pt; font-weight:900; margin-top:2mm; }
+  .hero .sub{ color:rgba(255,255,255,.78); font-size:11pt; margin-top:1.5mm; }
+  .hero .badge{ display:inline-block; margin-top:3.5mm; font-size:9pt; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#fff; background:var(--cobalt); padding:2mm 5mm; border-radius:20px; }
+
+  .lbl{ color:var(--cobalt); font-size:10.5pt; font-weight:700; letter-spacing:3px; text-transform:uppercase; margin:5mm 0 2.5mm; }
+  .lbl .kr{ color:var(--navy); }
+
+  /* GRIDS */
+  .grid{ display:flex; flex-wrap:wrap; justify-content:space-between; }
+  .g7 .cell{ width:13.4%; }
+  .g5 .cell{ width:19%; }
+  .cell{ background:var(--navy); border-radius:3mm; padding:2.6mm 1mm; text-align:center; box-sizing:border-box; margin-bottom:2.4mm; }
+  .cell .c{ font-family:'Noto Sans KR',sans-serif; font-weight:900; font-size:17pt; color:#fff; line-height:1; }
+  .cell .s{ font-size:8pt; font-weight:700; color:#9D96F2; margin-top:1mm; }
+  .cell.v{ background:#2a2740; }
+
+  /* cheonjiin */
+  .cji{ display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5mm; padding:0 4mm; }
+  .cji .it{ display:flex; align-items:center; gap:3mm; }
+  .cji .dot{ width:11mm; height:11mm; flex-shrink:0; border-radius:50%; background:var(--cobalt); color:#fff; display:flex; align-items:center; justify-content:center; font-family:'Noto Sans KR'; font-weight:900; font-size:15pt; }
+  .cji .t{ font-size:10pt; font-weight:700; } .cji .t small{ display:block; color:var(--gray); font-weight:600; }
+  .cjidesc{ font-size:9.5pt; color:var(--gray); font-weight:600; margin:0 0 2.5mm; }
+
+  /* syllable + words */
+  .row2{ font-size:0; margin-top:1mm; }
+  .box{ display:inline-block; width:48.5%; vertical-align:top; box-sizing:border-box; background:var(--cream); border:1px solid #ece4d4; border-radius:4mm; padding:3.5mm 5mm; }
+  .box:first-child{ margin-right:3%; }
+  .box h3{ font-size:11pt; color:var(--navy); margin-bottom:3mm; }
+  .sylimg{ display:block; height:13mm; width:auto; margin:1mm 0 0; }
+  .wlist div{ font-size:11pt; margin:2mm 0; }
+  .wlist .k{ font-family:'Noto Sans KR'; font-weight:900; font-size:15pt; color:var(--navy); margin-right:3mm; }
+  .wlist .m{ color:var(--gray); }
+
+  /* CTA */
+  .cta{ margin-top:5mm; background:var(--cobalt); color:#fff; border-radius:5mm; padding:5mm; text-align:center; }
+  .cta h2{ font-size:14pt; margin-bottom:2mm; }
+  .cta p{ color:rgba(255,255,255,.85); font-size:10.5pt; }
+  .cta .url{ display:inline-block; margin-top:4mm; background:var(--gold); color:#1a1500; font-weight:700; font-size:11pt; padding:2.5mm 7mm; border-radius:24px; }
+  .foot{ text-align:center; color:var(--gray); font-size:8.5pt; margin-top:3mm; letter-spacing:.5px; }
+
+  @media print{ @page{ size:A4; margin:0; } body{ -webkit-print-color-adjust:exact; print-color-adjust:exact; } .page{ margin:0; } .noprint{ display:none; } }
+  .noprint{ position:fixed; top:10px; right:10px; background:var(--cobalt); color:#fff; padding:8px 14px; border-radius:8px; font-size:13px; font-weight:700; cursor:pointer; border:none; }
+</style>
+</head>
+<body>
+<button class="noprint" onclick="window.print()">🖨️ Guardar como PDF</button>
+<div class="page">
+
+  <div class="hero">
+    <img class="logobg" src="public/logo-white.png" alt="">
+    <div class="big">한글</div>
+    <h1>Guía del Alfabeto Coreano</h1>
+    <div class="sub">Aprende a leer coreano desde cero — todas las letras en una hoja</div>
+    <div class="badge">Gratis · Método Chingu™</div>
+  </div>
+
+  <div class="lbl">Las 14 consonantes · <span class="kr">자음</span></div>
+  <div class="grid g7" id="cons">
+    <div class="cell"><div class="c">ㄱ</div><div class="s">g·k</div></div>
+    <div class="cell"><div class="c">ㄴ</div><div class="s">n</div></div>
+    <div class="cell"><div class="c">ㄷ</div><div class="s">d·t</div></div>
+    <div class="cell"><div class="c">ㄹ</div><div class="s">r·l</div></div>
+    <div class="cell"><div class="c">ㅁ</div><div class="s">m</div></div>
+    <div class="cell"><div class="c">ㅂ</div><div class="s">b·p</div></div>
+    <div class="cell"><div class="c">ㅅ</div><div class="s">s</div></div>
+    <div class="cell"><div class="c">ㅇ</div><div class="s">ng</div></div>
+    <div class="cell"><div class="c">ㅈ</div><div class="s">j/y</div></div>
+    <div class="cell"><div class="c">ㅊ</div><div class="s">ch</div></div>
+    <div class="cell"><div class="c">ㅋ</div><div class="s">k</div></div>
+    <div class="cell"><div class="c">ㅌ</div><div class="s">t</div></div>
+    <div class="cell"><div class="c">ㅍ</div><div class="s">p</div></div>
+    <div class="cell"><div class="c">ㅎ</div><div class="s">h</div></div>
+  </div>
+
+  <div class="lbl">Las vocales · <span class="kr">모음</span></div>
+  <div class="cji">
+    <div class="it"><div class="dot kr">·</div><div class="t">Cielo<small>하늘 · 天</small></div></div>
+    <div class="it"><div class="dot kr">ㅡ</div><div class="t">Tierra<small>땅 · 地</small></div></div>
+    <div class="it"><div class="dot kr">ㅣ</div><div class="t">Persona<small>사람 · 人</small></div></div>
+  </div>
+  <div class="cjidesc">Cielo, tierra y persona se combinan para crear todas las vocales.</div>
+  <div class="grid g5" id="vows">
+    <div class="cell v"><div class="c">ㅏ</div><div class="s">a</div></div>
+    <div class="cell v"><div class="c">ㅓ</div><div class="s">eo</div></div>
+    <div class="cell v"><div class="c">ㅗ</div><div class="s">o</div></div>
+    <div class="cell v"><div class="c">ㅜ</div><div class="s">u</div></div>
+    <div class="cell v"><div class="c">ㅡ</div><div class="s">eu</div></div>
+    <div class="cell v"><div class="c">ㅑ</div><div class="s">ia</div></div>
+    <div class="cell v"><div class="c">ㅕ</div><div class="s">ieo</div></div>
+    <div class="cell v"><div class="c">ㅛ</div><div class="s">io</div></div>
+    <div class="cell v"><div class="c">ㅠ</div><div class="s">iu</div></div>
+    <div class="cell v"><div class="c">ㅣ</div><div class="s">i</div></div>
+  </div>
+
+  <div class="row2">
+    <div class="box">
+      <h3>Cómo se arma una sílaba</h3>
+      <img class="sylimg" src="public/syllable.png" alt="ㄱ + ㅏ = 가 (ga)">
+      <p style="font-size:9.5pt;color:var(--gray);margin-top:3mm">Consonante + vocal forman un bloque. La vocal vertical va a la derecha; la horizontal, abajo.</p>
+    </div>
+    <div class="box">
+      <h3>Lee tus primeras palabras <span style="font-weight:600;color:var(--gray);font-size:9pt">· sin batchim</span></h3>
+      <div class="wlist">
+        <div><span class="k">고기</span><span class="m">go-gi · carne</span></div>
+        <div><span class="k">우유</span><span class="m">u-iu · leche</span></div>
+        <div><span class="k">바다</span><span class="m">ba-da · mar</span></div>
+        <div><span class="k">나무</span><span class="m">na-mu · árbol</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h2>¿Quieres aprender a leerlo en vivo, en 1 hora?</h2>
+    <p>Empieza por nuestro taller gratuito o ve directo al curso Nivel 1 · 화이팅 chingu!</p>
+    <span class="url">academiaseul.com</span>
+  </div>
+  <div class="foot">© Academia Seúl · Método Chingu™ · academiaseul.com</div>
+
+</div>
+
+</body>
+</html>
