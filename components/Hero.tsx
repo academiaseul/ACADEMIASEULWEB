@@ -81,8 +81,8 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.8 }}
           className="mt-4 max-w-xl text-base leading-relaxed text-white/70"
         >
-          Clases de coreano en vivo con profesor nativo · Grupos pequeños ·
-          Para LATAM y España.
+          Aprende a leer <span className="font-korean text-white/90">한글</span> desde tu primera semana.
+          Clases en vivo con profesor nativo y grupos pequeños — para toda LATAM y España.
         </motion.p>
 
         {/* CTA Buttons — real anchor tags with real click targets */}
@@ -104,6 +104,44 @@ export default function Hero() {
           >
             Ver cursos
           </a>
+        </motion.div>
+
+        {/* Free hook */}
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 2.2, duration: 0.8 }}
+          className="mt-5 text-sm text-white/45"
+        >
+          o{' '}
+          <a
+            href="/recursos/guias"
+            className="text-white/75 underline underline-offset-4 decoration-white/30 transition-colors hover:text-seoul-red"
+          >
+            descarga la guía del alfabeto gratis
+          </a>
+        </motion.p>
+
+        {/* Trust badges */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 2.4, duration: 0.8 }}
+          className="mt-8 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/55"
+        >
+          {[
+            '🇰🇷 Profesor nativo de Seúl',
+            '🎥 En vivo por Zoom',
+            '👥 Grupos pequeños',
+            '🌎 LATAM y España',
+          ].map((b) => (
+            <span
+              key={b}
+              className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5"
+            >
+              {b}
+            </span>
+          ))}
         </motion.div>
       </motion.div>
 
