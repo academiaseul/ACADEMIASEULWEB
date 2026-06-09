@@ -2,14 +2,25 @@
 
 import { useEffect, useState } from 'react';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import clsx from 'clsx';
 
-const navLinks = [
+type NavChild = { label: string; href: string };
+type NavLink = { label: string; href: string; highlight?: boolean; children?: NavChild[] };
+
+const navLinks: NavLink[] = [
   { label: 'Inicio',        href: '/#hero'     },
   { label: 'Nivel 1 · $89', href: '/nivel-1', highlight: true },
   { label: 'Taller Gratis', href: '/taller'    },
-  { label: 'Recursos',      href: '/recursos'  },
+  {
+    label: 'Recursos',
+    href: '/recursos',
+    children: [
+      { label: 'Guías',                 href: '/recursos/guias'        },
+      { label: 'Pronunciación coreana', href: '/recursos/pronunciacion' },
+      { label: 'Tu nombre en coreano',  href: '/generador-nombre'      },
+    ],
+  },
   { label: 'Blog',          href: '/blog'      },
   { label: 'Contacto',      href: '/#contact'  },
 ];
@@ -63,26 +74,55 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
 
             {/* Desktop nav */}
             <nav className="hidden md:flex items-center gap-8">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className={clsx(
-                    'text-sm font-medium transition-colors duration-200 relative group',
-                    link.highlight
-                      ? 'text-seoul-red hover:text-red-400'
-                      : 'text-seoul-white/70 hover:text-seoul-white',
-                  )}
-                >
-                  {link.label}
-                  <span
+              {navLinks.map((link) =>
+                link.children ? (
+                  <div key={link.href} className="relative group">
+                    <a
+                      href={link.href}
+                      className="text-sm font-medium text-seoul-white/70 hover:text-seoul-white transition-colors duration-200 inline-flex items-center gap-1"
+                    >
+                      {link.label}
+                      <ChevronDown
+                        size={14}
+                        className="opacity-60 group-hover:rotate-180 transition-transform duration-200"
+                      />
+                    </a>
+                    {/* Dropdown */}
+                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
+                      <div className="min-w-[230px] bg-seoul-black/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl p-2">
+                        {link.children.map((c) => (
+                          <a
+                            key={c.href}
+                            href={c.href}
+                            className="block px-4 py-3 rounded-lg text-sm text-seoul-white/75 hover:text-seoul-white hover:bg-white/[0.06] transition-colors duration-150"
+                          >
+                            {c.label}
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <a
+                    key={link.href}
+                    href={link.href}
                     className={clsx(
-                      'absolute -bottom-1 left-0 w-0 h-px group-hover:w-full transition-all duration-300',
-                      link.highlight ? 'bg-red-400' : 'bg-seoul-red',
+                      'text-sm font-medium transition-colors duration-200 relative group',
+                      link.highlight
+                        ? 'text-seoul-red hover:text-red-400'
+                        : 'text-seoul-white/70 hover:text-seoul-white',
                     )}
-                  />
-                </a>
-              ))}
+                  >
+                    {link.label}
+                    <span
+                      className={clsx(
+                        'absolute -bottom-1 left-0 w-0 h-px group-hover:w-full transition-all duration-300',
+                        link.highlight ? 'bg-red-400' : 'bg-seoul-red',
+                      )}
+                    />
+                  </a>
+                ),
+              )}
             </nav>
 
             {/* Desktop CTA */}
@@ -115,42 +155,49 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
 
       {/* Mobile menu */}
       <motion.div
-        className="fixed inset-0 z-40 md:hidden bg-seoul-black/98 backdrop-blur-xl flex flex-col pt-20 px-6 pb-8"
+        className="fixed inset-0 z-40 md:hidden bg-seoul-black/98 backdrop-blur-xl flex flex-col pt-20 px-6 pb-8 overflow-y-auto"
         initial={{ opacity: 0, y: '-100%' }}
         animate={{ opacity: mobileOpen ? 1 : 0, y: mobileOpen ? 0 : '-100%' }}
         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
         style={{ pointerEvents: mobileOpen ? 'auto' : 'none' }}
       >
         <div className="flex justify-center items-center gap-3 mb-8">
-          <img
-            src="/logo-tiger-red.png"
-            alt="Academia Seúl"
-            className="h-11 w-11 object-contain"
-          />
-          <img
-            src="/logo-text-red.png"
-            alt="Academia Seúl"
-            className="h-8 w-auto object-contain"
-          />
+          <img src="/logo-tiger-red.png" alt="Academia Seúl" className="h-11 w-11 object-contain" />
+          <img src="/logo-text-red.png" alt="Academia Seúl" className="h-8 w-auto object-contain" />
         </div>
-        <nav className="flex flex-col gap-2">
+        <nav className="flex flex-col">
           {navLinks.map((link, i) => (
-            <motion.a
+            <motion.div
               key={link.href}
-              href={link.href}
-              className={clsx(
-                'py-4 text-2xl font-bold border-b border-white/[0.06] transition-colors duration-200',
-                link.highlight
-                  ? 'text-seoul-red hover:text-red-400'
-                  : 'text-seoul-white/80 hover:text-seoul-red',
-              )}
-              onClick={() => setMobileOpen(false)}
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: mobileOpen ? 1 : 0, x: mobileOpen ? 0 : -20 }}
               transition={{ delay: i * 0.05 + 0.1, duration: 0.3 }}
             >
-              {link.label}
-            </motion.a>
+              <a
+                href={link.href}
+                onClick={() => setMobileOpen(false)}
+                className={clsx(
+                  'block py-4 text-2xl font-bold border-b border-white/[0.06] transition-colors duration-200',
+                  link.highlight ? 'text-seoul-red hover:text-red-400' : 'text-seoul-white/80 hover:text-seoul-red',
+                )}
+              >
+                {link.label}
+              </a>
+              {link.children && (
+                <div className="flex flex-col">
+                  {link.children.map((c) => (
+                    <a
+                      key={c.href}
+                      href={c.href}
+                      onClick={() => setMobileOpen(false)}
+                      className="py-3 pl-5 text-lg font-semibold text-seoul-white/55 hover:text-seoul-red border-b border-white/[0.04] transition-colors duration-200"
+                    >
+                      ↳ {c.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </motion.div>
           ))}
         </nav>
         <div className="mt-auto">

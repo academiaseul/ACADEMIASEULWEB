@@ -4,7 +4,7 @@ import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Download, FileText, CheckCircle2 } from 'lucide-react';
 
-const PDF_FILE_URL = '/pronunciacion-coreana-academia-seul.pdf';
+const PDF_FILE_URL = '/Guia_Alfabeto_Coreano_Hangul.pdf';
 
 export default function LeadMagnet() {
   const ref = useRef(null);
@@ -26,8 +26,8 @@ export default function LeadMagnet() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...formData,
-          _subject: 'Descarga PDF Pronunciacion Coreana',
-          recurso: 'Pronunciacion Coreana para Hispanohablantes (PDF)',
+          _subject: 'Descarga PDF Guia del Alfabeto Coreano',
+          recurso: 'Guia del Alfabeto Coreano - Hangul (PDF)',
         }),
       });
 
@@ -36,7 +36,7 @@ export default function LeadMagnet() {
         // Trigger automatic download
         const link = document.createElement('a');
         link.href = PDF_FILE_URL;
-        link.download = 'Pronunciacion-Coreana-Academia-Seul.pdf';
+        link.download = 'Guia-Alfabeto-Coreano-Hangul.pdf';
         link.click();
       } else {
         setError('Hubo un problema. Intenta nuevamente.');
@@ -91,15 +91,15 @@ export default function LeadMagnet() {
                   </div>
 
                   <div className="font-korean font-black text-seoul-red leading-none mt-5" style={{ fontSize: '4.5rem' }}>
-                    {'한국어'}
+                    {'한글'}
                   </div>
 
                   <div className="font-serif text-3xl md:text-4xl text-seoul-white leading-tight mt-4">
-                    Pronunciacion <br /> coreana
+                    Guia del <br /> alfabeto
                   </div>
 
                   <div className="text-xs text-white/45 mt-2 leading-relaxed">
-                    para hispanohablantes
+                    aprende a leer desde cero
                   </div>
 
                   <div className="mt-auto">
@@ -137,22 +137,23 @@ export default function LeadMagnet() {
               Recurso gratis
             </span>
             <h2 className="font-serif text-4xl md:text-5xl text-seoul-white leading-tight mb-5">
-              Descarga tu guia de <br />
-              <span className="text-gradient-red">pronunciacion</span>
+              Descarga tu guia del <br />
+              <span className="text-gradient-red">alfabeto coreano</span>
             </h2>
             <p className="text-base text-white/55 leading-relaxed mb-7 max-w-md">
-              10 paginas que te llevan de cero a leer Hangul correctamente. Las 6 vocales fundamentales,
-              las 14 consonantes, el batchim, y los 5 errores que delatan a hispanohablantes.
+              Todas las letras del Hangul en una sola hoja: las 14 consonantes y las 10 vocales
+              con su pronunciacion, como se arma una silaba y tus primeras palabras. Aprende a leer
+              coreano desde cero.
             </p>
 
             {/* Bullets */}
             <ul className="space-y-3 mb-8">
               {[
-                'Las 10 vocales (basicas + derivadas) con la boca real',
-                'Las 14 consonantes y como diferenciar las aspiradas',
-                'El batchim - la consonante final que cambia todo',
-                'Los 5 errores tipicos del hispanohablante (y como evitarlos)',
-                'Plan de practica de 1 semana incluido',
+                'Las 14 consonantes y las 10 vocales con su sonido',
+                'Como se arma una silaba (ㄱ + ㅏ = 가)',
+                'Las vocales segun cielo, tierra y persona (천지인)',
+                'Tus primeras palabras sin batchim para leer ya',
+                'Todo en una sola hoja, lista para imprimir',
               ].map((bullet) => (
                 <li key={bullet} className="flex items-start gap-3">
                   <CheckCircle2 size={18} className="text-seoul-red flex-shrink-0 mt-0.5" />
