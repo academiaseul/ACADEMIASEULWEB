@@ -737,7 +737,7 @@ export default function Nivel1Page() {
 
               {/* PayPal */}
               <a
-                href="https://wa.me/56942115562?text=Hola%20Jay%2C%20quiero%20pagar%20con%20PayPal%20%2489%20USD%20por%20Nivel%201."
+                href="https://www.paypal.com/ncp/payment/5X33QK4A928FU"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition"
