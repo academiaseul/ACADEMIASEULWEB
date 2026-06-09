@@ -49,8 +49,8 @@ export default function Footer() {
             </a>
 
             <p className="text-sm text-white/40 leading-relaxed max-w-xs mb-3">
-              Academia online de coreano para hispanohablantes. Profesora nativa de
-              Seul, metodo Chingu y una comunidad apasionada por la cultura coreana.
+              Academia online de coreano para hispanohablantes. Profesor nativo de
+              Seúl, método Chingu y una comunidad apasionada por la cultura coreana.
             </p>
 
             <p className="text-sm text-white/30 leading-relaxed max-w-xs mb-6">

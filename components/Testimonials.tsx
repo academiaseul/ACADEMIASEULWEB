@@ -16,44 +16,44 @@ import {
 const reasons = [
   {
     icon: Globe,
-    title: 'Profesora nativa de Seul',
+    title: 'Profesor nativo de Seúl',
     description:
-      'Naci en Seul en 1990 y llegue a Chile a los 10 anos. No "hablo coreano" - lo vivi desde pequena. La pronunciacion, los matices culturales y los modismos son parte de mi dia a dia.',
+      'Nací en Seúl en 1990 y llegué a Chile a los 10 años. No "hablo coreano" — lo viví desde pequeño. La pronunciación, los matices culturales y los modismos son parte de mi día a día.',
     color: '#C8001E',
   },
   {
     icon: Languages,
-    title: 'Bilingue perfecto coreano-espanol',
+    title: 'Bilingüe perfecto coreano-español',
     description:
-      'Cruce los dos idiomas durante 25+ anos. Conozco exactamente donde se traba un hispanohablante con el coreano - y como destrabarlo en minutos, no en anos.',
+      'Crucé los dos idiomas durante 25+ años. Conozco exactamente dónde se traba un hispanohablante con el coreano — y cómo destrabarlo en minutos, no en años.',
     color: '#003478',
   },
   {
     icon: GraduationCap,
-    title: '8+ anos ensenando coreano',
+    title: '8+ años enseñando coreano',
     description:
-      'No es mi primer rodeo. Llevo anos ensenando coreano formal e informalmente a estudiantes chilenos y latinoamericanos. Cada error que cometes, ya lo he visto antes.',
+      'No es mi primer rodeo. Llevo años enseñando coreano formal e informalmente a estudiantes chilenos y latinoamericanos. Cada error que cometes, ya lo he visto antes.',
     color: '#D4AF37',
   },
   {
     icon: BookOpenCheck,
-    title: 'Metodo Chingu',
+    title: 'Método Chingu',
     description:
-      'Disenado especificamente para hispanohablantes. No es un programa coreano traducido - es un enfoque pensado desde el espanol, con metaforas y referencias que si entiendes.',
+      'Diseñado específicamente para hispanohablantes. No es un programa coreano traducido — es un enfoque pensado desde el español, con metáforas y referencias que sí entiendes.',
     color: '#C8001E',
   },
   {
     icon: Users,
     title: 'Grupos con cupos limitados',
     description:
-      'No saturamos las cohortes. Grupos pequenos para que cada Chingu reciba atencion personal, dudas resueltas en vivo y feedback de pronunciacion real.',
+      'No saturamos las cohortes. Grupos pequeños para que cada Chingu reciba atención personal, dudas resueltas en vivo y feedback de pronunciación real.',
     color: '#003478',
   },
   {
     icon: ShieldCheck,
-    title: 'Garantia y transparencia',
+    title: 'Garantía y transparencia',
     description:
-      'Si despues de la primera semana sientes que no es para ti, devolvemos el 100%. Cero letra chica. Cero atadura. Si vienes, es porque quieres estar.',
+      'Si después de la primera semana sientes que no es para ti, devolvemos el 100%. Cero letra chica. Cero atadura. Si vienes, es porque quieres estar.',
     color: '#D4AF37',
   },
 ];
@@ -62,20 +62,20 @@ const testimonials = [
   {
     name: 'Isidora Figueroa',
     level: 'Nivel A1',
-    course: 'Coreano Basico',
+    course: 'Coreano Básico',
     initials: 'IF',
     color: '#C8001E',
     quote:
-      'Para mi fue un gran profesor! Le entendi muy bien y era bueno explicando. Si alguien no entendia volvia a explicar. Sus clases eran muy divertidas y aprendimos muchas cosas sobre la cultura coreana.',
+      'Para mí fue un gran profesor. Le entendí muy bien y era bueno explicando. Si alguien no entendía, volvía a explicar. Sus clases eran muy divertidas y aprendimos muchas cosas sobre la cultura coreana.',
   },
   {
     name: 'Nedielka Curkovic',
     level: 'Nivel A2',
-    course: 'Coreano Basico',
+    course: 'Coreano Básico',
     initials: 'NC',
     color: '#003478',
     quote:
-      'Las clases son bastante entretenidas porque mas que pasar solo contenido tambien nos ensena de otras cosas. Cuando le preguntamos un concepto nos cuenta una pequena historia relacionada - asi lo recuerdo mas facilmente.',
+      'Las clases son bastante entretenidas porque, más que pasar solo contenido, también nos enseña otras cosas. Cuando le preguntamos un concepto, nos cuenta una pequeña historia relacionada — así lo recuerdo más fácilmente.',
   },
   {
     name: 'Carolina Morales',
@@ -84,16 +84,16 @@ const testimonials = [
     initials: 'CM',
     color: '#D4AF37',
     quote:
-      'Excelente profesor. Siempre disponible para responder dudas dentro y fuera del horario de clases, ademas de explicar hasta que se entienda. Las clases son divertidas y entendibles. Gracias profesor!',
+      'Excelente profesor. Siempre disponible para responder dudas dentro y fuera del horario de clases, además de explicar hasta que se entienda. Las clases son divertidas y entendibles. ¡Gracias, profesor!',
   },
   {
     name: 'Catalina Saavedra',
     level: 'Nivel A2',
-    course: 'Coreano Basico',
+    course: 'Coreano Básico',
     initials: 'CS',
     color: '#C8001E',
     quote:
-      'Muy buen profesor, sus explicaciones son muy claras y siempre da distintos ejemplos. Ademas nos ensena sobre cultura y cosas tipicas de Corea. Tambien ensena con musica, lo cual facilita mucho el oido y la pronunciacion correcta.',
+      'Muy buen profesor, sus explicaciones son muy claras y siempre da distintos ejemplos. Además nos enseña sobre cultura y cosas típicas de Corea. También enseña con música, lo cual facilita mucho el oído y la pronunciación correcta.',
   },
   {
     name: 'Paulina Cerda',
@@ -102,25 +102,25 @@ const testimonials = [
     initials: 'PC',
     color: '#003478',
     quote:
-      'Clases claras y didacticas, con entrega de material adecuado para estudio. Se agradece el esfuerzo para fomentar la participacion en clases y explicar reiteradamente en caso de dudas. Ademas la disposicion para resolver dudas fuera del horario.',
+      'Clases claras y didácticas, con entrega de material adecuado para el estudio. Se agradece el esfuerzo para fomentar la participación en clases y explicar reiteradamente en caso de dudas, además de la disposición para resolver dudas fuera del horario.',
   },
   {
     name: 'Mariam',
     level: 'Nivel A1',
-    course: 'Coreano Basico',
+    course: 'Coreano Básico',
     initials: 'MA',
     color: '#D4AF37',
     quote:
-      'Jae Hee tiene muy buena disposicion cuando alguien tiene una duda, complementa sus clases con cultura general y se dan espacios de confianza donde se pueden compartir experiencias.',
+      'Jae Hee tiene muy buena disposición cuando alguien tiene una duda, complementa sus clases con cultura general y se dan espacios de confianza donde se pueden compartir experiencias.',
   },
   {
-    name: 'Valentina San Martin',
+    name: 'Valentina San Martín',
     level: 'Nivel A1',
-    course: 'Coreano Basico',
+    course: 'Coreano Básico',
     initials: 'VS',
     color: '#C8001E',
     quote:
-      'Fue entretenido y entendi muy bien las clases. Tiene mucha paciencia y hace agradable el aprender.',
+      'Fue entretenido y entendí muy bien las clases. Tiene mucha paciencia y hace agradable el aprender.',
   },
 ];
 
@@ -163,7 +163,7 @@ export default function Testimonials() {
           className="mb-16 text-center"
         >
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
-            Por que Academia Seul
+            Por qué Academia Seúl
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-white leading-tight max-w-3xl mx-auto">
             Lo que nos hace
@@ -171,7 +171,7 @@ export default function Testimonials() {
             <span className="text-gradient-red">diferentes</span>
           </h2>
           <p className="mt-6 text-white/50 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
-            8+ anos ensenando coreano, una metodologia probada y la energia
+            8+ años enseñando coreano, una metodología probada y la energía
             de una comunidad real.
           </p>
         </motion.div>
@@ -203,21 +203,21 @@ export default function Testimonials() {
             <div className="md:col-span-2 space-y-3">
               <p className="text-base md:text-lg text-seoul-white/85 leading-relaxed">
                 <span className="font-korean">{'안녕하세요'}</span>, soy{' '}
-                <span className="font-korean font-bold">{'김재희'}</span> - mejor conocido como Jay. Naci en Seul, llegue a
-                Chile a los 10 anos, y creci entre kimchi y empanadas - entre{' '}
-                <span className="font-korean">{'한글'}</span> y espanol.
+                <span className="font-korean font-bold">{'김재희'}</span> — mejor conocido como Jay. Nací en Seúl, llegué a
+                Chile a los 10 años, y crecí entre kimchi y empanadas — entre{' '}
+                <span className="font-korean">{'한글'}</span> y español.
               </p>
               <p className="text-sm text-white/55 leading-relaxed">
-                De dia soy gerente en una empresa coreana de genomica en Las Condes. De noche
-                hago lo que mas amo: ensenar mi idioma a quienes lo aprenden por amor a la
-                cultura. Academia Seul nacio para construir el puente que yo no tuve a los 10.
+                De día soy gerente en una empresa coreana de genómica en Las Condes. De noche
+                hago lo que más amo: enseñar mi idioma a quienes lo aprenden por amor a la
+                cultura. Academia Seúl nació para construir el puente que yo no tuve a los 10.
               </p>
               <div className="pt-3 flex flex-wrap gap-2">
                 {[
-                  'Nativo de Seul',
-                  'Bilingue espanol',
-                  '8+ anos ensenando',
-                  'Metodo Chingu',
+                  'Nativo de Seúl',
+                  'Bilingüe español',
+                  '8+ años enseñando',
+                  'Método Chingu',
                 ].map((tag) => (
                   <span
                     key={tag}
@@ -276,7 +276,7 @@ export default function Testimonials() {
           className="text-center mb-20"
         >
           <p className="text-white/40 text-sm mb-5">
-            La mejor forma de conocer mi metodo: la primera cohorte del Nivel 1.
+            La mejor forma de conocer mi método: la primera cohorte del Nivel 1.
           </p>
           <a
             href="/nivel-1"
@@ -301,8 +301,8 @@ export default function Testimonials() {
             Lo que dicen <span className="text-gradient-red">mis chingus</span>
           </h3>
           <p className="mt-4 text-white/50 text-base max-w-xl mx-auto leading-relaxed">
-            Testimonios reales de estudiantes que tome en mis clases anteriores.
-            La misma energia y metodologia llega ahora a Academia Seul.
+            Testimonios reales de estudiantes que tomé en mis clases anteriores.
+            La misma energía y metodología llega ahora a Academia Seúl.
           </p>
         </motion.div>
 

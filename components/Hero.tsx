@@ -81,7 +81,7 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.8 }}
           className="mt-4 max-w-xl text-base leading-relaxed text-white/70"
         >
-          Clases de coreano en vivo con profesora nativa · Grupos pequeños ·
+          Clases de coreano en vivo con profesor nativo · Grupos pequeños ·
           Para LATAM y España.
         </motion.p>
 

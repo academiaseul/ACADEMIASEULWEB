@@ -95,7 +95,7 @@ export default function LeadMagnet() {
                   </div>
 
                   <div className="font-serif text-3xl md:text-4xl text-seoul-white leading-tight mt-4">
-                    Guia del <br /> alfabeto
+                    Guía del <br /> alfabeto
                   </div>
 
                   <div className="text-xs text-white/45 mt-2 leading-relaxed">
@@ -137,12 +137,12 @@ export default function LeadMagnet() {
               Recurso gratis
             </span>
             <h2 className="font-serif text-4xl md:text-5xl text-seoul-white leading-tight mb-5">
-              Descarga tu guia del <br />
+              Descarga tu guía del <br />
               <span className="text-gradient-red">alfabeto coreano</span>
             </h2>
             <p className="text-base text-white/55 leading-relaxed mb-7 max-w-md">
               Todas las letras del Hangul en una sola hoja: las 14 consonantes y las 10 vocales
-              con su pronunciacion, como se arma una silaba y tus primeras palabras. Aprende a leer
+              con su pronunciación, cómo se arma una sílaba y tus primeras palabras. Aprende a leer
               coreano desde cero.
             </p>
 
@@ -150,8 +150,8 @@ export default function LeadMagnet() {
             <ul className="space-y-3 mb-8">
               {[
                 'Las 14 consonantes y las 10 vocales con su sonido',
-                'Como se arma una silaba (ㄱ + ㅏ = 가)',
-                'Las vocales segun cielo, tierra y persona (천지인)',
+                'Cómo se arma una sílaba (ㄱ + ㅏ = 가)',
+                'Las vocales según cielo, tierra y persona (천지인)',
                 'Tus primeras palabras sin batchim para leer ya',
                 'Todo en una sola hoja, lista para imprimir',
               ].map((bullet) => (
@@ -199,7 +199,7 @@ export default function LeadMagnet() {
                 </button>
 
                 <p className="text-[11px] text-white/35 text-center">
-                  Sin spam. Te enviamos el PDF + tips esporadicos de coreano.
+                  Sin spam. Te enviamos el PDF + tips esporádicos de coreano.
                 </p>
               </div>
             ) : (
@@ -211,7 +211,7 @@ export default function LeadMagnet() {
                       Listo, {formData.nombre}! 💜
                     </div>
                     <p className="text-sm text-white/70 leading-relaxed">
-                      Tu PDF ya esta descargando. Tambien te lo enviamos al email por si lo necesitas despues.
+                      Tu PDF ya está descargando. También te lo enviamos al email por si lo necesitas después.
                     </p>
                   </div>
                 </div>

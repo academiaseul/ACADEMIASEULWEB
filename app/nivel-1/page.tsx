@@ -19,6 +19,10 @@ export default function Nivel1Page() {
   const [formError, setFormError] = useState("");
   const [showTransfer, setShowTransfer] = useState(false);
 
+  // Confirmación de pago (avisa al owner quién pagó)
+  const [payConfirming, setPayConfirming] = useState(false);
+  const [payConfirmed, setPayConfirmed] = useState(false);
+
   const handleInscribir = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.nombre || !form.correo || !form.whatsapp || !form.edad || !form.rut || !form.comoConocio) {
@@ -53,6 +57,31 @@ export default function Nivel1Page() {
       setFormError("Hubo un problema al enviar. Intenta de nuevo o escríbenos por WhatsApp.");
     } finally {
       setSubmitting(false);
+    }
+  };
+
+  const confirmarPago = async (metodo: string) => {
+    setPayConfirming(true);
+    try {
+      await fetch("https://formspree.io/f/mzdypyky", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          _subject: `💰 PAGO Nivel 1 — ${form.nombre || "alumno sin nombre"}`,
+          tipo: "Confirmación de pago",
+          nombre: form.nombre || "(no completó inscripción)",
+          correo: form.correo,
+          whatsapp: form.whatsapp,
+          clase: cohortes[selectedCohorte].label,
+          metodo_de_pago: metodo,
+          monto: "$89 USD / $85.000 CLP",
+        }),
+      });
+    } catch {
+      /* aunque falle el aviso, confirmamos al alumno; el pago se concilia luego */
+    } finally {
+      setPayConfirmed(true);
+      setPayConfirming(false);
     }
   };
 
@@ -632,7 +661,8 @@ export default function Nivel1Page() {
                     <div className="flex justify-between gap-4"><dt className="text-gray-500">Correo</dt><dd className="font-medium text-gray-900">hola.academiaseul@gmail.com</dd></div>
                   </dl>
                   <p className="text-xs text-gray-600 mt-4">
-                    Después de transferir, envía tu comprobante por WhatsApp o al correo para confirmar tu cupo.
+                    Importante: pon <strong>tu nombre completo</strong> como referencia/glosa de la transferencia
+                    para que podamos asociarla a tu inscripción. Luego envía tu comprobante por WhatsApp o al correo.
                   </p>
                   <a
                     href="https://wa.me/56942115562?text=Hola%20Jay%2C%20ya%20hice%20la%20transferencia%20del%20Nivel%201%20A1%20(%2485.000%20CLP).%20Aqu%C3%AD%20va%20mi%20comprobante%3A"
@@ -649,6 +679,47 @@ export default function Nivel1Page() {
               <p className="text-center text-xs text-gray-500">
                 ¿Fuera de Chile? Escríbenos por WhatsApp y coordinamos tu transferencia internacional.
               </p>
+
+              {/* Paso 3 · Confirmar pago (avisa al equipo quién pagó) */}
+              <div className="mt-6 pt-6 border-t border-dashed border-gray-300">
+                {!payConfirmed ? (
+                  <div className="text-center">
+                    <p className="text-sm font-bold text-gray-900 mb-1">¿Ya hiciste tu pago?</p>
+                    <p className="text-xs text-gray-500 mb-4">
+                      Confírmalo aquí y reservamos tu cupo en la <strong>{cohortes[selectedCohorte].label}</strong>.
+                      Te escribimos por correo/WhatsApp para darte la bienvenida.
+                    </p>
+                    <div className="flex flex-wrap justify-center gap-2">
+                      {[
+                        { m: "Mercado Pago (tarjeta)", e: "💳" },
+                        { m: "PayPal", e: "🌍" },
+                        { m: "Transferencia bancaria", e: "🏦" },
+                      ].map((opt) => (
+                        <button
+                          key={opt.m}
+                          type="button"
+                          disabled={payConfirming}
+                          onClick={() => confirmarPago(opt.m)}
+                          className="px-4 py-2.5 rounded-full text-sm font-bold border-2 border-[#3D2EE8] text-[#3D2EE8] hover:bg-[#3D2EE8] hover:text-white transition disabled:opacity-50"
+                        >
+                          {opt.e} Ya pagué con {opt.m}
+                        </button>
+                      ))}
+                    </div>
+                    {payConfirming && <p className="text-xs text-gray-400 mt-3">Enviando confirmación…</p>}
+                  </div>
+                ) : (
+                  <div className="text-center bg-[#F0FBF4] border border-[#BCEBCD] rounded-2xl p-5">
+                    <div className="text-3xl mb-1">✅</div>
+                    <p className="text-sm font-bold text-gray-900">
+                      ¡Gracias{form.nombre ? `, ${form.nombre.split(" ")[0]}` : ""}! Registramos tu pago.
+                    </p>
+                    <p className="text-xs text-gray-600 mt-1">
+                      Verificamos y te confirmamos tu cupo por correo/WhatsApp en las próximas horas. 화이팅!
+                    </p>
+                  </div>
+                )}
+              </div>
             </div>
 
             <div className="text-center text-xs text-gray-500 mt-6">
@@ -695,13 +766,13 @@ export default function Nivel1Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Tu profesora
+                Tu profesor
               </h2>
               <div className="text-2xl font-bold mb-2" style={{ color: "#3D2EE8" }}>
                 김재희 · Jay Kim
               </div>
               <p className="text-gray-600 mb-4">
-                Fundadora de Academia Seúl. Nacida en Seúl, formada en lingüística y pedagogía.
+                Fundador de Academia Seúl. Nacido en Seúl, formado en lingüística y pedagogía.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 8+ años enseñando coreano a hispanohablantes en Chile y de manera online. He enseñado a estudiantes que después siguieron carreras en Corea, viajaron al país, o trabajan en empresas coreanas.

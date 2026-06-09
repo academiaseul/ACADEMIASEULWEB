@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: '%s | Academia Seúl',
   },
   description:
-    'Aprende coreano desde cero con clases en vivo por Zoom. Profesora nativa, grupos de máximo 15 alumnos, método Korea Foundation. Para LATAM y España.',
+    'Aprende coreano desde cero con clases en vivo por Zoom. Profesor nativo, grupos pequeños con cupos limitados, método Chingu. Para LATAM y España.',
   keywords: [
     'clases de coreano online',
     'aprender coreano',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Academia Seúl | Aprende Coreano Online con Clases en Vivo',
     description:
-      'Clases de coreano en vivo con profesora nativa. Grupos pequeños, método Korea Foundation. LATAM y España.',
+      'Clases de coreano en vivo con profesor nativo. Grupos pequeños, método Korea Foundation. LATAM y España.',
     url: 'https://www.academiaseul.com',
     type: 'website',
     locale: 'es_CL',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Academia Seúl | Aprende Coreano Online',
-    description: 'Clases de coreano en vivo con profesora nativa. LATAM y España.',
+    description: 'Clases de coreano en vivo con profesor nativo. LATAM y España.',
     images: ['/og-image.png'],
   },
   robots: { index: true, follow: true },

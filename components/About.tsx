@@ -5,7 +5,7 @@ import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
 
 const stats = [
-  { value: '🇰🇷',     label: 'Profesora nativa de Seúl',  sublabel: 'Bilingüe coreano-español' },
+  { value: '🇰🇷',     label: 'Profesor nativo de Seúl',  sublabel: 'Bilingüe coreano-español' },
   { value: '8',        label: 'Años enseñando coreano',    sublabel: 'Experiencia comprobada',     suffix: '+' },
   { value: 'Chingu™',  label: 'Método propio',             sublabel: 'Diseñado para hispanohablantes' },
   { value: '6',        label: 'Cursos diseñados',          sublabel: 'Del A1 al C2 + especializados' },
