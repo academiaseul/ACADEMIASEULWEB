@@ -13,6 +13,7 @@ const navLinks = [
   { label: 'Nivel 1 · $89', href: '/nivel-1', highlight: true },
   { label: 'Cultura',      href: '/#culture'  },
   { label: 'Blog',         href: '/blog'      },
+  { label: 'Tu nombre en 한글', href: '/generador-nombre' },
   { label: 'Testimonios',  href: '/#testimonials' },
   { label: 'Contacto',     href: '/#contact'  },
 ];
