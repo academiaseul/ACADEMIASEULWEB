@@ -22,6 +22,8 @@ export default function Nivel1Page() {
   // Confirmación de pago (avisa al owner quién pagó)
   const [payConfirming, setPayConfirming] = useState(false);
   const [payConfirmed, setPayConfirmed] = useState(false);
+  const [payLoading, setPayLoading] = useState(false);
+  const [pagoStatus, setPagoStatus] = useState<string | null>(null);
 
   const handleInscribir = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -85,6 +87,54 @@ export default function Nivel1Page() {
     }
   };
 
+  // Pago con tarjeta vía Mercado Pago (checkout dinámico con datos del alumno)
+  const pagarConTarjeta = async () => {
+    if (!submitted || !form.nombre || !form.correo) {
+      setFormError("Primero completa tus datos arriba para reservar tu cupo.");
+      document.getElementById("inscripcion")?.scrollIntoView({ behavior: "smooth" });
+      return;
+    }
+    setPayLoading(true);
+    try {
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          nombre: form.nombre,
+          correo: form.correo,
+          whatsapp: form.whatsapp,
+          clase: cohortes[selectedCohorte].label,
+          cohorteKey: selectedCohorte,
+        }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.url) {
+          window.location.href = data.url;
+          return;
+        }
+      }
+      // Fallback: link de pago estático de Mercado Pago
+      window.location.href = cohortes[selectedCohorte].paymentLink;
+    } catch {
+      window.location.href = cohortes[selectedCohorte].paymentLink;
+    } finally {
+      setPayLoading(false);
+    }
+  };
+
+  // Lee el resultado del pago al volver de Mercado Pago (?pago=success|pending|failure)
+  useEffect(() => {
+    const p = new URLSearchParams(window.location.search).get("pago");
+    if (!p) return;
+    setPagoStatus(p);
+    if (p === "success") {
+      setSubmitted(true);
+      setPayConfirmed(true);
+    }
+    window.history.replaceState({}, "", "/nivel-1");
+  }, []);
+
   // Countdown to Monday June 8, 2026 23:59 Chile time
   useEffect(() => {
     const deadline = new Date("2026-06-30T23:59:00-04:00").getTime();
@@ -109,21 +159,21 @@ export default function Nivel1Page() {
 
   const cohortes = {
     martes: {
-      label: "🇨🇱 Cohorte Martes",
+      label: "🇨🇱 Clase Martes",
       day: "Martes",
       hora: "20:00 hora Chile",
       ideal: "Ideal para: LATAM (Argentina, Chile, Venezuela, México, Colombia, Perú)",
       paymentLink: "https://mpago.li/2erRfe5",
     },
     jueves: {
-      label: "🇨🇱 Cohorte Jueves",
+      label: "🇨🇱 Clase Jueves",
       day: "Jueves",
       hora: "20:00 hora Chile",
       ideal: "Ideal para: LATAM con agenda flexible mid-week",
       paymentLink: "https://mpago.li/2qoSMzW",
     },
     sabado: {
-      label: "🇪🇸 Cohorte Sábado",
+      label: "🇪🇸 Clase Sábado",
       day: "Sábado",
       hora: "11:00 hora Chile · 16:00 hora España",
       ideal: "Ideal para: España + LATAM que prefiere fin de semana",
@@ -162,8 +212,8 @@ export default function Nivel1Page() {
       a: "Las 11 sesiones son EN VIVO por Zoom (90 min cada una). Si te perdés alguna, te mando la grabación dentro de las 24 horas.",
     },
     {
-      q: "¿Qué pasa si no puedo asistir a mi cohorte un día?",
-      a: "Sin problema. Recibís la grabación + podés sumarte a otra cohorte esa semana como recuperación.",
+      q: "¿Qué pasa si no puedo asistir a mi clase un día?",
+      a: "Sin problema. Recibís la grabación + podés sumarte a otra clase esa semana como recuperación.",
     },
     {
       q: "¿Necesito experiencia previa?",
@@ -175,7 +225,7 @@ export default function Nivel1Page() {
     },
     {
       q: "¿Cuántas personas hay por clase?",
-      a: "Máximo 15 alumnos por cohorte. Es así para que pueda corregir la pronunciación de cada uno personalmente.",
+      a: "Máximo 15 alumnos por clase. Es así para que pueda corregir la pronunciación de cada uno personalmente.",
     },
     {
       q: "¿Recibo certificado?",
@@ -191,6 +241,31 @@ export default function Nivel1Page() {
     <main className="min-h-screen bg-white">
       {/* Nav */}
       <Navigation solid />
+
+      {/* Aviso de resultado de pago (al volver de Mercado Pago) */}
+      {pagoStatus && (
+        <div className="pt-20 md:pt-24 px-6">
+          <div
+            className={`max-w-2xl mx-auto rounded-2xl p-5 text-center border ${
+              pagoStatus === "success"
+                ? "bg-[#F0FBF4] border-[#BCEBCD] text-green-800"
+                : pagoStatus === "pending"
+                ? "bg-[#FFF8E6] border-[#F2E2A8] text-yellow-800"
+                : "bg-[#FFF1F1] border-[#F3C6C6] text-red-800"
+            }`}
+          >
+            {pagoStatus === "success" && (
+              <p className="font-bold">✅ ¡Pago recibido! Tu cupo está confirmado. Te escribimos por correo/WhatsApp con los siguientes pasos. 🎉</p>
+            )}
+            {pagoStatus === "pending" && (
+              <p className="font-bold">⏳ Tu pago quedó pendiente. Apenas se acredite, confirmamos tu cupo y te avisamos.</p>
+            )}
+            {pagoStatus === "failure" && (
+              <p className="font-bold">No se completó el pago. Puedes intentar de nuevo abajo o escribirnos por WhatsApp.</p>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Hero Cobalto */}
       <section className="relative overflow-hidden text-white pt-16 md:pt-20" style={{ backgroundColor: "#3D2EE8" }}>
@@ -378,7 +453,7 @@ export default function Nivel1Page() {
       <section className="py-16" style={{ backgroundColor: "#F5F3FF" }}>
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">
-            Elegí tu cohorte
+            Elegí tu clase
           </h2>
           <p className="text-gray-600 text-center mb-12">3 horarios para que encuentres el que mejor te acomode</p>
 
@@ -404,7 +479,7 @@ export default function Nivel1Page() {
           </div>
 
           <div className="text-center text-sm text-gray-600">
-            <p>📌 15 cupos por cohorte · Para que pueda corregir tu pronunciación personalmente</p>
+            <p>📌 15 cupos por clase · Para que pueda corregir tu pronunciación personalmente</p>
           </div>
         </div>
       </section>
@@ -418,7 +493,7 @@ export default function Nivel1Page() {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Reserva tu cupo</h2>
             <p className="text-gray-600">
-              Déjanos tus datos y elige tu clase. Luego eliges cómo pagar. Cupos limitados a 15 por cohorte.
+              Déjanos tus datos y elige tu clase. Luego eliges cómo pagar. Cupos limitados a 15 por clase.
             </p>
           </div>
 
@@ -497,7 +572,7 @@ export default function Nivel1Page() {
                 </select>
               </div>
               <div>
-                <label className="block text-sm font-bold text-gray-700 mb-1">Clase (cohorte)</label>
+                <label className="block text-sm font-bold text-gray-700 mb-1">Clase</label>
                 <select
                   value={selectedCohorte}
                   onChange={(e) => setSelectedCohorte(e.target.value as Cohorte)}
@@ -612,21 +687,21 @@ export default function Nivel1Page() {
             {/* Payment buttons */}
             <div className="space-y-3">
               <div className="text-center text-sm text-gray-600 mb-1">
-                Cohorte seleccionada: <strong className="text-gray-900">{cohortes[selectedCohorte].label}</strong>
+                Clase seleccionada: <strong className="text-gray-900">{cohortes[selectedCohorte].label}</strong>
               </div>
               <p className="text-center text-xs font-bold tracking-widest text-gray-400 mb-3">ELIGE CÓMO PAGAR</p>
 
-              {/* Tarjeta crédito/débito (Mercado Pago) */}
-              <a
-                href={cohortes[selectedCohorte].paymentLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full py-4 rounded-full text-white font-bold text-lg text-center hover:scale-[1.02] transition"
+              {/* Tarjeta crédito/débito (Mercado Pago — checkout con tus datos) */}
+              <button
+                type="button"
+                onClick={pagarConTarjeta}
+                disabled={payLoading}
+                className="block w-full py-4 rounded-full text-white font-bold text-lg text-center hover:scale-[1.02] transition disabled:opacity-60"
                 style={{ backgroundColor: "#3D2EE8" }}
               >
-                💳 Tarjeta de crédito / débito · Mercado Pago
-              </a>
-              <p className="text-center text-xs text-gray-500 -mt-1">Acepta Visa, Mastercard y débito · ~85.000 CLP / $89 USD · cuotas según tu banco</p>
+                {payLoading ? "Abriendo pago seguro…" : "💳 Pagar con tarjeta · Mercado Pago"}
+              </button>
+              <p className="text-center text-xs text-gray-500 -mt-1">Acepta Visa, Mastercard y débito · ~85.000 CLP / $89 USD · cuotas según tu banco. Reserva tu cupo arriba antes de pagar.</p>
 
               {/* PayPal */}
               <a
