@@ -6,16 +6,12 @@ import { Menu, X } from 'lucide-react';
 import clsx from 'clsx';
 
 const navLinks = [
-  { label: 'Inicio',       href: '/#hero'     },
-  { label: 'Academia',     href: '/#about'    },
-  { label: 'Cursos',       href: '/#courses'  },
-  { label: 'Taller Gratis', href: '/taller'   },
+  { label: 'Inicio',        href: '/#hero'     },
   { label: 'Nivel 1 · $89', href: '/nivel-1', highlight: true },
-  { label: 'Cultura',      href: '/#culture'  },
-  { label: 'Blog',         href: '/blog'      },
+  { label: 'Taller Gratis', href: '/taller'    },
   { label: 'Tu nombre en 한글', href: '/generador-nombre' },
-  { label: 'Testimonios',  href: '/#testimonials' },
-  { label: 'Contacto',     href: '/#contact'  },
+  { label: 'Blog',          href: '/blog'      },
+  { label: 'Contacto',      href: '/#contact'  },
 ];
 
 export default function Navigation({ solid = false }: { solid?: boolean }) {
