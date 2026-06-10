@@ -1,0 +1,289 @@
+'use client';
+
+import { useState } from 'react';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
+
+type Opt = { label: string; pts: number };
+type Q = { q: string; korean?: string; opts: Opt[] };
+
+const QUESTIONS: Q[] = [
+  {
+    q: '¿Puedes leer esto?',
+    korean: '안녕',
+    opts: [
+      { label: 'Ni idea, son dibujitos para mí', pts: 0 },
+      { label: 'Reconozco alguna letra', pts: 1 },
+      { label: 'Sí, dice "annyeong"', pts: 2 },
+    ],
+  },
+  {
+    q: '¿Sabes qué es el 한글 (hangul)?',
+    opts: [
+      { label: 'No', pts: 0 },
+      { label: 'He oído el término', pts: 1 },
+      { label: 'Es el alfabeto coreano, claro', pts: 2 },
+    ],
+  },
+  {
+    q: '¿Has estudiado coreano antes?',
+    opts: [
+      { label: 'Nunca, parto de cero', pts: 0 },
+      { label: 'Por mi cuenta (apps, videos)', pts: 1 },
+      { label: 'En clases o academia', pts: 2 },
+    ],
+  },
+  {
+    q: 'La partícula 은/는, ¿para qué sirve?',
+    opts: [
+      { label: 'No tengo idea', pts: 0 },
+      { label: 'Creo que marca el tema de la frase', pts: 1 },
+      { label: 'Sí, marca el tema/sujeto', pts: 2 },
+    ],
+  },
+  {
+    q: '¿Puedes presentarte en coreano? (저는 ...이에요)',
+    opts: [
+      { label: 'Para nada', pts: 0 },
+      { label: 'Más o menos, con ayuda', pts: 1 },
+      { label: 'Sí, sin problema', pts: 2 },
+    ],
+  },
+];
+
+const GOALS = [
+  '🎵 Entender K-pop y K-dramas',
+  '✈️ Viajar o vivir en Corea',
+  '📜 Dar el examen TOPIK',
+  '💜 Hobby y cultura',
+];
+
+function resultFor(score: number) {
+  if (score <= 3)
+    return {
+      tier: 'Principiante total',
+      emoji: '🌱',
+      text: 'Estás partiendo desde cero — el lugar perfecto para empezar bien. El Nivel 1 (A1) te enseña a leer hangul en la primera semana y a construir tus primeras frases.',
+      rec: 'Nivel 1 (A1) · desde cero',
+    };
+  if (score <= 7)
+    return {
+      tier: 'Falso principiante',
+      emoji: '🚀',
+      text: 'Ya tienes contacto con el idioma, pero te faltan bases ordenadas. El Nivel 1 te llena los huecos y te da estructura para avanzar de verdad.',
+      rec: 'Nivel 1 (A1) · ordena tus bases',
+    };
+  return {
+    tier: 'Tienes bases',
+    emoji: '🔥',
+    text: 'Vas bien. El Nivel 1 te sirve para consolidar y corregir pronunciación; si ya dominas todo esto, escríbenos y te evaluamos para A2.',
+    rec: 'Nivel 1 (A1) para consolidar · o evaluación A2',
+  };
+}
+
+export default function TestNivelPage() {
+  const [step, setStep] = useState(0); // 0..QUESTIONS.length-1, then goal, then email, then result
+  const [answers, setAnswers] = useState<number[]>([]);
+  const [goal, setGoal] = useState('');
+  const [form, setForm] = useState({ nombre: '', correo: '' });
+  const [sending, setSending] = useState(false);
+  const [done, setDone] = useState(false);
+
+  const totalSteps = QUESTIONS.length + 1; // questions + goal
+  const score = answers.reduce((a, b) => a + b, 0);
+  const result = resultFor(score);
+
+  const answer = (pts: number) => {
+    setAnswers((prev) => [...prev, pts]);
+    setStep((s) => s + 1);
+  };
+
+  const chooseGoal = (g: string) => {
+    setGoal(g);
+    setStep((s) => s + 1);
+  };
+
+  const submit = async () => {
+    if (!form.nombre || !form.correo) return;
+    setSending(true);
+    try {
+      await fetch('https://formspree.io/f/mzdypyky', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          _subject: `Test de nivel — ${form.nombre} (${result.tier})`,
+          tipo: 'Test de nivel',
+          nombre: form.nombre,
+          correo: form.correo,
+          resultado: result.tier,
+          puntaje: `${score}/10`,
+          meta: goal,
+        }),
+      });
+    } catch {
+      /* mostramos el resultado igual */
+    } finally {
+      setSending(false);
+      setDone(true);
+    }
+  };
+
+  const progress = Math.min(step, totalSteps) / totalSteps;
+  const showQuestion = step < QUESTIONS.length;
+  const showGoal = step === QUESTIONS.length;
+  const showEmail = step === QUESTIONS.length + 1 && !done;
+  const showResult = done;
+
+  return (
+    <main className="min-h-screen bg-[#FDF6EC]">
+      <Navigation solid />
+
+      <section className="pt-32 md:pt-40 pb-12 px-6 max-w-2xl mx-auto">
+        <div className="text-center mb-8">
+          <p className="text-seoul-red text-xs font-bold tracking-[4px] uppercase mb-4">
+            레벨 테스트 · Test de nivel
+          </p>
+          <h1 className="text-3xl md:text-5xl font-black text-seoul-black mb-3">
+            ¿Qué nivel de coreano <span className="text-seoul-red">tienes</span>?
+          </h1>
+          <p className="text-gray-600">
+            5 preguntas rápidas. Te decimos por dónde empezar (y te mandamos tu guía gratis).
+          </p>
+        </div>
+
+        {/* Progress */}
+        {!showResult && (
+          <div className="h-2 w-full bg-[#E5E1FB] rounded-full mb-8 overflow-hidden">
+            <div
+              className="h-full bg-[#3D2EE8] transition-all duration-300"
+              style={{ width: `${progress * 100}%` }}
+            />
+          </div>
+        )}
+
+        {/* Question */}
+        {showQuestion && (
+          <div className="border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] p-7 md:p-9">
+            <p className="text-xs font-bold text-gray-400 mb-2">
+              Pregunta {step + 1} de {QUESTIONS.length}
+            </p>
+            <h2 className="text-xl md:text-2xl font-black text-seoul-black mb-1">
+              {QUESTIONS[step].q}
+            </h2>
+            {QUESTIONS[step].korean && (
+              <p
+                className="text-5xl font-black text-seoul-red my-5 text-center"
+                style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
+              >
+                {QUESTIONS[step].korean}
+              </p>
+            )}
+            <div className="space-y-3 mt-5">
+              {QUESTIONS[step].opts.map((o) => (
+                <button
+                  key={o.label}
+                  onClick={() => answer(o.pts)}
+                  className="block w-full text-left px-5 py-4 rounded-xl border-2 border-gray-200 hover:border-[#3D2EE8] hover:bg-[#F5F3FF] font-semibold text-gray-800 transition"
+                >
+                  {o.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Goal */}
+        {showGoal && (
+          <div className="border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] p-7 md:p-9">
+            <h2 className="text-xl md:text-2xl font-black text-seoul-black mb-5">
+              Última: ¿cuál es tu meta principal?
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {GOALS.map((g) => (
+                <button
+                  key={g}
+                  onClick={() => chooseGoal(g)}
+                  className="px-5 py-4 rounded-xl border-2 border-gray-200 hover:border-[#3D2EE8] hover:bg-[#F5F3FF] font-semibold text-gray-800 transition text-left"
+                >
+                  {g}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Email gate */}
+        {showEmail && (
+          <div className="border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] p-7 md:p-9 text-center">
+            <div className="text-4xl mb-3">{result.emoji}</div>
+            <h2 className="text-2xl font-black text-seoul-black mb-2">
+              ¡Listo! Tu resultado está calculado.
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Déjanos dónde enviarte tu resultado + la <strong>guía del alfabeto gratis</strong> y lo ves al instante.
+            </p>
+            <div className="space-y-3 max-w-sm mx-auto">
+              <input
+                type="text"
+                value={form.nombre}
+                onChange={(e) => setForm({ ...form, nombre: e.target.value })}
+                placeholder="Tu nombre"
+                className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#3D2EE8] outline-none transition"
+              />
+              <input
+                type="email"
+                value={form.correo}
+                onChange={(e) => setForm({ ...form, correo: e.target.value })}
+                placeholder="Tu correo"
+                className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#3D2EE8] outline-none transition"
+              />
+              <button
+                onClick={submit}
+                disabled={sending || !form.nombre || !form.correo}
+                className="w-full py-4 rounded-full bg-seoul-red text-white font-bold text-lg hover:scale-[1.02] transition disabled:opacity-50"
+              >
+                {sending ? 'Calculando…' : 'Ver mi resultado →'}
+              </button>
+              <p className="text-xs text-gray-400">🔒 Sin spam. Solo tu resultado y tips de coreano.</p>
+            </div>
+          </div>
+        )}
+
+        {/* Result */}
+        {showResult && (
+          <div className="border-2 border-seoul-black bg-white shadow-[8px_8px_0_#C8001E] p-8 md:p-10 text-center">
+            <div className="text-5xl mb-3">{result.emoji}</div>
+            <p className="text-xs font-bold tracking-[3px] uppercase text-seoul-red mb-2">
+              Tu resultado · {score}/10
+            </p>
+            <h2 className="text-3xl font-black text-seoul-black mb-4">{result.tier}</h2>
+            <p className="text-gray-700 leading-relaxed mb-6 max-w-md mx-auto">{result.text}</p>
+
+            <div className="bg-[#F5F3FF] border border-[#E5E1FB] rounded-2xl p-5 mb-7">
+              <p className="text-sm text-gray-500 mb-1">Recomendado para ti</p>
+              <p className="text-lg font-black text-[#3D2EE8]">{result.rec}</p>
+              {goal && <p className="text-sm text-gray-600 mt-2">Tu meta: {goal}</p>}
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a
+                href="/nivel-1"
+                className="inline-block bg-seoul-red text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition"
+              >
+                Empezar el Nivel 1 →
+              </a>
+              <a
+                href="/recursos/guias"
+                className="inline-block bg-white text-seoul-black font-bold px-8 py-4 rounded-full border-2 border-seoul-black hover:bg-gray-50 transition"
+              >
+                Descargar mi guía
+              </a>
+            </div>
+          </div>
+        )}
+      </section>
+
+      <Footer />
+    </main>
+  );
+}

@@ -16,6 +16,7 @@ const navLinks: NavLink[] = [
     label: 'Recursos',
     href: '/recursos',
     children: [
+      { label: 'Test de nivel',         href: '/test-nivel'            },
       { label: 'Guías',                 href: '/recursos/guias'        },
       { label: 'Pronunciación coreana', href: '/recursos/pronunciacion' },
       { label: 'Tu nombre en coreano',  href: '/generador-nombre'      },
