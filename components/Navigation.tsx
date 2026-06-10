@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import clsx from 'clsx';
+import PromoBar from './PromoBar';
 
 type NavChild = { label: string; href: string };
 type NavLink = { label: string; href: string; highlight?: boolean; children?: NavChild[] };
@@ -56,6 +57,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       >
+        <PromoBar />
         <div className="container-tight">
           <div className="flex items-center justify-between h-16 md:h-20">
 

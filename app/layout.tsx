@@ -6,7 +6,6 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import TallerPopup from '@/components/TallerPopup';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
-import PromoBar from '@/components/PromoBar';
 import MetaPixel from '@/components/MetaPixel';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 
@@ -80,7 +79,6 @@ export default function RootLayout({
         {children}
         <TallerPopup />
         <WhatsAppFloat />
-        <PromoBar />
 
         {/* Analytics (cargan solo si las env vars existen) */}
         <Suspense fallback={null}>
