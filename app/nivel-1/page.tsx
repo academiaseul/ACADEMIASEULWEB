@@ -136,7 +136,7 @@ export default function Nivel1Page() {
 
   // Countdown to Monday June 8, 2026 23:59 Chile time
   useEffect(() => {
-    const deadline = new Date("2026-06-30T23:59:00-04:00").getTime();
+    const deadline = new Date("2026-07-06T23:59:00-04:00").getTime();
     const tick = () => {
       const now = new Date().getTime();
       const diff = deadline - now;
@@ -204,7 +204,7 @@ export default function Nivel1Page() {
   const faqs = [
     {
       q: "¿Necesito haber asistido al taller?",
-      a: "No, para nada. El precio de lanzamiento de $89 USD (en lugar de $129) es para todos y está vigente hasta el 30 de junio.",
+      a: "No, para nada. El precio de lanzamiento de $89 USD es para todos y está vigente hasta el 6 de julio.",
     },
     {
       q: "¿Las clases son en vivo o grabadas?",
@@ -615,7 +615,7 @@ export default function Nivel1Page() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="inline-block px-4 py-1 mb-4 rounded-full text-xs font-bold tracking-widest text-white" style={{ backgroundColor: "#FF5C5C" }}>
-              PROMO DE LANZAMIENTO · HASTA EL 30 DE JUNIO
+              PROMO DE LANZAMIENTO · HASTA EL 6 DE JULIO
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
               Tu inversión
@@ -889,7 +889,7 @@ export default function Nivel1Page() {
             ¿Listo para empezar?
           </h2>
           <p className="text-lg opacity-90 mb-8">
-            El 7 de julio arranca el Nivel 1. El precio de lanzamiento de $89 termina el 30 de junio.
+            El 7 de julio arranca el Nivel 1. El precio de lanzamiento de $89 termina el 6 de julio.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a href="#pricing" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
