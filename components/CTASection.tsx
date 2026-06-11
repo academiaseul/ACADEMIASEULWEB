@@ -24,7 +24,7 @@ export default function CTASection() {
           className="absolute inset-0"
           style={{
             background:
-              'radial-gradient(ellipse 80% 60% at 50% 50%, #C8001E22 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 20% 80%, #00347820 0%, transparent 60%), #0a0a0f',
+              'radial-gradient(ellipse 80% 60% at 50% 50%, #3D2EE822 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 20% 80%, #00347820 0%, transparent 60%), #0a0a0f',
           }}
         />
         {/* Grid */}
@@ -32,8 +32,8 @@ export default function CTASection() {
           className="absolute inset-0 opacity-20"
           style={{
             backgroundImage: [
-              'linear-gradient(rgba(200,0,30,0.08) 1px, transparent 1px)',
-              'linear-gradient(90deg, rgba(200,0,30,0.08) 1px, transparent 1px)',
+              'linear-gradient(rgba(61, 46, 232,0.08) 1px, transparent 1px)',
+              'linear-gradient(90deg, rgba(61, 46, 232,0.08) 1px, transparent 1px)',
             ].join(', '),
             backgroundSize: '80px 80px',
           }}
@@ -84,7 +84,7 @@ export default function CTASection() {
         >
           <a
             href="/nivel-1"
-            className="group relative px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-red-600 transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
+            className="group relative px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-[#2C1FB0] transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
           >
             <span className="relative z-10">
               Inscribirme al Nivel 1 · $89 →

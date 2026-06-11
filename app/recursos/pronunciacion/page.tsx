@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function PronunciacionPage() {
   return (
-    <main className="min-h-screen bg-[#FDF6EC]">
+    <main className="min-h-screen bg-[#F4F7FF]">
       <Navigation solid />
 
       {/* Header */}
@@ -42,7 +42,7 @@ export default function PronunciacionPage() {
         </p>
         <Link
           href="/recursos/guias"
-          className="inline-block bg-white text-seoul-black font-bold px-7 py-3 border-2 border-seoul-black shadow-[5px_5px_0_#C8001E] hover:-translate-x-1 hover:-translate-y-1 transition-all"
+          className="inline-block bg-white text-seoul-black font-bold px-7 py-3 border-2 border-seoul-black shadow-[5px_5px_0_#3D2EE8] hover:-translate-x-1 hover:-translate-y-1 transition-all"
         >
           Ver las guías →
         </Link>

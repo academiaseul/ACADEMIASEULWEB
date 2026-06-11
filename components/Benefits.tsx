@@ -12,7 +12,7 @@ const benefits = [
     icon: Globe,
     title: 'Profesores nativos de Seúl',
     desc: 'Aprende la pronunciación y el acento real desde el primer día. Nuestros profesores crecieron en Corea del Sur y traen la cultura viva al aula.',
-    color: '#C8001E',
+    color: '#3D2EE8',
   },
   {
     icon: Users,
@@ -30,7 +30,7 @@ const benefits = [
     icon: Trophy,
     title: 'Preparación TOPIK oficial',
     desc: 'Somos tu puerta al certificado internacional TOPIK I y TOPIK II. Te preparamos con simulacros, estrategias y material oficial.',
-    color: '#C8001E',
+    color: '#3D2EE8',
   },
   {
     icon: Video,
@@ -48,7 +48,7 @@ const benefits = [
     icon: HeartHandshake,
     title: 'Comunidad vibrante',
     desc: 'Sé parte de la primera comunidad Chingu en Santiago. Eventos culturales, intercambios y actividades de inmersión durante el año.',
-    color: '#C8001E',
+    color: '#3D2EE8',
   },
   {
     icon: Shield,

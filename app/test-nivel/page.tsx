@@ -135,7 +135,7 @@ export default function TestNivelPage() {
   const showResult = done;
 
   return (
-    <main className="min-h-screen bg-[#FDF6EC]">
+    <main className="min-h-screen bg-[#F4F7FF]">
       <Navigation solid />
 
       <section className="pt-32 md:pt-40 pb-12 px-6 max-w-2xl mx-auto">
@@ -251,7 +251,7 @@ export default function TestNivelPage() {
 
         {/* Result */}
         {showResult && (
-          <div className="border-2 border-seoul-black bg-white shadow-[8px_8px_0_#C8001E] p-8 md:p-10 text-center">
+          <div className="border-2 border-seoul-black bg-white shadow-[8px_8px_0_#3D2EE8] p-8 md:p-10 text-center">
             <div className="text-5xl mb-3">{result.emoji}</div>
             <p className="text-xs font-bold tracking-[3px] uppercase text-seoul-red mb-2">
               Tu resultado · {score}/10

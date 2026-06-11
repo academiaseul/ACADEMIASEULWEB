@@ -94,7 +94,7 @@ export default function Hero() {
         >
           <a
             href="/nivel-1"
-            className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:bg-red-700 hover:shadow-seoul-red/40 focus:outline-none focus:ring-2 focus:ring-seoul-red focus:ring-offset-2 focus:ring-offset-seoul-black"
+            className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#2C1FB0] hover:shadow-seoul-red/40 focus:outline-none focus:ring-2 focus:ring-seoul-red focus:ring-offset-2 focus:ring-offset-seoul-black"
           >
             Empieza a aprender · Nivel 1 <span aria-hidden>→</span>
           </a>

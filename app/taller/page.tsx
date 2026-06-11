@@ -189,7 +189,7 @@ export default function TallerPage() {
   ];
 
   return (
-    <main className="bg-[#FDF6EC] overflow-x-hidden">
+    <main className="bg-[#F4F7FF] overflow-x-hidden">
 
       {/* ── NAV ── */}
       <Navigation solid />
@@ -198,9 +198,9 @@ export default function TallerPage() {
       <section className="min-h-screen pt-16 md:pt-20 grid grid-cols-1 lg:grid-cols-2">
 
         {/* Left — Red */}
-        <div className="bg-[#C8001E] flex flex-col justify-center px-8 md:px-14 py-20 relative">
+        <div className="bg-[#3D2EE8] flex flex-col justify-center px-8 md:px-14 py-20 relative">
           {/* Diagonal edge on desktop */}
-          <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-0 border-r-[60px] border-r-transparent border-t-[100vh] border-t-[#C8001E] z-10" />
+          <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-0 border-r-[60px] border-r-transparent border-t-[100vh] border-t-[#3D2EE8] z-10" />
 
           <span className="inline-flex items-center gap-2 bg-white/15 border border-white/30 text-white text-xs font-bold tracking-[2px] uppercase px-3 py-1.5 w-fit mb-7">
             🇰🇷 Taller Gratuito · 무료 강의
@@ -254,7 +254,7 @@ export default function TallerPage() {
         </div>
 
         {/* Right — Cream */}
-        <div className="bg-[#FDF6EC] flex flex-col items-center justify-center gap-8 px-8 md:px-16 py-20">
+        <div className="bg-[#F4F7FF] flex flex-col items-center justify-center gap-8 px-8 md:px-16 py-20">
           {/* Hangul Grid */}
           <div className="grid grid-cols-3 gap-3 w-full max-w-xs">
             {hangulCards.map((card) => (
@@ -262,12 +262,12 @@ export default function TallerPage() {
                 key={card.char}
                 className={`border-2 px-3 py-4 text-center transition-all hover:-translate-x-1 hover:-translate-y-1 cursor-default
                   ${card.accent
-                    ? "border-[#C8001E] shadow-[4px_4px_0_#C8001E] hover:shadow-[7px_7px_0_#C8001E]"
+                    ? "border-[#3D2EE8] shadow-[4px_4px_0_#3D2EE8] hover:shadow-[7px_7px_0_#3D2EE8]"
                     : "border-[#0D0D0D] bg-white shadow-[4px_4px_0_#0D0D0D] hover:shadow-[7px_7px_0_#0D0D0D]"
                   }`}
               >
                 <div
-                  className={`text-4xl font-black leading-none mb-1 ${card.accent ? "text-[#C8001E]" : "text-[#0D0D0D]"}`}
+                  className={`text-4xl font-black leading-none mb-1 ${card.accent ? "text-[#3D2EE8]" : "text-[#0D0D0D]"}`}
                   style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
                 >
                   {card.char}
@@ -303,7 +303,7 @@ export default function TallerPage() {
                 key={tz.country}
                 className={`flex items-center justify-between gap-3 px-5 py-4 border-2 transition-all ${
                   tz.highlight
-                    ? "bg-[#C8001E] border-[#E8B84B] shadow-[4px_4px_0_#E8B84B]"
+                    ? "bg-[#3D2EE8] border-[#E8B84B] shadow-[4px_4px_0_#E8B84B]"
                     : "bg-white/5 border-white/15 hover:border-white/30"
                 }`}
               >
@@ -331,9 +331,9 @@ export default function TallerPage() {
       )}
 
       {/* ── LEARNS ── */}
-      <section className="bg-[#FDF6EC] py-24 px-6 md:px-14">
+      <section className="bg-[#F4F7FF] py-24 px-6 md:px-14">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#C8001E] text-xs font-bold tracking-[3px] uppercase mb-3">
+          <p className="text-[#3D2EE8] text-xs font-bold tracking-[3px] uppercase mb-3">
             Lo que aprenderás
           </p>
           <h2 className="font-black leading-none mb-12 text-[#0D0D0D]"
@@ -347,7 +347,7 @@ export default function TallerPage() {
               <div key={l.num} className="bg-white border-2 border-[#0D0D0D] p-7 shadow-[4px_4px_0_#0D0D0D] hover:shadow-[6px_6px_0_#0D0D0D] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-3xl">{l.emoji}</span>
-                  <span className="text-[#C8001E] font-black text-2xl"
+                  <span className="text-[#3D2EE8] font-black text-2xl"
                     style={{ fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
                   >
                     {l.num}
@@ -375,7 +375,7 @@ export default function TallerPage() {
                 className="w-full h-full border-0"
               />
             </div>
-            <div className="absolute -bottom-1 -left-1 -right-1 h-1.5 bg-gradient-to-r from-[#003478] via-white to-[#C8001E]" />
+            <div className="absolute -bottom-1 -left-1 -right-1 h-1.5 bg-gradient-to-r from-[#003478] via-white to-[#3D2EE8]" />
           </div>
 
           {/* Text */}
@@ -406,7 +406,7 @@ export default function TallerPage() {
       </section>
 
       {/* ── REGISTRO ── */}
-      <section id="registro" className="bg-[#C8001E] py-24 px-6 md:px-14 relative overflow-hidden">
+      <section id="registro" className="bg-[#3D2EE8] py-24 px-6 md:px-14 relative overflow-hidden">
         <div
           className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 font-black leading-none pointer-events-none select-none"
           style={{
@@ -513,7 +513,7 @@ export default function TallerPage() {
 
       {/* ── FAQ ── */}
       <section className="py-24 px-6 md:px-14 max-w-6xl mx-auto">
-        <p className="text-[#C8001E] text-xs font-bold tracking-[3px] uppercase mb-3">
+        <p className="text-[#3D2EE8] text-xs font-bold tracking-[3px] uppercase mb-3">
           Preguntas frecuentes
         </p>
         <h2 className="font-black leading-none mb-12 text-[#0D0D0D]"
@@ -539,14 +539,14 @@ export default function TallerPage() {
           style={{ fontSize: "clamp(36px, 5vw, 60px)", fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
         >
           Tu primera palabra coreana<br />
-          <span className="text-[#C8001E]">te espera.</span>
+          <span className="text-[#3D2EE8]">te espera.</span>
         </h2>
         <p className="text-[#E8B84B] text-sm font-bold tracking-wider uppercase mb-6">
           {vigente ? `📅 ${fechaCompleta}` : "📅 Próximo taller · Fecha por anunciar"}
         </p>
         <a
           href="#registro"
-          className="inline-flex items-center gap-3 bg-[#C8001E] text-white font-bold text-sm px-10 py-4 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:bg-[#9a0016] transition-colors"
+          className="inline-flex items-center gap-3 bg-[#3D2EE8] text-white font-bold text-sm px-10 py-4 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:bg-[#9a0016] transition-colors"
         >
           {vigente ? "Reservar mi lugar gratis" : "Avísame del próximo taller"} →
         </a>

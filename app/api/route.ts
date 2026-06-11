@@ -21,7 +21,7 @@ export async function POST(req: NextRequest) {
       subject: `Nueva consulta de ${nombre} — Academia Seúl`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 24px; background: #f9f9f9; border-radius: 8px;">
-          <div style="background: #C8001E; padding: 20px; border-radius: 8px 8px 0 0; text-align: center;">
+          <div style="background: #3D2EE8; padding: 20px; border-radius: 8px 8px 0 0; text-align: center;">
             <h1 style="color: white; margin: 0; font-size: 22px;">Nueva consulta — Academia Seúl</h1>
           </div>
           <div style="background: white; padding: 24px; border-radius: 0 0 8px 8px; border: 1px solid #eee;">
@@ -51,8 +51,8 @@ export async function POST(req: NextRequest) {
                 <td style="padding: 12px 8px; color: #111;">${mensaje || 'Sin mensaje adicional'}</td>
               </tr>
             </table>
-            <div style="margin-top: 24px; padding: 16px; background: #fff5f5; border-radius: 6px; border-left: 4px solid #C8001E;">
-              <p style="margin: 0; color: #C8001E; font-weight: 600; font-size: 14px;">
+            <div style="margin-top: 24px; padding: 16px; background: #fff5f5; border-radius: 6px; border-left: 4px solid #3D2EE8;">
+              <p style="margin: 0; color: #3D2EE8; font-weight: 600; font-size: 14px;">
                 ¡Responde en menos de 24 horas para maximizar la conversión!
               </p>
             </div>

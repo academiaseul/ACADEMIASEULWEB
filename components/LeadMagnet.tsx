@@ -81,7 +81,7 @@ export default function LeadMagnet() {
                 style={{
                   background:
                     'linear-gradient(180deg, #0a0a0f 0%, #1a0a15 100%)',
-                  border: '1px solid rgba(200,0,30,0.3)',
+                  border: '1px solid rgba(61, 46, 232,0.3)',
                 }}
               >
                 {/* Cover content */}

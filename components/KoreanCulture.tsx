@@ -13,7 +13,7 @@ const pillars = [
     body: 'Desde Squid Game hasta El juego del calamar. Desde Business Proposal hasta Crash Landing on You. El idioma detrás de cada escena, disponible para ti.',
     image: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1000&q=85&auto=format&fit=crop',
     imageAlt: 'K-drama watching experience',
-    accent: '#C8001E',
+    accent: '#3D2EE8',
     reverse: false,
   },
   {

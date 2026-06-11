@@ -313,7 +313,7 @@ export default function Nivel1Page() {
       {/* Por qué enamorarte del coreano */}
       <section className="py-16 md:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <div className="inline-block px-4 py-1 mb-5 rounded-full text-xs font-bold tracking-widest" style={{ backgroundColor: "#FFE2E2", color: "#C8001E" }}>
+          <div className="inline-block px-4 py-1 mb-5 rounded-full text-xs font-bold tracking-widest" style={{ backgroundColor: "#E8E5FB", color: "#3D2EE8" }}>
             NO ES SOLO UN IDIOMA
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-5">
@@ -438,7 +438,7 @@ export default function Nivel1Page() {
                   {lesson.num}
                 </div>
                 <div>
-                  <div className="text-sm font-bold mb-1" style={{ color: "#FF5C5C" }}>{lesson.korean}</div>
+                  <div className="text-sm font-bold mb-1" style={{ color: "#818CF8" }}>{lesson.korean}</div>
                   <h3 className="font-bold text-gray-900">{lesson.title}</h3>
                   <p className="text-sm text-gray-600 mt-1">{lesson.desc}</p>
                 </div>
@@ -616,7 +616,7 @@ export default function Nivel1Page() {
                 </select>
               </div>
 
-              {formError && <p className="text-sm text-[#C8001E] font-medium">{formError}</p>}
+              {formError && <p className="text-sm text-[#3D2EE8] font-medium">{formError}</p>}
 
               <button
                 type="submit"
@@ -653,7 +653,7 @@ export default function Nivel1Page() {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
               Completa tu pago
             </h2>
-            <p className="text-sm font-bold tracking-widest" style={{ color: "#FF5C5C" }}>
+            <p className="text-sm font-bold tracking-widest" style={{ color: "#818CF8" }}>
               PROMO DE LANZAMIENTO · HASTA EL 6 DE JULIO
             </p>
           </div>
@@ -668,7 +668,7 @@ export default function Nivel1Page() {
               <div className="text-4xl">→</div>
               <div className="text-center">
                 <div className="text-6xl md:text-7xl font-bold" style={{ color: "#3D2EE8" }}>$89</div>
-                <div className="text-sm font-bold mt-1" style={{ color: "#FF5C5C" }}>USD · PROMO LANZAMIENTO</div>
+                <div className="text-sm font-bold mt-1" style={{ color: "#818CF8" }}>USD · PROMO LANZAMIENTO</div>
               </div>
             </div>
 
@@ -700,7 +700,7 @@ export default function Nivel1Page() {
             </div>
 
             {/* Bonos */}
-            <div className="bg-gradient-to-br from-[#FFE2E2] to-[#FFF5F5] rounded-2xl p-6 mb-8">
+            <div className="bg-gradient-to-br from-[#E8E5FB] to-[#F4F2FE] rounded-2xl p-6 mb-8">
               <h3 className="font-bold text-gray-900 mb-4 text-center">+ 4 BONOS GRATIS por inscribirte en junio</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {bonos.map((b) => (
@@ -709,7 +709,7 @@ export default function Nivel1Page() {
                     <div className="flex-1">
                       <div className="font-bold text-sm text-gray-900">{b.title}</div>
                       <div className="text-xs text-gray-600 mt-1">{b.desc}</div>
-                      <div className="text-xs font-bold mt-2" style={{ color: "#FF5C5C" }}>Valor {b.value}</div>
+                      <div className="text-xs font-bold mt-2" style={{ color: "#818CF8" }}>Valor {b.value}</div>
                     </div>
                   </div>
                 ))}
@@ -889,7 +889,7 @@ export default function Nivel1Page() {
                 El <strong>Método Chingu™</strong> que desarrollé combina lo mejor del método oficial coreano con adaptaciones específicas para hispanohablantes. Por eso mis estudiantes aprenden 3x más rápido que con cursos genéricos.
               </p>
             </div>
-            <div className="rounded-3xl overflow-hidden bg-gradient-to-br from-[#3D2EE8] to-[#FF5C5C] aspect-square flex items-center justify-center text-white text-center p-12">
+            <div className="rounded-3xl overflow-hidden bg-gradient-to-br from-[#3D2EE8] to-[#818CF8] aspect-square flex items-center justify-center text-white text-center p-12">
               <div>
                 <div className="text-6xl mb-4">👩‍🏫</div>
                 <div className="text-4xl font-bold mb-2">김재희</div>

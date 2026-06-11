@@ -107,7 +107,7 @@ export default function TallerPopup() {
               className="relative w-full max-w-md max-h-[92vh] overflow-y-auto pointer-events-auto rounded-2xl border border-white/10"
               style={{
                 background:
-                  'radial-gradient(ellipse 90% 60% at 50% 0%, rgba(200,0,30,0.18) 0%, transparent 60%), #0f0f1a',
+                  'radial-gradient(ellipse 90% 60% at 50% 0%, rgba(61, 46, 232,0.18) 0%, transparent 60%), #0f0f1a',
                 boxShadow: '0 20px 60px rgba(0,0,0,0.5)',
               }}
             >

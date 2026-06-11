@@ -113,7 +113,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                     className={clsx(
                       'text-sm font-medium transition-colors duration-200 relative group',
                       link.highlight
-                        ? 'text-seoul-red hover:text-red-400'
+                        ? 'text-seoul-red hover:text-[#818CF8]'
                         : 'text-seoul-white/70 hover:text-seoul-white',
                     )}
                   >
@@ -121,7 +121,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                     <span
                       className={clsx(
                         'absolute -bottom-1 left-0 w-0 h-px group-hover:w-full transition-all duration-300',
-                        link.highlight ? 'bg-red-400' : 'bg-seoul-red',
+                        link.highlight ? 'bg-[#818CF8]' : 'bg-seoul-red',
                       )}
                     />
                   </a>
@@ -133,7 +133,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
             <div className="hidden lg:flex items-center gap-3">
               <a
                 href="/taller"
-                className="px-5 py-2.5 bg-seoul-red hover:bg-red-700 text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-seoul-red/20 hover:shadow-seoul-red/40 hover:-translate-y-0.5 whitespace-nowrap"
+                className="px-5 py-2.5 bg-seoul-red hover:bg-[#2C1FB0] text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-seoul-red/20 hover:shadow-seoul-red/40 hover:-translate-y-0.5 whitespace-nowrap"
               >
                 Clase gratis →
               </a>
@@ -176,7 +176,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                 onClick={() => setMobileOpen(false)}
                 className={clsx(
                   'block py-4 text-2xl font-bold border-b border-white/[0.06] transition-colors duration-200',
-                  link.highlight ? 'text-seoul-red hover:text-red-400' : 'text-seoul-white/80 hover:text-seoul-red',
+                  link.highlight ? 'text-seoul-red hover:text-[#818CF8]' : 'text-seoul-white/80 hover:text-seoul-red',
                 )}
               >
                 {link.label}
@@ -201,7 +201,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
         <div className="mt-auto">
           <a
             href="/taller"
-            className="block w-full text-center py-4 bg-seoul-red text-white font-bold text-lg rounded-lg mt-8 hover:bg-red-700 transition-colors duration-200"
+            className="block w-full text-center py-4 bg-seoul-red text-white font-bold text-lg rounded-lg mt-8 hover:bg-[#2C1FB0] transition-colors duration-200"
             onClick={() => setMobileOpen(false)}
           >
             Clase de prueba gratis →

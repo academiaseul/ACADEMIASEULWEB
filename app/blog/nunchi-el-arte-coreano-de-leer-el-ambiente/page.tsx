@@ -115,7 +115,7 @@ export default function NunchiPost() {
           completa en una sola palabra. El coreano sí.
         </p>
 
-        <blockquote className="border-l-4 border-seoul-red bg-[#FDF6EC] px-6 py-5 my-10 text-seoul-black font-medium">
+        <blockquote className="border-l-4 border-seoul-red bg-[#F4F7FF] px-6 py-5 my-10 text-seoul-black font-medium">
           El nunchi no es leer la mente. Es prestar tanta atención a las personas
           que casi no necesitas que te expliquen lo que sienten.
         </blockquote>
@@ -206,7 +206,7 @@ export default function NunchiPost() {
         </p>
 
         {/* CTA */}
-        <div className="bg-seoul-black text-white border-2 border-seoul-black shadow-[8px_8px_0_#C8001E] px-8 py-10 mt-14 text-center">
+        <div className="bg-seoul-black text-white border-2 border-seoul-black shadow-[8px_8px_0_#3D2EE8] px-8 py-10 mt-14 text-center">
           <p
             className="text-4xl font-black text-seoul-gold mb-3"
             style={{ fontFamily: "'Noto Sans KR', sans-serif" }}

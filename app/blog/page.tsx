@@ -35,7 +35,7 @@ const posts = [
 
 export default function BlogPage() {
   return (
-    <main className="min-h-screen bg-[#FDF6EC]">
+    <main className="min-h-screen bg-[#F4F7FF]">
       <Navigation solid />
 
       {/* Header */}
@@ -58,7 +58,7 @@ export default function BlogPage() {
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
-            className="group block border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] hover:shadow-[10px_10px_0_#C8001E] hover:border-seoul-red hover:-translate-x-1 hover:-translate-y-1 transition-all p-8 md:p-10 mb-8"
+            className="group block border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] hover:shadow-[10px_10px_0_#3D2EE8] hover:border-seoul-red hover:-translate-x-1 hover:-translate-y-1 transition-all p-8 md:p-10 mb-8"
           >
             <div className="flex items-center gap-3 text-xs font-bold tracking-wider uppercase mb-4">
               <span className="bg-seoul-red text-white px-3 py-1">{post.tag}</span>

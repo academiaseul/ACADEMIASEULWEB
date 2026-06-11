@@ -34,7 +34,7 @@ const guides = [
 
 export default function GuiasPage() {
   return (
-    <main className="min-h-screen bg-[#FDF6EC]">
+    <main className="min-h-screen bg-[#F4F7FF]">
       <Navigation solid />
 
       {/* Header */}
@@ -58,7 +58,7 @@ export default function GuiasPage() {
             key={g.file}
             className="border-2 border-seoul-black bg-white shadow-[8px_8px_0_#0a0a0f] p-6 md:p-10 grid md:grid-cols-2 gap-8 items-center"
           >
-            <div className="border-2 border-seoul-black shadow-[5px_5px_0_#C8001E] overflow-hidden bg-[#1A1A2E]">
+            <div className="border-2 border-seoul-black shadow-[5px_5px_0_#3D2EE8] overflow-hidden bg-[#1A1A2E]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={g.preview}

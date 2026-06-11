@@ -181,7 +181,7 @@ export default function Contact() {
                 </div>
 
                 {error && (
-                  <div className="p-4 bg-red-500/10 border border-red-500/20 rounded-lg text-red-400 text-sm">{error}</div>
+                  <div className="p-4 bg-[#3D2EE8]/10 border border-[#3D2EE8]/20 rounded-lg text-[#818CF8] text-sm">{error}</div>
                 )}
 
                 <motion.button
@@ -189,7 +189,7 @@ export default function Contact() {
                   disabled={loading}
                   whileHover={{ scale: loading ? 1 : 1.01 }}
                   whileTap={{ scale: loading ? 1 : 0.99 }}
-                  className="w-full py-4 bg-seoul-red hover:bg-red-600 text-white font-bold text-base rounded-lg transition-all duration-200 shadow-xl shadow-seoul-red/25 hover:shadow-seoul-red/40 disabled:opacity-60 disabled:cursor-not-allowed"
+                  className="w-full py-4 bg-seoul-red hover:bg-[#2C1FB0] text-white font-bold text-base rounded-lg transition-all duration-200 shadow-xl shadow-seoul-red/25 hover:shadow-seoul-red/40 disabled:opacity-60 disabled:cursor-not-allowed"
                 >
                   {loading ? 'Enviando...' : 'Reservar mi clase gratis →'}
                 </motion.button>
@@ -254,7 +254,7 @@ export default function Contact() {
                   href={YOUTUBE_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-red-500 hover:border-red-500/30 transition-all duration-200"
+                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-[#3D2EE8] hover:border-[#3D2EE8]/30 transition-all duration-200"
                   aria-label="YouTube @JayChingu.Oficial"
                 >
                   <Youtube size={18} />

@@ -19,7 +19,7 @@ const reasons = [
     title: 'Profesor nativo de Seúl',
     description:
       'Nací en Seúl en 1990 y llegué a Chile a los 10 años. No "hablo coreano" — lo viví desde pequeño. La pronunciación, los matices culturales y los modismos son parte de mi día a día.',
-    color: '#C8001E',
+    color: '#3D2EE8',
   },
   {
     icon: Languages,
@@ -40,7 +40,7 @@ const reasons = [
     title: 'Método Chingu',
     description:
       'Diseñado específicamente para hispanohablantes. No es un programa coreano traducido — es un enfoque pensado desde el español, con metáforas y referencias que sí entiendes.',
-    color: '#C8001E',
+    color: '#3D2EE8',
   },
   {
     icon: Users,
@@ -64,7 +64,7 @@ const testimonials = [
     level: 'Nivel A1',
     course: 'Coreano Básico',
     initials: 'IF',
-    color: '#C8001E',
+    color: '#3D2EE8',
     quote:
       'Para mí fue un gran profesor. Le entendí muy bien y era bueno explicando. Si alguien no entendía, volvía a explicar. Sus clases eran muy divertidas y aprendimos muchas cosas sobre la cultura coreana.',
   },
@@ -91,7 +91,7 @@ const testimonials = [
     level: 'Nivel A2',
     course: 'Coreano Básico',
     initials: 'CS',
-    color: '#C8001E',
+    color: '#3D2EE8',
     quote:
       'Muy buen profesor, sus explicaciones son muy claras y siempre da distintos ejemplos. Además nos enseña sobre cultura y cosas típicas de Corea. También enseña con música, lo cual facilita mucho el oído y la pronunciación correcta.',
   },
@@ -118,7 +118,7 @@ const testimonials = [
     level: 'Nivel A1',
     course: 'Coreano Básico',
     initials: 'VS',
-    color: '#C8001E',
+    color: '#3D2EE8',
     quote:
       'Fue entretenido y entendí muy bien las clases. Tiene mucha paciencia y hace agradable el aprender.',
   },
@@ -184,7 +184,7 @@ export default function Testimonials() {
           className="relative glass rounded-2xl p-8 md:p-12 mb-12 overflow-hidden"
           style={{
             background:
-              'radial-gradient(ellipse 80% 60% at 20% 20%, rgba(200,0,30,0.12) 0%, transparent 60%), rgba(255,255,255,0.02)',
+              'radial-gradient(ellipse 80% 60% at 20% 20%, rgba(61, 46, 232,0.12) 0%, transparent 60%), rgba(255,255,255,0.02)',
             boxShadow: '0 0 0 1px rgba(255,255,255,0.06)',
           }}
         >
@@ -229,7 +229,7 @@ export default function Testimonials() {
               </div>
               <a
                 href="/sobre"
-                className="inline-block mt-5 text-sm font-bold text-seoul-red hover:text-red-400 transition-colors"
+                className="inline-block mt-5 text-sm font-bold text-seoul-red hover:text-[#818CF8] transition-colors"
               >
                 Lee mi historia →
               </a>

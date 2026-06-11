@@ -39,7 +39,7 @@ const cards = [
 
 export default function RecursosPage() {
   return (
-    <main className="min-h-screen bg-[#FDF6EC]">
+    <main className="min-h-screen bg-[#F4F7FF]">
       <Navigation solid />
 
       {/* Header */}
@@ -62,7 +62,7 @@ export default function RecursosPage() {
           <Link
             key={c.href}
             href={c.href}
-            className="group flex flex-col border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] hover:shadow-[10px_10px_0_#C8001E] hover:border-seoul-red hover:-translate-x-1 hover:-translate-y-1 transition-all p-7"
+            className="group flex flex-col border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] hover:shadow-[10px_10px_0_#3D2EE8] hover:border-seoul-red hover:-translate-x-1 hover:-translate-y-1 transition-all p-7"
           >
             <span
               className="text-5xl font-black text-seoul-red leading-none mb-4"
