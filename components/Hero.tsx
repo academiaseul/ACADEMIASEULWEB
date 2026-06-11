@@ -31,7 +31,12 @@ export default function Hero() {
           style={{ objectPosition: '50% 38%' }}
         />
         {/* Dark overlay for text legibility */}
-        <div className="absolute inset-0 bg-gradient-to-b from-seoul-black/75 via-seoul-black/55 to-seoul-black/85" />
+        <div className="absolute inset-0 bg-gradient-to-b from-seoul-black/80 via-seoul-black/70 to-seoul-black/90" />
+        {/* Extra darkening right behind the text block for legibility */}
+        <div
+          className="absolute inset-0"
+          style={{ background: 'radial-gradient(ellipse 70% 45% at 50% 48%, rgba(0,0,0,0.55) 0%, transparent 70%)' }}
+        />
         {/* Subtle cobalt glow */}
         <div
           className="absolute inset-0"
@@ -44,7 +49,7 @@ export default function Hero() {
 
       {/* ── Hero content: REAL HTML, fully clickable ── */}
       <motion.div
-        style={{ y: contentY, opacity }}
+        style={{ y: contentY, opacity, textShadow: '0 2px 18px rgba(0,0,0,0.55)' }}
         className="relative z-20 flex h-full flex-col items-center justify-center px-6 text-center"
       >
         {/* Headline */}
@@ -71,7 +76,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.4, duration: 0.8 }}
-          className="mt-6 font-korean text-xl text-white/50"
+          className="mt-6 font-korean text-xl text-white/85"
         >
           한국어를 배우세요
         </motion.p>
@@ -81,9 +86,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.6, duration: 0.8 }}
-          className="mt-4 max-w-xl text-base leading-relaxed text-white/70"
+          className="mt-4 max-w-xl text-base leading-relaxed text-white"
         >
-          Aprende a leer <span className="font-korean text-white/90">한글</span> desde tu primera semana.
+          Aprende a leer <span className="font-korean text-white">한글</span> desde tu primera semana.
           Clases en vivo con profesor nativo y grupos pequeños — para toda LATAM y España.
         </motion.p>
 
@@ -113,12 +118,12 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2.2, duration: 0.8 }}
-          className="mt-5 text-sm text-white/45"
+          className="mt-5 text-sm text-white/85"
         >
           o{' '}
           <a
             href="/recursos/guias"
-            className="text-white/75 underline underline-offset-4 decoration-white/30 transition-colors hover:text-seoul-red"
+            className="text-white font-medium underline underline-offset-4 decoration-white/50 transition-colors hover:text-seoul-red"
           >
             descarga la guía del alfabeto gratis
           </a>
@@ -129,7 +134,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2.4, duration: 0.8 }}
-          className="mt-8 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/55"
+          className="mt-8 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/90"
         >
           {[
             '🇰🇷 Profesor nativo de Seúl',
@@ -139,7 +144,7 @@ export default function Hero() {
           ].map((b) => (
             <span
               key={b}
-              className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5"
+              className="rounded-full border border-white/25 bg-black/35 px-3 py-1.5 backdrop-blur-sm"
             >
               {b}
             </span>
