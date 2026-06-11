@@ -445,6 +445,17 @@ export default function Nivel1Page() {
               </div>
             ))}
           </div>
+
+          <div className="text-center mt-10">
+            <a
+              href="/programa-curso-nivel-1-a1.pdf"
+              download
+              className="inline-flex items-center gap-2 bg-white text-[#3D2EE8] font-bold px-7 py-3.5 rounded-full border-2 border-[#3D2EE8] hover:bg-[#3D2EE8] hover:text-white transition"
+            >
+              📄 Descargar el programa completo (PDF)
+            </a>
+            <p className="text-xs text-gray-500 mt-2">Programa oficial · objetivos, cronograma y evaluación</p>
+          </div>
         </div>
       </section>
 

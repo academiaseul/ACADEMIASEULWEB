@@ -39,7 +39,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 768) setMobileOpen(false);
+      if (window.innerWidth >= 1024) setMobileOpen(false);
     };
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
@@ -77,7 +77,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
             </a>
 
             {/* Desktop nav */}
-            <nav className="hidden md:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-5">
               {navLinks.map((link) =>
                 link.children ? (
                   <div key={link.href} className="relative group">
@@ -130,24 +130,18 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
             </nav>
 
             {/* Desktop CTA */}
-            <div className="hidden md:flex items-center gap-4">
-              <a
-                href="/#contact"
-                className="text-sm font-medium text-seoul-white/70 hover:text-seoul-white transition-colors duration-200"
-              >
-                Inscríbete
-              </a>
+            <div className="hidden lg:flex items-center gap-3">
               <a
                 href="/taller"
-                className="px-5 py-2.5 bg-seoul-red hover:bg-red-700 text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-seoul-red/20 hover:shadow-seoul-red/40 hover:-translate-y-0.5"
+                className="px-5 py-2.5 bg-seoul-red hover:bg-red-700 text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-seoul-red/20 hover:shadow-seoul-red/40 hover:-translate-y-0.5 whitespace-nowrap"
               >
-                Clase de prueba gratis →
+                Clase gratis →
               </a>
             </div>
 
             {/* Mobile hamburger */}
             <button
-              className="md:hidden text-seoul-white/80 hover:text-seoul-white p-2"
+              className="lg:hidden text-seoul-white/80 hover:text-seoul-white p-2"
               onClick={() => setMobileOpen((v) => !v)}
               aria-label="Toggle menu"
             >
@@ -159,7 +153,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
 
       {/* Mobile menu */}
       <motion.div
-        className="fixed inset-0 z-40 md:hidden bg-seoul-black/98 backdrop-blur-xl flex flex-col pt-20 px-6 pb-8 overflow-y-auto"
+        className="fixed inset-0 z-40 lg:hidden bg-seoul-black/98 backdrop-blur-xl flex flex-col pt-20 px-6 pb-8 overflow-y-auto"
         initial={{ opacity: 0, y: '-100%' }}
         animate={{ opacity: mobileOpen ? 1 : 0, y: mobileOpen ? 0 : '-100%' }}
         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
