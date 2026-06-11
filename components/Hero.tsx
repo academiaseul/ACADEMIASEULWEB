@@ -1,11 +1,9 @@
 'use client';
 
 import { useRef } from 'react';
-import dynamic from 'next/dynamic';
+import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
-
-const RemotionPlayer = dynamic(() => import('./RemotionPlayer'), { ssr: false });
 
 export default function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -21,14 +19,27 @@ export default function Hero() {
       ref={ref}
       className="relative w-full h-screen min-h-[640px] overflow-hidden bg-seoul-black"
     >
-      {/* ── Remotion animated background (atmospheric only) ── */}
-      {/* pointer-events-none lets clicks pass through to the HTML content above */}
-      <div className="absolute inset-0 remotion-player-container pointer-events-none">
-        <RemotionPlayer />
+      {/* ── Korea background: Gwanghwamun & King Sejong statue ── */}
+      <div className="absolute inset-0 pointer-events-none">
+        <Image
+          src="https://images.unsplash.com/photo-1758384077179-591ec65e23ee?fm=jpg&q=80&w=2400&auto=format&fit=crop"
+          alt="Plaza Gwanghwamun con la estatua del Rey Sejong, Seúl"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+        {/* Dark overlay for text legibility */}
+        <div className="absolute inset-0 bg-gradient-to-b from-seoul-black/75 via-seoul-black/55 to-seoul-black/85" />
+        {/* Subtle cobalt glow */}
+        <div
+          className="absolute inset-0"
+          style={{ background: 'radial-gradient(ellipse at 50% 38%, rgba(61,46,232,0.20) 0%, transparent 65%)' }}
+        />
       </div>
 
       {/* ── Top gradient mask for navbar legibility ── */}
-      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-seoul-black/60 to-transparent pointer-events-none z-10" />
+      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-seoul-black/70 to-transparent pointer-events-none z-10" />
 
       {/* ── Hero content: REAL HTML, fully clickable ── */}
       <motion.div
