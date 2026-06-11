@@ -22,12 +22,13 @@ export default function Hero() {
       {/* ── Korea background: Gwanghwamun & King Sejong statue ── */}
       <div className="absolute inset-0 pointer-events-none">
         <Image
-          src="https://images.unsplash.com/photo-1758384077179-591ec65e23ee?fm=jpg&q=80&w=2400&auto=format&fit=crop"
-          alt="Plaza Gwanghwamun con la estatua del Rey Sejong, Seúl"
+          src="/hero-gwanghwamun.jpg"
+          alt="Puerta Gwanghwamun del palacio Gyeongbokgung, Seúl"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center"
+          className="object-cover"
+          style={{ objectPosition: '50% 38%' }}
         />
         {/* Dark overlay for text legibility */}
         <div className="absolute inset-0 bg-gradient-to-b from-seoul-black/75 via-seoul-black/55 to-seoul-black/85" />
