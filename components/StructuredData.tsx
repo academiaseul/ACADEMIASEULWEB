@@ -21,7 +21,7 @@ const organization = {
 const course = {
   '@context': 'https://schema.org',
   '@type': 'Course',
-  name: 'Coreano Nivel 1 (A1) — Clases en vivo',
+  name: 'Coreano Nivel 1 (A1) · Primeras Palabras',
   description:
     'Curso de coreano desde cero (CEFR A1) con clases en vivo por Zoom. Aprende a leer hangul, gramática básica y conversación, en cohortes con cupos limitados.',
   inLanguage: 'es',

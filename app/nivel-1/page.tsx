@@ -271,11 +271,11 @@ export default function Nivel1Page() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-28">
           <div className="text-center">
             <div className="inline-block px-4 py-1 mb-6 rounded-full bg-white/10 text-xs font-bold tracking-widest">
-              ACADEMIA SEÚL · A1 NIVEL 1
+              ACADEMIA SEÚL · CURSO NIVEL 1 (A1)
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-4">
-              <span className="block text-3xl md:text-4xl mb-3 opacity-80">코리아 사랑</span>
-              Coreano Básico
+              <span className="block text-3xl md:text-4xl mb-3 opacity-80">첫 한국어</span>
+              Primeras Palabras
             </h1>
             <p className="text-lg md:text-xl mt-6 max-w-2xl mx-auto opacity-90">
               11 sesiones en vivo · 10 semanas · Método 한국어교실 엿보기

@@ -21,7 +21,7 @@ const footerLinks = {
     { label: 'Por que Academia Seul',  href: '/#testimonials' },
     { label: 'Cultura coreana',        href: '/#culture' },
     { label: 'Blog',                   href: '/blog' },
-    { label: 'Curso Nivel 1 · A1',     href: '/nivel-1' },
+    { label: 'Nivel 1 (A1) · Primeras Palabras', href: '/nivel-1' },
   ],
   Legal: [
     { label: 'Politica de privacidad', href: '/privacidad' },
