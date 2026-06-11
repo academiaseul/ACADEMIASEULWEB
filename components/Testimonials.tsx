@@ -227,6 +227,12 @@ export default function Testimonials() {
                   </span>
                 ))}
               </div>
+              <a
+                href="/sobre"
+                className="inline-block mt-5 text-sm font-bold text-seoul-red hover:text-red-400 transition-colors"
+              >
+                Lee mi historia →
+              </a>
             </div>
           </div>
         </motion.div>
