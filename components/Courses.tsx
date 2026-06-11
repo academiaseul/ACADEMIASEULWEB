@@ -141,10 +141,10 @@ function CourseCard({
       }}
       whileHover={{ y: -6, transition: { duration: 0.25 } }}
       className={clsx(
-        'relative group glass rounded-2xl p-8 flex flex-col gap-5 cursor-pointer overflow-hidden transition-opacity duration-300',
+        'relative group glass-light rounded-2xl p-8 flex flex-col gap-5 cursor-pointer overflow-hidden transition-opacity duration-300',
         isComingSoon && 'opacity-75 hover:opacity-100'
       )}
-      style={{ boxShadow: `0 0 0 1px rgba(255,255,255,0.06)` }}
+      style={{ boxShadow: `0 6px 24px rgba(10,10,40,0.06)` }}
     >
       {/* Glow on hover */}
       <div
@@ -157,9 +157,9 @@ function CourseCard({
         <span
           className="absolute top-5 right-5 text-[11px] font-bold tracking-widest uppercase px-3 py-1 rounded-full"
           style={{
-            background: isComingSoon ? 'rgba(255,255,255,0.1)' : course.color,
-            color: isComingSoon ? 'rgba(255,255,255,0.7)' : '#fff',
-            border: isComingSoon ? '1px solid rgba(255,255,255,0.15)' : 'none',
+            background: isComingSoon ? 'rgba(10,10,40,0.06)' : course.color,
+            color: isComingSoon ? 'rgba(10,10,40,0.55)' : '#fff',
+            border: isComingSoon ? '1px solid rgba(10,10,40,0.12)' : 'none',
           }}
         >
           {course.badge}
@@ -167,7 +167,7 @@ function CourseCard({
       )}
 
       {/* Level pill */}
-      <span className="self-start text-xs font-semibold tracking-wider uppercase text-white/40 bg-white/[0.06] px-3 py-1.5 rounded-full">
+      <span className="self-start text-xs font-semibold tracking-wider uppercase text-seoul-black/40 bg-black/[0.06] px-3 py-1.5 rounded-full">
         {course.level}
       </span>
 
@@ -181,23 +181,23 @@ function CourseCard({
 
       {/* Title */}
       <div>
-        <h3 className="text-xl font-bold text-seoul-white mb-1">{course.title}</h3>
-        <p className="text-sm font-korean text-white/30">{course.koreanTitle}</p>
+        <h3 className="text-xl font-bold text-seoul-black mb-1">{course.title}</h3>
+        <p className="text-sm font-korean text-seoul-black/30">{course.koreanTitle}</p>
       </div>
 
       {/* Description */}
-      <p className="text-sm text-white/55 leading-relaxed flex-1">{course.description}</p>
+      <p className="text-sm text-seoul-black/55 leading-relaxed flex-1">{course.description}</p>
 
       {/* Meta */}
-      <div className="grid grid-cols-3 gap-2 pt-4 border-t border-white/[0.06]">
+      <div className="grid grid-cols-3 gap-2 pt-4 border-t border-black/[0.06]">
         {[
           { label: 'Duración',  value: course.duration   },
           { label: 'Sesiones',  value: course.sessions   },
           { label: 'Grupo',     value: course.groupSize  },
         ].map((m) => (
           <div key={m.label}>
-            <div className="text-[10px] uppercase tracking-wider text-white/30 mb-0.5">{m.label}</div>
-            <div className="text-xs text-white/70 font-medium">{m.value}</div>
+            <div className="text-[10px] uppercase tracking-wider text-seoul-black/30 mb-0.5">{m.label}</div>
+            <div className="text-xs text-seoul-black/70 font-medium">{m.value}</div>
           </div>
         ))}
       </div>
@@ -209,7 +209,7 @@ function CourseCard({
       >
         <span
           className="text-sm font-semibold group-hover/btn:underline underline-offset-2"
-          style={{ color: isComingSoon ? 'rgba(255,255,255,0.75)' : course.color }}
+          style={{ color: isComingSoon ? 'rgba(10,10,40,0.6)' : course.color }}
         >
           {course.cta}
         </span>
@@ -232,7 +232,7 @@ export default function Courses() {
     <section
       id="courses"
       ref={ref}
-      className="relative bg-seoul-black section-padding overflow-hidden hangul-bg"
+      className="relative bg-white section-padding overflow-hidden hangul-bg"
     >
       {/* Corner glow */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-seoul-red/5 rounded-full blur-3xl pointer-events-none" />
@@ -250,13 +250,13 @@ export default function Courses() {
             <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
               Nuestros cursos
             </span>
-            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-white leading-tight">
+            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight">
               Encuentra tu
               <br />
               <span className="text-gradient-red">nivel perfecto</span>
             </h2>
           </div>
-          <p className="text-seoul-white/45 text-base max-w-xs leading-relaxed">
+          <p className="text-seoul-black/45 text-base max-w-xs leading-relaxed">
             Cada curso está diseñado para llevarte al siguiente nivel con confianza,
             sin importar dónde empieces.
           </p>
@@ -276,12 +276,12 @@ export default function Courses() {
           transition={{ duration: 0.6, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
           className="mt-14 text-center"
         >
-          <p className="text-white/40 text-sm mb-5">
+          <p className="text-seoul-black/40 text-sm mb-5">
             ¿No sabes qué nivel elegir? Haz nuestro test de nivelación gratuito.
           </p>
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 px-8 py-4 border border-white/15 hover:border-seoul-red text-seoul-white hover:text-white font-semibold rounded-lg transition-all duration-300 hover:bg-seoul-red/10 text-sm group"
+            className="inline-flex items-center gap-2 px-8 py-4 border border-black/15 hover:border-seoul-red text-seoul-black hover:text-seoul-red font-semibold rounded-lg transition-all duration-300 hover:bg-seoul-red/5 text-sm group"
           >
             Test de nivelación gratuito
             <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>

@@ -5,7 +5,6 @@ import VideoIntro from '@/components/VideoIntro';
 import Courses from '@/components/Courses';
 import Benefits from '@/components/Benefits';
 import KoreanCulture from '@/components/KoreanCulture';
-import LeadMagnet from '@/components/LeadMagnet';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import CTASection from '@/components/CTASection';
@@ -23,9 +22,32 @@ export default function HomePage() {
       <VideoIntro />
       <Courses />
       <Benefits />
-      <KoreanCulture />
-      <LeadMagnet />
+
+      {/* Mini-banner recurso gratis → Recursos */}
+      <section className="bg-[#F4F7FF] border-y border-black/[0.06]">
+        <div className="container-tight py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+          <div className="flex items-center gap-4">
+            <span className="text-3xl">📄</span>
+            <div>
+              <div className="text-seoul-black font-bold text-base">
+                Guía del alfabeto coreano (한글) — gratis
+              </div>
+              <p className="text-seoul-black/55 text-sm">
+                Descárgala y aprende a leer desde cero, junto a más recursos gratuitos.
+              </p>
+            </div>
+          </div>
+          <a
+            href="/recursos"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm whitespace-nowrap"
+          >
+            Ver recursos gratis →
+          </a>
+        </div>
+      </section>
+
       <Testimonials />
+      <KoreanCulture />
       <FAQ />
       <CTASection />
       <Contact />

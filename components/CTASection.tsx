@@ -12,7 +12,7 @@ export default function CTASection() {
   return (
     <section
       ref={ref}
-      className="relative overflow-hidden bg-seoul-black"
+      className="relative overflow-hidden bg-[#F4F7FF]"
     >
       {/* Parallax background */}
       <motion.div
@@ -24,7 +24,7 @@ export default function CTASection() {
           className="absolute inset-0"
           style={{
             background:
-              'radial-gradient(ellipse 80% 60% at 50% 50%, #3D2EE822 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 20% 80%, #00347820 0%, transparent 60%), #0a0a0f',
+              'radial-gradient(ellipse 80% 60% at 50% 50%, #3D2EE81f 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 20% 80%, #00347814 0%, transparent 60%), #F4F7FF',
           }}
         />
         {/* Grid */}
@@ -47,7 +47,7 @@ export default function CTASection() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="text-3xl font-korean font-black text-white/10 mb-6 tracking-widest"
+          className="text-3xl font-korean font-black text-seoul-black/10 mb-6 tracking-widest"
         >
           지금 시작하세요
         </motion.div>
@@ -57,7 +57,7 @@ export default function CTASection() {
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="font-serif text-4xl md:text-6xl lg:text-7xl text-seoul-white leading-tight mb-6"
+          className="font-serif text-4xl md:text-6xl lg:text-7xl text-seoul-black leading-tight mb-6"
         >
           ¿Listo para hablar
           <br />
@@ -69,7 +69,7 @@ export default function CTASection() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="text-base md:text-lg text-white/50 max-w-lg mx-auto leading-relaxed mb-12"
+          className="text-base md:text-lg text-seoul-black/50 max-w-lg mx-auto leading-relaxed mb-12"
         >
           Únete a la primera cohorte de Academia Seúl y empieza a leer coreano
           en 30 días. Nivel 1 arranca el 7 de julio · Promo de lanzamiento $89 hasta el 30 de junio.
@@ -92,7 +92,7 @@ export default function CTASection() {
           </a>
           <a
             href="#courses"
-            className="px-10 py-4 border border-white/20 hover:border-white/40 text-white/70 hover:text-white font-medium text-base rounded-lg transition-all duration-300 hover:bg-white/5"
+            className="px-10 py-4 border border-black/15 hover:border-black/30 text-seoul-black/70 hover:text-seoul-black font-medium text-base rounded-lg transition-all duration-300 hover:bg-black/5"
           >
             Explorar cursos
           </a>
@@ -111,7 +111,7 @@ export default function CTASection() {
             '✓ Máximo 15 alumnos',
             '✓ Garantía 7 días',
           ].map((item) => (
-            <span key={item} className="text-sm text-white/35 font-medium">
+            <span key={item} className="text-sm text-seoul-black/35 font-medium">
               {item}
             </span>
           ))}
@@ -120,7 +120,7 @@ export default function CTASection() {
         {/* Decorative hangul */}
         <div
           aria-hidden
-          className="absolute left-1/2 -translate-x-1/2 bottom-0 font-black font-korean text-white/[0.015] leading-none select-none pointer-events-none"
+          className="absolute left-1/2 -translate-x-1/2 bottom-0 font-black font-korean text-seoul-black/[0.015] leading-none select-none pointer-events-none"
           style={{ fontSize: '32vw', lineHeight: 0.8 }}
         >
           서울

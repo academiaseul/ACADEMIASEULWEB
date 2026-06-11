@@ -1,7 +1,7 @@
 'use client';
 
-import { useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
+import { useRef, useState } from 'react';
+import { motion, useInView, AnimatePresence } from 'framer-motion';
 import {
   Globe,
   Languages,
@@ -11,6 +11,8 @@ import {
   ShieldCheck,
   Star,
   Quote,
+  ChevronLeft,
+  ChevronRight,
 } from 'lucide-react';
 
 const reasons = [
@@ -134,6 +136,100 @@ function StarRating() {
   );
 }
 
+function TestimonialsCarousel() {
+  const [index, setIndex] = useState(0);
+  const [dir, setDir] = useState(0);
+  const total = testimonials.length;
+
+  const go = (d: number) => {
+    setDir(d);
+    setIndex((prev) => (prev + d + total) % total);
+  };
+
+  const t = testimonials[index];
+
+  return (
+    <div className="max-w-3xl mx-auto">
+      <div className="relative flex items-center gap-3 md:gap-5">
+        {/* Prev */}
+        <button
+          onClick={() => go(-1)}
+          aria-label="Anterior"
+          className="flex-shrink-0 w-11 h-11 md:w-12 md:h-12 rounded-full bg-black/[0.06] border border-black/10 text-seoul-black/70 hover:text-white hover:bg-seoul-red hover:border-seoul-red flex items-center justify-center transition-all duration-200"
+        >
+          <ChevronLeft size={22} />
+        </button>
+
+        {/* Card */}
+        <div className="relative flex-1 overflow-hidden min-h-[300px] sm:min-h-[260px]">
+          <AnimatePresence mode="wait" custom={dir}>
+            <motion.div
+              key={index}
+              custom={dir}
+              initial={{ opacity: 0, x: dir >= 0 ? 60 : -60 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: dir >= 0 ? -60 : 60 }}
+              transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+              className="glass-light rounded-2xl p-7 md:p-9 flex flex-col gap-5"
+              style={{ boxShadow: '0 6px 24px rgba(10,10,40,0.06)' }}
+            >
+              <div className="flex items-center justify-between">
+                <Quote size={32} className="text-seoul-red/40" strokeWidth={2.5} />
+                <StarRating />
+              </div>
+              <p className="text-base md:text-lg text-seoul-black/80 leading-relaxed italic flex-1">
+                &ldquo;{t.quote}&rdquo;
+              </p>
+              <div className="pt-4 border-t border-black/[0.06] flex items-center gap-3">
+                <div
+                  className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold text-sm border-2 border-black/10"
+                  style={{ background: t.color }}
+                >
+                  {t.initials}
+                </div>
+                <div>
+                  <div className="text-sm md:text-base font-bold text-seoul-black leading-tight">
+                    {t.name}
+                  </div>
+                  <div className="text-[11px] md:text-xs text-seoul-black/40 mt-0.5">
+                    {t.course} · {t.level}
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </AnimatePresence>
+        </div>
+
+        {/* Next */}
+        <button
+          onClick={() => go(1)}
+          aria-label="Siguiente"
+          className="flex-shrink-0 w-11 h-11 md:w-12 md:h-12 rounded-full bg-black/[0.06] border border-black/10 text-seoul-black/70 hover:text-white hover:bg-seoul-red hover:border-seoul-red flex items-center justify-center transition-all duration-200"
+        >
+          <ChevronRight size={22} />
+        </button>
+      </div>
+
+      {/* Dots */}
+      <div className="flex items-center justify-center gap-2 mt-7">
+        {testimonials.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => {
+              setDir(i > index ? 1 : -1);
+              setIndex(i);
+            }}
+            aria-label={`Testimonio ${i + 1}`}
+            className={`h-2 rounded-full transition-all duration-300 ${
+              i === index ? 'w-7 bg-seoul-red' : 'w-2 bg-black/15 hover:bg-black/30'
+            }`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Testimonials() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-100px' });
@@ -142,14 +238,14 @@ export default function Testimonials() {
     <section
       id="testimonials"
       ref={ref}
-      className="relative bg-seoul-black section-padding overflow-hidden"
+      className="relative bg-white section-padding overflow-hidden"
     >
       <div className="absolute top-0 left-0 w-96 h-96 bg-seoul-red/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-seoul-blue/5 rounded-full blur-3xl pointer-events-none" />
 
       <div
         aria-hidden
-        className="absolute left-1/2 top-1/4 -translate-x-1/2 text-[18rem] font-black text-white/[0.015] leading-none select-none pointer-events-none font-korean"
+        className="absolute left-1/2 top-1/4 -translate-x-1/2 text-[18rem] font-black text-seoul-black/[0.015] leading-none select-none pointer-events-none font-korean"
       >
         {'신뢰'}
       </div>
@@ -165,12 +261,12 @@ export default function Testimonials() {
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
             Por qué Academia Seúl
           </span>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-white leading-tight max-w-3xl mx-auto">
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight max-w-3xl mx-auto">
             Lo que nos hace
             <br />
             <span className="text-gradient-red">diferentes</span>
           </h2>
-          <p className="mt-6 text-white/50 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
+          <p className="mt-6 text-seoul-black/50 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
             8+ años enseñando coreano, una metodología probada y la energía
             de una comunidad real.
           </p>
@@ -181,33 +277,33 @@ export default function Testimonials() {
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-          className="relative glass rounded-2xl p-8 md:p-12 mb-12 overflow-hidden"
+          className="relative glass-light rounded-2xl p-8 md:p-12 mb-12 overflow-hidden"
           style={{
             background:
               'radial-gradient(ellipse 80% 60% at 20% 20%, rgba(61, 46, 232,0.12) 0%, transparent 60%), rgba(255,255,255,0.02)',
-            boxShadow: '0 0 0 1px rgba(255,255,255,0.06)',
+            boxShadow: '0 6px 24px rgba(10,10,40,0.06)',
           }}
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center relative z-10">
             <div className="md:col-span-1 text-center md:text-left">
-              <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-seoul-red text-white font-black text-2xl mb-4 border-2 border-white/10 font-korean">
+              <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-seoul-red text-white font-black text-2xl mb-4 border-2 border-black/10 font-korean">
                 {'김재희'}
               </div>
-              <div className="text-2xl font-bold text-seoul-white font-korean">{'김재희'}</div>
-              <div className="text-sm text-white/60 mt-1">Jay Chingu</div>
+              <div className="text-2xl font-bold text-seoul-black font-korean">{'김재희'}</div>
+              <div className="text-sm text-seoul-black/60 mt-1">Jay Chingu</div>
               <div className="text-xs uppercase tracking-widest text-seoul-red mt-3 font-semibold">
                 Fundador / Profesor
               </div>
             </div>
 
             <div className="md:col-span-2 space-y-3">
-              <p className="text-base md:text-lg text-seoul-white/85 leading-relaxed">
+              <p className="text-base md:text-lg text-seoul-black/85 leading-relaxed">
                 <span className="font-korean">{'안녕하세요'}</span>, soy{' '}
                 <span className="font-korean font-bold">{'김재희'}</span> — mejor conocido como Jay. Nací en Seúl, llegué a
                 Chile a los 10 años, y crecí entre kimchi y empanadas — entre{' '}
                 <span className="font-korean">{'한글'}</span> y español.
               </p>
-              <p className="text-sm text-white/55 leading-relaxed">
+              <p className="text-sm text-seoul-black/55 leading-relaxed">
                 De día soy gerente en una empresa coreana de genómica en Las Condes. De noche
                 hago lo que más amo: enseñar mi idioma a quienes lo aprenden por amor a la
                 cultura. Academia Seúl nació para construir el puente que yo no tuve a los 10.
@@ -221,7 +317,7 @@ export default function Testimonials() {
                 ].map((tag) => (
                   <span
                     key={tag}
-                    className="text-[11px] font-semibold text-white/70 bg-white/[0.04] border border-white/10 px-3 py-1 rounded-full"
+                    className="text-[11px] font-semibold text-seoul-black/70 bg-black/[0.04] border border-black/10 px-3 py-1 rounded-full"
                   >
                     {tag}
                   </span>
@@ -251,8 +347,8 @@ export default function Testimonials() {
                   delay: 0.2 + (i % 3) * 0.08,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className="relative glass rounded-2xl p-7 flex flex-col gap-4 hover:translate-y-[-4px] transition-transform duration-300"
-                style={{ boxShadow: '0 0 0 1px rgba(255,255,255,0.06)' }}
+                className="relative glass-light rounded-2xl p-7 flex flex-col gap-4 hover:translate-y-[-4px] transition-transform duration-300"
+                style={{ boxShadow: '0 6px 24px rgba(10,10,40,0.06)' }}
               >
                 <div
                   className="w-12 h-12 rounded-xl flex items-center justify-center"
@@ -263,10 +359,10 @@ export default function Testimonials() {
                 >
                   <Icon size={22} style={{ color: reason.color }} />
                 </div>
-                <h3 className="text-lg font-bold text-seoul-white leading-tight">
+                <h3 className="text-lg font-bold text-seoul-black leading-tight">
                   {reason.title}
                 </h3>
-                <p className="text-sm text-white/55 leading-relaxed flex-1">
+                <p className="text-sm text-seoul-black/55 leading-relaxed flex-1">
                   {reason.description}
                 </p>
               </motion.div>
@@ -281,7 +377,7 @@ export default function Testimonials() {
           transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="text-center mb-20"
         >
-          <p className="text-white/40 text-sm mb-5">
+          <p className="text-seoul-black/40 text-sm mb-5">
             La mejor forma de conocer mi método: la primera cohorte del Nivel 1.
           </p>
           <a
@@ -303,57 +399,16 @@ export default function Testimonials() {
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
             Estudiantes reales
           </span>
-          <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-seoul-white leading-tight">
+          <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-seoul-black leading-tight">
             Lo que dicen <span className="text-gradient-red">mis chingus</span>
           </h3>
-          <p className="mt-4 text-white/50 text-base max-w-xl mx-auto leading-relaxed">
+          <p className="mt-4 text-seoul-black/50 text-base max-w-xl mx-auto leading-relaxed">
             Testimonios reales de estudiantes que tomé en mis clases anteriores.
             La misma energía y metodología llega ahora a Academia Seúl.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {testimonials.map((t, i) => (
-            <motion.div
-              key={t.name}
-              initial={{ opacity: 0, y: 30 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{
-                duration: 0.6,
-                delay: 0.6 + (i % 3) * 0.08,
-                ease: [0.22, 1, 0.36, 1],
-              }}
-              className="relative glass rounded-2xl p-7 flex flex-col gap-4 hover:translate-y-[-4px] transition-transform duration-300"
-              style={{ boxShadow: '0 0 0 1px rgba(255,255,255,0.06)' }}
-            >
-              <Quote
-                size={28}
-                className="text-seoul-red/40 flex-shrink-0"
-                strokeWidth={2.5}
-              />
-              <p className="text-sm text-white/70 leading-relaxed italic flex-1">
-                &ldquo;{t.quote}&rdquo;
-              </p>
-              <div className="pt-4 border-t border-white/[0.06] flex items-center gap-3">
-                <div
-                  className="w-11 h-11 rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold text-sm border-2 border-white/10"
-                  style={{ background: t.color }}
-                >
-                  {t.initials}
-                </div>
-                <div className="flex-1">
-                  <div className="text-sm font-bold text-seoul-white leading-tight">
-                    {t.name}
-                  </div>
-                  <div className="text-[11px] text-white/40 mt-0.5">
-                    {t.course} · {t.level}
-                  </div>
-                </div>
-                <StarRating />
-              </div>
-            </motion.div>
-          ))}
-        </div>
+        <TestimonialsCarousel />
       </div>
     </section>
   );

@@ -46,7 +46,7 @@ export default function About() {
     <section
       id="about"
       ref={ref}
-      className="relative bg-seoul-white section-padding overflow-hidden"
+      className="relative bg-white section-padding overflow-hidden"
     >
       {/* Subtle hangul watermark */}
       <div
@@ -147,7 +147,7 @@ export default function About() {
             </ul>
 
             <a
-              href="#contact"
+              href="/sobre"
               className="inline-flex items-center gap-2 mt-2 px-6 py-3 bg-seoul-black text-seoul-white font-semibold text-sm rounded-lg hover:bg-seoul-red transition-all duration-300 group"
             >
               Conoce nuestra historia

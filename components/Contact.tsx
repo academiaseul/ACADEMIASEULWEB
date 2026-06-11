@@ -86,8 +86,8 @@ export default function Contact() {
   };
 
   const inputClass = clsx(
-    'w-full bg-white/[0.03] border border-white/[0.08] rounded-lg px-4 py-3.5 text-seoul-white text-sm',
-    'placeholder:text-white/25 focus:outline-none focus:border-seoul-red/60 focus:bg-white/[0.05]',
+    'w-full bg-[#F4F7FF] border border-black/10 rounded-lg px-4 py-3.5 text-seoul-black text-sm',
+    'placeholder:text-black/30 focus:outline-none focus:border-seoul-red focus:bg-white',
     'transition-all duration-200',
   );
 
@@ -95,7 +95,7 @@ export default function Contact() {
     <section
       id="contact"
       ref={ref}
-      className="relative bg-seoul-black section-padding overflow-hidden"
+      className="relative bg-white section-padding overflow-hidden"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-seoul-red/5 blur-3xl pointer-events-none" />
 
@@ -109,12 +109,12 @@ export default function Contact() {
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
             Contáctanos
           </span>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-white leading-tight max-w-2xl">
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight max-w-2xl">
             Tu primera clase
             <br />
             <span className="text-gradient-red">es completamente gratis</span>
           </h2>
-          <p className="mt-5 text-base text-white/45 max-w-md leading-relaxed">
+          <p className="mt-5 text-base text-seoul-black/45 max-w-md leading-relaxed">
             Déjanos tus datos y te escribimos en menos de 24 h para agendar tu clase.
           </p>
         </motion.div>
@@ -131,57 +131,57 @@ export default function Contact() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4 }}
-                className="glass rounded-2xl p-12 text-center"
+                className="glass-light rounded-2xl p-12 text-center"
               >
                 <div className="text-5xl mb-6">🎉</div>
-                <h3 className="text-2xl font-bold text-seoul-white mb-3">¡Mensaje recibido!</h3>
-                <p className="text-white/50 text-sm leading-relaxed">
+                <h3 className="text-2xl font-bold text-seoul-black mb-3">¡Mensaje recibido!</h3>
+                <p className="text-seoul-black/50 text-sm leading-relaxed">
                   Te escribimos en las próximas 24 h para agendar tu clase gratis. ¡Hasta pronto!
                 </p>
-                <p className="mt-4 text-2xl font-korean text-white/20">안녕히 계세요 👋</p>
+                <p className="mt-4 text-2xl font-korean text-seoul-black/20">안녕히 계세요 👋</p>
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-xs font-medium text-white/40 mb-2 tracking-wider uppercase">Nombre completo *</label>
+                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Nombre completo *</label>
                     <input name="nombre" value={form.nombre} onChange={handleChange} required placeholder="Ej. María González" className={inputClass} />
                   </div>
                   <div>
-                    <label className="block text-xs font-medium text-white/40 mb-2 tracking-wider uppercase">Teléfono / WhatsApp</label>
+                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Teléfono / WhatsApp</label>
                     <input name="telefono" value={form.telefono} onChange={handleChange} placeholder="+56 9 xxxx xxxx" className={inputClass} />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium text-white/40 mb-2 tracking-wider uppercase">Correo electrónico *</label>
+                  <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Correo electrónico *</label>
                   <input type="email" name="email" value={form.email} onChange={handleChange} required placeholder={CONTACT_EMAIL} className={inputClass} />
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-xs font-medium text-white/40 mb-2 tracking-wider uppercase">Nivel actual</label>
+                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Nivel actual</label>
                     <select name="nivel" value={form.nivel} onChange={handleChange} className={clsx(inputClass, 'cursor-pointer')}>
                       <option value="" disabled>Selecciona un nivel</option>
-                      {levels.map((l) => (<option key={l} value={l} className="bg-seoul-black">{l}</option>))}
+                      {levels.map((l) => (<option key={l} value={l} className="bg-white text-seoul-black">{l}</option>))}
                     </select>
                   </div>
                   <div>
-                    <label className="block text-xs font-medium text-white/40 mb-2 tracking-wider uppercase">Me interesa</label>
+                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Me interesa</label>
                     <select name="interes" value={form.interes} onChange={handleChange} className={clsx(inputClass, 'cursor-pointer')}>
                       <option value="" disabled>Selecciona un interés</option>
-                      {interests.map((i) => (<option key={i} value={i} className="bg-seoul-black">{i}</option>))}
+                      {interests.map((i) => (<option key={i} value={i} className="bg-white text-seoul-black">{i}</option>))}
                     </select>
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium text-white/40 mb-2 tracking-wider uppercase">Mensaje (opcional)</label>
+                  <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Mensaje (opcional)</label>
                   <textarea name="mensaje" value={form.mensaje} onChange={handleChange} rows={4} placeholder="Cuéntanos sobre tus objetivos, disponibilidad o cualquier pregunta..." className={clsx(inputClass, 'resize-none')} />
                 </div>
 
                 {error && (
-                  <div className="p-4 bg-[#3D2EE8]/10 border border-[#3D2EE8]/20 rounded-lg text-[#818CF8] text-sm">{error}</div>
+                  <div className="p-4 bg-[#3D2EE8]/10 border border-[#3D2EE8]/20 rounded-lg text-[#3D2EE8] text-sm">{error}</div>
                 )}
 
                 <motion.button
@@ -194,7 +194,7 @@ export default function Contact() {
                   {loading ? 'Enviando...' : 'Reservar mi clase gratis →'}
                 </motion.button>
 
-                <p className="text-xs text-white/25 text-center leading-relaxed">
+                <p className="text-xs text-seoul-black/25 text-center leading-relaxed">
                   Al enviar aceptas ser contactado por Academia Seúl. No compartimos tus datos.
                 </p>
               </form>
@@ -208,7 +208,7 @@ export default function Contact() {
             className="lg:col-span-2 space-y-8"
           >
             <div className="space-y-5">
-              <h3 className="text-sm font-semibold text-white/50 uppercase tracking-widest">Información de contacto</h3>
+              <h3 className="text-sm font-semibold text-seoul-black/50 uppercase tracking-widest">Información de contacto</h3>
               {[
                 { icon: Phone,     label: 'Teléfono / WhatsApp', value: CONTACT_PHONE_DISPLAY,          href: 'tel:+56942115562' },
                 { icon: Mail,      label: 'Email',               value: CONTACT_EMAIL,                   href: `mailto:${CONTACT_EMAIL}` },
@@ -220,8 +220,8 @@ export default function Contact() {
                     <Icon size={16} className="text-seoul-red" />
                   </div>
                   <div>
-                    <div className="text-xs text-white/30 uppercase tracking-wider mb-0.5">{label}</div>
-                    <a href={href} target={label === 'Dirección' ? '_blank' : undefined} rel={label === 'Dirección' ? 'noopener noreferrer' : undefined} className="text-sm text-white/70 whitespace-pre-line leading-relaxed hover:text-seoul-red transition-colors">
+                    <div className="text-xs text-seoul-black/30 uppercase tracking-wider mb-0.5">{label}</div>
+                    <a href={href} target={label === 'Dirección' ? '_blank' : undefined} rel={label === 'Dirección' ? 'noopener noreferrer' : undefined} className="text-sm text-seoul-black/70 whitespace-pre-line leading-relaxed hover:text-seoul-red transition-colors">
                       {value}
                     </a>
                   </div>
@@ -230,13 +230,13 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="text-sm font-semibold text-white/50 uppercase tracking-widest mb-4">Síguenos</h3>
+              <h3 className="text-sm font-semibold text-seoul-black/50 uppercase tracking-widest mb-4">Síguenos</h3>
               <div className="flex gap-3 flex-wrap">
                 <a
                   href={PERSONAL_INSTAGRAM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-seoul-red hover:border-seoul-red/30 transition-all duration-200"
+                  className="w-11 h-11 rounded-lg glass-light flex items-center justify-center text-seoul-black/50 hover:text-seoul-red hover:border-seoul-red/30 transition-all duration-200"
                   aria-label="Instagram @jaychingu.oficial"
                 >
                   <Instagram size={18} />
@@ -245,7 +245,7 @@ export default function Contact() {
                   href={TIKTOK_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-white hover:border-white/30 transition-all duration-200"
+                  className="w-11 h-11 rounded-lg glass-light flex items-center justify-center text-seoul-black/50 hover:text-seoul-black hover:border-black/30 transition-all duration-200"
                   aria-label="TikTok @jaychingu.oficial"
                 >
                   <TikTokIcon size={18} />
@@ -254,7 +254,7 @@ export default function Contact() {
                   href={YOUTUBE_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-[#3D2EE8] hover:border-[#3D2EE8]/30 transition-all duration-200"
+                  className="w-11 h-11 rounded-lg glass-light flex items-center justify-center text-seoul-black/50 hover:text-[#3D2EE8] hover:border-[#3D2EE8]/30 transition-all duration-200"
                   aria-label="YouTube @JayChingu.Oficial"
                 >
                   <Youtube size={18} />
@@ -263,7 +263,7 @@ export default function Contact() {
                   href={FACEBOOK_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-blue-400 hover:border-blue-400/30 transition-all duration-200"
+                  className="w-11 h-11 rounded-lg glass-light flex items-center justify-center text-seoul-black/50 hover:text-blue-400 hover:border-blue-400/30 transition-all duration-200"
                   aria-label="Facebook jaychingu.oficial"
                 >
                   <Facebook size={18} />
@@ -272,14 +272,14 @@ export default function Contact() {
                   href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-green-400 hover:border-green-400/30 transition-all duration-200"
+                  className="w-11 h-11 rounded-lg glass-light flex items-center justify-center text-seoul-black/50 hover:text-green-400 hover:border-green-400/30 transition-all duration-200"
                   aria-label="WhatsApp"
                 >
                   <MessageCircle size={18} />
                 </a>
                 <a
                   href={`mailto:${CONTACT_EMAIL}`}
-                  className="w-11 h-11 rounded-lg glass flex items-center justify-center text-white/50 hover:text-seoul-red hover:border-seoul-red/30 transition-all duration-200"
+                  className="w-11 h-11 rounded-lg glass-light flex items-center justify-center text-seoul-black/50 hover:text-seoul-red hover:border-seoul-red/30 transition-all duration-200"
                   aria-label="Email"
                 >
                   <Mail size={18} />
@@ -296,8 +296,8 @@ export default function Contact() {
                   { day: 'Domingos',        hours: 'Cerrado' },
                 ].map(({ day, hours }) => (
                   <div key={day} className="flex justify-between text-sm">
-                    <span className="text-white/50">{day}</span>
-                    <span className="text-white/80 font-medium">{hours}</span>
+                    <span className="text-seoul-black/50">{day}</span>
+                    <span className="text-seoul-black/80 font-medium">{hours}</span>
                   </div>
                 ))}
               </div>

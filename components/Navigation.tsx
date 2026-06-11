@@ -22,6 +22,7 @@ const navLinks: NavLink[] = [
       { label: 'Guías',                 href: '/recursos/guias'        },
       { label: 'Pronunciación coreana', href: '/recursos/pronunciacion' },
       { label: 'Tu nombre en coreano',  href: '/generador-nombre'      },
+      { label: 'Preguntas (FAQ)',       href: '/faq'                   },
     ],
   },
   { label: 'Blog',          href: '/blog'      },

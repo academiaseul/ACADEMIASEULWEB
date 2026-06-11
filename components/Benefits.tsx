@@ -65,7 +65,7 @@ export default function Benefits() {
   return (
     <section
       ref={ref}
-      className="relative bg-seoul-off-white section-padding overflow-hidden"
+      className="relative bg-[#F4F7FF] section-padding overflow-hidden"
     >
       {/* Left column accent */}
       <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-seoul-red via-seoul-blue to-seoul-red" />
@@ -94,7 +94,7 @@ export default function Benefits() {
 
         {/* Benefits grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {benefits.map((b, i) => {
+          {benefits.slice(0, 4).map((b, i) => {
             const Icon = b.icon;
             return (
               <motion.div
@@ -127,7 +127,7 @@ export default function Benefits() {
         </div>
 
         {/* Marquee strip */}
-        <div className="mt-20 overflow-hidden border-y border-black/[0.06] py-5">
+        <div className="mt-14 overflow-hidden border-y border-black/[0.06] py-5">
           <div
             className="flex gap-12 whitespace-nowrap"
             style={{ animation: 'marquee 28s linear infinite' }}

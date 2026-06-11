@@ -36,22 +36,11 @@ export const faqs = [
 ];
 
 export default function FAQ() {
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqs.map((f) => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
-    })),
-  };
-
   return (
-    <section id="faq" className="relative bg-seoul-black section-padding overflow-hidden">
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-seoul-red/5 rounded-full blur-3xl pointer-events-none" />
+    <section id="faq" className="relative bg-white section-padding overflow-hidden">
       <div
         aria-hidden
-        className="absolute right-6 top-10 text-[12rem] font-black text-white/[0.015] leading-none select-none pointer-events-none font-korean"
+        className="absolute right-6 top-10 text-[12rem] font-black text-seoul-black/[0.03] leading-none select-none pointer-events-none font-korean"
       >
         {'질문'}
       </div>
@@ -61,33 +50,38 @@ export default function FAQ() {
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
             FAQ · Preguntas frecuentes
           </span>
-          <h2 className="font-serif text-4xl md:text-5xl text-seoul-white leading-tight">
+          <h2 className="font-serif text-4xl md:text-5xl text-seoul-black leading-tight">
             Todo lo que <span className="text-gradient-red">quieres saber</span>
           </h2>
         </div>
 
         <div className="space-y-3">
-          {faqs.map((f) => (
+          {faqs.slice(0, 4).map((f) => (
             <details
               key={f.q}
-              className="group rounded-2xl bg-white/[0.03] border border-white/[0.08] open:border-seoul-red/40 transition-colors"
+              className="group rounded-2xl bg-white border-2 border-seoul-black/10 open:border-seoul-red/50 shadow-sm transition-colors"
             >
-              <summary className="flex items-center justify-between gap-4 cursor-pointer list-none p-5 md:p-6 text-seoul-white font-semibold text-base md:text-lg">
+              <summary className="flex items-center justify-between gap-4 cursor-pointer list-none p-5 md:p-6 text-seoul-black font-bold text-base md:text-lg">
                 <span>{f.q}</span>
                 <ChevronDown
                   size={20}
                   className="flex-shrink-0 text-seoul-red transition-transform duration-300 group-open:rotate-180"
                 />
               </summary>
-              <p className="px-5 md:px-6 pb-5 md:pb-6 -mt-1 text-white/60 leading-relaxed text-sm md:text-base">
+              <p className="px-5 md:px-6 pb-5 md:pb-6 -mt-1 text-seoul-black/60 leading-relaxed text-sm md:text-base">
                 {f.a}
               </p>
             </details>
           ))}
         </div>
 
-        <div className="text-center mt-10">
-          <p className="text-white/40 text-sm mb-4">¿Tienes otra duda?</p>
+        <div className="text-center mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a
+            href="/faq"
+            className="inline-flex items-center gap-2 px-7 py-3 border border-seoul-black/15 hover:border-seoul-red text-seoul-black hover:bg-seoul-red/5 font-semibold rounded-lg transition-all duration-300 text-sm"
+          >
+            Ver todas las preguntas →
+          </a>
           <a
             href="/#contact"
             className="inline-flex items-center gap-2 px-7 py-3 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm"
@@ -96,11 +90,6 @@ export default function FAQ() {
           </a>
         </div>
       </div>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
     </section>
   );
 }
