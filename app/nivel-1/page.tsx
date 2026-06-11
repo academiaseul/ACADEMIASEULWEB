@@ -497,13 +497,35 @@ export default function Nivel1Page() {
       {/* Inscripción form */}
       <section id="inscripcion" className="py-20 bg-white">
         <div className="max-w-2xl mx-auto px-6">
+          {/* Stepper */}
+          <div className="flex items-center justify-center gap-2 sm:gap-4 mb-10">
+            {[
+              { n: "1", t: "Regístrate" },
+              { n: "2", t: "Paga" },
+              { n: "3", t: "¡Listo!" },
+            ].map((s, i) => (
+              <div key={s.n} className="flex items-center gap-2 sm:gap-4">
+                <div className="flex items-center gap-2">
+                  <div
+                    className="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold"
+                    style={{ backgroundColor: i === 0 ? "#3D2EE8" : "#CBC7EA" }}
+                  >
+                    {s.n}
+                  </div>
+                  <span className={`text-sm font-bold ${i === 0 ? "text-[#3D2EE8]" : "text-gray-400"}`}>{s.t}</span>
+                </div>
+                {i < 2 && <div className="w-6 sm:w-10 h-px bg-gray-300" />}
+              </div>
+            ))}
+          </div>
+
           <div className="text-center mb-8">
             <div className="inline-block px-4 py-1 mb-4 rounded-full text-xs font-bold tracking-widest text-white" style={{ backgroundColor: "#3D2EE8" }}>
-              PASO 1 · TUS DATOS
+              PASO 1 · REGISTRA TU CLASE
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Reserva tu cupo</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Inscríbete en tu clase</h2>
             <p className="text-gray-600">
-              Déjanos tus datos y elige tu clase. Luego eliges cómo pagar. Cupos limitados a 15 por clase.
+              Completa tus datos y elige tu horario. En el siguiente paso eliges cómo pagar. Cupos limitados: 15 por clase.
             </p>
           </div>
 
@@ -625,12 +647,15 @@ export default function Nivel1Page() {
       <section id="pricing" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
-            <div className="inline-block px-4 py-1 mb-4 rounded-full text-xs font-bold tracking-widest text-white" style={{ backgroundColor: "#FF5C5C" }}>
-              PROMO DE LANZAMIENTO · HASTA EL 6 DE JULIO
+            <div className="inline-block px-4 py-1 mb-3 rounded-full text-xs font-bold tracking-widest text-white" style={{ backgroundColor: "#3D2EE8" }}>
+              PASO 2 · PAGO
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
-              Tu inversión
+              Completa tu pago
             </h2>
+            <p className="text-sm font-bold tracking-widest" style={{ color: "#FF5C5C" }}>
+              PROMO DE LANZAMIENTO · HASTA EL 6 DE JULIO
+            </p>
           </div>
 
           <div className="bg-white border-2 border-[#3D2EE8] rounded-3xl p-8 md:p-12 shadow-xl">
@@ -764,6 +789,9 @@ export default function Nivel1Page() {
               <div className="mt-6 pt-6 border-t border-dashed border-gray-300">
                 {!payConfirmed ? (
                   <div className="text-center">
+                    <div className="inline-block px-3 py-1 mb-2 rounded-full text-[10px] font-bold tracking-widest text-white" style={{ backgroundColor: "#3D2EE8" }}>
+                      PASO 3 · CONFIRMA
+                    </div>
                     <p className="text-sm font-bold text-gray-900 mb-1">¿Ya hiciste tu pago?</p>
                     <p className="text-xs text-gray-500 mb-4">
                       Confírmalo aquí y reservamos tu cupo en la <strong>{cohortes[selectedCohorte].label}</strong>.
