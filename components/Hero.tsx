@@ -53,7 +53,7 @@ export default function Hero() {
           className="text-5xl font-black leading-[0.95] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl"
         >
           <span className="block text-seoul-white">Aprende Coreano.</span>
-          <span className="block text-seoul-red">Vive Seúl.</span>
+          <span className="block text-seoul-red">Con un chingu.</span>
         </motion.h1>
 
         {/* Divider */}

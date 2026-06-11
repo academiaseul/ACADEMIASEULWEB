@@ -48,6 +48,10 @@ export default function Footer() {
               />
             </a>
 
+            <p className="text-base font-semibold text-seoul-white mb-3">
+              Aprende coreano con un <span className="text-seoul-red">chingu</span>.
+            </p>
+
             <p className="text-sm text-white/40 leading-relaxed max-w-xs mb-3">
               Academia online de coreano para hispanohablantes. Profesor nativo de
               Seúl, método Chingu y una comunidad apasionada por la cultura coreana.
