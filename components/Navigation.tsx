@@ -51,8 +51,8 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
         className={clsx(
           'fixed top-0 left-0 right-0 z-50 transition-all duration-500',
           scrolled || solid
-            ? 'bg-seoul-black/90 backdrop-blur-xl border-b border-white/[0.06] shadow-2xl'
-            : 'bg-transparent',
+            ? 'bg-white/95 backdrop-blur-xl border-b border-gray-200 shadow-sm'
+            : 'bg-white/90 backdrop-blur-md border-b border-gray-100',
         )}
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -83,7 +83,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                   <div key={link.href} className="relative group">
                     <a
                       href={link.href}
-                      className="text-sm font-medium text-seoul-white/70 hover:text-seoul-white transition-colors duration-200 inline-flex items-center gap-1"
+                      className="text-sm font-medium text-gray-600 hover:text-seoul-black transition-colors duration-200 inline-flex items-center gap-1"
                     >
                       {link.label}
                       <ChevronDown
@@ -93,12 +93,12 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                     </a>
                     {/* Dropdown */}
                     <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
-                      <div className="min-w-[230px] bg-seoul-black/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl p-2">
+                      <div className="min-w-[230px] bg-white backdrop-blur-xl border border-gray-200 rounded-xl shadow-2xl p-2">
                         {link.children.map((c) => (
                           <a
                             key={c.href}
                             href={c.href}
-                            className="block px-4 py-3 rounded-lg text-sm text-seoul-white/75 hover:text-seoul-white hover:bg-white/[0.06] transition-colors duration-150"
+                            className="block px-4 py-3 rounded-lg text-sm text-gray-600 hover:text-seoul-black hover:bg-gray-50 transition-colors duration-150"
                           >
                             {c.label}
                           </a>
@@ -114,7 +114,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                       'text-sm font-medium transition-colors duration-200 relative group',
                       link.highlight
                         ? 'text-seoul-red hover:text-[#818CF8]'
-                        : 'text-seoul-white/70 hover:text-seoul-white',
+                        : 'text-gray-600 hover:text-seoul-black',
                     )}
                   >
                     {link.label}
@@ -141,7 +141,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
 
             {/* Mobile hamburger */}
             <button
-              className="lg:hidden text-seoul-white/80 hover:text-seoul-white p-2"
+              className="lg:hidden text-seoul-black/70 hover:text-seoul-black p-2"
               onClick={() => setMobileOpen((v) => !v)}
               aria-label="Toggle menu"
             >
@@ -153,7 +153,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
 
       {/* Mobile menu */}
       <motion.div
-        className="fixed inset-0 z-40 lg:hidden bg-seoul-black/98 backdrop-blur-xl flex flex-col pt-20 px-6 pb-8 overflow-y-auto"
+        className="fixed inset-0 z-40 lg:hidden bg-white/98 backdrop-blur-xl flex flex-col pt-20 px-6 pb-8 overflow-y-auto"
         initial={{ opacity: 0, y: '-100%' }}
         animate={{ opacity: mobileOpen ? 1 : 0, y: mobileOpen ? 0 : '-100%' }}
         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
@@ -175,8 +175,8 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
                 className={clsx(
-                  'block py-4 text-2xl font-bold border-b border-white/[0.06] transition-colors duration-200',
-                  link.highlight ? 'text-seoul-red hover:text-[#818CF8]' : 'text-seoul-white/80 hover:text-seoul-red',
+                  'block py-4 text-2xl font-bold border-b border-gray-200 transition-colors duration-200',
+                  link.highlight ? 'text-seoul-red hover:text-[#818CF8]' : 'text-gray-700 hover:text-seoul-red',
                 )}
               >
                 {link.label}
@@ -188,7 +188,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                       key={c.href}
                       href={c.href}
                       onClick={() => setMobileOpen(false)}
-                      className="py-3 pl-5 text-lg font-semibold text-seoul-white/55 hover:text-seoul-red border-b border-white/[0.04] transition-colors duration-200"
+                      className="py-3 pl-5 text-lg font-semibold text-gray-500 hover:text-seoul-red border-b border-gray-100 transition-colors duration-200"
                     >
                       ↳ {c.label}
                     </a>

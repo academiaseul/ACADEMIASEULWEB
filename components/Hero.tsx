@@ -35,16 +35,6 @@ export default function Hero() {
         style={{ y: contentY, opacity }}
         className="relative z-20 flex h-full flex-col items-center justify-center px-6 text-center"
       >
-        {/* Eyebrow */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-          className="mb-6 text-xs font-semibold uppercase tracking-[0.3em] text-seoul-red sm:text-sm"
-        >
-          Academia Seúl · Santiago de Chile
-        </motion.p>
-
         {/* Headline */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
