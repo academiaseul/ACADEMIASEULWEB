@@ -726,35 +726,24 @@ export default function Nivel1Page() {
               </div>
               <p className="text-center text-xs font-bold tracking-widest text-gray-400 mb-3">ELIGE CÓMO PAGAR</p>
 
-              {/* Transferencia bancaria — RECOMENDADA (sin comisión) */}
+              {/* Transferencia bancaria — datos por WhatsApp (privado, sin comisión) */}
               <div className="bg-[#F5F3FF] border-2 border-[#3D2EE8] rounded-2xl p-6 text-left">
                 <div className="flex items-center justify-between gap-2 flex-wrap mb-2">
                   <p className="text-base font-bold text-gray-900">🏦 Transferencia bancaria · Chile</p>
                   <span className="text-[10px] font-bold text-white px-3 py-1 rounded-full" style={{ backgroundColor: "#16a34a" }}>RECOMENDADO · SIN COMISIÓN</span>
                 </div>
                 <p className="text-sm text-gray-700 mb-4">
-                  Pagas <strong style={{ color: "#3D2EE8" }}>$85.000 CLP</strong> y el monto llega completo (sin recargos).
-                </p>
-                <dl className="text-sm text-gray-700 space-y-1.5">
-                  <div className="flex justify-between gap-4"><dt className="text-gray-500">Titular</dt><dd className="font-medium text-gray-900">Jae Hee Kim</dd></div>
-                  <div className="flex justify-between gap-4"><dt className="text-gray-500">RUT</dt><dd className="font-medium text-gray-900">14.714.427-K</dd></div>
-                  <div className="flex justify-between gap-4"><dt className="text-gray-500">Banco</dt><dd className="font-medium text-gray-900">BCI</dd></div>
-                  <div className="flex justify-between gap-4"><dt className="text-gray-500">Tipo de cuenta</dt><dd className="font-medium text-gray-900">Cuenta Corriente</dd></div>
-                  <div className="flex justify-between gap-4"><dt className="text-gray-500">N° de cuenta</dt><dd className="font-medium text-gray-900">70954542</dd></div>
-                  <div className="flex justify-between gap-4"><dt className="text-gray-500">Correo</dt><dd className="font-medium text-gray-900">hola.academiaseul@gmail.com</dd></div>
-                </dl>
-                <p className="text-xs text-gray-600 mt-4">
-                  Importante: pon <strong>tu nombre completo</strong> como referencia/glosa de la transferencia
-                  para que podamos asociarla a tu inscripción. Luego envía tu comprobante por WhatsApp o al correo.
+                  Es la opción <strong>sin comisión</strong>: el monto llega completo. Escríbenos por WhatsApp y
+                  te enviamos los datos de la cuenta y te guiamos paso a paso en tu inscripción.
                 </p>
                 <a
-                  href="https://wa.me/56942115562?text=Hola%20Jay%2C%20ya%20hice%20la%20transferencia%20del%20Nivel%201%20A1%20(%2485.000%20CLP).%20Aqu%C3%AD%20va%20mi%20comprobante%3A"
+                  href="https://wa.me/56942115562?text=Hola%20Jay!%20Quiero%20inscribirme%20al%20Nivel%201%20(A1).%20%C2%BFMe%20pasas%20los%20datos%20para%20la%20transferencia%20y%20el%20proceso%20de%20inscripci%C3%B3n%3F"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-3 px-5 py-2.5 rounded-full text-white text-sm font-bold"
+                  className="inline-flex items-center gap-2 mt-1 px-6 py-3 rounded-full text-white text-sm font-bold"
                   style={{ backgroundColor: "#25D366" }}
                 >
-                  📲 Enviar comprobante por WhatsApp
+                  📲 Pedir datos por WhatsApp
                 </a>
               </div>
 
