@@ -15,7 +15,7 @@ export const faqs = [
   },
   {
     q: '¿Qué horarios y fechas hay?',
-    a: 'Abrimos varias cohortes (martes, jueves y sábado) para que elijas la que mejor te acomode. Las fechas y horarios exactos por zona horaria (LATAM y España) están en la página del Nivel 1.',
+    a: 'Las clases son los sábados (11:00 hora Chile · 16:00 España), una por semana, desde el 11 de julio. Para toda LATAM y España. Los detalles están en la página del Nivel 1.',
   },
   {
     q: '¿Me sirve para el examen TOPIK?',

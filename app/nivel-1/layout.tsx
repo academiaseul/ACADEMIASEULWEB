@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Coreano Nivel 1 (A1) · Primeras Palabras — Promo de lanzamiento $89',
   description:
-    'Curso de coreano desde cero: 11 sesiones en vivo por Zoom, Método Chingu, grupos pequeños. Clases martes, jueves y sábado. Promo de lanzamiento $89 USD hasta el 6 de julio.',
+    'Curso de coreano desde cero: 11 sesiones en vivo por Zoom, Método Chingu, grupos pequeños. Clases los sábados desde el 11 de julio. Promo de lanzamiento $89 USD hasta el 6 de julio.',
   alternates: { canonical: '/nivel-1' },
   openGraph: {
     title: 'Coreano Nivel 1 (A1) · Primeras Palabras — Academia Seúl',

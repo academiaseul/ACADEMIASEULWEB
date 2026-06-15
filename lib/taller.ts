@@ -6,9 +6,9 @@
 // cambia automáticamente a modo "próximo taller" con formulario de aviso.
 
 export const PROXIMO_TALLER = {
-  fechaISO: '2026-06-06T20:00:00-04:00' as string | null,
-  fechaLabel: 'Sábado 6 de Junio',
-  horaLabel: '20:00 hrs Chile',
+  fechaISO: '2026-06-27T11:00:00-04:00' as string | null,
+  fechaLabel: 'Sábado 27 de Junio',
+  horaLabel: '11:00 hrs Chile · 16:00 España',
   duracionMin: 90,
 };
 
