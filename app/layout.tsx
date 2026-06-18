@@ -8,6 +8,7 @@ import TallerPopup from '@/components/TallerPopup';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import MetaPixel from '@/components/MetaPixel';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import MicrosoftClarity from '@/components/MicrosoftClarity';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -84,6 +85,7 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <MetaPixel />
           <GoogleAnalytics />
+          <MicrosoftClarity />
         </Suspense>
         <Analytics />
         <SpeedInsights />
