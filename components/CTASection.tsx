@@ -72,7 +72,7 @@ export default function CTASection() {
           className="text-base md:text-lg text-seoul-black/50 max-w-lg mx-auto leading-relaxed mb-12"
         >
           Únete a la primera cohorte de Academia Seúl y empieza a leer coreano
-          en 30 días. Nivel 1 arranca en julio (miércoles 8 o sábados 11) · Promo de lanzamiento $89 hasta el 30 de junio.
+          en 30 días. Nivel 1 arranca en julio (miércoles 8 o sábados 11) · Promo de lanzamiento $89 USD / $85.000 CLP hasta el 30 de junio.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -109,7 +109,7 @@ export default function CTASection() {
             '✓ Pago único, sin cuotas',
             '✓ Grabaciones incluidas',
             '✓ Máximo 15 alumnos',
-            '✓ Garantía 7 días',
+            '✓ Certificado por participación',
           ].map((item) => (
             <span key={item} className="text-sm text-seoul-black/35 font-medium">
               {item}

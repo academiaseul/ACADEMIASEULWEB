@@ -11,7 +11,7 @@ export const faqs = [
   },
   {
     q: '¿Cuánto cuesta y qué incluye?',
-    a: 'El Nivel 1 tiene un precio de lanzamiento de $89. Incluye todas las clases en vivo de la cohorte, material de estudio y acceso a la comunidad. Puedes ver el programa completo en la página del Nivel 1.',
+    a: 'El Nivel 1 tiene un precio de lanzamiento de $89 USD / $85.000 CLP. Incluye todas las clases en vivo de la cohorte, material de estudio, certificado por participación y acceso a la comunidad. Puedes ver el programa completo en la página del Nivel 1.',
   },
   {
     q: '¿Qué horarios y fechas hay?',
@@ -30,8 +30,8 @@ export const faqs = [
     a: 'Tarjeta de crédito/débito, PayPal o transferencia bancaria. Al inscribirte eliges tu método y reservas tu cupo en la cohorte. Te confirmamos por correo apenas registramos tu pago.',
   },
   {
-    q: '¿Y si siento que no es para mí?',
-    a: 'Tienes nuestra garantía: si después de la primera semana sientes que no es para ti, te devolvemos el 100%. Sin letra chica. Queremos que estés porque realmente quieres aprender.',
+    q: '¿Recibo un certificado?',
+    a: 'Sí. Recibes un certificado de Academia Seúl por tu participación en las clases del Nivel 1 (A1), equivalente al marco CEFR A1 / TOPIK 초급 1. Lo entregamos en base a tu asistencia y participación a lo largo de la cohorte.',
   },
 ];
 
