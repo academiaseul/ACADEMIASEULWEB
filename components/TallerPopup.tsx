@@ -141,7 +141,7 @@ export default function TallerPopup() {
                 </h2>
 
                 <p className="pt-4 text-sm text-white/55 leading-relaxed max-w-xs mx-auto">
-                  Nivel 1 · 11 sesiones en vivo por Zoom · Sábados desde el 11 de julio. Grupos de máximo 15 alumnos.
+                  Nivel 1 · 11 sesiones en vivo por Zoom · Miércoles o sábados desde julio. Grupos de máximo 15 alumnos.
                 </p>
 
                 <div className="mt-6 inline-flex items-center gap-3 px-5 py-3 rounded-full bg-white/[0.04] border border-white/10">

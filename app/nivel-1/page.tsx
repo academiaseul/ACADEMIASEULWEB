@@ -6,10 +6,10 @@ import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-type Cohorte = "sabado";
+type Cohorte = "miercoles" | "sabado";
 
 export default function Nivel1Page() {
-  const [selectedCohorte, setSelectedCohorte] = useState<Cohorte>("sabado");
+  const [selectedCohorte, setSelectedCohorte] = useState<Cohorte>("miercoles");
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   // Inscripción form
@@ -157,11 +157,18 @@ export default function Nivel1Page() {
   }, []);
 
   const cohortes = {
+    miercoles: {
+      label: "🌙 Clase Miércoles",
+      day: "Miércoles · 20:00 Chile",
+      hora: "20:00 hora Chile · empieza el 8 de julio",
+      ideal: "Ideal para LATAM (después del trabajo) · 21:00 Argentina · 19:00 Colombia/Perú · 18:00 México",
+      paymentLink: "https://mpago.li/2tZRfqp",
+    },
     sabado: {
-      label: "Clase Sábados",
-      day: "Sábados",
-      hora: "11:00 hora Chile · 16:00 hora España",
-      ideal: "Para toda LATAM y España · una clase por semana",
+      label: "☀️ Clase Sábados",
+      day: "Sábados · 11:00 Chile",
+      hora: "11:00 hora Chile · 16:00 España · empieza el 11 de julio",
+      ideal: "Ideal para España + LATAM que prefiere el fin de semana",
       paymentLink: "https://mpago.li/2tZRfqp",
     },
   };
@@ -415,7 +422,7 @@ export default function Nivel1Page() {
             Las 11 sesiones del programa
           </h2>
           <p className="text-gray-600 text-center mb-12">
-            Una clase en vivo por semana · sábados · 90 min · Desde el sábado 11 de julio 2026
+            Una clase en vivo por semana · elige miércoles 20:00 o sábados 11:00 (Chile) · 90 min · inicio en julio
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {lessons.map((lesson) => (
@@ -903,7 +910,7 @@ export default function Nivel1Page() {
             ¿Listo para empezar?
           </h2>
           <p className="text-lg opacity-90 mb-8">
-            El sábado 11 de julio arranca el Nivel 1. El precio de lanzamiento de $89 termina el 6 de julio.
+            Las clases arrancan en julio: miércoles 8 o sábados 11. El precio de lanzamiento de $89 termina el 6 de julio.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a href="#pricing" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
@@ -914,7 +921,7 @@ export default function Nivel1Page() {
             </a>
           </div>
           <div className="mt-8 text-sm opacity-70">
-            화이팅 chingu! Te espero el sábado 11 de julio.
+            화이팅 chingu! Te espero en julio — miércoles 8 o sábados 11.
           </div>
         </div>
       </section>

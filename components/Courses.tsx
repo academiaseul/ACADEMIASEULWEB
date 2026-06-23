@@ -17,7 +17,7 @@ const courses = [
     duration: '10 semanas',
     sessions: '1 clase / semana · 90 min',
     groupSize: '15 cupos por clase',
-    badge: 'Sábados · desde 11 jul · $89',
+    badge: 'Mié o Sáb · desde julio · $89',
     color: '#3D2EE8',
     bgGlow: 'rgba(61,46,232,0.08)',
     status: 'launching' as const,
