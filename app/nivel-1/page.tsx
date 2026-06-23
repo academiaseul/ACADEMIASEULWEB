@@ -221,7 +221,7 @@ export default function Nivel1Page() {
     },
     {
       q: "¿Recibo certificado?",
-      a: "Sí, al terminar las 11 sesiones + el proyecto final, recibís un certificado oficial de Academia Seúl equivalente a CEFR A1 / TOPIK 초급 1.",
+      a: "Sí. Recibís tu certificado de Academia Seúl por tu participación en las clases del Nivel 1, equivalente a CEFR A1 / TOPIK 초급 1. Se entrega en base a tu asistencia y participación durante la cohorte.",
     },
     {
       q: "¿Hay tarea entre clases?",
@@ -661,7 +661,7 @@ export default function Nivel1Page() {
               <div className="text-4xl">→</div>
               <div className="text-center">
                 <div className="text-6xl md:text-7xl font-bold" style={{ color: "#3D2EE8" }}>$89</div>
-                <div className="text-sm font-bold mt-1" style={{ color: "#818CF8" }}>USD · PROMO LANZAMIENTO</div>
+                <div className="text-sm font-bold mt-1" style={{ color: "#818CF8" }}>USD · $85.000 CLP · PROMO LANZAMIENTO</div>
               </div>
             </div>
 
@@ -682,7 +682,7 @@ export default function Nivel1Page() {
                   "Cuaderno Maestro del Estudiante",
                   "200 flashcards digitales",
                   "Discord permanente",
-                  "Certificado oficial A1",
+                  "Certificado A1 por participación",
                 ].map((item) => (
                   <li key={item} className="flex gap-3 items-start">
                     <span style={{ color: "#3D2EE8" }} className="font-bold">✓</span>

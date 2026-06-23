@@ -53,9 +53,9 @@ const reasons = [
   },
   {
     icon: ShieldCheck,
-    title: 'Garantía y transparencia',
+    title: 'Certificado por participación',
     description:
-      'Si después de la primera semana sientes que no es para ti, devolvemos el 100%. Cero letra chica. Cero atadura. Si vienes, es porque quieres estar.',
+      'Recibes tu certificado de Academia Seúl por participar en las clases del Nivel 1 (CEFR A1 / TOPIK 초급 1). Tu esfuerzo queda reconocido, paso a paso.',
     color: '#D4AF37',
   },
 ];

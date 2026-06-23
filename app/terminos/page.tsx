@@ -87,35 +87,31 @@ export default function Terminos() {
               4. Política de reembolso
             </h2>
             <p>
-              Academia Seúl ofrece <strong>garantía de satisfacción de 7 días naturales</strong>{' '}
-              desde el inicio de tu curso:
+              El precio de lanzamiento del Nivel 1 es de{' '}
+              <strong>$89 USD / $85.000 CLP</strong> (pago único). Sobre los pagos:
             </p>
             <ul className="list-disc pl-6 mt-3 space-y-2">
               <li>
-                Si después de la primera semana de clases sientes que el curso no es para
-                ti, devolvemos el 100% de lo pagado.
+                El cupo se confirma una vez registrado el pago. Por tratarse de un grupo
+                con cupos limitados, el pago no es reembolsable una vez iniciada la cohorte.
               </li>
               <li>
-                Para solicitar el reembolso, escríbenos a{' '}
+                Si por algún motivo no puedes continuar, escríbenos a{' '}
                 <a
                   href="mailto:hola@academiaseul.com"
                   className="text-seoul-red hover:underline"
                 >
                   hola@academiaseul.com
                 </a>{' '}
-                dentro de los primeros 7 días naturales desde el inicio del curso.
+                y buscamos juntos una solución, como tu traslado a una cohorte posterior.
               </li>
               <li>
-                Pasados los 7 días, no se realizan reembolsos por el resto del curso.
+                Si Academia Seúl cancela una cohorte antes de su inicio, se reembolsa el
+                100% de lo pagado.
               </li>
               <li>
-                Si elegiste el plan &ldquo;Reserva de cupo&rdquo; (pago en dos partes), la
-                reserva inicial no es reembolsable porque garantiza tu lugar. La garantía
-                de 7 días aplica únicamente sobre el saldo restante.
-              </li>
-              <li>
-                El taller gratuito del 6 de junio no genera obligación económica de
-                ninguna parte: es 100% gratuito.
+                El taller gratuito no genera obligación económica de ninguna parte: es 100%
+                gratuito.
               </li>
             </ul>
           </section>
@@ -146,13 +142,18 @@ export default function Terminos() {
               6. Asistencia y certificado
             </h2>
             <p>
-              Para recibir el certificado de finalización del Nivel 1 (o cualquier curso
-              pagado), se requiere:
+              El certificado del Nivel 1 (o cualquier curso pagado) se entrega por
+              participación:
             </p>
             <ul className="list-disc pl-6 mt-3 space-y-2">
-              <li>Asistencia mínima del 70% a las clases en vivo o grabadas.</li>
-              <li>Entrega de las tareas y evaluaciones del curso.</li>
-              <li>Aprobación del examen final del nivel.</li>
+              <li>
+                Recibes tu certificado de Academia Seúl por participar en las clases de la
+                cohorte (equivalente a CEFR A1 / TOPIK 초급 1).
+              </li>
+              <li>
+                Se considera tu asistencia y participación en las clases en vivo o grabadas
+                a lo largo del curso.
+              </li>
             </ul>
           </section>
 

@@ -7,7 +7,7 @@ import { faqs } from "@/components/FAQ";
 export const metadata: Metadata = {
   title: "Preguntas frecuentes (FAQ) | Academia Seúl",
   description:
-    "Resolvemos todas tus dudas sobre las clases de coreano de Academia Seúl: niveles, precios, horarios, pagos, garantía y más.",
+    "Resolvemos todas tus dudas sobre las clases de coreano de Academia Seúl: niveles, precios, horarios, pagos, certificado y más.",
   alternates: { canonical: "https://www.academiaseul.com/faq" },
 };
 

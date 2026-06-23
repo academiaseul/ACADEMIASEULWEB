@@ -136,7 +136,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                 href="/taller"
                 className="px-5 py-2.5 bg-seoul-red hover:bg-[#2C1FB0] text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-seoul-red/20 hover:shadow-seoul-red/40 hover:-translate-y-0.5 whitespace-nowrap"
               >
-                Clase gratis →
+                Taller gratis →
               </a>
             </div>
 
@@ -205,7 +205,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
             className="block w-full text-center py-4 bg-seoul-red text-white font-bold text-lg rounded-lg mt-8 hover:bg-[#2C1FB0] transition-colors duration-200"
             onClick={() => setMobileOpen(false)}
           >
-            Clase de prueba gratis →
+            Taller gratis →
           </a>
         </div>
       </motion.div>

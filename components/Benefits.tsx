@@ -52,8 +52,8 @@ const benefits = [
   },
   {
     icon: Shield,
-    title: 'Garantía de satisfacción',
-    desc: 'Si no estás satisfecho con tu primera semana de clases, te devolvemos el 100% de tu dinero. Así de seguros estamos de nuestra calidad.',
+    title: 'Certificado por participación',
+    desc: 'Al participar en las clases recibes tu certificado de Academia Seúl (CEFR A1 / TOPIK 초급 1). Tu avance queda respaldado nivel a nivel.',
     color: '#003478',
   },
 ];

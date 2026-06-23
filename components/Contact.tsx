@@ -110,12 +110,12 @@ export default function Contact() {
             Contáctanos
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight max-w-2xl">
-            Tu primera clase
+            ¿Quieres hablar
             <br />
-            <span className="text-gradient-red">es completamente gratis</span>
+            <span className="text-gradient-red">con un profesor?</span>
           </h2>
           <p className="mt-5 text-base text-seoul-black/45 max-w-md leading-relaxed">
-            Déjanos tus datos y te escribimos en menos de 24 h para agendar tu clase.
+            ¿Tienes dudas o quieres más detalles del curso? Escríbenos un correo o por WhatsApp y te respondemos en menos de 24 h.
           </p>
         </motion.div>
 
@@ -136,7 +136,7 @@ export default function Contact() {
                 <div className="text-5xl mb-6">🎉</div>
                 <h3 className="text-2xl font-bold text-seoul-black mb-3">¡Mensaje recibido!</h3>
                 <p className="text-seoul-black/50 text-sm leading-relaxed">
-                  Te escribimos en las próximas 24 h para agendar tu clase gratis. ¡Hasta pronto!
+                  Te escribimos en las próximas 24 h con toda la información. ¡Hasta pronto!
                 </p>
                 <p className="mt-4 text-2xl font-korean text-seoul-black/20">안녕히 계세요 👋</p>
               </motion.div>
@@ -191,7 +191,7 @@ export default function Contact() {
                   whileTap={{ scale: loading ? 1 : 0.99 }}
                   className="w-full py-4 bg-seoul-red hover:bg-[#2C1FB0] text-white font-bold text-base rounded-lg transition-all duration-200 shadow-xl shadow-seoul-red/25 hover:shadow-seoul-red/40 disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  {loading ? 'Enviando...' : 'Reservar mi clase gratis →'}
+                  {loading ? 'Enviando...' : 'Hablar con un profesor →'}
                 </motion.button>
 
                 <p className="text-xs text-seoul-black/25 text-center leading-relaxed">
