@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+@font-face { font-family:'Bebas Neue'; src:url('/tmp/node_modules/@fontsource/bebas-neue/files/bebas-neue-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family:'Inter'; font-weight:400; src:url('/tmp/node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family:'Inter'; font-weight:600; src:url('/tmp/node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family:'Inter'; font-weight:700; src:url('/tmp/node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family:'Noto Sans KR'; font-weight:700; src:url('/tmp/node_modules/@fontsource/noto-sans-kr/files/noto-sans-kr-korean-700-normal.woff2') format('woff2'); }
+* { margin:0; padding:0; box-sizing:border-box; }
+@page { size: A4 landscape; margin: 0; }
+body { width:1123px; height:794px; font-family:'Inter',sans-serif; background:#FDF6EC; position:relative; overflow:hidden; }
+.frame { position:absolute; inset:22px; border:3px solid #0D0D0D; }
+.frame2 { position:absolute; inset:30px; border:1px solid #C8001E; }
+.wave { position:absolute; bottom:0; left:0; right:0; height:120px; overflow:hidden; }
+.wave .black { position:absolute; bottom:-70px; left:-10%; width:75%; height:160px; background:#0D0D0D; border-radius:50% 50% 0 0; transform:rotate(-3deg); opacity:.92; }
+.wave .red { position:absolute; bottom:-80px; right:-15%; width:70%; height:180px; background:#C8001E; border-radius:55% 45% 0 0; transform:rotate(2.5deg); }
+.wave .gold { position:absolute; bottom:-95px; right:-5%; width:45%; height:150px; background:#E8B84B; border-radius:50% 50% 0 0; transform:rotate(4deg); }
+.content { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; text-align:center; padding-top:54px; }
+.logo { height:82px; margin-bottom:22px; }
+h1 { font-family:'Bebas Neue'; font-size:90px; line-height:.9; color:#0D0D0D; letter-spacing:3px; }
+.sub { font-size:22px; font-weight:700; letter-spacing:11px; color:#C8001E; text-transform:uppercase; margin:10px 0 4px; }
+.kr-sub { font-family:'Noto Sans KR'; font-size:14px; color:#9a8f80; letter-spacing:4px; margin-bottom:22px; }
+.otorga { font-size:18px; color:#555; margin-bottom:12px; }
+.nameline { width:560px; border-bottom:2px solid #0D0D0D; height:50px; margin-bottom:8px; font-size:33px; font-weight:700; color:#0D0D0D; display:flex; align-items:flex-end; justify-content:center; padding-bottom:5px; }
+.por { font-size:18px; color:#555; margin:12px 0 6px; }
+.evento { font-size:29px; font-weight:700; color:#0D0D0D; margin-bottom:5px; }
+.evento .kr { font-family:'Noto Sans KR'; color:#C8001E; }
+.fecha { font-size:17px; color:#777; }
+.firma { position:relative; margin-top:60px; display:flex; flex-direction:column; align-items:center; }
+.firma .sig { position:absolute; left:50%; transform:translateX(-50%); top:-62px; height:80px; pointer-events:none; }
+.firma .line { width:300px; border-bottom:1.5px solid #0D0D0D; margin-bottom:7px; }
+.firma .nombre { font-size:17px; font-weight:700; color:#0D0D0D; }
+.firma .nombre .kr { font-family:'Noto Sans KR'; }
+.firma .cargo { font-size:13px; color:#777; }
+.sello { position:absolute; right:64px; bottom:120px; width:128px; opacity:.92; }
+.web { position:absolute; bottom:30px; width:100%; text-align:center; color:rgba(255,255,255,.85); font-size:13px; letter-spacing:2px; font-weight:600; z-index:5; }
+</style></head><body>
+<div class="frame"></div><div class="frame2"></div>
+<div class="wave"><div class="black"></div><div class="red"></div><div class="gold"></div></div>
+<img class="sello" src="/tmp/cert/sello_rojo.png">
+<div class="content">
+  <img class="logo" src="/tmp/cert/logo_rojo.png">
+  <h1>Certificado</h1>
+  <div class="sub">De Participación</div>
+  <div class="kr-sub">수료증 · 아카데미아 서울</div>
+  <div class="otorga">Se otorga el presente certificado a:</div>
+  <div class="nameline">{{NOMBRE}}</div>
+  <div class="por">Por su participación en el taller en vivo</div>
+  <div class="evento">&ldquo;Aprende a leer <span class="kr">한글</span> en 1 hora&rdquo;</div>
+  <div class="fecha">Online vía Zoom · 6 de junio de 2026</div>
+  <div class="firma">
+    <img class="sig" src="/tmp/cert/sig.png">
+    <div class="line"></div>
+    <div class="nombre">Jay Kim · <span class="kr">김재희</span></div>
+    <div class="cargo">Fundador e Instructor · Academia Seúl</div>
+  </div>
+</div>
+<div class="web">academiaseul.com</div>
+</body></html>
