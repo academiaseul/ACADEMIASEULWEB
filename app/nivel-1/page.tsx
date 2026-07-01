@@ -13,7 +13,7 @@ export default function Nivel1Page() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   // Inscripción form
-  const [form, setForm] = useState({ nombre: "", correo: "", whatsapp: "", edad: "", rut: "", comoConocio: "" });
+  const [form, setForm] = useState({ nombre: "", correo: "", whatsapp: "", edad: "", rut: "", pais: "", nivel: "", comoConocio: "", motivacion: "" });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [formError, setFormError] = useState("");
@@ -26,8 +26,8 @@ export default function Nivel1Page() {
 
   const handleInscribir = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!form.nombre || !form.correo || !form.whatsapp || !form.edad || !form.rut || !form.comoConocio) {
-      setFormError("Completa todos los campos para continuar.");
+    if (!form.nombre || !form.correo || !form.whatsapp || !form.edad || !form.rut || !form.pais || !form.nivel || !form.comoConocio) {
+      setFormError("Completa todos los campos obligatorios para continuar.");
       return;
     }
     setSubmitting(true);
@@ -45,7 +45,10 @@ export default function Nivel1Page() {
           whatsapp: form.whatsapp,
           edad: form.edad,
           rut: form.rut,
+          pais_ciudad: form.pais,
+          nivel_coreano: form.nivel,
           como_nos_conociste: form.comoConocio,
+          motivacion: form.motivacion,
           clase: cohortes[selectedCohorte].label,
         }),
       });
@@ -514,11 +517,11 @@ export default function Nivel1Page() {
 
           <div className="text-center mb-8">
             <div className="inline-block px-4 py-1 mb-4 rounded-full text-xs font-bold tracking-widest text-white" style={{ backgroundColor: "#3D2EE8" }}>
-              PASO 1 · REGISTRA TU CLASE
+              PASO 1 · FORMULARIO DE INSCRIPCIÓN
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Inscríbete en tu clase</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Postula a tu clase de coreano</h2>
             <p className="text-gray-600">
-              Completa tus datos y elige tu horario. En el siguiente paso eliges cómo pagar. Cupos limitados: 15 por clase.
+              Completa tu inscripción y elige tu horario. En el siguiente paso confirmas tu cupo con el pago. Cupos limitados: 15 por clase.
             </p>
           </div>
 
@@ -579,6 +582,30 @@ export default function Nivel1Page() {
                 <p className="text-xs text-gray-500 mt-1">Lo usamos para tu certificado oficial.</p>
               </div>
               <div>
+                <label className="block text-sm font-bold text-gray-700 mb-1">País y ciudad</label>
+                <input
+                  type="text"
+                  value={form.pais}
+                  onChange={(e) => setForm({ ...form, pais: e.target.value })}
+                  placeholder="Ej: Chile, Santiago"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
+                />
+                <p className="text-xs text-gray-500 mt-1">Para coordinar el horario y tu método de pago (CLP, USD o transferencia).</p>
+              </div>
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-1">¿Cuál es tu nivel de coreano?</label>
+                <select
+                  value={form.nivel}
+                  onChange={(e) => setForm({ ...form, nivel: e.target.value })}
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition bg-white"
+                >
+                  <option value="">Selecciona tu nivel</option>
+                  <option value="Desde cero">Empiezo desde cero (no sé nada) 🐣</option>
+                  <option value="Leo algo del alfabeto">Sé leer algo del alfabeto (한글)</option>
+                  <option value="Leo 한글 y algo de vocabulario">Ya leo 한글 y sé algo de vocabulario</option>
+                </select>
+              </div>
+              <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">¿Cómo nos conociste?</label>
                 <select
                   value={form.comoConocio}
@@ -595,6 +622,16 @@ export default function Nivel1Page() {
                   <option value="Google / búsqueda">Google / búsqueda</option>
                   <option value="Otro">Otro</option>
                 </select>
+              </div>
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-1">¿Por qué quieres aprender coreano? <span className="font-normal text-gray-400">(opcional)</span></label>
+                <textarea
+                  value={form.motivacion}
+                  onChange={(e) => setForm({ ...form, motivacion: e.target.value })}
+                  rows={3}
+                  placeholder="Cuéntanos tu motivación: K-pop, K-drama, un viaje, trabajo, la cultura... ¡Nos ayuda a conocerte! 💜"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition resize-none"
+                />
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Clase</label>
