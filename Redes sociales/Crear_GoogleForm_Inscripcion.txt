@@ -1,0 +1,74 @@
+═══════════════════════════════════════════════════════
+CREAR TU GOOGLE FORM DE INSCRIPCIÓN — Academia Seúl
+Campos: Nombre · Teléfono · Correo · Clase
+═══════════════════════════════════════════════════════
+
+OPCIÓN A — AUTOMÁTICA (el form se crea solo, ~1 min) ✅
+-------------------------------------------------------
+1. Entra a  https://script.google.com  → "Nuevo proyecto".
+2. Borra el código que aparece y PEGA todo el bloque de abajo.
+3. Arriba, pulsa "Ejecutar" (▶). Google te pedirá permiso: acéptalo con tu cuenta.
+4. Cuando termine, abre "Registro de ejecución" (Ver → Registros): ahí aparece
+   el LINK del formulario (para editar y para compartir).
+   *También lo encontrarás listo en tu Google Drive / Formularios.*
+
+--------- COPIA DESDE AQUÍ ---------
+
+function crearFormularioInscripcion() {
+  var form = FormApp.create('Inscripción · Clases de Coreano · Nivel 1 (A1) — Academia Seúl');
+  form.setDescription('¡Bienvenido/a a Academia Seúl! 💜 Completa este formulario para reservar tu lugar en el Nivel 1 · Primeras Palabras. Cupos limitados. Al enviar te contactamos con el link de pago. 화이팅 🇰🇷');
+
+  // 1. Nombre
+  form.addTextItem()
+      .setTitle('Nombre y apellido')
+      .setRequired(true);
+
+  // 2. Teléfono
+  form.addTextItem()
+      .setTitle('Número de teléfono (WhatsApp, con código de país)')
+      .setHelpText('Ej: +56 9 1234 5678')
+      .setRequired(true);
+
+  // 3. Correo (con validación de email)
+  var correo = form.addTextItem()
+      .setTitle('Correo electrónico')
+      .setRequired(true);
+  correo.setValidation(FormApp.createTextValidation().requireTextIsEmail().build());
+
+  // 4. Clase
+  form.addMultipleChoiceItem()
+      .setTitle('Clase')
+      .setChoiceValues(['Miércoles 20:00 (Chile)', 'Sábado 11:00 (Chile)'])
+      .setRequired(true);
+
+  form.setConfirmationMessage('¡Recibimos tu inscripción! 🎉 Te contactamos para confirmar tu cupo y enviarte el link de pago. 화이팅 💜');
+
+  Logger.log('LINK PARA EDITAR:   ' + form.getEditUrl());
+  Logger.log('LINK PARA COMPARTIR: ' + form.getPublishedUrl());
+}
+
+--------- COPIA HASTA AQUÍ ---------
+
+
+OPCIÓN B — MANUAL (a mano en Google Forms, ~3 min)
+-------------------------------------------------------
+1. Entra a  https://forms.google.com  → "+ En blanco".
+2. Título:  Inscripción · Clases de Coreano · Nivel 1 (A1)
+3. Agrega estas 4 preguntas (usa el botón + a la derecha):
+
+   • "Nombre y apellido"  → tipo: Respuesta corta  → obligatoria
+   • "Número de teléfono (WhatsApp)"  → Respuesta corta  → obligatoria
+   • "Correo electrónico"  → Respuesta corta  → obligatoria
+        (⋮ → Validación de respuesta → Texto → Dirección de correo)
+   • "Clase"  → tipo: Opción múltiple  → obligatoria
+        Opción 1:  Miércoles 20:00 (Chile)
+        Opción 2:  Sábado 11:00 (Chile)
+
+4. Engranaje ⚙️ → Presentación → Mensaje de confirmación:
+   "¡Recibimos tu inscripción! 🎉 Te contactamos para confirmar tu cupo
+    y enviarte el link de pago. 화이팅 💜"
+
+5. Pestaña "Respuestas" → ícono de Sheets → crea la hoja para ver las inscripciones.
+6. Pulsa "Enviar" → copia el link → ponlo en tu bio y en los DMs.
+
+═══════════════════════════════════════════════════════
