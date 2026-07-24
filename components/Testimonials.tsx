@@ -378,13 +378,13 @@ export default function Testimonials() {
           className="text-center mb-20"
         >
           <p className="text-seoul-black/40 text-sm mb-5">
-            La mejor forma de conocer mi método: la primera cohorte del Nivel 1.
+            La mejor forma de conocer mi método: la cohorte del Nivel 1.
           </p>
           <a
-            href="/nivel-1"
+            href="/notificarme?curso=nivel1"
             className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
           >
-            Empieza el Nivel 1 · Promo de lanzamiento $89
+            Lista de espera Nivel 1 · Precio de lanzamiento $89
             <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
           </a>
         </motion.div>

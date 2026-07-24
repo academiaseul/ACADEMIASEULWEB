@@ -7,6 +7,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const cursoLabels: Record<string, { nombre: string; korean: string }> = {
+  nivel1:       { nombre: "Nivel 1 · Primeras Palabras", korean: "첫 한국어" },
   intermedio:   { nombre: "Coreano Intermedio",   korean: "중급 한국어" },
   avanzado:     { nombre: "Coreano Avanzado",     korean: "고급 한국어" },
   kpop:         { nombre: "K-pop & K-drama",      korean: "케이팝 & 드라마" },
@@ -148,7 +149,7 @@ function NotificarmeForm() {
 
       <div className="mt-12 pt-12 border-t border-white/10 text-center">
         <p className="text-white/50 text-sm mb-4">
-          ¿Quieres empezar YA? Te invito al taller gratuito del 6 de junio:
+          ¿Quieres empezar YA? Mira el taller gratuito de Hangul:
         </p>
         <Link
           href="/taller"

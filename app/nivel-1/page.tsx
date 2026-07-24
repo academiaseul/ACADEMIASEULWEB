@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { COHORTE_ABIERTA, PROXIMA_COHORTE_LABEL } from "@/lib/nivel1";
 
 type Cohorte = "miercoles" | "sabado";
 
@@ -231,6 +232,46 @@ export default function Nivel1Page() {
       a: "Sí, hoja de actividad de 45-60 min por sesión + audio de práctica. Todo está incluido en la matrícula.",
     },
   ];
+
+  // Mientras la cohorte de julio esté en curso, mostramos una página de
+  // "cohorte cerrada" con lista de espera en vez del formulario de pago.
+  // Ver lib/nivel1.ts para reabrir cuando arranque la próxima cohorte.
+  if (!COHORTE_ABIERTA) {
+    return (
+      <main className="min-h-screen bg-white">
+        <Navigation solid />
+        <section className="min-h-[80vh] flex flex-col items-center justify-center text-center px-6 pt-32 pb-24 bg-[#F5F3FF]">
+          <span className="inline-flex items-center gap-2 bg-white border border-[#E5E1FB] text-[#4036ED] text-xs font-bold tracking-[2px] uppercase px-4 py-2 rounded-full mb-6">
+            Nivel 1 · Primeras Palabras
+          </span>
+          <h1 className="font-black text-gray-900 leading-tight mb-5" style={{ fontSize: "clamp(32px, 5vw, 56px)" }}>
+            Esta cohorte ya está en marcha
+          </h1>
+          <p className="text-gray-600 text-lg max-w-xl mb-8">
+            Los grupos de miércoles y sábados de julio ya empezaron. Anotate en la lista de espera
+            y te aviso apenas se abran los cupos de la próxima cohorte ({PROXIMA_COHORTE_LABEL}) —
+            con acceso prioritario y precio de lanzamiento.
+          </p>
+          <Link
+            href="/notificarme?curso=nivel1"
+            className="inline-flex items-center gap-2 bg-[#4036ED] text-white font-bold px-8 py-4 rounded-xl hover:bg-[#332BC7] transition-colors"
+          >
+            Anotarme en la lista de espera →
+          </Link>
+          <p className="text-sm text-gray-500 mt-6">
+            ¿Ya te sumaste a una clase o tenés una pregunta puntual?{" "}
+            <a
+              href="https://wa.me/56942115562?text=Hola%20Jay!%20Quiero%20saber%20cu%C3%A1ndo%20abre%20la%20pr%C3%B3xima%20cohorte%20del%20Nivel%201"
+              className="text-[#4036ED] font-semibold underline"
+            >
+              Escribime por WhatsApp
+            </a>
+          </p>
+        </section>
+        <Footer />
+      </main>
+    );
+  }
 
   return (
     <main className="min-h-screen bg-white">

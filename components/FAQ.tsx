@@ -15,7 +15,7 @@ export const faqs = [
   },
   {
     q: '¿Qué horarios y fechas hay?',
-    a: 'Tenemos dos horarios: miércoles 20:00 (hora Chile) — ideal para LATAM después del trabajo — y sábados 11:00 (Chile) / 16:00 (España). Una clase por semana, desde la semana del 8 de julio. Elige el que mejor te acomode; los detalles están en la página del Nivel 1.',
+    a: 'Tenemos dos horarios: miércoles 20:00 (hora Chile) — ideal para LATAM después del trabajo — y sábados 11:00 (Chile) / 16:00 (España). Una clase por semana. La cohorte actual ya está en curso; anotate en la lista de espera para la próxima y te avisamos apenas se abran cupos.',
   },
   {
     q: '¿Me sirve para el examen TOPIK?',

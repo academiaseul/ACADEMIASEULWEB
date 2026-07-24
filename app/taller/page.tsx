@@ -281,6 +281,35 @@ export default function TallerPage() {
         </div>
       </section>
 
+      {/* ── TALLER GRABADO (solo cuando no hay taller en vivo agendado) ── */}
+      {!vigente && (
+        <section className="bg-[#F4F7FF] py-16 px-6 md:px-14 border-t-4 border-[#0D0D0D]">
+          <div className="max-w-2xl mx-auto text-center">
+            <p className="text-[#3D2EE8] text-xs font-bold tracking-[3px] uppercase mb-3">
+              ¿No querés esperar?
+            </p>
+            <h2
+              className="font-black text-[#0D0D0D] leading-none mb-4"
+              style={{ fontSize: "clamp(28px, 4vw, 44px)", fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
+            >
+              Mira el taller grabado ahora mismo
+            </h2>
+            <p className="text-gray-600 mb-8 max-w-md mx-auto">
+              Todavía no hay fecha confirmada para el próximo taller en vivo, pero podés ver la
+              clase completa grabada cuando quieras — mismo contenido, a tu ritmo.
+            </p>
+            <a
+              href="https://www.youtube.com/watch?v=zmbuLPcgfpw&t=2414s"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-[#0D0D0D] text-white font-bold text-sm px-8 py-4 w-fit shadow-[4px_4px_0_#3D2EE8] hover:shadow-[6px_6px_0_#3D2EE8] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all mx-auto"
+            >
+              ▶ Ver el taller grabado <span className="text-lg">→</span>
+            </a>
+          </div>
+        </section>
+      )}
+
       {/* ── TIME ZONES (solo con taller vigente) ── */}
       {vigente && (
       <section className="bg-[#0D0D0D] py-16 px-6 md:px-14">

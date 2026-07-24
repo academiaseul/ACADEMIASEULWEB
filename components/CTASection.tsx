@@ -71,8 +71,8 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-base md:text-lg text-seoul-black/50 max-w-lg mx-auto leading-relaxed mb-12"
         >
-          Únete a la primera cohorte de Academia Seúl y empieza a leer coreano
-          en 30 días. Nivel 1 arranca en julio (miércoles 8 o sábados 11) · Promo de lanzamiento $89 USD / $85.000 CLP hasta el 30 de junio.
+          Únete a Academia Seúl y empieza a leer coreano en 30 días. La cohorte de Nivel 1
+          (miércoles y sábados) ya está en curso — anotate en la lista de espera para la próxima, con precio de lanzamiento $89 USD / $85.000 CLP.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -83,11 +83,11 @@ export default function CTASection() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <a
-            href="/nivel-1"
+            href="/notificarme?curso=nivel1"
             className="group relative px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-[#2C1FB0] transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
           >
             <span className="relative z-10">
-              Inscribirme al Nivel 1 · $89 →
+              Lista de espera Nivel 1 · $89 →
             </span>
           </a>
           <a

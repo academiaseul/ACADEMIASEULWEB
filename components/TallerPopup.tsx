@@ -141,29 +141,26 @@ export default function TallerPopup() {
                 </h2>
 
                 <p className="pt-4 text-sm text-white/55 leading-relaxed max-w-xs mx-auto">
-                  Nivel 1 · 11 sesiones en vivo por Zoom · Miércoles o sábados desde julio. Grupos de máximo 15 alumnos.
+                  Nivel 1 · 11 sesiones en vivo por Zoom · Miércoles o sábados. Grupos de máximo 15 alumnos.
                 </p>
 
                 <div className="mt-6 inline-flex items-center gap-3 px-5 py-3 rounded-full bg-white/[0.04] border border-white/10">
-                  <span className="text-sm text-white/40 line-through">$129</span>
                   <span className="text-2xl font-bold text-seoul-white">$89 USD</span>
                   <span className="text-[10px] uppercase tracking-widest text-seoul-red font-bold">
-                    hasta 30 jun
+                    próxima cohorte
                   </span>
                 </div>
 
-                <div className="mt-5 flex justify-center gap-2 text-[11px] text-white/50">
-                  <span className="px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/[0.08]">Martes 🇨🇱</span>
-                  <span className="px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/[0.08]">Jueves 🇨🇱</span>
-                  <span className="px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/[0.08]">Sábado 🇪🇸</span>
-                </div>
+                <p className="mt-5 text-[11px] text-white/50">
+                  La cohorte actual ya está en curso — anotate y te avisamos apenas se abran cupos.
+                </p>
 
                 <Link
-                  href="/nivel-1"
+                  href="/notificarme?curso=nivel1"
                   onClick={handleCtaClick}
                   className="group mt-6 w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold text-sm rounded-xl transition-all duration-300"
                 >
-                  <span>Ver el curso · $89 USD</span>
+                  <span>Anotarme en la lista de espera</span>
                   <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
                 </Link>
                 <button
