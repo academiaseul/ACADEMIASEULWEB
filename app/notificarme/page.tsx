@@ -6,6 +6,8 @@ import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
+const WHATSAPP_NUMBER = "56942115562";
+
 const cursoLabels: Record<string, { nombre: string; korean: string }> = {
   nivel1:       { nombre: "Nivel 1 · Primeras Palabras", korean: "첫 한국어" },
   intermedio:   { nombre: "Coreano Intermedio",   korean: "중급 한국어" },
@@ -16,6 +18,31 @@ const cursoLabels: Record<string, { nombre: string; korean: string }> = {
   general:      { nombre: "los próximos cursos",  korean: "다음 강의" },
 };
 
+const PAISES = [
+  "Argentina", "Bolivia", "Chile", "Colombia", "Costa Rica", "Cuba",
+  "Ecuador", "El Salvador", "España", "Estados Unidos", "Guatemala",
+  "Honduras", "México", "Nicaragua", "Panamá", "Paraguay", "Perú",
+  "Puerto Rico", "República Dominicana", "Uruguay", "Venezuela", "Otro",
+];
+
+const NIVELES_COREANO = [
+  "Cero, nunca estudié",
+  "Sé leer el alfabeto (한글)",
+  "Nivel A1 básico",
+  "Nivel A2 o intermedio",
+  "Nivel B1 o superior",
+];
+
+const MOTIVOS = [
+  "K-pop / K-dramas",
+  "Viajar a Corea",
+  "Trabajo o negocios",
+  "Pareja o familia coreana",
+  "Cultura coreana en general",
+  "Estudiar en Corea (TOPIK)",
+  "Otro",
+];
+
 function NotificarmeForm() {
   const searchParams = useSearchParams();
   const cursoParam = searchParams.get("curso") || "general";
@@ -24,6 +51,11 @@ function NotificarmeForm() {
   const [formData, setFormData] = useState({
     nombre: "",
     email: "",
+    telefono: "",
+    pais: "",
+    nivelCoreano: "",
+    motivo: "",
+    mensaje: "",
     curso: cursoParam,
   });
   const [submitted, setSubmitted] = useState(false);
@@ -34,8 +66,16 @@ function NotificarmeForm() {
     setFormData((prev) => ({ ...prev, curso: cursoParam }));
   }, [cursoParam]);
 
+  const isValid =
+    !!formData.nombre &&
+    !!formData.email &&
+    !!formData.telefono &&
+    !!formData.pais &&
+    !!formData.nivelCoreano &&
+    !!formData.motivo;
+
   const handleSubmit = async () => {
-    if (!formData.nombre || !formData.email) return;
+    if (!isValid) return;
     setLoading(true);
     setError("");
 
@@ -128,6 +168,82 @@ function NotificarmeForm() {
           />
         </div>
 
+        <div className="grid sm:grid-cols-2 gap-5">
+          <div>
+            <label className="block text-xs uppercase tracking-widest text-white/40 mb-2 font-semibold">
+              Tu teléfono / WhatsApp
+            </label>
+            <input
+              type="tel"
+              value={formData.telefono}
+              onChange={(e) => setFormData({ ...formData, telefono: e.target.value })}
+              placeholder="+56 9 1234 5678"
+              className="w-full px-4 py-4 bg-white/[0.04] border border-white/10 rounded-xl text-seoul-white placeholder:text-white/30 focus:border-seoul-red focus:outline-none transition-colors"
+            />
+          </div>
+
+          <div>
+            <label className="block text-xs uppercase tracking-widest text-white/40 mb-2 font-semibold">
+              Tu país
+            </label>
+            <select
+              value={formData.pais}
+              onChange={(e) => setFormData({ ...formData, pais: e.target.value })}
+              className="w-full px-4 py-4 bg-white/[0.04] border border-white/10 rounded-xl text-seoul-white focus:border-seoul-red focus:outline-none transition-colors"
+            >
+              <option value="" disabled className="bg-seoul-black">Selecciona tu país</option>
+              {PAISES.map((p) => (
+                <option key={p} value={p} className="bg-seoul-black">{p}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label className="block text-xs uppercase tracking-widest text-white/40 mb-2 font-semibold">
+            ¿Cuál es tu nivel de coreano?
+          </label>
+          <select
+            value={formData.nivelCoreano}
+            onChange={(e) => setFormData({ ...formData, nivelCoreano: e.target.value })}
+            className="w-full px-4 py-4 bg-white/[0.04] border border-white/10 rounded-xl text-seoul-white focus:border-seoul-red focus:outline-none transition-colors"
+          >
+            <option value="" disabled className="bg-seoul-black">Selecciona tu nivel</option>
+            {NIVELES_COREANO.map((n) => (
+              <option key={n} value={n} className="bg-seoul-black">{n}</option>
+            ))}
+          </select>
+        </div>
+
+        <div>
+          <label className="block text-xs uppercase tracking-widest text-white/40 mb-2 font-semibold">
+            ¿Por qué quieres aprender coreano?
+          </label>
+          <select
+            value={formData.motivo}
+            onChange={(e) => setFormData({ ...formData, motivo: e.target.value })}
+            className="w-full px-4 py-4 bg-white/[0.04] border border-white/10 rounded-xl text-seoul-white focus:border-seoul-red focus:outline-none transition-colors"
+          >
+            <option value="" disabled className="bg-seoul-black">Selecciona una opción</option>
+            {MOTIVOS.map((m) => (
+              <option key={m} value={m} className="bg-seoul-black">{m}</option>
+            ))}
+          </select>
+        </div>
+
+        <div>
+          <label className="block text-xs uppercase tracking-widest text-white/40 mb-2 font-semibold">
+            Mensaje adicional <span className="normal-case text-white/25">(opcional)</span>
+          </label>
+          <textarea
+            value={formData.mensaje}
+            onChange={(e) => setFormData({ ...formData, mensaje: e.target.value })}
+            placeholder="Cuéntanos algo más, si quieres"
+            rows={4}
+            className="w-full px-4 py-4 bg-white/[0.04] border border-white/10 rounded-xl text-seoul-white placeholder:text-white/30 focus:border-seoul-red focus:outline-none transition-colors resize-none"
+          />
+        </div>
+
         {error && (
           <div className="bg-seoul-red/10 border border-seoul-red/30 rounded-xl p-4 text-seoul-red text-sm">
             {error}
@@ -136,7 +252,7 @@ function NotificarmeForm() {
 
         <button
           onClick={handleSubmit}
-          disabled={loading || !formData.nombre || !formData.email}
+          disabled={loading || !isValid}
           className="w-full px-6 py-4 bg-seoul-red hover:bg-seoul-red-muted disabled:opacity-40 disabled:cursor-not-allowed text-white font-semibold rounded-xl transition-all duration-300"
         >
           {loading ? "Enviando..." : "💌 Apúntame a la lista de espera"}
@@ -145,6 +261,22 @@ function NotificarmeForm() {
         <p className="text-center text-white/40 text-xs">
           Sin spam. Sin cargos. Solo te avisamos cuando lancemos.
         </p>
+      </div>
+
+      <div className="mt-10 pt-10 border-t border-white/10 text-center">
+        <p className="text-white/50 text-sm mb-4">
+          ¿Prefieres hablar directo? Escríbele a Jay por WhatsApp:
+        </p>
+        <a
+          href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
+            `Hola Jay! Quiero más información sobre ${curso.nombre}.`
+          )}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-semibold rounded-full transition-all duration-300 text-sm"
+        >
+          💬 Hablar con Jay por WhatsApp
+        </a>
       </div>
 
       <div className="mt-12 pt-12 border-t border-white/10 text-center">
