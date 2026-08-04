@@ -4,6 +4,7 @@ import About from '@/components/About';
 import VideoIntro from '@/components/VideoIntro';
 import Courses from '@/components/Courses';
 import Benefits from '@/components/Benefits';
+import WordGame from '@/components/WordGame';
 import KoreanCulture from '@/components/KoreanCulture';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
@@ -45,6 +46,8 @@ export default function HomePage() {
           </a>
         </div>
       </section>
+
+      <WordGame />
 
       <Testimonials />
       <KoreanCulture />

@@ -8,6 +8,41 @@ Regla de oro que se repite en casi todas: **si la palabra termina en vocal se us
 
 ---
 
+## 0. ¿Por qué 조사 es tan difícil para un hispanohablante?
+
+Antes de entrar en cada partícula, vale la pena explicar en clase POR QUÉ este es, casi siempre, el punto donde un alumno hispanohablante se traba — no es que sean "torpes", es que el español simplemente no tiene esta herramienta gramatical, así que no hay de dónde tirar intuición.
+
+**1. El español marca el rol de una palabra por su POSICIÓN. El coreano lo marca con una ETIQUETA pegada a la palabra.**
+
+En español, sabemos quién hace la acción y quién la recibe casi siempre por el orden: "Juan ve a María" no es lo mismo que "María ve a Juan" — el orden es el que carga el significado. En coreano, el orden es mucho más libre, porque el trabajo de decir "quién hace qué" no lo hace la posición, lo hace la partícula pegada a cada sustantivo:
+
+- 저는 사과를 먹어요. (Yo como manzana.)
+- 사과를 저는 먹어요. → sigue significando *exactamente* lo mismo — sigue siendo "yo" el que come y "manzana" lo que se come, porque 는 y 를 no se movieron de su palabra.
+
+Esto es lo primero que hay que hacerle notar al alumno: en coreano **la partícula ES el significado gramatical**, no el orden. Por eso no se puede "traducir palabra por palabra" — hay que aprender a leer las etiquetas.
+
+**2. El español no tiene el concepto de "TEMA" separado de "SUJETO" — el coreano sí, y por eso 은/는 vs 이/가 es la duda más común de todo el A1.**
+
+Esta es, en la práctica, la razón número uno por la que este tema es difícil. En español, cuando decimos "Yo soy estudiante" hay una sola manera de marcar el sujeto: ninguna partícula, solo el verbo conjugado. Punto. El coreano, en cambio, distingue dos roles que para nosotros son gramaticalmente invisibles pero que existen todo el tiempo en el pensamiento:
+
+- **Sujeto (이/가):** quién hace o es algo, especialmente cuando es información NUEVA o cuando estás respondiendo "¿quién?".
+- **Tema (은/는):** de qué estamos hablando, especialmente cuando es información YA CONOCIDA, o cuando estás comparando/contrastando.
+
+Como el español fusiona ambos en un solo "sujeto sin marcar", el alumno tiende a pensar que 이/가 y 은/는 son intercambiables, o peor, que una es "la formal" y la otra "la informal" (no lo son). Hay que mostrarles, con ejemplos, que el coreano SÍ distingue algo que su lengua materna nunca les enseñó a distinguir.
+
+**3. El español sí marca ALGUNOS objetos (con "a"), pero no todos — así que el alumno se olvida de marcar 을/를 en los objetos inanimados.**
+
+Acá hay un puente útil: el español no es 100% ajeno a la idea de "marcar el objeto". Decimos "Veo **a** Juan" pero "Veo la casa" (sin "a") — es la llamada *a personal*, y solo se usa con personas. El error típico es que el alumno, acostumbrado a que los objetos inanimados NO llevan marca en español, se olvida de poner 을/를 en coreano cuando el objeto es una cosa (커피, 영화, 밥) y no una persona. Hay que insistir: en coreano, **todo objeto directo se marca**, sea persona o cosa.
+
+**4. Bonus para la clase — el cambio de forma según vocal/consonante no es tan ajeno como parece.**
+
+El español también cambia de forma por sonido, aunque en una escala mucho menor: decimos "el agua" (no "la agua") solo por cómo suena, o "Fernando **e** Isabel" (no "y" Isabel) antes de una palabra que empieza con sonido "i". Se puede usar este puente para que la regla vocal/consonante de las partículas no se sienta tan artificial — el español también acomoda el sonido, solo que mucho menos seguido.
+
+**Recomendación pedagógica para presentarlo en vivo:**
+No introduzcas 이/가 y 은/는 el mismo día si podés evitarlo. Andá primero varias clases usando SOLO 은/는 (como "tema", sin nombrarla como "partícula de sujeto") para que se acostumbren a que toda oración presenta un tema. Recién cuando eso esté asentado, metés 이/가 explícitamente como contraste — "esto marca algo distinto de lo que ya sabés" — y ahí el "truco de clase" de abajo (¿quién? / información nueva → 이/가; hablando de / contraste → 은/는) cae mucho mejor porque ya tienen un ancla previa.
+
+---
+
 ## 1. 이 / 가 — partícula de SUJETO
 
 Marca **quién o qué realiza la acción** o de quién se predica algo. También sirve para **enfatizar** o **introducir información nueva**.
