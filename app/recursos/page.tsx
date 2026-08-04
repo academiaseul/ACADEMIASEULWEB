@@ -35,6 +35,22 @@ const cards = [
       "Escribe tu nombre, míralo en hangul y escúchalo con voz coreana. Descárgalo como imagen para compartir.",
     cta: "Crear mi nombre",
   },
+  {
+    href: "/#juego",
+    korean: "놀이",
+    title: "Torpedo Coreano",
+    desc:
+      "Un juego rápido de vocabulario y gramática de Nivel 1: saludos, partículas, familia y más. Ocho preguntas para poner a prueba lo que ya sabés.",
+    cta: "Jugar ahora",
+  },
+  {
+    href: "/hangul-dle",
+    korean: "매일",
+    title: "Hangul-dle",
+    desc:
+      "Nuestro Wordle coreano: adivina la palabra del día en 6 intentos. Una palabra nueva cada 24 horas, con racha incluida.",
+    cta: "Jugar hoy",
+  },
 ];
 
 export default function RecursosPage() {
@@ -57,7 +73,7 @@ export default function RecursosPage() {
       </section>
 
       {/* Cards */}
-      <section className="max-w-5xl mx-auto px-6 pb-24 grid md:grid-cols-3 gap-6">
+      <section className="max-w-5xl mx-auto px-6 pb-24 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {cards.map((c) => (
           <Link
             key={c.href}
