@@ -176,7 +176,7 @@ export default function HangulDle() {
           </div>
           <h1 className="text-4xl md:text-6xl font-black mb-4">Hangul-dle</h1>
           <p className="text-white/85 text-lg">
-            Adivina la palabra coreana del día en {MAX_GUESSES} intentos. Una palabra nueva cada 24 horas.
+            Adivina la palabra coreana del día en {MAX_GUESSES} intentos, con una pista gratis para arrancar.
           </p>
           {streak.streak > 0 && (
             <p className="mt-4 text-sm font-semibold text-white/70">🔥 Racha actual: {streak.streak} día{streak.streak === 1 ? '' : 's'}</p>
@@ -188,6 +188,20 @@ export default function HangulDle() {
       <section className="px-6 -mt-6">
         <div className="max-w-xl mx-auto">
           <div className="mt-6 rounded-3xl border-2 border-[#3D2EE8] bg-[#F5F3FF] p-6 md:p-10">
+            {/* Pista */}
+            <div className="flex justify-center mb-6">
+              <span className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-amber-50 border border-amber-300 text-amber-800 text-sm font-semibold text-center">
+                💡 Pista: ¿cuál palabra empieza con{' '}
+                <span
+                  className="text-lg font-black"
+                  style={{ fontFamily: "'Noto Sans KR','Malgun Gothic',sans-serif" }}
+                >
+                  {targetSylls[0]}
+                </span>
+                ?
+              </span>
+            </div>
+
             {/* Grid de intentos */}
             <div className="flex flex-col gap-2.5 mb-6">
               {Array.from({ length: MAX_GUESSES }).map((_, rowIdx) => {
@@ -228,6 +242,7 @@ export default function HangulDle() {
                 <div className="flex flex-wrap gap-2 justify-center mb-4">
                   {WORDS.map((w) => {
                     const used = alreadyGuessedWords.has(w.ko);
+                    const matchesHint = Array.from(w.ko)[0] === targetSylls[0];
                     return (
                       <button
                         key={w.ko}
@@ -238,7 +253,9 @@ export default function HangulDle() {
                             ? 'opacity-30 border-gray-200 cursor-not-allowed'
                             : selected === w.ko
                               ? 'border-[#3D2EE8] bg-[#3D2EE8] text-white'
-                              : 'border-gray-200 hover:border-[#3D2EE8]/50 text-seoul-black'
+                              : matchesHint
+                                ? 'border-amber-300 bg-amber-50 hover:border-[#3D2EE8]/50 text-seoul-black'
+                                : 'border-gray-200 hover:border-[#3D2EE8]/50 text-seoul-black'
                         }`}
                         style={{ fontFamily: "'Noto Sans KR','Malgun Gothic',sans-serif" }}
                       >
