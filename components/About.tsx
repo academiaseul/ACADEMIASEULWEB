@@ -101,9 +101,9 @@ export default function About() {
               transition={{ duration: 0.5, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
               className="absolute -bottom-6 -right-6 bg-seoul-red text-white rounded-xl px-6 py-4 shadow-xl shadow-seoul-red/30"
             >
-              <div className="text-3xl font-black leading-none">Nº1</div>
+              <div className="text-3xl font-black leading-none">8+</div>
               <div className="text-xs font-medium opacity-80 mt-1">
-                Academia de coreano<br />en Santiago
+                años enseñando coreano<br />a hispanohablantes
               </div>
             </motion.div>
           </motion.div>
@@ -120,9 +120,10 @@ export default function About() {
               un idioma es una de las experiencias más transformadoras de la vida.
             </p>
             <p className="text-base text-seoul-black/60 leading-relaxed">
-              Somos la academia de coreano más completa de Santiago, con profesores
-              nativos formados en Seúl, materiales de última generación y una metodología
-              que combina conversación real, cultura contemporánea y preparación académica.
+              Una nueva forma de aprender coreano desde Latinoamérica: profesores
+              nativos formados en Seúl, materiales creados para hispanohablantes y una
+              metodología que combina conversación real, cultura contemporánea y
+              preparación académica.
             </p>
             <p className="text-base text-seoul-black/60 leading-relaxed">
               Aquí no solo aprendes un idioma — descubres una cultura entera: K-dramas,
@@ -133,7 +134,7 @@ export default function About() {
             <ul className="space-y-3 pt-4">
               {[
                 'Profesores nativos certificados de Seúl',
-                'Grupos reducidos: máximo 8 estudiantes',
+                'Grupos reducidos: máximo 15 estudiantes',
                 'Metodología comunicativa + cultural',
                 'Preparación oficial para el examen TOPIK',
               ].map((item) => (

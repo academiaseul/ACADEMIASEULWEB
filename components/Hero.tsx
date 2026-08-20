@@ -59,8 +59,8 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 0.9 }}
           className="text-5xl font-black leading-[0.95] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl"
         >
-          <span className="block text-seoul-white">Aprende Coreano.</span>
-          <span className="block text-seoul-red">Con un chingu.</span>
+          <span className="block text-seoul-white">Aprende coreano.</span>
+          <span className="block text-seoul-red">Entra en Corea.</span>
         </motion.h1>
 
         {/* Divider */}
@@ -88,8 +88,9 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.8 }}
           className="mt-4 max-w-xl text-base leading-relaxed text-white"
         >
-          Aprende a leer <span className="font-korean text-white">한글</span> desde tu primera semana.
-          Clases en vivo con profesor nativo y grupos pequeños — para toda LATAM y España.
+          Clases de coreano en vivo, diseñadas para hispanohablantes. Aprende a leer{' '}
+          <span className="font-korean text-white">한글</span> desde cero, habla desde tus
+          primeras clases y entiende la cultura detrás del idioma — con un profesor nativo de Seúl.
         </motion.p>
 
         {/* CTA Buttons — real anchor tags with real click targets */}
@@ -120,12 +121,13 @@ export default function Hero() {
           transition={{ delay: 2.2, duration: 0.8 }}
           className="mt-5 text-sm text-white/85"
         >
-          o{' '}
+          ¿Partes desde cero? Sí — incluso si nunca has visto{' '}
+          <span className="font-korean">한글</span>.{' '}
           <a
             href="/recursos/guias"
             className="text-white font-medium underline underline-offset-4 decoration-white/50 transition-colors hover:text-seoul-red"
           >
-            descarga la guía del alfabeto gratis
+            Empieza con la guía del alfabeto gratis
           </a>
         </motion.p>
 

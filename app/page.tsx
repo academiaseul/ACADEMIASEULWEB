@@ -4,6 +4,7 @@ import About from '@/components/About';
 import VideoIntro from '@/components/VideoIntro';
 import Courses from '@/components/Courses';
 import Benefits from '@/components/Benefits';
+import MetodoChingu from '@/components/MetodoChingu';
 import WordGame from '@/components/WordGame';
 import KoreanCulture from '@/components/KoreanCulture';
 import Testimonials from '@/components/Testimonials';
@@ -22,6 +23,7 @@ export default function HomePage() {
       <About />
       <VideoIntro />
       <Courses />
+      <MetodoChingu />
       <Benefits />
 
       {/* Mini-banner recurso gratis → Recursos */}

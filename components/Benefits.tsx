@@ -16,8 +16,8 @@ const benefits = [
   },
   {
     icon: Users,
-    title: 'Grupos ultra-reducidos',
-    desc: 'Máximo 8 estudiantes por clase. Más tiempo de práctica oral, más feedback personalizado y un ambiente donde realmente puedes equivocarte y aprender.',
+    title: 'Grupos reducidos',
+    desc: 'Máximo 15 estudiantes por clase. Más tiempo de práctica oral, más feedback personalizado y un ambiente donde realmente puedes equivocarte y aprender.',
     color: '#003478',
   },
   {
@@ -87,8 +87,8 @@ export default function Benefits() {
             para <em className="not-italic text-gradient-red">hablar coreano</em>
           </h2>
           <p className="mt-6 text-base text-seoul-black/55 max-w-xl mx-auto leading-relaxed">
-            No somos una academia más. Somos el sistema completo de inmersión
-            coreana más efectivo de Chile.
+            No somos una academia más. Una nueva forma de aprender coreano
+            desde Latinoamérica, diseñada para hispanohablantes.
           </p>
         </motion.div>
 
