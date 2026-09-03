@@ -45,6 +45,20 @@ const WORDS: Item[] = [
   { ko: '김치', rom: 'kim-chi', say: '김치', gloss: 'kimchi' },
 ];
 
+// Composición de bloques silábicos (Unicode hangul) para el modo combinación
+const CHO = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ'];
+const JUNG = ['ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅘ', 'ㅙ', 'ㅚ', 'ㅛ', 'ㅜ', 'ㅝ', 'ㅞ', 'ㅟ', 'ㅠ', 'ㅡ', 'ㅢ', 'ㅣ'];
+const CHO_R: Record<string, string> = {
+  'ㄱ': 'g', 'ㄴ': 'n', 'ㄷ': 'd', 'ㄹ': 'r', 'ㅁ': 'm', 'ㅂ': 'b', 'ㅅ': 's',
+  'ㅇ': '', 'ㅈ': 'j', 'ㅊ': 'ch', 'ㅋ': 'k', 'ㅌ': 't', 'ㅍ': 'p', 'ㅎ': 'h',
+};
+const composeSyl = (c: string, v: string) => {
+  const ci = CHO.indexOf(c);
+  const vi = JUNG.indexOf(v);
+  if (ci < 0 || vi < 0) return '';
+  return String.fromCharCode(0xac00 + (ci * 21 + vi) * 28);
+};
+
 // Clips pregrabados con voz neural coreana en /public/audio/kr, nombrados por el
 // hex UTF-8 del texto. speechSynthesis queda solo como respaldo si falta un clip.
 const hexOf = (t: string) =>
@@ -54,6 +68,8 @@ const hexOf = (t: string) =>
 
 export default function HangulBoard() {
   const [active, setActive] = useState<string | null>(null);
+  const [selCons, setSelCons] = useState<string | null>(null);
+  const [selVowel, setSelVowel] = useState<string | null>(null);
   const [supported, setSupported] = useState(true);
   const voiceRef = useRef<SpeechSynthesisVoice | null>(null);
   const audioRef = useRef<Record<string, HTMLAudioElement>>({});
@@ -75,42 +91,79 @@ export default function HangulBoard() {
     };
   }, []);
 
-  const ttsSpeak = (item: Item) => {
+  const ttsSpeak = (text: string) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       setSupported(false);
       return;
     }
     window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(item.say);
+    const u = new SpeechSynthesisUtterance(text);
     u.lang = 'ko-KR';
     u.rate = 0.8;
     if (voiceRef.current) u.voice = voiceRef.current;
     window.speechSynthesis.speak(u);
   };
 
-  const speak = (item: Item) => {
-    setActive(item.ko);
-    window.setTimeout(() => setActive((cur) => (cur === item.ko ? null : cur)), 600);
+  const play = (text: string) => {
+    if (!text) return;
     currentRef.current?.pause();
-    let a = audioRef.current[item.say];
+    let a = audioRef.current[text];
     if (!a) {
-      a = new Audio(`/audio/kr/${hexOf(item.say)}.mp3`);
-      audioRef.current[item.say] = a;
+      a = new Audio(`/audio/kr/${hexOf(text)}.mp3`);
+      audioRef.current[text] = a;
     }
     currentRef.current = a;
     a.currentTime = 0;
-    a.play().catch(() => {
-      delete audioRef.current[item.say];
-      ttsSpeak(item);
+    a.play().catch((err) => {
+      if (err && err.name === 'NotAllowedError') return; // autoplay bloqueado, no es un clip roto
+      delete audioRef.current[text];
+      ttsSpeak(text);
     });
   };
 
-  const Tile = ({ item, big = false }: { item: Item; big?: boolean }) => {
-    const isOn = active === item.ko;
+  const flash = (ko: string) => {
+    setActive(ko);
+    window.setTimeout(() => setActive((cur) => (cur === ko ? null : cur)), 600);
+  };
+
+  const clickCons = (item: Item) => {
+    setSelCons(item.ko);
+    flash(item.ko);
+    play(selVowel ? composeSyl(item.ko, selVowel) : item.say);
+  };
+
+  const clickVowel = (item: Item) => {
+    setSelVowel(item.ko);
+    flash(item.ko);
+    play(composeSyl(selCons ?? 'ㅇ', item.ko));
+  };
+
+  const clickWord = (item: Item) => {
+    flash(item.ko);
+    play(item.say);
+  };
+
+  const comboSyl = selVowel ? composeSyl(selCons ?? 'ㅇ', selVowel) : null;
+  const comboRom = selVowel
+    ? (selCons ? CHO_R[selCons] : '') + (VOWELS.find((v) => v.ko === selVowel)?.rom ?? '')
+    : null;
+
+  const Tile = ({
+    item,
+    big = false,
+    selected = false,
+    onTap,
+  }: {
+    item: Item;
+    big?: boolean;
+    selected?: boolean;
+    onTap: (item: Item) => void;
+  }) => {
+    const isOn = active === item.ko || selected;
     return (
       <button
         type="button"
-        onClick={() => speak(item)}
+        onClick={() => onTap(item)}
         aria-label={`Escuchar ${item.ko}`}
         className={`flex flex-col items-center justify-center rounded-lg border-2 transition-all select-none ${
           big ? 'py-4 px-2' : 'py-3 px-1'
@@ -148,16 +201,58 @@ export default function HangulBoard() {
       <h3 className="text-2xl md:text-3xl font-black text-seoul-black mt-3 mb-1">
         Tablero de pronunciación
       </h3>
-      <p className="text-gray-600 text-sm mb-6">
-        Haz clic en cada letra para escuchar su sonido en coreano. Las consonantes
-        suenan con la vocal{' '}
-        <span style={{ fontFamily: "'Noto Sans KR', sans-serif" }}>ㅏ</span> (a).
+      <p className="text-gray-600 text-sm mb-5">
+        Toca una consonante y luego una vocal: escucharás la{' '}
+        <span className="font-bold text-seoul-black">sílaba combinada</span> (
+        <span style={{ fontFamily: "'Noto Sans KR', sans-serif" }}>ㄱ + ㅏ = 가</span>). Una vocal
+        sola suena con <span style={{ fontFamily: "'Noto Sans KR', sans-serif" }}>ㅇ</span> mudo.
       </p>
+
+      {/* Combinador de sílabas */}
+      <div className="border-2 border-seoul-black bg-[#1A1A2E] shadow-[5px_5px_0_#3D2EE8] px-5 py-4 mb-7 flex items-center gap-x-4 gap-y-2 flex-wrap min-h-[76px]">
+        {comboSyl ? (
+          <>
+            <span
+              className="text-4xl font-black text-white leading-none"
+              style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
+            >
+              {comboSyl}
+            </span>
+            <span
+              className="text-[#9D96F2] font-bold text-sm"
+              style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
+            >
+              {selCons ?? 'ㅇ'} + {selVowel} = {comboSyl}
+            </span>
+            <span className="text-white font-bold text-sm">· {comboRom}</span>
+            <button
+              type="button"
+              onClick={() => play(comboSyl)}
+              className="ml-auto bg-seoul-red text-white font-bold text-sm px-3 py-1.5 rounded hover:opacity-90"
+            >
+              🔊 Repetir
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                setSelCons(null);
+                setSelVowel(null);
+              }}
+              className="text-[#9D96F2] font-bold text-sm underline"
+            >
+              borrar
+            </button>
+          </>
+        ) : (
+          <span className="text-[#9D96F2] font-bold text-sm">
+            👆 Tu sílaba aparecerá aquí: elige una consonante y una vocal
+          </span>
+        )}
+      </div>
 
       {!supported && (
         <p className="text-sm text-seoul-red font-semibold mb-5">
-          Tu navegador no soporta el audio de voz. Prueba en Chrome o Edge para
-          escuchar la pronunciación.
+          Tu navegador no pudo reproducir el audio. Prueba en Chrome, Edge o Safari.
         </p>
       )}
 
@@ -166,7 +261,7 @@ export default function HangulBoard() {
       </p>
       <div className="grid grid-cols-7 gap-2 mb-7">
         {CONSONANTS.map((it) => (
-          <Tile key={it.ko} item={it} />
+          <Tile key={it.ko} item={it} selected={selCons === it.ko} onTap={clickCons} />
         ))}
       </div>
 
@@ -175,7 +270,7 @@ export default function HangulBoard() {
       </p>
       <div className="grid grid-cols-5 gap-2 mb-7">
         {VOWELS.map((it) => (
-          <Tile key={it.ko} item={it} />
+          <Tile key={it.ko} item={it} selected={selVowel === it.ko} onTap={clickVowel} />
         ))}
       </div>
 
@@ -184,7 +279,7 @@ export default function HangulBoard() {
       </p>
       <div className="grid grid-cols-4 gap-2">
         {WORDS.map((it) => (
-          <Tile key={it.ko} item={it} big />
+          <Tile key={it.ko} item={it} big onTap={clickWord} />
         ))}
       </div>
     </div>

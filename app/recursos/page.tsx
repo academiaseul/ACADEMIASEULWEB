@@ -6,11 +6,20 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Recursos gratis para aprender coreano | Academia Seúl",
   description:
-    "Recursos gratuitos de Academia Seúl: guías descargables (Alfabeto y Pronunciación), tablero de pronunciación interactivo y tu nombre en coreano con audio.",
+    "Recursos gratuitos de Academia Seúl: Lector de Hangul interactivo, guías descargables (Alfabeto y Pronunciación), tablero de pronunciación y tu nombre en coreano con audio.",
   alternates: { canonical: "https://www.academiaseul.com/recursos" },
 };
 
 const cards = [
+  {
+    href: "/lector-hangul",
+    korean: "한글",
+    title: "Lector de Hangul",
+    desc:
+      "Aprende a leer el alfabeto coreano con la lógica del 훈민정음: lecciones interactivas, constructor de sílabas y práctica con audio de voz nativa que cambia en cada ronda.",
+    cta: "Aprender a leer",
+    external: true,
+  },
   {
     href: "/recursos/guias",
     korean: "가이드",
@@ -74,25 +83,34 @@ export default function RecursosPage() {
 
       {/* Cards */}
       <section className="max-w-5xl mx-auto px-6 pb-24 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {cards.map((c) => (
-          <Link
-            key={c.href}
-            href={c.href}
-            className="group flex flex-col border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] hover:shadow-[10px_10px_0_#3D2EE8] hover:border-seoul-red hover:-translate-x-1 hover:-translate-y-1 transition-all p-7"
-          >
-            <span
-              className="text-5xl font-black text-seoul-red leading-none mb-4"
-              style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
-            >
-              {c.korean}
-            </span>
-            <h2 className="text-2xl font-black text-seoul-black mb-3 group-hover:text-seoul-red transition-colors">
-              {c.title}
-            </h2>
-            <p className="text-gray-600 leading-relaxed text-sm flex-1">{c.desc}</p>
-            <span className="mt-5 text-seoul-red font-bold text-sm">{c.cta} →</span>
-          </Link>
-        ))}
+        {cards.map((c) => {
+          const cardClass =
+            "group flex flex-col border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] hover:shadow-[10px_10px_0_#3D2EE8] hover:border-seoul-red hover:-translate-x-1 hover:-translate-y-1 transition-all p-7";
+          const inner = (
+            <>
+              <span
+                className="text-5xl font-black text-seoul-red leading-none mb-4"
+                style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
+              >
+                {c.korean}
+              </span>
+              <h2 className="text-2xl font-black text-seoul-black mb-3 group-hover:text-seoul-red transition-colors">
+                {c.title}
+              </h2>
+              <p className="text-gray-600 leading-relaxed text-sm flex-1">{c.desc}</p>
+              <span className="mt-5 text-seoul-red font-bold text-sm">{c.cta} →</span>
+            </>
+          );
+          return "external" in c && c.external ? (
+            <a key={c.href} href={c.href} className={cardClass}>
+              {inner}
+            </a>
+          ) : (
+            <Link key={c.href} href={c.href} className={cardClass}>
+              {inner}
+            </Link>
+          );
+        })}
       </section>
 
       <Footer />

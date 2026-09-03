@@ -370,7 +370,7 @@
 
   <details class="card lesson">
     <summary><span class="lnum">5</span> Arma bloques, no letras sueltas <span class="chev">›</span></summary>
-    <p>El coreano no escribe letras en fila: las <b>apila en bloques</b>. Cada bloque = una sílaba. Arma la tuya:</p>
+    <p>El coreano no escribe letras en fila: las <b>apila en bloques</b>. Cada bloque = una sílaba. Arma la tuya — <b>cada pieza que toques suena combinada</b>:</p>
     <div class="picklbl">1 · Consonante inicial</div>
     <div class="pick" id="pickCho"></div>
     <div class="picklbl">2 · Vocal</div>
@@ -506,7 +506,10 @@ function speak(t){
       currentAudio = a;
       a.currentTime = 0;
       const p = a.play();
-      if (p && p.catch) p.catch(()=>{ audioMissing[t] = 1; delete audioCache[t]; ttsSpeak(t); });
+      if (p && p.catch) p.catch((err)=>{
+        if (err && err.name === "NotAllowedError") return; // autoplay bloqueado: no es un clip roto
+        audioMissing[t] = 1; delete audioCache[t]; ttsSpeak(t);
+      });
       return;
     }catch(e){}
   }
@@ -745,9 +748,9 @@ function renderPick(id, list, sel, cb){
   });
 }
 function renderSyl(){
-  renderPick("pickCho", BUILD_CHO, sCho, j=>{sCho=j;renderSyl();});
-  renderPick("pickJung", BUILD_JUNG, sJung, j=>{sJung=j;renderSyl();});
-  renderPick("pickJong", BUILD_JONG, sJong, j=>{sJong=j;renderSyl();});
+  renderPick("pickCho", BUILD_CHO, sCho, j=>{sCho=j;renderSyl();speakSyl();});
+  renderPick("pickJung", BUILD_JUNG, sJung, j=>{sJung=j;renderSyl();speakSyl();});
+  renderPick("pickJong", BUILD_JONG, sJong, j=>{sJong=j;renderSyl();speakSyl();});
   const syl = compose(sCho, sJung, sJong);
   document.getElementById("sylOut").textContent = syl;
   document.getElementById("sylRom").textContent = romSyl(sCho, sJung, sJong) || "—";
