@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lector de Hangul · Academia Seúl</title>
+<meta name="description" content="Aprende a leer el alfabeto coreano con la lógica del 훈민정음: lecciones interactivas, constructor de sílabas y práctica de lectura con audio nativo. Gratis, de Academia Seúl.">
+<link rel="canonical" href="https://www.academiaseul.com/lector-hangul/">
+<link rel="icon" href="/logo-tiger-red.png">
+<meta property="og:title" content="Lector de Hangul · Academia Seúl">
+<meta property="og:description" content="Aprende a leer coreano con la lógica del 훈민정음 — gratis.">
+<meta property="og:image" content="https://www.academiaseul.com/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+  :root{
+    --paper:#F6F1E7;
+    --card:#FCF9F2;
+    --card-2:#F0EADB;
+    --ink:#221F19;
+    --muted:#6E6759;
+    --line:#E0D8C6;
+    --red:#C8001E;
+    --red-soft:rgba(200,0,30,.08);
+    --blue:#003478;
+    --blue-soft:rgba(0,52,120,.08);
+    --gold:#8F6F1F;
+    --gold-line:#D4AF37;
+    --ok:#2F7D46;
+    --ok-soft:rgba(47,125,70,.12);
+    --bad:#B3261E;
+    --bad-soft:rgba(179,38,30,.10);
+    --shadow:0 1px 3px rgba(40,32,12,.08);
+    --onred:#FFFFFF;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#16151A;
+      --card:#1F1E25;
+      --card-2:#26242E;
+      --ink:#ECE6D9;
+      --muted:#A39C8D;
+      --line:#35323C;
+      --red:#FF5A66;
+      --red-soft:rgba(255,90,102,.12);
+      --blue:#7FA8DE;
+      --blue-soft:rgba(127,168,222,.13);
+      --gold:#D9B84A;
+      --gold-line:#B89334;
+      --ok:#58B47C;
+      --ok-soft:rgba(88,180,124,.16);
+      --bad:#FF7B72;
+      --bad-soft:rgba(255,123,114,.14);
+      --shadow:none;
+      --onred:#1A1213;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#16151A;
+    --card:#1F1E25;
+    --card-2:#26242E;
+    --ink:#ECE6D9;
+    --muted:#A39C8D;
+    --line:#35323C;
+    --red:#FF5A66;
+    --red-soft:rgba(255,90,102,.12);
+    --blue:#7FA8DE;
+    --blue-soft:rgba(127,168,222,.13);
+    --gold:#D9B84A;
+    --gold-line:#B89334;
+    --ok:#58B47C;
+    --ok-soft:rgba(88,180,124,.16);
+    --bad:#FF7B72;
+    --bad-soft:rgba(255,123,114,.14);
+    --shadow:none;
+    --onred:#1A1213;
+  }
+
+  *{box-sizing:border-box}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Source Sans 3","Noto Sans KR",-apple-system,"Segoe UI",sans-serif;
+    font-size:16px;line-height:1.55;margin:0;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .kr{font-family:"Noto Sans KR","Source Sans 3",sans-serif}
+  .app{max-width:760px;margin:0 auto;padding:0 14px 90px}
+
+  /* header */
+  header.top{
+    padding:22px 2px 10px;
+    display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+  }
+  .brand{font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+  h1{
+    font-family:"Gowun Batang","Noto Sans KR",serif;
+    font-size:1.6rem;margin:0;line-height:1.2;
+  }
+  .seeds{color:var(--muted);font-size:.95rem}
+  .seeds b{color:var(--red)} .seeds i{color:var(--blue);font-style:normal}
+
+  /* tabs */
+  nav.tabs{
+    display:flex;gap:6px;margin:10px 0 18px;
+    border:1px solid var(--line);border-radius:12px;background:var(--card);
+    padding:5px;box-shadow:var(--shadow);
+    position:sticky;top:8px;z-index:5;
+  }
+  nav.tabs button{
+    flex:1;border:0;background:transparent;color:var(--muted);
+    font:inherit;font-weight:700;font-size:.95rem;
+    padding:10px 4px;border-radius:9px;cursor:pointer;
+  }
+  nav.tabs button[aria-selected="true"]{background:var(--red);color:var(--onred)}
+  nav.tabs button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+
+  /* cards / lessons */
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px 16px 14px;margin:0 0 14px;box-shadow:var(--shadow);
+  }
+  .lesson>summary{
+    list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;
+    font-weight:700;font-size:1.05rem;
+  }
+  .lesson>summary::-webkit-details-marker{display:none}
+  .lesson>summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:8px}
+  .lesson[open]>summary{margin-bottom:10px}
+  .lnum{
+    flex:none;width:34px;height:34px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    background:var(--red-soft);color:var(--red);font-weight:700;
+  }
+  .lesson .chev{margin-left:auto;color:var(--muted);transition:transform .15s}
+  .lesson[open] .chev{transform:rotate(90deg)}
+  .card h3{font-size:.98rem;margin:16px 0 8px;color:var(--gold)}
+  .card p{margin:8px 0;max-width:64ch}
+  .tip{
+    background:var(--blue-soft);border-left:3px solid var(--blue);
+    padding:8px 12px;border-radius:0 8px 8px 0;font-size:.95rem;margin:10px 0;
+  }
+  .quote{
+    font-family:"Gowun Batang",serif;font-size:1rem;color:var(--muted);
+    border-left:3px solid var(--gold-line);padding:4px 12px;margin:10px 0;
+  }
+
+  /* big glyphs */
+  .glyph{
+    font-family:"Noto Sans KR",sans-serif;font-weight:700;line-height:1;
+  }
+  .g-xl{font-size:5rem} .g-lg{font-size:3rem} .g-md{font-size:2rem}
+
+  /* generic buttons */
+  .btn{
+    font:inherit;font-weight:700;border-radius:11px;cursor:pointer;
+    border:1.5px solid var(--line);background:var(--card);color:var(--ink);
+    padding:10px 16px;
+  }
+  .btn:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .btn.primary{background:var(--red);border-color:var(--red);color:var(--onred)}
+  .btn.ghost{background:transparent}
+  .btn.small{padding:6px 12px;font-size:.9rem}
+  .btn:active{transform:translateY(1px)}
+  .sound{
+    border:1.5px solid var(--line);background:var(--card-2);border-radius:50%;
+    width:44px;height:44px;font-size:1.15rem;cursor:pointer;flex:none;
+  }
+  .sound:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+
+  /* chips */
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+  .chip{
+    font:inherit;font-weight:700;font-size:.92rem;
+    border:1.5px solid var(--line);background:var(--card);color:var(--ink);
+    border-radius:999px;padding:8px 14px;cursor:pointer;
+  }
+  .chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--paper)}
+  .chip:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+
+  /* vowel builder */
+  .stage{
+    background:var(--card-2);border:1px dashed var(--line);border-radius:12px;
+    min-height:120px;display:flex;align-items:center;justify-content:center;gap:18px;
+    padding:14px;margin:10px 0;flex-wrap:wrap;text-align:center;
+  }
+  .yang{color:var(--red)} .yin{color:var(--blue)}
+  .badge{
+    display:inline-block;font-size:.78rem;font-weight:700;border-radius:999px;
+    padding:2px 10px;
+  }
+  .badge.yang{background:var(--red-soft);color:var(--red)}
+  .badge.yin{background:var(--blue-soft);color:var(--blue)}
+  .badge.neutral{background:var(--card);border:1px solid var(--line);color:var(--muted)}
+  .eq{font-size:1.4rem;color:var(--muted)}
+
+  /* organ cards */
+  .organs{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+  .organ{
+    border:1px solid var(--line);border-radius:12px;background:var(--card-2);
+    padding:12px;display:flex;gap:12px;align-items:center;
+  }
+  .organ svg{flex:none}
+  .organ .glyph{font-size:2.1rem;color:var(--red)}
+  .organ p{margin:2px 0 0;font-size:.88rem;color:var(--muted);line-height:1.35}
+  .organ b{font-size:.95rem;color:var(--ink)}
+
+  /* families */
+  .fam{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0;padding:8px 10px;border:1px solid var(--line);border-radius:12px;background:var(--card-2)}
+  .fam .glyph{font-size:1.8rem}
+  .fam .plus{color:var(--muted);font-weight:700}
+  .fam .lbl{margin-left:auto;font-size:.85rem;color:var(--muted)}
+  .fam button.jamo{
+    font-family:"Noto Sans KR";font-weight:700;font-size:1.7rem;line-height:1;
+    border:1.5px solid var(--line);border-radius:10px;background:var(--card);
+    color:var(--ink);padding:8px 12px;cursor:pointer;
+  }
+  .fam button.jamo:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+
+  /* syllable builder */
+  .pick{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 12px}
+  .pick button{
+    font-family:"Noto Sans KR";font-size:1.25rem;font-weight:500;line-height:1;
+    width:44px;height:44px;border-radius:10px;border:1.5px solid var(--line);
+    background:var(--card);color:var(--ink);cursor:pointer;
+  }
+  .pick button[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:var(--onred)}
+  .pick button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .picklbl{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:10px 0 2px}
+
+  /* map chart */
+  .grid-jamo{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+  .grid-jamo button{
+    font-family:"Noto Sans KR";font-size:1.3rem;font-weight:500;
+    min-width:46px;height:46px;border-radius:10px;border:1.5px solid var(--line);
+    background:var(--card-2);color:var(--ink);cursor:pointer;padding:0 8px;
+  }
+  .grid-jamo button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .maprow{margin:8px 0 2px;font-weight:700;font-size:.88rem;color:var(--gold)}
+  #mapDetail{min-height:52px;display:flex;align-items:center;gap:12px;margin-top:10px;
+    background:var(--card-2);border:1px solid var(--line);border-radius:12px;padding:8px 12px}
+  #mapDetail .glyph{font-size:2rem;color:var(--red)}
+
+  /* batchim table */
+  .btable{width:100%;border-collapse:collapse;font-size:.95rem}
+  .btable th{background:var(--blue);color:var(--paper);text-align:left;padding:7px 10px;font-size:.85rem}
+  .btable td{border-bottom:1px solid var(--line);padding:7px 10px;vertical-align:middle}
+  .btable td.kr{font-size:1.15rem}
+  .twrap{overflow-x:auto}
+
+  /* drill */
+  .hud{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:10px;font-size:.95rem}
+  .hud .stat b{font-variant-numeric:tabular-nums}
+  .hud .streak{color:var(--gold);font-weight:700}
+  .bar{flex:1 1 120px;height:8px;border-radius:4px;background:var(--card-2);overflow:hidden;min-width:100px}
+  .bar div{height:100%;background:var(--red);width:0%}
+  .prompt{
+    display:flex;align-items:center;justify-content:center;gap:16px;
+    min-height:150px;background:var(--card-2);border:1px solid var(--line);
+    border-radius:14px;margin-bottom:12px;padding:10px;text-align:center;
+  }
+  .prompt .glyph{font-size:clamp(3.4rem,16vw,5.2rem)}
+  .answers{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .answers button{
+    font:inherit;font-weight:700;font-size:1.15rem;
+    padding:16px 8px;border-radius:12px;border:1.5px solid var(--line);
+    background:var(--card);color:var(--ink);cursor:pointer;
+  }
+  .answers button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .answers button.good{background:var(--ok-soft);border-color:var(--ok);color:var(--ok)}
+  .answers button.badpick{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+  .answers button:disabled{cursor:default;opacity:.85}
+  .feedback{min-height:26px;margin-top:10px;font-weight:700}
+  .feedback.ok{color:var(--ok)} .feedback.bad{color:var(--bad)}
+  .roundend{text-align:center;padding:10px 0 4px}
+  .roundend .stars{font-size:2.2rem;letter-spacing:.15em;color:var(--gold)}
+  .subtle{color:var(--muted);font-size:.9rem}
+  .setrow{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
+
+  /* progress */
+  .prow{display:flex;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line)}
+  .prow:last-child{border-bottom:0}
+  .prow .name{font-weight:700}
+  .prow .stars{margin-left:auto;color:var(--gold);letter-spacing:.12em;font-size:1.05rem}
+  .bigstats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:10px 0}
+  .bigstats .bs{background:var(--card-2);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center}
+  .bigstats .bs b{display:block;font-size:1.6rem;font-variant-numeric:tabular-nums;color:var(--red)}
+  .bigstats .bs span{font-size:.82rem;color:var(--muted)}
+
+  footer{color:var(--muted);font-size:.82rem;text-align:center;padding:26px 8px 10px}
+
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none !important;animation:none !important}
+  }
+  @media (max-width:420px){
+    .g-xl{font-size:4rem}
+    nav.tabs button{font-size:.88rem}
+  }
+</style>
+</head>
+<body>
+
+
+<div class="app">
+<header class="top">
+  <div>
+    <div class="brand">Academia Seúl · Método Chingu</div>
+    <h1>Lector de Hangul <span class="kr">한글</span></h1>
+    <div class="seeds kr"><b>ㆍ</b> cielo · <span>ㅡ</span> tierra · <i>ㅣ</i> humano — la lógica del 훈민정음</div>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Secciones">
+  <button role="tab" id="tab-learn" aria-selected="true" onclick="showTab('learn')">Aprender</button>
+  <button role="tab" id="tab-drill" aria-selected="false" onclick="showTab('drill')">Practicar</button>
+  <button role="tab" id="tab-prog" aria-selected="false" onclick="showTab('prog')">Progreso</button>
+</nav>
+
+<!-- ============ APRENDER ============ -->
+<section id="panel-learn" role="tabpanel" aria-labelledby="tab-learn">
+
+  <details class="card lesson" open>
+    <summary><span class="lnum">1</span> La idea genial de Sejong <span class="chev">›</span></summary>
+    <p>En 1443, el rey Sejong creó un alfabeto para que <b>cualquier persona</b> pudiera leer. Su manual, el <span class="kr">훈민정음</span>, lo explica con una promesa:</p>
+    <p class="quote">«Una persona sabia lo aprende en una mañana; incluso quien no lo es, en diez días.»</p>
+    <p>El truco: <b>no memorices dibujos, entiende el sistema.</b> Cada letra está diseñada con una de dos lógicas:</p>
+    <p>🗣️ <b>Consonantes</b> = un retrato de tu boca haciendo el sonido.<br>
+    ☯️ <b>Vocales</b> = combinaciones de tres símbolos del universo: <span class="kr yang">ㆍ</span> cielo, <span class="kr">ㅡ</span> tierra, <span class="kr yin">ㅣ</span> ser humano.</p>
+    <div class="tip">En este taller vas a <b>descubrir</b> cada letra desde su lógica y luego <b>entrenar lectura</b> hasta que salga automática. 화이팅!</div>
+  </details>
+
+  <details class="card lesson">
+    <summary><span class="lnum">2</span> Vocales: cielo, tierra y humano <span class="chev">›</span></summary>
+    <p>Toma una línea base y ponle el punto del cielo <span class="kr yang">ㆍ</span>. La posición del punto crea la vocal:</p>
+    <div class="picklbl">Elige la línea base</div>
+    <div class="chips">
+      <button class="chip kr" id="vbase-i" aria-pressed="true" onclick="vSetBase('i')">ㅣ humano</button>
+      <button class="chip kr" id="vbase-eu" aria-pressed="false" onclick="vSetBase('eu')">ㅡ tierra</button>
+    </div>
+    <div class="picklbl">¿Dónde va el punto?</div>
+    <div class="chips" id="vdots"></div>
+    <div class="stage" id="vstage"></div>
+    <div class="tip"><b>☀ Yang</b> (punto hacia afuera/arriba: <span class="kr yang">ㅏ ㅗ</span>) = vocales «luminosas». <b>☾ Yin</b> (punto hacia adentro/abajo: <span class="kr yin">ㅓ ㅜ</span>) = vocales «oscuras». <b>Dos puntos = añade el sonido “y”</b>: <span class="kr">ㅑ ㅕ ㅛ ㅠ</span>.</p></div>
+    <p>Y solas, las líneas también son vocales: <span class="kr">ㅡ</span> = <i>eu</i> (sonríe y di «u») · <span class="kr">ㅣ</span> = <i>i</i>. Las compuestas <span class="kr">ㅐ ㅔ</span> hoy suenan igual: <i>e</i>.</p>
+    <p style="text-align:center"><button class="btn primary" onclick="startDrill('voc')">Practicar vocales →</button></p>
+  </details>
+
+  <details class="card lesson">
+    <summary><span class="lnum">3</span> Consonantes: 5 retratos de tu boca <span class="chev">›</span></summary>
+    <p>Las 5 consonantes «madre» dibujan el órgano que produce el sonido. Toca 🔊 y siente tu boca:</p>
+    <div class="organs" id="organs"></div>
+    <p style="margin-top:12px;text-align:center"><button class="btn primary" onclick="startDrill('con')">Practicar consonantes →</button></p>
+  </details>
+
+  <details class="card lesson">
+    <summary><span class="lnum">4</span> Suma un trazo, suma fuerza <span class="chev">›</span></summary>
+    <p>De cada madre nacen hijas: <b>un trazo más = más aire</b> (aspirada). <b>Letra doble = tensa</b>, seca y sin aire (como diciendo la sílaba un poco enojado). Toca cada letra para oírla con <span class="kr">ㅏ</span>:</p>
+    <div id="fams"></div>
+    <div class="tip"><span class="kr">ㄹ</span> es especial: la lengua da un golpecito, como la <b>r suave</b> de «pero». Al final de sílaba suena <b>l</b>.</div>
+    <p style="text-align:center"><button class="btn primary" onclick="startDrill('fue')">Practicar aspiradas y tensas →</button></p>
+  </details>
+
+  <details class="card lesson">
+    <summary><span class="lnum">5</span> Arma bloques, no letras sueltas <span class="chev">›</span></summary>
+    <p>El coreano no escribe letras en fila: las <b>apila en bloques</b>. Cada bloque = una sílaba. Arma la tuya:</p>
+    <div class="picklbl">1 · Consonante inicial</div>
+    <div class="pick" id="pickCho"></div>
+    <div class="picklbl">2 · Vocal</div>
+    <div class="pick" id="pickJung"></div>
+    <div class="picklbl">3 · Consonante final (받침 · opcional)</div>
+    <div class="pick" id="pickJong"></div>
+    <div class="stage">
+      <div>
+        <div class="glyph g-xl kr" id="sylOut">가</div>
+        <div id="sylRom" class="subtle" style="font-size:1.1rem;font-weight:700"></div>
+      </div>
+      <button class="sound" onclick="speakSyl()" aria-label="Escuchar sílaba">🔊</button>
+    </div>
+    <p class="tip" id="sylTip"></p>
+    <p style="text-align:center"><button class="btn primary" onclick="startDrill('sil')">Practicar lectura de sílabas →</button></p>
+  </details>
+
+  <details class="card lesson">
+    <summary><span class="lnum">6</span> El truco del batchim (받침) <span class="chev">›</span></summary>
+    <p>La consonante de abajo se llama <b>batchim</b>. Buena noticia: aunque se escriban muchas letras distintas, al final de sílaba <b>solo existen 7 sonidos</b>:</p>
+    <div class="twrap"><table class="btable">
+      <tr><th>Suena</th><th>Se escribe</th><th>Ejemplo</th></tr>
+      <tr><td><b>k</b></td><td class="kr">ㄱ ㅋ ㄲ</td><td class="kr">책 <span class="subtle">chaek · libro</span></td></tr>
+      <tr><td><b>n</b></td><td class="kr">ㄴ</td><td class="kr">눈 <span class="subtle">nun · ojo/nieve</span></td></tr>
+      <tr><td><b>t</b></td><td class="kr">ㄷ ㅅ ㅆ ㅈ ㅊ ㅌ ㅎ</td><td class="kr">옷 <span class="subtle">ot · ropa</span> · 꽃 <span class="subtle">kkot · flor</span></td></tr>
+      <tr><td><b>l</b></td><td class="kr">ㄹ</td><td class="kr">물 <span class="subtle">mul · agua</span></td></tr>
+      <tr><td><b>m</b></td><td class="kr">ㅁ</td><td class="kr">밤 <span class="subtle">bam · noche</span></td></tr>
+      <tr><td><b>p</b></td><td class="kr">ㅂ ㅍ</td><td class="kr">밥 <span class="subtle">bap · arroz</span></td></tr>
+      <tr><td><b>ng</b></td><td class="kr">ㅇ</td><td class="kr">빵 <span class="subtle">ppang · pan</span></td></tr>
+    </table></div>
+    <p style="margin-top:12px;text-align:center"><button class="btn primary" onclick="startDrill('bat')">Practicar batchim →</button></p>
+  </details>
+
+  <details class="card lesson">
+    <summary><span class="lnum">7</span> El mapa completo <span class="chev">›</span></summary>
+    <p>Todo el alfabeto, organizado por su lógica. Toca cualquier letra para oírla y ver su pista:</p>
+    <div id="mapChart"></div>
+    <div id="mapDetail"><span class="subtle">Toca una letra…</span></div>
+    <p style="margin-top:12px;text-align:center"><button class="btn primary" onclick="startDrill('pal')">Leer palabras reales →</button></p>
+  </details>
+</section>
+
+<!-- ============ PRACTICAR ============ -->
+<section id="panel-drill" role="tabpanel" aria-labelledby="tab-drill" hidden>
+  <div class="card">
+    <div class="chips" id="levelChips"></div>
+    <div class="hud">
+      <span class="stat">Racha <b class="streak" id="hudStreak">0</b>🔥</span>
+      <span class="stat">Aciertos <b id="hudScore">0/0</b></span>
+      <div class="bar" aria-hidden="true"><div id="hudBar"></div></div>
+      <span class="stat" id="hudTimer" hidden>⏱ <b id="hudTime">60</b>s</span>
+    </div>
+    <div id="drillArea">
+      <p class="subtle" style="text-align:center;padding:30px 10px">Elige un nivel arriba para empezar 👆</p>
+    </div>
+    <div class="setrow">
+      <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+        <input type="checkbox" id="autoAudio" onchange="toggleAuto()"> <span class="subtle">🔊 pronunciar automáticamente al responder</span>
+      </label>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROGRESO ============ -->
+<section id="panel-prog" role="tabpanel" aria-labelledby="tab-prog" hidden>
+  <div class="card">
+    <div class="bigstats">
+      <div class="bs"><b id="stTotal">0</b><span>sílabas y palabras leídas</span></div>
+      <div class="bs"><b id="stStreak">0</b><span>mejor racha 🔥</span></div>
+      <div class="bs"><b id="stTimed">0</b><span>récord contrarreloj ⚡</span></div>
+    </div>
+    <div id="progRows"></div>
+    <p style="text-align:center;margin-top:14px"><button class="btn small ghost" onclick="resetProgress()">Borrar mi progreso</button></p>
+    <p class="subtle" style="text-align:center">Tu progreso se guarda solo en este navegador.</p>
+  </div>
+</section>
+
+<footer>
+  Basado en la lógica del <span class="kr">훈민정음</span> (1443) · Academia Seúl · Audio con voz coreana natural incluida — no necesitas instalar nada.
+</footer>
+</div>
+
+<script>
+"use strict";
+/* ================= audio =================
+   Clips pregrabados (voz neural coreana) incrustados como data URIs.
+   Fallback: speechSynthesis del dispositivo solo si un clip no existe. */
+const AUDIO_MAP={};//__AUDIO__
+const audioCache = {};
+let currentAudio = null;
+let koVoice = null;
+function pickVoice(){
+  try{
+    const vs = speechSynthesis.getVoices();
+    koVoice = vs.find(v => (v.lang||"").toLowerCase().startsWith("ko")) || null;
+  }catch(e){}
+}
+if ("speechSynthesis" in window){
+  pickVoice();
+  try{ speechSynthesis.onvoiceschanged = pickVoice; }catch(e){}
+}
+const AUDIO_BASE = "/audio/kr/";      // clips estáticos del sitio (misma voz)
+const audioMissing = {};
+function hexOf(t){
+  try{ return Array.from(new TextEncoder().encode(t)).map(b=>b.toString(16).padStart(2,"0")).join(""); }
+  catch(e){ return null; }
+}
+function ttsSpeak(t){
+  try{
+    if(!("speechSynthesis" in window)) return;
+    const u = new SpeechSynthesisUtterance(t);
+    u.lang = "ko-KR";
+    if (koVoice) u.voice = koVoice;
+    u.rate = 0.82;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  }catch(e){}
+}
+function speak(t){
+  let src = null;
+  const b64 = AUDIO_MAP[t];
+  if (b64) src = "data:audio/mpeg;base64," + b64;
+  else if (!audioMissing[t]){
+    const h = hexOf(t);
+    if (h) src = AUDIO_BASE + h + ".mp3";
+  }
+  if (src){
+    try{
+      if (currentAudio){ currentAudio.pause(); }
+      let a = audioCache[t];
+      if (!a){ a = new Audio(src); audioCache[t] = a; }
+      currentAudio = a;
+      a.currentTime = 0;
+      const p = a.play();
+      if (p && p.catch) p.catch(()=>{ audioMissing[t] = 1; delete audioCache[t]; ttsSpeak(t); });
+      return;
+    }catch(e){}
+  }
+  ttsSpeak(t);
+}
+
+/* ================= data ================= */
+const VOWELS = [
+  {j:"ㅏ", r:"a",   hint:"a de amor",                 pol:"yang"},
+  {j:"ㅑ", r:"ya",  hint:"ia de piano",               pol:"yang"},
+  {j:"ㅓ", r:"eo",  hint:"o abierta, boca relajada",  pol:"yin"},
+  {j:"ㅕ", r:"yeo", hint:"yo con boca relajada",      pol:"yin"},
+  {j:"ㅗ", r:"o",   hint:"o de oso, labios redondos", pol:"yang"},
+  {j:"ㅛ", r:"yo",  hint:"io de avión",               pol:"yang"},
+  {j:"ㅜ", r:"u",   hint:"u de uva",                  pol:"yin"},
+  {j:"ㅠ", r:"yu",  hint:"iu de ciudad",              pol:"yin"},
+  {j:"ㅡ", r:"eu",  hint:"sonríe y di u",             pol:"neutral"},
+  {j:"ㅣ", r:"i",   hint:"i de isla",                 pol:"neutral"},
+  {j:"ㅐ", r:"ae",  hint:"suena e",                   pol:"comp"},
+  {j:"ㅔ", r:"e",   hint:"suena e",                   pol:"comp"}
+];
+const CONS = [
+  {j:"ㄱ", r:"g/k", hint:"g suave, entre g y k", plus:"가"},
+  {j:"ㄴ", r:"n",   hint:"n normal",             plus:"나"},
+  {j:"ㄷ", r:"d/t", hint:"d suave",              plus:"다"},
+  {j:"ㄹ", r:"r/l", hint:"r suave de pero",      plus:"라"},
+  {j:"ㅁ", r:"m",   hint:"m normal",             plus:"마"},
+  {j:"ㅂ", r:"b/p", hint:"b suave",              plus:"바"},
+  {j:"ㅅ", r:"s",   hint:"s normal",             plus:"사"},
+  {j:"ㅇ", r:"muda / ng", hint:"muda al inicio; ng al final", plus:"아"},
+  {j:"ㅈ", r:"j",   hint:"ch suave (dch)",       plus:"자"},
+  {j:"ㅎ", r:"h",   hint:"j muy suave",          plus:"하"}
+];
+const STRONG = [
+  {j:"ㅋ", r:"k",  hint:"k con aire",  plus:"카"},
+  {j:"ㅌ", r:"t",  hint:"t con aire",  plus:"타"},
+  {j:"ㅍ", r:"p",  hint:"p con aire",  plus:"파"},
+  {j:"ㅊ", r:"ch", hint:"ch con aire", plus:"차"},
+  {j:"ㄲ", r:"kk", hint:"k seca, sin aire", plus:"까"},
+  {j:"ㄸ", r:"tt", hint:"t seca",  plus:"따"},
+  {j:"ㅃ", r:"pp", hint:"p seca",  plus:"빠"},
+  {j:"ㅆ", r:"ss", hint:"s tensa", plus:"싸"},
+  {j:"ㅉ", r:"jj", hint:"ch tensa",plus:"짜"}
+];
+const BATCHIM_WORDS = [
+  {kr:"밥", r:"bap",  es:"arroz / comida"},
+  {kr:"물", r:"mul",  es:"agua"},
+  {kr:"집", r:"jip",  es:"casa"},
+  {kr:"눈", r:"nun",  es:"ojo / nieve"},
+  {kr:"밤", r:"bam",  es:"noche / castaña"},
+  {kr:"문", r:"mun",  es:"puerta"},
+  {kr:"말", r:"mal",  es:"palabra / caballo"},
+  {kr:"손", r:"son",  es:"mano"},
+  {kr:"돈", r:"don",  es:"dinero"},
+  {kr:"빵", r:"ppang",es:"pan"},
+  {kr:"방", r:"bang", es:"habitación"},
+  {kr:"책", r:"chaek",es:"libro"},
+  {kr:"꽃", r:"kkot", es:"flor"},
+  {kr:"옷", r:"ot",   es:"ropa"},
+  {kr:"산", r:"san",  es:"montaña"},
+  {kr:"강", r:"gang", es:"río"}
+];
+const WORDS = [
+  {kr:"카페", r:"ka·pe", es:"café (lugar)"},
+  {kr:"피자", r:"pi·ja", es:"pizza"},
+  {kr:"버스", r:"beo·seu", es:"bus"},
+  {kr:"바나나", r:"ba·na·na", es:"plátano"},
+  {kr:"커피", r:"keo·pi", es:"café (bebida)"},
+  {kr:"우유", r:"u·yu", es:"leche"},
+  {kr:"김치", r:"gim·chi", es:"kimchi"},
+  {kr:"라면", r:"ra·myeon", es:"ramyeon"},
+  {kr:"친구", r:"chin·gu", es:"amigo — ¡chingu!"},
+  {kr:"사랑", r:"sa·rang", es:"amor"},
+  {kr:"사람", r:"sa·ram", es:"persona"},
+  {kr:"이름", r:"i·reum", es:"nombre"},
+  {kr:"학교", r:"hak·gyo", es:"escuela"},
+  {kr:"선생님", r:"seon·saeng·nim", es:"profesor/a"},
+  {kr:"한국", r:"han·guk", es:"Corea"},
+  {kr:"서울", r:"seo·ul", es:"Seúl"},
+  {kr:"안녕", r:"an·nyeong", es:"hola (informal)"},
+  {kr:"아니요", r:"a·ni·yo", es:"no"},
+  {kr:"오늘", r:"o·neul", es:"hoy"},
+  {kr:"내일", r:"nae·il", es:"mañana"},
+  {kr:"시간", r:"si·gan", es:"tiempo / hora"},
+  {kr:"주세요", r:"ju·se·yo", es:"deme, por favor"}
+];
+
+/* syllable composition */
+const CHO  = ["ㄱ","ㄲ","ㄴ","ㄷ","ㄸ","ㄹ","ㅁ","ㅂ","ㅃ","ㅅ","ㅆ","ㅇ","ㅈ","ㅉ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
+const JUNG = ["ㅏ","ㅐ","ㅑ","ㅒ","ㅓ","ㅔ","ㅕ","ㅖ","ㅗ","ㅘ","ㅙ","ㅚ","ㅛ","ㅜ","ㅝ","ㅞ","ㅟ","ㅠ","ㅡ","ㅢ","ㅣ"];
+const JONG = ["","ㄱ","ㄲ","ㄳ","ㄴ","ㄵ","ㄶ","ㄷ","ㄹ","ㄺ","ㄻ","ㄼ","ㄽ","ㄾ","ㄿ","ㅀ","ㅁ","ㅂ","ㅄ","ㅅ","ㅆ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
+const CHO_R  = {"ㄱ":"g","ㄲ":"kk","ㄴ":"n","ㄷ":"d","ㄸ":"tt","ㄹ":"r","ㅁ":"m","ㅂ":"b","ㅃ":"pp","ㅅ":"s","ㅆ":"ss","ㅇ":"","ㅈ":"j","ㅉ":"jj","ㅊ":"ch","ㅋ":"k","ㅌ":"t","ㅍ":"p","ㅎ":"h"};
+const JUNG_R = {"ㅏ":"a","ㅐ":"ae","ㅑ":"ya","ㅒ":"yae","ㅓ":"eo","ㅔ":"e","ㅕ":"yeo","ㅖ":"ye","ㅗ":"o","ㅘ":"wa","ㅙ":"wae","ㅚ":"oe","ㅛ":"yo","ㅜ":"u","ㅝ":"wo","ㅞ":"we","ㅟ":"wi","ㅠ":"yu","ㅡ":"eu","ㅢ":"ui","ㅣ":"i"};
+const JONG_R = {"":"","ㄱ":"k","ㄴ":"n","ㄷ":"t","ㄹ":"l","ㅁ":"m","ㅂ":"p","ㅅ":"t","ㅇ":"ng"};
+function compose(c, v, f){
+  const ci = CHO.indexOf(c), vi = JUNG.indexOf(v), fi = JONG.indexOf(f||"");
+  if (ci<0||vi<0||fi<0) return "?";
+  return String.fromCharCode(0xAC00 + (ci*21 + vi)*28 + fi);
+}
+function romSyl(c, v, f){ return CHO_R[c] + JUNG_R[v] + (JONG_R[f]||""); }
+
+/* ================= tabs ================= */
+function showTab(name){
+  ["learn","drill","prog"].forEach(t => {
+    document.getElementById("panel-"+t).hidden = (t !== name);
+    document.getElementById("tab-"+t).setAttribute("aria-selected", t===name ? "true" : "false");
+  });
+  if (name === "prog") renderProgress();
+  if (name !== "drill") stopTimer();
+  window.scrollTo({top:0});
+}
+
+/* ================= L2: vowel builder ================= */
+let vBase = "i";
+const VCOMB = {
+  i:  [ {lbl:"ㆍ a la derecha", one:"ㅏ", two:"ㅑ"}, {lbl:"ㆍ a la izquierda", one:"ㅓ", two:"ㅕ"} ],
+  eu: [ {lbl:"ㆍ arriba", one:"ㅗ", two:"ㅛ"}, {lbl:"ㆍ abajo", one:"ㅜ", two:"ㅠ"} ]
+};
+let vSel = 0, vDouble = false;
+function vSetBase(b){
+  vBase = b; vSel = 0; vDouble = false;
+  document.getElementById("vbase-i").setAttribute("aria-pressed", b==="i");
+  document.getElementById("vbase-eu").setAttribute("aria-pressed", b==="eu");
+  renderVDots(); renderVStage();
+}
+function renderVDots(){
+  const wrap = document.getElementById("vdots");
+  wrap.innerHTML = "";
+  VCOMB[vBase].forEach((c,i)=>{
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.textContent = c.lbl;
+    b.setAttribute("aria-pressed", i===vSel);
+    b.onclick = ()=>{ vSel=i; renderVDots(); renderVStage(); };
+    wrap.appendChild(b);
+  });
+  const d = document.createElement("button");
+  d.className = "chip";
+  d.textContent = vDouble ? "ㆍㆍ dos puntos ✓" : "+ segundo punto (y)";
+  d.setAttribute("aria-pressed", vDouble);
+  d.onclick = ()=>{ vDouble=!vDouble; renderVDots(); renderVStage(); };
+  wrap.appendChild(d);
+}
+function renderVStage(){
+  const combo = VCOMB[vBase][vSel];
+  const jamo = vDouble ? combo.two : combo.one;
+  const v = VOWELS.find(x=>x.j===jamo);
+  const baseChar = vBase==="i" ? "ㅣ" : "ㅡ";
+  const dots = vDouble ? "ㆍㆍ" : "ㆍ";
+  const polClass = v.pol==="yang" ? "yang" : (v.pol==="yin" ? "yin" : "");
+  const badge = v.pol==="yang" ? '<span class="badge yang">☀ yang</span>' : (v.pol==="yin" ? '<span class="badge yin">☾ yin</span>' : '<span class="badge neutral">neutral</span>');
+  document.getElementById("vstage").innerHTML =
+    '<div class="eq kr">'+baseChar+' + <span class="'+(polClass||"")+'">'+dots+'</span> =</div>'+
+    '<div><div class="glyph g-xl kr '+polClass+'">'+jamo+'</div>'+badge+'</div>'+
+    '<div style="text-align:left"><b style="font-size:1.2rem">'+v.r+'</b><br><span class="subtle">'+v.hint+'</span></div>'+
+    '<button class="sound" aria-label="Escuchar" onclick="speak(\''+ (jamo==="ㅏ"?"아":jamo==="ㅓ"?"어":jamo==="ㅗ"?"오":jamo==="ㅜ"?"우":jamo==="ㅑ"?"야":jamo==="ㅕ"?"여":jamo==="ㅛ"?"요":"유") +'\')">🔊</button>';
+}
+
+/* ================= L3: organs ================= */
+const ORGANS = [
+  {j:"ㄱ", name:"g/k · lengua atrás", desc:"La raíz de la lengua sube y cierra la garganta.", art:"back"},
+  {j:"ㄴ", name:"n · lengua adelante", desc:"La punta de la lengua toca detrás de los dientes.", art:"tip"},
+  {j:"ㅁ", name:"m · labios", desc:"La boca cerrada, vista de frente: un cuadrado.", art:"lips"},
+  {j:"ㅅ", name:"s · diente", desc:"La forma de un diente: el aire silba al pasar.", art:"tooth"},
+  {j:"ㅇ", name:"muda/ng · garganta", desc:"La garganta abierta y redonda. Al inicio no suena.", art:"throat"}
+];
+function organSVG(art){
+  const line = "var(--muted)", acc = "var(--red)";
+  let extra = "";
+  if (art==="back")  extra = '<path d="M28 62 Q52 60 60 44 L60 34" fill="none" stroke="'+acc+'" stroke-width="5" stroke-linecap="round"/>';
+  if (art==="tip")   extra = '<path d="M30 40 L30 56 Q30 62 40 62 L58 62" fill="none" stroke="'+acc+'" stroke-width="5" stroke-linecap="round"/>';
+  if (art==="lips")  extra = '<rect x="16" y="36" width="18" height="18" rx="3" fill="none" stroke="'+acc+'" stroke-width="5"/>';
+  if (art==="tooth") extra = '<path d="M30 56 L42 32 L54 56" fill="none" stroke="'+acc+'" stroke-width="5" stroke-linejoin="round"/>';
+  if (art==="throat")extra = '<circle cx="62" cy="46" r="12" fill="none" stroke="'+acc+'" stroke-width="5"/>';
+  return '<svg width="84" height="72" viewBox="0 0 84 72" role="img" aria-hidden="true">'+
+    '<path d="M14 46 Q14 20 44 18 Q74 18 78 44 Q76 64 46 64 Q18 64 14 50 Z" fill="none" stroke="'+line+'" stroke-width="2.5" stroke-dasharray="3 4"/>'+
+    '<path d="M10 38 L18 42 L10 48" fill="none" stroke="'+line+'" stroke-width="2.5" stroke-linejoin="round"/>'+
+    extra + "</svg>";
+}
+function renderOrgans(){
+  document.getElementById("organs").innerHTML = ORGANS.map(o =>
+    '<div class="organ">'+organSVG(o.art)+
+    '<div><span class="glyph kr">'+o.j+'</span> <b>'+o.name+'</b><p>'+o.desc+'</p></div>'+
+    '<button class="sound" style="margin-left:auto" aria-label="Escuchar" onclick="speak(\''+ (o.j==="ㄱ"?"가":o.j==="ㄴ"?"나":o.j==="ㅁ"?"마":o.j==="ㅅ"?"사":"아") +'\')">🔊</button></div>'
+  ).join("");
+}
+
+/* ================= L4: families ================= */
+const FAMS = [
+  {base:["ㄱ"], asp:["ㅋ"], tense:["ㄲ"], lbl:"garganta cerrada"},
+  {base:["ㄴ","ㄷ"], asp:["ㅌ"], tense:["ㄸ"], lbl:"lengua adelante"},
+  {base:["ㅁ","ㅂ"], asp:["ㅍ"], tense:["ㅃ"], lbl:"labios"},
+  {base:["ㅅ","ㅈ"], asp:["ㅊ"], tense:["ㅆ","ㅉ"], lbl:"diente"},
+  {base:["ㅇ"], asp:["ㅎ"], tense:[], lbl:"garganta"}
+];
+const PLUS_MAP = {};
+CONS.concat(STRONG).forEach(c => PLUS_MAP[c.j] = c.plus);
+function jamoBtn(j){
+  return '<button class="jamo kr" onclick="speak(\''+(PLUS_MAP[j]||j)+'\')" aria-label="Escuchar '+j+'">'+j+'</button>';
+}
+function renderFams(){
+  document.getElementById("fams").innerHTML = FAMS.map(f => {
+    let html = '<div class="fam">';
+    html += f.base.map(jamoBtn).join('<span class="plus">→</span>');
+    if (f.asp.length)   html += '<span class="plus">＋trazo→</span>' + f.asp.map(jamoBtn).join(" ");
+    if (f.tense.length) html += '<span class="plus">×2→</span>' + f.tense.map(jamoBtn).join(" ");
+    html += '<span class="lbl">'+f.lbl+'</span></div>';
+    return html;
+  }).join("");
+}
+
+/* ================= L5: syllable builder ================= */
+let sCho = "ㄱ", sJung = "ㅏ", sJong = "";
+const BUILD_CHO  = ["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
+const BUILD_JUNG = ["ㅏ","ㅑ","ㅓ","ㅕ","ㅗ","ㅛ","ㅜ","ㅠ","ㅡ","ㅣ","ㅐ","ㅔ"];
+const BUILD_JONG = ["","ㄱ","ㄴ","ㄹ","ㅁ","ㅂ","ㅇ","ㅅ"];
+function renderPick(id, list, sel, cb){
+  const wrap = document.getElementById(id);
+  wrap.innerHTML = "";
+  list.forEach(j => {
+    const b = document.createElement("button");
+    b.className = "kr";
+    b.textContent = j === "" ? "∅" : j;
+    b.setAttribute("aria-pressed", j===sel);
+    b.onclick = ()=>cb(j);
+    wrap.appendChild(b);
+  });
+}
+function renderSyl(){
+  renderPick("pickCho", BUILD_CHO, sCho, j=>{sCho=j;renderSyl();});
+  renderPick("pickJung", BUILD_JUNG, sJung, j=>{sJung=j;renderSyl();});
+  renderPick("pickJong", BUILD_JONG, sJong, j=>{sJong=j;renderSyl();});
+  const syl = compose(sCho, sJung, sJong);
+  document.getElementById("sylOut").textContent = syl;
+  document.getElementById("sylRom").textContent = romSyl(sCho, sJung, sJong) || "—";
+  const vertical = ["ㅏ","ㅑ","ㅓ","ㅕ","ㅣ","ㅐ","ㅔ"].includes(sJung);
+  document.getElementById("sylTip").innerHTML = vertical
+    ? '<span class="kr">'+sJung+'</span> es <b>vertical</b> → la consonante va a la <b>izquierda</b>' + (sJong ? ' y el batchim <b>abajo</b>.' : '.')
+    : '<span class="kr">'+sJung+'</span> es <b>horizontal</b> → la consonante va <b>arriba</b>' + (sJong ? ' y el batchim <b>abajo</b>.' : '.');
+}
+function speakSyl(){ speak(compose(sCho, sJung, sJong)); }
+
+/* ================= L7: map ================= */
+const MAP_ROWS = [
+  {t:"Vocales yang ☀", items:["ㅏ","ㅑ","ㅗ","ㅛ"]},
+  {t:"Vocales yin ☾", items:["ㅓ","ㅕ","ㅜ","ㅠ"]},
+  {t:"Tierra y humano", items:["ㅡ","ㅣ"]},
+  {t:"Compuestas (suenan e / w…)", items:["ㅐ","ㅔ","ㅘ","ㅝ","ㅚ","ㅟ","ㅢ"]},
+  {t:"Consonantes madre", items:["ㄱ","ㄴ","ㅁ","ㅅ","ㅇ"]},
+  {t:"Con trazo añadido (aire)", items:["ㅋ","ㄷ","ㅌ","ㅂ","ㅍ","ㅈ","ㅊ","ㅎ","ㄹ"]},
+  {t:"Tensas (dobles)", items:["ㄲ","ㄸ","ㅃ","ㅆ","ㅉ"]}
+];
+const MAP_INFO = {};
+VOWELS.forEach(v => MAP_INFO[v.j] = {r:v.r, hint:v.hint, say:null});
+CONS.forEach(c => MAP_INFO[c.j] = {r:c.r, hint:c.hint, say:c.plus});
+STRONG.forEach(c => MAP_INFO[c.j] = {r:c.r, hint:c.hint, say:c.plus});
+MAP_INFO["ㅘ"]={r:"wa",hint:"ua de agua",say:"와"}; MAP_INFO["ㅝ"]={r:"wo",hint:"uo",say:"워"};
+MAP_INFO["ㅚ"]={r:"oe",hint:"suena we",say:"외"};  MAP_INFO["ㅟ"]={r:"wi",hint:"ui",say:"위"};
+MAP_INFO["ㅢ"]={r:"ui",hint:"eu+i rápido",say:"의"};
+const VOWEL_SAY = {"ㅏ":"아","ㅑ":"야","ㅓ":"어","ㅕ":"여","ㅗ":"오","ㅛ":"요","ㅜ":"우","ㅠ":"유","ㅡ":"으","ㅣ":"이","ㅐ":"애","ㅔ":"에"};
+function renderMap(){
+  document.getElementById("mapChart").innerHTML = MAP_ROWS.map(row =>
+    '<div class="maprow">'+row.t+'</div><div class="grid-jamo">'+
+    row.items.map(j => '<button class="kr" onclick="mapTap(\''+j+'\')">'+j+'</button>').join("")+
+    "</div>"
+  ).join("");
+}
+function mapTap(j){
+  const info = MAP_INFO[j] || {r:"?", hint:""};
+  const say = info.say || VOWEL_SAY[j] || j;
+  speak(say);
+  document.getElementById("mapDetail").innerHTML =
+    '<span class="glyph kr">'+j+'</span><div><b>'+info.r+'</b><br><span class="subtle">'+info.hint+'</span></div>'+
+    '<button class="sound" style="margin-left:auto" aria-label="Escuchar" onclick="speak(\''+say+'\')">🔊</button>';
+}
+
+/* ================= progress store ================= */
+const PKEY = "as-lector-hangul";
+function loadP(){
+  try{ return JSON.parse(localStorage.getItem(PKEY)) || {}; }catch(e){ return {}; }
+}
+function saveP(p){
+  try{ localStorage.setItem(PKEY, JSON.stringify(p)); }catch(e){}
+}
+let prog = loadP();
+prog.stars = prog.stars || {};
+prog.total = prog.total || 0;
+prog.bestStreak = prog.bestStreak || 0;
+prog.bestTimed = prog.bestTimed || 0;
+
+/* ================= drill engine ================= */
+const LEVELS = [
+  {id:"voc", name:"Vocales"},
+  {id:"con", name:"Consonantes"},
+  {id:"fue", name:"Aspiradas y tensas"},
+  {id:"sil", name:"Sílabas"},
+  {id:"bat", name:"Batchim"},
+  {id:"pal", name:"Palabras"},
+  {id:"time", name:"⚡ Contrarreloj"}
+];
+let dLevel = null, dQueue = [], dIdx = 0, dFirstOk = 0, dFirstN = 0, dAnswered = 0;
+let streak = 0, sessionOk = 0, sessionN = 0;
+let timed = false, timeLeft = 60, timerInt = null, timedScore = 0;
+let autoAudio = false;
+try{ autoAudio = localStorage.getItem(PKEY+"-audio") === "1"; }catch(e){}
+
+function toggleAuto(){
+  autoAudio = document.getElementById("autoAudio").checked;
+  try{ localStorage.setItem(PKEY+"-audio", autoAudio ? "1" : "0"); }catch(e){}
+}
+function shuffle(a){
+  for (let i=a.length-1;i>0;i--){ const k=Math.floor(Math.random()*(i+1)); [a[i],a[k]]=[a[k],a[i]]; }
+  return a;
+}
+function sample(arr, n, notRom){
+  const pool = shuffle(arr.slice()).filter(x => x.rom !== notRom);
+  const out = [], seen = {};
+  for (const x of pool){
+    if (seen[x.rom]) continue;
+    seen[x.rom] = 1; out.push(x);
+    if (out.length >= n) break;
+  }
+  return out;
+}
+function itemsFor(level){
+  if (level==="voc") return VOWELS.map(v => ({show:v.j, rom:v.r, say:VOWEL_SAY[v.j]||v.j, extra:v.hint}));
+  if (level==="con") return CONS.map(c => ({show:c.j, rom:c.r, say:c.plus, extra:c.hint}));
+  if (level==="fue") return STRONG.map(c => ({show:c.j, rom:c.r, say:c.plus, extra:c.hint}));
+  if (level==="sil"){
+    const chos = ["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
+    const jungs = ["ㅏ","ㅓ","ㅗ","ㅜ","ㅡ","ㅣ","ㅑ","ㅕ","ㅛ","ㅠ","ㅔ","ㅐ"];
+    const set = [], used = {};
+    while (set.length < 40){
+      const c = chos[Math.floor(Math.random()*chos.length)];
+      const v = jungs[Math.floor(Math.random()*jungs.length)];
+      const s = compose(c,v,"");
+      const r = romSyl(c,v,"");
+      if (used[r]) continue;
+      used[r] = 1;
+      set.push({show:s, rom:r, say:s, extra:""});
+    }
+    return set;
+  }
+  if (level==="bat") return BATCHIM_WORDS.map(w => ({show:w.kr, rom:w.r, say:w.kr, extra:w.es}));
+  if (level==="pal") return WORDS.map(w => ({show:w.kr, rom:w.r, say:w.kr, extra:w.es}));
+  return [];
+}
+function makeQ(item, pool){
+  const opts = sample(pool, 3, item.rom).map(x=>x.rom);
+  opts.push(item.rom);
+  return {item, opts:shuffle(opts)};
+}
+function renderLevelChips(){
+  const wrap = document.getElementById("levelChips");
+  wrap.innerHTML = "";
+  LEVELS.forEach(l => {
+    const b = document.createElement("button");
+    b.className = "chip";
+    const s = prog.stars[l.id] || 0;
+    b.textContent = l.name + (s ? " " + "★".repeat(s) : "");
+    b.setAttribute("aria-pressed", dLevel===l.id);
+    b.onclick = ()=>startDrill(l.id);
+    wrap.appendChild(b);
+  });
+}
+function startDrill(level){
+  showTab("drill");
+  stopTimer();
+  dLevel = level;
+  timed = (level === "time");
+  streak = 0; sessionOk = 0; sessionN = 0;
+  dFirstOk = 0; dFirstN = 0; dAnswered = 0; timedScore = 0;
+  const pool = timed
+    ? itemsFor("sil").concat(itemsFor("bat"), itemsFor("pal"))
+    : itemsFor(level);
+  const base = shuffle(pool.slice()).slice(0, timed ? pool.length : 10);
+  dQueue = base.map(it => ({q:makeQ(it, pool), first:true}));
+  dIdx = 0;
+  document.getElementById("hudTimer").hidden = !timed;
+  document.getElementById("autoAudio").checked = autoAudio;
+  renderLevelChips();
+  if (timed){
+    timeLeft = 60;
+    document.getElementById("hudTime").textContent = timeLeft;
+    timerInt = setInterval(()=>{
+      timeLeft--;
+      document.getElementById("hudTime").textContent = timeLeft;
+      if (timeLeft <= 0) endTimed();
+    }, 1000);
+  }
+  nextQ();
+  updateHUD();
+}
+function stopTimer(){ if (timerInt){ clearInterval(timerInt); timerInt = null; } }
+function updateHUD(){
+  document.getElementById("hudStreak").textContent = streak;
+  document.getElementById("hudScore").textContent = sessionOk + "/" + sessionN;
+  const pct = timed ? ((60-timeLeft)/60*100) : (dQueue.length ? Math.min(100, dAnswered/10*100) : 0);
+  document.getElementById("hudBar").style.width = pct + "%";
+}
+function nextQ(){
+  if (!timed && dIdx >= dQueue.length){ return endRound(); }
+  if (timed && dIdx >= dQueue.length){
+    const pool = itemsFor("sil").concat(itemsFor("bat"), itemsFor("pal"));
+    dQueue.push({q:makeQ(pool[Math.floor(Math.random()*pool.length)], pool), first:true});
+  }
+  const {q} = dQueue[dIdx];
+  const area = document.getElementById("drillArea");
+  area.innerHTML =
+    '<div class="prompt"><div class="glyph kr">'+q.item.show+'</div>'+
+    '<button class="sound" aria-label="Escuchar" onclick="speak(\''+q.item.say+'\')">🔊</button></div>'+
+    '<div class="answers">'+ q.opts.map((o,i)=>'<button onclick="answer('+i+')">'+o+'</button>').join("") +'</div>'+
+    '<div class="feedback" id="fb"></div>';
+}
+function answer(i){
+  const entry = dQueue[dIdx], q = entry.q;
+  const good = q.opts[i] === q.item.rom;
+  const btns = document.querySelectorAll(".answers button");
+  btns.forEach(b => b.disabled = true);
+  btns.forEach(b => { if (b.textContent === q.item.rom) b.classList.add("good"); });
+  if (!good) btns[i].classList.add("badpick");
+  const fb = document.getElementById("fb");
+  sessionN++;
+  if (entry.first){ dFirstN++; if (good) dFirstOk++; }
+  if (good){
+    sessionOk++; streak++; prog.total++;
+    if (streak > prog.bestStreak) prog.bestStreak = streak;
+    if (timed) timedScore++;
+    fb.className = "feedback ok";
+    fb.textContent = "¡Bien! " + q.item.show + " = " + q.item.rom + (q.item.extra ? " · " + q.item.extra : "");
+  } else {
+    streak = 0;
+    fb.className = "feedback bad";
+    fb.textContent = "Era “" + q.item.rom + "”" + (q.item.extra ? " · " + q.item.extra : "");
+    if (!timed && entry.first){
+      dQueue.push({q:makeQ(q.item, itemsFor(dLevel)), first:false});
+    }
+  }
+  if (autoAudio) speak(q.item.say);
+  saveP(prog);
+  dAnswered++;
+  dIdx++;
+  updateHUD();
+  setTimeout(nextQ, good ? 700 : 1600);
+}
+function endRound(){
+  const acc = dFirstN ? dFirstOk / dFirstN : 0;
+  const stars = acc >= 0.9 ? 3 : acc >= 0.7 ? 2 : acc >= 0.5 ? 1 : 0;
+  if ((prog.stars[dLevel]||0) < stars){ prog.stars[dLevel] = stars; }
+  saveP(prog);
+  renderLevelChips();
+  document.getElementById("drillArea").innerHTML =
+    '<div class="roundend">'+
+    '<div class="stars">'+("★".repeat(stars) + "☆".repeat(3-stars))+'</div>'+
+    '<p><b>'+dFirstOk+' de '+dFirstN+'</b> a la primera ('+Math.round(acc*100)+'%)</p>'+
+    '<p class="subtle">'+(stars===3 ? "¡Perfecto! Este nivel ya es tuyo." : stars>=1 ? "¡Bien! Repite para subir estrellas." : "Vuelve a la lección y reintenta — vas a ver el clic.")+'</p>'+
+    '<p><button class="btn primary" onclick="startDrill(\''+dLevel+'\')">Repetir</button> '+
+    '<button class="btn" onclick="showTab(\'learn\')">Volver a lecciones</button></p></div>';
+}
+function endTimed(){
+  stopTimer();
+  if (timedScore > prog.bestTimed) prog.bestTimed = timedScore;
+  saveP(prog);
+  document.getElementById("drillArea").innerHTML =
+    '<div class="roundend"><div class="stars">⚡</div>'+
+    '<p><b>'+timedScore+'</b> lecturas correctas en 60 segundos</p>'+
+    '<p class="subtle">Tu récord: '+prog.bestTimed+'</p>'+
+    '<p><button class="btn primary" onclick="startDrill(\'time\')">Otra vez</button></p></div>';
+}
+
+/* ================= progress view ================= */
+function renderProgress(){
+  document.getElementById("stTotal").textContent = prog.total;
+  document.getElementById("stStreak").textContent = prog.bestStreak;
+  document.getElementById("stTimed").textContent = prog.bestTimed;
+  document.getElementById("progRows").innerHTML = LEVELS.filter(l=>l.id!=="time").map(l => {
+    const s = prog.stars[l.id] || 0;
+    return '<div class="prow"><span class="name">'+l.name+'</span>'+
+      '<span class="stars">'+("★".repeat(s)+"☆".repeat(3-s))+'</span></div>';
+  }).join("");
+}
+function resetProgress(){
+  prog = {stars:{}, total:0, bestStreak:0, bestTimed:0};
+  saveP(prog);
+  renderProgress(); renderLevelChips();
+}
+
+/* ================= init ================= */
+vSetBase("i");
+renderOrgans();
+renderFams();
+renderSyl();
+renderMap();
+renderLevelChips();
+</script>
+
+</body>
+</html>

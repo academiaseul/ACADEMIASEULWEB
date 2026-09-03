@@ -45,16 +45,22 @@ const WORDS: Item[] = [
   { ko: '김치', rom: 'kim-chi', say: '김치', gloss: 'kimchi' },
 ];
 
+// Clips pregrabados con voz neural coreana en /public/audio/kr, nombrados por el
+// hex UTF-8 del texto. speechSynthesis queda solo como respaldo si falta un clip.
+const hexOf = (t: string) =>
+  Array.from(new TextEncoder().encode(t))
+    .map((b) => b.toString(16).padStart(2, '0'))
+    .join('');
+
 export default function HangulBoard() {
   const [active, setActive] = useState<string | null>(null);
   const [supported, setSupported] = useState(true);
   const voiceRef = useRef<SpeechSynthesisVoice | null>(null);
+  const audioRef = useRef<Record<string, HTMLAudioElement>>({});
+  const currentRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-      setSupported(false);
-      return;
-    }
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
     const pickVoice = () => {
       const voices = window.speechSynthesis.getVoices();
       voiceRef.current =
@@ -69,7 +75,7 @@ export default function HangulBoard() {
     };
   }, []);
 
-  const speak = (item: Item) => {
+  const ttsSpeak = (item: Item) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       setSupported(false);
       return;
@@ -80,8 +86,23 @@ export default function HangulBoard() {
     u.rate = 0.8;
     if (voiceRef.current) u.voice = voiceRef.current;
     window.speechSynthesis.speak(u);
+  };
+
+  const speak = (item: Item) => {
     setActive(item.ko);
     window.setTimeout(() => setActive((cur) => (cur === item.ko ? null : cur)), 600);
+    currentRef.current?.pause();
+    let a = audioRef.current[item.say];
+    if (!a) {
+      a = new Audio(`/audio/kr/${hexOf(item.say)}.mp3`);
+      audioRef.current[item.say] = a;
+    }
+    currentRef.current = a;
+    a.currentTime = 0;
+    a.play().catch(() => {
+      delete audioRef.current[item.say];
+      ttsSpeak(item);
+    });
   };
 
   const Tile = ({ item, big = false }: { item: Item; big?: boolean }) => {
