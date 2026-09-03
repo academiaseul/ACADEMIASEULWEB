@@ -268,6 +268,10 @@
     background:var(--card);color:var(--ink);cursor:pointer;
   }
   .answers button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .answers.krops button{font-family:"Noto Sans KR","Source Sans 3",sans-serif;font-size:1.7rem;padding:12px 8px}
+  .sound.big{width:88px;height:88px;font-size:2.1rem}
+  .modechip{color:var(--gold);font-weight:700}
+  .grid-jamo button small{display:block;font-size:.6rem;font-weight:700;color:var(--muted);margin-top:1px}
   .answers button.good{background:var(--ok-soft);border-color:var(--ok);color:var(--ok)}
   .answers button.badpick{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
   .answers button:disabled{cursor:default;opacity:.85}
@@ -342,7 +346,10 @@
     <div class="chips" id="vdots"></div>
     <div class="stage" id="vstage"></div>
     <div class="tip"><b>☀ Yang</b> (punto hacia afuera/arriba: <span class="kr yang">ㅏ ㅗ</span>) = vocales «luminosas». <b>☾ Yin</b> (punto hacia adentro/abajo: <span class="kr yin">ㅓ ㅜ</span>) = vocales «oscuras». <b>Dos puntos = añade el sonido “y”</b>: <span class="kr">ㅑ ㅕ ㅛ ㅠ</span>.</p></div>
-    <p>Y solas, las líneas también son vocales: <span class="kr">ㅡ</span> = <i>eu</i> (sonríe y di «u») · <span class="kr">ㅣ</span> = <i>i</i>. Las compuestas <span class="kr">ㅐ ㅔ</span> hoy suenan igual: <i>e</i>.</p>
+    <p>Y solas, las líneas también son vocales: <span class="kr">ㅡ</span> = <i>eu</i> (sonríe y di «u») · <span class="kr">ㅣ</span> = <i>i</i>.</p>
+    <h3>Las 11 compuestas: combina lo que ya sabes</h3>
+    <p><span class="kr">ㅗ+ㅏ=ㅘ</span> (<i>ua</i>) · <span class="kr">ㅜ+ㅓ=ㅝ</span> (<i>uo</i>) — y las gemelas que hoy suenan igual: <span class="kr">ㅐㅔ</span> = <i>e</i>, <span class="kr">ㅒㅖ</span> = <i>ye</i>, <span class="kr">ㅙㅚㅞ</span> = <i>we</i>. Toca para oír:</p>
+    <div class="grid-jamo" id="compVowels"></div>
     <p style="text-align:center"><button class="btn primary" onclick="startDrill('voc')">Practicar vocales →</button></p>
   </details>
 
@@ -411,6 +418,7 @@
   <div class="card">
     <div class="chips" id="levelChips"></div>
     <div class="hud">
+      <span class="stat modechip" id="hudMode"></span>
       <span class="stat">Racha <b class="streak" id="hudStreak">0</b>🔥</span>
       <span class="stat">Aciertos <b id="hudScore">0/0</b></span>
       <div class="bar" aria-hidden="true"><div id="hudBar"></div></div>
@@ -507,18 +515,27 @@ function speak(t){
 
 /* ================= data ================= */
 const VOWELS = [
-  {j:"ㅏ", r:"a",   hint:"a de amor",                 pol:"yang"},
-  {j:"ㅑ", r:"ya",  hint:"ia de piano",               pol:"yang"},
-  {j:"ㅓ", r:"eo",  hint:"o abierta, boca relajada",  pol:"yin"},
-  {j:"ㅕ", r:"yeo", hint:"yo con boca relajada",      pol:"yin"},
-  {j:"ㅗ", r:"o",   hint:"o de oso, labios redondos", pol:"yang"},
-  {j:"ㅛ", r:"yo",  hint:"io de avión",               pol:"yang"},
-  {j:"ㅜ", r:"u",   hint:"u de uva",                  pol:"yin"},
-  {j:"ㅠ", r:"yu",  hint:"iu de ciudad",              pol:"yin"},
-  {j:"ㅡ", r:"eu",  hint:"sonríe y di u",             pol:"neutral"},
-  {j:"ㅣ", r:"i",   hint:"i de isla",                 pol:"neutral"},
-  {j:"ㅐ", r:"ae",  hint:"suena e",                   pol:"comp"},
-  {j:"ㅔ", r:"e",   hint:"suena e",                   pol:"comp"}
+  {j:"ㅏ", r:"a",   hint:"a de amor",                 pol:"yang",    grp:"bas"},
+  {j:"ㅑ", r:"ya",  hint:"ia de piano",               pol:"yang",    grp:"bas"},
+  {j:"ㅓ", r:"eo",  hint:"o abierta, boca relajada",  pol:"yin",     grp:"bas"},
+  {j:"ㅕ", r:"yeo", hint:"yo con boca relajada",      pol:"yin",     grp:"bas"},
+  {j:"ㅗ", r:"o",   hint:"o de oso, labios redondos", pol:"yang",    grp:"bas"},
+  {j:"ㅛ", r:"yo",  hint:"io de avión",               pol:"yang",    grp:"bas"},
+  {j:"ㅜ", r:"u",   hint:"u de uva",                  pol:"yin",     grp:"bas"},
+  {j:"ㅠ", r:"yu",  hint:"iu de ciudad",              pol:"yin",     grp:"bas"},
+  {j:"ㅡ", r:"eu",  hint:"sonríe y di u",             pol:"neutral", grp:"bas"},
+  {j:"ㅣ", r:"i",   hint:"i de isla",                 pol:"neutral", grp:"bas"},
+  {j:"ㅐ", r:"ae",  hint:"suena e",                   pol:"comp", grp:"comp", snd:"e"},
+  {j:"ㅔ", r:"e",   hint:"suena e",                   pol:"comp", grp:"comp", snd:"e"},
+  {j:"ㅒ", r:"yae", hint:"suena ye",                  pol:"comp", grp:"comp", snd:"ye"},
+  {j:"ㅖ", r:"ye",  hint:"suena ye",                  pol:"comp", grp:"comp", snd:"ye"},
+  {j:"ㅘ", r:"wa",  hint:"ua de agua",                pol:"comp", grp:"comp"},
+  {j:"ㅙ", r:"wae", hint:"suena ue (we)",             pol:"comp", grp:"comp", snd:"we"},
+  {j:"ㅚ", r:"oe",  hint:"suena ue (we)",             pol:"comp", grp:"comp", snd:"we"},
+  {j:"ㅝ", r:"wo",  hint:"uo de cuota",               pol:"comp", grp:"comp"},
+  {j:"ㅞ", r:"we",  hint:"suena ue (we)",             pol:"comp", grp:"comp", snd:"we"},
+  {j:"ㅟ", r:"wi",  hint:"ui de cuida",               pol:"comp", grp:"comp"},
+  {j:"ㅢ", r:"ui",  hint:"eu+i dicho rápido",         pol:"comp", grp:"comp"}
 ];
 const CONS = [
   {j:"ㄱ", r:"g/k", hint:"g suave, entre g y k", plus:"가"},
@@ -713,7 +730,7 @@ function renderFams(){
 /* ================= L5: syllable builder ================= */
 let sCho = "ㄱ", sJung = "ㅏ", sJong = "";
 const BUILD_CHO  = ["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
-const BUILD_JUNG = ["ㅏ","ㅑ","ㅓ","ㅕ","ㅗ","ㅛ","ㅜ","ㅠ","ㅡ","ㅣ","ㅐ","ㅔ"];
+const BUILD_JUNG = ["ㅏ","ㅑ","ㅓ","ㅕ","ㅗ","ㅛ","ㅜ","ㅠ","ㅡ","ㅣ","ㅐ","ㅔ","ㅒ","ㅖ","ㅘ","ㅙ","ㅚ","ㅝ","ㅞ","ㅟ","ㅢ"];
 const BUILD_JONG = ["","ㄱ","ㄴ","ㄹ","ㅁ","ㅂ","ㅇ","ㅅ"];
 function renderPick(id, list, sel, cb){
   const wrap = document.getElementById(id);
@@ -734,10 +751,14 @@ function renderSyl(){
   const syl = compose(sCho, sJung, sJong);
   document.getElementById("sylOut").textContent = syl;
   document.getElementById("sylRom").textContent = romSyl(sCho, sJung, sJong) || "—";
-  const vertical = ["ㅏ","ㅑ","ㅓ","ㅕ","ㅣ","ㅐ","ㅔ"].includes(sJung);
+  const vertical = ["ㅏ","ㅑ","ㅓ","ㅕ","ㅣ","ㅐ","ㅔ","ㅒ","ㅖ"].includes(sJung);
+  const horizontal = ["ㅗ","ㅛ","ㅜ","ㅠ","ㅡ"].includes(sJung);
+  const tail = sJong ? ' y el batchim <b>abajo</b>.' : '.';
   document.getElementById("sylTip").innerHTML = vertical
-    ? '<span class="kr">'+sJung+'</span> es <b>vertical</b> → la consonante va a la <b>izquierda</b>' + (sJong ? ' y el batchim <b>abajo</b>.' : '.')
-    : '<span class="kr">'+sJung+'</span> es <b>horizontal</b> → la consonante va <b>arriba</b>' + (sJong ? ' y el batchim <b>abajo</b>.' : '.');
+    ? '<span class="kr">'+sJung+'</span> es <b>vertical</b> → la consonante va a la <b>izquierda</b>' + tail
+    : horizontal
+    ? '<span class="kr">'+sJung+'</span> es <b>horizontal</b> → la consonante va <b>arriba</b>' + tail
+    : '<span class="kr">'+sJung+'</span> es <b>mixta</b> → la consonante va <b>arriba a la izquierda</b> y la vocal la envuelve' + tail;
 }
 function speakSyl(){ speak(compose(sCho, sJung, sJong)); }
 
@@ -746,7 +767,7 @@ const MAP_ROWS = [
   {t:"Vocales yang ☀", items:["ㅏ","ㅑ","ㅗ","ㅛ"]},
   {t:"Vocales yin ☾", items:["ㅓ","ㅕ","ㅜ","ㅠ"]},
   {t:"Tierra y humano", items:["ㅡ","ㅣ"]},
-  {t:"Compuestas (suenan e / w…)", items:["ㅐ","ㅔ","ㅘ","ㅝ","ㅚ","ㅟ","ㅢ"]},
+  {t:"Compuestas (suenan e / ye / w…)", items:["ㅐ","ㅔ","ㅒ","ㅖ","ㅘ","ㅙ","ㅚ","ㅝ","ㅞ","ㅟ","ㅢ"]},
   {t:"Consonantes madre", items:["ㄱ","ㄴ","ㅁ","ㅅ","ㅇ"]},
   {t:"Con trazo añadido (aire)", items:["ㅋ","ㄷ","ㅌ","ㅂ","ㅍ","ㅈ","ㅊ","ㅎ","ㄹ"]},
   {t:"Tensas (dobles)", items:["ㄲ","ㄸ","ㅃ","ㅆ","ㅉ"]}
@@ -758,7 +779,8 @@ STRONG.forEach(c => MAP_INFO[c.j] = {r:c.r, hint:c.hint, say:c.plus});
 MAP_INFO["ㅘ"]={r:"wa",hint:"ua de agua",say:"와"}; MAP_INFO["ㅝ"]={r:"wo",hint:"uo",say:"워"};
 MAP_INFO["ㅚ"]={r:"oe",hint:"suena we",say:"외"};  MAP_INFO["ㅟ"]={r:"wi",hint:"ui",say:"위"};
 MAP_INFO["ㅢ"]={r:"ui",hint:"eu+i rápido",say:"의"};
-const VOWEL_SAY = {"ㅏ":"아","ㅑ":"야","ㅓ":"어","ㅕ":"여","ㅗ":"오","ㅛ":"요","ㅜ":"우","ㅠ":"유","ㅡ":"으","ㅣ":"이","ㅐ":"애","ㅔ":"에"};
+const VOWEL_SAY = {"ㅏ":"아","ㅑ":"야","ㅓ":"어","ㅕ":"여","ㅗ":"오","ㅛ":"요","ㅜ":"우","ㅠ":"유","ㅡ":"으","ㅣ":"이",
+  "ㅐ":"애","ㅔ":"에","ㅒ":"얘","ㅖ":"예","ㅘ":"와","ㅙ":"왜","ㅚ":"외","ㅝ":"워","ㅞ":"웨","ㅟ":"위","ㅢ":"의"};
 function renderMap(){
   document.getElementById("mapChart").innerHTML = MAP_ROWS.map(row =>
     '<div class="maprow">'+row.t+'</div><div class="grid-jamo">'+
@@ -799,7 +821,27 @@ const LEVELS = [
   {id:"pal", name:"Palabras"},
   {id:"time", name:"⚡ Contrarreloj"}
 ];
-let dLevel = null, dQueue = [], dIdx = 0, dFirstOk = 0, dFirstN = 0, dAnswered = 0;
+/* Rotación: cada ronda cambia de modo y de grupo, para que nunca sea la misma práctica */
+const MODES = [
+  {id:"read",   name:"📖 Lectura"},
+  {id:"listen", name:"👂 Escucha"},
+  {id:"rev",    name:"🔁 Inversa"}
+];
+const VOC_POOLS = [
+  {name:"básicas",    filter:v=>v.grp==="bas"},
+  {name:"compuestas", filter:v=>v.grp==="comp"},
+  {name:"todas",      filter:()=>true}
+];
+const JUNGS_BAS  = ["ㅏ","ㅓ","ㅗ","ㅜ","ㅡ","ㅣ","ㅑ","ㅕ","ㅛ","ㅠ","ㅔ","ㅐ"];
+const JUNGS_COMP = ["ㅒ","ㅖ","ㅘ","ㅙ","ㅚ","ㅝ","ㅞ","ㅟ","ㅢ"];
+const SIL_POOLS = [
+  {name:"vocales básicas",    jungs:JUNGS_BAS},
+  {name:"vocales compuestas", jungs:JUNGS_COMP},
+  {name:"todo mezclado",      jungs:JUNGS_BAS.concat(JUNGS_COMP)}
+];
+const SND_V = {"ㅐ":"e","ㅔ":"e","ㅒ":"ye","ㅖ":"ye","ㅙ":"we","ㅚ":"we","ㅞ":"we"};
+let dLevel = null, dMode = "read", dPool = [], dPoolName = "";
+let dQueue = [], dIdx = 0, dFirstOk = 0, dFirstN = 0, dAnswered = 0;
 let streak = 0, sessionOk = 0, sessionN = 0;
 let timed = false, timeLeft = 60, timerInt = null, timedScore = 0;
 let autoAudio = false;
@@ -813,32 +855,43 @@ function shuffle(a){
   for (let i=a.length-1;i>0;i--){ const k=Math.floor(Math.random()*(i+1)); [a[i],a[k]]=[a[k],a[i]]; }
   return a;
 }
-function sample(arr, n, notRom){
-  const pool = shuffle(arr.slice()).filter(x => x.rom !== notRom);
-  const out = [], seen = {};
+/* distractores: rom distinta siempre; en modo escucha, también sonido distinto
+   (para no ofrecer ㅐ y ㅔ a la vez cuando suenan igual) */
+function sample(arr, n, item, bySnd){
+  const aSnd = item.snd || item.rom;
+  const pool = shuffle(arr.slice()).filter(x =>
+    x.rom !== item.rom && (!bySnd || (x.snd||x.rom) !== aSnd));
+  const out = [], seenR = {}, seenS = {};
   for (const x of pool){
-    if (seen[x.rom]) continue;
-    seen[x.rom] = 1; out.push(x);
+    const s = x.snd || x.rom;
+    if (seenR[x.rom]) continue;
+    if (bySnd && seenS[s]) continue;
+    seenR[x.rom] = 1; seenS[s] = 1; out.push(x);
     if (out.length >= n) break;
   }
   return out;
 }
-function itemsFor(level){
-  if (level==="voc") return VOWELS.map(v => ({show:v.j, rom:v.r, say:VOWEL_SAY[v.j]||v.j, extra:v.hint}));
+function itemsFor(level, poolIdx){
+  poolIdx = poolIdx || 0;
+  if (level==="voc"){
+    const P = VOC_POOLS[poolIdx % VOC_POOLS.length];
+    return VOWELS.filter(P.filter).map(v => ({show:v.j, rom:v.r, say:VOWEL_SAY[v.j]||v.j, extra:v.hint, snd:v.snd||v.r}));
+  }
   if (level==="con") return CONS.map(c => ({show:c.j, rom:c.r, say:c.plus, extra:c.hint}));
   if (level==="fue") return STRONG.map(c => ({show:c.j, rom:c.r, say:c.plus, extra:c.hint}));
   if (level==="sil"){
+    const P = SIL_POOLS[poolIdx % SIL_POOLS.length];
     const chos = ["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
-    const jungs = ["ㅏ","ㅓ","ㅗ","ㅜ","ㅡ","ㅣ","ㅑ","ㅕ","ㅛ","ㅠ","ㅔ","ㅐ"];
     const set = [], used = {};
-    while (set.length < 40){
+    let guard = 0;
+    while (set.length < 40 && guard++ < 800){
       const c = chos[Math.floor(Math.random()*chos.length)];
-      const v = jungs[Math.floor(Math.random()*jungs.length)];
+      const v = P.jungs[Math.floor(Math.random()*P.jungs.length)];
       const s = compose(c,v,"");
       const r = romSyl(c,v,"");
       if (used[r]) continue;
       used[r] = 1;
-      set.push({show:s, rom:r, say:s, extra:""});
+      set.push({show:s, rom:r, say:s, extra:"", snd:CHO_R[c]+(SND_V[v]||JUNG_R[v])});
     }
     return set;
   }
@@ -846,9 +899,15 @@ function itemsFor(level){
   if (level==="pal") return WORDS.map(w => ({show:w.kr, rom:w.r, say:w.kr, extra:w.es}));
   return [];
 }
-function makeQ(item, pool){
-  const opts = sample(pool, 3, item.rom).map(x=>x.rom);
-  opts.push(item.rom);
+function poolNameFor(level, poolIdx){
+  if (level==="voc") return "vocales " + VOC_POOLS[poolIdx % VOC_POOLS.length].name;
+  if (level==="sil") return SIL_POOLS[poolIdx % SIL_POOLS.length].name;
+  return "";
+}
+function makeQ(item, pool, mode){
+  const listen = mode === "listen";
+  const opts = sample(pool, 3, item, listen).map(x => ({label: mode==="read" ? x.rom : x.show, key: x.rom}));
+  opts.push({label: mode==="read" ? item.rom : item.show, key: item.rom});
   return {item, opts:shuffle(opts)};
 }
 function renderLevelChips(){
@@ -871,14 +930,22 @@ function startDrill(level){
   timed = (level === "time");
   streak = 0; sessionOk = 0; sessionN = 0;
   dFirstOk = 0; dFirstN = 0; dAnswered = 0; timedScore = 0;
-  const pool = timed
-    ? itemsFor("sil").concat(itemsFor("bat"), itemsFor("pal"))
-    : itemsFor(level);
-  const base = shuffle(pool.slice()).slice(0, timed ? pool.length : 10);
-  dQueue = base.map(it => ({q:makeQ(it, pool), first:true}));
+  prog.rot = prog.rot || {};
+  const rot = prog.rot[level] || 0;
+  if (!timed){ prog.rot[level] = rot + 1; saveP(prog); }
+  dMode = timed ? "read" : MODES[rot % MODES.length].id;
+  const poolIdx = Math.floor(rot / MODES.length);
+  dPool = timed
+    ? itemsFor("sil", 2).concat(itemsFor("bat"), itemsFor("pal"))
+    : itemsFor(level, poolIdx);
+  dPoolName = timed ? "todo mezclado" : poolNameFor(level, poolIdx);
+  const base = shuffle(dPool.slice()).slice(0, timed ? dPool.length : 10);
+  dQueue = base.map(it => ({q:makeQ(it, dPool, dMode), first:true}));
   dIdx = 0;
   document.getElementById("hudTimer").hidden = !timed;
   document.getElementById("autoAudio").checked = autoAudio;
+  const modeName = timed ? "⚡ velocidad" : MODES.find(m => m.id === dMode).name;
+  document.getElementById("hudMode").textContent = modeName + (dPoolName ? " · " + dPoolName : "");
   renderLevelChips();
   if (timed){
     timeLeft = 60;
@@ -902,23 +969,33 @@ function updateHUD(){
 function nextQ(){
   if (!timed && dIdx >= dQueue.length){ return endRound(); }
   if (timed && dIdx >= dQueue.length){
-    const pool = itemsFor("sil").concat(itemsFor("bat"), itemsFor("pal"));
-    dQueue.push({q:makeQ(pool[Math.floor(Math.random()*pool.length)], pool), first:true});
+    dQueue.push({q:makeQ(dPool[Math.floor(Math.random()*dPool.length)], dPool, "read"), first:true});
   }
   const {q} = dQueue[dIdx];
   const area = document.getElementById("drillArea");
-  area.innerHTML =
-    '<div class="prompt"><div class="glyph kr">'+q.item.show+'</div>'+
-    '<button class="sound" aria-label="Escuchar" onclick="speak(\''+q.item.say+'\')">🔊</button></div>'+
-    '<div class="answers">'+ q.opts.map((o,i)=>'<button onclick="answer('+i+')">'+o+'</button>').join("") +'</div>'+
+  let promptHTML;
+  if (dMode === "listen" && !timed){
+    promptHTML = '<div class="prompt"><div style="text-align:center">'+
+      '<button class="sound big" aria-label="Escuchar el sonido" onclick="speak(\''+q.item.say+'\')">🔊</button>'+
+      '<div class="subtle" style="margin-top:8px">Toca y elige lo que escuchas</div></div></div>';
+  } else if (dMode === "rev" && !timed){
+    promptHTML = '<div class="prompt"><div class="glyph" style="font-size:clamp(2rem,9vw,3.2rem)">'+q.item.rom+'</div></div>';
+  } else {
+    promptHTML = '<div class="prompt"><div class="glyph kr">'+q.item.show+'</div>'+
+      '<button class="sound" aria-label="Escuchar" onclick="speak(\''+q.item.say+'\')">🔊</button></div>';
+  }
+  const krops = (dMode !== "read" && !timed) ? " krops" : "";
+  area.innerHTML = promptHTML +
+    '<div class="answers'+krops+'">'+ q.opts.map((o,i)=>'<button onclick="answer('+i+')"'+(krops?' class="kr"':'')+'>'+o.label+'</button>').join("") +'</div>'+
     '<div class="feedback" id="fb"></div>';
+  if (dMode === "listen" && !timed) speak(q.item.say);
 }
 function answer(i){
   const entry = dQueue[dIdx], q = entry.q;
-  const good = q.opts[i] === q.item.rom;
+  const good = q.opts[i].key === q.item.rom;
   const btns = document.querySelectorAll(".answers button");
   btns.forEach(b => b.disabled = true);
-  btns.forEach(b => { if (b.textContent === q.item.rom) b.classList.add("good"); });
+  q.opts.forEach((o,k) => { if (o.key === q.item.rom && btns[k]) btns[k].classList.add("good"); });
   if (!good) btns[i].classList.add("badpick");
   const fb = document.getElementById("fb");
   sessionN++;
@@ -932,12 +1009,12 @@ function answer(i){
   } else {
     streak = 0;
     fb.className = "feedback bad";
-    fb.textContent = "Era “" + q.item.rom + "”" + (q.item.extra ? " · " + q.item.extra : "");
+    fb.textContent = "Era “" + q.item.rom + "” (" + q.item.show + ")" + (q.item.extra ? " · " + q.item.extra : "");
     if (!timed && entry.first){
-      dQueue.push({q:makeQ(q.item, itemsFor(dLevel)), first:false});
+      dQueue.push({q:makeQ(q.item, dPool, dMode), first:false});
     }
   }
-  if (autoAudio) speak(q.item.say);
+  if (autoAudio && dMode !== "listen") speak(q.item.say);
   saveP(prog);
   dAnswered++;
   dIdx++;
@@ -955,7 +1032,8 @@ function endRound(){
     '<div class="stars">'+("★".repeat(stars) + "☆".repeat(3-stars))+'</div>'+
     '<p><b>'+dFirstOk+' de '+dFirstN+'</b> a la primera ('+Math.round(acc*100)+'%)</p>'+
     '<p class="subtle">'+(stars===3 ? "¡Perfecto! Este nivel ya es tuyo." : stars>=1 ? "¡Bien! Repite para subir estrellas." : "Vuelve a la lección y reintenta — vas a ver el clic.")+'</p>'+
-    '<p><button class="btn primary" onclick="startDrill(\''+dLevel+'\')">Repetir</button> '+
+    '<p class="subtle">🔄 La próxima ronda cambia de modo, para que nunca practiques igual.</p>'+
+    '<p><button class="btn primary" onclick="startDrill(\''+dLevel+'\')">Siguiente ronda</button> '+
     '<button class="btn" onclick="showTab(\'learn\')">Volver a lecciones</button></p></div>';
 }
 function endTimed(){
@@ -987,6 +1065,15 @@ function resetProgress(){
 }
 
 /* ================= init ================= */
+function renderCompVowels(){
+  const wrap = document.getElementById("compVowels");
+  if (!wrap) return;
+  wrap.innerHTML = VOWELS.filter(v => v.grp === "comp").map(v =>
+    '<button onclick="speak(\''+(VOWEL_SAY[v.j]||v.j)+'\')" aria-label="Escuchar '+v.j+'">'+
+    '<span class="kr">'+v.j+'</span><small>'+v.r+'</small></button>'
+  ).join("");
+}
+renderCompVowels();
 vSetBase("i");
 renderOrgans();
 renderFams();
