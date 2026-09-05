@@ -305,8 +305,42 @@
     nav.tabs button{font-size:.88rem}
   }
 </style>
+<style>
+  .site-top{background:var(--card);border-bottom:1px solid var(--line)}
+  .site-top .in{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:18px;padding:10px 16px}
+  .site-top img{display:block}
+  .site-top .logo{display:flex;align-items:center;gap:10px;margin-right:auto;text-decoration:none}
+  .site-top a.lnk{color:var(--muted);text-decoration:none;font-weight:700;font-size:.9rem}
+  .site-top a.lnk:hover{color:var(--red)}
+  @media (max-width:480px){ .site-top .wordmark{display:none} }
+  .site-foot{background:#0a0a0f;color:rgba(255,255,255,.5);margin-top:40px;font-size:.88rem}
+  .site-foot .in{max-width:960px;margin:0 auto;padding:34px 16px 26px;display:flex;flex-direction:column;gap:18px}
+  .site-foot .brandrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .site-foot .tag{color:#fafaf5;font-weight:700}
+  .site-foot .tag b{color:#FF5A5F}
+  .site-foot nav{display:flex;flex-wrap:wrap;gap:6px 18px}
+  .site-foot nav a{color:rgba(255,255,255,.55);text-decoration:none;font-weight:600}
+  .site-foot nav a:hover{color:#fafaf5}
+  .site-foot .social{display:flex;gap:10px}
+  .site-foot .social a{width:36px;height:36px;border:1px solid rgba(255,255,255,.12);border-radius:9px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.55)}
+  .site-foot .social a:hover{color:#FF5A5F;border-color:#FF5A5F}
+  .site-foot .copy{border-top:1px solid rgba(255,255,255,.08);padding-top:14px;font-size:.78rem;color:rgba(255,255,255,.3)}
+</style>
+
 </head>
 <body>
+
+<nav class="site-top" aria-label="Academia Seúl">
+  <div class="in">
+    <a class="logo" href="/" aria-label="Volver a academiaseul.com">
+      <img src="/logo-tiger-red.png" alt="" style="height:36px;width:36px;object-fit:contain">
+      <img class="wordmark" src="/logo-text-red.png" alt="Academia Seúl" style="height:24px;width:auto;object-fit:contain">
+    </a>
+    <a class="lnk" href="/">Inicio</a>
+    <a class="lnk" href="/recursos">Recursos</a>
+    <a class="lnk" href="/nivel-1">Nivel 1</a>
+  </div>
+</nav>
 
 
 <div class="app">
@@ -1241,6 +1275,32 @@ renderSyl();
 renderMap();
 renderLevelChips();
 </script>
+
+<div class="site-foot">
+  <div class="in">
+    <div class="brandrow">
+      <img src="/logo-tiger-red.png" alt="" style="height:34px;width:34px;object-fit:contain">
+      <img src="/logo-text-red.png" alt="Academia Seúl" style="height:22px;width:auto;object-fit:contain">
+      <span class="tag" style="margin-left:8px">Aprende coreano con un <b>chingu</b>.</span>
+    </div>
+    <nav aria-label="Enlaces">
+      <a href="/">Inicio</a>
+      <a href="/nivel-1">Nivel 1 (A1)</a>
+      <a href="/recursos">Recursos</a>
+      <a href="/recursos/pronunciacion">Pronunciación</a>
+      <a href="/taller">Taller gratis</a>
+      <a href="/blog">Blog</a>
+      <a href="/terminos">Términos</a>
+      <a href="/privacidad">Privacidad</a>
+    </nav>
+    <div class="social">
+      <a href="https://www.instagram.com/academiaseul/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+      <a href="https://www.youtube.com/@JayChingu.Oficial" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></a>
+      <a href="https://wa.me/56942115562" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3 21l1.9-5.7A8.5 8.5 0 1 1 21 11.5z"/></svg></a>
+    </div>
+    <div class="copy">© 2026 Academia Seúl · Santiago, Chile · Clases online por Zoom</div>
+  </div>
+</div>
 
 </body>
 </html>
