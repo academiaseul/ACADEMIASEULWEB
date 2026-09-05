@@ -145,7 +145,7 @@ export default function TallerPopup() {
                 </p>
 
                 <div className="mt-6 inline-flex items-center gap-3 px-5 py-3 rounded-full bg-white/[0.04] border border-white/10">
-                  <span className="text-2xl font-bold text-seoul-white">$89 USD</span>
+                  <span className="text-2xl font-bold text-seoul-white">Octubre 2026</span>
                   <span className="text-[10px] uppercase tracking-widest text-seoul-red font-bold">
                     próxima cohorte
                   </span>

@@ -11,13 +11,14 @@ type NavLink = { label: string; href: string; highlight?: boolean; children?: Na
 
 const navLinks: NavLink[] = [
   { label: 'Inicio',        href: '/#hero'     },
-  { label: 'Nivel 1 · $89', href: '/nivel-1', highlight: true },
+  { label: 'Nivel 1', href: '/nivel-1', highlight: true },
   { label: 'Sobre Jay',     href: '/sobre'     },
   { label: 'Taller Gratis', href: '/taller'    },
   {
     label: 'Recursos',
     href: '/recursos',
     children: [
+      { label: 'Lector de Hangul 🐯 (nuevo)', href: '/lector-hangul'   },
       { label: 'Test de nivel',         href: '/test-nivel'            },
       { label: 'Guías',                 href: '/recursos/guias'        },
       { label: 'Pronunciación coreana', href: '/recursos/pronunciacion' },

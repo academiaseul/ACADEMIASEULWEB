@@ -87,8 +87,8 @@ export default function Terminos() {
               4. Política de reembolso
             </h2>
             <p>
-              El precio de lanzamiento del Nivel 1 es de{' '}
-              <strong>$89 USD / $85.000 CLP</strong> (pago único). Sobre los pagos:
+              El valor vigente de cada curso se informa en su página y durante el
+              proceso de inscripción (pago único). Sobre los pagos:
             </p>
             <ul className="list-disc pl-6 mt-3 space-y-2">
               <li>

@@ -79,7 +79,7 @@ export default function Nivel1Page() {
           whatsapp: form.whatsapp,
           clase: cohortes[selectedCohorte].label,
           metodo_de_pago: metodo,
-          monto: "$89 USD / $85.000 CLP",
+          monto: "Cohorte octubre 2026 — precio por confirmar",
         }),
       });
     } catch {
@@ -164,14 +164,14 @@ export default function Nivel1Page() {
     miercoles: {
       label: "🌙 Clase Miércoles",
       day: "Miércoles · 20:00 Chile",
-      hora: "20:00 hora Chile · empieza el 8 de julio",
+      hora: "20:00 hora Chile · cohorte de octubre — fecha por confirmar",
       ideal: "Ideal para LATAM (después del trabajo) · 21:00 Argentina · 19:00 Colombia/Perú · 18:00 México",
       paymentLink: "https://mpago.li/2tZRfqp",
     },
     sabado: {
       label: "☀️ Clase Sábados",
       day: "Sábados · 11:00 Chile",
-      hora: "11:00 hora Chile · 16:00 España · empieza el 11 de julio",
+      hora: "11:00 hora Chile · 16:00 España · cohorte de octubre — fecha por confirmar",
       ideal: "Ideal para España + LATAM que prefiere el fin de semana",
       paymentLink: "https://mpago.li/2tZRfqp",
     },
@@ -201,7 +201,7 @@ export default function Nivel1Page() {
   const faqs = [
     {
       q: "¿Necesito haber asistido al taller?",
-      a: "No, para nada. El precio de lanzamiento de $89 USD es para todos y está vigente hasta el 6 de julio.",
+      a: "No, para nada. El curso está abierto a todos; el precio de la cohorte de octubre se anuncia pronto y la lista de espera lo recibe primero.",
     },
     {
       q: "¿Las clases son en vivo o grabadas?",
@@ -250,7 +250,7 @@ export default function Nivel1Page() {
           <p className="text-gray-600 text-lg max-w-xl mb-8">
             Los grupos de miércoles y sábados de julio ya empezaron. Anotate en la lista de espera
             y te aviso apenas se abran los cupos de la próxima cohorte ({PROXIMA_COHORTE_LABEL}) —
-            con acceso prioritario y precio de lanzamiento.
+            con acceso prioritario a horarios y precio.
           </p>
           <Link
             href="/notificarme?curso=nivel1"
@@ -323,7 +323,7 @@ export default function Nivel1Page() {
 
             {/* Countdown */}
             <div className="mt-10 inline-block bg-white/10 backdrop-blur rounded-2xl px-6 py-4">
-              <div className="text-xs tracking-widest opacity-80 mb-2">⏰ PROMO DE LANZAMIENTO · TERMINA EN</div>
+              <div className="text-xs tracking-widest opacity-80 mb-2">⏰ CUPOS LIMITADOS · COHORTE OCTUBRE 2026</div>
               <div className="flex gap-4 md:gap-6 justify-center text-2xl md:text-4xl font-bold">
                 <div><div>{timeLeft.days}</div><div className="text-xs opacity-70 mt-1">DÍAS</div></div>
                 <div className="opacity-40">:</div>
@@ -337,7 +337,7 @@ export default function Nivel1Page() {
 
             <div className="mt-10 flex flex-col md:flex-row gap-4 justify-center items-center">
               <a href="#inscripcion" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
-                Inscribirme · $89 USD
+                Inscribirme
               </a>
               <a href="#programa" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">
                 Ver el programa
@@ -466,7 +466,7 @@ export default function Nivel1Page() {
             Las 11 sesiones del programa
           </h2>
           <p className="text-gray-600 text-center mb-12">
-            Una clase en vivo por semana · elige miércoles 20:00 o sábados 11:00 (Chile) · 90 min · inicio en julio
+            Una clase en vivo por semana · 90 min · cohorte de octubre 2026 (horarios por confirmar)
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {lessons.map((lesson) => (
@@ -707,7 +707,7 @@ export default function Nivel1Page() {
                 Te anotamos en la <strong>{cohortes[selectedCohorte].label}</strong>. Ahora elige cómo pagar abajo para confirmar tu lugar.
               </p>
               <a href="#pricing" className="inline-block mt-4 px-8 py-3 rounded-full text-white font-bold" style={{ backgroundColor: "#3D2EE8" }}>
-                Ir a pagar · $89 USD ↓
+                Ir a pagar ↓
               </a>
             </div>
           )}
@@ -725,26 +725,19 @@ export default function Nivel1Page() {
               Completa tu pago
             </h2>
             <p className="text-sm font-bold tracking-widest" style={{ color: "#818CF8" }}>
-              PROMO DE LANZAMIENTO · HASTA EL 6 DE JULIO
+              COHORTE OCTUBRE 2026
             </p>
           </div>
 
           <div className="bg-white border-2 border-[#3D2EE8] rounded-3xl p-8 md:p-12 shadow-xl">
             {/* Price comparison */}
-            <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mb-8">
-              <div className="text-center">
-                <div className="text-2xl text-gray-400 line-through">$129 USD</div>
-                <div className="text-xs text-gray-500 mt-1">Precio regular</div>
-              </div>
-              <div className="text-4xl">→</div>
-              <div className="text-center">
-                <div className="text-6xl md:text-7xl font-bold" style={{ color: "#3D2EE8" }}>$89</div>
-                <div className="text-sm font-bold mt-1" style={{ color: "#818CF8" }}>USD · $85.000 CLP · PROMO LANZAMIENTO</div>
-              </div>
+            <div className="flex flex-col items-center justify-center gap-2 mb-8">
+              <div className="text-4xl md:text-5xl font-bold text-center" style={{ color: "#3D2EE8" }}>Precio por anunciar</div>
+              <div className="text-sm font-bold mt-1 text-center" style={{ color: "#818CF8" }}>COHORTE OCTUBRE 2026 · LA LISTA DE ESPERA LO RECIBE PRIMERO</div>
             </div>
 
             <div className="text-center text-gray-700 mb-8">
-              <p className="font-bold">Pago único · Acceso permanente · 31% OFF</p>
+              <p className="font-bold">Pago único · Acceso permanente</p>
             </div>
 
             {/* What's included */}
@@ -838,7 +831,7 @@ export default function Nivel1Page() {
                 rel="noopener noreferrer"
                 className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition"
               >
-                🌍 PayPal · pago internacional · $89 USD
+                🌍 PayPal · pago internacional
               </a>
 
               <p className="text-center text-xs text-gray-500">
@@ -988,18 +981,18 @@ export default function Nivel1Page() {
             ¿Listo para empezar?
           </h2>
           <p className="text-lg opacity-90 mb-8">
-            Las clases arrancan en julio: miércoles 8 o sábados 11. El precio de lanzamiento de $89 termina el 6 de julio.
+            La próxima cohorte arranca en octubre de 2026 — los horarios y el precio se anuncian muy pronto.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a href="#pricing" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
-              Inscribirme ahora · $89 USD
+              Sumarme a la lista de espera
             </a>
             <a href="https://wa.me/56942115562" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">
               💬 Hablar con Jay primero
             </a>
           </div>
           <div className="mt-8 text-sm opacity-70">
-            화이팅 chingu! Te espero en julio — miércoles 8 o sábados 11.
+            화이팅 chingu! Te espero en la cohorte de octubre.
           </div>
         </div>
       </section>

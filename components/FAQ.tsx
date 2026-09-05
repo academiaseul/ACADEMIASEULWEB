@@ -11,7 +11,7 @@ export const faqs = [
   },
   {
     q: '¿Cuánto cuesta y qué incluye?',
-    a: 'El Nivel 1 tiene un precio de lanzamiento de $89 USD / $85.000 CLP. Incluye todas las clases en vivo de la cohorte, material de estudio, certificado por participación y acceso a la comunidad. Puedes ver el programa completo en la página del Nivel 1.',
+    a: 'El precio de la cohorte de octubre 2026 se anunciará muy pronto — los de la lista de espera lo reciben primero. La matrícula incluye todas las clases en vivo de la cohorte, material de estudio, certificado por participación y acceso a la comunidad. Puedes ver el programa completo en la página del Nivel 1.',
   },
   {
     q: '¿Qué horarios y fechas hay?',

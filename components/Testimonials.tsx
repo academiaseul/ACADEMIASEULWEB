@@ -384,7 +384,7 @@ export default function Testimonials() {
             href="/notificarme?curso=nivel1"
             className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
           >
-            Lista de espera Nivel 1 · Precio de lanzamiento $89
+            Lista de espera Nivel 1 · Cohorte octubre 2026
             <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
           </a>
         </motion.div>

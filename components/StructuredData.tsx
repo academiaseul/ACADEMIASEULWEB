@@ -40,9 +40,7 @@ const course = {
   offers: {
     '@type': 'Offer',
     category: 'Paid',
-    price: '89',
-    priceCurrency: 'USD',
-    availability: 'https://schema.org/InStock',
+    availability: 'https://schema.org/PreOrder',
     url: `${BASE}/nivel-1`,
   },
 };

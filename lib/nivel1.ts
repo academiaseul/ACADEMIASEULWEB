@@ -13,4 +13,4 @@
 
 export const COHORTE_ABIERTA = false;
 
-export const PROXIMA_COHORTE_LABEL = "Próximamente"; // ej: "Septiembre 2026" cuando se confirme
+export const PROXIMA_COHORTE_LABEL = "Octubre 2026"; // horarios y precio por anunciar

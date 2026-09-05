@@ -14,7 +14,7 @@ const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${DEFAULT_MESSAGE}`;
 const QUICK_REPLIES = [
   {
     label: 'Quiero la próxima cohorte del Nivel 1',
-    msg: 'Hola Jay! Quiero sumarme a la próxima cohorte del Nivel 1 con el precio de lanzamiento de $89.',
+    msg: 'Hola Jay! Quiero sumarme a la próxima cohorte del Nivel 1 (octubre). ¿Me avisas cuando abran los cupos?',
   },
   {
     label: 'Info del Curso Nivel 1',
