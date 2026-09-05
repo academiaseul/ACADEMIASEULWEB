@@ -405,11 +405,41 @@
   </details>
 
   <details class="card lesson">
-    <summary><span class="lnum">7</span> El mapa completo <span class="chev">›</span></summary>
+    <summary><span class="lnum">7</span> Dos maneras de contar (숫자) <span class="chev">›</span></summary>
+    <p>Corea usa <b>dos sistemas de números a la vez</b>. Uno vino del chino y otro es coreano puro — y cada uno tiene su territorio:</p>
+    <div class="twrap"><table class="btable">
+      <tr><th>Sistema</th><th>1–10</th><th>Se usa para…</th></tr>
+      <tr><td><b>Sino-coreano</b> 한자어</td><td class="kr">일 이 삼 사 오 육 칠 팔 구 십</td><td>fechas, dinero, minutos, teléfonos, pisos</td></tr>
+      <tr><td><b>Nativo</b> 고유어</td><td class="kr">하나 둘 셋 넷 다섯 여섯 일곱 여덟 아홉 열</td><td>edad, horas (en punto), contar cosas y personas</td></tr>
+    </table></div>
+    <h3>El explorador: cualquier número, en las dos voces</h3>
+    <p>Los sino-coreanos se arman como LEGO: 27 = <span class="kr">이십칠</span> (2×10+7). Los nativos tienen palabra propia por decena: 27 = <span class="kr">스물일곱</span>. Muévete y escucha:</p>
+    <div class="stage" style="flex-direction:column;gap:14px">
+      <div style="display:flex;align-items:center;gap:12px">
+        <button class="btn" onclick="numStep(-1)" aria-label="Menos uno">−</button>
+        <div class="glyph g-lg tabnum" id="numDisplay">27</div>
+        <button class="btn" onclick="numStep(1)" aria-label="Más uno">+</button>
+        <button class="btn ghost" onclick="numRandom()" aria-label="Número al azar">🎲</button>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;width:100%" id="numCards"></div>
+    </div>
+    <div class="box gold">
+      <p class="boxtitle">Trucos que salvan vidas</p>
+      <ul>
+        <li>La hora <b>mezcla los dos</b>: 3:30 = <span class="kr">세 시 삼십 분</span> — hora nativa + minutos sino. <button class="sound" style="width:36px;height:36px;font-size:.95rem" onclick="speak('세 시 삼십 분')" aria-label="Escuchar tres y media">🔊</button></li>
+        <li>Al contar, 1–4 se acortan: <span class="kr">하나→한 · 둘→두 · 셋→세 · 넷→네</span> (<span class="kr">한 개</span> = una cosa).</li>
+        <li>Cero: <span class="kr">영</span> en matemáticas, <span class="kr">공</span> en teléfonos. Y los grandes: <span class="kr">백</span>=100 · <span class="kr">천</span>=1.000 · <span class="kr">만</span>=10.000.</li>
+      </ul>
+    </div>
+    <p style="text-align:center"><button class="btn primary" onclick="startDrill('num')">Practicar números →</button></p>
+  </details>
+
+  <details class="card lesson">
+    <summary><span class="lnum">8</span> El mapa completo <span class="chev">›</span></summary>
     <p>Todo el alfabeto, organizado por su lógica. Toca cualquier letra para oírla y ver su pista:</p>
     <div id="mapChart"></div>
     <div id="mapDetail"><span class="subtle">Toca una letra…</span></div>
-    <p style="margin-top:12px;text-align:center"><button class="btn primary" onclick="startDrill('pal')">Leer palabras reales →</button></p>
+    <p style="margin-top:12px;text-align:center"><button class="btn primary" onclick="startDrill('pal')">Leer palabras reales →</button> <button class="btn" onclick="startDrill('pic')">🖼 Jugar Pictogramas →</button></p>
   </details>
 </section>
 
@@ -604,6 +634,91 @@ const WORDS = [
   {kr:"내일", r:"nae·il", es:"mañana"},
   {kr:"시간", r:"si·gan", es:"tiempo / hora"},
   {kr:"주세요", r:"ju·se·yo", es:"deme, por favor"}
+];
+
+/* ============ números: dos sistemas ============ */
+const SINO_U = ["","일","이","삼","사","오","육","칠","팔","구"];
+const SINO_R = ["","il","i","sam","sa","o","yuk","chil","pal","gu"];
+const NAT_U  = ["","하나","둘","셋","넷","다섯","여섯","일곱","여덟","아홉"];
+const NAT_UR = ["","ha·na","dul","set","net","da·seot","yeo·seot","il·gop","yeo·deol","a·hop"];
+const NAT_T  = ["","열","스물","서른","마흔","쉰","예순","일흔","여든","아흔"];
+const NAT_TR = ["","yeol","seu·mul","seo·reun","ma·heun","swin","ye·sun","il·heun","yeo·deun","a·heun"];
+function sinoWord(n){
+  if (n === 0) return "영";
+  const t = Math.floor(n/10), o = n%10;
+  if (n < 10) return SINO_U[n];
+  return (t > 1 ? SINO_U[t] : "") + "십" + (o ? SINO_U[o] : "");
+}
+function sinoRom(n){
+  if (n === 0) return "yeong";
+  const t = Math.floor(n/10), o = n%10;
+  if (n < 10) return SINO_R[n];
+  return (t > 1 ? SINO_R[t] + "·" : "") + "sip" + (o ? "·" + SINO_R[o] : "");
+}
+function nativeWord(n){
+  const t = Math.floor(n/10), o = n%10;
+  return NAT_T[t] + NAT_U[o];
+}
+function nativeRom(n){
+  const t = Math.floor(n/10), o = n%10;
+  return NAT_TR[t] + (t && o ? "·" : "") + NAT_UR[o];
+}
+let numN = 27;
+function numCardHTML(title, use, word, rom, accent){
+  return '<div style="flex:1 1 210px;max-width:260px;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--'+accent+');border-radius:8px;padding:12px;display:flex;flex-direction:column;align-items:center;gap:4px">'+
+    '<div class="subtle" style="font-size:.76rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase">'+title+'</div>'+
+    '<div class="glyph g-md kr">'+word+'</div>'+
+    '<div style="font-weight:700">'+rom+'</div>'+
+    '<div class="subtle" style="font-size:.78rem;text-align:center">'+use+'</div>'+
+    '<button class="sound" onclick="speak(\''+word+'\')" aria-label="Escuchar '+word+'">🔊</button></div>';
+}
+function renderNum(){
+  const disp = document.getElementById("numDisplay");
+  if (!disp) return;
+  disp.textContent = numN;
+  document.getElementById("numCards").innerHTML =
+    numCardHTML("Sino-coreano 한자어", "fechas · dinero · minutos", sinoWord(numN), sinoRom(numN), "red") +
+    numCardHTML("Nativo 고유어", "edad · horas · contar cosas", nativeWord(numN), nativeRom(numN), "blue");
+}
+function numStep(d){ numN = Math.min(99, Math.max(1, numN + d)); renderNum(); }
+function numRandom(){ numN = 1 + Math.floor(Math.random()*99); renderNum(); }
+
+/* ============ pictogramas ============ */
+const PICTOS = [
+  {e:"🍌", kr:"바나나", rom:"ba·na·na", es:"plátano", g:"a"},
+  {e:"🍕", kr:"피자", rom:"pi·ja", es:"pizza", g:"a"},
+  {e:"🚌", kr:"버스", rom:"beo·seu", es:"bus", g:"a"},
+  {e:"☕", kr:"커피", rom:"keo·pi", es:"café", g:"a"},
+  {e:"🥛", kr:"우유", rom:"u·yu", es:"leche", g:"a"},
+  {e:"🍚", kr:"밥", rom:"bap", es:"arroz / comida", g:"a"},
+  {e:"🍞", kr:"빵", rom:"ppang", es:"pan", g:"a"},
+  {e:"📖", kr:"책", rom:"chaek", es:"libro", g:"a"},
+  {e:"👕", kr:"옷", rom:"ot", es:"ropa", g:"a"},
+  {e:"💰", kr:"돈", rom:"don", es:"dinero", g:"a"},
+  {e:"🚪", kr:"문", rom:"mun", es:"puerta", g:"a"},
+  {e:"🏠", kr:"집", rom:"jip", es:"casa", g:"a"},
+  {e:"💻", kr:"컴퓨터", rom:"keom·pyu·teo", es:"computador", g:"a"},
+  {e:"📞", kr:"전화", rom:"jeon·hwa", es:"teléfono", g:"a"},
+  {e:"☂️", kr:"우산", rom:"u·san", es:"paraguas", g:"a"},
+  {e:"🍜", kr:"라면", rom:"ra·myeon", es:"ramyeon", g:"a"},
+  {e:"💧", kr:"물", rom:"mul", es:"agua", g:"a"},
+  {e:"🥩", kr:"고기", rom:"go·gi", es:"carne", g:"a"},
+  {e:"🍎", kr:"사과", rom:"sa·gwa", es:"manzana", g:"a"},
+  {e:"🍓", kr:"딸기", rom:"ttal·gi", es:"fresa", g:"a"},
+  {e:"🌳", kr:"나무", rom:"na·mu", es:"árbol", g:"b"},
+  {e:"🌊", kr:"바다", rom:"ba·da", es:"mar", g:"b"},
+  {e:"⛰️", kr:"산", rom:"san", es:"montaña", g:"b"},
+  {e:"🌷", kr:"꽃", rom:"kkot", es:"flor", g:"b"},
+  {e:"🌙", kr:"달", rom:"dal", es:"luna", g:"b"},
+  {e:"⭐", kr:"별", rom:"byeol", es:"estrella", g:"b"},
+  {e:"☀️", kr:"해", rom:"hae", es:"sol", g:"b"},
+  {e:"🌧️", kr:"비", rom:"bi", es:"lluvia", g:"b"},
+  {e:"🔥", kr:"불", rom:"bul", es:"fuego", g:"b"},
+  {e:"❄️", kr:"눈", rom:"nun", es:"nieve", g:"b"},
+  {e:"🐶", kr:"강아지", rom:"gang·a·ji", es:"perro", g:"b"},
+  {e:"🐱", kr:"고양이", rom:"go·yang·i", es:"gato", g:"b"},
+  {e:"✋", kr:"손", rom:"son", es:"mano", g:"b"},
+  {e:"❤️", kr:"사랑", rom:"sa·rang", es:"amor", g:"b"}
 ];
 
 /* syllable composition */
@@ -822,6 +937,8 @@ const LEVELS = [
   {id:"sil", name:"Sílabas"},
   {id:"bat", name:"Batchim"},
   {id:"pal", name:"Palabras"},
+  {id:"num", name:"Números"},
+  {id:"pic", name:"🖼 Pictogramas"},
   {id:"time", name:"⚡ Contrarreloj"}
 ];
 /* Rotación: cada ronda cambia de modo y de grupo, para que nunca sea la misma práctica */
@@ -843,6 +960,12 @@ const SIL_POOLS = [
   {name:"todo mezclado",      jungs:JUNGS_BAS.concat(JUNGS_COMP)}
 ];
 const SND_V = {"ㅐ":"e","ㅔ":"e","ㅒ":"ye","ㅖ":"ye","ㅙ":"we","ㅚ":"we","ㅞ":"we"};
+const NUM_POOLS = [{name:"sino-coreanos"},{name:"nativos"},{name:"mezclados"}];
+const PIC_POOLS = [
+  {name:"comida y objetos", filter:p=>p.g==="a"},
+  {name:"naturaleza y vida", filter:p=>p.g==="b"},
+  {name:"todo", filter:()=>true}
+];
 let dLevel = null, dMode = "read", dPool = [], dPoolName = "";
 let dQueue = [], dIdx = 0, dFirstOk = 0, dFirstN = 0, dAnswered = 0;
 let streak = 0, sessionOk = 0, sessionN = 0;
@@ -900,11 +1023,39 @@ function itemsFor(level, poolIdx){
   }
   if (level==="bat") return BATCHIM_WORDS.map(w => ({show:w.kr, rom:w.r, say:w.kr, extra:w.es}));
   if (level==="pal") return WORDS.map(w => ({show:w.kr, rom:w.r, say:w.kr, extra:w.es}));
+  if (level==="num"){
+    const sys3 = poolIdx % NUM_POOLS.length;
+    const cand = [1,2,3,4,5,6,7,8,9,10];
+    while (cand.length < 30){
+      const n = 11 + Math.floor(Math.random()*89);
+      if (!cand.includes(n)) cand.push(n);
+    }
+    const pool = [], used = {};
+    for (const n of cand){
+      const sys = sys3===0 ? "s" : sys3===1 ? "n" : (Math.random() < 0.5 ? "s" : "n");
+      const word = sys==="s" ? sinoWord(n) : nativeWord(n);
+      if (used[word]) continue;
+      used[word] = 1;
+      pool.push({
+        show: word, rom: String(n), say: word, snd: word,
+        extra: (sys==="s" ? "sino-coreano · " : "nativo · ") + (sys==="s" ? sinoRom(n) : nativeRom(n)),
+        revHint: n + " · " + (sys==="s" ? "sino" : "nativo")
+      });
+    }
+    return pool;
+  }
+  if (level==="pic"){
+    const P = PIC_POOLS[poolIdx % PIC_POOLS.length];
+    return PICTOS.filter(P.filter).map(p =>
+      ({show:p.e, rom:p.kr, say:p.kr, snd:p.kr, extra:p.rom + " · " + p.es, revHint:p.kr}));
+  }
   return [];
 }
 function poolNameFor(level, poolIdx){
   if (level==="voc") return "vocales " + VOC_POOLS[poolIdx % VOC_POOLS.length].name;
   if (level==="sil") return SIL_POOLS[poolIdx % SIL_POOLS.length].name;
+  if (level==="num") return NUM_POOLS[poolIdx % NUM_POOLS.length].name;
+  if (level==="pic") return PIC_POOLS[poolIdx % PIC_POOLS.length].name;
   return "";
 }
 function makeQ(item, pool, mode){
@@ -939,7 +1090,7 @@ function startDrill(level){
   dMode = timed ? "read" : MODES[rot % MODES.length].id;
   const poolIdx = Math.floor(rot / MODES.length);
   dPool = timed
-    ? itemsFor("sil", 2).concat(itemsFor("bat"), itemsFor("pal"))
+    ? itemsFor("sil", 2).concat(itemsFor("bat"), itemsFor("pal"), itemsFor("num", 2))
     : itemsFor(level, poolIdx);
   dPoolName = timed ? "todo mezclado" : poolNameFor(level, poolIdx);
   const base = shuffle(dPool.slice()).slice(0, timed ? dPool.length : 10);
@@ -982,12 +1133,12 @@ function nextQ(){
       '<button class="sound big" aria-label="Escuchar el sonido" onclick="speak(\''+q.item.say+'\')">🔊</button>'+
       '<div class="subtle" style="margin-top:8px">Toca y elige lo que escuchas</div></div></div>';
   } else if (dMode === "rev" && !timed){
-    promptHTML = '<div class="prompt"><div class="glyph" style="font-size:clamp(2rem,9vw,3.2rem)">'+q.item.rom+'</div></div>';
+    promptHTML = '<div class="prompt"><div class="glyph kr" style="font-size:clamp(2rem,9vw,3.2rem)">'+(q.item.revHint || q.item.rom)+'</div></div>';
   } else {
     promptHTML = '<div class="prompt"><div class="glyph kr">'+q.item.show+'</div>'+
       '<button class="sound" aria-label="Escuchar" onclick="speak(\''+q.item.say+'\')">🔊</button></div>';
   }
-  const krops = (dMode !== "read" && !timed) ? " krops" : "";
+  const krops = ((dMode !== "read" || dLevel === "pic" || dLevel === "num") && !timed) ? " krops" : "";
   area.innerHTML = promptHTML +
     '<div class="answers'+krops+'">'+ q.opts.map((o,i)=>'<button onclick="answer('+i+')"'+(krops?' class="kr"':'')+'>'+o.label+'</button>').join("") +'</div>'+
     '<div class="feedback" id="fb"></div>';
@@ -1077,6 +1228,7 @@ function renderCompVowels(){
   ).join("");
 }
 renderCompVowels();
+renderNum();
 vSetBase("i");
 renderOrgans();
 renderFams();
