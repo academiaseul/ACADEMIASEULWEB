@@ -15,7 +15,7 @@ const courses = [
     description:
       'Empieza desde cero. Aprende el alfabeto Hangul, presentarte, hablar de tu día, comprar en una tienda coreana. 11 sesiones en vivo con el Método Chingu™.',
     duration: '10 semanas',
-    sessions: '1 clase / semana · 90 min',
+    sessions: '1 clase / semana · 60 min',
     groupSize: '15 cupos por clase',
     badge: 'Cohorte en curso · lista de espera',
     color: '#3D2EE8',

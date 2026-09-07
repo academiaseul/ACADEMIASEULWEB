@@ -205,7 +205,7 @@ export default function Nivel1Page() {
     },
     {
       q: "¿Las clases son en vivo o grabadas?",
-      a: "Las 11 sesiones son EN VIVO por Zoom (90 min cada una). Si te perdés alguna, te mando la grabación dentro de las 24 horas.",
+      a: "Las sesiones son EN VIVO por Zoom (60 min cada una). Si te perdés alguna, te mando la grabación dentro de las 24 horas.",
     },
     {
       q: "¿Qué pasa si no puedo asistir a mi clase un día?",
@@ -466,7 +466,7 @@ export default function Nivel1Page() {
             Las 11 sesiones del programa
           </h2>
           <p className="text-gray-600 text-center mb-12">
-            Una clase en vivo por semana · 90 min · cohorte de octubre 2026 (horarios por confirmar)
+            Una clase en vivo por semana · 60 min · cohorte de octubre 2026 (horarios por confirmar)
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {lessons.map((lesson) => (
@@ -745,7 +745,7 @@ export default function Nivel1Page() {
               <h3 className="font-bold text-gray-900 mb-4 text-center">Incluye:</h3>
               <ul className="space-y-3 max-w-md mx-auto">
                 {[
-                  "11 sesiones en vivo (90 min cada una)",
+                  "Sesiones en vivo de 60 min cada una",
                   "Slides + hojas de actividad por sesión",
                   "Audios de pronunciación grabados",
                   "Grabaciones de cada clase",
