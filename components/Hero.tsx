@@ -90,7 +90,10 @@ export default function Hero() {
         >
           Clases de coreano en vivo, diseñadas para hispanohablantes. Aprende a leer{' '}
           <span className="font-korean text-white">한글</span> desde cero, habla desde tus
-          primeras clases y entiende la cultura detrás del idioma — con un profesor nativo de Seúl.
+          primeras clases y entiende la cultura detrás del idioma — con profesores nativos.
+          <span className="block mt-2 font-semibold text-white">
+            Matrícula abierta · clases desde el 5 de octubre · US$150 o US$75/mes · certificado incluido.
+          </span>
         </motion.p>
 
         {/* CTA Buttons — real anchor tags with real click targets */}
@@ -101,16 +104,16 @@ export default function Hero() {
           className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
           <a
-            href="/nivel-1"
+            href="/nivel-1#clases"
             className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#2C1FB0] hover:shadow-seoul-red/40 focus:outline-none focus:ring-2 focus:ring-seoul-red focus:ring-offset-2 focus:ring-offset-seoul-black"
           >
-            Empieza a aprender · Nivel 1 <span aria-hidden>→</span>
+            Inscribirme · Octubre 2026 <span aria-hidden>→</span>
           </a>
           <a
-            href="#courses"
+            href="/programa"
             className="inline-flex items-center rounded-md border border-white/20 px-8 py-4 font-semibold text-white transition-colors duration-200 hover:border-white/40 hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-white/40 focus:ring-offset-2 focus:ring-offset-seoul-black"
           >
-            Ver cursos
+            Ver programa y horarios
           </a>
         </motion.div>
 

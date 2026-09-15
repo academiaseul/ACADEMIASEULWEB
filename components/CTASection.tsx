@@ -71,8 +71,8 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-base md:text-lg text-seoul-black/50 max-w-lg mx-auto leading-relaxed mb-12"
         >
-          Únete a Academia Seúl y empieza a leer coreano en 30 días. La cohorte actual de Nivel 1
-          ya está en curso — anotate en la lista de espera para la cohorte de octubre 2026 y recibe primero los horarios y el precio.
+          La matrícula de octubre está abierta: clases en vivo desde el 5 de octubre, 8 semanas,
+          certificado incluido. US$150 el curso completo o US$75/mes — elige tu nivel y tu horario.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -83,11 +83,11 @@ export default function CTASection() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <a
-            href="/notificarme?curso=nivel1"
+            href="/nivel-1#clases"
             className="group relative px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-[#2C1FB0] transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
           >
             <span className="relative z-10">
-              Lista de espera Nivel 1 · Octubre →
+              Inscribirme · Empieza el 5 de octubre →
             </span>
           </a>
           <a
@@ -106,10 +106,10 @@ export default function CTASection() {
           className="mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center"
         >
           {[
-            '✓ Pago único, sin cuotas',
+            '✓ US$150 o US$75/mes',
             '✓ Grabaciones incluidas',
             '✓ Máximo 15 alumnos',
-            '✓ Certificado por participación',
+            '✓ Certificado incluido',
           ].map((item) => (
             <span key={item} className="text-sm text-seoul-black/35 font-medium">
               {item}

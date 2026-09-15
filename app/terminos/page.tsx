@@ -28,7 +28,7 @@ export default function Terminos() {
           Términos y <span className="text-gradient-red">Condiciones</span>
         </h1>
         <p className="text-white/40 text-sm mb-12">
-          Última actualización: mayo 2026
+          Última actualización: septiembre 2026
         </p>
 
         <div className="space-y-10 text-white/70 leading-relaxed text-[15px]">
@@ -69,12 +69,16 @@ export default function Terminos() {
                 (tarjeta crédito/débito, transferencia bancaria, Mercado Pago, PayPal).
               </li>
               <li>
-                Los precios están publicados en USD o CLP según corresponda y pueden
-                variar según la cohorte o el plan elegido.
+                Los precios están publicados en USD (Mercado Pago cobra el equivalente en
+                CLP) y pueden variar según la cohorte. Cada curso ofrece dos modalidades:
+                pago único (US$150) o plan mensual de 2 cuotas (US$75 al inscribirte y
+                US$75 al inicio del segundo mes).
               </li>
               <li>
                 Tu cupo queda confirmado únicamente cuando recibimos el pago completo o
-                la reserva acordada.
+                la primera cuota del plan mensual. Con el plan mensual, la segunda cuota
+                debe estar pagada antes de la clase 5; de lo contrario, el acceso a las
+                clases y grabaciones se suspende hasta regularizar el pago.
               </li>
               <li>
                 Los cupos son limitados por cohorte. Se asignan por orden de inscripción.
@@ -88,7 +92,7 @@ export default function Terminos() {
             </h2>
             <p>
               El valor vigente de cada curso se informa en su página y durante el
-              proceso de inscripción (pago único). Sobre los pagos:
+              proceso de inscripción (pago único o plan mensual). Sobre los pagos:
             </p>
             <ul className="list-disc pl-6 mt-3 space-y-2">
               <li>
@@ -122,8 +126,9 @@ export default function Terminos() {
             </h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>
-                Puedes solicitar cambio de cohorte (de A a B o viceversa) en cualquier
-                momento, sujeto a disponibilidad de cupo.
+                Puedes solicitar cambio de sección u horario (por ejemplo, de Básico 1
+                martes a Básico 1 jueves) en cualquier momento, sujeto a disponibilidad de
+                cupo.
               </li>
               <li>
                 Las clases en vivo se graban y quedan disponibles durante el curso, así
@@ -142,13 +147,14 @@ export default function Terminos() {
               6. Asistencia y certificado
             </h2>
             <p>
-              El certificado del Nivel 1 (o cualquier curso pagado) se entrega por
+              El certificado está incluido en todos los cursos pagados y se entrega por
               participación:
             </p>
             <ul className="list-disc pl-6 mt-3 space-y-2">
               <li>
-                Recibes tu certificado de Academia Seúl por participar en las clases de la
-                cohorte (equivalente a CEFR A1 / TOPIK 초급 1).
+                Recibes tu certificado de Academia Seúl del nivel cursado (Básico 1 · A1.1,
+                Básico 2 · A1.2, Conversacional · A2.1, Preparación TOPIK II o Coreano para
+                Niños) al completar la cohorte.
               </li>
               <li>
                 Se considera tu asistencia y participación en las clases en vivo o grabadas

@@ -378,13 +378,13 @@ export default function Testimonials() {
           className="text-center mb-20"
         >
           <p className="text-seoul-black/40 text-sm mb-5">
-            La mejor forma de conocer mi método: la cohorte del Nivel 1.
+            La mejor forma de conocer nuestro método: una clase en vivo.
           </p>
           <a
-            href="/notificarme?curso=nivel1"
+            href="/nivel-1#clases"
             className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
           >
-            Lista de espera Nivel 1 · Cohorte octubre 2026
+            Inscribirme · Clases desde el 5 de octubre
             <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
           </a>
         </motion.div>

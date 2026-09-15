@@ -63,21 +63,21 @@ function resultFor(score: number) {
     return {
       tier: 'Principiante total',
       emoji: '🌱',
-      text: 'Estás partiendo desde cero — el lugar perfecto para empezar bien. El Nivel 1 (A1) te enseña a leer hangul en la primera semana y a construir tus primeras frases.',
-      rec: 'Nivel 1 (A1) · desde cero',
+      text: 'Estás partiendo desde cero — el lugar perfecto para empezar bien. Básico 1 (A1.1) te enseña a leer hangul en la primera semana y a construir tus primeras frases. Martes o jueves 20:00 (Chile), desde el 5 de octubre.',
+      rec: 'Básico 1 (A1.1) · desde cero',
     };
   if (score <= 7)
     return {
       tier: 'Falso principiante',
       emoji: '🚀',
-      text: 'Ya tienes contacto con el idioma, pero te faltan bases ordenadas. El Nivel 1 te llena los huecos y te da estructura para avanzar de verdad.',
-      rec: 'Nivel 1 (A1) · ordena tus bases',
+      text: 'Ya tienes contacto con el idioma, pero te faltan bases ordenadas. Básico 1 te llena los huecos y te da estructura para avanzar de verdad — y si ya lees hangul con soltura, Básico 2 (miércoles 21:00) es tu curso.',
+      rec: 'Básico 1 (A1.1) · o Básico 2 si ya lees hangul',
     };
   return {
     tier: 'Tienes bases',
     emoji: '🔥',
-    text: 'Vas bien. El Nivel 1 te sirve para consolidar y corregir pronunciación; si ya dominas todo esto, escríbenos y te evaluamos para A2.',
-    rec: 'Nivel 1 (A1) para consolidar · o evaluación A2',
+    text: 'Vas bien. Básico 2 (A1.2, miércoles 21:00) te lleva al pasado y al futuro; si ya conversas, el Conversacional A2.1 con profesora nativa (martes 21:00) es para ti. ¿Vas por el examen? Preparación TOPIK II, jueves 21:00.',
+    rec: 'Básico 2 (A1.2) · Conversacional A2.1 · o TOPIK II',
   };
 }
 
@@ -267,10 +267,10 @@ export default function TestNivelPage() {
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="/nivel-1"
+                href="/nivel-1#clases"
                 className="inline-block bg-seoul-red text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition"
               >
-                Empezar el Nivel 1 →
+                Inscribirme · desde el 5 de octubre →
               </a>
               <a
                 href="/recursos/guias"

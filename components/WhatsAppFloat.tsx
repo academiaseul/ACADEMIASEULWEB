@@ -13,12 +13,12 @@ const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${DEFAULT_MESSAGE}`;
 
 const QUICK_REPLIES = [
   {
-    label: 'Quiero la próxima cohorte del Nivel 1',
-    msg: 'Hola Jay! Quiero sumarme a la próxima cohorte del Nivel 1 (octubre). ¿Me avisas cuando abran los cupos?',
+    label: 'Quiero inscribirme (clases desde el 5 de octubre)',
+    msg: 'Hola Jay! Quiero inscribirme en la cohorte de octubre. ¿Me ayudas a elegir el curso y el método de pago?',
   },
   {
-    label: 'Info del Curso Nivel 1',
-    msg: 'Hola Jay! Me interesa el Curso Nivel 1. Me pasas info?',
+    label: '¿Qué nivel me conviene?',
+    msg: 'Hola Jay! No sé si me conviene Básico 1, Básico 2, Conversacional o TOPIK II. ¿Me orientas?',
   },
   {
     label: 'Consulta personalizada',

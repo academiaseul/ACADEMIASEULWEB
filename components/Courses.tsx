@@ -5,114 +5,116 @@ import { motion, useInView } from 'framer-motion';
 import { Clock, Users, Award, BookOpen, Mic, Star } from 'lucide-react';
 import clsx from 'clsx';
 
+// Cohorte octubre 2026 · inicio semana del 5 de octubre · todos a 8 semanas.
+// Fuente de verdad de horarios, precios y syllabus: lib/nivel1.ts (/programa).
 const courses = [
   {
-    id: 'basico',
-    level: 'A1 · Nivel 1',
+    id: 'basico1',
+    level: 'A1.1 · Básico 1',
     icon: BookOpen,
     title: 'Primeras Palabras',
     koreanTitle: '첫 한국어',
     description:
-      'Empieza desde cero. Aprende el alfabeto Hangul, presentarte, hablar de tu día, comprar en una tienda coreana. 11 sesiones en vivo con el Método Chingu™.',
-    duration: '10 semanas',
-    sessions: '1 clase / semana · 60 min',
-    groupSize: '15 cupos por clase',
-    badge: 'Cohorte en curso · lista de espera',
+      'Desde cero absoluto: lees el alfabeto Hangul, te presentas, hablas de tu familia y de tu día. Con la Prof.ª Guiran (bilingüe coreano–español).',
+    duration: '8 semanas · 60 min',
+    sessions: 'Mar 20:00 o Jue 20:00 (Chile)',
+    groupSize: '15 cupos por sección',
+    badge: 'Matrícula abierta · 5 oct',
     color: '#3D2EE8',
     bgGlow: 'rgba(61,46,232,0.08)',
     status: 'launching' as const,
-    cta: 'Anotarme en lista de espera',
-    ctaLink: '/notificarme?curso=nivel1',
+    cta: 'Inscribirme',
+    ctaLink: '/nivel-1#clases',
   },
   {
-    id: 'intermedio',
-    level: 'B1 – B2',
+    id: 'basico2',
+    level: 'A1.2 · Básico 2',
     icon: Users,
-    title: 'Coreano Intermedio',
-    koreanTitle: '중급 한국어',
+    title: 'Tu primer año coreano',
+    koreanTitle: '기초 한국어 2',
     description:
-      'Consolida tu gramática y expande tu vocabulario. Participa en conversaciones fluidas sobre temas reales y actuales de la vida coreana.',
-    duration: '4 meses',
-    sessions: '2 clases / semana',
-    groupSize: 'Grupo con cupos limitados',
-    badge: 'Próximamente',
+      'Del presente al pasado y al futuro: cuentas lo que hiciste, planeas lo que harás y sumas las partículas que hacen sonar natural tu coreano. Con Jay.',
+    duration: '8 semanas · 60 min',
+    sessions: 'Miércoles 21:00 (Chile)',
+    groupSize: '15 cupos',
+    badge: 'Matrícula abierta · 5 oct',
     color: '#003478',
     bgGlow: 'rgba(0,52,120,0.08)',
-    status: 'comingSoon' as const,
-    cta: 'Notifícame cuando lance',
-    ctaLink: '/notificarme?curso=intermedio',
+    status: 'launching' as const,
+    cta: 'Inscribirme',
+    ctaLink: '/nivel-1#clases',
   },
   {
-    id: 'avanzado',
-    level: 'C1 – C2',
-    icon: Award,
-    title: 'Coreano Avanzado',
-    koreanTitle: '고급 한국어',
+    id: 'conversacional',
+    level: 'A2.1 · Conversacional',
+    icon: Mic,
+    title: 'Corea que amas',
+    koreanTitle: '회화 A2.1',
     description:
-      'Perfecciona tu dominio del idioma. Análisis de textos complejos, expresiones idiomáticas, registros formales e informales.',
-    duration: '5 meses',
-    sessions: '2 clases / semana',
-    groupSize: 'Grupo con cupos limitados',
-    badge: 'Próximamente',
-    color: '#D4AF37',
-    bgGlow: 'rgba(212,175,55,0.08)',
-    status: 'comingSoon' as const,
-    cta: 'Notifícame cuando lance',
-    ctaLink: '/notificarme?curso=avanzado',
-  },
-  {
-    id: 'kpop',
-    level: 'Todos los niveles',
-    icon: Star,
-    title: 'K-pop & K-drama',
-    koreanTitle: '케이팝 & 드라마',
-    description:
-      'Aprende coreano a través de la cultura que amas. Canciones, diálogos de series, slang moderno y la jerga generacional de Corea.',
-    duration: '2 meses',
-    sessions: '1 clase / semana',
-    groupSize: 'Grupo con cupos limitados',
-    badge: 'Próximamente',
+      'Puro hablar con una profesora coreana nativa: K-pop, viajes, comida, hanbok, e-sports. La mitad de las sesiones son laboratorio oral. Con la Prof.ª Abby.',
+    duration: '8 semanas · 60 min',
+    sessions: 'Martes 21:00 (Chile)',
+    groupSize: '15 cupos',
+    badge: 'Matrícula abierta · 5 oct',
     color: '#3D2EE8',
     bgGlow: 'rgba(61,46,232,0.08)',
-    status: 'comingSoon' as const,
-    cta: 'Notifícame cuando lance',
-    ctaLink: '/notificarme?curso=kpop',
-  },
-  {
-    id: 'conversacion',
-    level: 'A2+',
-    icon: Mic,
-    title: 'Conversación Express',
-    koreanTitle: '대화 특급',
-    description:
-      'Clases intensivas de conversación para estudiantes que quieren fluir rápidamente. Simulaciones reales, role-play y debates.',
-    duration: '6 semanas',
-    sessions: '3 clases / semana',
-    groupSize: 'Grupo con cupos limitados',
-    badge: 'Próximamente',
-    color: '#003478',
-    bgGlow: 'rgba(0,52,120,0.08)',
-    status: 'comingSoon' as const,
-    cta: 'Notifícame cuando lance',
-    ctaLink: '/notificarme?curso=conversacion',
+    status: 'launching' as const,
+    cta: 'Inscribirme',
+    ctaLink: '/nivel-1#clases',
   },
   {
     id: 'topik',
-    level: 'B2 – C2',
-    icon: Clock,
-    title: 'Preparación TOPIK',
-    koreanTitle: 'TOPIK 준비',
+    level: 'B1+ · TOPIK II',
+    icon: Award,
+    title: 'Preparación TOPIK II',
+    koreanTitle: '토픽 II 준비반',
     description:
-      'Preparación intensiva y enfocada para el examen oficial TOPIK I y TOPIK II. Simulacros, estrategias y material oficial.',
-    duration: '3 meses',
-    sessions: '3 clases / semana',
+      'Grupo chico enfocado 100% en el examen oficial: estrategia por sección, corrección personal de escritura y simulacros cronometrados. Con Jay.',
+    duration: '8 semanas · 60 min',
+    sessions: 'Jueves 21:00 (Chile)',
+    groupSize: '8 cupos',
+    badge: 'Matrícula abierta · 5 oct',
+    color: '#D4AF37',
+    bgGlow: 'rgba(212,175,55,0.08)',
+    status: 'launching' as const,
+    cta: 'Inscribirme',
+    ctaLink: '/nivel-1#clases',
+  },
+  {
+    id: 'ninos',
+    level: 'A1.1K · 8 a 12 años',
+    icon: Star,
+    title: 'Coreano para Niños',
+    koreanTitle: '어린이 한국어',
+    description:
+      'Coreano desde cero con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y sus primeras frases — y terminan con un mini-show para la familia.',
+    duration: '8 semanas · 60 min',
+    sessions: 'Lunes 18:00 (Chile)',
+    groupSize: '12 cupos',
+    badge: 'Matrícula abierta · 5 oct',
+    color: '#003478',
+    bgGlow: 'rgba(0,52,120,0.08)',
+    status: 'launching' as const,
+    cta: 'Inscribir a mi hijo/a',
+    ctaLink: '/nivel-1#clases',
+  },
+  {
+    id: 'conversacional2',
+    level: 'A2.2 · Conversacional',
+    icon: Clock,
+    title: 'Corea por dentro',
+    koreanTitle: '회화 A2.2',
+    description:
+      'La continuación del A2.1: educación y suneung, la oficina coreana, mitos, Seollal y Chuseok, K-drama. Cohorte de enero 2027 para quienes terminen A2.1.',
+    duration: '8 semanas · 60 min',
+    sessions: '1 clase / semana',
     groupSize: 'Grupo con cupos limitados',
-    badge: 'Próximamente',
+    badge: 'Enero 2027',
     color: '#D4AF37',
     bgGlow: 'rgba(212,175,55,0.08)',
     status: 'comingSoon' as const,
-    cta: 'Notifícame cuando lance',
-    ctaLink: '/notificarme?curso=topik',
+    cta: 'Notifícame cuando abra',
+    ctaLink: '/notificarme?curso=conversacion',
   },
 ];
 
@@ -277,15 +279,25 @@ export default function Courses() {
           className="mt-14 text-center"
         >
           <p className="text-seoul-black/40 text-sm mb-5">
+            Todos los cursos: US$150 pago único o US$75/mes × 2 · certificado incluido · inicio 5 de octubre.
             ¿No sabes qué nivel elegir? Haz nuestro test de nivelación gratuito.
           </p>
-          <a
-            href="#contact"
-            className="inline-flex items-center gap-2 px-8 py-4 border border-black/15 hover:border-seoul-red text-seoul-black hover:text-seoul-red font-semibold rounded-lg transition-all duration-300 hover:bg-seoul-red/5 text-sm group"
-          >
-            Test de nivelación gratuito
-            <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
-          </a>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <a
+              href="/programa"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-seoul-red hover:bg-[#2C1FB0] text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
+            >
+              Ver programa y syllabus completo
+              <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
+            </a>
+            <a
+              href="/test-nivel"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-black/15 hover:border-seoul-red text-seoul-black hover:text-seoul-red font-semibold rounded-lg transition-all duration-300 hover:bg-seoul-red/5 text-sm group"
+            >
+              Test de nivelación gratuito
+              <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>

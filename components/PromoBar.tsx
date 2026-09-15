@@ -2,9 +2,10 @@
 
 import { useEffect, useState } from 'react';
 import { X } from 'lucide-react';
+import { PRECIO_MENSUAL } from '@/lib/nivel1';
 
-// Barra de anuncio: Lector de Hangul (herramienta gratuita).
-// Sin fecha límite; el visitante puede cerrarla y no vuelve a aparecer.
+// Barra de anuncio: matrícula abierta cohorte octubre 2026.
+// El visitante puede cerrarla y no vuelve a aparecer (clave nueva por campaña).
 export default function PromoBar() {
   const [mounted, setMounted] = useState(false);
   const [closed, setClosed] = useState(false);
@@ -12,7 +13,7 @@ export default function PromoBar() {
   useEffect(() => {
     setMounted(true);
     try {
-      if (localStorage.getItem('lectorBarClosed') === '1') setClosed(true);
+      if (localStorage.getItem('oct2026BarClosed') === '1') setClosed(true);
     } catch {}
   }, []);
 
@@ -21,7 +22,7 @@ export default function PromoBar() {
   const close = () => {
     setClosed(true);
     try {
-      localStorage.setItem('lectorBarClosed', '1');
+      localStorage.setItem('oct2026BarClosed', '1');
     } catch {}
   };
 
@@ -29,14 +30,14 @@ export default function PromoBar() {
     <div className="w-full" style={{ backgroundColor: '#4236F6' }}>
       <div className="relative mx-auto flex max-w-5xl items-center justify-center gap-x-4 gap-y-1 flex-wrap px-4 py-2 pr-12 text-white">
         <span className="text-sm font-bold">
-          🐯 Nuevo y gratis · <span className="text-[#E8B84B]">Lector de Hangul</span> — aprende a leer coreano con audio nativo
+          🎓 Matrícula abierta · <span className="text-[#E8B84B]">clases desde el 5 de octubre</span> — desde US${PRECIO_MENSUAL}/mes · certificado incluido
         </span>
 
         <a
-          href="/lector-hangul"
+          href="/nivel-1#clases"
           className="rounded-full bg-white px-4 py-1.5 text-sm font-bold text-[#4236F6] hover:bg-[#E8B84B] hover:text-[#0D0D0D] transition-colors"
         >
-          Probar ahora →
+          Elegir mi clase →
         </a>
 
         <button

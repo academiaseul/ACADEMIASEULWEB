@@ -8,12 +8,12 @@ const WHATSAPP_URL =
 
 const footerLinks = {
   Cursos: [
-    { label: 'Basico A1-A2',       href: '/#courses' },
-    { label: 'Intermedio B1-B2',   href: '/#courses' },
-    { label: 'Avanzado C1-C2',     href: '/#courses' },
-    { label: 'K-pop & K-drama',    href: '/#courses' },
-    { label: 'Conversacion',       href: '/#courses' },
-    { label: 'Preparacion TOPIK',  href: '/#courses' },
+    { label: 'Basico 1 (A1.1)',        href: '/programa#a11' },
+    { label: 'Basico 2 (A1.2)',        href: '/programa#a12' },
+    { label: 'Conversacional A2.1',    href: '/programa#a21' },
+    { label: 'Preparacion TOPIK II',   href: '/programa#topik2' },
+    { label: 'Coreano para Ninos',     href: '/programa#ninos' },
+    { label: 'Inscripcion octubre 2026', href: '/nivel-1' },
   ],
   Academia: [
     { label: 'Sobre nosotros',         href: '/#about' },
@@ -21,7 +21,7 @@ const footerLinks = {
     { label: 'Por que Academia Seul',  href: '/#testimonials' },
     { label: 'Cultura coreana',        href: '/#culture' },
     { label: 'Blog',                   href: '/blog' },
-    { label: 'Nivel 1 (A1) · Primeras Palabras', href: '/nivel-1' },
+    { label: 'Programa y syllabus',    href: '/programa' },
   ],
   Legal: [
     { label: 'Politica de privacidad', href: '/privacidad' },

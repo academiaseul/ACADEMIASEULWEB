@@ -11,7 +11,8 @@ type NavLink = { label: string; href: string; highlight?: boolean; children?: Na
 
 const navLinks: NavLink[] = [
   { label: 'Inicio',        href: '/#hero'     },
-  { label: 'Nivel 1', href: '/nivel-1', highlight: true },
+  { label: 'Inscripción octubre', href: '/nivel-1', highlight: true },
+  { label: 'Programa',      href: '/programa'  },
   { label: 'Sobre Jay',     href: '/sobre'     },
   { label: 'Taller Gratis', href: '/taller'    },
   {

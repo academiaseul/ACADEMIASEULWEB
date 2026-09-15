@@ -1,16 +1,33 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { COHORTE_ABIERTA, PROXIMA_COHORTE_LABEL } from "@/lib/nivel1";
+import {
+  COHORTE_ABIERTA,
+  PROXIMA_COHORTE_LABEL,
+  INICIO_LABEL,
+  PRECIO_UNICO,
+  PRECIO_MENSUAL,
+  MESES,
+  PAYPAL_LINK_UNICO,
+  PAYPAL_LINK_MENSUAL,
+  HOTMART_LINK_UNICO,
+  HOTMART_LINK_MENSUAL,
+  WHATSAPP,
+  CLASES,
+  TZ_ROWS,
+  TZ_NOTA,
+  cursoDe,
+  type ClaseId,
+} from "@/lib/nivel1";
 
-type Cohorte = "miercoles" | "sabado";
+type Plan = "unico" | "mensual";
 
 export default function Nivel1Page() {
-  const [selectedCohorte, setSelectedCohorte] = useState<Cohorte>("miercoles");
+  const [selectedClase, setSelectedClase] = useState<ClaseId>("a11-martes");
+  const [plan, setPlan] = useState<Plan>("unico");
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   // Inscripción form
@@ -25,6 +42,13 @@ export default function Nivel1Page() {
   const [payLoading, setPayLoading] = useState(false);
   const [pagoStatus, setPagoStatus] = useState<string | null>(null);
 
+  const clase = CLASES.find((c) => c.id === selectedClase) ?? CLASES[1];
+  const curso = cursoDe(clase);
+  const planLabel =
+    plan === "unico"
+      ? `US$${PRECIO_UNICO} pago único`
+      : `US$${PRECIO_MENSUAL}/mes × ${MESES} meses`;
+
   const handleInscribir = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.nombre || !form.correo || !form.whatsapp || !form.edad || !form.rut || !form.pais || !form.nivel || !form.comoConocio) {
@@ -34,13 +58,12 @@ export default function Nivel1Page() {
     setSubmitting(true);
     setFormError("");
     try {
-      // NOTE: replace this Formspree endpoint with a dedicated one for el curso si quieres separarlo del taller.
       const res = await fetch("https://formspree.io/f/mzdypyky", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          _subject: "Nueva inscripción — Nivel 1 A1",
-          curso: "Nivel 1 · A1 (CEFR A1 → TOPIK 1)",
+          _subject: `Nueva inscripción — ${clase.nombre}`,
+          curso: `${clase.nombre} (${clase.nivel})`,
           nombre: form.nombre,
           correo: form.correo,
           whatsapp: form.whatsapp,
@@ -50,7 +73,8 @@ export default function Nivel1Page() {
           nivel_coreano: form.nivel,
           como_nos_conociste: form.comoConocio,
           motivacion: form.motivacion,
-          clase: cohortes[selectedCohorte].label,
+          clase: clase.label,
+          plan: planLabel,
         }),
       });
       if (res.ok) {
@@ -72,14 +96,14 @@ export default function Nivel1Page() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          _subject: `💰 PAGO Nivel 1 — ${form.nombre || "alumno sin nombre"}`,
+          _subject: `💰 PAGO ${clase.nombre} — ${form.nombre || "alumno sin nombre"}`,
           tipo: "Confirmación de pago",
           nombre: form.nombre || "(no completó inscripción)",
           correo: form.correo,
           whatsapp: form.whatsapp,
-          clase: cohortes[selectedCohorte].label,
+          clase: clase.label,
           metodo_de_pago: metodo,
-          monto: "Cohorte octubre 2026 — precio por confirmar",
+          monto: planLabel,
         }),
       });
     } catch {
@@ -106,8 +130,9 @@ export default function Nivel1Page() {
           nombre: form.nombre,
           correo: form.correo,
           whatsapp: form.whatsapp,
-          clase: cohortes[selectedCohorte].label,
-          cohorteKey: selectedCohorte,
+          clase: clase.label,
+          cohorteKey: clase.id,
+          plan,
         }),
       });
       if (res.ok) {
@@ -117,10 +142,12 @@ export default function Nivel1Page() {
           return;
         }
       }
-      // Fallback: link de pago estático de Mercado Pago
-      window.location.href = cohortes[selectedCohorte].paymentLink;
+      // Fallback: coordinar por WhatsApp si el checkout no está disponible
+      window.location.href = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
+        `Hola Jay! Quiero pagar con tarjeta mi cupo en ${clase.nombre} (${planLabel}) y el pago online no cargó.`,
+      )}`;
     } catch {
-      window.location.href = cohortes[selectedCohorte].paymentLink;
+      window.location.href = `https://wa.me/${WHATSAPP}`;
     } finally {
       setPayLoading(false);
     }
@@ -138,9 +165,9 @@ export default function Nivel1Page() {
     window.history.replaceState({}, "", "/nivel-1");
   }, []);
 
-  // Countdown to Monday June 8, 2026 23:59 Chile time
+  // Countdown al inicio de la cohorte: lunes 5 de octubre de 2026 (hora Chile)
   useEffect(() => {
-    const deadline = new Date("2026-07-06T23:59:00-04:00").getTime();
+    const deadline = new Date("2026-10-05T00:00:00-03:00").getTime();
     const tick = () => {
       const now = new Date().getTime();
       const diff = deadline - now;
@@ -160,97 +187,56 @@ export default function Nivel1Page() {
     return () => clearInterval(id);
   }, []);
 
-  const cohortes = {
-    miercoles: {
-      label: "🌙 Clase Miércoles",
-      day: "Miércoles · 20:00 Chile",
-      hora: "20:00 hora Chile · cohorte de octubre — fecha por confirmar",
-      ideal: "Ideal para LATAM (después del trabajo) · 21:00 Argentina · 19:00 Colombia/Perú · 18:00 México",
-      paymentLink: "https://mpago.li/2tZRfqp",
-    },
-    sabado: {
-      label: "☀️ Clase Sábados",
-      day: "Sábados · 11:00 Chile",
-      hora: "11:00 hora Chile · 16:00 España · cohorte de octubre — fecha por confirmar",
-      ideal: "Ideal para España + LATAM que prefiere el fin de semana",
-      paymentLink: "https://mpago.li/2tZRfqp",
-    },
-  };
-
-  const lessons = [
-    { num: "01", korean: "한글 I", title: "Hangul · Vocales", desc: "Aprende a leer las 11 vocales del coreano" },
-    { num: "02", korean: "한글 II", title: "Hangul · Consonantes + Batchim", desc: "14 consonantes + reglas de sílaba" },
-    { num: "03", korean: "인사", title: "Saludos y Presentación", desc: "은/는, 이에요/예요, países y profesiones" },
-    { num: "04", korean: "일상생활", title: "Vida Diaria + Verbos", desc: "-어요/아요, 20 verbos esenciales" },
-    { num: "05", korean: "날짜와 요일", title: "Fechas, Días y Números", desc: "Sistema sino-coreano, calendarios" },
-    { num: "06", korean: "위치", title: "Ubicación y Espacio", desc: "있다/없다, 에 vs 에서, posiciones" },
-    { num: "07", korean: "하루 일과", title: "Rutina Diaria", desc: "Horas, -고, 부터-까지, ㄷ irregular" },
-    { num: "08", korean: "물건 사기", title: "Comprar en Corea", desc: "Clasificadores, 주세요, role-play tienda" },
-    { num: "09", korean: "주말", title: "Hablar del Pasado", desc: "-었어요/았어요, razones, frecuencia" },
-    { num: "10", korean: "휴가", title: "Vacaciones y Futuro", desc: "-ㄹ 거예요, -고 싶다, ㅂ irregular" },
-    { num: "11", korean: "약속", title: "Invitar + Cierre A1", desc: "-ㄹ까요, repaso integral, proyecto final" },
-  ];
-
-  const bonos = [
-    { icon: "🎁", title: "PDF Pronunciación Coreana", value: "$19", desc: "30 páginas con los sonidos clave para hispanohablantes" },
-    { icon: "📞", title: "Sesión 1:1 con Jay", value: "$30", desc: "15 min conmigo personalmente para resolver dudas" },
-    { icon: "💬", title: "Acceso Discord Permanente", value: "$20", desc: "Comunidad activa de Academia Seúl para toda la vida" },
-    { icon: "⭐", title: "20% OFF Nivel 2", value: "$25", desc: "Descuento garantizado para A2 (sale en octubre)" },
-  ];
-
   const faqs = [
     {
-      q: "¿Necesito haber asistido al taller?",
-      a: "No, para nada. El curso está abierto a todos; el precio de la cohorte de octubre se anuncia pronto y la lista de espera lo recibe primero.",
-    },
-    {
       q: "¿Las clases son en vivo o grabadas?",
-      a: "Las sesiones son EN VIVO por Zoom (60 min cada una). Si te perdés alguna, te mando la grabación dentro de las 24 horas.",
+      a: "Las sesiones son EN VIVO por Zoom (60 min cada una). Si te perdés alguna, recibís la grabación dentro de las 24 horas.",
     },
     {
-      q: "¿Qué pasa si no puedo asistir a mi clase un día?",
-      a: "Sin problema. Recibís la grabación + podés sumarte a otra clase esa semana como recuperación.",
+      q: "¿Cuánto dura cada curso y cuándo empieza?",
+      a: `Todos los cursos duran 8 semanas (2 meses), con 1 clase en vivo por semana. La cohorte arranca la ${INICIO_LABEL.toLowerCase()} y termina la semana del 23 de noviembre.`,
+    },
+    {
+      q: "¿Cuánto cuesta y cómo pago?",
+      a: `Cada curso cuesta US$${PRECIO_UNICO} en pago único, o US$${PRECIO_MENSUAL}/mes durante ${MESES} meses. Aceptamos Mercado Pago (tarjetas de crédito y débito), PayPal (internacional) y transferencia bancaria en Chile (sin comisión).`,
     },
     {
       q: "¿Necesito experiencia previa?",
-      a: "Cero. Empezamos desde el Hangul (alfabeto). Si ya sabés algo, igual te sirve como base sólida.",
+      a: "Para Básico 1 y Coreano para Niños: cero, empezamos desde el alfabeto. Conversacional A2.1 requiere A1 completo (o nuestro quiz de nivel), Básico 2 requiere Básico 1, y TOPIK II es para nivel intermedio.",
     },
     {
-      q: "¿Cómo pago?",
-      a: "Aceptamos Mercado Pago (LATAM), PayPal (internacional), y transferencia bancaria (Chile). Pago único, sin cuotas mensuales.",
+      q: "¿Qué pasa si no puedo asistir a mi clase un día?",
+      a: "Sin problema. Recibís la grabación + podés escribirnos para una recuperación breve de dudas.",
     },
     {
       q: "¿Cuántas personas hay por clase?",
-      a: "Máximo 15 alumnos por clase. Es así para que pueda corregir la pronunciación de cada uno personalmente.",
+      a: "Máximo 15 alumnos por clase (8 en TOPIK II y 12 en Niños). Grupos chicos para que el profesor corrija tu pronunciación personalmente.",
     },
     {
       q: "¿Recibo certificado?",
-      a: "Sí. Recibís tu certificado de Academia Seúl por tu participación en las clases del Nivel 1, equivalente a CEFR A1 / TOPIK 초급 1. Se entrega en base a tu asistencia y participación durante la cohorte.",
+      a: "Sí, está incluido. Al completar tu curso recibís el certificado de Academia Seúl del nivel correspondiente, en base a tu asistencia y participación.",
     },
     {
-      q: "¿Hay tarea entre clases?",
-      a: "Sí, hoja de actividad de 45-60 min por sesión + audio de práctica. Todo está incluido en la matrícula.",
+      q: "¿En qué hora llegan las clases a mi país?",
+      a: "Los horarios son en hora de Chile. En la tabla de husos horarios de esta página ves la hora exacta para México, Colombia, Perú, Argentina, EE.UU. y España.",
     },
   ];
 
-  // Mientras la cohorte de julio esté en curso, mostramos una página de
-  // "cohorte cerrada" con lista de espera en vez del formulario de pago.
-  // Ver lib/nivel1.ts para reabrir cuando arranque la próxima cohorte.
+  // Página de cierre + lista de espera cuando la cohorte no está abierta.
   if (!COHORTE_ABIERTA) {
     return (
       <main className="min-h-screen bg-white">
         <Navigation solid />
         <section className="min-h-[80vh] flex flex-col items-center justify-center text-center px-6 pt-32 pb-24 bg-[#F5F3FF]">
           <span className="inline-flex items-center gap-2 bg-white border border-[#E5E1FB] text-[#4036ED] text-xs font-bold tracking-[2px] uppercase px-4 py-2 rounded-full mb-6">
-            Nivel 1 · Primeras Palabras
+            Cursos en vivo
           </span>
           <h1 className="font-black text-gray-900 leading-tight mb-5" style={{ fontSize: "clamp(32px, 5vw, 56px)" }}>
             Esta cohorte ya está en marcha
           </h1>
           <p className="text-gray-600 text-lg max-w-xl mb-8">
-            Los grupos de miércoles y sábados de julio ya empezaron. Anotate en la lista de espera
-            y te aviso apenas se abran los cupos de la próxima cohorte ({PROXIMA_COHORTE_LABEL}) —
-            con acceso prioritario a horarios y precio.
+            Anotate en la lista de espera y te avisamos apenas se abran los cupos de la próxima
+            cohorte ({PROXIMA_COHORTE_LABEL}) — con acceso prioritario a horarios y precio.
           </p>
           <Link
             href="/notificarme?curso=nivel1"
@@ -258,15 +244,6 @@ export default function Nivel1Page() {
           >
             Anotarme en la lista de espera →
           </Link>
-          <p className="text-sm text-gray-500 mt-6">
-            ¿Ya te sumaste a una clase o tenés una pregunta puntual?{" "}
-            <a
-              href="https://wa.me/56942115562?text=Hola%20Jay!%20Quiero%20saber%20cu%C3%A1ndo%20abre%20la%20pr%C3%B3xima%20cohorte%20del%20Nivel%201"
-              className="text-[#4036ED] font-semibold underline"
-            >
-              Escribime por WhatsApp
-            </a>
-          </p>
         </section>
         <Footer />
       </main>
@@ -308,22 +285,22 @@ export default function Nivel1Page() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-28">
           <div className="text-center">
             <div className="inline-block px-4 py-1 mb-6 rounded-full bg-white/10 text-xs font-bold tracking-widest">
-              ACADEMIA SEÚL · CURSO NIVEL 1 (A1)
+              MATRÍCULA ABIERTA · COHORTE OCTUBRE 2026
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-4">
-              <span className="block text-3xl md:text-4xl mb-3 opacity-80">첫 한국어</span>
-              Primeras Palabras
+              <span className="block text-3xl md:text-4xl mb-3 opacity-80">한국어 수업</span>
+              Cursos en vivo de coreano
             </h1>
             <p className="text-lg md:text-xl mt-6 max-w-2xl mx-auto opacity-90">
-              11 sesiones en vivo · 10 semanas · Método 한국어교실 엿보기
+              8 semanas · 1 clase en vivo por semana · 60 min · certificado incluido
             </p>
             <p className="text-base md:text-lg mt-3 max-w-2xl mx-auto opacity-70 italic">
-              De cero a leer y conversar en coreano. Equivalente CEFR A1 + TOPIK 초급 1.
+              Desde cero hasta TOPIK II — elige tu nivel y tu horario. Inicio: {INICIO_LABEL.toLowerCase()}.
             </p>
 
             {/* Countdown */}
             <div className="mt-10 inline-block bg-white/10 backdrop-blur rounded-2xl px-6 py-4">
-              <div className="text-xs tracking-widest opacity-80 mb-2">⏰ CUPOS LIMITADOS · COHORTE OCTUBRE 2026</div>
+              <div className="text-xs tracking-widest opacity-80 mb-2">⏰ LAS CLASES EMPIEZAN EN</div>
               <div className="flex gap-4 md:gap-6 justify-center text-2xl md:text-4xl font-bold">
                 <div><div>{timeLeft.days}</div><div className="text-xs opacity-70 mt-1">DÍAS</div></div>
                 <div className="opacity-40">:</div>
@@ -336,189 +313,45 @@ export default function Nivel1Page() {
             </div>
 
             <div className="mt-10 flex flex-col md:flex-row gap-4 justify-center items-center">
-              <a href="#inscripcion" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
-                Inscribirme
+              <a href="#clases" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
+                Elegir mi clase
               </a>
-              <a href="#programa" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">
-                Ver el programa
+              <a href="/programa" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">
+                Ver programa y syllabus
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Por qué enamorarte del coreano */}
-      <section className="py-16 md:py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <div className="inline-block px-4 py-1 mb-5 rounded-full text-xs font-bold tracking-widest" style={{ backgroundColor: "#E8E5FB", color: "#3D2EE8" }}>
-            NO ES SOLO UN IDIOMA
-          </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-5">
-            Aprender coreano es <span style={{ color: "#3D2EE8" }}>entrar a otra forma</span> de sentir el mundo
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
-            No vas a memorizar reglas frías. Vas a vivir el idioma: la primera vez que lees una palabra y la
-            entiendes, la canción que de pronto cobra sentido, la escena del drama que sientes sin subtítulos.
-            Eso engancha — y no se olvida.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
-            {[
-              { emoji: "🎬", title: "Tus K-dramas, sin subtítulos", desc: "Entender lo que de verdad dicen — y lo que no se dice — cambia por completo cómo los sientes." },
-              { emoji: "🎵", title: "Tus canciones, por dentro", desc: "Cantar el coreano que ya conoces de memoria… y por fin saber qué significa cada línea." },
-              { emoji: "💛", title: "Palabras que el español no tiene", desc: "정 (jeong), 눈치 (nunchi)… conceptos que te hacen ver la vida de otra manera." },
-            ].map((c) => (
-              <div key={c.title} className="bg-[#F5F3FF] rounded-2xl p-6 border border-[#E5E1FB]">
-                <div className="text-4xl mb-3">{c.emoji}</div>
-                <h3 className="font-bold text-gray-900 mb-2">{c.title}</h3>
-                <p className="text-sm text-gray-600">{c.desc}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-12 bg-[#0D0D0D] text-white rounded-3xl px-8 py-10 max-w-3xl mx-auto">
-            <p className="text-xl md:text-2xl font-bold leading-relaxed">
-              &ldquo;El coreano no es difícil. Simplemente nadie te lo había enseñado pensando en ti.&rdquo;
-            </p>
-            <p className="text-white/60 mt-4">— El Método Chingu™ pone la cultura antes que la gramática. Por eso se siente distinto.</p>
-            <a href="#inscripcion" className="inline-block mt-7 px-8 py-3.5 rounded-full font-bold" style={{ backgroundColor: "#E8B84B", color: "#0D0D0D" }}>
-              Quiero empezar →
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* What you'll learn quick stats */}
-      <section className="py-16 bg-gradient-to-b from-[#F5F3FF] to-white">
+      {/* Selector de clase */}
+      <section id="clases" className="py-16" style={{ backgroundColor: "#F5F3FF" }}>
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">
-            Al terminar el Nivel 1, vas a poder
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            No teoría — habilidades reales que usás desde el día 1 en Corea o frente a un K-drama.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { emoji: "📖", title: "Leer y escribir Hangul", desc: "Todo el alfabeto + reglas de batchim" },
-              { emoji: "🗣", title: "Presentarte completamente", desc: "Nombre, país, profesión, edad, gustos" },
-              { emoji: "🛒", title: "Comprar en una tienda", desc: "Clasificadores, números, precios en 원" },
-              { emoji: "🕒", title: "Hablar de tu rutina", desc: "Presente, pasado, futuro simples" },
-              { emoji: "✈️", title: "Planificar un viaje", desc: "Decir qué querés hacer y dónde" },
-              { emoji: "💬", title: "Invitar a alguien", desc: "Hacer planes, aceptar, rechazar" },
-            ].map((item) => (
-              <div key={item.title} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition">
-                <div className="text-4xl mb-3">{item.emoji}</div>
-                <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-600">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Camino CEFR A1 → TOPIK 1 */}
-      <section className="py-16 bg-[#0D0D0D] text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <div className="text-center mb-10">
-            <div className="inline-block px-4 py-1 mb-4 rounded-full bg-white/10 text-xs font-bold tracking-widest">
-              TU CAMINO EN EL COREANO
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-3">
-              De cero a tu primer certificado oficial
-            </h2>
-            <p className="text-white/70 max-w-2xl mx-auto">
-              El Nivel 1 es el primer escalón del marco <strong className="text-white">CEFR A1</strong>. Está
-              diseñado para llevarte, paso a paso, hacia tu meta: aprobar el <strong className="text-white">TOPIK 1</strong>,
-              el examen oficial de coreano reconocido en todo el mundo.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              { step: "1", badge: "ESTÁS AQUÍ", title: "Nivel 1 · CEFR A1", desc: "Leer Hangul, presentarte, hablar de tu día y comprar. La base sólida.", active: true },
-              { step: "2", badge: "SIGUIENTE", title: "Nivel 2 · CEFR A1+", desc: "Más gramática y vocabulario para conversaciones reales.", active: false },
-              { step: "3", badge: "LA META", title: "TOPIK 1 (초급 1)", desc: "Preparación y rendición del examen oficial 한국어능력시험.", active: false },
-            ].map((s) => (
-              <div
-                key={s.step}
-                className={`rounded-2xl p-6 border ${
-                  s.active ? "bg-[#3D2EE8] border-[#3D2EE8]" : "bg-white/5 border-white/10"
-                }`}
-              >
-                <div className={`inline-block text-[10px] font-bold tracking-widest px-2 py-1 rounded-full mb-3 ${s.active ? "bg-white text-[#3D2EE8]" : "bg-white/10 text-white/70"}`}>
-                  {s.badge}
-                </div>
-                <div className="text-2xl font-bold mb-1">{s.title}</div>
-                <p className={`text-sm ${s.active ? "text-white/90" : "text-white/60"}`}>{s.desc}</p>
-              </div>
-            ))}
-          </div>
-          <p className="text-center text-white/50 text-sm mt-8">
-            Empieza por la base correcta. El resto del camino se construye sobre el Nivel 1.
-          </p>
-        </div>
-      </section>
-
-      {/* 11 Sesiones programa */}
-      <section id="programa" className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">
-            Las 11 sesiones del programa
+            Elige tu clase
           </h2>
           <p className="text-gray-600 text-center mb-12">
-            Una clase en vivo por semana · 60 min · cohorte de octubre 2026 (horarios por confirmar)
+            6 clases · horarios en hora de Chile · todas parten la {INICIO_LABEL.toLowerCase()}
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {lessons.map((lesson) => (
-              <div key={lesson.num} className="flex gap-4 p-5 rounded-2xl border border-gray-100 hover:border-[#3D2EE8] transition">
-                <div className="flex-shrink-0 w-14 h-14 rounded-xl flex items-center justify-center text-white font-bold" style={{ backgroundColor: "#3D2EE8" }}>
-                  {lesson.num}
-                </div>
-                <div>
-                  <div className="text-sm font-bold mb-1" style={{ color: "#818CF8" }}>{lesson.korean}</div>
-                  <h3 className="font-bold text-gray-900">{lesson.title}</h3>
-                  <p className="text-sm text-gray-600 mt-1">{lesson.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
 
-          <div className="text-center mt-10">
-            <a
-              href="/programa-curso-nivel-1-a1.pdf"
-              download
-              className="inline-flex items-center gap-2 bg-white text-[#3D2EE8] font-bold px-7 py-3.5 rounded-full border-2 border-[#3D2EE8] hover:bg-[#3D2EE8] hover:text-white transition"
-            >
-              📄 Descargar el programa completo (PDF)
-            </a>
-            <p className="text-xs text-gray-500 mt-2">Programa oficial · objetivos, cronograma y evaluación</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Cohorts selector */}
-      <section className="py-16" style={{ backgroundColor: "#F5F3FF" }}>
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">
-            Elegí tu clase
-          </h2>
-          <p className="text-gray-600 text-center mb-12">3 horarios para que encuentres el que mejor te acomode</p>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-            {Object.entries(cohortes).map(([key, c]) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+            {CLASES.map((c) => (
               <button
-                key={key}
-                onClick={() => setSelectedCohorte(key as Cohorte)}
+                key={c.id}
+                onClick={() => setSelectedClase(c.id)}
                 className={`p-6 rounded-2xl border-2 text-left transition ${
-                  selectedCohorte === key
+                  selectedClase === c.id
                     ? "border-[#3D2EE8] bg-white shadow-lg"
                     : "border-gray-200 bg-white/50 hover:border-gray-300"
                 }`}
               >
-                <div className="text-xl font-bold text-gray-900 mb-2">{c.label}</div>
-                <div className="text-sm text-gray-700 mb-3">{c.day} · {c.hora}</div>
-                <div className="text-xs text-gray-500 italic">{c.ideal}</div>
-                {selectedCohorte === key && (
+                <div className="text-3xl mb-2">{c.emoji}</div>
+                <div className="text-lg font-bold text-gray-900 leading-tight mb-1">{c.nombre}</div>
+                <div className="text-xs font-bold tracking-wide uppercase mb-3" style={{ color: "#818CF8" }}>{c.nivel}</div>
+                <div className="text-sm text-gray-700 font-semibold">{c.dia} · {c.horaChile} Chile</div>
+                <div className="text-xs text-gray-500 mt-1">{c.profe} · primera clase: {c.primeraClase}</div>
+                <div className="text-xs text-gray-500 mt-1">Cupos: {c.cupos}</div>
+                {selectedClase === c.id && (
                   <div className="mt-3 text-xs font-bold" style={{ color: "#3D2EE8" }}>✓ Seleccionada</div>
                 )}
               </button>
@@ -526,13 +359,87 @@ export default function Nivel1Page() {
           </div>
 
           <div className="text-center text-sm text-gray-600">
-            <p>📌 15 cupos por clase · Para que pueda corregir tu pronunciación personalmente</p>
+            <p>📌 Grupos chicos para corregir tu pronunciación personalmente · Básico 1 tiene dos secciones (martes o jueves): elige una</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Husos horarios */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">
+            ¿A qué hora es en tu país?
+          </h2>
+          <p className="text-gray-600 text-center mb-10">Los horarios de arriba son hora de Chile — aquí está la conversión</p>
+
+          <div className="overflow-x-auto rounded-2xl border border-gray-200">
+            <table className="w-full text-sm text-center">
+              <thead>
+                <tr className="text-white" style={{ backgroundColor: "#3D2EE8" }}>
+                  <th className="px-4 py-3 font-bold">🇨🇱 Chile</th>
+                  <th className="px-4 py-3 font-bold">🇲🇽 México</th>
+                  <th className="px-4 py-3 font-bold">🇨🇴🇵🇪 Col/Perú</th>
+                  <th className="px-4 py-3 font-bold">🇦🇷 Argentina</th>
+                  <th className="px-4 py-3 font-bold">🇺🇸 EE.UU. (Este)</th>
+                  <th className="px-4 py-3 font-bold">🇪🇸 España</th>
+                  <th className="px-4 py-3 font-bold">🇰🇷 Corea</th>
+                </tr>
+              </thead>
+              <tbody>
+                {TZ_ROWS.map((row, i) => (
+                  <tr key={row.horaChile} className={i % 2 === 1 ? "bg-[#F5F3FF]" : "bg-white"}>
+                    <td className="px-4 py-3 font-bold text-gray-900">{row.horaChile}</td>
+                    <td className="px-4 py-3 text-gray-700">{row.mexico}</td>
+                    <td className="px-4 py-3 text-gray-700">{row.colombiaPeru}</td>
+                    <td className="px-4 py-3 text-gray-700">{row.argentina}</td>
+                    <td className="px-4 py-3 text-gray-700">{row.usaEste}</td>
+                    <td className="px-4 py-3 text-gray-700">{row.espana}</td>
+                    <td className="px-4 py-3 text-gray-700">{row.corea}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 text-center mt-4">{TZ_NOTA}</p>
+        </div>
+      </section>
+
+      {/* Programa de la clase seleccionada */}
+      <section id="programa" className="py-16 bg-white border-t border-gray-100">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">
+            Las 8 semanas de {curso.nombre}
+          </h2>
+          <p className="text-gray-600 text-center mb-12">
+            {curso.nivel} · {clase.dia} {clase.horaChile} hora Chile · {clase.profe}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {curso.sesiones.map((s) => (
+              <div key={s.num} className="flex gap-4 p-5 rounded-2xl border border-gray-100 hover:border-[#3D2EE8] transition">
+                <div className="flex-shrink-0 w-14 h-14 rounded-xl flex items-center justify-center text-white font-bold" style={{ backgroundColor: "#3D2EE8" }}>
+                  {s.num.toString().padStart(2, "0")}
+                </div>
+                <div>
+                  <h3 className="font-bold text-gray-900">{s.titulo}</h3>
+                  <p className="text-sm text-gray-600 mt-1">{s.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <a
+              href="/programa"
+              className="inline-flex items-center gap-2 bg-white text-[#3D2EE8] font-bold px-7 py-3.5 rounded-full border-2 border-[#3D2EE8] hover:bg-[#3D2EE8] hover:text-white transition"
+            >
+              📚 Ver el programa completo de todos los cursos
+            </a>
           </div>
         </div>
       </section>
 
       {/* Inscripción form */}
-      <section id="inscripcion" className="py-20 bg-white">
+      <section id="inscripcion" className="py-20 bg-white border-t border-gray-100">
         <div className="max-w-2xl mx-auto px-6">
           {/* Stepper */}
           <div className="flex items-center justify-center gap-2 sm:gap-4 mb-10">
@@ -560,9 +467,9 @@ export default function Nivel1Page() {
             <div className="inline-block px-4 py-1 mb-4 rounded-full text-xs font-bold tracking-widest text-white" style={{ backgroundColor: "#3D2EE8" }}>
               PASO 1 · FORMULARIO DE INSCRIPCIÓN
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Postula a tu clase de coreano</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Reserva tu cupo</h2>
             <p className="text-gray-600">
-              Completa tu inscripción y elige tu horario. En el siguiente paso confirmas tu cupo con el pago. Cupos limitados: 15 por clase.
+              Completa tu inscripción y elige tu clase. En el siguiente paso confirmas tu cupo con el pago.
             </p>
           </div>
 
@@ -574,7 +481,7 @@ export default function Nivel1Page() {
                   type="text"
                   value={form.nombre}
                   onChange={(e) => setForm({ ...form, nombre: e.target.value })}
-                  placeholder="Tu nombre y apellido"
+                  placeholder="Tu nombre y apellido (o el de tu hijo/a para Niños)"
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
                 />
               </div>
@@ -601,7 +508,7 @@ export default function Nivel1Page() {
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-bold text-gray-700 mb-1">Edad</label>
+                <label className="block text-sm font-bold text-gray-700 mb-1">Edad del alumno</label>
                 <input
                   type="number"
                   min={1}
@@ -620,7 +527,7 @@ export default function Nivel1Page() {
                   placeholder="12.345.678-9 (o tu ID si estás fuera de Chile)"
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
                 />
-                <p className="text-xs text-gray-500 mt-1">Lo usamos para tu certificado oficial.</p>
+                <p className="text-xs text-gray-500 mt-1">Lo usamos para tu certificado oficial (incluido en el curso).</p>
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">País y ciudad</label>
@@ -631,7 +538,7 @@ export default function Nivel1Page() {
                   placeholder="Ej: Chile, Santiago"
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition"
                 />
-                <p className="text-xs text-gray-500 mt-1">Para coordinar el horario y tu método de pago (CLP, USD o transferencia).</p>
+                <p className="text-xs text-gray-500 mt-1">Para confirmar tu horario local y tu método de pago.</p>
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">¿Cuál es tu nivel de coreano?</label>
@@ -644,6 +551,8 @@ export default function Nivel1Page() {
                   <option value="Desde cero">Empiezo desde cero (no sé nada) 🐣</option>
                   <option value="Leo algo del alfabeto">Sé leer algo del alfabeto (한글)</option>
                   <option value="Leo 한글 y algo de vocabulario">Ya leo 한글 y sé algo de vocabulario</option>
+                  <option value="Nivel A1 completo">Terminé A1 (puedo presentarme y conversar básico)</option>
+                  <option value="Intermedio (voy por TOPIK II)">Intermedio — voy por el TOPIK II</option>
                 </select>
               </div>
               <div>
@@ -658,6 +567,7 @@ export default function Nivel1Page() {
                   <option value="TikTok">TikTok</option>
                   <option value="YouTube">YouTube</option>
                   <option value="Facebook">Facebook</option>
+                  <option value="Lector de Hangul">El Lector de Hangul</option>
                   <option value="Taller gratuito">El taller gratuito</option>
                   <option value="Recomendación de un amigo">Recomendación de un amigo</option>
                   <option value="Google / búsqueda">Google / búsqueda</option>
@@ -677,12 +587,12 @@ export default function Nivel1Page() {
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Clase</label>
                 <select
-                  value={selectedCohorte}
-                  onChange={(e) => setSelectedCohorte(e.target.value as Cohorte)}
+                  value={selectedClase}
+                  onChange={(e) => setSelectedClase(e.target.value as ClaseId)}
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#3D2EE8] focus:ring-2 focus:ring-[#3D2EE8]/20 outline-none transition bg-white"
                 >
-                  {Object.entries(cohortes).map(([key, c]) => (
-                    <option key={key} value={key}>{c.label} · {c.day} {c.hora}</option>
+                  {CLASES.map((c) => (
+                    <option key={c.id} value={c.id}>{c.label}</option>
                   ))}
                 </select>
               </div>
@@ -704,7 +614,7 @@ export default function Nivel1Page() {
               <div className="text-5xl mb-3">🎉</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">¡Cupo reservado, {form.nombre.split(" ")[0]}!</h3>
               <p className="text-gray-700 mb-2">
-                Te anotamos en la <strong>{cohortes[selectedCohorte].label}</strong>. Ahora elige cómo pagar abajo para confirmar tu lugar.
+                Te anotamos en <strong>{clase.nombre} · {clase.dia} {clase.horaChile} Chile</strong>. Ahora elige cómo pagar abajo para confirmar tu lugar.
               </p>
               <a href="#pricing" className="inline-block mt-4 px-8 py-3 rounded-full text-white font-bold" style={{ backgroundColor: "#3D2EE8" }}>
                 Ir a pagar ↓
@@ -725,35 +635,54 @@ export default function Nivel1Page() {
               Completa tu pago
             </h2>
             <p className="text-sm font-bold tracking-widest" style={{ color: "#818CF8" }}>
-              COHORTE OCTUBRE 2026
+              COHORTE OCTUBRE 2026 · MISMO PRECIO PARA TODOS LOS CURSOS
             </p>
           </div>
 
           <div className="bg-white border-2 border-[#3D2EE8] rounded-3xl p-8 md:p-12 shadow-xl">
-            {/* Price comparison */}
-            <div className="flex flex-col items-center justify-center gap-2 mb-8">
-              <div className="text-4xl md:text-5xl font-bold text-center" style={{ color: "#3D2EE8" }}>Precio por anunciar</div>
-              <div className="text-sm font-bold mt-1 text-center" style={{ color: "#818CF8" }}>COHORTE OCTUBRE 2026 · LA LISTA DE ESPERA LO RECIBE PRIMERO</div>
-            </div>
-
-            <div className="text-center text-gray-700 mb-8">
-              <p className="font-bold">Pago único · Acceso permanente</p>
+            {/* Plan selector */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+              <button
+                type="button"
+                onClick={() => setPlan("unico")}
+                className={`p-6 rounded-2xl border-2 text-center transition ${
+                  plan === "unico" ? "border-[#3D2EE8] bg-[#F5F3FF] shadow-md" : "border-gray-200 hover:border-gray-300"
+                }`}
+              >
+                <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">PAGO ÚNICO</div>
+                <div className="text-4xl md:text-5xl font-bold" style={{ color: "#3D2EE8" }}>US${PRECIO_UNICO}</div>
+                <div className="text-sm text-gray-600 mt-2">El curso completo de 8 semanas, un solo pago</div>
+                {plan === "unico" && <div className="mt-3 text-xs font-bold" style={{ color: "#3D2EE8" }}>✓ Seleccionado</div>}
+              </button>
+              <button
+                type="button"
+                onClick={() => setPlan("mensual")}
+                className={`p-6 rounded-2xl border-2 text-center transition ${
+                  plan === "mensual" ? "border-[#3D2EE8] bg-[#F5F3FF] shadow-md" : "border-gray-200 hover:border-gray-300"
+                }`}
+              >
+                <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">PLAN MENSUAL</div>
+                <div className="text-4xl md:text-5xl font-bold" style={{ color: "#3D2EE8" }}>
+                  US${PRECIO_MENSUAL}<span className="text-xl font-bold text-gray-500">/mes</span>
+                </div>
+                <div className="text-sm text-gray-600 mt-2">{MESES} pagos mensuales (total US${PRECIO_MENSUAL * MESES})</div>
+                {plan === "mensual" && <div className="mt-3 text-xs font-bold" style={{ color: "#3D2EE8" }}>✓ Seleccionado</div>}
+              </button>
             </div>
 
             {/* What's included */}
             <div className="border-t border-gray-200 pt-8 mb-8">
-              <h3 className="font-bold text-gray-900 mb-4 text-center">Incluye:</h3>
+              <h3 className="font-bold text-gray-900 mb-4 text-center">Todos los cursos incluyen:</h3>
               <ul className="space-y-3 max-w-md mx-auto">
                 {[
-                  "Sesiones en vivo de 60 min cada una",
+                  "8 clases en vivo por Zoom (60 min c/u)",
+                  "Certificado oficial de Academia Seúl al terminar",
+                  "Grabaciones de cada clase (24 h después)",
                   "Slides + hojas de actividad por sesión",
-                  "Audios de pronunciación grabados",
-                  "Grabaciones de cada clase",
-                  "Pronunciación corregida 1:1 sesión por sesión",
-                  "Cuaderno Maestro del Estudiante",
-                  "200 flashcards digitales",
-                  "Discord permanente",
-                  "Certificado A1 por participación",
+                  "Lector de Hangul con audio nativo (tarea gamificada)",
+                  "Pronunciación corregida personalmente",
+                  "Grupos chicos (máx. 15 · TOPIK 8 · Niños 12)",
+                  "Comunidad de alumnos por WhatsApp/Discord",
                 ].map((item) => (
                   <li key={item} className="flex gap-3 items-start">
                     <span style={{ color: "#3D2EE8" }} className="font-bold">✓</span>
@@ -763,30 +692,11 @@ export default function Nivel1Page() {
               </ul>
             </div>
 
-            {/* Bonos */}
-            <div className="bg-gradient-to-br from-[#E8E5FB] to-[#F4F2FE] rounded-2xl p-6 mb-8">
-              <h3 className="font-bold text-gray-900 mb-4 text-center">+ 4 BONOS GRATIS por inscribirte en junio</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {bonos.map((b) => (
-                  <div key={b.title} className="bg-white rounded-xl p-4 flex gap-3">
-                    <div className="text-2xl">{b.icon}</div>
-                    <div className="flex-1">
-                      <div className="font-bold text-sm text-gray-900">{b.title}</div>
-                      <div className="text-xs text-gray-600 mt-1">{b.desc}</div>
-                      <div className="text-xs font-bold mt-2" style={{ color: "#818CF8" }}>Valor {b.value}</div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="text-center mt-4 text-sm font-bold text-gray-900">
-                Valor total bonos: $94 USD · GRATIS para vos
-              </div>
-            </div>
-
             {/* Payment buttons */}
             <div className="space-y-3">
               <div className="text-center text-sm text-gray-600 mb-1">
-                Clase seleccionada: <strong className="text-gray-900">{cohortes[selectedCohorte].label}</strong>
+                Clase: <strong className="text-gray-900">{clase.nombre} · {clase.dia} {clase.horaChile}</strong>
+                {" · "}Plan: <strong className="text-gray-900">{planLabel}</strong>
               </div>
               <p className="text-center text-xs font-bold tracking-widest text-gray-400 mb-3">ELIGE CÓMO PAGAR</p>
 
@@ -798,10 +708,12 @@ export default function Nivel1Page() {
                 </div>
                 <p className="text-sm text-gray-700 mb-4">
                   Es la opción <strong>sin comisión</strong>: el monto llega completo. Escríbenos por WhatsApp y
-                  te enviamos los datos de la cuenta y te guiamos paso a paso en tu inscripción.
+                  te enviamos los datos de la cuenta y te guiamos paso a paso.
                 </p>
                 <a
-                  href="https://wa.me/56942115562?text=Hola%20Jay!%20Quiero%20inscribirme%20al%20Nivel%201%20(A1).%20%C2%BFMe%20pasas%20los%20datos%20para%20la%20transferencia%20y%20el%20proceso%20de%20inscripci%C3%B3n%3F"
+                  href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
+                    `Hola Jay! Quiero inscribirme en ${clase.nombre} (${clase.dia} ${clase.horaChile} Chile) con ${planLabel}. ¿Me pasas los datos para la transferencia?`,
+                  )}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 mt-1 px-6 py-3 rounded-full text-white text-sm font-bold"
@@ -820,23 +732,52 @@ export default function Nivel1Page() {
                 disabled={payLoading}
                 className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition disabled:opacity-60"
               >
-                {payLoading ? "Abriendo pago seguro…" : "💳 Tarjeta de crédito / débito · Mercado Pago"}
+                {payLoading ? "Abriendo pago seguro…" : `💳 Tarjeta de crédito / débito · Mercado Pago (${planLabel})`}
               </button>
-              <p className="text-center text-xs text-gray-500 -mt-1">Pago al instante · Visa, Mastercard y débito (incluye comisión de Mercado Pago). Reserva tu cupo arriba antes de pagar.</p>
+              <p className="text-center text-xs text-gray-500 -mt-1">Visa, Mastercard y débito · se cobra el equivalente en CLP. Reserva tu cupo arriba antes de pagar.</p>
 
               {/* PayPal */}
-              <a
-                href="https://www.paypal.com/ncp/payment/5X33QK4A928FU"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition"
-              >
-                🌍 PayPal · pago internacional
-              </a>
-
+              {plan === "unico" || PAYPAL_LINK_MENSUAL ? (
+                <a
+                  href={plan === "unico" ? PAYPAL_LINK_UNICO : PAYPAL_LINK_MENSUAL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition"
+                >
+                  🌍 PayPal · pago internacional en USD ({plan === "unico" ? `US$${PRECIO_UNICO}` : `US$${PRECIO_MENSUAL}/mes`})
+                </a>
+              ) : (
+                <a
+                  href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
+                    `Hola Jay! Estoy fuera de Chile y quiero pagar ${clase.nombre} con el plan mensual de US$${PRECIO_MENSUAL}. ¿Me envías el link de PayPal?`,
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition"
+                >
+                  🌍 PayPal mensual · te enviamos el link por WhatsApp
+                </a>
+              )}
               <p className="text-center text-xs text-gray-500">
-                ¿Fuera de Chile? Escríbenos por WhatsApp y coordinamos tu transferencia internacional.
+                Con PayPal también puedes pagar con tarjeta <strong>sin tener cuenta PayPal</strong> (opción &ldquo;Pagar con tarjeta&rdquo;).
               </p>
+
+              {/* Hotmart — checkout en la moneda del alumno (EE.UU., España, resto del mundo) */}
+              {(plan === "unico" ? HOTMART_LINK_UNICO : HOTMART_LINK_MENSUAL) && (
+                <>
+                  <a
+                    href={plan === "unico" ? HOTMART_LINK_UNICO : HOTMART_LINK_MENSUAL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition"
+                  >
+                    🌐 Tarjeta internacional en tu moneda · Hotmart ({plan === "unico" ? `US$${PRECIO_UNICO}` : `US$${PRECIO_MENSUAL}/mes`})
+                  </a>
+                  <p className="text-center text-xs text-gray-500 -mt-1">
+                    Ideal desde EE.UU., España o Europa: pagas en USD, EUR o tu moneda local con cualquier tarjeta.
+                  </p>
+                </>
+              )}
 
               {/* Paso 3 · Confirmar pago (avisa al equipo quién pagó) */}
               <div className="mt-6 pt-6 border-t border-dashed border-gray-300">
@@ -847,13 +788,14 @@ export default function Nivel1Page() {
                     </div>
                     <p className="text-sm font-bold text-gray-900 mb-1">¿Ya hiciste tu pago?</p>
                     <p className="text-xs text-gray-500 mb-4">
-                      Confírmalo aquí y reservamos tu cupo en la <strong>{cohortes[selectedCohorte].label}</strong>.
+                      Confírmalo aquí y reservamos tu cupo en <strong>{clase.nombre}</strong>.
                       Te escribimos por correo/WhatsApp para darte la bienvenida.
                     </p>
                     <div className="flex flex-wrap justify-center gap-2">
                       {[
                         { m: "Mercado Pago (tarjeta)", e: "💳" },
                         { m: "PayPal", e: "🌍" },
+                        ...(HOTMART_LINK_UNICO ? [{ m: "Hotmart", e: "🌐" }] : []),
                         { m: "Transferencia bancaria", e: "🏦" },
                       ].map((opt) => (
                         <button
@@ -884,72 +826,52 @@ export default function Nivel1Page() {
             </div>
 
             <div className="text-center text-xs text-gray-500 mt-6">
-              🔒 Pago único · Sin cuotas mensuales · Tu información está protegida
+              🔒 Certificado incluido · Grabaciones incluidas · Tu información está protegida
             </div>
           </div>
         </div>
       </section>
 
-      {/* Method */}
+      {/* Profesores */}
       <section className="py-20 bg-gradient-to-b from-white to-[#F5F3FF]">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
-              El método que vas a usar
+              Tu equipo de profesores
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Academia Seúl usa el método <strong>한국어교실 엿보기</strong>, el sistema pedagógico oficial del Korea Foundation, adaptado especialmente para hispanohablantes.
+              Nativos y bilingües, con años de experiencia enseñando coreano a hispanohablantes.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { num: "1", title: "Presentación visual", desc: "Gramática con dibujos, gestos y ejemplos. No tablas aburridas." },
-              { num: "2", title: "Práctica controlada", desc: "Drills coral, corrección de pronunciación en vivo." },
-              { num: "3", title: "Aplicación libre", desc: "Role-plays reales: café, restaurante, presentación." },
-              { num: "4", title: "Cultura integrada", desc: "Cada clase tiene un bloque corto de cultura coreana real." },
-            ].map((step) => (
-              <div key={step.num} className="bg-white rounded-2xl p-6 shadow-sm">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold mb-4" style={{ backgroundColor: "#3D2EE8" }}>
-                  {step.num}
-                </div>
-                <h3 className="font-bold text-gray-900 mb-2">{step.title}</h3>
-                <p className="text-sm text-gray-600">{step.desc}</p>
+              {
+                nombre: "Jay Kim · 김재희",
+                rol: "Fundador · Básico 2 y TOPIK II",
+                desc: "Coreano nativo radicado en Chile. Creador del Método Chingu™ y del Lector de Hangul. 8+ años enseñando a hispanohablantes.",
+                emoji: "🐯",
+              },
+              {
+                nombre: "Abby · 홍미영",
+                rol: "Conversacional A2.1",
+                desc: "Profesora coreana nativa, pedagoga (MSU). Dicta el conversacional desde Corea — clases donde solo se habla.",
+                emoji: "💬",
+              },
+              {
+                nombre: "Guiran · 기란",
+                rol: "Básico 1 (martes y jueves)",
+                desc: "Profesora coreana criada en Argentina — bilingüe perfecta. Años de experiencia enseñando coreano en español.",
+                emoji: "🌱",
+              },
+            ].map((p) => (
+              <div key={p.nombre} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center">
+                <div className="text-5xl mb-3">{p.emoji}</div>
+                <h3 className="font-bold text-gray-900">{p.nombre}</h3>
+                <div className="text-xs font-bold tracking-wide uppercase mt-1 mb-3" style={{ color: "#3D2EE8" }}>{p.rol}</div>
+                <p className="text-sm text-gray-600">{p.desc}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* About Jay */}
-      <section className="py-20 bg-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Tu profesor
-              </h2>
-              <div className="text-2xl font-bold mb-2" style={{ color: "#3D2EE8" }}>
-                김재희 · Jay Kim
-              </div>
-              <p className="text-gray-600 mb-4">
-                Fundador de Academia Seúl. Nacido en Seúl, formado en lingüística y pedagogía.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                8+ años enseñando coreano a hispanohablantes en Chile y de manera online. He enseñado a estudiantes que después siguieron carreras en Corea, viajaron al país, o trabajan en empresas coreanas.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                El <strong>Método Chingu™</strong> que desarrollé combina lo mejor del método oficial coreano con adaptaciones específicas para hispanohablantes. Por eso mis estudiantes aprenden 3x más rápido que con cursos genéricos.
-              </p>
-            </div>
-            <div className="rounded-3xl overflow-hidden bg-gradient-to-br from-[#3D2EE8] to-[#818CF8] aspect-square flex items-center justify-center text-white text-center p-12">
-              <div>
-                <div className="text-6xl mb-4">👩‍🏫</div>
-                <div className="text-4xl font-bold mb-2">김재희</div>
-                <div className="text-sm opacity-80">Profesora · Fundadora</div>
-                <div className="text-xs opacity-60 mt-3">Academia Seúl · 2026</div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -981,23 +903,23 @@ export default function Nivel1Page() {
             ¿Listo para empezar?
           </h2>
           <p className="text-lg opacity-90 mb-8">
-            La próxima cohorte arranca en octubre de 2026 — los horarios y el precio se anuncian muy pronto.
+            Las clases arrancan la {INICIO_LABEL.toLowerCase()} — US${PRECIO_UNICO} el curso completo
+            o US${PRECIO_MENSUAL}/mes. Certificado incluido.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="#pricing" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
-              Sumarme a la lista de espera
+            <a href="#inscripcion" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">
+              Reservar mi cupo
             </a>
-            <a href="https://wa.me/56942115562" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">
+            <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noopener noreferrer" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">
               💬 Hablar con Jay primero
             </a>
           </div>
           <div className="mt-8 text-sm opacity-70">
-            화이팅 chingu! Te espero en la cohorte de octubre.
+            화이팅 chingu! Te esperamos el 5 de octubre.
           </div>
         </div>
       </section>
 
-      {/* Back link */}
       {/* Footer */}
       <Footer />
     </main>

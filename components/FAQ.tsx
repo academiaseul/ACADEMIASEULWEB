@@ -3,7 +3,7 @@ import { ChevronDown } from 'lucide-react';
 export const faqs = [
   {
     q: '¿Necesito saber algo de coreano para empezar?',
-    a: 'No. El Nivel 1 (A1) está pensado para empezar desde cero: lo primero que aprenderás es a leer el alfabeto (한글). Si ya sabes algo, igual te sirve para ordenar tus bases.',
+    a: 'No. Básico 1 (A1.1) y Coreano para Niños están pensados para empezar desde cero: lo primero que aprenderás es a leer el alfabeto (한글). Si ya sabes algo, tenemos Básico 2, Conversacional A2.1 y Preparación TOPIK II — haz el test de nivel gratuito o escríbenos y te orientamos.',
   },
   {
     q: '¿Las clases son en vivo o grabadas?',
@@ -11,27 +11,27 @@ export const faqs = [
   },
   {
     q: '¿Cuánto cuesta y qué incluye?',
-    a: 'El precio de la cohorte de octubre 2026 se anunciará muy pronto — los de la lista de espera lo reciben primero. La matrícula incluye todas las clases en vivo de la cohorte, material de estudio, certificado por participación y acceso a la comunidad. Puedes ver el programa completo en la página del Nivel 1.',
+    a: 'Todos los cursos cuestan lo mismo: US$150 en pago único o US$75/mes durante 2 meses. Incluye las 8 clases en vivo (60 min), grabaciones, material de estudio, el Lector de Hangul, certificado de Academia Seúl y acceso a la comunidad. El programa completo está en /programa.',
   },
   {
     q: '¿Qué horarios y fechas hay?',
-    a: 'Tenemos dos horarios: miércoles 20:00 (hora Chile) — ideal para LATAM después del trabajo — y sábados 11:00 (Chile) / 16:00 (España). Una clase por semana. La cohorte actual ya está en curso; anotate en la lista de espera para la próxima y te avisamos apenas se abran cupos.',
+    a: 'La cohorte parte la semana del 5 de octubre de 2026 y dura 8 semanas (una clase por semana, hora de Chile): Coreano para Niños lunes 18:00 · Básico 1 martes 20:00 o jueves 20:00 · Conversacional A2.1 martes 21:00 · Básico 2 miércoles 21:00 · TOPIK II jueves 21:00. En la página de inscripción hay una tabla con la hora exacta para México, Colombia, Perú, Argentina, EE.UU. y España.',
   },
   {
     q: '¿Me sirve para el examen TOPIK?',
-    a: 'Sí. Nuestro camino está alineado con el marco CEFR: el Nivel 1 (A1) te deja la base para avanzar hacia el TOPIK 1. Vamos construyendo nivel a nivel con un método claro.',
+    a: 'Sí. Nuestra escalera está alineada con el marco CEFR y el TOPIK: Básico 1 y 2 te llevan al TOPIK I, y el grupo de Preparación TOPIK II (jueves 21:00 Chile) está enfocado 100% en el examen oficial, con corrección de escritura y simulacros.',
   },
   {
     q: '¿Desde qué países puedo tomar las clases?',
-    a: 'Desde toda Latinoamérica y España. Las clases son 100% online por Zoom; solo necesitas internet y ganas de aprender. Coordinamos los horarios pensando en distintas zonas horarias.',
+    a: 'Desde toda Latinoamérica, España y EE.UU. Las clases son 100% online por Zoom; solo necesitas internet y ganas de aprender. Los horarios están en hora de Chile y publicamos la conversión a cada país.',
   },
   {
     q: '¿Cómo puedo pagar?',
-    a: 'Tarjeta de crédito/débito, PayPal o transferencia bancaria. Al inscribirte eliges tu método y reservas tu cupo en la cohorte. Te confirmamos por correo apenas registramos tu pago.',
+    a: 'Tarjeta de crédito/débito vía Mercado Pago (se cobra en pesos chilenos), PayPal en dólares (también con tarjeta sin cuenta PayPal) o transferencia bancaria en Chile sin comisión. Puedes pagar los US$150 de una vez o en 2 cuotas mensuales de US$75. Te confirmamos por correo apenas registramos tu pago.',
   },
   {
     q: '¿Recibo un certificado?',
-    a: 'Sí. Recibes un certificado de Academia Seúl por tu participación en las clases del Nivel 1 (A1), equivalente al marco CEFR A1 / TOPIK 초급 1. Lo entregamos en base a tu asistencia y participación a lo largo de la cohorte.',
+    a: 'Sí, está incluido en todos los cursos. Al completar tu curso recibes el certificado de Academia Seúl del nivel correspondiente (A1.1, A1.2, A2.1 o TOPIK II), en base a tu asistencia y participación.',
   },
 ];
 

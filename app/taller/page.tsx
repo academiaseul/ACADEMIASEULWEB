@@ -116,7 +116,7 @@ export default function TallerPage() {
     },
     {
       q: "¿Qué pasa después del taller?",
-      a: "Tendrás la oportunidad de unirte al curso Nivel 1 de Academia Seúl — 10 semanas de coreano por Zoom.",
+      a: "Tendrás la oportunidad de unirte a los cursos en vivo de Academia Seúl — 8 semanas de coreano por Zoom, certificado incluido, con matrícula abierta desde octubre de 2026.",
     },
     {
       q: "¿En qué plataforma será?",

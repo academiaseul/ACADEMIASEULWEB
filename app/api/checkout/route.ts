@@ -6,8 +6,13 @@ export const dynamic = 'force-dynamic';
 
 const BASE =
   process.env.NEXT_PUBLIC_BASE_URL || 'https://www.academiaseul.com';
-// Precio en CLP (cuenta Mercado Pago Chile). Ajustable por env.
-const PRICE_CLP = Number(process.env.MP_PRICE_CLP || 85000);
+
+// Precios en CLP (cuenta Mercado Pago Chile) · cohorte octubre 2026.
+// US$150 pago único / US$75 mensual (×2). Ajustables por env sin deploy.
+// NOTA: se renombraron las vars (antes MP_PRICE_CLP) para que un valor viejo
+// configurado en Netlify no cobre el monto de la cohorte anterior.
+const PRICE_CLP_UNICO = Number(process.env.MP_PRICE_CLP_UNICO || 142500);
+const PRICE_CLP_MENSUAL = Number(process.env.MP_PRICE_CLP_MENSUAL || 71250);
 
 export async function POST(req: NextRequest) {
   const token = process.env.MP_ACCESS_TOKEN;
@@ -22,7 +27,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { nombre, correo, whatsapp, clase, cohorteKey } = body || {};
+    const { nombre, correo, whatsapp, clase, cohorteKey, plan } = body || {};
 
     if (!nombre || !correo) {
       return NextResponse.json(
@@ -31,6 +36,12 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    const esMensual = plan === 'mensual';
+    const unitPrice = esMensual ? PRICE_CLP_MENSUAL : PRICE_CLP_UNICO;
+    const planLabel = esMensual
+      ? 'Mensualidad 1 de 2 (US$75/mes)'
+      : 'Pago único (US$150)';
+
     const client = new MercadoPagoConfig({ accessToken: token });
     const preference = new Preference(client);
 
@@ -38,11 +49,12 @@ export async function POST(req: NextRequest) {
       body: {
         items: [
           {
-            id: `nivel-1-${cohorteKey || 'clase'}`,
-            title: `Academia Seúl · Nivel 1 (A1) — ${clase || 'Clase'}`,
-            description: 'Curso de coreano en vivo · Nivel 1 (A1)',
+            id: `oct-2026-${cohorteKey || 'clase'}-${esMensual ? 'mensual' : 'unico'}`,
+            title: `Academia Seúl · ${clase || 'Curso de coreano'} — ${planLabel}`,
+            description:
+              'Curso de coreano en vivo · 8 semanas · cohorte octubre 2026 · certificado incluido',
             quantity: 1,
-            unit_price: PRICE_CLP,
+            unit_price: unitPrice,
             currency_id: 'CLP',
           },
         ],
@@ -56,6 +68,7 @@ export async function POST(req: NextRequest) {
           whatsapp: whatsapp || '',
           clase: clase || '',
           cohorte_key: cohorteKey || '',
+          plan: esMensual ? 'mensual' : 'unico',
         },
         external_reference: correo,
         back_urls: {
