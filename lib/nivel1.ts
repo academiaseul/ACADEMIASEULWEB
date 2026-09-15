@@ -332,3 +332,16 @@ export const CURSOS: Curso[] = [
 export function cursoDe(clase: Clase): Curso {
   return CURSOS.find((c) => c.cursoId === clase.cursoId)!;
 }
+
+// 📄 PDFs descargables (public/programas/, generados con scratchpad/make_programas_pdf.js).
+const PDF_SLUG: Record<Curso["cursoId"], string> = {
+  ninos: "Ninos",
+  a11: "Basico1",
+  a12: "Basico2",
+  a21: "ConversacionalA21",
+  topik2: "TOPIK2",
+};
+export const PROGRAMA_GENERAL_PDF = "/programas/Programa_Cursos_Octubre_2026.pdf";
+export function pdfDe(cursoId: Curso["cursoId"]): string {
+  return `/programas/Programa_${PDF_SLUG[cursoId]}_Octubre_2026.pdf`;
+}

@@ -12,6 +12,8 @@ import {
   PRECIO_MENSUAL,
   MESES,
   WHATSAPP,
+  PROGRAMA_GENERAL_PDF,
+  pdfDe,
 } from "@/lib/nivel1";
 
 export const metadata: Metadata = {
@@ -55,8 +57,8 @@ export default function ProgramaPage() {
             <a href="/nivel-1#clases" className="px-8 py-3.5 bg-white text-[#3D2EE8] font-bold rounded-full hover:scale-105 transition">
               Inscribirme →
             </a>
-            <a href="#horarios" className="px-8 py-3.5 border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition">
-              Ver horarios por país
+            <a href={PROGRAMA_GENERAL_PDF} download className="px-8 py-3.5 border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition">
+              📄 Descargar programa (PDF)
             </a>
           </div>
         </div>
@@ -221,13 +223,23 @@ export default function ProgramaPage() {
                     ))}
                   </ul>
 
-                  <a
-                    href="/nivel-1#clases"
-                    className="inline-block px-7 py-3 rounded-full text-white font-bold hover:scale-105 transition"
-                    style={{ backgroundColor: AZUL }}
-                  >
-                    Inscribirme en {curso.nombre.split(" · ")[0]} →
-                  </a>
+                  <div className="flex flex-col sm:flex-row gap-3">
+                    <a
+                      href="/nivel-1#clases"
+                      className="inline-block text-center px-7 py-3 rounded-full text-white font-bold hover:scale-105 transition"
+                      style={{ backgroundColor: AZUL }}
+                    >
+                      Inscribirme →
+                    </a>
+                    <a
+                      href={pdfDe(curso.cursoId)}
+                      download
+                      className="inline-block text-center px-7 py-3 rounded-full font-bold border-2 hover:bg-white transition"
+                      style={{ borderColor: AZUL, color: AZUL }}
+                    >
+                      📄 Programa PDF
+                    </a>
+                  </div>
                 </div>
 
                 {/* Semanas */}

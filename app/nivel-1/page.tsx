@@ -20,6 +20,7 @@ import {
   TZ_ROWS,
   TZ_NOTA,
   cursoDe,
+  pdfDe,
   type ClaseId,
 } from "@/lib/nivel1";
 
@@ -427,12 +428,19 @@ export default function Nivel1Page() {
             ))}
           </div>
 
-          <div className="text-center mt-10">
+          <div className="text-center mt-10 flex flex-col sm:flex-row gap-3 justify-center">
+            <a
+              href={pdfDe(curso.cursoId)}
+              download
+              className="inline-flex items-center justify-center gap-2 bg-white text-[#3D2EE8] font-bold px-7 py-3.5 rounded-full border-2 border-[#3D2EE8] hover:bg-[#3D2EE8] hover:text-white transition"
+            >
+              📄 Descargar el programa de esta clase (PDF)
+            </a>
             <a
               href="/programa"
-              className="inline-flex items-center gap-2 bg-white text-[#3D2EE8] font-bold px-7 py-3.5 rounded-full border-2 border-[#3D2EE8] hover:bg-[#3D2EE8] hover:text-white transition"
+              className="inline-flex items-center justify-center gap-2 text-[#3D2EE8] font-bold px-7 py-3.5 rounded-full hover:bg-[#F5F3FF] transition"
             >
-              📚 Ver el programa completo de todos los cursos
+              📚 Ver todos los cursos →
             </a>
           </div>
         </div>
