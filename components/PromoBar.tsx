@@ -29,13 +29,15 @@ export default function PromoBar() {
   return (
     <div className="w-full" style={{ backgroundColor: '#4236F6' }}>
       <div className="relative mx-auto flex max-w-5xl items-center justify-center gap-x-4 gap-y-1 flex-wrap px-4 py-2 pr-12 text-white">
-        <span className="text-sm font-bold">
-          🎓 Matrícula abierta · <span className="text-[#E8B84B]">clases desde la semana del 5 de octubre</span> — US${PRECIO_UNICO} el curso (o {MESES} × US${PRECIO_MENSUAL}) · mismo precio en todos los niveles
-        </span>
+        <a href="/nivel-1#clases" className="text-sm font-bold sm:pointer-events-none">
+          🎓 Matrícula abierta · <span className="text-[#E8B84B]">clases desde <span className="sm:hidden">el</span><span className="hidden sm:inline">la semana del</span> 5 de octubre</span>
+          <span className="hidden md:inline"> — US${PRECIO_UNICO} el curso (o {MESES} × US${PRECIO_MENSUAL}) · mismo precio en todos los niveles</span>
+          <span className="sm:hidden"> →</span>
+        </a>
 
         <a
           href="/nivel-1#clases"
-          className="rounded-full bg-white px-4 py-1.5 text-sm font-bold text-[#4236F6] hover:bg-[#E8B84B] hover:text-[#0D0D0D] transition-colors"
+          className="hidden sm:inline-block rounded-full bg-white px-4 py-1.5 text-sm font-bold text-[#4236F6] hover:bg-[#E8B84B] hover:text-[#0D0D0D] transition-colors"
         >
           Elegir mi clase →
         </a>

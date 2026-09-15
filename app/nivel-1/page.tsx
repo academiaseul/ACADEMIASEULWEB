@@ -8,6 +8,7 @@ import Escalera from "@/components/Escalera";
 import HorarioSemanal from "@/components/HorarioSemanal";
 import EquipoProfes from "@/components/EquipoProfes";
 import ResumenReserva from "@/components/ResumenReserva";
+import SidebarCursos from "@/components/SidebarCursos";
 import { useHoraLocal } from "@/lib/useHoraLocal";
 import {
   COHORTE_ABIERTA,
@@ -38,7 +39,7 @@ export default function Nivel1Page() {
   const [selectedClase, setSelectedClase] = useState<ClaseId>("a11-martes");
   const [plan, setPlan] = useState<Plan>("unico");
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-  const { pais, esChile, info } = useHoraLocal();
+  const { pais, esChile, info, hora } = useHoraLocal();
   const [desdeChile, setDesdeChile] = useState(true);
   const [tocoPais, setTocoPais] = useState(false);
   const [mostrarSticky, setMostrarSticky] = useState(false);
@@ -110,6 +111,24 @@ export default function Nivel1Page() {
     setSelectedClase(id);
     setFormError("");
   };
+  // Desde el sidebar: seleccionar y llevar al detalle de la clase.
+  const elegirDesdeSidebar = (id: string) => {
+    elegirClase(id as ClaseId);
+    const el = document.getElementById("clases");
+    if (el) window.scrollTo({ top: el.offsetTop - 120, behavior: "smooth" });
+  };
+  const sidebarCursos = CLASES.map((c) => {
+    const cu = cursoDe(c);
+    return { id: c.id, emoji: cu.emoji, label: cu.nombreCorto, sub: `${c.dia} ${hora(c.horaChile)}${esChile ? "" : ` ${info.corto}`} · ${profeCorto(c)}` };
+  });
+  const sidebarSecciones = [
+    { id: "clases", label: "¿Qué curso tomo?" },
+    { id: "programa", label: "Las 8 semanas" },
+    { id: "profes", label: "Profesores" },
+    { id: "inscripcion", label: "Inscripción" },
+    { id: "pricing", label: "Pago" },
+    { id: "faq", label: "Preguntas frecuentes" },
+  ];
 
   const camposFaltantes = () => {
     const req: [string, string][] = [
@@ -273,8 +292,11 @@ export default function Nivel1Page() {
     <main className="min-h-screen bg-white">
       <Navigation solid />
 
+
       {/* Barra sticky de reserva */}
       <ResumenReserva clase={clase} plan={plan} pais={pais} sticky visible={mostrarSticky && !submitted} onCambiar={() => document.getElementById("clases")?.scrollIntoView({ behavior: "smooth" })} />
+
+      <div className="lg:pl-64">
 
       {/* Aviso de resultado de pago (al volver de Mercado Pago / PayPal) */}
       {pagoStatus && (
@@ -318,6 +340,14 @@ export default function Nivel1Page() {
           </div>
         </div>
       </section>
+
+      <SidebarCursos
+        cursos={sidebarCursos}
+        secciones={sidebarSecciones}
+        activoCurso={selectedClase}
+        onCurso={elegirDesdeSidebar}
+        cta={{ label: esNinos ? "Inscribir a mi hijo/a →" : "Reservar mi cupo →", href: "#inscripcion" }}
+      />
 
       {/* Paso 0 · ¿Qué curso tomo? + grilla */}
       <section id="clases" className="py-16" style={{ backgroundColor: "#F5F3FF" }}>
@@ -377,7 +407,7 @@ export default function Nivel1Page() {
       </section>
 
       {/* Profes */}
-      <section className="py-16 bg-gradient-to-b from-white to-[#F5F3FF]">
+      <section id="profes" className="py-16 bg-gradient-to-b from-white to-[#F5F3FF]">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">Tu equipo de profesores</h2>
           <p className="text-gray-600 text-center mb-10">Nativos y bilingües, con años de experiencia enseñando coreano a hispanohablantes.</p>
@@ -640,7 +670,7 @@ export default function Nivel1Page() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-[#F5F3FF]">
+      <section id="faq" className="py-20 bg-[#F5F3FF]">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Preguntas frecuentes</h2>
           <div className="space-y-3">
@@ -668,6 +698,7 @@ export default function Nivel1Page() {
       </section>
 
       <Footer />
+      </div>
     </main>
   );
 }

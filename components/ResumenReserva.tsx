@@ -64,7 +64,7 @@ export default function ResumenReserva({
   if (sticky) {
     return (
       <div
-        className={`fixed bottom-0 left-0 right-0 z-40 transition-transform duration-300 ${visible ? "translate-y-0" : "translate-y-full"}`}
+        className={`fixed bottom-0 left-0 lg:left-64 right-0 z-40 transition-transform duration-300 ${visible ? "translate-y-0" : "translate-y-full"}`}
         aria-hidden={!visible}
       >
         <div className="mx-auto max-w-4xl pl-4 pr-[92px] lg:px-4 pb-3">

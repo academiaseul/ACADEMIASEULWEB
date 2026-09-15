@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Escalera from "@/components/Escalera";
 import HorarioSemanal from "@/components/HorarioSemanal";
 import EquipoProfes from "@/components/EquipoProfes";
+import SidebarCursos from "@/components/SidebarCursos";
 import {
   CLASES,
   CURSOS,
@@ -39,11 +40,23 @@ const AZUL = "#3D2EE8";
 
 export default function ProgramaPage() {
   const orden = [...CURSOS].sort((a, b) => (a.paso === 0 ? 99 : a.paso) - (b.paso === 0 ? 99 : b.paso));
+  const sidebarCursos = orden.map((c) => {
+    const cs = clasesDe(c.cursoId);
+    return { id: c.cursoId, emoji: c.emoji, label: c.nombreCorto, sub: `${cs.map((k) => k.dia).join(" o ")} ${cs[0].horaChile} Chile · ${profeDe(cs[0].profeId).corto}` };
+  });
+  const sidebarSecciones = [
+    { id: "escalera", label: "La escalera" },
+    { id: "horarios", label: "Horario semanal" },
+    { id: "metodo", label: "Cómo es una clase" },
+    { id: "equipo", label: "Equipo docente" },
+    { id: "precio", label: "Precio y pago" },
+  ];
 
   return (
     <main className="min-h-screen bg-white">
       <Navigation solid />
 
+      <div className="lg:pl-64">
       {/* Hero */}
       <section className="relative overflow-hidden text-white pt-16 md:pt-20" style={{ backgroundColor: AZUL }}>
         <div className="max-w-5xl mx-auto px-6 py-16 md:py-24 text-center">
@@ -61,8 +74,10 @@ export default function ProgramaPage() {
         </div>
       </section>
 
+      <SidebarCursos cursos={sidebarCursos} secciones={sidebarSecciones} cta={{ label: "Inscribirme →", href: "/nivel-1#clases" }} />
+
       {/* Escalera */}
-      <section className="py-14 bg-[#F5F3FF]">
+      <section id="escalera" className="py-14 bg-[#F5F3FF]">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">La escalera de Academia Seúl</h2>
           <p className="text-gray-600 text-center mb-8 max-w-2xl mx-auto">Todos los cursos duran 8 semanas y cuestan lo mismo. Cada peldaño te deja listo para el siguiente. Toca tu caso y te decimos dónde entrar.</p>
@@ -80,7 +95,7 @@ export default function ProgramaPage() {
       </section>
 
       {/* Método */}
-      <section className="py-16 bg-[#0D0D0D] text-white">
+      <section id="metodo" className="py-16 bg-[#0D0D0D] text-white">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-10">
             <div className="inline-block px-4 py-1 mb-4 rounded-full bg-white/10 text-xs font-bold tracking-widest">CÓMO ES UNA CLASE</div>
@@ -184,7 +199,7 @@ export default function ProgramaPage() {
       })}
 
       {/* Profes */}
-      <section className="py-16 bg-white border-t border-gray-100">
+      <section id="equipo" className="py-16 bg-white border-t border-gray-100">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">Equipo docente</h2>
           <EquipoProfes />
@@ -192,7 +207,7 @@ export default function ProgramaPage() {
       </section>
 
       {/* Precio + certificado */}
-      <section className="py-16 bg-[#F5F3FF]">
+      <section id="precio" className="py-16 bg-[#F5F3FF]">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Un solo precio para todos los cursos</h2>
           <p className="text-gray-600 mb-10">{precioLabel()} — sin importar el nivel.</p>
@@ -221,6 +236,7 @@ export default function ProgramaPage() {
       </section>
 
       <Footer />
+      </div>
     </main>
   );
 }
