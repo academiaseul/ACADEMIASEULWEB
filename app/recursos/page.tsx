@@ -49,7 +49,7 @@ const cards = [
     korean: "놀이",
     title: "Torpedo Coreano",
     desc:
-      "Un juego rápido de vocabulario y gramática de Nivel 1: saludos, partículas, familia y más. Ocho preguntas para poner a prueba lo que ya sabés.",
+      "Un juego rápido de vocabulario y gramática de Básico 1 (A1.1): saludos, partículas, familia y más. Ocho preguntas para poner a prueba lo que ya sabes.",
     cta: "Jugar ahora",
   },
   {

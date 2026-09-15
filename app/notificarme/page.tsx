@@ -35,6 +35,7 @@ const NIVELES_COREANO = [
   "Cero, nunca estudié",
   "Sé leer el alfabeto (한글)",
   "Nivel A1 básico",
+  "Terminé Básico 1 o equivalente",
   "Nivel A2 o intermedio",
   "Nivel B1 o superior",
 ];

@@ -42,11 +42,11 @@ export async function POST(req: NextRequest) {
         await resend.emails.send({
           from: 'Academia Seúl <onboarding@resend.dev>',
           to: OWNER_EMAIL,
-          subject: `✅ PAGO APROBADO — ${m.nombre || payment.payer?.email || 'Alumno'} (Nivel 1)`,
+          subject: `✅ PAGO APROBADO — ${m.nombre || payment.payer?.email || 'Alumno'} — ${m.clase || 'curso de coreano'}`,
           html: `
             <div style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:24px;background:#f9f9f9;border-radius:8px;">
               <div style="background:#16a34a;padding:20px;border-radius:8px 8px 0 0;text-align:center;">
-                <h1 style="color:#fff;margin:0;font-size:20px;">✅ Pago aprobado · Nivel 1</h1>
+                <h1 style="color:#fff;margin:0;font-size:20px;">✅ Pago aprobado · ${m.clase || 'Academia Seúl'}</h1>
               </div>
               <div style="background:#fff;padding:24px;border-radius:0 0 8px 8px;border:1px solid #eee;">
                 <table style="width:100%;border-collapse:collapse;font-size:14px;">

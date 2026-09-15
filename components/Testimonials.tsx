@@ -55,7 +55,7 @@ const reasons = [
     icon: ShieldCheck,
     title: 'Certificado por participación',
     description:
-      'Recibes tu certificado de Academia Seúl por participar en las clases del Nivel 1 (CEFR A1 / TOPIK 초급 1). Tu esfuerzo queda reconocido, paso a paso.',
+      'Certificado incluido en todos los cursos. Al terminar recibes el certificado de Academia Seúl de tu nivel (Básico 1 · A1.1, Básico 2 · A1.2, Conversacional 1 · A2.1, TOPIK II o Niños), por asistencia y participación.',
     color: '#D4AF37',
   },
 ];
@@ -72,7 +72,7 @@ const testimonials = [
   },
   {
     name: 'Nedielka Curkovic',
-    level: 'Nivel A2',
+    level: 'Básico 2 (A1.2)',
     course: 'Coreano Básico',
     initials: 'NC',
     color: '#003478',
@@ -90,7 +90,7 @@ const testimonials = [
   },
   {
     name: 'Catalina Saavedra',
-    level: 'Nivel A2',
+    level: 'Básico 2 (A1.2)',
     course: 'Coreano Básico',
     initials: 'CS',
     color: '#3D2EE8',

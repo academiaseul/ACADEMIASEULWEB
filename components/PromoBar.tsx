@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { X } from 'lucide-react';
-import { PRECIO_MENSUAL } from '@/lib/nivel1';
+import { PRECIO_UNICO, PRECIO_MENSUAL, MESES } from '@/lib/nivel1';
 
 // Barra de anuncio: matrícula abierta cohorte octubre 2026.
 // El visitante puede cerrarla y no vuelve a aparecer (clave nueva por campaña).
@@ -30,7 +30,7 @@ export default function PromoBar() {
     <div className="w-full" style={{ backgroundColor: '#4236F6' }}>
       <div className="relative mx-auto flex max-w-5xl items-center justify-center gap-x-4 gap-y-1 flex-wrap px-4 py-2 pr-12 text-white">
         <span className="text-sm font-bold">
-          🎓 Matrícula abierta · <span className="text-[#E8B84B]">clases desde el 5 de octubre</span> — desde US${PRECIO_MENSUAL}/mes · certificado incluido
+          🎓 Matrícula abierta · <span className="text-[#E8B84B]">clases desde la semana del 5 de octubre</span> — US${PRECIO_UNICO} el curso (o {MESES} × US${PRECIO_MENSUAL}) · mismo precio en todos los niveles
         </span>
 
         <a

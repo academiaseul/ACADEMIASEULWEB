@@ -90,9 +90,9 @@ export default function Hero() {
         >
           Clases de coreano en vivo, diseñadas para hispanohablantes. Aprende a leer{' '}
           <span className="font-korean text-white">한글</span> desde cero, habla desde tus
-          primeras clases y entiende la cultura detrás del idioma — con profesores nativos.
+          primeras clases y entiende la cultura detrás del idioma — con Jay y un equipo de profesoras coreanas nativas.
           <span className="block mt-2 font-semibold text-white">
-            Matrícula abierta · clases desde el 5 de octubre · US$150 o US$75/mes · certificado incluido.
+            Matrícula abierta · 8 semanas desde la semana del 5 de octubre · US$150 el curso completo o 2 cuotas de US$75 · certificado incluido.
           </span>
         </motion.p>
 
@@ -124,15 +124,44 @@ export default function Hero() {
           transition={{ delay: 2.2, duration: 0.8 }}
           className="mt-5 text-sm text-white/85"
         >
-          ¿Partes desde cero? Sí — incluso si nunca has visto{' '}
-          <span className="font-korean">한글</span>.{' '}
+          ¿Nunca estudiaste coreano? Tu curso es{' '}
           <a
-            href="/recursos/guias"
-            className="text-white font-medium underline underline-offset-4 decoration-white/50 transition-colors hover:text-seoul-red"
+            href="/nivel-1?clase=a11-martes#clases"
+            className="text-white font-bold underline underline-offset-4 decoration-white/50 transition-colors hover:text-[#E8B84B]"
           >
-            Empieza con la guía del alfabeto gratis
-          </a>
+            Básico 1 (A1.1) →
+          </a>{' '}
+          martes o jueves, empiezas leyendo el alfabeto.
+          <span className="block mt-1 text-white/60 text-xs">
+            ¿Quieres adelantar antes de octubre?{' '}
+            <a href="/lector-hangul" className="underline underline-offset-2 hover:text-white">Lector de Hangul gratis</a>
+          </span>
         </motion.p>
+
+        {/* Chips de entrada */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 2.3, duration: 0.8 }}
+          className="mt-5 flex flex-wrap justify-center gap-2"
+        >
+          {[
+            { t: 'Nunca estudié → Básico 1', h: '/nivel-1?clase=a11-martes#clases' },
+            { t: 'Ya leo Hangul → Básico 2', h: '/nivel-1?clase=a12#clases' },
+            { t: 'Terminé el Nivel 1 → Básico 2', h: '/nivel-1?clase=a12#clases' },
+            { t: 'Quiero hablar → Conversacional 1', h: '/nivel-1?clase=a21#clases' },
+            { t: 'Voy por el TOPIK → TOPIK II', h: '/nivel-1?clase=topik2#clases' },
+            { t: '🧒 Niños 8–12 · lunes 18:00', h: '/nivel-1?clase=ninos#clases' },
+          ].map((c) => (
+            <a
+              key={c.t}
+              href={c.h}
+              className="px-3.5 py-1.5 rounded-full border border-white/30 text-white/85 text-xs font-semibold hover:bg-white hover:text-seoul-black transition-colors"
+            >
+              {c.t}
+            </a>
+          ))}
+        </motion.div>
 
         {/* Trust badges */}
         <motion.div

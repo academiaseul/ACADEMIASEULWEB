@@ -1,4 +1,4 @@
-import { CLASES, CURSOS, INICIO_ISO, PRECIO_UNICO } from '@/lib/nivel1';
+import { CLASES, CURSOS, INICIO_ISO, PRECIO_UNICO, profeDe } from '@/lib/nivel1';
 
 const BASE = 'https://www.academiaseul.com';
 
@@ -25,8 +25,9 @@ const organization = {
 const courses = CURSOS.map((curso) => ({
   '@context': 'https://schema.org',
   '@type': 'Course',
-  name: `Coreano · ${curso.nombre}`,
+  name: `Coreano · ${curso.nombreCorto} · ${curso.subtitulo}`,
   description: curso.descripcion,
+  educationalLevel: curso.cefr,
   inLanguage: 'es',
   url: `${BASE}/programa#${curso.cursoId}`,
   provider: {
@@ -47,7 +48,7 @@ const courses = CURSOS.map((curso) => ({
       startTime: c.horaChile,
       scheduleTimezone: 'America/Santiago',
     },
-    instructor: { '@type': 'Person', name: c.profe },
+    instructor: { '@type': 'Person', name: profeDe(c.profeId).nombre },
     location: { '@type': 'VirtualLocation', url: 'https://zoom.us' },
   })),
   offers: {

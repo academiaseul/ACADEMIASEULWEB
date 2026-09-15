@@ -112,7 +112,7 @@ export default function SobrePage() {
             href="/nivel-1"
             className="inline-block bg-seoul-red text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition"
           >
-            Empezar el Nivel 1 →
+            Ver cursos de octubre →
           </a>
         </div>
       </section>

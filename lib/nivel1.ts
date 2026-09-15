@@ -1,8 +1,15 @@
 // ⚙️ CONFIGURACIÓN DE LA COHORTE · OCTUBRE 2026
 //
-// Fuente única de verdad del programa: precios, clases, horarios (con zonas
-// horarias) y syllabus de 8 semanas. La leen /nivel-1 (matrícula), /programa
-// (syllabus público), la home (Courses) y el checkout de Mercado Pago.
+// Fuente única de verdad del programa: NOMBRES, precios, clases, horarios (con
+// zonas horarias), profesores y syllabus de 8 semanas. La leen /nivel-1
+// (matrícula), /programa (syllabus público), la home (Courses), los PDFs
+// descargables (scratchpad/make_programas_pdf.js) y el checkout de Mercado Pago.
+//
+// Regla de nombres (una sola en todo el sitio):
+//   nombreCorto  → "Básico 1 (A1.1)"     en títulos, selects, correos, WhatsApp
+//   cefr         → "A1.1"                en pills y en la escalera
+//   subtitulo    → "Primeras Palabras"   solo como línea gris secundaria
+//   koreanTitle  → decorativo
 //
 // Para cerrar la matrícula cuando arranque la cohorte: COHORTE_ABIERTA = false.
 
@@ -10,17 +17,24 @@ export const COHORTE_ABIERTA = true;
 
 export const PROXIMA_COHORTE_LABEL = "Octubre 2026";
 export const INICIO_LABEL = "Semana del 5 de octubre de 2026";
+export const INICIO_SEMANA = "la semana del 5 de octubre";
 export const INICIO_ISO = "2026-10-05";
 export const FIN_LABEL = "Semana del 23 de noviembre de 2026";
+export const CIERRE_MATRICULA = "domingo 4 de octubre (o hasta llenar los cupos)";
 
-// 💵 Precios (USD) — cada curso: pago único o mensual.
+// 💵 Precios (USD) — cada curso: pago único o 2 cuotas.
 export const PRECIO_UNICO = 150;
 export const PRECIO_MENSUAL = 75;
 export const MESES = 2;
+/** Una sola redacción del precio en todo el sitio. */
+export const precioLabel = () =>
+  `US$${PRECIO_UNICO} el curso completo · o ${MESES} cuotas de US$${PRECIO_MENSUAL}`;
+export const PRECIO_CORTO = `US$${PRECIO_UNICO} · o ${MESES} × US$${PRECIO_MENSUAL}`;
 
 // 🔗 Links de pago PayPal (crear en PayPal → Pay Links / botones con monto fijo).
 // TODO(Jay): generar el link nuevo por US$150 y otro por US$75 y pegarlos aquí.
 // Mientras PAYPAL_LINK_MENSUAL esté vacío, el plan mensual se coordina por WhatsApp.
+// TODO(Jay): en PayPal configurar URL de retorno https://www.academiaseul.com/nivel-1?pago=success
 export const PAYPAL_LINK_UNICO = "https://www.paypal.com/ncp/payment/5X33QK4A928FU";
 export const PAYPAL_LINK_MENSUAL = "";
 
@@ -32,122 +46,84 @@ export const HOTMART_LINK_MENSUAL = "";
 
 export const WHATSAPP = "56942115562";
 
+// 👩‍🏫 Equipo docente
+export type ProfeId = "jay" | "abby" | "guiran" | "ninos";
+export type Profe = {
+  id: ProfeId;
+  nombre: string; // "Jay Kim · 김재희"
+  corto: string; // "Jay"
+  emoji: string;
+  rol: string;
+  bio: string;
+};
+export const PROFES: Profe[] = [
+  {
+    id: "jay",
+    nombre: "Jay Kim · 김재희",
+    corto: "Jay",
+    emoji: "🐯",
+    rol: "Fundador · Básico 2 y TOPIK II",
+    bio: "Coreano nativo radicado en Chile. Creador del Método Chingu™ y del Lector de Hangul. 8+ años enseñando a hispanohablantes.",
+  },
+  {
+    id: "guiran",
+    nombre: "Guiran · 기란",
+    corto: "Guiran",
+    emoji: "🌱",
+    rol: "Básico 1 (martes y jueves)",
+    bio: "Profesora coreana criada en Argentina — bilingüe perfecta. Años de experiencia enseñando coreano en español.",
+  },
+  {
+    id: "abby",
+    nombre: "Abby · 홍미영",
+    corto: "Abby",
+    emoji: "💬",
+    rol: "Conversacional 1",
+    bio: "Profesora coreana nativa, pedagoga (MSU). Dicta el conversacional desde Corea — clases donde solo se habla.",
+  },
+  {
+    id: "ninos",
+    nombre: "Profesor/a de Niños",
+    corto: "por confirmar",
+    emoji: "🧒",
+    rol: "Coreano para Niños",
+    bio: "Docente con experiencia en clases para 8–12 años. Te lo presentamos por WhatsApp antes de que pagues.",
+  },
+];
+export const profeDe = (id: ProfeId): Profe => PROFES.find((p) => p.id === id)!;
+
+export type CursoId = "ninos" | "a11" | "a12" | "a21" | "topik2";
+
 export type ClaseId =
-  | "ninos"
   | "a11-martes"
   | "a11-jueves"
-  | "a21"
   | "a12"
-  | "topik2";
+  | "a21"
+  | "topik2"
+  | "ninos";
 
 export type Clase = {
   id: ClaseId;
-  cursoId: "ninos" | "a11" | "a12" | "a21" | "topik2";
-  label: string; // para selects y correos
-  nombre: string;
-  koreanTitle: string;
-  nivel: string;
-  profe: string;
+  cursoId: CursoId;
+  label: string; // para selects y correos: "Básico 1 (A1.1) · Martes 20:00 Chile · Guiran"
+  profeId: ProfeId;
   dia: string;
   horaChile: string; // "18:00"
-  primeraClase: string; // "lunes 5 de octubre"
-  emoji: string;
+  primeraClase: string; // "martes 6 de octubre"
   cupos: number;
 };
 
+// Orden = orden de la escalera (Básico 1 → Básico 2 → Conversacional 1 → TOPIK II), Niños al final.
 export const CLASES: Clase[] = [
-  {
-    id: "ninos",
-    cursoId: "ninos",
-    label: "🧒 Coreano para Niños · Lunes 18:00 Chile",
-    nombre: "Coreano para Niños",
-    koreanTitle: "어린이 한국어",
-    nivel: "A1.1K · 8–12 años",
-    profe: "Por anunciar",
-    dia: "Lunes",
-    horaChile: "18:00",
-    primeraClase: "lunes 5 de octubre",
-    emoji: "🧒",
-    cupos: 12,
-  },
-  {
-    id: "a11-martes",
-    cursoId: "a11",
-    label: "🌱 Básico 1 (A1.1) · Martes 20:00 Chile · Prof.ª Guiran",
-    nombre: "Básico 1 · Primeras Palabras",
-    koreanTitle: "첫 한국어",
-    nivel: "A1.1 · desde cero",
-    profe: "Prof.ª Guiran (기란)",
-    dia: "Martes",
-    horaChile: "20:00",
-    primeraClase: "martes 6 de octubre",
-    emoji: "🌱",
-    cupos: 15,
-  },
-  {
-    id: "a11-jueves",
-    cursoId: "a11",
-    label: "🌱 Básico 1 (A1.1) · Jueves 20:00 Chile · Prof.ª Guiran",
-    nombre: "Básico 1 · Primeras Palabras",
-    koreanTitle: "첫 한국어",
-    nivel: "A1.1 · desde cero",
-    profe: "Prof.ª Guiran (기란)",
-    dia: "Jueves",
-    horaChile: "20:00",
-    primeraClase: "jueves 8 de octubre",
-    emoji: "🌱",
-    cupos: 15,
-  },
-  {
-    id: "a21",
-    cursoId: "a21",
-    label: "💬 Conversacional A2.1 · Martes 21:00 Chile · Prof.ª Abby",
-    nombre: "Conversacional A2.1 · Corea que amas",
-    koreanTitle: "회화 A2.1",
-    nivel: "A2.1 · requiere A1",
-    profe: "Prof.ª Abby (홍미영)",
-    dia: "Martes",
-    horaChile: "21:00",
-    primeraClase: "martes 6 de octubre",
-    emoji: "💬",
-    cupos: 15,
-  },
-  {
-    id: "a12",
-    cursoId: "a12",
-    label: "🚀 Básico 2 (A1.2) · Miércoles 21:00 Chile · Prof. Jay",
-    nombre: "Básico 2 · Tu primer año coreano",
-    koreanTitle: "기초 한국어 2",
-    nivel: "A1.2 · requiere Básico 1",
-    profe: "Prof. Jay (김재희)",
-    dia: "Miércoles",
-    horaChile: "21:00",
-    primeraClase: "miércoles 7 de octubre",
-    emoji: "🚀",
-    cupos: 15,
-  },
-  {
-    id: "topik2",
-    cursoId: "topik2",
-    label: "🎯 Preparación TOPIK II · Jueves 21:00 Chile · Prof. Jay",
-    nombre: "Preparación TOPIK II",
-    koreanTitle: "토픽 II 준비반",
-    nivel: "B1+ · examen oficial",
-    profe: "Prof. Jay (김재희)",
-    dia: "Jueves",
-    horaChile: "21:00",
-    primeraClase: "jueves 8 de octubre",
-    emoji: "🎯",
-    cupos: 8,
-  },
+  { id: "a11-martes", cursoId: "a11", label: "Básico 1 (A1.1) · Martes 20:00 Chile · Guiran", profeId: "guiran", dia: "Martes", horaChile: "20:00", primeraClase: "martes 6 de octubre", cupos: 15 },
+  { id: "a11-jueves", cursoId: "a11", label: "Básico 1 (A1.1) · Jueves 20:00 Chile · Guiran", profeId: "guiran", dia: "Jueves", horaChile: "20:00", primeraClase: "jueves 8 de octubre", cupos: 15 },
+  { id: "a12", cursoId: "a12", label: "Básico 2 (A1.2) · Miércoles 21:00 Chile · Jay", profeId: "jay", dia: "Miércoles", horaChile: "21:00", primeraClase: "miércoles 7 de octubre", cupos: 15 },
+  { id: "a21", cursoId: "a21", label: "Conversacional 1 (A2.1) · Martes 21:00 Chile · Abby", profeId: "abby", dia: "Martes", horaChile: "21:00", primeraClase: "martes 6 de octubre", cupos: 15 },
+  { id: "topik2", cursoId: "topik2", label: "TOPIK II (B1+) · Jueves 21:00 Chile · Jay", profeId: "jay", dia: "Jueves", horaChile: "21:00", primeraClase: "jueves 8 de octubre", cupos: 8 },
+  { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–12) · Lunes 18:00 Chile", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "lunes 5 de octubre", cupos: 12 },
 ];
 
 // 🌎 Conversión de horarios (octubre–noviembre 2026, Chile en horario de verano UTC-3).
-// España resta 1 hora desde el 25 de octubre (fin del horario de verano europeo);
-// EE.UU. resta 1 hora desde el 1 de noviembre. México CDMX no cambia (sin DST).
-export const TZ_NOTA =
-  "España cambia de hora el 25 de octubre y EE.UU. el 1 de noviembre (la tabla muestra antes → después). Chile, Argentina, México, Colombia, Perú y Corea no cambian durante el curso.";
-
 export type TzRow = {
   horaChile: string;
   mexico: string;
@@ -157,81 +133,80 @@ export type TzRow = {
   espana: string;
   corea: string;
 };
+export type PaisKey = "chile" | keyof Omit<TzRow, "horaChile">;
 
 export const TZ_ROWS: TzRow[] = [
-  {
-    horaChile: "18:00",
-    mexico: "15:00",
-    colombiaPeru: "16:00",
-    argentina: "18:00",
-    usaEste: "17:00 → 16:00",
-    espana: "23:00 → 22:00",
-    corea: "06:00 (día sig.)",
-  },
-  {
-    horaChile: "20:00",
-    mexico: "17:00",
-    colombiaPeru: "18:00",
-    argentina: "20:00",
-    usaEste: "19:00 → 18:00",
-    espana: "01:00 → 00:00 (día sig.)",
-    corea: "08:00 (día sig.)",
-  },
-  {
-    horaChile: "21:00",
-    mexico: "18:00",
-    colombiaPeru: "19:00",
-    argentina: "21:00",
-    usaEste: "20:00 → 19:00",
-    espana: "02:00 → 01:00 (día sig.)",
-    corea: "09:00 (día sig.)",
-  },
+  { horaChile: "18:00", mexico: "15:00", colombiaPeru: "16:00", argentina: "18:00", usaEste: "17:00 → 16:00", espana: "23:00 → 22:00", corea: "06:00 (día sig.)" },
+  { horaChile: "20:00", mexico: "17:00", colombiaPeru: "18:00", argentina: "20:00", usaEste: "19:00 → 18:00", espana: "01:00 → 00:00 (día sig.)", corea: "08:00 (día sig.)" },
+  { horaChile: "21:00", mexico: "18:00", colombiaPeru: "19:00", argentina: "21:00", usaEste: "20:00 → 19:00", espana: "02:00 → 01:00 (día sig.)", corea: "09:00 (día sig.)" },
 ];
+export const TZ_NOTA =
+  "España cambia de hora el 25 de octubre y EE.UU. el 1 de noviembre (se muestra antes → después). Chile, Argentina, México, Colombia, Perú y Corea no cambian durante el curso.";
 
-// 📚 Syllabus de 8 semanas por curso (para /programa y /nivel-1).
+export const PAISES: { key: PaisKey; label: string; corto: string; bandera: string; cambiaHora?: string }[] = [
+  { key: "chile", label: "Chile", corto: "Chile", bandera: "🇨🇱" },
+  { key: "argentina", label: "Argentina / Uruguay / Brasil", corto: "Argentina", bandera: "🇦🇷" },
+  { key: "colombiaPeru", label: "Colombia / Perú / Ecuador", corto: "Col/Perú", bandera: "🇨🇴" },
+  { key: "mexico", label: "México (CDMX)", corto: "México", bandera: "🇲🇽" },
+  { key: "usaEste", label: "EE.UU. (hora del Este)", corto: "EE.UU. Este", bandera: "🇺🇸", cambiaHora: "En EE.UU. la hora cambia el 1 de noviembre (se muestra antes → después)." },
+  { key: "espana", label: "España", corto: "España", bandera: "🇪🇸", cambiaHora: "En España la hora cambia el 25 de octubre (se muestra antes → después)." },
+  { key: "corea", label: "Corea", corto: "Corea", bandera: "🇰🇷", cambiaHora: "Para Corea, las clases caen a la mañana del día siguiente." },
+];
+export function horaLocal(horaChile: string, pais: PaisKey): string {
+  if (pais === "chile") return horaChile;
+  const row = TZ_ROWS.find((r) => r.horaChile === horaChile);
+  return row ? row[pais] : horaChile;
+}
+/** Adivina el país por la zona horaria del navegador (solo como valor inicial). */
+export function paisPorTimezone(tz: string): PaisKey {
+  if (/Santiago|Punta_Arenas/.test(tz)) return "chile";
+  if (/Argentina|Montevideo|Sao_Paulo|Asuncion/.test(tz)) return "argentina";
+  if (/Bogota|Lima|Guayaquil|Panama/.test(tz)) return "colombiaPeru";
+  if (/Mexico_City|Merida|Monterrey|Guatemala|Costa_Rica|El_Salvador|Tegucigalpa/.test(tz)) return "mexico";
+  if (/New_York|Miami|Toronto|Detroit|Havana|Santo_Domingo|Puerto_Rico/.test(tz)) return "usaEste";
+  if (/Madrid|Europe\//.test(tz)) return "espana";
+  if (/Seoul/.test(tz)) return "corea";
+  return "chile";
+}
+
+// 📚 Cursos con syllabus de 8 semanas.
 export type Sesion = { num: number; titulo: string; desc: string };
 
 export type Curso = {
-  cursoId: Clase["cursoId"];
-  nombre: string;
+  cursoId: CursoId;
+  nombreCorto: string; // "Básico 1 (A1.1)"
+  cefr: string; // "A1.1"
+  emoji: string;
+  subtitulo: string; // "Primeras Palabras"
   koreanTitle: string;
-  nivel: string;
+  paso: number; // 1..5 en la escalera de adultos; 0 = ruta Niños
+  grupo: "adultos" | "ninos";
+  requiere: string | null; // texto del prerrequisito
+  alias?: string; // nombre antiguo, p.ej. "Nivel 1 · julio 2026"
   libro: string;
   descripcion: string;
-  logros: string[]; // "al terminar vas a poder…"
+  logros: string[];
   sesiones: Sesion[];
+  /** @deprecated usar nombreCorto + subtitulo */
+  nombre: string;
+  /** @deprecated usar cefr + requiere */
+  nivel: string;
 };
 
 export const CURSOS: Curso[] = [
   {
-    cursoId: "ninos",
-    nombre: "Coreano para Niños",
-    koreanTitle: "어린이 한국어",
-    nivel: "A1.1K · 8 a 12 años",
-    libro: "Material propio Academia Seúl + Lector de Hangul",
-    descripcion:
-      "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia.",
-    logros: [
-      "Leer sus primeras palabras en coreano",
-      "Presentarse: nombre y edad",
-      "Contar del 1 al 10 y nombrar animales y comidas",
-    ],
-    sesiones: [
-      { num: 1, titulo: "¡Hola, Corea! · 안녕하세요", desc: "Saludos con canciones + primeras vocales jugando" },
-      { num: 2, titulo: "Mi nombre en coreano", desc: "Consonantes básicas + cada uno escribe su nombre en 한글" },
-      { num: 3, titulo: "La fábrica de sílabas", desc: "Armar y leer sílabas + bingo de lectura" },
-      { num: 4, titulo: "Los animales · 동물", desc: "10 animales + '¡es un…!' (이에요/예요) con dibujos" },
-      { num: 5, titulo: "Mi familia · 가족", desc: "엄마, 아빠, 할머니… presentar a la familia con una foto o dibujo" },
-      { num: 6, titulo: "Los números mágicos", desc: "Contar del 1 al 10 + decir la edad" },
-      { num: 7, titulo: "¡Ñam! Comida coreana", desc: "김밥, 라면, 불고기 + 'me gusta' (좋아해요)" },
-      { num: 8, titulo: "🎤 Show final + diploma", desc: "Mini-presentación en coreano para las familias + certificado" },
-    ],
-  },
-  {
     cursoId: "a11",
-    nombre: "Básico 1 · Primeras Palabras",
+    emoji: "🌱",
+    nombreCorto: "Básico 1 (A1.1)",
+    cefr: "A1.1",
+    subtitulo: "Primeras Palabras",
     koreanTitle: "첫 한국어",
-    nivel: "A1.1 · desde cero absoluto",
+    paso: 1,
+    grupo: "adultos",
+    requiere: null,
+    alias: "Nivel 1 · julio 2026",
+    nombre: "Básico 1 · Primeras Palabras",
+    nivel: "A1.1 · desde cero",
     libro: "한글학교 한국어 1 + Lector de Hangul (tarea con audio nativo)",
     descripcion:
       "El punto de partida: aprender a leer el alfabeto coreano y decir tus primeras frases reales. El drilling de lectura vive en el Lector de Hangul como tarea gamificada, así la hora en vivo se usa para hablar y ser corregido.",
@@ -254,12 +229,19 @@ export const CURSOS: Curso[] = [
   },
   {
     cursoId: "a12",
-    nombre: "Básico 2 · Tu primer año coreano",
+    emoji: "🚀",
+    nombreCorto: "Básico 2 (A1.2)",
+    cefr: "A1.2",
+    subtitulo: "Pasado, presente y futuro",
     koreanTitle: "기초 한국어 2",
-    nivel: "A1.2 → A2 · requiere Básico 1 (o quiz de nivel)",
+    paso: 2,
+    grupo: "adultos",
+    requiere: "Básico 1 (A1.1) o el Nivel 1 de julio",
+    nombre: "Básico 2 · Pasado, presente y futuro",
+    nivel: "A1.2 · requiere Básico 1",
     libro: "Uso de la gramática coreana · Nivel inicial (Korean Grammar in Use en español)",
     descripcion:
-      "El curso que te lleva del presente al pasado y al futuro: cuentas lo que hiciste, planeas lo que harás y sumas las partículas que hacen sonar natural tu coreano. Termina con el examen A2 de la casa.",
+      "La continuación directa de Básico 1 (y del Nivel 1 de julio): del presente al pasado y al futuro. Cuentas lo que hiciste, planeas lo que harás y sumas las partículas que hacen sonar natural tu coreano. Termina con el examen A2 de la casa.",
     logros: [
       "Hablar en pasado, presente y futuro",
       "Decir qué no haces, qué no puedes y qué sabes hacer",
@@ -279,9 +261,16 @@ export const CURSOS: Curso[] = [
   },
   {
     cursoId: "a21",
-    nombre: "Conversacional A2.1 · Corea que amas",
+    emoji: "💬",
+    nombreCorto: "Conversacional 1 (A2.1)",
+    cefr: "A2.1",
+    subtitulo: "Corea que amas",
     koreanTitle: "회화 A2.1",
-    nivel: "A2.1 · requiere A1 completo (o quiz de nivel)",
+    paso: 3,
+    grupo: "adultos",
+    requiere: "Básico 2 (A1.2) o test de nivel",
+    nombre: "Conversacional 1 · Corea que amas",
+    nivel: "A2.1 · requiere Básico 2 o test de nivel",
     libro: "Módulos conversacionales propios (K-pop, viajes, comida…) · con profesora nativa",
     descripcion:
       "Puro hablar: cada semana un tema de la Corea que amas — K-pop, Jeju, comida, hanbok, e-sports — con una profesora coreana nativa y grupos pequeños. La mitad de las sesiones son laboratorio oral.",
@@ -299,17 +288,24 @@ export const CURSOS: Curso[] = [
       { num: 5, titulo: "Lab de conversación 1", desc: "Práctica oral pura en grupos pequeños (módulos 1–3)" },
       { num: 6, titulo: "Hanbok y estética", desc: "Describir y opinar" },
       { num: 7, titulo: "PC방 y e-sports", desc: "La Corea gamer" },
-      { num: 8, titulo: "Lab 2 + evaluación oral", desc: "Evaluación de etapa · certificado A2.1 · invitación a A2.2 (enero)" },
+      { num: 8, titulo: "Lab 2 + evaluación oral", desc: "Evaluación de etapa · certificado A2.1 · invitación a Conversacional 2 (enero)" },
     ],
   },
   {
     cursoId: "topik2",
-    nombre: "Preparación TOPIK II",
+    emoji: "🎯",
+    nombreCorto: "TOPIK II (B1+)",
+    cefr: "B1+",
+    subtitulo: "Estrategia de examen",
     koreanTitle: "토픽 II 준비반",
-    nivel: "B1+ · para rendir el examen oficial 한국어능력시험",
+    paso: 5,
+    grupo: "adultos",
+    requiere: "Nivel intermedio (B1)",
+    nombre: "Preparación TOPIK II",
+    nivel: "B1+ · examen oficial",
     libro: "Exámenes TOPIK oficiales + material de estrategia propio",
     descripcion:
-      "Grupo chico (máx. 8) enfocado 100% en el examen: estrategia por sección, corrección personalizada de escritura (쓰기) y simulacros cronometrados. Ideal si apuntas al TOPIK de abril 2027.",
+      "Grupo chico (máx. 8) enfocado 100% en el examen oficial: estrategia por sección, corrección personalizada de escritura (쓰기) y simulacros cronometrados. Ideal si apuntas al TOPIK de abril 2027.",
     logros: [
       "Dominar la estrategia de cada sección del examen",
       "Escribir los formatos 51–54 con corrección personal",
@@ -327,14 +323,69 @@ export const CURSOS: Curso[] = [
       { num: 8, titulo: "Simulacro final + plan personal", desc: "Examen completo cronometrado · análisis · tu plan hasta el TOPIK real" },
     ],
   },
+  {
+    cursoId: "ninos",
+    emoji: "🧒",
+    nombreCorto: "Coreano para Niños (8–12)",
+    cefr: "8–12 años",
+    subtitulo: "Juega y aprende",
+    koreanTitle: "어린이 한국어",
+    paso: 0,
+    grupo: "ninos",
+    requiere: null,
+    nombre: "Coreano para Niños",
+    nivel: "8–12 años · desde cero",
+    libro: "Material propio Academia Seúl + Lector de Hangul",
+    descripcion:
+      "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia.",
+    logros: [
+      "Leer sus primeras palabras en coreano",
+      "Presentarse: nombre y edad",
+      "Contar del 1 al 10 y nombrar animales y comidas",
+    ],
+    sesiones: [
+      { num: 1, titulo: "¡Hola, Corea! · 안녕하세요", desc: "Saludos con canciones + primeras vocales jugando" },
+      { num: 2, titulo: "Mi nombre en coreano", desc: "Consonantes básicas + cada uno escribe su nombre en 한글" },
+      { num: 3, titulo: "La fábrica de sílabas", desc: "Armar y leer sílabas + bingo de lectura" },
+      { num: 4, titulo: "Los animales · 동물", desc: "10 animales + '¡es un…!' (이에요/예요) con dibujos" },
+      { num: 5, titulo: "Mi familia · 가족", desc: "엄마, 아빠, 할머니… presentar a la familia con una foto o dibujo" },
+      { num: 6, titulo: "Los números mágicos", desc: "Contar del 1 al 10 + decir la edad" },
+      { num: 7, titulo: "¡Ñam! Comida coreana", desc: "김밥, 라면, 불고기 + 'me gusta' (좋아해요)" },
+      { num: 8, titulo: "🎤 Show final + certificado", desc: "Mini-presentación en coreano para las familias + certificado" },
+    ],
+  },
 ];
 
-export function cursoDe(clase: Clase): Curso {
-  return CURSOS.find((c) => c.cursoId === clase.cursoId)!;
+// Peldaño futuro (enero 2027) — aparece en la escalera pero no tiene clase abierta.
+export const CONVERSACIONAL_2 = {
+  nombreCorto: "Conversacional 2 (A2.2)",
+  cefr: "A2.2",
+  subtitulo: "Corea por dentro",
+  paso: 4,
+  requiere: "Conversacional 1 (A2.1)",
+  cuando: "enero 2027",
+  href: "/notificarme?curso=conversacion",
+};
+
+export const cursoDe = (clase: Clase): Curso => CURSOS.find((c) => c.cursoId === clase.cursoId)!;
+export const cursoPorId = (id: CursoId): Curso => CURSOS.find((c) => c.cursoId === id)!;
+export const clasesDe = (cursoId: CursoId): Clase[] => CLASES.filter((c) => c.cursoId === cursoId);
+/** Texto de profe para una clase: "Guiran" */
+export const profeCorto = (clase: Clase): string => profeDe(clase.profeId).corto;
+/** "Martes o jueves 20:00" para un curso con varias secciones. */
+export function horarioDe(cursoId: CursoId, pais: PaisKey = "chile"): string {
+  const cs = clasesDe(cursoId);
+  if (!cs.length) return "";
+  const dias = cs.map((c) => c.dia.toLowerCase());
+  const hora = horaLocal(cs[0].horaChile, pais);
+  const diasTxt = dias.length > 1 ? `${dias.slice(0, -1).join(", ")} o ${dias[dias.length - 1]}` : dias[0];
+  return `${diasTxt.charAt(0).toUpperCase()}${diasTxt.slice(1)} ${hora}`;
 }
+/** Primera clase disponible de un curso (para deep links ?clase=). */
+export const primeraClaseDe = (cursoId: CursoId): ClaseId => clasesDe(cursoId)[0].id;
 
 // 📄 PDFs descargables (public/programas/, generados con scratchpad/make_programas_pdf.js).
-const PDF_SLUG: Record<Curso["cursoId"], string> = {
+const PDF_SLUG: Record<CursoId, string> = {
   ninos: "Ninos",
   a11: "Basico1",
   a12: "Basico2",
@@ -342,6 +393,6 @@ const PDF_SLUG: Record<Curso["cursoId"], string> = {
   topik2: "TOPIK2",
 };
 export const PROGRAMA_GENERAL_PDF = "/programas/Programa_Cursos_Octubre_2026.pdf";
-export function pdfDe(cursoId: Curso["cursoId"]): string {
+export function pdfDe(cursoId: CursoId): string {
   return `/programas/Programa_${PDF_SLUG[cursoId]}_Octubre_2026.pdf`;
 }

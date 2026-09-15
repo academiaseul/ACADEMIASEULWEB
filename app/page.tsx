@@ -20,9 +20,9 @@ export default function HomePage() {
       <StructuredData />
       <Navigation />
       <Hero />
-      <About />
-      <VideoIntro />
       <Courses />
+      <VideoIntro />
+      <About />
       <MetodoChingu />
       <Benefits />
 
@@ -67,10 +67,12 @@ export default function HomePage() {
             </p>
           </div>
           <a
-            href="/#contact"
+            href="https://wa.me/56942115562?text=Hola%20Jay!%20Vi%20academiaseul.com%20y%20quiero%20informaci%C3%B3n%20sobre%20los%20cursos%20de%20coreano."
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-white text-[#3D2EE8] font-bold px-8 py-4 rounded-full hover:bg-[#E8B84B] hover:text-[#0D0D0D] transition-colors whitespace-nowrap"
           >
-            Contáctanos →
+            💬 Escribir a Jay por WhatsApp →
           </a>
         </div>
       </section>

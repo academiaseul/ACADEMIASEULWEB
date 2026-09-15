@@ -229,10 +229,10 @@ export default function NunchiPost() {
               Lector de Hangul gratis →
             </a>
             <Link
-              href="/nivel-1"
+              href="/nivel-1#clases"
               className="bg-seoul-red text-white font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
-              Curso Nivel 1 →
+              Ver cursos de octubre →
             </Link>
           </div>
           <p className="text-white/50 text-sm mt-6">화이팅 chingu! 🇰🇷</p>

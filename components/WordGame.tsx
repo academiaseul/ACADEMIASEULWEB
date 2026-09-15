@@ -50,7 +50,7 @@ const QUESTIONS: Question[] = [
     level: 'Intermedio',
     hangul: '커피 안 좋아해요?',
     roman: 'keopi an joahaeyo?',
-    q: '"¿No te gusta el café?" — si es cierto que NO te gusta, ¿cómo respondés en coreano?',
+    q: '"¿No te gusta el café?" — si es cierto que NO te gusta, ¿cómo respondes en coreano?',
     opts: ['아니요', '네', '맞아요', '몰라요'],
     a: 1,
   },
@@ -151,10 +151,10 @@ export default function WordGame() {
             <Sparkles size={14} /> Pruébalo tú mismo
           </span>
           <h2 className="font-serif text-4xl md:text-5xl text-white leading-tight mb-4">
-            ¿Cuánto coreano <span className="text-gradient-red">ya sabés?</span>
+            ¿Cuánto coreano <span className="text-gradient-red">ya sabes?</span>
           </h2>
           <p className="text-white/60 text-base md:text-lg">
-            8 preguntas rápidas de vocabulario y gramática, sacadas directo de nuestras clases de Nivel 1 (A1).
+            8 preguntas rápidas de vocabulario y gramática, sacadas directo de nuestras clases de Básico 1 (A1.1).
           </p>
         </motion.div>
 

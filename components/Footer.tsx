@@ -9,24 +9,24 @@ const WHATSAPP_URL =
 
 const footerLinks = {
   Cursos: [
-    { label: 'Basico 1 (A1.1)',        href: '/programa#a11' },
-    { label: 'Basico 2 (A1.2)',        href: '/programa#a12' },
-    { label: 'Conversacional A2.1',    href: '/programa#a21' },
-    { label: 'Preparacion TOPIK II',   href: '/programa#topik2' },
-    { label: 'Coreano para Ninos',     href: '/programa#ninos' },
-    { label: 'Inscripcion octubre 2026', href: '/nivel-1' },
+    { label: 'Básico 1 (A1.1)',        href: '/programa#a11' },
+    { label: 'Básico 2 (A1.2)',        href: '/programa#a12' },
+    { label: 'Conversacional 1 (A2.1)', href: '/programa#a21' },
+    { label: 'TOPIK II (B1+)',         href: '/programa#topik2' },
+    { label: 'Coreano para Niños',     href: '/programa#ninos' },
+    { label: 'Inscripción octubre 2026', href: '/nivel-1#clases' },
   ],
   Academia: [
     { label: 'Sobre nosotros',         href: '/#about' },
-    { label: 'Nuestro metodo',         href: '/#about' },
-    { label: 'Por que Academia Seul',  href: '/#testimonials' },
+    { label: 'Nuestro método',         href: '/#about' },
+    { label: 'Por qué Academia Seúl',  href: '/#testimonials' },
     { label: 'Cultura coreana',        href: '/#culture' },
     { label: 'Blog',                   href: '/blog' },
     { label: 'Programa y syllabus',    href: '/programa' },
   ],
   Legal: [
-    { label: 'Politica de privacidad', href: '/privacidad' },
-    { label: 'Terminos y condiciones', href: '/terminos' },
+    { label: 'Política de privacidad', href: '/privacidad' },
+    { label: 'Términos y condiciones', href: '/terminos' },
   ],
 };
 
@@ -54,12 +54,12 @@ export default function Footer() {
             </p>
 
             <p className="text-sm text-white/40 leading-relaxed max-w-xs mb-3">
-              Academia online de coreano para hispanohablantes. Profesor nativo de
-              Seúl, método Chingu y una comunidad apasionada por la cultura coreana.
+              Academia online de coreano para hispanohablantes. Profesores nativos,
+              método Chingu y una comunidad apasionada por la cultura coreana.
             </p>
 
             <p className="text-sm text-white/30 leading-relaxed max-w-xs mb-6">
-              Santiago, Chile - Clases online por Zoom
+              Santiago, Chile · Clases online por Zoom
             </p>
 
             <div className="flex gap-3">
@@ -105,10 +105,10 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/[0.05] flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/25">
-            (c) {new Date().getFullYear()} Academia Seul. Todos los derechos reservados.
+            © {new Date().getFullYear()} Academia Seúl. Todos los derechos reservados.
           </p>
           <p className="text-xs text-white/20">
-            El futuro de la ensenanza del coreano
+            El futuro de la enseñanza del coreano
           </p>
         </div>
       </div>

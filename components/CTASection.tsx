@@ -71,8 +71,8 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-base md:text-lg text-seoul-black/50 max-w-lg mx-auto leading-relaxed mb-12"
         >
-          La matrícula de octubre está abierta: clases en vivo desde el 5 de octubre, 8 semanas,
-          certificado incluido. US$150 el curso completo o US$75/mes — elige tu nivel y tu horario.
+          La matrícula de octubre está abierta: clases en vivo desde la semana del 5 de octubre, 8 semanas,
+          certificado incluido. US$150 el curso completo o 2 cuotas de US$75 — elige tu nivel y tu horario.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -87,7 +87,7 @@ export default function CTASection() {
             className="group relative px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-[#2C1FB0] transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
           >
             <span className="relative z-10">
-              Inscribirme · Empieza el 5 de octubre →
+              Inscribirme · semana del 5 de octubre →
             </span>
           </a>
           <a
@@ -106,9 +106,9 @@ export default function CTASection() {
           className="mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center"
         >
           {[
-            '✓ US$150 o US$75/mes',
+            '✓ US$150 el curso · o 2 cuotas de US$75',
             '✓ Grabaciones incluidas',
-            '✓ Máximo 15 alumnos',
+            '✓ Máx. 15 alumnos (12 en Niños)',
             '✓ Certificado incluido',
           ].map((item) => (
             <span key={item} className="text-sm text-seoul-black/35 font-medium">
