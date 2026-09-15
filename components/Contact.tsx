@@ -11,7 +11,8 @@ const interests = ['Coreano General', 'K-pop / K-drama', 'Conversación', 'Prepa
 const CONTACT_PHONE_DISPLAY = '+56 9 4211 5562';
 const CONTACT_EMAIL = 'hola.academiaseul@gmail.com';
 const WHATSAPP_URL =
-  'https://wa.me/56942115562?text=Hola%20Jay!%20Quiero%20apuntarme%20al%20taller%20gratuito%20de%20Hangul%20(mi%20clase%20de%20prueba)';
+  'https://wa.me/56942115562?text=' +
+  encodeURIComponent('Hola Jay! Vi academiaseul.com y quiero información sobre los cursos de coreano.');
 
 // Brand (academy) channel — used in the contact info card
 const INSTAGRAM_URL = 'https://www.instagram.com/academiaseul/';
@@ -115,7 +116,7 @@ export default function Contact() {
             <span className="text-gradient-red">con un profesor?</span>
           </h2>
           <p className="mt-5 text-base text-seoul-black/45 max-w-md leading-relaxed">
-            ¿Tienes dudas o quieres más detalles del curso? Escríbenos un correo o por WhatsApp y te respondemos en menos de 24 h.
+            ¿Tienes dudas o quieres saber qué curso te conviene? Lo más rápido es escribirle a Jay por WhatsApp — o déjanos el formulario y te respondemos en menos de 24 h.
           </p>
         </motion.div>
 
@@ -303,9 +304,9 @@ export default function Contact() {
               </div>
             </div>
 
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 w-full py-4 px-5 bg-green-600 hover:bg-green-500 text-white font-semibold rounded-xl transition-colors duration-200 text-sm">
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 w-full py-4 px-5 bg-[#25D366] hover:bg-[#1DB954] text-white font-semibold rounded-xl transition-colors duration-200 text-sm">
               <MessageCircle size={20} />
-              Escríbenos por WhatsApp
+              Escribirle a Jay por WhatsApp · +56 9 4211 5562
             </a>
           </motion.div>
         </div>

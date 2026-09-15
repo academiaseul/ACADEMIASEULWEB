@@ -230,17 +230,17 @@ export default function HangulPost() {
             ¿Quieres leerlo con tus propios ojos?
           </h3>
           <p className="text-white/70 mb-7 max-w-md mx-auto">
-            En nuestro taller gratuito en vivo aprendes a leer tus primeras
-            palabras en coreano en una hora. Y si quieres ir en serio, el Nivel
-            1 te lleva de cero a conversar.
+            Con el Lector de Hangul gratis aprendes a leer tus primeras
+            palabras en coreano con audio nativo. Y si quieres ir en serio, los
+            cursos en vivo te llevan de cero a conversar.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/taller"
+            <a
+              href="/lector-hangul"
               className="bg-[#E8B84B] text-seoul-black font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
-              Taller gratuito →
-            </Link>
+              Lector de Hangul gratis →
+            </a>
             <Link
               href="/nivel-1"
               className="bg-seoul-red text-white font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"

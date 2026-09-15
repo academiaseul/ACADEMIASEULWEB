@@ -227,14 +227,14 @@ export default function GeneradorNombre() {
             <div className="text-3xl font-black mb-2" style={{ fontFamily: "'Noto Sans KR',sans-serif" }}>한글</div>
             <h3 className="text-2xl font-black mb-3">¿Quieres aprender a leerlo tú mismo?</h3>
             <p className="text-white/70 mb-6 max-w-md mx-auto">
-              En una hora aprendes a leer tus primeras palabras en coreano. Empieza por nuestro taller gratis o ve al Nivel 1.
+              Practica gratis con el Lector de Hangul o inscríbete en un curso en vivo desde el 5 de octubre.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/taller" className="px-7 py-3.5 rounded-full font-bold" style={{ backgroundColor: "#E8B84B", color: "#0D0D0D" }}>
-                Taller gratuito →
+              <a href="/lector-hangul" className="px-7 py-3.5 rounded-full font-bold" style={{ backgroundColor: "#E8B84B", color: "#0D0D0D" }}>
+                Lector de Hangul gratis →
               </a>
-              <a href="/nivel-1" className="px-7 py-3.5 rounded-full font-bold bg-seoul-red text-white">
-                Curso Nivel 1 →
+              <a href="/nivel-1#clases" className="px-7 py-3.5 rounded-full font-bold bg-seoul-red text-white">
+                Inscribirme a un curso →
               </a>
             </div>
             <p className="text-white/50 text-sm mt-5">화이팅 chingu! 🇰🇷</p>

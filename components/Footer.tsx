@@ -4,7 +4,8 @@ const INSTAGRAM_URL = 'https://www.instagram.com/academiaseul/';
 const YOUTUBE_URL = 'https://www.youtube.com/@JayChingu.Oficial';
 const FACEBOOK_URL = 'https://www.facebook.com/jaychingu.oficial';
 const WHATSAPP_URL =
-  'https://wa.me/56942115562?text=Hola%20Jay!%20Quiero%20apuntarme%20al%20taller%20gratuito%20de%20Hangul%20(mi%20clase%20de%20prueba)';
+  'https://wa.me/56942115562?text=' +
+  encodeURIComponent('Hola Jay! Vi academiaseul.com y quiero información sobre los cursos de coreano.');
 
 const footerLinks = {
   Cursos: [

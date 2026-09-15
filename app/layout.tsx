@@ -4,7 +4,6 @@ import { Suspense } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
-import TallerPopup from '@/components/TallerPopup';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import MetaPixel from '@/components/MetaPixel';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
@@ -78,7 +77,6 @@ export default function RootLayout({
       </head>
       <body className="bg-seoul-black antialiased overflow-x-hidden">
         {children}
-        <TallerPopup />
         <WhatsAppFloat />
 
         {/* Analytics (cargan solo si las env vars existen) */}

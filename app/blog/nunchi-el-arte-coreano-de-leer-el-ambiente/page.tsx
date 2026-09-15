@@ -218,16 +218,16 @@ export default function NunchiPost() {
           </h3>
           <p className="text-white/70 mb-7 max-w-md mx-auto">
             En Academia Seúl no solo aprendes gramática: aprendes la cultura que
-            le da sentido. Empieza por leer tu primera palabra en nuestro taller
-            gratuito, o ve directo al curso Nivel 1.
+            le da sentido. Empieza por leer tu primera palabra con el Lector de
+            Hangul gratis, o ve directo a los cursos en vivo.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/taller"
+            <a
+              href="/lector-hangul"
               className="bg-[#E8B84B] text-seoul-black font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
-              Taller gratuito →
-            </Link>
+              Lector de Hangul gratis →
+            </a>
             <Link
               href="/nivel-1"
               className="bg-seoul-red text-white font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"

@@ -2,19 +2,23 @@
 
 import { useEffect, useState } from 'react';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, MessageCircle } from 'lucide-react';
 import clsx from 'clsx';
 import PromoBar from './PromoBar';
 
 type NavChild = { label: string; href: string };
 type NavLink = { label: string; href: string; highlight?: boolean; children?: NavChild[] };
 
+// Contacto directo al WhatsApp de Jay.
+const WHATSAPP_URL =
+  'https://wa.me/56942115562?text=' +
+  encodeURIComponent('Hola Jay! Vi academiaseul.com y quiero información sobre los cursos de coreano.');
+
 const navLinks: NavLink[] = [
   { label: 'Inicio',        href: '/#hero'     },
   { label: 'Inscripción octubre', href: '/nivel-1', highlight: true },
   { label: 'Programa',      href: '/programa'  },
   { label: 'Sobre Jay',     href: '/sobre'     },
-  { label: 'Taller Gratis', href: '/taller'    },
   {
     label: 'Recursos',
     href: '/recursos',
@@ -29,7 +33,6 @@ const navLinks: NavLink[] = [
     ],
   },
   { label: 'Blog',          href: '/blog'      },
-  { label: 'Contacto',      href: '/#contact'  },
 ];
 
 export default function Navigation({ solid = false }: { solid?: boolean }) {
@@ -133,13 +136,16 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
               )}
             </nav>
 
-            {/* Desktop CTA */}
+            {/* Desktop CTA — WhatsApp directo */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="/taller"
-                className="px-5 py-2.5 bg-seoul-red hover:bg-[#2C1FB0] text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-seoul-red/20 hover:shadow-seoul-red/40 hover:-translate-y-0.5 whitespace-nowrap"
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] hover:bg-[#1DB954] text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-[#25D366]/25 hover:shadow-[#25D366]/40 hover:-translate-y-0.5 whitespace-nowrap"
               >
-                Taller gratis →
+                <MessageCircle size={16} />
+                Contacto
               </a>
             </div>
 
@@ -204,11 +210,14 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
         </nav>
         <div className="mt-auto">
           <a
-            href="/taller"
-            className="block w-full text-center py-4 bg-seoul-red text-white font-bold text-lg rounded-lg mt-8 hover:bg-[#2C1FB0] transition-colors duration-200"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 w-full text-center py-4 bg-[#25D366] text-white font-bold text-lg rounded-lg mt-8 hover:bg-[#1DB954] transition-colors duration-200"
             onClick={() => setMobileOpen(false)}
           >
-            Taller gratis →
+            <MessageCircle size={20} />
+            Contacto por WhatsApp
           </a>
         </div>
       </motion.div>

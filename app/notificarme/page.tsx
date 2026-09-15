@@ -307,14 +307,14 @@ function NotificarmeForm() {
 
       <div className="mt-12 pt-12 border-t border-white/10 text-center">
         <p className="text-white/50 text-sm mb-4">
-          ¿Quieres empezar YA? Mira el taller gratuito de Hangul:
+          ¿Quieres empezar YA? Aprende a leer coreano gratis con el Lector de Hangul:
         </p>
-        <Link
-          href="/taller"
+        <a
+          href="/lector-hangul"
           className="inline-flex items-center gap-2 px-6 py-3 border border-seoul-red text-seoul-red hover:bg-seoul-red hover:text-white font-semibold rounded-lg transition-all duration-300 text-sm"
         >
-          🎓 Taller GRATIS — Aprende a leer Hangul →
-        </Link>
+          🐯 Lector de Hangul — gratis con audio nativo →
+        </a>
       </div>
     </div>
   );

@@ -324,11 +324,11 @@ export default function HangulDle() {
               Todo este vocabulario (y mucho más) se ve paso a paso en nuestras clases en vivo, desde cero.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/taller" className="px-7 py-3.5 rounded-full font-bold" style={{ backgroundColor: '#E8B84B', color: '#0D0D0D' }}>
-                Taller gratuito →
+              <a href="/lector-hangul" className="px-7 py-3.5 rounded-full font-bold" style={{ backgroundColor: '#E8B84B', color: '#0D0D0D' }}>
+                Lector de Hangul gratis →
               </a>
-              <a href="/nivel-1" className="px-7 py-3.5 rounded-full font-bold bg-seoul-red text-white">
-                Curso Nivel 1 →
+              <a href="/nivel-1#clases" className="px-7 py-3.5 rounded-full font-bold bg-seoul-red text-white">
+                Inscribirme a un curso →
               </a>
             </div>
             <p className="text-white/50 text-sm mt-5">화이팅 chingu! 🇰🇷</p>
