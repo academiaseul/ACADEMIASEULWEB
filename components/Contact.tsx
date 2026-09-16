@@ -4,15 +4,13 @@ import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Phone, Mail, Instagram, MessageCircle, MapPin, Facebook, Youtube } from 'lucide-react';
 import clsx from 'clsx';
+import { useT, i18n } from '@/lib/i18n';
 
-const levels = ['Desde cero (nunca estudié)', 'Leo Hangul y me presento (Básico 1 hecho)', 'Fui alumno/a del Nivel 1 de julio', 'Converso algo (A2)', 'Intermedio · voy por el TOPIK II', 'No sé mi nivel'];
-const interests = ['Básico 1 (A1.1) · desde cero', 'Básico 2 (A1.2)', 'Conversacional 1 (A2.1)', 'TOPIK II (B1+)', 'Coreano para Niños (8–12)', 'K-pop / K-drama', 'Viaje a Corea', 'No sé, ayúdenme a elegir'];
+const levels = [i18n('Desde cero (nunca estudié)'), i18n('Leo Hangul y me presento (Básico 1 hecho)'), i18n('Fui alumno/a del Nivel 1 de julio'), i18n('Converso algo (A2)'), i18n('Intermedio · voy por el TOPIK II'), i18n('No sé mi nivel')];
+const interests = [i18n('Básico 1 (A1.1) · desde cero'), i18n('Básico 2 (A1.2)'), i18n('Conversacional 1 (A2.1)'), i18n('TOPIK II (B1+)'), i18n('Coreano para Niños (8–12)'), i18n('K-pop / K-drama'), i18n('Viaje a Corea'), i18n('No sé, ayúdenme a elegir')];
 
 const CONTACT_PHONE_DISPLAY = '+56 9 4211 5562';
 const CONTACT_EMAIL = 'hola.academiaseul@gmail.com';
-const WHATSAPP_URL =
-  'https://wa.me/56942115562?text=' +
-  encodeURIComponent('Hola Jay! Vi academiaseul.com y quiero información sobre los cursos de coreano.');
 
 // Brand (academy) channel — used in the contact info card
 const INSTAGRAM_URL = 'https://www.instagram.com/academiaseul/';
@@ -55,6 +53,10 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const { t } = useT();
+  const whatsappUrl =
+    'https://wa.me/56942115562?text=' +
+    encodeURIComponent(t('Hola Jay! Vi academiaseul.com y quiero información sobre los cursos de coreano.'));
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
@@ -77,10 +79,10 @@ export default function Contact() {
       if (res.ok) {
         setSubmitted(true);
       } else {
-        setError('Hubo un problema al enviar tu mensaje. Por favor intenta nuevamente.');
+        setError(t('Hubo un problema al enviar tu mensaje. Por favor intenta nuevamente.'));
       }
     } catch {
-      setError('Hubo un problema al enviar tu mensaje. Por favor intenta nuevamente.');
+      setError(t('Hubo un problema al enviar tu mensaje. Por favor intenta nuevamente.'));
     } finally {
       setLoading(false);
     }
@@ -108,15 +110,15 @@ export default function Contact() {
           className="mb-16"
         >
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
-            Contáctanos
+            {t('Contáctanos')}
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight max-w-2xl">
-            ¿Quieres hablar
+            {t('¿Quieres hablar')}
             <br />
-            <span className="text-gradient-red">con un profesor?</span>
+            <span className="text-gradient-red">{t('con un profesor?')}</span>
           </h2>
           <p className="mt-5 text-base text-seoul-black/45 max-w-md leading-relaxed">
-            ¿Tienes dudas o quieres saber qué curso te conviene? Lo más rápido es escribirle a Jay por WhatsApp — o déjanos el formulario y te respondemos en menos de 24 h.
+            {t('¿Tienes dudas o quieres saber qué curso te conviene? Lo más rápido es escribirle a Jay por WhatsApp — o déjanos el formulario y te respondemos en menos de 24 h.')}
           </p>
         </motion.div>
 
@@ -135,9 +137,9 @@ export default function Contact() {
                 className="glass-light rounded-2xl p-12 text-center"
               >
                 <div className="text-5xl mb-6">🎉</div>
-                <h3 className="text-2xl font-bold text-seoul-black mb-3">¡Mensaje recibido!</h3>
+                <h3 className="text-2xl font-bold text-seoul-black mb-3">{t('¡Mensaje recibido!')}</h3>
                 <p className="text-seoul-black/50 text-sm leading-relaxed">
-                  Te escribimos en las próximas 24 h con toda la información. ¡Hasta pronto!
+                  {t('Te escribimos en las próximas 24 h con toda la información. ¡Hasta pronto!')}
                 </p>
                 <p className="mt-4 text-2xl font-korean text-seoul-black/20">안녕히 계세요 👋</p>
               </motion.div>
@@ -145,40 +147,40 @@ export default function Contact() {
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Nombre completo *</label>
-                    <input name="nombre" value={form.nombre} onChange={handleChange} required placeholder="Ej. María González" className={inputClass} />
+                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">{t('Nombre completo *')}</label>
+                    <input name="nombre" value={form.nombre} onChange={handleChange} required placeholder={t('Ej. María González')} className={inputClass} />
                   </div>
                   <div>
-                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Teléfono / WhatsApp</label>
+                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">{t('Teléfono / WhatsApp')}</label>
                     <input name="telefono" value={form.telefono} onChange={handleChange} placeholder="+56 9 xxxx xxxx" className={inputClass} />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Correo electrónico *</label>
+                  <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">{t('Correo electrónico *')}</label>
                   <input type="email" name="email" value={form.email} onChange={handleChange} required placeholder={CONTACT_EMAIL} className={inputClass} />
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Nivel actual</label>
+                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">{t('Nivel actual')}</label>
                     <select name="nivel" value={form.nivel} onChange={handleChange} className={clsx(inputClass, 'cursor-pointer')}>
-                      <option value="" disabled>Selecciona un nivel</option>
-                      {levels.map((l) => (<option key={l} value={l} className="bg-white text-seoul-black">{l}</option>))}
+                      <option value="" disabled>{t('Selecciona un nivel')}</option>
+                      {levels.map((l) => (<option key={l} value={l} className="bg-white text-seoul-black">{t(l)}</option>))}
                     </select>
                   </div>
                   <div>
-                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Me interesa</label>
+                    <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">{t('Me interesa')}</label>
                     <select name="interes" value={form.interes} onChange={handleChange} className={clsx(inputClass, 'cursor-pointer')}>
-                      <option value="" disabled>Selecciona un interés</option>
-                      {interests.map((i) => (<option key={i} value={i} className="bg-white text-seoul-black">{i}</option>))}
+                      <option value="" disabled>{t('Selecciona un interés')}</option>
+                      {interests.map((i) => (<option key={i} value={i} className="bg-white text-seoul-black">{t(i)}</option>))}
                     </select>
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">Mensaje (opcional)</label>
-                  <textarea name="mensaje" value={form.mensaje} onChange={handleChange} rows={4} placeholder="Cuéntanos sobre tus objetivos, disponibilidad o cualquier pregunta..." className={clsx(inputClass, 'resize-none')} />
+                  <label className="block text-xs font-medium text-seoul-black/40 mb-2 tracking-wider uppercase">{t('Mensaje (opcional)')}</label>
+                  <textarea name="mensaje" value={form.mensaje} onChange={handleChange} rows={4} placeholder={t('Cuéntanos sobre tus objetivos, disponibilidad o cualquier pregunta...')} className={clsx(inputClass, 'resize-none')} />
                 </div>
 
                 {error && (
@@ -192,11 +194,11 @@ export default function Contact() {
                   whileTap={{ scale: loading ? 1 : 0.99 }}
                   className="w-full py-4 bg-seoul-red hover:bg-[#2C1FB0] text-white font-bold text-base rounded-lg transition-all duration-200 shadow-xl shadow-seoul-red/25 hover:shadow-seoul-red/40 disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  {loading ? 'Enviando...' : 'Hablar con un profesor →'}
+                  {loading ? t('Enviando...') : t('Hablar con un profesor →')}
                 </motion.button>
 
                 <p className="text-xs text-seoul-black/25 text-center leading-relaxed">
-                  Al enviar aceptas ser contactado por Academia Seúl. No compartimos tus datos.
+                  {t('Al enviar aceptas ser contactado por Academia Seúl. No compartimos tus datos.')}
                 </p>
               </form>
             )}
@@ -209,19 +211,19 @@ export default function Contact() {
             className="lg:col-span-2 space-y-8"
           >
             <div className="space-y-5">
-              <h3 className="text-sm font-semibold text-seoul-black/50 uppercase tracking-widest">Información de contacto</h3>
+              <h3 className="text-sm font-semibold text-seoul-black/50 uppercase tracking-widest">{t('Información de contacto')}</h3>
               {[
-                { icon: Phone,     label: 'Teléfono / WhatsApp', value: CONTACT_PHONE_DISPLAY,          href: 'tel:+56942115562' },
-                { icon: Mail,      label: 'Email',               value: CONTACT_EMAIL,                   href: `mailto:${CONTACT_EMAIL}` },
-                { icon: Instagram, label: 'Instagram',           value: '@academiaseul',                 href: INSTAGRAM_URL },
-                { icon: MapPin,    label: 'Dirección',           value: 'Magdalena 140, Las Condes\nSantiago, Chile', href: 'https://maps.google.com/?q=Magdalena+140+Las+Condes+Santiago' },
+                { icon: Phone,     label: i18n('Teléfono / WhatsApp'), value: CONTACT_PHONE_DISPLAY,          href: 'tel:+56942115562' },
+                { icon: Mail,      label: i18n('Email'),               value: CONTACT_EMAIL,                   href: `mailto:${CONTACT_EMAIL}` },
+                { icon: Instagram, label: 'Instagram',                 value: '@academiaseul',                 href: INSTAGRAM_URL },
+                { icon: MapPin,    label: i18n('Dirección'),           value: 'Magdalena 140, Las Condes\nSantiago, Chile', href: 'https://maps.google.com/?q=Magdalena+140+Las+Condes+Santiago' },
               ].map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex gap-4">
                   <div className="w-10 h-10 rounded-lg bg-seoul-red/10 border border-seoul-red/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <Icon size={16} className="text-seoul-red" />
                   </div>
                   <div>
-                    <div className="text-xs text-seoul-black/30 uppercase tracking-wider mb-0.5">{label}</div>
+                    <div className="text-xs text-seoul-black/30 uppercase tracking-wider mb-0.5">{t(label)}</div>
                     <a href={href} target={label === 'Dirección' ? '_blank' : undefined} rel={label === 'Dirección' ? 'noopener noreferrer' : undefined} className="text-sm text-seoul-black/70 whitespace-pre-line leading-relaxed hover:text-seoul-red transition-colors">
                       {value}
                     </a>
@@ -231,7 +233,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="text-sm font-semibold text-seoul-black/50 uppercase tracking-widest mb-4">Síguenos</h3>
+              <h3 className="text-sm font-semibold text-seoul-black/50 uppercase tracking-widest mb-4">{t('Síguenos')}</h3>
               <div className="flex gap-3 flex-wrap">
                 <a
                   href={PERSONAL_INSTAGRAM_URL}
@@ -270,7 +272,7 @@ export default function Contact() {
                   <Facebook size={18} />
                 </a>
                 <a
-                  href={WHATSAPP_URL}
+                  href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-11 h-11 rounded-lg glass-light flex items-center justify-center text-seoul-black/50 hover:text-green-400 hover:border-green-400/30 transition-all duration-200"
@@ -281,7 +283,7 @@ export default function Contact() {
                 <a
                   href={`mailto:${CONTACT_EMAIL}`}
                   className="w-11 h-11 rounded-lg glass-light flex items-center justify-center text-seoul-black/50 hover:text-seoul-red hover:border-seoul-red/30 transition-all duration-200"
-                  aria-label="Email"
+                  aria-label={t('Email')}
                 >
                   <Mail size={18} />
                 </a>
@@ -289,12 +291,12 @@ export default function Contact() {
             </div>
 
             <div className="glass-red rounded-xl p-6">
-              <h3 className="text-sm font-semibold text-seoul-red mb-4 uppercase tracking-widest">Horarios de atención</h3>
+              <h3 className="text-sm font-semibold text-seoul-red mb-4 uppercase tracking-widest">{t('Horarios de atención')}</h3>
               <div className="space-y-2">
                 {[
-                  { day: 'Lunes – Viernes', hours: '10:00 – 20:00' },
-                  { day: 'Sábados',         hours: '10:00 – 14:00' },
-                  { day: 'Domingos',        hours: 'Cerrado' },
+                  { day: t('Lunes – Viernes'), hours: '10:00 – 20:00' },
+                  { day: t('Sábados'),         hours: '10:00 – 14:00' },
+                  { day: t('Domingos'),        hours: t('Cerrado') },
                 ].map(({ day, hours }) => (
                   <div key={day} className="flex justify-between text-sm">
                     <span className="text-seoul-black/50">{day}</span>
@@ -304,9 +306,9 @@ export default function Contact() {
               </div>
             </div>
 
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 w-full py-4 px-5 bg-[#25D366] hover:bg-[#1DB954] text-white font-semibold rounded-xl transition-colors duration-200 text-sm">
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 w-full py-4 px-5 bg-[#25D366] hover:bg-[#1DB954] text-white font-semibold rounded-xl transition-colors duration-200 text-sm">
               <MessageCircle size={20} />
-              Escribirle a Jay por WhatsApp · +56 9 4211 5562
+              {t('Escribirle a Jay por WhatsApp · +56 9 4211 5562')}
             </a>
           </motion.div>
         </div>

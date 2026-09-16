@@ -4,25 +4,28 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, X } from 'lucide-react';
+import { useT, i18n } from '@/lib/i18n';
 
 const WHATSAPP_NUMBER = '56942115562';
+// URL exportada a nivel de módulo (sin hook): el mensaje queda en español.
 const DEFAULT_MESSAGE = encodeURIComponent(
-  'Hola Jay! Vi tu sitio Academia Seul y tengo una consulta sobre tus cursos de coreano.'
+  i18n('Hola Jay! Vi tu sitio Academia Seul y tengo una consulta sobre tus cursos de coreano.')
 );
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${DEFAULT_MESSAGE}`;
 
+// Marcados con i18n(); se traducen al renderizar con t(qr.label) / t(qr.msg).
 const QUICK_REPLIES = [
   {
-    label: 'Quiero inscribirme (clases desde la semana del 5 de octubre)',
-    msg: 'Hola Jay! Quiero inscribirme en la cohorte de octubre. ¿Me ayudas a elegir el curso y el método de pago?',
+    label: i18n('Quiero inscribirme (clases desde la semana del 5 de octubre)'),
+    msg: i18n('Hola Jay! Quiero inscribirme en la cohorte de octubre. ¿Me ayudas a elegir el curso y el método de pago?'),
   },
   {
-    label: '¿Qué nivel me conviene?',
-    msg: 'Hola Jay! No sé si me conviene Básico 1, Básico 2, Conversacional o TOPIK II. ¿Me orientas?',
+    label: i18n('¿Qué nivel me conviene?'),
+    msg: i18n('Hola Jay! No sé si me conviene Básico 1, Básico 2, Conversacional o TOPIK II. ¿Me orientas?'),
   },
   {
-    label: 'Consulta personalizada',
-    msg: 'Hola Jay! Tengo una consulta sobre tus cursos de coreano.',
+    label: i18n('Consulta personalizada'),
+    msg: i18n('Hola Jay! Tengo una consulta sobre tus cursos de coreano.'),
   },
 ];
 
@@ -32,6 +35,7 @@ export default function WhatsAppFloat() {
   const [visible, setVisible] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const pathname = usePathname();
+  const { t } = useT();
 
   useEffect(() => {
     const timer = setTimeout(() => setVisible(true), SHOW_AFTER_MS);
@@ -66,11 +70,11 @@ export default function WhatsAppFloat() {
                   </div>
                   <div>
                     <div className="text-sm font-bold text-seoul-white leading-tight">Jay Chingu</div>
-                    <div className="text-[11px] text-white/50 leading-tight">Te respondo en horas</div>
+                    <div className="text-[11px] text-white/50 leading-tight">{t('Te respondo en horas')}</div>
                   </div>
                   <button
                     onClick={() => setExpanded(false)}
-                    aria-label="Cerrar"
+                    aria-label={t('Cerrar')}
                     className="ml-auto w-7 h-7 rounded-full bg-white/[0.06] hover:bg-white/[0.12] flex items-center justify-center text-white/60 hover:text-white transition-all"
                   >
                     <X size={14} />
@@ -80,20 +84,20 @@ export default function WhatsAppFloat() {
                 {/* Quick replies */}
                 <div className="px-3 py-3">
                   <p className="px-2 pb-2 text-[10px] uppercase tracking-widest text-white/40 font-semibold">
-                    Empieza la conversacion
+                    {t('Empieza la conversacion')}
                   </p>
                   <div className="flex flex-col gap-1.5">
                     {QUICK_REPLIES.map((qr) => (
                       <a
                         key={qr.label}
-                        href={buildUrl(qr.msg)}
+                        href={buildUrl(t(qr.msg))}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() => setExpanded(false)}
                         className="group px-3 py-2.5 rounded-lg bg-white/[0.03] hover:bg-[#25D366]/15 border border-white/[0.06] hover:border-[#25D366]/40 transition-all text-left"
                       >
                         <span className="text-sm text-white/85 group-hover:text-white font-medium leading-snug">
-                          {qr.label}
+                          {t(qr.label)}
                         </span>
                       </a>
                     ))}
@@ -103,7 +107,7 @@ export default function WhatsAppFloat() {
                 {/* Footer note */}
                 <div className="px-5 py-3 border-t border-white/[0.06] bg-white/[0.015]">
                   <p className="text-[10px] text-white/40 leading-relaxed">
-                    Abre WhatsApp con mensaje listo. 100% sin compromiso.
+                    {t('Abre WhatsApp con mensaje listo. 100% sin compromiso.')}
                   </p>
                 </div>
               </motion.div>
@@ -119,7 +123,7 @@ export default function WhatsAppFloat() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => setExpanded((v) => !v)}
-            aria-label="Abrir WhatsApp"
+            aria-label={t('Abrir WhatsApp')}
             className="pointer-events-auto relative w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#1ebe5d] text-white flex items-center justify-center shadow-lg shadow-[#25D366]/30 transition-colors"
           >
             <MessageCircle size={26} strokeWidth={2.2} />

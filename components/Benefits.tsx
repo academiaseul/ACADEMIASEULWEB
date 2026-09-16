@@ -6,54 +6,55 @@ import {
   Globe, Users, Zap, Trophy, Video, Shield,
   BookMarked, HeartHandshake,
 } from 'lucide-react';
+import { useT, i18n } from '@/lib/i18n';
 
 const benefits = [
   {
     icon: Globe,
-    title: 'Profesores coreanos nativos',
-    desc: 'Aprende la pronunciación y el acento real desde el primer día. Nuestros profesores son coreanos nativos y bilingües, y traen la cultura viva al aula.',
+    title: i18n('Profesores coreanos nativos'),
+    desc: i18n('Aprende la pronunciación y el acento real desde el primer día. Nuestros profesores son coreanos nativos y bilingües, y traen la cultura viva al aula.'),
     color: '#3D2EE8',
   },
   {
     icon: Users,
-    title: 'Grupos reducidos',
-    desc: 'Máximo 15 estudiantes por clase (8 en TOPIK II, 12 en Niños). Más tiempo de práctica oral, más feedback personalizado y un ambiente donde realmente puedes equivocarte y aprender.',
+    title: i18n('Grupos reducidos'),
+    desc: i18n('Máximo 15 estudiantes por clase (8 en TOPIK II, 12 en Niños). Más tiempo de práctica oral, más feedback personalizado y un ambiente donde realmente puedes equivocarte y aprender.'),
     color: '#003478',
   },
   {
     icon: Zap,
-    title: 'Metodología innovadora',
-    desc: 'Combinamos comunicación oral, gramática funcional y cultura contemporánea. Sin aburrimiento. Sin memorizar tablas interminables.',
+    title: i18n('Metodología innovadora'),
+    desc: i18n('Combinamos comunicación oral, gramática funcional y cultura contemporánea. Sin aburrimiento. Sin memorizar tablas interminables.'),
     color: '#D4AF37',
   },
   {
     icon: Trophy,
-    title: 'TOPIK II (B1+): preparación oficial',
-    desc: 'Somos tu puerta al certificado internacional TOPIK I y TOPIK II. Te preparamos con simulacros, estrategias y material oficial.',
+    title: i18n('TOPIK II (B1+): preparación oficial'),
+    desc: i18n('Somos tu puerta al certificado internacional TOPIK I y TOPIK II. Te preparamos con simulacros, estrategias y material oficial.'),
     color: '#3D2EE8',
   },
   {
     icon: Video,
-    title: 'Grabaciones incluidas',
-    desc: '¿Te pierdes una clase? Recibes la grabación en 24 horas. Todas las clases son 100% online en vivo por Zoom.',
+    title: i18n('Grabaciones incluidas'),
+    desc: i18n('¿Te pierdes una clase? Recibes la grabación en 24 horas. Todas las clases son 100% online en vivo por Zoom.'),
     color: '#003478',
   },
   {
     icon: BookMarked,
-    title: 'Materiales incluidos',
-    desc: 'Slides, hojas de actividad y el Lector de Hangul con audio nativo, incluidos en cada curso. Sin comprar libros.',
+    title: i18n('Materiales incluidos'),
+    desc: i18n('Slides, hojas de actividad y el Lector de Hangul con audio nativo, incluidos en cada curso. Sin comprar libros.'),
     color: '#D4AF37',
   },
   {
     icon: HeartHandshake,
-    title: 'Comunidad vibrante',
-    desc: 'Sé parte de la comunidad Chingu: alumnos de toda Latinoamérica y España aprendiendo coreano juntos.',
+    title: i18n('Comunidad vibrante'),
+    desc: i18n('Sé parte de la comunidad Chingu: alumnos de toda Latinoamérica y España aprendiendo coreano juntos.'),
     color: '#3D2EE8',
   },
   {
     icon: Shield,
-    title: 'Certificado por participación',
-    desc: 'Al completar tu curso recibes el certificado de Academia Seúl de tu nivel (A1.1, A1.2, A2.1, TOPIK II o Niños). Tu avance queda respaldado peldaño a peldaño.',
+    title: i18n('Certificado por participación'),
+    desc: i18n('Al completar tu curso recibes el certificado de Academia Seúl de tu nivel (A1.1, A1.2, A2.1, TOPIK II o Niños). Tu avance queda respaldado peldaño a peldaño.'),
     color: '#003478',
   },
 ];
@@ -61,6 +62,7 @@ const benefits = [
 export default function Benefits() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
+  const { t } = useT();
 
   return (
     <section
@@ -79,16 +81,15 @@ export default function Benefits() {
           className="mb-16 text-center"
         >
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
-            ¿Por qué elegirnos?
+            {t('¿Por qué elegirnos?')}
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight max-w-3xl mx-auto">
-            Todo lo que necesitas
+            {t('Todo lo que necesitas')}
             <br />
-            para <em className="not-italic text-gradient-red">hablar coreano</em>
+            {t('para')} <em className="not-italic text-gradient-red">{t('hablar coreano')}</em>
           </h2>
           <p className="mt-6 text-base text-seoul-black/55 max-w-xl mx-auto leading-relaxed">
-            No somos una academia más. Una nueva forma de aprender coreano
-            desde Latinoamérica, diseñada para hispanohablantes.
+            {t('No somos una academia más. Una nueva forma de aprender coreano desde Latinoamérica, diseñada para hispanohablantes.')}
           </p>
         </motion.div>
 
@@ -116,10 +117,10 @@ export default function Benefits() {
                   <Icon size={22} style={{ color: b.color }} />
                 </div>
                 <h3 className="font-bold text-base text-seoul-black leading-tight">
-                  {b.title}
+                  {t(b.title)}
                 </h3>
                 <p className="text-sm text-seoul-black/55 leading-relaxed flex-1">
-                  {b.desc}
+                  {t(b.desc)}
                 </p>
               </motion.div>
             );
@@ -142,9 +143,9 @@ export default function Benefits() {
                 'Native Teachers · 원어민',
                 'Santiago · Chile',
                 'Small Groups',
-              ].map((t) => (
-                <span key={t + Math.random()} className="text-sm font-medium text-seoul-black/25 tracking-widest uppercase">
-                  {t}
+              ].map((s) => (
+                <span key={s + Math.random()} className="text-sm font-medium text-seoul-black/25 tracking-widest uppercase">
+                  {s}
                 </span>
               )),
             )}

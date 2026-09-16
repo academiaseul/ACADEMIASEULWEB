@@ -2,34 +2,35 @@
 
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
+import { useT, i18n } from '@/lib/i18n';
 
 const pillars = [
   {
     num: '01',
     korean: '한글',
-    title: 'Lee desde el principio',
-    desc: 'Nada de romanización eterna. Aprendes a leer 한글 desde tu primera semana, porque leer coreano de verdad cambia cómo aprendes todo lo demás.',
+    title: i18n('Lee desde el principio'),
+    desc: i18n('Nada de romanización eterna. Aprendes a leer 한글 desde tu primera semana, porque leer coreano de verdad cambia cómo aprendes todo lo demás.'),
     color: '#3D2EE8',
   },
   {
     num: '02',
     korean: '말하기',
-    title: 'Habla desde el día uno',
-    desc: 'Cada clase tiene práctica oral real. Te equivocas, te corrigen, vuelves a intentar — así se aprende a hablar, no memorizando tablas.',
+    title: i18n('Habla desde el día uno'),
+    desc: i18n('Cada clase tiene práctica oral real. Te equivocas, te corrigen, vuelves a intentar — así se aprende a hablar, no memorizando tablas.'),
     color: '#003478',
   },
   {
     num: '03',
     korean: '문화',
-    title: 'Entiende Corea',
-    desc: 'No solo qué se dice, sino por qué se dice así. Honoríficos, jerarquía, comida, K-drama: la cultura es parte de la gramática.',
+    title: i18n('Entiende Corea'),
+    desc: i18n('No solo qué se dice, sino por qué se dice así. Honoríficos, jerarquía, comida, K-drama: la cultura es parte de la gramática.'),
     color: '#D4AF37',
   },
   {
     num: '04',
     korean: '친구',
-    title: 'Aprende con tus chingus',
-    desc: 'Grupos reducidos y una comunidad que sigue después de clase. Aprender un idioma acompañado es más rápido — y mucho más divertido.',
+    title: i18n('Aprende con tus chingus'),
+    desc: i18n('Grupos reducidos y una comunidad que sigue después de clase. Aprender un idioma acompañado es más rápido — y mucho más divertido.'),
     color: '#3D2EE8',
   },
 ];
@@ -37,6 +38,7 @@ const pillars = [
 export default function MetodoChingu() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
+  const { t } = useT();
 
   return (
     <section id="metodo" ref={ref} className="relative bg-seoul-black section-padding overflow-hidden">
@@ -58,12 +60,12 @@ export default function MetodoChingu() {
             Método Chingu™
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-white leading-tight max-w-3xl mx-auto">
-            No aprendas coreano como un libro.
+            {t('No aprendas coreano como un libro.')}
             <br />
-            <em className="not-italic text-gradient-red">Aprende como un chingu.</em>
+            <em className="not-italic text-gradient-red">{t('Aprende como un chingu.')}</em>
           </h2>
           <p className="mt-6 text-base text-white/55 max-w-xl mx-auto leading-relaxed">
-            Cuatro pilares, pensados desde el español — no un programa coreano traducido.
+            {t('Cuatro pilares, pensados desde el español — no un programa coreano traducido.')}
           </p>
         </motion.div>
 
@@ -83,8 +85,8 @@ export default function MetodoChingu() {
                 </span>
                 <span className="font-korean text-3xl font-bold text-seoul-white">{p.korean}</span>
               </div>
-              <h3 className="text-seoul-white font-bold text-lg mb-3">{p.title}</h3>
-              <p className="text-white/55 text-sm leading-relaxed">{p.desc}</p>
+              <h3 className="text-seoul-white font-bold text-lg mb-3">{t(p.title)}</h3>
+              <p className="text-white/55 text-sm leading-relaxed">{t(p.desc)}</p>
               <div className="absolute bottom-0 left-7 right-7 h-px" style={{ backgroundColor: p.color }} />
             </motion.div>
           ))}
@@ -101,7 +103,7 @@ export default function MetodoChingu() {
             href="/nivel-1#clases"
             className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-seoul-red/40"
           >
-            Inscribirme · Octubre 2026 →
+            {t('Inscribirme · Octubre 2026 →')}
           </a>
         </motion.div>
       </div>

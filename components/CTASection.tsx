@@ -2,8 +2,10 @@
 
 import { useRef } from 'react';
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
+import { useT } from '@/lib/i18n';
 
 export default function CTASection() {
+  const { t } = useT();
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
@@ -59,9 +61,9 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           className="font-serif text-4xl md:text-6xl lg:text-7xl text-seoul-black leading-tight mb-6"
         >
-          ¿Listo para hablar
+          {t('¿Listo para hablar')}
           <br />
-          <span className="text-gradient-red">coreano de verdad?</span>
+          <span className="text-gradient-red">{t('coreano de verdad?')}</span>
         </motion.h2>
 
         {/* Subheadline */}
@@ -71,8 +73,7 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-base md:text-lg text-seoul-black/50 max-w-lg mx-auto leading-relaxed mb-12"
         >
-          La matrícula de octubre está abierta: clases en vivo desde la semana del 5 de octubre, 8 semanas,
-          certificado incluido. US$150 el curso completo o 2 cuotas de US$75 — elige tu nivel y tu horario.
+          {t('La matrícula de octubre está abierta: clases en vivo desde la semana del 5 de octubre, 8 semanas, certificado incluido. US$150 el curso completo o 2 cuotas de US$75 — elige tu nivel y tu horario.')}
         </motion.p>
 
         {/* CTA Buttons */}
@@ -87,14 +88,14 @@ export default function CTASection() {
             className="group relative px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-[#2C1FB0] transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
           >
             <span className="relative z-10">
-              Inscribirme · Octubre 2026 →
+              {t('Inscribirme · Octubre 2026 →')}
             </span>
           </a>
           <a
             href="#courses"
             className="px-10 py-4 border border-black/15 hover:border-black/30 text-seoul-black/70 hover:text-seoul-black font-medium text-base rounded-lg transition-all duration-300 hover:bg-black/5"
           >
-            Explorar cursos
+            {t('Explorar cursos')}
           </a>
         </motion.div>
 
@@ -106,10 +107,10 @@ export default function CTASection() {
           className="mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center"
         >
           {[
-            '✓ US$150 el curso · o 2 cuotas de US$75',
-            '✓ Grabaciones incluidas',
-            '✓ Máx. 15 alumnos (8 en TOPIK II · 12 en Niños)',
-            '✓ Certificado incluido',
+            t('✓ US$150 el curso · o 2 cuotas de US$75'),
+            t('✓ Grabaciones incluidas'),
+            t('✓ Máx. 15 alumnos (8 en TOPIK II · 12 en Niños)'),
+            t('✓ Certificado incluido'),
           ].map((item) => (
             <span key={item} className="text-sm text-seoul-black/35 font-medium">
               {item}

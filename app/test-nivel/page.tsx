@@ -3,85 +3,87 @@
 import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import { useT, i18n, Tr } from '@/lib/i18n';
 
 type Opt = { label: string; pts: number };
 type Q = { q: string; korean?: string; opts: Opt[] };
 
 const QUESTIONS: Q[] = [
   {
-    q: '¿Puedes leer esto?',
+    q: i18n('¿Puedes leer esto?'),
     korean: '안녕',
     opts: [
-      { label: 'Ni idea, son dibujitos para mí', pts: 0 },
-      { label: 'Reconozco alguna letra', pts: 1 },
-      { label: 'Sí, dice "annyeong"', pts: 2 },
+      { label: i18n('Ni idea, son dibujitos para mí'), pts: 0 },
+      { label: i18n('Reconozco alguna letra'), pts: 1 },
+      { label: i18n('Sí, dice "annyeong"'), pts: 2 },
     ],
   },
   {
-    q: '¿Sabes qué es el 한글 (hangul)?',
+    q: i18n('¿Sabes qué es el 한글 (hangul)?'),
     opts: [
-      { label: 'No', pts: 0 },
-      { label: 'He oído el término', pts: 1 },
-      { label: 'Es el alfabeto coreano, claro', pts: 2 },
+      { label: i18n('No'), pts: 0 },
+      { label: i18n('He oído el término'), pts: 1 },
+      { label: i18n('Es el alfabeto coreano, claro'), pts: 2 },
     ],
   },
   {
-    q: '¿Has estudiado coreano antes?',
+    q: i18n('¿Has estudiado coreano antes?'),
     opts: [
-      { label: 'Nunca, parto de cero', pts: 0 },
-      { label: 'Por mi cuenta (apps, videos)', pts: 1 },
-      { label: 'En clases o academia', pts: 2 },
+      { label: i18n('Nunca, parto de cero'), pts: 0 },
+      { label: i18n('Por mi cuenta (apps, videos)'), pts: 1 },
+      { label: i18n('En clases o academia'), pts: 2 },
     ],
   },
   {
-    q: 'La partícula 은/는, ¿para qué sirve?',
+    q: i18n('La partícula 은/는, ¿para qué sirve?'),
     opts: [
-      { label: 'No tengo idea', pts: 0 },
-      { label: 'Creo que marca el tema de la frase', pts: 1 },
-      { label: 'Sí, marca el tema/sujeto', pts: 2 },
+      { label: i18n('No tengo idea'), pts: 0 },
+      { label: i18n('Creo que marca el tema de la frase'), pts: 1 },
+      { label: i18n('Sí, marca el tema/sujeto'), pts: 2 },
     ],
   },
   {
-    q: '¿Puedes presentarte en coreano? (저는 ...이에요)',
+    q: i18n('¿Puedes presentarte en coreano? (저는 ...이에요)'),
     opts: [
-      { label: 'Para nada', pts: 0 },
-      { label: 'Más o menos, con ayuda', pts: 1 },
-      { label: 'Sí, sin problema', pts: 2 },
+      { label: i18n('Para nada'), pts: 0 },
+      { label: i18n('Más o menos, con ayuda'), pts: 1 },
+      { label: i18n('Sí, sin problema'), pts: 2 },
     ],
   },
 ];
 
 const GOALS = [
-  '🎵 Entender K-pop y K-dramas',
-  '✈️ Viajar o vivir en Corea',
-  '📜 Dar el examen TOPIK',
-  '💜 Hobby y cultura',
+  i18n('🎵 Entender K-pop y K-dramas'),
+  i18n('✈️ Viajar o vivir en Corea'),
+  i18n('📜 Dar el examen TOPIK'),
+  i18n('💜 Hobby y cultura'),
 ];
 
 function resultFor(score: number) {
   if (score <= 3)
     return {
-      tier: 'Principiante total',
+      tier: i18n('Principiante total'),
       emoji: '🌱',
-      text: 'Estás partiendo desde cero — el lugar perfecto para empezar bien. Básico 1 (A1.1) te enseña a leer hangul en la primera semana y a construir tus primeras frases. Martes o jueves 20:00 (Chile), desde la semana del 5 de octubre.',
-      rec: 'Básico 1 (A1.1) · desde cero',
+      text: i18n('Estás partiendo desde cero — el lugar perfecto para empezar bien. Básico 1 (A1.1) te enseña a leer hangul en la primera semana y a construir tus primeras frases. Martes o jueves 20:00 (Chile), desde la semana del 5 de octubre.'),
+      rec: i18n('Básico 1 (A1.1) · desde cero'),
     };
   if (score <= 7)
     return {
-      tier: 'Falso principiante',
+      tier: i18n('Falso principiante'),
       emoji: '🚀',
-      text: 'Ya tienes contacto con el idioma, pero te faltan bases ordenadas. Básico 1 te llena los huecos y te da estructura para avanzar de verdad — y si ya lees hangul con soltura, Básico 2 (miércoles 21:00) es tu curso.',
-      rec: 'Básico 1 (A1.1) · o Básico 2 si ya lees hangul',
+      text: i18n('Ya tienes contacto con el idioma, pero te faltan bases ordenadas. Básico 1 te llena los huecos y te da estructura para avanzar de verdad — y si ya lees hangul con soltura, Básico 2 (miércoles 21:00) es tu curso.'),
+      rec: i18n('Básico 1 (A1.1) · o Básico 2 si ya lees hangul'),
     };
   return {
-    tier: 'Tienes bases',
+    tier: i18n('Tienes bases'),
     emoji: '🔥',
-    text: 'Vas bien. Básico 2 (A1.2, miércoles 21:00) te lleva al pasado y al futuro; si ya conversas, Conversacional 1 (A2.1) con profesora nativa (martes 21:00) es para ti. ¿Vas por el examen? TOPIK II (B1+), jueves 21:00.',
-    rec: 'Básico 2 (A1.2) · Conversacional 1 (A2.1) · o TOPIK II (B1+)',
+    text: i18n('Vas bien. Básico 2 (A1.2, miércoles 21:00) te lleva al pasado y al futuro; si ya conversas, Conversacional 1 (A2.1) con profesora nativa (martes 21:00) es para ti. ¿Vas por el examen? TOPIK II (B1+), jueves 21:00.'),
+    rec: i18n('Básico 2 (A1.2) · Conversacional 1 (A2.1) · o TOPIK II (B1+)'),
   };
 }
 
 export default function TestNivelPage() {
+  const { t } = useT();
   const [step, setStep] = useState(0); // 0..QUESTIONS.length-1, then goal, then email, then result
   const [answers, setAnswers] = useState<number[]>([]);
   const [goal, setGoal] = useState('');
@@ -141,13 +143,13 @@ export default function TestNivelPage() {
       <section className="pt-32 md:pt-40 pb-12 px-6 max-w-2xl mx-auto">
         <div className="text-center mb-8">
           <p className="text-seoul-red text-xs font-bold tracking-[4px] uppercase mb-4">
-            레벨 테스트 · Test de nivel
+            레벨 테스트 · {t('Test de nivel')}
           </p>
           <h1 className="text-3xl md:text-5xl font-black text-seoul-black mb-3">
-            ¿Qué nivel de coreano <span className="text-seoul-red">tienes</span>?
+            {t('¿Qué nivel de coreano')} <span className="text-seoul-red">{t('tienes')}</span>?
           </h1>
           <p className="text-gray-600">
-            5 preguntas rápidas. Te decimos por dónde empezar (y te mandamos tu guía gratis).
+            {t('5 preguntas rápidas. Te decimos por dónde empezar (y te mandamos tu guía gratis).')}
           </p>
         </div>
 
@@ -165,10 +167,10 @@ export default function TestNivelPage() {
         {showQuestion && (
           <div className="border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] p-7 md:p-9">
             <p className="text-xs font-bold text-gray-400 mb-2">
-              Pregunta {step + 1} de {QUESTIONS.length}
+              {t('Pregunta {n} de {total}', { n: step + 1, total: QUESTIONS.length })}
             </p>
             <h2 className="text-xl md:text-2xl font-black text-seoul-black mb-1">
-              {QUESTIONS[step].q}
+              {t(QUESTIONS[step].q)}
             </h2>
             {QUESTIONS[step].korean && (
               <p
@@ -185,7 +187,7 @@ export default function TestNivelPage() {
                   onClick={() => answer(o.pts)}
                   className="block w-full text-left px-5 py-4 rounded-xl border-2 border-gray-200 hover:border-[#3D2EE8] hover:bg-[#F5F3FF] font-semibold text-gray-800 transition"
                 >
-                  {o.label}
+                  {t(o.label)}
                 </button>
               ))}
             </div>
@@ -196,7 +198,7 @@ export default function TestNivelPage() {
         {showGoal && (
           <div className="border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] p-7 md:p-9">
             <h2 className="text-xl md:text-2xl font-black text-seoul-black mb-5">
-              Última: ¿cuál es tu meta principal?
+              {t('Última: ¿cuál es tu meta principal?')}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {GOALS.map((g) => (
@@ -205,7 +207,7 @@ export default function TestNivelPage() {
                   onClick={() => chooseGoal(g)}
                   className="px-5 py-4 rounded-xl border-2 border-gray-200 hover:border-[#3D2EE8] hover:bg-[#F5F3FF] font-semibold text-gray-800 transition text-left"
                 >
-                  {g}
+                  {t(g)}
                 </button>
               ))}
             </div>
@@ -217,24 +219,24 @@ export default function TestNivelPage() {
           <div className="border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] p-7 md:p-9 text-center">
             <div className="text-4xl mb-3">{result.emoji}</div>
             <h2 className="text-2xl font-black text-seoul-black mb-2">
-              ¡Listo! Tu resultado está calculado.
+              {t('¡Listo! Tu resultado está calculado.')}
             </h2>
             <p className="text-gray-600 mb-6">
-              Déjanos dónde enviarte tu resultado + la <strong>guía del alfabeto gratis</strong> y lo ves al instante.
+              <Tr k="Déjanos dónde enviarte tu resultado + la **guía del alfabeto gratis** y lo ves al instante." />
             </p>
             <div className="space-y-3 max-w-sm mx-auto">
               <input
                 type="text"
                 value={form.nombre}
                 onChange={(e) => setForm({ ...form, nombre: e.target.value })}
-                placeholder="Tu nombre"
+                placeholder={t('Tu nombre')}
                 className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#3D2EE8] outline-none transition"
               />
               <input
                 type="email"
                 value={form.correo}
                 onChange={(e) => setForm({ ...form, correo: e.target.value })}
-                placeholder="Tu correo"
+                placeholder={t('Tu correo')}
                 className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-[#3D2EE8] outline-none transition"
               />
               <button
@@ -242,9 +244,9 @@ export default function TestNivelPage() {
                 disabled={sending || !form.nombre || !form.correo}
                 className="w-full py-4 rounded-full bg-seoul-red text-white font-bold text-lg hover:scale-[1.02] transition disabled:opacity-50"
               >
-                {sending ? 'Calculando…' : 'Ver mi resultado →'}
+                {sending ? t('Calculando…') : t('Ver mi resultado →')}
               </button>
-              <p className="text-xs text-gray-400">🔒 Sin spam. Solo tu resultado y tips de coreano.</p>
+              <p className="text-xs text-gray-400">{t('🔒 Sin spam. Solo tu resultado y tips de coreano.')}</p>
             </div>
           </div>
         )}
@@ -254,15 +256,15 @@ export default function TestNivelPage() {
           <div className="border-2 border-seoul-black bg-white shadow-[8px_8px_0_#3D2EE8] p-8 md:p-10 text-center">
             <div className="text-5xl mb-3">{result.emoji}</div>
             <p className="text-xs font-bold tracking-[3px] uppercase text-seoul-red mb-2">
-              Tu resultado · {score}/10
+              {t('Tu resultado · {score}/10', { score })}
             </p>
-            <h2 className="text-3xl font-black text-seoul-black mb-4">{result.tier}</h2>
-            <p className="text-gray-700 leading-relaxed mb-6 max-w-md mx-auto">{result.text}</p>
+            <h2 className="text-3xl font-black text-seoul-black mb-4">{t(result.tier)}</h2>
+            <p className="text-gray-700 leading-relaxed mb-6 max-w-md mx-auto">{t(result.text)}</p>
 
             <div className="bg-[#F5F3FF] border border-[#E5E1FB] rounded-2xl p-5 mb-7">
-              <p className="text-sm text-gray-500 mb-1">Recomendado para ti</p>
-              <p className="text-lg font-black text-[#3D2EE8]">{result.rec}</p>
-              {goal && <p className="text-sm text-gray-600 mt-2">Tu meta: {goal}</p>}
+              <p className="text-sm text-gray-500 mb-1">{t('Recomendado para ti')}</p>
+              <p className="text-lg font-black text-[#3D2EE8]">{t(result.rec)}</p>
+              {goal && <p className="text-sm text-gray-600 mt-2">{t('Tu meta: {goal}', { goal: t(goal) })}</p>}
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -270,13 +272,13 @@ export default function TestNivelPage() {
                 href="/nivel-1#clases"
                 className="inline-block bg-seoul-red text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition"
               >
-                Inscribirme · Octubre 2026 →
+                {t('Inscribirme · Octubre 2026 →')}
               </a>
               <a
                 href="/recursos/guias"
                 className="inline-block bg-white text-seoul-black font-bold px-8 py-4 rounded-full border-2 border-seoul-black hover:bg-gray-50 transition"
               >
-                Descargar mi guía
+                {t('Descargar mi guía')}
               </a>
             </div>
           </div>

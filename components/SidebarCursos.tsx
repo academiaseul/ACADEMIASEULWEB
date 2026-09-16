@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useT } from "@/lib/i18n";
 
 // Columna de navegación fija a la izquierda (desktop) / barra de chips pegada
 // bajo el menú (móvil) para saltar entre las clases y las secciones de la página.
@@ -74,8 +75,8 @@ export default function SidebarCursos({
   secciones = [],
   activoCurso,
   onCurso,
-  tituloCursos = "Clases de octubre",
-  tituloSecciones = "En esta página",
+  tituloCursos,
+  tituloSecciones,
   cta,
 }: {
   cursos: SidebarItem[];
@@ -88,6 +89,10 @@ export default function SidebarCursos({
 }) {
   const [headerH, setHeaderH] = useState(120);
   const [activaSeccion, setActivaSeccion] = useState<string>("");
+  const { t } = useT();
+  // Los títulos que llegan por props ya vienen traducidos por quien los pasa.
+  const tituloCursosTxt = tituloCursos ?? t("Clases de octubre");
+  const tituloSeccionesTxt = tituloSecciones ?? t("En esta página");
 
   // Altura real del header fijo (nav + barra promo, que puede cerrarse).
   useEffect(() => {
@@ -134,10 +139,10 @@ export default function SidebarCursos({
       <aside
         className="hidden lg:flex fixed left-0 bottom-0 w-64 z-30 flex-col bg-white border-r border-gray-200 overflow-y-auto"
         style={{ top: headerH }}
-        aria-label="Navegación de cursos"
+        aria-label={t("Navegación de cursos")}
       >
         <div className="px-4 pt-6 pb-8 flex-1">
-          <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-gray-400 mb-2 px-1">{tituloCursos}</div>
+          <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-gray-400 mb-2 px-1">{tituloCursosTxt}</div>
           <nav className="flex flex-col gap-1">
             {cursos.map((c) => (
               <CursoBtn key={c.id} c={c} activo={esActivo(c)} onCurso={onCurso} ir={ir} />
@@ -146,7 +151,7 @@ export default function SidebarCursos({
 
           {secciones.length > 0 && (
             <>
-              <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-gray-400 mt-7 mb-2 px-1">{tituloSecciones}</div>
+              <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-gray-400 mt-7 mb-2 px-1">{tituloSeccionesTxt}</div>
               <nav className="flex flex-col">
                 {secciones.map((s) => {
                   const activo = activaSeccion === s.id;

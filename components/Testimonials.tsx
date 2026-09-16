@@ -14,48 +14,49 @@ import {
   ChevronLeft,
   ChevronRight,
 } from 'lucide-react';
+import { useT, i18n } from '@/lib/i18n';
 
 const reasons = [
   {
     icon: Globe,
-    title: 'Profesor nativo de Seúl',
+    title: i18n('Profesor nativo de Seúl'),
     description:
-      'Nací en Seúl en 1990 y llegué a Chile a los 10 años. No "hablo coreano" — lo viví desde pequeño. La pronunciación, los matices culturales y los modismos son parte de mi día a día.',
+      i18n('Nací en Seúl en 1990 y llegué a Chile a los 10 años. No "hablo coreano" — lo viví desde pequeño. La pronunciación, los matices culturales y los modismos son parte de mi día a día.'),
     color: '#3D2EE8',
   },
   {
     icon: Languages,
-    title: 'Bilingüe perfecto coreano-español',
+    title: i18n('Bilingüe perfecto coreano-español'),
     description:
-      'Crucé los dos idiomas durante 25+ años. Conozco exactamente dónde se traba un hispanohablante con el coreano — y cómo destrabarlo en minutos, no en años.',
+      i18n('Crucé los dos idiomas durante 25+ años. Conozco exactamente dónde se traba un hispanohablante con el coreano — y cómo destrabarlo en minutos, no en años.'),
     color: '#003478',
   },
   {
     icon: GraduationCap,
-    title: '8+ años enseñando coreano',
+    title: i18n('8+ años enseñando coreano'),
     description:
-      'No es mi primer rodeo. Llevo años enseñando coreano formal e informalmente a estudiantes chilenos y latinoamericanos. Cada error que cometes, ya lo he visto antes.',
+      i18n('No es mi primer rodeo. Llevo años enseñando coreano formal e informalmente a estudiantes chilenos y latinoamericanos. Cada error que cometes, ya lo he visto antes.'),
     color: '#D4AF37',
   },
   {
     icon: BookOpenCheck,
     title: 'Método Chingu',
     description:
-      'Diseñado específicamente para hispanohablantes. No es un programa coreano traducido — es un enfoque pensado desde el español, con metáforas y referencias que sí entiendes.',
+      i18n('Diseñado específicamente para hispanohablantes. No es un programa coreano traducido — es un enfoque pensado desde el español, con metáforas y referencias que sí entiendes.'),
     color: '#3D2EE8',
   },
   {
     icon: Users,
-    title: 'Grupos con cupos limitados',
+    title: i18n('Grupos con cupos limitados'),
     description:
-      'No saturamos las cohortes. Grupos pequeños para que cada Chingu reciba atención personal, dudas resueltas en vivo y feedback de pronunciación real.',
+      i18n('No saturamos las cohortes. Grupos pequeños para que cada Chingu reciba atención personal, dudas resueltas en vivo y feedback de pronunciación real.'),
     color: '#003478',
   },
   {
     icon: ShieldCheck,
-    title: 'Certificado por participación',
+    title: i18n('Certificado por participación'),
     description:
-      'Certificado incluido en todos los cursos. Al terminar recibes el certificado de Academia Seúl de tu nivel (Básico 1 · A1.1, Básico 2 · A1.2, Conversacional 1 · A2.1, TOPIK II o Niños), por asistencia y participación.',
+      i18n('Certificado incluido en todos los cursos. Al terminar recibes el certificado de Academia Seúl de tu nivel (Básico 1 · A1.1, Básico 2 · A1.2, Conversacional 1 · A2.1, TOPIK II o Niños), por asistencia y participación.'),
     color: '#D4AF37',
   },
 ];
@@ -63,66 +64,66 @@ const reasons = [
 const testimonials = [
   {
     name: 'Isidora Figueroa',
-    level: 'Nivel A1',
-    course: 'Coreano Básico',
+    level: i18n('Nivel A1'),
+    course: i18n('Coreano Básico'),
     initials: 'IF',
     color: '#3D2EE8',
     quote:
-      'Para mí fue un gran profesor. Le entendí muy bien y era bueno explicando. Si alguien no entendía, volvía a explicar. Sus clases eran muy divertidas y aprendimos muchas cosas sobre la cultura coreana.',
+      i18n('Para mí fue un gran profesor. Le entendí muy bien y era bueno explicando. Si alguien no entendía, volvía a explicar. Sus clases eran muy divertidas y aprendimos muchas cosas sobre la cultura coreana.'),
   },
   {
     name: 'Nedielka Curkovic',
-    level: 'Básico 2 (A1.2)',
-    course: 'Coreano Básico',
+    level: i18n('Básico 2 (A1.2)'),
+    course: i18n('Coreano Básico'),
     initials: 'NC',
     color: '#003478',
     quote:
-      'Las clases son bastante entretenidas porque, más que pasar solo contenido, también nos enseña otras cosas. Cuando le preguntamos un concepto, nos cuenta una pequeña historia relacionada — así lo recuerdo más fácilmente.',
+      i18n('Las clases son bastante entretenidas porque, más que pasar solo contenido, también nos enseña otras cosas. Cuando le preguntamos un concepto, nos cuenta una pequeña historia relacionada — así lo recuerdo más fácilmente.'),
   },
   {
     name: 'Carolina Morales',
-    level: 'Nivel B1',
-    course: 'Coreano Intermedio',
+    level: i18n('Nivel B1'),
+    course: i18n('Coreano Intermedio'),
     initials: 'CM',
     color: '#D4AF37',
     quote:
-      'Excelente profesor. Siempre disponible para responder dudas dentro y fuera del horario de clases, además de explicar hasta que se entienda. Las clases son divertidas y entendibles. ¡Gracias, profesor!',
+      i18n('Excelente profesor. Siempre disponible para responder dudas dentro y fuera del horario de clases, además de explicar hasta que se entienda. Las clases son divertidas y entendibles. ¡Gracias, profesor!'),
   },
   {
     name: 'Catalina Saavedra',
-    level: 'Básico 2 (A1.2)',
-    course: 'Coreano Básico',
+    level: i18n('Básico 2 (A1.2)'),
+    course: i18n('Coreano Básico'),
     initials: 'CS',
     color: '#3D2EE8',
     quote:
-      'Muy buen profesor, sus explicaciones son muy claras y siempre da distintos ejemplos. Además nos enseña sobre cultura y cosas típicas de Corea. También enseña con música, lo cual facilita mucho el oído y la pronunciación correcta.',
+      i18n('Muy buen profesor, sus explicaciones son muy claras y siempre da distintos ejemplos. Además nos enseña sobre cultura y cosas típicas de Corea. También enseña con música, lo cual facilita mucho el oído y la pronunciación correcta.'),
   },
   {
     name: 'Paulina Cerda',
-    level: 'Nivel B1',
-    course: 'Coreano Intermedio',
+    level: i18n('Nivel B1'),
+    course: i18n('Coreano Intermedio'),
     initials: 'PC',
     color: '#003478',
     quote:
-      'Clases claras y didácticas, con entrega de material adecuado para el estudio. Se agradece el esfuerzo para fomentar la participación en clases y explicar reiteradamente en caso de dudas, además de la disposición para resolver dudas fuera del horario.',
+      i18n('Clases claras y didácticas, con entrega de material adecuado para el estudio. Se agradece el esfuerzo para fomentar la participación en clases y explicar reiteradamente en caso de dudas, además de la disposición para resolver dudas fuera del horario.'),
   },
   {
     name: 'Mariam',
-    level: 'Nivel A1',
-    course: 'Coreano Básico',
+    level: i18n('Nivel A1'),
+    course: i18n('Coreano Básico'),
     initials: 'MA',
     color: '#D4AF37',
     quote:
-      'Jae Hee tiene muy buena disposición cuando alguien tiene una duda, complementa sus clases con cultura general y se dan espacios de confianza donde se pueden compartir experiencias.',
+      i18n('Jae Hee tiene muy buena disposición cuando alguien tiene una duda, complementa sus clases con cultura general y se dan espacios de confianza donde se pueden compartir experiencias.'),
   },
   {
     name: 'Valentina San Martín',
-    level: 'Nivel A1',
-    course: 'Coreano Básico',
+    level: i18n('Nivel A1'),
+    course: i18n('Coreano Básico'),
     initials: 'VS',
     color: '#3D2EE8',
     quote:
-      'Fue entretenido y entendí muy bien las clases. Tiene mucha paciencia y hace agradable el aprender.',
+      i18n('Fue entretenido y entendí muy bien las clases. Tiene mucha paciencia y hace agradable el aprender.'),
   },
 ];
 
@@ -140,13 +141,14 @@ function TestimonialsCarousel() {
   const [index, setIndex] = useState(0);
   const [dir, setDir] = useState(0);
   const total = testimonials.length;
+  const { t } = useT();
 
   const go = (d: number) => {
     setDir(d);
     setIndex((prev) => (prev + d + total) % total);
   };
 
-  const t = testimonials[index];
+  const item = testimonials[index];
 
   return (
     <div className="max-w-3xl mx-auto">
@@ -154,7 +156,7 @@ function TestimonialsCarousel() {
         {/* Prev */}
         <button
           onClick={() => go(-1)}
-          aria-label="Anterior"
+          aria-label={t('Anterior')}
           className="flex-shrink-0 w-11 h-11 md:w-12 md:h-12 rounded-full bg-black/[0.06] border border-black/10 text-seoul-black/70 hover:text-white hover:bg-seoul-red hover:border-seoul-red flex items-center justify-center transition-all duration-200"
         >
           <ChevronLeft size={22} />
@@ -178,21 +180,21 @@ function TestimonialsCarousel() {
                 <StarRating />
               </div>
               <p className="text-base md:text-lg text-seoul-black/80 leading-relaxed italic flex-1">
-                &ldquo;{t.quote}&rdquo;
+                &ldquo;{t(item.quote)}&rdquo;
               </p>
               <div className="pt-4 border-t border-black/[0.06] flex items-center gap-3">
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold text-sm border-2 border-black/10"
-                  style={{ background: t.color }}
+                  style={{ background: item.color }}
                 >
-                  {t.initials}
+                  {item.initials}
                 </div>
                 <div>
                   <div className="text-sm md:text-base font-bold text-seoul-black leading-tight">
-                    {t.name}
+                    {item.name}
                   </div>
                   <div className="text-[11px] md:text-xs text-seoul-black/40 mt-0.5">
-                    {t.course} · {t.level}
+                    {t(item.course)} · {t(item.level)}
                   </div>
                 </div>
               </div>
@@ -203,7 +205,7 @@ function TestimonialsCarousel() {
         {/* Next */}
         <button
           onClick={() => go(1)}
-          aria-label="Siguiente"
+          aria-label={t('Siguiente')}
           className="flex-shrink-0 w-11 h-11 md:w-12 md:h-12 rounded-full bg-black/[0.06] border border-black/10 text-seoul-black/70 hover:text-white hover:bg-seoul-red hover:border-seoul-red flex items-center justify-center transition-all duration-200"
         >
           <ChevronRight size={22} />
@@ -219,7 +221,7 @@ function TestimonialsCarousel() {
               setDir(i > index ? 1 : -1);
               setIndex(i);
             }}
-            aria-label={`Testimonio ${i + 1}`}
+            aria-label={t('Testimonio {n}', { n: i + 1 })}
             className={`h-2 rounded-full transition-all duration-300 ${
               i === index ? 'w-7 bg-seoul-red' : 'w-2 bg-black/15 hover:bg-black/30'
             }`}
@@ -233,6 +235,7 @@ function TestimonialsCarousel() {
 export default function Testimonials() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-100px' });
+  const { t } = useT();
 
   return (
     <section
@@ -259,16 +262,15 @@ export default function Testimonials() {
           className="mb-16 text-center"
         >
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
-            Por qué Academia Seúl
+            {t('Por qué Academia Seúl')}
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight max-w-3xl mx-auto">
-            Lo que nos hace
+            {t('Lo que nos hace')}
             <br />
-            <span className="text-gradient-red">diferentes</span>
+            <span className="text-gradient-red">{t('diferentes')}</span>
           </h2>
           <p className="mt-6 text-seoul-black/50 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
-            8+ años enseñando coreano, una metodología probada y la energía
-            de una comunidad real.
+            {t('8+ años enseñando coreano, una metodología probada y la energía de una comunidad real.')}
           </p>
         </motion.div>
 
@@ -292,27 +294,25 @@ export default function Testimonials() {
               <div className="text-2xl font-bold text-seoul-black font-korean">{'김재희'}</div>
               <div className="text-sm text-seoul-black/60 mt-1">Jay Chingu</div>
               <div className="text-xs uppercase tracking-widest text-seoul-red mt-3 font-semibold">
-                Fundador y profesor
+                {t('Fundador y profesor')}
               </div>
             </div>
 
             <div className="md:col-span-2 space-y-3">
               <p className="text-base md:text-lg text-seoul-black/85 leading-relaxed">
-                <span className="font-korean">{'안녕하세요'}</span>, soy{' '}
-                <span className="font-korean font-bold">{'김재희'}</span> — mejor conocido como Jay. Nací en Seúl, llegué a
-                Chile a los 10 años, y crecí entre kimchi y empanadas — entre{' '}
-                <span className="font-korean">{'한글'}</span> y español.
+                <span className="font-korean">{'안녕하세요'}</span>{t(', soy')}{' '}
+                <span className="font-korean font-bold">{'김재희'}</span>{' '}
+                {t('— mejor conocido como Jay. Nací en Seúl, llegué a Chile a los 10 años, y crecí entre kimchi y empanadas — entre')}{' '}
+                <span className="font-korean">{'한글'}</span> {t('y español.')}
               </p>
               <p className="text-sm text-seoul-black/55 leading-relaxed">
-                De día soy gerente en una empresa coreana de genómica en Las Condes. De noche
-                hago lo que más amo: enseñar mi idioma a quienes lo aprenden por amor a la
-                cultura. Academia Seúl nació para construir el puente que yo no tuve a los 10.
+                {t('De día soy gerente en una empresa coreana de genómica en Las Condes. De noche hago lo que más amo: enseñar mi idioma a quienes lo aprenden por amor a la cultura. Academia Seúl nació para construir el puente que yo no tuve a los 10.')}
               </p>
               <div className="pt-3 flex flex-wrap gap-2">
                 {[
-                  'Nativo de Seúl',
-                  'Bilingüe español',
-                  '8+ años enseñando',
+                  t('Nativo de Seúl'),
+                  t('Bilingüe español'),
+                  t('8+ años enseñando'),
                   'Método Chingu',
                 ].map((tag) => (
                   <span
@@ -327,7 +327,7 @@ export default function Testimonials() {
                 href="/sobre"
                 className="inline-block mt-5 text-sm font-bold text-seoul-red hover:text-[#818CF8] transition-colors"
               >
-                Lee mi historia →
+                {t('Lee mi historia →')}
               </a>
             </div>
           </div>
@@ -360,10 +360,10 @@ export default function Testimonials() {
                   <Icon size={22} style={{ color: reason.color }} />
                 </div>
                 <h3 className="text-lg font-bold text-seoul-black leading-tight">
-                  {reason.title}
+                  {t(reason.title)}
                 </h3>
                 <p className="text-sm text-seoul-black/55 leading-relaxed flex-1">
-                  {reason.description}
+                  {t(reason.description)}
                 </p>
               </motion.div>
             );
@@ -378,13 +378,13 @@ export default function Testimonials() {
           className="text-center mb-20"
         >
           <p className="text-seoul-black/40 text-sm mb-5">
-            La mejor forma de conocer nuestro método: una clase en vivo.
+            {t('La mejor forma de conocer nuestro método: una clase en vivo.')}
           </p>
           <a
             href="/nivel-1#clases"
             className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
           >
-            Inscribirme · Octubre 2026
+            {t('Inscribirme · Octubre 2026')}
             <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
           </a>
         </motion.div>
@@ -397,14 +397,13 @@ export default function Testimonials() {
           className="mb-12 text-center"
         >
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
-            Estudiantes reales
+            {t('Estudiantes reales')}
           </span>
           <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-seoul-black leading-tight">
-            Lo que dicen <span className="text-gradient-red">mis chingus</span>
+            {t('Lo que dicen')} <span className="text-gradient-red">{t('mis chingus')}</span>
           </h3>
           <p className="mt-4 text-seoul-black/50 text-base max-w-xl mx-auto leading-relaxed">
-            Testimonios reales de estudiantes que tomé en mis clases anteriores.
-            La misma energía y metodología llega ahora a Academia Seúl.
+            {t('Testimonios reales de estudiantes que tomé en mis clases anteriores. La misma energía y metodología llega ahora a Academia Seúl.')}
           </p>
         </motion.div>
 

@@ -4,9 +4,11 @@ import { useRef } from 'react';
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import { useT } from '@/lib/i18n';
 
 export default function Hero() {
   const ref = useRef<HTMLDivElement>(null);
+  const { t } = useT();
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] });
 
   // Parallax: content rises slightly on scroll
@@ -23,7 +25,7 @@ export default function Hero() {
       <div className="absolute inset-0 pointer-events-none">
         <Image
           src="/hero-gwanghwamun.jpg"
-          alt="Puerta Gwanghwamun del palacio Gyeongbokgung, Seúl"
+          alt={t('Puerta Gwanghwamun del palacio Gyeongbokgung, Seúl')}
           fill
           priority
           sizes="100vw"
@@ -59,8 +61,8 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 0.9 }}
           className="text-5xl font-black leading-[0.95] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl"
         >
-          <span className="block text-seoul-white">Aprende coreano.</span>
-          <span className="block text-seoul-red">Entra en Corea.</span>
+          <span className="block text-seoul-white">{t('Aprende coreano.')}</span>
+          <span className="block text-seoul-red">{t('Entra en Corea.')}</span>
         </motion.h1>
 
         {/* Divider */}
@@ -88,11 +90,10 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.8 }}
           className="mt-4 max-w-xl text-base leading-relaxed text-white"
         >
-          Clases de coreano en vivo, diseñadas para hispanohablantes. Aprende a leer{' '}
-          <span className="font-korean text-white">한글</span> desde cero, habla desde tus
-          primeras clases y entiende la cultura detrás del idioma — con Jay y un equipo de profesoras coreanas nativas.
+          {t('Clases de coreano en vivo, diseñadas para hispanohablantes. Aprende a leer')}{' '}
+          <span className="font-korean text-white">한글</span> {t('desde cero, habla desde tus primeras clases y entiende la cultura detrás del idioma — con Jay y un equipo de profesoras coreanas nativas.')}
           <span className="block mt-2 font-semibold text-white">
-            Matrícula abierta · 8 semanas desde la semana del 5 de octubre · US$150 el curso completo o 2 cuotas de US$75 · certificado incluido.
+            {t('Matrícula abierta · 8 semanas desde la semana del 5 de octubre · US$150 el curso completo o 2 cuotas de US$75 · certificado incluido.')}
           </span>
         </motion.p>
 
@@ -107,13 +108,13 @@ export default function Hero() {
             href="/nivel-1#clases"
             className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#2C1FB0] hover:shadow-seoul-red/40 focus:outline-none focus:ring-2 focus:ring-seoul-red focus:ring-offset-2 focus:ring-offset-seoul-black"
           >
-            Inscribirme · Octubre 2026 <span aria-hidden>→</span>
+            {t('Inscribirme · Octubre 2026')} <span aria-hidden>→</span>
           </a>
           <a
             href="/programa"
             className="inline-flex items-center rounded-md border border-white/20 px-8 py-4 font-semibold text-white transition-colors duration-200 hover:border-white/40 hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-white/40 focus:ring-offset-2 focus:ring-offset-seoul-black"
           >
-            Ver programa y horarios
+            {t('Ver programa y horarios')}
           </a>
         </motion.div>
 
@@ -124,17 +125,17 @@ export default function Hero() {
           transition={{ delay: 2.2, duration: 0.8 }}
           className="mt-5 text-sm text-white/85"
         >
-          ¿Nunca estudiaste coreano? Tu curso es{' '}
+          {t('¿Nunca estudiaste coreano? Tu curso es')}{' '}
           <a
             href="/nivel-1?clase=a11-martes#clases"
             className="text-white font-bold underline underline-offset-4 decoration-white/50 transition-colors hover:text-[#E8B84B]"
           >
-            Básico 1 (A1.1) →
+            {t('Básico 1 (A1.1) →')}
           </a>{' '}
-          martes o jueves, empiezas leyendo el alfabeto.
+          {t('martes o jueves, empiezas leyendo el alfabeto.')}
           <span className="block mt-1 text-white/60 text-xs">
-            ¿Quieres adelantar antes de octubre?{' '}
-            <a href="/lector-hangul" className="underline underline-offset-2 hover:text-white">Lector de Hangul gratis</a>
+            {t('¿Quieres adelantar antes de octubre?')}{' '}
+            <a href="/lector-hangul" className="underline underline-offset-2 hover:text-white">{t('Lector de Hangul gratis')}</a>
           </span>
         </motion.p>
 
@@ -146,12 +147,12 @@ export default function Hero() {
           className="mt-5 flex flex-wrap justify-center gap-2"
         >
           {[
-            { t: 'Nunca estudié → Básico 1', h: '/nivel-1?clase=a11-martes#clases' },
-            { t: 'Ya leo Hangul → Básico 2', h: '/nivel-1?clase=a12#clases' },
-            { t: 'Terminé el Nivel 1 → Básico 2', h: '/nivel-1?clase=a12#clases' },
-            { t: 'Quiero hablar → Conversacional 1', h: '/nivel-1?clase=a21#clases' },
-            { t: 'Voy por el TOPIK → TOPIK II', h: '/nivel-1?clase=topik2#clases' },
-            { t: '🧒 Niños 8–12 · lunes 18:00', h: '/nivel-1?clase=ninos#clases' },
+            { t: t('Nunca estudié → Básico 1'), h: '/nivel-1?clase=a11-martes#clases' },
+            { t: t('Ya leo Hangul → Básico 2'), h: '/nivel-1?clase=a12#clases' },
+            { t: t('Terminé el Nivel 1 → Básico 2'), h: '/nivel-1?clase=a12#clases' },
+            { t: t('Quiero hablar → Conversacional 1'), h: '/nivel-1?clase=a21#clases' },
+            { t: t('Voy por el TOPIK → TOPIK II'), h: '/nivel-1?clase=topik2#clases' },
+            { t: t('🧒 Niños 8–12 · lunes 18:00'), h: '/nivel-1?clase=ninos#clases' },
           ].map((c) => (
             <a
               key={c.t}
@@ -171,10 +172,10 @@ export default function Hero() {
           className="mt-8 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/90"
         >
           {[
-            '🇰🇷 Profesores coreanos nativos',
-            '🎥 En vivo por Zoom',
-            '👥 Grupos pequeños',
-            '🌎 LATAM y España',
+            t('🇰🇷 Profesores coreanos nativos'),
+            t('🎥 En vivo por Zoom'),
+            t('👥 Grupos pequeños'),
+            t('🌎 LATAM y España'),
           ].map((b) => (
             <span
               key={b}
@@ -194,10 +195,10 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 2.8, duration: 1 }}
-        aria-label="Descubre más — desplazar hacia abajo"
+        aria-label={t('Descubre más — desplazar hacia abajo')}
       >
         <span className="text-xs font-medium uppercase tracking-[0.25em] text-white/40 transition-colors group-hover:text-white/70">
-          Descubre más
+          {t('Descubre más')}
         </span>
         <motion.div
           animate={{ y: [0, 8, 0] }}

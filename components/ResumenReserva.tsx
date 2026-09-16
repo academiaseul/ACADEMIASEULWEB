@@ -2,6 +2,7 @@
 
 import { cursoDe, profeCorto, PRECIO_UNICO, PRECIO_MENSUAL, MESES, type Clase, type PaisKey } from "@/lib/nivel1";
 import { horaLocal, PAISES } from "@/lib/nivel1";
+import { useT, Tr } from "@/lib/i18n";
 
 // Resumen de lo que el alumno está reservando. `sticky` = barra inferior fija
 // que aparece al elegir clase; sin `sticky` = cabecera estática del formulario/pago.
@@ -20,27 +21,31 @@ export default function ResumenReserva({
   onCambiar?: () => void;
   visible?: boolean;
 }) {
+  const { t } = useT();
   const curso = cursoDe(clase);
   const info = PAISES.find((p) => p.key === pais) ?? PAISES[0];
   const hora = horaLocal(clase.horaChile, pais);
-  const horaTxt = pais === "chile" ? `${clase.dia} ${clase.horaChile} Chile` : `${clase.dia} ${hora} ${info.corto} (${clase.horaChile} Chile)`;
-  const precio = plan === "unico" ? `US$${PRECIO_UNICO} pago único` : `${MESES} cuotas de US$${PRECIO_MENSUAL}`;
+  const horaTxt =
+    pais === "chile"
+      ? t("{dia} {hora} Chile", { dia: t(clase.dia), hora: clase.horaChile })
+      : t("{dia} {hora} {pais} ({horaChile} Chile)", { dia: t(clase.dia), hora, pais: t(info.corto), horaChile: clase.horaChile });
+  const precio = plan === "unico" ? t("US${p} pago único", { p: PRECIO_UNICO }) : t("{n} cuotas de US${m}", { n: MESES, m: PRECIO_MENSUAL });
 
   const cuerpo = (
     <div className="flex flex-col sm:flex-row sm:items-center gap-3">
       <div className="flex-1 min-w-0">
         <div className="font-bold text-gray-900 leading-tight">
-          {curso.emoji} {curso.nombreCorto} <span className="font-normal text-gray-500">· {curso.subtitulo}</span>
+          {curso.emoji} {t(curso.nombreCorto)} <span className="font-normal text-gray-500">· {t(curso.subtitulo)}</span>
         </div>
         <div className="text-sm text-gray-700 mt-0.5">
-          {horaTxt} · {profeCorto(clase)} · primera clase <strong>{clase.primeraClase}</strong> · {precio}
+          {horaTxt} · {t(profeCorto(clase))} · <Tr k="primera clase **{fecha}**" vars={{ fecha: t(clase.primeraClase) }} /> · {precio}
         </div>
       </div>
       {sticky ? (
         <div className="flex items-center gap-2">
           {onCambiar && (
             <button type="button" onClick={onCambiar} className="text-sm font-semibold text-gray-500 hover:text-gray-900 px-2">
-              Cambiar
+              {t("Cambiar")}
             </button>
           )}
           <a
@@ -48,13 +53,13 @@ export default function ResumenReserva({
             className="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-white font-bold text-sm whitespace-nowrap hover:scale-105 transition"
             style={{ backgroundColor: "#4236F6" }}
           >
-            Reservar mi cupo →
+            {t("Reservar mi cupo →")}
           </a>
         </div>
       ) : (
         onCambiar && (
           <button type="button" onClick={onCambiar} className="text-sm font-semibold underline" style={{ color: "#4236F6" }}>
-            Cambiar clase
+            {t("Cambiar clase")}
           </button>
         )
       )}

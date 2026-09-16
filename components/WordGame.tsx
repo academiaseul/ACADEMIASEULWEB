@@ -3,9 +3,10 @@
 import { useRef, useState } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { Sparkles, RotateCcw, ArrowRight, Trophy } from 'lucide-react';
+import { useT, i18n } from '@/lib/i18n';
 
 type Question = {
-  level: 'Básico' | 'Intermedio';
+  level: string;
   hangul: string;
   roman: string;
   q: string;
@@ -15,67 +16,67 @@ type Question = {
 
 const QUESTIONS: Question[] = [
   {
-    level: 'Básico',
+    level: i18n('Básico'),
     hangul: '안녕하세요',
     roman: 'annyeonghaseyo',
-    q: '¿Qué significa este saludo?',
-    opts: ['Adiós', 'Hola', 'Gracias', 'Lo siento'],
+    q: i18n('¿Qué significa este saludo?'),
+    opts: [i18n('Adiós'), i18n('Hola'), i18n('Gracias'), i18n('Lo siento')],
     a: 1,
   },
   {
-    level: 'Básico',
+    level: i18n('Básico'),
     hangul: '감사합니다',
     roman: 'gamsahamnida',
-    q: '¿Qué significa esta frase?',
-    opts: ['Por favor', 'De nada', 'Gracias', 'Perdón'],
+    q: i18n('¿Qué significa esta frase?'),
+    opts: [i18n('Por favor'), i18n('De nada'), i18n('Gracias'), i18n('Perdón')],
     a: 2,
   },
   {
-    level: 'Básico',
+    level: i18n('Básico'),
     hangul: '저__ 학생이에요',
     roman: 'jeo__ haksaeng-ieyo',
-    q: 'Gramática: ¿qué partícula completa "Yo soy estudiante"?',
+    q: i18n('Gramática: ¿qué partícula completa "Yo soy estudiante"?'),
     opts: ['는', '를', '에', '도'],
     a: 0,
   },
   {
-    level: 'Básico',
+    level: i18n('Básico'),
     hangul: '가족',
     roman: 'gajok',
-    q: '¿Qué significa esta palabra?',
-    opts: ['Amigo', 'Familia', 'Escuela', 'Trabajo'],
+    q: i18n('¿Qué significa esta palabra?'),
+    opts: [i18n('Amigo'), i18n('Familia'), i18n('Escuela'), i18n('Trabajo')],
     a: 1,
   },
   {
-    level: 'Intermedio',
+    level: i18n('Intermedio'),
     hangul: '커피 안 좋아해요?',
     roman: 'keopi an joahaeyo?',
-    q: '"¿No te gusta el café?" — si es cierto que NO te gusta, ¿cómo respondes en coreano?',
+    q: i18n('"¿No te gusta el café?" — si es cierto que NO te gusta, ¿cómo respondes en coreano?'),
     opts: ['아니요', '네', '맞아요', '몰라요'],
     a: 1,
   },
   {
-    level: 'Intermedio',
+    level: i18n('Intermedio'),
     hangul: '이게 뭐예요?',
     roman: 'i-ge mwo-ye-yo?',
-    q: '¿Qué significa esta pregunta?',
-    opts: ['¿Quién es?', '¿Dónde está?', '¿Qué es esto?', '¿Cómo estás?'],
+    q: i18n('¿Qué significa esta pregunta?'),
+    opts: [i18n('¿Quién es?'), i18n('¿Dónde está?'), i18n('¿Qué es esto?'), i18n('¿Cómo estás?')],
     a: 2,
   },
   {
-    level: 'Intermedio',
+    level: i18n('Intermedio'),
     hangul: '커피__ 마셔요',
     roman: 'keopi__ masyeoyo',
-    q: 'Gramática: ¿qué partícula completa "Bebo café"?',
+    q: i18n('Gramática: ¿qué partícula completa "Bebo café"?'),
     opts: ['는', '를', '가', '도'],
     a: 1,
   },
   {
-    level: 'Intermedio',
+    level: i18n('Intermedio'),
     hangul: '우리 엄마',
     roman: 'uri eomma',
-    q: 'Un coreano dice esto para referirse a...',
-    opts: ['Nuestra mamá (de todos)', 'Mi mamá', 'La mamá de otro', 'Su abuela'],
+    q: i18n('Un coreano dice esto para referirse a...'),
+    opts: [i18n('Nuestra mamá (de todos)'), i18n('Mi mamá'), i18n('La mamá de otro'), i18n('Su abuela')],
     a: 1,
   },
 ];
@@ -83,6 +84,7 @@ const QUESTIONS: Question[] = [
 export default function WordGame() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
+  const { t } = useT();
 
   const [started, setStarted] = useState(false);
   const [index, setIndex] = useState(0);
@@ -148,13 +150,13 @@ export default function WordGame() {
           className="mb-12 text-center max-w-2xl mx-auto"
         >
           <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.3em] uppercase text-seoul-gold mb-4">
-            <Sparkles size={14} /> Pruébalo tú mismo
+            <Sparkles size={14} /> {t('Pruébalo tú mismo')}
           </span>
           <h2 className="font-serif text-4xl md:text-5xl text-white leading-tight mb-4">
-            ¿Cuánto coreano <span className="text-gradient-red">ya sabes?</span>
+            {t('¿Cuánto coreano')} <span className="text-gradient-red">{t('ya sabes?')}</span>
           </h2>
           <p className="text-white/60 text-base md:text-lg">
-            8 preguntas rápidas de vocabulario y gramática, sacadas directo de nuestras clases de Básico 1 (A1.1).
+            {t('8 preguntas rápidas de vocabulario y gramática, sacadas directo de nuestras clases de Básico 1 (A1.1).')}
           </p>
         </motion.div>
 
@@ -167,15 +169,15 @@ export default function WordGame() {
           {!started && (
             <div className="text-center py-6">
               <div className="text-5xl mb-4">🇰🇷</div>
-              <h3 className="font-serif text-2xl text-seoul-black mb-2">Torpedo Coreano</h3>
+              <h3 className="font-serif text-2xl text-seoul-black mb-2">{t('Torpedo Coreano')}</h3>
               <p className="text-seoul-black/55 text-sm mb-6">
-                Mezcla de vocabulario y partículas — nivel básico a intermedio.
+                {t('Mezcla de vocabulario y partículas — nivel básico a intermedio.')}
               </p>
               <button
                 onClick={handleStart}
                 className="inline-flex items-center gap-2 px-7 py-3.5 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300"
               >
-                Empezar el juego <ArrowRight size={16} />
+                {t('Empezar el juego')} <ArrowRight size={16} />
               </button>
             </div>
           )}
@@ -184,10 +186,10 @@ export default function WordGame() {
             <div>
               <div className="flex items-center justify-between text-xs font-semibold text-seoul-black/50 mb-2">
                 <span>
-                  Pregunta <b className="text-seoul-black">{index + 1}</b> de {total}
+                  {t('Pregunta')} <b className="text-seoul-black">{index + 1}</b> {t('de {total}', { total })}
                 </span>
                 <span>
-                  Puntaje: <b className="text-seoul-black">{score}</b>
+                  {t('Puntaje:')} <b className="text-seoul-black">{score}</b>
                 </span>
               </div>
               <div className="h-1.5 w-full bg-seoul-black/10 rounded-full overflow-hidden mb-6">
@@ -207,7 +209,7 @@ export default function WordGame() {
                   transition={{ duration: 0.25 }}
                 >
                   <span className="inline-block text-[10px] font-bold tracking-widest uppercase text-seoul-red bg-seoul-red/10 rounded-full px-3 py-1 mb-4">
-                    {current.level}
+                    {t(current.level)}
                   </span>
                   <div className="text-center mb-2">
                     <div className="font-korean font-black text-4xl md:text-5xl text-seoul-black mb-1">
@@ -216,7 +218,7 @@ export default function WordGame() {
                     <div className="italic text-seoul-black/40 text-sm">{current.roman}</div>
                   </div>
                   <p className="text-center text-seoul-black/80 font-medium text-sm md:text-base mb-6 mt-4">
-                    {current.q}
+                    {t(current.q)}
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                     {current.opts.map((opt, idx) => {
@@ -235,7 +237,7 @@ export default function WordGame() {
                                 : 'border-seoul-black/10 hover:border-seoul-red/40 hover:bg-seoul-red/5 text-seoul-black'
                           }`}
                         >
-                          {opt}
+                          {t(opt)}
                         </button>
                       );
                     })}
@@ -255,30 +257,30 @@ export default function WordGame() {
                 <Trophy size={28} className="text-seoul-red" />
               </div>
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-seoul-black/40 mb-1">
-                Resultado
+                {t('Resultado')}
               </p>
               <div className="font-serif text-4xl text-seoul-black mb-3">
                 {score} / {total}
               </div>
               <p className="text-seoul-black/60 text-sm mb-7 max-w-xs mx-auto">
                 {perfect
-                  ? '¡Puntaje perfecto! Ya tienes una base sólida — Básico 2 (A1.2) o Conversacional 1 (A2.1) son tu siguiente paso.'
+                  ? t('¡Puntaje perfecto! Ya tienes una base sólida — Básico 2 (A1.2) o Conversacional 1 (A2.1) son tu siguiente paso.')
                   : good
-                    ? 'Nada mal para una probadita. En Básico 1 vemos todo esto (y mucho más) con calma, paso a paso.'
-                    : 'Así arrancamos todos. En Básico 1 (A1.1) empezamos desde cero, sin apuro y con clases en vivo.'}
+                    ? t('Nada mal para una probadita. En Básico 1 vemos todo esto (y mucho más) con calma, paso a paso.')
+                    : t('Así arrancamos todos. En Básico 1 (A1.1) empezamos desde cero, sin apuro y con clases en vivo.')}
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                 <a
                   href="/nivel-1#clases"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm w-full sm:w-auto"
                 >
-                  Inscribirme · Octubre 2026 →
+                  {t('Inscribirme · Octubre 2026 →')}
                 </a>
                 <button
                   onClick={handleStart}
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-seoul-black/15 hover:border-seoul-red text-seoul-black font-semibold rounded-lg transition-all duration-300 text-sm w-full sm:w-auto"
                 >
-                  <RotateCcw size={15} /> Jugar de nuevo
+                  <RotateCcw size={15} /> {t('Jugar de nuevo')}
                 </button>
               </div>
             </motion.div>

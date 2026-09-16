@@ -2,6 +2,7 @@
 
 import { CLASES, PAISES, cursoDe, profeCorto, type Clase, type ClaseId, type PaisKey } from "@/lib/nivel1";
 import { useHoraLocal } from "@/lib/useHoraLocal";
+import { useT } from "@/lib/i18n";
 
 // Grilla semanal (Lun–Jue × 18:00/20:00/21:00) con la hora en el país del
 // visitante. Reemplaza las tarjetas + tablas de husos por una sola imagen.
@@ -18,6 +19,7 @@ export default function HorarioSemanal({
   onSelect?: (id: ClaseId) => void;
   compacto?: boolean;
 }) {
+  const { t, td } = useT();
   const { pais, setPais, info, hora, esChile } = useHoraLocal();
   const celda = (dia: string, h: string): Clase[] => CLASES.filter((c) => c.dia === dia && c.horaChile === h);
 
@@ -26,8 +28,8 @@ export default function HorarioSemanal({
       {/* Selector de país */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
         <div className="text-sm text-gray-600">
-          Horarios en <strong className="text-gray-900">{info.bandera} {info.label}</strong>
-          {!esChile && <span className="text-gray-400"> · convertidos desde hora de Chile</span>}
+          {t("Horarios en")} <strong className="text-gray-900">{info.bandera} {t(info.label)}</strong>
+          {!esChile && <span className="text-gray-400"> · {t("convertidos desde hora de Chile")}</span>}
         </div>
         <div className="flex flex-wrap gap-1.5">
           {PAISES.map((p) => (
@@ -39,7 +41,7 @@ export default function HorarioSemanal({
                 pais === p.key ? "border-[#4236F6] bg-[#4236F6] text-white" : "border-gray-300 text-gray-700 hover:border-[#4236F6]"
               }`}
             >
-              {p.bandera} {p.corto}
+              {p.bandera} {t(p.corto)}
             </button>
           ))}
         </div>
@@ -50,9 +52,9 @@ export default function HorarioSemanal({
         <table className="w-full text-sm min-w-[600px]">
           <thead>
             <tr className="text-white" style={{ backgroundColor: "#4236F6" }}>
-              <th className="px-3 py-3 text-left font-bold w-28">Hora</th>
+              <th className="px-3 py-3 text-left font-bold w-28">{t("Hora")}</th>
               {DIAS.map((d) => (
-                <th key={d} className="px-3 py-3 font-bold text-center">{d}</th>
+                <th key={d} className="px-3 py-3 font-bold text-center">{td(d)}</th>
               ))}
             </tr>
           </thead>
@@ -61,7 +63,7 @@ export default function HorarioSemanal({
               <tr key={h} className={hi % 2 === 1 ? "bg-[#F5F3FF]" : "bg-white"}>
                 <td className="px-3 py-3 align-top">
                   <div className="font-bold text-gray-900 leading-tight">{hora(h)}</div>
-                  {!esChile && <div className="text-[11px] text-gray-400">{h} Chile</div>}
+                  {!esChile && <div className="text-[11px] text-gray-400">{h} {t("Chile")}</div>}
                 </td>
                 {DIAS.map((d) => {
                   const cs = celda(d, h);
@@ -75,11 +77,11 @@ export default function HorarioSemanal({
                         }`;
                         const inner = (
                           <>
-                            <div className="font-bold text-gray-900 leading-tight text-[13px]">{curso.emoji} {curso.nombreCorto}</div>
+                            <div className="font-bold text-gray-900 leading-tight text-[13px]">{curso.emoji} {t(curso.nombreCorto)}</div>
                             {!compacto && (
-                              <div className="text-[11px] text-gray-500 mt-0.5">{profeCorto(c)} · máx. {c.cupos}</div>
+                              <div className="text-[11px] text-gray-500 mt-0.5">{t(profeCorto(c))} · {t("máx. {n}", { n: c.cupos })}</div>
                             )}
-                            {activa && <div className="text-[10px] font-bold mt-1" style={{ color: "#4236F6" }}>✓ Seleccionada</div>}
+                            {activa && <div className="text-[10px] font-bold mt-1" style={{ color: "#4236F6" }}>{t("✓ Seleccionada")}</div>}
                           </>
                         );
                         return onSelect ? (
@@ -97,8 +99,8 @@ export default function HorarioSemanal({
         </table>
       </div>
       <p className="text-xs text-gray-500 mt-3">
-        5 cursos · 6 horarios (Básico 1 se dicta martes y jueves: elige uno) · todas las clases parten la semana del 5 de octubre · 8 semanas · 60 min.
-        {info.cambiaHora ? ` ${info.cambiaHora}` : ""}
+        {t("5 cursos · 6 horarios (Básico 1 se dicta martes y jueves: elige uno) · todas las clases parten la semana del 5 de octubre · 8 semanas · 60 min.")}
+        {info.cambiaHora ? ` ${t(info.cambiaHora)}` : ""}
       </p>
     </div>
   );

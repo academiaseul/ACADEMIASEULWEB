@@ -3,17 +3,19 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
+import { useT, i18n, Tr } from '@/lib/i18n';
 
 const stats = [
-  { value: '🇰🇷',     label: 'Profesores coreanos nativos',  sublabel: 'Bilingües coreano-español' },
-  { value: '8',        label: 'Años enseñando coreano',    sublabel: 'Experiencia comprobada',     suffix: '+' },
-  { value: 'Chingu™',  label: 'Método propio',             sublabel: 'Diseñado para hispanohablantes' },
-  { value: '6',        label: 'Cursos diseñados',          sublabel: 'De A1.1 a TOPIK II (B1+) + Niños' },
+  { value: '🇰🇷',     label: i18n('Profesores coreanos nativos'),  sublabel: i18n('Bilingües coreano-español') },
+  { value: '8',        label: i18n('Años enseñando coreano'),    sublabel: i18n('Experiencia comprobada'),     suffix: '+' },
+  { value: 'Chingu™',  label: i18n('Método propio'),             sublabel: i18n('Diseñado para hispanohablantes') },
+  { value: '6',        label: i18n('Cursos diseñados'),          sublabel: i18n('De A1.1 a TOPIK II (B1+) + Niños') },
 ];
 
 function StatCard({ value, label, sublabel, suffix, index }: (typeof stats)[0] & { index: number }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
+  const { t } = useT();
 
   return (
     <motion.div
@@ -27,11 +29,11 @@ function StatCard({ value, label, sublabel, suffix, index }: (typeof stats)[0] &
         {value}{suffix || ''}
       </div>
       <div className="text-sm text-seoul-black/60 uppercase tracking-widest font-medium">
-        {label}
+        {t(label)}
       </div>
       {sublabel && (
         <div className="text-xs text-seoul-black/40 mt-1 font-medium normal-case tracking-normal">
-          {sublabel}
+          {t(sublabel)}
         </div>
       )}
     </motion.div>
@@ -41,6 +43,7 @@ function StatCard({ value, label, sublabel, suffix, index }: (typeof stats)[0] &
 export default function About() {
   const ref  = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-100px' });
+  const { t } = useT();
 
   return (
     <section
@@ -66,12 +69,12 @@ export default function About() {
           className="mb-20"
         >
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
-            Sobre la academia
+            {t('Sobre la academia')}
           </span>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight max-w-2xl">
-            Donde el idioma
+            {t('Donde el idioma')}
             <br />
-            <em className="not-italic text-gradient-red">encuentra su hogar</em>
+            <em className="not-italic text-gradient-red">{t('encuentra su hogar')}</em>
           </h2>
         </motion.div>
 
@@ -87,7 +90,7 @@ export default function About() {
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1000&q=85&auto=format&fit=crop"
-                alt="Estudiantes aprendiendo en grupo (imagen ilustrativa)"
+                alt={t('Estudiantes aprendiendo en grupo (imagen ilustrativa)')}
                 fill
                 className="object-cover"
               />
@@ -103,7 +106,7 @@ export default function About() {
             >
               <div className="text-3xl font-black leading-none">8+</div>
               <div className="text-xs font-medium opacity-80 mt-1">
-                años enseñando coreano<br />a hispanohablantes
+                <Tr k={'años enseñando coreano\na hispanohablantes'} />
               </div>
             </motion.div>
           </motion.div>
@@ -116,27 +119,22 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-xl text-seoul-black/80 leading-relaxed font-medium">
-              Nacimos del amor por la cultura coreana y la convicción de que aprender
-              un idioma es una de las experiencias más transformadoras de la vida.
+              {t('Nacimos del amor por la cultura coreana y la convicción de que aprender un idioma es una de las experiencias más transformadoras de la vida.')}
             </p>
             <p className="text-base text-seoul-black/60 leading-relaxed">
-              Una nueva forma de aprender coreano desde Latinoamérica: profesores
-              coreanos nativos y bilingües, materiales creados para hispanohablantes y una
-              metodología que combina conversación real, cultura contemporánea y
-              preparación académica.
+              {t('Una nueva forma de aprender coreano desde Latinoamérica: profesores coreanos nativos y bilingües, materiales creados para hispanohablantes y una metodología que combina conversación real, cultura contemporánea y preparación académica.')}
             </p>
             <p className="text-base text-seoul-black/60 leading-relaxed">
-              Aquí no solo aprendes un idioma — descubres una cultura entera: K-dramas,
-              K-pop, gastronomía, historia y la energía única de Corea del Sur.
+              {t('Aquí no solo aprendes un idioma — descubres una cultura entera: K-dramas, K-pop, gastronomía, historia y la energía única de Corea del Sur.')}
             </p>
 
             {/* Highlights */}
             <ul className="space-y-3 pt-4">
               {[
-                'Profesores coreanos nativos y bilingües',
-                'Grupos reducidos: máximo 15 estudiantes',
-                'Metodología comunicativa + cultural',
-                'Preparación oficial para el examen TOPIK',
+                t('Profesores coreanos nativos y bilingües'),
+                t('Grupos reducidos: máximo 15 estudiantes'),
+                t('Metodología comunicativa + cultural'),
+                t('Preparación oficial para el examen TOPIK'),
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span className="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-seoul-red/10 flex items-center justify-center">
@@ -151,7 +149,7 @@ export default function About() {
               href="/sobre"
               className="inline-flex items-center gap-2 mt-2 px-6 py-3 bg-seoul-black text-seoul-white font-semibold text-sm rounded-lg hover:bg-seoul-red transition-all duration-300 group"
             >
-              Conoce nuestra historia
+              {t('Conoce nuestra historia')}
               <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
             </a>
           </motion.div>

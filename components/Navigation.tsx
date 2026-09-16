@@ -6,40 +6,39 @@ import { Menu, X, ChevronDown, MessageCircle } from 'lucide-react';
 import clsx from 'clsx';
 import PromoBar from './PromoBar';
 import { LangSwitch, ThemeToggle } from './PrefsControls';
+import { useT, i18n } from '@/lib/i18n';
 
 type NavChild = { label: string; href: string };
 type NavLink = { label: string; href: string; highlight?: boolean; children?: NavChild[] };
 
-// Contacto directo al WhatsApp de Jay.
-const WHATSAPP_URL =
-  'https://wa.me/56942115562?text=' +
-  encodeURIComponent('Hola Jay! Vi academiaseul.com y quiero información sobre los cursos de coreano.');
-
+// Contacto directo al WhatsApp de Jay (mensaje traducido dentro del componente).
 const navLinks: NavLink[] = [
-  { label: 'Inicio',        href: '/#hero'     },
-  { label: 'Inscripción octubre', href: '/nivel-1', highlight: true },
-  { label: 'Programa',      href: '/programa'  },
-  { label: 'Sobre Jay',     href: '/sobre'     },
+  { label: i18n('Inicio'),        href: '/#hero'     },
+  { label: i18n('Inscripción octubre'), href: '/nivel-1', highlight: true },
+  { label: i18n('Programa'),      href: '/programa'  },
+  { label: i18n('Sobre Jay'),     href: '/sobre'     },
   {
-    label: 'Recursos',
+    label: i18n('Recursos'),
     href: '/recursos',
     children: [
-      { label: 'Lector de Hangul 🐯 (nuevo)', href: '/lector-hangul'   },
-      { label: 'Test de nivel',         href: '/test-nivel'            },
-      { label: 'Guías',                 href: '/recursos/guias'        },
-      { label: 'Pronunciación coreana', href: '/recursos/pronunciacion' },
-      { label: 'Tu nombre en coreano',  href: '/generador-nombre'      },
-      { label: 'Hangul-dle (juego diario)', href: '/hangul-dle'        },
-      { label: 'Preguntas (FAQ)',       href: '/faq'                   },
+      { label: i18n('Lector de Hangul 🐯 (nuevo)'), href: '/lector-hangul'   },
+      { label: i18n('Test de nivel'),         href: '/test-nivel'            },
+      { label: i18n('Guías'),                 href: '/recursos/guias'        },
+      { label: i18n('Pronunciación coreana'), href: '/recursos/pronunciacion' },
+      { label: i18n('Tu nombre en coreano'),  href: '/generador-nombre'      },
+      { label: i18n('Hangul-dle (juego diario)'), href: '/hangul-dle'        },
+      { label: i18n('Preguntas (FAQ)'),       href: '/faq'                   },
     ],
   },
-  { label: 'Blog',          href: '/blog'      },
+  { label: i18n('Blog'),          href: '/blog'      },
 ];
 
 export default function Navigation({ solid = false }: { solid?: boolean }) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const { scrollY } = useScroll();
+  const { t } = useT();
+  const whatsappUrl = 'https://wa.me/56942115562?text=' + encodeURIComponent(t('Hola Jay! Vi academiaseul.com y quiero información sobre los cursos de coreano.'));
 
   useMotionValueEvent(scrollY, 'change', (latest) => {
     setScrolled(latest > 60);
@@ -93,7 +92,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                       href={link.href}
                       className="text-sm font-medium text-gray-600 hover:text-seoul-black transition-colors duration-200 inline-flex items-center gap-1"
                     >
-                      {link.label}
+                      {t(link.label)}
                       <ChevronDown
                         size={14}
                         className="opacity-60 group-hover:rotate-180 transition-transform duration-200"
@@ -108,7 +107,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                             href={c.href}
                             className="block px-4 py-3 rounded-lg text-sm text-gray-600 hover:text-seoul-black hover:bg-gray-50 transition-colors duration-150"
                           >
-                            {c.label}
+                            {t(c.label)}
                           </a>
                         ))}
                       </div>
@@ -125,7 +124,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                         : 'text-gray-600 hover:text-seoul-black',
                     )}
                   >
-                    {link.label}
+                    {t(link.label)}
                     <span
                       className={clsx(
                         'absolute -bottom-1 left-0 w-0 h-px group-hover:w-full transition-all duration-300',
@@ -142,13 +141,13 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
               <LangSwitch />
               <ThemeToggle />
               <a
-                href={WHATSAPP_URL}
+                href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] hover:bg-[#1DB954] text-white text-sm font-semibold rounded-md transition-all duration-200 shadow-lg shadow-[#25D366]/25 hover:shadow-[#25D366]/40 hover:-translate-y-0.5 whitespace-nowrap"
               >
                 <MessageCircle size={16} />
-                Contacto
+                {t('Contacto')}
               </a>
             </div>
 
@@ -156,7 +155,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
             <button
               className="lg:hidden text-seoul-black/70 hover:text-seoul-black p-2"
               onClick={() => setMobileOpen((v) => !v)}
-              aria-label="Toggle menu"
+              aria-label={t('Abrir menú')}
             >
               {mobileOpen ? <X size={22} /> : <Menu size={22} />}
             </button>
@@ -192,7 +191,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                   link.highlight ? 'text-seoul-red hover:text-[#818CF8]' : 'text-gray-700 hover:text-seoul-red',
                 )}
               >
-                {link.label}
+                {t(link.label)}
               </a>
               {link.children && (
                 <div className="flex flex-col">
@@ -203,7 +202,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
                       onClick={() => setMobileOpen(false)}
                       className="py-3 pl-5 text-lg font-semibold text-gray-500 hover:text-seoul-red border-b border-gray-100 transition-colors duration-200"
                     >
-                      ↳ {c.label}
+                      ↳ {t(c.label)}
                     </a>
                   ))}
                 </div>
@@ -217,14 +216,14 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
             <ThemeToggle />
           </div>
           <a
-            href={WHATSAPP_URL}
+            href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full text-center py-4 bg-[#25D366] text-white font-bold text-lg rounded-lg mt-8 hover:bg-[#1DB954] transition-colors duration-200"
             onClick={() => setMobileOpen(false)}
           >
             <MessageCircle size={20} />
-            Contacto por WhatsApp
+            {t('Contacto por WhatsApp')}
           </a>
         </div>
       </motion.div>
