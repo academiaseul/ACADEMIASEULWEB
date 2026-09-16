@@ -5,6 +5,7 @@ import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { Menu, X, ChevronDown, MessageCircle } from 'lucide-react';
 import clsx from 'clsx';
 import PromoBar from './PromoBar';
+import { LangSwitch, ThemeToggle } from './PrefsControls';
 
 type NavChild = { label: string; href: string };
 type NavLink = { label: string; href: string; highlight?: boolean; children?: NavChild[] };
@@ -136,8 +137,10 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
               )}
             </nav>
 
-            {/* Desktop CTA — WhatsApp directo */}
+            {/* Desktop: idioma · tema · WhatsApp */}
             <div className="hidden lg:flex items-center gap-3">
+              <LangSwitch />
+              <ThemeToggle />
               <a
                 href={WHATSAPP_URL}
                 target="_blank"
@@ -209,6 +212,10 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
           ))}
         </nav>
         <div className="mt-auto">
+          <div className="flex items-center justify-between gap-3 mt-6">
+            <LangSwitch />
+            <ThemeToggle />
+          </div>
           <a
             href={WHATSAPP_URL}
             target="_blank"

@@ -9,6 +9,9 @@
   --seoul-black:  #0a0a0f;
   --seoul-white:  #fafaf5;
   --seoul-gold:   #D4AF37;
+  /* Texto azul/navy sobre fondo claro; en modo noche se aclaran (html.dark). */
+  --as-azul-txt:  #3D2EE8;
+  --as-navy-txt:  #003478;
 }
 
 /* ─── Base Reset ───────────────────────────────────────────────────── */
@@ -220,3 +223,66 @@ input::placeholder, textarea::placeholder {
   width: 100% !important;
   height: 100% !important;
 }
+
+/* ─── Modo noche (html.dark) ────────────────────────────────────────────
+   El sitio se diseñó en claro con utilidades de Tailwind. En vez de tocar
+   cada componente, aquí se remapean las utilidades de fondo/texto/borde
+   más usadas cuando <html class="dark"> (lib/prefs.tsx). Las secciones
+   que ya son oscuras (bg-seoul-black, text-white) no cambian.
+   Generado con scratchpad/gen_dark_css.js — editar ahí. */
+html.dark { color-scheme: dark; --as-azul-txt: #8B85FF; --as-navy-txt: #7FB2FF; }
+html.dark body { background-color: #0B0B12; }
+html.dark ::-webkit-scrollbar-track { background: #0B0B12; }
+html.dark input, html.dark textarea, html.dark select { color: #F2F2F7; background-color: #161622; border-color: rgba(255,255,255,.14); }
+html.dark input::placeholder, html.dark textarea::placeholder { color: #7A7A8C; }
+html.dark ::selection { background-color: #3D2EE8; color: #fff; }
+html.dark .bg-white, html.dark .hover\:bg-white:hover, html.dark .focus\:bg-white:focus { background-color: #14141F; }
+html.dark .bg-\[\#F5F3FF\], html.dark .bg-\[\#F4F7FF\], html.dark .bg-gray-50, html.dark .bg-gray-100, html.dark .bg-\[\#F0FBF4\], html.dark .bg-\[\#FFF8E6\], html.dark .bg-\[\#E5E1FB\] { background-color: #0F0F18; }
+html.dark .bg-gray-300 { background-color: rgba(255,255,255,.18); }
+html.dark .bg-gray-200 { background-color: rgba(255,255,255,.12); }
+html.dark .bg-white\/95, html.dark .bg-white\/90, html.dark .bg-white\/98 { background-color: rgba(11,11,18,.94); }
+html.dark .hover\:bg-gray-50:hover, html.dark .hover\:bg-black\/5:hover { background-color: rgba(255,255,255,.06); }
+html.dark .glass-light { background: #161622; border-color: rgba(255,255,255,.08); box-shadow: 0 6px 24px rgba(0,0,0,.35); }
+html.dark .glass-blue { background: rgba(109,94,240,.10); border-color: rgba(109,94,240,.28); }
+html.dark .bg-seoul-red\/5, html.dark .bg-\[\#3D2EE8\]\/5 { background-color: rgba(109,94,240,.10); }
+html.dark .bg-seoul-red\/10, html.dark .bg-\[\#3D2EE8\]\/10 { background-color: rgba(109,94,240,.16); }
+html.dark .from-white { --tw-gradient-from: #14141F var(--tw-gradient-from-position); --tw-gradient-to: rgb(20 20 31 / 0) var(--tw-gradient-to-position); }
+html.dark .via-white { --tw-gradient-to: rgb(20 20 31 / 0) var(--tw-gradient-to-position); --tw-gradient-stops: var(--tw-gradient-from), #14141F var(--tw-gradient-via-position), var(--tw-gradient-to); }
+html.dark .to-\[\#F5F3FF\] { --tw-gradient-to: #0F0F18 var(--tw-gradient-to-position); }
+html.dark .text-seoul-black, html.dark .text-gray-900, html.dark .hover\:text-seoul-black:hover, html.dark .hover\:text-gray-900:hover { color: #F2F2F7; }
+html.dark .text-gray-800 { color: #E4E4EC; }
+html.dark .text-gray-700 { color: #CFCFDA; }
+html.dark .text-gray-600 { color: #B3B3C2; }
+html.dark .text-gray-500 { color: #9595A8; }
+html.dark .text-black\/30 { color: rgba(255,255,255,.3); }
+html.dark .text-seoul-black\/10 { color: rgba(242,242,247,.10); }
+html.dark .text-seoul-black\/20 { color: rgba(242,242,247,.20); }
+html.dark .text-seoul-black\/25 { color: rgba(242,242,247,.25); }
+html.dark .text-seoul-black\/30 { color: rgba(242,242,247,.30); }
+html.dark .text-seoul-black\/35 { color: rgba(242,242,247,.35); }
+html.dark .text-seoul-black\/40 { color: rgba(242,242,247,.40); }
+html.dark .text-seoul-black\/45 { color: rgba(242,242,247,.45); }
+html.dark .text-seoul-black\/50 { color: rgba(242,242,247,.50); }
+html.dark .text-seoul-black\/55 { color: rgba(242,242,247,.55); }
+html.dark .text-seoul-black\/60 { color: rgba(242,242,247,.60); }
+html.dark .text-seoul-black\/70 { color: rgba(242,242,247,.70); }
+html.dark .text-seoul-black\/75 { color: rgba(242,242,247,.75); }
+html.dark .text-seoul-black\/80 { color: rgba(242,242,247,.80); }
+html.dark .text-seoul-black\/85 { color: rgba(242,242,247,.85); }
+html.dark .text-seoul-red, html.dark .hover\:text-seoul-red:hover, html.dark .text-\[\#3D2EE8\], html.dark .text-\[\#4236F6\] { color: #8B85FF; }
+html.dark .text-seoul-blue, html.dark .text-\[\#003478\] { color: #7FB2FF; }
+html.dark .text-gradient-red { background: linear-gradient(135deg, #8B85FF 0%, #B0ACFF 100%); -webkit-background-clip: text; background-clip: text; }
+html.dark .border-seoul-red { border-color: #6D63FF; }
+html.dark .border-gray-100 { border-color: rgba(255,255,255,.07); }
+html.dark .border-gray-200 { border-color: rgba(255,255,255,.12); }
+html.dark .border-gray-300, html.dark .hover\:border-gray-300:hover { border-color: rgba(255,255,255,.2); }
+html.dark .border-seoul-black, html.dark .border-black { border-color: rgba(242,242,247,.8); }
+html.dark .border-seoul-black\/10 { border-color: rgba(255,255,255,.10); }
+html.dark .border-seoul-black\/15 { border-color: rgba(255,255,255,.15); }
+html.dark .border-black\/10, html.dark .hover\:border-black\/10:hover { border-color: rgba(255,255,255,.10); }
+html.dark .border-black\/15, html.dark .hover\:border-black\/15:hover { border-color: rgba(255,255,255,.15); }
+html.dark .border-black\/30, html.dark .hover\:border-black\/30:hover { border-color: rgba(255,255,255,.30); }
+html.dark .divide-gray-100 > :not([hidden]) ~ :not([hidden]), html.dark .divide-gray-200 > :not([hidden]) ~ :not([hidden]) { border-color: rgba(255,255,255,.1); }
+html.dark .hover\:bg-seoul-black:hover { background-color: #F2F2F7; color: #0a0a0f; }
+html.dark .shadow-sm, html.dark .shadow-md, html.dark .shadow-lg, html.dark .shadow-xl, html.dark .shadow-2xl { --tw-shadow-color: rgba(0,0,0,.55); --tw-shadow: var(--tw-shadow-colored); }
+html.dark img.logo-invert { filter: brightness(0) invert(1); }

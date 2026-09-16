@@ -26,6 +26,7 @@ function CourseCard({ curso, index, pais, paisCorto }: { curso: Curso; index: nu
   const profe = profeDe(clases[0].profeId);
   const esNinos = curso.grupo === 'ninos';
   const color = index % 2 === 0 ? '#3D2EE8' : '#003478';
+  const colorTxt = index % 2 === 0 ? 'var(--as-azul-txt)' : 'var(--as-navy-txt)'; // se aclara en modo noche
   const horario = `${horarioDe(curso.cursoId, pais)}${pais !== 'chile' ? ` ${paisCorto}` : ' Chile'}`;
 
   return (
@@ -72,7 +73,7 @@ function CourseCard({ curso, index, pais, paisCorto }: { curso: Curso; index: nu
       {curso.requiere && <div className="text-[11px] text-seoul-black/45">Requiere {curso.requiere}</div>}
 
       <a href={`/nivel-1?clase=${primeraClaseDe(curso.cursoId)}#clases`} className="mt-1 flex items-center justify-between group/btn">
-        <span className="text-sm font-semibold group-hover/btn:underline underline-offset-2" style={{ color }}>
+        <span className="text-sm font-semibold group-hover/btn:underline underline-offset-2" style={{ color: colorTxt }}>
           {esNinos ? 'Inscribir a mi hijo/a' : `Inscribirme en ${curso.nombreCorto.split(' (')[0]}`}
         </span>
         <span className="w-8 h-8 rounded-full flex items-center justify-center text-white group-hover/btn:scale-110 transition-transform duration-200" style={{ background: color }}>→</span>

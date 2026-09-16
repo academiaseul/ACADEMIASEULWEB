@@ -350,7 +350,7 @@ export default function Nivel1Page() {
       />
 
       {/* Paso 0 · ¿Qué curso tomo? + grilla */}
-      <section id="clases" className="py-16" style={{ backgroundColor: "#F5F3FF" }}>
+      <section id="clases" className="py-16 bg-[#F5F3FF]">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">¿Qué curso tomo?</h2>
           <p className="text-gray-600 text-center mb-8">Toca tu caso y te decimos tu peldaño — o elige directo en el horario.</p>
@@ -444,7 +444,7 @@ export default function Nivel1Page() {
             <form onSubmit={handleInscribir} className="bg-[#F5F3FF] rounded-3xl p-6 md:p-8 border border-[#E5E1FB] space-y-4">
               {esNinos && (
                 <>
-                  <div className="text-xs font-bold tracking-widest uppercase" style={{ color: "#3D2EE8" }}>Datos del apoderado/a</div>
+                  <div className="text-xs font-bold tracking-widest uppercase" style={{ color: "var(--as-azul-txt)" }}>Datos del apoderado/a</div>
                   <div>
                     <label className={label}>Nombre del apoderado/a *</label>
                     <input type="text" value={form.apoderado} onChange={(e) => setForm({ ...form, apoderado: e.target.value })} placeholder="Tu nombre y apellido" className={input} />
@@ -466,7 +466,7 @@ export default function Nivel1Page() {
                 <input type="text" value={form.pais} onChange={(e) => setForm({ ...form, pais: e.target.value })} placeholder={`Ej: ${info.corto === "Chile" ? "Chile, Santiago" : info.corto + ", ciudad"}`} className={input} />
               </div>
 
-              {esNinos && <div className="text-xs font-bold tracking-widest uppercase pt-2" style={{ color: "#3D2EE8" }}>Datos del alumno/a</div>}
+              {esNinos && <div className="text-xs font-bold tracking-widest uppercase pt-2" style={{ color: "var(--as-azul-txt)" }}>Datos del alumno/a</div>}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className={label}>{esNinos ? "Nombre del niño/a *" : "Nombre completo *"}</label>
@@ -514,7 +514,7 @@ export default function Nivel1Page() {
                 <textarea value={form.motivacion} onChange={(e) => setForm({ ...form, motivacion: e.target.value })} rows={3} placeholder="K-pop, K-drama, un viaje, trabajo, la cultura... ¡Nos ayuda a conocerte! 💜" className={`${input} resize-none`} />
               </div>
 
-              {formError && <p className="text-sm font-medium" style={{ color: "#3D2EE8" }}>{formError}</p>}
+              {formError && <p className="text-sm font-medium" style={{ color: "var(--as-azul-txt)" }}>{formError}</p>}
 
               <button type="submit" disabled={submitting} className="w-full py-4 rounded-full text-white font-bold text-lg hover:scale-[1.02] transition disabled:opacity-60" style={{ backgroundColor: "#3D2EE8" }}>
                 {submitting ? "Enviando..." : `Reservar cupo en ${curso.nombreCorto.split(" (")[0]} →`}
@@ -550,16 +550,16 @@ export default function Nivel1Page() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               <button type="button" onClick={() => setPlan("unico")} className={`p-6 rounded-2xl border-2 text-center transition ${plan === "unico" ? "border-[#3D2EE8] bg-[#F5F3FF] shadow-md" : "border-gray-200 hover:border-gray-300"}`}>
                 <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">PAGO ÚNICO</div>
-                <div className="text-4xl md:text-5xl font-bold" style={{ color: "#3D2EE8" }}>US${PRECIO_UNICO}</div>
+                <div className="text-4xl md:text-5xl font-bold" style={{ color: "var(--as-azul-txt)" }}>US${PRECIO_UNICO}</div>
                 <div className="text-sm text-gray-600 mt-2">El curso completo de 8 semanas{desdeChile ? ` · ${clpRef(PRECIO_UNICO)}` : ""}</div>
-                {plan === "unico" && <div className="mt-3 text-xs font-bold" style={{ color: "#3D2EE8" }}>✓ Seleccionado</div>}
+                {plan === "unico" && <div className="mt-3 text-xs font-bold" style={{ color: "var(--as-azul-txt)" }}>✓ Seleccionado</div>}
               </button>
               <button type="button" onClick={() => setPlan("mensual")} className={`p-6 rounded-2xl border-2 text-center transition ${plan === "mensual" ? "border-[#3D2EE8] bg-[#F5F3FF] shadow-md" : "border-gray-200 hover:border-gray-300"}`}>
                 <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">{MESES} CUOTAS</div>
-                <div className="text-4xl md:text-5xl font-bold" style={{ color: "#3D2EE8" }}>{MESES} × US${PRECIO_MENSUAL}</div>
+                <div className="text-4xl md:text-5xl font-bold" style={{ color: "var(--as-azul-txt)" }}>{MESES} × US${PRECIO_MENSUAL}</div>
                 <div className="text-sm text-gray-600 mt-2">Una al inscribirte y otra al inicio del mes 2{desdeChile ? ` · ${clpRef(PRECIO_MENSUAL)} c/u` : ""}</div>
                 {!desdeChile && !PAYPAL_LINK_MENSUAL && <div className="text-xs text-gray-500 mt-1">Fuera de Chile se coordina por WhatsApp</div>}
-                {plan === "mensual" && <div className="mt-3 text-xs font-bold" style={{ color: "#3D2EE8" }}>✓ Seleccionado</div>}
+                {plan === "mensual" && <div className="mt-3 text-xs font-bold" style={{ color: "var(--as-azul-txt)" }}>✓ Seleccionado</div>}
               </button>
             </div>
 
@@ -577,7 +577,7 @@ export default function Nivel1Page() {
                   `Grupo chico (máx. ${clase.cupos})`,
                   esNinos ? "Grupo de WhatsApp solo para apoderados" : "Comunidad de alumnos por WhatsApp/Discord",
                 ].map((item) => (
-                  <li key={item} className="flex gap-3 items-start"><span style={{ color: "#3D2EE8" }} className="font-bold">✓</span><span className="text-gray-700">{item}</span></li>
+                  <li key={item} className="flex gap-3 items-start"><span style={{ color: "var(--as-azul-txt)" }} className="font-bold">✓</span><span className="text-gray-700">{item}</span></li>
                 ))}
               </ul>
             </div>
@@ -623,7 +623,7 @@ export default function Nivel1Page() {
                     {payLoading ? "Abriendo pago seguro…" : `💳 Mercado Pago (${planLabel})`}
                   </button>
                   <p className="text-center text-xs text-gray-500 -mt-1">Se cobra en pesos chilenos; tu banco puede cobrar comisión por cambio de moneda.</p>
-                  <p className="text-center text-xs text-gray-500">¿Prefieres transferencia internacional? <a href={waTransfer} target="_blank" rel="noopener noreferrer" className="underline font-semibold" style={{ color: "#3D2EE8" }}>Escríbenos por WhatsApp</a>.</p>
+                  <p className="text-center text-xs text-gray-500">¿Prefieres transferencia internacional? <a href={waTransfer} target="_blank" rel="noopener noreferrer" className="underline font-semibold" style={{ color: "var(--as-azul-txt)" }}>Escríbenos por WhatsApp</a>.</p>
                 </>
               )}
 

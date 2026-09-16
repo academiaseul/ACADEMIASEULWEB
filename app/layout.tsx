@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
+import { PrefsProvider, THEME_INIT_SCRIPT } from '@/lib/prefs';
 import MetaPixel from '@/components/MetaPixel';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import MicrosoftClarity from '@/components/MicrosoftClarity';
@@ -65,8 +66,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className={`${inter.variable} ${dmSerifDisplay.variable}`}>
+    <html lang="es" className={`${inter.variable} ${dmSerifDisplay.variable}`} suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -75,8 +77,10 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-seoul-black antialiased overflow-x-hidden">
+        <PrefsProvider>
         {children}
         <WhatsAppFloat />
+        </PrefsProvider>
 
         {/* Analytics (cargan solo si las env vars existen) */}
         <Suspense fallback={null}>

@@ -38,6 +38,8 @@ export const metadata: Metadata = {
 };
 
 const AZUL = "#3D2EE8";
+// Texto/borde azul: en modo noche se aclara (ver html.dark en globals.css).
+const AZUL_TXT = "var(--as-azul-txt, #3D2EE8)";
 
 export default function ProgramaPage() {
   const orden = [...CURSOS].sort((a, b) => (a.paso === 0 ? 99 : a.paso) - (b.paso === 0 ? 99 : b.paso));
@@ -167,7 +169,7 @@ export default function ProgramaPage() {
                   <h3 className="font-bold text-gray-900 mb-2">Al terminar vas a poder:</h3>
                   <ul className="space-y-1.5 mb-6">
                     {curso.logros.map((l) => (
-                      <li key={l} className="flex gap-2 text-sm text-gray-700"><span className="font-bold" style={{ color: AZUL }}>✓</span><span>{l}</span></li>
+                      <li key={l} className="flex gap-2 text-sm text-gray-700"><span className="font-bold" style={{ color: AZUL_TXT }}>✓</span><span>{l}</span></li>
                     ))}
                   </ul>
 
@@ -175,7 +177,7 @@ export default function ProgramaPage() {
                     <a href={`/nivel-1?clase=${primeraClaseDe(curso.cursoId)}#clases`} className="inline-block text-center px-7 py-3 rounded-full text-white font-bold hover:scale-105 transition" style={{ backgroundColor: AZUL }}>
                       {curso.grupo === "ninos" ? "Inscribir a mi hijo/a →" : `Inscribirme en ${curso.nombreCorto.split(" (")[0]} →`}
                     </a>
-                    <a href={pdfDe(curso.cursoId)} download className="inline-block text-center px-7 py-3 rounded-full font-bold border-2 hover:bg-white transition" style={{ borderColor: AZUL, color: AZUL }}>📄 Programa PDF</a>
+                    <a href={pdfDe(curso.cursoId)} download className="inline-block text-center px-7 py-3 rounded-full font-bold border-2 hover:bg-white transition" style={{ borderColor: AZUL_TXT, color: AZUL_TXT }}>📄 Programa PDF</a>
                   </div>
                 </div>
 
@@ -214,25 +216,25 @@ export default function ProgramaPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Un solo precio para todos los cursos</h2>
           <p className="text-gray-600 mb-10">{precioLabel()} — sin importar el nivel.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mb-10">
-            <div className="rounded-2xl border-2 bg-white p-6" style={{ borderColor: AZUL }}>
+            <div className="rounded-2xl border-2 bg-white p-6" style={{ borderColor: AZUL_TXT }}>
               <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">PAGO ÚNICO</div>
-              <div className="text-5xl font-bold" style={{ color: AZUL }}>US${PRECIO_UNICO}</div>
+              <div className="text-5xl font-bold" style={{ color: AZUL_TXT }}>US${PRECIO_UNICO}</div>
               <div className="text-sm text-gray-600 mt-2">El curso completo de 8 semanas</div>
             </div>
             <div className="rounded-2xl border-2 border-gray-200 bg-white p-6">
               <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">{MESES} CUOTAS</div>
-              <div className="text-5xl font-bold" style={{ color: AZUL }}>{MESES} × US${PRECIO_MENSUAL}</div>
+              <div className="text-5xl font-bold" style={{ color: AZUL_TXT }}>{MESES} × US${PRECIO_MENSUAL}</div>
               <div className="text-sm text-gray-600 mt-2">Una al inscribirte, otra al inicio del mes 2</div>
             </div>
           </div>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-w-2xl mx-auto text-left mb-10">
             {["8 clases en vivo por Zoom de 60 min", "Certificado de Academia Seúl incluido", "Grabación de cada clase", "Slides + hojas de actividad", "Lector de Hangul con audio nativo", "Grupos chicos con corrección personal"].map((i) => (
-              <li key={i} className="flex gap-2 text-sm text-gray-700"><span className="font-bold" style={{ color: AZUL }}>✓</span>{i}</li>
+              <li key={i} className="flex gap-2 text-sm text-gray-700"><span className="font-bold" style={{ color: AZUL_TXT }}>✓</span>{i}</li>
             ))}
           </ul>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="/nivel-1#clases" className="px-8 py-4 rounded-full text-white font-bold text-lg hover:scale-105 transition" style={{ backgroundColor: AZUL }}>Inscribirme · Octubre 2026 →</a>
-            <a href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola Jay! Vi el programa de octubre y tengo una duda sobre qué curso me conviene.")}`} target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full font-bold text-lg border-2 bg-white hover:bg-[#F5F3FF] transition" style={{ borderColor: AZUL, color: AZUL }}>💬 ¿Qué nivel me conviene?</a>
+            <a href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola Jay! Vi el programa de octubre y tengo una duda sobre qué curso me conviene.")}`} target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full font-bold text-lg border-2 bg-white hover:bg-[#F5F3FF] transition" style={{ borderColor: AZUL_TXT, color: AZUL_TXT }}>💬 ¿Qué nivel me conviene?</a>
           </div>
         </div>
       </section>
