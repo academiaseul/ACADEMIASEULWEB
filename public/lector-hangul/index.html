@@ -355,6 +355,34 @@
   .btn.primary{box-shadow:0 4px 14px rgba(66,54,246,.25)}
   .grid-jamo button{min-width:50px;height:50px;font-size:1.4rem}
   .grid-jamo button:active{transform:scale(.95);border-color:var(--red)}
+
+  /* ===== Diagrama de sílaba (piezas de colores) ===== */
+  :root{--p-cho:#4236F6;--p-cho-bg:rgba(66,54,246,.13);--p-jung:#B8860B;--p-jung-bg:rgba(212,175,55,.20);--p-jong:#2F7D46;--p-jong-bg:rgba(47,125,70,.14)}
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){--p-cho:#9C97FF;--p-cho-bg:rgba(139,133,255,.18);--p-jung:#E3C55A;--p-jung-bg:rgba(217,184,74,.18);--p-jong:#6FCB92;--p-jong-bg:rgba(88,180,124,.18)} }
+  :root[data-theme="dark"]{--p-cho:#9C97FF;--p-cho-bg:rgba(139,133,255,.18);--p-jung:#E3C55A;--p-jung-bg:rgba(217,184,74,.18);--p-jong:#6FCB92;--p-jong-bg:rgba(88,180,124,.18)}
+  .sd{display:grid;gap:3px;width:96px;aspect-ratio:1;padding:4px;border:2px solid var(--line);border-radius:14px;background:var(--card);flex:none}
+  .sd.lg{width:132px}
+  .sd .c{display:flex;align-items:center;justify-content:center;border-radius:8px;font-family:"Noto Sans KR";font-weight:700;font-size:1.25rem;line-height:1;border:2px solid transparent}
+  .sd.lg .c{font-size:1.7rem}
+  .sd .cho{background:var(--p-cho-bg);color:var(--p-cho);border-color:var(--p-cho)}
+  .sd .jung{background:var(--p-jung-bg);color:var(--p-jung);border-color:var(--p-jung)}
+  .sd .jong{background:var(--p-jong-bg);color:var(--p-jong);border-color:var(--p-jong)}
+  .sd .blank{background:transparent}
+  .sdleg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.85rem;margin:6px 0 10px}
+  .sdleg span{display:inline-flex;align-items:center;gap:6px}
+  .sdleg i{display:inline-block;width:14px;height:14px;border-radius:4px;border:2px solid}
+  .sdleg .k1{background:var(--p-cho-bg);border-color:var(--p-cho)} .sdleg .k2{background:var(--p-jung-bg);border-color:var(--p-jung)} .sdleg .k3{background:var(--p-jong-bg);border-color:var(--p-jong)}
+  .formas{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+  .forma{display:flex;align-items:center;gap:10px;background:var(--card-2);border:1px solid var(--line);border-radius:14px;padding:10px;cursor:pointer;text-align:left;color:var(--ink);font:inherit}
+  .forma:hover{border-color:var(--red)} .forma:active{transform:scale(.98)}
+  .forma .eq{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0}
+  .forma .g{font-family:"Noto Sans KR";font-size:2.3rem;line-height:1;font-weight:500}
+  .forma .rr{font-weight:800;color:var(--red);font-size:.95rem}
+  .forma .lb{font-size:.78rem;color:var(--muted);line-height:1.2;text-align:center}
+  .forma .sound{margin-left:auto;width:38px;height:38px;font-size:1rem}
+  .sylstage{display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap}
+  .sylstage .arrow{font-size:1.6rem;color:var(--muted)}
+  .sd .c .part{font-size:.62em;opacity:.8}
 </style>
 <style>
   .site-top{background:var(--card);border-bottom:1px solid var(--line)}
@@ -438,6 +466,14 @@
       y <span class="kr">ㄹ</span> es una r suave, nunca la r fuerte de «perro» — <button class="exbtn" onclick="exPlay(this,'라면')">라면</button>.</div>
   </div>
 
+  <div class="card" id="formas">
+    <h3 style="margin-top:0">Cómo se arma una sílaba: las 6 formas del bloque</h3>
+    <p class="subtle" style="margin-top:-4px">Cada pieza tiene su color. La vocal decide la forma: si es <b>vertical</b> (<span class="kr">ㅏㅓㅣ…</span>) va a la derecha; si es <b>horizontal</b> (<span class="kr">ㅗㅜㅡ</span>) va debajo; las <b>compuestas</b> envuelven. El batchim siempre va abajo. Toca para oír.</p>
+    <div class="sdleg"><span><i class="k1"></i> consonante inicial</span><span><i class="k2"></i> vocal</span><span><i class="k3"></i> batchim (consonante final)</span></div>
+    <div class="formas" id="formasGrid"></div>
+    <p style="text-align:center;margin-top:14px"><button class="btn primary" onclick="goLesson5()">Arma tu propia sílaba con colores →</button></p>
+  </div>
+
   <div class="card">
     <div class="seg" role="tablist" aria-label="Vocales o consonantes">
       <button role="tab" id="seg-v" aria-pressed="true" onclick="renderAlfa('v')">Las 21 vocales</button>
@@ -505,7 +541,7 @@
     <p style="text-align:center"><button class="btn primary" onclick="startDrill('fue')">Practicar aspiradas y tensas →</button></p>
   </details>
 
-  <details class="card lesson">
+  <details class="card lesson" id="lesson5">
     <summary><span class="lnum">5</span> Arma bloques, no letras sueltas <span class="chev">›</span></summary>
     <p>El coreano no escribe letras en fila: las <b>apila en bloques</b>. Cada bloque = una sílaba. Arma la tuya — <b>cada pieza que toques suena combinada</b>:</p>
     <div class="picklbl">1 · Consonante inicial</div>
@@ -514,7 +550,10 @@
     <div class="pick" id="pickJung"></div>
     <div class="picklbl">3 · Consonante final (받침 · opcional)</div>
     <div class="pick" id="pickJong"></div>
-    <div class="stage">
+    <div class="sdleg"><span><i class="k1"></i> inicial</span><span><i class="k2"></i> vocal</span><span><i class="k3"></i> batchim</span></div>
+    <div class="stage sylstage">
+      <div id="sylDiag"></div>
+      <span class="arrow">=</span>
       <div>
         <div class="glyph g-xl kr" id="sylOut">가</div>
         <div id="sylRom" class="subtle" style="font-size:1.1rem;font-weight:700"></div>
@@ -983,6 +1022,51 @@ function renderFams(){
   }).join("");
 }
 
+
+/* ================= Diagrama de sílaba (piezas de colores) ================= */
+const SD_VERT  = ["ㅏ","ㅑ","ㅓ","ㅕ","ㅣ","ㅐ","ㅔ","ㅒ","ㅖ"];
+const SD_HORIZ = ["ㅗ","ㅛ","ㅜ","ㅠ","ㅡ"];
+const SD_COMP  = {"ㅘ":["ㅗ","ㅏ"],"ㅙ":["ㅗ","ㅐ"],"ㅚ":["ㅗ","ㅣ"],"ㅝ":["ㅜ","ㅓ"],"ㅞ":["ㅜ","ㅔ"],"ㅟ":["ㅜ","ㅣ"],"ㅢ":["ㅡ","ㅣ"]};
+function sylType(jung, jong){
+  const base = SD_VERT.includes(jung) ? "vertical" : SD_HORIZ.includes(jung) ? "horizontal" : "compuesta";
+  return base + (jong ? "+batchim" : "");
+}
+function sylDiagram(cho, jung, jong, lg){
+  const c = '<div class="c cho">'+cho+'</div>';
+  const j = (x) => '<div class="c jung">'+x+'</div>';
+  const b = jong ? '<div class="c jong" style="grid-column:1 / -1">'+jong+'</div>' : '';
+  let cols, body;
+  if (SD_VERT.includes(jung)){ cols = "1fr 1fr"; body = c + j(jung) + b; }
+  else if (SD_HORIZ.includes(jung)){ cols = "1fr"; body = c + j(jung) + b; }
+  else { const p = SD_COMP[jung] || [jung, ""]; cols = "1fr 1fr";
+    body = '<div class="c cho" style="grid-column:1;grid-row:1">'+cho+'</div>' +
+      '<div class="c jung" style="grid-column:2;grid-row:1 / span 2">'+p[1]+'</div>' +
+      '<div class="c jung" style="grid-column:1;grid-row:2">'+p[0]+'</div>' +
+      (jong ? '<div class="c jong" style="grid-column:1 / -1;grid-row:3">'+jong+'</div>' : ''); }
+  return '<div class="sd'+(lg?' lg':'')+'" style="grid-template-columns:'+cols+'" aria-hidden="true">'+body+'</div>';
+}
+const FORMAS = [
+  {cho:"ㄱ",jung:"ㅏ",jong:"", g:"가", r:"ga",  lb:"consonante + vocal vertical → lado a lado"},
+  {cho:"ㄱ",jung:"ㅗ",jong:"", g:"고", r:"go",  lb:"consonante + vocal horizontal → apilados"},
+  {cho:"ㄱ",jung:"ㅘ",jong:"", g:"과", r:"gwa", lb:"consonante + vocal compuesta → la envuelve"},
+  {cho:"ㅎ",jung:"ㅏ",jong:"ㄴ", g:"한", r:"han", lb:"vertical + batchim abajo"},
+  {cho:"ㅁ",jung:"ㅜ",jong:"ㄹ", g:"물", r:"mul", lb:"horizontal + batchim abajo"},
+  {cho:"ㅇ",jung:"ㅝ",jong:"ㄴ", g:"원", r:"won", lb:"compuesta + batchim (ㅇ inicial muda)"}
+];
+function renderFormas(){
+  const el = document.getElementById("formasGrid"); if (!el) return;
+  el.innerHTML = FORMAS.map((f,i) => '<button class="forma" onclick="formaTap('+i+',this)">'+sylDiagram(f.cho,f.jung,f.jong)+
+    '<div class="eq"><span class="g kr">'+f.g+'</span><span class="rr">'+f.r+'</span><span class="lb">'+f.lb+'</span></div>'+
+    '<span class="sound" aria-hidden="true">🔊</span></button>').join("");
+}
+function formaTap(i, btn){ const f = FORMAS[i]; speak(f.g); if (btn){ btn.style.borderColor = "var(--red)"; setTimeout(()=>btn.style.borderColor="", 600); } }
+function goLesson5(){
+  showTab("learn");
+  const d = document.getElementById("lesson5"); if (!d) return;
+  d.open = true;
+  setTimeout(()=>d.scrollIntoView({behavior:"smooth", block:"start"}), 60);
+}
+
 /* ================= L5: syllable builder ================= */
 let sCho = "ㄱ", sJung = "ㅏ", sJong = "";
 const BUILD_CHO  = ["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
@@ -1007,6 +1091,7 @@ function renderSyl(){
   const syl = compose(sCho, sJung, sJong);
   document.getElementById("sylOut").textContent = syl;
   document.getElementById("sylRom").textContent = romSyl(sCho, sJung, sJong) || "—";
+  const dg = document.getElementById("sylDiag"); if (dg) dg.innerHTML = sylDiagram(sCho, sJung, sJong, true);
   const vertical = ["ㅏ","ㅑ","ㅓ","ㅕ","ㅣ","ㅐ","ㅔ","ㅒ","ㅖ"].includes(sJung);
   const horizontal = ["ㅗ","ㅛ","ㅜ","ㅠ","ㅡ"].includes(sJung);
   const tail = sJong ? ' y el batchim <b>abajo</b>.' : '.';
@@ -1462,6 +1547,7 @@ function renderCompVowels(){
   ).join("");
 }
 renderAlfa("v");
+renderFormas();
 renderCompVowels();
 renderNum();
 vSetBase("i");
