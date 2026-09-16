@@ -63,7 +63,7 @@ function resultFor(score: number) {
     return {
       tier: 'Principiante total',
       emoji: '🌱',
-      text: 'Estás partiendo desde cero — el lugar perfecto para empezar bien. Básico 1 (A1.1) te enseña a leer hangul en la primera semana y a construir tus primeras frases. Martes o jueves 20:00 (Chile), desde el 5 de octubre.',
+      text: 'Estás partiendo desde cero — el lugar perfecto para empezar bien. Básico 1 (A1.1) te enseña a leer hangul en la primera semana y a construir tus primeras frases. Martes o jueves 20:00 (Chile), desde la semana del 5 de octubre.',
       rec: 'Básico 1 (A1.1) · desde cero',
     };
   if (score <= 7)
@@ -76,8 +76,8 @@ function resultFor(score: number) {
   return {
     tier: 'Tienes bases',
     emoji: '🔥',
-    text: 'Vas bien. Básico 2 (A1.2, miércoles 21:00) te lleva al pasado y al futuro; si ya conversas, el Conversacional A2.1 con profesora nativa (martes 21:00) es para ti. ¿Vas por el examen? Preparación TOPIK II, jueves 21:00.',
-    rec: 'Básico 2 (A1.2) · Conversacional A2.1 · o TOPIK II',
+    text: 'Vas bien. Básico 2 (A1.2, miércoles 21:00) te lleva al pasado y al futuro; si ya conversas, Conversacional 1 (A2.1) con profesora nativa (martes 21:00) es para ti. ¿Vas por el examen? TOPIK II (B1+), jueves 21:00.',
+    rec: 'Básico 2 (A1.2) · Conversacional 1 (A2.1) · o TOPIK II (B1+)',
   };
 }
 
@@ -270,7 +270,7 @@ export default function TestNivelPage() {
                 href="/nivel-1#clases"
                 className="inline-block bg-seoul-red text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition"
               >
-                Inscribirme · desde el 5 de octubre →
+                Inscribirme · Octubre 2026 →
               </a>
               <a
                 href="/recursos/guias"

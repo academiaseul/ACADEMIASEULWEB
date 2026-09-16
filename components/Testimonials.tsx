@@ -292,7 +292,7 @@ export default function Testimonials() {
               <div className="text-2xl font-bold text-seoul-black font-korean">{'김재희'}</div>
               <div className="text-sm text-seoul-black/60 mt-1">Jay Chingu</div>
               <div className="text-xs uppercase tracking-widest text-seoul-red mt-3 font-semibold">
-                Fundador / Profesor
+                Fundador y profesor
               </div>
             </div>
 
@@ -384,7 +384,7 @@ export default function Testimonials() {
             href="/nivel-1#clases"
             className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm group"
           >
-            Inscribirme · Clases desde el 5 de octubre
+            Inscribirme · Octubre 2026
             <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
           </a>
         </motion.div>

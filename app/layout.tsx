@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     template: '%s | Academia Seúl',
   },
   description:
-    'Aprende coreano desde cero con clases en vivo por Zoom. Profesor nativo, grupos pequeños con cupos limitados, método Chingu. Para LATAM y España.',
+    'Aprende coreano desde cero con clases en vivo por Zoom. Profesores nativos, grupos pequeños con cupos limitados, Método Chingu™. Para LATAM, España y EE.UU.',
   keywords: [
     'clases de coreano online',
     'aprender coreano',
@@ -40,11 +40,10 @@ export const metadata: Metadata = {
     'hangul',
     'k-pop aprender coreano',
   ],
-  alternates: { canonical: '/' },
   openGraph: {
     title: 'Academia Seúl | Aprende Coreano Online con Clases en Vivo',
     description:
-      'Clases de coreano en vivo con profesor nativo. Grupos pequeños, método Korea Foundation. LATAM y España.',
+      'Clases de coreano en vivo con profesores nativos. Grupos pequeños, Método Chingu™. Matrícula octubre 2026 · LATAM, España y EE.UU.',
     url: 'https://www.academiaseul.com',
     type: 'website',
     locale: 'es_CL',
@@ -54,7 +53,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Academia Seúl | Aprende Coreano Online',
-    description: 'Clases de coreano en vivo con profesor nativo. LATAM y España.',
+    description: 'Clases de coreano en vivo con profesores nativos. LATAM, España y EE.UU.',
     images: ['/og-image.png'],
   },
   robots: { index: true, follow: true },

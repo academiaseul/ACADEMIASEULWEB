@@ -5,10 +5,16 @@ import Footer from "@/components/Footer";
 import { faqs } from "@/components/FAQ";
 
 export const metadata: Metadata = {
-  title: "Preguntas frecuentes (FAQ) | Academia Seúl",
+  title: "Preguntas frecuentes (FAQ)",
   description:
     "Resolvemos todas tus dudas sobre las clases de coreano de Academia Seúl: niveles, precios, horarios, pagos, certificado y más.",
   alternates: { canonical: "https://www.academiaseul.com/faq" },
+  openGraph: {
+    title: "Preguntas frecuentes · Academia Seúl",
+    description: "Niveles, precios, horarios, pagos y certificado de los cursos de coreano en vivo.",
+    url: "https://www.academiaseul.com/faq",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Academia Seúl" }],
+  },
 };
 
 export default function FAQPage() {
@@ -62,10 +68,12 @@ export default function FAQPage() {
       <section className="text-center pb-24 px-6">
         <p className="text-gray-500 text-sm mb-4">¿Tienes otra duda?</p>
         <a
-          href="/#contact"
+          href="https://wa.me/56942115562?text=Hola%20Jay!%20Vi%20academiaseul.com%20y%20tengo%20una%20duda%20sobre%20los%20cursos%20de%20coreano."
+            target="_blank"
+            rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold rounded-lg transition-all duration-300 text-sm"
         >
-          Escríbenos →
+          Escríbenos por WhatsApp →
         </a>
       </section>
 

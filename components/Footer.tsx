@@ -17,8 +17,8 @@ const footerLinks = {
     { label: 'Inscripción octubre 2026', href: '/nivel-1#clases' },
   ],
   Academia: [
-    { label: 'Sobre nosotros',         href: '/#about' },
-    { label: 'Nuestro método',         href: '/#about' },
+    { label: 'Sobre nosotros',         href: '/sobre' },
+    { label: 'Nuestro método',         href: '/#metodo' },
     { label: 'Por qué Academia Seúl',  href: '/#testimonials' },
     { label: 'Cultura coreana',        href: '/#culture' },
     { label: 'Blog',                   href: '/blog' },

@@ -98,10 +98,10 @@ export default function MetodoChingu() {
           className="mt-14 text-center"
         >
           <a
-            href="/nivel-1"
+            href="/nivel-1#clases"
             className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-seoul-red/40"
           >
-            Aprende con el Método Chingu →
+            Inscribirme · Octubre 2026 →
           </a>
         </motion.div>
       </div>

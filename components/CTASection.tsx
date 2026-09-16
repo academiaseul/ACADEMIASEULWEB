@@ -87,7 +87,7 @@ export default function CTASection() {
             className="group relative px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-[#2C1FB0] transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
           >
             <span className="relative z-10">
-              Inscribirme · semana del 5 de octubre →
+              Inscribirme · Octubre 2026 →
             </span>
           </a>
           <a
@@ -108,7 +108,7 @@ export default function CTASection() {
           {[
             '✓ US$150 el curso · o 2 cuotas de US$75',
             '✓ Grabaciones incluidas',
-            '✓ Máx. 15 alumnos (12 en Niños)',
+            '✓ Máx. 15 alumnos (8 en TOPIK II · 12 en Niños)',
             '✓ Certificado incluido',
           ].map((item) => (
             <span key={item} className="text-sm text-seoul-black/35 font-medium">

@@ -4,7 +4,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "눈치 (nunchi): el arte coreano de leer el ambiente | Academia Seúl",
+  title: "눈치 (nunchi): el arte coreano de leer el ambiente",
   description:
     "Qué es el nunchi (눈치), el 'superpoder' coreano de leer el ambiente y entender lo que nadie dice en voz alta. Su origen cultural, ejemplos del día a día y de los K-dramas, y cómo desarrollarlo.",
   alternates: {
@@ -12,9 +12,14 @@ export const metadata: Metadata = {
       "https://www.academiaseul.com/blog/nunchi-el-arte-coreano-de-leer-el-ambiente",
   },
   openGraph: {
+    type: "article",
     title: "눈치 (nunchi): el arte coreano de leer el ambiente",
     description:
       "El 'superpoder' coreano de entender lo que nadie dice en voz alta — y cómo aprenderlo.",
+    url: "https://www.academiaseul.com/blog/nunchi-el-arte-coreano-de-leer-el-ambiente",
+    siteName: "Academia Seúl",
+    locale: "es_CL",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Academia Seúl" }],
   },
 };
 

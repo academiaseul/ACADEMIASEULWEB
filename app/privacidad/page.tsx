@@ -4,7 +4,14 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Política de Privacidad | Academia Seúl',
+  title: 'Política de Privacidad',
+  alternates: { canonical: 'https://www.academiaseul.com/privacidad' },
+  openGraph: {
+    title: "Política de Privacidad · Academia Seúl",
+    description: "Cómo tratamos tus datos en Academia Seúl.",
+    url: "https://www.academiaseul.com/privacidad",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Academia Seúl" }],
+  },
   description:
     'Política de privacidad y tratamiento de datos personales de Academia Seúl.',
 };
@@ -28,7 +35,7 @@ export default function Privacidad() {
           Política de <span className="text-gradient-red">Privacidad</span>
         </h1>
         <p className="text-white/40 text-sm mb-12">
-          Última actualización: mayo 2026
+          Última actualización: septiembre 2026
         </p>
 
         <div className="space-y-10 text-white/70 leading-relaxed text-[15px]">
@@ -71,12 +78,12 @@ export default function Privacidad() {
                 para aprender, intereses culturales.
               </li>
               <li>
-                <strong>Datos de pago:</strong> procesados por terceros (Stripe, Mercado
-                Pago, PayPal). Nosotros no almacenamos información de tarjetas.
+                <strong>Datos de pago:</strong> procesados por terceros (Mercado Pago, PayPal y,
+                si se habilita, Hotmart). Nosotros no almacenamos información de tarjetas.
               </li>
               <li>
                 <strong>Datos de navegación:</strong> cookies, dirección IP, dispositivo y
-                comportamiento en el sitio (Vercel Analytics, Meta Pixel si activo).
+                comportamiento en el sitio (Google Analytics, Microsoft Clarity y Meta Pixel, cuando están activos).
               </li>
             </ul>
           </section>
@@ -86,7 +93,7 @@ export default function Privacidad() {
               3. Para qué usamos tu información
             </h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Confirmar tu inscripción al taller gratuito y/o a los cursos.</li>
+              <li>Confirmar tu inscripción a los cursos y el acceso a recursos gratuitos (guías, test de nivel).</li>
               <li>Enviarte el material del curso y notificaciones de clases.</li>
               <li>
                 Comunicarte ofertas, contenido educativo y novedades de Academia Seúl
@@ -113,17 +120,17 @@ export default function Privacidad() {
                 inscripción.
               </li>
               <li>
-                <strong>Vercel:</strong> hosting y analytics del sitio web.
+                <strong>Netlify:</strong> hosting del sitio web. <strong>Google Analytics, Meta Pixel y Microsoft Clarity:</strong> analítica de uso, cuando están activos.
               </li>
               <li>
                 <strong>Zoom:</strong> plataforma de clases en vivo.
               </li>
               <li>
-                <strong>Procesadores de pago:</strong> Stripe, Mercado Pago, PayPal según
+                <strong>Procesadores de pago:</strong> Mercado Pago, PayPal o Hotmart según
                 tu elección.
               </li>
               <li>
-                <strong>Plataforma de email:</strong> Mailerlite / Systeme.io para envío de
+                <strong>Plataforma de email:</strong> Brevo para envío de
                 comunicaciones.
               </li>
             </ul>
@@ -186,9 +193,11 @@ export default function Privacidad() {
               8. Menores de edad
             </h2>
             <p>
-              Nuestros servicios están dirigidos a personas de 14 años o más. Si tienes
-              entre 14 y 18 años, necesitas autorización de tu padre, madre o tutor para
-              inscribirte. No recopilamos conscientemente datos de menores de 14 años.
+              Nuestros cursos para adultos están dirigidos a personas de 14 años o más; entre
+              14 y 18 años se requiere autorización de tu padre, madre o tutor. El curso
+              Coreano para Niños (8–12 años) se contrata exclusivamente a través del padre,
+              madre o tutor, quien entrega sus propios datos de contacto y autoriza la
+              participación del menor. No recopilamos datos de menores sin esa autorización.
             </p>
           </section>
 

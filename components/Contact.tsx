@@ -5,8 +5,8 @@ import { motion, useInView } from 'framer-motion';
 import { Phone, Mail, Instagram, MessageCircle, MapPin, Facebook, Youtube } from 'lucide-react';
 import clsx from 'clsx';
 
-const levels = ['Principiante (sin experiencia)', 'Básico A1-A2', 'Intermedio B1-B2', 'Avanzado C1-C2', 'No sé mi nivel'];
-const interests = ['Coreano General', 'K-pop / K-drama', 'Conversación', 'Preparación TOPIK', 'Viaje a Corea', 'Negocios en coreano'];
+const levels = ['Desde cero (nunca estudié)', 'Leo Hangul y me presento (Básico 1 hecho)', 'Fui alumno/a del Nivel 1 de julio', 'Converso algo (A2)', 'Intermedio · voy por el TOPIK II', 'No sé mi nivel'];
+const interests = ['Básico 1 (A1.1) · desde cero', 'Básico 2 (A1.2)', 'Conversacional 1 (A2.1)', 'TOPIK II (B1+)', 'Coreano para Niños (8–12)', 'K-pop / K-drama', 'Viaje a Corea', 'No sé, ayúdenme a elegir'];
 
 const CONTACT_PHONE_DISPLAY = '+56 9 4211 5562';
 const CONTACT_EMAIL = 'hola.academiaseul@gmail.com';

@@ -9,7 +9,7 @@ const organization = {
   name: 'Academia Seúl',
   alternateName: 'Academia Seul',
   url: BASE,
-  logo: `${BASE}/logo.png`,
+  logo: `${BASE}/logo-tiger-red.png`,
   description:
     'Academia online de idioma coreano con clases en vivo para hispanohablantes de Latinoamérica y España. Método Chingu, grupos pequeños y profesores nativos.',
   sameAs: [
@@ -32,8 +32,9 @@ const courses = CURSOS.map((curso) => ({
   url: `${BASE}/programa#${curso.cursoId}`,
   provider: {
     '@type': 'EducationalOrganization',
+    '@id': `${BASE}/#organization`,
     name: 'Academia Seúl',
-    sameAs: BASE,
+    url: BASE,
   },
   hasCourseInstance: CLASES.filter((c) => c.cursoId === curso.cursoId).map((c) => ({
     '@type': 'CourseInstance',

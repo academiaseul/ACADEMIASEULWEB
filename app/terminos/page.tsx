@@ -4,7 +4,14 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Términos y Condiciones | Academia Seúl',
+  title: 'Términos y Condiciones',
+  alternates: { canonical: 'https://www.academiaseul.com/terminos' },
+  openGraph: {
+    title: "Términos y Condiciones · Academia Seúl",
+    description: "Términos de inscripción, pago, reembolso y certificado de los cursos de Academia Seúl.",
+    url: "https://www.academiaseul.com/terminos",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Academia Seúl" }],
+  },
   description:
     'Términos y condiciones de uso de los servicios y cursos de Academia Seúl.',
 };
@@ -37,7 +44,7 @@ export default function Terminos() {
               1. Aceptación de los términos
             </h2>
             <p>
-              Al inscribirte en cualquier curso, taller o servicio de Academia Seúl
+              Al inscribirte en cualquier curso o servicio de Academia Seúl
               (operado por Jae Hee Kim, Santiago de Chile), aceptas estos términos y
               condiciones en su totalidad.
             </p>
@@ -48,9 +55,9 @@ export default function Terminos() {
               2. Servicios ofrecidos
             </h2>
             <p>
-              Academia Seúl ofrece cursos de idioma coreano en distintos niveles, talleres
-              gratuitos y material educativo, principalmente bajo modalidad online en
-              vivo por Zoom y, eventualmente, material complementario descargable.
+              Academia Seúl ofrece cursos de idioma coreano en distintos niveles y recursos
+              educativos gratuitos (Lector de Hangul, guías descargables), principalmente
+              bajo modalidad online en vivo por Zoom.
             </p>
             <p className="mt-3">
               Los cursos se imparten en español, dirigidos a hispanohablantes de Chile,
@@ -113,10 +120,6 @@ export default function Terminos() {
                 Si Academia Seúl cancela una cohorte antes de su inicio, se reembolsa el
                 100% de lo pagado.
               </li>
-              <li>
-                El taller gratuito no genera obligación económica de ninguna parte: es 100%
-                gratuito.
-              </li>
             </ul>
           </section>
 
@@ -153,7 +156,7 @@ export default function Terminos() {
             <ul className="list-disc pl-6 mt-3 space-y-2">
               <li>
                 Recibes tu certificado de Academia Seúl del nivel cursado (Básico 1 · A1.1,
-                Básico 2 · A1.2, Conversacional · A2.1, Preparación TOPIK II o Coreano para
+                Básico 2 · A1.2, Conversacional 1 · A2.1, TOPIK II o Coreano para
                 Niños) al completar la cohorte.
               </li>
               <li>

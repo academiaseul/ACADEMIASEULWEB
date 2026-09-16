@@ -4,10 +4,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Blog | Academia Seúl — Cultura e idioma coreano",
+  title: "Blog · Cultura e idioma coreano",
   description:
     "Artículos sobre la lengua y la cultura coreana: Hangul, historia, K-drama, comida y más. Escrito para hispanohablantes por Academia Seúl.",
   alternates: { canonical: "https://www.academiaseul.com/blog" },
+  openGraph: {
+    title: "Blog · Cultura e idioma coreano · Academia Seúl",
+    description: "Artículos sobre el idioma, la cultura y las palabras intraducibles de Corea.",
+    url: "https://www.academiaseul.com/blog",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Academia Seúl" }],
+  },
 };
 
 const posts = [
@@ -60,7 +66,7 @@ export default function BlogPage() {
             href={`/blog/${post.slug}`}
             className="group block border-2 border-seoul-black bg-white shadow-[6px_6px_0_#0a0a0f] hover:shadow-[10px_10px_0_#3D2EE8] hover:border-seoul-red hover:-translate-x-1 hover:-translate-y-1 transition-all p-8 md:p-10 mb-8"
           >
-            <div className="flex items-center gap-3 text-xs font-bold tracking-wider uppercase mb-4">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-xs font-bold tracking-wider uppercase mb-4">
               <span className="bg-seoul-red text-white px-3 py-1">{post.tag}</span>
               <span className="text-gray-400">{post.date}</span>
               <span className="text-gray-400">· {post.readTime} de lectura</span>

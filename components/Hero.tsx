@@ -171,7 +171,7 @@ export default function Hero() {
           className="mt-8 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/90"
         >
           {[
-            '🇰🇷 Profesor nativo de Seúl',
+            '🇰🇷 Profesores coreanos nativos',
             '🎥 En vivo por Zoom',
             '👥 Grupos pequeños',
             '🌎 LATAM y España',

@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { COHORTE_ABIERTA, precioLabel, INICIO_SEMANA } from "@/lib/nivel1";
 
 const WHATSAPP_NUMBER = "56942115562";
 
@@ -12,15 +13,12 @@ const WHATSAPP_NUMBER = "56942115562";
 const CURSOS_ABIERTOS = new Set(["nivel1", "topik", "ninos", "basico2", "conversacional"]);
 
 const cursoLabels: Record<string, { nombre: string; korean: string }> = {
-  nivel1:        { nombre: "Básico 1 · Primeras Palabras", korean: "첫 한국어" },
-  basico2:       { nombre: "Básico 2 · Tu primer año coreano", korean: "기초 한국어 2" },
-  conversacional:{ nombre: "Conversacional A2.1",   korean: "회화 A2.1" },
-  ninos:         { nombre: "Coreano para Niños",    korean: "어린이 한국어" },
-  topik:         { nombre: "Preparación TOPIK II",  korean: "토픽 II 준비반" },
-  intermedio:    { nombre: "Coreano Intermedio",    korean: "중급 한국어" },
-  avanzado:      { nombre: "Coreano Avanzado",      korean: "고급 한국어" },
-  kpop:          { nombre: "K-pop & K-drama",       korean: "케이팝 & 드라마" },
-  conversacion:  { nombre: "Conversacional A2.2 (enero 2027)", korean: "회화 A2.2" },
+  nivel1:        { nombre: "Básico 1 (A1.1)",           korean: "첫 한국어" },
+  basico2:       { nombre: "Básico 2 (A1.2)",           korean: "기초 한국어 2" },
+  conversacional:{ nombre: "Conversacional 1 (A2.1)",   korean: "회화 A2.1" },
+  ninos:         { nombre: "Coreano para Niños (8–12)", korean: "어린이 한국어" },
+  topik:         { nombre: "TOPIK II (B1+)",            korean: "토픽 II 준비반" },
+  conversacion:  { nombre: "Conversacional 2 (A2.2)",   korean: "회화 A2.2" },
   general:       { nombre: "los próximos cursos",   korean: "다음 강의" },
 };
 
@@ -117,7 +115,7 @@ function NotificarmeForm() {
         </h2>
         <p className="text-white/60 mb-8 max-w-md mx-auto">
           Te aviso apenas abramos cupos de <strong className="text-seoul-red">{curso.nombre}</strong>.
-          Recibirás un email con acceso prioritario y descuento de lanzamiento.
+          Recibirás un email con acceso prioritario a horarios y cupos.
         </p>
         <p className="text-white/40 text-sm font-korean mb-8">화이팅 chingu! 🇰🇷</p>
         <Link
@@ -132,20 +130,20 @@ function NotificarmeForm() {
 
   return (
     <div className="max-w-2xl mx-auto">
-      {CURSOS_ABIERTOS.has(cursoParam) && (
+      {COHORTE_ABIERTA && CURSOS_ABIERTOS.has(cursoParam) && (
         <div className="mb-10 rounded-2xl border border-seoul-red/40 bg-seoul-red/10 p-6">
           <p className="text-seoul-white font-bold text-lg mb-1">
             🎓 ¡Buenas noticias! {curso.nombre} ya tiene matrícula abierta.
           </p>
           <p className="text-white/70 text-sm mb-4">
-            Las clases empiezan la semana del 5 de octubre de 2026 — 8 semanas, certificado incluido,
-            US$150 pago único o US$75/mes. No necesitas lista de espera: elige tu horario y reserva tu cupo.
+            Las clases empiezan {INICIO_SEMANA} de 2026 — 8 semanas, certificado incluido,
+            {precioLabel()}. No necesitas lista de espera: elige tu horario y reserva tu cupo.
           </p>
           <Link
             href="/nivel-1#clases"
             className="inline-flex items-center gap-2 px-6 py-3 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold rounded-lg transition-all duration-300 text-sm"
           >
-            Ir a inscribirme →
+            Inscribirme · Octubre 2026 →
           </Link>
           <p className="text-white/40 text-xs mt-4">
             ¿Prefieres que te avisemos para una cohorte futura? Deja tus datos abajo.
@@ -163,8 +161,8 @@ function NotificarmeForm() {
         </h1>
         <p className="text-white/60 text-lg mt-6">
           <span className="font-korean">{curso.korean}</span> · Sé el/la primer/a en saber cuando
-          abramos cupos. Los miembros de la lista de espera tienen acceso prioritario y
-          descuento de lanzamiento.
+          abramos cupos. Los miembros de la lista de espera tienen acceso prioritario a
+          horarios y cupos.
         </p>
       </div>
 

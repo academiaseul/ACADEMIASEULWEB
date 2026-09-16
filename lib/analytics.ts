@@ -34,7 +34,6 @@ export function trackConversion(
 
   // Meta Pixel - usa nombres estandar de Meta cuando aplique
   const metaEventMap: Record<string, string> = {
-    taller_signup: 'CompleteRegistration',
     lead_magnet_download: 'Lead',
     nivel1_inscripcion: 'Purchase',
     whatsapp_click: 'Contact',
@@ -49,7 +48,6 @@ export function trackConversion(
  * Common conversion events used across the site.
  */
 export const events = {
-  tallerSignup: () => trackConversion('taller_signup'),
   leadMagnetDownload: () => trackConversion('lead_magnet_download'),
   whatsappOpen: (quickReply?: string) =>
     trackConversion('whatsapp_click', { quick_reply: quickReply || 'general' }),

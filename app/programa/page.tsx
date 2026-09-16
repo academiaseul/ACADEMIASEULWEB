@@ -5,6 +5,7 @@ import Escalera from "@/components/Escalera";
 import HorarioSemanal from "@/components/HorarioSemanal";
 import EquipoProfes from "@/components/EquipoProfes";
 import SidebarCursos from "@/components/SidebarCursos";
+import StructuredData from "@/components/StructuredData";
 import {
   CLASES,
   CURSOS,
@@ -24,7 +25,7 @@ import {
 } from "@/lib/nivel1";
 
 export const metadata: Metadata = {
-  title: "Programa y syllabus · Cursos de coreano octubre 2026 — Academia Seúl",
+  title: "Programa y syllabus · Cursos de coreano octubre 2026",
   description:
     "Programa completo de los cursos en vivo de Academia Seúl: Básico 1 (A1.1), Básico 2 (A1.2), Conversacional 1 (A2.1), TOPIK II y Coreano para Niños. 8 semanas, 60 min por clase, certificado incluido. US$150 el curso o 2 cuotas de US$75. Inicio semana del 5 de octubre de 2026.",
   alternates: { canonical: "https://www.academiaseul.com/programa" },
@@ -54,6 +55,7 @@ export default function ProgramaPage() {
 
   return (
     <main className="min-h-screen bg-white">
+      <StructuredData />
       <Navigation solid />
 
       <div className="lg:pl-64">
@@ -229,7 +231,7 @@ export default function ProgramaPage() {
             ))}
           </ul>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="/nivel-1#clases" className="px-8 py-4 rounded-full text-white font-bold text-lg hover:scale-105 transition" style={{ backgroundColor: AZUL }}>Inscribirme ahora →</a>
+            <a href="/nivel-1#clases" className="px-8 py-4 rounded-full text-white font-bold text-lg hover:scale-105 transition" style={{ backgroundColor: AZUL }}>Inscribirme · Octubre 2026 →</a>
             <a href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola Jay! Vi el programa de octubre y tengo una duda sobre qué curso me conviene.")}`} target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full font-bold text-lg border-2 bg-white hover:bg-[#F5F3FF] transition" style={{ borderColor: AZUL, color: AZUL }}>💬 ¿Qué nivel me conviene?</a>
           </div>
         </div>

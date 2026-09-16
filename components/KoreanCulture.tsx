@@ -45,7 +45,7 @@ export default function KoreanCulture() {
           </h2>
           <p className="mt-5 text-base text-seoul-black/55 max-w-lg mx-auto leading-relaxed">
             K-drama, K-pop, gastronomía y Seúl. Aprender coreano es entrar a un
-            universo cultural completo — y en el blog lo exploramos cada semana.
+            universo cultural completo — y en el blog lo exploramos contigo.
           </p>
         </motion.div>
 

@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
     const esMensual = plan === 'mensual';
     const unitPrice = esMensual ? PRICE_CLP_MENSUAL : PRICE_CLP_UNICO;
     const planLabel = esMensual
-      ? 'Mensualidad 1 de 2 (US$75/mes)'
+      ? 'Cuota 1 de 2 (US$75)'
       : 'Pago único (US$150)';
 
     const client = new MercadoPagoConfig({ accessToken: token });

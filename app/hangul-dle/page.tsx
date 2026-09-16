@@ -298,7 +298,7 @@ export default function HangulDle() {
                 >
                   {copied ? '¡Copiado! ✓' : '📋 Compartir resultado'}
                 </button>
-                <p className="text-gray-400 text-sm mt-4">Volvé mañana para una palabra nueva.</p>
+                <p className="text-gray-400 text-sm mt-4">Vuelve mañana para una palabra nueva.</p>
               </div>
             )}
           </div>
@@ -319,7 +319,7 @@ export default function HangulDle() {
           {/* CTA */}
           <div className="my-14 bg-seoul-black text-white rounded-3xl px-8 py-10 text-center">
             <div className="text-3xl font-black mb-2" style={{ fontFamily: "'Noto Sans KR',sans-serif" }}>한글</div>
-            <h3 className="text-2xl font-black mb-3">¿Querés reconocer estas palabras sin adivinar?</h3>
+            <h3 className="text-2xl font-black mb-3">¿Quieres reconocer estas palabras sin adivinar?</h3>
             <p className="text-white/70 mb-6 max-w-md mx-auto">
               Todo este vocabulario (y mucho más) se ve paso a paso en nuestras clases en vivo, desde cero.
             </p>

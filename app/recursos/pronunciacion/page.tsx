@@ -5,10 +5,16 @@ import Footer from "@/components/Footer";
 import HangulBoard from "@/components/HangulBoard";
 
 export const metadata: Metadata = {
-  title: "Pronunciación coreana interactiva | Academia Seúl",
+  title: "Pronunciación coreana interactiva con audio",
   description:
     "Aprende a pronunciar el coreano: haz clic en cada consonante, vocal y palabra para escuchar su sonido en coreano. Tablero interactivo gratis de Academia Seúl.",
   alternates: { canonical: "https://www.academiaseul.com/recursos/pronunciacion" },
+  openGraph: {
+    title: "Pronunciación coreana interactiva · Academia Seúl",
+    description: "Tablero con audio nativo: consonantes, vocales, sílabas y palabras.",
+    url: "https://www.academiaseul.com/recursos/pronunciacion",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Academia Seúl" }],
+  },
 };
 
 export default function PronunciacionPage() {

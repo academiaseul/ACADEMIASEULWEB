@@ -3,10 +3,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Guías gratis para aprender coreano | Academia Seúl",
+  title: "Guías gratis para aprender coreano (PDF)",
   description:
     "Descarga gratis nuestras guías para aprender coreano: la Guía del Alfabeto (한글) y la Guía de Pronunciación coreana para hispanohablantes.",
   alternates: { canonical: "https://www.academiaseul.com/recursos/guias" },
+  openGraph: {
+    title: "Guías gratis para aprender coreano (PDF) · Academia Seúl",
+    description: "Guía del alfabeto Hangul y guía de pronunciación coreana, listas para imprimir.",
+    url: "https://www.academiaseul.com/recursos/guias",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Academia Seúl" }],
+  },
 };
 
 const guides = [

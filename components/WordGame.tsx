@@ -262,7 +262,7 @@ export default function WordGame() {
               </div>
               <p className="text-seoul-black/60 text-sm mb-7 max-w-xs mx-auto">
                 {perfect
-                  ? '¡Puntaje perfecto! Ya tenés una base sólida — Básico 2 o el Conversacional A2.1 son tu siguiente paso.'
+                  ? '¡Puntaje perfecto! Ya tienes una base sólida — Básico 2 (A1.2) o Conversacional 1 (A2.1) son tu siguiente paso.'
                   : good
                     ? 'Nada mal para una probadita. En Básico 1 vemos todo esto (y mucho más) con calma, paso a paso.'
                     : 'Así arrancamos todos. En Básico 1 (A1.1) empezamos desde cero, sin apuro y con clases en vivo.'}
@@ -272,7 +272,7 @@ export default function WordGame() {
                   href="/nivel-1#clases"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm w-full sm:w-auto"
                 >
-                  Inscribirme · desde el 5 de octubre →
+                  Inscribirme · Octubre 2026 →
                 </a>
                 <button
                   onClick={handleStart}

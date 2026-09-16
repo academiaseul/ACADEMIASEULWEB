@@ -300,7 +300,7 @@ export default function Nivel1Page() {
 
       {/* Aviso de resultado de pago (al volver de Mercado Pago / PayPal) */}
       {pagoStatus && (
-        <div className="pt-20 md:pt-24 px-6">
+        <div className="pt-36 md:pt-40 px-6">
           <div className={`max-w-2xl mx-auto rounded-2xl p-5 text-center border ${pagoStatus === "success" ? "bg-[#F0FBF4] border-[#BCEBCD] text-green-800" : pagoStatus === "pending" ? "bg-[#FFF8E6] border-[#F2E2A8] text-yellow-800" : "bg-[#FFF1F1] border-[#F3C6C6] text-red-800"}`}>
             {pagoStatus === "success" && <p className="font-bold">✅ ¡Pago recibido! Tu cupo en {curso.nombreCorto} está confirmado. Te escribimos por correo/WhatsApp con los siguientes pasos. 🎉</p>}
             {pagoStatus === "pending" && <p className="font-bold">⏳ Tu pago quedó pendiente. Apenas se acredite, confirmamos tu cupo y te avisamos.</p>}
@@ -374,7 +374,7 @@ export default function Nivel1Page() {
               </div>
               <div className="md:w-72 flex-shrink-0 flex flex-col gap-3">
                 <a href="#inscripcion" className="text-center px-6 py-4 rounded-full text-white font-bold text-lg hover:scale-105 transition" style={{ backgroundColor: "#3D2EE8" }}>
-                  {esNinos ? "Inscribir a mi hijo/a →" : `Reservar cupo →`}
+                  {esNinos ? "Inscribir a mi hijo/a →" : "Reservar mi cupo →"}
                 </a>
                 <a href={pdfDe(curso.cursoId)} download className="text-center px-6 py-3 rounded-full font-bold border-2 border-[#3D2EE8] text-[#3D2EE8] hover:bg-[#F5F3FF] transition">📄 Programa PDF</a>
                 <a href={`/programa#${curso.cursoId}`} className="text-center text-sm font-semibold text-[#3D2EE8] underline">Ver syllabus semana a semana</a>
@@ -419,7 +419,7 @@ export default function Nivel1Page() {
       <section id="inscripcion" ref={inscripcionRef} className="py-20 bg-white border-t border-gray-100">
         <div className="max-w-2xl mx-auto px-6">
           {/* Stepper */}
-          <div className="flex items-center justify-center gap-2 sm:gap-4 mb-10">
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 mb-10">
             {[{ n: 1, t: "Regístrate" }, { n: 2, t: "Paga" }, { n: 3, t: "Confirma tu pago" }].map((s, i) => (
               <div key={s.n} className="flex items-center gap-2 sm:gap-4">
                 <div className="flex items-center gap-2">
@@ -583,7 +583,7 @@ export default function Nivel1Page() {
             </div>
 
             {/* País de pago */}
-            <div className="flex items-center justify-center gap-2 mb-5 text-sm">
+            <div className="flex flex-wrap items-center justify-center gap-2 mb-5 text-sm">
               <span className="text-gray-500">¿Desde dónde pagas?</span>
               {[{ v: true, t: "🇨🇱 Chile" }, { v: false, t: "🌎 Otro país" }].map((o) => (
                 <button key={o.t} type="button" onClick={() => { setDesdeChile(o.v); setTocoPais(true); }} className={`px-3 py-1.5 rounded-full border-2 text-sm font-semibold transition ${desdeChile === o.v ? "border-[#3D2EE8] bg-[#3D2EE8] text-white" : "border-gray-300 text-gray-700"}`}>{o.t}</button>

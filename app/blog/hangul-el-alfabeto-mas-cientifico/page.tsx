@@ -4,7 +4,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Hangul: el alfabeto que un rey inventó para su pueblo | Academia Seúl",
+  title: "Hangul: el alfabeto que un rey inventó para su pueblo",
   description:
     "La historia del Hangul: por qué el rey Sejong creó el alfabeto coreano en 1443, cómo sus letras imitan la forma de tu boca y por qué los lingüistas lo consideran uno de los sistemas de escritura más lógicos del mundo.",
   alternates: {
@@ -12,9 +12,14 @@ export const metadata: Metadata = {
       "https://www.academiaseul.com/blog/hangul-el-alfabeto-mas-cientifico",
   },
   openGraph: {
+    type: "article",
     title: "Hangul: el alfabeto que un rey inventó para su pueblo",
     description:
       "Por qué puedes aprender a leer coreano en una hora — la historia y la ciencia detrás del Hangul.",
+    url: "https://www.academiaseul.com/blog/hangul-el-alfabeto-mas-cientifico",
+    siteName: "Academia Seúl",
+    locale: "es_CL",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Academia Seúl" }],
   },
 };
 
@@ -106,7 +111,7 @@ export default function HangulPost() {
         <blockquote className="border-l-4 border-seoul-red bg-[#F4F7FF] px-6 py-5 my-10 text-seoul-black font-medium">
           La tradición dice que una persona inteligente puede aprender el Hangul
           en una mañana, y cualquier persona en unos pocos días. Casi 600 años
-          después, en nuestros talleres lo comprobamos cada semana: en una hora
+          después, con el Lector de Hangul y en Básico 1 lo comprobamos en cada cohorte: en una hora
           ya estás leyendo tus primeras palabras.
         </blockquote>
 

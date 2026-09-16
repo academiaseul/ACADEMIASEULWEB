@@ -5,10 +5,10 @@ import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
 
 const stats = [
-  { value: '🇰🇷',     label: 'Profesor nativo de Seúl',  sublabel: 'Bilingüe coreano-español' },
+  { value: '🇰🇷',     label: 'Profesores coreanos nativos',  sublabel: 'Bilingües coreano-español' },
   { value: '8',        label: 'Años enseñando coreano',    sublabel: 'Experiencia comprobada',     suffix: '+' },
   { value: 'Chingu™',  label: 'Método propio',             sublabel: 'Diseñado para hispanohablantes' },
-  { value: '6',        label: 'Cursos diseñados',          sublabel: 'Del A1 al C2 + especializados' },
+  { value: '6',        label: 'Cursos diseñados',          sublabel: 'De A1.1 a TOPIK II (B1+) + Niños' },
 ];
 
 function StatCard({ value, label, sublabel, suffix, index }: (typeof stats)[0] & { index: number }) {
@@ -87,7 +87,7 @@ export default function About() {
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1000&q=85&auto=format&fit=crop"
-                alt="Estudiantes de coreano en Academia Seúl, Santiago de Chile"
+                alt="Estudiantes aprendiendo en grupo (imagen ilustrativa)"
                 fill
                 className="object-cover"
               />
@@ -121,7 +121,7 @@ export default function About() {
             </p>
             <p className="text-base text-seoul-black/60 leading-relaxed">
               Una nueva forma de aprender coreano desde Latinoamérica: profesores
-              nativos formados en Seúl, materiales creados para hispanohablantes y una
+              coreanos nativos y bilingües, materiales creados para hispanohablantes y una
               metodología que combina conversación real, cultura contemporánea y
               preparación académica.
             </p>
@@ -133,7 +133,7 @@ export default function About() {
             {/* Highlights */}
             <ul className="space-y-3 pt-4">
               {[
-                'Profesores nativos certificados de Seúl',
+                'Profesores coreanos nativos y bilingües',
                 'Grupos reducidos: máximo 15 estudiantes',
                 'Metodología comunicativa + cultural',
                 'Preparación oficial para el examen TOPIK',

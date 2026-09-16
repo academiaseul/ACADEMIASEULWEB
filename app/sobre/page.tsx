@@ -3,10 +3,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Mi historia — Jay (김재희) | Academia Seúl",
+  title: "Mi historia — Jay (김재희), fundador",
   description:
     "La historia de Jay Kim, fundador de Academia Seúl: de little Kim en Seúl a profesor en Chile. Por qué creó la primera academia de coreano pensada para hispanohablantes.",
   alternates: { canonical: "https://www.academiaseul.com/sobre" },
+  openGraph: {
+    title: "Mi historia — Jay (김재희), fundador de Academia Seúl",
+    description: "De little Kim en Seúl a profesor en Chile: por qué creé la primera academia de coreano pensada para hispanohablantes.",
+    url: "https://www.academiaseul.com/sobre",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Academia Seúl" }],
+  },
 };
 
 export default function SobrePage() {
@@ -81,8 +87,8 @@ export default function SobrePage() {
             <strong>en inglés</strong>. No existe contenido —ni un libro de
             verdad— pensado para hispanohablantes. Seré su{" "}
             <strong>profesor Kim</strong>, y un buen <em>chingu</em>. Por eso voy a
-            escribirlo junto al gran equipo de profesores que he formado y que
-            pronto van a conocer. <strong>Para ustedes.</strong>
+            escribirlo junto al gran equipo de profesores que he formado — ya puedes
+            conocerlos en el programa de octubre. <strong>Para ustedes.</strong>
           </p>
           <p>
             Gracias por estar aquí, justo al inicio de este viaje. Este puente lo

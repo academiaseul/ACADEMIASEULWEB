@@ -10,14 +10,14 @@ import {
 const benefits = [
   {
     icon: Globe,
-    title: 'Profesores nativos de Seúl',
-    desc: 'Aprende la pronunciación y el acento real desde el primer día. Nuestros profesores crecieron en Corea del Sur y traen la cultura viva al aula.',
+    title: 'Profesores coreanos nativos',
+    desc: 'Aprende la pronunciación y el acento real desde el primer día. Nuestros profesores son coreanos nativos y bilingües, y traen la cultura viva al aula.',
     color: '#3D2EE8',
   },
   {
     icon: Users,
     title: 'Grupos reducidos',
-    desc: 'Máximo 15 estudiantes por clase. Más tiempo de práctica oral, más feedback personalizado y un ambiente donde realmente puedes equivocarte y aprender.',
+    desc: 'Máximo 15 estudiantes por clase (8 en TOPIK II, 12 en Niños). Más tiempo de práctica oral, más feedback personalizado y un ambiente donde realmente puedes equivocarte y aprender.',
     color: '#003478',
   },
   {
@@ -28,32 +28,32 @@ const benefits = [
   },
   {
     icon: Trophy,
-    title: 'Preparación TOPIK oficial',
+    title: 'TOPIK II (B1+): preparación oficial',
     desc: 'Somos tu puerta al certificado internacional TOPIK I y TOPIK II. Te preparamos con simulacros, estrategias y material oficial.',
     color: '#3D2EE8',
   },
   {
     icon: Video,
-    title: 'Clases online disponibles',
-    desc: 'Vives lejos o no puedes asistir presencialmente? Clases online en vivo con la misma calidad, los mismos profesores y las mismas dinámicas.',
+    title: 'Grabaciones incluidas',
+    desc: '¿Te pierdes una clase? Recibes la grabación en 24 horas. Todas las clases son 100% online en vivo por Zoom.',
     color: '#003478',
   },
   {
     icon: BookMarked,
     title: 'Materiales incluidos',
-    desc: 'Olvídate de comprar libros. Te entregamos todos los materiales digitales e impresos que necesitas, actualizados constantemente.',
+    desc: 'Slides, hojas de actividad y el Lector de Hangul con audio nativo, incluidos en cada curso. Sin comprar libros.',
     color: '#D4AF37',
   },
   {
     icon: HeartHandshake,
     title: 'Comunidad vibrante',
-    desc: 'Sé parte de la primera comunidad Chingu en Santiago. Eventos culturales, intercambios y actividades de inmersión durante el año.',
+    desc: 'Sé parte de la comunidad Chingu: alumnos de toda Latinoamérica y España aprendiendo coreano juntos.',
     color: '#3D2EE8',
   },
   {
     icon: Shield,
     title: 'Certificado por participación',
-    desc: 'Al participar en las clases recibes tu certificado de Academia Seúl (CEFR A1 / TOPIK 초급 1). Tu avance queda respaldado nivel a nivel.',
+    desc: 'Al completar tu curso recibes el certificado de Academia Seúl de tu nivel (A1.1, A1.2, A2.1, TOPIK II o Niños). Tu avance queda respaldado peldaño a peldaño.',
     color: '#003478',
   },
 ];
