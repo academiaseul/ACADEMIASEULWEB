@@ -45,8 +45,8 @@ const config: Config = {
           '66%':      { transform: 'translateY(-8px) rotate(-1deg)' },
         },
         glowPulse: {
-          '0%, 100%': { boxShadow: '0 0 20px rgba(200,0,30,0.2)' },
-          '50%':      { boxShadow: '0 0 60px rgba(200,0,30,0.5)' },
+          '0%, 100%': { boxShadow: '0 0 20px rgba(66,54,246,0.2)' },
+          '50%':      { boxShadow: '0 0 60px rgba(66,54,246,0.5)' },
         },
         marquee: {
           '0%':   { transform: 'translateX(0%)' },

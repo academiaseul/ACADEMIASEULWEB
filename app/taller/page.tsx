@@ -514,7 +514,7 @@ export default function TallerPage() {
                     className="w-full px-4 py-3.5 bg-white/10 border-2 border-white/30 text-white outline-none focus:border-[#E8B84B] transition-colors appearance-none text-sm"
                   >
                     <option value="" disabled>{field.placeholder}</option>
-                    {field.options.map((o) => <option key={o} value={o} className="bg-[#9a0016]">{o}</option>)}
+                    {field.options.map((o) => <option key={o} value={o} className="bg-[#1A1A2E]">{o}</option>)}
                   </select>
                 </div>
               ))}
@@ -575,7 +575,7 @@ export default function TallerPage() {
         </p>
         <a
           href="#registro"
-          className="inline-flex items-center gap-3 bg-[#3D2EE8] text-white font-bold text-sm px-10 py-4 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:bg-[#9a0016] transition-colors"
+          className="inline-flex items-center gap-3 bg-[#3D2EE8] text-white font-bold text-sm px-10 py-4 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:bg-[#2C1FB0] transition-colors"
         >
           {vigente ? "Reservar mi lugar gratis" : "Avísame del próximo taller"} →
         </a>

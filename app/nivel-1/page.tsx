@@ -301,7 +301,7 @@ export default function Nivel1Page() {
       {/* Aviso de resultado de pago (al volver de Mercado Pago / PayPal) */}
       {pagoStatus && (
         <div className="pt-36 md:pt-40 px-6">
-          <div className={`max-w-2xl mx-auto rounded-2xl p-5 text-center border ${pagoStatus === "success" ? "bg-[#F0FBF4] border-[#BCEBCD] text-green-800" : pagoStatus === "pending" ? "bg-[#FFF8E6] border-[#F2E2A8] text-yellow-800" : "bg-[#FFF1F1] border-[#F3C6C6] text-red-800"}`}>
+          <div className={`max-w-2xl mx-auto rounded-2xl p-5 text-center border ${pagoStatus === "success" ? "bg-[#F0FBF4] border-[#BCEBCD] text-green-800" : pagoStatus === "pending" ? "bg-[#FFF8E6] border-[#F2E2A8] text-yellow-800" : "bg-gray-100 border-gray-300 text-gray-700"}`}>
             {pagoStatus === "success" && <p className="font-bold">✅ ¡Pago recibido! Tu cupo en {curso.nombreCorto} está confirmado. Te escribimos por correo/WhatsApp con los siguientes pasos. 🎉</p>}
             {pagoStatus === "pending" && <p className="font-bold">⏳ Tu pago quedó pendiente. Apenas se acredite, confirmamos tu cupo y te avisamos.</p>}
             {pagoStatus === "failure" && <p className="font-bold">No se completó el pago. Puedes intentar de nuevo abajo o escribirnos por WhatsApp.</p>}

@@ -29,8 +29,8 @@
     --gold-line:#D4AF37;
     --ok:#2F7D46;
     --ok-soft:rgba(47,125,70,.12);
-    --bad:#B3261E;
-    --bad-soft:rgba(179,38,30,.10);
+    --bad:#6E6759;
+    --bad-soft:rgba(110,103,89,.14);
     --shadow:0 1px 3px rgba(40,32,12,.08);
     --onred:#FFFFFF;
   }
@@ -50,8 +50,8 @@
       --gold-line:#B89334;
       --ok:#58B47C;
       --ok-soft:rgba(88,180,124,.16);
-      --bad:#FF7B72;
-      --bad-soft:rgba(255,123,114,.14);
+      --bad:#B5AEA0;
+      --bad-soft:rgba(181,174,160,.16);
       --shadow:none;--tiger-l:none;--tiger-d:block;
       --onred:#14122A;
     }
@@ -71,8 +71,8 @@
     --gold-line:#B89334;
     --ok:#58B47C;
     --ok-soft:rgba(88,180,124,.16);
-    --bad:#FF7B72;
-    --bad-soft:rgba(255,123,114,.14);
+    --bad:#B5AEA0;
+    --bad-soft:rgba(181,174,160,.16);
     --shadow:none;--tiger-l:none;--tiger-d:block;
     --onred:#14122A;
   }
@@ -315,7 +315,7 @@
   .exbtn{font-family:"Noto Sans KR";font-size:1.05rem;font-weight:600;border:1.5px solid var(--line);background:var(--card);
     color:var(--ink);border-radius:10px;padding:4px 10px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
   .exbtn small{font-family:"Source Sans 3",sans-serif;font-weight:600;color:var(--muted);font-size:.78rem}
-  .exbtn:active,.exbtn.playing{background:var(--red-soft);border-color:var(--red)}
+  .exbtn:hover{border-color:var(--red);transform:translateY(-1px)} .exbtn:active,.exbtn.playing{background:var(--red-soft);border-color:var(--red)}
   .seg{display:flex;gap:6px;background:var(--card-2);border:1px solid var(--line);border-radius:12px;padding:5px;margin:14px 0 8px}
   .seg button{flex:1;border:0;background:transparent;color:var(--muted);font:inherit;font-weight:800;font-size:1rem;padding:11px 6px;border-radius:9px;cursor:pointer}
   .seg button[aria-pressed="true"]{background:var(--red);color:var(--onred)}
@@ -333,7 +333,7 @@
   .tile .r{font-weight:800;font-size:.95rem;color:var(--red)}
   .tile .h{font-size:.72rem;color:var(--muted);line-height:1.15;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .tile .pol{position:absolute;top:6px;right:8px;font-size:.7rem;opacity:.75}
-  .tile:hover{border-color:var(--red)}
+  .tile:hover{border-color:var(--red);transform:translateY(-3px);box-shadow:0 8px 18px rgba(66,54,246,.14)}
   .tile:active{transform:scale(.96)}
   .tile:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
   .tile.playing{border-color:var(--red);background:var(--red-soft);box-shadow:0 0 0 4px var(--red-soft);animation:tilepulse .7s ease}
@@ -362,7 +362,19 @@
   :root[data-theme="dark"]{--p-cho:#9C97FF;--p-cho-bg:rgba(139,133,255,.18);--p-jung:#E3C55A;--p-jung-bg:rgba(217,184,74,.18);--p-jong:#6FCB92;--p-jong-bg:rgba(88,180,124,.18)}
   .sd{display:grid;gap:3px;width:96px;aspect-ratio:1;padding:4px;border:2px solid var(--line);border-radius:14px;background:var(--card);flex:none}
   .sd.lg{width:132px}
-  .sd .c{display:flex;align-items:center;justify-content:center;border-radius:8px;font-family:"Noto Sans KR";font-weight:700;font-size:1.25rem;line-height:1;border:2px solid transparent}
+  .sd .c{display:flex;align-items:center;justify-content:center;border-radius:8px;font-family:"Noto Sans KR";font-weight:700;font-size:1.25rem;line-height:1;border:2px solid transparent;
+    padding:0;margin:0;width:100%;height:100%;cursor:pointer;font:inherit;font-family:"Noto Sans KR";font-weight:700;font-size:1.25rem;
+    transition:transform .12s ease,box-shadow .15s ease,filter .15s ease;position:relative}
+  .sd .c:hover{transform:translateY(-2px) scale(1.06);filter:saturate(1.3);z-index:1}
+  .sd .c.cho:hover,.sd .c.cho.playing{box-shadow:0 5px 14px var(--p-cho-bg),0 0 0 3px var(--p-cho-bg)}
+  .sd .c.jung:hover,.sd .c.jung.playing{box-shadow:0 5px 14px var(--p-jung-bg),0 0 0 3px var(--p-jung-bg)}
+  .sd .c.jong:hover,.sd .c.jong.playing{box-shadow:0 5px 14px var(--p-jong-bg),0 0 0 3px var(--p-jong-bg)}
+  .sd .c:active{transform:scale(.94)}
+  .sd .c:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+  .sd .c.playing{animation:piecepulse .6s ease}
+  @keyframes piecepulse{0%{transform:scale(.94)}50%{transform:scale(1.1)}100%{transform:scale(1)}}
+  .sd .c .tipsnd{position:absolute;bottom:-3px;right:-3px;font-size:.55rem;opacity:0;transition:opacity .15s;background:var(--card);border-radius:50%;padding:1px 3px;border:1px solid var(--line)}
+  .sd .c:hover .tipsnd{opacity:1}
   .sd.lg .c{font-size:1.7rem}
   .sd .cho{background:var(--p-cho-bg);color:var(--p-cho);border-color:var(--p-cho)}
   .sd .jung{background:var(--p-jung-bg);color:var(--p-jung);border-color:var(--p-jung)}
@@ -372,9 +384,24 @@
   .sdleg span{display:inline-flex;align-items:center;gap:6px}
   .sdleg i{display:inline-block;width:14px;height:14px;border-radius:4px;border:2px solid}
   .sdleg .k1{background:var(--p-cho-bg);border-color:var(--p-cho)} .sdleg .k2{background:var(--p-jung-bg);border-color:var(--p-jung)} .sdleg .k3{background:var(--p-jong-bg);border-color:var(--p-jong)}
+  .puzzle{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px;margin:12px 0 6px;padding:14px 10px;background:var(--card-2);border:1px dashed var(--line);border-radius:16px}
+  .puzzle .op{font-size:1.8rem;font-weight:800;color:var(--muted)}
+  .puzzle .piece{width:64px;height:64px;border-radius:14px;display:flex;align-items:center;justify-content:center;border:2px solid;cursor:pointer;font:inherit;font-family:"Noto Sans KR";font-size:1.9rem;font-weight:700;transition:transform .12s,box-shadow .15s}
+  .puzzle .piece:hover{transform:translateY(-3px) rotate(-3deg);box-shadow:0 8px 16px rgba(0,0,0,.12)} .puzzle .piece:active{transform:scale(.94)}
+  .puzzle .piece.cho{background:var(--p-cho-bg);color:var(--p-cho);border-color:var(--p-cho)} .puzzle .piece.jung{background:var(--p-jung-bg);color:var(--p-jung);border-color:var(--p-jung)} .puzzle .piece.jong{background:var(--p-jong-bg);color:var(--p-jong);border-color:var(--p-jong)}
+  .puzzle .result{display:flex;flex-direction:column;align-items:center;gap:2px;background:transparent;border:0;cursor:pointer;font:inherit;color:inherit;padding:4px 8px;border-radius:12px}
+  .puzzle .result:hover{background:var(--red-soft)} .puzzle .result .g{font-family:"Noto Sans KR";font-size:2.8rem;line-height:1;font-weight:500} .puzzle .result:hover .g{color:var(--red)}
+  .puzzle .result .rr{font-weight:800;color:var(--red);font-size:.85rem}
+  .rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;margin:10px 0 14px}
+  .rules div{background:var(--card-2);border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:.9rem;line-height:1.4}
+  .rules b{display:block;color:var(--red);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px}
   .formas{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
-  .forma{display:flex;align-items:center;gap:10px;background:var(--card-2);border:1px solid var(--line);border-radius:14px;padding:10px;cursor:pointer;text-align:left;color:var(--ink);font:inherit}
-  .forma:hover{border-color:var(--red)} .forma:active{transform:scale(.98)}
+  .forma{display:flex;align-items:center;gap:10px;background:var(--card-2);border:1px solid var(--line);border-radius:14px;padding:10px;text-align:left;color:var(--ink);font:inherit;transition:border-color .15s,box-shadow .15s,transform .12s}
+  .forma:hover{border-color:var(--red);box-shadow:0 6px 18px rgba(66,54,246,.12);transform:translateY(-2px)}
+  .forma .eq{background:transparent;border:0;cursor:pointer;color:inherit;font:inherit;padding:4px 6px;border-radius:10px;transition:background .15s}
+  .forma .eq:hover{background:var(--red-soft)} .forma .eq:hover .g{color:var(--red)} .forma .eq:active{transform:scale(.96)}
+  .forma .sound{cursor:pointer;transition:transform .12s,border-color .15s} .forma .sound:hover{border-color:var(--red);transform:scale(1.08)}
+  .sylstage .glyph{cursor:pointer;transition:color .15s,transform .12s} .sylstage .glyph:hover{color:var(--red);transform:scale(1.04)}
   .forma .eq{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0}
   .forma .g{font-family:"Noto Sans KR";font-size:2.3rem;line-height:1;font-weight:500}
   .forma .rr{font-weight:800;color:var(--red);font-size:.95rem}
@@ -467,8 +494,16 @@
   </div>
 
   <div class="card" id="formas">
-    <h3 style="margin-top:0">Cómo se arma una sílaba: las 6 formas del bloque</h3>
-    <p class="subtle" style="margin-top:-4px">Cada pieza tiene su color. La vocal decide la forma: si es <b>vertical</b> (<span class="kr">ㅏㅓㅣ…</span>) va a la derecha; si es <b>horizontal</b> (<span class="kr">ㅗㅜㅡ</span>) va debajo; las <b>compuestas</b> envuelven. El batchim siempre va abajo. Toca para oír.</p>
+    <h3 style="margin-top:0">🧩 El coreano es un puzzle: las letras se encajan para formar sílabas</h3>
+    <p style="margin-top:-4px">En español escribimos las letras <b>una tras otra</b>: c-a-s-a. En coreano las letras son <b>piezas</b> que se encajan dentro de un cuadrado, y <b>cada cuadrado es una sílaba</b>. Tomas una consonante, le encajas una vocal y, si la sílaba termina en consonante, la cierras con otra pieza abajo (el <b>batchim</b>). Leer coreano es armar y desarmar ese puzzle — y como solo hay 40 piezas, en una semana lo dominas.</p>
+    <div class="puzzle" id="puzzleRow"></div>
+    <div class="rules">
+      <div><b>Regla 1 · siempre empieza con consonante</b>Si la sílaba no tiene sonido inicial, se pone la <span class="kr">ㅇ</span> muda como pieza de relleno: <span class="kr">아</span> = «a».</div>
+      <div><b>Regla 2 · la vocal manda</b>Vocal <b>vertical</b> (<span class="kr">ㅏ ㅓ ㅣ…</span>) → encaja a la <b>derecha</b>. Vocal <b>horizontal</b> (<span class="kr">ㅗ ㅜ ㅡ</span>) → encaja <b>debajo</b>. Las compuestas envuelven la consonante.</div>
+      <div><b>Regla 3 · el batchim cierra abajo</b>La consonante final siempre va en la base del cuadrado y solo puede sonar k · n · t · l · m · p · ng.</div>
+    </div>
+    <h3>Las 6 formas del bloque</h3>
+    <p class="subtle" style="margin-top:-4px">Cada pieza tiene su color. <b>Toca cada pieza</b> para oír su sonido por separado, o la sílaba para oírla completa.</p>
     <div class="sdleg"><span><i class="k1"></i> consonante inicial</span><span><i class="k2"></i> vocal</span><span><i class="k3"></i> batchim (consonante final)</span></div>
     <div class="formas" id="formasGrid"></div>
     <p style="text-align:center;margin-top:14px"><button class="btn primary" onclick="goLesson5()">Arma tu propia sílaba con colores →</button></p>
@@ -555,7 +590,7 @@
       <div id="sylDiag"></div>
       <span class="arrow">=</span>
       <div>
-        <div class="glyph g-xl kr" id="sylOut">가</div>
+        <div class="glyph g-xl kr" id="sylOut" role="button" tabindex="0" title="Escuchar la sílaba" onclick="speakSyl()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();speakSyl();}">가</div>
         <div id="sylRom" class="subtle" style="font-size:1.1rem;font-weight:700"></div>
       </div>
       <button class="sound" onclick="speakSyl()" aria-label="Escuchar sílaba">🔊</button>
@@ -1031,19 +1066,33 @@ function sylType(jung, jong){
   const base = SD_VERT.includes(jung) ? "vertical" : SD_HORIZ.includes(jung) ? "horizontal" : "compuesta";
   return base + (jong ? "+batchim" : "");
 }
+const JONG_SAY = {"ㄱ":"악","ㅋ":"악","ㄲ":"악","ㄴ":"안","ㄷ":"앋","ㅅ":"앗","ㅆ":"앗","ㅈ":"앗","ㅊ":"앗","ㅌ":"앋","ㅎ":"앋","ㄹ":"알","ㅁ":"암","ㅂ":"압","ㅍ":"압","ㅇ":"앙"};
+const CHO_R_MAP = {"ㄱ":"g","ㄴ":"n","ㄷ":"d","ㄹ":"r","ㅁ":"m","ㅂ":"b","ㅅ":"s","ㅇ":"(muda)","ㅈ":"j","ㅊ":"ch","ㅋ":"k","ㅌ":"t","ㅍ":"p","ㅎ":"h","ㄲ":"kk","ㄸ":"tt","ㅃ":"pp","ㅆ":"ss","ㅉ":"jj"};
+const JONG_R_MAP = {"ㄱ":"k","ㅋ":"k","ㄲ":"k","ㄴ":"n","ㄷ":"t","ㅅ":"t","ㅆ":"t","ㅈ":"t","ㅊ":"t","ㅌ":"t","ㅎ":"t","ㄹ":"l","ㅁ":"m","ㅂ":"p","ㅍ":"p","ㅇ":"ng"};
+function pieceSay(kind, j, btn){
+  let say = j, label = "";
+  if (kind === "cho"){ say = PLUS_MAP[j] || j; }
+  else if (kind === "jung"){ say = VOWEL_SAY[j] || j; }
+  else { say = JONG_SAY[j] || (PLUS_MAP[j] || j); }
+  speak(say);
+  if (btn){ btn.classList.remove("playing"); void btn.offsetWidth; btn.classList.add("playing"); setTimeout(()=>btn.classList.remove("playing"), 650); }
+}
+function pieceBtn(kind, j, style){
+  const rom = kind === "cho" ? (CHO_R_MAP[j] || "") : kind === "jung" ? ((VOWELS.find(v=>v.j===j)||{}).r || "") : (JONG_R_MAP[j] || "");
+  const what = kind === "cho" ? "consonante inicial" : kind === "jung" ? "vocal" : "batchim";
+  return '<button type="button" class="c '+kind+'"'+(style?' style="'+style+'"':'')+' title="'+what+' '+j+(rom?' · '+rom:'')+'" aria-label="Escuchar '+what+' '+j+'" onclick="event.stopPropagation();pieceSay(\''+kind+'\',\''+j+'\',this)">'+j+'<span class="tipsnd">🔊</span></button>';
+}
 function sylDiagram(cho, jung, jong, lg){
-  const c = '<div class="c cho">'+cho+'</div>';
-  const j = (x) => '<div class="c jung">'+x+'</div>';
-  const b = jong ? '<div class="c jong" style="grid-column:1 / -1">'+jong+'</div>' : '';
   let cols, body;
-  if (SD_VERT.includes(jung)){ cols = "1fr 1fr"; body = c + j(jung) + b; }
-  else if (SD_HORIZ.includes(jung)){ cols = "1fr"; body = c + j(jung) + b; }
+  const b = jong ? pieceBtn("jong", jong, "grid-column:1 / -1") : "";
+  if (SD_VERT.includes(jung)){ cols = "1fr 1fr"; body = pieceBtn("cho", cho) + pieceBtn("jung", jung) + b; }
+  else if (SD_HORIZ.includes(jung)){ cols = "1fr"; body = pieceBtn("cho", cho) + pieceBtn("jung", jung) + b; }
   else { const p = SD_COMP[jung] || [jung, ""]; cols = "1fr 1fr";
-    body = '<div class="c cho" style="grid-column:1;grid-row:1">'+cho+'</div>' +
-      '<div class="c jung" style="grid-column:2;grid-row:1 / span 2">'+p[1]+'</div>' +
-      '<div class="c jung" style="grid-column:1;grid-row:2">'+p[0]+'</div>' +
-      (jong ? '<div class="c jong" style="grid-column:1 / -1;grid-row:3">'+jong+'</div>' : ''); }
-  return '<div class="sd'+(lg?' lg':'')+'" style="grid-template-columns:'+cols+'" aria-hidden="true">'+body+'</div>';
+    body = pieceBtn("cho", cho, "grid-column:1;grid-row:1") +
+      pieceBtn("jung", p[1], "grid-column:2;grid-row:1 / span 2") +
+      pieceBtn("jung", p[0], "grid-column:1;grid-row:2") +
+      (jong ? pieceBtn("jong", jong, "grid-column:1 / -1;grid-row:3") : ""); }
+  return '<div class="sd'+(lg?' lg':'')+'" style="grid-template-columns:'+cols+'" role="group" aria-label="Piezas de la sílaba">'+body+'</div>';
 }
 const FORMAS = [
   {cho:"ㄱ",jung:"ㅏ",jong:"", g:"가", r:"ga",  lb:"consonante + vocal vertical → lado a lado"},
@@ -1053,13 +1102,19 @@ const FORMAS = [
   {cho:"ㅁ",jung:"ㅜ",jong:"ㄹ", g:"물", r:"mul", lb:"horizontal + batchim abajo"},
   {cho:"ㅇ",jung:"ㅝ",jong:"ㄴ", g:"원", r:"won", lb:"compuesta + batchim (ㅇ inicial muda)"}
 ];
+function renderPuzzle(){
+  const el = document.getElementById("puzzleRow"); if (!el) return;
+  const pc = (kind, j) => '<button type="button" class="piece '+kind+'" title="Escuchar '+j+'" aria-label="Escuchar '+j+'" onclick="pieceSay(\''+kind+'\',\''+j+'\',this)">'+j+'</button>';
+  el.innerHTML = pc("cho","ㅎ") + '<span class="op">+</span>' + pc("jung","ㅏ") + '<span class="op">+</span>' + pc("jong","ㄴ") + '<span class="op">=</span>' +
+    '<button type="button" class="result" onclick="speak(\'한\')" aria-label="Escuchar 한"><span class="g kr">한</span><span class="rr">han · el «han» de 한국 (Corea)</span></button>';
+}
 function renderFormas(){
   const el = document.getElementById("formasGrid"); if (!el) return;
-  el.innerHTML = FORMAS.map((f,i) => '<button class="forma" onclick="formaTap('+i+',this)">'+sylDiagram(f.cho,f.jung,f.jong)+
-    '<div class="eq"><span class="g kr">'+f.g+'</span><span class="rr">'+f.r+'</span><span class="lb">'+f.lb+'</span></div>'+
-    '<span class="sound" aria-hidden="true">🔊</span></button>').join("");
+  el.innerHTML = FORMAS.map((f,i) => '<div class="forma">'+sylDiagram(f.cho,f.jung,f.jong)+
+    '<button type="button" class="eq" onclick="formaTap('+i+',this)" aria-label="Escuchar la sílaba '+f.g+'"><span class="g kr">'+f.g+'</span><span class="rr">'+f.r+'</span><span class="lb">'+f.lb+'</span></button>'+
+    '<button type="button" class="sound" onclick="formaTap('+i+',this)" aria-label="Escuchar la sílaba '+f.g+'">🔊</button></div>').join("");
 }
-function formaTap(i, btn){ const f = FORMAS[i]; speak(f.g); if (btn){ btn.style.borderColor = "var(--red)"; setTimeout(()=>btn.style.borderColor="", 600); } }
+function formaTap(i, btn){ const f = FORMAS[i]; speak(f.g); const card = btn && btn.closest(".forma"); if (card){ card.style.borderColor = "var(--red)"; setTimeout(()=>card.style.borderColor="", 600); } }
 function goLesson5(){
   showTab("learn");
   const d = document.getElementById("lesson5"); if (!d) return;
@@ -1547,6 +1602,7 @@ function renderCompVowels(){
   ).join("");
 }
 renderAlfa("v");
+renderPuzzle();
 renderFormas();
 renderCompVowels();
 renderNum();

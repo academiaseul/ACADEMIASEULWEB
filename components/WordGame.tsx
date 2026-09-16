@@ -231,7 +231,7 @@ export default function WordGame() {
                             isCorrect
                               ? 'border-green-500 bg-green-50 text-green-700'
                               : isWrong
-                                ? 'border-red-400 bg-red-50 text-red-600'
+                                ? 'border-gray-400 bg-gray-100 text-gray-600 line-through'
                                 : 'border-seoul-black/10 hover:border-seoul-red/40 hover:bg-seoul-red/5 text-seoul-black'
                           }`}
                         >
