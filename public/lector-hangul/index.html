@@ -21,8 +21,8 @@
     --ink:#221F19;
     --muted:#6E6759;
     --line:#E0D8C6;
-    --red:#C8001E;
-    --red-soft:rgba(200,0,30,.08);
+    --red:#4236F6;
+    --red-soft:rgba(66,54,246,.10);
     --blue:#003478;
     --blue-soft:rgba(0,52,120,.08);
     --gold:#8F6F1F;
@@ -42,8 +42,8 @@
       --ink:#ECE6D9;
       --muted:#A39C8D;
       --line:#35323C;
-      --red:#FF5A66;
-      --red-soft:rgba(255,90,102,.12);
+      --red:#8B85FF;
+      --red-soft:rgba(139,133,255,.16);
       --blue:#7FA8DE;
       --blue-soft:rgba(127,168,222,.13);
       --gold:#D9B84A;
@@ -53,7 +53,7 @@
       --bad:#FF7B72;
       --bad-soft:rgba(255,123,114,.14);
       --shadow:none;--tiger-l:none;--tiger-d:block;
-      --onred:#1A1213;
+      --onred:#14122A;
     }
   }
   :root[data-theme="dark"]{
@@ -63,8 +63,8 @@
     --ink:#ECE6D9;
     --muted:#A39C8D;
     --line:#35323C;
-    --red:#FF5A66;
-    --red-soft:rgba(255,90,102,.12);
+    --red:#8B85FF;
+    --red-soft:rgba(139,133,255,.16);
     --blue:#7FA8DE;
     --blue-soft:rgba(127,168,222,.13);
     --gold:#D9B84A;
@@ -74,7 +74,7 @@
     --bad:#FF7B72;
     --bad-soft:rgba(255,123,114,.14);
     --shadow:none;--tiger-l:none;--tiger-d:block;
-    --onred:#1A1213;
+    --onred:#14122A;
   }
 
   *{box-sizing:border-box}
@@ -304,6 +304,57 @@
     .g-xl{font-size:4rem}
     nav.tabs button{font-size:.88rem}
   }
+
+  /* ===== Alfabeto (pantalla de entrada) ===== */
+  .alfa-intro{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:10px 0 4px}
+  .idea{background:var(--card-2);border:1px solid var(--line);border-radius:14px;padding:12px 12px 10px;display:flex;flex-direction:column;gap:6px}
+  .idea .n{font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+  .idea b{font-size:1rem}
+  .idea p{margin:0;font-size:.9rem;color:var(--muted);line-height:1.4}
+  .idea .ex{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+  .exbtn{font-family:"Noto Sans KR";font-size:1.05rem;font-weight:600;border:1.5px solid var(--line);background:var(--card);
+    color:var(--ink);border-radius:10px;padding:4px 10px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+  .exbtn small{font-family:"Source Sans 3",sans-serif;font-weight:600;color:var(--muted);font-size:.78rem}
+  .exbtn:active,.exbtn.playing{background:var(--red-soft);border-color:var(--red)}
+  .seg{display:flex;gap:6px;background:var(--card-2);border:1px solid var(--line);border-radius:12px;padding:5px;margin:14px 0 8px}
+  .seg button{flex:1;border:0;background:transparent;color:var(--muted);font:inherit;font-weight:800;font-size:1rem;padding:11px 6px;border-radius:9px;cursor:pointer}
+  .seg button[aria-pressed="true"]{background:var(--red);color:var(--onred)}
+  .seg button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .alfa-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin:4px 0 10px}
+  .alfa-tools .lbl{font-size:.85rem;color:var(--muted)}
+  .grp{margin:14px 0 6px;font-weight:800;font-size:.86rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:8px}
+  .grp span{font-weight:600;letter-spacing:0;text-transform:none;color:var(--muted);font-size:.82rem}
+  .alfa-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:8px}
+  .tile{position:relative;border:2px solid var(--line);background:var(--card-2);border-radius:16px;padding:12px 4px 9px;
+    cursor:pointer;text-align:center;color:var(--ink);font:inherit;min-height:104px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
+    transition:transform .08s ease,border-color .15s,background .15s,box-shadow .15s}
+  .tile .j{font-family:"Noto Sans KR";font-size:2.2rem;line-height:1;font-weight:500}
+  .tile .r{font-weight:800;font-size:.95rem;color:var(--red)}
+  .tile .h{font-size:.72rem;color:var(--muted);line-height:1.15;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .tile .pol{position:absolute;top:6px;right:8px;font-size:.7rem;opacity:.75}
+  .tile:hover{border-color:var(--red)}
+  .tile:active{transform:scale(.96)}
+  .tile:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .tile.playing{border-color:var(--red);background:var(--red-soft);box-shadow:0 0 0 4px var(--red-soft);animation:tilepulse .7s ease}
+  .tile.sel{border-color:var(--red)}
+  @keyframes tilepulse{0%{transform:scale(.96)}50%{transform:scale(1.03)}100%{transform:scale(1)}}
+  .alfa-detail{position:sticky;bottom:12px;z-index:4;margin-top:12px;background:var(--card);border:2px solid var(--red);border-radius:16px;
+    padding:12px 14px;display:flex;align-items:center;gap:12px;box-shadow:0 8px 24px rgba(20,10,60,.14)}
+  .alfa-detail .big{font-family:"Noto Sans KR";font-size:2.6rem;line-height:1;color:var(--red);flex:none;min-width:52px;text-align:center}
+  .alfa-detail .txt{flex:1;min-width:0;font-size:.95rem;line-height:1.35}
+  .alfa-detail .txt b{font-size:1.05rem}
+  .alfa-detail .row{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+  .alfa-detail .sound{width:48px;height:48px;font-size:1.25rem;border-color:var(--red)}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:.82rem;color:var(--muted);margin:8px 0 2px}
+  .legend b{color:var(--ink)}
+  .next-steps{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:14px}
+  @media (max-width:420px){ .alfa-grid{grid-template-columns:repeat(4,1fr);gap:6px} .tile{min-height:92px;padding:9px 2px 7px} .tile .j{font-size:1.9rem} .tile .h{display:none} }
+  /* pestañas y botones: más área de toque */
+  nav.tabs button{padding:12px 4px;font-size:.98rem}
+  .btn.primary{box-shadow:0 4px 14px rgba(66,54,246,.25)}
+  .grid-jamo button{min-width:50px;height:50px;font-size:1.4rem}
+  .grid-jamo button:active{transform:scale(.95);border-color:var(--red)}
 </style>
 <style>
   .site-top{background:var(--card);border-bottom:1px solid var(--line)}
@@ -350,18 +401,65 @@
   <div>
     <div class="brand">Academia Seúl · Método Chingu</div>
     <h1>Lector de Hangul <span class="kr">한글</span></h1>
-    <div class="seeds kr"><b>ㆍ</b> cielo · <span>ㅡ</span> tierra · <i>ㅣ</i> humano — la lógica del 훈민정음</div>
+    <div class="seeds kr"><b>ㆍ</b> cielo · <span>ㅡ</span> tierra · <i>ㅣ</i> humano — aprende a leer coreano en una semana</div>
   </div>
 </header>
 
 <nav class="tabs" role="tablist" aria-label="Secciones">
-  <button role="tab" id="tab-learn" aria-selected="true" onclick="showTab('learn')">Aprender</button>
+  <button role="tab" id="tab-alfa" aria-selected="true" onclick="showTab('alfa')">Alfabeto</button>
+  <button role="tab" id="tab-learn" aria-selected="false" onclick="showTab('learn')">Aprender</button>
   <button role="tab" id="tab-drill" aria-selected="false" onclick="showTab('drill')">Practicar</button>
   <button role="tab" id="tab-prog" aria-selected="false" onclick="showTab('prog')">Progreso</button>
 </nav>
 
+<!-- ============ ALFABETO ============ -->
+<section id="panel-alfa" role="tabpanel" aria-labelledby="tab-alfa">
+  <div class="card">
+    <h3 style="margin-top:0">Cómo se lee el coreano en 4 ideas</h3>
+    <p class="subtle" style="margin-top:-4px">El hangul no se memoriza letra por letra: se <b>entiende</b>. Toca los ejemplos para oírlos.</p>
+    <div class="alfa-intro">
+      <div class="idea"><span class="n">1 · Bloques</span><b>Cada cuadrado es una sílaba</b>
+        <p>Las letras no van en fila: se apilan. <span class="kr">한</span> = <span class="kr">ㅎ</span> + <span class="kr">ㅏ</span> + <span class="kr">ㄴ</span>. Se lee de izquierda a derecha y de arriba a abajo.</p>
+        <div class="ex"><button class="exbtn" onclick="exPlay(this,'한')">한 <small>han</small></button><button class="exbtn" onclick="exPlay(this,'한국')">한국 <small>han·guk · Corea</small></button></div></div>
+      <div class="idea"><span class="n">2 · Vocales</span><b>Tres trazos: cielo, tierra, humano</b>
+        <p><span class="kr">ㆍ ㅡ ㅣ</span> se combinan y ya está. Las vocales <b>verticales</b> (<span class="kr">ㅏㅓㅣ</span>) van a la <b>derecha</b> de la consonante; las <b>horizontales</b> (<span class="kr">ㅗㅜㅡ</span>) van <b>debajo</b>.</p>
+        <div class="ex"><button class="exbtn" onclick="exPlay(this,'나')">나 <small>na → derecha</small></button><button class="exbtn" onclick="exPlay(this,'노')">노 <small>no → debajo</small></button></div></div>
+      <div class="idea"><span class="n">3 · Consonantes</span><b>Son un dibujo de tu boca</b>
+        <p><span class="kr">ㄱ</span> la lengua tocando atrás, <span class="kr">ㅁ</span> los labios cerrados, <span class="kr">ㅅ</span> los dientes. Un trazo más = más aire (<span class="kr">ㅋ</span>); letra doble = tensa, sin aire (<span class="kr">ㄲ</span>).</p>
+        <div class="ex"><button class="exbtn" onclick="exPlay(this,'가')">가 <small>ga</small></button><button class="exbtn" onclick="exPlay(this,'카')">카 <small>ka · con aire</small></button><button class="exbtn" onclick="exPlay(this,'까')">까 <small>kka · tensa</small></button></div></div>
+      <div class="idea"><span class="n">4 · Batchim</span><b>La de abajo solo tiene 7 sonidos</b>
+        <p>La consonante final (<span class="kr">받침</span>) suena k · n · t · l · m · p · ng aunque se escriba con letras distintas. Y <span class="kr">ㅇ</span> al inicio es <b>muda</b>: <span class="kr">아</span> se lee «a».</p>
+        <div class="ex"><button class="exbtn" onclick="exPlay(this,'밥')">밥 <small>bap · arroz</small></button><button class="exbtn" onclick="exPlay(this,'물')">물 <small>mul · agua</small></button><button class="exbtn" onclick="exPlay(this,'빵')">빵 <small>ppang · pan</small></button></div></div>
+    </div>
+    <div class="tip">⚠️ <b>Las 3 confusiones típicas del hispanohablante</b>: <span class="kr">ㅓ</span> (o con la boca relajada) no es <span class="kr">ㅗ</span> (o con labios redondos) —
+      <button class="exbtn" onclick="exPlay(this,'어')">어</button> <button class="exbtn" onclick="exPlay(this,'오')">오</button> ·
+      <span class="kr">ㅡ</span> (sonríe y di «u») no es <span class="kr">ㅜ</span> (u de uva) —
+      <button class="exbtn" onclick="exPlay(this,'으')">으</button> <button class="exbtn" onclick="exPlay(this,'우')">우</button> ·
+      y <span class="kr">ㄹ</span> es una r suave, nunca la r fuerte de «perro» — <button class="exbtn" onclick="exPlay(this,'라면')">라면</button>.</div>
+  </div>
+
+  <div class="card">
+    <div class="seg" role="tablist" aria-label="Vocales o consonantes">
+      <button role="tab" id="seg-v" aria-pressed="true" onclick="renderAlfa('v')">Las 21 vocales</button>
+      <button role="tab" id="seg-c" aria-pressed="false" onclick="renderAlfa('c')">Las 19 consonantes</button>
+    </div>
+    <div class="alfa-tools">
+      <span class="lbl" id="alfaLbl">Toca cualquier cuadro para oírlo. Cada vocal suena con la <span class="kr">ㅇ</span> muda delante (<span class="kr">ㅏ</span> → <span class="kr">아</span>).</span>
+      <button class="btn small" id="playAllBtn" onclick="playAll()">▶ Escuchar todas en orden</button>
+    </div>
+    <div id="alfaLegend" class="legend"></div>
+    <div id="alfaGrid"></div>
+    <div class="alfa-detail" id="alfaDetail" hidden></div>
+    <div class="next-steps">
+      <button class="btn primary" onclick="startDrill('voc')">Practicar vocales →</button>
+      <button class="btn primary" onclick="startDrill('con')">Practicar consonantes →</button>
+      <button class="btn" onclick="showTab('learn')">Ver la lógica paso a paso →</button>
+    </div>
+  </div>
+</section>
+
 <!-- ============ APRENDER ============ -->
-<section id="panel-learn" role="tabpanel" aria-labelledby="tab-learn">
+<section id="panel-learn" role="tabpanel" aria-labelledby="tab-learn" hidden>
 
   <details class="card lesson" open>
     <summary><span class="lnum">1</span> La idea genial de Sejong <span class="chev">›</span></summary>
@@ -776,12 +874,13 @@ function romSyl(c, v, f){ return CHO_R[c] + JUNG_R[v] + (JONG_R[f]||""); }
 
 /* ================= tabs ================= */
 function showTab(name){
-  ["learn","drill","prog"].forEach(t => {
+  ["alfa","learn","drill","prog"].forEach(t => {
     document.getElementById("panel-"+t).hidden = (t !== name);
     document.getElementById("tab-"+t).setAttribute("aria-selected", t===name ? "true" : "false");
   });
   if (name === "prog") renderProgress();
   if (name !== "drill") stopTimer();
+  if (name !== "alfa") stopPlayAll();
   window.scrollTo({top:0});
 }
 
@@ -952,6 +1051,102 @@ function mapTap(j){
   document.getElementById("mapDetail").innerHTML =
     '<span class="glyph kr">'+j+'</span><div><b>'+info.r+'</b><br><span class="subtle">'+info.hint+'</span></div>'+
     '<button class="sound" style="margin-left:auto" aria-label="Escuchar" onclick="speak(\''+say+'\')">🔊</button>';
+}
+
+
+/* ================= Alfabeto: 21 vocales + 19 consonantes ================= */
+const ALFA_EX = {
+  "ㅏ":["사과","sa·gwa · manzana"], "ㅓ":["버스","beo·seu · bus"], "ㅗ":["오늘","o·neul · hoy"], "ㅜ":["우유","u·yu · leche"],
+  "ㅡ":["이름","i·reum · nombre"], "ㅣ":["김치","gim·chi · kimchi"], "ㅕ":["라면","ra·myeon · ramyeon"], "ㅛ":["아니요","a·ni·yo · no"],
+  "ㅠ":["우유","u·yu · leche"], "ㅐ":["내일","nae·il · mañana"], "ㅔ":["카페","ka·pe · café"], "ㅖ":["주세요","ju·se·yo · deme"],
+  "ㅘ":["사과","sa·gwa · manzana"],
+  "ㄱ":["고기","go·gi · carne"], "ㄴ":["나무","na·mu · árbol"], "ㄷ":["달","dal · luna"], "ㄹ":["라면","ra·myeon · ramyeon"],
+  "ㅁ":["물","mul · agua"], "ㅂ":["바다","ba·da · mar"], "ㅅ":["사랑","sa·rang · amor"], "ㅇ":["빵","ppang · pan (ng al final)"],
+  "ㅈ":["주세요","ju·se·yo · deme"], "ㅊ":["친구","chin·gu · amigo"], "ㅋ":["커피","keo·pi · café"], "ㅌ":["컴퓨터","keom·pyu·teo · computador"],
+  "ㅍ":["피자","pi·ja · pizza"], "ㅎ":["한국","han·guk · Corea"], "ㄲ":["꽃","kkot · flor"], "ㄸ":["딸기","ttal·gi · frutilla"],
+  "ㅃ":["빵","ppang · pan"]
+};
+const ALFA_VOC = VOWELS.map(v => ({j:v.j, r:v.r, hint:v.hint, pol:v.pol, grp:v.grp==="comp"?"comp":"bas", say:VOWEL_SAY[v.j]||v.j}));
+const ALFA_CONS_ORDER = ["ㄱ","ㄴ","ㄷ","ㄹ","ㅁ","ㅂ","ㅅ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ","ㄲ","ㄸ","ㅃ","ㅆ","ㅉ"];
+const ALFA_CONS = ALFA_CONS_ORDER.map(j => {
+  const c = CONS.concat(STRONG).find(x => x.j === j);
+  const grp = ["ㄲ","ㄸ","ㅃ","ㅆ","ㅉ"].includes(j) ? "tensa" : (["ㅊ","ㅋ","ㅌ","ㅍ"].includes(j) ? "asp" : "bas");
+  return {j, r:c.r, hint:c.hint, grp, say:c.plus, pol:""};
+});
+let alfaKind = "v", alfaSel = null, playAllTimer = null;
+const POL_ICON = {yang:"☀", yin:"☾", neutral:"◐", comp:""};
+function alfaTileHTML(it){
+  const pol = POL_ICON[it.pol] || "";
+  return '<button class="tile" id="tile-'+it.j.codePointAt(0)+'" onclick="alfaTap(\''+it.j+'\')" aria-label="'+it.j+' · '+it.r+'">'+
+    (pol?'<span class="pol">'+pol+'</span>':'')+
+    '<span class="j">'+it.j+'</span><span class="r">'+it.r+'</span><span class="h">'+it.hint+'</span></button>';
+}
+function renderAlfa(kind){
+  stopPlayAll();
+  alfaKind = kind;
+  document.getElementById("seg-v").setAttribute("aria-pressed", kind==="v" ? "true" : "false");
+  document.getElementById("seg-c").setAttribute("aria-pressed", kind==="c" ? "true" : "false");
+  const g = document.getElementById("alfaGrid");
+  const leg = document.getElementById("alfaLegend");
+  const lbl = document.getElementById("alfaLbl");
+  if (kind === "v"){
+    lbl.innerHTML = 'Toca cualquier cuadro para oírlo. Cada vocal suena con la <span class="kr">ㅇ</span> muda delante (<span class="kr">ㅏ</span> → <span class="kr">아</span>).';
+    leg.innerHTML = '<span><b>☀ yang</b> · punto hacia afuera/arriba, «luminosa»</span><span><b>☾ yin</b> · punto hacia adentro/abajo, «oscura»</span><span><b>◐ neutra</b> · las líneas solas</span><span><b>Dos puntos</b> = añade el sonido «y»</span>';
+    g.innerHTML =
+      '<div class="grp">10 básicas <span>· en el orden del diccionario</span></div><div class="alfa-grid">'+ALFA_VOC.filter(v=>v.grp==="bas").map(alfaTileHTML).join("")+'</div>'+
+      '<div class="grp">11 compuestas <span>· combinan dos básicas; las gemelas (ㅐㅔ · ㅒㅖ · ㅙㅚㅞ) hoy suenan igual</span></div><div class="alfa-grid">'+ALFA_VOC.filter(v=>v.grp==="comp").map(alfaTileHTML).join("")+'</div>';
+  } else {
+    lbl.innerHTML = 'Toca cualquier cuadro para oírlo. Cada consonante suena con la vocal <span class="kr">ㅏ</span> (<span class="kr">ㄱ</span> → <span class="kr">가</span>).';
+    leg.innerHTML = '<span><b>Básicas</b> · el dibujo de tu boca</span><span><b>Aspiradas</b> · un trazo más = sale aire</span><span><b>Tensas</b> · letra doble = seca, sin aire</span>';
+    g.innerHTML =
+      '<div class="grp">14 básicas <span>· ㅇ es muda al inicio y «ng» al final</span></div><div class="alfa-grid">'+ALFA_CONS.filter(c=>c.grp!=="tensa").map(alfaTileHTML).join("")+'</div>'+
+      '<div class="grp">5 tensas <span>· como diciendo la sílaba un poquito enojado</span></div><div class="alfa-grid">'+ALFA_CONS.filter(c=>c.grp==="tensa").map(alfaTileHTML).join("")+'</div>';
+  }
+  document.getElementById("alfaDetail").hidden = true;
+  alfaSel = null;
+}
+function alfaItems(){ return alfaKind === "v" ? ALFA_VOC : ALFA_CONS; }
+function flashTile(j){
+  document.querySelectorAll(".tile.playing").forEach(t => t.classList.remove("playing"));
+  const el = document.getElementById("tile-"+j.codePointAt(0));
+  if (el){ el.classList.add("playing"); setTimeout(()=>el.classList.remove("playing"), 700); }
+}
+function alfaTap(j){
+  const it = alfaItems().find(x => x.j === j); if (!it) return;
+  speak(it.say); flashTile(j);
+  document.querySelectorAll(".tile.sel").forEach(t => t.classList.remove("sel"));
+  const el = document.getElementById("tile-"+j.codePointAt(0)); if (el) el.classList.add("sel");
+  alfaSel = it;
+  const ex = ALFA_EX[j];
+  const polTxt = it.pol==="yang" ? "☀ yang (luminosa)" : it.pol==="yin" ? "☾ yin (oscura)" : it.pol==="neutral" ? "◐ neutra" : it.pol==="comp" ? "compuesta" : (it.grp==="tensa" ? "tensa" : it.grp==="asp" ? "aspirada" : "básica");
+  const d = document.getElementById("alfaDetail");
+  d.hidden = false;
+  d.innerHTML = '<div class="big kr">'+it.j+'</div><div class="txt"><b>'+it.r+'</b> · '+it.hint+' <span class="subtle">· '+polTxt+'</span>'+
+    '<div class="row"><button class="exbtn" onclick="exPlay(this,\''+it.say+'\')">'+it.say+' <small>'+(alfaKind==="v"?"con ㅇ muda":"con ㅏ")+'</small></button>'+
+    (ex ? '<button class="exbtn" onclick="exPlay(this,\''+ex[0]+'\')">'+ex[0]+' <small>'+ex[1]+'</small></button>' : '')+
+    '</div></div><button class="sound" onclick="speak(\''+it.say+'\');flashTile(\''+it.j+'\')" aria-label="Repetir">🔊</button>';
+}
+function exPlay(btn, t){
+  speak(t);
+  if (btn){ btn.classList.add("playing"); setTimeout(()=>btn.classList.remove("playing"), 600); }
+}
+function stopPlayAll(){
+  if (playAllTimer){ clearTimeout(playAllTimer); playAllTimer = null; }
+  const b = document.getElementById("playAllBtn"); if (b) b.textContent = "▶ Escuchar todas en orden";
+}
+function playAll(){
+  if (playAllTimer){ stopPlayAll(); return; }
+  const items = alfaItems(); let i = 0;
+  const b = document.getElementById("playAllBtn"); if (b) b.textContent = "■ Detener";
+  const step = () => {
+    if (i >= items.length){ stopPlayAll(); return; }
+    const it = items[i++];
+    speak(it.say); flashTile(it.j);
+    const el = document.getElementById("tile-"+it.j.codePointAt(0));
+    if (el && el.scrollIntoView) el.scrollIntoView({block:"nearest", behavior:"smooth"});
+    playAllTimer = setTimeout(step, 1150);
+  };
+  step();
 }
 
 /* ================= progress store ================= */
@@ -1266,6 +1461,7 @@ function renderCompVowels(){
     '<span class="kr">'+v.j+'</span><small>'+v.r+'</small></button>'
   ).join("");
 }
+renderAlfa("v");
 renderCompVowels();
 renderNum();
 vSetBase("i");
