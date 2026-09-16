@@ -15,7 +15,7 @@ Leyenda: ✅ = corregido en este commit · ⏳ = requiere tu aprobación (sustan
 | `app/notificarme/page.tsx:142` | "US$150 pago único o US$75/mes" | ✅ |
 | `app/notificarme/page.tsx:120, 166` | "acceso prioritario y **descuento de lanzamiento**" (no existe) | ✅ "acceso prioritario a horarios y cupos" |
 | `app/api/checkout/route.ts:42` | título del ítem en Mercado Pago "Mensualidad 1 de 2 (US$75/mes)" | ✅ "Cuota 1 de 2 (US$75)" |
-| `lib/nivel1.ts:38` | **PayPal `5X33QK4A928FU` cobra US$89** (link de julio) bajo un botón que dice US$150 | ⏳ **Tuyo**: crear los Pay Links de 150 y 75 (pasos en `Campana_Lanzamiento_Octubre_2026.md` §7). Mientras tanto, ✅ el botón de PayPal cae a WhatsApp si el link está vacío — pero **no vacié el link** para no quitarte la vía de cobro; decide tú. |
+| `lib/nivel1.ts:38` | PayPal `5X33QK4A928FU` cobraba US$89 (link de julio) bajo un botón que dice US$150 | ✅ Jay actualizó el link a US$150 y creó `SQ2YHGEZFUDEC` para la cuota de US$75; ambos publicados el 15 sept |
 | `public/programa-curso-nivel-1-a1.pdf` | PDF de julio: 11 sesiones × 90 min, US$89 | ⏳ borrar + redirect a `/programas/Programa_Basico1_Octubre_2026.pdf` |
 | `public/pronunciacion-coreana-PRINT.html:1222-1228` | "Reserva tu lugar gratis… martes 7 de julio… precio fundador" (HTML público sin enlaces) | ⏳ sacar de `public/` |
 
@@ -112,4 +112,4 @@ Había 9 redacciones para la misma acción (ir a `/nivel-1#clases`): "Inscribirm
 4. **Assets de marca**: og-image y favicon en azul; hero comprimido.
 5. **Decisiones de contenido**: correo `hola@academiaseul.com` ¿existe?; dirección Magdalena 140 ¿se publica?; etiquetas de los testimonios; plataforma de email en la política (Brevo).
 6. **Responsive de segunda pasada**: grilla semanal apilada en móvil, hero `h-screen`, menú móvil, `scroll-padding` dinámico, HangulBoard, VideoIntro.
-7. PayPal: vaciar `PAYPAL_LINK_UNICO` hasta tener el link de US$150 (hoy el botón "US$150" cobra US$89).
+7. ~~PayPal~~ — resuelto: links de US$150 y US$75 publicados.

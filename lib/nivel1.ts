@@ -31,12 +31,12 @@ export const precioLabel = () =>
   `US$${PRECIO_UNICO} el curso completo · o ${MESES} cuotas de US$${PRECIO_MENSUAL}`;
 export const PRECIO_CORTO = `US$${PRECIO_UNICO} · o ${MESES} × US$${PRECIO_MENSUAL}`;
 
-// 🔗 Links de pago PayPal (crear en PayPal → Pay Links / botones con monto fijo).
-// TODO(Jay): generar el link nuevo por US$150 y otro por US$75 y pegarlos aquí.
-// Mientras PAYPAL_LINK_MENSUAL esté vacío, el plan mensual se coordina por WhatsApp.
-// TODO(Jay): en PayPal configurar URL de retorno https://www.academiaseul.com/nivel-1?pago=success
-export const PAYPAL_LINK_UNICO = "https://www.paypal.com/ncp/payment/5X33QK4A928FU";
-export const PAYPAL_LINK_MENSUAL = "";
+// 🔗 Links de pago PayPal (Pay Links con monto fijo, confirmados por Jay el 15 sept 2026).
+// Si PAYPAL_LINK_MENSUAL queda vacío, el plan en cuotas se coordina por WhatsApp.
+// Pendiente en PayPal: "Cuenta de PayPal opcional" = activado y retorno automático a
+// https://www.academiaseul.com/nivel-1?pago=success
+export const PAYPAL_LINK_UNICO = "https://www.paypal.com/ncp/payment/5X33QK4A928FU"; // US$150 · curso completo
+export const PAYPAL_LINK_MENSUAL = "https://www.paypal.com/ncp/payment/SQ2YHGEZFUDEC"; // US$75 · cuota 1 de 2
 
 // 🔗 Hotmart (checkout en la moneda del alumno: USD/EUR/moneda local — ideal
 // para alumnos fuera de LatAm). Los botones solo aparecen cuando el link existe.

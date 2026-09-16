@@ -17,7 +17,7 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
 - **Cohorte octubre 2026** (hora Chile, UTC-3 todo el curso): Lun 18:00 Niños (profe por confirmar) · Mar 20:00 Básico 1 Guiran · Mar 21:00 Conversacional 1 Abby (= mié 9:00 KST) · Mié 21:00 Básico 2 Jay · Jue 20:00 Básico 1 Guiran · Jue 21:00 TOPIK II Jay (cupo 8). 8 semanas, 60 min, certificado incluido. Cierre de matrícula: domingo 4 de octubre.
 - Páginas: `/nivel-1` = inscripción (acepta `?clase=a11-martes|a11-jueves|a12|a21|topik2|ninos`), `/programa` = syllabus público, `/lector-hangul` = app gratuita de lectura con audio nativo (fuente única `scratchpad/lector-de-hangul.html`, no está en el repo). Componentes clave: `Escalera`, `HorarioSemanal` (selector de país), `SidebarCursos` (columna izquierda), `ResumenReserva`, `EquipoProfes`; hook `lib/useHoraLocal.ts`.
 - Sin "Taller gratis" en el sitio; Contacto = WhatsApp directo.
-- Pagos: Mercado Pago (checkout en `app/api/checkout/route.ts`, CLP según plan), PayPal (links en `lib/nivel1.ts`; **pendiente**: link de US$150 y de US$75 — el actual era de US$89), Hotmart opcional (links vacíos = botón oculto), transferencia por WhatsApp.
+- Pagos: Mercado Pago (checkout en `app/api/checkout/route.ts`, CLP según plan), PayPal (links en `lib/nivel1.ts`: `5X33QK4A928FU` = US$150 y `SQ2YHGEZFUDEC` = US$75, confirmados el 15 sept 2026), Hotmart opcional (links vacíos = botón oculto), transferencia por WhatsApp.
 
 ## Documentos del repo
 - `Campana_Lanzamiento_Octubre_2026.md` — campaña 15 sept → 5 oct (calendario, reels, reto, WhatsApp, PayPal).
@@ -27,10 +27,11 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
 - `A1_Nivel_1/` — repaso mid-term (pptx), examen, vocabulario, guía de estudio; `TOPIK_II/` — clase 1.
 
 ## Pendientes de Jay (no los des por hechos)
-1. Links de PayPal nuevos (US$150 / US$75) → pegar en `PAYPAL_LINK_UNICO` / `PAYPAL_LINK_MENSUAL`.
-2. Nombre del profe de Niños (hoy "por confirmar").
-3. Decidir si Hotmart se activa como tercera pasarela.
-4. Enviar el email de lanzamiento (contactos en Formspree `mzdypyky` → CSV).
+1. Nombre del profe de Niños (hoy "por confirmar").
+2. Decidir si Hotmart se activa como tercera pasarela.
+3. Enviar el email de lanzamiento (contactos en Formspree `mzdypyky` → CSV).
+4. En PayPal: activar "Cuenta de PayPal opcional" (tarjeta sin cuenta) y el retorno automático a /nivel-1?pago=success.
+5. Auditoría del 15 sept (`Auditoria_Sitio_2026-09-15.md`): aprobar los puntos ⏳ (borrar /taller, secretos en git, archivos huérfanos, og-image/favicon azules, hero comprimido).
 
 ## Cómo trabajar
 - Commits en español, sin acentos en el asunto es aceptable; push a `main` despliega.
