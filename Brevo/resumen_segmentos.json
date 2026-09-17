@@ -1,0 +1,178 @@
+{
+  "total": 97,
+  "prioridad": [
+    [
+      "P3",
+      58
+    ],
+    [
+      "P2",
+      21
+    ],
+    [
+      "P1",
+      18
+    ]
+  ],
+  "origen": [
+    [
+      "taller",
+      79
+    ],
+    [
+      "lista_nivel1",
+      9
+    ],
+    [
+      "test_nivel",
+      2
+    ],
+    [
+      "lista_nivel1+taller",
+      2
+    ],
+    [
+      "alumno_julio+lista_intermedio",
+      1
+    ],
+    [
+      "lista_intermedio",
+      1
+    ],
+    [
+      "alumno_julio",
+      1
+    ],
+    [
+      "lista_intermedio+taller",
+      1
+    ],
+    [
+      "contacto_web",
+      1
+    ]
+  ],
+  "curso": [
+    [
+      "Básico 1 (A1.1)",
+      87
+    ],
+    [
+      "Básico 2 (A1.2)",
+      4
+    ],
+    [
+      "Básico 2 (A1.2) · test de nivel",
+      3
+    ],
+    [
+      "Conversacional 1 (A2.1)",
+      2
+    ],
+    [
+      "Conversacional 1 (A2.1) · test de nivel",
+      1
+    ]
+  ],
+  "pais": [
+    [
+      "Chile",
+      37
+    ],
+    [
+      "Venezuela",
+      18
+    ],
+    [
+      "(vacío)",
+      13
+    ],
+    [
+      "Argentina",
+      8
+    ],
+    [
+      "México",
+      4
+    ],
+    [
+      "Perú",
+      3
+    ],
+    [
+      "Estados Unidos",
+      2
+    ],
+    [
+      "Ecuador",
+      2
+    ],
+    [
+      "Colombia",
+      1
+    ],
+    [
+      "España",
+      1
+    ],
+    [
+      "Guatemala",
+      1
+    ],
+    [
+      "Italia",
+      1
+    ]
+  ],
+  "nivel": [
+    [
+      "Sé algunas palabras de K-pop / K-dramas",
+      31
+    ],
+    [
+      "Ninguno (nunca he visto coreano)",
+      26
+    ],
+    [
+      "Conozco un poco el Hangul",
+      20
+    ],
+    [
+      "(vacío)",
+      5
+    ],
+    [
+      "Cero, nunca estudié",
+      4
+    ],
+    [
+      "Nivel básico (A1 – A2)",
+      3
+    ],
+    [
+      "Sé leer el alfabeto (한글)",
+      2
+    ],
+    [
+      "Desde cero",
+      2
+    ],
+    [
+      "Test: Tienes bases (9/10)",
+      1
+    ],
+    [
+      "Test: Tienes bases (8/10)",
+      1
+    ],
+    [
+      "Principiante (sin experiencia)",
+      1
+    ],
+    [
+      "Intermedio o más (B1+)",
+      1
+    ]
+  ],
+  "conWhatsapp": 10
+}

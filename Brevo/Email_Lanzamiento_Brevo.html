@@ -1,0 +1,95 @@
+<!-- Email HTML para Brevo · Academia Seúl · Lanzamiento cohorte octubre 2026
+     Campaigns → Create an email campaign → Design: "Code your own" → pegar este HTML.
+     Personalización: {{ contact.FIRSTNAME }} · Baja obligatoria: {{ unsubscribe }} · Links con UTM. -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F7FF;margin:0;padding:24px 0;font-family:Arial,Helvetica,sans-serif;">
+  <tr><td align="center">
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:600px;background:#FFFFFF;border-radius:16px;overflow:hidden;">
+
+      <!-- Header -->
+      <tr><td style="background:#4236F6;padding:34px 40px;text-align:center;">
+        <div style="color:#C9CFFF;font-size:13px;letter-spacing:3px;font-weight:bold;">ACADEMIA&nbsp;&nbsp;SEÚL</div>
+        <div style="color:#FFFFFF;font-size:30px;font-weight:bold;margin-top:8px;line-height:1.2;">Abrimos la cohorte de octubre 🇰🇷</div>
+        <div style="color:#E8B84B;font-size:16px;font-weight:bold;margin-top:10px;">Clases desde el 5 de octubre · 8 semanas · certificado incluido</div>
+      </td></tr>
+
+      <!-- Intro -->
+      <tr><td style="padding:32px 40px 8px 40px;color:#1B1C24;font-size:16px;line-height:1.6;">
+        <p style="margin:0 0 14px 0;">¡Hola {{ contact.FIRSTNAME | default: "chingu" }}! 안녕하세요 💙</p>
+        <p style="margin:0 0 14px 0;">Soy <strong>Jay (김재희)</strong>, de Academia Seúl. Me dejaste tus datos para avisarte cuando abriera la próxima cohorte — y hoy es el día. 🎉</p>
+        <p style="margin:0 0 6px 0;">No es solo un curso: armamos un <strong>programa completo</strong> para que tengas un lugar sin importar dónde estés en el coreano.</p>
+      </td></tr>
+
+      <!-- Courses table -->
+      <tr><td style="padding:12px 40px 8px 40px;">
+        <div style="color:#4236F6;font-size:13px;letter-spacing:2px;font-weight:bold;margin-bottom:10px;">🗓️ HORARIOS · HORA DE CHILE</div>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:14px;color:#1B1C24;">
+          <tr style="background:#003478;color:#FFFFFF;">
+            <td style="padding:10px 12px;font-weight:bold;">Curso</td>
+            <td style="padding:10px 12px;font-weight:bold;">Día · hora</td>
+            <td style="padding:10px 12px;font-weight:bold;">Profe</td>
+          </tr>
+          <tr><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">🧒 <strong>Coreano para Niños</strong><br><span style="color:#5C5F6B;font-size:12px;">8–12 años · desde cero</span></td><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">Lunes 18:00</td><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">Jay y Abby</td></tr>
+          <tr style="background:#F5F3FF;"><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">🌱 <strong>Básico 1 (A1.1)</strong><br><span style="color:#5C5F6B;font-size:12px;">Primeras Palabras · desde cero</span></td><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">Martes 20:00<br>o Jueves 20:00</td><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">Guiran 기란</td></tr>
+          <tr><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">💬 <strong>Conversacional 1 (A2.1)</strong><br><span style="color:#5C5F6B;font-size:12px;">Corea que amas · profesora nativa</span></td><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">Martes 21:00</td><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">Abby 홍미영</td></tr>
+          <tr style="background:#F5F3FF;"><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">🚀 <strong>Básico 2 (A1.2)</strong><br><span style="color:#5C5F6B;font-size:12px;">Pasado, presente y futuro · sigue al Nivel 1 de julio</span></td><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">Miércoles 21:00</td><td style="padding:10px 12px;border-bottom:1px solid #E5E1FB;">Jay 김재희</td></tr>
+          <tr><td style="padding:10px 12px;">🎯 <strong>TOPIK II (B1+)</strong><br><span style="color:#5C5F6B;font-size:12px;">Estrategia de examen · máx. 8 personas</span></td><td style="padding:10px 12px;">Jueves 21:00</td><td style="padding:10px 12px;">Jay 김재희</td></tr>
+        </table>
+        <p style="margin:10px 0 0 0;color:#5C5F6B;font-size:13px;line-height:1.5;">🌎 ¿Otro país? En la página de inscripción hay una tabla con tu hora exacta (México, Colombia, Perú, Argentina, EE.UU. y España).</p>
+      </td></tr>
+
+      <!-- Price band -->
+      <tr><td style="padding:20px 40px 8px 40px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#4236F6;border-radius:14px;">
+          <tr><td style="padding:22px;text-align:center;color:#FFFFFF;">
+            <div style="font-size:14px;letter-spacing:2px;color:#C9CFFF;font-weight:bold;">UN SOLO PRECIO PARA TODOS LOS CURSOS</div>
+            <div style="font-size:30px;font-weight:bold;margin-top:6px;">US$150 <span style="font-size:16px;font-weight:normal;color:#C9CFFF;">pago único</span></div>
+            <div style="font-size:18px;margin-top:4px;color:#E8B84B;font-weight:bold;">o 2 cuotas de US$75</div>
+          </td></tr>
+        </table>
+      </td></tr>
+
+      <!-- Includes -->
+      <tr><td style="padding:12px 40px 8px 40px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F5F3FF;border-radius:14px;">
+          <tr><td style="padding:20px 24px;color:#1B1C24;font-size:15px;line-height:1.7;">
+            <strong style="color:#4236F6;">Todos los cursos incluyen</strong><br>
+            ✅ 8 clases EN VIVO por Zoom (60 min) · grabación 24 h después<br>
+            ✅ Grupos chicos (máx. 15) · pronunciación corregida personalmente<br>
+            ✅ Slides + hojas de actividad + Lector de Hangul con audio nativo<br>
+            ✅ <strong>Certificado de Academia Seúl</strong> al terminar
+          </td></tr>
+        </table>
+      </td></tr>
+
+      <!-- CTA -->
+      <tr><td style="padding:24px 40px 8px 40px;text-align:center;">
+        <a href="https://www.academiaseul.com/nivel-1?utm_source=brevo&utm_medium=email&utm_campaign=oct26_lanzamiento" style="display:inline-block;background:#4236F6;color:#FFFFFF;font-weight:bold;font-size:18px;text-decoration:none;padding:16px 36px;border-radius:999px;">Reservar mi cupo →</a>
+        <div style="margin-top:14px;">
+          <a href="https://www.academiaseul.com/programa?utm_source=brevo&utm_medium=email&utm_campaign=oct26_lanzamiento" style="color:#4236F6;font-weight:bold;font-size:14px;text-decoration:underline;">📚 Ver el programa y syllabus completo</a>
+          &nbsp;·&nbsp;
+          <a href="https://www.academiaseul.com/programas/Programa_Cursos_Octubre_2026.pdf" style="color:#4236F6;font-weight:bold;font-size:14px;text-decoration:underline;">📄 Descargar PDF</a>
+        </div>
+      </td></tr>
+
+      <!-- Closing -->
+      <tr><td style="padding:20px 40px 8px 40px;color:#1B1C24;font-size:15px;line-height:1.6;">
+        <p style="margin:0 0 12px 0;">Como estabas en la lista, te escribo <strong>antes de anunciarlo en redes</strong>. Se paga con transferencia (Chile), tarjeta vía Mercado Pago o PayPal.</p>
+        <p style="margin:0 0 12px 0;">¿Dudas de qué nivel te conviene? Responde este correo o escríbeme por WhatsApp y lo vemos en 5 minutos.</p>
+        <p style="margin:0;">Nos vemos el 5 de octubre. 화이팅!<br><strong>Jay Kim (김재희)</strong><br><span style="color:#5C5F6B;">Academia Seúl</span></p>
+      </td></tr>
+
+      <!-- WhatsApp -->
+      <tr><td style="padding:12px 40px 28px 40px;text-align:center;">
+        <a href="https://wa.me/56942115562?text=Hola%20Jay!%20Recib%C3%AD%20el%20correo%20de%20la%20cohorte%20de%20octubre%20y%20tengo%20una%20duda." style="display:inline-block;background:#25D366;color:#FFFFFF;font-weight:bold;font-size:15px;text-decoration:none;padding:12px 24px;border-radius:999px;">💬 Escribirle a Jay por WhatsApp</a>
+      </td></tr>
+
+      <!-- Footer -->
+      <tr><td style="background:#0D0D0D;padding:20px 40px;text-align:center;color:#9D96F2;font-size:12px;line-height:1.6;">
+        Academia Seúl · Santiago, Chile · clases online por Zoom<br>
+        <a href="https://www.academiaseul.com/?utm_source=brevo&utm_medium=email&utm_campaign=oct26_lanzamiento" style="color:#FFFFFF;text-decoration:none;">academiaseul.com</a> · @academiaseul · @jaychingu.oficial<br>
+        <span style="color:#5C5F6B;">Recibes este correo porque dejaste tus datos en academiaseul.com. <a href="{{ unsubscribe }}" style="color:#5C5F6B;">Darme de baja</a> · <a href="{{ mirror }}" style="color:#5C5F6B;">Ver en el navegador</a></span>
+      </td></tr>
+
+    </table>
+  </td></tr>
+</table>
