@@ -137,7 +137,7 @@ KOR 050 · Coreano para Niños (8–12) · "Juega y aprende" 🧒
 Coreano desde cero con juegos, canciones y dibujos. En 8 semanas leen sus primeras palabras, se presentan, cuentan del 1 al 10 y nombran animales y comidas — y cierran con un mini-show en coreano para la familia 🎤
 
 📅 Lunes 18:00 (hora Chile)
-👩‍🏫 Docente especialista en 8–12 años (te lo presentamos por WhatsApp antes de pagar)
+👨‍🏫👩‍🏫 Jay (김재희) y Abby (홍미영) — dos profes coreanos nativos
 ⏱ 8 semanas · 60 min · Zoom · 12 cupos · certificado
 💵 US$150 · o 2 cuotas de US$75
 

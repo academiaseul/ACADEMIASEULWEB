@@ -14,7 +14,7 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
 - **Fuente única de verdad del programa:** `lib/nivel1.ts` — cursos, clases, horarios, profes, precios, husos horarios, links de pago, PDFs. Cualquier cambio de programa se hace ahí y las páginas lo heredan.
 - **Nomenclatura única** (no inventar otra): Básico 1 (A1.1) · Básico 2 (A1.2) · Conversacional 1 (A2.1) · Conversacional 2 (A2.2, enero 2027) · TOPIK II (B1+) · Coreano para Niños (8–12). El "Nivel 1" de julio 2026 = Básico 1; el puente se dice explícito.
 - **Precio único:** "US$150 el curso completo · o 2 cuotas de US$75" (nunca "desde", nunca "/mes" sin "×2"). Fecha global: "la semana del 5 de octubre".
-- **Cohorte octubre 2026** (hora Chile, UTC-3 todo el curso): Lun 18:00 Niños (profe por confirmar) · Mar 20:00 Básico 1 Guiran · Mar 21:00 Conversacional 1 Abby (= mié 9:00 KST) · Mié 21:00 Básico 2 Jay · Jue 20:00 Básico 1 Guiran · Jue 21:00 TOPIK II Jay (cupo 8). 8 semanas, 60 min, certificado incluido. Cierre de matrícula: domingo 4 de octubre.
+- **Cohorte octubre 2026** (hora Chile, UTC-3 todo el curso): Lun 18:00 Niños (Jay y Abby) · Mar 20:00 Básico 1 Guiran · Mar 21:00 Conversacional 1 Abby (= mié 9:00 KST) · Mié 21:00 Básico 2 Jay · Jue 20:00 Básico 1 Guiran · Jue 21:00 TOPIK II Jay (cupo 8). 8 semanas, 60 min, certificado incluido. Cierre de matrícula: domingo 4 de octubre.
 - Páginas: `/nivel-1` = inscripción (acepta `?clase=a11-martes|a11-jueves|a12|a21|topik2|ninos`), `/programa` = syllabus público, `/lector-hangul` (alias `/coreano`, redirect en next.config.mjs) = app gratuita de lectura con audio nativo. **Fuente única: `public/lector-hangul/index.html`** (HTML+CSS+JS en un archivo; clips en `public/audio/kr/<hex-utf8>.mp3`, voz ko-KR-SunHiNeural, rate -8%). Pestañas: Alfabeto (21 vocales / 19 consonantes como botones con audio) · Aprender · Practicar · Progreso. Componentes clave: `Escalera`, `HorarioSemanal` (selector de país), `SidebarCursos` (columna izquierda), `ResumenReserva`, `EquipoProfes`; hook `lib/useHoraLocal.ts`.
 - Sin "Taller gratis" en el sitio; Contacto = WhatsApp directo.
 - **Trilingüe ES/EN/KO + modo día/noche** (16 sept 2026). Preferencias en `lib/prefs.tsx` (localStorage `as-lang`/`as-theme`; controles en `components/PrefsControls.tsx`, en el menú). Traducción estilo gettext: `t("texto en español")` desde `lib/i18n.tsx` en componentes cliente; datos a nivel de módulo se marcan con `i18n("...")`; los campos de `lib/nivel1.ts` se traducen al renderizar (`t(curso.subtitulo)`, `td(horarioDe(...))` para días). Diccionarios `lib/dict/en.ts` y `lib/dict/ko.ts` (915 claves; si falta una clave se muestra el español). Para textos nuevos: envolver con `t()`, extraer claves con `scratchpad/i18n_extract.js`, traducir en `i18n_en.json`/`i18n_ko.json` y regenerar con `i18n_build_dict.js`. Nunca `${}` dentro de `t()`. Páginas con `metadata` se parten en `app/x/page.tsx` (server, metadata) + `components/XContent.tsx` (cliente). Siguen solo en español: Lector, blog, legales, guías/pronunciación, generador-nombre, hangul-dle y la metadata SEO.
@@ -29,11 +29,10 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
 - `A1_Nivel_1/` — repaso mid-term (pptx), examen, vocabulario, guía de estudio; `TOPIK_II/` — clase 1.
 
 ## Pendientes de Jay (no los des por hechos)
-1. Nombre del profe de Niños (hoy "por confirmar").
-2. Decidir si Hotmart se activa como tercera pasarela.
-3. Enviar el email de lanzamiento (contactos en Formspree `mzdypyky` → CSV).
-4. En PayPal: activar "Cuenta de PayPal opcional" (tarjeta sin cuenta) y el retorno automático a /nivel-1?pago=success.
-5. Auditoría del 15 sept (`Auditoria_Sitio_2026-09-15.md`): aprobar los puntos ⏳ (borrar /taller, secretos en git, archivos huérfanos, og-image/favicon azules, hero comprimido).
+1. Decidir si Hotmart se activa como tercera pasarela.
+2. Enviar el email de lanzamiento (contactos en Formspree `mzdypyky` → CSV).
+3. En PayPal: activar "Cuenta de PayPal opcional" (tarjeta sin cuenta) y el retorno automático a /nivel-1?pago=success.
+4. Auditoría del 15 sept (`Auditoria_Sitio_2026-09-15.md`): aprobar los puntos ⏳ (borrar /taller, secretos en git, archivos huérfanos, og-image/favicon azules, hero comprimido).
 
 ## Cómo trabajar
 - Commits en español, sin acentos en el asunto es aceptable; push a `main` despliega.

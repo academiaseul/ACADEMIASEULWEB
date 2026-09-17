@@ -100,7 +100,7 @@ const CURSOS = [
   },
   {
     file: "05_KOR050_Ninos", code: "KOR <em>050</em>", secciones: "Sección 01", cefr: "Niños", nombre: "Coreano para Niños", titleSize: 54, sub: "Juega y aprende", ko: "어린이 한국어",
-    horario: "Lunes 18:00 <span class='mono' style='font-size:15px;color:#5C5F6B;white-space:nowrap'>(hora Chile)</span>", profe: "Especialista en niños <span class='mono' style='font-size:15px;color:#5C5F6B;white-space:nowrap'>(por confirmar)</span>", req: "Ninguno — desde cero", cupo: "12",
+    horario: "Lunes 18:00 <span class='mono' style='font-size:15px;color:#5C5F6B;white-space:nowrap'>(hora Chile)</span>", profe: "Jay y Abby · <span class='kr'>김재희 · 홍미영</span>", req: "Ninguno — desde cero", cupo: "12",
     desc: "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia.",
     logros: ["Leer sus primeras palabras en coreano", "Presentarse: nombre y edad", "Contar del 1 al 10 · animales y comidas", "Presentar un mini-show en coreano a la familia"], podra: "Al terminar, tu hijo/a podrá",
     prog: ["¡Hola, Corea! · <span class='kr'>안녕하세요</span>", "Mi nombre en coreano · <span class='kr'>이름</span>", "La fábrica de sílabas · <span class='kr'>글자</span>", "Los animales · <span class='kr'>동물</span>", "Mi familia · <span class='kr'>가족</span>", "Los números mágicos · <span class='kr'>숫자</span>", "¡Ñam! Comida coreana · <span class='kr'>음식</span>", "Show final + certificado · <span class='kr'>무대</span>"],
@@ -143,7 +143,7 @@ function portada() {
     ["KOR 102", "Básico 2 · Pasado, presente y futuro", "A1.2", "Mié 21:00", "Jay"],
     ["KOR 201", "Conversacional 1 · Corea que amas", "A2.1", "Mar 21:00", "Abby"],
     ["KOR 301", "TOPIK II · Estrategia de examen", "B1+", "Jue 21:00", "Jay"],
-    ["KOR 050", "Coreano para Niños · Juega y aprende", "8–12", "Lun 18:00", "Por confirmar"],
+    ["KOR 050", "Coreano para Niños · Juega y aprende", "8–12", "Lun 18:00", "Jay y Abby"],
     ["KOR 202", "Conversacional 2 · Corea por dentro", "A2.2", "Enero 2027", "—"],
   ];
   return HEAD + `<style>

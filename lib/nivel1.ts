@@ -83,11 +83,11 @@ export const PROFES: Profe[] = [
   },
   {
     id: "ninos",
-    nombre: "Profesor/a de Niños",
-    corto: "por confirmar",
+    nombre: "Jay y Abby · 김재희 · 홍미영",
+    corto: "Jay y Abby",
     emoji: "🧒",
     rol: "Coreano para Niños",
-    bio: "Docente con experiencia en clases para 8–12 años. Te lo presentamos por WhatsApp antes de que pagues.",
+    bio: "Dos profes coreanos nativos para la clase de niños: Jay (fundador, criado en Chile) y Abby (pedagoga). Juegos, canciones y dibujos en un grupo de máximo 12.",
   },
 ];
 export const profeDe = (id: ProfeId): Profe => PROFES.find((p) => p.id === id)!;
@@ -120,7 +120,7 @@ export const CLASES: Clase[] = [
   { id: "a12", cursoId: "a12", label: "Básico 2 (A1.2) · Miércoles 21:00 Chile · Jay", profeId: "jay", dia: "Miércoles", horaChile: "21:00", primeraClase: "miércoles 7 de octubre", cupos: 15 },
   { id: "a21", cursoId: "a21", label: "Conversacional 1 (A2.1) · Martes 21:00 Chile · Abby", profeId: "abby", dia: "Martes", horaChile: "21:00", primeraClase: "martes 6 de octubre", cupos: 15 },
   { id: "topik2", cursoId: "topik2", label: "TOPIK II (B1+) · Jueves 21:00 Chile · Jay", profeId: "jay", dia: "Jueves", horaChile: "21:00", primeraClase: "jueves 8 de octubre", cupos: 8 },
-  { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–12) · Lunes 18:00 Chile", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "lunes 5 de octubre", cupos: 12 },
+  { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–12) · Lunes 18:00 Chile · Jay y Abby", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "lunes 5 de octubre", cupos: 12 },
 ];
 
 // 🌎 Conversión de horarios (octubre–noviembre 2026, Chile en horario de verano UTC-3).
