@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 
 const BASE = 'https://www.academiaseul.com';
 // Fechas fijas: si cambian en cada build, Google ignora lastmod.
-const HOY = new Date('2026-09-15');
+const HOY = new Date('2026-09-18');
 const JUNIO = new Date('2026-06-07');
 const MAYO = new Date('2026-05-20');
 
@@ -17,7 +17,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/sobre`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/recursos/guias`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE}/recursos/pronunciacion`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${BASE}/blog`, lastModified: JUNIO, changeFrequency: 'weekly', priority: 0.6 },
+    { url: `${BASE}/blog`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.6 },
+    { url: `${BASE}/blog/dangun-por-que-corea-nacio-de-una-osa`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE}/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE}/blog/por-que-en-corea-no-existe-el-piso-4`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${BASE}/blog/hangul-el-alfabeto-mas-cientifico`, lastModified: JUNIO, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${BASE}/blog/nunchi-el-arte-coreano-de-leer-el-ambiente`, lastModified: JUNIO, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${BASE}/faq`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.6 },

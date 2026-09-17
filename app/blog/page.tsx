@@ -18,6 +18,36 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "dangun-por-que-corea-nacio-de-una-osa",
+    korean: "단군",
+    title: "Dangún y el 개천절: por qué Corea nació de una osa (y no de un tigre)",
+    excerpt:
+      "Una osa y un tigre entran a una cueva con ajo y artemisa; solo una sale humana. El mito de Dangún, el feriado del 3 de octubre y la paciencia en coreano.",
+    date: "18 de septiembre, 2026",
+    readTime: "8 min",
+    tag: "Mitos y fiestas",
+  },
+  {
+    slug: "sopa-de-algas-antes-de-un-examen-supersticion-coreana",
+    korean: "미역국",
+    title: "Por qué en Corea nadie come sopa de algas antes de un examen",
+    excerpt:
+      "La sopa de algas (미역국) es la de cumpleaños y del posparto, pero antes de un examen está prohibida: en coreano reprobar es «resbalarse». Regalos pegajosos y el día en que Corea se detiene.",
+    date: "18 de septiembre, 2026",
+    readTime: "8 min",
+    tag: "Cultura y comida",
+  },
+  {
+    slug: "por-que-en-corea-no-existe-el-piso-4",
+    korean: "4층",
+    title: "El piso F: por qué en muchos edificios de Corea no existe el piso 4",
+    excerpt:
+      "Entras a un ascensor en Seúl y los botones dicen 1, 2, 3, F, 5. El 4 se pronuncia igual que «muerte» y por eso muchos edificios lo esconden. De paso, los números sino-coreanos.",
+    date: "18 de septiembre, 2026",
+    readTime: "7 min",
+    tag: "Curiosidades",
+  },
+  {
     slug: "nunchi-el-arte-coreano-de-leer-el-ambiente",
     korean: "눈치",
     title: "눈치 (nunchi): el superpoder coreano de leer el ambiente",
