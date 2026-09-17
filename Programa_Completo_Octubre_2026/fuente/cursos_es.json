@@ -1,0 +1,1807 @@
+[
+ {
+  "cursoId": "a11",
+  "codigo": "KOR 101",
+  "nombre": "Básico 1 (A1.1) · Primeras Palabras",
+  "descripcion": "El punto de partida de la escalera de Academia Seúl: en 8 semanas aprendes a leer el alfabeto coreano completo y a decir tus primeras frases reales sobre ti, tu familia, tu casa, tu día y tus gustos, siguiendo el libro 한글학교 한국어 1. El drilling de lectura vive en el Lector de Hangul como tarea con audio nativo, así la hora en vivo se reserva para hablar y ser corregido. Reemplaza al Nivel 1 de julio de 2026 y da paso directo a Básico 2 (A1.2).",
+  "perfil_alumno": "Adultos y jóvenes hispanohablantes de Latinoamérica y España que empiezan desde cero absoluto, o que reconocen algunas letras y palabras por K-pop y K-dramas pero todavía no leen con seguridad ni arman una frase. También quienes hicieron el Nivel 1 de julio sin completar la parte de lectura y prefieren consolidar antes de subir a Básico 2 (A1.2). Grupo de máximo 15 personas, con cámara encendida y ganas de equivocarse en voz alta.",
+  "requisito_entrada": "Ninguno: se parte de cero absoluto, sin necesidad de saber leer Hangul ni conocer ninguna palabra. Se pide conexión estable a Zoom con cámara y micrófono, cuaderno y lápiz para trazar el alfabeto a mano, y abrir el Lector de Hangul (academiaseul.com/lector-hangul, gratuito y sin cuenta) en el celular o computador antes de la clase 1.",
+  "objetivos": [
+   "Leer en voz alta cualquier sílaba coreana, incluidas las que terminan en 받침 (consonante final), y escribir tu nombre y las palabras del curso en Hangul",
+   "Saludar, despedirte y presentarte con nombre y país usando 저는 N이에요/예요 (yo soy N), eligiendo bien la forma según haya o no consonante final",
+   "Preguntar y responder qué es un objeto (이게 뭐예요?) y quién es una persona (누구예요?), y presentar a tu familia con una foto",
+   "Contar del 1 al 100 con los números sino-coreanos y decir cuántos son en tu familia con 명 y los primeros números nativos (한 명, 두 명… 다섯 명); la edad, la hora y las fechas se completan en Básico 2 (A1.2)",
+   "Decir dónde vives y dónde están las cosas con N에 있어요/없어요 y las palabras de posición",
+   "Contar a dónde vas y qué haces cada día con el presente -아요/어요 y las partículas 이/가 y 을/를, y decir qué te gusta con 좋아해요",
+   "Sostener una mini-presentación oral de 1 a 2 minutos sobre ti sin leer, entendible para un coreano que hable despacio"
+  ],
+  "estructura_clase": [
+   {
+    "minutos": "5",
+    "bloque": "Quiz de la clase anterior",
+    "detalle": "5 ítems en el chat o en pantalla sobre la sesión pasada (lectura, vocabulario o una estructura); se revisan la hoja y las estrellas del Lector de Hangul y se resuelven dudas de la tarea."
+   },
+   {
+    "minutos": "15",
+    "bloque": "Presentación de la lección",
+    "detalle": "La profe presenta la gramática y el vocabulario de la lección del libro con el deck: dibujos, gestos, ejemplos con los nombres reales del grupo y repetición coral antes de cualquier explicación larga."
+   },
+   {
+    "minutos": "15",
+    "bloque": "Práctica controlada",
+    "detalle": "Drills cortos de transformación y de completar (이에요/예요, partículas, -아요/어요), lectura en voz alta por turnos y corrección de pronunciación uno a uno con cámara encendida."
+   },
+   {
+    "minutos": "20",
+    "bloque": "Práctica oral en pares",
+    "detalle": "Salas de Zoom con role play, dictado o mini-diálogo de la lección; la profe rota por las salas, corrige en el momento y anota los errores comunes para el cierre."
+   },
+   {
+    "minutos": "5",
+    "bloque": "Cierre y tarea",
+    "detalle": "Corrección de los 2 o 3 errores más repetidos, las 3 frases clave de la clase para repetir en coro, y asignación del Lector de Hangul, la hoja de la lección y el audio de la semana."
+   }
+  ],
+  "semanas": [
+   {
+    "n": 1,
+    "titulo": "가나다라 I · La sílaba",
+    "leccion": "가나다라 I (Hangul, parte 1) del libro 한글학교 한국어 1",
+    "objetivo": "Leer en voz alta tus primeras sílabas combinando las vocales básicas con las consonantes simples, y entender cómo se arma un bloque silábico coreano.",
+    "gramatica": [
+     "Vocales simples ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ + ㅑ ㅕ ㅛ ㅠ (10 vocales): forma, sonido y orden de trazo",
+     "Consonantes simples ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ (14): el ㅇ mudo al inicio de sílaba",
+     "El bloque silábico consonante + vocal: la vocal va a la derecha (가, 너) o debajo (고, 누); se lee de izquierda a derecha y de arriba abajo"
+    ],
+    "vocabulario": [
+     "나 (yo)",
+     "너 (tú)",
+     "아이 (niño, niña)",
+     "우유 (leche)",
+     "오이 (pepino)",
+     "나무 (árbol)",
+     "바다 (mar)",
+     "모자 (sombrero)",
+     "머리 (cabeza)",
+     "구두 (zapatos)",
+     "어머니 (madre)",
+     "아버지 (padre)"
+    ],
+    "practica": [
+     "Coro y eco: la profe muestra cada vocal con la boca y la mano, todos repiten en coro y luego uno por uno con cámara encendida (corrección 1:1 de ㅡ y ㅓ, los dos sonidos que no existen en español).",
+     "Fábrica de sílabas en pares: en salas de Zoom, uno dicta una consonante y una vocal, el otro escribe la sílaba en el chat y la lee en voz alta; luego cambian de rol.",
+     "Lectura relámpago: 12 palabras del libro en pantalla con dibujo; cada alumno lee una en voz alta y el grupo adivina el significado. Los comandos de clase 따라 하세요 (repitan), 읽으세요 (lean) y 잘했어요 (muy bien) se aprenden de oído desde el primer día."
+    ],
+    "tarea": [
+     "Lector de Hangul → Alfabeto: tocar y escuchar las 21 vocales y 19 consonantes; luego Practicar → Vocales y Consonantes hasta 3 estrellas en los modos Lectura y Escucha.",
+     "Hoja 가나다라 I: trazar las 10 vocales y las 14 consonantes (5 veces cada una) y escribir tu nombre en Hangul con la tabla del deck.",
+     "Audio de 30 segundos leyendo las 12 palabras de la semana, enviado en la comunidad del curso antes de la clase 2."
+    ],
+    "cultura": "El Hangul lo creó el rey 세종 (Sejong) en 1443 para que cualquier persona pudiera leer en un día; las consonantes dibujan la posición de la lengua y los labios al pronunciarlas."
+   },
+   {
+    "n": 2,
+    "titulo": "가나다라 II + 안녕하세요",
+    "leccion": "가나다라 II (Hangul, parte 2) + Lección 1 안녕하세요? (¿Hola?) del libro 한글학교 한국어 1",
+    "objetivo": "Leer cualquier sílaba coreana, incluidas las que terminan en consonante y las vocales compuestas, y presentarte con tu nombre y tu país.",
+    "gramatica": [
+     "받침 (consonante final): las 7 pronunciaciones representativas ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ en palabras como 한국 (Corea), 김치 (kimchi), 밥 (arroz cocido)",
+     "Consonantes dobles ㄲ ㄸ ㅃ ㅆ ㅉ y vocales compuestas de uso frecuente ㅐ ㅔ ㅖ ㅚ ㅟ ㅘ ㅝ ㅢ (las que aparecen en 시계, 회사, 위, 의자)",
+     "저는 N이에요/예요 (yo soy N): 이에요 después de consonante final, 예요 después de vocal",
+     "은/는 (partícula de tema) solo en su uso para presentarse: 저는 (en cuanto a mí)"
+    ],
+    "vocabulario": [
+     "안녕하세요 (hola)",
+     "안녕히 가세요 (adiós, a quien se va)",
+     "안녕히 계세요 (adiós, a quien se queda)",
+     "감사합니다 (gracias)",
+     "저 (yo, forma humilde)",
+     "사람 (persona)",
+     "한국 (Corea)",
+     "칠레 (Chile)",
+     "멕시코 (México)",
+     "콜롬비아 (Colombia)",
+     "학생 (estudiante)",
+     "선생님 (profesor, profesora)"
+    ],
+    "practica": [
+     "Dictado de batchim: la profe dice 10 palabras (한국, 김치, 밥, 선생님…), los alumnos escriben en el chat y comparan; se corrige la ㄹ final y la diferencia entre ㄴ y ㅇ finales.",
+     "Ronda de presentaciones con cámara: 안녕하세요, 저는 ___예요/이에요. 저는 ___ 사람이에요; cada alumno escucha al anterior y repite su nombre y país antes de presentarse.",
+     "Role play en pares: encuentro y despedida, eligiendo bien 안녕히 가세요 o 안녕히 계세요 según quién se va y quién se queda."
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar: Aspiradas y tensas, Sílabas y Batchim hasta 3 estrellas en Lectura y en Escucha.",
+     "Hoja de la lección 1: completar 8 presentaciones con 이에요/예요 y escribir la tuya con nombre, país y ocupación.",
+     "Audio de 20 segundos con tu presentación completa, sin leer, en la comunidad del curso."
+    ],
+    "cultura": "Al saludar, los coreanos inclinan la cabeza (목례, saludo con la cabeza); con una persona mayor o un profesor la inclinación es más marcada y siempre va acompañada del 안녕하세요 completo, nunca del 안녕 (hola, informal) que se oye entre amigos."
+   },
+   {
+    "n": 3,
+    "titulo": "이게 뭐예요? · ¿Qué es esto?",
+    "leccion": "Lección 2 이게 뭐예요? (¿Qué es esto?) y Lección 3 네, 빵이에요 (Sí, es pan) del libro 한글학교 한국어 1",
+    "objetivo": "Preguntar y responder qué es cualquier objeto a tu alrededor, y afirmar o negar con 네/아니요.",
+    "gramatica": [
+     "이거/그거/저거 (esto/eso/aquello) según la distancia entre quien habla y quien escucha; 이게 = 이거 + 가 (forma de sujeto): 이게 뭐예요?",
+     "N이에요/예요? (¿es N?) y 뭐예요? (¿qué es?) con entonación ascendente",
+     "네 / 아니요 (sí / no) y la negación N이/가 아니에요 (no es N)"
+    ],
+    "vocabulario": [
+     "빵 (pan)",
+     "물 (agua)",
+     "책 (libro)",
+     "연필 (lápiz)",
+     "가방 (bolso, mochila)",
+     "시계 (reloj)",
+     "휴대폰 (celular)",
+     "의자 (silla)",
+     "책상 (escritorio)",
+     "우산 (paraguas)",
+     "커피 (café)",
+     "뭐 (qué)"
+    ],
+    "practica": [
+     "Muestra y pregunta: cada alumno acerca un objeto real a la cámara; el grupo pregunta 이게 뭐예요? y él responde 책이에요 o 아니요, 우산이에요.",
+     "Batalla de distancias en pares: con dos objetos en pantalla, uno señala con 이거/그거/저거 y el otro corrige la elección según dónde está cada cosa respecto de los dos.",
+     "Quiz relámpago con los dibujos del libro: 10 imágenes con una afirmación (빵이에요?), respuesta en coro con 네 o 아니요 + el nombre correcto."
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Palabras (modos Lectura y Escucha) y Pictogramas hasta 3 estrellas.",
+     "Quiz escrito de las lecciones 2–3 (10 ítems en la hoja) + foto de 5 objetos de tu casa con su etiqueta en Hangul.",
+     "Audio de 30 segundos: 5 preguntas y respuestas 이게 뭐예요? — 책이에요, grabadas con el objeto en la mano."
+    ],
+    "cultura": "En Corea el 빵 (pan) es un dulce de panadería más que un acompañamiento de la comida: cadenas como 파리바게뜨 (Paris Baguette) están en casi cada esquina de Seúl."
+   },
+   {
+    "n": 4,
+    "titulo": "우리 엄마예요 · Mi familia",
+    "leccion": "Lección 4 우리 엄마예요 (Es mi mamá) del libro 한글학교 한국어 1",
+    "objetivo": "Presentar a tu familia con una foto, preguntar quién es alguien y contar del 1 al 100 con los números sino-coreanos.",
+    "gramatica": [
+     "우리 N (nuestro, nuestra → mi) para la familia y lo propio: 우리 엄마 (mi mamá), 우리 집 (mi casa), 우리나라 (mi país)",
+     "누구예요? (¿quién es?) y su respuesta N이에요/예요; 이 사람은 (esta persona) para señalar en una foto",
+     "Números sino-coreanos 일, 이, 삼, 사, 오, 육, 칠, 팔, 구, 십, 백 (1–100): se arman como bloques (십오, 이십, 삼십일) y sirven para el teléfono, con 공 (cero)",
+     "Primer contacto con los nativos 하나, 둘, 셋, 넷, 다섯 → 한/두/세/네/다섯 명 solo para decir cuántos son en tu familia (우리 가족은 네 명이에요); el sistema completo, la edad (살) y la hora (시) se ven en Básico 2"
+    ],
+    "vocabulario": [
+     "가족 (familia)",
+     "엄마 (mamá)",
+     "아빠 (papá)",
+     "언니 (hermana mayor, dicho por una mujer)",
+     "누나 (hermana mayor, dicho por un hombre)",
+     "오빠 (hermano mayor, dicho por una mujer)",
+     "형 (hermano mayor, dicho por un hombre)",
+     "동생 (hermano o hermana menor)",
+     "할머니 (abuela)",
+     "할아버지 (abuelo)",
+     "친구 (amigo, amiga)",
+     "누구 (quién)"
+    ],
+    "practica": [
+     "Álbum en vivo: cada alumno comparte una foto familiar y la presenta (우리 가족이에요. 이 사람은 우리 엄마예요…); el grupo pregunta 누구예요? señalando a alguien más de la foto.",
+     "Bingo de números sino-coreanos: la profe canta 15 números entre 1 y 100 y los alumnos marcan su cartón; en la segunda ronda dictan ellos.",
+     "Intercambio de teléfonos en pares: cada uno dicta un número (real o inventado) dígito por dígito en coreano y el compañero lo repite para confirmar."
+    ],
+    "tarea": [
+     "Lector de Hangul → Aprender → Números (los dos sistemas) y luego Practicar → Números en las 3 rondas (Lectura, Escucha, Inversa) hasta 3 estrellas.",
+     "Flashcards de familia (12 palabras) + escribir 6 frases sobre tu propia familia con el patrón 우리 ___은/는 ___이에요/예요.",
+     "Audio de 40 segundos presentando a 3 personas de tu familia a partir de una foto, sin leer."
+    ],
+    "cultura": "En Corea se dice 우리 엄마 (nuestra mamá) y hasta 우리나라 (nuestro país) en vez de 'mi': el 우리 refleja la mirada colectiva de la cultura coreana, y a los hermanos mayores se les llama por su rol (언니, 오빠, 형, 누나), nunca por su nombre."
+   },
+   {
+    "n": 5,
+    "titulo": "집이 어디예요? · Lugares",
+    "leccion": "Lección 5 집이 어디예요? (¿Dónde está tu casa?) del libro 한글학교 한국어 1",
+    "objetivo": "Decir dónde vives, preguntar dónde queda un lugar y ubicar cosas con las palabras de posición.",
+    "gramatica": [
+     "어디예요? (¿dónde está?, ¿dónde es?) y respuesta con el nombre del lugar: 집이 어디예요? — 산티아고예요",
+     "N에 있어요/없어요 (está en N / no está en N): la partícula 에 de lugar con el verbo de existencia",
+     "Palabras de posición 위 (arriba), 아래 (abajo), 앞 (delante), 뒤 (detrás), 옆 (al lado), 안 (dentro) + 에: 책상 위에 있어요",
+     "이/가 (partícula de sujeto) presentada solo con 있어요/없어요: 책이 책상 위에 있어요"
+    ],
+    "vocabulario": [
+     "집 (casa)",
+     "학교 (colegio, escuela)",
+     "회사 (empresa, oficina)",
+     "병원 (hospital)",
+     "카페 (cafetería)",
+     "식당 (restaurante)",
+     "화장실 (baño)",
+     "은행 (banco)",
+     "공원 (parque)",
+     "여기 (aquí)",
+     "저기 (allá)",
+     "어디 (dónde)"
+    ],
+    "practica": [
+     "Tour de escritorio: cada alumno describe 3 cosas de su mesa con 위/아래/옆/안 (컴퓨터 옆에 커피가 있어요) y los demás dibujan lo que oyen; luego se comparan los dibujos con la cámara.",
+     "Diálogo de calle en pares con el plano del libro: A pregunta 화장실이 어디예요? / 은행이 어디예요?, B responde 카페 옆에 있어요 y A lo ubica en el plano.",
+     "Encuesta del grupo: 집이 어디예요? — cada alumno responde con su ciudad y su país, y la profe los marca en el mapa compartido."
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Pictogramas (lugares y objetos) y Palabras en modo Inversa hasta 3 estrellas.",
+     "Hoja de la lección 5: etiquetar el dibujo de la habitación con 위/아래/앞/뒤/옆/안 y completar 8 frases con 에 있어요.",
+     "Foto de tu escritorio o tu pieza + 5 frases escritas ubicando objetos (책이 책상 위에 있어요), enviadas en la comunidad del curso."
+    ],
+    "cultura": "Las direcciones en Corea usan el sistema 도로명 주소 (dirección por nombre de calle) desde 2014, pero en la práctica todo el mundo se ubica por la 지하철역 (estación de metro) más cercana y su número de salida."
+   },
+   {
+    "n": 6,
+    "titulo": "학교에 가요 · Mi día",
+    "leccion": "Lección 6 학교에 가요 (Voy al colegio) del libro 한글학교 한국어 1",
+    "objetivo": "Contar a dónde vas cada día y qué haces, conjugando tus primeros verbos en el presente informal-cortés.",
+    "gramatica": [
+     "-아요/어요 (presente informal-cortés): raíz con ㅏ/ㅗ → -아요 (가요, 봐요), las demás → -어요 (먹어요, 마셔요), 하다 → 해요",
+     "N에 가요/와요 (voy a N / vengo a N): la partícula 에 como destino",
+     "Expresiones de tiempo sin partícula: 오늘 (hoy), 매일 (todos los días), 지금 (ahora) al inicio de la frase",
+     "Preguntas 어디에 가요? (¿a dónde vas?) y 뭐 해요? (¿qué haces?)"
+    ],
+    "vocabulario": [
+     "가다 (ir)",
+     "오다 (venir)",
+     "먹다 (comer)",
+     "마시다 (beber)",
+     "보다 (ver)",
+     "자다 (dormir)",
+     "공부하다 (estudiar)",
+     "일하다 (trabajar)",
+     "운동하다 (hacer ejercicio)",
+     "오늘 (hoy)",
+     "매일 (todos los días)",
+     "지금 (ahora)"
+    ],
+    "practica": [
+     "Rueda de conjugación con gestos: la profe dice la raíz (가다) y hace el gesto, el grupo responde en coro 가요; luego relevo individual con los 9 verbos de la semana, corrigiendo 봐요 y 와요.",
+     "Mi día en 5 frases: en pares, cada uno cuenta 5 cosas que hace cada día (매일 회사에 가요. 커피 마셔요…) y el compañero se lo reporta al grupo en tercera persona (마리아는 매일 회사에 가요).",
+     "Encuesta con manos: 매일 뭐 해요? — por cada verbo se levanta la mano (손 드세요) y se arma el ranking de actividades del grupo en pantalla."
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Contrarreloj: superar tu propio récord dos veces (lectura veloz con audio) y guardar la pantalla de Progreso.",
+     "Hoja de la lección 6: tabla de conjugación de los 9 verbos de la semana en -아요/어요 + 8 frases con N에 가요/와요.",
+     "Audio de 45 segundos contando tu día típico con al menos 6 verbos en presente."
+    ],
+    "cultura": "Un colegial coreano pasa el día entre la 학교 (colegio) y el 학원 (academia privada) hasta bien entrada la noche: la cultura del 빨리빨리 (rápido, rápido) empieza en la escuela."
+   },
+   {
+    "n": 7,
+    "titulo": "Mi pieza y mis verbos",
+    "leccion": "Lección 7 방에 침대가 있어요 (En la pieza hay una cama) y Lección 8 그림을 그려요 (Dibujo) del libro 한글학교 한국어 1",
+    "objetivo": "Describir tu pieza con 있어요/없어요 y decir qué haces con las cosas, usando correctamente las partículas de sujeto y de objeto.",
+    "gramatica": [
+     "있어요/없어요 ahora como 'hay / no hay' para describir un lugar (en la semana 5 fue 'está en'): 방에 침대가 있어요, 창문이 없어요; se consolida 이/가 marcando lo que existe",
+     "을/를 (partícula de objeto directo): 책을 읽어요, 커피를 마셔요; 을 tras consonante final, 를 tras vocal",
+     "Contraste 은/는 vs 이/가 solo con las frases del curso: 저는 학생이에요 (tema conocido) / 책이 있어요 (sujeto nuevo)",
+     "Verbos con vocal ㅣ/ㅜ que contraen en el presente: 마시다 → 마셔요, 그리다 → 그려요, 배우다 → 배워요"
+    ],
+    "vocabulario": [
+     "방 (pieza, habitación)",
+     "침대 (cama)",
+     "창문 (ventana)",
+     "컴퓨터 (computador)",
+     "텔레비전 (televisor)",
+     "그림 (dibujo)",
+     "그리다 (dibujar)",
+     "읽다 (leer)",
+     "쓰다 (escribir; 써요)",
+     "듣다 (escuchar; 들어요 se aprende como forma fija)",
+     "배우다 (aprender)",
+     "음악 (música)"
+    ],
+    "practica": [
+     "Tour de mi pieza: cada alumno muestra su pieza por cámara o con una foto y dice 4 frases (방에 침대가 있어요. 텔레비전은 없어요…); el grupo pregunta 컴퓨터가 있어요?",
+     "Mímica de verbos en pares: uno actúa (그림을 그려요, 음악을 들어요), el otro adivina la frase completa con 을/를; se anota un punto por partícula correcta.",
+     "Dictado de partículas: 10 frases del libro con hueco; los alumnos escriben 이/가 o 을/를 en el chat y uno justifica en voz alta cada elección."
+    ],
+    "tarea": [
+     "Hoja de las lecciones 7–8 + quiz escrito de 15 ítems (partículas y conjugación) para entregar antes de la clase 8.",
+     "Lector de Hangul → Practicar → Palabras y Contrarreloj en modo Escucha: mantener las 3 estrellas de las semanas anteriores.",
+     "Preparar el guion de tu mini-presentación final (8–10 frases: quién eres, tu familia, dónde vives, tu día y tu pieza; las frases de gustos se suman en la clase 8) y enviarlo para corrección antes de la clase 8."
+    ],
+    "cultura": "Muchos coreanos duermen sobre un 요 (colchón fino de suelo) en un piso con 온돌 (calefacción bajo el suelo); por eso en una pieza tradicional no siempre hay 침대 (cama), y los muebles son bajos."
+   },
+   {
+    "n": 8,
+    "titulo": "사과를 좋아해요 + examen",
+    "leccion": "Lección 9 사과를 좋아해요 (Me gustan las manzanas) + Lección 10 종합연습 (repaso integral) del libro 한글학교 한국어 1",
+    "objetivo": "Decir qué te gusta y qué no, integrar todo el curso en una mini-presentación oral y cerrar con la evaluación y el certificado.",
+    "gramatica": [
+     "N을/를 좋아해요 / 안 좋아해요 (me gusta / no me gusta N): 좋아하다 lleva objeto con 을/를, no sujeto; 안 좋아해요 se aprende como frase fija (la negación 안 se sistematiza en Básico 2)",
+     "뭘 좋아해요? (¿qué te gusta?), contracción de 뭐를, y la respuesta con 정말 (de verdad) o 조금 (un poco)",
+     "Repaso integral de la lección 10: 이에요/예요 · 은/는 · 이/가 · 을/를 · 에 · -아요/어요 en un solo texto sobre ti"
+    ],
+    "vocabulario": [
+     "사과 (manzana)",
+     "과일 (fruta)",
+     "바나나 (banana, plátano)",
+     "김치 (kimchi)",
+     "불고기 (bulgogi, carne marinada)",
+     "라면 (fideos instantáneos coreanos)",
+     "영화 (película)",
+     "노래 (canción)",
+     "드라마 (serie, drama)",
+     "운동 (deporte)",
+     "좋아하다 (gustar)",
+     "싫어하다 (no gustar, detestar)"
+    ],
+    "practica": [
+     "Encuesta de gustos en pares: 김치를 좋아해요? — 네, 정말 좋아해요 / 아니요, 안 좋아해요; cada pareja reporta al grupo una coincidencia y una diferencia.",
+     "Mini-presentación final 'Yo en coreano': 1 a 2 minutos por alumno, cámara encendida y sin leer (presentación, familia, dónde vives, tu día, tu pieza y tus gustos); el grupo hace una pregunta a cada presentador.",
+     "Cierre de curso: cada alumno dice en coreano una frase que no sabía decir hace 8 semanas; la profe presenta el puente a Básico 2 (A1.2): pasado, futuro y números aplicados."
+    ],
+    "tarea": [
+     "Antes de la clase: rendir el examen escrito en línea (30 minutos, disponible 48 horas antes de la clase 8).",
+     "Después de la clase: Lector de Hangul → Practicar → Contrarreloj, ronda final para registrar tu mejor marca y guardar la pantalla de Progreso como cierre del curso.",
+     "Grabar en audio tu mini-presentación final ya corregida (1 minuto) y conservarla: es tu punto de partida para compararlo al terminar Básico 2."
+    ],
+    "cultura": "Regalar fruta en Corea es un gesto serio: las cajas de 사과 (manzana) o 배 (pera) son el regalo clásico de 추석 (fiesta de la cosecha) y 설날 (año nuevo lunar), y se venden envueltas una por una."
+   }
+  ],
+  "evaluacion": {
+   "quizzes": "Quiz semanal de 5 minutos al inicio de cada clase (clases 2 a 7): 5 ítems de lectura, vocabulario o gramática de la sesión anterior, respondidos en el chat o en pantalla. Se corrige en el momento, cuenta dentro de la participación y sirve para detectar a quién hay que reforzar en las salas de pares.",
+   "tareas": "Cada semana tres entregas cortas antes de la clase siguiente: (1) las misiones del Lector de Hangul, con las estrellas visibles en la pestaña Progreso; (2) la hoja de la lección del libro; (3) un audio de 20 a 45 segundos en la comunidad del curso. La profe devuelve una corrección breve de pronunciación por audio o texto. Se consideran cumplidas las tareas entregadas al menos en 6 de las 7 semanas con tarea.",
+   "examen_final": "Examen escrito en línea de 30 minutos (formulario con tiempo), disponible durante las 48 horas previas a la clase 8. Cuatro secciones sobre 50 puntos: (1) dictado con audio de 10 sílabas y palabras, incluidas 4 con batchim (lectura y escucha, 10 pts); (2) vocabulario bidireccional coreano-español de las lecciones 1–9 (15 pts); (3) partículas 은/는, 이/가, 을/를, 에 y conjugación en -아요/어요 (15 pts); (4) producción: 6 frases sobre ti (familia, casa, día, gustos) con las estructuras del curso (10 pts).",
+   "oral": "Mini-presentación final 'Yo en coreano' en la clase 8: 1 a 2 minutos con cámara encendida y sin leer (presentación, familia, dónde vives, tu día, tu pieza y tus gustos) más una pregunta del grupo. Se evalúa que se entienda, el uso de las estructuras del curso y la pronunciación de vocales y batchim; la lentitud no se penaliza. El guion se entrega en la semana 7 y vuelve corregido antes de la clase.",
+   "certificado": "Certificado Academia Seúl 'Básico 1 (A1.1) · CEFR A1 (parcial) · preparación TOPIK I nivel 1' para quien obtenga al menos 60 % en la nota global (40 % participación y quizzes · 30 % tareas · 30 % examen escrito y oral) y asista a un mínimo de 6 de las 8 clases en vivo (≥ 75 %; ver la grabación no cuenta como asistencia). Quien no alcance el mínimo recibe una constancia de participación y puede rendir de nuevo el oral en la semana siguiente. Se entrega la semana del 30 de noviembre junto con la preventa de Básico 2 (A1.2)."
+  },
+  "materiales": [
+   "Libro 한글학교 한국어 1 (Coreano de la Escuela de Hangul, tomo 1): se trabajan 가나다라 I–II y las lecciones 1 a 9, más el repaso integral de la lección 10",
+   "Lector de Hangul (academiaseul.com/lector-hangul): app gratuita con audio nativo; pestañas Alfabeto, Aprender, Practicar (Vocales, Consonantes, Aspiradas y tensas, Sílabas, Batchim, Palabras, Números, Pictogramas, Contrarreloj, en modos Lectura, Escucha e Inversa) y Progreso",
+   "Deck de cada sesión con la plantilla trilingüe de la casa (ES/KO/EN) + hoja de actividad por lección con el quiz de la semana",
+   "Grabación de cada clase en Zoom, disponible 24 horas después",
+   "Flashcards digitales de familia, lugares, verbos y gustos (semanas 4 a 8)",
+   "Guía de pronunciación coreana para hispanohablantes de Academia Seúl (PDF)",
+   "Comunidad de alumnos del curso para entregar audios, hojas y fotos, y recibir la corrección de la profe",
+   "Cuaderno y lápiz para trazar el Hangul a mano las dos primeras semanas; cámara y micrófono en cada clase"
+  ],
+  "notas_profesor": [
+   "Ritmo de las semanas 1–2: el drilling lo hace el Lector, no la clase. Presenta cada grupo de letras, haz leer a cada alumno 2 o 3 sílabas en voz alta y manda el resto a la app; si en la semana 3 alguien todavía no lee batchim, ofrécele 10 minutos aparte antes o después de la clase, pero no frenes al grupo.",
+   "Los cinco errores de pronunciación de los hispanohablantes que sí hay que corregir desde el día 1, con gestos de boca: ㅡ dicha como 'u', ㅓ dicha como 'o', ㅂ/ㅍ/ㅃ y ㄱ/ㅋ/ㄲ oídas como un solo sonido, y la ㅇ final reemplazada por 'n'. Entonación y velocidad se dejan pasar en A1.1.",
+   "이에요/예요 y las partículas: el alumno quiere traducir 'es' y 'yo' palabra por palabra. Regla de bolsillo que funciona: con batchim → 이에요 / 은 / 이 / 을; sin batchim → 예요 / 는 / 가 / 를. La diferencia tema vs sujeto (은/는 vs 이/가) se toca recién en la semana 7 y solo con los ejemplos del libro; no abras el tema antes aunque pregunten.",
+   "En español el objeto directo no lleva marca, así que 을/를 se omite sistemáticamente (책 읽어요). En lo escrito corrígela siempre desde la semana 7; en lo oral acepta la omisión si la frase se entiende y anótala para el cierre, para no cortar a quien recién se anima a hablar.",
+   "Grupo mixto: habrá alumnos que llegan del Nivel 1 de julio o de los K-dramas leyendo algo y otros de cero absoluto. En las salas de Zoom empareja a un lector rápido con uno lento para los dictados; a los rápidos dales como reto el modo Inversa y Contrarreloj del Lector, no más gramática.",
+   "Explica la gramática en español (es tu ventaja como bilingüe), pero que los comandos de clase, los saludos y las correcciones de pronunciación sean siempre en coreano: 따라 하세요, 다시 한번, 잘했어요. Usa los nombres reales del grupo en cada ejemplo y evita adelantar la hora y los números nativos completos: pertenecen a Básico 2 y cargar la semana 4 con eso rompe la clase.",
+   "Pide los audios de tarea desde la semana 1 (20 a 45 segundos) y responde cada uno con un audio tuyo de 15 segundos: es el hábito que más retiene al grupo. Para la clase 8, recibe los guiones de la mini-presentación en la semana 7, devuélvelos corregidos y en vivo cronometra 2 minutos por alumno para que alcancen los 15; cierra con el puente explícito a Básico 2 (pasado, futuro, números aplicados)."
+  ]
+ },
+ {
+  "cursoId": "a12",
+  "codigo": "KOR 102",
+  "nombre": "Básico 2 (A1.2) · Pasado, presente y futuro",
+  "descripcion": "Continuación de Básico 1 (A1.1) y del Nivel 1 de julio: del presente al pasado y al futuro. En 8 semanas pasas de frases sueltas a contar qué hiciste, describir tu rutina y planear qué harás, y sumas las partículas que hacen sonar natural tu coreano (보다, 처럼, 마다, 밖에…). Lectura y números se ejercitan en el Lector de Hangul; la hora en vivo es para hablar y ser corregido. Cierra con el examen A2 de la casa y una conversación evaluada, tu pase directo a Conversacional 1 (A2.1).",
+  "perfil_alumno": "Adultos hispanohablantes de Latinoamérica y España que terminaron Básico 1 (A1.1) o el Nivel 1 de julio de 2026: leen Hangul con soltura (batchim incluido), se presentan, usan 이에요/예요 (ser), 있어요/없어요 (hay/tener) y el presente -아요/어요 con unos 10 verbos, y quieren pasar de frases sueltas a contar su vida en tres tiempos. También personas que estudiaron por su cuenta y aprobaron el test de nivel gratuito. Estudian de noche después del trabajo: el curso pide una hora en vivo y unas 2 horas de tarea repartidas en la semana.",
+  "requisito_entrada": "Básico 1 (A1.1) de Academia Seúl o el Nivel 1 de julio de 2026 aprobado; o test de nivel gratuito (academiaseul.com/test-nivel). En la práctica: leer cualquier sílaba en Hangul, presentarse (저는 ~예요), manejar 이에요/예요 y 있어요/없어요, contar con los números sino-coreanos y formar el presente -아요/어요 con verbos regulares. No se enseña el alfabeto en este curso.",
+  "objetivos": [
+   "Hablar de tu rutina, tu pasado y tus planes usando los tres tiempos: -아요/어요 (presente), -았어요/었어요 (pasado) y -(으)ㄹ 거예요 (futuro)",
+   "Usar los números sino-coreanos y nativos en la vida real: edad, cumpleaños, hora (몇 시) y teléfono",
+   "Decir qué no haces, qué no puedes y qué sabes hacer con 안, 못 y -(으)ㄹ 수 있어요/없어요",
+   "Comparar y precisar como un nativo con las partículas 보다, 처럼, 마다, 밖에, 만, 도 y 한테",
+   "Encadenar frases con -고 (y) y -지만 (pero) y conversar 5 minutos seguidos en coreano sin volver al español",
+   "Aprobar el examen A2 de la casa y la evaluación oral, y quedar listo para Conversacional 1 (A2.1)"
+  ],
+  "estructura_clase": [
+   {
+    "minutos": "5",
+    "bloque": "Quiz de la clase anterior",
+    "detalle": "5 preguntas rápidas (conjugación, partícula o número) sobre la clase pasada; se corrige la hoja de tarea en pantalla. Activa la memoria antes de sumar algo nuevo."
+   },
+   {
+    "minutos": "25",
+    "bloque": "Lección con el deck",
+    "detalle": "Los 2–4 puntos de gramática de la unidad del libro, con dibujos, gestos y ejemplos de la vida real de los alumnos; contraste explícito con el español. El alumno produce una frase propia desde el primer ejemplo."
+   },
+   {
+    "minutos": "5",
+    "bloque": "Drill de transformación",
+    "detalle": "Cadena oral rápida: Jay lanza un verbo o una frase y cada alumno la transforma (presente ↔ pasado ↔ futuro, afirmativo ↔ negativo). Corrección de pronunciación al vuelo."
+   },
+   {
+    "minutos": "20",
+    "bloque": "Práctica oral en pares",
+    "detalle": "Role play, entrevista o mini-diario en salas de Zoom de a dos; Jay rota por las salas y corrige uno a uno. Es el bloque que no se recorta nunca."
+   },
+   {
+    "minutos": "5",
+    "bloque": "Cierre y tarea",
+    "detalle": "Tres alumnos resumen la clase en una frase en coreano; se explica la tarea de la semana (hoja de la sesión + Lector de Hangul o audio corto) y se anticipa el quiz siguiente."
+   }
+  ],
+  "semanas": [
+   {
+    "n": 1,
+    "titulo": "Re-presentación + diagnóstico",
+    "leccion": "Miércoles 7 de octubre · Fundamentos 01–02 del libro: 이다 (ser) y 있다 (haber/tener/estar) · repaso activo de Básico 1 · diagnóstico oral individual",
+    "objetivo": "Te re-presentas con detalle (nombre, país y ciudad, ocupación, familia, pasatiempo) y respondes preguntas simples sobre ti sin leer; Jay toma tu diagnóstico oral como línea base del curso.",
+    "gramatica": [
+     "N이에요/예요 (ser, presente cortés) y N이/가 아니에요 (no ser): 저는 학생이 아니에요",
+     "있어요/없어요 (hay · tener · estar) con N에 (en): 집에 강아지가 있어요",
+     "은/는 (tema) frente a 이/가 (sujeto): repaso contrastivo con las preguntas 뭐 (qué), 누구 (quién), 어디 (dónde)",
+     "Estilo cortés -아요/어요 de Básico 1 reactivado con 살다 (vivir), 일하다 (trabajar), 공부하다 (estudiar)"
+    ],
+    "vocabulario": [
+     "직업 (profesión)",
+     "회사원 (empleado/a de oficina)",
+     "대학생 (estudiante universitario/a)",
+     "고향 (ciudad natal)",
+     "취미 (pasatiempo)",
+     "요즘 (últimamente)",
+     "아직 (todavía)",
+     "반갑습니다 (encantado/a de conocerte)",
+     "형제 (hermanos)",
+     "남편 (esposo) · 아내 (esposa)",
+     "강아지 (perrito)",
+     "회사 (empresa)"
+    ],
+    "practica": [
+     "Ronda de re-presentación: cada alumno se presenta en 4–5 frases (nombre, país o ciudad, ocupación, pasatiempo) y termina con una pregunta a otro compañero (취미가 뭐예요?)",
+     "Entrevista en pares con tarjeta: 어디에 살아요? 형제가 있어요? 요즘 뭐 해요? — y luego cada uno presenta al compañero en tercera persona al grupo",
+     "Diagnóstico oral individual de 2 minutos con Jay en una sala aparte, mientras el resto juega '있어요/없어요' con los objetos de su escritorio (en la clase 1 no hay quiz ni drill: esos 10 minutos se suman al bloque de pares para alcanzar a los 15)"
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Sílabas y Batchim en modo Escucha hasta 3 estrellas: recuperar la velocidad de lectura antes de la clase 2",
+     "Hoja 1: completar 10 frases con 이에요/예요, 있어요/없어요 y la partícula correcta (은/는 · 이/가), más 3 frases sobre tu familia",
+     "Audio de 30 segundos por el grupo de WhatsApp del curso: tu re-presentación en 5 frases, sin leer"
+    ],
+    "cultura": "Al conocerse, en Corea casi no se da la mano: se hace una pequeña reverencia (인사) y se dice 반갑습니다; preguntar la edad al presentarse no es descortesía, sirve para saber cómo hablarle al otro."
+   },
+   {
+    "n": 2,
+    "titulo": "Números aplicados",
+    "leccion": "Miércoles 14 de octubre · Fundamentos 03–05 del libro: numerales sino-coreanos y nativos · fechas y días de la semana · la hora (몇 시)",
+    "objetivo": "Dices tu edad, tu cumpleaños, tu número de teléfono y la hora a la que haces las cosas, y entiendes esos datos cuando te los dicen a velocidad normal.",
+    "gramatica": [
+     "Numerales sino-coreanos (일, 이, 삼…), reactivados de Básico 1, ahora para fechas, teléfono, minutos y precios",
+     "Numerales nativos (하나, 둘, 셋…) con 살 (años de edad) y 시 (hora); formas cortas 한 · 두 · 세 · 네 antes del contador",
+     "몇 (cuántos / qué número): 몇 시예요? (¿qué hora es?) · 몇 살이에요? (¿cuántos años tienes?) · 며칠이에요? (¿qué día es?)",
+     "N에 (a / en, para el tiempo): 세 시에 (a las tres), 월요일에 (el lunes), 생일에 (en el cumpleaños)"
+    ],
+    "vocabulario": [
+     "살 (años de edad)",
+     "생일 (cumpleaños)",
+     "월 (mes)",
+     "일 (día del mes)",
+     "요일 (día de la semana: 월요일 … 일요일)",
+     "시 (hora)",
+     "분 (minuto)",
+     "반 (y media)",
+     "오전 (a. m.)",
+     "오후 (p. m.)",
+     "전화번호 (número de teléfono)",
+     "언제 (cuándo)"
+    ],
+    "practica": [
+     "Dictado de números en cadena: Jay dicta teléfonos y fechas, cada alumno anota y luego dicta su propio número (real o inventado) a un compañero, que lo repite para confirmar",
+     "Reloj humano en pares: uno dice una hora (여덟 시 반) y el otro la escribe con dígitos; luego se preguntan 몇 시에 일어나요? (¿a qué hora te levantas?) y 몇 시에 자요? (¿a qué hora te acuestas?)",
+     "Mini-encuesta de cumpleaños: cada alumno pregunta 생일이 언제예요? a tres compañeros y el grupo arma el calendario de cumpleaños del curso en pantalla"
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Números: las tres rondas (sino-coreanos, nativos y mezcla) en los modos Lectura y Escucha hasta 3 estrellas",
+     "Hoja 2: escribir en Hangul tu edad, tu cumpleaños, tu teléfono y tres horas de tu día (levantarte, almorzar, dormir)",
+     "Audio corto: las horas de tu rutina de un día normal, 5 frases con N에 (일곱 시에 일어나요…)"
+    ],
+    "cultura": "Un coreano puede decir su edad de dos formas: la 'edad coreana' tradicional (naces con un año y sumas uno cada Año Nuevo) y la internacional, la única oficial desde junio de 2023; por eso a veces oirás dos números para la misma persona."
+   },
+   {
+    "n": 3,
+    "titulo": "Presente completo",
+    "leccion": "Miércoles 21 de octubre · Unidad Tiempos 01–02 del libro: presente cortés -아요/어요 completo y presente formal -ㅂ니다/습니다 · verbos irregulares de uso diario · partícula 에서 frente a 에",
+    "objetivo": "Describes tu rutina real con 10 verbos en presente, incluidos los irregulares más frecuentes, y reconoces el estilo formal -ㅂ니다/습니다 cuando lo oyes en tiendas, noticias y presentaciones.",
+    "gramatica": [
+     "-아요/어요 (presente cortés) reactivado de Básico 1: regla de la vocal (ㅏ/ㅗ → -아요, el resto → -어요, 하다 → 해요) y contracciones (가요, 봐요, 마셔요)",
+     "Irregulares de uso diario: ㅂ (덥다 → 더워요), ㄷ (듣다 → 들어요), 으 (바쁘다 → 바빠요), 르 (모르다 → 몰라요), ㄹ (살다 → 삽니다)",
+     "-ㅂ니다/습니다 (presente formal), solo para reconocerlo y usarlo en una presentación breve",
+     "N에서 (en, lugar donde se hace algo) frente a N에 (en / a, ubicación o destino): 회사에서 일해요 · 회사에 가요"
+    ],
+    "vocabulario": [
+     "일어나다 (levantarse)",
+     "씻다 (lavarse)",
+     "아침을 먹다 (desayunar)",
+     "출근하다 (ir al trabajo)",
+     "퇴근하다 (salir del trabajo)",
+     "쉬다 (descansar)",
+     "운동하다 (hacer ejercicio)",
+     "듣다 (escuchar)",
+     "바쁘다 (estar ocupado/a)",
+     "덥다 (hacer calor)",
+     "춥다 (hacer frío)",
+     "모르다 (no saber)"
+    ],
+    "practica": [
+     "Rueda de conjugación rápida: tarjeta con el infinitivo en pantalla, el alumno dice la forma -아요/어요 en 3 segundos; los irregulares valen doble",
+     "Mi rutina en pares: cada uno narra su día con 8–10 verbos y horas (일곱 시에 일어나요, 여덟 시에 출근해요…); el compañero anota y cuenta la rutina del otro al grupo",
+     "Escucha selectiva: Jay lee 6 frases mezclando -아요/어요 y -ㅂ니다/습니다; los alumnos marcan cuál es cuál y a quién se la dirían (a un amigo, a un cliente)"
+    ],
+    "tarea": [
+     "Hoja de conjugación 3: tabla de 20 verbos (12 regulares y 8 irregulares) en -아요/어요 y -ㅂ니다/습니다",
+     "Lector de Hangul → Practicar → Palabras y Contrarreloj en modo Escucha (10 minutos): mantener las 3 estrellas de Básico 1 y la velocidad de lectura",
+     "Quiz en línea de 10 preguntas sobre presente e irregulares (se revisa en el quiz de apertura de la clase 4)"
+    ],
+    "cultura": "En una oficina coreana el saludo cambia con la hora: 안녕하세요 al llegar y, si te vas antes que tus colegas, 먼저 가겠습니다 (me voy primero); retirarse en silencio se nota."
+   },
+   {
+    "n": 4,
+    "titulo": "El pasado · -았/었어요",
+    "leccion": "Miércoles 28 de octubre · Unidad Tiempos 03 del libro: pasado -았어요/었어요 · Unidad Partículas 08: 부터~까지 (desde… hasta) · expresiones de tiempo pasado · 하고 / (이)랑 (con quién)",
+    "objetivo": "Cuentas qué hiciste el fin de semana o en tus últimas vacaciones en 6–8 frases encadenadas, diciendo cuándo, dónde y con quién.",
+    "gramatica": [
+     "-았어요/었어요 (pasado): misma regla de la vocal que el presente (갔어요, 먹었어요, 했어요) y N이었어요/였어요 para nombres (학생이었어요)",
+     "N부터 N까지 (desde… hasta, para tiempo) y N에서 N까지 (de… a, para lugares): 아홉 시부터 여섯 시까지 일했어요",
+     "Expresiones de tiempo con y sin 에: 어제 (ayer), 지난주에 (la semana pasada), 오늘 아침에 (esta mañana), 작년에 (el año pasado)",
+     "N하고 / N(이)랑 (con, y) para decir con quién: 친구하고 영화를 봤어요"
+    ],
+    "vocabulario": [
+     "주말 (fin de semana)",
+     "어제 (ayer)",
+     "지난주 (la semana pasada)",
+     "작년 (el año pasado)",
+     "여행하다 (viajar)",
+     "만나다 (encontrarse con alguien)",
+     "사다 (comprar)",
+     "놀다 (salir a divertirse)",
+     "영화를 보다 (ver una película)",
+     "요리하다 (cocinar)",
+     "재미있다 (ser divertido/a)",
+     "피곤하다 (estar cansado/a)"
+    ],
+    "practica": [
+     "Mini-diario oral: cada alumno cuenta su último fin de semana en 5 frases en pasado; el grupo le hace dos preguntas (누구하고 갔어요? 어디에서 먹었어요?)",
+     "Cadena de transformación: Jay dice una frase en presente, el siguiente alumno la pasa al pasado y le agrega un tiempo (어제…, 지난주에…), y así hasta cerrar la vuelta",
+     "Agenda ficticia en pares: con un horario de trabajo inventado, preguntan y responden 몇 시부터 몇 시까지 일했어요? y 어디에서 어디까지 갔어요?"
+    ],
+    "tarea": [
+     "Mini-diario escrito: 3 frases en pasado sobre tu día de hoy, enviadas por el grupo de WhatsApp del curso (foto del cuaderno o texto)",
+     "Lector de Hangul → Practicar → Números en modo Inversa (10 minutos): que las horas de 부터~까지 (아홉 시부터 여섯 시까지) salgan sin pensar",
+     "Hoja 4: pasar 15 frases de presente a pasado y completar un texto corto con 부터~까지"
+    ],
+    "cultura": "Un fin de semana típico en Seúl se cuenta con 카페에 갔어요 y 집에서 쉬었어요: Corea tiene una de las mayores densidades de cafeterías del mundo y el café es el lugar por defecto para encontrarse, estudiar y descansar."
+   },
+   {
+    "n": 5,
+    "titulo": "El futuro · -(으)ㄹ 거예요",
+    "leccion": "Miércoles 4 de noviembre · Unidad Tiempos 04 del libro: futuro e intención -(으)ㄹ 거예요 · Unidad Enumeración y contraste 02: -거나 (o) · Partículas 13: (으)로 (medio de transporte)",
+    "objetivo": "Planeas tus vacaciones soñadas o tu próxima semana: dices qué vas a hacer, cuándo, cómo y con quién, y ofreces alternativas (A o B).",
+    "gramatica": [
+     "-(으)ㄹ 거예요 (futuro / intención): -ㄹ 거예요 tras vocal (갈 거예요), -을 거예요 tras consonante (먹을 거예요); atención al ㄹ final (살 거예요)",
+     "-거나 (o, entre verbos): 영화를 보거나 쉴 거예요 (veré una película o descansaré) frente a N(이)나 entre sustantivos (커피나 차)",
+     "Expresiones de tiempo futuro: 내일 (mañana), 다음 주에 (la próxima semana), 이번 주말에 (este fin de semana), 내년에 (el año que viene)",
+     "N(으)로 (en / por, medio de transporte): 비행기로 갈 거예요 (iré en avión), 기차로 (en tren)"
+    ],
+    "vocabulario": [
+     "내일 (mañana)",
+     "다음 주 (la próxima semana)",
+     "내년 (el año que viene)",
+     "휴가 (vacaciones)",
+     "계획 (plan)",
+     "비행기 (avión)",
+     "기차 (tren)",
+     "바다 (mar)",
+     "산 (montaña)",
+     "호텔 (hotel)",
+     "사진을 찍다 (sacar fotos)",
+     "구경하다 (recorrer, mirar un lugar)"
+    ],
+    "practica": [
+     "Vacaciones soñadas en pares: cada uno arma un plan de 3 días (어디에 갈 거예요? 언제? 뭐 할 거예요? 뭐로 갈 거예요?) y lo presenta en 6 frases al grupo",
+     "Role play 'quedemos': proponer un día y una actividad para la próxima semana usando -거나 (토요일에 영화를 보거나 산에 갈 거예요?), y aceptar o proponer otra cosa",
+     "Tres tiempos, una frase: Jay lanza un verbo y una palabra de tiempo (어제 / 오늘 / 내일); el alumno responde en pasado, presente o futuro según corresponda"
+    ],
+    "tarea": [
+     "Hoja 5: completar un itinerario de viaje con -(으)ㄹ 거예요, -거나 y (으)로 (12 huecos) y escribir tu propio plan de fin de semana en 4 frases",
+     "Lector de Hangul → Practicar → Contrarreloj: una partida cronometrada y guardar la pantalla de Progreso con tu marca",
+     "Quiz en línea de 10 preguntas: futuro y expresiones de tiempo (se revisa al abrir la clase 6)"
+    ],
+    "cultura": "Las vacaciones de verano en Corea son cortas: muchos trabajadores toman solo 3–5 días seguidos a fines de julio o principios de agosto, y por eso el viaje típico es intenso: Jeju, Busan o Japón en un fin de semana largo."
+   },
+   {
+    "n": 6,
+    "titulo": "Negación y habilidad",
+    "leccion": "Miércoles 11 de noviembre · Unidad Negación 01–03 del libro: 안 / -지 않아요 · 못 / -지 못해요 · negaciones que son palabras propias · Unidad Habilidad 01: -(으)ㄹ 수 있어요/없어요",
+    "objetivo": "Dices qué no haces (por decisión), qué no puedes (por circunstancia) y qué sabes hacer, y respondes preguntas de sí o no con naturalidad y una razón.",
+    "gramatica": [
+     "안 + verbo/adjetivo (en Básico 1 solo con 안 좋아해요) y -지 않아요 (no, negación por decisión o estado): 안 먹어요 / 먹지 않아요; con verbos N하다 el 안 va en medio (운동 안 해요)",
+     "못 + verbo y -지 못해요 (no poder, por circunstancia o falta de habilidad): 못 가요 / 가지 못해요",
+     "-(으)ㄹ 수 있어요/없어요 (poder / no poder, capacidad o posibilidad): 수영할 수 있어요, 매운 음식을 먹을 수 없어요",
+     "Negaciones que son palabras propias: 있다 → 없다, 알다 → 모르다, 좋아하다 → 싫어하다"
+    ],
+    "vocabulario": [
+     "수영하다 (nadar)",
+     "운전하다 (conducir)",
+     "기타를 치다 (tocar la guitarra)",
+     "노래하다 (cantar)",
+     "춤을 추다 (bailar)",
+     "매운 음식 (comida picante)",
+     "술을 마시다 (beber alcohol)",
+     "담배를 피우다 (fumar)",
+     "늦게 (tarde, adverbio)",
+     "잘 (bien)",
+     "전혀 (para nada, con negación)",
+     "싫어하다 (no gustar, detestar)"
+    ],
+    "practica": [
+     "Encuesta '¿Sabes…?': cada alumno pregunta a tres compañeros 수영할 수 있어요? 운전할 수 있어요? 기타를 칠 수 있어요? y reporta al grupo en tercera persona (마리아 씨는 운전할 수 있어요)",
+     "Role play 'la invitación que no puedo aceptar': A invita para mañana (내일 같이 영화 볼 거예요?), B rechaza con 못 y da una razón en pasado o futuro; luego cambian de rol",
+     "Tres tarjetas, tres negaciones: ante una situación (estoy a dieta, no tengo auto, no me gusta el picante) el alumno elige 안, 못 o -(으)ㄹ 수 없어요 y explica por qué eligió esa forma"
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Contrarreloj: superar la marca que guardaste en la semana 5 (pantalla de Progreso)",
+     "Hoja de negación 6: elegir 안 / 못 / -(으)ㄹ 수 없어요 en 15 situaciones y escribir 5 cosas que sabes hacer y 5 que no",
+     "Audio de 40 segundos: '할 수 있어요, 못 해요' (lo que sé hacer y lo que no), 6 frases mezclando habilidad y negación"
+    ],
+    "cultura": "Rechazar una invitación en Corea rara vez es un 'no' seco: se usa 못 con una razón (일이 있어서 못 가요) y muchas veces 다음에 (la próxima), aunque no haya próxima; es cortesía, no promesa."
+   },
+   {
+    "n": 7,
+    "titulo": "Partículas pro",
+    "leccion": "Miércoles 18 de noviembre · Unidad Partículas del libro (selección): 05 의 · 09 에게/한테 · 10 도 · 11 만 · 12 밖에 · 14 쯤 · 15 처럼 · 16 보다 · 17 마다",
+    "objetivo": "Comparas, precisas y matizas lo que dices ('solo', 'también', 'más que', 'como', 'cada', 'a quién') y suenas coreano, no traducido; también reconoces las partículas al oírlas, como pide el examen.",
+    "gramatica": [
+     "Comparar: N보다 (más que) con 더 (más) y N처럼 (como): 형은 저보다 키가 커요 · 한국 사람처럼 말해요",
+     "Limitar y sumar: N만 (solo), N밖에 + negación (nada más que) y N도 (también): 커피만 마셔요 · 천 원밖에 없어요 · 저도 가요",
+     "Frecuencia y aproximación: N마다 (cada) y N쯤 (aproximadamente): 주말마다 운동해요 · 세 시쯤 만나요",
+     "Posesión y destinatario: N의 (de; se contrae en 제 / 내 y a menudo se omite) y N한테 / N에게 (a alguien): 친구한테 선물을 줬어요"
+    ],
+    "vocabulario": [
+     "키가 크다 (ser alto/a)",
+     "더 (más)",
+     "제일 (el / la más)",
+     "선물 (regalo)",
+     "주다 (dar)",
+     "전화하다 (llamar por teléfono)",
+     "편지 (carta)",
+     "매일 (cada día)",
+     "가끔 (a veces)",
+     "자주 (a menudo)"
+    ],
+    "practica": [
+     "Comparación en pares: con tres pares de fotos (dos ciudades, dos comidas, dos ídolos) cada uno dice 3 frases con 보다 / 더 y 처럼, y el compañero reacciona (저도요 / 저는 아니에요)",
+     "'Solo tengo…': cada alumno describe lo que hay en su escritorio con 만 y 밖에 (펜밖에 없어요, 커피만 있어요); Jay lee las frases mezcladas y el grupo adivina de quién es cada escritorio",
+     "Dictado de partículas (formato examen): Jay lee 8 frases y los alumnos escriben solo la partícula que oyen; se corrige en pantalla al momento"
+    ],
+    "tarea": [
+     "Hoja de partículas 7 en formato examen: 20 huecos (은/는 · 이/가 · 을/를 · 에 · 에서 · 도 · 만 · 밖에 · 보다 · 마다 · 한테); se entrega antes de la clase 8",
+     "Repaso del vocabulario de las semanas 1–7 con las hojas: marcar las 20 palabras que no te salen solas y repasarlas en voz alta hasta que salgan (preparación de la sección de vocabulario del examen)",
+     "Escribir 5 frases comparando tu país con Corea (보다 / 처럼 / 도) y grabarlas en audio"
+    ],
+    "cultura": "Dos partículas de esta clase se oyen todo el día en Corea: 밖에 en las tiendas (하나밖에 안 남았어요, 'solo queda uno', la frase favorita para vender) y 만 escondido en 잠깐만요 ('un momento', literalmente 'solo un momento'), lo que dices para pasar entre la gente en el metro o pedirle a alguien que espere un segundo."
+   },
+   {
+    "n": 8,
+    "titulo": "Conectores + examen A2",
+    "leccion": "Miércoles 25 de noviembre · Unidad Enumeración y contraste 01 y 03 del libro: -고 (y) · -지만 (pero) · integración de las 7 clases · examen A2 de la casa + evaluación oral · certificado",
+    "objetivo": "Conversas 5 minutos seguidos en coreano sobre tu vida, tu pasado y tus planes encadenando frases con -고 y -지만, y rindes el examen A2 de la casa.",
+    "gramatica": [
+     "-고 (y, enumeración o secuencia): 밥을 먹고 커피를 마셨어요; el tiempo se marca solo en el último verbo",
+     "-지만 (pero, contraste): 한국어는 어렵지만 재미있어요",
+     "Integración: presente, pasado y futuro + negación + partículas en un solo relato de 8–10 frases"
+    ],
+    "vocabulario": [
+     "그리고 (y, entre oraciones)",
+     "그렇지만 (sin embargo)",
+     "그래서 (por eso)",
+     "먼저 (primero)",
+     "그다음에 (después)",
+     "마지막으로 (por último)",
+     "시험 (examen)",
+     "문제 (pregunta del examen)",
+     "대답하다 (responder)",
+     "어렵다 (ser difícil)",
+     "쉽다 (ser fácil)",
+     "축하해요 (felicidades)"
+    ],
+    "practica": [
+     "Calentamiento de conectores (10 min): unir en cadena rápida pares de frases del curso con -고 y -지만; cada alumno produce dos",
+     "Examen A2 escrito en línea (30 min, cronometrado, con Jay presente): vocabulario bidireccional, partículas, tiempos y fechas/horas, traducción y producción personal",
+     "Evaluación oral (20 min): conversaciones de 5 minutos en pares en salas de Zoom con una tarjeta de 6 temas (rutina, fin de semana pasado, plan de vacaciones, qué sabes hacer, tu familia, Corea y tu país); Jay rota por las salas y puntúa con la rúbrica"
+    ],
+    "tarea": [
+     "Antes de la clase: repasar las hojas 1–7 y hacer el simulacro corto del examen (10 preguntas) que se comparte el lunes anterior",
+     "Después de la clase: grabar tu 'presentación de 1 minuto en tres tiempos' (quién soy, qué hice en este curso, qué haré en Conversacional 1) y subirla al grupo",
+     "Después de la clase: Lector de Hangul → Practicar → Contrarreloj, ronda final para registrar tu mejor marca y guardar la pantalla de Progreso como cierre (recomendada, no obligatoria)"
+    ],
+    "cultura": "Al terminar un examen o un curso en Corea se dice 수고했어요 (buen trabajo; literalmente 'te esforzaste'): se reconoce el esfuerzo antes que el resultado, y el certificado se entrega y se recibe con las dos manos."
+   }
+  ],
+  "evaluacion": {
+   "quizzes": "Quiz de 5 minutos al inicio de las clases 2 a 7 (6 quizzes; en la clase 8 lo reemplaza el examen): 5 preguntas sobre la clase anterior (conjugar un verbo, elegir una partícula, escribir un número u hora en Hangul). Se corrige en el momento y cuenta dentro del 40 % de participación junto con la asistencia y la intervención en pares. Además, dos quizzes en línea de 10 preguntas (semanas 3 y 5) que se revisan en la clase siguiente.",
+   "tareas": "Cada semana: la hoja de la sesión (10–20 frases) más una tarea corta en el Lector de Hangul (Practicar → Sílabas, Batchim, Números, Palabras o Contrarreloj) o un audio corto de 30–40 segundos por el grupo de WhatsApp del curso. Carga estimada: 2 horas semanales. Se revisan en el quiz de apertura y con comentario breve de Jay en el grupo. Peso: 30 %. Se piden al menos 6 de 7 entregas; la hoja de partículas de la semana 7 es obligatoria porque tiene el formato del examen.",
+   "examen_final": "Examen A2 de la casa, escrito en línea, 30 minutos cronometrados dentro de la clase 8, 40 puntos en 4 secciones: (1) vocabulario bidireccional español → coreano y coreano → español (10 puntos); (2) partículas: elegir la correcta en 10 huecos (은/는 · 이/가 · 을/를 · 에 · 에서 · 도 · 만 · 밖에 · 보다 · 마다 · 한테) (10 puntos); (3) tiempos y datos: pasar frases al pasado y al futuro, escribir fechas y horas en Hangul (10 puntos); (4) traducción de 6 frases con -아요/어요 y -았어요/었어요 y producción personal de 5 frases sobre ti (10 puntos). Se devuelve corregido dentro de la semana. El examen final (escrito + oral) pesa 30 %.",
+   "oral": "Dos momentos. Diagnóstico oral individual de 2 minutos en la clase 1 (línea base, no puntúa). Evaluación oral final en la clase 8: conversación de 5 minutos en pares sobre 6 temas del curso, en salas de Zoom, con Jay rotando y puntuando con una rúbrica de 4 criterios (fluidez sin volver al español · uso correcto de presente, pasado y futuro · partículas · pronunciación). Quien no alcance a ser escuchado en clase envía un audio de 3 minutos respondiendo a las mismas preguntas dentro de las 48 horas.",
+   "certificado": "Certificado Academia Seúl 'Básico 2 (A1.2) · CEFR A1 completo (A2 parcial) · preparación TOPIK I niveles 1–2', emitido la semana del 30 de noviembre de 2026. Requisitos: nota global ≥ 60 % (40 % participación y quizzes · 30 % tareas · 30 % examen A2 escrito + oral) y asistencia ≥ 75 % (6 de 8 clases en vivo; ver la grabación no cuenta como asistencia). Con el certificado entras directo a Conversacional 1 (A2.1) sin test de nivel; quien no alcance el 60 % recibe un plan de refuerzo y puede rendir el oral de nuevo antes de la cohorte de enero."
+  },
+  "materiales": [
+   "Uso de la gramática coreana · Nivel inicial (Korean Grammar in Use · Beginning, edición en español): unidades Fundamentos 01–05, Tiempos 01–04, Negación 01–03, Partículas (05, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17), Enumeración y contraste 01–03 y Habilidad 01",
+   "Deck trilingüe ES/KO/EN de cada sesión (PDF en el grupo después de la clase)",
+   "Hojas de actividad 1–7 (una por sesión) + hoja de partículas en formato examen",
+   "Lector de Hangul (academiaseul.com/lector-hangul, gratuito, con audio nativo): Practicar → Sílabas, Batchim, Números, Palabras y Contrarreloj como tarea corta semanal, con las estrellas en la pestaña Progreso",
+   "Grabación de cada clase disponible 24 horas después",
+   "Grupo de el grupo de WhatsApp del curso del curso para tareas de audio, mini-diario y dudas entre clases",
+   "Examen A2 de la casa en línea + rúbrica de evaluación oral",
+   "Zoom con salas para trabajo en pares"
+  ],
+  "notas_profesor": [
+   "El grupo llega mezclado (Básico 1 de Guiran, Nivel 1 de julio y alguien por test de nivel): usa el diagnóstico oral de la clase 1 para armar pares 'fuerte + medio', nunca 'fuerte + fuerte', y no vuelvas a explicar Hangul en vivo; a quien lea lento, mándalo al Lector con una meta concreta.",
+   "Error de base del hispanohablante: cruzar 'ser' y 'estar' (저는 집이에요* por 집에 있어요) y confundir 에 con 에서 (회사에 일해요*). Corrígelos siempre, desde la clase 1, porque sobre eso se montan el pasado y el futuro.",
+   "En -았어요/었어요 y -(으)ㄹ 거예요 el error más común es la regla de la vocal (먹았어요*, 가을 거예요*): resuélvelo con drills orales de 3 segundos y gestos (mano arriba para ㅏ/ㅗ), no con tablas largas. La forma escrita se pule en la hoja.",
+   "Partículas: no persigas la perfección de 은/는 frente a 이/가 en las primeras semanas; corrige 을/를 y 에/에서, que son las más rentables en el examen, y deja el contraste fino de 은/는 para la semana 7, cuando vuelve junto con 도 y 만.",
+   "Pronunciación que sí corregir: la vocal de apoyo que agregan tras batchim (밥 → 바브*), la distinción ㅓ/ㅗ y las consonantes tensas ㄲ/ㄸ/ㅃ. Dejar pasar por ahora: la entonación y la ㄹ intervocálica; eso se afina en Conversacional 1 con Abby.",
+   "Ritmo: 25 minutos de deck es el tope y la práctica en pares no se recorta. La clase 7 (partículas) es la más densa: si te alcanza el tiempo, elimina ejemplos, no actividades; 쯤 y 의 pueden quedar como lectura en casa si el grupo va lento.",
+   "Diferenciación: a quien vaya rápido dale -고 있어요 (estar haciendo) y el formal -ㅂ니다/습니다 como extra en la hoja; a quien vaya lento, reduce la lista de verbos de la semana 3 a 6 y pídele solo el audio, no la hoja. En la clase 8 abre el examen en el minuto 10, corre el cronómetro mientras rotas por las salas y comunica ese mismo día quién pasa a Conversacional 1 (A2.1) y a quién le conviene un refuerzo."
+  ]
+ },
+ {
+  "cursoId": "a21",
+  "codigo": "KOR 201",
+  "nombre": "Conversacional 1 (A2.1) · Corea que amas",
+  "descripcion": "Puro hablar: un curso donde solo se habla coreano, con una profesora coreana nativa. Cinco módulos de la Corea que amas (K-pop y cultura fan, viajes a 제주도 (Jeju) y Seúl, cultura gastronómica, 한복 (traje tradicional) y estética, PC방 (cibercafé) y e-sports) más dos laboratorios de conversación en grupos pequeños. Cada módulo carga 2–4 estructuras de Korean Grammar in Use que se citan solo cuando hacen falta: la cultura es el vehículo y la gramática, el medio. Certificado A2.1 incluido y pase directo a Conversacional 2 (A2.2, enero 2027).",
+  "perfil_alumno": "Adulto hispanohablante (Latinoamérica o España) que terminó Básico 2 (A1.2) o llega por test de nivel: lee Hangul con fluidez, maneja presente, pasado y futuro básicos y unas 300–400 palabras, pero todavía \"piensa en español\" antes de hablar. Es fan de algo de Corea (K-pop, dramas, comida, viajes o videojuegos) y quiere dejar de estudiar gramática para empezar a hablar de lo que ama, aunque le dé nervios hacerlo frente a una profesora nativa. Grupo de máximo 15 personas; para la mayoría la clase cae después de la jornada laboral.",
+  "requisito_entrada": "Básico 2 (A1.2) aprobado o test de nivel gratuito (academiaseul.com/test-nivel o por WhatsApp, 10 minutos). En concreto: leer Hangul sin deletrear, conjugar -아요/어요 (presente), -았/었어요 (pasado) y -(으)ㄹ 거예요 (futuro), usar las partículas 이/가, 을/를, 에 y 에서, y sostener 2–3 minutos de conversación simple sobre ti y tu rutina. No hace falta saber de K-pop ni de videojuegos: los temas son la excusa para hablar, no el requisito.",
+  "objetivos": [
+   "Presentarte con detalle y sostener 5 minutos de conversación con una profesora nativa sin pasar al español",
+   "Hablar de tu grupo, tu 최애 (favorito absoluto) y tus experiencias como fan usando -아/어 봤어요 (experiencia), superlativos y -아서/어서 (porque)",
+   "Planear un viaje por Corea en pareja (proponer, decidir, indicar transporte) y contar un viaje en pasado",
+   "Pedir en un restaurante con contadores, recomendar un plato y describir sabores como un local",
+   "Describir ropa y estética, comparar y opinar con matices usando N보다 (más que), -아/어 보여요 (se ve) y -(으)ㄴ/는 것 같아요 (me parece que)",
+   "Hablar de tu tiempo libre y del mundo gamer con expresiones de momento y condición: -(으)ㄹ 때 (cuando) y -(으)면 (si)",
+   "Aprobar la evaluación oral A2.1 y quedar listo para Conversacional 2 (A2.2, enero 2027)"
+  ],
+  "estructura_clase": [
+   {
+    "minutos": "5",
+    "bloque": "Quiz oral de la clase anterior",
+    "detalle": "Cinco preguntas rápidas sobre el módulo previo (vocabulario y una estructura), respondidas en voz alta o en el chat de Zoom; se aclaran dudas de la tarea de audio."
+   },
+   {
+    "minutos": "10",
+    "bloque": "Calentamiento: 스몰토크 (charla ligera) en pares",
+    "detalle": "Salas de Zoom de 2 personas con la pregunta del día ligada al tema (¿qué comiste hoy?, ¿qué escuchaste esta semana?). Cámaras encendidas y sin corrección todavía: el objetivo es soltar la lengua."
+   },
+   {
+    "minutos": "20",
+    "bloque": "Módulo cultural con el deck",
+    "detalle": "Abby presenta el tema con material real (clip corto, fotos, menú o mapa) y las 2–4 estructuras aparecen en contexto, con glosa ES/EN en el deck trilingüe. Los alumnos repiten los ejemplos y los adaptan a su propia vida."
+   },
+   {
+    "minutos": "20",
+    "bloque": "Práctica oral en salas pequeñas",
+    "detalle": "Role play o tarea con resultado concreto (un plan, un pedido, una recomendación) en grupos de 2–3. Abby rota por las salas, escucha y corrige pronunciación uno a uno."
+   },
+   {
+    "minutos": "5",
+    "bloque": "Cierre y tarea",
+    "detalle": "Retroalimentación diferida (los 2–3 errores comunes del día), modelo de la tarea de audio y despedida con 수고했어요 (buen trabajo). En las semanas 5 y 8 (labs) los bloques 3 y 4 se funden en 40 minutos de práctica oral pura."
+   }
+  ],
+  "semanas": [
+   {
+    "n": 1,
+    "titulo": "Orientación + diagnóstico oral",
+    "leccion": "Martes 6 de octubre · Sesión de orientación (sin módulo temático) · diagnóstico oral individual",
+    "objetivo": "Romper el hielo con el grupo y con Abby, presentarte con más detalle que en Básico 2 (qué haces, hace cuánto estudias coreano y por qué) y fijar tus 3 metas personales de conversación para las 8 semanas.",
+    "gramatica": [
+     "-고 싶어요 (querer hacer) · para formular tus metas del curso · 한국어로 말하고 싶어요",
+     "-(으)ㄴ 지 ... 됐어요 (hace ... que) · 한국어를 배운 지 6개월 됐어요",
+     "Reactivación: -아요/어요 (presente), -았/었어요 (pasado) y -(으)ㄹ 거예요 (futuro) dentro de la autopresentación",
+     "Reactivación: -고 (y), -지만 (pero) y 그래서 (por eso) de Básico 2 para encadenar la presentación y explicar por qué estudias coreano"
+    ],
+    "vocabulario": [
+     "자기소개 (presentación personal)",
+     "꿈 (sueño, meta de vida)",
+     "관심 (interés)",
+     "목표 (meta)",
+     "이유 (razón)",
+     "처음 (primera vez)",
+     "오랫동안 (durante mucho tiempo)",
+     "직장인 (persona que trabaja, empleado/a)",
+     "전공 (carrera, especialidad)",
+     "팬 (fan)",
+     "문화 (cultura)",
+     "열심히 (con ganas, con esfuerzo)"
+    ],
+    "practica": [
+     "Ronda de presentaciones en cadena: cada alumno se presenta (nombre, país, ocupación, hace cuánto estudia y por qué) y le hace una pregunta al siguiente",
+     "Entrevista en pares en salas de Zoom (3 rondas de 6 minutos, cambiando de pareja) con 5 preguntas guía sobre qué amas de Corea; al volver, cada uno presenta a su última pareja al grupo",
+     "Diagnóstico oral: mientras dura la entrevista, Abby entra a cada sala 2–3 minutos, escucha a los dos y anota 3 datos por alumno (fluidez, pronunciación, meta personal); a quien no alcance a escuchar lo evalúa con el audio de la tarea. Cierre: cada alumno dice al grupo una meta con -고 싶어요"
+    ],
+    "tarea": [
+     "Audio de 60–90 segundos: autopresentación ampliada (nombre, país, trabajo o estudio, hace cuánto estudias coreano y por qué). Guárdalo: en la semana 8 lo vuelves a grabar para comparar",
+     "Escribir 3 metas de conversación con -고 싶어요 y enviarlas por el grupo de WhatsApp del curso (ejemplo: 콘서트에서 한국어로 말하고 싶어요)",
+     "Calentamiento opcional: Lector de Hangul, pestaña Contrarreloj, una ronda para recuperar velocidad de lectura antes del módulo 1"
+    ],
+    "cultura": "En Corea, en una primera presentación es normal preguntar la edad: no es indiscreción, sirve para saber si hablar en 존댓말 (habla formal) o en 반말 (habla informal)."
+   },
+   {
+    "n": 2,
+    "titulo": "K-pop y cultura fan",
+    "leccion": "Martes 13 de octubre · M01 · K-pop y cultura fan (deck trilingüe de la casa)",
+    "objetivo": "Hablar de tu grupo, tu 최애 (favorito absoluto) y los conciertos: contar experiencias como fan, expresar preferencias con superlativos y explicar por qué te gustan con -아서/어서.",
+    "gramatica": [
+     "-아/어 봤어요 (haber hecho, experiencia) · 콘서트에 가 봤어요?",
+     "제일 / 가장 + adjetivo (superlativo; 제일 ya visto en Básico 2) · 제일 좋아하는 노래",
+     "N 중에서 (entre, de entre) · 멤버 중에서 누가 제일 좋아요?",
+     "-아서/어서 (porque, causa) · 노래가 좋아서 이 그룹을 좋아해요"
+    ],
+    "vocabulario": [
+     "아이돌 (ídolo, artista de K-pop)",
+     "그룹 (grupo)",
+     "멤버 (integrante)",
+     "최애 (favorito absoluto, el bias)",
+     "팬클럽 (club de fans)",
+     "콘서트 (concierto)",
+     "응원봉 (barra de luz de los fans, el lightstick)",
+     "앨범 (álbum)",
+     "데뷔하다 (debutar)",
+     "무대 (escenario)",
+     "팬미팅 (encuentro de fans)",
+     "노래를 부르다 (cantar)"
+    ],
+    "practica": [
+     "Mini-presentación 'Mi 최애 (favorito) en 5 frases' con una foto compartida en pantalla: quién es, desde cuándo lo sigues y por qué",
+     "Role play en pares: convencer a un amigo de ir a un concierto (fecha, precio, qué llevar) y responder a sus dudas",
+     "Encuesta relámpago: recorrer la sala con -아/어 봤어요 (¿has ido a un concierto?, ¿has cantado en coreano?) y reportar 2 resultados al grupo"
+    ],
+    "tarea": [
+     "Audio de 90 segundos recomendando una canción coreana: de quién es, cómo es y por qué la recomiendas",
+     "Escribir 5 frases sobre un concierto real o imaginado usando -아/어 봤어요 y 제일",
+     "Escuchar una canción de tu grupo con la letra en Hangul y anotar 5 palabras que reconozcas sin traductor"
+    ],
+    "cultura": "Cada grupo tiene un fandom con nombre propio y un 응원법 (cántico de apoyo) que los fans memorizan para corear en el concierto en el momento exacto."
+   },
+   {
+    "n": 3,
+    "titulo": "Viajes: Jeju y Seúl",
+    "leccion": "Martes 20 de octubre · M02 · Viajes: Jeju y Seúl (deck trilingüe de la casa)",
+    "objetivo": "Planear un viaje en pareja (proponer, decidir, indicar cómo moverse) y contar un viaje ya hecho encadenando frases en pasado.",
+    "gramatica": [
+     "-(으)ㄹ까요? (¿y si...?, ¿qué tal si...?) · 제주도에 갈까요?",
+     "-(으)러 가요 (ir a + propósito) · 바다를 보러 가요",
+     "N(으)로 (medio de transporte, ya visto en Básico 2) ampliado a dirección · 비행기로, 지하철로, 왼쪽으로, 홍대로",
+     "-아서/어서 ampliado: secuencia (y luego), además de la causa de la semana 2 · 공항에 가서 비행기를 타요"
+    ],
+    "vocabulario": [
+     "여행 (viaje)",
+     "제주도 (isla de Jeju)",
+     "한라산 (monte Halla)",
+     "해변 (playa)",
+     "공항 (aeropuerto)",
+     "렌터카 (auto de alquiler)",
+     "지하철 (metro)",
+     "숙소 (alojamiento)",
+     "예약하다 (reservar)",
+     "경치 (paisaje)",
+     "야경 (vista nocturna)",
+     "표 (boleto, pasaje)"
+    ],
+    "practica": [
+     "Agencia de viajes en pares: planear 3 días en 제주도 (isla de Jeju) con un presupuesto dado, decidiendo cada paso con -(으)ㄹ까요? y presentando el plan en 1 minuto",
+     "Role play 'en el metro de Seúl' con el mapa real en pantalla: pedir cómo llegar de 명동 (barrio comercial) a 홍대 (zona universitaria) usando N(으)로",
+     "Relato en cadena: cada alumno agrega una frase en pasado a la historia de viaje del grupo con -았/었어요 y -아서/어서"
+    ],
+    "tarea": [
+     "Itinerario escrito de 2 días en Corea (6–8 frases) con transporte, lugares y una comida",
+     "Audio de 90 segundos: 'mi viaje soñado a Corea' o un viaje real que hiciste, con al menos 3 verbos en pasado o futuro",
+     "Mirar el mapa del metro de Seúl (se envía el enlace) y escribir en Hangul 5 estaciones que te gustaría visitar"
+    ],
+    "cultura": "En 제주도 (isla de Jeju) los 돌하르방 (abuelos de piedra) custodian las entradas de casas y pueblos; la tradición dice que tocarles la nariz trae buena suerte, por eso muchos la tienen gastada."
+   },
+   {
+    "n": 4,
+    "titulo": "Cultura gastronómica",
+    "leccion": "Martes 27 de octubre · M03 · Cultura gastronómica (deck trilingüe de la casa)",
+    "objetivo": "Pedir en un restaurante coreano con contadores y cortesía, recomendar un plato y describir sabores; entender un pedido dicho a velocidad natural.",
+    "gramatica": [
+     "-아/어 주세요 (por favor, deme / hágame) · 물 좀 주세요",
+     "Contadores: 개 (unidades), 병 (botellas) y 잔 (vasos) con numerales nativos (한 개, 두 병, 세 잔); 인분 (porciones) con sino-coreanos · 삼겹살 이 인분 주세요",
+     "-지 마세요 (no + verbo, petición negativa cortés) · 너무 맵게 하지 마세요",
+     "-(으)ㄴ + N (adjetivo como modificador) · 매운 음식, 단 음식"
+    ],
+    "vocabulario": [
+     "맵다 (ser picante)",
+     "짜다 (ser salado)",
+     "달다 (ser dulce)",
+     "시다 (ser ácido)",
+     "고소하다 (sabor tostado, a sésamo o nuez)",
+     "계산 (la cuenta)",
+     "반찬 (guarniciones)",
+     "삼겹살 (panceta de cerdo a la parrilla)",
+     "김치찌개 (guiso de kimchi)",
+     "떡볶이 (pasteles de arroz picantes)",
+     "배달 (entrega a domicilio)",
+     "사장님 (dueño o dueña del local)"
+    ],
+    "practica": [
+     "Role play 'en el restaurante' con un menú real en pantalla: cliente y 사장님 (dueño del local) piden y sirven para 3 personas usando contadores y una petición especial",
+     "'Recomiéndame algo': cada alumno recomienda un plato de su país describiendo 3 sabores; el grupo vota cuál quiere probar",
+     "Dictado de pedidos: Abby lee 3 pedidos a velocidad natural y los alumnos anotan qué y cuánto pidió cada mesa"
+    ],
+    "tarea": [
+     "Audio de 60–90 segundos recomendando un plato coreano o de tu país con al menos 3 adjetivos de sabor",
+     "Escribir un pedido completo para 3 personas (platos, cantidades con contadores y una petición con -지 마세요)",
+     "Buscar en 네이버 (buscador coreano) o Google Maps el menú de un restaurante de Seúl y traducir 5 platos"
+    ],
+    "cultura": "En un restaurante coreano los 반찬 (guarniciones) se rellenan gratis las veces que quieras, y para llamar al personal se dice 여기요 (aquí, por favor) o 사장님 (dueño) en voz alta, sin timidez."
+   },
+   {
+    "n": 5,
+    "titulo": "Lab de conversación 1",
+    "leccion": "Martes 3 de noviembre · Laboratorio 1 · integra M01–M03 (K-pop, viajes, comida) · sin deck nuevo",
+    "objetivo": "Sostener 10 minutos seguidos de conversación en grupos de 3 sobre los temas de las semanas 2–4, resolviendo tareas reales (decidir, pedir, negociar) y recibir corrección de pronunciación uno a uno.",
+    "gramatica": [
+     "Repaso activo: -아/어 봤어요 (experiencia) para contar y preguntar",
+     "Repaso activo: -(으)ㄹ까요? / 같이 -아요/어요 (proponer y aceptar un plan)",
+     "Repaso activo: -아/어 주세요 + contadores (pedir en un local)",
+     "Estrategias de reparación: 다시 한번 말해 주세요 (repítalo, por favor), 무슨 뜻이에요? (¿qué significa?)"
+    ],
+    "vocabulario": [
+     "다시 한번 (una vez más)",
+     "천천히 (despacio)",
+     "잠깐만요 (un momento)",
+     "무슨 뜻이에요? (¿qué significa?)",
+     "그러니까 (o sea)",
+     "진짜요? (¿en serio?)",
+     "맞아요 (así es)",
+     "글쎄요 (mmm, no sé)",
+     "그렇구나 (ah, ya veo)",
+     "저도요 (yo también)"
+    ],
+    "practica": [
+     "Tres estaciones en salas de Zoom de 3 personas, 10 minutos cada una con rotación: 'agencia de viajes', 'restaurante' y 'encuentro de fans'; cada estación trae una tarjeta con la tarea y un resultado concreto (plan, pedido, recomendación)",
+     "Tarea real final en grupo: negociar un fin de semana en Seúl con un presupuesto y presentar la decisión en 1 minuto; el grupo debe ponerse de acuerdo solo en coreano",
+     "Corrección uno a uno: Abby rota por las salas y anota 2 errores de pronunciación por alumno; los devuelve en el cierre con modelo y repetición"
+    ],
+    "tarea": [
+     "Audio de 2 minutos: 'un fin de semana perfecto en Corea' integrando concierto, viaje y comida",
+     "Autoevaluación escrita (en español está bien): 3 cosas que dije bien y 2 que quiero mejorar antes del Lab 2",
+     "Revisar la grabación de la clase y anotar 3 frases de tus compañeros que te gustaría usar"
+    ],
+    "cultura": "En una conversación coreana se usan todo el tiempo 맞장구 (asentimientos: 네, 맞아요, 그렇구나) para mostrar que escuchas; quedarse en silencio total suena frío o desinteresado."
+   },
+   {
+    "n": 6,
+    "titulo": "Hanbok y estética",
+    "leccion": "Martes 10 de noviembre · M04 · Hanbok y estética (deck trilingüe de la casa)",
+    "objetivo": "Describir ropa, colores y estampados, comparar lo tradicional con lo moderno y dar tu opinión con matices sobre el 한복 (traje tradicional coreano) y la estética coreana.",
+    "gramatica": [
+     "Reactivación: -(으)ㄴ + N (semana 4) y N보다 더 (Básico 2) · 예쁜 한복, 한복이 청바지보다 더 화려해요",
+     "-아/어 보여요 (se ve + adjetivo) · 편해 보여요, 비싸 보여요",
+     "-(으)ㄴ/는 것 같아요 (me parece que) · 전통 한복이 더 예쁜 것 같아요",
+     "-지만 (pero) reactivado para opinar con matiz · 예쁘지만 불편해요"
+    ],
+    "vocabulario": [
+     "한복 (traje tradicional coreano)",
+     "저고리 (chaqueta corta del traje tradicional)",
+     "치마 (falda)",
+     "바지 (pantalón)",
+     "색깔 (color)",
+     "무늬 (estampado)",
+     "전통 (tradición)",
+     "현대적이다 (ser moderno)",
+     "편하다 (ser cómodo)",
+     "화려하다 (ser vistoso)",
+     "어울리다 (quedar bien, combinar)",
+     "입다 (vestir, ponerse)"
+    ],
+    "practica": [
+     "'Estilista por un día': en pares eligen un 한복 (traje tradicional) para una foto en 경복궁 (Palacio Gyeongbok) entre 4 opciones en pantalla y justifican color, estampado y comodidad",
+     "Opinión en cadena: 한복 tradicional o moderno; cada alumno debe usar N보다, -지만 y 것 같아요 en su turno",
+     "Descripción a ciegas: un alumno describe una foto de 한복 y su pareja la elige entre 3 opciones sin verla"
+    ],
+    "tarea": [
+     "Escribir 6–8 frases describiendo tu ropa favorita o un 한복 (traje tradicional) que te gustaría usar: colores, estampado, cómo se ve y con qué combina",
+     "Audio de 60–90 segundos de opinión: ¿한복 moderno o tradicional? con al menos dos comparaciones",
+     "Buscar en Instagram o Pinterest una foto de 한복 y anotar en Hangul 3 colores y 2 adjetivos que la describan"
+    ],
+    "cultura": "Si visitas 경복궁 (Palacio Gyeongbok) o los otros palacios de Seúl vestido con 한복 (traje tradicional), la entrada es gratis: por eso las calles de 북촌 (barrio de casas tradicionales) se llenan de visitantes de colores."
+   },
+   {
+    "n": 7,
+    "titulo": "PC방 y e-sports",
+    "leccion": "Martes 17 de noviembre · M05 · PC방 y e-sports (deck trilingüe de la casa)",
+    "objetivo": "Hablar de videojuegos, tiempo libre y tecnología: contar cuándo y cuánto juegas, decir qué haces bien o mal, expresar condiciones y sostener un mini-debate sobre la Corea gamer.",
+    "gramatica": [
+     "-(으)ㄹ 때 (cuando) · 게임할 때 컵라면을 먹어요",
+     "-기 전에 / -(으)ㄴ 후에 (antes de / después de) · 게임하기 전에, 수업이 끝난 후에",
+     "잘 / 못 + verbo (habilidad: bien / no poder) reactivados de Básico 2 · 저는 게임을 잘 못해요",
+     "-(으)면 (si, cuando condicional) · 이기면 기분이 좋아요"
+    ],
+    "vocabulario": [
+     "PC방 (cibercafé coreano)",
+     "게임을 하다 (jugar videojuegos)",
+     "이기다 (ganar)",
+     "지다 (perder)",
+     "선수 (jugador profesional)",
+     "팀 (equipo)",
+     "경기 (partida, partido)",
+     "결승 (final, partido decisivo)",
+     "실력 (nivel, habilidad)",
+     "시간당 (por hora)",
+     "컵라면 (ramen instantáneo en vaso)",
+     "응원하다 (alentar, apoyar)"
+    ],
+    "practica": [
+     "Role play 'en el PC방 (cibercafé)': pedir 2 horas y un 컵라면 (ramen en vaso) y preguntar el precio por hora al 사장님 (dueño del local)",
+     "Encuesta en pares 'cuándo y cuánto juegas' con -(으)ㄹ 때 y 마다 (cada); luego cada uno cuenta el hábito más curioso de su pareja",
+     "Mini-debate en dos equipos: '¿los e-sports son un deporte?' con 저는 ... 것 같아요 y -지만; Abby modera y anota las expresiones de opinión que aparecen"
+    ],
+    "tarea": [
+     "Audio de 90 segundos sobre tu pasatiempo digital (juego, app, drama o música) usando -(으)ㄹ 때 y -기 전에 / -(으)ㄴ 후에",
+     "Escribir 5 frases con -(으)면: qué haces si ganas, si pierdes, si tienes tiempo libre",
+     "Ver 2 minutos de un resumen de la LCK (liga coreana de League of Legends) con subtítulos y anotar 5 palabras que reconozcas"
+    ],
+    "cultura": "El PC방 (cibercafé) es parte de la vida social coreana: cuesta alrededor de 1.500 원 (won) la hora, sirven comida en el puesto y las finales de la LCK se ven en pantallas gigantes con miles de fans en la calle."
+   },
+   {
+    "n": 8,
+    "titulo": "Lab 2 + evaluación oral",
+    "leccion": "Martes 24 de noviembre · Laboratorio 2 (M01–M05) + evaluación oral de etapa · certificado e invitación a Conversacional 2",
+    "objetivo": "Demostrar en la evaluación oral de etapa (audios enviados antes de la clase + role play en pares con Abby) que puedes conversar sobre los cinco temas del curso integrando las estructuras aprendidas, y cerrar con retroalimentación personal, certificado A2.1 e invitación a Conversacional 2 (A2.2, enero 2027).",
+    "gramatica": [
+     "Integración 1: contar experiencias y proponer planes (-아/어 봤어요, -(으)ㄹ까요?, -(으)러 가요)",
+     "Integración 2: pedir, describir y opinar (-아/어 주세요 + contadores, -(으)ㄴ N, N보다, -아/어 보여요, -(으)ㄴ/는 것 같아요)",
+     "Integración 3: momento y condición (-(으)ㄹ 때, -기 전에 / -(으)ㄴ 후에, -(으)면)"
+    ],
+    "vocabulario": [
+     "평가 (evaluación)",
+     "발표 (presentación)",
+     "준비하다 (preparar)",
+     "긴장되다 (estar nervioso)",
+     "자신 있다 (tener confianza)",
+     "수료증 (certificado de curso)",
+     "다음 단계 (siguiente etapa)",
+     "계속하다 (continuar)",
+     "실수하다 (equivocarse)",
+     "수고했어요 (buen trabajo, gracias por el esfuerzo)"
+    ],
+    "practica": [
+     "Lab 2 '24 horas en Seúl' (15 minutos) en salas de 3: cada grupo arma un plan que pase por un concierto, un viaje corto, una comida, una foto con 한복 (traje tradicional) y un PC방 (cibercafé) y lo resume en el chat en 3 frases; es calentamiento y no puntúa",
+     "Evaluación oral en pares (40 minutos, 5 minutos por pareja): Abby entra a cada sala, sortea el role play (restaurante o agencia de viajes) de 3 minutos y hace 2 preguntas de seguimiento a cada alumno; mientras esperan, las parejas conversan con las tarjetas de estación",
+     "Cierre (5 minutos): ronda de 축하해요 (felicidades) y cada alumno dice en coreano una meta para Conversacional 2; el informe individual y el certificado llegan la semana siguiente"
+    ],
+    "tarea": [
+     "Antes de la clase: grabar el monólogo de 2 minutos sobre el módulo que te toque en el sorteo del domingo 22 (sin leer; tarjeta solo con palabras clave) y preparar los dos role plays posibles",
+     "Volver a grabar la autopresentación de la semana 1 (ahora de 2–3 minutos) y enviarla junto con la original antes de la clase: es tu 'antes y después' y parte de la evaluación",
+     "Después de la clase: completar la autoevaluación final y la encuesta del curso; Abby devuelve el informe individual junto con el certificado"
+    ],
+    "cultura": "Al terminar un trabajo en equipo en Corea se dice 수고하셨습니다 (gracias por el esfuerzo): se reconoce el trabajo del otro, no solo el resultado, y con esa misma frase se cierra cada clase."
+   }
+  ],
+  "evaluacion": {
+   "quizzes": "Quiz oral de 5 minutos al inicio de las clases 2 a 7: cinco preguntas sobre el módulo anterior (vocabulario y una estructura), respondidas en voz alta o en el chat de Zoom. No lleva nota propia: cuenta dentro del 40 % de participación y le sirve a Abby para decidir qué reactivar en la sala de práctica de ese día.",
+   "tareas": "Cada semana 2–3 entregas (siempre un audio de 60–120 segundos y una tarea escrita corta) por el grupo de WhatsApp del curso antes de la siguiente clase; Abby devuelve la corrección por audio o texto en 48 horas. Equivalen al 30 % de la nota global; se aceptan hasta 2 entregas atrasadas sin penalización.",
+   "examen_final": "Evaluación oral de etapa, sin examen escrito, en dos partes. Antes de la clase 8, por audio: (1) autopresentación ampliada de 2–3 minutos (la de la semana 1 regrabada); (2) monólogo de 2 minutos sobre un módulo sorteado el domingo anterior (K-pop, viajes, comida, 한복 (traje tradicional) o e-sports). En la clase 8, en pares y con Abby en la sala (5 minutos por pareja): (3) role play de 3 minutos sorteado entre restaurante y agencia de viajes; (4) dos preguntas de seguimiento a cada alumno. Rúbrica de 5 criterios con 20 % cada uno: fluidez, precisión de las estructuras del curso, vocabulario de los módulos, pronunciación e interacción (escuchar y reaccionar). Vale el 30 % de la nota global; quien falte a la clase 8 rinde el role play con Abby en una cita de 10 minutos por Zoom dentro de la semana.",
+   "oral": "El curso es 100 % oral: 40 % participación (quizzes, salas de práctica y los dos labs), 30 % tareas de audio y escritas, 30 % evaluación oral final. El audio de la semana 1 se vuelve a grabar en la semana 8 como evidencia de progreso 'antes y después', forma parte de la evaluación final y se comenta en el informe individual.",
+   "certificado": "Certificado Academia Seúl · Conversacional 1 · CEFR A2.1 (parcial) · preparación TOPIK I nivel 2, emitido el 30 de noviembre. Requisitos: ≥ 60 % de nota global y ≥ 75 % de asistencia (6 de 8 clases en vivo; la grabación no cuenta como asistencia salvo aviso previo). Da acceso directo a Conversacional 2 (A2.2, enero 2027) sin test de nivel."
+  },
+  "materiales": [
+   "Decks trilingües ES/KO/EN de los módulos M01–M05 (K-pop y cultura fan, viajes a Jeju y Seúl, cultura gastronómica, 한복 (traje tradicional) y estética, PC방 (cibercafé) y e-sports), plantilla de la casa",
+   "Hoja de actividad por sesión (PDF) con vocabulario, estructuras del módulo y guion del role play",
+   "Tarjetas de estación para los dos labs (agencia de viajes, restaurante, encuentro de fans, 24 horas en Seúl) y tarjetas de temas para la evaluación oral",
+   "Referencia gramatical: Korean Grammar in Use · Beginning, citado por unidad cuando una estructura lo necesita (no se estudia de forma lineal)",
+   "Material auténtico: menús reales de restaurantes de Seúl, mapa del metro de Seúl, clips cortos de conciertos y de la LCK con subtítulos",
+   "Zoom con salas pequeñas y grabación disponible 24 horas después de cada clase",
+   "Grupo de el grupo de WhatsApp del curso para entregar audios, recibir corrección y compartir hallazgos entre clases",
+   "Lector de Hangul (pestañas Palabras y Contrarreloj) como calentamiento opcional de lectura entre sesiones"
+  ],
+  "notas_profesor": [
+   "Los alumnos llegan de Básico 2 con el pasado y el futuro todavía 'verdes': no los reenseñes, reactívalos en contexto. Si alguien falla -았/었어요 (pasado), da el modelo en 10 segundos y sigue con el tema; la espiral de la escalera se encarga del resto.",
+   "Pronunciación típica del hispanohablante: confunde ㅓ/ㅗ (서울 suena como 소울) y ㅡ/ㅜ, suaviza las tensas ㄸ/ㄲ (떡볶이), no asimila el batchim ㄹ+ㄴ (한라산 se pronuncia [할라산]) y pronuncia la ㄹ entre vocales como la r fuerte del español (노래, 머리). Corrige una sola cosa por turno, siempre con modelo y repetición, nunca con una explicación larga.",
+   "Errores de estructura más frecuentes: mezclar 좋아요 y 좋아해요 (BTS가 좋아해요), calcar 'tener X años' con 있어요, colocar el verbo al medio de la frase y usar -고 싶어요 en tercera persona. Anótalos en el chat mientras rotas por las salas y devuélvelos en el cierre (corrección diferida); nunca interrumpas un monólogo.",
+   "Regla 90/10: coreano el 90 % del tiempo; la glosa ES/EN vive en el deck trilingüe y en el chat de Zoom, nunca en traducciones de frases completas. Abby no necesita hablar español: reformular, gesticular y mostrar la imagen funciona mejor y es parte del entrenamiento del alumno.",
+   "Energía y ritmo: para los alumnos son las 21:00 después del trabajo y para ti las 9:00 de la mañana. Empieza con cámaras encendidas y los 10 minutos de 스몰토크 (charla ligera), nombra a cada alumno al menos 3 veces por clase y no dejes que el deck pase de 20 minutos: si la explicación crece, recorta la explicación, no la práctica.",
+   "Diferenciación en las salas: mezcla un alumno fuerte con uno medio, nunca dos fuertes juntos; entrega una 'tarjeta de apoyo' con 3 frases modelo a quien se bloquea y pide una frase extra con -지만 (pero) o -는데 (contraste suave) a quien va sobrado. En los labs, cada sala sin profesora tiene un líder designado que reparte turnos y cuida el tiempo.",
+   "Diagnóstico y evaluación: en la semana 1 anota 3 datos por alumno en la hoja del grupo (fluidez, pronunciación, meta personal) mientras rotas por las salas; en la semana 8 escucha los audios (autopresentación 'antes y después' y monólogo) antes de la clase, para que en vivo solo quede el role play en pares, y aplica la rúbrica de 5 criterios. Con ≥ 60 % y 6 de 8 asistencias se emite el certificado; a quien quede al borde ofrécele una tarea oral de recuperación con 7 días de plazo."
+  ]
+ },
+ {
+  "cursoId": "topik2",
+  "codigo": "KOR 301",
+  "nombre": "TOPIK II (B1+) · Estrategia de examen",
+  "descripcion": "Grupo chico (máximo 8) enfocado 100 % en el examen oficial TOPIK II: estrategia por sección — 듣기 (comprensión oral), 쓰기 (escritura) y 읽기 (lectura) —, corrección personalizada de escritura cada semana y simulacros cronometrados con exámenes oficiales. El TOPIK II es un solo examen que otorga los niveles 3 al 6 según el puntaje (sobre 300): aquí aprendes a asegurar los puntos rentables, a no regalar tiempo y a escribir los formatos 51–54 con plantillas que funcionan. Ideal si apuntas al TOPIK de abril de 2027.",
+  "perfil_alumno": "Adultos con coreano de nivel intermedio (B1): entiendes diálogos y textos cotidianos, escribes párrafos conectados y manejas conectores como -아/어서, -지만 y -(으)니까. Vas a rendir el TOPIK II por universidad, trabajo, visa, beca o meta personal, y quieres un plan concreto en lugar de estudiar a ciegas. También sirve si ya rendiste el examen y te quedaste a pocos puntos del nivel 3 o 4. Grupo de máximo 8 alumnos para que la corrección de 쓰기 (escritura) sea individual y línea a línea.",
+  "requisito_entrada": "Nivel intermedio (B1), un peldaño por encima del último curso de la escalera de Academia Seúl (Conversacional 2, A2.2): se acredita con el test de nivel (diagnóstico escrito estilo TOPIK + conversación de 5 minutos con Jay) o con un resultado TOPIK anterior. La clase 1 confirma la ubicación con un simulacro diagnóstico; si el resultado muestra que faltan bases (0 de 3 conectores correctos o no logras escribir el 51), se recomienda honestamente Conversacional 1 (A2.1) o Conversacional 2 (A2.2) antes de este curso.",
+  "objetivos": [
+   "Dominar la estrategia de cada sección del examen: qué preguntas atacar primero, cuáles saltar y cómo administrar los 180 minutos (듣기 60 · 쓰기 50 · 읽기 70).",
+   "Escribir los cuatro formatos de 쓰기 (51, 52, 53 y 54) con plantillas probadas y el registro correcto de cada uno (-(스)ㅂ니다 en el 51, estilo escrito -(느)ㄴ다 en 52–54), con corrección personal del profe cada semana.",
+   "Resolver 듣기 y 읽기 1–20 con al menos 70 % de acierto y sumar puntos en las preguntas de nivel 4–6 por inferencia, orden y actitud del hablante.",
+   "Rendir un simulacro completo cronometrado con un examen oficial y leer tu puntaje contra los cortes oficiales (nivel 3: 120 · nivel 4: 150 · nivel 5: 190 · nivel 6: 230).",
+   "Incorporar más de 90 palabras de alta frecuencia del examen (economía, sociedad, medio ambiente, encuestas, opinión) usándolas en producciones propias.",
+   "Salir con un plan de estudio personal, semanal y realista hasta el TOPIK de abril de 2027, con fecha de inscripción y sede identificadas."
+  ],
+  "estructura_clase": [
+   {
+    "minutos": "5",
+    "bloque": "Quiz de arranque",
+    "detalle": "Cinco preguntas estilo TOPIK sobre el vocabulario y la estrategia de la semana anterior; se revisan los tiempos y aciertos de la tarea cronometrada."
+   },
+   {
+    "minutos": "15",
+    "bloque": "Estrategia de la sección",
+    "detalle": "Jay desarma el tipo de pregunta o el formato de 쓰기 del día con un examen oficial en pantalla: el patrón, la trampa típica y la fórmula que suma puntos."
+   },
+   {
+    "minutos": "25",
+    "bloque": "Práctica cronometrada",
+    "detalle": "Resolución en vivo con cronómetro visible (individual o en pares), corrección inmediata y conteo de puntos; en las semanas de 쓰기, taller de escritura guiado con la rúbrica."
+   },
+   {
+    "minutos": "10",
+    "bloque": "Corrección personal",
+    "detalle": "Revisión en pantalla de dos o tres producciones de la tarea (anónimas): qué sumó puntos, qué los restó y cómo se dice en estilo escrito."
+   },
+   {
+    "minutos": "5",
+    "bloque": "Cierre y tarea",
+    "detalle": "Resumen de la fórmula del día, tarea cronometrada de la semana y meta de puntaje para la próxima clase."
+   }
+  ],
+  "semanas": [
+   {
+    "n": 1,
+    "titulo": "Diagnóstico + radiografía del TOPIK II",
+    "leccion": "Radiografía del examen (secciones, tiempos, puntajes y cortes de nivel) + simulacro diagnóstico reducido tomado de un examen oficial publicado: 읽기 1–10, 쓰기 51 y 듣기 1–10, más entrevista oral individual. Material: guía de estrategia de Academia Seúl (clase 1) y un examen oficial de topik.go.kr.",
+    "objetivo": "Conocer la estructura y la puntuación del TOPIK II, fijar tu fecha objetivo y saber con datos tu nivel de partida en cada sección.",
+    "gramatica": [
+     "Radiografía: 듣기 (comprensión oral) 50 preguntas · 60 min · 쓰기 (escritura) 4 preguntas · 50 min · 읽기 (lectura) 50 preguntas · 70 min; niveles 3–6 según puntaje sobre 300 (cortes 120 / 150 / 190 / 230)",
+     "Regla de oro: nunca dejar una respuesta en blanco (no se descuentan puntos por error) y no quedarse pegado en 듣기: las preguntas 1–20 se escuchan una sola vez y las 21–50, dos veces",
+     "Los tres conectores del diagnóstico que ubican tu nivel de partida: -(으)니까 (razón, en contraste con -아/어서), -지만 (contraste) y -기 위해서 (propósito)"
+    ],
+    "vocabulario": [
+     "경제 (economía)",
+     "사회 (sociedad)",
+     "환경 (medio ambiente)",
+     "증가하다 (aumentar)",
+     "감소하다 (disminuir)",
+     "영향 (influencia)",
+     "조사 (encuesta, estudio)",
+     "결과 (resultado)",
+     "원인 (causa)",
+     "해결하다 (resolver)",
+     "의견 (opinión)",
+     "최근 (recientemente)"
+    ],
+    "practica": [
+     "Simulacro diagnóstico cronometrado: 읽기 1–10 y 쓰기 51 en 15 minutos en silencio, luego 듣기 1–10 con el audio oficial (8 minutos); corrección inmediata y conteo de puntos por alumno",
+     "Entrevista diagnóstica 1:1 de 2 minutos en sala aparte, mientras el resto resuelve la parte escrita: por qué rindes el TOPIK, tu fecha objetivo y lectura en voz alta de un párrafo corto para medir fluidez y vocabulario",
+     "Cálculo en vivo de 'mi puntaje de hoy → mi corte objetivo': cada alumno ubica su resultado en la tabla de niveles 3–6 y define cuántos puntos necesita por sección"
+    ],
+    "tarea": [
+     "Memorizar las 12 palabras y escribir 2 oraciones con cada verbo (증가하다, 감소하다, 해결하다); enviar el texto por el grupo de WhatsApp del curso antes del jueves",
+     "Resolver 읽기 1–20 de un examen oficial en 20 minutos cronometrados y anotar el tiempo que tardaste en cada pregunta",
+     "Escuchar 15 minutos de un podcast coreano lento (opciones por WhatsApp) y anotar 5 palabras nuevas; opcional: 10 minutos diarios del Lector de Hangul en modo Contrarreloj para velocidad de lectura"
+    ],
+    "cultura": "El TOPIK lo administra el 국립국제교육원 (Instituto Nacional de Educación Internacional de Corea) y en Latinoamérica se rinde en sedes autorizadas de embajadas y Centros Culturales Coreanos; el nivel 3 abre puertas a universidades y becas, y el 4 es el que piden muchos empleadores."
+   },
+   {
+    "n": 2,
+    "titulo": "읽기 I · Lectura",
+    "leccion": "읽기 1–20 del examen oficial, tipo por tipo: 1–2 gramática en contexto, 3–4 expresión de significado equivalente, 5–8 de qué trata el anuncio, 9–12 coincidencia con un texto o gráfico, 13–15 ordenar cuatro oraciones, 16–18 completar el espacio y 19–20 texto corto con conector e idea principal. Trampas típicas y reloj: el examen da unos 80 segundos por pregunta en promedio, pero las 20 primeras deben salir en menos de 45 segundos cada una para guardar tiempo para las difíciles.",
+    "objetivo": "Resolver 읽기 1–20 en menos de 15 minutos con al menos 70 % de acierto, reconociendo cada tipo de pregunta antes de leer el texto completo.",
+    "gramatica": [
+     "-자마자 (en cuanto…) y -(으)ㄹ수록 (cuanto más…): los conectores más frecuentes de 읽기 1–2",
+     "-기 마련이다 ≈ -는 법이다 (es natural que…) y -(으)ㄹ 수밖에 없다 ≈ -아/어야 하다 (no queda otra que…): pares equivalentes para 읽기 3–4",
+     "Palabras que ordenan (읽기 13–15): 그런데 (pero), 그래서 (por eso), 이처럼 (así, de este modo), 또한 (además) como pistas de secuencia",
+     "Lectura rápida de anuncios (읽기 5–8): leer solo los sustantivos clave, no la frase completa"
+    ],
+    "vocabulario": [
+     "안내 (aviso, información)",
+     "할인 (descuento)",
+     "신청 (solicitud, inscripción)",
+     "모집 (convocatoria)",
+     "광고 (anuncio publicitario)",
+     "무료 (gratuito)",
+     "이용 (uso, utilización)",
+     "참여하다 (participar)",
+     "실시하다 (llevar a cabo)",
+     "비율 (proporción, porcentaje)",
+     "응답자 (encuestado)",
+     "차지하다 (ocupar un porcentaje)"
+    ],
+    "practica": [
+     "Carrera contra el reloj en pares: 읽기 1–8 en 4 minutos; después cada par explica en coreano por qué descartó las otras tres opciones",
+     "Ordenar en vivo (읽기 13–15): las cuatro oraciones se reparten entre los alumnos y el grupo negocia el orden por voz antes de ver la respuesta",
+     "Anotación guiada en pantalla: cómo marcar las palabras clave del enunciado y la 'trampa' de cada opción incorrecta en 읽기 9–12"
+    ],
+    "tarea": [
+     "읽기 1–20 de dos exámenes oficiales distintos, cronometrados (15 minutos cada uno); enviar hoja de respuestas y tiempo total",
+     "Ficha escrita de 10 expresiones equivalentes (읽기 3–4) con un ejemplo propio para cada una",
+     "Audio de 1 minuto leyendo en voz alta un anuncio de 읽기 5–8: corrección de pronunciación y ritmo por WhatsApp"
+    ],
+    "cultura": "Los anuncios de 읽기 5–8 son los de la vida real coreana: 분리수거 (reciclaje por categorías), campañas de 에너지 절약 (ahorro de energía) y 동아리 (clubes universitarios); conocer ese contexto vale puntos y no exige leer la frase entera."
+   },
+   {
+    "n": 3,
+    "titulo": "듣기 I · Escucha",
+    "leccion": "듣기 1–20 del examen oficial: 1–3 elegir la imagen o el gráfico, 4–8 la frase que sigue en el diálogo, 9–12 qué hará la persona a continuación, 13–16 coincidencia de contenido y 17–20 idea central del hombre. Técnica de notas mínimas con símbolos y lectura de opciones antes de que arranque el audio.",
+    "objetivo": "Resolver 듣기 1–20 con una sola escucha, leyendo las opciones antes del audio y tomando notas de dos o tres palabras por pregunta.",
+    "gramatica": [
+     "-(으)ㄹ게요 / -(으)ㄹ까요? (compromiso y propuesta): las réplicas típicas de 듣기 4–8",
+     "-아/어 주시겠어요? y -(으)면 안 될까요? (peticiones corteses que anuncian la acción siguiente en 듣기 9–12)",
+     "-는 게 좋겠어요 / -아/어야죠 (opinión y consejo del hablante): la clave de 듣기 17–20",
+     "Notas con símbolos mientras escuchas: ↑↓ (aumenta / disminuye), ♂ / ♀ (hombre / mujer), ✓ / ✗ (acuerda / discrepa)"
+    ],
+    "vocabulario": [
+     "예약하다 (reservar)",
+     "환불 (reembolso)",
+     "교환하다 (cambiar un producto)",
+     "배송 (envío, entrega)",
+     "수리 (reparación)",
+     "분실물 (objeto perdido)",
+     "접수 (recepción, registro)",
+     "마감 (cierre, fecha límite)",
+     "회의 (reunión)",
+     "출장 (viaje de trabajo)",
+     "동료 (colega)",
+     "부탁하다 (pedir un favor)"
+    ],
+    "practica": [
+     "Dictado activo: el profe reproduce un diálogo de 듣기 4–8 en tres tramos; cada alumno escribe la última frase y propone la réplica antes de ver las opciones",
+     "Role play en pares con guion de 듣기 9–12 (cliente y empleado): el compañero adivina en coreano 'qué hará ahora' la mujer o el hombre",
+     "Mini-simulacro 듣기 1–12 con audio oficial (unos 12 minutos) y conteo de aciertos en vivo"
+    ],
+    "tarea": [
+     "듣기 1–20 de un examen oficial en casa, una sola escucha y sin pausar; luego segunda escucha con el 대본 (guion) marcando las palabras que no captaste",
+     "Audio de 2 minutos resumiendo en coreano, con tus palabras, un diálogo de 듣기 13–16",
+     "Sombra (shadowing) de 5 minutos diarios con el audio oficial: repetir en voz alta 3 segundos después del hablante"
+    ],
+    "cultura": "En los diálogos del examen el hombre y la mujer suelen ser 동료 (colegas) o 선배/후배 (senior y junior): el registro -(으)세요 frente a -(스)ㅂ니다 revela quién tiene más jerarquía, y escuchar ese tono ayuda a adivinar la respuesta."
+   },
+   {
+    "n": 4,
+    "titulo": "쓰기 51–52",
+    "leccion": "쓰기 51 (texto práctico: aviso, correo, invitación o mensaje) y 쓰기 52 (texto explicativo breve): dos espacios ㉠ y ㉡ de 5 puntos cada uno, 20 puntos en total. Las fórmulas de alta frecuencia, el registro correcto de cada texto y los criterios de corrección (contenido, gramática y registro). Exámenes oficiales + plantillas propias.",
+    "objetivo": "Conseguir entre 15 y 20 de los 20 puntos de 쓰기 51–52 con fórmulas seguras y el registro adecuado a cada tipo de texto.",
+    "gramatica": [
+     "-(으)려고 합니다 / -고 싶습니다 (intención: 'quiero / vamos a…') para el espacio ㉠ del 51",
+     "-아/어 주시기 바랍니다 / -(으)시면 됩니다 (petición formal en avisos y correos) para el espacio ㉡ del 51",
+     "-기 때문이다 / -아/어야 한다 en estilo escrito -(느)ㄴ다 (causa y obligación en el 52)",
+     "Conectores lógicos del 52: 그러므로 (por lo tanto), 그러나 (sin embargo), 왜냐하면 (porque), 반면에 (en cambio)"
+    ],
+    "vocabulario": [
+     "안내문 (aviso, comunicado)",
+     "초대 (invitación)",
+     "문의 (consulta)",
+     "신청서 (formulario de solicitud)",
+     "참석하다 (asistir)",
+     "연락하다 (contactar)",
+     "확인하다 (confirmar, verificar)",
+     "필요하다 (ser necesario)",
+     "반드시 (sin falta)",
+     "행사 (evento)",
+     "일정 (programa, calendario)",
+     "오히려 (más bien, al contrario)"
+    ],
+    "practica": [
+     "Corrección en vivo de respuestas 51 de la tarea (anónimas, en pantalla): el grupo puntúa de 0 a 5 con la rúbrica y compara con el criterio del profe",
+     "Taller de cambio de registro en pares: la misma frase en -아/어요, -(스)ㅂ니다 y -(느)ㄴ다 (estilo escrito) contra el reloj",
+     "Dos 51 y dos 52 nuevos en 12 minutos, individual, con corrección inmediata y conteo de puntos"
+    ],
+    "tarea": [
+     "Resolver 쓰기 51–52 de tres exámenes oficiales a mano (foto de la hoja): corrección personal del profe antes de la clase 5",
+     "Lista escrita de 15 fórmulas de 51–52 en Hangul con tu propia traducción, para memorizar",
+     "Reescribir un mensaje real que enviaste esta semana por WhatsApp como texto práctico coreano de 3 líneas, usando dos veces -기 바랍니다"
+    ],
+    "cultura": "Los textos del 쓰기 51 imitan avisos reales de 아파트 (edificios de departamentos) y 동아리 (clubes universitarios): allí siempre se escribe en -(스)ㅂ니다, porque en Corea el aviso público mantiene la distancia cortés incluso entre vecinos."
+   },
+   {
+    "n": 5,
+    "titulo": "쓰기 53 · El gráfico",
+    "leccion": "쓰기 53 (30 puntos): describir una encuesta o gráfico en 200–300 caracteres con la plantilla de 4 frases (quién, a quién y sobre qué → resultado principal y segundo → comparación o cambio en el tiempo → causa o proyección). Reglas del 원고지 (hoja cuadriculada): un carácter por casilla, sangría y signos de puntuación. Gráficos de exámenes oficiales.",
+    "objetivo": "Escribir un 53 completo en 15 minutos, sin errores de plantilla ni de 원고지, y obtener al menos 20 de los 30 puntos.",
+    "gramatica": [
+     "-을/를 대상으로 -에 대해 조사를 실시하였다 (frase 1: quién encuestó, a quién y sobre qué)",
+     "-이/가 -%로 가장 높게 나타났고, -이/가 그 뒤를 이었다 (frase 2: resultado principal y segundo lugar)",
+     "-에서 -(으)로 증가하였다 / 감소하였다 · N배 늘었다 (frase 3: cambio entre dos años o dos grupos)",
+     "-(으)ㄹ 것으로 전망된다 / -기 때문인 것으로 보인다 (frase 4: proyección o causa)"
+    ],
+    "vocabulario": [
+     "조사 기관 (entidad que realiza la encuesta)",
+     "대상 (población objetivo)",
+     "응답하다 (responder una encuesta)",
+     "순위 (ranking, posición)",
+     "절반 (la mitad)",
+     "꾸준히 (de manera constante)",
+     "급격히 (bruscamente)",
+     "반면 (por el contrario)",
+     "전망 (perspectiva, proyección)",
+     "요인 (factor)",
+     "만족도 (nivel de satisfacción)",
+     "이용률 (tasa de uso)"
+    ],
+    "practica": [
+     "Construcción guiada de un 53 en pizarra compartida: el grupo dicta las frases 1 a 4 sobre un gráfico oficial y el profe escribe en 원고지 digital contando caracteres en voz alta",
+     "Corrección cruzada en pares con la rúbrica oficial (contenido y tarea, estructura, uso de la lengua): cada par puntúa el 53 del otro y justifica en coreano",
+     "Contrarreloj individual: un 53 nuevo en 15 minutos, envío por foto y comentario breve del profe a cada alumno al cierre"
+    ],
+    "tarea": [
+     "Dos 53 de exámenes oficiales escritos a mano en 원고지 (foto): corrección personal del profe línea a línea antes de la clase 6",
+     "Buscar un gráfico real de un diario coreano (연합뉴스 o 통계청) y describirlo en 4 frases con la plantilla; publicar en el grupo de WhatsApp del curso",
+     "Memorizar las 4 frases de la plantilla y grabarte recitándolas de memoria (audio de 1 minuto)"
+    ],
+    "cultura": "Los gráficos del 53 salen de encuestas reales del 통계청 (Oficina Nacional de Estadística) y de institutos como 한국갤럽 (Gallup Corea); los temas recurrentes —natalidad, empleo juvenil, uso del smartphone— son las conversaciones de la Corea de hoy."
+   },
+   {
+    "n": 6,
+    "titulo": "읽기/듣기 II · Nivel 4–6",
+    "leccion": "Segunda mitad de ambas secciones con exámenes oficiales. 읽기 21–50: expresiones idiomáticas e idea central (21–22), estado de ánimo del personaje (23–24), titulares de prensa (25–27), completar el espacio (28–31), tema del texto (35–38), dónde va la oración (39–41) y actitud y propósito del autor (46–50). 듣기 21–50: entrevistas (25–26), intención del hablante (27–28), quién habla (29–30), debate y actitud (31–32, 45–50). Estrategia de triaje: qué saltar y a qué volver.",
+    "objetivo": "Sumar entre 15 y 20 puntos extra en la segunda mitad de cada sección sin regalar tiempo: identificar el tipo de pregunta, atacar las rentables y dejar las de nivel 6 para el final.",
+    "gramatica": [
+     "Titulares (읽기 25–27): estilo nominalizado sin verbo conjugado — 급증 (aumento brusco), 전망 (perspectiva), 잇따라 (uno tras otro)",
+     "-(으)ㄴ/는 셈이다 (viene a ser…), -(으)ㄹ 따름이다 (no hacer más que…), -(으)ㄴ/는 반면에 (mientras que…): matices de nivel 4–5 que rellenan los espacios de 읽기 28–31",
+     "Verbos de actitud para 읽기 46–50 y 듣기 45–50: 우려하다 (preocuparse), 비판하다 (criticar), 동의하다 (estar de acuerdo), 기대하다 (tener expectativas)",
+     "Pistas de cohesión para 읽기 39–41: 이는 (esto), 그러한 (tal), 이에 따라 (en consecuencia), 예를 들어 (por ejemplo)"
+    ],
+    "vocabulario": [
+     "급증하다 (aumentar bruscamente)",
+     "논란 (polémica)",
+     "대책 (medida, contramedida)",
+     "정책 (política pública)",
+     "제도 (sistema, institución)",
+     "우려 (preocupación)",
+     "비판 (crítica)",
+     "강조하다 (enfatizar)",
+     "주장하다 (sostener, afirmar)",
+     "태도 (actitud)",
+     "심정 (estado de ánimo)",
+     "의도 (intención)"
+    ],
+    "practica": [
+     "Triaje en pares: 10 preguntas de 읽기 21–50 mezcladas, 2 minutos para clasificarlas en 'ahora', 'después' o 'adivinar' y defender el criterio",
+     "Titulares en vivo (읽기 25–27): cada alumno reconstruye un titular como oración completa en coreano y el grupo elige la opción",
+     "Debate simulado de 듣기 31–32: dos alumnos leen un guion breve de debate, el resto identifica la 태도 (actitud) y la 의도 (intención) de cada hablante"
+    ],
+    "tarea": [
+     "읽기 21–50 de un examen oficial en 50 minutos cronometrados, a saltos como en el examen real, más una hoja de triaje con lo que saltaste y por qué",
+     "듣기 21–50 en casa con dos escuchas por pregunta, como en el examen real, y sin pausar; después, audio de 2 minutos explicando en coreano la actitud del hablante en dos preguntas de 45–50",
+     "Ficha escrita de 15 titulares de 읽기 25–27 con su versión 'desnominalizada' en oración completa"
+    ],
+    "cultura": "Los textos de nivel 5–6 citan la historia y los debates sociales de Corea: 조선 (dinastía Joseon), 세종대왕 (el rey Sejong, creador del Hangul) y la 저출산 (baja natalidad) aparecen una y otra vez; leer un titular de 연합뉴스 al día entrena justo eso."
+   },
+   {
+    "n": 7,
+    "titulo": "쓰기 54 · El ensayo",
+    "leccion": "쓰기 54 (50 puntos): ensayo de opinión de 600–700 caracteres a partir de un tema y dos o tres preguntas guía. La plantilla: 서론 (introducción: importancia del tema) → 본론 (dos párrafos que responden las preguntas guía) → 결론 (conclusión con postura). Estilo escrito -(느)ㄴ다, sin marcas de lenguaje oral. Temas de exámenes oficiales recientes + corrección personal.",
+    "objetivo": "Producir un 54 completo y coherente en 30 minutos, respondiendo las preguntas guía y obteniendo al menos 25 de los 50 puntos de la rúbrica.",
+    "gramatica": [
+     "-(으)ㄴ/는 것이 중요하다 / -(으)ㄹ 필요가 있다 (afirmar importancia y necesidad en la introducción)",
+     "첫째 · 둘째 · 마지막으로 + -기 때문이다 (ordenar y justificar razones en el desarrollo)",
+     "-(으)ㄹ 뿐만 아니라 (no solo… sino) · -(으)ㅁ으로써 (mediante) · -(으)ㄹ 수 있도록 (para que se pueda): conectores de registro académico",
+     "따라서 (por lo tanto) · 이처럼 (de este modo) · -아/어야 할 것이다 (habrá que…): el cierre con postura de la conclusión"
+    ],
+    "vocabulario": [
+     "서론 (introducción)",
+     "본론 (desarrollo)",
+     "결론 (conclusión)",
+     "장점 (ventaja)",
+     "단점 (desventaja)",
+     "긍정적 (positivo)",
+     "부정적 (negativo)",
+     "필요성 (necesidad)",
+     "방안 (medida, plan de solución)",
+     "노력하다 (esforzarse)",
+     "바람직하다 (ser deseable)",
+     "경쟁 (competencia)"
+    ],
+    "practica": [
+     "Lluvia de ideas cronometrada (5 minutos) sobre un tema oficial reciente: cada alumno anota en coreano dos razones y un ejemplo y los presenta en 30 segundos",
+     "Armado colaborativo del esqueleto del ensayo en pizarra compartida: una frase por alumno; el profe corrige el registro (-아/어요 → -(느)ㄴ다) en vivo",
+     "Clínica de corrección: dos ensayos de la tarea (anónimos) proyectados; el grupo señala tres aciertos y tres mejoras usando la rúbrica"
+    ],
+    "tarea": [
+     "Un 54 completo escrito a mano en 원고지 sobre el tema entregado en clase (30 minutos cronometrados, foto): corrección personal línea a línea del profe antes del simulacro",
+     "Reescribir el mismo ensayo aplicando las correcciones y grabarte leyéndolo en voz alta (audio de 3 minutos)",
+     "Banco personal de 20 expresiones de opinión listas para usar (Hangul + glosa en español), compartido en el grupo de WhatsApp del curso"
+    ],
+    "cultura": "Los temas del 54 reflejan los debates que Corea tiene consigo misma: 경쟁 사회 (sociedad competitiva), 인공지능 (inteligencia artificial), 환경 (medio ambiente); los correctores premian la postura equilibrada y bien estructurada más que la opinión polémica."
+   },
+   {
+    "n": 8,
+    "titulo": "Simulacro final + plan personal",
+    "leccion": "Examen completo cronometrado con un examen oficial no visto, rendido en casa entre la clase 7 y la 8 (듣기 50 preguntas · 60 min, 쓰기 4 preguntas · 50 min, 읽기 50 preguntas · 70 min; 180 minutos con hoja de respuestas oficial). En clase: análisis sección por sección, mini-simulacro sorpresa, lectura del puntaje contra los cortes y construcción del plan personal hasta el TOPIK real.",
+    "objetivo": "Cerrar con un puntaje real sobre 300, saber en qué nivel estás hoy y salir con un plan de estudio semanal hasta el TOPIK de abril de 2027.",
+    "gramatica": [
+     "Lectura del puntaje: cortes 120 / 150 / 190 / 230 y cuántos puntos faltan por sección para tu nivel objetivo",
+     "Gestión del tiempo del examen real: 듣기 60' sin pausar · 쓰기 50' (51–52 en 8', 53 en 15', 54 en 27') · 읽기 70' (1–25 en 25 minutos)",
+     "Plan de estudio espaciado: un examen oficial completo al mes, dos sesiones de 쓰기 por semana y 15 minutos diarios de 듣기",
+     "Logística del examen: inscripción en topik.go.kr en el periodo que publique la sede de tu país (para abril suele abrir a comienzos de año), documentos y qué llevar el día del examen"
+    ],
+    "vocabulario": [
+     "수험표 (comprobante de examen)",
+     "신분증 (documento de identidad)",
+     "답안지 (hoja de respuestas)",
+     "수정 테이프 (cinta correctora)",
+     "감독관 (supervisor de examen)",
+     "응시하다 (rendir un examen)",
+     "접수 기간 (periodo de inscripción)",
+     "성적 발표 (publicación de resultados)",
+     "유효 기간 (periodo de validez)",
+     "합격 (aprobación)",
+     "목표 (meta)",
+     "계획을 세우다 (hacer un plan)"
+    ],
+    "practica": [
+     "Revisión individual de 3 minutos por alumno del simulacro completo (mientras el resto ajusta su plan): puntaje por sección, nivel alcanzado y los tres tipos de pregunta que más puntos le cuestan",
+     "Mini-simulacro sorpresa de 10 minutos (듣기 5 preguntas + 읽기 5) para medir el reflejo bajo presión después de siete semanas",
+     "Cada alumno presenta en 1 minuto, en coreano, su meta (nivel objetivo y fecha) y su plan semanal; cierre con entrega de certificados"
+    ],
+    "tarea": [
+     "Antes de la clase: rendir el simulacro completo de 180 minutos con un examen oficial que no hayas visto, cronómetro a la vista y hoja de respuestas oficial; enviar la hoja y el 쓰기 escaneado",
+     "Después de la clase: escribir tu plan de estudio semanal hasta abril de 2027 en coreano (150 caracteres) y publicarlo en el grupo de WhatsApp del curso",
+     "Anotar en tu calendario el periodo de inscripción del TOPIK de abril de 2027 en topik.go.kr y confirmar la sede de tu país"
+    ],
+    "cultura": "El día del examen en Corea es casi un ritual: 수험표 (comprobante) y 신분증 (documento de identidad) en mano, celular apagado, y muchos llevan 엿 (caramelo de malta) o 찹쌀떡 (pastel de arroz glutinoso) para 'pegarse' al aprobado, porque 붙다 significa tanto pegarse como aprobar."
+   }
+  ],
+  "evaluacion": {
+   "quizzes": "Quiz de 5 minutos al inicio de cada clase (semanas 2 a 8): cinco preguntas estilo TOPIK sobre la estrategia y el vocabulario de la semana anterior, corregidas en vivo. Vale 20 % de la nota final.",
+   "tareas": "Una tarea cronometrada por semana (una sección de un examen oficial más una producción escrita o de audio), entregada por el grupo de WhatsApp del curso antes de la siguiente clase. Las tareas de 쓰기 reciben corrección personal línea a línea del profe. Vale 30 % de la nota final.",
+   "examen_final": "Simulacro TOPIK II completo con un examen oficial no visto, rendido cronometrado en casa entre las clases 7 y 8: 듣기 50 preguntas en 60 minutos, 쓰기 4 preguntas (51–54) en 50 minutos y 읽기 50 preguntas en 70 minutos; 180 minutos en total, con hoja de respuestas oficial. Se corrige con la clave oficial y la rúbrica de 쓰기 y se traduce a nivel estimado (3–6). Más un mini-simulacro de 10 minutos en la clase 8. Vale 40 % de la nota final.",
+   "oral": "El TOPIK II no tiene sección oral, pero el curso la evalúa igual: entrevista diagnóstica individual en la clase 1 (sin nota), participación en los role plays, dictados activos y debates simulados, y presentación final de 1 minuto en coreano de tu meta y plan de estudio en la clase 8. Vale 10 % de la nota final.",
+   "certificado": "Certificado Academia Seúl 'Preparación TOPIK II · CEFR B1+' con el puntaje del simulacro final y el nivel TOPIK estimado (3–6), emitido la semana del 30 de noviembre de 2026. Requisitos: nota global de al menos 60 %, asistencia de al menos 75 % (6 de las 8 clases en vivo; la grabación no cuenta como asistencia) y entrega del simulacro completo. El certificado oficial TOPIK lo otorga únicamente el 국립국제교육원 (Instituto Nacional de Educación Internacional) al rendir el examen real."
+  },
+  "materiales": [
+   "Exámenes TOPIK II oficiales publicados (기출문제) en topik.go.kr, con audio y claves de respuesta: se trabajan cuatro o cinco exámenes distintos durante el curso",
+   "Material de estrategia propio de Academia Seúl: guía por tipo de pregunta, plantillas de 쓰기 51–54 y rúbricas de corrección explicadas en español",
+   "Hoja de respuestas oficial (답안지) y 원고지 (hoja cuadriculada) imprimibles para practicar 쓰기 a mano, como en el examen real",
+   "Cronómetro visible en todas las prácticas (en Zoom y en el celular del alumno)",
+   "Korean Grammar in Use · Intermediate (Darakwon) como referencia de consulta opcional para los patrones de nivel 3–4; no se estudia de forma lineal",
+   "Grupo de el grupo de WhatsApp del curso del curso: entrega de tareas, banco de expresiones compartido y dudas entre clases; grabación de cada clase disponible 24 horas después",
+   "Lector de Hangul (modo Contrarreloj) como calentamiento opcional de velocidad de lectura",
+   "Podcasts coreanos lentos y titulares de 연합뉴스 (agencia de noticias) como input diario recomendado"
+  ],
+  "notas_profesor": [
+   "Diagnóstico honesto en la clase 1: si un alumno saca 0 de 3 en los conectores o no logra escribir el 51, proponle Conversacional 1 (A2.1) o Conversacional 2 (A2.2) en lugar de este curso; mejor alumno contento en su nivel que frustrado en TOPIK II. Si saca 3 de 3 y escribe frases naturales, adelántale el 54 desde la semana 5.",
+   "Error típico del hispanohablante en 쓰기: escribir en registro oral (-아/어요) donde va el estilo escrito -(느)ㄴ다, y traducir 'porque' con 왜냐하면 sin cerrar la frase con -기 때문이다. Corrige estas dos siempre; deja pasar el espaciado y la ortografía menor en 51–52.",
+   "En 듣기 los alumnos se quedan pegados en la pregunta anterior y pierden la siguiente: entrena explícitamente el 'soltar y seguir'. También confunden la voz masculina y femenina cuando la pregunta pide la idea del 남자 (hombre): hazlos marcar ♂ / ♀ en la hoja antes de que empiece el audio.",
+   "Ritmo: la clase rinde solo si la práctica cronometrada dura de verdad 25 minutos con cronómetro visible; no te extiendas en la explicación estratégica. La corrección detallada de 쓰기 va por escrito entre clases, no en vivo (en vivo, solo dos o tres casos anónimos).",
+   "Diferenciación con 8 alumnos: arma dos sub-metas (nivel 3 y nivel 4–5). Los de nivel 3 trabajan 읽기 y 듣기 1–25 y 쓰기 51–53 hasta la perfección; los de 4–5 suman 읽기 35–50, 듣기 41–50 y el 54 completo. Misma tarea, umbral distinto.",
+   "Vocabulario: no des listas largas; 12 palabras por semana con obligación de usarlas en la tarea escrita. Refuerza los pares 증가 / 감소 (aumento / disminución), 긍정적 / 부정적 (positivo / negativo) y 장점 / 단점 (ventaja / desventaja): aparecen en el 53 y el 54 de casi todos los exámenes.",
+   "Cuida el ánimo en la semana 6: el puntaje suele bajar porque las preguntas son más difíciles. Recuérdales que el nivel 3 es el 40 % del examen y que las preguntas de nivel 6 no son su meta. Celebra los puntos ganados en 쓰기, que es donde más se sube en 8 semanas."
+  ]
+ },
+ {
+  "cursoId": "ninos",
+  "codigo": "KOR 050",
+  "nombre": "Coreano para Niños (8–12) · Juega y aprende",
+  "descripcion": "Coreano desde cero para niños y niñas de 8 a 12 años, con juegos, canciones y dibujos. En 8 clases en vivo por Zoom de 60 minutos con dos profes nativos, aprenden a leer el 한글 (alfabeto coreano), presentarse con nombre y edad, contar del 1 al 10 y nombrar animales, familia y comidas coreanas. La actividad cambia cada 8–10 minutos para sostener la atención, y cada semana la familia recibe una nota con qué repasar en el Lector de Hangul. Cierre: mini-show en coreano para las familias y certificado.",
+  "perfil_alumno": "Niños y niñas de 8 a 12 años, hispanohablantes, sin conocimientos previos de coreano (o solo palabras sueltas de K-pop y dramas). Curiosos, con ganas de jugar, cantar y dibujar, y con un adulto en casa que pueda acompañar los 20 minutos de tarea y recibir la nota semanal por WhatsApp. Ideal si en casa se ve K-drama o se escucha K-pop y el niño quiere \"entender lo que dicen\".",
+  "requisito_entrada": "Ninguno: se parte desde cero absoluto. Requisitos prácticos: tener entre 8 y 12 años, computador o tablet con cámara y micrófono, un lugar tranquilo durante la clase, hojas y lápices de colores a mano, y un adulto responsable que gestione el WhatsApp de la familia (envío de tareas, nota semanal y permisos para el show final).",
+  "objetivos": [
+   "Leer en voz alta sílabas y palabras sencillas en 한글 (alfabeto coreano): vocales y consonantes básicas y los batchim más frecuentes.",
+   "Saludar, despedirse y agradecer en coreano con la pequeña reverencia que corresponde.",
+   "Presentarse con nombre y edad: 안녕하세요, 저는 ___이에요/예요, ___ 살이에요.",
+   "Contar del 1 al 10 con los números coreanos nativos y preguntar la edad.",
+   "Nombrar 10 animales, los miembros de la familia y 10 comidas coreanas, y decir cuáles le gustan y cuáles no.",
+   "Escribir su propio nombre y palabras cortas en 한글.",
+   "Presentar un mini-show de 30–40 segundos en coreano ante la familia y recibir su certificado."
+  ],
+  "estructura_clase": [
+   {
+    "minutos": "5 min",
+    "bloque": "Bienvenida y canción",
+    "detalle": "Saludo 안녕하세요 con reverencia, canción de la semana y pase de lista jugando: cada niño responde 네 (sí) y muestra el dibujo o la tarea de la semana a la cámara."
+   },
+   {
+    "minutos": "10 min",
+    "bloque": "Repaso jugando",
+    "detalle": "Quiz-juego de 5 minutos sobre la clase anterior (bingo, memorice o 'Jay dice') y revisión relámpago de la tarea del Lector; se reparten los stickers del tablero de progreso."
+   },
+   {
+    "minutos": "20 min",
+    "bloque": "Lo nuevo de hoy",
+    "detalle": "Dos mini-bloques de 10 minutos con cambio de actividad: Jay presenta el contenido con dibujos, gestos y objetos reales; luego Abby dirige un juego de movimiento (respuesta física total) para fijarlo con el cuerpo y la voz."
+   },
+   {
+    "minutos": "20 min",
+    "bloque": "Taller en equipos",
+    "detalle": "Dos salas de Zoom de hasta 6 niños, una con Jay y otra con Abby: dibujar, armar sílabas, role play, bingo de lectura o entrevista en pares; corrección uno a uno de pronunciación."
+   },
+   {
+    "minutos": "5 min",
+    "bloque": "Cierre y nota a la familia",
+    "detalle": "Canción de despedida, sticker del día y explicación de la tarea con la pestaña exacta del Lector. Después de clase, la familia recibe la nota semanal por WhatsApp."
+   }
+  ],
+  "semanas": [
+   {
+    "n": 1,
+    "titulo": "¡Hola, Corea! · 안녕하세요",
+    "leccion": "Saludos con canciones + primeras vocales jugando. Primera clase: conocernos, aprender a saludar con reverencia y descubrir las 6 vocales básicas con el cuerpo, la voz y el Lector de Hangul.",
+    "objetivo": "Saludar, despedirse y dar las gracias en coreano, responder 네 / 아니요 en juegos, y reconocer y leer las 6 vocales básicas ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ.",
+    "gramatica": [
+     "안녕하세요 (hola) · 안녕 (hola / chao, entre amigos) — fórmulas fijas con reverencia, sin analizar",
+     "네 (sí) / 아니요 (no) — para responder al pase de lista y a los juegos",
+     "Vocales básicas ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ con la ㅇ muda al inicio: 아 어 오 우 으 이"
+    ],
+    "vocabulario": [
+     "안녕하세요 (hola)",
+     "안녕 (hola / chao, entre amigos)",
+     "안녕히 계세요 (adiós, cuando tú te vas)",
+     "감사합니다 (gracias)",
+     "네 (sí)",
+     "아니요 (no)",
+     "선생님 (profesor / profesora)",
+     "친구 (amigo / amiga)",
+     "한국 (Corea)",
+     "한글 (alfabeto coreano)",
+     "잘했어요 (¡bien hecho!)"
+    ],
+    "practica": [
+     "Canción de saludo 안녕 con gestos y reverencia leve; se repite subiendo la velocidad hasta que todos la cantan de memoria.",
+     "Juego 'La vocal viva': Jay muestra una vocal y los niños hacen su forma con los brazos (ㅏ brazo a la derecha, ㅗ brazo arriba, ㅡ brazos abiertos); luego al revés, un niño posa y los demás adivinan.",
+     "Bingo de vocales con audio: Abby pronuncia una vocal y los niños marcan en su cartón de 6 casillas; quien completa lee su fila en voz alta."
+    ],
+    "tarea": [
+     "Lector de Hangul → pestaña Alfabeto: tocar y repetir las 6 vocales en voz alta (5 minutos, 3 días distintos) y luego Practicar → Vocales hasta 10 aciertos.",
+     "Colorear la lámina de las 6 vocales (viene en la nota semanal) y pegarla cerca del computador.",
+     "Grabar un audio de 10 segundos con 안녕하세요 y 감사합니다 y enviarlo por el WhatsApp de la familia."
+    ],
+    "cultura": "En Corea se saluda con una pequeña reverencia (인사 = saludo); los niños la practican en la canción y la usan al entrar y salir de cada clase."
+   },
+   {
+    "n": 2,
+    "titulo": "Mi nombre en coreano",
+    "leccion": "Consonantes básicas + cada uno escribe su nombre en 한글. Descubrimos las primeras 10 consonantes, aprendemos a armar la primera sílaba y cada niño se lleva su nombre escrito en coreano.",
+    "objetivo": "Reconocer las consonantes básicas ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅎ, leer sílabas simples consonante + vocal, escribir el propio nombre en 한글 y presentarse con él.",
+    "gramatica": [
+     "저는 ___이에요/예요 (yo soy ___) — frase hecha para presentarse con el nombre",
+     "이름이 뭐예요? (¿cómo te llamas?) — pregunta fija en cadena",
+     "Consonante + vocal = sílaba: ㄱ + ㅏ = 가; ㄴ + ㅏ = 나 (la fábrica empieza a funcionar)"
+    ],
+    "vocabulario": [
+     "이름 (nombre)",
+     "저 (yo, forma cortés)",
+     "나무 (árbol)",
+     "바다 (mar)",
+     "아이 (niño / niña)",
+     "오이 (pepino)",
+     "머리 (cabeza)",
+     "다리 (pierna)",
+     "나비 (mariposa)",
+     "모자 (gorro)"
+    ],
+    "practica": [
+     "Cada niño arma su nombre con tarjetas de letras en la pizarra de Zoom mientras Jay guía la transcripción (Sofía → 소피아, Mateo → 마테오, Valentina → 발렌티나); luego lo escribe en una hoja grande y lo muestra a la cámara.",
+     "Ronda '이름이 뭐예요?': en círculo virtual, cada niño pregunta al siguiente y este responde 저는 ___이에요/예요; Abby corrige la reverencia y la entonación.",
+     "Dictado dibujado: Abby dice 나무 o 바다, los niños dibujan en 20 segundos lo que escucharon y escriben la palabra debajo."
+    ],
+    "tarea": [
+     "Lector de Hangul → Alfabeto: consonantes (tocar y repetir) y Practicar → Consonantes hasta 10 aciertos.",
+     "Decorar la hoja con tu nombre en 한글 (colores, dibujos, stickers): la mostramos al inicio de la próxima clase y luego irá en el show final.",
+     "Audio de 10 segundos: 안녕하세요, 저는 ___이에요/예요."
+    ],
+    "cultura": "El 9 de octubre es 한글날 (Día del Hangul), feriado en Corea: se celebra el alfabeto que inventó el rey 세종대왕 (rey Sejong el Grande) para que todos pudieran aprender a leer, y esta semana cada niño ya escribe su nombre con él."
+   },
+   {
+    "n": 3,
+    "titulo": "La fábrica de sílabas",
+    "leccion": "Armar y leer sílabas + bingo de lectura. Convertimos las letras en sílabas y las sílabas en palabras reales, y aparece el 받침 (consonante final) en palabras muy comunes.",
+    "objetivo": "Combinar consonante + vocal para leer cualquier sílaba simple, reconocer el batchim ㄴ, ㅁ, ㅇ, ㄹ en palabras cortas y leer en voz alta 10 palabras de una y dos sílabas.",
+    "gramatica": [
+     "La sílaba como bloque: consonante + vocal (가) y consonante + vocal + 받침 (강)",
+     "받침 (consonante final) más frecuentes: ㄴ, ㅁ, ㅇ, ㄹ — solo reconocer y leer, sin reglas",
+     "La ㅇ tiene dos caras: muda al inicio (아) y sonido 'ng' al final (강)"
+    ],
+    "vocabulario": [
+     "문 (puerta)",
+     "산 (montaña)",
+     "손 (mano)",
+     "발 (pie)",
+     "물 (agua)",
+     "강 (río)",
+     "방 (habitación)",
+     "밤 (noche)",
+     "눈 (ojo / nieve)",
+     "김 (alga seca)",
+     "가방 (mochila)"
+    ],
+    "practica": [
+     "Fábrica de sílabas: Jay fija una consonante en la pizarra y los niños 'fabrican' sílabas cambiando la vocal a coro (가 거 고 구 그 기); luego un niño elige la consonante y dirige la fábrica.",
+     "Bingo de lectura: cartón de 9 sílabas por niño; Abby lee una sílaba cada 10 segundos y marcan; el ganador lee su fila completa en voz alta.",
+     "Carrera del batchim: en equipos de 3, cada equipo lee 5 palabras con 받침 lo más rápido posible mientras Jay y Abby cronometran y corrigen la ㅇ final."
+    ],
+    "tarea": [
+     "Lector de Hangul → Aprender: Sílabas y Batchim; luego Practicar → Sílabas (10 aciertos) y Batchim (10 aciertos).",
+     "Cazadores de 한글: buscar 3 palabras coreanas en casa (un envase de ramen, un álbum de K-pop, un drama en la tele) y enviar foto o dibujo de una.",
+     "Audio: leer en voz alta las 11 palabras de la semana."
+    ],
+    "cultura": "Las sílabas coreanas se escriben en bloques cuadrados, como si cada una viviera en una cajita; por eso un libro antiguo dice que una persona lista aprende 한글 en una mañana."
+   },
+   {
+    "n": 4,
+    "titulo": "Los animales · 동물",
+    "leccion": "10 animales + '¡es un…!' (이에요/예요) con dibujos. Primera estructura real: decir qué es algo. Los animales llegan con sonidos, gestos y dibujos relámpago.",
+    "objetivo": "Nombrar 10 animales, preguntar 이거 뭐예요? y responder ___이에요/예요, y presentar el animal favorito con un dibujo.",
+    "gramatica": [
+     "N + 이에요/예요 (es un / una ___): 곰이에요 después de consonante, 토끼예요 después de vocal",
+     "이거 뭐예요? (¿qué es esto?) — pregunta y respuesta en formato juego",
+     "Onomatopeyas coreanas de animales: 멍멍 (guau), 야옹 (miau), 꿀꿀 (oinc) — para reír y fijar el sonido"
+    ],
+    "vocabulario": [
+     "동물 (animal)",
+     "강아지 (perrito)",
+     "고양이 (gato)",
+     "토끼 (conejo)",
+     "곰 (oso)",
+     "호랑이 (tigre)",
+     "새 (pájaro)",
+     "물고기 (pez)",
+     "코끼리 (elefante)",
+     "돼지 (cerdo)",
+     "사자 (león)"
+    ],
+    "practica": [
+     "Adivina el animal: Abby hace el sonido o el gesto y los niños gritan la respuesta completa: 호랑이예요!; el primero en acertar hace el siguiente.",
+     "Dibujo relámpago: en 30 segundos dibujan el animal que dice Jay, lo muestran a la cámara y dicen 이거 곰이에요; Jay corrige 이에요 / 예요 con un gesto (puño = consonante, mano abierta = vocal).",
+     "Memorice en pantalla: 12 cartas con dibujos y palabras en 한글; el niño que encuentra el par lo lee en voz alta y responde 이거 뭐예요?"
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Palabras y Pictogramas: leer 15 palabras con dibujo (enviar captura del avance).",
+     "Dibujar tu animal favorito y escribir su nombre en 한글: lo presentas en 10 segundos la próxima clase y va al show final.",
+     "Audio: 3 frases 이거 ___이에요/예요 con tus peluches o las mascotas de tu casa."
+    ],
+    "cultura": "El 호랑이 (tigre) es el animal símbolo de Corea: protagoniza los cuentos antiguos, fue la mascota de los Juegos Olímpicos de Seúl 1988 y es el sello de Academia Seúl."
+   },
+   {
+    "n": 5,
+    "titulo": "Mi familia · 가족",
+    "leccion": "엄마, 아빠, 할머니… presentar a la familia con una foto o dibujo. Cada niño trae una foto o dibujo de su familia y aprende a presentarla en coreano.",
+    "objetivo": "Nombrar a los miembros de la familia y presentar a 2 o 3 personas con una foto o dibujo: 이 사람은 우리 엄마예요.",
+    "gramatica": [
+     "우리 + familia (우리 엄마 = mi mamá) — en coreano la familia siempre es 'nuestra'",
+     "이 사람은 ___이에요/예요 (esta persona es ___) — repaso de 이에요/예요 con personas",
+     "이름이 뭐예요? aplicado a un familiar: 엄마 이름이 뭐예요? (¿cómo se llama tu mamá?)"
+    ],
+    "vocabulario": [
+     "가족 (familia)",
+     "엄마 (mamá)",
+     "아빠 (papá)",
+     "할머니 (abuela)",
+     "할아버지 (abuelo)",
+     "언니 (hermana mayor, si tú eres niña)",
+     "오빠 (hermano mayor, si tú eres niña)",
+     "누나 (hermana mayor, si tú eres niño)",
+     "형 (hermano mayor, si tú eres niño)",
+     "동생 (hermano o hermana menor)",
+     "사람 (persona)"
+    ],
+    "practica": [
+     "Show & tell familiar: cada niño muestra su foto o dibujo y presenta a 2 personas con 이 사람은 우리 아빠예요; Abby modela primero con una foto de su familia en Corea.",
+     "Árbol de familia gigante: Jay comparte un árbol vacío en la pizarra y los niños van diciendo quién va en cada rama (할머니 arriba, 동생 abajo) mientras un voluntario lo escribe.",
+     "Canción de la familia con gestos (엄마, 아빠, 할머니, 할아버지…) a velocidad creciente; el último que se equivoca elige la siguiente canción."
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Palabras (10 aciertos) y una ronda de repaso en Alfabeto (vocales y consonantes en voz alta).",
+     "Dibujar tu árbol de familia con los nombres en 한글 (mínimo 4 personas; las mascotas también cuentan): será parte del show final.",
+     "Audio: presentar a 3 personas de tu familia con 이 사람은 우리 ___이에요/예요."
+    ],
+    "cultura": "En Corea, a los amigos mayores también se les dice 언니, 오빠, 누나 o 형, como si fueran de la familia; por eso lo escuchas tanto en el K-pop y en los dramas."
+   },
+   {
+    "n": 6,
+    "titulo": "Los números mágicos",
+    "leccion": "Contar del 1 al 10 + decir la edad. Los números coreanos nativos con palmas, saltos y canción, y la pregunta más importante entre niños coreanos: ¿cuántos años tienes?",
+    "objetivo": "Contar del 1 al 10 con los números coreanos nativos, preguntar 몇 살이에요? y decir la propia edad: 저는 열 살이에요 (열한 / 열두 살 para los mayores).",
+    "gramatica": [
+     "Números nativos 하나–열 (1–10): los que se usan para contar cosas y decir la edad",
+     "___ 살이에요 (tengo ___ años) con las formas cortas 한, 두, 세, 네 antes de 살; los de 11 y 12 años dicen 열한 살, 열두 살",
+     "몇 살이에요? (¿cuántos años tienes?) — pregunta fija para la entrevista"
+    ],
+    "vocabulario": [
+     "하나 (uno)",
+     "둘 (dos)",
+     "셋 (tres)",
+     "넷 (cuatro)",
+     "다섯 (cinco)",
+     "여섯 (seis)",
+     "일곱 (siete)",
+     "여덟 (ocho)",
+     "아홉 (nueve)",
+     "열 (diez)",
+     "살 (años de edad)",
+     "생일 (cumpleaños)"
+    ],
+    "practica": [
+     "Canción de los números con una palma por número y un salto en 열; luego la cantamos al revés (열, 아홉, 여덟…) y por último solo con gestos, sin voz.",
+     "'Jay dice / Abby dice': 셋! → todos muestran 3 dedos; 일곱! → 7 saltos; quien se equivoca se sienta y cuenta en coreano a los que siguen.",
+     "Entrevista en salas: en pares, 몇 살이에요? — 저는 아홉 살이에요; luego cada niño reporta al grupo la edad de su compañero (마테오는 열 살이에요)."
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Números (ronda de números nativos, 10 aciertos) y un intento de ⚡ Contrarreloj de sílabas: enviar captura del tiempo.",
+     "Contar en coreano 10 objetos de tu casa (lápices, cucharas, peluches) y grabar el audio hasta 열.",
+     "Preguntar la edad en coreano a 2 personas de tu familia y anotar la respuesta con números coreanos (vale usar las tarjetas de la nota semanal)."
+    ],
+    "cultura": "En el primer cumpleaños de un bebé coreano, el 돌 (primer cumpleaños), se hace el 돌잡이: el bebé elige un objeto de una mesa (un lápiz, un hilo, dinero) que 'predice' su futuro."
+   },
+   {
+    "n": 7,
+    "titulo": "¡Ñam! Comida coreana",
+    "leccion": "김밥, 라면, 불고기 + 'me gusta' (좋아해요). Semana de comida: nombramos platos coreanos, decimos qué nos gusta y qué no, y empezamos a ensayar el guion del show final.",
+    "objetivo": "Nombrar 10 comidas coreanas y decir cuáles te gustan y cuáles no: 저는 김밥 좋아해요 / 김치 안 좋아해요; reaccionar con 맛있어요 o 매워요.",
+    "gramatica": [
+     "N + 좋아해요 (me gusta ___): 김밥 좋아해요 — la partícula 을/를 solo se escucha en el modelo, no se explica",
+     "안 좋아해요 (no me gusta) — la negación más útil del curso",
+     "뭐 좋아해요? (¿qué te gusta?) y las respuestas de mesa 맛있어요 (¡está rico!) / 매워요 (pica)"
+    ],
+    "vocabulario": [
+     "김밥 (rollo de arroz con alga)",
+     "라면 (fideos instantáneos)",
+     "불고기 (carne marinada)",
+     "떡볶이 (pastelitos de arroz picantes)",
+     "김치 (col fermentada)",
+     "밥 (arroz cocido / comida)",
+     "사과 (manzana)",
+     "바나나 (banana)",
+     "딸기 (frutilla / fresa)",
+     "주스 (jugo)",
+     "맛있어요 (¡está rico!)",
+     "매워요 (pica)"
+    ],
+    "practica": [
+     "Menú de dibujos: cada niño dibuja su plato coreano favorito, lo muestra y lo presenta: 저는 떡볶이 좋아해요. 맛있어요!; Abby cuenta qué comió hoy en Corea.",
+     "Encuesta relámpago: Abby pregunta 김치 좋아해요? y los niños responden con pulgar arriba o abajo más la frase completa 네, 좋아해요 / 아니요, 안 좋아해요; Jay anota el ranking del grupo en la pizarra.",
+     "Adivina la comida: Jay muestra una foto tapada y la destapa de a poco; el primero que la nombra en coreano gana un sticker y pregunta 뭐 좋아해요? al siguiente."
+    ],
+    "tarea": [
+     "Lector de Hangul → Practicar → Palabras y Pictogramas (10 aciertos) y ⚡ Contrarreloj: intentar mejorar tu tiempo de la semana pasada.",
+     "Ensayar el guion del show final con la plantilla de la nota semanal (saludo, nombre, edad, familia, animal y comida favorita; 30–40 segundos) y enviar un primer video de prueba.",
+     "Audio o video: probar una comida coreana (o mostrar una foto de una) y decir 맛있어요 o 매워요."
+    ],
+    "cultura": "El 김치 se come en casi todas las comidas coreanas, y en noviembre las familias se juntan para el 김장 (preparación del kimchi de todo el invierno), que la UNESCO reconoce como patrimonio."
+   },
+   {
+    "n": 8,
+    "titulo": "🎤 Show final + certificado",
+    "leccion": "Mini-presentación en coreano para las familias + certificado. Las familias entran a Zoom, cada niño presenta su show de 30–40 segundos, lee 5 palabras en 한글 y recibe su certificado en pantalla.",
+    "objetivo": "Presentarse en coreano durante 30–40 segundos frente a la familia (saludo, nombre, edad, familia, animal y comida favorita), leer 5 palabras en 한글 en voz alta y cerrar con 감사합니다.",
+    "gramatica": [
+     "Integración del guion: 안녕하세요 → 저는 ___이에요/예요 → ___ 살이에요 → 이 사람은 우리 ___이에요/예요 → 저는 ___ 좋아해요",
+     "Fórmulas de cierre: 감사합니다 (gracias) y 안녕히 계세요 (adiós, cuando tú te vas) con reverencia"
+    ],
+    "vocabulario": [
+     "박수 (aplauso)",
+     "잘했어요 (¡bien hecho!)",
+     "축하해요 (¡felicitaciones!)",
+     "수료증 (certificado de finalización)",
+     "시작 (comienzo / ¡empieza!)",
+     "끝 (fin)",
+     "화이팅 (¡ánimo! / ¡vamos!)",
+     "사랑해요 (te quiero)"
+    ],
+    "practica": [
+     "Ensayo general en salas (primeros 15 minutos, antes de que entren las familias): cada niño presenta su guion a Jay o Abby y recibe una última corrección suave de pronunciación.",
+     "Show final con las familias en Zoom: cada niño presenta 30–40 segundos con su hoja del nombre, su árbol de familia y su animal; los demás aplauden con 박수 y gritan 잘했어요.",
+     "Ceremonia de cierre: entrega del certificado en pantalla uno por uno con 축하해요, foto grupal con el 손하트 (corazón con los dedos) y despedida con 안녕히 계세요."
+    ],
+    "tarea": [
+     "Lector de Hangul → pestaña Progreso: enviar una captura del avance (vocales, consonantes, sílabas, palabras) para el portafolio del niño.",
+     "Enseñar a alguien de la familia a decir 안녕하세요 y 감사합니다 y a leer su nombre en 한글.",
+     "Opcional: enviar el video del show para el álbum de la academia (solo con permiso escrito de la familia)."
+    ],
+    "cultura": "El 손하트 (corazón con los dedos) nació en Corea y hoy lo hacen ídolos y deportistas de todo el mundo: es el gesto perfecto para la foto del certificado."
+   }
+  ],
+  "evaluacion": {
+   "quizzes": "Cada clase abre con un quiz-juego de 5 minutos sobre la semana anterior (bingo, memorice, 'Jay dice'). No lleva nota numérica: cada niño acumula stickers en su tablero de progreso y el profe anota en la nota semanal qué logró y qué conviene repasar en el Lector.",
+   "tareas": "Tarea corta y lúdica (≈ 20 minutos, 3 o 4 días a la semana, unas 2 horas semanales en total): un drill del Lector de Hangul con la pestaña exacta, un dibujo o manualidad, y un audio o video de 10–30 segundos que envía la familia por WhatsApp. Jay o Abby responden con un comentario de voz antes de la siguiente clase.",
+   "examen_final": "Show final en la clase 8, sin examen escrito. Tres partes por niño (3 minutos en total, dentro de la clase de 60 minutos): (1) presentación oral de 30–40 segundos ante las familias con saludo, nombre, edad, familia, animal y comida favorita; (2) lectura en voz alta de 5 palabras en 한글 elegidas al azar entre las del curso; (3) 5 preguntas de comprensión con dibujos (señalar el animal, la comida o el número que dice el profe).",
+   "oral": "Evaluación continua en las salas de taller: cada semana Jay o Abby registran 3 indicadores por niño (entiende la instrucción en coreano, repite con buena pronunciación, produce la frase solo). El show final vale como evaluación oral de cierre; se valora que se entienda y se atreva a hablar, no la perfección gramatical.",
+   "certificado": "Certificado 'Coreano para Niños (8–12) · Academia Seúl' para quien asista al menos al 75 % de las clases (6 de 8, la grabación no reemplaza la asistencia) y complete el show final con al menos el 60 % de los logros del tablero: leer sus primeras palabras, presentarse con nombre y edad, contar del 1 al 10 y nombrar animales, familia y comidas. Se entrega en pantalla en la clase 8 y en PDF a la familia."
+  },
+  "materiales": [
+   "Material propio Academia Seúl: láminas ilustradas por sesión (PDF para imprimir o ver en pantalla), cartones de bingo, tarjetas de letras y plantilla del guion del show final.",
+   "Lector de Hangul (academiaseul.com/lector-hangul), gratis y con audio nativo: pestañas Alfabeto, Aprender, Practicar (Vocales, Consonantes, Sílabas, Batchim, Palabras, Números, Pictogramas, ⚡ Contrarreloj) y Progreso.",
+   "Canciones propias de saludo, familia y números, con letra en 한글 y español (audio en la nota semanal).",
+   "Tablero de stickers de progreso (PDF imprimible) y nota semanal a la familia por WhatsApp con qué aprendimos, qué repasar y una frase para practicar en casa.",
+   "Kit de casa: hojas blancas, lápices de colores, tijeras y pegamento; peluches o juguetes de animales (semana 4) y una foto o dibujo de la familia (semana 5).",
+   "Zoom con cámara y micrófono, pizarra compartida y salas de grupos pequeños; grabación de cada clase disponible 24 horas después para repasar en familia."
+  ],
+  "notas_profesor": [
+   "Cambia de actividad cada 8–10 minutos y avisa con una señal fija (campanita o tres palmas con 하나, 둘, 셋): a esta edad la atención frente a la pantalla se agota rápido. Alterna siempre pantalla → cuerpo → papel, y ten 2 juegos de reserva (memorice y bingo) por si la conexión de alguien falla.",
+   "Reparto de roles claro: Jay lleva el hilo de la clase y las explicaciones en español; Abby lidera canciones, sonidos y el modelo de pronunciación nativa. En las salas, cada profe toma como máximo 6 niños y usa la misma lista de 3 indicadores orales.",
+   "Pronunciación típica de hispanohablantes: ㅓ tiende a salir como 'e' (debe sonar como una 'o' abierta), ㅡ no existe en español (sonrisa sin redondear los labios), ㄹ entre vocales es una 'r' suave y nunca 'l' fuerte, y la ㅇ final se pierde ('gan' en vez de 강). Corrige con modelo y juego (espejo, exageración), nunca con explicación fonética.",
+   "Qué corregir siempre: saludos con reverencia, el propio nombre bien pronunciado y los sonidos de las 6 vocales. Qué dejar pasar en este curso: confundir 이에요/예요, omitir 을/를, mezclar 살 con números sino-coreanos. Eso se afina en Básico 1 (A1.1) cuando crezcan.",
+   "Diferenciación por edad: un niño de 8 puede armar sílabas con tarjetas mientras uno de 12 ya lee palabras con batchim. Ofrece una versión 'fácil' y una 'reto' del mismo juego, nombra ayudantes entre los mayores y deja que los más tímidos respondan primero con gestos o dibujos antes que con voz.",
+   "Nota semanal a la familia (dentro de las 24 horas después de la clase): 3 líneas máximo — qué aprendimos, qué repasar en el Lector con la pestaña exacta, y una frase para practicar en casa. Es el principal factor de retención y de que la tarea llegue; pide siempre audio o video corto, no hojas escritas.",
+   "Zoom con niños: cámaras encendidas, nombres en pantalla escritos en 한글 desde la clase 2, chat solo para emojis, música baja mientras dibujan. Ensaya el show final desde la clase 7 con un guion visual (dibujos en vez de texto), invita a las familias con una semana de anticipación y confirma desde la clase 1 la fecha del 12 de octubre (feriado en Chile)."
+  ]
+ }
+]

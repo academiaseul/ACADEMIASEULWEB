@@ -393,6 +393,8 @@ const PDF_SLUG: Record<CursoId, string> = {
   topik2: "TOPIK2",
 };
 export const PROGRAMA_GENERAL_PDF = "/programas/Programa_Cursos_Octubre_2026.pdf";
+/** Programa completo de estudios (alumnos + profes), 60+ páginas, ES y EN. */
+export const PROGRAMA_COMPLETO_PDF = { es: "/programas/Programa_Completo_Octubre_2026_ES.pdf", en: "/programas/Programa_Completo_Octubre_2026_EN.pdf" };
 export function pdfDe(cursoId: CursoId): string {
   return `/programas/Programa_${PDF_SLUG[cursoId]}_Octubre_2026.pdf`;
 }

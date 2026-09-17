@@ -19,6 +19,7 @@ import {
   precioLabel,
   WHATSAPP,
   PROGRAMA_GENERAL_PDF,
+  PROGRAMA_COMPLETO_PDF,
   pdfDe,
   clasesDe,
   profeDe,
@@ -69,6 +70,12 @@ export default function ProgramaContent() {
             <a href="/nivel-1#clases" className="px-8 py-3.5 bg-white text-[#3D2EE8] font-bold rounded-full hover:scale-105 transition">{t("Inscribirme →")}</a>
             <a href={PROGRAMA_GENERAL_PDF} download className="px-8 py-3.5 border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition">{t("📄 Descargar programa (PDF)")}</a>
           </div>
+          <p className="text-xs md:text-sm mt-4 opacity-70">
+            {t("¿Quieres el detalle semana a semana?")}{" "}
+            <a href={PROGRAMA_COMPLETO_PDF.es} download className="underline underline-offset-2 hover:opacity-100">{t("Programa completo de estudios (PDF, español)")}</a>
+            {" · "}
+            <a href={PROGRAMA_COMPLETO_PDF.en} download className="underline underline-offset-2 hover:opacity-100">{t("Complete program (PDF, English)")}</a>
+          </p>
         </div>
       </section>
 
