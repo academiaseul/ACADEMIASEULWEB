@@ -48,3 +48,6 @@ next-env.d.ts
 # zips and archives
 *.zip
 *.rar
+# Datos personales de leads (Brevo): nunca al repo (es publico)
+Brevo/*.csv
+Brevo/resumen_segmentos.json
