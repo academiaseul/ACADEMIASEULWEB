@@ -19,7 +19,7 @@ export default function Hero() {
     <section
       id="hero"
       ref={ref}
-      className="relative w-full h-screen min-h-[640px] overflow-hidden bg-seoul-black"
+      className="relative w-full min-h-screen overflow-hidden bg-seoul-black"
     >
       {/* ── Korea background: Gwanghwamun & King Sejong statue ── */}
       <div className="absolute inset-0 pointer-events-none">
@@ -52,14 +52,14 @@ export default function Hero() {
       {/* ── Hero content: REAL HTML, fully clickable ── */}
       <motion.div
         style={{ y: contentY, opacity, textShadow: '0 2px 18px rgba(0,0,0,0.55)' }}
-        className="relative z-20 flex h-full flex-col items-center justify-center px-6 text-center"
+        className="hero-content relative z-20 flex min-h-screen flex-col items-center justify-center px-6 pt-36 pb-32 text-center"
       >
         {/* Headline */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.9 }}
-          className="text-5xl font-black leading-[0.95] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl"
+          className="hero-title text-5xl font-black leading-[0.95] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl"
         >
           <span className="block text-seoul-white">{t('Aprende coreano.')}</span>
           <span className="block text-seoul-red">{t('Entra en Corea.')}</span>

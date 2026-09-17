@@ -224,6 +224,11 @@ input::placeholder, textarea::placeholder {
   height: 100% !important;
 }
 
+/* ─── Hero por idioma: el coreano y el inglés ocupan más ancho/alto que el español ── */
+html[lang="ko"] .hero-title { font-family: "Noto Sans KR", var(--font-inter), sans-serif; font-size: clamp(2.1rem, 5.2vw, 4.4rem); line-height: 1.12; letter-spacing: -0.01em; word-break: keep-all; }
+html[lang="en"] .hero-title { font-size: clamp(2.6rem, 6.2vw, 5.4rem); }
+html[lang="ko"] .hero-content { word-break: keep-all; }
+
 /* ─── Modo noche (html.dark) ────────────────────────────────────────────
    El sitio se diseñó en claro con utilidades de Tailwind. En vez de tocar
    cada componente, aquí se remapean las utilidades de fondo/texto/borde
