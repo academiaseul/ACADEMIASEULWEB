@@ -41,11 +41,10 @@ function CourseCard({ curso, index, pais, paisCorto }: { curso: Curso; index: nu
       className="relative group glass-light rounded-2xl p-7 flex flex-col gap-4 overflow-hidden"
       style={{ boxShadow: '0 6px 24px rgba(10,10,40,0.06)' }}
     >
-      <div className="flex items-start justify-between gap-2">
+      <div className="flex items-start gap-2">
         <span className="text-xs font-bold tracking-wider uppercase px-3 py-1.5 rounded-full text-white" style={{ background: color }}>
           {esNinos ? t('Niños 8–12') : t('Paso {n} · {cefr}', { n: curso.paso, cefr: curso.cefr })}
         </span>
-        <span className="text-[11px] font-bold tracking-widest uppercase px-3 py-1 rounded-full bg-[#E8B84B] text-[#0D0D0D]">{t('Matrícula abierta')}</span>
       </div>
 
       <div>
@@ -67,7 +66,7 @@ function CourseCard({ curso, index, pais, paisCorto }: { curso: Curso; index: nu
           { label: t('Precio'), value: t(PRECIO_CORTO) },
         ].map((m) => (
           <div key={m.label}>
-            <div className="text-[10px] uppercase tracking-wider text-seoul-black/30 mb-0.5">{m.label}</div>
+            <div className="text-[10px] uppercase tracking-wider text-seoul-black/50 mb-0.5">{m.label}</div>
             <div className="text-xs text-seoul-black/75 font-semibold">{m.value}</div>
           </div>
         ))}
@@ -105,7 +104,10 @@ export default function Courses() {
           className="mb-10 flex flex-col md:flex-row md:items-end md:justify-between gap-6"
         >
           <div>
-            <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">{t('Cohorte octubre 2026')}</span>
+            <div className="flex flex-wrap items-center gap-3 mb-4">
+              <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red">{t('Cohorte octubre 2026')}</span>
+              <span className="text-[11px] font-bold tracking-widest uppercase px-3 py-1 rounded-xl bg-[#E8B84B] text-[#0D0D0D]">{t('Matrícula abierta · cierra el 4 de octubre')}</span>
+            </div>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight">
               {t('Encuentra tu')}
               <br />
@@ -130,33 +132,41 @@ export default function Courses() {
           ))}
         </div>
 
-        {/* Niños + próximamente */}
+        {/* Niños + Todo incluido (antes la sección Beneficios) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div>
             <div className="text-xs font-bold tracking-[0.25em] uppercase text-seoul-black/40 mb-4">{t('Niños 8–12 · ruta propia')}</div>
             <CourseCard curso={ninos} index={4} pais={pais} paisCorto={info.corto} />
           </div>
-          <div>
-            <div className="text-xs font-bold tracking-[0.25em] uppercase text-seoul-black/40 mb-4">{t('Próximamente · enero 2027')}</div>
-            <div className="glass-light rounded-2xl p-7 flex flex-col gap-4 opacity-75 hover:opacity-100 transition-opacity" style={{ boxShadow: '0 6px 24px rgba(10,10,40,0.06)' }}>
-              <div className="flex items-start justify-between gap-2">
-                <span className="text-xs font-bold tracking-wider uppercase px-3 py-1.5 rounded-full bg-black/[0.06] text-seoul-black/60">{t('Paso {n} · {cefr}', { n: CONVERSACIONAL_2.paso, cefr: CONVERSACIONAL_2.cefr })}</span>
-                <span className="text-[11px] font-bold tracking-widest uppercase px-3 py-1 rounded-full bg-black/[0.06] text-seoul-black/55 border border-black/10">{t(CONVERSACIONAL_2.cuando)}</span>
-              </div>
-              <div>
-                <div className="text-3xl mb-1">🎎</div>
-                <h3 className="text-xl font-bold text-seoul-black leading-tight">{t(CONVERSACIONAL_2.nombreCorto)}</h3>
-                <p className="text-sm text-seoul-black/45">{t(CONVERSACIONAL_2.subtitulo)} · <span className="font-korean">회화 A2.2</span></p>
-              </div>
-              <p className="text-sm text-seoul-black/60 leading-relaxed flex-1">{t('La continuación de Conversacional 1: educación y suneung, la oficina coreana, mitos, Seollal y Chuseok, K-drama. Para quienes terminen A2.1 en noviembre.')}</p>
-              <div className="text-[11px] text-seoul-black/45">{t('Requiere {req}', { req: t(CONVERSACIONAL_2.requiere) })}</div>
-              <a href={CONVERSACIONAL_2.href} className="mt-1 flex items-center justify-between group/btn">
-                <span className="text-sm font-semibold text-seoul-black/60 group-hover/btn:underline underline-offset-2">{t('Avísame cuando abra')}</span>
-                <span className="w-8 h-8 rounded-full flex items-center justify-center text-white bg-black/20 group-hover/btn:scale-110 transition-transform duration-200">→</span>
-              </a>
-            </div>
+          <div className="flex flex-col">
+            <div className="text-xs font-bold tracking-[0.25em] uppercase text-seoul-black/40 mb-4">{t('Todo incluido en tu curso')}</div>
+            <ul className="glass-light rounded-2xl px-7 py-4 flex-1 flex flex-col justify-center divide-y divide-black/[0.06]" style={{ boxShadow: '0 6px 24px rgba(10,10,40,0.06)' }}>
+              {[
+                t('🎥 8 semanas en vivo por Zoom · 60 min por clase'),
+                t('⏺ Grabación de cada clase en 24 h'),
+                t('📚 Slides, hojas de actividad y Lector de Hangul'),
+                t('🎓 Certificado de Academia Seúl al terminar'),
+              ].map((item) => (
+                <li key={item} className="py-3.5 text-[15px] text-seoul-black/75 font-semibold leading-snug">{item}</li>
+              ))}
+            </ul>
           </div>
         </div>
+
+        {/* Próximamente: Conversacional 2 como fila, no como tarjeta */}
+        <a
+          href={CONVERSACIONAL_2.href}
+          className="mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 rounded-xl border border-dashed border-black/15 px-5 py-4 hover:border-black/30 transition-colors group/next"
+        >
+          <div className="flex items-center gap-3 text-sm">
+            <span className="text-2xl">🎎</span>
+            <div>
+              <span className="font-bold text-seoul-black">{t(CONVERSACIONAL_2.nombreCorto)}</span>
+              <span className="text-seoul-black/50"> · {t('Próximamente · enero 2027')} · {t('Requiere {req}', { req: t(CONVERSACIONAL_2.requiere) })}</span>
+            </div>
+          </div>
+          <span className="text-sm font-semibold text-seoul-black/60 group-hover/next:underline underline-offset-2 whitespace-nowrap">{t('Avísame cuando abra')} →</span>
+        </a>
 
         {/* CTAs */}
         <motion.div
@@ -169,17 +179,16 @@ export default function Courses() {
             <Tr k="¿Nunca estudiaste coreano? Tu curso es **Básico 1**. ¿Ya sabes algo? Haz el test de nivel." />
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="/nivel-1#clases" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-seoul-red hover:bg-[#2C1FB0] text-white font-semibold rounded-lg transition-all duration-300 text-sm group">
-              {t('Inscribirme en mi clase')}
-              <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
+            <a href="/nivel-1#clases" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-seoul-red hover:bg-[#2C1FB0] text-white font-semibold rounded-lg shadow-xl shadow-seoul-red/25 transition-all duration-300 text-sm">
+              {t('Elegir mi clase →')}
             </a>
-            <a href="/programa" className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-black/15 hover:border-seoul-red text-seoul-black hover:text-seoul-red font-semibold rounded-lg transition-all duration-300 hover:bg-seoul-red/5 text-sm group">
-              {t('Ver syllabus completo')}
-            </a>
-            <a href="/test-nivel" className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-black/15 hover:border-seoul-red text-seoul-black hover:text-seoul-red font-semibold rounded-lg transition-all duration-300 hover:bg-seoul-red/5 text-sm group">
-              {t('Test de nivel gratuito')}
+            <a href="/test-nivel" className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-black/15 hover:border-seoul-red text-seoul-black hover:text-seoul-red font-semibold rounded-lg transition-all duration-300 hover:bg-seoul-red/5 text-sm">
+              {t('Hacer el test de nivel gratis')}
             </a>
           </div>
+          <a href="/programa" className="mt-4 inline-block text-sm text-seoul-black/60 underline underline-offset-4 hover:text-seoul-red">
+            {t('Ver el programa completo y los horarios →')}
+          </a>
         </motion.div>
       </div>
     </section>

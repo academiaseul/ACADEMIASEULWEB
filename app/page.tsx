@@ -1,12 +1,9 @@
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
-import VideoIntro from '@/components/VideoIntro';
 import Courses from '@/components/Courses';
-import Benefits from '@/components/Benefits';
 import MetodoChingu from '@/components/MetodoChingu';
 import WordGame from '@/components/WordGame';
-import KoreanCulture from '@/components/KoreanCulture';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import CTASection from '@/components/CTASection';
@@ -25,23 +22,18 @@ export default function HomePage() {
     <main className="relative">
       <StructuredData />
       <Navigation />
+      {/* Orden por preguntas del visitante: qué es (Hero) → qué curso (Courses) → cómo enseñamos (Método)
+          → quién enseña (About) → qué dicen (Testimonials) → pruébalo gratis (Recursos, Juego) → dudas (FAQ) → cierre */}
       <Hero />
       <Courses />
-      <VideoIntro />
-      <About />
       <MetodoChingu />
-      <Benefits />
-
-      <RecursoBanner />
-
-      <WordGame />
-
+      <About />
       <Testimonials />
-      <KoreanCulture />
+      <RecursoBanner />
+      <WordGame />
       <FAQ />
       <CTASection />
       <Contact />
-
       <BannerInferior />
 
       <Footer />

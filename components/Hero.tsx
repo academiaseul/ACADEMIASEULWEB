@@ -2,18 +2,30 @@
 
 import { useRef } from 'react';
 import Image from 'next/image';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { useT } from '@/lib/i18n';
+
+// Hero: en 5 segundos el visitante debe saber qué es, para quién, qué lo hace distinto y qué hacer.
+// Presupuesto: eyebrow · H1 · sub · oferta · 2 botones · micro-link · franja de 3 datos. Un solo stagger
+// para que el CTA aparezca antes de 0,6 s (antes tardaba 2 s).
+const container = { hidden: {}, show: { transition: { staggerChildren: 0.08, delayChildren: 0.05 } } };
+const item = {
+  hidden: { opacity: 0, y: 14 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] } },
+};
 
 export default function Hero() {
   const ref = useRef<HTMLDivElement>(null);
   const { t } = useT();
+  const reduce = useReducedMotion();
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] });
 
-  // Parallax: content rises slightly on scroll
-  const contentY = useTransform(scrollYProgress, [0, 1], ['0%', '25%']);
-  const opacity  = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
+  // Parallax suave: el contenido sube un poco al hacer scroll
+  const contentY = useTransform(scrollYProgress, [0, 1], ['0%', reduce ? '0%' : '12%']);
+  const opacity  = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+
+  const prueba = [t('🎥 En vivo por Zoom · 60 min'), t('👥 Grupos de máx. 15'), t('🎓 Certificado incluido')];
 
   return (
     <section
@@ -52,153 +64,86 @@ export default function Hero() {
       {/* ── Hero content: REAL HTML, fully clickable ── */}
       <motion.div
         style={{ y: contentY, opacity, textShadow: '0 2px 18px rgba(0,0,0,0.55)' }}
-        className="hero-content relative z-20 flex min-h-screen flex-col items-center justify-center px-6 pt-36 pb-32 text-center"
+        className="hero-content relative z-20 flex min-h-screen flex-col items-center justify-center px-5 pt-36 pb-24 text-center sm:px-6 sm:pt-40 sm:pb-32"
+        variants={container}
+        initial={reduce ? 'show' : 'hidden'}
+        animate="show"
       >
-        {/* Headline */}
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5, duration: 0.9 }}
-          className="hero-title text-5xl font-black leading-[0.95] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl"
-        >
-          <span className="block text-seoul-white">{t('Aprende coreano.')}</span>
-          <span className="block text-seoul-red">{t('Entra en Corea.')}</span>
-        </motion.h1>
+        {/* 1 · Qué es + para quién, y el titular */}
+        <motion.div variants={item}>
+          <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.25em] text-[#E8B84B] sm:text-xs sm:tracking-[0.3em]">
+            <span lang="ko" className="font-korean normal-case tracking-normal text-white/70">한국어</span>
+            <span className="text-white/50"> · </span>
+            {t('Academia online de coreano para hispanohablantes')}
+          </p>
+          <h1 className="hero-title text-4xl font-black leading-[0.95] tracking-tight sm:text-5xl md:text-7xl lg:text-8xl">
+            <span className="block text-seoul-white">{t('Aprende coreano.')}</span>
+            <span className="block text-seoul-red">{t('Entra en Corea.')}</span>
+          </h1>
+        </motion.div>
 
-        {/* Divider */}
-        <motion.div
-          initial={{ opacity: 0, scaleX: 0 }}
-          animate={{ opacity: 1, scaleX: 1 }}
-          transition={{ delay: 1.2, duration: 0.8 }}
-          className="mt-8 h-px w-24 bg-gradient-to-r from-seoul-red to-seoul-blue"
-        />
+        {/* 2 · Qué lo hace distinto + la oferta */}
+        <motion.div variants={item}>
+          <p className="mt-5 max-w-md text-[15px] leading-relaxed text-white sm:max-w-xl sm:text-base">
+            {t('Clases en vivo por Zoom con profesores coreanos nativos, para hispanohablantes de Latinoamérica y España. Gramática explicada desde tu español: lees')}{' '}
+            <span lang="ko" className="font-korean">한글</span>{' '}
+            {t('desde la primera semana y hablas desde el día uno.')}
+          </p>
+          <p className="mt-3 text-sm font-semibold text-white/90">
+            {t('Cohorte octubre 2026 · 8 semanas desde la semana del 5 de octubre · US$150 el curso completo · o 2 cuotas de US$75')}
+          </p>
+        </motion.div>
 
-        {/* Korean subtitle */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.4, duration: 0.8 }}
-          className="mt-6 font-korean text-xl text-white/85"
-        >
-          한국어를 배우세요
-        </motion.p>
-
-        {/* Description */}
-        <motion.p
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.6, duration: 0.8 }}
-          className="mt-4 max-w-xl text-base leading-relaxed text-white"
-        >
-          {t('Clases de coreano en vivo, diseñadas para hispanohablantes. Aprende a leer')}{' '}
-          <span className="font-korean text-white">한글</span> {t('desde cero, habla desde tus primeras clases y entiende la cultura detrás del idioma — con Jay y un equipo de profesoras coreanas nativas.')}
-          <span className="block mt-2 font-semibold text-white">
-            {t('Matrícula abierta · 8 semanas desde la semana del 5 de octubre · US$150 el curso completo o 2 cuotas de US$75 · certificado incluido.')}
-          </span>
-        </motion.p>
-
-        {/* CTA Buttons — real anchor tags with real click targets */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 2, duration: 0.8 }}
-          className="mt-10 flex flex-wrap items-center justify-center gap-4"
-        >
+        {/* 3 · Qué hacer: primario (elegir clase) + secundario (test de nivel) */}
+        <motion.div variants={item} className="mt-8 flex w-full flex-col items-center gap-3 sm:w-auto sm:flex-row sm:gap-4">
           <a
             href="/nivel-1#clases"
-            className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#2C1FB0] hover:shadow-seoul-red/40 focus:outline-none focus:ring-2 focus:ring-seoul-red focus:ring-offset-2 focus:ring-offset-seoul-black"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#2C1FB0] hover:shadow-seoul-red/40 focus:outline-none focus:ring-2 focus:ring-seoul-red focus:ring-offset-2 focus:ring-offset-seoul-black sm:w-auto"
           >
-            {t('Inscribirme · Octubre 2026')} <span aria-hidden>→</span>
+            {t('Elegir mi clase →')}
           </a>
           <a
-            href="/programa"
-            className="inline-flex items-center rounded-md border border-white/20 px-8 py-4 font-semibold text-white transition-colors duration-200 hover:border-white/40 hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-white/40 focus:ring-offset-2 focus:ring-offset-seoul-black"
+            href="/test-nivel"
+            className="inline-flex w-full items-center justify-center rounded-md border border-white/25 px-8 py-4 font-semibold text-white transition-colors duration-200 hover:border-white/50 hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-white/40 focus:ring-offset-2 focus:ring-offset-seoul-black sm:w-auto"
           >
-            {t('Ver programa y horarios')}
+            {t('Hacer el test de nivel gratis')}
           </a>
         </motion.div>
 
-        {/* Free hook */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 2.2, duration: 0.8 }}
-          className="mt-5 text-sm text-white/85"
-        >
-          {t('¿Nunca estudiaste coreano? Tu curso es')}{' '}
+        {/* 4 · Micro-link para quien empieza de cero */}
+        <motion.p variants={item} className="mt-5 text-sm text-white/85">
+          {t('¿Nunca estudiaste coreano?')}{' '}
           <a
             href="/nivel-1?clase=a11-martes#clases"
-            className="text-white font-bold underline underline-offset-4 decoration-white/50 transition-colors hover:text-[#E8B84B]"
+            className="font-bold text-white underline decoration-white/50 underline-offset-4 transition-colors hover:text-[#E8B84B]"
           >
-            {t('Básico 1 (A1.1) →')}
-          </a>{' '}
-          {t('martes o jueves, empiezas leyendo el alfabeto.')}
-          <span className="block mt-1 text-white/60 text-xs">
-            {t('¿Quieres adelantar antes de octubre?')}{' '}
-            <a href="/lector-hangul" className="underline underline-offset-2 hover:text-white">{t('Lector de Hangul gratis')}</a>
-          </span>
+            {t('Empiezas en Básico 1 (A1.1) →')}
+          </a>
         </motion.p>
 
-        {/* Chips de entrada */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 2.3, duration: 0.8 }}
-          className="mt-5 flex flex-wrap justify-center gap-2"
-        >
-          {[
-            { t: t('Nunca estudié → Básico 1'), h: '/nivel-1?clase=a11-martes#clases' },
-            { t: t('Ya leo Hangul → Básico 2'), h: '/nivel-1?clase=a12#clases' },
-            { t: t('Terminé el Nivel 1 → Básico 2'), h: '/nivel-1?clase=a12#clases' },
-            { t: t('Quiero hablar → Conversacional 1'), h: '/nivel-1?clase=a21#clases' },
-            { t: t('Voy por el TOPIK → TOPIK II'), h: '/nivel-1?clase=topik2#clases' },
-            { t: t('🧒 Niños 8–12 · lunes 18:00'), h: '/nivel-1?clase=ninos#clases' },
-          ].map((c) => (
-            <a
-              key={c.t}
-              href={c.h}
-              className="px-3.5 py-1.5 rounded-full border border-white/30 text-white/85 text-xs font-semibold hover:bg-white hover:text-seoul-black transition-colors"
-            >
-              {c.t}
-            </a>
-          ))}
-        </motion.div>
-
-        {/* Trust badges */}
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 2.4, duration: 0.8 }}
-          className="mt-8 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs text-white/90"
-        >
-          {[
-            t('🇰🇷 Profesores coreanos nativos'),
-            t('🎥 En vivo por Zoom'),
-            t('👥 Grupos pequeños'),
-            t('🌎 LATAM y España'),
-          ].map((b) => (
-            <span
-              key={b}
-              className="rounded-full border border-white/25 bg-black/35 px-3 py-1.5 backdrop-blur-sm"
-            >
-              {b}
+        {/* 5 · Franja de prueba (datos verificados, sin pills) */}
+        <motion.p variants={item} className="mt-7 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-xs text-white/85">
+          {prueba.map((p, i) => (
+            <span key={p} className="inline-flex items-center gap-3">
+              {i > 0 && <span aria-hidden className="hidden text-white/40 sm:inline">·</span>}
+              {p}
             </span>
           ))}
-        </motion.div>
+        </motion.p>
       </motion.div>
 
-      {/* ── Scroll indicator: now a real clickable anchor ── */}
+      {/* ── Scroll indicator: real clickable anchor ── */}
       <motion.a
-        href="#about"
+        href="#courses"
         style={{ opacity }}
-        className="group absolute bottom-10 left-1/2 z-20 flex -translate-x-1/2 cursor-pointer flex-col items-center gap-2"
+        className="group absolute bottom-10 left-1/2 z-20 hidden -translate-x-1/2 cursor-pointer flex-col items-center gap-2 sm:flex"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 2.8, duration: 1 }}
-        aria-label={t('Descubre más — desplazar hacia abajo')}
+        transition={{ delay: 1.2, duration: 1 }}
+        aria-label={t('Ver los cursos')}
       >
-        <span className="text-xs font-medium uppercase tracking-[0.25em] text-white/40 transition-colors group-hover:text-white/70">
-          {t('Descubre más')}
+        <span className="text-xs font-medium uppercase tracking-[0.25em] text-white/60 transition-colors group-hover:text-white/90">
+          {t('Ver los cursos')}
         </span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
@@ -206,7 +151,7 @@ export default function Hero() {
         >
           <ChevronDown
             size={20}
-            className="text-white/40 transition-colors group-hover:text-white/70"
+            className="text-white/60 transition-colors group-hover:text-white/90"
           />
         </motion.div>
       </motion.a>

@@ -65,7 +65,7 @@ export default function MetodoChingu() {
             <em className="not-italic text-gradient-red">{t('Aprende como un chingu.')}</em>
           </h2>
           <p className="mt-6 text-base text-white/55 max-w-xl mx-auto leading-relaxed">
-            {t('Cuatro pilares, pensados desde el español — no un programa coreano traducido.')}
+            {t('Cuatro pilares pensados desde el español: anticipamos los errores típicos de un hispanohablante en vez de traducir un programa coreano.')}
           </p>
         </motion.div>
 
@@ -76,7 +76,7 @@ export default function MetodoChingu() {
               key={p.num}
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.15 + i * 0.12, ease: [0.22, 1, 0.36, 1] }}
+              transition={{ duration: 0.6, delay: 0.1 + i * 0.06, ease: [0.22, 1, 0.36, 1] }}
               className="relative rounded-2xl border border-white/10 bg-white/[0.04] p-7 hover:border-white/25 transition-colors duration-300"
             >
               <div className="flex items-baseline justify-between mb-5">
@@ -103,7 +103,10 @@ export default function MetodoChingu() {
             href="/nivel-1#clases"
             className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-seoul-red/40"
           >
-            {t('Inscribirme · Octubre 2026 →')}
+            {t('Elegir mi clase →')}
+          </a>
+          <a href="/programa" className="mt-4 block text-sm text-white/70 underline underline-offset-4 hover:text-white">
+            {t('Así se aplica el método en cada curso →')}
           </a>
         </motion.div>
       </div>

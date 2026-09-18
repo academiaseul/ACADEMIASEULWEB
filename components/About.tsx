@@ -2,48 +2,16 @@
 
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import Image from 'next/image';
-import { useT, i18n, Tr } from '@/lib/i18n';
+import { useT, Tr } from '@/lib/i18n';
 
-const stats = [
-  { value: '🇰🇷',     label: i18n('Profesores coreanos nativos'),  sublabel: i18n('Bilingües coreano-español') },
-  { value: '8',        label: i18n('Años enseñando coreano'),    sublabel: i18n('Experiencia comprobada'),     suffix: '+' },
-  { value: 'Chingu™',  label: i18n('Método propio'),             sublabel: i18n('Diseñado para hispanohablantes') },
-  { value: '6',        label: i18n('Cursos diseñados'),          sublabel: i18n('De A1.1 a TOPIK II (B1+) + Niños') },
-];
-
-function StatCard({ value, label, sublabel, suffix, index }: (typeof stats)[0] & { index: number }) {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: '-80px' });
-  const { t } = useT();
-
-  return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 30 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.6, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] }}
-      className="text-center md:text-left"
-    >
-      <div className="text-5xl md:text-6xl font-black tracking-tighter text-gradient-red mb-2">
-        {value}{suffix || ''}
-      </div>
-      <div className="text-sm text-seoul-black/60 uppercase tracking-widest font-medium">
-        {t(label)}
-      </div>
-      {sublabel && (
-        <div className="text-xs text-seoul-black/40 mt-1 font-medium normal-case tracking-normal">
-          {t(sublabel)}
-        </div>
-      )}
-    </motion.div>
-  );
-}
-
+// Historia del fundador en un solo bloque: video de presentación (antes VideoIntro) + bio de Jay
+// (antes en Testimonials) + el equipo. Sustituye la foto de stock y el texto genérico "Sobre la academia".
 export default function About() {
   const ref  = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-100px' });
   const { t } = useT();
+
+  const tags = [t('Nativo de Seúl'), t('Bilingüe español'), t('8+ años enseñando'), 'Método Chingu™'];
 
   return (
     <section
@@ -51,6 +19,9 @@ export default function About() {
       ref={ref}
       className="relative bg-white section-padding overflow-hidden"
     >
+      {/* Ancla de seguridad: el antiguo bloque de video vivía en #teacher */}
+      <span id="teacher" className="absolute -top-24" aria-hidden />
+
       {/* Subtle hangul watermark */}
       <div
         aria-hidden
@@ -66,84 +37,84 @@ export default function About() {
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-20"
+          className="mb-12 md:mb-16"
         >
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
-            {t('Sobre la academia')}
+            {t('Tu chingu coreano')}
           </span>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight max-w-2xl">
-            {t('Donde el idioma')}
+          <h2 className="font-serif text-4xl md:text-5xl text-seoul-black leading-tight max-w-4xl">
+            {t('Un profe de Seúl que llegó a Chile a los 10')}
             <br />
-            <em className="not-italic text-gradient-red">{t('encuentra su hogar')}</em>
+            <em className="not-italic text-gradient-red">{t('y te explica el coreano desde tu español.')}</em>
           </h2>
         </motion.div>
 
-        {/* Main grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center mb-24">
-          {/* Left: Image */}
+        {/* Main grid: video (izquierda) + historia (derecha) */}
+        <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-12 lg:gap-20 items-center">
+          {/* Left: Jay's intro video (9:16) */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 24 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-            className="relative"
+            className="mx-auto w-[260px] sm:w-[300px]"
           >
-            <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl">
-              <Image
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1000&q=85&auto=format&fit=crop"
-                alt={t('Estudiantes aprendiendo en grupo (imagen ilustrativa)')}
-                fill
-                className="object-cover"
+            <div className="relative">
+            <div className="relative aspect-[9/16] rounded-[28px] overflow-hidden shadow-2xl ring-1 ring-black/10 bg-seoul-black">
+              <iframe
+                className="absolute inset-0 h-full w-full"
+                src="https://www.youtube-nocookie.com/embed/DqG2nzyViOg"
+                title={t('Jay se presenta')}
+                loading="lazy"
+                allow="accelerometer; encrypted-media; picture-in-picture"
+                allowFullScreen
               />
-              {/* Overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-seoul-red/20 to-transparent" />
             </div>
             {/* Floating badge */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={inView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.5, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
-              className="absolute -bottom-6 -right-6 bg-seoul-red text-white rounded-xl px-6 py-4 shadow-xl shadow-seoul-red/30"
+              className="absolute -bottom-5 -right-2 sm:-right-6 bg-seoul-red text-white rounded-xl px-5 py-3 shadow-xl shadow-seoul-red/30"
             >
               <div className="text-3xl font-black leading-none">8+</div>
               <div className="text-xs font-medium opacity-80 mt-1">
                 <Tr k={'años enseñando coreano\na hispanohablantes'} />
               </div>
             </motion.div>
+            </div>
+            <p className="mt-10 text-center text-xs text-seoul-black/60">{t('▶ Conóceme en video')}</p>
           </motion.div>
 
           {/* Right: Story */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 24 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className="space-y-6"
+            className="space-y-5"
           >
             <p className="text-xl text-seoul-black/80 leading-relaxed font-medium">
-              {t('Nacimos del amor por la cultura coreana y la convicción de que aprender un idioma es una de las experiencias más transformadoras de la vida.')}
+              <span className="font-korean">{'안녕하세요'}</span>{t(', soy')}{' '}
+              <span className="font-korean font-bold">{'김재희'}</span>{' '}
+              {t('— mejor conocido como Jay. Nací en Seúl, llegué a Chile a los 10 años, y crecí entre kimchi y empanadas — entre')}{' '}
+              <span className="font-korean">{'한글'}</span> {t('y español.')}
             </p>
             <p className="text-base text-seoul-black/60 leading-relaxed">
-              {t('Una nueva forma de aprender coreano desde Latinoamérica: profesores coreanos nativos y bilingües, materiales creados para hispanohablantes y una metodología que combina conversación real, cultura contemporánea y preparación académica.')}
+              {t('De día soy gerente en una empresa coreana de genómica en Las Condes. De noche hago lo que más amo: enseñar mi idioma a quienes lo aprenden por amor a la cultura. Academia Seúl nació para construir el puente que yo no tuve a los 10.')}
             </p>
-            <p className="text-base text-seoul-black/60 leading-relaxed">
-              {t('Aquí no solo aprendes un idioma — descubres una cultura entera: K-dramas, K-pop, gastronomía, historia y la energía única de Corea del Sur.')}
+            <p className="text-sm text-seoul-black/60 leading-relaxed">
+              {t('En clase también te acompañan Guiran, profesora coreana criada en Argentina, y Abby, profesora nativa que enseña en vivo desde Corea.')}
             </p>
 
-            {/* Highlights */}
-            <ul className="space-y-3 pt-4">
-              {[
-                t('Profesores coreanos nativos y bilingües'),
-                t('Grupos reducidos: máximo 15 estudiantes'),
-                t('Metodología comunicativa + cultural'),
-                t('Preparación oficial para el examen TOPIK'),
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-3">
-                  <span className="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-seoul-red/10 flex items-center justify-center">
-                    <span className="w-2 h-2 rounded-full bg-seoul-red" />
-                  </span>
-                  <span className="text-seoul-black/70 text-sm leading-relaxed">{item}</span>
-                </li>
+            <div className="flex flex-wrap gap-2 pt-1">
+              {tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="text-xs font-semibold px-3 py-1.5 rounded-full border border-black/10 text-seoul-black/70"
+                >
+                  {tag}
+                </span>
               ))}
-            </ul>
+            </div>
 
             <a
               href="/sobre"
@@ -153,13 +124,6 @@ export default function About() {
               <span className="group-hover:translate-x-1 transition-transform duration-200">→</span>
             </a>
           </motion.div>
-        </div>
-
-        {/* Stats row */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 border-t border-seoul-black/10">
-          {stats.map((stat, i) => (
-            <StatCard key={stat.label} {...stat} index={i} />
-          ))}
         </div>
       </div>
     </section>

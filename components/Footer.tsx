@@ -25,8 +25,7 @@ const footerLinks = [
     links: [
       { label: i18n('Sobre nosotros'),         href: '/sobre' },
       { label: i18n('Nuestro método'),         href: '/#metodo' },
-      { label: i18n('Por qué Academia Seúl'),  href: '/#testimonials' },
-      { label: i18n('Cultura coreana'),        href: '/#culture' },
+      { label: i18n('Estudiantes reales'),     href: '/#testimonials' },
       { label: i18n('Blog'),                   href: '/blog' },
       { label: i18n('Programa y syllabus'),    href: '/programa' },
     ],

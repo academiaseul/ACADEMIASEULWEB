@@ -3,6 +3,7 @@
 import { useRef } from 'react';
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 import { useT } from '@/lib/i18n';
+import { precioLabel } from '@/lib/nivel1';
 
 export default function CTASection() {
   const { t } = useT();
@@ -26,7 +27,7 @@ export default function CTASection() {
           className="absolute inset-0"
           style={{
             background:
-              'radial-gradient(ellipse 80% 60% at 50% 50%, #3D2EE81f 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 20% 80%, #00347814 0%, transparent 60%), #F4F7FF',
+              'radial-gradient(ellipse 80% 60% at 50% 50%, #3D2EE81f 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 20% 80%, #00347814 0%, transparent 60%)',
           }}
         />
         {/* Grid */}
@@ -50,6 +51,7 @@ export default function CTASection() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           className="text-3xl font-korean font-black text-seoul-black/10 mb-6 tracking-widest"
+          aria-hidden
         >
           지금 시작하세요
         </motion.div>
@@ -71,9 +73,18 @@ export default function CTASection() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="text-base md:text-lg text-seoul-black/50 max-w-lg mx-auto leading-relaxed mb-12"
+          className="text-base md:text-lg text-seoul-black/65 max-w-lg mx-auto leading-relaxed mb-4"
         >
-          {t('La matrícula de octubre está abierta: clases en vivo desde la semana del 5 de octubre, 8 semanas, certificado incluido. US$150 el curso completo o 2 cuotas de US$75 — elige tu nivel y tu horario.')}
+          {t('Clases en vivo desde la semana del 5 de octubre · 8 semanas · certificado incluido. US$150 el curso completo · o 2 cuotas de US$75.')}
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={inView ? { opacity: 1 } : {}}
+          transition={{ duration: 0.7, delay: 0.25 }}
+          className="font-bold text-seoul-black/80 mb-12"
+        >
+          {t('La matrícula cierra el domingo 4 de octubre.')}
         </motion.p>
 
         {/* CTA Buttons */}
@@ -81,21 +92,21 @@ export default function CTASection() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+          className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center"
         >
           <a
             href="/nivel-1#clases"
-            className="group relative px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-[#2C1FB0] transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
+            className="group relative text-center px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-[#2C1FB0] transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
           >
             <span className="relative z-10">
               {t('Inscribirme · Octubre 2026 →')}
             </span>
           </a>
           <a
-            href="#courses"
-            className="px-10 py-4 border border-black/15 hover:border-black/30 text-seoul-black/70 hover:text-seoul-black font-medium text-base rounded-lg transition-all duration-300 hover:bg-black/5"
+            href="/test-nivel"
+            className="text-center px-10 py-4 border border-black/15 hover:border-black/30 text-seoul-black/70 hover:text-seoul-black font-medium text-base rounded-lg transition-all duration-300 hover:bg-black/5"
           >
-            {t('Explorar cursos')}
+            {t('Hacer el test de nivel gratis')}
           </a>
         </motion.div>
 
@@ -104,15 +115,15 @@ export default function CTASection() {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.7, delay: 0.5 }}
-          className="mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center"
+          className="mt-12 flex flex-col sm:flex-row sm:flex-wrap gap-6 justify-center items-center"
         >
           {[
-            t('✓ US$150 el curso · o 2 cuotas de US$75'),
-            t('✓ Grabaciones incluidas'),
+            '✓ ' + t(precioLabel()),
+            t('✓ Grabación de cada clase en 24 h'),
             t('✓ Máx. 15 alumnos (8 en TOPIK II · 12 en Niños)'),
             t('✓ Certificado incluido'),
           ].map((item) => (
-            <span key={item} className="text-sm text-seoul-black/35 font-medium">
+            <span key={item} className="text-sm text-seoul-black/55 font-medium">
               {item}
             </span>
           ))}

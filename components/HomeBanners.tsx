@@ -5,26 +5,38 @@ import { useT } from "@/lib/i18n";
 // Banners de la home (cliente para poder traducirlos con t()).
 export function RecursoBanner() {
   const { t } = useT();
+  const tiles = [
+    { emoji: "🔤", title: t("Lector de Hangul"), desc: t("Aprende a leer 한글 con audio de voz nativa, directo en tu navegador."), cta: t("Abrir el Lector →"), href: "/lector-hangul" },
+    { emoji: "📝", title: t("Test de nivel"), desc: t("Descubre en qué peldaño empiezas."), cta: t("Hacer el test →"), href: "/test-nivel" },
+    { emoji: "📄", title: t("Guía del alfabeto coreano (PDF)"), desc: t("Descárgala y empieza a leer desde cero."), cta: t("Ver recursos gratis →"), href: "/recursos" },
+  ];
   return (
-    <section className="bg-[#F4F7FF] border-y border-black/[0.06]">
-      <div className="container-tight py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
-        <div className="flex items-center gap-4">
-          <span className="text-3xl">📄</span>
-          <div>
-            <div className="text-seoul-black font-bold text-base">
-              {t("Guía del alfabeto coreano (한글) — gratis")}
-            </div>
-            <p className="text-seoul-black/55 text-sm">
-              {t("Descárgala y aprende a leer desde cero, junto a más recursos gratuitos.")}
-            </p>
-          </div>
+    <section id="recursos" className="bg-white border-y border-black/[0.06]">
+      <div className="container-tight py-16 md:py-20">
+        <div className="text-center mb-10">
+          <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red mb-4">
+            {t("Gratis, sin inscribirte")}
+          </span>
+          <h2 className="font-serif text-3xl md:text-4xl text-seoul-black leading-tight">{t("Empieza gratis hoy")}</h2>
         </div>
-        <a
-          href="/recursos"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm whitespace-nowrap"
-        >
-          {t("Ver recursos gratis →")}
-        </a>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {tiles.map((tile) => (
+            <a
+              key={tile.href}
+              href={tile.href}
+              className="glass-light rounded-2xl p-6 flex flex-col gap-2 hover:-translate-y-1 transition-transform duration-300"
+              style={{ boxShadow: "0 6px 24px rgba(10,10,40,0.06)" }}
+            >
+              <span className="text-3xl">{tile.emoji}</span>
+              <span className="font-bold text-seoul-black">{tile.title}</span>
+              <span className="text-sm text-seoul-black/65 leading-relaxed flex-1">{tile.desc}</span>
+              <span className="text-sm font-semibold mt-1" style={{ color: "var(--as-azul-txt)" }}>{tile.cta}</span>
+            </a>
+          ))}
+        </div>
+        <p className="mt-8 text-center text-sm">
+          <a href="/blog" className="underline underline-offset-4 text-seoul-black/60 hover:text-seoul-red">{t("Lee sobre cultura coreana en el blog →")}</a>
+        </p>
       </div>
     </section>
   );

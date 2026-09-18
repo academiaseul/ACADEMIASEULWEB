@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { X } from 'lucide-react';
-import { PRECIO_UNICO, PRECIO_MENSUAL, MESES } from '@/lib/nivel1';
+import { PRECIO_CORTO } from '@/lib/nivel1';
 import { useT } from '@/lib/i18n';
 
 // Barra de anuncio: matrícula abierta cohorte octubre 2026.
@@ -30,11 +30,11 @@ export default function PromoBar() {
 
   return (
     <div className="w-full" style={{ backgroundColor: '#4236F6' }}>
-      <div className="relative mx-auto flex max-w-5xl items-center justify-center gap-x-4 gap-y-1 flex-wrap px-4 py-2 pr-12 text-white">
+      <div className="relative mx-auto flex max-w-6xl items-center justify-center gap-x-4 gap-y-1 flex-wrap px-4 py-2 pr-12 text-white">
         <a href="/nivel-1#clases" className="text-sm font-bold sm:pointer-events-none">
-          🎓 {t('Matrícula abierta')} · <span className="text-[#E8B84B]"><span className="sm:hidden">{t('clases desde el 5 de octubre')}</span><span className="hidden sm:inline">{t('clases desde la semana del 5 de octubre')}</span></span>
-          <span className="hidden md:inline"> — {t('US${p} el curso (o {n} × US${m}) · mismo precio en todos los niveles', { p: PRECIO_UNICO, n: MESES, m: PRECIO_MENSUAL })}</span>
-          <span className="sm:hidden"> →</span>
+          🎓 <span className="sm:hidden">{t('Matrícula abierta hasta el 4 de octubre')} →</span>
+          <span className="hidden sm:inline">{t('Matrícula abierta hasta el 4 de octubre')} · <span className="text-[#E8B84B]">{t('clases desde la semana del 5 de octubre')}</span></span>
+          <span className="hidden xl:inline"> — {t(PRECIO_CORTO)}</span>
         </a>
 
         <a
