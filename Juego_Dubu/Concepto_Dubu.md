@@ -1,6 +1,6 @@
-# Ttak (딱) · puzzle de lógica del Hangul para Academia Seúl
+# Dubu (두부) · puzzle de lógica del Hangul para Academia Seúl
 
-Concepto (19 sept 2026) · el prompt de construcción está en `PROMPT_FABLE.md` (en inglés, con todo el copy en español).
+Concepto (19 sept 2026) · el prompt de construcción está en `PROMPT_DUBU.md` (en inglés, con todo el copy en español). Nombre elegido por Jay el 19 sept: **Dubu (두부, tofu)** — los bloques silábicos son cubitos de tofu que cortas y apilas.
 
 ## 1. Cómo funciona Matcha (la referencia)
 Delphinium Games, 2022 · iOS / Mac / Steam / itch · ~US$2 · 400+ niveles · 97 % positivo en Steam.
@@ -16,7 +16,7 @@ Mecánica central (distinta al deslizar-y-fusionar de Matcha): una "casa" de 1�
 - **✦ Trazo**: ㄱ→ㅋ · ㄴ→ㄷ→ㅌ · ㅁ→ㅂ→ㅍ · ㅅ→ㅈ→ㅊ · ㅇ→ㅎ. Primer trazo = "+fuerte", segundo = "+aire" (ver corrección pedagógica abajo).
 - **⧉ Gemela**: ㄱ→ㄲ ㄷ→ㄸ ㅂ→ㅃ ㅅ→ㅆ ㅈ→ㅉ = tensa (garganta apretada, sin aire).
 - Verbos gratis: **⟲ Girar** (ㅏ↔ㅗ, ㅓ↔ㅜ, misma polaridad yang/yin) y **⇄ Lado** (ㅏ↔ㅓ, ㅗ↔ㅜ, ㅐ↔ㅔ).
-- Todo por toques (sin arrastrar), presupuesto exacto de piezas ("ni una de más" = 딱), deshacer ilimitado, sin perder ni cronómetro.
+- Todo por toques (sin arrastrar), presupuesto exacto de piezas (ni una de más), deshacer ilimitado, sin perder ni cronómetro. Puntuación: 1–3 cubitos por nivel que llenan el plato de cada barrio.
 
 Cuatro tipos de nivel, 30 niveles en 6 barrios de Seúl (Bukchon → Insadong → Hongdae → Gwangjang → Río Han → Estación de Seúl):
 | Tipo | Qué haces | Qué entrena |
@@ -34,9 +34,10 @@ Cuatro tipos de nivel, 30 niveles en 6 barrios de Seúl (Bukchon → Insadong �
 - Progresión: reconocer → dictado de sílaba → dictado de palabra con significado → (opcional) contrarreloj.
 
 ## 4. Nombre
-**Ttak (딱)** — "clac / justo / exacto" (딱 맞다 = encaja perfecto). Es literalmente la mecánica (la pieza entra y hace 딱), el presupuesto exacto, y el propio título enseña una tensa (ㄸ) con batchim (ㄱ). Se lee "tak" en español. Sin conflictos en tiendas. URL: academiaseul.com/ttak.
-Tagline: **"Cada letra tiene su lugar. Escúchala, fórjala y encájala… ¡딱!"**
-Alternativas evaluadas: Kkul (꿀, miel — existe "Kkuljaem Korean" y "KKUL-TTEOK!"), Hanok (한옥, casita = sílaba; libre), Moa (모아, de 모아쓰기 = escritura en bloques; conflicto leve con "Moa Moa Five"), Sori (소리, sonido — conflicto real con "Sori Speak"), Gonggi (공기, piedritas/aire — muchas apps). Sugerencia: Ttak como juego, "Sori" como nombre del modo de oído, "Horang" el tigre chingu, "gotas de miel" como puntuación.
+**Dubu (두부)** — tofu. Corto, redondo, se lee "DU-bu" en español, y la metáfora es literal: los bloques silábicos son cubitos blancos que cortas de la tabla y apilas. Guiño extra para el público K-pop (Dubu es el apodo de Dahyun, de TWICE).
+Chequeo de conflictos (19 sept): ninguna app ni juego de idiomas/Hangul se llama Dubu; existen un plataformero indie "DUBU" en itch.io y una app de pedidos de comida "Dubu"; en Google la palabra la dominan el tofu y Dahyun. Riesgo medio: usarlo siempre como **"Dubu · el juego del Hangul de Academia Seúl"** con logo propio; registrar en INAPI solo como marca figurativa (la palabra sola es genérica).
+Tagline: **"Cada sílaba es un cubito de tofu. Escúchala, ármala, sírvela."**
+Descartados: Ttak 딱 (Jay prefirió algo más simple), Moa 모아 (fandom de TXT), Hana 하나 (Hana Bank, "Hana Korean"), Kkul 꿀 (cosmética), Nori (alga/saturado), Tok (TikTok/KakaoTalk), Bap 밥 (B.A.P), Mandu 만두 (estudio MandU Games), Sori 소리 ("Sori Speak"), Gonggi 공기 (muchas apps).
 
 ## 5. Corrección pedagógica que salió de la revisión (aplica también al Lector)
 - **No** es cierto que "cada trazo añadido = más aire". ㄷ ㅂ ㅈ son consonantes simples (평음): el primer trazo, según el Hunminjeongeum Haerye, hace el sonido **más fuerte** (소리가 세다); solo el **segundo** trazo añade aire (ㅋ ㅌ ㅍ ㅊ ㅎ). Y la gemela (ㄲ ㄸ ㅃ ㅆ ㅉ) es **tensa, sin aire** — no un tercer grado de aire.
