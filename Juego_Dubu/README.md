@@ -1,6 +1,6 @@
 # Dubu (두부) · el juego del Hangul de Academia Seúl
 
-Prototipo v1 (19 sept 2026), construido con `PROMPT_DUBU.md`.
+Prototipo v2 (19 sept 2026): puzzle de tablero **C + V**. La v1 (fabricar letras con trazos y puntos) queda documentada en `PROMPT_DUBU.md`; Jay pidió una estructura de puzzle más simple.
 
 - **Juego**: `public/dubu/index.html` — un solo archivo (HTML + CSS + JS, sin build). URL: `academiaseul.com/dubu` (rewrite en `next.config.mjs`).
 - **Modo desarrollador**: `/dubu?dev=1` verifica en carga los 30 niveles (BFS de cadenas, presupuesto exacto de forja/oído, existencia de los 104 clips) y expone `window.Dubu` para pruebas.
@@ -9,7 +9,7 @@ Prototipo v1 (19 sept 2026), construido con `PROMPT_DUBU.md`.
 - **Pruebas**: `scratchpad/dubu/test_play.js` (puppeteer-core + Chrome) juega los 30 niveles con el motor → 30/30 con 3 cubitos; `shots.js` genera capturas (móvil 375, noche, escritorio).
 
 ## Estructura del juego
-6 barrios × 5 niveles = 30. Tipos: **Arma** (forja: ves la meta), **Oído** (la meta solo se oye), **¿Cuál oíste?** (pares mínimos), **Cadena** (escaleras de palabras reales, una regla por peldaño). Verbos: ● Punto · ✦ Trazo (+fuerte / +aire) · ⧉ Gemela (tensa) · ⟲ Girar · ⇄ Lado. Puntuación: 1–3 cubitos por nivel → el plato de cada barrio (15) → 90 en total. Al final de cada barrio: "Tu oído" por par mínimo + Repasar + enlace suave a Básico 1.
+6 barrios × 5 niveles = 30. Tablero **2×2 o 3×3** con consonantes (azul) y vocales (dorado): tocas consonante → vocal (→ batchim) y se forma la sílaba; si coincide con la meta, cuaja y pasa a la siguiente. Tipos: **Arma** (meta romanizada; en el barrio 1 también la sílaba fantasma), **Oído** (meta solo por audio; romanización tras 3 fallos), **¿Cuál oíste?** (pares mínimos). Los distractores del tablero son pares mínimos de las letras necesarias (ㅓ/ㅗ, ㅡ/ㅜ, ㄱ/ㅋ/ㄲ, ㄴ/ㅇ…) generados con semilla por nivel. Al fallar, la sílaba se desmorona solo desde la pieza equivocada y suena meta → tuya. Puntuación: 3 cubitos sin fallos, 2 con ≤2, 1 después → plato de 15 por barrio (90 en total). Identidad: el tigre del logo como máscara CSS (`tigre.png`), pintado en azul/dorado.
 
 ## Pendientes / ideas v2
 - Generar el clip 두부 y los de sílabas intermedias que hoy caen en TTS (친 김 선 생 님).
