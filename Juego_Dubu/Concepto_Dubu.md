@@ -48,4 +48,4 @@ Descartados: Ttak 딱 (Jay prefirió algo más simple), Moa 모아 (fandom de TX
 ## 6. Alcance del prototipo (v1)
 Un solo archivo `public/ttak/index.html` (sin build, como el Lector), móvil 375 px, modo día/noche compartido, sin rojo, azul #3D2EE8 / dorado #E8B84B, progreso en localStorage, sin cuenta. 30 niveles como datos + motor de Hangul (fórmula Unicode) + validador BFS que comprueba en carga que cada nivel es resoluble con el presupuesto exacto. Gancho al final de cada barrio: "Esto se ve en Básico 1 → Ver el curso" (una línea, sin popup).
 
-Verificado el 19 sept: todas las metas, escaleras, candidatos de escucha, pares mínimos y las 55 palabras del diccionario tienen clip nativo; solo 친 김 선 생 님 (sílabas sueltas de palabras que sí tienen clip completo) usan TTS como relleno.
+Estado 19 sept: prototipo v1 construido en `public/dubu/index.html` (ver README.md). Verificado: todas las metas, escaleras, candidatos de escucha, pares mínimos y las 55 palabras del diccionario tienen clip nativo; solo 친 김 선 생 님 (sílabas sueltas de palabras que sí tienen clip completo) usan TTS como relleno.

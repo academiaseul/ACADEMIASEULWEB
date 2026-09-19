@@ -12,7 +12,10 @@ const nextConfig = {
   transpilePackages: ['remotion', '@remotion/player', '@remotion/transitions', '@remotion/cli'],
   // Acceso corto al Lector de Hangul (public/lector-hangul/index.html).
   async rewrites() {
-    return [{ source: '/lector-hangul', destination: '/lector-hangul/index.html' }];
+    return [
+      { source: '/lector-hangul', destination: '/lector-hangul/index.html' },
+      { source: '/dubu', destination: '/dubu/index.html' },
+    ];
   },
   async redirects() {
     return [
