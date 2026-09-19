@@ -11,8 +11,11 @@ Prototipo v2 (19 sept 2026): puzzle de tablero **C + V**. La v1 (fabricar letras
 ## Estructura del juego
 6 barrios × 5 niveles = 30. Tablero **2×2 o 3×3** con consonantes (azul) y vocales (dorado): tocas consonante → vocal (→ batchim) y se forma la sílaba; si coincide con la meta, cuaja y pasa a la siguiente. Tipos: **Arma** (meta romanizada; en el barrio 1 también la sílaba fantasma), **Oído** (meta solo por audio; romanización tras 3 fallos), **¿Cuál oíste?** (pares mínimos). Los distractores del tablero son pares mínimos de las letras necesarias (ㅓ/ㅗ, ㅡ/ㅜ, ㄱ/ㅋ/ㄲ, ㄴ/ㅇ…) generados con semilla por nivel. Al fallar, la sílaba se desmorona solo desde la pieza equivocada y suena meta → tuya. Puntuación: 3 cubitos sin fallos, 2 con ≤2, 1 después → plato de 15 por barrio (90 en total). Identidad: el tigre del logo como máscara CSS (`tigre.png`), pintado en azul/dorado.
 
+## Voz de Jay
+Carpeta `voz/`: guía (`Guia_Voz_Jay_ElevenLabs.md`), guion de grabación (`guion_grabacion.txt`, 98 ítems) y script `generate_voz.js` (clonar, probar, generar, publicar). Los clips van a `public/audio/kr-jay/` con el mismo nombre hex; el juego tiene el interruptor Ajustes → Voz de Jay (cae a SunHi y luego al TTS si falta un clip).
+
 ## Pendientes / ideas v2
-- Generar el clip 두부 y los de sílabas intermedias que hoy caen en TTS (친 김 선 생 님).
+- Generar el clip 두부 y los de sílabas que hoy caen en TTS (친 김 선 생 님 국 녕 학), idealmente ya con la voz de Jay.
 - Enlazar desde /recursos y la home ("Empieza gratis hoy").
 - Alinear el Lector con la fonética canónica (+fuerte / +aire; gemela = tensa sin aire).
 - Más barrios (batchim doble, ㅐ/ㅔ, palabras de Básico 2), contrarreloj de oído, tarjeta para compartir.

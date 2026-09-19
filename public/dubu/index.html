@@ -304,7 +304,7 @@ const RR_F={'':'','ㄱ':'k','ㄲ':'k','ㄴ':'n','ㄷ':'t','ㄹ':'l','ㅁ':'m','�
 const rrSil=s=>{const[i,m,f]=decompose(s);return (RR_I[i]||'')+(RR_M[m]||'')+(RR_F[f]||'');};
 
 /* ── Audio: clips nativos + TTS de respaldo (igual que el Lector) ─────── */
-const AUDIO_BASE="/audio/kr/", audioCache={}, audioMissing={}; let currentAudio=null, koVoice=null;
+const AUDIO_BASE="/audio/kr/", AUDIO_JAY="/audio/kr-jay/", audioCache={}, audioMissing={}; let currentAudio=null, koVoice=null;
 function pickVoice(){try{koVoice=speechSynthesis.getVoices().find(v=>(v.lang||"").toLowerCase().startsWith("ko"))||null;}catch(e){}}
 if("speechSynthesis" in window){pickVoice();try{speechSynthesis.onvoiceschanged=pickVoice;}catch(e){}}
 function hexOf(t){try{return Array.from(new TextEncoder().encode(t)).map(b=>b.toString(16).padStart(2,"0")).join("");}catch(e){return null;}}
@@ -313,17 +313,19 @@ function ttsSpeak(t){try{if(!("speechSynthesis" in window))return;const u=new Sp
 function speak(t){
   if(DEV&&(!t||(t.length===1&&/^[ㄱ-ㅎㅏ-ㅣ]$/.test(t))))throw new Error('jamo suelto a speak: '+t);
   if(t==='두부'){speakQueue(['두','부'],120);return;}
-  let src=null;if(!audioMissing[t]){const h=hexOf(t);if(h)src=AUDIO_BASE+h+".mp3";}
-  if(src){try{if(currentAudio)currentAudio.pause();let a=audioCache[t];if(!a){a=new Audio(src);audioCache[t]=a;}currentAudio=a;a.currentTime=0;
-    const p=a.play();if(p&&p.catch)p.catch(err=>{if(err&&err.name==="NotAllowedError")return;audioMissing[t]=1;delete audioCache[t];ttsSpeak(t);});return;}catch(e){}}
+  // cadena de voces: Jay (Ajustes → Voz de Jay, clips en /audio/kr-jay/) → SunHi (/audio/kr/) → voz del dispositivo
+  const bases=(typeof P!=="undefined"&&P.voz==="jay")?[AUDIO_JAY,AUDIO_BASE]:[AUDIO_BASE];
+  const h=hexOf(t);const base=h?bases.find(b=>!audioMissing[b+t]):null;
+  if(base){const src=base+h+".mp3";try{if(currentAudio)currentAudio.pause();let a=audioCache[src];if(!a){a=new Audio(src);audioCache[src]=a;}currentAudio=a;a.currentTime=0;
+    const p=a.play();if(p&&p.catch)p.catch(err=>{if(err&&err.name==="NotAllowedError")return;audioMissing[base+t]=1;delete audioCache[src];speak(t);});return;}catch(e){}}
   ttsSpeak(t);}
 let colaId=0;
 function speakQueue(lista,gapMs=350){const id=++colaId;let i=0;
   const next=()=>{if(id!==colaId||i>=lista.length)return;const t=lista[i++];let hecho=false;const fin=()=>{if(hecho)return;hecho=true;setTimeout(next,gapMs);};
-    speak(t);const a=currentAudio&&!audioMissing[t]?currentAudio:null;if(a){a.onended=fin;}else{ttsOnEnd=fin;}setTimeout(fin,1500);};
+    const antes=currentAudio;speak(t);const a=(currentAudio&&currentAudio!==antes)||(currentAudio&&!currentAudio.paused)?currentAudio:null;if(a){a.onended=fin;}else{ttsOnEnd=fin;}setTimeout(fin,1500);};
   next();}
 function cancelaCola(){colaId++;}
-function preload(lista){for(const t of lista){if(!t||audioCache[t]||audioMissing[t]||t==='두부')continue;const h=hexOf(t);if(!h)continue;try{const a=new Audio(AUDIO_BASE+h+".mp3");a.preload='auto';audioCache[t]=a;}catch(e){}}}
+function preload(lista){const base=(typeof P!=="undefined"&&P.voz==="jay")?AUDIO_JAY:AUDIO_BASE;for(const t of lista){if(!t||t==='두부')continue;const h=hexOf(t);if(!h)continue;const src=base+h+".mp3";if(audioCache[src]||audioMissing[base+t])continue;try{const a=new Audio(src);a.preload='auto';audioCache[src]=a;}catch(e){}}}
 let ctx=null;
 function audioCtx(){try{if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)();if(ctx.state==='suspended')ctx.resume();}catch(e){}return ctx;}
 function tok(freq=520,t0=0,dur=.03,gain=.25){const c=audioCtx();if(!c)return;const o=c.createOscillator(),g=c.createGain();o.type='triangle';o.frequency.value=freq;
@@ -415,7 +417,7 @@ async function verificaTodo(){const res=[];for(const n of NIVELES){const r=verif
 
 /* ── Progreso (localStorage) ─────────────────────────────────────────── */
 const PKEY='dubu-progreso';
-let P={niveles:{},oido:{},roman:true,tutos:{},saltado:false};
+let P={niveles:{},oido:{},roman:true,tutos:{},saltado:false,voz:'sunhi'};
 function cargaP(){try{const j=JSON.parse(localStorage.getItem(PKEY)||'null');if(j&&j.niveles)P=Object.assign(P,j);}catch(e){}}
 function guardaP(){try{localStorage.setItem(PKEY,JSON.stringify(P));}catch(e){}}
 function tema(){try{return localStorage.getItem('as-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch(e){return 'light';}}
@@ -581,9 +583,10 @@ function muestraAlbum(){const t=$('album');t.innerHTML='';t.append(h('h2',{},'Á
   t.append(l,h('div',{class:'acciones'},h('button',{class:'btn line',onclick:()=>velo('velo-album',false)},'Cerrar')));velo('velo-album',true);}
 function muestraAjustes(){const t=$('ajustes');t.innerHTML='';t.append(h('h2',{},'Ajustes'));
   const sw=(on,fn)=>h('button',{class:'switch'+(on?' on':''),role:'switch','aria-checked':on?'true':'false',onclick:fn});
+  t.append(h('div',{class:'ajuste'},h('span',{},'Voz de Jay ',h('span',{class:'sub'},'(si falta un clip, suena SunHi)')),sw(P.voz==='jay',()=>{P.voz=P.voz==='jay'?'sunhi':'jay';guardaP();for(const k in audioMissing)delete audioMissing[k];muestraAjustes();})));
   t.append(h('div',{class:'ajuste'},h('span',{},'Modo noche'),sw(tema()==='dark',()=>{aplicaTema(tema()==='dark'?'light':'dark');muestraAjustes();})));
   t.append(h('div',{class:'ajuste'},h('span',{},'Ya sé leer (abre los barrios 1–3)'),h('button',{class:'btn line',style:'min-height:40px',onclick:()=>{yaSeLeer();velo('velo-ajustes',false);}},'Saltar')));
-  t.append(h('div',{class:'ajuste'},h('span',{},'Borrar mi progreso'),h('button',{class:'btn gris',style:'min-height:40px',onclick:()=>{if(confirm('¿Borrar el progreso de este dispositivo?')){P={niveles:{},oido:{},roman:true,tutos:{},saltado:false};guardaP();velo('velo-ajustes',false);muestraMapa();}}},'Borrar')));
+  t.append(h('div',{class:'ajuste'},h('span',{},'Borrar mi progreso'),h('button',{class:'btn gris',style:'min-height:40px',onclick:()=>{if(confirm('¿Borrar el progreso de este dispositivo?')){P={niveles:{},oido:{},roman:true,tutos:{},saltado:false,voz:P.voz};guardaP();velo('velo-ajustes',false);muestraMapa();}}},'Borrar')));
   t.append(h('p',{class:'lead'},'Dubu es un juego gratis de ',h('a',{href:'https://www.academiaseul.com/?utm_source=dubu',target:'_blank',rel:'noopener'},'Academia Seúl'),'. Voz nativa, sin cuenta, sin anuncios.'));
   t.append(h('div',{class:'acciones'},h('button',{class:'btn line',onclick:()=>velo('velo-ajustes',false)},'Cerrar')));velo('velo-ajustes',true);}
 function yaSeLeer(){P.saltado=true;guardaP();abreNivel(MUNDOS[2].niveles[0]);}
