@@ -1,0 +1,50 @@
+<!-- L1 · Lanzamiento · segmento P1 (18) · Lun 21 sept 10:00 Chile · Academia Seúl
+     Brevo: Campaigns → Create an email campaign → Design "Code your own" → pegar este HTML.
+     Asunto: {{ contact.FIRSTNAME | default: "Chingu" }}, tu cupo en octubre 🇰🇷
+     Preheader: 8 semanas · US$150 el curso completo o 2 × US$75 · certificado
+     Variante 3 (ORIGEN = alumno_julio, 2 contactos): reemplaza el párrafo marcado [V3] por el texto indicado al final. -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F7FF;margin:0;padding:24px 0;font-family:Arial,Helvetica,sans-serif;">
+  <tr><td align="center">
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:600px;background:#FFFFFF;border-radius:16px;overflow:hidden;">
+      <tr><td style="background:#4236F6;padding:28px 40px;text-align:center;">
+        <div style="color:#C9CFFF;font-size:13px;letter-spacing:3px;font-weight:bold;">ACADEMIA&nbsp;&nbsp;SEÚL</div>
+        <div style="color:#FFFFFF;font-size:26px;font-weight:bold;margin-top:8px;line-height:1.2;">Abrimos la cohorte de octubre 🇰🇷</div>
+        <div style="color:#E8B84B;font-size:15px;font-weight:bold;margin-top:8px;">Clases desde la semana del 5 de octubre · 8 semanas · certificado incluido</div>
+      </td></tr>
+      <tr><td style="padding:30px 40px 8px 40px;color:#1B1C24;font-size:16px;line-height:1.65;">
+        <p style="margin:0 0 14px 0;">¡Hola {{ contact.FIRSTNAME | default: "chingu" }}! 안녕하세요 💙</p>
+        <!-- V3 -->
+        <p style="margin:0 0 14px 0;">Soy <strong>Jay (김재희)</strong>, de Academia Seúl. Me dejaste tus datos para avisarte cuando abriera la próxima cohorte, y hoy es el día: <strong>la matrícula de octubre ya está abierta</strong>, y te lo cuento a ti primero, con tu curso ya elegido según lo que me contaste.</p>
+        <p style="margin:0 0 14px 0;">Tu curso es <strong style="color:#4236F6;">{{ contact.CURSO_SUGERIDO | default: "Básico 1 (A1.1)" }}</strong>. Todas las clases parten la semana del 5 de octubre: 8 semanas, 1 clase en vivo por Zoom de 60 min a la semana, certificado incluido.</p>
+      </td></tr>
+      <tr><td style="padding:4px 40px 8px 40px;">
+        <div style="color:#4236F6;font-size:13px;letter-spacing:2px;font-weight:bold;margin-bottom:8px;">🗓️ HORARIOS · HORA DE CHILE</div>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:14px;color:#1B1C24;">
+          <tr><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">🧒 Coreano para Niños (8–12)</td><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">Lun 18:00</td><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">Jay y Abby</td></tr>
+          <tr><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">🌱 Básico 1 (A1.1)</td><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">Mar 20:00 <em>o</em> Jue 20:00 (eliges uno)</td><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">Prof.ª Guiran</td></tr>
+          <tr><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">💬 Conversacional 1 (A2.1)</td><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">Mar 21:00</td><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">Prof.ª Abby (nativa, desde Corea)</td></tr>
+          <tr><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">🚀 Básico 2 (A1.2)</td><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">Mié 21:00</td><td style="padding:8px 10px;border-bottom:1px solid #E3E5EF;">Jay</td></tr>
+          <tr><td style="padding:8px 10px;">🎯 TOPIK II (B1+)</td><td style="padding:8px 10px;">Jue 21:00</td><td style="padding:8px 10px;">Jay (cupo 8)</td></tr>
+        </table>
+      </td></tr>
+      <tr><td style="padding:16px 40px 8px 40px;color:#1B1C24;font-size:16px;line-height:1.65;">
+        <p style="margin:0 0 18px 0;background:#F4F7FF;border-left:4px solid #E8B84B;padding:12px 14px;">💙 <strong>Un solo precio para todos: US$150 el curso completo, o 2 cuotas de US$75.</strong> PayPal, Mercado Pago o transferencia.</p>
+        <p style="margin:0 0 20px 0;text-align:center;">
+          <a href="https://www.academiaseul.com/nivel-1?utm_source=brevo&utm_medium=email&utm_campaign=l1" style="display:inline-block;background:#4236F6;color:#FFFFFF;text-decoration:none;font-weight:bold;font-size:17px;padding:15px 30px;border-radius:12px;">Reservar mi cupo →</a>
+        </p>
+        <p style="margin:0 0 14px 0;">¿Otro país? En esa página ves tu hora exacta. ¿Dudas de nivel? Responde este correo o escríbeme al WhatsApp <a href="https://wa.me/56942115562" style="color:#4236F6;font-weight:bold;">+56 9 4211 5562</a> y lo vemos en 5 minutos.</p>
+        <p style="margin:0 0 14px 0;">Cierro inscripciones el <strong>domingo 4 de octubre</strong>. Nos vemos el 5. 화이팅!</p>
+        <p style="margin:0 0 14px 0;font-size:14px;color:#5C5F6B;line-height:1.6;"><strong>P.D.:</strong> esta semana hay dos cosas gratis: el reto <strong>#LeoCoreanoEn7Días</strong> (empieza el miércoles 23 en <a href="https://www.instagram.com/academiaseul" style="color:#4236F6;">@academiaseul</a>, premio: 1 cupo gratis) y una clase abierta en vivo en Instagram el <strong>sábado 26 a las 20:00 hora Chile</strong>: "Lee tu nombre en coreano". Y si te inscribes con un chingu, los dos reciben una sesión 1:1 de 20 min conmigo.</p>
+        <p style="margin:0;">Jay Kim (김재희) · Academia Seúl · <a href="https://www.instagram.com/academiaseul" style="color:#4236F6;">@academiaseul</a></p>
+      </td></tr>
+      <tr><td style="background:#0a0a0f;padding:20px 40px;text-align:center;color:#FFFFFF;font-size:12px;line-height:1.7;">
+        Academia Seúl · Santiago, Chile · clases online por Zoom<br>
+        <a href="https://www.academiaseul.com/?utm_source=brevo&utm_medium=email&utm_campaign=l1" style="color:#FFFFFF;text-decoration:none;">academiaseul.com</a> · <a href="https://www.academiaseul.com/dubu?utm_source=brevo&utm_medium=email&utm_campaign=l1" style="color:#E8B84B;text-decoration:none;">Dubu, el puzzle del Hangul (gratis)</a><br>
+        <span style="color:#9AA0B4;">Recibes este correo porque dejaste tus datos en academiaseul.com. <a href="{{ unsubscribe }}" style="color:#9AA0B4;">Si no quieres recibir más correos, haz clic aquí</a>.</span>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>
+<!-- VARIANTE 3 · para ORIGEN = alumno_julio (segmento aparte de 2 contactos). Sustituir el párrafo que sigue a "V3" por:
+<p style="margin:0 0 14px 0;">Hace dos meses no sabías leer 한글 y hoy ya te presentas en coreano. Abrí la cohorte de octubre y tu siguiente paso es <strong>Básico 2 (A1.2)</strong>, miércoles 21:00, conmigo (o Conversacional 1 con Abby si prefieres puro hablar). Te lo cuento a ti primero.</p>
+-->

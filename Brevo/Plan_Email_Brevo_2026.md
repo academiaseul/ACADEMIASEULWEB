@@ -9,6 +9,8 @@
 
 > **Nota sobre la "primera hoja" (base de la escuela):** los dos archivos que me llegaron (`formspree_…csv` y `MailChimpChile.csv`) son el **mismo export de Formspree** (125 filas, 97 personas únicas). La base de la escuela no venía. Cuando me la pases (xlsx o csv con nombre + correo), la limpio, la cruzo con esta lista y la meto en el plan de la sección 6 — que ya está pensado para una lista grande con el tope de 300/día.
 
+> **Actualización 20 sept (plan de choque):** los cuerpos y fechas vigentes están en `Plan_Choque_20sep_6oct_2026.md` §3 (L1 lun 21 · L1-b mar 22 · L2 mié 23 · L3 vie 25 · L4 lun 28 · L5 jue 1 · L5-b dom 4 · O1 lun 5 · N1 mar 6). HTML listos: `L1_Lanzamiento_P1.html` y `L1b_Taller_P2P3.html`. Al importar el CSV mapea también `ORIGEN`, `PRIORIDAD` y `WHATSAPP` (ya vienen en el archivo). Segmento extra: `Alumnos julio` = ORIGEN contiene `alumno_julio` (2 contactos) → reciben L1 con la variante 3. DNS: `Guia_DNS_Brevo.md`.
+
 ---
 
 ## 1. Lo que tienes hoy (lista del sitio)
