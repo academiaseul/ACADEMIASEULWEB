@@ -512,6 +512,9 @@ export const EN: Dict = {
   "Empiezas en Básico 1 (A1.1) →": "You start in Basic 1 (A1.1) →",
   "Ver los cursos": "See the courses",
   // ── components/HomeBanners.tsx
+  "Dubu · el puzzle del Hangul": "Dubu · the Hangul puzzle",
+  "Combina consonante + vocal y forma la palabra que lees o que escuchas. 30 niveles con voz nativa.": "Combine consonant + vowel and build the word you read or hear. 30 levels with native audio.",
+  "Jugar a Dubu →": "Play Dubu →",
   "Lector de Hangul": "Hangul Reader",
   "Aprende a leer 한글 con audio de voz nativa, directo en tu navegador.": "Learn to read 한글 with native-voice audio, right in your browser.",
   "Abrir el Lector →": "Open the Reader →",
@@ -629,6 +632,8 @@ export const EN: Dict = {
   "clases desde la semana del 5 de octubre": "classes start the week of October 5",
   "Cerrar": "Close",
   // ── components/RecursosContent.tsx
+  "Combina consonante + vocal en un tablero de 2×2 o 3×3 y forma la palabra que lees o que escuchas. 30 niveles, 6 barrios de Seúl, voz nativa y entrenamiento del oído.": "Combine consonant + vowel on a 2×2 or 3×3 board and build the word you read or hear. 30 levels, 6 Seoul neighborhoods, native audio and ear training.",
+  "Jugar a Dubu": "Play Dubu",
   "Aprende a leer el alfabeto coreano con la lógica del 훈민정음: lecciones interactivas, constructor de sílabas y práctica con audio de voz nativa que cambia en cada ronda.": "Learn to read the Korean alphabet using the logic of 훈민정음: interactive lessons, a syllable builder and practice with native-voice audio that changes every round.",
   "Aprender a leer": "Learn to read",
   "Descarga gratis la Guía del Alfabeto (한글) y la Guía de Pronunciación coreana. PDFs listos para imprimir y estudiar.": "Download the Alphabet Guide (한글) and the Korean Pronunciation Guide for free. Print-ready PDFs to study from.",

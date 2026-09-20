@@ -7,6 +7,15 @@ import { useT, i18n } from "@/lib/i18n";
 
 const cards = [
   {
+    href: "/dubu",
+    korean: "두부",
+    title: i18n("Dubu · el puzzle del Hangul"),
+    desc:
+      i18n("Combina consonante + vocal en un tablero de 2×2 o 3×3 y forma la palabra que lees o que escuchas. 30 niveles, 6 barrios de Seúl, voz nativa y entrenamiento del oído."),
+    cta: i18n("Jugar a Dubu"),
+    external: true,
+  },
+  {
     href: "/lector-hangul",
     korean: "한글",
     title: i18n("Lector de Hangul"),
