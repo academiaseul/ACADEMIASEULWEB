@@ -27,7 +27,7 @@
 | 1 | 3 | Abrir `academiaseul.com` desde el celular → tarjeta **"Dubu · el puzzle del Hangul"** → jugar 1-1 con sonido → botón compartir. Ya está enlazado desde la home y `/recursos` (commit 48dba213): **no hay que tocar código.** | ✅ o anotar el bug |
 | 2 | 10 | Recorrer el embudo como alumno: `/nivel-1?clase=a11-martes` → PayPal US$150 y 2×US$75 abren → Mercado Pago abre → botón WhatsApp abre el chat de +56 9 4211 5562 → `/test-nivel` termina en una clase. | anotar fallas; se arreglan antes de L1 |
 | 3 | 60 | **Brevo desde cero** (`Brevo/Plan_Email_Brevo_2026.md` §2): (a) **remitente — decisión tomada:** si tienes acceso al DNS de academiaseul.com (Netlify DNS o registrador) → Senders → Domains → Authenticate (2 DKIM + 1 DMARC, 15 min) y usas `hola@academiaseul.com`; si **no**, L1 y L1-b salen desde **`hola.academiaseul@gmail.com` verificado** y el dominio se autentica antes de L4 (lun 28). (b) Atributos FIRSTNAME, CURSO_SUGERIDO, PAIS, ORIGEN, PRIORIDAD, WHATSAPP. (c) Importar `Brevo/contactos_brevo_import.csv` (97). (d) Listas `01 Leads sitio` + `02 Alumnos octubre` (vacía) + segmentos P1 / P2 / P3 y **`Ex-alumnos julio`** (los 2 contactos con ORIGEN = alumno_julio → variante 3 de L1). (e) Campaña L1: **pegar la versión de texto simple de la sección 3** en el editor (10 min); el HTML `Brevo/Email_Lanzamiento_Brevo.html` se deja para L4 porque hoy solo trae FIRSTNAME y utm `oct26`. (f) Prueba a tu Gmail, revisar en el celular. (g) **Programar L1 lun 21 10:00 (P1)** y **L1-b mar 22 10:00 (P2+P3)**. | 2 envíos programados |
-| 4 | 15 | WhatsApp Business: bienvenida automática + `/precio` `/horarios` `/niños` `/pagar` (sección 4a). Estado de WhatsApp: captura de Dubu + "nuevo, gratis". | listo |
+| 4 | 10 | WhatsApp (normal): guardar los 5 textos de la sección 4a en Notas del celular (saludo, precio, horarios, niños, pagar). Estado de WhatsApp: captura de Dubu + "nuevo, gratis". | listo |
 | 5 | 10 | Instagram → Respuestas guardadas: las 4 respuestas de la encuesta "¿cuál es tu caso?" (sección 4b). | listo |
 | 6 | 5 | Mensajes a **Guiran y Abby** (sección 4c): clip de 15 s, **plazo miércoles 23 a las 22:00 Chile**, y pedir en el mismo mensaje sus links de Zoom del 6 de octubre. | enviados |
 | 7 | 2 | ¿Existen cuentas de TikTok y YouTube Shorts de la academia? **Sí / No.** Si no, cross-post descartado hasta después del 5 oct. | decidido |
@@ -369,8 +369,9 @@
 
 Solo 10 de los 97 contactos tienen WhatsApp: trato 1:1, **máximo 3 mensajes a cada uno** (lun 21 · lun 28 · dom 4) + 1 extra solo a quien respondió. Nada de difusiones: los avisos del mié 23 y jue 1 van por **Estado de WhatsApp**. Etiquetas: `lead` · `abierto` · `inscrito` · `enero`.
 
-### (a) Bienvenida automática + respuestas rápidas
-**Bienvenida (saludo/ausencia):**
+### (a) Textos listos (WhatsApp normal: sin bienvenida automática ni respuestas rápidas)
+Jay usa **WhatsApp normal**, no Business. Dos opciones: (1) guardar los 5 textos de abajo en la app **Notas** del celular y pegarlos (10 s cada uno); (2) si algún día quiere automatizar, instalar WhatsApp Business gratis con el mismo número (migra los chats; no se pueden usar las dos apps a la vez). Para la campaña basta la opción 1. El "saludo" se manda a mano al primer mensaje de cada persona nueva.
+**Saludo (pegar al primer mensaje de cada persona nueva):**
 > ¡Hola! 안녕하세요 👋 Soy Jay de Academia Seúl. Te respondo hoy mismo (normalmente entre 19:00 y 22:00 hora Chile). Mientras tanto: horarios y precios en academiaseul.com/programa · inscripción en academiaseul.com/nivel-1 · y dos regalos gratis: Dubu, el juego del Hangul (academiaseul.com/dubu) y el Lector con voz nativa (academiaseul.com/lector-hangul) 🐯
 
 **/precio**
