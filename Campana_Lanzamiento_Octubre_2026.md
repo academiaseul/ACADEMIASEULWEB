@@ -125,11 +125,11 @@ Regla de decisión el **domingo 28**: si una clase tiene menos de 4 inscritos, l
 
 **/horarios** → "Hora de Chile: 🧒 Niños lun 18:00 · 🌱 Básico 1 mar 20:00 o jue 20:00 · 💬 Conversacional mar 21:00 · 🚀 Básico 2 mié 21:00 · 🎯 TOPIK II jue 21:00. ¿Desde qué país me escribes? Te digo tu hora exacta."
 
-**/niños** → "Coreano para Niños (8–12): lunes 18:00 Chile, 8 semanas, máximo 12, con juegos, canciones y show final para la familia. Grupo de WhatsApp solo para apoderados. Inscripción: academiaseul.com/nivel-1?clase=ninos"
+**/niños** → "Coreano para Niños (8–15): lunes 18:00 Chile, 8 semanas, máximo 12, con juegos, canciones y show final para la familia. Grupo de WhatsApp solo para apoderados. Inscripción: academiaseul.com/nivel-1?clase=ninos"
 
 **/pagar** → "Puedes pagar por transferencia (Chile, sin comisión — te paso los datos), tarjeta vía Mercado Pago o PayPal en dólares. ¿Cuál prefieres? Te mando el link exacto."
 
-**Bienvenida automática** → "¡Hola! 안녕하세요 👋 Soy Jay de Academia Seúl. Te respondo en menos de 2 horas. Mientras tanto: horarios y precios en academiaseul.com/programa y el Lector de Hangul gratis en academiaseul.com/lector-hangul 🐯"
+**Bienvenida automática** → "¡Hola! 안녕하세요 👋 Soy Jay de Academia Seúl. Te respondo en menos de 2 horas. Mientras tanto: horarios y precios en academiaseul.com/programa y el Lector de Hangul gratis en academiaseul.com/lector-coreano 🐯"
 
 ---
 

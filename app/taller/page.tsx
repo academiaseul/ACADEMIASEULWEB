@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { PROXIMO_TALLER, tallerVigente } from "@/lib/taller";
+import { PROXIMO_TALLER, TALLER_GRABADO, tallerVigente } from "@/lib/taller";
+import Link from "next/link";
+import LiteYouTube from "@/components/LiteYouTube";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -48,7 +50,7 @@ export default function TallerPage() {
           ...formData,
           _subject: vigente
             ? "Nueva inscripción — Taller Hangul"
-            : "Lista de espera — Próximo Taller",
+            : "Taller grabado — material + aviso del próximo en vivo",
         }),
       });
 
@@ -112,15 +114,15 @@ export default function TallerPage() {
     },
     {
       q: "¿Hay grabación disponible?",
-      a: "Para los registrados sí. Te enviaremos el enlace por correo después del evento en vivo.",
+      a: "Sí: el taller completo está grabado y lo ves aquí mismo, cuando quieras y las veces que quieras. Cuando haya un nuevo taller en vivo, te avisamos por correo.",
     },
     {
       q: "¿Qué pasa después del taller?",
       a: "Tendrás la oportunidad de unirte a los cursos en vivo de Academia Seúl — 8 semanas de coreano por Zoom, certificado incluido, con matrícula abierta desde octubre de 2026.",
     },
     {
-      q: "¿En qué plataforma será?",
-      a: "Te enviaremos el link de Zoom por correo unas horas antes del taller. Solo necesitas conexión a internet.",
+      q: "¿En qué plataforma se ve?",
+      a: "El taller grabado se ve aquí mismo (YouTube), en celular o computador. El próximo en vivo será por Zoom o Instagram y te mandamos el link por correo.",
     },
   ];
 
@@ -203,7 +205,7 @@ export default function TallerPage() {
           <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-0 border-r-[60px] border-r-transparent border-t-[100vh] border-t-[#3D2EE8] z-10" />
 
           <span className="inline-flex items-center gap-2 bg-white/15 border border-white/30 text-white text-xs font-bold tracking-[2px] uppercase px-3 py-1.5 w-fit mb-7">
-            🇰🇷 Taller Gratuito · 무료 강의
+            🇰🇷 Taller Gratuito · 무료 강의{!vigente && " · grabado"}
           </span>
 
           <h1 className="font-black text-white leading-[0.92] mb-4" style={{ fontSize: "clamp(52px, 7vw, 88px)", fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}>
@@ -217,23 +219,23 @@ export default function TallerPage() {
           {/* Date badge */}
           <div className="flex flex-col gap-1 bg-[#0D0D0D] border-2 border-[#E8B84B] px-5 py-3 w-fit mb-6 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
             <span className="text-[#E8B84B] text-[10px] font-bold tracking-[2px] uppercase">
-              {vigente ? "📅 Fecha confirmada" : "📅 Próximo taller"}
+              {vigente ? "📅 Fecha confirmada" : "▶ Disponible ahora"}
             </span>
             <span className="text-white font-black text-lg leading-tight" style={{ fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}>
-              {vigente ? fechaCompleta : "Fecha por anunciar — déjanos tu correo"}
+              {vigente ? fechaCompleta : `Clase completa grabada · ${TALLER_GRABADO.duracion} · gratis`}
             </span>
           </div>
 
           <p className="text-white/85 text-base md:text-lg leading-relaxed max-w-sm mb-8">
             El sistema de escritura coreano es{" "}
-            <strong className="text-white">más fácil de lo que crees</strong>.
-            En este taller en vivo leerás tu primera palabra en coreano antes de que termine la sesión.
+            <strong className="text-white">más fácil de lo que crees</strong>.{" "}
+            {vigente ? "En este taller en vivo leerás tu primera palabra en coreano antes de que termine la sesión." : "Mira la clase completa (grabada en vivo) y lee tu primera palabra en coreano antes de que termine el video."}
           </p>
 
           <div className="flex flex-col gap-3 mb-10">
             {[
               { icon: "🎓", text: "100% gratuito — sin tarjeta de crédito" },
-              { icon: "⏱", text: "1 hora en vivo por Zoom — con Jay Chingu" },
+              { icon: "⏱", text: vigente ? "1 hora en vivo por Zoom — con Jay Chingu" : "1 hora de clase con Jay Chingu — a tu ritmo, pausa y repite" },
               { icon: "🌎", text: "Para hispanohablantes de toda Latinoamérica" },
             ].map((m) => (
               <div key={m.text} className="flex items-center gap-3 text-white/90 text-sm">
@@ -246,17 +248,25 @@ export default function TallerPage() {
           </div>
 
           <a
-            href="#registro"
+            href={vigente ? "#registro" : "#video"}
             className="inline-flex items-center gap-3 bg-[#E8B84B] text-[#0D0D0D] font-bold text-sm px-8 py-4 w-fit shadow-[4px_4px_0_rgba(0,0,0,0.25)] hover:shadow-[6px_6px_0_rgba(0,0,0,0.3)] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
           >
-            {vigente ? "Reservar mi lugar gratis" : "Avísame del próximo taller"} <span className="text-lg">→</span>
+            {vigente ? "Reservar mi lugar gratis" : "Ver el taller ahora"} <span className="text-lg">→</span>
           </a>
         </div>
 
         {/* Right — Cream */}
-        <div className="bg-[#F4F7FF] flex flex-col items-center justify-center gap-8 px-8 md:px-16 py-20">
+        <div className="bg-[#F4F7FF] flex flex-col items-center justify-center gap-8 px-6 md:px-12 py-14 lg:py-20">
+          {!vigente && (
+            <div id="video" className="w-full max-w-xl scroll-mt-24">
+              <div className="relative aspect-video overflow-hidden bg-black border-2 border-[#0D0D0D] shadow-[8px_8px_0_#3D2EE8]">
+                <LiteYouTube id={TALLER_GRABADO.youtubeId} start={TALLER_GRABADO.start} title={TALLER_GRABADO.titulo} />
+              </div>
+              <p className="text-center text-xs text-gray-500 mt-3">▶ {TALLER_GRABADO.titulo} · {TALLER_GRABADO.duracion} · grabado en vivo con Jay Chingu</p>
+            </div>
+          )}
           {/* Hangul Grid */}
-          <div className="grid grid-cols-3 gap-3 w-full max-w-xs">
+          <div className={`grid grid-cols-3 gap-3 w-full max-w-xs ${vigente ? "" : "hidden lg:grid"}`}>
             {hangulCards.map((card) => (
               <div
                 key={card.char}
@@ -284,28 +294,34 @@ export default function TallerPage() {
       {/* ── TALLER GRABADO (solo cuando no hay taller en vivo agendado) ── */}
       {!vigente && (
         <section className="bg-[#F4F7FF] py-16 px-6 md:px-14 border-t-4 border-[#0D0D0D]">
-          <div className="max-w-2xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center">
             <p className="text-[#3D2EE8] text-xs font-bold tracking-[3px] uppercase mb-3">
-              ¿No querés esperar?
+              ¿Ya viste el taller?
             </p>
             <h2
               className="font-black text-[#0D0D0D] leading-none mb-4"
               style={{ fontSize: "clamp(28px, 4vw, 44px)", fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
             >
-              Mira el taller grabado ahora mismo
+              Tu siguiente paso, gratis
             </h2>
             <p className="text-gray-600 mb-8 max-w-md mx-auto">
-              Todavía no hay fecha confirmada para el próximo taller en vivo, pero podés ver la
-              clase completa grabada cuando quieras — mismo contenido, a tu ritmo.
+              Practica lo que viste en el video con nuestras dos apps gratuitas, y cuando quieras ir en serio,
+              Básico 1 parte la semana del 12 de octubre.
             </p>
-            <a
-              href="https://www.youtube.com/watch?v=zmbuLPcgfpw&t=2414s"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-[#0D0D0D] text-white font-bold text-sm px-8 py-4 w-fit shadow-[4px_4px_0_#3D2EE8] hover:shadow-[6px_6px_0_#3D2EE8] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all mx-auto"
-            >
-              ▶ Ver el taller grabado <span className="text-lg">→</span>
-            </a>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
+              {[
+                { e: "🧩", t: "Dubu · 두부", d: "Puzzle: combina consonante + vocal y forma la palabra que lees o escuchas.", h: "/dubu", c: "Jugar" },
+                { e: "🐯", t: "Lector de Hangul", d: "Toca cada letra y escucha la voz nativa. Practica lectura y números.", h: "/lector-coreano", c: "Practicar" },
+                { e: "🌱", t: "Básico 1 (A1.1)", d: "8 semanas en vivo con la Prof.ª Kiran · martes o jueves 20:00 Chile · US$150 el curso completo · o 2 cuotas de US$75.", h: "/nivel-1?clase=a11-martes", c: "Ver el curso" },
+              ].map((x) => (
+                <Link key={x.h} href={x.h} className="bg-white border-2 border-[#0D0D0D] p-5 shadow-[4px_4px_0_#0D0D0D] hover:shadow-[6px_6px_0_#3D2EE8] hover:-translate-y-0.5 transition-all">
+                  <div className="text-3xl mb-2">{x.e}</div>
+                  <div className="font-bold text-[#0D0D0D] mb-1">{x.t}</div>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-3">{x.d}</p>
+                  <span className="text-[#3D2EE8] font-bold text-sm">{x.c} →</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
       )}
@@ -395,14 +411,8 @@ export default function TallerPage() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* YouTube Short — 10 palabras en coreano */}
           <div className="relative w-full max-w-sm mx-auto lg:mx-0">
-            <div className="aspect-[9/16] overflow-hidden bg-black">
-              <iframe
-                src="https://www.youtube.com/embed/0SA2X1LGsgA?rel=0"
-                title="10 palabras en coreano — Jay Chingu"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-                className="w-full h-full border-0"
-              />
+            <div className="relative aspect-[9/16] overflow-hidden bg-black">
+              <LiteYouTube id="0SA2X1LGsgA" title="10 palabras en coreano — Jay Chingu" vertical />
             </div>
             <div className="absolute -bottom-1 -left-1 -right-1 h-1.5 bg-gradient-to-r from-[#003478] via-white to-[#3D2EE8]" />
           </div>
@@ -449,20 +459,20 @@ export default function TallerPage() {
 
         <div className="max-w-xl mx-auto relative z-10 text-center">
           <p className="text-[#E8B84B] text-xs font-bold tracking-[3px] uppercase mb-3">
-            ¡Cupos limitados!
+            {vigente ? "¡Cupos limitados!" : "Material + próximo taller en vivo"}
           </p>
           <h2 className="font-black text-white leading-none mb-4"
             style={{ fontSize: "clamp(36px, 5vw, 56px)", fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
           >
-            Reserva tu lugar
+            {vigente ? "Reserva tu lugar" : "Quiero el material del taller"}
           </h2>
           <p className="text-white/90 text-sm font-bold mb-2 tracking-wider uppercase">
-            {vigente ? `📅 ${fechaCompleta}` : "📅 Próximo taller · Fecha por anunciar"}
+            {vigente ? `📅 ${fechaCompleta}` : "📩 Guía del alfabeto en PDF + aviso del próximo taller en vivo"}
           </p>
           <p className="text-white/70 text-base leading-relaxed mb-10">
             {vigente
               ? "Regístrate gratis y te enviamos el link de Zoom por correo. No necesitas saber nada de coreano — solo ganas. 화이팅 chingu 🇰🇷"
-              : "Déjanos tus datos y serás de los primeros en enterarte cuando anunciemos la fecha del próximo taller en vivo. 화이팅 chingu 🇰🇷"}
+              : "Déjanos tus datos y te mandamos la guía del alfabeto para repasar lo del video, y serás de los primeros en saber la fecha del próximo taller en vivo. 화이팅 chingu 🇰🇷"}
           </p>
 
           {submitted ? (
@@ -471,7 +481,7 @@ export default function TallerPage() {
               <h3 className="text-white font-black text-2xl mb-2"
                 style={{ fontFamily: "var(--font-bebas, 'Bebas Neue', sans-serif)" }}
               >
-                {vigente ? "¡Tu lugar está reservado!" : "¡Estás en la lista!"}
+                {vigente ? "¡Tu lugar está reservado!" : "¡Listo, chingu!"}
               </h3>
               <p className="text-white/80 text-sm mb-3">
                 {vigente ? (
@@ -530,7 +540,7 @@ export default function TallerPage() {
                 disabled={loading || !formData.nombre || !formData.email}
                 className="w-full py-4 mt-2 bg-[#E8B84B] text-[#0D0D0D] font-bold text-base border-2 border-[#0D0D0D] shadow-[4px_4px_0_#0D0D0D] hover:shadow-[6px_6px_0_#0D0D0D] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {loading ? "Enviando..." : vigente ? "🎓 ¡Quiero mi lugar gratis!" : "🔔 Avísame del próximo taller"}
+                {loading ? "Enviando..." : vigente ? "🎓 ¡Quiero mi lugar gratis!" : "📩 Quiero el material y el aviso del próximo taller"}
               </button>
               <p className="text-white/50 text-xs text-center pt-1">
                 Sin spam. Sin cargos. Solo te avisamos sobre el taller.
@@ -571,13 +581,13 @@ export default function TallerPage() {
           <span className="text-[#3D2EE8]">te espera.</span>
         </h2>
         <p className="text-[#E8B84B] text-sm font-bold tracking-wider uppercase mb-6">
-          {vigente ? `📅 ${fechaCompleta}` : "📅 Próximo taller · Fecha por anunciar"}
+          {vigente ? `📅 ${fechaCompleta}` : "▶ Taller grabado · gratis · míralo cuando quieras"}
         </p>
         <a
-          href="#registro"
+          href={vigente ? "#registro" : "#video"}
           className="inline-flex items-center gap-3 bg-[#3D2EE8] text-white font-bold text-sm px-10 py-4 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:bg-[#2C1FB0] transition-colors"
         >
-          {vigente ? "Reservar mi lugar gratis" : "Avísame del próximo taller"} →
+          {vigente ? "Reservar mi lugar gratis" : "Ver el taller ahora"} →
         </a>
       </section>
 

@@ -10,17 +10,21 @@ const nextConfig = {
     ],
   },
   transpilePackages: ['remotion', '@remotion/player', '@remotion/transitions', '@remotion/cli'],
-  // Acceso corto al Lector de Hangul (public/lector-hangul/index.html).
+  // Apps estáticas de un solo archivo: Lector de Hangul (public/lector-coreano) y Dubu (public/dubu).
   async rewrites() {
     return [
-      { source: '/lector-hangul', destination: '/lector-hangul/index.html' },
+      { source: '/lector-coreano', destination: '/lector-coreano/index.html' },
       { source: '/dubu', destination: '/dubu/index.html' },
     ];
   },
   async redirects() {
     return [
-      { source: '/coreano', destination: '/lector-hangul', permanent: true },
-      { source: '/lector', destination: '/lector-hangul', permanent: true },
+      // URL oficial del Lector desde el 22 sept 2026: /lector-coreano. Alias y URLs viejas redirigen.
+      { source: '/coreano', destination: '/lector-coreano', permanent: true },
+      { source: '/lector', destination: '/lector-coreano', permanent: true },
+      { source: '/lector-hangul', destination: '/lector-coreano', permanent: true },
+      { source: '/lectorhangul', destination: '/lector-coreano', permanent: true },
+      { source: '/lectorcoreano', destination: '/lector-coreano', permanent: true },
     ];
   },
 };

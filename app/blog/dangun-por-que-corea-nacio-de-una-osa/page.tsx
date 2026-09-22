@@ -287,7 +287,7 @@ export default function DangunPost() {
         <p className="mb-6">
           Nueve palabras que te dejan el mito en la punta de la lengua. Si
           todavía no lees Hangul, el{" "}
-          <Link href="/lector-hangul" className="text-seoul-red font-bold underline">
+          <Link href="/lector-coreano" className="text-seoul-red font-bold underline">
             Lector de Hangul gratis
           </Link>{" "}
           te las pronuncia con voz nativa, y en{" "}
@@ -398,7 +398,7 @@ export default function DangunPost() {
           <span className="kr" style={{ fontFamily: "'Noto Sans KR', sans-serif" }}>인내심</span>{" "}
           de osa: ocho semanas, una hora por sesión. La cohorte que empieza la
           semana del 12 de octubre tiene Básico 1 (A1.1), Básico 2 (A1.2),
-          Conversacional 1 (A2.1), TOPIK II (B1+) y Coreano para Niños (8–12),
+          Conversacional 1 (A2.1), TOPIK II (B1+) y Coreano para Niños (8–15),
           por US$150 el curso completo · o 2 cuotas de US$75.
         </p>
 
@@ -468,7 +468,7 @@ export default function DangunPost() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/lector-hangul"
+              href="/lector-coreano"
               className="bg-[#E8B84B] text-seoul-black font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
               Lector de Hangul gratis →

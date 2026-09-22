@@ -12,7 +12,7 @@
 | 2 | `02_KOR102_Basico2` | KOR 102 · Básico 2 (A1.2) · Jay · mié 21:00 |
 | 3 | `03_KOR201_Conversacional1` | KOR 201 · Conversacional 1 (A2.1) · Abby · mar 21:00 |
 | 4 | `04_KOR301_TOPIK2` | KOR 301 · TOPIK II (B1+) · Jay · jue 21:00 · máx. 8 |
-| 5 | `05_KOR050_Ninos` | KOR 050 · Coreano para Niños (8–12) · lun 18:00 |
+| 5 | `05_KOR050_Ninos` | KOR 050 · Coreano para Niños (8–15) · lun 18:00 |
 | 6 | `06_Calendario_Academico` | Calendario académico + cómo inscribirse + arancel |
 
 ---
@@ -48,7 +48,7 @@ KOR 101 · Básico 1 (A1.1) · mar o jue 20:00 · Kiran
 KOR 102 · Básico 2 (A1.2) · mié 21:00 · Jay
 KOR 201 · Conversacional 1 (A2.1) · mar 21:00 · Abby
 KOR 301 · TOPIK II (B1+) · jue 21:00 · Jay · máx. 8
-KOR 050 · Coreano para Niños (8–12) · lun 18:00
+KOR 050 · Coreano para Niños (8–15) · lun 18:00
 
 Todos: 8 semanas · 60 min en vivo por Zoom · certificado · US$150 el curso completo o 2 cuotas de US$75. Mismo precio en todos los niveles.
 
@@ -70,7 +70,7 @@ Prerrequisito: ninguno. Literal cero. En la sesión 1 lees tu primera sílaba; e
 🎓 Certificado incluido
 💵 US$150 · o 2 cuotas de US$75
 
-¿Quieres adelantar? El Lector de Hangul es gratis: academiaseul.com/lector-hangul
+¿Quieres adelantar? El Lector de Hangul es gratis: academiaseul.com/lector-coreano
 
 Reserva tu cupo → link en bio · cierre: domingo 11 de octubre
 
@@ -132,7 +132,7 @@ Reserva tu cupo → link en bio · cierre: domingo 11 de octubre (o antes, si se
 
 ### 5 · KOR 050 · Coreano para Niños
 ```
-KOR 050 · Coreano para Niños (8–12) · "Juega y aprende" 🧒
+KOR 050 · Coreano para Niños (8–15) · "Juega y aprende" 🧒
 
 Coreano desde cero con juegos, canciones y dibujos. En 8 semanas leen sus primeras palabras, se presentan, cuentan del 1 al 10 y nombran animales y comidas — y cierran con un mini-show en coreano para la familia 🎤
 

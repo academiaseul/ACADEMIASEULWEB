@@ -38,6 +38,14 @@ export const PRECIO_CORTO = `US$${PRECIO_UNICO} · o ${MESES} × US$${PRECIO_MEN
 export const PAYPAL_LINK_UNICO = "https://www.paypal.com/ncp/payment/5X33QK4A928FU"; // US$150 · curso completo
 export const PAYPAL_LINK_MENSUAL = "https://www.paypal.com/ncp/payment/SQ2YHGEZFUDEC"; // US$75 · cuota 1 de 2
 
+// 🔗 Mercado Pago · links de pago fijos (creados por Jay el 22 sept 2026). Cobran en CLP y
+// aceptan tarjeta o transferencia sin cuenta. Si el link del plan existe, el botón lo abre
+// directo; si está vacío, se usa el checkout dinámico de app/api/checkout (requiere MP_ACCESS_TOKEN).
+export const MP_LINK_UNICO = "https://mpago.la/1cHrbqy"; // $150.000 CLP · curso completo
+export const MP_LINK_MENSUAL = ""; // TODO(Jay): crear el link de $75.000 CLP (cuota 1 de 2)
+export const CLP_UNICO = 150000;
+export const CLP_MENSUAL = 75000;
+
 // 🔗 Hotmart (checkout en la moneda del alumno: USD/EUR/moneda local — ideal
 // para alumnos fuera de LatAm). Los botones solo aparecen cuando el link existe.
 // TODO(Jay): crear el producto en hotmart.com y pegar aquí los links de checkout.
@@ -120,7 +128,7 @@ export const CLASES: Clase[] = [
   { id: "a12", cursoId: "a12", label: "Básico 2 (A1.2) · Miércoles 21:00 Chile · Jay", profeId: "jay", dia: "Miércoles", horaChile: "21:00", primeraClase: "miércoles 14 de octubre", cupos: 15 },
   { id: "a21", cursoId: "a21", label: "Conversacional 1 (A2.1) · Martes 21:00 Chile · Abby", profeId: "abby", dia: "Martes", horaChile: "21:00", primeraClase: "martes 13 de octubre", cupos: 15 },
   { id: "topik2", cursoId: "topik2", label: "TOPIK II (B1+) · Jueves 21:00 Chile · Jay", profeId: "jay", dia: "Jueves", horaChile: "21:00", primeraClase: "jueves 15 de octubre", cupos: 8 },
-  { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–12) · Lunes 18:00 Chile · Jay y Abby", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "lunes 19 de octubre", cupos: 12 },
+  { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–15) · Lunes 18:00 Chile · Jay y Abby", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "lunes 19 de octubre", cupos: 12 },
 ];
 
 // 🌎 Conversión de horarios (octubre–noviembre 2026, Chile en horario de verano UTC-3).
@@ -326,15 +334,15 @@ export const CURSOS: Curso[] = [
   {
     cursoId: "ninos",
     emoji: "🧒",
-    nombreCorto: "Coreano para Niños (8–12)",
-    cefr: "8–12 años",
+    nombreCorto: "Coreano para Niños (8–15)",
+    cefr: "8–15 años",
     subtitulo: "Juega y aprende",
     koreanTitle: "어린이 한국어",
     paso: 0,
     grupo: "ninos",
     requiere: null,
     nombre: "Coreano para Niños",
-    nivel: "8–12 años · desde cero",
+    nivel: "8–15 años · desde cero",
     libro: "Material propio Academia Seúl + Lector de Hangul",
     descripcion:
       "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia. Empieza el lunes 19 de octubre (el 12 es feriado en Chile) y termina el 7 de diciembre.",

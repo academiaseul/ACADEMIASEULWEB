@@ -5,7 +5,7 @@
   "nombre": "Básico 1 (A1.1) · Primeras Palabras",
   "descripcion": "El punto de partida de la escalera de Academia Seúl: en 8 semanas aprendes a leer el alfabeto coreano completo y a decir tus primeras frases reales sobre ti, tu familia, tu casa, tu día y tus gustos, siguiendo el libro 한글학교 한국어 1. El drilling de lectura vive en el Lector de Hangul como tarea con audio nativo, así la hora en vivo se reserva para hablar y ser corregido. Reemplaza al Nivel 1 de julio de 2026 y da paso directo a Básico 2 (A1.2).",
   "perfil_alumno": "Adultos y jóvenes hispanohablantes de Latinoamérica y España que empiezan desde cero absoluto, o que reconocen algunas letras y palabras por K-pop y K-dramas pero todavía no leen con seguridad ni arman una frase. También quienes hicieron el Nivel 1 de julio sin completar la parte de lectura y prefieren consolidar antes de subir a Básico 2 (A1.2). Grupo de máximo 15 personas, con cámara encendida y ganas de equivocarse en voz alta.",
-  "requisito_entrada": "Ninguno: se parte de cero absoluto, sin necesidad de saber leer Hangul ni conocer ninguna palabra. Se pide conexión estable a Zoom con cámara y micrófono, cuaderno y lápiz para trazar el alfabeto a mano, y abrir el Lector de Hangul (academiaseul.com/lector-hangul, gratuito y sin cuenta) en el celular o computador antes de la clase 1.",
+  "requisito_entrada": "Ninguno: se parte de cero absoluto, sin necesidad de saber leer Hangul ni conocer ninguna palabra. Se pide conexión estable a Zoom con cámara y micrófono, cuaderno y lápiz para trazar el alfabeto a mano, y abrir el Lector de Hangul (academiaseul.com/lector-coreano, gratuito y sin cuenta) en el celular o computador antes de la clase 1.",
   "objetivos": [
    "Leer en voz alta cualquier sílaba coreana, incluidas las que terminan en 받침 (consonante final), y escribir tu nombre y las palabras del curso en Hangul",
    "Saludar, despedirte y presentarte con nombre y país usando 저는 N이에요/예요 (yo soy N), eligiendo bien la forma según haya o no consonante final",
@@ -346,7 +346,7 @@
   },
   "materiales": [
    "Libro 한글학교 한국어 1 (Coreano de la Escuela de Hangul, tomo 1): se trabajan 가나다라 I–II y las lecciones 1 a 9, más el repaso integral de la lección 10",
-   "Lector de Hangul (academiaseul.com/lector-hangul): app gratuita con audio nativo; pestañas Alfabeto, Aprender, Practicar (Vocales, Consonantes, Aspiradas y tensas, Sílabas, Batchim, Palabras, Números, Pictogramas, Contrarreloj, en modos Lectura, Escucha e Inversa) y Progreso",
+   "Lector de Hangul (academiaseul.com/lector-coreano): app gratuita con audio nativo; pestañas Alfabeto, Aprender, Practicar (Vocales, Consonantes, Aspiradas y tensas, Sílabas, Batchim, Palabras, Números, Pictogramas, Contrarreloj, en modos Lectura, Escucha e Inversa) y Progreso",
    "Deck de cada sesión con la plantilla trilingüe de la casa (ES/KO/EN) + hoja de actividad por lección con el quiz de la semana",
    "Grabación de cada clase en Zoom, disponible 24 horas después",
    "Flashcards digitales de familia, lugares, verbos y gustos (semanas 4 a 8)",
@@ -712,7 +712,7 @@
    "Uso de la gramática coreana · Nivel inicial (Korean Grammar in Use · Beginning, edición en español): unidades Fundamentos 01–05, Tiempos 01–04, Negación 01–03, Partículas (05, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17), Enumeración y contraste 01–03 y Habilidad 01",
    "Deck trilingüe ES/KO/EN de cada sesión (PDF en el grupo después de la clase)",
    "Hojas de actividad 1–7 (una por sesión) + hoja de partículas en formato examen",
-   "Lector de Hangul (academiaseul.com/lector-hangul, gratuito, con audio nativo): Practicar → Sílabas, Batchim, Números, Palabras y Contrarreloj como tarea corta semanal, con las estrellas en la pestaña Progreso",
+   "Lector de Hangul (academiaseul.com/lector-coreano, gratuito, con audio nativo): Practicar → Sílabas, Batchim, Números, Palabras y Contrarreloj como tarea corta semanal, con las estrellas en la pestaña Progreso",
    "Grabación de cada clase disponible 24 horas después",
    "Grupo de el grupo de WhatsApp del curso del curso para tareas de audio, mini-diario y dudas entre clases",
    "Examen A2 de la casa en línea + rúbrica de evaluación oral",
@@ -1460,10 +1460,10 @@
  {
   "cursoId": "ninos",
   "codigo": "KOR 050",
-  "nombre": "Coreano para Niños (8–12) · Juega y aprende",
-  "descripcion": "Coreano desde cero para niños y niñas de 8 a 12 años, con juegos, canciones y dibujos. En 8 clases en vivo por Zoom de 60 minutos con dos profes nativos, aprenden a leer el 한글 (alfabeto coreano), presentarse con nombre y edad, contar del 1 al 10 y nombrar animales, familia y comidas coreanas. La actividad cambia cada 8–10 minutos para sostener la atención, y cada semana la familia recibe una nota con qué repasar en el Lector de Hangul. Cierre: mini-show en coreano para las familias y certificado.",
-  "perfil_alumno": "Niños y niñas de 8 a 12 años, hispanohablantes, sin conocimientos previos de coreano (o solo palabras sueltas de K-pop y dramas). Curiosos, con ganas de jugar, cantar y dibujar, y con un adulto en casa que pueda acompañar los 20 minutos de tarea y recibir la nota semanal por WhatsApp. Ideal si en casa se ve K-drama o se escucha K-pop y el niño quiere \"entender lo que dicen\".",
-  "requisito_entrada": "Ninguno: se parte desde cero absoluto. Requisitos prácticos: tener entre 8 y 12 años, computador o tablet con cámara y micrófono, un lugar tranquilo durante la clase, hojas y lápices de colores a mano, y un adulto responsable que gestione el WhatsApp de la familia (envío de tareas, nota semanal y permisos para el show final).",
+  "nombre": "Coreano para Niños (8–15) · Juega y aprende",
+  "descripcion": "Coreano desde cero para niños y niñas de 8 a 15 años, con juegos, canciones y dibujos. En 8 clases en vivo por Zoom de 60 minutos con dos profes nativos, aprenden a leer el 한글 (alfabeto coreano), presentarse con nombre y edad, contar del 1 al 10 y nombrar animales, familia y comidas coreanas. La actividad cambia cada 8–10 minutos para sostener la atención, y cada semana la familia recibe una nota con qué repasar en el Lector de Hangul. Cierre: mini-show en coreano para las familias y certificado.",
+  "perfil_alumno": "Niños y niñas de 8 a 15 años, hispanohablantes, sin conocimientos previos de coreano (o solo palabras sueltas de K-pop y dramas). Curiosos, con ganas de jugar, cantar y dibujar, y con un adulto en casa que pueda acompañar los 20 minutos de tarea y recibir la nota semanal por WhatsApp. Ideal si en casa se ve K-drama o se escucha K-pop y el niño quiere \"entender lo que dicen\".",
+  "requisito_entrada": "Ninguno: se parte desde cero absoluto. Requisitos prácticos: tener entre 8 y 15 años, computador o tablet con cámara y micrófono, un lugar tranquilo durante la clase, hojas y lápices de colores a mano, y un adulto responsable que gestione el WhatsApp de la familia (envío de tareas, nota semanal y permisos para el show final).",
   "objetivos": [
    "Leer en voz alta sílabas y palabras sencillas en 한글 (alfabeto coreano): vocales y consonantes básicas y los batchim más frecuentes.",
    "Saludar, despedirse y agradecer en coreano con la pequeña reverencia que corresponde.",
@@ -1784,11 +1784,11 @@
    "tareas": "Tarea corta y lúdica (≈ 20 minutos, 3 o 4 días a la semana, unas 2 horas semanales en total): un drill del Lector de Hangul con la pestaña exacta, un dibujo o manualidad, y un audio o video de 10–30 segundos que envía la familia por WhatsApp. Jay o Abby responden con un comentario de voz antes de la siguiente clase.",
    "examen_final": "Show final en la clase 8, sin examen escrito. Tres partes por niño (3 minutos en total, dentro de la clase de 60 minutos): (1) presentación oral de 30–40 segundos ante las familias con saludo, nombre, edad, familia, animal y comida favorita; (2) lectura en voz alta de 5 palabras en 한글 elegidas al azar entre las del curso; (3) 5 preguntas de comprensión con dibujos (señalar el animal, la comida o el número que dice el profe).",
    "oral": "Evaluación continua en las salas de taller: cada semana Jay o Abby registran 3 indicadores por niño (entiende la instrucción en coreano, repite con buena pronunciación, produce la frase solo). El show final vale como evaluación oral de cierre; se valora que se entienda y se atreva a hablar, no la perfección gramatical.",
-   "certificado": "Certificado 'Coreano para Niños (8–12) · Academia Seúl' para quien asista al menos al 75 % de las clases (6 de 8, la grabación no reemplaza la asistencia) y complete el show final con al menos el 60 % de los logros del tablero: leer sus primeras palabras, presentarse con nombre y edad, contar del 1 al 10 y nombrar animales, familia y comidas. Se entrega en pantalla en la clase 8 y en PDF a la familia."
+   "certificado": "Certificado 'Coreano para Niños (8–15) · Academia Seúl' para quien asista al menos al 75 % de las clases (6 de 8, la grabación no reemplaza la asistencia) y complete el show final con al menos el 60 % de los logros del tablero: leer sus primeras palabras, presentarse con nombre y edad, contar del 1 al 10 y nombrar animales, familia y comidas. Se entrega en pantalla en la clase 8 y en PDF a la familia."
   },
   "materiales": [
    "Material propio Academia Seúl: láminas ilustradas por sesión (PDF para imprimir o ver en pantalla), cartones de bingo, tarjetas de letras y plantilla del guion del show final.",
-   "Lector de Hangul (academiaseul.com/lector-hangul), gratis y con audio nativo: pestañas Alfabeto, Aprender, Practicar (Vocales, Consonantes, Sílabas, Batchim, Palabras, Números, Pictogramas, ⚡ Contrarreloj) y Progreso.",
+   "Lector de Hangul (academiaseul.com/lector-coreano), gratis y con audio nativo: pestañas Alfabeto, Aprender, Practicar (Vocales, Consonantes, Sílabas, Batchim, Palabras, Números, Pictogramas, ⚡ Contrarreloj) y Progreso.",
    "Canciones propias de saludo, familia y números, con letra en 한글 y español (audio en la nota semanal).",
    "Tablero de stickers de progreso (PDF imprimible) y nota semanal a la familia por WhatsApp con qué aprendimos, qué repasar y una frase para practicar en casa.",
    "Kit de casa: hojas blancas, lápices de colores, tijeras y pegamento; peluches o juguetes de animales (semana 4) y una foto o dibujo de la familia (semana 5).",

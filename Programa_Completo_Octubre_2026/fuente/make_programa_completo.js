@@ -80,10 +80,10 @@ function semanaRango(w, L) {
 
 const T = require("./textos_generales.js");
 
-const NOMBRE = { es: { a11: "Básico 1 (A1.1)", a12: "Básico 2 (A1.2)", a21: "Conversacional 1 (A2.1)", topik2: "TOPIK II (B1+)", ninos: "Coreano para Niños (8–12)" }, en: { a11: "Basic 1 (A1.1)", a12: "Basic 2 (A1.2)", a21: "Conversational 1 (A2.1)", topik2: "TOPIK II (B1+)", ninos: "Korean for Kids (8–12)" } };
+const NOMBRE = { es: { a11: "Básico 1 (A1.1)", a12: "Básico 2 (A1.2)", a21: "Conversacional 1 (A2.1)", topik2: "TOPIK II (B1+)", ninos: "Coreano para Niños (8–15)" }, en: { a11: "Basic 1 (A1.1)", a12: "Basic 2 (A1.2)", a21: "Conversational 1 (A2.1)", topik2: "TOPIK II (B1+)", ninos: "Korean for Kids (8–15)" } };
 const SUB = { es: { a11: "Primeras Palabras", a12: "Pasado, presente y futuro", a21: "Corea que amas", topik2: "Estrategia de examen", ninos: "Juega y aprende" }, en: { a11: "First Words", a12: "Past, present and future", a21: "The Korea you love", topik2: "Exam strategy", ninos: "Play and learn" } };
 const CODIGO = { a11: "KOR 101", a12: "KOR 102", a21: "KOR 201", topik2: "KOR 301", ninos: "KOR 050" };
-const REQ = { es: { a11: "Ninguno — desde cero", a12: "Básico 1 (A1.1) o el Nivel 1 de julio", a21: "Básico 2 (A1.2) o test de nivel", topik2: "Nivel intermedio (B1)", ninos: "Ninguno — 8 a 12 años" }, en: { a11: "None — from scratch", a12: "Basic 1 (A1.1) or July’s Level 1", a21: "Basic 2 (A1.2) or placement test", topik2: "Intermediate level (B1)", ninos: "None — ages 8 to 12" } };
+const REQ = { es: { a11: "Ninguno — desde cero", a12: "Básico 1 (A1.1) o el Nivel 1 de julio", a21: "Básico 2 (A1.2) o test de nivel", topik2: "Nivel intermedio (B1)", ninos: "Ninguno — 8 a 15 años" }, en: { a11: "None — from scratch", a12: "Basic 1 (A1.1) or July’s Level 1", a21: "Basic 2 (A1.2) or placement test", topik2: "Intermediate level (B1)", ninos: "None — ages 8 to 15" } };
 const ORDEN = ["a11", "a12", "a21", "topik2", "ninos"];
 const chileTxt = { es: "hora Chile", en: "Chile time" };
 const horarioCurso = (id, L) => D.CLASES.filter((c) => c.cursoId === id).map((c) => `${DIA_FULL[L][c.dia]} ${c.horaChile}`).join(L === "es" ? " o " : " or ") + " · " + chileTxt[L];
@@ -119,7 +119,7 @@ function build(L, cursos) {
   ch.push(H1(t.secciones[1])); ch.push(P(run(t.metodoIntro)));
   t.metodo.forEach((m) => ch.push(bullet([run(m[0] + ": ", { bold: true }), run(m[1])])));
   ch.push(H1(t.secciones[2])); ch.push(P(run(t.escaleraIntro)));
-  ch.push(headTable(t.escaleraCols, ORDEN.map((id) => [CODIGO[id], `${NOMBRE[L][id]} · ${SUB[L][id]}`, id === "ninos" ? "8–12" : D.cursoPorId(id).cefr, REQ[L][id], horarioCurso(id, L).replace(" · " + chileTxt[L], ""), D.profeDe(D.CLASES.find((c) => c.cursoId === id).profeId).corto, String(cupoCurso(id))]), [900, 2600, 700, 2000, 1700, 900, 560], 18));
+  ch.push(headTable(t.escaleraCols, ORDEN.map((id) => [CODIGO[id], `${NOMBRE[L][id]} · ${SUB[L][id]}`, id === "ninos" ? "8–15" : D.cursoPorId(id).cefr, REQ[L][id], horarioCurso(id, L).replace(" · " + chileTxt[L], ""), D.profeDe(D.CLASES.find((c) => c.cursoId === id).profeId).corto, String(cupoCurso(id))]), [900, 2600, 700, 2000, 1700, 900, 560], 18));
   ch.push(espacio(60)); ch.push(P(run(t.ninosNota, { size: 20, color: GREY }))); ch.push(P(run(t.conv2, { size: 20, color: GREY })));
   ch.push(H1(t.secciones[3])); ch.push(P(run(t.calIntro)));
   const f = { Lunes: fechas("Lunes", L), Martes: fechas("Martes", L), "Miércoles": fechas("Miércoles", L), Jueves: fechas("Jueves", L) };
@@ -151,7 +151,7 @@ function build(L, cursos) {
     ch.push(H1(`${CODIGO[id]} · ${NOMBRE[L][id]} · ${SUB[L][id]}`));
     ch.push(P(run(c.descripcion)));
     ch.push(H2(t.ficha));
-    ch.push(kvTable([[t.fichaRows[0], CODIGO[id]], [t.fichaRows[1], id === "ninos" ? (L === "es" ? "Niños de 8 a 12 años" : "Kids aged 8 to 12") : "CEFR " + D.cursoPorId(id).cefr], [t.fichaRows[2], horarioCurso(id, L)], [t.fichaRows[3], profeCurso(id)], [t.fichaRows[4], c.requisito_entrada || REQ[L][id]], [t.fichaRows[5], String(cupoCurso(id)) + (clases.length > 1 ? (L === "es" ? " por sección" : " per section") : "")], [t.fichaRows[6], D.cursoPorId(id).libro], [t.fichaRows[7], dias.map((d) => fechas(d, L)[0] + " → " + fechas(d, L)[7]).join(" · ")]]));
+    ch.push(kvTable([[t.fichaRows[0], CODIGO[id]], [t.fichaRows[1], id === "ninos" ? (L === "es" ? "Niños de 8 a 15 años" : "Kids aged 8 to 15") : "CEFR " + D.cursoPorId(id).cefr], [t.fichaRows[2], horarioCurso(id, L)], [t.fichaRows[3], profeCurso(id)], [t.fichaRows[4], c.requisito_entrada || REQ[L][id]], [t.fichaRows[5], String(cupoCurso(id)) + (clases.length > 1 ? (L === "es" ? " por sección" : " per section") : "")], [t.fichaRows[6], D.cursoPorId(id).libro], [t.fichaRows[7], dias.map((d) => fechas(d, L)[0] + " → " + fechas(d, L)[7]).join(" · ")]]));
     ch.push(H2(t.perfil)); ch.push(P(run(c.perfil_alumno)));
     ch.push(H2(t.objetivos)); c.objetivos.forEach((o) => ch.push(bullet(o)));
     ch.push(H2(t.estructura)); ch.push(headTable(t.estructuraCols, c.estructura_clase.map((b) => [b.minutos, b.bloque, b.detalle]), [1200, 2200, 5960]));

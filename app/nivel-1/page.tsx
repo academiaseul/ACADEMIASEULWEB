@@ -24,6 +24,10 @@ import {
   PAYPAL_LINK_MENSUAL,
   HOTMART_LINK_UNICO,
   HOTMART_LINK_MENSUAL,
+  MP_LINK_UNICO,
+  MP_LINK_MENSUAL,
+  CLP_UNICO,
+  CLP_MENSUAL,
   WHATSAPP,
   CLASES,
   cursoDe,
@@ -34,7 +38,6 @@ import {
 
 type Plan = "unico" | "mensual";
 const RESERVA_KEY = "asReserva";
-const CLP_REF = 950; // referencia CLP/USD para mostrar monto aproximado
 
 export default function Nivel1Page() {
   const [selectedClase, setSelectedClase] = useState<ClaseId>("a11-martes");
@@ -59,6 +62,7 @@ export default function Nivel1Page() {
   const [payLoading, setPayLoading] = useState(false);
   const [pagoStatus, setPagoStatus] = useState<string | null>(null);
   const [avisoPayPal, setAvisoPayPal] = useState(false);
+  const [avisoMP, setAvisoMP] = useState(false);
 
   const clase = CLASES.find((c) => c.id === selectedClase) ?? CLASES[0];
   const curso = cursoDe(clase);
@@ -209,13 +213,15 @@ export default function Nivel1Page() {
     }
   };
 
-  // Pago con tarjeta vía Mercado Pago (checkout dinámico con datos del alumno)
+  // Pago con Mercado Pago: link fijo (lib/nivel1.ts) o checkout dinámico con datos del alumno
   const pagarConTarjeta = async () => {
     if (!submitted || !form.nombre || !form.correo) {
       setFormError(t("Primero completa tus datos arriba para reservar tu cupo."));
       document.getElementById("inscripcion")?.scrollIntoView({ behavior: "smooth" });
       return;
     }
+    const linkFijo = plan === "unico" ? MP_LINK_UNICO : MP_LINK_MENSUAL;
+    if (linkFijo) { window.open(linkFijo, "_blank", "noopener"); setAvisoMP(true); return; }
     setPayLoading(true);
     try {
       const res = await fetch("/api/checkout", {
@@ -257,7 +263,7 @@ export default function Nivel1Page() {
   const waLink = (msg: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
   const waTransfer = waLink(t("Hola Jay! Quiero {verbo} en {curso} ({dia} {hora} Chile) con {plan}. ¿Me pasas los datos para la transferencia?", { verbo, curso: t(curso.nombreCorto), dia: t(clase.dia), hora: clase.horaChile, plan: planLabel }));
   const waPayPalMensual = waLink(t("Hola Jay! Estoy fuera de Chile y quiero pagar {curso} en {n} cuotas de US${m}. ¿Me envías el link de PayPal?", { curso: t(curso.nombreCorto), n: MESES, m: PRECIO_MENSUAL }));
-  const clpRef = (usd: number) => t("${clp} CLP aprox.", { clp: (usd * CLP_REF).toLocaleString("es-CL") });
+  const clpRef = (usd: number) => t("${clp} CLP", { clp: (usd === PRECIO_UNICO ? CLP_UNICO : CLP_MENSUAL).toLocaleString("es-CL") });
 
   const faqs = [
     { q: t("¿Las clases son en vivo o grabadas?"), a: t("En vivo por Zoom (60 min cada una). Si te pierdes alguna, recibes la grabación dentro de las 24 horas y puedes escribirnos para resolver dudas de esa clase.") },
@@ -319,7 +325,7 @@ export default function Nivel1Page() {
             <span className="block text-2xl md:text-3xl mb-3 opacity-80">한국어 수업</span>
             {t("Matrícula octubre 2026")}
           </h1>
-          <p className="text-lg md:text-xl mt-4 max-w-2xl mx-auto opacity-90">{t("De Básico 1 a TOPIK II, y Coreano para Niños de 8 a 12 — elige tu clase.")}</p>
+          <p className="text-lg md:text-xl mt-4 max-w-2xl mx-auto opacity-90">{t("De Básico 1 a TOPIK II, y Coreano para Niños de 8 a 15 — elige tu clase.")}</p>
           <p className="text-base mt-3 max-w-2xl mx-auto opacity-80">{t("8 semanas desde {inicio} · 1 clase en vivo por semana · 60 min · {precio} · certificado incluido", { inicio: t(INICIO_SEMANA), precio: t(precioLabel()) })}</p>
 
           <div className="mt-8 inline-block bg-white/10 backdrop-blur rounded-2xl px-6 py-4">
@@ -607,9 +613,9 @@ export default function Nivel1Page() {
                   </div>
                   <p className="text-center text-xs text-gray-400 pt-2">{t("o paga al instante con")}</p>
                   <button type="button" onClick={pagarConTarjeta} disabled={payLoading} className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition disabled:opacity-60">
-                    {payLoading ? t("Abriendo pago seguro…") : t("💳 Tarjeta de crédito / débito · Mercado Pago ({plan})", { plan: planLabel })}
+                    {payLoading ? t("Abriendo pago seguro…") : t("💳 Tarjeta o transferencia · Mercado Pago ({plan})", { plan: planLabel })}
                   </button>
-                  <p className="text-center text-xs text-gray-500 -mt-1">{t("Visa, Mastercard y débito · se cobra el equivalente en CLP. Reserva tu cupo arriba antes de pagar.")}</p>
+                  <p className="text-center text-xs text-gray-500 -mt-1">{t("{clp} · crédito, débito o transferencia, sin cuenta. Reserva tu cupo arriba antes de pagar.", { clp: plan === "unico" ? clpRef(PRECIO_UNICO) : clpRef(PRECIO_MENSUAL) })}</p>
                   <BotonPayPal plan={plan} onClick={() => setAvisoPayPal(true)} waMensual={waPayPalMensual} relleno={false} />
                 </>
               ) : (
@@ -629,6 +635,11 @@ export default function Nivel1Page() {
                 </>
               )}
 
+              {avisoMP && (
+                <div className="rounded-2xl bg-[#FFF8E6] border border-[#F2E2A8] p-4 text-sm text-yellow-900 text-center">
+                  <Tr k="Cuando termines en Mercado Pago, vuelve a esta pestaña: tu cupo queda reservado con los datos de arriba y te confirmamos por WhatsApp." />
+                </div>
+              )}
               {avisoPayPal && (
                 <div className="rounded-2xl bg-[#FFF8E6] border border-[#F2E2A8] p-4 text-sm text-yellow-900 text-center">
                   <Tr k="Cuando termines en PayPal, vuelve a esta pestaña y toca **“Ya pagué con PayPal”** para que reservemos tu cupo." />

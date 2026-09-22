@@ -22,7 +22,8 @@ const navLinks: NavLink[] = [
     href: '/recursos',
     children: [
       { label: i18n('Dubu · el puzzle del Hangul (nuevo)'), href: '/dubu' },
-      { label: i18n('Lector de Hangul 🐯'), href: '/lector-hangul'   },
+      { label: i18n('Lector de Hangul 🐯'), href: '/lector-coreano'   },
+      { label: i18n('Taller gratis de Hangul (video)'), href: '/taller' },
       { label: i18n('Test de nivel'),         href: '/test-nivel'            },
       { label: i18n('Guías'),                 href: '/recursos/guias'        },
       { label: i18n('Pronunciación coreana'), href: '/recursos/pronunciacion' },

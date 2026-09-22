@@ -241,7 +241,7 @@ export default function HangulPost() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/lector-hangul"
+              href="/lector-coreano"
               className="bg-[#E8B84B] text-seoul-black font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
               Lector de Hangul gratis →

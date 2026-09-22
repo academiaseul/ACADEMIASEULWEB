@@ -17,7 +17,7 @@ const cursoLabels: Record<string, { nombre: string; korean: string }> = {
   nivel1:        { nombre: i18n("Básico 1 (A1.1)"),           korean: "첫 한국어" },
   basico2:       { nombre: i18n("Básico 2 (A1.2)"),           korean: "기초 한국어 2" },
   conversacional:{ nombre: i18n("Conversacional 1 (A2.1)"),   korean: "회화 A2.1" },
-  ninos:         { nombre: i18n("Coreano para Niños (8–12)"), korean: "어린이 한국어" },
+  ninos:         { nombre: i18n("Coreano para Niños (8–15)"), korean: "어린이 한국어" },
   topik:         { nombre: i18n("TOPIK II (B1+)"),            korean: "토픽 II 준비반" },
   conversacion:  { nombre: i18n("Conversacional 2 (A2.2)"),   korean: "회화 A2.2" },
   general:       { nombre: i18n("los próximos cursos"),   korean: "다음 강의" },
@@ -308,7 +308,7 @@ function NotificarmeForm() {
           {t("¿Quieres empezar YA? Aprende a leer coreano gratis con el Lector de Hangul:")}
         </p>
         <a
-          href="/lector-hangul"
+          href="/lector-coreano"
           className="inline-flex items-center gap-2 px-6 py-3 border border-seoul-red text-seoul-red hover:bg-seoul-red hover:text-white font-semibold rounded-lg transition-all duration-300 text-sm"
         >
           {t("🐯 Lector de Hangul — gratis con audio nativo →")}

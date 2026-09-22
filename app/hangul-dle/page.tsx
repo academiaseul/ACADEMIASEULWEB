@@ -324,7 +324,7 @@ export default function HangulDle() {
               Todo este vocabulario (y mucho más) se ve paso a paso en nuestras clases en vivo, desde cero.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="/lector-hangul" className="px-7 py-3.5 rounded-full font-bold" style={{ backgroundColor: '#E8B84B', color: '#0D0D0D' }}>
+              <a href="/lector-coreano" className="px-7 py-3.5 rounded-full font-bold" style={{ backgroundColor: '#E8B84B', color: '#0D0D0D' }}>
                 Lector de Hangul gratis →
               </a>
               <a href="/nivel-1#clases" className="px-7 py-3.5 rounded-full font-bold bg-seoul-red text-white">

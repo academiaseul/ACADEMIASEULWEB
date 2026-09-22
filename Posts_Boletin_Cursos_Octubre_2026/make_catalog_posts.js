@@ -113,7 +113,7 @@ function cursoPage(c) {
   ${top(c.cefr === "Niños" ? "Niños" : c.cefr)}
   <div class="code-row">
     <div class="code">${c.code}</div>
-    <div class="tags"><div class="tag fill">${c.cefr === "Niños" ? "8–12 años" : "Nivel " + c.cefr}</div><div class="tag">${c.secciones}</div></div>
+    <div class="tags"><div class="tag fill">${c.cefr === "Niños" ? "8–15 años" : "Nivel " + c.cefr}</div><div class="tag">${c.secciones}</div></div>
   </div>
   <div class="title"><h1 style="font-size:${c.titleSize || 66}px">${c.nombre}</h1><div class="sub">${c.sub}</div><div class="ko">${c.ko}</div></div>
   <div class="meta">
@@ -143,7 +143,7 @@ function portada() {
     ["KOR 102", "Básico 2 · Pasado, presente y futuro", "A1.2", "Mié 21:00", "Jay"],
     ["KOR 201", "Conversacional 1 · Corea que amas", "A2.1", "Mar 21:00", "Abby"],
     ["KOR 301", "TOPIK II · Estrategia de examen", "B1+", "Jue 21:00", "Jay"],
-    ["KOR 050", "Coreano para Niños · Juega y aprende", "8–12", "Lun 18:00", "Jay y Abby"],
+    ["KOR 050", "Coreano para Niños · Juega y aprende", "8–15", "Lun 18:00", "Jay y Abby"],
     ["KOR 202", "Conversacional 2 · Corea por dentro", "A2.2", "Enero 2027", "—"],
   ];
   return HEAD + `<style>

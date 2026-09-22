@@ -49,7 +49,7 @@ Horario de envío: **10:00 Chile** entre semana (LATAM despierta, España media 
 |---|---|---|---|---|
 | **Jue 18 sep** | **L1 · Lanzamiento** | Segmento **P1** | `Email_Lanzamiento_Brevo.html` con asunto A. Ex-alumnos de julio: párrafo inicial de la variante 3 (Básico 2 es su siguiente paso). | 18 |
 | **Vie 19 sep** | **L1-b · Lanzamiento taller** | **P2 + P3** | Mismo HTML, cambiando la intro por la variante 4 ("nos conocimos en el taller… el Lector es gratis") | 79 |
-| **Mar 23 sep** | **L2 · Reto 7 días** | P2 + P3 + quienes de P1 **no abrieron** L1 | Reto #LeoCoreanoEn7Días (reglas + premio: 1 cupo) + invitación a la **clase abierta del sáb 27, 20:00 Chile**. Texto corto, un botón: "Empezar el reto" → `/lector-hangul` | ~85 |
+| **Mar 23 sep** | **L2 · Reto 7 días** | P2 + P3 + quienes de P1 **no abrieron** L1 | Reto #LeoCoreanoEn7Días (reglas + premio: 1 cupo) + invitación a la **clase abierta del sáb 27, 20:00 Chile**. Texto corto, un botón: "Empezar el reto" → `/lector-coreano` | ~85 |
 | **Vie 26 sep** | **L3 · Recordatorio clase abierta** | Todos los que **abrieron** L1 o L2 | 5 líneas: hora en 4 países + link de Instagram Live. | ~40 |
 | **Lun 5 oct** | **L4 · Última semana** | Todos menos inscritos | Testimonios de julio (7 citas de la web) + tabla de horarios + cupos reales por clase + botón "Reservar mi cupo" | ~95 |
 | **Jue 8 oct** | **L5 · Cierra el domingo** | Todos menos inscritos, **asunto distinto para quienes no abrieron nada** ("¿Todavía quieres aprender coreano?") | Correo corto y honesto de Jay, un botón, cierre domingo 4 | ~95 |

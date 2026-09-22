@@ -25,7 +25,7 @@ const ENTRADAS: { key: Entrada; label: string; cursoId: CursoId; frase: string }
   { key: "nivel1", label: i18n("Terminé el Nivel 1 de julio"), cursoId: "a12", frase: i18n("¿Fuiste alumno/a del Nivel 1 en julio? Ese curso hoy se llama Básico 1 (A1.1). Tu siguiente paso es Básico 2 (A1.2) · miércoles 21:00 Chile · con Jay.") },
   { key: "hablar", label: i18n("Quiero hablar"), cursoId: "a21", frase: i18n("Con Básico 2 terminado (o test de nivel), Conversacional 1 (A2.1) con la Prof.ª Abby: puro hablar con una nativa.") },
   { key: "topik", label: i18n("Voy por el TOPIK"), cursoId: "topik2", frase: i18n("Grupo de máximo 8 enfocado 100% en el examen oficial: TOPIK II (B1+) · jueves 21:00 Chile · con Jay.") },
-  { key: "ninos", label: i18n("Es para mi hijo/a"), cursoId: "ninos", frase: i18n("Coreano para Niños (8–12): lunes 18:00 Chile, juegos, canciones y un show final para la familia.") },
+  { key: "ninos", label: i18n("Es para mi hijo/a"), cursoId: "ninos", frase: i18n("Coreano para Niños (8–15): lunes 18:00 Chile, juegos, canciones y un show final para la familia.") },
 ];
 
 export default function Escalera({

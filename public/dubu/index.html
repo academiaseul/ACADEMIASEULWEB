@@ -6,6 +6,12 @@
 <title>Dubu · 두부 — el puzzle del Hangul de Academia Seúl</title>
 <meta name="description" content="Dubu (두부): combina consonante + vocal en el tablero y forma la palabra que lees o escuchas. Aprende a leer coreano jugando, con voz nativa. Gratis, de Academia Seúl.">
 <meta name="theme-color" content="#3D2EE8">
+<link rel="canonical" href="https://www.academiaseul.com/dubu">
+<meta property="og:title" content="Dubu · 두부 — el puzzle del Hangul · Academia Seúl">
+<meta property="og:description" content="Combina consonante + vocal y forma la palabra que lees o escuchas. Aprende a leer coreano jugando, con voz nativa. Gratis.">
+<meta property="og:image" content="https://www.academiaseul.com/og-image.png">
+<meta property="og:url" content="https://www.academiaseul.com/dubu">
+<meta property="og:type" content="website">
 <link rel="icon" href="/dubu/tigre.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +51,7 @@ a{color:var(--azul-txt)}
 #splash{align-items:center;justify-content:center;text-align:center;padding:32px 20px;gap:16px}
 #splash .tigre{width:150px;height:150px}
 #splash{position:relative}
-#splash .logo{font-size:56px;font-weight:900;letter-spacing:-.02em;line-height:1;color:var(--azul-txt)}
+#splash .logo{margin:0;font-size:56px;font-weight:900;letter-spacing:-.02em;line-height:1;color:var(--azul-txt)}
 #splash .logo small{font-size:22px;font-weight:700;color:var(--muted);margin-left:8px}
 #splash .tag{color:var(--muted);max-width:300px;font-size:16px;line-height:1.5;margin:0}
 #splash .fine{font-size:12px;color:var(--muted)}
@@ -193,25 +199,50 @@ a{color:var(--azul-txt)}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--txt);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;z-index:60;animation:aparece .2s;max-width:90%}
 @media (max-height:700px){.cube{width:64px;height:64px;font-size:36px}.tile{height:88px}.g3 .tile{height:78px}.tablero.g3{grid-template-columns:repeat(3,78px)}}
 @media (min-width:481px){.app{padding-top:8px}#nivel{height:auto;min-height:100dvh}}
-.sitio{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:var(--muted);padding:6px 0 0;flex-wrap:wrap}
-.sitio a{color:var(--muted);text-decoration:none;font-weight:600}
-.sitio a.marca{color:var(--azul-txt);font-weight:800;letter-spacing:.02em}
-.sitio a:hover{color:var(--azul-txt)}
-.sitio .links{display:flex;gap:12px}
-#splash .sitio{width:100%;position:absolute;left:0;top:0;padding:12px 16px 0}
-.pie{margin-top:auto;padding:22px 0 12px;border-top:1px solid var(--border);font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px;text-align:center}
-.pie .links{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center}
-.pie a{color:var(--azul-txt);text-decoration:none;font-weight:600}
+#splash /* Cabecera y pie de academiaseul.com (misma interfaz que el Lector) */
+.site-top{background:var(--card);border-bottom:1px solid var(--border)}
+.site-top .in{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:18px;padding:10px 16px}
+.site-top img{display:block}
+.site-top .logo{display:flex;align-items:center;gap:10px;margin-right:auto;text-decoration:none}
+.site-top a.lnk{color:var(--muted);text-decoration:none;font-weight:700;font-size:.9rem}
+.site-top a.lnk:hover{color:var(--azul-txt)}
+.site-top .theme{width:34px;height:34px;border-radius:9px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px}
+.site-top .theme:hover{color:var(--azul-txt);border-color:var(--azul-txt)}
+@media (max-width:480px){ .site-top .wordmark{display:none} .site-top .in{gap:14px} }
+.site-foot{background:#0a0a0f;color:rgba(255,255,255,.5);margin-top:40px;font-size:.88rem}
+.site-foot .in{max-width:960px;margin:0 auto;padding:34px 16px 26px;display:flex;flex-direction:column;gap:18px}
+.site-foot .brandrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.site-foot .tag{color:#fafaf5;font-weight:700}
+.site-foot .tag b{color:#8B85FF}
+.site-foot nav{display:flex;flex-wrap:wrap;gap:6px 18px}
+.site-foot nav a{color:rgba(255,255,255,.55);text-decoration:none;font-weight:600}
+.site-foot nav a:hover{color:#fafaf5}
+.site-foot .social{display:flex;gap:10px}
+.site-foot .social a{width:36px;height:36px;border:1px solid rgba(255,255,255,.12);border-radius:9px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.55)}
+.site-foot .social a:hover{color:#8B85FF;border-color:#8B85FF}
+.site-foot .copy{border-top:1px solid rgba(255,255,255,.08);padding-top:14px;font-size:.78rem;color:rgba(255,255,255,.3)}
 </style>
 </head>
 <body>
+<nav class="site-top" aria-label="Academia Seúl">
+  <div class="in">
+    <a class="logo" href="/" aria-label="Volver a academiaseul.com">
+      <img src="/logo-tiger-red.png" alt="" style="height:36px;width:36px;object-fit:contain">
+      <img class="wordmark" src="/logo-text-red.png" alt="Academia Seúl" style="height:24px;width:auto;object-fit:contain">
+    </a>
+    <a class="lnk" href="/">Inicio</a>
+    <a class="lnk" href="/lector-coreano">Lector</a>
+    <a class="lnk" href="/recursos">Recursos</a>
+    <a class="lnk" href="/nivel-1">Cursos</a>
+    <button type="button" class="theme" id="btn-tema-top" aria-label="Modo noche" title="Modo noche">☾</button>
+  </div>
+</nav>
 <div class="app">
 
 <!-- Splash -->
 <section id="splash" class="screen on" aria-label="Inicio">
-  <nav class="sitio" aria-label="Academia Seúl"><a class="marca" href="/">← Academia Seúl</a><span class="links"><a href="/nivel-1">Cursos</a><a href="/lector-hangul">Lector</a><a href="/recursos">Recursos</a></span></nav>
   <span class="tigre" role="img" aria-label="Tigre de Academia Seúl"></span>
-  <div class="logo">Dubu<small class="kr">두부</small></div>
+  <h1 class="logo">Dubu<small class="kr">두부</small></h1>
   <p class="tag">Combina consonante + vocal y forma la palabra que lees… o la que escuchas.</p>
   <button class="btn big" id="btn-entrar">🔊 Toca para escuchar</button>
   <p class="fine">Gratis · sin cuenta · voz nativa · Academia Seúl</p>
@@ -219,7 +250,6 @@ a{color:var(--azul-txt)}
 
 <!-- Mapa -->
 <section id="mapa" class="screen" aria-label="Mapa de barrios">
-  <nav class="sitio" aria-label="Academia Seúl"><a class="marca" href="/">← Academia Seúl</a><span class="links"><a href="/nivel-1">Cursos</a><a href="/lector-hangul">Lector</a><a href="/recursos">Recursos</a></span></nav>
   <div class="top">
     <div class="brand"><span class="tigre" aria-hidden="true"></span><span>Dubu</span><small class="kr">두부</small></div>
     <div style="display:flex;gap:4px">
@@ -241,10 +271,6 @@ a{color:var(--azul-txt)}
       <li>ㅇ al inicio es muda: 아 = ㅇ + ㅏ. Abajo suena "ng".</li>
     </ol>
   </div>
-  <footer class="pie">
-    <div class="links"><a href="/">Inicio</a><a href="/nivel-1">Inscripción octubre 2026</a><a href="/programa">Programa</a><a href="/lector-hangul">Lector de Hangul</a><a href="/recursos">Recursos</a><a href="https://wa.me/56942115562" target="_blank" rel="noopener">WhatsApp</a></div>
-    <div>Dubu · 두부 es gratis y sin cuenta · © 2026 Academia Seúl · Santiago, Chile · clases online por Zoom</div>
-  </footer>
 </section>
 
 <!-- Nivel -->
@@ -437,7 +463,7 @@ let P={niveles:{},oido:{},roman:true,tutos:{},saltado:false,voz:'sunhi'};
 function cargaP(){try{const j=JSON.parse(localStorage.getItem(PKEY)||'null');if(j&&j.niveles)P=Object.assign(P,j);}catch(e){}}
 function guardaP(){try{localStorage.setItem(PKEY,JSON.stringify(P));}catch(e){}}
 function tema(){try{return localStorage.getItem('as-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch(e){return 'light';}}
-function aplicaTema(t){document.documentElement.dataset.theme=t;try{localStorage.setItem('as-theme',t);}catch(e){}for(const b of document.querySelectorAll('#btn-tema,#btn-tema-mapa'))b.textContent=t==='dark'?'☀':'☾';}
+function aplicaTema(t){document.documentElement.dataset.theme=t;try{localStorage.setItem('as-theme',t);}catch(e){}for(const b of document.querySelectorAll('#btn-tema,#btn-tema-mapa,#btn-tema-top'))b.textContent=t==='dark'?'☀':'☾';}
 const mundoHecho=n=>MUNDOS[n-1].niveles.every(l=>P.niveles[l.id]);
 const mundoAbierto=n=>n===1||mundoHecho(n-1)||(P.saltado&&n<=3);
 const cubitosMundo=n=>MUNDOS[n-1].niveles.reduce((a,l)=>a+((P.niveles[l.id]&&P.niveles[l.id].cubitos)||0),0);
@@ -615,7 +641,7 @@ function abreNivel(n){cancelaCola();S=nuevoEstado(n);burbujaTxt=null;muestra('ni
 function init(){cargaP();aplicaTema(tema());
   $('btn-entrar').addEventListener('click',()=>{audioCtx();cuajaCue();setTimeout(()=>speakQueue(['두','부'],120),250);preload(['두','부']);muestraMapa();});
   $('btn-mapa').addEventListener('click',muestraMapa);$('btn-album').addEventListener('click',muestraAlbum);$('btn-ajustes').addEventListener('click',muestraAjustes);$('btn-yase').addEventListener('click',yaSeLeer);
-  for(const id of ['btn-tema','btn-tema-mapa'])$(id).addEventListener('click',()=>aplicaTema(tema()==='dark'?'light':'dark'));
+  for(const id of ['btn-tema','btn-tema-mapa','btn-tema-top'])$(id)&&$(id).addEventListener('click',()=>aplicaTema(tema()==='dark'?'light':'dark'));
   let hold=null,largo=false;const u=$('btn-undo');
   u.addEventListener('pointerdown',()=>{largo=false;hold=setTimeout(()=>{largo=true;reiniciar();},1500);});
   u.addEventListener('pointerup',()=>{clearTimeout(hold);if(!largo)deshacer();});u.addEventListener('pointerleave',()=>clearTimeout(hold));
@@ -627,5 +653,33 @@ function init(){cargaP();aplicaTema(tema());
 }
 document.addEventListener('DOMContentLoaded',init);
 </script>
+
+<div class="site-foot">
+  <div class="in">
+    <div class="brandrow">
+      <img src="/logo-tiger-red.png" alt="" style="height:34px;width:34px;object-fit:contain">
+      <img src="/logo-text-red.png" alt="Academia Seúl" style="height:22px;width:auto;object-fit:contain">
+      <span class="tag" style="margin-left:8px">Aprende coreano con un <b>chingu</b>.</span>
+    </div>
+    <nav aria-label="Enlaces">
+      <a href="/">Inicio</a>
+      <a href="/nivel-1">Inscripción octubre 2026</a>
+      <a href="/programa">Programa</a>
+      <a href="/dubu">Dubu · el puzzle</a>
+      <a href="/lector-coreano">Lector de Hangul</a>
+      <a href="/taller">Taller gratis (video)</a>
+      <a href="/recursos">Recursos</a>
+      <a href="/blog">Blog</a>
+      <a href="/terminos">Términos</a>
+      <a href="/privacidad">Privacidad</a>
+    </nav>
+    <div class="social">
+      <a href="https://www.instagram.com/academiaseul/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+      <a href="https://www.youtube.com/@JayChingu.Oficial" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+      <a href="https://wa.me/56942115562" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></a>
+    </div>
+    <div class="copy">© 2026 Academia Seúl · Santiago, Chile · Clases online por Zoom · Dubu · 두부 es gratis y sin cuenta</div>
+  </div>
+</div>
 </body>
 </html>

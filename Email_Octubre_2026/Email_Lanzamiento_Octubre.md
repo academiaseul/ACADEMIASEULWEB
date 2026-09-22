@@ -28,7 +28,7 @@ Soy Jay (김재희), de Academia Seúl. Hace un tiempo me dejaste tus datos para
 
 🗓️ **Todas las clases parten la semana del 12 de octubre** · 8 semanas · 1 clase en vivo por semana (60 min) · horarios en hora de Chile:
 
-🧒 Coreano para Niños (8–12 años) — Lunes 18:00
+🧒 Coreano para Niños (8–15 años) — Lunes 18:00
 🌱 Básico 1 (A1.1) · Primeras Palabras — desde cero — Martes 20:00 o Jueves 20:00 · Prof.ª Kiran
 💬 Conversacional 1 (A2.1) · Corea que amas — Martes 21:00 · Prof.ª Abby (nativa, desde Corea)
 🚀 Básico 2 (A1.2) · Pasado, presente y futuro — Miércoles 21:00 · conmigo
@@ -98,7 +98,7 @@ Soy Jay, de Academia Seúl. Estuviste en nuestro taller gratuito y leíste tu pr
 Martes 20:00 o Jueves 20:00 hora Chile · con la Prof.ª Kiran (기란), coreana criada en Argentina — bilingüe perfecta.
 En 8 semanas: lees cualquier sílaba, te presentas, presentas a tu familia, cuentas en los dos sistemas de números, dices a dónde vas y qué te gusta.
 
-Y mientras decides, ya puedes practicar gratis con nuestro **Lector de Hangul** (audio de voz nativa, ejercicios que rotan): https://www.academiaseul.com/lector-hangul
+Y mientras decides, ya puedes practicar gratis con nuestro **Lector de Hangul** (audio de voz nativa, ejercicios que rotan): https://www.academiaseul.com/lector-coreano
 
 🗓️ Empieza la semana del 12 de octubre · 60 min por clase · certificado incluido
 💙 US$150 el curso completo, o 2 cuotas de US$75 · transferencia, tarjeta (Mercado Pago) o PayPal
@@ -120,7 +120,7 @@ Jay Kim (김재희) · Academia Seúl
 Te avisé que te escribiría cuando abriera la cohorte: *ya está abierta* 🎉
 
 🗓️ Clases desde la semana del 12 de octubre · 8 semanas · 60 min · hora Chile:
-🧒 Niños (8–12) — Lun 18:00
+🧒 Niños (8–15) — Lun 18:00
 🌱 Básico 1 (A1.1, desde cero) — Mar 20:00 o Jue 20:00
 💬 Conversacional 1 (A2.1, profe nativa) — Mar 21:00
 🚀 Básico 2 (A1.2) — Mié 21:00

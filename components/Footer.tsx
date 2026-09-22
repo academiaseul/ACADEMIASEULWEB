@@ -34,7 +34,8 @@ const footerLinks = [
     title: i18n('Gratis'),
     links: [
       { label: i18n('Dubu · el puzzle del Hangul'), href: '/dubu' },
-      { label: i18n('Lector de Hangul'),           href: '/lector-hangul' },
+      { label: i18n('Lector de Hangul'),           href: '/lector-coreano' },
+      { label: i18n('Taller gratis (video)'),        href: '/taller' },
       { label: i18n('Test de nivel'),              href: '/test-nivel' },
       { label: i18n('Guías y recursos'),           href: '/recursos' },
     ],

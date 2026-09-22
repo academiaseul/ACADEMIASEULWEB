@@ -195,7 +195,7 @@ export default function Privacidad() {
             <p>
               Nuestros cursos para adultos están dirigidos a personas de 14 años o más; entre
               14 y 18 años se requiere autorización de tu padre, madre o tutor. El curso
-              Coreano para Niños (8–12 años) se contrata exclusivamente a través del padre,
+              Coreano para Niños (8–15 años) se contrata exclusivamente a través del padre,
               madre o tutor, quien entrega sus propios datos de contacto y autoriza la
               participación del menor. No recopilamos datos de menores sin esa autorización.
             </p>

@@ -7,7 +7,7 @@ import clsx from 'clsx';
 import { useT, i18n } from '@/lib/i18n';
 
 const levels = [i18n('Desde cero (nunca estudié)'), i18n('Leo Hangul y me presento (Básico 1 hecho)'), i18n('Fui alumno/a del Nivel 1 de julio'), i18n('Converso algo (A2)'), i18n('Intermedio · voy por el TOPIK II'), i18n('No sé mi nivel')];
-const interests = [i18n('Básico 1 (A1.1) · desde cero'), i18n('Básico 2 (A1.2)'), i18n('Conversacional 1 (A2.1)'), i18n('TOPIK II (B1+)'), i18n('Coreano para Niños (8–12)'), i18n('K-pop / K-drama'), i18n('Viaje a Corea'), i18n('No sé, ayúdenme a elegir')];
+const interests = [i18n('Básico 1 (A1.1) · desde cero'), i18n('Básico 2 (A1.2)'), i18n('Conversacional 1 (A2.1)'), i18n('TOPIK II (B1+)'), i18n('Coreano para Niños (8–15)'), i18n('K-pop / K-drama'), i18n('Viaje a Corea'), i18n('No sé, ayúdenme a elegir')];
 
 const CONTACT_PHONE_DISPLAY = '+56 9 4211 5562';
 const CONTACT_EMAIL = 'hola.academiaseul@gmail.com';

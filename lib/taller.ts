@@ -6,10 +6,19 @@
 // cambia automáticamente a modo "próximo taller" con formulario de aviso.
 
 export const PROXIMO_TALLER = {
-  fechaISO: '2026-06-27T11:00:00-04:00' as string | null,
-  fechaLabel: 'Sábado 27 de Junio',
-  horaLabel: '11:00 hrs Chile · 16:00 España',
+  fechaISO: null as string | null, // sin taller en vivo anunciado (22 sept 2026): /taller muestra el grabado
+  fechaLabel: 'Por anunciar',
+  horaLabel: '',
   duracionMin: 90,
+};
+
+// 🎬 Taller grabado (clase completa de Hangul en YouTube, grabada en vivo). Se muestra en /taller
+// siempre que no haya un taller en vivo vigente. `start` = segundo donde empieza la clase.
+export const TALLER_GRABADO = {
+  youtubeId: 'zmbuLPcgfpw',
+  start: 2414,
+  titulo: 'Aprende a leer coreano desde cero · Clase completa de Hangul',
+  duracion: '≈ 60 min',
 };
 
 /** true si hay un taller anunciado que aún no termina */

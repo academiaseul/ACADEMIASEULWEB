@@ -5,7 +5,7 @@
   "nombre": "Basic 1 (A1.1) · First Words",
   "descripcion": "The starting point of the Academia Seúl ladder: in 8 weeks you learn to read the complete Korean alphabet and to say your first real sentences about yourself, your family, your home, your day and what you like, following the textbook 한글학교 한국어 1. Reading drills live in the Hangul Reader as homework with native audio, so the live hour is reserved for speaking and being corrected. It replaces the July 2026 Level 1 and leads directly into Basic 2 (A1.2).",
   "perfil_alumno": "Spanish-speaking adults and young people from Latin America and Spain starting from absolute zero, or who recognize a few letters and words from K-pop and K-dramas but still can't read with confidence or put a sentence together. Also those who took the July Level 1 without completing the reading portion and would rather consolidate before moving up to Basic 2 (A1.2). Groups of up to 15 people, camera on and willing to make mistakes out loud.",
-  "requisito_entrada": "None: the course starts from absolute zero, with no need to read Hangul or know a single word. You'll need a stable Zoom connection with camera and microphone, a notebook and pencil to trace the alphabet by hand, and to open the Hangul Reader (academiaseul.com/lector-hangul, free and no account needed) on your phone or computer before class 1.",
+  "requisito_entrada": "None: the course starts from absolute zero, with no need to read Hangul or know a single word. You'll need a stable Zoom connection with camera and microphone, a notebook and pencil to trace the alphabet by hand, and to open the Hangul Reader (academiaseul.com/lector-coreano, free and no account needed) on your phone or computer before class 1.",
   "objetivos": [
    "Read aloud any Korean syllable, including those ending in 받침 (final consonant), and write your name and the course words in Hangul",
    "Greet, say goodbye and introduce yourself with your name and country using 저는 N이에요/예요 (I am N), choosing the right form depending on whether there is a final consonant",
@@ -346,7 +346,7 @@
   },
   "materiales": [
    "Textbook 한글학교 한국어 1 (Hangul School Korean, volume 1): covers 가나다라 I–II and lessons 1 through 9, plus the comprehensive review in lesson 10",
-   "Hangul Reader (academiaseul.com/lector-hangul): free app with native audio; tabs Alphabet, Learn, Practice (Vowels, Consonants, Aspirated and tense, Syllables, Batchim, Words, Numbers, Pictograms, Time Trial, in Reading, Listening and Reverse modes) and Progress",
+   "Hangul Reader (academiaseul.com/lector-coreano): free app with native audio; tabs Alphabet, Learn, Practice (Vowels, Consonants, Aspirated and tense, Syllables, Batchim, Words, Numbers, Pictograms, Time Trial, in Reading, Listening and Reverse modes) and Progress",
    "A deck for each session using the house trilingual template (ES/KO/EN) + an activity worksheet per lesson with the week's quiz",
    "Zoom recording of each class, available 24 hours later",
    "Digital flashcards for family, places, verbs and likes (weeks 4 through 8)",
@@ -712,7 +712,7 @@
    "Korean Grammar in Use · Beginning (Spanish edition: Uso de la gramática coreana · Nivel inicial): units Fundamentals 01–05, Tenses 01–04, Negation 01–03, Particles (05, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17), Listing and contrast 01–03 and Ability 01",
    "Trilingual ES/KO/EN slide deck for each session (PDF in the group after class)",
    "Activity worksheets 1–7 (one per session) + particle worksheet in exam format",
-   "Hangul Reader (academiaseul.com/lector-hangul, free, with native audio): Practice → Syllables, Batchim, Numbers, Words and Time Trial as short weekly homework, with stars in the Progress tab",
+   "Hangul Reader (academiaseul.com/lector-coreano, free, with native audio): Practice → Syllables, Batchim, Numbers, Words and Time Trial as short weekly homework, with stars in the Progress tab",
    "Recording of each class available 24 hours later",
    "Course the course WhatsApp group group for audio homework, mini-diary and questions between classes",
    "In-house A2 exam online + oral assessment rubric",
@@ -1460,10 +1460,10 @@
  {
   "cursoId": "ninos",
   "codigo": "KOR 050",
-  "nombre": "Korean for Kids (8–12) · Play and Learn",
-  "descripcion": "Korean from scratch for kids ages 8 to 12, with games, songs and drawings. In 8 live 60-minute Zoom classes with two native teachers, they learn to read 한글 (the Korean alphabet), introduce themselves with their name and age, count from 1 to 10, and name animals, family members and Korean foods. The activity changes every 8–10 minutes to keep their attention, and every week the family receives a note with what to review in the Hangul Reader. Closing: a mini-show in Korean for the families and a certificate.",
-  "perfil_alumno": "Boys and girls ages 8 to 12, Spanish speakers, with no prior knowledge of Korean (or just a few loose words from K-pop and dramas). Curious, eager to play, sing and draw, and with an adult at home who can support the 20 minutes of homework and receive the weekly note via WhatsApp. Ideal if K-dramas or K-pop are part of life at home and the child wants to \"understand what they're saying.\"",
-  "requisito_entrada": "None: we start from absolute zero. Practical requirements: be between 8 and 12 years old, a computer or tablet with camera and microphone, a quiet spot during class, paper and colored pencils on hand, and a responsible adult who manages the family's WhatsApp (sending homework, receiving the weekly note and giving permission for the final show).",
+  "nombre": "Korean for Kids (8–15) · Play and Learn",
+  "descripcion": "Korean from scratch for kids ages 8 to 15, with games, songs and drawings. In 8 live 60-minute Zoom classes with two native teachers, they learn to read 한글 (the Korean alphabet), introduce themselves with their name and age, count from 1 to 10, and name animals, family members and Korean foods. The activity changes every 8–10 minutes to keep their attention, and every week the family receives a note with what to review in the Hangul Reader. Closing: a mini-show in Korean for the families and a certificate.",
+  "perfil_alumno": "Boys and girls ages 8 to 15, Spanish speakers, with no prior knowledge of Korean (or just a few loose words from K-pop and dramas). Curious, eager to play, sing and draw, and with an adult at home who can support the 20 minutes of homework and receive the weekly note via WhatsApp. Ideal if K-dramas or K-pop are part of life at home and the child wants to \"understand what they're saying.\"",
+  "requisito_entrada": "None: we start from absolute zero. Practical requirements: be between 8 and 15 years old, a computer or tablet with camera and microphone, a quiet spot during class, paper and colored pencils on hand, and a responsible adult who manages the family's WhatsApp (sending homework, receiving the weekly note and giving permission for the final show).",
   "objetivos": [
    "Read simple syllables and words in 한글 (Korean alphabet) aloud: basic vowels and consonants and the most common batchim.",
    "Say hello, goodbye and thank you in Korean with the appropriate little bow.",
@@ -1784,11 +1784,11 @@
    "tareas": "Short, playful homework (≈ 20 minutes, 3 or 4 days a week, about 2 hours a week in total): a Hangul Reader drill with the exact tab, a drawing or craft, and a 10–30-second audio or video that the family sends via WhatsApp. Jay or Abby reply with a voice comment before the next class.",
    "examen_final": "Final show in class 8, no written exam. Three parts per child (3 minutes in total, within the 60-minute class): (1) a 30–40-second oral presentation in front of the families with greeting, name, age, family, favorite animal and food; (2) reading aloud 5 words in 한글 chosen at random from the course vocabulary; (3) 5 picture-based comprehension questions (point to the animal, food or number the teacher says).",
    "oral": "Continuous assessment in the workshop rooms: every week Jay or Abby record 3 indicators per child (understands the instruction in Korean, repeats with good pronunciation, produces the sentence on their own). The final show counts as the closing oral assessment; what matters is being understood and daring to speak, not grammatical perfection.",
-   "certificado": "'Korean for Kids (8–12) · Academia Seúl' certificate for anyone who attends at least 75% of the classes (6 out of 8; the recording does not replace attendance) and completes the final show with at least 60% of the progress-board achievements: reading their first words, introducing themselves with name and age, counting from 1 to 10, and naming animals, family members and foods. Presented on screen in class 8 and as a PDF to the family."
+   "certificado": "'Korean for Kids (8–15) · Academia Seúl' certificate for anyone who attends at least 75% of the classes (6 out of 8; the recording does not replace attendance) and completes the final show with at least 60% of the progress-board achievements: reading their first words, introducing themselves with name and age, counting from 1 to 10, and naming animals, family members and foods. Presented on screen in class 8 and as a PDF to the family."
   },
   "materiales": [
    "Academia Seúl's own materials: illustrated worksheets per session (PDF to print or view on screen), bingo cards, letter cards and the final show script template.",
-   "Hangul Reader (academiaseul.com/lector-hangul), free and with native audio: Alphabet, Learn, Practice (Vowels, Consonants, Syllables, Batchim, Words, Numbers, Pictograms, ⚡ Time Trial) and Progress tabs.",
+   "Hangul Reader (academiaseul.com/lector-coreano), free and with native audio: Alphabet, Learn, Practice (Vowels, Consonants, Syllables, Batchim, Words, Numbers, Pictograms, ⚡ Time Trial) and Progress tabs.",
    "Original greeting, family and numbers songs, with lyrics in 한글 and Spanish (audio in the weekly note).",
    "Progress sticker board (printable PDF) and weekly note to the family via WhatsApp with what we learned, what to review and a sentence to practice at home.",
    "Home kit: white paper, colored pencils, scissors and glue; stuffed animals or animal toys (week 4) and a photo or drawing of the family (week 5).",

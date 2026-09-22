@@ -7,7 +7,7 @@ export function RecursoBanner() {
   const { t } = useT();
   const tiles = [
     { emoji: "🧩", title: t("Dubu · el puzzle del Hangul"), desc: t("Combina consonante + vocal y forma la palabra que lees o que escuchas. 30 niveles con voz nativa."), cta: t("Jugar a Dubu →"), href: "/dubu" },
-    { emoji: "🔤", title: t("Lector de Hangul"), desc: t("Aprende a leer 한글 con audio de voz nativa, directo en tu navegador."), cta: t("Abrir el Lector →"), href: "/lector-hangul" },
+    { emoji: "🔤", title: t("Lector de Hangul"), desc: t("Aprende a leer 한글 con audio de voz nativa, directo en tu navegador."), cta: t("Abrir el Lector →"), href: "/lector-coreano" },
     { emoji: "📝", title: t("Test de nivel"), desc: t("Descubre en qué peldaño empiezas."), cta: t("Hacer el test →"), href: "/test-nivel" },
     { emoji: "📄", title: t("Guía del alfabeto coreano (PDF)"), desc: t("Descárgala y empieza a leer desde cero."), cta: t("Ver recursos gratis →"), href: "/recursos" },
   ];

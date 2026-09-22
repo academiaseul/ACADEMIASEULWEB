@@ -16,13 +16,21 @@ const cards = [
     external: true,
   },
   {
-    href: "/lector-hangul",
+    href: "/lector-coreano",
     korean: "한글",
     title: i18n("Lector de Hangul"),
     desc:
       i18n("Aprende a leer el alfabeto coreano con la lógica del 훈민정음: lecciones interactivas, constructor de sílabas y práctica con audio de voz nativa que cambia en cada ronda."),
     cta: i18n("Aprender a leer"),
     external: true,
+  },
+  {
+    href: "/taller",
+    korean: "무료 강의",
+    title: i18n("Taller gratis de Hangul (video)"),
+    desc:
+      i18n("La clase completa de 1 hora con Jay, grabada en vivo: consonantes, vocales y cómo se forman las sílabas. Lee tu primera palabra en coreano antes de que termine el video."),
+    cta: i18n("Ver el taller"),
   },
   {
     href: "/recursos/guias",

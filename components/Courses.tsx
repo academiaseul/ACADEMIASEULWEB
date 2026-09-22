@@ -43,7 +43,7 @@ function CourseCard({ curso, index, pais, paisCorto }: { curso: Curso; index: nu
     >
       <div className="flex items-start gap-2">
         <span className="text-xs font-bold tracking-wider uppercase px-3 py-1.5 rounded-full text-white" style={{ background: color }}>
-          {esNinos ? t('Niños 8–12') : t('Paso {n} · {cefr}', { n: curso.paso, cefr: curso.cefr })}
+          {esNinos ? t('Niños 8–15') : t('Paso {n} · {cefr}', { n: curso.paso, cefr: curso.cefr })}
         </span>
       </div>
 
@@ -135,7 +135,7 @@ export default function Courses() {
         {/* Niños + Todo incluido (antes la sección Beneficios) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div>
-            <div className="text-xs font-bold tracking-[0.25em] uppercase text-seoul-black/40 mb-4">{t('Niños 8–12 · ruta propia')}</div>
+            <div className="text-xs font-bold tracking-[0.25em] uppercase text-seoul-black/40 mb-4">{t('Niños 8–15 · ruta propia')}</div>
             <CourseCard curso={ninos} index={4} pais={pais} paisCorto={info.corto} />
           </div>
           <div className="flex flex-col">
