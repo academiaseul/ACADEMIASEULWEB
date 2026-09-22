@@ -99,7 +99,7 @@ export default function HorarioSemanal({
         </table>
       </div>
       <p className="text-xs text-gray-500 mt-3">
-        {t("5 cursos · 6 horarios (Básico 1 se dicta martes y jueves: elige uno) · todas las clases parten la semana del 5 de octubre · 8 semanas · 60 min.")}
+        {t("5 cursos · 6 horarios (Básico 1 se dicta martes y jueves: elige uno) · todas las clases parten la semana del 12 de octubre · 8 semanas · 60 min.")}
         {info.cambiaHora ? ` ${t(info.cambiaHora)}` : ""}
       </p>
     </div>

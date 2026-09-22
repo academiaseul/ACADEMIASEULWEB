@@ -1,15 +1,15 @@
-# Plan de choque · 20 sept → 6 oct 2026 · Academia Seúl
+# Plan de choque · 20 sept → 13 oct 2026 · Academia Seúl
 
-**Situación:** hoy domingo 20 no se ha publicado nada. Cierre de matrícula **domingo 4 de octubre 23:59** · clases desde la **semana del 5**. Tiempo real: 45 min/día entre semana + 90 min de grabación el domingo. Presupuesto US$0.
+**Situación:** hoy domingo 20 no se ha publicado nada. Cierre de matrícula **domingo 11 de octubre 23:59** · clases desde la **semana del 12** (Niños desde el lunes 19: el 12 es feriado en Chile). Tiempo real: 45 min/día entre semana + 90 min de grabación el domingo. Presupuesto US$0.
 **Meta:** abrir las 6 clases (mínimo 4 por clase; objetivo 40 alumnos). Precio único: **US$150 el curso completo · o 2 cuotas de US$75**.
 
-**Parrilla (hora Chile):** 🧒 Niños (8–12) lun 18:00 Jay y Abby · 🌱 Básico 1 (A1.1) mar 20:00 **o** jue 20:00 Guiran (eliges un día) · 💬 Conversacional 1 (A2.1) mar 21:00 Abby (desde Corea) · 🚀 Básico 2 (A1.2) mié 21:00 Jay · 🎯 TOPIK II (B1+) jue 21:00 Jay (cupo 8).
+**Parrilla (hora Chile):** 🧒 Niños (8–12) lun 18:00 Jay y Abby · 🌱 Básico 1 (A1.1) mar 20:00 **o** jue 20:00 Kiran (eliges un día) · 💬 Conversacional 1 (A2.1) mar 21:00 Abby (desde Corea) · 🚀 Básico 2 (A1.2) mié 21:00 Jay · 🎯 TOPIK II (B1+) jue 21:00 Jay (cupo 8).
 
 **Reglas fijas de estas dos semanas**
 - Un solo calendario: **7 reels grabados + 1 clase en vivo**. Reto **#LeoCoreanoEn7Días = mié 23 → mar 29**, ganador **mié 30**.
 - Cada reel = **UNA toma a cámara o UNA grabación de pantalla**, un solo texto en pantalla puesto en el editor nativo de Instagram, portada = diseño cuadrado si existe. Nada de multiclip, PiP ni Canva.
 - Feed: 1 pieza al día como máximo y solo 4 grabadas por semana. Historias: **2 por día** (1 programada + 1 repost/respuesta); los stickers se contestan en bloque a las 21:00.
-- **Link en bio:** dom 20 → dom 27 = `academiaseul.com` (la home tiene Dubu, Lector, Test e inscripción). Lun 28 → dom 4 = `academiaseul.com/nivel-1`. Lun 5 vuelve a `academiaseul.com`. Nada de Linktree.
+- **Link en bio:** dom 20 → dom 27 = `academiaseul.com` (la home tiene Dubu, Lector, Test e inscripción). Lun 5 → dom 11 = `academiaseul.com/nivel-1`. Lun 12 vuelve a `academiaseul.com`. Nada de Linktree.
 - TikTok y Shorts: solo si las cuentas **ya existen** (se responde hoy sí/no). No se crean cuentas nuevas en campaña.
 - Un solo regalo 1:1: **"trae un chingu"** (los dos reciben sesión 1:1 de 20 min con Jay). Ningún otro incentivo de sesión.
 - Los dos cupos gratis (reto y sorteo con cuentas K-pop) son de **Básico 1** (martes o jueves, el que tenga más cupo).
@@ -29,8 +29,8 @@
 | 3 | 60 | **Brevo desde cero** (`Brevo/Plan_Email_Brevo_2026.md` §2): (a) **remitente — decisión tomada:** si tienes acceso al DNS de academiaseul.com (Netlify DNS o registrador) → Senders → Domains → Authenticate (2 DKIM + 1 DMARC, 15 min) y usas `hola@academiaseul.com`; si **no**, L1 y L1-b salen desde **`hola.academiaseul@gmail.com` verificado** y el dominio se autentica antes de L4 (lun 28). (b) Atributos FIRSTNAME, CURSO_SUGERIDO, PAIS, ORIGEN, PRIORIDAD, WHATSAPP. (c) Importar `Brevo/contactos_brevo_import.csv` (97). (d) Listas `01 Leads sitio` + `02 Alumnos octubre` (vacía) + segmentos P1 / P2 / P3 y **`Ex-alumnos julio`** (los 2 contactos con ORIGEN = alumno_julio → variante 3 de L1). (e) Campaña L1: **pegar la versión de texto simple de la sección 3** en el editor (10 min); el HTML `Brevo/Email_Lanzamiento_Brevo.html` se deja para L4 porque hoy solo trae FIRSTNAME y utm `oct26`. (f) Prueba a tu Gmail, revisar en el celular. (g) **Programar L1 lun 21 10:00 (P1)** y **L1-b mar 22 10:00 (P2+P3)**. | 2 envíos programados |
 | 4 | 10 | WhatsApp (normal): guardar los 5 textos de la sección 4a en Notas del celular (saludo, precio, horarios, niños, pagar). Estado de WhatsApp: captura de Dubu + "nuevo, gratis". | listo |
 | 5 | 10 | Instagram → Respuestas guardadas: las 4 respuestas de la encuesta "¿cuál es tu caso?" (sección 4b). | listo |
-| 6 | 5 | Mensajes a **Guiran y Abby** (sección 4c): clip de 15 s, **plazo miércoles 23 a las 22:00 Chile**, y pedir en el mismo mensaje sus links de Zoom del 6 de octubre. | enviados |
-| 7 | 2 | ¿Existen cuentas de TikTok y YouTube Shorts de la academia? **Sí / No.** Si no, cross-post descartado hasta después del 5 oct. | decidido |
+| 6 | 5 | Mensajes a **Kiran y Abby** (sección 4c): clip de 15 s, **plazo miércoles 23 a las 22:00 Chile**, y pedir en el mismo mensaje sus links de Zoom del 13 de octubre. | enviados |
+| 7 | 2 | ¿Existen cuentas de TikTok y YouTube Shorts de la academia? **Sí / No.** Si no, cross-post descartado hasta después del 12 oct. | decidido |
 | 8 | 1 | Instagram → Configuración → Directos → **Archivar directos: activado** (sin esto no hay replay el sábado). | listo |
 | 9 | 2 | Facebook: solicitar ingreso a 3 grupos "Aprender coreano" (o sacarlo del plan). Solo se comparte si aprueban. | solicitado |
 
@@ -45,29 +45,36 @@
 
 ---
 
-## 1 · Calendario día a día · 20 sept → 6 oct
+## 1 · Calendario día a día · 20 sept → 13 oct
 
 | Día | Feed (Instagram) | Historias (2) | Email (Brevo · 10:00 Chile) | WhatsApp / otros | Tiempo |
 |---|---|---|---|---|---|
-| **Dom 20** | **R1 Dubu** 21:00 | ① Dubu + link · ② encuesta "¿cuál es tu caso?" | Preparar y programar **L1 y L1-b**; decidir remitente | WhatsApp Business · Guiran y Abby · 🎬 Grabación 1 (R1, R2, R3 + B-roll) | ≈ 3 h 30 en dos bloques |
-| **Lun 21** | — (sin feed; el anuncio va en historias) | ① **después de 10:00** "Abrimos inscripciones: 6 clases desde la semana del 5 · US$150 el curso completo o 2 cuotas de US$75" (captura de la escalera + link `/nivel-1`) · ② resultados de la encuesta + "si votaste X, tu clase es…" | **L1 · P1 (18)** · ex-alumnos julio con variante 3 | Link en bio → `academiaseul.com` · destacadas "Cursos oct" "Dubu" "Alumnos" · hoja de números (fila 1) · **WhatsApp 1:1 apertura** a los 10 (4d, msg 1) · 21:00: 5 DMs a cuentas K-pop (4f) | 45 |
+| **Dom 20** | **R1 Dubu** 21:00 | ① Dubu + link · ② encuesta "¿cuál es tu caso?" | Preparar y programar **L1 y L1-b**; decidir remitente | WhatsApp Business · Kiran y Abby · 🎬 Grabación 1 (R1, R2, R3 + B-roll) | ≈ 3 h 30 en dos bloques |
+| **Lun 21** | — (sin feed; el anuncio va en historias) | ① **después de 10:00** "Abrimos inscripciones: 6 clases desde la semana del 12 · US$150 el curso completo o 2 cuotas de US$75" (captura de la escalera + link `/nivel-1`) · ② resultados de la encuesta + "si votaste X, tu clase es…" | **L1 · P1 (18)** · ex-alumnos julio con variante 3 | Link en bio → `academiaseul.com` · destacadas "Cursos oct" "Dubu" "Alumnos" · hoja de números (fila 1) · **WhatsApp 1:1 apertura** a los 10 (4d, msg 1) · 21:00: 5 DMs a cuentas K-pop (4f) | 45 |
 | **Mar 22** | **R2 Tu curso según tu caso** | ① R2 reposteado + link `/nivel-1` · ② tour del sitio (B-roll) + sticker link · *(el test de nivel se ofrece aquí, no en el reel)* | **L1-b · P2+P3 (79)** con reto y vivo incluidos | Responder clics de L1 (Brevo → quién hizo clic) · 5 DMs restantes a cuentas K-pop · Dubu en grupos de Facebook solo si ya aprobaron | 45 |
-| **Mié 23** · reto D1 | 📌 **Post: lanzamiento del reto** (diseño "Post Lector" o captura del Lector; caption en sección 2, "Día 1") + historia a cámara de 15 s con el guion Día 1 | ① reglas D1→D7 + link `/lector-hangul` · ② D1: vocales del Lector, "toca y repite" | **L2 · solo P1 que NO abrió L1 (~8)**, asunto distinto | **Estado de WhatsApp** "empieza el reto hoy" (no difusión) · 22:00 plazo clips Guiran/Abby | 45 |
-| **Jue 24** · D2 | **R3 Tu primera palabra en 60 s** (우유) | ① R3 + link `/dubu` · ② **Guiran y Abby**: sus clips de 15 s (si no llegaron: foto + 1 línea de cada una desde `EquipoProfes`) | — | Segunda tanda de DMs K-pop solo si respondieron < 3 · programar L3 por la noche | 45 |
+| **Mié 23** · reto D1 | 📌 **Post: lanzamiento del reto** (diseño "Post Lector" o captura del Lector; caption en sección 2, "Día 1") + historia a cámara de 15 s con el guion Día 1 | ① reglas D1→D7 + link `/lector-hangul` · ② D1: vocales del Lector, "toca y repite" | **L2 · solo P1 que NO abrió L1 (~8)**, asunto distinto | **Estado de WhatsApp** "empieza el reto hoy" (no difusión) · 22:00 plazo clips Kiran/Abby | 45 |
+| **Jue 24** · D2 | **R3 Tu primera palabra en 60 s** (우유) | ① R3 + link `/dubu` · ② **Kiran y Abby**: sus clips de 15 s (si no llegaron: foto + 1 línea de cada una desde `EquipoProfes`) | — | Segunda tanda de DMs K-pop solo si respondieron < 3 · programar L3 por la noche | 45 |
 | **Vie 25** · D3 | 📌 **Post "Piso F"** (`Campana_Assets/instagram/03_piso_f_numeros.png`) | ① diseño Piso F + sticker con URL del artículo · ② D3: Dubu mundos 1 y 2 (Bukchon e Insadong), "¿hasta dónde llegaste?" + cuenta regresiva "mañana 20:00 en vivo" | **L3 · solo quienes abrieron/clicaron L1 o L1-b** | Inscritos parciales (llenaron `/nivel-1`, no pagaron): "¿te ayudo con el pago?" · **Prep del vivo:** lista de 10 nombres en hangul, Lector abierto en el PC, probar un directo de 10 s en "Practicar", confirmar "Archivar directos" activado | 45 |
-| **Sáb 26** · D4 | 🟦 **EN VIVO 20:00 · "Lee tu nombre en coreano"** (30 min). Guion: 5 min qué es el Hangul · 15 min escribir 8–10 nombres del chat · 5 min "tu nombre en Dubu/Lector" · cierre: "si te inscribes con un chingu antes del domingo 4, los dos reciben una sesión 1:1 de 20 min conmigo; el link está en la bio". Al terminar: **Compartir en el perfil + descargar el video.** | ① 10:00 "hoy 20:00 en vivo" (teaser B-roll) · ② 18:00 "en 2 horas" + pregunta "¿cómo te llamas? te lo escribo en vivo" · ③ 21:00 clip de 15 s + "replay en el perfil" | — | 18:00 recordatorio solo a quien respondió algo · tras el vivo: cada "¿y mi nombre?" → escritura + link `/nivel-1?clase=…` | 30 prep + 30 vivo + 15 |
-| **Dom 27** · D5 | 📌 **Recorte de 60 s del vivo** (Instagram lo permite sin editor). Plan B si falló el replay: B-roll del teaser + "me perdí el vivo → escríbeme tu nombre por DM" | ① replay + "te faltó tu nombre → DM" · ② D5: Dubu mundos 3 y 4 (Hongdae y Gwangjang) | Programar **L4** | 🎬 **Grabación 2 (90 min): R4 con cupos del día, R5 intro, R6, R7 + 3 clips "hoy cierra" de 10 s** · actualizar hoja · **PC abierto: preparar commit sin push** `COHORTE_ABIERTA=false` + `PROXIMA_COHORTE_LABEL="Enero 2027"` (sección 8) | 90 + 45 |
-| **Lun 28** · D6 | **R4 Cupos reales: quedan 6 días** (Jay a cámara leyendo la hoja) | ① captura de la tabla de cupos + link `/nivel-1` · ② D6: Lector · Practicar, "mañana es la prueba" | **L4 · todos menos inscritos** (mover pagados a `02 Alumnos octubre` antes) | **Link en bio → `/nivel-1`** · **WhatsApp 1:1 cupos** a los 10 (4d, msg 2) · "trae un chingu" a los inscritos (4e) | 45 |
+| **Sáb 26** · D4 | 🟦 **EN VIVO 20:00 · "Lee tu nombre en coreano"** (30 min). Guion: 5 min qué es el Hangul · 15 min escribir 8–10 nombres del chat · 5 min "tu nombre en Dubu/Lector" · cierre: "si te inscribes con un chingu antes del domingo 11, los dos reciben una sesión 1:1 de 20 min conmigo; el link está en la bio". Al terminar: **Compartir en el perfil + descargar el video.** | ① 10:00 "hoy 20:00 en vivo" (teaser B-roll) · ② 18:00 "en 2 horas" + pregunta "¿cómo te llamas? te lo escribo en vivo" · ③ 21:00 clip de 15 s + "replay en el perfil" | — | 18:00 recordatorio solo a quien respondió algo · tras el vivo: cada "¿y mi nombre?" → escritura + link `/nivel-1?clase=…` | 30 prep + 30 vivo + 15 |
+| **Dom 27** · D5 | 📌 **Recorte de 60 s del vivo** (Instagram lo permite sin editor). Plan B si falló el replay: B-roll del teaser + "me perdí el vivo → escríbeme tu nombre por DM" | ① replay + "te faltó tu nombre → DM" · ② D5: Dubu mundos 3 y 4 (Hongdae y Gwangjang) | Programar **L4** | 🎬 **Grabación 2 (75 min): R5 intro, R6, R7 + B-roll de clase** · actualizar hoja | 75 + 45 |
+| **Lun 28** · D6 | 📌 **Post boletín KOR 101 · Básico 1** (`Posts_Boletin_Cursos_Octubre_2026/01_KOR101_Basico1.png`) | ① lámina + sticker link `/nivel-1?clase=a11-martes` · ② D6: Lector · Practicar, "mañana es la prueba" | — | "trae un chingu" a los inscritos (4e) · responder DMs del reto | 30 |
 | **Mar 29** · D7 | 📌 **Post "Sopa de algas"** (`02_sopa_de_algas_topik.png`) | ① diseño + sticker URL del artículo · ② D7: Contrarreloj del Lector + "Tu oído" de Dubu, "sube tu captura hoy hasta las 23:59" · repost de cada captura que llegue | — | DM a quienes dijeron "me apunto": hoy cierra el reto · mandar diseño del sorteo a las cuentas K-pop que respondieron | 45 |
 | **Mié 30** | **R5 Ganador del reto** (Jay a cámara 20 s) | ① capturas de participantes (con permiso) + felicitación · ② "¿quieres el cupo igual? quedan X en Básico 1" + link `/nivel-1?clase=a11-martes` | — | Confirmar clase con el ganador/a · Guía del Alfabeto (`/recursos`) por DM a cada participante | 45 |
-| **Jue 1 oct** | 📌 **Carrusel: 5 capturas del FAQ de `/faq`** (¿y si falto? · ¿desde México? · ¿certificado? · ¿mi hijo de 9? · ¿en cuotas?) | ① las 5 preguntas como historias con sticker de link · ② "quedan 3 días · cupos reales" | **L5 · todos menos inscritos · 2 asuntos** | **Estado de WhatsApp** "cierro el domingo" · crear los **6 grupos de WhatsApp** por clase (nombre + descripción) · reunir los **6 links de Zoom** · sorteo K-pop cierra hoy | 45 |
-| **Vie 2** | **R6 Jay a cámara, 45 s, sin edición** | ① R6 + link · ② "Conoce a tus profes": clips de Guiran y Abby (o foto + 1 línea) | — · programar **L5-b** para el domingo | Anunciar ganador/a del sorteo K-pop · 1 mensaje extra solo a quien respondió y no cerró · | 45 |
-| **Sáb 3** 🇰🇷 개천절 | **R7 Dangún · 개천절** (portada `01_dangun_tigre.png`) | ① diseño Dangún + sticker URL del artículo · ② "mañana cierra la matrícula" + cupos por clase | — | Reel Dangún en grupos de Facebook solo si aprobaron (es cultura, no venta) | 30 |
-| **Dom 4** · cierre 23:59 | — (todo en historias) | **5 historias**: 10:00 · 13:00 · 16:00 · 19:00 · 22:00 con cupos reales (los clips "hoy cierra" del dom 27). Última 22:00: "a las 23:59 cierro el formulario; el lunes empezamos" | **L5-b · 12:00 · solo "abrió algo" y no inscrito** (3 líneas) | **WhatsApp 1:1 cierre** a los 10 (4d, msg 3) · respuesta inmediata a cualquier "¿alcanzo?" · noche: programar **O1** con los 6 links de Zoom + grupos · el formulario **sigue abierto** hasta el lunes 9:00 | 45 repartidos |
-| **Lun 5** · 🧒 Niños 18:00 | 📌 **"Empezamos"** 19:30 (pantalla o pizarra; sin caras de menores) + caption "si no entraste: enero 2027, lista de espera en bio" | ① bienvenida a los inscritos (sin nombres) + "hoy Niños, mañana Básico 1 y Conversacional 1" · ② "¿no entraste? lista de espera enero 2027 + Dubu y Lector gratis" | **O1 onboarding · 9:00 · lista `02 Alumnos octubre`** | **9:00 push del commit de lista de espera** · link en bio → `academiaseul.com` · agregar a cada inscrito a su grupo + link de Zoom · 16:00 recordatorio a Niños | 45 + clase |
-| **Mar 6** · 🌱 Básico 1 20:00 · 💬 Conv. 1 21:00 | Descanso de feed | ① 10:00 "hoy empiezan Básico 1 con Guiran y Conversacional 1 con Abby (9:00 KST)" · ② 21:30 captura de clase (con permiso) | **N1 enero 2027 · 10:00 · todos menos inscritos** · recordatorio automático de clase 8:00 a Básico 1 mar y Conv. 1 | 18:00 recordatorio en los grupos · confirmar con Guiran y Abby link, lista y programa · anotar asistencia | 30 |
+| **Jue 1 oct** | 📌 **Carrusel: 5 capturas del FAQ de `/faq`** (¿y si falto? · ¿desde México? · ¿certificado? · ¿mi hijo de 9? · ¿en cuotas?) | ① las 5 preguntas como historias con sticker de link · ② "quedan 10 días · cupos reales" | — | Sorteo K-pop cierra hoy · responder DMs | 30 |
+| **Vie 2** | 📌 **"Conoce a tus profes"**: clips de Kiran y Abby (o foto + 1 línea desde `EquipoProfes`) | ① clips + link `/nivel-1` · ② repost de R2 "¿cuál es tu caso?" | — | Anunciar ganador/a del sorteo K-pop · 1 mensaje extra solo a quien respondió y no cerró | 30 |
+| **Sáb 3** 🇰🇷 개천절 | **R7 Dangún · 개천절** (portada `01_dangun_tigre.png`) | ① diseño Dangún + sticker URL del artículo · ② "la matrícula cierra el domingo 11" + cupos por clase | — | Reel Dangún en grupos de Facebook solo si aprobaron (es cultura, no venta) | 30 |
+| **Dom 4** | Descanso de feed | ① recap de la semana (reto + vivo + Dangún) · ② Dubu: "¿en qué barrio vas?" | Programar **L4** | 🎬 **Grabación 3 (60 min): R4 con cupos del día + 3 clips "hoy cierra" de 10 s** · actualizar hoja · **PC abierto: preparar commit sin push** `COHORTE_ABIERTA=false` + `PROXIMA_COHORTE_LABEL="Enero 2027"` (sección 8) | 60 + 30 |
+| **Lun 5** · semana de cierre | **R4 Cupos reales: quedan 6 días** (Jay a cámara leyendo la hoja) | ① captura de la tabla de cupos + link `/nivel-1` · ② "cierro el domingo 11 a las 23:59" | **L4 · todos menos inscritos** (mover pagados a `02 Alumnos octubre` antes) | **Link en bio → `/nivel-1`** · **WhatsApp 1:1 cupos** a los 10 (4d, msg 2) | 45 |
+| **Mar 6** | 📌 **Post boletín: Calendario académico** (`06_Calendario_Academico.png`) | ① lámina + sticker link · ② "¿desde tu país?" captura del selector de horario de `/nivel-1` | — | Responder clics de L4 (Brevo → quién hizo clic) · inscritos parciales: "¿te ayudo con el pago?" | 30 |
+| **Mié 7** | Descanso de feed | ① cupos reales del día · ② testimonio o captura de clase de julio (con permiso) | — | Crear los **6 grupos de WhatsApp** por clase (nombre + descripción) · reunir los **6 links de Zoom** | 45 |
+| **Jue 8** | 📌 **Repost de la portada del boletín** (`00_Portada_Boletin.png`) con caption "últimos cupos" | ① portada + link · ② "quedan 3 días · cupos reales" | **L5 · todos menos inscritos · 2 asuntos** | **Estado de WhatsApp** "cierro el domingo" · programar **L5-b** para el domingo | 45 |
+| **Vie 9** | **R6 Jay a cámara, 45 s, sin edición** | ① R6 + link · ② cupos reales por clase | — | 1 mensaje extra solo a quien respondió y no cerró | 45 |
+| **Sáb 10** | Descanso de feed | ① "mañana cierra la matrícula" + cupos por clase · ② Dubu y Lector "siguen gratis, el curso no espera" | — | Responder todo lo pendiente antes del cierre | 30 |
+| **Dom 11** · cierre 23:59 | — (todo en historias) | **5 historias**: 10:00 · 13:00 · 16:00 · 19:00 · 22:00 con cupos reales (los clips "hoy cierra" del dom 4). Última 22:00: "a las 23:59 cierro el formulario; esta semana empezamos" | **L5-b · 12:00 · solo "abrió algo" y no inscrito** (3 líneas) | **WhatsApp 1:1 cierre** a los 10 (4d, msg 3) · respuesta inmediata a cualquier "¿alcanzo?" · noche: programar **O1** con los 6 links de Zoom + grupos · el formulario **sigue abierto** hasta el lunes 9:00 | 45 repartidos |
+| **Lun 12** 🇨🇱 feriado | 📌 **"Empezamos esta semana"** 19:30 (pantalla o pizarra) + caption "si no entraste: enero 2027, lista de espera en bio" | ① bienvenida a los inscritos (sin nombres) + "mañana Básico 1 y Conversacional 1; Niños parte el lunes 19" · ② "¿no entraste? lista de espera enero 2027 + Dubu y Lector gratis" | **O1 onboarding · 9:00 · lista `02 Alumnos octubre`** | **9:00 push del commit de lista de espera** · link en bio → `academiaseul.com` · agregar a cada inscrito a su grupo + link de Zoom | 45 |
+| **Mar 13** · 🌱 Básico 1 20:00 · 💬 Conv. 1 21:00 | Descanso de feed | ① 10:00 "hoy empiezan Básico 1 con Kiran y Conversacional 1 con Abby (9:00 KST)" · ② 21:30 captura de clase (con permiso) | **N1 enero 2027 · 10:00 · todos menos inscritos** · recordatorio automático de clase 8:00 a Básico 1 mar y Conv. 1 | 18:00 recordatorio en los grupos · confirmar con Kiran y Abby link, lista y programa · anotar asistencia | 30 |
 
-**Mié 7 (Básico 2 21:00) y jue 8 (Básico 1 20:00 · TOPIK II 21:00):** mismo patrón del martes: email automático 8:00, WhatsApp en el grupo 18:00.
+**Mié 14 (Básico 2 21:00), jue 15 (Básico 1 20:00 · TOPIK II 21:00) y lun 19 (Niños 18:00, primera clase porque el 12 es feriado):** mismo patrón del martes: email automático 8:00, WhatsApp en el grupo 18:00 (a Niños, recordatorio a los papás el domingo 18 además).
 
 **Reto #LeoCoreanoEn7Días (fuente única):** D1 mié 23 Lector · Aprender · vocales · D2 jue 24 consonantes (+R3) · D3 vie 25 Dubu mundos 1 y 2 (Bukchon e Insadong) · D4 sáb 26 clase en vivo · D5 dom 27 Dubu mundos 3 y 4 (Hongdae y Gwangjang) · D6 lun 28 Lector · Practicar · D7 mar 29 Contrarreloj del Lector + "Tu oído" de Dubu → captura en historia etiquetando @academiaseul. Premio: **1 cupo gratis en Básico 1** (sorteo entre quienes completen, se anuncia **mié 30**) + Guía del Alfabeto para todos los que participen. Reglamento: "Instagram no patrocina ni administra este reto".
 
@@ -90,8 +97,8 @@
 ### R2 · "Tu curso según tu caso" · mar 22
 - **Formato:** UNA toma corrida de 40 s a cámara, leyendo la escalera desde la pantalla del PC (fuera de cuadro). Si te trabas, sigue.
 - **Texto en pantalla:** "¿Qué curso de coreano me toca? 5 casos, 40 segundos."
-- **Guion:** "Cinco casos, cinco respuestas. ¿Nunca estudiaste coreano? Básico 1, martes o jueves a las 20:00 hora de Chile, con Guiran; eliges un día. ¿Ya lees Hangul y sabes presentarte? Básico 2, miércoles 21:00, conmigo. ¿Quieres conversar con una profesora que está en Corea ahora mismo? Conversacional 1, martes 21:00, con Abby. ¿Vas por el TOPIK? TOPIK II, jueves 21:00, solo 8 cupos. ¿Tu hijo o hija de 8 a 12? Coreano para Niños, lunes 18:00, con Abby y conmigo. Todos: 8 semanas, una clase en vivo por Zoom a la semana, certificado incluido. Un solo precio: US$150 el curso completo, o 2 cuotas de US$75."
-- **CTA:** "Elige tu caso en el link de la bio. Matrícula hasta el domingo 4 de octubre."
+- **Guion:** "Cinco casos, cinco respuestas. ¿Nunca estudiaste coreano? Básico 1, martes o jueves a las 20:00 hora de Chile, con Kiran; eliges un día. ¿Ya lees Hangul y sabes presentarte? Básico 2, miércoles 21:00, conmigo. ¿Quieres conversar con una profesora que está en Corea ahora mismo? Conversacional 1, martes 21:00, con Abby. ¿Vas por el TOPIK? TOPIK II, jueves 21:00, solo 8 cupos. ¿Tu hijo o hija de 8 a 12? Coreano para Niños, lunes 18:00, con Abby y conmigo. Todos: 8 semanas, una clase en vivo por Zoom a la semana, certificado incluido. Un solo precio: US$150 el curso completo, o 2 cuotas de US$75."
+- **CTA:** "Elige tu caso en el link de la bio. Matrícula hasta el domingo 11 de octubre."
 - **Caption:** Cinco casos, cinco cursos: Básico 1 si empiezas de cero · Básico 2 si ya lees Hangul · Conversacional 1 con Abby desde Corea · TOPIK II si vas por el examen · Coreano para Niños los lunes. US$150 el curso completo · o 2 cuotas de US$75. Elige tu caso en el link de la bio, hasta el 4 de octubre.
 - **Hashtags propios:** #coreanoonline #한국어공부 #TOPIK
 
@@ -110,15 +117,15 @@
 
 ### 🟦 En vivo · "Lee tu nombre en coreano" · sáb 26 · 20:00 Chile (30 min)
 - **Requisitos (vie 25):** "Archivar directos" activado · directo de prueba de 10 s en "Practicar" · Lector abierto en el PC como segunda pantalla · lista de 10 nombres: Camila 카밀라 · Sofía 소피아 · Mateo 마테오 · Valentina 발렌티나 · Daniela 다니엘라 · Andrés 안드레스 · José 호세 · María 마리아 · Nicolás 니콜라스 · Fernanda 페르난다.
-- **Guion:** 0–5 min qué es el Hangul (14 consonantes básicas, 10 vocales, se lee en 1 hora) · 5–20 min escribir 8–10 nombres del chat en la pizarra o en el Lector · 20–25 min "busca tu sílaba en Dubu / escúchala en el Lector" · 25–30 min dudas de octubre + cierre: **"si te inscribes con un chingu antes del domingo 4, los dos reciben una sesión 1:1 de 20 min conmigo; el link está en la bio."**
+- **Guion:** 0–5 min qué es el Hangul (14 consonantes básicas, 10 vocales, se lee en 1 hora) · 5–20 min escribir 8–10 nombres del chat en la pizarra o en el Lector · 20–25 min "busca tu sílaba en Dubu / escúchala en el Lector" · 25–30 min dudas de octubre + cierre: **"si te inscribes con un chingu antes del domingo 11, los dos reciben una sesión 1:1 de 20 min conmigo; el link está en la bio."**
 - **Al terminar:** Compartir en el perfil + descargar el video. El dom 27 se recorta 60 s desde Instagram.
 
 ### R4 · "Así van las clases: quedan 6 días" · lun 28 (se graba dom 27)
 - **Formato:** UNA toma a cámara de 25 s leyendo la hoja de números. La tabla de cupos va como captura en historia, no en el reel.
-- **Texto en pantalla:** "Cupos reales · cierro el domingo 4"
-- **Guion:** "Sin adornos: así van los cupos hoy [fecha]. Niños, lunes 18:00: quedan [N] de 12. Básico 1 martes: [N] de 15. Básico 1 jueves: [N] de 15. Conversacional 1 con Abby: [N] de 15. Básico 2: [N] de 15. TOPIK II: [N] de 8. Cierro la matrícula el domingo 4 y el lunes 5 empezamos."
+- **Texto en pantalla:** "Cupos reales · cierro el domingo 11"
+- **Guion:** "Sin adornos: así van los cupos hoy [fecha]. Niños, lunes 18:00: quedan [N] de 12. Básico 1 martes: [N] de 15. Básico 1 jueves: [N] de 15. Conversacional 1 con Abby: [N] de 15. Básico 2: [N] de 15. TOPIK II: [N] de 8. Cierro la matrícula el domingo 11 y la semana del 12 empezamos."
 - **CTA:** "Tu cupo en el link de la bio."
-- **Caption:** Cupos reales al [fecha]. Cierre: domingo 4 de octubre 23:59. US$150 el curso completo · o 2 cuotas de US$75 · certificado incluido. Link en bio.
+- **Caption:** Cupos reales al [fecha]. Cierre: domingo 11 de octubre 23:59. US$150 el curso completo · o 2 cuotas de US$75 · certificado incluido. Link en bio.
 - **Hashtags propios:** #coreanoonline #한국어공부 #cursodecoreano
 
 ### R5 · "Ganador del reto" · mié 30 (intro grabada dom 27 · o se graba ese día en 5 min)
@@ -126,15 +133,15 @@
 - **Texto en pantalla:** "#LeoCoreanoEn7Días · ganador/a"
 - **Guion:** "Siete días, diez minutos al día, y [X] personas llegaron al final leyendo coreano. Gracias. El cupo gratis en Básico 1 es para… [nombre]. Felicitaciones. Y a todos los que participaron les mando hoy la Guía del Alfabeto por DM. Si quieres el cupo igual, quedan lugares en Básico 1: link en bio."
 - **CTA:** "Quedan lugares en Básico 1: link en bio."
-- **Caption:** Terminó el reto #LeoCoreanoEn7Días. Ganador/a del cupo gratis en Básico 1: [nombre]. Todos los participantes reciben la Guía del Alfabeto. ¿Quieres entrar igual? Cierro el domingo 4 · link en bio.
+- **Caption:** Terminó el reto #LeoCoreanoEn7Días. Ganador/a del cupo gratis en Básico 1: [nombre]. Todos los participantes reciben la Guía del Alfabeto. ¿Quieres entrar igual? Cierro el domingo 11 · link en bio.
 - **Hashtags propios:** #LeoCoreanoEn7Días #hangul #한글배우기
 
 ### R6 · "Jay a cámara, sin edición" · vie 2 (se graba dom 27; o el mismo viernes en una toma)
-- **Formato:** UNA toma, sin cortes, sin música, en el escritorio donde das clase. Si te equivocas, sigue. Los clips de Guiran y Abby van en la historia ② de ese día, no dentro del reel.
-- **Texto en pantalla:** "Sin edición. Cierro el domingo 4."
-- **Guion:** "Sin edición, sin guion. Soy Jay. Nací en Seúl, llegué a Chile a los 10 y llevo más de 8 años enseñando coreano. Academia Seúl la armé para enseñar como a mí me habría gustado aprender: grupos chicos, profes coreanas (Guiran desde Argentina, Abby desde Corea), en vivo, y sin promesas que no puedo cumplir. Ocho semanas no te hacen hablar fluido; te dan una base real y un lugar donde practicar. El lunes empiezan las clases: Niños el lunes, Básico 1 y Conversacional 1 el martes, Básico 2 el miércoles, TOPIK II el jueves. Cierro el domingo 4. US$150 el curso completo, o 2 cuotas de US$75, con certificado. Si tienes una duda, escríbeme al WhatsApp del perfil y te respondo yo. Nos vemos el lunes. 화이팅."
-- **CTA:** "Inscríbete en el link de la bio. Cierro el domingo 4."
-- **Caption:** Sin edición. Soy Jay, nací en Seúl y llevo más de 8 años enseñando coreano. El domingo 4 cierro la matrícula de octubre y el lunes empezamos. US$150 el curso completo · o 2 cuotas de US$75, certificado incluido. Link en bio · dudas por WhatsApp +56 9 4211 5562.
+- **Formato:** UNA toma, sin cortes, sin música, en el escritorio donde das clase. Si te equivocas, sigue. Los clips de Kiran y Abby van en la historia ② de ese día, no dentro del reel.
+- **Texto en pantalla:** "Sin edición. Cierro el domingo 11."
+- **Guion:** "Sin edición, sin guion. Soy Jay. Nací en Seúl, llegué a Chile a los 10 y llevo más de 8 años enseñando coreano. Academia Seúl la armé para enseñar como a mí me habría gustado aprender: grupos chicos, profes coreanas (Kiran desde Argentina, Abby desde Corea), en vivo, y sin promesas que no puedo cumplir. Ocho semanas no te hacen hablar fluido; te dan una base real y un lugar donde practicar. El lunes empiezan las clases: Niños el lunes, Básico 1 y Conversacional 1 el martes, Básico 2 el miércoles, TOPIK II el jueves. Cierro el domingo 11. US$150 el curso completo, o 2 cuotas de US$75, con certificado. Si tienes una duda, escríbeme al WhatsApp del perfil y te respondo yo. Nos vemos el lunes. 화이팅."
+- **CTA:** "Inscríbete en el link de la bio. Cierro el domingo 11."
+- **Caption:** Sin edición. Soy Jay, nací en Seúl y llevo más de 8 años enseñando coreano. El domingo 11 cierro la matrícula de octubre y esa misma semana empezamos. US$150 el curso completo · o 2 cuotas de US$75, certificado incluido. Link en bio · dudas por WhatsApp +56 9 4211 5562.
 - **Hashtags propios:** #jaychingu #coreanoonline #화이팅
 
 ### R7 · "Dangún y el tigre que se rindió" · sáb 3 (개천절) · se graba dom 27
@@ -158,7 +165,7 @@
 **Pie obligatorio en todos:** Academia Seúl · Santiago, Chile · `{{ unsubscribe }}` ("Si no quieres recibir más correos, haz clic aquí").
 **UTM:** `?utm_source=brevo&utm_medium=email&utm_campaign=` + `l1` `l1b` `l2` `l3` `l4` `l5` `l5b` `o1` `n1`.
 **Personalización:** `{{ contact.FIRSTNAME | default: "chingu" }}` · `{{ contact.CURSO_SUGERIDO | default: "Básico 1 (A1.1)" }}`.
-**Regla:** semana 1 = 1 comercial por persona (P1 recibe 1–2 toques, P2/P3 recibe 1 y +1 solo si abrió). Semana de cierre = 3 comerciales (L4, L5 y el L5-b corto del domingo). Antes de cada envío "todos menos inscritos": mover a los pagados a `02 Alumnos octubre` y excluir esa lista.
+**Regla:** semana 1 = 1 comercial por persona (P1 recibe 1–2 toques, P2/P3 recibe 1 y +1 solo si abrió). Semana 2 (28 sept → 4 oct) = solo contenido (reto, vivo, blog). Semana de cierre (5 → 11 oct) = 3 comerciales (L4, L5 y el L5-b corto del domingo). Antes de cada envío "todos menos inscritos": mover a los pagados a `02 Alumnos octubre` y excluir esa lista.
 **Segmentos de actividad:** Contacts → Segments → Campaign activity → Opened / Clicked → guardar `Abrió L1` · `No abrió L1` · `Abrió L1 o L1-b` · `Abrió L4 o L5`.
 
 | # | Día · hora | Segmento | Aprox. | Tipo |
@@ -167,11 +174,11 @@
 | L1-b | Mar 22 · 10:00 | P2 + P3 | 79 | Comercial (incluye reto y vivo) |
 | L2 | Mié 23 · 10:00 | P1 que **no abrió** L1 | ~8 | Contenido |
 | L3 | Vie 25 · 10:00 | Abrió o clicó L1 / L1-b | variable | Recordatorio del vivo |
-| L4 | Lun 28 · 10:00 | Todos menos inscritos | ≤ 97 | Comercial |
-| L5 | Jue 1 · 10:00 | Todos menos inscritos · 2 asuntos | ≤ 97 | Comercial |
-| L5-b | Dom 4 · 12:00 | Abrió L4 o L5 y no inscrito (programado vie 2) | variable | Comercial corto |
-| O1 | Lun 5 · 9:00 | `02 Alumnos octubre` (programado dom 4 noche) | inscritos | Onboarding |
-| N1 | Mar 6 · 10:00 | Todos menos inscritos | ≤ 97 | Lista enero 2027 |
+| L4 | Lun 5 oct · 10:00 | Todos menos inscritos | ≤ 97 | Comercial |
+| L5 | Jue 8 · 10:00 | Todos menos inscritos · 2 asuntos | ≤ 97 | Comercial |
+| L5-b | Dom 11 · 12:00 | Abrió L4 o L5 y no inscrito (programado jue 8) | variable | Comercial corto |
+| O1 | Lun 12 · 9:00 | `02 Alumnos octubre` (programado dom 11 noche) | inscritos | Onboarding |
+| N1 | Mar 13 · 10:00 | Todos menos inscritos | ≤ 97 | Lista enero 2027 |
 
 ### L1 · Lun 21 · P1
 **Asunto:** `{{ contact.FIRSTNAME | default: "Chingu" }}, tu cupo en octubre 🇰🇷` · **Preheader:** `8 semanas · US$150 el curso completo o 2 × US$75 · certificado`
@@ -180,11 +187,11 @@
 >
 > Soy Jay (김재희), de Academia Seúl. Me dejaste tus datos para avisarte cuando abriera la próxima cohorte, y hoy es el día: **la matrícula de octubre ya está abierta**, y te lo cuento a ti primero, con tu curso ya elegido según lo que me contaste.
 >
-> Según lo que me contaste, tu curso es **{{ contact.CURSO_SUGERIDO | default: "Básico 1 (A1.1)" }}**. Todas las clases parten la semana del 5 de octubre: 8 semanas, 1 clase en vivo por Zoom de 60 min a la semana, certificado incluido.
+> Según lo que me contaste, tu curso es **{{ contact.CURSO_SUGERIDO | default: "Básico 1 (A1.1)" }}**. Todas las clases parten la semana del 12 de octubre: 8 semanas, 1 clase en vivo por Zoom de 60 min a la semana, certificado incluido.
 >
 > Horarios (hora de Chile):
 > 🧒 Coreano para Niños (8–12) · Lun 18:00 · Jay y Abby
-> 🌱 Básico 1 (A1.1) · Mar 20:00 o Jue 20:00 (eliges uno) · Prof.ª Guiran
+> 🌱 Básico 1 (A1.1) · Mar 20:00 o Jue 20:00 (eliges uno) · Prof.ª Kiran
 > 💬 Conversacional 1 (A2.1) · Mar 21:00 · Prof.ª Abby (nativa, desde Corea)
 > 🚀 Básico 2 (A1.2) · Mié 21:00 · Jay
 > 🎯 TOPIK II (B1+) · Jue 21:00 · Jay (cupo 8)
@@ -195,7 +202,7 @@
 >
 > ¿Otro país? En esa página ves tu hora exacta. ¿Dudas de nivel? Responde este correo o escríbeme al WhatsApp +56 9 4211 5562 y lo vemos en 5 minutos.
 >
-> Cierro inscripciones el domingo 4 de octubre. Nos vemos el 5. 화이팅!
+> Cierro inscripciones el domingo 11 de octubre. Nos vemos la semana del 12. 화이팅!
 >
 > P.D.: esta semana hay dos cosas gratis: el reto #LeoCoreanoEn7Días (empieza el miércoles 23 en @academiaseul, premio: 1 cupo gratis) y una clase abierta en vivo en Instagram el sábado 26 a las 20:00 hora Chile: "Lee tu nombre en coreano". Y si te inscribes con un chingu, los dos reciben una sesión 1:1 de 20 min conmigo.
 >
@@ -204,13 +211,13 @@
 **Variante 3 (los 2 ex-alumnos de julio, ORIGEN = alumno_julio):** reemplazar el primer párrafo por: "Hace dos meses no sabías leer 한글 y hoy ya te presentas en coreano. Abrí la cohorte de octubre y tu siguiente paso es **Básico 2 (A1.2)**, miércoles 21:00, conmigo (o Conversacional 1 con Abby si prefieres puro hablar). Te lo cuento a ti primero."
 
 ### L1-b · Mar 22 · P2 + P3
-**Asunto:** `Del taller de Hangul a tu primera clase 🐯` · **Preheader:** `Clases desde el 5 de octubre · el Lector y Dubu siguen gratis`
+**Asunto:** `Del taller de Hangul a tu primera clase 🐯` · **Preheader:** `Clases desde el 12 de octubre · el Lector y Dubu siguen gratis`
 
 > ¡Hola {{ contact.FIRSTNAME | default: "chingu" }}! 안녕하세요 💙
 >
 > Soy Jay, de Academia Seúl. Nos conocimos en el taller gratuito de Hangul: en una hora leíste tu primera palabra en coreano. Te escribo porque **ahora sí abrimos el curso para seguir desde ahí.**
 >
-> 🌱 **Básico 1 (A1.1) · Primeras Palabras**, desde cero absoluto · Martes 20:00 o Jueves 20:00 hora Chile (eliges uno) · con la Prof.ª Guiran (기란), coreana criada en Argentina, bilingüe. En 8 semanas: lees cualquier sílaba, te presentas, presentas a tu familia, cuentas en los dos sistemas de números y dices qué te gusta.
+> 🌱 **Básico 1 (A1.1) · Primeras Palabras**, desde cero absoluto · Martes 20:00 o Jueves 20:00 hora Chile (eliges uno) · con la Prof.ª Kiran (기란), coreana criada en Argentina, bilingüe. En 8 semanas: lees cualquier sílaba, te presentas, presentas a tu familia, cuentas en los dos sistemas de números y dices qué te gusta.
 >
 > ¿Ya tienes algo de base? Haz el test de nivel gratis (5 preguntas) y te digo si te conviene Básico 2: https://www.academiaseul.com/test-nivel?utm_source=brevo&utm_medium=email&utm_campaign=l1b
 >
@@ -218,12 +225,12 @@
 >
 > **Mañana miércoles 23 empieza el reto #LeoCoreanoEn7Días** en @academiaseul: 10 minutos al día, un paso en el Lector o un barrio de Dubu, y el martes 29 te pones a prueba. Entre quienes completen los 7 días sorteamos 1 cupo gratis en Básico 1.
 >
-> 🗓️ Empieza la semana del 5 de octubre · 60 min por clase · certificado incluido
+> 🗓️ Empieza la semana del 12 de octubre · 60 min por clase · certificado incluido
 > 💙 US$150 el curso completo, o 2 cuotas de US$75 · PayPal, Mercado Pago o transferencia
 >
 > **[BOTÓN] Ver horarios y reservar →** https://www.academiaseul.com/nivel-1?utm_source=brevo&utm_medium=email&utm_campaign=l1b
 >
-> Cierro inscripciones el domingo 4 de octubre. Cualquier duda, responde este correo o escríbeme al WhatsApp +56 9 4211 5562.
+> Cierro inscripciones el domingo 11 de octubre. Cualquier duda, responde este correo o escríbeme al WhatsApp +56 9 4211 5562.
 >
 > P.D.: esta semana hay dos cosas gratis: el reto #LeoCoreanoEn7Días (empieza el miércoles 23 en @academiaseul, premio: 1 cupo gratis) y una clase abierta en vivo en Instagram el sábado 26 a las 20:00 hora Chile: "Lee tu nombre en coreano". Y si te inscribes con un chingu, los dos reciben una sesión 1:1 de 20 min conmigo.
 >
@@ -258,17 +265,17 @@
 >
 > **[BOTÓN] Ir al perfil @academiaseul →** https://www.instagram.com/academiaseul
 >
-> Trae lápiz y papel. Al final respondo dudas sobre los cursos de octubre (cierre de matrícula: domingo 4).
+> Trae lápiz y papel. Al final respondo dudas sobre los cursos de octubre (cierre de matrícula: domingo 11 de octubre).
 >
 > 화이팅! Jay
 
-### L4 · Lun 28 · todos menos inscritos (programar dom 27; usar el HTML de marca si quedó editado)
-**Asunto:** `{{ contact.FIRSTNAME | default: "Chingu" }}, cierro el domingo 4` · **Preheader:** `Matrícula hasta el domingo 4 de octubre · clases desde el 5`
+### L4 · Lun 5 oct · todos menos inscritos (programar dom 4; usar el HTML de marca si quedó editado)
+**Asunto:** `{{ contact.FIRSTNAME | default: "Chingu" }}, cierro el domingo 11` · **Preheader:** `Matrícula hasta el domingo 11 de octubre · clases desde el 12`
 **Rellenar `[N]`** con el conteo del dom 27 (Formspree "💰 PAGO" + PayPal + Mercado Pago). Máximos: 15 por sección, 8 TOPIK II, 12 Niños.
 
 > ¡Hola {{ contact.FIRSTNAME | default: "chingu" }}! 안녕하세요 💙
 >
-> Última semana: **la matrícula de octubre cierra el domingo 4** y las clases parten la semana del 5.
+> Última semana: **la matrícula de octubre cierra el domingo 11** y las clases parten la semana del 12.
 >
 > Así quedan los cupos hoy (hora de Chile):
 > 🧒 Niños (8–12) · Lun 18:00 · quedan [N] de 12
@@ -292,12 +299,12 @@
 > 화이팅!
 > Jay Kim (김재희) · Academia Seúl
 
-### L5 · Jue 1 · todos menos inscritos · 2 asuntos, mismo cuerpo (texto simple)
-**Asunto para "Abrió algo":** `Quedan 3 días: ¿nos vemos el 5?` · **Asunto para "No abrió nada":** `¿Todavía quieres aprender coreano?` · **Preheader:** `Domingo 4 cierro la matrícula de octubre · un solo precio`
+### L5 · Jue 8 · todos menos inscritos · 2 asuntos, mismo cuerpo (texto simple)
+**Asunto para "Abrió algo":** `Quedan 3 días: ¿nos vemos la semana del 12?` · **Asunto para "No abrió nada":** `¿Todavía quieres aprender coreano?` · **Preheader:** `Domingo 11 cierro la matrícula de octubre · un solo precio`
 
 > {{ contact.FIRSTNAME | default: "Chingu" }}, te escribo corto y sin adornos.
 >
-> El **domingo 4 de octubre cierro la matrícula** de la cohorte de octubre y el lunes 5 empezamos. Después de eso, la próxima oportunidad es enero de 2027.
+> El **domingo 11 de octubre cierro la matrícula** de la cohorte de octubre y la semana del 12 empezamos. Después de eso, la próxima oportunidad es enero de 2027.
 >
 > Si estabas esperando una señal: es esta. Tu curso es **{{ contact.CURSO_SUGERIDO | default: "Básico 1 (A1.1)" }}**, 8 semanas, 1 clase en vivo de 60 min a la semana, certificado incluido, **US$150 el curso completo, o 2 cuotas de US$75**.
 >
@@ -308,7 +315,7 @@
 > Gracias por leerme. 화이팅!
 > Jay Kim (김재희) · Academia Seúl · WhatsApp +56 9 4211 5562
 
-### L5-b · Dom 4 · 12:00 · solo "Abrió L4 o L5" y no inscrito (programar vie 2)
+### L5-b · Dom 11 · 12:00 · solo "Abrió L4 o L5" y no inscrito (programar jue 8)
 **Asunto:** `Hoy cierra · 23:59` · **Preheader:** `Último día de matrícula de octubre`
 
 > {{ contact.FIRSTNAME | default: "Chingu" }}, hoy a las 23:59 cierro la matrícula de octubre.
@@ -317,7 +324,7 @@
 >
 > 화이팅! Jay
 
-### O1 · Lun 5 · 9:00 · lista `02 Alumnos octubre` (programar dom 4 por la noche, UNA versión con la tabla de links)
+### O1 · Lun 12 · 9:00 · lista `02 Alumnos octubre` (programar dom 11 por la noche, UNA versión con la tabla de links)
 **Asunto:** `¡Empezamos! Tu link de Zoom y tu hora` · **Preheader:** `Todo lo que necesitas para tu primera clase esta semana`
 
 > ¡{{ contact.FIRSTNAME | default: "chingu" }}, bienvenido/a a Academia Seúl! 환영합니다 💙
@@ -326,12 +333,12 @@
 >
 > | Curso | Primera clase (hora Chile) | Zoom | Grupo de WhatsApp |
 > |---|---|---|---|
-> | 🧒 Coreano para Niños | Lun 5 · 18:00 | [ZOOM NIÑOS] | [GRUPO NIÑOS] |
-> | 🌱 Básico 1 · martes | Mar 6 · 20:00 | [ZOOM B1 MAR] | [GRUPO B1 MAR] |
-> | 💬 Conversacional 1 | Mar 6 · 21:00 | [ZOOM C1] | [GRUPO C1] |
-> | 🚀 Básico 2 | Mié 7 · 21:00 | [ZOOM B2] | [GRUPO B2] |
-> | 🌱 Básico 1 · jueves | Jue 8 · 20:00 | [ZOOM B1 JUE] | [GRUPO B1 JUE] |
-> | 🎯 TOPIK II | Jue 8 · 21:00 | [ZOOM TOPIK] | [GRUPO TOPIK] |
+> | 🧒 Coreano para Niños | Lun 19 · 18:00 (el 12 es feriado) | [ZOOM NIÑOS] | [GRUPO NIÑOS] |
+> | 🌱 Básico 1 · martes | Mar 13 · 20:00 | [ZOOM B1 MAR] | [GRUPO B1 MAR] |
+> | 💬 Conversacional 1 | Mar 13 · 21:00 | [ZOOM C1] | [GRUPO C1] |
+> | 🚀 Básico 2 | Mié 14 · 21:00 | [ZOOM B2] | [GRUPO B2] |
+> | 🌱 Básico 1 · jueves | Jue 15 · 20:00 | [ZOOM B1 JUE] | [GRUPO B1 JUE] |
+> | 🎯 TOPIK II | Jue 15 · 21:00 | [ZOOM TOPIK] | [GRUPO TOPIK] |
 >
 > 🌎 Tu hora exacta según tu país: https://www.academiaseul.com/programa
 > 💻 Entra 5 minutos antes, con cámara encendida si puedes; las clases quedan grabadas.
@@ -345,7 +352,7 @@
 
 **Recordatorio automático de clase (Brevo, 8:00 del día de clase, solo a la lista de ese curso):** "{{ contact.FIRSTNAME | default: "Chingu" }}, hoy a las [hora] hora Chile tienes [curso]. Zoom: [link]. Lleva cuaderno. 화이팅."
 
-### N1 · Mar 6 · 10:00 · todos menos inscritos
+### N1 · Mar 13 · 10:00 · todos menos inscritos
 **Asunto:** `Tu lugar en enero 2027 🌱` · **Preheader:** `Lista de espera de enero abierta · Dubu y el Lector siguen gratis`
 
 > ¡Hola {{ contact.FIRSTNAME | default: "chingu" }}! 안녕하세요 💙
@@ -367,7 +374,7 @@
 
 ## 4 · WhatsApp · +56 9 4211 5562
 
-Solo 10 de los 97 contactos tienen WhatsApp: trato 1:1, **máximo 3 mensajes a cada uno** (lun 21 · lun 28 · dom 4) + 1 extra solo a quien respondió. Nada de difusiones: los avisos del mié 23 y jue 1 van por **Estado de WhatsApp**. Etiquetas: `lead` · `abierto` · `inscrito` · `enero`.
+Solo 10 de los 97 contactos tienen WhatsApp: trato 1:1, **máximo 3 mensajes a cada uno** (lun 21 · lun 5 · dom 11) + 1 extra solo a quien respondió. Nada de difusiones: los avisos del mié 23 y jue 1 van por **Estado de WhatsApp**. Etiquetas: `lead` · `abierto` · `inscrito` · `enero`.
 
 ### (a) Textos listos (WhatsApp normal: sin bienvenida automática ni respuestas rápidas)
 Jay usa **WhatsApp normal**, no Business. Dos opciones: (1) guardar los 5 textos de abajo en la app **Notas** del celular y pegarlos (10 s cada uno); (2) si algún día quiere automatizar, instalar WhatsApp Business gratis con el mismo número (migra los chats; no se pueden usar las dos apps a la vez). Para la campaña basta la opción 1. El "saludo" se manda a mano al primer mensaje de cada persona nueva.
@@ -375,10 +382,10 @@ Jay usa **WhatsApp normal**, no Business. Dos opciones: (1) guardar los 5 textos
 > ¡Hola! 안녕하세요 👋 Soy Jay de Academia Seúl. Te respondo hoy mismo (normalmente entre 19:00 y 22:00 hora Chile). Mientras tanto: horarios y precios en academiaseul.com/programa · inscripción en academiaseul.com/nivel-1 · y dos regalos gratis: Dubu, el juego del Hangul (academiaseul.com/dubu) y el Lector con voz nativa (academiaseul.com/lector-hangul) 🐯
 
 **/precio**
-> Todos los cursos cuestan lo mismo: US$150 el curso completo de 8 semanas, o 2 cuotas de US$75. Incluye clases en vivo por Zoom, grabaciones, material, Lector de Hangul, Dubu y certificado 🎓 Inscripción hasta el domingo 4 de octubre: academiaseul.com/nivel-1
+> Todos los cursos cuestan lo mismo: US$150 el curso completo de 8 semanas, o 2 cuotas de US$75. Incluye clases en vivo por Zoom, grabaciones, material, Lector de Hangul, Dubu y certificado 🎓 Inscripción hasta el domingo 11 de octubre: academiaseul.com/nivel-1
 
 **/horarios**
-> Hora de Chile: 🧒 Niños lun 18:00 · 🌱 Básico 1 mar 20:00 o jue 20:00 (eliges uno) · 💬 Conversacional 1 mar 21:00 · 🚀 Básico 2 mié 21:00 · 🎯 TOPIK II jue 21:00 (cupo 8). Todo parte la semana del 5 de octubre. ¿Desde qué país me escribes? Te digo tu hora exacta.
+> Hora de Chile: 🧒 Niños lun 18:00 · 🌱 Básico 1 mar 20:00 o jue 20:00 (eliges uno) · 💬 Conversacional 1 mar 21:00 · 🚀 Básico 2 mié 21:00 · 🎯 TOPIK II jue 21:00 (cupo 8). Todo parte la semana del 12 de octubre (Niños el lunes 19). ¿Desde qué país me escribes? Te digo tu hora exacta.
 
 **/niños**
 > Coreano para Niños (8–12): lunes 18:00 Chile, 8 semanas, máximo 12, con Jay y Abby, juegos, canciones y show final para la familia. Grupo de WhatsApp solo para apoderados. Para que tu hijo/a vaya calentando motores: academiaseul.com/dubu (juego gratis del Hangul). Inscripción: academiaseul.com/nivel-1?clase=ninos
@@ -387,25 +394,25 @@ Jay usa **WhatsApp normal**, no Business. Dos opciones: (1) guardar los 5 textos
 > Puedes pagar por transferencia (Chile, te paso los datos), tarjeta vía Mercado Pago, o PayPal en dólares (US$150 el curso completo o 2 cuotas de US$75). ¿Cuál prefieres? Te mando el link exacto y te confirmo el cupo apenas llegue.
 
 ### (b) Respuestas guardadas de Instagram (encuesta "¿Cuál es tu caso?")
-- **Nunca estudié →** "¡Perfecto, se empieza de cero! Tu clase es Básico 1 con Guiran: martes o jueves 20:00 hora Chile, tú eliges. Aquí con tu hora local: academiaseul.com/nivel-1?clase=a11-martes 🐯"
+- **Nunca estudié →** "¡Perfecto, se empieza de cero! Tu clase es Básico 1 con Kiran: martes o jueves 20:00 hora Chile, tú eliges. Aquí con tu hora local: academiaseul.com/nivel-1?clase=a11-martes 🐯"
 - **Ya leo hangul →** "¡Entonces ya pasaste lo más difícil! Tu clase es Básico 2 conmigo, miércoles 21:00 hora Chile: academiaseul.com/nivel-1?clase=a12 · ¿Dudas de nivel? Test gratis de 5 preguntas: academiaseul.com/test-nivel"
 - **Quiero hablar →** "Conversacional 1 con Abby, que enseña desde Corea: martes 21:00 hora Chile, puro hablar. academiaseul.com/nivel-1?clase=a21 💬"
 - **Es para mi hijo →** "Coreano para Niños (8–12), lunes 18:00 hora Chile, con Abby y conmigo, máximo 12: academiaseul.com/nivel-1?clase=ninos 🧒 Y mientras tanto, Dubu gratis: academiaseul.com/dubu"
 
-### (c) Guiran y Abby · enviar hoy · plazo miércoles 23 a las 22:00 Chile
-**Guiran:**
-> ¡Guiran! 안녕 💙 Arranco la campaña de octubre mañana y me faltas tú.
+### (c) Kiran y Abby · enviar hoy · plazo miércoles 23 a las 22:00 Chile
+**Kiran:**
+> ¡Kiran! 안녕 💙 Arranco la campaña de octubre mañana y me faltas tú.
 > ¿Me grabas un video vertical de 15 s con el celular? Sin editar, luz de ventana, así:
-> "Hola, soy Guiran, coreana criada en Argentina. En Básico 1 vamos desde cero: en 8 semanas lees, te presentas y hablas de tu familia. Nos vemos los martes o los jueves a las 20:00 hora Chile, el día que elijas. 화이팅!"
-> Mándamelo por aquí como documento (calidad original), ideal antes del miércoles 23 a las 22:00. Y pásame tus links de Zoom para el martes 6 y el jueves 8. ¡Gracias, 고마워! 🐯
+> "Hola, soy Kiran, coreana criada en Argentina. En Básico 1 vamos desde cero: en 8 semanas lees, te presentas y hablas de tu familia. Nos vemos los martes o los jueves a las 20:00 hora Chile, el día que elijas. 화이팅!"
+> Mándamelo por aquí como documento (calidad original), ideal antes del miércoles 23 a las 22:00. Y pásame tus links de Zoom para el martes 13 y el jueves 15. ¡Gracias, 고마워! 🐯
 
 **Abby (recuerda: domingo 20:00 Chile = lunes 08:00 KST):**
 > ¡Abby! 안녕하세요 💙 Esta semana lanzo la campaña de octubre y quiero presentarte a los alumnos.
 > ¿Me grabas un video vertical de 15 s con el celular, cuando puedas esta semana? Sin editar, en español (una frase en coreano al inicio queda perfecta):
 > "안녕하세요! Soy Abby, profesora coreana, y enseño desde Corea. En Conversacional 1 hablamos de K-pop, viajes, comida… puro hablar. Nos vemos los martes a las 21:00 hora Chile. 화이팅!"
-> Si puedes, otro de 10 s saludando a los niños para Coreano para Niños 🧒. Ideal antes del miércoles 23 a las 22:00 hora Chile. Y pásame tu link de Zoom para el martes 6 (y el del lunes 5 de Niños si lo creas tú). ¡Gracias, 고마워요! 🐯
+> Si puedes, otro de 10 s saludando a los niños para Coreano para Niños 🧒. Ideal antes del miércoles 23 a las 22:00 hora Chile. Y pásame tu link de Zoom para el martes 13 (y el del lunes 19 de Niños si lo creas tú). ¡Gracias, 고마워요! 🐯
 
-**Plan B (si el miércoles no llegaron):** jueves 24 y viernes 2 van foto + 1 línea de cada una: Guiran "Profesora coreana criada en Argentina, bilingüe. Años de experiencia enseñando coreano en español." · Abby "Profesora coreana nativa, pedagoga. Dicta el conversacional desde Corea: clases donde solo se habla."
+**Plan B (si el miércoles no llegaron):** jueves 24 y viernes 2 van foto + 1 línea de cada una: Kiran "Profesora coreana criada en Argentina, bilingüe. Años de experiencia enseñando coreano en español." · Abby "Profesora coreana nativa, pedagoga. Dicta el conversacional desde Corea: clases donde solo se habla."
 
 ### (d) 3 mensajes 1:1 a los 10 contactos con WhatsApp
 **1 · Lun 21 (apertura):**
@@ -414,11 +421,11 @@ Jay usa **WhatsApp normal**, no Business. Dos opciones: (1) guardar los 5 textos
 > Todo aquí: academiaseul.com/nivel-1 · ¿Alguna duda de nivel u horario? 화이팅 🐯
 
 **2 · Lun 28 (cupos):**
-> [nombre], última semana: cierro la matrícula el domingo 4 y el lunes partimos.
+> [nombre], última semana: cierro la matrícula el domingo 11 y esa misma semana partimos.
 > En [CURSO] quedan [N] cupos (conteo real de hoy). Si prefieres 2 cuotas de US$75, se puede.
 > ¿Te reservo el cupo? academiaseul.com/nivel-1 🙌
 
-**3 · Dom 4 (cierre):**
+**3 · Dom 11 (cierre):**
 > [nombre], hoy es el último día de matrícula 🙏
 > Sin presión: si octubre no te acomoda, te anoto para enero 2027 y te aviso primero.
 > Si sí, aquí está: academiaseul.com/nivel-1
@@ -427,12 +434,12 @@ Jay usa **WhatsApp normal**, no Business. Dos opciones: (1) guardar los 5 textos
 **Extra (solo a quien respondió y no cerró, vie 2):**
 > [nombre], quedan 2 días. ¿Te mando el link de pago de [CURSO] o prefieres que te anote para enero? Las dos opciones están bien 💙
 
-**Estado de WhatsApp:** mié 23 "Empieza el reto #LeoCoreanoEn7Días: 10 min al día, gratis, en @academiaseul" · jue 1 "Cierro la matrícula de octubre el domingo 4 · academiaseul.com/nivel-1".
+**Estado de WhatsApp:** mié 23 "Empieza el reto #LeoCoreanoEn7Días: 10 min al día, gratis, en @academiaseul" · jue 8 "Cierro la matrícula de octubre el domingo 11 · academiaseul.com/nivel-1".
 
 ### (e) "Trae un chingu" · a cada inscrito al confirmar el pago y de nuevo el lun 28
 > ¡[nombre], ya estás dentro! 🎉 환영합니다 💙
 > Una cosa: aprender coreano de a dos es más fácil (y más divertido).
-> Si un amigo o amiga se inscribe contigo antes del domingo 4, **los dos reciben una sesión 1:1 de 20 minutos conmigo** para practicar pronunciación o resolver dudas.
+> Si un amigo o amiga se inscribe contigo antes del domingo 11, **los dos reciben una sesión 1:1 de 20 minutos conmigo** para practicar pronunciación o resolver dudas.
 > Reenvíale esto: academiaseul.com/nivel-1 — y dime su nombre por aquí para anotar la sesión 🐯
 
 ### (f) Micro-colaboraciones · 10 cuentas K-pop/K-drama LATAM (2 por país: Chile, Colombia, México, Argentina, Perú; 5–30 k seguidores)
@@ -452,11 +459,11 @@ DM 5 el lun 21 y 5 el mar 22 a las 21:00; segunda tanda jue 24 solo si respondie
 | 1 | **Encuesta "¿Cuál es tu caso?"** | Fondo azul · sticker de encuesta con 4 opciones: Nunca estudié / Ya leo hangul / Quiero hablar / Es para mi hijo · cada voto se responde por DM a las 21:00 con la respuesta guardada (4b) | dom 20 · repetir mar 29 |
 | 2 | **"¿Desde dónde nos ves?" (hora en tu país)** | Captura de `HorarioSemanal` con el selector de país · sticker de pregunta · a las 21:00 responder a cada uno con su hora + link `/nivel-1` | lun 21 · lun 28 |
 | 3 | **Prueba social honesta** | Captura de la cita textual de la web (Isidora, Nedielka, Carolina, Catalina, Paulina, Mariam, Valentina) o "ya somos X de Y países" con el número real de la hoja · sticker link `/nivel-1` | mar 22 · dom 27 · vie 2 |
-| 4 | **Cuenta regresiva** | Sticker de cuenta regresiva: "En vivo sáb 26 20:00" / "Cierra la matrícula dom 4 23:59" · captura de la escalera de fondo | jue 24, vie 25 · jue 1 → dom 4 |
+| 4 | **Cuenta regresiva** | Sticker de cuenta regresiva: "En vivo sáb 26 20:00" / "Cierra la matrícula dom 11 23:59" · captura de la escalera de fondo | jue 24, vie 25 · jue 1 → dom 4 |
 | 5 | **Pregunta "¿Qué te frena?"** | Sticker de pregunta · fondo con el precio oficial · cada respuesta = un DM personal (no público) | mié 30 · jue 1 |
 | 6 | **Repost del reto** | Compartir la historia del participante (mención + #LeoCoreanoEn7Días) + texto "día X ✅" + link `/lector-hangul` o `/dubu` según el día | mié 23 → mar 29, cada día |
 
-Regla: 2 historias/día (sáb 26: 3; dom 4: 5). Toda historia con link lleva **sticker de link** (los links en captions no son clicables). Los artículos del blog van con su URL solo en la historia del día del post: `/blog/por-que-en-corea-no-existe-el-piso-4` (vie 25) · `/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana` (mar 29) · `/blog/dangun-por-que-corea-nacio-de-una-osa` (sáb 3).
+Regla: 2 historias/día (sáb 26: 3; dom 11: 5). Toda historia con link lleva **sticker de link** (los links en captions no son clicables). Los artículos del blog van con su URL solo en la historia del día del post: `/blog/por-que-en-corea-no-existe-el-piso-4` (vie 25) · `/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana` (mar 29) · `/blog/dangun-por-que-corea-nacio-de-una-osa` (sáb 3).
 
 ---
 
@@ -469,17 +476,17 @@ Regla: 2 historias/día (sáb 26: 3; dom 4: 5). Toda historia con link lleva **s
 | 20–40 | **DM y WhatsApp**: responder stickers y encuestas en bloque, DMs, WhatsApp 1:1 del día. Cada respuesta termina con una pregunta y un link | Sin difusiones |
 | 40–45 | **Hoja de números**: fila del día | Lo que no cupo hoy se cae, no se acumula |
 
-Fines de semana: dom 27 = grabación 2 (90 min) + 45 min; sáb 26 = vivo (75 min total); dom 4 = 45 min repartidos.
+Fines de semana: dom 27 = grabación 2 (75 min) + 45 min; sáb 26 = vivo (75 min total); dom 4 = grabación 3 (60 min) + 30 min; dom 11 = 45 min repartidos.
 
 ---
 
-## 7 · Números · qué mirar cada noche y metas para el 4 de octubre
+## 7 · Números · qué mirar cada noche y metas para el 11 de octubre
 
 **Hoja de números (Google Sheet, una pestaña, 5 min/noche):** fecha · inscritos pagados por clase (6 columnas) · inscritos parciales (formulario sin pago) · leads abiertos (DM/WhatsApp con pregunta) · país · fuente (IG / email / WhatsApp / Dubu / colab).
 
 **Cada noche (en este orden):** 1) Formspree "💰 PAGO" + PayPal + Mercado Pago → pagados por clase · 2) Brevo → aperturas y clics del envío del día · 3) Instagram → alcance del reel, respuestas a stickers, visitas a `/dubu` y `/lector-hangul` (analytics del sitio) · 4) Con eso decides qué clase empujar mañana en la historia ②.
 
-| Métrica | Meta al dom 4 | Señal para actuar |
+| Métrica | Meta al dom 11 | Señal para actuar |
 |---|---|---|
 | Alumnos pagados | **40** (mínimo 4 por clase para abrir: 24) | Una clase con < 3 el lun 28 → toda la semana empuja esa clase |
 | Apertura L1 / L1-b | ≥ 40 % / ≥ 25 % | < 20 % L1-b → cambiar asunto de L4 |
@@ -513,6 +520,6 @@ Decisión del lun 28 (con la hoja): las clases con < 3 pagados se anuncian igual
 | 11 | Configurar en Brevo (guía) el recordatorio automático de clase 8:00 por lista de curso y crear las 6 listas por clase para O1 y los recordatorios. | jue 1 |
 | 12 | Crear los 6 grupos de WhatsApp: nombre + descripción listos para pegar ("Academia Seúl · Básico 1 martes · octubre 2026"). | jue 1 |
 | 13 | Pendientes de la auditoría del 15 sept que afectan la campaña: borrar `/taller` (sigue en `app/taller`), og-image y favicon azules, hero comprimido. | antes del lun 28 |
-| 14 | Después del 4 de octubre: informe de la campaña (aperturas por envío, clics por UTM, alumnos por fuente) y lista `05 Espera enero 2027`. | mar 6 |
+| 14 | Después del 11 de octubre: informe de la campaña (aperturas por envío, clics por UTM, alumnos por fuente) y lista `05 Espera enero 2027`. | mar 13 |
 
-화이팅. Hoy: Brevo, WhatsApp, Guiran y Abby, y a grabar tres reels. Mañana a las 10:00 sale el primer correo y desde ahí son 45 minutos al día.
+화이팅. Hoy: Brevo, WhatsApp, Kiran y Abby, y a grabar tres reels. Mañana a las 10:00 sale el primer correo y desde ahí son 45 minutos al día.

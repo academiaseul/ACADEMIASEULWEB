@@ -75,7 +75,7 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-base md:text-lg text-seoul-black/65 max-w-lg mx-auto leading-relaxed mb-4"
         >
-          {t('Clases en vivo desde la semana del 5 de octubre · 8 semanas · certificado incluido. US$150 el curso completo · o 2 cuotas de US$75.')}
+          {t('Clases en vivo desde la semana del 12 de octubre · 8 semanas · certificado incluido. US$150 el curso completo · o 2 cuotas de US$75.')}
         </motion.p>
 
         <motion.p
@@ -84,7 +84,7 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.25 }}
           className="font-bold text-seoul-black/80 mb-12"
         >
-          {t('La matrícula cierra el domingo 4 de octubre.')}
+          {t('La matrícula cierra el domingo 11 de octubre.')}
         </motion.p>
 
         {/* CTA Buttons */}

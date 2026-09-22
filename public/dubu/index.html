@@ -44,6 +44,7 @@ a{color:var(--azul-txt)}
 /* ── Splash ────────────────────────────────────────────────────────────── */
 #splash{align-items:center;justify-content:center;text-align:center;padding:32px 20px;gap:16px}
 #splash .tigre{width:150px;height:150px}
+#splash{position:relative}
 #splash .logo{font-size:56px;font-weight:900;letter-spacing:-.02em;line-height:1;color:var(--azul-txt)}
 #splash .logo small{font-size:22px;font-weight:700;color:var(--muted);margin-left:8px}
 #splash .tag{color:var(--muted);max-width:300px;font-size:16px;line-height:1.5;margin:0}
@@ -192,6 +193,15 @@ a{color:var(--azul-txt)}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--txt);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;z-index:60;animation:aparece .2s;max-width:90%}
 @media (max-height:700px){.cube{width:64px;height:64px;font-size:36px}.tile{height:88px}.g3 .tile{height:78px}.tablero.g3{grid-template-columns:repeat(3,78px)}}
 @media (min-width:481px){.app{padding-top:8px}#nivel{height:auto;min-height:100dvh}}
+.sitio{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:var(--muted);padding:6px 0 0;flex-wrap:wrap}
+.sitio a{color:var(--muted);text-decoration:none;font-weight:600}
+.sitio a.marca{color:var(--azul-txt);font-weight:800;letter-spacing:.02em}
+.sitio a:hover{color:var(--azul-txt)}
+.sitio .links{display:flex;gap:12px}
+#splash .sitio{width:100%;position:absolute;left:0;top:0;padding:12px 16px 0}
+.pie{margin-top:auto;padding:22px 0 12px;border-top:1px solid var(--border);font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px;text-align:center}
+.pie .links{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center}
+.pie a{color:var(--azul-txt);text-decoration:none;font-weight:600}
 </style>
 </head>
 <body>
@@ -199,6 +209,7 @@ a{color:var(--azul-txt)}
 
 <!-- Splash -->
 <section id="splash" class="screen on" aria-label="Inicio">
+  <nav class="sitio" aria-label="Academia Seúl"><a class="marca" href="/">← Academia Seúl</a><span class="links"><a href="/nivel-1">Cursos</a><a href="/lector-hangul">Lector</a><a href="/recursos">Recursos</a></span></nav>
   <span class="tigre" role="img" aria-label="Tigre de Academia Seúl"></span>
   <div class="logo">Dubu<small class="kr">두부</small></div>
   <p class="tag">Combina consonante + vocal y forma la palabra que lees… o la que escuchas.</p>
@@ -208,6 +219,7 @@ a{color:var(--azul-txt)}
 
 <!-- Mapa -->
 <section id="mapa" class="screen" aria-label="Mapa de barrios">
+  <nav class="sitio" aria-label="Academia Seúl"><a class="marca" href="/">← Academia Seúl</a><span class="links"><a href="/nivel-1">Cursos</a><a href="/lector-hangul">Lector</a><a href="/recursos">Recursos</a></span></nav>
   <div class="top">
     <div class="brand"><span class="tigre" aria-hidden="true"></span><span>Dubu</span><small class="kr">두부</small></div>
     <div style="display:flex;gap:4px">
@@ -229,6 +241,10 @@ a{color:var(--azul-txt)}
       <li>ㅇ al inicio es muda: 아 = ㅇ + ㅏ. Abajo suena "ng".</li>
     </ol>
   </div>
+  <footer class="pie">
+    <div class="links"><a href="/">Inicio</a><a href="/nivel-1">Inscripción octubre 2026</a><a href="/programa">Programa</a><a href="/lector-hangul">Lector de Hangul</a><a href="/recursos">Recursos</a><a href="https://wa.me/56942115562" target="_blank" rel="noopener">WhatsApp</a></div>
+    <div>Dubu · 두부 es gratis y sin cuenta · © 2026 Academia Seúl · Santiago, Chile · clases online por Zoom</div>
+  </footer>
 </section>
 
 <!-- Nivel -->
@@ -532,7 +548,7 @@ function finDeMundo(m){const t=$('finmundo');t.innerHTML='';const mundo=MUNDOS[m
   if(pares.length)acc.append(h('button',{class:'btn line',onclick:()=>{velo('velo-fin',false);repasar(pares.slice(0,2));}},'Repasar'));
   const sig=MUNDOS[m];acc.append(h('button',{class:'btn',onclick:()=>{velo('velo-fin',false);if(sig)abreNivel(sig.niveles[0]);else muestraMapa();}},sig?'Siguiente barrio':'Volver al mapa'));t.append(acc);
   const url='https://www.academiaseul.com/nivel-1?utm_source=dubu&utm_campaign=mundo'+m;
-  t.append(m>=6?h('p',{class:'lead primaria'},'Acabas de leer lo que verás en las primeras clases de Básico 1. ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso →')):h('p',{class:'lead'},'Esto se ve en Básico 1 · la semana del 5 de octubre → ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso')));
+  t.append(m>=6?h('p',{class:'lead primaria'},'Acabas de leer lo que verás en las primeras clases de Básico 1. ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso →')):h('p',{class:'lead'},'Esto se ve en Básico 1 · la semana del 12 de octubre → ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso')));
   velo('velo-fin',true);}
 function repasar(pares){const rondas=[];for(let i=0;i<4;i++){const k=pares[i%pares.length];const lista=PARES[k]||PARES['ㅓ/ㅗ'];rondas.push(lista[Math.floor(Math.random()*lista.length)]);}abreNivel({id:'repaso',tipo:'reconocer',rondas,par:pares[0],mundo:0});}
 

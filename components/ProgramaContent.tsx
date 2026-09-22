@@ -46,7 +46,7 @@ export default function ProgramaContent() {
     { id: "equipo", label: t("Equipo docente") },
     { id: "precio", label: t("Precio y pago") },
   ];
-  // "Semana del 23 de noviembre" → minúscula inicial tras la flecha (vale para ES/EN/KO).
+  // "Semana del 30 de noviembre" → minúscula inicial tras la flecha (vale para ES/EN/KO).
   const finTxt = t(FIN_LABEL);
   const finMin = finTxt.charAt(0).toLowerCase() + finTxt.slice(1);
 

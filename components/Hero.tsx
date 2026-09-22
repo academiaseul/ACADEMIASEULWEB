@@ -90,7 +90,7 @@ export default function Hero() {
             {t('desde la primera semana y hablas desde el día uno.')}
           </p>
           <p className="mt-3 text-sm font-semibold text-white/90">
-            {t('Cohorte octubre 2026 · 8 semanas desde la semana del 5 de octubre · US$150 el curso completo · o 2 cuotas de US$75')}
+            {t('Cohorte octubre 2026 · 8 semanas desde la semana del 12 de octubre · US$150 el curso completo · o 2 cuotas de US$75')}
           </p>
         </motion.div>
 

@@ -16,7 +16,7 @@ const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${DEFAULT_MESSAGE}`;
 // Marcados con i18n(); se traducen al renderizar con t(qr.label) / t(qr.msg).
 const QUICK_REPLIES = [
   {
-    label: i18n('Quiero inscribirme (clases desde la semana del 5 de octubre)'),
+    label: i18n('Quiero inscribirme (clases desde la semana del 12 de octubre)'),
     msg: i18n('Hola Jay! Quiero inscribirme en la cohorte de octubre. ¿Me ayudas a elegir el curso y el método de pago?'),
   },
   {

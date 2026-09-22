@@ -342,7 +342,7 @@
    "tareas": "Each week, three short deliverables before the next class: (1) the Hangul Reader missions, with the stars visible in the Progress tab; (2) the textbook lesson worksheet; (3) a 20-to-45-second audio in the course community. The teacher returns brief pronunciation feedback by audio or text. Homework is considered complete when submitted in at least 6 of the 7 weeks that have homework.",
    "examen_final": "A 30-minute online written exam (timed form), available during the 48 hours before class 8. Four sections out of 50 points: (1) audio dictation of 10 syllables and words, including 4 with batchim (reading and listening, 10 pts); (2) two-way Korean–Spanish vocabulary from lessons 1–9 (15 pts); (3) particles 은/는, 이/가, 을/를, 에 and -아요/어요 conjugation (15 pts); (4) production: 6 sentences about yourself (family, home, day, likes) using the course structures (10 pts).",
    "oral": "Final mini-presentation 'Me in Korean' in class 8: 1 to 2 minutes with camera on and without reading (introduction, family, where you live, your day, your room and your likes) plus one question from the group. Assessed on intelligibility, use of the course structures and pronunciation of vowels and batchim; speaking slowly is not penalized. The script is submitted in week 7 and returned corrected before class.",
-   "certificado": "Academia Seúl certificate 'Basic 1 (A1.1) · CEFR A1 (partial) · TOPIK I level 1 preparation' for anyone who scores at least 60% overall (40% participation and quizzes · 30% homework · 30% written and oral exam) and attends a minimum of 6 of the 8 live classes (≥ 75%; watching the recording does not count as attendance). Those who don't reach the minimum receive a certificate of participation and may retake the oral the following week. Delivered the week of November 30 along with the Basic 2 (A1.2) presale."
+   "certificado": "Academia Seúl certificate 'Basic 1 (A1.1) · CEFR A1 (partial) · TOPIK I level 1 preparation' for anyone who scores at least 60% overall (40% participation and quizzes · 30% homework · 30% written and oral exam) and attends a minimum of 6 of the 8 live classes (≥ 75%; watching the recording does not count as attendance). Those who don't reach the minimum receive a certificate of participation and may retake the oral the following week. Delivered the week of December 7 along with the Basic 2 (A1.2) presale."
   },
   "materiales": [
    "Textbook 한글학교 한국어 1 (Hangul School Korean, volume 1): covers 가나다라 I–II and lessons 1 through 9, plus the comprehensive review in lesson 10",
@@ -410,7 +410,7 @@
    {
     "n": 1,
     "titulo": "Re-introductions + diagnostic",
-    "leccion": "Wednesday, October 7 · Textbook Fundamentals 01–02: 이다 (to be) and 있다 (there is / to have / to be located) · active review of Basic 1 · individual oral diagnostic",
+    "leccion": "Wednesday, October 14 · Textbook Fundamentals 01–02: 이다 (to be) and 있다 (there is / to have / to be located) · active review of Basic 1 · individual oral diagnostic",
     "objetivo": "You introduce yourself again in detail (name, country and city, occupation, family, hobby) and answer simple questions about yourself without reading; Jay takes your oral diagnostic as the baseline for the course.",
     "gramatica": [
      "N이에요/예요 (to be, polite present) and N이/가 아니에요 (not to be): 저는 학생이 아니에요",
@@ -447,7 +447,7 @@
    {
     "n": 2,
     "titulo": "Numbers in action",
-    "leccion": "Wednesday, October 14 · Textbook Fundamentals 03–05: Sino-Korean and native Korean numerals · dates and days of the week · telling time (몇 시)",
+    "leccion": "Wednesday, October 21 · Textbook Fundamentals 03–05: Sino-Korean and native Korean numerals · dates and days of the week · telling time (몇 시)",
     "objetivo": "You say your age, your birthday, your phone number and the time you do things, and you understand that information when it's said to you at normal speed.",
     "gramatica": [
      "Sino-Korean numerals (일, 이, 삼…), reactivated from Basic 1, now for dates, phone numbers, minutes and prices",
@@ -484,7 +484,7 @@
    {
     "n": 3,
     "titulo": "The full present tense",
-    "leccion": "Wednesday, October 21 · Textbook Tenses unit 01–02: the full polite present -아요/어요 and the formal present -ㅂ니다/습니다 · everyday irregular verbs · the particle 에서 vs. 에",
+    "leccion": "Wednesday, October 28 · Textbook Tenses unit 01–02: the full polite present -아요/어요 and the formal present -ㅂ니다/습니다 · everyday irregular verbs · the particle 에서 vs. 에",
     "objetivo": "You describe your real routine with 10 verbs in the present tense, including the most frequent irregulars, and you recognize the formal style -ㅂ니다/습니다 when you hear it in stores, on the news and in presentations.",
     "gramatica": [
      "-아요/어요 (polite present) reactivated from Basic 1: the vowel rule (ㅏ/ㅗ → -아요, everything else → -어요, 하다 → 해요) and contractions (가요, 봐요, 마셔요)",
@@ -521,7 +521,7 @@
    {
     "n": 4,
     "titulo": "The past · -았/었어요",
-    "leccion": "Wednesday, October 28 · Textbook Tenses unit 03: past tense -았어요/었어요 · Particles unit 08: 부터~까지 (from… to) · past time expressions · 하고 / (이)랑 (with whom)",
+    "leccion": "Wednesday, November 4 · Textbook Tenses unit 03: past tense -았어요/었어요 · Particles unit 08: 부터~까지 (from… to) · past time expressions · 하고 / (이)랑 (with whom)",
     "objetivo": "You tell what you did over the weekend or on your last vacation in 6–8 linked sentences, saying when, where and with whom.",
     "gramatica": [
      "-았어요/었어요 (past): same vowel rule as the present (갔어요, 먹었어요, 했어요) and N이었어요/였어요 for nouns (학생이었어요)",
@@ -558,7 +558,7 @@
    {
     "n": 5,
     "titulo": "The future · -(으)ㄹ 거예요",
-    "leccion": "Wednesday, November 4 · Textbook Tenses unit 04: future and intention -(으)ㄹ 거예요 · Listing and contrast unit 02: -거나 (or) · Particles 13: (으)로 (means of transportation)",
+    "leccion": "Wednesday, November 11 · Textbook Tenses unit 04: future and intention -(으)ㄹ 거예요 · Listing and contrast unit 02: -거나 (or) · Particles 13: (으)로 (means of transportation)",
     "objetivo": "You plan your dream vacation or your next week: you say what you're going to do, when, how and with whom, and you offer alternatives (A or B).",
     "gramatica": [
      "-(으)ㄹ 거예요 (future / intention): -ㄹ 거예요 after a vowel (갈 거예요), -을 거예요 after a consonant (먹을 거예요); watch out for a final ㄹ (살 거예요)",
@@ -595,7 +595,7 @@
    {
     "n": 6,
     "titulo": "Negation and ability",
-    "leccion": "Wednesday, November 11 · Textbook Negation unit 01–03: 안 / -지 않아요 · 못 / -지 못해요 · negatives that are words of their own · Ability unit 01: -(으)ㄹ 수 있어요/없어요",
+    "leccion": "Wednesday, November 18 · Textbook Negation unit 01–03: 안 / -지 않아요 · 못 / -지 못해요 · negatives that are words of their own · Ability unit 01: -(으)ㄹ 수 있어요/없어요",
     "objetivo": "You say what you don't do (by choice), what you can't do (due to circumstances) and what you know how to do, and you answer yes/no questions naturally and with a reason.",
     "gramatica": [
      "안 + verb/adjective (in Basic 1 only with 안 좋아해요) and -지 않아요 (not, negation by choice or state): 안 먹어요 / 먹지 않아요; with N하다 verbs, 안 goes in the middle (운동 안 해요)",
@@ -632,7 +632,7 @@
    {
     "n": 7,
     "titulo": "Pro particles",
-    "leccion": "Wednesday, November 18 · Textbook Particles unit (selection): 05 의 · 09 에게/한테 · 10 도 · 11 만 · 12 밖에 · 14 쯤 · 15 처럼 · 16 보다 · 17 마다",
+    "leccion": "Wednesday, November 25 · Textbook Particles unit (selection): 05 의 · 09 에게/한테 · 10 도 · 11 만 · 12 밖에 · 14 쯤 · 15 처럼 · 16 보다 · 17 마다",
     "objetivo": "You compare, specify and add nuance to what you say ('only', 'also', 'more than', 'like', 'every', 'to whom') and sound Korean, not translated; you also recognize the particles when you hear them, as the exam requires.",
     "gramatica": [
      "Comparing: N보다 (more than) with 더 (more) and N처럼 (like): 형은 저보다 키가 커요 · 한국 사람처럼 말해요",
@@ -667,7 +667,7 @@
    {
     "n": 8,
     "titulo": "Connectors + A2 exam",
-    "leccion": "Wednesday, November 25 · Textbook Listing and contrast unit 01 and 03: -고 (and) · -지만 (but) · integration of the 7 classes · in-house A2 exam + oral assessment · certificate",
+    "leccion": "Wednesday, December 2 · Textbook Listing and contrast unit 01 and 03: -고 (and) · -지만 (but) · integration of the 7 classes · in-house A2 exam + oral assessment · certificate",
     "objetivo": "You hold a 5-minute conversation in Korean about your life, your past and your plans, linking sentences with -고 and -지만, and you take the in-house A2 exam.",
     "gramatica": [
      "-고 (and, listing or sequence): 밥을 먹고 커피를 마셨어요; the tense is marked only on the last verb",
@@ -706,7 +706,7 @@
    "tareas": "Every week: the session worksheet (10–20 sentences) plus a short Hangul Reader task (Practice → Syllables, Batchim, Numbers, Words or Time Trial) or a short 30–40 second audio via the course WhatsApp group. Estimated workload: 2 hours per week. Reviewed in the opening quiz and with brief feedback from Jay in the group. Weight: 30%. At least 6 of 7 submissions are required; the week 7 particle worksheet is mandatory because it follows the exam format.",
    "examen_final": "In-house A2 exam, written online, 30 timed minutes within class 8, 40 points in 4 sections: (1) two-way vocabulary Spanish → Korean and Korean → Spanish (10 points); (2) particles: choose the correct one in 10 blanks (은/는 · 이/가 · 을/를 · 에 · 에서 · 도 · 만 · 밖에 · 보다 · 마다 · 한테) (10 points); (3) tenses and data: switch sentences to the past and the future, write dates and times in Hangul (10 points); (4) translation of 6 sentences with -아요/어요 and -았어요/었어요 and personal production of 5 sentences about yourself (10 points). Returned graded within the week. The final exam (written + oral) is worth 30%.",
    "oral": "Two moments. 2-minute individual oral diagnostic in class 1 (baseline, not graded). Final oral assessment in class 8: 5-minute conversation in pairs on 6 course topics, in Zoom breakout rooms, with Jay rotating and scoring with a 4-criterion rubric (fluency without falling back on Spanish · correct use of present, past and future · particles · pronunciation). Anyone who can't be heard in class sends a 3-minute audio answering the same questions within 48 hours.",
-   "certificado": "Academia Seúl certificate 'Basic 2 (A1.2) · full CEFR A1 (partial A2) · TOPIK I levels 1–2 preparation', issued the week of November 30, 2026. Requirements: overall grade ≥ 60% (40% participation and quizzes · 30% homework · 30% written + oral A2 exam) and attendance ≥ 75% (6 of 8 live classes; watching the recording does not count as attendance). With the certificate you go straight into Conversational 1 (A2.1) without a placement test; anyone below 60% receives a reinforcement plan and can retake the oral before the January cohort."
+   "certificado": "Academia Seúl certificate 'Basic 2 (A1.2) · full CEFR A1 (partial A2) · TOPIK I levels 1–2 preparation', issued the week of December 7, 2026. Requirements: overall grade ≥ 60% (40% participation and quizzes · 30% homework · 30% written + oral A2 exam) and attendance ≥ 75% (6 of 8 live classes; watching the recording does not count as attendance). With the certificate you go straight into Conversational 1 (A2.1) without a placement test; anyone below 60% receives a reinforcement plan and can retake the oral before the January cohort."
   },
   "materiales": [
    "Korean Grammar in Use · Beginning (Spanish edition: Uso de la gramática coreana · Nivel inicial): units Fundamentals 01–05, Tenses 01–04, Negation 01–03, Particles (05, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17), Listing and contrast 01–03 and Ability 01",
@@ -719,7 +719,7 @@
    "Zoom with breakout rooms for pair work"
   ],
   "notas_profesor": [
-   "The group arrives mixed (Guiran's Basic 1, the July Level 1 and someone via placement test): use the class 1 oral diagnostic to set up 'strong + medium' pairs, never 'strong + strong', and don't re-explain Hangul live; send slow readers to the Reader with a concrete goal.",
+   "The group arrives mixed (Kiran's Basic 1, the July Level 1 and someone via placement test): use the class 1 oral diagnostic to set up 'strong + medium' pairs, never 'strong + strong', and don't re-explain Hangul live; send slow readers to the Reader with a concrete goal.",
    "The Spanish speaker's core error: mixing up 'ser' and 'estar' (저는 집이에요* instead of 집에 있어요) and confusing 에 with 에서 (회사에 일해요*). Always correct these, from class 1 on, because the past and future are built on top of them.",
    "With -았어요/었어요 and -(으)ㄹ 거예요 the most common error is the vowel rule (먹았어요*, 가을 거예요*): fix it with 3-second oral drills and gestures (hand up for ㅏ/ㅗ), not with long tables. The written form gets polished on the worksheet.",
    "Particles: don't chase perfection on 은/는 vs. 이/가 in the first weeks; correct 을/를 and 에/에서, which pay off most on the exam, and leave the fine 은/는 contrast for week 7, when it comes back alongside 도 and 만.",
@@ -775,7 +775,7 @@
    {
     "n": 1,
     "titulo": "Orientation + oral diagnostic",
-    "leccion": "Tuesday, October 6 · Orientation session (no themed module) · individual oral diagnostic",
+    "leccion": "Tuesday, October 13 · Orientation session (no themed module) · individual oral diagnostic",
     "objetivo": "Break the ice with the group and with Abby, introduce yourself in more detail than in Basic 2 (what you do, how long you've been studying Korean and why) and set your 3 personal conversation goals for the 8 weeks.",
     "gramatica": [
      "-고 싶어요 (want to do) · to state your goals for the course · 한국어로 말하고 싶어요",
@@ -812,7 +812,7 @@
    {
     "n": 2,
     "titulo": "K-pop and fan culture",
-    "leccion": "Tuesday, October 13 · M01 · K-pop and fan culture (in-house trilingual deck)",
+    "leccion": "Tuesday, October 20 · M01 · K-pop and fan culture (in-house trilingual deck)",
     "objetivo": "Talk about your group, your 최애 (absolute favorite) and concerts: share experiences as a fan, express preferences with superlatives and explain why you like them with -아서/어서.",
     "gramatica": [
      "-아/어 봤어요 (have done, experience) · 콘서트에 가 봤어요?",
@@ -849,7 +849,7 @@
    {
     "n": 3,
     "titulo": "Travel: Jeju and Seoul",
-    "leccion": "Tuesday, October 20 · M02 · Travel: Jeju and Seoul (in-house trilingual deck)",
+    "leccion": "Tuesday, October 27 · M02 · Travel: Jeju and Seoul (in-house trilingual deck)",
     "objetivo": "Plan a trip with a partner (propose, decide, explain how to get around) and narrate a past trip by chaining sentences in the past tense.",
     "gramatica": [
      "-(으)ㄹ까요? (shall we...?, how about...?) · 제주도에 갈까요?",
@@ -886,7 +886,7 @@
    {
     "n": 4,
     "titulo": "Food culture",
-    "leccion": "Tuesday, October 27 · M03 · Food culture (in-house trilingual deck)",
+    "leccion": "Tuesday, November 3 · M03 · Food culture (in-house trilingual deck)",
     "objetivo": "Order at a Korean restaurant with counters and politeness, recommend a dish and describe flavors; understand an order spoken at natural speed.",
     "gramatica": [
      "-아/어 주세요 (please give me / please do for me) · 물 좀 주세요",
@@ -923,7 +923,7 @@
    {
     "n": 5,
     "titulo": "Conversation Lab 1",
-    "leccion": "Tuesday, November 3 · Lab 1 · integrates M01–M03 (K-pop, travel, food) · no new deck",
+    "leccion": "Tuesday, November 10 · Lab 1 · integrates M01–M03 (K-pop, travel, food) · no new deck",
     "objetivo": "Hold 10 straight minutes of conversation in groups of 3 on the topics from weeks 2–4, solving real tasks (deciding, ordering, negotiating), and receive one-on-one pronunciation correction.",
     "gramatica": [
      "Active review: -아/어 봤어요 (experience) to tell and ask",
@@ -958,7 +958,7 @@
    {
     "n": 6,
     "titulo": "Hanbok and aesthetics",
-    "leccion": "Tuesday, November 10 · M04 · Hanbok and aesthetics (in-house trilingual deck)",
+    "leccion": "Tuesday, November 17 · M04 · Hanbok and aesthetics (in-house trilingual deck)",
     "objetivo": "Describe clothing, colors and patterns, compare traditional with modern and give your nuanced opinion on 한복 (traditional Korean dress) and Korean aesthetics.",
     "gramatica": [
      "Reactivation: -(으)ㄴ + N (week 4) and N보다 더 (Basic 2) · 예쁜 한복, 한복이 청바지보다 더 화려해요",
@@ -995,7 +995,7 @@
    {
     "n": 7,
     "titulo": "PC방 and e-sports",
-    "leccion": "Tuesday, November 17 · M05 · PC방 and e-sports (in-house trilingual deck)",
+    "leccion": "Tuesday, November 24 · M05 · PC방 and e-sports (in-house trilingual deck)",
     "objetivo": "Talk about video games, free time and technology: say when and how much you play, what you're good or bad at, express conditions and hold a mini-debate about gamer Korea.",
     "gramatica": [
      "-(으)ㄹ 때 (when) · 게임할 때 컵라면을 먹어요",
@@ -1032,7 +1032,7 @@
    {
     "n": 8,
     "titulo": "Lab 2 + oral assessment",
-    "leccion": "Tuesday, November 24 · Lab 2 (M01–M05) + end-of-stage oral assessment · certificate and invitation to Conversational 2",
+    "leccion": "Tuesday, December 1 · Lab 2 (M01–M05) + end-of-stage oral assessment · certificate and invitation to Conversational 2",
     "objetivo": "Demonstrate in the end-of-stage oral assessment (audios sent before class + pair role play with Abby) that you can converse about the course's five topics integrating the structures learned, and close with personal feedback, the A2.1 certificate and an invitation to Conversational 2 (A2.2, January 2027).",
     "gramatica": [
      "Integration 1: telling experiences and proposing plans (-아/어 봤어요, -(으)ㄹ까요?, -(으)러 가요)",
@@ -1069,7 +1069,7 @@
    "tareas": "Each week 2–3 submissions (always a 60–120 second audio and a short written task) via the course WhatsApp group before the next class; Abby returns corrections by audio or text within 48 hours. They account for 30% of the overall grade; up to 2 late submissions are accepted without penalty.",
    "examen_final": "End-of-stage oral assessment, no written exam, in two parts. Before class 8, by audio: (1) extended self-introduction of 2–3 minutes (the week 1 one re-recorded); (2) 2-minute monologue on a module drawn the previous Sunday (K-pop, travel, food, 한복 (traditional dress) or e-sports). In class 8, in pairs with Abby in the room (5 minutes per pair): (3) 3-minute role play drawn between restaurant and travel agency; (4) two follow-up questions for each student. Rubric of 5 criteria at 20% each: fluency, accuracy of the course structures, module vocabulary, pronunciation and interaction (listening and reacting). Worth 30% of the overall grade; anyone who misses class 8 does the role play with Abby in a 10-minute Zoom appointment within the week.",
    "oral": "The course is 100% oral: 40% participation (quizzes, practice rooms and the two labs), 30% audio and written homework, 30% final oral assessment. The week 1 audio is re-recorded in week 8 as 'before and after' evidence of progress, is part of the final assessment and is discussed in the individual report.",
-   "certificado": "Academia Seúl Certificate · Conversational 1 · CEFR A2.1 (partial) · TOPIK I level 2 preparation, issued November 30. Requirements: ≥ 60% overall grade and ≥ 75% attendance (6 of 8 live classes; the recording does not count as attendance unless notified in advance). Grants direct access to Conversational 2 (A2.2, January 2027) with no placement test."
+   "certificado": "Academia Seúl Certificate · Conversational 1 · CEFR A2.1 (partial) · TOPIK I level 2 preparation, issued December 7. Requirements: ≥ 60% overall grade and ≥ 75% attendance (6 of 8 live classes; the recording does not count as attendance unless notified in advance). Grants direct access to Conversational 2 (A2.2, January 2027) with no placement test."
   },
   "materiales": [
    "Trilingual ES/KO/EN decks for modules M01–M05 (K-pop and fan culture, travel to Jeju and Seoul, food culture, 한복 (traditional dress) and aesthetics, PC방 (internet café) and e-sports), in-house template",
@@ -1435,7 +1435,7 @@
    "tareas": "One timed homework assignment per week (one section of an official past paper plus a written or audio production), submitted via the course WhatsApp group before the next class. 쓰기 assignments receive personal line-by-line correction from the teacher. Worth 30% of the final grade.",
    "examen_final": "Full TOPIK II mock exam with an unseen official past paper, taken timed at home between classes 7 and 8: 듣기 50 questions in 60 minutes, 쓰기 4 questions (51–54) in 50 minutes and 읽기 50 questions in 70 minutes; 180 minutes in total, with the official answer sheet. Graded with the official answer key and the 쓰기 rubric and converted into an estimated level (3–6). Plus a 10-minute mini mock in class 8. Worth 40% of the final grade.",
    "oral": "TOPIK II has no speaking section, but the course assesses it anyway: individual diagnostic interview in class 1 (ungraded), participation in role plays, active dictations and simulated debates, and a final 1-minute presentation in Korean of your goal and study plan in class 8. Worth 10% of the final grade.",
-   "certificado": "Academia Seúl certificate 'TOPIK II Preparation · CEFR B1+' with the final mock exam score and the estimated TOPIK level (3–6), issued the week of November 30, 2026. Requirements: overall grade of at least 60%, attendance of at least 75% (6 of the 8 live classes; watching the recording does not count as attendance) and submission of the full mock exam. The official TOPIK certificate is issued only by the 국립국제교육원 (National Institute for International Education) upon taking the real exam."
+   "certificado": "Academia Seúl certificate 'TOPIK II Preparation · CEFR B1+' with the final mock exam score and the estimated TOPIK level (3–6), issued the week of December 7, 2026. Requirements: overall grade of at least 60%, attendance of at least 75% (6 of the 8 live classes; watching the recording does not count as attendance) and submission of the full mock exam. The official TOPIK certificate is issued only by the 국립국제교육원 (National Institute for International Education) upon taking the real exam."
   },
   "materiales": [
    "Official published TOPIK II past papers (기출문제) from topik.go.kr, with audio and answer keys: four or five different papers are used during the course",
@@ -1801,7 +1801,7 @@
    "What to always correct: greetings with a bow, their own name pronounced well, and the sounds of the 6 vowels. What to let slide in this course: mixing up 이에요/예요, dropping 을/를, mixing 살 with Sino-Korean numbers. That gets polished in Basic 1 (A1.1) when they're older.",
    "Differentiation by age: an 8-year-old can build syllables with cards while a 12-year-old is already reading words with batchim. Offer an 'easy' and a 'challenge' version of the same game, appoint helpers among the older kids, and let the shyest ones answer first with gestures or drawings before using their voice.",
    "Weekly note to the family (within 24 hours after class): 3 lines max — what we learned, what to review in the Hangul Reader with the exact tab, and a sentence to practice at home. It's the main driver of retention and of homework actually getting done; always ask for a short audio or video, not written sheets.",
-   "Zoom with kids: cameras on, on-screen names written in 한글 from class 2 onward, chat for emojis only, soft music while they draw. Rehearse the final show from class 7 with a visual script (drawings instead of text), invite the families a week ahead, and confirm the October 12 date (a public holiday in Chile) from class 1 onward."
+   "Zoom with kids: cameras on, on-screen names written in 한글 from class 2 onward, chat for emojis only, soft music while they draw. Rehearse the final show from class 7 with a visual script (drawings instead of text), invite the families a week ahead, and remind families from class 1 onward that the course starts Monday October 19 (October 12 is a public holiday in Chile) and ends Monday December 7."
   ]
  }
 ]

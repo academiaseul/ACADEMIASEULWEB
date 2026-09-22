@@ -17,7 +17,7 @@ export const faqs = [
   },
   {
     q: i18n('¿Qué horarios y fechas hay?'),
-    a: i18n('La cohorte parte la semana del 5 de octubre de 2026 y dura 8 semanas (una clase por semana, hora de Chile): Coreano para Niños lunes 18:00 · Básico 1 martes 20:00 o jueves 20:00 · Conversacional 1 martes 21:00 · Básico 2 miércoles 21:00 · TOPIK II jueves 21:00. Conversión rápida: 20:00 Chile = 18:00 Colombia/Perú · 17:00 México · 20:00 Argentina · 19:00 EE.UU. Este (18:00 desde el 1 de noviembre) · 01:00 España (00:00 desde el 25 de octubre). En la página de inscripción eliges tu país y ves la hora exacta.'),
+    a: i18n('La cohorte parte la semana del 12 de octubre de 2026 y dura 8 semanas (una clase por semana, hora de Chile): Coreano para Niños lunes 18:00 · Básico 1 martes 20:00 o jueves 20:00 · Conversacional 1 martes 21:00 · Básico 2 miércoles 21:00 · TOPIK II jueves 21:00. Conversión rápida: 20:00 Chile = 18:00 Colombia/Perú · 17:00 México · 20:00 Argentina · 19:00 EE.UU. Este (18:00 desde el 1 de noviembre) · 01:00 España (00:00 desde el 25 de octubre). En la página de inscripción eliges tu país y ves la hora exacta.'),
   },
   {
     q: i18n('¿Las clases son en vivo o grabadas?'),

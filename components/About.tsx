@@ -102,7 +102,7 @@ export default function About() {
               {t('De día soy gerente en una empresa coreana de genómica en Las Condes. De noche hago lo que más amo: enseñar mi idioma a quienes lo aprenden por amor a la cultura. Academia Seúl nació para construir el puente que yo no tuve a los 10.')}
             </p>
             <p className="text-sm text-seoul-black/60 leading-relaxed">
-              {t('En clase también te acompañan Guiran, profesora coreana criada en Argentina, y Abby, profesora nativa que enseña en vivo desde Corea.')}
+              {t('En clase también te acompañan Kiran, profesora coreana criada en Argentina, y Abby, profesora nativa que enseña en vivo desde Corea.')}
             </p>
 
             <div className="flex flex-wrap gap-2 pt-1">

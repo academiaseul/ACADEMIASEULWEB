@@ -16,11 +16,11 @@
 export const COHORTE_ABIERTA = true;
 
 export const PROXIMA_COHORTE_LABEL = "Octubre 2026";
-export const INICIO_LABEL = "Semana del 5 de octubre de 2026";
-export const INICIO_SEMANA = "la semana del 5 de octubre";
-export const INICIO_ISO = "2026-10-05";
-export const FIN_LABEL = "Semana del 23 de noviembre de 2026";
-export const CIERRE_MATRICULA = "domingo 4 de octubre (o hasta llenar los cupos)";
+export const INICIO_LABEL = "Semana del 12 de octubre de 2026";
+export const INICIO_SEMANA = "la semana del 12 de octubre";
+export const INICIO_ISO = "2026-10-12";
+export const FIN_LABEL = "Semana del 30 de noviembre de 2026";
+export const CIERRE_MATRICULA = "domingo 11 de octubre (o hasta llenar los cupos)";
 
 // 💵 Precios (USD) — cada curso: pago único o 2 cuotas.
 export const PRECIO_UNICO = 150;
@@ -67,8 +67,8 @@ export const PROFES: Profe[] = [
   },
   {
     id: "guiran",
-    nombre: "Guiran · 기란",
-    corto: "Guiran",
+    nombre: "Kiran · 기란",
+    corto: "Kiran",
     emoji: "🌱",
     rol: "Básico 1 (martes y jueves)",
     bio: "Profesora coreana criada en Argentina — bilingüe perfecta. Años de experiencia enseñando coreano en español.",
@@ -105,22 +105,22 @@ export type ClaseId =
 export type Clase = {
   id: ClaseId;
   cursoId: CursoId;
-  label: string; // para selects y correos: "Básico 1 (A1.1) · Martes 20:00 Chile · Guiran"
+  label: string; // para selects y correos: "Básico 1 (A1.1) · Martes 20:00 Chile · Kiran"
   profeId: ProfeId;
   dia: string;
   horaChile: string; // "18:00"
-  primeraClase: string; // "martes 6 de octubre"
+  primeraClase: string; // "martes 13 de octubre"
   cupos: number;
 };
 
 // Orden = orden de la escalera (Básico 1 → Básico 2 → Conversacional 1 → TOPIK II), Niños al final.
 export const CLASES: Clase[] = [
-  { id: "a11-martes", cursoId: "a11", label: "Básico 1 (A1.1) · Martes 20:00 Chile · Guiran", profeId: "guiran", dia: "Martes", horaChile: "20:00", primeraClase: "martes 6 de octubre", cupos: 15 },
-  { id: "a11-jueves", cursoId: "a11", label: "Básico 1 (A1.1) · Jueves 20:00 Chile · Guiran", profeId: "guiran", dia: "Jueves", horaChile: "20:00", primeraClase: "jueves 8 de octubre", cupos: 15 },
-  { id: "a12", cursoId: "a12", label: "Básico 2 (A1.2) · Miércoles 21:00 Chile · Jay", profeId: "jay", dia: "Miércoles", horaChile: "21:00", primeraClase: "miércoles 7 de octubre", cupos: 15 },
-  { id: "a21", cursoId: "a21", label: "Conversacional 1 (A2.1) · Martes 21:00 Chile · Abby", profeId: "abby", dia: "Martes", horaChile: "21:00", primeraClase: "martes 6 de octubre", cupos: 15 },
-  { id: "topik2", cursoId: "topik2", label: "TOPIK II (B1+) · Jueves 21:00 Chile · Jay", profeId: "jay", dia: "Jueves", horaChile: "21:00", primeraClase: "jueves 8 de octubre", cupos: 8 },
-  { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–12) · Lunes 18:00 Chile · Jay y Abby", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "lunes 5 de octubre", cupos: 12 },
+  { id: "a11-martes", cursoId: "a11", label: "Básico 1 (A1.1) · Martes 20:00 Chile · Kiran", profeId: "guiran", dia: "Martes", horaChile: "20:00", primeraClase: "martes 13 de octubre", cupos: 15 },
+  { id: "a11-jueves", cursoId: "a11", label: "Básico 1 (A1.1) · Jueves 20:00 Chile · Kiran", profeId: "guiran", dia: "Jueves", horaChile: "20:00", primeraClase: "jueves 15 de octubre", cupos: 15 },
+  { id: "a12", cursoId: "a12", label: "Básico 2 (A1.2) · Miércoles 21:00 Chile · Jay", profeId: "jay", dia: "Miércoles", horaChile: "21:00", primeraClase: "miércoles 14 de octubre", cupos: 15 },
+  { id: "a21", cursoId: "a21", label: "Conversacional 1 (A2.1) · Martes 21:00 Chile · Abby", profeId: "abby", dia: "Martes", horaChile: "21:00", primeraClase: "martes 13 de octubre", cupos: 15 },
+  { id: "topik2", cursoId: "topik2", label: "TOPIK II (B1+) · Jueves 21:00 Chile · Jay", profeId: "jay", dia: "Jueves", horaChile: "21:00", primeraClase: "jueves 15 de octubre", cupos: 8 },
+  { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–12) · Lunes 18:00 Chile · Jay y Abby", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "lunes 19 de octubre", cupos: 12 },
 ];
 
 // 🌎 Conversión de horarios (octubre–noviembre 2026, Chile en horario de verano UTC-3).
@@ -337,7 +337,7 @@ export const CURSOS: Curso[] = [
     nivel: "8–12 años · desde cero",
     libro: "Material propio Academia Seúl + Lector de Hangul",
     descripcion:
-      "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia.",
+      "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia. Empieza el lunes 19 de octubre (el 12 es feriado en Chile) y termina el 7 de diciembre.",
     logros: [
       "Leer sus primeras palabras en coreano",
       "Presentarse: nombre y edad",
@@ -370,7 +370,7 @@ export const CONVERSACIONAL_2 = {
 export const cursoDe = (clase: Clase): Curso => CURSOS.find((c) => c.cursoId === clase.cursoId)!;
 export const cursoPorId = (id: CursoId): Curso => CURSOS.find((c) => c.cursoId === id)!;
 export const clasesDe = (cursoId: CursoId): Clase[] => CLASES.filter((c) => c.cursoId === cursoId);
-/** Texto de profe para una clase: "Guiran" */
+/** Texto de profe para una clase: "Kiran" */
 export const profeCorto = (clase: Clase): string => profeDe(clase.profeId).corto;
 /** "Martes o jueves 20:00" para un curso con varias secciones. */
 export function horarioDe(cursoId: CursoId, pais: PaisKey = "chile"): string {

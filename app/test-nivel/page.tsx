@@ -64,7 +64,7 @@ function resultFor(score: number) {
     return {
       tier: i18n('Principiante total'),
       emoji: '🌱',
-      text: i18n('Estás partiendo desde cero — el lugar perfecto para empezar bien. Básico 1 (A1.1) te enseña a leer hangul en la primera semana y a construir tus primeras frases. Martes o jueves 20:00 (Chile), desde la semana del 5 de octubre.'),
+      text: i18n('Estás partiendo desde cero — el lugar perfecto para empezar bien. Básico 1 (A1.1) te enseña a leer hangul en la primera semana y a construir tus primeras frases. Martes o jueves 20:00 (Chile), desde la semana del 12 de octubre.'),
       rec: i18n('Básico 1 (A1.1) · desde cero'),
     };
   if (score <= 7)

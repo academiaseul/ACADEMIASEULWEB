@@ -421,7 +421,7 @@ export default function MiyeokgukPost() {
           (preguntas 51 a 54, las que más puntos dejan en el camino) con
           corrección individual, y hacemos simulacros con tiempo real para que
           el día del examen no haya sorpresas. Cuesta US$150 el curso completo ·
-          o 2 cuotas de US$75, y arrancamos la semana del 5 de octubre.
+          o 2 cuotas de US$75, y arrancamos la semana del 12 de octubre.
         </p>
         <p className="mb-10">
           La sopa de algas te la tomas el día que apruebes. Esa sí que va a

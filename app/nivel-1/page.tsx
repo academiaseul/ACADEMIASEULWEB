@@ -235,9 +235,9 @@ export default function Nivel1Page() {
     }
   };
 
-  // Countdown al inicio de la cohorte: lunes 5 de octubre de 2026 (hora Chile)
+  // Countdown al inicio de la cohorte: lunes 19 de octubre de 2026 (hora Chile)
   useEffect(() => {
-    const deadline = new Date("2026-10-05T00:00:00-03:00").getTime();
+    const deadline = new Date("2026-10-12T00:00:00-03:00").getTime();
     const tick = () => {
       const diff = deadline - Date.now();
       if (diff <= 0) { setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 }); return; }
@@ -261,7 +261,7 @@ export default function Nivel1Page() {
 
   const faqs = [
     { q: t("¿Las clases son en vivo o grabadas?"), a: t("En vivo por Zoom (60 min cada una). Si te pierdes alguna, recibes la grabación dentro de las 24 horas y puedes escribirnos para resolver dudas de esa clase.") },
-    { q: t("¿Cuánto dura cada curso y cuándo empieza?"), a: t("Todos los cursos duran 8 semanas (2 meses), con 1 clase en vivo por semana. La cohorte arranca {inicio} y termina la semana del 23 de noviembre. Matrícula abierta hasta el {cierre}.", { inicio: t(INICIO_SEMANA), cierre: t(CIERRE_MATRICULA) }) },
+    { q: t("¿Cuánto dura cada curso y cuándo empieza?"), a: t("Todos los cursos duran 8 semanas (2 meses), con 1 clase en vivo por semana. La cohorte arranca {inicio} y termina la semana del 30 de noviembre. Matrícula abierta hasta el {cierre}.", { inicio: t(INICIO_SEMANA), cierre: t(CIERRE_MATRICULA) }) },
     { q: t("¿Cuánto cuesta y cómo pago?"), a: t("{precio} — mismo precio en todos los cursos. Aceptamos transferencia bancaria en Chile (sin comisión), tarjeta de crédito/débito vía Mercado Pago (se cobra en pesos chilenos) y PayPal en dólares (también con tarjeta, sin cuenta PayPal).", { precio: t(precioLabel()) }) },
     { q: t("¿Necesito experiencia previa?"), a: t("Para Básico 1 (A1.1) y Coreano para Niños: cero, empezamos desde el alfabeto. Básico 2 (A1.2) requiere Básico 1 (o el Nivel 1 de julio). Conversacional 1 (A2.1) requiere Básico 2 o el test de nivel. TOPIK II es para nivel intermedio.") },
     { q: t("Fui alumno/a del Nivel 1 en julio, ¿qué curso sigo?"), a: t("Ese curso hoy se llama Básico 1 (A1.1) y tu certificado equivale a A1.1. Tu siguiente paso es Básico 2 (A1.2) · miércoles 21:00 Chile · con Jay. Si lo que quieres es hablar, también puedes entrar a Conversacional 1 con test de nivel.") },

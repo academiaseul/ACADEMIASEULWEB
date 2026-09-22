@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 
 const BASE = 'https://www.academiaseul.com';
 // Fechas fijas: si cambian en cada build, Google ignora lastmod.
-const HOY = new Date('2026-09-18');
+const HOY = new Date('2026-09-22');
 const JUNIO = new Date('2026-06-07');
 const MAYO = new Date('2026-05-20');
 
@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/faq`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/hangul-dle`, lastModified: MAYO, changeFrequency: 'daily', priority: 0.5 },
     { url: `${BASE}/lector-hangul`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/dubu`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/privacidad`, lastModified: HOY, changeFrequency: 'yearly', priority: 0.2 },
     { url: `${BASE}/terminos`, lastModified: HOY, changeFrequency: 'yearly', priority: 0.2 },
   ];

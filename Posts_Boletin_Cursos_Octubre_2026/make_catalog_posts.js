@@ -62,13 +62,13 @@ const HEAD = `<!doctype html><html lang="es"><head><meta charset="utf-8">
 const TAIL = `</body></html>`;
 
 const top = (label, seal = true) => `<div class="top"><div class="brand">Academia Seúl · <span>Boletín de cursos</span> · Octubre 2026${label ? " · " + label : ""}</div>${seal ? `<img src="${SELLO}" alt="Sello Academia Seúl">` : "<div style=\"height:66px\"></div>"}</div>`;
-const foot = (cta) => `<div class="foot"><div class="cta">${cta || 'Inscripción abierta hasta el <span>domingo 4 de octubre</span><br>→ academiaseul.com/nivel-1'}</div><div class="handles">@academiaseul<br>@jaychingu.oficial</div></div>`;
+const foot = (cta) => `<div class="foot"><div class="cta">${cta || 'Inscripción abierta hasta el <span>domingo 11 de octubre</span><br>→ academiaseul.com/nivel-1'}</div><div class="handles">@academiaseul<br>@jaychingu.oficial</div></div>`;
 
 // ─── datos (lib/nivel1.ts · cohorte octubre 2026) ───
 const CURSOS = [
   {
     file: "01_KOR101_Basico1", code: "KOR <em>101</em>", secciones: "Secciones 01 · 02", cefr: "A1.1", nombre: "Básico 1", sub: "Primeras Palabras", ko: "첫 한국어",
-    horario: "Martes 20:00 o Jueves 20:00 <span class='mono' style='font-size:15px;color:#5C5F6B;white-space:nowrap'>(hora Chile)</span>", profe: "Guiran · <span class='kr'>기란</span> (nativa, bilingüe)", req: "Ninguno — desde cero", cupo: "15 por sección",
+    horario: "Martes 20:00 o Jueves 20:00 <span class='mono' style='font-size:15px;color:#5C5F6B;white-space:nowrap'>(hora Chile)</span>", profe: "Kiran · <span class='kr'>기란</span> (nativa, bilingüe)", req: "Ninguno — desde cero", cupo: "15 por sección",
     desc: "El punto de partida: aprender a leer el alfabeto coreano y decir tus primeras frases reales. El drilling de lectura vive en el Lector de Hangul como tarea gamificada, así la hora en vivo se usa para hablar.",
     logros: ["Leer cualquier sílaba en coreano (Hangul completo + batchim)", "Presentarte y presentar a tu familia", "Contar en los dos sistemas de números y decir la hora", "Decir a dónde vas, qué haces y qué te gusta"],
     prog: ["<span class='kr'>가나다라 I</span> · La sílaba", "<span class='kr'>가나다라 II + 안녕하세요</span>", "<span class='kr'>이게 뭐예요?</span> · ¿Qué es esto?", "<span class='kr'>우리 엄마예요</span> · Mi familia", "<span class='kr'>집이 어디예요?</span> · Lugares", "<span class='kr'>학교에 가요</span> · Mi día", "<span class='kr'>내 방</span> · Mi pieza y mis verbos", "<span class='kr'>사과를 좋아해요</span> + examen"],
@@ -100,7 +100,7 @@ const CURSOS = [
   },
   {
     file: "05_KOR050_Ninos", code: "KOR <em>050</em>", secciones: "Sección 01", cefr: "Niños", nombre: "Coreano para Niños", titleSize: 54, sub: "Juega y aprende", ko: "어린이 한국어",
-    horario: "Lunes 18:00 <span class='mono' style='font-size:15px;color:#5C5F6B;white-space:nowrap'>(hora Chile)</span>", profe: "Jay y Abby · <span class='kr'>김재희 · 홍미영</span>", req: "Ninguno — desde cero", cupo: "12",
+    horario: "Lunes 18:00 <span class='mono' style='font-size:15px;color:#5C5F6B;white-space:nowrap'>(hora Chile)</span>", profe: "Jay y Abby · <span class='kr'>김재희 · 홍미영</span>", req: "Ninguno — desde cero", cupo: "12", inicio: "Lunes 19 de octubre",
     desc: "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia.",
     logros: ["Leer sus primeras palabras en coreano", "Presentarse: nombre y edad", "Contar del 1 al 10 · animales y comidas", "Presentar un mini-show en coreano a la familia"], podra: "Al terminar, tu hijo/a podrá",
     prog: ["¡Hola, Corea! · <span class='kr'>안녕하세요</span>", "Mi nombre en coreano · <span class='kr'>이름</span>", "La fábrica de sílabas · <span class='kr'>글자</span>", "Los animales · <span class='kr'>동물</span>", "Mi familia · <span class='kr'>가족</span>", "Los números mágicos · <span class='kr'>숫자</span>", "¡Ñam! Comida coreana · <span class='kr'>음식</span>", "Show final + certificado · <span class='kr'>무대</span>"],
@@ -124,7 +124,7 @@ function cursoPage(c) {
     <div><div class="k">Prerrequisito</div><div class="v">${c.req}</div></div>
     <div><div class="k">Cupo</div><div class="v">${c.cupo}</div></div>
     <div><div class="k">Arancel</div><div class="v">US$150 · o 2 cuotas de US$75</div></div>
-    <div><div class="k">Inicio</div><div class="v">Semana del 5 de octubre</div></div>
+    <div><div class="k">Inicio</div><div class="v">${c.inicio || "Semana del 12 de octubre"}</div></div>
   </div>
   <h2>Descripción del curso</h2>
   <p class="desc">${c.desc}</p>
@@ -139,7 +139,7 @@ function cursoPage(c) {
 // ─── portada: índice del boletín ───
 function portada() {
   const rows = [
-    ["KOR 101", "Básico 1 · Primeras Palabras", "A1.1", "Mar 20:00 o Jue 20:00", "Guiran"],
+    ["KOR 101", "Básico 1 · Primeras Palabras", "A1.1", "Mar 20:00 o Jue 20:00", "Kiran"],
     ["KOR 102", "Básico 2 · Pasado, presente y futuro", "A1.2", "Mié 21:00", "Jay"],
     ["KOR 201", "Conversacional 1 · Corea que amas", "A2.1", "Mar 21:00", "Abby"],
     ["KOR 301", "TOPIK II · Estrategia de examen", "B1+", "Jue 21:00", "Jay"],
@@ -180,17 +180,17 @@ function portada() {
     <div><div class="big">US$150</div><div class="lbl">o 2 × US$75</div></div>
     <div><div class="big">✓</div><div class="lbl">certificado</div></div>
   </div>
-  ${foot('Inscripciones abiertas hasta el <span>domingo 4 de octubre</span><br>→ academiaseul.com/nivel-1')}
+  ${foot('Inscripciones abiertas hasta el <span>domingo 11 de octubre</span><br>→ academiaseul.com/nivel-1')}
 </div>` + TAIL;
 }
 
 // ─── calendario académico + cómo inscribirse ───
 function calendario() {
   const fechas = [
-    ["15 sep – 4 oct", "Periodo de inscripción", "Reserva tu cupo en academiaseul.com/nivel-1 · pago único o 2 cuotas"],
-    ["Dom 4 oct", "Cierre de matrícula", "o hasta llenar los cupos (15 por sección · Niños: 12 · TOPIK II: 8)"],
-    ["Semana del 5 oct", "Inicio de clases", "Lun Niños · Mar Básico 1 + Conversacional 1<br>Mié Básico 2 · Jue Básico 1 + TOPIK&nbsp;II"],
-    ["Semana del 23 nov", "Sesión 8 · examen final", "Presentación final + certificado Academia Seúl"],
+    ["15 sep – 11 oct", "Periodo de inscripción", "Reserva tu cupo en academiaseul.com/nivel-1 · pago único o 2 cuotas"],
+    ["Dom 11 oct", "Cierre de matrícula", "o hasta llenar los cupos (15 por sección · Niños: 12 · TOPIK II: 8)"],
+    ["Semana del 12 oct", "Inicio de clases", "Mar Básico 1 + Conversacional 1 · Mié Básico 2<br>Jue Básico 1 + TOPIK&nbsp;II · Niños: lun 19 oct (el 12 es feriado)"],
+    ["Semana del 30 nov", "Sesión 8 · examen final", "Presentación final + certificado Academia Seúl (Niños: lun 7 dic)"],
     ["Enero 2027", "Siguiente periodo", "Conversacional 2 (A2.2) · continuación de Conversacional 1"],
   ];
   return HEAD + `<style>

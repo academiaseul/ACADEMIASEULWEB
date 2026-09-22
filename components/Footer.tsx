@@ -31,6 +31,15 @@ const footerLinks = [
     ],
   },
   {
+    title: i18n('Gratis'),
+    links: [
+      { label: i18n('Dubu · el puzzle del Hangul'), href: '/dubu' },
+      { label: i18n('Lector de Hangul'),           href: '/lector-hangul' },
+      { label: i18n('Test de nivel'),              href: '/test-nivel' },
+      { label: i18n('Guías y recursos'),           href: '/recursos' },
+    ],
+  },
+  {
     title: i18n('Legal'),
     links: [
       { label: i18n('Política de privacidad'), href: '/privacidad' },
@@ -48,7 +57,7 @@ export default function Footer() {
   return (
     <footer className="bg-seoul-black border-t border-white/[0.05]">
       <div className="container-tight py-16 md:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 mb-16">
           <div className="lg:col-span-2">
             <a href="/#hero" className="flex items-center gap-3 group mb-5">
               <img

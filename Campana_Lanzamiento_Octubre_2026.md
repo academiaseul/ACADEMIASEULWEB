@@ -1,6 +1,8 @@
 # Campaña de lanzamiento · Cohorte octubre 2026
 ### 15 de septiembre → 5 de octubre · presupuesto mínimo · ejecutable por Jay solo
 
+> **Actualización 22 sept:** la cohorte se movió una semana: **cierre de matrícula domingo 11 de octubre · clases desde la semana del 12** (Niños desde el lunes 19, el 12 es feriado). La profesora de Básico 1 se escribe **Kiran** (기란). El calendario vigente día a día está en `Plan_Choque_20sep_13oct_2026.md`; este documento queda como referencia de la estrategia (sus fechas de "cierre" corren 7 días).
+
 **Meta:** llenar las 6 clases (objetivo realista: 40 alumnos = US$6.000; mínimo viable para abrir cada clase: 4). Todo lo de abajo cuesta **US$0** salvo un impulso opcional de US$30–50 en la semana 3.
 
 **La idea central de la campaña:** no vendemos "un curso de coreano". Vendemos **"lee coreano en 7 días, gratis, y después decide"**. El Lector de Hangul es el imán: se comparte, no cuesta, y el que llega al día 7 ya confía en nosotros. El curso es el paso natural.
@@ -46,7 +48,7 @@ Regla diaria: **45 minutos**. 1 contenido + 3 historias + responder todos los DM
 | **Mar 23** | Reel 4 · **Día 1 del reto contigo** (Jay hace la lección 1 del Lector en 30 s). Historias: reposteas a cada persona que empiece. | — |
 | **Mié 24** | Post carrusel: **"Los 21 vocales en 1 imagen"** (usa la tabla de la Guía de Estudio). Guardable = alcance orgánico. | ✉️ **Invitación a la Clase Abierta** del sábado (ver semana 2, sáb 27). |
 | **Jue 25** | Reel 5 · **Piso F** (ya diseñado): "en Corea no existe el piso 4". Gancho cultural + mini-clase de números + Lector. | — |
-| **Vie 26** | Historias: **presenta a Guiran y Abby** (video de 15 s de cada una diciendo "안녕하세요, soy… te espero el martes"). Humaniza y responde "¿quién enseña?". Pídeselos hoy si no los tienes. | 📲 WhatsApp a inscritos parciales (llenaron formulario pero no pagaron): "¿te ayudo con el pago?". |
+| **Vie 26** | Historias: **presenta a Kiran y Abby** (video de 15 s de cada una diciendo "안녕하세요, soy… te espero el martes"). Humaniza y responde "¿quién enseña?". Pídeselos hoy si no los tienes. | 📲 WhatsApp a inscritos parciales (llenaron formulario pero no pagaron): "¿te ayudo con el pago?". |
 | **Sáb 27** | 🔴 **CLASE ABIERTA EN VIVO por Instagram** (20:00 Chile, 30 min): "Lee tu nombre en coreano". No necesita landing ni formulario: se anuncia en historias 3 días antes con cuenta regresiva. Al final: "los que se inscriban hasta el lunes tienen sesión 1:1 conmigo de regalo". Guárdalo como IGTV/Reel después. | — |
 | **Dom 28** | Historia: replay de la clase abierta + "quedan X cupos en Básico 1 martes". | ✉️ **"Última semana"** con testimonios de julio (usa las 7 citas de la web) + horarios + link. |
 
@@ -86,7 +88,7 @@ Grábalos todos el **martes 16 en 2 horas** con el celular, luz de ventana y el 
 2. **El reto #LeoCoreanoEn7Días.** Genera contenido de otros (capturas etiquetándote), que es la única publicidad gratis que existe. Repostea TODO en historias, aunque sea 1 persona el primer día.
 3. **Plan "trae un chingu".** En el email de bienvenida y en el sitio: *"Si te inscribes con un amigo, los dos reciben una sesión 1:1 de 20 minutos con Jay"*. Te cuesta tiempo, no dinero, y duplica el ticket. (Si prefieres descuento, 10 % para ambos también funciona — tú decides.)
 4. **Micro-colaboraciones.** Busca 10 cuentas de fans de K-pop / K-drama en Chile, Colombia, México y Argentina de 5–30 k seguidores (busca #kpopchile #kdramacolombia #armylatam). Mensaje: *"Sorteo 1 cupo gratis (US$150) para tu comunidad; tú solo publicas una historia. Yo te mando el diseño."* 3 de 10 dirán que sí; cada una te trae 20–100 seguidores calificados. Costo: 1–3 cupos.
-5. **Tu equipo también publica.** Guiran (comunidad argentina, iglesia) y Abby (coreanos y latinos en Corea) tienen redes que tú no alcanzas. Mándales el post del lunes 15 y un texto de 3 líneas listo para copiar. Pídeles el video de 15 s del viernes 26.
+5. **Tu equipo también publica.** Kiran (comunidad argentina, iglesia) y Abby (coreanos y latinos en Corea) tienen redes que tú no alcanzas. Mándales el post del lunes 15 y un texto de 3 líneas listo para copiar. Pídeles el video de 15 s del viernes 26.
 
 **Comunidades donde compartir el Lector (no el curso — solo el regalo):** grupos de Facebook "Aprender coreano" / "Coreano para hispanohablantes" (hay varios de 50–200 k), subreddits en español de K-pop, servidores de Discord de fandoms LatAm. Un post por grupo, honesto: "hice esta herramienta gratis con audio nativo, ojalá les sirva". El que quiera más, llega solo al sitio.
 
@@ -104,7 +106,7 @@ Con eso, a US$0,10–0,30 por clic, son 150–400 visitas calificadas. Si convie
 
 ## 5. Números para saber si vamos bien
 
-| Indicador | Dónde lo ves | Meta al 5 oct |
+| Indicador | Dónde lo ves | Meta al 11 oct |
 |---|---|---|
 | Visitas a /nivel-1 | Netlify Analytics o Vercel Analytics (ya instalado) | 1.500 |
 | Formularios de inscripción | Formspree (asunto "Nueva inscripción") | 60 |
@@ -152,4 +154,4 @@ El link `paypal.com/ncp/payment/5X33QK4A928FU` es un **"Pay Link"** de PayPal (P
 - **20 min** · Responder DM y WhatsApp. Cada respuesta termina con una pregunta ("¿te reservo el cupo?") y un link.
 - **5 min** · Anotar en una hoja: inscritos por clase, leads abiertos, país. Eso te dice qué empujar mañana.
 
-화이팅. El lunes 5 empezamos.
+화이팅. La semana del 12 empezamos.

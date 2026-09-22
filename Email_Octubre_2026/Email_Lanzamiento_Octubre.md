@@ -10,7 +10,7 @@
 ## 1. Asunto (elige uno · prueba A/B)
 
 - 🇰🇷 Abrimos la cohorte de octubre: 5 cursos, un solo precio
-- Tu clase de coreano empieza el 5 de octubre 💙 (horarios + precios adentro)
+- Tu clase de coreano empieza el 12 de octubre 💙 (horarios + precios adentro)
 - Ya está el programa de octubre — elige tu nivel y tu horario
 - [nombre], esto es lo que te prometí: fechas, precios y syllabus 🐯
 
@@ -26,10 +26,10 @@ Soy Jay (김재희), de Academia Seúl. Hace un tiempo me dejaste tus datos para
 
 **La cohorte de octubre ya tiene matrícula abierta.** Y no es solo un curso: armamos un programa completo para que tengas un lugar sin importar dónde estés en el coreano.
 
-🗓️ **Todas las clases parten la semana del 5 de octubre** · 8 semanas · 1 clase en vivo por semana (60 min) · horarios en hora de Chile:
+🗓️ **Todas las clases parten la semana del 12 de octubre** · 8 semanas · 1 clase en vivo por semana (60 min) · horarios en hora de Chile:
 
 🧒 Coreano para Niños (8–12 años) — Lunes 18:00
-🌱 Básico 1 (A1.1) · Primeras Palabras — desde cero — Martes 20:00 o Jueves 20:00 · Prof.ª Guiran
+🌱 Básico 1 (A1.1) · Primeras Palabras — desde cero — Martes 20:00 o Jueves 20:00 · Prof.ª Kiran
 💬 Conversacional 1 (A2.1) · Corea que amas — Martes 21:00 · Prof.ª Abby (nativa, desde Corea)
 🚀 Básico 2 (A1.2) · Pasado, presente y futuro — Miércoles 21:00 · conmigo
 🎯 TOPIK II (B1+) — Jueves 21:00 · conmigo (máx. 8 personas)
@@ -47,7 +47,7 @@ https://www.academiaseul.com/nivel-1
 
 Los grupos son de máximo 15 personas (8 en TOPIK) para poder corregir tu pronunciación personalmente — y como tú estabas en la lista, te escribo antes de anunciarlo en redes. Si tienes dudas de qué nivel te conviene, respóndeme este correo o escríbeme por WhatsApp (+56 9 4211 5562) y lo vemos en 5 minutos.
 
-Nos vemos el 5 de octubre. 화이팅!
+Nos vemos el 12 de octubre. 화이팅!
 
 Jay Kim (김재희)
 Academia Seúl · academiaseul.com · @academiaseul
@@ -56,7 +56,7 @@ Academia Seúl · academiaseul.com · @academiaseul
 
 ## 3. Variante · EX-ALUMNOS DE JULIO (Nivel 1 / A1)
 
-**Asunto:** [nombre], tu siguiente peldaño en coreano empieza el 5 de octubre 🚀
+**Asunto:** [nombre], tu siguiente peldaño en coreano empieza el 12 de octubre 🚀
 
 ¡Hola [nombre]! 안녕하세요 💙
 
@@ -72,7 +72,7 @@ Puro hablar: K-pop, viajes a Jeju, comida, hanbok, e-sports. La mitad de las cla
 
 (¿Y por qué no los dos? Son días distintos y varios de ustedes me lo preguntaron. 😉)
 
-🗓️ 8 semanas desde la semana del 5 de octubre · 60 min por clase · certificado incluido
+🗓️ 8 semanas desde la semana del 12 de octubre · 60 min por clase · certificado incluido
 💙 US$150 el curso completo, o 2 cuotas de US$75
 
 📚 Syllabus completo: https://www.academiaseul.com/programa
@@ -88,19 +88,19 @@ Jay Kim (김재희)
 
 ## 4. Variante · ASISTENTES DEL TALLER (nunca se inscribieron)
 
-**Asunto:** ¿Te acuerdas de tu primera palabra en coreano? Empieza el 5 de octubre 🌱
+**Asunto:** ¿Te acuerdas de tu primera palabra en coreano? Empieza el 12 de octubre 🌱
 
 ¡Hola [nombre]! 안녕하세요 💙
 
 Soy Jay, de Academia Seúl. Estuviste en nuestro taller gratuito y leíste tu primera palabra en coreano en una hora. Te escribo porque **ahora sí abrimos el curso para que sigas desde ahí.**
 
 🌱 **Básico 1 (A1.1) · Primeras Palabras** (desde cero absoluto)
-Martes 20:00 o Jueves 20:00 hora Chile · con la Prof.ª Guiran (기란), coreana criada en Argentina — bilingüe perfecta.
+Martes 20:00 o Jueves 20:00 hora Chile · con la Prof.ª Kiran (기란), coreana criada en Argentina — bilingüe perfecta.
 En 8 semanas: lees cualquier sílaba, te presentas, presentas a tu familia, cuentas en los dos sistemas de números, dices a dónde vas y qué te gusta.
 
 Y mientras decides, ya puedes practicar gratis con nuestro **Lector de Hangul** (audio de voz nativa, ejercicios que rotan): https://www.academiaseul.com/lector-hangul
 
-🗓️ Empieza la semana del 5 de octubre · 60 min por clase · certificado incluido
+🗓️ Empieza la semana del 12 de octubre · 60 min por clase · certificado incluido
 💙 US$150 el curso completo, o 2 cuotas de US$75 · transferencia, tarjeta (Mercado Pago) o PayPal
 
 📚 Programa: https://www.academiaseul.com/programa
@@ -119,7 +119,7 @@ Jay Kim (김재희) · Academia Seúl
 
 Te avisé que te escribiría cuando abriera la cohorte: *ya está abierta* 🎉
 
-🗓️ Clases desde la semana del 5 de octubre · 8 semanas · 60 min · hora Chile:
+🗓️ Clases desde la semana del 12 de octubre · 8 semanas · 60 min · hora Chile:
 🧒 Niños (8–12) — Lun 18:00
 🌱 Básico 1 (A1.1, desde cero) — Mar 20:00 o Jue 20:00
 💬 Conversacional 1 (A2.1, profe nativa) — Mar 21:00

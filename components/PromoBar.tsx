@@ -32,8 +32,8 @@ export default function PromoBar() {
     <div className="w-full" style={{ backgroundColor: '#4236F6' }}>
       <div className="relative mx-auto flex max-w-6xl items-center justify-center gap-x-4 gap-y-1 flex-wrap px-4 py-2 pr-12 text-white">
         <a href="/nivel-1#clases" className="text-sm font-bold sm:pointer-events-none">
-          🎓 <span className="sm:hidden">{t('Matrícula abierta hasta el 4 de octubre')} →</span>
-          <span className="hidden sm:inline">{t('Matrícula abierta hasta el 4 de octubre')} · <span className="text-[#E8B84B]">{t('clases desde la semana del 5 de octubre')}</span></span>
+          🎓 <span className="sm:hidden">{t('Matrícula abierta hasta el 11 de octubre')} →</span>
+          <span className="hidden sm:inline">{t('Matrícula abierta hasta el 11 de octubre')} · <span className="text-[#E8B84B]">{t('clases desde la semana del 12 de octubre')}</span></span>
           <span className="hidden xl:inline"> — {t(PRECIO_CORTO)}</span>
         </a>
 

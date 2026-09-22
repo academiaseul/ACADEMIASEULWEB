@@ -18,7 +18,7 @@ import {
 } from '@/lib/nivel1';
 
 // Tarjetas de cursos derivadas de lib/nivel1.ts (una sola fuente de nombres).
-// Cohorte octubre 2026 · inicio semana del 5 de octubre · todos a 8 semanas.
+// Cohorte octubre 2026 · inicio semana del 12 de octubre · todos a 8 semanas.
 
 function CourseCard({ curso, index, pais, paisCorto }: { curso: Curso; index: number; pais: Parameters<typeof horarioDe>[1]; paisCorto: string }) {
   const ref = useRef(null);
@@ -106,7 +106,7 @@ export default function Courses() {
           <div>
             <div className="flex flex-wrap items-center gap-3 mb-4">
               <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-seoul-red">{t('Cohorte octubre 2026')}</span>
-              <span className="text-[11px] font-bold tracking-widest uppercase px-3 py-1 rounded-xl bg-[#E8B84B] text-[#0D0D0D]">{t('Matrícula abierta · cierra el 4 de octubre')}</span>
+              <span className="text-[11px] font-bold tracking-widest uppercase px-3 py-1 rounded-xl bg-[#E8B84B] text-[#0D0D0D]">{t('Matrícula abierta · cierra el 11 de octubre')}</span>
             </div>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-seoul-black leading-tight">
               {t('Encuentra tu')}
@@ -115,7 +115,7 @@ export default function Courses() {
             </h2>
           </div>
           <p className="text-seoul-black/55 text-base max-w-sm leading-relaxed">
-            {t('5 cursos · 6 horarios · 8 semanas desde la semana del 5 de octubre.')} <strong className="text-seoul-black">{t(precioLabel())}</strong> {t('— mismo precio en todos los cursos.')}
+            {t('5 cursos · 6 horarios · 8 semanas desde la semana del 12 de octubre.')} <strong className="text-seoul-black">{t(precioLabel())}</strong> {t('— mismo precio en todos los cursos.')}
           </p>
         </motion.div>
 

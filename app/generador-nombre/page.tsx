@@ -227,7 +227,7 @@ export default function GeneradorNombre() {
             <div className="text-3xl font-black mb-2" style={{ fontFamily: "'Noto Sans KR',sans-serif" }}>한글</div>
             <h3 className="text-2xl font-black mb-3">¿Quieres aprender a leerlo tú mismo?</h3>
             <p className="text-white/70 mb-6 max-w-md mx-auto">
-              Practica gratis con el Lector de Hangul o inscríbete en un curso en vivo desde la semana del 5 de octubre.
+              Practica gratis con el Lector de Hangul o inscríbete en un curso en vivo desde la semana del 12 de octubre.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="/lector-hangul" className="px-7 py-3.5 rounded-full font-bold" style={{ backgroundColor: "#E8B84B", color: "#0D0D0D" }}>
