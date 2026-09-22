@@ -455,43 +455,44 @@ export default function Nivel1Page() {
                   <div className="text-xs font-bold tracking-widest uppercase" style={{ color: "var(--as-azul-txt)" }}>{t("Datos del apoderado/a")}</div>
                   <div>
                     <label className={label}>{t("Nombre del apoderado/a *")}</label>
-                    <input type="text" value={form.apoderado} onChange={(e) => setForm({ ...form, apoderado: e.target.value })} placeholder={t("Tu nombre y apellido")} className={input} />
+                    <input type="text" value={form.apoderado} aria-label={t("Nombre del apoderado/a")} onChange={(e) => setForm({ ...form, apoderado: e.target.value })} placeholder={t("Tu nombre y apellido")} className={input} />
                   </div>
                 </>
               )}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className={label}>{t("Correo *")}</label>
-                  <input type="email" value={form.correo} onChange={(e) => setForm({ ...form, correo: e.target.value })} placeholder={t("tucorreo@email.com")} className={input} />
+                  <input type="email" value={form.correo} aria-label={t("Correo")} onChange={(e) => setForm({ ...form, correo: e.target.value })} placeholder={t("tucorreo@email.com")} className={input} />
                 </div>
                 <div>
                   <label className={label}>WhatsApp *</label>
-                  <input type="tel" value={form.whatsapp} onChange={(e) => setForm({ ...form, whatsapp: e.target.value })} placeholder={t("+56 9 1234 5678 (con código de país)")} className={input} />
+                  <input type="tel" value={form.whatsapp} aria-label={"WhatsApp"} onChange={(e) => setForm({ ...form, whatsapp: e.target.value })} placeholder={t("+56 9 1234 5678 (con código de país)")} className={input} />
                 </div>
               </div>
               <div>
                 <label className={label}>{t("País y ciudad *")}</label>
-                <input type="text" value={form.pais} onChange={(e) => setForm({ ...form, pais: e.target.value })} placeholder={info.corto === "Chile" ? t("Ej: Chile, Santiago") : t("Ej: {pais}, ciudad", { pais: t(info.corto) })} className={input} />
+                <input type="text" value={form.pais} aria-label={t("País y ciudad")} onChange={(e) => setForm({ ...form, pais: e.target.value })} placeholder={info.corto === "Chile" ? t("Ej: Chile, Santiago") : t("Ej: {pais}, ciudad", { pais: t(info.corto) })} className={input} />
               </div>
 
               {esNinos && <div className="text-xs font-bold tracking-widest uppercase pt-2" style={{ color: "var(--as-azul-txt)" }}>{t("Datos del alumno/a")}</div>}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className={label}>{esNinos ? t("Nombre del niño/a *") : t("Nombre completo *")}</label>
-                  <input type="text" value={form.nombre} onChange={(e) => setForm({ ...form, nombre: e.target.value })} placeholder={esNinos ? t("Nombre y apellido del niño/a") : t("Tu nombre y apellido")} className={input} />
+                  <input type="text" value={form.nombre} aria-label={esNinos ? t("Nombre del niño/a") : t("Nombre completo")} onChange={(e) => setForm({ ...form, nombre: e.target.value })} placeholder={esNinos ? t("Nombre y apellido del niño/a") : t("Tu nombre y apellido")} className={input} />
                 </div>
                 <div>
                   <label className={label}>{esNinos ? t("Edad del niño/a *") : t("Edad *")}</label>
-                  <input type="number" min={1} value={form.edad} onChange={(e) => setForm({ ...form, edad: e.target.value })} placeholder={esNinos ? t("Ej: 10") : t("Ej: 24")} className={input} />
+                  <input type="number" min={1} value={form.edad} aria-label={esNinos ? t("Edad del niño/a") : t("Edad")} onChange={(e) => setForm({ ...form, edad: e.target.value })} placeholder={esNinos ? t("Ej: 10") : t("Ej: 24")} className={input} />
                 </div>
               </div>
               <div>
                 <label className={label}>{t("Documento de identidad")} <span className="font-normal text-gray-400">{t("(opcional)")}</span></label>
-                <input type="text" value={form.rut} onChange={(e) => setForm({ ...form, rut: e.target.value })} placeholder={t("RUT o ID — lo pediremos al emitir el certificado")} className={input} />
+                <input type="text" value={form.rut} aria-label={t("Documento de identidad")} onChange={(e) => setForm({ ...form, rut: e.target.value })} placeholder={t("RUT o ID — lo pediremos al emitir el certificado")} className={input} />
               </div>
               <div>
                 <label className={label}>{esNinos ? t("¿Qué nivel de coreano tiene tu hijo/a? *") : t("¿Cuál es tu nivel de coreano? *")}</label>
                 <select
+                  aria-label={esNinos ? t("¿Qué nivel de coreano tiene tu hijo/a?") : t("¿Cuál es tu nivel de coreano?")}
                   value={form.nivel}
                   onChange={(e) => {
                     const v = e.target.value;
@@ -510,7 +511,7 @@ export default function Nivel1Page() {
               </div>
               <div>
                 <label className={label}>{t("¿Cómo nos conociste? *")}</label>
-                <select value={form.comoConocio} onChange={(e) => setForm({ ...form, comoConocio: e.target.value })} className={`${input} bg-white`}>
+                <select value={form.comoConocio} aria-label={t("¿Cómo nos conociste?")} onChange={(e) => setForm({ ...form, comoConocio: e.target.value })} className={`${input} bg-white`}>
                   <option value="">{t("Selecciona una opción")}</option>
                   {["Instagram", "TikTok", "YouTube", "Facebook", i18n("El Lector de Hangul"), i18n("Recomendación de un amigo"), i18n("Google / búsqueda"), i18n("Ya fui alumno/a"), i18n("Otro")].map((o) => (
                     <option key={o} value={o}>{t(o)}</option>
@@ -519,7 +520,7 @@ export default function Nivel1Page() {
               </div>
               <div>
                 <label className={label}>{esNinos ? t("¿Por qué quiere aprender coreano?") : t("¿Por qué quieres aprender coreano?")} <span className="font-normal text-gray-400">{t("(opcional)")}</span></label>
-                <textarea value={form.motivacion} onChange={(e) => setForm({ ...form, motivacion: e.target.value })} rows={3} placeholder={t("K-pop, K-drama, un viaje, trabajo, la cultura... ¡Nos ayuda a conocerte! 💜")} className={`${input} resize-none`} />
+                <textarea value={form.motivacion} aria-label={esNinos ? t("¿Por qué quiere aprender coreano?") : t("¿Por qué quieres aprender coreano?")} onChange={(e) => setForm({ ...form, motivacion: e.target.value })} rows={3} placeholder={t("K-pop, K-drama, un viaje, trabajo, la cultura... ¡Nos ayuda a conocerte! 💜")} className={`${input} resize-none`} />
               </div>
 
               {formError && <p className="text-sm font-medium" style={{ color: "var(--as-azul-txt)" }}>{formError}</p>}

@@ -41,7 +41,11 @@ function detectLang(): Lang {
     if (saved && ["es", "en", "ko"].includes(saved)) return saved;
     const q = new URLSearchParams(window.location.search).get("lang") as Lang | null;
     if (q && ["es", "en", "ko"].includes(q)) return q;
-    const nav = (navigator.language || "es").toLowerCase();
+    // Idiomas del navegador: si el visitante tiene español en cualquier posición (muy común en
+    // LatAm con el teléfono en inglés), mandamos español. Solo si no hay español miramos el primero.
+    const navs = ((navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "es"]) as string[]).map((l) => l.toLowerCase());
+    if (navs.some((l) => l.startsWith("es"))) return "es";
+    const nav = navs[0] || "es";
     if (nav.startsWith("ko")) return "ko";
     if (nav.startsWith("en")) return "en";
   } catch {}

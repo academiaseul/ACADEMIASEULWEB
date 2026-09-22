@@ -34,7 +34,13 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
 1. Decidir si Hotmart se activa como tercera pasarela.
 2. Enviar el email de lanzamiento (contactos en Formspree `mzdypyky` → CSV).
 3. En PayPal: activar "Cuenta de PayPal opcional" (tarjeta sin cuenta) y el retorno automático a /nivel-1?pago=success.
-4. Auditoría del 15 sept (`Auditoria_Sitio_2026-09-15.md`): aprobar los puntos ⏳ (borrar /taller, secretos en git, archivos huérfanos, og-image/favicon azules, hero comprimido).
+4. **Rotar `RESEND_API_KEY`** (estaba versionada en `.env.local`/`.env.production` desde el primer commit; hoy se sacó de git) y cargarla en Netlify junto con `OWNER_EMAIL`. Ver `Auditoria_Sitio_2026-09-22.md` §1.
+5. Crear el link de Mercado Pago de $75.000 CLP (cuota 1 de 2) → `MP_LINK_MENSUAL` en `lib/nivel1.ts`.
+6. Subir a YouTube la miniatura azul del taller (`Campana_Assets/youtube/taller_hangul_miniatura.png`).
+
+## Auditorías
+- `Auditoria_Sitio_2026-09-22.md` (rev. 2) — 14 hallazgos resueltos (hero 3,5 MB → 302 KB, og-image/iconos azules, /taller grabado, LiteYouTube, /lector-coreano, Dubu con cabecera y pie, 404 propio, idioma automático que prefiere español, aria-labels del formulario, `.env` fuera de git) y 4 pendientes de Jay. Scripts en el scratchpad: `audit_site.js` (metadatos, peso, textos prohibidos) y `audit_links.js` (rastreo de links).
+- Variables de entorno documentadas en `.env.example` (nunca subir `.env.local` ni `.env.production`).
 
 ## Cómo trabajar
 - Commits en español, sin acentos en el asunto es aceptable; push a `main` despliega.
