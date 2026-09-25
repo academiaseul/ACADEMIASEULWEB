@@ -1,0 +1,54 @@
+<!-- N1 · Lista de espera enero 2027 · todos menos inscritos · ENVÍO: martes 13 de octubre de 2026, 10:00 hora Chile · Academia Seúl
+     Programar el lunes 12. Brevo: Campaigns → Create an email campaign → Design "Code your own" → pegar este HTML → Schedule: mar 13, 10:00 (America/Santiago).
+     Destinatarios: lista "01 Leads sitio" · EXCLUIR "02 Alumnos octubre" (con la lista final de inscritos del domingo 11).
+     ANTES DE ENVIAR: confirma que el sitio ya pasó a lista de espera (lun 12, 09:00 · COHORTE_ABIERTA = false en lib/nivel1.ts).
+       El botón principal usa /notificarme?curso=general (funciona igual con la cohorte abierta o cerrada).
+       Los links por curso (nivel1, basico2, conversacional, conversacion, topik, ninos) solo muestran "lista de espera" si la cohorte ya está cerrada; si el cambio no se hizo, borra esa línea.
+       Cada anotado llega a Formspree (mzdypyky) con el asunto "Lista de espera — <curso>".
+     Asunto: Tu lugar en enero 2027 🌱
+     Preheader: Lista de espera de enero abierta · el Lector, Dubu y el taller siguen gratis
+     (El preheader ya va oculto al inicio del HTML: deja vacío el campo "Preview text" de Brevo.)
+     Párrafo OPCIONAL (solo si decides aceptar inscripciones tardías esta semana) marcado más abajo; por defecto va comentado.
+     UTM: utm_source=brevo&utm_medium=email&utm_campaign=n1 -->
+<div style="display:none;font-size:1px;color:#F4F7FF;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;">Lista de espera de enero abierta · el Lector, Dubu y el taller siguen gratis&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F7FF;margin:0;padding:24px 0;font-family:Arial,Helvetica,sans-serif;">
+  <tr><td align="center">
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background:#FFFFFF;border-radius:16px;overflow:hidden;">
+      <tr><td style="background:#4236F6;padding:28px 40px;text-align:center;">
+        <div style="color:#C9CFFF;font-size:13px;letter-spacing:3px;font-weight:bold;">ACADEMIA&nbsp;&nbsp;SEÚL</div>
+        <div style="color:#FFFFFF;font-size:26px;font-weight:bold;margin-top:8px;line-height:1.2;">Nos vemos en enero 2027 🌱</div>
+        <div style="color:#E8B84B;font-size:15px;font-weight:bold;margin-top:8px;">Lista de espera abierta · el Lector, Dubu y el taller siguen gratis</div>
+      </td></tr>
+      <tr><td style="padding:30px 40px 8px 40px;color:#1B1C24;font-size:16px;line-height:1.65;">
+        <p style="margin:0 0 14px 0;">¡Hola, {{ contact.FIRSTNAME | default: "chingu" }}! 안녕하세요 💙</p>
+        <p style="margin:0 0 14px 0;">Esta semana arranca la cohorte de octubre: hoy empiezan Básico 1 con Kiran y Conversacional 1 con Abby. Si esta vez no pudiste, no pasa nada: <strong>la próxima cohorte es en enero de 2027</strong>, y ahí se estrena también Conversacional 2 (A2.2).</p>
+        <!-- OPCIONAL · inscripción tardía (descomentar solo si Jay lo decide):
+        <p style="margin:0 0 14px 0;">¿Se te pasó la fecha por unos días? Escríbeme hoy al WhatsApp y vemos si todavía te puedo sumar a un grupo de esta semana.</p>
+        -->
+        <p style="margin:0 0 18px 0;">¿Quieres que te avise primero, antes de anunciarlo en redes? Anótate en la lista de espera (1 minuto):</p>
+        <p style="margin:0 0 12px 0;text-align:center;">
+          <a href="https://www.academiaseul.com/notificarme?curso=general&utm_source=brevo&utm_medium=email&utm_campaign=n1" style="display:inline-block;background:#4236F6;color:#FFFFFF;text-decoration:none;font-weight:bold;font-size:17px;padding:15px 30px;border-radius:12px;">Anotarme para enero 2027 →</a>
+        </p>
+        <p style="margin:0 0 14px 0;text-align:center;font-size:13px;color:#5C5F6B;line-height:1.7;">¿Ya sabes cuál? <a href="https://www.academiaseul.com/notificarme?curso=nivel1&utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#4236F6;">Básico 1</a> · <a href="https://www.academiaseul.com/notificarme?curso=basico2&utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#4236F6;">Básico 2</a> · <a href="https://www.academiaseul.com/notificarme?curso=conversacional&utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#4236F6;">Conversacional 1</a> · <a href="https://www.academiaseul.com/notificarme?curso=conversacion&utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#4236F6;">Conversacional 2</a> · <a href="https://www.academiaseul.com/notificarme?curso=topik&utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#4236F6;">TOPIK II</a> · <a href="https://www.academiaseul.com/notificarme?curso=ninos&utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#4236F6;">Niños (8–15)</a></p>
+        <p style="margin:0 0 22px 0;">O, más fácil: responde este correo con la palabra <strong>"enero"</strong> y quedas en la lista.</p>
+      </td></tr>
+      <tr><td style="padding:0 40px 8px 40px;">
+        <div style="color:#4236F6;font-size:13px;letter-spacing:2px;font-weight:bold;margin-bottom:8px;">MIENTRAS TANTO, GRATIS, PARA NO PERDER EL RITMO</div>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:15px;color:#1B1C24;line-height:1.5;">
+          <tr><td style="padding:10px 0;border-bottom:1px solid #E3E5EF;">🐯 <a href="https://www.academiaseul.com/dubu?utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#4236F6;font-weight:bold;">Dubu (두부)</a>: el puzzle del Hangul. Consonante + vocal, 30 niveles en 6 barrios de Seúl, con voz nativa.</td></tr>
+          <tr><td style="padding:10px 0;border-bottom:1px solid #E3E5EF;">🎧 <a href="https://www.academiaseul.com/lector-coreano?utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#4236F6;font-weight:bold;">Lector de Hangul</a>: las 40 letras con audio nativo, para leer y practicar a tu ritmo.</td></tr>
+          <tr><td style="padding:10px 0;">▶️ <a href="https://www.academiaseul.com/taller?utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#4236F6;font-weight:bold;">Taller de Hangul grabado</a>: la clase completa (≈ 1 hora), desde cero hasta tus primeras palabras.</td></tr>
+        </table>
+      </td></tr>
+      <tr><td style="padding:22px 40px 28px 40px;color:#1B1C24;font-size:16px;line-height:1.65;">
+        <p style="margin:0 0 14px 0;">¿Una duda? Responde este correo o escríbeme al WhatsApp <a href="https://wa.me/56942115562" style="color:#4236F6;font-weight:bold;">+56 9 4211 5562</a>.</p>
+        <p style="margin:0;">Gracias por estar del otro lado. 화이팅!<br>Jay Kim (김재희) · Academia Seúl<br><a href="https://wa.me/56942115562" style="color:#4236F6;font-weight:bold;text-decoration:none;">WhatsApp +56 9 4211 5562</a> · <a href="https://www.instagram.com/academiaseul" style="color:#4236F6;text-decoration:none;">@academiaseul</a></p>
+      </td></tr>
+      <tr><td style="background:#0a0a0f;padding:20px 40px;text-align:center;color:#FFFFFF;font-size:12px;line-height:1.7;">
+        Academia Seúl · Santiago, Chile · clases online por Zoom<br>
+        <a href="https://www.academiaseul.com/?utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#FFFFFF;text-decoration:none;">academiaseul.com</a> · <a href="https://www.academiaseul.com/dubu?utm_source=brevo&utm_medium=email&utm_campaign=n1" style="color:#E8B84B;text-decoration:none;">Dubu, el puzzle del Hangul (gratis)</a><br>
+        <span style="color:#9AA0B4;">Recibes este correo porque dejaste tus datos en academiaseul.com. <a href="{{ unsubscribe }}" style="color:#9AA0B4;">Si no quieres recibir más correos, haz clic aquí</a>.</span>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>

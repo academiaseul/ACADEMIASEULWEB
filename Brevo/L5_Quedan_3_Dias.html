@@ -1,0 +1,39 @@
+<!-- L5 · Quedan 3 días (corto y honesto) · todos menos inscritos · ENVÍO: jueves 8 de octubre de 2026, 10:00 hora Chile · Academia Seúl
+     DOS campañas con el MISMO HTML y distinto asunto (no uses el "A/B test" de Brevo: ese reparte al azar).
+       · Campaña "L5 · abrió algo" → segmento "Abrió algo" (abrió L1 o su variante 3, L1-b, L2, L3 o L4) · excluir "02 Alumnos octubre".
+         Asunto A: Quedan 3 días (y mañana es 한글날)
+       · Campaña "L5 · no abrió nada" → segmento "No abrió nada" (no abrió ninguna campaña) · excluir "02 Alumnos octubre".
+         Asunto B: ¿Todavía quieres aprender coreano?
+     Preheader (los dos): El domingo 11 cierro la matrícula · US$150 el curso completo · o 2 cuotas de US$75
+     (El preheader ya va oculto al inicio del HTML: deja vacío el campo "Preview text" de Brevo.)
+     Antes de programar: mueve a los que pagaron a "02 Alumnos octubre". Mismo día: programar L5-b (dom 11, 12:00).
+     UTM: utm_source=brevo&utm_medium=email&utm_campaign=l5 en las dos campañas (Brevo ya separa aperturas y clics de cada una; "l5b" es del correo del domingo). -->
+<div style="display:none;font-size:1px;color:#F4F7FF;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;">El domingo 11 cierro la matrícula · US$150 el curso completo · o 2 cuotas de US$75&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F7FF;margin:0;padding:24px 0;font-family:Arial,Helvetica,sans-serif;">
+  <tr><td align="center">
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background:#FFFFFF;border-radius:16px;overflow:hidden;">
+      <tr><td style="background:#4236F6;padding:24px 40px;text-align:center;">
+        <div style="color:#C9CFFF;font-size:13px;letter-spacing:3px;font-weight:bold;">ACADEMIA&nbsp;&nbsp;SEÚL</div>
+        <div style="color:#FFFFFF;font-size:26px;font-weight:bold;margin-top:8px;line-height:1.2;">Quedan 3 días</div>
+        <div style="color:#E8B84B;font-size:15px;font-weight:bold;margin-top:8px;">Mañana es 한글날 · el domingo 11 cierro la matrícula</div>
+      </td></tr>
+      <tr><td style="padding:30px 40px 28px 40px;color:#1B1C24;font-size:16px;line-height:1.65;">
+        <p style="margin:0 0 14px 0;">¡Hola, {{ contact.FIRSTNAME | default: "chingu" }}! Te escribo corto y sin adornos.</p>
+        <p style="margin:0 0 14px 0;">Mañana, <strong>viernes 9 de octubre</strong>, Corea celebra el <strong>한글날</strong>, el día del alfabeto coreano: el que el rey Sejong creó para que cualquier persona pudiera aprender a leer. No se me ocurre mejor semana para empezar.</p>
+        <p style="margin:0 0 14px 0;">El <strong>domingo 11 de octubre a las 23:59</strong> (hora Chile) cierro la matrícula de la cohorte de octubre, y el martes 13 empezamos. Después, la próxima oportunidad es enero de 2027.</p>
+        <p style="margin:0 0 18px 0;">Si estabas esperando una señal: es esta. Tu curso es <strong style="color:#4236F6;">{{ contact.CURSO_SUGERIDO | default: "Básico 1 (A1.1)" }}</strong>: 8 semanas, 1 clase en vivo de 60 min a la semana, certificado incluido, <strong>US$150 el curso completo · o 2 cuotas de US$75</strong>.</p>
+        <p style="margin:0 0 20px 0;text-align:center;">
+          <a href="https://www.academiaseul.com/nivel-1?utm_source=brevo&utm_medium=email&utm_campaign=l5" style="display:inline-block;background:#4236F6;color:#FFFFFF;text-decoration:none;font-weight:bold;font-size:17px;padding:15px 30px;border-radius:12px;">Reservar mi cupo antes del domingo →</a>
+        </p>
+        <p style="margin:0 0 14px 0;">Si octubre no te acomoda, respóndeme <strong>"enero"</strong> y te aviso primero cuando abra la próxima. Y si ya no te interesa, sin problema: el link de baja está abajo y no te escribo más.</p>
+        <p style="margin:0 0 18px 0;font-size:14px;color:#5C5F6B;line-height:1.6;">Para celebrar el 한글날 igual, con o sin curso: 10 minutos en <a href="https://www.academiaseul.com/dubu?utm_source=brevo&utm_medium=email&utm_campaign=l5" style="color:#4236F6;">Dubu</a> o en el <a href="https://www.academiaseul.com/lector-coreano?utm_source=brevo&utm_medium=email&utm_campaign=l5" style="color:#4236F6;">Lector de Hangul</a>, gratis.</p>
+        <p style="margin:0;">Gracias por leerme. 화이팅!<br>Jay Kim (김재희) · Academia Seúl<br><a href="https://wa.me/56942115562" style="color:#4236F6;font-weight:bold;text-decoration:none;">WhatsApp +56 9 4211 5562</a></p>
+      </td></tr>
+      <tr><td style="background:#0a0a0f;padding:20px 40px;text-align:center;color:#FFFFFF;font-size:12px;line-height:1.7;">
+        Academia Seúl · Santiago, Chile · clases online por Zoom<br>
+        <a href="https://www.academiaseul.com/?utm_source=brevo&utm_medium=email&utm_campaign=l5" style="color:#FFFFFF;text-decoration:none;">academiaseul.com</a> · <a href="https://www.academiaseul.com/programa?utm_source=brevo&utm_medium=email&utm_campaign=l5" style="color:#E8B84B;text-decoration:none;">Programa de los cursos</a><br>
+        <span style="color:#9AA0B4;">Recibes este correo porque dejaste tus datos en academiaseul.com. <a href="{{ unsubscribe }}" style="color:#9AA0B4;">Si no quieres recibir más correos, haz clic aquí</a>.</span>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>

@@ -1,6 +1,6 @@
 # Academia Seúl · contexto del proyecto para Claude
 
-Lee esto antes de tocar nada. Es el resumen de las decisiones tomadas hasta el **22 de septiembre de 2026**; el detalle vive en los archivos que se citan.
+Lee esto antes de tocar nada. Es el resumen de las decisiones tomadas hasta el **25 de septiembre de 2026**; el detalle vive en los archivos que se citan.
 
 ## Quién eres aquí
 Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.com): dirección de marketing y ventas, TI, editorial y "ministerio de educación". Responde en español (Jay escribe en inglés o español indistintamente). Tono: cercano, "chingu", 화이팅.
@@ -23,7 +23,10 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
 - Pagos: Mercado Pago — link fijo `MP_LINK_UNICO = https://mpago.la/1cHrbqy` ($150.000 CLP, tarjeta o transferencia sin cuenta; confirmado por Jay el 22 sept 2026) abre directo desde /nivel-1; `MP_LINK_MENSUAL` vacío ⇒ el plan en cuotas usa el checkout dinámico `app/api/checkout/route.ts` (CLP 150.000 / 75.000, requiere `MP_ACCESS_TOKEN` en Netlify), PayPal (links en `lib/nivel1.ts`: `5X33QK4A928FU` = US$150 y `SQ2YHGEZFUDEC` = US$75, confirmados el 15 sept 2026), Hotmart opcional (links vacíos = botón oculto), transferencia por WhatsApp.
 
 ## Documentos del repo
-- `Plan_Choque_20sep_13oct_2026.md` — plan vigente día a día 20 sept → 13 oct (reels, emails Brevo L1–N1, WhatsApp normal sin Business, historias). `Campana_Lanzamiento_Octubre_2026.md` = estrategia original (referencia). `Posts_Boletin_Cursos_Octubre_2026/` = 7 láminas de Instagram (boletín de cursos) + captions.
+- **`Plan_Lanzamiento_25sep_19oct_2026.md` — plan VIGENTE** (25 sept → 19 oct; reemplaza a `Plan_Choque_20sep_13oct_2026.md`, que queda como referencia de guiones): tabla día a día, modo liviano (30–45 min/día, grabación en bloques dom 27 y dom 4), reto #LeoCoreanoEn7Días **lun 28 sep → dom 4 oct** (ganador lun 5), vivo "Lee tu nombre en coreano" **sáb 3 oct 20:00** (개천절), 한글날 vie 9, checklist operativo del inicio de clases y decisiones pendientes. `Campana_Lanzamiento_Octubre_2026.md` = estrategia original (referencia).
+- `Lanzamiento_Octubre_2026/` — `profes/` (Kit_Kiran_Basico1_ES y Kit_Abby_Conversacional_Ninos_KO en .docx/.pdf, fechas de Abby en hora de Corea; `Mensajes_Kiran_Abby.md` con plazos: clip mié 30, Zoom mié 7, lista y grupo lun 12), `alumnos/` (Guia_Alumno y Guia_Familias_Ninos .docx/.pdf; `Mensajes_Alumnos.md`: confirmación de pago, grupos de WhatsApp, recordatorios, ex-alumnos de julio, cuota 2), `fuente/` (generadores make_kits_profes.js, make_guias_alumnos.js, make_disenos_octubre.js; se ejecutan desde el scratchpad por node_modules).
+- `Brevo/Calendario_Envios_Octubre_2026.md` — índice de envíos L1 (vie 25) · L1-b (sáb 26) · L2 (mié 30) · L3 (vie 2) · L4 (lun 5) · L5 (jue 8) · L5-b (dom 11) · O1 (lun 12) · R1 (recordatorios 12–18) · N1 (mar 13), con sus HTML en `Brevo/`. Ojo: en Brevo, P1 = 18 contactos calientes (lista Nivel 1, test, intermedio) y **solo 2 ex-alumnos de julio**; al resto de julio se les escribe 1:1 por WhatsApp.
+- `Campana_Assets/instagram/octubre/` — 15 diseños nuevos (reto + 7 historias diarias, profes, vivo, 한글날, cierre, hoy cierra, empezamos, 추석). `Posts_Boletin_Cursos_Octubre_2026/` = 7 láminas de Instagram (boletín de cursos) + captions.
 - `Captions_Redes_Octubre_2026.md` — evaluación del Reel 01 ("Volví", 22 sept) + captions Instagram/YouTube Shorts/TikTok de todos los posts de la campaña + guía de grabación (set, texto en pantalla, portadas, bloques de grabación).
 - `Email_Octubre_2026/` — email de lanzamiento (3 variantes, WhatsApp, HTML, guía de envío con Brevo).
 - `public/programas/` — 6 PDFs descargables (generados con `make_programas_pdf.js` en el scratchpad de esta PC).
@@ -37,6 +40,7 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
 4. **Rotar `RESEND_API_KEY`** (estaba versionada en `.env.local`/`.env.production` desde el primer commit; hoy se sacó de git) y cargarla en Netlify junto con `OWNER_EMAIL`. Ver `Auditoria_Sitio_2026-09-22.md` §1.
 5. Crear el link de Mercado Pago de $75.000 CLP (cuota 1 de 2) → `MP_LINK_MENSUAL` en `lib/nivel1.ts`.
 6. Subir a YouTube la miniatura azul del taller (`Campana_Assets/youtube/taller_hangul_miniatura.png`).
+7. Decisiones del lanzamiento (detalle en `Plan_Lanzamiento_25sep_19oct_2026.md` §9): cuenta de Zoom de pago (la gratis corta a los 40 min) · fecha de la cuota 2 (propuesta: semana del 9 nov, marcada [POR CONFIRMAR]) · regla del certificado y pesos de nota (las guías/kits usan 75 % asistencia en vivo o grabación+tarea y 25/25/15/35; los PDF de Básico 1 y Conversacional 1 dicen 60 % + 6 de 8 en vivo y 40/30/30) · correo de contacto (hola.academiaseul@gmail.com vs hola@academiaseul.com en /terminos) · mínimo de alumnos para abrir una clase · material de la clase 1 de Conversacional 1 y Niños · premio del reto.
 
 ## Auditorías
 - `Auditoria_Sitio_2026-09-22.md` (rev. 2) — 14 hallazgos resueltos (hero 3,5 MB → 302 KB, og-image/iconos azules, /taller grabado, LiteYouTube, /lector-coreano, Dubu con cabecera y pie, 404 propio, idioma automático que prefiere español, aria-labels del formulario, `.env` fuera de git) y 4 pendientes de Jay. Scripts en el scratchpad: `audit_site.js` (metadatos, peso, textos prohibidos) y `audit_links.js` (rastreo de links).

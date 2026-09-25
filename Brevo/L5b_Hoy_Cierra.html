@@ -1,0 +1,34 @@
+<!-- L5-b · Hoy cierra (3–4 líneas) · abrió L4 o L5 y NO inscrito · ENVÍO: domingo 11 de octubre de 2026, 12:00 hora Chile · Academia Seúl
+     Programar el jueves 8. Brevo: Campaigns → Create an email campaign → Design "Code your own" → pegar este HTML → Schedule: dom 11, 12:00 (America/Santiago).
+     Destinatarios: segmento "Abrió L4 o L5" · EXCLUIR "02 Alumnos octubre".
+     IMPORTANTE: el domingo por la mañana (antes de las 12:00), mueve a "02 Alumnos octubre" a quienes pagaron desde el jueves; Brevo evalúa la exclusión al momento del envío.
+     Asunto: Hoy cierra · 23:59
+     Preheader: Último día de matrícula de octubre · clases desde el martes 13
+     (El preheader ya va oculto al inicio del HTML: deja vacío el campo "Preview text" de Brevo.)
+     UTM: utm_source=brevo&utm_medium=email&utm_campaign=l5b -->
+<div style="display:none;font-size:1px;color:#F4F7FF;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;">Último día de matrícula de octubre · clases desde el martes 13&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F7FF;margin:0;padding:24px 0;font-family:Arial,Helvetica,sans-serif;">
+  <tr><td align="center">
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background:#FFFFFF;border-radius:16px;overflow:hidden;">
+      <tr><td style="background:#4236F6;padding:22px 40px;text-align:center;">
+        <div style="color:#C9CFFF;font-size:13px;letter-spacing:3px;font-weight:bold;">ACADEMIA&nbsp;&nbsp;SEÚL</div>
+        <div style="color:#FFFFFF;font-size:24px;font-weight:bold;margin-top:8px;line-height:1.2;">Hoy cierra la matrícula</div>
+        <div style="color:#E8B84B;font-size:15px;font-weight:bold;margin-top:8px;">Domingo 11 de octubre · hasta las 23:59 hora Chile</div>
+      </td></tr>
+      <tr><td style="padding:28px 40px 28px 40px;color:#1B1C24;font-size:16px;line-height:1.65;">
+        <p style="margin:0 0 14px 0;">¡Hola, {{ contact.FIRSTNAME | default: "chingu" }}! Hoy a las <strong>23:59</strong> cierro la matrícula de octubre. El martes 13 empezamos.</p>
+        <p style="margin:0 0 18px 0;">Si ya te inscribiste, ignora este correo (y nos vemos en clases). Si no, aquí está tu cupo:</p>
+        <p style="margin:0 0 18px 0;text-align:center;">
+          <a href="https://www.academiaseul.com/nivel-1?utm_source=brevo&utm_medium=email&utm_campaign=l5b" style="display:inline-block;background:#4236F6;color:#FFFFFF;text-decoration:none;font-weight:bold;font-size:17px;padding:15px 30px;border-radius:12px;">Reservar mi cupo →</a>
+        </p>
+        <p style="margin:0 0 18px 0;">¿Una duda de último minuto? Escríbeme al WhatsApp <a href="https://wa.me/56942115562" style="color:#4236F6;font-weight:bold;">+56 9 4211 5562</a> y te respondo yo.</p>
+        <p style="margin:0;">화이팅!<br>Jay Kim (김재희) · Academia Seúl</p>
+      </td></tr>
+      <tr><td style="background:#0a0a0f;padding:20px 40px;text-align:center;color:#FFFFFF;font-size:12px;line-height:1.7;">
+        Academia Seúl · Santiago, Chile · clases online por Zoom<br>
+        <a href="https://www.academiaseul.com/?utm_source=brevo&utm_medium=email&utm_campaign=l5b" style="color:#FFFFFF;text-decoration:none;">academiaseul.com</a><br>
+        <span style="color:#9AA0B4;">Recibes este correo porque dejaste tus datos en academiaseul.com. <a href="{{ unsubscribe }}" style="color:#9AA0B4;">Si no quieres recibir más correos, haz clic aquí</a>.</span>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>

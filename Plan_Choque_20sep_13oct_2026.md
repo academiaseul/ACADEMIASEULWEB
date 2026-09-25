@@ -1,3 +1,4 @@
+> ⚠️ Reemplazado el 25 sept 2026 por Plan_Lanzamiento_25sep_19oct_2026.md (fechas nuevas: reto 28 sept–4 oct, vivo sáb 3 oct).
 # Plan de choque · 20 sept → 13 oct 2026 · Academia Seúl
 
 **Situación:** hoy domingo 20 no se ha publicado nada. Cierre de matrícula **domingo 11 de octubre 23:59** · clases desde la **semana del 12** (Niños desde el lunes 19: el 12 es feriado en Chile). Tiempo real: 45 min/día entre semana + 90 min de grabación el domingo. Presupuesto US$0.

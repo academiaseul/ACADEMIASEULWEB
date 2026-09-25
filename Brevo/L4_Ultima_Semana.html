@@ -1,0 +1,85 @@
+<!-- L4 · Última semana · todos menos inscritos · ENVÍO: lunes 5 de octubre de 2026, 10:00 hora Chile · Academia Seúl
+     Programar el domingo 4 por la noche con los cupos y [PARTICIPANTES] (el reto cierra ese día a las 23:59).
+     El sorteo es el lunes 5 por la mañana (Plan_Lanzamiento §5): hazlo ANTES de las 10:00 y edita la campaña programada para poner el nombre;
+     si no alcanzas, deja el texto alternativo de abajo (no bloquees el envío por esto). Brevo: Campaigns → Create an email campaign → Design "Code your own" → pegar este HTML → Schedule: lun 5, 10:00 (America/Santiago).
+     Destinatarios: lista "01 Leads sitio" · EXCLUIR la lista "02 Alumnos octubre" (antes, mueve ahí a todos los que ya pagaron).
+     Asunto: {{ contact.FIRSTNAME | default: "Chingu" }}, cierro el domingo 11
+     Preheader: Última semana de matrícula · quién ganó el reto · clases desde el martes 13
+     (El preheader ya va oculto al inicio del HTML: deja vacío el campo "Preview text" de Brevo.)
+     ANTES DE PROGRAMAR, RELLENA (buscar "[" en el HTML):
+       · [PARTICIPANTES] = cuántas personas completaron los 7 días del reto.
+       · [NOMBRE DEL GANADOR/A] = solo nombre (o nombre + inicial), con su permiso.
+         Si no hay permiso o nadie completó, cambia el recuadro 🏆 por: "Hoy anuncio en @academiaseul quién ganó el cupo gratis del reto #LeoCoreanoEn7Días. Gracias a todos los que leyeron coreano conmigo esta semana."
+       · Cada [N] = cupos que quedan hoy por clase (hoja de números del dom 4). Máximos: 15 por sección, 8 TOPIK II, 12 Niños.
+         Si prefieres no mostrar cupos, borra los textos "quedan [N] de …" (la escalera funciona igual).
+     Testimonios: citas textuales de components/Testimonials.tsx (alumnas de las clases anteriores de Jay). No agregar otras.
+     UTM: utm_source=brevo&utm_medium=email&utm_campaign=l4 -->
+<div style="display:none;font-size:1px;color:#F4F7FF;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;">Última semana de matrícula · quién ganó el reto · clases desde el martes 13&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F7FF;margin:0;padding:24px 0;font-family:Arial,Helvetica,sans-serif;">
+  <tr><td align="center">
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background:#FFFFFF;border-radius:16px;overflow:hidden;">
+      <tr><td style="background:#4236F6;padding:28px 40px;text-align:center;">
+        <div style="color:#C9CFFF;font-size:13px;letter-spacing:3px;font-weight:bold;">ACADEMIA&nbsp;&nbsp;SEÚL</div>
+        <div style="color:#FFFFFF;font-size:26px;font-weight:bold;margin-top:8px;line-height:1.2;">Última semana de matrícula</div>
+        <div style="color:#E8B84B;font-size:15px;font-weight:bold;margin-top:8px;">Cierro el domingo 11 de octubre · clases desde el martes 13</div>
+      </td></tr>
+      <tr><td style="padding:30px 40px 8px 40px;color:#1B1C24;font-size:16px;line-height:1.65;">
+        <p style="margin:0 0 14px 0;">¡Hola, {{ contact.FIRSTNAME | default: "chingu" }}! 안녕하세요 💙</p>
+        <p style="margin:0 0 16px 0;">Última semana: <strong>la matrícula de octubre cierra el domingo 11 a las 23:59</strong> (hora Chile) y las clases parten la semana del 12.</p>
+        <p style="margin:0 0 20px 0;background:#F4F7FF;border-left:4px solid #E8B84B;padding:12px 14px;">🏆 <strong>Terminó el reto #LeoCoreanoEn7Días.</strong> [PARTICIPANTES] personas llegaron al día 7 leyendo coreano. El cupo gratis en Básico 1 es para <strong>[NOMBRE DEL GANADOR/A]</strong>. ¡Felicitaciones, y gracias a todos los que leyeron conmigo!</p>
+      </td></tr>
+      <tr><td style="padding:0 40px 8px 40px;">
+        <div style="color:#4236F6;font-size:13px;letter-spacing:2px;font-weight:bold;margin-bottom:4px;">LA ESCALERA · ELIGE TU PELDAÑO</div>
+        <div style="color:#5C5F6B;font-size:13px;margin-bottom:10px;">Hora de Chile · 8 semanas · 1 clase en vivo de 60 min por Zoom · certificado incluido</div>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:14px;color:#1B1C24;line-height:1.5;">
+          <tr>
+            <td style="padding:10px 10px 10px 0;border-bottom:1px solid #E3E5EF;vertical-align:top;width:30px;"><div style="background:#4236F6;color:#FFFFFF;font-weight:bold;width:26px;height:26px;line-height:26px;text-align:center;border-radius:13px;">1</div></td>
+            <td style="padding:10px 0;border-bottom:1px solid #E3E5EF;"><strong>🌱 Básico 1 (A1.1) · Primeras Palabras</strong> · desde cero<br><a href="https://www.academiaseul.com/nivel-1?clase=a11-martes&utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#4236F6;font-weight:bold;">Mar 20:00</a> (quedan [N] de 15) <em>o</em> <a href="https://www.academiaseul.com/nivel-1?clase=a11-jueves&utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#4236F6;font-weight:bold;">Jue 20:00</a> (quedan [N] de 15) · Prof.ª Kiran</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 10px 10px 0;border-bottom:1px solid #E3E5EF;vertical-align:top;"><div style="background:#4236F6;color:#FFFFFF;font-weight:bold;width:26px;height:26px;line-height:26px;text-align:center;border-radius:13px;">2</div></td>
+            <td style="padding:10px 0;border-bottom:1px solid #E3E5EF;"><strong>🌿 Básico 2 (A1.2) · Pasado, presente y futuro</strong> · si ya lees Hangul y sabes presentarte, o hiciste el Nivel 1 de julio<br><a href="https://www.academiaseul.com/nivel-1?clase=a12&utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#4236F6;font-weight:bold;">Mié 21:00</a> · Jay · quedan [N] de 15</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 10px 10px 0;border-bottom:1px solid #E3E5EF;vertical-align:top;"><div style="background:#4236F6;color:#FFFFFF;font-weight:bold;width:26px;height:26px;line-height:26px;text-align:center;border-radius:13px;">3</div></td>
+            <td style="padding:10px 0;border-bottom:1px solid #E3E5EF;"><strong>💬 Conversacional 1 (A2.1) · Corea que amas</strong> · puro hablar (requiere Básico 2 o test de nivel)<br><a href="https://www.academiaseul.com/nivel-1?clase=a21&utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#4236F6;font-weight:bold;">Mar 21:00</a> · Prof.ª Abby, desde Corea · quedan [N] de 15</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 10px 10px 0;border-bottom:1px solid #E3E5EF;vertical-align:top;"><div style="background:#C9CFFF;color:#003478;font-weight:bold;width:26px;height:26px;line-height:26px;text-align:center;border-radius:13px;">4</div></td>
+            <td style="padding:10px 0;border-bottom:1px solid #E3E5EF;color:#5C5F6B;"><strong>Conversacional 2 (A2.2) · Corea por dentro</strong> · abre en enero 2027 · <a href="https://www.academiaseul.com/notificarme?curso=conversacion&utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#4236F6;">avísame</a></td>
+          </tr>
+          <tr>
+            <td style="padding:10px 10px 10px 0;border-bottom:1px solid #E3E5EF;vertical-align:top;"><div style="background:#4236F6;color:#FFFFFF;font-weight:bold;width:26px;height:26px;line-height:26px;text-align:center;border-radius:13px;">5</div></td>
+            <td style="padding:10px 0;border-bottom:1px solid #E3E5EF;"><strong>🎓 TOPIK II (B1+) · Estrategia de examen</strong> · si vas por el examen oficial<br><a href="https://www.academiaseul.com/nivel-1?clase=topik2&utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#4236F6;font-weight:bold;">Jue 21:00</a> · Jay · quedan [N] de 8</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 10px 10px 0;vertical-align:top;"><div style="background:#E8B84B;color:#0A0A0F;font-weight:bold;width:26px;height:26px;line-height:26px;text-align:center;border-radius:13px;">+</div></td>
+            <td style="padding:10px 0;"><strong>🧒 Coreano para Niños (8–15) · Juega y aprende</strong> · desde cero, con juegos y canciones<br><a href="https://www.academiaseul.com/nivel-1?clase=ninos&utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#4236F6;font-weight:bold;">Lun 18:00</a> desde el lunes 19 (el 12 es feriado) · Jay y Abby · quedan [N] de 12</td>
+          </tr>
+        </table>
+        <div style="font-size:13px;color:#5C5F6B;margin-top:10px;">¿Otro país? En la página de inscripción ves tu hora exacta. ¿No sabes tu peldaño? <a href="https://www.academiaseul.com/test-nivel?utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#4236F6;">Test de nivel gratis</a>.</div>
+      </td></tr>
+      <tr><td style="padding:20px 40px 8px 40px;color:#1B1C24;font-size:16px;line-height:1.65;">
+        <div style="color:#4236F6;font-size:13px;letter-spacing:2px;font-weight:bold;margin-bottom:10px;">LO QUE DICEN ALUMNAS DE MIS CLASES ANTERIORES</div>
+        <p style="margin:0 0 12px 0;border-left:4px solid #E8B84B;padding:4px 0 4px 14px;font-style:italic;">"Fue entretenido y entendí muy bien las clases. Tiene mucha paciencia y hace agradable el aprender."<br><span style="font-style:normal;font-size:13px;color:#5C5F6B;">Valentina San Martín · Coreano Básico, Nivel A1</span></p>
+        <p style="margin:0 0 12px 0;border-left:4px solid #E8B84B;padding:4px 0 4px 14px;font-style:italic;">"Cuando le preguntamos un concepto, nos cuenta una pequeña historia relacionada — así lo recuerdo más fácilmente."<br><span style="font-style:normal;font-size:13px;color:#5C5F6B;">Nedielka Curkovic · Coreano Básico, Básico 2 (A1.2)</span></p>
+        <p style="margin:0 0 18px 0;border-left:4px solid #E8B84B;padding:4px 0 4px 14px;font-style:italic;">"Siempre disponible para responder dudas dentro y fuera del horario de clases, además de explicar hasta que se entienda."<br><span style="font-style:normal;font-size:13px;color:#5C5F6B;">Carolina Morales · Coreano Intermedio, Nivel B1</span></p>
+        <p style="margin:0 0 18px 0;">Y este octubre no estoy solo: <strong>Kiran (기란)</strong>, profesora coreana criada en Argentina y bilingüe, lleva Básico 1, y <strong>Abby (홍미영)</strong>, profesora coreana nativa y pedagoga, enseña Conversacional 1 desde Corea y Niños conmigo.</p>
+      </td></tr>
+      <tr><td style="padding:0 40px 28px 40px;color:#1B1C24;font-size:16px;line-height:1.65;">
+        <p style="margin:0 0 18px 0;background:#F4F7FF;border-left:4px solid #E8B84B;padding:12px 14px;">💙 <strong>US$150 el curso completo · o 2 cuotas de US$75</strong> · certificado incluido. Transferencia en Chile (por WhatsApp), Mercado Pago o PayPal.</p>
+        <p style="margin:0 0 20px 0;text-align:center;">
+          <a href="https://www.academiaseul.com/nivel-1?utm_source=brevo&utm_medium=email&utm_campaign=l4" style="display:inline-block;background:#4236F6;color:#FFFFFF;text-decoration:none;font-weight:bold;font-size:17px;padding:15px 30px;border-radius:12px;">Reservar mi cupo →</a>
+        </p>
+        <p style="margin:0 0 14px 0;">¿Aún no sabes tu nivel? Responde este correo con una línea sobre lo que ya sabes y te digo honestamente qué curso elegiría yo para ti. O escríbeme al WhatsApp <a href="https://wa.me/56942115562" style="color:#4236F6;font-weight:bold;">+56 9 4211 5562</a>.</p>
+        <p style="margin:0 0 18px 0;font-size:14px;color:#5C5F6B;line-height:1.6;"><strong>P.D.:</strong> si te inscribes con un chingu antes del domingo 11, los dos reciben una sesión 1:1 de 20 min conmigo.</p>
+        <p style="margin:0;">화이팅!<br>Jay Kim (김재희) · Academia Seúl<br><a href="https://wa.me/56942115562" style="color:#4236F6;font-weight:bold;text-decoration:none;">WhatsApp +56 9 4211 5562</a> · <a href="https://www.instagram.com/academiaseul" style="color:#4236F6;text-decoration:none;">@academiaseul</a></p>
+      </td></tr>
+      <tr><td style="background:#0a0a0f;padding:20px 40px;text-align:center;color:#FFFFFF;font-size:12px;line-height:1.7;">
+        Academia Seúl · Santiago, Chile · clases online por Zoom<br>
+        <a href="https://www.academiaseul.com/?utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#FFFFFF;text-decoration:none;">academiaseul.com</a> · <a href="https://www.academiaseul.com/programa?utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#E8B84B;text-decoration:none;">Programa de los cursos</a> · <a href="https://www.academiaseul.com/dubu?utm_source=brevo&utm_medium=email&utm_campaign=l4" style="color:#E8B84B;text-decoration:none;">Dubu (gratis)</a><br>
+        <span style="color:#9AA0B4;">Recibes este correo porque dejaste tus datos en academiaseul.com. <a href="{{ unsubscribe }}" style="color:#9AA0B4;">Si no quieres recibir más correos, haz clic aquí</a>.</span>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>
