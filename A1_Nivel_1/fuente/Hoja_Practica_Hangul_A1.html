@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Hoja 가나다라 I · Básico 1 (A1.1) · Academia Seúl</title>
+<!--
+  Hoja 가나다라 I · Básico 1 (A1.1), semana 1 · Academia Seúl
+  Fuente de A1_Nivel_1/Hoja_Practica_Hangul_A1.pdf (US Letter, 3 páginas).
+  Render: node A1_Nivel_1/fuente/render_hoja_practica.js (Chrome + puppeteer-core).
+  Reglas de la casa: papel blanco, azul #4236F6, navy #003478, Arial + Noto Sans KR, NUNCA rojo.
+  Correcciones de la Fase 2 (Guía S1, C.17 y D.4): ㅇ = "muda / ng", ㅈ = "j · ch suave",
+  encabezado "Básico 1 (A1.1)" y página 3 "Tu nombre en 한글" (tabla 3.5 del material del alumno S1).
+  Para cambiar etiquetas o palabras: edita los arreglos del <script> del final.
+-->
+<style>
+  @page { size: Letter; margin: 0; }
+  :root {
+    --azul: #4236F6;
+    --navy: #003478;
+    --ink: #1B1C24;
+    --muted: #5C5F6B;
+    --line: #B6BAC6;     /* borde de las casillas */
+    --guide: #D6D9E1;    /* guías cruzadas punteadas */
+    --trace: #C2C5CE;    /* letra gris para calcar */
+    --soft: #F3F4FB;     /* fondo suave (filas pares, nota) */
+    --cell: 12.6mm;
+    --gap: 1.3mm;    /* entre filas */
+    --hgap: 2.1mm;   /* entre casillas: la fila llega justo al borde de la línea azul */
+    --lab: 24mm;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body {
+    font-family: Arial, "Noto Sans KR", "Malgun Gothic", sans-serif;
+    color: var(--ink);
+    word-break: keep-all; /* el coreano no se corta a mitad de palabra */
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .kr { font-family: "Noto Sans KR", "Malgun Gothic", sans-serif; }
+  b, strong { font-weight: 700; } /* nunca "bolder" (900 = Arial Black) */
+
+  /* ── página ── */
+  .page {
+    width: 215.9mm; height: 279.4mm;
+    padding: 12mm 16mm 0 16mm;
+    position: relative; overflow: hidden;
+    break-after: page; page-break-after: always;
+    background: #fff;
+  }
+  .page:last-child { break-after: auto; page-break-after: auto; }
+
+  /* ── cabecera ── */
+  .top { display: flex; align-items: flex-end; justify-content: space-between; padding-bottom: 3mm; border-bottom: 0.7mm solid var(--azul); }
+  .brand { display: flex; align-items: center; gap: 4mm; }
+  .brand img { height: 10.5mm; width: auto; display: block; }
+  .brand .div { width: 0.3mm; height: 10mm; background: var(--guide); }
+  .lvl b { display: block; font-size: 16pt; line-height: 1.1; color: var(--azul); font-weight: 700; }
+  .lvl span.s { display: block; font-size: 9pt; color: var(--navy); margin-top: 1mm; font-weight: 700; letter-spacing: .02em; }
+  .meta { text-align: right; font-size: 8.5pt; line-height: 1.45; color: var(--muted); }
+
+  /* ── textos ── */
+  .intro { font-size: 9pt; color: var(--muted); margin: 3.2mm 0 0; line-height: 1.4; }
+  h2 {
+    font-size: 11pt; font-weight: 700; color: var(--azul);
+    letter-spacing: .07em; text-transform: uppercase;
+    margin: 4.2mm 0 2.4mm;
+  }
+  h2 .kr { text-transform: none; letter-spacing: .02em; }
+  .sub { font-size: 8.5pt; color: var(--muted); margin: -1mm 0 2.4mm; }
+
+  /* ── cuadrícula de trazo ── */
+  .grid { display: flex; flex-direction: column; gap: var(--gap); }
+  .row { display: flex; align-items: center; }
+  .lab { width: var(--lab); flex: none; display: flex; flex-direction: column; justify-content: center; line-height: 1; }
+  .lab .g { font-size: 18pt; font-weight: 700; color: var(--ink); line-height: 1.05; }
+  .lab .r { font-size: 7.5pt; color: var(--muted); margin-top: 1mm; white-space: nowrap; }
+  .lab .r sup, .note sup { color: var(--azul); font-weight: 700; font-size: 7pt; }
+  .lab.w .g { font-size: 15pt; }
+  .cells { display: flex; gap: var(--hgap); }
+  .c {
+    width: var(--cell); height: var(--cell); flex: none;
+    border: 0.3mm solid var(--line); border-radius: 0.6mm;
+    position: relative;
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
+    font-size: 9.8mm; font-weight: 400; line-height: 1; color: var(--trace);
+  }
+  .c::before, .c::after { content: ""; position: absolute; pointer-events: none; }
+  .c::before { left: 50%; top: 0; bottom: 0; border-left: 0.2mm dashed var(--guide); }
+  .c::after  { top: 50%; left: 0; right: 0; border-top: 0.2mm dashed var(--guide); }
+  .c span { position: relative; z-index: 1; }
+  .c.syl { font-size: 9.1mm; }
+  /* palabras: casillas de a pares (una palabra = dos cuadrados) */
+  .cells.pairs { gap: 0.8mm; }
+  .cells.pairs .c:nth-child(2n):not(:last-child) { margin-right: 3.4mm; }
+
+  /* ── nota ── */
+  .note {
+    margin-top: 4mm; padding: 2.4mm 3.4mm;
+    background: var(--soft); border-left: 1mm solid var(--azul);
+    font-size: 8.4pt; line-height: 1.45; color: var(--ink);
+  }
+  .note b { color: var(--navy); }
+
+  /* ── página 3: tu nombre ── */
+  .tabla { width: 100%; border-collapse: collapse; font-size: 8pt; line-height: 1.18; }
+  .tabla th {
+    background: var(--navy); color: #fff; font-weight: 700; text-align: left;
+    padding: 1.2mm 2.2mm; font-size: 8pt;
+  }
+  .tabla td { padding: 0.5mm 2.2mm; border-bottom: 0.2mm solid #E1E3EA; vertical-align: middle; }
+  .tabla tr:nth-child(even) td { background: var(--soft); }
+  .tabla td:nth-child(1) { width: 31%; }
+  .tabla td:nth-child(2) { width: 28%; font-weight: 700; color: var(--navy); }
+  .tabla td:nth-child(3) { width: 41%; }
+  .tabla .kr { font-weight: 700; }
+  .tabla td:nth-child(3) .kr { font-weight: 400; }
+  .tabla td:nth-child(2) .kr { font-size: 10pt; line-height: 1; } /* las letras sueltas se ven chicas a 8 pt */
+
+  .names { display: grid; grid-template-columns: repeat(5, 1fr); column-gap: 2mm; row-gap: 0.3mm; font-size: 8pt; line-height: 1.25; margin-top: 0.6mm; }
+  .names div { white-space: nowrap; }
+  .names .kr { color: var(--navy); font-weight: 700; margin-left: 0.8mm; }
+  h3 { font-size: 9pt; color: var(--navy); margin: 3mm 0 1mm; font-weight: 700; }
+  .kiran { font-size: 8pt; line-height: 1.35; margin: 1.6mm 0 0; color: var(--ink); }
+  .kiran .kr { color: var(--azul); font-weight: 700; }
+
+  .namefield { display: flex; align-items: flex-end; gap: 3mm; font-size: 9pt; font-weight: 700; color: var(--navy); margin: 1mm 0 3mm; }
+  .namefield .line { flex: 1; border-bottom: 0.3mm solid var(--line); height: 6mm; }
+  .lab.n { font-size: 7.8pt; color: var(--muted); line-height: 1.25; }
+  .lab.n b { color: var(--navy); font-size: 8.2pt; }
+
+  .check { margin-top: 3.4mm; font-size: 8.3pt; line-height: 1.5; color: var(--ink); }
+  .check b { color: var(--navy); }
+  .check .bx { display: inline-block; width: 2.8mm; height: 2.8mm; border: 0.3mm solid var(--navy); border-radius: 0.4mm; vertical-align: -0.4mm; margin-right: 1.2mm; }
+
+  /* ── pie ── */
+  .foot {
+    position: absolute; left: 16mm; right: 16mm; bottom: 7mm;
+    display: flex; justify-content: space-between;
+    font-size: 7.5pt; color: var(--muted);
+    border-top: 0.2mm solid #E1E3EA; padding-top: 1.6mm;
+  }
+</style>
+</head>
+<body>
+
+<!-- ═════════════ PÁGINA 1 · CONSONANTES ═════════════ -->
+<section class="page" id="p1">
+  <header class="top">
+    <div class="brand">
+      <img src="logo-azul.png" alt="Academia Seúl">
+      <div class="div"></div>
+      <div class="lvl"><b>Básico 1 (A1.1)</b><span class="s">Semana 1 · Hoja <span class="kr">가나다라</span> I</span></div>
+    </div>
+    <div class="meta">Práctica de escritura · <span class="kr">한글 쓰기</span><br>academiaseul.com</div>
+  </header>
+
+  <p class="intro">Calca la letra gris y sigue tú en las casillas, <b>al menos 5 veces cada una</b>. Las guías cruzadas marcan la proporción.</p>
+
+  <h2>Consonantes · <span class="kr">자음</span></h2>
+  <div class="grid" id="consonantes"></div>
+
+  <div class="note">
+    <sup>*</sup> <b>ㅇ tiene dos trabajos.</b> Al inicio de la sílaba <b>no suena</b>: es una silla vacía (아이 = "a-i"). Abajo, como <span class="kr">받침</span>, suena <i>ng</i> (semana 2).<br>
+    <sup>*</sup> <b>ㅈ nunca es jota:</b> es una <i>ch</i> suave (모자, 아버지). La que se parece a una jota muy suave, de puro aire, es ㅎ.
+  </div>
+
+  <footer class="foot"><span>Academia Seúl · Método Chingu™ · Práctica Básico 1 (A1.1)</span><span>1 / 3</span></footer>
+</section>
+
+<!-- ═════════════ PÁGINA 2 · VOCALES + PALABRAS ═════════════ -->
+<section class="page" id="p2">
+  <header class="top">
+    <div class="brand">
+      <img src="logo-azul.png" alt="Academia Seúl">
+      <div class="div"></div>
+      <div class="lvl"><b>Básico 1 (A1.1)</b><span class="s">Semana 1 · Hoja <span class="kr">가나다라</span> I</span></div>
+    </div>
+    <div class="meta">Práctica de escritura · <span class="kr">한글 쓰기</span><br>academiaseul.com</div>
+  </header>
+
+  <h2>Vocales · <span class="kr">모음</span></h2>
+  <div class="grid" id="vocales"></div>
+
+  <h2 style="margin-top:5mm">Tus primeras palabras</h2>
+  <p class="sub">Sílabas completas (consonante + vocal, sin consonante abajo): calca las dos sílabas grises y escribe la palabra completa 4 veces más.</p>
+  <div class="grid" id="palabras"></div>
+
+  <div class="note">
+    <b>La vocal manda.</b> Vocal parada (ㅏ ㅓ ㅣ ㅑ ㅕ) → va a la <b>derecha</b> de la consonante: 가 · 너 · 이. Vocal acostada (ㅗ ㅜ ㅡ ㅛ ㅠ) → va <b>debajo</b>: 고 · 누 · 으. Se escribe de arriba abajo y de izquierda a derecha.
+  </div>
+
+  <footer class="foot"><span>Academia Seúl · Método Chingu™ · Práctica Básico 1 (A1.1)</span><span>2 / 3</span></footer>
+</section>
+
+<!-- ═════════════ PÁGINA 3 · TU NOMBRE EN 한글 ═════════════ -->
+<section class="page" id="p3">
+  <header class="top">
+    <div class="brand">
+      <img src="logo-azul.png" alt="Academia Seúl">
+      <div class="div"></div>
+      <div class="lvl"><b>Básico 1 (A1.1)</b><span class="s">Semana 1 · Hoja <span class="kr">가나다라</span> I</span></div>
+    </div>
+    <div class="meta">Práctica de escritura · <span class="kr">한글 쓰기</span><br>academiaseul.com</div>
+  </header>
+
+  <h2>Tu nombre en <span class="kr">한글</span></h2>
+  <p class="intro" style="margin-top:0">Tu nombre se escribe <b>según cómo suena</b>, no letra por letra. Algunas piezas son de la semana 2 (la vocal <span class="kr">ㅔ</span>, que suena "e", y las consonantes que van <b>abajo</b> del cuadrado): úsalas igual, que tu nombre no puede esperar.</p>
+
+  <table class="tabla" style="margin-top:2.6mm">
+    <thead><tr><th>En tu nombre…</th><th>En <span class="kr">한글</span></th><th>Ejemplo</th></tr></thead>
+    <tbody id="reglas"></tbody>
+  </table>
+
+  <h3>Nombres frecuentes, ya escritos</h3>
+  <div class="names" id="nombres"></div>
+  <p class="kiran">Y tu profe: Kiran <span class="kr">기란</span> (su nombre es coreano, por eso empieza con <span class="kr">ㄱ</span> y no con la <span class="kr">ㅋ</span> de la tabla). ¿Tu nombre no está, o tiene <i>ll, ñ, x</i> o <i>y</i>? Arma tu propuesta con la tabla y <b>Kiran te la confirma en el grupo</b>. Algunos nombres tienen más de una forma aceptada.</p>
+
+  <h2 style="margin-top:4.4mm">Escríbelo tú · una sílaba por cuadrado</h2>
+  <div class="namefield"><span>Mi nombre en español:</span><span class="line"></span></div>
+  <div class="grid" id="minombre"></div>
+
+  <div class="check">
+    <span class="bx"></span><b>Foto de esta hoja</b> (las 3 páginas) → al grupo del curso &nbsp;·&nbsp;
+    <span class="bx"></span><b>Tipea tu nombre en <span class="kr">한글</span></b> en el grupo, con el teclado coreano<br>
+    <b>Prepara la semana 2:</b> tu nombre en <span class="kr">한글</span> es la primera línea de tu presentación. <span class="kr">화이팅!</span>
+  </div>
+
+  <footer class="foot"><span>Academia Seúl · Método Chingu™ · Práctica Básico 1 (A1.1)</span><span>3 / 3</span></footer>
+</section>
+
+<script>
+/* ── Datos (fuente: material del alumno S1, secciones 3.1, 3.2 y 3.5) ── */
+const CONSONANTES = [
+  ["ㄱ", "g · k"], ["ㄴ", "n"], ["ㄷ", "d · t"], ["ㄹ", "r · l"], ["ㅁ", "m"],
+  ["ㅂ", "b · p"], ["ㅅ", "s"], ["ㅇ", "muda / ng", true], ["ㅈ", "j · ch suave", true],
+  ["ㅊ", "ch"], ["ㅋ", "k"], ["ㅌ", "t"], ["ㅍ", "p"], ["ㅎ", "h"],
+];
+/* Romanización igual a la del material S1 (3.1) y del Lector: ya · yeo · yo · yu */
+const VOCALES = [
+  ["ㅏ", "a"], ["ㅓ", "eo"], ["ㅗ", "o"], ["ㅜ", "u"], ["ㅡ", "eu"],
+  ["ㅣ", "i"], ["ㅑ", "ya"], ["ㅕ", "yeo"], ["ㅛ", "yo"], ["ㅠ", "yu"],
+];
+const PALABRAS = [["고기", "carne"], ["우유", "leche"], ["바다", "mar"], ["나무", "árbol"]];
+
+/* Tabla 3.5 del material del alumno S1 (⚑ grafías: las confirma Kiran, guía S1 D.1) */
+const REGLAS = [
+  ["a · e · i · o · u", "ㅏ · ㅔ · ㅣ · ㅗ · ㅜ", "Ana 아나 · Emilia 에밀리아"],
+  ["b, v", "ㅂ", "Valentina 발렌티나"],
+  ["ca, co, cu, qu, k", "ㅋ", "Carolina 카롤리나"],
+  ["ce, ci, s, z", "ㅅ", "Lucía 루시아 · Constanza 콘스탄사"],
+  ["ch", "ㅊ", "Nacho 나초"],
+  ["d", "ㄷ", "Diego 디에고"],
+  ["f", "ㅍ", "Sofía 소피아"],
+  ["ga, go, gu, gue, gui", "ㄱ", "Gabriela 가브리엘라 · Miguel 미겔"],
+  ["j, ge, gi", "ㅎ", "José 호세 · Jorge 호르헤"],
+  ["h", "no se escribe", "Hugo 우고"],
+  ["l, r", "ㄹ", "Laura 라우라 · Rosa 로사"],
+  ["m · n", "ㅁ · ㄴ", "Mateo 마테오 · Natalia 나탈리아"],
+  ["p · t", "ㅍ · ㅌ", "Paula 파울라 · Tomás 토마스"],
+  ["n, m o l sin vocal detrás", "van <b>abajo</b>, en el mismo cuadrado", "Juan 후안 · Daniel 다니엘 · Fernanda 페르난다"],
+  ["otra consonante sin vocal detrás", "se le agrega <span class=\"kr\">ㅡ</span>", "Pablo 파블로 · Andrés 안드레스 · Javier 하비에르"],
+  ["l en medio de la palabra, antes de vocal", "<span class=\"kr\">ㄹㄹ</span>: una abajo y otra adelante", "Camila 카밀라 · Carlos 카를로스"],
+];
+const NOMBRES = [
+  "María 마리아", "Daniel 다니엘", "José 호세", "Juan 후안", "Sofía 소피아", "Lucía 루시아",
+  "Valentina 발렌티나", "Camila 카밀라", "Carlos 카를로스", "Javier 하비에르", "Diego 디에고",
+  "Martín 마르틴", "Pablo 파블로", "Fernanda 페르난다", "Andrés 안드레스", "Catalina 카탈리나",
+  "Isabel 이사벨", "Nicolás 니콜라스", "Gabriela 가브리엘라", "Francisca 프란시스카", "Tomás 토마스",
+  "Felipe 펠리페", "Jorge 호르헤", "Miguel 미겔", "Laura 라우라", "Paula 파울라", "Ana 아나",
+  "Mateo 마테오", "Benjamín 벤하민", "Constanza 콘스탄사", "Alejandro 알레한드로", "Natalia 나탈리아",
+  "Andrea 안드레아", "Valeria 발레리아", "Daniela 다니엘라", "Ignacio 이그나시오", "Agustín 아구스틴",
+  "Emilia 에밀리아", "Antonia 안토니아",
+];
+
+/* ── Construcción ── */
+const N_CASILLAS = 11;
+const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+/* Envuelve el coreano en .kr (texto plano de los arreglos) */
+const kr = (s) => s.replace(/([ᄀ-ᇿ㄰-㆏가-힣]+)/g, '<span class="kr">$1</span>');
+const celda = (txt = "", cls = "") => `<div class="c ${cls}">${txt ? `<span>${txt}</span>` : ""}</div>`;
+
+function filaTrazo(g, rom, marca) {
+  let cells = celda(g);
+  for (let i = 1; i < N_CASILLAS; i++) cells += celda();
+  return `<div class="row"><div class="lab"><span class="g kr">${g}</span><span class="r">${esc(rom)}${marca ? "<sup>*</sup>" : ""}</span></div><div class="cells">${cells}</div></div>`;
+}
+document.getElementById("consonantes").innerHTML = CONSONANTES.map(([g, r, m]) => filaTrazo(g, r, m)).join("");
+document.getElementById("vocales").innerHTML = VOCALES.map(([g, r]) => filaTrazo(g, r)).join("");
+
+document.getElementById("palabras").innerHTML = PALABRAS.map(([w, es]) => {
+  let cells = [...w].map((s) => celda(s, "syl")).join("");
+  for (let i = 2; i < 10; i++) cells += celda();
+  return `<div class="row"><div class="lab w"><span class="g kr">${w}</span><span class="r">${es}</span></div><div class="cells pairs">${cells}</div></div>`;
+}).join("");
+
+document.getElementById("reglas").innerHTML = REGLAS.map(([a, b, c]) =>
+  `<tr><td>${a}</td><td>${b.includes("<") ? b : kr(b)}</td><td>${kr(c)}</td></tr>`).join("");
+document.getElementById("nombres").innerHTML = NOMBRES.map((n) => {
+  const i = n.lastIndexOf(" ");
+  return `<div>${n.slice(0, i)}<span class="kr">${n.slice(i + 1)}</span></div>`;
+}).join("");
+
+/* Mi nombre: 1 fila de ejemplo (Carlos) + 2 filas libres (caben 4 o 5 veces el nombre) */
+const ejemplo = [..."카를로스"].map((s) => celda(s, "syl")).join("");
+let filasNombre = `<div class="row"><div class="lab n"><b>Ejemplo</b>Carlos</div><div class="cells">${ejemplo}</div></div>`;
+["En 한글", "Otra vez"].forEach((l, k) => {
+  let cells = "";
+  for (let i = 0; i < N_CASILLAS; i++) cells += celda();
+  filasNombre += `<div class="row"><div class="lab n">${k === 0 ? `<b>${kr(l)}</b>` : l}</div><div class="cells">${cells}</div></div>`;
+});
+document.getElementById("minombre").innerHTML = filasNombre;
+</script>
+</body>
+</html>

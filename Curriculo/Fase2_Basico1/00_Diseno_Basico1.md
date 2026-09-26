@@ -784,7 +784,7 @@ Inventario del control final: **todo lo que las 8 guías piden producir**, con l
 |---|---|---|---|---|
 | PDF del material de cada semana (hoja de la lección, ejercicios, tarjetas de sala y tarea con destino exacto) | S1–S8 | `alumnos/S0N_Material_Alumno.md` → PDF en la carpeta del curso y en el grupo **antes** de la clase (las salas dependen de él) | Todas las guías, C.2 | N−2 |
 | Guía de teclado | S1 | Hoy en `alumnos/S01_Material_Alumno.md`, sección 9; si se quiere suelta, `alumnos/B1_Guia_Teclado.md`. **Probarla** en Android, iPhone, Windows y Mac antes de enviarla | Guía S1, D.2–D.3 | **P0 · vie 9 oct** |
-| Hoja 가나다라 I | S1 | `A1_Nivel_1/Hoja_Practica_Hangul_A1.pdf` corregida (ㅇ "muda / ng", ㅈ "j · ch suave", encabezado "Básico 1 (A1.1)") + página nueva "Tu nombre en 한글" con la tabla 3.5 del material | Guía S1, C.17 y D.4 | **P0 · vie 9 oct** |
+| Hoja 가나다라 I | S1 | `A1_Nivel_1/Hoja_Practica_Hangul_A1.pdf` corregida (ㅇ "muda / ng", ㅈ "j · ch suave", encabezado "Básico 1 (A1.1)") + página nueva "Tu nombre en 한글" con la tabla 3.5 del material. **Resuelto (26 sept):** PDF de 3 páginas (US Letter) desde `A1_Nivel_1/fuente/Hoja_Practica_Hangul_A1.html` | Guía S1, C.17 y D.4 | hecho (26 sept) |
 | Tarjeta de sala de la S1 publicada como link | S1 | Sección 7 del material de la S1 → `[PLACEHOLDER: link]` | Guía S1, C.3 bloque 7 | **P0 · vie 9 oct** |
 | Tarjeta de países y ocupaciones a pedido | S2 | Guía S2, C.15 (⚑ grafías) | Guía S2 | **P0 · vie 9 oct** |
 | Guía de estudio de mitad de curso | S4 | `alumnos/B1_Guia_Estudio_Mitad.md`: capítulos 0–4 de `Guia_Estudio_MidTerm_A1.docx` sin romanización fuera de [ ], sin la hora, sin "decir MI mamá suena egoísta" y sin 제 | Guía S4, C.13.4 y D.8 | P1 · vie 23 oct |

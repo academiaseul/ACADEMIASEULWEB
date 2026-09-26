@@ -30,7 +30,7 @@ const guides = [
     title: "Guía de Pronunciación Coreana",
     korean: "한국어",
     preview: "/pronunciacion-preview.png",
-    badge: "PDF · 10 páginas",
+    badge: "PDF · 18 páginas",
     desc:
       "De cero a leer hangul correctamente: las vocales con la boca real, las consonantes y cómo diferenciar las aspiradas, el batchim y los 5 errores típicos del hispanohablante (y cómo evitarlos).",
     file: "/pronunciacion-coreana-academia-seul.pdf",
