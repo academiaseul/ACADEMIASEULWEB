@@ -383,7 +383,7 @@ NOTAS PARA JAY (no visibles en la página):
 2. Cupos: 15 por sección (Básico 1, Básico 2, Conversacional 1), 8 (TOPIK II) y 12 (Niños) vienen de lib/nivel1.ts y de las páginas de cada curso. El brief pide mencionar un máximo solo si está establecido: confirmar que el 15 se puede publicar tal cual.
 3. Certificado: requisitos sin unificar (cursos_es.json: nota ≥ 60 % y asistencia en vivo; textos_generales y términos: por participación y la grabación con tarea cuenta). Aquí solo se dice "asistencia y participación" + Confirmar.
 4. Cambio de sección: términos §5 = "en cualquier momento, según cupo"; textos_generales y guía del alumno = "hasta la semana 2". Aquí: "si hay cupo" + Confirmar.
-5. Básico 1: lib/nivel1.ts (/programa) y el PDF público de Básico 1 prometen "contar en los dos sistemas de números y decir la hora"; el syllabus entregado a Kiran deja la hora para Básico 2. Esta página sigue el syllabus.
+5. ✅ Básico 1: el logro "decir la hora" se corrigió el 26 sept 2026 en el sitio, el PDF y el boletín (ahora: "Contar del 1 al 100 y decir cuántos son en tu familia").
 6. Conversacional 2: día, hora, profe, fecha y precio de enero sin definir. Aquí dice "por anunciar".
 7. PayPal "tarjeta sin cuenta" y link de Mercado Pago de la cuota (MP_LINK_MENSUAL) siguen pendientes: aquí solo dice "PayPal, también con tarjeta" y no se promete Mercado Pago en cuotas.
 8. "Qué pasa cuando termino": textos_generales lista para enero 2027 Básico 1, Básico 2, Conversacional 2 y Niños 2, sin Conversacional 1. ¿Dónde sigue quien termina Básico 2 en diciembre?

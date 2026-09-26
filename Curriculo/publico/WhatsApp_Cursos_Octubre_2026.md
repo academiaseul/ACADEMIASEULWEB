@@ -180,7 +180,7 @@ Tu cupo queda confirmado con el pago completo o la 1.ª cuota, y te aviso apenas
 NOTAS (no se envían):
 - Largo del mensaje principal: unas 35–38 líneas en un celular común (≈ 1 pantalla y media).
 - Los links van con "www." para que WhatsApp los convierta en link siempre.
-- No se envía el PDF público de Básico 1 (public/programas) porque promete "decir la hora", que el syllabus de Kiran deja para Básico 2. Usar el folleto nuevo.
+- ✅ El PDF público de Básico 1 (https://www.academiaseul.com/programas/Programa_Basico1_Octubre_2026.pdf) ya coincide con el programa (corregido el 26 sept 2026); se puede enviar.
 - Mercado Pago en 2 cuotas depende del link de US$75 (MP_LINK_MENSUAL, pendiente) o del checkout dinámico (MP_ACCESS_TOKEN). La respuesta "¿Cómo pago?" no promete un medio específico para las cuotas.
 - PayPal "sin cuenta" sigue pendiente: por eso dice "también con tarjeta", sin prometer "sin cuenta".
 -->

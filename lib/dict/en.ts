@@ -934,7 +934,7 @@ export const EN: Dict = {
   "Corea por dentro": "Korea from the inside",
   "Leer cualquier sílaba en coreano (Hangul completo + batchim)": "Read any Korean syllable (full Hangul + batchim)",
   "Presentarte y presentar a tu familia": "Introduce yourself and your family",
-  "Contar en los dos sistemas de números y decir la hora": "Count in both number systems and tell the time",
+  "Contar del 1 al 100 y decir cuántos son en tu familia": "Count from 1 to 100 and say how many people are in your family",
   "Decir a dónde vas, qué haces y qué te gusta": "Say where you're going, what you do and what you like",
   "Hablar en pasado, presente y futuro": "Speak in the past, present and future",
   "Decir qué no haces, qué no puedes y qué sabes hacer": "Say what you don't do, what you can't do and what you know how to do",

@@ -221,7 +221,7 @@ export const CURSOS: Curso[] = [
     logros: [
       "Leer cualquier sílaba en coreano (Hangul completo + batchim)",
       "Presentarte y presentar a tu familia",
-      "Contar en los dos sistemas de números y decir la hora",
+      "Contar del 1 al 100 y decir cuántos son en tu familia",
       "Decir a dónde vas, qué haces y qué te gusta",
     ],
     sesiones: [

@@ -70,7 +70,7 @@ const CURSOS = [
     file: "01_KOR101_Basico1", code: "KOR <em>101</em>", secciones: "Secciones 01 · 02", cefr: "A1.1", nombre: "Básico 1", sub: "Primeras Palabras", ko: "첫 한국어",
     horario: "Martes 20:00 o Jueves 20:00 <span class='mono' style='font-size:15px;color:#5C5F6B;white-space:nowrap'>(hora Chile)</span>", profe: "Kiran · <span class='kr'>기란</span> (nativa, bilingüe)", req: "Ninguno — desde cero", cupo: "15 por sección",
     desc: "El punto de partida: aprender a leer el alfabeto coreano y decir tus primeras frases reales. El drilling de lectura vive en el Lector de Hangul como tarea gamificada, así la hora en vivo se usa para hablar.",
-    logros: ["Leer cualquier sílaba en coreano (Hangul completo + batchim)", "Presentarte y presentar a tu familia", "Contar en los dos sistemas de números y decir la hora", "Decir a dónde vas, qué haces y qué te gusta"],
+    logros: ["Leer cualquier sílaba en coreano (Hangul completo + batchim)", "Presentarte y presentar a tu familia", "Contar del 1 al 100 y decir cuántos son en tu familia", "Decir a dónde vas, qué haces y qué te gusta"],
     prog: ["<span class='kr'>가나다라 I</span> · La sílaba", "<span class='kr'>가나다라 II + 안녕하세요</span>", "<span class='kr'>이게 뭐예요?</span> · ¿Qué es esto?", "<span class='kr'>우리 엄마예요</span> · Mi familia", "<span class='kr'>집이 어디예요?</span> · Lugares", "<span class='kr'>학교에 가요</span> · Mi día", "<span class='kr'>내 방</span> · Mi pieza y mis verbos", "<span class='kr'>사과를 좋아해요</span> + examen"],
     libro: "한글학교 한국어 1 + Lector de Hangul",
   },

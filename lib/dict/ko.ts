@@ -934,7 +934,7 @@ export const KO: Dict = {
   "Corea por dentro": "한국 속으로",
   "Leer cualquier sílaba en coreano (Hangul completo + batchim)": "한국어 음절은 무엇이든 읽기 (한글 전체 + 받침)",
   "Presentarte y presentar a tu familia": "나와 우리 가족 소개하기",
-  "Contar en los dos sistemas de números y decir la hora": "두 가지 숫자 체계로 세고 시간 말하기",
+  "Contar del 1 al 100 y decir cuántos son en tu familia": "1부터 100까지 세고 가족이 몇 명인지 말하기",
   "Decir a dónde vas, qué haces y qué te gusta": "어디에 가는지, 무엇을 하는지, 무엇을 좋아하는지 말하기",
   "Hablar en pasado, presente y futuro": "과거·현재·미래로 말하기",
   "Decir qué no haces, qué no puedes y qué sabes hacer": "안 하는 것, 못 하는 것, 할 줄 아는 것 말하기",
