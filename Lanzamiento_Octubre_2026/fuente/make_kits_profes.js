@@ -7,6 +7,8 @@
 // Ejecutar desde el scratchpad (node_modules con docx):  node lanzamiento/make_kits_profes.js
 // Estilo: US Letter, Arial (+ Malgun Gothic para el coreano), cabeceras de tabla navy #003478, títulos azules #4236F6,
 // logo azul en portada. Nunca rojo.
+// v1.1 (vie 25 sept 2026): Zoom = cuenta de pago de la academia; Jay crea las 6 reuniones recurrentes y envía a cada
+// profe su link + la clave de anfitrión antes del mié 7 oct (las profes ya no crean ni envían link).
 const fs = require("fs");
 const path = require("path");
 
@@ -152,7 +154,7 @@ function buildKiran() {
     sub: "Básico 1 (A1.1) · Primeras Palabras · martes y jueves 20:00 (hora Chile)",
     lineas: ["Cohorte octubre 2026 · 2 secciones · 16 clases en vivo por Zoom de 60 minutos", "Martes 13 y jueves 15 de octubre → martes 1 y jueves 3 de diciembre de 2026", "Qué enseñas, cuándo y cómo funciona cada clase: antes, durante y después"],
     contacto: "www.academiaseul.com · +56 9 4211 5562 · @academiaseul",
-    nota: "Versión 1.0 · viernes 25 de septiembre de 2026 · Documento interno para profesoras. Datos del curso: academiaseul.com/programa y Programa Completo de Estudios (Parte III).",
+    nota: "Versión 1.1 · viernes 25 de septiembre de 2026 · Documento interno para profesoras. Datos del curso: academiaseul.com/programa y Programa Completo de Estudios (Parte III).",
   }));
 
   // 1. Bienvenida
@@ -190,7 +192,7 @@ function buildKiran() {
     ["vie 25 sep", "Recibes este kit y los PDFs del programa.", "Jay → tú"],
     ["mié 30 sep · 22:00", "Plazo del clip de presentación de 15 s.", "Tú"],
     ["vie 2 oct", "Post “Conoce a tus profes” en Instagram (con tu clip).", "Jay"],
-    ["mié 7 oct", "Plazo del link de Zoom recurrente (o confirmar la cuenta de la academia).", "Tú"],
+    ["antes del mié 7 oct", "Jay te envía el link de Zoom (cuenta de pago de la academia, reunión recurrente de 8 sesiones) y la clave de anfitrión. No tienes que crear ni enviar ningún link.", "Jay → tú"],
     ["vie 9 oct", "Programa y clase 1 revisados; avisas si falta material.", "Tú"],
     ["dom 11 oct · 23:59", "Cierre de matrícula (o antes, si se llenan los cupos).", "Jay"],
     ["lun 12 oct (feriado en Chile)", "Recibes la lista de alumnos de cada sección y quedas como admin de los dos grupos de WhatsApp.", "Jay → tú"],
@@ -223,10 +225,10 @@ function buildKiran() {
 
   // 5. Antes de la clase 1
   ch.push(H1("5. Antes de la clase 1: checklist"));
-  ch.push(P("Cuatro pedidos con fecha límite (hora Chile). Si algo no calza, avísame antes del plazo y lo ajustamos."));
+  ch.push(P("Lo que te pido y lo que recibes antes de la clase 1, con fecha límite (hora Chile). Si algo no calza, avísame antes del plazo y lo ajustamos."));
   ch.push(headTable(["□", "Qué", "Hasta", "Detalle"], [
     ["□", { t: "Clip de presentación de 15 s", o: { bold: true } }, "mié 30 sep · 22:00", "Vertical (9:16) y con luz de frente; el guion te lo mando por WhatsApp. Envíalo como documento para que no pierda calidad. Sale en el post “Conoce a tus profes” (vie 2 oct)."],
-    ["□", { t: "Link de Zoom recurrente para tus dos secciones (o confirmar que usas la cuenta de la academia)", o: { bold: true } }, "mié 7 oct", "Reunión semanal martes 20:00 y jueves 20:00 (hora Chile), con salas para grupos habilitadas y grabación en la nube activada. Jay lo comparte con los alumnos antes de la clase 1."],
+    ["□", { t: "Recibir de Jay tu link de Zoom y la clave de anfitrión", o: { bold: true } }, "antes del mié 7 oct", "Jay te envía el link de Zoom (cuenta de pago de la academia, reunión recurrente de 8 sesiones) y la clave de anfitrión antes del mié 7 oct: un link para la sección del martes y otro para la del jueves (20:00, hora Chile). Tú no creas ni envías nada. Para quedar como anfitriona: entras al link → Participantes → “Reclamar anfitrión” y pones la clave. Salas para grupos y grabación en la nube ya vienen activadas. Tu clase termina puntual a las 20:58: a las 21:00 empieza otra clase en la misma cuenta. Jay comparte el link con los alumnos antes de la clase 1."],
     ["□", { t: "Revisar el programa de Básico 1 y preparar la clase 1", o: { bold: true } }, "vie 9 oct", "Clase 1: 가나다라 I · La sílaba (deck, hoja 가나다라 I, coro y eco, fábrica de sílabas en pares, lectura relámpago). Avísale a Jay si falta algún material."],
     ["□", { t: "Lista de alumnos y grupo de WhatsApp", o: { bold: true } }, "lun 12 oct", "Jay cierra la matrícula el dom 11 a las 23:59, te manda la lista de cada sección y te deja como admin de los dos grupos. Ese día saluda en cada grupo con la hora de la clase (Chile + un país del grupo)."],
     ["□", "El día antes de cada clase 1", "lun 12 oct (sección martes) · mié 14 oct (sección jueves)", "Confirma la clase en el grupo y prueba Zoom (salas + grabación)."],
@@ -293,7 +295,7 @@ function buildKiran() {
     ["Libro", "한글학교 한국어 1: 가나다라 I–II, lecciones 1 a 9 y repaso integral (lección 10)."],
     ["Carpeta del curso (Drive)", "[PLACEHOLDER: carpeta Básico 1 martes] · [PLACEHOLDER: carpeta Básico 1 jueves]"],
     ["Hoja de asistencia y notas", "[PLACEHOLDER: link de la hoja]"],
-    ["Zoom", "[PLACEHOLDER: tu link recurrente — lo mandas hasta el mié 7 oct]"],
+    ["Zoom", "[PLACEHOLDER: link martes] · [PLACEHOLDER: link jueves] — Jay te envía el link de Zoom (cuenta de pago de la academia, reunión recurrente de 8 sesiones) y la clave de anfitrión antes del mié 7 oct."],
     ["Grupos de WhatsApp", "[PLACEHOLDER: grupo Básico 1 martes] · [PLACEHOLDER: grupo Básico 1 jueves]"],
     ["Examen escrito en línea (clase 8)", "[PLACEHOLDER: link del formulario — lo confirma Jay]"],
   ], 2800));
@@ -377,7 +379,7 @@ function buildAbby() {
     sub: "회화 1 · Conversacional 1 (A2.1)  ·  어린이 한국어 · Coreano para Niños (8–15)",
     lineas: ["2026년 10월 코호트 · Zoom 실시간 수업 16회 (각 60분)", "회화 1: 10월 14일(수) ~ 12월 2일(수) · 어린이반: 10월 20일(화) ~ 12월 8일(화)", "모든 시간은 한국 시간(KST) · 괄호 안은 칠레 시간"],
     contacto: "www.academiaseul.com · +56 9 4211 5562 · @academiaseul",
-    nota: "버전 1.0 · 2026년 9월 25일(금) · 교사용 내부 문서. 수업 정보 출처: academiaseul.com/programa, 전체 프로그램 Part III(교사 가이드).",
+    nota: "버전 1.1 · 2026년 9월 25일(금) · 교사용 내부 문서. 수업 정보 출처: academiaseul.com/programa, 전체 프로그램 Part III(교사 가이드).",
   }));
 
   // 1. 환영 인사
@@ -422,7 +424,7 @@ function buildAbby() {
     ["9월 25일(금)", "9월 25일(금)", "이 키트와 프로그램 PDF 받기", "Jay → 선생님"],
     ["10월 1일(목) 10:00", "9월 30일(수) 22:00", "15초 자기소개 영상 마감", "선생님"],
     ["10월 2일(금) ~ 3일(토)", "10월 2일(금)", "인스타그램 '선생님 소개' 게시물 (영상 사용)", "Jay"],
-    ["10월 7일(수)", "10월 7일(수)", "매주 반복 Zoom 링크 마감 (또는 학원 계정 사용 확인)", "선생님"],
+    ["10월 7일(수)까지", "10월 7일(수)까지", "Jay가 Zoom 링크(학원 유료 계정, 8회 반복 회의)와 호스트 키를 보내 드려요. 선생님이 링크를 만들거나 보내실 필요는 없어요.", "Jay → 선생님"],
     ["10월 9일(금)", "10월 9일(금)", "프로그램과 첫 수업 확인, 필요한 자료 알려 주기", "선생님"],
     ["10월 12일(월) 11:59", "10월 11일(일) 23:59", "등록 마감 (정원이 차면 더 일찍)", "Jay"],
     ["10월 12일(월) ~ 13일(화)", "10월 11일(일) 밤 ~ 12일(월)", "학생 명단 받기 + 단톡방 관리자 추가 (회화 1, 어린이반 가족방)", "Jay → 선생님"],
@@ -485,10 +487,10 @@ function buildAbby() {
 
   // 5. 체크리스트
   ch.push(H1("5. 첫 수업 전 체크리스트"));
-  ch.push(P("부탁드리는 일 4가지와 마감일입니다 (한국 시간, 괄호 안은 칠레). 일정이 어려우시면 마감 전에 편하게 말씀해 주세요."));
+  ch.push(P("첫 수업 전에 부탁드리는 일과 받으실 것, 그리고 마감일입니다 (한국 시간, 괄호 안은 칠레). 일정이 어려우시면 마감 전에 편하게 말씀해 주세요."));
   ch.push(headTable(["□", "할 일", "마감 (KST)", "내용"], [
     ["□", { t: "15초 자기소개 영상", o: { bold: true } }, "10월 1일(목) 10:00 (칠레 9월 30일(수) 22:00)", "세로(9:16), 얼굴 정면에 빛. 대본은 Jay의 WhatsApp 메시지 참고. 화질 유지를 위해 WhatsApp에 '문서'로 보내 주세요. 자막은 Jay가 넣습니다."],
-    ["□", { t: "매주 반복 Zoom 링크 (회화 1 + 어린이반) 또는 학원 계정 사용 확인", o: { bold: true } }, "10월 7일(수) (칠레 10월 7일(수))", "소그룹 방(breakout rooms) 허용, 클라우드 녹화 켜기. 어린이반 호스트는 Jay와 정해요. 링크는 Jay가 첫 수업 전에 학생들에게 전달합니다."],
+    ["□", { t: "Jay에게 Zoom 링크와 호스트 키 받기", o: { bold: true } }, "10월 7일(수)까지 (칠레 10월 7일(수)까지)", "Jay가 Zoom 링크(학원 유료 계정, 8회 반복 회의)와 호스트 키를 10월 7일(수)까지 보내 드려요: 회화 1 링크 하나, 어린이반 링크 하나. 선생님은 링크를 만들거나 보내실 필요가 없어요. 호스트가 되려면 링크로 들어가서 참가자 → '호스트 권한 가져오기'를 누르고 키를 입력하세요. 소그룹 방과 클라우드 녹화는 계정에 미리 켜 둡니다. 회화 1 바로 앞(08:00)에 같은 계정으로 다른 수업이 있어서 그 수업이 08:58에 끝나요: 회화 1은 08:58 이후에 들어와 주세요. 링크는 Jay가 첫 수업 전에 학생들에게 전달합니다."],
     ["□", { t: "프로그램과 첫 수업 확인", o: { bold: true } }, "10월 9일(금) (칠레 10월 9일(금))", "회화 1 1회차(오리엔테이션 + 말하기 진단), 어린이반 1회차(인사 + 모음). 필요한 자료나 질문을 Jay에게 알려 주세요."],
     ["□", { t: "학생 명단 받기 + 단톡방 관리자", o: { bold: true } }, "10월 12일(월) ~ 13일(화) (칠레 10월 11일(일) 밤 ~ 12일(월))", "Jay가 명단을 보내고 WhatsApp 단톡방(회화 1, 어린이반 가족방) 관리자로 추가합니다. 단톡방에 짧은 인사를 부탁드려요 (칠레 시간 + 한국 시간)."],
     ["□", "각 수업 첫 회 전날", "회화 1: 10월 13일(화) · 어린이반: 10월 19일(월)", "단톡방에 내일 수업을 알리고 Zoom(방 + 녹화)을 테스트합니다."],
@@ -611,7 +613,7 @@ function buildAbby() {
     ["어린이반 수업 자료", "학원 자체 그림 자료(PDF), 빙고 카드, 글자 카드, 스티커 진도판, 발표회 대본 템플릿, 인사·가족·숫자 노래(한글·스페인어 가사)."],
     ["Drive 과정 폴더", "[PLACEHOLDER: 회화 1 폴더 링크] · [PLACEHOLDER: 어린이반 폴더 링크]"],
     ["출석·점수 시트", "[PLACEHOLDER: 시트 링크]"],
-    ["Zoom", "[PLACEHOLDER: 선생님이 10월 7일(수)까지 보내 주실 링크]"],
+    ["Zoom", "[PLACEHOLDER: 회화 1 링크] · [PLACEHOLDER: 어린이반 링크] — Jay가 Zoom 링크(학원 유료 계정, 8회 반복 회의)와 호스트 키를 10월 7일(수)까지 보내 드려요."],
     ["WhatsApp 단톡방", "[PLACEHOLDER: 회화 1 단톡방] · [PLACEHOLDER: 어린이반 가족 단톡방]"],
   ], 2800));
 

@@ -241,7 +241,7 @@ Calentamiento opcional (10 min): Lector de Hangul → pestaña Alfabeto · acade
 🌎 19:00 Col/Perú · 18:00 México · 21:00 Argentina · 20:00 EE.UU. Este · 02:00 España (mié) · 09:00 Corea (mié)
 💻 Zoom: [LINK ZOOM C1]
 
-Antes de entrar: Zoom actualizado, audífonos con micrófono, cámara y tu nombre real en pantalla. Entra 5 minutos antes.
+Antes de entrar: Zoom actualizado, audífonos con micrófono, cámara y tu nombre real en pantalla. Entra a las 21:00 en punto: la sala se abre a las 20:58, cuando termina la clase anterior (usamos la misma cuenta de Zoom).
 La clase 1 es para romper el hielo: piensa en 3 cosas que quieras poder decir en coreano al terminar el curso.
 ¡Nos vemos mañana! 화이팅 🐯
 ```
@@ -274,7 +274,7 @@ Calentamiento opcional (10 min): Lector de Hangul → pestaña Alfabeto · acade
 🌎 19:00 Col/Perú · 18:00 México · 21:00 Argentina · 20:00 EE.UU. Este · 02:00 España (vie) · 09:00 Corea (vie)
 💻 Zoom: [LINK ZOOM TOPIK]
 
-Antes de entrar: Zoom actualizado, audífonos con micrófono, cámara, cuaderno y lápiz. Entra 5 minutos antes.
+Antes de entrar: Zoom actualizado, audífonos con micrófono, cámara, cuaderno y lápiz. Entra a las 21:00 en punto: la sala se abre a las 20:58, cuando termina la clase anterior (usamos la misma cuenta de Zoom).
 La clase 1 es diagnóstico + radiografía del examen: trae tu fecha objetivo de TOPIK y el nivel que buscas.
 ¡Nos vemos mañana! 화이팅 🐯 Jay
 ```
@@ -305,6 +305,7 @@ En esta primera clase les pido conectar 10 minutos antes y acompañar a [NOMBRE 
 🔔 ¡En 1 hora empezamos! *[CURSO]* · [HORA] hora Chile.
 💻 Zoom: [LINK ZOOM]
 Entra 5 minutos antes para probar el audio. Si el link no abre, escríbeme por privado. ¡Nos vemos! 화이팅
+*Conversacional 1 y TOPIK II: cambia "Entra 5 minutos antes" por* "Entra a las 21:00 en punto (la sala se abre a las 20:58)."
 ```
 *Niños: cambia la segunda línea por* "Familias: conecten 10 minutos antes, prueben juntos el audio y pongan el nombre de pila del niño o niña en Zoom."
 

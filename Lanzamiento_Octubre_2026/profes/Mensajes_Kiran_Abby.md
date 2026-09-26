@@ -14,8 +14,10 @@ Los mensajes de Abby van en coreano; debajo de cada uno está la traducción al 
 | **hoy vie 25 sep**, 20:00–22:00 (= sáb 26, 08:00–10:00 en Corea) | Abby | 1.2 + 2.2 (guion del clip) | `Kit_Abby_Conversacional_Ninos_KO.pdf` + PDFs de Conversacional 1, Niños y Programa Completo EN |
 | mar 29 sep, 12:00 | Kiran | 3.1 clip mañana | — |
 | mar 29 sep, 20:00 (= mié 30, 08:00 KST) | Abby | 3.1 clip mañana | — |
-| lun 5 oct, 12:00 | Kiran | 3.2 Zoom hasta el mié 7 | — |
-| lun 5 oct, 20:00 (= mar 6, 08:00 KST) | Abby | 3.2 Zoom hasta el mié 7 | — |
+| lun 5 oct, 12:00 | Kiran | 3.2 Zoom de la academia: link y clave antes del mié 7 | — |
+| lun 5 oct, 20:00 (= mar 6, 08:00 KST) | Abby | 3.2 Zoom de la academia: link y clave antes del mié 7 | — |
+| mar 6 oct, 12:00 (tope mié 7) | Kiran | 3.2-b sus 2 links de Zoom + clave de anfitrión | — (van en el texto) |
+| mar 6 oct, 20:00 (= mié 7, 08:00 KST; tope mié 7 Chile) | Abby | 3.2-b sus 2 links de Zoom + clave de anfitrión | — (van en el texto) |
 | lun 12 oct, 10:00 | Kiran | 3.3 listas y grupos | listas de alumnos |
 | lun 12 oct, 10:00 (= lun 12, 22:00 KST) | Abby | 3.3 listas y grupos | listas de alumnos |
 | mar 13 oct, 14:00 | Kiran | 3.4 primera clase (martes) | — |
@@ -49,9 +51,9 @@ Te adjunto tu *kit de inicio* (PDF): tus 16 clases con fecha, qué se ve cada se
 • Básico 1: https://www.academiaseul.com/programas/Programa_Basico1_Octubre_2026.pdf
 • Programa Completo (mira la Parte III, la guía para profes): https://www.academiaseul.com/programas/Programa_Completo_Octubre_2026_ES.pdf
 
-Te pido 4 cositas, con fecha:
+Estas son las 4 fechas que vienen:
 1) *mié 30 sep, 22:00* → un clip tuyo de 15 segundos presentándote (te paso el guion en el mensaje siguiente).
-2) *mié 7 oct* → el link de Zoom recurrente para tus dos secciones (o me dices si prefieres usar la cuenta de la academia).
+2) *antes del mié 7 oct* → yo te mando el link de Zoom de tus dos secciones y la clave de anfitrión. Usamos la cuenta de pago de la academia (una reunión recurrente de 8 sesiones por sección), así que no tienes que crear ni enviar ningún link.
 3) *vie 9 oct* → revisar el programa y la clase 1, y avisarme cualquier duda o material que falte.
 4) *lun 12 oct* → te mando la lista de alumnos de cada sección y te dejo como admin de los dos grupos de WhatsApp; ese día saludas en cada grupo.
 
@@ -79,9 +81,9 @@ Abby 선생님, 안녕하세요! 즐거운 추석 보내고 계시죠?
 • 어린이반 (스페인어): https://www.academiaseul.com/programas/Programa_Ninos_Octubre_2026.pdf
 • 전체 프로그램 영어판 (Part III가 교사 가이드예요): https://www.academiaseul.com/programas/Programa_Completo_Octubre_2026_EN.pdf
 
-부탁드릴 일 4가지예요 (한국 시간 마감):
+앞으로의 일정 4가지예요 (한국 시간 기준):
 1) *10월 1일(목) 오전 10시* → 15초 자기소개 영상 (대본은 다음 메시지로 보낼게요). 영상 보내실 때 어린이반 시간(한국 화요일 오전 6시)이 괜찮으신지도 한 줄로 알려 주세요.
-2) *10월 7일(수)* → 매주 반복되는 Zoom 링크 (두 수업), 또는 학원 계정을 쓸지 알려 주세요
+2) *10월 7일(수)까지* → 제가 두 수업의 Zoom 링크와 호스트 키를 보내 드릴게요. 학원 유료 계정으로 수업마다 8회 반복 회의를 만들기 때문에, 선생님은 링크를 따로 만들거나 보내실 필요가 없어요.
 3) *10월 9일(금)* → 프로그램과 첫 수업 내용 확인, 필요한 자료나 질문 알려 주세요
 4) *10월 12일(월)~13일(화)* → 제가 학생 명단을 보내고 WhatsApp 단톡방 관리자로 추가해 드릴게요. 단톡방에 짧게 인사 부탁드려요.
 
@@ -96,7 +98,7 @@ Jay (김재희) 드림
 > • **Coreano para Niños (8–15)**, conmigo: martes 06:00, del mar 20 oct al mar 8 dic, 8 sesiones (lunes 18:00 en Chile; empieza una semana después porque el 12 de octubre es feriado en Chile).
 > Todo es por Zoom, 60 minutos; cupos: 15 en Conversacional 1 y 12 en Niños. La matrícula cierra el domingo 11 de octubre (Chile).
 > Te adjunto tu kit de inicio en coreano: las 16 sesiones, el contenido semana a semana, cómo funciona cada clase y la evaluación. También los links de los programas originales (Conversacional 1 y Niños en español; el Programa Completo en inglés, cuya Parte III es la guía para profes).
-> Te pido 4 cosas (plazos en hora de Corea): 1) **jue 1 oct, 10:00** → clip de presentación de 15 s (el guion va en el siguiente mensaje); al mandarlo, que confirme en una línea si le acomoda el horario de Niños (martes 06:00 en Corea); 2) **mié 7 oct** → link de Zoom recurrente para las dos clases, o decirme si usamos la cuenta de la academia; 3) **vie 9 oct** → revisar el programa y la primera clase, y avisarme qué material o dudas tiene; 4) **lun 12–mar 13 oct** → le mando la lista de alumnos y la dejo como admin de los grupos de WhatsApp; un saludo corto en el grupo.
+> Las 4 fechas que vienen (hora de Corea): 1) **jue 1 oct, 10:00** → clip de presentación de 15 s (el guion va en el siguiente mensaje); al mandarlo, que confirme en una línea si le acomoda el horario de Niños (martes 06:00 en Corea); 2) **hasta el mié 7 oct** → yo le mando el link de Zoom de sus dos clases y la clave de anfitrión: usamos la cuenta de pago de la academia (una reunión recurrente de 8 sesiones por clase), así que ella no tiene que crear ni enviar ningún link; 3) **vie 9 oct** → revisar el programa y la primera clase, y avisarme qué material o dudas tiene; 4) **lun 12–mar 13 oct** → le mando la lista de alumnos y la dejo como admin de los grupos de WhatsApp; un saludo corto en el grupo.
 > Todo el detalle está en el kit. Cualquier duda, me escribe. ¡Muchas gracias por sumarte! 화이팅. Jay (김재희).
 
 ---
@@ -174,23 +176,55 @@ Yo le pongo en pantalla tu nombre, el curso y el horario. Plazo: *mié 30 sep, 2
 
 > **Traducción:** ¡Buenos días, profe! Te recuerdo suavemente que el clip de 15 s vence mañana, jueves 1 de octubre a las 10:00 en Corea. Basta con grabarlo en vertical y con luz de frente; ¡no tiene que ser perfecto! Lo publicamos el viernes 2 (Chile) en el post "Conoce a tus profes". ¡Gracias!
 
-### 3.2 Lunes 5 oct · Zoom hasta el miércoles 7
+### 3.2 Lunes 5 oct · tu Zoom llega antes del miércoles 7
+
+Zoom va por la **cuenta de pago de la academia**: Jay crea las 6 reuniones recurrentes (una por clase, 8 sesiones cada una) y manda a cada profe su link + la clave de anfitrión antes del mié 7 (3.2-b). Las profes no crean ni envían ningún link. Si el lun 5 ya tienes las reuniones creadas, junta 3.2 y 3.2-b en un solo mensaje.
 
 **Kiran** (12:00)
 
 ```text
-¡Hola, Kiran! ¿Cómo va todo? Te recuerdo que el *miércoles 7* necesito el link de Zoom recurrente de tus dos secciones (martes 20:00 y jueves 20:00, hora Chile), o que me digas si usamos la cuenta de la academia. Ojo con dos cosas: *salas para grupos habilitadas* y *grabación en la nube activada*.
+¡Hola, Kiran! ¿Cómo va todo? Te cuento cómo quedó Zoom: usamos la cuenta de pago de la academia, con una reunión recurrente de 8 sesiones para cada sección, así que no tienes que crear nada. Antes del *miércoles 7* te mando tus dos links (martes y jueves 20:00, hora Chile) y la clave de anfitrión. Las salas para grupos y la grabación en la nube ya van activadas.
+Un detalle: a las 21:00 empieza otra clase en la misma cuenta, así que tu clase termina *puntual a las 20:58*.
 Esta semana armo los grupos de WhatsApp y el domingo 11 cierra la matrícula. Por ahora vamos con [PLACEHOLDER: N] inscritos en el martes y [PLACEHOLDER: N] en el jueves. ¡Gracias!
 ```
 
 **Abby** (20:00 Chile = mar 6, 08:00 en Corea)
 
 ```text
-선생님, 안녕하세요! Zoom 링크 마감이 *10월 7일(수)*이라 알려 드려요. 회화 1(수요일 오전 9시)과 어린이반(화요일 오전 6시)의 매주 반복 링크, 또는 학원 계정을 쓸지 알려 주세요. *소그룹 방(breakout rooms)* 허용과 *클라우드 녹화*만 켜 주시면 돼요. 어린이반 호스트는 누가 할지 같이 정해요.
+선생님, 안녕하세요! Zoom은 학원 유료 계정으로 하기로 했어요. 수업마다 8회 반복 회의를 만들어서, 선생님은 링크를 따로 만들지 않으셔도 돼요. *10월 7일(수)*까지 회화 1(수요일 오전 9시)과 어린이반(화요일 오전 6시) 링크, 그리고 호스트 키를 보내 드릴게요. 소그룹 방과 클라우드 녹화는 제가 미리 켜 둘게요.
+한 가지만요: 회화 1 바로 앞(오전 8시)에 같은 계정으로 다른 수업이 있고, 그 수업이 8시 58분에 끝나요. 그래서 회화 1은 *8시 58분 이후*에 들어와 주세요.
 이번 주에 단톡방을 만들고, 등록은 칠레 10월 11일(일)에 마감해요. 지금 회화 1 [PLACEHOLDER: N]명, 어린이반 [PLACEHOLDER: N]명이에요. 감사합니다!
 ```
 
-> **Traducción:** ¡Hola, profe! Te recuerdo que el link de Zoom vence el miércoles 7 de octubre: el link recurrente de Conversacional 1 (miércoles 09:00) y de Niños (martes 06:00), o decirme si usamos la cuenta de la academia. Solo hay que habilitar las salas para grupos y la grabación en la nube. Quién hace de anfitrión en Niños lo decidimos juntos. Esta semana armo los grupos de WhatsApp y la matrícula cierra el domingo 11 (Chile). Por ahora vamos con [N] en Conversacional 1 y [N] en Niños. ¡Gracias!
+> **Traducción:** ¡Hola, profe! Zoom quedó con la cuenta de pago de la academia: una reunión recurrente de 8 sesiones por clase, así que no tiene que crear ningún link. Hasta el miércoles 7 de octubre le mando los links de Conversacional 1 (miércoles 09:00) y de Niños (martes 06:00) y la clave de anfitrión. Las salas para grupos y la grabación en la nube las dejo activadas yo. Un detalle: justo antes de Conversacional 1 (a las 08:00) hay otra clase en la misma cuenta, que termina a las 08:58; por eso a Conversacional 1 se entra desde las 08:58. Esta semana armo los grupos de WhatsApp y la matrícula cierra el domingo 11 (Chile). Por ahora vamos con [N] en Conversacional 1 y [N] en Niños. ¡Gracias!
+
+### 3.2-b Martes 6 oct (tope mié 7) · link de Zoom y clave de anfitrión
+
+Cuando crees las 6 reuniones (plan §6 #2). La clave de anfitrión es la de la cuenta de la academia: mándala solo a las profes, nunca a un grupo.
+
+**Kiran** (12:00)
+
+```text
+¡Hola, Kiran! Aquí van tus links de Zoom (cuenta de la academia; el mismo link las 8 semanas):
+• Básico 1 · martes 20:00: [PLACEHOLDER: link martes]
+• Básico 1 · jueves 20:00: [PLACEHOLDER: link jueves]
+Clave de anfitrión: [PLACEHOLDER: clave de anfitrión] (es solo para ti; no la compartas con los alumnos).
+Para quedar como anfitriona: entras al link, abres *Participantes* → *Reclamar anfitrión* (Claim host) y pones la clave. Así puedes grabar, abrir las salas y admitir alumnos.
+Recuerda que termina puntual a las 20:58. Si quieres, esta semana lo probamos juntos 5 minutos. ¡Gracias!
+```
+
+**Abby** (20:00 Chile = mié 7, 08:00 en Corea)
+
+```text
+선생님, 좋은 아침이에요! Zoom 링크 보내 드려요 (학원 계정, 8주 동안 같은 링크예요):
+• 회화 1 · 수요일 오전 9시: [PLACEHOLDER: 링크]
+• 어린이반 · 화요일 오전 6시: [PLACEHOLDER: 링크]
+호스트 키: [PLACEHOLDER: 호스트 키] (선생님만 쓰시고 학생들에게는 공유하지 말아 주세요)
+호스트가 되려면 링크로 들어가서 *참가자* → *호스트 권한 가져오기*를 누르고 키를 입력하시면 돼요. 그러면 녹화, 소그룹 방, 학생 입장 허용을 하실 수 있어요.
+회화 1은 앞 수업이 8시 58분에 끝나니까 그 이후에 들어와 주세요. 어린이반은 저도 같이 들어가요. 이번 주에 5분 정도 같이 테스트해 봐도 좋아요. 감사합니다!
+```
+
+> **Traducción:** ¡Buenos días, profe! Le mando sus links de Zoom (cuenta de la academia, el mismo link las 8 semanas): Conversacional 1 · miércoles 09:00: [link]; Niños · martes 06:00: [link]. Clave de anfitrión: [clave] (solo para ella; que no la comparta con los alumnos). Para quedar como anfitriona: entra al link, Participantes → "Reclamar anfitrión" e ingresa la clave; así puede grabar, abrir salas y admitir alumnos. A Conversacional 1 entra después de las 08:58, cuando termina la clase anterior; en Niños yo también entro. Si quiere, esta semana lo probamos 5 minutos juntos. ¡Gracias!
 
 ### 3.3 Lunes 12 oct (feriado en Chile) · listas y grupos
 
@@ -253,13 +287,13 @@ Hoy tus alumnos leen sus primeras sílabas. ¡A disfrutarlo! 화이팅
 
 ```text
 선생님, 좋은 아침이에요! 오늘 *오전 9시*가 회화 1 첫 수업이에요 (칠레 화요일 밤 9시). 체크리스트 3가지:
-1) 10분 전 Zoom 입장, *0분부터 클라우드 녹화*, 소그룹 방 준비.
+1) 8시 58분 Zoom 입장 (앞 수업이 같은 계정이라 8시 58분에 끝나요), 호스트 키로 호스트 권한 가져오기, *0분부터 클라우드 녹화*, 소그룹 방 준비.
 2) 1회차는 오리엔테이션 + 말하기 진단이에요. 방을 돌며 학생별로 3가지(유창성·발음·개인 목표)를 메모해 주세요.
 3) 수업 후 24시간 안에: 녹화와 과제를 단톡방에, 출석 기록, 저에게 한 줄.
 첫 수업 즐겁게 하세요. 화이팅!
 ```
 
-> **Traducción:** ¡Buenos días, profe! Hoy a las 09:00 es la primera clase de Conversacional 1 (martes 21:00 en Chile). Checklist: 1) entrar a Zoom 10 min antes, grabación en la nube desde el minuto 0 y salas listas; 2) la sesión 1 es orientación + diagnóstico oral: mientras rota por las salas, anotar 3 datos por alumno (fluidez, pronunciación, meta personal); 3) dentro de 24 h: grabación y tarea en el grupo, asistencia y una línea para mí. ¡Que disfrute la primera clase! 화이팅
+> **Traducción:** ¡Buenos días, profe! Hoy a las 09:00 es la primera clase de Conversacional 1 (martes 21:00 en Chile). Checklist: 1) entrar a Zoom a las 08:58 (la clase anterior, en la misma cuenta, termina a esa hora), reclamar anfitrión con la clave, grabación en la nube desde el minuto 0 y salas listas; 2) la sesión 1 es orientación + diagnóstico oral: mientras rota por las salas, anotar 3 datos por alumno (fluidez, pronunciación, meta personal); 3) dentro de 24 h: grabación y tarea en el grupo, asistencia y una línea para mí. ¡Que disfrute la primera clase! 화이팅
 
 **Abby · Coreano para Niños · lunes 19 oct** (10:00 Chile = lun 19, 22:00 en Corea; la clase es mar 20, 06:00 KST)
 
@@ -302,5 +336,5 @@ Si prefieres, lo hablamos 15 minutos por llamada cuando te acomode. ¡Gracias, d
 ## Para completar antes de enviar (Jay)
 
 - ~~Exportar los dos kits a PDF~~ Hecho el vie 25 (Kit_Kiran_Basico1_ES.pdf, 13 págs · Kit_Abby_Conversacional_Ninos_KO.pdf, 18 págs). Si cambias un .docx, vuelve a exportarlo con Word.
-- Rellenar los `[PLACEHOLDER]` de los mensajes 3.2 y 3.3: inscritos del día, listas y links de los grupos.
+- Rellenar los `[PLACEHOLDER]` de los mensajes 3.2, 3.2-b y 3.3: inscritos del día, links de Zoom y clave de anfitrión, listas y links de los grupos.
 - En los kits quedan como `[PLACEHOLDER]`: carpetas de Drive, hoja de asistencia, links de Zoom, grupos de WhatsApp y el formulario del examen escrito de Básico 1. Se completan cuando existan (mié 7 oct) y se reenvía el kit o se mandan por el grupo.
