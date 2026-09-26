@@ -1,21 +1,28 @@
 // md_a_docx.js · Markdown -> Word (docx) con el estilo de la casa de Academia Seúl.
-// Compila Básico 1 (A1.1) en dos documentos:
-//   a) Curriculo/Fase2_Basico1/Guia_Profesor_Basico1_Octubre_2026.docx
-//      portada + índice + 00_Diseno_Basico1.md + profes/S01…S08 (cada archivo en página nueva)
-//   b) Curriculo/Fase2_Basico1/Cuaderno_Alumno_Basico1_Octubre_2026.docx
-//      portada + índice + alumnos/S01…S08 (nada del material del profesor)
+// Compila un curso del currículo en dos documentos (carpeta, portadas y nombres de salida en CURSOS, al final):
+//   a) Guía del profesor: portada + índice + 00_Diseno_<Curso>.md + profes/S01…S08 (cada archivo en página nueva)
+//   b) Cuaderno del alumno: portada + índice + alumnos/S01…S08 (nada del material del profesor)
+// Cursos:
+//   basico1 (por defecto) -> Curriculo/Fase2_Basico1/Guia_Profesor_Basico1_Octubre_2026.docx
+//                            Curriculo/Fase2_Basico1/Cuaderno_Alumno_Basico1_Octubre_2026.docx
+//   basico2               -> Curriculo/Fase3_Basico2/Guia_Profesor_Basico2_Octubre_2026.docx
+//                            Curriculo/Fase3_Basico2/Cuaderno_Alumno_Basico2_Octubre_2026.docx
 //
 // Markdown soportado: # a #### (títulos azul #4236F6 / navy #003478), párrafos (los saltos de línea
 // simples se respetan), **negrita**, *cursiva*, ***ambas***, ~~tachado~~, `código` (como texto normal),
 // [links](url), <br>, <sub>romanización</sub> (gris y pequeña), \escapes, listas con viñeta, numeradas
 // y de casillas (- [ ]) con anidación simple, tablas (cabecera navy con texto blanco, filas cebra,
-// bordes grises; una tabla con cabecera vacía se dibuja como tabla etiqueta | valor), citas (>) como
-// recuadro azul claro, bloques ``` como recuadro gris y separadores (---).
+// bordes grises; una tabla con cabecera vacía se dibuja como tabla etiqueta | valor; un | dentro de `código`
+// no parte la celda), citas (>) como recuadro azul claro (también sangradas dentro de un ítem de lista),
+// bloques ``` como recuadro gris y separadores (---). El * de forma incorrecta pegado a una palabra
+// (먹았어요*, 안 운동해요*) queda literal: un * solo abre cursiva si es "left-flanking" (CommonMark).
 // Estilo: US Letter, Arial 10,5 pt (Malgun Gothic para el hangul), márgenes 0,9", encabezado con el
 // título del documento, pie con www.academiaseul.com y número de página, logo azul en la portada.
 // Nunca rojo.
 //
-// Uso: cd <scratchpad> && node curriculo/md_a_docx.js
+// Uso: cd <scratchpad> && node curriculo/md_a_docx.js [basico1|basico2|todos]
+//   (sin argumento se usa la variable de entorno AS_CURSO y, si no está, basico1: el comportamiento de siempre).
+//   AS_OUT_DIR=<carpeta> escribe los .docx ahí en vez de en la carpeta del curso (útil para comparar versiones).
 // La copia del repo (Curriculo/fuente/md_a_docx.js) usa el docx del scratchpad (AS_SCRATCH) si no lo encuentra.
 const fs = require("fs");
 const path = require("path");
@@ -32,7 +39,7 @@ const {
 } = docx;
 
 const REPO = "C:\\Users\\Chingu\\Desktop\\ACADEMIASEULWEB";
-const BASE = path.join(REPO, "Curriculo", "Fase2_Basico1");
+const CURRICULO = path.join(REPO, "Curriculo");
 
 // ============================ ESTILO DE LA CASA ============================
 const AZUL = "4236F6", NAVY = "003478", INK = "1B1C24", GREY = "5C5F6B";
@@ -73,6 +80,16 @@ function hasClosingStar(src, from) {
   return false;
 }
 
+// CommonMark: un * solo abre cursiva si es "left-flanking": lo que sigue no es espacio y, si es puntuación,
+// lo que va antes es espacio, puntuación o el inicio. Así el asterisco de forma incorrecta de los ejemplos
+// ("nunca 안 운동해요*)", "nunca 안 알아요*") queda literal en vez de abrir una cursiva hasta el siguiente *.
+const RE_PUNCT = /[\p{P}\p{S}]/u;
+function leftFlanking(src, k) {
+  const nx = src[k + 1], pv = k > 0 ? src[k - 1] : " ";
+  if (!nx || /\s/.test(nx)) return false;
+  return !RE_PUNCT.test(nx) || /\s/.test(pv) || RE_PUNCT.test(pv);
+}
+
 // Devuelve segmentos { t, b, i, s, sub, href } o { br: true }.
 function parseInline(src) {
   src = src.split(/(`[^`]*`)/).map((p, k) => (k % 2 ? p : curly(p))).join("");
@@ -104,6 +121,8 @@ function parseInline(src) {
       if (m && m[0].length === 2) { flush(); b = true; buf = "*"; k += 3; continue; }
     }
     if (c === "*" && src[k + 1] === "*") {
+      // "**…추워지만***": dentro de una negrita sin cursiva, el primer * es literal y los dos últimos la cierran.
+      if (b && !i && src[k + 2] === "*" && src[k + 3] !== "*") { buf += "*"; flush(); b = false; k += 3; continue; }
       if (b) { flush(); b = false; k += 2; continue; }
       const nx = src[k + 2];
       if (nx && nx !== " " && src.indexOf("**", k + 2) > 0) { flush(); b = true; k += 2; continue; }
@@ -112,7 +131,7 @@ function parseInline(src) {
     if (c === "*") {
       if (i && src[k - 1] !== " ") { flush(); i = false; k++; continue; }
       const nx = src[k + 1];
-      if (!i && nx && nx !== " " && hasClosingStar(src, k + 1)) { flush(); i = true; k++; continue; }
+      if (!i && nx && nx !== " " && leftFlanking(src, k) && hasClosingStar(src, k + 1)) { flush(); i = true; k++; continue; }
       buf += "*"; k++; continue;
     }
     if (c === "[") {
@@ -176,6 +195,8 @@ function splitRow(l) {
   let cur = "";
   for (let k = 0; k < t.length; k++) {
     if (t[k] === "\\" && t[k + 1] === "|") { cur += "|"; k++; continue; }
+    // Un `código` con | adentro (p. ej. `revHint || rom`) no parte la celda.
+    if (t[k] === "`") { const e = t.indexOf("`", k + 1); if (e > k) { cur += t.slice(k, e + 1); k = e; continue; } }
     if (t[k] === "|") { cells.push(cur.trim()); cur = ""; continue; }
     cur += t[k];
   }
@@ -238,6 +259,13 @@ function parseBlocks(lines) {
         }
         if (indentOf(c) >= Math.max(2, ind + 2) && !RE_LI.test(c)) {
           if (RE_FENCE.test(c)) { const r = readFence(i); item.children.push(r.block); i = r.next; continue; }
+          // Cita sangrada dentro del ítem ("   > 수요일 밤 아홉 시에…"): recuadro azul con la sangría del ítem.
+          if (/^\s*>/.test(c)) {
+            const inner = [];
+            while (i < n && /^\s*>/.test(lines[i]) && indentOf(lines[i]) >= Math.max(2, ind + 2)) { inner.push(lines[i].replace(/^\s*> ?/, "")); i++; }
+            item.children.push({ type: "quote", blocks: parseBlocks(inner) });
+            continue;
+          }
           item.children.push({ type: "cont", text: c.trim() });
           i++; continue;
         }
@@ -319,14 +347,15 @@ function codeBox(lines, width, indent = 0) {
   });
 }
 
-function quoteBox(innerBlocks, width) {
-  const innerW = width - 170 - 150 - 40;
+function quoteBox(innerBlocks, width, indent = 0) {
+  const w = width - indent;
+  const innerW = w - 170 - 150 - 40;
   let paras = renderBlocks(innerBlocks, { width: innerW, inBox: true });
   if (!paras.length || paras[paras.length - 1] instanceof Table) paras.push(new Paragraph({ children: [], spacing: { after: 0 } }));
   const left = { style: BorderStyle.SINGLE, size: 24, color: AZUL };
-  return boxTable(paras, width, {
+  return boxTable(paras, w, {
     fill: QUOTE_FILL, borders: { top: none, bottom: none, left, right: none, insideHorizontal: none, insideVertical: none },
-    margins: { top: 100, bottom: 100, left: 170, right: 150 },
+    margins: { top: 100, bottom: 100, left: 170, right: 150 }, indent,
   });
 }
 
@@ -458,6 +487,9 @@ function renderList(items, ctx) {
         out.push(new Paragraph({ children: inlineRuns(ch.text, { size }), indent: { left: textLeft }, spacing: { after: lastCh ? 120 : 40, ...ls(size) } }));
       } else if (ch.type === "code") {
         out.push(codeBox(ch.lines, ctx.width, Math.min(textLeft, 720)));
+        out.push(gap(lastCh ? 100 : 40));
+      } else if (ch.type === "quote") {
+        out.push(quoteBox(ch.blocks, ctx.width || CONTENT_W, Math.min(textLeft, 720)));
         out.push(gap(lastCh ? 100 : 40));
       }
     });
@@ -611,12 +643,110 @@ function documento({ titulo, descripcion, children }) {
 
 const SEMANAS = [1, 2, 3, 4, 5, 6, 7, 8];
 const firstH1 = (blocks) => { const h = blocks.find((x) => x.type === "h" && x.level === 1); return h ? plain(h.text) : ""; };
-const sinPrefijo = (t) => t.replace(/^Básico 1 \(A1\.1\) · /, "");
+
+// ============================ CURSOS ============================
+// Todo lo que cambia de un curso a otro: carpeta, archivo de diseño, prefijo que se quita de los títulos de las
+// guías en el índice, títulos (encabezado y propiedades del .docx), portadas y nombres de salida.
+// Para sumar un curso: copiar un bloque, cambiar sus datos y compilar con  node md_a_docx.js <clave>.
+// portada() devuelve [líneas centradas, caja azul (lista de párrafos), pie] para portada().
+const CURSOS = {
+  basico1: {
+    carpeta: "Fase2_Basico1",
+    diseno: "00_Diseno_Basico1.md",
+    prefijo: /^Básico 1 \(A1\.1\) · /,
+    guia: {
+      salida: "Guia_Profesor_Basico1_Octubre_2026.docx",
+      titulo: "Básico 1 (A1.1) · Guía del profesor · Cohorte octubre 2026",
+      descripcion: "Básico 1 (A1.1) · diseño del curso y guías de la profesora, semanas 1 a 8 · cohorte octubre 2026",
+      portada: () => [[
+        centro([r("첫 한국어 · Primeras Palabras", { bold: true, size: 30, color: AZUL })], 120, 80),
+        centro([r("Básico 1 (A1.1)", { bold: true, size: 60 })], 0, 60),
+        centro([r("Guía del profesor", { bold: true, size: 44, color: AZUL })], 0, 160),
+        centro([r("Cohorte octubre 2026 · Profesora: Kiran (기란)", { size: 26, color: NAVY, bold: true })], 0, 80),
+        centro([r("Sección martes y sección jueves · 20:00–20:58, hora de Chile · 8 semanas por Zoom", { size: 21, color: GREY })], 0, 60),
+      ], [
+        [r("Material de la profesora", { bold: true, size: 22, color: NAVY })],
+        [r("Diseño del curso + guías de clase de las semanas 1 a 8: plan minuto a minuto, explicaciones desde el español, claves, rúbricas y notas.", { size: 20 })],
+        [r("No se comparte con los alumnos: su material va en el Cuaderno del alumno.", { size: 20, bold: true, color: AZUL })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("Versión del 26 de septiembre de 2026 · compilada desde Curriculo/Fase2_Basico1 (00_Diseno_Basico1.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
+      ]],
+    },
+    cuaderno: {
+      salida: "Cuaderno_Alumno_Basico1_Octubre_2026.docx",
+      titulo: "Básico 1 (A1.1) · Cuaderno del alumno · Cohorte octubre 2026",
+      descripcion: "Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · material del alumno, semanas 1 a 8 · cohorte octubre 2026",
+      portada: () => [[
+        centro([r("Básico 1 (A1.1)", { bold: true, size: 60 })], 120, 60),
+        centro([r("Primeras Palabras · 첫 한국어", { bold: true, size: 36, color: AZUL })], 0, 160),
+        centro([r("Cuaderno del alumno", { bold: true, size: 44, color: NAVY })], 0, 160),
+        centro([r("Cohorte octubre 2026 · con Kiran (기란) · martes o jueves 20:00, hora de Chile", { size: 22, color: GREY })], 0, 360),
+        centro([r("Nombre: ______________________________     Sección:  martes  /  jueves", { size: 22 })], 0, 60),
+      ], [
+        [r("8 semanas para leer 한글 y decir tus primeras frases reales.", { bold: true, size: 22, color: NAVY })],
+        [r("Cada semana: lo que vas a poder decir, vocabulario, gramática, cómo suena, diálogo, ejercicios, tarjeta de sala, nota cultural y tarea.", { size: 20 })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("화이팅!", { bold: true, size: 26, color: AZUL })], 60, 0),
+      ]],
+    },
+  },
+
+  basico2: {
+    carpeta: "Fase3_Basico2",
+    diseno: "00_Diseno_Basico2.md",
+    prefijo: /^Básico 2 \(A1\.2\) · /,
+    guia: {
+      salida: "Guia_Profesor_Basico2_Octubre_2026.docx",
+      titulo: "Básico 2 (A1.2) · Guía del profesor · Cohorte octubre 2026",
+      descripcion: "Básico 2 (A1.2) · Pasado, presente y futuro · diseño del curso y guías del profesor (Jay), semanas 1 a 8 · cohorte octubre 2026",
+      portada: () => [[
+        centro([r("기초 한국어 2 · Pasado, presente y futuro", { bold: true, size: 30, color: AZUL })], 120, 80),
+        centro([r("Básico 2 (A1.2)", { bold: true, size: 60 })], 0, 60),
+        centro([r("Guía del profesor", { bold: true, size: 44, color: AZUL })], 0, 160),
+        centro([r("Cohorte octubre 2026 · Profesor: Jay (김재희)", { size: 26, color: NAVY, bold: true })], 0, 80),
+        centro([r("Sección única: miércoles 21:00–22:00, hora de Chile (jueves 09:00 en Corea) · 8 semanas por Zoom", { size: 21, color: GREY })], 0, 60),
+      ], [
+        [r("Material del profesor", { bold: true, size: 22, color: NAVY })],
+        [r("Diseño del curso + guías de clase de las semanas 1 a 8: plan minuto a minuto, explicaciones desde el español, diagnóstico, claves, rúbricas y notas.", { size: 20 })],
+        [r("No se comparte con los alumnos: su material va en el Cuaderno del alumno.", { size: 20, bold: true, color: AZUL })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("Versión del 26 de septiembre de 2026 · compilada desde Curriculo/Fase3_Basico2 (00_Diseno_Basico2.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
+      ]],
+    },
+    cuaderno: {
+      salida: "Cuaderno_Alumno_Basico2_Octubre_2026.docx",
+      titulo: "Básico 2 (A1.2) · Cuaderno del alumno · Cohorte octubre 2026",
+      descripcion: "Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · material del alumno, semanas 1 a 8 · cohorte octubre 2026",
+      portada: () => [[
+        centro([r("Básico 2 (A1.2)", { bold: true, size: 60 })], 120, 60),
+        centro([r("Pasado, presente y futuro · 기초 한국어 2", { bold: true, size: 36, color: AZUL })], 0, 160),
+        centro([r("Cuaderno del alumno", { bold: true, size: 44, color: NAVY })], 0, 160),
+        centro([r("Cohorte octubre 2026 · con Jay (김재희 선생님) · miércoles 21:00, hora de Chile", { size: 22, color: GREY })], 0, 360),
+        centro([r("Nombre: ______________________________", { size: 22 })], 0, 60),
+      ], [
+        [r("8 semanas para contar tu vida en coreano: lo que hiciste, lo que haces y lo que vas a hacer.", { bold: true, size: 22, color: NAVY })],
+        [r("Cada semana: lo que vas a poder decir, vocabulario, gramática, cómo suena, diálogo, ejercicios, tarjeta de sala, nota cultural y tarea.", { size: 20 })],
+        [r("Sin romanización: la pronunciación va en 한글 entre corchetes, 먹었어요 [머거써요].", { size: 20 })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("화이팅!", { bold: true, size: 26, color: AZUL })], 60, 0),
+      ]],
+    },
+  },
+};
+
+const carpetaDe = (cfg) => path.join(CURRICULO, cfg.carpeta);
+const salidaDe = (cfg, archivo) => path.join(process.env.AS_OUT_DIR || carpetaDe(cfg), archivo);
 
 // ---------------- a) Guía del profesor ----------------
-function guiaProfesor() {
-  const titulo = "Básico 1 (A1.1) · Guía del profesor · Cohorte octubre 2026";
-  const diseno = loadMd(path.join(BASE, "00_Diseno_Basico1.md"));
+function guiaProfesor(cfg) {
+  const BASE = carpetaDe(cfg);
+  const g = cfg.guia;
+  const sinPrefijo = (t) => t.replace(cfg.prefijo, "");
+  const diseno = loadMd(path.join(BASE, cfg.diseno));
   const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "profes", `S0${s}_Guia_Profesor.md`)));
 
   const dis = renderFile(diseno, "diseno", true);
@@ -630,63 +760,51 @@ function guiaProfesor() {
   });
 
   const children = [
-    ...portada([
-      centro([r("첫 한국어 · Primeras Palabras", { bold: true, size: 30, color: AZUL })], 120, 80),
-      centro([r("Básico 1 (A1.1)", { bold: true, size: 60 })], 0, 60),
-      centro([r("Guía del profesor", { bold: true, size: 44, color: AZUL })], 0, 160),
-      centro([r("Cohorte octubre 2026 · Profesora: Kiran (기란)", { size: 26, color: NAVY, bold: true })], 0, 80),
-      centro([r("Sección martes y sección jueves · 20:00–20:58, hora de Chile · 8 semanas por Zoom", { size: 21, color: GREY })], 0, 60),
-    ], [
-      [r("Material de la profesora", { bold: true, size: 22, color: NAVY })],
-      [r("Diseño del curso + guías de clase de las semanas 1 a 8: plan minuto a minuto, explicaciones desde el español, claves, rúbricas y notas.", { size: 20 })],
-      [r("No se comparte con los alumnos: su material va en el Cuaderno del alumno.", { size: 20, bold: true, color: AZUL })],
-    ], [
-      centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
-      centro([r("Versión del 26 de septiembre de 2026 · compilada desde Curriculo/Fase2_Basico1 (00_Diseno_Basico1.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
-    ]),
+    ...portada(...g.portada()),
     ...indice("Contenido", entradas),
     ...dis.els,
     ...sem.flatMap((s) => s.els),
   ];
-  return { file: path.join(BASE, "Guia_Profesor_Basico1_Octubre_2026.docx"), doc: documento({ titulo, descripcion: "Básico 1 (A1.1) · diseño del curso y guías de la profesora, semanas 1 a 8 · cohorte octubre 2026", children }) };
+  return { file: salidaDe(cfg, g.salida), doc: documento({ titulo: g.titulo, descripcion: g.descripcion, children }) };
 }
 
 // ---------------- b) Cuaderno del alumno ----------------
-function cuadernoAlumno() {
-  const titulo = "Básico 1 (A1.1) · Cuaderno del alumno · Cohorte octubre 2026";
+function cuadernoAlumno(cfg) {
+  const BASE = carpetaDe(cfg);
+  const c = cfg.cuaderno;
   const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "alumnos", `S0${s}_Material_Alumno.md`)));
   const sem = semanas.map((bl, k) => renderFile(bl, "semana" + (k + 1), false));
   const entradas = semanas.map((bl, k) => ({ id: "semana" + (k + 1), num: "Semana " + (k + 1), text: firstH1(bl).replace(/^Semana \d+ · /, "") }));
 
   const children = [
-    ...portada([
-      centro([r("Básico 1 (A1.1)", { bold: true, size: 60 })], 120, 60),
-      centro([r("Primeras Palabras · 첫 한국어", { bold: true, size: 36, color: AZUL })], 0, 160),
-      centro([r("Cuaderno del alumno", { bold: true, size: 44, color: NAVY })], 0, 160),
-      centro([r("Cohorte octubre 2026 · con Kiran (기란) · martes o jueves 20:00, hora de Chile", { size: 22, color: GREY })], 0, 360),
-      centro([r("Nombre: ______________________________     Sección:  martes  /  jueves", { size: 22 })], 0, 60),
-    ], [
-      [r("8 semanas para leer 한글 y decir tus primeras frases reales.", { bold: true, size: 22, color: NAVY })],
-      [r("Cada semana: lo que vas a poder decir, vocabulario, gramática, cómo suena, diálogo, ejercicios, tarjeta de sala, nota cultural y tarea.", { size: 20 })],
-    ], [
-      centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
-      centro([r("화이팅!", { bold: true, size: 26, color: AZUL })], 60, 0),
-    ]),
+    ...portada(...c.portada()),
     ...indice("Contenido", entradas),
     ...sem.flatMap((s) => s.els),
   ];
-  return { file: path.join(BASE, "Cuaderno_Alumno_Basico1_Octubre_2026.docx"), doc: documento({ titulo, descripcion: "Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · material del alumno, semanas 1 a 8 · cohorte octubre 2026", children }) };
+  return { file: salidaDe(cfg, c.salida), doc: documento({ titulo: c.titulo, descripcion: c.descripcion, children }) };
 }
 
-module.exports = { parseBlocks, parseInline, renderBlocks, documento };
+// Compila la guía y el cuaderno de un curso (clave de CURSOS) y devuelve las rutas escritas.
+async function compilar(clave) {
+  const cfg = CURSOS[clave];
+  if (!cfg) throw new Error("Curso desconocido: " + clave + " · opciones: " + Object.keys(CURSOS).join(", ") + ", todos");
+  const hechos = [];
+  for (const make of [guiaProfesor, cuadernoAlumno]) {
+    const { file, doc } = make(cfg);
+    const buf = await Packer.toBuffer(doc);
+    fs.writeFileSync(file, buf);
+    console.log("OK", file, (buf.length / 1024).toFixed(0) + " KB");
+    hechos.push(file);
+  }
+  return hechos;
+}
+
+module.exports = { parseBlocks, parseInline, renderBlocks, documento, CURSOS, compilar };
 
 if (require.main === module) {
   (async () => {
-    for (const make of [guiaProfesor, cuadernoAlumno]) {
-      const { file, doc } = make();
-      const buf = await Packer.toBuffer(doc);
-      fs.writeFileSync(file, buf);
-      console.log("OK", file, (buf.length / 1024).toFixed(0) + " KB");
-    }
-  })().catch((e) => { console.error(e); process.exit(1); });
+    const pedido = (process.argv[2] || process.env.AS_CURSO || "basico1").trim().toLowerCase().replace(/[\s_-]/g, "");
+    const claves = pedido === "todos" ? Object.keys(CURSOS) : [pedido];
+    for (const clave of claves) await compilar(clave);
+  })().catch((e) => { console.error(e.message || e); process.exit(1); });
 }

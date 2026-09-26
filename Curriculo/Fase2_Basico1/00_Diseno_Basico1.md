@@ -83,7 +83,7 @@ S1 vocales · consonantes con ㅇ muda · bloque silábico → S2 받침, tensas
 
 **15 · Escritura.** A mano: trazo de todas las letras (S1–S2), nombre, etiquetas (S3). Teclado: **instalado en la S1** y usado cada semana (presentación tipeada en la S2, frases de la foto en la S5, guion en la S7, examen). Producción meta: 6–8 frases sobre ti (el guion de la S7 tiene 8–10). Convención que se corrige desde la S2: la partícula va **pegada** al sustantivo (저는, no "저 는"): primer 띄어쓰기.
 
-**16 · Listening.** Niveles A0–A2 de la Audioteca Chingu: letras, sílabas y pares mínimos (Lector y Dubu: voz SunHi y, en Dubu, también la de Jay) · palabras del curso (hoy solo 24 de las 94 del núcleo tienen clip nativo: columna "Audio" de C) · **las 3 frases clave de cada clase** (24 frases, recortadas del coro de cierre en la grabación de Zoom). En clase: dictados de sílabas y palabras (S2), números (S4), partículas (S7), y las preguntas de clase dichas despacio. Meta: distinguir 가/카/까 y los 받침 en un dictado, y entender las preguntas del curso dichas despacio.
+**16 · Listening.** Niveles A0–A2 de la Audioteca Chingu: letras, sílabas y pares mínimos (Lector y Dubu: voz SunHi y, en Dubu, también la de Jay) · palabras del curso (desde el 26 sept, las 94 del núcleo y las 182 filas de C tienen clip nativo con la voz SunHi: columna "Audio" de C y `Curriculo/audio/Clips_Octubre_2026.md`) · **las 3 frases clave de cada clase** (24 frases, recortadas del coro de cierre en la grabación de Zoom; desde el 26 sept también tienen clip SunHi en esa misma lista). En clase: dictados de sílabas y palabras (S2), números (S4), partículas (S7), y las preguntas de clase dichas despacio. Meta: distinguir 가/카/까 y los 받침 en un dictado, y entender las preguntas del curso dichas despacio.
 
 ---
 
@@ -335,206 +335,206 @@ Kiran las dice en coro al cierre, como ya está en el programa. **El clip de 20 
 
 ## C. Lista maestra de vocabulario del curso
 
-Romanización **solo en S1–S2** (política de D). Tipo: **N** núcleo publicado (se produce y se evalúa) · **T** del tema (se usa en clase y se reconoce) · **F** fórmula (se imita sin explicar) · **C** comando de clase (se reconoce) · **P** paradigma · **R** reconocimiento (se oye o se lee en contexto, lo dice Kiran o es cultura; no se pide ni se evalúa). "Audio" = ya hay clip nativo en `public/audio/kr` (Lector o Dubu).
+Romanización **solo en S1–S2** (política de D). Tipo: **N** núcleo publicado (se produce y se evalúa) · **T** del tema (se usa en clase y se reconoce) · **F** fórmula (se imita sin explicar) · **C** comando de clase (se reconoce) · **P** paradigma · **R** reconocimiento (se oye o se lee en contexto, lo dice Kiran o es cultura; no se pide ni se evalúa). "Audio" = ya hay clip nativo en `public/audio/kr` (voz SunHi, la del Lector y Dubu; URL de cada clip en `../audio/Clips_Octubre_2026.md`, al 26 sept).
 
 | S | Coreano | Romanización | Español | Tipo | Audio | Nota |
 |---|---|---|---|---|---|---|
 | 1 | 나 | na | yo (informal, entre amigos) | N | sí |  |
 | 1 | 너 | neo | tú (informal, entre amigos) | N | sí |  |
-| 1 | 아이 | ai | niño, niña | N |  |  |
+| 1 | 아이 | ai | niño, niña | N | sí |  |
 | 1 | 우유 | uyu | leche | N | sí |  |
-| 1 | 오이 | oi | pepino | N |  |  |
+| 1 | 오이 | oi | pepino | N | sí |  |
 | 1 | 나무 | namu | árbol | N | sí |  |
 | 1 | 바다 | bada | mar | N | sí |  |
-| 1 | 모자 | moja | sombrero, gorro | N |  |  |
-| 1 | 머리 | meori | cabeza; pelo | N |  |  |
-| 1 | 구두 | gudu | zapatos (de vestir) | N |  |  |
-| 1 | 어머니 | eomeoni | madre | N |  |  |
-| 1 | 아버지 | abeoji | padre | N |  |  |
+| 1 | 모자 | moja | sombrero, gorro | N | sí |  |
+| 1 | 머리 | meori | cabeza; pelo | N | sí |  |
+| 1 | 구두 | gudu | zapatos (de vestir) | N | sí |  |
+| 1 | 어머니 | eomeoni | madre | N | sí |  |
+| 1 | 아버지 | abeoji | padre | N | sí |  |
 | 1 | 고기 | gogi | carne | T | sí | Dubu, barrio Insadong (2-1) |
-| 1 | 따라 하세요 | ttara haseyo | repitan | C |  |  |
-| 1 | 읽으세요 | ilgeuseyo | lean | C |  |  |
-| 1 | 다시 한번 | dasi hanbeon | otra vez | C |  |  |
-| 1 | 잘했어요 | jalhaesseoyo | ¡muy bien! | C |  |  |
-| 1 | 화이팅! | hwaiting | ¡ánimo!, ¡tú puedes! | F |  | rutina de cierre de cada clase |
-| 1 | 한글 | hangeul | alfabeto coreano | T |  | se usa desde la clase 1 ("tu nombre en 한글") |
-| 1 | 한글날 | hangeullal | día del alfabeto (9 de octubre) | R |  | cultura |
-| 2 | 안녕하세요 | annyeonghaseyo | hola (cortés) | N |  | en S1 solo como rutina de saludo |
-| 2 | 안녕히 가세요 | annyeonghi gaseyo | adiós (a quien se va) | N |  |  |
-| 2 | 안녕히 계세요 | annyeonghi gyeseyo | adiós (a quien se queda) | N |  |  |
-| 2 | 감사합니다 | gamsahamnida | gracias | N |  | en S1 solo como rutina de cierre |
+| 1 | 따라 하세요 | ttara haseyo | repitan | C | sí |  |
+| 1 | 읽으세요 | ilgeuseyo | lean | C | sí |  |
+| 1 | 다시 한번 | dasi hanbeon | otra vez | C | sí |  |
+| 1 | 잘했어요 | jalhaesseoyo | ¡muy bien! | C | sí |  |
+| 1 | 화이팅! | hwaiting | ¡ánimo!, ¡tú puedes! | F | sí | rutina de cierre de cada clase |
+| 1 | 한글 | hangeul | alfabeto coreano | T | sí | se usa desde la clase 1 ("tu nombre en 한글") |
+| 1 | 한글날 | hangeullal | día del alfabeto (9 de octubre) | R | sí | cultura |
+| 2 | 안녕하세요 | annyeonghaseyo | hola (cortés) | N | sí | en S1 solo como rutina de saludo |
+| 2 | 안녕히 가세요 | annyeonghi gaseyo | adiós (a quien se va) | N | sí |  |
+| 2 | 안녕히 계세요 | annyeonghi gyeseyo | adiós (a quien se queda) | N | sí |  |
+| 2 | 감사합니다 | gamsahamnida | gracias | N | sí | en S1 solo como rutina de cierre |
 | 2 | 저 | jeo | yo (forma humilde) | N | sí |  |
 | 2 | 사람 | saram | persona | N | sí |  |
 | 2 | 한국 | hanguk | Corea | N | sí |  |
-| 2 | 칠레 | chille | Chile | N |  |  |
-| 2 | 멕시코 | meksiko | México | N |  |  |
-| 2 | 콜롬비아 | kollombia | Colombia | N |  |  |
-| 2 | 학생 | haksaeng | estudiante | N |  |  |
+| 2 | 칠레 | chille | Chile | N | sí |  |
+| 2 | 멕시코 | meksiko | México | N | sí |  |
+| 2 | 콜롬비아 | kollombia | Colombia | N | sí |  |
+| 2 | 학생 | haksaeng | estudiante | N | sí |  |
 | 2 | 선생님 | seonsaengnim | profesor, profesora | N | sí |  |
 | 2 | 이름 | ireum | nombre | T | sí | en la fórmula 이름이 뭐예요? |
-| 2 | 나라 | nara | país (어느 나라 = qué país) | T |  | en la fórmula 어느 나라 사람이에요? |
-| 2 | 반갑습니다 | bangapseumnida | encantado, encantada | F |  |  |
+| 2 | 나라 | nara | país (어느 나라 = qué país) | T | sí | en la fórmula 어느 나라 사람이에요? |
+| 2 | 반갑습니다 | bangapseumnida | encantado, encantada | F | sí |  |
 | 2 | 안녕 | annyeong | hola / chao (entre amigos de la misma edad) | T | sí | reconocer; con la profe, no |
-| 2 | 아르헨티나 | areuhentina | Argentina | T |  |  |
-| 2 | 페루 | peru | Perú | T |  |  |
-| 2 | 스페인 | seupein | España | T |  |  |
-| 2 | 미국 | miguk | Estados Unidos | T |  |  |
-| 2 | 회사원 | hoesawon | empleado, empleada (de oficina) | T |  |  |
-| 2 | 의사 | uisa | médico, médica | T |  |  |
+| 2 | 아르헨티나 | areuhentina | Argentina | T | sí |  |
+| 2 | 페루 | peru | Perú | T | sí |  |
+| 2 | 스페인 | seupein | España | T | sí |  |
+| 2 | 미국 | miguk | Estados Unidos | T | sí |  |
+| 2 | 회사원 | hoesawon | empleado, empleada (de oficina) | T | sí |  |
+| 2 | 의사 | uisa | médico, médica | T | sí |  |
 | 2 | 김치 | gimchi | kimchi | T | sí | lectura de batchim; núcleo en S8 |
 | 2 | 밥 | bap | arroz cocido; comida | T | sí | lectura de batchim |
-| 2 | 고맙습니다 | gomapseumnida | gracias (otra forma, igual de cortés) | R |  | se reconoce; material del alumno S2 |
-| 2 | 목례 | mongnye | saludo con una leve inclinación de cabeza | T |  | cultura (frase ancla de la S2) |
+| 2 | 고맙습니다 | gomapseumnida | gracias (otra forma, igual de cortés) | R | sí | se reconoce; material del alumno S2 |
+| 2 | 목례 | mongnye | saludo con una leve inclinación de cabeza | T | sí | cultura (frase ancla de la S2) |
 | 3 | 빵 | — | pan | N | sí |  |
 | 3 | 물 | — | agua | N | sí |  |
 | 3 | 책 | — | libro | N | sí |  |
-| 3 | 연필 | — | lápiz | N |  |  |
-| 3 | 가방 | — | bolso, mochila | N |  |  |
-| 3 | 시계 | — | reloj | N |  |  |
-| 3 | 휴대폰 | — | celular | N |  |  |
-| 3 | 의자 | — | silla | N |  |  |
-| 3 | 책상 | — | escritorio | N |  |  |
+| 3 | 연필 | — | lápiz | N | sí |  |
+| 3 | 가방 | — | bolso, mochila | N | sí |  |
+| 3 | 시계 | — | reloj | N | sí |  |
+| 3 | 휴대폰 | — | celular | N | sí |  |
+| 3 | 의자 | — | silla | N | sí |  |
+| 3 | 책상 | — | escritorio | N | sí |  |
 | 3 | 우산 | — | paraguas | N | sí |  |
 | 3 | 커피 | — | café (bebida) | N | sí |  |
 | 3 | 뭐 | — | qué | N | sí |  |
-| 3 | 이거 · 그거 · 저거 | — | esto · eso · aquello | T |  |  |
-| 3 | 이게 · 그게 · 저게 | — | esto · eso · aquello (como sujeto: 이게 뭐예요?) | T |  |  |
+| 3 | 이거 · 그거 · 저거 | — | esto · eso · aquello | T | sí |  |
+| 3 | 이게 · 그게 · 저게 | — | esto · eso · aquello (como sujeto: 이게 뭐예요?) | T | sí |  |
 | 3 | 네 | — | sí | T | sí |  |
 | 3 | 아니요 | — | no | T | sí |  |
-| 3 | 붕어빵 | — | pan con forma de pez, relleno dulce (otoño–invierno) | T |  | cultura [YA] |
-| 3 | 공책 | — | cuaderno | T |  |  |
-| 3 | 컵 | — | taza, vaso | T |  |  |
-| 3 | 안경 | — | lentes, anteojos | T |  |  |
-| 3 | 열쇠 | — | llave | T |  |  |
-| 4 | 가족 | — | familia | N |  |  |
-| 4 | 엄마 | — | mamá | N |  |  |
-| 4 | 아빠 | — | papá | N |  |  |
-| 4 | 언니 | — | hermana mayor (lo dice una mujer) | N |  |  |
-| 4 | 누나 | — | hermana mayor (lo dice un hombre) | N |  |  |
-| 4 | 오빠 | — | hermano mayor (lo dice una mujer) | N |  |  |
-| 4 | 형 | — | hermano mayor (lo dice un hombre) | N |  |  |
-| 4 | 동생 | — | hermano o hermana menor | N |  |  |
-| 4 | 할머니 | — | abuela | N |  |  |
-| 4 | 할아버지 | — | abuelo | N |  |  |
+| 3 | 붕어빵 | — | pan con forma de pez, relleno dulce (otoño–invierno) | T | sí | cultura [YA] |
+| 3 | 공책 | — | cuaderno | T | sí |  |
+| 3 | 컵 | — | taza, vaso | T | sí |  |
+| 3 | 안경 | — | lentes, anteojos | T | sí |  |
+| 3 | 열쇠 | — | llave | T | sí |  |
+| 4 | 가족 | — | familia | N | sí |  |
+| 4 | 엄마 | — | mamá | N | sí |  |
+| 4 | 아빠 | — | papá | N | sí |  |
+| 4 | 언니 | — | hermana mayor (lo dice una mujer) | N | sí |  |
+| 4 | 누나 | — | hermana mayor (lo dice un hombre) | N | sí |  |
+| 4 | 오빠 | — | hermano mayor (lo dice una mujer) | N | sí |  |
+| 4 | 형 | — | hermano mayor (lo dice un hombre) | N | sí |  |
+| 4 | 동생 | — | hermano o hermana menor | N | sí |  |
+| 4 | 할머니 | — | abuela | N | sí |  |
+| 4 | 할아버지 | — | abuelo | N | sí |  |
 | 4 | 친구 | — | amigo, amiga | N | sí |  |
-| 4 | 누구 | — | quién | N |  |  |
-| 4 | 우리 | — | nosotros; "mi" en 우리 엄마, 우리 집 | T |  |  |
-| 4 | 이 사람 | — | esta persona (amigos, misma edad) | T |  |  |
-| 4 | 이분 | — | esta persona (respetuoso: mayores) | T |  | matiz [YA] |
-| 4 | 명 | — | contador de personas (한 명, 두 명…) | T |  |  |
-| 4 | 전화번호 | — | número de teléfono | T |  |  |
+| 4 | 누구 | — | quién | N | sí |  |
+| 4 | 우리 | — | nosotros; "mi" en 우리 엄마, 우리 집 | T | sí |  |
+| 4 | 이 사람 | — | esta persona (amigos, misma edad) | T | sí |  |
+| 4 | 이분 | — | esta persona (respetuoso: mayores) | T | sí | matiz [YA] |
+| 4 | 명 | — | contador de personas (한 명, 두 명…) | T | sí |  |
+| 4 | 전화번호 | — | número de teléfono | T | sí |  |
 | 4 | 공 | — | cero (en teléfonos) | T | sí |  |
-| 4 | 남동생 | — | hermano menor | T |  |  |
-| 4 | 여동생 | — | hermana menor | T |  |  |
+| 4 | 남동생 | — | hermano menor | T | sí |  |
+| 4 | 여동생 | — | hermana menor | T | sí |  |
 | 4 | 강아지 | — | perro, perrito | T | sí | mascota en la foto familiar |
 | 4 | 고양이 | — | gato | T | sí |  |
-| 4 | 일 이 삼 사 오 육 칠 팔 구 십 · 백 | — | números sino-coreanos 1–10 · 100 (se arman: 이십칠 = 27) | P |  |  |
-| 4 | 하나 둘 셋 넷 다섯 → 한·두·세·네·다섯 명 | — | números nativos 1–5, solo para contar personas | P |  |  |
-| 4 | 몇 명이에요? | — | ¿cuántas personas? | R |  | lo dice Kiran en salas; se responde ___ 명이에요 |
-| 4 | 영 | — | cero (en matemáticas) | R |  | en teléfonos se dice 공 |
+| 4 | 일 이 삼 사 오 육 칠 팔 구 십 · 백 | — | números sino-coreanos 1–10 · 100 (se arman: 이십칠 = 27) | P | sí |  |
+| 4 | 하나 둘 셋 넷 다섯 → 한·두·세·네·다섯 명 | — | números nativos 1–5, solo para contar personas | P | sí |  |
+| 4 | 몇 명이에요? | — | ¿cuántas personas? | R | sí | lo dice Kiran en salas; se responde ___ 명이에요 |
+| 4 | 영 | — | cero (en matemáticas) | R | sí | en teléfonos se dice 공 |
 | 5 | 집 | — | casa | N | sí |  |
 | 5 | 학교 | — | colegio, escuela | N | sí |  |
-| 5 | 회사 | — | empresa, oficina | N |  |  |
-| 5 | 병원 | — | hospital | N |  |  |
+| 5 | 회사 | — | empresa, oficina | N | sí |  |
+| 5 | 병원 | — | hospital | N | sí |  |
 | 5 | 카페 | — | cafetería | N | sí |  |
-| 5 | 식당 | — | restaurante | N |  |  |
-| 5 | 화장실 | — | baño | N |  |  |
-| 5 | 은행 | — | banco | N |  |  |
-| 5 | 공원 | — | parque | N |  |  |
-| 5 | 여기 | — | aquí | N |  |  |
-| 5 | 저기 | — | allá | N |  |  |
-| 5 | 어디 | — | dónde | N |  |  |
+| 5 | 식당 | — | restaurante | N | sí |  |
+| 5 | 화장실 | — | baño | N | sí |  |
+| 5 | 은행 | — | banco | N | sí |  |
+| 5 | 공원 | — | parque | N | sí |  |
+| 5 | 여기 | — | aquí | N | sí |  |
+| 5 | 저기 | — | allá | N | sí |  |
+| 5 | 어디 | — | dónde | N | sí |  |
 | 5 | 위 | — | arriba, encima | T | sí |  |
-| 5 | 아래 | — | abajo, debajo | T |  |  |
-| 5 | 앞 | — | delante | T |  |  |
+| 5 | 아래 | — | abajo, debajo | T | sí |  |
+| 5 | 앞 | — | delante | T | sí |  |
 | 5 | 뒤 | — | detrás | T | sí |  |
-| 5 | 옆 | — | al lado | T |  |  |
+| 5 | 옆 | — | al lado | T | sí |  |
 | 5 | 안 | — | dentro | T | sí |  |
-| 5 | 거기 | — | ahí | T |  |  |
-| 5 | 지하철역 | — | estación de metro | T |  | cultura [YA] |
-| 5 | 동네 | — | barrio | T |  | cultura [YA] |
-| 5 | 출구 | — | salida (del metro); 3번 출구 = salida 3 | T |  | reconocer |
+| 5 | 거기 | — | ahí | T | sí |  |
+| 5 | 지하철역 | — | estación de metro | T | sí | cultura [YA] |
+| 5 | 동네 | — | barrio | T | sí | cultura [YA] |
+| 5 | 출구 | — | salida (del metro); 3번 출구 = salida 3 | T | sí | reconocer |
 | 5 | 컴퓨터 | — | computador | T | sí | anticipo en la práctica publicada; núcleo en S7 |
-| 5 | 저기요 | — | ¡disculpe! (para llamar a un desconocido) | F |  | agregada en la S5; no confundir con 저기 (allá) |
-| 5 | 어디에 있어요? | — | ¿dónde está? (cosas que se mueven, personas) | R |  | lo dice Kiran; variante de 어디예요? |
-| 5 | 3번 출구에서 만나요 | — | nos vemos en la salida 3 | R |  | cultura [YA]; 에서 no se enseña |
-| 5 | 여러분 | — | (todos) chicos, chicas: saludo al grupo | C |  | 안녕하세요, 여러분! |
-| 5 | 도로명 주소 | — | dirección por nombre de calle (desde 2014) | R |  | cultura |
-| 6 | 가다 | — | ir (가요) | N |  |  |
-| 6 | 오다 | — | venir (와요) | N |  |  |
-| 6 | 먹다 | — | comer (먹어요) | N |  |  |
-| 6 | 마시다 | — | beber (마셔요) | N |  |  |
-| 6 | 보다 | — | ver (봐요) | N |  |  |
-| 6 | 자다 | — | dormir (자요) | N |  |  |
-| 6 | 공부하다 | — | estudiar (공부해요) | N |  |  |
-| 6 | 일하다 | — | trabajar (일해요) | N |  |  |
-| 6 | 운동하다 | — | hacer ejercicio (운동해요) | N |  |  |
+| 5 | 저기요 | — | ¡disculpe! (para llamar a un desconocido) | F | sí | agregada en la S5; no confundir con 저기 (allá) |
+| 5 | 어디에 있어요? | — | ¿dónde está? (cosas que se mueven, personas) | R | sí | lo dice Kiran; variante de 어디예요? |
+| 5 | 3번 출구에서 만나요 | — | nos vemos en la salida 3 | R | sí | cultura [YA]; 에서 no se enseña |
+| 5 | 여러분 | — | (todos) chicos, chicas: saludo al grupo | C | sí | 안녕하세요, 여러분! |
+| 5 | 도로명 주소 | — | dirección por nombre de calle (desde 2014) | R | sí | cultura |
+| 6 | 가다 | — | ir (가요) | N | sí |  |
+| 6 | 오다 | — | venir (와요) | N | sí |  |
+| 6 | 먹다 | — | comer (먹어요) | N | sí |  |
+| 6 | 마시다 | — | beber (마셔요) | N | sí |  |
+| 6 | 보다 | — | ver (봐요) | N | sí |  |
+| 6 | 자다 | — | dormir (자요) | N | sí |  |
+| 6 | 공부하다 | — | estudiar (공부해요) | N | sí |  |
+| 6 | 일하다 | — | trabajar (일해요) | N | sí |  |
+| 6 | 운동하다 | — | hacer ejercicio (운동해요) | N | sí |  |
 | 6 | 오늘 | — | hoy | N | sí |  |
-| 6 | 매일 | — | todos los días | N |  |  |
-| 6 | 지금 | — | ahora | N |  |  |
-| 6 | 하다 | — | hacer (해요): 뭐 해요? | T |  |  |
-| 6 | 한국어 | — | idioma coreano | T |  |  |
-| 6 | 쉬다 | — | descansar (쉬어요) | T |  |  |
-| 6 | 요리하다 | — | cocinar (요리해요) | T |  |  |
-| 6 | 일어나다 | — | levantarse, despertarse (일어나요) | T |  |  |
-| 6 | 학원 | — | academia privada (clases después del colegio) | T |  | cultura [YA] |
-| 6 | 그리고 | — | y (entre dos frases) | T |  | como palabra; se sistematiza en Básico 2 |
-| 6 | 손 드세요 | — | levanten la mano | C |  | encuesta de la S6 |
-| 6 | 빨리빨리 | — | "¡rápido, rápido!" | R |  | cultura; solo como autoironía |
+| 6 | 매일 | — | todos los días | N | sí |  |
+| 6 | 지금 | — | ahora | N | sí |  |
+| 6 | 하다 | — | hacer (해요): 뭐 해요? | T | sí |  |
+| 6 | 한국어 | — | idioma coreano | T | sí |  |
+| 6 | 쉬다 | — | descansar (쉬어요) | T | sí |  |
+| 6 | 요리하다 | — | cocinar (요리해요) | T | sí |  |
+| 6 | 일어나다 | — | levantarse, despertarse (일어나요) | T | sí |  |
+| 6 | 학원 | — | academia privada (clases después del colegio) | T | sí | cultura [YA] |
+| 6 | 그리고 | — | y (entre dos frases) | T | sí | como palabra; se sistematiza en Básico 2 |
+| 6 | 손 드세요 | — | levanten la mano | C | sí | encuesta de la S6 |
+| 6 | 빨리빨리 | — | "¡rápido, rápido!" | R | sí | cultura; solo como autoironía |
 | 7 | 방 | — | pieza, habitación | N | sí |  |
-| 7 | 침대 | — | cama | N |  |  |
-| 7 | 창문 | — | ventana | N |  |  |
-| 7 | 텔레비전 | — | televisor | N |  |  |
-| 7 | 그림 | — | dibujo, pintura | N |  |  |
-| 7 | 그리다 | — | dibujar (그려요) | N |  |  |
-| 7 | 읽다 | — | leer (읽어요) | N |  |  |
-| 7 | 쓰다 | — | escribir (써요) | N |  |  |
-| 7 | 듣다 | — | escuchar (들어요, forma fija) | N |  |  |
-| 7 | 배우다 | — | aprender (배워요) | N |  |  |
-| 7 | 음악 | — | música | N |  |  |
-| 7 | 옷장 | — | clóset, ropero | T |  |  |
-| 7 | 거울 | — | espejo | T |  |  |
-| 7 | 사진 | — | foto | T |  |  |
+| 7 | 침대 | — | cama | N | sí |  |
+| 7 | 창문 | — | ventana | N | sí |  |
+| 7 | 텔레비전 | — | televisor | N | sí |  |
+| 7 | 그림 | — | dibujo, pintura | N | sí |  |
+| 7 | 그리다 | — | dibujar (그려요) | N | sí |  |
+| 7 | 읽다 | — | leer (읽어요) | N | sí |  |
+| 7 | 쓰다 | — | escribir (써요) | N | sí |  |
+| 7 | 듣다 | — | escuchar (들어요, forma fija) | N | sí |  |
+| 7 | 배우다 | — | aprender (배워요) | N | sí |  |
+| 7 | 음악 | — | música | N | sí |  |
+| 7 | 옷장 | — | clóset, ropero | T | sí |  |
+| 7 | 거울 | — | espejo | T | sí |  |
+| 7 | 사진 | — | foto | T | sí |  |
 | 7 | 문 | — | puerta | T | sí |  |
-| 7 | 케이팝 | — | K-pop | T |  | tarjeta de gustos [YA] |
-| 7 | 한국 음식 | — | comida coreana | T |  | tarjeta de gustos [YA] |
-| 7 | 온돌 | — | calefacción bajo el piso | T |  | cultura (frase ancla de la S7) |
-| 7 | 요 | — | colchón delgado que se extiende en el suelo | T |  | cultura |
-| 7 | 김장 | — | preparar kimchi para el invierno | R |  | cultura (gancho opcional) |
+| 7 | 케이팝 | — | K-pop | T | sí | tarjeta de gustos [YA] |
+| 7 | 한국 음식 | — | comida coreana | T | sí | tarjeta de gustos [YA] |
+| 7 | 온돌 | — | calefacción bajo el piso | T | sí | cultura (frase ancla de la S7) |
+| 7 | 요 | — | colchón delgado que se extiende en el suelo | T | sí | cultura |
+| 7 | 김장 | — | preparar kimchi para el invierno | R | sí | cultura (gancho opcional) |
 | 8 | 사과 | — | manzana | N | sí |  |
-| 8 | 과일 | — | fruta | N |  |  |
+| 8 | 과일 | — | fruta | N | sí |  |
 | 8 | 바나나 | — | banana, plátano | N | sí |  |
-| 8 | 불고기 | — | bulgogi (carne marinada) | N |  |  |
+| 8 | 불고기 | — | bulgogi (carne marinada) | N | sí |  |
 | 8 | 라면 | — | ramyeon (fideos instantáneos) | N | sí |  |
-| 8 | 영화 | — | película | N |  |  |
-| 8 | 노래 | — | canción | N |  |  |
-| 8 | 드라마 | — | serie, K-drama | N |  | anticipo en la S6 (드라마 봐요) |
-| 8 | 운동 | — | deporte, ejercicio | N |  |  |
-| 8 | 좋아하다 | — | gustar (좋아해요) | N |  | fórmula desde el cierre de S7 [YA] |
-| 8 | 싫어하다 | — | no gustar, detestar (싫어해요; suena fuerte) | N |  |  |
-| 8 | 뭘 | — | qué (objeto; = 뭐를) | T |  |  |
-| 8 | 정말 | — | de verdad, muchísimo | T |  | adelanto en la tarjeta de gustos de la S7 |
-| 8 | 조금 | — | un poco | T |  | adelanto en la tarjeta de gustos de la S7 |
-| 8 | 안 (좋아해요) | — | no (solo en la frase fija 안 좋아해요) | F |  |  |
+| 8 | 영화 | — | película | N | sí |  |
+| 8 | 노래 | — | canción | N | sí |  |
+| 8 | 드라마 | — | serie, K-drama | N | sí | anticipo en la S6 (드라마 봐요) |
+| 8 | 운동 | — | deporte, ejercicio | N | sí |  |
+| 8 | 좋아하다 | — | gustar (좋아해요) | N | sí | fórmula desde el cierre de S7 [YA] |
+| 8 | 싫어하다 | — | no gustar, detestar (싫어해요; suena fuerte) | N | sí |  |
+| 8 | 뭘 | — | qué (objeto; = 뭐를) | T | sí |  |
+| 8 | 정말 | — | de verdad, muchísimo | T | sí | adelanto en la tarjeta de gustos de la S7 |
+| 8 | 조금 | — | un poco | T | sí | adelanto en la tarjeta de gustos de la S7 |
+| 8 | 안 (좋아해요) | — | no (solo en la frase fija 안 좋아해요) | F | sí |  |
 | 8 | 배 | — | pera coreana | T | sí | cultura |
-| 8 | 추석 · 설날 | — | fiesta de la cosecha · Año Nuevo lunar | T |  | cultura; reconocer |
-| 8 | 네? | — | ¿perdón? (con tono de pregunta, para pedir que repitan) | F |  | para la pregunta del grupo en "Yo en coreano" |
-| 8 | 정말요? | — | ¿en serio? | R |  | diálogo de la S8 |
-| 8 | 저도요 | — | yo también | R |  | lo dice Kiran; 도 es de Básico 2 |
+| 8 | 추석 · 설날 | — | fiesta de la cosecha · Año Nuevo lunar | T | sí | cultura; reconocer |
+| 8 | 네? | — | ¿perdón? (con tono de pregunta, para pedir que repitan) | F | sí | para la pregunta del grupo en "Yo en coreano" |
+| 8 | 정말요? | — | ¿en serio? | R | sí | diálogo de la S8 |
+| 8 | 저도요 | — | yo también | R | sí | lo dice Kiran; 도 es de Básico 2 |
 
 **Resumen por semana** (entradas = filas de la lista; el núcleo se cuenta en su semana publicada):
 
 | S | Entradas | Núcleo | Con audio nativo |
 |---|---|---|---|
-| 1 | 20 | 12 | 6 |
-| 2 | 26 | 12 | 8 |
-| 3 | 21 | 12 | 8 |
-| 4 | 26 | 12 | 4 |
-| 5 | 28 | 12 | 7 |
-| 6 | 21 | 12 | 1 |
-| 7 | 20 | 12 | 2 |
-| 8 | 20 | 12 | 4 |
-| **Total** | **182** | **96** | **40** |
+| 1 | 20 | 12 | 20 |
+| 2 | 26 | 12 | 26 |
+| 3 | 21 | 12 | 21 |
+| 4 | 26 | 12 | 26 |
+| 5 | 28 | 12 | 28 |
+| 6 | 21 | 12 | 21 |
+| 7 | 20 | 12 | 20 |
+| 8 | 20 | 12 | 20 |
+| **Total** | **182** | **96** | **182** |
 
 Nota: 김치 es núcleo publicado de la S8, pero se lee desde la S2 (dictado de 받침); aparece una sola vez, en la S2. 컴퓨터 es núcleo de la S7 y se anticipa en la práctica publicada de la S5; aparece en la S5. Por eso la lista tiene 94 filas de núcleo, aunque el núcleo publicado son 96 palabras (el resumen las cuenta en su semana). Los números (S4) van como dos filas de paradigma. **Control final (26 sept):** se agregaron 19 filas que las guías y los materiales ya usaban (tipo R, F, C y cultura: 한글, 고맙습니다, 목례, 몇 명이에요?, 영, 저기요, 어디에 있어요?, 3번 출구에서 만나요, 여러분, 손 드세요, 온돌, 요, 네?, 정말요?, 저도요 y 5 términos de cultura) y se anotaron los anticipos (드라마 en la S6; 정말 y 조금 en la tarjeta de la S7). Los nombres propios (personas, ciudades, famosos) y las palabras "de rescate" o "a pedido" de cada guía no entran en la lista: se dan solo si un alumno las necesita y no se evalúan.
 
@@ -813,7 +813,7 @@ Inventario del control final: **todo lo que las 8 guías piden producir**, con l
 |---|---|---|
 | 8 clips `B1_S0N_frases_clave.mp3` (20 s) | Se recortan del coro de cierre de la grabación de Zoom; los hace la persona de producción que designe Jay (si no hay nadie, Jay). **Kiran no graba ni edita** | Dentro de 48 h de la clase del martes |
 | Dictado del examen (10 ítems) | Clips que ya existen en el sitio (voz SunHi); no se graba nada nuevo | vie 20 nov |
-| Audio de todo el vocabulario sin clip (≈ 140 filas de C) | Anexo I #19 (enero) | — |
+| Audio de todo el vocabulario de C (182 filas) y de las 24 frases clave | **Hecho el 26 sept:** clips SunHi con el pipeline del sitio; filas de C sin clip: 0 · URLs en `Curriculo/audio/Clips_Octubre_2026.md` | — |
 
 *No se producen:* los audios de los alumnos (audio base, audios semanales, audio final) ni los objetos de la bolsa misteriosa (S3), la tira de papel (S2) o los objetos de las mímicas (S7): son de Kiran o de los alumnos. El barajador del sorteo (S7) es una herramienta del navegador.
 
@@ -869,7 +869,7 @@ Todo esto cambiaría lo publicado (syllabus, PDFs, fichas, términos o herramien
 | 16 | Línea de nivel del certificado con la fórmula "contenidos de la primera etapa del nivel A1 (MCER)" | §3.5 | Texto público |
 | 17 | Edad mínima para adultos alineada en 14, con protocolo para menores | §12, decisión 10 | Política pública |
 | 18 | Lector: elegir modo y grupo, modo sin romanización, "Mis palabras de la semana", paquetes por lección del libro · Dubu: interruptor visible de romanización, apagado desde el barrio 3 | §7.4, §16.3 [2027] | Cambia código |
-| 19 | Audio para todo el vocabulario del curso (~70 clips faltan en Básico 1) con el pipeline de SunHi | §5.4 V5 [2027] | Producción larga |
+| 19 | Audio para todo el vocabulario del curso (Básico 1: hecho el 26 sept 2026, filas de C sin clip: 0; ver `Curriculo/audio/Clips_Octubre_2026.md`) con el pipeline de SunHi | §5.4 V5 [2027] | Producción larga |
 | 20 | Deck oficial por lección, alineado al libro, y micro-diagnóstico de 12 ítems para entrar a Básico 2 | §14.3 P2, §12 | Producción de enero |
 
 ---
