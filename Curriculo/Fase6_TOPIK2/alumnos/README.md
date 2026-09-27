@@ -1,0 +1,8 @@
+# TOPIK II (B1+) · material de los ALUMNOS
+
+Aquí va solo lo que reciben los alumnos: el **cuaderno de estrategia** de cada semana. **Sin respuestas, claves, criterios internos ni notas del profesor** (esas van en `../profes/`).
+
+- Un archivo por semana: `S0N_Cuaderno_Estrategia.md` (S01 a S08). Trae las fórmulas y la estrategia de la semana, ejercicios originales con el formato del examen (Banco Chingu), las tarjetas de sala con los marcos para hablar en coreano y la tarea con destino exacto (qué examen oficial descargar, qué sección, cuántos minutos, dónde se entrega), separada en **núcleo** (cuenta para la nota), **puente** a la clase siguiente y **ruta intensiva** (opcional), con "Meta 3" y "Meta 4–5".
+- Estructura común de los 8 archivos (la misma de las Fases 2–4): 1. Esta semana vas a poder decir y hacer… · 2. Vocabulario · 3. Gramática y estrategia, explicadas desde el español · 4. Cómo suena · 5. Texto o diálogo modelo · 6. Ejercicios · 7. En clase · 8. Nota cultural · 9. Tarea de la semana · 10. Ya puedo decir….
+- Piezas que cruzan semanas (pendientes de producir, diseño G.2): `T2_<Pieza>.md`, por ejemplo `T2_Diagnostico_Entrada.md` (el mensaje de WhatsApp, sin clave), `T2_Kit_Nivelacion.md` (el 한다체 en una página, 20 conectores, 10 fórmulas del 51 y el reloj del examen) y `T2_Proyecto_Final.md`.
+- **Los exámenes oficiales no están aquí:** cada alumno los descarga de topik.go.kr (edición, sección e ítems indicados en su cuaderno). **Sin romanización** (`../00_Diseno_TOPIK2.md`, sección D). Ninguna fecha ni sede del examen real se afirma: siempre "Confirmar en topik.go.kr / Centro de Educación Coreana".

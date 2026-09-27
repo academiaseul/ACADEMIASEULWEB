@@ -1,0 +1,9 @@
+# TOPIK II (B1+) · material del PROFESOR (Jay · 김재희)
+
+Aquí va solo material para el profesor: guías de clase de 60 minutos **en español**, claves de los ítems originales (Banco Chingu), respuestas de los ítems oficiales citados por número (sin transcribirlos), criterios de corrección de 쓰기 51–54, códigos de corrección, plantillas, el protocolo del diagnóstico de entrada y de la S1, la planilla del simulacro y el guion de las 3 frases clave. **Nada de este folder se comparte con alumnos.**
+
+- Un archivo por semana: `S0N_Guia_Profesor.md` (S01 a S08), con la misma estructura de las Fases 2–4: 0. En una mirada · A. Ficha de la semana (17 campos) · B. Plan de clase minuto a minuto (60 minutos · 21:00–22:00; Jay entra a las 20:58 a la cuenta de Zoom que comparte con Kiran) · C. Guía del profesor (C.1 Objetivo … C.16 Claves, criterios de corrección y plantillas · C.17 Guion de slides) · D. ⚑ Para revisar con nativo y pendientes · E. Anexo "Enero 2027".
+- Piezas que cruzan semanas (pendientes de producir, diseño G.2): `T2_<Pieza>.md`, por ejemplo `T2_Diagnostico_Entrada.md` (mensaje de WhatsApp, clave y criterio A/B/C; **P0, lun 28 sept**), `T2_Criterios_Correccion.md`, `T2_Banco_Chingu_Claves.md`, `T2_Simulacro_Planilla.md`, `T2_Frases_Clave.md`.
+- **Exámenes oficiales:** se citan por edición, sección e ítems (Exámenes A–E, diseño G.1b). No se copian en estos archivos; los alumnos los descargan de topik.go.kr.
+- **Fechas y sedes del examen real:** nunca se afirman. Fórmula: "Confirmar en topik.go.kr / Centro de Educación Coreana".
+- Fuente única de contenido: `../00_Diseno_TOPIK2.md` (sección B para la semana, B0 para el diagnóstico y la ruta honesta, C para vocabulario, fórmulas y conectores, E.8 para la corrección de 쓰기, F para el simulacro y el plan). Los ⚑ abiertos y las decisiones de Jay están al final de ese documento.
