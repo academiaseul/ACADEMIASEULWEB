@@ -1,7 +1,7 @@
 # Fase 7 · Coreano para Niños (8–15) · Diseño del curso
 ### Juega y aprende · 어린이 한국어 · cohorte octubre 2026 · la columna vertebral para los 8 redactores
 
-**Documento interno de Dirección Académica · versión 1 · domingo 27 de septiembre de 2026**
+**Documento interno de Dirección Académica · versión 1.2 · domingo 27 de septiembre de 2026** (1.1: control final de continuidad de los 17 archivos del curso, sección J · 1.2: segunda pasada del control final, después de las revisiones semanales de la tarde: sitio en vivo verificado, rótulos de Dubu unificados, índice de ⚑ al día; J.4 y J.6)
 Para Jay y para el equipo que redacta las 8 guías de los profes y los 8 cuadernos de actividades. Nada de este archivo se entrega tal cual a los niños ni a las familias: los recuadros marcados **Texto para la familia** o **Texto para el niño** están listos para copiarse en su material.
 
 > **Cómo leer este documento**
@@ -22,7 +22,7 @@ Para Jay y para el equipo que redacta las 8 guías de los profes y los 8 cuadern
 | Otros husos | México (CDMX) 15:00 · Colombia y Perú 16:00 · Argentina 18:00 · EE. UU. Este 17:00 → 16:00 desde el 1 de noviembre · España 23:00 → 22:00 desde el 25 de octubre (tarde para un niño: ver B0.1) |
 | Fechas | **S1 lun 19 oct** (el 12 es feriado en Chile) · S2 26 oct · S3 2 nov · S4 9 nov · S5 16 nov · S6 23 nov · S7 30 nov · **S8 lun 7 dic: mini-show para las familias + certificado**. En Corea: mar 20 oct · 27 oct · 3 nov · 10 nov · 17 nov · 24 nov · 1 dic · 8 dic, 06:00 |
 | Material publicado | Láminas ilustradas por sesión, cartones de bingo, tarjetas de letras, plantilla del guion del show, canciones propias de saludo, familia y números (letra en 한글 y español), tablero de stickers, nota semanal a la familia, kit de casa (hojas, lápices de colores, tijeras, pegamento; peluches en la S4; foto o dibujo de la familia en la S5), grabación de cada clase para el grupo |
-| Ecosistema | **Lector** (`/lector-coreano`): Alfabeto (21 vocales / 19 consonantes con audio) · Aprender 1–8 · Practicar (Vocales, Consonantes, Aspiradas y tensas, Sílabas, Batchim, Palabras, Números, 🖼 Pictogramas, ⚡ Contrarreloj) · Progreso. **Dubu** (`/dubu`): puzzle del Hangul, 6 barrios × 5 niveles, que se abren en orden (Bukchon → Insadong → Hongdae → Gwangjang → Río Han → Estación de Seúl). **Generador de nombres** (`/generador-nombre`). **1.124 clips nativos** en `public/audio/kr` (voz SunHi, la del Lector y Dubu): **76 de las 125 filas** de la lista C ya tienen clip completo; faltan 65 clips (G.4) |
+| Ecosistema | **Lector** (`/lector-coreano`): Alfabeto (21 vocales / 19 consonantes con audio) · Aprender 1–8 · Practicar (Vocales, Consonantes, Aspiradas y tensas, Sílabas, Batchim, Palabras, Números, 🖼 Pictogramas, ⚡ Contrarreloj) · Progreso. **Dubu** (`/dubu`): puzzle del Hangul, 6 barrios × 5 niveles, que se abren en orden (Bukchon → Insadong → Hongdae → Gwangjang → Río Han → Estación de Seúl). **Generador de nombres** (`/generador-nombre`). **1.382 clips nativos** en `public/audio/kr` (voz SunHi, la del Lector y Dubu; recuento del control final, 27 sept): **las 125 filas** de la lista C tienen clip completo (los 65 que faltaban, G.4, se generaron y están en `main` desde el commit `6c2e7943`). **En vivo** desde el deploy del 27 sept en la noche (J.2: los 209 🔊 del curso, `/lector-coreano` y `/dubu` responden). **Rótulos de Dubu:** la pantalla muestra cada nivel como «Bukchon · 1/5»; este diseño y las notas internas de las guías usan el id del código (1-1 = Bukchon 1/5 … 6-5 = Estación de Seúl 5/5); todo lo que ven o escuchan niños y familias (cuaderno, nota semanal, misión dicha en voz alta) usa el rótulo de pantalla (J.6) |
 | Niños reales de octubre | **[PENDIENTE: lista de inscritos del lun 12 oct]** (edades, países, hermanos). Perfiles esperables y cómo se atiende cada uno: B0 |
 | Hitos | vie 2 oct borrador del kit de la S1 · **vie 9 oct kit de la S1 final (P0)** · lun 12 oct lista de inscritos, grupo de WhatsApp de apoderados y correo con el link · mié 14 oct tabla de nombres en 한글 · dom 18 oct recordatorio · **lun 19 oct S1 con el apoderado al lado** · mié 21 oct mapa del grupo (salas fijas y roles) · S4 lun 9 nov chequeo de mitad (3 líneas a la familia) · lun 23 nov aviso escrito del formato del show (si Jay lo aprueba, E.5) · **lun 30 nov S7: ensayo del show + invitación a las familias** · **lun 7 dic S8: show + certificado [regla del certificado: pendiente de decisión de Jay]** · PDF del certificado a la familia esa semana |
 
@@ -34,7 +34,7 @@ Para Jay y para el equipo que redacta las 8 guías de los profes y los 8 cuadern
 
 1. **Una semana por redactor.** Tu fuente es tu bloque de la sección B y la lista maestra (C) **hasta tu semana**. Si una palabra o frase no está en C antes de tu semana, no la uses; si la necesitas, márcala como fórmula (F) o reconocimiento (R) y avísalo en tu entrega.
 2. **Dos archivos por semana, siempre separados** (convención en G.3):
-   - `profes/S0N_Guia_Profesor.md` · **en español**, con un bloque **🇰🇷 Abby를 위한 요약 en coreano** (formato en B.13). Lleva la secuencia de 60 minutos, las dos versiones de cada juego (Explorador y Reto), claves, errores previsibles, plan B, guion de láminas y la nota semanal a la familia lista para pegar.
+   - `profes/S0N_Guia_Profesores.md` (plural: son dos profes; nombre unificado en el control final, J) · **en español**, con un bloque **🇰🇷 Abby를 위한 요약 en coreano** (formato en B.13). Lleva la secuencia de 60 minutos, las dos versiones de cada juego (Explorador y Reto), claves, errores previsibles, plan B, guion de láminas y la nota semanal a la familia lista para pegar.
    - `alumnos/S0N_Material_Alumno.md` · el **Cuaderno de actividades** de la semana, para el niño: en español, con 한글 grande, actividades de dibujar, recortar, unir, colorear y cantar, y al final el recuadro **"Para la familia"**. Sin claves, sin tiempos, sin notas de los profes.
 3. **Mismo esqueleto que Básico 2**, adaptado a niños (G.3): guías *0 · A (17 campos) · B (minuto a minuto 18:00–19:00) · AB (🇰🇷 Abby를 위한 요약) · C (C.1–C.17) · D · E*; cuadernos *1–10 + "Para la familia"*.
 4. **Speaking-first con los 4 pasos, en versión niños:** **R** reconocer (escucha + gesto) → **C** controlada (eco, coro con micrófono apagado y solistas por turno, cadena) → **G** guiada (juego con tarjeta o dibujo) → **L** libre (**"¡Tu turno!"**, 2 minutos al final de la sala: el niño elige qué decir, B.11). Abre tu guía con "Después de esta clase puedo decir/hacer…" (tus frases de B).
@@ -222,7 +222,7 @@ La estructura publicada se respeta tal cual (5 bloques). Lo que se agrega va **d
 | **Después de esta clase puedo decir/hacer…** | 1. (reverencia) **안녕하세요!** — a Jay y a Abby<br>2. **안녕!** — a un compañero, con la mano<br>3. **감사합니다!** · **안녕히 계세요!** (al irme, con reverencia)<br>4. **네!** / **아니요!** en el pase de lista y en los juegos<br>5. Leo en voz alta **아 어 오 우 으 이** y hago su forma con el cuerpo<br>*Reto:* además leo **아이** y **오이** (mis primeras palabras) y reconozco de oído 야 여 요 유 ("vocales con rayita extra") |
 | Gramática / estrategia · carga: 0 patrones | • Fórmulas fijas, sin analizar (publicado): 안녕하세요 · 안녕 · 감사합니다 · 안녕히 계세요 · 네 / 아니요<br>• **Las 6 vocales con la ㅇ muda delante** (publicado): ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ → 아 어 오 우 으 이<br>• Estrategia: **el cuento del cielo, la tierra y la persona** (천지인): las vocales se hicieron con tres dibujos, un punto (el sol en el cielo), una raya acostada (la tierra, ㅡ) y una de pie (la persona, ㅣ) (Lector → Aprender 2) ⚑ D-8<br>• Ciclo: R = Abby saluda y Jay muestra la reverencia · C = eco y coro (micrófono apagado → solistas) · G = "La vocal viva" y bingo · L = ¡Tu turno!: cada uno elige a quién saludar y cómo (안녕하세요 a un profe o 안녕 a un compañero) |
 | Vocabulario | **Núcleo publicado (11; se dicen y entran en el tablero):** 안녕하세요 · 안녕 · 안녕히 계세요 · 감사합니다 · 네 · 아니요 · 선생님 · 친구 · 한국 · 한글 · 잘했어요<br>**Letras (6):** ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ<br>**Anticipo (A, solo leer):** 아이 · 오이 (núcleo de la S2)<br>**Lenguaje de clase (R, lo dice Abby con gesto):** 따라 하세요 · 다시 · 좋아요 · 친구들 · 다음 주에 만나요<br>**Cultura (R):** 인사 · *Reto (R):* 야 여 요 유 |
-| Expresiones | • Abby: 친구들, 안녕하세요! — Niños: 안녕하세요! (reverencia)<br>• Pase de lista: 소피아? — 네!<br>• Abby: 따라 하세요: 아! — 아! · 다시! · 잘했어요!<br>• Cierre: Abby: 오늘도 잘했어요! (R) — Niños: 감사합니다! 안녕히 계세요! — Profes: 안녕! 다음 주에 만나요! ⚑ D-4<br>• **Frases clave del coro:** 안녕하세요! / 감사합니다! / 안녕히 계세요! |
+| Expresiones | • Abby: 친구들, 안녕하세요! — Niños: 안녕하세요! (reverencia)<br>• Pase de lista: 소피아? — 네!<br>• Abby: 따라 하세요: 아! — 아! · 다시! · 잘했어요!<br>• Cierre: Abby: 오늘 정말 잘했어요! (R; 오늘도 잘했어요 desde la S2, porque 도 = "también" supone una clase anterior: guía S1, ⚑ S1-1) — Niños: 감사합니다! 안녕히 계세요! — Profes: 안녕! 다음 주에 만나요! ⚑ D-4<br>• **Frases clave del coro:** 안녕하세요! / 감사합니다! / 안녕히 계세요! |
 | Foco de habilidad | Escucha (instrucciones con gesto) · habla (fórmulas) · lectura de 6 vocales |
 | Pronunciación | Se corrige siempre: la reverencia en el saludo y las 6 vocales (publicado). **ㅓ/ㅗ** (bostezo / besito) · **ㅡ** (sonrisa) · **ㅜ** (trompita de verdad) · 감사합니다 y 안녕히 계세요 se imitan enteras ([감사함니다], ⚑ D-17), sin explicar por qué. Técnica: Abby exagera la boca en primer plano; los niños se miran en su cuadrito como en un espejo |
 | Cultura | **Publicado:** en Corea se saluda con una pequeña reverencia (인사); se usa al entrar y salir de cada clase. **Matiz [YA]** (Fase 1 §10.5): "A los profes y a los mayores, 안녕하세요 con reverencia; entre amigos de la misma edad, 안녕 con la mano está bien" ⚑ D-1. **Frase ancla:** (reverencia) **안녕하세요!** **Puente:** en Latinoamérica saludamos con un beso o con la mano; en Corea, la reverencia hace ese trabajo. *Reto:* cuanto más formal la situación, más profunda la reverencia |
@@ -232,7 +232,7 @@ La estructura publicada se respeta tal cual (5 bloques). Lo que se agrega va **d
 | Entregable del niño | Audio de 10 s (es su "antes", B0.2) · opcional: foto de la lámina coloreada, **sin caras** |
 | Evaluación | **Sin quiz** (no hay clase anterior). Diagnóstico por observación (B0.2) → mapa del grupo el mié 21 oct. Primeros **3 indicadores** (E.3). **Tablero:** empiezan los logros 1 (saludo con reverencia) y 2 (las 6 vocales). Registro: asistencia en vivo / grabación + tarea, en columnas separadas **[regla del certificado: pendiente de decisión de Jay]** |
 | Explorador (8–11) / Reto (12–15) | **Explorador:** las 6 vocales por forma y sonido; bingo de 6 casillas con dibujos de apoyo. **Reto:** bingo con 아이 y 오이 · 야 여 요 유 de oído · **asistente de lectura** (lee primero su fila) · **DJ del saludo** (dirige el canto en su sala) |
-| 🇰🇷 Abby 역할 | 인사 노래 리드 (다 같이 음소거로 → 한 명씩 솔로) · 모음 발음 모델 (입 모양을 크게) · "모음 빙고" 호출 · 도전반(12–15세) 소그룹 진행 · 첫 수업이라 보호자가 옆에 있어요 · 마무리: "오늘도 잘했어요! 다음 주에 만나요!" |
+| 🇰🇷 Abby 역할 | 인사 노래 리드 (다 같이 음소거로 → 한 명씩 솔로) · 모음 발음 모델 (입 모양을 크게) · "모음 빙고" 호출 · 도전반(12–15세) 소그룹 진행 · 첫 수업이라 보호자가 옆에 있어요 · 마무리: "오늘 정말 잘했어요! 다음 주에 만나요!" (오늘도는 2회차부터) |
 | Para la familia (frase de la semana) | **안녕하세요!** *(annyeonghaseyo)* · ¡Hola! (con una pequeña reverencia) |
 
 ### B.3 Semana 2 · lun 26 oct · Mi nombre en coreano
@@ -242,7 +242,7 @@ La estructura publicada se respeta tal cual (5 bloques). Lo que se agrega va **d
 | Fecha | Lunes 26 de octubre de 2026 · 18:00–19:00 (Chile) · martes 27, 06:00 en Corea · desde hoy el niño participa solo o sola (publicado) |
 | Tema | Consonantes básicas + cada uno escribe su nombre en 한글: las primeras 10 consonantes, la primera sílaba y el nombre de cada uno en coreano |
 | **Después de esta clase puedo decir/hacer…** | 1. **이름이 뭐예요?** — **저는 소피아예요.** / **저는 다니엘이에요.** (con mi propio nombre)<br>2. Leo **가 나 다 라 마 바 사 아 자 하**<br>3. Escribo mi nombre en 한글 y lo leo en voz alta<br>4. Leo y digo **나무, 바다, 나비, 모자, 머리, 다리, 아이, 오이**<br>5. Decido quién empieza con **가위바위보!**<br>*Reto:* armo sílabas con cualquier consonante y vocal del curso (거, 노, 무, 스…) y leo las 8 palabras sin dibujo |
-| Gramática / estrategia · carga: 1 fórmula + 10 consonantes | • **저는 ___이에요/예요** (publicado, "frase hecha"): cada niño recibe **su frase completa** en la tarjeta de nombre; no se explica cuándo va 이에요 (llega con gesto en la S4)<br>• **이름이 뭐예요?** — pregunta fija en cadena (publicado)<br>• **Consonante + vocal = sílaba** (publicado): ㄱ + ㅏ = 가; ㄴ + ㅏ = 나 ("la fábrica empieza a funcionar"); la vocal de palo (ㅏ ㅓ ㅣ) va al lado, la acostada (ㅗ ㅜ ㅡ) va abajo<br>• Tu nombre puede traer letras que no están en la lista (ㅋ ㅌ ㅍ ㅊ, "letras con aire"): se aprenden como parte del nombre<br>• Ciclo: R = Jay arma su nombre (제이) y muestra cómo se escribe el de Abby (el que ella elija, ⚑ D-6, decisión 13) · C = fábrica en coro con ㅏ · G = cada uno arma su nombre con tarjetas y ronda 이름이 뭐예요? · L = ¡Tu turno!: pregunta el nombre a quien quiera y presenta a su muñeco o mascota con un nombre inventado |
+| Gramática / estrategia · carga: 1 fórmula + 10 consonantes | • **저는 ___이에요/예요** (publicado, "frase hecha"): cada niño recibe **su frase completa** en la tarjeta de nombre; no se explica cuándo va 이에요 (llega con gesto en la S4)<br>• **이름이 뭐예요?** — pregunta fija en cadena (publicado)<br>• **Consonante + vocal = sílaba** (publicado): ㄱ + ㅏ = 가; ㄴ + ㅏ = 나 ("la fábrica empieza a funcionar"); la vocal de palo (ㅏ ㅓ ㅣ) va al lado, la acostada (ㅗ ㅜ ㅡ) va abajo<br>• Tu nombre puede traer letras que no están en la lista (ㅋ ㅌ ㅍ ㅊ, "letras con aire"): se aprenden como parte del nombre<br>• Ciclo: R = Jay arma su nombre (제이) y muestra cómo se escribe el de Abby (el que ella elija, ⚑ D-6, decisión 13) · C = fábrica en coro con ㅏ · G = cada uno arma su nombre con tarjetas y ronda 이름이 뭐예요? · L = ¡Tu turno!: pregunta el nombre a quien quiera y presenta a un personaje (mascota, peluche, dibujo o avatar) con un nombre inventado (guía S2, S2-22) |
 | Vocabulario | **Núcleo publicado (10):** 이름 · 저 · 나무 · 바다 · 아이 (↺ S1) · 오이 (↺ S1) · 머리 · 다리 · 나비 · 모자<br>**Letras (10):** ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅎ (= las 10 de Lector → Practicar → Consonantes)<br>**Fórmulas:** 이름이 뭐예요? · 저는 ___이에요/예요<br>**[YA] (Y):** 가위바위보 (para decidir turnos desde hoy, Fase 1 §10.4) ⚑ D-3<br>**Cultura (R):** 한글날 · 세종대왕 |
 | Expresiones | • 이름이 뭐예요? — 저는 ___예요/이에요.<br>• 가위바위보! (y quien gana empieza)<br>• TPR de Abby: 머리! (tocarse la cabeza) · 다리! (tocarse la pierna)<br>• **Frases clave del coro:** 이름이 뭐예요? / 저는 소피아예요. / 나무, 바다, 나비! |
 | Foco de habilidad | Lectura (C+V) · escritura (el nombre) · habla (presentarse) |
@@ -420,6 +420,8 @@ Criterio de conteo (Fase 1 §4.1, adaptado): cuenta lo que se practica para deci
 | Números nativos | S6 | 하나, 둘, 셋 como señal desde la S1 (R) | S7 (foto: 하나, 둘, 셋!) · S8 |
 | 좋아해요 | S7 | — | S8 (Reto: 저는 호랑이 좋아해요) |
 | 잘했어요 | S8 (lo dicen los niños) | R desde la S1 (lo dicen los profes) | — |
+| 시작 · 끝 · 박수 · 사랑해요 · 손하트 · 우리 반 발표회 · 축하해요 | S8 | 시작 en el rap de la S3 (R) · 사랑해요 en el canto de la familia (S5, A) · **todos, en los roles del show desde la S7** (A: se reparten en la sala y se ensayan en casa con el 🔊 del cuaderno S7 §9.5) | S8 (ensayo general en la sala antes del show) |
+| Gesto ✊ / 🖐 | S4 (이에요/예요) | S3: "cajita cerrada / abierta" con el 받침 (cuaderno S3 §3.5) | S5 (우리 형이에요) · S6 (살이에요, 는/은 ⭐) · S8 |
 | 가위바위보 | S2 | — | Todas las salas desde la S2 |
 | 김 · 고기 · 물 | S3 · Dubu 2-1 · S3 | — | 김밥, 김치 (S7) · 불고기 (S7), 물고기 (S4) |
 
@@ -430,7 +432,7 @@ La versión para niños del minuto libre de Básico 1 y 2: cada niño **elige** 
 | S | "¡Tu turno!" (Explorador) | "¡Tu turno!" (Reto) |
 |---|---|---|
 | 1 | Saluda a quien quieras: 안녕하세요 a un profe o 안녕 a un compañero | Lo mismo + lee una vocal que elijas del cartón |
-| 2 | Pregunta 이름이 뭐예요? a quien quieras | Presenta a tu muñeco o mascota con un nombre inventado: 저는 ___예요 (hablando por él) |
+| 2 | Pregunta 이름이 뭐예요? a quien quieras | Presenta a un personaje (mascota, peluche, dibujo o avatar de un juego) con un nombre inventado: 저는 ___예요 (hablando por él) |
 | 3 | Lee una palabra; los demás la actúan | Lee una palabra de 2 sílabas y desafía a otro con otra |
 | 4 | Muestra un objeto o peluche: 이거 뭐예요? | Pregunta 이거 뭐예요? de un objeto que nadie conoce en coreano; el profe da la palabra |
 | 5 | Presenta a quien quieras de tu dibujo: 우리 ___예요! | 이분은… o 우리… con 3 personas + 누구예요? a otro |
@@ -445,11 +447,11 @@ La versión para niños del minuto libre de Básico 1 y 2: cada niño **elige** 
 | Canto | Semanas | Letra (propuesta ⚑ D-2, D-25, D-26) | Traducción | Cómo se usa |
 |---|---|---|---|---|
 | **안녕 노래** (canción del saludo) · melodía tradicional de "Martinillo" (*Frère Jacques*) | Todas (bienvenida) | 안녕 친구, 안녕 친구, / 반가워! 반가워! / 꾸벅 인사해요, 꾸벅 인사해요, / 짝짝짝! 짝짝짝! → (hablado, a los profes, con reverencia) **안녕하세요!** | Hola, amigo (×2) / ¡Qué gusto verte! (×2) / Saludamos con una reverencia (×2) / ¡Clap, clap, clap! (×2) | 반가워 y 안녕 van **entre amigos** (es la canción de los niños); el 안녕하세요 final es para los profes. Cuenta de sílabas: 4 · 4 · 3 · 3 · 6 · 6 · 3 · 3, como la melodía |
-| **Canto de la despedida** (llamada y respuesta, sin melodía) | Todas (cierre) | Abby: 오늘도 잘했어요! — Niños: **감사합니다!** (reverencia) · **안녕히 계세요!** — Profes: 안녕! 다음 주에 만나요! | ¡Hoy también lo hicieron muy bien! — ¡Gracias! · ¡Adiós! — ¡Chao! ¡Nos vemos la próxima semana! | ⚑ D-4 |
+| **Canto de la despedida** (llamada y respuesta, sin melodía) | Todas (cierre) | Abby: 오늘도 잘했어요! (en la S1: 오늘 정말 잘했어요!; en la S8: 8주 동안 정말 잘했어요!) — Niños: **감사합니다!** (reverencia) · **안녕히 계세요!** — Profes: 안녕! 다음 주에 만나요! | ¡Hoy también lo hicieron muy bien! — ¡Gracias! · ¡Adiós! — ¡Chao! ¡Nos vemos la próxima semana! | ⚑ D-4 |
 | **Ronda de nombres** (palmas) | S2 | Abby: 이름이 뭐예요? — Niño: 저는 ___예요! — Todos: **안녕, ___!** 👏👏 | ¿Cómo te llamas? — ¡Yo soy ___! — ¡Hola, ___! | En cadena; el orden sale con 가위바위보 |
 | **La fábrica** (rap de palmas) | S3 | Jay: ㄱ 공장, 시작! — Todos: **가 거 고 구 그 기!** · ㄴ: **나 너 노 누 느 니!** · ㅁ: **마 머 모 무 므 미!** | ¡La fábrica de ㄱ abre! | Una palma por sílaba. 공장 ("fábrica") y 시작 solo los dice Jay (R; 시작 es núcleo de la S8) |
 | **El eco de los animales** | S4 | Abby: 멍멍! — **강아지예요!** · 야옹! — **고양이예요!** · 꿀꿀! — **돼지예요!** · 어흥! — **호랑이예요!** | ¡Guau! — ¡Es un perrito!… | Primero en coro, después cada niño responde uno |
-| **El canto de la familia** (con gestos) | S5 | 엄마, 아빠, 👏👏 / 할머니, 할아버지, 👏👏 / 언니, 오빠, 누나, 형, 👏👏 / 동생, 동생, 우리 동생! / 우리 가족, **사랑해요!** | Mamá, papá / abuela, abuelo / hermanas y hermanos mayores / hermanito, hermanito / ¡Mi familia, te quiero! | **Cada sala inventa el gesto de cada palabra** (así no hay estereotipos de "mamá cocina, papá fuerte"). 사랑해요 es anticipo de la S8 (A) |
+| **El canto de la familia** (con gestos) | S5 | 엄마, 아빠, 👏👏 / 할머니, 할아버지, 👏👏 / 언니, 오빠, 누나, 형, 👏👏 / 동생, 동생, 우리 동생! / 우리 가족, **사랑해요!** | Mamá, papá / abuela, abuelo / hermanas y hermanos mayores / hermanito, hermanito / ¡Mi familia, te quiero! | **Gestos "del ascensor"** (guía S5): la altura dice quién es, no un rol (abuelos = brazos arriba · papás = manos sobre la cabeza · hermanos mayores = mano al hombro · 동생 = cintura · 가족 = círculo): así no hay estereotipos de "mamá cocina, papá fuerte". 사랑해요 es anticipo de la S8 (A) |
 | **El canto de los números** (palmas y salto; publicado) | S6 (y S8) | **하나, 둘, 셋, 넷, 다섯!** 👏 / **여섯, 일곱, 여덟, 아홉, 열!** (salto) / *Reto:* **열하나, 열둘, 열셋, 열넷, 열다섯!** / Abby: 몇 살이에요? — Niño: 저는 ___ 살이에요! | 1 al 5 / 6 al 10 / 11 al 15 / ¿Cuántos años tienes? | Al derecho, al revés y solo con gestos (publicado) |
 | **El canto de la mesa** | S7 | Abby: 김밥! — **맛있어요!** · 떡볶이! — **매워요!** · 김치! — (cada uno dice la suya) **맛있어요!** o **안 좋아해요!** | ¡Kimbap! — ¡Rico!… | Nadie tiene que decir que algo le gusta |
 | **La foto final** | S8 | 하나, 둘, 셋 — **사랑해요!** (손하트) | 1, 2, 3 — ¡Los queremos! | Cámaras enfocando **las manos** |
@@ -491,15 +493,15 @@ Se dicen en coro al cierre (micrófono apagado con Abby → 2–3 solistas). **D
 | S | Frase 1 | Frase 2 | Frase 3 |
 |---|---|---|---|
 | 1 | 안녕하세요! [🔊](https://www.academiaseul.com/audio/kr/ec9588eb8595ed9598ec84b8ec9a94.mp3) | 감사합니다! [🔊](https://www.academiaseul.com/audio/kr/eab090ec82aced95a9eb8b88eb8ba4.mp3) | 안녕히 계세요! [🔊](https://www.academiaseul.com/audio/kr/ec9588eb8595ed9e8820eab384ec84b8ec9a94.mp3) |
-| 2 | 이름이 뭐예요? (clip pendiente) | 저는 소피아예요. (clip pendiente) | 나무, 바다, 나비! [🔊 나무](https://www.academiaseul.com/audio/kr/eb8298ebacb4.mp3) [🔊 바다](https://www.academiaseul.com/audio/kr/ebb094eb8ba4.mp3) (나비: pendiente) |
-| 3 | 가, 거, 고, 구, 그, 기! [🔊 가](https://www.academiaseul.com/audio/kr/eab080.mp3) [🔊 거](https://www.academiaseul.com/audio/kr/eab1b0.mp3) [🔊 고](https://www.academiaseul.com/audio/kr/eab3a0.mp3) [🔊 구](https://www.academiaseul.com/audio/kr/eab5ac.mp3) [🔊 그](https://www.academiaseul.com/audio/kr/eab7b8.mp3) [🔊 기](https://www.academiaseul.com/audio/kr/eab8b0.mp3) | 문, 산, 손, 발! [🔊 문](https://www.academiaseul.com/audio/kr/ebacb8.mp3) [🔊 산](https://www.academiaseul.com/audio/kr/ec82b0.mp3) [🔊 손](https://www.academiaseul.com/audio/kr/ec8690.mp3) (발: pendiente) | 강, 방, 가방! [🔊 강](https://www.academiaseul.com/audio/kr/eab095.mp3) [🔊 방](https://www.academiaseul.com/audio/kr/ebb0a9.mp3) [🔊 가방](https://www.academiaseul.com/audio/kr/eab080ebb0a9.mp3) |
-| 4 | 이거 뭐예요? (clip pendiente) | 호랑이예요! (clip pendiente) | 곰이에요! (clip pendiente) |
-| 5 | 우리 가족이에요! (clip pendiente) | 우리 엄마예요! [🔊](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20ec9784eba788ec9888ec9a94.mp3) | 우리 강아지예요! (clip pendiente) |
-| 6 | 몇 살이에요? [🔊](https://www.academiaseul.com/audio/kr/ebaa8720ec82b4ec9db4ec9790ec9a943f.mp3) | 저는 열 살이에요. (clip pendiente) | 저는 열세 살이에요. (clip pendiente) |
-| 7 | 뭐 좋아해요? (clip pendiente) | 저는 김밥 좋아해요. 맛있어요! (저는 김밥 좋아해요: pendiente) (맛있어요: pendiente) | 김치 안 좋아해요. 매워요! (김치 안 좋아해요: pendiente) (매워요: pendiente) |
+| 2 | 이름이 뭐예요? [🔊](https://www.academiaseul.com/audio/kr/ec9db4eba684ec9db420ebad90ec9888ec9a943f.mp3) | 저는 소피아예요. [🔊](https://www.academiaseul.com/audio/kr/eca080eb8a9420ec868ced94bcec9584ec9888ec9a94.mp3) | 나무, 바다, 나비! [🔊](https://www.academiaseul.com/audio/kr/eb8298ebacb42c20ebb094eb8ba42c20eb8298ebb984.mp3) |
+| 3 | 가, 거, 고, 구, 그, 기! [🔊](https://www.academiaseul.com/audio/kr/eab0802c20eab1b02c20eab3a02c20eab5ac2c20eab7b82c20eab8b0.mp3) | 문, 산, 손, 발! [🔊](https://www.academiaseul.com/audio/kr/ebacb82c20ec82b02c20ec86902c20ebb09c.mp3) | 강, 방, 가방! [🔊](https://www.academiaseul.com/audio/kr/eab0952c20ebb0a92c20eab080ebb0a9.mp3) |
+| 4 | 이거 뭐예요? [🔊](https://www.academiaseul.com/audio/kr/ec9db4eab1b020ebad90ec9888ec9a943f.mp3) | 호랑이예요! [🔊](https://www.academiaseul.com/audio/kr/ed98b8eb9e91ec9db4ec9888ec9a94.mp3) | 곰이에요! [🔊](https://www.academiaseul.com/audio/kr/eab3b0ec9db4ec9790ec9a94.mp3) |
+| 5 | 우리 가족이에요! [🔊](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20eab080eca1b1ec9db4ec9790ec9a94.mp3) | 우리 엄마예요! [🔊](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20ec9784eba788ec9888ec9a94.mp3) | 우리 강아지예요! [🔊](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20eab095ec9584eca780ec9888ec9a94.mp3) |
+| 6 | 몇 살이에요? [🔊](https://www.academiaseul.com/audio/kr/ebaa8720ec82b4ec9db4ec9790ec9a943f.mp3) | 저는 열 살이에요. [🔊](https://www.academiaseul.com/audio/kr/eca080eb8a9420ec97b420ec82b4ec9db4ec9790ec9a94.mp3) | 저는 열세 살이에요. [🔊](https://www.academiaseul.com/audio/kr/eca080eb8a9420ec97b4ec84b820ec82b4ec9db4ec9790ec9a94.mp3) |
+| 7 | 뭐 좋아해요? [🔊](https://www.academiaseul.com/audio/kr/ebad9020eca28bec9584ed95b4ec9a943f.mp3) | 저는 김밥 좋아해요. 맛있어요! [🔊](https://www.academiaseul.com/audio/kr/eca080eb8a9420eab980ebb0a520eca28bec9584ed95b4ec9a942e20eba79bec9e88ec96b4ec9a94.mp3) | 김치 안 좋아해요. 매워요! [🔊](https://www.academiaseul.com/audio/kr/eab980ecb99820ec958820eca28bec9584ed95b4ec9a942e20eba7a4ec9b8cec9a94.mp3) |
 | 8 | 잘했어요! [🔊](https://www.academiaseul.com/audio/kr/ec9e98ed9688ec96b4ec9a94.mp3) | 축하해요! [🔊](https://www.academiaseul.com/audio/kr/ecb695ed9598ed95b4ec9a94.mp3) | 화이팅! [🔊](https://www.academiaseul.com/audio/kr/ed9994ec9db4ed8c85.mp3) |
 
-Clips pendientes de esta tabla: 15 (todos en la lista de G.4). Hasta que existan, la guía de cada semana usa la nota de voz de Abby.
+Las 24 frases tienen clip propio en `public/audio/kr` (las de lista, también como frase entera: 가, 거, 고…; 문, 산, 손, 발; 강, 방, 가방; 나무, 바다, 나비), verificado archivo por archivo en el control final del 27 sept (J). **En el sitio en vivo:** ✅ desde el deploy del 27 sept en la noche (J.2). La nota de voz de Abby sigue siendo el modelo nativo de la semana y el respaldo si el sitio fallara.
 
 ### B.15 "Para la familia": la nota semanal y la frase de la semana
 
@@ -520,12 +522,12 @@ Clips pendientes de esta tabla: 15 (todos en la lista de G.4). Hasta que existan
 | S | Frase | Para el adulto | Español | Audio |
 |---|---|---|---|---|
 | 1 | 안녕하세요! | *annyeonghaseyo* | ¡Hola! (con una pequeña reverencia) | [🔊](https://www.academiaseul.com/audio/kr/ec9588eb8595ed9598ec84b8ec9a94.mp3) |
-| 2 | 저는 ___예요 / 이에요. | *jeoneun ___yeyo / ieyo* | Yo soy ___. | pendiente (저는 소피아예요) |
+| 2 | 저는 ___예요 / 이에요. | *jeoneun ___yeyo / ieyo* | Yo soy ___. | [🔊](https://www.academiaseul.com/audio/kr/eca080eb8a9420ec868ced94bcec9584ec9888ec9a94.mp3) (ejemplo: 저는 소피아예요) · [🔊 이름이 뭐예요?](https://www.academiaseul.com/audio/kr/ec9db4eba684ec9db420ebad90ec9888ec9a943f.mp3) |
 | 3 | 가방 | *gabang* | mochila | [🔊](https://www.academiaseul.com/audio/kr/eab080ebb0a9.mp3) |
-| 4 | 이거 뭐예요? — 호랑이예요! | *igeo mwoyeyo? — horangiyeyo!* | ¿Qué es esto? — ¡Es un tigre! | pendiente |
+| 4 | 이거 뭐예요? — 호랑이예요! | *igeo mwoyeyo? — horangiyeyo!* | ¿Qué es esto? — ¡Es un tigre! | [🔊 pregunta](https://www.academiaseul.com/audio/kr/ec9db4eab1b020ebad90ec9888ec9a943f.mp3) · [🔊 respuesta](https://www.academiaseul.com/audio/kr/ed98b8eb9e91ec9db4ec9888ec9a94.mp3) |
 | 5 | 우리 엄마예요! | *uri eommayeyo* | ¡Es mi mamá! | [🔊](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20ec9784eba788ec9888ec9a94.mp3) |
-| 6 | 몇 살이에요? — 저는 열 살이에요. | *myeot sarieyo? — jeoneun yeol sarieyo* | ¿Cuántos años tienes? — Tengo 10 años. | [🔊 pregunta](https://www.academiaseul.com/audio/kr/ebaa8720ec82b4ec9db4ec9790ec9a943f.mp3) · respuesta pendiente |
-| 7 | 저는 김밥 좋아해요! | *jeoneun gimbap joahaeyo* | ¡Me gusta el kimbap! | pendiente |
+| 6 | 몇 살이에요? — 저는 열 살이에요. | *myeot sarieyo? — jeoneun yeol sarieyo* | ¿Cuántos años tienes? — Tengo 10 años. | [🔊 pregunta](https://www.academiaseul.com/audio/kr/ebaa8720ec82b4ec9db4ec9790ec9a943f.mp3) · [🔊 respuesta](https://www.academiaseul.com/audio/kr/eca080eb8a9420ec97b420ec82b4ec9db4ec9790ec9a94.mp3) |
+| 7 | 저는 김밥 좋아해요! | *jeoneun gimbap joahaeyo* | ¡Me gusta el kimbap! | [🔊](https://www.academiaseul.com/audio/kr/eca080eb8a9420eab980ebb0a520eca28bec9584ed95b4ec9a94.mp3) |
 | 8 | 감사합니다! · 축하해요! | *gamsahamnida · chukahaeyo* | ¡Gracias! · ¡Felicitaciones! | [🔊](https://www.academiaseul.com/audio/kr/eab090ec82aced95a9eb8b88eb8ba4.mp3) · [🔊](https://www.academiaseul.com/audio/kr/ecb695ed9598ed95b4ec9a94.mp3) |
 
 **Una línea para la familia sobre la romanización** (va en el recuadro de la S1): *"La pronunciación en letras latinas es para ustedes, los adultos, para acompañar la tarea. Al niño no se la mostramos: 'eo' o 'eu' se leen con reglas del español y lo harían pronunciar mal. Él aprende con el 🔊 y con 한글."*
@@ -549,9 +551,9 @@ Una hoja grande (o dos hojas tamaño carta pegadas) con **cuatro zonas**, que el
 ## C. Lista maestra de vocabulario del curso
 
 Sin romanización (sección D). **Tipo:** **N** núcleo publicado (se dice; entra en el quiz-juego, el tablero o el show) · **N↺** núcleo publicado ya visto en una semana anterior · **L** letra (se lee) · **F** fórmula (se dice entera, sin explicar) · **P** paradigma (serie que se aprende junta) · **Y** agregado [YA] dentro de lo publicado (tarjeta extra o versión Reto) · **A** anticipo (núcleo de una semana posterior usado antes, marcado) · **T** palabra de clase · **R** reconocimiento (lo dicen los profes o es cultura; no se pide ni se evalúa).
-**Audio:** 🔊 = clip nativo en `public/audio/kr` (voz SunHi, la del Lector y Dubu), enlazado como `https://www.academiaseul.com/audio/kr/<hex del UTF-8>.mp3`, verificado archivo por archivo el 27 sept. **"pendiente"** = hay que generarlo (G.4). En las filas con varias formas hay un 🔊 por forma.
+**Audio:** 🔊 = clip nativo en `public/audio/kr` (voz SunHi, la del Lector y Dubu), enlazado como `https://www.academiaseul.com/audio/kr/<hex del UTF-8>.mp3`, verificado archivo por archivo el 27 sept (y otra vez en el control final, J). En las filas con varias formas hay un 🔊 por forma.
 
-**Resumen:** **125 filas** · N 73 + N↺ 3 (= los **86 ítems de núcleo publicado**, con los números 하나–열 en una fila P) · L 2 (16 letras) · F 13 · P 3 · Y 8 · A 3 · T 1 · R 19. Por semana: S1 21 · S2 16 · S3 14 · S4 17 · S5 17 · S6 13 · S7 17 · S8 10. **Audio completo en 76 filas**; faltan **65 clips** (G.4).
+**Resumen:** **125 filas** · N 73 + N↺ 3 (= los **86 ítems de núcleo publicado**, con los números 하나–열 en una fila P) · L 2 (16 letras) · F 13 · P 3 · Y 8 · A 3 · T 1 · R 19. Por semana: S1 21 · S2 16 · S3 14 · S4 17 · S5 17 · S6 13 · S7 17 · S8 10 (recontado en el control final). **Audio completo en las 125 filas** (los 65 clips de G.4 ya están en el repo). Lo que las guías y los cuadernos usan además de esta lista (reconocimiento, curiosidades ⭐, lenguaje de aula y anticipos del show) está en **C.2**, al final de la tabla.
 
 | S | Coreano | Español | Tipo | Audio | Nota |
 |---|---|---|---|---|---|
@@ -570,10 +572,10 @@ Sin romanización (sección D). **Tipo:** **N** núcleo publicado (se dice; entr
 | 1 | 아이 | niño, niña | A | [🔊](https://www.academiaseul.com/audio/kr/ec9584ec9db4.mp3) | núcleo de la S2; se lee en la S1 solo con vocales |
 | 1 | 오이 | pepino | A | [🔊](https://www.academiaseul.com/audio/kr/ec98a4ec9db4.mp3) | núcleo de la S2; idem |
 | 1 | 따라 하세요 | repitan | R | [🔊](https://www.academiaseul.com/audio/kr/eb94b0eb9dbc20ed9598ec84b8ec9a94.mp3) | lenguaje de clase (Abby), con la mano de la boca hacia afuera |
-| 1 | 다시 | otra vez | R | pendiente | lenguaje de clase |
+| 1 | 다시 | otra vez | R | [🔊](https://www.academiaseul.com/audio/kr/eb8ba4ec8b9c.mp3) | lenguaje de clase |
 | 1 | 좋아요 | ¡bien! | R | [🔊](https://www.academiaseul.com/audio/kr/eca28bec9584ec9a94.mp3) | lenguaje de clase |
-| 1 | 친구들 | amigos, amigas (al grupo) | R | pendiente | 친구들, 안녕하세요! |
-| 1 | 다음 주에 만나요 | nos vemos la próxima semana | R | pendiente | despedida de los profes |
+| 1 | 친구들 | amigos, amigas (al grupo) | R | [🔊](https://www.academiaseul.com/audio/kr/ecb99ceab5aceb93a4.mp3) | 친구들, 안녕하세요! |
+| 1 | 다음 주에 만나요 | nos vemos la próxima semana | R | [🔊](https://www.academiaseul.com/audio/kr/eb8ba4ec9d8c20eca3bcec979020eba78ceb8298ec9a94.mp3) | despedida de los profes |
 | 1 | 인사 | saludo con reverencia | R | [🔊](https://www.academiaseul.com/audio/kr/ec9db8ec82ac.mp3) | cultura |
 | 1 | 야 여 요 유 | las vocales con "rayita extra" (Reto, solo al oído) | R | [🔊1](https://www.academiaseul.com/audio/kr/ec95bc.mp3) [🔊2](https://www.academiaseul.com/audio/kr/ec97ac.mp3) [🔊3](https://www.academiaseul.com/audio/kr/ec9a94.mp3) [🔊4](https://www.academiaseul.com/audio/kr/ec9ca0.mp3) | aparecen en el Lector (grupo "vocales básicas") y en Dubu 1-3 |
 | 2 | 이름 | nombre | N | [🔊](https://www.academiaseul.com/audio/kr/ec9db4eba684.mp3) | 이름이 뭐예요? |
@@ -583,45 +585,45 @@ Sin romanización (sección D). **Tipo:** **N** núcleo publicado (se dice; entr
 | 2 | 아이 | niño, niña | N↺ | [🔊](https://www.academiaseul.com/audio/kr/ec9584ec9db4.mp3) | leída en la S1 |
 | 2 | 오이 | pepino | N↺ | [🔊](https://www.academiaseul.com/audio/kr/ec98a4ec9db4.mp3) | leída en la S1 |
 | 2 | 머리 | cabeza | N | [🔊](https://www.academiaseul.com/audio/kr/eba8b8eba6ac.mp3) | TPR: tócate la 머리 |
-| 2 | 다리 | pierna | N | pendiente | TPR |
-| 2 | 나비 | mariposa | N | pendiente |  |
+| 2 | 다리 | pierna | N | [🔊](https://www.academiaseul.com/audio/kr/eb8ba4eba6ac.mp3) | TPR |
+| 2 | 나비 | mariposa | N | [🔊](https://www.academiaseul.com/audio/kr/eb8298ebb984.mp3) |  |
 | 2 | 모자 | gorro | N | [🔊](https://www.academiaseul.com/audio/kr/ebaaa8ec9e90.mp3) |  |
 | 2 | ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅎ → 가 나 다 라 마 바 사 아 자 하 | las 10 consonantes básicas (con ㅏ) | L | [🔊1](https://www.academiaseul.com/audio/kr/eab080.mp3) [🔊2](https://www.academiaseul.com/audio/kr/eb8298.mp3) [🔊3](https://www.academiaseul.com/audio/kr/eb8ba4.mp3) [🔊4](https://www.academiaseul.com/audio/kr/eb9dbc.mp3) [🔊5](https://www.academiaseul.com/audio/kr/eba788.mp3) [🔊6](https://www.academiaseul.com/audio/kr/ebb094.mp3) [🔊7](https://www.academiaseul.com/audio/kr/ec82ac.mp3) [🔊8](https://www.academiaseul.com/audio/kr/ec9584.mp3) [🔊9](https://www.academiaseul.com/audio/kr/ec9e90.mp3) [🔊10](https://www.academiaseul.com/audio/kr/ed9598.mp3) | = Lector → Practicar → Consonantes (son exactamente estas 10) |
-| 2 | 이름이 뭐예요? | ¿cómo te llamas? | F | pendiente | cadena en círculo |
-| 2 | 저는 ___예요 / 이에요 | yo soy ___ (저는 소피아예요 · 저는 다니엘이에요) | F | pendiente | la tarjeta de cada niño trae su frase completa |
-| 2 | 가위바위보 | piedra, papel o tijera | Y | pendiente | para decidir turnos desde la S2 (Fase 1 §10.4) ⚑ D-3 |
+| 2 | 이름이 뭐예요? | ¿cómo te llamas? | F | [🔊](https://www.academiaseul.com/audio/kr/ec9db4eba684ec9db420ebad90ec9888ec9a943f.mp3) | cadena en círculo |
+| 2 | 저는 ___예요 / 이에요 | yo soy ___ (저는 소피아예요 · 저는 다니엘이에요) | F | [🔊 저는 소피아예요](https://www.academiaseul.com/audio/kr/eca080eb8a9420ec868ced94bcec9584ec9888ec9a94.mp3) [🔊 저는 다니엘이에요](https://www.academiaseul.com/audio/kr/eca080eb8a9420eb8ba4eb8b88ec9798ec9db4ec9790ec9a94.mp3) | la tarjeta de cada niño trae su frase completa |
+| 2 | 가위바위보 | piedra, papel o tijera | Y | [🔊](https://www.academiaseul.com/audio/kr/eab080ec9c84ebb094ec9c84ebb3b4.mp3) | para decidir turnos desde la S2 (Fase 1 §10.4) ⚑ D-3 |
 | 2 | 한글날 | Día del Hangul (9 de octubre) | R | [🔊](https://www.academiaseul.com/audio/kr/ed959ceab880eb82a0.mp3) | cultura |
-| 2 | 세종대왕 | el rey Sejong el Grande | R | pendiente | cultura (cuento de 2 minutos) |
+| 2 | 세종대왕 | el rey Sejong el Grande | R | [🔊](https://www.academiaseul.com/audio/kr/ec84b8eca285eb8c80ec9995.mp3) | cultura (cuento de 2 minutos) |
 | 3 | 문 | puerta | N | [🔊](https://www.academiaseul.com/audio/kr/ebacb8.mp3) | 받침 ㄴ |
 | 3 | 산 | montaña | N | [🔊](https://www.academiaseul.com/audio/kr/ec82b0.mp3) | Dubu 3-2 |
 | 3 | 손 | mano | N | [🔊](https://www.academiaseul.com/audio/kr/ec8690.mp3) | TPR |
-| 3 | 발 | pie | N | pendiente | 받침 ㄹ; TPR |
+| 3 | 발 | pie | N | [🔊](https://www.academiaseul.com/audio/kr/ebb09c.mp3) | 받침 ㄹ; TPR |
 | 3 | 물 | agua | N | [🔊](https://www.academiaseul.com/audio/kr/ebacbc.mp3) | Dubu 3-4 |
 | 3 | 강 | río | N | [🔊](https://www.academiaseul.com/audio/kr/eab095.mp3) | ㅇ abajo = "ng"; Dubu 3-1 |
 | 3 | 방 | habitación | N | [🔊](https://www.academiaseul.com/audio/kr/ebb0a9.mp3) |  |
 | 3 | 밤 | noche | N | [🔊](https://www.academiaseul.com/audio/kr/ebb0a4.mp3) | también "castaña" (no se enseña) |
 | 3 | 눈 | ojo / nieve | N | [🔊](https://www.academiaseul.com/audio/kr/eb8888.mp3) | la palabra con doble sentido de la S3 |
-| 3 | 김 | alga seca | N | pendiente | anticipa 김밥 (S7) |
+| 3 | 김 | alga seca | N | [🔊](https://www.academiaseul.com/audio/kr/eab980.mp3) | anticipa 김밥 (S7) |
 | 3 | 가방 | mochila | N | [🔊](https://www.academiaseul.com/audio/kr/eab080ebb0a9.mp3) | primera palabra de 2 sílabas con 받침 |
 | 3 | 가 거 고 구 그 기 | la fábrica de sílabas (ㄱ + las 6 vocales) | P | [🔊1](https://www.academiaseul.com/audio/kr/eab080.mp3) [🔊2](https://www.academiaseul.com/audio/kr/eab1b0.mp3) [🔊3](https://www.academiaseul.com/audio/kr/eab3a0.mp3) [🔊4](https://www.academiaseul.com/audio/kr/eab5ac.mp3) [🔊5](https://www.academiaseul.com/audio/kr/eab7b8.mp3) [🔊6](https://www.academiaseul.com/audio/kr/eab8b0.mp3) | se canta en coro |
-| 3 | 받침 | consonante final ("la que va abajo") | T | pendiente | palabra de clase |
-| 3 | 첫눈 | la primera nieve del año | R | pendiente | cultura: estaciones invertidas ⚑ D-11 |
-| 4 | 동물 | animal | N | pendiente |  |
+| 3 | 받침 | consonante final ("la que va abajo") | T | [🔊](https://www.academiaseul.com/audio/kr/ebb09becb9a8.mp3) | palabra de clase |
+| 3 | 첫눈 | la primera nieve del invierno | R | [🔊](https://www.academiaseul.com/audio/kr/ecb2abeb8888.mp3) | cultura: estaciones invertidas ⚑ D-11 |
+| 4 | 동물 | animal | N | [🔊](https://www.academiaseul.com/audio/kr/eb8f99ebacbc.mp3) |  |
 | 4 | 강아지 | perrito | N | [🔊](https://www.academiaseul.com/audio/kr/eab095ec9584eca780.mp3) | Dubu 6-4; Lector → Pictogramas |
 | 4 | 고양이 | gato | N | [🔊](https://www.academiaseul.com/audio/kr/eab3a0ec9691ec9db4.mp3) | Lector → Pictogramas |
-| 4 | 토끼 | conejo | N | pendiente | 토끼예요 (vocal) |
+| 4 | 토끼 | conejo | N | [🔊](https://www.academiaseul.com/audio/kr/ed86a0eb81bc.mp3) | 토끼예요 (vocal) |
 | 4 | 곰 | oso | N | [🔊](https://www.academiaseul.com/audio/kr/eab3b0.mp3) | 곰이에요 (받침) |
-| 4 | 호랑이 | tigre | N | pendiente | frase ancla de la S4 |
+| 4 | 호랑이 | tigre | N | [🔊](https://www.academiaseul.com/audio/kr/ed98b8eb9e91ec9db4.mp3) | frase ancla de la S4 |
 | 4 | 새 | pájaro | N | [🔊](https://www.academiaseul.com/audio/kr/ec8388.mp3) |  |
-| 4 | 물고기 | pez | N | pendiente | 물 (S3) + 고기 (Dubu 2-1) |
-| 4 | 코끼리 | elefante | N | pendiente | ㄲ al oído |
-| 4 | 돼지 | cerdo | N | pendiente | ㅙ suena "ue" |
-| 4 | 사자 | león | N | pendiente |  |
-| 4 | 이거 뭐예요? | ¿qué es esto? | F | pendiente |  |
-| 4 | ___이에요 / 예요 | es un/una ___ (곰이에요 · 토끼예요 · 호랑이예요) | F | pendiente | gesto: puño = termina en 받침 → 이에요 · mano abierta = termina en vocal → 예요 |
-| 4 | 멍멍 · 야옹 · 꿀꿀 | guau · miau · oinc | R | pendiente | publicado |
-| 4 | 어흥 | el rugido del tigre | Y | pendiente | agregado para la frase ancla ⚑ D-12 |
-| 4 | 호돌이 | Hodori, la mascota de Seúl 1988 | R | pendiente | cultura |
+| 4 | 물고기 | pez | N | [🔊](https://www.academiaseul.com/audio/kr/ebacbceab3a0eab8b0.mp3) | 물 (S3) + 고기 (Dubu 2-1) |
+| 4 | 코끼리 | elefante | N | [🔊](https://www.academiaseul.com/audio/kr/ecbd94eb81bceba6ac.mp3) | ㄲ al oído |
+| 4 | 돼지 | cerdo | N | [🔊](https://www.academiaseul.com/audio/kr/eb8fbceca780.mp3) | ㅙ suena "ue" |
+| 4 | 사자 | león | N | [🔊](https://www.academiaseul.com/audio/kr/ec82acec9e90.mp3) |  |
+| 4 | 이거 뭐예요? | ¿qué es esto? | F | [🔊](https://www.academiaseul.com/audio/kr/ec9db4eab1b020ebad90ec9888ec9a943f.mp3) |  |
+| 4 | ___이에요 / 예요 | es un/una ___ (곰이에요 · 토끼예요 · 호랑이예요) | F | [🔊 곰이에요](https://www.academiaseul.com/audio/kr/eab3b0ec9db4ec9790ec9a94.mp3) [🔊 토끼예요](https://www.academiaseul.com/audio/kr/ed86a0eb81bcec9888ec9a94.mp3) [🔊 호랑이예요](https://www.academiaseul.com/audio/kr/ed98b8eb9e91ec9db4ec9888ec9a94.mp3) | gesto: puño = termina en 받침 → 이에요 · mano abierta = termina en vocal → 예요 |
+| 4 | 멍멍 · 야옹 · 꿀꿀 | guau · miau · oinc | R | [🔊 멍멍](https://www.academiaseul.com/audio/kr/eba98deba98d.mp3) [🔊 야옹](https://www.academiaseul.com/audio/kr/ec95bcec98b9.mp3) [🔊 꿀꿀](https://www.academiaseul.com/audio/kr/eabf80eabf80.mp3) | publicado |
+| 4 | 어흥 | el rugido del tigre | Y | [🔊](https://www.academiaseul.com/audio/kr/ec96b4ed9da5.mp3) | agregado para la frase ancla ⚑ D-12 |
+| 4 | 호돌이 | Hodori, la mascota de Seúl 1988 | R | [🔊](https://www.academiaseul.com/audio/kr/ed98b8eb8f8cec9db4.mp3) | cultura |
 | 4 | 사람 | persona | A | [🔊](https://www.academiaseul.com/audio/kr/ec82aceb9e8c.mp3) | núcleo de la S5; aparece en el cuento del oso y el tigre |
 | 5 | 가족 | familia | N | [🔊](https://www.academiaseul.com/audio/kr/eab080eca1b1.mp3) | 우리 가족이에요! |
 | 5 | 엄마 | mamá | N | [🔊](https://www.academiaseul.com/audio/kr/ec9784eba788.mp3) |  |
@@ -634,26 +636,26 @@ Sin romanización (sección D). **Tipo:** **N** núcleo publicado (se dice; entr
 | 5 | 형 | hermano mayor (si tú eres niño) | N | [🔊](https://www.academiaseul.com/audio/kr/ed9895.mp3) |  |
 | 5 | 동생 | hermano o hermana menor | N | [🔊](https://www.academiaseul.com/audio/kr/eb8f99ec839d.mp3) |  |
 | 5 | 사람 | persona | N | [🔊](https://www.academiaseul.com/audio/kr/ec82aceb9e8c.mp3) | anticipada en la S4 |
-| 5 | 우리 ___예요 / 이에요 | es mi ___ (우리 엄마예요 · 우리 가족이에요 · 우리 강아지예요) | F | [🔊 우리 엄마예요](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20ec9784eba788ec9888ec9a94.mp3) · pendiente: 우리 가족이에요, 우리 강아지예요 | [YA] en lugar de 이 사람은 우리 엄마예요 (Fase 1 §10.5) |
-| 5 | 이 사람은 ___예요 / 이에요 | esta persona es ___ | R | pendiente | publicado; queda para reconocer ⚑ D-13 |
-| 5 | 이분은 우리 할머니예요 | ella es mi abuela (con respeto) | Y | pendiente | solo Reto (Fase 1 §10.5) |
+| 5 | 우리 ___예요 / 이에요 | es mi ___ (우리 엄마예요 · 우리 가족이에요 · 우리 강아지예요) | F | [🔊 우리 엄마예요](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20ec9784eba788ec9888ec9a94.mp3) [🔊 우리 가족이에요](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20eab080eca1b1ec9db4ec9790ec9a94.mp3) [🔊 우리 강아지예요](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20eab095ec9584eca780ec9888ec9a94.mp3) | [YA] en lugar de 이 사람은 우리 엄마예요 (Fase 1 §10.5) |
+| 5 | 이 사람은 ___예요 / 이에요 | esta persona es ___ | R | [🔊 이 사람은 우리 엄마예요](https://www.academiaseul.com/audio/kr/ec9db420ec82aceb9e8cec9d8020ec9ab0eba6ac20ec9784eba788ec9888ec9a94.mp3) | publicado; queda para reconocer ⚑ D-13 |
+| 5 | 이분은 우리 할머니예요 | ella es mi abuela (con respeto) | Y | [🔊](https://www.academiaseul.com/audio/kr/ec9db4ebb684ec9d8020ec9ab0eba6ac20ed95a0eba8b8eb8b88ec9888ec9a94.mp3) | solo Reto (Fase 1 §10.5) |
 | 5 | 누구예요? | ¿quién es? | R | [🔊](https://www.academiaseul.com/audio/kr/eb8884eab5acec9888ec9a943f.mp3) | la pregunta de Abby en la sala Reto |
-| 5 | 엄마 이름이 뭐예요? | ¿cómo se llama tu mamá? | F | pendiente | publicado; vale un nombre inventado o el de la mascota |
-| 5 | 이모 · 삼촌 | tía (hermana de la mamá) · tío | Y | pendiente | a pedido |
+| 5 | 엄마 이름이 뭐예요? | ¿cómo se llama tu mamá? | F | [🔊](https://www.academiaseul.com/audio/kr/ec9784eba78820ec9db4eba684ec9db420ebad90ec9888ec9a943f.mp3) | publicado; vale un nombre inventado o el de la mascota |
+| 5 | 이모 · 삼촌 | tía (hermana de la mamá) · tío | Y | [🔊 이모](https://www.academiaseul.com/audio/kr/ec9db4ebaaa8.mp3) [🔊 삼촌](https://www.academiaseul.com/audio/kr/ec82bcecb48c.mp3) | a pedido |
 | 6 | 하나 둘 셋 넷 다섯 여섯 일곱 여덟 아홉 열 | 1 al 10 (números coreanos nativos) | P | [🔊1](https://www.academiaseul.com/audio/kr/ed9598eb8298.mp3) [🔊2](https://www.academiaseul.com/audio/kr/eb9198.mp3) [🔊3](https://www.academiaseul.com/audio/kr/ec858b.mp3) [🔊4](https://www.academiaseul.com/audio/kr/eb84b7.mp3) [🔊5](https://www.academiaseul.com/audio/kr/eb8ba4ec84af.mp3) [🔊6](https://www.academiaseul.com/audio/kr/ec97acec84af.mp3) [🔊7](https://www.academiaseul.com/audio/kr/ec9dbceab3b1.mp3) [🔊8](https://www.academiaseul.com/audio/kr/ec97aceb8d9f.mp3) [🔊9](https://www.academiaseul.com/audio/kr/ec9584ed9989.mp3) [🔊10](https://www.academiaseul.com/audio/kr/ec97b4.mp3) | 여덟 [여덜] |
 | 6 | 살 | años (de edad) | N | [🔊](https://www.academiaseul.com/audio/kr/ec82b4.mp3) |  |
 | 6 | 생일 | cumpleaños | N | [🔊](https://www.academiaseul.com/audio/kr/ec839dec9dbc.mp3) |  |
 | 6 | 한 · 두 · 세 · 네 (+ 살) | 1, 2, 3 y 4 antes de 살 (pierden la "cola") | P | [🔊1](https://www.academiaseul.com/audio/kr/ed959c.mp3) [🔊2](https://www.academiaseul.com/audio/kr/eb9190.mp3) [🔊3](https://www.academiaseul.com/audio/kr/ec84b8.mp3) [🔊4](https://www.academiaseul.com/audio/kr/eb84a4.mp3) | 열한 살, 열두 살… |
 | 6 | 몇 살이에요? | ¿cuántos años tienes? | F | [🔊](https://www.academiaseul.com/audio/kr/ebaa8720ec82b4ec9db4ec9790ec9a943f.mp3) |  |
-| 6 | 저는 ___ 살이에요 | tengo ___ años (저는 열 살이에요) | F | pendiente |  |
+| 6 | 저는 ___ 살이에요 | tengo ___ años (저는 열 살이에요) | F | [🔊 저는 열 살이에요](https://www.academiaseul.com/audio/kr/eca080eb8a9420ec97b420ec82b4ec9db4ec9790ec9a94.mp3) [🔊 저는 열세 살이에요](https://www.academiaseul.com/audio/kr/eca080eb8a9420ec97b4ec84b820ec82b4ec9db4ec9790ec9a94.mp3) |  |
 | 6 | 열하나 열둘 열셋 열넷 열다섯 | 11 al 15 | Y | [🔊1](https://www.academiaseul.com/audio/kr/ec97b4ed9598eb8298.mp3) [🔊2](https://www.academiaseul.com/audio/kr/ec97b4eb9198.mp3) [🔊3](https://www.academiaseul.com/audio/kr/ec97b4ec858b.mp3) [🔊4](https://www.academiaseul.com/audio/kr/ec97b4eb84b7.mp3) [🔊5](https://www.academiaseul.com/audio/kr/ec97b4eb8ba4ec84af.mp3) | [YA] Fase 1 §4.9: para que todos puedan decir su edad |
-| 6 | 여덟 살 · 아홉 살 · 열 살 | 8, 9 y 10 años | Y | pendiente | tarjeta de edades |
-| 6 | 열한 살 · 열두 살 · 열세 살 · 열네 살 · 열다섯 살 | 11 a 15 años | Y | pendiente | tarjeta de edades [YA] |
-| 6 | 마테오는 열 살이에요 | Mateo tiene 10 años (contar la edad de otro) | F | pendiente | publicado; 는 sin explicar |
+| 6 | 여덟 살 · 아홉 살 · 열 살 | 8, 9 y 10 años | Y | [🔊 여덟 살](https://www.academiaseul.com/audio/kr/ec97aceb8d9f20ec82b4.mp3) [🔊 아홉 살](https://www.academiaseul.com/audio/kr/ec9584ed998920ec82b4.mp3) [🔊 열 살](https://www.academiaseul.com/audio/kr/ec97b420ec82b4.mp3) | tarjeta de edades |
+| 6 | 열한 살 · 열두 살 · 열세 살 · 열네 살 · 열다섯 살 | 11 a 15 años | Y | [🔊 열한 살](https://www.academiaseul.com/audio/kr/ec97b4ed959c20ec82b4.mp3) [🔊 열두 살](https://www.academiaseul.com/audio/kr/ec97b4eb919020ec82b4.mp3) [🔊 열세 살](https://www.academiaseul.com/audio/kr/ec97b4ec84b820ec82b4.mp3) [🔊 열네 살](https://www.academiaseul.com/audio/kr/ec97b4eb84a420ec82b4.mp3) [🔊 열다섯 살](https://www.academiaseul.com/audio/kr/ec97b4eb8ba4ec84af20ec82b4.mp3) | tarjeta de edades [YA] |
+| 6 | 마테오는 열 살이에요 | Mateo tiene 10 años (contar la edad de otro) | F | [🔊](https://www.academiaseul.com/audio/kr/eba788ed858cec98a4eb8a9420ec97b420ec82b4ec9db4ec9790ec9a94.mp3) | publicado; 는 sin explicar |
 | 6 | 스물 · 서른 · 마흔 · 쉰 | 20 · 30 · 40 · 50 | R | [🔊1](https://www.academiaseul.com/audio/kr/ec8aa4ebacbc.mp3) [🔊2](https://www.academiaseul.com/audio/kr/ec849ceba5b8.mp3) [🔊3](https://www.academiaseul.com/audio/kr/eba788ed9d94.mp3) [🔊4](https://www.academiaseul.com/audio/kr/ec89b0.mp3) | tarjeta "para curiosos" (la edad de los adultos de la casa) |
-| 6 | 돌 · 돌잡이 | primer cumpleaños · el juego de elegir un objeto | R | pendiente | cultura |
-| 6 | 가라사대 | "Simón dice" en Corea | R | pendiente | nombre coreano del juego "Jay dice / Abby dice" ⚑ D-14 |
-| 7 | 김밥 | rollo de arroz con alga | N | pendiente | [김밥] o [김빱]: las dos valen |
+| 6 | 돌 · 돌잡이 | primer cumpleaños · el juego de elegir un objeto | R | [🔊 돌](https://www.academiaseul.com/audio/kr/eb8f8c.mp3) [🔊 돌잡이](https://www.academiaseul.com/audio/kr/eb8f8cec9ea1ec9db4.mp3) | cultura |
+| 6 | 가라사대 | "Simón dice" en Corea | R | [🔊](https://www.academiaseul.com/audio/kr/eab080eb9dbcec82aceb8c80.mp3) | nombre coreano del juego "Jay dice / Abby dice" ⚑ D-14 |
+| 7 | 김밥 | rollo de arroz con alga | N | [🔊](https://www.academiaseul.com/audio/kr/eab980ebb0a5.mp3) | [김밥] o [김빱]: las dos valen |
 | 7 | 라면 | fideos instantáneos | N | [🔊](https://www.academiaseul.com/audio/kr/eb9dbceba9b4.mp3) | Lector → Palabras |
 | 7 | 불고기 | carne marinada | N | [🔊](https://www.academiaseul.com/audio/kr/ebb688eab3a0eab8b0.mp3) |  |
 | 7 | 떡볶이 | pastelitos de arroz picantes | N | [🔊](https://www.academiaseul.com/audio/kr/eb96a1ebb3b6ec9db4.mp3) | [떡뽀끼] |
@@ -662,24 +664,59 @@ Sin romanización (sección D). **Tipo:** **N** núcleo publicado (se dice; entr
 | 7 | 사과 | manzana | N | [🔊](https://www.academiaseul.com/audio/kr/ec82aceab3bc.mp3) | Dubu 5-1 |
 | 7 | 바나나 | banana, plátano | N | [🔊](https://www.academiaseul.com/audio/kr/ebb094eb8298eb8298.mp3) |  |
 | 7 | 딸기 | frutilla, fresa | N | [🔊](https://www.academiaseul.com/audio/kr/eb94b8eab8b0.mp3) |  |
-| 7 | 주스 | jugo | N | pendiente |  |
-| 7 | 맛있어요 | ¡está rico! | N | pendiente | [마시써요] |
-| 7 | 매워요 | pica | N | pendiente |  |
-| 7 | 저는 ___ 좋아해요 | me gusta ___ (저는 김밥 좋아해요) | F | pendiente | 을/를 solo se oye en el modelo |
-| 7 | 안 좋아해요 | no me gusta | F | [🔊](https://www.academiaseul.com/audio/kr/ec958820eca28bec9584ed95b4ec9a94.mp3) | 김치 안 좋아해요 |
-| 7 | 뭐 좋아해요? | ¿qué te gusta? | F | pendiente |  |
-| 7 | 네, 좋아해요 · 아니요, 안 좋아해요 | sí, me gusta · no, no me gusta | F | [🔊 아니요, 안 좋아해요](https://www.academiaseul.com/audio/kr/ec9584eb8b88ec9a942c20ec958820eca28bec9584ed95b4ec9a94.mp3) · pendiente: 네, 좋아해요 | encuesta relámpago |
+| 7 | 주스 | jugo | N | [🔊](https://www.academiaseul.com/audio/kr/eca3bcec8aa4.mp3) |  |
+| 7 | 맛있어요 | ¡está rico! | N | [🔊](https://www.academiaseul.com/audio/kr/eba79bec9e88ec96b4ec9a94.mp3) | [마시써요] |
+| 7 | 매워요 | pica | N | [🔊](https://www.academiaseul.com/audio/kr/eba7a4ec9b8cec9a94.mp3) |  |
+| 7 | 저는 ___ 좋아해요 | me gusta ___ (저는 김밥 좋아해요) | F | [🔊 저는 김밥 좋아해요](https://www.academiaseul.com/audio/kr/eca080eb8a9420eab980ebb0a520eca28bec9584ed95b4ec9a94.mp3) | 을/를 solo se oye en el modelo |
+| 7 | 안 좋아해요 | no me gusta | F | [🔊](https://www.academiaseul.com/audio/kr/ec958820eca28bec9584ed95b4ec9a94.mp3) [🔊 김치 안 좋아해요](https://www.academiaseul.com/audio/kr/eab980ecb99820ec958820eca28bec9584ed95b4ec9a94.mp3) | 김치 안 좋아해요 |
+| 7 | 뭐 좋아해요? | ¿qué te gusta? | F | [🔊](https://www.academiaseul.com/audio/kr/ebad9020eca28bec9584ed95b4ec9a943f.mp3) |  |
+| 7 | 네, 좋아해요 · 아니요, 안 좋아해요 | sí, me gusta · no, no me gusta | F | [🔊 아니요, 안 좋아해요](https://www.academiaseul.com/audio/kr/ec9584eb8b88ec9a942c20ec958820eca28bec9584ed95b4ec9a94.mp3) [🔊 네, 좋아해요](https://www.academiaseul.com/audio/kr/eb84a42c20eca28bec9584ed95b4ec9a94.mp3) | encuesta relámpago |
 | 7 | 김장 | preparar juntos el kimchi del invierno | R | [🔊](https://www.academiaseul.com/audio/kr/eab980ec9ea5.mp3) | cultura (noviembre) |
-| 8 | 박수 | aplauso | N | pendiente | 박수! = ¡aplausos! |
+| 8 | 박수 | aplauso | N | [🔊](https://www.academiaseul.com/audio/kr/ebb095ec8898.mp3) | 박수! = ¡aplausos! · se reparte con los roles y se ensaya en casa desde la S7 (A, cuaderno S7 §9.5) |
 | 8 | 잘했어요 | ¡bien hecho! | N↺ | [🔊](https://www.academiaseul.com/audio/kr/ec9e98ed9688ec96b4ec9a94.mp3) | desde la S1 en voz de los profes |
-| 8 | 축하해요 | ¡felicitaciones! | N | [🔊](https://www.academiaseul.com/audio/kr/ecb695ed9598ed95b4ec9a94.mp3) | al entregar el certificado |
+| 8 | 축하해요 | ¡felicitaciones! | N | [🔊](https://www.academiaseul.com/audio/kr/ecb695ed9598ed95b4ec9a94.mp3) | al entregar el certificado · rol del asistente del certificado, ensayado desde la S7 (A) |
 | 8 | 수료증 | certificado (de haber terminado el curso) | N | [🔊](https://www.academiaseul.com/audio/kr/ec8898eba38ceca69d.mp3) |  |
-| 8 | 시작 | comienzo / ¡empieza! | N | pendiente | tarjeta del guardián del tiempo |
-| 8 | 끝 | fin | N | pendiente | idem |
+| 8 | 시작 | comienzo / ¡empieza! | N | [🔊](https://www.academiaseul.com/audio/kr/ec8b9cec9e91.mp3) | tarjeta del guardián del tiempo · Jay lo dice en el rap de la S3 (R) · rol ensayado desde la S7 (A) |
+| 8 | 끝 | fin | N | [🔊](https://www.academiaseul.com/audio/kr/eb819d.mp3) | idem · rol ensayado desde la S7 (A) |
 | 8 | 화이팅 | ¡ánimo! / ¡vamos! | N | [🔊](https://www.academiaseul.com/audio/kr/ed9994ec9db4ed8c85.mp3) |  |
-| 8 | 사랑해요 | te quiero | N | pendiente | con el 손하트, al cierre |
-| 8 | 손하트 | corazón con los dedos | R | pendiente | cultura; foto de manos |
-| 8 | 우리 반 발표회 | el show de nuestra clase | Y | pendiente | título del show (Fase 1 §11.5) ⚑ D-15 |
+| 8 | 사랑해요 | te quiero | N | [🔊](https://www.academiaseul.com/audio/kr/ec82aceb9e91ed95b4ec9a94.mp3) | con el 손하트, al cierre · ya se canta en el canto de la familia (S5, A) y en el rol del capitán del 손하트 (S7, A) |
+| 8 | 손하트 | corazón con los dedos | R | [🔊](https://www.academiaseul.com/audio/kr/ec8690ed9598ed8ab8.mp3) | cultura; foto de manos |
+| 8 | 우리 반 발표회 | el show de nuestra clase | Y | [🔊](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20ebb09820ebb09ced919ced9a8c.mp3) | título del show (Fase 1 §11.5) ⚑ D-15 · aparece desde la S7 (consigna, invitación y línea de los presentadores) |
+
+### C.2 Lo que aparece en las guías y los cuadernos fuera de la tabla (control final, 27 sept)
+
+Nada de esto se pide ni se evalúa: es **reconocimiento (R)**, lenguaje de aula con gesto, curiosidad ⭐ o **anticipo (A)** del show que se practica antes de exigirse. Sirve para que la lista maestra "coincida con lo enseñado". 🔊 solo donde el clip existe; lo demás lo modela Abby en vivo.
+
+| S | Qué | Tipo | Dónde | Audio |
+|---|---|---|---|---|
+| 1 | 하나, 둘, 셋! (señal de cambio) | R → núcleo S6 | Todas las clases desde la S1 | [🔊 하나](https://www.academiaseul.com/audio/kr/ed9598eb8298.mp3) [🔊 둘](https://www.academiaseul.com/audio/kr/eb9198.mp3) [🔊 셋](https://www.academiaseul.com/audio/kr/ec858b.mp3) |
+| 1 | 반가워 · 꾸벅 인사해요 · 짝짝짝 | R (canción) | 안녕 노래, todas las semanas | — |
+| 1 | 오늘 정말 잘했어요! (solo S1) · 오늘도 잘했어요! (desde la S2) | R | Despedida | — |
+| 1 | 잘 들어 보세요 · ○○ 차례예요 · 마이크! · 빙고! | R (aula) | S1 en adelante | — |
+| 1 | 하늘, 땅, 사람 · 세배 (⭐) | R (cuento, cultura) | Cuaderno S1 §3.2 y §8 | — |
+| 2 | 잘 보세요 · 읽어 보세요 · 그려 보세요 · 써 보세요 · 몸으로 해 보세요 · 보여 주세요 · 다시 한번 | R (aula) | Cuaderno S2 §2; guías S2–S8 | — |
+| 2 | 우와! · 나비야 (nombre de gato) · 가위 / 바위 / 보(자기) | R | Cuaderno S2 §5 y §8 | [🔊 보](https://www.academiaseul.com/audio/kr/ebb3b4.mp3) |
+| 2 | 우유 · 고기 (Dubu 1-5 y 2-1) | R → 고기 recicla en 물고기 (S4) y 불고기 (S7) | Misión S2 | [🔊 우유](https://www.academiaseul.com/audio/kr/ec9ab0ec9ca0.mp3) [🔊 고기](https://www.academiaseul.com/audio/kr/eab3a0eab8b0.mp3) |
+| 2 | 훈민정음 (⭐ "el dato de verdad": el libro que presentó el alfabeto en 1446) · 만 원 (el billete de Sejong) | R (cultura ⭐) | Cuaderno S2 §3.1 y §8 | — |
+| 3 | 공장 · 시작 (rap de la fábrica, lo dice Jay) · 한글은 쉬워요! · 컵받침 (⭐) | R | Cuaderno S3 §2, §3 y §7 | [🔊 시작](https://www.academiaseul.com/audio/kr/ec8b9cec9e91.mp3) |
+| 3 | 간 · 상 · 반 (pares de oído) · 시 ("suena distinto") | R (oído) | Cuaderno S3 §4 y §6.1; quiz de la S3 en la S4 | [🔊 반](https://www.academiaseul.com/audio/kr/ebb098.mp3) [🔊 시](https://www.academiaseul.com/audio/kr/ec8b9c.mp3) |
+| 3 | 밥 · 집 · 빵 · 책 · 꽃 · 옷 (salen en Lector → Batchim) | R | Truquitos de la misión S3 | [🔊 밥](https://www.academiaseul.com/audio/kr/ebb0a5.mp3) [🔊 집](https://www.academiaseul.com/audio/kr/eca791.mp3) [🔊 빵](https://www.academiaseul.com/audio/kr/ebb9b5.mp3) [🔊 책](https://www.academiaseul.com/audio/kr/ecb185.mp3) [🔊 꽃](https://www.academiaseul.com/audio/kr/eabd83.mp3) [🔊 옷](https://www.academiaseul.com/audio/kr/ec98b7.mp3) |
+| 4 | 이거 · 뭐 (las partes de 이거 뭐예요?) | F (partes) | Cuaderno S4 §3.1 | [🔊 이거](https://www.academiaseul.com/audio/kr/ec9db4eab1b0.mp3) [🔊 뭐](https://www.academiaseul.com/audio/kr/ebad90.mp3) |
+| 4 | 공 (pelota: par 곰/공; vuelve en el 돌잡이 de la S6) | R (oído) | Cuaderno S4 §4, Dubu 3-3, quiz de la S3 | [🔊 공](https://www.academiaseul.com/audio/kr/eab3b5.mp3) |
+| 4 | 단군 · 곰이 사람이 됐어요! · 수호랑 · 반다비 (⭐) | R (cuento, cultura) | Cuaderno S4 §8 | — |
+| 5 | 우리 · 이분 (partes de las fórmulas) | F (partes) | Cuaderno S5 §2 | [🔊 우리](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac.mp3) [🔊 이분](https://www.academiaseul.com/audio/kr/ec9db4ebb684.mp3) |
+| 5 | 이 사람은 누구예요? · 강아지 이름이 뭐예요? — 초코예요! · 우리 지수 언니예요! (Abby) | R | Cuaderno S5 §2 y §5; guía S5 | — |
+| 5 | 사랑해요 (en 우리 가족, 사랑해요!) | A → núcleo S8 | Canto de la familia | [🔊 사랑해요](https://www.academiaseul.com/audio/kr/ec82aceb9e91ed95b4ec9a94.mp3) |
+| 6 | 몇 · 스무 (살) · 서른다섯 (⭐ "para curiosos") · 만 나이 (⭐) | R | Cuaderno S6 §2, §6.6 y §8 | [🔊 몇](https://www.academiaseul.com/audio/kr/ebaa87.mp3) [🔊 스무](https://www.academiaseul.com/audio/kr/ec8aa4ebacb4.mp3) [🔊 서른다섯](https://www.academiaseul.com/audio/kr/ec849ceba5b8eb8ba4ec84af.mp3) [🔊 만 나이](https://www.academiaseul.com/audio/kr/eba78c20eb8298ec9db4.mp3) |
+| 6 | 연필 · 돈 · 공 · 마이크 · 실 (mesa del 돌잡이) | R | Cuaderno S6 §5 | [🔊 연필](https://www.academiaseul.com/audio/kr/ec97b0ed9584.mp3) [🔊 돈](https://www.academiaseul.com/audio/kr/eb8f88.mp3) |
+| 6 | 초가 몇 개예요? · 같이 세어 봐요 · 손가락으로 보여 주세요 · 꼬리가 떨어졌어요 · 비밀이에요 · 나이가 어떻게 되세요? | R (aula, con gesto; se enseñan en la clase antes de la sala) | Guía S6 (L14, salas) | — |
+| 6 | ___는/은 (마테오는 · 우리 동생은 일곱 살이에요, ⭐) | F (partes, sin explicar) | Cuaderno S6 §3.4 | — |
+| 7 | 저도요! (⭐) · 괜찮아요 · 음~ · 일어나세요 / 앉으세요 · 오늘 아침에 ___ 먹었어요 (Abby) · 김장해요! 같이 김치를 만들어요 | R | Cuaderno S7 §2, §5 y §7; guía S7 | [🔊 저도요](https://www.academiaseul.com/audio/kr/eca080eb8f84ec9a94.mp3) |
+| 7 | 피자 · 빵 · 우유 · 고기 (comidas "a pedido", ya vistas en Dubu y el Lector) · 냠냠 (título) | R | Cuaderno S7 §2 | [🔊 피자](https://www.academiaseul.com/audio/kr/ed94bcec9e90.mp3) [🔊 빵](https://www.academiaseul.com/audio/kr/ebb9b5.mp3) [🔊 우유](https://www.academiaseul.com/audio/kr/ec9ab0ec9ca0.mp3) [🔊 고기](https://www.academiaseul.com/audio/kr/eab3a0eab8b0.mp3) |
+| 7 | 시작 · 끝 · 박수 · 사랑해요 · 손하트 · 우리 반 발표회 · 축하해요 | **A** (núcleo S8) | Roles del show (cuaderno S7 §9.5): se reparten y se ensayan en casa con el 🔊; se piden en la S8, después del ensayo general | [🔊 시작](https://www.academiaseul.com/audio/kr/ec8b9cec9e91.mp3) [🔊 끝](https://www.academiaseul.com/audio/kr/eb819d.mp3) [🔊 박수](https://www.academiaseul.com/audio/kr/ebb095ec8898.mp3) [🔊 사랑해요](https://www.academiaseul.com/audio/kr/ec82aceb9e91ed95b4ec9a94.mp3) [🔊 손하트](https://www.academiaseul.com/audio/kr/ec8690ed9598ed8ab8.mp3) [🔊 우리 반 발표회](https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20ebb09820ebb09ced919ced9a8c.mp3) [🔊 축하해요](https://www.academiaseul.com/audio/kr/ecb695ed9598ed95b4ec9a94.mp3) |
+| 8 | 다음에 또 만나요 · 8주 동안 정말 잘했어요 · 방학 잘 보내요 · 발표회 상장 · 가족 여러분 | R (despedida y ceremonia) | Cuaderno S8 §5 y §7; guía S8 | [🔊 다음에 또 만나요](https://www.academiaseul.com/audio/kr/eb8ba4ec9d8cec979020eb989020eba78ceb8298ec9a94.mp3) |
+| 8 | 숫자 하나 말해 주세요 · 읽어 보세요 · 가리켜 주세요 · 같이 해요 · 틀려도 괜찮아요 | R (aula de la sala ⭐, con gesto) | Cuaderno S8 §7.2 | — |
+| 8 | 하나, 둘, 셋… 김치! (cultura de la foto) | R | Cuaderno S8 §8 | [🔊 김치](https://www.academiaseul.com/audio/kr/eab980ecb998.mp3) |
 
 ---
 
@@ -708,6 +745,10 @@ Sin romanización (sección D). **Tipo:** **N** núcleo publicado (se dice; entr
 | 마이크 꺼 주세요. · 켜 주세요. | Dedo en los labios · mano que abre | Apaguen el micrófono · enciéndanlo. |
 | 하나, 둘, 셋! | Tres palmas | ¡Cambiamos! (señal fija) |
 | ○○ 차례예요! | Mano abierta hacia el niño | ¡Es el turno de ○○! (con el nombre: "네 차례" se confundiría con 네 = sí) |
+| 잘 보세요. · 읽어 보세요. · 그려 보세요. · 써 보세요. · 몸으로 해 보세요. · 다시 한번! | Dedo a los ojos · dedo que recorre la línea · mano que dibuja · mano que escribe · brazos que forman una letra · dedo en círculo | Miren bien · Lean · Dibujen · Escriban · ¡Con el cuerpo! · ¡Una vez más! (desde la S2; agregado en el control final: lo usan las guías y los cuadernos) |
+| 손가락으로 보여 주세요. · 같이 세어 봐요. · 틀려도 괜찮아요. · 괜찮아요! | Dedos a la cámara · contar en el aire · pulgar arriba | Muéstrenlo con los dedos · Contemos juntos · Equivocarse está bien · ¡No pasa nada! (S3–S8) |
+| 일어나세요! · 앉으세요! | Palmas hacia arriba · palmas hacia abajo | ¡Arriba! · ¡A sentarse! (S7, canto de la mesa) |
+| 숫자 하나 말해 주세요. · 가리켜 주세요. · 같이 해요! | Dedo índice · dedo que señala · manos juntas | Di un número · Señálalo · ¡Hagámoslo juntos! (S8, sala ⭐) |
 
 ### D.2 Romanización
 
@@ -961,7 +1002,7 @@ Notas para Jay: 이분은… es el agregado Reto de la S5. Si un niño de Reto p
 | `/generador-nombre` (`app/generador-nombre/page.tsx`) | Transliteración español → 한글 | Tarjetas de nombre (D.3) y extra de la S2 | **Usar**; Jay valida cada nombre |
 | `/taller` (YouTube `zmbuLPcgfpw`, desde el segundo 2414) | Clase grabada de Hangul para adultos | Para las familias que quieran entender la S1 | **Opcional** (Fase 1 §14.2: "para las familias en la semana 0") |
 | Blog: `/blog/hangul-el-alfabeto-mas-cientifico` · `/blog/dangun-por-que-corea-nacio-de-una-osa` | Artículos en español | Cuentos de la S2 y la S4 (para las familias y Reto) | **Enlazar** en la nota |
-| `public/audio/kr/` (1.124 clips) + `Curriculo/audio/Clips_Octubre_2026.md` | Audio SunHi | 🔊 del cuaderno y de C | **Usar**: 76 de 125 filas completas; faltan 65 (G.4) |
+| `public/audio/kr/` (1.382 clips al 27 sept) + `Curriculo/audio/Clips_Octubre_2026.md` | Audio SunHi | 🔊 del cuaderno y de C | **Usar**: las 125 filas completas y los 209 links distintos del diseño, las guías y los cuadernos, verificados (J.1). **En vivo, los 209 responden** (J.2, 27 sept en la noche) |
 | `A1_Nivel_1/Hoja_Practica_Hangul_A1.pdf` (fuente `A1_Nivel_1/fuente/Hoja_Practica_Hangul_A1.html`) | Hoja de trazo corregida (26 sept) + página "Tu nombre en 한글" | Trazo de vocales (S1) y consonantes y nombre (S2) | **Adaptar** para niños: letra más grande, colores del Lector, sin encabezado de Básico 1 |
 | `Curriculo/Fase2_Basico1/alumnos/S01_Material_Alumno.md` §3.5 | Tabla "Tu nombre en 한글" + 40 nombres frecuentes | Tarjetas de nombre (D.3) | **Reutilizar** (versión profe; al niño le llega su tarjeta hecha) |
 | `A1_Nivel_1/Academia_Seul_Hangul_A1_126.pptx` · `01_Hangul_Vocales/Hangul_Deck_Cap1-2.pptx` · `02_Hangul_Consonantes_Batchim/Hangul_Deck_Cap3-4.pptx` | Decks de Hangul de adultos (90 min) | Ilustraciones de letras | **Consultar** solo imágenes; traen romanización y ritmo de adultos |
@@ -982,25 +1023,27 @@ Jay no produce: revisa y aprueba (Fase 1 §14.4). Abby revisa el coreano de canc
 
 | Prioridad | Pieza | Dónde va | Plazo |
 |---|---|---|---|
-| **P0** | **Kit de la S1** (Fase 1, decisión 2): guía `profes/S01_Guia_Profesor.md` con el bloque 🇰🇷 · cuaderno `alumnos/S01_Material_Alumno.md` · láminas (bienvenida, reglas de Zoom y efecto espejo, "¿qué palabras coreanas conoces?", "¿alguien lo puede leer?" 안녕 / 한국, las 6 vocales con color y dibujo, el cuento del cielo, la tierra y la persona) · cartones de bingo de vocales (Explorador con dibujo · Reto con 아이/오이) · lámina de vocales para colorear | Repo + Drive | **Borrador vie 2 oct · final vie 9 oct** |
+| **P0** | **Kit de la S1** (Fase 1, decisión 2): guía `profes/S01_Guia_Profesores.md` con el bloque 🇰🇷 (✅ escrita, v1.3) · cuaderno `alumnos/S01_Material_Alumno.md` (✅ escrito) · **deck de la S1: L1–L27 + Extra A–C** (guion en la guía, C.17) · láminas (bienvenida, reglas de Zoom y efecto espejo, "¿qué palabras coreanas conoces?", "¿alguien lo puede leer?" 안녕 / 한국, las 6 vocales con color y dibujo, el cuento del cielo, la tierra y la persona) · cartones de bingo de vocales (**en octubre los dibuja cada niño en clase**, guía S1 ajuste 1: no hay que imprimirlos) · cartas de vocales (Extra A) · lámina de vocales para colorear con letras huecas y 6 caritas (S1-N11) | Repo + Drive | **Borrador vie 2 oct · final vie 9 oct** |
 | **P0** | **Canción del saludo y canto de despedida**: letra validada por Abby (⚑ D-2, D-4) + audio de Abby (20–30 s, solo su voz) | Drive + cuaderno | vie 9 oct |
 | **P0** | **Tablero de progreso** en 2 diseños (stickers · sellos) con los 10 logros de E.3 + **hoja de stickers** para colorear y recortar | `alumnos/N_Tablero.md` → PDF | vie 9 oct |
 | **P0** | **Planilla del curso**: asistencia en vivo / grabación + tarea (columnas separadas) · 3 indicadores × 8 semanas · 10 logros · show (en vivo / video) · lectura n/5 · comprensión n/5 · mapa del grupo (B0.2) | Drive | vie 9 oct |
 | **P0** | **Mensaje de privacidad a los apoderados** (D.4) y **reparto de la nota semanal** (B.15) aprobados por Jay | Grupo de apoderados (con la bienvenida del lun 12 oct) | lun 12 oct |
 | **P0** | **Zoom probado con dos dispositivos**: salas preasignadas, chat "solo en público", sala de espera, grabación, efecto espejo (⚑ N-3, N-4, N-5) | Jay | vie 9 oct |
-| **P0** | **Clips de la S1 y la S2** (10 de los 65, G.4) generados y **publicados** (push a `main`) | `public/audio/kr` | lun 12 oct |
+| ✅ | **Clips de la S1 y la S2** (G.4): generados y en `main` (commit `6c2e7943`). y en vivo (J.2) | `public/audio/kr` | probar 3 links la semana del lun 12 oct |
+| **P0** | **Tarjeta de sala en español** (🌱 y ⭐), una por semana: Abby la comparte en su sala y Jay en la suya (D.1; en cada guía es una lámina de C.17 y la sección 7 del cuaderno) | Deck de cada semana | con cada deck (N−2) |
+| **P0** | **Pista instrumental libre de derechos** para la "música bajita" (señal fija, B.1; ⚑ S1-N7) | Drive | vie 9 oct |
 | **P0** | Plantilla de las **tarjetas de nombre** (D.3) | Drive | vie 9 oct (las tarjetas, jue 22 oct) |
-| P1 | **S2:** guía y cuaderno (tarjetas de letras para recortar, hoja del nombre decorable), láminas (10 consonantes con dibujo, la fábrica, el cuento de Sejong), **tarjetas de nombre** con la frase completa | Repo + Drive | vie 16 oct · tarjetas jue 22 oct |
-| P1 | **S3:** cartones de bingo de 9 sílabas (dos versiones), tarjetas de la carrera del 받침, láminas de "actúa la palabra" y del 첫눈 | idem | vie 23 oct |
-| P1 | **S4:** 12 cartas de memorice (dibujos + 한글; Reto solo palabras), láminas de los 10 animales (dibujos propios), cuento del oso y el tigre (4 láminas) | idem | vie 30 oct |
-| P1 | **S5:** árbol de familia vacío (pizarra) y plantilla del árbol en el cuaderno, canto de la familia (audio de Abby), lámina de 언니/오빠/누나/형 | idem | vie 6 nov |
-| P1 | **S6:** tarjeta de edades (8 a 15), tarjeta "para curiosos", cartas de números 1–15, canto de los números (audio de Abby) | idem | vie 13 nov |
-| P1 | **S7:** fotos de comidas (licencia libre), consigna del show (F.1), guion en dibujos (Explorador) y en 한글 (Reto), lista de roles (F.5), invitación (F.6) | idem · `alumnos/N_Cartel_Show.md` · `profes/N_Show_Profe.md` | vie 20 nov |
-| P1 | **S8:** 15 tarjetas numeradas con las palabras de la lectura al azar, hoja de dibujos para las 5 preguntas, tarjetas 시작 / 끝, diploma del show, orden del show | idem | vie 27 nov |
+| P1 | **S2:** guía y cuaderno (✅ escritos: 21 tarjetas de letras para recortar, hoja del nombre decorable), **deck L1–L27 + láminas de sala S1–S4 + Extra A–B**, **tarjetas de nombre** con la frase completa (van por privado, S2-13) · billete y estatua de Sejong con licencia libre o dibujo (⚑ N-7) | Repo + Drive | vie 16 oct · tarjetas jue 22 oct |
+| P1 | **S3:** **deck L1–L27 + Extra A–B** (fábrica, 받침, "actúa la palabra" con y sin dibujo, ¿강 o 간?, 첫눈) · bancos de bingo 🌱/⭐ (el cartón lo arma cada niño, S3-9) · tarjetas de la carrera del 받침 · íconos de mochila y bingo **sin rojo** (S3-14) | idem | vie 23 oct |
+| P1 | **S4:** **deck L1–L33 + Extra A–C** · 12 cartas de memorice (🌱 dibujo ↔ palabra; ⭐ palabra ↔ frase) · láminas de los 10 animales (dibujos propios) · cuento de la osa y el tigre (L19–L22) · tigre propio en lugar de 호돌이/수호랑/반다비 (⚑ N-6) | idem | vie 30 oct |
+| P1 | **S5:** **deck L1–L19 + Extra A–B** · árbol de familia vacío (pizarra) · **la familia Tigre** (9 personajes con nombre en 한글 y edad: se reutiliza en la S6 y la S7) · lámina de 언니/오빠/누나/형 y del "ascensor" · canto de la familia (audio de Abby) | idem | vie 6 nov |
+| P1 | **S6:** **deck L1–L26 + Extra A–B** · tarjeta de edades (8 a 15) y "para curiosos" · cartas de números 1–15 · tortitas con velas (L14 y L19 A–H) · álbum de la familia Tigre y mesa del 돌잡이 (L13a–d) · láminas de sala con los nombres + 는/은 validados por Jay (S6-9) · canto de los números (audio de Abby) | idem | vie 13 nov |
+| P1 | **S7:** **deck L1–L22 + Extra A–B** · fotos o dibujos de comidas (licencia libre, sin marcas: N-S7-3) · consigna del show (F.1) · guion en dibujos (🌱) y en 한글 (⭐) · lista de roles (F.5) · invitación (F.6) · **grabación de Abby con los modelos de Sofía y Tomás** (F.4; la anuncia el cuaderno S7 §9.4) | idem · `alumnos/N_Cartel_Show.md` · `profes/N_Show_Profe.md` | vie 20 nov |
+| P1 | **S8:** **deck L1–L21 + Extra A–D** · **dos ruletas de 15 tarjetas numeradas** (🌱 L8 y ⭐ L9, claves en la guía S8 C.16) · hoja de dibujos para las 5 preguntas (L10 = cuaderno §6.4) · tarjetas 시작 / 끝 · **12 diplomas del show** (L17-1 a L17-12, con el nombre de pila) · orden del show imprimible · **cuaderno S8 en la carpeta el mar 1 dic y aviso a las familias el mié 2 dic** (se usa antes de la clase: hoja del show, tarjetas y ruleta; guía S8, S8-N12) | idem | vie 27 nov · cuaderno mar 1 dic |
 | P1 | **Plantilla del certificado** (con la regla que decida Jay) | Jay | antes del lun 30 nov |
 | P1 | Plantilla del **chequeo de mitad** (3 líneas, E.4) | `profes/N_Chequeo_Mitad.md` | vie 6 nov |
 | P1 | **Notas de voz de Abby** con la frase de la semana (B.15) | Grupo de apoderados | dentro de las 24 h de cada clase |
-| P1 | Los otros **55 clips** (G.4) | `public/audio/kr` + push | con la guía de su semana (N−2) |
+| ✅ | Los otros **55 clips** (G.4): generados y en `main`. En vivo desde el 27 sept en la noche (J.2). **Opcionales** que proponen las guías (no enlazados todavía): ver G.4 | `public/audio/kr` + push | — |
 | P2 [ENE] | Niños 2 (syllabus y materiales), canciones grabadas en estudio, audio del vocabulario con la voz de Abby | — | Anexo I |
 
 *No se producen:* los dibujos, carteles, audios y videos de los niños (son suyos y quedan en la carpeta privada del curso) · las fotos personales de Abby (las elige ella, ⚑ D-29).
@@ -1008,19 +1051,19 @@ Jay no produce: revisa y aprueba (Fase 1 §14.4). Abby revisa el coreano de canc
 ### G.3 Carpetas, nombres y estructura común
 
 - `Curriculo/Fase7_Ninos/00_Diseno_Ninos.md` · este documento (interno).
-- `Curriculo/Fase7_Ninos/profes/S0N_Guia_Profesor.md` · la guía de cada semana, **en español**, con el bloque **AB. 🇰🇷 Abby를 위한 요약** en coreano. Piezas transversales: `profes/N_<Pieza>.md` (p. ej., `N_Mapa_Grupo.md`, `N_Show_Profe.md`, `N_Chequeo_Mitad.md`, `N_Clips_Pendientes.md`).
+- `Curriculo/Fase7_Ninos/profes/S0N_Guia_Profesores.md` (plural: son dos profes; nombre unificado en el control final, J) · la guía de cada semana, **en español**, con el bloque **AB. 🇰🇷 Abby를 위한 요약** en coreano. Piezas transversales: `profes/N_<Pieza>.md` (p. ej., `N_Mapa_Grupo.md`, `N_Show_Profe.md`, `N_Chequeo_Mitad.md`, `N_Clips_Pendientes.md`).
 - `Curriculo/Fase7_Ninos/alumnos/S0N_Material_Alumno.md` · el **Cuaderno de actividades** de cada semana, para el niño, con el recuadro "Para la familia". **Sin respuestas, claves, tiempos ni notas de los profes.** Piezas transversales: `alumnos/N_<Pieza>.md` (p. ej., `N_Tablero.md`, `N_Cartel_Show.md`, `N_Canciones.md`).
 - **Estructura de las guías (la de Básico 2, adaptada):** *0. En una mirada · A. Ficha de la semana (los 17 campos del brief §9) · B. Plan de clase minuto a minuto (18:00–19:00 Chile = 06:00–07:00 Corea; columnas: sala principal · Jay · Abby · sala Explorador · sala Reto) · **AB. 🇰🇷 Abby를 위한 요약** (formato de B.13) · C. Guía de los profes (C.1 Objetivo · C.2 Checklist, con privacidad y Zoom · C.3 Secuencia exacta: lo que dice Jay · C.4 Cada frase en 4 pasos R-C-G-L · C.5 Explicaciones para niños (8–11 y 12–15) · C.6 Pronunciación con gesto · C.7 Errores típicos y cómo corregirlos jugando · C.8 Mini-historia o diálogo modelo original · C.9 Preguntas para el grupo · C.10 Explorador y Reto · C.11 Juego de emergencia · C.12 Si vas atrasado · C.13 Plan B técnico · C.14 Evaluación de la semana (quiz-juego, 3 indicadores, logro) · C.15 Nota semanal a la familia, lista para pegar · C.16 Clave · C.17 Guion de láminas) · D. ⚑ Para revisar con nativo y pendientes · E. Anexo "Enero 2027"*.
 - **Estructura del cuaderno (las 10 secciones de Básico 2, en versión niños):** *1. Esta semana voy a poder decir… · 2. Mis palabras (한글 grande + dibujo + 🔊) · 3. ¿Cómo funciona? (la explicación con dibujos) · 4. ¿Cómo suena? (pistas con palabras del español + 🔊) · 5. Mini-historia (viñetas con la frase de la semana) · 6. ¡A jugar! (dibujar, recortar, unir, colorear, laberintos, sopas de sílabas) · 7. En clase (tarjeta de sala 🌱 Explorador / ⭐ Reto + letra del canto) · 8. Corea de cerca (la cultura con su frase ancla) · 9. Mi misión de la semana (10 minutos × 3 días con el destino exacto + la pieza del cartel + el audio) · 10. ¡Ya puedo decir! (autoevaluación con caritas o sellos) · **Para la familia** (qué aprendimos · cómo practicar 10 minutos en casa con el Lector y Dubu · frase de la semana con 🔊 y romanización gris · qué enviar y por dónde).*
 - **Dos versiones en un solo cuaderno:** las actividades marcadas **🌱 Explorador** y **⭐ Reto** conviven en la misma página; el niño hace la suya y puede probar la otra.
-- **Audio en los cuadernos:** 🔊 fila por fila en la sección 2 (solo clips existentes; los pendientes se enlazan cuando se publiquen) y las 3 frases de la sección 10.
+- **Audio en los cuadernos:** 🔊 fila por fila en la sección 2 (solo clips existentes en `public/audio/kr`: en octubre, todos los de la lista C) y las 3 frases de la sección 10.
 - **Drive:** la convención del kit de Abby para grabaciones y PDFs (`Ninos_S01_2026-10-20`, con la fecha de Corea).
 
-### G.4 Clips de audio pendientes (65)
+### G.4 Clips de audio (los 65 que faltaban: ✅ generados, en `main` y en vivo)
 
-Se generan con el mismo pipeline de la Audioteca (voz ko-KR-SunHiNeural, −8 %, MP3; nombre = hex del UTF-8 del texto, sin el punto ni el "!" final y con el "?" incluido: `Curriculo/audio/Clips_Octubre_2026.md`) y **se publican con un push a `main`**. Hasta entonces, los 🔊 de esas filas no se enlazan en los cuadernos. Si un ⚑ cambia una frase, se genera el clip nuevo.
+Se generaron con el mismo pipeline de la Audioteca (voz ko-KR-SunHiNeural, −8 %, MP3; nombre = hex del UTF-8 del texto, sin el punto ni el "!" final y con el "?" incluido: `Curriculo/audio/Clips_Octubre_2026.md`) y están en `main` desde el commit `6c2e7943` (dom 27 sept). **El control final (J.1) verificó los 65 archivo por archivo** y los enlazó en la lista C, B.14 y B.15. **En vivo:** el 27 sept en la tarde, 120 de los 209 clips que enlazan el diseño, las guías y los cuadernos daban 404 en `www.academiaseul.com`; tras el deploy de esa noche (commit `5d607d8a`), **los 209 responden** (J.2). Si un ⚑ cambia una frase, se genera el clip nuevo.
 
-| Semana | Clips que faltan | N.º |
+| Semana | Clips generados (antes "pendientes") | N.º |
 |---|---|---|
 | S1 | 다시 · 친구들 · 다음 주에 만나요 | 3 |
 | S2 | 다리 · 나비 · 이름이 뭐예요? · 저는 소피아예요 · 저는 다니엘이에요 · 가위바위보 · 세종대왕 | 7 |
@@ -1030,6 +1073,8 @@ Se generan con el mismo pipeline de la Audioteca (voz ko-KR-SunHiNeural, −8 %,
 | S6 | 저는 열 살이에요 · 저는 열세 살이에요 · 여덟 살 · 아홉 살 · 열 살 · 열한 살 · 열두 살 · 열세 살 · 열네 살 · 열다섯 살 · 마테오는 열 살이에요 · 돌 · 돌잡이 · 가라사대 | 14 |
 | S7 | 김밥 · 주스 · 맛있어요 · 매워요 · 저는 김밥 좋아해요 · 뭐 좋아해요? · 네, 좋아해요 · 김치 안 좋아해요 | 8 |
 | S8 | 박수 · 시작 · 끝 · 사랑해요 · 손하트 · 우리 반 발표회 | 6 |
+
+**Opcionales que proponen las guías** (no hacen falta para octubre; si se generan, se enlazan en el cuaderno de su semana): S4 · 가방이에요 · 강아지예요 · 고양이예요 · 돼지예요 · 이거 곰이에요 (S4-5) — S6 · 한 살 · 두 살 · 세 살 · 네 살 · 스무 살 · 비밀이에요 · 같이 세어 봐요 · 초가 몇 개예요? · 우리 동생은 일곱 살이에요 · 마이크 · 실 (S6-12) — S7 · 김치 좋아해요? · 떡볶이 좋아해요? · 저는 떡볶이 좋아해요 · 저는 호랑이 좋아해요 · 떡볶이예요 · 아홉 살이에요 · 열세 살이에요 · 저는 토마스예요 (D-S7-10) — S8 · 우리 반 발표회, 시작 · 방학 잘 보내요 · 8주 동안 정말 잘했어요 · 발표회 상장 (S8-N6) — y los de aula sin clip de C.2 (강아지 이름이 뭐예요? · 이 사람은 누구예요? · 오늘도 잘했어요).
 
 ---
 
@@ -1088,7 +1133,7 @@ Todo esto cambiaría lo publicado (ficha, PDFs, Guía para familias, términos o
 | 8 | Tarea presentada como misión de 10 minutos × 3 días + pieza + audio (lo demás, "extra") | Sí | Con la nota de la S1 |
 | 9 | Contrarreloj solo como extra de Reto; en la S6, el explorador de Aprender 7 para Explorador | Sí | Antes del lun 23 nov |
 | 10 | Inscritos fuera del rango (menores de 8) y conversación previa con familias de raíces coreanas | Fuera del rango: conversarlo con la familia antes de confirmar; raíces: 5 minutos por WhatsApp | lun 12 oct |
-| 11 | Generar y publicar los 65 clips (G.4) | Sí: los 10 de S1–S2 antes del lun 12 oct; el resto con su semana | lun 12 oct y N−2 |
+| 11 | ~~Generar y publicar los 65 clips (G.4)~~ ✅ generados y en `main` (27 sept) · ~~que el sitio en vivo los sirva~~ ✅ resuelto el 27 sept en la noche (deploy de `5d607d8a`: los 209 🔊 del curso, `/lector-coreano` y `/dubu` responden; J.2) | Probar 3 links la semana de la S1 (🔊 안녕하세요, 🔊 다시, `/lector-coreano`) | Semana del lun 12 oct |
 | 12 | Juegos asociados a *El juego del calamar* (무궁화 꽃이 피었습니다) fuera del curso | Fuera en octubre (Fase 1 §10.4) | Cuando puedas |
 | 13 | Cómo quiere Abby que los niños la llamen y escriban su nombre (Abby 선생님 / 미영 선생님) | Que lo decida Abby; la tarjeta de ejemplo de la S2 usa 제이 y el nombre que ella elija | vie 9 oct |
 
@@ -1106,9 +1151,81 @@ Todo esto cambiaría lo publicado (ficha, PDFs, Guía para familias, términos o
 
 ---
 
+## J. Control final de continuidad (dom 27 sept · los 17 archivos del curso · dos pasadas)
+
+**Dos pasadas.** La primera (mediodía) dejó J.1 a J.5. En la tarde, las revisiones semanales tocaron las 8 guías y los 8 cuadernos (versiones 1.3–1.5); la **segunda pasada** (noche) volvió a correr todas las comprobaciones sobre los archivos nuevos y agrega J.6. Donde un resultado cambió, J.1 muestra el de la segunda pasada.
+
+**Qué se leyó:** este diseño, las 8 guías (`profes/S01_Guia_Profesores.md` a `S08`) y los 8 cuadernos (`alumnos/S01_Material_Alumno.md` a `S08`), más los dos README. Las comprobaciones mecánicas (fechas, audio, vocabulario, rojo, fugas de claves y de romanización) se hicieron con scripts sobre los 17 archivos; la continuidad pedagógica, leyendo cada cuaderno completo y, en cada guía, la ficha (A), el plan (B), el bloque AB, la evaluación (C.14), la clave (C.16), las láminas (C.17) y los pendientes (D).
+
+### J.1 Resultado por criterio
+
+| Criterio | Cómo se comprobó | Resultado |
+|---|---|---|
+| **Fechas** | Script: cada "día + fecha" en español y cada "월/일(요일)" en coreano de los 17 archivos, contra el calendario 2026 (segunda pasada: 524 fechas) | ✅ **0 errores.** Las 8 clases: lun 19 oct · lun 26 oct · lun 2 nov · lun 9 nov · lun 16 nov · lun 23 nov · lun 30 nov · lun 7 dic, 18:00–19:00 (Chile) = mar 20 oct · 27 oct · 3 nov · 10 nov · 17 nov · 24 nov · 1 dic · 8 dic, 06:00–07:00 (Corea), iguales en encabezados, bloques AB, notas a la familia y cuadernos. Hitos (vie N−2, mié 21 oct, dom 15 nov, mar 1 y mié 2 dic, vie 4 dic, mié 9 dic) con su día correcto |
+| **🔊 bien formados y existentes** | Script (segunda pasada): **851 enlaces (209 URL distintas)** en cualquier forma (markdown, texto de la nota y URL suelta). Prefijo exacto `https://www.academiaseul.com/audio/kr/`, hex en minúsculas y par, UTF-8 válido, archivo presente en `public/audio/kr` y en `origin/main`; y consulta en vivo de las 209 | ✅ **0 enlaces rotos en el repo y 209 de 209 en vivo (200)** (J.2). Las filas donde el clip "no coincide" con la palabra escrita son ejercicios de oído a propósito (¿es la misma? · ¿qué hay abajo? · ¿1 o 2 rayitas? · juegos de parejas), con su clave en la guía. Los 🔊 sin link son encabezados de columna, instrucciones ("toca el 🔊"), claves de la guía o están marcados "(la escuchas en clase)" |
+| **Formato y voz de las Fases 2–4** | Estructura de secciones y voz de los clips | ✅ Guías: 0 · A (17 campos) · B · **AB 🇰🇷** · C.1–C.17 · D · E en las 8 (S4 y S7 suman un A.1 de vocabulario con audio, como Básico 2). Cuadernos: secciones 1–10 + "Para la familia" en los 8. Todos los clips, voz ko-KR-SunHiNeural −8 % (la del Lector, Dubu y las Fases 2–4) · 🔧 **Rótulos de Dubu** (segunda pasada): los cuadernos S1 y S4–S8 y sus notas a la familia decían "Gwangjang 4-1" (el id del código), pero la pantalla dice «Gwangjang · 1/5»; la S2 y la S3 ya usaban el rótulo de pantalla → unificado en los 8 cuadernos, las 8 notas (C.15) y la misión dicha en voz alta (J.6) |
+| **Profe / alumno separados** | Búsqueda en los cuadernos de ⚑, DECISIÓN, [YA], claves, planilla, notas internas y romanización fuera del recuadro familiar | ✅ 0 fugas. La romanización aparece solo en "Para la familia", en letra chica o gris |
+| **Nunca rojo** | Búsqueda de colores y emojis rojos de texto o señal | 🔧 2 🚩 en el cuaderno S4 (6.4) y 1 en su clave → **🐯** (como ya se hizo en la S3). Quedan pictogramas de objetos que algunas plataformas dibujan rojos (🎒 🎯 🍎 🍓 🌶️ 🔥): son dibujos, no texto; producción los dibuja sin rojo (⚑ S3-14 y CF-3) |
+| **La lista maestra coincide con lo enseñado** | Script: cada 한글 de los 8 cuadernos contra la lista C por semana + lectura de las guías (su línea final "Coreano de esta guía") | 🔧 La tabla C (125 filas, recontadas: N 73 · N↺ 3 · L 2 · F 13 · P 3 · Y 8 · A 3 · T 1 · R 19) no tenía lo que guías y cuadernos usan como reconocimiento, curiosidad ⭐, lenguaje de aula o anticipo del show → **nueva C.2** (27 filas) y **D.1 ampliado** (lenguaje de aula). Ningún ítem de núcleo aparece como exigencia antes de su semana: lo que se adelanta está marcado (아이/오이 S1, 사람 S4, 사랑해요 S5, los roles del show S7) |
+| **Nada se exige antes de practicarse** | Quiz-juego, indicadores y logros de cada guía; show de la S8 | ✅ El quiz de cada clase es de la anterior (S2←S1 … S7←S6; la S1 no tiene; en la S8 lo reemplaza el ensayo). Los logros se ganan en clase **o** con el audio de la tarea. Las instrucciones nuevas que mira el indicador ① se presentan con gesto en la misma clase, antes de la sala (p. ej., 초가 몇 개예요? en la L14 de la S6). **Una salvedad aceptada:** el quiz de la S3 (en la S4) usa el par 곰/공 antes de enseñar 곰: solo se discrimina el 받침 con 1 o 2 dedos (⚑ S4-15). 🔧 Los roles del show usan 시작, 끝, 박수, 사랑해요, 손하트, 우리 반 발표회 y 축하해요 (núcleo S8) desde la S7: ya estaba bien diseñado (se reparten en la sala y se ensayan en casa con el 🔊), pero no figuraba en C ni en B.10 → marcado como **A** |
+| **La evaluación final solo exige lo trabajado** | Guía S8 (C.14, C.16), cuaderno S8 (§6.4–6.6), F.1–F.7 | ✅ Ruleta 🌱 (15) y ⭐ (15): todas palabras de C, S1–S7. Hoja del show: 12 dibujos de la S4 (animales), S5 (familia) y S7 (comidas) + números de la S6 con los dedos. Preguntas ⭐: frases de la S4 a la S7 (incluido 이분은 우리 할머니예요, Y de la S5). Guion = F.2 (S1, S2, S6, S5, S4, S7). Lectura y comprensión en la sala, antes de que entren las familias (DECISIÓN DE JAY 2) |
+| **Cada tarea prepara la siguiente** | Tarea (A.13 y cuaderno §9) contra el arranque de la clase siguiente (B, bloques 1–2) | ✅ Cadena completa (tabla J.3) |
+| **La biblioteca (G) lista lo que las guías piden producir** | Láminas de C.17, pendientes de D y materiales de C.2 de cada guía, contra G.2 | 🔧 A G.2 le faltaban los **decks** de cada semana (L1–L21/L33 + Extra), la **tarjeta de sala** semanal, la **pista instrumental**, la **familia Tigre** (S5–S7), las tortitas y el 돌잡이 (S6), la **grabación de Abby con los modelos del show** (S7), **las dos ruletas** y los **12 diplomas** (S8) → agregados. Los cartones de bingo de la S1 y la S3 los arma cada niño (ya no se imprimen). Los 65 clips pasan a ✅ · 🔧 Segunda pasada: la **entrega anticipada del cuaderno S8** (mar 1 dic, aviso mié 2 dic; guía S8, S8-N12) → agregada a G.2 |
+
+### J.2 ✅ El sitio en vivo (resuelto el 27 sept en la noche)
+
+- **Primera pasada (27 sept, tarde):** sobre las 209 URL de audio que enlaza el curso, **89 respondían 200 y 120 daban 404** en `www.academiaseul.com`, y **`/lector-coreano` daba 404** (`Server: Vercel`); los archivos sí estaban en `public/audio/kr` y en `origin/main` (commit `6c2e7943`). Era bloqueante: sin esos clips, la misión de la S1 no funcionaba.
+- **Segunda pasada (27 sept, noche), después del commit `5d607d8a` (17:15, "Arregla los deploys de Vercel"):** **209 de 209 responden 200**; `/lector-coreano` y `/dubu` responden 200 y `/lector-hangul` redirige (308). El sitio sigue servido por Vercel (el `CLAUDE.md` del repo dice Netlify: conviene corregir esa línea, fuera de este curso).
+- **Qué queda (Jay, rutina):** la semana del lun 12 oct, probar 3 links desde un celular: 🔊 안녕하세요 (`ec9588eb8595ed9598ec84b8ec9a94.mp3`), 🔊 다시 (`eb8ba4ec8b9c.mp3`) y `/lector-coreano`. El plan B de la guía S1 (C.13: `/lector-hangul` + nota de voz de Abby) queda como respaldo si el sitio fallara.
+
+### J.3 La cadena de tareas (cada una prepara la clase siguiente)
+
+| Tarea de la semana… | …se usa en | Cómo |
+|---|---|---|
+| S1 · nombre o apodo confirmado por la familia (antes del mié 21 oct) · 2 hojas y lápices · audio "antes" | S2 | Tarjeta de nombre en 한글 con la frase completa · la hoja 2 es la pieza ① · el audio se compara con el show (B0.2) |
+| S2 · hoja del nombre decorada · 21 tarjetas de letras en un sobre | S3 | Se muestra en el pase de lista · con las tarjetas se arman 강, 방, 가방 y "¿강 o 간?" |
+| S3 · cazadores de 한글 · audio de las 11 palabras · peluche de animal | S4 | 2–3 hallazgos en la revisión relámpago (el ⭐ lee el suyo) · logro 5 · "Mis peluches" y "¡Tu turno!" |
+| S4 · pieza ② (animal) · audio 이거 ___예요 · **dibujo de la familia** | S5 | El animal en el pase de lista · el dibujo es la base del show & tell y de la pieza ③ |
+| S5 · pieza ③ (árbol) · audio 우리 ___예요 · contar las personas del dibujo · edad de alguien de ≤ 15 | S6 | Pase de lista con el árbol y los dedos (los números llegan de oído) · la edad averiguada, en la sala (ronda 3) |
+| S6 · audio de 10 objetos · entrevista · tarjeta de edad en el cartel · **dibujo de la comida favorita** | S7 | Pase de lista con la comida (base de la pieza ④) · sticker 8 con el audio |
+| S7 · pieza ④ · cartel completo con el guion atrás · 3 ensayos · rol · invitación | S8 | Ensayo general, lectura y preguntas en la sala · show · roles |
+| S8 · captura de Progreso · enseñar a la familia · Dubu Estación de Seúl | Vacaciones → Niños 2 (enero) | Portafolio y "antes y después" |
+
+### J.4 Correcciones hechas en este control (primera pasada)
+
+1. **Lista C:** los 49 "pendiente" pasan a 🔊 (los 65 clips de G.4 existen); resumen recontado; notas de anticipo en 박수, 시작, 끝, 사랑해요, 축하해요 y 우리 반 발표회; **nueva C.2** con lo que guías y cuadernos usan fuera de la tabla.
+2. **B.14 y B.15:** las 24 frases clave y las 8 frases de la semana, con su 🔊 (antes, 15 y 4 "pendientes").
+3. **B.2, B.11, B.12, D.1:** alineados con lo que ya decían las guías: despedida de la S1 con 오늘 정말 잘했어요 (오늘도 desde la S2, S8 con 8주 동안 정말 잘했어요) · "¡Tu turno!" ⭐ de la S2 con un personaje (no "muñeco") · gestos "del ascensor" en el canto de la familia · lenguaje de aula completo.
+4. **B.10:** continuidad de los roles del show (S7 → S8) y del gesto ✊/🖐 (S3 → S4).
+5. **Ecosistema, G.1, G.2, G.4, decisión 11, ⚑ N-1:** estado real del audio (1.382 clips; 65 ✅ en `main`; deploy pendiente) y **G.2 completada** con lo que piden las guías.
+6. **Nombre de las guías:** `S0N_Guia_Profesores.md` en la regla 2 de la sección 0, G.2, G.3 y `profes/README.md`; los 8 ⚑ "Nombre del archivo" de las guías, marcados ✅ (en la S7 además se corrigió su identificador, que decía D-S5-13: ahora **D-S7-17**). La nota D-S7-10 de la S7 queda al día.
+7. **Cuaderno y guía S4:** 🚩 → 🐯 en "El camino del puño" (nunca rojo).
+
+### J.5 Lo que sigue abierto (no son errores de continuidad; al día con la segunda pasada)
+
+- **Decisiones de Jay** (tabla de arriba): 1 (certificado), 2 (show en la sala; el aviso sale con la nota del lun 23 nov), 3 (ceremonia y reposición), 4 (chequeo de mitad), 5 (privacidad), 6 (nota semanal), 13 (nombre de Abby), más las DECISIONES que cada guía anota en su sección D.
+- **Piezas transversales por producir** (G.2, G.3): `alumnos/N_Tablero.md`, `alumnos/N_Cartel_Show.md`, `alumnos/N_Canciones.md`, `profes/N_Show_Profe.md`, `profes/N_Mapa_Grupo.md`, `profes/N_Chequeo_Mitad.md`, la planilla del curso y los 8 decks.
+- **Lista de inscritos** (N-2, lun 12 oct): sin ella no se arman las salas, las tarjetas de nombre ni los 12 diplomas.
+- **Ya no está abierto:** el deploy del sitio (N-1, CF-4, decisión 11), resuelto el 27 sept en la noche (J.2).
+
+### J.6 Segunda pasada (dom 27 sept, noche): qué se revisó de nuevo y qué se corrigió
+
+**Qué cambió en la tarde** (revisiones semanales de las 8 semanas, versiones 1.3–1.5): la S2 renumeró su cuaderno (3.1–3.4 y 6.1–6.9), sumó el dato ⭐ del 훈민정음 y la costumbre de no escribir nombres en rojo (S2-25), y pasó sus rótulos de Dubu al formato de pantalla (S2-27); la S3 cambió "la primera nieve del año" por "del invierno" y ajustó el rap y el bingo; la S8 convirtió las tiras del guion en juego de repaso (el reverso del cartel ya se arma en la S7) y adelantó el cuaderno al mar 1 dic (S8-N12); las demás, ajustes de redacción, Zoom y bloque AB. Nada de eso rompió la cadena de tareas (J.3) ni adelantó contenido. Se volvió a comprobar con los mismos scripts (fechas, 🔊, vocabulario por semana contra C y C.2, fugas de claves, ⚑ y romanización en los cuadernos, rojo) y leyendo, en las 8 guías, el pase de lista, el quiz-juego, la revisión relámpago y la misión, contra la misión de la semana anterior en su cuaderno.
+
+**Correcciones de esta pasada:**
+1. **Sitio en vivo** (J.2): resuelto; actualizados el ecosistema (hechos fijos), B.14, G.1, G.2, G.4, la decisión 11, ⚑ N-1 y CF-4, la guía S1 (checklist C.2, plan B C.13 y ⚑ N-1) y la guía S7 (D-S7-10).
+2. **Rótulos de Dubu en todo lo que ve o escucha el niño o la familia:** cuadernos S1, S4, S5, S6, S7 y S8 (misión y recuadro "Para la familia"), notas a la familia (C.15) de las guías S1 y S4–S8, y la misión dicha en voz alta (S1 L25 y plan de recorte, S4 L32, S5 misión y "letras de regalo", S6 L7 y L25, S7 misión). Formato: «Gwangjang 1/5». Las notas internas de las guías y este diseño mantienen el id (4-1); la equivalencia está en los hechos fijos (Ecosistema) y en S2-27.
+3. **Lista C:** 첫눈 = "la primera nieve **del invierno**" (como el cuaderno y la guía S3). **C.2:** + 훈민정음 y 만 원 (S2, cultura ⭐, solo reconocimiento).
+4. **G.2:** + la entrega del cuaderno S8 el mar 1 dic, con aviso el mié 2 dic.
+5. **Índice de ⚑ (sección 3 de "Para revisión nativa"):** al día con los ⚑ nuevos de la tarde (S2-25 a S2-30, S4-17, S8-N12).
+
+**Resultado:** ✅ 0 errores de fecha · ✅ 0 🔊 rotos (repo y en vivo) · ✅ 0 fugas de material del profesor en los cuadernos · ✅ 0 textos rojos · ✅ ningún ítem exigido antes de su semana (salvedad aceptada: 곰/공 en el quiz de la S3, ⚑ S4-15) · ✅ cadena de tareas completa (J.3) · ✅ el show solo pide lo trabajado de la S1 a la S7.
+
+---
+
 ## ⚑ Para revisión nativa (Jay; segunda opinión de Abby para canciones, lenguaje de aula y usos actuales)
 
-Todos los ⚑ abiertos de este diseño. Los cuadernos de los niños no llevan ⚑: sus dudas van en la guía de la misma semana. **Plazo:** antes del N−2 de su semana (S1: vie 9 oct · S2: vie 16 oct · S3: vie 23 oct · S4: vie 30 oct · S5: vie 6 nov · S6: vie 13 nov · S7: vie 20 nov · S8: vie 27 nov). Si Jay cambia una frase, se cambia en la guía, en el cuaderno y en C (con su clip nuevo).
+Todos los ⚑ abiertos de este diseño (**1** y **2**), el índice de los ⚑ de las 8 guías (**3**) y los que suma el control final (**4**). Los cuadernos de los niños no llevan ⚑: sus dudas van en la guía de la misma semana. **Plazo:** antes del N−2 de su semana (S1: vie 9 oct · S2: vie 16 oct · S3: vie 23 oct · S4: vie 30 oct · S5: vie 6 nov · S6: vie 13 nov · S7: vie 20 nov · S8: vie 27 nov). Si Jay cambia una frase, se cambia en la guía, en el cuaderno y en C (con su clip nuevo).
 
 ### 1 · Coreano y cultura
 
@@ -1117,8 +1234,8 @@ Todos los ⚑ abiertos de este diseño. Los cuadernos de los niños no llevan �
 | D-1 | S1 | 안녕 entre compañeros | En un grupo de 8 a 15 años, ¿"안녕 entre amigos" sin más matiz, o se dice que al mayor (un chico de 15) el de 8 le diría 안녕하세요? | B.2 |
 | D-2 | todas | Canción del saludo | 안녕 친구 / 반가워 / 꾸벅 인사해요 / 짝짝짝, con la melodía de "Martinillo": ¿natural y cantable? | B.12 |
 | D-3 | S2 | 가위바위보 para los turnos | ¿Así deciden los turnos los niños coreanos? (Fase 1 §10.4) | B.3, C |
-| D-4 | todas | Despedida | 오늘도 잘했어요! — 감사합니다! 안녕히 계세요! — 안녕! 다음 주에 만나요!: ¿natural en Zoom, donde todos "se van"? | B.2, B.12 |
-| D-5 | todas | Lenguaje de aula de Abby | 따라 하세요 · 다시 · 잘 들어 보세요 · 보여 주세요 · 손 들어 주세요 · 마이크 꺼 주세요 · ○○ 차례예요 | D.1 |
+| D-4 | todas | Despedida | 오늘도 잘했어요! — 감사합니다! 안녕히 계세요! — 안녕! 다음 주에 만나요!: ¿natural en Zoom, donde todos "se van"? Variantes que ya usan las guías: **오늘 정말 잘했어요!** en la S1 (S1-1) y **8주 동안 정말 잘했어요! — 안녕! 다음에 또 만나요!** en la S8 (S8-1, S8-10) | B.2, B.12 |
+| D-5 | todas | Lenguaje de aula de Abby | 따라 하세요 · 다시 · 잘 들어 보세요 · 보여 주세요 · 손 들어 주세요 · 마이크 꺼 주세요 · ○○ 차례예요 · **y lo que el control final sumó a D.1 desde las guías** (CF-1) | D.1 |
 | D-6 | S2 | Nombres en 한글 | Cada tarjeta (con el generador y la tabla de Básico 1) · 제이 para Jay · cómo escribe Abby su nombre para los niños | D.3, B.3 |
 | D-7 | S2 | Cuento de Sejong | 1443 (creación) y 1446 (presentación) · 세종대왕이 한글을 만들었어요 · el billete de 10.000 wones | B.3, B.12 |
 | D-8 | S1 | Cielo, tierra y persona | 하늘, 땅, 사람 como cuento de las vocales (천지인) para niños de 8 | B.2, B.12 |
@@ -1140,15 +1257,14 @@ Todos los ⚑ abiertos de este diseño. Los cuadernos de los niños no llevan �
 | D-26 | S6 | Canto de los números | Con 몇 살이에요? — 저는 ___ 살이에요! al final | B.12 |
 | D-28 | S8 | 손하트 | "Se hizo famoso en el mundo gracias a Corea" (Fase 1 §10.5) | B.9 |
 | D-29 | S5–S7 | Lo personal de Abby | Foto o dibujo de su familia (S5), de su 돌 (S6), qué comió (S7), la frase de 언니/오빠 (우리 지수 언니예요!): todo opcional y lo decide ella | B.6–B.8, B.12 |
-| D-30 | S7 | 김밥 [김밥] / [김빱] | ¿Las dos pronunciaciones valen en la clase? | C, B.8 |
 
-Resueltos sin ⚑ (por eso faltan esos números): **D-10** 눈 = ojo y nieve (diccionario) · **D-21** los tigres salvajes en Corea no se mencionan · **D-27** 만 나이 oficial desde junio de 2023 (verificado en Básico 2).
+Resueltos sin ⚑ (por eso faltan esos números): **D-10** 눈 = ojo y nieve (diccionario) · **D-21** los tigres salvajes en Corea no se mencionan · **D-27** 만 나이 oficial desde junio de 2023 (verificado en Básico 2) · **D-30** 김밥 [김밥] y [김빱]: las dos son pronunciación estándar desde 2016 (resuelto en la revisión de la guía S8; la S7 ya acepta las dos).
 
 ### 2 · ⚑ que no son de coreano (probar, confirmar un dato o preparar)
 
 | # | ⚑ | Qué hay que hacer | Quién · plazo |
 |---|---|---|---|
-| N-1 | Publicar los clips | 65 clips nuevos (G.4) y push a `main`: sin eso, los 🔊 de esas filas no existen | Jay · S1–S2 lun 12 oct; resto N−2 |
+| N-1 | Clips en el sitio en vivo | ✅ **Resuelto.** Los 65 clips (G.4) están en `main` y, desde el deploy del 27 sept en la noche (`5d607d8a`), los 209 🔊 del diseño, las guías y los cuadernos, `/lector-coreano` y `/dubu` responden en `www.academiaseul.com` (J.2). Queda la prueba de rutina | Jay · probar 3 links la semana del lun 12 oct |
 | N-2 | Lista de inscritos | Edades, países, hermanos, raíces coreanas → salas y tarjetas de nombre | Jay · lun 12 oct |
 | N-3 | Grabación y salas | Confirmar qué graba Zoom cuando hay salas (la nube suele grabar solo la sala principal) | Jay · vie 9 oct |
 | N-4 | Efecto espejo | Probar "La vocal viva" y una hoja con 한글 con dos dispositivos | Jay y Abby · vie 9 oct |
@@ -1158,5 +1274,30 @@ Resueltos sin ⚑ (por eso faltan esos números): **D-10** 눈 = ojo y nieve (di
 | N-8 | Familias con raíces coreanas | Conversación de 5 minutos antes de la S1 | Jay · lun 12–18 oct |
 | N-9 | Legal | Ley 21.719 y menores; consentimiento para grabar (Fase 1 §14.3 P0) | Jay (asesoría) · antes del lun 19 oct |
 | N-10 | Kit de Abby | Avisarle las diferencias de la tabla anterior | Jay · con la guía de la S1 (vie 9 oct) |
+
+### 3 · Índice de los ⚑ de las guías semanales (el detalle, en la sección D de cada guía)
+
+Los ⚑ de coreano de cada guía los revisa Jay (Abby, canciones y lenguaje de aula) con el mismo plazo N−2. Los de logística y producción están en la misma tabla D de cada guía.
+
+| Guía | ⚑ de coreano y cultura (abiertos) | Logística, producción y decisiones (abiertos) |
+|---|---|---|
+| S1 | S1-1 a S1-11 (오늘 정말 잘했어요, preguntas de una palabra, pistas de boca, 탐험반/도전반, 빙고·자유 칸, 세배, sol que amanece, 꾸벅, 사랑해 → 사랑해요, [안녕히 게세요], respuesta de Abby a un audio) | S1-N1 a S1-N12 · N-1 ✅ (J.2) |
+| S2 | S2-2, S2-3 (con D-5), S2-4, S2-5, S2-18 (nombre de Abby en 한글), **S2-25** ("tu nombre, nunca en rojo": cómo decirlo a niños de 8) | S2-6 a S2-30 (menos los ✅; nuevos de la v1.4: S2-26 co-anfitriona y anotación, S2-27 rótulos de Dubu, S2-28 a S2-30) · N-7 |
+| S3 | S3-1 a S3-6 (첫눈 [천눈], nombres de las letras, nombres de juegos en AB, 컵받침, frases R de Abby, "persona sabia") | S3-8 a S3-14 |
+| S4 | S4-1, S4-2, S4-3, S4-4, S4-7, S4-14 (동요 con autor), S4-15 (곰/공 en el quiz) · **S4-17** (bloque AB v1.4: plan de emergencia con las salas abiertas) | S4-5, S4-6, S4-8 a S4-13, S4-16 · N-6 |
+| S5 | D-S5-1 a D-S5-4, D-S5-11, D-S5-17 | D-S5-5 a D-S5-18 (menos los ✅) |
+| S6 | S6-1 a S6-8, S6-10, S6-11 | S6-9, S6-12 a S6-18 |
+| S7 | D-S7-1 a D-S7-7, D-S7-13, D-S7-15 | D-S7-8 a D-S7-17 · N-S7-1 a N-S7-3 · DECISIONES 1–3 |
+| S8 | S8-1 a S8-13 | S8-N1 a S8-N12 (S8-N12: el cuaderno S8 llega el mar 1 dic, con aviso el mié 2 dic) · DECISIONES 1–3 · N-9 |
+
+### 4 · ⚑ que suma el control final (J)
+
+| # | ⚑ | Pregunta o tarea | Quién · plazo |
+|---|---|---|---|
+| CF-1 | Lenguaje de aula agregado a D.1 | 잘 보세요 · 읽어 보세요 · 그려 보세요 · 써 보세요 · 몸으로 해 보세요 · 다시 한번 · 손가락으로 보여 주세요 · 같이 세어 봐요 · 틀려도 괜찮아요 · 괜찮아요 · 일어나세요 / 앉으세요 · 숫자 하나 말해 주세요 · 가리켜 주세요 · 같이 해요: ¿natural en boca de Abby con niños de 8 a 15 por Zoom? (ya estaban en las guías; aquí solo se reúnen) | Abby · con la guía de la semana en que aparecen |
+| CF-2 | Anticipos del show en la S7 | 시작 · 끝 · 박수 · 사랑해요 · 손하트 · 우리 반 발표회 · 축하해요 se reparten como líneas de rol en la S7 y se ensayan en casa (C.2, B.10). ¿De acuerdo con adelantarlos una semana, o se reparten los roles en la S8 (con menos ensayo)? Recomendación: mantener la S7 | Jay · vie 20 nov |
+| CF-3 | Pictogramas que se ven rojos | 🎒 🎯 🍎 🍓 🌶️ 🔥 🎂 en guías y cuadernos: no son texto rojo, pero en láminas, PDF y docx producción los dibuja en azul, dorado o verde (como el 🚩 que pasó a 🐯) | Producción · con cada deck |
+| CF-4 | Deploy del sitio | ✅ Resuelto (= N-1 y J.2): 209 de 209 clips y `/lector-coreano` responden en vivo desde el 27 sept en la noche | — |
+| CF-5 | Datos culturales nuevos de la tarde (segunda pasada) | S2 ⭐ "el dato de verdad": el 훈민정음 de 1446 explica que las 5 consonantes básicas copian la boca, la lengua o la garganta y que cada trazo que se suma indica un sonido más fuerte (con D-7) · S2 🐯 "en Corea, muchas personas evitan escribir el nombre de alguien en rojo" (= S2-25) · S3 첫눈 = "la primera nieve del invierno" (con D-11). ¿Exactos y dichos como los diría un profe coreano a niños? | Jay (Abby, S2-25) · vie 16 oct (S2) y vie 23 oct (S3) |
 
 화이팅, chingu.

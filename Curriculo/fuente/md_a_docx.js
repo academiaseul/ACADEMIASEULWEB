@@ -11,20 +11,27 @@
 //   conversacional1       -> Curriculo/Fase4_Conversacional1/Guia_Profesora_Conversacional1_Octubre_2026.docx
 //                            Curriculo/Fase4_Conversacional1/Cuaderno_Alumno_Conversacional1_Octubre_2026.docx
 //      (guías en coreano para Abby: profes/S0N_Guia_Profesora.md, índice y pie en coreano, diseño en español como anexo)
+//   topik2                -> Curriculo/Fase6_TOPIK2/Guia_Profesor_TOPIK2_Octubre_2026.docx
+//                            Curriculo/Fase6_TOPIK2/Cuaderno_Alumno_TOPIK2_Octubre_2026.docx  (cuaderno de estrategia)
+//   ninos                 -> Curriculo/Fase7_Ninos/Guia_Profesores_Ninos_Octubre_2026.docx  (profes/S0N_Guia_Profesores.md)
+//                            Curriculo/Fase7_Ninos/Cuaderno_Actividades_Ninos_Octubre_2026.docx
+//      (cuaderno de los niños con letra más grande y grillas para escribir y dibujar: cuaderno.estilo)
 //
 // Markdown soportado: # a #### (títulos azul #4236F6 / navy #003478), párrafos (los saltos de línea
-// simples se respetan), **negrita**, *cursiva*, ***ambas***, ~~tachado~~, `código` (como texto normal),
-// [links](url), <br>, <sub>romanización</sub> (gris y pequeña), \escapes, listas con viñeta, numeradas
-// y de casillas (- [ ]) con anidación simple, tablas (cabecera navy con texto blanco, filas cebra,
+// simples se respetan), **negrita**, *cursiva*, ***ambas***, ~~tachado~~, <u>subrayado</u>, `código` (como
+// texto normal), [links](url), <br>, <sub>romanización</sub> (gris y pequeña), \escapes, listas con viñeta,
+// numeradas y de casillas (- [ ]) con anidación simple y líneas de continuación "perezosas" (con 1 espacio,
+// pegadas al ítem: las opciones " ① … ② …" de TOPIK II), tablas (cabecera navy con texto blanco, filas cebra,
 // bordes grises; una tabla con cabecera vacía se dibuja como tabla etiqueta | valor; un | dentro de `código`
-// no parte la celda), citas (>) como recuadro azul claro (también sangradas dentro de un ítem de lista),
-// bloques ``` como recuadro gris y separadores (---). El * de forma incorrecta pegado a una palabra
-// (먹았어요*, 안 운동해요*) queda literal: un * solo abre cursiva si es "left-flanking" (CommonMark).
+// no parte la celda; también sangradas dentro de un ítem de lista), citas (>) como recuadro azul claro
+// (también sangradas dentro de un ítem de lista), bloques ``` como recuadro gris y separadores (---).
+// El * de forma incorrecta pegado a una palabra (먹았어요*, 안 운동해요*) queda literal: un * solo abre
+// cursiva si es "left-flanking" (CommonMark).
 // Estilo: US Letter, Arial 10,5 pt (Malgun Gothic para el hangul), márgenes 0,9", encabezado con el
 // título del documento, pie con www.academiaseul.com y número de página, logo azul en la portada.
-// Nunca rojo.
+// Cada documento puede cambiar los tamaños con guia.estilo / cuaderno.estilo (ver ESTILO_BASE). Nunca rojo.
 //
-// Uso: cd <scratchpad> && node curriculo/md_a_docx.js [basico1|basico2|conversacional1|todos]
+// Uso: cd <scratchpad> && node curriculo/md_a_docx.js [basico1|basico2|conversacional1|topik2|ninos|todos]
 //   (sin argumento se usa la variable de entorno AS_CURSO y, si no está, basico1: el comportamiento de siempre).
 //   AS_OUT_DIR=<carpeta> escribe los .docx ahí en vez de en la carpeta del curso (útil para comparar versiones).
 // La copia del repo (Curriculo/fuente/md_a_docx.js) usa el docx del scratchpad (AS_SCRATCH) si no lo encuentra.
@@ -39,7 +46,7 @@ const {
   Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, ImageRun, Tab,
   WidthType, AlignmentType, BorderStyle, ShadingType, Footer, Header, PageNumber,
   TabStopType, VerticalAlign, HeadingLevel, LevelFormat, HeightRule, Bookmark,
-  InternalHyperlink, ExternalHyperlink, LineRuleType,
+  InternalHyperlink, ExternalHyperlink, LineRuleType, TableLayoutType,
 } = docx;
 
 const REPO = "C:\\Users\\Chingu\\Desktop\\ACADEMIASEULWEB";
@@ -56,7 +63,23 @@ const FONT_MONO = { ascii: "Consolas", hAnsi: "Consolas", cs: "Consolas", eastAs
 const PAGE_W = 12240, PAGE_H = 15840;       // US Letter
 const MARGIN = 1296;                        // 0,9"
 const CONTENT_W = PAGE_W - 2 * MARGIN;      // 9648
-const BODY = 21;                            // 10,5 pt
+const BODY = 21;                            // 10,5 pt (portadas e índice; el cuerpo usa EST.cuerpo)
+// Tamaños (medios puntos) del cuerpo de cada documento. Por defecto, los de siempre (Básico 1 y 2, Conversacional 1,
+// TOPIK II); un documento los cambia con guia.estilo / cuaderno.estilo (p. ej. el cuaderno de Niños, con letra más grande).
+const ESTILO_BASE = {
+  cuerpo: 21,                               // párrafos y listas (10,5 pt)
+  recuadro: 20,                             // texto dentro de citas (>)
+  codigo: 18,                               // bloques ```
+  tabla: [18, 17, 16, 15],                  // tablas de ≤4, ≤7, ≤10 y más columnas
+  titulos: { 1: 32, 2: 26, 3: 23, 4: 21 },  // # a ####
+  filaVacia: 460,                           // alto mínimo (twips) de una fila de tabla vacía, para escribir
+  filaParaEscribir: 0,                      // alto mínimo de una fila con alguna celda vacía (0 = sin mínimo)
+  grillas: false,                           // tabla sin cabecera de 1 o de 3+ columnas = grilla (sin columna etiqueta
+                                            // ni cebra; centrada si las celdas son cortas), no tabla etiqueta | valor;
+  cuadro: 2160,                             // con grillas, la de 1 columna es un cuadro para dibujar de este alto mínimo
+  tablasAnchas: false,                      // planillas de 8+ columnas que no caben: letra más chica y ancho fijo (renderTable)
+};
+let EST = ESTILO_BASE;
 const WEB = "www.academiaseul.com";
 const WA = "+56 9 4211 5562";
 const LOGO = fs.readFileSync(path.join(SCRATCH, "logo-azul.png"));
@@ -110,12 +133,12 @@ function otroAbreAntes(src, from) {
   return false;
 }
 
-// Devuelve segmentos { t, b, i, s, sub, href } o { br: true }.
+// Devuelve segmentos { t, b, i, s, sub, href } (con u: true si va subrayado) o { br: true }.
 function parseInline(src) {
   src = src.split(/(`[^`]*`)/).map((p, k) => (k % 2 ? p : curly(p))).join("");
   const out = [];
-  let b = false, i = false, s = false, sub = false, buf = "";
-  const flush = () => { if (buf) { out.push({ t: buf, b, i, s, sub }); buf = ""; } };
+  let b = false, i = false, s = false, sub = false, u = false, buf = "";
+  const flush = () => { if (buf) { const sg = { t: buf, b, i, s, sub }; if (u) sg.u = true; out.push(sg); buf = ""; } };
   let k = 0;
   const n = src.length;
   while (k < n) {
@@ -131,6 +154,9 @@ function parseInline(src) {
       if (m) { flush(); out.push({ br: true }); k += m[0].length; continue; }
       if (/^<sub>/i.test(rest)) { flush(); sub = true; k += 5; continue; }
       if (/^<\/sub>/i.test(rest)) { flush(); sub = false; k += 6; continue; }
+      // <u>…</u>: subrayado (TOPIK II: "밑줄 친 부분", la parte subrayada de la pregunta).
+      if (/^<u>/i.test(rest)) { flush(); u = true; k += 3; continue; }
+      if (/^<\/u>/i.test(rest)) { flush(); u = false; k += 4; continue; }
     }
     if (c === "~" && src[k + 1] === "~") {
       if (s || (src[k + 2] && src[k + 2] !== " " && src.indexOf("~~", k + 2) > 0)) { flush(); s = !s; k += 2; continue; }
@@ -156,12 +182,12 @@ function parseInline(src) {
     }
     if (c === "[") {
       const m = /^\[([^\]]+)\]\(([^)\s]+)\)/.exec(src.slice(k));
-      if (m) { flush(); out.push({ t: m[1], b, i, s, sub, href: m[2] }); k += m[0].length; continue; }
+      if (m) { flush(); const sg = { t: m[1], b, i, s, sub, href: m[2] }; if (u) sg.u = true; out.push(sg); k += m[0].length; continue; }
     }
     buf += c; k++;
   }
   flush();
-  out.state = { b, i, s, sub };
+  out.state = { b, i, s, sub, u };
   return out;
 }
 
@@ -169,7 +195,7 @@ const plain = (src) => parseInline(src).map((sg) => (sg.br ? " " : sg.t)).join("
 
 // Segmentos -> TextRun / ExternalHyperlink. base: { size, color, bold, italics, font }
 function toRuns(segs, base = {}) {
-  const size = base.size || BODY;
+  const size = base.size || EST.cuerpo;
   const font = base.font || FONT;
   const runs = [];
   for (const sg of segs) {
@@ -182,6 +208,7 @@ function toRuns(segs, base = {}) {
       italics: !!(base.italics || sg.i),
     };
     if (sg.s) o.strike = true;
+    if (sg.u) o.underline = {};
     if (sg.href) { o.underline = {}; runs.push(new ExternalHyperlink({ link: sg.href, children: [new TextRun(o)] })); }
     else runs.push(new TextRun(o));
   }
@@ -224,7 +251,9 @@ function splitRow(l) {
   return cells;
 }
 
-function parseBlocks(lines) {
+// opts.perezosas: acepta líneas de continuación "perezosas" en los ítems de lista (ver más abajo). Solo lo activan los
+// cursos con cfg.perezosas (TOPIK II y Niños): en Básico 1 y 2 y Conversacional 1 cambiaría ~12 párrafos ya revisados.
+function parseBlocks(lines, opts = {}) {
   const blocks = [];
   let i = 0;
   const n = lines.length;
@@ -240,6 +269,16 @@ function parseBlocks(lines) {
     return { block: { type: "code", lines: code.map(strip) }, next: j + 1 };
   }
 
+  // Tabla que empieza en lines[start] (cabecera + separador + filas); sirve también para una tabla sangrada dentro de un ítem.
+  function readTable(start) {
+    const header = splitRow(lines[start]);
+    const align = splitRow(lines[start + 1]).map((c) => (/^:-+:$/.test(c) ? "center" : /-:$/.test(c) ? "right" : "left"));
+    const rows = [];
+    let j = start + 2;
+    while (j < n && /^\s*\|/.test(lines[j])) { rows.push(splitRow(lines[j])); j++; }
+    return { block: { type: "table", header, align, rows }, next: j };
+  }
+
   while (i < n) {
     const l = lines[i];
     if (isBlank(l)) { i++; continue; }
@@ -247,19 +286,11 @@ function parseBlocks(lines) {
     let m = RE_HEAD.exec(l);
     if (m && indentOf(l) < 4) { blocks.push({ type: "h", level: m[1].length, text: m[2] }); i++; continue; }
     if (RE_HR.test(l)) { blocks.push({ type: "hr" }); i++; continue; }
-    if (isTableStart(l, lines[i + 1])) {
-      const header = splitRow(l);
-      const align = splitRow(lines[i + 1]).map((c) => (/^:-+:$/.test(c) ? "center" : /-:$/.test(c) ? "right" : "left"));
-      const rows = [];
-      let j = i + 2;
-      while (j < n && /^\s*\|/.test(lines[j])) { rows.push(splitRow(lines[j])); j++; }
-      blocks.push({ type: "table", header, align, rows });
-      i = j; continue;
-    }
+    if (isTableStart(l, lines[i + 1])) { const r = readTable(i); blocks.push(r.block); i = r.next; continue; }
     if (RE_QUOTE.test(l)) {
       const inner = [];
       while (i < n && RE_QUOTE.test(lines[i])) { inner.push(lines[i].replace(/^\s{0,3}> ?/, "")); i++; }
-      blocks.push({ type: "quote", blocks: parseBlocks(inner) });
+      blocks.push({ type: "quote", blocks: parseBlocks(inner, opts) });
       continue;
     }
     m = RE_LI.exec(l);
@@ -277,13 +308,20 @@ function parseBlocks(lines) {
           if (nx !== undefined && indentOf(nx) >= Math.max(2, ind + 2) && !RE_LI.test(nx) && !isBlank(nx)) { i++; continue; }
           break;
         }
-        if (indentOf(c) >= Math.max(2, ind + 2) && !RE_LI.test(c)) {
+        // Sangrada como el texto del ítem, o "perezosa" (CommonMark): con menos sangría pero pegada al ítem, sin línea
+        // en blanco entre medio, como las opciones " ① 있어서 ② 있으니까 …" bajo cada pregunta de TOPIK II.
+        const sangria = indentOf(c) >= Math.max(2, ind + 2);
+        const perezosa = !!opts.perezosas && !sangria && indentOf(c) >= 1 && !isBlank(lines[i - 1]);
+        if ((sangria || perezosa) && !RE_LI.test(c)) {
+          const minInd = sangria ? Math.max(2, ind + 2) : 1;
           if (RE_FENCE.test(c)) { const r = readFence(i); item.children.push(r.block); i = r.next; continue; }
+          // Tabla sangrada dentro del ítem ("  | Palabra | Acción |"): tabla con la sangría del ítem.
+          if (isTableStart(c, lines[i + 1])) { const r = readTable(i); item.children.push(r.block); i = r.next; continue; }
           // Cita sangrada dentro del ítem ("   > 수요일 밤 아홉 시에…"): recuadro azul con la sangría del ítem.
           if (/^\s*>/.test(c)) {
             const inner = [];
-            while (i < n && /^\s*>/.test(lines[i]) && indentOf(lines[i]) >= Math.max(2, ind + 2)) { inner.push(lines[i].replace(/^\s*> ?/, "")); i++; }
-            item.children.push({ type: "quote", blocks: parseBlocks(inner) });
+            while (i < n && /^\s*>/.test(lines[i]) && indentOf(lines[i]) >= minInd) { inner.push(lines[i].replace(/^\s*> ?/, "")); i++; }
+            item.children.push({ type: "quote", blocks: parseBlocks(inner, opts) });
             continue;
           }
           item.children.push({ type: "cont", text: c.trim() });
@@ -314,22 +352,25 @@ const NUMBERING = {
   }],
 };
 
+// Color y espacios de cada nivel; el tamaño sale de EST.titulos (headSize).
 const HEAD_STYLE = {
-  1: { size: 32, color: AZUL, before: 0, after: 140 },
-  2: { size: 26, color: AZUL, before: 280, after: 100 },
-  3: { size: 23, color: NAVY, before: 200, after: 80 },
-  4: { size: 21, color: NAVY, before: 160, after: 60 },
+  1: { color: AZUL, before: 0, after: 140 },
+  2: { color: AZUL, before: 280, after: 100 },
+  3: { color: NAVY, before: 200, after: 80 },
+  4: { color: NAVY, before: 160, after: 60 },
 };
+const headSize = (lv) => EST.titulos[lv];
 const HEADING_LEVEL = { 1: HeadingLevel.HEADING_1, 2: HeadingLevel.HEADING_2, 3: HeadingLevel.HEADING_3, 4: HeadingLevel.HEADING_4 };
 
 function heading(level, text, opts = {}) {
   const lv = Math.min(level, 4);
   const st = HEAD_STYLE[lv];
-  let children = inlineRuns(text, { size: st.size, color: st.color, bold: true, subColor: st.color, linkColor: st.color });
+  const size = headSize(lv);
+  let children = inlineRuns(text, { size, color: st.color, bold: true, subColor: st.color, linkColor: st.color });
   if (opts.bookmark) children = [new Bookmark({ id: opts.bookmark, children })];
   const p = {
     heading: HEADING_LEVEL[lv], children, keepNext: true, keepLines: true,
-    spacing: { before: opts.pageBreak ? 0 : st.before, after: st.after, ...ls(st.size) },
+    spacing: { before: opts.pageBreak ? 0 : st.before, after: st.after, ...ls(size) },
   };
   if (lv === 1) p.border = { bottom: { style: BorderStyle.SINGLE, size: 8, color: LINE, space: 4 } };
   if (opts.pageBreak) p.pageBreakBefore = true;
@@ -355,7 +396,7 @@ function boxTable(paras, width, { fill, borders, margins, indent }) {
 function codeBox(lines, width, indent = 0) {
   const mono = isDiagram(lines);
   const font = mono ? FONT_MONO : FONT;
-  const size = 18;
+  const size = EST.codigo;
   const paras = (lines.length ? lines : [""]).map((l) => new Paragraph({
     children: [new TextRun({ text: l.replace(/\t/g, "    "), font, size, color: INK })],
     spacing: { after: 0, ...ls(size) }, keepLines: true,
@@ -393,10 +434,11 @@ function units(s) {
   return u;
 }
 
-function autoWidths(allRows, W, size, headerRow) {
+// pad: márgenes de la celda + holgura (twips). Devuelve los anchos y, en w.sMin, la suma de los mínimos (la palabra más larga
+// de cada columna): si pasa de W, Word estira la tabla más allá del margen.
+function autoWidths(allRows, W, size, headerRow, pad = 200) {
   const ncol = allRows[0].length;
   const cw = 5 * size;               // ancho medio de un carácter en twips (≈ 0,5 em)
-  const pad = 200;
   const mins = [], maxs = [];
   for (let c = 0; c < ncol; c++) {
     let mn = 0, mx = 0;
@@ -419,32 +461,58 @@ function autoWidths(allRows, W, size, headerRow) {
   else w = mins.map((x) => x * W / sMin);
   w = w.map((x) => Math.max(200, Math.round(x)));
   w[w.length - 1] += W - w.reduce((a, b) => a + b, 0);
+  w.sMin = sMin;
   return w;
 }
 
-function renderTable(tb, W) {
+// indent (twips): tabla sangrada dentro de un ítem de lista; W es entonces el ancho que queda.
+function renderTable(tb, W, indent = 0) {
   const ncol = Math.max(tb.header.length, ...tb.rows.map((r) => r.length));
   const pad = (r) => { const x = r.slice(0, ncol); while (x.length < ncol) x.push(""); return x; };
   const header = pad(tb.header);
   const rows = tb.rows.map(pad);
   const headerEmpty = header.every((h) => !h.trim());
-  const size = ncol <= 4 ? 18 : ncol <= 7 ? 17 : ncol <= 10 ? 16 : 15;
+  // Con EST.grillas, una tabla sin cabecera de 1 o de 3+ columnas es una grilla (letras, cartón de bingo, cuadro para
+  // dibujar): sin columna etiqueta ni cebra. Con 2 columnas sigue siendo etiqueta | valor.
+  const grilla = headerEmpty && EST.grillas && ncol !== 2;
+  const kvTabla = headerEmpty && !grilla;
+  let size = EST.tabla[ncol <= 4 ? 0 : ncol <= 7 ? 1 : ncol <= 10 ? 2 : 3];
   const all = headerEmpty ? rows : [header, ...rows];
   if (!all.length) return null;
-  const widths = autoWidths(all, W, size, !headerEmpty);
-  const align = (c) => ({ center: AlignmentType.CENTER, right: AlignmentType.RIGHT }[tb.align[c]] || AlignmentType.LEFT);
+  let widths = autoWidths(all, W, size, !headerEmpty);
+  // Planilla de 8+ columnas que no cabe (EST.tablasAnchas): letra más chica (mínimo 6,5 pt), márgenes de celda angostos y
+  // ancho fijo, para que Word no la estire más allá del margen derecho (las palabras muy largas se parten dentro de la celda).
+  const apretada = EST.tablasAnchas && ncol >= 8 && widths.sMin > W;
+  if (apretada) {
+    size = Math.max(13, Math.floor(size * W / widths.sMin));
+    widths = autoWidths(all, W, size, !headerEmpty, 110);
+  }
+  const mCelda = apretada ? 40 : 90;
+  const centrar = grilla && all.every((r) => r.every((x) => plain(x).length <= 14));
+  const align = (c) => (centrar ? AlignmentType.CENTER : ({ center: AlignmentType.CENTER, right: AlignmentType.RIGHT }[tb.align[c]] || AlignmentType.LEFT));
 
   const cellParas = (text, c, base) => {
     const lines = splitBr(parseInline(text));
     return lines.map((segs, li) => new Paragraph({
       children: toRuns(segs, base), alignment: align(c),
-      spacing: { after: li === lines.length - 1 ? 0 : 30, ...ls(base.size || BODY) },
+      spacing: { after: li === lines.length - 1 ? 0 : 30, ...ls(base.size || EST.cuerpo) },
     }));
   };
   const mk = (children, c, extra = {}) => new TableCell(Object.assign({
     children, width: { size: widths[c], type: WidthType.DXA },
-    margins: { top: 45, bottom: 45, left: 90, right: 90 },
+    margins: { top: 45, bottom: 45, left: mCelda, right: mCelda },
   }, extra));
+
+  // Grilla de 1 columna = cuadro para dibujar o escribir ("| *(dibujo)* |", o varias filas vacías): una sola celda alta,
+  // sin rayas entre filas; cada fila del Markdown suma EST.filaVacia de alto, con un mínimo de EST.cuadro.
+  if (grilla && ncol === 1) {
+    const texto = rows.map((r) => r[0]).filter((x) => x.trim()).join("<br>");
+    const cell = mk(cellParas(texto, 0, { size }), 0, { verticalAlign: VerticalAlign.CENTER });
+    const t = { width: { size: W, type: WidthType.DXA }, columnWidths: [W], borders: allThin,
+      rows: [new TableRow({ cantSplit: true, height: { value: Math.max(EST.cuadro, rows.length * EST.filaVacia), rule: HeightRule.ATLEAST }, children: [cell] })] };
+    if (indent) t.indent = { size: indent, type: WidthType.DXA };
+    return new Table(t);
+  }
 
   const out = [];
   if (!headerEmpty) {
@@ -460,17 +528,21 @@ function renderTable(tb, W) {
     const empty = r.every((x) => !x.trim());
     const longRow = r.some((x) => plain(x).length > 90);
     const rowOpts = { cantSplit: len < 400, children: r.map((x, c) => {
-      const kv = headerEmpty && c === 0;
+      const kv = kvTabla && c === 0;
       const base = kv ? { size, bold: true, color: NAVY } : { size };
-      const fill = kv ? TINT : (ri % 2 === 1 ? ZEBRA : null);
+      const fill = kv ? TINT : (ri % 2 === 1 && !grilla ? ZEBRA : null);
       const extra = { verticalAlign: longRow ? VerticalAlign.TOP : VerticalAlign.CENTER };
       if (fill) extra.shading = { type: ShadingType.CLEAR, fill };
       return mk(cellParas(x, c, base), c, extra);
     }) };
-    if (empty) rowOpts.height = { value: 460, rule: HeightRule.ATLEAST };
+    if (empty) rowOpts.height = { value: EST.filaVacia, rule: HeightRule.ATLEAST };
+    else if (EST.filaParaEscribir && r.some((x) => !x.trim())) rowOpts.height = { value: EST.filaParaEscribir, rule: HeightRule.ATLEAST };
     out.push(new TableRow(rowOpts));
   });
-  return new Table({ width: { size: W, type: WidthType.DXA }, columnWidths: widths, borders: allThin, rows: out });
+  const t = { width: { size: W, type: WidthType.DXA }, columnWidths: widths, borders: allThin, rows: out };
+  if (indent) t.indent = { size: indent, type: WidthType.DXA };
+  if (apretada) t.layout = TableLayoutType.FIXED;
+  return new Table(t);
 }
 
 // Espacio chico después de una tabla o un recuadro, para que el texto siguiente no quede pegado.
@@ -482,7 +554,7 @@ function renderList(items, ctx) {
     const lv = it.indent === 0 ? 0 : it.indent <= 4 ? 1 : 2;
     const last = idx === items.length - 1;
     const after = last && !it.children.length ? 120 : 40;
-    const size = ctx.inBox ? 20 : BODY;
+    const size = ctx.inBox ? EST.recuadro : EST.cuerpo;
     let p;
     if (it.check !== undefined) {
       p = new Paragraph({
@@ -511,6 +583,10 @@ function renderList(items, ctx) {
       } else if (ch.type === "quote") {
         out.push(quoteBox(ch.blocks, ctx.width || CONTENT_W, Math.min(textLeft, 720)));
         out.push(gap(lastCh ? 100 : 40));
+      } else if (ch.type === "table") {
+        const ind = Math.min(textLeft, 720);
+        const t = renderTable(ch, (ctx.width || CONTENT_W) - ind, ind);
+        if (t) { out.push(t); out.push(gap(lastCh ? 120 : 40)); }
       }
     });
   });
@@ -530,7 +606,7 @@ function renderBlocks(blocks, ctx) {
         break;
       }
       case "p": {
-        const size = ctx.inBox ? 20 : BODY;
+        const size = ctx.inBox ? EST.recuadro : EST.cuerpo;
         const runs = [];
         bl.lines.forEach((ln, k) => { if (k) runs.push(new TextRun({ break: 1, font: FONT, size })); runs.push(...inlineRuns(ln, { size })); });
         const label = bl.lines.length === 1 && (/^\*\*[^*].*\*\*:?$/.test(bl.lines[0]) || /:$/.test(bl.lines[0])) && plain(bl.lines[0]).length < 160;
@@ -567,9 +643,9 @@ function renderBlocks(blocks, ctx) {
 }
 
 // ============================ ARCHIVOS, PORTADA E ÍNDICE ============================
-function loadMd(file) {
+function loadMd(file, opts) {
   const md = fs.readFileSync(file, "utf8").replace(/^\uFEFF/, "").replace(/\r\n?/g, "\n");
-  return parseBlocks(md.split("\n"));
+  return parseBlocks(md.split("\n"), opts);
 }
 
 // Un archivo = una parte del documento: su primer # abre página nueva y lleva un marcador para el índice.
@@ -643,10 +719,10 @@ function documento({ titulo, descripcion, children, pagina = PAGINA_ES }) {
     description: descripcion,
     numbering: NUMBERING,
     styles: {
-      default: { document: { run: { font: FONT, size: BODY, color: INK }, paragraph: { spacing: { after: 100, ...ls(BODY) } } } },
+      default: { document: { run: { font: FONT, size: EST.cuerpo, color: INK }, paragraph: { spacing: { after: 100, ...ls(EST.cuerpo) } } } },
       paragraphStyles: [1, 2, 3, 4].map((lv) => ({
         id: "Heading" + lv, name: "Heading " + lv, basedOn: "Normal", next: "Normal", quickFormat: true,
-        run: { font: FONT, size: HEAD_STYLE[lv].size, bold: true, color: HEAD_STYLE[lv].color },
+        run: { font: FONT, size: headSize(lv), bold: true, color: HEAD_STYLE[lv].color },
         paragraph: { spacing: { before: HEAD_STYLE[lv].before, after: HEAD_STYLE[lv].after }, keepNext: true, keepLines: true, outlineLevel: lv - 1 },
       })),
     },
@@ -682,6 +758,8 @@ const firstH1 = (blocks) => { const h = blocks.find((x) => x.type === "h" && x.l
 //   guia.rotuloDiseno() línea chica sobre el título del diseño cuando va como anexo (lista de TextRun)
 //   guia.indice / cuaderno.indice  textos del índice: titulo, nota, semana(n), quitarSemana, disenoNum, disenoTexto
 //   guia.pagina / cuaderno.pagina  (cur, tot) => partes del número de página del pie
+//   guia.estilo / cuaderno.estilo  tamaños del cuerpo que cambian respecto de ESTILO_BASE (letra, títulos, tablas, grillas)
+//   perezosas         acepta líneas de continuación "perezosas" en las listas (1 espacio, pegadas al ítem; ver parseBlocks)
 const CURSOS = {
   basico1: {
     carpeta: "Fase2_Basico1",
@@ -830,6 +908,114 @@ const CURSOS = {
       ]],
     },
   },
+
+  // Guías en español para Jay; el cuaderno de estrategia lleva <u>subrayados</u> (밑줄 친 부분) y opciones ① ② ③ ④ con 1 espacio.
+  topik2: {
+    carpeta: "Fase6_TOPIK2",
+    diseno: "00_Diseno_TOPIK2.md",
+    prefijo: /^TOPIK II \(B1\+\) · /,
+    perezosas: true,
+    guia: {
+      salida: "Guia_Profesor_TOPIK2_Octubre_2026.docx",
+      titulo: "TOPIK II (B1+) · Guía del profesor · Cohorte octubre 2026",
+      descripcion: "TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · diseño del curso y guías del profesor (Jay), semanas 1 a 8 · cohorte octubre 2026",
+      estilo: { tablasAnchas: true },   // planillas de 14 a 22 columnas (S1–S8) dentro del margen
+      portada: () => [[
+        centro([r("토픽 II 준비반 · Estrategia de examen", { bold: true, size: 30, color: AZUL })], 120, 80),
+        centro([r("TOPIK II (B1+)", { bold: true, size: 60 })], 0, 60),
+        centro([r("Guía del profesor", { bold: true, size: 44, color: AZUL })], 0, 160),
+        centro([r("Cohorte octubre 2026 · Profesor: Jay (김재희)", { size: 26, color: NAVY, bold: true })], 0, 80),
+        centro([r("Sección única: jueves 21:00–22:00, hora de Chile (viernes 09:00 en Corea) · 15 de octubre al 3 de diciembre · 8 semanas por Zoom · máximo 8 alumnos", { size: 21, color: GREY })], 0, 60),
+      ], [
+        [r("Material del profesor", { bold: true, size: 22, color: NAVY })],
+        [r("Diseño del curso + guías de clase de las semanas 1 a 8: plan minuto a minuto, estrategia explicada desde el español, claves del Banco Chingu, criterios de corrección de 쓰기 51–54, plantillas y notas.", { size: 20 })],
+        [r("Los exámenes oficiales se citan por edición, sección e ítems: no se copian. Fechas y sedes del examen real: confirmar en topik.go.kr.", { size: 20 })],
+        [r("No se comparte con los alumnos: su material va en el Cuaderno de estrategia.", { size: 20, bold: true, color: AZUL })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("Versión del 27 de septiembre de 2026 · compilada desde Curriculo/Fase6_TOPIK2 (00_Diseno_TOPIK2.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
+      ]],
+    },
+    cuaderno: {
+      salida: "Cuaderno_Alumno_TOPIK2_Octubre_2026.docx",
+      titulo: "TOPIK II (B1+) · Cuaderno de estrategia · Cohorte octubre 2026",
+      descripcion: "TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · cuaderno de estrategia del alumno, semanas 1 a 8 · cohorte octubre 2026",
+      estilo: { tablasAnchas: true },
+      portada: () => [[
+        centro([r("TOPIK II (B1+)", { bold: true, size: 60 })], 120, 60),
+        centro([r("Estrategia de examen · 토픽 II 준비반", { bold: true, size: 36, color: AZUL })], 0, 160),
+        centro([r("Cuaderno de estrategia", { bold: true, size: 44, color: NAVY })], 0, 160),
+        centro([r("Cohorte octubre 2026 · con Jay (김재희 선생님) · jueves 21:00, hora de Chile", { size: 22, color: GREY })], 0, 360),
+        centro([r("Nombre: ______________________________     Mi meta: ______급", { size: 22 })], 0, 60),
+      ], [
+        [r("8 semanas para entrar al TOPIK II con estrategia: conocer el examen por dentro, manejar el tiempo y escribir el 51, el 52, el 53 y el 54.", { bold: true, size: 22, color: NAVY })],
+        [r("Cada semana: lo que vas a poder decir y hacer, vocabulario, gramática y estrategia, cómo suena, texto modelo, ejercicios originales con el formato del examen, tarjetas de clase, nota cultural y tarea.", { size: 20 })],
+        [r("Los exámenes oficiales no vienen aquí: cada uno los descarga de topik.go.kr (edición y sección en tu cuaderno). Sin romanización.", { size: 20 })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("화이팅!", { bold: true, size: 26, color: AZUL })], 60, 0),
+      ]],
+    },
+  },
+
+  // Guías en español (Jay conduce) con el bloque AB en coreano para Abby. El cuaderno de los niños va con letra más
+  // grande y las tablas sin cabecera como grillas para escribir, colorear y dibujar (estilo).
+  ninos: {
+    carpeta: "Fase7_Ninos",
+    diseno: "00_Diseno_Ninos.md",
+    guiaMd: "Guia_Profesores",
+    prefijo: /^Coreano para Niños \(8–15\) · /,
+    perezosas: true,
+    guia: {
+      salida: "Guia_Profesores_Ninos_Octubre_2026.docx",
+      titulo: "Coreano para Niños (8–15) · Guía de los profesores · Cohorte octubre 2026",
+      descripcion: "Coreano para Niños (8–15) · Juega y aprende · 어린이 한국어 · diseño del curso y guías de los profes (Jay y Abby), semanas 1 a 8 · cohorte octubre 2026",
+      estilo: { grillas: true, tablasAnchas: true },
+      portada: () => [[
+        centro([r("어린이 한국어 · Juega y aprende", { bold: true, size: 30, color: AZUL })], 120, 80),
+        centro([r("Coreano para Niños (8–15)", { bold: true, size: 56 })], 0, 60),
+        centro([r("Guía de los profesores", { bold: true, size: 44, color: AZUL })], 0, 160),
+        centro([r("Cohorte octubre 2026 · Jay (김재희) y Abby (홍미영)", { size: 26, color: NAVY, bold: true })], 0, 80),
+        centro([r("Lunes 18:00–19:00, hora de Chile (martes 06:00 en Corea) · 19 de octubre al 7 de diciembre · 8 semanas por Zoom · máximo 12 niños, en 2 salas", { size: 21, color: GREY })], 0, 60),
+      ], [
+        [r("Material de los profes", { bold: true, size: 22, color: NAVY })],
+        [r("Diseño del curso + guías de clase de las semanas 1 a 8: plan minuto a minuto, resumen en coreano para Abby (Abby를 위한 요약), juegos en dos versiones (Explorador 8–11 y Reto 12–15), claves, planillas y la nota semanal a la familia.", { size: 20 })],
+        [r("No se comparte con los niños ni con las familias: su material va en el Cuaderno de actividades.", { size: 20, bold: true, color: AZUL })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("Versión del 27 de septiembre de 2026 · compilada desde Curriculo/Fase7_Ninos (00_Diseno_Ninos.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
+      ]],
+    },
+    cuaderno: {
+      salida: "Cuaderno_Actividades_Ninos_Octubre_2026.docx",
+      titulo: "Coreano para Niños (8–15) · Mi cuaderno de coreano · Cohorte octubre 2026",
+      descripcion: "Coreano para Niños (8–15) · Juega y aprende · 어린이 한국어 · cuaderno de actividades de los niños, semanas 1 a 8 · cohorte octubre 2026",
+      // Letra de 12 pt (en vez de 10,5), títulos y tablas más grandes, filas altas para escribir y grillas sin columna etiqueta.
+      estilo: {
+        cuerpo: 24, recuadro: 23, codigo: 20, tabla: [22, 21, 20, 18],
+        titulos: { 1: 36, 2: 30, 3: 26, 4: 24 },
+        filaVacia: 720, filaParaEscribir: 560, grillas: true, cuadro: 2600, tablasAnchas: true,
+      },
+      indice: {
+        titulo: "Mis 8 semanas",
+        nota: "Cada semana empieza en una página nueva. En el computador, los títulos de esta lista y los 🔊 son vínculos (en Word: Ctrl + clic).",
+      },
+      portada: () => [[
+        centro([r("어린이 한국어 · Juega y aprende", { bold: true, size: 32, color: AZUL })], 120, 100),
+        centro([r("Mi cuaderno de coreano", { bold: true, size: 64 })], 0, 80),
+        centro([r("Coreano para Niños (8–15) · Cuaderno de actividades", { bold: true, size: 30, color: NAVY })], 0, 160),
+        centro([r("Lunes 18:00, hora de Chile · 19 de octubre al 7 de diciembre · con Jay 선생님 y Abby 선생님", { size: 22, color: GREY })], 0, 360),
+        centro([r("Nombre: ______________________________", { size: 28, bold: true })], 0, 60),
+      ], [
+        [r("8 semanas para saludar, leer 한글, contar y presentar tu show en coreano.", { bold: true, size: 24, color: NAVY })],
+        [r("Cada semana: lo que vas a poder decir, tus palabras, juegos, la canción y la tarjeta de tu sala, Corea de cerca y tu misión.", { size: 22 })],
+        [r("Explorador (8 a 11 años) y Reto (12 a 15 años): cada uno hace la suya… ¡y puede probar la otra! Al final de cada semana hay un recuadro para la familia.", { size: 22 })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("화이팅!", { bold: true, size: 30, color: AZUL })], 60, 0),
+      ]],
+    },
+  },
 };
 
 const carpetaDe = (cfg) => path.join(CURRICULO, cfg.carpeta);
@@ -843,15 +1029,24 @@ const INDICE_ES = {
   disenoNum: "Diseño", disenoTexto: "Diseño del curso · la columna vertebral de las 8 semanas",
 };
 
+// Arma un documento con los tamaños de su estilo (guia.estilo / cuaderno.estilo sobre ESTILO_BASE) y vuelve al de siempre.
+function conEstilo(estilo, fn) {
+  const antes = EST;
+  EST = estilo ? Object.assign({}, ESTILO_BASE, estilo, { titulos: Object.assign({}, ESTILO_BASE.titulos, estilo.titulos) }) : ESTILO_BASE;
+  try { return fn(); } finally { EST = antes; }
+}
+
 // ---------------- a) Guía del profesor ----------------
-function guiaProfesor(cfg) {
+function guiaProfesor(cfg) { return conEstilo(cfg.guia.estilo, () => armarGuia(cfg)); }
+function armarGuia(cfg) {
   const BASE = carpetaDe(cfg);
   const g = cfg.guia;
   const ix = Object.assign({}, INDICE_ES, g.indice);
   const alFinal = !!g.disenoAlFinal;
   const sinPrefijo = (t) => t.replace(cfg.prefijo, "");
-  const diseno = loadMd(path.join(BASE, cfg.diseno));
-  const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "profes", archivoGuia(cfg, s))));
+  const po = { perezosas: !!cfg.perezosas };
+  const diseno = loadMd(path.join(BASE, cfg.diseno), po);
+  const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "profes", archivoGuia(cfg, s)), po));
 
   // Cada parte se arma en el orden en que aparece en el documento.
   const armarDis = () => renderFile(diseno, "diseno", true, alFinal && g.rotuloDiseno ? g.rotuloDiseno() : undefined);
@@ -874,11 +1069,12 @@ function guiaProfesor(cfg) {
 }
 
 // ---------------- b) Cuaderno del alumno ----------------
-function cuadernoAlumno(cfg) {
+function cuadernoAlumno(cfg) { return conEstilo(cfg.cuaderno.estilo, () => armarCuaderno(cfg)); }
+function armarCuaderno(cfg) {
   const BASE = carpetaDe(cfg);
   const c = cfg.cuaderno;
   const ix = Object.assign({}, INDICE_ES, c.indice);
-  const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "alumnos", archivoAlumno(cfg, s))));
+  const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "alumnos", archivoAlumno(cfg, s)), { perezosas: !!cfg.perezosas }));
   const sem = semanas.map((bl, k) => renderFile(bl, "semana" + (k + 1), false));
   const entradas = semanas.map((bl, k) => ({ id: "semana" + (k + 1), num: ix.semana(k + 1), text: firstH1(bl).replace(ix.quitarSemana, "") }));
 
