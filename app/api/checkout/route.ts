@@ -10,7 +10,7 @@ const BASE =
 // Precios en CLP (cuenta Mercado Pago Chile) · cohorte octubre 2026.
 // US$150 pago único / US$75 mensual (×2). Ajustables por env sin deploy.
 // NOTA: se renombraron las vars (antes MP_PRICE_CLP) para que un valor viejo
-// configurado en Netlify no cobre el monto de la cohorte anterior.
+// configurado en Vercel no cobre el monto de la cohorte anterior.
 const PRICE_CLP_UNICO = Number(process.env.MP_PRICE_CLP_UNICO || 150000);
 const PRICE_CLP_MENSUAL = Number(process.env.MP_PRICE_CLP_MENSUAL || 75000);
 

@@ -15,18 +15,18 @@
 **Hecho hoy:** los dos archivos salieron del control de versiones (`git rm --cached`; siguen en el disco, el desarrollo local no cambia) y se agregó `.env.example` documentando cada variable.
 **Te toca a ti, en este orden:**
 1. **Rotar la clave** en resend.com → API Keys → borrar la actual y crear una nueva. *(2 min; mientras no lo hagas, la clave vieja sigue siendo válida para quien la tenga.)*
-2. Netlify → Site configuration → **Environment variables** → agregar `RESEND_API_KEY` (la nueva) y `OWNER_EMAIL=hola.academiaseul@gmail.com`.
+2. Vercel → Site configuration → **Environment variables** → agregar `RESEND_API_KEY` (la nueva) y `OWNER_EMAIL=hola.academiaseul@gmail.com`.
 **Si no lo haces:** el sitio sigue funcionando igual (el webhook está protegido con `if (process.env.RESEND_API_KEY)`), pero dejarás de recibir el correo de aviso cuando alguien pague por Mercado Pago **y** la clave filtrada seguirá activa.
-**Cómo verificar:** `git ls-files | grep .env` no debe devolver nada; en Netlify, la variable aparece en la lista.
+**Cómo verificar:** `git ls-files | grep .env` no debe devolver nada; en Vercel, la variable aparece en la lista.
 
 ---
 
 ## 🟡 Pendiente · necesita tu cuenta
 
 ### 2. Falta el link de Mercado Pago de las cuotas (US$75 / $75.000 CLP)
-**Estado:** el pago único ya abre tu link fijo `https://mpago.la/1cHrbqy` ($150.000 CLP, tarjeta o transferencia sin cuenta). El plan en 2 cuotas usa el checkout dinámico, que **solo funciona si `MP_ACCESS_TOKEN` está cargada en Netlify**; si falla, el botón manda al alumno a WhatsApp (no se pierde la venta, pero se enfría).
+**Estado:** el pago único ya abre tu link fijo `https://mpago.la/1cHrbqy` ($150.000 CLP, tarjeta o transferencia sin cuenta). El plan en 2 cuotas usa el checkout dinámico, que **solo funciona si `MP_ACCESS_TOKEN` está cargada en Vercel**; si falla, el botón manda al alumno a WhatsApp (no se pierde la venta, pero se enfría).
 **Qué hacer:** crear en Mercado Pago un link de pago de **$75.000 CLP** llamado "Academia Seúl · Curso de coreano · cuota 1 de 2" y pegarlo en `MP_LINK_MENSUAL` en [lib/nivel1.ts](lib/nivel1.ts) (línea junto a `MP_LINK_UNICO`). *(5 min.)*
-**Alternativa si no lo creas:** carga en Netlify `MP_ACCESS_TOKEN`, `MP_PRICE_CLP_UNICO=150000` y `MP_PRICE_CLP_MENSUAL=75000` (están documentadas en `.env.example`).
+**Alternativa si no lo creas:** carga en Vercel `MP_ACCESS_TOKEN`, `MP_PRICE_CLP_UNICO=150000` y `MP_PRICE_CLP_MENSUAL=75000` (están documentadas en `.env.example`).
 **Cómo verificar:** en `/nivel-1`, elegir "2 cuotas" → el botón de Mercado Pago debe abrir el checkout con $75.000, no WhatsApp.
 
 ### 3. PayPal: retorno automático al sitio
@@ -60,7 +60,7 @@
 | 15 | **Formulario de inscripción sin nombres accesibles** (9 campos) | Un lector de pantalla leía solo el texto de ejemplo; también afecta al autocompletado | `aria-label` en los 9 campos (traducido a EN/KO). Verificado: 0 campos sin nombre |
 | 16 | **Botón de cerrar la barra de promoción de 18×18 px** | Por debajo del mínimo táctil (24 px): difícil de cerrar en celular | Área de toque de 36×36 px con estado hover |
 | 17 | **3,3 MB de archivos sin uso en `public/`** | Peso muerto en el deploy; ninguno estaba enlazado desde el sitio ni desde los emails | `cartoon-gwanghwamun.png`, `pronunciacion-coreana-PRINT.html` y 3 logos duplicados (`_redbak`, `_ORIGINAL`) movidos a `Campana_Assets/fuente/` — se conservan, ya no se publican |
-| 18 | **Export estático viejo (`out/`, 37 archivos) versionado** | Confunde: parecía el sitio en producción y no lo es (Netlify usa `.next`) | Fuera del control de versiones |
+| 18 | **Export estático viejo (`out/`, 37 archivos) versionado** | Confunde: parecía el sitio en producción y no lo es (Vercel usa `.next`) | Fuera del control de versiones |
 
 ---
 

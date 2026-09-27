@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// El cliente se crea al recibir un mensaje (no al cargar el módulo): así la compilación no
+// depende de RESEND_API_KEY, que vive en las variables de entorno de Vercel y no en git.
 
 export async function POST(req: NextRequest) {
   try {
@@ -15,6 +16,11 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    if (!process.env.RESEND_API_KEY) {
+      console.error("RESEND_API_KEY no está configurada");
+      return NextResponse.json({ error: "El formulario no está disponible. Escríbenos por WhatsApp." }, { status: 503 });
+    }
+    const resend = new Resend(process.env.RESEND_API_KEY);
     await resend.emails.send({
       from: 'Academia Seúl <onboarding@resend.dev>',
       to: 'hola.academiaseul@gmail.com',

@@ -301,7 +301,7 @@ Regla de Brevo: antes de cada envío "todos menos inscritos", mueve a los pagado
 | 13 | **Cambio de sección**: `/terminos` dice "en cualquier momento según cupos"; kits y guía dicen "hasta la semana 2" | vie 9 | Hasta la semana 2, según cupos |
 | 14 | ✅ **Logro de Básico 1 corregido** (sáb 26 sept): el sitio, los PDF de /programas y la lámina 01 del boletín ahora dicen "Contar del 1 al 100 y decir cuántos son en tu familia" (la hora se ve en Básico 2) | — | Resuelto. Si ya publicaste el carrusel del boletín, la lámina 01 nueva está en `Posts_Boletin_Cursos_Octubre_2026/01_KOR101_Basico1.png` para futuros reposts |
 
-**Otros pendientes de Jay que tocan el lanzamiento** (de `CLAUDE.md`): link de Mercado Pago de $75.000 CLP para la cuota 1 (hoy el plan en cuotas por Mercado Pago depende del checkout dinámico, que necesita `MP_ACCESS_TOKEN` en Netlify) · en PayPal, "Cuenta de PayPal opcional" (tarjeta sin cuenta) y retorno a `/nivel-1?pago=success` · `RESEND_API_KEY` nueva + `OWNER_EMAIL` en Netlify (sin eso no llega el aviso por correo de los pagos de Mercado Pago: revisa Mercado Pago a mano cada noche).
+**Otros pendientes de Jay que tocan el lanzamiento** (de `CLAUDE.md`): link de Mercado Pago de $75.000 CLP para la cuota 1 (hoy el plan en cuotas por Mercado Pago depende del checkout dinámico, que necesita `MP_ACCESS_TOKEN` en Vercel) · en PayPal, "Cuenta de PayPal opcional" (tarjeta sin cuenta) y retorno a `/nivel-1?pago=success` · `RESEND_API_KEY` nueva + `OWNER_EMAIL` en Vercel (sin eso no llega el aviso por correo de los pagos de Mercado Pago: revisa Mercado Pago a mano cada noche).
 
 ---
 
