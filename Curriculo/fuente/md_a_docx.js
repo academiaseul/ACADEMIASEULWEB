@@ -1,12 +1,16 @@
 // md_a_docx.js · Markdown -> Word (docx) con el estilo de la casa de Academia Seúl.
 // Compila un curso del currículo en dos documentos (carpeta, portadas y nombres de salida en CURSOS, al final):
 //   a) Guía del profesor: portada + índice + 00_Diseno_<Curso>.md + profes/S01…S08 (cada archivo en página nueva)
+//      (con guia.disenoAlFinal el diseño va al final, como anexo, después de las 8 guías)
 //   b) Cuaderno del alumno: portada + índice + alumnos/S01…S08 (nada del material del profesor)
 // Cursos:
 //   basico1 (por defecto) -> Curriculo/Fase2_Basico1/Guia_Profesor_Basico1_Octubre_2026.docx
 //                            Curriculo/Fase2_Basico1/Cuaderno_Alumno_Basico1_Octubre_2026.docx
 //   basico2               -> Curriculo/Fase3_Basico2/Guia_Profesor_Basico2_Octubre_2026.docx
 //                            Curriculo/Fase3_Basico2/Cuaderno_Alumno_Basico2_Octubre_2026.docx
+//   conversacional1       -> Curriculo/Fase4_Conversacional1/Guia_Profesora_Conversacional1_Octubre_2026.docx
+//                            Curriculo/Fase4_Conversacional1/Cuaderno_Alumno_Conversacional1_Octubre_2026.docx
+//      (guías en coreano para Abby: profes/S0N_Guia_Profesora.md, índice y pie en coreano, diseño en español como anexo)
 //
 // Markdown soportado: # a #### (títulos azul #4236F6 / navy #003478), párrafos (los saltos de línea
 // simples se respetan), **negrita**, *cursiva*, ***ambas***, ~~tachado~~, `código` (como texto normal),
@@ -20,7 +24,7 @@
 // título del documento, pie con www.academiaseul.com y número de página, logo azul en la portada.
 // Nunca rojo.
 //
-// Uso: cd <scratchpad> && node curriculo/md_a_docx.js [basico1|basico2|todos]
+// Uso: cd <scratchpad> && node curriculo/md_a_docx.js [basico1|basico2|conversacional1|todos]
 //   (sin argumento se usa la variable de entorno AS_CURSO y, si no está, basico1: el comportamiento de siempre).
 //   AS_OUT_DIR=<carpeta> escribe los .docx ahí en vez de en la carpeta del curso (útil para comparar versiones).
 // La copia del repo (Curriculo/fuente/md_a_docx.js) usa el docx del scratchpad (AS_SCRATCH) si no lo encuentra.
@@ -90,6 +94,22 @@ function leftFlanking(src, k) {
   return !RE_PUNCT.test(nx) || /\s/.test(pv) || RE_PUNCT.test(pv);
 }
 
+// Un * pegado al final de una palabra ("안 잘해요*는 꼭 교정 … · *참고: …*") no abre cursiva si el siguiente * suelto
+// va después de un espacio (solo puede abrir): como en CommonMark, el cierre se empareja con ese * y no con este,
+// que queda literal (es la marca de forma incorrecta). Un * intrapalabra con su cierre ("버스*보다*") sigue abriendo.
+const intraPalabra = (src, k) => k > 0 && /[\p{L}\p{N}]/u.test(src[k - 1]);
+function otroAbreAntes(src, from) {
+  for (let p = from; p < src.length; p++) {
+    if (src[p] === "`") { const e = src.indexOf("`", p + 1); if (e > p) { p = e; continue; } }
+    if (src[p] === "*" && src[p + 1] === "*") { p++; continue; }
+    if (src[p] === "*") {
+      if (src[p - 1] !== " ") return false;                  // puede cerrar: es el cierre de este *
+      if (src[p + 1] && src[p + 1] !== " ") return true;     // después de un espacio: solo puede abrir
+    }
+  }
+  return false;
+}
+
 // Devuelve segmentos { t, b, i, s, sub, href } o { br: true }.
 function parseInline(src) {
   src = src.split(/(`[^`]*`)/).map((p, k) => (k % 2 ? p : curly(p))).join("");
@@ -131,7 +151,7 @@ function parseInline(src) {
     if (c === "*") {
       if (i && src[k - 1] !== " ") { flush(); i = false; k++; continue; }
       const nx = src[k + 1];
-      if (!i && nx && nx !== " " && leftFlanking(src, k) && hasClosingStar(src, k + 1)) { flush(); i = true; k++; continue; }
+      if (!i && nx && nx !== " " && leftFlanking(src, k) && hasClosingStar(src, k + 1) && !(intraPalabra(src, k) && otroAbreAntes(src, k + 1))) { flush(); i = true; k++; continue; }
       buf += "*"; k++; continue;
     }
     if (c === "[") {
@@ -553,19 +573,21 @@ function loadMd(file) {
 }
 
 // Un archivo = una parte del documento: su primer # abre página nueva y lleva un marcador para el índice.
-function renderFile(blocks, id, withH2Marks) {
+// rotulo (opcional, lista de TextRun): una línea chica sobre el # (p. ej. "부록 · Anexo") que abre la página y lleva el marcador.
+function renderFile(blocks, id, withH2Marks, rotulo) {
   let first = true;
   let h2n = 0;
   const marks = [];
   const els = renderBlocks(blocks, {
     width: CONTENT_W,
     headingOpts: (bl) => {
-      if (bl.level === 1 && first) { first = false; return { pageBreak: true, bookmark: id }; }
+      if (bl.level === 1 && first) { first = false; return rotulo ? {} : { pageBreak: true, bookmark: id }; }
       if (bl.level === 2 && withH2Marks) { const bm = id + "_" + (++h2n); marks.push({ id: bm, text: plain(bl.text) }); return { bookmark: bm }; }
       return {};
     },
   });
-  if (first) els.unshift(new Paragraph({ pageBreakBefore: true, children: [new Bookmark({ id, children: [] })], spacing: { after: 0 } }));
+  if (rotulo) els.unshift(new Paragraph({ pageBreakBefore: true, keepNext: true, children: [new Bookmark({ id, children: rotulo })], spacing: { before: 0, after: 120, ...ls(19) } }));
+  else if (first) els.unshift(new Paragraph({ pageBreakBefore: true, children: [new Bookmark({ id, children: [] })], spacing: { after: 0 } }));
   return { els, marks };
 }
 
@@ -590,7 +612,9 @@ function portada(lineas, caja, pie) {
 }
 const centro = (runs, before, after) => new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before, after, ...ls(22) }, children: runs });
 
-function indice(titulo, entradas) {
+const NOTA_INDICE = "Cada parte empieza en una página nueva. En Word, los títulos del índice son vínculos (Ctrl + clic) y el panel de navegación (Vista → Panel de navegación) muestra todos los títulos.";
+
+function indice(titulo, entradas, nota = NOTA_INDICE) {
   const ch = [new Paragraph({ pageBreakBefore: true, spacing: { before: 0, after: 200 }, border: { bottom: { style: BorderStyle.SINGLE, size: 8, color: LINE, space: 4 } },
     children: [r(titulo, { bold: true, size: 32, color: AZUL })] })];
   for (const e of entradas) {
@@ -604,11 +628,14 @@ function indice(titulo, entradas) {
       spacing: { before: e.sub ? 0 : 140, after: e.sub ? 20 : 40, ...ls(22) },
     }));
   }
-  ch.push(new Paragraph({ spacing: { before: 280 }, children: [r("Cada parte empieza en una página nueva. En Word, los títulos del índice son vínculos (Ctrl + clic) y el panel de navegación (Vista → Panel de navegación) muestra todos los títulos.", { size: 18, color: GREY, italics: true })] }));
+  ch.push(new Paragraph({ spacing: { before: 280 }, children: [r(nota, { size: 18, color: GREY, italics: true })] }));
   return ch;
 }
 
-function documento({ titulo, descripcion, children }) {
+// pagina: texto del número de página en el pie ("Página 3 de 120" por defecto).
+const PAGINA_ES = (cur, tot) => ["Página ", cur, " de ", tot];
+
+function documento({ titulo, descripcion, children, pagina = PAGINA_ES }) {
   const small = { size: 16, color: GREY };
   return new Document({
     creator: "Academia Seúl",
@@ -633,7 +660,7 @@ function documento({ titulo, descripcion, children }) {
         first: new Footer({ children: [new Paragraph({ children: [] })] }),
         default: new Footer({ children: [new Paragraph({ tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W }], children: [
           r(WEB, small), new TextRun({ children: [new Tab()], font: FONT, size: 16 }),
-          new TextRun({ children: ["Página ", PageNumber.CURRENT, " de ", PageNumber.TOTAL_PAGES], font: FONT, size: 16, color: GREY }),
+          new TextRun({ children: pagina(PageNumber.CURRENT, PageNumber.TOTAL_PAGES), font: FONT, size: 16, color: GREY }),
         ] })] }),
       },
       children,
@@ -649,6 +676,12 @@ const firstH1 = (blocks) => { const h = blocks.find((x) => x.type === "h" && x.l
 // guías en el índice, títulos (encabezado y propiedades del .docx), portadas y nombres de salida.
 // Para sumar un curso: copiar un bloque, cambiar sus datos y compilar con  node md_a_docx.js <clave>.
 // portada() devuelve [líneas centradas, caja azul (lista de párrafos), pie] para portada().
+// Opcionales (si faltan, todo queda como en Básico 1 y 2):
+//   guiaMd            nombre de las guías: profes/S0N_<guiaMd>.md (por defecto "Guia_Profesor")
+//   guia.disenoAlFinal  el diseño va al final, como anexo, después de las guías (por defecto va primero)
+//   guia.rotuloDiseno() línea chica sobre el título del diseño cuando va como anexo (lista de TextRun)
+//   guia.indice / cuaderno.indice  textos del índice: titulo, nota, semana(n), quitarSemana, disenoNum, disenoTexto
+//   guia.pagina / cuaderno.pagina  (cur, tot) => partes del número de página del pie
 const CURSOS = {
   basico1: {
     carpeta: "Fase2_Basico1",
@@ -736,52 +769,125 @@ const CURSOS = {
       ]],
     },
   },
+
+  // Guías en coreano para Abby (홍미영): portada, índice y pie en coreano; el diseño (en español, para Jay) va al final como anexo.
+  conversacional1: {
+    carpeta: "Fase4_Conversacional1",
+    diseno: "00_Diseno_Conversacional1.md",
+    guiaMd: "Guia_Profesora",
+    prefijo: /^회화 1 \(A2\.1\) · /,
+    guia: {
+      salida: "Guia_Profesora_Conversacional1_Octubre_2026.docx",
+      titulo: "회화 A2.1 · Conversacional 1 · 교사용 가이드 · 2026년 10월",
+      descripcion: "Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · 교사용 가이드 (홍미영 · Abby), 1~8주차 + 부록: 코스 설계 문서 (스페인어) · cohorte octubre 2026",
+      disenoAlFinal: true,
+      rotuloDiseno: () => [
+        r("부록 · Anexo", { bold: true, size: 19, color: AZUL }),
+        r("   코스 설계 문서 (스페인어, Jay용) · Diseño del curso, en español", { size: 19, color: GREY }),
+      ],
+      indice: {
+        titulo: "목차",
+        nota: "각 부분은 새 페이지에서 시작해요. Word에서 목차 제목은 링크예요 (Ctrl + 클릭). 보기 → 탐색 창을 켜면 모든 제목이 보여요. 부록(코스 설계 문서)은 Jay용으로 스페인어로 되어 있어요.",
+        semana: (n) => n + "주차",
+        quitarSemana: /^\d+주차 · /,
+        disenoNum: "부록",
+        disenoTexto: "코스 설계 문서 · Diseño del curso (en español, para Jay)",
+      },
+      pagina: (cur, tot) => [cur, " / ", tot],
+      portada: () => [[
+        centro([r("회화 A2.1", { bold: true, size: 30, color: AZUL })], 120, 80),
+        centro([r("Conversacional 1", { bold: true, size: 60 })], 0, 60),
+        centro([r("교사용 가이드", { bold: true, size: 44, color: AZUL })], 0, 160),
+        centro([r("2026년 10월 · 홍미영 (Abby)", { size: 26, color: NAVY, bold: true })], 0, 80),
+        centro([r("매주 수요일 09:00–10:00 (한국 시간) = 칠레 화요일 21:00 · 10월 14일 ~ 12월 2일 · Zoom 8주", { size: 21, color: GREY })], 0, 60),
+      ], [
+        [r("교사용 자료", { bold: true, size: 22, color: NAVY })],
+        [r("1~8주차 수업 가이드: 한눈에 보기, 주차 개요, 분 단위 수업 계획, 교사 가이드 (정답·루브릭·진단표), 원어민 검토 사항.", { size: 20 })],
+        [r("부록: 코스 설계 문서 (스페인어, Jay용).", { size: 20 })],
+        [r("학생들에게는 공유하지 않아요. 학생 자료는 학생용 워크북 (Cuaderno del alumno)에 따로 있어요.", { size: 20, bold: true, color: AZUL })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("2026년 9월 26일 버전 · Curriculo/Fase4_Conversacional1 (profes/S01–S08 + 부록 00_Diseno_Conversacional1.md)에서 컴파일", { size: 16, color: GREY, italics: true })], 80, 0),
+      ]],
+    },
+    cuaderno: {
+      salida: "Cuaderno_Alumno_Conversacional1_Octubre_2026.docx",
+      titulo: "Conversacional 1 (A2.1) · Cuaderno del alumno · Cohorte octubre 2026",
+      descripcion: "Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · material del alumno, semanas 1 a 8 · cohorte octubre 2026",
+      portada: () => [[
+        centro([r("Conversacional 1 (A2.1)", { bold: true, size: 60 })], 120, 60),
+        centro([r("Corea que amas · 회화 A2.1", { bold: true, size: 36, color: AZUL })], 0, 160),
+        centro([r("Cuaderno del alumno", { bold: true, size: 44, color: NAVY })], 0, 160),
+        centro([r("Cohorte octubre 2026 · con Abby (홍미영 선생님) · martes 21:00, hora de Chile", { size: 22, color: GREY })], 0, 360),
+        centro([r("Nombre: ______________________________", { size: 22 })], 0, 60),
+      ], [
+        [r("8 semanas para conversar en coreano sobre la Corea que amas: K-pop, viajes, comida, 한복 y PC방.", { bold: true, size: 22, color: NAVY })],
+        [r("Cada semana: lo que vas a poder decir, vocabulario, gramática, cómo suena, diálogo, ejercicios, tarjeta de sala y guion del role play, nota cultural y tarea.", { size: 20 })],
+        [r("La clase es en coreano; el español vive aquí. Sin romanización: la pronunciación va en 한글 entre corchetes, 한라산 [할라산].", { size: 20 })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("화이팅!", { bold: true, size: 26, color: AZUL })], 60, 0),
+      ]],
+    },
+  },
 };
 
 const carpetaDe = (cfg) => path.join(CURRICULO, cfg.carpeta);
 const salidaDe = (cfg, archivo) => path.join(process.env.AS_OUT_DIR || carpetaDe(cfg), archivo);
+// Fuentes Markdown de cada semana (las usan también los scripts de verificación).
+const archivoGuia = (cfg, s) => `S0${s}_${cfg.guiaMd || "Guia_Profesor"}.md`;
+const archivoAlumno = (cfg, s) => `S0${s}_Material_Alumno.md`;
+// Textos del índice por defecto (Básico 1 y 2); cada curso puede cambiarlos con guia.indice / cuaderno.indice.
+const INDICE_ES = {
+  titulo: "Contenido", nota: NOTA_INDICE, semana: (n) => "Semana " + n, quitarSemana: /^Semana \d+ · /,
+  disenoNum: "Diseño", disenoTexto: "Diseño del curso · la columna vertebral de las 8 semanas",
+};
 
 // ---------------- a) Guía del profesor ----------------
 function guiaProfesor(cfg) {
   const BASE = carpetaDe(cfg);
   const g = cfg.guia;
+  const ix = Object.assign({}, INDICE_ES, g.indice);
+  const alFinal = !!g.disenoAlFinal;
   const sinPrefijo = (t) => t.replace(cfg.prefijo, "");
   const diseno = loadMd(path.join(BASE, cfg.diseno));
-  const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "profes", `S0${s}_Guia_Profesor.md`)));
+  const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "profes", archivoGuia(cfg, s))));
 
-  const dis = renderFile(diseno, "diseno", true);
-  const sem = semanas.map((bl, k) => renderFile(bl, "semana" + (k + 1), false));
+  // Cada parte se arma en el orden en que aparece en el documento.
+  const armarDis = () => renderFile(diseno, "diseno", true, alFinal && g.rotuloDiseno ? g.rotuloDiseno() : undefined);
+  const armarSem = () => semanas.map((bl, k) => renderFile(bl, "semana" + (k + 1), false));
+  let dis, sem;
+  if (alFinal) { sem = armarSem(); dis = armarDis(); } else { dis = armarDis(); sem = armarSem(); }
 
-  const entradas = [{ id: "diseno", num: "Diseño", text: "Diseño del curso · la columna vertebral de las 8 semanas" }];
-  dis.marks.forEach((m) => entradas.push({ id: m.id, text: m.text, sub: true }));
-  semanas.forEach((bl, k) => {
-    const t = sinPrefijo(firstH1(bl)).replace(/^Semana \d+ · /, "");
-    entradas.push({ id: "semana" + (k + 1), num: "Semana " + (k + 1), text: t });
-  });
+  const eDis = [{ id: "diseno", num: ix.disenoNum, text: ix.disenoTexto }];
+  dis.marks.forEach((m) => eDis.push({ id: m.id, text: m.text, sub: true }));
+  const eSem = semanas.map((bl, k) => ({ id: "semana" + (k + 1), num: ix.semana(k + 1), text: sinPrefijo(firstH1(bl)).replace(ix.quitarSemana, "") }));
+  const entradas = alFinal ? [...eSem, ...eDis] : [...eDis, ...eSem];
+  const partes = alFinal ? [...sem, dis] : [dis, ...sem];
 
   const children = [
     ...portada(...g.portada()),
-    ...indice("Contenido", entradas),
-    ...dis.els,
-    ...sem.flatMap((s) => s.els),
+    ...indice(ix.titulo, entradas, ix.nota),
+    ...partes.flatMap((p) => p.els),
   ];
-  return { file: salidaDe(cfg, g.salida), doc: documento({ titulo: g.titulo, descripcion: g.descripcion, children }) };
+  return { file: salidaDe(cfg, g.salida), doc: documento({ titulo: g.titulo, descripcion: g.descripcion, children, pagina: g.pagina }) };
 }
 
 // ---------------- b) Cuaderno del alumno ----------------
 function cuadernoAlumno(cfg) {
   const BASE = carpetaDe(cfg);
   const c = cfg.cuaderno;
-  const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "alumnos", `S0${s}_Material_Alumno.md`)));
+  const ix = Object.assign({}, INDICE_ES, c.indice);
+  const semanas = SEMANAS.map((s) => loadMd(path.join(BASE, "alumnos", archivoAlumno(cfg, s))));
   const sem = semanas.map((bl, k) => renderFile(bl, "semana" + (k + 1), false));
-  const entradas = semanas.map((bl, k) => ({ id: "semana" + (k + 1), num: "Semana " + (k + 1), text: firstH1(bl).replace(/^Semana \d+ · /, "") }));
+  const entradas = semanas.map((bl, k) => ({ id: "semana" + (k + 1), num: ix.semana(k + 1), text: firstH1(bl).replace(ix.quitarSemana, "") }));
 
   const children = [
     ...portada(...c.portada()),
-    ...indice("Contenido", entradas),
+    ...indice(ix.titulo, entradas, ix.nota),
     ...sem.flatMap((s) => s.els),
   ];
-  return { file: salidaDe(cfg, c.salida), doc: documento({ titulo: c.titulo, descripcion: c.descripcion, children }) };
+  return { file: salidaDe(cfg, c.salida), doc: documento({ titulo: c.titulo, descripcion: c.descripcion, children, pagina: c.pagina }) };
 }
 
 // Compila la guía y el cuaderno de un curso (clave de CURSOS) y devuelve las rutas escritas.
@@ -799,7 +905,7 @@ async function compilar(clave) {
   return hechos;
 }
 
-module.exports = { parseBlocks, parseInline, renderBlocks, documento, CURSOS, compilar };
+module.exports = { parseBlocks, parseInline, renderBlocks, documento, CURSOS, compilar, archivoGuia, archivoAlumno };
 
 if (require.main === module) {
   (async () => {
