@@ -38,7 +38,8 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
 1. Decidir si Hotmart se activa como tercera pasarela.
 2. Enviar el email de lanzamiento (contactos en Formspree `mzdypyky` → CSV).
 3. En PayPal: activar "Cuenta de PayPal opcional" (tarjeta sin cuenta) y el retorno automático a /nivel-1?pago=success.
-4. **Rotar `RESEND_API_KEY`** (estaba versionada en `.env.local`/`.env.production` desde el primer commit; hoy se sacó de git) y cargarla en Vercel junto con `OWNER_EMAIL`. Ver `Auditoria_Sitio_2026-09-22.md` §1.
+4. **Pasar el repo `academiaseul/ACADEMIASEULWEB` a privado** (GitHub → Settings → Danger Zone; cuenta personal, Vercel sigue funcionando): el historial conserva datos personales y la clave vieja de Resend.
+5. **Rotar `RESEND_API_KEY`** (estaba versionada en `.env.local`/`.env.production` desde el primer commit; hoy se sacó de git) y cargarla en Vercel junto con `OWNER_EMAIL`. Ver `Auditoria_Sitio_2026-09-22.md` §1.
 5. Crear el link de Mercado Pago de $75.000 CLP (cuota 1 de 2) → `MP_LINK_MENSUAL` en `lib/nivel1.ts`.
 6. Subir a YouTube la miniatura azul del taller (`Campana_Assets/youtube/taller_hangul_miniatura.png`).
 7. Decisiones del lanzamiento (detalle en `Plan_Lanzamiento_25sep_19oct_2026.md` §9): fecha de la cuota 2 (propuesta: semana del 9 nov, marcada [POR CONFIRMAR]) · regla del certificado y pesos de nota (las guías/kits usan 75 % asistencia en vivo o grabación+tarea y 25/25/15/35; los PDF de Básico 1 y Conversacional 1 dicen 60 % + 6 de 8 en vivo y 40/30/30) · correo de contacto (hola.academiaseul@gmail.com vs hola@academiaseul.com en /terminos) · mínimo de alumnos para abrir una clase · material de la clase 1 de Conversacional 1 y Niños · premio del reto.
@@ -59,6 +60,7 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
 - Variables de entorno documentadas en `.env.example` (nunca subir `.env.local` ni `.env.production`).
 
 ## Cómo trabajar
-- Commits en español, sin acentos en el asunto es aceptable; push a `main` despliega.
+- Commits en español, sin acentos en el asunto es aceptable; push a `main` despliega. **Después de cada push, confirmar que el deploy de Vercel pasó** (estado del commit en GitHub: `api.github.com/repos/academiaseul/ACADEMIASEULWEB/commits/<sha>/status`); si falla, el sitio queda congelado en el último deploy bueno. Compilar localmente **sin** `.env.local`/`.env.production` para reproducir Vercel.
+- **El repo es público** (hasta que Jay lo pase a privado): nunca versionar datos personales (contactos, inscritos, leads, certificados con nombre, CSV de Brevo) ni claves. `.gitignore` ya bloquea esos patrones desde el 28 sept 2026; los archivos viven solo en el disco.
 - No hay Python ni LibreOffice en la PC principal; sí Word/PowerPoint (COM) y poppler.
 - Antes de cambiar precios, horarios o nombres de cursos: confirma con Jay.
