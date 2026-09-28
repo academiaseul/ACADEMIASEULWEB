@@ -1,6 +1,6 @@
-# Clips de audio · cohorte octubre 2026 (Básico 1, Básico 2, Conversacional 1, TOPIK II y Coreano para Niños)
+# Clips de audio · cohorte octubre 2026 (Básico 1, Básico 2, Conversacional 1, TOPIK II y Coreano para Niños) + Conversacional 2 (enero 2027)
 
-**Audioteca Chingu · generado el sábado 26 de septiembre de 2026 (TOPIK II y Coreano para Niños: domingo 27 de septiembre).** Un clip por cada palabra de la lista maestra de vocabulario (sección C) y por cada una de las 3 frases clave de cada clase (sección B.12) de los diseños de [Básico 1](../Fase2_Basico1/00_Diseno_Basico1.md) y [Básico 2](../Fase3_Basico2/00_Diseno_Basico2.md); en [Conversacional 1](../Fase4_Conversacional1/00_Diseno_Conversacional1.md), las frases clave están en la sección B.13, en [TOPIK II](../Fase6_TOPIK2/00_Diseno_TOPIK2.md), en la B.12, y en [Coreano para Niños](../Fase7_Ninos/00_Diseno_Ninos.md), en la B.14.
+**Audioteca Chingu · generado el sábado 26 de septiembre de 2026 (TOPIK II y Coreano para Niños: domingo 27 de septiembre; Conversacional 2: lunes 28 de septiembre).** Un clip por cada palabra de la lista maestra de vocabulario (sección C) y por cada una de las 3 frases clave de cada clase (sección B.12) de los diseños de [Básico 1](../Fase2_Basico1/00_Diseno_Basico1.md) y [Básico 2](../Fase3_Basico2/00_Diseno_Basico2.md); en [Conversacional 1](../Fase4_Conversacional1/00_Diseno_Conversacional1.md), las frases clave están en la sección B.13, en [TOPIK II](../Fase6_TOPIK2/00_Diseno_TOPIK2.md), en la B.12, y en [Coreano para Niños](../Fase7_Ninos/00_Diseno_Ninos.md) y [Conversacional 2](../Fase5_Conversacional2/00_Diseno_Conversacional2.md), en la B.14.
 
 | | |
 |---|---|
@@ -9,12 +9,13 @@
 | Nombre del archivo | hex en minúsculas del UTF-8 del texto + `.mp3` (el mismo `hexOf()` del Lector): 우유 → `ec9ab0ec9ca0.mp3` |
 | URL | `https://www.academiaseul.com/audio/kr/<hex>.mp3` |
 | Texto grabado | el coreano exacto de la lista, sin glosa ni romanización. Se quita **el punto o el signo de exclamación final** (no cambia la voz y así 수고했어요 y 수고했어요! son un solo clip); el **signo de interrogación se mantiene** (cambia la entonación: 네 ≠ 네?) |
-| Clips únicos | **935** · el 26 sept, Básico 1, Básico 2 y Conversacional 1: 648 (561 nuevos · 87 que ya existían) · el 27 sept, TOPIK II: 188 más (188 nuevos) · el 27 sept, Coreano para Niños: 99 más (70 nuevos · 29 del Lector y de Dubu que ya estaban) |
+| Clips únicos | **1125** · el 26 sept, Básico 1, Básico 2 y Conversacional 1: 648 (561 nuevos · 87 que ya existían) · el 27 sept, TOPIK II: 188 más (188 nuevos) · el 27 sept, Coreano para Niños: 99 más (70 nuevos · 29 del Lector y de Dubu que ya estaban) · el 28 sept, Conversacional 2: 190 más (188 nuevos · 2 del Lector que ya estaban: 해, 달) |
 | Básico 1 | 228 clips (170 nuevos · 58 existentes) · las 182 filas de la lista C y las 24 frases clave |
 | Básico 2 | 234 clips (198 nuevos · 36 existentes) · las 172 filas de la lista C y las 24 frases clave |
 | Conversacional 1 | 217 clips (206 nuevos · 11 que ya estaban, la mayoría de Básico 1 y 2) · las 173 filas de la lista C y las 24 frases clave |
 | TOPIK II | 193 clips (188 nuevos · 5 que ya estaban por otros cursos: 예약하다, 배, 수능, 목표, 미역국) · las 169 filas de la lista C y las 24 frases clave |
 | Coreano para Niños | 184 clips (70 nuevos · 114 que ya estaban: 85 de los cursos de adultos y 29 del Lector y de Dubu) · las 125 filas de la lista C y las 24 frases clave |
+| Conversacional 2 | 234 clips (188 nuevos · 46 que ya estaban: 44 de los otros cursos y 2 del Lector) · las 181 filas de la lista C (213 piezas) y las 24 frases clave (25 clips; 4 compartidos con la lista C) |
 
 **Cómo se expandieron las filas que no son una sola palabra**
 - Variantes con " · " o " / " → un clip por variante (이거 · 그거 · 저거; 누구하고 / 누구랑; 아침 · 점심 · 저녁…).
@@ -26,8 +27,9 @@
 - Conversacional 1: las filas con " · " se partieron igual (개월 · 년; 존댓말 · 반말; 왼쪽 · 오른쪽; 개 · 병 · 잔; los 5 colores; 시작하다 · 끝나다; 잘 먹겠습니다 · 잘 먹었습니다…); la fila de las consignas de Zoom da 5 clips; los huecos llevan el ejemplo del diseño: ___ 좀 주세요 → 물 좀 주세요 y 제일 좋아하는 ___ → 제일 좋아하는 노래가 뭐예요?. 여기요!, 대박!, 좋은 생각이에요!, 수능 대박! y 다음에 또 만나요! van sin el "!" final. PC방, e스포츠, LCK y 1분 남았어요 se grabaron tal como se escriben: conviene escucharlos una vez para confirmar la lectura de la voz (피시방, 이스포츠, 엘시케이, 일 분).
 - TOPIK II: cada fila de la lista C es un clip (늘다 / 줄다 ya vienen en filas separadas). La fila "제N회" del encargo se grabó con el ejemplo de la lista del diseño, 제64회. Las frases clave en 한다체 (S4·3, S5, S7) se grabaron tal cual, sin el punto final; el punto del medio de "정답은 3번이에요. 글의 내용과 같기 때문이에요" se mantiene, igual que la coma de S5·2 y S7·2. La regla de omitir enunciados de más de 40 caracteres no dejó fuera ninguna frase (la más larga, S5·2, tiene 38). Las URLs de las 24 frases coinciden con las que ya anunciaba la B.12 del diseño. Conviene escuchar una vez las cifras, que la voz lee sola: 제64회 (제육십사 회), 3급 · 4급 (삼 급 · 사 급), 4월 (사월), 3번 (삼 번), 500명 (오백 명) y 45% (사십오 퍼센트).
 - Coreano para Niños: las letras se graban como sílaba con ㅏ o con la ㅇ muda, igual que en el Lector (ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ → 아 어 오 우 으 이, más el clip "아, 어, 오, 우, 으, 이" en orden; ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅎ → 가 나 다 라 마 바 사 아 자 하). Los paradigmas van forma por forma (하나…열, 열하나…열다섯, 한 · 두 · 세 · 네, 스물 · 서른 · 마흔 · 쉰) y la tarjeta de edades, con el contador: 여덟 살 … 열다섯 살. Los huecos llevan los ejemplos del diseño (G.4): 저는 소피아예요 / 저는 다니엘이에요 · 곰이에요 / 토끼예요 / 호랑이예요 · 우리 엄마예요 / 우리 가족이에요 / 우리 강아지예요 · 이 사람은 우리 엄마예요 · 저는 열 살이에요 · 저는 김밥 좋아해요. Las frases clave que son una lista con comas (S2·3, S3) tienen su propio clip, en orden, además del clip de cada palabra; las dos de la S7 que tienen dos oraciones se grabaron enteras (con el punto del medio, sin el "!" final) y también cada oración por separado (저는 김밥 좋아해요 · 맛있어요 · 김치 안 좋아해요 · 매워요), que es como las cita la B.14. 세종대왕 ya estaba por TOPIK II. Conviene escuchar una vez las onomatopeyas (멍멍, 야옹, 꿀꿀, 어흥) y 가위바위보, que la voz dice en tono neutro: en clase las actúan Jay y Abby.
+- Conversacional 2 (A2.2, enero 2027): las filas con " · " se partieron en un clip por pieza (초등학교 · 중학교 · 고등학교; 국어 · 영어 · 수학 · 과학 · 체육; 계시다 · 드시다 · 주무시다 · 말씀하시다; 사원 · 대리 · 과장 · 부장 · 사장; 맞죠? · 그렇죠; 밥 먹었어? · 어디 가?; 옛날에는 · 요즘은; 살았다 · 나타났다 · 호랑이였다; 나 · 너 · 응 · 아니…): 213 piezas de 181 filas, las mismas 213 del encargo. La frase clave S3·1 (처음 뵙겠습니다. 잘 부탁드립니다) es un solo clip con el punto del medio, y cada fórmula tiene además su clip de la lista C; la S7·3 tiene dos clips, pregunta (우리 말 놓을까요?) y respuesta (좋아, 말 놓자). 다시 한번 말씀해 주시겠어요?, 우리 말 놓을까요?, 좋은 질문이네요 y 그동안 감사했습니다 son a la vez vocabulario y frase clave (un solo clip). Los ⚑ (주 52시간, 떡만둣국, 야간 자율 학습, 수시 · 정시, 칼퇴, 차례상) se grabaron tal como están hoy en la lista. Conviene escuchar una vez 주 52시간 (주 오십이 시간) y 1인 가구 (일인 가구), que la voz lee sola. ⚑ Los 188 nuevos todavía no están en git: hasta el push a `main`, sus URL dan 404 en el sitio.
 
-**Qué no reemplaza esto:** el clip de 20 segundos `B1_S0N_frases_clave.mp3` / `B2_S0N_frases_clave.mp3` / `C1_S0N_frases_clave.mp3` / `T2_S0N_frases_clave.mp3` sigue saliendo del coro de cierre (voz de Kiran, de Jay o de Abby con el grupo). **En Coreano para Niños no hay clip del coro** (son voces de menores): la referencia es el clip SunHi de esta lista y, si Abby quiere, su nota de voz de 10 segundos para el grupo de apoderados (B.14 y B.15 del diseño). Estos clips son la voz de referencia para el shadowing, las flashcards y el material del alumno. Los ⚑ pendientes de revisión con nativo (p. ej. 외동, 먼저 들어가 보겠습니다) se grabaron tal como están hoy en la lista: si el nativo cambia el texto, se genera un clip nuevo (otro nombre de archivo) y este queda sin uso.
+**Qué no reemplaza esto:** el clip de 20 segundos `B1_S0N_frases_clave.mp3` / `B2_S0N_frases_clave.mp3` / `C1_S0N_frases_clave.mp3` / `T2_S0N_frases_clave.mp3` / `C2_S0N_frases_clave.mp3` sigue saliendo del coro de cierre (voz de Kiran, de Jay o de Abby con el grupo). **En Coreano para Niños no hay clip del coro** (son voces de menores): la referencia es el clip SunHi de esta lista y, si Abby quiere, su nota de voz de 10 segundos para el grupo de apoderados (B.14 y B.15 del diseño). Estos clips son la voz de referencia para el shadowing, las flashcards y el material del alumno. Los ⚑ pendientes de revisión con nativo (p. ej. 외동, 먼저 들어가 보겠습니다) se grabaron tal como están hoy en la lista: si el nativo cambia el texto, se genera un clip nuevo (otro nombre de archivo) y este queda sin uso.
 
 ---
 
@@ -1177,4 +1179,254 @@
 
 ---
 
-*Generado con `clips_oct/extract.js` + `gen.js` + `build_md.js` (Básico 1 y 2), `clips_c1/extract.js` + `gen.js` + `build_md.js` (Conversacional 1), `clips_t2/extract.js` + `gen.js` + `build_md.js` (TOPIK II) y `clips_ninos/extract.js` + `gen.js` + `build_md.js` (Coreano para Niños) en el scratchpad (msedge-tts 2.0.7). Para agregar palabras: sumarlas a la lista C del diseño y volver a correr los tres scripts; los clips existentes no se tocan.*
+## Conversacional 2 (A2.2 · enero 2027) · vocabulario (lista C · 213 clips)
+
+| Texto | Curso · semana | URL | Estado |
+|---|---|---|---|
+| 초등학교 | C2 S1 | https://www.academiaseul.com/audio/kr/ecb488eb93b1ed9599eab590.mp3 | nuevo |
+| 중학교 | C2 S1 | https://www.academiaseul.com/audio/kr/eca491ed9599eab590.mp3 | nuevo |
+| 고등학교 | C2 S1 | https://www.academiaseul.com/audio/kr/eab3a0eb93b1ed9599eab590.mp3 | nuevo |
+| 교복 | C2 S1 | https://www.academiaseul.com/audio/kr/eab590ebb3b5.mp3 | nuevo |
+| 과목 | C2 S1 | https://www.academiaseul.com/audio/kr/eab3bcebaaa9.mp3 | nuevo |
+| 시간표 | C2 S1 | https://www.academiaseul.com/audio/kr/ec8b9ceab084ed919c.mp3 | nuevo |
+| 다니다 | C2 S1 | https://www.academiaseul.com/audio/kr/eb8ba4eb8b88eb8ba4.mp3 | nuevo |
+| 입학하다 | C2 S1 | https://www.academiaseul.com/audio/kr/ec9e85ed9599ed9598eb8ba4.mp3 | nuevo |
+| 졸업하다 | C2 S1 | https://www.academiaseul.com/audio/kr/eca1b8ec9785ed9598eb8ba4.mp3 | nuevo |
+| 선배 | C2 S1 · T2 S3 | https://www.academiaseul.com/audio/kr/ec84a0ebb0b0.mp3 | existente |
+| 후배 | C2 S1 · T2 S3 | https://www.academiaseul.com/audio/kr/ed9b84ebb0b0.mp3 | existente |
+| 방학 | C2 S1 · B2 S5 | https://www.academiaseul.com/audio/kr/ebb0a9ed9599.mp3 | existente |
+| 학원 | C2 S1 · B1 S6 | https://www.academiaseul.com/audio/kr/ed9599ec9b90.mp3 | existente |
+| 숙제 | C2 S1 · B2 S1 | https://www.academiaseul.com/audio/kr/ec8899eca09c.mp3 | existente |
+| 존댓말 | C2 S1 · C1 S1 | https://www.academiaseul.com/audio/kr/eca1b4eb8c93eba790.mp3 | existente |
+| 반말 | C2 S1 · C1 S1 | https://www.academiaseul.com/audio/kr/ebb098eba790.mp3 | existente |
+| 동기 | C2 S1 | https://www.academiaseul.com/audio/kr/eb8f99eab8b0.mp3 | nuevo |
+| 담임 선생님 | C2 S1 | https://www.academiaseul.com/audio/kr/eb8bb4ec9e8420ec84a0ec839deb8b98.mp3 | nuevo |
+| 급식 | C2 S1 | https://www.academiaseul.com/audio/kr/eab889ec8b9d.mp3 | nuevo |
+| 동아리 | C2 S1 · T2 S2 | https://www.academiaseul.com/audio/kr/eb8f99ec9584eba6ac.mp3 | existente |
+| 국어 | C2 S1 | https://www.academiaseul.com/audio/kr/eab5adec96b4.mp3 | nuevo |
+| 영어 | C2 S1 | https://www.academiaseul.com/audio/kr/ec9881ec96b4.mp3 | nuevo |
+| 수학 | C2 S1 | https://www.academiaseul.com/audio/kr/ec8898ed9599.mp3 | nuevo |
+| 과학 | C2 S1 | https://www.academiaseul.com/audio/kr/eab3bced9599.mp3 | nuevo |
+| 체육 | C2 S1 | https://www.academiaseul.com/audio/kr/ecb2b4ec9ca1.mp3 | nuevo |
+| 맞죠? | C2 S1 | https://www.academiaseul.com/audio/kr/eba79eeca3a03f.mp3 | nuevo |
+| 그렇죠 | C2 S1 | https://www.academiaseul.com/audio/kr/eab7b8eba087eca3a0.mp3 | nuevo |
+| 고등학교 때 | C2 S1 | https://www.academiaseul.com/audio/kr/eab3a0eb93b1ed9599eab59020eb958c.mp3 | nuevo |
+| 방학 때 | C2 S1 | https://www.academiaseul.com/audio/kr/ebb0a9ed959920eb958c.mp3 | nuevo |
+| 다시 만나서 반가워요 | C2 S1 | https://www.academiaseul.com/audio/kr/eb8ba4ec8b9c20eba78ceb8298ec849c20ebb098eab080ec9b8cec9a94.mp3 | nuevo |
+| 야간 자율 학습 | C2 S1 | https://www.academiaseul.com/audio/kr/ec95bceab08420ec9e90ec9ca820ed9599ec8ab5.mp3 | nuevo |
+| 밥 먹었어? | C2 S1 | https://www.academiaseul.com/audio/kr/ebb0a520eba8b9ec9788ec96b43f.mp3 | nuevo |
+| 어디 가? | C2 S1 | https://www.academiaseul.com/audio/kr/ec96b4eb949420eab0803f.mp3 | nuevo |
+| 다닌 적이 있어요 | C2 S1 | https://www.academiaseul.com/audio/kr/eb8ba4eb8b8c20eca081ec9db420ec9e88ec96b4ec9a94.mp3 | nuevo |
+| 수능 | C2 S2 · B2 S6 · T2 S6 | https://www.academiaseul.com/audio/kr/ec8898eb8aa5.mp3 | existente |
+| 시험을 보다 | C2 S2 · T2 S8 | https://www.academiaseul.com/audio/kr/ec8b9ced9798ec9d8420ebb3b4eb8ba4.mp3 | existente |
+| 수험생 | C2 S2 · T2 S6 | https://www.academiaseul.com/audio/kr/ec8898ed9798ec839d.mp3 | existente |
+| 성적 | C2 S2 | https://www.academiaseul.com/audio/kr/ec84b1eca081.mp3 | nuevo |
+| 점수 | C2 S2 · T2 S1 | https://www.academiaseul.com/audio/kr/eca090ec8898.mp3 | existente |
+| 합격하다 | C2 S2 | https://www.academiaseul.com/audio/kr/ed95a9eab2a9ed9598eb8ba4.mp3 | nuevo |
+| 떨어지다 | C2 S2 · T2 S8 | https://www.academiaseul.com/audio/kr/eb96a8ec96b4eca780eb8ba4.mp3 | existente |
+| 경쟁 | C2 S2 · T2 S7 | https://www.academiaseul.com/audio/kr/eab2bdec9f81.mp3 | existente |
+| 스트레스를 받다 | C2 S2 | https://www.academiaseul.com/audio/kr/ec8aa4ed8ab8eba088ec8aa4eba5bc20ebb09beb8ba4.mp3 | nuevo |
+| 노력하다 | C2 S2 · T2 S7 | https://www.academiaseul.com/audio/kr/eb85b8eba0a5ed9598eb8ba4.mp3 | existente |
+| 준비하다 | C2 S2 · C1 S8 | https://www.academiaseul.com/audio/kr/eca480ebb984ed9598eb8ba4.mp3 | existente |
+| 긴장되다 | C2 S2 · C1 S8 | https://www.academiaseul.com/audio/kr/eab8b4ec9ea5eb9098eb8ba4.mp3 | existente |
+| 밤늦게까지 | C2 S2 | https://www.academiaseul.com/audio/kr/ebb0a4eb8aa6eab28ceab98ceca780.mp3 | nuevo |
+| 시험장 | C2 S2 | https://www.academiaseul.com/audio/kr/ec8b9ced9798ec9ea5.mp3 | nuevo |
+| 결과 | C2 S2 · T2 S1 | https://www.academiaseul.com/audio/kr/eab2b0eab3bc.mp3 | existente |
+| 인생 | C2 S2 | https://www.academiaseul.com/audio/kr/ec9db8ec839d.mp3 | nuevo |
+| 제 생각에는 | C2 S2 | https://www.academiaseul.com/audio/kr/eca09c20ec839deab081ec9790eb8a94.mp3 | nuevo |
+| 저도 그렇게 생각해요 | C2 S2 | https://www.academiaseul.com/audio/kr/eca080eb8f8420eab7b8eba087eab28c20ec839deab081ed95b4ec9a94.mp3 | nuevo |
+| 저는 좀 다르게 생각해요 | C2 S2 | https://www.academiaseul.com/audio/kr/eca080eb8a9420eca28020eb8ba4eba5b4eab28c20ec839deab081ed95b4ec9a94.mp3 | nuevo |
+| 그럴 수도 있죠 | C2 S2 | https://www.academiaseul.com/audio/kr/eab7b8eb9fb420ec8898eb8f8420ec9e88eca3a0.mp3 | nuevo |
+| 한 번밖에 없어요 | C2 S2 | https://www.academiaseul.com/audio/kr/ed959c20ebb288ebb096ec979020ec9786ec96b4ec9a94.mp3 | nuevo |
+| 수시 | C2 S2 | https://www.academiaseul.com/audio/kr/ec8898ec8b9c.mp3 | nuevo |
+| 정시 | C2 S2 | https://www.academiaseul.com/audio/kr/eca095ec8b9c.mp3 | nuevo |
+| 재수 | C2 S2 | https://www.academiaseul.com/audio/kr/ec9eacec8898.mp3 | nuevo |
+| 수험표 | C2 S2 · T2 S8 | https://www.academiaseul.com/audio/kr/ec8898ed9798ed919c.mp3 | existente |
+| 엿 | C2 S2 · T2 S8 | https://www.academiaseul.com/audio/kr/ec97bf.mp3 | existente |
+| 찹쌀떡 | C2 S2 · T2 S8 | https://www.academiaseul.com/audio/kr/ecb0b9ec8c80eb96a1.mp3 | existente |
+| 직장 | C2 S3 | https://www.academiaseul.com/audio/kr/eca781ec9ea5.mp3 | nuevo |
+| 동료 | C2 S3 · T2 S3 | https://www.academiaseul.com/audio/kr/eb8f99eba38c.mp3 | existente |
+| 상사 | C2 S3 | https://www.academiaseul.com/audio/kr/ec8381ec82ac.mp3 | nuevo |
+| 신입 사원 | C2 S3 | https://www.academiaseul.com/audio/kr/ec8ba0ec9e8520ec82acec9b90.mp3 | nuevo |
+| 회의 | C2 S3 · T2 S3 | https://www.academiaseul.com/audio/kr/ed9a8cec9d98.mp3 | existente |
+| 출근하다 | C2 S3 · B2 S3 | https://www.academiaseul.com/audio/kr/ecb69ceab7bced9598eb8ba4.mp3 | existente |
+| 퇴근하다 | C2 S3 · B2 S3 | https://www.academiaseul.com/audio/kr/ed87b4eab7bced9598eb8ba4.mp3 | existente |
+| 야근 | C2 S3 | https://www.academiaseul.com/audio/kr/ec95bceab7bc.mp3 | nuevo |
+| 회식 | C2 S3 | https://www.academiaseul.com/audio/kr/ed9a8cec8b9d.mp3 | nuevo |
+| 명함 | C2 S3 | https://www.academiaseul.com/audio/kr/ebaa85ed95a8.mp3 | nuevo |
+| 계시다 | C2 S3 | https://www.academiaseul.com/audio/kr/eab384ec8b9ceb8ba4.mp3 | nuevo |
+| 드시다 | C2 S3 | https://www.academiaseul.com/audio/kr/eb939cec8b9ceb8ba4.mp3 | nuevo |
+| 주무시다 | C2 S3 | https://www.academiaseul.com/audio/kr/eca3bcebacb4ec8b9ceb8ba4.mp3 | nuevo |
+| 말씀하시다 | C2 S3 | https://www.academiaseul.com/audio/kr/eba790ec9480ed9598ec8b9ceb8ba4.mp3 | nuevo |
+| 사원 | C2 S3 | https://www.academiaseul.com/audio/kr/ec82acec9b90.mp3 | nuevo |
+| 대리 | C2 S3 | https://www.academiaseul.com/audio/kr/eb8c80eba6ac.mp3 | nuevo |
+| 과장 | C2 S3 | https://www.academiaseul.com/audio/kr/eab3bcec9ea5.mp3 | nuevo |
+| 부장 | C2 S3 | https://www.academiaseul.com/audio/kr/ebb680ec9ea5.mp3 | nuevo |
+| 사장 | C2 S3 | https://www.academiaseul.com/audio/kr/ec82acec9ea5.mp3 | nuevo |
+| 팀장님 | C2 S3 | https://www.academiaseul.com/audio/kr/ed8c80ec9ea5eb8b98.mp3 | nuevo |
+| 점심시간 | C2 S3 | https://www.academiaseul.com/audio/kr/eca090ec8bacec8b9ceab084.mp3 | nuevo |
+| 워라밸 | C2 S3 | https://www.academiaseul.com/audio/kr/ec9b8ceb9dbcebb0b8.mp3 | nuevo |
+| 처음 뵙겠습니다 <br>*también dentro de la frase clave S3·1 (clip propio, con las dos oraciones)* | C2 S3 | https://www.academiaseul.com/audio/kr/ecb298ec9d8c20ebb599eab2a0ec8ab5eb8b88eb8ba4.mp3 | nuevo |
+| 잘 부탁드립니다 <br>*también dentro de la frase clave S3·1 (clip propio, con las dos oraciones)* | C2 S3 | https://www.academiaseul.com/audio/kr/ec9e9820ebb680ed8381eb939ceba6bdeb8b88eb8ba4.mp3 | nuevo |
+| 식사하셨어요? | C2 S3 | https://www.academiaseul.com/audio/kr/ec8b9dec82aced9598ec85a8ec96b4ec9a943f.mp3 | nuevo |
+| 먼저 들어가 보겠습니다 | C2 S3 · B2 S3 | https://www.academiaseul.com/audio/kr/eba8bceca08020eb93a4ec96b4eab08020ebb3b4eab2a0ec8ab5eb8b88eb8ba4.mp3 | existente |
+| 네, 알겠습니다 | C2 S3 | https://www.academiaseul.com/audio/kr/eb84a42c20ec958ceab2a0ec8ab5eb8b88eb8ba4.mp3 | nuevo |
+| 신입이라서 긴장돼요 | C2 S3 | https://www.academiaseul.com/audio/kr/ec8ba0ec9e85ec9db4eb9dbcec849c20eab8b4ec9ea5eb8fbcec9a94.mp3 | nuevo |
+| 께서 | C2 S3 | https://www.academiaseul.com/audio/kr/eabb98ec849c.mp3 | nuevo |
+| 께 | C2 S3 | https://www.academiaseul.com/audio/kr/eabb98.mp3 | nuevo |
+| 수고하셨습니다 | C2 S3 · C1 S8 | https://www.academiaseul.com/audio/kr/ec8898eab3a0ed9598ec85a8ec8ab5eb8b88eb8ba4.mp3 | existente |
+| 주 52시간 <br>*⚑ dato por confirmar (vigencia y año); la cifra la lee la voz sola (주 오십이 시간): escuchar una vez* | C2 S3 | https://www.academiaseul.com/audio/kr/eca3bc203532ec8b9ceab084.mp3 | nuevo |
+| 칼퇴 | C2 S3 | https://www.academiaseul.com/audio/kr/ecb9bced87b4.mp3 | nuevo |
+| 설날 | C2 S4 · B1 S8 | https://www.academiaseul.com/audio/kr/ec84a4eb82a0.mp3 | existente |
+| 새해 | C2 S4 | https://www.academiaseul.com/audio/kr/ec8388ed95b4.mp3 | nuevo |
+| 세배 | C2 S4 | https://www.academiaseul.com/audio/kr/ec84b8ebb0b0.mp3 | nuevo |
+| 세뱃돈 | C2 S4 | https://www.academiaseul.com/audio/kr/ec84b8ebb183eb8f88.mp3 | nuevo |
+| 명절 | C2 S4 | https://www.academiaseul.com/audio/kr/ebaa85eca088.mp3 | nuevo |
+| 연휴 | C2 S4 | https://www.academiaseul.com/audio/kr/ec97b0ed9cb4.mp3 | nuevo |
+| 고향 | C2 S4 · B2 S1 | https://www.academiaseul.com/audio/kr/eab3a0ed96a5.mp3 | existente |
+| 댁 | C2 S4 | https://www.academiaseul.com/audio/kr/eb8c81.mp3 | nuevo |
+| 부모님 | C2 S4 | https://www.academiaseul.com/audio/kr/ebb680ebaaa8eb8b98.mp3 | nuevo |
+| 친척 | C2 S4 | https://www.academiaseul.com/audio/kr/ecb99cecb299.mp3 | nuevo |
+| 선물 | C2 S4 · B2 S7 | https://www.academiaseul.com/audio/kr/ec84a0ebacbc.mp3 | existente |
+| 음력 | C2 S4 | https://www.academiaseul.com/audio/kr/ec9d8ceba0a5.mp3 | nuevo |
+| 신정 | C2 S4 | https://www.academiaseul.com/audio/kr/ec8ba0eca095.mp3 | nuevo |
+| 귀성길 | C2 S4 | https://www.academiaseul.com/audio/kr/eab780ec84b1eab8b8.mp3 | nuevo |
+| 새해 복 많이 받으세요 | C2 S4 | https://www.academiaseul.com/audio/kr/ec8388ed95b420ebb3b520eba78eec9db420ebb09bec9cbcec84b8ec9a94.mp3 | nuevo |
+| 건강하세요 | C2 S4 | https://www.academiaseul.com/audio/kr/eab1b4eab095ed9598ec84b8ec9a94.mp3 | nuevo |
+| 다시 한번 말씀해 주시겠어요? | C2 S4 + frase clave S4 · T2 frase clave S3 | https://www.academiaseul.com/audio/kr/eb8ba4ec8b9c20ed959cebb28820eba790ec9480ed95b420eca3bcec8b9ceab2a0ec96b4ec9a943f.mp3 | existente |
+| 설날 잘 보내세요 | C2 S4 | https://www.academiaseul.com/audio/kr/ec84a4eb82a020ec9e9820ebb3b4eb82b4ec84b8ec9a94.mp3 | nuevo |
+| 까치설날 | C2 S4 | https://www.academiaseul.com/audio/kr/eab98cecb998ec84a4eb82a0.mp3 | nuevo |
+| 설 선물 세트 | C2 S4 | https://www.academiaseul.com/audio/kr/ec84a420ec84a0ebacbc20ec84b8ed8ab8.mp3 | nuevo |
+| 떡국 | C2 S5 | https://www.academiaseul.com/audio/kr/eb96a1eab5ad.mp3 | nuevo |
+| 차례 | C2 S5 | https://www.academiaseul.com/audio/kr/ecb0a8eba180.mp3 | nuevo |
+| 조상 | C2 S5 | https://www.academiaseul.com/audio/kr/eca1b0ec8381.mp3 | nuevo |
+| 성묘 | C2 S5 | https://www.academiaseul.com/audio/kr/ec84b1ebac98.mp3 | nuevo |
+| 추석 | C2 S5 · B1 S8 | https://www.academiaseul.com/audio/kr/ecb694ec849d.mp3 | existente |
+| 송편 | C2 S5 | https://www.academiaseul.com/audio/kr/ec86a1ed8eb8.mp3 | nuevo |
+| 한가위 | C2 S5 | https://www.academiaseul.com/audio/kr/ed959ceab080ec9c84.mp3 | nuevo |
+| 모이다 | C2 S5 | https://www.academiaseul.com/audio/kr/ebaaa8ec9db4eb8ba4.mp3 | nuevo |
+| 설거지하다 | C2 S5 | https://www.academiaseul.com/audio/kr/ec84a4eab1b0eca780ed9598eb8ba4.mp3 | nuevo |
+| 잔소리 | C2 S5 | https://www.academiaseul.com/audio/kr/ec9e94ec868ceba6ac.mp3 | nuevo |
+| 보름달 | C2 S5 | https://www.academiaseul.com/audio/kr/ebb3b4eba684eb8bac.mp3 | nuevo |
+| 전 | C2 S5 | https://www.academiaseul.com/audio/kr/eca084.mp3 | nuevo |
+| 윷놀이 | C2 S5 | https://www.academiaseul.com/audio/kr/ec9cb7eb8680ec9db4.mp3 | nuevo |
+| 손주 | C2 S5 | https://www.academiaseul.com/audio/kr/ec8690eca3bc.mp3 | nuevo |
+| 차가 막히다 | C2 S5 | https://www.academiaseul.com/audio/kr/ecb0a8eab08020eba789ed9e88eb8ba4.mp3 | nuevo |
+| 한 살 더 먹다 | C2 S5 | https://www.academiaseul.com/audio/kr/ed959c20ec82b420eb8d9420eba8b9eb8ba4.mp3 | nuevo |
+| 명절 잘 보내셨어요? | C2 S5 | https://www.academiaseul.com/audio/kr/ebaa85eca08820ec9e9820ebb3b4eb82b4ec85a8ec96b4ec9a943f.mp3 | nuevo |
+| 제가 도와 드릴게요 | C2 S5 | https://www.academiaseul.com/audio/kr/eca09ceab08020eb8f84ec998020eb939ceba6b4eab28cec9a94.mp3 | nuevo |
+| 옛날에는 | C2 S5 | https://www.academiaseul.com/audio/kr/ec989beb82a0ec9790eb8a94.mp3 | nuevo |
+| 요즘은 | C2 S5 | https://www.academiaseul.com/audio/kr/ec9a94eca698ec9d80.mp3 | nuevo |
+| 집집마다 달라요 | C2 S5 | https://www.academiaseul.com/audio/kr/eca791eca791eba788eb8ba420eb8baceb9dbcec9a94.mp3 | nuevo |
+| 사람마다 달라요 | C2 S5 · B2 frase clave S7 | https://www.academiaseul.com/audio/kr/ec82aceb9e8ceba788eb8ba420eb8baceb9dbcec9a94.mp3 | existente |
+| 역귀성 | C2 S5 | https://www.academiaseul.com/audio/kr/ec97adeab780ec84b1.mp3 | nuevo |
+| 명절 스트레스 | C2 S5 | https://www.academiaseul.com/audio/kr/ebaa85eca08820ec8aa4ed8ab8eba088ec8aa4.mp3 | nuevo |
+| 차례상 | C2 S5 | https://www.academiaseul.com/audio/kr/ecb0a8eba180ec8381.mp3 | nuevo |
+| 떡만둣국 <br>*⚑ varía por familia y región* | C2 S5 | https://www.academiaseul.com/audio/kr/eb96a1eba78ceb91a3eab5ad.mp3 | nuevo |
+| 옛날이야기 | C2 S6 | https://www.academiaseul.com/audio/kr/ec989beb82a0ec9db4ec95bceab8b0.mp3 | nuevo |
+| 전설 | C2 S6 | https://www.academiaseul.com/audio/kr/eca084ec84a4.mp3 | nuevo |
+| 호랑이 | C2 S6 · Niños S4 | https://www.academiaseul.com/audio/kr/ed98b8eb9e91ec9db4.mp3 | existente |
+| 곰 | C2 S6 · Niños S4 | https://www.academiaseul.com/audio/kr/eab3b0.mp3 | existente |
+| 나타나다 | C2 S6 | https://www.academiaseul.com/audio/kr/eb8298ed8380eb8298eb8ba4.mp3 | nuevo |
+| 도망가다 | C2 S6 | https://www.academiaseul.com/audio/kr/eb8f84eba79deab080eb8ba4.mp3 | nuevo |
+| 잡아먹다 | C2 S6 | https://www.academiaseul.com/audio/kr/ec9ea1ec9584eba8b9eb8ba4.mp3 | nuevo |
+| 남다 | C2 S6 | https://www.academiaseul.com/audio/kr/eb82a8eb8ba4.mp3 | nuevo |
+| 변하다 | C2 S6 | https://www.academiaseul.com/audio/kr/ebb380ed9598eb8ba4.mp3 | nuevo |
+| 착하다 | C2 S6 | https://www.academiaseul.com/audio/kr/ecb0a9ed9598eb8ba4.mp3 | nuevo |
+| 무섭다 | C2 S6 | https://www.academiaseul.com/audio/kr/ebacb4ec84adeb8ba4.mp3 | nuevo |
+| 오누이 | C2 S6 | https://www.academiaseul.com/audio/kr/ec98a4eb8884ec9db4.mp3 | nuevo |
+| 어느 날 | C2 S6 | https://www.academiaseul.com/audio/kr/ec96b4eb8a9020eb82a0.mp3 | nuevo |
+| 결국 | C2 S6 | https://www.academiaseul.com/audio/kr/eab2b0eab5ad.mp3 | nuevo |
+| 도깨비 | C2 S6 | https://www.academiaseul.com/audio/kr/eb8f84eab9a8ebb984.mp3 | nuevo |
+| 구미호 | C2 S6 | https://www.academiaseul.com/audio/kr/eab5acebafb8ed98b8.mp3 | nuevo |
+| 고개 | C2 S6 | https://www.academiaseul.com/audio/kr/eab3a0eab09c.mp3 | nuevo |
+| 해 <br>*ya estaba: pictograma del Lector* | C2 S6 · Lector | https://www.academiaseul.com/audio/kr/ed95b4.mp3 | existente |
+| 달 <br>*ya estaba: pictograma del Lector* | C2 S6 · Lector | https://www.academiaseul.com/audio/kr/eb8bac.mp3 | existente |
+| 옛날 옛적에 | C2 S6 | https://www.academiaseul.com/audio/kr/ec989beb82a020ec989beca081ec9790.mp3 | nuevo |
+| 떡 하나 주면 안 잡아먹지 <br>*frase del tigre en 반말, grabada como cita* | C2 S6 | https://www.academiaseul.com/audio/kr/eb96a120ed9598eb829820eca3bceba9b420ec958820ec9ea1ec9584eba8b9eca780.mp3 | nuevo |
+| 제가 한번 이야기해 볼게요 | C2 S6 | https://www.academiaseul.com/audio/kr/eca09ceab08020ed959cebb28820ec9db4ec95bceab8b0ed95b420ebb3bceab28cec9a94.mp3 | nuevo |
+| 신화 | C2 S6 | https://www.academiaseul.com/audio/kr/ec8ba0ed9994.mp3 | nuevo |
+| 호랑이 담배 피우던 시절에 | C2 S6 | https://www.academiaseul.com/audio/kr/ed98b8eb9e91ec9db420eb8bb4ebb0b020ed94bcec9ab0eb8d9820ec8b9ceca088ec9790.mp3 | nuevo |
+| 살았다 <br>*한다체 del cuento escrito* | C2 S6 | https://www.academiaseul.com/audio/kr/ec82b4ec9598eb8ba4.mp3 | nuevo |
+| 나타났다 <br>*한다체 del cuento escrito* | C2 S6 | https://www.academiaseul.com/audio/kr/eb8298ed8380eb82aceb8ba4.mp3 | nuevo |
+| 호랑이였다 <br>*한다체 del cuento escrito* | C2 S6 | https://www.academiaseul.com/audio/kr/ed98b8eb9e91ec9db4ec9880eb8ba4.mp3 | nuevo |
+| 정월대보름 | C2 S6 | https://www.academiaseul.com/audio/kr/eca095ec9b94eb8c80ebb3b4eba684.mp3 | nuevo |
+| 부럼 | C2 S6 | https://www.academiaseul.com/audio/kr/ebb680eb9fbc.mp3 | nuevo |
+| 주인공 | C2 S7 | https://www.academiaseul.com/audio/kr/eca3bcec9db8eab3b5.mp3 | nuevo |
+| 배우 | C2 S7 | https://www.academiaseul.com/audio/kr/ebb0b0ec9ab0.mp3 | nuevo |
+| 장면 | C2 S7 | https://www.academiaseul.com/audio/kr/ec9ea5eba9b4.mp3 | nuevo |
+| 결말 | C2 S7 | https://www.academiaseul.com/audio/kr/eab2b0eba790.mp3 | nuevo |
+| 현실 | C2 S7 | https://www.academiaseul.com/audio/kr/ed9884ec8ba4.mp3 | nuevo |
+| 추천하다 | C2 S7 | https://www.academiaseul.com/audio/kr/ecb694ecb29ced9598eb8ba4.mp3 | nuevo |
+| 감동적이다 | C2 S7 | https://www.academiaseul.com/audio/kr/eab090eb8f99eca081ec9db4eb8ba4.mp3 | nuevo |
+| 취업 | C2 S7 | https://www.academiaseul.com/audio/kr/ecb7a8ec9785.mp3 | nuevo |
+| 동갑 | C2 S7 | https://www.academiaseul.com/audio/kr/eb8f99eab091.mp3 | nuevo |
+| 말을 놓다 | C2 S7 | https://www.academiaseul.com/audio/kr/eba790ec9d8420eb8693eb8ba4.mp3 | nuevo |
+| 나 | C2 S7 · B1 S1 · Niños S2 | https://www.academiaseul.com/audio/kr/eb8298.mp3 | existente |
+| 너 | C2 S7 · B1 S1 | https://www.academiaseul.com/audio/kr/eb8488.mp3 | existente |
+| 응 | C2 S7 | https://www.academiaseul.com/audio/kr/ec9d91.mp3 | nuevo |
+| 아니 | C2 S7 | https://www.academiaseul.com/audio/kr/ec9584eb8b88.mp3 | nuevo |
+| 사극 | C2 S7 | https://www.academiaseul.com/audio/kr/ec82aceab7b9.mp3 | nuevo |
+| 웹툰 | C2 S7 | https://www.academiaseul.com/audio/kr/ec9bb9ed88b0.mp3 | nuevo |
+| 1인 가구 <br>*la cifra la lee la voz sola (1인 [이린]): escuchar una vez* | C2 S7 | https://www.academiaseul.com/audio/kr/31ec9db820eab080eab5ac.mp3 | nuevo |
+| 혼밥 | C2 S7 | https://www.academiaseul.com/audio/kr/ed98bcebb0a5.mp3 | nuevo |
+| 재벌 | C2 S7 | https://www.academiaseul.com/audio/kr/ec9eacebb28c.mp3 | nuevo |
+| 치맥 | C2 S7 | https://www.academiaseul.com/audio/kr/ecb998eba7a5.mp3 | nuevo |
+| 과장하다 | C2 S7 | https://www.academiaseul.com/audio/kr/eab3bcec9ea5ed9598eb8ba4.mp3 | nuevo |
+| 꼭 보세요 | C2 S7 | https://www.academiaseul.com/audio/kr/eabcad20ebb3b4ec84b8ec9a94.mp3 | nuevo |
+| 재미있다고 생각해요 | C2 S7 | https://www.academiaseul.com/audio/kr/ec9eacebafb8ec9e88eb8ba4eab3a020ec839deab081ed95b4ec9a94.mp3 | nuevo |
+| 우리 말 놓을까요? <br>*frase clave S7·3, la pregunta* | C2 S7 + frase clave S7 | https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20eba79020eb8693ec9d84eab98cec9a943f.mp3 | nuevo |
+| 오빠 | C2 S7 · B1 S4 · Niños S5 | https://www.academiaseul.com/audio/kr/ec98a4ebb9a0.mp3 | existente |
+| 언니 | C2 S7 · B1 S4 · Niños S5 | https://www.academiaseul.com/audio/kr/ec96b8eb8b88.mp3 | existente |
+| 드라마 같은 이야기 | C2 S7 | https://www.academiaseul.com/audio/kr/eb939ceb9dbceba78820eab099ec9d8020ec9db4ec95bceab8b0.mp3 | nuevo |
+| 주제 | C2 S8 | https://www.academiaseul.com/audio/kr/eca3bceca09c.mp3 | nuevo |
+| 설명하다 | C2 S8 | https://www.academiaseul.com/audio/kr/ec84a4ebaa85ed9598eb8ba4.mp3 | nuevo |
+| 비교하다 | C2 S8 | https://www.academiaseul.com/audio/kr/ebb984eab590ed9598eb8ba4.mp3 | nuevo |
+| 장점 | C2 S8 · T2 S7 | https://www.academiaseul.com/audio/kr/ec9ea5eca090.mp3 | existente |
+| 단점 | C2 S8 · T2 S7 | https://www.academiaseul.com/audio/kr/eb8ba8eca090.mp3 | existente |
+| 의견 | C2 S8 · T2 S1 | https://www.academiaseul.com/audio/kr/ec9d98eab2ac.mp3 | existente |
+| 질문 | C2 S8 | https://www.academiaseul.com/audio/kr/eca788ebacb8.mp3 | nuevo |
+| 경험 | C2 S8 | https://www.academiaseul.com/audio/kr/eab2bded9798.mp3 | nuevo |
+| 변화 | C2 S8 | https://www.academiaseul.com/audio/kr/ebb380ed9994.mp3 | nuevo |
+| 사회 | C2 S8 · T2 S1 | https://www.academiaseul.com/audio/kr/ec82aced9a8c.mp3 | existente |
+| 대답하다 | C2 S8 · B2 S8 | https://www.academiaseul.com/audio/kr/eb8c80eb8bb5ed9598eb8ba4.mp3 | existente |
+| 팟캐스트 | C2 S8 | https://www.academiaseul.com/audio/kr/ed8c9fecba90ec8aa4ed8ab8.mp3 | nuevo |
+| 청취자 | C2 S8 | https://www.academiaseul.com/audio/kr/ecb2adecb7a8ec9e90.mp3 | nuevo |
+| 좋은 질문이네요 | C2 S8 + frase clave S8 | https://www.academiaseul.com/audio/kr/eca28bec9d8020eca788ebacb8ec9db4eb84a4ec9a94.mp3 | nuevo |
+| 그동안 감사했습니다 | C2 S8 + frase clave S8 | https://www.academiaseul.com/audio/kr/eab7b8eb8f99ec958820eab090ec82aced9688ec8ab5eb8b88eb8ba4.mp3 | nuevo |
+| 다음 단계에서도 열심히 할게요 | C2 S8 | https://www.academiaseul.com/audio/kr/eb8ba4ec9d8c20eb8ba8eab384ec9790ec849ceb8f8420ec97b4ec8baced9e8820ed95a0eab28cec9a94.mp3 | nuevo |
+| 개학 | C2 S8 | https://www.academiaseul.com/audio/kr/eab09ced9599.mp3 | nuevo |
+
+## Conversacional 2 (A2.2 · enero 2027) · las 3 frases clave (B.14 · 25 clips)
+
+| Texto | Curso · semana | URL | Estado |
+|---|---|---|---|
+| 고등학교 때 저는 교복을 입고 학교에 다녔어요 | C2 frase clave S1 | https://www.academiaseul.com/audio/kr/eab3a0eb93b1ed9599eab59020eb958c20eca080eb8a9420eab590ebb3b5ec9d8420ec9e85eab3a020ed9599eab590ec979020eb8ba4eb8594ec96b4ec9a94.mp3 | nuevo |
+| 학교가 끝난 후에 학원에 가는 학생이 많죠? | C2 frase clave S1 | https://www.academiaseul.com/audio/kr/ed9599eab590eab08020eb819deb829c20ed9b84ec979020ed9599ec9b90ec979020eab080eb8a9420ed9599ec839dec9db420eba78eeca3a03f.mp3 | nuevo |
+| 내일 시험이 있으니까 오늘은 같이 공부할까요? | C2 frase clave S1 | https://www.academiaseul.com/audio/kr/eb82b4ec9dbc20ec8b9ced9798ec9db420ec9e88ec9cbceb8b88eab98c20ec98a4eb8a98ec9d8020eab099ec9db420eab3b5ebb680ed95a0eab98cec9a943f.mp3 | nuevo |
+| 좋은 대학교에 가려고 밤늦게까지 공부하는 학생이 많아요 | C2 frase clave S2 | https://www.academiaseul.com/audio/kr/eca28bec9d8020eb8c80ed9599eab590ec979020eab080eba0a4eab3a020ebb0a4eb8aa6eab28ceab98ceca78020eab3b5ebb680ed9598eb8a9420ed9599ec839dec9db420eba78eec9584ec9a94.mp3 | nuevo |
+| 수능은 일 년에 한 번밖에 없기 때문에 스트레스를 많이 받아요 | C2 frase clave S2 | https://www.academiaseul.com/audio/kr/ec8898eb8aa5ec9d8020ec9dbc20eb8584ec979020ed959c20ebb288ebb096ec979020ec9786eab8b020eb958cebacb8ec979020ec8aa4ed8ab8eba088ec8aa4eba5bc20eba78eec9db420ebb09bec9584ec9a94.mp3 | nuevo |
+| 수능 날에는 아침 일찍 시험장에 가야 해요 | C2 frase clave S2 | https://www.academiaseul.com/audio/kr/ec8898eb8aa520eb82a0ec9790eb8a9420ec9584ecb9a820ec9dbcecb08d20ec8b9ced9798ec9ea5ec979020eab080ec95bc20ed95b4ec9a94.mp3 | nuevo |
+| 처음 뵙겠습니다. 잘 부탁드립니다 | C2 frase clave S3 | https://www.academiaseul.com/audio/kr/ecb298ec9d8c20ebb599eab2a0ec8ab5eb8b88eb8ba42e20ec9e9820ebb680ed8381eb939ceba6bdeb8b88eb8ba4.mp3 | nuevo |
+| 부장님은 지금 회의실에 계세요 | C2 frase clave S3 | https://www.academiaseul.com/audio/kr/ebb680ec9ea5eb8b98ec9d8020eca780eab88820ed9a8cec9d98ec8ba4ec979020eab384ec84b8ec9a94.mp3 | nuevo |
+| 부장님, 오늘 먼저 퇴근해도 될까요? | C2 frase clave S3 | https://www.academiaseul.com/audio/kr/ebb680ec9ea5eb8b982c20ec98a4eb8a9820eba8bceca08020ed87b4eab7bced95b4eb8f8420eb90a0eab98cec9a943f.mp3 | nuevo |
+| 할머니, 새해 복 많이 받으세요 | C2 frase clave S4 | https://www.academiaseul.com/audio/kr/ed95a0eba8b8eb8b882c20ec8388ed95b420ebb3b520eba78eec9db420ebb09bec9cbcec84b8ec9a94.mp3 | nuevo |
+| 선생님은 설날에 어디 가세요? | C2 frase clave S4 | https://www.academiaseul.com/audio/kr/ec84a0ec839deb8b98ec9d8020ec84a4eb82a0ec979020ec96b4eb949420eab080ec84b8ec9a943f.mp3 | nuevo |
+| 다시 한번 말씀해 주시겠어요? | C2 S4 + frase clave S4 · T2 frase clave S3 | https://www.academiaseul.com/audio/kr/eb8ba4ec8b9c20ed959cebb28820eba790ec9480ed95b420eca3bcec8b9ceab2a0ec96b4ec9a943f.mp3 | existente |
+| 떡국이 정말 맛있어 보이네요 | C2 frase clave S5 | https://www.academiaseul.com/audio/kr/eb96a1eab5adec9db420eca095eba79020eba79bec9e88ec96b420ebb3b4ec9db4eb84a4ec9a94.mp3 | nuevo |
+| 제가 설거지할게요 | C2 frase clave S5 | https://www.academiaseul.com/audio/kr/eca09ceab08020ec84a4eab1b0eca780ed95a0eab28cec9a94.mp3 | nuevo |
+| 요즘은 설날에 여행 가는 사람도 많아요 | C2 frase clave S5 | https://www.academiaseul.com/audio/kr/ec9a94eca698ec9d8020ec84a4eb82a0ec979020ec97aced968920eab080eb8a9420ec82aceb9e8ceb8f8420eba78eec9584ec9a94.mp3 | nuevo |
+| 옛날 옛적에 산속에 엄마하고 오누이가 살았어요 | C2 frase clave S6 | https://www.academiaseul.com/audio/kr/ec989beb82a020ec989beca081ec979020ec82b0ec868dec979020ec9784eba788ed9598eab3a020ec98a4eb8884ec9db4eab08020ec82b4ec9598ec96b4ec9a94.mp3 | nuevo |
+| 엄마가 고개를 넘는데 호랑이가 나타났어요 | C2 frase clave S6 | https://www.academiaseul.com/audio/kr/ec9784eba788eab08020eab3a0eab09ceba5bc20eb8498eb8a94eb8db020ed98b8eb9e91ec9db4eab08020eb8298ed8380eb82acec96b4ec9a94.mp3 | nuevo |
+| 떡이 하나밖에 안 남았어요 | C2 frase clave S6 | https://www.academiaseul.com/audio/kr/eb96a1ec9db420ed9598eb8298ebb096ec979020ec958820eb82a8ec9598ec96b4ec9a94.mp3 | nuevo |
+| 드라마를 보고 한국 문화를 좋아하게 됐어요 | C2 frase clave S7 | https://www.academiaseul.com/audio/kr/eb939ceb9dbceba788eba5bc20ebb3b4eab3a020ed959ceab5ad20ebacb8ed9994eba5bc20eca28bec9584ed9598eab28c20eb9090ec96b4ec9a94.mp3 | nuevo |
+| 저도 주인공처럼 서울에서 살아 보고 싶어요 | C2 frase clave S7 | https://www.academiaseul.com/audio/kr/eca080eb8f8420eca3bcec9db8eab3b5ecb298eb9fbc20ec849cec9ab8ec9790ec849c20ec82b4ec958420ebb3b4eab3a020ec8bb6ec96b4ec9a94.mp3 | nuevo |
+| 우리 말 놓을까요? <br>*frase clave S7·3, la pregunta* | C2 S7 + frase clave S7 | https://www.academiaseul.com/audio/kr/ec9ab0eba6ac20eba79020eb8693ec9d84eab98cec9a943f.mp3 | nuevo |
+| 좋아, 말 놓자 <br>*frase clave S7·3, la respuesta* | C2 frase clave S7 | https://www.academiaseul.com/audio/kr/eca28bec95842c20eba79020eb8693ec9e90.mp3 | nuevo |
+| 제 생각에는 좋은 점도 있고 안 좋은 점도 있는 것 같아요 | C2 frase clave S8 | https://www.academiaseul.com/audio/kr/eca09c20ec839deab081ec9790eb8a9420eca28bec9d8020eca090eb8f8420ec9e88eab3a020ec958820eca28bec9d8020eca090eb8f8420ec9e88eb8a9420eab28320eab099ec9584ec9a94.mp3 | nuevo |
+| 좋은 질문이네요 | C2 S8 + frase clave S8 | https://www.academiaseul.com/audio/kr/eca28bec9d8020eca788ebacb8ec9db4eb84a4ec9a94.mp3 | nuevo |
+| 그동안 감사했습니다 | C2 S8 + frase clave S8 | https://www.academiaseul.com/audio/kr/eab7b8eb8f99ec958820eab090ec82aced9688ec8ab5eb8b88eb8ba4.mp3 | nuevo |
+
+---
+
+*Generado con `clips_oct/extract.js` + `gen.js` + `build_md.js` (Básico 1 y 2), `clips_c1/extract.js` + `gen.js` + `build_md.js` (Conversacional 1), `clips_t2/extract.js` + `gen.js` + `build_md.js` (TOPIK II), `clips_ninos/extract.js` + `gen.js` + `build_md.js` (Coreano para Niños) y `clips_c2/extract.js` + `gen.js` + `build_md.js` (Conversacional 2) en el scratchpad (msedge-tts 2.0.7). Para agregar palabras: sumarlas a la lista C del diseño y volver a correr los tres scripts; los clips existentes no se tocan.*
