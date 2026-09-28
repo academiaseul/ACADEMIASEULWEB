@@ -51,3 +51,18 @@ next-env.d.ts
 # Datos personales de leads (Brevo): nunca al repo (es publico)
 Brevo/*.csv
 Brevo/resumen_segmentos.json
+
+# Datos personales (contactos, inscritos, leads, certificados con nombre): NUNCA al repo público.
+# Se agregaron el 28 sept 2026; los archivos siguen en el disco, solo no se versionan.
+*.csv
+Contactos_*.xlsx
+**/Inscritos_*.xlsx
+Inscritos_*.xlsx
+**/Seguimiento_*.xlsx
+Seguimiento_*.xlsx
+**/Invitados_Calendar*.txt
+**/Email_17_Nuevos_Y_Setup_Pagos.md
+**/Certificados/*\[*
+# Archivos temporales de Office
+~$*
+**/~$*
