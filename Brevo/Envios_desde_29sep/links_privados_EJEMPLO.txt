@@ -1,0 +1,28 @@
+# Links privados para O1 y R1 · Academia Seúl · cohorte octubre 2026
+# NO pegues los links en este archivo (se sube al repo, que es público).
+# Corre una vez:  node Brevo/Envios_desde_29sep/rellenar_links.js
+# Eso crea Brevo/Envios_desde_29sep/_privado/links_privados.txt (fuera de git): pega ahí cada link después del "=".
+
+# Zoom: link de invitación de cada reunión recurrente (Zoom → Reuniones → Copiar invitación → el link https://…zoom.us/j/…)
+PEGAR LINK ZOOM BÁSICO 1 MARTES =
+PEGAR LINK ZOOM CONVERSACIONAL 1 =
+PEGAR LINK ZOOM BÁSICO 2 =
+PEGAR LINK ZOOM BÁSICO 1 JUEVES =
+PEGAR LINK ZOOM TOPIK II =
+PEGAR LINK ZOOM NIÑOS =
+
+# Grupos de WhatsApp: grupo → Invitar al grupo mediante enlace → Copiar enlace (https://chat.whatsapp.com/…)
+PEGAR LINK GRUPO BÁSICO 1 MARTES =
+PEGAR LINK GRUPO CONVERSACIONAL 1 =
+PEGAR LINK GRUPO BÁSICO 2 =
+PEGAR LINK GRUPO BÁSICO 1 JUEVES =
+PEGAR LINK GRUPO TOPIK II =
+PEGAR LINK GRUPO NIÑOS =
+
+# Guías en PDF, versión final (Google Drive → Compartir → "Cualquier persona con el enlace" · Lector)
+# Archivos: Lanzamiento_Octubre_2026/alumnos/Guia_Alumno_Octubre_2026.pdf y Guia_Familias_Ninos_Octubre_2026.pdf
+PEGAR LINK GUÍA DEL ALUMNO =
+PEGAR LINK GUÍA PARA FAMILIAS =
+
+# Texto, no link. Completa la frase "La segunda se paga ___." (propuesta: la semana del 9 de noviembre)
+ESCRIBIR FECHA CUOTA 2 =

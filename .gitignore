@@ -66,3 +66,9 @@ Seguimiento_*.xlsx
 # Archivos temporales de Office
 ~$*
 **/~$*
+
+# Links privados de Zoom y grupos de WhatsApp (correos O1/R1 rellenos): nunca al repo publico
+Brevo/Envios_desde_29sep/_privado/
+
+# Vistas previas generadas por Brevo/Envios_desde_29sep/herramientas/preview.js
+Brevo/Envios_desde_29sep/herramientas/previews/

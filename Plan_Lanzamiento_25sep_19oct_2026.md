@@ -1,3 +1,4 @@
+⚠️ Reemplazado desde el 29 sept por Plan_Desde_29sep_2026.md (el reto no se lanzó)
 # Plan de lanzamiento · vie 25 sept → lun 19 oct 2026 · Academia Seúl
 
 **Plan vigente desde el 25 sept 2026.** Reemplaza a [Plan_Choque_20sep_13oct_2026.md](Plan_Choque_20sep_13oct_2026.md) (de ahí salen los guiones y textos, con fechas nuevas).

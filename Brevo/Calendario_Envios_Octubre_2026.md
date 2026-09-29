@@ -1,3 +1,4 @@
+⚠️ Reemplazado desde el 29 sept por Calendario_Envios_desde_29sep_2026.md (el reto no se lanzó)
 # Calendario de envíos · Brevo · lanzamiento octubre 2026
 
 **Vigente desde el viernes 25 de septiembre de 2026.** Reemplaza las fechas de `Plan_Choque_20sep_13oct_2026.md` §3 y de `Plan_Email_Brevo_2026.md` §3: L1 y L1-b no salieron y todo se corrió.
