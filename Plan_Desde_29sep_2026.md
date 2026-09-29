@@ -38,7 +38,7 @@ Marcas: ✅ listo para usar hoy · 🔧 hay que ajustarlo (se dice qué) · 📚
 | ✅ | ≈ 1.600 audios nativos (voz SunHi) del vocabulario y las frases clave de los 6 cursos | 26–28 sep | `public/audio/kr/` · índice `Curriculo/audio/Clips_Octubre_2026.md` |
 | ✅ | **Deploys de Vercel arreglados** (27 sep): fallaban del 22 al 27 porque Resend se creaba al compilar sin clave; ahora se crea al recibir un mensaje. Todo lo de esos días quedó en línea el 27 | 27 sep | `app/api/route.ts` · `app/contact/route.ts` |
 | ✅ | 51 archivos con datos personales sacados del repo público (siguen en tu disco; `.gitignore` los bloquea) | 28 sep | — |
-| 🔧 | **Hoja resumen de una página**: está en `public/programas/` pero **no está subida** (hoy da 404). Claude la publica hoy con tu OK, antes de E1 | 28 sep | `/programas/Hoja_Resumen_Cursos_Octubre_2026.pdf` y `.png` |
+| ✅ | **Hoja resumen de una página**: publicada el 29 sept (el PDF que enlaza E1 ya responde) | 28 sep | `/programas/Hoja_Resumen_Cursos_Octubre_2026.pdf` y `.png` |
 
 ### Lanzamiento y ventas
 **Correos (Brevo)**
@@ -136,7 +136,7 @@ Rutina fija (no cuenta en la tabla): cada pago que llega → registro de pagos +
 
 | Fecha | Qué hacer (máx. 3) | Min | Archivo |
 |---|---|---|---|
-| **Mar 29 sep** · hoy | 1) **Kit + clip a Kiran** (antes de las 20:00) **y a Abby** (20:00–22:00 = mié 30, 08:00–10:00 KST). Plazo nuevo del clip: **jue 1, 22:00 Chile (= vie 2, 10:00 KST)**; a Abby, cambiar la primera línea (§7). 2) **OK a Claude** para subir la hoja resumen al sitio (hoy da 404). 3) **21:00 · sesión única de Brevo** (§4): E1–E5 programados. *Hoy es el día más largo; desde mañana baja.* | 50 | `Lanzamiento_Octubre_2026/profes/Mensajes_Kiran_Abby.md` §1–2 · `Kit_*.pdf` · `Brevo/Calendario_Envios_desde_29sep_2026.md` §2 · `Brevo/Envios_desde_29sep/LEEME_Como_pegar_en_Brevo.md` |
+| **Mar 29 sep** · hoy | 1) **Kit + clip a Kiran** (antes de las 20:00) **y a Abby** (20:00–22:00 = mié 30, 08:00–10:00 KST). Plazo nuevo del clip: **jue 1, 22:00 Chile (= vie 2, 10:00 KST)**; a Abby, cambiar la primera línea (§7). 2) ✅ Hoja resumen ya publicada en el sitio. 3) **21:00 · sesión única de Brevo** (§4): E1–E5 programados. *Hoy es el día más largo; desde mañana baja.* | 50 | `Lanzamiento_Octubre_2026/profes/Mensajes_Kiran_Abby.md` §1–2 · `Kit_*.pdf` · `Brevo/Calendario_Envios_desde_29sep_2026.md` §2 · `Brevo/Envios_desde_29sep/LEEME_Como_pegar_en_Brevo.md` |
 | **Mié 30** | 1) 10:00 sale **E1** (solo). WhatsApp 1:1: **ex-alumnos de julio** (f1 sin la frase del reto) + responder a quien contestó tu correo (mensaje principal + hoja resumen PNG). 2) 19:30 **carrusel del boletín** (7 láminas) → fijarlo · historia con link `/programa` · link en bio → `/nivel-1` · comentario fijado del Reel 01 → "Matrícula abierta hasta el domingo 11 · tu cupo en el link de la bio". 3) Estado de WhatsApp: hoja resumen PNG | 30 | `Mensajes_Alumnos.md` (f1) · `WhatsApp_Cursos_Octubre_2026.md` §1–3 · `Posts_Boletin_Cursos_Octubre_2026/` · caption `Captions_Redes_Octubre_2026.md` §2.1 |
 | **Jue 1 oct** | 1) WhatsApp **msg 1 (apertura)** a los contactos con WhatsApp del CSV que no son de julio ni te respondieron ya. 2) (opc.) 19:30 **carrusel 추석** (8 láminas) con la caption de §6. 3) Decidir: ¿existen los decks de clase de Básico 1, Básico 2 y Niños? 22:00: plazo del clip de las profes | 20 | `Plan_Lanzamiento_25sep_19oct_2026.md` Anexo A · `octubre/chuseok/` |
 | **Vie 2** | 1) 10:00 sale **E2** (solo). 2) (opc.) 19:30 post **Piso F** (caption §2.9 sin la línea del reto). 3) **Decidir el vivo del sáb 3**: si va, "Archivar directos" activado + vivo programado en Instagram + historia `03_vivo…`. TOPIK II: confirmar el banco de exámenes con audio | 15 | `Campana_Assets/instagram/03_piso_f_numeros.png` · `Captions…` §2.9, §2.12 |
@@ -288,7 +288,7 @@ En Academia Seúl no solo aprendemos coreano: aprendemos la cultura que hay detr
 ### Técnicos
 | Qué | Cuándo | Quién | Por qué |
 |---|---|---|---|
-| **Subir la hoja resumen al sitio** (commit + push de `public/programas/Hoja_Resumen_Cursos_Octubre_2026.pdf/.png` y verificar el deploy) | **hoy**, antes de E1 | Claude, con tu OK | Hoy da 404 y E1 la enlaza |
+| ~~Subir la hoja resumen al sitio~~ ✅ hecho el 29 sept (deploy verificado; el PDF de E1 responde 200) | — | Claude | — |
 | **Repo a privado:** GitHub → `academiaseul/ACADEMIASEULWEB` → Settings → Danger Zone → Change visibility → Private | esta semana (2 min) | Jay | El historial conserva datos personales y la clave vieja de Resend. Vercel sigue funcionando |
 | **Rotar `RESEND_API_KEY`** (resend.com → API Keys) y cargarla en Vercel con `OWNER_EMAIL` | esta semana (10 min) | Jay | Sin eso no te llega por correo el aviso de los pagos de Mercado Pago: revisa Mercado Pago a mano cada noche |
 | **Link de Mercado Pago de $75.000 CLP** → `MP_LINK_MENSUAL` en `lib/nivel1.ts` (o `MP_ACCESS_TOKEN` en Vercel) | antes del lun 5 | Jay (Claude lo pega) | Hoy las cuotas van por PayPal o transferencia |
