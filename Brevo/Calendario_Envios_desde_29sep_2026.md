@@ -10,12 +10,13 @@ Plan general: `Plan_Desde_29sep_2026.md` §4. **Cómo pegar cada correo en Brevo
 | Responder a | hola.academiaseul@gmail.com (en *Additional settings*; varios correos piden "respóndeme") |
 | Prospectos | lista `01 Leads sitio`: 97 contactos (P1 18 · P2 21 · P3 58). En P1 hay **solo 2** ex-alumnos de julio: al resto de julio se le escribe 1:1 por WhatsApp (plan §5) |
 | Inscritos | lista `02 Alumnos octubre`, y el dom 11 también `02a` … `02f` (una por clase) |
+| Primer contacto | lista `03 Primer contacto`: los contactos que reunieron la escuela y las profes y que **dieron su correo** a la academia o a una profe para recibir información. Recibe E0 (jue 1) y después se suma a E3, E4 y E5. Quién entra, tope diario y bajas: §7 |
 | Precio (así en todos) | US$150 el curso completo · o 2 cuotas de US$75 |
 | Cierre | domingo 11 de octubre, 23:59 (o antes si se llenan los cupos) |
-| Seguimiento | Todos los links al sitio ya traen `utm_source=brevo&utm_medium=email&utm_campaign=` + `e1` … `e5`, `o1`, `r1`, `n1`. En Brevo deja **apagado** *Activate UTM tracking* |
+| Seguimiento | Todos los links al sitio ya traen `utm_source=brevo&utm_medium=email&utm_campaign=` + `e0` … `e5`, `o1`, `r1`, `n1`. En Brevo deja **apagado** *Activate UTM tracking* |
 | Preheader | Ya viene **oculto dentro de cada HTML**. En Brevo deja **vacío** el campo *Preview text* (si lo llenas, se ve dos veces) |
 
-**Reglas:** máximo 1 correo por persona cada 48 h · máximo 300 envíos al día (plan gratis; el día más cargado no pasa de ~120) · **antes de cada envío a prospectos, mueve a `02 Alumnos octubre` a quien ya pagó**, porque Brevo aplica la exclusión en el momento del envío. Hay una sola excepción, a propósito: los inscritos de Básico 1 martes y de Conversacional 1 reciben O1 (09:00) y R1 (18:00) el mismo lunes 12. Son avisos de su clase.
+**Reglas:** máximo 1 correo por persona cada 48 h · máximo 300 envíos al día (plan gratis; se suman **todas** las campañas del día: deja margen para las pruebas y no pases de 290. Con `01` sola el día más cargado no pasa de ~120; con la `03`, los cupos están en §7) · **antes de cada envío a prospectos, mueve a `02 Alumnos octubre` a quien ya pagó**, porque Brevo aplica la exclusión en el momento del envío. Hay una sola excepción, a propósito: los inscritos de Básico 1 martes y de Conversacional 1 reciben O1 (09:00) y R1 (18:00) el mismo lunes 12. Son avisos de su clase.
 
 ---
 
@@ -26,15 +27,16 @@ Copia el asunto **de esta tabla** tal cual, sin comillas. Ninguno lleva etiqueta
 | Id | Sale (hora Chile) | Enviar a (*Send to*) | No enviar a (*Don't send to*) | Asunto | Preheader (ya va oculto en el HTML) | Archivo | Estado al 29 sep |
 |---|---|---|---|---|---|---|---|
 | **E1** | mié 30 sep · 10:00 | lista `01 Leads sitio` | lista `02 Alumnos octubre` | Te lo dejo en un minuto: los cursos de octubre 💙 | 5 cursos, días, horas, profes y precio en una página · matrícula hasta el domingo 11 | `E1_Programa_30sep.html` | ✅ Listo. El link al PDF de una página da 404 hasta que se publique la hoja resumen (§5, plan B) |
+| **E0** | jue 1 oct · 10:00 | lista `03 Primer contacto` (si pasa de 250: 2 lotes, §7) | listas `01 Leads sitio` **y** `02 Alumnos octubre` (nadie recibe E0 y E1, y nadie que ya pagó recibe una presentación) | Hola, somos Academia Seúl: te presentamos a tus profes 🐯 | Quiénes somos, tus 3 profes y cómo empezar gratis hoy | `E0_Presentacion_Academia_y_Profes.html` | ✅ Listo. Asunto alternativo, más corto en el celular: Jay, Kiran y Abby: tus profes de coreano 🐯 (usa uno solo, sin A/B) |
 | **E2** | vie 2 oct · 10:00 | lista `01 Leads sitio` | lista `02 Alumnos octubre` | Tu nombre en coreano, en 5 minutos 🐯 | El sábado 3 es 개천절 · generador de nombres, taller grabado, Lector y Dubu, gratis | `E2_Tu_Nombre_En_Coreano_2oct.html` | ✅ Listo |
-| **E3** | lun 5 oct · 10:00 | lista `01 Leads sitio` | lista `02 Alumnos octubre` | Última semana: cierro la matrícula el domingo 11 | Los 5 cursos con su día, hora y cupos · empezamos el martes 13 | `E3_Ultima_Semana_5oct.html` | ✅ Listo |
-| **E4 · A** | jue 8 oct · 10:00 | segmento `E4 · Abrió algo` | lista `02 Alumnos octubre` | Quedan 3 días (y mañana es 한글날) | El domingo 11 cierro la matrícula · US$150 el curso completo · o 2 cuotas de US$75 | `E4_Quedan_3_Dias_8oct.html` | ✅ Listo (1 aviso a propósito: `CURSO_SUGERIDO`, §5) |
-| **E4 · B** | jue 8 oct · 10:00 | lista `01 Leads sitio` | lista `02 Alumnos octubre` **y** segmento `E4 · Abrió algo` | ¿Todavía quieres aprender coreano? | (el mismo) | `E4_Quedan_3_Dias_8oct.html` (el mismo HTML) | ✅ Listo |
-| **E5** | dom 11 oct · 12:00 | segmento `E5 · Abrió E3 o E4` | lista `02 Alumnos octubre` | Hoy cierra · 23:59 hora Chile | Último día de matrícula de octubre · clases desde el martes 13 | `E5_Hoy_Cierra_11oct.html` | ✅ Listo |
+| **E3** | lun 5 oct · 10:00 | listas `01 Leads sitio` + `03 Primer contacto` (si la `03` pasa de 190: `01` + `03 · Lote B`, y el lote A el mar 6, §7) | lista `02 Alumnos octubre` | Última semana: cierro la matrícula el domingo 11 | Los 5 cursos con su día, hora y cupos · empezamos el martes 13 | `E3_Ultima_Semana_5oct.html` | ✅ Listo (pie apto para la `03` desde el 29 sep) |
+| **E4 · A** | jue 8 oct · 10:00 | segmento `E4 · Abrió algo` (ya incluye a los de la `03` que abrieron E0 o E3) | lista `02 Alumnos octubre` | Quedan 3 días (y mañana es 한글날) | El domingo 11 cierro la matrícula · US$150 el curso completo · o 2 cuotas de US$75 | `E4_Quedan_3_Dias_8oct.html` | ✅ Listo (1 aviso a propósito: `CURSO_SUGERIDO`, §5) |
+| **E4 · B** | jue 8 oct · 10:00 | listas `01 Leads sitio` + `03 Primer contacto` (= quien no abrió nada, también los de la `03` que no abrieron E0 ni E3) | lista `02 Alumnos octubre` **y** segmento `E4 · Abrió algo` | ¿Todavía quieres aprender coreano? | (el mismo) | `E4_Quedan_3_Dias_8oct.html` (el mismo HTML) | ✅ Listo. Si E4 A + E4 B pasa de 290, la `03` sale de E4 B (§7) |
+| **E5** | dom 11 oct · 12:00 | segmento `E5 · Abrió E3 o E4` (ya incluye a los de la `03` que abrieron E3 o E4) | lista `02 Alumnos octubre` | Hoy cierra · 23:59 hora Chile | Último día de matrícula de octubre · clases desde el martes 13 | `E5_Hoy_Cierra_11oct.html` | ✅ Listo |
 | **O1** | lun 12 oct · 09:00 | lista `02 Alumnos octubre` | — | ¡Empezamos esta semana! Tu Zoom, tu grupo y tu hora | Todo para tu primera clase: link de Zoom, grupo de WhatsApp, guía y programa de tu curso | `_privado/O1_Bienvenida_12oct.html` (copia rellena) | 🔧 Plantilla: 14 marcas ⟪…⟫ (§4) |
 | **R1a** | lun 12 oct · 18:00 | lista `02a B1 martes` | — | Mañana es tu primera clase: Básico 1 (A1.1) | Martes 13 de octubre · 20:00 hora Chile · tu link de Zoom adentro | `_privado/R1a_Basico1_Martes.html` | 🔧 Plantilla: 1 marca (Zoom) |
 | **R1b** | lun 12 oct · 18:00 | lista `02b Conversacional 1` | — | Mañana es tu primera clase: Conversacional 1 (A2.1) | Martes 13 de octubre · 21:00 hora Chile · tu link de Zoom adentro | `_privado/R1b_Conversacional1.html` | 🔧 Plantilla: 1 marca (Zoom) |
-| **N1** | mar 13 oct · 13:00 (49 h después de E5) | lista `01 Leads sitio` | lista `02 Alumnos octubre` (con la lista final) | Tu lugar en enero 2027 🌱 | Lista de espera de enero abierta · el Lector, Dubu y el taller siguen gratis | `N1_Lista_Enero_13oct.html` | ✅ Listo. Solo se manda con el sitio en lista de espera (§5) |
+| **N1** | mar 13 oct · 13:00 (49 h después de E5) | lista `01 Leads sitio` (¿también la `03`? lo decides el lun 12, §7) | lista `02 Alumnos octubre` (con la lista final) | Tu lugar en enero 2027 🌱 | Lista de espera de enero abierta · el Lector, Dubu y el taller siguen gratis | `N1_Lista_Enero_13oct.html` | ✅ Listo. Solo se manda con el sitio en lista de espera (§5) |
 | **R1c** | mar 13 oct · 18:00 | lista `02c Básico 2` | — | Mañana es tu primera clase: Básico 2 (A1.2) | Miércoles 14 de octubre · 21:00 hora Chile · tu link de Zoom adentro | `_privado/R1c_Basico2.html` | 🔧 Plantilla: 1 marca (Zoom) |
 | **R1d** | mié 14 oct · 18:00 | lista `02d B1 jueves` | — | Mañana es tu primera clase: Básico 1 (A1.1) | Jueves 15 de octubre · 20:00 hora Chile · tu link de Zoom adentro | `_privado/R1d_Basico1_Jueves.html` | 🔧 Plantilla: 1 marca (Zoom) |
 | **R1e** | mié 14 oct · 18:00 | lista `02e TOPIK II` | — | Mañana es tu primera clase: TOPIK II (B1+) | Jueves 15 de octubre · 21:00 hora Chile · tu link de Zoom adentro | `_privado/R1e_TOPIK2.html` | 🔧 Plantilla: 1 marca (Zoom) |
@@ -42,9 +44,9 @@ Copia el asunto **de esta tabla** tal cual, sin comillas. Ninguno lleva etiqueta
 
 Todas las rutas son relativas a `Brevo/Envios_desde_29sep/`. En O1 y en los R1 se pega **la copia rellena de `_privado/`**, nunca la plantilla (§4).
 
-**Plan B de fechas:** si tu correo largo con el programa salió **después del lunes 28 a las 10:00**, E1 pasa al **jueves 1 a las 10:00** y E2 al **sábado 3 a las 10:00**. Lo demás no cambia. E2 dice "Este sábado 3 es 개천절", sin "mañana", así que sirve para los dos días.
+**Plan B de fechas:** si tu correo largo con el programa salió **después del lunes 28 a las 10:00**, E1 pasa al **jueves 1 a las 10:00** y E2 al **sábado 3 a las 10:00**. Lo demás no cambia. E2 dice "Este sábado 3 es 개천절", sin "mañana", así que sirve para los dos días. E0 sale igual el jue 1 a las 10:00 (son listas distintas y nadie recibe los dos), pero ese día le queda menos cupo (§7).
 
-**Nombre interno de cada campaña** (solo lo ves tú; ayuda a encontrarlas): `E1 · Programa · 30 sep` · `E2 · Tu nombre · 2 oct` · `E3 · Última semana · 5 oct` · `E4 A · Abrió algo · 8 oct` · `E4 B · No abrió · 8 oct` · `E5 · Hoy cierra · 11 oct` · `O1 · Bienvenida · 12 oct` · `R1a · Básico 1 martes` · `R1b · Conversacional 1` · `R1c · Básico 2` · `R1d · Básico 1 jueves` · `R1e · TOPIK II` · `R1f · Niños` · `N1 · Lista enero · 13 oct`.
+**Nombre interno de cada campaña** (solo lo ves tú; ayuda a encontrarlas): `E0 · Presentación · 1 oct` (con lotes: `E0 A · Presentación · 1 oct`, `E0 B · Presentación · 2 oct` y `E3 A · Última semana · 6 oct`, §7) · `E1 · Programa · 30 sep` · `E2 · Tu nombre · 2 oct` · `E3 · Última semana · 5 oct` · `E4 A · Abrió algo · 8 oct` · `E4 B · No abrió · 8 oct` · `E5 · Hoy cierra · 11 oct` · `O1 · Bienvenida · 12 oct` · `R1a · Básico 1 martes` · `R1b · Conversacional 1` · `R1c · Básico 2` · `R1d · Básico 1 jueves` · `R1e · TOPIK II` · `R1f · Niños` · `N1 · Lista enero · 13 oct`.
 
 **E4 son dos campañas normales** con el mismo HTML y distinto asunto. No uses la opción *A/B test* de Brevo, porque esa reparte a las personas al azar.
 
@@ -52,9 +54,10 @@ Todas las rutas son relativas a `Brevo/Envios_desde_29sep/`. En O1 y en los R1 s
 
 ## 2 · Sesión única de programación en Brevo · hoy martes 29 · 21:00 (≈ 45 min)
 
-Deja programados E1, E2, E3, E4 A, E4 B y E5. O1, los R1 y N1 **no** se programan hoy: necesitan los links de Zoom, los grupos y la lista final (dom 11 en la noche y lun 12).
+Deja programados E1, E2, E3, E4 A, E4 B y E5, y crea la lista `03 Primer contacto` (vacía). O1, los R1 y N1 **no** se programan hoy: necesitan los links de Zoom, los grupos y la lista final (dom 11 en la noche y lun 12). E0 se programa el **jue 1**, cuando importes la `03` (§2-b).
 
-0. **Solo si Brevo todavía no está listo** (+20 min): remitente verificado, zona de envío *America/Santiago*, CSV importado a `01 Leads sitio`, atributo de texto `CURSO_SUGERIDO` y lista vacía `02 Alumnos octubre`. Detalle en `Brevo/Plan_Email_Brevo_2026.md` §2.
+0. **Solo si Brevo todavía no está listo** (+20 min): remitente verificado, zona de envío *America/Santiago*, CSV importado a `01 Leads sitio`, atributos de texto `CURSO_SUGERIDO` y `ORIGEN` y lista vacía `02 Alumnos octubre`. Detalle en `Brevo/Plan_Email_Brevo_2026.md` §2.
+   **Lista `03 Primer contacto` (1 min, siempre):** *CRM › Contacts › Lists* → *Create a list* → nombre exacto `03 Primer contacto` → *Create*. Hoy queda **vacía**: la creas ahora para dejarla ya en los destinatarios de E3 y E4 B, porque Brevo mira quién está en cada lista recién al momento del envío. Si ya la tenías como `03 Base escuela` (`Plan_Email_Brevo_2026.md` §2 y §6), úsala con ese nombre y léelo así en todo este calendario.
 1. **Antes de empezar (5 min):**
    - Mueve a `02 Alumnos octubre` a quien ya pagó (*CRM › Contacts* → busca el correo → agrégalo a la lista).
    - Si tu correo largo salió desde Gmail a personas que **no** están en `01` y que pidieron información, agrégalas a `01`.
@@ -62,23 +65,32 @@ Deja programados E1, E2, E3, E4 A, E4 B y E5. O1, los R1 y N1 **no** se programa
 2. **Crea los 2 segmentos (5 min, §3):** `E4 · Abrió algo` y `E5 · Abrió E3 o E4`. Se pueden crear hoy porque se llenan solos con las aperturas.
 3. **Por cada correo, en este orden: E1 → E2 → E3 → E4 A → E4 B → E5.** Sigue los pasos del LEEME:
    *Marketing › Campaigns → Create campaign → Email → Regular* → nombre interno → *Create campaign*
-   → *Sender* → *Recipients* (*Send to* + *Advanced options → Don't send to*, según la tabla)
+   → *Sender* → *Recipients* (*Send to* + *Advanced options → Don't send to*, según la tabla; en **E3 y E4 B**, *Send to* lleva `01 Leads sitio` **y** `03 Primer contacto`)
    → *Subject* (asunto de la tabla, *Preview text* vacío)
    → *Design: Start designing → Start from scratch → HTML custom code* → pegar → *Save & quit*
    → *Additional settings*: Reply-To y *UTM tracking* apagado
    → *Preview & test* (con nombre y sin nombre) → *Send test email* a hola.academiaseul@gmail.com → míralo en el celular
    → *Schedule → Schedule for later* → fecha y hora de la tabla.
    **Atajo:** cuando E1 quede programada, en la lista de campañas usa *Duplicate* sobre E1 para crear E2, E3 y el resto. La copia conserva remitente, destinatarios y Reply-To. Solo cambias el nombre, el asunto, el diseño (en el editor: Ctrl+A, Supr y pegas el HTML nuevo), los destinatarios de E4 y E5 y la fecha.
-4. **Al terminar:** en *Marketing › Campaigns* tienen que verse 6 campañas *Scheduled*, con estas fechas: 30 sep 10:00 · 2 oct 10:00 · 5 oct 10:00 · 8 oct 10:00 (dos) · 11 oct 12:00.
+4. **Al terminar:** en *Marketing › Campaigns* tienen que verse 6 campañas *Scheduled*, con estas fechas: 30 sep 10:00 · 2 oct 10:00 · 5 oct 10:00 · 8 oct 10:00 (dos) · 11 oct 12:00. El jue 1 se suma E0 (§2-b).
 5. **Si Brevo no deja programar E4 A o E5** porque su segmento todavía está vacío: déjalas en borrador (*Draft*). E4 A se termina el **jue 8 a las 09:30** (5 min). E5 se programa el **jue 8 en la tarde**, cuando E4 ya salió y el segmento tiene gente, o a más tardar el dom 11 antes de las 11:30. E4 B siempre se puede programar hoy.
 
-**Controles de 2 minutos en los días de envío** (ya están en el plan §3): lun 5, jue 8 y dom 11, antes de la hora de salida, mueve a los nuevos pagados a `02`. El jue 8 a las 09:30 y el dom 11 a las 11:30, abre la campaña programada y revisa que el número de destinatarios tenga sentido. E4 A + E4 B tienen que sumar lo mismo que `01` − `02`.
+**Controles de 2 minutos en los días de envío** (ya están en el plan §3): lun 5, jue 8 y dom 11, antes de la hora de salida, mueve a los nuevos pagados a `02`. El jue 8 a las 09:30 y el dom 11 a las 11:30, abre la campaña programada y revisa que el número de destinatarios tenga sentido. E4 A + E4 B tienen que sumar lo mismo que (`01` + `03`) − `02`, y **no pasar de 290** (si pasa, §7.3). E5, lo mismo: 290 como máximo.
+
+### 2-b · Jueves 1 antes de las 09:30 · importar la `03` y programar E0 (≤ 15 min)
+
+1. **El CSV** (Excel → *Guardar como* → *CSV UTF-8*), **solo con la columna SÍ del §7.1**. Columnas: `EMAIL` · `FIRSTNAME` (solo el primer nombre, con mayúscula inicial: "María", no "MARÍA JOSÉ PÉREZ"; si no lo tienes, vacío, y el correo dice "¡Hola, chingu!") · `ORIGEN` (de dónde salió cada correo: `escuela`, `kiran`, `abby`, `taller`…; así, si alguien pregunta "¿de dónde sacaron mi correo?", le respondes con la verdad).
+   **Atajo:** el mié 30 pásale el archivo a Claude. Lo limpia (duplicados, correos mal escritos y genéricos), lo cruza con `01` y `02`, arregla los nombres y te devuelve el CSV listo, con los lotes si hacen falta (§7.2). El CSV tiene datos personales: **nunca al repo**; guárdalo en `Brevo/` (`.gitignore` ya bloquea `*.csv`).
+2. **Importa:** *CRM › Contacts* → *Import contacts* → *Upload a file* → el CSV → mapea `EMAIL`, `FIRSTNAME` y `ORIGEN` → lista `03 Primer contacto` → confirma. Cuando Brevo pregunte si los contactos aceptaron recibir tus correos, puedes decir que sí con la conciencia tranquila **solo** si importaste la columna SÍ.
+3. **Mira el número** de la lista. Si alguien ya estaba en `01` o `02`, Brevo lo suma también a `03`, y está bien: la exclusión hace que no reciba E0. Si la `03` pasa de **190**, lee el §7.2 antes de seguir.
+4. **Programa E0:** en *Marketing › Campaigns*, *Duplicate* sobre E1 → nombre `E0 · Presentación · 1 oct` → **Recipients: en *Send to* cambia `01 Leads sitio` por `03 Primer contacto`, y en *Don't send to* deja `01 Leads sitio` + `02 Alumnos octubre`** (la copia se queda con los destinatarios de E1: es el error más fácil de cometer con este correo) → asunto de la tabla, *Preview text* vacío → *Design → Edit*: Ctrl+A, Supr, pega `E0_Presentacion_Academia_y_Profes.html` → *Save & quit* → Reply-To y *UTM tracking* apagado (vienen de E1) → *Preview & test* con un contacto con nombre y otro sin nombre → *Send test email* → míralo en el celular (§5) → *Schedule for later* → **jue 1 · 10:00**.
+5. Si hiciste lotes: `E0 B` y `E3 A` (§7.2).
 
 ---
 
 ## 3 · Segmentos de actividad (E4 y E5)
 
-Se crean una vez y Brevo los actualiza solo: *CRM › Contacts › Segments → Create a segment → Create segment from scratch*.
+Se crean una vez y Brevo los actualiza solo: *CRM › Contacts › Segments → Create a segment → Create segment from scratch*. Los dos cuentan aperturas de cualquier campaña, así que incluyen solos a los de la `03` que abran E0, E3 o E4: no hay que agregarles nada.
 
 **`E4 · Abrió algo`**: quién abrió algún correo en los últimos 30 días. El jue 8 a las 10:00 eso significa E1, E2 o E3, y tu correo largo si salió por Brevo.
 1. Condición: *Marketing › Email › Email opened*.
@@ -134,6 +146,10 @@ En total son 15 marcas y todas se rellenan desde un solo archivo. O1 lleva 14 (t
 
 En todos: saludo "¡Hola, [nombre]!" y, en un contacto sin nombre, "¡Hola, chingu!" · nada se sale por la derecha en el celular · precio exacto · solo azul, navy y dorado · WhatsApp → chat con +56 9 4211 5562 · al pie, "Darme de baja" y "Ver en el navegador" (en la prueba a veces son de ejemplo; en el envío real funcionan). En el plan gratis, **los links del correo de prueba vencen unos 30 minutos después de que llega**: tócalos pronto.
 
+**E0 · Presentación** (jue 1, lista `03`): primer contacto con quien todavía no conoce la academia, o no sabe de nosotros hace meses. Presenta Academia Seúl y a Jay, Kiran y Abby (tarjetas con su nombre en hangul en un círculo, sin fotos), los 5 cursos de octubre con el precio **una sola vez** y sin cuenta regresiva, 4 recursos gratis y el recuadro "¿Por qué te llega este correo?" con la baja en un clic y "responde 'no, gracias'". A diferencia de E1, no da por hecho que la persona leyó tu correo largo.
+- Prueba: los 3 círculos **재희** (azul), **기란** (navy) y **미영** (dorado), con el hangul como letras (en Outlook de escritorio los círculos salen cuadrados, y es normal) · en la tabla "Este octubre", cada curso abre su clase en `/nivel-1` y Conversacional 1 dice "clase en coreano" · "Ver los cursos y elegir", el test de nivel, Lector, Dubu, taller (el video carga) y "Tu nombre en coreano" abren · el recuadro de la baja y, al pie, "Darme de baja", "Ver en el navegador" y "Privacidad" · en *Recipients*, el número = tamaño de la `03` menos los que también están en `01` o `02`.
+- Si alguien responde: "no, gracias" o "¿de dónde sacaron mi correo?" → §7.4 · pregunta por los cursos → igual que con E1 (abajo).
+
 **E1 · Programa corto** (mié 30): 5 tarjetas con nivel, para quién es, día y hora de Chile, profe, 1.ª clase y un botón con la clase ya marcada; luego lo que incluyen todos los cursos, el precio, "¿no sabes cuál es tu curso?" con el test, el PDF de una página y el cierre el dom 11. Sirve a quien leyó tu correo largo y a quien no.
 - **Plan B del PDF**, si la hoja resumen todavía da 404 el mié 30 antes de las 10:00: abre el .html con el Bloc de notas y haz 2 reemplazos (Ctrl+H): `Hoja_Resumen_Cursos_Octubre_2026.pdf` → `Programa_Cursos_Octubre_2026.pdf` (8 págs, ya en línea) y `Ver el programa <span style="white-space:nowrap;">en una página (PDF)</span>` → `Ver el programa de cursos (PDF)`. Si E1 ya está programada, corrígela en su diseño (*Design → Edit*) y vuelve a guardarla.
 - Prueba: toca un botón de cada curso (Básico 1 martes y jueves, Básico 2, Conversacional 1, TOPIK II y Niños) y revisa que `/nivel-1` abra con esa clase marcada. "Test de nivel gratis" → `/test-nivel` · "lista de espera" → Conversacional 2.
@@ -151,6 +167,7 @@ En todos: saludo "¡Hola, [nombre]!" y, en un contacto sin nombre, "¡Hola, chin
 - La tarjeta usa `{{ contact.CURSO_SUGERIDO|default:"Básico 1 (A1.1)" }}`. Revisa que el atributo exista (*CRM › Contacts → Settings → Contact attributes* → `CURSO_SUGERIDO`, tipo texto). Si falta el dato, muestra "Básico 1 (A1.1)" y no se rompe.
 - En el CSV, 4 contactos traen "… · test de nivel" al final (1 en P1, 3 en P2) y la tarjeta lo mostraría completo. Si prefieres que diga solo el curso, filtra `CURSO_SUGERIDO` contiene "test de nivel" y borra ese final en esos 4 (2 min).
 - Prueba: *Preview* con un contacto de Básico 2 (debe decir "Básico 2 (A1.2)") y con uno sin dato ("Básico 1 (A1.1)"). Manda una prueba de cada campaña: cambia el asunto y el cuerpo es el mismo.
+- A los de la `03` la tarjeta les dice "Básico 1 (A1.1)", porque no tienen `CURSO_SUGERIDO`. Justo abajo viene "¿No es el tuyo?" con los 5 cursos y el test, así que funciona igual.
 
 **E5 · Hoy cierra** (dom 11): son 4 líneas: "Si ya te inscribiste, ignora este correo", botón con el precio, WhatsApp y la lista de enero 2027. Se lee en una sola pantalla.
 - Ese día ten el WhatsApp a mano: las historias de las 16:00 también mandan ahí.
@@ -173,7 +190,7 @@ En todos: saludo "¡Hola, [nombre]!" y, en un contacto sin nombre, "¡Hola, chin
 
 **N1 · Lista de enero** (mar 13, se programa el lun 12): la cohorte de octubre arrancó y la próxima es en enero de 2027, con el estreno de Conversacional 2 (A2.2). Trae el botón a la lista de espera, los links por curso, "responde 'enero' y te anoto yo" y los 4 recursos gratis. No dice día, hora, profe ni precio de Conversacional 2.
 - **Antes de programarlo:** el sitio tiene que estar en lista de espera (`COHORTE_ABIERTA = false` en `lib/nivel1.ts`, con el deploy verificado el lun 12). Con la cohorte todavía abierta, los links por curso muestran "ya tiene matrícula abierta" en `/notificarme`. Si el cambio no se hizo, N1 no sale.
-- Respuestas "enero": agrégalas a una lista nueva `05 Enero 2027` (el número 03 ya está reservado para `03 Base escuela` en `Plan_Email_Brevo_2026.md`).
+- Respuestas "enero": agrégalas a una lista nueva `05 Enero 2027` (el número 03 es `03 Primer contacto`).
 - Párrafo opcional, solo si aceptas inscripciones tardías esa semana: pégalo en su propia línea justo después del párrafo que termina en `el paso que sigue a Conversacional 1.</p>` y vuelve a validarlo:
   `<p style="margin:0 0 14px 0;">¿Se te pasó la fecha por unos días? Escríbeme hoy al WhatsApp y vemos si todavía te puedo sumar a un grupo de esta semana.</p>`
 
@@ -185,6 +202,7 @@ En todos: saludo "¡Hola, [nombre]!" y, en un contacto sin nombre, "¡Hola, chin
 
 | Correo | Resultado | Links |
 |---|---|---|
+| E0 (con nombre y sin nombre; los 2 asuntos) | LISTO · 0 fallas · 0 avisos · 26 KB | los 16, en 200 |
 | E1 | LISTO · 0 fallas · 0 avisos | 13 de 14 en 200 · el PDF de una página, "pendiente de deploy" (404 hasta publicar la hoja resumen) |
 | E2 · E3 · E5 · N1 | LISTO · 0 fallas · 0 avisos | todos en 200 |
 | E4 (asuntos A y B) | LISTO · 0 fallas · 1 aviso a propósito (`CURSO_SUGERIDO`) | todos en 200 |
@@ -192,9 +210,92 @@ En todos: saludo "¡Hola, [nombre]!" y, en un contacto sin nombre, "¡Hola, chin
 | R1a … R1f (plantillas) | NO LISTO **a propósito**: 2 fallas cada uno, las marcas de Zoom | los links reales, en 200 |
 | O1 y R1a … R1f rellenados con links de prueba | LISTO · 0 fallas (O1: 1 aviso que viene del link de prueba) | en 200 |
 
+E3, E4, E5 y N1 se volvieron a validar el 29 sep después de cambiarles el pie para la `03` (§7.1): siguen LISTO, con los mismos resultados de la tabla.
 También se validaron sin nombre ("¡Hola, chingu!") y en el celular (390 px): nada se sale de la pantalla y no hay nada rojo. Peso: E1 35 KB y O1 26 KB; los demás, entre 6 y 13 KB (Gmail recorta cerca de 102 KB).
 Capturas (700 px y 390 px) y hoja de contacto con la vista de celular de todos: carpeta temporal de la sesión, `scratchpad/brevo_v2/previews/` (`_hoja.png`). La prueba que vale es el *Send a test* en tu celular.
 
 **No usar más** (quedan como referencia en `Brevo/`): `L1_Lanzamiento_P1.html`, `L1b_Taller_P2P3.html`, `L2_Reto_y_Vivo.html`, `L3_Vivo_Manana.html`, `L4_Ultima_Semana.html`, `L5_Quedan_3_Dias.html`, `L5b_Hoy_Cierra.html`, `O1_Bienvenida_Inscritos.html`, `R1_Recordatorio_Primera_Clase.html`, `N1_Lista_Enero_2027.html` y `Email_Lanzamiento_Brevo.html`. Hablan del reto, de 추석 "hoy" o del vivo, y algunos se rompen en el celular.
+
+---
+
+## 7 · Lista `03 Primer contacto` (E0): quién entra, tope diario y bajas
+
+E0 es el primer correo para los contactos que reunieron la escuela y las profes: gente que todavía no conoce Academia Seúl, o que no sabe de nosotros hace meses. Por eso va a una lista aparte y no a `01` (E1 da por hecho que la persona ya leyó tu correo largo). Es la lista que `Plan_Email_Brevo_2026.md` §6 reservó como `03 Base escuela`. Un cambio a propósito respecto de ese plan, que pedía un primer correo sin precio dentro de 3 correos en 10 días: con la matrícula cerrando el dom 11, E0 es lo único que mucha gente de la `03` va a abrir, así que trae el precio una sola vez, al final de la tabla, sin cuenta regresiva ni presión.
+
+### 7.1 · Antes de importar: quién SÍ entra y quién NO
+
+**Por qué importa tanto.** La política de Brevo prohíbe mandar correos a listas compradas, a correos sacados de internet y a personas que no dieron su permiso. Si llegan muchas quejas de spam o muchos rebotes, Brevo **suspende la cuenta**, y justo ahora eso te dejaría sin E3, E4, E5, O1 y los recordatorios de la primera clase. Además, en Chile la Ley 19.496 (art. 28 B) pide que cada correo promocional diga quién lo manda y de qué se trata, y que traiga una forma fácil de pedir que no te escriban más; desde que alguien lo pide, no se le puede volver a escribir. (Es la lectura práctica, no una asesoría legal.)
+
+E0 cumple su parte: dice quién escribe, explica por qué le llega el correo ("porque en algún momento compartiste tu correo con Academia Seúl o con alguno de nuestros profes"), trae la baja con un clic en dos lugares y ofrece responder "no, gracias". Desde el 29 sep, el pie de E3, E4, E5 y N1 dice lo mismo (antes decía "dejaste tus datos en academiaseul.com", que para la `03` no es verdad), y E4 ya no abre con esa frase. **El motivo tiene que ser verdad para cada persona de la lista**, y eso decide quién entra.
+
+**SÍ entran** (le dieron su correo a la academia o a una profe para recibir información de clases):
+- Asistentes a talleres, charlas o eventos de la academia que dejaron su correo (en papel, con un QR o en un Google Forms).
+- Quien escribió a la academia o a una profe (Instagram, WhatsApp, correo) pidiendo información y dejó su correo.
+- Conocidos que le pidieron a Jay, a Kiran o a Abby que les avisaran cuando abrieran cursos.
+
+**NO entran:**
+- Listas compradas, arrendadas o "bases" que pasó un tercero.
+- Correos copiados de páginas de colegios, universidades o directorios, o sacados de grupos de Facebook, comentarios de Instagram o LinkedIn.
+- Alumnos o apoderados de otro colegio o instituto donde trabaja o trabajó una profe: le dieron ese correo a esa institución, no a Academia Seúl.
+- La agenda personal de Jay o de las profes (familia, amigos, colegas) si esas personas no pidieron información. A ellas les escribe la profe **uno por uno** (§7.5).
+- Correos genéricos de una institución (`info@`, `contacto@`, `secretaria@`, `colegio@`…).
+- Correos de menores de edad. Para Niños, solo el correo del apoderado.
+- Quien ya se dio de baja o dijo que no.
+- **Ex-alumnos de julio.** No es un tema de permiso, sino de tono y de cantidad: ya tienen su WhatsApp 1:1 (f1 el mié 30, f2 el lun 5, en `Mensajes_Alumnos.md`), y con E0 y E3 encima quedarían con 4 mensajes en 6 días. Si alguno no tiene WhatsApp, escríbele 1:1 por Gmail con el texto de f1.
+
+**Regla rápida:** si la persona se sorprendería al recibir un correo nuestro, no va a Brevo. En la duda, afuera, y que le escriba 1:1 la profe que la conoce.
+
+### 7.2 · Tope de 300 envíos al día: cuántos y qué día
+
+En el plan gratis, lo que sale en un día **suma todas las campañas**. Con ~10 de margen para las pruebas, no pases de **290 al día**. Lo que ya sale cada día (con `01` − `02` ≈ 95):
+
+| Día | Ya sale | Cupo para la `03` |
+|---|---|---|
+| jue 1 | nada (con el plan B de fechas, E1: ~95) | **E0: hasta 250** (hasta 190 con el plan B) |
+| vie 2 | E2: ~95 (con el plan B, nada) | E0 lote B: hasta 190 (no más, aunque el viernes quede libre, porque el lun 5 ese lote recibe E3 junto a `01`) |
+| lun 5 | E3 a `01`: ~95 | E3 a toda la `03`, o al lote B: hasta 190 |
+| mar 6 | nada | E3 al lote A: hasta 250 |
+
+- **`03` de 190 o menos:** un solo E0 el jue 1, y E3 a `01` + `03` el lun 5. Sin lotes.
+- **De 191 a 250:** E0 sale igual en un solo envío el jue 1, pero **crea los lotes al importar** (lote B de hasta 190, lote A el resto), porque E3 sí se parte en dos.
+- **De 251 a ~440:** 2 lotes, **A de hasta 250** (hasta 190 con el plan B) y **B de hasta 190**. Importa el CSV completo a `03 Primer contacto` y, además, la primera parte a `03 · Lote A` y la segunda a `03 · Lote B` (un contacto puede estar en varias listas). En el lote A van los más cercanos: gente de talleres y quienes pidieron información hace poco. Suelen abrir más, y eso cuida la reputación desde el primer envío. `E0 A` el jue 1 a las 10:00 a `03 · Lote A`, y *Duplicate* → `E0 B` el vie 2 a las 10:00 a `03 · Lote B`, con las mismas exclusiones (`01` y `02`).
+- **E3 con lotes** (más de 190): E3 queda con `01` + `03 · Lote B` el lun 5 (72 h después de su E0). *Duplicate* → `E3 A · Última semana · 6 oct` a `03 · Lote A` el **mar 6 · 10:00**, con *Don't send to* `01` y `02`. El texto de E3 sirve igual el martes, y E4 sale justo 48 h después.
+- **Más de ~440:** con el plan gratis no alcanza para meter a todos en la campaña de octubre sin pasar el tope en E3, E4 o E5. **La decisión es tuya:** (a) el resto recibe una versión de E0 después del cierre, pensando en enero 2027 (Claude la adapta), o (b) pagar un mes de un plan de Brevo sin tope diario.
+
+### 7.3 · Después de E0: cómo se suma la `03` a E3, E4 y E5
+
+Criterio: a un contacto frío que no abre no se le insiste. **Quien no abre nada recibe como máximo E0, E3 y E4 B**; desde E5 solo sigue quien abrió.
+
+| Correo | Qué hacer con la `03` | Por qué |
+|---|---|---|
+| **E2** (vie 2) | **Nada.** No se suma | Llegaría menos de 48 h después de E0 |
+| **E3** (lun 5 · 10:00) | *Send to*: `01 Leads sitio` + `03 Primer contacto` (con lotes, §7.2). *Don't send to* sigue siendo `02`. Brevo no manda dos veces a quien esté en las dos listas | Segundo toque para quien no abrió E0 (96 h después) |
+| **E4 A** (jue 8) | **Nada.** El segmento `E4 · Abrió algo` ya incluye a los de la `03` que abrieron E0 o E3 | Sigue quien abrió |
+| **E4 B** (jue 8) | *Send to*: `01 Leads sitio` + `03 Primer contacto`. *Don't send to*: `02` + `E4 · Abrió algo`. Le llega a quien no abrió nada, también de la `03` | Último toque para quien no abrió; con el asunto "¿Todavía quieres aprender coreano?" |
+| **E5** (dom 11 · 12:00) | **Nada.** El segmento `E5 · Abrió E3 o E4` ya incluye a los de la `03` que abrieron E3 o E4 | Solo sigue quien abrió |
+| **N1** (mar 13) | Por ahora va solo a `01`. El lun 12 decides si también va a los de la `03` que abrieron algo (su pie ya sirve para ellos) | — |
+
+- **El control del jue 8 a las 09:30 cambia:** E4 A + E4 B ahora suman (`01` + `03`) − `02`. Si pasa de **290**, en E4 B agrega `03 Primer contacto` a *Don't send to*: los de la `03` que no abrieron nada se quedan con E0 y E3, y los que abrieron siguen en E4 A. Si aun así pasa (solo con lotes), en E4 A agrega `03 · Lote B` a *Don't send to*. E4 no se puede correr al viernes: dice "mañana, viernes 9 · 한글날". El dom 11 a las 11:30, mira lo mismo en E5 (si pasa de 290, `03 · Lote B` a su *Don't send to*).
+- A los de la `03` la tarjeta de E4 les sugiere Básico 1 (A1.1), porque no tienen `CURSO_SUGERIDO` (§5).
+
+### 7.4 · Respuestas, bajas y semáforo (desde el jue 1)
+
+- **"No, gracias", "no me escriban" o "¿de dónde sacaron mi correo?":** ese mismo día dalo de baja en Brevo: *CRM › Contacts* → busca el correo → en su ficha, cancela la suscripción al email o agrégalo a la *blocklist*, según lo que muestre tu pantalla. Contéstale con una línea amable y honesta (con `ORIGEN` le dices de dónde vino su correo) y no le escribas más, tampoco por WhatsApp. La ley pide que desde ese momento no se le escriba.
+- **Quien pregunta por los cursos:** igual que con E1, con `Curriculo/publico/WhatsApp_Cursos_Octubre_2026.md`. Si es por TOPIK II, el diagnóstico antes de pagar está en `Curriculo/Fase6_TOPIK2/00_Diseno_TOPIK2.md`.
+- Los rebotes duros los bloquea Brevo solo. No los vuelvas a importar.
+
+**Semáforo de E0** (jue 1 a las 18:00, en las estadísticas de la campaña):
+
+| Indicador | Sigue | Para y avísale a Claude |
+|---|---|---|
+| Rebotes duros (*hard bounces*) | menos de 2 % | 2 % o más: la lista tiene correos viejos o inventados |
+| Quejas de spam | 0. Con 1, sigue, pero mira el `ORIGEN` de esa persona y, si ese grupo te genera dudas, sácalo de la `03` antes de E3 | 2 o más |
+| Bajas | hasta ~3 %: en un primer contacto es normal, y una baja es mucho mejor que una queja | más de 5 % (1 de cada 20): revisa de dónde salió la lista |
+
+Si algún indicador cae en "Para": suspende `E0 B` (vie 2) desde *Marketing › Campaigns* y saca `03 Primer contacto` del *Send to* de E3 y de E4 B.
+
+### 7.5 · Los contactos que no van a Brevo
+
+Jay, Kiran y Abby les escriben **uno por uno** con `Envios_desde_29sep/E0_Presentacion_texto_para_Gmail_y_WhatsApp.md`: el correo completo en texto (§1), la versión corta de WhatsApp (§2), la de Kiran en primera persona (§3) y la de Abby en español (§4), con un resumen en coreano para que sepa qué envía y una línea opcional en coreano para sus contactos coreanos. El jue 1, mándale a cada profe su versión por WhatsApp. Una persona por mensaje, nunca en CC o CCO, y unas 20 al día como máximo desde una cuenta personal. Si alguien responde que quiere recibir los avisos por correo, ya dio su permiso: agrégalo a `03 Primer contacto`, y desde ahí recibe E3.
 
 화이팅!

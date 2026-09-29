@@ -23,7 +23,7 @@ Y aunque la parte técnica hubiera funcionado, **L1–L4 ya vencieron**: hablan 
 
 ## 2 · Antes de pegar: ¿qué archivo?
 
-- **E1, E2, E3, E4, E5 y N1:** el archivo de esta carpeta, tal cual.
+- **E0, E1, E2, E3, E4, E5 y N1:** el archivo de esta carpeta, tal cual.
 - **O1 y R1a … R1f:** la **copia rellena de `_privado/`**, nunca la plantilla con ⟪…⟫ (calendario §4). Si ves una "⟪" en la vista previa de Brevo, estás pegando la plantilla.
 
 **Para mirarlo antes (opcional):** doble clic sobre el .html lo abre en Chrome. Se ve el diseño con las etiquetas `{{ … }}` sin reemplazar, y eso es normal. Para ver cómo queda de verdad con un nombre y en tamaño de celular, pídele a Claude que corra `preview.js`: te devuelve capturas y un informe que dice **LISTO PARA PEGAR EN BREVO**.

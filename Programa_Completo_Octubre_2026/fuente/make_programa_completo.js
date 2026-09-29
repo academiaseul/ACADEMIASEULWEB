@@ -137,18 +137,16 @@ function build(L, cursos) {
   ch.push(H1(t.secciones[7])); ch.push(kvTable(t.normas));
   ch.push(H1(t.secciones[8])); t.faq.forEach((q) => { ch.push(P(run(q[0], { bold: true }), { spacing: { after: 40 }, keepNext: true })); ch.push(P(run(q[1]))); });
   ch.push(H1(t.secciones[9])); ch.push(kvTable(t.contacto));
-  ch.push(salto());
 
-  // PARTE II
-  ch.push(new Paragraph({ children: [run(t.parte2, { bold: true, size: 36, color: AZUL })], spacing: { after: 200 } }));
+  // PARTE II (salto con pageBreakBefore: un párrafo de salto aparte deja una página en blanco si la anterior queda justo llena)
+  ch.push(new Paragraph({ children: [run(t.parte2, { bold: true, size: 36, color: AZUL })], spacing: { after: 200 }, pageBreakBefore: true }));
   ch.push(P(run(t.parte2Intro)));
   ORDEN.forEach((id, idx) => {
     const c = cursos.find((x) => x.cursoId === id);
     if (!c) return;
     const clases = D.CLASES.filter((k) => k.cursoId === id);
     const dias = clases.map((k) => k.dia);
-    if (idx > 0) ch.push(salto());
-    ch.push(H1(`${CODIGO[id]} · ${NOMBRE[L][id]} · ${SUB[L][id]}`));
+    ch.push(H1(`${CODIGO[id]} · ${NOMBRE[L][id]} · ${SUB[L][id]}`, idx > 0 ? { pageBreakBefore: true } : {}));
     ch.push(P(run(c.descripcion)));
     ch.push(H2(t.ficha));
     ch.push(kvTable([[t.fichaRows[0], CODIGO[id]], [t.fichaRows[1], id === "ninos" ? (L === "es" ? "Niños de 8 a 15 años" : "Kids aged 8 to 15") : "CEFR " + D.cursoPorId(id).cefr], [t.fichaRows[2], horarioCurso(id, L)], [t.fichaRows[3], profeCurso(id)], [t.fichaRows[4], c.requisito_entrada || REQ[L][id]], [t.fichaRows[5], String(cupoCurso(id)) + (clases.length > 1 ? (L === "es" ? " por sección" : " per section") : "")], [t.fichaRows[6], D.cursoPorId(id).libro], [t.fichaRows[7], dias.map((d) => fechas(d, L)[0] + " → " + fechas(d, L)[7]).join(" · ")]]));
@@ -173,10 +171,9 @@ function build(L, cursos) {
     ch.push(H2(t.materiales)); c.materiales.forEach((m) => ch.push(bullet(m)));
     ch.push(H2(t.notasProfe)); c.notas_profesor.forEach((m) => ch.push(bullet(m)));
   });
-  ch.push(salto());
 
   // PARTE III
-  ch.push(new Paragraph({ children: [run(t.parte3, { bold: true, size: 36, color: AZUL })], spacing: { after: 200 } }));
+  ch.push(new Paragraph({ children: [run(t.parte3, { bold: true, size: 36, color: AZUL })], spacing: { after: 200 }, pageBreakBefore: true }));
   ch.push(P(run(t.p3intro)));
   ch.push(H1(t.p3secciones[0])); t.rol.forEach((r, i) => ch.push(num(i + 1, r)));
   ch.push(H1(t.p3secciones[1])); t.adda.forEach((b) => { ch.push(H3(b[0])); b[1].forEach((x) => ch.push(bullet(x))); });
@@ -185,8 +182,7 @@ function build(L, cursos) {
   ch.push(H1(t.p3secciones[4])); ch.push(headTable(t.rubricaCols, t.rubricaRows, [1500, 2000, 2000, 2000, 1860], 18)); ch.push(espacio(60)); ch.push(P(run(t.rubricaNota, { size: 20, color: GREY })));
   ch.push(H1(t.p3secciones[5])); ch.push(kvTable(t.contingencias));
   ch.push(H1(t.p3secciones[6])); t.comunicacion.forEach((r) => ch.push(bullet(r)));
-  ch.push(salto());
-  ch.push(H1(t.anexoTitulo));
+  ch.push(H1(t.anexoTitulo, { pageBreakBefore: true }));
   ch.push(headTable(t.tareasCols, t.tareasRows, [2400, 3200, 3760]));
   ch.push(H3(L === "es" ? "Equivalencias CEFR · TOPIK" : "CEFR · TOPIK equivalences"));
   ch.push(headTable(t.cefrCols, t.cefrRows, [1700, 800, 2000, 4860], 19));
