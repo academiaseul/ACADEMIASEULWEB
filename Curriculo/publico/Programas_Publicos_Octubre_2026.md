@@ -65,7 +65,7 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 | **Básico 1** · Primeras Palabras | A1.1 · desde cero | Quien nunca ha estudiado coreano o reconoce letras sueltas, pero todavía no lee | Leer 한글 y decir tus primeras frases: presentarte, tu familia, lugares, tu día y tus gustos | Martes 20:00 o jueves 20:00 · Kiran | 8 semanas | US$150 · o 2 × US$75 |
 | **Básico 2** · Pasado, presente y futuro | A1.2 | Quien ya lee 한글 y se presenta (Básico 1, el Nivel 1 de julio o equivalente) | Hablar del pasado y del futuro, números y hora, rutina, lo que no haces y lo que sabes hacer | Miércoles 21:00 · Jay | 8 semanas | US$150 · o 2 × US$75 |
 | **Conversacional 1** · Corea que amas | A2.1 | Quien arma frases en presente, pasado y futuro, pero se bloquea al conversar | Conversar en coreano sobre K-pop, viajes, comida, 한복 y videojuegos, con profesora nativa | Martes 21:00 · Abby | 8 semanas | US$150 · o 2 × US$75 |
-| **Conversacional 2** · Corea por dentro | A2.2 | Quien terminó Conversacional 1 y quiere entender cómo se vive Corea | Comparar, opinar y narrar sobre la escuela, el trabajo, las fiestas, las leyendas y el K-drama | **Próximamente · enero 2027** | 8 semanas | Por anunciar |
+| **Conversacional 2** · Corea por dentro | A2.2 | Quien terminó Conversacional 1 y quiere entender cómo se vive Corea | Explicar, comparar y opinar sobre la escuela, el 수능, la oficina, 설날 y 추석, leyendas y K-drama; hablar con el respeto que corresponde; 2 laboratorios y un mini-pódcast final | **Próximamente · enero 2027** | 8 semanas | US$150 · o 2 × US$75 |
 | **TOPIK II** · Estrategia de examen | B1+ | Quien tiene coreano intermedio y va a rendir el TOPIK II | Estrategia de examen para 듣기, 읽기 y 쓰기, con exámenes oficiales, corrección de escritura y simulacro | Jueves 21:00 · Jay · máx. 8 | 8 semanas | US$150 · o 2 × US$75 |
 | **Coreano para Niños** · Juega y aprende | 8–15 años · desde cero | Niños y niñas que quieren empezar coreano jugando | Leer 한글, saludar, presentarse, contar y nombrar cosas, con juegos, canciones y un mini-show final | Lunes 18:00 · Jay y Abby | 8 semanas | US$150 · o 2 × US$75 |
 
@@ -200,20 +200,22 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 *Ya hablas de la Corea que amas: ahora vas a entender cómo se vive por dentro.*
 
-**¿Para quién es?** Para quien terminó Conversacional 1 y quiere ir más allá de sus temas favoritos: la escuela, el trabajo, las fiestas y las historias de Corea. Vas a comparar, opinar y narrar en coreano, con frases sencillas y bien conectadas.
+**¿Para quién es?** Para quien terminó Conversacional 1 y quiere ir más allá de sus temas favoritos: la escuela, el trabajo, las fiestas y las historias de Corea. Vas a explicar, comparar, opinar y contar historias en coreano, con frases sencillas y bien conectadas, y a hablar con el respeto que corresponde a un jefe o a una persona mayor. Cierras con un mini-pódcast de 3 minutos sobre el tema que elijas.
 
 | Semana | Tema |
 |---|---|
 | 1 | La escuela en Corea · 한국의 학교 |
 | 2 | El día del 수능 (el examen de ingreso a la universidad) |
 | 3 | La vida en la oficina · 한국의 직장 생활 |
-| 4 | Mitos y leyendas · 옛날 옛적에 |
-| 5 | 설날 · Año Nuevo lunar |
-| 6 | 추석 · Fiesta de la cosecha |
+| 4 | Laboratorio de conversación 3 · se viene el 설날 |
+| 5 | 설날 y 추석 · 설날과 추석 |
+| 6 | Mitos y leyendas · 옛날 옛적에 |
 | 7 | K-drama y la Corea de hoy |
-| 8 | Proyecto final |
+| 8 | Laboratorio de conversación 4 y proyecto final |
 
-**Formato:** 8 semanas · 1 clase en vivo de 60 minutos por semana · Zoom. Día, hora, profe, fecha de inicio y precio de la cohorte de enero: por anunciar.
+**Formato:** 8 semanas · 1 clase en vivo de 60 minutos por semana, dos de ellas laboratorios de conversación · Zoom · la clase es casi toda en coreano.
+**Inversión:** US$150 el curso completo · o 2 cuotas de US$75.
+**Día, hora, profe y fecha exacta de inicio:** Confirmar con Academia Seúl.
 
 [Programa completo de Conversacional 2 →](Programa_Conversacional2_A2-2.md) · Anótate sin costo en la [lista de espera](https://www.academiaseul.com/notificarme?curso=conversacion) y te avisamos primero.
 
@@ -384,7 +386,7 @@ NOTAS PARA JAY (no visibles en la página):
 3. Certificado: requisitos sin unificar (cursos_es.json: nota ≥ 60 % y asistencia en vivo; textos_generales y términos: por participación y la grabación con tarea cuenta). Aquí solo se dice "asistencia y participación" + Confirmar.
 4. Cambio de sección: términos §5 = "en cualquier momento, según cupo"; textos_generales y guía del alumno = "hasta la semana 2". Aquí: "si hay cupo" + Confirmar.
 5. ✅ Básico 1: el logro "decir la hora" se corrigió el 26 sept 2026 en el sitio, el PDF y el boletín (ahora: "Contar del 1 al 100 y decir cuántos son en tu familia").
-6. Conversacional 2: día, hora, profe, fecha y precio de enero sin definir. Aquí dice "por anunciar".
+6. Conversacional 2 (actualizado el 29 sept 2026 con el diseño final, Curriculo/Fase5_Conversacional2/00_Diseno_Conversacional2.md): semanas en el orden de la Opción A (4 Lab 3 + se viene el 설날 · 5 설날 y 추석 · 6 mitos · 8 Lab 4 + proyecto; DECISIÓN DE JAY 4), precio único publicado (US$150 o 2 × US$75) y "casi toda en coreano" (DECISIÓN DE JAY 7). Día, hora, profe y fecha exacta de inicio: "Confirmar con Academia Seúl". El calendario de arriba sigue con "Por anunciar". Detalle y pendientes en Programa_Conversacional2_A2-2.md.
 7. PayPal "tarjeta sin cuenta" y link de Mercado Pago de la cuota (MP_LINK_MENSUAL) siguen pendientes: aquí solo dice "PayPal, también con tarjeta" y no se promete Mercado Pago en cuotas.
 8. "Qué pasa cuando termino": textos_generales lista para enero 2027 Básico 1, Básico 2, Conversacional 2 y Niños 2, sin Conversacional 1. ¿Dónde sigue quien termina Básico 2 en diciembre?
 -->

@@ -1,7 +1,7 @@
 # Fase 5 · Conversacional 2 (A2.2) · Diseño del curso
 ### Corea por dentro · 회화 A2.2 · cohorte enero 2027 · la columna vertebral para los 8 redactores
 
-**Documento interno de Dirección Académica · versión 1.0 · lunes 28 de septiembre de 2026**
+**Documento interno de Dirección Académica · versión 1.1 · lunes 28 de septiembre de 2026 (1.1 = control final de continuidad: sección J y lista ⚑ consolidada al final)**
 Para Jay y para el equipo que redactará las 8 guías del profesor y los 8 materiales de los alumnos. Va en **español**. Las guías también van en español, pero **todo lo que el profe dice en clase va escrito en coreano**, listo para que la guía se traduzca entera al coreano si el curso lo da Abby (sección 0, regla 3). Lo que reciben los alumnos va en español con el coreano en 한글 y **sin romanización**. Nada de este archivo se entrega tal cual: los recuadros **Texto para el alumno** están listos para copiarse en su material.
 
 > **Cómo leer este documento**
@@ -27,7 +27,7 @@ Para Jay y para el equipo que redactará las 8 guías del profesor y los 8 mater
 | Estructura de clase | Igual que Conversacional 1, para que el alumno no tenga que reaprender nada: **quiz oral 5' · 스몰토크 en pares 10' · tema con el deck 20' · salas de 2–3 20' · cierre 5'**. En los labs (S4 y S8), los bloques 3 y 4 se funden en 40' de práctica oral (B.1, B.10) |
 | Garantía | **Al menos el 50 % de cada clase en conversación de los alumnos** (B.1) · **2 laboratorios** (S4 y S8) · **máximo 3 estructuras nuevas por clase** y ninguna en S4 ni en S8 (B.11) |
 | Alumnos esperados | **Egresados de Conversacional 1 de octubre** (primera cohorte de Abby, máx. 15; en octubre entraron por test de nivel, no desde Básico 2: B0) + externos con nivel equivalente, si Jay lo abre (DECISIÓN DE JAY 6). Los egresados de Básico 2 de octubre van a Conversacional 1 en enero (`Horarios_Equipo_2026-2` §5), no a este curso |
-| Ecosistema | Clips SunHi en `public/audio/kr` (voz del Lector): **generados el 28 sept para toda la lista C y las 24 frases clave** (C y B.14; falta el push a `main`: ⚑ N-1). El Lector y Dubu **no se asignan** en este curso (Fase 1 §14.2): su trabajo es de A1 |
+| Ecosistema | Clips SunHi en `public/audio/kr` (voz del Lector): **generados el 28 sept para toda la lista C y las 24 frases clave** (C y B.14; en `origin/main` desde el commit `a4e67e17`; el control final del 28 sept comprobó que los 294 clips que enlazan el diseño, las guías y los materiales existen y responden 200 en academiaseul.com: N-1 cerrado; el clip de 비슷하다, sumado en el control final, espera su push: ⚑ N-1b). El Lector y Dubu **no se asignan** en este curso (Fase 1 §14.2): su trabajo es de A1 |
 
 **Calendario tentativo [POR CONFIRMAR]** (supone inicio la semana del 11 de enero y clase los miércoles 21:00 Chile = jueves 09:00 Corea, como en `Horarios_Equipo_2026-2`)
 
@@ -116,7 +116,7 @@ Para Jay y para el equipo que redactará las 8 guías del profesor y los 8 mater
 **8 · Resultados esperados ("puede hacer").** *En los temas que practicó, con un interlocutor paciente y, cuando se indica, con preparación.* Explica en 3 minutos un aspecto de la sociedad coreana con una estructura clara (qué es · antes y ahora · un ejemplo · comparación · opinión) · da razones y propósitos con tres herramientas distintas (-아서, -(으)니까, -기 때문에; -(으)려고) y elige bien cuál · se presenta en una situación formal con -ㅂ니다 y habla **de** superiores y mayores con -(으)시- (부장님은 회의실에 계세요) · pide permiso con cortesía (먼저 퇴근해도 될까요?) · cuenta una fiesta y un cuento en pasado con fondo y hecho (-는데) · reacciona como un nativo (-네요, -죠) y se ofrece (-(으)ㄹ게요) · habla del deseo de otro (-고 싶어 해요) · reconoce el 반말 y el 한다체 de un cuento o una reseña, y **usa un 반말 básico** en un role play pactado · escribe un 일기 corto en 한다체 con la tabla de conversión.
 **Todavía no:** discurso indirecto (-다고 했어요, -(으)라고 했어요: B1.1), -더라고요 / -거든요, argumentar por escrito, 한다체 productivo más allá del 일기 guiado, entender un drama sin subtítulos, honoríficos avanzados (여쭙다, 모시다, 뵙다 fuera de la fórmula).
 
-**9 · Vocabulario requerido.** **181 filas** en la lista maestra (C): **86 de núcleo** (72 N nuevas + 14 N↺ que vienen de Básico 1–2 o de Conversacional 1 y se reactivan) + 8 paradigmas, 33 del tema, 30 fórmulas y 24 de reconocimiento. Carga semanal: 16–25 filas (S1 24 · S2 24 · S3 24 · S4 20 · S5 24 · S6 25 · S7 24 · S8 16). Reglas (las de Conversacional 1): **núcleo** = se produce y entra en el quiz y en el proyecto; **tema** = se usa en clase y se reconoce; **paradigma** = serie que se aprende junta; **fórmula** = se imita sin explicar la regla; **reconocimiento** = lo dice el profe o es cultura; no se pide ni se evalúa. Meta: **500–650 activas acumuladas** (Fase 1 §5.3). Siguiendo la Fase 1 §5.2 y el anexo I.10 de la Fase 4, el núcleo prioriza **verbos y sustantivos de alta frecuencia que sirven fuera del tema** (다니다, 모이다, 남다, 나타나다, 설명하다, 비교하다, 경험, 변화, 결과, 의견) y deja lo muy temático (구미호, 재벌, 치맥, 야간 자율 학습) como tema o reconocimiento. **Reciclaje explícito (V4 de la Fase 1):** el diagnóstico de la S1 y los dos labs obligan a usar palabras de Conversacional 1 (B.12).
+**9 · Vocabulario requerido.** **182 filas** en la lista maestra (C): **86 de núcleo** (72 N nuevas + 14 N↺ que vienen de Básico 1–2 o de Conversacional 1 y se reactivan) + 8 paradigmas, 33 del tema, 30 fórmulas y 24 de reconocimiento. Carga semanal: 16–25 filas (S1 24 · S2 24 · S3 24 · S4 20 · S5 24 · S6 25 · S7 24 · S8 16). Reglas (las de Conversacional 1): **núcleo** = se produce y entra en el quiz y en el proyecto; **tema** = se usa en clase y se reconoce; **paradigma** = serie que se aprende junta; **fórmula** = se imita sin explicar la regla; **reconocimiento** = lo dice el profe o es cultura; no se pide ni se evalúa. Meta: **500–650 activas acumuladas** (Fase 1 §5.3). Siguiendo la Fase 1 §5.2 y el anexo I.10 de la Fase 4, el núcleo prioriza **verbos y sustantivos de alta frecuencia que sirven fuera del tema** (다니다, 모이다, 남다, 나타나다, 설명하다, 비교하다, 경험, 변화, 결과, 의견) y deja lo muy temático (구미호, 재벌, 치맥, 야간 자율 학습) como tema o reconocimiento. **Reciclaje explícito (V4 de la Fase 1):** el diagnóstico de la S1 y los dos labs obligan a usar palabras de Conversacional 1 (B.12).
 
 **10 · Gramática** (tope: 3 estructuras nuevas por clase; conteo en B.11):
 S1 **-(으)니까** (frente a -아서) · **-죠** (+ 반말 para reconocer en boca de un 선배; N 때 como fórmula) → S2 **-아/어야 해요** (en octubre solo se reconoció: es nueva para producir) · **-기 때문에 / N 때문에** · **-(으)려고** (frente a -(으)러) (+ 한 번밖에 없어요 como fórmula) → S3 **-(으)시-** (presente, pasado, pregunta y los verbos especiales) · **-ㅂ니다/습니다 en producción** · **-아/어도 돼요? / -(으)면 안 돼요** (+ 께서/께 para reconocer; N(이)라서 como fórmula) → S4 **Lab 3: 0 nuevas** → S5 **-(으)ㄹ게요** · **-네요** · **-고 싶어 해요** (+ 드리다 como fórmula) → S6 **-는데 (fondo + hecho)** · **N밖에 + negación** (+ **-았/었을 때 como ampliación** de -(으)ㄹ 때, que no cuenta; **한다체 y 와/과 para reconocer**) → S7 **반말 básico en producción** · **N처럼** · **-게 되다** (+ -다고 생각해요 como fórmula) → S8 **Lab 4 + proyecto: 0 nuevas.** Total: **16 estructuras nuevas** en 6 clases, todas las de la lista A2.2 de la Fase 1 §4.7 y del mapa maestro, más -아/어야 해요, que la cohorte real no produjo en octubre.
@@ -286,7 +286,7 @@ Romanización: ninguna semana. Los corchetes siempre son 한글.
 | Tema | Te reencuentras con el grupo, reactivas Conversacional 1 y comparas tu colegio con un colegio coreano: horario, 교복, 학원, 방학, el trato entre 선배 y 후배 (página pública, semana 1). Mientras hablas, el profe hace el diagnóstico |
 | **Después de esta clase puedo decir…** | 1. 고등학교 때 저는 교복을 입고 학교에 다녔어요.<br>2. 학교가 끝난 후에 학원에 가는 학생이 많죠?<br>3. 지금 한국은 겨울 방학이에요. 칠레는 여름 방학이에요.<br>4. 내일 시험이 있으니까 오늘은 같이 공부할까요?<br>5. 선배한테는 존댓말을 써요. |
 | Gramática de apoyo · carga: 2 + reactivación | • [nueva 1] **-(으)니까** ("como…, entonces": una razón que empuja a **proponer, pedir o aconsejar**): 시간이 없으니까 빨리 가요 · 비가 오니까 우산을 가져가세요 · 시험이 있으니까 같이 공부할까요? Forma: vocal o ㄹ → -니까 (가니까, 사니까: la ㄹ se cae), consonante → -으니까 (있으니까, 먹으니까), pasado → -았/었으니까 (늦었으니까 택시를 탈까요?). **Desde el español:** los dos dicen "porque", pero **-아서 no puede ir con -(으)세요, -(으)ㄹ까요? ni con el -아요 de propuesta** (시간이 없어서 빨리 가세요* ✗), y tampoco con pasado (늦었어서* ✗); **-(으)니까 sí**. Es la nota que la Fase 4 dejó escrita en la S2 de Conversacional 1 ("ahí va -(으)니까, A2.2"). Matiz para el profe: en frases informativas a un desconocido o a un superior, -아서 suena más suave (바빠서 못 가요 mejor que 바쁘니까 못 가요, que puede sonar a "obvio"); para agradecer o disculparse, siempre -아서 (늦어서 죄송해요) ⚑ confirmar la regla del "obvio" con nativo antes de ponerla en el material<br>• [nueva 2] **-죠** ("¿cierto?", "¿no?": confirmas algo que crees que el otro sabe o comparte; o das la razón): 한국 학교는 3월에 시작하죠? · 교복이 좀 불편하죠? · 맞죠? — 그렇죠! Forma: 가죠, 먹죠, 학생이죠 / 친구죠 (이다 → 이죠 tras consonante; 죠 tras vocal). Es la contracción de -지요. Entonación: pregunta ↗ para confirmar; afirmación ↘ para dar la razón<br>• [reconocer] **반말 en boca de un 선배 o de un 동기**: 밥 먹었어? · 어디 가? · 응, 알았어. Solo se reconoce: el sistema llega en la S7<br>• [fórmula] **N + 때** (고등학교 때, 방학 때) · [R] **-(으)ㄴ 적이 있어요** (학원에 다닌 적이 있어요? = 다녀 봤어요?)<br>• [reactiva] -아/어 봤어요, 제일 + -아서, -(으)ㄴ 후에, -(으)ㄹ 때 (학교 다닐 때), -(으)ㄴ/는 + N (학원에 가는 학생), -고 싶어요, 것 같아요, -(으)면: todo en la tarjeta del diagnóstico<br>• Ciclo: **R** = el profe cuenta su colegio en 6 frases con 3 fotos (monólogo A4) · **C** = cada uno dice "고등학교 때 저는…" y una propuesta con -(으)니까 a partir de una situación en pantalla (시험이 있어요 → …으니까 같이 공부할까요?) · **G** = entrevista con tarjeta (diagnóstico) · **L** = comparación "allá y acá" en plenario sin tarjeta |
-| Vocabulario (24) | **Núcleo (12):** 교복 · 과목 · 시간표 · 다니다 · 입학하다 · 졸업하다 · 선배 · 후배 + ↺ 방학 · 학원 · 숙제 · 존댓말/반말 (en Conversacional 1 eran reconocimiento)<br>**Paradigmas (2):** 초등학교 · 중학교 · 고등학교 · 국어 · 영어 · 수학 · 과학 · 체육<br>**Tema (4):** 동기 · 담임 선생님 · 급식 · 동아리<br>**Fórmulas (3):** 맞죠? · 그렇죠! · 고등학교 때 / 방학 때 · 다시 만나서 반가워요!<br>**Reconocimiento (3):** 야간 자율 학습 · 밥 먹었어? / 어디 가? (반말) · 다닌 적이 있어요 |
+| Vocabulario (25) | **Núcleo (12):** 교복 · 과목 · 시간표 · 다니다 · 입학하다 · 졸업하다 · 선배 · 후배 + ↺ 방학 · 학원 · 숙제 · 존댓말/반말 (en Conversacional 1 eran reconocimiento)<br>**Paradigmas (2):** 초등학교 · 중학교 · 고등학교 · 국어 · 영어 · 수학 · 과학 · 체육<br>**Tema (4):** 동기 · 담임 선생님 · 급식 · 동아리<br>**Fórmulas (4):** 맞죠? · 그렇죠! · 고등학교 때 / 방학 때 · 다시 만나서 반가워요! · 비슷하다 (___하고 비슷해요)<br>**Reconocimiento (3):** 야간 자율 학습 · 밥 먹었어? / 어디 가? (반말) · 다닌 적이 있어요 |
 | Expresiones | • 다시 만나서 반가워요! 방학 잘 보냈어요? (para quien tuvo vacaciones) · 크리스마스하고 새해에 뭐 했어요?<br>• 맞죠? — 그렇죠! · ___ 씨는요? (↺)<br>• 한국 학교하고 뭐가 달라요? — ___은/는 비슷하지만 ___은/는 달라요.<br>• Frases clave del coro: 고등학교 때 저는 교복을 입고 학교에 다녔어요. / 학교가 끝난 후에 학원에 가는 학생이 많죠? / 내일 시험이 있으니까 오늘은 같이 공부할까요? |
 | Pronunciación | **경음화 tras ㄱ/ㄷ/ㅂ, explicado como regla por primera vez:** 학교 [학꾜] · 급식 [급씩] · 숙제 [숙쩨] · 맞죠 [맏쬬] · 입고 [입꼬]. **El primer 구개음화:** 같이 [가치] (ㄷ/ㅌ + 이 → ㅈ/ㅊ; vuelve en la S6). 연음 y ㅎ: 졸업 [조럽] · 입학 [이팍] · 학원 [하권] · 있으니까 [이쓰니까] · 많죠 [만쵸]. Se corrige: ㅓ/ㅗ en 선배 y 고등학교; el 받침 sin vocal de apoyo ("ku-bok"). |
 | Cultura | Capas: contemporánea + generacional + diáspora. **No repetir** el "학교에 가요. 그리고 학원에 가요" de Básico 1 (S6): aquí se da **el porqué y el cambio**. (1) **교복:** la mayoría de los 중·고등학교 lo usa; en los últimos años muchos colegios lo hicieron más cómodo (poleras, buzos) ⚑ dato general, sin cifras. (2) **학원 y 사교육:** muchos estudiantes van a una academia privada después del colegio; hay familias que lo ven como necesario y otras que lo critican por el costo y el cansancio; en Seúl hay límites de horario para los 학원 ⚑ (confirmar la hora y el alcance antes de decirla). (3) **선배/후배/동기:** el año de ingreso ordena el trato aunque la diferencia sea de un año; entre 동기 se habla en 반말, al 선배 en 존댓말 (y 선배 le puede hablar en 반말 al 후배): **así se engancha el 반말 que el fan oye en los dramas**. (4) **Calendario al revés:** en Corea el año escolar empieza en marzo (el 2) y ahora es 겨울 방학; en Chile, Argentina o Uruguay también empieza en marzo, pero enero es 여름 방학. (5) **Diáspora:** en Santiago y en Buenos Aires hay 한글학교 los sábados para hijos de familias coreanas; el libro de Básico 1 (한글학교 한국어) viene de ahí ⚑ Jay cuenta su experiencia si quiere. **Frase ancla:** 학교가 끝난 후에 학원에 가는 학생이 많아요. 그렇지만 사람마다 달라요. **Puente:** el "preu" chileno, las academias de ingreso en Perú o México, los colegios con uniforme de toda Latinoamérica; el "mechón" y el "novato" frente al 후배. **Sin estereotipo:** "no todos los estudiantes coreanos estudian hasta medianoche: depende de la familia, de la ciudad, del año escolar y de la persona". |
@@ -305,7 +305,7 @@ Romanización: ninguna semana. Los corchetes siempre son 한글.
 |---|---|
 | Fecha | **S2 · enero 2027** · tentativo **mié 20 ene (Chile) = jue 21 ene (Corea) [POR CONFIRMAR]** |
 | Tema | Explicas qué es el 수능 y por qué ese día cambia la rutina de un país; cuentas un examen importante de tu vida; das tu opinión con razones: ¿está bien que un examen pese tanto? (página pública, semana 2) |
-| **Después de esta clase puedo decir…** | 1. 수능은 한국의 대학 입학 시험이에요. 보통 11월에 봐요.<br>2. 좋은 대학교에 가려고 밤늦게까지 공부하는 학생이 많아요.<br>3. 수능은 일 년에 한 번밖에 없기 때문에 스트레스를 많이 받아요.<br>4. 수능 날에는 아침 일찍 시험장에 가야 해요.<br>5. 제 생각에는 시험 하나가 너무 중요한 것 같아요. |
+| **Después de esta clase puedo decir…** | 1. 수능은 한국의 대학 입학시험이에요. 보통 11월에 봐요.<br>2. 좋은 대학교에 가려고 밤늦게까지 공부하는 학생이 많아요.<br>3. 수능은 일 년에 한 번밖에 없기 때문에 스트레스를 많이 받아요.<br>4. 수능 날에는 아침 일찍 시험장에 가야 해요.<br>5. 제 생각에는 시험 하나가 너무 중요한 것 같아요. |
 | Gramática de apoyo · carga: 3 | • [1] **-아/어야 해요** ("hay que", "tengo que"): 공부해야 해요 · 일찍 가야 해요 · 수험표를 가져가야 해요 · 과거: 가야 했어요. Variante oral igual de correcta: -아/어야 돼요. **Para la cohorte real es nueva:** en Conversacional 1 de octubre solo se reconoció (예약해야 해요, S3) y la Fase 1 §4.7 la daba por "reactivar" porque suponía la redistribución de enero. En las salas se nota: el que la trae la usa, el que no, la aprende hoy<br>• [2] **-기 때문에 / N 때문에** (la razón que **explica**, con más peso; muy frecuente al explicar un fenómeno y por escrito): 경쟁이 심하기 때문에 학원에 다녀요 · 수능 때문에 스트레스를 받아요 · 과거: 공부를 많이 했기 때문에 합격했어요 (admite pasado, a diferencia de -아서). Tampoco va con -(으)세요 ni -(으)ㄹ까요? (ahí, -(으)니까). **Mapa de las tres razones** (una lámina, se vuelve a usar todo el curso): **-아서** = la razón cotidiana, neutra · **-(으)니까** = razón que lleva a proponer, pedir o aconsejar · **-기 때문에** = explicar por qué pasa algo, con énfasis<br>• [3] **-(으)려고** ("para", "con la intención de"): 대학교에 가려고 공부해요 · 합격하려고 학원에 다녀요 · 일찍 일어나려고 일찍 자요. **Contraste con -(으)러** (Conversacional 1 S3): -(으)러 solo con verbos de movimiento (공부하러 도서관에 가요); -(으)려고 con cualquier verbo (공부하려고 일찍 일어나요; *공부하러 일찍 일어나요 ✗). Ampliación sin contarla: **-(으)려고 해요** = "pienso…" (이번 방학에 한국어를 열심히 공부하려고 해요)<br>• [fórmulas] 제 생각에는… · 저도 그렇게 생각해요 · 저는 좀 다르게 생각해요 · 그럴 수도 있죠 (-죠 ↺ S1) · **한 번밖에 없어요** (밖에 se explica en la S6)<br>• Ciclo: **R** = monólogo "el día de mi 수능" (60–90 s, A4) y dos titulares recreados · **C** = cada uno: "저는 ___(으)려고 한국어를 공부해요" y "___ 때문에 ___" sobre su propia vida · **G** = "mi examen importante" en pares · **L** = mini-debate |
 | Vocabulario (24) | **Núcleo (12):** 수험생 · 성적 · 점수 · 합격하다 · 떨어지다 · 경쟁 · 스트레스를 받다 · 노력하다 + ↺ 수능 · 시험을 보다 · 준비하다 · 긴장되다<br>**Tema (4):** 밤늦게까지 · 시험장 · 결과 · 인생<br>**Fórmulas (4):** 제 생각에는 · 저도 그렇게 생각해요 / 저는 좀 다르게 생각해요 · 그럴 수도 있죠 · 한 번밖에 없어요<br>**Reconocimiento (4):** 수시 · 정시 · 재수 · 수험표 · 엿 · 찹쌀떡 |
 | Expresiones | • 시험 잘 봤어요? — 네, 잘 봤어요! / 아니요, 좀 어려웠어요.<br>• 합격했어요! 축하해요! · 떨어졌어요… 괜찮아요, 다음에 잘하면 돼요. (consuelo ⚑)<br>• Debate: 제 생각에는… · 저도 그렇게 생각해요 · 저는 좀 다르게 생각해요 · 그럴 수도 있죠, 그렇지만…<br>• Frases clave: 좋은 대학교에 가려고 밤늦게까지 공부하는 학생이 많아요. / 수능은 일 년에 한 번밖에 없기 때문에 스트레스를 많이 받아요. / 수능 날에는 아침 일찍 시험장에 가야 해요. |
@@ -431,7 +431,7 @@ Romanización: ninguna semana. Los corchetes siempre son 한글.
 |---|---|
 | Fecha | **S8 · marzo 2027** · tentativo **mié 3 mar (Chile) = jue 4 mar (Corea) [POR CONFIRMAR]** (en Corea empezó el año escolar el martes 2) |
 | Tema | **Laboratorio 4 + proyecto final "Corea por dentro, contada por ti":** tu mini-pódcast ya está enviado; en clase conversas sobre tu tema a partir de las preguntas del grupo y del profe, y cierras el curso |
-| **Después de esta clase puedo decir…** | 1. 제 발표 주제는 한국의 회식 문화예요.<br>2. 옛날에는 회식이 밤늦게까지 있었는데, 요즘은 점심에 회식을 하는 회사도 있어요.<br>3. 제 생각에는 좋은 점도 있고 안 좋은 점도 있는 것 같아요.<br>4. 좋은 질문이네요! 음… 제 생각에는…<br>5. 그동안 감사했습니다. 다음 단계에서도 열심히 할게요! |
+| **Después de esta clase puedo decir…** | 1. 제 발표 주제는 한국의 회식 문화예요.<br>2. 옛날에는 회식을 밤늦게까지 했는데, 요즘은 점심에 회식을 하는 회사도 있어요.<br>3. 제 생각에는 좋은 점도 있고 안 좋은 점도 있는 것 같아요.<br>4. 좋은 질문이네요! 음… 제 생각에는…<br>5. 그동안 감사했습니다. 다음 단계에서도 열심히 할게요! |
 | Gramática de apoyo · carga: 0 | Integración: **1** explicar y comparar (-(으)니까, -기 때문에, -(으)려고, 옛날에는… 요즘은…, 처럼, -죠) · **2** contar (-는데, -았/었을 때, 밖에, -게 되다) · **3** hablar con respeto y reaccionar (-(으)시-, -ㅂ니다, -(으)ㄹ게요, -네요, -고 싶어 해요) · **4** opinar (것 같아요, -다고 생각해요). **Nada se ve por primera vez hoy.** |
 | Vocabulario (16) | **Núcleo (9):** 주제 · 설명하다 · 비교하다 · 의견 · 질문 · 경험 · 변화 · 사회 + ↺ 대답하다<br>**Paradigma (1):** 장점 · 단점<br>**Tema (2):** 팟캐스트 · 청취자<br>**Fórmulas (3):** 좋은 질문이네요! · 그동안 감사했습니다 · 다음 단계에서도 열심히 할게요<br>**Reconocimiento (1):** 개학 |
 | Expresiones | • 좋은 질문이네요! · 음… 잠깐만요, 생각해 볼게요. · 다시 한번 말씀해 주시겠어요? (↺ S4)<br>• ___ 씨는 어떻게 생각해요? · 칠레에서는 어때요?<br>• 축하해요! · 모두 수고했어요! (el profe) — 선생님, 그동안 감사했습니다! (el grupo)<br>• Frases clave: 제 생각에는 좋은 점도 있고 안 좋은 점도 있는 것 같아요. / 좋은 질문이네요! / 그동안 감사했습니다. |
@@ -459,7 +459,7 @@ Un laboratorio de Conversacional 2 es, como en Conversacional 1 (Fase 4 B.10), u
 | Corrección | 2 puntos de pronunciación por alumno (planilla) → nota de voz en 48 h | Rúbrica de F.6 |
 | Resultado visible | Cada trío presenta su regalo de 설날 y su razón en 1' (queda en la grabación) | La ronda final y el informe individual |
 | Reparación | **Se exige**, en versión honorífica: cada tarjeta trae la franja "잠깐만요 · 다시 한번 말씀해 주시겠어요? · ___이/가 무슨 뜻이에요?" | Se evalúa dentro de "Comprensión e interacción" |
-| Reciclaje de vocabulario (V4 de la Fase 1) | Cada tarjeta pide **2 palabras de Conversacional 1** (marcadas en la tarjeta: 목표, 경험 ↺, 예약하다, 계속하다, 긴장되다…) | La tarjeta de palabras clave del proyecto puede incluir 2 palabras de Conversacional 1 |
+| Reciclaje de vocabulario (V4 de la Fase 1) | Cada tarjeta pide **2 palabras de Conversacional 1** (marcadas en la tarjeta: 목표, 예약하다, 계속하다, 긴장되다, 이유…; 경험 **no** es de Conversacional 1: es N de la S8, guía S8, S8-N8) | La tarjeta de palabras clave del proyecto puede incluir 2 palabras de Conversacional 1 |
 
 ### B.11 Carga cognitiva y continuidad
 
@@ -553,7 +553,7 @@ Cada tarjeta = **la pregunta del día + una de semanas anteriores** (espiral, co
 
 ### B.14 Las 3 frases clave (Audioteca A2 · 24 frases)
 
-El profe las dice **en coro con el grupo** al cierre de cada clase (en la sala principal, así quedan en la grabación). El clip de 20 segundos se recorta de la grabación de Zoom (lo hace la persona de producción que Jay designe; el profe no graba ni edita: Fase 1 §14.4). Nombre: `C2_S0N_frases_clave.mp3`. Además, **cada frase ya tiene su clip SunHi** (generados el 28 sept; los enlaces 🔊 están comprobados: el archivo existe y el nombre es el hex del UTF-8 del texto sin el punto o el "!" final). **⚑ N-1: esos clips todavía no están en git**; hasta el push a `main`, los 🔊 dan 404 en el sitio. La frase 3 de la S7 tiene dos clips (pregunta y respuesta).
+El profe las dice **en coro con el grupo** al cierre de cada clase (en la sala principal, así quedan en la grabación). El clip de 20 segundos se recorta de la grabación de Zoom (lo hace la persona de producción que Jay designe; el profe no graba ni edita: Fase 1 §14.4). Nombre: `C2_S0N_frases_clave.mp3`. Además, **cada frase ya tiene su clip SunHi** (generados el 28 sept; los enlaces 🔊 están comprobados: el archivo existe y el nombre es el hex del UTF-8 del texto sin el punto o el "!" final). Están en `origin/main` desde el commit `a4e67e17`; el control final del 28 sept comprobó que los 294 clips que enlazan el diseño, las guías y los materiales existen y responden 200 en academiaseul.com: N-1 cerrado. La frase 3 de la S7 tiene dos clips (pregunta y respuesta).
 
 | S | Frase 1 | Frase 2 | Frase 3 |
 |---|---|---|---|
@@ -570,9 +570,9 @@ El profe las dice **en coro con el grupo** al cierre de cada clase (en la sala p
 
 ## C. Lista maestra de vocabulario del curso
 
-Sin romanización. Tipos (los de Conversacional 1): **N** núcleo nuevo (se produce; entra en el quiz y en el proyecto) · **N↺** núcleo que ya estaba en Básico 1, Básico 2 o Conversacional 1 (se reactiva y se evalúa) · **T** del tema (se usa en clase; se reconoce) · **P** paradigma (serie que se aprende junta) · **F** fórmula (se imita sin explicar la regla) · **R** reconocimiento (lo dice el profe o es cultura; no se pide ni se evalúa). **Audio** = hay clip SunHi en `public/audio/kr` (nombre = hex del UTF-8 del texto, como en `../audio/Clips_Octubre_2026.md`): **las 181 filas tienen clip** (comprobado por script el 28 sept; en las filas con " · ", un clip por pieza: **234 clips distintos** (213 de la lista y 25 de las frases clave, 4 compartidos), **188 de ellos generados hoy** con la misma voz y el mismo formato del sitio: ko-KR-SunHiNeural, −8 %, MP3 24 kHz). ⚑ N-1: los 188 nuevos no están en git. Enlace en el material: `[🔊](https://www.academiaseul.com/audio/kr/<hex>.mp3)`, fila por fila, como en las Fases 2–4.
+Sin romanización. Tipos (los de Conversacional 1): **N** núcleo nuevo (se produce; entra en el quiz y en el proyecto) · **N↺** núcleo que ya estaba en Básico 1, Básico 2 o Conversacional 1 (se reactiva y se evalúa) · **T** del tema (se usa en clase; se reconoce) · **P** paradigma (serie que se aprende junta) · **F** fórmula (se imita sin explicar la regla) · **R** reconocimiento (lo dice el profe o es cultura; no se pide ni se evalúa). **Audio** = hay clip SunHi en `public/audio/kr` (nombre = hex del UTF-8 del texto, como en `../audio/Clips_Octubre_2026.md`): **las 182 filas tienen clip** (comprobado por script el 28 sept; en las filas con " · ", un clip por pieza: **234 clips distintos** (213 de la lista y 25 de las frases clave, 4 compartidos), **188 de ellos generados hoy** con la misma voz y el mismo formato del sitio: ko-KR-SunHiNeural, −8 %, MP3 24 kHz). en `origin/main` desde el commit `a4e67e17`; el control final del 28 sept comprobó que los 294 clips que enlazan el diseño, las guías y los materiales existen y responden 200 en academiaseul.com: N-1 cerrado (+1 del control final: 비슷하다, ⚑ N-1b). Enlace en el material: `[🔊](https://www.academiaseul.com/audio/kr/<hex>.mp3)`, fila por fila, como en las Fases 2–4.
 
-**Resumen:** 181 filas · **86 de núcleo** (72 N + 14 N↺) · 8 P · 33 T · 30 F · 24 R · por semana: S1 24 · S2 24 · S3 24 · S4 20 · S5 24 · S6 25 · S7 24 · S8 16. Frente a la meta de la Fase 1 (500–650 activas al terminar A2.2), el curso aporta ≈ 90 activas nuevas (N + P) sobre las 380–480 de salida de Conversacional 1: el resto llega por el reciclaje y por las misiones. **Contraste con una lista de frecuencia** (V3 de la Fase 1: 한국어 학습용 어휘 목록 del 국립국어원) ⚑ pendiente para producción: confirmar que el núcleo de este curso esté en los grados A–B.
+**Resumen:** 182 filas · **86 de núcleo** (72 N + 14 N↺) · 8 P · 33 T · 31 F · 24 R · por semana: S1 25 · S2 24 · S3 24 · S4 20 · S5 24 · S6 25 · S7 24 · S8 16. Frente a la meta de la Fase 1 (500–650 activas al terminar A2.2), el curso aporta ≈ 90 activas nuevas (N + P) sobre las 380–480 de salida de Conversacional 1: el resto llega por el reciclaje y por las misiones. **Contraste con una lista de frecuencia** (V3 de la Fase 1: 한국어 학습용 어휘 목록 del 국립국어원) ⚑ pendiente para producción: confirmar que el núcleo de este curso esté en los grados A–B.
 
 | S | Coreano | Español | Tipo | Audio | Nota |
 |---|---|---|---|---|---|
@@ -597,6 +597,7 @@ Sin romanización. Tipos (los de Conversacional 1): **N** núcleo nuevo (se prod
 | 1 | 맞죠? · 그렇죠 | ¿cierto? · ¡así es! | F | sí | -죠 se explica hoy |
 | 1 | 고등학교 때 · 방학 때 | cuando estaba en la secundaria · en vacaciones | F | sí | N + 때 |
 | 1 | 다시 만나서 반가워요 | ¡qué bueno verte de nuevo! | F | sí |  |
+| 1 | 비슷하다 (___하고 비슷해요) | parecerse (se parece a…) | F | sí | Sumada en el control final (28 sept; guía S1, ⚑ S1-9): la pide "allá y acá" (S1), el cuadro de 3 columnas (S5) y el movimiento 4 del proyecto. Clip nuevo: ⚑ N-1b |
 | 1 | 야간 자율 학습 | estudio nocturno en el colegio (야자) | R | sí | ⚑ dato de la profe: hoy es menos común y depende del colegio |
 | 1 | 밥 먹었어? · 어디 가? | ¿comiste? · ¿adónde vas? (반말 de un 선배 o de un 동기) | R | sí | Solo reconocer (sistema en la S7) |
 | 1 | 다닌 적이 있어요 | he ido alguna vez (= 다녀 봤어요) | R | sí | -(으)ㄴ 적이 있다 solo se reconoce |
@@ -823,7 +824,7 @@ B0.3. Sin nota. Es el "antes" del informe final. Para externos, además, el audi
 
 ### E.4 Quiz oral de las clases 2 a 7
 
-Como en Conversacional 1: 5 minutos al inicio, **cinco preguntas sobre la clase anterior** (vocabulario + una estructura), respondidas en voz alta (2–3 alumnos por nombre, rotando) o en el chat ("solo anfitrión"). **La quinta es un ítem con formato TOPIK I** (Fase 1 §7.3 y §9.3): un ítem oficial publicado en topik.go.kr, citando edición y número, del tipo que calza con el tema (selección de producción, validada por Jay ⚑ N-3; hay material de consulta en `D:\Deskotop to D\2. Korean Clases\Topik 1\` (64.º TOPIK I)). Las claves van en C.16 de cada guía (PROFE). **No hay quiz en la S1 ni en la S8.**
+Como en Conversacional 1: 5 minutos al inicio, **cinco preguntas sobre la clase anterior** (vocabulario + una estructura), respondidas en voz alta (2–3 alumnos por nombre, rotando) o en el chat ("solo anfitrión"). **La quinta es un ítem con formato TOPIK I** (Fase 1 §7.3 y §9.3): **un ítem original** con el formato de un tipo oficial que calza con el tema (así lo escribieron las guías S2–S7, C.16), con una **alternativa oficial citada por edición y número** (제64회 TOPIK I, consultado en `D:\Deskotop to D\2. Korean Clases\Topik 1\`) que Jay puede elegir (⚑ N-3). El ítem oficial **no se copia** en el material: se cita y, si es de escucha, se usa el audio de topik.go.kr. Las claves van en C.16 de cada guía (PROFE). **No hay quiz en la S1 ni en la S8.**
 
 | Quiz | Abre | Evalúa | 4 preguntas (tipo) | 5.ª · ítem TOPIK I (tipo) |
 |---|---|---|---|---|
@@ -905,7 +906,7 @@ La de F.6: 5 criterios × 4 niveles, máximo 20 puntos, 20 % cada uno (la de Con
 | Movimiento | Estructuras | Semana | Ejemplo |
 |---|---|---|---|
 | 1 · Tema y razón | -기 때문에 (final: -기 때문이에요) · -게 되다 | S2 · S7 | 이 주제를 고른 이유는 드라마에서 회식 장면을 자주 봤기 때문이에요. |
-| 2 · Qué es · antes y ahora | 옛날에는… 요즘은… · -(으)시- · -아/어야 해요 · -(으)면 안 돼요 | S3 · S5 | 옛날에는 회식이 밤늦게까지 있었어요. 요즘은 점심에 하는 팀도 있어요. |
+| 2 · Qué es · antes y ahora | 옛날에는… 요즘은… · -(으)시- · -아/어야 해요 · -(으)면 안 돼요 | S3 · S5 | 옛날에는 회식을 밤늦게까지 했어요. 요즘은 점심에 하는 팀도 있어요. |
 | 3 · Ejemplo contado | -는데 · -았/었을 때 · 밖에 · conectores | S6 | 처음 한국 회사에 갔을 때 회식이 있었는데, 저는 술을 한 잔밖에 못 마셨어요. |
 | 4 · Comparación | 처럼 · -죠 · 사람마다 / 회사마다 달라요 | S1 · S7 | 멕시코에도 회식처럼 동료들하고 같이 먹는 문화가 있어요. |
 | 5 · Opinión y pregunta | 것 같아요 · -다고 생각해요 · 장점/단점 | S2 · S7 · S8 | 제 생각에는 좋은 점도 있고 안 좋은 점도 있는 것 같아요. 여러분 회사는 어때요? |
@@ -925,7 +926,7 @@ Solo con lenguaje de la lista C, de Conversacional 1 y de Básico 1–2; lo que 
 | 안녕하세요, 여러분! "코리아 인사이드" 세 번째 에피소드예요. 저는 디에고예요. 멕시코 몬테레이에 살고, 회사에서 엔지니어로 일해요. | ¡Hola a todos! Este es el tercer episodio de "Korea Inside". Soy Diego. Vivo en Monterrey, México, y trabajo como ingeniero en una empresa. |
 | 제 주제는 한국의 회식 문화예요. 이 주제를 고른 이유는 한국 드라마에서 회식 장면을 자주 봤기 때문이에요. | Mi tema es la cultura del 회식 en Corea. Lo elegí porque vi muchas escenas de 회식 en los dramas coreanos. |
 | 회식은 회사 사람들이 일이 끝난 후에 같이 먹는 저녁 식사예요. 보통 팀장님이 날짜를 정하세요. (정하다 = R) | El 회식 es la cena que la gente de una empresa comparte después del trabajo. Normalmente el jefe o la jefa de equipo pone la fecha. |
-| 옛날에는 회식이 밤늦게까지 있었는데, 1차, 2차, 3차까지 가는 회사도 많았어요. | Antes, el 회식 duraba hasta tarde, y había muchas empresas en que se iba a un segundo y a un tercer lugar. |
+| 옛날에는 회식을 밤늦게까지 했는데, 1차, 2차, 3차까지 가는 회사도 많았어요. | Antes, el 회식 duraba hasta tarde, y había muchas empresas en que se iba a un segundo y a un tercer lugar. |
 | 그런데 요즘은 많이 바뀌었어요. 점심에 회식을 하는 팀도 있고, 같이 영화를 보는 팀도 있어요. (바뀌다 = R) | Pero hoy cambió mucho. Hay equipos que hacen el 회식 al almuerzo, y otros que van juntos al cine. |
 | 짧은 회식을 좋아하는 직원도 많아요. 퇴근 후 시간도 중요하니까요. | También hay muchos empleados a los que les gusta un 회식 corto. Porque el tiempo después del trabajo también es importante. |
 | 회식에는 예의도 있어요. 윗사람이 술을 따라 주시면 두 손으로 받아요. (윗사람, 따르다 = R) | En el 회식 también hay etiqueta. Si un superior te sirve un trago, lo recibes con las dos manos. |
@@ -944,7 +945,7 @@ Solo con lenguaje de la lista C, de Conversacional 1 y de Básico 1–2; lo que 
 |---|---|---|
 | D | 제 주제는 한국의 회식 문화예요. 옛날에는 회식이 길었는데, 요즘은 짧게 하는 팀이 많아요. 그런데 회사마다 달라요. (짧게 = R, como 맵게 en Conv1) | Mi tema es la cultura del 회식. Antes era largo; hoy muchos equipos lo hacen corto. Pero depende de la empresa. |
 | P | 디에고 씨는 회식이 좋아요? 왜요? | Diego, ¿a ti te gusta el 회식? ¿Por qué? |
-| D | 음… 좋은 질문이네요! 저는 동료들하고 이야기할 수 있으니까 좋아요. 그렇지만 너무 늦게까지 하면 힘들 것 같아요. | Mmm… ¡buena pregunta! Me gusta porque puedo conversar con mis colegas. Pero si dura hasta muy tarde, creo que es pesado. |
+| D | 음… 좋은 질문이네요! 저는 동료들하고 이야기할 수 있으니까 좋아요. 그렇지만 너무 늦게까지 하면 좀 힘들어요. | Mmm… ¡buena pregunta! Me gusta porque puedo conversar con mis colegas. Pero si dura hasta muy tarde, creo que es pesado. |
 | C | 멕시코에서는 팀장님도 같이 가요? | En México, ¿el jefe de equipo también va? |
 | D | 네, 가끔 같이 가세요. 그런데 팀장님이 계시면 좀 긴장돼요! | Sí, a veces va con nosotros. ¡Pero si está el jefe, me pongo un poco nervioso! |
 | D | 카밀라 씨 주제는 설날이죠? 칠레에서도 설날을 하는 한국 가족이 있어요? | Camila, tu tema es el 설날, ¿cierto? ¿En Chile también hay familias coreanas que lo celebran? |
@@ -992,7 +993,7 @@ Solo con lenguaje de la lista C, de Conversacional 1 y de Básico 1–2; lo que 
 | `Curriculo/Fase2_Basico1/alumnos/S01_Material_Alumno.md` ("Teclado coreano en 5 minutos") | Guía de teclado | Mensaje de bienvenida (para externos) | **Reutilizar** |
 | Blog: `app/blog/dangun-por-que-corea-nacio-de-una-osa` · `sopa-de-algas-antes-de-un-examen-supersticion-coreana` · `nunchi-el-arte-coreano-de-leer-el-ambiente` · `por-que-en-corea-no-existe-el-piso-4` · `hangul-el-alfabeto-mas-cientifico` | Artículos de la casa | Lectura previa opcional: Dangún (S6), sopa de algas (S2), 눈치 (S3: leer el ambiente en la oficina) | **Enlazar; no repetir** su contenido en clase |
 | `Campana_Assets/instagram/octubre/chuseok/chuseok_01…08.png` (+ `octubre/00_chuseok_story.png`) | Carrusel de 추석 (25 sept 2026): qué es, 음력 8월 15일, fechas 2026, costumbres (incl. 한복 y 강강술래) | Repaso previo de la S5 | **Enlazar el post; no repetir** |
-| `public/audio/kr/` · `Curriculo/audio/Clips_Octubre_2026.md` | Clips SunHi | 🔊 de toda la lista C y de las 24 frases clave | **Hecho el 28 sept:** 234 clips distintos comprobados (188 generados hoy con `scratchpad/clips_c2/gen.js`, misma voz y formato); ⚑ N-1: los nuevos no están en git; falta sumar la sección de Conversacional 2 al índice `Clips_Octubre_2026.md` (o crear `Clips_Enero_2027.md`) |
+| `public/audio/kr/` · `Curriculo/audio/Clips_Octubre_2026.md` | Clips SunHi | 🔊 de toda la lista C y de las 24 frases clave | **Hecho el 28 sept:** 234 clips distintos comprobados (188 generados hoy con `scratchpad/clips_c2/gen.js`, misma voz y formato); N-1 cerrado (en `origin/main` desde el commit `a4e67e17`; el control final del 28 sept comprobó que los 294 clips que enlazan el diseño, las guías y los materiales existen y responden 200 en academiaseul.com: N-1 cerrado); el índice `Clips_Octubre_2026.md` ya tiene la sección de Conversacional 2 (con 비슷하다, sumada en el control final) |
 | `D:\Deskotop to D\2. Korean Clases\한국어 수업 A3\제10과 큰 소리로 이야기 하면 안돼요 21.03.31.pptx` (+ `.pdf`) | Clase de Jay (2021): -(으)면 안 돼요 y -(으)세요 honorífico (할머니는 댁에…, 진지 드세요) | S3 (reglas de la oficina) | **Consulta de Jay**; ideas de ejemplos, sin copiar láminas |
 | `D:\…\한국어 수업 A3\제11과 아버지를 도와 드렸어 21.03.31.pptx` | Clase de Jay (2021): -아/어 드리다 y repaso de -아/어도 돼요 / -(으)면 안 돼요, en 반말 | S5 (제가 도와 드릴게요) · S7 | Consulta |
 | `D:\…\한국어 수업 A3\제3과 주말에 할머니 댁에 가요.docx` | Clase de Jay (2021): invitación de 설날 a la casa de los abuelos (menú: 떡국, 전, 만두, 식혜…) | S4–S5 (la visita) | Consulta; buena idea de "invitación" para la tarjeta del Lab 3 |
@@ -1011,20 +1012,20 @@ Producción redacta; el profe revisa la naturalidad del coreano (≈ 20 min por 
 | **P0** | **Aprobación de este diseño** + decisiones 1–5 de Jay (profe, día y hora, inicio, orden de temas, cupo) | — | **Antes de la preventa del lun 7 dic** |
 | **P0** | **Página pública actualizada** (I.1) + ficha `conv2` en `cursos_es.json` / `cursos_en.json` + PDF de `/programas` (hoy no existe) | Repo | lun 7 dic |
 | **P0** | Micro-diagnóstico de 12 ítems + guion del audio guiado (B0.2), para externos | Form + WhatsApp | lun 7 dic |
-| **P0** | Guía S1 + material S1 + **deck S1** (lámina 0, escalera A2.2, -(으)니까 y -죠, cultura escolar) + **tarjeta de entrevista** + tarjeta de lectura + ficha "un día en un 고등학교" + planilla del diagnóstico | `profes/S01…` · `alumnos/S01…` · Drive | **vie 18 dic** |
-| **P0** | Guía S2 + material S2 + deck S2 (desde Semana06) + **lámina "mapa de las 3 razones"** + tarjetas de postura + titulares recreados + guion del monólogo A4 "el día de mi 수능" | `S02…` | **vie 18 dic** |
+| **P0** | Guía S1 + material S1 + **deck S1** (lámina 0, escalera A2.2, -(으)니까 y -죠, cultura escolar) + **tarjeta de entrevista** + tarjeta de lectura + ficha "un día en un 고등학교" + planilla del diagnóstico (`profes/C2_Diagnostico_S1.md`) | `profes/S01…` · `alumnos/S01…` · Drive | **vie 18 dic** |
+| **P0** | Guía S2 + material S2 + deck S2 (desde Semana06) + **lámina "mapa de las 3 razones"** + tarjetas de postura + titulares recreados + guion del monólogo A4 "el día de mi 수능" + lectura "수험생 민지의 겨울" y aviso del ejercicio 9 (material 5.2 y §6; originales) *(sumado en el control final)* | `S02…` | **vie 18 dic** |
 | **P0** | Mensaje de bienvenida (D.3) + guía de teclado para externos | WhatsApp | lun 11 ene |
 | **P0** | Registro del curso con columnas separadas (E.2) | Drive | antes de la S1 |
-| **P0** | **Push a `main` de los 188 clips nuevos** (⚑ N-1) + índice de clips de Conversacional 2 | `public/audio/kr` · `Curriculo/audio/` | antes de la S1 |
+| P0 · **hecho** | Push a `main` de los 188 clips nuevos (N-1) + índice de clips de Conversacional 2: **hecho** (commit `a4e67e17`; índice al día). Queda el push del clip de 비슷하다 (⚑ N-1b) | `public/audio/kr` · `Curriculo/audio/` | antes de la S1 |
 | **P0** | Si enseña Abby: **traducción al coreano** de las guías S1–S2 (explicaciones; los 🗣️ ya están) + mensaje con los ajustes | `profes/` | vie 18 dic |
-| P1 | Guía + material + deck S3 (desde Semana07) + tarjetas A/B/C + plantilla de 명함 + correo de bienvenida en -습니다 + guion del mensaje de voz del 과장님 + **guía de estudio S1–S3** | `S03…` · `alumnos/C2_Guia_Estudio_S1-S3.md` | vie 15 ene |
+| P1 | Guía + material + deck S3 (desde Semana07) + tarjetas A/B/C + plantilla de 명함 + correo de bienvenida en -습니다 + guion del mensaje de voz del 과장님 + **guía de estudio S1–S3** + **lámina de cargos** (L18 de la guía) *(sumada en el control final)* | `S03…` · `alumnos/C2_Guia_Estudio_S1-S3.md` | vie 15 ene |
 | P1 | Lab 3: 3 tarjetas de estación + tarjeta final (설날, regalo de 10만 원) + calendario del 설 연휴 + tarjeta de 설날 + planilla de pronunciación + formulario de autoevaluación | `S04…` · `alumnos/C2_Tarjetas_Lab3.md` | vie 22 ene |
-| P1 | Guía + material + deck S4–S5 (desde Semana09 de Abby + TalkFile) + "El 설날 de Minji" + cuadro de 3 columnas + guion del monólogo "mi 설날" | `S05…` | vie 29 ene |
+| P1 | Guía + material + deck S4–S5 (desde Semana09 de Abby + TalkFile) + "El 설날 de Minji" + cuadro de 3 columnas + guion del monólogo "mi 설날" + **ilustración del 세배** (L8 de la guía S4, propia) + **casa dibujada** (L11 de la guía S5) + **tarjetas de la visita** (material S5 §7) *(sumadas en el control final)* | `S05…` | vie 29 ene |
 | P1 | Banco de comentarios bilingüe (≈ 30 líneas ES/KO: fortalezas, focos, siguientes pasos) | `profes/C2_Banco_Comentarios.md` | vie 29 ene |
-| P1 | Guía + material + deck S6 (desde Semana08) + **6 láminas de 해와 달이 된 오누이 (ilustración propia)** + **cuento recontado en 한다체** + tabla de conversión + plantilla de 원고지 | `S06…` | vie 5 feb |
-| P1 | Guía + material + deck S7 (desde Semana10) + diálogo original del paso al 반말 (grabado por el equipo) + enlaces a tráileres oficiales + reseña en 한다체 + **consigna del proyecto** (F.1) | `S07…` · `alumnos/C2_Proyecto_Final.md` | vie 12 feb |
-| P1 | Lab 4 + proyecto: tarjetas de reserva + planilla de la rúbrica + plantilla del informe individual + banco de preguntas (F.4b) + formulario de autoevaluación final y encuesta | `S08…` · `profes/C2_Proyecto_Final_Profe.md` | vie 19 feb |
-| P1 | Quizzes 1–6 con clave + ítems TOPIK I seleccionados (⚑ N-3) | En cada guía (PROFE) | N−2 |
+| P1 | Guía + material + deck S6 (desde Semana08) + **6 láminas de 해와 달이 된 오누이 (ilustración propia)** + **cuento recontado en 한다체** + tabla de conversión + plantilla de 원고지 + mini-cuento **호랑이와 곶감** recontado (ejercicio 6 y C.11 de la guía S6) *(sumado en el control final)* | `S06…` | vie 5 feb |
+| P1 | Guía + material + deck S7 (desde Semana10) + diálogo original del paso al 반말 (grabado por el equipo) + enlaces a tráileres oficiales + reseña en 한다체 + **consigna del proyecto** (F.1) + **tarjetas del club** (receta, role play, tarjeta de 감독, tarjeta reto: material S7 §7) + respaldo TTS del diálogo del 반말 (SunHi + InJoon, si no hay colega que lo grabe) *(sumados en el control final)* | `S07…` · `alumnos/C2_Proyecto_Final.md` | vie 12 feb |
+| P1 | Lab 4 + proyecto: tarjetas de reserva + planilla de la rúbrica + plantilla del informe individual + banco de preguntas (F.4b) + formulario de autoevaluación final y encuesta + **tarjeta del Lab 4** y **7 tarjetas de reserva** (material S8 §7) + foto con licencia libre para L1 + carpeta de pódcasts en Drive (solo profe y Jay) *(sumados en el control final; guía S8, S8-N5 y S8-N6)* | `S08…` · `profes/C2_Proyecto_Final_Profe.md` | vie 19 feb |
+| P1 | Quizzes 1–6 con clave + ítems TOPIK I seleccionados (⚑ N-3) | En cada guía (PROFE, C.16) + compilado `profes/C2_Quizzes_TOPIK.md` (nombre del README de `profes/`) | N−2 |
 | P1 | 6 monólogos A4 (60–90 s; guion de producción, los graba el profe en 5 min) | Drive + grupo | N−2 |
 | P1 | 8 clips `C2_S0N_frases_clave.mp3` (recorte del coro) | Drive + grupo | 48 h después de cada clase |
 | P1 | Plantilla del certificado con la línea de nivel que Jay decida | Jay | antes de la S8 |
@@ -1124,7 +1125,7 @@ Producción redacta; el profe revisa la naturalidad del coreano (≈ 20 min por 
 
 ---
 
-## ⚑ Para revisión nativa y verificación (Jay; segunda opinión de Abby para usos muy actuales de Corea)
+## ⚑ Lista del diseño 1.0 (revisión nativa y verificación · se mantiene como referencia; la lista vigente es la consolidada del final)
 
 Plazo general: antes del N−2 de su semana (S1–S2: vie 18 dic · S3: vie 15 ene · S4: vie 22 ene · S5: vie 29 ene · S6: vie 5 feb · S7: vie 12 feb · S8: vie 19 feb) [POR CONFIRMAR]. **Si Jay cambia una frase con 🔊, se genera su clip nuevo** (el nombre del archivo es el hex del texto) y se corrige en la guía, en el material y en C.
 
@@ -1161,8 +1162,124 @@ Plazo general: antes del N−2 de su semana (S1–S2: vie 18 dic · S3: vie 15 e
 
 | # | Qué |
 |---|---|
-| N-1 | **Push a `main` de los 188 clips nuevos** de `public/audio/kr` (generados el 28 sept para C y B.14): sin eso, los 🔊 dan 404 en el sitio. Sumar la sección de Conversacional 2 al índice de clips |
+| N-1 | **Cerrado en el control final (28 sept):** los clips de C y B.14 están en `origin/main` desde el commit `a4e67e17`; el control final del 28 sept comprobó que los 294 clips que enlazan el diseño, las guías y los materiales existen y responden 200 en academiaseul.com: N-1 cerrado; el índice de clips ya tiene la sección de Conversacional 2 |
+| N-1b | **Push a `main` del clip nuevo de 비슷하다** (`public/audio/kr/ebb984ec8ab7ed9598eb8ba4.mp3`, generado en el control final con la misma voz y formato; ya está en el material S1 y en el índice). Hasta el push, ese único 🔊 da 404 |
 | N-2 | Las piezas `C2_*` (guía de estudio, tarjetas del Lab 3, banco de comentarios, proyecto alumno/profe, diagnóstico, quizzes TOPIK) **todavía no existen**: están en G.2 con sus plazos |
 | N-3 | Selección de los 6 ítems TOPIK I (edición y número; validación de Jay) |
 | N-4 | Revisión del modelo de pódcast (F.4) antes de la S7 |
 | N-5 | Si enseña Abby: traducir las guías al coreano y enviarle un mensaje con lo que difiere de su deck de 명절 (-(으)ㄴ 반면에 fuera; 처럼 en la S7) |
+
+---
+
+## J. Control final de continuidad (lunes 28 de septiembre de 2026, noche)
+
+**Qué se revisó:** este diseño, las 8 guías del profesor (`profes/S01…S08_Guia_Profesor.md`) y los 8 materiales del alumno (`alumnos/S01…S08_Material_Alumno.md`), leídos contra los 9 criterios del encargo, con comprobaciones por script (en el scratchpad de esta PC, carpeta `c2/`) donde el criterio es mecánico. Nada de lo que sigue cambia precios, profe, día u hora, ni lo publicado: lo que depende de Jay sigue como **DECISIÓN DE JAY** o **[POR CONFIRMAR]**.
+
+### J.1 Resultado por criterio
+
+| # | Criterio | Resultado | Cómo se comprobó |
+|---|---|---|---|
+| 1 | **Nada se exige antes de practicarse** | **Cumple**, con 4 arreglos (J.2: -네요 en el diálogo de la S3, -았/었을 때 en la autoevaluación de la S4, 께서 en los retos de la S3, -(으)ㄹ 것 같아요 en el modelo F.4). Los usos tempranos que quedan son deliberados y están marcados: 한 번밖에 없어요 (F en la S2, sistema en la S6), 어렸을 때 (F de Conversacional 1, sistema en la S6), el 반말 de la abuela y del 선배 (R hasta la S7), el -라고 했어요 del elogio del profe (voz del profe), 그래서 어떻게 됐어요? (fórmula de la S6, no es -게 되다) | Búsqueda de 17 estructuras del curso (y de las de B1: -더라고요, -거든요, -잖아요, discurso indirecto, -아/어지다, -(으)ㄹ 것 같아요) en cada sección de los 8 materiales, antes de su semana |
+| 2 | **La lista maestra coincide con lo enseñado** | **Cumple.** Las 182 filas de C (181 + 비슷하다, sumada hoy: J.2) están en la sección 2 del material de su semana y en su guía; ninguna fila del material con ★ queda fuera de C. Las ★ marcan el núcleo (N, N↺) y, en S1, S3, S4 y S8, también paradigmas o fórmulas que el quiz o el lab piden (el quiz 4 evalúa las fórmulas de 설날: coherente con E.4). Las "palabras de apoyo" de cada guía (D, "fuera de la lista C") van glosadas y no se evalúan | Script de cruce C ↔ material §2 ↔ guía |
+| 3 | **Cada tarea prepara la siguiente** | **Cumple** (tabla J.3): cada misión nombra su destino exacto y la clase siguiente lo recoge en el 스몰토크, en una estación o en la sala | Lectura de la sección 9 de los 8 materiales y de B.13 |
+| 4 | **Labs, evaluación y proyecto solo exigen lo trabajado** | **Cumple.** Lab 3 (S4): solo S1–S3 + fórmulas de 설날 (los moldes usan 할머니**가** + -시-, no 께서, que era R). Quizzes 1–6: cada uno evalúa solo la clase anterior (E.4 y C.16 de las guías S2–S7). Lab 4 y proyecto: la guía S8 quitó la suposición -(으)ㄹ 것 같아요, que nadie enseña; hoy se quitó también del modelo F.4 | Guías S4, S8 y C.16 de S2–S7 |
+| 5 | **≥ 50 % de conversación por clase** | **Cumple** en las 8 (conteo conservador de cada guía, descontando entradas a sala, instrucciones y coros): S1 56 % · S2 58 % · S3 58 % · S4 72 % · S5 58 % · S6 57 % · S7 60 % · S8 83 %. Las más justas son la S2 y la S5 si los turnos del deck no se dan (solo pares y salas = 47 %): las dos guías lo advierten en su punto 0 y su C.12 recorta primero la voz del profe, nunca las rondas (paso 0 sumado hoy en la S2: J.2); la S3 queda en 53 % aun sin la cadena de presentaciones | Punto 0 de cada guía |
+| 6 | **Continuidad real con la salida de Conversacional 1** | **Cumple** (B0.1, B.11 y la tabla "Continuidad con Conversacional 1"): -아/어야 해요 se trata como nueva (en octubre solo se reconoció), 드세요 / 몇 분이세요? pasan de fórmula a sistema en la S3, el 반말 de reconocimiento pasa a producción pactada en la S7, 그러니까 abre -(으)니까. Arreglo: B.10 contaba 경험 como palabra de Conversacional 1 y no lo es (N de la S8) | Cruce con la lista C y los materiales de la Fase 4 |
+| 7 | **🔊 con URL bien formada y archivo existente** | **Cumple.** 460 enlaces 🔊 (más 3 menciones de la ruta local del clip nuevo), 295 clips distintos: todos con la forma `https://www.academiaseul.com/audio/kr/<hex>.mp3`, hex = UTF-8 del texto de su fila (un solo caso de fila que no coincidía: S4 §4, corregido), archivo presente en `public/audio/kr/`. 294 están en `origin/main` (commit `a4e67e17`, deploy de Vercel en "success") y **responden 200** en el sitio; el nuevo (비슷하다) espera su push: **⚑ N-1b** | Script de enlaces + consulta HTTP de los 294 + estado del commit en GitHub |
+| 8 | **Mismo formato y voz que las Fases 2–4** | **Cumple.** Guías: 0 · A (17 campos) · B (60') · C.1–C.17 · D · E, en español con 🗣️ en coreano y 📋 en español. Materiales: secciones 1–10, español + 한글, **sin romanización** (solo nombres propios de lugares y exámenes en letras latinas: Seúl, Busan, Jeju, Dangún, PAES, TOPIK; el título inventado "Chimaek de viernes" se cambió por 〈금요일의 치맥〉). Voz: 화이팅, chingu, 🐯. **Nunca rojo**: ninguna instrucción de color rojo; los decks piden azul `#4236F6` y navy `#003478` | Encabezados de los 16 archivos + búsqueda de romanización y de color |
+| 9 | **La biblioteca (G) lista todo lo que las guías piden producir** | **Cumple tras el control:** se sumaron a G.2 las piezas que las guías pedían y G.2 no nombraba (lectura y aviso de la S2, lámina de cargos, ilustración del 세배, casa dibujada, tarjetas de la visita, 호랑이와 곶감, tarjetas del club, respaldo TTS del diálogo, tarjeta del Lab 4, 7 tarjetas de reserva, foto de L1, carpeta de pódcasts). Las piezas `C2_*` siguen sin existir (⚑ N-2) | Checklists C.2 y guiones C.17 de las 8 guías |
+
+**Otros controles:** fechas tentativas idénticas en los 16 archivos (S1 mié 13 ene … S8 mié 3 mar, Chile; jueves en Corea) y siempre con **[POR CONFIRMAR]** · precio sin tocar ("US$150 el curso completo · o 2 cuotas de US$75") · profe **POR DEFINIR** en las 8 guías · **[regla del certificado: pendiente de decisión de Jay]** en todo lo que depende de ella · separación PROFE / ALUMNO: ninguna clave ni nota interna en `alumnos/` (las respuestas de ejercicios, quizzes, lecturas y tarjetas están en C.16 de cada guía).
+
+### J.2 Correcciones hechas en el control final
+
+| Dónde | Antes | Ahora | Por qué |
+|---|---|---|---|
+| Diseño C · material S1 §2 · guía S1 (0, A.4, C.16, S1-9, S1-23) · índice de clips | 비슷하다 era "palabra de apoyo" fuera de C | **Fila nueva de C (S1, F): 비슷하다 (___하고 비슷해요)**, con clip SunHi nuevo (misma voz y formato) · C: 182 filas, 31 F, S1 = 25 | La pide "allá y acá" (S1), los moldes del cuadro (S5) y el ejercicio de la S8: se produce, así que tenía que estar en la lista (propuesta S1-9 de la guía) |
+| Material S3 §5 y guía S3 C.8 | 다니엘: 와, 진짜 회사원**이네요**! | 와, **이제 진짜 회사원이에요**! | -네요 llega en la S5 |
+| Material S3 §7 y §9 (retos) | "habla del 부장 con **께서**" · "un 께서" | Lo mismo, marcado **"bonus: 께서 es para reconocer y no se evalúa"** | 께서 es R en la S3 |
+| Material S4 §9 (autoevaluación) | 못 **알아들었을 때** "다시 한번 말씀해 주시겠어요?"를 썼어요 | **잘 모를 때** "…"를 썼어요 | -았/었을 때 llega en la S6 (-(으)ㄹ 때 es de Conversacional 1) |
+| Material S4 §4 | Fila "말씀해 주시겠어요?" con el clip de "다시 한번 말씀해 주시겠어요?" | Fila "(다시 한번) 말씀해 주시겠어요?" | El texto de la fila tiene que coincidir con su 🔊 |
+| Material S7 §5 y guía S7 C.8 | "Chimaek de viernes" | 〈금요일의 치맥〉 ("Pollo y cerveza de los viernes") | Sin romanización |
+| Material y guía S1 (diálogo) · diseño B.3 | 대학교 입학 시험 · 대학 입학 시험 | **입학시험**, junto | 표준국어대사전 lo registra como una palabra (la guía S2 ya lo había corregido: S2-30) |
+| Diseño B.9 (puede decir 2), F.2 y F.4 | 옛날에는 회식**이** 밤늦게까지 **있었는데** | 옛날에는 회식**을** 밤늦게까지 **했는데** | Revisión nativa aplicada en S7 y S8 (S8-K1); el diseño no estaba al día |
+| Diseño F.4, modelo 2 | 너무 늦게까지 하면 **힘들 것 같아요** | 너무 늦게까지 하면 **좀 힘들어요** | La suposición -(으)ㄹ 것 같아요 no se enseña en ninguna semana (S8-K11) |
+| Diseño B.10 | "목표, 경험 ↺, 예약하다…" como palabras de Conversacional 1 | "목표, 예약하다, 계속하다, 긴장되다, 이유…" (경험 es N de la S8) | S8-N8 |
+| Diseño E.4 | "un ítem oficial publicado en topik.go.kr" | **ítem original con formato TOPIK I** + alternativa oficial **citada** (제64회), sin copiarla | Es lo que hacen las guías S2–S7 y la regla de material original |
+| Diseño (hechos fijos, C, B.14, G.1, G.2, ⚑ N-1) · guías S1, S5 y S6 | "⚑ N-1: los clips no están en git; dan 404" | **N-1 cerrado** (en `origin/main` desde `a4e67e17`; 294 clips responden 200) + **N-1b** (el clip nuevo de 비슷하다) | Estado real del repositorio y del sitio |
+| Diseño G.2 | — | 6 filas ampliadas con las piezas que pedían las guías (J.1, criterio 9) | Criterio 9 |
+| Guía S2 · C.12 y ficha 0 | C.12 recortaba primero rondas de alumnos (cadena, frases propias, ronda personal) | **Paso 0:** antes de tocar una ronda, se recorta la voz del profe (contrastes 📋-3 a 📋-8 al chat, 수시 / 정시 en una frase); si igual se recorta, la Tarjeta 1 de la sala recoge esos turnos | Sin los turnos del deck la S2 baja a 47 % de conversación; la S5 ya tenía esta regla (criterio 5) |
+| Diseño G.2 (filas S1 y quizzes) | El README de `profes/` nombra `C2_Diagnostico_S1.md` y `C2_Quizzes_TOPIK.md`, que G.2 no nombraba | Las dos filas de G.2 llevan ahora ese nombre de archivo | Criterio 9: una pieza, un nombre, en un solo lugar |
+| Diseño J.1 (criterios 5 y 7) | S2 = 59 % · "464 enlaces" | S2 = **58 %** (lo que dice su guía) · **460 enlaces 🔊** (+ 3 menciones de la ruta local del clip nuevo) | Recuento de la segunda pasada del control (28 sept) |
+
+### J.3 La cadena de misiones (cada tarea prepara la siguiente)
+
+| Misión de la… | Qué trae el alumno | Dónde se usa (destino exacto) |
+|---|---|---|
+| S1 | Audio "우리 학교" (el **"antes"**) + 3 palabras de su examen más importante | Mapa del grupo (vie 15) · 스몰토크 de la S2 (인생에서 제일 긴장된 시험이 뭐였어요?) · informe final (antes y después) |
+| S2 | Audio (examen + opinión con una razón) + opinión escrita + 3 ejemplos de trato en el trabajo | 스몰토크 y cultura de la S3 · estación 2 del Lab 3 (la razón que grabó) |
+| S3 | Presentación formal + un mayor con -(으)시- + correo en -습니다 + 3 palabras de Año Nuevo + la persona del 세배 · guía de estudio S1–S3 | Estación "회사 첫날" y tarjeta final (la visita de 설날) del Lab 3 |
+| S4 | Autoevaluación de mitad + mensaje de 설날 + **foto** del 설날 (o de una fiesta de su familia) y 3 palabras | Comentario de mitad · 스몰토크 de la S5 · sala (b) "la fiesta de mi familia" |
+| S5 | Comparación de fiestas (audio + 5–6 frases) + **leyenda de su país** (5 palabras y un personaje) | 스몰토크 de la S6 (어렸을 때 무슨 이야기를 좋아했어요?) · "tu leyenda en 1 minuto" en la sala |
+| S6 | Audio de la leyenda + 일기 en 한다체 + **ficha de su drama** | Club del drama de la S7 · la reseña opcional en 한다체 de la S7 |
+| S7 | Guion de 8–10 frases (corregido el domingo) + tarjeta de 8 palabras + 3 preguntas | Pódcast del lunes 1 de marzo · turno en vivo y preguntas cruzadas de la S8 |
+| S8 | Pódcast de 3 minutos (antes) · autoevaluación final y encuesta (después) | Rúbrica F.6 · informe individual (antes y después) |
+
+### J.4 Lo que el control no pudo cerrar (y queda marcado)
+
+- **설날 2027:** el encargo dice "feriado 6–8 feb"; el diseño (y la Fase 1 §10.6) da **sáb 6 – mar 9**, porque el 7 cae en domingo y el 설 연휴 tiene feriado sustituto (대체공휴일) el martes 9. Es coherente con la regla vigente y en la segunda pasada del control lo confirman de nuevo calendarios coreanos de 2027 (month2k, kholidayz, holiday.kimgoon, time.is: 설날 dom 7; 연휴 sáb 6 – mar 9, con el 9 como 대체공휴일), pero no se consultó el calendario oficial (월력요항 de 인사혁신처): **⚑ D-1 sigue abierto** solo por esa fuente. **El "6–8 feb" del encargo no es un error de fondo** (son los 3 días del 설 연휴); el diseño agrega el martes 9. Para la clase no cambia nada: la S4 (mié 3 · jue 4 KST) cae antes del feriado y la S5 (mié 10 · jue 11 KST) después, con cualquiera de las dos versiones.
+- **Datos verificables** que las guías ya dejaron marcados (límite horario de los 학원, 주 52시간, guía del 차례 de 2022, 1인 가구, 설문대할망, Carnaval 2027, años del 과거, calendario 2026–27 del 수능): siguen en la lista ⚑ de abajo. El calendario del 수능 2026–27 (19 nov · 11 dic · 4–7 ene) está verificado con fuente en la guía S2 (S2-8).
+- **Piezas `C2_*`** (guía de estudio S1–S3, tarjetas del Lab 3, banco de comentarios, proyecto alumno/profe, diagnóstico, quizzes): no existen todavía (⚑ N-2). Las guías y los materiales ya traen el contenido mínimo para derivarlas.
+- **Decisiones de Jay** (sección "Decisiones para Jay", 1–15) y las propuestas menores de cada guía (su sección D): intactas. Ninguna se resolvió en silencio.
+
+---
+
+## ⚑ Para revisión nativa (lista consolidada tras el control final)
+
+**Quién:** Jay (nativo); segunda opinión de Abby para usos muy actuales de Corea. **Plazo:** antes del N−2 de cada semana (S1–S2: vie 18 dic · S3: vie 15 ene · S4: vie 22 ene · S5: vie 29 ene · S6: vie 5 feb · S7: vie 12 feb · S8: vie 19 feb) [POR CONFIRMAR]. **Regla:** si Jay cambia una frase con 🔊, se genera su clip nuevo (el nombre es el hex del texto) y se corrige en C, en la guía y en el material. El detalle de cada punto está en la sección D de la guía que se cita.
+
+### 1 · Coreano que decide el curso (diseño y frases con clip)
+
+| # | Qué confirmar | Dónde |
+|---|---|---|
+| RN-1 | La regla del "suena a obvio" de -(으)니까 (바쁘니까 못 가요 frente a 바빠서 못 가요): solo para el profe | K-1 · S1-2 |
+| RN-2 | Primera pregunta del reencuentro: 크리스마스하고 새해에 뭐 했어요? (¿o 연말 잘 보냈어요?) | K-2 · S1-3 |
+| RN-3 | **비슷하다 (___하고 비슷해요) como fórmula de la S1**, sumada hoy a C; y 비슷해요 [비스태요] | J.2 · S1-9 |
+| RN-4 | -(으)시- hacia el profe antes de la S3 (선생님도 교복을 입었죠? frente a 입으셨죠?): ¿se acepta sin corregir hasta la S3? | S1-27 |
+| RN-5 | 인생에서 제일 긴장된 시험 frente a 긴장됐던 시험 (pregunta del 스몰토크 de la S2, citada en S1 y S2) | S1-26 |
+| RN-6 | Consuelo "괜찮아요, 다음에 잘하면 돼요" · "제 생각에는 시험 하나가 너무 중요한 것 같아요" · frase clave 2 de la S2 (¿…수험생들이 스트레스를…?) | K-3 · S2-2, S2-3, S2-29 |
+| RN-7 | La respuesta del jefe a 식사하셨어요? sin -시- · 있으세요 frente a 계세요 · 수고하셨습니다 hacia arriba · -(으)ㄹ 수 있어요? para pedir permiso | K-4 · S3-2, S3-3, S3-8, S3-28 |
+| RN-8 | Diálogo de la S3 con el cambio de hoy: **와, 이제 진짜 회사원이에요! 하하.** | J.2 · S3-14 |
+| RN-9 | La abuela en 반말 (그래, 너희도 새해 복 많이 받아라) · 세배 받으세요! · 건강하세요 · 한복이 정말 예뻐 보여요! · el 팀장 que dice 설날 잘 보내요! | K-5 · S4-1 a S4-5, S4-27 |
+| RN-10 | Autoevaluación de mitad con el cambio de hoy: **잘 모를 때 "다시 한번 말씀해 주시겠어요?"를 썼어요** | J.2 · material S4 §9 |
+| RN-11 | 제가 설거지할게요. 할머니는 좀 쉬세요 · 괜찮아, 앉아 있어 · 할머니는 손주들을 보고 싶어 하세요 · 도와줄게요 a un mayor · -네요 con los propios actos · las promesas finales con -(으)ㄹ게요 | K-6 · S5-2 a S5-6, S5-27 |
+| RN-12 | 엄마가 고개를 넘는데 호랑이가 나타났어요 · 호랑이 담배 피우던 시절에 · el cuento recontado (oral en 해요체 y escrito en 한다체) · la tabla del 한다체 | K-7 · S6-1 a S6-7 |
+| RN-13 | 우리 말 놓을까요? — 좋아, 말 놓자! (¿natural o cómico?) · -다고 생각해요 como fórmula · 실례지만 몇 년생이에요? · nombre + 아/야 con nombres extranjeros | K-8 · S7-2, S7-5, S7-7, S7-9 |
+| RN-14 | **Modelo del pódcast (F.4) con los cambios de hoy:** 옛날에는 회식을 밤늦게까지 했는데… · 너무 늦게까지 하면 좀 힘들어요 · y lo que ya estaba: 고기를 한 점밖에 못 먹었어요 · 퇴근 후 시간도 중요하니까요 | K-9 · N-4 · S8-K1, S8-K11 |
+| RN-15 | **다음 단계에서도 열심히 할게요** (frase con clip): el revisor nativo de la S8 propone **앞으로도 열심히 할게요**; si Jay cambia, clip nuevo y B.14 | S8-K2 · DECISIÓN DE JAY |
+| RN-16 | **좋은 질문이네요** dicho al profe (puede sonar a que el alumno evalúa al superior): ¿se suma 좋은 질문 감사합니다 para el profe? | S8-K9 · DECISIÓN DE JAY |
+| RN-17 | El ejemplo del deck de mitos de julio "날씨가 추우니까 나무꾼이 집으로 갔어요" (¿추워서?) | K-10 |
+
+### 2 · Datos y fuentes (no son de coreano)
+
+| # | Qué verificar | Dónde |
+|---|---|---|
+| DV-1 | **설 연휴 2027: sáb 6 – mar 9 feb** (con el 9 como feriado sustituto) frente al "6–8 feb" del encargo: confirmado en 4 calendarios coreanos secundarios; falta el oficial (월력요항 de 인사혁신처) · cambio de hora de Chile en abril de 2027 · horario de verano de EE. UU. (14 mar) | D-1 · J.4 · S8-D3 |
+| DV-2 | Carnaval 2027 (lun 8 y mar 9 feb) en los países de los alumnos · 정월대보름 = dom 21 feb 2027 | D-2 · S4-22 · S6-8 |
+| DV-3 | Colegio coreano: límite horario de los 학원 en Seúl (no se dice en clase hasta confirmarlo), 교복 más cómodo como tendencia, 청소 y 급식, 야자 hoy · calendario escolar 2026–27 (개학 mar 2 mar) · 한글학교 y la serie 한글학교 한국어 | D-3 · S1-11 a S1-16 · S8-D1, S8-D2 |
+| DV-4 | 수시 / 정시 sin cifras · ingreso sin examen nacional en Argentina y Uruguay · el 과거 (958–1894) · "el 수능 existe desde los años 90" · 수험생 할인 | D-4 · S2-8 a S2-11, S2-27 |
+| DV-5 | Semana de 52 horas (año y alcance) · empresas que cambian los cargos (sin nombres) · 회식 hoy · escalera de cargos | D-5 · S3-9 a S3-12 |
+| DV-6 | Guía de 2022 para simplificar el 차례 (fuente exacta) · 떡국 / 떡만둣국 por región · 만 나이 desde 2023 · el 설날 en Patronato · billetes nuevos del 세뱃돈 | D-6 · S4-11 · S5-8 a S5-11 |
+| DV-7 | 설문대할망 (Jeju) · 호랑이와 곶감 como cuento tradicional · 까치호랑이 (solo con la Opción B) | D-7 · S6-8, S6-23 |
+| DV-8 | 1인 가구 (sin cifra, o solo con fuente oficial) · que los tráileres oficiales sigan públicos · que el drama inventado 〈금요일의 치맥〉 no exista | D-8 · S7-3, S7-10, S7-11 |
+| DV-9 | El archivo "제9과 모르는 말이 많아" de `D:\` (¿versión correcta?) | D-9 |
+
+### 3 · Producción y técnica
+
+| # | Qué | Cuándo |
+|---|---|---|
+| N-1b | **Push a `main` del clip nuevo de 비슷하다** (`public/audio/kr/ebb984ec8ab7ed9598eb8ba4.mp3`) y comprobar el deploy de Vercel | Con el próximo commit del currículo |
+| N-2 | Producir las piezas `C2_*` (guía de estudio S1–S3, tarjetas del Lab 3, banco de comentarios, proyecto alumno y profe, diagnóstico de la S1, quizzes) | Plazos de G.2 |
+| N-3 | Jay elige, para cada quiz, el ítem original o la alternativa oficial citada (제64회 TOPIK I) | N−2 de cada semana |
+| N-4 | Jay revisa el modelo completo del pódcast (F.4) | Antes de la S7 |
+| N-5 | Si enseña Abby: traducir las 8 guías al coreano (`S0N_Guia_Profesora_KO.md`) y avisarle lo que cambia frente a su deck de 명절 | vie 18 dic (S1–S2) y N−2 del resto |

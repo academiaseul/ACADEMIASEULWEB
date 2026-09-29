@@ -11,6 +11,9 @@
 //   conversacional1       -> Curriculo/Fase4_Conversacional1/Guia_Profesora_Conversacional1_Octubre_2026.docx
 //                            Curriculo/Fase4_Conversacional1/Cuaderno_Alumno_Conversacional1_Octubre_2026.docx
 //      (guías en coreano para Abby: profes/S0N_Guia_Profesora.md, índice y pie en coreano, diseño en español como anexo)
+//   conversacional2       -> Curriculo/Fase5_Conversacional2/Guia_Profesor_Conversacional2_Enero_2027.docx
+//                            Curriculo/Fase5_Conversacional2/Cuaderno_Alumno_Conversacional2_Enero_2027.docx
+//      (cohorte enero 2027; guías en español con lo que dice el profe en coreano; profe, día y hora [POR CONFIRMAR])
 //   topik2                -> Curriculo/Fase6_TOPIK2/Guia_Profesor_TOPIK2_Octubre_2026.docx
 //                            Curriculo/Fase6_TOPIK2/Cuaderno_Alumno_TOPIK2_Octubre_2026.docx  (cuaderno de estrategia)
 //   ninos                 -> Curriculo/Fase7_Ninos/Guia_Profesores_Ninos_Octubre_2026.docx  (profes/S0N_Guia_Profesores.md)
@@ -31,7 +34,7 @@
 // título del documento, pie con www.academiaseul.com y número de página, logo azul en la portada.
 // Cada documento puede cambiar los tamaños con guia.estilo / cuaderno.estilo (ver ESTILO_BASE). Nunca rojo.
 //
-// Uso: cd <scratchpad> && node curriculo/md_a_docx.js [basico1|basico2|conversacional1|topik2|ninos|todos]
+// Uso: cd <scratchpad> && node curriculo/md_a_docx.js [basico1|basico2|conversacional1|conversacional2|topik2|ninos|todos]
 //   (sin argumento se usa la variable de entorno AS_CURSO y, si no está, basico1: el comportamiento de siempre).
 //   AS_OUT_DIR=<carpeta> escribe los .docx ahí en vez de en la carpeta del curso (útil para comparar versiones).
 // La copia del repo (Curriculo/fuente/md_a_docx.js) usa el docx del scratchpad (AS_SCRATCH) si no lo encuentra.
@@ -252,7 +255,8 @@ function splitRow(l) {
 }
 
 // opts.perezosas: acepta líneas de continuación "perezosas" en los ítems de lista (ver más abajo). Solo lo activan los
-// cursos con cfg.perezosas (TOPIK II y Niños): en Básico 1 y 2 y Conversacional 1 cambiaría ~12 párrafos ya revisados.
+// cursos con cfg.perezosas (Conversacional 2, TOPIK II y Niños): en Básico 1 y 2 y Conversacional 1 cambiaría ~12 párrafos
+// ya revisados.
 function parseBlocks(lines, opts = {}) {
   const blocks = [];
   let i = 0;
@@ -902,6 +906,57 @@ const CURSOS = {
         [r("8 semanas para conversar en coreano sobre la Corea que amas: K-pop, viajes, comida, 한복 y PC방.", { bold: true, size: 22, color: NAVY })],
         [r("Cada semana: lo que vas a poder decir, vocabulario, gramática, cómo suena, diálogo, ejercicios, tarjeta de sala y guion del role play, nota cultural y tarea.", { size: 20 })],
         [r("La clase es en coreano; el español vive aquí. Sin romanización: la pronunciación va en 한글 entre corchetes, 한라산 [할라산].", { size: 20 })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("화이팅!", { bold: true, size: 26, color: AZUL })], 60, 0),
+      ]],
+    },
+  },
+
+  // Cohorte enero 2027. Guías en español con todo lo que el profe dice en clase escrito en coreano (🗣️) y lo que se
+  // proyecta o se pega en el chat (📋); el diseño va primero. Profe, día y hora siguen [POR CONFIRMAR] (decisiones de Jay 1
+  // y 2; tentativo: miércoles 21:00 Chile = jueves 09:00 Corea, del 13 de enero al 3 de marzo). Con perezosas, las líneas
+  // sin la sangría completa pegadas a un ítem ("   Mándalo por WhatsApp…" bajo las viñetas de la tarea) siguen en la lista.
+  conversacional2: {
+    carpeta: "Fase5_Conversacional2",
+    diseno: "00_Diseno_Conversacional2.md",
+    prefijo: /^Conversacional 2 \(A2\.2\) · /,
+    perezosas: true,
+    guia: {
+      salida: "Guia_Profesor_Conversacional2_Enero_2027.docx",
+      titulo: "Conversacional 2 (A2.2) · Guía del profesor · Cohorte enero 2027",
+      descripcion: "Conversacional 2 (A2.2) · Corea por dentro · 회화 A2.2 · diseño del curso y guías del profesor, semanas 1 a 8 · cohorte enero 2027",
+      estilo: { tablasAnchas: true },   // planillas de seguimiento de 14 a 23 columnas (S1–S8) dentro del margen
+      portada: () => [[
+        centro([r("회화 A2.2 · Corea por dentro", { bold: true, size: 30, color: AZUL })], 120, 80),
+        centro([r("Conversacional 2 (A2.2)", { bold: true, size: 60 })], 0, 60),
+        centro([r("Guía del profesor", { bold: true, size: 44, color: AZUL })], 0, 160),
+        centro([r("Cohorte enero 2027 · Profe: por confirmar (tentativo: Abby, 홍미영)", { size: 26, color: NAVY, bold: true })], 0, 80),
+        centro([r("Tentativo: miércoles 21:00–22:00, hora de Chile (jueves 09:00 en Corea) · 13 de enero al 3 de marzo de 2027 · 8 semanas por Zoom [POR CONFIRMAR]", { size: 21, color: GREY })], 0, 60),
+      ], [
+        [r("Material del profesor", { bold: true, size: 22, color: NAVY })],
+        [r("Diseño del curso + guías de clase de las semanas 1 a 8: plan minuto a minuto, lo que el profe dice en coreano (🗣️) y lo que se proyecta o se pega en el chat (📋), diagnóstico, claves, rúbricas y notas.", { size: 20 })],
+        [r("Profe, día y hora son decisiones de Jay: las fechas marcadas [POR CONFIRMAR] son tentativas. Si el curso lo da Abby, cada guía se traduce al coreano (anexo E de cada semana).", { size: 20 })],
+        [r("No se comparte con los alumnos: su material va en el Cuaderno del alumno.", { size: 20, bold: true, color: AZUL })],
+      ], [
+        centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
+        centro([r("Versión del 28 de septiembre de 2026 · compilada desde Curriculo/Fase5_Conversacional2 (00_Diseno_Conversacional2.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
+      ]],
+    },
+    cuaderno: {
+      salida: "Cuaderno_Alumno_Conversacional2_Enero_2027.docx",
+      titulo: "Conversacional 2 (A2.2) · Cuaderno del alumno · Cohorte enero 2027",
+      descripcion: "Conversacional 2 (A2.2) · Corea por dentro · 회화 A2.2 · material del alumno, semanas 1 a 8 · cohorte enero 2027",
+      portada: () => [[
+        centro([r("Conversacional 2 (A2.2)", { bold: true, size: 60 })], 120, 60),
+        centro([r("Corea por dentro · 회화 A2.2", { bold: true, size: 36, color: AZUL })], 0, 160),
+        centro([r("Cuaderno del alumno", { bold: true, size: 44, color: NAVY })], 0, 160),
+        centro([r("Cohorte enero 2027 · miércoles 21:00, hora de Chile [POR CONFIRMAR]", { size: 22, color: GREY })], 0, 360),
+        centro([r("Nombre: ______________________________", { size: 22 })], 0, 60),
+      ], [
+        [r("8 semanas para mirar Corea por dentro y contarla en coreano: el colegio y el 수능, la oficina, el 설날, los mitos y la Corea de los K-dramas.", { bold: true, size: 22, color: NAVY })],
+        [r("Cada semana: lo que vas a poder decir, vocabulario, gramática, cómo suena, diálogo o texto, ejercicios, tarjeta de sala, nota cultural y tarea.", { size: 20 })],
+        [r("Sin romanización: la pronunciación va en 한글 entre corchetes, 맞죠 [맏쬬]. Los 🔊 abren el audio nativo de cada palabra y frase clave.", { size: 20 })],
       ], [
         centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
         centro([r("화이팅!", { bold: true, size: 26, color: AZUL })], 60, 0),

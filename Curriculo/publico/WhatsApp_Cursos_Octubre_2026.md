@@ -127,12 +127,13 @@ Un adulto ayuda a conectarse y envía las tareas por WhatsApp. Nunca publicamos 
 Inscripción 👉 www.academiaseul.com/nivel-1?clase=ninos
 ```
 
-### 🎎 Conversacional 2 (A2.2) · enero 2027
+### 🔜 Conversacional 2 (A2.2) · enero 2027
 
 ```text
 🔜 *Conversacional 2 (A2.2) · Corea por dentro*
-Abre en *enero 2027* y no es parte de la cohorte de octubre. Es el paso que sigue a Conversacional 1: la escuela, el trabajo, 설날, 추석, leyendas y K-drama, para comparar, opinar y contar historias en coreano.
-Horario, profe y fecha: por anunciar.
+Abre en *enero 2027* y no es parte de la cohorte de octubre. Es el paso que sigue a Conversacional 1: la escuela y el 수능, la vida en la oficina, 설날 y 추석, leyendas y K-drama, para explicar, comparar, opinar y contar historias en coreano, y hablar con el respeto que corresponde. Con 2 laboratorios de conversación y un mini-pódcast final.
+💵 US$150 · o 2 cuotas de US$75
+Día, hora, profe y fecha exacta: por confirmar.
 
 Anótate sin costo en la lista de espera y te avisamos primero 👉 www.academiaseul.com/notificarme?curso=conversacion
 
@@ -183,4 +184,5 @@ NOTAS (no se envían):
 - ✅ El PDF público de Básico 1 (https://www.academiaseul.com/programas/Programa_Basico1_Octubre_2026.pdf) ya coincide con el programa (corregido el 26 sept 2026); se puede enviar.
 - Mercado Pago en 2 cuotas depende del link de US$75 (MP_LINK_MENSUAL, pendiente) o del checkout dinámico (MP_ACCESS_TOKEN). La respuesta "¿Cómo pago?" no promete un medio específico para las cuotas.
 - PayPal "sin cuenta" sigue pendiente: por eso dice "también con tarjeta", sin prometer "sin cuenta".
+- Conversacional 2 (29 sept 2026): el bloque sigue el diseño final (Curriculo/Fase5_Conversacional2/00_Diseno_Conversacional2.md): temas en el orden de la Opción A, 2 laboratorios y mini-pódcast final, precio único. Día, hora, profe y fecha exacta dependen de Jay.
 -->

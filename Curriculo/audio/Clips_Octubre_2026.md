@@ -9,13 +9,13 @@
 | Nombre del archivo | hex en minúsculas del UTF-8 del texto + `.mp3` (el mismo `hexOf()` del Lector): 우유 → `ec9ab0ec9ca0.mp3` |
 | URL | `https://www.academiaseul.com/audio/kr/<hex>.mp3` |
 | Texto grabado | el coreano exacto de la lista, sin glosa ni romanización. Se quita **el punto o el signo de exclamación final** (no cambia la voz y así 수고했어요 y 수고했어요! son un solo clip); el **signo de interrogación se mantiene** (cambia la entonación: 네 ≠ 네?) |
-| Clips únicos | **1125** · el 26 sept, Básico 1, Básico 2 y Conversacional 1: 648 (561 nuevos · 87 que ya existían) · el 27 sept, TOPIK II: 188 más (188 nuevos) · el 27 sept, Coreano para Niños: 99 más (70 nuevos · 29 del Lector y de Dubu que ya estaban) · el 28 sept, Conversacional 2: 190 más (188 nuevos · 2 del Lector que ya estaban: 해, 달) |
+| Clips únicos | **1126** · el 26 sept, Básico 1, Básico 2 y Conversacional 1: 648 (561 nuevos · 87 que ya existían) · el 27 sept, TOPIK II: 188 más (188 nuevos) · el 27 sept, Coreano para Niños: 99 más (70 nuevos · 29 del Lector y de Dubu que ya estaban) · el 28 sept, Conversacional 2: 190 más (188 nuevos · 2 del Lector que ya estaban: 해, 달) · control final de Conversacional 2 (28 sept, noche): 1 más (비슷하다, sumada a la lista C de la S1) |
 | Básico 1 | 228 clips (170 nuevos · 58 existentes) · las 182 filas de la lista C y las 24 frases clave |
 | Básico 2 | 234 clips (198 nuevos · 36 existentes) · las 172 filas de la lista C y las 24 frases clave |
 | Conversacional 1 | 217 clips (206 nuevos · 11 que ya estaban, la mayoría de Básico 1 y 2) · las 173 filas de la lista C y las 24 frases clave |
 | TOPIK II | 193 clips (188 nuevos · 5 que ya estaban por otros cursos: 예약하다, 배, 수능, 목표, 미역국) · las 169 filas de la lista C y las 24 frases clave |
 | Coreano para Niños | 184 clips (70 nuevos · 114 que ya estaban: 85 de los cursos de adultos y 29 del Lector y de Dubu) · las 125 filas de la lista C y las 24 frases clave |
-| Conversacional 2 | 234 clips (188 nuevos · 46 que ya estaban: 44 de los otros cursos y 2 del Lector) · las 181 filas de la lista C (213 piezas) y las 24 frases clave (25 clips; 4 compartidos con la lista C) |
+| Conversacional 2 | 235 clips (189 nuevos · 46 que ya estaban: 44 de los otros cursos y 2 del Lector) · las 182 filas de la lista C (214 piezas; 비슷하다 sumada en el control final) y las 24 frases clave (25 clips; 4 compartidos con la lista C) |
 
 **Cómo se expandieron las filas que no son una sola palabra**
 - Variantes con " · " o " / " → un clip por variante (이거 · 그거 · 저거; 누구하고 / 누구랑; 아침 · 점심 · 저녁…).
@@ -1179,7 +1179,7 @@
 
 ---
 
-## Conversacional 2 (A2.2 · enero 2027) · vocabulario (lista C · 213 clips)
+## Conversacional 2 (A2.2 · enero 2027) · vocabulario (lista C · 214 clips)
 
 | Texto | Curso · semana | URL | Estado |
 |---|---|---|---|
@@ -1213,6 +1213,7 @@
 | 고등학교 때 | C2 S1 | https://www.academiaseul.com/audio/kr/eab3a0eb93b1ed9599eab59020eb958c.mp3 | nuevo |
 | 방학 때 | C2 S1 | https://www.academiaseul.com/audio/kr/ebb0a9ed959920eb958c.mp3 | nuevo |
 | 다시 만나서 반가워요 | C2 S1 | https://www.academiaseul.com/audio/kr/eb8ba4ec8b9c20eba78ceb8298ec849c20ebb098eab080ec9b8cec9a94.mp3 | nuevo |
+| 비슷하다 | C2 S1 | https://www.academiaseul.com/audio/kr/ebb984ec8ab7ed9598eb8ba4.mp3 | nuevo (control final, 28 sept) |
 | 야간 자율 학습 | C2 S1 | https://www.academiaseul.com/audio/kr/ec95bceab08420ec9e90ec9ca820ed9599ec8ab5.mp3 | nuevo |
 | 밥 먹었어? | C2 S1 | https://www.academiaseul.com/audio/kr/ebb0a520eba8b9ec9788ec96b43f.mp3 | nuevo |
 | 어디 가? | C2 S1 | https://www.academiaseul.com/audio/kr/ec96b4eb949420eab0803f.mp3 | nuevo |

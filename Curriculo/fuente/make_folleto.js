@@ -313,7 +313,7 @@ function build() {
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 60 }, children: [run("Próximamente: Conversacional 2 (A2.2), enero 2027", { size: 20, color: GREY })] }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 360 }, children: [new ImageRun({ type: "png", data: SELLO, transformation: { width: 84, height: 81 } })] }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 100 }, children: [run(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })] }),
-    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 160 }, children: [run("Horarios en hora de Chile (Santiago, UTC−3 durante todo el curso). Versión del 26 de septiembre de 2026.", { size: 16, color: GREY, italics: true })] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 160 }, children: [run("Horarios en hora de Chile (Santiago, UTC−3 durante todo el curso). Versión del 29 de septiembre de 2026.", { size: 16, color: GREY, italics: true })] }),
   );
 
   // ---------- OCTUBRE DE UN VISTAZO ----------
@@ -359,7 +359,7 @@ function build() {
     [nom("Básico 1", "Primeras Palabras"), "A1.1 · desde cero", "Quien nunca ha estudiado coreano o reconoce letras sueltas, pero todavía no lee", "Leer 한글 y decir tus primeras frases: presentarte, tu familia, lugares, tu día y tus gustos", "Mar o jue 20:00 · Kiran", "8 semanas", PC],
     [nom("Básico 2", "Pasado, presente y futuro"), "A1.2", "Quien ya lee 한글 y se presenta (Básico 1, el Nivel 1 de julio o equivalente)", "Hablar del pasado y del futuro, números y hora, rutina, lo que no haces y lo que sabes hacer", "Mié 21:00 · Jay", "8 semanas", PC],
     [nom("Conversacional 1", "Corea que amas"), "A2.1", "Quien arma frases en presente, pasado y futuro, pero se bloquea al conversar", "Conversar en coreano sobre K-pop, viajes, comida, 한복 y videojuegos, con profesora nativa", "Mar 21:00 · Abby", "8 semanas", PC],
-    [nom("Conversacional 2", "Corea por dentro"), "A2.2", "Quien terminó Conversacional 1 y quiere entender cómo se vive Corea", "Comparar, opinar y narrar sobre escuela, trabajo, fiestas, leyendas y K-drama", [{ t: "Próximamente · enero 2027", o: { bold: true, color: NAVY } }], "8 semanas", "Por anunciar"],
+    [nom("Conversacional 2", "Corea por dentro"), "A2.2", "Quien terminó Conversacional 1 y quiere entender cómo se vive Corea", "Explicar y comparar escuela, 수능, oficina, 설날 y 추석, leyendas y K-drama", [{ t: "Próximamente · enero 2027", o: { bold: true, color: NAVY } }], "8 semanas", PC],
     [nom("TOPIK II", "Estrategia de examen"), "B1+", "Quien tiene coreano intermedio y va a rendir el TOPIK II", "Estrategia para 듣기, 읽기 y 쓰기 con exámenes oficiales, corrección de escritura y simulacro", "Jue 21:00 · Jay · máx. 8", "8 semanas", PC],
     [nom("Coreano para Niños", "Juega y aprende"), "8–15 años · desde cero", "Niños y niñas que quieren empezar coreano jugando", "Leer 한글, saludar, presentarse y contar, con juegos, canciones y un mini-show final", "Lun 18:00 · Jay y Abby", "8 semanas", PC],
   ], [1480, 980, 2100, 2420, 1300, 820, 980], 16));
@@ -389,17 +389,18 @@ function build() {
   ch.push(nuevaPagina());
   ch.push(banda("Conversacional 2 · A2.2", "Corea por dentro · 회화 A2.2", "Próximamente · enero 2027 · no forma parte de la cohorte de octubre · requiere Conversacional 1 (A2.1)", TINT, NAVY));
   ch.push(tagline("Ya hablas de la Corea que amas: ahora vas a entender cómo se vive por dentro."));
-  ch.push(P(run("Es el paso que sigue a Conversacional 1. Ya no se trata solo de qué te gusta de Corea, sino de cómo se vive: en la sala de clases, en la oficina, en las fiestas familiares y en las historias que los coreanos escuchan desde niños. Vas a comparar, opinar y narrar en coreano, con frases sencillas y bien conectadas.", { size: 20 })));
+  ch.push(P(run("Es el paso que sigue a Conversacional 1. Ya no se trata solo de qué te gusta de Corea, sino de cómo se vive: en la sala de clases y el día del 수능, en la oficina, en el 설날 y el 추석, en los cuentos del tigre y en los K-dramas. Vas a explicar, comparar, opinar y contar historias en coreano, con frases sencillas y bien conectadas, y a hablar con el respeto que corresponde a un jefe o a una persona mayor. Hay dos laboratorios de conversación y cierras con un mini-pódcast de 3 minutos sobre el tema que elijas.", { size: 20 })));
   ch.push(headTable(["Semanas 1–4", "Semanas 5–8"], [
-    [[{ t: "1 · La escuela en Corea · 한국의 학교" }], [{ t: "5 · 설날 · Año Nuevo lunar" }]],
-    [[{ t: "2 · El día del 수능 (examen de ingreso a la universidad)" }], [{ t: "6 · 추석 · Fiesta de la cosecha" }]],
+    [[{ t: "1 · La escuela en Corea · 한국의 학교" }], [{ t: "5 · 설날 y 추석 · 설날과 추석" }]],
+    [[{ t: "2 · El día del 수능 (examen de ingreso a la universidad)" }], [{ t: "6 · Mitos y leyendas · 옛날 옛적에" }]],
     [[{ t: "3 · La vida en la oficina · 한국의 직장 생활" }], [{ t: "7 · K-drama y la Corea de hoy" }]],
-    [[{ t: "4 · Mitos y leyendas · 옛날 옛적에" }], [{ t: "8 · Proyecto final" }]],
+    [[{ t: "4 · Laboratorio de conversación 3 · se viene el 설날" }], [{ t: "8 · Laboratorio de conversación 4 y proyecto final" }]],
   ], [5040, 5040], 18));
   ch.push(espacio(80));
   ch.push(kvTable([
-    ["Formato", "8 semanas · 1 clase en vivo de 60 minutos por semana · Zoom."],
-    ["Por anunciar", "Día, hora, profesor/a, fecha de inicio y precio de la cohorte de enero 2027."],
+    ["Formato", "8 semanas · 1 clase en vivo de 60 minutos por semana, dos de ellas laboratorios de conversación · Zoom · la clase es casi toda en coreano."],
+    ["Inversión", [run(PRECIO, { size: 18, bold: true, color: AZUL })]],
+    ["Por confirmar", "Día, hora, profesor/a y fecha exacta de inicio: confirmar con Academia Seúl."],
     ["Lista de espera", [run("Sin costo, y te avisamos primero: ", { size: 18 }), run(WEB + "/notificarme?curso=conversacion", { size: 18, bold: true, color: AZUL })]],
   ], 1750, 18));
 
