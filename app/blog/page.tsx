@@ -18,6 +18,46 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "hangeulnal-el-dia-del-alfabeto-coreano",
+    korean: "한글날",
+    title: "한글날: por qué Corea celebra su alfabeto cada 9 de octubre",
+    excerpt:
+      "Corea tiene un feriado para su alfabeto. El rey Sejong, el 훈민정음, los letrados que dijeron «mejor no», el ejemplar de 1446 que apareció en 1940 y fijó la fecha, y un reto para leer 한글 en 30 segundos.",
+    date: "30 de septiembre, 2026",
+    readTime: "9 min",
+    tag: "Mitos y fiestas",
+  },
+  {
+    slug: "chuseok-el-dia-de-accion-de-gracias-coreano",
+    korean: "추석",
+    title: "Chuseok (추석): el Día de Acción de Gracias coreano, con luna llena, 송편 y sets de spam",
+    excerpt:
+      "Luna llena, pastelitos de arroz en media luna, una mesa servida para los antepasados y millones de personas en la carretera. Qué es 추석, cuándo cae, por qué el spam se regala en caja y cómo saludar en coreano.",
+    date: "30 de septiembre, 2026",
+    readTime: "9 min",
+    tag: "Mitos y fiestas",
+  },
+  {
+    slug: "como-se-pronuncia-seul-en-coreano",
+    korean: "서울",
+    title: "En coreano, Seúl no se dice «Se-úl»: así se pronuncia 서울",
+    excerpt:
+      "En español, «Seúl» está perfecto. En coreano la ciudad es 서울: dos sílabas parejas, una vocal que el español no tiene y una l final como la de «sol». De yapa, 감사합니다, 안녕하세요 y 오빠, que casi todos decimos a la española.",
+    date: "30 de septiembre, 2026",
+    readTime: "9 min",
+    tag: "Pronunciación",
+  },
+  {
+    slug: "gestos-que-delatan-a-un-coreano",
+    korean: "인사",
+    title: "6 gestos que delatan a un coreano (aunque haya crecido en Chile)",
+    excerpt:
+      "La venia al teléfono, el vuelto con las dos manos, la edad apenas después del nombre, un «¿comiste?» en vez de «¿cómo estás?», los zapatos fuera y el mito del ventilador: seis costumbres coreanas, cada una con su palabra en coreano.",
+    date: "30 de septiembre, 2026",
+    readTime: "9 min",
+    tag: "Cultura y costumbres",
+  },
+  {
     slug: "dangun-por-que-corea-nacio-de-una-osa",
     korean: "단군",
     title: "Dangún y el 개천절: por qué Corea nació de una osa (y no de un tigre)",

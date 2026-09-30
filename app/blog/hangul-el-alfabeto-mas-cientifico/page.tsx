@@ -210,11 +210,22 @@ export default function HangulPost() {
         </h2>
         <p className="mb-6">
           Corea del Sur celebra cada 9 de octubre el <strong>Día del
-          Hangul</strong> (한글날) — probablemente el único país del mundo con
+          Hangul</strong> (한글날) — uno de los pocos países del mundo con
           un feriado nacional dedicado a su alfabeto. Y la UNESCO entrega desde
           1989 el <em>Premio de Alfabetización Rey Sejong</em>, en honor al
           monarca que entendió, siglos antes que nadie, que la alfabetización es
           poder.
+        </p>
+        <p className="mb-6">
+          Por qué se celebra justo el 9 de octubre (la fecha la dictó un
+          ejemplar de 1446 que apareció recién en 1940) te lo contamos en{" "}
+          <Link
+            href="/blog/hangeulnal-el-dia-del-alfabeto-coreano"
+            className="text-seoul-red font-bold underline"
+          >
+            한글날: por qué Corea celebra su alfabeto
+          </Link>
+          .
         </p>
         <p className="mb-6">
           El <em>Hunminjeongeum</em> original está inscrito en el registro
