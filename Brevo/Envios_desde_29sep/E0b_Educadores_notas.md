@@ -12,6 +12,8 @@ Es el primer correo a una lista de **educadores de colegios de Chile** (profesor
 > 2. **Opcional: 1:1 desde Gmail solo al correo institucional de contacto de cada colegio** (contacto@, direccion@, secretaria@…, el que el colegio publica en su sitio), 15 a 20 al día, con el texto del §12 c. **No** a los Gmail, Hotmail o Yahoo personales de la lista: para escribirles con honestidad habría que decir de dónde salió su correo, y eso expone a tu contacto.
 > 3. **Nada de la lista se importa a Brevo.** Los lotes de `Downloads\Brevo_Educadores\` quedan sin usar; si la institución no los necesita, bórralos cuando termine la campaña (son datos personales).
 >
+> **Envío masivo listo para la institución:** `E0c_Institucion_Mailchimp.html` (o `E0c_Institucion_Brevo.html`) + `E0c_Institucion_LEEME.md`.
+>
 > Los §0–§10 quedan como referencia por si en el futuro llega una lista **con** permiso (caso A).
 
 > ### ⚠ ANTES DE IMPORTAR · 3 preguntas que solo tú puedes responder
