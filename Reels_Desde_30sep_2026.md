@@ -19,7 +19,7 @@ Horas de Chile. **19:30 Chile** = 16:30 México · 17:30 Colombia/Perú · 18:30
 
 | # | Publica | Reel · duración | Objetivo | CTA | Dónde |
 |---|---|---|---|---|---|
-| **1** | **jue 1 oct · 19:30** | «Nací en Corea. Crecí en Chile.» · ≈ 46–50 s a ritmo normal (tu guion + la línea final ≈ 124 palabras; §1 calcula menos). Para acercarte a 40 s, el recorte está en §1 | Que te conozcan: seguidores y comentarios. Cero venta | «Quédate por aquí» · comentario fijado: el Lector de Hangul es gratis | IG **@jaychingu.oficial** + colaborador **@academiaseul** · TikTok · YouTube Shorts |
+| **1** | **mié 30 sep · 19:30** (adelantado; TikTok 19:45 · Shorts 20:00) | «Nací en Corea. Crecí en Chile.» · ≈ 46–50 s a ritmo normal (tu guion + la línea final ≈ 124 palabras; §1 calcula menos). Para acercarte a 40 s, el recorte está en §1 | Que te conozcan: seguidores y comentarios. Cero venta | «Quédate por aquí» · comentario fijado: el Lector de Hangul es gratis | IG **@jaychingu.oficial** + colaborador **@academiaseul** · TikTok · YouTube Shorts |
 | **2** | **dom 4 · 19:30** | «3 cosas que me delataron como coreano después de crecer en Chile 😂» · ≈ 35 s | Humor e identidad: comentarios y compartidos | «¿Cuál te pasa a ti?» + seguir (se viene el 3) | igual que el 1 |
 | **3** | **mar 6 · 19:30** | «La palabra coreana que probablemente estás pronunciando mal…» → **서울** · ≈ 37 s | Valor y autoridad: guardados; primeras visitas al Lector | «Escúchalo con audio nativo en el Lector de Hangul, gratis · link en la bio» | igual que el 1 |
 | **4** | **mié 7 · 19:30** | «Por eso creé Academia Seúl… y este octubre empezamos» · ≈ 43 s | Llevar a `/nivel-1` a quien ya te conoce | «La matrícula cierra el domingo 11 · link en la bio» | IG **@academiaseul** + colaborador **@jaychingu.oficial** · TikTok · Shorts |
@@ -36,7 +36,7 @@ Una sola publicación en el feed por día. Lo que no está en esta tabla sigue i
 | Día | Feed | Cambio respecto del plan |
 |---|---|---|
 | mié 30 | 19:30 Boletín (7 láminas) → fijar | Ninguno. **17:30 bloque de grabación** (opción A, §0.4; si el Reel 1 ya quedó grabado, ≈ 35 min) |
-| **jue 1** | 19:30 **Reel 1** | Reemplaza al carrusel 추석 (que era opcional): se cae, o sale el vie 2 **en lugar de** Piso F (no los dos) |
+| **mié 30 → jue 1** | El **Reel 1** sale el mié 30 a las 19:30 y el **carrusel del boletín** pasa al jue 1 a las 19:30 (decidido el 30 sept) | El jue 1 ya no lleva reel. Antes: el Reel 1 reemplazaba al carrusel 추석 (que era opcional): se cae, o sale el vie 2 **en lugar de** Piso F (no los dos) |
 | vie 2 | (opc.) 19:30 Piso F | — |
 | sáb 3 | (opc.) 12:30 Dangún · (opc.) 20:00 vivo | — |
 | **dom 4** | 19:30 **Reel 2** | Nuevo (el plan no tenía feed ese día) |
@@ -118,7 +118,7 @@ El plan es **modo liviano (30–45 min al día)** y dice que ningún reel es obl
 
 ## 1 · 🎬 REEL 1 — «Nací en Corea. Crecí en Chile.»
 
-**Publica:** jueves 1 de octubre · 19:30 Chile · **IG @jaychingu.oficial** con **@academiaseul** como colaborador · TikTok 19:35 · Shorts 19:40.
+**Publica:** **miércoles 30 de septiembre** (adelantado del jue 1) · 19:30 Chile · **IG @jaychingu.oficial** con **@academiaseul** como colaborador · TikTok 19:45 · Shorts 20:00. El carrusel del boletín pasa al jue 1 a las 19:30.
 **Duración:** tu guion tal cual + la línea final ≈ 43–45 s · con las `[sugerencia]` ≈ 37–40 s (cortes secos entre frases). Si al editar pasa de 40 s, el primer recorte es «Y con los años me di cuenta de algo…» (−3 s).
 **Objetivo:** que te conozcan. Nada de «inscripciones abiertas», ni precios, ni fechas de cursos.
 **Guion:** el de Jay, con su estructura y sus frases. Cada cambio va marcado; si no te convence, graba tu frase original.
@@ -237,7 +237,7 @@ En TikTok, si no tienes link en la bio: «…gratis en academiaseul.com». En Yo
 - **21:00** (opc.) · captura del Lector (pestaña Alfabeto) + sticker de link → `https://www.academiaseul.com/lector-coreano` · texto: `Empieza gratis: el Lector de Hangul`.
 - Si alguien pregunta por clases (en comentarios o DM): se le responde por DM con el mensaje principal de `Curriculo/publico/WhatsApp_Cursos_Octubre_2026.md`. El reel no vende; a quien pregunta, sí se le contesta.
 
-### ⏰ Hora y qué mirar a las 24 h (vie 2, 19:30)
+### ⏰ Hora y qué mirar a las 24 h (jue 1, 19:30)
 Publica a las 19:30 y quédate 30 min contestando comentarios (la primera hora pesa). A las 24 h, compara con «Volví»: vistas · **tasa de omisión** (quién se fue antes de 3 s) · tiempo medio de reproducción · seguidores ganados · comentarios (y de qué países: te dice qué horas mostrar en el Reel 4) · toques en los links de la bio. Qué decidir con eso: §7.
 
 ---

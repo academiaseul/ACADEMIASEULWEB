@@ -147,7 +147,7 @@ Las horas del feed que vienen del calendario base (boletín y reto 19:30, R1 y R
 
 ## 2 · Captions por post
 
-### 2.1 · Vie 25 · 19:30 · Carrusel del boletín (fijado)
+### 2.1 · Jue 1 oct · 19:30 · Carrusel del boletín (fijado) · *(movido: salía el vie 25 y luego el mié 30; el mié 30 salió el Reel 1)*
 **Archivos (en este orden):** `Posts_Boletin_Cursos_Octubre_2026/00_Portada_Boletin.png` → `01_KOR101_Basico1` → `02_KOR102_Basico2` → `03_KOR201_Conversacional1` → `04_KOR301_TOPIK2` → `05_KOR050_Ninos` → `06_Calendario_Academico`. Después de publicar: ⋯ → **Fijar en tu perfil**.
 
 **Instagram**
