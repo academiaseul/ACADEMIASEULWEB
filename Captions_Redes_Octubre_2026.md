@@ -1,12 +1,15 @@
 # Captions y guía de grabación · Instagram · YouTube Shorts · TikTok
 ### Campaña octubre 2026 · calendario nuevo: viernes 25 de septiembre → lunes 19 de octubre · Academia Seúl
 
+> **Act. mié 30 sept.** Serie de reels vigente desde el 30 sept (guiones y captions por plataforma): **`Reels_Desde_30sep_2026.md`**. El reel "Nací en Corea. Crecí en Chile." sale el **jue 1 oct**. Plan vigente: `Plan_Desde_29sep_2026.md` (§3 y §6).
+> **No lanzado:** el reto #LeoCoreanoEn7Días no se lanzó (y el vivo del sáb 3 es opcional). Todo lo del reto en este archivo (§1, §2.3–2.8, §2.13, §3 H0/H1/R5) queda solo como referencia. Los R1–R7 de este archivo no se grabaron; lo que sigue vigente de aquí se lista en el plan, §6.
+
 **Fuentes.** Programa, horarios, profes y precio: `lib/nivel1.ts`. Día a día completo (emails, WhatsApp, profes, operación): `Plan_Lanzamiento_25sep_19oct_2026.md`. Envíos de email: `Brevo/Calendario_Envios_Octubre_2026.md`. Diseños nuevos: `Campana_Assets/instagram/octubre/`. Este archivo reemplaza la versión del 22 de septiembre: el calendario anterior (22 sept → 12 oct) y el de `Posts_Boletin_Cursos_Octubre_2026.md` quedan **sin efecto**. `Plan_Choque_20sep_13oct_2026.md` queda solo como referencia de los guiones originales.
 
 > **Nombres.** En este archivo **R1…R7 son reels**. El email de recordatorio de clase de Brevo también se llama "R1", así que en la tabla aparece como "email de recordatorio".
 
 **Qué cambió respecto a la versión del 22**
-- Se corrió todo. El reto #LeoCoreanoEn7Días va del **lunes 28 de septiembre al domingo 4 de octubre** (ganador el **lunes 5**). La clase en vivo "Lee tu nombre en coreano" es el **sábado 3 de octubre a las 20:00 hora Chile** (개천절).
+- Se corrió todo. **[No lanzado · 30 sept]** El reto #LeoCoreanoEn7Días iba del **lunes 28 de septiembre al domingo 4 de octubre** (ganador el **lunes 5**). La clase en vivo "Lee tu nombre en coreano" es el **sábado 3 de octubre a las 20:00 hora Chile** (개천절).
 - **Horas del vivo corregidas:** 🇲🇽 México 17:00 · 🇨🇴🇵🇪 Colombia/Perú 18:00 · 🇺🇸 EE.UU. Este 19:00 · 🇨🇱🇦🇷 Chile/Argentina 20:00 · 🇪🇸 España 01:00 (domingo).
 - Posts nuevos: carrusel del boletín fijado (hoy), historia de 추석 (hoy, opcional), post e historias del reto (diseños 01 y 07), "Conoce a tus profes" (02), story del vivo (03), 한글날 (04), cierre (05 y 05b), "Empezamos esta semana" (06) e historias de las primeras clases.
 - Salen el carrusel del FAQ y el repost de la portada del boletín (no están en el calendario nuevo). "Sopa de algas" pasa al jueves 8 como empuje de TOPIK II. "Piso F" pasa al jueves 1.
@@ -104,6 +107,7 @@ Me fui de largo con el 18 😂🇨🇱 pero volví 🇰🇷 y traigo 2 apps grat
 ---
 
 ## 1 · Calendario de publicaciones · vie 25 sep → lun 19 oct (hora Chile)
+> **Sin efecto desde el 29 sept** (el reto no se lanzó): el calendario vigente está en `Plan_Desde_29sep_2026.md` §6 y los reels en `Reels_Desde_30sep_2026.md` §0.2.
 
 Las horas del feed que vienen del calendario base (boletín y reto 19:30, R1 y R7 12:30) son fijas. Las demás son sugeridas: **19:30 de lunes a viernes y 12:30 los sábados**. Dos excepciones: el **vie 9 (한글날) va a las 12:30** (efeméride: mejor de día) y el **lun 12**, aunque es feriado, va a las 19:30 (la víspera de las primeras clases). La columna "Contexto" no es de redes: está para que las historias no pisen los emails ni la operación.
 
@@ -137,7 +141,7 @@ Las horas del feed que vienen del calendario base (boletín y reto 19:30, R1 y R
 
 **Tiempo de redes por día:** 10–15 min (publicar + historias + comentario fijado). Los días con reel de pantalla (sáb 26 y mar 29) suman 15 min. Domingos de grabación: 60 min (dom 27) y 45 min (dom 4). Los stickers y DMs se contestan en bloque a las 21:00.
 
-**Fijados del perfil (Instagram permite 3):** carrusel del boletín (desde hoy) · post del reto (lun 28 → dom 4) · R2 "Tu curso según tu caso" (desde el mié 30). El lun 5 cambia el del reto por R5 "Ganador del reto", y el lun 12 cambia R5 por "Empezamos esta semana".
+**Fijados del perfil (Instagram permite 3) · sin efecto:** el reto no se lanzó; los fijados vigentes están en `Reels_Desde_30sep_2026.md` §0.2. Texto original: carrusel del boletín (desde hoy) · post del reto (lun 28 → dom 4) · R2 "Tu curso según tu caso" (desde el mié 30). El lun 5 cambia el del reto por R5 "Ganador del reto", y el lun 12 cambia R5 por "Empezamos esta semana".
 
 ---
 
@@ -222,7 +226,7 @@ https://www.academiaseul.com/nivel-1
 - 21:00 · fondo azul + **encuesta "¿Cuál es tu caso?"** (4 opciones: Nunca estudié / Ya leo hangul / Quiero hablar / Es para mi hijo/a).
 - Esa noche y el dom 27 (no es historia): cada voto se responde por DM con las respuestas guardadas de Instagram (textos en `Plan_Lanzamiento_25sep_19oct_2026.md`, Anexo A).
 
-### 2.4 · Dom 27 · 20:00 · Historia "Mañana empieza el reto"
+### 2.4 · Dom 27 · 20:00 · Historia "Mañana empieza el reto" · **no lanzado**
 Clip **H0** (10 s, grabado ese mismo día en el bloque 1; si no alcanzaste, fondo azul o captura del Lector). Sticker de **cuenta regresiva** "Reto #LeoCoreanoEn7Días" → lun 28, 10:00 (la gente toca "Recordarme") + sticker de link → `https://www.academiaseul.com/lector-coreano` ("Calienta con el Lector").
 ```
 Mañana empieza #LeoCoreanoEn7Días 🐯
@@ -231,7 +235,7 @@ Premio: 1 cupo en Básico 1 (sorteo entre quienes lo completen)
 ¿Te sumas?
 ```
 
-### 2.5 · Lun 28 · 19:30 · Post del reto
+### 2.5 · Lun 28 · 19:30 · Post del reto · **no lanzado**
 **Archivo:** `Campana_Assets/instagram/octubre/01_reto_leocoreanoen7dias.png`. Fíjalo también hasta el dom 4.
 
 **Instagram**
@@ -260,7 +264,7 @@ Reto #LeoCoreanoEn7Días 🐯 10 min al día y el domingo 4 lees coreano. Día 1
 #LeoCoreanoEn7Días #aprendecoreano #한글 #academiaseul #reto
 ```
 
-### 2.6 · Historias del reto · D1 → D7 · todos los días a las 10:00
+### 2.6 · Historias del reto · D1 → D7 · todos los días a las 10:00 · **no lanzado**
 **Archivos:** `Campana_Assets/instagram/octubre/07_reto_dia_1_story.png` … `07_reto_dia_7_story.png`. Los diseños ya traen el día, la tarea, la barra de progreso y la dirección escrita: **no agregues texto**, solo el sticker de link (la dirección impresa no es clicable) y, si quieres, la línea corta de la última columna como sticker de texto pequeño. Para contar quién completa, anota en la hoja (pestaña "reto") cada usuario que te etiqueta: `@usuario` + días ✅.
 
 | Día | Archivo | Qué toca (10 min) | Sticker de link | Extra (opcional) |
@@ -494,7 +498,7 @@ Clases en vivo desde la semana del 12 de octubre (matrícula hasta el domingo 11
 #Shorts #nombreencoreano #hangul
 ```
 
-### 2.13 · Lun 5 · 19:30 · R5 "Ganador del reto"
+### 2.13 · Lun 5 · 19:30 · R5 "Ganador del reto" · **no lanzado**
 **Antes de publicar:** sortea **antes de las 10:00** (el nombre también va en L4, que sale a las 10:00) entre quienes completaron los 7 días (cualquier web de sorteo, **grabando la pantalla**). Pídele permiso al ganador por DM para nombrarlo y etiquetarlo. Agrega el nombre como texto en pantalla al video grabado el dom 4.
 
 **Instagram**
@@ -765,6 +769,7 @@ Solo **dos bloques a cámara, los dos en domingo** (dom 27 y dom 4). R1 y R3 son
 | Clips de Kiran y Abby | ellas · **plazo mié 30, 22:00** | vie 2 · carrusel "Conoce a tus profes" | vertical, luz de frente, "안녕하세요, soy…" | 15 s | — | — |
 
 ### Los bloques (para no grabar todos los días)
+> **Sin efecto** (los bloques del dom 27 y dom 4 no se hicieron): el bloque de grabación vigente es el del mié 30, en `Reels_Desde_30sep_2026.md` §0.4.
 - **Sáb 26 · 11:30 (15 min) · R1.** Grabación de pantalla: brillo al máximo, volumen alto (se graba tu voz y la voz nativa a la vez), No molestar. Termina el nivel 1-1 una vez antes de grabar y deja abierto el 1-5. Dos intentos como máximo: el primero suele ser el bueno.
 - **Dom 27 · Bloque 1 (≈ 60 min) · H0, H1, R2, R7, R6 + B1, B2, B3.** 10 min para armar el set → H0 → H1 → R2 → R7 → **cambio de polera** (R6 sale dos semanas después) → R6 → B1 → B2 (pantalla) → B3 (manos). Si te trabas en una toma, sigue: no se corta.
 - **Mar 29 · 18:00 (15 min) · R3.** Grabación de pantalla, igual que R1: Lector abierto en la pestaña Alfabeto y Dubu en Bukchon, nivel 5.
