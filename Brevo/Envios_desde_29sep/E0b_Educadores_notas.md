@@ -47,11 +47,13 @@ Es el primer correo a una lista de **educadores de colegios de Chile** (profesor
 | Remitente · responder a | Jay · Academia Seúl · Reply-To hola.academiaseul@gmail.com |
 | Saludo | "¡Hola, María! 안녕하세요." · sin nombre: **"¡Hola, profe!"** (no "chingu": son educadores). En la lista hay 6 sin nombre, 2 por lote |
 | Seguimiento | Los links ya traen `utm_source=brevo&utm_medium=email&utm_campaign=e0_educadores`. *Activate UTM tracking* **apagado** |
-| Validación (`preview.js`, 29 sep, después del control de calidad) | **LISTO PARA PEGAR EN BREVO** · 0 fallas · 0 avisos · 13 links en 200 (incluidos los 2 PDF) · con nombre y sin nombre ("¡Hola, profe!") · 390 px sin nada que se salga · 13,9 KB · los 2 asuntos OK · nada rojo |
+| Validación (`preview.js`, 1 oct, plantilla académica + bloque de la reunión) | 0 avisos · 14 links en 200 (incluidos los 2 PDF y el WhatsApp de la reunión) · con nombre y sin nombre ("¡Hola, profe!") · 390 px sin nada que se salga · 25,1 KB · los 2 asuntos OK · nada rojo. Únicas FALLA: los 2 sellos (`email/sello-navy.png` y `email/sello-azul.png`) dan 404 **hasta que se publique `public/email/`**: publícalo antes de enviar |
 
 Copia el asunto sin comillas. Usa uno solo: no hagas A/B. El principal habla del estudiante, que es lo que le importa a un profe. El alternativo es más sobrio. Ninguno lleva bandera ni nada rojo.
 
-**Qué dice el correo, de arriba abajo:** quién es Jay (2 líneas) → por qué escribe (estudiantes que llegan a Corea por el K-pop y los K-dramas) → 4 recursos para la sala, gratis y sin registrarse (Lector de Hangul, Dubu, taller grabado, tu nombre en coreano) → recuadro "Si tienes estudiantes o apoderados interesados": Niños (8–15), lun 18:00 desde el 19 de octubre, con Jay y Abby, máx. 12, con el link a su programa en PDF; y Básico 1 para adultos, profes incluidos, mar o jue 20:00 con Kiran. 8 semanas, 60 min, certificado; inscripciones hasta el dom 11 de octubre (o antes, si se llenan los cupos) → botón "Ver el programa en una página (PDF)", para reenviar → "¿Tienes un club de K-pop o de cultura coreana? Respóndeme" → "¿Por qué te llega este correo?" con la baja → firma. **No trae precio** (está en el PDF), ni descuentos, charlas, convenios ni nada que no exista.
+**Qué dice el correo, de arriba abajo:** quién es Jay (2 líneas) → por qué escribe (estudiantes que llegan a Corea por el K-pop y los K-dramas) → 4 recursos para la sala, gratis y sin registrarse (Lector de Hangul, Dubu, taller grabado, tu nombre en coreano) → recuadro "Si tienes estudiantes o apoderados interesados": Niños (8–15), lun 18:00 desde el 19 de octubre, con Jay y Abby, máx. 12, con el link a su programa en PDF; y Básico 1 para adultos, profes incluidos, mar o jue 20:00 con Kiran. 8 semanas, 60 min, certificado; inscripciones hasta el dom 11 de octubre (o antes, si se llenan los cupos) → botón "Ver el programa en una página (PDF)", para reenviar → "¿Tienes un club de K-pop o de cultura coreana? Respóndeme" → **"¿Conversamos?"** (pedido por Jay el 1 oct): "¿Te gustaría coordinar una breve reunión conmigo para conocer más?" (en primera persona, porque el correo lo firma Jay), botón principal "Agendar una reunión con Jay" (WhatsApp con el mensaje "Hola Jay, soy profe y me gustaría coordinar una breve reunión para conocer más sobre Academia Seúl.") y "o escríbeme a hola.academiaseul@gmail.com" (asunto "Reunión breve con Jay"). No promete duración, formato ni horario: eso se acuerda al responder → "¿Por qué te llega este correo?" con la baja → firma con el sello. **No trae precio** (está en el PDF), ni descuentos, charlas, convenios ni nada que no exista.
+
+**Diseño (1 oct 2026): plantilla académica** (`herramientas/_base_academica.html`): membrete con el sello del tigre, títulos en Georgia navy, recursos numerados, filetes finos, un solo botón principal (el de la reunión); el del PDF queda con borde. El 🐯 de la firma lo reemplaza el sello azul.
 
 **Qué cambió en el control de calidad (29 sep):** el Lector ya no dice "audio de voz nativa" (su audio es la voz SunHi, sintética): dice "con el audio de cada sonido" · "Tu nombre en coreano" ya no promete que siempre se escucha (depende de que el equipo tenga voz en coreano) · Dubu en mejor español · el cierre suma "(o antes, si se llenan los cupos)", como `lib/nivel1.ts` y E0–E4 · "¿te interesa algo de coreano para tu colegio?" salió: sonaba a un servicio para colegios que todavía no existe (§9) · "tu correo aparece…" pasó a "tu dirección aparece en una lista de contactos…" · el subtítulo de los recursos ya no repite la cabecera.
 
@@ -207,6 +209,8 @@ El correo no ofrece nada de esto. Si te gusta alguna idea, la decides tú, y sol
 - [ ] "¡Hola, [tu nombre]!" y, con un contacto sin nombre, **"¡Hola, profe!"**. **Nunca** `{{ contact…`.
 - [ ] Los 4 recursos abren: Lector, Dubu, taller (el video carga) y "Tu nombre en coreano".
 - [ ] "Coreano para Niños" abre `/nivel-1` con Niños marcado · "programa (PDF)" abre el PDF de Niños · "Básico 1" abre con el martes marcado · el botón abre la hoja resumen en PDF.
+- [ ] "Agendar una reunión con Jay" abre WhatsApp con el mensaje "Hola Jay, soy profe…" ya escrito · "hola.academiaseul@gmail.com" abre un correo con el asunto "Reunión breve con Jay".
+- [ ] Arriba se ve el sello del tigre (navy) y en la firma el sello azul, no el texto "Academia Seúl" (si sale el texto, falta publicar `public/email/`).
 - [ ] El recuadro "¿Por qué te llega este correo?" dice el **origen real** (§2), y al pie: "Darme de baja", "Ver en el navegador", el correo y "Privacidad".
 - [ ] Solo azul, navy y dorado; nada rojo. Nada se sale por la derecha y el hangul se ve como letras.
 - [ ] Si respondes la prueba, la respuesta llega a hola.academiaseul@gmail.com.
@@ -308,9 +312,11 @@ Si tienen estudiantes o apoderados interesados, en octubre parte Coreano para Ni
 Toda la información en una página: https://www.academiaseul.com/programas/Hoja_Resumen_Cursos_Octubre_2026.pdf
 
 Consultas directamente con Academia Seúl: hola.academiaseul@gmail.com · WhatsApp +56 9 4211 5562 · www.academiaseul.com
+
+¿Les gustaría coordinar una breve reunión con Jay para conocer más? Para agendarla, escríbanle por WhatsApp → https://wa.me/56942115562?text=Hola%20Jay%2C%20soy%20profe%20y%20me%20gustar%C3%ADa%20coordinar%20una%20breve%20reuni%C3%B3n%20para%20conocer%20m%C3%A1s%20sobre%20Academia%20Se%C3%BAl%2E o a hola.academiaseul@gmail.com con el asunto "Reunión breve con Jay".
 ```
 
-Después del domingo 11 de octubre, cambia el párrafo de los cursos por: `En enero de 2027 abre la próxima cohorte, con Coreano para Niños (8–15) y Básico 1 para adultos. Pueden anotarse para recibir el aviso en https://www.academiaseul.com/notificarme`.
+Después del domingo 11 de octubre, cambia el párrafo de los cursos por: `En enero de 2027 abre la próxima cohorte, con Coreano para Niños (8–15) y Básico 1 para adultos. Pueden anotarse para recibir el aviso en https://www.academiaseul.com/notificarme`. El párrafo de la reunión se queda igual.
 
 ### c · 1:1 desde Gmail al correo de contacto de un colegio (opcional)
 
@@ -333,6 +339,8 @@ Soy Jay Kim (김재희), coreano radicado en Chile y fundador de Academia Seúl,
 Si tienen estudiantes o apoderados interesados, en octubre parte Coreano para Niños (8 a 15 años), lunes a las 18:00, desde el 19 de octubre, en vivo por Zoom con dos profes coreanos. Todo en una página para reenviar: https://www.academiaseul.com/programas/Hoja_Resumen_Cursos_Octubre_2026.pdf
 
 ¿Tienen un club de K-pop o de cultura coreana? Respóndanme y les cuento cómo usar estos recursos con el grupo. Si no les interesa, respondan "no, gracias" y no vuelvo a escribirles.
+
+¿Les gustaría coordinar una breve reunión conmigo para conocer más? Pueden agendarla por WhatsApp → https://wa.me/56942115562?text=Hola%20Jay%2C%20soy%20profe%20y%20me%20gustar%C3%ADa%20coordinar%20una%20breve%20reuni%C3%B3n%20para%20conocer%20m%C3%A1s%20sobre%20Academia%20Se%C3%BAl%2E o escribirme a hola.academiaseul@gmail.com con el asunto "Reunión breve con Jay".
 
 Un saludo cordial,
 Jay Kim (김재희)
