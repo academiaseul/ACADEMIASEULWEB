@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flashcards Básico 1 · Kawaii pastel</title>
+<meta name="description" content="Academia Seúl · 12 flashcards de Básico 1 (octubre 2026), estilo C Kawaii pastel. Carta, 4 tarjetas por hoja, imprimir a doble cara por el borde largo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+<style>
+@page { size: letter; margin: 0 }
+:root {
+  --azul: #4236F6; --navy: #003478; --dorado: #E8B84B;
+  --crema: #FFFDF8; --lila: #C9C1FF; --lila-lip: #DAD4FF; --gris: #5F6478; --gris-2: #4B5170; --texto-2: #3B4566;
+}
+* { box-sizing: border-box }
+html, body { margin: 0; padding: 0; background: #FFFFFF }
+body { -webkit-print-color-adjust: exact; print-color-adjust: exact; font-family: 'Nunito', 'Jua', sans-serif; color: var(--navy) }
+.page { position: relative; width: 816px; height: 1056px; overflow: hidden; background: #FFFFFF; page-break-after: always; break-after: page }
+.page:last-of-type { page-break-after: auto; break-after: auto }
+@media screen {
+  body { background: #E9E7F2; padding: 16px 0 }
+  .page { margin: 0 auto 16px; box-shadow: 0 2px 10px rgba(0, 52, 120, .15) }
+}
+.cuts { position: absolute; inset: 0 }
+.slot { position: absolute; width: 336px; height: 456px }
+
+/* tarjeta: fondo lila punteado a sangre (tolera el desfase del doble cara) + tarjeta crema redondeada */
+.card { width: 336px; height: 456px; padding: 7px 7px 9px; background-color: #F1EEFF; background-image: radial-gradient(#E0DAFF 1.4px, transparent 1.7px); background-size: 18px 18px; background-position: 4px 4px }
+.inner { width: 100%; height: 100%; border-radius: 24px; background: var(--crema); border: 2px solid var(--lila); box-shadow: 0 3px 0 var(--lila-lip); display: flex; flex-direction: column; overflow: hidden }
+
+/* ---------- anverso ---------- */
+.front .inner { padding: 13px }
+.art { position: relative; height: 252px; flex: none; border-radius: 18px; border: 1.5px solid; display: flex; align-items: center; justify-content: center }
+.art .ill { display: block; margin-top: 4px }
+.art.bleed { overflow: hidden }
+.art.bleed .ill { overflow: visible }
+.art .num { z-index: 1 }
+.num { position: absolute; top: 10px; left: 10px; padding: 3px 10px; border-radius: 999px; background: #FFFFFF; color: var(--navy); font-weight: 800; font-size: 11px; letter-spacing: .5px }
+.word { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding-top: 2px }
+.hangul { font-family: 'Jua', sans-serif; font-size: 82px; line-height: 1; color: var(--azul); text-shadow: 0 4px 0 #DCD6FF; letter-spacing: 2px; white-space: nowrap }
+.hangul.one { font-size: 88px; margin-top: 6px }
+.audio { width: 46px; height: 46px; border-radius: 50%; background: #F0EDFF; border: 2px solid var(--azul); box-shadow: 0 3px 0 #CFC8FF; display: flex; align-items: center; justify-content: center }
+
+/* ---------- reverso ---------- */
+.back .inner { padding: 15px 17px 13px }
+.top { display: flex; align-items: center; justify-content: space-between; flex: none }
+.pill { padding: 5px 12px; border-radius: 999px; border: 1.5px solid; color: var(--navy); font-weight: 800; font-size: 12px; line-height: 1.2 }
+.num-sm { display: flex; align-items: center; gap: 5px; font-weight: 800; font-size: 11px; color: var(--gris-2) }
+.head { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6px 0 4px; flex: 1 1 auto; min-height: 0 }
+.kr { font-family: 'Jua', sans-serif; font-size: 40px; line-height: 1.12; color: var(--navy) }
+.rom { font-weight: 700; font-size: 14px; color: var(--gris); letter-spacing: 1px; margin-top: 1px }
+.es { font-weight: 900; font-size: 52px; line-height: 1.02; color: var(--azul); margin-top: 8px; white-space: nowrap; text-align: center; max-width: 100% }
+.es.two { white-space: normal; line-height: .98 }
+.divider { display: flex; align-items: center; gap: 8px; margin-top: 4px; flex: none }
+.divider span { flex: 1; border-top: 2px dashed #D9D3FF }
+.ex { margin-top: 10px; border-radius: 16px; border: 1.5px solid; padding: 9px 13px 10px; display: flex; flex-direction: column; gap: 2px; flex: none }
+.ex-label { font-weight: 800; font-size: 10.5px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--navy) }
+.ex-kr { font-family: 'Jua', sans-serif; font-size: 22px; line-height: 1.25; color: var(--navy) }
+.ex-es { font-weight: 700; font-size: 14px; line-height: 1.3; color: var(--texto-2) }
+.foot { display: flex; align-items: flex-end; justify-content: space-between; margin-top: 10px; flex: none }
+.foot-l { display: flex; flex-direction: column; gap: 4px; padding-bottom: 4px }
+.lvl { font-weight: 800; font-size: 12.5px; color: var(--navy) }
+.brand { display: flex; align-items: center; gap: 5px; font-weight: 800; font-size: 10.5px; color: var(--gris-2) }
+.qr { display: flex; flex-direction: column; align-items: center; gap: 2px }
+.qr-box { width: 74px; height: 74px; border-radius: 8px; border: 1.5px solid #D9D3FF; overflow: hidden; background: #FFFFFF }
+.qr-svg { display: block; width: 100%; height: 100% }
+.qr-cap { display: flex; align-items: center; gap: 3px; font-weight: 800; font-size: 10.5px; color: var(--navy) }
+</style>
+</head>
+<body>
+<section class="page" data-tipo="anversos" data-grupo="1"><svg class="cuts" width="816" height="1056" viewBox="0 0 816 1056" aria-hidden="true"><g stroke="#8E8E8E" stroke-width="0.6" fill="none"><path d="M57 60 L46 60 M60 57 L60 46"/><path d="M399 60 L410 60 M396 57 L396 46"/><path d="M57 516 L46 516 M60 519 L60 530"/><path d="M399 516 L410 516 M396 519 L396 530"/><path d="M417 60 L406 60 M420 57 L420 46"/><path d="M759 60 L770 60 M756 57 L756 46"/><path d="M417 516 L406 516 M420 519 L420 530"/><path d="M759 516 L770 516 M756 519 L756 530"/><path d="M57 540 L46 540 M60 537 L60 526"/><path d="M399 540 L410 540 M396 537 L396 526"/><path d="M57 996 L46 996 M60 999 L60 1010"/><path d="M399 996 L410 996 M396 999 L396 1010"/><path d="M417 540 L406 540 M420 537 L420 526"/><path d="M759 540 L770 540 M756 537 L756 526"/><path d="M417 996 L406 996 M420 999 L420 1010"/><path d="M759 996 L770 996 M756 999 L756 1010"/></g></svg><div class="slot" style="left:60px;top:60px"><div class="card front" data-n="1"><div class="inner">
+      <div class="art" style="background:#CDE8FF;border-color:#B4D6F7">
+        <div class="num">01/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="leche">
+    <path d="M34 29 Q36.2 37.8 45 40 Q36.2 42.2 34 51 Q31.8 42.2 23 40 Q31.8 37.8 34 29 Z" fill="#FFFFFF"/><path d="M190 30 Q191.6 36.4 198 38 Q191.6 39.6 190 46 Q188.4 39.6 182 38 Q188.4 36.4 190 30 Z" fill="#E8B84B"/><path d="M194 112 Q195.2 116.8 200 118 Q195.2 119.2 194 124 Q192.8 119.2 188 118 Q192.8 116.8 194 112 Z" fill="#FFFFFF"/>
+    <circle cx="28" cy="118" r="3" fill="#FFFFFF"/><circle cx="40" cy="156" r="2.5" fill="#E8B84B"/><circle cx="200" cy="80" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="112" cy="187" rx="62" ry="8" fill="#B3D5F6"/>
+    <path d="M140 76 L168 62 L168 166 Q168 171 164 173 L140 182 Z" fill="#E4E0FF"/>
+    <path d="M140 146 L168 132 L168 166 Q168 171 164 173 L140 182 Z" fill="#B9B0F5"/>
+    <path d="M140 76 L168 62 L168 166 Q168 171 164 173 L140 182 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M140 76 L98 40 L126 26 L168 62 Z" fill="#CFC8FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M98 40 L126 26 L126 17 L98 31 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M56 76 L98 40 L140 76 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M98 50 Q105 59 105 63 A7 7 0 0 1 91 63 Q91 59 98 50 Z" fill="#FFFFFF"/>
+    <path d="M56 76 L140 76 L140 172 Q140 182 130 182 L66 182 Q56 182 56 172 Z" fill="#FFFFFF"/>
+    <path d="M56 146 Q66.5 139 77 146 T98 146 T119 146 T140 146 L140 172 Q140 182 130 182 L66 182 Q56 182 56 172 Z" fill="#CFC8FF"/>
+    <path d="M56 76 L140 76 L140 172 Q140 182 130 182 L66 182 Q56 182 56 172 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="73" cy="123" rx="7" ry="4.5" fill="#FFCBA0"/><ellipse cx="123" cy="123" rx="7" ry="4.5" fill="#FFCBA0"/><circle cx="84" cy="112" r="5.5" fill="#003478"/><circle cx="112" cy="112" r="5.5" fill="#003478"/><circle cx="85.82" cy="110.18" r="1.82" fill="#FFFFFF"/><circle cx="113.82" cy="110.18" r="1.82" fill="#FFFFFF"/><path d="M92 120 Q98 127 104 120" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul" lang="ko">우유</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div><div class="slot" style="left:420px;top:60px"><div class="card front" data-n="2"><div class="inner">
+      <div class="art" style="background:#FFF1C9;border-color:#EFD995">
+        <div class="num">02/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="árbol">
+    <path d="M30 28 Q32 36 40 38 Q32 40 30 48 Q28 40 20 38 Q28 36 30 28 Z" fill="#FFFFFF"/><path d="M194 29 Q195.4 34.6 201 36 Q195.4 37.4 194 43 Q192.6 37.4 187 36 Q192.6 34.6 194 29 Z" fill="#CFC8FF"/><path d="M198 134 Q199.2 138.8 204 140 Q199.2 141.2 198 146 Q196.8 141.2 192 140 Q196.8 138.8 198 134 Z" fill="#FFFFFF"/>
+    <circle cx="24" cy="104" r="3" fill="#FFFFFF"/><circle cx="200" cy="92" r="2.5" fill="#FFFFFF"/><circle cx="34" cy="160" r="2.5" fill="#CFC8FF"/>
+    <ellipse cx="110" cy="188" rx="66" ry="8" fill="#F0DA9C"/>
+    <path d="M97 118 L123 118 Q122 158 134 178 Q137 186 129 186 L91 186 Q83 186 86 178 Q98 158 97 118 Z" fill="#E9C48E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M110 150 Q115 160 112 172" fill="none" stroke="#C99A5E" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M62 186 L65 175 L69 184 L73 173 L76 186 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M146 186 L149 176 L153 184 L157 174 L160 186 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+    <circle cx="110" cy="72" r="42" fill="#003478" stroke="#003478" stroke-width="6"/><circle cx="72" cy="92" r="30" fill="#003478" stroke="#003478" stroke-width="6"/><circle cx="148" cy="92" r="30" fill="#003478" stroke="#003478" stroke-width="6"/><circle cx="84" cy="56" r="26" fill="#003478" stroke="#003478" stroke-width="6"/><circle cx="136" cy="56" r="26" fill="#003478" stroke="#003478" stroke-width="6"/><circle cx="88" cy="122" r="24" fill="#003478" stroke="#003478" stroke-width="6"/><circle cx="132" cy="122" r="24" fill="#003478" stroke="#003478" stroke-width="6"/><circle cx="110" cy="108" r="34" fill="#003478" stroke="#003478" stroke-width="6"/>
+    <circle cx="110" cy="72" r="42" fill="#A6E1B4" /><circle cx="72" cy="92" r="30" fill="#A6E1B4" /><circle cx="148" cy="92" r="30" fill="#A6E1B4" /><circle cx="84" cy="56" r="26" fill="#A6E1B4" /><circle cx="136" cy="56" r="26" fill="#A6E1B4" /><circle cx="88" cy="122" r="24" fill="#A6E1B4" /><circle cx="132" cy="122" r="24" fill="#A6E1B4" /><circle cx="110" cy="108" r="34" fill="#A6E1B4" />
+    <ellipse cx="74" cy="66" rx="11" ry="6.5" fill="#D6F4DD" transform="rotate(-35 74 66)"/>
+    <circle cx="92" cy="42" r="4" fill="#D6F4DD"/>
+    <circle cx="58" cy="104" r="5.5" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+    <circle cx="160" cy="78" r="5.5" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+    <circle cx="130" cy="38" r="5" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+    <ellipse cx="83" cy="107" rx="8" ry="5" fill="#FFCBA0"/><ellipse cx="137" cy="107" rx="8" ry="5" fill="#FFCBA0"/><circle cx="95" cy="96" r="6" fill="#003478"/><circle cx="125" cy="96" r="6" fill="#003478"/><circle cx="96.98" cy="94.02" r="1.98" fill="#FFFFFF"/><circle cx="126.98" cy="94.02" r="1.98" fill="#FFFFFF"/><path d="M104 104 Q110 111 116 104" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul" lang="ko">나무</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div><div class="slot" style="left:60px;top:540px"><div class="card front" data-n="3"><div class="inner">
+      <div class="art bleed" style="background:#FFF1C9;border-color:#EFD995">
+        <div class="num">03/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="mar">
+    <path d="M32 25 Q33.8 32.2 41 34 Q33.8 35.8 32 43 Q30.2 35.8 23 34 Q30.2 32.2 32 25 Z" fill="#FFFFFF"/><path d="M24 88 Q25.2 92.8 30 94 Q25.2 95.2 24 100 Q22.8 95.2 18 94 Q22.8 92.8 24 88 Z" fill="#CFC8FF"/><circle cx="206" cy="98" r="2.5" fill="#FFFFFF"/><circle cx="120" cy="30" r="2.5" fill="#FFFFFF"/>
+    <path d="M197.0 48.0 L204.0 48.0" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/><path d="M189.7 65.7 L194.6 70.6" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/><path d="M172.0 73.0 L172.0 80.0" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/><path d="M154.3 65.7 L149.4 70.6" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/><path d="M147.0 48.0 L140.0 48.0" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/><path d="M154.3 30.3 L149.4 25.4" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/><path d="M172.0 23.0 L172.0 16.0" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/><path d="M189.7 30.3 L194.6 25.4" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="172" cy="48" r="18" fill="#FBDD7E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M38 60 Q45 51 52 60 Q59 51 66 60" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M80 44 Q85 38 90 44 Q95 38 100 44" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M152 104 L152 64" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+    <path d="M155 66 L155 100 L178 100 Z" fill="#4236F6" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M149 72 L149 100 L133 100 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M128 105 L180 105 L172 123 L136 123 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-20 126 Q-3.75 108 12.50 126 Q28.75 108 45.00 126 Q61.25 108 77.50 126 Q93.75 108 110.00 126 Q126.25 108 142.50 126 Q158.75 108 175.00 126 Q191.25 108 207.50 126 Q223.75 108 240.00 126 L240 220 L-20 220 Z" fill="#8CCBF6"/>
+    <path d="M-20 170 Q6 160 32 170 T84 170 T136 170 T188 170 T240 170 L240 220 L-20 220 Z" fill="#6FB8EE"/>
+    <path d="M-11.75 127 Q-3.75 117 4.25 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/><path d="M20.75 127 Q28.75 117 36.75 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/><path d="M53.25 127 Q61.25 117 69.25 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/><path d="M85.75 127 Q93.75 117 101.75 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/><path d="M118.25 127 Q126.25 117 134.25 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/><path d="M150.75 127 Q158.75 117 166.75 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/><path d="M183.25 127 Q191.25 117 199.25 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/><path d="M215.75 127 Q223.75 117 231.75 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M14 188 Q24 182 34 188 T54 188" fill="none" stroke="#B5DDFB" stroke-width="3" stroke-linecap="round"/>
+    <path d="M164 190 Q174 184 184 190 T204 190" fill="none" stroke="#B5DDFB" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-20 126 Q-3.75 108 12.50 126 Q28.75 108 45.00 126 Q61.25 108 77.50 126 Q93.75 108 110.00 126 Q126.25 108 142.50 126 Q158.75 108 175.00 126 Q191.25 108 207.50 126 Q223.75 108 240.00 126" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="83" cy="157" rx="8" ry="5" fill="#FFCBA0"/><ellipse cx="137" cy="157" rx="8" ry="5" fill="#FFCBA0"/><circle cx="95" cy="146" r="6" fill="#003478"/><circle cx="125" cy="146" r="6" fill="#003478"/><circle cx="96.98" cy="144.02" r="1.98" fill="#FFFFFF"/><circle cx="126.98" cy="144.02" r="1.98" fill="#FFFFFF"/><path d="M104 154 Q110 161 116 154" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul" lang="ko">바다</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div><div class="slot" style="left:420px;top:540px"><div class="card front" data-n="4"><div class="inner">
+      <div class="art" style="background:#E6E1FF;border-color:#CFC8FF">
+        <div class="num">04/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="sombrero, gorro">
+    <path d="M32 30 Q34 38 42 40 Q34 42 32 50 Q30 42 22 40 Q30 38 32 30 Z" fill="#E8B84B"/><path d="M192 27 Q193.4 32.6 199 34 Q193.4 35.4 192 41 Q190.6 35.4 185 34 Q190.6 32.6 192 27 Z" fill="#FFFFFF"/><path d="M198 99 Q199 103 203 104 Q199 105 198 109 Q197 105 193 104 Q197 103 198 99 Z" fill="#E8B84B"/>
+    <circle cx="26" cy="98" r="3" fill="#FFFFFF"/><circle cx="204" cy="70" r="2.5" fill="#FFFFFF"/><circle cx="30" cy="176" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="110" cy="186" rx="78" ry="8" fill="#D2CBFA"/>
+    <ellipse cx="110" cy="150" rx="88" ry="25" fill="#F6D47A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M40 152 Q46 160 58 163 M162 163 Q174 160 180 152" fill="none" stroke="#E2B44E" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M70 168 L76 166 M100 172 L106 172 M130 171 L136 170 M154 166 L160 163 M50 160 L55 159" stroke="#E2B44E" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M58 146 Q54 72 110 70 Q166 72 162 146 Q110 160 58 146 Z" fill="#F9DD8E"/>
+    <path d="M57 120 Q110 134 163 120 L162 140 Q110 154 58 140 Z" fill="#4236F6"/>
+    <path d="M58 146 Q54 72 110 70 Q166 72 162 146 Q110 160 58 146 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M57 120 Q110 134 163 120 M58 140 Q110 154 162 140" fill="none" stroke="#003478" stroke-width="2.4"/>
+    <path d="M140 132 Q156 116 166 124 Q170 134 140 132 Z" fill="#4236F6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M140 132 Q150 148 164 146 Q168 138 140 132 Z" fill="#4236F6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+    <circle cx="140" cy="132" r="5" fill="#7A70FF" stroke="#003478" stroke-width="2.4"/>
+    <ellipse cx="80" cy="88" rx="8" ry="4.5" fill="#FFF3CC" transform="rotate(-40 80 88)"/>
+    <ellipse cx="81" cy="111" rx="8" ry="5" fill="#FFCBA0"/><ellipse cx="135" cy="111" rx="8" ry="5" fill="#FFCBA0"/><circle cx="93" cy="100" r="6" fill="#003478"/><circle cx="123" cy="100" r="6" fill="#003478"/><circle cx="94.98" cy="98.02" r="1.98" fill="#FFFFFF"/><circle cx="124.98" cy="98.02" r="1.98" fill="#FFFFFF"/><path d="M102 108 Q108 115 114 108" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul" lang="ko">모자</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div></section>
+<section class="page" data-tipo="reversos" data-grupo="1"><svg class="cuts" width="816" height="1056" viewBox="0 0 816 1056" aria-hidden="true"><g stroke="#8E8E8E" stroke-width="0.6" fill="none"><path d="M57 60 L46 60 M60 57 L60 46"/><path d="M399 60 L410 60 M396 57 L396 46"/><path d="M57 516 L46 516 M60 519 L60 530"/><path d="M399 516 L410 516 M396 519 L396 530"/><path d="M417 60 L406 60 M420 57 L420 46"/><path d="M759 60 L770 60 M756 57 L756 46"/><path d="M417 516 L406 516 M420 519 L420 530"/><path d="M759 516 L770 516 M756 519 L756 530"/><path d="M57 540 L46 540 M60 537 L60 526"/><path d="M399 540 L410 540 M396 537 L396 526"/><path d="M57 996 L46 996 M60 999 L60 1010"/><path d="M399 996 L410 996 M396 999 L396 1010"/><path d="M417 540 L406 540 M420 537 L420 526"/><path d="M759 540 L770 540 M756 537 L756 526"/><path d="M417 996 L406 996 M420 999 L420 1010"/><path d="M759 996 L770 996 M756 999 L756 1010"/></g></svg><div class="slot" style="left:420px;top:60px"><div class="card back" data-n="1"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#CDE8FF;border-color:#B4D6F7">Comida y bebida</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>01/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">우유</div>
+        <div class="rom">uyu</div>
+        <div class="es fit">leche</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#CDE8FF;border-color:#B4D6F7">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">우유를 마셔요.</div>
+        <div class="ex-es">Tomo leche.</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 1</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 우유" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m4 0h3m2 0h1m1 0h4m1 0h1m2 0h7M4 5.5h1m5 0h1m4 0h1m1 0h4m1 0h1m1 0h3m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h2m1 0h3m2 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h4m3 0h1m3 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h2m1 0h2m2 0h2m3 0h1m3 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m1 0h2m2 0h2m4 0h3m1 0h1M4 12.5h1m1 0h5m3 0h1m2 0h3m1 0h1m1 0h2m1 0h1m1 0h1m1 0h5M6 13.5h2m1 0h1m1 0h2m1 0h1m3 0h1m4 0h3m1 0h1m2 0h2m1 0h2m1 0h1M4 14.5h1m1 0h1m1 0h4m7 0h4m1 0h1m3 0h2m2 0h1m1 0h2M5 15.5h4m3 0h1m1 0h3m1 0h3m4 0h3m1 0h1m2 0h4M5 16.5h1m2 0h4m1 0h1m8 0h1m4 0h1m1 0h1m1 0h3m2 0h1M5 17.5h2m1 0h2m1 0h1m1 0h1m1 0h2m1 0h3m1 0h7m1 0h1m2 0h1m1 0h2M4 18.5h5m1 0h1m2 0h1m2 0h2m7 0h1m2 0h3m1 0h2m1 0h1M8 19.5h2m1 0h1m2 0h1m1 0h2m2 0h1m2 0h8m1 0h1m1 0h1M4 20.5h3m1 0h1m1 0h1m1 0h1m1 0h1m2 0h2m2 0h1m1 0h1m2 0h1m1 0h2m1 0h2m3 0h1M9 21.5h1m1 0h1m2 0h4m2 0h5m2 0h5m1 0h2m1 0h1M7 22.5h5m2 0h1m1 0h6m2 0h2m5 0h2m1 0h2M5 23.5h2m4 0h2m1 0h1m1 0h3m1 0h3m2 0h3m1 0h6M5 24.5h4m1 0h2m2 0h1m1 0h1m3 0h1m2 0h1m2 0h1m1 0h1m2 0h3m1 0h1M4 25.5h2m1 0h2m2 0h1m1 0h5m1 0h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h1m2 0h1M4 26.5h1m5 0h1m4 0h1m1 0h4m4 0h2m2 0h1m1 0h3m1 0h1M4 27.5h1m2 0h2m2 0h1m2 0h1m3 0h2m2 0h1m2 0h1m2 0h4m1 0h2m1 0h1M4 28.5h1m1 0h1m2 0h2m3 0h2m3 0h1m1 0h2m3 0h1m1 0h5m2 0h1M12 29.5h2m2 0h2m2 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m2 0h1m1 0h3m1 0h2m1 0h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h1m1 0h1m1 0h1m7 0h5m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m1 0h2m2 0h2m2 0h3m1 0h1m1 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m3 0h6m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h1m4 0h2m2 0h1m2 0h8m1 0h1M4 35.5h1m5 0h1m5 0h3m1 0h1m1 0h1m2 0h2m3 0h1m1 0h3M4 36.5h7m1 0h5m1 0h1m2 0h1m4 0h4m1 0h1m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div><div class="slot" style="left:60px;top:60px"><div class="card back" data-n="2"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#FFF1C9;border-color:#EFD995">Naturaleza</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>02/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">나무</div>
+        <div class="rom">namu</div>
+        <div class="es fit">árbol</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#FFF1C9;border-color:#EFD995">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">공원에 나무가 있어요.</div>
+        <div class="ex-es">En el parque hay árboles.</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 1</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 나무" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m4 0h3m2 0h1m1 0h4m1 0h1m2 0h7M4 5.5h1m5 0h1m2 0h1m1 0h1m1 0h4m1 0h1m1 0h3m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h1m1 0h4m2 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h3m1 0h1m2 0h1m3 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h2m1 0h2m2 0h2m3 0h1m3 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m1 0h1m3 0h2m4 0h3m1 0h1M4 12.5h1m1 0h5m3 0h2m1 0h3m1 0h1m1 0h2m1 0h3m1 0h5M4 13.5h1m1 0h4m1 0h2m1 0h1m3 0h1m4 0h3m1 0h1m2 0h2m1 0h2m1 0h1M4 14.5h3m1 0h4m1 0h1m5 0h4m1 0h1m3 0h2m2 0h1m1 0h2M4 15.5h6m2 0h1m2 0h2m1 0h3m4 0h1m1 0h1m1 0h1m2 0h4M4 16.5h2m2 0h7m1 0h1m5 0h1m3 0h2m1 0h1m1 0h3m2 0h1M5 17.5h4m2 0h3m1 0h1m2 0h3m1 0h4m1 0h2m1 0h1m2 0h1m1 0h2M4 18.5h2m1 0h2m1 0h2m1 0h1m1 0h3m7 0h1m3 0h2m1 0h2m1 0h1M6 19.5h4m2 0h1m1 0h2m1 0h1m2 0h1m2 0h4m1 0h3m1 0h1m1 0h1M4 20.5h2m2 0h1m1 0h1m1 0h1m1 0h1m2 0h2m2 0h1m1 0h1m2 0h4m1 0h2m3 0h1M4 21.5h1m3 0h2m1 0h1m2 0h3m3 0h6m1 0h5m1 0h2m1 0h1M4 22.5h2m1 0h5m1 0h2m1 0h6m2 0h2m5 0h2m1 0h2M5 23.5h2m4 0h3m2 0h3m1 0h3m2 0h3m2 0h5M5 24.5h10m1 0h2m2 0h1m2 0h1m2 0h1m4 0h3m1 0h1M4 25.5h2m2 0h2m1 0h1m1 0h7m1 0h3m1 0h1m1 0h5m1 0h1m2 0h1M4 26.5h1m2 0h1m2 0h2m3 0h1m1 0h4m4 0h2m1 0h2m1 0h3m1 0h1M4 27.5h1m1 0h1m1 0h1m2 0h1m2 0h1m3 0h2m2 0h1m1 0h2m1 0h5m1 0h2m1 0h1M4 28.5h1m1 0h1m2 0h3m2 0h1m4 0h1m1 0h2m3 0h1m1 0h5m2 0h1M12 29.5h1m3 0h2m2 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m3 0h3m2 0h2m1 0h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h1m3 0h2m6 0h5m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m1 0h3m2 0h1m2 0h3m1 0h1m1 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m4 0h5m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h1m4 0h2m2 0h1m3 0h7m1 0h1M4 35.5h1m5 0h1m5 0h3m1 0h1m1 0h2m1 0h3m2 0h1m1 0h3M4 36.5h7m1 0h3m1 0h1m1 0h1m2 0h1m4 0h1m1 0h1m2 0h1m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div><div class="slot" style="left:420px;top:540px"><div class="card back" data-n="3"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#FFF1C9;border-color:#EFD995">Naturaleza</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>03/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">바다</div>
+        <div class="rom">bada</div>
+        <div class="es fit">mar</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#FFF1C9;border-color:#EFD995">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">바다에 가요.</div>
+        <div class="ex-es">Voy al mar.</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 1</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 바다" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m2 0h1m1 0h3m2 0h1m1 0h4m1 0h1m2 0h7M4 5.5h1m5 0h1m4 0h1m1 0h4m1 0h1m1 0h3m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h6m2 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h2m5 0h1m3 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h2m1 0h2m2 0h2m3 0h1m3 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m1 0h1m3 0h2m4 0h3M4 12.5h1m1 0h5m3 0h2m1 0h3m1 0h1m1 0h2m1 0h1m1 0h1m1 0h5M4 13.5h1m1 0h4m1 0h2m1 0h1m3 0h1m4 0h3m1 0h1m2 0h2m1 0h2m1 0h1M6 14.5h1m3 0h2m1 0h2m4 0h4m1 0h1m3 0h2m2 0h1m1 0h2M4 15.5h5m3 0h1m1 0h3m1 0h3m4 0h1m1 0h1m1 0h1m2 0h4M7 16.5h2m1 0h3m1 0h1m1 0h1m5 0h1m4 0h1m1 0h1m1 0h3m2 0h1M8 17.5h2m3 0h1m1 0h1m2 0h3m1 0h7m1 0h1m2 0h1m1 0h2M4 18.5h2m2 0h1m1 0h4m2 0h2m7 0h1m3 0h2m1 0h2m1 0h1M6 19.5h4m1 0h2m1 0h2m1 0h1m2 0h1m2 0h4m1 0h3m1 0h1m1 0h1M4 20.5h2m2 0h1m1 0h1m1 0h1m1 0h1m2 0h2m2 0h1m1 0h1m2 0h4m1 0h2m3 0h1M4 21.5h1m3 0h2m1 0h1m2 0h3m3 0h5m2 0h5m1 0h2m1 0h1M5 22.5h1m1 0h1m1 0h3m1 0h2m1 0h6m2 0h2m5 0h2m1 0h2M4 23.5h1m1 0h1m1 0h1m2 0h2m3 0h1m1 0h1m1 0h3m2 0h1m1 0h1m2 0h5M4 24.5h5m1 0h3m4 0h2m1 0h1m2 0h1m2 0h1m2 0h1m1 0h3m1 0h1M4 25.5h2m2 0h2m1 0h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m2 0h1M4 26.5h1m1 0h2m2 0h1m4 0h1m1 0h4m4 0h2m1 0h2m1 0h3m1 0h1M4 27.5h1m1 0h3m2 0h2m1 0h2m2 0h2m2 0h1m1 0h2m2 0h4m1 0h2m1 0h1M4 28.5h1m1 0h1m2 0h3m2 0h1m4 0h1m1 0h2m3 0h1m1 0h5m2 0h1M12 29.5h2m2 0h1m3 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m2 0h8m1 0h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h2m2 0h3m5 0h2m1 0h2m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m1 0h1m2 0h3m1 0h1m1 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h1m2 0h4m2 0h1m2 0h8m1 0h1M4 35.5h1m5 0h1m6 0h2m1 0h1m1 0h1m2 0h3m4 0h3M4 36.5h7m1 0h3m1 0h1m1 0h1m2 0h1m4 0h1m1 0h1m1 0h2m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div><div class="slot" style="left:60px;top:540px"><div class="card back" data-n="4"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#E6E1FF;border-color:#CFC8FF">Objetos</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>04/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">모자</div>
+        <div class="rom">moja</div>
+        <div class="es fit">sombrero, gorro</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#E6E1FF;border-color:#CFC8FF">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">이거 모자예요.</div>
+        <div class="ex-es">Esto es un sombrero.</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 1</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 모자" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m4 0h3m2 0h1m1 0h4m1 0h1m2 0h7M4 5.5h1m5 0h1m2 0h1m1 0h1m1 0h4m1 0h1m1 0h3m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h1m2 0h3m2 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h1m5 0h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h5m2 0h1m3 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h2m5 0h2m3 0h1m3 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m1 0h1m1 0h1m1 0h2m4 0h3m1 0h1M4 12.5h1m1 0h5m3 0h1m2 0h3m1 0h1m1 0h2m1 0h3m1 0h5M4 13.5h1m1 0h4m1 0h4m3 0h1m4 0h3m1 0h1m2 0h2m1 0h2m1 0h1M6 14.5h1m1 0h4m1 0h2m4 0h4m1 0h1m3 0h2m2 0h1m1 0h2M6 15.5h2m1 0h1m2 0h5m1 0h3m4 0h3m1 0h1m2 0h4M7 16.5h7m2 0h1m5 0h1m4 0h1m1 0h1m1 0h3m2 0h1M5 17.5h4m4 0h2m1 0h1m1 0h3m1 0h7m1 0h1m2 0h1m1 0h2M4 18.5h2m1 0h2m1 0h1m1 0h2m1 0h3m7 0h1m3 0h2m1 0h2m1 0h1M6 19.5h1m1 0h2m1 0h1m2 0h1m1 0h2m2 0h1m2 0h4m1 0h3m1 0h1m1 0h1M4 20.5h3m1 0h1m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1m1 0h1m2 0h1m1 0h2m1 0h2m3 0h1M4 21.5h1m3 0h2m1 0h1m1 0h4m3 0h5m2 0h5m1 0h2m1 0h1M5 22.5h1m1 0h5m2 0h1m1 0h2m1 0h3m2 0h2m5 0h2m1 0h2M4 23.5h1m1 0h1m1 0h1m2 0h2m3 0h2m2 0h3m2 0h3m2 0h5M5 24.5h4m1 0h2m1 0h2m5 0h1m2 0h1m2 0h1m1 0h2m1 0h3m1 0h1M4 25.5h2m2 0h1m2 0h3m3 0h3m1 0h3m1 0h1m1 0h1m2 0h2m1 0h1m2 0h1M4 26.5h1m1 0h1m3 0h1m6 0h4m4 0h2m2 0h1m1 0h3m1 0h1M4 27.5h1m2 0h2m3 0h1m1 0h3m1 0h2m2 0h1m2 0h1m2 0h4m1 0h2m1 0h1M4 28.5h1m4 0h2m3 0h1m4 0h1m1 0h2m3 0h1m1 0h5m2 0h1M12 29.5h1m3 0h2m2 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m3 0h4m1 0h2m1 0h1m1 0h5m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h1m3 0h1m1 0h1m5 0h5m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m1 0h6m2 0h3m3 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m1 0h3m1 0h1m1 0h3m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h1m3 0h3m2 0h1m2 0h8m1 0h1M4 35.5h1m5 0h1m5 0h3m1 0h1m1 0h1m2 0h2m5 0h3M4 36.5h7m1 0h5m1 0h1m2 0h1m1 0h1m2 0h4m1 0h1m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div></section>
+<section class="page" data-tipo="anversos" data-grupo="2"><svg class="cuts" width="816" height="1056" viewBox="0 0 816 1056" aria-hidden="true"><g stroke="#8E8E8E" stroke-width="0.6" fill="none"><path d="M57 60 L46 60 M60 57 L60 46"/><path d="M399 60 L410 60 M396 57 L396 46"/><path d="M57 516 L46 516 M60 519 L60 530"/><path d="M399 516 L410 516 M396 519 L396 530"/><path d="M417 60 L406 60 M420 57 L420 46"/><path d="M759 60 L770 60 M756 57 L756 46"/><path d="M417 516 L406 516 M420 519 L420 530"/><path d="M759 516 L770 516 M756 519 L756 530"/><path d="M57 540 L46 540 M60 537 L60 526"/><path d="M399 540 L410 540 M396 537 L396 526"/><path d="M57 996 L46 996 M60 999 L60 1010"/><path d="M399 996 L410 996 M396 999 L396 1010"/><path d="M417 540 L406 540 M420 537 L420 526"/><path d="M759 540 L770 540 M756 537 L756 526"/><path d="M417 996 L406 996 M420 999 L420 1010"/><path d="M759 996 L770 996 M756 999 L756 1010"/></g></svg><div class="slot" style="left:60px;top:60px"><div class="card front" data-n="5"><div class="inner">
+      <div class="art" style="background:#CDE8FF;border-color:#B4D6F7">
+        <div class="num">05/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="pan">
+    <path d="M30 26 Q32 34 40 36 Q32 38 30 46 Q28 38 20 36 Q28 34 30 26 Z" fill="#FFFFFF"/><path d="M194 32 Q195.6 38.4 202 40 Q195.6 41.6 194 48 Q192.4 41.6 186 40 Q192.4 38.4 194 32 Z" fill="#E8B84B"/><path d="M196 122 Q197.2 126.8 202 128 Q197.2 129.2 196 134 Q194.8 129.2 190 128 Q194.8 126.8 196 122 Z" fill="#FFFFFF"/>
+    <circle cx="24" cy="110" r="3" fill="#FFFFFF"/><circle cx="34" cy="160" r="2.5" fill="#E8B84B"/><circle cx="204" cy="88" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="110" cy="188" rx="62" ry="8" fill="#B3D5F6"/>
+    <path d="M62 176 L62 106 Q40 102 40 78 Q40 46 76 44 Q92 30 110 30 Q128 30 144 44 Q180 46 180 78 Q180 102 158 106 L158 176 Q158 184 150 184 L70 184 Q62 184 62 176 Z" fill="#E7B46E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M72 176 L72 98 Q51 96 51 78 Q51 56 80 54 Q95 41 110 41 Q125 41 140 54 Q169 56 169 78 Q169 96 148 98 L148 174 Q148 176 146 176 L74 176 Q72 176 72 174 Z" fill="#FFF2D4"/>
+    <g transform="rotate(-10 104 70)">
+      <rect x="90" y="60" width="28" height="20" rx="5" fill="#FBE08A" stroke="#003478" stroke-width="2.6"/>
+      <path d="M95 66 L104 66" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+    </g>
+    <circle cx="84" cy="150" r="2" fill="#E7B46E"/><circle cx="136" cy="156" r="2" fill="#E7B46E"/><circle cx="126" cy="164" r="1.8" fill="#E7B46E"/>
+    <ellipse cx="83" cy="127" rx="8" ry="5" fill="#FFCBA0"/><ellipse cx="137" cy="127" rx="8" ry="5" fill="#FFCBA0"/><circle cx="95" cy="116" r="6" fill="#003478"/><circle cx="125" cy="116" r="6" fill="#003478"/><circle cx="96.98" cy="114.02" r="1.98" fill="#FFFFFF"/><circle cx="126.98" cy="114.02" r="1.98" fill="#FFFFFF"/><path d="M104 124 Q110 131 116 124" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul one" lang="ko">빵</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div><div class="slot" style="left:420px;top:60px"><div class="card front" data-n="6"><div class="inner">
+      <div class="art" style="background:#CDE8FF;border-color:#B4D6F7">
+        <div class="num">06/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="agua">
+    <path d="M176 30 Q178 38 186 40 Q178 42 176 50 Q174 42 166 40 Q174 38 176 30 Z" fill="#FFFFFF"/><path d="M30 37 Q31.4 42.6 37 44 Q31.4 45.4 30 51 Q28.6 45.4 23 44 Q28.6 42.6 30 37 Z" fill="#E8B84B"/><path d="M200 87 Q201 91 205 92 Q201 93 200 97 Q199 93 195 92 Q199 91 200 87 Z" fill="#FFFFFF"/>
+    <circle cx="22" cy="120" r="3" fill="#FFFFFF"/><circle cx="150" cy="70" r="2.5" fill="#E8B84B"/><circle cx="30" cy="170" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="116" cy="189" rx="80" ry="7" fill="#B3D5F6"/>
+    <path d="M96 30 Q138 90 138 128 A42 42 0 0 1 54 128 Q54 90 96 30 Z" fill="#7FC3F4" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M60 140 Q78 150 96 144 Q116 138 134 146 Q128 166 96 170 Q66 168 60 140 Z" fill="#6AB2EC"/>
+    <path d="M96 30 Q138 90 138 128 A42 42 0 0 1 54 128 Q54 90 96 30 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="72" cy="112" rx="5.5" ry="12" fill="#FFFFFF" transform="rotate(22 72 112)"/>
+    <circle cx="80" cy="90" r="3.5" fill="#FFFFFF"/>
+    <ellipse cx="71" cy="143" rx="7" ry="4.5" fill="#FFCBA0"/><ellipse cx="121" cy="143" rx="7" ry="4.5" fill="#FFCBA0"/><circle cx="82" cy="132" r="5.8" fill="#003478"/><circle cx="110" cy="132" r="5.8" fill="#003478"/><circle cx="83.91" cy="130.09" r="1.91" fill="#FFFFFF"/><circle cx="111.91" cy="130.09" r="1.91" fill="#FFFFFF"/><path d="M90 140 Q96 147 102 140" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M146 106 L190 106 L184 176 Q183 184 175 184 L161 184 Q153 184 152 176 Z" fill="#FFFFFF"/>
+    <path d="M148 128 Q158 123 168 128 Q178 133 188 128 L184 175 Q183 181 175 181 L161 181 Q155 181 154 175 Z" fill="#A6D6FA"/>
+    <path d="M157 136 L160 170" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M146 106 L190 106 L184 176 Q183 184 175 184 L161 184 Q153 184 152 176 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="168" cy="106" rx="22" ry="3.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul one" lang="ko">물</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div><div class="slot" style="left:60px;top:540px"><div class="card front" data-n="7"><div class="inner">
+      <div class="art" style="background:#E6E1FF;border-color:#CFC8FF">
+        <div class="num">07/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="libro">
+    <path d="M32 30 Q34 38 42 40 Q34 42 32 50 Q30 42 22 40 Q30 38 32 30 Z" fill="#E8B84B"/><path d="M196 125 Q197.4 130.6 203 132 Q197.4 133.4 196 139 Q194.6 133.4 189 132 Q194.6 130.6 196 125 Z" fill="#FFFFFF"/><path d="M192 24 Q193.2 28.8 198 30 Q193.2 31.2 192 36 Q190.8 31.2 186 30 Q190.8 28.8 192 24 Z" fill="#FFFFFF"/>
+    <circle cx="26" cy="104" r="3" fill="#FFFFFF"/><circle cx="204" cy="84" r="2.5" fill="#E8B84B"/><circle cx="36" cy="168" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="114" cy="188" rx="70" ry="8" fill="#D2CBFA"/>
+    <path d="M56 48 L80 34 L172 34 L148 48 Z" fill="#FFFDF8" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M70 46 L90 36 M86 46 L106 36 M102 46 L122 36 M118 46 L138 36 M134 46 L154 36" stroke="#E4E0FF" stroke-width="1.6"/>
+    <path d="M148 48 L172 34 L172 166 Q172 171 168 173 L148 184 Z" fill="#FFFDF8"/>
+    <path d="M152 66 L166 58" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/><path d="M152 80 L166 72" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/><path d="M152 94 L166 86" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/><path d="M152 108 L166 100" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/><path d="M152 122 L166 114" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/><path d="M152 136 L166 128" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/><path d="M152 150 L166 142" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/><path d="M152 164 L166 156" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M148 48 L172 34 L172 166 Q172 171 168 173 L148 184 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="56" y="48" width="92" height="136" rx="9" fill="#F6D47A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M56 57 Q56 48 65 48 L72 48 L72 184 L65 184 Q56 184 56 175 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="82" y="64" width="54" height="26" rx="7" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+    <text x="109" y="83" text-anchor="middle" font-family="Jua, sans-serif" font-size="15" fill="#003478">ㄱㄴㄷ</text>
+    <path d="M126 184 L126 196 L131 191.5 L136 196 L136 184" fill="#4236F6" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+    <ellipse cx="86" cy="139" rx="7" ry="4.5" fill="#FFCBA0"/><ellipse cx="134" cy="139" rx="7" ry="4.5" fill="#FFCBA0"/><circle cx="96" cy="128" r="5.8" fill="#003478"/><circle cx="124" cy="128" r="5.8" fill="#003478"/><circle cx="97.91" cy="126.09" r="1.91" fill="#FFFFFF"/><circle cx="125.91" cy="126.09" r="1.91" fill="#FFFFFF"/><path d="M104 136 Q110 143 116 136" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul one" lang="ko">책</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div><div class="slot" style="left:420px;top:540px"><div class="card front" data-n="8"><div class="inner">
+      <div class="art" style="background:#E6E1FF;border-color:#CFC8FF">
+        <div class="num">08/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="bolso, mochila">
+    <path d="M30 30 Q32 38 40 40 Q32 42 30 50 Q28 42 20 40 Q28 38 30 30 Z" fill="#FFFFFF"/><path d="M194 32 Q195.6 38.4 202 40 Q195.6 41.6 194 48 Q192.4 41.6 186 40 Q192.4 38.4 194 32 Z" fill="#E8B84B"/><path d="M196 124 Q197.2 128.8 202 130 Q197.2 131.2 196 136 Q194.8 131.2 190 130 Q194.8 128.8 196 124 Z" fill="#FFFFFF"/>
+    <circle cx="24" cy="110" r="3" fill="#E8B84B"/><circle cx="202" cy="90" r="2.5" fill="#FFFFFF"/><circle cx="32" cy="166" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="110" cy="189" rx="68" ry="7" fill="#D2CBFA"/>
+    <path d="M90 54 Q90 28 110 28 Q130 28 130 54" fill="none" stroke="#003478" stroke-width="11" stroke-linecap="round"/>
+    <path d="M90 54 Q90 28 110 28 Q130 28 130 54" fill="none" stroke="#6CC7A4" stroke-width="5" stroke-linecap="round"/>
+    <path d="M54 92 Q30 104 34 150 Q36 166 50 168" fill="none" stroke="#003478" stroke-width="11" stroke-linecap="round"/>
+    <path d="M54 92 Q30 104 34 150 Q36 166 50 168" fill="none" stroke="#6CC7A4" stroke-width="5" stroke-linecap="round"/>
+    <path d="M52 96 Q52 48 110 48 Q168 48 168 96 L168 166 Q168 184 150 184 L70 184 Q52 184 52 166 Z" fill="#A3E0C6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M52 96 Q52 48 110 48 Q168 48 168 96 Q140 112 110 112 Q80 112 52 96 Z" fill="#7FD0B0" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="78" cy="66" rx="10" ry="5" fill="#C6F0DE" transform="rotate(-30 78 66)"/>
+    <rect x="70" y="96" width="13" height="30" rx="3" fill="#4236F6" stroke="#003478" stroke-width="2.4"/>
+    <rect x="137" y="96" width="13" height="30" rx="3" fill="#4236F6" stroke="#003478" stroke-width="2.4"/>
+    <rect x="67.5" y="114" width="18" height="11" rx="2.5" fill="#F6D47A" stroke="#003478" stroke-width="2.2"/>
+    <rect x="134.5" y="114" width="18" height="11" rx="2.5" fill="#F6D47A" stroke="#003478" stroke-width="2.2"/>
+    <rect x="70" y="146" width="80" height="32" rx="13" fill="#CDEFE0" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M80 157 L140 157" stroke="#003478" stroke-width="2" stroke-dasharray="3 3"/>
+    <circle cx="140" cy="157" r="3.6" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+    <path d="M140 160 L140 168" stroke="#003478" stroke-width="2.4" stroke-linecap="round"/>
+    <ellipse cx="109.999" cy="135" rx="0" ry="0" fill="#FFCBA0"/><ellipse cx="110.001" cy="135" rx="0" ry="0" fill="#FFCBA0"/><circle cx="98" cy="124" r="5.3" fill="#003478"/><circle cx="122" cy="124" r="5.3" fill="#003478"/><circle cx="99.75" cy="122.25" r="1.75" fill="#FFFFFF"/><circle cx="123.75" cy="122.25" r="1.75" fill="#FFFFFF"/><path d="M105 131 Q110 138 115 131" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+    <ellipse cx="102" cy="138" rx="6" ry="3.8" fill="#FFCBA0"/><ellipse cx="118" cy="138" rx="6" ry="3.8" fill="#FFCBA0"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul" lang="ko">가방</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div></section>
+<section class="page" data-tipo="reversos" data-grupo="2"><svg class="cuts" width="816" height="1056" viewBox="0 0 816 1056" aria-hidden="true"><g stroke="#8E8E8E" stroke-width="0.6" fill="none"><path d="M57 60 L46 60 M60 57 L60 46"/><path d="M399 60 L410 60 M396 57 L396 46"/><path d="M57 516 L46 516 M60 519 L60 530"/><path d="M399 516 L410 516 M396 519 L396 530"/><path d="M417 60 L406 60 M420 57 L420 46"/><path d="M759 60 L770 60 M756 57 L756 46"/><path d="M417 516 L406 516 M420 519 L420 530"/><path d="M759 516 L770 516 M756 519 L756 530"/><path d="M57 540 L46 540 M60 537 L60 526"/><path d="M399 540 L410 540 M396 537 L396 526"/><path d="M57 996 L46 996 M60 999 L60 1010"/><path d="M399 996 L410 996 M396 999 L396 1010"/><path d="M417 540 L406 540 M420 537 L420 526"/><path d="M759 540 L770 540 M756 537 L756 526"/><path d="M417 996 L406 996 M420 999 L420 1010"/><path d="M759 996 L770 996 M756 999 L756 1010"/></g></svg><div class="slot" style="left:420px;top:60px"><div class="card back" data-n="5"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#CDE8FF;border-color:#B4D6F7">Comida y bebida</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>05/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">빵</div>
+        <div class="rom">ppang</div>
+        <div class="es fit">pan</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#CDE8FF;border-color:#B4D6F7">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">빵을 좋아해요.</div>
+        <div class="ex-es">Me gusta el pan.</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 3</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 빵" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m5 0h2m2 0h5m2 0h1m2 0h7M4 5.5h1m5 0h1m3 0h1m2 0h5m2 0h1m1 0h1m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h1m2 0h3m2 0h4m1 0h1m2 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h2m2 0h1m2 0h1m2 0h1m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h1m1 0h1m4 0h2m3 0h1m5 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h3m3 0h2m5 0h2M4 12.5h1m1 0h5m2 0h1m2 0h4m1 0h1m2 0h1m1 0h1m1 0h1m1 0h5M4 13.5h6m1 0h1m2 0h1m3 0h1m4 0h2m2 0h1m2 0h2m1 0h2m1 0h1M5 14.5h2m1 0h7m4 0h2m1 0h1m1 0h3m1 0h2m2 0h1m1 0h2M4 15.5h2m1 0h2m2 0h1m4 0h1m1 0h3m4 0h3m1 0h1m2 0h4M4 16.5h5m1 0h1m3 0h2m6 0h1m3 0h2m1 0h1m1 0h3m2 0h1M4 17.5h2m5 0h2m3 0h1m1 0h3m3 0h5m1 0h1m2 0h1m1 0h2M4 18.5h2m4 0h2m4 0h1m1 0h1m4 0h1m1 0h1m2 0h3m1 0h2m1 0h1M6 19.5h4m6 0h2m2 0h1m2 0h8m1 0h1m1 0h1M4 20.5h1m1 0h1m1 0h4m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m2 0h1m1 0h2m1 0h2m3 0h1M4 21.5h1m2 0h2m2 0h1m1 0h3m1 0h1m2 0h6m1 0h5m1 0h2m1 0h1M4 22.5h2m2 0h1m1 0h2m3 0h1m1 0h5m2 0h2m5 0h2m1 0h2M5 23.5h1m3 0h1m1 0h2m1 0h1m1 0h3m1 0h3m2 0h1m1 0h1m2 0h5M4 24.5h5m1 0h6m1 0h1m2 0h1m2 0h2m3 0h2m1 0h3m1 0h1M4 25.5h1m7 0h1m2 0h3m1 0h1m1 0h2m2 0h3m2 0h2m1 0h1m2 0h1M4 26.5h1m1 0h1m3 0h1m4 0h2m1 0h3m3 0h3m2 0h1m1 0h3m1 0h1M4 27.5h1m2 0h2m6 0h1m3 0h1m2 0h1m2 0h1m2 0h4m1 0h2M4 28.5h1m4 0h3m1 0h1m2 0h4m1 0h2m3 0h7M12 29.5h3m1 0h2m2 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m2 0h2m1 0h2m1 0h2m1 0h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h1m2 0h1m1 0h2m5 0h5m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h2m1 0h5m2 0h2m1 0h1m2 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m2 0h1m3 0h3m2 0h2m1 0h1m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h2m3 0h1m3 0h1m1 0h1m1 0h7m1 0h1M4 35.5h1m5 0h1m2 0h1m4 0h1m1 0h1m1 0h6m4 0h3M4 36.5h7m1 0h2m1 0h3m3 0h1m1 0h1m2 0h1m1 0h1m1 0h2m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div><div class="slot" style="left:60px;top:60px"><div class="card back" data-n="6"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#CDE8FF;border-color:#B4D6F7">Comida y bebida</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>06/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">물</div>
+        <div class="rom">mul</div>
+        <div class="es fit">agua</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#CDE8FF;border-color:#B4D6F7">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">물이 있어요?</div>
+        <div class="ex-es">¿Hay agua?</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 3</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 물" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m2 0h1m2 0h2m2 0h5m2 0h1m2 0h7M4 5.5h1m5 0h1m3 0h1m2 0h5m2 0h1m1 0h1m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h6m2 0h4m1 0h1m2 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h2m4 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h3m1 0h1m2 0h1m2 0h1m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h1m1 0h1m4 0h2m3 0h1m5 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h4m2 0h2m5 0h4M4 12.5h1m1 0h5m2 0h1m1 0h5m1 0h1m2 0h1m1 0h1m1 0h1m1 0h5M5 13.5h5m1 0h1m1 0h2m3 0h1m4 0h2m2 0h1m2 0h2m1 0h2m1 0h1M4 14.5h1m1 0h1m1 0h1m1 0h3m6 0h2m1 0h1m1 0h3m1 0h2m2 0h1m1 0h2M4 15.5h2m1 0h2m2 0h1m1 0h1m2 0h1m1 0h3m4 0h3m1 0h1m2 0h4M6 16.5h2m2 0h1m2 0h3m6 0h1m3 0h4m1 0h3m2 0h1M4 17.5h4m1 0h1m1 0h2m1 0h1m3 0h3m3 0h4m2 0h1m2 0h1m1 0h2M4 18.5h3m3 0h1m5 0h1m1 0h1m4 0h1m1 0h1m2 0h3m1 0h2m1 0h1M6 19.5h1m1 0h2m1 0h2m4 0h1m2 0h1m2 0h8m1 0h1m1 0h1M4 20.5h1m1 0h1m1 0h3m2 0h1m1 0h1m1 0h1m3 0h1m1 0h1m2 0h1m1 0h2m1 0h2m3 0h1M4 21.5h1m2 0h1m3 0h1m2 0h2m4 0h6m1 0h5m1 0h2m1 0h1M5 22.5h1m2 0h1m1 0h2m3 0h1m1 0h5m2 0h2m5 0h2m1 0h2M4 23.5h2m2 0h1m2 0h2m3 0h1m3 0h3m2 0h1m1 0h1m2 0h5M4 24.5h1m1 0h1m3 0h4m1 0h4m1 0h1m2 0h2m3 0h2m1 0h3m1 0h1M4 25.5h1m2 0h1m4 0h1m1 0h1m2 0h3m1 0h2m2 0h3m2 0h2m1 0h1m2 0h1M4 26.5h1m2 0h1m2 0h2m4 0h1m1 0h3m3 0h3m2 0h1m1 0h3m1 0h1M4 27.5h1m1 0h3m3 0h1m2 0h2m2 0h1m2 0h1m2 0h1m1 0h5m1 0h2M4 28.5h1m4 0h3m1 0h1m2 0h4m1 0h2m3 0h1m1 0h5M12 29.5h3m1 0h2m2 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m3 0h1m1 0h2m1 0h2m1 0h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h1m1 0h2m8 0h5m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m2 0h5m2 0h2m1 0h1m2 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m2 0h1m3 0h3m2 0h2m1 0h1m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h1m3 0h1m1 0h1m1 0h7m1 0h1M4 35.5h1m5 0h1m2 0h1m2 0h1m1 0h1m1 0h1m1 0h5m5 0h3M4 36.5h7m1 0h2m2 0h2m3 0h1m1 0h1m2 0h4m1 0h1m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div><div class="slot" style="left:420px;top:540px"><div class="card back" data-n="7"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#E6E1FF;border-color:#CFC8FF">Objetos</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>07/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">책</div>
+        <div class="rom">chaek</div>
+        <div class="es fit">libro</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#E6E1FF;border-color:#CFC8FF">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">책을 읽어요.</div>
+        <div class="ex-es">Leo un libro.</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 3</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 책" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m2 0h1m2 0h2m2 0h5m2 0h1m2 0h7M4 5.5h1m5 0h1m6 0h5m2 0h1m1 0h1m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h1m1 0h4m2 0h4m1 0h1m2 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h3m3 0h1m1 0h1m3 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h2m1 0h1m3 0h1m2 0h1m2 0h1m1 0h2m1 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h1m1 0h2m3 0h2m3 0h1m5 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h3m3 0h2m5 0h2M4 12.5h1m1 0h5m2 0h1m1 0h5m1 0h1m2 0h1m1 0h1m1 0h1m1 0h5M5 13.5h3m1 0h1m1 0h1m1 0h2m3 0h1m4 0h2m2 0h1m2 0h2m1 0h2m1 0h1M4 14.5h1m1 0h1m1 0h5m1 0h1m4 0h2m1 0h1m1 0h3m1 0h2m2 0h1m1 0h2M4 15.5h2m1 0h2m2 0h1m1 0h1m2 0h1m1 0h3m4 0h3m1 0h1m2 0h4M6 16.5h2m2 0h1m2 0h3m6 0h1m3 0h2m1 0h1m1 0h3m2 0h1M4 17.5h2m1 0h1m1 0h1m1 0h1m4 0h1m1 0h3m3 0h5m1 0h1m2 0h1m1 0h2M4 18.5h4m2 0h2m3 0h2m1 0h1m4 0h1m1 0h1m2 0h3m1 0h2m1 0h1M6 19.5h1m1 0h2m1 0h1m5 0h1m2 0h1m2 0h4m1 0h3m1 0h1m1 0h1M4 20.5h1m3 0h4m1 0h1m3 0h1m3 0h1m1 0h1m2 0h4m1 0h2m3 0h1M7 21.5h2m2 0h1m1 0h3m1 0h1m2 0h6m1 0h5m1 0h2m1 0h1M5 22.5h1m2 0h4m3 0h1m1 0h5m2 0h2m5 0h2m1 0h2M4 23.5h1m4 0h1m1 0h4m1 0h2m2 0h3m2 0h1m1 0h1m1 0h6M5 24.5h3m2 0h2m1 0h1m1 0h1m2 0h1m1 0h1m2 0h2m4 0h1m1 0h3m1 0h1M4 25.5h1m1 0h2m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m2 0h4m1 0h2m1 0h1m2 0h1M4 26.5h1m1 0h2m2 0h3m3 0h1m1 0h3m3 0h3m2 0h1m1 0h3m1 0h1M4 27.5h1m3 0h1m2 0h2m6 0h1m2 0h1m2 0h1m2 0h4m1 0h2M4 28.5h1m4 0h2m2 0h1m2 0h4m1 0h2m3 0h1m1 0h5M12 29.5h1m1 0h1m1 0h1m3 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m2 0h1m2 0h5m1 0h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h1m2 0h1m8 0h5m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m1 0h6m2 0h2m1 0h1m2 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h4m2 0h2m1 0h1m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h1m3 0h1m1 0h1m1 0h7m1 0h1M4 35.5h1m5 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h6m4 0h3M4 36.5h7m1 0h2m2 0h2m3 0h1m1 0h1m2 0h1m1 0h1m1 0h2m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div><div class="slot" style="left:60px;top:540px"><div class="card back" data-n="8"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#E6E1FF;border-color:#CFC8FF">Objetos</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>08/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">가방</div>
+        <div class="rom">gabang</div>
+        <div class="es fit">bolso, mochila</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#E6E1FF;border-color:#CFC8FF">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">가방 안에 책이 있어요.</div>
+        <div class="ex-es">Hay un libro dentro de la mochila.</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 3</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 가방" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m4 0h3m2 0h1m1 0h4m1 0h1m2 0h7M4 5.5h1m5 0h1m2 0h1m1 0h1m1 0h4m1 0h1m1 0h3m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h1m2 0h3m2 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h2m5 0h1m3 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h2m2 0h1m2 0h2m3 0h1m3 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m1 0h2m2 0h2m4 0h3m1 0h1M4 12.5h1m1 0h5m3 0h1m2 0h3m1 0h1m1 0h2m1 0h1m1 0h1m1 0h5M4 13.5h1m1 0h2m1 0h1m1 0h2m1 0h1m3 0h1m4 0h3m1 0h1m2 0h2m1 0h2m1 0h1M5 14.5h2m3 0h2m2 0h1m4 0h4m1 0h1m3 0h2m2 0h1m1 0h2M5 15.5h3m1 0h1m2 0h1m2 0h2m1 0h3m4 0h1m1 0h1m1 0h1m2 0h4M4 16.5h1m4 0h4m1 0h1m7 0h1m3 0h2m1 0h1m1 0h3m2 0h1M5 17.5h1m2 0h2m1 0h3m1 0h2m1 0h3m1 0h4m1 0h2m1 0h1m2 0h1m1 0h2M4 18.5h2m2 0h1m1 0h4m2 0h2m7 0h1m2 0h3m1 0h2m1 0h1M6 19.5h4m1 0h1m2 0h2m1 0h1m2 0h1m2 0h4m1 0h3m1 0h1m1 0h1M4 20.5h2m2 0h1m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1m1 0h1m2 0h4m1 0h2m3 0h1M4 21.5h1m3 0h2m1 0h1m2 0h3m3 0h6m1 0h5m1 0h2m1 0h1M7 22.5h1m1 0h3m2 0h1m1 0h2m1 0h3m2 0h1m6 0h2m1 0h2M5 23.5h2m2 0h1m1 0h3m2 0h2m2 0h3m2 0h1m1 0h1m1 0h1m1 0h4M5 24.5h7m2 0h1m2 0h2m1 0h1m2 0h1m5 0h1m1 0h3m1 0h1M4 25.5h1m1 0h1m1 0h2m3 0h1m3 0h3m1 0h3m1 0h4m1 0h2m1 0h1m2 0h1M4 26.5h1m5 0h2m5 0h4m3 0h3m1 0h2m1 0h3m1 0h1M4 27.5h1m3 0h1m3 0h1m1 0h1m3 0h2m2 0h1m2 0h1m2 0h4m1 0h2m1 0h1M4 28.5h1m4 0h2m3 0h1m4 0h1m1 0h3m2 0h1m1 0h5m2 0h1M12 29.5h1m3 0h1m3 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m4 0h3m1 0h2m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h3m1 0h2m6 0h2m1 0h2m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m2 0h3m1 0h1m2 0h3m1 0h1m1 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h5m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h1m3 0h3m2 0h1m2 0h8m1 0h1M4 35.5h1m5 0h1m4 0h4m1 0h1m1 0h1m2 0h3m4 0h3M4 36.5h7m1 0h5m1 0h1m2 0h1m4 0h1m1 0h1m1 0h2m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div></section>
+<section class="page" data-tipo="anversos" data-grupo="3"><svg class="cuts" width="816" height="1056" viewBox="0 0 816 1056" aria-hidden="true"><g stroke="#8E8E8E" stroke-width="0.6" fill="none"><path d="M57 60 L46 60 M60 57 L60 46"/><path d="M399 60 L410 60 M396 57 L396 46"/><path d="M57 516 L46 516 M60 519 L60 530"/><path d="M399 516 L410 516 M396 519 L396 530"/><path d="M417 60 L406 60 M420 57 L420 46"/><path d="M759 60 L770 60 M756 57 L756 46"/><path d="M417 516 L406 516 M420 519 L420 530"/><path d="M759 516 L770 516 M756 519 L756 530"/><path d="M57 540 L46 540 M60 537 L60 526"/><path d="M399 540 L410 540 M396 537 L396 526"/><path d="M57 996 L46 996 M60 999 L60 1010"/><path d="M399 996 L410 996 M396 999 L396 1010"/><path d="M417 540 L406 540 M420 537 L420 526"/><path d="M759 540 L770 540 M756 537 L756 526"/><path d="M417 996 L406 996 M420 999 L420 1010"/><path d="M759 996 L770 996 M756 999 L756 1010"/></g></svg><div class="slot" style="left:60px;top:60px"><div class="card front" data-n="9"><div class="inner">
+      <div class="art" style="background:#CDE8FF;border-color:#B4D6F7">
+        <div class="num">09/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="café">
+    <path d="M30 31 Q31.8 38.2 39 40 Q31.8 41.8 30 49 Q28.2 41.8 21 40 Q28.2 38.2 30 31 Z" fill="#E8B84B"/><path d="M196 36 Q197.6 42.4 204 44 Q197.6 45.6 196 52 Q194.4 45.6 188 44 Q194.4 42.4 196 36 Z" fill="#FFFFFF"/><path d="M201 147 Q202 151 206 152 Q202 153 201 157 Q200 153 196 152 Q200 151 201 147 Z" fill="#E8B84B"/>
+    <circle cx="26" cy="112" r="3" fill="#FFFFFF"/><circle cx="204" cy="90" r="2.5" fill="#FFFFFF"/><circle cx="28" cy="160" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="110" cy="191" rx="70" ry="6" fill="#B3D5F6"/>
+    <path d="M88 76 Q80 64 88 54 Q96 44 88 32" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M110 72 Q102 58 110 46 Q118 36 110 22" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M132 76 Q124 64 132 54 Q140 44 132 32" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+    <ellipse cx="110" cy="178" rx="76" ry="12" fill="#E4E0FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="110" cy="176" rx="44" ry="6" fill="#CFC8FF"/>
+    <path d="M156 106 Q188 102 186 126 Q184 150 152 148" fill="none" stroke="#003478" stroke-width="14" stroke-linecap="round"/>
+    <path d="M156 106 Q188 102 186 126 Q184 150 152 148" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M56 92 L164 92 L156 152 Q152 174 128 174 L92 174 Q68 174 64 152 Z" fill="#FFFFFF"/>
+    <path d="M61.6 134 L158.4 134 L156.5 148 L63.5 148 Z" fill="#F6D47A"/>
+    <path d="M56 92 L164 92 L156 152 Q152 174 128 174 L92 174 Q68 174 64 152 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="110" cy="92" rx="54" ry="12" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="110" cy="93" rx="45" ry="8" fill="#8C6448"/>
+    <path d="M98 93 Q104 88 112 92 Q118 96 124 91" fill="none" stroke="#E9D6C0" stroke-width="2.4" stroke-linecap="round"/>
+    <ellipse cx="83" cy="124" rx="8" ry="5" fill="#FFCBA0"/><ellipse cx="137" cy="124" rx="8" ry="5" fill="#FFCBA0"/><circle cx="95" cy="114" r="6" fill="#003478"/><circle cx="125" cy="114" r="6" fill="#003478"/><circle cx="96.98" cy="112.02" r="1.98" fill="#FFFFFF"/><circle cx="126.98" cy="112.02" r="1.98" fill="#FFFFFF"/><path d="M104 122 Q110 129 116 122" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul" lang="ko">커피</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div><div class="slot" style="left:420px;top:60px"><div class="card front" data-n="10"><div class="inner">
+      <div class="art" style="background:#E6E1FF;border-color:#CFC8FF">
+        <div class="num">10/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="paraguas">
+    <path d="M30 27 Q31.8 34.2 39 36 Q31.8 37.8 30 45 Q28.2 37.8 21 36 Q28.2 34.2 30 27 Z" fill="#FFFFFF"/><path d="M194 25 Q195.4 30.6 201 32 Q195.4 33.4 194 39 Q192.6 33.4 187 32 Q192.6 30.6 194 25 Z" fill="#E8B84B"/>
+    <circle cx="204" cy="82" r="2.5" fill="#FFFFFF"/><circle cx="18" cy="86" r="2.5" fill="#E8B84B"/>
+    <path d="M30 130.9 Q37 140 37 142.8 A7 7 0 0 1 23 142.8 Q23 140 30 130.9 Z" fill="#9FD3FA" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/><path d="M190 130.9 Q197 140 197 142.8 A7 7 0 0 1 183 142.8 Q183 140 190 130.9 Z" fill="#9FD3FA" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/><path d="M48 164.85 Q53.5 172 53.5 174.2 A5.5 5.5 0 0 1 42.5 174.2 Q42.5 172 48 164.85 Z" fill="#9FD3FA" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/><path d="M176 166.85 Q181.5 174 181.5 176.2 A5.5 5.5 0 0 1 170.5 176.2 Q170.5 174 176 166.85 Z" fill="#9FD3FA" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+    <ellipse cx="110" cy="189" rx="54" ry="6" fill="#D2CBFA"/>
+    <path d="M110 104 L110 164 Q110 182 96 182 Q84 182 84 170" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round"/>
+    <path d="M110 104 L110 164 Q110 182 96 182 Q84 182 84 170" fill="none" stroke="#F6D47A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 112 Q32 38 110 34 Q188 38 190 112 Q167 100 144 112 Q110 96 76 112 Q53 100 30 112 Z" fill="#8FB6FF"/>
+    <path d="M110 34 Q84 52 76 112 Q110 96 144 112 Q136 52 110 34 Z" fill="#D6E3FF"/>
+    <path d="M110 34 Q84 52 76 112 M110 34 Q136 52 144 112" fill="none" stroke="#003478" stroke-width="2.6"/>
+    <path d="M30 112 Q32 38 110 34 Q188 38 190 112 Q167 100 144 112 Q110 96 76 112 Q53 100 30 112 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="56" cy="70" rx="9" ry="5" fill="#C9DBFF" transform="rotate(-40 56 70)"/>
+    <circle cx="110" cy="29" r="5.5" fill="#F6D47A" stroke="#003478" stroke-width="2.6"/>
+    <ellipse cx="109.999" cy="85" rx="0" ry="0" fill="#FFCBA0"/><ellipse cx="110.001" cy="85" rx="0" ry="0" fill="#FFCBA0"/><circle cx="98" cy="74" r="5.3" fill="#003478"/><circle cx="122" cy="74" r="5.3" fill="#003478"/><circle cx="99.75" cy="72.25" r="1.75" fill="#FFFFFF"/><circle cx="123.75" cy="72.25" r="1.75" fill="#FFFFFF"/><path d="M105 81 Q110 88 115 81" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+    <ellipse cx="96" cy="88" rx="5.5" ry="3.6" fill="#FFCBA0"/><ellipse cx="124" cy="88" rx="5.5" ry="3.6" fill="#FFCBA0"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul" lang="ko">우산</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div><div class="slot" style="left:60px;top:540px"><div class="card front" data-n="11"><div class="inner">
+      <div class="art" style="background:#CFF2E3;border-color:#ABDFC7">
+        <div class="num">11/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="gato">
+    <path d="M30 36 Q32 44 40 46 Q32 48 30 56 Q28 48 20 46 Q28 44 30 36 Z" fill="#FFFFFF"/><path d="M192 44 Q193.6 50.4 200 52 Q193.6 53.6 192 60 Q190.4 53.6 184 52 Q190.4 50.4 192 44 Z" fill="#CFC8FF"/><path d="M30 144 Q31.4 149.6 37 151 Q31.4 152.4 30 158 Q28.6 152.4 23 151 Q28.6 149.6 30 144 Z" fill="#E8B84B"/>
+    <circle cx="24" cy="110" r="3" fill="#FFFFFF"/><circle cx="198" cy="88" r="2.5" fill="#FFFFFF"/><circle cx="46" cy="176" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="110" cy="189" rx="66" ry="8" fill="#A6DEC4"/>
+    <path d="M146 176 Q194 174 190 138 Q188 124 176 127" fill="none" stroke="#003478" stroke-width="17" stroke-linecap="round"/>
+    <path d="M146 176 Q194 174 190 138 Q188 124 176 127" fill="none" stroke="#FFF6E6" stroke-width="11" stroke-linecap="round"/>
+    <path d="M188 132 Q184 125 176 127" fill="none" stroke="#F3D27A" stroke-width="11" stroke-linecap="round"/>
+    <path d="M68 176 Q62 128 110 122 Q158 128 152 176 Q152 186 142 186 L78 186 Q68 186 68 176 Z" fill="#FFF6E6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="110" cy="160" rx="20" ry="17" fill="#FFFFFF"/>
+    <ellipse cx="94" cy="182" rx="13" ry="8" fill="#FFF6E6" stroke="#003478" stroke-width="2.6"/>
+    <ellipse cx="126" cy="182" rx="13" ry="8" fill="#FFF6E6" stroke="#003478" stroke-width="2.6"/>
+    <path d="M91 180 L91 185 M97 180 L97 185 M123 180 L123 185 M129 180 L129 185" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+    <path d="M60 82 Q54 34 70 32 Q82 34 98 52 Z" fill="#FFF6E6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M160 82 Q166 34 150 32 Q138 34 122 52 Z" fill="#F3D27A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M68 66 Q66 46 72 44 Q78 46 86 55 Z" fill="#CFC8FF"/>
+    <path d="M152 66 Q154 46 148 44 Q142 46 134 55 Z" fill="#CFC8FF"/>
+    <ellipse cx="110" cy="94" rx="58" ry="46" fill="#FFF6E6"/>
+    <path d="M130 56 Q150 60 162 80 Q150 88 136 80 Q126 70 130 56 Z" fill="#F3D27A"/>
+    <ellipse cx="110" cy="94" rx="58" ry="46" fill="none" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="76" cy="111" rx="9" ry="5.5" fill="#FFCBA0"/><ellipse cx="144" cy="111" rx="9" ry="5.5" fill="#FFCBA0"/>
+    <circle cx="88" cy="98" r="6.5" fill="#003478"/><circle cx="132" cy="98" r="6.5" fill="#003478"/>
+    <circle cx="90.2" cy="95.6" r="2.2" fill="#FFFFFF"/><circle cx="134.2" cy="95.6" r="2.2" fill="#FFFFFF"/>
+    <path d="M106 106 Q110 104 114 106 Q112 110 110 110 Q108 110 106 106 Z" fill="#E8A866" stroke="#003478" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M102 113 Q106 119 110 113 Q114 119 118 113" fill="none" stroke="#003478" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M62 102 L46 98 M62 109 L46 111 M158 102 L174 98 M158 109 L174 111" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul" lang="ko">고양이</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div><div class="slot" style="left:420px;top:540px"><div class="card front" data-n="12"><div class="inner">
+      <div class="art" style="background:#CFF2E3;border-color:#ABDFC7">
+        <div class="num">12/12</div>
+        <svg class="ill" viewBox="0 0 220 200" width="268" height="244" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="perro, perrito">
+    <path d="M30 30 Q32 38 40 40 Q32 42 30 50 Q28 42 20 40 Q28 38 30 30 Z" fill="#FFFFFF"/><path d="M196 23 Q197.4 28.6 203 30 Q197.4 31.4 196 37 Q194.6 31.4 189 30 Q194.6 28.6 196 23 Z" fill="#CFC8FF"/><path d="M30 143 Q31.4 148.6 37 150 Q31.4 151.4 30 157 Q28.6 151.4 23 150 Q28.6 148.6 30 143 Z" fill="#E8B84B"/>
+    <circle cx="22" cy="104" r="3" fill="#FFFFFF"/><circle cx="204" cy="70" r="2.5" fill="#FFFFFF"/><circle cx="44" cy="178" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="110" cy="189" rx="66" ry="8" fill="#A6DEC4"/>
+    <path d="M148 166 Q182 160 186 128" fill="none" stroke="#003478" stroke-width="15" stroke-linecap="round"/>
+    <path d="M148 166 Q182 160 186 128" fill="none" stroke="#E2B271" stroke-width="9" stroke-linecap="round"/>
+    <path d="M196 120 L204 114 M198 134 L207 133" stroke="#003478" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M68 176 Q62 128 110 122 Q158 128 152 176 Q152 186 142 186 L78 186 Q68 186 68 176 Z" fill="#FFF6E6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="110" cy="164" rx="19" ry="15" fill="#FFFFFF"/>
+    <ellipse cx="94" cy="182" rx="13" ry="8" fill="#FFF6E6" stroke="#003478" stroke-width="2.6"/>
+    <ellipse cx="126" cy="182" rx="13" ry="8" fill="#FFF6E6" stroke="#003478" stroke-width="2.6"/>
+    <path d="M91 180 L91 185 M97 180 L97 185 M123 180 L123 185 M129 180 L129 185" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+    <path d="M76 130 Q110 148 144 130 L146 141 Q110 160 74 141 Z" fill="#4236F6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+    <circle cx="110" cy="154" r="6.5" fill="#E8B84B" stroke="#003478" stroke-width="2.4"/>
+    <ellipse cx="110" cy="92" rx="56" ry="45" fill="#FFF6E6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="132" cy="90" rx="15" ry="13" fill="#F3D27A"/>
+    <path d="M90 50 Q60 44 46 70 Q34 96 46 118 Q58 130 68 112 Q74 96 76 80 Q80 62 90 50 Z" fill="#D9A462" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M130 50 Q160 44 174 70 Q186 96 174 118 Q162 130 152 112 Q146 96 144 80 Q140 62 130 50 Z" fill="#D9A462" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="110" cy="112" rx="19" ry="13" fill="#FFFFFF"/>
+    <ellipse cx="86" cy="113" rx="7.5" ry="4.8" fill="#FFCBA0"/><ellipse cx="134" cy="113" rx="7.5" ry="4.8" fill="#FFCBA0"/>
+    <circle cx="92" cy="92" r="6.5" fill="#003478"/><circle cx="130" cy="92" r="6.5" fill="#003478"/>
+    <circle cx="94.2" cy="89.6" r="2.2" fill="#FFFFFF"/><circle cx="132.2" cy="89.6" r="2.2" fill="#FFFFFF"/>
+    <ellipse cx="110" cy="105" rx="7.5" ry="5.5" fill="#003478"/>
+    <circle cx="107.6" cy="103.2" r="1.8" fill="#FFFFFF"/>
+    <path d="M110 110 L110 114 M101 114 Q105.5 120 110 114 Q114.5 120 119 114" fill="none" stroke="#003478" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="word">
+        <div class="hangul" lang="ko">강아지</div>
+        <div class="audio"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4236F6" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div></div></div></section>
+<section class="page" data-tipo="reversos" data-grupo="3"><svg class="cuts" width="816" height="1056" viewBox="0 0 816 1056" aria-hidden="true"><g stroke="#8E8E8E" stroke-width="0.6" fill="none"><path d="M57 60 L46 60 M60 57 L60 46"/><path d="M399 60 L410 60 M396 57 L396 46"/><path d="M57 516 L46 516 M60 519 L60 530"/><path d="M399 516 L410 516 M396 519 L396 530"/><path d="M417 60 L406 60 M420 57 L420 46"/><path d="M759 60 L770 60 M756 57 L756 46"/><path d="M417 516 L406 516 M420 519 L420 530"/><path d="M759 516 L770 516 M756 519 L756 530"/><path d="M57 540 L46 540 M60 537 L60 526"/><path d="M399 540 L410 540 M396 537 L396 526"/><path d="M57 996 L46 996 M60 999 L60 1010"/><path d="M399 996 L410 996 M396 999 L396 1010"/><path d="M417 540 L406 540 M420 537 L420 526"/><path d="M759 540 L770 540 M756 537 L756 526"/><path d="M417 996 L406 996 M420 999 L420 1010"/><path d="M759 996 L770 996 M756 999 L756 1010"/></g></svg><div class="slot" style="left:420px;top:60px"><div class="card back" data-n="9"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#CDE8FF;border-color:#B4D6F7">Comida y bebida</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>09/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">커피</div>
+        <div class="rom">keopi</div>
+        <div class="es fit">café</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#CDE8FF;border-color:#B4D6F7">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">매일 커피 마셔요.</div>
+        <div class="ex-es">Tomo café todos los días.</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 3</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 커피" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m4 0h3m2 0h1m1 0h4m1 0h1m2 0h7M4 5.5h1m5 0h1m2 0h1m1 0h1m1 0h4m1 0h1m1 0h3m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h1m1 0h4m2 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h2m1 0h2m2 0h1m3 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h2m1 0h1m3 0h2m3 0h1m3 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m1 0h1m1 0h1m1 0h2m4 0h3M4 12.5h1m1 0h5m3 0h2m1 0h3m1 0h1m1 0h2m1 0h1m1 0h1m1 0h5M4 13.5h1m1 0h4m1 0h2m1 0h1m3 0h1m4 0h3m1 0h1m2 0h2m1 0h2m1 0h1M4 14.5h1m1 0h1m3 0h2m1 0h1m5 0h4m1 0h3m1 0h2m2 0h1m1 0h2M5 15.5h3m4 0h5m1 0h3m4 0h1m1 0h1m1 0h1m2 0h4M8 16.5h4m2 0h1m1 0h1m5 0h1m4 0h1m1 0h1m1 0h3m2 0h1M8 17.5h1m4 0h1m1 0h1m2 0h3m1 0h7m1 0h1m2 0h1m1 0h2M4 18.5h3m1 0h1m1 0h1m1 0h2m2 0h2m7 0h1m3 0h2m1 0h2m1 0h1M6 19.5h4m1 0h1m2 0h4m2 0h1m2 0h4m1 0h3m1 0h1m1 0h1M4 20.5h3m1 0h1m1 0h1m1 0h1m1 0h2m1 0h2m2 0h1m1 0h1m2 0h1m1 0h2m1 0h2m3 0h1M4 21.5h1m4 0h1m1 0h1m2 0h4m2 0h5m2 0h5m1 0h2m1 0h1M7 22.5h5m1 0h2m1 0h6m2 0h2m5 0h2m1 0h2M6 23.5h1m1 0h1m2 0h2m1 0h1m1 0h1m3 0h3m2 0h3m1 0h6M4 24.5h3m1 0h4m1 0h2m3 0h1m1 0h1m2 0h1m4 0h2m1 0h3m1 0h1M4 25.5h2m1 0h3m3 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h3m2 0h2m1 0h1m2 0h1M4 26.5h1m5 0h3m2 0h1m1 0h4m3 0h3m1 0h2m1 0h3m1 0h1M4 27.5h1m2 0h2m2 0h1m2 0h1m3 0h2m2 0h2m1 0h1m1 0h5m1 0h2m1 0h1M4 28.5h1m4 0h2m3 0h1m4 0h1m1 0h2m3 0h1m1 0h5m2 0h1M12 29.5h1m3 0h1m3 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m3 0h3m2 0h2m1 0h1m1 0h5m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h1m3 0h1m7 0h2m1 0h2m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m2 0h2m2 0h1m2 0h2m2 0h1m1 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m1 0h3m1 0h3m1 0h1m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h1m3 0h3m2 0h1m3 0h7m1 0h1M4 35.5h1m5 0h1m6 0h2m1 0h1m1 0h2m1 0h2m5 0h3M4 36.5h7m1 0h5m1 0h1m2 0h1m4 0h3m1 0h2m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div><div class="slot" style="left:60px;top:60px"><div class="card back" data-n="10"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#E6E1FF;border-color:#CFC8FF">Objetos</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>10/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">우산</div>
+        <div class="rom">usan</div>
+        <div class="es fit">paraguas</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#E6E1FF;border-color:#CFC8FF">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">우산이 어디에 있어요?</div>
+        <div class="ex-es">¿Dónde está el paraguas?</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 3</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 우산" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m2 0h1m1 0h3m2 0h1m1 0h4m1 0h1m2 0h7M4 5.5h1m5 0h1m4 0h1m1 0h4m1 0h1m1 0h3m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h6m2 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h2m2 0h1m2 0h1m3 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h2m1 0h2m2 0h2m3 0h1m3 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m1 0h1m1 0h1m1 0h2m4 0h3m1 0h1M4 12.5h1m1 0h5m3 0h2m1 0h3m1 0h1m1 0h2m1 0h1m1 0h1m1 0h5M4 13.5h1m1 0h2m1 0h1m1 0h2m1 0h1m3 0h1m4 0h3m1 0h1m2 0h2m1 0h2m1 0h1M5 14.5h2m2 0h3m1 0h1m5 0h4m1 0h1m3 0h2m2 0h1m1 0h2M6 15.5h3m3 0h5m1 0h3m4 0h3m1 0h1m2 0h4M7 16.5h1m1 0h3m10 0h1m4 0h1m1 0h1m1 0h3m2 0h1M5 17.5h1m2 0h1m2 0h1m1 0h2m1 0h1m1 0h3m1 0h7m1 0h1m2 0h1m1 0h2M4 18.5h2m1 0h2m1 0h1m1 0h2m2 0h2m7 0h1m2 0h3m1 0h2m1 0h1M8 19.5h2m4 0h1m2 0h1m2 0h1m2 0h8m1 0h1m1 0h1M4 20.5h3m1 0h1m1 0h3m1 0h1m2 0h2m2 0h1m1 0h1m2 0h1m1 0h2m1 0h2m3 0h1M9 21.5h1m1 0h1m1 0h4m3 0h5m2 0h5m1 0h2m1 0h1M4 22.5h2m1 0h5m4 0h1m2 0h3m2 0h2m5 0h2m1 0h2M6 23.5h1m2 0h1m1 0h3m2 0h1m3 0h3m2 0h1m1 0h1m1 0h6M6 24.5h2m1 0h3m8 0h1m2 0h1m4 0h1m2 0h3m1 0h1M4 25.5h1m3 0h1m2 0h3m2 0h4m1 0h3m1 0h3m1 0h3m1 0h1m2 0h1M4 26.5h1m1 0h2m2 0h3m3 0h5m4 0h2m2 0h1m1 0h3m1 0h1M4 27.5h1m1 0h1m1 0h1m3 0h1m1 0h1m3 0h2m2 0h1m2 0h1m2 0h4m1 0h2m1 0h1M4 28.5h1m1 0h1m2 0h2m3 0h1m4 0h1m1 0h2m3 0h1m1 0h5m2 0h1M12 29.5h2m2 0h1m3 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m2 0h1m1 0h6m1 0h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h1m1 0h1m1 0h2m6 0h2m1 0h2m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m1 0h2m2 0h2m2 0h3m1 0h1m1 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h6m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h1m3 0h3m2 0h1m3 0h7m1 0h1M4 35.5h1m5 0h1m6 0h2m1 0h1m1 0h2m1 0h2m3 0h1m1 0h3M4 36.5h7m1 0h5m1 0h1m2 0h1m4 0h4m1 0h1m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div><div class="slot" style="left:420px;top:540px"><div class="card back" data-n="11"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#CFF2E3;border-color:#ABDFC7">Animales</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>11/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">고양이</div>
+        <div class="rom">goyangi</div>
+        <div class="es fit">gato</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#CFF2E3;border-color:#ABDFC7">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">고양이를 좋아해요?</div>
+        <div class="ex-es">¿Te gustan los gatos?</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 4</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 고양이" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m2 0h1m3 0h1m2 0h6m1 0h1m2 0h7M4 5.5h1m5 0h1m2 0h2m1 0h5m1 0h1m1 0h3m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h1m2 0h3m2 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h1m2 0h1m2 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h1m1 0h1m4 0h1m2 0h2m1 0h1m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h1m6 0h2m3 0h1m3 0h1m1 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m2 0h1m2 0h1m4 0h1m1 0h2m1 0h1M4 12.5h1m1 0h5m2 0h2m2 0h3m1 0h1m2 0h1m1 0h1m1 0h1m1 0h5M4 13.5h1m3 0h1m2 0h6m1 0h1m4 0h3m1 0h1m2 0h2m1 0h2m1 0h1M4 14.5h1m2 0h1m2 0h2m1 0h1m1 0h2m2 0h2m3 0h1m3 0h2m2 0h1m1 0h2M8 15.5h1m3 0h1m5 0h3m1 0h1m2 0h3m1 0h1m2 0h4M6 16.5h1m3 0h2m1 0h1m1 0h1m4 0h2m5 0h1m1 0h1m1 0h3m2 0h1M4 17.5h1m1 0h2m3 0h1m3 0h1m1 0h2m3 0h7m1 0h1m2 0h1m1 0h2M4 18.5h4m1 0h3m1 0h2m1 0h1m2 0h1m4 0h2m3 0h2m1 0h2m1 0h1M5 19.5h2m1 0h1m5 0h2m3 0h1m4 0h3m1 0h3m1 0h1m1 0h1M4 20.5h2m4 0h1m2 0h1m1 0h3m1 0h1m1 0h1m4 0h1m1 0h2m1 0h2m3 0h1M4 21.5h2m1 0h3m3 0h1m1 0h3m2 0h1m1 0h3m2 0h5m1 0h2m1 0h1M6 22.5h1m1 0h1m1 0h2m3 0h1m1 0h6m1 0h2m5 0h2m1 0h2M5 23.5h3m3 0h3m1 0h3m2 0h1m1 0h1m2 0h3m1 0h1m1 0h4M4 24.5h1m1 0h3m1 0h3m1 0h3m1 0h1m1 0h4m4 0h2m1 0h3m1 0h1M4 25.5h4m1 0h1m1 0h2m1 0h4m2 0h2m1 0h5m2 0h2m1 0h1m2 0h1M4 26.5h1m5 0h2m1 0h1m1 0h1m1 0h1m1 0h2m3 0h3m2 0h1m1 0h3m1 0h1M4 27.5h1m4 0h1m2 0h1m1 0h1m1 0h2m1 0h2m1 0h1m2 0h1m1 0h5m1 0h2M4 28.5h1m1 0h2m2 0h1m5 0h2m3 0h2m3 0h1m1 0h5m2 0h2M12 29.5h2m1 0h3m2 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m2 0h2m2 0h4m3 0h1m1 0h3m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h6m4 0h1m1 0h2m1 0h2m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h3m1 0h2m1 0h1m1 0h4m3 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m2 0h4m1 0h4m1 0h3m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h3m1 0h2m1 0h1m1 0h1m2 0h8m1 0h1M4 35.5h1m5 0h1m3 0h1m3 0h1m1 0h1m1 0h1m2 0h3m4 0h3M4 36.5h7m1 0h2m1 0h1m1 0h1m3 0h1m1 0h1m2 0h1m1 0h1m1 0h2m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div><div class="slot" style="left:60px;top:540px"><div class="card back" data-n="12"><div class="inner">
+      <div class="top">
+        <div class="pill" style="background:#CFF2E3;border-color:#ABDFC7">Animales</div>
+        <div class="num-sm"><svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>12/12</span></div>
+      </div>
+      <div class="head">
+        <div class="kr" lang="ko">강아지</div>
+        <div class="rom">gangaji</div>
+        <div class="es fit">perro, perrito</div>
+      </div>
+      <div class="divider"><span></span><svg width="12" height="12" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#CFC8FF"/></svg><span></span></div>
+      <div class="ex" style="background:#CFF2E3;border-color:#ABDFC7">
+        <div class="ex-label">Ejemplo</div>
+        <div class="ex-kr" lang="ko">우리 강아지예요.</div>
+        <div class="ex-es">Es mi perrito.</div>
+      </div>
+      <div class="foot">
+        <div class="foot-l">
+          <div class="lvl">Básico 1 · Semana 4</div>
+          <div class="brand"><svg width="10" height="10" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 Q11.8 8.2 19 10 Q11.8 11.8 10 19 Q8.2 11.8 1 10 Q8.2 8.2 10 1 Z" fill="#E8B84B"/></svg><span>Academia Seúl</span></div>
+        </div>
+        <div class="qr">
+          <div class="qr-box"><svg class="qr-svg" role="img" aria-label="QR: audio de 강아지" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#003478" d="M4 4.5h7m2 0h1m3 0h1m2 0h1m1 0h4m1 0h1m2 0h7M4 5.5h1m5 0h1m2 0h2m1 0h5m1 0h1m1 0h3m3 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m1 0h1m2 0h3m2 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m1 0h3m3 0h1m2 0h2m3 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m1 0h1m1 0h3m2 0h1m3 0h3m1 0h1m2 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h1m2 0h1m3 0h2m3 0h1m5 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m2 0h1m2 0h1m4 0h1m1 0h2M4 12.5h1m1 0h5m2 0h2m2 0h3m1 0h1m2 0h1m1 0h1m1 0h1m1 0h5M4 13.5h1m6 0h6m1 0h1m4 0h3m1 0h1m2 0h2m1 0h2m1 0h1M4 14.5h1m2 0h5m1 0h4m2 0h3m2 0h1m3 0h2m2 0h1m1 0h2M4 15.5h1m3 0h2m2 0h1m5 0h3m4 0h3m1 0h1m2 0h4M6 16.5h6m3 0h2m3 0h3m4 0h1m1 0h1m1 0h3m2 0h1M4 17.5h3m5 0h1m2 0h4m4 0h6m1 0h1m2 0h1m1 0h2M4 18.5h4m1 0h3m1 0h3m3 0h1m4 0h2m3 0h2m1 0h2m1 0h1M5 19.5h4m5 0h1m4 0h1m4 0h3m1 0h3m1 0h1m1 0h1M4 20.5h2m4 0h2m1 0h1m1 0h3m1 0h1m1 0h1m4 0h4m1 0h2m3 0h1M4 21.5h2m1 0h3m3 0h1m1 0h2m3 0h5m2 0h5m1 0h2m1 0h1M6 22.5h1m1 0h1m1 0h2m2 0h2m2 0h3m1 0h1m1 0h2m5 0h2m1 0h2M4 23.5h1m1 0h2m3 0h3m1 0h2m3 0h1m1 0h1m2 0h3m1 0h1m1 0h4M5 24.5h2m1 0h1m1 0h6m1 0h1m2 0h4m5 0h1m1 0h3m1 0h1M4 25.5h3m8 0h3m2 0h2m1 0h6m1 0h2m1 0h1m2 0h1M4 26.5h1m1 0h1m3 0h2m1 0h1m1 0h1m1 0h1m1 0h2m4 0h2m1 0h2m1 0h3m1 0h1M4 27.5h1m1 0h2m1 0h1m1 0h2m1 0h1m2 0h1m1 0h2m1 0h1m1 0h2m2 0h4m1 0h2M4 28.5h1m2 0h1m2 0h2m4 0h2m3 0h2m3 0h1m1 0h5m2 0h2M12 29.5h2m1 0h2m3 0h1m1 0h4m1 0h2m3 0h1m1 0h1m1 0h1M4 30.5h7m2 0h1m4 0h3m1 0h1m1 0h5m1 0h1m1 0h1m1 0h2M4 31.5h1m5 0h1m1 0h1m2 0h4m3 0h1m1 0h5m3 0h4M4 32.5h1m1 0h3m1 0h1m1 0h1m4 0h3m1 0h4m3 0h6m1 0h1M4 33.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h3m1 0h4m1 0h3m1 0h1m2 0h1m2 0h2M4 34.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m1 0h1m3 0h7m1 0h1M4 35.5h1m5 0h1m3 0h1m3 0h1m1 0h1m1 0h1m2 0h3m4 0h3M4 36.5h7m1 0h2m3 0h1m3 0h1m1 0h1m2 0h1m1 0h1m1 0h2m1 0h1m1 0h1"/></svg>
+</div>
+          <div class="qr-cap"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#003478" aria-hidden="true"><path d="M4 9.5 H7.5 L12 5.5 V18.5 L7.5 14.5 H4 Z" stroke-width="2" stroke-linejoin="round"/><path d="M15.5 9 A4 4 0 0 1 15.5 15" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6.5 A7.5 7.5 0 0 1 18.5 17.5" stroke-width="2" stroke-linecap="round"/></svg><span>Escúchala</span></div>
+        </div>
+      </div>
+    </div></div></div></section>
+<script>
+// Ajusta el significado en español al ancho de la tarjeta (una línea; si es "a, b" y quedaría muy chico, dos líneas).
+function fitAll() {
+  document.querySelectorAll('.es.fit').forEach(function (el) {
+    var max = 52, min = 40, s = max;
+    el.style.fontSize = s + 'px';
+    var w = el.parentElement.clientWidth - 10;
+    while (el.scrollWidth > w && s > min) { s -= 1; el.style.fontSize = s + 'px'; }
+    if (el.scrollWidth > w && el.textContent.indexOf(', ') > 0) {
+      var parts = el.textContent.split(', ');
+      el.innerHTML = parts[0] + ', <br>' + parts.slice(1).join(', ');
+      el.classList.add('two');
+      s = 44; el.style.fontSize = s + 'px';
+      while (el.scrollWidth > w && s > 30) { s -= 1; el.style.fontSize = s + 'px'; }
+    } else {
+      while (el.scrollWidth > w && s > 26) { s -= 1; el.style.fontSize = s + 'px'; }
+    }
+  });
+}
+(document.fonts ? document.fonts.ready : Promise.resolve()).then(function () { fitAll(); window.__listo = true; });
+</script>
+</body>
+</html>
