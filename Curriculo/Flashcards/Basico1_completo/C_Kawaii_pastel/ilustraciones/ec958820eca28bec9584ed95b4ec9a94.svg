@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 안 좋아해요 · no me gusta — personaje base con ojos redondos, boca ondulada y pulgar abajo (sin cejas ni párpados enojados) -->
+  <use href="#kw-brillo" transform="translate(32 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 36) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(30 146) scale(6)" fill="#CFC8FF"/>
+  <circle cx="204" cy="84" r="3" fill="#FFFFFF"/>
+  <circle cx="22" cy="102" r="2.5" fill="#E8B84B"/>
+  <circle cx="200" cy="180" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="112" cy="189" rx="62" ry="7" fill="#C6E08C"/>
+  <!-- piernas y zapatos -->
+  <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <!-- torso: uniforme azul, cuello blanco -->
+  <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M99 124 L110 142 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- brazo izquierdo abajo; brazo derecho hacia afuera -->
+  <path d="M84 132 Q72 148 84 162" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M84 132 Q72 148 84 162" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="85" cy="163" r="6" fill="#C98F5E" stroke="#003478" stroke-width="2.4"/>
+  <path d="M136 132 Q146 142 154 136" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M136 132 Q146 142 154 136" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <!-- mano: pulgar hacia abajo -->
+  <rect x="151" y="134" width="14" height="36" rx="7" fill="#C98F5E" stroke="#003478" stroke-width="2.6"/>
+  <rect x="148" y="118" width="34" height="30" rx="10" fill="#C98F5E" stroke="#003478" stroke-width="2.6"/>
+  <rect x="170" y="119" width="22" height="10" rx="5" fill="#C98F5E" stroke="#003478" stroke-width="2.2"/>
+  <rect x="170" y="129" width="22" height="10" rx="5" fill="#C98F5E" stroke="#003478" stroke-width="2.2"/>
+  <rect x="170" y="139" width="20" height="10" rx="5" fill="#C98F5E" stroke="#003478" stroke-width="2.2"/>
+  <!-- cabeza -->
+  <ellipse cx="62" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="158" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="110" cy="84" rx="48" ry="42" fill="#C98F5E" stroke="#003478" stroke-width="3"/>
+  <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- cara: mejillas doradas (piel morena), ojos kw-ojo, boca ondulada (receta de 싫어하다 en la guía) -->
+  <ellipse cx="83" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+  <ellipse cx="137" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+  <use href="#kw-ojo" transform="translate(95 99)"/>
+  <use href="#kw-ojo" transform="translate(125 99)"/>
+  <path d="M103 112 Q106.5 108 110 112 Q113.5 116 117 112" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

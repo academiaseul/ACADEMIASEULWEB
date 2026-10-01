@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 저 · yo (forma humilde) -->
+  <use href="#kw-brillo" transform="translate(32 44) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 42) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(196 142) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="108" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="90" r="2.5" fill="#E8B84B"/>
+  <circle cx="34" cy="166" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <!-- el mismo "yo" de 나: uniforme azul, cuello blanco redondo -->
+  <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- brazo abajo -->
+  <path d="M136 132 Q150 150 142 168" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M136 132 Q150 150 142 168" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="142" cy="170" r="6" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <!-- mano abierta sobre el pecho -->
+  <path d="M84 132 Q68 156 96 152" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M84 132 Q68 156 96 152" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <g transform="rotate(-24 104 148)">
+    <path d="M97 142 Q95 133 101 133 Q105 134 105 141" fill="#FFE4C8" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M92 146 Q92 141 97 141 L113 141 Q119 141 119 146.5 Q119 152 113 152 L97 152 Q92 152 92 147 Z" fill="#FFE4C8" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M108 144.6 L116 144.6 M108 148.4 L116 148.4" fill="none" stroke="#003478" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  <!-- cabeza un poco inclinada: respeto -->
+  <g transform="rotate(-6 110 126) translate(0 5)">
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+    <path d="M63 88 Q58 38 110 36 Q162 38 157 88 Q150 72 138 66 Q128 76 112 71 Q98 78 84 69 Q72 74 63 88 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+    <use href="#kw-cara" transform="translate(110 100)"/>
+  </g>
+  <!-- brillo dorado sobre quien nombra la palabra -->
+  <use href="#kw-brillo" transform="translate(112 22) scale(8)" fill="#E8B84B"/>
+</svg>

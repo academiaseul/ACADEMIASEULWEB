@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 오이 · pepino · Estilo A Sticker pop · pepino entero en diagonal (con cara) + una rodaja al lado -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="28" y="64" width="168" height="68" rx="34" transform="rotate(-26 112 98)"/>
+<rect x="190" y="91" width="16" height="14" rx="5" transform="rotate(-26 112 98)"/>
+<circle cx="25" cy="98" r="6" transform="rotate(-26 112 98)"/>
+<circle cx="128" cy="164" r="27"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="28" y="64" width="168" height="68" rx="34" transform="rotate(-26 112 98)"/>
+<rect x="190" y="91" width="16" height="14" rx="5" transform="rotate(-26 112 98)"/>
+<circle cx="25" cy="98" r="6" transform="rotate(-26 112 98)"/>
+<circle cx="128" cy="164" r="27"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="28" y="64" width="168" height="68" rx="34" transform="rotate(-26 112 98)"/>
+<rect x="190" y="91" width="16" height="14" rx="5" transform="rotate(-26 112 98)"/>
+<circle cx="25" cy="98" r="6" transform="rotate(-26 112 98)"/>
+<circle cx="128" cy="164" r="27"/>
+</g>
+<!-- pepino (dibujado en horizontal y girado -26°): rabito, flor seca, cuerpo verde, brillo y granitos -->
+<g transform="rotate(-26 112 98)">
+<rect x="190" y="91" width="16" height="14" rx="5" fill="#2F8F57" stroke="#14142B" stroke-width="3.5"/>
+<circle cx="25" cy="98" r="6" fill="#FFD95E" stroke="#14142B" stroke-width="3"/>
+<rect x="28" y="64" width="168" height="68" rx="34" fill="#5CC98A" stroke="#14142B" stroke-width="4"/>
+<path d="M50 80 Q64 72 86 72" stroke="#B4F0C8" stroke-width="5" stroke-linecap="round"/>
+<path d="M150 74 L176 78" stroke="#B4F0C8" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="48" cy="104" rx="2.4" ry="2" fill="#2F8F57"/>
+<ellipse cx="60" cy="118" rx="2.4" ry="2" fill="#2F8F57"/>
+<ellipse cx="68" cy="94" rx="2.4" ry="2" fill="#2F8F57"/>
+<ellipse cx="156" cy="92" rx="2.4" ry="2" fill="#2F8F57"/>
+<ellipse cx="170" cy="104" rx="2.4" ry="2" fill="#2F8F57"/>
+<ellipse cx="152" cy="116" rx="2.4" ry="2" fill="#2F8F57"/>
+<ellipse cx="178" cy="88" rx="2.4" ry="2" fill="#2F8F57"/>
+<path d="M44 122 Q60 128 78 126" stroke="#2F8F57" stroke-width="3" stroke-linecap="round"/>
+<path d="M150 126 Q166 126 180 118" stroke="#2F8F57" stroke-width="3" stroke-linecap="round"/>
+</g>
+<!-- cara de la casa en (112,100), s = 0,8 (derecha, aunque el pepino esté girado) -->
+<ellipse cx="100.8" cy="100" rx="5.2" ry="6.8" fill="#14142B"/>
+<ellipse cx="123.2" cy="100" rx="5.2" ry="6.8" fill="#14142B"/>
+<circle cx="102.56" cy="97.28" r="1.92" fill="#FFFFFF"/>
+<circle cx="124.96" cy="97.28" r="1.92" fill="#FFFFFF"/>
+<ellipse cx="91.2" cy="111.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<ellipse cx="132.8" cy="111.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<path d="M105.6 110.4 Q112 120 118.4 110.4 Z" fill="#14142B" stroke="#14142B" stroke-width="2.4" stroke-linejoin="round"/>
+<!-- rodaja: cáscara verde oscura, pulpa clara, semillas -->
+<circle cx="128" cy="164" r="27" fill="#2F8F57" stroke="#14142B" stroke-width="4"/>
+<circle cx="128" cy="164" r="21" fill="#B4F0C8"/>
+<circle cx="128" cy="164" r="12" fill="#7FD69A"/>
+<ellipse cx="135" cy="164" rx="1.9" ry="3.4" fill="#FFF4D9" transform="rotate(90 135 164)"/>
+<ellipse cx="131.5" cy="170.06" rx="1.9" ry="3.4" fill="#FFF4D9" transform="rotate(150 131.5 170.06)"/>
+<ellipse cx="124.5" cy="170.06" rx="1.9" ry="3.4" fill="#FFF4D9" transform="rotate(30 124.5 170.06)"/>
+<ellipse cx="121" cy="164" rx="1.9" ry="3.4" fill="#FFF4D9" transform="rotate(90 121 164)"/>
+<ellipse cx="124.5" cy="157.94" rx="1.9" ry="3.4" fill="#FFF4D9" transform="rotate(150 124.5 157.94)"/>
+<ellipse cx="131.5" cy="157.94" rx="1.9" ry="3.4" fill="#FFF4D9" transform="rotate(30 131.5 157.94)"/>
+<path d="M111 154 Q114 147 121 144" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M36 28 Q38.4 37.6 48 40 Q38.4 42.4 36 52 Q33.6 42.4 24 40 Q33.6 37.6 36 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 175 Q31.8 182.2 39 184 Q31.8 185.8 30 193 Q28.2 185.8 21 184 Q28.2 182.2 30 175 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="190" cy="138" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

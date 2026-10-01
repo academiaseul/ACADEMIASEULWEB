@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="어머니" data-es="madre">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 88 172, 150 172, 194 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- pelo corto (melena a la mandíbula), parte de atrás -->
+    <path d="M80 66 C 74 86, 76 99, 84 105 L136 105 C 144 99, 146 86, 140 66 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- cuerpo -->
+    <path d="M88 112 C 74 126, 68 146, 66 162 L154 162 C 152 146, 146 126, 132 112 Z" fill="#1F3B33"/>
+    <path d="M88 112 C 74 126, 68 146, 66 162 L154 162 C 152 146, 146 126, 132 112 Z" fill="url(#rt)"/>
+    <!-- delantal -->
+    <path d="M98 119 L122 119 L124 133 C 134 136, 140 144, 142 162 L78 162 C 80 144, 86 136, 96 133 Z" fill="#1F3B33"/>
+    <path d="M98 119 L122 119 L124 133 C 134 136, 140 144, 142 162 L78 162 C 80 144, 86 136, 96 133 Z" fill="url(#rb)" stroke-width="2.6"/>
+    <path d="M98 119 L93 112 M122 119 L127 112" stroke-width="2.2"/>
+    <path d="M96 133 C 104 136, 116 136, 124 133" stroke-width="2.2"/>
+    <path d="M100 146 H120 V153 C 120 157, 100 157, 100 153 Z" fill="#1F3B33" stroke-width="2"/>
+    <!-- brazos abiertos -->
+    <path d="M86 120 C 70 117, 58 107, 50 94"/>
+    <circle cx="48" cy="90" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M134 120 C 150 117, 162 107, 170 94"/>
+    <circle cx="172" cy="90" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza y flequillo -->
+    <circle cx="110" cy="72" r="31" fill="#1F3B33"/>
+    <path d="M79 70 C 79 50, 93 40, 110 40 C 127 40, 141 50, 141 70 C 134 64, 126 58, 122 51 C 112 60, 96 66, 79 70 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(110 80) scale(0.82)"/>
+    <use href="#corazon" transform="translate(186 56) scale(0.95)"/>
+    <use href="#corazon" transform="translate(34 58) scale(0.75)"/>
+    <use href="#estrella" transform="translate(30 128) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(188 128) scale(0.65)"/>
+  </g>
+</svg>

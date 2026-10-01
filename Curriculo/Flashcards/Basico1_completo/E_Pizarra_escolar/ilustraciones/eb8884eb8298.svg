@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="누나" data-es="hermana mayor (lo dice un hombre)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 165 C 80 172, 150 172, 200 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- flecha dorada: del hermanito hacia la hermana mayor -->
+    <path d="M70 66 C 76 48, 88 38, 106 37" stroke="#E8B84B" stroke-width="3.4"/>
+    <path d="M97 29 L107 37 L98 46" stroke="#E8B84B" stroke-width="3.4"/>
+    <!-- LA HERMANA MAYOR (más alta): cola de caballo, mochila y libros -->
+    <path d="M164 40 C 178 36, 190 46, 190 62 C 190 74, 186 84, 180 90 C 182 78, 180 62, 168 52 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M162 92 C 162 88, 166 86, 170 86 H184 C 189 86, 192 90, 192 95 V132 C 192 137, 189 140, 184 140 H166 Z" fill="#1F3B33"/>
+    <path d="M162 92 C 162 88, 166 86, 170 86 H184 C 189 86, 192 90, 192 95 V132 C 192 137, 189 140, 184 140 H166 Z" fill="url(#rt)"/>
+    <path d="M176 104 H192" stroke-width="2" stroke-opacity="0.7"/>
+    <path d="M134 80 C 120 94, 114 130, 112 162 L180 162 C 178 130, 172 94, 158 80 Z" fill="#1F3B33"/>
+    <path d="M134 80 C 120 94, 114 130, 112 162 L180 162 C 178 130, 172 94, 158 80 Z" fill="url(#rt)"/>
+    <!-- correas de la mochila -->
+    <path d="M137 84 C 135 94, 134 102, 135 108 M155 84 C 157 94, 158 102, 157 108" stroke-width="2.4"/>
+    <!-- libros abrazados: uno dorado, uno blanco -->
+    <rect x="127" y="104" width="38" height="11" rx="2" fill="#1F3B33" stroke="none"/>
+    <rect x="127" y="104" width="38" height="11" rx="2" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <rect x="125" y="115" width="42" height="11" rx="2" fill="#1F3B33" stroke="none"/>
+    <rect x="125" y="115" width="42" height="11" rx="2" fill="url(#rt)" stroke-width="2.4"/>
+    <path d="M131 120.5 H161" stroke-width="1.6" stroke-opacity="0.6"/>
+    <path d="M134 88 C 124 96, 120 108, 123 118"/>
+    <circle cx="125" cy="121" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M158 88 C 168 96, 172 108, 169 118"/>
+    <circle cx="167" cy="121" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="146" cy="56" r="25" fill="#1F3B33"/>
+    <path d="M122 51 C 125 37, 136 30, 148 31 C 159 32, 169 38, 170 51 C 160 48, 152 43, 145 37 C 139 44, 131 49, 122 51 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="167" cy="41" r="3" fill="#E8B84B" stroke="none"/>
+    <use href="#cara" transform="translate(146 63) scale(0.66)"/>
+    <!-- EL HERMANITO (quien dice 누나): señala con cariño -->
+    <path d="M46 118 C 36 128, 33 146, 32 162 L84 162 C 83 146, 80 128, 70 118 Z" fill="#1F3B33"/>
+    <path d="M46 118 C 36 128, 33 146, 32 162 L84 162 C 83 146, 80 128, 70 118 Z" fill="url(#rt)"/>
+    <path d="M51 119 Q58 125 65 119" stroke-width="2.2"/>
+    <path d="M45 126 C 38 136, 36 146, 38 154"/>
+    <circle cx="38" cy="157" r="3.4" fill="#F3F0E4" stroke="none"/>
+    <path d="M71 126 C 84 124, 94 116, 100 108"/>
+    <path d="M102 105 L109 98" stroke-width="2.8"/>
+    <circle cx="102" cy="105" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <circle cx="58" cy="100" r="21" fill="#1F3B33"/>
+    <path d="M36 100 C 35 85, 45 77, 58 77 C 71 77, 81 85, 80 100 C 75 94, 68 92, 63 89 C 58 94, 46 97, 36 100 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M58 77 C 55 70, 62 67, 65 71" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(58 107) scale(0.6)"/>
+    <!-- adornos -->
+    <use href="#corazon" transform="translate(30 44) scale(0.85)"/>
+    <use href="#estrella" transform="translate(198 22) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(98 148) scale(0.6)"/>
+  </g>
+</svg>

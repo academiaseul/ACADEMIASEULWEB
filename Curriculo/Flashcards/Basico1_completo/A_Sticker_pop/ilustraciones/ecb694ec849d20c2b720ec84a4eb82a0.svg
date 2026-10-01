@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 추석 · 설날 · fiesta de la cosecha · Año Nuevo lunar · Estilo A Sticker pop · niña coreana en hanbok (저고리 verde claro, 고름 azul) con luna llena detrás y un plato de 송편 -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="156" cy="62" r="38"/>
+<path d="M60 116 C54 66 80 44 104 44 C128 44 154 66 148 116 L150 132 Q138 140 126 132 L82 132 Q70 140 58 132 Z"/>
+<ellipse cx="104" cy="98" rx="46" ry="44"/>
+<path d="M58 198 C58 172 78 158 104 158 C130 158 150 172 150 198 Z"/>
+<ellipse cx="58" cy="187" rx="34" ry="8"/>
+<path d="M45 178 C45 155 73 155 73 178 Z"/>
+<path d="M30 187 C30 164 58 164 58 187 Z"/>
+<path d="M60 187 C60 164 88 164 88 187 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="156" cy="62" r="38"/>
+<path d="M60 116 C54 66 80 44 104 44 C128 44 154 66 148 116 L150 132 Q138 140 126 132 L82 132 Q70 140 58 132 Z"/>
+<ellipse cx="104" cy="98" rx="46" ry="44"/>
+<path d="M58 198 C58 172 78 158 104 158 C130 158 150 172 150 198 Z"/>
+<ellipse cx="58" cy="187" rx="34" ry="8"/>
+<path d="M45 178 C45 155 73 155 73 178 Z"/>
+<path d="M30 187 C30 164 58 164 58 187 Z"/>
+<path d="M60 187 C60 164 88 164 88 187 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="156" cy="62" r="38"/>
+<path d="M60 116 C54 66 80 44 104 44 C128 44 154 66 148 116 L150 132 Q138 140 126 132 L82 132 Q70 140 58 132 Z"/>
+<ellipse cx="104" cy="98" rx="46" ry="44"/>
+<path d="M58 198 C58 172 78 158 104 158 C130 158 150 172 150 198 Z"/>
+<ellipse cx="58" cy="187" rx="34" ry="8"/>
+<path d="M45 178 C45 155 73 155 73 178 Z"/>
+<path d="M30 187 C30 164 58 164 58 187 Z"/>
+<path d="M60 187 C60 164 88 164 88 187 Z"/>
+</g>
+<!-- luna llena detrás (amarillo claro, cráteres dorados) -->
+<circle cx="156" cy="62" r="38" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="170" cy="48" rx="6" ry="5" fill="#E8B84B"/>
+<ellipse cx="179" cy="74" rx="4" ry="3.5" fill="#E8B84B"/>
+<ellipse cx="148" cy="38" rx="3.5" ry="3" fill="#E8B84B"/>
+<path d="M176 34 Q184 40 186 50" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<!-- pelo de atrás (melena corta negra) -->
+<path d="M60 116 C54 66 80 44 104 44 C128 44 154 66 148 116 L150 132 Q138 140 126 132 L82 132 Q70 140 58 132 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- 저고리 verde claro -->
+<path d="M58 198 C58 172 78 158 104 158 C130 158 150 172 150 198 Z" fill="#B4F0C8" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cuello -->
+<path d="M93 134 L93 160 Q104 166 115 160 L115 134 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- 깃 navy cruzado (de arriba a la derecha hacia abajo a la izquierda) con 동정 blanco -->
+<path d="M93 160 L106 176" fill="none" stroke="#14142B" stroke-width="16" stroke-linecap="round"/>
+<path d="M93 160 L106 176" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+<path d="M115 160 L90 191" fill="none" stroke="#14142B" stroke-width="16" stroke-linecap="round"/>
+<path d="M115 160 L90 191" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+<path d="M114 161 L95 184.5" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+<!-- 고름 azul: cintas y lazo -->
+<path d="M96 182 L94 195 M101 182 L104 194" fill="none" stroke="#14142B" stroke-width="14" stroke-linecap="round"/>
+<path d="M96 182 L94 195 M101 182 L104 194" fill="none" stroke="#4236F6" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="89" cy="176" rx="9" ry="6.5" fill="#4236F6" stroke="#14142B" stroke-width="3" transform="rotate(18 89 176)"/>
+<ellipse cx="107" cy="176" rx="9" ry="6.5" fill="#4236F6" stroke="#14142B" stroke-width="3" transform="rotate(-18 107 176)"/>
+<circle cx="98" cy="178" r="5" fill="#4236F6" stroke="#14142B" stroke-width="3"/>
+<!-- cabeza -->
+<ellipse cx="104" cy="98" rx="46" ry="44" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- flequillo recto: relleno sin borde + canto de abajo -->
+<path d="M61 106 C56 64 80 50 104 50 C128 50 152 64 147 106 C146 92 140 82 128 82 L80 82 C68 82 62 92 61 106 Z" fill="#14142B"/>
+<path d="M147 106 C146 92 140 82 128 82 L80 82 C68 82 62 92 61 106" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M80 63 Q92 57 104 59" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<rect x="118" y="62" width="18" height="8" rx="4" fill="#E8B84B" stroke="#14142B" stroke-width="3" transform="rotate(-20 127 66)"/>
+<!-- cara de la casa en (104,110), s = 0,85 -->
+<ellipse cx="92.1" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="115.9" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="93.97" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="117.77" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="81.9" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="126.1" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M97.2 121.05 Q104 131.25 110.8 121.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- plato lavanda con tres 송편 (blanco, verde de artemisa, lila) -->
+<ellipse cx="58" cy="187" rx="34" ry="8" fill="#DCE0FA" stroke="#14142B" stroke-width="4"/>
+<path d="M45 178 C45 155 73 155 73 178 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M30 187 C30 164 58 164 58 187 Z" fill="#7FD69A" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M60 187 C60 164 88 164 88 187 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M36 179 Q37 172 43 171" fill="none" stroke="#B4F0C8" stroke-width="3" stroke-linecap="round"/>
+<path d="M66 179 Q67 172 73 171" fill="none" stroke="#ECE6FF" stroke-width="3" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M30 24 Q32.4 33.6 42 36 Q32.4 38.4 30 48 Q27.6 38.4 18 36 Q27.6 33.6 30 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M28 123 Q29.8 130.2 37 132 Q29.8 133.8 28 141 Q26.2 133.8 19 132 Q26.2 130.2 28 123 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M186 158 Q187.6 164.4 194 166 Q187.6 167.6 186 174 Q184.4 167.6 178 166 Q184.4 164.4 186 158 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="128" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

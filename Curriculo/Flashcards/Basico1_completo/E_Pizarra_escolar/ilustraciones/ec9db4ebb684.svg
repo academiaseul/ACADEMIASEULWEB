@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="이분" data-es="esta persona (con respeto: mayores)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 166 C 80 172, 150 172, 202 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- LA SEÑORA MAYOR: permanente blanca, chaleco con broche, manos juntas -->
+    <g transform="translate(12 0)">
+      <path d="M142 88 C 128 100, 122 132, 120 162 L192 162 C 190 132, 184 100, 170 88 Z" fill="#1F3B33"/>
+      <path d="M142 88 C 128 100, 122 132, 120 162 L192 162 C 190 132, 184 100, 170 88 Z" fill="url(#rt)"/>
+      <path d="M146 89 L156 104 L166 89" fill="#1F3B33" stroke-width="2.2"/>
+      <path d="M156 104 V160" stroke-width="2" stroke-opacity="0.7"/>
+      <circle cx="141" cy="104" r="3.6" fill="#E8B84B" stroke="none"/>
+      <path d="M140 96 C 130 110, 134 126, 149 132"/>
+      <path d="M172 96 C 182 110, 178 126, 163 132"/>
+      <circle cx="151" cy="132" r="3.8" fill="#F3F0E4" stroke="none"/>
+      <circle cx="161" cy="132" r="3.8" fill="#F3F0E4" stroke="none"/>
+      <circle cx="156" cy="62" r="26" fill="#1F3B33"/>
+      <path d="M131 70 C 124 66, 124 56, 130 52 C 128 44, 134 38, 141 39 C 144 32, 152 30, 157 33 C 162 29, 171 31, 172 38 C 179 38, 184 45, 182 52 C 188 56, 188 66, 181 70 C 176 60, 168 54, 156 54 C 144 54, 136 60, 131 70 Z" fill="url(#rb)" stroke-width="2.4"/>
+      <path d="M138 47 C 140 44, 144 44, 145 47 M160 40 C 162 37, 166 37, 167 40 M172 50 C 174 47, 178 48, 178 51 M131 59 C 133 56, 137 56, 138 59 M147 40 C 149 37, 153 37, 154 40 M151 49 C 153 46, 157 46, 158 49 M164 49 C 166 46, 170 46, 171 49 M177 61 C 179 58, 183 58, 184 61" stroke-width="1.8" stroke-opacity="0.8"/>
+      <use href="#cara" transform="translate(156 71) scale(0.72)"/>
+    </g>
+    <!-- QUIEN PRESENTA: leve venia y palma hacia arriba -->
+    <g transform="rotate(8 56 162)">
+      <path d="M44 106 C 32 118, 28 140, 26 162 L86 162 C 84 140, 80 118, 68 106 Z" fill="#1F3B33"/>
+      <path d="M44 106 C 32 118, 28 140, 26 162 L86 162 C 84 140, 80 118, 68 106 Z" fill="url(#rt)"/>
+      <path d="M49 107 Q56 114 63 107" stroke-width="2.2"/>
+      <path d="M42 114 C 34 124, 31 138, 34 148"/>
+      <circle cx="34" cy="151" r="3.6" fill="#F3F0E4" stroke="none"/>
+      <circle cx="56" cy="84" r="22" fill="#1F3B33"/>
+      <path d="M33 84 C 31 68, 43 58, 57 58 C 71 58, 81 68, 79 84 C 74 80, 65 75, 59 69 C 55 75, 46 80, 33 84 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <use href="#cara-feliz" transform="translate(56 92) scale(0.62)"/>
+    </g>
+    <!-- brazo y mano abierta, palma hacia arriba, que presenta -->
+    <path d="M74 114 C 80 121, 86 122, 90 122"/>
+    <path d="M86 115 L94 116 L94 129 L86 128 Z" fill="#1F3B33"/>
+    <path d="M86 115 L94 116 L94 129 L86 128 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <path d="M94 118 L104 117 C 106 110, 110 106, 114 107 C 117 108, 115 112, 112 116 L126 116 C 132 116, 134 120, 130 122 C 120 127, 106 128, 94 127 Z" fill="#1F3B33" stroke-width="2.8"/>
+    <path d="M112 120 H127" stroke-width="1.8" stroke-opacity="0.7"/>
+    <!-- flecha dorada hacia la señora -->
+    <path d="M108 96 C 114 84, 124 78, 136 78" stroke="#E8B84B" stroke-width="3.2"/>
+    <path d="M128 71 L137 78 L129 86" stroke="#E8B84B" stroke-width="3.2"/>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(26 36) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(104 40) scale(0.65)"/>
+  </g>
+</svg>

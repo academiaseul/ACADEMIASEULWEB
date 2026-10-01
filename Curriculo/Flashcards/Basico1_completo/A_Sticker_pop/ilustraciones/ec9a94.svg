@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 요 · colchón delgado que va en el suelo · Estilo A Sticker pop · colchón fino (algodón crema, canto azul) en el piso, almohada tradicional (베개) y cobija (이불) con el borde blanco doblado -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M24 140 L196 140 L196 156 Q196 162 190 162 L30 162 Q24 162 24 156 Z"/>
+<path d="M50 74 L170 74 Q178 74 181 82 L196 134 Q198 144 188 144 L32 144 Q22 144 24 134 L39 82 Q42 74 50 74 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M24 140 L196 140 L196 156 Q196 162 190 162 L30 162 Q24 162 24 156 Z"/>
+<path d="M50 74 L170 74 Q178 74 181 82 L196 134 Q198 144 188 144 L32 144 Q22 144 24 134 L39 82 Q42 74 50 74 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M24 140 L196 140 L196 156 Q196 162 190 162 L30 162 Q24 162 24 156 Z"/>
+<path d="M50 74 L170 74 Q178 74 181 82 L196 134 Q198 144 188 144 L32 144 Q22 144 24 134 L39 82 Q42 74 50 74 Z"/>
+</g>
+<!-- canto del colchón (delgado, funda azul con ribete blanco) -->
+<path d="M24 140 L196 140 L196 156 Q196 162 190 162 L30 162 Q24 162 24 156 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M34 155 L186 155" stroke="#DCE0FA" stroke-width="3" stroke-linecap="round"/>
+<!-- cara de arriba del colchón: algodón crema -->
+<path d="M50 74 L170 74 Q178 74 181 82 L196 134 Q198 144 188 144 L32 144 Q22 144 24 134 L39 82 Q42 74 50 74 Z" fill="#FFF4D9" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M50 84 L46 98" stroke="#FFE6B8" stroke-width="4" stroke-linecap="round"/>
+<path d="M170 84 L174 98" stroke="#FFE6B8" stroke-width="4" stroke-linecap="round"/>
+<!-- almohada tradicional (베개) con tapas doradas -->
+<rect x="70" y="78" width="80" height="26" rx="13" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<path d="M92 85 L128 85" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="76" cy="91" rx="5.5" ry="12" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<ellipse cx="144" cy="91" rx="5.5" ry="12" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<circle cx="76" cy="91" r="2.2" fill="#B9861E"/>
+<circle cx="144" cy="91" r="2.2" fill="#B9861E"/>
+<!-- cobija (이불) con el borde blanco doblado -->
+<path d="M31 110 L189 110 L198 145 Q199 152 193 152 L27 152 Q21 152 22 145 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M31 110 L189 110 L191.1 118 L28.9 118 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="46" cy="142" r="3.5" fill="#6FCFAE"/>
+<circle cx="60" cy="129" r="3" fill="#6FCFAE"/>
+<circle cx="174" cy="142" r="3.5" fill="#6FCFAE"/>
+<circle cx="160" cy="129" r="3" fill="#6FCFAE"/>
+<!-- cara de la casa en (110,130), s = 0,72 -->
+<ellipse cx="99.92" cy="130" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="120.08" cy="130" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="101.5" cy="127.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="121.66" cy="127.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="91.28" cy="140.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="128.72" cy="140.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M104.24 139.36 Q110 148 115.76 139.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M32 26 Q34.4 35.6 44 38 Q34.4 40.4 32 50 Q29.6 40.4 20 38 Q29.6 35.6 32 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 184 Q31.6 190.4 38 192 Q31.6 193.6 30 200 Q28.4 193.6 22 192 Q28.4 190.4 30 184 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="188" cy="40" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

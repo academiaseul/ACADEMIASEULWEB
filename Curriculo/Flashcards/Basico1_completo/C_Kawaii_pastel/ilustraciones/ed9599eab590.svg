@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 학교 · colegio, escuela -->
+  <use href="#kw-brillo" transform="translate(36 54) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(184 40) scale(8)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(200 126) scale(5)" fill="#FFFFFF"/>
+  <circle cx="24" cy="118" r="3" fill="#CFC8FF"/>
+  <circle cx="64" cy="30" r="2.5" fill="#FFFFFF"/>
+  <circle cx="26" cy="164" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="74" ry="7" fill="#F0DA9C"/>
+  <!-- torre del reloj -->
+  <rect x="86" y="42" width="48" height="52" fill="#C9DBFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M78 48 L107 22 Q110 19 113 22 L142 48 Q145 53 139 53 L81 53 Q75 53 78 48 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="110" cy="16" r="4" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="110" cy="73" r="14" fill="#FFFFFF" stroke="#003478" stroke-width="3"/>
+  <path d="M110 73 L110 64 M110 73 L117 77" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- edificio: relleno, sombra, contorno; cornisa azul -->
+  <path d="M46 96 L174 96 L174 176 Q174 182 168 182 L52 182 Q46 182 46 176 Z" fill="#C9DBFF"/>
+  <path d="M46 170 Q56.7 164 67.3 170 T88.7 170 T110 170 T131.3 170 T152.7 170 T174 170 L174 176 Q174 182 168 182 L52 182 Q46 182 46 176 Z" fill="#B3D5F6"/>
+  <path d="M46 96 L174 96 L174 176 Q174 182 168 182 L52 182 Q46 182 46 176 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="40" y="88" width="140" height="12" rx="5" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <!-- ventanas cálidas -->
+  <rect x="54" y="108" width="24" height="22" rx="4" fill="#FFF3CC" stroke="#003478" stroke-width="2.6"/>
+  <rect x="142" y="108" width="24" height="22" rx="4" fill="#FFF3CC" stroke="#003478" stroke-width="2.6"/>
+  <rect x="54" y="144" width="24" height="22" rx="4" fill="#FFF3CC" stroke="#003478" stroke-width="2.6"/>
+  <path d="M66 108 L66 130 M154 108 L154 130 M66 144 L66 166" fill="none" stroke="#003478" stroke-width="2"/>
+  <!-- puerta doble -->
+  <path d="M96 182 L96 148 Q96 140 104 140 L116 140 Q124 140 124 148 L124 182 Z" fill="#E7B46E" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M110 140 L110 182" fill="none" stroke="#003478" stroke-width="2.2"/>
+  <!-- cara en la fachada -->
+  <use href="#kw-cara" transform="translate(110 118) scale(0.8)"/>
+  <!-- niño con mochila en la entrada, saludando -->
+  <rect x="140" y="152" width="28" height="22" rx="7" fill="#7FD0B0" stroke="#003478" stroke-width="2.4"/>
+  <rect x="147" y="174" width="6" height="9" rx="2" fill="#3B4566" stroke="#003478" stroke-width="2"/>
+  <rect x="156" y="174" width="6" height="9" rx="2" fill="#3B4566" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="149.5" cy="184" rx="5.5" ry="3.2" fill="#FFFFFF" stroke="#003478" stroke-width="2.2"/>
+  <ellipse cx="159.5" cy="184" rx="5.5" ry="3.2" fill="#FFFFFF" stroke="#003478" stroke-width="2.2"/>
+  <path d="M144 175 Q143 160 150 154 L159 154 Q166 160 165 175 Q165 178 162 178 L147 178 Q144 178 144 175 Z" fill="#4236F6" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M161 159 Q171 152 171 141" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+  <path d="M161 159 Q171 152 171 141" fill="none" stroke="#4236F6" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="171" cy="138" r="4.2" fill="#F2C99A" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="154.5" cy="140" rx="15" ry="14" fill="#F2C99A" stroke="#003478" stroke-width="2.6"/>
+  <path d="M140 142 Q138 124 154.5 124 Q171 124 169 142 Q166 134 160 132 Q155 136 149 133 Q144 135 140 142 Z" fill="#3B4566" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <ellipse cx="145.5" cy="148" rx="3.2" ry="2.2" fill="#FFCBA0"/>
+  <ellipse cx="163.5" cy="148" rx="3.2" ry="2.2" fill="#FFCBA0"/>
+  <use href="#kw-ojo" transform="translate(149.5 143) scale(0.42)"/>
+  <use href="#kw-ojo" transform="translate(159.5 143) scale(0.42)"/>
+  <path d="M152.5 148 Q154.5 151 156.5 148" fill="none" stroke="#003478" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

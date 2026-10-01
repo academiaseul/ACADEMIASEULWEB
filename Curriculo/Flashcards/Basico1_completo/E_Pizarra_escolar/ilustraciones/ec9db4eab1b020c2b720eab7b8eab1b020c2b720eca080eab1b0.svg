@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="이거 · 그거 · 저거" data-es="esto · eso · aquello">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 166 C 70 172, 150 172, 208 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- 저거: reloj de pared, lejos de las dos personas -->
+    <circle cx="190" cy="26" r="15" fill="#1F3B33"/>
+    <circle cx="190" cy="26" r="15" fill="url(#rt)"/>
+    <circle cx="190" cy="26" r="10" fill="#1F3B33" stroke-width="2.2"/>
+    <path d="M190 26 V20 M190 26 L194.5 28.5" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- quien habla (izquierda) -->
+    <path d="M32 92 C 20 106, 16 138, 14 162 L 78 162 C 76 138, 72 106, 60 92 Z" fill="#1F3B33"/>
+    <path d="M32 92 C 20 106, 16 138, 14 162 L 78 162 C 76 138, 72 106, 60 92 Z" fill="url(#rt)"/>
+    <path d="M36 93 Q46 100 56 93" stroke-width="2.2"/>
+    <path d="M26 106 C 18 120, 16 134, 18 146"/>
+    <circle cx="18.5" cy="149" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M64 104 C 68 112, 70 118, 72 121"/>
+    <!-- 이거: el pan en la mano de quien habla -->
+    <path d="M75 124 L76 114 C 69 112, 69 102, 77 100 C 83 97, 95 97, 101 100 C 109 102, 109 112, 102 114 L103 124 Z" fill="#1F3B33"/>
+    <path d="M75 124 L76 114 C 69 112, 69 102, 77 100 C 83 97, 95 97, 101 100 C 109 102, 109 112, 102 114 L103 124 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M77 114 C 85 116, 93 116, 101 114" stroke="#E8B84B" stroke-width="2"/>
+    <circle cx="73" cy="122" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <circle cx="46" cy="70" r="23" fill="#1F3B33"/>
+    <path d="M23 68 C 22 52, 34 45, 46 45 C 59 45, 70 52, 69 68 C 66 62, 60 58, 52 58 L 48 53 L 43 58 C 34 58, 27 62, 23 68 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(46 78) scale(0.64)"/>
+    <!-- quien escucha (derecha) -->
+    <path d="M139 76 C 135 100, 139 110, 146 114 L 182 114 C 189 110, 193 100, 189 76 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M150 100 C 138 114, 134 140, 132 162 L 196 162 C 194 140, 190 114, 178 100 Z" fill="#1F3B33"/>
+    <path d="M150 100 C 138 114, 134 140, 132 162 L 196 162 C 194 140, 190 114, 178 100 Z" fill="url(#rt)"/>
+    <path d="M154 101 Q164 108 174 101" stroke-width="2.2"/>
+    <path d="M184 112 C 192 124, 194 138, 192 148"/>
+    <circle cx="192" cy="151" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- 그거: el vaso de leche en la mano de quien escucha -->
+    <path d="M121.2 120 L 123 138 C 123 142, 137 142, 137 138 L 138.8 120 Z" fill="url(#rb)" stroke="none"/>
+    <path d="M121.2 120 C 126 118, 134 122, 138.8 120" stroke-width="2.2"/>
+    <path d="M120 108 L 123 138 C 123 142, 137 142, 137 138 L 140 108"/>
+    <ellipse cx="130" cy="108" rx="10" ry="3"/>
+    <path d="M150 112 C 146 120, 144 126, 141 130"/>
+    <circle cx="140" cy="132" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <circle cx="164" cy="78" r="23" fill="#1F3B33"/>
+    <path d="M141 78 C 142 62, 153 55, 164 55 C 176 55, 187 62, 187 78 C 178 74, 170 68, 166 61 C 160 69, 151 74, 141 78 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(164 86) scale(0.64)"/>
+    <!-- flechas que salen de quien habla: corta (이거), media (그거), larga (저거) -->
+    <path d="M71 80 C 77 82, 82 86, 85 91 M84.9 85 L85 91 L79.8 88.1" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M73 72 C 94 66, 114 78, 124 98 M124.4 91 L124 98 L118.2 94.1" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M68 58 C 92 22, 140 14, 168 22 M163.1 17 L168 22 L161.2 23.7" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#estrella" transform="translate(22 28) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(106 152) scale(0.6)"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 나라 · país (globo con banderines de colores de la paleta, no banderas reales) -->
+  <use href="#kw-brillo" transform="translate(30 62) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(198 84) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(196 150) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="124" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="18" r="2.5" fill="#CFC8FF"/>
+  <circle cx="40" cy="162" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="58" ry="7" fill="#D2CBFA"/>
+  <!-- soporte: arco dorado, columna y base azul -->
+  <path d="M50 112 A64 64 0 0 0 170 112" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round"/>
+  <path d="M50 112 A64 64 0 0 0 170 112" fill="none" stroke="#E8B84B" stroke-width="4" stroke-linecap="round"/>
+  <rect x="104" y="152" width="12" height="20" rx="3" fill="#E8B84B" stroke="#003478" stroke-width="2.6"/>
+  <rect x="76" y="168" width="68" height="16" rx="8" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <!-- globo: mar, sombra ondulada, continentes, contorno -->
+  <circle cx="110" cy="90" r="56" fill="#8CCBF6"/>
+  <path d="M64 122 Q75.5 116 87 122 T110 122 T133 122 T156 122 A56 56 0 0 1 64 122 Z" fill="#6FB8EE"/>
+  <path d="M70 62 Q74 50 88 52 Q102 50 100 62 Q98 72 88 74 Q84 84 74 80 Q66 72 70 62 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M136 60 Q148 56 154 68 Q160 82 152 90 Q146 98 138 92 Q132 80 136 60 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M74 112 Q84 108 92 116 Q96 126 86 130 Q76 128 74 112 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="110" cy="90" r="56" fill="none" stroke="#003478" stroke-width="3"/>
+  <ellipse cx="64" cy="92" rx="8" ry="4" fill="#FFFFFF" transform="rotate(-70 64 92)"/>
+  <!-- banderines clavados (azul, dorado, menta) -->
+  <path d="M74 48 L64 22 M118 35 L121 12 M150 51 L162 28" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+  <path d="M64 22 L88 29 L68.6 34 Z" fill="#4236F6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M121 12 L143 18.5 L119.6 23 Z" fill="#E8B84B" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M162 28 L184 35 L156.3 39 Z" fill="#7FD0B0" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="74" cy="48" r="3.5" fill="#FFFFFF" stroke="#003478" stroke-width="2"/>
+  <circle cx="118" cy="35" r="3.5" fill="#FFFFFF" stroke="#003478" stroke-width="2"/>
+  <circle cx="150" cy="51" r="3.5" fill="#FFFFFF" stroke="#003478" stroke-width="2"/>
+  <use href="#kw-cara" transform="translate(110 100)"/>
+</svg>

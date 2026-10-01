@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="김치" data-es="kimchi">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 166 C 80 172, 150 172, 206 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <g transform="translate(-8 0)">
+      <!-- platito -->
+      <ellipse cx="104" cy="148" rx="66" ry="12" fill="#1F3B33"/>
+      <ellipse cx="104" cy="148" rx="66" ry="12" fill="url(#rt)"/>
+      <ellipse cx="104" cy="146" rx="50" ry="7" stroke-width="1.8" stroke-opacity="0.6"/>
+      <!-- trozos de repollo: penca blanca, contorno dorado (aliño), punta de hoja en menta, pizcas doradas de ají -->
+      <path d="M48 146 C 42 136, 40 124, 44 114 a6 6 0 0 1 7 -7 a6 6 0 0 1 10 -3 a6 6 0 0 1 10 2 C 78 116, 84 130, 86 146 Z" fill="#1F3B33"/>
+      <path d="M48 146 C 42 136, 40 124, 44 114 a6 6 0 0 1 7 -7 a6 6 0 0 1 10 -3 a6 6 0 0 1 10 2 C 78 116, 84 130, 86 146 Z" fill="url(#rt)" stroke="#E8B84B" stroke-width="2.8"/>
+      <path d="M44 114 a6 6 0 0 1 7 -7 a6 6 0 0 1 10 -3 a6 6 0 0 1 10 2 C 66 115, 52 119, 44 114 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.4"/>
+      <path d="M53 143 C 49 134, 48 127, 50 120" stroke-width="2.2" stroke-opacity="0.85"/>
+      <path d="M160 146 C 166 136, 168 124, 164 114 a6 6 0 0 0 -7 -7 a6 6 0 0 0 -10 -3 a6 6 0 0 0 -10 2 C 130 116, 124 130, 122 146 Z" fill="#1F3B33"/>
+      <path d="M160 146 C 166 136, 168 124, 164 114 a6 6 0 0 0 -7 -7 a6 6 0 0 0 -10 -3 a6 6 0 0 0 -10 2 C 130 116, 124 130, 122 146 Z" fill="url(#rt)" stroke="#E8B84B" stroke-width="2.8"/>
+      <path d="M164 114 a6 6 0 0 0 -7 -7 a6 6 0 0 0 -10 -3 a6 6 0 0 0 -10 2 C 142 115, 156 119, 164 114 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.4"/>
+      <path d="M155 143 C 159 134, 160 127, 158 120" stroke-width="2.2" stroke-opacity="0.85"/>
+      <path d="M72 148 C 66 132, 66 112, 74 100 a7.2 7.2 0 0 1 10 -9 a7.2 7.2 0 0 1 13 -5 a7.2 7.2 0 0 1 14 0 a7.2 7.2 0 0 1 13 5 a7.2 7.2 0 0 1 10 9 C 142 112, 142 132, 136 148 Z" fill="#1F3B33"/>
+      <path d="M72 148 C 66 132, 66 112, 74 100 a7.2 7.2 0 0 1 10 -9 a7.2 7.2 0 0 1 13 -5 a7.2 7.2 0 0 1 14 0 a7.2 7.2 0 0 1 13 5 a7.2 7.2 0 0 1 10 9 C 142 112, 142 132, 136 148 Z" fill="url(#rt)" stroke="#E8B84B" stroke-width="3"/>
+      <path d="M74 100 a7.2 7.2 0 0 1 10 -9 a7.2 7.2 0 0 1 13 -5 a7.2 7.2 0 0 1 14 0 a7.2 7.2 0 0 1 13 5 a7.2 7.2 0 0 1 10 9 C 124 113, 84 113, 74 100 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.4"/>
+      <path d="M78 144 C 75 132, 75 118, 79 108 M130 144 C 133 132, 133 118, 129 108" stroke-width="2.2" stroke-opacity="0.85"/>
+      <g fill="#E8B84B" stroke="none">
+        <circle cx="90" cy="113" r="2"/><circle cx="118" cy="113" r="2"/><circle cx="104" cy="111" r="1.8"/>
+        <circle cx="84" cy="142" r="1.8"/><circle cx="125" cy="142" r="1.8"/>
+        <circle cx="62" cy="124" r="2"/><circle cx="58" cy="136" r="1.8"/>
+        <circle cx="146" cy="124" r="2"/><circle cx="150" cy="136" r="1.8"/>
+      </g>
+      <use href="#cara" transform="translate(104 125) scale(0.85)"/>
+    </g>
+    <!-- ají (고추) dorado con cáliz y tallo en menta -->
+    <path d="M186 98 C 200 108, 202 134, 188 152 C 184 157, 176 161, 170 159 C 178 150, 184 138, 182 122 C 181 112, 180 104, 186 98 Z" fill="#1F3B33"/>
+    <path d="M186 98 C 200 108, 202 134, 188 152 C 184 157, 176 161, 170 159 C 178 150, 184 138, 182 122 C 181 112, 180 104, 186 98 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.8"/>
+    <path d="M192 116 C 194 126, 193 136, 189 144" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M180 101 C 182 94, 194 91, 198 99 C 192 104, 185 105, 180 101 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.4"/>
+    <path d="M189 95 C 189 88, 193 83, 199 81" stroke="#9ED9B0" stroke-width="2.8"/>
+    <use href="#estrella" transform="translate(34 44) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(150 44) scale(0.65)"/>
+    <use href="#estrella-b" transform="translate(22 108) scale(0.6)"/>
+  </g>
+</svg>

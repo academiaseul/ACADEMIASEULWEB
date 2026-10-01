@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 쓰다 · escribir · Estilo A Sticker pop · mano con lápiz escribiendo en un cuaderno de espiral abierto -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M16 96 L96 90 L176 96 L172 186 L96 182 L20 186 Z"/>
+<path d="M166 114 L182 132" fill="none" stroke="#14142B" stroke-width="50"/>
+<ellipse cx="156" cy="104" rx="18" ry="15"/>
+<path d="M185.09 55.71 L149.29 124.21 L132 140 L135.11 116.79 L170.91 48.29 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M16 96 L96 90 L176 96 L172 186 L96 182 L20 186 Z"/>
+<path d="M166 114 L182 132" fill="none" stroke-width="50"/>
+<ellipse cx="156" cy="104" rx="18" ry="15"/>
+<path d="M185.09 55.71 L149.29 124.21 L132 140 L135.11 116.79 L170.91 48.29 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M16 96 L96 90 L176 96 L172 186 L96 182 L20 186 Z"/>
+<path d="M166 114 L182 132" fill="none" stroke-width="43"/>
+<ellipse cx="156" cy="104" rx="18" ry="15"/>
+<path d="M185.09 55.71 L149.29 124.21 L132 140 L135.11 116.79 L170.91 48.29 Z"/>
+</g>
+<!-- cuaderno: tapa lila y dos páginas rayadas -->
+<path d="M16 96 L96 90 L176 96 L172 186 L96 182 L20 186 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M24 100 L92 95 L92 176 L27 180 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M100 95 L168 100 L165 180 L100 176 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M33 110 L84 107" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<path d="M33 121 L84 118" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<path d="M35 167 L84 165" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<path d="M108 154 L158 157" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<path d="M108 166 L157 169" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<!-- lo escrito: ondas azules; la tercera línea termina en la punta del lápiz -->
+<path d="M108 112 Q112 106 116 112 Q120 118 124 112 Q128 106 132 112 Q136 118 140 112 Q144 106 148 112" stroke="#4236F6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108 126 Q112 120 116 126 Q120 132 124 126 Q128 120 132 126 Q136 132 140 126" stroke="#4236F6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108 140 Q112 134 116 140 Q120 146 124 140 Q128 134 132 140" stroke="#4236F6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- espiral -->
+<rect x="89" y="102" width="14" height="6" rx="3" fill="#E3E6F2" stroke="#14142B" stroke-width="2.5"/>
+<rect x="89" y="115" width="14" height="6" rx="3" fill="#E3E6F2" stroke="#14142B" stroke-width="2.5"/>
+<rect x="89" y="128" width="14" height="6" rx="3" fill="#E3E6F2" stroke="#14142B" stroke-width="2.5"/>
+<rect x="89" y="141" width="14" height="6" rx="3" fill="#E3E6F2" stroke="#14142B" stroke-width="2.5"/>
+<rect x="89" y="154" width="14" height="6" rx="3" fill="#E3E6F2" stroke="#14142B" stroke-width="2.5"/>
+<rect x="89" y="167" width="14" height="6" rx="3" fill="#E3E6F2" stroke="#14142B" stroke-width="2.5"/>
+<!-- cara en la página izquierda -->
+<ellipse cx="46.8" cy="136" rx="5.2" ry="6.8" fill="#14142B"/>
+<ellipse cx="69.2" cy="136" rx="5.2" ry="6.8" fill="#14142B"/>
+<circle cx="48.56" cy="133.28" r="1.92" fill="#FFFFFF"/>
+<circle cx="70.96" cy="133.28" r="1.92" fill="#FFFFFF"/>
+<ellipse cx="37.2" cy="147.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<ellipse cx="78.8" cy="147.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<path d="M51.6 146.4 Q58 156 64.4 146.4 Z" fill="#14142B" stroke="#14142B" stroke-width="2.4" stroke-linejoin="round"/>
+<!-- manga azul (brazo que viene de abajo a la derecha) y mano -->
+<path d="M166 114 L182 132" stroke="#14142B" stroke-width="30" stroke-linecap="round"/>
+<path d="M166 114 L182 132" stroke="#4236F6" stroke-width="22" stroke-linecap="round"/>
+<path d="M158 122 L174 106" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="156" cy="104" rx="18" ry="15" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- lápiz dorado -->
+<path d="M185.09 55.71 L149.29 124.21 L132 140 L135.11 116.79 L170.91 48.29 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M149.29 124.21 L132 140 L135.11 116.79 Z" fill="#FFE6B8" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M136.71 135.69 L132 140 L132.85 133.67 Z" fill="#14142B" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M185.09 55.71 L179.99 65.46 L165.81 58.04 L170.91 48.29 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M179.99 65.46 L176.29 72.55 L162.11 65.13 L165.81 58.04 Z" fill="#B3B8D6" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M169.5 78 L162 92.5" stroke="#B9861E" stroke-width="3" stroke-linecap="round"/>
+<!-- pulgar sobre el lápiz -->
+<ellipse cx="146" cy="107" rx="8" ry="7" fill="#FFE0C4" stroke="#14142B" stroke-width="3.5"/>
+<!-- adornos -->
+<path d="M28 28 Q30.4 37.6 40 40 Q30.4 42.4 28 52 Q25.6 42.4 16 40 Q25.6 37.6 28 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M128 31 Q129.8 38.2 137 40 Q129.8 41.8 128 49 Q126.2 41.8 119 40 Q126.2 38.2 128 31 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="82" cy="58" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

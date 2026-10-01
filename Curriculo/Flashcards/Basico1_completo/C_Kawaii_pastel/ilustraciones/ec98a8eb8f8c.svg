@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 온돌 · calefacción bajo el piso — persona sentada descalza en el 장판 tibio; abajo, en corte, el conducto de calor bajo el piso (escena a sangre) -->
+  <use href="#kw-brillo" transform="translate(32 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 36) scale(7.5)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(204 88) scale(5.5)" fill="#FFFFFF"/>
+  <circle cx="22" cy="92" r="3" fill="#FFFFFF"/>
+  <circle cx="148" cy="28" r="2.5" fill="#E8B84B"/>
+  <circle cx="208" cy="128" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="80" ry="7" fill="#D2CBFA"/>
+  <!-- ondas de calor que suben del piso -->
+  <path d="M38 140 Q32 130 38 120 Q44 110 38 100 M54 138 Q48 130 54 122 Q60 114 54 106 M166 138 Q172 130 166 122 Q160 114 166 106 M182 140 Q188 130 182 120 Q176 110 182 100" fill="none" stroke="#E8B84B" stroke-width="5" stroke-linecap="round"/>
+  <!-- piso de 장판 (a sangre) con baldosas -->
+  <path d="M-12 146 L232 146 L232 166 L-12 166 Z" fill="#E9C48E"/>
+  <path d="M30 147 L24 165 M70 147 L67 165 M110 147 L110 165 M150 147 L153 165 M190 147 L196 165 M-12 156 L232 156" fill="none" stroke="#D9A462" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- corte bajo el piso: piedra y el conducto por donde corre el calor -->
+  <path d="M-12 166 L232 166 L232 206 L-12 206 Z" fill="#C99A5E"/>
+  <rect x="14" y="174" width="192" height="18" rx="9" fill="#FFF3CC" stroke="#003478" stroke-width="2.4"/>
+  <path d="M24 183 Q30 178 36 183 T48 183 T60 183 T72 183 T84 183 T96 183 T108 183 T120 183 T132 183 T144 183 T156 183 T168 183 T180 183 T192 183" fill="none" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M-12 146 L232 146 M-12 166 L232 166" fill="none" stroke="#003478" stroke-width="3"/>
+  <!-- torso y brazos (personaje base al 72 %), ropa de casa menta -->
+  <g transform="matrix(0.72 0 0 0.72 30.8 17)">
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#7FD0B0" stroke="#003478" stroke-width="4.2" stroke-linejoin="round"/>
+    <path d="M100 124 Q110 135 120 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3.3" stroke-linejoin="round"/>
+    <path d="M84 132 Q62 148 66 170 M136 132 Q158 148 154 170" fill="none" stroke="#003478" stroke-width="18" stroke-linecap="round"/>
+    <path d="M84 132 Q62 148 66 170 M136 132 Q158 148 154 170" fill="none" stroke="#7FD0B0" stroke-width="9.7" stroke-linecap="round"/>
+  </g>
+  <!-- piernas cruzadas (양반다리): muslos, dos canillas que se cruzan y los pies descalzos -->
+  <path d="M66 152 Q64 138 86 136 L134 136 Q156 138 154 152 Q154 160 144 160 L76 160 Q66 160 66 152 Z" fill="#8FB6FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M76 151 L128 158" fill="none" stroke="#003478" stroke-width="14" stroke-linecap="round"/>
+  <path d="M76 151 L128 158" fill="none" stroke="#8FB6FF" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="137" cy="163" rx="8.5" ry="5.5" transform="rotate(12 137 163)" fill="#C98F5E" stroke="#003478" stroke-width="2.4"/>
+  <path d="M144 151 L92 158" fill="none" stroke="#003478" stroke-width="14" stroke-linecap="round"/>
+  <path d="M144 151 L92 158" fill="none" stroke="#8FB6FF" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="83" cy="163" rx="8.5" ry="5.5" transform="rotate(-12 83 163)" fill="#C98F5E" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="78" cy="140" r="6" fill="#C98F5E" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="142" cy="140" r="6" fill="#C98F5E" stroke="#003478" stroke-width="2.4"/>
+  <!-- cabeza: piel morena, mejillas doradas, cara feliz de "qué rico este calorcito" -->
+  <g transform="matrix(0.72 0 0 0.72 30.8 17)">
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#C98F5E" stroke="#003478" stroke-width="4.2"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="4.2" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="4.9" stroke-linecap="round"/>
+    <use href="#kw-cara-feliz" transform="translate(110 98)"/>
+    <ellipse cx="83" cy="109" rx="8.4" ry="5.4" fill="#F3D27A"/>
+    <ellipse cx="137" cy="109" rx="8.4" ry="5.4" fill="#F3D27A"/>
+  </g>
+</svg>

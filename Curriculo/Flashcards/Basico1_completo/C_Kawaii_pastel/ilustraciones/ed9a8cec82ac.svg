@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 회사 · empresa, oficina -->
+  <use href="#kw-brillo" transform="translate(34 58) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(180 44) scale(8)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(198 104) scale(6)" fill="#FFFFFF"/>
+  <circle cx="26" cy="120" r="3" fill="#CFC8FF"/>
+  <circle cx="160" cy="80" r="2.5" fill="#FFFFFF"/>
+  <circle cx="32" cy="166" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="116" cy="188" rx="72" ry="7" fill="#F0DA9C"/>
+  <!-- antena -->
+  <path d="M100 28 L100 14" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="100" cy="12" r="4" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <!-- edificio alto: relleno, franja de sombra a la derecha, contorno -->
+  <path d="M60 32 L140 32 L140 176 Q140 182 134 182 L66 182 Q60 182 60 176 Z" fill="#E0DAFF"/>
+  <path d="M128 32 L140 32 L140 176 Q140 182 134 182 L128 182 Z" fill="#C9C1FF"/>
+  <path d="M60 32 L140 32 L140 176 Q140 182 134 182 L66 182 Q60 182 60 176 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="55" y="25" width="90" height="11" rx="4" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <!-- muchas ventanas celestes -->
+  <path d="M68 46 h16 v14 h-16 Z M92 46 h16 v14 h-16 Z M116 46 h16 v14 h-16 Z M68 68 h16 v14 h-16 Z M92 68 h16 v14 h-16 Z M116 68 h16 v14 h-16 Z M68 90 h16 v14 h-16 Z M92 90 h16 v14 h-16 Z M116 90 h16 v14 h-16 Z M68 112 h16 v14 h-16 Z M92 112 h16 v14 h-16 Z M116 112 h16 v14 h-16 Z" fill="#8CCBF6" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M71 55 L75 50 M95 55 L99 50 M119 55 L123 50 M71 77 L75 72 M95 77 L99 72 M119 77 L123 72 M71 99 L75 94 M95 99 L99 94 M119 99 L123 94 M71 121 L75 116 M95 121 L99 116 M119 121 L123 116" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- puerta de vidrio -->
+  <path d="M88 182 L88 166 Q88 160 94 160 L106 160 Q112 160 112 166 L112 182 Z" fill="#B5DDFB" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M100 160 L100 182" fill="none" stroke="#003478" stroke-width="2"/>
+  <!-- cara en la fachada -->
+  <use href="#kw-cara" transform="translate(100 140) scale(0.78)"/>
+  <!-- oficinista con maletín, llegando -->
+  <rect x="155" y="172" width="6" height="11" rx="2" fill="#3B4566" stroke="#003478" stroke-width="2"/>
+  <rect x="164" y="172" width="6" height="11" rx="2" fill="#3B4566" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="157" cy="184" rx="6" ry="3.2" fill="#8C6448" stroke="#003478" stroke-width="2.2"/>
+  <ellipse cx="168" cy="184" rx="6" ry="3.2" fill="#8C6448" stroke="#003478" stroke-width="2.2"/>
+  <path d="M151 175 Q150 157 158 151 L167 151 Q175 157 174 175 Q174 178 171 178 L154 178 Q151 178 151 175 Z" fill="#6E7591" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M158 151 L162.5 159 L167 151 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M161.5 153 L163.5 153 L165 163 L162.5 166 L160 163 Z" fill="#4236F6" stroke="#003478" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M171 157 Q178 164 176 171" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+  <path d="M171 157 Q178 164 176 171" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="176" cy="172" r="3.8" fill="#F2C99A" stroke="#003478" stroke-width="2"/>
+  <rect x="132" y="171" width="22" height="15" rx="3" fill="#C99A5E" stroke="#003478" stroke-width="2.4"/>
+  <path d="M139 171 Q139 166 143 166 Q147 166 147 171" fill="none" stroke="#003478" stroke-width="2.2"/>
+  <rect x="140.5" y="176" width="5" height="4" rx="1" fill="#E8B84B" stroke="#003478" stroke-width="1.5"/>
+  <path d="M154 157 Q146 162 144 167" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+  <path d="M154 157 Q146 162 144 167" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="143.5" cy="168" r="3.8" fill="#F2C99A" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="162.5" cy="137" rx="15" ry="14" fill="#F2C99A" stroke="#003478" stroke-width="2.6"/>
+  <path d="M148 139 Q146 121 162.5 121 Q179 121 177 139 Q174 129 166 127 Q159 131 151 128 Q149 132 148 139 Z" fill="#3B4566" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <ellipse cx="153.5" cy="145" rx="3.2" ry="2.2" fill="#FFCBA0"/>
+  <ellipse cx="171.5" cy="145" rx="3.2" ry="2.2" fill="#FFCBA0"/>
+  <use href="#kw-ojo" transform="translate(157.5 140) scale(0.42)"/>
+  <use href="#kw-ojo" transform="translate(167.5 140) scale(0.42)"/>
+  <path d="M160.5 145 Q162.5 148 164.5 145" fill="none" stroke="#003478" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

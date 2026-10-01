@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="사람" data-es="persona">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- brazos (van detrás del tronco) -->
+    <path d="M90 80 C 80 92, 76 106, 76 120"/>
+    <circle cx="76" cy="124" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M130 80 C 140 92, 144 106, 144 120"/>
+    <circle cx="144" cy="124" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- piernas y zapatos -->
+    <path d="M95 116 L 94 156 H 106 L 108 126 H 112 L 114 156 H 126 L 125 116 Z" fill="#1F3B33"/>
+    <path d="M95 116 L 94 156 H 106 L 108 126 H 112 L 114 156 H 126 L 125 116 Z" fill="url(#rt)"/>
+    <path d="M90 162 C 90 155, 106 155, 107 162 Z" fill="#1F3B33"/>
+    <path d="M113 162 C 114 155, 130 155, 130 162 Z" fill="#1F3B33"/>
+    <!-- tronco -->
+    <path d="M94 72 C 88 72, 86 76, 86 82 L 90 120 L 130 120 L 134 82 C 134 76, 132 72, 126 72 Z" fill="#1F3B33"/>
+    <path d="M94 72 C 88 72, 86 76, 86 82 L 90 120 L 130 120 L 134 82 C 134 76, 132 72, 126 72 Z" fill="url(#rt)"/>
+    <path d="M102 72 Q110 79 118 72" stroke-width="2.2"/>
+    <!-- cabeza -->
+    <circle cx="110" cy="46" r="22" fill="#1F3B33"/>
+    <path d="M88 46 C 87 32, 97 24, 110 24 C 123 24, 133 32, 132 46 C 126 41, 118 38, 112 37 C 106 39, 96 41, 88 46 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(110 53) scale(0.62)"/>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(46 40) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(174 44) scale(0.7)"/>
+    <use href="#estrella" transform="translate(178 128) scale(0.65)"/>
+    <use href="#estrella-b" transform="translate(42 128) scale(0.6)"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="오다" data-es="venir (와요)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 166 C 80 172, 150 172, 206 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- puerta abierta detrás, a la derecha: de ahí viene -->
+    <rect x="140" y="40" width="44" height="120" fill="url(#ra)" stroke="none"/>
+    <path d="M184 40 L200 32 V168 L184 160 Z" fill="#1F3B33"/>
+    <path d="M184 40 L200 32 V168 L184 160 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <circle cx="195" cy="100" r="2.6" fill="#E8B84B" stroke="none"/>
+    <rect x="140" y="40" width="44" height="120"/>
+    <!-- flecha dorada: sale de la puerta y viene hacia acá -->
+    <path d="M160 58 C 150 18, 80 10, 50 34" stroke="#E8B84B" stroke-width="4.2"/>
+    <path d="M62 33.3 L50 34 L53.4 22.5" stroke="#E8B84B" stroke-width="4.2"/>
+    <!-- pelo largo de atrás -->
+    <path d="M58 66 C 54 90, 58 100, 66 104 L106 104 C 114 100, 118 90, 114 66 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- cuerpo de frente, un pie más adelante (camina hacia quien mira) -->
+    <ellipse cx="72" cy="158" rx="10" ry="5.5" fill="#1F3B33"/>
+    <ellipse cx="101" cy="162" rx="11.5" ry="6.2" fill="#1F3B33"/>
+    <path d="M70 102 C 56 116, 52 134, 52 152 L120 152 C 120 134, 116 116, 102 102 Z" fill="#1F3B33"/>
+    <path d="M70 102 C 56 116, 52 134, 52 152 L120 152 C 120 134, 116 116, 102 102 Z" fill="url(#rt)"/>
+    <path d="M78 103 Q86 110 94 103" stroke-width="2.2"/>
+    <!-- brazo que saluda y brazo abajo -->
+    <path d="M68 112 C 56 104, 48 92, 44 80"/>
+    <circle cx="43" cy="76" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M33 64 Q27 74 33 84 M25 60 Q17 74 25 88" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M104 112 C 114 122, 118 134, 116 144"/>
+    <circle cx="116" cy="147" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza y flequillo -->
+    <circle cx="86" cy="70" r="30" fill="#1F3B33"/>
+    <path d="M56 66 C 58 48, 72 40, 86 40 C 100 40, 114 48, 116 66 C 104 62, 94 56, 88 48 C 80 56, 68 62, 56 66 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(86 78) scale(0.82)"/>
+    <use href="#estrella" transform="translate(26 132) scale(0.7)"/>
+    <use href="#estrella-b" transform="translate(128 96) scale(0.55)"/>
+  </g>
+</svg>

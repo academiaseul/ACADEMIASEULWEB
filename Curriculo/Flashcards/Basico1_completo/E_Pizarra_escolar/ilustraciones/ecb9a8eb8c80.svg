@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="침대" data-es="cama">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 166 C 84 172, 150 172, 196 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cabecera con cara -->
+    <path d="M60 106 V52 C 60 40, 70 34, 82 34 H138 C 150 34, 160 40, 160 52 V106 Z" fill="#1F3B33"/>
+    <path d="M60 106 V52 C 60 40, 70 34, 82 34 H138 C 150 34, 160 40, 160 52 V106 Z" fill="url(#rt)"/>
+    <use href="#cara" transform="translate(110 58) scale(0.8)"/>
+    <!-- postes con perillas doradas -->
+    <path d="M54 46 H62 V112 H54 Z M158 46 H166 V112 H158 Z" fill="#1F3B33"/>
+    <circle cx="58" cy="42" r="4.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <circle cx="162" cy="42" r="4.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <!-- colchón en perspectiva -->
+    <path d="M62 104 H158 L180 130 H40 Z" fill="#1F3B33"/>
+    <path d="M62 104 H158 L180 130 H40 Z" fill="url(#rt)"/>
+    <!-- almohada -->
+    <path d="M84 96 C 84 92, 88 90, 92 90 H128 C 132 90, 136 92, 136 96 V106 C 136 110, 132 112, 128 112 H92 C 88 112, 84 110, 84 106 Z" fill="#1F3B33"/>
+    <path d="M84 96 C 84 92, 88 90, 92 90 H128 C 132 90, 136 92, 136 96 V106 C 136 110, 132 112, 128 112 H92 C 88 112, 84 110, 84 106 Z" fill="url(#rb)"/>
+    <!-- patas -->
+    <path d="M44 148 V162 M176 148 V162" stroke-width="4"/>
+    <!-- frazada a rayas que cae por delante -->
+    <path d="M52 115 C 80 111, 140 111, 168 115 L180 130 V150 C 150 154, 70 154, 40 150 V130 Z" fill="#1F3B33"/>
+    <path d="M52 115 C 80 111, 140 111, 168 115 L180 130 V150 C 150 154, 70 154, 40 150 V130 Z" fill="url(#rt)"/>
+    <path d="M40 130 H180" stroke-width="2.6"/>
+    <path d="M49 120 C 80 117, 140 117, 171 120" stroke="#E8B84B" stroke-width="3.4"/>
+    <path d="M40 138 H180 M40 145 C 70 148, 150 148, 180 145" stroke="#E8B84B" stroke-width="3.4"/>
+    <use href="#estrella" transform="translate(30 42) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(192 52) scale(0.65)"/>
+    <use href="#estrella" transform="translate(198 132) scale(0.6)"/>
+  </g>
+</svg>

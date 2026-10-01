@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 칠레 · Chile (cordillera de los Andes nevada; nunca bandera) -->
+  <use href="#kw-brillo" transform="translate(32 42) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 40) scale(8)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(110 22) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="86" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="78" r="2.5" fill="#FFFFFF"/>
+  <circle cx="150" cy="40" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="90" ry="7" fill="#D2CBFA"/>
+  <!-- cerros de atrás con nieve -->
+  <path d="M20 184 L54 108 Q62 92 70 108 L104 184 Z" fill="#C9DBFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M47 124 L54 108 Q62 92 70 108 L77 124 Q72 130 67 125 Q62 131 57 125 Q52 130 47 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M116 184 L150 106 Q158 88 166 106 L200 184 Z" fill="#C9DBFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M143 122 L150 106 Q158 88 166 106 L173 122 Q168 128 163 123 Q158 129 153 123 Q148 128 143 122 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- cerro principal: relleno, sombra ondulada, contorno -->
+  <path d="M50 184 L96 72 Q110 48 124 72 L170 184 Z" fill="#9FD3FA"/>
+  <path d="M65 147 Q74 141 83 147 T101 147 T119 147 T137 147 T155 147 L170 184 L50 184 Z" fill="#6FB8EE"/>
+  <path d="M50 184 L96 72 Q110 48 124 72 L170 184 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M86 96 L96 72 Q110 48 124 72 L134 96 Q128 104 122 98 Q116 106 110 98 Q104 106 98 98 Q92 104 86 96 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <ellipse cx="86" cy="122" rx="7" ry="3.5" fill="#D6E3FF" transform="rotate(-60 86 122)"/>
+  <use href="#kw-cara" transform="translate(110 132) scale(0.9)"/>
+</svg>

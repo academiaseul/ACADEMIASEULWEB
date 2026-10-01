@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="여동생" data-es="hermana menor">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 165 C 80 172, 150 172, 198 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- hermano mayor (izquierda, más alto): cuerpo, cabeza, pelo corto -->
+    <path d="M60 80 C 46 92, 40 128, 38 162 L106 162 C 104 128, 100 92, 88 80 Z" fill="#1F3B33"/>
+    <path d="M60 80 C 46 92, 40 128, 38 162 L106 162 C 104 128, 100 92, 88 80 Z" fill="url(#rt)"/>
+    <path d="M66 81 L74 92 L82 81" stroke-width="2.2"/>
+    <path d="M56 92 C 46 104, 42 120, 44 134"/>
+    <circle cx="44.5" cy="137.5" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="74" cy="54" r="26" fill="#1F3B33"/>
+    <path d="M48 52 C 47 36, 59 26, 74 26 C 89 26, 101 36, 100 52 C 96 46, 90 42, 84 41 C 76 44, 64 43, 58 38 C 55 44, 52 48, 48 52 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(74 62) scale(0.72)"/>
+    <!-- hermana menor (derecha, bajita): dos colitas detrás de la cabeza -->
+    <g transform="rotate(40 116 100)"><ellipse cx="116" cy="100" rx="8.5" ry="13" fill="#1F3B33" stroke="none"/><ellipse cx="116" cy="100" rx="8.5" ry="13" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/></g>
+    <g transform="rotate(-40 176 100)"><ellipse cx="176" cy="100" rx="8.5" ry="13" fill="#1F3B33" stroke="none"/><ellipse cx="176" cy="100" rx="8.5" ry="13" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/></g>
+    <path d="M134 128 C 126 138, 118 152, 116 162 L176 162 C 174 152, 166 138, 158 128 Z" fill="#1F3B33"/>
+    <path d="M134 128 C 126 138, 118 152, 116 162 L176 162 C 174 152, 166 138, 158 128 Z" fill="url(#rt)"/>
+    <path d="M138 129 Q146 136 154 129" stroke-width="2.2"/>
+    <path d="M128 138 C 123 144, 122 150, 124 155"/>
+    <circle cx="125" cy="158" r="3.4" fill="#F3F0E4" stroke="none"/>
+    <path d="M164 138 C 169 144, 170 150, 168 155"/>
+    <circle cx="167" cy="158" r="3.4" fill="#F3F0E4" stroke="none"/>
+    <circle cx="146" cy="106" r="24" fill="#1F3B33"/>
+    <path d="M122 104 C 121 89, 132 82, 146 82 C 160 82, 171 89, 170 104 C 162 100, 154 95, 148 89 C 142 96, 132 101, 122 104 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="125.5" cy="91" r="3.2" fill="#F3F0E4" stroke="none"/>
+    <circle cx="166.5" cy="91" r="3.2" fill="#F3F0E4" stroke="none"/>
+    <use href="#cara-feliz" transform="translate(146 113) scale(0.7)"/>
+    <!-- brazo del hermano: la mano descansa sobre la cabeza de la hermanita -->
+    <path d="M92 90 C 104 80, 118 75, 130 79"/>
+    <circle cx="133.5" cy="80.5" r="4" fill="#F3F0E4" stroke="none"/>
+    <!-- flecha dorada hacia la menor -->
+    <path d="M206 44 L184 68 M185 55 L184 68 L197 66" stroke="#E8B84B" stroke-width="3.4"/>
+    <use href="#estrella" transform="translate(28 30) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(122 36) scale(0.65)"/>
+    <use href="#corazon" transform="translate(198 142) scale(0.8)"/>
+  </g>
+</svg>

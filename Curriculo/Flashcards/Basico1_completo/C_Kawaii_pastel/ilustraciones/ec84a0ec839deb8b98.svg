@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 선생님 · profesor, profesora (profesora con lentes señalando la pizarra) -->
+  <use href="#kw-brillo" transform="translate(28 36) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(92 30) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(208 122) scale(6)" fill="#FFFFFF"/>
+  <circle cx="18" cy="142" r="3" fill="#FFFFFF"/>
+  <circle cx="212" cy="160" r="2.5" fill="#CFC8FF"/>
+  <circle cx="200" cy="16" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="120" cy="189" rx="84" ry="7" fill="#D2CBFA"/>
+  <!-- caballete y pizarra verde con 가나다 -->
+  <path d="M134 96 L124 184 M190 96 L198 184" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round"/>
+  <path d="M134 96 L124 184 M190 96 L198 184" fill="none" stroke="#C99A5E" stroke-width="4" stroke-linecap="round"/>
+  <rect x="112" y="24" width="92" height="72" rx="9" fill="#C99A5E" stroke="#003478" stroke-width="3"/>
+  <rect x="120" y="32" width="76" height="56" rx="5" fill="#A6E1B4" stroke="#003478" stroke-width="2.4"/>
+  <text x="160" y="62" text-anchor="middle" font-family="Jua, sans-serif" font-size="21" fill="#003478">가나다</text>
+  <path d="M136 76 Q147 71 158 76 T180 76" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- profesora (escala 0,88; trazos compensados) -->
+  <g transform="matrix(0.88 0 0 0.88 -18 22)">
+    <path d="M58 116 Q48 46 110 38 Q172 46 162 116 Q162 124 154 124 L66 124 Q58 124 58 116 Z" fill="#3B4566" stroke="#003478" stroke-width="3.4" stroke-linejoin="round"/>
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#8C6448" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#8C6448" stroke="#003478" stroke-width="3"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#CFC8FF" stroke="#003478" stroke-width="3.4" stroke-linejoin="round"/>
+    <path d="M99 124 L110 146 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.7" stroke-linejoin="round"/>
+    <circle cx="110" cy="158" r="2.8" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+    <circle cx="110" cy="170" r="2.8" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+    <!-- brazo izquierdo abajo -->
+    <path d="M84 132 Q70 150 78 168" fill="none" stroke="#003478" stroke-width="14.8" stroke-linecap="round"/>
+    <path d="M84 132 Q70 150 78 168" fill="none" stroke="#CFC8FF" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="78" cy="170" r="6.8" fill="#F2C99A" stroke="#003478" stroke-width="2.7"/>
+    <!-- puntero hacia la pizarra y brazo derecho -->
+    <path d="M160 116 L186 55" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+    <path d="M160 116 L186 55" fill="none" stroke="#C99A5E" stroke-width="3.4" stroke-linecap="round"/>
+    <circle cx="186.5" cy="54" r="4.5" fill="#E8B84B" stroke="#003478" stroke-width="2.3"/>
+    <path d="M136 132 Q160 128 166 106" fill="none" stroke="#003478" stroke-width="14.8" stroke-linecap="round"/>
+    <path d="M136 132 Q160 128 166 106" fill="none" stroke="#CFC8FF" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="166" cy="104" r="6.8" fill="#F2C99A" stroke="#003478" stroke-width="2.7"/>
+    <!-- cabeza, flequillo, lentes -->
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#F2C99A" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#F2C99A" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#F2C99A" stroke="#003478" stroke-width="3.4"/>
+    <path d="M63 90 Q56 38 110 36 Q164 38 157 90 Q152 70 140 62 Q122 72 104 62 Q90 72 76 66 Q66 74 63 90 Z" fill="#3B4566" stroke="#003478" stroke-width="3.4" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="4" stroke-linecap="round"/>
+    <use href="#kw-brillo" transform="translate(142 52) scale(7)" fill="#E8B84B"/>
+    <use href="#kw-cara" transform="translate(110 98)"/>
+    <path d="M84.5 98 A10.5 10.5 0 1 0 105.5 98 A10.5 10.5 0 1 0 84.5 98 Z M114.5 98 A10.5 10.5 0 1 0 135.5 98 A10.5 10.5 0 1 0 114.5 98 Z M105.5 97 Q110 93 114.5 97" fill="none" stroke="#003478" stroke-width="2.7" stroke-linejoin="round"/>
+  </g>
+</svg>

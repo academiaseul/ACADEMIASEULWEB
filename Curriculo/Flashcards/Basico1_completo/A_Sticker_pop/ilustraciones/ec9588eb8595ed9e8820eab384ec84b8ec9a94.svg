@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 안녕히 계세요 · adiós (a quien se queda) · Estilo A Sticker pop · persona que ya salió y se despide con la mano de alguien que se queda adentro, sentado en su sillón -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="112" y="26" width="84" height="166" rx="10"/>
+<path d="M27 106 C23 66 44 58 64 58 C84 58 105 66 101 106 Z"/>
+<ellipse cx="64" cy="102" rx="35" ry="33"/>
+<path d="M20 196 C20 170 40 156 64 156 C88 156 108 170 108 196 Z"/>
+<path d="M98 182 L110 104" fill="none" stroke-width="44"/>
+<rect x="98" y="58" width="26" height="40" rx="12"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="112" y="26" width="84" height="166" rx="10"/>
+<path d="M27 106 C23 66 44 58 64 58 C84 58 105 66 101 106 Z"/>
+<ellipse cx="64" cy="102" rx="35" ry="33"/>
+<path d="M20 196 C20 170 40 156 64 156 C88 156 108 170 108 196 Z"/>
+<path d="M98 182 L110 104" fill="none" stroke-width="44"/>
+<rect x="98" y="58" width="26" height="40" rx="12"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="112" y="26" width="84" height="166" rx="10"/>
+<path d="M27 106 C23 66 44 58 64 58 C84 58 105 66 101 106 Z"/>
+<ellipse cx="64" cy="102" rx="35" ry="33"/>
+<path d="M20 196 C20 170 40 156 64 156 C88 156 108 170 108 196 Z"/>
+<path d="M98 182 L110 104" fill="none" stroke-width="37"/>
+<rect x="98" y="58" width="26" height="40" rx="12"/>
+</g>
+<!-- puerta: marco de madera, hueco iluminado, hoja abierta a la derecha -->
+<rect x="112" y="26" width="84" height="166" rx="10" fill="#A86B3C" stroke="#14142B" stroke-width="4"/>
+<path d="M124 192 L124 44 Q124 38 130 38 L178 38 Q184 38 184 44 L184 192 Z" fill="#FFF4D9" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M184 38 L172 50 L172 184 L184 192 Z" fill="#D9A35F" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="178" cy="120" r="3" fill="#E8B84B" stroke="#14142B" stroke-width="2.6"/>
+<!-- adentro: alguien que se queda, sentado en su sillón azul -->
+<rect x="128" y="104" width="40" height="70" rx="12" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M142 130 L142 146 L154 146 L154 130 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="3"/>
+<path d="M132 172 C132 152 139 142 148 142 C157 142 164 152 164 172 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M131 112 C129 96 138 90 148 90 C158 90 167 96 165 112 Z" fill="#14142B" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<ellipse cx="148" cy="122" rx="16" ry="15" fill="#FFE0C4" stroke="#14142B" stroke-width="3.5"/>
+<path d="M133 118 C131 102 139 96 148 96 C157 96 165 102 163 118 C160 110 154 106 148 106 C142 106 136 110 133 118 Z" fill="#14142B"/>
+<path d="M163 118 C160 110 154 106 148 106 C142 106 136 110 133 118" stroke="#14142B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="141.7" cy="125" rx="2.93" ry="3.83" fill="#14142B"/>
+<ellipse cx="154.3" cy="125" rx="2.93" ry="3.83" fill="#14142B"/>
+<circle cx="142.69" cy="123.47" r="1.08" fill="#FFFFFF"/>
+<circle cx="155.29" cy="123.47" r="1.08" fill="#FFFFFF"/>
+<ellipse cx="136.3" cy="131.3" rx="3.15" ry="2.03" fill="#FFB98A"/>
+<ellipse cx="159.7" cy="131.3" rx="3.15" ry="2.03" fill="#FFB98A"/>
+<path d="M144.4 130.85 Q148 136.25 151.6 130.85 Z" fill="#14142B" stroke="#14142B" stroke-width="1.35" stroke-linejoin="round"/>
+<rect x="124" y="166" width="48" height="16" rx="7" fill="#2A1FC7" stroke="#14142B" stroke-width="4"/>
+<path d="M132 182 L132 192" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M164 182 L164 192" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<!-- afuera: la persona que se va; pelo de atrás y orejas -->
+<path d="M27 106 C23 66 44 58 64 58 C84 58 105 66 101 106 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="29" cy="110" rx="6" ry="8" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="99" cy="110" rx="6" ry="8" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<!-- brazo que se despide, hacia la puerta -->
+<path d="M98 182 L110 104" stroke="#14142B" stroke-width="24" stroke-linecap="round"/>
+<path d="M98 182 L110 104" stroke="#F3C39A" stroke-width="16" stroke-linecap="round"/>
+<!-- torso azul claro con tirantes dorados de mochila -->
+<path d="M20 196 C20 170 40 156 64 156 C88 156 108 170 108 196 Z" fill="#9DB7FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M54 128 L54 160 L74 160 L74 128 Z" fill="#F3C39A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M53 159 Q64 168 75 159" stroke="#14142B" stroke-width="10" stroke-linecap="round"/>
+<path d="M53 159 Q64 168 75 159" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M40 166 L36 196" stroke="#14142B" stroke-width="18" stroke-linecap="round"/>
+<path d="M40 166 L36 196" stroke="#E8B84B" stroke-width="10" stroke-linecap="round"/>
+<path d="M84 168 L86 196" stroke="#14142B" stroke-width="18" stroke-linecap="round"/>
+<path d="M84 168 L86 196" stroke="#E8B84B" stroke-width="10" stroke-linecap="round"/>
+<path d="M85.2 186.1 L91 148.6 L114.8 152.2 L109 189.7 Z" fill="#9DB7FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- mano abierta -->
+<ellipse cx="96" cy="86" rx="5" ry="8.5" transform="rotate(-35 96 86)" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<rect x="98" y="58" width="26" height="40" rx="12" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M107 60 L107 71" stroke="#14142B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M115 60 L115 71" stroke="#14142B" stroke-width="2.6" stroke-linecap="round"/>
+<!-- cabeza, flequillo, brillo -->
+<ellipse cx="64" cy="102" rx="35" ry="33" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M30 106 C26 76 44 64 64 64 C84 64 102 76 98 106 C94 92 86 84 76 83 C68 90 54 92 44 89 C38 93 33 99 30 106 Z" fill="#14142B"/>
+<path d="M98 106 C94 92 86 84 76 83 C68 90 54 92 44 89 C38 93 33 99 30 106" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46 70 Q56 65 66 65" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- cara de la casa (64,112) s 0.72 -->
+<ellipse cx="53.92" cy="112" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="74.08" cy="112" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="55.5" cy="109.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="75.66" cy="109.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="45.28" cy="122.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="82.72" cy="122.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M58.24 121.36 Q64 130 69.76 121.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M26 19 Q28.2 27.8 37 30 Q28.2 32.2 26 41 Q23.8 32.2 15 30 Q23.8 27.8 26 19 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M92 20 Q93.6 26.4 100 28 Q93.6 29.6 92 36 Q90.4 29.6 84 28 Q90.4 26.4 92 20 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="18" cy="140" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

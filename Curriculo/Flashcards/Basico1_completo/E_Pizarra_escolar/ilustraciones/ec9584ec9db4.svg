@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="아이" data-es="niño, niña">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 165 C 84 172, 150 172, 200 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- torre de bloques (sin letras): cubo de abajo y cubo de arriba -->
+    <path d="M150 136 H176 V162 H150 Z" fill="url(#rt)"/>
+    <path d="M176 136 L184 128 L184 154 L176 162 Z" fill="url(#rt)"/>
+    <circle cx="163" cy="149" r="6" stroke-width="2" stroke-opacity="0.8"/>
+    <path d="M150 110 H176 V136 H150 Z" fill="url(#rt)"/>
+    <path d="M150 110 L158 102 H184 L176 110 Z M176 110 L184 102 V128 L176 136 Z" fill="url(#rt)"/>
+    <path d="M163 115 L170 129 H156 Z" stroke-width="2" stroke-opacity="0.8"/>
+    <!-- cuerpo sentado -->
+    <path d="M68 100 C 56 112, 52 132, 54 152 L114 152 C 116 132, 112 112, 100 100 Z" fill="#1F3B33"/>
+    <path d="M68 100 C 56 112, 52 132, 54 152 L114 152 C 116 132, 112 112, 100 100 Z" fill="url(#rt)"/>
+    <!-- piernas hacia adelante: dos pies -->
+    <ellipse cx="70" cy="156" rx="12" ry="7.5" fill="#1F3B33"/>
+    <ellipse cx="98" cy="156" rx="12" ry="7.5" fill="#1F3B33"/>
+    <path d="M64 156 H76 M92 156 H104" stroke-width="1.6" stroke-opacity="0.6"/>
+    <!-- brazo en la falda -->
+    <path d="M64 114 C 56 124, 55 134, 62 142"/>
+    <circle cx="64" cy="144" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- bloque dorado en la mano -->
+    <path d="M120 80 H140 V100 H120 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M120 80 H140 V100 H120 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M120 80 L126 74 H146 L140 80 M140 100 L146 94 V74" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M104 112 C 116 114, 122 108, 124 101"/>
+    <circle cx="124" cy="100" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza grande de niño -->
+    <circle cx="84" cy="70" r="32" fill="#1F3B33"/>
+    <path d="M51 70 C 49 48, 64 36, 84 36 C 104 36, 119 48, 117 70 C 112 62, 104 58, 98 56 C 92 60, 84 62, 78 58 C 70 62, 58 64, 51 70 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M84 36 C 80 26, 90 22, 93 28 C 95 32, 90 34, 88 31" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(84 80) scale(0.82)"/>
+    <use href="#estrella" transform="translate(30 44) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(178 62) scale(0.7)"/>
+    <use href="#estrella" transform="translate(28 128) scale(0.65)"/>
+  </g>
+</svg>

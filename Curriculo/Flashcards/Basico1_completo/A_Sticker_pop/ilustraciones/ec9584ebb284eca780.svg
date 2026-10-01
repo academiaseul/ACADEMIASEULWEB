@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 아버지 · padre · Estilo A Sticker pop · papá coreano de pelo corto con raya, bigote, camisa celeste y corbata azul -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M62 96 C56 58 82 38 110 38 C138 38 164 58 158 96 Z"/>
+<ellipse cx="65" cy="104" rx="7" ry="9"/>
+<ellipse cx="155" cy="104" rx="7" ry="9"/>
+<ellipse cx="110" cy="94" rx="45" ry="43"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M62 96 C56 58 82 38 110 38 C138 38 164 58 158 96 Z"/>
+<ellipse cx="65" cy="104" rx="7" ry="9"/>
+<ellipse cx="155" cy="104" rx="7" ry="9"/>
+<ellipse cx="110" cy="94" rx="45" ry="43"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M62 96 C56 58 82 38 110 38 C138 38 164 58 158 96 Z"/>
+<ellipse cx="65" cy="104" rx="7" ry="9"/>
+<ellipse cx="155" cy="104" rx="7" ry="9"/>
+<ellipse cx="110" cy="94" rx="45" ry="43"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<!-- pelo de atrás castaño oscuro -->
+<path d="M62 96 C56 58 82 38 110 38 C138 38 164 58 158 96 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="65" cy="104" rx="7" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="155" cy="104" rx="7" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- torso: camisa celeste con bolsillo -->
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z" fill="#E6F5FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M68 172 L86 172 L86 184 Q77 188 68 184 Z" fill="#E6F5FF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M98 130 L98 152 Q110 158 122 152 L122 130 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cuello de camisa (dos puntas blancas) y corbata azul con rayas doradas -->
+<path d="M110 157 L95 149 L97 166 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M110 157 L125 149 L123 166 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M107 165 L113 165 L118 186 L110 194 L102 186 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M106 177 L114 172" stroke="#E8B84B" stroke-width="3" stroke-linecap="round"/>
+<path d="M105 186 L115 180" stroke="#E8B84B" stroke-width="3" stroke-linecap="round"/>
+<path d="M104.5 155 L115.5 155 L113 165 L107 165 Z" fill="#2A1FC7" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- cabeza -->
+<ellipse cx="110" cy="94" rx="45" ry="43" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- pelo corto con raya: relleno sin borde + canto de abajo -->
+<path d="M63 92 C59 58 84 42 110 42 C136 42 161 58 157 92 C154 78 150 70 142 66 C126 72 100 72 86 62 C76 70 68 78 63 92 Z" fill="#4A3426"/>
+<path d="M157 92 C154 78 150 70 142 66 C126 72 100 72 86 62 C76 70 68 78 63 92" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M96 52 Q112 47 128 51" stroke="#6E4424" stroke-width="5" stroke-linecap="round"/>
+<!-- cara de la casa en (110,106), s = 0,85 -->
+<ellipse cx="98.1" cy="106" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="106" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="103.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="103.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="117.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="117.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 117.05 Q110 127.25 116.8 117.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- bigote castaño sobre la sonrisa -->
+<path d="M96 118 C98 114.5 104 114 110 116.5 C116 114 122 114.5 124 118 C119 120 114 119.5 110 118.2 C106 119.5 101 120 96 118 Z" fill="#4A3426" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M30 20 Q32.4 29.6 42 32 Q32.4 34.4 30 44 Q27.6 34.4 18 32 Q27.6 29.6 30 20 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 115 Q193.8 122.2 201 124 Q193.8 125.8 192 133 Q190.2 125.8 183 124 Q190.2 122.2 192 115 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="190" cy="30" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

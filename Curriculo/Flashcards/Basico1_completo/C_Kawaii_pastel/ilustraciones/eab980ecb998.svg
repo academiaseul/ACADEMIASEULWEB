@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 김치 · kimchi (옹기 cerrado + 배추; nunca la salsa roja) -->
+  <use href="#kw-brillo" transform="translate(30 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(178 36) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(204 92) scale(5)" fill="#FFFFFF"/>
+  <circle cx="22" cy="108" r="3" fill="#FFFFFF"/>
+  <circle cx="148" cy="30" r="2.5" fill="#CFC8FF"/>
+  <circle cx="24" cy="160" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="112" cy="189" rx="80" ry="7" fill="#D2CBFA"/>
+  <!-- cuerpo del 옹기: relleno, dibujo de ondas, sombra, contorno -->
+  <path d="M70 80 Q42 86 38 112 Q36 150 64 178 Q68 182 74 182 L110 182 Q116 182 120 178 Q148 150 146 112 Q142 86 114 80 Z" fill="#D9A462"/>
+  <path d="M52 100 Q61 94 70 100 T88 100 T106 100 T124 100" fill="none" stroke="#F0DA9C" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M48.5 158 Q59.4 152 70.25 158 T92 158 T113.75 158 T135.5 158 Q129.4 168.6 120 178 Q116 182 110 182 L74 182 Q68 182 64 178 Q54.6 168.6 48.5 158 Z" fill="#C99A5E"/>
+  <path d="M70 80 Q42 86 38 112 Q36 150 64 178 Q68 182 74 182 L110 182 Q116 182 120 178 Q148 150 146 112 Q142 86 114 80 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="54" cy="118" rx="9" ry="5" fill="#F0DA9C" transform="rotate(-60 54 118)"/>
+  <!-- tapa del 옹기 con perilla (encima de la boca) -->
+  <rect x="84" y="44" width="16" height="12" rx="4" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <path d="M62 78 Q64 56 92 54 Q120 56 122 78 Q122 82 118 82 L66 82 Q62 82 62 78 Z" fill="#8C6448" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M72 68 Q78 62 88 61" fill="none" stroke="#C99A5E" stroke-width="3" stroke-linecap="round"/>
+  <!-- 배추 apoyado en el 옹기: gordito, pencas crema en capas, hojas verdes rizadas -->
+  <g transform="rotate(-8 172 184)">
+    <path d="M160 184 Q146 166 146 140 Q144 116 150 104 Q154 92 166 94 Q172 86 180 92 Q192 88 196 100 Q202 114 198 140 Q198 166 184 184 Q172 188 160 184 Z" fill="#FFF6E6"/>
+    <path d="M172 184 L172 140 M163 180 Q157 160 158 140 M181 180 Q187 160 186 140" fill="none" stroke="#E9D6C0" stroke-width="3" stroke-linecap="round"/>
+    <path d="M165 183 Q153 162 154 134 M179 183 Q191 162 190 134" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M146.4 130 Q144 116 150 104 Q154 92 166 94 Q172 86 180 92 Q192 88 196 100 Q202 114 198.6 130 Q192 140 186 132 Q179 142 172 133 Q165 142 158 132 Q152 140 146.4 130 Z" fill="#A6E1B4" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M172 102 L172 126 M160 106 L162 124 M184 106 L182 124" fill="none" stroke="#8ED3A0" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M160 184 Q146 166 146 140 Q144 116 150 104 Q154 92 166 94 Q172 86 180 92 Q192 88 196 100 Q202 114 198 140 Q198 166 184 184 Q172 188 160 184 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <use href="#kw-cara" transform="translate(92 130)"/>
+</svg>

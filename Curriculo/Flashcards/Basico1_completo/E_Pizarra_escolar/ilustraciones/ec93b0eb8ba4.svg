@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="쓰다" data-es="escribir">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 168 C 80 174, 150 174, 200 164" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- tapa dorada del cuaderno -->
+    <path d="M30 152 C 54 148, 82 148, 104 158 C 126 148, 154 148, 178 152 L180 158 C 154 154, 126 154, 104 164 C 82 154, 54 154, 28 158 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- páginas -->
+    <path d="M104 108 C 88 100, 62 100, 44 104 L30 152 C 54 148, 82 148, 104 158 Z" fill="#1F3B33"/>
+    <path d="M104 108 C 120 100, 146 100, 164 104 L178 152 C 154 148, 126 148, 104 158 Z" fill="#1F3B33"/>
+    <!-- renglones -->
+    <path d="M47 113 C 64 110, 84 111, 98 116" stroke-width="1.6" stroke-opacity="0.55"/>
+    <path d="M110 117 C 124 112, 144 111, 160 114 M110 128 C 126 123, 146 122, 163 125 M110 139 C 128 134, 148 133, 166 136" stroke-width="1.6" stroke-opacity="0.55"/>
+    <!-- espiral dorado en el lomo -->
+    <ellipse cx="104" cy="116" rx="5" ry="2.4" stroke="#E8B84B" stroke-width="2"/>
+    <ellipse cx="104" cy="127" rx="5" ry="2.4" stroke="#E8B84B" stroke-width="2"/>
+    <ellipse cx="104" cy="138" rx="5" ry="2.4" stroke="#E8B84B" stroke-width="2"/>
+    <ellipse cx="104" cy="149" rx="5" ry="2.4" stroke="#E8B84B" stroke-width="2"/>
+    <!-- cara del cuaderno en la página izquierda -->
+    <use href="#cara" transform="translate(68 126) scale(0.78)"/>
+    <!-- lo escrito: letra cursiva sin letras reales -->
+    <path d="M113 114 c 3 -7 9 -7 6 0 c -2 4 4 5 7 0 c 3 -7 9 -7 6 0 c -2 4 4 5 7 0 c 3 -7 9 -7 6 0 c -2 4 4 5 7 0" stroke-width="2.2"/>
+    <path d="M113 125 c 3 -7 9 -7 6 0 c -2 4 4 5 7 0 c 3 -7 9 -7 6 0 c -2 4 4 3 6 -1" stroke-width="2.2"/>
+    <!-- muñeca con puño de manga (mano de caricatura) -->
+    <g transform="rotate(-38 172 106)">
+      <path d="M168 97 H190 V117 H168 Z" fill="#1F3B33"/>
+      <rect x="186" y="92" width="12" height="30" rx="4" fill="#1F3B33"/>
+      <rect x="186" y="92" width="12" height="30" rx="4" fill="url(#rb)"/>
+    </g>
+    <!-- lápiz dorado -->
+    <g transform="translate(136 126) rotate(-55)">
+      <path d="M0 0 L10 -4.5 H56 V4.5 H10 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <path d="M10 -4.5 V4.5" stroke="#E8B84B" stroke-width="2"/>
+      <path d="M50 -4.5 V4.5" stroke-width="2"/>
+    </g>
+    <!-- mano: puño, nudillos, pulgar e índice sobre el lápiz -->
+    <path d="M146 100 C 150 92, 164 90, 172 96 C 178 102, 178 114, 170 120 C 162 125, 150 123, 146 116 C 143 111, 143 105, 146 100 Z" fill="#1F3B33"/>
+    <path d="M156 121 C 156 116, 160 113, 164 115 M164 118 C 165 113, 169 111, 172 113" stroke-width="2" stroke-opacity="0.8"/>
+    <path d="M152 95 C 145 95, 140 100, 142 105 C 144 108, 149 106, 152 102" fill="#1F3B33" stroke-width="2.6"/>
+    <path d="M148 106 C 142 110, 137 116, 139 119 C 141 122, 145 121, 152 115" fill="#1F3B33" stroke-width="2.6"/>
+    <use href="#estrella" transform="translate(38 44) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(112 36) scale(0.65)"/>
+    <use href="#estrella" transform="translate(196 146) scale(0.6)"/>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 나라 · país · Estilo A Sticker pop · globo terráqueo con banderitas lisas (sin banderas reales) -->
+<defs><clipPath id="clipGlobo"><circle cx="110" cy="98" r="58"/></clipPath></defs>
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M42 98 A68 68 0 0 0 178 98" fill="none" stroke-width="36"/>
+<circle cx="110" cy="98" r="58"/>
+<rect x="104" y="160" width="12" height="20"/>
+<path d="M76 192 Q76 178 110 178 Q144 178 144 192 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M42 98 A68 68 0 0 0 178 98" fill="none" stroke-width="36"/>
+<circle cx="110" cy="98" r="58"/>
+<rect x="104" y="160" width="12" height="20"/>
+<path d="M76 192 Q76 178 110 178 Q144 178 144 192 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M42 98 A68 68 0 0 0 178 98" fill="none" stroke-width="29"/>
+<circle cx="110" cy="98" r="58"/>
+<rect x="104" y="160" width="12" height="20"/>
+<path d="M76 192 Q76 178 110 178 Q144 178 144 192 Z"/>
+</g>
+<!-- pie: base café, vástago y semiaro dorado -->
+<path d="M76 192 Q76 178 110 178 Q144 178 144 192 Z" fill="#A86B3C" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="104" y="160" width="12" height="20" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<path d="M42 98 A68 68 0 0 0 178 98" fill="none" stroke="#14142B" stroke-width="16" stroke-linecap="round"/>
+<path d="M42 98 A68 68 0 0 0 178 98" fill="none" stroke="#E8B84B" stroke-width="8" stroke-linecap="round"/>
+<!-- globo: mar azul claro y continentes verdes -->
+<circle cx="110" cy="98" r="58" fill="#8FB0FF"/>
+<g clip-path="url(#clipGlobo)">
+<path d="M58 70 C66 52 86 46 98 52 C106 58 98 68 88 70 C80 72 82 84 72 88 C62 92 54 82 58 70 Z" fill="#5CC98A" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M126 50 C140 48 158 58 164 74 C168 86 156 90 148 84 C140 78 132 80 126 72 C120 64 118 54 126 50 Z" fill="#5CC98A" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M112 152 C118 144 134 142 142 148 C150 154 146 162 136 164 L116 164 C108 162 108 158 112 152 Z" fill="#5CC98A" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M40 112 C48 108 58 112 58 120 C58 128 50 132 44 128 Z" fill="#5CC98A" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+</g>
+<circle cx="110" cy="98" r="58" fill="none" stroke="#14142B" stroke-width="4"/>
+<path d="M160 112 Q158 126 150 136" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<!-- banderitas clavadas (colores lisos) -->
+<path d="M76 76 L76 52" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M76 52 L96 58 L76 64 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="76" cy="77" r="3.5" fill="#14142B"/>
+<path d="M146 76 L146 54" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M146 54 L126 60 L146 66 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="146" cy="77" r="3.5" fill="#14142B"/>
+<path d="M66 132 L66 108" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M66 108 L84 113 L66 118 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="66" cy="133" r="3.5" fill="#14142B"/>
+<!-- cara de la casa (110,110) s=1 -->
+<ellipse cx="96" cy="110" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="110" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="106.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="106.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="124" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="124" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 123 Q110 135 118 123 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M28 18 Q30.4 27.6 40 30 Q30.4 32.4 28 42 Q25.6 32.4 16 30 Q25.6 27.6 28 18 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 24 Q198 32 206 34 Q198 36 196 44 Q194 36 186 34 Q194 32 196 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M24 163 Q25.8 170.2 33 172 Q25.8 173.8 24 181 Q22.2 173.8 15 172 Q22.2 170.2 24 163 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="150" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

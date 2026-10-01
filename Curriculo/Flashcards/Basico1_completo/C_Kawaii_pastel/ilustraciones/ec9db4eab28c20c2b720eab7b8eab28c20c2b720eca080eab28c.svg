@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 이게 · 그게 · 저게 · esto · eso · aquello (en 이게 뭐예요?) -->
+  <use href="#kw-brillo" transform="translate(30 46) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 44) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(152 70) scale(6)" fill="#FFFFFF"/>
+  <circle cx="68" cy="62" r="3" fill="#FFFFFF"/>
+  <circle cx="86" cy="84" r="2.5" fill="#E8B84B"/>
+  <circle cx="208" cy="158" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="86" ry="7" fill="#ADA1F0"/>
+  <!-- caja dorada tapada con un paño (보자기) anudado arriba -->
+  <rect x="100" y="150" width="34" height="28" rx="4" fill="#F6D47A" stroke="#003478" stroke-width="3"/>
+  <path d="M117 140 Q107 127 102 133 Q104 140 117 140 Z M117 140 Q127 127 132 133 Q130 140 117 140 Z" fill="#8CCBF6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M97 168 Q95 148 104 143 Q117 137 130 143 Q139 148 137 168 Q132 164 127 168 Q122 172 117 168 Q112 164 107 168 Q102 172 97 168 Z" fill="#8CCBF6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M106 149 Q104 156 106 162" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="117" cy="140" r="4.2" fill="#8CCBF6" stroke="#003478" stroke-width="2.4"/>
+  <!-- signo de pregunta gordito sobre la caja -->
+  <path d="M106 92 Q106 80 117 80 Q128 80 128 90 Q128 97 121 100 Q117 102 117 108" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M106 92 Q106 80 117 80 Q128 80 128 90 Q128 97 121 100 Q117 102 117 108" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="117" cy="120" r="4.6" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <!-- quien pregunta (yo, uniforme azul) señala la caja con curiosidad -->
+  <g transform="matrix(0.6 0 0 0.6 -16 74.1)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.3"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.3"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="4.3"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="4.3"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M84 132 Q68 150 78 168 M136 132 Q154 138 168 128" fill="none" stroke="#003478" stroke-width="21.7" stroke-linecap="round"/>
+    <path d="M84 132 Q68 150 78 168 M136 132 Q154 138 168 128" fill="none" stroke="#4236F6" stroke-width="11.7" stroke-linecap="round"/>
+    <circle cx="78" cy="170" r="7" fill="#FFE4C8" stroke="#003478" stroke-width="4"/>
+    <path d="M176 125 L189 121.5" fill="none" stroke="#003478" stroke-width="12" stroke-linecap="round"/>
+    <path d="M176 125 L189 121.5" fill="none" stroke="#FFE4C8" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="171" cy="127" r="8" fill="#FFE4C8" stroke="#003478" stroke-width="4"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="4.3"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="4.3"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="5"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="5.8" stroke-linecap="round"/>
+    <use href="#kw-cara-o" transform="translate(110 98) scale(1.1)"/>
+  </g>
+  <!-- el otro (amigo de 나/너) sostiene la caja -->
+  <g transform="matrix(0.6 0 0 0.6 106 74.1)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.3"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.3"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="4.3"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="4.3"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#7FD0B0" stroke="#003478" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M84 132 Q62 150 50 146 M136 132 Q152 150 142 168" fill="none" stroke="#003478" stroke-width="21.7" stroke-linecap="round"/>
+    <path d="M84 132 Q62 150 50 146 M136 132 Q152 150 142 168" fill="none" stroke="#7FD0B0" stroke-width="11.7" stroke-linecap="round"/>
+    <circle cx="48" cy="146" r="7.5" fill="#C98F5E" stroke="#003478" stroke-width="4"/>
+    <circle cx="142" cy="170" r="7" fill="#C98F5E" stroke="#003478" stroke-width="4"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="4.3"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="4.3"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#C98F5E" stroke="#003478" stroke-width="5"/>
+    <path d="M63 86 Q56 36 110 36 Q164 38 157 86 Q152 64 132 56 Q104 66 80 62 Q68 70 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M80 50 Q92 43 104 43" fill="none" stroke="#6E7591" stroke-width="5.8" stroke-linecap="round"/>
+    <ellipse cx="82" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <ellipse cx="138" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <use href="#kw-cara-chica" transform="translate(110 98) scale(1.1)"/>
+  </g>
+</svg>

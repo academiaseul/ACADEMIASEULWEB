@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 우산 · paraguas -->
+  <use href="#kw-brillo" transform="translate(30 36) scale(9)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 32) scale(7)" fill="#E8B84B"/>
+  <circle cx="204" cy="82" r="2.5" fill="#FFFFFF"/>
+  <circle cx="18" cy="86" r="2.5" fill="#E8B84B"/>
+  <path d="M30 130.9 Q37 140 37 142.8 A7 7 0 0 1 23 142.8 Q23 140 30 130.9 Z" fill="#9FD3FA" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M190 130.9 Q197 140 197 142.8 A7 7 0 0 1 183 142.8 Q183 140 190 130.9 Z" fill="#9FD3FA" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M48 164.85 Q53.5 172 53.5 174.2 A5.5 5.5 0 0 1 42.5 174.2 Q42.5 172 48 164.85 Z" fill="#9FD3FA" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M176 166.85 Q181.5 174 181.5 176.2 A5.5 5.5 0 0 1 170.5 176.2 Q170.5 174 176 166.85 Z" fill="#9FD3FA" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="54" ry="6" fill="#D2CBFA"/>
+  <path d="M110 104 L110 164 Q110 182 96 182 Q84 182 84 170" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round"/>
+  <path d="M110 104 L110 164 Q110 182 96 182 Q84 182 84 170" fill="none" stroke="#F6D47A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M30 112 Q32 38 110 34 Q188 38 190 112 Q167 100 144 112 Q110 96 76 112 Q53 100 30 112 Z" fill="#8FB6FF"/>
+  <path d="M110 34 Q84 52 76 112 Q110 96 144 112 Q136 52 110 34 Z" fill="#D6E3FF"/>
+  <path d="M110 34 Q84 52 76 112 M110 34 Q136 52 144 112" fill="none" stroke="#003478" stroke-width="2.6"/>
+  <path d="M30 112 Q32 38 110 34 Q188 38 190 112 Q167 100 144 112 Q110 96 76 112 Q53 100 30 112 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="56" cy="70" rx="9" ry="5" fill="#C9DBFF" transform="rotate(-40 56 70)"/>
+  <circle cx="110" cy="29" r="5.5" fill="#F6D47A" stroke="#003478" stroke-width="2.6"/>
+  <use href="#kw-cara-chica" transform="translate(110 74)"/>
+  <ellipse cx="96" cy="88" rx="5.5" ry="3.6" fill="#FFCBA0"/>
+  <ellipse cx="124" cy="88" rx="5.5" ry="3.6" fill="#FFCBA0"/>
+</svg>

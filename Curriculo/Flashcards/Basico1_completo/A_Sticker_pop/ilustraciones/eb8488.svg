@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 너 · tú · Estilo A Sticker pop · la mano de "나" (manga menta, igual que en la tarjeta 나) apunta a un amigo que sonríe -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M86 96 C80 58 102 40 128 40 C154 40 176 58 170 96 Z"/>
+<ellipse cx="89" cy="94" rx="7" ry="9"/>
+<ellipse cx="167" cy="94" rx="7" ry="9"/>
+<ellipse cx="128" cy="86" rx="40" ry="38"/>
+<path d="M84 192 C84 164 104 150 128 150 C152 150 172 164 172 192 Z"/>
+<path d="M40 184 L56 160" fill="none" stroke-width="50"/>
+<rect x="48" y="134" width="30" height="26" rx="11"/>
+<path d="M72 140 L95 121" fill="none" stroke-width="37"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M86 96 C80 58 102 40 128 40 C154 40 176 58 170 96 Z"/>
+<ellipse cx="89" cy="94" rx="7" ry="9"/>
+<ellipse cx="167" cy="94" rx="7" ry="9"/>
+<ellipse cx="128" cy="86" rx="40" ry="38"/>
+<path d="M84 192 C84 164 104 150 128 150 C152 150 172 164 172 192 Z"/>
+<path d="M40 184 L56 160" fill="none" stroke-width="50"/>
+<rect x="48" y="134" width="30" height="26" rx="11"/>
+<path d="M72 140 L95 121" fill="none" stroke-width="37"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M86 96 C80 58 102 40 128 40 C154 40 176 58 170 96 Z"/>
+<ellipse cx="89" cy="94" rx="7" ry="9"/>
+<ellipse cx="167" cy="94" rx="7" ry="9"/>
+<ellipse cx="128" cy="86" rx="40" ry="38"/>
+<path d="M84 192 C84 164 104 150 128 150 C152 150 172 164 172 192 Z"/>
+<path d="M40 184 L56 160" fill="none" stroke-width="43"/>
+<rect x="48" y="134" width="30" height="26" rx="11"/>
+<path d="M72 140 L95 121" fill="none" stroke-width="30"/>
+</g>
+<!-- amigo: pelo de atrás castaño -->
+<path d="M86 96 C80 58 102 40 128 40 C154 40 176 58 170 96 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="89" cy="94" rx="7" ry="9" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="167" cy="94" rx="7" ry="9" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<!-- torso lila con cuello blanco -->
+<path d="M84 192 C84 164 104 150 128 150 C152 150 172 164 172 192 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M117 118 L117 152 Q128 158 139 152 L139 118 Z" fill="#C98A5E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M128 156 Q114 148 108 158 Q118 168 128 158 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M128 156 Q142 148 148 158 Q138 168 128 158 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- cabeza -->
+<ellipse cx="128" cy="86" rx="40" ry="38" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<!-- flequillo redondo: relleno sin borde + canto de abajo -->
+<path d="M85 92 C81 58 104 44 128 44 C152 44 175 58 171 92 C164 74 152 64 140 64 C130 72 114 74 104 66 C96 72 90 80 85 92 Z" fill="#4A3426"/>
+<path d="M171 92 C164 74 152 64 140 64 C130 72 114 74 104 66 C96 72 90 80 85 92" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M104 54 Q116 49 128 50" stroke="#6E4424" stroke-width="5" stroke-linecap="round"/>
+<!-- cara de la casa en (128,97), s = 0,8 -->
+<ellipse cx="116.8" cy="97" rx="5.2" ry="6.8" fill="#14142B"/>
+<ellipse cx="139.2" cy="97" rx="5.2" ry="6.8" fill="#14142B"/>
+<circle cx="118.56" cy="94.28" r="1.92" fill="#FFFFFF"/>
+<circle cx="140.96" cy="94.28" r="1.92" fill="#FFFFFF"/>
+<ellipse cx="107.2" cy="108.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<ellipse cx="148.8" cy="108.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<path d="M121.6 107.4 Q128 117 134.4 107.4 Z" fill="#14142B" stroke="#14142B" stroke-width="2.4" stroke-linejoin="round"/>
+<!-- mano que apunta (en primer plano): manga menta, puño e índice -->
+<path d="M40 184 L56 160" stroke="#14142B" stroke-width="30" stroke-linecap="round"/>
+<path d="M40 184 L56 160" stroke="#8FE3C6" stroke-width="22" stroke-linecap="round"/>
+<path d="M44 158.5 L62 170.5" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M72 140 L95 121" stroke="#14142B" stroke-width="17" stroke-linecap="round"/>
+<path d="M72 140 L95 121" stroke="#F3C39A" stroke-width="9" stroke-linecap="round"/>
+<rect x="48" y="134" width="30" height="26" rx="11" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M57 145 L66 145" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M57 152 L66 152" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M34 28 Q36.4 37.6 46 40 Q36.4 42.4 34 52 Q31.6 42.4 22 40 Q31.6 37.6 34 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 111 Q193.8 118.2 201 120 Q193.8 121.8 192 129 Q190.2 121.8 183 120 Q190.2 118.2 192 111 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="188" cy="30" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 저기요 · ¡disculpe! (para llamar a alguien) -->
+  <use href="#kw-brillo" transform="translate(32 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(34 138) scale(6)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(198 150) scale(7)" fill="#CFC8FF"/>
+  <circle cx="22" cy="98" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="118" r="2.5" fill="#FFFFFF"/>
+  <circle cx="44" cy="172" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <!-- piernas y zapatos -->
+  <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <!-- torso: uniforme azul, camisa blanca, corbata dorada -->
+  <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M99 124 L110 142 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M110 136 L114 142 L110 150 L106 142 Z" fill="#E8B84B" stroke="#003478" stroke-width="2" stroke-linejoin="round"/>
+  <!-- brazo abajo y brazo bien arriba para llamar -->
+  <path d="M84 132 Q70 150 78 168" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M84 132 Q70 150 78 168" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M136 132 Q176 122 178 82" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M136 132 Q176 122 178 82" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="78" cy="170" r="6" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="178" cy="75" rx="7.5" ry="8.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <!-- líneas de llamada junto a la mano -->
+  <path d="M166 60 L161 52 M179 56 L179 46 M191 62 L198 55 M194 76 L203 75" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- orejas, cabeza y pelo -->
+  <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+  <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- boca abierta: está llamando -->
+  <use href="#kw-cara-o" transform="translate(110 98)"/>
+</svg>

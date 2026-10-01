@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 거울 · espejo · Estilo A Sticker pop · espejo de pie con marco dorado redondeado y brillos en el vidrio -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M82 180 L66 198" fill="none" stroke-width="37"/>
+<path d="M138 180 L152 197" fill="none" stroke-width="37"/>
+<path d="M64 174 L64 74 C64 44 86 24 110 24 C134 24 156 44 156 74 L156 174 Q156 182 148 182 L72 182 Q64 182 64 174 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M82 180 L66 198" fill="none" stroke-width="37"/>
+<path d="M138 180 L152 197" fill="none" stroke-width="37"/>
+<path d="M64 174 L64 74 C64 44 86 24 110 24 C134 24 156 44 156 74 L156 174 Q156 182 148 182 L72 182 Q64 182 64 174 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M82 180 L66 198" fill="none" stroke-width="30"/>
+<path d="M138 180 L152 197" fill="none" stroke-width="30"/>
+<path d="M64 174 L64 74 C64 44 86 24 110 24 C134 24 156 44 156 74 L156 174 Q156 182 148 182 L72 182 Q64 182 64 174 Z"/>
+</g>
+<!-- patas -->
+<path d="M82 180 L66 198" stroke="#14142B" stroke-width="17" stroke-linecap="round"/>
+<path d="M82 180 L66 198" stroke="#B9861E" stroke-width="9" stroke-linecap="round"/>
+<path d="M138 180 L152 197" stroke="#14142B" stroke-width="17" stroke-linecap="round"/>
+<path d="M138 180 L152 197" stroke="#B9861E" stroke-width="9" stroke-linecap="round"/>
+<!-- marco dorado -->
+<path d="M64 174 L64 74 C64 44 86 24 110 24 C134 24 156 44 156 74 L156 174 Q156 182 148 182 L72 182 Q64 182 64 174 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- vidrio celeste con brillos -->
+<path d="M76 170 L76 76 C76 52 92 36 110 36 C128 36 144 52 144 76 L144 170 Z" fill="#9FD8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M86 84 L104 58" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<path d="M90 100 L116 64" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M130 158 L137 148" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<!-- joya azul arriba del marco -->
+<circle cx="110" cy="30" r="5" fill="#4236F6" stroke="#14142B" stroke-width="3"/>
+<!-- cara -->
+<ellipse cx="98.1" cy="120" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="120" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="117.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="117.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="131.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="131.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 131.05 Q110 141.25 116.8 131.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M28 28 Q30.4 37.6 40 40 Q30.4 42.4 28 52 Q25.6 42.4 16 40 Q25.6 37.6 28 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 47 Q195.8 54.2 203 56 Q195.8 57.8 194 65 Q192.2 57.8 185 56 Q192.2 54.2 194 47 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 159 Q31.8 166.2 39 168 Q31.8 169.8 30 177 Q28.2 169.8 21 168 Q28.2 166.2 30 159 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="192" cy="130" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

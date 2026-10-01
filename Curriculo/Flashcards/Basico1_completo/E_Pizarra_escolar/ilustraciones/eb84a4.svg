@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="네" data-es="sí">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 166 C 86 172, 150 172, 196 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo -->
+    <path d="M70 96 C 56 108, 50 136, 48 162 L 128 162 C 126 136, 120 108, 106 96 Z" fill="#1F3B33"/>
+    <path d="M70 96 C 56 108, 50 136, 48 162 L 128 162 C 126 136, 120 108, 106 96 Z" fill="url(#rt)"/>
+    <path d="M78 97 L88 110 L98 97" stroke-width="2.2"/>
+    <path d="M64 112 C 54 124, 50 138, 52 150"/>
+    <circle cx="52.5" cy="153" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M112 112 C 122 124, 126 138, 124 150"/>
+    <circle cx="123.5" cy="153" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza que asiente -->
+    <circle cx="88" cy="66" r="30" fill="#1F3B33"/>
+    <path d="M58 64 C 57 44, 71 34, 88 34 C 106 34, 119 44, 118 64 C 115 56, 111 50, 105 48 C 95 51, 80 49, 73 42 C 69 50, 63 56, 58 64 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(88 74) scale(0.82)"/>
+    <!-- movimiento de arriba abajo -->
+    <path d="M34 46 V86 M28 53 L34 46 L40 53 M28 79 L34 86 L40 79" stroke-width="2.6"/>    <!-- visto bueno dorado -->
+    <path d="M148 96 L166 116 L198 66" stroke="#E8B84B" stroke-width="5"/>
+    <use href="#estrella" transform="translate(176 30) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(184 144) scale(0.65)"/>
+    <use href="#estrella" transform="translate(24 132) scale(0.65)"/>
+  </g>
+</svg>

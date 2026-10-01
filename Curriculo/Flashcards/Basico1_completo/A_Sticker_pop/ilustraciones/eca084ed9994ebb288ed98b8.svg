@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 전화번호 · número de teléfono · Estilo A Sticker pop · celular azul con cara y teclado numérico en pantalla; arriba, un globo con el número (010-…) dibujado -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="34" y="58" width="96" height="142" rx="18"/>
+<path d="M124 14 L184 14 Q196 14 196 26 L196 42 Q196 54 184 54 L138 54 L120 66 L126 54 Q112 54 112 42 L112 26 Q112 14 124 14 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="34" y="58" width="96" height="142" rx="18"/>
+<path d="M124 14 L184 14 Q196 14 196 26 L196 42 Q196 54 184 54 L138 54 L120 66 L126 54 Q112 54 112 42 L112 26 Q112 14 124 14 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="34" y="58" width="96" height="142" rx="18"/>
+<path d="M124 14 L184 14 Q196 14 196 26 L196 42 Q196 54 184 54 L138 54 L120 66 L126 54 Q112 54 112 42 L112 26 Q112 14 124 14 Z"/>
+</g>
+<!-- celular -->
+<rect x="34" y="58" width="96" height="142" rx="18" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M39 86 L39 110" stroke="#DCE0FA" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M74 65 L90 65" stroke="#DCE0FA" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="97" cy="65" r="2.5" fill="#DCE0FA"/>
+<rect x="44" y="72" width="76" height="112" rx="8" fill="#F3F6FF" stroke="#14142B" stroke-width="3.5"/>
+<path d="M72 192 L92 192" stroke="#DCE0FA" stroke-width="3.5" stroke-linecap="round"/>
+<!-- cara en la pantalla -->
+<ellipse cx="73.6" cy="92" rx="3.9" ry="5.1" fill="#14142B"/>
+<ellipse cx="90.4" cy="92" rx="3.9" ry="5.1" fill="#14142B"/>
+<circle cx="74.92" cy="89.96" r="1.44" fill="#FFFFFF"/>
+<circle cx="91.72" cy="89.96" r="1.44" fill="#FFFFFF"/>
+<ellipse cx="66.4" cy="100.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<ellipse cx="97.6" cy="100.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<path d="M77.2 99.8 Q82 107 86.8 99.8 Z" fill="#14142B" stroke="#14142B" stroke-width="1.8" stroke-linejoin="round"/>
+<!-- teclado numérico 3 × 4 -->
+<circle cx="61" cy="118" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="82" cy="118" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="103" cy="118" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="61" cy="135" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="82" cy="135" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="103" cy="135" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="61" cy="152" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="82" cy="152" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="103" cy="152" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="61" cy="169" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="82" cy="169" r="6.5" fill="#5CC98A" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="103" cy="169" r="6.5" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<!-- globo blanco con el número dibujado: 0 1 0 - · · -->
+<path d="M124 14 L184 14 Q196 14 196 26 L196 42 Q196 54 184 54 L138 54 L120 66 L126 54 Q112 54 112 42 L112 26 Q112 14 124 14 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="126" cy="34" rx="5.5" ry="8.5" fill="none" stroke="#14142B" stroke-width="4"/>
+<path d="M137 29 L142 25.5 L142 42.5" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="154" cy="34" rx="5.5" ry="8.5" fill="none" stroke="#14142B" stroke-width="4"/>
+<path d="M164 34 L171 34" stroke="#4236F6" stroke-width="4" stroke-linecap="round"/>
+<circle cx="178" cy="34" r="2.6" fill="#4236F6"/>
+<circle cx="186" cy="34" r="2.6" fill="#4236F6"/>
+<!-- adornos -->
+<path d="M176 92 Q178.4 101.6 188 104 Q178.4 106.4 176 116 Q173.6 106.4 164 104 Q173.6 101.6 176 92 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M24 21 Q25.8 28.2 33 30 Q25.8 31.8 24 39 Q22.2 31.8 15 30 Q22.2 28.2 24 21 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M190 146 Q191.6 152.4 198 154 Q191.6 155.6 190 162 Q188.4 155.6 182 154 Q188.4 152.4 190 146 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="160" cy="176" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

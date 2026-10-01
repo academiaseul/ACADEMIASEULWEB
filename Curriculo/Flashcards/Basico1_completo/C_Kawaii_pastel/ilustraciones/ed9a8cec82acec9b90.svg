@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 회사원 · empleado, empleada (traje gris, corbata azul, credencial y maletín) -->
+  <use href="#kw-brillo" transform="translate(32 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 38) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 122) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="110" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="84" r="2.5" fill="#CFC8FF"/>
+  <circle cx="34" cy="164" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="116" cy="189" rx="66" ry="7" fill="#D2CBFA"/>
+  <!-- piernas y zapatos -->
+  <rect x="94" y="170" width="12" height="15" rx="5" fill="#6E7591" stroke="#003478" stroke-width="2.6"/>
+  <rect x="114" y="170" width="12" height="15" rx="5" fill="#6E7591" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <!-- chaqueta gris, camisa blanca, corbata azul de marca -->
+  <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#A9AFC3" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M96 124 L110 158 L124 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M105 127 L115 127 L113 134 L107 134 Z" fill="#4236F6" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M107 134 L113 134 L116 152 L110 158 L104 152 Z" fill="#4236F6" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- credencial colgada al cuello -->
+  <path d="M98 126 Q99 146 106 156 M122 126 Q121 146 114 156" fill="none" stroke="#003478" stroke-width="7" stroke-linecap="round"/>
+  <path d="M98 126 Q99 146 106 156 M122 126 Q121 146 114 156" fill="none" stroke="#E8B84B" stroke-width="3" stroke-linecap="round"/>
+  <rect x="99" y="154" width="22" height="24" rx="3" fill="#FFFFFF" stroke="#003478" stroke-width="2.2"/>
+  <rect x="103" y="158" width="7" height="8" rx="1.5" fill="#8CCBF6" stroke="#003478" stroke-width="1.5"/>
+  <path d="M113 160 L117 160 M103 172 L117 172" fill="none" stroke="#8CCBF6" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- maletín en la mano derecha -->
+  <path d="M146 164 Q146 154 155 154 Q164 154 164 164" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+  <path d="M146 164 Q146 154 155 154 Q164 154 164 164" fill="none" stroke="#8C6448" stroke-width="3" stroke-linecap="round"/>
+  <rect x="134" y="162" width="42" height="24" rx="5" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <path d="M134 171 L176 171" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+  <rect x="151" y="167" width="8" height="7" rx="2" fill="#E8B84B" stroke="#003478" stroke-width="1.8"/>
+  <!-- brazos: trazo doble 13/7 -->
+  <path d="M84 132 Q70 150 78 168" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M84 132 Q70 150 78 168" fill="none" stroke="#A9AFC3" stroke-width="7" stroke-linecap="round"/>
+  <path d="M136 132 Q154 136 155 150" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M136 132 Q154 136 155 150" fill="none" stroke="#A9AFC3" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="78" cy="170" r="6" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="155" cy="154" r="6" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <!-- cabeza, pelo corto peinado al lado -->
+  <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+  <path d="M63 86 Q58 36 110 34 Q162 36 157 86 Q154 64 140 56 Q118 66 92 58 Q74 64 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M120 42 Q134 40 146 50" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(110 98)"/>
+</svg>

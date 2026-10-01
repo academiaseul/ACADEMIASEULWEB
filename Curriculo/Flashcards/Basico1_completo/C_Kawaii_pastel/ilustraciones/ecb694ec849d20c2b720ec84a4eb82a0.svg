@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 추석 · 설날 — izquierda: luna llena + plato de 송편 (추석); derecha: mamá y niño en hanbok saludando (설날) -->
+  <use href="#kw-brillo" transform="translate(104 36) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 40) scale(9)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(22 112) scale(6)" fill="#FFFFFF"/>
+  <circle cx="100" cy="114" r="2.5" fill="#FFFFFF"/>
+  <circle cx="206" cy="84" r="2.5" fill="#E8B84B"/>
+  <circle cx="44" cy="118" r="3" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="62" cy="187" rx="48" ry="6" fill="#8FB4EE"/>
+  <ellipse class="kw-suelo" cx="164" cy="187" rx="48" ry="6" fill="#8FB4EE"/>
+  <!-- línea divisoria punteada blanca -->
+  <path d="M113 30 L113 176" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 9"/>
+  <!-- 추석: luna llena con cráteres -->
+  <circle cx="64" cy="64" r="32" fill="#FBE08A"/>
+  <circle cx="82" cy="48" r="5.5" fill="#F3D27A"/>
+  <circle cx="54" cy="44" r="3.5" fill="#F3D27A"/>
+  <path d="M42 56 Q44 44 54 38" fill="none" stroke="#FFF3CC" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="64" cy="64" r="32" fill="none" stroke="#003478" stroke-width="3"/>
+  <!-- plato blanco con 송편 de colores -->
+  <path d="M37 150 Q37 134 50 134 Q63 134 63 150 Q50 154 37 150 Z M63 150 Q63 134 76 134 Q89 134 89 150 Q76 154 63 150 Z" fill="#CFC8FF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M22 162 Q26 180 44 180 L82 180 Q100 180 104 162 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M32 171 L94 171" fill="none" stroke="#8CCBF6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 162 Q24 146 37 146 Q50 146 50 162 Q37 166 24 162 Z" fill="#FFFDF8" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M50 162 Q50 146 63 146 Q76 146 76 162 Q63 166 50 162 Z" fill="#A6E1B4" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M76 162 Q76 146 89 146 Q102 146 102 162 Q89 166 76 162 Z" fill="#FBDD7E" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <use href="#kw-cara" transform="translate(64 70) scale(0.75)"/>
+  <!-- 설날: mamá en hanbok (chima celeste, jeogori dorado) -->
+  <path d="M122 182 Q124 128 146 110 Q168 128 170 182 Q170 186 165 186 L127 186 Q122 186 122 182 Z" fill="#8CCBF6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M137 142 L133 178 M155 142 L159 178" fill="none" stroke="#6FB8EE" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M126 122 Q126 106 146 102 Q166 106 166 122 Q146 128 126 122 Z" fill="#F6D47A" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M137 104 L146 117 L155 104" fill="none" stroke="#003478" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M137 104 L146 117 L155 104" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M146 118 L140 140 M146 118 L152 138" fill="none" stroke="#003478" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M146 118 L140 140 M146 118 L152 138" fill="none" stroke="#4236F6" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M129 112 Q122 130 141 134 M163 112 Q170 130 151 134" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M129 112 Q122 130 141 134 M163 112 Q170 130 151 134" fill="none" stroke="#F6D47A" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="146" cy="134" r="6" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="146" cy="80" rx="25" ry="23" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+  <path d="M121 84 Q118 54 146 54 Q174 54 171 84 Q166 70 152 66 L146 60 L140 66 Q126 70 121 84 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M129 64 Q134 59 140 58" fill="none" stroke="#6E7591" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="131" cy="93" rx="5" ry="3.2" fill="#FFCBA0"/>
+  <ellipse cx="161" cy="93" rx="5" ry="3.2" fill="#FFCBA0"/>
+  <path d="M134 87 Q138 82 142 87 M150 87 Q154 82 158 87" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M142 93 Q146 97 150 93" fill="none" stroke="#003478" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- 설날: niño en hanbok con mangas 색동 (rayas sin rojo) -->
+  <path d="M172 158 L200 158 L202 179 Q202 183 197 183 L177 183 Q171 183 171 179 Z" fill="#FFFDF8" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M186.5 166 L186.5 182" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="179" cy="185" rx="7.5" ry="4.2" fill="#4236F6" stroke="#003478" stroke-width="2.2"/>
+  <ellipse cx="194" cy="185" rx="7.5" ry="4.2" fill="#4236F6" stroke="#003478" stroke-width="2.2"/>
+  <path d="M174 162 Q172 140 182 132 L191 132 Q201 140 199 162 Z" fill="#CFC8FF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M181 133 L186.5 142 L192 133" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M176 138 Q169 150 182 154 M197 138 Q204 150 191 154" fill="none" stroke="#003478" stroke-width="12" stroke-linecap="round"/>
+  <path d="M176 138 Q169 150 182 154 M197 138 Q204 150 191 154" fill="none" stroke="#F6D47A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M176 138 Q169 150 182 154 M197 138 Q204 150 191 154" fill="none" stroke="#4236F6" stroke-width="6" stroke-dasharray="3 6"/>
+  <path d="M176 138 Q169 150 182 154 M197 138 Q204 150 191 154" fill="none" stroke="#7FD0B0" stroke-width="6" stroke-dasharray="3 6" stroke-dashoffset="6"/>
+  <circle cx="186.5" cy="154" r="5" fill="#F2C99A" stroke="#003478" stroke-width="2.2"/>
+  <ellipse cx="186.5" cy="116" rx="20" ry="18" fill="#F2C99A" stroke="#003478" stroke-width="3"/>
+  <path d="M166.5 118 Q164 96 186.5 96 Q209 96 206.5 118 Q200 108 193 106 Q186 112 179 106 Q171 110 166.5 118 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="174.5" cy="127" rx="4" ry="2.6" fill="#FFCBA0"/>
+  <ellipse cx="198.5" cy="127" rx="4" ry="2.6" fill="#FFCBA0"/>
+  <path d="M176.5 121 Q180 117 183.5 121 M189.5 121 Q193 117 196.5 121" fill="none" stroke="#003478" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M183.5 126 Q186.5 129 189.5 126" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

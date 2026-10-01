@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 바다 · mar · Estilo A Sticker pop · mazo aprobado (30 sept 2026) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="122" r="74"/>
+<circle cx="166" cy="56" r="24"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="122" r="74"/>
+<circle cx="166" cy="56" r="24"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="122" r="74"/>
+<circle cx="166" cy="56" r="24"/>
+</g>
+<defs>
+<clipPath id="clipMar">
+<circle cx="110" cy="122" r="72"/>
+</clipPath>
+</defs>
+<circle cx="110" cy="122" r="74" fill="#E6F5FF"/>
+<g clip-path="url(#clipMar)">
+<path d="M58 88 Q64 81 70 88 Q76 81 82 88" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 70 Q94 65 98 70 Q102 65 106 70" fill="none" stroke="#14142B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 128 Q40 114 60 128 T100 128 T140 128 T180 128 T220 128 L220 222 L20 222 Z" fill="#8FB0FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M114 126 Q120 121 126 126" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34 126 Q40 121 46 126" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 150 Q26 134 48 150 T92 150 T136 150 T180 150 T224 150 L224 222 L4 222 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M18 148 Q26 141 34 148" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M106 148 Q114 141 122 148" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194 148 Q202 141 210 148" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M130 174 m-14 0 a14 9 0 1 0 28 0 a14 9 0 1 0 -28 0 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M117 174 L105 165 L105 183 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="136" cy="172" r="2" fill="#14142B"/>
+<circle cx="84" cy="176" r="4" fill="#FFFFFF"/>
+<circle cx="94" cy="190" r="2.6" fill="#FFFFFF"/>
+<circle cx="74" cy="192" r="2" fill="#FFFFFF"/>
+</g>
+<circle cx="110" cy="122" r="74" fill="none" stroke="#14142B" stroke-width="4"/>
+<circle cx="166" cy="56" r="24" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="159" cy="54" rx="3.2" ry="4.2" fill="#14142B"/>
+<ellipse cx="173" cy="54" rx="3.2" ry="4.2" fill="#14142B"/>
+<ellipse cx="153" cy="63" rx="4" ry="2.6" fill="#FFB98A"/>
+<ellipse cx="179" cy="63" rx="4" ry="2.6" fill="#FFB98A"/>
+<path d="M160 62 Q166 68 172 62" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34 32 Q36.4 41.6 46 44 Q36.4 46.4 34 56 Q31.6 46.4 22 44 Q31.6 41.6 34 32 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M204 143 Q205.8 150.2 213 152 Q205.8 153.8 204 161 Q202.2 153.8 195 152 Q202.2 150.2 204 143 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="30" cy="192" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

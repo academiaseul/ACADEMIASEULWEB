@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 공책 · cuaderno -->
+  <use href="#kw-brillo" transform="translate(200 30) scale(9)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(20 98) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(203 124) scale(5)" fill="#FFFFFF"/>
+  <circle cx="110" cy="24" r="3" fill="#FFFFFF"/>
+  <circle cx="20" cy="150" r="2.5" fill="#FFFFFF"/>
+  <circle cx="204" cy="162" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="82" ry="7" fill="#D2CBFA"/>
+  <!-- tapa azul abierta, dos hojas de líneas, espiral al centro -->
+  <rect x="34" y="36" width="152" height="144" rx="12" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <rect x="40" y="42" width="66" height="130" rx="6" fill="#FFFDF8"/>
+  <rect x="114" y="42" width="66" height="130" rx="6" fill="#FFFDF8"/>
+  <path d="M96 43 L106 43 L106 171 L96 171 Z M114 43 L124 43 L124 171 L114 171 Z" fill="#E4E0FF"/>
+  <path d="M48 74 L98 74 M48 92 L98 92 M48 110 L98 110 M48 128 L98 128 M48 146 L98 146 M48 164 L98 164 M122 74 L172 74 M122 92 L172 92 M122 110 L172 110 M122 128 L172 128 M122 146 L172 146 M122 164 L172 164" fill="none" stroke="#A6D6FA" stroke-width="2.4" stroke-linecap="round"/>
+  <rect x="40" y="42" width="66" height="130" rx="6" fill="none" stroke="#003478" stroke-width="3"/>
+  <rect x="114" y="42" width="66" height="130" rx="6" fill="none" stroke="#003478" stroke-width="3"/>
+  <text x="72" y="69" text-anchor="middle" font-family="Jua, sans-serif" font-size="17" fill="#003478">가나다</text>
+  <path d="M60 87 L66 87 M54 105 L62 105" fill="none" stroke="#8FB6FF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M101 55 Q110 44 119 55 M101 71 Q110 60 119 71 M101 87 Q110 76 119 87 M101 103 Q110 92 119 103 M101 119 Q110 108 119 119 M101 135 Q110 124 119 135 M101 151 Q110 140 119 151 M101 167 Q110 156 119 167" fill="none" stroke="#003478" stroke-width="7" stroke-linecap="round"/>
+  <path d="M101 55 Q110 44 119 55 M101 71 Q110 60 119 71 M101 87 Q110 76 119 87 M101 103 Q110 92 119 103 M101 119 Q110 108 119 119 M101 135 Q110 124 119 135 M101 151 Q110 140 119 151 M101 167 Q110 156 119 167" fill="none" stroke="#D5D9E4" stroke-width="2.6" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(147 118) scale(0.8)"/>
+</svg>

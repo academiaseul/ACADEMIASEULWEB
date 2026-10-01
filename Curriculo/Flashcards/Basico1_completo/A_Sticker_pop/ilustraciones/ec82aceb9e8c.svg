@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 사람 · persona · Estilo A Sticker pop · persona de cuerpo entero, de pie, como en una señal -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M88 100 L66 142" fill="none" stroke-width="44"/>
+<path d="M132 100 L154 142" fill="none" stroke-width="44"/>
+<path d="M75 60 C72 30 90 18 110 18 C130 18 148 30 145 60 Z"/>
+<ellipse cx="110" cy="56" rx="33" ry="31"/>
+<rect x="80" y="90" width="60" height="58" rx="18"/>
+<rect x="88" y="140" width="19" height="50" rx="9"/>
+<rect x="113" y="140" width="19" height="50" rx="9"/>
+<ellipse cx="96" cy="192" rx="13" ry="7"/>
+<ellipse cx="124" cy="192" rx="13" ry="7"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M88 100 L66 142" fill="none" stroke-width="44"/>
+<path d="M132 100 L154 142" fill="none" stroke-width="44"/>
+<path d="M75 60 C72 30 90 18 110 18 C130 18 148 30 145 60 Z"/>
+<ellipse cx="110" cy="56" rx="33" ry="31"/>
+<rect x="80" y="90" width="60" height="58" rx="18"/>
+<rect x="88" y="140" width="19" height="50" rx="9"/>
+<rect x="113" y="140" width="19" height="50" rx="9"/>
+<ellipse cx="96" cy="192" rx="13" ry="7"/>
+<ellipse cx="124" cy="192" rx="13" ry="7"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M88 100 L66 142" fill="none" stroke-width="37"/>
+<path d="M132 100 L154 142" fill="none" stroke-width="37"/>
+<path d="M75 60 C72 30 90 18 110 18 C130 18 148 30 145 60 Z"/>
+<ellipse cx="110" cy="56" rx="33" ry="31"/>
+<rect x="80" y="90" width="60" height="58" rx="18"/>
+<rect x="88" y="140" width="19" height="50" rx="9"/>
+<rect x="113" y="140" width="19" height="50" rx="9"/>
+<ellipse cx="96" cy="192" rx="13" ry="7"/>
+<ellipse cx="124" cy="192" rx="13" ry="7"/>
+</g>
+<!-- pelo de atrás -->
+<path d="M75 60 C72 30 90 18 110 18 C130 18 148 30 145 60 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- brazos (mangas azules) y manos -->
+<path d="M88 100 L66 142" stroke="#14142B" stroke-width="24" stroke-linecap="round"/>
+<path d="M88 100 L66 142" stroke="#4236F6" stroke-width="16" stroke-linecap="round"/>
+<path d="M132 100 L154 142" stroke="#14142B" stroke-width="24" stroke-linecap="round"/>
+<path d="M132 100 L154 142" stroke="#4236F6" stroke-width="16" stroke-linecap="round"/>
+<circle cx="64" cy="146" r="9" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<circle cx="156" cy="146" r="9" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<!-- piernas navy y zapatos -->
+<rect x="88" y="140" width="19" height="50" rx="9" fill="#003478" stroke="#14142B" stroke-width="4"/>
+<rect x="113" y="140" width="19" height="50" rx="9" fill="#003478" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="96" cy="192" rx="13" ry="7" fill="#5E6280" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="124" cy="192" rx="13" ry="7" fill="#5E6280" stroke="#14142B" stroke-width="4"/>
+<!-- cuello y cuerpo (polera azul de la marca, cuello en V blanco) -->
+<rect x="102" y="80" width="16" height="14" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<rect x="80" y="90" width="60" height="58" rx="18" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M100 91 L110 102 L120 91 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M90 108 L90 132" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<!-- cabeza, flequillo, brillo -->
+<ellipse cx="110" cy="56" rx="33" ry="31" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<path d="M78 60 C75 36 90 26 110 26 C130 26 145 36 142 60 C136 48 126 42 112 42 C104 48 92 50 84 48 C81 52 79 55 78 60 Z" fill="#14142B"/>
+<path d="M142 60 C136 48 126 42 112 42 C104 48 92 50 84 48 C81 52 79 55 78 60" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M94 26 Q104 22 114 23" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- cara de la casa (110,62) s 0.72 -->
+<ellipse cx="99.92" cy="62" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="120.08" cy="62" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="101.5" cy="59.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="121.66" cy="59.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="91.28" cy="72.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="128.72" cy="72.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M104.24 71.36 Q110 80 115.76 71.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M36 28 Q38.4 37.6 48 40 Q38.4 42.4 36 52 Q33.6 42.4 24 40 Q33.6 37.6 36 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M186 97 Q187.8 104.2 195 106 Q187.8 107.8 186 115 Q184.2 107.8 177 106 Q184.2 104.2 186 97 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="36" cy="168" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="할아버지" data-es="abuelo">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 165 C 88 172, 150 172, 196 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo: camisa -->
+    <path d="M86 92 C 70 104, 64 130, 62 162 L146 162 C 144 130, 138 104, 122 92 Z" fill="#1F3B33"/>
+    <path d="M86 92 C 70 104, 64 130, 62 162 L146 162 C 144 130, 138 104, 122 92 Z" fill="url(#rt)"/>
+    <!-- chaleco: dos paneles con trama fuerte y botones -->
+    <path d="M90 94 C 76 106, 68 132, 66 162 H104 V116 Z" fill="#1F3B33"/>
+    <path d="M90 94 C 76 106, 68 132, 66 162 H104 V116 Z" fill="url(#rb)" stroke-width="2.6"/>
+    <path d="M118 94 C 132 106, 140 132, 142 162 H104 V116 Z" fill="#1F3B33"/>
+    <path d="M118 94 C 132 106, 140 132, 142 162 H104 V116 Z" fill="url(#rb)" stroke-width="2.6"/>
+    <path d="M96 93 L101 101 M112 93 L107 101" stroke-width="2.2"/>
+    <circle cx="104" cy="128" r="2.8" fill="#1F3B33" stroke-width="2"/>
+    <circle cx="104" cy="142" r="2.8" fill="#1F3B33" stroke-width="2"/>
+    <!-- bastón dorado -->
+    <path d="M164 162 L158 112 C 157 100, 172 97, 175 108" stroke="#E8B84B" stroke-width="3.8"/>
+    <!-- brazos: uno abajo, el otro en el bastón -->
+    <path d="M84 100 C 70 112, 64 130, 66 146"/>
+    <circle cx="66" cy="149" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M124 100 C 138 102, 148 106, 155 110"/>
+    <circle cx="158" cy="110" r="4.2" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza, pelo canoso, cejas, anteojos y bigote blanco -->
+    <circle cx="104" cy="62" r="29" fill="#1F3B33"/>
+    <path d="M75 64 C 74 45, 88 31, 104 31 C 120 31, 134 45, 133 64 C 130 56, 126 51, 121 49 C 113 52, 95 52, 87 49 C 82 51, 78 56, 75 64 Z" fill="url(#rb)" stroke-width="2.4"/>
+    <path d="M89 58 Q95 54.5 101 58 M107 58 Q113 54.5 119 58" stroke-width="2.6"/>
+    <use href="#cara-feliz" transform="translate(104 70) scale(0.82)"/>
+    <circle cx="95" cy="69" r="7" stroke-width="2.2"/>
+    <circle cx="113" cy="69" r="7" stroke-width="2.2"/>
+    <path d="M102 68 Q104 66 106 68 M88 68 L77 65 M120 68 L131 65" stroke-width="2.2"/>
+    <path d="M104 75 C 99.4 72.3, 93.1 73.2, 91.2 77.7 C 95.8 78.7, 100.4 78.2, 104 76.4 C 107.6 78.2, 112.2 78.7, 116.8 77.7 C 114.9 73.2, 108.6 72.3, 104 75 Z" fill="url(#rb)" stroke-width="2"/>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(36 42) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(184 40) scale(0.7)"/>
+    <use href="#estrella" transform="translate(32 124) scale(0.6)"/>
+  </g>
+</svg>

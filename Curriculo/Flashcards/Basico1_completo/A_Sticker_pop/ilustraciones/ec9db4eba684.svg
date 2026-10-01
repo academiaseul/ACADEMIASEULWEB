@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 이름 · nombre · Estilo A Sticker pop · credencial "Hola, me llamo…" en blanco, colgando de su cinta -->
+<defs><clipPath id="clipCredencial"><rect x="54" y="84" width="112" height="106" rx="14"/></clipPath></defs>
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M102 80 L76 38 Q110 16 144 38 L118 80" fill="none" stroke-width="38"/>
+<rect x="54" y="84" width="112" height="106" rx="14"/>
+<rect x="98" y="72" width="24" height="20" rx="5"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M102 80 L76 38 Q110 16 144 38 L118 80" fill="none" stroke-width="38"/>
+<rect x="54" y="84" width="112" height="106" rx="14"/>
+<rect x="98" y="72" width="24" height="20" rx="5"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M102 80 L76 38 Q110 16 144 38 L118 80" fill="none" stroke-width="31"/>
+<rect x="54" y="84" width="112" height="106" rx="14"/>
+<rect x="98" y="72" width="24" height="20" rx="5"/>
+</g>
+<!-- cinta (azul marca) -->
+<path d="M102 80 L76 38 Q110 16 144 38 L118 80" fill="none" stroke="#14142B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M102 80 L76 38 Q110 16 144 38 L118 80" fill="none" stroke="#4236F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M92 30 Q104 25 116 25" stroke="#8FB0FF" stroke-width="3" stroke-linecap="round"/>
+<!-- tarjeta blanca con cabecera azul -->
+<rect x="54" y="84" width="112" height="106" rx="14" fill="#FFFFFF"/>
+<g clip-path="url(#clipCredencial)">
+<rect x="50" y="80" width="120" height="34" fill="#4236F6"/>
+<path d="M50 114 L170 114" stroke="#14142B" stroke-width="4"/>
+</g>
+<rect x="54" y="84" width="112" height="106" rx="14" fill="none" stroke="#14142B" stroke-width="4"/>
+<!-- pinza dorada -->
+<rect x="98" y="72" width="24" height="20" rx="5" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<path d="M104 82 L116 82" stroke="#B9861E" stroke-width="3" stroke-linecap="round"/>
+<!-- línea en blanco para escribir el nombre -->
+<path d="M80 176 L140 176" stroke="#B3B8D6" stroke-width="5" stroke-linecap="round"/>
+<!-- cara de la casa (110,138) s=0.85 -->
+<ellipse cx="98.1" cy="138" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="138" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="135.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="135.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="149.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="149.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 149.05 Q110 159.25 116.8 149.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M30 32 Q32.4 41.6 42 44 Q32.4 46.4 30 56 Q27.6 46.4 18 44 Q27.6 41.6 30 32 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 40 Q196 48 204 50 Q196 52 194 60 Q192 52 184 50 Q192 48 194 40 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 124 Q197.6 130.4 204 132 Q197.6 133.6 196 140 Q194.4 133.6 188 132 Q194.4 130.4 196 124 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="28" cy="150" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

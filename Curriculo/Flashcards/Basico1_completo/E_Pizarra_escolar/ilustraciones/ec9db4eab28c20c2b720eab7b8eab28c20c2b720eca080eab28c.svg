@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="이게 · 그게 · 저게" data-es="esto · eso · aquello (en 이게 뭐예요?)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 166 C 70 172, 150 172, 208 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- quien pregunta (izquierda), curiosa, señala la caja -->
+    <path d="M34 92 C 22 106, 18 138, 16 162 L 80 162 C 78 138, 74 106, 62 92 Z" fill="#1F3B33"/>
+    <path d="M34 92 C 22 106, 18 138, 16 162 L 80 162 C 78 138, 74 106, 62 92 Z" fill="url(#rt)"/>
+    <path d="M38 93 Q48 100 58 93" stroke-width="2.2"/>
+    <path d="M28 106 C 20 120, 18 134, 20 146"/>
+    <circle cx="20.5" cy="149" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M68 104 C 80 100, 90 96, 98 95"/>
+    <circle cx="100" cy="94.5" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M103.5 95.5 L109 98" stroke-width="2.6"/>
+    <circle cx="48" cy="70" r="23" fill="#1F3B33"/>
+    <path d="M25 68 C 24 52, 36 45, 48 45 C 61 45, 72 52, 71 68 C 68 62, 62 58, 54 58 L 50 53 L 45 58 C 36 58, 29 62, 25 68 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-sorpresa" transform="translate(48 78) scale(0.64)"/>
+    <!-- quien sostiene la caja (derecha) -->
+    <path d="M143 72 C 139 96, 143 106, 150 110 L 186 110 C 193 106, 197 96, 193 72 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M154 96 C 142 110, 138 138, 136 162 L 200 162 C 198 138, 194 110, 182 96 Z" fill="#1F3B33"/>
+    <path d="M154 96 C 142 110, 138 138, 136 162 L 200 162 C 198 138, 194 110, 182 96 Z" fill="url(#rt)"/>
+    <path d="M158 97 Q168 104 178 97" stroke-width="2.2"/>
+    <path d="M150 106 C 140 114, 128 122, 116 130"/>
+    <circle cx="168" cy="74" r="23" fill="#1F3B33"/>
+    <path d="M145 74 C 146 58, 157 51, 168 51 C 180 51, 191 58, 191 74 C 182 70, 174 64, 170 57 C 164 65, 155 70, 145 74 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(168 82) scale(0.64)"/>
+    <!-- la caja tapada con un paño -->
+    <path d="M118 140 V148 H156 V140" fill="#1F3B33"/>
+    <path d="M118 140 V148 H156 V140 Z" fill="url(#rt)"/>
+    <path d="M112 142 L 114 112 C 114 104, 120 100, 128 100 L 146 100 C 154 100, 160 104, 160 112 L 162 142 C 156 138, 150 144, 144 140 C 138 144, 132 138, 126 142 C 120 138, 116 144, 112 142 Z" fill="#1F3B33"/>
+    <path d="M112 142 L 114 112 C 114 104, 120 100, 128 100 L 146 100 C 154 100, 160 104, 160 112 L 162 142 C 156 138, 150 144, 144 140 C 138 144, 132 138, 126 142 C 120 138, 116 144, 112 142 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M125 106 C 122 118, 122 128, 124 137 M148 106 C 151 118, 151 128, 149 137" stroke="#E8B84B" stroke-width="1.8" stroke-opacity="0.85"/>
+    <circle cx="137" cy="97" r="3.4" fill="#E8B84B" stroke="none"/>
+    <circle cx="113" cy="132" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M190 108 C 194 122, 180 132, 164 134"/>
+    <circle cx="161" cy="134" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- signo de pregunta dorado sobre la caja -->
+    <path d="M119 58 C 119 48, 137 48, 137 58 C 137 66, 128 67, 128 75" stroke="#E8B84B" stroke-width="4"/>
+    <circle cx="128" cy="85" r="2.8" fill="#E8B84B" stroke="none"/>
+    <use href="#estrella" transform="translate(24 28) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(200 26) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(96 150) scale(0.55)"/>
+  </g>
+</svg>

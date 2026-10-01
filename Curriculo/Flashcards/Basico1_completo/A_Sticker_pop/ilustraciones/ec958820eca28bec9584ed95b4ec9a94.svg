@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 안 좋아해요 · no me gusta · Estilo A Sticker pop · carita seria (cejas bajas, boca hacia abajo) + mano con el pulgar abajo -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="86" cy="96" r="54"/>
+<rect x="136" y="82" width="40" height="24" rx="6"/>
+<path d="M128 118 Q128 102 144 102 L166 102 Q182 102 182 118 L182 136 Q182 152 166 152 L158 152 L158 172 Q158 186 145 186 Q132 186 132 172 L132 150 Q128 146 128 140 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="86" cy="96" r="54"/>
+<rect x="136" y="82" width="40" height="24" rx="6"/>
+<path d="M128 118 Q128 102 144 102 L166 102 Q182 102 182 118 L182 136 Q182 152 166 152 L158 152 L158 172 Q158 186 145 186 Q132 186 132 172 L132 150 Q128 146 128 140 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="86" cy="96" r="54"/>
+<rect x="136" y="82" width="40" height="24" rx="6"/>
+<path d="M128 118 Q128 102 144 102 L166 102 Q182 102 182 118 L182 136 Q182 152 166 152 L158 152 L158 172 Q158 186 145 186 Q132 186 132 172 L132 150 Q128 146 128 140 Z"/>
+</g>
+<!-- carita redonda celeste con brillo -->
+<circle cx="86" cy="96" r="54" fill="#9FD8FF" stroke="#14142B" stroke-width="4"/>
+<path d="M46 82 Q50 62 68 52" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<!-- cara seria en (82,100), s = 1: mismos ojos, brillos y mejillas; cejas bajas y boca hacia abajo -->
+<path d="M59 83 L74 87" fill="none" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M90 87 L105 83" fill="none" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="68" cy="100" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="96" cy="100" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="70.2" cy="96.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="98.2" cy="96.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="56" cy="114" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="108" cy="114" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M73 123 Q82 114 91 123" fill="none" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- manga azul (arriba) -->
+<rect x="136" y="82" width="40" height="24" rx="6" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M144 92 L168 92" fill="none" stroke="#DCE0FA" stroke-width="3" stroke-linecap="round"/>
+<!-- mano (mitón) con el pulgar hacia abajo -->
+<path d="M128 118 Q128 102 144 102 L166 102 Q182 102 182 118 L182 136 Q182 152 166 152 L158 152 L158 172 Q158 186 145 186 Q132 186 132 172 L132 150 Q128 146 128 140 Z" fill="#C98A5E" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M158 152 Q156 142 142 140" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M164 116 L178 116" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M164 128 L178 128" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M164 140 L178 140" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M34 158 Q36.4 167.6 46 170 Q36.4 172.4 34 182 Q31.6 172.4 22 170 Q31.6 167.6 34 158 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M184 30 Q186 38 194 40 Q186 42 184 50 Q182 42 174 40 Q182 38 184 30 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="30" cy="32" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

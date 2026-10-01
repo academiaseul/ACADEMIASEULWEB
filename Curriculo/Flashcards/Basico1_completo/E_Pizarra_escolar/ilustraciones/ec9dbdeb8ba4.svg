@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="읽다" data-es="leer">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 166 C 84 172, 150 172, 196 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- respaldo del sillón -->
+    <path d="M56 116 C 52 60, 72 26, 110 26 C 148 26, 168 60, 164 116 Z" fill="#1F3B33"/>
+    <path d="M56 116 C 52 60, 72 26, 110 26 C 148 26, 168 60, 164 116 Z" fill="url(#rt)"/>
+    <!-- cuerpo -->
+    <path d="M88 92 C 76 102, 70 122, 70 144 L150 144 C 150 122, 144 102, 132 92 Z" fill="#1F3B33"/>
+    <path d="M100 93 Q110 102 120 93" stroke-width="2.2"/>
+    <!-- cabeza, pelo corto y cara -->
+    <circle cx="110" cy="64" r="26" fill="#1F3B33"/>
+    <path d="M84 62 C 84 46, 96 37, 110 37 C 124 37, 136 46, 136 62 C 130 55, 120 51, 112 53 C 104 49, 92 54, 84 62 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(110 72) scale(0.74)"/>
+    <!-- brazos (van detrás del libro) -->
+    <path d="M90 98 C 80 104, 76 110, 77 116 M130 98 C 140 104, 144 110, 143 116"/>
+    <!-- libro abierto: tapa dorada y dos páginas con renglones -->
+    <path d="M110 112 C 98 104, 84 102, 72 104 L72 132 C 84 130, 98 132, 110 138 C 122 132, 136 130, 148 132 L148 104 C 136 102, 122 104, 110 112 Z" fill="#1F3B33"/>
+    <path d="M110 112 C 98 104, 84 102, 72 104 L72 132 C 84 130, 98 132, 110 138 C 122 132, 136 130, 148 132 L148 104 C 136 102, 122 104, 110 112 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M110 110 C 100 102, 88 100, 77 101 L77 128 C 88 127, 100 129, 110 134 Z" fill="#1F3B33" stroke-width="2.4"/>
+    <path d="M110 110 C 120 102, 132 100, 143 101 L143 128 C 132 127, 120 129, 110 134 Z" fill="#1F3B33" stroke-width="2.4"/>
+    <path d="M84 109 C 92 108, 100 110, 105 113 M84 116 C 92 115, 100 117, 105 120 M84 123 C 90 122, 96 123, 101 125" stroke-width="1.8" stroke-opacity="0.75"/>
+    <path d="M136 109 C 128 108, 120 110, 115 113 M136 116 C 128 115, 120 117, 115 120 M136 123 C 130 122, 124 123, 119 125" stroke-width="1.8" stroke-opacity="0.75"/>
+    <!-- manos que sostienen el libro -->
+    <circle cx="76" cy="118" r="4" fill="#F3F0E4" stroke="none"/>
+    <circle cx="144" cy="118" r="4" fill="#F3F0E4" stroke="none"/>
+    <!-- apoyabrazos, cojín del asiento, base y patas -->
+    <path d="M38 152 V114 C 38 104, 66 104, 66 114 V152 Z" fill="#1F3B33"/>
+    <path d="M38 152 V114 C 38 104, 66 104, 66 114 V152 Z" fill="url(#rt)"/>
+    <path d="M154 152 V114 C 154 104, 182 104, 182 114 V152 Z" fill="#1F3B33"/>
+    <path d="M154 152 V114 C 154 104, 182 104, 182 114 V152 Z" fill="url(#rt)"/>
+    <path d="M66 140 H154 V152 H66 Z" fill="#1F3B33"/>
+    <path d="M66 140 H154 V152 H66 Z" fill="url(#rt)"/>
+    <path d="M36 152 H184 V157 H36 Z" fill="#1F3B33"/>
+    <path d="M46 157 L44 164 M174 157 L176 164" stroke-width="3.4"/>
+    <use href="#estrella" transform="translate(30 38) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(192 42) scale(0.65)"/>
+    <use href="#estrella" transform="translate(198 112) scale(0.6)"/>
+  </g>
+</svg>

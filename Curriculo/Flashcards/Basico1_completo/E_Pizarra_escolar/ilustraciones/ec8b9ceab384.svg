@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="시계" data-es="reloj">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- clavo de la pared -->
+    <path d="M110 34 V20" stroke-width="2.6"/>
+    <circle cx="110" cy="17" r="3" fill="#F3F0E4" stroke="none"/>
+    <!-- marco dorado y esfera -->
+    <circle cx="110" cy="92" r="58" fill="#1F3B33" stroke="none"/>
+    <circle cx="110" cy="92" r="58" fill="url(#rd)" stroke="#E8B84B" stroke-width="3"/>
+    <circle cx="110" cy="92" r="48" fill="#1F3B33"/>
+    <!-- marcas de las horas: 12, 3 y 9 en raya; las demás en punto -->
+    <path d="M110 48 V55 M154 92 H147 M66 92 H73" stroke-width="3"/>
+    <circle cx="131.5" cy="54.8" r="1.9" fill="#F3F0E4" stroke="none"/>
+    <circle cx="147.2" cy="70.5" r="1.9" fill="#F3F0E4" stroke="none"/>
+    <circle cx="147.2" cy="113.5" r="1.9" fill="#F3F0E4" stroke="none"/>
+    <circle cx="131.5" cy="129.2" r="1.9" fill="#F3F0E4" stroke="none"/>
+    <circle cx="110" cy="135" r="1.9" fill="#F3F0E4" stroke="none"/>
+    <circle cx="88.5" cy="129.2" r="1.9" fill="#F3F0E4" stroke="none"/>
+    <circle cx="72.8" cy="113.5" r="1.9" fill="#F3F0E4" stroke="none"/>
+    <circle cx="72.8" cy="70.5" r="1.9" fill="#F3F0E4" stroke="none"/>
+    <circle cx="88.5" cy="54.8" r="1.9" fill="#F3F0E4" stroke="none"/>
+    <!-- las tres en punto: minutero arriba, horario a la derecha -->
+    <path d="M110 92 V60" stroke-width="3.4"/>
+    <path d="M110 92 H136" stroke-width="4.4"/>
+    <circle cx="110" cy="92" r="4.2" fill="#E8B84B" stroke="none"/>
+    <use href="#cara" transform="translate(110 114) scale(0.68)"/>
+    <!-- tic tac: líneas de vibración a los lados -->
+    <path d="M40 74 C 34 84, 34 100, 40 110 M30 68 C 22 82, 22 102, 30 116" stroke-width="2.2" stroke-opacity="0.8"/>
+    <path d="M180 74 C 186 84, 186 100, 180 110 M190 68 C 198 82, 198 102, 190 116" stroke-width="2.2" stroke-opacity="0.8"/>
+    <use href="#estrella" transform="translate(40 34) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(182 32) scale(0.65)"/>
+    <use href="#estrella" transform="translate(186 146) scale(0.6)"/>
+  </g>
+</svg>

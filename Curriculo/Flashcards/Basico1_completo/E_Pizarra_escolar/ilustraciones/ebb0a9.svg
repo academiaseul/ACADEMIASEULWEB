@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="방" data-es="pieza, habitación">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- la pieza como una caja abierta: piso, pared del fondo y aristas -->
+    <path d="M54 124 H166 L200 160 H20 Z" fill="url(#rt)" stroke="none"/>
+    <path d="M54 34 L20 12 M166 34 L200 12 M54 124 L20 160 M166 124 L200 160" stroke-width="2.4" stroke-opacity="0.8"/>
+    <path d="M20 160 H200" stroke-width="2.6"/>
+    <path d="M54 34 H166 V124 H54 Z" fill="#1F3B33"/>
+    <!-- ventana con cielo -->
+    <path d="M88 44 H132 V80 H88 Z" fill="url(#ra)"/>
+    <path d="M110 44 V80 M88 62 H132" stroke-width="2.4"/>
+    <!-- cara en la pared -->
+    <use href="#cara" transform="translate(110 96) scale(0.66)"/>
+    <!-- alfombra dorada -->
+    <ellipse cx="110" cy="142" rx="28" ry="7" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- cama a la izquierda -->
+    <path d="M24 98 C 24 88, 38 88, 38 98 V152 H24 Z" fill="#1F3B33"/>
+    <path d="M24 98 C 24 88, 38 88, 38 98 V152 H24 Z" fill="url(#rt)"/>
+    <path d="M38 116 H96 V134 H38 Z" fill="#1F3B33"/>
+    <path d="M38 116 H96 V134 H38 Z" fill="url(#rt)"/>
+    <path d="M40 108 C 40 104, 42 102, 46 102 H58 C 62 102, 64 104, 64 108 V112 C 64 115, 62 117, 58 117 H46 C 42 117, 40 115, 40 112 Z" fill="#1F3B33"/>
+    <path d="M40 108 C 40 104, 42 102, 46 102 H58 C 62 102, 64 104, 64 108 V112 C 64 115, 62 117, 58 117 H46 C 42 117, 40 115, 40 112 Z" fill="url(#rb)" stroke-width="2.4"/>
+    <path d="M62 112 C 74 109, 88 109, 96 113 V136 H62 Z" fill="#1F3B33"/>
+    <path d="M62 112 C 74 109, 88 109, 96 113 V136 H62 Z" fill="url(#rt)"/>
+    <path d="M62 124 C 74 122, 88 122, 96 124" stroke="#E8B84B" stroke-width="3"/>
+    <path d="M42 134 V152 M92 136 V152" stroke-width="3.2"/>
+    <!-- escritorio a la derecha con libro -->
+    <path d="M128 110 H188 V117 H128 Z" fill="#1F3B33"/>
+    <path d="M128 110 H188 V117 H128 Z" fill="url(#rt)"/>
+    <path d="M133 117 V154 M183 117 V154" stroke-width="3"/>
+    <path d="M160 117 H183 V134 H160 Z" fill="#1F3B33"/>
+    <circle cx="171.5" cy="125.5" r="2.4" fill="#E8B84B" stroke="none"/>
+    <path d="M138 110 V100 H156 V110" fill="#1F3B33" stroke-width="2.4"/>
+    <path d="M142 104 H152" stroke-width="1.6" stroke-opacity="0.7"/>
+    <use href="#estrella" transform="translate(30 50) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(190 50) scale(0.6)"/>
+  </g>
+</svg>

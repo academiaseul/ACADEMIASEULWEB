@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="쉬다" data-es="descansar">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 166 C 80 172, 150 172, 200 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- respaldo del sofá -->
+    <path d="M44 132 V84 C 44 70, 52 64, 66 64 H154 C 168 64, 176 70, 176 84 V132 Z" fill="#1F3B33"/>
+    <path d="M44 132 V84 C 44 70, 52 64, 66 64 H154 C 168 64, 176 70, 176 84 V132 Z" fill="url(#rt)"/>
+    <!-- cuerpo apoyado en el respaldo -->
+    <path d="M90 102 C 80 112, 76 124, 76 134 L144 134 C 144 124, 140 112, 130 102 Z" fill="#1F3B33"/>
+    <path d="M90 102 C 80 112, 76 124, 76 134 L144 134 C 144 124, 140 112, 130 102 Z" fill="url(#rt)"/>
+    <path d="M100 103 Q110 110 120 103" stroke-width="2.4"/>
+    <!-- cabeza ladeada, ojos cerrados de gusto -->
+    <g transform="rotate(-8 110 76)">
+      <circle cx="110" cy="76" r="26" fill="#1F3B33"/>
+      <path d="M84 76 C 82 58, 94 50, 110 50 C 126 50, 138 58, 136 76 C 132 69, 127 64, 121 62 C 113 65, 100 63, 94 57 C 90 64, 87 70, 84 76 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <use href="#cara-dormida" transform="translate(110 84) scale(0.72)"/>
+    </g>
+    <!-- cojín del asiento -->
+    <path d="M50 128 H170 C 174 128, 176 131, 176 134 V148 H44 V134 C 44 131, 46 128, 50 128 Z" fill="#1F3B33"/>
+    <path d="M50 128 H170 C 174 128, 176 131, 176 134 V148 H44 V134 C 44 131, 46 128, 50 128 Z" fill="url(#rt)"/>
+    <path d="M110 130 V146" stroke-width="1.8" stroke-opacity="0.6"/>
+    <!-- base y patas del sofá -->
+    <path d="M26 150 H194" stroke-width="3"/>
+    <path d="M34 150 V160 M186 150 V160" stroke-width="3.6"/>
+    <!-- piernas -->
+    <path d="M90 130 H106 V154 H90 Z" fill="#1F3B33"/>
+    <path d="M90 130 H106 V154 H90 Z" fill="url(#rt)"/>
+    <path d="M114 130 H130 V154 H114 Z" fill="#1F3B33"/>
+    <path d="M114 130 H130 V154 H114 Z" fill="url(#rt)"/>
+    <ellipse cx="97" cy="158" rx="10" ry="5" fill="#1F3B33"/>
+    <ellipse cx="123" cy="158" rx="10" ry="5" fill="#1F3B33"/>
+    <!-- apoyabrazos -->
+    <path d="M26 104 C 26 94, 46 94, 46 104 V150 H26 Z" fill="#1F3B33"/>
+    <path d="M26 104 C 26 94, 46 94, 46 104 V150 H26 Z" fill="url(#rt)"/>
+    <path d="M174 104 C 174 94, 194 94, 194 104 V150 H174 Z" fill="#1F3B33"/>
+    <path d="M174 104 C 174 94, 194 94, 194 104 V150 H174 Z" fill="url(#rt)"/>
+    <!-- brazo izquierdo descansando en el apoyabrazos -->
+    <path d="M88 108 C 74 106, 56 98, 42 99"/>
+    <circle cx="39" cy="99" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- taza de té en la otra mano, con vapor -->
+    <path d="M138 104 H154 V120 C 154 124, 151 126, 147 126 H145 C 141 126, 138 124, 138 120 Z" fill="#1F3B33"/>
+    <path d="M138 104 H154 V120 C 154 124, 151 126, 147 126 H145 C 141 126, 138 124, 138 120 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M154 108 C 162 108, 162 119, 154 119" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M130 106 C 128 116, 131 122, 137 119"/>
+    <circle cx="138" cy="118" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M141 98 C 137 92, 145 88, 141 80 M147 98 C 143 92, 151 88, 147 78 M153 98 C 149 92, 157 88, 153 80" stroke-width="2.2" stroke-opacity="0.85"/>
+    <use href="#nota" transform="translate(186 50) scale(0.8)"/>
+    <use href="#estrella" transform="translate(32 44) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(70 30) scale(0.6)"/>
+  </g>
+</svg>

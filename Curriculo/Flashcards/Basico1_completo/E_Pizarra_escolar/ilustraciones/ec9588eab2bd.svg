@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="안경" data-es="lentes, anteojos">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 168 C 88 174, 150 174, 196 164" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- patillas abiertas hacia atrás (van primero) -->
+    <path d="M41 112 L 58 70 C 60 64, 66 64, 67 70 L 68 78"/>
+    <path d="M179 112 L 162 70 C 160 64, 154 64, 153 70 L 152 78"/>
+    <!-- vidrios redondos -->
+    <circle cx="70" cy="120" r="30" fill="#1F3B33"/>
+    <circle cx="70" cy="120" r="30" fill="url(#ra)" stroke-width="3.4"/>
+    <circle cx="150" cy="120" r="30" fill="#1F3B33"/>
+    <circle cx="150" cy="120" r="30" fill="url(#ra)" stroke-width="3.4"/>
+    <!-- brillos -->
+    <path d="M52 114 C 54 104, 60 98, 68 96" stroke-width="2.6"/>
+    <path d="M132 114 C 134 104, 140 98, 148 96" stroke-width="2.6"/>
+    <!-- puente y bisagras doradas -->
+    <path d="M100 114 C 104 104, 116 104, 120 114" stroke="#E8B84B" stroke-width="3.6"/>
+    <circle cx="41" cy="112" r="3.6" fill="#E8B84B" stroke="none"/>
+    <circle cx="179" cy="112" r="3.6" fill="#E8B84B" stroke="none"/>
+    <use href="#estrella" transform="translate(28 40) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(192 40) scale(0.65)"/>
+    <use href="#estrella" transform="translate(110 30) scale(0.6)"/>
+  </g>
+</svg>

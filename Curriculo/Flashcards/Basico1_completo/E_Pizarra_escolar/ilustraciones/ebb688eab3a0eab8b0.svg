@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="불고기" data-es="bulgogi (carne marinada)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- plato -->
+    <ellipse cx="110" cy="148" rx="86" ry="16" fill="#1F3B33"/>
+    <ellipse cx="110" cy="148" rx="86" ry="16" fill="url(#rt)"/>
+    <ellipse cx="110" cy="148" rx="66" ry="9" stroke-width="2" stroke-opacity="0.7"/>
+    <!-- vapor -->
+    <path d="M90 62 C 84 54, 95 48, 89 38 M108 58 C 102 50, 113 44, 107 34 M126 62 C 120 54, 131 48, 125 38" stroke-width="2.2" stroke-opacity="0.85"/>
+    <!-- montón de tiras de carne marinada -->
+    <path d="M40 146 C 38 128, 48 112, 62 106 C 64 94, 78 86, 92 88 C 98 78, 114 76, 124 84 C 136 78, 152 84, 156 96 C 170 100, 180 116, 180 146 C 150 152, 70 152, 40 146 Z" fill="#1F3B33"/>
+    <path d="M40 146 C 38 128, 48 112, 62 106 C 64 94, 78 86, 92 88 C 98 78, 114 76, 124 84 C 136 78, 152 84, 156 96 C 170 100, 180 116, 180 146 C 150 152, 70 152, 40 146 Z" fill="url(#rd)"/>
+    <!-- tiras onduladas -->
+    <path d="M52 124 q 6 -6 12 0 t 12 0 M140 112 q 6 -6 12 0 t 12 0 M86 99 q 6 -5 12 0 t 12 0 M140 138 q 6 -6 12 0 t 12 0 M50 140 q 6 -5 12 0 t 12 0" stroke-width="2" stroke-opacity="0.8"/>
+    <!-- cebollín en rodajas (menta) -->
+    <ellipse cx="72" cy="104" rx="4.6" ry="3.2" fill="#1F3B33" stroke="#9ED9B0" stroke-width="2.2"/>
+    <ellipse cx="120" cy="90" rx="4.6" ry="3.2" fill="#1F3B33" stroke="#9ED9B0" stroke-width="2.2"/>
+    <ellipse cx="160" cy="104" rx="4.6" ry="3.2" fill="#1F3B33" stroke="#9ED9B0" stroke-width="2.2"/>
+    <ellipse cx="58" cy="132" rx="4.6" ry="3.2" fill="#1F3B33" stroke="#9ED9B0" stroke-width="2.2"/>
+    <path d="M136 94 l 9 -5 M160 122 l 8 4 M80 116 l -8 4" stroke="#9ED9B0" stroke-width="2.6"/>
+    <!-- semillas de sésamo -->
+    <g fill="#F3F0E4" stroke="none">
+      <ellipse cx="98" cy="108" rx="2.4" ry="1.5" transform="rotate(-20 98 108)"/>
+      <ellipse cx="128" cy="104" rx="2.4" ry="1.5" transform="rotate(25 128 104)"/>
+      <ellipse cx="146" cy="99" rx="2.4" ry="1.5"/>
+      <ellipse cx="66" cy="116" rx="2.4" ry="1.5" transform="rotate(30 66 116)"/>
+      <ellipse cx="168" cy="128" rx="2.4" ry="1.5" transform="rotate(-30 168 128)"/>
+      <ellipse cx="80" cy="138" rx="2.4" ry="1.5" transform="rotate(15 80 138)"/>
+      <ellipse cx="108" cy="92" rx="2.4" ry="1.5" transform="rotate(-10 108 92)"/>
+    </g>
+    <use href="#cara" transform="translate(110 124) scale(0.9)"/>
+    <!-- palillos que levantan una tira de carne -->
+    <path d="M154 64 C 146 72, 156 80, 148 90 C 142 98, 150 104, 146 110 L154 110 C 158 104, 150 98, 156 90 C 164 80, 154 72, 162 66 Z" fill="#1F3B33"/>
+    <path d="M154 64 C 146 72, 156 80, 148 90 C 142 98, 150 104, 146 110 L154 110 C 158 104, 150 98, 156 90 C 164 80, 154 72, 162 66 Z" fill="url(#rd)" stroke-width="2.4"/>
+    <path d="M200 18 L154 64 M207 26 L162 68" stroke="#E8B84B" stroke-width="3.2"/>
+    <use href="#estrella" transform="translate(36 56) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(64 26) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(28 106) scale(0.55)"/>
+  </g>
+</svg>

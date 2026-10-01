@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="자다" data-es="dormir (자요)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 166 C 70 172, 150 172, 208 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- luna dorada y "z z z" de tiza -->
+    <path d="M186 26 A 18 18 0 1 0 199 52 A 16 16 0 0 1 186 26 Z" fill="#1F3B33"/>
+    <path d="M186 26 A 18 18 0 1 0 199 52 A 16 16 0 0 1 186 26 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M100 70 H107 L100 77 H107" stroke-width="2.4"/>
+    <path d="M114 50 H124 L114 60 H124" stroke-width="2.8"/>
+    <path d="M132 24 H145 L132 37 H145" stroke-width="3.2"/>
+    <!-- cabecera y pie de la cama -->
+    <path d="M20 162 V86 C 20 72, 42 72, 42 86 V162 Z" fill="#1F3B33"/>
+    <path d="M20 162 V86 C 20 72, 42 72, 42 86 V162 Z" fill="url(#rt)"/>
+    <path d="M184 162 V112 C 184 102, 200 102, 200 112 V162 Z" fill="#1F3B33"/>
+    <path d="M184 162 V112 C 184 102, 200 102, 200 112 V162 Z" fill="url(#rt)"/>
+    <!-- colchón -->
+    <rect x="40" y="118" width="146" height="24" rx="3" fill="#1F3B33"/>
+    <rect x="40" y="118" width="146" height="24" rx="3" fill="url(#rt)"/>
+    <!-- almohada -->
+    <ellipse cx="68" cy="110" rx="26" ry="11" fill="#1F3B33"/>
+    <ellipse cx="68" cy="110" rx="26" ry="11" fill="url(#rt)"/>
+    <!-- cabeza dormida sobre la almohada -->
+    <circle cx="72" cy="92" r="22" fill="#1F3B33"/>
+    <path d="M50 92 C 48 78, 58 70, 72 70 C 86 70, 95 78, 94 90 C 88 85, 80 82, 74 82 C 66 82, 56 86, 50 92 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-dormida" transform="translate(73 97) scale(0.62)"/>
+    <!-- frazada sobre el cuerpo, con costuras -->
+    <path d="M88 120 C 88 106, 98 98, 116 98 C 140 98, 160 100, 172 106 C 180 110, 186 114, 186 120 V146 H88 Z" fill="#1F3B33"/>
+    <path d="M88 120 C 88 106, 98 98, 116 98 C 140 98, 160 100, 172 106 C 180 110, 186 114, 186 120 V146 H88 Z" fill="url(#rt)"/>
+    <path d="M120 100 C 118 112, 118 128, 120 144 M152 101 C 150 114, 150 130, 152 144" stroke="#E8B84B" stroke-width="2.2" stroke-opacity="0.85"/>
+    <path d="M92 108 C 96 103, 100 101, 106 100" stroke-width="2.2" stroke-opacity="0.8"/>
+    <use href="#estrella" transform="translate(30 42) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(162 74) scale(0.6)"/>
+  </g>
+</svg>

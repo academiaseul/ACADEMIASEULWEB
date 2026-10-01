@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="안 좋아해요" data-es="no me gusta (frase fija con 안)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 166 C 80 172, 150 172, 200 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo -->
+    <path d="M60 98 C 46 110, 40 138, 38 162 L 118 162 C 116 138, 110 110, 96 98 Z" fill="#1F3B33"/>
+    <path d="M60 98 C 46 110, 40 138, 38 162 L 118 162 C 116 138, 110 110, 96 98 Z" fill="url(#rt)"/>
+    <path d="M68 99 L78 112 L88 99" stroke-width="2.2"/>
+    <path d="M54 114 C 44 126, 40 140, 42 152"/>
+    <circle cx="42.5" cy="155" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- brazo estirado hacia el pulgar -->
+    <path d="M102 112 C 118 102, 134 86, 152 72"/>
+    <!-- pulgar abajo (el mismo puño de 정말, dado vuelta) -->
+    <g transform="translate(36 186) scale(0.8 -0.8)">
+      <path d="M146 134 L 178 134 L 182 152 L 142 152 Z" fill="#1F3B33"/>
+      <path d="M146 134 L 178 134 L 182 152 L 142 152 Z" fill="url(#rt)"/>
+      <path d="M150 92 L 147 62 C 146 52, 162 50, 163 61 L 166 92 Z" fill="#1F3B33"/>
+      <path d="M152 66 C 155 64, 158 64, 160 66" stroke-width="1.8" stroke-opacity="0.75"/>
+      <path d="M142 88 H 172 C 179 88, 184 93, 184 100 V 128 C 184 134, 179 138, 172 138 H 142 Z" fill="#1F3B33"/>
+      <rect x="126" y="88" width="38" height="13" rx="6.5" fill="#1F3B33"/>
+      <rect x="128" y="100" width="36" height="13" rx="6.5" fill="#1F3B33"/>
+      <rect x="130" y="112" width="34" height="13" rx="6.5" fill="#1F3B33"/>
+      <rect x="133" y="124" width="31" height="13" rx="6.5" fill="#1F3B33"/>
+    </g>
+    <!-- cabeza seria -->
+    <circle cx="78" cy="68" r="30" fill="#1F3B33"/>
+    <path d="M48 66 C 47 46, 61 36, 78 36 C 96 36, 109 46, 108 66 C 105 58, 101 52, 95 50 C 85 53, 70 51, 63 44 C 59 52, 53 58, 48 66 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-disgusto" transform="translate(78 76) scale(0.82)"/>
+    <!-- nubecita de fastidio sobre la cabeza -->
+    <path d="M112 30 C 108 22, 118 16, 124 22 C 128 14, 140 16, 140 24 C 148 24, 150 34, 142 36 H 116 C 108 36, 106 30, 112 30 Z" stroke-width="2.4" stroke-opacity="0.85"/>
+    <!-- flecha dorada hacia abajo -->
+    <path d="M196 72 V 128 M186 116 L 196 128 L 206 116" stroke="#E8B84B" stroke-width="3.4"/>
+    <use href="#estrella-b" transform="translate(28 30) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(186 34) scale(0.6)"/>
+  </g>
+</svg>

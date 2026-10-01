@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 안녕하세요 · hola (cortés) · Estilo A Sticker pop · persona que saluda con la mano en alto y la cabeza levemente inclinada -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M142 178 L168 100" fill="none" stroke-width="48"/>
+<g transform="rotate(-7 96 140)">
+<path d="M50 112 C46 62 72 46 96 46 C120 46 146 62 142 112 L143 128 Q132 136 120 130 L72 130 Q60 136 49 128 Z"/>
+<ellipse cx="96" cy="104" rx="42" ry="40"/>
+</g>
+<path d="M40 196 C40 168 64 152 96 152 C128 152 152 168 152 196 Z"/>
+<path d="M124.9 178.6 L139.8 137.2 L168.2 146.6 L155.3 188.8 Z"/>
+<rect x="154" y="50" width="30" height="44" rx="14"/>
+<ellipse cx="153" cy="80" rx="6" ry="10" transform="rotate(-35 153 80)"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M142 178 L168 100" fill="none" stroke-width="48"/>
+<g transform="rotate(-7 96 140)">
+<path d="M50 112 C46 62 72 46 96 46 C120 46 146 62 142 112 L143 128 Q132 136 120 130 L72 130 Q60 136 49 128 Z"/>
+<ellipse cx="96" cy="104" rx="42" ry="40"/>
+</g>
+<path d="M40 196 C40 168 64 152 96 152 C128 152 152 168 152 196 Z"/>
+<path d="M124.9 178.6 L139.8 137.2 L168.2 146.6 L155.3 188.8 Z"/>
+<rect x="154" y="50" width="30" height="44" rx="14"/>
+<ellipse cx="153" cy="80" rx="6" ry="10" transform="rotate(-35 153 80)"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M142 178 L168 100" fill="none" stroke-width="41"/>
+<g transform="rotate(-7 96 140)">
+<path d="M50 112 C46 62 72 46 96 46 C120 46 146 62 142 112 L143 128 Q132 136 120 130 L72 130 Q60 136 49 128 Z"/>
+<ellipse cx="96" cy="104" rx="42" ry="40"/>
+</g>
+<path d="M40 196 C40 168 64 152 96 152 C128 152 152 168 152 196 Z"/>
+<path d="M124.9 178.6 L139.8 137.2 L168.2 146.6 L155.3 188.8 Z"/>
+<rect x="154" y="50" width="30" height="44" rx="14"/>
+<ellipse cx="153" cy="80" rx="6" ry="10" transform="rotate(-35 153 80)"/>
+</g>
+<!-- pelo de atrás (melena castaña), inclinado -->
+<g transform="rotate(-7 96 140)">
+<path d="M50 112 C46 62 72 46 96 46 C120 46 146 62 142 112 L143 128 Q132 136 120 130 L72 130 Q60 136 49 128 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+</g>
+<!-- brazo en alto -->
+<path d="M142 178 L168 100" stroke="#14142B" stroke-width="28" stroke-linecap="round"/>
+<path d="M142 178 L168 100" stroke="#FFE0C4" stroke-width="20" stroke-linecap="round"/>
+<!-- torso: blusa lila con cuello blanco -->
+<path d="M40 196 C40 168 64 152 96 152 C128 152 152 168 152 196 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M86 132 L86 154 Q96 160 106 154 L106 132 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M96 157 Q80 148 72 159 Q84 170 96 159 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M96 157 Q112 148 120 159 Q108 170 96 159 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="96" cy="178" r="4" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- manga -->
+<path d="M124.9 178.6 L139.8 137.2 L168.2 146.6 L155.3 188.8 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M140.5 145 L163.5 152.5" stroke="#ECE6FF" stroke-width="3" stroke-linecap="round"/>
+<!-- mano abierta saludando (mitón con pulgar) -->
+<ellipse cx="153" cy="80" rx="6" ry="10" transform="rotate(-35 153 80)" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<rect x="154" y="50" width="30" height="44" rx="14" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M164 52 L164 64" stroke="#14142B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M174 52 L174 64" stroke="#14142B" stroke-width="2.6" stroke-linecap="round"/>
+<!-- cabeza inclinada: cabeza, flequillo con raya al lado, brillo, cara de la casa (96,116) s 0.85 -->
+<g transform="rotate(-7 96 140)">
+<ellipse cx="96" cy="104" rx="42" ry="40" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M53.1 109.5 C48.5 73.1 70.4 56.7 96 56.7 C121.6 56.7 143.5 73.1 138.9 109.5 C134.3 91.3 123.4 80.4 108.8 78.5 C99.7 87.6 83.2 91.3 70.4 89.5 C61.3 93.1 55.8 100.4 53.1 109.5 Z" fill="#4A3426"/>
+<path d="M138.9 109.5 C134.3 91.3 123.4 80.4 108.8 78.5 C99.7 87.6 83.2 91.3 70.4 89.5 C61.3 93.1 55.8 100.4 53.1 109.5" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74 66 Q86 60 98 61" stroke="#6E4424" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="84.1" cy="116" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="107.9" cy="116" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="85.97" cy="113.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="109.77" cy="113.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="73.9" cy="127.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="118.1" cy="127.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M89.2 127.05 Q96 137.25 102.8 127.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+</g>
+<!-- líneas de saludo junto a la mano -->
+<path d="M190 34 Q200 40 204 52" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M195 21 Q208 29 212 45" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M150 34 Q142 36 138 44" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M30 26 Q32.4 35.6 42 38 Q32.4 40.4 30 50 Q27.6 40.4 18 38 Q27.6 35.6 30 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 123 Q199.8 130.2 207 132 Q199.8 133.8 198 141 Q196.2 133.8 189 132 Q196.2 130.2 198 123 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="24" cy="150" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

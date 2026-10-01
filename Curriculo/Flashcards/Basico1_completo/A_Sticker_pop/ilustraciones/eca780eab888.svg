@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 지금 · ahora · Estilo A Sticker pop · despertador sonando y un dedo que lo señala -->
+<!-- silueta: campanas + perilla + patas + cuerpo del reloj + mano -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="80" cy="68" r="18"/>
+<circle cx="160" cy="68" r="18"/>
+<circle cx="120" cy="50" r="6"/>
+<path d="M92 156 L84 176" fill="none" stroke-width="36"/>
+<path d="M148 156 L156 176" fill="none" stroke-width="36"/>
+<circle cx="120" cy="112" r="52"/>
+<g transform="translate(54 162) rotate(-40)"><rect x="-30" y="-14" width="14" height="28" rx="5"/><rect x="-20" y="-13" width="30" height="26" rx="12"/><rect x="2" y="-12" width="28" height="11" rx="5.5"/></g>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="80" cy="68" r="18"/>
+<circle cx="160" cy="68" r="18"/>
+<circle cx="120" cy="50" r="6"/>
+<path d="M92 156 L84 176" fill="none" stroke-width="36"/>
+<path d="M148 156 L156 176" fill="none" stroke-width="36"/>
+<circle cx="120" cy="112" r="52"/>
+<g transform="translate(54 162) rotate(-40)"><rect x="-30" y="-14" width="14" height="28" rx="5"/><rect x="-20" y="-13" width="30" height="26" rx="12"/><rect x="2" y="-12" width="28" height="11" rx="5.5"/></g>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="80" cy="68" r="18"/>
+<circle cx="160" cy="68" r="18"/>
+<circle cx="120" cy="50" r="6"/>
+<path d="M92 156 L84 176" fill="none" stroke-width="29"/>
+<path d="M148 156 L156 176" fill="none" stroke-width="29"/>
+<circle cx="120" cy="112" r="52"/>
+<g transform="translate(54 162) rotate(-40)"><rect x="-30" y="-14" width="14" height="28" rx="5"/><rect x="-20" y="-13" width="30" height="26" rx="12"/><rect x="2" y="-12" width="28" height="11" rx="5.5"/></g>
+</g>
+<!-- líneas de timbre (sueltas, fuera de la silueta) -->
+<path d="M54.5 42.5 L47.5 35.5" stroke="#14142B" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M44.5 61.8 L35 60" stroke="#14142B" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M73.8 32.5 L72 23" stroke="#14142B" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M185.5 42.5 L192.5 35.5" stroke="#14142B" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M195.5 61.8 L205 60" stroke="#14142B" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M166.2 32.5 L168 23" stroke="#14142B" stroke-width="4.5" stroke-linecap="round"/>
+<!-- patas -->
+<path d="M92 156 L84 176" stroke="#14142B" stroke-width="16" stroke-linecap="round"/>
+<path d="M92 156 L84 176" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+<path d="M148 156 L156 176" stroke="#14142B" stroke-width="16" stroke-linecap="round"/>
+<path d="M148 156 L156 176" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+<!-- campanas doradas y perilla -->
+<circle cx="80" cy="68" r="18" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M70 62 Q74 56 80 56" stroke="#FFF4D9" stroke-width="4" stroke-linecap="round"/>
+<circle cx="160" cy="68" r="18" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M150 62 Q154 56 160 56" stroke="#FFF4D9" stroke-width="4" stroke-linecap="round"/>
+<path d="M120 60 L120 52" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<circle cx="120" cy="50" r="6" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- cuerpo azul y esfera blanca -->
+<circle cx="120" cy="112" r="52" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M82 84 Q92 70 108 66" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round"/>
+<circle cx="120" cy="114" r="40" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<circle cx="120" cy="82" r="3" fill="#B3B8D6"/>
+<circle cx="152" cy="114" r="3" fill="#B3B8D6"/>
+<circle cx="88" cy="114" r="3" fill="#B3B8D6"/>
+<!-- manecillas -->
+<path d="M120 112 L120 88" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 112 L138 101" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<circle cx="120" cy="112" r="4.5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- cara de la casa en (120,128), s = 0.72 -->
+<ellipse cx="109.92" cy="128" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="130.08" cy="128" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="111.5" cy="125.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="131.66" cy="125.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="101.28" cy="138.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="138.72" cy="138.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M114.24 137.36 Q120 146 125.76 137.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- mano que señala: puño (mitón), dedo índice y puño de la manga dorado -->
+<g transform="translate(54 162) rotate(-40)">
+<rect x="2" y="-12" width="28" height="11" rx="5.5" fill="#F3C39A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="-30" y="-14" width="14" height="28" rx="5" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="-20" y="-13" width="30" height="26" rx="12" fill="#F3C39A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M-2 2 L8 2" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M-2 8 L6 8" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<!-- adornos -->
+<path d="M24 84 Q26.4 93.6 36 96 Q26.4 98.4 24 108 Q21.6 98.4 12 96 Q21.6 93.6 24 84 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M200 103 Q201.8 110.2 209 112 Q201.8 113.8 200 121 Q198.2 113.8 191 112 Q198.2 110.2 200 103 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="200" cy="150" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

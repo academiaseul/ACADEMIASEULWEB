@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="여기" data-es="aquí">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 165 C 80 172, 150 172, 204 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- el punto del suelo junto a sus pies -->
+    <ellipse cx="166" cy="160" rx="18" ry="5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.8"/>
+    <path d="M143 151 L136 147 M189 151 L196 147" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- persona: cuerpo en campana -->
+    <path d="M60 112 C 46 126, 40 146, 38 162 L130 162 C 128 146, 122 126, 108 112 Z" fill="#1F3B33"/>
+    <path d="M60 112 C 46 126, 40 146, 38 162 L130 162 C 128 146, 122 126, 108 112 Z" fill="url(#rt)"/>
+    <path d="M72 113 Q84 121 96 113" stroke-width="2.4"/>
+    <!-- brazo izquierdo suelto -->
+    <path d="M58 120 C 46 130, 41 142, 43 152"/>
+    <circle cx="44" cy="155" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- brazo derecho que señala el suelo, a sus propios pies -->
+    <path d="M108 117 C 124 116, 140 122, 147 132"/>
+    <circle cx="149" cy="136" r="4.4" fill="#F3F0E4" stroke="none"/>
+    <path d="M151 140 L155 151" stroke-width="3"/>
+    <!-- cabeza, pelo y cara -->
+    <circle cx="84" cy="70" r="30" fill="#1F3B33"/>
+    <path d="M53 70 C 50 48, 66 35, 85 35 C 104 35, 118 48, 115 70 C 108 64, 96 58, 88 50 C 82 58, 70 64, 53 70 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(84 78) scale(0.82)"/>
+    <!-- flecha dorada hacia abajo: aquí -->
+    <path d="M184 100 V136 M175 126 L184 137 L193 126" stroke="#E8B84B" stroke-width="3.2"/>
+    <use href="#estrella" transform="translate(30 40) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(146 40) scale(0.65)"/>
+    <use href="#estrella" transform="translate(196 66) scale(0.6)"/>
+  </g>
+</svg>

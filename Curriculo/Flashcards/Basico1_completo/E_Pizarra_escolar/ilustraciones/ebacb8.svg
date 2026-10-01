@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="문" data-es="puerta">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 166 C 84 172, 150 172, 200 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- marco -->
+    <path d="M60 164 V16 H160 V164" stroke-width="3.2"/>
+    <!-- hoja de la puerta (madera) -->
+    <path d="M68 24 H152 V164 H68 Z" fill="#1F3B33"/>
+    <path d="M68 24 H152 V164 H68 Z" fill="url(#rt)"/>
+    <!-- paneles: arriba con la cara, abajo con vetas -->
+    <rect x="80" y="36" width="60" height="50" rx="3" fill="#1F3B33" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(110 56) scale(0.9)"/>
+    <rect x="80" y="112" width="60" height="40" rx="3" fill="#1F3B33" stroke-width="2.4"/>
+    <path d="M90 120 C 96 126, 94 136, 100 144 M110 118 C 114 126, 108 134, 114 146 M128 120 C 132 128, 128 136, 132 144" stroke-width="1.8" stroke-opacity="0.6"/>
+    <!-- manilla redonda dorada -->
+    <rect x="131" y="91" width="12" height="18" rx="5" fill="#1F3B33" stroke-width="2.2"/>
+    <circle cx="137" cy="100" r="5.4" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- planta en maceta junto a la puerta -->
+    <path d="M182 142 C 176 132, 172 126, 174 116 C 182 120, 184 132, 182 142 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.4"/>
+    <path d="M182 142 C 186 130, 192 124, 200 124 C 198 134, 192 140, 182 142 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.4"/>
+    <path d="M172 142 H192 L189 162 H175 Z" fill="#1F3B33"/>
+    <path d="M172 142 H192 L189 162 H175 Z" fill="url(#rt)"/>
+    <use href="#estrella" transform="translate(34 40) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(190 40) scale(0.65)"/>
+    <use href="#estrella" transform="translate(36 128) scale(0.6)"/>
+  </g>
+</svg>

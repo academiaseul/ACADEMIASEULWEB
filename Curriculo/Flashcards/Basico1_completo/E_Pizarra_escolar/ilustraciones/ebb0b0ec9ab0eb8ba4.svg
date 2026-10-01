@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="배우다" data-es="aprender">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 166 C 78 172, 150 172, 202 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- pizarrita del fondo con garabatos de tiza (sin letras) -->
+    <rect x="16" y="18" width="92" height="70" rx="3" fill="url(#rt)"/>
+    <rect x="23" y="25" width="78" height="56" rx="2" fill="#1F3B33" stroke-width="2.2"/>
+    <path d="M32 40 q5 -5 10 0 t10 0 t10 0" stroke-width="2.4"/>
+    <path d="M32 56 q5 -5 10 0 t10 0 t10 0 t10 0" stroke-width="2.4"/>
+    <path d="M32 71 q5 -5 10 0 t10 0" stroke-width="2.4"/>
+    <path d="M76 38 L82 45 L94 31" stroke="#E8B84B" stroke-width="2.8"/>
+    <path d="M14 92 H110" stroke-width="3"/>
+    <rect x="88" y="86" width="12" height="4" rx="1.5" fill="#F3F0E4" stroke="none"/>
+    <!-- libros apilados en el suelo -->
+    <path d="M30 150 H84 V162 H30 Z" fill="#1F3B33"/>
+    <path d="M30 150 H84 V162 H30 Z" fill="url(#rt)"/>
+    <path d="M36 138 H80 V150 H36 Z" fill="#1F3B33"/>
+    <path d="M36 138 H80 V150 H36 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M44 138 V150 M76 150 V162" stroke-width="1.8" stroke-opacity="0.7"/>
+    <!-- alumno: cuerpo -->
+    <path d="M128 100 C 116 110, 112 124, 112 134 L180 134 C 180 124, 176 110, 164 100 Z" fill="#1F3B33"/>
+    <path d="M128 100 C 116 110, 112 124, 112 134 L180 134 C 180 124, 176 110, 164 100 Z" fill="url(#rt)"/>
+    <!-- brazo levantado con la mano arriba -->
+    <path d="M164 108 C 178 92, 186 62, 184 38"/>
+    <circle cx="184" cy="33" r="5" fill="#F3F0E4" stroke="none"/>
+    <path d="M171 24 L175 28 M184 12 V18 M197 24 L193 28" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- cabeza, pelo con remolino y cara -->
+    <circle cx="146" cy="76" r="26" fill="#1F3B33"/>
+    <path d="M120 76 C 118 58, 130 50, 146 50 C 162 50, 174 58, 172 76 C 167 68, 160 64, 154 63 C 148 66, 141 67, 136 63 C 130 66, 124 70, 120 76 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M146 50 C 142 42, 151 38, 154 44" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(146 84) scale(0.74)"/>
+    <!-- pupitre con cuaderno abierto -->
+    <path d="M96 138 L108 124 H204 L198 138 Z" fill="#1F3B33"/>
+    <path d="M96 138 L108 124 H204 L198 138 Z" fill="url(#rt)"/>
+    <path d="M96 138 H198 V145 H96 Z" fill="#1F3B33"/>
+    <path d="M96 138 H198 V145 H96 Z" fill="url(#rt)"/>
+    <path d="M102 145 H109 V163 H102 Z M186 145 H193 V162 H186 Z" fill="url(#rt)"/>
+    <path d="M122 135 L128 127 H150 V135 Z M150 135 V127 H172 L178 135 Z" fill="#1F3B33" stroke-width="2.2"/>
+    <!-- la otra mano, sobre el cuaderno -->
+    <path d="M128 110 C 120 118, 120 126, 128 130"/>
+    <circle cx="131" cy="131" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <use href="#estrella" transform="translate(60 114) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(126 26) scale(0.6)"/>
+  </g>
+</svg>

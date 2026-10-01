@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="반갑습니다" data-es="encantado, encantada">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 168 C 80 173, 150 173, 196 166" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- persona 1, inclinada hacia la otra (leve venia) -->
+    <g transform="rotate(8 64 162)">
+      <path d="M50 86 C 38 100, 34 136, 32 162 L 96 162 C 94 136, 90 100, 78 86 Z" fill="#1F3B33"/>
+      <path d="M50 86 C 38 100, 34 136, 32 162 L 96 162 C 94 136, 90 100, 78 86 Z" fill="url(#rt)"/>
+      <path d="M56 87 L64 99 L72 87" stroke-width="2.2"/>
+      <path d="M40 108 C 32 122, 30 136, 34 148"/>
+      <circle cx="35" cy="151" r="3.6" fill="#F3F0E4" stroke="none"/>
+      <circle cx="64" cy="64" r="23" fill="#1F3B33"/>
+      <path d="M41 62 C 40 46, 52 39, 64 39 C 77 39, 88 46, 87 62 C 84 56, 78 52, 70 52 L 66 47 L 61 52 C 52 52, 45 56, 41 62 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <use href="#cara-feliz" transform="translate(64 72) scale(0.66)"/>
+    </g>
+    <!-- persona 2, inclinada hacia la primera -->
+    <g transform="rotate(-8 156 162)">
+      <path d="M134 60 C 130 82, 134 92, 140 96 L 172 96 C 178 92, 182 82, 178 60 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <path d="M142 86 C 130 100, 126 136, 124 162 L 188 162 C 186 136, 182 100, 170 86 Z" fill="#1F3B33"/>
+      <path d="M142 86 C 130 100, 126 136, 124 162 L 188 162 C 186 136, 182 100, 170 86 Z" fill="url(#rt)"/>
+      <path d="M148 87 L156 99 L164 87" stroke-width="2.2"/>
+      <path d="M180 108 C 188 122, 190 136, 186 148"/>
+      <circle cx="185" cy="151" r="3.6" fill="#F3F0E4" stroke="none"/>
+      <circle cx="156" cy="64" r="23" fill="#1F3B33"/>
+      <path d="M133 63 C 134 47, 145 40, 156 40 C 168 40, 179 47, 179 63 C 170 59, 162 53, 157 46 C 152 53, 142 59, 133 63 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <use href="#cara-feliz" transform="translate(156 72) scale(0.66)"/>
+    </g>
+    <!-- apretón de manos al centro -->
+    <path d="M94 110 C 98 118, 102 124, 106 124"/>
+    <path d="M126 110 C 122 118, 118 124, 114 124"/>
+    <circle cx="106.5" cy="124" r="4.2" fill="#F3F0E4" stroke="none"/>
+    <circle cx="113.5" cy="124" r="4.2" fill="#F3F0E4" stroke="none"/>
+    <path d="M101 136 Q110 142 119 136" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M104 146 Q110 150 116 146" stroke="#E8B84B" stroke-width="2.2" stroke-opacity="0.8"/>
+    <use href="#estrella-b" transform="translate(110 34) scale(0.7)"/>
+    <use href="#estrella" transform="translate(24 38) scale(0.75)"/>
+    <use href="#estrella" transform="translate(196 38) scale(0.75)"/>
+  </g>
+</svg>

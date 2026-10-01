@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 운동 · deporte, ejercicio — pelota de fútbol con cara, raqueta de tenis apoyada detrás y una pesa chica -->
+  <use href="#kw-brillo" transform="translate(176 46) scale(11)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(28 132) scale(7.5)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(204 104) scale(5.5)" fill="#FFFFFF"/>
+  <circle cx="130" cy="40" r="3" fill="#FFFFFF"/>
+  <circle cx="24" cy="174" r="2.5" fill="#FFFFFF"/>
+  <circle cx="208" cy="140" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="114" cy="188" rx="84" ry="7" fill="#8FB4EE"/>
+  <!-- raqueta de tenis inclinada (marco azul, cuerdas, mango dorado) -->
+  <g transform="rotate(-55 70 76)">
+    <path d="M70 112 L70 160" fill="none" stroke="#003478" stroke-width="12" stroke-linecap="round"/>
+    <path d="M70 112 L70 160" fill="none" stroke="#4236F6" stroke-width="6" stroke-linecap="round"/>
+    <path d="M70 158 L70 188" fill="none" stroke="#003478" stroke-width="14" stroke-linecap="round"/>
+    <path d="M70 158 L70 188" fill="none" stroke="#E8B84B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M58 106 L70 124 L82 106" fill="none" stroke="#003478" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M58 106 L70 124 L82 106" fill="none" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="70" cy="76" rx="28" ry="38" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="70" cy="76" rx="21" ry="31" fill="#FFFFFF" stroke="#003478" stroke-width="2.2"/>
+    <path d="M56 55 L56 97 M63 49 L63 103 M70 47 L70 105 M77 49 L77 103 M84 55 L84 97 M59 52 L81 52 M54 60 L86 60 M52 68 L88 68 M51 76 L89 76 M52 84 L88 84 M54 92 L86 92 M59 100 L81 100" fill="none" stroke="#A9AFC3" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="70" cy="76" rx="21" ry="31" fill="none" stroke="#003478" stroke-width="2.2"/>
+  </g>
+  <!-- pesa chica en el suelo -->
+  <path d="M140 170 L188 170" fill="none" stroke="#003478" stroke-width="9" stroke-linecap="round"/>
+  <path d="M140 170 L188 170" fill="none" stroke="#D5D9E4" stroke-width="4" stroke-linecap="round"/>
+  <rect x="132" y="161" width="8" height="18" rx="3" fill="#7FD0B0" stroke="#003478" stroke-width="2.4"/>
+  <rect x="189" y="161" width="8" height="18" rx="3" fill="#7FD0B0" stroke="#003478" stroke-width="2.4"/>
+  <rect x="138" y="154" width="12" height="32" rx="5" fill="#7FD0B0" stroke="#003478" stroke-width="2.6"/>
+  <rect x="178" y="154" width="12" height="32" rx="5" fill="#7FD0B0" stroke="#003478" stroke-width="2.6"/>
+  <path d="M141 160 L141 170 M181 160 L181 170" fill="none" stroke="#C6F0DE" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- pelota de fútbol: relleno, sombra, parches azules, costuras, contorno -->
+  <circle cx="92" cy="146" r="38" fill="#FFFFFF"/>
+  <path d="M61 168 Q71 163 81 168 T101 168 T121 168 L123 168 A38 38 0 0 1 61 168 Z" fill="#D6E3FF"/>
+  <path d="M92 113 L102.5 120.6 L98.5 132.9 L85.5 132.9 L81.5 120.6 Z M56.3 133 L66 136 L72 126 L67.6 116.9 A38 38 0 0 0 56.3 133 Z M127.7 133 L118 136 L112 126 L116.4 116.9 A38 38 0 0 1 127.7 133 Z" fill="#4236F6" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M81.5 120.6 L72 126 M102.5 120.6 L112 126 M92 113 L92 108 M85.5 132.9 L81 141 M98.5 132.9 L103 141" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="92" cy="146" r="38" fill="none" stroke="#003478" stroke-width="3"/>
+  <use href="#kw-cara" transform="translate(92 156) scale(0.9)"/>
+</svg>

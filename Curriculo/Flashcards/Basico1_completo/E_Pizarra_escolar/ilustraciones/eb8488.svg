@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="너" data-es="tú (informal, entre amigos)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 86 172, 150 172, 200 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- tú: el amigo que sonríe y saluda -->
+    <path d="M128 114 C 114 128, 110 146, 108 162 L188 162 C 186 146, 182 128, 168 114 Z" fill="#1F3B33"/>
+    <path d="M128 114 C 114 128, 110 146, 108 162 L188 162 C 186 146, 182 128, 168 114 Z" fill="url(#rt)"/>
+    <path d="M138 115 Q148 123 158 115" stroke-width="2.4"/>
+    <path d="M126 124 C 118 134, 116 146, 118 156"/>
+    <circle cx="119" cy="159" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M170 121 C 182 115, 188 104, 191 92"/>
+    <circle cx="192" cy="88" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="148" cy="72" r="30" fill="#1F3B33"/>
+    <path d="M117 72 C 114 50, 130 37, 149 37 C 168 37, 182 50, 179 72 C 172 66, 160 60, 152 52 C 146 60, 134 66, 117 72 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(148 80) scale(0.82)"/>
+    <!-- la mano que apunta (manga, puño e índice) -->
+    <path d="M10 104 L40 99 L44 141 L12 147" fill="#1F3B33"/>
+    <path d="M10 104 L40 99 L44 141 L12 147" fill="url(#rt)"/>
+    <path d="M42 112 C 42 104, 50 101, 60 102 L70 104 C 77 106, 79 112, 77 118 L77 130 C 77 138, 69 142, 59 141 C 49 140, 42 134, 42 126 Z" fill="#1F3B33"/>
+    <path d="M70 104 L97 104 C 103 104, 103 113, 97 113 L72 113" fill="#1F3B33"/>
+    <path d="M51 110 C 57 115, 64 116, 72 113" stroke-width="2.4"/>
+    <path d="M62 122 C 68 121, 73 122, 76 124 M60 131 C 66 130, 71 131, 75 133" stroke-width="2" stroke-opacity="0.75"/>
+    <!-- rayitas doradas: "¡tú!" -->
+    <path d="M106 99 L112 95 M107 108.5 L115 108.5 M106 118 L111 121" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#estrella" transform="translate(34 50) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(96 32) scale(0.65)"/>
+    <use href="#corazon" transform="translate(198 46) scale(0.75)"/>
+  </g>
+</svg>

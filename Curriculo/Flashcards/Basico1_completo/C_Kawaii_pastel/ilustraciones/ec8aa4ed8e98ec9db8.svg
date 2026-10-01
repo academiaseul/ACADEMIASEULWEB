@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 스페인 · España (abanico azul de lunares; sin bandera) -->
+  <use href="#kw-brillo" transform="translate(30 36) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 34) scale(7)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 146) scale(6)" fill="#CFC8FF"/>
+  <circle cx="26" cy="132" r="3" fill="#FFFFFF"/>
+  <circle cx="206" cy="124" r="2.5" fill="#CFC8FF"/>
+  <circle cx="44" cy="164" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="190" rx="56" ry="6" fill="#D2CBFA"/>
+  <!-- varillas de madera -->
+  <path d="M110 158 L69.3 132.6 A48 48 0 0 1 150.7 132.6 Z" fill="#E9C48E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M110 158 L77 123.2 M110 158 L86.7 116 M110 158 L98 111.5 M110 158 L110 110 M110 158 L122 111.5 M110 158 L133.3 116 M110 158 L143 123.2" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+  <!-- tela: 8 pliegues celestes alternados, borde festoneado -->
+  <path d="M69.3 132.6 L21.8 102.9 Q19.4 84 38.4 82.6 L77 123.2 A48 48 0 0 0 69.3 132.6 Z" fill="#8CCBF6"/>
+  <path d="M77 123.2 L38.4 82.6 Q40.8 63.6 59.6 67 L86.7 116 A48 48 0 0 0 77 123.2 Z" fill="#C9DBFF"/>
+  <path d="M86.7 116 L59.6 67 Q66.6 49.3 84 57.3 L98 111.5 A48 48 0 0 0 86.7 116 Z" fill="#8CCBF6"/>
+  <path d="M98 111.5 L84 57.3 Q95.2 41.9 110 54 L110 110 A48 48 0 0 0 98 111.5 Z" fill="#C9DBFF"/>
+  <path d="M110 110 L110 54 Q124.8 41.9 136 57.3 L122 111.5 A48 48 0 0 0 110 110 Z" fill="#8CCBF6"/>
+  <path d="M122 111.5 L136 57.3 Q153.4 49.3 160.4 67 L133.3 116 A48 48 0 0 0 122 111.5 Z" fill="#C9DBFF"/>
+  <path d="M133.3 116 L160.4 67 Q179.2 63.6 181.6 82.6 L143 123.2 A48 48 0 0 0 133.3 116 Z" fill="#8CCBF6"/>
+  <path d="M143 123.2 L181.6 82.6 Q200.6 84 198.2 102.9 L150.7 132.6 A48 48 0 0 0 143 123.2 Z" fill="#C9DBFF"/>
+  <!-- lunares azul de marca -->
+  <path d="M98.4 66.7 L98.4 66.7 M121.6 66.7 L121.6 66.7 M75.9 72.6 L75.9 72.6 M144.1 72.6 L144.1 72.6 M55.6 83.8 L55.6 83.8 M164.4 83.8 L164.4 83.8 M38.8 99.8 L38.8 99.8 M181.2 99.8 L181.2 99.8" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M69.3 132.6 L21.8 102.9 Q19.4 84 38.4 82.6 Q40.8 63.6 59.6 67 Q66.6 49.3 84 57.3 Q95.2 41.9 110 54 Q124.8 41.9 136 57.3 Q153.4 49.3 160.4 67 Q179.2 63.6 181.6 82.6 Q200.6 84 198.2 102.9 L150.7 132.6 A48 48 0 0 0 69.3 132.6 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="50" cy="96" rx="8" ry="4" fill="#FFFFFF" transform="rotate(-40 50 96)"/>
+  <!-- remache dorado y borla azul -->
+  <path d="M110 164 L110 172" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+  <path d="M104 173 L116 173 L119 184 Q110 188 101 184 Z" fill="#4236F6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <ellipse cx="110" cy="173" rx="5.5" ry="3" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+  <circle cx="110" cy="158" r="6" fill="#E8B84B" stroke="#003478" stroke-width="2.4"/>
+  <use href="#kw-cara" transform="translate(110 84)"/>
+</svg>

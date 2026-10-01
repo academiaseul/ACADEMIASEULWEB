@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="일어나다" data-es="levantarse, despertarse">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 166 C 70 172, 150 172, 208 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cabecera de la cama -->
+    <path d="M22 96 C 22 86, 40 86, 40 96 V160 H22 Z" fill="#1F3B33"/>
+    <path d="M22 96 C 22 86, 40 86, 40 96 V160 H22 Z" fill="url(#rt)"/>
+    <!-- colchón, almohada -->
+    <path d="M40 126 H170 V142 H40 Z" fill="url(#rt)"/>
+    <ellipse cx="54" cy="120" rx="13" ry="7" fill="#1F3B33"/>
+    <ellipse cx="54" cy="120" rx="13" ry="7" fill="url(#rb)"/>
+    <!-- persona sentada que se estira -->
+    <path d="M66 94 C 60 104, 59 116, 61 128 L99 128 C 101 116, 100 104, 94 94 Z" fill="#1F3B33"/>
+    <path d="M66 94 C 60 104, 59 116, 61 128 L99 128 C 101 116, 100 104, 94 94 Z" fill="url(#rt)"/>
+    <path d="M73 95 Q80 101 87 95" stroke-width="2.2"/>
+    <path d="M66 100 C 56 88, 50 70, 47 52"/>
+    <circle cx="46" cy="48" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M94 100 C 104 88, 110 70, 113 52"/>
+    <circle cx="114" cy="48" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <circle cx="80" cy="68" r="24" fill="#1F3B33"/>
+    <path d="M57 68 C 55 52, 66 43, 80 43 C 94 43, 105 52, 103 68 C 99 62, 93 58, 86 57 C 80 60, 72 60, 66 56 C 63 60, 60 64, 57 68 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- pelo revuelto de recién levantado -->
+    <path d="M74 44 C 70 36, 76 31, 79 37 M86 44 C 88 36, 95 36, 92 42" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(80 75) scale(0.66)"/>
+    <!-- rayitas del estirón -->
+    <path d="M36 50 L30 46 M40 40 L36 34 M124 50 L130 46 M120 40 L124 34" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- frazada sobre las piernas -->
+    <path d="M74 128 C 76 118, 88 112, 106 114 C 126 116, 148 112, 164 116 L166 146 H72 Z" fill="#1F3B33"/>
+    <path d="M74 128 C 76 118, 88 112, 106 114 C 126 116, 148 112, 164 116 L166 146 H72 Z" fill="url(#rt)"/>
+    <path d="M73 136 H165" stroke-width="2" stroke-opacity="0.7"/>
+    <!-- costado de la cama, pie de cama y patas -->
+    <path d="M36 142 H172 V150 H36 Z" fill="#1F3B33"/>
+    <path d="M42 150 V160 M166 150 V160" stroke-width="3.6"/>
+    <path d="M164 112 C 164 106, 176 106, 176 112 V160 H164 Z" fill="#1F3B33"/>
+    <path d="M164 112 C 164 106, 176 106, 176 112 V160 H164 Z" fill="url(#rt)"/>
+    <!-- velador con despertador que suena -->
+    <path d="M182 124 H206 V162 H182 Z" fill="url(#rt)"/>
+    <path d="M186 140 H202" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="190" cy="98" r="5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <circle cx="200" cy="98" r="5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M188 120 L186 124 M200 120 L202 124" stroke-width="2.4"/>
+    <circle cx="195" cy="110" r="11" fill="#1F3B33"/>
+    <path d="M195 110 V103 M195 110 H200" stroke-width="2.2"/>
+    <path d="M182 92 L177 86 M195 88 V81 M208 92 L212 87" stroke="#E8B84B" stroke-width="2.2"/>
+    <!-- sol de la mañana -->
+    <circle cx="164" cy="40" r="11" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M164 22 V17 M164 58 V63 M146 40 H141 M182 40 H187 M151.3 27.3 L147.8 23.8 M176.7 27.3 L180.2 23.8 M151.3 52.7 L147.8 56.2 M176.7 52.7 L180.2 56.2" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#estrella-b" transform="translate(22 30) scale(0.6)"/>
+    <use href="#estrella" transform="translate(130 80) scale(0.6)"/>
+  </g>
+</svg>

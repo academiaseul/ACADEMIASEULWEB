@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 창문 · ventana (abierta, con cortinas y sol afuera) -->
+  <use href="#kw-brillo" transform="translate(110 20) scale(9)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(18 104) scale(7)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(203 104) scale(6)" fill="#E8B84B"/>
+  <circle cx="66" cy="22" r="3" fill="#FFFFFF"/>
+  <circle cx="158" cy="22" r="2.5" fill="#E8B84B"/>
+  <circle cx="20" cy="166" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="187" rx="64" ry="7" fill="#D2CBFA"/>
+  <!-- hojas de vidrio abiertas hacia afuera -->
+  <path d="M54 52 L34 62 L34 150 L54 164 Z" fill="#D6E3FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M166 52 L186 62 L186 150 L166 164 Z" fill="#D6E3FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M44 57 L44 157 M176 57 L176 157" fill="none" stroke="#003478" stroke-width="2.2"/>
+  <path d="M38 74 L40 66 M180 66 L182 74" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- marco crema y vista: cielo, sol, nube y loma -->
+  <rect x="52" y="48" width="116" height="118" rx="8" fill="#FFFDF8" stroke="#003478" stroke-width="3"/>
+  <rect x="62" y="58" width="96" height="98" rx="4" fill="#B5DDFB"/>
+  <path d="M138 80 L142 80 M133.9 89.9 L136.7 92.7 M124 94 L124 98 M114.1 89.9 L111.3 92.7 M110 80 L106 80 M114.1 70.1 L111.3 67.3 M124 66 L124 62 M133.9 70.1 L136.7 67.3" fill="none" stroke="#E8B84B" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="124" cy="80" r="10" fill="#FBDD7E" stroke="#003478" stroke-width="2.4"/>
+  <path d="M84 96 Q81 88 89 88 Q91 81 98 83 Q104 81 105 88 Q111 89 109 96 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M62 140 Q88 126 114 134 Q138 142 158 130 L158 152 Q158 156 154 156 L66 156 Q62 156 62 152 Z" fill="#A6E1B4"/>
+  <rect x="62" y="58" width="96" height="98" rx="4" fill="none" stroke="#003478" stroke-width="2.6"/>
+  <!-- cortinas menta recogidas con lazo dorado -->
+  <path d="M56 52 L86 52 Q80 82 68 112 Q74 134 78 156 L56 156 Z" fill="#7FD0B0" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M164 52 L134 52 Q140 82 152 112 Q146 134 142 156 L164 156 Z" fill="#7FD0B0" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M63 58 Q64 84 61 104 M157 58 Q156 84 159 104" fill="none" stroke="#A6DEC4" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="67" cy="112" rx="7" ry="4.5" fill="#F6D47A" stroke="#003478" stroke-width="2.2"/>
+  <ellipse cx="153" cy="112" rx="7" ry="4.5" fill="#F6D47A" stroke="#003478" stroke-width="2.2"/>
+  <!-- barra de la cortina y alféizar -->
+  <rect x="40" y="38" width="140" height="7" rx="3.5" fill="#C99A5E" stroke="#003478" stroke-width="2.6"/>
+  <circle cx="40" cy="41.5" r="5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="180" cy="41.5" r="5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <rect x="44" y="160" width="132" height="11" rx="5.5" fill="#E7B46E" stroke="#003478" stroke-width="3"/>
+  <use href="#kw-cara" transform="translate(110 118) scale(0.75)"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="동네" data-es="barrio">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 166 C 70 172, 150 172, 210 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- árbol de la esquina (atrás de la casita) -->
+    <path d="M186 162 C 187 140, 187 116, 186 92 L194 92 C 193 116, 193 140, 196 162 Z" fill="url(#rt)"/>
+    <path d="M183 61.4 Q189.8 59.3 194.2 63.7 Q201.5 64.3 202.3 69.7 Q208.2 73 205.3 78 Q208.2 83 202.3 86.3 Q201.5 91.7 194.2 92.3 Q189.8 96.7 183 94.6 Q176.2 96.7 171.8 92.3 Q164.5 91.7 163.7 86.3 Q157.8 83 160.7 78 Q157.8 73 163.7 69.7 Q164.5 64.3 171.8 63.7 Q176.2 59.3 183 61.4 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M183 61.4 Q189.8 59.3 194.2 63.7 Q201.5 64.3 202.3 69.7 Q208.2 73 205.3 78 Q208.2 83 202.3 86.3 Q201.5 91.7 194.2 92.3 Q189.8 96.7 183 94.6 Q176.2 96.7 171.8 92.3 Q164.5 91.7 163.7 86.3 Q157.8 83 160.7 78 Q157.8 73 163.7 69.7 Q164.5 64.3 171.8 63.7 Q176.2 59.3 183 61.4 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.6"/>
+    <!-- casita baja de la derecha -->
+    <path d="M146 120 H182 V162 H146 Z" fill="#1F3B33"/>
+    <path d="M146 120 H182 V162 H146 Z" fill="url(#rt)"/>
+    <path d="M142 122 L164 100 L186 122 Z" fill="#1F3B33"/>
+    <path d="M142 122 L164 100 L186 122 Z" fill="url(#rt)"/>
+    <rect x="151" y="130" width="12" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.4"/>
+    <path d="M168 162 V141 H178 V162" fill="#1F3B33" stroke-width="2.4"/>
+    <!-- casita baja de la izquierda -->
+    <path d="M14 118 H52 V162 H14 Z" fill="#1F3B33"/>
+    <path d="M14 118 H52 V162 H14 Z" fill="url(#rt)"/>
+    <path d="M10 120 L33 97 L56 120 Z" fill="#1F3B33"/>
+    <path d="M10 120 L33 97 L56 120 Z" fill="url(#rt)"/>
+    <rect x="19" y="128" width="12" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.4"/>
+    <path d="M37 162 V141 H47 V162" fill="#1F3B33" stroke-width="2.4"/>
+    <!-- almacén de esquina: fachada con cara, toldo dorado, vitrina y puerta -->
+    <path d="M62 82 H138 V162 H62 Z" fill="#1F3B33"/>
+    <path d="M62 82 H138 V162 H62 Z" fill="url(#rt)"/>
+    <path d="M58 82 H142" stroke-width="3.2"/>
+    <path d="M64 92 H136 L144 106 q-7.17 7 -14.33 0 t-14.33 0 t-14.33 0 t-14.33 0 t-14.33 0 t-14.33 0 Z" fill="#1F3B33"/>
+    <path d="M64 92 H136 L144 106 q-7.17 7 -14.33 0 t-14.33 0 t-14.33 0 t-14.33 0 t-14.33 0 t-14.33 0 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M80 93 V105 M94 93 V105 M108 93 V105 M122 93 V105" stroke="#E8B84B" stroke-width="1.8" stroke-opacity="0.7"/>
+    <use href="#cara" transform="translate(100 120) scale(0.72)"/>
+    <rect x="67" y="138" width="28" height="18" rx="2" fill="url(#ra)" stroke-width="2.4"/>
+    <path d="M81 138 V156" stroke-width="2" stroke-opacity="0.7"/>
+    <path d="M107 162 V137 H131 V162" fill="#1F3B33" stroke-width="2.6"/>
+    <rect x="111" y="141" width="16" height="9" rx="1.5" fill="url(#ra)" stroke-width="2"/>
+    <circle cx="127" cy="155" r="2.2" fill="#E8B84B" stroke="none"/>
+    <use href="#estrella" transform="translate(28 48) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(112 50) scale(0.6)"/>
+    <use href="#estrella" transform="translate(148 52) scale(0.6)"/>
+  </g>
+</svg>

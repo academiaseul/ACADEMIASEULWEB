@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 김치 · kimchi · Estilo A Sticker pop · 옹기 café con hojas de col asomando (nunca kimchi rojo) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M98 82 C92 62 88 46 94 34 Q98 26 104 30 Q110 20 116 30 Q122 26 126 34 C132 46 128 62 122 82 Z" transform="rotate(-50 92 90)"/>
+<path d="M98 82 C92 62 88 46 94 34 Q98 26 104 30 Q110 20 116 30 Q122 26 126 34 C132 46 128 62 122 82 Z" transform="rotate(-14 92 90)"/>
+<path d="M80 84 C46 94 34 120 38 144 C42 172 62 190 88 192 L132 192 C158 190 178 172 182 144 C186 120 174 94 140 84 Z"/>
+<rect x="72" y="72" width="76" height="16" rx="7"/>
+<g transform="rotate(25 156 80)"><path d="M64 80 C66 60 88 52 110 52 C132 52 154 60 156 80 Q110 88 64 80 Z"/><path d="M102 55 Q102 42 110 42 Q118 42 118 55 Z"/></g>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M98 82 C92 62 88 46 94 34 Q98 26 104 30 Q110 20 116 30 Q122 26 126 34 C132 46 128 62 122 82 Z" transform="rotate(-50 92 90)"/>
+<path d="M98 82 C92 62 88 46 94 34 Q98 26 104 30 Q110 20 116 30 Q122 26 126 34 C132 46 128 62 122 82 Z" transform="rotate(-14 92 90)"/>
+<path d="M80 84 C46 94 34 120 38 144 C42 172 62 190 88 192 L132 192 C158 190 178 172 182 144 C186 120 174 94 140 84 Z"/>
+<rect x="72" y="72" width="76" height="16" rx="7"/>
+<g transform="rotate(25 156 80)"><path d="M64 80 C66 60 88 52 110 52 C132 52 154 60 156 80 Q110 88 64 80 Z"/><path d="M102 55 Q102 42 110 42 Q118 42 118 55 Z"/></g>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M98 82 C92 62 88 46 94 34 Q98 26 104 30 Q110 20 116 30 Q122 26 126 34 C132 46 128 62 122 82 Z" transform="rotate(-50 92 90)"/>
+<path d="M98 82 C92 62 88 46 94 34 Q98 26 104 30 Q110 20 116 30 Q122 26 126 34 C132 46 128 62 122 82 Z" transform="rotate(-14 92 90)"/>
+<path d="M80 84 C46 94 34 120 38 144 C42 172 62 190 88 192 L132 192 C158 190 178 172 182 144 C186 120 174 94 140 84 Z"/>
+<rect x="72" y="72" width="76" height="16" rx="7"/>
+<g transform="rotate(25 156 80)"><path d="M64 80 C66 60 88 52 110 52 C132 52 154 60 156 80 Q110 88 64 80 Z"/><path d="M102 55 Q102 42 110 42 Q118 42 118 55 Z"/></g>
+</g>
+<!-- hojas de col (배추) asomando por debajo de la tapa: verde rizado + penca crema -->
+<g transform="rotate(-50 92 90)">
+<path d="M98 82 C92 62 88 46 94 34 Q98 26 104 30 Q110 20 116 30 Q122 26 126 34 C132 46 128 62 122 82 Z" fill="#7FD69A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M103 84 C101 68 103 56 110 46 C117 56 119 68 117 84 Z" fill="#FFF4D9" stroke="#2F8F57" stroke-width="3" stroke-linejoin="round"/>
+<path d="M110 46 L110 34" stroke="#2F8F57" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g transform="rotate(-14 92 90)">
+<path d="M98 82 C92 62 88 46 94 34 Q98 26 104 30 Q110 20 116 30 Q122 26 126 34 C132 46 128 62 122 82 Z" fill="#5CC98A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M103 84 C101 68 103 56 110 46 C117 56 119 68 117 84 Z" fill="#FFF4D9" stroke="#2F8F57" stroke-width="3" stroke-linejoin="round"/>
+<path d="M110 46 L110 34" stroke="#2F8F57" stroke-width="3" stroke-linecap="round"/>
+</g>
+<!-- cuerpo del 옹기 (café) -->
+<path d="M80 84 C46 94 34 120 38 144 C42 172 62 190 88 192 L132 192 C158 190 178 172 182 144 C186 120 174 94 140 84 Z" fill="#A0703F" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M52 108 Q110 124 168 108" stroke="#6E4424" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M62 172 Q74 166 86 172 Q98 178 110 172 Q122 166 134 172 Q146 178 158 172" stroke="#6E4424" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 136 Q51 124 58 116" stroke="#D9A35F" stroke-width="5" stroke-linecap="round"/>
+<!-- borde de la boca -->
+<rect x="72" y="72" width="76" height="16" rx="7" fill="#6E4424" stroke="#14142B" stroke-width="4"/>
+<path d="M82 78 L104 78" stroke="#A0703F" stroke-width="3.5" stroke-linecap="round"/>
+<!-- tapa del 옹기, entreabierta (apoyada a la derecha) -->
+<g transform="rotate(25 156 80)">
+<path d="M64 80 C66 60 88 52 110 52 C132 52 154 60 156 80 Q110 88 64 80 Z" fill="#6E4424" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M102 55 Q102 42 110 42 Q118 42 118 55 Z" fill="#6E4424" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M80 70 Q92 60 108 58" stroke="#A0703F" stroke-width="4" stroke-linecap="round"/>
+</g>
+<!-- cara de la casa (110,136) s=1 -->
+<ellipse cx="96" cy="136" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="136" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="132.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="132.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="150" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="150" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 149 Q110 161 118 149 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M28 28 Q30.4 37.6 40 40 Q30.4 42.4 28 52 Q25.6 42.4 16 40 Q25.6 37.6 28 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 31 Q197.8 38.2 205 40 Q197.8 41.8 196 49 Q194.2 41.8 187 40 Q194.2 38.2 196 31 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="24" cy="178" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

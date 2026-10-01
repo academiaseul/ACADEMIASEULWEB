@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 그리고 · y (entre dos frases): globo 1 + globo 2 -->
+  <use href="#kw-brillo" transform="translate(186 42) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(132 40) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(30 152) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="96" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="160" r="2.5" fill="#E8B84B"/>
+  <circle cx="96" cy="150" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="112" cy="187" rx="66" ry="7" fill="#ADA1F0"/>
+  <!-- globo 1 (blanco, colita a la izquierda) -->
+  <path d="M54 46 L80 46 Q100 46 100 66 L100 86 Q100 106 80 106 L62 106 L42 124 L54 106 Q34 106 34 86 L34 66 Q34 46 54 46 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M48 60 L86 60 M48 69 L74 69" fill="none" stroke="#B9B0F5" stroke-width="5" stroke-linecap="round"/>
+  <!-- globo 2 (crema, colita a la derecha) -->
+  <path d="M140 78 L166 78 Q186 78 186 98 L186 118 Q186 138 166 138 L178 156 L156 138 L140 138 Q120 138 120 118 L120 98 Q120 78 140 78 Z" fill="#FFF3CC" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M134 92 L172 92 M134 101 L160 101" fill="none" stroke="#E2B44E" stroke-width="5" stroke-linecap="round"/>
+  <!-- signo + gordito dorado que los une -->
+  <path d="M110 81 L110 103 M99 92 L121 92" fill="none" stroke="#003478" stroke-width="16" stroke-linecap="round"/>
+  <path d="M110 81 L110 103 M99 92 L121 92" fill="none" stroke="#F6D47A" stroke-width="10" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(67 88) scale(0.6)"/>
+  <use href="#kw-cara" transform="translate(153 120) scale(0.6)"/>
+</svg>

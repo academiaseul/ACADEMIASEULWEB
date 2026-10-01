@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 요리하다 · cocinar (요리해요) -->
+  <use href="#kw-brillo" transform="translate(26 36) scale(9)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 52) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(204 112) scale(5)" fill="#FFFFFF"/>
+  <circle cx="22" cy="128" r="3" fill="#FFFFFF"/>
+  <circle cx="140" cy="62" r="2.5" fill="#CFC8FF"/>
+  <circle cx="208" cy="140" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="122" cy="189" rx="80" ry="7" fill="#D2CBFA"/>
+  <!-- persona base con delantal crema (escala 0,86; trazos compensados) -->
+  <g transform="matrix(0.86 0 0 0.86 -12 24)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="3"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M99 124 L110 142 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.8" stroke-linejoin="round"/>
+    <path d="M98 140 L101 126 M122 140 L119 126" fill="none" stroke="#003478" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M97 140 L123 140 L124 150 Q140 152 141 176 Q141 182 135 182 L85 182 Q79 182 79 176 Q80 152 96 150 Z" fill="#FFFDF8" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="100" y="158" width="20" height="12" rx="3" fill="#F6D47A" stroke="#003478" stroke-width="2.6"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3.5"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="4" stroke-linecap="round"/>
+    <use href="#kw-cara" transform="translate(110 98)"/>
+  </g>
+  <!-- brazo izquierdo -->
+  <path d="M60 140 Q50 156 58 168" fill="none" stroke="#003478" stroke-width="11" stroke-linecap="round"/>
+  <path d="M60 140 Q50 156 58 168" fill="none" stroke="#4236F6" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="59" cy="171" r="5.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <!-- cocina: mesón gris con perillas -->
+  <rect x="114" y="166" width="84" height="20" rx="6" fill="#F1F2F7" stroke="#003478" stroke-width="3"/>
+  <circle cx="132" cy="176" r="4" fill="#A9AFC3" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="180" cy="176" r="4" fill="#A9AFC3" stroke="#003478" stroke-width="2.2"/>
+  <!-- olla celeste: asas, cuerpo con sombra, cucharón y borde -->
+  <rect x="114" y="147" width="12" height="7" rx="3.5" fill="#6FB8EE" stroke="#003478" stroke-width="2.6"/>
+  <rect x="184" y="147" width="12" height="7" rx="3.5" fill="#6FB8EE" stroke="#003478" stroke-width="2.6"/>
+  <path d="M124 144 L186 144 L184 162 Q183 168 177 168 L133 168 Q127 168 126 162 Z" fill="#8CCBF6"/>
+  <path d="M125 158 Q133 154 141 158 T157 158 T173 158 T185 158 L184 162 Q183 168 177 168 L133 168 Q127 168 126 162 Z" fill="#6FB8EE"/>
+  <path d="M124 144 L186 144 L184 162 Q183 168 177 168 L133 168 Q127 168 126 162 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="138" cy="152" rx="6" ry="2.6" fill="#C9DBFF" transform="rotate(-15 138 152)"/>
+  <path d="M128 122 L158 142" fill="none" stroke="#003478" stroke-width="9" stroke-linecap="round"/>
+  <path d="M128 122 L158 142" fill="none" stroke="#C99A5E" stroke-width="4" stroke-linecap="round"/>
+  <rect x="120" y="136" width="70" height="9" rx="4.5" fill="#6FB8EE" stroke="#003478" stroke-width="3"/>
+  <!-- vapor -->
+  <path d="M153 128 Q147 120 153 112 Q159 104 153 96 M169 126 Q163 118 169 110 Q175 102 169 94 M184 128 Q178 120 184 112" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <!-- brazo derecho que revuelve -->
+  <path d="M104 140 Q122 146 130 129" fill="none" stroke="#003478" stroke-width="11" stroke-linecap="round"/>
+  <path d="M104 140 Q122 146 130 129" fill="none" stroke="#4236F6" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="133" cy="125" r="5.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+</svg>

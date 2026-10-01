@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 너 · tú (informal, entre amigos) -->
+  <use href="#kw-brillo" transform="translate(32 46) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(196 50) scale(7)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(204 150) scale(5)" fill="#CFC8FF"/>
+  <circle cx="26" cy="100" r="3" fill="#FFFFFF"/>
+  <circle cx="206" cy="104" r="2.5" fill="#E8B84B"/>
+  <circle cx="44" cy="180" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="136" cy="189" rx="58" ry="7" fill="#D2CBFA"/>
+  <!-- el amigo (mismo de 나) recibe el dedo -->
+  <g transform="matrix(0.9 0 0 0.9 37 18.6)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.9"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.9"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.9"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.9"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#7FD0B0" stroke="#003478" stroke-width="3.3" stroke-linejoin="round"/>
+    <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.7" stroke-linejoin="round"/>
+    <path d="M84 132 Q68 150 78 168 M136 132 Q152 150 142 168" fill="none" stroke="#003478" stroke-width="14.4" stroke-linecap="round"/>
+    <path d="M84 132 Q68 150 78 168 M136 132 Q152 150 142 168" fill="none" stroke="#7FD0B0" stroke-width="7.8" stroke-linecap="round"/>
+    <circle cx="78" cy="170" r="6.6" fill="#C98F5E" stroke="#003478" stroke-width="2.7"/>
+    <circle cx="142" cy="170" r="6.6" fill="#C98F5E" stroke="#003478" stroke-width="2.7"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="2.9"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="2.9"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#C98F5E" stroke="#003478" stroke-width="3.3"/>
+    <path d="M63 86 Q56 36 110 36 Q164 38 157 86 Q152 64 132 56 Q104 66 80 62 Q68 70 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3.3" stroke-linejoin="round"/>
+    <path d="M80 50 Q92 43 104 43" fill="none" stroke="#6E7591" stroke-width="3.9" stroke-linecap="round"/>
+    <ellipse cx="82" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <ellipse cx="138" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <use href="#kw-cara-chica" transform="translate(110 98) scale(1.1)"/>
+  </g>
+  <use href="#kw-brillo" transform="translate(136 32) scale(8)" fill="#E8B84B"/>
+  <!-- mano que apunta (manga azul = el "yo" de 나) -->
+  <rect x="12" y="126" width="28" height="40" rx="10" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <rect x="34" y="128" width="12" height="36" rx="5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <rect x="62" y="128" width="34" height="13" rx="6.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <rect x="42" y="128" width="34" height="34" rx="12" fill="#FFE4C8"/>
+  <path d="M42 150 L76 150 Q76 162 64 162 L54 162 Q42 162 42 150 Z" fill="#F2C99A"/>
+  <rect x="42" y="128" width="34" height="34" rx="12" fill="none" stroke="#003478" stroke-width="3"/>
+  <rect x="62" y="141" width="18" height="10" rx="5" fill="#FFE4C8" stroke="#003478" stroke-width="2.2"/>
+  <rect x="62" y="151" width="16" height="10" rx="5" fill="#F2C99A" stroke="#003478" stroke-width="2.2"/>
+  <path d="M48 139 Q56 135 64 139" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

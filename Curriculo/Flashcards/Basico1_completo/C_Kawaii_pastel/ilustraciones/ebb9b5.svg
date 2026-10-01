@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 빵 · pan -->
+  <use href="#kw-brillo" transform="translate(30 36) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 40) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 128) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="110" r="3" fill="#FFFFFF"/>
+  <circle cx="34" cy="160" r="2.5" fill="#E8B84B"/>
+  <circle cx="204" cy="88" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="62" ry="8" fill="#D2CBFA"/>
+  <path d="M62 176 L62 106 Q40 102 40 78 Q40 46 76 44 Q92 30 110 30 Q128 30 144 44 Q180 46 180 78 Q180 102 158 106 L158 176 Q158 184 150 184 L70 184 Q62 184 62 176 Z" fill="#E7B46E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M72 176 L72 98 Q51 96 51 78 Q51 56 80 54 Q95 41 110 41 Q125 41 140 54 Q169 56 169 78 Q169 96 148 98 L148 174 Q148 176 146 176 L74 176 Q72 176 72 174 Z" fill="#FFF2D4"/>
+  <g transform="rotate(-10 104 70)">
+  <rect x="90" y="60" width="28" height="20" rx="5" fill="#FBE08A" stroke="#003478" stroke-width="2.6"/>
+  <path d="M95 66 L104 66" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <circle cx="84" cy="150" r="2" fill="#E7B46E"/>
+  <circle cx="136" cy="156" r="2" fill="#E7B46E"/>
+  <circle cx="126" cy="164" r="1.8" fill="#E7B46E"/>
+  <use href="#kw-cara" transform="translate(110 116)"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="나라" data-es="país">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 166 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- aro (meridiano) dorado y pie del globo -->
+    <path d="M106 24 A 52 52 0 0 1 106 128" stroke="#E8B84B" stroke-width="3.2"/>
+    <path d="M106 128 V146" stroke-width="3.2"/>
+    <ellipse cx="106" cy="152" rx="26" ry="7" fill="#1F3B33"/>
+    <ellipse cx="106" cy="152" rx="26" ry="7" fill="url(#rt)"/>
+    <!-- globo: océano celeste, continentes menta, cara abajo -->
+    <circle cx="106" cy="76" r="44" fill="#1F3B33"/>
+    <circle cx="106" cy="76" r="44" fill="url(#ra)"/>
+    <path d="M70 62 C 72 48, 88 40, 100 46 C 106 52, 98 60, 90 64 C 82 70, 70 72, 70 62 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.2"/>
+    <path d="M118 44 C 132 40, 144 52, 143 65 C 140 74, 130 70, 126 64 C 120 58, 112 50, 118 44 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.2"/>
+    <path d="M136 86 C 142 84, 146 90, 142 96 C 138 98, 134 92, 136 86 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.2"/>
+    <path d="M67 92 C 71 88, 78 92, 76 99 C 72 103, 66 99, 67 92 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.2"/>
+    <use href="#cara" transform="translate(106 98) scale(0.8)"/>
+    <circle cx="106" cy="24" r="3.4" fill="#E8B84B" stroke="none"/>
+    <circle cx="106" cy="128" r="3.4" fill="#E8B84B" stroke="none"/>
+    <!-- banderitas clavadas (lisas, sin diseño de ningún país) -->
+    <path d="M80 52 L64 22" stroke-width="2.4"/>
+    <path d="M64 22 L82.7 18.8 L69.6 32.6 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <circle cx="80" cy="52" r="2.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M124 40 L134 12" stroke-width="2.4"/>
+    <path d="M134 12 L149 23.7 L130 23.2 Z" fill="url(#rb)" stroke-width="2.2"/>
+    <circle cx="124" cy="40" r="2.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M144 72 L176 58" stroke-width="2.4"/>
+    <path d="M176 58 L176.9 75.1 L165 62.8 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.2"/>
+    <circle cx="144" cy="72" r="2.8" fill="#F3F0E4" stroke="none"/>
+    <use href="#estrella" transform="translate(36 138) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(180 138) scale(0.65)"/>
+    <use href="#estrella-b" transform="translate(32 48) scale(0.6)"/>
+  </g>
+</svg>

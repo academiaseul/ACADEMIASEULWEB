@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="바다" data-es="mar">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M182 50 L189 50 M174.4 68.4 L179.3 73.3 M156 76 L156 83 M137.6 68.4 L132.7 73.3 M130 50 L123 50 M137.6 31.6 L132.7 26.7 M156 24 L156 17 M174.4 31.6 L179.3 26.7" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="156" cy="50" r="19" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M147 48 q3 -3.5 6 0 M159 48 q3 -3.5 6 0" stroke-width="2.2"/>
+    <path d="M150 55 Q156 61 162 55" stroke-width="2.2"/>
+    <path d="M40 44 q6 -6 12 0 q6 -6 12 0 M84 28 q5 -5 10 0 q5 -5 10 0" stroke-width="2.2"/>
+    <path d="M22 98 H198" stroke-width="2" stroke-opacity="0.8"/>
+    <path d="M71 92 V54" stroke-width="2.4"/>
+    <path d="M71 54 L80 57 L71 60" stroke="#E8B84B" stroke-width="2.2" fill="url(#rd)"/>
+    <path d="M74 58 L74 88 L98 88 Z" fill="url(#rb)" stroke-width="2.4"/>
+    <path d="M68 64 L68 88 L52 88 Z" fill="url(#rt)" stroke-width="2.2"/>
+    <path d="M46 92 L98 92 L90 103 L54 103 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <path d="M22 114 q5.5 -7 11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 L198 162 L22 162 Z" fill="url(#ra)" stroke="none"/>
+    <path d="M22 114 q5.5 -7 11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0 t11 0" stroke="#9FCBEF" stroke-width="3"/>
+    <path d="M26 136 q5 -6 10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0" stroke="#9FCBEF" stroke-width="2.6"/>
+    <path d="M22 156 q4.5 -5 9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0 t9 0" stroke="#9FCBEF" stroke-width="2.2" stroke-opacity="0.9"/>
+    <g transform="rotate(-24 130 112)">
+    <path d="M118 114 C 124 104, 138 102, 146 110 C 138 116, 126 118, 118 114 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M118 114 L109 108 L111 121 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <circle cx="139" cy="109" r="1.6" fill="#F3F0E4" stroke="none"/>
+    </g>
+    <path d="M150 124 q1 -6 6 -8 M156 128 q3 -4 8 -4" stroke="#9FCBEF" stroke-width="2"/>
+    <circle cx="60" cy="126" r="1.5" fill="#F3F0E4" stroke="none"/><circle cx="96" cy="146" r="1.5" fill="#F3F0E4" stroke="none"/><circle cx="176" cy="144" r="1.5" fill="#F3F0E4" stroke="none"/>
+    <use href="#estrella-b" transform="translate(196 70) scale(0.6)"/>
+  </g>
+</svg>

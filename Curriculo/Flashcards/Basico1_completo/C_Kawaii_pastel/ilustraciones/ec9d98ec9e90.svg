@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 의자 · silla -->
+  <use href="#kw-brillo" transform="translate(190 42) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(34 62) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 122) scale(6)" fill="#FFFFFF"/>
+  <circle cx="26" cy="112" r="3" fill="#FFFFFF"/>
+  <circle cx="198" cy="84" r="2.5" fill="#E8B84B"/>
+  <circle cx="30" cy="160" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="70" ry="7" fill="#D2CBFA"/>
+  <!-- patas traseras (más oscuras, detrás) -->
+  <rect x="72" y="138" width="11" height="38" rx="4" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <rect x="137" y="138" width="11" height="38" rx="4" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <!-- postes y respaldo -->
+  <rect x="68" y="40" width="13" height="94" rx="5" fill="#D9A462" stroke="#003478" stroke-width="3"/>
+  <rect x="139" y="40" width="13" height="94" rx="5" fill="#D9A462" stroke="#003478" stroke-width="3"/>
+  <rect x="76" y="92" width="68" height="12" rx="5" fill="#E7B46E" stroke="#003478" stroke-width="2.6"/>
+  <rect x="60" y="24" width="100" height="60" rx="18" fill="#E7B46E" stroke="#003478" stroke-width="3"/>
+  <ellipse cx="78" cy="36" rx="9" ry="4.5" fill="#FFF3CC" transform="rotate(-30 78 36)"/>
+  <!-- asiento con cojín celeste -->
+  <path d="M60 124 L160 124 L174 142 L46 142 Z" fill="#E9C48E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M68 134 Q66 124 80 124 L140 124 Q154 124 152 134 Q152 139 144 139 L76 139 Q68 139 68 134 Z" fill="#8CCBF6" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M84 129 L104 129" fill="none" stroke="#C9DBFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- patas delanteras y canto del asiento -->
+  <rect x="50" y="146" width="13" height="38" rx="5" fill="#C99A5E" stroke="#003478" stroke-width="3"/>
+  <rect x="157" y="146" width="13" height="38" rx="5" fill="#C99A5E" stroke="#003478" stroke-width="3"/>
+  <path d="M46 142 L174 142 L174 150 Q174 155 169 155 L51 155 Q46 155 46 150 Z" fill="#D9A462" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M60 148.5 L100 148.5 M118 148.5 L150 148.5" fill="none" stroke="#E9C48E" stroke-width="2.2" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(110 54) scale(0.85)"/>
+</svg>

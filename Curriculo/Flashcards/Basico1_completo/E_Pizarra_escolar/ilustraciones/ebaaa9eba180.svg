@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="목례" data-es="saludo con una leve inclinación de cabeza">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- posición inicial de la cabeza, tenue (de dónde viene el movimiento) -->
+    <circle cx="110" cy="80" r="30" stroke-width="2" stroke-opacity="0.5"/>
+    <!-- cuerpo derecho: el saludo es solo con la cabeza -->
+    <path d="M86 118 C 72 130, 66 146, 64 162 L156 162 C 154 146, 148 130, 134 118 Z" fill="#1F3B33"/>
+    <path d="M86 118 C 72 130, 66 146, 64 162 L156 162 C 154 146, 148 130, 134 118 Z" fill="url(#rt)"/>
+    <path d="M98 118 Q110 128 122 118" stroke-width="2.4"/>
+    <!-- manos juntas por delante (pose cortés) -->
+    <path d="M84 125 C 76 136, 82 148, 101 149 M136 125 C 144 136, 138 148, 119 149"/>
+    <circle cx="105" cy="149" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <circle cx="115" cy="149" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza inclinada unos 20 grados hacia adelante, en 3/4 -->
+    <g transform="rotate(20 110 114)">
+      <circle cx="110" cy="80" r="30" fill="#1F3B33"/>
+      <path d="M80 80 C 76 56, 92 44, 112 45 C 130 46, 142 58, 140 76 C 133 70, 126 64, 122 56 C 112 64, 95 70, 80 80 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <use href="#cara-feliz" transform="translate(116 89) scale(0.78)"/>
+    </g>
+    <!-- flecha curva dorada: el recorrido de la cabeza -->
+    <path d="M94 33 A 80 80 0 0 1 147.6 41.4" stroke="#E8B84B" stroke-width="3.4"/>
+    <path d="M143.1 31.3 L147.6 41.4 L136.8 43.3" stroke="#E8B84B" stroke-width="3.4"/>
+    <use href="#estrella" transform="translate(40 52) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(186 128) scale(0.7)"/>
+    <use href="#estrella" transform="translate(36 128) scale(0.6)"/>
+  </g>
+</svg>

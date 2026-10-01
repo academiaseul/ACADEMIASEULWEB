@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 멕시코 · México (cactus con sombrero; nunca bandera) -->
+  <use href="#kw-brillo" transform="translate(32 44) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 46) scale(8)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(196 150) scale(6)" fill="#FFFFFF"/>
+  <circle cx="26" cy="112" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="108" r="2.5" fill="#CFC8FF"/>
+  <circle cx="36" cy="166" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="64" ry="7" fill="#D2CBFA"/>
+  <!-- brazos del cactus -->
+  <path d="M86 146 L70 146 Q56 146 56 132 L56 110 Q56 100 65 100 Q74 100 74 110 L74 128 L86 128 Z" fill="#8ED3A0" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M134 132 L146 132 L146 98 Q146 89 155 89 Q164 89 164 98 L164 134 Q164 148 150 148 L134 148 Z" fill="#8ED3A0" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M65 106 L65 120 M155 96 L155 112" fill="none" stroke="#C6F0DE" stroke-width="3" stroke-linecap="round"/>
+  <!-- tronco: relleno, sombra, costillas, contorno -->
+  <path d="M84 184 L84 94 Q84 70 110 70 Q136 70 136 94 L136 184 Z" fill="#8ED3A0"/>
+  <path d="M84 162 Q97 156 110 162 T136 162 L136 184 L84 184 Z" fill="#6CC7A4"/>
+  <path d="M96 92 L96 104 M124 92 L124 104 M96 140 L96 152 M124 140 L124 152" fill="none" stroke="#6CC7A4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M84 184 L84 94 Q84 70 110 70 Q136 70 136 94 L136 184 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- florcita lila en el brazo derecho -->
+  <circle cx="155" cy="84" r="4" fill="#CFC8FF" stroke="#003478" stroke-width="2"/>
+  <circle cx="149" cy="88" r="4" fill="#CFC8FF" stroke="#003478" stroke-width="2"/>
+  <circle cx="161" cy="88" r="4" fill="#CFC8FF" stroke="#003478" stroke-width="2"/>
+  <circle cx="155" cy="89" r="3" fill="#E8B84B" stroke="#003478" stroke-width="1.8"/>
+  <!-- sombrero de paja con cinta azul, un poco ladeado -->
+  <g transform="rotate(-8 110 74)">
+    <ellipse cx="110" cy="76" rx="52" ry="11" fill="#E7B46E" stroke="#003478" stroke-width="3"/>
+    <path d="M86 76 Q86 42 110 40 Q134 42 134 76 Q110 84 86 76 Z" fill="#E7B46E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M86.5 64 Q110 71 133.5 64 L134 73 Q110 80 86 73 Z" fill="#4236F6" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+    <ellipse cx="98" cy="52" rx="6" ry="3" fill="#F9DD8E" transform="rotate(-50 98 52)"/>
+    <path d="M66 80 Q76 84 86 85 M134 85 Q144 84 154 80" fill="none" stroke="#F9DD8E" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <use href="#kw-cara-chica" transform="translate(110 118)"/>
+  <ellipse cx="94" cy="127" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+  <ellipse cx="126" cy="127" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+</svg>

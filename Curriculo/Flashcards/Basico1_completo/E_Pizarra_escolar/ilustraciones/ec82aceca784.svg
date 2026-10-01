@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="사진" data-es="foto">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 168 C 88 174, 150 174, 190 164" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- foto que sale por abajo: marco blanco, montaña y sol -->
+    <g transform="rotate(-4 110 130)">
+      <path d="M82 96 H138 V164 H82 Z" fill="#1F3B33"/>
+      <path d="M82 96 H138 V164 H82 Z" fill="url(#rb)"/>
+      <path d="M88 110 H132 V150 H88 Z" fill="#1F3B33" stroke-width="2.2"/>
+      <path d="M90 148 L104 126 L111 136 L118 128 L130 148 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.4"/>
+      <circle cx="122" cy="120" r="4.6" fill="#E8B84B" stroke="none"/>
+    </g>
+    <!-- botón disparador dorado -->
+    <path d="M134 44 V36 H152 V44" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- cuerpo de la cámara instantánea -->
+    <rect x="54" y="42" width="112" height="70" rx="12" fill="#1F3B33"/>
+    <rect x="54" y="42" width="112" height="70" rx="12" fill="url(#rt)"/>
+    <path d="M78 104 H142" stroke-width="3.4"/>
+    <!-- flash y visor -->
+    <rect x="63" y="51" width="22" height="12" rx="2" fill="#1F3B33"/>
+    <rect x="63" y="51" width="22" height="12" rx="2" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.2"/>
+    <rect x="140" y="51" width="16" height="12" rx="3" fill="#1F3B33" stroke-width="2.4"/>
+    <!-- lente -->
+    <circle cx="110" cy="76" r="25" fill="#1F3B33"/>
+    <circle cx="110" cy="76" r="17" stroke-width="2.2"/>
+    <circle cx="110" cy="76" r="10" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.4"/>
+    <path d="M104 71 Q106 67 110 66" stroke-width="2.2"/>
+    <!-- destello del flash -->
+    <path d="M52 34 L46 28 M64 30 V22 M40 46 H33" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#estrella-b" transform="translate(186 30) scale(0.65)"/>
+    <use href="#estrella" transform="translate(178 136) scale(0.8)"/>
+    <use href="#estrella" transform="translate(42 132) scale(0.7)"/>
+  </g>
+</svg>

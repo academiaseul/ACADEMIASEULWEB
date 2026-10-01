@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="아니요" data-es="no">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 166 C 80 172, 150 172, 200 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo -->
+    <path d="M60 98 C 46 110, 40 138, 38 162 L 118 162 C 116 138, 110 110, 96 98 Z" fill="#1F3B33"/>
+    <path d="M60 98 C 46 110, 40 138, 38 162 L 118 162 C 116 138, 110 110, 96 98 Z" fill="url(#rt)"/>
+    <path d="M68 99 L78 112 L88 99" stroke-width="2.2"/>
+    <path d="M54 114 C 44 126, 40 140, 42 152"/>
+    <circle cx="42.5" cy="155" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- brazo levantado con la palma abierta -->
+    <path d="M102 112 C 118 110, 130 104, 138 96"/>
+    <path d="M128 86 L128 68 C128 64, 134 64, 134 68 L134 62 C134 58, 140 58, 140 62 L140 63 C140 59, 146 59, 146 63 L146 68 C146 64.5, 152 64.5, 152 68 L152 84 C152 91, 147 96, 140 96 C133 96, 128 92, 128 86 Z" fill="#1F3B33"/>
+    <path d="M128 84 C 124 77, 118 76, 119 81 C 120 86, 124 90, 129 92" fill="#1F3B33"/>
+    <path d="M134 68 V77 M140 63 V77 M146 68 V77" stroke-width="1.8" stroke-opacity="0.7"/>
+    <!-- cabeza que niega -->
+    <circle cx="78" cy="68" r="30" fill="#1F3B33"/>
+    <path d="M48 66 C 47 46, 61 36, 78 36 C 96 36, 109 46, 108 66 C 105 58, 101 52, 95 50 C 85 53, 70 51, 63 44 C 59 52, 53 58, 48 66 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(78 76) scale(0.82)"/>
+    <!-- movimiento de lado a lado -->
+    <path d="M54 22 H102 M60 16 L54 22 L60 28 M96 16 L102 22 L96 28" stroke-width="2.6"/>
+    <path d="M38 56 Q32 68 38 80 M29 52 Q21 68 29 84" stroke-width="2.4" stroke-opacity="0.85"/>
+    <!-- cruz dorada -->
+    <path d="M168 80 L200 112 M200 80 L168 112" stroke="#E8B84B" stroke-width="5"/>
+    <use href="#estrella-b" transform="translate(186 36) scale(0.65)"/>
+    <use href="#estrella" transform="translate(184 148) scale(0.65)"/>
+  </g>
+</svg>

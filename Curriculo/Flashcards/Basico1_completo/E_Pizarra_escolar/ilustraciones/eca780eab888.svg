@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="지금" data-es="ahora">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 165 C 86 172, 150 172, 196 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- campanillas doradas del despertador (van detrás del cuerpo) -->
+    <g transform="rotate(-40 66 69)">
+      <path d="M52 69 A14 14 0 0 1 80 69 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    </g>
+    <g transform="rotate(40 126 69)">
+      <path d="M112 69 A14 14 0 0 1 140 69 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    </g>
+    <!-- martillito -->
+    <path d="M96 62 V51" stroke-width="2.6"/>
+    <circle cx="96" cy="47" r="4" fill="#E8B84B" stroke="none"/>
+    <!-- patas -->
+    <path d="M74 138 L64 158 M118 138 L128 158" stroke-width="3.6"/>
+    <!-- cuerpo: aro blanco y esfera -->
+    <circle cx="96" cy="104" r="42" fill="#1F3B33"/>
+    <circle cx="96" cy="104" r="42" fill="url(#rt)"/>
+    <circle cx="96" cy="104" r="34" fill="#1F3B33"/>
+    <!-- marcas de las 12, 3 y 9 -->
+    <path d="M96 74 V80 M126 104 H120 M66 104 H72" stroke-width="2.8"/>
+    <!-- manecillas -->
+    <path d="M96 104 V80" stroke-width="3.2"/>
+    <path d="M96 104 L80 95" stroke-width="4.2"/>
+    <circle cx="96" cy="104" r="3.8" fill="#E8B84B" stroke="none"/>
+    <use href="#cara-sorpresa" transform="translate(96 119) scale(0.62)"/>
+    <!-- suena: rayitas sobre las campanillas y vibración a la izquierda -->
+    <path d="M48 52 L40 46 M56 42 L52 34 M144 52 L152 46 M136 42 L140 34" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M44 88 C 38 98, 38 112, 44 122 M34 82 C 26 96, 26 114, 34 128" stroke-width="2.2" stroke-opacity="0.8"/>
+    <!-- mano que señala desde la derecha: manga, puño y dedo índice -->
+    <path d="M186 94 H208 V128 H186 Z" fill="#1F3B33"/>
+    <path d="M186 94 H208 V128 H186 Z" fill="url(#rt)"/>
+    <path d="M166 98 H182 C 187 98, 190 101, 190 106 V118 C 190 123, 187 126, 182 126 H170 C 164 126, 160 122, 160 116 V104 C 160 100, 162 98, 166 98 Z" fill="#1F3B33"/>
+    <path d="M168 110 H182 M168 117 H181" stroke-width="1.8" stroke-opacity="0.75"/>
+    <path d="M168 99 L148 99 C 142 99, 142 107, 148 107 L164 107" fill="#1F3B33" stroke-width="2.8"/>
+    <use href="#estrella" transform="translate(28 40) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(184 40) scale(0.65)"/>
+    <use href="#estrella" transform="translate(186 150) scale(0.6)"/>
+  </g>
+</svg>

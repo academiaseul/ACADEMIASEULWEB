@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="가방" data-es="bolso, mochila">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <path d="M68 76 C 54 94, 54 130, 64 152 M152 76 C 166 94, 166 130, 156 152" stroke-width="2.6"/>
+    <path d="M96 54 C 96 36, 124 36, 124 54" stroke-width="3.2"/>
+    <path d="M66 150 L64 82 C 64 60, 84 50, 110 50 C 136 50, 156 60, 156 82 L154 150 C 154 158, 148 162, 140 162 L80 162 C 72 162, 66 158, 66 150 Z" fill="#1F3B33"/>
+    <path d="M66 150 L64 82 C 64 60, 84 50, 110 50 C 136 50, 156 60, 156 82 L154 150 C 154 158, 148 162, 140 162 L80 162 C 72 162, 66 158, 66 150 Z" fill="url(#rt)"/>
+    <path d="M72 86 C 82 63, 138 63, 148 86" stroke-width="1.8" stroke-dasharray="3 4"/>
+    <path d="M148 86 L152 95" stroke="#E8B84B" stroke-width="2.4"/><circle cx="153" cy="98.5" r="2.6" stroke="#E8B84B" stroke-width="2"/>
+    <use href="#cara" transform="translate(110 92) scale(0.95)"/>
+    <path d="M78 120 L142 120 L144 150 C 144 155, 140 157, 136 157 L84 157 C 80 157, 76 155, 76 150 Z" fill="#1F3B33"/>
+    <path d="M78 120 L142 120 L144 150 C 144 155, 140 157, 136 157 L84 157 C 80 157, 76 155, 76 150 Z" fill="url(#rd)"/>
+    <path d="M76 121 C 76 113, 144 113, 144 121 L144 130 C 122 137, 98 137, 76 130 Z" fill="#1F3B33"/>
+    <rect x="103" y="128" width="14" height="11" rx="2.5" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M110 131 V136" stroke="#E8B84B" stroke-width="2"/>
+    <use href="#estrella" transform="translate(36 48) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(190 56) scale(0.7)"/>
+    <use href="#estrella" transform="translate(188 136) scale(0.6)"/>
+  </g>
+</svg>

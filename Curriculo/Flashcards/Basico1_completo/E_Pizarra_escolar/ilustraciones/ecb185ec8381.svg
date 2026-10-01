@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="책상" data-es="escritorio">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 166 C 84 172, 150 172, 200 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- pata de atrás -->
+    <path d="M58 92 H64 V146 H58 Z" fill="url(#rt)"/>
+    <!-- cubierta en perspectiva: tapa, canto y costado -->
+    <path d="M30 98 L54 80 L192 80 L168 98 Z" fill="#1F3B33"/>
+    <path d="M30 98 L54 80 L192 80 L168 98 Z" fill="url(#rt)"/>
+    <path d="M30 98 H168 V106 H30 Z" fill="#1F3B33"/>
+    <path d="M30 98 H168 V106 H30 Z" fill="url(#rt)"/>
+    <path d="M168 98 L192 80 V88 L168 106 Z" fill="url(#rt)"/>
+    <!-- pata de adelante -->
+    <path d="M34 106 H42 V162 H34 Z" fill="url(#rt)"/>
+    <!-- mueble de cajones con su costado -->
+    <path d="M168 106 L192 88 V144 L168 162 Z" fill="url(#rt)"/>
+    <path d="M116 106 H168 V162 H116 Z" fill="#1F3B33"/>
+    <rect x="122" y="111" width="40" height="18" rx="2.5" stroke-width="2.6"/>
+    <circle cx="142" cy="120" r="3.4" fill="#E8B84B" stroke="none"/>
+    <use href="#cara" transform="translate(142 144) scale(0.68)"/>
+    <!-- cuaderno abierto sobre la cubierta -->
+    <path d="M100 95 L114 84 L138 85 L126 95 Z" fill="#1F3B33"/>
+    <path d="M126 95 L138 85 L164 84 L152 95 Z" fill="#1F3B33"/>
+    <path d="M108 91 L126 91.5 M113 87.5 L132 88 M134 91.5 L153 91 M140 88 L158 87.5" stroke-width="1.6" stroke-opacity="0.7"/>
+    <!-- lámpara: base, brazo articulado y pantalla dorada -->
+    <ellipse cx="64" cy="90" rx="14" ry="4.5" fill="#1F3B33"/>
+    <path d="M64 87 L54 56 L86 36" stroke-width="3.2"/>
+    <circle cx="54" cy="56" r="3.4" fill="#F3F0E4" stroke="none"/>
+    <g transform="rotate(-35 90 36)">
+      <path d="M82 34 L98 34 L108 56 L72 56 Z" fill="#1F3B33"/>
+      <path d="M82 34 L98 34 L108 56 L72 56 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+      <path d="M81 56 C 83 64, 97 64, 99 56" stroke-width="2.4"/>
+    </g>
+    <!-- rayos de luz hacia el cuaderno -->
+    <path d="M112 62 L120 70 M104 68 L108 77 M118 54 L128 58" stroke="#E8B84B" stroke-width="2.2" stroke-opacity="0.8"/>
+    <use href="#estrella" transform="translate(160 36) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(196 42) scale(0.6)"/>
+    <use href="#estrella" transform="translate(26 42) scale(0.6)"/>
+  </g>
+</svg>

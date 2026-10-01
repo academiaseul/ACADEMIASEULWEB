@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="출구" data-es="salida (del metro)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- la salida de arriba: cielo en trama celeste con el sol que asoma (con cara) -->
+    <rect x="72" y="26" width="76" height="54" fill="url(#ra)" stroke="none"/>
+    <path d="M110 33 V29 M85 58 H80 M135 58 H140 M92.3 40.3 L88.8 36.8 M127.7 40.3 L131.2 36.8" stroke="#E8B84B" stroke-width="2.6"/>
+    <circle cx="110" cy="58" r="20" fill="#1F3B33"/>
+    <circle cx="110" cy="58" r="20" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#cara" transform="translate(110 56) scale(0.62)"/>
+    <rect x="72" y="26" width="76" height="54"/>
+    <!-- techo y paredes del túnel en perspectiva -->
+    <path d="M72 26 L46 8 M148 26 L174 8"/>
+    <path d="M72 80 L30 162 M148 80 L190 162"/>
+    <!-- escalones que suben hacia la luz: contrahuellas con trama -->
+    <path d="M30 162 H190 L185.1 152.4 H34.9 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <path d="M38.2 146 H181.8 L177.5 137.6 H42.5 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <path d="M45.4 132 H174.6 L170.6 124.2 H49.4 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <path d="M52 119 H168 L164.6 112.4 H55.4 Z" fill="url(#rt)" stroke-width="2.4"/>
+    <path d="M57.7 108 H162.3 L159.3 102 H60.7 Z" fill="url(#rt)" stroke-width="2.4"/>
+    <path d="M62.8 98 H157.2 L154.5 92.6 H65.5 Z" fill="url(#rt)" stroke-width="2.2"/>
+    <path d="M67.4 89 H152.6 L149.8 83.6 H70.2 Z" fill="url(#rt)" stroke-width="2.2"/>
+    <!-- pasamanos a los dos lados -->
+    <path d="M30 128 L72 66 M44 107.3 V134.7 M58 86.7 V107.3" stroke-width="2.6"/>
+    <path d="M190 128 L148 66 M176 107.3 V134.7 M162 86.7 V107.3" stroke-width="2.6"/>
+    <!-- gran flecha dorada pintada en la escalera: ¡hacia afuera! -->
+    <path d="M100 156 V122 H88 L110 98 L132 122 H120 V156 Z" fill="#1F3B33"/>
+    <path d="M100 156 V122 H88 L110 98 L132 122 H120 V156 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="3.2"/>
+    <use href="#estrella" transform="translate(24 40) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(196 36) scale(0.65)"/>
+    <use href="#estrella" transform="translate(200 96) scale(0.6)"/>
+  </g>
+</svg>

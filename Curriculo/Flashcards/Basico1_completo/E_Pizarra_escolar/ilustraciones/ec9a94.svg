@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="요" data-es="colchón delgado que va en el suelo">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 165 C 80 172, 150 172, 200 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- colchón delgado extendido en el suelo, visto en perspectiva -->
+    <!-- canto acolchado -->
+    <rect x="24" y="130" width="172" height="20" rx="8" fill="#1F3B33"/>
+    <rect x="24" y="130" width="172" height="20" rx="8" fill="url(#rt)"/>
+    <path d="M55 98 L165 98 C 169 98, 171 99, 173 102 L192 132 C 194 136, 192 138, 188 138 L32 138 C 28 138, 26 136, 28 132 L47 102 C 49 99, 51 98, 55 98 Z" fill="#1F3B33"/>
+    <path d="M55 98 L165 98 C 169 98, 171 99, 173 102 L192 132 C 194 136, 192 138, 188 138 L32 138 C 28 138, 26 136, 28 132 L47 102 C 49 99, 51 98, 55 98 Z" fill="url(#rt)"/>
+    <path d="M58 104 L162 104 L180 132 L40 132 Z" stroke-width="1.8" stroke-opacity="0.6"/>
+    <!-- almohada cilíndrica (베개) con tapas doradas -->
+    <path d="M84 78 H136 V100 H84 Z" fill="#1F3B33"/>
+    <path d="M84 78 H136 V100 H84 Z" fill="url(#rb)"/>
+    <ellipse cx="84" cy="89" rx="7" ry="11" fill="#1F3B33"/>
+    <ellipse cx="84" cy="89" rx="7" ry="11" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <ellipse cx="136" cy="89" rx="7" ry="11" fill="#1F3B33"/>
+    <ellipse cx="136" cy="89" rx="7" ry="11" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- cara en el colchón -->
+    <use href="#cara" transform="translate(94 116) scale(0.8)"/>
+    <!-- cobija doblada a los pies -->
+    <path d="M140 122 L144 110 H182 L188 122 Z" fill="#1F3B33"/>
+    <path d="M140 122 L144 110 H182 L188 122 Z" fill="url(#rt)"/>
+    <path d="M140 122 H188 V135 H140 Z" fill="#1F3B33"/>
+    <path d="M140 122 H188 V135 H140 Z" fill="url(#rt)"/>
+    <path d="M140 126.5 H188 M140 131 H188" stroke="#9FCBEF" stroke-width="2"/>
+    <!-- luna y estrellas: hora de dormir -->
+    <path d="M54 22 A 16 16 0 1 0 70 50 A 13 13 0 0 1 54 22 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#estrella-b" transform="translate(88 38) scale(0.6)"/>
+    <use href="#estrella" transform="translate(184 46) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(150 30) scale(0.55)"/>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="먹다" data-es="comer (먹어요)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 165 C 84 172, 150 172, 196 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo de niño -->
+    <path d="M78 106 C 66 120, 62 142, 60 162 L132 162 C 130 142, 126 120, 114 106 Z" fill="#1F3B33"/>
+    <path d="M78 106 C 66 120, 62 142, 60 162 L132 162 C 130 142, 126 120, 114 106 Z" fill="url(#rt)"/>
+    <!-- cabeza grande con la mejilla inflada -->
+    <circle cx="96" cy="72" r="33" fill="#1F3B33"/>
+    <path d="M65 80 C 57 84, 57 98, 68 101" fill="#1F3B33"/>
+    <path d="M62 72 C 60 50, 76 39, 96 39 C 116 39, 131 50, 130 72 C 124 64, 116 58, 108 57 C 102 52, 94 51, 88 55 C 78 57, 68 63, 62 72 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(96 80) scale(0.82)"/>
+    <ellipse cx="74" cy="91" rx="8" ry="5" fill="#F4B98C" stroke="none"/>
+    <!-- tostada con un mordisco en la esquina, justo en la boca: corteza dorada y miga blanca -->
+    <path d="M108 124 L108.5 100 Q 116 97, 111 90 Q 119 88, 115 82 Q 123 82, 121 75 C 130 72, 142 72, 148 76 C 160 80, 159 96, 148 98 L149 124 Z" fill="#1F3B33"/>
+    <path d="M108 124 L108.5 100 Q 116 97, 111 90 Q 119 88, 115 82 Q 123 82, 121 75 C 130 72, 142 72, 148 76 C 160 80, 159 96, 148 98 L149 124 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M114 119 L114.5 102 Q 121 100, 117 94 Q 124 92, 121 87 Q 127 86, 126 81 C 133 79, 141 79, 145 82 C 153 85, 152 94, 144 96 L144 119 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M114 119 L114.5 102 Q 121 100, 117 94 Q 124 92, 121 87 Q 127 86, 126 81 C 133 79, 141 79, 145 82 C 153 85, 152 94, 144 96 L144 119 Z" fill="url(#rt)" stroke-width="2.2"/>
+    <!-- brazos y manos que sostienen la tostada -->
+    <path d="M80 120 C 90 130, 102 130, 109 126"/>
+    <circle cx="110" cy="124" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M116 116 C 128 128, 140 130, 147 126"/>
+    <circle cx="148" cy="124" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- migas -->
+    <circle cx="104" cy="104" r="2.2" fill="#E8B84B" stroke="none"/>
+    <circle cx="100" cy="134" r="2.4" fill="#E8B84B" stroke="none"/>
+    <circle cx="124" cy="140" r="2.2" fill="#E8B84B" stroke="none"/>
+    <circle cx="112" cy="152" r="2" fill="#E8B84B" stroke="none"/>
+    <circle cx="160" cy="132" r="2.2" fill="#E8B84B" stroke="none"/>
+    <!-- ñam ñam: rayitas de masticar -->
+    <path d="M50 70 L42 66 M48 84 H39 M50 98 L42 102" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#estrella" transform="translate(184 40) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(36 36) scale(0.6)"/>
+    <use href="#estrella" transform="translate(186 140) scale(0.65)"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 가방 · bolso, mochila · Estilo A Sticker pop · mazo aprobado (30 sept 2026) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M88 72 C88 40 132 40 132 72" fill="none" stroke-width="38"/>
+<rect x="54" y="64" width="112" height="130" rx="32"/>
+<rect x="40" y="118" width="20" height="54" rx="8"/>
+<rect x="160" y="118" width="20" height="54" rx="8"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M88 72 C88 40 132 40 132 72" fill="none" stroke-width="38"/>
+<rect x="54" y="64" width="112" height="130" rx="32"/>
+<rect x="40" y="118" width="20" height="54" rx="8"/>
+<rect x="160" y="118" width="20" height="54" rx="8"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M88 72 C88 40 132 40 132 72" fill="none" stroke-width="31"/>
+<rect x="54" y="64" width="112" height="130" rx="32"/>
+<rect x="40" y="118" width="20" height="54" rx="8"/>
+<rect x="160" y="118" width="20" height="54" rx="8"/>
+</g>
+<path d="M88 72 C88 40 132 40 132 72" fill="none" stroke="#14142B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M88 72 C88 40 132 40 132 72" fill="none" stroke="#4236F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="40" y="118" width="20" height="54" rx="8" fill="#6FCFAE" stroke="#14142B" stroke-width="4"/>
+<rect x="160" y="118" width="20" height="54" rx="8" fill="#6FCFAE" stroke="#14142B" stroke-width="4"/>
+<rect x="54" y="64" width="112" height="130" rx="32" fill="#8FE3C6" stroke="#14142B" stroke-width="4"/>
+<path d="M54 106 L54 96 Q54 64 86 64 L134 64 Q166 64 166 96 L166 106 Q110 122 54 106 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="103" y="107" width="14" height="14" rx="3" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<rect x="72" y="150" width="76" height="36" rx="13" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M82 162 L138 162" fill="none" stroke="#DCE0FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M130 162 L130 171" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="126" y="170" width="8" height="9" rx="2" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<ellipse cx="99.92" cy="130" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="120.08" cy="130" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="101.5" cy="127.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="121.66" cy="127.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="91.28" cy="140.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="128.72" cy="140.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M104.24 139.36 Q110 148 115.76 139.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<path d="M30 34 Q32.4 43.6 42 46 Q32.4 48.4 30 58 Q27.6 48.4 18 46 Q27.6 43.6 30 34 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 40 Q194 48 202 50 Q194 52 192 60 Q190 52 182 50 Q190 48 192 40 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="26" cy="200" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 머리 · cabeza; pelo · Estilo A Sticker pop · cabeza grande de pelo negro (con hombros) y flecha blanca que la señala -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M48 110 C42 62 72 40 104 40 C136 40 166 62 160 110 Z"/>
+<ellipse cx="52" cy="114" rx="8" ry="10"/>
+<ellipse cx="156" cy="114" rx="8" ry="10"/>
+<ellipse cx="104" cy="104" rx="52" ry="48"/>
+<path d="M58 200 C58 178 78 166 104 166 C130 166 150 178 150 200 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M48 110 C42 62 72 40 104 40 C136 40 166 62 160 110 Z"/>
+<ellipse cx="52" cy="114" rx="8" ry="10"/>
+<ellipse cx="156" cy="114" rx="8" ry="10"/>
+<ellipse cx="104" cy="104" rx="52" ry="48"/>
+<path d="M58 200 C58 178 78 166 104 166 C130 166 150 178 150 200 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M48 110 C42 62 72 40 104 40 C136 40 166 62 160 110 Z"/>
+<ellipse cx="52" cy="114" rx="8" ry="10"/>
+<ellipse cx="156" cy="114" rx="8" ry="10"/>
+<ellipse cx="104" cy="104" rx="52" ry="48"/>
+<path d="M58 200 C58 178 78 166 104 166 C130 166 150 178 150 200 Z"/>
+</g>
+<!-- pelo de atrás negro -->
+<path d="M48 110 C42 62 72 40 104 40 C136 40 166 62 160 110 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="52" cy="114" rx="8" ry="10" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="156" cy="114" rx="8" ry="10" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- hombros (azul) y cuello -->
+<path d="M58 200 C58 178 78 166 104 166 C130 166 150 178 150 200 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M92 140 L92 168 Q104 175 116 168 L116 140 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cabeza -->
+<ellipse cx="104" cy="104" rx="52" ry="48" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- flequillo con raya al lado: relleno sin borde + canto de abajo -->
+<path d="M50 102 C46 60 76 44 104 44 C132 44 162 60 158 102 C153 82 143 72 130 70 C118 82 94 86 76 82 C66 88 56 94 50 102 Z" fill="#14142B"/>
+<path d="M158 102 C153 82 143 72 130 70 C118 82 94 86 76 82 C66 88 56 94 50 102" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70 62 Q84 53 100 52" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 54 Q132 56 141 63" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- cara de la casa en (104,116), s = 0,9 -->
+<ellipse cx="91.4" cy="116" rx="5.85" ry="7.65" fill="#14142B"/>
+<ellipse cx="116.6" cy="116" rx="5.85" ry="7.65" fill="#14142B"/>
+<circle cx="93.38" cy="112.94" r="2.16" fill="#FFFFFF"/>
+<circle cx="118.58" cy="112.94" r="2.16" fill="#FFFFFF"/>
+<ellipse cx="80.6" cy="128.6" rx="6.3" ry="4.05" fill="#FFB98A"/>
+<ellipse cx="127.4" cy="128.6" rx="6.3" ry="4.05" fill="#FFB98A"/>
+<path d="M96.8 127.7 Q104 138.5 111.2 127.7 Z" fill="#14142B" stroke="#14142B" stroke-width="2.7" stroke-linejoin="round"/>
+<!-- flecha gruesa blanca que apunta a la cabeza (pelo) -->
+<path d="M162 58 L187.45 55.17 L181.09 48.81 L204.95 24.95 L195.05 15.05 L171.19 38.91 L164.83 32.55 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M30 20 Q32.4 29.6 42 32 Q32.4 34.4 30 44 Q27.6 34.4 18 32 Q27.6 29.6 30 20 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M26 169 Q27.8 176.2 35 178 Q27.8 179.8 26 187 Q24.2 179.8 17 178 Q24.2 176.2 26 169 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="194" cy="112" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 동생 · hermano o hermana menor · Estilo A Sticker pop · el hermano mayor (atrás, izq.) abraza por los hombros al hermanito, más chico y adelante -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M38 80 C36 48 52 34 70 34 C88 34 104 48 102 80 Z"/>
+<ellipse cx="37" cy="84" rx="6" ry="8"/>
+<ellipse cx="103" cy="84" rx="6" ry="8"/>
+<ellipse cx="70" cy="72" rx="34" ry="33"/>
+<path d="M20 196 C20 150 42 122 70 122 C98 122 120 150 120 196 Z"/>
+<path d="M106 152 Q126 170 152 176" fill="none" stroke-width="39"/>
+<path d="M128 103 Q122 88 132 86 Q130 94 138 102 Z"/>
+<path d="M100 136 C98 112 112 100 132 100 C152 100 166 112 164 136 Z"/>
+<ellipse cx="99" cy="142" rx="6" ry="8"/>
+<ellipse cx="165" cy="142" rx="6" ry="8"/>
+<ellipse cx="132" cy="134" rx="33" ry="32"/>
+<path d="M102 198 C102 180 116 168 132 168 C148 168 162 180 162 198 Z"/>
+<ellipse cx="156" cy="176" rx="9" ry="8"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M38 80 C36 48 52 34 70 34 C88 34 104 48 102 80 Z"/>
+<ellipse cx="37" cy="84" rx="6" ry="8"/>
+<ellipse cx="103" cy="84" rx="6" ry="8"/>
+<ellipse cx="70" cy="72" rx="34" ry="33"/>
+<path d="M20 196 C20 150 42 122 70 122 C98 122 120 150 120 196 Z"/>
+<path d="M106 152 Q126 170 152 176" fill="none" stroke-width="39"/>
+<path d="M128 103 Q122 88 132 86 Q130 94 138 102 Z"/>
+<path d="M100 136 C98 112 112 100 132 100 C152 100 166 112 164 136 Z"/>
+<ellipse cx="99" cy="142" rx="6" ry="8"/>
+<ellipse cx="165" cy="142" rx="6" ry="8"/>
+<ellipse cx="132" cy="134" rx="33" ry="32"/>
+<path d="M102 198 C102 180 116 168 132 168 C148 168 162 180 162 198 Z"/>
+<ellipse cx="156" cy="176" rx="9" ry="8"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M38 80 C36 48 52 34 70 34 C88 34 104 48 102 80 Z"/>
+<ellipse cx="37" cy="84" rx="6" ry="8"/>
+<ellipse cx="103" cy="84" rx="6" ry="8"/>
+<ellipse cx="70" cy="72" rx="34" ry="33"/>
+<path d="M20 196 C20 150 42 122 70 122 C98 122 120 150 120 196 Z"/>
+<path d="M106 152 Q126 170 152 176" fill="none" stroke-width="32"/>
+<path d="M128 103 Q122 88 132 86 Q130 94 138 102 Z"/>
+<path d="M100 136 C98 112 112 100 132 100 C152 100 166 112 164 136 Z"/>
+<ellipse cx="99" cy="142" rx="6" ry="8"/>
+<ellipse cx="165" cy="142" rx="6" ry="8"/>
+<ellipse cx="132" cy="134" rx="33" ry="32"/>
+<path d="M102 198 C102 180 116 168 132 168 C148 168 162 180 162 198 Z"/>
+<ellipse cx="156" cy="176" rx="9" ry="8"/>
+</g>
+<!-- hermano mayor (atrás): pelo negro corto, polera menta -->
+<path d="M20 196 C20 150 42 122 70 122 C98 122 120 150 120 196 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M61 98 L61 126 Q70 132 79 126 L79 98 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M56 128 Q70 140 84 128" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M38 80 C36 48 52 34 70 34 C88 34 104 48 102 80 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="37" cy="84" rx="6" ry="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="103" cy="84" rx="6" ry="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="70" cy="72" rx="34" ry="33" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M38 78 C36 52 52 40 70 40 C88 40 104 52 102 78 C98 66 92 60 84 58 C78 64 64 66 54 62 C46 64 40 70 38 78 Z" fill="#14142B"/>
+<path d="M102 78 C98 66 92 60 84 58 C78 64 64 66 54 62 C46 64 40 70 38 78" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 50 Q60 44 72 44" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="59.92" cy="82" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="80.08" cy="82" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="61.5" cy="79.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="81.66" cy="79.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="51.28" cy="92.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="88.72" cy="92.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M64.24 91.36 Q70 100 75.76 91.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- hermanito (adelante): cabeza grande, cuerpo chico, mechón parado, polera dorada -->
+<path d="M102 198 C102 180 116 168 132 168 C148 168 162 180 162 198 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M125 160 L125 171 Q132 176 139 171 L139 160 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M122 176 Q132 184 142 176" stroke="#B9861E" stroke-width="3" stroke-linecap="round"/>
+<!-- brazo del mayor sobre los hombros del menor -->
+<path d="M106 152 Q126 170 152 176" stroke="#14142B" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M106 152 Q126 170 152 176" stroke="#8FE3C6" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="156" cy="176" rx="9" ry="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M152 172 L152 180" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M128 103 Q122 88 132 86 Q130 94 138 102 Z" fill="#4A3426" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M100 136 C98 112 112 100 132 100 C152 100 166 112 164 136 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="99" cy="142" rx="6" ry="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="165" cy="142" rx="6" ry="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="132" cy="134" rx="33" ry="32" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M101 132 C99 112 112 104 132 104 C152 104 165 112 163 132 C160 122 152 118 144 118 C138 124 126 124 118 120 C110 120 104 126 101 132 Z" fill="#4A3426"/>
+<path d="M163 132 C160 122 152 118 144 118 C138 124 126 124 118 120 C110 120 104 126 101 132" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M140 108 Q150 107 157 113" stroke="#6E4424" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="121.92" cy="142" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="142.08" cy="142" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="123.5" cy="139.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="143.66" cy="139.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="113.28" cy="152.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="150.72" cy="152.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M126.24 151.36 Q132 160 137.76 151.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M178 28 Q180.4 37.6 190 40 Q180.4 42.4 178 52 Q175.6 42.4 166 40 Q175.6 37.6 178 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 141 Q197.8 148.2 205 150 Q197.8 151.8 196 159 Q194.2 151.8 187 150 Q194.2 148.2 196 141 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M22 18 Q23.6 24.4 30 26 Q23.6 27.6 22 34 Q20.4 27.6 14 26 Q20.4 24.4 22 18 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="94" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

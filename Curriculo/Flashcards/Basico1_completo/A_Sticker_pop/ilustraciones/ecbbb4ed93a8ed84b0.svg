@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 컴퓨터 · computador · Estilo A Sticker pop · pantalla con cara, teclado y mouse -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="46" y="32" width="128" height="94" rx="14"/>
+<rect x="100" y="124" width="20" height="20"/>
+<rect x="78" y="140" width="64" height="10" rx="5"/>
+<path d="M50 160 L142 160 Q146 160 147 164 L151 182 Q152 188 146 188 L46 188 Q40 188 41 182 L45 164 Q46 160 50 160 Z"/>
+<ellipse cx="174" cy="166" rx="12" ry="16"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="46" y="32" width="128" height="94" rx="14"/>
+<rect x="100" y="124" width="20" height="20"/>
+<rect x="78" y="140" width="64" height="10" rx="5"/>
+<path d="M50 160 L142 160 Q146 160 147 164 L151 182 Q152 188 146 188 L46 188 Q40 188 41 182 L45 164 Q46 160 50 160 Z"/>
+<ellipse cx="174" cy="166" rx="12" ry="16"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="46" y="32" width="128" height="94" rx="14"/>
+<rect x="100" y="124" width="20" height="20"/>
+<rect x="78" y="140" width="64" height="10" rx="5"/>
+<path d="M50 160 L142 160 Q146 160 147 164 L151 182 Q152 188 146 188 L46 188 Q40 188 41 182 L45 164 Q46 160 50 160 Z"/>
+<ellipse cx="174" cy="166" rx="12" ry="16"/>
+</g>
+<!-- pie del monitor -->
+<rect x="100" y="122" width="20" height="22" fill="#E3E6F2" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="78" y="140" width="64" height="10" rx="5" fill="#E3E6F2" stroke="#14142B" stroke-width="4"/>
+<!-- monitor azul y pantalla -->
+<rect x="46" y="32" width="128" height="94" rx="14" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<rect x="58" y="44" width="104" height="68" rx="6" fill="#9FD8FF" stroke="#14142B" stroke-width="4"/>
+<path d="M66 60 L76 50" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M66 70 L69 67" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<circle cx="110" cy="119" r="3.5" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<!-- teclado -->
+<path d="M50 160 L142 160 Q146 160 147 164 L151 182 Q152 188 146 188 L46 188 Q40 188 41 182 L45 164 Q46 160 50 160 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="52" y="165" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="65" y="165" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="78" y="165" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="91" y="165" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="104" y="165" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="117" y="165" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="130" y="165" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="49" y="176" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="62" y="176" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="75" y="176" width="45" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="123" y="176" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<rect x="136" y="176" width="10" height="7" rx="2" fill="#DCE0FA" stroke="#14142B" stroke-width="2.5"/>
+<!-- mouse -->
+<ellipse cx="174" cy="166" rx="12" ry="16" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<path d="M163 161 Q174 164 185 161" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M174 151 L174 162" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<rect x="171.5" y="153" width="5" height="7" rx="2.5" fill="#4236F6" stroke="#14142B" stroke-width="2.5"/>
+<!-- cara en la pantalla -->
+<ellipse cx="96" cy="74" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="74" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="70.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="70.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="88" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="88" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 87 Q110 99 118 87 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M24 12 Q26.4 21.6 36 24 Q26.4 26.4 24 36 Q21.6 26.4 12 24 Q21.6 21.6 24 12 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M20 143 Q21.8 150.2 29 152 Q21.8 153.8 20 161 Q18.2 153.8 11 152 Q18.2 150.2 20 143 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="198" cy="24" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

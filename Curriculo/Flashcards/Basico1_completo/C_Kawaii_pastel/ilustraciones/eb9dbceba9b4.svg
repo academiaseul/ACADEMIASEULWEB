@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 라면 · ramyeon (olla dorada 양은냄비, caldo dorado, huevo, palillos de metal) -->
+  <use href="#kw-brillo" transform="translate(34 50) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(150 30) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(202 152) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="92" r="3" fill="#FFFFFF"/>
+  <circle cx="30" cy="168" r="2.5" fill="#E8B84B"/>
+  <circle cx="200" cy="54" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="72" ry="7" fill="#D2CBFA"/>
+  <!-- vapor -->
+  <path d="M70 72 Q62 62 70 52 Q78 42 70 32" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M96 66 Q88 56 96 46 Q104 36 96 26" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- asas (trazo doble) -->
+  <path d="M48 114 Q28 112 30 124 Q32 134 50 132" fill="none" stroke="#003478" stroke-width="12" stroke-linecap="round"/>
+  <path d="M48 114 Q28 112 30 124 Q32 134 50 132" fill="none" stroke="#E2B44E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M172 114 Q192 112 190 124 Q188 134 170 132" fill="none" stroke="#003478" stroke-width="12" stroke-linecap="round"/>
+  <path d="M172 114 Q192 112 190 124 Q188 134 170 132" fill="none" stroke="#E2B44E" stroke-width="6" stroke-linecap="round"/>
+  <!-- cuerpo de la olla: relleno, anillo claro, sombra, contorno -->
+  <path d="M46 106 L174 106 L168 162 Q166 180 148 180 L72 180 Q54 180 52 162 Z" fill="#F3D27A"/>
+  <path d="M52 124 L168 124" fill="none" stroke="#FBE08A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M51.6 158 Q62 152 72.5 158 T93.5 158 T114.5 158 T135.5 158 T156.5 158 Q163 156 168.4 158 L168 162 Q166 180 148 180 L72 180 Q54 180 52 162 Z" fill="#E2B44E"/>
+  <path d="M46 106 L174 106 L168 162 Q166 180 148 180 L72 180 Q54 180 52 162 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- borde y caldo -->
+  <ellipse cx="110" cy="106" rx="64" ry="15" fill="#F3D27A" stroke="#003478" stroke-width="3"/>
+  <ellipse cx="110" cy="107" rx="56" ry="10" fill="#E7B46E"/>
+  <!-- fideos ondulados -->
+  <path d="M58 108 Q58 90 80 90 Q96 78 116 84 Q138 78 152 90 Q164 94 162 108 Q110 118 58 108 Z" fill="#FBE08A" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M70 92 Q75 86 80 92 T90 92 T100 92 T110 92 T120 92 T130 92 T140 92 T150 92" fill="none" stroke="#E2B44E" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M64 102 Q69 96 74 102 T84 102 T94 102 T104 102 T114 102 T124 102 T134 102 T144 102 T154 102" fill="none" stroke="#E2B44E" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- cebollín -->
+  <circle cx="124" cy="92" r="3.5" fill="#D6F4DD" stroke="#003478" stroke-width="1.8"/>
+  <circle cx="140" cy="100" r="3.5" fill="#D6F4DD" stroke="#003478" stroke-width="1.8"/>
+  <circle cx="116" cy="104" r="3.5" fill="#8ED3A0" stroke="#003478" stroke-width="1.8"/>
+  <circle cx="150" cy="93" r="3.5" fill="#8ED3A0" stroke="#003478" stroke-width="1.8"/>
+  <!-- huevo -->
+  <path d="M72 93 Q70 80 85 79 Q96 75 104 83 Q113 92 104 100 Q94 106 82 103 Q71 100 72 93 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <circle cx="90" cy="90" r="7.5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="87.5" cy="87.5" r="2.2" fill="#FFF3CC"/>
+  <!-- palillos de metal apoyados en el borde -->
+  <path d="M112 58 L186 104 M121 51 L194 97" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+  <path d="M112 58 L186 104 M121 51 L194 97" fill="none" stroke="#D5D9E4" stroke-width="3" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(110 142)"/>
+</svg>

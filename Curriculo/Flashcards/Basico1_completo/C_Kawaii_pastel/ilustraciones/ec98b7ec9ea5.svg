@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 옷장 · clóset, ropero (puertas abiertas, ropa colgada) -->
+  <use href="#kw-brillo" transform="translate(200 164) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(20 166) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 14) scale(6)" fill="#FFFFFF"/>
+  <circle cx="14" cy="86" r="3" fill="#FFFFFF"/>
+  <circle cx="206" cy="92" r="2.5" fill="#E8B84B"/>
+  <circle cx="64" cy="12" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="72" ry="7" fill="#D2CBFA"/>
+  <!-- patas -->
+  <rect x="62" y="172" width="14" height="13" rx="4" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <rect x="144" y="172" width="14" height="13" rx="4" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <!-- puertas abiertas hacia afuera (cara interior más clara) -->
+  <path d="M54 38 L32 30 Q28 29 28 33 L28 141 Q28 145 32 144 L54 136 Z" fill="#E9C48E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M49 47 L35 42 L35 131 L49 127 Z" fill="#E7B46E" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M166 38 L188 30 Q192 29 192 33 L192 141 Q192 145 188 144 L166 136 Z" fill="#E9C48E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M171 47 L185 42 L185 131 L171 127 Z" fill="#E7B46E" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="42" cy="88" r="4" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="178" cy="88" r="4" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <!-- mueble y cornisa -->
+  <rect x="52" y="30" width="116" height="146" rx="10" fill="#E7B46E" stroke="#003478" stroke-width="3"/>
+  <rect x="46" y="22" width="128" height="16" rx="7" fill="#D9A462" stroke="#003478" stroke-width="3"/>
+  <ellipse cx="64" cy="28" rx="8" ry="3" fill="#F0DA9C" transform="rotate(-10 64 28)"/>
+  <!-- interior: fondo crema, sombra arriba, barra metálica -->
+  <rect x="62" y="44" width="96" height="90" rx="4" fill="#FFF6E6"/>
+  <rect x="62" y="44" width="96" height="9" fill="#E9D6C0"/>
+  <rect x="62" y="44" width="96" height="90" rx="4" fill="none" stroke="#003478" stroke-width="2.6"/>
+  <path d="M65 58 L155 58" fill="none" stroke="#003478" stroke-width="7" stroke-linecap="round"/>
+  <path d="M65 58 L155 58" fill="none" stroke="#D5D9E4" stroke-width="3" stroke-linecap="round"/>
+  <!-- ganchos -->
+  <path d="M80 64 L80 54 Q80 50 84 50 Q87 50 87 53 M110 64 L110 54 Q110 50 114 50 Q117 50 117 53 M138 64 L138 54 Q138 50 142 50 Q145 50 145 53" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- polera celeste -->
+  <path d="M70 66 L77 62 Q80 67 83 62 L90 66 L95 77 L89 80 L89 114 Q89 117 86 117 L74 117 Q71 117 71 114 L71 80 L65 77 Z" fill="#8CCBF6" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <!-- vestido menta -->
+  <path d="M103 62 L117 62 L116 78 L125 120 Q126 125 121 125 L99 125 Q94 125 95 120 L104 78 Z" fill="#7FD0B0" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M104 78 L116 78" fill="none" stroke="#FFFDF8" stroke-width="3" stroke-linecap="round"/>
+  <!-- chaleco/suéter dorado de manga larga -->
+  <path d="M126 66 L133 62 Q138 67 143 62 L150 66 L155 104 L149 105 L147 82 L147 116 Q147 119 144 119 L132 119 Q129 119 129 116 L129 82 L127 105 L121 104 Z" fill="#F6D47A" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M138 68 L138 116" fill="none" stroke="#E2B44E" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- cajón con la cara -->
+  <rect x="62" y="140" width="96" height="30" rx="6" fill="#D9A462" stroke="#003478" stroke-width="2.6"/>
+  <use href="#kw-cara" transform="translate(110 151) scale(0.72)"/>
+</svg>

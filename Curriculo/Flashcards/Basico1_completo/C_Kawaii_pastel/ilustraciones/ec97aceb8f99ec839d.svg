@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 여동생 · hermana menor -->
+  <use href="#kw-brillo" transform="translate(24 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(200 124) scale(6)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(196 168) scale(5)" fill="#FFFFFF"/>
+  <circle cx="20" cy="94" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="96" r="2.5" fill="#CFC8FF"/>
+  <circle cx="22" cy="160" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="112" cy="189" rx="72" ry="7" fill="#D2CBFA"/>
+  <!-- hermano mayor (detrás, más alto): camisa azul, pelo corto -->
+  <rect x="134" y="172" width="11" height="13" rx="4" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <rect x="147" y="172" width="11" height="13" rx="4" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="139.5" cy="186" rx="9.5" ry="5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="152.5" cy="186" rx="9.5" ry="5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <path d="M120 174 Q118 112 136 89 L156 89 Q174 112 172 174 Q172 178 167 178 L125 178 Q120 178 120 174 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M138 89 L146 100 L154 89 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M166 102 Q180 124 172 144" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M166 102 Q180 124 172 144" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="172" cy="146" r="6" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="112" cy="68" rx="6.5" ry="8.5" fill="#F2C99A" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="180" cy="68" rx="6.5" ry="8.5" fill="#F2C99A" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="146" cy="62" rx="34" ry="31" fill="#F2C99A" stroke="#003478" stroke-width="3"/>
+  <path d="M113 62 Q109 25 146 24 Q183 25 179 62 Q178 49 171 43 Q156 46 141 36 Q135 46 119 46 Q114 52 113 62 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M151 31 Q161 30 169 35" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(146 73) scale(0.7)"/>
+  <!-- hermana menor (adelante, más bajita) con dos colitas y brillo dorado -->
+  <ellipse cx="43" cy="124" rx="8" ry="14" fill="#3B4566" stroke="#003478" stroke-width="2.6" transform="rotate(16 43 124)"/>
+  <ellipse cx="121" cy="124" rx="8" ry="14" fill="#3B4566" stroke="#003478" stroke-width="2.6" transform="rotate(-16 121 124)"/>
+  <rect x="71" y="172" width="10" height="12" rx="4" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <rect x="84" y="172" width="10" height="12" rx="4" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="76" cy="185" rx="9" ry="5" fill="#4236F6" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="89" cy="185" rx="9" ry="5" fill="#4236F6" stroke="#003478" stroke-width="2.4"/>
+  <path d="M57 172 Q57 151 73 140 L91 140 Q107 151 107 172 Q107 177 102 177 L62 177 Q57 177 57 172 Z" fill="#CFC8FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M74 140 Q77 149 82 143 Q87 149 90 140 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M65 148 Q55 160 61 170 M99 148 Q109 160 103 170" fill="none" stroke="#003478" stroke-width="12" stroke-linecap="round"/>
+  <path d="M65 148 Q55 160 61 170 M99 148 Q109 160 103 170" fill="none" stroke="#CFC8FF" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="61" cy="171" r="5.5" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="103" cy="171" r="5.5" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="82" cy="110" rx="35" ry="31" fill="#F2C99A" stroke="#003478" stroke-width="3"/>
+  <path d="M48 114 Q44 76 82 75 Q120 76 116 114 Q114 101 108 96 Q96 100 82 98 Q68 100 56 96 Q50 101 48 114 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M62 86 Q70 80 81 80" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="50" cy="111" r="4.5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="114" cy="111" r="4.5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <use href="#kw-cara-feliz" transform="translate(82 121) scale(0.72)"/>
+  <use href="#kw-brillo" transform="translate(48 64) scale(8)" fill="#E8B84B"/>
+  <!-- brazo del hermano: la mano sobre la cabeza de la hermanita -->
+  <path d="M126 104 Q118 82 100 78" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M126 104 Q118 82 100 78" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="97" cy="78" r="6.5" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+</svg>

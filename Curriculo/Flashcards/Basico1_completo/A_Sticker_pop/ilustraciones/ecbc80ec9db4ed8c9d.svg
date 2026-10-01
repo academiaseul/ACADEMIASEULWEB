@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 케이팝 · K-pop · Estilo A Sticker pop · micrófono con cara, barra de luz de concierto (sin logos) y estrellas -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="152" y="104" width="16" height="72" rx="6"/>
+<circle cx="160" cy="82" r="24"/>
+<path d="M68 118 L116 118 L106 188 Q105 196 98 196 L86 196 Q79 196 78 188 Z"/>
+<circle cx="92" cy="72" r="38"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="152" y="104" width="16" height="72" rx="6"/>
+<circle cx="160" cy="82" r="24"/>
+<path d="M68 118 L116 118 L106 188 Q105 196 98 196 L86 196 Q79 196 78 188 Z"/>
+<circle cx="92" cy="72" r="38"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="152" y="104" width="16" height="72" rx="6"/>
+<circle cx="160" cy="82" r="24"/>
+<path d="M68 118 L116 118 L106 188 Q105 196 98 196 L86 196 Q79 196 78 188 Z"/>
+<circle cx="92" cy="72" r="38"/>
+</g>
+<!-- barra de luz: mango blanco con franjas navy, aro dorado, globo celeste con estrella -->
+<rect x="152" y="104" width="16" height="72" rx="6" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<rect x="152" y="148" width="16" height="7" fill="#003478" stroke="#14142B" stroke-width="2.5"/>
+<rect x="152" y="161" width="16" height="7" fill="#003478" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="160" cy="82" r="24" fill="#9FD8FF" stroke="#14142B" stroke-width="4"/>
+<path d="M145 76 Q146 66 154 61" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M160 70 L163.23 77.55 L171.41 78.29 L165.23 83.7 L167.05 91.71 L160 87.5 L152.95 91.71 L154.77 83.7 L148.59 78.29 L156.77 77.55 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<rect x="146" y="100" width="28" height="10" rx="4" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<path d="M166.9 42.6 L168.2 35.7 M194.6 62 L200.7 58.5 M197.6 95.7 L204.2 98.1" stroke="#14142B" stroke-width="9" stroke-linecap="round"/>
+<path d="M166.9 42.6 L168.2 35.7 M194.6 62 L200.7 58.5 M197.6 95.7 L204.2 98.1" stroke="#FFD95E" stroke-width="4" stroke-linecap="round"/>
+<!-- micrófono: mango azul, anillo navy, rejilla plateada -->
+<path d="M68 118 L116 118 L106 188 Q105 196 98 196 L86 196 Q79 196 78 188 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M75 128 L81 182" stroke="#9DB7FF" stroke-width="4" stroke-linecap="round"/>
+<rect x="87" y="136" width="10" height="18" rx="4" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<circle cx="92" cy="72" r="38" fill="#E3E6F2" stroke="#14142B" stroke-width="4"/>
+<path d="M64 52 Q92 44 120 52 M58 64 Q92 56 126 64 M92 36 L92 60 M76 40 Q73 50 73 62 M108 40 Q111 50 111 62" stroke="#8A8FA8" stroke-width="3" stroke-linecap="round"/>
+<path d="M120 84 Q122 96 114 104" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<rect x="62" y="106" width="60" height="16" rx="7" fill="#003478" stroke="#14142B" stroke-width="4"/>
+<!-- cara en la rejilla -->
+<ellipse cx="80.1" cy="82" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="103.9" cy="82" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="81.97" cy="79.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="105.77" cy="79.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="69.9" cy="93.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="114.1" cy="93.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M85.2 93.05 Q92 103.25 98.8 93.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- estrellas doradas, chispas y anillo -->
+<path d="M28 20 L31.82 28.74 L41.31 29.67 L34.18 36.01 L36.23 45.33 L28 40.5 L19.77 45.33 L21.82 36.01 L14.69 29.67 L24.18 28.74 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M34 151 L36.94 157.95 L44.46 158.6 L38.76 163.55 L40.47 170.9 L34 167 L27.53 170.9 L29.24 163.55 L23.54 158.6 L31.06 157.95 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M130 12 Q131.6 18.4 138 20 Q131.6 21.6 130 28 Q128.4 21.6 122 20 Q128.4 18.4 130 12 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 131 Q199.8 138.2 207 140 Q199.8 141.8 198 149 Q196.2 141.8 189 140 Q196.2 138.2 198 131 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="198" cy="178" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

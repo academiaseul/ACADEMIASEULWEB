@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="붕어빵" data-es="pan con forma de pez, relleno dulce">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 166 C 80 172, 150 172, 196 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- vapor -->
+    <path d="M134 46 C 128 38, 140 32, 134 20 M150 48 C 144 40, 156 34, 150 22 M166 52 C 160 44, 172 38, 166 26" stroke-width="2.2" stroke-opacity="0.85"/>
+    <!-- cola mordida: el borde en arcos deja ver el relleno oscuro de poroto -->
+    <path d="M148 76 L 174 58 A 9 9 0 0 0 175 75 A 9 9 0 0 0 179 92 A 9 9 0 0 0 186 108 L 194 130 L 148 108 Z" fill="#1F3B33"/>
+    <path d="M148 76 L 174 58 A 9 9 0 0 0 175 75 A 9 9 0 0 0 179 92 A 9 9 0 0 0 186 108 L 194 130 L 148 108 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M174 58 A 9 9 0 0 0 175 75 A 9 9 0 0 0 179 92 A 9 9 0 0 0 186 108 L 177 109 C 170 96, 165 80, 165 65 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M177 109 C 170 96, 165 80, 165 65" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="170" cy="76" r="2" fill="#F3F0E4" stroke="none"/>
+    <circle cx="173" cy="92" r="2" fill="#F3F0E4" stroke="none"/>
+    <circle cx="168.5" cy="86" r="1.6" fill="#F3F0E4" stroke="none"/>
+    <!-- aleta de arriba -->
+    <path d="M88 58 C 94 40, 114 38, 124 60 Z" fill="#1F3B33"/>
+    <path d="M88 58 C 94 40, 114 38, 124 60 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- cuerpo del pez: cabeza lisa (para la cara) y lomo con escamas -->
+    <path d="M28 92 C 34 68, 62 54, 96 54 C 122 54, 140 62, 152 74 L 152 110 C 140 122, 122 130, 96 130 C 62 130, 34 116, 28 92 Z" fill="#1F3B33"/>
+    <path d="M84 55.5 C 76 78, 76 106, 84 128.5 C 88 129.5, 92 130, 96 130 C 122 130, 140 122, 152 110 L 152 74 C 140 62, 122 54, 96 54 C 92 54, 88 54.5, 84 55.5 Z" fill="url(#rd)" stroke="none"/>
+    <path d="M28 92 C 34 68, 62 54, 96 54 C 122 54, 140 62, 152 74 L 152 110 C 140 122, 122 130, 96 130 C 62 130, 34 116, 28 92 Z" stroke="#E8B84B" stroke-width="2.8"/>
+    <path d="M84 55.5 C 76 78, 76 106, 84 128.5" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M98 74 q5 6 10 0 M112 74 q5 6 10 0 M126 74 q5 6 10 0 M104 88 q5 6 10 0 M118 88 q5 6 10 0 M132 88 q5 6 10 0 M98 102 q5 6 10 0 M112 102 q5 6 10 0 M126 102 q5 6 10 0" stroke="#E8B84B" stroke-width="2" stroke-opacity="0.9"/>
+    <use href="#cara" transform="translate(54 88) scale(0.68)"/>
+    <!-- bolsita de papel -->
+    <path d="M66 118 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 L 140 160 L 72 160 Z" fill="#1F3B33"/>
+    <path d="M66 118 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 l5.714 -5 l5.714 5 L 140 160 L 72 160 Z" fill="url(#rt)"/>
+    <path d="M106 124 V154" stroke-width="1.8" stroke-opacity="0.6"/>
+    <use href="#estrella" transform="translate(30 36) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(198 30) scale(0.6)"/>
+    <use href="#estrella" transform="translate(186 154) scale(0.6)"/>
+  </g>
+</svg>

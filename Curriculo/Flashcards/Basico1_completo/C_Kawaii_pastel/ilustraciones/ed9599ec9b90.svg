@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 학원 · academia privada (edificio de letreros, de noche: luna y ventanas encendidas) -->
+  <use href="#kw-brillo" transform="translate(30 50) scale(10)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(198 84) scale(7)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(178 72) scale(4)" fill="#CFC8FF"/>
+  <circle cx="24" cy="116" r="3" fill="#FFFFFF"/>
+  <circle cx="40" cy="152" r="2.5" fill="#CFC8FF"/>
+  <circle cx="206" cy="118" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="118" cy="188" rx="80" ry="7" fill="#F0DA9C"/>
+  <!-- luna creciente -->
+  <path d="M187 31 A15 15 0 1 0 202.6 49.3 A12 12 0 0 1 187 31 Z" fill="#FBE08A" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- edificio lila: relleno, sombra, contorno; cornisa azul -->
+  <path d="M56 44 L164 44 L164 176 Q164 182 158 182 L62 182 Q56 182 56 176 Z" fill="#CFC8FF"/>
+  <path d="M56 172 Q66.8 166 77.6 172 T99.2 172 T120.8 172 T142.4 172 T164 172 L164 176 Q164 182 158 182 L62 182 Q56 182 56 176 Z" fill="#B9B0F5"/>
+  <path d="M56 44 L164 44 L164 176 Q164 182 158 182 L62 182 Q56 182 56 176 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="50" y="34" width="120" height="12" rx="5" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <!-- letreros y ventanas encendidas, piso por piso -->
+  <rect x="64" y="54" width="54" height="20" rx="5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <rect x="126" y="54" width="30" height="20" rx="4" fill="#FFF3CC" stroke="#003478" stroke-width="2.4"/>
+  <rect x="64" y="80" width="30" height="20" rx="4" fill="#FFF3CC" stroke="#003478" stroke-width="2.4"/>
+  <rect x="102" y="80" width="54" height="20" rx="5" fill="#A6E1B4" stroke="#003478" stroke-width="2.6"/>
+  <rect x="64" y="106" width="92" height="20" rx="5" fill="#F6D47A" stroke="#003478" stroke-width="2.6"/>
+  <path d="M141 54 L141 74 M79 80 L79 100" fill="none" stroke="#003478" stroke-width="2"/>
+  <g font-family="Jua, sans-serif" font-size="15" fill="#003478" text-anchor="middle">
+    <text x="91" y="69.5">영어</text>
+    <text x="129" y="95.5">수학</text>
+    <text x="110" y="121.5">피아노</text>
+  </g>
+  <!-- puerta iluminada con toldo -->
+  <path d="M126 182 L126 146 Q126 140 132 140 L150 140 Q156 140 156 146 L156 182 Z" fill="#FFF3CC" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <rect x="121" y="133" width="40" height="8" rx="4" fill="#4236F6" stroke="#003478" stroke-width="2.4"/>
+  <use href="#kw-cara" transform="translate(90 156) scale(0.7)"/>
+  <!-- alumno de espaldas entrando, mochila menta -->
+  <rect x="134" y="174" width="6" height="9" rx="2" fill="#3B4566" stroke="#003478" stroke-width="2"/>
+  <rect x="142" y="174" width="6" height="9" rx="2" fill="#3B4566" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="137" cy="184" rx="5" ry="3" fill="#FFFFFF" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="145" cy="184" rx="5" ry="3" fill="#FFFFFF" stroke="#003478" stroke-width="2"/>
+  <path d="M130.5 176 Q130 163 136 158 L146 158 Q152 163 151.5 176 Q151.5 179 148.5 179 L133.5 179 Q130.5 179 130.5 176 Z" fill="#4236F6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <ellipse cx="128.5" cy="149" rx="3" ry="4" fill="#FFE4C8" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="153.5" cy="149" rx="3" ry="4" fill="#FFE4C8" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="141" cy="147" rx="13" ry="12" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <rect x="131" y="158" width="20" height="17" rx="6" fill="#7FD0B0" stroke="#003478" stroke-width="2.4"/>
+  <path d="M131 165 Q141 169 151 165" fill="none" stroke="#003478" stroke-width="2"/>
+  <!-- otra alumna de espaldas que llega, mochila dorada y coleta -->
+  <rect x="174" y="174" width="6" height="9" rx="2" fill="#3B4566" stroke="#003478" stroke-width="2"/>
+  <rect x="182" y="174" width="6" height="9" rx="2" fill="#3B4566" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="177" cy="184" rx="5" ry="3" fill="#FFFFFF" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="185" cy="184" rx="5" ry="3" fill="#FFFFFF" stroke="#003478" stroke-width="2"/>
+  <path d="M170.5 176 Q170 163 176 158 L186 158 Q192 163 191.5 176 Q191.5 179 188.5 179 L173.5 179 Q170.5 179 170.5 176 Z" fill="#8CCBF6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <ellipse cx="168.5" cy="149" rx="3" ry="4" fill="#C98F5E" stroke="#003478" stroke-width="2"/>
+  <ellipse cx="193.5" cy="149" rx="3" ry="4" fill="#C98F5E" stroke="#003478" stroke-width="2"/>
+  <path d="M190 145 Q200 151 197 164" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+  <path d="M190 145 Q200 151 197 164" fill="none" stroke="#8C6448" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="181" cy="147" rx="13" ry="12" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <rect x="171" y="160" width="20" height="16" rx="6" fill="#F6D47A" stroke="#003478" stroke-width="2.4"/>
+  <path d="M171 166 Q181 170 191 166" fill="none" stroke="#003478" stroke-width="2"/>
+</svg>

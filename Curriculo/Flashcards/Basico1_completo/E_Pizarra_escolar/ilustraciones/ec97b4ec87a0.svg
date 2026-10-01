@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="열쇠" data-es="llave">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 166 C 92 172, 150 172, 190 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cadenita y llavero con forma de casita -->
+    <path d="M122 44 L 154 64" stroke-width="2.2"/>
+    <circle cx="157" cy="68" r="3.6" stroke-width="2.2"/>
+    <path d="M142 87 L157 72 L172 87 V110 H142 Z" fill="#1F3B33"/>
+    <path d="M142 87 L157 72 L172 87 V110 H142 Z" fill="url(#rt)"/>
+    <path d="M152 110 V99 H162 V110" fill="#1F3B33" stroke-width="2.2"/>
+    <!-- llave dorada: paleta, cuerpo y dientes -->
+    <path d="M104 92 V146 L110 154 L116 146 V140 H128 V132 H121 V126 H127 V118 H116 V92 Z" fill="#1F3B33"/>
+    <path d="M104 92 V146 L110 154 L116 146 V140 H128 V132 H121 V126 H127 V118 H116 V92 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <circle cx="110" cy="72" r="24" fill="#1F3B33"/>
+    <circle cx="110" cy="72" r="24" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.8"/>
+    <circle cx="110" cy="54" r="5.5" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(110 78) scale(0.62)"/>
+    <!-- argolla -->
+    <circle cx="110" cy="38" r="15"/>
+    <use href="#estrella" transform="translate(44 44) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(186 140) scale(0.65)"/>
+    <use href="#estrella" transform="translate(48 136) scale(0.7)"/>
+  </g>
+</svg>

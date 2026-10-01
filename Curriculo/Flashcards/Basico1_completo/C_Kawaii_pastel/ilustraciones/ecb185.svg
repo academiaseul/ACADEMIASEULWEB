@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 책 · libro -->
+  <use href="#kw-brillo" transform="translate(32 40) scale(10)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 132) scale(7)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(192 30) scale(6)" fill="#FFFFFF"/>
+  <circle cx="26" cy="104" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="84" r="2.5" fill="#E8B84B"/>
+  <circle cx="36" cy="168" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="114" cy="188" rx="70" ry="8" fill="#D2CBFA"/>
+  <path d="M56 48 L80 34 L172 34 L148 48 Z" fill="#FFFDF8" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M70 46 L90 36 M86 46 L106 36 M102 46 L122 36 M118 46 L138 36 M134 46 L154 36" stroke="#E4E0FF" stroke-width="1.6"/>
+  <path d="M148 48 L172 34 L172 166 Q172 171 168 173 L148 184 Z" fill="#FFFDF8"/>
+  <path d="M152 66 L166 58" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M152 80 L166 72" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M152 94 L166 86" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M152 108 L166 100" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M152 122 L166 114" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M152 136 L166 128" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M152 150 L166 142" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M152 164 L166 156" stroke="#CFC8FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M148 48 L172 34 L172 166 Q172 171 168 173 L148 184 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="56" y="48" width="92" height="136" rx="9" fill="#F6D47A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M56 57 Q56 48 65 48 L72 48 L72 184 L65 184 Q56 184 56 175 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="82" y="64" width="54" height="26" rx="7" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+  <text x="109" y="83" text-anchor="middle" font-family="Jua, sans-serif" font-size="15" fill="#003478">ㄱㄴㄷ</text>
+  <path d="M126 184 L126 196 L131 191.5 L136 196 L136 184" fill="#4236F6" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <use href="#kw-cara" transform="translate(110 128) scale(0.93)"/>
+</svg>

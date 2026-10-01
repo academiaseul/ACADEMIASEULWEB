@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="머리" data-es="cabeza; pelo">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- hombros (busto) -->
+    <path d="M58 164 C 60 146, 78 138, 104 138 C 130 138, 148 146, 150 164 Z" fill="#1F3B33"/>
+    <path d="M58 164 C 60 146, 78 138, 104 138 C 130 138, 148 146, 150 164" fill="url(#rt)"/>
+    <path d="M92 138 Q104 148 116 138" stroke-width="2.4"/>
+    <!-- orejas, detrás de la cabeza -->
+    <circle cx="67" cy="98" r="8.5" fill="#1F3B33"/>
+    <circle cx="141" cy="98" r="8.5" fill="#1F3B33"/>
+    <!-- cabeza grande -->
+    <circle cx="104" cy="92" r="38" fill="#1F3B33"/>
+    <!-- pelo: la parte que la flecha señala -->
+    <path d="M64 98 C 56 64, 74 42, 104 42 C 134 42, 152 64, 144 98 C 141 86, 137 78, 130 72 C 120 77, 104 75, 94 66 C 88 74, 79 80, 72 82 C 68 86, 66 92, 64 98 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M96 50 C 92 56, 90 61, 92 66 M115 48 C 119 54, 121 61, 119 70 M80 58 C 76 64, 74 70, 74 76" stroke="#E8B84B" stroke-width="1.8" stroke-opacity="0.8"/>
+    <use href="#cara" transform="translate(104 104) scale(0.95)"/>
+    <!-- flecha dorada que señala la cabeza -->
+    <path d="M188 28 C 178 38, 168 45, 152 52" stroke="#E8B84B" stroke-width="3.6"/>
+    <path d="M158 42 L152 52 L164 54.5" stroke="#E8B84B" stroke-width="3.6"/>
+    <use href="#estrella" transform="translate(36 46) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(180 116) scale(0.7)"/>
+    <use href="#estrella" transform="translate(34 138) scale(0.65)"/>
+  </g>
+</svg>

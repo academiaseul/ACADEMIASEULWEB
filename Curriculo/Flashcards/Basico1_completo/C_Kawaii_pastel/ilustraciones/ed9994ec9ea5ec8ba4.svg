@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 화장실 · baño -->
+  <use href="#kw-brillo" transform="translate(28 50) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(196 34) scale(8)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(196 150) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="122" r="3" fill="#CFC8FF"/>
+  <circle cx="148" cy="34" r="2.5" fill="#FFFFFF"/>
+  <circle cx="26" cy="166" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="72" ry="7" fill="#F0DA9C"/>
+  <!-- marco lila y puerta celeste -->
+  <path d="M46 186 L46 40 Q46 30 56 30 L114 30 Q124 30 124 40 L124 186 Z" fill="#C9C1FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M56 186 L56 48 Q56 40 64 40 L106 40 Q114 40 114 48 L114 186 Z" fill="#8CCBF6"/>
+  <path d="M56 168 Q66.5 162 77 168 T98 168 T114 168 L114 186 L56 186 Z" fill="#6FB8EE"/>
+  <path d="M56 186 L56 48 Q56 40 64 40 L106 40 Q114 40 114 48 L114 186 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="65" y="50" width="40" height="30" rx="6" fill="#B5DDFB" stroke="#003478" stroke-width="2.2"/>
+  <ellipse cx="74" cy="58" rx="6" ry="3.4" fill="#FFFFFF" transform="rotate(-30 74 58)"/>
+  <circle cx="104" cy="142" r="4.5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <!-- letrero blanco con las figuras navy de hombre y mujer -->
+  <rect x="134" y="58" width="46" height="56" rx="9" fill="#FFFFFF" stroke="#003478" stroke-width="3"/>
+  <path d="M157 66 L157 106" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="146" cy="73" r="4.6" fill="#003478"/>
+  <path d="M140.5 85 Q140.5 81 144.5 81 L147.5 81 Q151.5 81 151.5 85 L151.5 95 L149.2 95 L149.2 105 L146.8 105 L146.8 96 L145.2 96 L145.2 105 L142.8 105 L142.8 95 L140.5 95 Z" fill="#003478"/>
+  <circle cx="168" cy="73" r="4.6" fill="#003478"/>
+  <path d="M165.5 81 L170.5 81 Q172.5 81 173.3 84 L176 97 L160 97 L162.7 84 Q163.5 81 165.5 81 Z M164 97 h2.5 v8 h-2.5 Z M169.5 97 h2.5 v8 h-2.5 Z" fill="#003478"/>
+  <!-- cara en la puerta -->
+  <use href="#kw-cara" transform="translate(85 112) scale(0.76)"/>
+</svg>

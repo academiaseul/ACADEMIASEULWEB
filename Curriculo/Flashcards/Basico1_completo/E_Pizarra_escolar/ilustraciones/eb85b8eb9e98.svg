@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="노래" data-es="canción">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 165 C 84 172, 150 172, 196 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo -->
+    <path d="M76 98 C 62 112, 56 136, 54 162 L130 162 C 128 136, 122 112, 108 98 Z" fill="#1F3B33"/>
+    <path d="M76 98 C 62 112, 56 136, 54 162 L130 162 C 128 136, 122 112, 108 98 Z" fill="url(#rt)"/>
+    <path d="M84 99 Q92 106 100 99" stroke-width="2.2"/>
+    <!-- brazo abierto -->
+    <path d="M72 112 C 60 118, 50 112, 44 100"/>
+    <circle cx="43" cy="97" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- brazo que sostiene el micrófono -->
+    <path d="M110 108 C 122 116, 126 130, 114 128"/>
+    <g transform="rotate(20 120 96)">
+      <path d="M115 104 L117 138 H123 L125 104 Z" fill="#1F3B33"/>
+      <path d="M115 104 L117 138 H123 L125 104 Z" fill="url(#rt)"/>
+      <circle cx="120" cy="96" r="10" fill="#1F3B33"/>
+      <circle cx="120" cy="96" r="10" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+      <path d="M111 96 H129 M120 87 V105" stroke="#E8B84B" stroke-width="1.6" stroke-opacity="0.8"/>
+      <circle cx="120" cy="120" r="6.5" fill="#1F3B33"/>
+    </g>
+    <!-- cabeza -->
+    <circle cx="90" cy="64" r="30" fill="#1F3B33"/>
+    <path d="M60 62 C 59 42, 74 33, 90 33 C 106 33, 121 42, 120 62 C 115 54, 107 49, 99 48 C 93 52, 81 52, 75 47 C 69 52, 64 56, 60 62 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(90 72) scale(0.82)"/>
+    <!-- notas que salen de la boca -->
+    <path d="M128 76 Q136 70 134 60" stroke-width="2.2" stroke-opacity="0.8"/>
+    <use href="#nota" transform="translate(152 54) scale(0.95)"/>
+    <use href="#nota" transform="translate(186 28) scale(0.75)"/>
+    <use href="#nota" transform="translate(178 92) scale(0.8)"/>
+    <use href="#estrella" transform="translate(30 38) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(178 136) scale(0.6)"/>
+  </g>
+</svg>

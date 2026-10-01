@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="좋아하다" data-es="gustar (좋아해요)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 88 172, 150 172, 186 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo -->
+    <path d="M90 78 C 74 92, 66 130, 64 162 L156 162 C 154 130, 146 92, 130 78 Z" fill="#1F3B33"/>
+    <path d="M90 78 C 74 92, 66 130, 64 162 L156 162 C 154 130, 146 92, 130 78 Z" fill="url(#rt)"/>
+    <!-- corazón grande, abrazado -->
+    <path d="M110 106 C 100 88, 68 88, 68 114 C 68 134, 94 148, 110 160 C 126 148, 152 134, 152 114 C 152 88, 120 88, 110 106 Z" fill="#1F3B33"/>
+    <path d="M110 106 C 100 88, 68 88, 68 114 C 68 134, 94 148, 110 160 C 126 148, 152 134, 152 114 C 152 88, 120 88, 110 106 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="3.6"/>
+    <path d="M80 108 C 82 101, 87 97, 93 96" stroke-width="2.4"/>
+    <!-- brazos que rodean el corazón -->
+    <path d="M88 88 C 70 96, 62 116, 78 130"/>
+    <circle cx="81" cy="131" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M132 88 C 150 96, 158 116, 142 130"/>
+    <circle cx="139" cy="131" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza -->
+    <circle cx="110" cy="52" r="28" fill="#1F3B33"/>
+    <path d="M82 50 C 81 34, 94 24, 110 24 C 126 24, 139 34, 138 50 C 132 44, 122 40, 114 39 C 106 42, 92 44, 82 50 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(110 60) scale(0.8)"/>
+    <!-- corazoncitos -->
+    <use href="#corazon" transform="translate(44 50) scale(0.85)"/>
+    <use href="#corazon" transform="translate(178 40) scale(0.7)"/>
+    <use href="#estrella" transform="translate(184 116) scale(0.7)"/>
+    <use href="#estrella-b" transform="translate(36 116) scale(0.6)"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 이름 · nombre (credencial en blanco con cinta; ○○○ = el nombre por escribir) -->
+  <use href="#kw-brillo" transform="translate(32 46) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 40) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(34 132) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="94" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="78" r="2.5" fill="#FFFFFF"/>
+  <circle cx="40" cy="168" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="114" cy="189" rx="62" ry="7" fill="#D2CBFA"/>
+  <!-- cinta (trazo doble) y gancho -->
+  <path d="M72 12 Q78 44 104 58 M148 12 Q142 44 116 58" fill="none" stroke="#003478" stroke-width="11" stroke-linecap="round"/>
+  <path d="M72 12 Q78 44 104 58 M148 12 Q142 44 116 58" fill="none" stroke="#7FD0B0" stroke-width="5" stroke-linecap="round"/>
+  <rect x="102" y="52" width="16" height="18" rx="4" fill="#D5D9E4" stroke="#003478" stroke-width="2.6"/>
+  <g transform="rotate(-3 110 66)">
+    <!-- tarjeta: relleno blanco, franja azul de marca arriba, contorno -->
+    <rect x="58" y="66" width="104" height="116" rx="14" fill="#FFFFFF"/>
+    <path d="M58 80 Q58 66 72 66 L148 66 Q162 66 162 80 L162 96 L58 96 Z" fill="#4236F6"/>
+    <path d="M58 96 L162 96" fill="none" stroke="#003478" stroke-width="2.6"/>
+    <rect x="58" y="66" width="104" height="116" rx="14" fill="none" stroke="#003478" stroke-width="3"/>
+    <rect x="97" y="72" width="26" height="7" rx="3.5" fill="#CFC8FF" stroke="#003478" stroke-width="2"/>
+    <use href="#kw-brillo" transform="translate(76 84) scale(6)" fill="#FFFFFF"/>
+    <use href="#kw-brillo" transform="translate(144 84) scale(6)" fill="#FFFFFF"/>
+    <!-- línea del nombre con ○○○ -->
+    <path d="M74 166 L146 166" fill="none" stroke="#CFC8FF" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="94" cy="155" r="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+    <circle cx="110" cy="155" r="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+    <circle cx="126" cy="155" r="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+    <use href="#kw-cara" transform="translate(110 122) scale(0.9)"/>
+  </g>
+  <!-- lápiz listo para escribir -->
+  <g transform="translate(152 170) rotate(35)">
+    <rect x="-6" y="-62" width="12" height="10" rx="3" fill="#8CCBF6" stroke="#003478" stroke-width="2.2"/>
+    <rect x="-6" y="-54" width="12" height="6" fill="#A9AFC3" stroke="#003478" stroke-width="2.2"/>
+    <rect x="-6" y="-48" width="12" height="36" fill="#F6D47A" stroke="#003478" stroke-width="2.4"/>
+    <path d="M-6 -12 L6 -12 L0 0 Z" fill="#E9C48E" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-2.2 -4.4 L2.2 -4.4 L0 0 Z" fill="#003478"/>
+  </g>
+</svg>

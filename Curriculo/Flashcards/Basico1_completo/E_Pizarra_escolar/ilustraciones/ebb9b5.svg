@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="빵" data-es="pan">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 165 C 90 172, 150 172, 170 163" stroke-width="2.2" stroke-opacity="0.65"/>
+    <path d="M94 34 C 88 27, 99 21, 93 12 M110 31 C 104 24, 115 18, 109 8 M126 34 C 120 27, 131 21, 125 12" stroke-width="2.2" stroke-opacity="0.85"/>
+    <path d="M66 160 L68 96 C 48 92, 46 58, 70 48 C 88 40, 132 40, 150 48 C 174 58, 172 92, 152 96 L154 160 Z" fill="url(#rd)"/>
+    <path d="M78 150 L80 100 C 63 96, 62 69, 80 61 C 96 55, 124 55, 140 61 C 158 69, 157 96, 140 100 L142 150 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M78 150 L80 100 C 63 96, 62 69, 80 61 C 96 55, 124 55, 140 61 C 158 69, 157 96, 140 100 L142 150 Z" fill="url(#rt)" stroke-width="2.2"/>
+    <ellipse cx="92" cy="76" rx="2.6" ry="1.7" stroke-width="1.6"/><ellipse cx="128" cy="72" rx="2.4" ry="1.6" stroke-width="1.6"/>
+    <ellipse cx="94" cy="138" rx="2.6" ry="1.7" stroke-width="1.6"/><ellipse cx="124" cy="140" rx="2.2" ry="1.5" stroke-width="1.6"/>
+    <use href="#cara" transform="translate(110 104)"/>
+    <path d="M185 162 C 185 140, 183 118, 186 92" stroke="#E8B84B" stroke-width="2.2"/>
+    <ellipse cx="180" cy="104" rx="3.4" ry="6.4" transform="rotate(-30 180 104)" fill="url(#rd)" stroke="#E8B84B" stroke-width="1.8"/><ellipse cx="191" cy="101" rx="3.4" ry="6.4" transform="rotate(30 191 101)" fill="url(#rd)" stroke="#E8B84B" stroke-width="1.8"/><ellipse cx="179" cy="118" rx="3.4" ry="6.4" transform="rotate(-30 179 118)" fill="url(#rd)" stroke="#E8B84B" stroke-width="1.8"/><ellipse cx="190" cy="115" rx="3.4" ry="6.4" transform="rotate(30 190 115)" fill="url(#rd)" stroke="#E8B84B" stroke-width="1.8"/><ellipse cx="178" cy="132" rx="3.4" ry="6.4" transform="rotate(-30 178 132)" fill="url(#rd)" stroke="#E8B84B" stroke-width="1.8"/><ellipse cx="189" cy="129" rx="3.4" ry="6.4" transform="rotate(30 189 129)" fill="url(#rd)" stroke="#E8B84B" stroke-width="1.8"/>
+    <ellipse cx="186" cy="88" rx="3.2" ry="6" fill="url(#rd)" stroke="#E8B84B" stroke-width="1.8"/>
+    <use href="#estrella" transform="translate(36 58) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(40 128) scale(0.6)"/>
+  </g>
+</svg>

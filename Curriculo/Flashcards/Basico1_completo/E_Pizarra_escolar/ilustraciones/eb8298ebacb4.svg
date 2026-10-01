@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="나무" data-es="árbol">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <path d="M98 164 C 101 146, 102 128, 100 104 L120 104 C 118 128, 119 146, 122 164 Z" fill="url(#rt)"/>
+    <path d="M106 138 C 108 144, 108 149, 106 155 M114 122 V130" stroke-width="1.8" stroke-opacity="0.8"/>
+    <path d="M120 140 C 128 136, 133 130, 136 124" stroke-width="2.4"/>
+    <path d="M136 124 C 144 120, 150 124, 148 130 C 142 132, 137 130, 136 124 Z" stroke="#E8B84B" stroke-width="2" fill="url(#rd)"/>
+    <path d="M84 164 l3 -9 l3 9 l3 -7 l2 7 M128 164 l3 -8 l3 8" stroke-width="2"/>
+    <path d="M110 20 Q128.8 14 141 26.2 Q161.3 27.9 163.7 43 Q180.1 52.1 172 66 Q180.1 79.9 163.7 89 Q161.3 104.1 141 105.8 Q128.8 118 110 112 Q91.2 118 79 105.8 Q58.7 104.1 56.3 89 Q39.9 79.9 48 66 Q39.9 52.1 56.3 43 Q58.7 27.9 79 26.2 Q91.2 14 110 20 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M110 20 Q128.8 14 141 26.2 Q161.3 27.9 163.7 43 Q180.1 52.1 172 66 Q180.1 79.9 163.7 89 Q161.3 104.1 141 105.8 Q128.8 118 110 112 Q91.2 118 79 105.8 Q58.7 104.1 56.3 89 Q39.9 79.9 48 66 Q39.9 52.1 56.3 43 Q58.7 27.9 79 26.2 Q91.2 14 110 20 Z" fill="url(#rt)"/>
+    <circle cx="74" cy="50" r="5.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/><path d="M74 44.5 l1.5 -4" stroke-width="1.8"/><circle cx="148" cy="44" r="5.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/><path d="M148 38.5 l1.5 -4" stroke-width="1.8"/><circle cx="154" cy="86" r="5.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/><path d="M154 80.5 l1.5 -4" stroke-width="1.8"/><circle cx="66" cy="88" r="5.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/><path d="M66 82.5 l1.5 -4" stroke-width="1.8"/><circle cx="112" cy="28" r="5.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/><path d="M112 22.5 l1.5 -4" stroke-width="1.8"/>
+    <use href="#cara" transform="translate(110 64)"/>
+    <use href="#estrella" transform="translate(34 128) scale(0.9)"/>
+    <use href="#estrella" transform="translate(192 120) scale(0.7)"/>
+    <use href="#estrella-b" transform="translate(196 34) scale(0.6)"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="화이팅" data-es="¡ánimo!, ¡tú puedes!">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 165 C 84 172, 150 172, 196 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- puntas del cintillo (머리띠) que vuelan detrás de la cabeza -->
+    <path d="M68 66 C 58 58, 48 56, 36 58 L 40 67 C 50 65, 58 67, 66 73 Z" fill="url(#rb)" stroke-width="2.4"/>
+    <path d="M67 73 C 58 76, 50 82, 43 90 L 51 94 C 56 86, 62 82, 69 79 Z" fill="url(#rb)" stroke-width="2.4"/>
+    <!-- cuerpo -->
+    <path d="M80 112 C 66 126, 60 146, 58 162 L134 162 C 132 146, 126 126, 112 112 Z" fill="#1F3B33"/>
+    <path d="M80 112 C 66 126, 60 146, 58 162 L134 162 C 132 146, 126 126, 112 112 Z" fill="url(#rt)"/>
+    <path d="M86 113 Q96 121 106 113" stroke-width="2.4"/>
+    <!-- brazo izquierdo suelto -->
+    <path d="M78 120 C 66 128, 60 140, 63 151"/>
+    <circle cx="64" cy="154" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- brazo derecho en alto y puño cerrado -->
+    <path d="M114 118 C 128 112, 140 94, 146 70"/>
+    <path d="M138 50 C 138 45, 141 42, 146 42 L 152 42 C 157 42, 160 45, 160 50 L 160 62 C 160 67, 157 70, 152 70 L 144 70 C 139 70, 136 67, 136 62 Z" fill="#1F3B33"/>
+    <path d="M143.5 43 V 53 M149 42.5 V 53 M154.5 43 V 53" stroke-width="1.8" stroke-opacity="0.8"/>
+    <path d="M137 60 C 142 55, 149 55, 155 59" stroke-width="2.2"/>
+    <!-- chispas de energía alrededor del puño -->
+    <path d="M149 34 V 24 M134 39 L 127 32 M164 39 L 171 32 M168 55 H 179 M129 54 H 119" stroke="#E8B84B" stroke-width="2.8"/>
+    <!-- cabeza, pelo y cintillo blanco -->
+    <circle cx="96" cy="76" r="30" fill="#1F3B33"/>
+    <path d="M65 76 C 62 54, 78 42, 96 42 C 114 42, 130 54, 127 76 C 122 68, 112 62, 104 62 C 100 58, 92 57, 88 60 C 80 62, 70 68, 65 76 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M66 63 C 82 53, 110 53, 126 63 L 127 71 C 110 61, 82 61, 65 71 Z" fill="url(#rb)" stroke-width="2.4"/>
+    <circle cx="66" cy="70" r="4.2" fill="#1F3B33" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(96 86) scale(0.82)"/>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(190 88) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(28 30) scale(0.7)"/>
+    <use href="#estrella" transform="translate(186 138) scale(0.65)"/>
+    <use href="#estrella-b" transform="translate(28 126) scale(0.6)"/>
+  </g>
+</svg>

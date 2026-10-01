@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 쓰다 · escribir -->
+  <use href="#kw-brillo" transform="translate(38 48) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(198 50) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(112 42) scale(6)" fill="#FFFFFF"/>
+  <circle cx="18" cy="124" r="3" fill="#FFFFFF"/>
+  <circle cx="76" cy="62" r="2.5" fill="#CFC8FF"/>
+  <circle cx="150" cy="56" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="80" ry="7" fill="#D2CBFA"/>
+  <!-- cuaderno abierto de espiral: tapa menta y dos páginas -->
+  <rect x="32" y="84" width="156" height="98" rx="10" fill="#7FD0B0" stroke="#003478" stroke-width="3"/>
+  <path d="M40 90 Q74 83 108 92 L108 174 Q74 167 40 174 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M112 92 Q146 83 180 90 L180 174 Q146 167 112 174 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M48 108 Q74 103 100 109 M48 158 Q74 153 100 159 M118 128 Q146 124 174 128 M118 160 Q146 156 174 160" fill="none" stroke="#C9DBFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M103 100 Q110 92 117 100 M103 116 Q110 108 117 116 M103 132 Q110 124 117 132 M103 148 Q110 140 117 148 M103 164 Q110 156 117 164" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- lo escrito: 이름 + la línea que se está escribiendo -->
+  <text x="120" y="122" font-family="Jua, sans-serif" font-size="22" fill="#003478">이름</text>
+  <path d="M120 152 Q125 145 130 152 T140 152 T150 156" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- manga y mano -->
+  <path d="M178 127 L226 120 L228 154 L180 151 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M178 127 L188 125.6 L190 151.6 L180 151 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <ellipse cx="170" cy="138" rx="16" ry="13" fill="#C98F5E" stroke="#003478" stroke-width="3"/>
+  <!-- lápiz celeste -->
+  <path d="M161.3 149 L180.7 103.2 L171.5 99.3 L152.1 145 Z" fill="#8CCBF6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M180.7 103.2 L184.6 94 L175.4 90 L171.5 99.3 Z" fill="#E8B84B" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M184.6 94 L186.9 88.5 L177.7 84.6 L175.4 90 Z" fill="#CFC8FF" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M161.3 149 L152.1 145 L152 158 Z" fill="#E9D6C0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M156 154.2 L152 152.6 L152 158 Z" fill="#003478"/>
+  <!-- dedos encima del lápiz -->
+  <ellipse cx="164" cy="131" rx="7.5" ry="5.5" fill="#C98F5E" stroke="#003478" stroke-width="2.4" transform="rotate(-35 164 131)"/>
+  <ellipse cx="160" cy="143" rx="6.5" ry="4.8" fill="#C98F5E" stroke="#003478" stroke-width="2.4" transform="rotate(-25 160 143)"/>
+  <use href="#kw-cara" transform="translate(74 132) scale(0.85)"/>
+</svg>

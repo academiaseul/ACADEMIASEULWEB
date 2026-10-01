@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 한국 음식 · comida coreana (상 bajo con 밥, 국, 김치 verde-crema y 반찬) -->
+  <use href="#kw-brillo" transform="translate(28 50) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 50) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(110 42) scale(6)" fill="#FFFFFF"/>
+  <circle cx="16" cy="108" r="3" fill="#FFFFFF"/>
+  <circle cx="206" cy="106" r="2.5" fill="#CFC8FF"/>
+  <circle cx="206" cy="166" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="82" ry="7" fill="#D2CBFA"/>
+  <!-- vapor -->
+  <path d="M52 92 Q45 82 52 73 Q59 64 52 54" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M70 92 Q63 82 70 73 Q77 64 70 54" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M151 98 Q144 88 151 79 Q158 70 151 60" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M169 98 Q162 88 169 79 Q176 70 169 60" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <!-- patas y faldón del 상 -->
+  <rect x="38" y="160" width="14" height="25" rx="5" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <rect x="168" y="160" width="14" height="25" rx="5" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <path d="M28 146 L192 146 L192 160 Q192 168 184 168 L36 168 Q28 168 28 160 Z" fill="#C99A5E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- cubierta -->
+  <path d="M50 100 L170 100 Q178 100 180 106 L194 140 Q196 146 188 146 L32 146 Q24 146 26 140 L40 106 Q42 100 50 100 Z" fill="#E7B46E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- 반찬 de atrás: 나물 verde y 계란말이 -->
+  <ellipse cx="91" cy="110" rx="18" ry="6" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+  <path d="M78 109 Q79 97 91 97 Q103 97 104 109 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M86 101 L89 106 M96 100 L95 105" fill="none" stroke="#6CC7A4" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="129" cy="110" rx="18" ry="6" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+  <rect x="115" y="96" width="13" height="13" rx="4" fill="#F6D47A" stroke="#003478" stroke-width="2.2"/>
+  <rect x="130" y="96" width="13" height="13" rx="4" fill="#F6D47A" stroke="#003478" stroke-width="2.2"/>
+  <path d="M118 102.5 L125 102.5 M133 102.5 L140 102.5" fill="none" stroke="#FFF3CC" stroke-width="2" stroke-linecap="round"/>
+  <!-- 밥: arroz blanco en tazón con franja celeste -->
+  <path d="M36 120 Q38 100 60 98 Q82 100 84 120 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M49 110 L52 107 M62 104 L66 105 M71 112 L74 110" fill="none" stroke="#D5D9E4" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M34 118 Q34 140 52 144 L68 144 Q86 140 86 118 Z" fill="#FFFFFF"/>
+  <rect x="34" y="122" width="52" height="7" fill="#8CCBF6"/>
+  <path d="M34 118 Q34 140 52 144 L68 144 Q86 140 86 118 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- 국: sopa dorada con tofu y cebollín -->
+  <path d="M134 120 Q134 140 152 144 L168 144 Q186 140 186 120 Z" fill="#E4E0FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="160" cy="120" rx="26" ry="7.5" fill="#F6D47A" stroke="#003478" stroke-width="2.6"/>
+  <rect x="147" y="116" width="8" height="6.5" rx="1.5" fill="#FFFFFF" stroke="#003478" stroke-width="1.6"/>
+  <rect x="163" y="117" width="8" height="6.5" rx="1.5" fill="#FFFFFF" stroke="#003478" stroke-width="1.6"/>
+  <circle cx="159" cy="123" r="2.4" fill="#8ED3A0"/>
+  <circle cx="176" cy="119" r="2.4" fill="#8ED3A0"/>
+  <circle cx="142" cy="121" r="2.4" fill="#8ED3A0"/>
+  <!-- 김치: trozos de repollo verde-crema en platito (nunca rojo) -->
+  <ellipse cx="110" cy="140" rx="24" ry="7" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+  <path d="M91 139 Q88 125 97 118 Q106 113 110 122 Q114 113 123 118 Q132 125 129 139 Z" fill="#FFF6E6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M93 128 Q90 118 99 115 Q106 114 108 121 Q103 129 93 128 Z" fill="#A6E1B4" stroke="#003478" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M112 121 Q114 114 121 115 Q130 118 127 128 Q117 129 112 121 Z" fill="#A6E1B4" stroke="#003478" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M103 131 L103 137 M117 131 L117 137" fill="none" stroke="#E9D6C0" stroke-width="2.4" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(110 154) scale(0.66)"/>
+</svg>

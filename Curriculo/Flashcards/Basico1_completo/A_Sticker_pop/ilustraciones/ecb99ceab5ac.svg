@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 친구 · amigo, amiga · Estilo A Sticker pop · dos amigos de la misma edad chocan las manos arriba (manga corta + antebrazo) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M98 132 L103 72" fill="none" stroke-width="40"/>
+<path d="M122 132 L117 72" fill="none" stroke-width="40"/>
+<path d="M93 164 L98 134" fill="none" stroke-width="45"/>
+<path d="M127 164 L122 134" fill="none" stroke-width="45"/>
+<ellipse cx="102" cy="60" rx="11" ry="13"/>
+<ellipse cx="118" cy="60" rx="11" ry="13"/>
+<path d="M26 128 C20 80 40 66 62 66 C84 66 104 80 98 128 Q94 138 86 132 L38 132 Q30 138 26 128 Z"/>
+<ellipse cx="62" cy="106" rx="34" ry="33"/>
+<path d="M22 184 C22 160 40 146 62 146 C84 146 102 160 102 184 Z"/>
+<path d="M126 108 C122 78 138 64 158 64 C178 64 194 78 190 108 Z"/>
+<ellipse cx="158" cy="106" rx="34" ry="33"/>
+<path d="M118 184 C118 160 136 146 158 146 C180 146 198 160 198 184 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M98 132 L103 72" fill="none" stroke-width="40"/>
+<path d="M122 132 L117 72" fill="none" stroke-width="40"/>
+<path d="M93 164 L98 134" fill="none" stroke-width="45"/>
+<path d="M127 164 L122 134" fill="none" stroke-width="45"/>
+<ellipse cx="102" cy="60" rx="11" ry="13"/>
+<ellipse cx="118" cy="60" rx="11" ry="13"/>
+<path d="M26 128 C20 80 40 66 62 66 C84 66 104 80 98 128 Q94 138 86 132 L38 132 Q30 138 26 128 Z"/>
+<ellipse cx="62" cy="106" rx="34" ry="33"/>
+<path d="M22 184 C22 160 40 146 62 146 C84 146 102 160 102 184 Z"/>
+<path d="M126 108 C122 78 138 64 158 64 C178 64 194 78 190 108 Z"/>
+<ellipse cx="158" cy="106" rx="34" ry="33"/>
+<path d="M118 184 C118 160 136 146 158 146 C180 146 198 160 198 184 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M98 132 L103 72" fill="none" stroke-width="33"/>
+<path d="M122 132 L117 72" fill="none" stroke-width="33"/>
+<path d="M93 164 L98 134" fill="none" stroke-width="38"/>
+<path d="M127 164 L122 134" fill="none" stroke-width="38"/>
+<ellipse cx="102" cy="60" rx="11" ry="13"/>
+<ellipse cx="118" cy="60" rx="11" ry="13"/>
+<path d="M26 128 C20 80 40 66 62 66 C84 66 104 80 98 128 Q94 138 86 132 L38 132 Q30 138 26 128 Z"/>
+<ellipse cx="62" cy="106" rx="34" ry="33"/>
+<path d="M22 184 C22 160 40 146 62 146 C84 146 102 160 102 184 Z"/>
+<path d="M126 108 C122 78 138 64 158 64 C178 64 194 78 190 108 Z"/>
+<ellipse cx="158" cy="106" rx="34" ry="33"/>
+<path d="M118 184 C118 160 136 146 158 146 C180 146 198 160 198 184 Z"/>
+</g>
+<!-- torsos: amiga en azul, amigo en menta -->
+<path d="M22 184 C22 160 40 146 62 146 C84 146 102 160 102 184 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M118 184 C118 160 136 146 158 146 C180 146 198 160 198 184 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- pelo de atrás: melena castaña (ella), pelo negro corto (él) -->
+<path d="M26 128 C20 80 40 66 62 66 C84 66 104 80 98 128 Q94 138 86 132 L38 132 Q30 138 26 128 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M126 108 C122 78 138 64 158 64 C178 64 194 78 190 108 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- brazos levantados: antebrazo de piel + manga corta -->
+<path d="M98 132 L103 72" stroke="#14142B" stroke-width="20" stroke-linecap="round"/>
+<path d="M98 132 L103 72" stroke="#F3C39A" stroke-width="12" stroke-linecap="round"/>
+<path d="M122 132 L117 72" stroke="#14142B" stroke-width="20" stroke-linecap="round"/>
+<path d="M122 132 L117 72" stroke="#8D5A3B" stroke-width="12" stroke-linecap="round"/>
+<path d="M93 164 L98 134" stroke="#14142B" stroke-width="25" stroke-linecap="round"/>
+<path d="M93 164 L98 134" stroke="#4236F6" stroke-width="17" stroke-linecap="round"/>
+<path d="M127 164 L122 134" stroke="#14142B" stroke-width="25" stroke-linecap="round"/>
+<path d="M127 164 L122 134" stroke="#8FE3C6" stroke-width="17" stroke-linecap="round"/>
+<!-- manos que chocan + rayitas del choque -->
+<ellipse cx="102" cy="60" rx="11" ry="13" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="118" cy="60" rx="11" ry="13" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<path d="M110 36 L110 24" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M96 40 L89 31" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M124 40 L131 31" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<!-- cuellos -->
+<path d="M54 130 L54 150 Q62 155 70 150 L70 130 Z" fill="#F3C39A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M150 130 L150 150 Q158 155 166 150 L166 130 Z" fill="#8D5A3B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- amiga: flequillo y horquilla dorada -->
+<ellipse cx="62" cy="106" rx="34" ry="33" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M30 108 C28 82 44 72 62 72 C80 72 96 82 94 108 C90 96 84 90 76 88 C68 94 54 96 44 92 C36 96 32 100 30 108 Z" fill="#4A3426"/>
+<path d="M94 108 C90 96 84 90 76 88 C68 94 54 96 44 92 C36 96 32 100 30 108" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42 82 Q52 76 62 76" stroke="#6E4424" stroke-width="5" stroke-linecap="round"/>
+<rect x="72" y="76" width="16" height="7" rx="3.5" fill="#E8B84B" stroke="#14142B" stroke-width="3" transform="rotate(-20 80 79.5)"/>
+<ellipse cx="51.92" cy="116" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="72.08" cy="116" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="53.5" cy="113.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="73.66" cy="113.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="43.28" cy="126.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="80.72" cy="126.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M56.24 125.36 Q62 134 67.76 125.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- amigo: pelo negro corto en punta -->
+<ellipse cx="158" cy="106" rx="34" ry="33" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<path d="M126 104 C124 82 140 70 158 70 C176 70 192 82 190 104 C186 94 180 88 172 86 L166 92 L158 86 L150 92 L144 86 C136 88 130 94 126 104 Z" fill="#14142B"/>
+<path d="M190 104 C186 94 180 88 172 86 L166 92 L158 86 L150 92 L144 86 C136 88 130 94 126 104" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M142 77 Q152 72 162 72" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="147.92" cy="116" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="168.08" cy="116" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="149.5" cy="113.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="169.66" cy="113.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="139.28" cy="126.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="176.72" cy="126.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M152.24 125.36 Q158 134 163.76 125.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M28 20 Q30.4 29.6 40 32 Q30.4 34.4 28 44 Q25.6 34.4 16 32 Q25.6 29.6 28 20 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 22 Q193.8 29.2 201 31 Q193.8 32.8 192 40 Q190.2 32.8 183 31 Q190.2 29.2 192 22 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M24 196 Q25.6 202.4 32 204 Q25.6 205.6 24 212 Q22.4 205.6 16 204 Q22.4 202.4 24 196 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="154" cy="32" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

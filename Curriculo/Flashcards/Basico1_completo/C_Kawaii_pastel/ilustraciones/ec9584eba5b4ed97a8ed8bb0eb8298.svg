@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 아르헨티나 · Argentina (mate con bombilla + Sol de Mayo; sin bandera) -->
+  <use href="#kw-brillo" transform="translate(196 72) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(108 30) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(32 128) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="100" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="148" r="2.5" fill="#CFC8FF"/>
+  <circle cx="190" cy="22" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="116" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <!-- Sol de Mayo: rayos rectos y ondulados -->
+  <path d="M58 33 L58 25 M58 71 L58 79 M39 52 L31 52 M77 52 L85 52" fill="none" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M71 39 Q76 38 75 34 Q74 30 79 29 M45 39 Q40 38 41 34 Q42 30 37 29 M71 65 Q76 66 75 70 Q74 74 79 75 M45 65 Q40 66 41 70 Q42 74 37 75" fill="none" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="58" cy="52" r="14" fill="#F6D47A" stroke="#003478" stroke-width="2.6"/>
+  <use href="#kw-cara-chica" transform="translate(58 51) scale(0.55)"/>
+  <!-- bombilla de metal (detrás de la yerba) -->
+  <path d="M126 92 L148 44 Q151 36 160 34" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round"/>
+  <path d="M126 92 L148 44 Q151 36 160 34" fill="none" stroke="#D5D9E4" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="140" cy="61" rx="5" ry="3.4" fill="#E8B84B" stroke="#003478" stroke-width="2" transform="rotate(-65 140 61)"/>
+  <!-- yerba en montañita -->
+  <path d="M88 94 Q88 72 106 72 Q126 74 144 94 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M98 84 L100 83 M110 80 L112 80 M120 86 L122 86 M104 90 L106 90" fill="none" stroke="#6CC7A4" stroke-width="3" stroke-linecap="round"/>
+  <!-- calabaza: relleno, franjas celeste-blanco-celeste, sombra, contorno -->
+  <path d="M88 100 Q80 112 72 130 Q62 154 78 172 Q92 184 116 184 Q140 184 154 172 Q170 154 160 130 Q152 112 144 100 Z" fill="#E2B271"/>
+  <path d="M79.7 114 L152.3 114 L155.3 120 L76.7 120 Z M73.8 126 L158.2 126 L160.8 132 L71.2 132 Z" fill="#8CCBF6"/>
+  <path d="M76.7 120 L155.3 120 L158.2 126 L73.8 126 Z" fill="#FFFFFF"/>
+  <path d="M73.5 166 Q84.1 160.5 94.75 166 T116 166 T137.25 166 T158.5 166 Q156.6 169.1 154 172 Q140 184 116 184 Q92 184 78 172 Q75.4 169.1 73.5 166 Z" fill="#C99A5E"/>
+  <path d="M88 100 Q80 112 72 130 Q62 154 78 172 Q92 184 116 184 Q140 184 154 172 Q170 154 160 130 Q152 112 144 100 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M79.7 114 L152.3 114 M71.2 132 L160.8 132" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="80" cy="144" rx="8" ry="4.5" fill="#F0DA9C" transform="rotate(-65 80 144)"/>
+  <!-- virola de metal -->
+  <rect x="84" y="90" width="64" height="14" rx="6" fill="#D5D9E4" stroke="#003478" stroke-width="3"/>
+  <path d="M92 95 L112 95" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(116 148)"/>
+</svg>

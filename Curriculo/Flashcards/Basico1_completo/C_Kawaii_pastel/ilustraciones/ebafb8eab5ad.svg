@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 미국 · Estados Unidos (Estatua de la Libertad chibi; sin bandera) -->
+  <use href="#kw-brillo" transform="translate(30 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(200 96) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(28 130) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="90" r="3" fill="#FFFFFF"/>
+  <circle cx="196" cy="150" r="2.5" fill="#FFFFFF"/>
+  <circle cx="44" cy="170" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <!-- pedestal de piedra -->
+  <rect x="72" y="164" width="76" height="20" rx="4" fill="#D5D9E4" stroke="#003478" stroke-width="3"/>
+  <path d="M84 174 L136 174" fill="none" stroke="#A9AFC3" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- túnica -->
+  <path d="M80 160 Q78 126 96 112 L124 112 Q142 126 140 160 Z" fill="#A3E0C6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M100 128 Q97 144 100 158 M120 126 Q124 142 121 158 M94 118 Q112 132 134 126" fill="none" stroke="#7FD0B0" stroke-width="3" stroke-linecap="round"/>
+  <rect x="68" y="156" width="84" height="10" rx="4" fill="#F1F2F7" stroke="#003478" stroke-width="3"/>
+  <!-- tablilla y brazo izquierdo -->
+  <rect x="62" y="118" width="24" height="32" rx="4" fill="#7FD0B0" stroke="#003478" stroke-width="2.6" transform="rotate(-12 74 134)"/>
+  <path d="M88 122 Q76 132 80 142" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M88 122 Q76 132 80 142" fill="none" stroke="#A3E0C6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="81" cy="144" r="6" fill="#A3E0C6" stroke="#003478" stroke-width="2.4"/>
+  <!-- antorcha y brazo derecho en alto -->
+  <path d="M152 14 Q166 28 164 36 Q162 42 152 42 Q142 42 140 36 Q138 28 152 14 Z" fill="#F6D47A" stroke="#003478" stroke-width="2.6" stroke-linejoin="round" transform="translate(26 0)"/>
+  <path d="M178 26 Q183 33 181 37 Q179 40 175 38 Q173 33 178 26 Z" fill="#FFF3CC"/>
+  <path d="M166 40 L190 40 L184 50 L172 50 Z" fill="#E8B84B" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <rect x="174" y="50" width="8" height="20" rx="3" fill="#E8B84B" stroke="#003478" stroke-width="2.4"/>
+  <path d="M132 122 Q168 118 177 78" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M132 122 Q168 118 177 78" fill="none" stroke="#A3E0C6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="178" cy="72" r="6.5" fill="#A3E0C6" stroke="#003478" stroke-width="2.4"/>
+  <!-- corona de 7 rayos (detrás de la cabeza) -->
+  <path d="M81.7 69 L61.5 48.7 L87 61.8 Z M87.8 61 L74.7 35.5 L95 55.7 Z M96 55.2 L91.5 26.9 L104.4 52.5 Z M105.5 52.3 L110 24 L114.5 52.3 Z M115.6 52.5 L128.5 26.9 L124 55.2 Z M125 55.7 L145.3 35.5 L132.2 61 Z M133 61.8 L158.5 48.7 L138.3 69 Z" fill="#A3E0C6" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <!-- cabeza, pelo ondulado y banda de la corona -->
+  <ellipse cx="110" cy="86" rx="38" ry="33" fill="#A3E0C6" stroke="#003478" stroke-width="3"/>
+  <path d="M73 88 Q70 56 110 54 Q150 56 147 88 Q140 74 128 72 Q118 78 110 74 Q102 78 92 72 Q80 74 73 88 Z" fill="#7FD0B0" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M78 66 Q110 46 142 66 L139 72 Q110 56 81 72 Z" fill="#CDEFE0" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <use href="#kw-cara" transform="translate(110 96) scale(0.95)"/>
+</svg>

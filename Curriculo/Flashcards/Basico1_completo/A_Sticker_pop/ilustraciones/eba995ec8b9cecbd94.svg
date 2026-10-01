@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 멕시코 · México · Estilo A Sticker pop · pirámide escalonada con templo arriba y cara al centro (sin bandera ni sombrero) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="80" y="52" width="60" height="12" rx="4"/>
+<rect x="86" y="62" width="48" height="36"/>
+<path d="M24 190 L24 170 L38 170 L38 150 L52 150 L52 130 L66 130 L66 110 L80 110 L80 96 L140 96 L140 110 L154 110 L154 130 L168 130 L168 150 L182 150 L182 170 L196 170 L196 190 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="80" y="52" width="60" height="12" rx="4"/>
+<rect x="86" y="62" width="48" height="36"/>
+<path d="M24 190 L24 170 L38 170 L38 150 L52 150 L52 130 L66 130 L66 110 L80 110 L80 96 L140 96 L140 110 L154 110 L154 130 L168 130 L168 150 L182 150 L182 170 L196 170 L196 190 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="80" y="52" width="60" height="12" rx="4"/>
+<rect x="86" y="62" width="48" height="36"/>
+<path d="M24 190 L24 170 L38 170 L38 150 L52 150 L52 130 L66 130 L66 110 L80 110 L80 96 L140 96 L140 110 L154 110 L154 130 L168 130 L168 150 L182 150 L182 170 L196 170 L196 190 Z"/>
+</g>
+<!-- templo de arriba: muro, puerta y techo -->
+<rect x="86" y="62" width="48" height="36" fill="#DDA45A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M101 98 L101 80 Q101 74 107 74 L113 74 Q119 74 119 80 L119 98 Z" fill="#6E4424" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<rect x="80" y="52" width="60" height="12" rx="4" fill="#C98A3E" stroke="#14142B" stroke-width="4"/>
+<!-- cuerpo escalonado -->
+<path d="M24 190 L24 170 L38 170 L38 150 L52 150 L52 130 L66 130 L66 110 L80 110 L80 96 L140 96 L140 110 L154 110 L154 130 L168 130 L168 150 L182 150 L182 170 L196 170 L196 190 Z" fill="#EDC27E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- separaciones entre gradas (solo a los lados, lejos de la cara) -->
+<path d="M66 110 L154 110" stroke="#B9861E" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M52 130 L72 130 M148 130 L168 130" stroke="#B9861E" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M38 150 L68 150 M152 150 L182 150" stroke="#B9861E" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M24 170 L94 170 M126 170 L196 170" stroke="#B9861E" stroke-width="3.5" stroke-linecap="round"/>
+<!-- escalinata central abajo -->
+<rect x="96" y="170" width="28" height="20" fill="#DDA45A" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M98 176 L122 176 M98 182 L122 182" stroke="#B9861E" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M88 102 L132 102" stroke="#FFF4D9" stroke-width="4" stroke-linecap="round"/>
+<!-- cara de la casa (110,140) s 1 -->
+<ellipse cx="96" cy="140" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="140" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="136.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="136.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="154" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="154" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 153 Q110 165 118 153 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M30 28 Q32.4 37.6 42 40 Q32.4 42.4 30 52 Q27.6 42.4 18 40 Q27.6 37.6 30 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 36 Q194 44 202 46 Q194 48 192 56 Q190 48 182 46 Q190 44 192 36 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 116 Q197.6 122.4 204 124 Q197.6 125.6 196 132 Q194.4 125.6 188 124 Q194.4 122.4 196 116 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="28" cy="100" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

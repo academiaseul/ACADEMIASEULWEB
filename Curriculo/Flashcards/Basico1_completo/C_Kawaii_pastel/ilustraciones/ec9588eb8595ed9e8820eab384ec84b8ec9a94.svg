@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 안녕히 계세요 · adiós (a quien se queda): quien sale por la puerta despide a quien se queda sentado -->
+  <use href="#kw-brillo" transform="translate(22 42) scale(8)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(124 34) scale(6)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(18 140) scale(6)" fill="#FFFFFF"/>
+  <circle cx="20" cy="110" r="3" fill="#FFFFFF"/>
+  <circle cx="122" cy="56" r="2.5" fill="#E8B84B"/>
+  <circle cx="140" cy="176" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="112" cy="189" rx="94" ry="7" fill="#D2CBFA"/>
+  <!-- puerta abierta hacia afuera (cielo y pasto) -->
+  <rect x="150" y="58" width="62" height="128" rx="6" fill="#E2B271" stroke="#003478" stroke-width="3"/>
+  <rect x="158" y="66" width="46" height="120" rx="4" fill="#C9DBFF"/>
+  <path d="M158 166 L204 166 L204 182 Q204 186 200 186 L162 186 Q158 186 158 182 Z" fill="#A6E1B4"/>
+  <path d="M170 86 Q170 78 178 79 Q182 72 189 77 Q196 77 195 84 Q195 89 189 89 L175 89 Q170 89 170 86 Z" fill="#FFFFFF"/>
+  <rect x="158" y="66" width="46" height="120" rx="4" fill="none" stroke="#003478" stroke-width="2.6"/>
+  <rect x="144" y="50" width="76" height="12" rx="6" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <!-- flecha navy: sale por la puerta -->
+  <path d="M124 144 L133 144 L133 137 L146 150 L133 163 L133 156 L124 156 Q118 156 118 150 Q118 144 124 144 Z" fill="#003478" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- quien se va: más chico, de espaldas en la puerta, saluda hacia atrás -->
+  <g transform="matrix(0.5 0 0 0.5 126 88.3)">
+    <rect x="94" y="168" width="12" height="17" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.8"/>
+    <rect x="114" y="168" width="12" height="17" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.8"/>
+    <path d="M88.5 186 a10.5 5.5 0 1 0 21 0 a10.5 5.5 0 1 0 -21 0 M110.5 186 a10.5 5.5 0 1 0 21 0 a10.5 5.5 0 1 0 -21 0" fill="#FFFFFF" stroke="#003478" stroke-width="4.8"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="5.4" stroke-linejoin="round"/>
+    <rect x="86" y="132" width="48" height="42" rx="12" fill="#7FD0B0" stroke="#003478" stroke-width="4.8"/>
+    <path d="M87 148 Q110 156 133 148" fill="none" stroke="#003478" stroke-width="4.4" stroke-linecap="round"/>
+    <path d="M84 132 Q54 128 54 96 M136 132 Q150 150 142 168" fill="none" stroke="#003478" stroke-width="22" stroke-linecap="round"/>
+    <path d="M84 132 Q54 128 54 96 M136 132 Q150 150 142 168" fill="none" stroke="#4236F6" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="142" cy="170" r="7.5" fill="#FFE4C8" stroke="#003478" stroke-width="4.4"/>
+    <circle cx="54" cy="86" r="11" fill="#FFE4C8" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="62" cy="94" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="4.8"/>
+    <ellipse cx="158" cy="94" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="4.8"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#3B4566" stroke="#003478" stroke-width="5.4"/>
+    <path d="M80 58 Q94 46 112 46" fill="none" stroke="#6E7591" stroke-width="6" stroke-linecap="round"/>
+    <path d="M108 42 Q104 30 116 31" fill="none" stroke="#003478" stroke-width="5.4" stroke-linecap="round"/>
+  </g>
+  <!-- 방석 azul con pespunte dorado -->
+  <rect x="26" y="166" width="106" height="20" rx="10" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <rect x="32" y="170" width="94" height="12" rx="6" fill="none" stroke="#E8B84B" stroke-width="2"/>
+  <!-- quien se queda: adelante y más grande, sentado en el cojín, saluda -->
+  <g transform="matrix(0.86 0 0 0.86 -14.6 15.8)">
+    <path d="M84 166 Q82 136 102 124 L118 124 Q138 136 136 166 Z" fill="#CFC8FF" stroke="#003478" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M102 124 Q110 134 118 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.8" stroke-linejoin="round"/>
+    <path d="M68 178 Q66 160 84 156 L136 156 Q154 160 152 178 Q152 186 144 186 L76 186 Q68 186 68 178 Z" fill="#8CCBF6" stroke="#003478" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M110 164 L110 184" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+    <ellipse cx="66" cy="176" rx="8" ry="11" fill="#FFFFFF" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="154" cy="176" rx="8" ry="11" fill="#FFFFFF" stroke="#003478" stroke-width="3"/>
+    <path d="M94 134 Q78 150 88 162 M126 134 Q168 130 172 100" fill="none" stroke="#003478" stroke-width="15" stroke-linecap="round"/>
+    <path d="M94 134 Q78 150 88 162 M126 134 Q168 130 172 100" fill="none" stroke="#CFC8FF" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="89" cy="163" r="6.5" fill="#C98F5E" stroke="#003478" stroke-width="2.8"/>
+    <path d="M173 84 Q165 82 164 76 Q164 72 168 73 Q171 75 173 79 Z" fill="#C98F5E" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M171 87 L171 70 Q171 67 173.3 67 Q175.5 67 175.5 70 L175.5 65 Q175.5 62.5 177.8 62.5 Q180 62.5 180 65 L180 64.5 Q180 62 182.3 62 Q184.5 62 184.5 64.5 L184.5 68 Q184.5 65.5 186.8 65.5 Q189 65.5 189 68 L189 85 Q189 93 180 93 Q171 93 171 87 Z" fill="#C98F5E" stroke="#003478" stroke-width="2.8" stroke-linejoin="round"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#C98F5E" stroke="#003478" stroke-width="3.5"/>
+    <path d="M63 86 Q56 36 110 36 Q164 38 157 86 Q152 64 132 56 Q104 66 80 62 Q68 70 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M80 50 Q92 43 104 43" fill="none" stroke="#6E7591" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="82" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <ellipse cx="138" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <use href="#kw-cara-chica" transform="translate(110 98) scale(1.1)"/>
+  </g>
+  <use href="#kw-brillo" transform="translate(80 32) scale(8)" fill="#E8B84B"/>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 자다 · dormir · Estilo A Sticker pop · persona durmiendo en la cama, almohada, frazada y Zzz dibujadas -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M20 186 L20 96 Q20 82 31 82 Q42 82 42 96 L42 186 Z"/>
+<rect x="28" y="152" width="160" height="24" rx="8"/>
+<rect x="166" y="172" width="12" height="12" rx="3"/>
+<rect x="36" y="138" width="146" height="20" rx="8"/>
+<rect x="38" y="100" width="58" height="42" rx="18"/>
+<path d="M38.72 124.16 C31.92 86.08 52.32 73.84 70 73.84 C87.68 73.84 108.08 86.08 101.28 124.16 Z"/>
+<ellipse cx="70" cy="116" rx="30" ry="28.5"/>
+<path d="M88 160 L88 132 Q88 120 100 120 L120 120 Q138 104 160 114 L174 118 Q186 118 186 130 L186 160 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M20 186 L20 96 Q20 82 31 82 Q42 82 42 96 L42 186 Z"/>
+<rect x="28" y="152" width="160" height="24" rx="8"/>
+<rect x="166" y="172" width="12" height="12" rx="3"/>
+<rect x="36" y="138" width="146" height="20" rx="8"/>
+<rect x="38" y="100" width="58" height="42" rx="18"/>
+<path d="M38.72 124.16 C31.92 86.08 52.32 73.84 70 73.84 C87.68 73.84 108.08 86.08 101.28 124.16 Z"/>
+<ellipse cx="70" cy="116" rx="30" ry="28.5"/>
+<path d="M88 160 L88 132 Q88 120 100 120 L120 120 Q138 104 160 114 L174 118 Q186 118 186 130 L186 160 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M20 186 L20 96 Q20 82 31 82 Q42 82 42 96 L42 186 Z"/>
+<rect x="28" y="152" width="160" height="24" rx="8"/>
+<rect x="166" y="172" width="12" height="12" rx="3"/>
+<rect x="36" y="138" width="146" height="20" rx="8"/>
+<rect x="38" y="100" width="58" height="42" rx="18"/>
+<path d="M38.72 124.16 C31.92 86.08 52.32 73.84 70 73.84 C87.68 73.84 108.08 86.08 101.28 124.16 Z"/>
+<ellipse cx="70" cy="116" rx="30" ry="28.5"/>
+<path d="M88 160 L88 132 Q88 120 100 120 L120 120 Q138 104 160 114 L174 118 Q186 118 186 130 L186 160 Z"/>
+</g>
+<!-- cama de madera: respaldo, base, pata, colchón -->
+<path d="M20 186 L20 96 Q20 82 31 82 Q42 82 42 96 L42 186 Z" fill="#C98A3E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M27 98 L27 116" stroke="#D9A35F" stroke-width="4" stroke-linecap="round"/>
+<rect x="166" y="172" width="12" height="12" rx="3" fill="#A86B3C" stroke="#14142B" stroke-width="3.5"/>
+<rect x="28" y="152" width="160" height="24" rx="8" fill="#C98A3E" stroke="#14142B" stroke-width="4"/>
+<path d="M46 166 L176 166" stroke="#A86B3C" stroke-width="3" stroke-linecap="round"/>
+<rect x="36" y="138" width="146" height="20" rx="8" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<!-- almohada -->
+<rect x="38" y="100" width="58" height="42" rx="18" fill="#ECE6FF" stroke="#14142B" stroke-width="4"/>
+<!-- pelo y cabeza sobre la almohada -->
+<path d="M38.72 124.16 C31.92 86.08 52.32 73.84 70 73.84 C87.68 73.84 108.08 86.08 101.28 124.16 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="70" cy="116" rx="30" ry="28.5" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M40.08 118.72 C37.36 92.88 52.32 80.64 70 80.64 C87.68 80.64 102.64 92.88 99.92 118.72 C97.2 109.2 91.76 102.4 84.96 99.68 C78.16 105.12 64.56 106.48 55.04 102.4 C48.24 106.48 42.8 111.92 40.08 118.72 Z" fill="#14142B"/>
+<path d="M99.92 118.72 C97.2 109.2 91.76 102.4 84.96 99.68 C78.16 105.12 64.56 106.48 55.04 102.4 C48.24 106.48 42.8 111.92 40.08 118.72" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 85 Q58 79 68 79" stroke="#5E6280" stroke-width="4" stroke-linecap="round"/>
+<!-- cara dormida -->
+<path d="M58.4 122.8 Q61.88 119.32 65.36 122.8" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M74.64 122.8 Q78.12 119.32 81.6 122.8" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<ellipse cx="54.92" cy="130.92" rx="4.06" ry="2.61" fill="#FFB98A"/>
+<ellipse cx="85.08" cy="130.92" rx="4.06" ry="2.61" fill="#FFB98A"/>
+<path d="M65.36 130.34 Q70 137.3 74.64 130.34 Z" fill="#14142B" stroke="#14142B" stroke-width="1.74" stroke-linejoin="round"/>
+<!-- frazada azul con borde doblado y puntitos dorados -->
+<path d="M88 160 L88 132 Q88 120 100 120 L120 120 Q138 104 160 114 L174 118 Q186 118 186 130 L186 160 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M88 160 L88 132 Q88 120 100 120 L108 120 L108 160 Z" fill="#DCE0FA" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="128" cy="138" r="3.5" fill="#FFD95E"/>
+<circle cx="150" cy="128" r="3.5" fill="#FFD95E"/>
+<circle cx="146" cy="150" r="3.5" fill="#FFD95E"/>
+<circle cx="170" cy="140" r="3.5" fill="#FFD95E"/>
+<path d="M140 116 Q152 112 162 118" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<!-- Zzz dibujadas -->
+<path d="M110 74 L122 74 L110 86 L122 86" stroke="#14142B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 74 L122 74 L110 86 L122 86" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M132 50 L148 50 L132 66 L148 66" stroke="#14142B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M132 50 L148 50 L132 66 L148 66" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160 22 L180 22 L160 42 L180 42" stroke="#14142B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160 22 L180 22 L160 42 L180 42" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- luna dorada y adornos -->
+<path d="M70 24 A17 17 0 1 0 86 48 A13 13 0 0 1 70 24 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M24 32 Q26.4 41.6 36 44 Q26.4 46.4 24 56 Q21.6 46.4 12 44 Q21.6 41.6 24 32 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M204 76 Q205.6 82.4 212 84 Q205.6 85.6 204 92 Q202.4 85.6 196 84 Q202.4 82.4 204 76 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="120" cy="198" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

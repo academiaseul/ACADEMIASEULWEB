@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="회사" data-es="empresa, oficina">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 165 C 76 172, 150 172, 200 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- torre de oficinas en 3/4: techo y costado con trama, fachada de vidrio -->
+    <path d="M50 18 L64 10 H138 L124 18 Z" fill="url(#rt)"/>
+    <path d="M124 18 L138 10 V152 L124 162 Z" fill="url(#rt)"/>
+    <rect x="50" y="18" width="74" height="144"/>
+    <!-- grilla de ventanas -->
+    <rect x="58" y="28" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="80" y="28" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="102" y="28" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="58" y="48" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="80" y="48" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="102" y="48" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="58" y="68" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="80" y="68" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="102" y="68" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="58" y="88" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="80" y="88" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="102" y="88" width="14" height="12" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <use href="#cara" transform="translate(87 114) scale(0.62)"/>
+    <!-- entrada: alero y puerta de vidrio doble -->
+    <path d="M64 130 H110" stroke-width="3.4"/>
+    <rect x="72" y="134" width="30" height="28" fill="url(#ra)" stroke-width="2.6"/>
+    <path d="M87 134 V162" stroke-width="2.2"/>
+    <!-- oficinista con maletín que llega -->
+    <path d="M158 98 C 148 108, 144 136, 144 162 L192 162 C 192 136, 188 108, 178 98 Z" fill="#1F3B33"/>
+    <path d="M158 98 C 148 108, 144 136, 144 162 L192 162 C 192 136, 188 108, 178 98 Z" fill="url(#rt)"/>
+    <path d="M160 99 L168 108 L176 99" fill="#1F3B33" stroke-width="2.2"/>
+    <path d="M168 106 L164.5 114 L168 126 L171.5 114 Z" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M155 108 C 147 118, 145 128, 147 138"/>
+    <circle cx="147.5" cy="141.5" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M186 108 C 194 118, 196 128, 195 137"/>
+    <path d="M189 146 C 189 139, 201 139, 201 146" stroke="#E8B84B" stroke-width="2.6"/>
+    <rect x="182" y="146" width="26" height="17" rx="3" fill="#1F3B33"/>
+    <rect x="182" y="146" width="26" height="17" rx="3" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <circle cx="195" cy="140" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="168" cy="80" r="18" fill="#1F3B33"/>
+    <path d="M150 78 C 149 66, 157 62, 168 62 C 180 62, 187 67, 186 78 C 182 72, 176 70, 170 70 C 164 71, 158 70, 154 66 C 152 70, 151 74, 150 78 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(168 86) scale(0.6)"/>
+    <use href="#estrella" transform="translate(28 44) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(176 34) scale(0.7)"/>
+    <use href="#estrella" transform="translate(28 128) scale(0.6)"/>
+  </g>
+</svg>

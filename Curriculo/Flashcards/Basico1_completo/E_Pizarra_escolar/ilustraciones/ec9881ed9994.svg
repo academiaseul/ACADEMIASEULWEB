@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="영화" data-es="película">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 165 C 80 172, 150 172, 200 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- claqueta: tablero -->
+    <rect x="34" y="74" width="90" height="80" rx="5" fill="#1F3B33"/>
+    <rect x="34" y="74" width="90" height="80" rx="5" fill="url(#rt)"/>
+    <path d="M34 138 H124 M79 138 V154" stroke-width="2" stroke-opacity="0.7"/>
+    <!-- barra fija con franjas -->
+    <rect x="34" y="62" width="90" height="12" fill="#1F3B33"/>
+    <path d="M46 62 H58 L50 74 H38 Z M70 62 H82 L74 74 H62 Z M94 62 H106 L98 74 H86 Z" fill="url(#rb)" stroke="none"/>
+    <rect x="34" y="62" width="90" height="12"/>
+    <!-- barra de arriba, abierta -->
+    <g transform="rotate(-22 34 62)">
+      <rect x="34" y="50" width="90" height="12" fill="#1F3B33"/>
+      <path d="M50 50 H62 L54 62 H42 Z M74 50 H86 L78 62 H66 Z M98 50 H110 L102 62 H90 Z" fill="url(#rb)" stroke="none"/>
+      <rect x="34" y="50" width="90" height="12"/>
+    </g>
+    <circle cx="36" cy="62" r="3" fill="#F3F0E4" stroke="none"/>
+    <use href="#cara" transform="translate(79 108) scale(0.9)"/>
+    <!-- caja de cabritas (palomitas) con franjas doradas -->
+    <path d="M132 100 C 126 92, 132 82, 142 84 C 144 74, 158 72, 162 80 C 168 72, 184 74, 184 86 C 194 86, 198 98, 192 100 Z" fill="#1F3B33"/>
+    <path d="M132 100 C 126 92, 132 82, 142 84 C 144 74, 158 72, 162 80 C 168 72, 184 74, 184 86 C 194 86, 198 98, 192 100 Z" fill="url(#rb)" stroke-width="2.6"/>
+    <path d="M134 100 L190 100 L182 160 L142 160 Z" fill="#1F3B33"/>
+    <path d="M134 100 L190 100 L182 160 L142 160 Z" fill="url(#rt)" stroke="none"/>
+    <path d="M145 100 H156 L158 160 H150 Z M168 100 H179 L174 160 H166 Z" fill="url(#rd)" stroke="none"/>
+    <path d="M145 100 L150 160 M156 100 L158 160 M168 100 L166 160 M179 100 L174 160" stroke="#E8B84B" stroke-width="2"/>
+    <path d="M134 100 L190 100 L182 160 L142 160 Z"/>
+    <!-- cabritas que saltan -->
+    <path d="M142 62 A 5 5 0 0 1 147 53 A 5 5 0 0 1 156 55 A 5 5 0 0 1 157 64 A 5 5 0 0 1 149 67 A 5 5 0 0 1 142 62 Z" fill="url(#rb)" stroke-width="2.2"/>
+    <g transform="translate(44 6)"><path d="M142 62 A 5 5 0 0 1 147 53 A 5 5 0 0 1 156 55 A 5 5 0 0 1 157 64 A 5 5 0 0 1 149 67 A 5 5 0 0 1 142 62 Z" fill="url(#rb)" stroke-width="2.2"/></g>
+    <use href="#estrella" transform="translate(22 34) scale(0.7)"/>
+    <use href="#estrella-b" transform="translate(172 34) scale(0.6)"/>
+    <use href="#estrella" transform="translate(22 128) scale(0.6)"/>
+  </g>
+</svg>

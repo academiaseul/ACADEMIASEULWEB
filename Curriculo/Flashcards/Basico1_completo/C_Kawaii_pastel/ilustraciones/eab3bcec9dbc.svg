@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 과일 · fruta (canasta: uvas, manzana verde, plátano, pera coreana) -->
+  <use href="#kw-brillo" transform="translate(32 44) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 36) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(202 142) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="152" r="3" fill="#FFFFFF"/>
+  <circle cx="122" cy="46" r="2.5" fill="#CFC8FF"/>
+  <circle cx="198" cy="174" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="74" ry="7" fill="#D2CBFA"/>
+  <!-- uvas lila (atrás, izquierda) -->
+  <path d="M66 86 Q64 76 70 70" fill="none" stroke="#003478" stroke-width="7" stroke-linecap="round"/>
+  <path d="M66 86 Q64 76 70 70" fill="none" stroke="#8C6448" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="56" cy="96" r="10" fill="#B9B0F5" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="75" cy="94" r="10" fill="#B9B0F5" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="48" cy="112" r="10" fill="#B9B0F5" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="66" cy="111" r="10" fill="#B9B0F5" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="53" cy="93" r="2.6" fill="#E4E0FF"/>
+  <circle cx="72" cy="91" r="2.6" fill="#E4E0FF"/>
+  <circle cx="45" cy="109" r="2.6" fill="#E4E0FF"/>
+  <!-- plátano (atrás, derecha) -->
+  <path d="M124 120 Q188 118 182 62 Q181 55 175 60 Q170 98 124 102 Z" fill="#F6D47A" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M150 112 Q176 104 180 76" fill="none" stroke="#E2B44E" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="178" cy="58" r="3.5" fill="#8C6448" stroke="#003478" stroke-width="2"/>
+  <!-- manzana verde -->
+  <path d="M88 92 Q87 84 91 78" fill="none" stroke="#003478" stroke-width="7" stroke-linecap="round"/>
+  <path d="M88 92 Q87 84 91 78" fill="none" stroke="#8C6448" stroke-width="3" stroke-linecap="round"/>
+  <path d="M90 83 Q99 72 111 75 Q103 87 90 83 Z" fill="#6CC7A4" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M88 92 Q76 84 66 90 Q56 98 58 112 Q60 128 74 134 Q82 138 88 134 Q94 138 102 134 Q116 128 118 112 Q120 98 110 90 Q100 84 88 92 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <ellipse cx="72" cy="102" rx="7" ry="4" transform="rotate(-35 72 102)" fill="#D6F4DD"/>
+  <!-- pera coreana (배) -->
+  <path d="M140 80 Q139 72 143 66" fill="none" stroke="#003478" stroke-width="7" stroke-linecap="round"/>
+  <path d="M140 80 Q139 72 143 66" fill="none" stroke="#8C6448" stroke-width="3" stroke-linecap="round"/>
+  <path d="M140 80 Q132 80 132 92 Q132 100 126 108 Q118 120 124 130 Q131 140 140 140 Q149 140 156 130 Q162 120 154 108 Q148 100 148 92 Q148 80 140 80 Z" fill="#F0DA9C" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <ellipse cx="131" cy="114" rx="3.5" ry="7" transform="rotate(20 131 114)" fill="#FFF3CC"/>
+  <circle cx="141" cy="100" r="1.8" fill="#E2B271"/>
+  <circle cx="148" cy="114" r="1.8" fill="#E2B271"/>
+  <circle cx="139" cy="120" r="1.8" fill="#E2B271"/>
+  <!-- canasta de mimbre: cuerpo, sombra, borde trenzado, cara -->
+  <path d="M48 128 L172 128 L162 172 Q160 182 150 182 L70 182 Q60 182 58 172 Z" fill="#D9A462"/>
+  <path d="M56.6 166 Q66 160 76 166 T96 166 T116 166 T136 166 T156 166 Q160 164 163.4 166 L162 172 Q160 182 150 182 L70 182 Q60 182 58 172 Z" fill="#C99A5E"/>
+  <path d="M48 128 L172 128 L162 172 Q160 182 150 182 L70 182 Q60 182 58 172 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="40" y="116" width="140" height="18" rx="9" fill="#C99A5E" stroke="#003478" stroke-width="3"/>
+  <path d="M54 121 L59 129 M66 121 L71 129 M78 121 L83 129 M90 121 L95 129 M102 121 L107 129 M114 121 L119 129 M126 121 L131 129 M138 121 L143 129 M150 121 L155 129 M162 121 L167 129" fill="none" stroke="#E9C48E" stroke-width="2.6" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(110 150) scale(0.9)"/>
+</svg>

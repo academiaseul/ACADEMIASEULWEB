@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 책상 · escritorio -->
+  <use href="#kw-brillo" transform="translate(178 38) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(40 44) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(200 128) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="128" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="72" r="2.5" fill="#E8B84B"/>
+  <circle cx="198" cy="164" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="78" ry="7" fill="#D2CBFA"/>
+  <!-- patas traseras, cuerpo con cajón y patas delanteras -->
+  <rect x="60" y="140" width="10" height="36" rx="4" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <rect x="150" y="140" width="10" height="36" rx="4" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <rect x="50" y="100" width="120" height="46" rx="4" fill="#E7B46E" stroke="#003478" stroke-width="3"/>
+  <rect x="62" y="110" width="96" height="30" rx="7" fill="#F0DA9C" stroke="#003478" stroke-width="2.6"/>
+  <circle cx="74" cy="125" r="4.5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="146" cy="125" r="4.5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <rect x="38" y="100" width="13" height="84" rx="5" fill="#C99A5E" stroke="#003478" stroke-width="3"/>
+  <rect x="169" y="100" width="13" height="84" rx="5" fill="#C99A5E" stroke="#003478" stroke-width="3"/>
+  <!-- cubierta en perspectiva -->
+  <path d="M50 74 L170 74 L186 94 L34 94 Z" fill="#E9C48E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="34" y="94" width="152" height="10" rx="3" fill="#D9A462" stroke="#003478" stroke-width="3"/>
+  <!-- cuaderno cerrado sobre la cubierta -->
+  <path d="M124 90 L170 90 L170 93 L120 93 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M128 76 L162 76 L170 90 L120 90 Z" fill="#7FD0B0" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M138 82 L156 82" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M136 73 L135 79 M144 73 L143 79 M152 73 L151 79" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- lámpara de escritorio -->
+  <path d="M68 84 L58 56 L86 38" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M68 84 L58 56 L86 38" fill="none" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="68" cy="85" rx="16" ry="5" fill="#4236F6" stroke="#003478" stroke-width="2.6"/>
+  <circle cx="58" cy="56" r="5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <g transform="translate(100 42) rotate(-30)">
+    <circle cx="0" cy="11" r="6.5" fill="#FFF3CC" stroke="#003478" stroke-width="2.2"/>
+    <path d="M-19 10 Q-19 -16 0 -16 Q19 -16 19 10 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="-8" cy="-7" rx="5" ry="2.6" fill="#8FB6FF" transform="rotate(-30 -8 -7)"/>
+  </g>
+  <path d="M116 62 L122 68 M108 66 L111 73" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(110 119) scale(0.8)"/>
+</svg>

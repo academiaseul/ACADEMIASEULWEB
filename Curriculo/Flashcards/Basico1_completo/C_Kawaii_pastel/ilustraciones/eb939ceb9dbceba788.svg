@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 드라마 · serie, K-drama — tele con una pareja que se mira (destello entre los dos) y caja de pañuelos al lado -->
+  <use href="#kw-brillo" transform="translate(190 44) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(22 118) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(176 90) scale(5.5)" fill="#FFFFFF"/>
+  <circle cx="206" cy="122" r="3" fill="#FFFFFF"/>
+  <circle cx="24" cy="164" r="2.5" fill="#FFFFFF"/>
+  <circle cx="94" cy="26" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="114" cy="188" rx="84" ry="7" fill="#8FB4EE"/>
+  <!-- antenas y patas de la tele -->
+  <path d="M72 46 L58 26 M116 46 L130 26" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="58" cy="26" r="4" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+  <circle cx="130" cy="26" r="4" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+  <path d="M62 150 L56 180 M126 150 L132 180" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round"/>
+  <path d="M62 150 L56 180 M126 150 L132 180" fill="none" stroke="#C99A5E" stroke-width="4" stroke-linecap="round"/>
+  <!-- tele -->
+  <rect x="36" y="46" width="116" height="104" rx="14" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <rect x="46" y="56" width="96" height="76" rx="8" fill="#C9DBFF" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="118" cy="141" r="3.2" fill="#E8B84B" stroke="#003478" stroke-width="1.8"/>
+  <circle cx="129" cy="141" r="3.2" fill="#E8B84B" stroke="#003478" stroke-width="1.8"/>
+  <!-- en pantalla: dos personajes que se miran -->
+  <path d="M54 131 Q54 116 72 116 Q90 116 90 131 Z" fill="#7FD0B0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M98 131 Q98 116 116 116 Q134 116 134 131 Z" fill="#F6D47A" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M100 98 Q99 79 116 79 Q133 79 133 98 L135 120 Q129 125 124 119 L110 119 Q104 125 98 120 Z" fill="#8C6448" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="72" cy="100" r="17" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="116" cy="100" r="17" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <path d="M55 99 Q54 82 72 82 Q90 82 89 96 Q80 89 70 92 Q61 92 55 99 Z" fill="#3B4566" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M133 99 Q134 82 116 82 Q98 82 99 96 Q108 89 118 92 Q127 92 133 99 Z" fill="#8C6448" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M65 109 a3.5 2.3 0 1 0 7 0 a3.5 2.3 0 1 0 -7 0 M83 109 a3.5 2.3 0 1 0 7 0 a3.5 2.3 0 1 0 -7 0 M98 109 a3.5 2.3 0 1 0 7 0 a3.5 2.3 0 1 0 -7 0 M116 109 a3.5 2.3 0 1 0 7 0 a3.5 2.3 0 1 0 -7 0" fill="#FFCBA0"/>
+  <path d="M71 102 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0 M81.6 102 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0 M100 102 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0 M110.6 102 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0" fill="#003478"/>
+  <path d="M75.5 100.4 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0 M86.1 100.4 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0 M104.5 100.4 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0 M115.1 100.4 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0" fill="#FFFFFF"/>
+  <path d="M77 110 Q80 113 83 110 M105 110 Q108 113 111 110" fill="none" stroke="#003478" stroke-width="1.8" stroke-linecap="round"/>
+  <use href="#kw-brillo" transform="translate(94 76) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(84 66) scale(3)" fill="#FFFFFF"/>
+  <!-- caja de pañuelos con un pañuelo asomado -->
+  <path d="M160 134 Q156 116 170 110 Q177 103 183 112 Q192 116 185 134 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M150 130 L194 130 L198 140 L146 140 Z" fill="#E4E0FF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <rect x="146" y="140" width="52" height="42" rx="6" fill="#CFC8FF" stroke="#003478" stroke-width="3"/>
+  <ellipse cx="160" cy="167" rx="4.5" ry="3" fill="#FFCBA0"/>
+  <ellipse cx="184" cy="167" rx="4.5" ry="3" fill="#FFCBA0"/>
+  <use href="#kw-cara-chica" transform="translate(172 158) scale(0.8)"/>
+</svg>

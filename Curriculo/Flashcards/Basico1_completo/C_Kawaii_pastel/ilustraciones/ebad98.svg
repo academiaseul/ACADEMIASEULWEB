@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 뭘 · qué (objeto) — globo con ? + estrella "lo que te gusta" (sin corazón: la guía no los usa) -->
+  <use href="#kw-brillo" transform="translate(188 44) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(30 168) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(198 98) scale(5.5)" fill="#FFFFFF"/>
+  <circle cx="24" cy="74" r="3" fill="#FFFFFF"/>
+  <circle cx="86" cy="172" r="2.5" fill="#E8B84B"/>
+  <circle cx="204" cy="166" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="124" cy="188" rx="62" ry="7" fill="#ADA1F0"/>
+  <!-- globo de diálogo: relleno, sombra ondulada, contorno -->
+  <path d="M64 26 L140 26 Q160 26 160 46 L160 100 Q160 120 140 120 L94 120 L64 146 L72 120 L64 120 Q44 120 44 100 L44 46 Q44 26 64 26 Z" fill="#FFFFFF"/>
+  <path d="M44 100 Q57 93 70 100 T96 100 T122 100 T148 100 L160 100 Q160 120 140 120 L94 120 L64 146 L72 120 L64 120 Q44 120 44 100 Z" fill="#E4E0FF"/>
+  <path d="M64 26 L140 26 Q160 26 160 46 L160 100 Q160 120 140 120 L94 120 L64 146 L72 120 L64 120 Q44 120 44 100 L44 46 Q44 26 64 26 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M56 50 Q58 36 70 34" fill="none" stroke="#E4E0FF" stroke-width="4" stroke-linecap="round"/>
+  <!-- signo ? azul de marca (trazo doble) -->
+  <path d="M84 58 Q84 40 102 40 Q120 40 120 55 Q120 65 110 69 Q103 72 103 78" fill="none" stroke="#003478" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M84 58 Q84 40 102 40 Q120 40 120 55 Q120 65 110 69 Q103 72 103 78" fill="none" stroke="#4236F6" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="103" cy="96" r="8" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <!-- estrella dorada gordita (puntas redondeadas: contorno ancho + relleno ancho encima) -->
+  <path d="M148 116 L158.6 135.4 L180.3 139.5 L165.1 155.6 L168 177.5 L148 168 L128 177.5 L130.9 155.6 L115.7 139.5 L137.4 135.4 Z" fill="#F6D47A" stroke="#003478" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M148 116 L158.6 135.4 L180.3 139.5 L165.1 155.6 L168 177.5 L148 168 L128 177.5 L130.9 155.6 L115.7 139.5 L137.4 135.4 Z" fill="#F6D47A" stroke="#F6D47A" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="137" cy="140" rx="3.5" ry="7" transform="rotate(-35 137 140)" fill="#FFF3CC"/>
+  <use href="#kw-cara-feliz" transform="translate(148 151) scale(0.75)"/>
+</svg>

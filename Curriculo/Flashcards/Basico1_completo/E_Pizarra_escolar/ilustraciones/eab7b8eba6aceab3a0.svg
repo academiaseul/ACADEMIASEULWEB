@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="그리고" data-es="y (entre dos frases)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- frase 1: globo con una taza de café -->
+    <path d="M26 64 H66 C 74 64, 80 70, 80 78 V114 C 80 122, 74 128, 66 128 H42 L26 144 L30 128 H26 C 18 128, 12 122, 12 114 V78 C 12 70, 18 64, 26 64 Z" fill="#1F3B33"/>
+    <path d="M30 92 H54 V110 C 54 116, 50 120, 44 120 H40 C 34 120, 30 116, 30 110 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <path d="M54 96 C 63 96, 63 108, 54 108" stroke-width="2.6"/>
+    <path d="M37 86 C 34 82, 40 78, 37 72 M47 86 C 44 82, 50 78, 47 72" stroke-width="2.2" stroke-opacity="0.85"/>
+    <!-- frase 2: globo con un libro abierto -->
+    <path d="M154 64 H194 C 202 64, 208 70, 208 78 V114 C 208 122, 202 128, 194 128 H190 L194 144 L178 128 H154 C 146 128, 140 122, 140 114 V78 C 140 70, 146 64, 154 64 Z" fill="#1F3B33"/>
+    <path d="M174 86 C 166 82, 158 82, 150 84 V112 C 158 110, 166 110, 174 114 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <path d="M174 86 C 182 82, 190 82, 198 84 V112 C 190 110, 182 110, 174 114 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <path d="M174 86 V114" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- el signo "+" dorado que une las dos frases -->
+    <path d="M95 75 C 95 72, 97 71, 100 71 H120 C 123 71, 125 72, 125 75 V82 H132 C 135 82, 136 84, 136 87 V107 C 136 110, 135 112, 132 112 H125 V119 C 125 122, 123 123, 120 123 H100 C 97 123, 95 122, 95 119 V112 H88 C 85 112, 84 110, 84 107 V87 C 84 84, 85 82, 88 82 H95 Z" fill="#1F3B33" stroke="#E8B84B" stroke-width="3.4"/>
+    <path d="M99 76 H112 M89 87 V96 M131 100 V107 M100 118 H114" stroke="#E8B84B" stroke-width="2" stroke-opacity="0.7"/>
+    <use href="#cara-feliz" transform="translate(110 92) scale(0.62)"/>
+    <use href="#estrella" transform="translate(40 32) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(110 36) scale(0.65)"/>
+    <use href="#estrella" transform="translate(180 32) scale(0.8)"/>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 거기 · ahí -->
+  <use href="#kw-brillo" transform="translate(34 50) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(110 52) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 52) scale(6)" fill="#FFFFFF"/>
+  <circle cx="110" cy="96" r="3" fill="#FFFFFF"/>
+  <circle cx="20" cy="104" r="2.5" fill="#E8B84B"/>
+  <circle cx="206" cy="100" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="82" ry="7" fill="#ADA1F0"/>
+  <!-- "ahí": punto dorado con el celular, junto a quien escucha -->
+  <ellipse cx="128" cy="185" rx="18" ry="5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <rect x="120" y="155" width="16" height="28" rx="4.5" fill="#7A70FF" stroke="#003478" stroke-width="2.4"/>
+  <rect x="123.5" y="159.5" width="9" height="17" rx="2" fill="#B5DDFB" stroke="#003478" stroke-width="1.6"/>
+  <path d="M126 168 L130 163" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- quien escucha (polera menta), a la derecha -->
+  <g transform="matrix(0.6 0 0 0.6 94 74.4)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.4"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="4.4"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#7FD0B0" stroke="#003478" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M84 132 Q68 150 78 168 M136 132 Q152 150 142 168" fill="none" stroke="#003478" stroke-width="21.6" stroke-linecap="round"/>
+    <path d="M84 132 Q68 150 78 168 M136 132 Q152 150 142 168" fill="none" stroke="#7FD0B0" stroke-width="11.6" stroke-linecap="round"/>
+    <circle cx="78" cy="170" r="7.5" fill="#C98F5E" stroke="#003478" stroke-width="4"/>
+    <circle cx="142" cy="170" r="7.5" fill="#C98F5E" stroke="#003478" stroke-width="4"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#C98F5E" stroke="#003478" stroke-width="5"/>
+    <path d="M63 86 Q56 36 110 36 Q164 38 157 86 Q152 64 132 56 Q104 66 80 62 Q68 70 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M80 50 Q92 43 104 43" fill="none" stroke="#6E7591" stroke-width="5.6" stroke-linecap="round"/>
+    <ellipse cx="82" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <ellipse cx="138" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <use href="#kw-cara-chica" transform="translate(110 98) scale(1.1)"/>
+  </g>
+  <!-- quien habla (uniforme azul): señala lo que está junto al otro -->
+  <g transform="matrix(0.6 0 0 0.6 -8 74.4)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.4"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="4.4"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M84 132 Q68 150 78 168" fill="none" stroke="#003478" stroke-width="21.6" stroke-linecap="round"/>
+    <path d="M84 132 Q68 150 78 168" fill="none" stroke="#4236F6" stroke-width="11.6" stroke-linecap="round"/>
+    <circle cx="78" cy="170" r="7.5" fill="#FFE4C8" stroke="#003478" stroke-width="4"/>
+    <path d="M136 132 Q160 142 178 152" fill="none" stroke="#003478" stroke-width="21.6" stroke-linecap="round"/>
+    <path d="M136 132 Q160 142 178 152" fill="none" stroke="#4236F6" stroke-width="11.6" stroke-linecap="round"/>
+    <path d="M188 157 L201 164" fill="none" stroke="#003478" stroke-width="13.5" stroke-linecap="round"/>
+    <path d="M188 157 L201 164" fill="none" stroke="#FFE4C8" stroke-width="7.3" stroke-linecap="round"/>
+    <circle cx="183" cy="154" r="9.5" fill="#FFE4C8" stroke="#003478" stroke-width="4"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="5"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="5.8" stroke-linecap="round"/>
+    <use href="#kw-cara" transform="translate(110 98) scale(1.1)"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 화이팅 · ¡ánimo!, ¡tú puedes! -->
+  <use href="#kw-brillo" transform="translate(30 50) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(204 30) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 150) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="114" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="112" r="2.5" fill="#CFC8FF"/>
+  <circle cx="34" cy="168" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <!-- personaje base: piernas, zapatos, uniforme azul -->
+  <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- mano en la cintura -->
+  <path d="M84 132 Q62 146 80 160" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M84 132 Q62 146 80 160" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="83" cy="160" r="6" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <!-- brazo en alto con el puño cerrado -->
+  <path d="M136 132 Q176 126 174 78" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M136 132 Q176 126 174 78" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <rect x="161" y="52" width="26" height="25" rx="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <path d="M168 53 L168 61 M174 52.5 L174 61 M180 53 L180 61 M164 67 Q174 62 184 67" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+  <!-- cabeza -->
+  <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+  <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- cinta 머리띠 blanca con nudo al costado -->
+  <path d="M63 79 Q50 64 40 70 Q44 81 62 84 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M62 84 Q46 88 42 99 Q55 99 64 88 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M61 76 Q110 32 159 76 L158 86 Q110 44 62 86 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <circle cx="110" cy="60" r="4.5" fill="#4236F6" stroke="#003478" stroke-width="2"/>
+  <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <use href="#kw-cara-feliz" transform="translate(110 99)"/>
+  <!-- chispas de energía alrededor del puño -->
+  <path d="M174 44 L174 36 M157 51 L151 45 M191 51 L197 45 M194 68 L202 68" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+  <use href="#kw-brillo" transform="translate(146 30) scale(7)" fill="#E8B84B"/>
+</svg>

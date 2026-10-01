@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="전화번호" data-es="número de teléfono">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 166 C 92 172, 150 172, 188 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <g transform="rotate(-5 110 88)">
+      <!-- cuerpo del teléfono -->
+      <rect x="70" y="12" width="80" height="150" rx="14" fill="#1F3B33"/>
+      <rect x="70" y="12" width="80" height="150" rx="14" fill="url(#rt)"/>
+      <path d="M102 18 H118" stroke-width="2.4"/>
+      <!-- pantalla con el teclado de marcar -->
+      <rect x="78" y="24" width="64" height="114" rx="6" fill="#1F3B33" stroke="none"/>
+      <rect x="78" y="24" width="64" height="114" rx="6" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.4"/>
+      <!-- el número marcado arriba: puntos y un guion, sin cifras -->
+      <rect x="82" y="30" width="56" height="18" rx="4" fill="#1F3B33" stroke-width="2.2"/>
+      <circle cx="87.5" cy="39" r="2" fill="#F3F0E4" stroke="none"/>
+      <circle cx="94" cy="39" r="2" fill="#F3F0E4" stroke="none"/>
+      <circle cx="100.5" cy="39" r="2" fill="#F3F0E4" stroke="none"/>
+      <path d="M105 39 H109" stroke-width="2.2"/>
+      <circle cx="113.5" cy="39" r="2" fill="#F3F0E4" stroke="none"/>
+      <circle cx="120" cy="39" r="2" fill="#F3F0E4" stroke="none"/>
+      <circle cx="126.5" cy="39" r="2" fill="#F3F0E4" stroke="none"/>
+      <circle cx="133" cy="39" r="2" fill="#F3F0E4" stroke="none"/>
+      <!-- teclas 3 × 4; la del centro, dorada, recién apretada -->
+      <circle cx="94" cy="60" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="110" cy="60" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="126" cy="60" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="94" cy="76" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="110" cy="76" r="6" fill="#1F3B33"/>
+      <circle cx="110" cy="76" r="6" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+      <circle cx="126" cy="76" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="94" cy="92" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="110" cy="92" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="126" cy="92" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="94" cy="108" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="110" cy="108" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <circle cx="126" cy="108" r="6" fill="#1F3B33" stroke-width="2.4"/>
+      <!-- botón de llamar en menta, con auricular -->
+      <circle cx="110" cy="126" r="7.5" fill="#1F3B33"/>
+      <circle cx="110" cy="126" r="7.5" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.6"/>
+      <path d="M106.5 123 C 106 127, 109 130, 113.5 129.5" stroke-width="2.2"/>
+      <use href="#cara" transform="translate(110 147) scale(0.5)"/>
+    </g>
+    <!-- destellos de "marcando" -->
+    <path d="M44 72 C 38 82, 38 96, 44 106 M34 66 C 26 80, 26 98, 34 112" stroke-width="2.2" stroke-opacity="0.8"/>
+    <use href="#estrella" transform="translate(40 36) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(182 40) scale(0.65)"/>
+    <use href="#estrella" transform="translate(180 138) scale(0.6)"/>
+  </g>
+</svg>

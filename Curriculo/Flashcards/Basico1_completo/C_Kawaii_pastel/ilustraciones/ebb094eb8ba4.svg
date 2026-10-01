@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 바다 · mar -->
+  <use href="#kw-brillo" transform="translate(32 34) scale(9)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(24 94) scale(6)" fill="#CFC8FF"/>
+  <circle cx="206" cy="98" r="2.5" fill="#FFFFFF"/>
+  <circle cx="120" cy="30" r="2.5" fill="#FFFFFF"/>
+  <path d="M197.0 48.0 L204.0 48.0" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M189.7 65.7 L194.6 70.6" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M172.0 73.0 L172.0 80.0" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M154.3 65.7 L149.4 70.6" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M147.0 48.0 L140.0 48.0" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M154.3 30.3 L149.4 25.4" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M172.0 23.0 L172.0 16.0" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M189.7 30.3 L194.6 25.4" stroke="#E8B84B" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="172" cy="48" r="18" fill="#FBDD7E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M38 60 Q45 51 52 60 Q59 51 66 60" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80 44 Q85 38 90 44 Q95 38 100 44" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M152 104 L152 64" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+  <path d="M155 66 L155 100 L178 100 Z" fill="#4236F6" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M149 72 L149 100 L133 100 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M128 105 L180 105 L172 123 L136 123 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M-20 126 Q-3.75 108 12.50 126 Q28.75 108 45.00 126 Q61.25 108 77.50 126 Q93.75 108 110.00 126 Q126.25 108 142.50 126 Q158.75 108 175.00 126 Q191.25 108 207.50 126 Q223.75 108 240.00 126 L240 220 L-20 220 Z" fill="#8CCBF6"/>
+  <path d="M-20 170 Q6 160 32 170 T84 170 T136 170 T188 170 T240 170 L240 220 L-20 220 Z" fill="#6FB8EE"/>
+  <path d="M-11.75 127 Q-3.75 117 4.25 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M20.75 127 Q28.75 117 36.75 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M53.25 127 Q61.25 117 69.25 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M85.75 127 Q93.75 117 101.75 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M118.25 127 Q126.25 117 134.25 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M150.75 127 Q158.75 117 166.75 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M183.25 127 Q191.25 117 199.25 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M215.75 127 Q223.75 117 231.75 127" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M14 188 Q24 182 34 188 T54 188" fill="none" stroke="#B5DDFB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M164 190 Q174 184 184 190 T204 190" fill="none" stroke="#B5DDFB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M-20 126 Q-3.75 108 12.50 126 Q28.75 108 45.00 126 Q61.25 108 77.50 126 Q93.75 108 110.00 126 Q126.25 108 142.50 126 Q158.75 108 175.00 126 Q191.25 108 207.50 126 Q223.75 108 240.00 126" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <use href="#kw-cara" transform="translate(110 146)"/>
+</svg>

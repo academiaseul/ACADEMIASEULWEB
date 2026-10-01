@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 나무 · árbol -->
+  <use href="#kw-brillo" transform="translate(30 38) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 36) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(198 140) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="104" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="92" r="2.5" fill="#FFFFFF"/>
+  <circle cx="34" cy="160" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="66" ry="8" fill="#D2CBFA"/>
+  <path d="M97 118 L123 118 Q122 158 134 178 Q137 186 129 186 L91 186 Q83 186 86 178 Q98 158 97 118 Z" fill="#E9C48E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M110 150 Q115 160 112 172" fill="none" stroke="#C99A5E" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M62 186 L65 175 L69 184 L73 173 L76 186 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M146 186 L149 176 L153 184 L157 174 L160 186 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="110" cy="72" r="42" fill="#003478" stroke="#003478" stroke-width="6"/>
+  <circle cx="72" cy="92" r="30" fill="#003478" stroke="#003478" stroke-width="6"/>
+  <circle cx="148" cy="92" r="30" fill="#003478" stroke="#003478" stroke-width="6"/>
+  <circle cx="84" cy="56" r="26" fill="#003478" stroke="#003478" stroke-width="6"/>
+  <circle cx="136" cy="56" r="26" fill="#003478" stroke="#003478" stroke-width="6"/>
+  <circle cx="88" cy="122" r="24" fill="#003478" stroke="#003478" stroke-width="6"/>
+  <circle cx="132" cy="122" r="24" fill="#003478" stroke="#003478" stroke-width="6"/>
+  <circle cx="110" cy="108" r="34" fill="#003478" stroke="#003478" stroke-width="6"/>
+  <circle cx="110" cy="72" r="42" fill="#A6E1B4" />
+  <circle cx="72" cy="92" r="30" fill="#A6E1B4" />
+  <circle cx="148" cy="92" r="30" fill="#A6E1B4" />
+  <circle cx="84" cy="56" r="26" fill="#A6E1B4" />
+  <circle cx="136" cy="56" r="26" fill="#A6E1B4" />
+  <circle cx="88" cy="122" r="24" fill="#A6E1B4" />
+  <circle cx="132" cy="122" r="24" fill="#A6E1B4" />
+  <circle cx="110" cy="108" r="34" fill="#A6E1B4" />
+  <ellipse cx="74" cy="66" rx="11" ry="6.5" fill="#D6F4DD" transform="rotate(-35 74 66)"/>
+  <circle cx="92" cy="42" r="4" fill="#D6F4DD"/>
+  <circle cx="58" cy="104" r="5.5" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+  <circle cx="160" cy="78" r="5.5" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+  <circle cx="130" cy="38" r="5" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+  <use href="#kw-cara" transform="translate(110 96)"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="감사합니다" data-es="gracias">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 88 172, 150 172, 192 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- pies y falda (quedan derechos) -->
+    <path d="M88 163 C 88 155, 102 155, 102 163 Z" fill="#1F3B33"/>
+    <path d="M110 163 C 110 155, 124 155, 124 163 Z" fill="#1F3B33"/>
+    <path d="M88 118 C 82 132, 78 146, 76 156 L 136 156 C 134 146, 130 132, 124 118 Z" fill="#1F3B33"/>
+    <path d="M88 118 C 82 132, 78 146, 76 156 L 136 156 C 134 146, 130 132, 124 118 Z" fill="url(#rt)"/>
+    <path d="M80 146 C 96 150, 116 150, 133 146" stroke-width="1.8" stroke-opacity="0.7"/>
+    <!-- tronco, manos juntas y cabeza: venia profunda -->
+    <g transform="rotate(20 106 122)">
+      <path d="M80 62 C 76 82, 80 92, 86 96 L 126 96 C 132 92, 136 82, 132 62 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <path d="M90 126 C 86 108, 88 98, 94 92 L 118 92 C 124 98, 126 108, 122 126 Z" fill="#1F3B33"/>
+      <path d="M90 126 C 86 108, 88 98, 94 92 L 118 92 C 124 98, 126 108, 122 126 Z" fill="url(#rt)"/>
+      <path d="M98 93 Q106 101 114 93" stroke-width="2.2"/>
+      <path d="M94 98 C 86 108, 92 118, 101 120 M118 98 C 126 108, 120 118, 111 120"/>
+      <circle cx="103" cy="120" r="3.8" fill="#F3F0E4" stroke="none"/>
+      <circle cx="109" cy="120" r="3.8" fill="#F3F0E4" stroke="none"/>
+      <circle cx="106" cy="64" r="26" fill="#1F3B33"/>
+      <path d="M80 64 C 82 46, 94 38, 106 38 C 120 38, 132 46, 132 64 C 122 60, 112 54, 106 46 C 100 54, 90 60, 80 64 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <use href="#cara-feliz" transform="translate(106 72) scale(0.72)"/>
+    </g>
+    <!-- corazones de gratitud y adornos -->
+    <use href="#corazon" transform="translate(170 40)"/>
+    <use href="#corazon" transform="translate(190 72) scale(0.7)"/>
+    <use href="#estrella" transform="translate(40 40) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(40 130) scale(0.6)"/>
+    <use href="#estrella" transform="translate(184 130) scale(0.65)"/>
+  </g>
+</svg>

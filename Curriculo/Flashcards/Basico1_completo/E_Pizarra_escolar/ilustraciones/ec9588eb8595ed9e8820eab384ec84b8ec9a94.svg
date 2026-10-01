@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="안녕히 계세요" data-es="adiós (a quien se queda)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 165 C 70 172, 150 172, 206 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- silla -->
+    <rect x="22" y="80" width="10" height="54" rx="3" fill="url(#rt)"/>
+    <path d="M26 134 V 162 M80 134 V 162"/>
+    <rect x="22" y="128" width="64" height="7" rx="2" fill="url(#rt)"/>
+    <!-- quien se queda: sentado, despide con la mano -->
+    <path d="M46 120 H 88 C 94 120, 96 126, 96 132 V 158 H 84 V 134 H 46 Z" fill="#1F3B33"/>
+    <path d="M46 120 H 88 C 94 120, 96 126, 96 132 V 158 H 84 V 134 H 46 Z" fill="url(#rt)"/>
+    <path d="M80 162 C 80 156, 100 155, 102 162 Z" fill="#1F3B33"/>
+    <path d="M40 92 C 34 104, 32 118, 34 132 L 76 132 C 78 118, 76 104, 70 92 Z" fill="#1F3B33"/>
+    <path d="M40 92 C 34 104, 32 118, 34 132 L 76 132 C 78 118, 76 104, 70 92 Z" fill="url(#rt)"/>
+    <path d="M42 100 C 38 112, 44 122, 56 124"/>
+    <circle cx="59" cy="124" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M68 98 C 78 92, 84 82, 86 70"/>
+    <circle cx="86" cy="66" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M94 60 Q98 66 94 72 M100 56 Q106 66 100 76" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="55" cy="70" r="22" fill="#1F3B33"/>
+    <path d="M33 70 C 32 54, 42 46, 55 46 C 68 46, 78 54, 77 70 C 70 64, 62 60, 56 57 C 50 62, 41 66, 33 70 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(55 78) scale(0.66)"/>
+    <!-- puerta de salida: marco, hueco y hoja abierta hacia afuera -->
+    <rect x="140" y="40" width="56" height="122" rx="2" fill="url(#rt)"/>
+    <rect x="146" y="46" width="44" height="116" rx="1" fill="#1F3B33" stroke-width="2.2"/>
+    <path d="M196 40 L 208 32 L 208 168 L 196 162 Z" fill="url(#rt)" stroke-width="2.2"/>
+    <circle cx="204" cy="104" r="2" fill="#E8B84B" stroke="none"/>
+    <!-- quien se va: sale por la puerta y mira atrás para despedirse -->
+    <path d="M162 134 L 158 158 M174 134 L 182 156" stroke-width="3.4"/>
+    <ellipse cx="156" cy="160" rx="6" ry="3.2" fill="#1F3B33"/>
+    <ellipse cx="184" cy="158" rx="6" ry="3.2" fill="#1F3B33"/>
+    <path d="M159 96 C 153 108, 151 124, 151 136 L 185 136 C 185 124, 183 108, 177 96 Z" fill="#1F3B33"/>
+    <path d="M159 96 C 153 108, 151 124, 151 136 L 185 136 C 185 124, 183 108, 177 96 Z" fill="url(#rt)"/>
+    <path d="M180 104 C 186 112, 188 122, 186 130"/>
+    <circle cx="186" cy="133" r="3.4" fill="#F3F0E4" stroke="none"/>
+    <path d="M156 104 C 146 98, 140 88, 138 76"/>
+    <circle cx="138" cy="72" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M130 66 Q126 72 130 78 M124 62 Q118 72 124 82" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="168" cy="80" r="18" fill="#1F3B33"/>
+    <path d="M150 80 C 149 66, 157 60, 168 60 C 180 60, 187 66, 186 80 C 180 75, 173 72, 166 71 C 161 73, 155 76, 150 80 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(168 87) scale(0.6)"/>
+    <!-- flecha dorada: sale hacia afuera -->
+    <path d="M146 24 H 190 M180 14 L 190 24 L 180 34" stroke="#E8B84B" stroke-width="3.4"/>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(24 28) scale(0.7)"/>
+    <use href="#estrella-b" transform="translate(112 32) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(116 140) scale(0.6)"/>
+  </g>
+</svg>

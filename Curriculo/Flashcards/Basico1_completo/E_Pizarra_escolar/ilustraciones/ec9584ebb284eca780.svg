@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="아버지" data-es="padre">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 88 172, 150 172, 194 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo de hombros anchos: camisa -->
+    <path d="M84 110 C 66 120, 60 144, 58 162 L162 162 C 160 144, 154 120, 136 110 Z" fill="#1F3B33"/>
+    <path d="M84 110 C 66 120, 60 144, 58 162 L162 162 C 160 144, 154 120, 136 110 Z" fill="url(#rt)"/>
+    <!-- cuello de la camisa -->
+    <path d="M97 110 L104 124 L110 114 L116 124 L123 110" fill="#1F3B33" stroke-width="2.4"/>
+    <!-- corbata dorada -->
+    <path d="M110 115 L104 121 L110 127 L116 121 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M106 127 L102 150 L110 158 L118 150 L114 127 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M106 127 L102 150 L110 158 L118 150 L114 127 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- brazos: uno abajo, el otro saluda -->
+    <path d="M82 118 C 70 128, 64 142, 66 152"/>
+    <circle cx="66" cy="155" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M138 118 C 152 112, 160 100, 164 88"/>
+    <circle cx="165" cy="84" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza, pelo corto con raya al lado -->
+    <circle cx="110" cy="70" r="31" fill="#1F3B33"/>
+    <path d="M79 68 C 78 48, 92 38, 110 38 C 128 38, 142 48, 141 68 C 138 60, 134 54, 128 52 C 118 55, 102 53, 94 46 C 90 54, 84 60, 79 68 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(110 75) scale(0.9)"/>
+    <!-- bigote -->
+    <path d="M110 80.5 C 105 77.5, 98 78.5, 96 83.5 C 101 84.5, 106 84, 110 82 C 114 84, 119 84.5, 124 83.5 C 122 78.5, 115 77.5, 110 80.5 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2"/>
+    <use href="#estrella" transform="translate(36 52) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(186 128) scale(0.7)"/>
+    <use href="#estrella" transform="translate(190 46) scale(0.65)"/>
+  </g>
+</svg>

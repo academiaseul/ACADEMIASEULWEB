@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 누구 · quién · Estilo A Sticker pop · silueta gris de una persona sin cara + gran signo de pregunta dorado con cara -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="64" cy="112" r="30"/>
+<path d="M18 196 C18 168 38 152 64 152 C90 152 110 168 110 196 Z"/>
+<path d="M120 74 C120 42 176 38 176 72 C176 98 148 98 148 124" fill="none" stroke-width="64"/>
+<circle cx="148" cy="166" r="15"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="64" cy="112" r="30"/>
+<path d="M18 196 C18 168 38 152 64 152 C90 152 110 168 110 196 Z"/>
+<path d="M120 74 C120 42 176 38 176 72 C176 98 148 98 148 124" fill="none" stroke-width="64"/>
+<circle cx="148" cy="166" r="15"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="64" cy="112" r="30"/>
+<path d="M18 196 C18 168 38 152 64 152 C90 152 110 168 110 196 Z"/>
+<path d="M120 74 C120 42 176 38 176 72 C176 98 148 98 148 124" fill="none" stroke-width="57"/>
+<circle cx="148" cy="166" r="15"/>
+</g>
+<!-- persona misteriosa: silueta gris, sin cara -->
+<path d="M18 196 C18 168 38 152 64 152 C90 152 110 168 110 196 Z" fill="#8A8FA8" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="64" cy="112" r="30" fill="#8A8FA8" stroke="#14142B" stroke-width="4"/>
+<path d="M44 102 Q48 90 60 86" stroke="#B3B8D6" stroke-width="5" stroke-linecap="round"/>
+<path d="M30 176 Q36 166 46 162" stroke="#B3B8D6" stroke-width="5" stroke-linecap="round"/>
+<!-- signo de pregunta dorado (trazo grueso con borde tinta) -->
+<path d="M120 74 C120 42 176 38 176 72 C176 98 148 98 148 124" stroke="#14142B" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M120 74 C120 42 176 38 176 72 C176 98 148 98 148 124" stroke="#E8B84B" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M170 64 Q172 76 166 86" stroke="#FFF4D9" stroke-width="5" stroke-linecap="round"/>
+<circle cx="148" cy="166" r="15" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M142 160 Q145 156 150 156" stroke="#FFF4D9" stroke-width="4" stroke-linecap="round"/>
+<!-- cara del signo -->
+<ellipse cx="139.88" cy="47" rx="3.77" ry="4.93" fill="#14142B"/>
+<ellipse cx="156.12" cy="47" rx="3.77" ry="4.93" fill="#14142B"/>
+<circle cx="141.16" cy="45.03" r="1.39" fill="#FFFFFF"/>
+<circle cx="157.4" cy="45.03" r="1.39" fill="#FFFFFF"/>
+<ellipse cx="132.92" cy="55.12" rx="4.06" ry="2.61" fill="#FFB98A"/>
+<ellipse cx="163.08" cy="55.12" rx="4.06" ry="2.61" fill="#FFB98A"/>
+<path d="M143.36 54.54 Q148 61.5 152.64 54.54 Z" fill="#14142B" stroke="#14142B" stroke-width="1.74" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M30 24 Q32.4 33.6 42 36 Q32.4 38.4 30 48 Q27.6 38.4 18 36 Q27.6 33.6 30 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 121 Q199.8 128.2 207 130 Q199.8 131.8 198 139 Q196.2 131.8 189 130 Q196.2 128.2 198 121 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M200 166 Q201.6 172.4 208 174 Q201.6 175.6 200 182 Q198.4 175.6 192 174 Q198.4 172.4 200 166 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="84" cy="34" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

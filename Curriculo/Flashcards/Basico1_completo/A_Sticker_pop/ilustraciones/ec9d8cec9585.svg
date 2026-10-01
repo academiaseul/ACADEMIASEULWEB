@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 음악 · música · Estilo A Sticker pop · parlante con cara del que salen notas musicales y ondas de sonido -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="66" y="44" width="88" height="150" rx="16"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="66" y="44" width="88" height="150" rx="16"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="66" y="44" width="88" height="150" rx="16"/>
+</g>
+<!-- caja dorada con filete interior -->
+<rect x="66" y="44" width="88" height="150" rx="16" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<rect x="75" y="53" width="70" height="132" rx="10" stroke="#B9861E" stroke-width="3"/>
+<!-- tweeter -->
+<circle cx="110" cy="74" r="12" fill="#003478" stroke="#14142B" stroke-width="4"/>
+<circle cx="110" cy="74" r="5.5" fill="#4236F6" stroke="#14142B" stroke-width="3"/>
+<!-- woofer -->
+<circle cx="110" cy="158" r="25" fill="#003478" stroke="#14142B" stroke-width="4"/>
+<circle cx="110" cy="158" r="17.5" fill="#4236F6" stroke="#14142B" stroke-width="3"/>
+<circle cx="110" cy="158" r="7" fill="#2A1FC7" stroke="#14142B" stroke-width="3"/>
+<path d="M98 150 Q101.5 144.5 108 143.5" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<!-- cara -->
+<ellipse cx="98.1" cy="106" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="106" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="103.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="103.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="117.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="117.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 117.05 Q110 127.25 116.8 117.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- ondas de sonido (blancas con borde tinta, como el vapor del 커피) -->
+<path d="M46 146 Q38 160 46 174" stroke="#14142B" stroke-width="11" stroke-linecap="round"/>
+<path d="M46 146 Q38 160 46 174" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M33 138 Q20 160 33 182" stroke="#14142B" stroke-width="11" stroke-linecap="round"/>
+<path d="M33 138 Q20 160 33 182" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M174 146 Q182 160 174 174" stroke="#14142B" stroke-width="11" stroke-linecap="round"/>
+<path d="M174 146 Q182 160 174 174" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M187 138 Q200 160 187 182" stroke="#14142B" stroke-width="11" stroke-linecap="round"/>
+<path d="M187 138 Q200 160 187 182" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<!-- notas musicales: corchea a la izquierda, dos corcheas unidas a la derecha -->
+<ellipse cx="26" cy="72" rx="10" ry="7.5" transform="rotate(-20 26 72)" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<path d="M35.5 69 L35.5 30 Q47 35 46 49" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="179" cy="68" rx="8.5" ry="6.5" transform="rotate(-20 179 68)" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<ellipse cx="198" cy="60" rx="8.5" ry="6.5" transform="rotate(-20 198 60)" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<path d="M187 65 L187 34 M206 57 L206 26" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M187 32 L206 24 L206 33 L187 41 Z" fill="#14142B" stroke="#14142B" stroke-width="2" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M26 102 Q28 110 36 112 Q28 114 26 122 Q24 114 16 112 Q24 110 26 102 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M24 192 Q25.6 198.4 32 200 Q25.6 201.6 24 208 Q22.4 201.6 16 200 Q22.4 198.4 24 192 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="112" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

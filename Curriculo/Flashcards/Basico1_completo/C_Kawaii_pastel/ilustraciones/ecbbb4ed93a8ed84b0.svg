@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 컴퓨터 · computador -->
+  <use href="#kw-brillo" transform="translate(26 48) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(198 30) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(198 112) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="120" r="3" fill="#E8B84B"/>
+  <circle cx="206" cy="78" r="2.5" fill="#FFFFFF"/>
+  <circle cx="28" cy="164" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="112" cy="188" rx="76" ry="7" fill="#D2CBFA"/>
+  <!-- pie del monitor -->
+  <rect x="100" y="116" width="20" height="24" rx="3" fill="#D5D9E4" stroke="#003478" stroke-width="2.6"/>
+  <path d="M80 147 Q80 138 90 138 L130 138 Q140 138 140 147 Z" fill="#D5D9E4" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <!-- cable del mouse -->
+  <path d="M170 153 Q170 140 140 143" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- monitor: marco blanco, mentón lila, contorno -->
+  <rect x="44" y="26" width="132" height="96" rx="12" fill="#FFFFFF"/>
+  <path d="M44 108 L176 108 L176 110 Q176 122 164 122 L56 122 Q44 122 44 110 Z" fill="#E4E0FF"/>
+  <rect x="44" y="26" width="132" height="96" rx="12" fill="none" stroke="#003478" stroke-width="3"/>
+  <circle cx="110" cy="115" r="2.6" fill="#4236F6"/>
+  <!-- pantalla: celeste, banda inferior, barra de ventana azul, reflejos -->
+  <rect x="54" y="36" width="112" height="66" rx="6" fill="#B5DDFB"/>
+  <path d="M54 92 Q68 86 82 92 T110 92 T138 92 T166 92 L166 96 Q166 102 160 102 L60 102 Q54 102 54 96 Z" fill="#9FD3FA"/>
+  <path d="M54 42 Q54 36 60 36 L160 36 Q166 36 166 42 L166 47 L54 47 Z" fill="#4236F6"/>
+  <path d="M61 41.5 L61 41.5 M68 41.5 L68 41.5 M75 41.5 L75 41.5" fill="none" stroke="#FFFFFF" stroke-width="4.4" stroke-linecap="round"/>
+  <path d="M144 54 L156 66 M141 64 L146 69" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <rect x="54" y="36" width="112" height="66" rx="6" fill="none" stroke="#003478" stroke-width="2.6"/>
+  <path d="M54 47 L166 47" fill="none" stroke="#003478" stroke-width="2.2"/>
+  <!-- teclado -->
+  <rect x="44" y="152" width="106" height="28" rx="7" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <path d="M54 160 L142 160" fill="none" stroke="#D5D9E4" stroke-width="5" stroke-dasharray="8 3"/>
+  <path d="M58 167 L138 167" fill="none" stroke="#D5D9E4" stroke-width="5" stroke-dasharray="8 3"/>
+  <path d="M80 174 L114 174" fill="none" stroke="#A9AFC3" stroke-width="4" stroke-linecap="round"/>
+  <!-- mouse -->
+  <ellipse cx="170" cy="168" rx="11" ry="14" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <path d="M170 155 L170 163" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(110 72) scale(0.9)"/>
+</svg>

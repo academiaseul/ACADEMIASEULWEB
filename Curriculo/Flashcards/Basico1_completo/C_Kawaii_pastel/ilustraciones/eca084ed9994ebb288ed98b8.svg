@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 전화번호 · número de teléfono -->
+  <use href="#kw-brillo" transform="translate(36 46) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(186 36) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(190 134) scale(6)" fill="#FFFFFF"/>
+  <circle cx="36" cy="116" r="3" fill="#FFFFFF"/>
+  <circle cx="196" cy="84" r="2.5" fill="#E8B84B"/>
+  <circle cx="40" cy="160" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="58" ry="7" fill="#D2CBFA"/>
+  <!-- celular celeste: botón lateral, cámara, pantalla crema -->
+  <rect x="150" y="52" width="9" height="18" rx="3" fill="#6FB8EE" stroke="#003478" stroke-width="2"/>
+  <rect x="64" y="20" width="92" height="166" rx="18" fill="#8CCBF6" stroke="#003478" stroke-width="3"/>
+  <ellipse cx="70" cy="46" rx="2.5" ry="9" fill="#C9DBFF"/>
+  <circle cx="110" cy="26" r="2.4" fill="#003478"/>
+  <rect x="73" y="32" width="74" height="116" rx="8" fill="#FFFDF8" stroke="#003478" stroke-width="2.6"/>
+  <!-- el número arriba -->
+  <rect x="79" y="39" width="62" height="21" rx="6" fill="#D6E3FF" stroke="#003478" stroke-width="2"/>
+  <text x="110" y="55" text-anchor="middle" font-family="Jua, sans-serif" font-size="13" fill="#003478">010-1234</text>
+  <!-- teclado numérico 3 × 4 -->
+  <g fill="#E4E0FF" stroke="#003478" stroke-width="2">
+    <circle cx="92" cy="74" r="7"/><circle cx="110" cy="74" r="7"/><circle cx="128" cy="74" r="7"/>
+    <circle cx="92" cy="92" r="7"/><circle cx="110" cy="92" r="7"/><circle cx="128" cy="92" r="7"/>
+    <circle cx="92" cy="110" r="7"/><circle cx="110" cy="110" r="7"/><circle cx="128" cy="110" r="7"/>
+    <circle cx="92" cy="128" r="7"/><circle cx="110" cy="128" r="7"/><circle cx="128" cy="128" r="7"/>
+  </g>
+  <!-- cara en el marco inferior -->
+  <ellipse cx="88" cy="169" rx="6" ry="3.8" fill="#FFCBA0"/>
+  <ellipse cx="132" cy="169" rx="6" ry="3.8" fill="#FFCBA0"/>
+  <use href="#kw-cara-chica" transform="translate(110 162) scale(0.85)"/>
+</svg>

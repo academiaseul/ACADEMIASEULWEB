@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="가족" data-es="familia">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 166 C 70 172, 150 172, 206 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- papá (atrás, izquierda) -->
+    <path d="M42 78 C 28 92, 24 130, 22 162 L 90 162 C 88 130, 84 92, 70 78 Z" fill="#1F3B33"/>
+    <path d="M42 78 C 28 92, 24 130, 22 162 L 90 162 C 88 130, 84 92, 70 78 Z" fill="url(#rt)"/>
+    <path d="M48 79 L56 89 L64 79" stroke-width="2.2"/>
+    <path d="M34 94 C 26 108, 22 122, 24 134"/>
+    <circle cx="24.5" cy="137" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="56" cy="58" r="22" fill="#1F3B33"/>
+    <path d="M33 56 C 32 40, 44 33, 56 33 C 69 33, 80 40, 79 56 C 76 50, 70 46, 62 46 L 58 41 L 53 46 C 44 46, 37 50, 33 56 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(56 66) scale(0.62)"/>
+    <!-- mamá (atrás, derecha) -->
+    <path d="M140 58 C 136 82, 140 94, 148 98 L 180 98 C 188 94, 192 82, 188 58 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M150 80 C 136 94, 132 130, 130 162 L 198 162 C 196 130, 192 94, 178 80 Z" fill="#1F3B33"/>
+    <path d="M150 80 C 136 94, 132 130, 130 162 L 198 162 C 196 130, 192 94, 178 80 Z" fill="url(#rt)"/>
+    <path d="M156 81 Q164 88 172 81" stroke-width="2.2"/>
+    <path d="M188 96 C 196 108, 198 122, 196 134"/>
+    <circle cx="195.5" cy="137" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="164" cy="60" r="22" fill="#1F3B33"/>
+    <path d="M141 60 C 142 44, 153 37, 164 37 C 176 37, 187 44, 187 60 C 178 56, 170 50, 166 43 C 160 51, 151 56, 141 60 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(164 68) scale(0.62)"/>
+    <!-- hija (adelante) -->
+    <circle cx="74" cy="97" r="7" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <circle cx="110" cy="97" r="7" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M82 120 C 74 130, 72 148, 72 162 L 112 162 C 112 148, 110 130, 102 120 Z" fill="#1F3B33"/>
+    <path d="M82 120 C 74 130, 72 148, 72 162 L 112 162 C 112 148, 110 130, 102 120 Z" fill="url(#rt)"/>
+    <circle cx="92" cy="104" r="17" fill="#1F3B33"/>
+    <path d="M75 104 C 75 92, 83 87, 92 87 C 101 87, 109 92, 109 104 C 102 100, 96 96, 93 91 C 89 97, 82 101, 75 104 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <use href="#cara-feliz" transform="translate(92 110) scale(0.5)"/>
+    <!-- hijo (adelante) -->
+    <path d="M120 122 C 112 132, 110 148, 110 162 L 150 162 C 150 148, 148 132, 140 122 Z" fill="#1F3B33"/>
+    <path d="M120 122 C 112 132, 110 148, 110 162 L 150 162 C 150 148, 148 132, 140 122 Z" fill="url(#rt)"/>
+    <circle cx="130" cy="106" r="17" fill="#1F3B33"/>
+    <path d="M113 104 C 112 93, 120 89, 130 89 C 140 89, 148 93, 147 104 C 142 99, 136 97, 132 97 C 126 99, 118 100, 113 104 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M130 89 C 127 82, 134 79, 136 83" stroke="#E8B84B" stroke-width="2.2"/>
+    <use href="#cara-feliz" transform="translate(130 112) scale(0.5)"/>
+    <!-- el abrazo: manos de papá y mamá sobre los hombros de los hijos -->
+    <path d="M82 94 C 88 104, 86 112, 82 119"/>
+    <circle cx="82" cy="122" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M138 96 C 134 106, 138 114, 142 120"/>
+    <circle cx="142" cy="123" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <use href="#corazon" transform="translate(110 40) scale(0.9)"/>
+    <use href="#estrella" transform="translate(20 26) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(202 26) scale(0.6)"/>
+  </g>
+</svg>

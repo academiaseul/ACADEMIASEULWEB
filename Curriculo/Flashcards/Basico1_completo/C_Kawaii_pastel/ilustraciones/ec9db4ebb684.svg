@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 이분 · esta persona (con respeto) -->
+  <use href="#kw-brillo" transform="translate(36 48) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(196 30) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(204 140) scale(5)" fill="#FFFFFF"/>
+  <circle cx="20" cy="104" r="3" fill="#FFFFFF"/>
+  <circle cx="68" cy="96" r="2.5" fill="#CFC8FF"/>
+  <circle cx="198" cy="172" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="128" cy="189" rx="56" ry="7" fill="#D2CBFA"/>
+  <!-- señora mayor: permanente canosa, cárdigan lila, collar dorado, manos juntas; leve venia -->
+  <g transform="matrix(0.86 0 0 0.86 35.4 24.7)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#8C6448" stroke="#003478" stroke-width="3"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#8C6448" stroke="#003478" stroke-width="3"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#CFC8FF" stroke="#003478" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M98 124 L110 142 L122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.8" stroke-linejoin="round"/>
+    <path d="M101 127 Q110 144 119 127" fill="none" stroke="#E8B84B" stroke-width="5" stroke-linecap="round" stroke-dasharray="0.1 6.5"/>
+    <path d="M110 142 L110 181" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M84 132 Q74 156 104 160 M136 132 Q146 156 116 160" fill="none" stroke="#003478" stroke-width="15.1" stroke-linecap="round"/>
+    <path d="M84 132 Q74 156 104 160 M136 132 Q146 156 116 160" fill="none" stroke="#CFC8FF" stroke-width="8.1" stroke-linecap="round"/>
+    <circle cx="105" cy="160" r="7" fill="#FFE4C8" stroke="#003478" stroke-width="2.8"/>
+    <circle cx="115" cy="160" r="7" fill="#FFE4C8" stroke="#003478" stroke-width="2.8"/>
+    <g transform="rotate(-10 110 124)">
+      <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3.5"/>
+      <path d="M64 100 Q50 96 54 82 Q44 70 56 60 Q54 44 70 40 Q76 26 94 28 Q104 18 118 24 Q134 18 144 30 Q162 30 164 46 Q178 54 170 68 Q180 82 166 92 Q166 100 156 100 Q160 82 150 72 Q140 80 128 72 Q118 80 106 72 Q94 80 82 72 Q70 80 72 100 Q68 102 64 100 Z" fill="#DADCE6" stroke="#003478" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M64 60 q6 -5 11 1 M88 40 q6 -5 11 1 M118 36 q6 -5 11 1 M146 46 q6 -5 11 1 M60 82 q6 -5 11 1 M158 70 q6 -5 11 1" fill="none" stroke="#A9AFC3" stroke-width="2.8" stroke-linecap="round"/>
+      <use href="#kw-cara-feliz" transform="translate(110 100)"/>
+    </g>
+  </g>
+  <!-- mano que la presenta: palma hacia arriba, dedos juntos y pulgar arriba (manga azul, puño blanco) -->
+  <path d="M-12 152 L24 148" fill="none" stroke="#003478" stroke-width="26" stroke-linecap="round"/>
+  <path d="M-12 152 L24 148" fill="none" stroke="#4236F6" stroke-width="20" stroke-linecap="round"/>
+  <rect x="27" y="136" width="10" height="25" rx="4" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+  <path d="M51 140 Q52 124 63 122 Q71 122 69 130 L65 141 Z" fill="#F2C99A" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M36 140 Q46 134 60 136 L85 136 Q93 136 93 143 Q93 150 85 150 L60 153 Q46 155 36 151 Z" fill="#F2C99A" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M66 140.5 L87 140.5 M66 145.5 L87 145.5" fill="none" stroke="#C98F5E" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M42 145 Q48 148 56 146" fill="none" stroke="#C98F5E" stroke-width="2" stroke-linecap="round"/>
+</svg>

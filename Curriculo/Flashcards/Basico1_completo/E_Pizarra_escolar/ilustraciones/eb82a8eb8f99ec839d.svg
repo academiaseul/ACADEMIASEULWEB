@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="남동생" data-es="hermano menor">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 165 C 80 172, 150 172, 198 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- hermana mayor (izquierda, más alta): pelo largo, cuerpo, cabeza, flequillo -->
+    <path d="M48 54 C 42 80, 46 92, 54 98 L94 98 C 102 92, 106 80, 100 54 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M62 80 C 50 94, 44 128, 42 162 L104 162 C 102 128, 98 94, 86 80 Z" fill="#1F3B33"/>
+    <path d="M62 80 C 50 94, 44 128, 42 162 L104 162 C 102 128, 98 94, 86 80 Z" fill="url(#rt)"/>
+    <path d="M66 81 Q74 89 82 81" stroke-width="2.2"/>
+    <path d="M58 92 C 48 104, 44 120, 46 134"/>
+    <circle cx="46.5" cy="137.5" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="74" cy="54" r="26" fill="#1F3B33"/>
+    <path d="M48 52 C 50 36, 61 28, 74 28 C 87 28, 98 36, 100 52 C 92 48, 82 42, 76 35 C 70 43, 58 49, 48 52 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(74 62) scale(0.72)"/>
+    <!-- hermano menor (derecha, bajito, cabeza grande): el protagonista -->
+    <path d="M132 128 C 122 136, 118 150, 118 162 L174 162 C 174 150, 170 136, 160 128 Z" fill="#1F3B33"/>
+    <path d="M132 128 C 122 136, 118 150, 118 162 L174 162 C 174 150, 170 136, 160 128 Z" fill="url(#rt)"/>
+    <path d="M120 148 C 136 151, 156 151, 172 148" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M126 137 C 121 143, 120 149, 122 155"/>
+    <circle cx="123" cy="158" r="3.4" fill="#F3F0E4" stroke="none"/>
+    <path d="M168 136 C 178 132, 184 124, 186 116"/>
+    <circle cx="186.5" cy="112.5" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="146" cy="106" r="24" fill="#1F3B33"/>
+    <path d="M122 104 C 120 88, 130 81, 146 81 C 162 81, 172 88, 170 104 C 164 98, 156 95, 150 94 C 144 98, 136 99, 130 96 C 127 99, 124 101, 122 104 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M150 81 C 147 73, 155 69, 158 74 C 160 78, 155 80, 153 77" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(146 113) scale(0.7)"/>
+    <!-- brazo de la hermana: la mano descansa sobre la cabeza del hermanito -->
+    <path d="M90 90 C 104 80, 118 75, 130 79"/>
+    <circle cx="133.5" cy="80.5" r="4" fill="#F3F0E4" stroke="none"/>
+    <!-- flecha dorada hacia el menor -->
+    <path d="M204 44 L180 70 M181 57 L180 70 L193 68" stroke="#E8B84B" stroke-width="3.4"/>
+    <use href="#estrella" transform="translate(28 30) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(122 36) scale(0.65)"/>
+    <use href="#corazon" transform="translate(198 142) scale(0.8)"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="공" data-es="cero (en teléfonos)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 166 C 90 172, 150 172, 192 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- teléfono: marco con trama tenue y pantalla lisa (como la pizarrita) -->
+    <rect x="58" y="10" width="104" height="152" rx="16" fill="#1F3B33"/>
+    <rect x="58" y="10" width="104" height="152" rx="16" fill="url(#rt)"/>
+    <rect x="66" y="22" width="88" height="130" rx="8" fill="#1F3B33" stroke-width="2.2"/>
+    <path d="M100 16 H120" stroke-width="2.2"/>
+    <use href="#cara" transform="translate(110 38) scale(0.62)"/>
+    <!-- teclado sin números: nueve teclas lisas -->
+    <path d="M93 62 A9 9 0 1 1 93 61.9 M119 62 A9 9 0 1 1 119 61.9 M145 62 A9 9 0 1 1 145 61.9 M93 86 A9 9 0 1 1 93 85.9 M119 86 A9 9 0 1 1 119 85.9 M145 86 A9 9 0 1 1 145 85.9 M93 110 A9 9 0 1 1 93 109.9 M119 110 A9 9 0 1 1 119 109.9 M145 110 A9 9 0 1 1 145 109.9 M93 134 A9 9 0 1 1 93 133.9 M145 134 A9 9 0 1 1 145 133.9" stroke-width="2.2" stroke-opacity="0.8"/>
+    <!-- fila de abajo: asterisco, CERO dorado, almohadilla -->
+    <path d="M84 128.5 V139.5 M79.2 131.2 L88.8 136.8 M79.2 136.8 L88.8 131.2" stroke-width="2"/>
+    <path d="M133.5 128.5 L132 139.5 M139.5 128.5 L138 139.5 M129.5 131.8 H142 M128.5 136.2 H141" stroke-width="2"/>
+    <circle cx="110" cy="134" r="12.5" fill="#1F3B33" stroke="none"/>
+    <circle cx="110" cy="134" r="12.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.8"/>
+    <ellipse cx="110" cy="134" rx="4.4" ry="6.6" fill="#1F3B33" stroke-width="2.8"/>
+    <!-- el teléfono suena -->
+    <path d="M172 28 Q180 36 175 46 M181 20 Q194 34 186 50" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M48 28 Q40 36 45 46 M39 20 Q26 34 34 50" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#estrella" transform="translate(34 124) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(188 112) scale(0.65)"/>
+  </g>
+</svg>

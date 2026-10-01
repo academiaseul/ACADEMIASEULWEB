@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="하다" data-es="hacer">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 88 172, 150 172, 194 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo en campana -->
+    <path d="M86 112 C 72 126, 66 146, 64 162 L156 162 C 154 146, 148 126, 134 112 Z" fill="#1F3B33"/>
+    <path d="M86 112 C 72 126, 66 146, 64 162 L156 162 C 154 146, 148 126, 134 112 Z" fill="url(#rt)"/>
+    <path d="M98 113 Q110 122 122 113" stroke-width="2.4"/>
+    <!-- mangas arremangadas: manga + puño enrollado en blanco fuerte -->
+    <path d="M90 112 C 82 112, 72 114, 62 116 L64 134 C 72 132, 80 130, 86 128 Z" fill="#1F3B33"/>
+    <path d="M90 112 C 82 112, 72 114, 62 116 L64 134 C 72 132, 80 130, 86 128 Z" fill="url(#rt)"/>
+    <path d="M58 115 C 62 113, 66 113, 68 114 L70 134 C 66 136, 62 136, 60 135 Z" fill="#1F3B33"/>
+    <path d="M58 115 C 62 113, 66 113, 68 114 L70 134 C 66 136, 62 136, 60 135 Z" fill="url(#rb)" stroke-width="2.6"/>
+    <path d="M130 112 C 138 112, 148 114, 158 116 L156 134 C 148 132, 140 130, 134 128 Z" fill="#1F3B33"/>
+    <path d="M130 112 C 138 112, 148 114, 158 116 L156 134 C 148 132, 140 130, 134 128 Z" fill="url(#rt)"/>
+    <path d="M162 115 C 158 113, 154 113, 152 114 L150 134 C 154 136, 158 136, 160 135 Z" fill="#1F3B33"/>
+    <path d="M162 115 C 158 113, 154 113, 152 114 L150 134 C 154 136, 158 136, 160 135 Z" fill="url(#rb)" stroke-width="2.6"/>
+    <!-- brazos en pose de "¡a trabajar!": codo afuera, puño arriba -->
+    <path d="M59 125 C 50 127, 44 130, 41 124 C 38 116, 38 106, 38 100"/>
+    <circle cx="38" cy="96" r="4" fill="#F3F0E4" stroke="none"/>
+    <path d="M161 125 C 170 127, 176 130, 179 124 C 182 116, 182 106, 182 100"/>
+    <circle cx="182" cy="96" r="4" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza -->
+    <circle cx="110" cy="72" r="31" fill="#1F3B33"/>
+    <path d="M79 70 C 78 50, 92 40, 110 40 C 128 40, 142 50, 141 70 C 138 62, 134 56, 128 54 C 118 57, 102 55, 94 48 C 90 56, 84 62, 79 70 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(110 80) scale(0.82)"/>
+    <!-- chispas de energía alrededor de los puños -->
+    <path d="M30 90 L22 86 M33 84 L28 77 M44 85 L46 77" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M190 90 L198 86 M187 84 L192 77 M176 85 L174 77" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- rayos de energía -->
+    <path d="M38 26 L29 42 H38 L31 58" stroke="#E8B84B" stroke-width="3"/>
+    <path d="M186 26 L177 42 H186 L179 58" stroke="#E8B84B" stroke-width="3"/>
+    <use href="#estrella-b" transform="translate(152 28) scale(0.6)"/>
+    <use href="#estrella" transform="translate(28 146) scale(0.65)"/>
+    <use href="#estrella-b" transform="translate(194 146) scale(0.6)"/>
+  </g>
+</svg>

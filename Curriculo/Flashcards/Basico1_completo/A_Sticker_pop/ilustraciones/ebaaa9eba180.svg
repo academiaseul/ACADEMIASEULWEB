@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 목례 · saludo con una leve inclinación de cabeza · Estilo A Sticker pop · persona que inclina la cabeza (12 grados) con ojos cerrados, flecha curva encima -->
+<!-- 1) Silueta: pelo de atrás + orejas + cabeza (girados) + torso -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+<g transform="rotate(12 110 158)">
+<path d="M62 116 C56 72 80 56 110 56 C140 56 164 72 158 116 Z"/>
+<ellipse cx="64" cy="124" rx="7" ry="9"/>
+<ellipse cx="156" cy="124" rx="7" ry="9"/>
+<ellipse cx="110" cy="114" rx="46" ry="44"/>
+</g>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+<g transform="rotate(12 110 158)">
+<path d="M62 116 C56 72 80 56 110 56 C140 56 164 72 158 116 Z"/>
+<ellipse cx="64" cy="124" rx="7" ry="9"/>
+<ellipse cx="156" cy="124" rx="7" ry="9"/>
+<ellipse cx="110" cy="114" rx="46" ry="44"/>
+</g>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+<g transform="rotate(12 110 158)">
+<path d="M62 116 C56 72 80 56 110 56 C140 56 164 72 158 116 Z"/>
+<ellipse cx="64" cy="124" rx="7" ry="9"/>
+<ellipse cx="156" cy="124" rx="7" ry="9"/>
+<ellipse cx="110" cy="114" rx="46" ry="44"/>
+</g>
+</g>
+<!-- 2) Torso: suéter azul, cuello de camisa blanco, botón dorado -->
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M110 160 L92 156 L101 175 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M110 160 L128 156 L119 175 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="110" cy="184" r="4" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- cabeza inclinada (bajada y girada 12 grados sobre el cuello) -->
+<g transform="rotate(12 110 158)">
+<path d="M62 116 C56 72 80 56 110 56 C140 56 164 72 158 116 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="64" cy="124" rx="7" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="156" cy="124" rx="7" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="110" cy="114" rx="46" ry="44" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M64 116 C58 74 82 62 110 62 C138 62 162 74 156 116 C152 100 142 92 128 92 C118 100 100 102 88 98 C76 100 68 106 64 116 Z" fill="#14142B"/>
+<path d="M156 116 C152 100 142 92 128 92 C118 100 100 102 88 98 C76 100 68 106 64 116" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84 74 Q96 68 108 70" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- 3) Cara de la casa con ojos cerrados (arcos de 3,5) en (110,130), s = 0,85 -->
+<path d="M93 130 Q98.1 124.9 103.2 130" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M116.8 130 Q121.9 124.9 127 130" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<ellipse cx="87.9" cy="141.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="141.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 141.05 Q110 151.25 116.8 141.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+</g>
+<!-- flecha curva gruesa (blanca, borde tinta) que muestra el movimiento de la cabeza -->
+<path d="M40 94 C36 36 96 10 148 28" stroke="#14142B" stroke-width="14" stroke-linecap="round"/>
+<path d="M40 94 C36 36 96 10 148 28" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<path d="M157.45 31.27 L147.82 16.29 L140.62 37.09 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- 4) Adornos -->
+<path d="M192 30 Q194.4 39.6 204 42 Q194.4 44.4 192 54 Q189.6 44.4 180 42 Q189.6 39.6 192 30 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 153 Q199.8 160.2 207 162 Q199.8 163.8 198 171 Q196.2 163.8 189 162 Q196.2 160.2 198 153 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="26" cy="152" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

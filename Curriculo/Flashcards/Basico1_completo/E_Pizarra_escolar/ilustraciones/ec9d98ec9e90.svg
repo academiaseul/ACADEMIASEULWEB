@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="의자" data-es="silla">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- patas de atrás -->
+    <path d="M88 104 H95 V150 H88 Z" fill="url(#rt)"/>
+    <path d="M151 104 H158 V148 H151 Z" fill="url(#rt)"/>
+    <!-- respaldo: dos postes, travesaño y tablero con cara -->
+    <path d="M88 60 H95 V104 H88 Z M151 60 H158 V104 H151 Z" fill="url(#rt)"/>
+    <path d="M95 86 H151" stroke-width="2.6"/>
+    <path d="M84 74 L84 42 C 84 24, 162 24, 162 42 L162 74 C 162 78, 158 80, 154 80 L92 80 C 88 80, 84 78, 84 74 Z" fill="#1F3B33"/>
+    <path d="M84 74 L84 42 C 84 24, 162 24, 162 42 L162 74 C 162 78, 158 80, 154 80 L92 80 C 88 80, 84 78, 84 74 Z" fill="url(#rt)"/>
+    <path d="M96 33 C 108 29, 122 28, 134 29" stroke-width="1.8" stroke-opacity="0.6"/>
+    <use href="#cara" transform="translate(123 54) scale(0.82)"/>
+    <!-- asiento: tapa dorada en perspectiva, canto y costado -->
+    <path d="M64 112 L86 96 L160 96 L138 112 Z" fill="#1F3B33"/>
+    <path d="M64 112 L86 96 L160 96 L138 112 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M64 112 H138 V121 H64 Z" fill="#1F3B33"/>
+    <path d="M64 112 H138 V121 H64 Z" fill="url(#rt)"/>
+    <path d="M138 112 L160 96 V105 L138 121 Z" fill="#1F3B33"/>
+    <path d="M138 112 L160 96 V105 L138 121 Z" fill="url(#rt)"/>
+    <!-- patas de adelante -->
+    <path d="M67 121 H75 V162 H67 Z" fill="url(#rt)"/>
+    <path d="M127 121 H135 V162 H127 Z" fill="url(#rt)"/>
+    <use href="#estrella" transform="translate(40 46) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(190 52) scale(0.7)"/>
+    <use href="#estrella" transform="translate(186 134) scale(0.65)"/>
+  </g>
+</svg>

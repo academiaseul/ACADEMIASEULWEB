@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="지하철역" data-es="estación de metro">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 166 C 70 172, 150 172, 206 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- escalera que baja: bordes que se juntan hacia el fondo y peldaños -->
+    <path d="M42 160 L57.4 96 M122 160 L106.6 96 M57.4 96 H106.6"/>
+    <path d="M44.6 149 H119.4 M46.9 139 H117.1 M49.1 130 H114.9 M50.9 122 H113.1 M52.6 115 H111.4 M54 109 H110 M55.2 104 H108.8" stroke-width="2.4"/>
+    <!-- pasamanos dorados -->
+    <path d="M38 132 L53 84 M126 132 L111 84" stroke="#E8B84B" stroke-width="2.8"/>
+    <!-- postes del acceso -->
+    <path d="M30 76 H36 V162 H30 Z M128 76 H134 V162 H128 Z" fill="url(#rt)"/>
+    <!-- techo de vidrio con cara -->
+    <path d="M24 78 L24 62 Q82 32 140 62 L140 78 Z" fill="#1F3B33"/>
+    <path d="M24 78 L24 62 Q82 32 140 62 L140 78 Z" fill="url(#ra)"/>
+    <use href="#cara" transform="translate(82 60) scale(0.7)"/>
+    <!-- letrero redondo con un tren de frente -->
+    <path d="M173 86 H179 V162 H173 Z" fill="url(#rt)"/>
+    <circle cx="176" cy="58" r="27" fill="#1F3B33"/>
+    <rect x="162" y="39" width="28" height="33" rx="7" fill="url(#rt)" stroke-width="2.6"/>
+    <rect x="166" y="44" width="20" height="13" rx="3" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.2"/>
+    <circle cx="168.5" cy="65" r="2.6" fill="#E8B84B" stroke="none"/>
+    <circle cx="183.5" cy="65" r="2.6" fill="#E8B84B" stroke="none"/>
+    <path d="M168 75 L164 80 M184 75 L188 80" stroke-width="2.4"/>
+    <use href="#estrella-b" transform="translate(20 34) scale(0.6)"/>
+    <use href="#estrella" transform="translate(130 28) scale(0.7)"/>
+    <use href="#estrella" transform="translate(198 126) scale(0.6)"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 은행 · banco -->
+  <use href="#kw-brillo" transform="translate(46 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(180 38) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(200 122) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="110" r="3" fill="#CFC8FF"/>
+  <circle cx="198" cy="80" r="2.5" fill="#FFFFFF"/>
+  <circle cx="22" cy="150" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="78" ry="6" fill="#F0DA9C"/>
+  <!-- muro celeste detrás de las columnas -->
+  <rect x="50" y="84" width="120" height="82" fill="#B5DDFB" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- moneda dorada con ₩ sobre la puerta -->
+  <circle cx="110" cy="103" r="13" fill="#F6D47A" stroke="#003478" stroke-width="2.6"/>
+  <path d="M102 96 L105.5 110 L110 100 L114.5 110 L118 96 M101 102 L119 102 M101.5 105.5 L118.5 105.5" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- puerta -->
+  <path d="M97 166 L97 130 Q97 120 110 120 Q123 120 123 130 L123 166 Z" fill="#8C6448" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M110 120 L110 166" fill="none" stroke="#003478" stroke-width="2"/>
+  <!-- cuatro columnas blancas con capitel -->
+  <path d="M56 90 h14 v74 h-14 Z M80 90 h14 v74 h-14 Z M126 90 h14 v74 h-14 Z M150 90 h14 v74 h-14 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M63 98 L63 156 M87 98 L87 156 M133 98 L133 156 M157 98 L157 156" fill="none" stroke="#D5D9E4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M52 86 h22 v7 h-22 Z M76 86 h22 v7 h-22 Z M122 86 h22 v7 h-22 Z M146 86 h22 v7 h-22 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- escalinata de piedra -->
+  <rect x="44" y="163" width="132" height="12" rx="4" fill="#D5D9E4" stroke="#003478" stroke-width="2.6"/>
+  <rect x="36" y="174" width="148" height="11" rx="4" fill="#A9AFC3" stroke="#003478" stroke-width="2.6"/>
+  <!-- friso azul y frontón con cara -->
+  <rect x="42" y="74" width="136" height="14" rx="4" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <path d="M40 76 L104 33 Q110 29 116 33 L180 76 Z" fill="#E4E0FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <use href="#kw-cara" transform="translate(110 60) scale(0.72)"/>
+  <!-- alcancía de chanchito dorada en la puerta -->
+  <rect x="99" y="161" width="7" height="9" rx="2.5" fill="#E2B44E" stroke="#003478" stroke-width="2.2"/>
+  <rect x="118" y="161" width="7" height="9" rx="2.5" fill="#E2B44E" stroke="#003478" stroke-width="2.2"/>
+  <path d="M100 143 L98 132 L109 139 Z" fill="#E2B44E" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M131 150 Q139 145 137 152 Q135 157 141 155" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+  <ellipse cx="113" cy="152" rx="19" ry="14" fill="#F6D47A" stroke="#003478" stroke-width="2.6"/>
+  <path d="M108 140 L119 140" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+  <ellipse cx="94" cy="154" rx="5" ry="6.5" fill="#E2B44E" stroke="#003478" stroke-width="2.2"/>
+  <path d="M92.5 151.5 L92.5 156 M95.5 151.5 L95.5 156" fill="none" stroke="#003478" stroke-width="1.8" stroke-linecap="round"/>
+  <ellipse cx="106" cy="157" rx="3.6" ry="2.3" fill="#FFCBA0"/>
+  <use href="#kw-ojo" transform="translate(103 149) scale(0.5)"/>
+</svg>

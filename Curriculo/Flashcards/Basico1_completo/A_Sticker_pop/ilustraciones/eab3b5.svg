@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 공 · cero (en teléfonos) · Estilo A Sticker pop · tecla de teléfono con un 0 grande y cara -->
+<!-- líneas de "tecla pulsada" (sueltas, fuera de la silueta) -->
+<path d="M179 27 L189 17" fill="none" stroke="#14142B" stroke-width="12" stroke-linecap="round"/>
+<path d="M179 27 L189 17" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M185 46 L198 44" fill="none" stroke="#14142B" stroke-width="12" stroke-linecap="round"/>
+<path d="M185 46 L198 44" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M163 20 L165 10" fill="none" stroke="#14142B" stroke-width="12" stroke-linecap="round"/>
+<path d="M163 20 L165 10" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<!-- 1) silueta del sticker: la tecla completa -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="50" y="30" width="120" height="154" rx="30"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="50" y="30" width="120" height="154" rx="30"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="50" y="30" width="120" height="154" rx="30"/>
+</g>
+<!-- 2) piezas: canto de la tecla (lavanda) y cara superior (blanca) con su hundido -->
+<rect x="50" y="30" width="120" height="154" rx="30" fill="#DCE0FA" stroke="#14142B" stroke-width="4"/>
+<path d="M66 178 L154 178" fill="none" stroke="#B3B8D6" stroke-width="4" stroke-linecap="round"/>
+<rect x="50" y="30" width="120" height="138" rx="30" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<rect x="61" y="41" width="98" height="116" rx="22" fill="none" stroke="#DCE0FA" stroke-width="3"/>
+<!-- el 0: anillo azul (elipse azul + hueco blanco, ambos con borde 4) -->
+<ellipse cx="110" cy="82" rx="27" ry="34" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="110" cy="82" rx="10.5" ry="18" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<path d="M91 90 Q90 72 98 59" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+<!-- 3) cara de la casa en (110,138), s = 0,72 -->
+<ellipse cx="99.92" cy="138" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="120.08" cy="138" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="101.5" cy="135.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="121.66" cy="135.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="91.28" cy="148.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="128.72" cy="148.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M104.24 147.36 Q110 156 115.76 147.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- 4) adornos -->
+<path d="M26 25 Q28.2 33.8 37 36 Q28.2 38.2 26 47 Q23.8 38.2 15 36 Q23.8 33.8 26 25 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M24 160 Q25.6 166.4 32 168 Q25.6 169.6 24 176 Q22.4 169.6 16 168 Q22.4 166.4 24 160 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="100" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

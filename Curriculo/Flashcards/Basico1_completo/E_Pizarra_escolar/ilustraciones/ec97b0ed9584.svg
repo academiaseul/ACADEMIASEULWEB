@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="연필" data-es="lápiz">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- la línea que va dejando la punta -->
+    <path d="M162 144 C 152 158, 136 158, 132 148 C 128 138, 116 140, 114 150 C 112 160, 94 162, 84 154" stroke-width="2.4" stroke-opacity="0.8"/>
+    <!-- lápiz acostado en diagonal, la punta hacia abajo a la derecha -->
+    <g transform="rotate(30 104 88)">
+      <!-- goma -->
+      <path d="M54 68 L44 68 C 31 68, 31 108, 44 108 L54 108 Z" fill="#1F3B33"/>
+      <path d="M54 68 L44 68 C 31 68, 31 108, 44 108 L54 108 Z" fill="url(#rt)"/>
+      <!-- cuerpo: dos caras doradas y la cara del medio lisa, donde va la carita -->
+      <path d="M66 68 H152 V108 H66 Z" fill="#1F3B33"/>
+      <path d="M66 68 H152 V77 H66 Z" fill="url(#rd)" stroke="none"/>
+      <path d="M66 99 H152 V108 H66 Z" fill="url(#rd)" stroke="none"/>
+      <path d="M66 77 H150 M66 99 H150" stroke="#E8B84B" stroke-width="2.4"/>
+      <path d="M66 68 H152 V108 H66 Z"/>
+      <!-- madera afilada con borde ondulado y punta de grafito -->
+      <path d="M150 68 L188 88 L150 108 Q 158 101 150 95 Q 158 88 150 81 Q 158 75 150 68 Z" fill="#1F3B33"/>
+      <path d="M150 68 L188 88 L150 108 Q 158 101 150 95 Q 158 88 150 81 Q 158 75 150 68 Z" fill="url(#rt)"/>
+      <path d="M175 81.2 L188 88 L175 94.8 Z" fill="url(#rb)" stroke-width="2.4"/>
+      <!-- casquillo de metal -->
+      <path d="M53 66 H67 V110 H53 Z" fill="#1F3B33"/>
+      <path d="M58 68 V108 M62 68 V108" stroke-width="1.8" stroke-opacity="0.7"/>
+      <use href="#cara" transform="translate(106 83) scale(0.72)"/>
+    </g>
+    <use href="#estrella" transform="translate(166 36) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(36 120) scale(0.7)"/>
+    <use href="#estrella" transform="translate(198 106) scale(0.6)"/>
+  </g>
+</svg>

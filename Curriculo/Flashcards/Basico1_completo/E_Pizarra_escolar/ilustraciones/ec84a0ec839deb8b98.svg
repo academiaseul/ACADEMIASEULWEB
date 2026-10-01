@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="선생님" data-es="profesor, profesora">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 165 C 80 172, 150 172, 198 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- pizarrita al fondo: marco con trama, superficie lisa, garabatos de tiza (sin letras) -->
+    <rect x="112" y="22" width="90" height="84" rx="3" fill="url(#rt)"/>
+    <rect x="119" y="29" width="76" height="70" rx="2" fill="#1F3B33" stroke-width="2.2"/>
+    <path d="M128 46 q5 -5 10 0 t10 0 t10 0 t10 0" stroke-width="2.4"/>
+    <path d="M128 64 q5 -5 10 0 t10 0 t10 0" stroke-width="2.4"/>
+    <path d="M128 82 q5 -5 10 0 t10 0" stroke-width="2.4"/>
+    <circle cx="176" cy="78" r="8" stroke="#9FCBEF" stroke-width="2.4"/>
+    <use href="#estrella-b" transform="translate(181 46) scale(0.6)"/>
+    <path d="M108 110 H206" stroke-width="3"/>
+    <rect x="184" y="104" width="12" height="4" rx="1.5" fill="#F3F0E4" stroke="none"/>
+    <!-- profesora: pelo de atrás, cuerpo, brazo, cabeza, flequillo -->
+    <path d="M42 66 C 38 92, 42 102, 50 106 L 86 106 C 94 102, 98 92, 94 66 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M52 100 C 38 114, 32 140, 30 162 L 106 162 C 104 140, 98 114, 84 100 Z" fill="#1F3B33"/>
+    <path d="M52 100 C 38 114, 32 140, 30 162 L 106 162 C 104 140, 98 114, 84 100 Z" fill="url(#rt)"/>
+    <path d="M59 101 L68 115 L77 101" stroke-width="2.2"/>
+    <path d="M68 115 V160" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="68" cy="128" r="2" fill="#F3F0E4" stroke="none"/>
+    <circle cx="68" cy="142" r="2" fill="#F3F0E4" stroke="none"/>
+    <path d="M50 112 C 40 124, 36 138, 40 150"/>
+    <circle cx="41" cy="153" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="68" cy="70" r="27" fill="#1F3B33"/>
+    <path d="M41 68 C 43 50, 55 42, 68 42 C 82 42, 94 50, 95 68 C 86 64, 76 58, 70 50 C 64 58, 52 64, 41 68 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(68 79) scale(0.72)"/>
+    <!-- brazo que señala con el puntero dorado -->
+    <path d="M112 94 L151 51" stroke="#E8B84B" stroke-width="3.4"/>
+    <circle cx="152" cy="50" r="2.6" fill="#E8B84B" stroke="none"/>
+    <path d="M88 110 C 98 104, 108 96, 116 88"/>
+    <circle cx="118" cy="86" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- manzana para la profe, en menta -->
+    <path d="M168 132 C 160 124, 148 128, 148 142 C 148 154, 158 162, 168 158 C 178 162, 188 154, 188 142 C 188 128, 176 124, 168 132 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.6"/>
+    <path d="M168 132 C 168 126, 170 122, 173 120" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M171 126 C 176 118, 184 118, 186 120 C 184 126, 176 128, 171 126 Z" stroke="#9ED9B0" stroke-width="2"/>
+    <use href="#estrella" transform="translate(28 30) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(134 138) scale(0.6)"/>
+  </g>
+</svg>

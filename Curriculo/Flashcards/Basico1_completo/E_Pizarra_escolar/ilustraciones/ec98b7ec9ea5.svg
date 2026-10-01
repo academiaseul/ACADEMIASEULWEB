@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="옷장" data-es="clóset, ropero">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 166 C 80 172, 150 172, 198 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- mueble: cornisa, cuerpo de madera, hueco interior y cajón -->
+    <path d="M54 18 H166 V30 H54 Z" fill="url(#rt)"/>
+    <path d="M60 30 H160 V156 H60 Z" fill="#1F3B33"/>
+    <path d="M60 30 H160 V156 H60 Z" fill="url(#rt)"/>
+    <path d="M66 35 H154 V124 H66 Z" fill="#1F3B33" stroke-width="2.4"/>
+    <path d="M66 130 H154 V152 H66 Z" fill="#1F3B33" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(110 138) scale(0.58)"/>
+    <path d="M66 156 V164 M154 156 V164" stroke-width="3.4"/>
+    <!-- barra dorada y ganchos -->
+    <path d="M69 45 H151" stroke="#E8B84B" stroke-width="3.2"/>
+    <path d="M84 50 V42 C 84 38, 89 38, 89 41 M114 50 V42 C 114 38, 119 38, 119 41 M142 50 V42 C 142 38, 147 38, 147 41" stroke-width="2"/>
+    <!-- camisa celeste -->
+    <path d="M72 54 L80 51 Q84 56 88 51 L96 54 L102 66 L96 69 L94 64 V112 H74 V64 L72 69 L66 66 Z" fill="#1F3B33"/>
+    <path d="M72 54 L80 51 Q84 56 88 51 L96 54 L102 66 L96 69 L94 64 V112 H74 V64 L72 69 L66 66 Z" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.4"/>
+    <!-- vestido dorado -->
+    <path d="M108 51 Q114 56 120 51 L122 66 L132 114 H96 L106 66 Z" fill="#1F3B33"/>
+    <path d="M108 51 Q114 56 120 51 L122 66 L132 114 H96 L106 66 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M106 66 H122" stroke="#E8B84B" stroke-width="2"/>
+    <!-- abrigo blanco -->
+    <path d="M133 52 L138 50 L142 58 L146 50 L151 52 L154 118 H130 Z" fill="#1F3B33"/>
+    <path d="M133 52 L138 50 L142 58 L146 50 L151 52 L154 118 H130 Z" fill="url(#rt)"/>
+    <path d="M138 50 L142 70 L146 50 M142 70 V116" stroke-width="2"/>
+    <!-- puertas entreabiertas, una a cada lado, con manilla dorada -->
+    <path d="M60 30 L36 22 V162 L60 156 Z" fill="#1F3B33"/>
+    <path d="M60 30 L36 22 V162 L60 156 Z" fill="url(#rt)"/>
+    <path d="M43 34 L54 38 V146 L43 150 Z" stroke-width="2" stroke-opacity="0.6"/>
+    <circle cx="40" cy="92" r="3" fill="#E8B84B" stroke="none"/>
+    <path d="M160 30 L184 22 V162 L160 156 Z" fill="#1F3B33"/>
+    <path d="M160 30 L184 22 V162 L160 156 Z" fill="url(#rt)"/>
+    <path d="M177 34 L166 38 V146 L177 150 Z" stroke-width="2" stroke-opacity="0.6"/>
+    <circle cx="180" cy="92" r="3" fill="#E8B84B" stroke="none"/>
+    <use href="#estrella-b" transform="translate(22 40) scale(0.6)"/>
+    <use href="#estrella" transform="translate(199 44) scale(0.7)"/>
+    <use href="#estrella" transform="translate(200 136) scale(0.55)"/>
+  </g>
+</svg>

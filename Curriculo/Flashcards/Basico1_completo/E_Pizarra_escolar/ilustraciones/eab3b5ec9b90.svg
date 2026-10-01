@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="공원" data-es="parque">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 165 C 70 172, 150 172, 208 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- sendero de piedras que se aleja entre el árbol y el banco -->
+    <ellipse cx="88" cy="164" rx="11" ry="4" fill="url(#rt)" stroke-width="2.4"/>
+    <ellipse cx="100" cy="153" rx="8.5" ry="3.2" fill="url(#rt)" stroke-width="2.2"/>
+    <ellipse cx="92" cy="144" rx="6.5" ry="2.6" stroke-width="2"/>
+    <ellipse cx="99" cy="137" rx="5" ry="2" stroke-width="1.8" stroke-opacity="0.85"/>
+    <!-- árbol frondoso: tronco y copa menta -->
+    <path d="M50 154 C 52 136, 53 116, 52 86 L64 86 C 63 116, 64 136, 66 154 Z" fill="url(#rt)"/>
+    <path d="M64 120 C 70 116, 74 110, 76 104" stroke-width="2.4"/>
+    <path d="M58 34.4 Q69.3 30.8 76.6 38.1 Q88.8 39.1 90.2 48.2 Q100.1 53.7 95.2 62 Q100.1 70.3 90.2 75.8 Q88.8 84.9 76.6 85.9 Q69.3 93.2 58 89.6 Q46.7 93.2 39.4 85.9 Q27.2 84.9 25.8 75.8 Q15.9 70.3 20.8 62 Q15.9 53.7 25.8 48.2 Q27.2 39.1 39.4 38.1 Q46.7 30.8 58 34.4 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M58 34.4 Q69.3 30.8 76.6 38.1 Q88.8 39.1 90.2 48.2 Q100.1 53.7 95.2 62 Q100.1 70.3 90.2 75.8 Q88.8 84.9 76.6 85.9 Q69.3 93.2 58 89.6 Q46.7 93.2 39.4 85.9 Q27.2 84.9 25.8 75.8 Q15.9 70.3 20.8 62 Q15.9 53.7 25.8 48.2 Q27.2 39.1 39.4 38.1 Q46.7 30.8 58 34.4 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.8"/>
+    <path d="M40 56 C 44 52, 50 52, 54 55 M62 72 C 66 68, 72 68, 76 71" stroke="#9ED9B0" stroke-width="2" stroke-opacity="0.8"/>
+    <!-- banco de plaza: patas de atrás, respaldo dorado con cara, asiento -->
+    <path d="M121 130 H125 V155 H121 Z M195 130 H199 V155 H195 Z" fill="url(#rt)"/>
+    <path d="M124 122 V131 M194 122 V131" stroke-width="2.6"/>
+    <rect x="118" y="88" width="82" height="34" rx="4" fill="#1F3B33"/>
+    <rect x="118" y="88" width="82" height="34" rx="4" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#cara" transform="translate(159 103) scale(0.72)"/>
+    <path d="M110 138 L118 130 L202 130 L194 138 Z" fill="#1F3B33"/>
+    <path d="M110 138 L118 130 L202 130 L194 138 Z" fill="url(#rt)"/>
+    <path d="M110 138 H194 V144 H110 Z" fill="#1F3B33"/>
+    <path d="M110 138 H194 V144 H110 Z" fill="url(#rt)"/>
+    <path d="M194 138 L202 130 V136 L194 144 Z" fill="url(#rt)"/>
+    <path d="M114 144 H119 V162 H114 Z M185 144 H190 V162 H185 Z" fill="url(#rt)"/>
+    <!-- pasto menta -->
+    <path d="M26 162 l3 -8 l3 8 l3 -6 l2 6 M146 160 l3 -7 l3 7 M160 161 l3 -6 l2 6" stroke="#9ED9B0" stroke-width="2.2"/>
+    <use href="#estrella" transform="translate(186 50) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(124 46) scale(0.6)"/>
+    <use href="#estrella" transform="translate(24 126) scale(0.6)"/>
+  </g>
+</svg>

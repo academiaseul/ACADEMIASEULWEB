@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 구두 · zapatos (de vestir) -->
+  <use href="#kw-brillo" transform="translate(34 46) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 50) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(202 118) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="100" r="3" fill="#FFFFFF"/>
+  <circle cx="128" cy="62" r="2.5" fill="#E8B84B"/>
+  <circle cx="204" cy="164" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="187" rx="76" ry="7" fill="#D2CBFA"/>
+  <!-- zapato de atrás: el mismo, corrido arriba-izquierda y un tono más oscuro -->
+  <g transform="translate(-20 -20)">
+    <path d="M46 164 L172 168 Q182 169 182 174 Q182 179 172 179 L82 176 L80 182 L54 182 Q48 182 48 177 Z" fill="#8C6448" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M50 166 Q44 150 52 134 Q60 128 70 134 Q84 142 98 134 Q106 126 118 124 Q150 126 170 150 Q182 164 168 168 Z" fill="#C99A5E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M97 136 L103 130 M103 138 L110 128 M110 136 L117 126" fill="none" stroke="#003478" stroke-width="6.4" stroke-linecap="round"/>
+    <path d="M97 136 L103 130 M103 138 L110 128 M110 136 L117 126" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- zapato de adelante: suela, empeine con sombra, puntera, cordones -->
+  <path d="M46 164 L172 168 Q182 169 182 174 Q182 179 172 179 L82 176 L80 182 L54 182 Q48 182 48 177 Z" fill="#8C6448" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M50 166 Q44 150 52 134 Q60 128 70 134 Q84 142 98 134 Q106 126 118 124 Q150 126 170 150 Q182 164 168 168 Z" fill="#D9A462"/>
+  <path d="M47.5 154 Q70 160 94 156 T140 157 T174.2 156 Q178.7 164.9 168 168 L50 166 Q47.75 160 47.5 154 Z" fill="#C99A5E"/>
+  <ellipse cx="158" cy="141" rx="8" ry="3.5" fill="#FFFFFF" transform="rotate(38 158 141)"/>
+  <circle cx="166" cy="151" r="2" fill="#FFFFFF"/>
+  <ellipse cx="60" cy="143" rx="6" ry="3" fill="#E9C48E" transform="rotate(-60 60 143)"/>
+  <path d="M144 128 Q134 148 146 167" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M50 166 Q44 150 52 134 Q60 128 70 134 Q84 142 98 134 Q106 126 118 124 Q150 126 170 150 Q182 164 168 168 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M97 136 L103 130 M103 138 L110 128 M110 136 L117 126" fill="none" stroke="#003478" stroke-width="6.4" stroke-linecap="round"/>
+  <path d="M97 136 L103 130 M103 138 L110 128 M110 136 L117 126" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <use href="#kw-cara-chica" transform="translate(114 150) scale(0.85)"/>
+  <ellipse cx="99" cy="158" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+  <ellipse cx="129" cy="158" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+</svg>

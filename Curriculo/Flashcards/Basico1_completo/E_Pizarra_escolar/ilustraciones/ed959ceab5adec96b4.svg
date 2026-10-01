@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="한국어" data-es="idioma coreano">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- globo de diálogo con cola abajo a la izquierda -->
+    <path d="M58 22 H162 C 174 22, 184 32, 184 44 V98 C 184 110, 174 120, 162 120 H90 L56 146 L66 120 H58 C 46 120, 36 110, 36 98 V44 C 36 32, 46 22, 58 22 Z" fill="#1F3B33"/>
+    <path d="M48 34 C 52 30, 56 28, 62 28" stroke-width="2" stroke-opacity="0.6"/>
+    <!-- círculo taegeuk (sin bandera): mitad dorada y mitad celeste -->
+    <path d="M86 58 A24 24 0 0 1 134 58 A12 12 0 0 1 110 58 A12 12 0 0 0 86 58 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M86 58 A24 24 0 0 0 134 58 A12 12 0 0 1 110 58 A12 12 0 0 0 86 58 Z" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.6"/>
+    <use href="#cara-feliz" transform="translate(110 94) scale(0.72)"/>
+    <!-- rayitas de "¡habla!" -->
+    <path d="M192 34 L202 28 M194 54 H206 M192 74 L202 80" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#nota" transform="translate(26 50) scale(0.75)"/>
+    <use href="#estrella" transform="translate(150 150) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(28 112) scale(0.6)"/>
+  </g>
+</svg>

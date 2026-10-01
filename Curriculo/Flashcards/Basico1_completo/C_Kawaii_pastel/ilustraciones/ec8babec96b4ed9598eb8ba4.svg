@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 싫어하다 · no gustar, detestar — personaje base con los brazos en X (gesto coreano de "no"), nariz arrugada, cabeza que se aparta y una X grande -->
+  <use href="#kw-brillo" transform="translate(30 42) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(196 118) scale(7.5)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(132 24) scale(5.5)" fill="#FFFFFF"/>
+  <circle cx="22" cy="100" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="94" r="2.5" fill="#CFC8FF"/>
+  <circle cx="36" cy="166" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="104" cy="189" rx="62" ry="7" fill="#EDBF5C"/>
+  <!-- X grande (en Corea, X = no) -->
+  <path d="M166 36 L198 68 M198 36 L166 68" fill="none" stroke="#003478" stroke-width="24" stroke-linecap="round"/>
+  <path d="M166 36 L198 68 M198 36 L166 68" fill="none" stroke="#4236F6" stroke-width="14" stroke-linecap="round"/>
+  <path d="M167 37 L173 43" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <g transform="translate(-8 0)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M99 124 L110 142 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M110 136 L114 142 L110 150 L106 142 Z" fill="#E8B84B" stroke="#003478" stroke-width="2" stroke-linejoin="round"/>
+    <!-- antebrazos cruzados en X delante del pecho, puños arriba -->
+    <path d="M84 134 Q74 158 86 166 L128 138" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M84 134 Q74 158 86 166 L128 138" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="129" cy="137" r="7" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+    <path d="M136 134 Q146 158 134 166 L92 138" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M136 134 Q146 158 134 166 L92 138" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="91" cy="137" r="7" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+    <!-- cabeza ladeada, apartándose de la X -->
+    <g transform="rotate(-8 110 126)">
+      <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+      <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+      <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+      <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- cara de "¡guácala!": ojos apretados > <, nariz arrugada, boca ondulada -->
+      <ellipse cx="83" cy="109" rx="8" ry="5" fill="#FFCBA0"/>
+      <ellipse cx="137" cy="109" rx="8" ry="5" fill="#FFCBA0"/>
+      <path d="M88 91 L99 97.5 L88 104 M132 91 L121 97.5 L132 104" fill="none" stroke="#003478" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M105.5 95 Q110 93 114.5 95 M105.5 99.5 Q110 97.5 114.5 99.5" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="110" cy="105" rx="2.6" ry="1.9" fill="#003478"/>
+      <path d="M99 114 Q101.75 110 104.5 114 Q107.25 118 110 114 Q112.75 110 115.5 114 Q118.25 118 121 114" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

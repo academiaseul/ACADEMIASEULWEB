@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 사진 · foto (cámara instantánea imprimiendo una foto con montaña y sol) -->
+  <use href="#kw-brillo" transform="translate(38 142) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(184 140) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 14) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="108" r="3" fill="#E8B84B"/>
+  <circle cx="200" cy="102" r="2.5" fill="#FFFFFF"/>
+  <circle cx="178" cy="172" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="62" ry="7" fill="#D2CBFA"/>
+  <!-- foto saliendo por debajo (marco blanco, margen inferior ancho con la cara) -->
+  <g transform="rotate(4 110 140)">
+    <rect x="70" y="92" width="80" height="94" rx="4" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="78" y="100" width="64" height="52" fill="#B5DDFB"/>
+    <circle cx="128" cy="118" r="8" fill="#FBDD7E" stroke="#003478" stroke-width="2.2"/>
+    <path d="M78 152 L98 122 L108 134 L118 118 L142 152 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M93.3 129 L98 122 L102.7 127.6 Q98 131 93.3 129 Z" fill="#FFFFFF"/>
+    <path d="M113.6 124.4 L118 118 L122.4 124 Q118 127 113.6 124.4 Z" fill="#FFFFFF"/>
+    <rect x="78" y="100" width="64" height="52" fill="none" stroke="#003478" stroke-width="2.2"/>
+    <use href="#kw-cara-chica" transform="translate(110 163) scale(0.85)"/>
+    <ellipse cx="88" cy="172" rx="5.5" ry="3.4" fill="#FFCBA0"/>
+    <ellipse cx="132" cy="172" rx="5.5" ry="3.4" fill="#FFCBA0"/>
+  </g>
+  <!-- botón disparador (detrás del cuerpo) -->
+  <rect x="142" y="18" width="22" height="14" rx="4" fill="#4236F6" stroke="#003478" stroke-width="2.6"/>
+  <!-- cuerpo de la cámara: relleno, sombra, contorno -->
+  <rect x="44" y="28" width="132" height="76" rx="18" fill="#8CCBF6"/>
+  <path d="M44 88 Q60.5 82 77 88 T110 88 T143 88 T176 88 Q176 104 158 104 L62 104 Q44 104 44 88 Z" fill="#6FB8EE"/>
+  <rect x="44" y="28" width="132" height="76" rx="18" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="58" cy="44" rx="7" ry="3.5" fill="#C9DBFF" transform="rotate(-35 58 44)"/>
+  <!-- ranura por donde sale la foto -->
+  <rect x="66" y="96" width="88" height="7" rx="3.5" fill="#3B4566" stroke="#003478" stroke-width="2.2"/>
+  <!-- visor y flash -->
+  <rect x="58" y="40" width="20" height="14" rx="4" fill="#3B4566" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="63.5" cy="45" r="2" fill="#FFFFFF"/>
+  <rect x="138" y="38" width="26" height="16" rx="5" fill="#FFF3CC" stroke="#003478" stroke-width="2.4"/>
+  <path d="M144 46 L158 46" fill="none" stroke="#F6D47A" stroke-width="3" stroke-linecap="round"/>
+  <!-- lente -->
+  <circle cx="110" cy="64" r="28" fill="#FFFDF8" stroke="#003478" stroke-width="3"/>
+  <circle cx="110" cy="64" r="19" fill="#D5D9E4" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="110" cy="64" r="11" fill="#3B4566" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="106" cy="60" r="3.6" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 집 · casa · Estilo A Sticker pop · casita de techo azul con chimenea, ventana, puerta y cara en el frontón -->
+<!-- humo (suelto, fuera de la silueta) -->
+<circle cx="150" cy="30" r="6" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/>
+<circle cx="163" cy="17" r="8" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/>
+<!-- 1) silueta: chimenea + muro con frontón + techo -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="136" y="42" width="24" height="48" rx="3"/>
+<path d="M56 186 L56 104 L110 56 L164 104 L164 186 Z"/>
+<path d="M32 110 L110 36 L188 110 L174 122 L110 62 L46 122 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="136" y="42" width="24" height="48" rx="3"/>
+<path d="M56 186 L56 104 L110 56 L164 104 L164 186 Z"/>
+<path d="M32 110 L110 36 L188 110 L174 122 L110 62 L46 122 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="136" y="42" width="24" height="48" rx="3"/>
+<path d="M56 186 L56 104 L110 56 L164 104 L164 186 Z"/>
+<path d="M32 110 L110 36 L188 110 L174 122 L110 62 L46 122 Z"/>
+</g>
+<!-- 2) piezas: chimenea café, muro crema, techo azul con brillo lavanda -->
+<rect x="140" y="50" width="16" height="40" fill="#A0703F" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="136" y="42" width="24" height="10" rx="3" fill="#6E4424" stroke="#14142B" stroke-width="4"/>
+<path d="M56 186 L56 104 L110 56 L164 104 L164 186 Z" fill="#FFF4D9" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M32 110 L110 36 L188 110 L174 122 L110 62 L46 122 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M52 100 L100 54" fill="none" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round"/>
+<!-- ventana con marco en cruz -->
+<rect x="66" y="132" width="30" height="28" rx="4" fill="#9FD8FF" stroke="#14142B" stroke-width="4"/>
+<path d="M81 134 L81 158 M68 146 L94 146" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M71 141 L75 137" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<!-- puerta de madera con pomo dorado -->
+<path d="M118 186 L118 144 Q118 128 134 128 Q150 128 150 144 L150 186 Z" fill="#C98A3E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M126 178 L126 146 Q126 138 134 138 Q142 138 142 146" fill="none" stroke="#74461F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="143" cy="162" r="3.5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- 3) cara de la casa en el frontón (110,100), s = 0,8 -->
+<ellipse cx="98.8" cy="100" rx="5.2" ry="6.8" fill="#14142B"/>
+<ellipse cx="121.2" cy="100" rx="5.2" ry="6.8" fill="#14142B"/>
+<circle cx="100.56" cy="97.28" r="1.92" fill="#FFFFFF"/>
+<circle cx="122.96" cy="97.28" r="1.92" fill="#FFFFFF"/>
+<ellipse cx="89.2" cy="111.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<ellipse cx="130.8" cy="111.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<path d="M103.6 110.4 Q110 120 116.4 110.4 Z" fill="#14142B" stroke="#14142B" stroke-width="2.4" stroke-linejoin="round"/>
+<!-- 4) adornos -->
+<path d="M30 28 Q32.4 37.6 42 40 Q32.4 42.4 30 52 Q27.6 42.4 18 40 Q27.6 37.6 30 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 142 Q195.6 148.4 202 150 Q195.6 151.6 194 158 Q192.4 151.6 186 150 Q192.4 148.4 194 142 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="30" cy="160" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

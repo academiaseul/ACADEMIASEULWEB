@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 학원 · academia privada · Estilo A Sticker pop · edificio de noche con ventanas encendidas y letreros verticales (libro y lápiz, sin letras) -->
+<!-- silueta: cornisa + edificio + 2 letreros verticales -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="48" y="32" width="124" height="14" rx="6"/>
+<rect x="54" y="40" width="112" height="150" rx="8"/>
+<rect x="24" y="56" width="26" height="72" rx="6"/>
+<rect x="170" y="56" width="26" height="72" rx="6"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="48" y="32" width="124" height="14" rx="6"/>
+<rect x="54" y="40" width="112" height="150" rx="8"/>
+<rect x="24" y="56" width="26" height="72" rx="6"/>
+<rect x="170" y="56" width="26" height="72" rx="6"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="48" y="32" width="124" height="14" rx="6"/>
+<rect x="54" y="40" width="112" height="150" rx="8"/>
+<rect x="24" y="56" width="26" height="72" rx="6"/>
+<rect x="170" y="56" width="26" height="72" rx="6"/>
+</g>
+<!-- edificio azul y cornisa -->
+<rect x="54" y="40" width="112" height="150" rx="8" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<rect x="48" y="32" width="124" height="14" rx="6" fill="#2A1FC7" stroke="#14142B" stroke-width="4"/>
+<!-- ventanas encendidas (es de noche) -->
+<rect x="66" y="56" width="22" height="20" rx="4" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<rect x="99" y="56" width="22" height="20" rx="4" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<rect x="132" y="56" width="22" height="20" rx="4" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<rect x="66" y="86" width="22" height="20" rx="4" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<rect x="99" y="86" width="22" height="20" rx="4" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<rect x="132" y="86" width="22" height="20" rx="4" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<path d="M77 58 L77 74" stroke="#E8B84B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M110 58 L110 74" stroke="#E8B84B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M143 58 L143 74" stroke="#E8B84B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M77 88 L77 104" stroke="#E8B84B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M110 88 L110 104" stroke="#E8B84B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M143 88 L143 104" stroke="#E8B84B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- letrero blanco con la cara -->
+<rect x="64" y="114" width="92" height="38" rx="8" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="99.92" cy="129" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="120.08" cy="129" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="101.5" cy="126.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="121.66" cy="126.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="91.28" cy="139.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="128.72" cy="139.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M104.24 138.36 Q110 147 115.76 138.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- puerta de vidrio -->
+<rect x="90" y="160" width="40" height="30" rx="4" fill="#E6F5FF" stroke="#14142B" stroke-width="4"/>
+<path d="M110 162 L110 188" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<circle cx="105" cy="176" r="2.2" fill="#E8B84B"/>
+<circle cx="115" cy="176" r="2.2" fill="#E8B84B"/>
+<!-- letrero vertical izquierdo (menta): libro abierto -->
+<rect x="24" y="56" width="26" height="72" rx="6" fill="#6FCFAE" stroke="#14142B" stroke-width="4"/>
+<circle cx="37" cy="70" r="4.5" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<path d="M29 88 Q33 85 37 89 Q41 85 45 88 L45 101 Q41 98 37 102 Q33 98 29 101 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M37 89 L37 101" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="37" cy="116" r="4.5" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<!-- letrero vertical derecho (dorado): lápiz -->
+<rect x="170" y="56" width="26" height="72" rx="6" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<rect x="179" y="70" width="8" height="7" rx="2" fill="#C7B8FF" stroke="#14142B" stroke-width="2.5"/>
+<path d="M179 77 L187 77 L187 102 L179 102 Z" fill="#4236F6" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M179 102 L187 102 L183 112 Z" fill="#FFE6B8" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="183" cy="119" r="3" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<!-- adornos: luna dorada (noche), chispas y anillo -->
+<path d="M28.8 14.07 A12 12 0 1 0 41.52 29.33 A10 10 0 0 1 28.8 14.07 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 13 Q197.8 20.2 205 22 Q197.8 23.8 196 31 Q194.2 23.8 187 22 Q194.2 20.2 196 13 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 156 Q199.6 162.4 206 164 Q199.6 165.6 198 172 Q196.4 165.6 190 164 Q196.4 162.4 198 156 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="22" cy="168" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

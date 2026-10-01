@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 배 · pera coreana · Estilo A Sticker pop · pera redonda tostada con hoja, en su malla protectora blanca -->
+<defs><clipPath id="clipMalla"><path d="M48.95 142 A64 60 0 0 0 171.05 142 Z"/></clipPath></defs>
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M108 66 Q108 52 116 42" fill="none" stroke-width="34"/>
+<path d="M114 50 C122 32 146 30 156 38 C148 54 128 58 114 50 Z"/>
+<ellipse cx="110" cy="124" rx="64" ry="60"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M108 66 Q108 52 116 42" fill="none" stroke-width="34"/>
+<path d="M114 50 C122 32 146 30 156 38 C148 54 128 58 114 50 Z"/>
+<ellipse cx="110" cy="124" rx="64" ry="60"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M108 66 Q108 52 116 42" fill="none" stroke-width="27"/>
+<path d="M114 50 C122 32 146 30 156 38 C148 54 128 58 114 50 Z"/>
+<ellipse cx="110" cy="124" rx="64" ry="60"/>
+</g>
+<!-- tallo café y hoja verde -->
+<path d="M108 66 Q108 52 116 42" fill="none" stroke="#14142B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108 66 Q108 52 116 42" fill="none" stroke="#74461F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M114 50 C122 32 146 30 156 38 C148 54 128 58 114 50 Z" fill="#5CC98A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M119 48 Q136 42 150 39" fill="none" stroke="#2F8F57" stroke-width="3" stroke-linecap="round"/>
+<!-- pera: fondo tostado sin borde -->
+<ellipse cx="110" cy="124" rx="64" ry="60" fill="#EDC27E"/>
+<!-- pintitas y brillo -->
+<ellipse cx="92" cy="80" rx="2.6" ry="1.9" fill="#C98A3E"/>
+<ellipse cx="130" cy="77" rx="2.6" ry="1.9" fill="#C98A3E"/>
+<ellipse cx="152" cy="96" rx="2.4" ry="1.8" fill="#C98A3E"/>
+<ellipse cx="160" cy="122" rx="2.4" ry="1.8" fill="#C98A3E"/>
+<ellipse cx="64" cy="130" rx="2.4" ry="1.8" fill="#C98A3E"/>
+<path d="M60 112 Q62 90 78 78" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<!-- malla protectora blanca (rombos), recortada a la parte baja de la pera -->
+<g clip-path="url(#clipMalla)">
+<path d="M40 10 L180 150 M40 36 L180 176 M40 62 L180 202 M40 88 L180 228 M40 114 L180 254 M40 140 L180 280 M40 166 L180 306 M40 150 L180 10 M40 176 L180 36 M40 202 L180 62 M40 228 L180 88 M40 254 L180 114 M40 280 L180 140 M40 306 L180 166" fill="none" stroke="#14142B" stroke-width="8" stroke-linecap="round"/>
+<path d="M40 10 L180 150 M40 36 L180 176 M40 62 L180 202 M40 88 L180 228 M40 114 L180 254 M40 140 L180 280 M40 166 L180 306 M40 150 L180 10 M40 176 L180 36 M40 202 L180 62 M40 228 L180 88 M40 254 L180 114 M40 280 L180 140 M40 306 L180 166" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M40 142 L180 142" fill="none" stroke="#14142B" stroke-width="12" stroke-linecap="round"/>
+<path d="M40 142 L180 142" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+</g>
+<!-- borde de la pera ENCIMA -->
+<ellipse cx="110" cy="124" rx="64" ry="60" fill="none" stroke="#14142B" stroke-width="4"/>
+<!-- cara de la casa en (110,104), s = 1 -->
+<ellipse cx="96" cy="104" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="104" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="100.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="100.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="118" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="118" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 117 Q110 129 118 117 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M34 26 Q36.4 35.6 46 38 Q36.4 40.4 34 50 Q31.6 40.4 22 38 Q31.6 35.6 34 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 148 Q194 156 202 158 Q194 160 192 168 Q190 160 182 158 Q190 156 192 148 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M28 162 Q29.6 168.4 36 170 Q29.6 171.6 28 178 Q26.4 171.6 20 170 Q26.4 168.4 28 162 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="186" cy="40" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

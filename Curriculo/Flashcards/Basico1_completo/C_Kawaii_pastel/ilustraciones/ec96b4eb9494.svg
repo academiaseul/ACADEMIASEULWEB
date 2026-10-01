@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 어디 · dónde -->
+  <use href="#kw-brillo" transform="translate(36 58) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 110) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(30 126) scale(6)" fill="#FFFFFF"/>
+  <circle cx="62" cy="28" r="2.5" fill="#E8B84B"/>
+  <circle cx="200" cy="146" r="3" fill="#FFFFFF"/>
+  <circle cx="22" cy="92" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="72" ry="7" fill="#D2CBFA"/>
+  <!-- mapa plegado en tres: verde, crema, verde; río celeste y ruta punteada -->
+  <path d="M44 152 L88 145 L88 181 L44 188 Z" fill="#D6F4DD"/>
+  <path d="M88 145 L132 152 L132 188 L88 181 Z" fill="#FFF6E6"/>
+  <path d="M132 152 L176 145 L176 181 L132 188 Z" fill="#D6F4DD"/>
+  <path d="M44 172 Q66 160 88 166 Q110 172 132 163 Q154 155 176 160" fill="none" stroke="#8CCBF6" stroke-width="6" stroke-linecap="round"/>
+  <path d="M54 182 Q72 180 82 172 Q94 162 108 164" fill="none" stroke="#003478" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="4 4"/>
+  <path d="M44 152 L88 145 L132 152 L176 145 L176 181 L132 188 L88 181 L44 188 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M88 145 L88 181 M132 152 L132 188" fill="none" stroke="#003478" stroke-width="2.2"/>
+  <ellipse cx="110" cy="163" rx="10" ry="3" fill="#B9B0F5"/>
+  <!-- pin azul de mapa -->
+  <path d="M110 161 C102 142 68 112 68 72 A42 42 0 0 1 152 72 C152 112 118 142 110 161 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="84" cy="46" rx="10" ry="5.5" fill="#8FB6FF" transform="rotate(-38 84 46)"/>
+  <path d="M138 104 Q130 120 120 132" fill="none" stroke="#7A70FF" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="110" cy="72" r="29" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <!-- signo de pregunta gordito -->
+  <g transform="rotate(10 176 44)">
+    <path d="M162 34 Q162 20 176 20 Q190 20 190 33 Q190 42 182 46 Q177 49 177 55" fill="none" stroke="#003478" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M162 34 Q162 20 176 20 Q190 20 190 33 Q190 42 182 46 Q177 49 177 55" fill="none" stroke="#FFFFFF" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="177" cy="69" r="6" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  </g>
+  <!-- cara de duda en el pin -->
+  <use href="#kw-cara-o" transform="translate(110 70) scale(0.75)"/>
+</svg>

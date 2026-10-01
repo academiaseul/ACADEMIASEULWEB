@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 쉬다 · descansar (쉬어요) -->
+  <use href="#kw-brillo" transform="translate(30 38) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 40) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(202 100) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="104" r="3" fill="#FFFFFF"/>
+  <circle cx="168" cy="74" r="2.5" fill="#FFFFFF"/>
+  <circle cx="204" cy="158" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="76" ry="7" fill="#D2CBFA"/>
+  <!-- respaldo del sofá -->
+  <rect x="46" y="100" width="128" height="62" rx="16" fill="#7FD0B0" stroke="#003478" stroke-width="3"/>
+  <!-- persona base recostada (escala 0,68; trazos compensados) -->
+  <g transform="matrix(0.68 0 0 0.68 8 34)">
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="4.4" stroke-linejoin="round"/>
+    <path d="M99 124 L110 142 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M84 134 Q70 152 80 170" fill="none" stroke="#003478" stroke-width="19" stroke-linecap="round"/>
+    <path d="M84 134 Q70 152 80 170" fill="none" stroke="#4236F6" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3.8"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3.8"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="4.4"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="4.4" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="5" stroke-linecap="round"/>
+    <use href="#kw-cara-dormida" transform="translate(110 98)"/>
+  </g>
+  <!-- asiento, base y brazos del sofá -->
+  <rect x="50" y="146" width="120" height="22" rx="8" fill="#A6DEC4" stroke="#003478" stroke-width="3"/>
+  <rect x="42" y="164" width="136" height="16" rx="6" fill="#6CC7A4" stroke="#003478" stroke-width="3"/>
+  <rect x="34" y="122" width="20" height="56" rx="10" fill="#7FD0B0" stroke="#003478" stroke-width="3"/>
+  <rect x="166" y="122" width="20" height="56" rx="10" fill="#7FD0B0" stroke="#003478" stroke-width="3"/>
+  <path d="M56 181 L56 186 M164 181 L164 186" fill="none" stroke="#8C6448" stroke-width="5" stroke-linecap="round"/>
+  <!-- piernas estiradas con los pies arriba del brazo del sofá -->
+  <path d="M100 158 Q138 162 167 141" fill="none" stroke="#003478" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 158 Q138 162 167 141" fill="none" stroke="#8CCBF6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M96 147 Q128 150 158 127" fill="none" stroke="#003478" stroke-width="14" stroke-linecap="round"/>
+  <path d="M96 147 Q128 150 158 127" fill="none" stroke="#8CCBF6" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="172" cy="136" rx="9.5" ry="6" transform="rotate(-40 172 136)" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="163" cy="122" rx="9.5" ry="6" transform="rotate(-40 163 122)" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+  <!-- taza de té verde humeante -->
+  <path d="M135 106 Q131 100 135 94 Q139 88 135 82 M142 106 Q138 100 142 94" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M145 116 Q152 116 151 122 Q150 127 143 127" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M128 112 L146 112 L144 129 Q143 132 140 132 L134 132 Q131 132 130 129 Z" fill="#FFFFFF"/>
+  <path d="M128.8 118 L145.3 118 L144.8 122 L129.3 122 Z" fill="#A6E1B4"/>
+  <path d="M128 112 L146 112 L144 129 Q143 132 140 132 L134 132 Q131 132 130 129 Z" fill="none" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <!-- brazo derecho que sostiene la taza -->
+  <path d="M100 126 Q114 144 127 133" fill="none" stroke="#003478" stroke-width="11" stroke-linecap="round"/>
+  <path d="M100 126 Q114 144 127 133" fill="none" stroke="#4236F6" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="130" cy="130" r="5" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+</svg>

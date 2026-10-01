@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 아이 · niño, niña · Estilo A Sticker pop · niño pequeño (cabeza grande, cuerpo chico) con un bloque en las manos y otros bloques al lado -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M112 40 C106 26 120 20 124 30" fill="none" stroke-width="34"/>
+<path d="M64 96 C60 58 86 38 114 38 C142 38 168 58 164 96 Z"/>
+<ellipse cx="64" cy="100" rx="7" ry="9"/>
+<ellipse cx="164" cy="100" rx="7" ry="9"/>
+<ellipse cx="114" cy="88" rx="50" ry="46"/>
+<path d="M76 198 C76 174 92 160 114 160 C136 160 152 174 152 198 Z"/>
+<rect x="26" y="168" width="28" height="28"/>
+<path d="M26 168 L33 161 L61 161 L54 168 Z"/>
+<path d="M54 168 L61 161 L61 189 L54 196 Z"/>
+<path d="M30 142 L36 136 L60 136 L54 142 Z"/>
+<path d="M54 142 L60 136 L60 160 L54 166 Z"/>
+<rect x="30" y="142" width="24" height="24"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M112 40 C106 26 120 20 124 30" fill="none" stroke-width="34"/>
+<path d="M64 96 C60 58 86 38 114 38 C142 38 168 58 164 96 Z"/>
+<ellipse cx="64" cy="100" rx="7" ry="9"/>
+<ellipse cx="164" cy="100" rx="7" ry="9"/>
+<ellipse cx="114" cy="88" rx="50" ry="46"/>
+<path d="M76 198 C76 174 92 160 114 160 C136 160 152 174 152 198 Z"/>
+<rect x="26" y="168" width="28" height="28"/>
+<path d="M26 168 L33 161 L61 161 L54 168 Z"/>
+<path d="M54 168 L61 161 L61 189 L54 196 Z"/>
+<path d="M30 142 L36 136 L60 136 L54 142 Z"/>
+<path d="M54 142 L60 136 L60 160 L54 166 Z"/>
+<rect x="30" y="142" width="24" height="24"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M112 40 C106 26 120 20 124 30" fill="none" stroke-width="27"/>
+<path d="M64 96 C60 58 86 38 114 38 C142 38 168 58 164 96 Z"/>
+<ellipse cx="64" cy="100" rx="7" ry="9"/>
+<ellipse cx="164" cy="100" rx="7" ry="9"/>
+<ellipse cx="114" cy="88" rx="50" ry="46"/>
+<path d="M76 198 C76 174 92 160 114 160 C136 160 152 174 152 198 Z"/>
+<rect x="26" y="168" width="28" height="28"/>
+<path d="M26 168 L33 161 L61 161 L54 168 Z"/>
+<path d="M54 168 L61 161 L61 189 L54 196 Z"/>
+<path d="M30 142 L36 136 L60 136 L54 142 Z"/>
+<path d="M54 142 L60 136 L60 160 L54 166 Z"/>
+<rect x="30" y="142" width="24" height="24"/>
+</g>
+<!-- bloques de al lado: cubo azul + cubo menta encima -->
+<rect x="26" y="168" width="28" height="28" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M26 168 L33 161 L61 161 L54 168 Z" fill="#9DB7FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M54 168 L61 161 L61 189 L54 196 Z" fill="#2A1FC7" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="30" y="142" width="24" height="24" fill="#5CC98A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M30 142 L36 136 L60 136 L54 142 Z" fill="#B4F0C8" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M54 142 L60 136 L60 160 L54 166 Z" fill="#2F8F57" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- pelo de atrás + remolino -->
+<path d="M112 40 C106 26 120 20 124 30" stroke="#14142B" stroke-width="12" stroke-linecap="round"/>
+<path d="M64 96 C60 58 86 38 114 38 C142 38 168 58 164 96 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="64" cy="100" rx="7" ry="9" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="164" cy="100" rx="7" ry="9" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<!-- cuerpo chico: polera celeste -->
+<path d="M76 198 C76 174 92 160 114 160 C136 160 152 174 152 198 Z" fill="#9FD8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M106 128 L106 162 Q114 167 122 162 L122 128 Z" fill="#8D5A3B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cabeza grande -->
+<ellipse cx="114" cy="88" rx="50" ry="46" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<path d="M63 90 C61 58 86 39 114 39 C142 39 167 58 165 90 C158 74 146 64 132 64 Q122 72 114 66 Q104 72 94 66 C80 68 70 78 63 90 Z" fill="#14142B"/>
+<path d="M165 90 C158 74 146 64 132 64 Q122 72 114 66 Q104 72 94 66 C80 68 70 78 63 90" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84 52 Q96 46 108 46" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- cara de la casa en (114,100), s = 0,9 -->
+<ellipse cx="101.4" cy="100" rx="5.85" ry="7.65" fill="#14142B"/>
+<ellipse cx="126.6" cy="100" rx="5.85" ry="7.65" fill="#14142B"/>
+<circle cx="103.38" cy="96.94" r="2.16" fill="#FFFFFF"/>
+<circle cx="128.58" cy="96.94" r="2.16" fill="#FFFFFF"/>
+<ellipse cx="90.6" cy="112.6" rx="6.3" ry="4.05" fill="#FFB98A"/>
+<ellipse cx="137.4" cy="112.6" rx="6.3" ry="4.05" fill="#FFB98A"/>
+<path d="M106.8 111.7 Q114 122.5 121.2 111.7 Z" fill="#14142B" stroke="#14142B" stroke-width="2.7" stroke-linejoin="round"/>
+<!-- bloque dorado en las manos -->
+<path d="M100 170 L107 163 L135 163 L128 170 Z" fill="#FFD95E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M128 170 L135 163 L135 189 L128 196 Z" fill="#B9861E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="100" y="170" width="28" height="26" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="106" y="176" width="16" height="14" rx="3" fill="#FFD95E"/>
+<ellipse cx="97" cy="184" rx="8" ry="10" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="138" cy="180" rx="8" ry="10" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<!-- adornos -->
+<path d="M30 20 Q32.4 29.6 42 32 Q32.4 34.4 30 44 Q27.6 34.4 18 32 Q27.6 29.6 30 20 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 111 Q193.8 118.2 201 120 Q193.8 121.8 192 129 Q190.2 121.8 183 120 Q190.2 118.2 192 111 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="188" cy="32" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 친구 · amigo, amiga -->
+  <use href="#kw-brillo" transform="translate(26 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 36) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(206 150) scale(5)" fill="#FFFFFF"/>
+  <circle cx="14" cy="150" r="3" fill="#FFFFFF"/>
+  <circle cx="110" cy="32" r="2.5" fill="#CFC8FF"/>
+  <circle cx="48" cy="56" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="82" ry="7" fill="#D2CBFA"/>
+  <!-- amigo (polera celeste, piel morena) -->
+  <g transform="matrix(0.76 0 0 0.76 -19.6 42.8)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.4"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.4"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="3.4"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="3.4"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#8CCBF6" stroke="#003478" stroke-width="3.9" stroke-linejoin="round"/>
+    <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M84 132 Q70 150 78 168" fill="none" stroke="#003478" stroke-width="17" stroke-linecap="round"/>
+    <path d="M84 132 Q70 150 78 168" fill="none" stroke="#8CCBF6" stroke-width="9.2" stroke-linecap="round"/>
+    <circle cx="78" cy="170" r="6.5" fill="#C98F5E" stroke="#003478" stroke-width="3.2"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="3.4"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="3.4"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#C98F5E" stroke="#003478" stroke-width="3.9"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3.9" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="4.6" stroke-linecap="round"/>
+    <ellipse cx="82" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <ellipse cx="138" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <use href="#kw-cara-chica" transform="translate(110 98) scale(1.1)"/>
+    <path d="M136 132 Q158 134 163 113" fill="none" stroke="#003478" stroke-width="17" stroke-linecap="round"/>
+    <path d="M136 132 Q158 134 163 113" fill="none" stroke="#8CCBF6" stroke-width="9.2" stroke-linecap="round"/>
+    <circle cx="164" cy="108" r="8.5" fill="#C98F5E" stroke="#003478" stroke-width="3.2"/>
+  </g>
+  <!-- amiga (polera menta, coleta con coletero dorado) -->
+  <g transform="matrix(0.76 0 0 0.76 72.4 42.8)">
+    <path d="M146 50 Q180 40 178 80 Q177 102 160 108 Q168 84 142 64 Z" fill="#3B4566" stroke="#003478" stroke-width="3.9" stroke-linejoin="round"/>
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.4"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.4"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#4236F6" stroke="#003478" stroke-width="3.4"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#4236F6" stroke="#003478" stroke-width="3.4"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#7FD0B0" stroke="#003478" stroke-width="3.9" stroke-linejoin="round"/>
+    <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M136 132 Q150 150 142 168" fill="none" stroke="#003478" stroke-width="17" stroke-linecap="round"/>
+    <path d="M136 132 Q150 150 142 168" fill="none" stroke="#7FD0B0" stroke-width="9.2" stroke-linecap="round"/>
+    <circle cx="142" cy="170" r="6.5" fill="#FFE4C8" stroke="#003478" stroke-width="3.2"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3.4"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3.4"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3.9"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3.9" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="4.6" stroke-linecap="round"/>
+    <circle cx="146" cy="52" r="7" fill="#E8B84B" stroke="#003478" stroke-width="3.2"/>
+    <use href="#kw-cara-feliz" transform="translate(110 98)"/>
+    <path d="M84 132 Q62 134 57 113" fill="none" stroke="#003478" stroke-width="17" stroke-linecap="round"/>
+    <path d="M84 132 Q62 134 57 113" fill="none" stroke="#7FD0B0" stroke-width="9.2" stroke-linecap="round"/>
+    <circle cx="56" cy="108" r="8.5" fill="#FFE4C8" stroke="#003478" stroke-width="3.2"/>
+  </g>
+  <!-- ¡chócala!: destello dorado entre las dos cabezas, sobre las manos -->
+  <use href="#kw-brillo" transform="translate(110 94) scale(8)" fill="#E8B84B"/>
+</svg>

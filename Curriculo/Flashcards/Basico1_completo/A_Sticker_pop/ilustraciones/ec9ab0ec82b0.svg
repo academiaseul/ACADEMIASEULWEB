@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 우산 · paraguas · Estilo A Sticker pop · mazo aprobado (30 sept 2026) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M110 110 L110 176 Q110 196 94 196 Q80 196 80 182" fill="none" stroke-width="36"/>
+<path d="M28 114 C28 62 66 32 110 32 C154 32 192 62 192 114 Q171.5 100 151 114 Q130.5 100 110 114 Q89.5 100 69 114 Q48.5 100 28 114 Z"/>
+<circle cx="110" cy="25" r="7"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M110 110 L110 176 Q110 196 94 196 Q80 196 80 182" fill="none" stroke-width="36"/>
+<path d="M28 114 C28 62 66 32 110 32 C154 32 192 62 192 114 Q171.5 100 151 114 Q130.5 100 110 114 Q89.5 100 69 114 Q48.5 100 28 114 Z"/>
+<circle cx="110" cy="25" r="7"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M110 110 L110 176 Q110 196 94 196 Q80 196 80 182" fill="none" stroke-width="29"/>
+<path d="M28 114 C28 62 66 32 110 32 C154 32 192 62 192 114 Q171.5 100 151 114 Q130.5 100 110 114 Q89.5 100 69 114 Q48.5 100 28 114 Z"/>
+<circle cx="110" cy="25" r="7"/>
+</g>
+<path d="M110 110 L110 176 Q110 196 94 196 Q80 196 80 182" fill="none" stroke="#14142B" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 110 L110 176 Q110 196 94 196 Q80 196 80 182" fill="none" stroke="#E8B84B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="110" cy="25" r="7" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<path d="M28 114 C28 62 66 32 110 32 C154 32 192 62 192 114 Q171.5 100 151 114 Q130.5 100 110 114 Q89.5 100 69 114 Q48.5 100 28 114 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M110 32 Q76 50 69 114 Q89.5 100 110 114 Q130.5 100 151 114 Q144 50 110 32 Z" fill="#DCE0FA"/>
+<path d="M110 32 Q76 50 69 114" fill="none" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 32 Q144 50 151 114" fill="none" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 32 L110 114" fill="none" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 114 C28 62 66 32 110 32 C154 32 192 62 192 114 Q171.5 100 151 114 Q130.5 100 110 114 Q89.5 100 69 114 Q48.5 100 28 114 Z" fill="none" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="98.1" cy="76" rx="5.52" ry="7.22" fill="#14142B"/>
+<ellipse cx="121.9" cy="76" rx="5.52" ry="7.22" fill="#14142B"/>
+<circle cx="99.97" cy="73.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="73.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="87.9" rx="5.95" ry="3.82" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="87.9" rx="5.95" ry="3.82" fill="#FFB98A"/>
+<path d="M103.2 87.05 Q110 97.25 116.8 87.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<path d="M34 138 C34 138 26 148.4 26 153.2 A8 8 0 0 0 42 153.2 C42 148.4 34 138 34 138 Z" fill="#8FB0FF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M188 140 C188 140 180 150.4 180 155.2 A8 8 0 0 0 196 155.2 C196 150.4 188 140 188 140 Z" fill="#8FB0FF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M44 176 C44 176 37.5 184.45 37.5 188.35 A6.5 6.5 0 0 0 50.5 188.35 C50.5 184.45 44 176 44 176 Z" fill="#8FB0FF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M172 178 C172 178 165.5 186.45 165.5 190.35 A6.5 6.5 0 0 0 178.5 190.35 C178.5 186.45 172 178 172 178 Z" fill="#8FB0FF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M24 22 Q26 30 34 32 Q26 34 24 42 Q22 34 14 32 Q22 30 24 22 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 20 Q200 28 208 30 Q200 32 198 40 Q196 32 188 30 Q196 28 198 20 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+</svg>

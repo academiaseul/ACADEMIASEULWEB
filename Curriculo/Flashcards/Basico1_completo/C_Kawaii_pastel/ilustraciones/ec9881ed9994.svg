@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 영화 · película — claqueta abierta con cara + caja de palomitas a rayas azules -->
+  <use href="#kw-brillo" transform="translate(186 44) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(26 56) scale(7.5)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(205 140) scale(5.5)" fill="#FFFFFF"/>
+  <circle cx="146" cy="48" r="3" fill="#FFFFFF"/>
+  <circle cx="24" cy="132" r="2.5" fill="#E8B84B"/>
+  <circle cx="92" cy="30" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="112" cy="188" rx="82" ry="7" fill="#8FB4EE"/>
+  <!-- palomitas (detrás del borde de la caja) -->
+  <circle cx="134" cy="118" r="8" fill="#FFF6E6" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="178" cy="116" r="8" fill="#FFF6E6" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="146" cy="108" r="9" fill="#FFF6E6" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="164" cy="106" r="9" fill="#FBE08A" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="156" cy="118" r="8.5" fill="#FFF6E6" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="170" cy="122" r="7" fill="#FBE08A" stroke="#003478" stroke-width="2.2"/>
+  <!-- caja de palomitas: relleno, rayas, contorno -->
+  <path d="M126 124 L186 124 L178 180 Q177 184 173 184 L139 184 Q135 184 134 180 Z" fill="#FFFFFF"/>
+  <path d="M141 128 L143.5 180 M156 128 L156 181 M171 128 L168.5 180" fill="none" stroke="#8FB6FF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M126 124 L186 124 L178 180 Q177 184 173 184 L139 184 Q135 184 134 180 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <use href="#kw-cara-chica" transform="translate(156 150) scale(0.75)"/>
+  <!-- claqueta: cuerpo crema, banda de rayas, sombra abajo -->
+  <path d="M38 98 Q38 92 44 92 L114 92 Q120 92 120 98 L120 168 Q120 178 110 178 L48 178 Q38 178 38 168 Z" fill="#FFFDF8"/>
+  <path d="M52 93.5 L62 93.5 L54 106.5 L44 106.5 Z M72 93.5 L82 93.5 L74 106.5 L64 106.5 Z M92 93.5 L102 93.5 L94 106.5 L84 106.5 Z M112 93.5 L118.5 93.5 L118.5 96 L112.5 106.5 L104 106.5 Z" fill="#4236F6"/>
+  <path d="M38 158 Q46 153 54 158 T70 158 T86 158 T102 158 T118 158 L120 158 L120 168 Q120 178 110 178 L48 178 Q38 178 38 168 Z" fill="#D6E3FF"/>
+  <path d="M38 98 Q38 92 44 92 L114 92 Q120 92 120 98 L120 168 Q120 178 110 178 L48 178 Q38 178 38 168 Z M38 108 L120 108" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- tapa abierta con rayas al revés -->
+  <g transform="rotate(-18 40 90)">
+    <rect x="38" y="74" width="82" height="16" rx="5" fill="#FFFDF8"/>
+    <path d="M44 75.5 L54 75.5 L62 88.5 L52 88.5 Z M64 75.5 L74 75.5 L82 88.5 L72 88.5 Z M84 75.5 L94 75.5 L102 88.5 L92 88.5 Z M104 75.5 L114 75.5 L118.5 82.8 L118.5 88.5 L112 88.5 Z" fill="#4236F6"/>
+    <rect x="38" y="74" width="82" height="16" rx="5" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <circle cx="42" cy="91" r="4.5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <use href="#kw-cara" transform="translate(79 136) scale(0.9)"/>
+</svg>

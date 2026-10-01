@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 거울 · espejo (espejo de pie, marco redondeado, brillo en el vidrio) -->
+  <use href="#kw-brillo" transform="translate(34 46) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 40) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(194 132) scale(6)" fill="#FFFFFF"/>
+  <circle cx="26" cy="112" r="3" fill="#E8B84B"/>
+  <circle cx="204" cy="90" r="2.5" fill="#FFFFFF"/>
+  <circle cx="34" cy="164" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <!-- patitas de madera -->
+  <path d="M70 176 L66 184 Q65 187 69 187 L84 187 Q88 187 87 184 L84 176 Z" fill="#C99A5E" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M136 176 L133 184 Q132 187 136 187 L151 187 Q155 187 154 184 L150 176 Z" fill="#C99A5E" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <!-- marco dorado: relleno, sombra, contorno -->
+  <path d="M64 166 L64 66 Q64 20 110 20 Q156 20 156 66 L156 166 Q156 178 144 178 L76 178 Q64 178 64 166 Z" fill="#F6D47A"/>
+  <path d="M64 156 Q75.5 150 87 156 T110 156 T133 156 T156 156 L156 166 Q156 178 144 178 L76 178 Q64 178 64 166 Z" fill="#E2B44E"/>
+  <path d="M64 166 L64 66 Q64 20 110 20 Q156 20 156 66 L156 166 Q156 178 144 178 L76 178 Q64 178 64 166 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="78" cy="40" rx="6" ry="3" fill="#FFF3CC" transform="rotate(-50 78 40)"/>
+  <!-- vidrio celeste con reflejos blancos -->
+  <path d="M76 162 L76 68 Q76 32 110 32 Q144 32 144 68 L144 162 Q144 166 140 166 L80 166 Q76 166 76 162 Z" fill="#C9DBFF"/>
+  <path d="M76 144 Q93 138 110 144 T144 144 L144 162 Q144 166 140 166 L80 166 Q76 166 76 162 Z" fill="#B3D5F6"/>
+  <path d="M86 92 L111 50" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M90 112 L124 56" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M76 162 L76 68 Q76 32 110 32 Q144 32 144 68 L144 162 Q144 166 140 166 L80 166 Q76 166 76 162 Z" fill="none" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <use href="#kw-brillo" transform="translate(130 54) scale(7)" fill="#FFFFFF"/>
+  <use href="#kw-cara" transform="translate(110 122) scale(0.8)"/>
+</svg>

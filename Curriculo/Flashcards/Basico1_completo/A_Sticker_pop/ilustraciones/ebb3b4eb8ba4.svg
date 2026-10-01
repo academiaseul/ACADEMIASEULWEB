@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 보다 · ver, mirar · Estilo A Sticker pop · persona que mira la tele con un balde de palomitas -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 66 L36 44 M50 66 L64 44" fill="none" stroke-width="31"/>
+<circle cx="36" cy="44" r="4.5"/>
+<circle cx="64" cy="44" r="4.5"/>
+<rect x="14" y="66" width="72" height="60" rx="12"/>
+<rect x="26" y="124" width="10" height="10" rx="3"/>
+<rect x="64" y="124" width="10" height="10" rx="3"/>
+<path d="M102.1 106.9 C93 56 120.3 39.6 144 39.6 C167.7 39.6 195 56 185.9 106.9 Z"/>
+<ellipse cx="144" cy="96" rx="40" ry="38"/>
+<path d="M104 196 C104 172 120 158 144 158 C168 158 184 172 184 196 Z"/>
+<circle cx="136" cy="140" r="9"/>
+<circle cx="152" cy="140" r="9"/>
+<circle cx="122" cy="146" r="8"/>
+<circle cx="166" cy="146" r="8"/>
+<path d="M116 156 L172 156 L164 196 L124 196 Z"/>
+<rect x="112" y="150" width="64" height="10" rx="5"/>
+<ellipse cx="114" cy="172" rx="9" ry="10"/>
+<ellipse cx="174" cy="172" rx="9" ry="10"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 66 L36 44 M50 66 L64 44" fill="none" stroke-width="31"/>
+<circle cx="36" cy="44" r="4.5"/>
+<circle cx="64" cy="44" r="4.5"/>
+<rect x="14" y="66" width="72" height="60" rx="12"/>
+<rect x="26" y="124" width="10" height="10" rx="3"/>
+<rect x="64" y="124" width="10" height="10" rx="3"/>
+<path d="M102.1 106.9 C93 56 120.3 39.6 144 39.6 C167.7 39.6 195 56 185.9 106.9 Z"/>
+<ellipse cx="144" cy="96" rx="40" ry="38"/>
+<path d="M104 196 C104 172 120 158 144 158 C168 158 184 172 184 196 Z"/>
+<circle cx="136" cy="140" r="9"/>
+<circle cx="152" cy="140" r="9"/>
+<circle cx="122" cy="146" r="8"/>
+<circle cx="166" cy="146" r="8"/>
+<path d="M116 156 L172 156 L164 196 L124 196 Z"/>
+<rect x="112" y="150" width="64" height="10" rx="5"/>
+<ellipse cx="114" cy="172" rx="9" ry="10"/>
+<ellipse cx="174" cy="172" rx="9" ry="10"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 66 L36 44 M50 66 L64 44" fill="none" stroke-width="24"/>
+<circle cx="36" cy="44" r="4.5"/>
+<circle cx="64" cy="44" r="4.5"/>
+<rect x="14" y="66" width="72" height="60" rx="12"/>
+<rect x="26" y="124" width="10" height="10" rx="3"/>
+<rect x="64" y="124" width="10" height="10" rx="3"/>
+<path d="M102.1 106.9 C93 56 120.3 39.6 144 39.6 C167.7 39.6 195 56 185.9 106.9 Z"/>
+<ellipse cx="144" cy="96" rx="40" ry="38"/>
+<path d="M104 196 C104 172 120 158 144 158 C168 158 184 172 184 196 Z"/>
+<circle cx="136" cy="140" r="9"/>
+<circle cx="152" cy="140" r="9"/>
+<circle cx="122" cy="146" r="8"/>
+<circle cx="166" cy="146" r="8"/>
+<path d="M116 156 L172 156 L164 196 L124 196 Z"/>
+<rect x="112" y="150" width="64" height="10" rx="5"/>
+<ellipse cx="114" cy="172" rx="9" ry="10"/>
+<ellipse cx="174" cy="172" rx="9" ry="10"/>
+</g>
+<!-- tele: antena, patas, cuerpo azul, pantalla con "play" -->
+<path d="M50 66 L36 44 M50 66 L64 44" stroke="#14142B" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 66 L36 44 M50 66 L64 44" stroke="#8A8FA8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="44" r="4.5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<circle cx="64" cy="44" r="4.5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<rect x="26" y="124" width="10" height="10" rx="3" fill="#8A8FA8" stroke="#14142B" stroke-width="3.5"/>
+<rect x="64" y="124" width="10" height="10" rx="3" fill="#8A8FA8" stroke="#14142B" stroke-width="3.5"/>
+<rect x="14" y="66" width="72" height="60" rx="12" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<rect x="23" y="75" width="50" height="42" rx="6" fill="#9FD8FF" stroke="#14142B" stroke-width="4"/>
+<path d="M28 85 L34 79" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M42 86 L42 106 L59 96 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="79.5" cy="88" r="3" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="79.5" cy="100" r="3" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<!-- pelo de atrás (castaño) -->
+<path d="M102.1 106.9 C93 56 120.3 39.6 144 39.6 C167.7 39.6 195 56 185.9 106.9 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- torso: chaleco dorado y cuello -->
+<path d="M104 196 C104 172 120 158 144 158 C168 158 184 172 184 196 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M132 128 L132 160 Q144 166 156 160 L156 128 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cabeza, girada hacia la tele -->
+<ellipse cx="144" cy="96" rx="40" ry="38" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M103.96 99.64 C100.32 65.06 120.34 48.68 144 48.68 C167.66 48.68 187.68 65.06 184.04 99.64 C180.4 86.9 173.12 77.8 164.02 74.16 C154.92 81.44 136.72 83.26 123.98 77.8 C114.88 83.26 107.6 90.54 103.96 99.64 Z" fill="#4A3426"/>
+<path d="M184.04 99.64 C180.4 86.9 173.12 77.8 164.02 74.16 C154.92 81.44 136.72 83.26 123.98 77.8 C114.88 83.26 107.6 90.54 103.96 99.64" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M118 56 Q130 48 142 48" stroke="#6E4424" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="127.92" cy="104" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="148.08" cy="104" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="129.5" cy="101.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="149.66" cy="101.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="119.28" cy="114.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="156.72" cy="114.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M132.24 113.36 Q138 122 143.76 113.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- balde de palomitas a rayas azules -->
+<path d="M116 156 L172 156 L164 196 L124 196 Z" fill="#FFFFFF"/>
+<path d="M127.2 156 L138.4 156 L140 196 L132 196 Z" fill="#4236F6"/>
+<path d="M149.6 156 L160.8 156 L156 196 L148 196 Z" fill="#4236F6"/>
+<path d="M116 156 L172 156 L164 196 L124 196 Z" fill="none" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="136" cy="140" r="9" fill="#FFF4D9" stroke="#14142B" stroke-width="3"/>
+<circle cx="152" cy="140" r="9" fill="#FFF4D9" stroke="#14142B" stroke-width="3"/>
+<circle cx="122" cy="146" r="8" fill="#FFF4D9" stroke="#14142B" stroke-width="3"/>
+<circle cx="166" cy="146" r="8" fill="#FFF4D9" stroke="#14142B" stroke-width="3"/>
+<circle cx="144" cy="147" r="8" fill="#FFF4D9" stroke="#14142B" stroke-width="3"/>
+<circle cx="140" cy="137" r="2" fill="#FFD95E"/>
+<circle cx="163" cy="143" r="2" fill="#FFD95E"/>
+<rect x="112" y="150" width="64" height="10" rx="5" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<!-- manos -->
+<ellipse cx="114" cy="172" rx="9" ry="10" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="174" cy="172" rx="9" ry="10" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- adornos -->
+<path d="M196 17 Q198.2 25.8 207 28 Q198.2 30.2 196 39 Q193.8 30.2 185 28 Q193.8 25.8 196 17 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M24 161 Q25.8 168.2 33 170 Q25.8 171.8 24 179 Q22.2 171.8 15 170 Q22.2 168.2 24 161 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="62" cy="186" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

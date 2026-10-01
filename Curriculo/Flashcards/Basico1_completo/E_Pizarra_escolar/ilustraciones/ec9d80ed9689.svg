@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="은행" data-es="banco">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 165 C 72 172, 150 172, 206 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- frontón con el signo del won dibujado en dorado -->
+    <path d="M14 62 L80 22 L146 62 Z" fill="#1F3B33"/>
+    <path d="M68 37 L74 57 L80 43 L86 57 L92 37 M64 45 H96 M64 51 H96" stroke="#E8B84B" stroke-width="3"/>
+    <!-- friso, columnas y escalones -->
+    <rect x="20" y="62" width="120" height="8" fill="url(#rt)"/>
+    <rect x="28" y="74" width="10" height="76" fill="url(#rt)"/>
+    <rect x="48" y="74" width="10" height="76" fill="url(#rt)"/>
+    <rect x="102" y="74" width="10" height="76" fill="url(#rt)"/>
+    <rect x="122" y="74" width="10" height="76" fill="url(#rt)"/>
+    <path d="M25 74 H41 M45 74 H61 M99 74 H115 M119 74 H135" stroke-width="2.6"/>
+    <path d="M66 150 V108 C 66 98, 94 98, 94 108 V150" stroke-width="2.6"/>
+    <path d="M80 100 V150" stroke-width="2" stroke-opacity="0.7"/>
+    <rect x="18" y="150" width="124" height="6" fill="url(#rt)"/>
+    <rect x="12" y="156" width="136" height="6" fill="url(#rt)"/>
+    <!-- chanchito alcancía en la puerta, con una moneda que cae -->
+    <rect x="150" y="150" width="10" height="13" rx="3" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.4"/>
+    <rect x="180" y="150" width="10" height="13" rx="3" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M200 134 C 208 128, 210 140, 203 141 C 198 141, 199 134, 205 132" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M152 119 L154 104 L166 114 Z" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M188 119 L186 104 L174 114 Z" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.4"/>
+    <ellipse cx="170" cy="137" rx="30" ry="23" fill="#1F3B33"/>
+    <ellipse cx="170" cy="137" rx="30" ry="23" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.8"/>
+    <path d="M155 109 L157 113 L161 112 Z M185 109 L183 113 L179 112 Z" fill="#F4B98C" stroke="none"/>
+    <rect x="162" y="115" width="16" height="4.5" rx="2" fill="#1F3B33" stroke-width="2"/>
+    <circle cx="157" cy="131" r="6.5" fill="#F3F0E4" stroke="none"/>
+    <circle cx="183" cy="131" r="6.5" fill="#F3F0E4" stroke="none"/>
+    <circle cx="154.5" cy="128.5" r="2.4" fill="#1F3B33" stroke="none"/>
+    <circle cx="180.5" cy="128.5" r="2.4" fill="#1F3B33" stroke="none"/>
+    <circle cx="159.5" cy="134" r="1" fill="#1F3B33" stroke="none"/>
+    <circle cx="185.5" cy="134" r="1" fill="#1F3B33" stroke="none"/>
+    <ellipse cx="170" cy="145" rx="10" ry="7" fill="#1F3B33" stroke-width="2.6"/>
+    <ellipse cx="166.5" cy="145" rx="1.8" ry="2.6" fill="#F3F0E4" stroke="none"/>
+    <ellipse cx="173.5" cy="145" rx="1.8" ry="2.6" fill="#F3F0E4" stroke="none"/>
+    <ellipse cx="148" cy="145" rx="6" ry="3.4" fill="#F4B98C" stroke="none"/>
+    <ellipse cx="192" cy="145" rx="6" ry="3.4" fill="#F4B98C" stroke="none"/>
+    <circle cx="170" cy="98" r="7.5" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="170" cy="98" r="3.2" stroke="#E8B84B" stroke-width="1.8"/>
+    <path d="M160 92 L156 88 M180 92 L184 88" stroke="#E8B84B" stroke-width="2.2"/>
+    <use href="#estrella" transform="translate(184 46) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(160 30) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(204 86) scale(0.55)"/>
+  </g>
+</svg>

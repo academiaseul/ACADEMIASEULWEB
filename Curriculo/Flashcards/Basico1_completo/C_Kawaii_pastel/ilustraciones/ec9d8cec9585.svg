@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 음악 · música (parlante con notas musicales y ondas de sonido) -->
+  <use href="#kw-brillo" transform="translate(146 22) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(26 168) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(196 174) scale(6)" fill="#FFFFFF"/>
+  <circle cx="72" cy="20" r="3" fill="#FFFFFF"/>
+  <circle cx="206" cy="98" r="2.5" fill="#FFFFFF"/>
+  <circle cx="16" cy="104" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <!-- ondas de sonido blancas a los lados -->
+  <path d="M166 118 Q173 133 166 148" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M178 108 Q190 133 178 158" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M54 118 Q47 133 54 148" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M42 108 Q30 133 42 158" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- patitas -->
+  <rect x="76" y="170" width="16" height="15" rx="5" fill="#6E7591" stroke="#003478" stroke-width="2.6"/>
+  <rect x="128" y="170" width="16" height="15" rx="5" fill="#6E7591" stroke="#003478" stroke-width="2.6"/>
+  <!-- caja del parlante: relleno, sombra ondulada, contorno -->
+  <rect x="64" y="40" width="92" height="138" rx="18" fill="#F6D47A"/>
+  <path d="M64 154 Q75.5 148 87 154 T110 154 T133 154 T156 154 L156 160 Q156 178 138 178 L82 178 Q64 178 64 160 Z" fill="#E2B44E"/>
+  <rect x="64" y="40" width="92" height="138" rx="18" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="80" cy="54" rx="9" ry="4.5" fill="#FFF3CC" transform="rotate(-35 80 54)"/>
+  <!-- altavoz (woofer): aro azul, cono lila, tapa crema -->
+  <circle cx="110" cy="130" r="30" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <circle cx="110" cy="130" r="21" fill="#E4E0FF" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="110" cy="130" r="9" fill="#FFFDF8" stroke="#003478" stroke-width="2.2"/>
+  <ellipse cx="96" cy="118" rx="5" ry="2.6" fill="#FFFFFF" transform="rotate(-40 96 118)"/>
+  <!-- nota doble (corcheas unidas) blanca a la derecha -->
+  <path d="M171 80 L171 46 L197 38 L197 72" fill="none" stroke="#003478" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M171 80 L171 46 L197 38 L197 72" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="164" cy="82" rx="8.5" ry="6.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" transform="rotate(-20 164 82)"/>
+  <ellipse cx="190" cy="74" rx="8.5" ry="6.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6" transform="rotate(-20 190 74)"/>
+  <!-- corchea dorada a la izquierda -->
+  <path d="M43 88 L43 52 Q55 56 55 72" fill="none" stroke="#003478" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 88 L43 52 Q55 56 55 72" fill="none" stroke="#F6D47A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="36" cy="90" rx="8.5" ry="6.5" fill="#F6D47A" stroke="#003478" stroke-width="2.6" transform="rotate(-20 36 90)"/>
+  <use href="#kw-cara" transform="translate(110 72) scale(0.82)"/>
+</svg>

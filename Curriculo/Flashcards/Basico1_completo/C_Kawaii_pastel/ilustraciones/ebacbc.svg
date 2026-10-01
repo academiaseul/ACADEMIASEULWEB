@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 물 · agua -->
+  <use href="#kw-brillo" transform="translate(176 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(30 44) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(200 92) scale(5)" fill="#FFFFFF"/>
+  <circle cx="22" cy="120" r="3" fill="#FFFFFF"/>
+  <circle cx="150" cy="70" r="2.5" fill="#E8B84B"/>
+  <circle cx="30" cy="170" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="116" cy="189" rx="80" ry="7" fill="#D2CBFA"/>
+  <path d="M96 30 Q138 90 138 128 A42 42 0 0 1 54 128 Q54 90 96 30 Z" fill="#7FC3F4" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M60 140 Q78 150 96 144 Q116 138 134 146 Q128 166 96 170 Q66 168 60 140 Z" fill="#6AB2EC"/>
+  <path d="M96 30 Q138 90 138 128 A42 42 0 0 1 54 128 Q54 90 96 30 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="72" cy="112" rx="5.5" ry="12" fill="#FFFFFF" transform="rotate(22 72 112)"/>
+  <circle cx="80" cy="90" r="3.5" fill="#FFFFFF"/>
+  <use href="#kw-cara" transform="translate(96 132) scale(0.93)"/>
+  <path d="M146 106 L190 106 L184 176 Q183 184 175 184 L161 184 Q153 184 152 176 Z" fill="#FFFFFF"/>
+  <path d="M148 128 Q158 123 168 128 Q178 133 188 128 L184 175 Q183 181 175 181 L161 181 Q155 181 154 175 Z" fill="#A6D6FA"/>
+  <path d="M157 136 L160 170" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M146 106 L190 106 L184 176 Q183 184 175 184 L161 184 Q153 184 152 176 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="168" cy="106" rx="22" ry="3.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.4"/>
+</svg>

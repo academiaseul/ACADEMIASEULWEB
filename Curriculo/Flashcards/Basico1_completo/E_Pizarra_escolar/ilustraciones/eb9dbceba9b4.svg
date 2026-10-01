@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="라면" data-es="ramyeon (fideos instantáneos)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 166 C 80 172, 150 172, 200 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- vapor -->
+    <path d="M64 58 C 58 48, 70 42, 64 30 M82 54 C 76 44, 88 38, 82 26 M100 56 C 94 46, 106 40, 100 28" stroke-width="2.4" stroke-opacity="0.85"/>
+    <!-- asas de la olla -->
+    <path d="M48 104 C 32 100, 28 118, 50 118" stroke-width="3.2"/>
+    <path d="M172 104 C 188 100, 192 118, 170 118" stroke-width="3.2"/>
+    <!-- olla dorada (양은냄비) -->
+    <path d="M46 96 L52 146 C 54 158, 166 158, 168 146 L174 96 Z" fill="#1F3B33"/>
+    <path d="M46 96 L52 146 C 54 158, 166 158, 168 146 L174 96 Z" fill="url(#rd)"/>
+    <ellipse cx="110" cy="96" rx="64" ry="12" fill="#1F3B33"/>
+    <!-- fideos que asoman -->
+    <path d="M54 98 C 58 78, 82 70, 110 70 C 138 70, 162 78, 166 98 C 140 104, 80 104, 54 98 Z" fill="url(#rt)"/>
+    <path d="M62 92 q 5 -5 10 0 t 10 0 t 10 0 M100 82 q 5 -5 10 0 t 10 0 M128 92 q 5 -5 10 0 t 10 0 t 10 0 M104 96 q 5 -4 10 0 t 10 0" stroke-width="2.2"/>
+    <!-- huevo -->
+    <ellipse cx="84" cy="81" rx="15" ry="9" fill="#1F3B33"/>
+    <ellipse cx="84" cy="81" rx="15" ry="9" fill="url(#rb)"/>
+    <circle cx="86" cy="81" r="5.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- cebollín -->
+    <ellipse cx="140" cy="80" rx="4.4" ry="3" fill="#1F3B33" stroke="#9ED9B0" stroke-width="2.2"/>
+    <ellipse cx="154" cy="90" rx="4.4" ry="3" fill="#1F3B33" stroke="#9ED9B0" stroke-width="2.2"/>
+    <ellipse cx="70" cy="96" rx="4" ry="2.6" fill="#1F3B33" stroke="#9ED9B0" stroke-width="2.2"/>
+    <!-- palillos que levantan fideos -->
+    <path d="M125 54 C 120 60, 130 66, 124 74 M131 57 C 126 63, 136 69, 130 77 M137 60 C 132 66, 142 72, 136 80" stroke-width="2.4"/>
+    <path d="M188 14 L124 52 M196 22 L134 58" stroke-width="3.2"/>
+    <use href="#cara" transform="translate(110 126)"/>
+    <use href="#estrella" transform="translate(30 38) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(28 140) scale(0.6)"/>
+    <use href="#estrella" transform="translate(196 142) scale(0.6)"/>
+  </g>
+</svg>

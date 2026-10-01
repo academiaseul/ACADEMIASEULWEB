@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 우리 · nosotros -->
+  <use href="#kw-brillo" transform="translate(26 36) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(196 34) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(204 152) scale(5)" fill="#FFFFFF"/>
+  <circle cx="14" cy="104" r="3" fill="#FFFFFF"/>
+  <circle cx="207" cy="92" r="2.5" fill="#CFC8FF"/>
+  <circle cx="20" cy="170" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="72" ry="7" fill="#D2CBFA"/>
+  <!-- el círculo que nos abraza (trazo doble) -->
+  <circle cx="110" cy="108" r="78" fill="none" stroke="#003478" stroke-width="15"/>
+  <circle cx="110" cy="108" r="78" fill="none" stroke="#8CCBF6" stroke-width="9"/>
+  <!-- en vez de corazón: un destello dorado al centro -->
+  <use href="#kw-brillo" transform="translate(110 56) scale(13)" fill="#E8B84B"/>
+  <circle cx="84" cy="62" r="3" fill="#FFFFFF"/>
+  <circle cx="136" cy="62" r="3" fill="#FFFFFF"/>
+  <!-- personita menta (izquierda), cabeza inclinada hacia el centro -->
+  <g transform="matrix(0.66 0 0 0.66 -2.6 60.25)">
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L74 140 M128 108 L142 134" fill="none" stroke="#003478" stroke-width="20.5" stroke-linecap="round"/>
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L74 140 M128 108 L142 134" fill="none" stroke="#7FD0B0" stroke-width="11.4" stroke-linecap="round"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="#7FD0B0"/>
+    <path d="M84 136 Q97 130 110 136 T136 136 L136 140 Q136 158 118 158 L102 158 Q84 158 84 140 Z" fill="#6CC7A4"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="none" stroke="#003478" stroke-width="4.5"/>
+    <g transform="rotate(10 110 92)">
+      <circle cx="110" cy="58" r="33" fill="#7FD0B0" stroke="#003478" stroke-width="4.5"/>
+      <ellipse cx="94" cy="40" rx="8" ry="4.5" fill="#D6F4DD" transform="rotate(-35 94 40)"/>
+      <use href="#kw-cara-feliz" transform="translate(110 62) scale(0.85)"/>
+    </g>
+  </g>
+  <!-- personita lila (derecha) -->
+  <g transform="matrix(0.66 0 0 0.66 77.4 60.25)">
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L78 134 M128 108 L146 140" fill="none" stroke="#003478" stroke-width="20.5" stroke-linecap="round"/>
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L78 134 M128 108 L146 140" fill="none" stroke="#CFC8FF" stroke-width="11.4" stroke-linecap="round"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="#CFC8FF"/>
+    <path d="M84 136 Q97 130 110 136 T136 136 L136 140 Q136 158 118 158 L102 158 Q84 158 84 140 Z" fill="#B9B0F5"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="none" stroke="#003478" stroke-width="4.5"/>
+    <g transform="rotate(-10 110 92)">
+      <circle cx="110" cy="58" r="33" fill="#CFC8FF" stroke="#003478" stroke-width="4.5"/>
+      <ellipse cx="94" cy="40" rx="8" ry="4.5" fill="#FFFFFF" transform="rotate(-35 94 40)"/>
+      <use href="#kw-cara-feliz" transform="translate(110 62) scale(0.85)"/>
+    </g>
+  </g>
+  <!-- personita dorada (al medio), de la mano con las dos -->
+  <g transform="matrix(0.66 0 0 0.66 37.4 60.25)">
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L78 134 M128 108 L142 134" fill="none" stroke="#003478" stroke-width="20.5" stroke-linecap="round"/>
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L78 134 M128 108 L142 134" fill="none" stroke="#F6D47A" stroke-width="11.4" stroke-linecap="round"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="#F6D47A"/>
+    <path d="M84 136 Q97 130 110 136 T136 136 L136 140 Q136 158 118 158 L102 158 Q84 158 84 140 Z" fill="#E2B44E"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="none" stroke="#003478" stroke-width="4.5"/>
+    <circle cx="110" cy="58" r="33" fill="#F6D47A" stroke="#003478" stroke-width="4.5"/>
+    <ellipse cx="94" cy="40" rx="8" ry="4.5" fill="#FFF3CC" transform="rotate(-35 94 40)"/>
+    <use href="#kw-cara-feliz" transform="translate(110 62) scale(0.85)"/>
+  </g>
+</svg>

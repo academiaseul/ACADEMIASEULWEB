@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 한국어 · idioma coreano (globo de diálogo con 가 나 다 + 무궁화 lila; nunca bandera) -->
+  <use href="#kw-brillo" transform="translate(26 54) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(200 92) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(186 168) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="112" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="132" r="2.5" fill="#E8B84B"/>
+  <circle cx="34" cy="168" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="104" cy="188" rx="60" ry="7" fill="#ADA1F0"/>
+  <!-- globo de diálogo blanco con colita abajo a la izquierda -->
+  <path d="M72 34 L148 34 Q178 34 178 64 L178 114 Q178 144 148 144 L94 144 L60 170 L72 144 Q42 144 42 114 L42 64 Q42 34 72 34 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="58" cy="52" rx="9" ry="4" fill="#E4E0FF" transform="rotate(-40 58 52)"/>
+  <!-- 가 나 다 -->
+  <g font-family="Jua, sans-serif" font-size="32" fill="#003478" text-anchor="middle">
+    <text x="76" y="90">가</text>
+    <text x="110" y="90">나</text>
+    <text x="144" y="90">다</text>
+  </g>
+  <!-- 무궁화 lila prendido en la esquina del globo -->
+  <g stroke="#003478" stroke-width="2" fill="#CFC8FF">
+    <circle cx="172" cy="31" r="6.5"/>
+    <circle cx="178.7" cy="35.8" r="6.5"/>
+    <circle cx="176.1" cy="43.7" r="6.5"/>
+    <circle cx="167.9" cy="43.7" r="6.5"/>
+    <circle cx="165.3" cy="35.8" r="6.5"/>
+  </g>
+  <circle cx="172" cy="38" r="3.6" fill="#4236F6" stroke="#003478" stroke-width="1.8"/>
+  <use href="#kw-cara-feliz" transform="translate(110 116) scale(0.8)"/>
+</svg>

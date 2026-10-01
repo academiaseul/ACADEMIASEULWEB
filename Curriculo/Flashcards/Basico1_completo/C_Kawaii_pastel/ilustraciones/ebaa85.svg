@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 명 · contador de personas -->
+  <use href="#kw-brillo" transform="translate(22 40) scale(9)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(198 34) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(206 126) scale(5)" fill="#FFFFFF"/>
+  <circle cx="81" cy="30" r="3" fill="#FFFFFF"/>
+  <circle cx="139" cy="30" r="2.5" fill="#E8B84B"/>
+  <circle cx="14" cy="120" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="86" ry="7" fill="#D2CBFA"/>
+  <!-- números 1, 2, 3 en pastillas blancas -->
+  <circle cx="52" cy="58" r="14" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <circle cx="110" cy="58" r="14" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <circle cx="168" cy="58" r="14" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <g font-family="Jua, sans-serif" font-size="20" fill="#003478" text-anchor="middle">
+    <text x="52" y="65">1</text>
+    <text x="110" y="65">2</text>
+    <text x="168" y="65">3</text>
+  </g>
+  <!-- tres monitos de persona en fila (como 사람, a escala 0,6) -->
+  <g transform="matrix(0.6 0 0 0.6 -14 73.5)">
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L72 144 M128 108 L148 144" fill="none" stroke="#003478" stroke-width="22" stroke-linecap="round"/>
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L72 144 M128 108 L148 144" fill="none" stroke="#8CCBF6" stroke-width="13" stroke-linecap="round"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="#8CCBF6"/>
+    <path d="M84 136 Q97 130 110 136 T136 136 L136 140 Q136 158 118 158 L102 158 Q84 158 84 140 Z" fill="#6FB8EE"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="none" stroke="#003478" stroke-width="5"/>
+    <circle cx="110" cy="58" r="31" fill="#8CCBF6" stroke="#003478" stroke-width="5"/>
+    <ellipse cx="95" cy="41" rx="8" ry="4.5" fill="#C9DBFF" transform="rotate(-35 95 41)"/>
+    <ellipse cx="90" cy="68" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+    <ellipse cx="130" cy="68" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+    <use href="#kw-cara-chica" transform="translate(110 60)"/>
+  </g>
+  <g transform="matrix(0.6 0 0 0.6 44 73.5)">
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L72 144 M128 108 L148 144" fill="none" stroke="#003478" stroke-width="22" stroke-linecap="round"/>
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L72 144 M128 108 L148 144" fill="none" stroke="#7FD0B0" stroke-width="13" stroke-linecap="round"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="#7FD0B0"/>
+    <path d="M84 136 Q97 130 110 136 T136 136 L136 140 Q136 158 118 158 L102 158 Q84 158 84 140 Z" fill="#6CC7A4"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="none" stroke="#003478" stroke-width="5"/>
+    <circle cx="110" cy="58" r="31" fill="#7FD0B0" stroke="#003478" stroke-width="5"/>
+    <ellipse cx="95" cy="41" rx="8" ry="4.5" fill="#D6F4DD" transform="rotate(-35 95 41)"/>
+    <ellipse cx="90" cy="68" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+    <ellipse cx="130" cy="68" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+    <use href="#kw-cara-chica" transform="translate(110 60)"/>
+  </g>
+  <g transform="matrix(0.6 0 0 0.6 102 73.5)">
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L72 144 M128 108 L148 144" fill="none" stroke="#003478" stroke-width="22" stroke-linecap="round"/>
+    <path d="M101 146 L99 178 M119 146 L121 178 M92 108 L72 144 M128 108 L148 144" fill="none" stroke="#F6D47A" stroke-width="13" stroke-linecap="round"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="#F6D47A"/>
+    <path d="M84 136 Q97 130 110 136 T136 136 L136 140 Q136 158 118 158 L102 158 Q84 158 84 140 Z" fill="#E2B44E"/>
+    <rect x="84" y="96" width="52" height="62" rx="18" fill="none" stroke="#003478" stroke-width="5"/>
+    <circle cx="110" cy="58" r="31" fill="#F6D47A" stroke="#003478" stroke-width="5"/>
+    <ellipse cx="95" cy="41" rx="8" ry="4.5" fill="#FFF3CC" transform="rotate(-35 95 41)"/>
+    <ellipse cx="90" cy="68" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+    <ellipse cx="130" cy="68" rx="5.5" ry="3.5" fill="#FFCBA0"/>
+    <use href="#kw-cara-chica" transform="translate(110 60)"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 우유 · leche · Estilo A Sticker pop · mazo aprobado (30 sept 2026) -->
+<g transform="translate(6 7)" opacity="0.28">
+<path d="M62 192 L62 92 L78 47 L78 35 L158 35 L158 47 L174 78 L174 178 L142 192 Z" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round"/>
+</g>
+<path d="M62 192 L62 92 L78 47 L78 35 L158 35 L158 47 L174 78 L174 178 L142 192 Z" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round"/>
+<path d="M62 192 L62 92 L78 47 L78 35 L158 35 L158 47 L174 78 L174 178 L142 192 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round"/>
+<path d="M142 92 L174 78 L174 178 L142 192 Z" fill="#DCE0FA" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M142 168 L174 154 L174 178 L142 192 Z" fill="#2A1FC7" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M62 92 L142 92 L142 192 L62 192 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M62 168 Q82 158 102 168 T142 168 L142 192 L62 192 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M62 92 L142 92 L158 47 L78 47 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M142 92 L174 78 L158 47 Z" fill="#2A1FC7" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M78 35 L158 35 L158 47 L78 47 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M70 100 L70 112" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="88" cy="122" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="116" cy="122" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="90.2" cy="118.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="118.2" cy="118.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="76" cy="136" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="128" cy="136" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M94 135 Q102 147 110 135 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M40 37 Q42.6 47.4 53 50 Q42.6 52.6 40 63 Q37.4 52.6 27 50 Q37.4 47.4 40 37 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M200 101 Q201.8 108.2 209 110 Q201.8 111.8 200 119 Q198.2 111.8 191 110 Q198.2 108.2 200 101 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 114 C30 114 20 127 20 133 A10 10 0 0 0 40 133 C40 127 30 114 30 114 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="44" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

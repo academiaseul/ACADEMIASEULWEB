@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 저 · yo (forma humilde) · Estilo A Sticker pop · persona con la mano en el pecho y la cabeza un poco inclinada -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<g transform="rotate(-6 110 150)">
+<path d="M58 118 C52 62 80 42 110 42 C140 42 168 62 162 118 L164 160 Q150 168 138 158 L82 158 Q70 168 56 160 Z"/>
+<ellipse cx="110" cy="98" rx="44" ry="42"/>
+</g>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<g transform="rotate(-6 110 150)">
+<path d="M58 118 C52 62 80 42 110 42 C140 42 168 62 162 118 L164 160 Q150 168 138 158 L82 158 Q70 168 56 160 Z"/>
+<ellipse cx="110" cy="98" rx="44" ry="42"/>
+</g>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<g transform="rotate(-6 110 150)">
+<path d="M58 118 C52 62 80 42 110 42 C140 42 168 62 162 118 L164 160 Q150 168 138 158 L82 158 Q70 168 56 160 Z"/>
+<ellipse cx="110" cy="98" rx="44" ry="42"/>
+</g>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<!-- pelo largo de atrás (negro), inclinado -->
+<g transform="rotate(-6 110 150)">
+<path d="M58 118 C52 62 80 42 110 42 C140 42 168 62 162 118 L164 160 Q150 168 138 158 L82 158 Q70 168 56 160 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+</g>
+<!-- torso menta, cuello -->
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M98 130 L98 152 Q110 158 122 152 L122 130 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M96 153 Q110 168 124 153" stroke="#14142B" stroke-width="10" stroke-linecap="round"/>
+<path d="M96 153 Q110 168 124 153" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M140 176 L146 192" stroke="#6FCFAE" stroke-width="3" stroke-linecap="round"/>
+<!-- brazo hacia el pecho y mano sobre el pecho -->
+<path d="M60 180 Q70 162 98 172" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M60 180 Q70 162 98 172" stroke="#8FE3C6" stroke-width="14" stroke-linecap="round"/>
+<ellipse cx="106" cy="173" rx="15" ry="11" transform="rotate(-12 106 173)" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M104 166 L116 164" stroke="#14142B" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M105 173 L118 171" stroke="#14142B" stroke-width="2.6" stroke-linecap="round"/>
+<!-- cabeza inclinada: cabeza, chasquilla recta, brillo, cara de la casa (110,110) s 0.85 -->
+<g transform="rotate(-6 110 150)">
+<ellipse cx="110" cy="98" rx="44" ry="42" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M66 100 C62 64 84 50 110 50 C136 50 158 64 154 100 C150 90 146 86 140 86 L80 86 C74 86 70 90 66 100 Z" fill="#14142B"/>
+<path d="M154 100 C150 90 146 86 140 86 L80 86 C74 86 70 90 66 100" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84 60 Q96 54 108 55" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="98.1" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 121.05 Q110 131.25 116.8 121.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+</g>
+<!-- adornos -->
+<path d="M30 24 Q32.4 33.6 42 36 Q32.4 38.4 30 48 Q27.6 38.4 18 36 Q27.6 33.6 30 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 71 Q197.8 78.2 205 80 Q197.8 81.8 196 89 Q194.2 81.8 187 80 Q194.2 78.2 196 71 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="192" cy="26" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

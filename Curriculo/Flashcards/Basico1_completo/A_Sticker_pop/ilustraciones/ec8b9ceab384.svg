@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 시계 · reloj · Estilo A Sticker pop · reloj redondo de pared marcando las tres -->
+<!-- 1) Silueta: el círculo del reloj -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="110" r="78"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="110" r="78"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="110" r="78"/>
+</g>
+<!-- 2) Aro azul, esfera blanca, marcas -->
+<circle cx="110" cy="110" r="78" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M44.2 86.1 A70 70 0 0 1 75 49.4" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round"/>
+<circle cx="110" cy="110" r="62" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<path d="M110 53 L110 60" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<path d="M160 110 L167 110" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<path d="M110 160 L110 167" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<path d="M53 110 L60 110" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<circle cx="137" cy="63.23" r="2.6" fill="#B3B8D6"/>
+<circle cx="156.77" cy="83" r="2.6" fill="#B3B8D6"/>
+<circle cx="156.77" cy="137" r="2.6" fill="#B3B8D6"/>
+<circle cx="137" cy="156.77" r="2.6" fill="#B3B8D6"/>
+<circle cx="83" cy="156.77" r="2.6" fill="#B3B8D6"/>
+<circle cx="63.23" cy="137" r="2.6" fill="#B3B8D6"/>
+<circle cx="63.23" cy="83" r="2.6" fill="#B3B8D6"/>
+<circle cx="83" cy="63.23" r="2.6" fill="#B3B8D6"/>
+<!-- manecillas doradas a las tres: minutero arriba, horario a la derecha -->
+<path d="M110 110 L110 66" stroke="#14142B" stroke-width="14" stroke-linecap="round"/>
+<path d="M110 110 L110 66" stroke="#E8B84B" stroke-width="6" stroke-linecap="round"/>
+<path d="M110 110 L144 110" stroke="#14142B" stroke-width="16" stroke-linecap="round"/>
+<path d="M110 110 L144 110" stroke="#E8B84B" stroke-width="8" stroke-linecap="round"/>
+<circle cx="110" cy="110" r="7" fill="#4236F6" stroke="#14142B" stroke-width="3.5"/>
+<!-- 3) Cara de la casa en (110,132), s = 0,85, bajo el eje -->
+<ellipse cx="98.1" cy="132" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="132" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="129.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="129.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="143.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="143.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 143.05 Q110 153.25 116.8 143.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- 4) Adornos -->
+<path d="M190 24 Q192.4 33.6 202 36 Q192.4 38.4 190 48 Q187.6 38.4 178 36 Q187.6 33.6 190 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M28 175 Q29.8 182.2 37 184 Q29.8 185.8 28 193 Q26.2 185.8 19 184 Q26.2 182.2 28 175 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="30" cy="30" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

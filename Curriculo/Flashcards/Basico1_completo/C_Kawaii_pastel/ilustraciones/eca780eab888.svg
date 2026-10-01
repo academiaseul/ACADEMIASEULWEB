@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 지금 · ahora -->
+  <use href="#kw-brillo" transform="translate(26 36) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(194 32) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(30 150) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="104" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="80" r="2.5" fill="#E8B84B"/>
+  <circle cx="192" cy="176" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="106" cy="187" rx="58" ry="7" fill="#D2CBFA"/>
+  <!-- ondas de "suena": a los dos lados de las campanas -->
+  <path d="M46 62 Q40 72 44 82 M36 56 Q28 70 33 84 M166 62 Q172 72 168 82 M176 56 Q184 70 179 84" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+  <!-- patas (trazo doble) y martillito -->
+  <path d="M82 160 L74 177 M130 160 L138 177" fill="none" stroke="#003478" stroke-width="11" stroke-linecap="round"/>
+  <path d="M82 160 L74 177 M130 160 L138 177" fill="none" stroke="#6CC7A4" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="106" cy="66" r="6" fill="#F6D47A" stroke="#003478" stroke-width="2.4"/>
+  <!-- campanas doradas con perilla -->
+  <path d="M-17 0 A17 17 0 0 1 17 0 Z" transform="translate(73 80) rotate(-40)" fill="#F6D47A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M-17 0 A17 17 0 0 1 17 0 Z" transform="translate(139 80) rotate(40)" fill="#F6D47A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="62" cy="67" r="4" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="150" cy="67" r="4" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <!-- cuerpo menta, brillo y esfera crema -->
+  <circle cx="106" cy="120" r="48" fill="#7FD0B0" stroke="#003478" stroke-width="3"/>
+  <ellipse cx="74" cy="90" rx="10" ry="4.5" fill="#C6F0DE" transform="rotate(-45 74 90)"/>
+  <circle cx="106" cy="120" r="37" fill="#FFFDF8" stroke="#003478" stroke-width="2.6"/>
+  <g fill="#B9B0F5">
+    <circle cx="106" cy="92" r="3"/>
+    <circle cx="78" cy="120" r="3"/>
+    <circle cx="134" cy="120" r="3"/>
+  </g>
+  <!-- manecillas -->
+  <path d="M106 118 L106 96" fill="none" stroke="#003478" stroke-width="5" stroke-linecap="round"/>
+  <path d="M106 118 L121 108" fill="none" stroke="#003478" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="106" cy="118" r="5" fill="#E8B84B" stroke="#003478" stroke-width="2.2"/>
+  <!-- mano que señala las manecillas: manga azul (trazo doble), dedo y puño -->
+  <path d="M182 116 Q192 126 204 134" fill="none" stroke="#003478" stroke-width="16" stroke-linecap="round"/>
+  <path d="M182 116 Q192 126 204 134" fill="none" stroke="#4236F6" stroke-width="10" stroke-linecap="round"/>
+  <rect x="134" y="103" width="38" height="9" rx="4.5" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <rect x="164" y="100" width="20" height="21" rx="8" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <path d="M167 109 Q173 105 180 108" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+  <use href="#kw-cara" transform="translate(106 136) scale(0.72)"/>
+</svg>

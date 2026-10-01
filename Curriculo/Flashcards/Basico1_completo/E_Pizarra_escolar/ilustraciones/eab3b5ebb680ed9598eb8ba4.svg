@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="공부하다" data-es="estudiar (공부해요)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 166 C 76 172, 150 172, 208 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- estudiante detrás del escritorio -->
+    <path d="M98 94 C 84 102, 78 112, 76 124 L160 124 C 158 112, 152 102, 138 94 Z" fill="#1F3B33"/>
+    <path d="M98 94 C 84 102, 78 112, 76 124 L160 124 C 158 112, 152 102, 138 94 Z" fill="url(#rt)"/>
+    <path d="M108 95 Q118 102 128 95" stroke-width="2.4"/>
+    <circle cx="118" cy="62" r="28" fill="#1F3B33"/>
+    <path d="M90 62 C 88 44, 102 34, 118 34 C 134 34, 148 44, 146 62 C 140 56, 132 52, 124 51 L119 45 L114 51 C 104 52, 96 56, 90 62 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(118 71) scale(0.78)"/>
+    <!-- escritorio: cubierta, canto y patas -->
+    <path d="M22 126 L36 114 H194 L206 126 Z" fill="#1F3B33"/>
+    <path d="M22 126 L36 114 H194 L206 126 Z" fill="url(#rt)"/>
+    <path d="M22 126 H206 V134 H22 Z" fill="#1F3B33"/>
+    <path d="M22 126 H206 V134 H22 Z" fill="url(#rt)"/>
+    <path d="M28 134 H36 V162 H28 Z M192 134 H200 V162 H192 Z" fill="url(#rt)"/>
+    <!-- libro abierto sobre la mesa -->
+    <path d="M84 124 L92 112 L116 113 L114 124 Z" fill="#1F3B33"/>
+    <path d="M114 124 L116 113 L140 112 L146 124 Z" fill="#1F3B33"/>
+    <path d="M92 120 H109 M95 116.5 H111 M119 120 H138 M119 116.5 H135" stroke-width="1.6" stroke-opacity="0.75"/>
+    <!-- mano izquierda en la página -->
+    <path d="M84 104 C 82 110, 86 115, 92 117"/>
+    <circle cx="94" cy="117" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- lápiz dorado escribiendo en la página derecha -->
+    <path d="M141 117 L156 95" stroke="#E8B84B" stroke-width="4.5"/>
+    <path d="M141 117 L138.5 121" stroke-width="2.4"/>
+    <path d="M152 104 C 156 110, 152 114, 146 114"/>
+    <circle cx="145" cy="113" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- lámpara de escritorio con luz hacia el libro -->
+    <ellipse cx="42" cy="116" rx="13" ry="4.5" fill="#1F3B33"/>
+    <path d="M42 113 L32 84 L56 64" stroke-width="3.2"/>
+    <circle cx="32" cy="84" r="3.4" fill="#F3F0E4" stroke="none"/>
+    <g transform="rotate(-35 60 64)">
+      <path d="M52 62 L68 62 L78 84 L42 84 Z" fill="#1F3B33"/>
+      <path d="M52 62 L68 62 L78 84 L42 84 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+      <path d="M51 84 C 53 92, 67 92, 69 84" stroke-width="2.4"/>
+    </g>
+    <path d="M78 92 L86 100 M70 98 L74 106" stroke="#E8B84B" stroke-width="2.2" stroke-opacity="0.8"/>
+    <use href="#estrella" transform="translate(188 40) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(172 84) scale(0.6)"/>
+    <use href="#estrella" transform="translate(24 36) scale(0.6)"/>
+  </g>
+</svg>

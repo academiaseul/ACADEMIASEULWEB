@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="모자" data-es="sombrero, gorro">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <path d="M34 62 H48 M37 56 L45 68 M45 56 L37 68" stroke-width="2"/>
+    <path d="M182 96 H194 M185 91 L191 101 M191 91 L185 101" stroke-width="2"/>
+    <path d="M26 112 H34 M30 108 V116" stroke-width="1.8" stroke-opacity="0.8"/>
+    <path d="M60 132 C 58 84, 82 58, 110 58 C 138 58, 162 84, 160 132 Z" fill="url(#rt)"/>
+    <path d="M74 108 l4 5 l4 -5 M86 80 l4 5 l4 -5 M128 80 l4 5 l4 -5 M140 108 l4 5 l4 -5" stroke-width="1.8" stroke-opacity="0.75"/>
+    <use href="#cara" transform="translate(110 94)"/>
+    <path d="M54 126 C 80 119, 140 119, 166 126 L166 154 C 140 147, 80 147, 54 154 Z" fill="#1F3B33"/>
+    <path d="M54 126 C 80 119, 140 119, 166 126 L166 154 C 140 147, 80 147, 54 154 Z" fill="url(#rd)"/>
+    <path d="M63 129 V148 M72.4 129 V148 M81.8 129 V148 M91.2 129 V148 M100.6 129 V148 M110 129 V148 M119.4 129 V148 M128.8 129 V148 M138.2 129 V148 M147.6 129 V148 M157 129 V148" stroke-width="1.6" stroke-opacity="0.6"/>
+    <path d="M110 32 Q116.3 30 119.6 35.3 Q125.8 37.5 124.8 43.6 Q128 49 123 53 Q121.8 59.1 115.1 59.2 Q110 63.1 104.9 59.2 Q98.2 59.1 97 53 Q92 49 95.2 43.6 Q94.2 37.5 100.4 35.3 Q103.7 30 110 32 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M110 32 Q116.3 30 119.6 35.3 Q125.8 37.5 124.8 43.6 Q128 49 123 53 Q121.8 59.1 115.1 59.2 Q110 63.1 104.9 59.2 Q98.2 59.1 97 53 Q92 49 95.2 43.6 Q94.2 37.5 100.4 35.3 Q103.7 30 110 32 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#estrella" transform="translate(186 40) scale(0.8)"/>
+  </g>
+</svg>

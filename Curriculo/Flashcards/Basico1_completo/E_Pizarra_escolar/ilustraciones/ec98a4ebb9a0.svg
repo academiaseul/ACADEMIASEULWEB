@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="오빠" data-es="hermano mayor (lo dice una mujer)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 165 C 80 172, 150 172, 200 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- flecha dorada: de la hermanita hacia el hermano mayor -->
+    <path d="M70 66 C 76 48, 88 38, 106 37" stroke="#E8B84B" stroke-width="3.4"/>
+    <path d="M97 29 L107 37 L98 46" stroke="#E8B84B" stroke-width="3.4"/>
+    <!-- EL HERMANO MAYOR (más alto) con polerón: capucha, cordones y bolsillo -->
+    <path d="M130 80 C 116 92, 110 130, 108 162 L184 162 C 182 130, 176 92, 162 80 Z" fill="#1F3B33"/>
+    <path d="M130 80 C 116 92, 110 130, 108 162 L184 162 C 182 130, 176 92, 162 80 Z" fill="url(#rt)"/>
+    <path d="M124 88 C 126 74, 166 74, 168 88 C 158 82, 134 82, 124 88 Z" fill="url(#rt)" stroke-width="2.4"/>
+    <path d="M138 86 L136 104 M154 86 L156 104" stroke-width="2.2"/>
+    <circle cx="136" cy="106" r="2" fill="#F3F0E4" stroke="none"/>
+    <circle cx="156" cy="106" r="2" fill="#F3F0E4" stroke="none"/>
+    <path d="M124 150 L128 134 L164 134 L168 150" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M126 94 C 118 108, 117 124, 120 138"/>
+    <circle cx="120" cy="141" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M166 94 C 178 88, 184 78, 186 66"/>
+    <circle cx="186.5" cy="62.5" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M196 54 Q202 62 196 70" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="146" cy="56" r="25" fill="#1F3B33"/>
+    <path d="M120 56 C 118 38, 131 27, 147 27 C 163 27, 174 38, 172 56 C 166 51, 156 46, 149 39 C 144 46, 134 51, 120 56 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(146 63) scale(0.68)"/>
+    <!-- LA HERMANITA (quien dice 오빠): dos coletas, señala con cariño -->
+    <path d="M40 92 C 30 88, 23 96, 24 106 C 25 113, 29 117, 34 116 C 32 108, 34 100, 41 97 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M76 92 C 86 88, 93 96, 92 106 C 91 113, 87 117, 82 116 C 84 108, 82 100, 75 97 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M46 118 C 36 128, 31 146, 29 162 L87 162 C 85 146, 80 128, 70 118 Z" fill="#1F3B33"/>
+    <path d="M46 118 C 36 128, 31 146, 29 162 L87 162 C 85 146, 80 128, 70 118 Z" fill="url(#rt)"/>
+    <path d="M51 119 Q58 125 65 119" stroke-width="2.2"/>
+    <path d="M45 126 C 38 136, 36 146, 38 154"/>
+    <circle cx="38" cy="157" r="3.4" fill="#F3F0E4" stroke="none"/>
+    <path d="M71 126 C 84 124, 94 116, 100 108"/>
+    <path d="M102 105 L109 98" stroke-width="2.8"/>
+    <circle cx="102" cy="105" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <circle cx="58" cy="100" r="21" fill="#1F3B33"/>
+    <path d="M37 97 C 39 83, 49 77, 59 77.5 C 69 78, 78 84, 79 97 C 70 93, 63 89, 57 84 C 52 90, 45 94, 37 97 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="39" cy="94" r="2.8" fill="#E8B84B" stroke="none"/>
+    <circle cx="77" cy="94" r="2.8" fill="#E8B84B" stroke="none"/>
+    <use href="#cara-feliz" transform="translate(58 107) scale(0.6)"/>
+    <!-- adornos -->
+    <use href="#corazon" transform="translate(30 44) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(196 24) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(98 148) scale(0.6)"/>
+  </g>
+</svg>

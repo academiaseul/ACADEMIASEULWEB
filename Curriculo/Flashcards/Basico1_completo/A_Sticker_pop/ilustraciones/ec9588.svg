@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 안 · dentro · Estilo A Sticker pop -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M60 186 L60 122 L76 108 L160 108 L160 172 L144 186 Z"/>
+<path d="M60 122 L76 108 L54 98 L38 112 Z"/>
+<path d="M144 122 L160 108 L184 100 L168 114 Z"/>
+<path d="M76 108 L160 108 L166 88 L82 88 Z"/>
+<circle cx="110" cy="110" r="25"/>
+<path d="M110 76 L93 52 L103 52 L103 30 L117 30 L117 52 L127 52 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M60 186 L60 122 L76 108 L160 108 L160 172 L144 186 Z"/>
+<path d="M60 122 L76 108 L54 98 L38 112 Z"/>
+<path d="M144 122 L160 108 L184 100 L168 114 Z"/>
+<path d="M76 108 L160 108 L166 88 L82 88 Z"/>
+<circle cx="110" cy="110" r="25"/>
+<path d="M110 76 L93 52 L103 52 L103 30 L117 30 L117 52 L127 52 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M60 186 L60 122 L76 108 L160 108 L160 172 L144 186 Z"/>
+<path d="M60 122 L76 108 L54 98 L38 112 Z"/>
+<path d="M144 122 L160 108 L184 100 L168 114 Z"/>
+<path d="M76 108 L160 108 L166 88 L82 88 Z"/>
+<circle cx="110" cy="110" r="25"/>
+<path d="M110 76 L93 52 L103 52 L103 30 L117 30 L117 52 L127 52 Z"/>
+</g>
+<path d="M76 108 L160 108 L166 88 L82 88 Z" fill="#9DB7FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 122 L76 108 L160 108 L144 122 Z" fill="#2A1FC7" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="110" cy="110" r="25" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="102.3" cy="100" rx="3.58" ry="4.68" fill="#14142B"/>
+<ellipse cx="117.7" cy="100" rx="3.58" ry="4.68" fill="#14142B"/>
+<circle cx="103.51" cy="98.13" r="1.32" fill="#FFFFFF"/>
+<circle cx="118.91" cy="98.13" r="1.32" fill="#FFFFFF"/>
+<ellipse cx="95.7" cy="107.7" rx="3.85" ry="2.48" fill="#FFB98A"/>
+<ellipse cx="124.3" cy="107.7" rx="3.85" ry="2.48" fill="#FFB98A"/>
+<path d="M105.6 107.15 Q110 113.75 114.4 107.15 Z" fill="#14142B" stroke="#14142B" stroke-width="1.65" stroke-linejoin="round"/>
+<path d="M144 122 L160 108 L160 172 L144 186 Z" fill="#2A1FC7" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 122 L144 122 L144 186 L60 186 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 122 L76 108 L54 98 L38 112 Z" fill="#9DB7FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M144 122 L160 108 L184 100 L168 114 Z" fill="#9DB7FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M69 138 L69 162" fill="none" stroke="#9DB7FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="90.8" cy="154" rx="5.2" ry="6.8" fill="#14142B"/>
+<ellipse cx="113.2" cy="154" rx="5.2" ry="6.8" fill="#14142B"/>
+<circle cx="92.56" cy="151.28" r="1.92" fill="#FFFFFF"/>
+<circle cx="114.96" cy="151.28" r="1.92" fill="#FFFFFF"/>
+<ellipse cx="81.2" cy="165.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<ellipse cx="122.8" cy="165.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<path d="M95.6 164.4 Q102 174 108.4 164.4 Z" fill="#14142B" stroke="#14142B" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M110 76 L93 52 L103 52 L103 30 L117 30 L117 52 L127 52 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M32 30 Q34.4 39.6 44 42 Q34.4 44.4 32 54 Q29.6 44.4 20 42 Q29.6 39.6 32 30 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M190 40 Q192 48 200 50 Q192 52 190 60 Q188 52 180 50 Q188 48 190 40 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="194" cy="146" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

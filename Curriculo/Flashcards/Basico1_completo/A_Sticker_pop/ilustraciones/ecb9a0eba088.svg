@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 칠레 · Chile · Estilo A Sticker pop · la cordillera de los Andes con nieve y cara en el cerro grande (sin bandera: lleva rojo) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M22 176 L46 82 Q52 70 58 82 L100 176 Z"/>
+<path d="M120 176 L164 86 Q170 74 176 86 L196 176 Z"/>
+<path d="M40 186 L102 52 Q110 38 118 52 L180 186 Z"/>
+<rect x="26" y="168" width="168" height="24" rx="12"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M22 176 L46 82 Q52 70 58 82 L100 176 Z"/>
+<path d="M120 176 L164 86 Q170 74 176 86 L196 176 Z"/>
+<path d="M40 186 L102 52 Q110 38 118 52 L180 186 Z"/>
+<rect x="26" y="168" width="168" height="24" rx="12"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M22 176 L46 82 Q52 70 58 82 L100 176 Z"/>
+<path d="M120 176 L164 86 Q170 74 176 86 L196 176 Z"/>
+<path d="M40 186 L102 52 Q110 38 118 52 L180 186 Z"/>
+<rect x="26" y="168" width="168" height="24" rx="12"/>
+</g>
+<!-- cerros de atrás (azul de la marca) con nieve -->
+<path d="M22 176 L46 82 Q52 70 58 82 L100 176 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M40.9 102 L46 82 Q52 70 58 82 L66.9 102 Q62.5 108 58 102 Q53 110 48 103 Q44 108 40.9 102 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M120 176 L164 86 Q170 74 176 86 L196 176 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M154.2 106 L164 86 Q170 74 176 86 L180.4 106 Q176 112 171 106 Q166 114 161 107 Q157 112 154.2 106 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- cerro grande (azul claro) con su cumbre nevada -->
+<path d="M40 186 L102 52 Q110 38 118 52 L180 186 Z" fill="#9DB7FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M87.2 84 L102 52 Q110 38 118 52 L132.8 84 Q127 92 121 85 Q115 94 109 86 Q102 95 96 86 Q91 91 87.2 84 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M104 62 L99 72" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<!-- pasto al pie de la cordillera -->
+<rect x="26" y="168" width="168" height="24" rx="12" fill="#7FD69A" stroke="#14142B" stroke-width="4"/>
+<path d="M42 182 L46 177 L50 182 M66 184 L70 179 L74 184 M150 184 L154 179 L158 184 M172 182 L176 177 L180 182" stroke="#2F8F57" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- cara de la casa en el cerro grande (110,138) s 1 -->
+<ellipse cx="96" cy="138" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="138" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="134.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="134.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="152" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="152" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 151 Q110 163 118 151 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M30 24 Q32.4 33.6 42 36 Q32.4 38.4 30 48 Q27.6 38.4 18 36 Q27.6 33.6 30 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M190 31 Q191.8 38.2 199 40 Q191.8 41.8 190 49 Q188.2 41.8 181 40 Q188.2 38.2 190 31 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="146" cy="30" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

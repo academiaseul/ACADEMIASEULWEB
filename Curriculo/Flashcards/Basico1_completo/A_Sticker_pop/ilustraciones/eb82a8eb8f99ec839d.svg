@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 남동생 · hermano menor · Estilo A Sticker pop · el hermanito (adelante, azul) y su hermana mayor (atrás, cola de caballo) que le pone la mano en la cabeza -->
+<!-- 1) silueta: cola, pelo y cabeza y torso de la hermana; mechón, pelo, cabeza y torso del hermanito; brazo y mano -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M46 44 C28 38 18 58 21 80 Q23 92 31 87 C31 72 37 61 50 56 Z"/>
+<path d="M36 82 C33 46 50 30 70 30 C90 30 107 46 104 82 Q70 92 36 82 Z"/>
+<ellipse cx="70" cy="68" rx="33" ry="31"/>
+<path d="M30 196 C30 150 46 116 70 116 C102 116 128 150 128 196 Z"/>
+<path d="M146 104 Q148 88 162 86 Q154 96 157 105 Z"/>
+<path d="M106 134 C102 108 118 100 138 100 C158 100 174 108 170 134 Q138 124 106 134 Z"/>
+<ellipse cx="138" cy="136" rx="31" ry="30"/>
+<path d="M112 196 C112 184 122 176 138 176 C154 176 164 184 164 196 Z"/>
+<path d="M94 128 Q98 100 121 100" fill="none" stroke-width="42"/>
+<ellipse cx="126" cy="101" rx="12" ry="9" transform="rotate(-12 126 101)"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M46 44 C28 38 18 58 21 80 Q23 92 31 87 C31 72 37 61 50 56 Z"/>
+<path d="M36 82 C33 46 50 30 70 30 C90 30 107 46 104 82 Q70 92 36 82 Z"/>
+<ellipse cx="70" cy="68" rx="33" ry="31"/>
+<path d="M30 196 C30 150 46 116 70 116 C102 116 128 150 128 196 Z"/>
+<path d="M146 104 Q148 88 162 86 Q154 96 157 105 Z"/>
+<path d="M106 134 C102 108 118 100 138 100 C158 100 174 108 170 134 Q138 124 106 134 Z"/>
+<ellipse cx="138" cy="136" rx="31" ry="30"/>
+<path d="M112 196 C112 184 122 176 138 176 C154 176 164 184 164 196 Z"/>
+<path d="M94 128 Q98 100 121 100" fill="none" stroke-width="42"/>
+<ellipse cx="126" cy="101" rx="12" ry="9" transform="rotate(-12 126 101)"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M46 44 C28 38 18 58 21 80 Q23 92 31 87 C31 72 37 61 50 56 Z"/>
+<path d="M36 82 C33 46 50 30 70 30 C90 30 107 46 104 82 Q70 92 36 82 Z"/>
+<ellipse cx="70" cy="68" rx="33" ry="31"/>
+<path d="M30 196 C30 150 46 116 70 116 C102 116 128 150 128 196 Z"/>
+<path d="M146 104 Q148 88 162 86 Q154 96 157 105 Z"/>
+<path d="M106 134 C102 108 118 100 138 100 C158 100 174 108 170 134 Q138 124 106 134 Z"/>
+<ellipse cx="138" cy="136" rx="31" ry="30"/>
+<path d="M112 196 C112 184 122 176 138 176 C154 176 164 184 164 196 Z"/>
+<path d="M94 128 Q98 100 121 100" fill="none" stroke-width="35"/>
+<ellipse cx="126" cy="101" rx="12" ry="9" transform="rotate(-12 126 101)"/>
+</g>
+<!-- 2) HERMANA MAYOR (atrás): cola de caballo y pelo castaño, polera menta -->
+<path d="M46 44 C28 38 18 58 21 80 Q23 92 31 87 C31 72 37 61 50 56 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M29 60 Q26 70 27 79" fill="none" stroke="#6E4424" stroke-width="4" stroke-linecap="round"/>
+<path d="M36 82 C33 46 50 30 70 30 C90 30 107 46 104 82 Q70 92 36 82 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M30 196 C30 150 46 116 70 116 C102 116 128 150 128 196 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M60 90 L60 116 Q70 122 80 116 L80 90 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M57 117 Q70 138 83 117 Q70 126 57 117 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<rect x="34" y="46.5" width="13" height="7" rx="3.5" fill="#E8B84B" stroke="#14142B" stroke-width="3" transform="rotate(-55 40.5 50)"/>
+<ellipse cx="70" cy="68" rx="33" ry="31" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M42 80 C37 48 52 34 70 34 C88 34 103 48 98 80 C94 62 84 54 74 56 C64 60 52 66 42 80 Z" fill="#4A3426"/>
+<path d="M98 80 C94 62 84 54 74 56 C64 60 52 66 42 80" fill="none" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M54 50 Q62 43 72 42" fill="none" stroke="#6E4424" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="59.92" cy="77" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="80.08" cy="77" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="61.5" cy="74.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="81.66" cy="74.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="51.28" cy="87.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="88.72" cy="87.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M64.24 86.36 Q70 95 75.76 86.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- 2b) HERMANITO (adelante, más chico): polera azul, pelo negro con mechón parado -->
+<path d="M112 196 C112 184 122 176 138 176 C154 176 164 184 164 196 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M128 160 L128 178 Q138 184 148 178 L148 160 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M127 178 Q138 194 149 178 Q138 185 127 178 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M146 104 Q148 88 162 86 Q154 96 157 105 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M106 134 C102 108 118 100 138 100 C158 100 174 108 170 134 Q138 124 106 134 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="138" cy="136" rx="31" ry="30" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M108 130 C104 111 120 103 138 103 C156 103 172 111 168 130 C164 120 156 116 148 118 C142 112 132 112 126 118 C118 116 112 122 108 130 Z" fill="#14142B"/>
+<path d="M168 130 C164 120 156 116 148 118 C142 112 132 112 126 118 C118 116 112 122 108 130" fill="none" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M150 108 Q158 110 162 116" fill="none" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="128.76" cy="143" rx="4.29" ry="5.61" fill="#14142B"/>
+<ellipse cx="147.24" cy="143" rx="4.29" ry="5.61" fill="#14142B"/>
+<circle cx="130.21" cy="140.76" r="1.58" fill="#FFFFFF"/>
+<circle cx="148.69" cy="140.76" r="1.58" fill="#FFFFFF"/>
+<ellipse cx="120.84" cy="152.24" rx="4.62" ry="2.97" fill="#FFB98A"/>
+<ellipse cx="155.16" cy="152.24" rx="4.62" ry="2.97" fill="#FFB98A"/>
+<path d="M132.72 151.58 Q138 159.5 143.28 151.58 Z" fill="#14142B" stroke="#14142B" stroke-width="1.98" stroke-linejoin="round"/>
+<!-- brazo de la hermana (manga menta) y mano sobre la cabeza del hermanito -->
+<path d="M94 128 Q98 100 121 100" fill="none" stroke="#14142B" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M94 128 Q98 100 121 100" fill="none" stroke="#8FE3C6" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="126" cy="101" rx="12" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4" transform="rotate(-12 126 101)"/>
+<path d="M129 95.5 L131 103" fill="none" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- 4) adornos -->
+<path d="M24 15 Q25.8 22.2 33 24 Q25.8 25.8 24 33 Q22.2 25.8 15 24 Q22.2 22.2 24 15 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M186 28 Q188.4 37.6 198 40 Q188.4 42.4 186 52 Q183.6 42.4 174 40 Q183.6 37.6 186 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="198" cy="104" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

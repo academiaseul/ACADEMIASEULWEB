@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="앞" data-es="delante">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 166 C 90 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- la caja de siempre -->
+    <path d="M72 108 L148 108 L148 160 L72 160 Z" fill="url(#rt)"/>
+    <path d="M72 108 L86 96 L162 96 L148 108 M162 96 L162 148 L148 160"/>
+    <path d="M148 108 L162 96 L162 148 L148 160 Z" fill="url(#rt)" stroke="none"/>
+    <path d="M98 126 L122 150 M122 126 L98 150" stroke-width="2" stroke-opacity="0.6"/>
+    <!-- la pelotita delante: más grande, tapa la esquina de la caja -->
+    <circle cx="82" cy="140" r="24" fill="#1F3B33"/>
+    <circle cx="82" cy="140" r="24" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#cara" transform="translate(82 138) scale(0.74)"/>
+    <!-- flecha dorada hacia el frente (hacia quien mira) -->
+    <path d="M70 58 L40 88 M40 74 V88 H54" stroke="#E8B84B" stroke-width="3.2"/>
+    <use href="#estrella-b" transform="translate(178 46) scale(0.7)"/>
+    <use href="#estrella" transform="translate(190 124) scale(0.75)"/>
+    <use href="#estrella" transform="translate(118 50) scale(0.6)"/>
+  </g>
+</svg>

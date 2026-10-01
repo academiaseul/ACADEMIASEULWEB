@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="온돌" data-es="calefacción bajo el piso">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- corte del piso: capa de piso (장판) y debajo la cañería de agua caliente -->
+    <path d="M12 126 H208 V158 H12 Z" fill="url(#rt)" stroke="none"/>
+    <path d="M12 126 H208 M12 158 H208" stroke-width="2.6"/>
+    <path d="M12 133 H208 M40 126 V133 M76 126 V133 M112 126 V133 M148 126 V133 M184 126 V133" stroke-width="1.8" stroke-opacity="0.7"/>
+    <path d="M22 146 q 8 -7 16 0 t 16 0 t 16 0 t 16 0 t 16 0 t 16 0 t 16 0 t 16 0 t 16 0 t 16 0 t 16 0" stroke="#E8B84B" stroke-width="3.2"/>
+    <!-- calor que sube del piso -->
+    <path d="M24 118 C 18 110, 30 102, 24 94 C 18 86, 30 78, 24 70" stroke="#E8B84B" stroke-width="2.6" stroke-opacity="0.85"/>
+    <path d="M132 98 C 126 90, 138 82, 132 74 C 126 66, 138 58, 132 50" stroke="#E8B84B" stroke-width="2.6" stroke-opacity="0.85"/>
+    <path d="M188 118 C 182 110, 194 102, 188 94 C 182 86, 194 78, 188 70 M204 112 C 199 104, 209 96, 204 88 C 199 80, 209 72, 204 64" stroke="#E8B84B" stroke-width="2.6" stroke-opacity="0.85"/>
+    <!-- persona sentada en el piso, piernas estiradas y pie descalzo -->
+    <path d="M94 104 C 118 102, 138 104, 152 108 L152 126 L94 126 Z" fill="#1F3B33"/>
+    <path d="M94 104 C 118 102, 138 104, 152 108 L152 126 L94 126 Z" fill="url(#rt)"/>
+    <path d="M144 126 C 158 129, 172 124, 173 112 L173 96 C 168 92, 158 92, 152 96 C 150 100, 150 106, 148 110 Z" fill="#1F3B33"/>
+    <circle cx="170.5" cy="91.5" r="4.2" fill="#1F3B33" stroke-width="2.4"/>
+    <circle cx="163" cy="89.5" r="3.6" fill="#1F3B33" stroke-width="2.4"/>
+    <circle cx="156.5" cy="91" r="3.2" fill="#1F3B33" stroke-width="2.4"/>
+    <path d="M155 102 C 160 100, 166 100, 170 102" stroke-width="1.8" stroke-opacity="0.6"/>
+    <path d="M66 82 C 56 92, 52 108, 52 126 L102 126 C 102 108, 98 92, 90 82 Z" fill="#1F3B33"/>
+    <path d="M66 82 C 56 92, 52 108, 52 126 L102 126 C 102 108, 98 92, 90 82 Z" fill="url(#rt)"/>
+    <path d="M70 83 Q78 89 86 83" stroke-width="2.2"/>
+    <!-- manos: una en el piso tibio, otra en la rodilla -->
+    <path d="M60 92 C 50 102, 44 112, 42 122"/>
+    <circle cx="42" cy="124" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M94 92 C 104 96, 112 100, 118 103"/>
+    <circle cx="120" cy="104" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza -->
+    <circle cx="78" cy="58" r="26" fill="#1F3B33"/>
+    <path d="M52 56 C 51 40, 63 32, 78 32 C 93 32, 105 40, 104 56 C 98 50, 88 46, 80 45 C 72 48, 61 50, 52 56 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(78 66) scale(0.74)"/>
+    <use href="#estrella-b" transform="translate(28 34) scale(0.7)"/>
+    <use href="#estrella" transform="translate(178 34) scale(0.85)"/>
+  </g>
+</svg>

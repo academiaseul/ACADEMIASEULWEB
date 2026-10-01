@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 페루 · Perú · Estilo A Sticker pop · cerro de Machu Picchu con muro y casitas de piedra (sin bandera) -->
+<!-- nube suelta (fuera de la silueta) -->
+<path d="M18 84 Q16 74 26 73 Q30 64 40 67 Q48 63 52 72 Q60 74 58 84 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M22 166 C24 140 32 112 48 104 C60 98 70 110 78 132 L84 166 Z"/>
+<path d="M44 166 C60 152 68 128 76 104 C84 78 90 52 102 34 Q110 24 118 32 C126 44 132 74 140 100 C148 124 158 148 172 166 Z"/>
+<path d="M28 190 L28 166 Q28 160 34 160 L172 160 Q178 160 178 166 L178 190 Z"/>
+<path d="M38 160 L38 146 L51 133 L64 146 L64 160 Z"/>
+<path d="M146 160 L146 146 L158 134 L170 146 L170 160 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M22 166 C24 140 32 112 48 104 C60 98 70 110 78 132 L84 166 Z"/>
+<path d="M44 166 C60 152 68 128 76 104 C84 78 90 52 102 34 Q110 24 118 32 C126 44 132 74 140 100 C148 124 158 148 172 166 Z"/>
+<path d="M28 190 L28 166 Q28 160 34 160 L172 160 Q178 160 178 166 L178 190 Z"/>
+<path d="M38 160 L38 146 L51 133 L64 146 L64 160 Z"/>
+<path d="M146 160 L146 146 L158 134 L170 146 L170 160 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M22 166 C24 140 32 112 48 104 C60 98 70 110 78 132 L84 166 Z"/>
+<path d="M44 166 C60 152 68 128 76 104 C84 78 90 52 102 34 Q110 24 118 32 C126 44 132 74 140 100 C148 124 158 148 172 166 Z"/>
+<path d="M28 190 L28 166 Q28 160 34 160 L172 160 Q178 160 178 166 L178 190 Z"/>
+<path d="M38 160 L38 146 L51 133 L64 146 L64 160 Z"/>
+<path d="M146 160 L146 146 L158 134 L170 146 L170 160 Z"/>
+</g>
+<!-- cerro chico detrás -->
+<path d="M22 166 C24 140 32 112 48 104 C60 98 70 110 78 132 L84 166 Z" fill="#7FD69A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M32 132 Q36 116 46 110" stroke="#B4F0C8" stroke-width="5" stroke-linecap="round"/>
+<!-- el cerro (Huayna Picchu), verde, con terrazas -->
+<path d="M44 166 C60 152 68 128 76 104 C84 78 90 52 102 34 Q110 24 118 32 C126 44 132 74 140 100 C148 124 158 148 172 166 Z" fill="#5CC98A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M88 74 Q92 54 102 40" stroke="#B4F0C8" stroke-width="5" stroke-linecap="round"/>
+<path d="M80 138 L94 138 L94 142 L104 142" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M120 142 L130 142 L130 138 L144 138" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74 152 L88 152 L88 148 L136 148 L136 152 L152 152" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- muro de piedra inca -->
+<path d="M28 190 L28 166 Q28 160 34 160 L172 160 Q178 160 178 166 L178 190 Z" fill="#E3E6F2" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M30 175 L176 175" stroke="#8A8FA8" stroke-width="3" stroke-linecap="round"/>
+<path d="M54 162 L54 173 M88 162 L88 173 M122 162 L122 173 M154 162 L154 173" stroke="#8A8FA8" stroke-width="3" stroke-linecap="round"/>
+<path d="M40 177 L40 188 M72 177 L72 188 M106 177 L106 188 M138 177 L138 188 M166 177 L166 188" stroke="#8A8FA8" stroke-width="3" stroke-linecap="round"/>
+<!-- casitas de piedra con ventana trapezoidal -->
+<path d="M38 160 L38 146 L51 133 L64 146 L64 160 Z" fill="#E3E6F2" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M47 157 L48.5 147 L53.5 147 L55 157 Z" fill="#5E6280" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M146 160 L146 146 L158 134 L170 146 L170 160 Z" fill="#E3E6F2" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M154 157 L155.5 147 L160.5 147 L162 157 Z" fill="#5E6280" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<!-- cara de la casa (112,110) s=0.85 -->
+<ellipse cx="100.1" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="123.9" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="101.97" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="125.77" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="89.9" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="134.1" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M105.2 121.05 Q112 131.25 118.8 121.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M186 25 Q188.2 33.8 197 36 Q188.2 38.2 186 47 Q183.8 38.2 175 36 Q183.8 33.8 186 25 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 28 Q32 36 40 38 Q32 40 30 48 Q28 40 20 38 Q28 36 30 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 134 Q195.6 140.4 202 142 Q195.6 143.6 194 150 Q192.4 143.6 186 142 Q192.4 140.4 194 134 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="194" cy="90" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 배 · pera coreana — redonda y dorada, con su malla protectora blanca -->
+  <use href="#kw-brillo" transform="translate(38 46) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 82) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(194 150) scale(6)" fill="#FFFFFF"/>
+  <circle cx="26" cy="116" r="3" fill="#FFFFFF"/>
+  <circle cx="174" cy="36" r="2.5" fill="#FFFFFF"/>
+  <circle cx="30" cy="164" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="186" rx="68" ry="8" fill="#B3D5F6"/>
+  <!-- tallo (trazo doble) y hoja -->
+  <path d="M110 72 Q110 54 116 44" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round"/>
+  <path d="M110 72 Q110 54 116 44" fill="none" stroke="#8C6448" stroke-width="4" stroke-linecap="round"/>
+  <path d="M115 52 Q128 34 150 40 Q138 60 115 52 Z" fill="#8ED3A0" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M119 51 Q132 46 143 43" fill="none" stroke="#6CC7A4" stroke-width="2" stroke-linecap="round"/>
+  <!-- pera: relleno, brillo, pintitas, contorno -->
+  <ellipse cx="110" cy="120" rx="62" ry="58" fill="#F3D27A"/>
+  <ellipse cx="78" cy="92" rx="8" ry="15" transform="rotate(-35 78 92)" fill="#FFF3CC"/>
+  <path d="M94 76 L94 76 M128 76 L128 76 M148 94 L148 94 M64 110 L64 110 M156 112 L156 112 M112 86 L112 86" fill="none" stroke="#D9A462" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="110" cy="120" rx="62" ry="58" fill="none" stroke="#003478" stroke-width="3"/>
+  <path d="M102 67 Q110 72 118 67" fill="none" stroke="#003478" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- malla de espuma blanca (un poco más ancha que la pera) con huecos en rombo -->
+  <path d="M46.7 134 L173.3 134 A65 61 0 0 1 144 172 L76 172 A65 61 0 0 1 46.7 134 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M58 146 L64 141 L70 146 L64 151 Z M76 146 L82 141 L88 146 L82 151 Z M94 146 L100 141 L106 146 L100 151 Z M112 146 L118 141 L124 146 L118 151 Z M130 146 L136 141 L142 146 L136 151 Z M148 146 L154 141 L160 146 L154 151 Z" fill="#E7B46E"/>
+  <path d="M67 161 L73 156 L79 161 L73 166 Z M85 161 L91 156 L97 161 L91 166 Z M103 161 L109 156 L115 161 L109 166 Z M121 161 L127 156 L133 161 L127 166 Z M139 161 L145 156 L151 161 L145 166 Z" fill="#E7B46E"/>
+  <use href="#kw-cara" transform="translate(110 106)"/>
+</svg>

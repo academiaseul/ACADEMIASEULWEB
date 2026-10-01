@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="그림" data-es="dibujo, pintura">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 166 C 84 172, 150 172, 198 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- hoja pegada en la pared, levemente girada, con la esquina doblada -->
+    <g transform="rotate(-4 110 72)">
+      <path d="M54 22 H166 V104 L150 120 H54 Z" fill="#1F3B33"/>
+      <path d="M166 104 L150 104 L150 120 Z" fill="url(#rt)" stroke-width="2.4"/>
+      <!-- cinta adhesiva en las esquinas de arriba -->
+      <g transform="rotate(-35 56 24)"><rect x="44" y="19" width="24" height="10" rx="1.5" fill="url(#rb)" stroke-width="2"/></g>
+      <g transform="rotate(35 164 24)"><rect x="152" y="19" width="24" height="10" rx="1.5" fill="url(#rb)" stroke-width="2"/></g>
+      <!-- el dibujo hecho con lápices de colores: nube, sol, perrito y pasto -->
+      <path d="M64 44 C 60 38, 68 32, 74 36 C 78 30, 88 32, 88 40 C 92 42, 90 48, 84 48 H68 C 62 48, 60 46, 64 44 Z" stroke-width="2.2" stroke-opacity="0.85"/>
+      <circle cx="148" cy="38" r="6" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+      <path d="M148 26 V29 M160 38 H157 M139.5 29.5 L141.6 31.6 M156.5 29.5 L154.4 31.6 M139.5 46.5 L141.6 44.4" stroke="#E8B84B" stroke-width="2"/>
+      <path d="M90 52 C 78 52, 74 70, 80 82 C 86 84, 92 74, 93 64 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <path d="M130 52 C 142 52, 146 70, 140 82 C 134 84, 128 74, 127 64 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <circle cx="110" cy="70" r="21" fill="#1F3B33" stroke-width="2.6"/>
+      <circle cx="102" cy="66" r="2.8" fill="#F3F0E4" stroke="none"/>
+      <circle cx="118" cy="66" r="2.8" fill="#F3F0E4" stroke="none"/>
+      <path d="M106 74 H114 L110 78.5 Z" fill="#F4B98C" stroke="#F4B98C" stroke-width="1.6"/>
+      <path d="M104 81 Q107 85 110 81 Q113 85 116 81" stroke-width="2.2"/>
+      <path d="M96 92 C 92 100, 94 108, 100 110 H120 C 126 108, 128 100, 124 92" stroke-width="2.4"/>
+      <path d="M60 114 L64 106 L68 114 L72 106 L76 114 M136 114 L140 106 L144 114" stroke="#9ED9B0" stroke-width="2.2"/>
+    </g>
+    <!-- lápices de colores en el suelo -->
+    <g transform="rotate(-10 70 150)">
+      <path d="M40 146 H84 L95 150 L84 154 H40 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <path d="M84 146 V154 M46 146 V154" stroke="#E8B84B" stroke-width="2"/>
+    </g>
+    <path d="M96 154 H140 L151 158 L140 162 H96 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.4"/>
+    <path d="M140 154 V162 M102 154 V162" stroke="#9ED9B0" stroke-width="2"/>
+    <g transform="rotate(14 172 146)">
+      <path d="M150 142 H184 L194 146 L184 150 H150 Z" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.4"/>
+      <path d="M184 142 V150 M156 142 V150" stroke="#9FCBEF" stroke-width="2"/>
+    </g>
+    <use href="#estrella" transform="translate(28 40) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(192 44) scale(0.65)"/>
+    <use href="#estrella" transform="translate(194 100) scale(0.6)"/>
+  </g>
+</svg>

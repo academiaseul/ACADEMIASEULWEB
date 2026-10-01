@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 가다 · ir · Estilo A Sticker pop · persona de espaldas con mochila que camina hacia una puerta, flecha que se aleja -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M132 180 L132 58 Q132 30 161 30 Q190 30 190 58 L190 180 Z"/>
+<path d="M28 34 L88 34 L88 24 L114 41 L88 58 L88 48 L28 48 Z"/>
+<path d="M60 158 L54 180" fill="none" stroke-width="42"/>
+<path d="M80 158 L88 178" fill="none" stroke-width="42"/>
+<ellipse cx="50" cy="184" rx="11" ry="6.5"/>
+<ellipse cx="93" cy="182" rx="11" ry="6.5"/>
+<path d="M50 130 L40 156" fill="none" stroke-width="40"/>
+<path d="M90 130 L100 156" fill="none" stroke-width="40"/>
+<path d="M46 162 L48 132 Q50 120 70 120 Q90 120 92 132 L94 162 Z"/>
+<ellipse cx="43" cy="98" rx="6" ry="8"/>
+<ellipse cx="97" cy="98" rx="6" ry="8"/>
+<ellipse cx="70" cy="94" rx="27" ry="26"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M132 180 L132 58 Q132 30 161 30 Q190 30 190 58 L190 180 Z"/>
+<path d="M28 34 L88 34 L88 24 L114 41 L88 58 L88 48 L28 48 Z"/>
+<path d="M60 158 L54 180" fill="none" stroke-width="42"/>
+<path d="M80 158 L88 178" fill="none" stroke-width="42"/>
+<ellipse cx="50" cy="184" rx="11" ry="6.5"/>
+<ellipse cx="93" cy="182" rx="11" ry="6.5"/>
+<path d="M50 130 L40 156" fill="none" stroke-width="40"/>
+<path d="M90 130 L100 156" fill="none" stroke-width="40"/>
+<path d="M46 162 L48 132 Q50 120 70 120 Q90 120 92 132 L94 162 Z"/>
+<ellipse cx="43" cy="98" rx="6" ry="8"/>
+<ellipse cx="97" cy="98" rx="6" ry="8"/>
+<ellipse cx="70" cy="94" rx="27" ry="26"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M132 180 L132 58 Q132 30 161 30 Q190 30 190 58 L190 180 Z"/>
+<path d="M28 34 L88 34 L88 24 L114 41 L88 58 L88 48 L28 48 Z"/>
+<path d="M60 158 L54 180" fill="none" stroke-width="35"/>
+<path d="M80 158 L88 178" fill="none" stroke-width="35"/>
+<ellipse cx="50" cy="184" rx="11" ry="6.5"/>
+<ellipse cx="93" cy="182" rx="11" ry="6.5"/>
+<path d="M50 130 L40 156" fill="none" stroke-width="33"/>
+<path d="M90 130 L100 156" fill="none" stroke-width="33"/>
+<path d="M46 162 L48 132 Q50 120 70 120 Q90 120 92 132 L94 162 Z"/>
+<ellipse cx="43" cy="98" rx="6" ry="8"/>
+<ellipse cx="97" cy="98" rx="6" ry="8"/>
+<ellipse cx="70" cy="94" rx="27" ry="26"/>
+</g>
+<!-- puerta de madera con cara -->
+<path d="M132 180 L132 58 Q132 30 161 30 Q190 30 190 58 L190 180 Z" fill="#C98A3E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="142" y="122" width="38" height="46" rx="6" fill="#D9A35F" stroke="#A86B3C" stroke-width="3"/>
+<path d="M140 44 Q150 36 162 36" stroke="#D9A35F" stroke-width="5" stroke-linecap="round"/>
+<circle cx="141" cy="108" r="5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<ellipse cx="150.92" cy="82" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="171.08" cy="82" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="152.5" cy="79.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="172.66" cy="79.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="142.28" cy="92.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="179.72" cy="92.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M155.24 91.36 Q161 100 166.76 91.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- flecha blanca que va hacia la puerta -->
+<path d="M28 34 L88 34 L88 24 L114 41 L88 58 L88 48 L28 48 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- piernas (pantalón navy) y zapatillas -->
+<path d="M60 158 L54 180" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M60 158 L54 180" stroke="#003478" stroke-width="14" stroke-linecap="round"/>
+<path d="M80 158 L88 178" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M80 158 L88 178" stroke="#003478" stroke-width="14" stroke-linecap="round"/>
+<ellipse cx="50" cy="184" rx="11" ry="6.5" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="93" cy="182" rx="11" ry="6.5" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<!-- brazos -->
+<path d="M50 130 L40 156" stroke="#14142B" stroke-width="20" stroke-linecap="round"/>
+<path d="M50 130 L40 156" stroke="#4236F6" stroke-width="12" stroke-linecap="round"/>
+<path d="M90 130 L100 156" stroke="#14142B" stroke-width="20" stroke-linecap="round"/>
+<path d="M90 130 L100 156" stroke="#4236F6" stroke-width="12" stroke-linecap="round"/>
+<circle cx="39" cy="159" r="7" fill="#FFE0C4" stroke="#14142B" stroke-width="3.5"/>
+<circle cx="101" cy="159" r="7" fill="#FFE0C4" stroke="#14142B" stroke-width="3.5"/>
+<!-- torso -->
+<path d="M46 162 L48 132 Q50 120 70 120 Q90 120 92 132 L94 162 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cuello, orejas y cabeza de espaldas (todo pelo) -->
+<rect x="62" y="110" width="16" height="14" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="43" cy="98" rx="6" ry="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="97" cy="98" rx="6" ry="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="70" cy="94" rx="27" ry="26" fill="#14142B" stroke="#14142B" stroke-width="4"/>
+<path d="M54 84 Q58 74 68 71" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<path d="M72 80 Q78 76 76 84" stroke="#5E6280" stroke-width="3" stroke-linecap="round"/>
+<!-- mochila dorada con tapa azul -->
+<rect x="52" y="126" width="36" height="38" rx="11" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M52 141 L52 137 Q52 126 63 126 L77 126 Q88 126 88 137 L88 141 Q70 147 52 141 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="66" y="140" width="8" height="8" rx="2" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<path d="M60 156 L80 156" stroke="#B9861E" stroke-width="3" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M20 67 Q21.8 74.2 29 76 Q21.8 77.8 20 85 Q18.2 77.8 11 76 Q18.2 74.2 20 67 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M206 10 Q207.6 16.4 214 18 Q207.6 19.6 206 26 Q204.4 19.6 198 18 Q204.4 16.4 206 10 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="20" cy="124" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

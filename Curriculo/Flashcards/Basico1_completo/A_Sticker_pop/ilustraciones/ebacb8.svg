@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 문 · puerta · Estilo A Sticker pop · puerta de madera cerrada con manilla redonda dorada -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M58 196 L58 32 Q58 20 70 20 L150 20 Q162 20 162 32 L162 196 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M58 196 L58 32 Q58 20 70 20 L150 20 Q162 20 162 32 L162 196 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M58 196 L58 32 Q58 20 70 20 L150 20 Q162 20 162 32 L162 196 Z"/>
+</g>
+<!-- bisagras -->
+<rect x="53" y="40" width="9" height="16" rx="2" fill="#B3B8D6" stroke="#14142B" stroke-width="2.5"/>
+<rect x="53" y="160" width="9" height="16" rx="2" fill="#B3B8D6" stroke="#14142B" stroke-width="2.5"/>
+<!-- hoja de la puerta -->
+<path d="M58 196 L58 32 Q58 20 70 20 L150 20 Q162 20 162 32 L162 196 Z" fill="#C98A3E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M66 30 L66 44" stroke="#D9A35F" stroke-width="4" stroke-linecap="round"/>
+<!-- paneles -->
+<rect x="72" y="34" width="76" height="74" rx="6" fill="#D9A35F" stroke="#A86B3C" stroke-width="3"/>
+<rect x="72" y="126" width="76" height="56" rx="6" fill="#D9A35F" stroke="#A86B3C" stroke-width="3"/>
+<path d="M84 142 Q97 138 110 142" stroke="#A86B3C" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M108 164 Q122 160 136 164" stroke="#A86B3C" stroke-width="2.6" stroke-linecap="round"/>
+<!-- manilla redonda -->
+<circle cx="146" cy="117" r="8" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<circle cx="143.5" cy="114.5" r="2.4" fill="#FFFFFF"/>
+<!-- cara en el panel de arriba -->
+<ellipse cx="98.1" cy="76" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="76" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="73.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="73.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="87.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="87.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 87.05 Q110 97.25 116.8 87.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M28 28 Q30.4 37.6 40 40 Q30.4 42.4 28 52 Q25.6 42.4 16 40 Q25.6 37.6 28 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 83 Q195.8 90.2 203 92 Q195.8 93.8 194 101 Q192.2 93.8 185 92 Q192.2 90.2 194 83 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M28 151 Q29.8 158.2 37 160 Q29.8 161.8 28 169 Q26.2 161.8 19 160 Q26.2 158.2 28 151 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="192" cy="32" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

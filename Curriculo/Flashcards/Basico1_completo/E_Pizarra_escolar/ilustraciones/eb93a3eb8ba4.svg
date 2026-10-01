@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="듣다" data-es="escuchar">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo -->
+    <path d="M84 110 C 70 124, 64 144, 62 162 L158 162 C 156 144, 150 124, 136 110 Z" fill="#1F3B33"/>
+    <path d="M84 110 C 70 124, 64 144, 62 162 L158 162 C 156 144, 150 124, 136 110 Z" fill="url(#rt)"/>
+    <path d="M96 111 Q110 122 124 111" stroke-width="2.4"/>
+    <!-- cabeza y pelo corto -->
+    <circle cx="110" cy="76" r="30" fill="#1F3B33"/>
+    <path d="M80 74 C 80 54, 94 45, 110 45 C 126 45, 140 54, 140 74 C 134 64, 122 58, 112 60 C 104 56, 92 62, 80 74 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- ojos cerrados de gusto -->
+    <use href="#cara-feliz" transform="translate(110 86) scale(0.82)"/>
+    <!-- audífonos grandes: vincha y almohadillas doradas -->
+    <path d="M72 80 C 69 18, 151 18, 148 80 L141 80 C 143 27, 77 27, 79 80 Z" fill="#1F3B33"/>
+    <path d="M72 80 C 69 18, 151 18, 148 80 L141 80 C 143 27, 77 27, 79 80 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <rect x="65" y="68" width="18" height="30" rx="8" fill="#1F3B33"/>
+    <rect x="65" y="68" width="18" height="30" rx="8" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <rect x="137" y="68" width="18" height="30" rx="8" fill="#1F3B33"/>
+    <rect x="137" y="68" width="18" height="30" rx="8" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- ondas de sonido -->
+    <path d="M56 72 C 50 78, 50 88, 56 94 M164 72 C 170 78, 170 88, 164 94" stroke-width="2.2" stroke-opacity="0.8"/>
+    <!-- notas musicales alrededor -->
+    <use href="#nota" transform="translate(40 52)"/>
+    <use href="#nota" transform="translate(182 46) scale(0.9)"/>
+    <use href="#nota" transform="translate(186 124) scale(1.05)"/>
+    <use href="#nota" transform="translate(36 128) scale(0.8)"/>
+  </g>
+</svg>

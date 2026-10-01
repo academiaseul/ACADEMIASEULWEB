@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="커피" data-es="café">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="108" cy="155" rx="58" ry="9" fill="#1F3B33"/>
+    <ellipse cx="108" cy="153" rx="34" ry="5" stroke-width="1.6" stroke-opacity="0.5"/>
+    <path d="M147 86 C 176 82, 178 128, 143 128 M148 98 C 164 98, 164 116, 145 116"/>
+    <path d="M64 70 L70 140 C 72 154, 144 154, 146 140 L152 70 Z" fill="#1F3B33"/>
+    <path d="M64 70 L70 140 C 72 154, 144 154, 146 140 L152 70 Z" fill="url(#rt)"/>
+    <ellipse cx="108" cy="70" rx="44" ry="9" fill="#1F3B33"/>
+    <ellipse cx="108" cy="71" rx="38" ry="6" fill="url(#rd)" stroke="#E8B84B" stroke-width="2"/>
+    <use href="#cara" transform="translate(108 104)"/>
+    <path d="M92 56 C 86 46, 98 40, 92 28 M108 52 C 102 40, 114 34, 108 20 M124 56 C 118 46, 130 40, 124 28" stroke-width="2.4" stroke-opacity="0.85"/>
+    <g transform="rotate(-30 36 140)"><ellipse cx="36" cy="140" rx="9" ry="6" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.4"/><path d="M29.5 140 C 34 136.5, 38 143.5, 42.5 140" stroke="#E8B84B" stroke-width="2.2"/></g>
+    <g transform="rotate(25 188 64)"><ellipse cx="188" cy="64" rx="9" ry="6" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.4"/><path d="M181.5 64 C 186 60.5, 190 67.5, 194.5 64" stroke="#E8B84B" stroke-width="2.2"/></g>
+    <g transform="rotate(60 186 146)"><ellipse cx="186" cy="146" rx="9" ry="6" fill="#1F3B33" stroke="#E8B84B" stroke-width="2.4"/><path d="M179.5 146 C 184 142.5, 188 149.5, 192.5 146" stroke="#E8B84B" stroke-width="2.2"/></g>
+    <use href="#estrella" transform="translate(40 46) scale(0.8)"/>
+  </g>
+</svg>

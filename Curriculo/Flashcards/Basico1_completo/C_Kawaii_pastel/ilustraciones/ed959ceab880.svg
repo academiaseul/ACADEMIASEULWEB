@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 한글 · alfabeto coreano -->
+  <use href="#kw-brillo" transform="translate(26 58) scale(9)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(198 40) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(198 152) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="112" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="98" r="2.5" fill="#FFFFFF"/>
+  <circle cx="32" cy="168" r="2.5" fill="#E8B84B"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="64" ry="7" fill="#D2CBFA"/>
+  <!-- patas del atril: trazo doble -->
+  <path d="M76 130 L64 183 M144 130 L156 183" fill="none" stroke="#003478" stroke-width="11" stroke-linecap="round"/>
+  <path d="M76 130 L64 183 M144 130 L156 183" fill="none" stroke="#C99A5E" stroke-width="5" stroke-linecap="round"/>
+  <!-- marco de madera y pizarra verde -->
+  <rect x="44" y="30" width="132" height="104" rx="14" fill="#E2B271" stroke="#003478" stroke-width="3"/>
+  <rect x="54" y="40" width="112" height="84" rx="8" fill="#6CC7A4" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="65" cy="50" rx="6" ry="3" fill="#A6DEC4" transform="rotate(-35 65 50)"/>
+  <!-- letras escritas con tiza -->
+  <text x="76" y="86" text-anchor="middle" font-family="Jua, sans-serif" font-size="36" fill="#FFFFFF" stroke="#003478" stroke-width="4" stroke-linejoin="round" paint-order="stroke">ㄱ</text>
+  <text x="110" y="86" text-anchor="middle" font-family="Jua, sans-serif" font-size="36" fill="#FFFFFF" stroke="#003478" stroke-width="4" stroke-linejoin="round" paint-order="stroke">ㄴ</text>
+  <text x="144" y="86" text-anchor="middle" font-family="Jua, sans-serif" font-size="36" fill="#FFFFFF" stroke="#003478" stroke-width="4" stroke-linejoin="round" paint-order="stroke">ㅏ</text>
+  <!-- repisa con borrador azul y tiza -->
+  <rect x="50" y="128" width="120" height="9" rx="4.5" fill="#C99A5E" stroke="#003478" stroke-width="2.6"/>
+  <rect x="58" y="119" width="22" height="10" rx="3" fill="#4236F6" stroke="#003478" stroke-width="2.2"/>
+  <path d="M61 122 L77 122" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+  <rect x="140" y="122" width="18" height="6" rx="3" fill="#FFFFFF" stroke="#003478" stroke-width="2"/>
+  <use href="#kw-cara" transform="translate(110 106) scale(0.8)"/>
+</svg>

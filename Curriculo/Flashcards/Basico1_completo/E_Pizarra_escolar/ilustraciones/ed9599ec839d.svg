@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="학생" data-es="estudiante">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 88 172, 150 172, 196 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- mochila: asoma a los dos lados de la espalda -->
+    <path d="M54 116 C 54 106, 62 100, 72 100 L 140 100 C 148 100, 152 106, 152 114 L 152 150 L 54 150 Z" fill="#1F3B33"/>
+    <path d="M54 116 C 54 106, 62 100, 72 100 L 140 100 C 148 100, 152 106, 152 114 L 152 150 L 54 150 Z" fill="url(#rt)"/>
+    <path d="M58 124 C 64 120, 72 120, 76 122 M58 124 V 146" stroke-width="2.2" stroke-opacity="0.85"/>
+    <circle cx="66" cy="130" r="2.4" fill="#E8B84B" stroke="none"/>
+    <!-- cuerpo -->
+    <path d="M90 112 C 76 126, 70 146, 68 162 L 152 162 C 150 146, 144 126, 130 112 Z" fill="#1F3B33"/>
+    <path d="M90 112 C 76 126, 70 146, 68 162 L 152 162 C 150 146, 144 126, 130 112 Z" fill="url(#rt)"/>
+    <path d="M100 113 Q110 121 120 113" stroke-width="2.4"/>
+    <!-- tirantes de la mochila -->
+    <path d="M93 113 C 90 128, 89 142, 89 160 M127 113 C 130 128, 131 142, 131 160" stroke-width="3.4"/>
+    <path d="M85 138 H 93 M127 138 H 135" stroke-width="2.2"/>
+    <!-- brazo izquierdo suelto -->
+    <path d="M88 120 C 76 130, 70 142, 72 152"/>
+    <circle cx="73" cy="155" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- cuaderno dorado bajo el brazo derecho -->
+    <g transform="rotate(-10 156 126)">
+      <rect x="142" y="106" width="28" height="38" rx="2" fill="#1F3B33" stroke="none"/>
+      <rect x="142" y="106" width="28" height="38" rx="2" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+      <path d="M142 112 h-3 M142 120 h-3 M142 128 h-3 M142 136 h-3" stroke-width="2.2"/>
+      <rect x="149" y="114" width="15" height="8" rx="1.5" fill="#1F3B33" stroke-width="1.8"/>
+    </g>
+    <path d="M131 118 C 144 120, 150 132, 147 146"/>
+    <circle cx="146" cy="149" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza -->
+    <circle cx="110" cy="72" r="30" fill="#1F3B33"/>
+    <path d="M80 72 C 77 50, 92 40, 110 40 C 128 40, 143 50, 140 72 C 134 64, 124 60, 116 60 C 110 56, 100 56, 94 60 C 88 62, 82 66, 80 72 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(110 80) scale(0.82)"/>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(38 46) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(182 48) scale(0.7)"/>
+    <use href="#estrella" transform="translate(190 150) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(34 128) scale(0.6)"/>
+  </g>
+</svg>

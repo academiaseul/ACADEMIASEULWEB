@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="가다" data-es="ir (가요)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 165 C 80 172, 150 172, 206 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- flecha dorada: de la persona hacia la puerta -->
+    <path d="M40 24 H134 M122 13 L134 24 L122 35" stroke="#E8B84B" stroke-width="4.2"/>
+    <!-- puerta abierta a la derecha: luz celeste y la hoja abierta hacia adentro -->
+    <rect x="150" y="48" width="46" height="114" fill="url(#ra)" stroke="none"/>
+    <path d="M196 48 L182 56 V156 L196 162 Z" fill="#1F3B33"/>
+    <path d="M196 48 L182 56 V156 L196 162 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <circle cx="185.5" cy="108" r="2.6" fill="#E8B84B" stroke="none"/>
+    <rect x="150" y="48" width="46" height="114"/>
+    <!-- líneas de movimiento detrás -->
+    <path d="M24 112 H38 M20 124 H36 M26 136 H38" stroke-width="2.4" stroke-opacity="0.7"/>
+    <!-- mochila en la espalda (queda detrás del cuerpo) -->
+    <path d="M44 106 C 44 99, 48 96, 54 96 H72 V142 H52 C 47 142, 44 139, 44 134 Z" fill="#1F3B33"/>
+    <path d="M44 106 C 44 99, 48 96, 54 96 H72 V142 H52 C 47 142, 44 139, 44 134 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M47 122 C 51 126, 57 126, 61 122" stroke="#E8B84B" stroke-width="2.2"/>
+    <!-- piernas dando un paso hacia la derecha -->
+    <path d="M80 136 L68 155 M98 136 L110 155" stroke-width="3.2"/>
+    <ellipse cx="64" cy="158" rx="9" ry="5" fill="#1F3B33" transform="rotate(-12 64 158)"/>
+    <ellipse cx="115" cy="158" rx="10" ry="5.5" fill="#1F3B33"/>
+    <!-- cuerpo -->
+    <path d="M74 98 C 64 108, 60 124, 62 140 L112 140 C 114 124, 110 108, 100 98 Z" fill="#1F3B33"/>
+    <path d="M74 98 C 64 108, 60 124, 62 140 L112 140 C 114 124, 110 108, 100 98 Z" fill="url(#rt)"/>
+    <path d="M76 100 C 81 112, 83 124, 81 138" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- brazos que se balancean al caminar -->
+    <path d="M70 108 C 62 116, 58 124, 57 131"/>
+    <circle cx="57" cy="134" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M104 108 C 112 114, 118 120, 121 127"/>
+    <circle cx="122.5" cy="130" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza mirando hacia la puerta -->
+    <circle cx="90" cy="70" r="28" fill="#1F3B33"/>
+    <path d="M62 74 C 60 52, 74 42, 92 42 C 108 42, 120 52, 118 66 C 108 62, 100 57, 95 51 C 88 58, 78 62, 68 62 C 66 66, 64 70, 62 74 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(96 76) scale(0.68)"/>
+    <use href="#estrella" transform="translate(22 52) scale(0.7)"/>
+    <use href="#estrella-b" transform="translate(134 82) scale(0.6)"/>
+  </g>
+</svg>

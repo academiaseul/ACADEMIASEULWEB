@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="요리하다" data-es="cocinar">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 166 C 76 172, 150 172, 204 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- persona con delantal -->
+    <path d="M52 86 C 40 98, 36 130, 34 162 L102 162 C 100 130, 96 98, 84 86 Z" fill="#1F3B33"/>
+    <path d="M52 86 C 40 98, 36 130, 34 162 L102 162 C 100 130, 96 98, 84 86 Z" fill="url(#rt)"/>
+    <path d="M58 98 H78 V114 C 86 120, 90 140, 92 162 H44 C 46 140, 50 120, 58 114 Z" fill="#1F3B33"/>
+    <path d="M58 98 L55 87 M78 98 L81 87" stroke-width="2.4"/>
+    <path d="M60 132 H76 V145 C 76 148, 74 149, 72 149 H64 C 62 149, 60 148, 60 145 Z" stroke-width="2.2"/>
+    <path d="M51 116 L42 120 M51 116 L44 112" stroke-width="2.2"/>
+    <!-- brazo que cuelga -->
+    <path d="M48 98 C 38 112, 34 128, 38 140"/>
+    <circle cx="39" cy="143" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza -->
+    <circle cx="68" cy="60" r="27" fill="#1F3B33"/>
+    <path d="M41 60 C 40 43, 52 33, 68 33 C 84 33, 96 43, 95 60 C 91 53, 86 49, 80 47 C 72 50, 60 49, 54 43 C 50 50, 46 55, 41 60 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(68 67) scale(0.74)"/>
+    <!-- olla sobre la cocina -->
+    <path d="M110 156 H196 V163 H110 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <path d="M118 118 H110 V126 H118 M186 118 H194 V126 H186" stroke-width="2.8"/>
+    <path d="M118 110 A34 8 0 0 0 186 110 V146 C 186 153, 180 156, 173 156 H131 C 124 156, 118 153, 118 146 Z" fill="#1F3B33"/>
+    <path d="M118 110 A34 8 0 0 0 186 110 V146 C 186 153, 180 156, 173 156 H131 C 124 156, 118 153, 118 146 Z" fill="url(#rt)"/>
+    <path d="M124 124 V146" stroke-width="2" stroke-opacity="0.6"/>
+    <ellipse cx="152" cy="110" rx="30" ry="5.5" fill="url(#rd)" stroke="none"/>
+    <ellipse cx="152" cy="110" rx="34" ry="8"/>
+    <!-- cucharón dorado que revuelve -->
+    <path d="M112 82 L146 110" stroke="#E8B84B" stroke-width="3.4"/>
+    <path d="M152 112 C 146 106, 140 112, 146 116" stroke="#E8B84B" stroke-width="2.2" stroke-opacity="0.8"/>
+    <!-- brazo que sostiene el cucharón -->
+    <path d="M88 98 C 100 104, 110 98, 118 89"/>
+    <circle cx="119" cy="88" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- vapor -->
+    <path d="M160 98 C 154 90, 166 84, 160 74 M172 98 C 166 90, 178 84, 172 72 M184 98 C 178 90, 190 84, 184 74" stroke-width="2.4" stroke-opacity="0.85"/>
+    <use href="#estrella" transform="translate(196 38) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(130 40) scale(0.65)"/>
+    <use href="#estrella" transform="translate(20 28) scale(0.6)"/>
+  </g>
+</svg>

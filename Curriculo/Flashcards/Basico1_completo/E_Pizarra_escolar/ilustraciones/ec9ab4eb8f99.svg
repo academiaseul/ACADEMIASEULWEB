@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="운동" data-es="deporte, ejercicio">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 165 C 84 172, 150 172, 206 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- raqueta de tenis apoyada detrás de la pelota -->
+    <g transform="rotate(35 146 60)">
+      <path d="M142 96 H150 V150 H142 Z" fill="#1F3B33"/>
+      <path d="M142 96 H150 V150 H142 Z" fill="url(#rt)"/>
+      <path d="M136 84 L146 98 L156 84" stroke="#E8B84B" stroke-width="3"/>
+      <ellipse cx="146" cy="60" rx="22" ry="30" fill="#1F3B33"/>
+      <path d="M134 40.6 V79.4 M140 35.5 V84.5 M146 34 V86 M152 35.5 V84.5 M158 40.6 V79.4 M128.9 44 H163.1 M131.8 52 H160.2 M128 60 H164 M131.8 68 H160.2 M128.9 76 H163.1" stroke-width="1.6" stroke-opacity="0.7"/>
+      <ellipse cx="146" cy="60" rx="22" ry="30" stroke="#E8B84B" stroke-width="3.6"/>
+    </g>
+    <!-- pesa chica -->
+    <path d="M160 144 H190 V150 H160 Z" fill="#1F3B33"/>
+    <path d="M160 144 H190 V150 H160 Z" fill="url(#rb)"/>
+    <rect x="150" y="132" width="12" height="30" rx="4" fill="#1F3B33"/>
+    <rect x="150" y="132" width="12" height="30" rx="4" fill="url(#rt)"/>
+    <rect x="188" y="132" width="12" height="30" rx="4" fill="#1F3B33"/>
+    <rect x="188" y="132" width="12" height="30" rx="4" fill="url(#rt)"/>
+    <!-- pelota de fútbol con cara -->
+    <circle cx="92" cy="126" r="34" fill="#1F3B33"/>
+    <!-- 5 parches en el borde y costuras que forman el pentágono central -->
+    <path d="M82.1 93.5 L86.2 100.7 L92 105 L97.8 100.7 L101.9 93.5 A 34 34 0 0 0 82.1 93.5 Z M119.9 106.5 L114.3 112.6 L112 119.5 L117.9 123.7 L126 125.4 A 34 34 0 0 0 119.9 106.5 Z M119.2 146.5 L111.6 143.1 L104.3 143 L102.2 149.9 L103.1 158.1 A 34 34 0 0 0 119.2 146.5 Z M80.9 158.1 L81.8 149.9 L79.7 143 L72.4 143.1 L64.8 146.5 A 34 34 0 0 0 80.9 158.1 Z M58 125.4 L66.1 123.7 L72 119.5 L69.7 112.6 L64.1 106.5 A 34 34 0 0 0 58 125.4 Z" fill="url(#rb)" stroke-width="2.4"/>
+    <path d="M97.8 100.7 L114.3 112.6 M117.9 123.7 L111.6 143.1 M102.2 149.9 L81.8 149.9 M72.4 143.1 L66.1 123.7 M69.7 112.6 L86.2 100.7" stroke-width="2.2"/>
+    <circle cx="92" cy="126" r="34"/>
+    <use href="#cara" transform="translate(92 126) scale(0.6)"/>
+    <!-- gotas de sudor -->
+    <use href="#gota" transform="translate(44 92) scale(1.1)"/>
+    <use href="#gota" transform="translate(32 112) scale(0.85)"/>
+    <use href="#estrella" transform="translate(34 40) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(196 104) scale(0.6)"/>
+  </g>
+</svg>

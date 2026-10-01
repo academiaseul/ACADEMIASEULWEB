@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="엄마" data-es="mamá">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 166 C 84 172, 150 172, 196 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- mamá: moño atrás, cuerpo -->
+    <circle cx="90" cy="28" r="11" fill="#1F3B33"/>
+    <circle cx="90" cy="28" r="11" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M74 90 C 58 104, 52 136, 50 162 L 130 162 C 128 136, 122 104, 106 90 Z" fill="#1F3B33"/>
+    <path d="M74 90 C 58 104, 52 136, 50 162 L 130 162 C 128 136, 122 104, 106 90 Z" fill="url(#rt)"/>
+    <path d="M80 91 Q90 99 100 91" stroke-width="2.2"/>
+    <!-- brazo de atrás: rodea la espalda del niño -->
+    <path d="M118 104 C 138 106, 156 114, 164 126"/>
+    <circle cx="166" cy="130" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza y pelo tomado -->
+    <circle cx="90" cy="64" r="28" fill="#1F3B33"/>
+    <path d="M62 62 C 62 44, 74 36, 90 36 C 106 36, 118 44, 118 62 C 110 58, 100 52, 95 45 C 88 53, 75 58, 62 62 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M83 38.5 Q90 41.5 97 38.5" stroke-width="2.6"/>
+    <use href="#cara-feliz" transform="translate(90 72) scale(0.8)"/>
+    <!-- niño pequeño -->
+    <path d="M128 110 C 120 120, 118 144, 118 162 L 158 162 C 158 144, 156 120, 148 110 Z" fill="#1F3B33"/>
+    <path d="M128 110 C 120 120, 118 144, 118 162 L 158 162 C 158 144, 156 120, 148 110 Z" fill="url(#rt)"/>
+    <path d="M126 118 C 120 110, 116 104, 112 99"/>
+    <circle cx="111" cy="96.5" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="138" cy="94" r="17" fill="#1F3B33"/>
+    <path d="M121 92 C 121 81, 129 77, 138 77 C 147 77, 155 81, 155 92 C 150 88, 144 86, 140 86 C 134 88, 126 89, 121 92 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M138 77 C 135 70, 142 67, 144 71" stroke="#E8B84B" stroke-width="2.2"/>
+    <use href="#cara-feliz" transform="translate(138 100) scale(0.5)"/>
+    <!-- brazo de adelante: el abrazo -->
+    <path d="M64 112 C 74 136, 112 144, 148 134"/>
+    <circle cx="151" cy="133" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <use href="#corazon" transform="translate(178 58) scale(0.9)"/>
+    <use href="#estrella" transform="translate(36 48) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(30 140) scale(0.6)"/>
+  </g>
+</svg>

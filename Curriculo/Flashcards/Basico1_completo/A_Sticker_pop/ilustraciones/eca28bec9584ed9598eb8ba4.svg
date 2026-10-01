@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 좋아하다 · gustar · Estilo A Sticker pop · carita amarilla feliz (ojos cerrados de gusto) abrazando un corazón AZUL (nunca rojo ni rosado); pareja visual de 싫어하다 -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="82" cy="180" rx="14" ry="9"/>
+<ellipse cx="138" cy="180" rx="14" ry="9"/>
+<ellipse cx="110" cy="104" rx="62" ry="68"/>
+<path d="M110 186 C78 166 62 148 64 130 C66 112 90 104 110 122 C130 104 154 112 156 130 C158 148 142 166 110 186 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="82" cy="180" rx="14" ry="9"/>
+<ellipse cx="138" cy="180" rx="14" ry="9"/>
+<ellipse cx="110" cy="104" rx="62" ry="68"/>
+<path d="M110 186 C78 166 62 148 64 130 C66 112 90 104 110 122 C130 104 154 112 156 130 C158 148 142 166 110 186 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="82" cy="180" rx="14" ry="9"/>
+<ellipse cx="138" cy="180" rx="14" ry="9"/>
+<ellipse cx="110" cy="104" rx="62" ry="68"/>
+<path d="M110 186 C78 166 62 148 64 130 C66 112 90 104 110 122 C130 104 154 112 156 130 C158 148 142 166 110 186 Z"/>
+</g>
+<!-- patitas -->
+<ellipse cx="82" cy="180" rx="14" ry="9" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="138" cy="180" rx="14" ry="9" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<!-- cuerpo redondo amarillo -->
+<ellipse cx="110" cy="104" rx="62" ry="68" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<path d="M64 88 Q68 64 88 50" stroke="#FFF4D9" stroke-width="6" stroke-linecap="round" fill="none"/>
+<!-- cara: ojos cerrados de gusto, s = 1 -->
+<path d="M90 76 Q96 70 102 76" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<path d="M118 76 Q124 70 130 76" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<ellipse cx="84" cy="90" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="90" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 89 Q110 101 118 89 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- corazón azul abrazado -->
+<path d="M110 186 C78 166 62 148 64 130 C66 112 90 104 110 122 C130 104 154 112 156 130 C158 148 142 166 110 186 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M76 134 Q77 122 88 118" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round" fill="none"/>
+<!-- manitos (mitones) a los lados del corazón -->
+<circle cx="68" cy="140" r="11" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<circle cx="152" cy="140" r="11" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<path d="M71 133 L76 136" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M149 133 L144 136" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M30 22 Q32.4 31.6 42 34 Q32.4 36.4 30 46 Q27.6 36.4 18 34 Q27.6 31.6 30 22 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 35 Q193.8 42.2 201 44 Q193.8 45.8 192 53 Q190.2 45.8 183 44 Q190.2 42.2 192 35 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="118" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 아니요 · no -->
+  <use href="#kw-brillo" transform="translate(32 42) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(140 40) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(204 160) scale(5)" fill="#FFFFFF"/>
+  <circle cx="22" cy="80" r="3" fill="#FFFFFF"/>
+  <circle cx="198" cy="56" r="2.5" fill="#E8B84B"/>
+  <circle cx="156" cy="162" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="100" cy="189" rx="72" ry="7" fill="#ADA1F0"/>
+  <!-- X navy: en Corea, X = no / incorrecto -->
+  <path d="M161 85 L191 115 M191 85 L161 115" fill="none" stroke="#003478" stroke-width="17" stroke-linecap="round"/>
+  <path d="M164 88 L170 94" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- líneas de movimiento: la cabeza va de lado a lado -->
+  <path d="M32 98 Q26 108 32 118 M24 102 Q20 108 24 114 M108 77 Q115 83 113 92 M116 72 Q124 80 121 89" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- persona base (uniforme azul) negando con la cabeza -->
+  <g transform="matrix(0.72 0 0 0.72 -9.2 51.1)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.6"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="3.6"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="4.2" stroke-linejoin="round"/>
+    <path d="M99 124 L110 142 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3.3" stroke-linejoin="round"/>
+    <path d="M110 136 L114 142 L110 150 L106 142 Z" fill="#E8B84B" stroke="#003478" stroke-width="2.8" stroke-linejoin="round"/>
+    <path d="M84 132 Q70 150 78 168" fill="none" stroke="#003478" stroke-width="18" stroke-linecap="round"/>
+    <path d="M84 132 Q70 150 78 168" fill="none" stroke="#4236F6" stroke-width="9.7" stroke-linecap="round"/>
+    <circle cx="78" cy="170" r="6.5" fill="#FFE4C8" stroke="#003478" stroke-width="3.3"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="4.2"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="4.2" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="4.9" stroke-linecap="round"/>
+    <use href="#kw-cara-o" transform="translate(110 98)"/>
+  </g>
+  <!-- brazo en alto con la palma abierta hacia adelante -->
+  <path d="M89 146 Q118 150 128 132" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M89 146 Q118 150 128 132" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="119.5" cy="121" rx="4.5" ry="7" transform="rotate(-35 119.5 121)" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <rect x="121" y="101" width="21" height="28" rx="8.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <path d="M126.5 102 L126.5 110 M131.5 101.5 L131.5 110 M136.5 102 L136.5 110" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 물 · agua · Estilo A Sticker pop · mazo aprobado (30 sept 2026) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M60 62 L160 62 L148 186 Q147 194 139 194 L81 194 Q73 194 72 186 Z"/>
+<path d="M178 20 C178 20 158 46 158 58 A20 20 0 0 0 198 58 C198 46 178 20 178 20 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M60 62 L160 62 L148 186 Q147 194 139 194 L81 194 Q73 194 72 186 Z"/>
+<path d="M178 20 C178 20 158 46 158 58 A20 20 0 0 0 198 58 C198 46 178 20 178 20 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M60 62 L160 62 L148 186 Q147 194 139 194 L81 194 Q73 194 72 186 Z"/>
+<path d="M178 20 C178 20 158 46 158 58 A20 20 0 0 0 198 58 C198 46 178 20 178 20 Z"/>
+</g>
+<defs>
+<clipPath id="clipVaso">
+<path d="M60 62 L160 62 L148 186 Q147 194 139 194 L81 194 Q73 194 72 186 Z"/>
+</clipPath>
+</defs>
+<path d="M60 62 L160 62 L148 186 Q147 194 139 194 L81 194 Q73 194 72 186 Z" fill="#F3F6FF"/>
+<g clip-path="url(#clipVaso)">
+<path d="M40 102 Q62 92 84 102 T128 102 T172 102 L172 200 L40 200 Z" fill="#9DB7FF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="92" cy="176" r="3.5" fill="#FFFFFF"/>
+<circle cx="134" cy="182" r="2.5" fill="#FFFFFF"/>
+<circle cx="128" cy="116" r="2.5" fill="#FFFFFF"/>
+</g>
+<path d="M71 74 L79 172" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 62 L160 62 L148 186 Q147 194 139 194 L81 194 Q73 194 72 186 Z" fill="none" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="96.7" cy="140" rx="6.17" ry="8.07" fill="#14142B"/>
+<ellipse cx="123.3" cy="140" rx="6.17" ry="8.07" fill="#14142B"/>
+<circle cx="98.79" cy="136.77" r="2.28" fill="#FFFFFF"/>
+<circle cx="125.39" cy="136.77" r="2.28" fill="#FFFFFF"/>
+<ellipse cx="85.3" cy="153.3" rx="6.65" ry="4.27" fill="#FFB98A"/>
+<ellipse cx="134.7" cy="153.3" rx="6.65" ry="4.27" fill="#FFB98A"/>
+<path d="M102.4 152.35 Q110 163.75 117.6 152.35 Z" fill="#14142B" stroke="#14142B" stroke-width="2.85" stroke-linejoin="round"/>
+<path d="M178 20 C178 20 158 46 158 58 A20 20 0 0 0 198 58 C198 46 178 20 178 20 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M169 46 Q165 55 169 63" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 28 Q38.4 37.6 48 40 Q38.4 42.4 36 52 Q33.6 42.4 24 40 Q33.6 37.6 36 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M28 141 Q29.8 148.2 37 150 Q29.8 151.8 28 159 Q26.2 151.8 19 150 Q26.2 148.2 28 141 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="170" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

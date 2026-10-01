@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 창문 · ventana · Estilo A Sticker pop · ventana abierta (hojas hacia afuera) con cortinas azules y un sol con cara afuera -->
+<!-- silueta: barra de la cortina + remates + hojas abiertas + marco + alféizar -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="38" y="38" width="144" height="8" rx="4"/>
+<circle cx="38" cy="42" r="6"/>
+<circle cx="182" cy="42" r="6"/>
+<path d="M52 54 L30 64 L30 150 L52 160 Z"/>
+<path d="M168 54 L190 64 L190 150 L168 160 Z"/>
+<rect x="52" y="50" width="116" height="114" rx="6"/>
+<rect x="40" y="160" width="140" height="14" rx="5"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="38" y="38" width="144" height="8" rx="4"/>
+<circle cx="38" cy="42" r="6"/>
+<circle cx="182" cy="42" r="6"/>
+<path d="M52 54 L30 64 L30 150 L52 160 Z"/>
+<path d="M168 54 L190 64 L190 150 L168 160 Z"/>
+<rect x="52" y="50" width="116" height="114" rx="6"/>
+<rect x="40" y="160" width="140" height="14" rx="5"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="38" y="38" width="144" height="8" rx="4"/>
+<circle cx="38" cy="42" r="6"/>
+<circle cx="182" cy="42" r="6"/>
+<path d="M52 54 L30 64 L30 150 L52 160 Z"/>
+<path d="M168 54 L190 64 L190 150 L168 160 Z"/>
+<rect x="52" y="50" width="116" height="114" rx="6"/>
+<rect x="40" y="160" width="140" height="14" rx="5"/>
+</g>
+<!-- hojas de la ventana abiertas hacia afuera (vidrio claro) -->
+<path d="M52 54 L30 64 L30 150 L52 160 Z" fill="#E6F5FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M36 78 L44 74" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M41 105 L41 110" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<path d="M168 54 L190 64 L190 150 L168 160 Z" fill="#E6F5FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M176 74 L184 78" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M179 105 L179 110" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<!-- marco blanco y cielo -->
+<rect x="52" y="50" width="116" height="114" rx="6" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<rect x="62" y="60" width="96" height="94" rx="3" fill="#9FD8FF" stroke="#14142B" stroke-width="3.5"/>
+<!-- sol con rayos y cara -->
+<path d="M110 66 L110 72" stroke="#E8B84B" stroke-width="5" stroke-linecap="round"/>
+<path d="M110 132 L110 138" stroke="#E8B84B" stroke-width="5" stroke-linecap="round"/>
+<path d="M135.5 76.5 L131.2 80.8" stroke="#E8B84B" stroke-width="5" stroke-linecap="round"/>
+<path d="M84.5 76.5 L88.8 80.8" stroke="#E8B84B" stroke-width="5" stroke-linecap="round"/>
+<path d="M135.5 127.5 L131.2 123.2" stroke="#E8B84B" stroke-width="5" stroke-linecap="round"/>
+<path d="M84.5 127.5 L88.8 123.2" stroke="#E8B84B" stroke-width="5" stroke-linecap="round"/>
+<circle cx="110" cy="102" r="24" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="101.6" cy="102" rx="3.9" ry="5.1" fill="#14142B"/>
+<ellipse cx="118.4" cy="102" rx="3.9" ry="5.1" fill="#14142B"/>
+<circle cx="102.92" cy="99.96" r="1.44" fill="#FFFFFF"/>
+<circle cx="119.72" cy="99.96" r="1.44" fill="#FFFFFF"/>
+<ellipse cx="94.4" cy="110.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<ellipse cx="125.6" cy="110.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<path d="M105.2 109.8 Q110 117 114.8 109.8 Z" fill="#14142B" stroke="#14142B" stroke-width="1.8" stroke-linejoin="round"/>
+<!-- nubecita -->
+<path d="M100 148 Q100 140 108 141 Q112 134 120 139 Q128 138 128 148 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- cortinas azules recogidas con lazo dorado -->
+<path d="M62 60 L92 60 Q86 84 80 108 Q88 132 86 154 L62 154 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M70 66 L70 148" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<path d="M80 66 Q78 88 74 106" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="74" cy="108" rx="9" ry="4.5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<path d="M158 60 L128 60 Q134 84 140 108 Q132 132 134 154 L158 154 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M150 66 L150 148" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<path d="M140 66 Q142 88 146 106" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="146" cy="108" rx="9" ry="4.5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- barra dorada de la cortina -->
+<rect x="38" y="38" width="144" height="8" rx="4" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<circle cx="38" cy="42" r="6" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<circle cx="182" cy="42" r="6" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<!-- alféizar de madera -->
+<rect x="40" y="160" width="140" height="14" rx="5" fill="#C98A3E" stroke="#14142B" stroke-width="4"/>
+<path d="M50 166 L80 166" stroke="#D9A35F" stroke-width="4" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M16 7 Q17.8 14.2 25 16 Q17.8 17.8 16 25 Q14.2 17.8 7 16 Q14.2 14.2 16 7 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M204 8 Q205.6 14.4 212 16 Q205.6 17.6 204 24 Q202.4 17.6 196 16 Q202.4 14.4 204 8 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="110" cy="200" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="고양이" data-es="gato">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 166 C 90 172, 150 172, 190 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <path d="M144 152 C 176 154, 190 128, 178 106 C 172 96, 160 99, 163 109"/>
+    <path d="M170 146 L176 152 M182 130 L189 132 M179 112 L186 109" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M74 64 L70 28 L98 44 Z" fill="url(#rd)"/>
+    <path d="M146 64 L150 28 L122 44 Z" fill="url(#rd)"/>
+    <path d="M78 52 L76 36 L90 44" stroke="#F4B98C" stroke-width="2.4"/>
+    <path d="M142 52 L144 36 L130 44" stroke="#F4B98C" stroke-width="2.4"/>
+    <path d="M86 104 C 72 120, 68 146, 74 162 L146 162 C 152 146, 148 120, 134 104" fill="url(#rd)"/>
+    <path d="M96 162 C 92 140, 98 124, 110 122 C 122 124, 128 140, 124 162 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M96 162 C 92 140, 98 124, 110 122 C 122 124, 128 140, 124 162 Z" fill="url(#rt)" stroke="none"/>
+    <path d="M76 130 L88 128 M75 142 L86 142 M144 130 L132 128 M145 142 L134 142" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M90 162 C 90 151, 105 151, 105 162 M115 162 C 115 151, 130 151, 130 162" fill="#1F3B33"/>
+    <path d="M95 158 V162 M100 158 V162 M120 158 V162 M125 158 V162" stroke-width="1.6"/>
+    <path d="M68 74 C 66 51, 85 40, 110 40 C 135 40, 154 51, 152 74 C 150 96, 133 108, 110 108 C 87 108, 70 96, 68 74 Z" fill="#1F3B33"/>
+    <path d="M102 47 L104 57 M110 45 V56 M118 47 L116 57" stroke="#E8B84B" stroke-width="2.6"/>
+    <circle cx="96" cy="74" r="7" fill="#F3F0E4" stroke="none"/>
+    <circle cx="124" cy="74" r="7" fill="#F3F0E4" stroke="none"/>
+    <circle cx="93.5" cy="71.5" r="2.4" fill="#1F3B33" stroke="none"/>
+    <circle cx="121.5" cy="71.5" r="2.4" fill="#1F3B33" stroke="none"/>
+    <circle cx="98.5" cy="77" r="1" fill="#1F3B33" stroke="none"/>
+    <circle cx="126.5" cy="77" r="1" fill="#1F3B33" stroke="none"/>
+    <path d="M106 85 L114 85 L110 90 Z" fill="#F4B98C" stroke="#F4B98C" stroke-width="1.6"/>
+    <path d="M110 90 C 110 95, 104 97, 101 93 M110 90 C 110 95, 116 97, 119 93" stroke-width="2.4"/>
+    <ellipse cx="85" cy="90" rx="6.5" ry="3.6" fill="#F4B98C" stroke="none"/>
+    <ellipse cx="135" cy="90" rx="6.5" ry="3.6" fill="#F4B98C" stroke="none"/>
+    <path d="M82 83 L60 79 M82 89 L58 91 M138 83 L160 79 M138 89 L162 91" stroke-width="2"/>
+    <circle cx="40" cy="148" r="15" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M27 141 C 35 147, 46 147, 54 139 M26 153 C 36 158, 48 158, 55 151 M33 135 C 39 145, 40 156, 35 162" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M54 156 C 64 168, 78 168, 90 160" stroke="#E8B84B" stroke-width="2"/>
+    <path d="M182 52 C 182 46, 174 43, 173 49 C 172 55, 180 59, 182 64 C 184 59, 192 55, 191 49 C 190 43, 182 46, 182 52 Z" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#estrella" transform="translate(40 52) scale(0.8)"/>
+  </g>
+</svg>

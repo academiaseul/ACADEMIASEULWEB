@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 뭐 · qué · Estilo A Sticker pop · caja cerrada misteriosa con un gran signo de pregunta dorado encima -->
+<!-- 1) Silueta: signo (gancho + punto) + tapa + caja -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M84 60 C84 30 136 28 136 56 C136 72 110 70 110 78" fill="none" stroke-width="46"/>
+<circle cx="110" cy="110" r="10"/>
+<rect x="56" y="144" width="108" height="50" rx="8"/>
+<rect x="50" y="126" width="120" height="22" rx="6"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M84 60 C84 30 136 28 136 56 C136 72 110 70 110 78" fill="none" stroke-width="46"/>
+<circle cx="110" cy="110" r="10"/>
+<rect x="56" y="144" width="108" height="50" rx="8"/>
+<rect x="50" y="126" width="120" height="22" rx="6"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M84 60 C84 30 136 28 136 56 C136 72 110 70 110 78" fill="none" stroke-width="39"/>
+<circle cx="110" cy="110" r="10"/>
+<rect x="56" y="144" width="108" height="50" rx="8"/>
+<rect x="50" y="126" width="120" height="22" rx="6"/>
+</g>
+<!-- 2) Caja azul y tapa lavanda -->
+<rect x="56" y="144" width="108" height="50" rx="8" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M68 158 L68 182" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<rect x="50" y="126" width="120" height="22" rx="6" fill="#DCE0FA" stroke="#14142B" stroke-width="4"/>
+<path d="M60 134 L82 134" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<!-- signo de pregunta grueso dorado (tinta 26 + dorado 18) con brillo, y su punto, que flota sobre la tapa -->
+<path d="M84 60 C84 30 136 28 136 56 C136 72 110 70 110 78" stroke="#14142B" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84 60 C84 30 136 28 136 56 C136 72 110 70 110 78" stroke="#E8B84B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M81 54 Q84 42 94 38" stroke="#FFF4D9" stroke-width="4" stroke-linecap="round"/>
+<circle cx="110" cy="110" r="10" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<circle cx="106.5" cy="106.5" r="2.5" fill="#FFF4D9"/>
+<!-- 3) Cara de la casa en (110,162), s = 1, en la caja -->
+<ellipse cx="96" cy="162" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="162" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="158.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="158.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="176" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="176" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 175 Q110 187 118 175 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- 4) Adornos -->
+<path d="M34 28 Q36.4 37.6 46 40 Q36.4 42.4 34 52 Q31.6 42.4 22 40 Q31.6 37.6 34 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M188 42 Q190 50 198 52 Q190 54 188 62 Q186 54 178 52 Q186 50 188 42 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="28" cy="176" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

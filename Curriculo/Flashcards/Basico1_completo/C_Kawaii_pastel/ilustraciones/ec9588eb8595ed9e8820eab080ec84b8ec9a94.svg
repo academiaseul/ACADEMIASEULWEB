@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 안녕히 가세요 · adiós (a quien se va): quien se queda en la puerta despide a quien se va -->
+  <use href="#kw-brillo" transform="translate(196 42) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(98 34) scale(6)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(204 112) scale(5)" fill="#FFFFFF"/>
+  <circle cx="176" cy="90" r="3" fill="#FFFFFF"/>
+  <circle cx="206" cy="178" r="2.5" fill="#CFC8FF"/>
+  <circle cx="122" cy="44" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="108" cy="189" rx="92" ry="7" fill="#D2CBFA"/>
+  <!-- puerta de la casa, abierta -->
+  <rect x="12" y="58" width="68" height="128" rx="6" fill="#E2B271" stroke="#003478" stroke-width="3"/>
+  <rect x="20" y="66" width="52" height="120" rx="4" fill="#FFF6E6" stroke="#003478" stroke-width="2.6"/>
+  <rect x="20" y="66" width="11" height="120" rx="3" fill="#8FB6FF" stroke="#003478" stroke-width="2.4"/>
+  <rect x="6" y="50" width="80" height="12" rx="6" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <!-- quien se queda: más chico, en la puerta, saluda -->
+  <g transform="matrix(0.52 0 0 0.52 -11.2 83.7)">
+    <rect x="94" y="168" width="12" height="17" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.8"/>
+    <rect x="114" y="168" width="12" height="17" rx="5" fill="#3B4566" stroke="#003478" stroke-width="4.8"/>
+    <path d="M88.5 186 a10.5 5.5 0 1 0 21 0 a10.5 5.5 0 1 0 -21 0 M110.5 186 a10.5 5.5 0 1 0 21 0 a10.5 5.5 0 1 0 -21 0" fill="#FFFFFF" stroke="#003478" stroke-width="4.8"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#CFC8FF" stroke="#003478" stroke-width="5.4" stroke-linejoin="round"/>
+    <path d="M98 124 Q110 138 122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="4.6" stroke-linejoin="round"/>
+    <path d="M84 132 Q54 128 54 96 M136 132 Q150 150 142 168" fill="none" stroke="#003478" stroke-width="22" stroke-linecap="round"/>
+    <path d="M84 132 Q54 128 54 96 M136 132 Q150 150 142 168" fill="none" stroke="#CFC8FF" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="142" cy="170" r="7.5" fill="#C98F5E" stroke="#003478" stroke-width="4.4"/>
+    <circle cx="54" cy="86" r="11" fill="#C98F5E" stroke="#003478" stroke-width="4.4"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="4.8"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#C98F5E" stroke="#003478" stroke-width="4.8"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#C98F5E" stroke="#003478" stroke-width="5.4"/>
+    <path d="M63 86 Q56 36 110 36 Q164 38 157 86 Q152 64 132 56 Q104 66 80 62 Q68 70 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="5.4" stroke-linejoin="round"/>
+    <ellipse cx="82" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <ellipse cx="138" cy="110" rx="8" ry="5" fill="#F3D27A"/>
+    <use href="#kw-cara-chica" transform="translate(110 98) scale(1.1)"/>
+  </g>
+  <!-- quien se va: adelante y más grande, con mochila, se despide -->
+  <g transform="matrix(0.7 0 0 0.7 59 53.3)">
+    <rect x="62" y="128" width="96" height="46" rx="15" fill="#7FD0B0" stroke="#003478" stroke-width="4.3"/>
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.7"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.7"/>
+    <path d="M88.5 186 a10.5 5.5 0 1 0 21 0 a10.5 5.5 0 1 0 -21 0 M110.5 186 a10.5 5.5 0 1 0 21 0 a10.5 5.5 0 1 0 -21 0" fill="#FFFFFF" stroke="#003478" stroke-width="3.7"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="4.3" stroke-linejoin="round"/>
+    <path d="M99 124 L110 142 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3.4" stroke-linejoin="round"/>
+    <path d="M93 128 Q89 140 91 150 M127 128 Q131 140 129 150" fill="none" stroke="#003478" stroke-width="12" stroke-linecap="round"/>
+    <path d="M93 128 Q89 140 91 150 M127 128 Q131 140 129 150" fill="none" stroke="#7FD0B0" stroke-width="5.6" stroke-linecap="round"/>
+    <path d="M84 132 Q54 128 56 92 M136 132 Q150 150 142 168" fill="none" stroke="#003478" stroke-width="18" stroke-linecap="round"/>
+    <path d="M84 132 Q54 128 56 92 M136 132 Q150 150 142 168" fill="none" stroke="#4236F6" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="142" cy="170" r="6.5" fill="#FFE4C8" stroke="#003478" stroke-width="3.4"/>
+    <path d="M61 76 Q69 74 70 68 Q70 64 66 65 Q63 67 61 71 Z" fill="#FFE4C8" stroke="#003478" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M63 79 L63 62 Q63 59 60.7 59 Q58.5 59 58.5 62 L58.5 57 Q58.5 54.5 56.2 54.5 Q54 54.5 54 57 L54 56.5 Q54 54 51.7 54 Q49.5 54 49.5 56.5 L49.5 60 Q49.5 57.5 47.2 57.5 Q45 57.5 45 60 L45 77 Q45 85 54 85 Q63 85 63 79 Z" fill="#FFE4C8" stroke="#003478" stroke-width="3.4" stroke-linejoin="round"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3.7"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="3.7"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="4.3"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="4.3" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="5" stroke-linecap="round"/>
+    <use href="#kw-cara-feliz" transform="translate(110 98)"/>
+  </g>
+  <use href="#kw-brillo" transform="translate(150 64) scale(8)" fill="#E8B84B"/>
+  <!-- flecha navy: se va hacia afuera -->
+  <path d="M178 144 L191 144 L191 136 L207 150 L191 164 L191 156 L178 156 Q172 156 172 150 Q172 144 178 144 Z" fill="#003478" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+</svg>

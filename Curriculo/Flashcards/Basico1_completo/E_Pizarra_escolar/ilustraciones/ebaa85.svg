@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="명" data-es="contador de personas (한 명, 두 명…)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 165 C 80 172, 150 172, 196 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- conteo sin números: uno, dos y tres puntos dorados -->
+    <circle cx="54" cy="58" r="5" fill="#E8B84B" stroke="none"/>
+    <circle cx="103" cy="58" r="5" fill="#E8B84B" stroke="none"/>
+    <circle cx="117" cy="58" r="5" fill="#E8B84B" stroke="none"/>
+    <circle cx="152" cy="58" r="5" fill="#E8B84B" stroke="none"/>
+    <circle cx="166" cy="58" r="5" fill="#E8B84B" stroke="none"/>
+    <circle cx="180" cy="58" r="5" fill="#E8B84B" stroke="none"/>
+    <path d="M44 72 H64 M96 72 H124 M144 72 H188" stroke="#E8B84B" stroke-width="2.4" stroke-opacity="0.8"/>
+    <!-- monito 1 -->
+    <path d="M43 120 C 34 128, 31 146, 31 160 L77 160 C 77 146, 74 128, 65 120 Z" fill="#1F3B33"/>
+    <path d="M43 120 C 34 128, 31 146, 31 160 L77 160 C 77 146, 74 128, 65 120 Z" fill="url(#rt)"/>
+    <circle cx="54" cy="100" r="18" fill="#1F3B33"/>
+    <path d="M36 99 C 35 86, 44 80, 54 80 C 64 80, 73 86, 72 99 C 66 94, 60 92, 56 88 C 51 93, 44 96, 36 99 Z" fill="url(#rt)" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(54 106) scale(0.5)"/>
+    <!-- monito 2 -->
+    <path d="M99 120 C 90 128, 87 146, 87 160 L133 160 C 133 146, 130 128, 121 120 Z" fill="#1F3B33"/>
+    <path d="M99 120 C 90 128, 87 146, 87 160 L133 160 C 133 146, 130 128, 121 120 Z" fill="url(#rt)"/>
+    <circle cx="110" cy="100" r="18" fill="#1F3B33"/>
+    <path d="M92 99 C 91 86, 100 80, 110 80 C 120 80, 129 86, 128 99 C 122 94, 116 92, 112 88 C 107 93, 100 96, 92 99 Z" fill="url(#rt)" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(110 106) scale(0.5)"/>
+    <!-- monito 3 -->
+    <path d="M155 120 C 146 128, 143 146, 143 160 L189 160 C 189 146, 186 128, 177 120 Z" fill="#1F3B33"/>
+    <path d="M155 120 C 146 128, 143 146, 143 160 L189 160 C 189 146, 186 128, 177 120 Z" fill="url(#rt)"/>
+    <circle cx="166" cy="100" r="18" fill="#1F3B33"/>
+    <path d="M148 99 C 147 86, 156 80, 166 80 C 176 80, 185 86, 184 99 C 178 94, 172 92, 168 88 C 163 93, 156 96, 148 99 Z" fill="url(#rt)" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(166 106) scale(0.5)"/>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(24 30) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(110 24) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(200 30) scale(0.6)"/>
+  </g>
+</svg>

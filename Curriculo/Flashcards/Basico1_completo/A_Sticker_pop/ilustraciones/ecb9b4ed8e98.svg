@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 카페 · cafetería · Estilo A Sticker pop · fachada con toldo a rayas azul y blanco, taza de café humeante gigante como letrero y cara bajo el toldo -->
+<defs><clipPath id="toldo"><path d="M44 86 L176 86 L176 104 Q165 116 154 104 Q143 116 132 104 Q121 116 110 104 Q99 116 88 104 Q77 116 66 104 Q55 116 44 104 Z"/></clipPath></defs>
+<!-- vapor (suelto, fuera de la silueta) -->
+<path d="M102 30 Q98 24 102 18 Q106 12 102 7" fill="none" stroke="#14142B" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M102 30 Q98 24 102 18 Q106 12 102 7" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M118 30 Q114 24 118 18 Q122 12 118 7" fill="none" stroke="#14142B" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M118 30 Q114 24 118 18 Q122 12 118 7" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- 1) silueta: taza (cuerpo y asa) + cornisa + muro + toldo -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M133 48 C148 46 148 68 131 66" fill="none" stroke-width="34"/>
+<path d="M86 40 L134 40 L130 70 Q129 78 121 78 L99 78 Q91 78 90 70 Z"/>
+<rect x="40" y="74" width="140" height="12" rx="4"/>
+<rect x="50" y="84" width="120" height="100"/>
+<path d="M44 86 L176 86 L176 104 Q165 116 154 104 Q143 116 132 104 Q121 116 110 104 Q99 116 88 104 Q77 116 66 104 Q55 116 44 104 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M133 48 C148 46 148 68 131 66" fill="none" stroke-width="34"/>
+<path d="M86 40 L134 40 L130 70 Q129 78 121 78 L99 78 Q91 78 90 70 Z"/>
+<rect x="40" y="74" width="140" height="12" rx="4"/>
+<rect x="50" y="84" width="120" height="100"/>
+<path d="M44 86 L176 86 L176 104 Q165 116 154 104 Q143 116 132 104 Q121 116 110 104 Q99 116 88 104 Q77 116 66 104 Q55 116 44 104 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M133 48 C148 46 148 68 131 66" fill="none" stroke-width="27"/>
+<path d="M86 40 L134 40 L130 70 Q129 78 121 78 L99 78 Q91 78 90 70 Z"/>
+<rect x="40" y="74" width="140" height="12" rx="4"/>
+<rect x="50" y="84" width="120" height="100"/>
+<path d="M44 86 L176 86 L176 104 Q165 116 154 104 Q143 116 132 104 Q121 116 110 104 Q99 116 88 104 Q77 116 66 104 Q55 116 44 104 Z"/>
+</g>
+<!-- 2) taza-letrero: asa, taza blanca con franja azul, café -->
+<path d="M133 48 C148 46 148 68 131 66" fill="none" stroke="#14142B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M133 48 C148 46 148 68 131 66" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M86 40 L134 40 L130 70 Q129 78 121 78 L99 78 Q91 78 90 70 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M88.4 58 L131.6 58 L130 70 Q129 78 121 78 L99 78 Q91 78 90 70 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="110" cy="40" rx="24" ry="5.5" fill="#6E4424" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="104" cy="39" rx="11" ry="2" fill="#A0703F"/>
+<!-- muro crema y cornisa café -->
+<rect x="50" y="84" width="120" height="100" fill="#FFF4D9" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="40" y="74" width="140" height="12" rx="4" fill="#6E4424" stroke="#14142B" stroke-width="4"/>
+<!-- toldo a rayas (recorte) con borde encima -->
+<path d="M44 86 L176 86 L176 104 Q165 116 154 104 Q143 116 132 104 Q121 116 110 104 Q99 116 88 104 Q77 116 66 104 Q55 116 44 104 Z" fill="#FFFFFF"/>
+<g clip-path="url(#toldo)">
+<rect x="44" y="84" width="22" height="34" fill="#4236F6"/>
+<rect x="88" y="84" width="22" height="34" fill="#4236F6"/>
+<rect x="132" y="84" width="22" height="34" fill="#4236F6"/>
+</g>
+<path d="M44 86 L176 86 L176 104 Q165 116 154 104 Q143 116 132 104 Q121 116 110 104 Q99 116 88 104 Q77 116 66 104 Q55 116 44 104 Z" fill="none" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- ventanas a los lados y puerta azul con vidrio -->
+<rect x="56" y="124" width="20" height="28" rx="3" fill="#9FD8FF" stroke="#14142B" stroke-width="4"/>
+<path d="M61 140 L67 130" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<rect x="144" y="124" width="20" height="28" rx="3" fill="#9FD8FF" stroke="#14142B" stroke-width="4"/>
+<path d="M149 140 L155 130" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<path d="M98 184 L98 162 Q98 158 102 158 L118 158 Q122 158 122 162 L122 184 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="103" y="163" width="14" height="9" rx="2" fill="#9FD8FF" stroke="#14142B" stroke-width="3"/>
+<circle cx="117" cy="177" r="2" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<!-- 3) cara de la casa en el muro (110,132), s = 0,8 -->
+<ellipse cx="98.8" cy="132" rx="5.2" ry="6.8" fill="#14142B"/>
+<ellipse cx="121.2" cy="132" rx="5.2" ry="6.8" fill="#14142B"/>
+<circle cx="100.56" cy="129.28" r="1.92" fill="#FFFFFF"/>
+<circle cx="122.96" cy="129.28" r="1.92" fill="#FFFFFF"/>
+<ellipse cx="89.2" cy="143.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<ellipse cx="130.8" cy="143.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<path d="M103.6 142.4 Q110 152 116.4 142.4 Z" fill="#14142B" stroke="#14142B" stroke-width="2.4" stroke-linejoin="round"/>
+<!-- 4) adornos -->
+<path d="M30 28 Q32.4 37.6 42 40 Q32.4 42.4 30 52 Q27.6 42.4 18 40 Q27.6 37.6 30 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M190 34 Q192 42 200 44 Q192 46 190 54 Q188 46 180 44 Q188 42 190 34 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="26" cy="150" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

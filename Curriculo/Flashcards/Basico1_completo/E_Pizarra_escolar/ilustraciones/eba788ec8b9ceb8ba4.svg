@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="마시다" data-es="beber, tomar (마셔요)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 165 C 84 172, 150 172, 194 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cuerpo en campana -->
+    <path d="M68 104 C 54 118, 48 140, 46 162 L122 162 C 120 140, 114 118, 100 104 Z" fill="#1F3B33"/>
+    <path d="M68 104 C 54 118, 48 140, 46 162 L122 162 C 120 140, 114 118, 100 104 Z" fill="url(#rt)"/>
+    <path d="M74 105 Q84 113 94 105" stroke-width="2.4"/>
+    <!-- brazo izquierdo abajo -->
+    <path d="M64 114 C 54 124, 50 138, 53 150"/>
+    <circle cx="54" cy="153" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza, pelo y cara feliz (le gusta lo que toma) -->
+    <circle cx="84" cy="70" r="30" fill="#1F3B33"/>
+    <path d="M54 70 C 52 50, 66 40, 84 40 C 102 40, 116 50, 114 70 C 108 62, 100 57, 92 56 L87 50 L82 56 C 72 57, 60 62, 54 70 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(80 78) scale(0.82)"/>
+    <!-- vaso de agua derecho, en la mano: primero tapa lo de atrás, después el agua y el contorno -->
+    <path d="M126 70 L132 148 C 133 153, 159 153, 160 148 L166 70 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M127.4 88 q4.65 -3.5 9.3 0 t9.3 0 t9.3 0 t9.3 0 L160.2 148 C 159 152.5, 133 152.5, 131.8 148 Z" fill="url(#ra)" stroke="none"/>
+    <path d="M127.4 88 q4.65 -3.5 9.3 0 t9.3 0 t9.3 0 t9.3 0" stroke="#9FCBEF" stroke-width="2.4"/>
+    <path d="M126 70 L132 148 C 133 153, 159 153, 160 148 L166 70"/>
+    <ellipse cx="146" cy="70" rx="20" ry="5" stroke-width="2.6"/>
+    <path d="M134 96 L137 132" stroke-width="2" stroke-opacity="0.6"/>
+    <circle cx="150" cy="134" r="2.4" stroke="#9FCBEF" stroke-width="1.6"/>
+    <circle cx="142" cy="120" r="2" stroke="#9FCBEF" stroke-width="1.6"/>
+    <!-- bombilla dorada: del vaso a la boca -->
+    <path d="M150 138 L130 42 L88 91" stroke="#E8B84B" stroke-width="3.4"/>
+    <!-- brazo derecho que sostiene el vaso -->
+    <path d="M102 112 C 112 126, 122 131, 131 130"/>
+    <circle cx="134" cy="129" r="4.2" fill="#F3F0E4" stroke="none"/>
+    <!-- glu glu: burbujitas que suben por la bombilla -->
+    <circle cx="117" cy="52" r="2.2" stroke="#9FCBEF" stroke-width="1.6"/>
+    <circle cx="108" cy="46" r="1.6" stroke="#9FCBEF" stroke-width="1.6"/>
+    <!-- adornos -->
+    <use href="#gota" transform="translate(34 46) scale(1.25)"/>
+    <use href="#gota" transform="translate(186 112)"/>
+    <use href="#estrella" transform="translate(186 40) scale(0.8)"/>
+    <use href="#estrella-b" transform="translate(30 124) scale(0.6)"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 열쇠 · llave -->
+  <use href="#kw-brillo" transform="translate(40 44) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(186 44) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(186 150) scale(6)" fill="#FFFFFF"/>
+  <circle cx="30" cy="112" r="3" fill="#FFFFFF"/>
+  <circle cx="52" cy="160" r="2.5" fill="#E8B84B"/>
+  <circle cx="196" cy="100" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="58" ry="7" fill="#D2CBFA"/>
+  <!-- cadenita y llavero con forma de casa -->
+  <ellipse cx="120" cy="59" rx="3.2" ry="5.5" transform="rotate(-50 120 59)" fill="none" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="130" cy="67.5" rx="3.2" ry="5.5" transform="rotate(40 130 67.5)" fill="none" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="139" cy="75" rx="3.2" ry="5.5" transform="rotate(-50 139 75)" fill="none" stroke="#003478" stroke-width="2.4"/>
+  <rect x="132" y="94" width="28" height="26" rx="4" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <path d="M127 98 L146 80 L165 98 Z" fill="#4236F6" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <rect x="142" y="106" width="8" height="14" rx="3" fill="#7FD0B0" stroke="#003478" stroke-width="2.2"/>
+  <!-- llave dorada: paleta con dientes, ojo redondo con cara -->
+  <path d="M93 118 L107 118 L107 138 L116 138 Q118 138 118 140 L118 146 Q118 148 116 148 L107 148 L107 154 L118 154 Q120 154 120 156 L120 164 Q120 166 118 166 L107 166 L107 176 Q107 182 100 182 Q93 182 93 176 Z" fill="#F6D47A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M100 126 L100 174" fill="none" stroke="#E2B44E" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="100" cy="62" r="8" fill="#F6D47A" stroke="#003478" stroke-width="2.6"/>
+  <circle cx="100" cy="62" r="3" fill="#003478"/>
+  <circle cx="100" cy="96" r="28" fill="#F6D47A"/>
+  <path d="M72.9 103 Q86.5 97 100 103 T127.1 103 A28 28 0 0 1 72.9 103 Z" fill="#E2B44E"/>
+  <ellipse cx="85" cy="81" rx="8" ry="4.5" transform="rotate(-35 85 81)" fill="#FFF3CC"/>
+  <circle cx="100" cy="96" r="28" fill="none" stroke="#003478" stroke-width="3"/>
+  <use href="#kw-cara" transform="translate(100 96) scale(0.66)"/>
+  <!-- argolla plateada (pasa por el ojo de la llave) -->
+  <circle cx="100" cy="40" r="17" fill="none" stroke="#003478" stroke-width="10"/>
+  <circle cx="100" cy="40" r="17" fill="none" stroke="#D5D9E4" stroke-width="4"/>
+</svg>

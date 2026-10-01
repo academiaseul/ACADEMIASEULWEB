@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 어디 · dónde · Estilo A Sticker pop -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M34 160 L70 150 L70 184 L34 194 Z"/>
+<path d="M70 150 L110 160 L110 194 L70 184 Z"/>
+<path d="M110 160 L150 150 L150 184 L110 194 Z"/>
+<path d="M92 166 C80 146 46 122 46 84 A46 46 0 0 1 138 84 C138 122 104 146 92 166 Z"/>
+<path d="M152 56 Q152 36 170 36 Q188 36 188 54 Q188 66 170 72 L170 84" fill="none" stroke-width="41"/>
+<circle cx="170" cy="102" r="7.5"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M34 160 L70 150 L70 184 L34 194 Z"/>
+<path d="M70 150 L110 160 L110 194 L70 184 Z"/>
+<path d="M110 160 L150 150 L150 184 L110 194 Z"/>
+<path d="M92 166 C80 146 46 122 46 84 A46 46 0 0 1 138 84 C138 122 104 146 92 166 Z"/>
+<path d="M152 56 Q152 36 170 36 Q188 36 188 54 Q188 66 170 72 L170 84" fill="none" stroke-width="41"/>
+<circle cx="170" cy="102" r="7.5"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M34 160 L70 150 L70 184 L34 194 Z"/>
+<path d="M70 150 L110 160 L110 194 L70 184 Z"/>
+<path d="M110 160 L150 150 L150 184 L110 194 Z"/>
+<path d="M92 166 C80 146 46 122 46 84 A46 46 0 0 1 138 84 C138 122 104 146 92 166 Z"/>
+<path d="M152 56 Q152 36 170 36 Q188 36 188 54 Q188 66 170 72 L170 84" fill="none" stroke-width="34"/>
+<circle cx="170" cy="102" r="7.5"/>
+</g>
+<path d="M34 160 L70 150 L70 184 L34 194 Z" fill="#FFF4D9" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M70 150 L110 160 L110 194 L70 184 Z" fill="#FFE6B8" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M110 160 L150 150 L150 184 L110 194 Z" fill="#FFF4D9" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M38 182 Q50 168 66 172" fill="none" stroke="#8FB0FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="132" cy="172" rx="9" ry="6" fill="#7FD69A" stroke="#2F8F57" stroke-width="2.5"/>
+<ellipse cx="92" cy="168" rx="12" ry="4" fill="#B3B8D6"/>
+<path d="M92 166 C80 146 46 122 46 84 A46 46 0 0 1 138 84 C138 122 104 146 92 166 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 70 Q66 54 82 46" fill="none" stroke="#DCE0FA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="78" cy="90" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="106" cy="90" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="80.2" cy="86.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="108.2" cy="86.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="66" cy="104" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="118" cy="104" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M84 103 Q92 115 100 103 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M152 56 Q152 36 170 36 Q188 36 188 54 Q188 66 170 72 L170 84" fill="none" stroke="#14142B" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M152 56 Q152 36 170 36 Q188 36 188 54 Q188 66 170 72 L170 84" fill="none" stroke="#E8B84B" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170" cy="102" r="7.5" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M160 44 Q164 40 170 40" fill="none" stroke="#FFF4D9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 18 Q28.4 27.6 38 30 Q28.4 32.4 26 42 Q23.6 32.4 14 30 Q23.6 27.6 26 18 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M188 141 Q189.8 148.2 197 150 Q189.8 151.8 188 159 Q186.2 151.8 179 150 Q186.2 148.2 188 141 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="28" cy="130" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="집" data-es="casa">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 165 C 84 172, 150 172, 196 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- humo de la chimenea -->
+    <path d="M146 36 C 138 30, 152 24, 144 16 M158 32 C 152 26, 166 20, 160 10" stroke-width="2.4" stroke-opacity="0.85"/>
+    <!-- chimenea (va detrás del techo) -->
+    <rect x="138" y="44" width="16" height="44" fill="url(#rt)"/>
+    <rect x="135" y="39" width="22" height="7" rx="1.5" fill="#1F3B33"/>
+    <!-- techo de dos aguas -->
+    <path d="M46 100 L110 40 L174 100 Z" fill="#1F3B33"/>
+    <path d="M46 100 L110 40 L174 100 Z" fill="url(#rt)"/>
+    <!-- ventana redonda en el frontón -->
+    <circle cx="110" cy="76" r="12" fill="#1F3B33" stroke="none"/>
+    <circle cx="110" cy="76" r="12" fill="url(#ra)"/>
+    <path d="M110 64 V88 M98 76 H122" stroke-width="2.2"/>
+    <!-- fachada -->
+    <path d="M60 100 V162 H160 V100"/>
+    <!-- puerta dorada con su pomo -->
+    <path d="M122 162 V124 C 122 114, 146 114, 146 124 V162 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M122 162 V124 C 122 114, 146 114, 146 124 V162" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <circle cx="140" cy="141" r="2.6" fill="#F3F0E4" stroke="none"/>
+    <use href="#cara" transform="translate(90 128) scale(0.78)"/>
+    <!-- matita al costado -->
+    <path d="M40 163 C 40 156, 36 152, 33 149 M45 163 C 45 154, 47 149, 50 145 M50 164 C 52 158, 56 155, 60 154" stroke="#9ED9B0" stroke-width="2.4"/>
+    <use href="#estrella" transform="translate(36 46) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(194 72) scale(0.65)"/>
+    <use href="#estrella" transform="translate(190 132) scale(0.6)"/>
+  </g>
+</svg>

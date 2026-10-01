@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 방 · pieza, habitación · Estilo A Sticker pop · pieza vista de frente con ventana, cama y escritorio; la cara va en la pared del fondo -->
+<defs><clipPath id="cuarto"><rect x="36" y="44" width="148" height="140" rx="12"/></clipPath></defs>
+<!-- silueta: la caja de la pieza -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="36" y="44" width="148" height="140" rx="12"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="36" y="44" width="148" height="140" rx="12"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="36" y="44" width="148" height="140" rx="12"/>
+</g>
+<!-- paredes laterales y techo (lavanda), pared del fondo (lila claro), piso de madera -->
+<rect x="36" y="44" width="148" height="140" rx="12" fill="#DCE0FA"/>
+<g clip-path="url(#cuarto)">
+<path d="M60 142 L160 142 L190 190 L30 190 Z" fill="#D9A35F"/>
+<path d="M85 142 L74 190" stroke="#A0703F" stroke-width="3" stroke-linecap="round"/>
+<path d="M110 142 L110 190" stroke="#A0703F" stroke-width="3" stroke-linecap="round"/>
+<path d="M135 142 L146 190" stroke="#A0703F" stroke-width="3" stroke-linecap="round"/>
+<path d="M30 40 L60 62" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M190 40 L160 62" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M30 190 L60 142" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M190 190 L160 142" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+</g>
+<rect x="60" y="62" width="100" height="80" fill="#ECE6FF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- ventana con cielo y sol -->
+<rect x="88" y="70" width="44" height="30" rx="3" fill="#9FD8FF" stroke="#14142B" stroke-width="3.5"/>
+<circle cx="122" cy="79" r="5" fill="#FFD95E" stroke="#14142B" stroke-width="2.5"/>
+<path d="M110 72 L110 98" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M90 85 L130 85" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<!-- cara de la casa en la pared (110,114), s = 0.72 -->
+<ellipse cx="99.92" cy="114" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="120.08" cy="114" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="101.5" cy="111.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="121.66" cy="111.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="91.28" cy="124.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="128.72" cy="124.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M104.24 123.36 Q110 132 115.76 123.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- cama (izquierda), vista desde los pies como la de 침대: respaldo, almohada, frazada azul y patas -->
+<rect x="43" y="172" width="6" height="8" rx="2" fill="#A86B3C" stroke="#14142B" stroke-width="3"/>
+<rect x="79" y="172" width="6" height="8" rx="2" fill="#A86B3C" stroke="#14142B" stroke-width="3"/>
+<path d="M44 150 L44 130 Q44 120 54 120 L74 120 Q84 120 84 130 L84 150 Z" fill="#C98A3E" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<rect x="51" y="133" width="26" height="11" rx="5" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/>
+<path d="M48 146 L80 146 L88 164 L40 164 Z" fill="#4236F6" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M48 146 L80 146 L81.8 150 L46.2 150 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="40" y="163" width="48" height="10" rx="2" fill="#4236F6" stroke="#14142B" stroke-width="3.5"/>
+<path d="M43 168 L85 168" stroke="#9DB7FF" stroke-width="3" stroke-linecap="round"/>
+<!-- escritorio (derecha) con lámpara y libro -->
+<rect x="133" y="142" width="6" height="30" rx="2" fill="#A86B3C" stroke="#14142B" stroke-width="3"/>
+<rect x="169" y="142" width="6" height="30" rx="2" fill="#A86B3C" stroke="#14142B" stroke-width="3"/>
+<rect x="128" y="136" width="52" height="9" rx="3" fill="#C98A3E" stroke="#14142B" stroke-width="3.5"/>
+<rect x="136" y="128" width="16" height="8" rx="2" fill="#4236F6" stroke="#14142B" stroke-width="3"/>
+<path d="M166 134 L160 120" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="166" cy="134" rx="7" ry="3" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<path d="M152 122 L158 110 L170 114 L168 126 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- borde de la pieza encima -->
+<rect x="36" y="44" width="148" height="140" rx="12" fill="none" stroke="#14142B" stroke-width="4"/>
+<!-- adornos -->
+<path d="M20 14 Q22 22 30 24 Q22 26 20 34 Q18 26 10 24 Q18 22 20 14 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M200 20 Q201.6 26.4 208 28 Q201.6 29.6 200 36 Q198.4 29.6 192 28 Q198.4 26.4 200 20 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="110" cy="22" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

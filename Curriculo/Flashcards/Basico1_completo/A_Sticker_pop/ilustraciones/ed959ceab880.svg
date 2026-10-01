@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 한글 · alfabeto coreano · Estilo A Sticker pop · pizarra con caballete y las letras ㄱ ㄴ ㅏ trazadas con tiza (formas, no texto) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M72 160 L62 196" fill="none" stroke-width="38"/>
+<path d="M148 160 L158 196" fill="none" stroke-width="38"/>
+<rect x="32" y="44" width="156" height="112" rx="10"/>
+<rect x="46" y="152" width="128" height="10" rx="4"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M72 160 L62 196" fill="none" stroke-width="38"/>
+<path d="M148 160 L158 196" fill="none" stroke-width="38"/>
+<rect x="32" y="44" width="156" height="112" rx="10"/>
+<rect x="46" y="152" width="128" height="10" rx="4"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M72 160 L62 196" fill="none" stroke-width="31"/>
+<path d="M148 160 L158 196" fill="none" stroke-width="31"/>
+<rect x="32" y="44" width="156" height="112" rx="10"/>
+<rect x="46" y="152" width="128" height="10" rx="4"/>
+</g>
+<!-- patas del caballete -->
+<path d="M72 160 L62 196" stroke="#14142B" stroke-width="18" stroke-linecap="round"/>
+<path d="M72 160 L62 196" stroke="#A86B3C" stroke-width="10" stroke-linecap="round"/>
+<path d="M148 160 L158 196" stroke="#14142B" stroke-width="18" stroke-linecap="round"/>
+<path d="M148 160 L158 196" stroke="#A86B3C" stroke-width="10" stroke-linecap="round"/>
+<!-- marco de madera y pizarra verde -->
+<rect x="32" y="44" width="156" height="112" rx="10" fill="#A86B3C" stroke="#14142B" stroke-width="4"/>
+<rect x="44" y="56" width="132" height="88" rx="4" fill="#5CC98A" stroke="#14142B" stroke-width="4"/>
+<path d="M52 136 L66 136" stroke="#7FD69A" stroke-width="4" stroke-linecap="round"/>
+<path d="M162 64 L168 64" stroke="#7FD69A" stroke-width="4" stroke-linecap="round"/>
+<!-- letras de tiza: ㄱ ㄴ ㅏ (trazos con borde de tinta para que se lean como sticker) -->
+<path d="M58 68 L82 68 L82 98" stroke="#14142B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M58 68 L82 68 L82 98" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100 66 L100 96 L124 96" stroke="#14142B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100 66 L100 96 L124 96" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146 64 L146 100 M146 82 L162 82" stroke="#14142B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146 64 L146 100 M146 82 L162 82" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- repisa con tiza y borrador -->
+<rect x="46" y="152" width="128" height="10" rx="4" fill="#C98A3E" stroke="#14142B" stroke-width="4"/>
+<rect x="62" y="142" width="28" height="11" rx="3" fill="#4236F6" stroke="#14142B" stroke-width="3"/>
+<path d="M66 147 L86 147" stroke="#DCE0FA" stroke-width="2.6" stroke-linecap="round"/>
+<rect x="130" y="145" width="22" height="7" rx="3.5" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/>
+<!-- cara de la casa en la pizarra (110,120) s 0.72 -->
+<ellipse cx="99.92" cy="120" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="120.08" cy="120" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="101.5" cy="117.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="121.66" cy="117.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="91.28" cy="130.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="128.72" cy="130.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M104.24 129.36 Q110 138 115.76 129.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M22 10 Q24 18 32 20 Q24 22 22 30 Q20 22 12 20 Q20 18 22 10 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 177 Q31.8 184.2 39 186 Q31.8 187.8 30 195 Q28.2 187.8 21 186 Q28.2 184.2 30 177 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 170 Q195.6 176.4 202 178 Q195.6 179.6 194 186 Q192.4 179.6 186 178 Q192.4 176.4 194 170 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="26" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

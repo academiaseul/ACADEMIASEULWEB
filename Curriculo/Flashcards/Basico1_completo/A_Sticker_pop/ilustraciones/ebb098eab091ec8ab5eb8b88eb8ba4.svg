@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 반갑습니다 · encantado, encantada · Estilo A Sticker pop · dos personas se dan la mano inclinando la cabeza (leve venia) -->
+<!-- silueta: las dos cabezas (inclinadas) + torsos + brazos + manos -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<g transform="rotate(13 64 134) translate(0 12)">
+<path d="M26.43 99.55 C22.26 65.45 41.74 47.73 64 47.73 C86.26 47.73 105.74 65.45 101.57 99.55 L102.96 122.73 Q93.22 129.55 83.48 122.73 L44.52 122.73 Q34.78 129.55 25.04 122.73 Z"/>
+<ellipse cx="64" cy="90" rx="32" ry="30"/>
+</g>
+<g transform="rotate(-13 156 134) translate(0 12)">
+<ellipse cx="124.7" cy="94" rx="5" ry="6.5"/>
+<ellipse cx="187.3" cy="94" rx="5" ry="6.5"/>
+<path d="M125.39 90 C122.61 62.73 139.3 51.82 156 51.82 C172.7 51.82 189.39 62.73 186.61 90 Z"/>
+<ellipse cx="156" cy="90" rx="32" ry="30"/>
+</g>
+<path d="M28 196 C28 168 44 144 64 144 C84 144 100 168 100 196 Z"/>
+<path d="M120 196 C120 168 136 144 156 144 C176 144 192 168 192 196 Z"/>
+<path d="M88 180 Q98 170 104 164" fill="none" stroke-width="42"/>
+<path d="M132 180 Q122 170 116 164" fill="none" stroke-width="42"/>
+<ellipse cx="106" cy="161" rx="9.5" ry="8"/>
+<ellipse cx="114" cy="159" rx="9.5" ry="8"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<g transform="rotate(13 64 134) translate(0 12)">
+<path d="M26.43 99.55 C22.26 65.45 41.74 47.73 64 47.73 C86.26 47.73 105.74 65.45 101.57 99.55 L102.96 122.73 Q93.22 129.55 83.48 122.73 L44.52 122.73 Q34.78 129.55 25.04 122.73 Z"/>
+<ellipse cx="64" cy="90" rx="32" ry="30"/>
+</g>
+<g transform="rotate(-13 156 134) translate(0 12)">
+<ellipse cx="124.7" cy="94" rx="5" ry="6.5"/>
+<ellipse cx="187.3" cy="94" rx="5" ry="6.5"/>
+<path d="M125.39 90 C122.61 62.73 139.3 51.82 156 51.82 C172.7 51.82 189.39 62.73 186.61 90 Z"/>
+<ellipse cx="156" cy="90" rx="32" ry="30"/>
+</g>
+<path d="M28 196 C28 168 44 144 64 144 C84 144 100 168 100 196 Z"/>
+<path d="M120 196 C120 168 136 144 156 144 C176 144 192 168 192 196 Z"/>
+<path d="M88 180 Q98 170 104 164" fill="none" stroke-width="42"/>
+<path d="M132 180 Q122 170 116 164" fill="none" stroke-width="42"/>
+<ellipse cx="106" cy="161" rx="9.5" ry="8"/>
+<ellipse cx="114" cy="159" rx="9.5" ry="8"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<g transform="rotate(13 64 134) translate(0 12)">
+<path d="M26.43 99.55 C22.26 65.45 41.74 47.73 64 47.73 C86.26 47.73 105.74 65.45 101.57 99.55 L102.96 122.73 Q93.22 129.55 83.48 122.73 L44.52 122.73 Q34.78 129.55 25.04 122.73 Z"/>
+<ellipse cx="64" cy="90" rx="32" ry="30"/>
+</g>
+<g transform="rotate(-13 156 134) translate(0 12)">
+<ellipse cx="124.7" cy="94" rx="5" ry="6.5"/>
+<ellipse cx="187.3" cy="94" rx="5" ry="6.5"/>
+<path d="M125.39 90 C122.61 62.73 139.3 51.82 156 51.82 C172.7 51.82 189.39 62.73 186.61 90 Z"/>
+<ellipse cx="156" cy="90" rx="32" ry="30"/>
+</g>
+<path d="M28 196 C28 168 44 144 64 144 C84 144 100 168 100 196 Z"/>
+<path d="M120 196 C120 168 136 144 156 144 C176 144 192 168 192 196 Z"/>
+<path d="M88 180 Q98 170 104 164" fill="none" stroke-width="35"/>
+<path d="M132 180 Q122 170 116 164" fill="none" stroke-width="35"/>
+<ellipse cx="106" cy="161" rx="9.5" ry="8"/>
+<ellipse cx="114" cy="159" rx="9.5" ry="8"/>
+</g>
+<!-- pelo de atrás de ella (melena castaña), inclinado con su cabeza -->
+<g transform="rotate(13 64 134) translate(0 12)">
+<path d="M26.43 99.55 C22.26 65.45 41.74 47.73 64 47.73 C86.26 47.73 105.74 65.45 101.57 99.55 L102.96 122.73 Q93.22 129.55 83.48 122.73 L44.52 122.73 Q34.78 129.55 25.04 122.73 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+</g>
+<!-- torsos y cuellos -->
+<path d="M28 196 C28 168 44 144 64 144 C84 144 100 168 100 196 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M57 126 L57 146 Q64 151 71 146 L71 126 Z" fill="#F3C39A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M64 149 Q53 142 47 150 Q55 158 64 151 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M64 149 Q75 142 81 150 Q73 158 64 151 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M120 196 C120 168 136 144 156 144 C176 144 192 168 192 196 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M149 126 L149 146 Q156 151 163 146 L163 126 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M156 151 L146 145 L144 157 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M156 151 L166 145 L168 157 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="156" cy="170" r="3" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<!-- brazos y apretón de manos -->
+<path d="M88 180 Q98 170 104 164" fill="none" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M88 180 Q98 170 104 164" fill="none" stroke="#4236F6" stroke-width="14" stroke-linecap="round"/>
+<path d="M132 180 Q122 170 116 164" fill="none" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M132 180 Q122 170 116 164" fill="none" stroke="#C7B8FF" stroke-width="14" stroke-linecap="round"/>
+<ellipse cx="106" cy="161" rx="9.5" ry="8" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="114" cy="159" rx="9.5" ry="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M109 155 Q113 152 118 154" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- cabeza de ella (piel media, melena castaña), inclinada -->
+<g transform="rotate(13 64 134) translate(0 12)">
+<ellipse cx="64" cy="90" rx="32" ry="30" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M31.3 94.09 C27.83 66.82 44.52 54.55 64 54.55 C83.48 54.55 100.17 66.82 96.7 94.09 C93.22 80.45 84.87 72.27 73.74 70.91 C66.78 77.73 54.26 80.45 44.52 79.09 C37.57 81.82 33.39 87.27 31.3 94.09 Z" fill="#4A3426"/>
+<path d="M96.7 94.09 C93.22 80.45 84.87 72.27 73.74 70.91 C66.78 77.73 54.26 80.45 44.52 79.09 C37.57 81.82 33.39 87.27 31.3 94.09" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M45.91 64.09 Q54.26 60 62.61 61.36" stroke="#6E4424" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="53.92" cy="97" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="74.08" cy="97" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="55.5" cy="94.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="75.66" cy="94.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="45.28" cy="107.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="82.72" cy="107.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M58.24 106.36 Q64 115 69.76 106.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+</g>
+<!-- cabeza de él (piel clara, pelo negro corto), inclinada -->
+<g transform="rotate(-13 156 134) translate(0 12)">
+<path d="M125.39 90 C122.61 62.73 139.3 51.82 156 51.82 C172.7 51.82 189.39 62.73 186.61 90 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="124.7" cy="94" rx="5" ry="6.5" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="187.3" cy="94" rx="5" ry="6.5" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="156" cy="90" rx="32" ry="30" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M124 88.64 C121.22 64.09 137.91 53.18 156 53.18 C174.09 53.18 190.78 64.09 188 88.64 C185.22 77.73 181.04 70.91 174.09 68.18 C165.74 73.64 149.04 73.64 137.91 69.55 C130.96 73.64 126.78 80.45 124 88.64 Z" fill="#14142B"/>
+<path d="M188 88.64 C185.22 77.73 181.04 70.91 174.09 68.18 C165.74 73.64 149.04 73.64 137.91 69.55 C130.96 73.64 126.78 80.45 124 88.64" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M140.7 60 Q149.04 55.91 158.78 56.59" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="145.92" cy="97" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="166.08" cy="97" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="147.5" cy="94.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="167.66" cy="94.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="137.28" cy="107.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="174.72" cy="107.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M150.24 106.36 Q156 115 161.76 106.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+</g>
+<!-- adornos -->
+<path d="M24 16 Q26 24 34 26 Q26 28 24 36 Q22 28 14 26 Q22 24 24 16 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 19 Q198.2 27.8 207 30 Q198.2 32.2 196 41 Q193.8 32.2 185 30 Q193.8 27.8 196 19 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="110" cy="30" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

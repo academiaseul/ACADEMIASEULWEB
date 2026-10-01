@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 모자 · sombrero, gorro -->
+  <use href="#kw-brillo" transform="translate(32 40) scale(10)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(192 34) scale(7)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(198 104) scale(5)" fill="#E8B84B"/>
+  <circle cx="26" cy="98" r="3" fill="#FFFFFF"/>
+  <circle cx="204" cy="70" r="2.5" fill="#FFFFFF"/>
+  <circle cx="30" cy="176" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="186" rx="78" ry="8" fill="#D2CBFA"/>
+  <ellipse cx="110" cy="150" rx="88" ry="25" fill="#F6D47A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M40 152 Q46 160 58 163 M162 163 Q174 160 180 152" fill="none" stroke="#E2B44E" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M70 168 L76 166 M100 172 L106 172 M130 171 L136 170 M154 166 L160 163 M50 160 L55 159" stroke="#E2B44E" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M58 146 Q54 72 110 70 Q166 72 162 146 Q110 160 58 146 Z" fill="#F9DD8E"/>
+  <path d="M57 120 Q110 134 163 120 L162 140 Q110 154 58 140 Z" fill="#4236F6"/>
+  <path d="M58 146 Q54 72 110 70 Q166 72 162 146 Q110 160 58 146 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M57 120 Q110 134 163 120 M58 140 Q110 154 162 140" fill="none" stroke="#003478" stroke-width="2.4"/>
+  <path d="M140 132 Q156 116 166 124 Q170 134 140 132 Z" fill="#4236F6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M140 132 Q150 148 164 146 Q168 138 140 132 Z" fill="#4236F6" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="140" cy="132" r="5" fill="#7A70FF" stroke="#003478" stroke-width="2.4"/>
+  <ellipse cx="80" cy="88" rx="8" ry="4.5" fill="#FFF3CC" transform="rotate(-40 80 88)"/>
+  <use href="#kw-cara" transform="translate(108 100)"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 안 · dentro -->
+  <use href="#kw-brillo" transform="translate(32 50) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 46) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(198 142) scale(5)" fill="#CFC8FF"/>
+  <circle cx="148" cy="40" r="3" fill="#FFFFFF"/>
+  <circle cx="24" cy="146" r="2.5" fill="#FFFFFF"/>
+  <circle cx="200" cy="178" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="106" cy="188" rx="66" ry="7" fill="#80CBB3"/>
+  <!-- la misma caja, ABIERTA: solapas hacia atrás y a los lados -->
+  <g transform="translate(100 186)">
+    <path d="M-29 -75 L55 -75 L59 -97 L-25 -97 Z" fill="#E9C48E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-42 -62 L-29 -75 L-51 -85 L-64 -71 Z" fill="#FBE08A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 -62 L55 -75 L78 -83 L65 -69 Z" fill="#FBE08A" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 -62 L55 -75 L55 -13 L42 0 Z" fill="#E2B44E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-42 -62 L-29 -75 L55 -75 L42 -62 Z" fill="#C99A5E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <!-- gatito ADENTRO: asoma la cabeza -->
+  <g transform="translate(100 150)">
+    <path d="M-21 -42 Q-23 -62 -16 -63 Q-11 -62 -5 -55 Z" fill="#FFF6E6" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M21 -42 Q23 -62 16 -63 Q11 -62 5 -55 Z" fill="#F3D27A" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M-18 -49 Q-18.5 -57 -15.5 -57.5 Q-13 -57 -10 -53 Z M18 -49 Q18.5 -57 15.5 -57.5 Q13 -57 10 -53 Z" fill="#CFC8FF"/>
+    <ellipse cx="0" cy="-40" rx="24" ry="18.5" fill="#FFF6E6"/>
+    <path d="M8 -57 Q17 -55 21.5 -46 Q17 -42 11 -45.5 Q6.5 -50.5 8 -57 Z" fill="#F3D27A"/>
+    <ellipse cx="0" cy="-40" rx="24" ry="18.5" fill="none" stroke="#003478" stroke-width="2.6"/>
+    <ellipse cx="-14.5" cy="-33" rx="4.2" ry="2.6" fill="#FFCBA0"/>
+    <ellipse cx="14.5" cy="-33" rx="4.2" ry="2.6" fill="#FFCBA0"/>
+    <use href="#kw-ojo" transform="translate(-9 -40) scale(0.6)"/>
+    <use href="#kw-ojo" transform="translate(9 -40) scale(0.6)"/>
+    <path d="M-1.8 -36.5 Q0 -37.5 1.8 -36.5 Q1 -35 0 -35 Q-1 -35 -1.8 -36.5 Z" fill="#E8A866" stroke="#003478" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M-3.6 -33.5 Q-1.8 -30.5 0 -33.5 Q1.8 -30.5 3.6 -33.5" fill="none" stroke="#003478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-24 -40 L-31 -41.5 M-24 -36 L-31 -35 M24 -40 L31 -41.5 M24 -36 L31 -35" stroke="#003478" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <!-- frente de la caja (tapa la parte baja de la cabeza) -->
+  <g transform="translate(100 186)">
+    <path d="M-42 -62 L42 -62 L42 -7 Q42 0 35 0 L-35 0 Q-42 0 -42 -7 Z" fill="#F6D47A"/>
+    <path d="M-42 -17 L42 -17 L42 -7 Q42 0 35 0 L-35 0 Q-42 0 -42 -7 Z" fill="#E9C48E"/>
+    <path d="M-42 -62 L42 -62 L42 -7 Q42 0 35 0 L-35 0 Q-42 0 -42 -7 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+    <use href="#kw-cara" transform="translate(0 -31) scale(0.85)"/>
+  </g>
+  <!-- patitas apoyadas en el borde -->
+  <ellipse cx="91" cy="124" rx="5.8" ry="3.8" fill="#FFF6E6" stroke="#003478" stroke-width="2.2"/>
+  <ellipse cx="109" cy="124" rx="5.8" ry="3.8" fill="#FFF6E6" stroke="#003478" stroke-width="2.2"/>
+</svg>

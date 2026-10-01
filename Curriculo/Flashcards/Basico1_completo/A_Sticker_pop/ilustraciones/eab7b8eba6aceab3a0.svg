@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 그리고 · y (entre dos frases) · Estilo A Sticker pop · dos globos de diálogo (frases dibujadas como rayas) unidos por un signo + -->
+<!-- silueta: globo izquierdo + signo + globo derecho -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M42 54 L66 54 Q88 54 88 76 L88 110 Q88 132 66 132 L52 132 L24 154 L36 132 L42 132 Q20 132 20 110 L20 76 Q20 54 42 54 Z"/>
+<path d="M103 77 L117 77 L117 86 L126 86 L126 100 L117 100 L117 109 L103 109 L103 100 L94 100 L94 86 L103 86 Z"/>
+<path d="M178 54 L154 54 Q132 54 132 76 L132 110 Q132 132 154 132 L168 132 L196 154 L184 132 L178 132 Q200 132 200 110 L200 76 Q200 54 178 54 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M42 54 L66 54 Q88 54 88 76 L88 110 Q88 132 66 132 L52 132 L24 154 L36 132 L42 132 Q20 132 20 110 L20 76 Q20 54 42 54 Z"/>
+<path d="M103 77 L117 77 L117 86 L126 86 L126 100 L117 100 L117 109 L103 109 L103 100 L94 100 L94 86 L103 86 Z"/>
+<path d="M178 54 L154 54 Q132 54 132 76 L132 110 Q132 132 154 132 L168 132 L196 154 L184 132 L178 132 Q200 132 200 110 L200 76 Q200 54 178 54 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M42 54 L66 54 Q88 54 88 76 L88 110 Q88 132 66 132 L52 132 L24 154 L36 132 L42 132 Q20 132 20 110 L20 76 Q20 54 42 54 Z"/>
+<path d="M103 77 L117 77 L117 86 L126 86 L126 100 L117 100 L117 109 L103 109 L103 100 L94 100 L94 86 L103 86 Z"/>
+<path d="M178 54 L154 54 Q132 54 132 76 L132 110 Q132 132 154 132 L168 132 L196 154 L184 132 L178 132 Q200 132 200 110 L200 76 Q200 54 178 54 Z"/>
+</g>
+<!-- globo izquierdo blanco: frase (rayas lavanda) + cara -->
+<path d="M42 54 L66 54 Q88 54 88 76 L88 110 Q88 132 66 132 L52 132 L24 154 L36 132 L42 132 Q20 132 20 110 L20 76 Q20 54 42 54 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M34 72 L74 72" stroke="#B3B8D6" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M34 83 L62 83" stroke="#B3B8D6" stroke-width="4.5" stroke-linecap="round"/>
+<ellipse cx="45.6" cy="108" rx="3.9" ry="5.1" fill="#14142B"/>
+<ellipse cx="62.4" cy="108" rx="3.9" ry="5.1" fill="#14142B"/>
+<circle cx="46.92" cy="105.96" r="1.44" fill="#FFFFFF"/>
+<circle cx="63.72" cy="105.96" r="1.44" fill="#FFFFFF"/>
+<ellipse cx="38.4" cy="116.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<ellipse cx="69.6" cy="116.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<path d="M49.2 115.8 Q54 123 58.8 115.8 Z" fill="#14142B" stroke="#14142B" stroke-width="1.8" stroke-linejoin="round"/>
+<!-- globo derecho dorado: otra frase + cara -->
+<path d="M178 54 L154 54 Q132 54 132 76 L132 110 Q132 132 154 132 L168 132 L196 154 L184 132 L178 132 Q200 132 200 110 L200 76 Q200 54 178 54 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M146 72 L186 72" stroke="#B9861E" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M146 83 L174 83" stroke="#B9861E" stroke-width="4.5" stroke-linecap="round"/>
+<ellipse cx="157.6" cy="108" rx="3.9" ry="5.1" fill="#14142B"/>
+<ellipse cx="174.4" cy="108" rx="3.9" ry="5.1" fill="#14142B"/>
+<circle cx="158.92" cy="105.96" r="1.44" fill="#FFFFFF"/>
+<circle cx="175.72" cy="105.96" r="1.44" fill="#FFFFFF"/>
+<ellipse cx="150.4" cy="116.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<ellipse cx="181.6" cy="116.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<path d="M161.2 115.8 Q166 123 170.8 115.8 Z" fill="#14142B" stroke="#14142B" stroke-width="1.8" stroke-linejoin="round"/>
+<!-- signo + azul en el medio -->
+<path d="M103 77 L117 77 L117 86 L126 86 L126 100 L117 100 L117 109 L103 109 L103 100 L94 100 L94 86 L103 86 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M107.5 81 L107.5 88" stroke="#DCE0FA" stroke-width="3.5" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M30 16 Q32.4 25.6 42 28 Q32.4 30.4 30 40 Q27.6 30.4 18 28 Q27.6 25.6 30 16 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M110 167 Q111.8 174.2 119 176 Q111.8 177.8 110 185 Q108.2 177.8 101 176 Q108.2 174.2 110 167 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="190" cy="26" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

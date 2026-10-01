@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 마시다 · beber, tomar (마셔요) -->
+  <use href="#kw-brillo" transform="translate(32 40) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(192 36) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(196 150) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="106" r="3" fill="#FFFFFF"/>
+  <circle cx="206" cy="96" r="2.5" fill="#FFFFFF"/>
+  <circle cx="36" cy="164" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M99 124 L110 142 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M84 132 Q70 156 90 158" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M84 132 Q70 156 90 158" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M136 132 Q150 156 130 158" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M136 132 Q150 156 130 158" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="62" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="158" cy="92" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="110" cy="84" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+  <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- cara: ojos cerrados de gusto y boquita en la pajita -->
+  <path d="M89 98 Q95 90 101 98 M119 98 Q125 90 131 98" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="83" cy="109" rx="8" ry="5" fill="#FFCBA0"/>
+  <ellipse cx="137" cy="109" rx="8" ry="5" fill="#FFCBA0"/>
+  <!-- vaso con agua y pajita -->
+  <path d="M88 130 L132 130 L127 172 Q126 178 120 178 L100 178 Q94 178 93 172 Z" fill="#FFFFFF"/>
+  <path d="M90 142 Q100 138 110 142 T130 142 L127 172 Q126 178 120 178 L100 178 Q94 178 93 172 Z" fill="#9FD3FA"/>
+  <path d="M120 162 L118 126 L111 116" fill="none" stroke="#003478" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M120 162 L118 126 L111 116" fill="none" stroke="#7FD0B0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M97 148 L99 170" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M88 130 L132 130 L127 172 Q126 178 120 178 L100 178 Q94 178 93 172 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="110" cy="114" rx="4" ry="3.6" fill="#003478"/>
+  <circle cx="90" cy="158" r="6" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="130" cy="158" r="6" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <!-- gotitas -->
+  <path d="M72 116 Q77 123 77 126 A5 5 0 0 1 67 126 Q67 123 72 116 Z" fill="#8CCBF6" stroke="#003478" stroke-width="2"/>
+  <path d="M150 114 Q154.5 120 154.5 123 A4.5 4.5 0 0 1 145.5 123 Q145.5 120 150 114 Z" fill="#8CCBF6" stroke="#003478" stroke-width="2"/>
+  <path d="M168 104 Q171.5 109 171.5 111 A3.5 3.5 0 0 1 164.5 111 Q164.5 109 168 104 Z" fill="#8CCBF6" stroke="#003478" stroke-width="2"/>
+</svg>

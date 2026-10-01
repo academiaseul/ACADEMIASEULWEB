@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 싫어하다 · no gustar, detestar · Estilo A Sticker pop · la misma carita amarilla de 좋아하다, con ojos apretados, boca ondulada y mano de "alto", junto a una X grande AZUL (nunca roja) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M142 40 L186 84" fill="none" stroke-width="48"/>
+<path d="M186 40 L142 84" fill="none" stroke-width="48"/>
+<ellipse cx="66" cy="184" rx="13" ry="8"/>
+<ellipse cx="104" cy="184" rx="13" ry="8"/>
+<ellipse cx="84" cy="120" rx="54" ry="58"/>
+<path d="M128 128 L146 120" fill="none" stroke-width="40"/>
+<ellipse cx="148" cy="116" rx="12" ry="14"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M142 40 L186 84" fill="none" stroke-width="48"/>
+<path d="M186 40 L142 84" fill="none" stroke-width="48"/>
+<ellipse cx="66" cy="184" rx="13" ry="8"/>
+<ellipse cx="104" cy="184" rx="13" ry="8"/>
+<ellipse cx="84" cy="120" rx="54" ry="58"/>
+<path d="M128 128 L146 120" fill="none" stroke-width="40"/>
+<ellipse cx="148" cy="116" rx="12" ry="14"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M142 40 L186 84" fill="none" stroke-width="41"/>
+<path d="M186 40 L142 84" fill="none" stroke-width="41"/>
+<ellipse cx="66" cy="184" rx="13" ry="8"/>
+<ellipse cx="104" cy="184" rx="13" ry="8"/>
+<ellipse cx="84" cy="120" rx="54" ry="58"/>
+<path d="M128 128 L146 120" fill="none" stroke-width="33"/>
+<ellipse cx="148" cy="116" rx="12" ry="14"/>
+</g>
+<!-- X grande azul (w = 20) -->
+<path d="M142 40 L186 84" fill="none" stroke="#14142B" stroke-width="28" stroke-linecap="round"/>
+<path d="M186 40 L142 84" fill="none" stroke="#14142B" stroke-width="28" stroke-linecap="round"/>
+<path d="M142 40 L186 84" fill="none" stroke="#4236F6" stroke-width="20" stroke-linecap="round"/>
+<path d="M186 40 L142 84" fill="none" stroke="#4236F6" stroke-width="20" stroke-linecap="round"/>
+<path d="M146 48 L152 54" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<!-- patitas -->
+<ellipse cx="66" cy="184" rx="13" ry="8" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="104" cy="184" rx="13" ry="8" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<!-- cuerpo redondo amarillo -->
+<ellipse cx="84" cy="120" rx="54" ry="58" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<path d="M42 104 Q44 84 60 72" stroke="#FFF4D9" stroke-width="6" stroke-linecap="round" fill="none"/>
+<!-- gota de incomodidad -->
+<path d="M118 76 C118 76 113 82.5 113 86 A5 5 0 0 0 123 86 C123 82.5 118 76 118 76 Z" fill="#8FB0FF" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<!-- cara: ojos apretados > <, boca ondulada, s = 1, centro (80,108) -->
+<path d="M60 102 L71 108 L60 114" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M100 102 L89 108 L100 114" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<ellipse cx="54" cy="122" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="106" cy="122" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M66 128 Q70 123 74 128 Q78 133 82 128 Q86 123 90 128 Q94 133 96 129" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<!-- brazo y mano de "alto" -->
+<path d="M128 128 L146 120" fill="none" stroke="#14142B" stroke-width="20" stroke-linecap="round"/>
+<path d="M128 128 L146 120" fill="none" stroke="#FFD95E" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="148" cy="116" rx="12" ry="14" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<path d="M144 106 L144 113" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M151 105 L151 112" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M28 22 Q30.4 31.6 40 34 Q30.4 36.4 28 46 Q25.6 36.4 16 34 Q25.6 31.6 28 22 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 132 Q197.6 138.4 204 140 Q197.6 141.6 196 148 Q194.4 141.6 188 140 Q194.4 138.4 196 132 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="186" cy="176" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

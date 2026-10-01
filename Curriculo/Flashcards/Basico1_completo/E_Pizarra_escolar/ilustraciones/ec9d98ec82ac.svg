@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="의사" data-es="médico, médica">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 166 C 80 172, 150 172, 196 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- moño del pelo (va detrás de la cabeza) -->
+    <circle cx="104" cy="38" r="12" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- delantal blanco: trama blanca fuerte -->
+    <path d="M84 108 C 68 120, 62 142, 60 162 L148 162 C 146 142, 140 120, 124 108 Z" fill="#1F3B33"/>
+    <path d="M84 108 C 68 120, 62 142, 60 162 L148 162 C 146 142, 140 120, 124 108 Z" fill="url(#rb)"/>
+    <!-- ropa de abajo (celeste) en la V del cuello y solapas -->
+    <path d="M93 108 L104 130 L115 108 Z" fill="#1F3B33" stroke="none"/>
+    <path d="M93 108 L104 130 L115 108 Z" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.2"/>
+    <path d="M89 110 L98 126 L104 130 M119 110 L110 126 L104 130" stroke-width="2.4"/>
+    <path d="M104 130 V161" stroke-width="2.2"/>
+    <circle cx="109" cy="140" r="2" fill="#F3F0E4" stroke="none"/>
+    <circle cx="109" cy="152" r="2" fill="#F3F0E4" stroke="none"/>
+    <!-- bolsillo con lápiz dorado -->
+    <path d="M117 130 H133 V142 H117 Z" fill="#1F3B33" stroke-width="2.2"/>
+    <path d="M122 130 V122" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- estetoscopio dorado al cuello -->
+    <path d="M92 110 C 84 120, 82 134, 88 142" stroke="#E8B84B" stroke-width="3.2"/>
+    <circle cx="90" cy="147" r="5.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M116 110 C 120 114, 120 118, 116 122 M116 122 L112 124 M116 122 L120 125" stroke="#E8B84B" stroke-width="2.8"/>
+    <!-- brazos -->
+    <path d="M82 116 C 72 128, 68 140, 68 152"/>
+    <circle cx="68" cy="155.5" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M126 116 C 136 128, 140 140, 140 152"/>
+    <circle cx="140" cy="155.5" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- cabeza y pelo recogido -->
+    <circle cx="104" cy="72" r="30" fill="#1F3B33"/>
+    <path d="M74 70 C 75 51, 88 42, 104 42 C 120 42, 133 51, 134 70 C 128 60, 118 55, 108 55 C 104 52, 100 52, 98 55 C 88 56, 80 62, 74 70 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(104 80) scale(0.82)"/>
+    <!-- cruz de salud dorada -->
+    <path d="M176 30 H186 V40 H196 V50 H186 V60 H176 V50 H166 V40 H176 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#estrella" transform="translate(34 48) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(180 128) scale(0.65)"/>
+  </g>
+</svg>

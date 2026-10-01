@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 우유 · leche -->
+  <use href="#kw-brillo" transform="translate(34 40) scale(11)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(190 38) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(194 118) scale(6)" fill="#FFFFFF"/>
+  <circle cx="28" cy="118" r="3" fill="#FFFFFF"/>
+  <circle cx="40" cy="156" r="2.5" fill="#E8B84B"/>
+  <circle cx="200" cy="80" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="112" cy="187" rx="62" ry="8" fill="#D2CBFA"/>
+  <path d="M140 76 L168 62 L168 166 Q168 171 164 173 L140 182 Z" fill="#E4E0FF"/>
+  <path d="M140 146 L168 132 L168 166 Q168 171 164 173 L140 182 Z" fill="#B9B0F5"/>
+  <path d="M140 76 L168 62 L168 166 Q168 171 164 173 L140 182 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M140 76 L98 40 L126 26 L168 62 Z" fill="#CFC8FF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M98 40 L126 26 L126 17 L98 31 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M56 76 L98 40 L140 76 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M98 50 Q105 59 105 63 A7 7 0 0 1 91 63 Q91 59 98 50 Z" fill="#FFFFFF"/>
+  <path d="M56 76 L140 76 L140 172 Q140 182 130 182 L66 182 Q56 182 56 172 Z" fill="#FFFFFF"/>
+  <path d="M56 146 Q66.5 139 77 146 T98 146 T119 146 T140 146 L140 172 Q140 182 130 182 L66 182 Q56 182 56 172 Z" fill="#CFC8FF"/>
+  <path d="M56 76 L140 76 L140 172 Q140 182 130 182 L66 182 Q56 182 56 172 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <use href="#kw-cara" transform="translate(98 112) scale(0.93)"/>
+</svg>

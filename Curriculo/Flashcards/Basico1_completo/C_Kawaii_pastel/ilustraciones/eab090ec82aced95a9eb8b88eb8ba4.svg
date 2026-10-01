@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 감사합니다 · gracias -->
+  <use href="#kw-brillo" transform="translate(36 44) scale(9)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(186 38) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(194 148) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="112" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="98" r="2.5" fill="#CFC8FF"/>
+  <circle cx="34" cy="166" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <!-- personaje base: piernas, zapatos, uniforme con corbata -->
+  <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M99 124 L110 142 L121 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M110 136 L114 142 L110 150 L106 142 Z" fill="#E8B84B" stroke="#003478" stroke-width="2" stroke-linejoin="round"/>
+  <!-- manos juntas al frente (공수) -->
+  <path d="M84 132 Q72 156 102 160 M136 132 Q148 156 118 160" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M84 132 Q72 156 102 160 M136 132 Q148 156 118 160" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="104" cy="160" r="6.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="116" cy="160" r="6.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <!-- cabeza bajada en reverencia: se ve más pelo y la cara queda abajo -->
+  <ellipse cx="62" cy="104" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="158" cy="104" rx="8" ry="10" fill="#FFE4C8" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="110" cy="94" rx="48" ry="42" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+  <path d="M63 102 Q58 48 110 46 Q162 48 157 102 Q150 86 138 80 Q128 90 112 85 Q98 92 84 83 Q72 88 63 102 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M82 60 Q94 52 108 52" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <use href="#kw-cara-feliz" transform="translate(110 113)"/>
+  <!-- líneas del movimiento de la reverencia -->
+  <path d="M56 52 Q48 62 50 74 M164 52 Q172 62 170 74" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+  <use href="#kw-brillo" transform="translate(110 26) scale(7)" fill="#FFFFFF"/>
+</svg>

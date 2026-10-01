@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 밥 · arroz cocido; comida -->
+  <use href="#kw-brillo" transform="translate(34 42) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(146 30) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(24 124) scale(6)" fill="#FFFFFF"/>
+  <circle cx="22" cy="84" r="3" fill="#FFFFFF"/>
+  <circle cx="34" cy="166" r="2.5" fill="#E8B84B"/>
+  <circle cx="208" cy="32" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="118" cy="189" rx="82" ry="7" fill="#D2CBFA"/>
+  <!-- vapor blanco -->
+  <path d="M76 72 Q68 60 76 50 Q84 40 76 28" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M98 66 Q90 54 98 42 Q106 32 98 20" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M120 72 Q112 60 120 50 Q128 40 120 28" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- 수저 a la derecha, apoyados al lado del tazón (nunca clavados en el arroz) -->
+  <path d="M166 182 L170 84" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round"/>
+  <path d="M166 182 L170 84" fill="none" stroke="#D5D9E4" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="170.5" cy="68" rx="11" ry="16" fill="#D5D9E4" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="168" cy="64" rx="4" ry="8" fill="#F1F2F7"/>
+  <path d="M184 182 L188 58 M194 182 L199 60" fill="none" stroke="#003478" stroke-width="8" stroke-linecap="round"/>
+  <path d="M184 182 L188 58 M194 182 L199 60" fill="none" stroke="#D5D9E4" stroke-width="3" stroke-linecap="round"/>
+  <!-- arroz en montaña, con granitos -->
+  <path d="M50 114 Q50 86 74 78 Q98 64 122 78 Q146 86 146 114 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M70 98 L74 94 M88 86 L93 84 M112 82 L117 85 M128 96 L132 100 M100 96 L104 94 M80 108 L84 106" fill="none" stroke="#D5D9E4" stroke-width="3" stroke-linecap="round"/>
+  <!-- pie del tazón -->
+  <rect x="76" y="168" width="44" height="14" rx="5" fill="#E4E0FF" stroke="#003478" stroke-width="2.6"/>
+  <!-- tazón: relleno, franja celeste con puntitos, sombra lila, contorno -->
+  <path d="M44 110 Q44 158 80 172 L116 172 Q152 158 152 110 Z" fill="#FFFFFF"/>
+  <rect x="44" y="116" width="108" height="9" fill="#8CCBF6"/>
+  <path d="M58 120.5 L58 120.5 M74 120.5 L74 120.5 M90 120.5 L90 120.5 M106 120.5 L106 120.5 M122 120.5 L122 120.5 M138 120.5 L138 120.5" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M57.5 156 Q67.6 150 77.75 156 T98 156 T118.25 156 T138.5 156 Q130 166.6 116 172 L80 172 Q66 166.6 57.5 156 Z" fill="#E4E0FF"/>
+  <path d="M44 110 Q44 158 80 172 L116 172 Q152 158 152 110 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <use href="#kw-cara" transform="translate(98 139)"/>
+</svg>

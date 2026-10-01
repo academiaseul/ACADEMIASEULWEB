@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 형 · hermano mayor (lo dice un hombre) · Estilo A Sticker pop · el hermanito (izq.) señala a su hermano mayor, más alto, con gorra -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M88 84 C88 50 104 38 126 38 C148 38 164 50 164 84 Z"/>
+<path d="M82 84 Q126 74 170 84 Q162 96 126 96 Q90 96 82 84 Z"/>
+<ellipse cx="86" cy="104" rx="7" ry="9"/>
+<ellipse cx="166" cy="104" rx="7" ry="9"/>
+<ellipse cx="126" cy="90" rx="40" ry="38"/>
+<path d="M78 196 C78 162 100 140 126 140 C152 140 174 162 174 196 Z"/>
+<path d="M26 140 C24 116 36 106 54 106 C72 106 84 116 82 140 Z"/>
+<ellipse cx="26" cy="146" rx="5" ry="6.5"/>
+<ellipse cx="82" cy="146" rx="5" ry="6.5"/>
+<ellipse cx="54" cy="140" rx="29" ry="28"/>
+<path d="M22 198 C22 180 36 168 54 168 C72 168 86 180 86 198 Z"/>
+<path d="M76 184 Q88 174 92 158" fill="none" stroke-width="39"/>
+<circle cx="94" cy="151" r="8.5"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M88 84 C88 50 104 38 126 38 C148 38 164 50 164 84 Z"/>
+<path d="M82 84 Q126 74 170 84 Q162 96 126 96 Q90 96 82 84 Z"/>
+<ellipse cx="86" cy="104" rx="7" ry="9"/>
+<ellipse cx="166" cy="104" rx="7" ry="9"/>
+<ellipse cx="126" cy="90" rx="40" ry="38"/>
+<path d="M78 196 C78 162 100 140 126 140 C152 140 174 162 174 196 Z"/>
+<path d="M26 140 C24 116 36 106 54 106 C72 106 84 116 82 140 Z"/>
+<ellipse cx="26" cy="146" rx="5" ry="6.5"/>
+<ellipse cx="82" cy="146" rx="5" ry="6.5"/>
+<ellipse cx="54" cy="140" rx="29" ry="28"/>
+<path d="M22 198 C22 180 36 168 54 168 C72 168 86 180 86 198 Z"/>
+<path d="M76 184 Q88 174 92 158" fill="none" stroke-width="39"/>
+<circle cx="94" cy="151" r="8.5"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M88 84 C88 50 104 38 126 38 C148 38 164 50 164 84 Z"/>
+<path d="M82 84 Q126 74 170 84 Q162 96 126 96 Q90 96 82 84 Z"/>
+<ellipse cx="86" cy="104" rx="7" ry="9"/>
+<ellipse cx="166" cy="104" rx="7" ry="9"/>
+<ellipse cx="126" cy="90" rx="40" ry="38"/>
+<path d="M78 196 C78 162 100 140 126 140 C152 140 174 162 174 196 Z"/>
+<path d="M26 140 C24 116 36 106 54 106 C72 106 84 116 82 140 Z"/>
+<ellipse cx="26" cy="146" rx="5" ry="6.5"/>
+<ellipse cx="82" cy="146" rx="5" ry="6.5"/>
+<ellipse cx="54" cy="140" rx="29" ry="28"/>
+<path d="M22 198 C22 180 36 168 54 168 C72 168 86 180 86 198 Z"/>
+<path d="M76 184 Q88 174 92 158" fill="none" stroke-width="32"/>
+<circle cx="94" cy="151" r="8.5"/>
+</g>
+<defs>
+<clipPath id="clipPolera"><path d="M78 196 C78 162 100 140 126 140 C152 140 174 162 174 196 Z"/></clipPath>
+</defs>
+<!-- hermano mayor: polera menta a rayas, cuello, orejas -->
+<path d="M78 196 C78 162 100 140 126 140 C152 140 174 162 174 196 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<g clip-path="url(#clipPolera)">
+<path d="M70 176 L182 176" stroke="#FFFFFF" stroke-width="9"/>
+<path d="M70 190 L182 190" stroke="#FFFFFF" stroke-width="7"/>
+</g>
+<path d="M78 196 C78 162 100 140 126 140 C152 140 174 162 174 196 Z" fill="none" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M114 118 L114 146 Q126 152 138 146 L138 118 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M108 146 Q126 162 144 146" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round"/>
+<ellipse cx="86" cy="104" rx="7" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="166" cy="104" rx="7" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="126" cy="90" rx="40" ry="38" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- patillas negras bajo la gorra -->
+<path d="M88 84 L100 84 Q94 92 90 100 Q86 92 88 84 Z" fill="#14142B"/>
+<path d="M164 84 L152 84 Q158 92 162 100 Q166 92 164 84 Z" fill="#14142B"/>
+<!-- gorra: copa azul con costuras y botón, visera dorada -->
+<path d="M88 84 C88 50 104 38 126 38 C148 38 164 50 164 84 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M126 41 L126 82" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<path d="M110 45 Q102 62 104 82" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<path d="M142 45 Q150 62 148 82" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<path d="M98 54 Q106 47 116 45" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<circle cx="126" cy="39" r="5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<path d="M82 84 Q126 74 170 84 Q162 96 126 96 Q90 96 82 84 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M92 87 Q126 81 160 87" stroke="#B9861E" stroke-width="2.5" stroke-linecap="round"/>
+<ellipse cx="114.1" cy="106" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="137.9" cy="106" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="115.97" cy="103.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="139.77" cy="103.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="103.9" cy="117.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="148.1" cy="117.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M119.2 117.05 Q126 127.25 132.8 117.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- hermanito: pelo negro corto, orejas, polera lila -->
+<path d="M22 198 C22 180 36 168 54 168 C72 168 86 180 86 198 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M47 160 L47 172 Q54 177 61 172 L61 160 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M44 176 Q54 184 64 176" stroke="#4236F6" stroke-width="3" stroke-linecap="round"/>
+<path d="M26 140 C24 116 36 106 54 106 C72 106 84 116 82 140 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="26" cy="146" rx="5" ry="6.5" fill="#FFE0C4" stroke="#14142B" stroke-width="3.5"/>
+<ellipse cx="82" cy="146" rx="5" ry="6.5" fill="#FFE0C4" stroke="#14142B" stroke-width="3.5"/>
+<ellipse cx="54" cy="140" rx="29" ry="28" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M27 136 C24 116 38 108 54 108 C70 108 84 116 81 136 C78 126 72 122 64 121 C58 126 46 127 38 124 C32 127 28 131 27 136 Z" fill="#14142B"/>
+<path d="M81 136 C78 126 72 122 64 121 C58 126 46 127 38 124 C32 127 28 131 27 136" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 108 Q46 96 58 97 Q53 101 56 108 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M38 116 Q46 111 54 112" stroke="#5E6280" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="45.6" cy="150" rx="3.9" ry="5.1" fill="#14142B"/>
+<ellipse cx="62.4" cy="150" rx="3.9" ry="5.1" fill="#14142B"/>
+<circle cx="46.92" cy="147.96" r="1.44" fill="#FFFFFF"/>
+<circle cx="63.72" cy="147.96" r="1.44" fill="#FFFFFF"/>
+<ellipse cx="38.4" cy="158.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<ellipse cx="69.6" cy="158.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<path d="M49.2 157.8 Q54 165 58.8 157.8 Z" fill="#14142B" stroke="#14142B" stroke-width="1.8" stroke-linejoin="round"/>
+<!-- brazo que señala hacia el hermano -->
+<path d="M76 184 Q88 174 92 158" stroke="#14142B" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M76 184 Q88 174 92 158" stroke="#C7B8FF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M97 146 L104 134" stroke="#14142B" stroke-width="10.5" stroke-linecap="round"/>
+<path d="M97 146 L104 134" stroke="#FFE0C4" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="94" cy="151" r="8.5" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- adornos -->
+<path d="M30 28 Q32.4 37.6 42 40 Q32.4 42.4 30 52 Q27.6 42.4 18 40 Q27.6 37.6 30 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 131 Q199.8 138.2 207 140 Q199.8 141.8 198 149 Q196.2 141.8 189 140 Q196.2 138.2 198 131 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 24 Q195.8 31.2 203 33 Q195.8 34.8 194 42 Q192.2 34.8 185 33 Q192.2 31.2 194 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="28" cy="80" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

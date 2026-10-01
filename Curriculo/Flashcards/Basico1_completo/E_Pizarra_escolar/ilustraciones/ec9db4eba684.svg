@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="이름" data-es="nombre">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 166 C 90 172, 150 172, 192 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cinta dorada que cuelga del cuello -->
+    <path d="M68 8 L78 8 L108 48 L100 52 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <path d="M152 8 L142 8 L112 48 L120 52 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <circle cx="110" cy="52" r="5" stroke-width="2.4"/>
+    <rect x="102" y="56" width="16" height="11" rx="2" fill="#1F3B33" stroke-width="2.4"/>
+    <!-- la credencial: franja superior en blanco (sin texto), cara y línea para escribir el nombre -->
+    <rect x="56" y="66" width="108" height="84" rx="8" fill="#1F3B33"/>
+    <rect x="56" y="66" width="108" height="84" rx="8" fill="url(#rt)"/>
+    <rect x="100" y="70" width="20" height="5" rx="2.5" stroke-width="2"/>
+    <rect x="63" y="80" width="94" height="16" rx="3" fill="url(#rb)" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(110 112) scale(0.7)"/>
+    <path d="M74 137 H146" stroke-width="2.4" stroke-opacity="0.85"/>
+    <!-- lápiz dorado que escribe en la línea -->
+    <polygon points="158.3,132.1 186.6,103.8 180.2,97.4 151.9,125.7" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <polygon points="186.6,103.8 190.9,99.6 184.5,93.2 180.2,97.4" fill="url(#rt)" stroke-width="2.2"/>
+    <polygon points="147,137 158.3,132.1 151.9,125.7" fill="#1F3B33" stroke-width="2.2"/>
+    <circle cx="148.6" cy="135.4" r="1.8" fill="#F3F0E4" stroke="none"/>
+    <use href="#estrella" transform="translate(34 112) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(34 42) scale(0.65)"/>
+    <use href="#estrella-b" transform="translate(188 52) scale(0.65)"/>
+  </g>
+</svg>

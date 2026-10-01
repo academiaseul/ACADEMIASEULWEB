@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="화장실" data-es="baño">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 165 C 80 172, 150 172, 198 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- puerta con marco, panel y pomo dorado -->
+    <rect x="40" y="28" width="56" height="134" fill="url(#rt)"/>
+    <path d="M34 162 V22 H102 V162"/>
+    <rect x="50" y="112" width="36" height="38" rx="3" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="86" cy="100" r="3.8" fill="#E8B84B" stroke="none"/>
+    <use href="#cara" transform="translate(68 76) scale(0.75)"/>
+    <!-- letrero: figura de hombre (celeste) y de mujer (dorada) -->
+    <rect x="116" y="44" width="84" height="68" rx="8" fill="#1F3B33"/>
+    <path d="M158 52 V104" stroke-width="2.2"/>
+    <circle cx="137" cy="60" r="6" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.4"/>
+    <path d="M128 70 H146 V90 H142 V104 H132 V90 H128 Z" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.4"/>
+    <path d="M137 92 V104" stroke="#9FCBEF" stroke-width="2.2"/>
+    <circle cx="179" cy="60" r="6" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M172 70 H186 L194 94 H164 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M174 94 V104 M184 94 V104" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- rollo de papel en el suelo -->
+    <path d="M160 140 H184 A 6 12 0 0 1 184 164 H160 Z" fill="#1F3B33"/>
+    <path d="M160 140 H184 A 6 12 0 0 1 184 164 H160 Z" fill="url(#rt)"/>
+    <ellipse cx="160" cy="152" rx="6" ry="12" fill="#1F3B33"/>
+    <ellipse cx="160" cy="152" rx="2.2" ry="4.6" stroke-width="2"/>
+    <use href="#gota" transform="translate(128 142) scale(1.1)"/>
+    <use href="#estrella-b" transform="translate(20 40) scale(0.6)"/>
+    <use href="#estrella" transform="translate(198 30) scale(0.7)"/>
+  </g>
+</svg>

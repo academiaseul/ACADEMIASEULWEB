@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 우리 · nosotros · Estilo A Sticker pop · insignia azul que reúne a tres personitas juntas, con una estrella dorada (en vez de corazón) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="108" r="82"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="108" r="82"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="108" r="82"/>
+</g>
+<defs>
+<clipPath id="clipDisco"><circle cx="110" cy="108" r="82"/></clipPath>
+</defs>
+<circle cx="110" cy="108" r="82" fill="#4236F6"/>
+<g clip-path="url(#clipDisco)">
+<path d="M44 66 Q58 46 80 38" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round"/>
+<!-- personita izquierda -->
+<path d="M26 206 C26 166 40 146 60 146 C80 146 94 166 94 206 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="60" cy="118" r="23" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M36 118 C34 100 46 93 60 93 C74 93 86 100 84 118 C80 110 72 105 64 106 C56 110 44 110 36 118 Z" fill="#14142B" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- personita derecha -->
+<path d="M126 206 C126 166 140 146 160 146 C180 146 194 166 194 206 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="160" cy="118" r="23" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<path d="M136 118 C134 100 146 93 160 93 C174 93 186 100 184 118 C180 110 170 104 156 106 C148 108 140 112 136 118 Z" fill="#14142B" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- personita central (adelante) con los brazos sobre los hombros de las otras -->
+<path d="M84 156 Q74 150 66 152" stroke="#14142B" stroke-width="18" stroke-linecap="round"/>
+<path d="M84 156 Q74 150 66 152" stroke="#8FE3C6" stroke-width="10" stroke-linecap="round"/>
+<path d="M136 156 Q146 150 154 152" stroke="#14142B" stroke-width="18" stroke-linecap="round"/>
+<path d="M136 156 Q146 150 154 152" stroke="#8FE3C6" stroke-width="10" stroke-linecap="round"/>
+<circle cx="64" cy="152" r="7" fill="#F3C39A" stroke="#14142B" stroke-width="3.5"/>
+<circle cx="156" cy="152" r="7" fill="#F3C39A" stroke="#14142B" stroke-width="3.5"/>
+<path d="M68 206 C68 152 86 124 110 124 C134 124 152 152 152 206 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M98 128 Q110 138 122 128" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="110" cy="92" r="27" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M82 94 C80 72 94 63 110 63 C126 63 140 72 138 94 C134 84 124 79 114 80 C106 86 94 86 86 84 C84 87 83 90 82 94 Z" fill="#4A3426" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M94 72 Q102 67 110 67" stroke="#6E4424" stroke-width="4" stroke-linecap="round"/>
+</g>
+<!-- caras -->
+<ellipse cx="53" cy="124" rx="3.25" ry="4.25" fill="#14142B"/>
+<ellipse cx="67" cy="124" rx="3.25" ry="4.25" fill="#14142B"/>
+<circle cx="54.1" cy="122.3" r="1.2" fill="#FFFFFF"/>
+<circle cx="68.1" cy="122.3" r="1.2" fill="#FFFFFF"/>
+<ellipse cx="47" cy="131" rx="3.5" ry="2.25" fill="#FFB98A"/>
+<ellipse cx="73" cy="131" rx="3.5" ry="2.25" fill="#FFB98A"/>
+<path d="M56 130.5 Q60 136.5 64 130.5 Z" fill="#14142B" stroke="#14142B" stroke-width="1.5" stroke-linejoin="round"/>
+<ellipse cx="153" cy="124" rx="3.25" ry="4.25" fill="#14142B"/>
+<ellipse cx="167" cy="124" rx="3.25" ry="4.25" fill="#14142B"/>
+<circle cx="154.1" cy="122.3" r="1.2" fill="#FFFFFF"/>
+<circle cx="168.1" cy="122.3" r="1.2" fill="#FFFFFF"/>
+<ellipse cx="147" cy="131" rx="3.5" ry="2.25" fill="#FFB98A"/>
+<ellipse cx="173" cy="131" rx="3.5" ry="2.25" fill="#FFB98A"/>
+<path d="M156 130.5 Q160 136.5 164 130.5 Z" fill="#14142B" stroke="#14142B" stroke-width="1.5" stroke-linejoin="round"/>
+<ellipse cx="101.88" cy="98" rx="3.77" ry="4.93" fill="#14142B"/>
+<ellipse cx="118.12" cy="98" rx="3.77" ry="4.93" fill="#14142B"/>
+<circle cx="103.16" cy="96.03" r="1.39" fill="#FFFFFF"/>
+<circle cx="119.4" cy="96.03" r="1.39" fill="#FFFFFF"/>
+<ellipse cx="94.92" cy="106.12" rx="4.06" ry="2.61" fill="#FFB98A"/>
+<ellipse cx="125.08" cy="106.12" rx="4.06" ry="2.61" fill="#FFB98A"/>
+<path d="M105.36 105.54 Q110 112.5 114.64 105.54 Z" fill="#14142B" stroke="#14142B" stroke-width="1.74" stroke-linejoin="round"/>
+<!-- estrella dorada arriba -->
+<path d="M110 30 L114.41 39.93 L125.22 41.06 L117.13 48.32 L119.4 58.94 L110 53.5 L100.6 58.94 L102.87 48.32 L94.78 41.06 L105.59 39.93 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- borde del disco encima -->
+<circle cx="110" cy="108" r="82" fill="none" stroke="#14142B" stroke-width="4"/>
+<!-- adornos -->
+<path d="M24 16 Q26.4 25.6 36 28 Q26.4 30.4 24 40 Q21.6 30.4 12 28 Q21.6 25.6 24 16 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 22 Q199.8 29.2 207 31 Q199.8 32.8 198 40 Q196.2 32.8 189 31 Q196.2 29.2 198 22 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M204 166 Q205.6 172.4 212 174 Q205.6 175.6 204 182 Q202.4 175.6 196 174 Q202.4 172.4 204 166 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="22" cy="196" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

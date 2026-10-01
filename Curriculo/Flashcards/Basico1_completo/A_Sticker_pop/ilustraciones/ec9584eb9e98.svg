@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 아래 · abajo, debajo · Estilo A Sticker pop -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M76 138 L76 74 L92 60 L176 60 L176 124 L160 138 Z"/>
+<circle cx="118" cy="163" r="25"/>
+<path d="M46 182 L29 158 L39 158 L39 126 L53 126 L53 158 L63 158 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M76 138 L76 74 L92 60 L176 60 L176 124 L160 138 Z"/>
+<circle cx="118" cy="163" r="25"/>
+<path d="M46 182 L29 158 L39 158 L39 126 L53 126 L53 158 L63 158 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M76 138 L76 74 L92 60 L176 60 L176 124 L160 138 Z"/>
+<circle cx="118" cy="163" r="25"/>
+<path d="M46 182 L29 158 L39 158 L39 126 L53 126 L53 158 L63 158 Z"/>
+</g>
+<circle cx="118" cy="163" r="25" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M98 150 Q118 160 138 150" fill="none" stroke="#B9861E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="110.3" cy="168" rx="3.58" ry="4.68" fill="#14142B"/>
+<ellipse cx="125.7" cy="168" rx="3.58" ry="4.68" fill="#14142B"/>
+<circle cx="111.51" cy="166.13" r="1.32" fill="#FFFFFF"/>
+<circle cx="126.91" cy="166.13" r="1.32" fill="#FFFFFF"/>
+<ellipse cx="103.7" cy="175.7" rx="3.85" ry="2.48" fill="#FFB98A"/>
+<ellipse cx="132.3" cy="175.7" rx="3.85" ry="2.48" fill="#FFB98A"/>
+<path d="M113.6 175.15 Q118 181.75 122.4 175.15 Z" fill="#14142B" stroke="#14142B" stroke-width="1.65" stroke-linejoin="round"/>
+<path d="M160 74 L176 60 L176 124 L160 138 Z" fill="#2A1FC7" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M76 74 L160 74 L160 138 L76 138 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M76 74 L92 60 L176 60 L160 74 Z" fill="#9DB7FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M112 74 L128 60 L140 60 L124 74 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M112 74 L124 74 L124 86 L112 86 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M85 90 L85 114" fill="none" stroke="#9DB7FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="106.8" cy="106" rx="5.2" ry="6.8" fill="#14142B"/>
+<ellipse cx="129.2" cy="106" rx="5.2" ry="6.8" fill="#14142B"/>
+<circle cx="108.56" cy="103.28" r="1.92" fill="#FFFFFF"/>
+<circle cx="130.96" cy="103.28" r="1.92" fill="#FFFFFF"/>
+<ellipse cx="97.2" cy="117.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<ellipse cx="138.8" cy="117.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<path d="M111.6 116.4 Q118 126 124.4 116.4 Z" fill="#14142B" stroke="#14142B" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M46 182 L29 158 L39 158 L39 126 L53 126 L53 158 L63 158 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M32 26 Q34.4 35.6 44 38 Q34.4 40.4 32 50 Q29.6 40.4 20 38 Q29.6 35.6 32 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 151 Q195.8 158.2 203 160 Q195.8 161.8 194 169 Q192.2 161.8 185 160 Q192.2 158.2 194 151 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="198" cy="28" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

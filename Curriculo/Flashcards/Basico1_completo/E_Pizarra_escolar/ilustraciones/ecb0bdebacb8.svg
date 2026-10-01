@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="창문" data-es="ventana">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 165 C 92 172, 150 172, 188 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- marco de la ventana -->
+    <path d="M58 30 H162 V122 H58 Z" fill="#1F3B33"/>
+    <path d="M58 30 H162 V122 H58 Z" fill="url(#rt)"/>
+    <!-- afuera: cielo celeste, sol y nube -->
+    <path d="M66 38 H154 V100 H66 Z" fill="#1F3B33"/>
+    <path d="M66 38 H154 V100 H66 Z" fill="url(#ra)" stroke-width="2.6"/>
+    <circle cx="120" cy="60" r="10" fill="#1F3B33" stroke="none"/>
+    <circle cx="120" cy="60" r="10" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <path d="M120 45 V41 M120 75 V79 M105 60 H101 M135 60 H139 M109.4 49.4 L106.6 46.6 M130.6 49.4 L133.4 46.6 M109.4 70.6 L106.6 73.4 M130.6 70.6 L133.4 73.4" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M90 92 C 85 92, 85 84, 91 84 C 91 78, 101 76, 104 81 C 108 78, 114 82, 112 86 C 116 87, 116 92, 112 92 Z" fill="#1F3B33"/>
+    <path d="M90 92 C 85 92, 85 84, 91 84 C 91 78, 101 76, 104 81 C 108 78, 114 82, 112 86 C 116 87, 116 92, 112 92 Z" fill="url(#rb)" stroke-width="2.4"/>
+    <!-- hojas abiertas hacia afuera -->
+    <path d="M66 38 L80 45 V93 L66 100 Z" fill="#1F3B33"/>
+    <path d="M66 38 L80 45 V93 L66 100 Z" fill="url(#ra)" stroke-width="2.6"/>
+    <path d="M154 38 L140 45 V93 L154 100 Z" fill="#1F3B33"/>
+    <path d="M154 38 L140 45 V93 L154 100 Z" fill="url(#ra)" stroke-width="2.6"/>
+    <!-- cara en el travesaño de abajo -->
+    <path d="M66 103 H154 V118 H66 Z" fill="#1F3B33" stroke-width="2.4"/>
+    <use href="#cara" transform="translate(110 106) scale(0.6)"/>
+    <!-- alféizar -->
+    <path d="M50 122 H170 V130 H50 Z" fill="#1F3B33"/>
+    <path d="M50 122 H170 V130 H50 Z" fill="url(#rt)"/>
+    <!-- barra dorada y cortinas recogidas -->
+    <path d="M36 24 H184" stroke="#E8B84B" stroke-width="3.4"/>
+    <circle cx="36" cy="24" r="3.6" fill="#E8B84B" stroke="none"/>
+    <circle cx="184" cy="24" r="3.6" fill="#E8B84B" stroke="none"/>
+    <path d="M40 24 H72 C 66 46, 58 70, 54 84 C 58 98, 64 116, 62 136 H36 C 38 116, 44 98, 46 84 C 42 64, 40 44, 40 24 Z" fill="#1F3B33"/>
+    <path d="M40 24 H72 C 66 46, 58 70, 54 84 C 58 98, 64 116, 62 136 H36 C 38 116, 44 98, 46 84 C 42 64, 40 44, 40 24 Z" fill="url(#rt)"/>
+    <path d="M50 28 C 50 46, 50 66, 50 80 M60 28 C 58 46, 54 66, 52 80 M48 90 C 46 106, 44 120, 44 132 M52 90 C 54 106, 54 120, 54 132" stroke-width="1.8" stroke-opacity="0.7"/>
+    <path d="M42 82 C 47 87, 53 87, 58 82" stroke="#E8B84B" stroke-width="3.2"/>
+    <path d="M180 24 H148 C 154 46, 162 70, 166 84 C 162 98, 156 116, 158 136 H184 C 182 116, 176 98, 174 84 C 178 64, 180 44, 180 24 Z" fill="#1F3B33"/>
+    <path d="M180 24 H148 C 154 46, 162 70, 166 84 C 162 98, 156 116, 158 136 H184 C 182 116, 176 98, 174 84 C 178 64, 180 44, 180 24 Z" fill="url(#rt)"/>
+    <path d="M170 28 C 170 46, 170 66, 170 80 M160 28 C 162 46, 166 66, 168 80 M172 90 C 174 106, 176 120, 176 132 M168 90 C 166 106, 166 120, 166 132" stroke-width="1.8" stroke-opacity="0.7"/>
+    <path d="M178 82 C 173 87, 167 87, 162 82" stroke="#E8B84B" stroke-width="3.2"/>
+    <use href="#estrella" transform="translate(20 52) scale(0.7)"/>
+    <use href="#estrella-b" transform="translate(200 56) scale(0.6)"/>
+    <use href="#estrella" transform="translate(196 146) scale(0.65)"/>
+  </g>
+</svg>

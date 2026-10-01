@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 정말 · de verdad, muchísimo — signo ! con destellos + pulgar arriba -->
+  <use href="#kw-brillo" transform="translate(124 36) scale(11)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(34 64) scale(7)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(196 80) scale(6)" fill="#E8B84B"/>
+  <circle cx="160" cy="44" r="3" fill="#FFFFFF"/>
+  <circle cx="30" cy="132" r="2.5" fill="#E8B84B"/>
+  <circle cx="198" cy="128" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="114" cy="188" rx="68" ry="7" fill="#ADA1F0"/>
+  <!-- signo ! gordito: relleno, sombra ondulada, contorno -->
+  <path d="M54 40 Q54 26 80 26 Q106 26 106 40 L98 126 Q97 138 80 138 Q63 138 62 126 Z" fill="#FFFFFF"/>
+  <path d="M60.3 108 Q70 102 80 108 T99.7 108 L98 126 Q97 138 80 138 Q63 138 62 126 Z" fill="#E4E0FF"/>
+  <path d="M54 40 Q54 26 80 26 Q106 26 106 40 L98 126 Q97 138 80 138 Q63 138 62 126 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M63 52 Q63 38 74 35" fill="none" stroke="#E4E0FF" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="80" cy="165" r="15" fill="#FFFFFF" stroke="#003478" stroke-width="3"/>
+  <path d="M68 170 Q80 178 92 170" fill="none" stroke="#E4E0FF" stroke-width="4" stroke-linecap="round"/>
+  <!-- pulgar arriba: pulgar, puño, dedos doblados, puño de la manga -->
+  <rect x="124" y="82" width="22" height="52" rx="11" fill="#FFE4C8" stroke="#003478" stroke-width="3"/>
+  <rect x="129" y="87" width="12" height="10" rx="4" fill="#FFF6E6" stroke="#003478" stroke-width="1.8"/>
+  <path d="M132 116 L160 116 Q176 116 176 132 L176 156 Q176 170 162 170 L132 170 Q118 170 118 156 L118 132 Q118 116 132 116 Z" fill="#FFE4C8" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="108" y="119" width="32" height="13" rx="6.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <rect x="108" y="132" width="32" height="13" rx="6.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <rect x="108" y="145" width="32" height="13" rx="6.5" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <rect x="110" y="158" width="30" height="12" rx="6" fill="#FFE4C8" stroke="#003478" stroke-width="2.4"/>
+  <rect x="126" y="166" width="46" height="18" rx="7" fill="#4236F6" stroke="#003478" stroke-width="3"/>
+  <path d="M132 175 L166 175" fill="none" stroke="#8FB6FF" stroke-width="3" stroke-linecap="round"/>
+  <!-- cara en el signo -->
+  <ellipse cx="67" cy="104" rx="4" ry="2.8" fill="#FFCBA0"/>
+  <ellipse cx="93" cy="104" rx="4" ry="2.8" fill="#FFCBA0"/>
+  <use href="#kw-cara-chica" transform="translate(80 96) scale(0.8)"/>
+</svg>

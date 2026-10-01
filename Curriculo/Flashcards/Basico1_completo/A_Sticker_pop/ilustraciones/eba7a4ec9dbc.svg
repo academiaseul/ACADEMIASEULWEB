@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 매일 · todos los días · Estilo A Sticker pop · calendario con todas las casillas marcadas -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="50" width="140" height="136" rx="16"/>
+<rect x="67" y="36" width="14" height="30" rx="7"/>
+<rect x="139" y="36" width="14" height="30" rx="7"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="50" width="140" height="136" rx="16"/>
+<rect x="67" y="36" width="14" height="30" rx="7"/>
+<rect x="139" y="36" width="14" height="30" rx="7"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="50" width="140" height="136" rx="16"/>
+<rect x="67" y="36" width="14" height="30" rx="7"/>
+<rect x="139" y="36" width="14" height="30" rx="7"/>
+</g>
+<!-- hoja del calendario -->
+<rect x="40" y="50" width="140" height="136" rx="16" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cabecera azul -->
+<path d="M40 84 L40 66 Q40 50 56 50 L164 50 Q180 50 180 66 L180 84 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M96 66 L124 66" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round"/>
+<!-- anillas doradas -->
+<rect x="67" y="36" width="14" height="30" rx="7" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<rect x="139" y="36" width="14" height="30" rx="7" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<!-- casillas, todas con su ticket -->
+<rect x="56" y="92" width="22" height="20" rx="5" fill="#F3F6FF" stroke="#B3B8D6" stroke-width="2.5"/>
+<rect x="85" y="92" width="22" height="20" rx="5" fill="#F3F6FF" stroke="#B3B8D6" stroke-width="2.5"/>
+<rect x="114" y="92" width="22" height="20" rx="5" fill="#F3F6FF" stroke="#B3B8D6" stroke-width="2.5"/>
+<rect x="143" y="92" width="22" height="20" rx="5" fill="#F3F6FF" stroke="#B3B8D6" stroke-width="2.5"/>
+<rect x="56" y="118" width="22" height="20" rx="5" fill="#F3F6FF" stroke="#B3B8D6" stroke-width="2.5"/>
+<rect x="85" y="118" width="22" height="20" rx="5" fill="#F3F6FF" stroke="#B3B8D6" stroke-width="2.5"/>
+<rect x="114" y="118" width="22" height="20" rx="5" fill="#F3F6FF" stroke="#B3B8D6" stroke-width="2.5"/>
+<rect x="143" y="118" width="22" height="20" rx="5" fill="#F3F6FF" stroke="#B3B8D6" stroke-width="2.5"/>
+<path d="M61 102 L66 107.5 L74 96" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 102 L95 107.5 L103 96" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M119 102 L124 107.5 L132 96" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M148 102 L153 107.5 L161 96" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M61 128 L66 133.5 L74 122" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 128 L95 133.5 L103 122" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M119 128 L124 133.5 L132 122" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M148 128 L153 133.5 L161 122" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- cara de la casa en (110,156), s = 0.85 -->
+<ellipse cx="98.1" cy="156" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="156" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="153.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="153.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="167.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="167.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 167.05 Q110 177.25 116.8 167.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M24 18 Q26.4 27.6 36 30 Q26.4 32.4 24 42 Q21.6 32.4 12 30 Q21.6 27.6 24 18 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 23 Q199.8 30.2 207 32 Q199.8 33.8 198 41 Q196.2 33.8 189 32 Q196.2 30.2 198 23 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="16" cy="126" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

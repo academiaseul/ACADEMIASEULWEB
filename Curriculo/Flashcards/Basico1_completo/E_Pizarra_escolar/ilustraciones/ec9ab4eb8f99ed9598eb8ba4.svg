@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="운동하다" data-es="hacer ejercicio (운동해요)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 166 C 84 172, 150 172, 200 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- líneas de velocidad detrás -->
+    <path d="M30 70 H52 M22 84 H48 M32 98 H50" stroke-width="2.4" stroke-opacity="0.7"/>
+    <!-- pierna de atrás (doblada hacia atrás) con su zapatilla -->
+    <path d="M100 124 L86 142 L70 134" stroke-width="3.2"/>
+    <g transform="rotate(-40 64 132)">
+      <path d="M56 129 C 58 125, 66 125, 68 128 L76 131 C 80 133, 78 138, 74 138 H58 C 54 138, 53 132, 56 129 Z" fill="#1F3B33"/>
+      <path d="M56 129 C 58 125, 66 125, 68 128 L76 131 C 80 133, 78 138, 74 138 H58 C 54 138, 53 132, 56 129 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    </g>
+    <!-- pierna de adelante con su zapatilla -->
+    <path d="M120 124 L138 138 L134 154" stroke-width="3.2"/>
+    <path d="M128 154 C 130 150, 138 150, 140 153 L148 156 C 152 158, 150 163, 146 163 H130 C 126 163, 125 157, 128 154 Z" fill="#1F3B33"/>
+    <path d="M128 154 C 130 150, 138 150, 140 153 L148 156 C 152 158, 150 163, 146 163 H130 C 126 163, 125 157, 128 154 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- short -->
+    <path d="M94 110 L90 128 H108 L111 120 L114 128 H130 L127 110 Z" fill="#1F3B33"/>
+    <!-- brazo de atrás -->
+    <path d="M106 80 L90 90 L82 102"/>
+    <circle cx="81" cy="105" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- polerón inclinado hacia adelante: capucha, cordones y bolsillo -->
+    <path d="M104 70 C 94 80, 90 98, 92 114 L127 114 C 131 98, 132 82, 130 70 Z" fill="#1F3B33"/>
+    <path d="M104 70 C 94 80, 90 98, 92 114 L127 114 C 131 98, 132 82, 130 70 Z" fill="url(#rt)"/>
+    <path d="M102 72 C 98 62, 104 56, 110 58" stroke-width="2.6"/>
+    <path d="M104 70 C 110 79, 124 79, 130 70" stroke-width="2.4"/>
+    <path d="M113 77 L112 88 M121 77 L122 88" stroke-width="2"/>
+    <circle cx="112" cy="90" r="2" fill="#F3F0E4" stroke="none"/>
+    <circle cx="122" cy="90" r="2" fill="#F3F0E4" stroke="none"/>
+    <path d="M98 108 L102 99 H120 L124 108" stroke-width="2" stroke-opacity="0.75"/>
+    <!-- cabeza -->
+    <circle cx="116" cy="46" r="22" fill="#1F3B33"/>
+    <path d="M94 46 C 92 32, 102 24, 116 24 C 130 24, 140 32, 138 44 C 130 40, 124 36, 120 32 C 114 38, 104 42, 94 46 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(119 52) scale(0.64)"/>
+    <!-- botella de agua en la mano de adelante -->
+    <path d="M128 78 L142 92 L149 84"/>
+    <rect x="149" y="54" width="7" height="6" rx="1.5" stroke-width="2.2"/>
+    <rect x="145" y="60" width="15" height="30" rx="4" fill="#1F3B33"/>
+    <rect x="145" y="60" width="15" height="30" rx="4" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.4"/>
+    <circle cx="149" cy="84" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <!-- gotas de sudor -->
+    <use href="#gota" transform="translate(88 30) scale(0.9)"/>
+    <use href="#gota" transform="translate(146 28) scale(0.8)"/>
+    <use href="#estrella" transform="translate(186 108) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(186 48) scale(0.65)"/>
+    <use href="#estrella" transform="translate(40 136) scale(0.6)"/>
+  </g>
+</svg>

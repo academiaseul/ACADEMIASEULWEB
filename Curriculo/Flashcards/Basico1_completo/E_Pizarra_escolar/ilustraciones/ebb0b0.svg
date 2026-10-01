@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="배" data-es="pera coreana">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 90 172, 150 172, 186 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- cabito largo, sin hoja (así no parece manzana) -->
+    <path d="M110 56 C 110 46, 113 38, 118 30" stroke-width="3.6"/>
+    <!-- la pera: redonda, dorada -->
+    <path d="M110 54 C 128 46, 166 56, 166 100 C 166 134, 142 152, 110 152 C 78 152, 54 134, 54 100 C 54 56, 92 46, 110 54 Z" fill="#1F3B33"/>
+    <path d="M110 54 C 128 46, 166 56, 166 100 C 166 134, 142 152, 110 152 C 78 152, 54 134, 54 100 C 54 56, 92 46, 110 54 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="3"/>
+    <!-- brillo y pintitas de la cáscara -->
+    <path d="M66 86 C 66 72, 74 62, 86 58" stroke-width="2.4" stroke-opacity="0.85"/>
+    <path d="M138 64 l2.4 1 M150 74 l2.4 1 M156 88 l2.4 1 M144 86 l2.4 1 M146 100 l2.4 1 M128 60 l2.4 1 M92 60 l2.4 1 M78 70 l2.4 1 M64 98 l2.4 1 M74 102 l2.4 1" stroke-width="2" stroke-opacity="0.8"/>
+    <use href="#cara" transform="translate(110 84) scale(0.82)"/>
+    <!-- malla protectora blanca: borde ondulado y rombos -->
+    <path d="M152 114.3 Q155.8 117.6 158.5 120 M139 115.7 Q146.8 122.7 153.5 128.6 M126 116.9 Q136.8 126.8 146.5 135.4 M112.5 117.4 Q125.5 129.6 138.5 141.3 M98.5 116.9 Q114.3 132.3 129 145.7 M84.5 116.1 Q101 132.6 117.5 148.1 M70 114.5 Q87.8 132.6 104.5 148.7 M60 117.3 Q73.8 131.4 86.5 144.1 M61.5 120 Q65.3 116.7 68 114.3 M66.5 128.6 Q74.3 121.8 81 115.7 M73.5 135.4 Q84.3 125.9 94 116.9 M81.5 141.3 Q94.5 129.6 107.5 117.4 M91 145.7 Q106.8 131.3 121.5 116.9 M102.5 148.1 Q119 132.6 135.5 116.1 M115.5 148.7 Q133.3 131.6 150 114.5 M133.5 144.1 Q147.3 130.4 160 117.3" stroke-width="2" stroke-opacity="0.9"/>
+    <path d="M58 110.7 Q62 105.3 66 111.9 Q70 106.4 74 112.9 Q78 107.4 82 113.8 Q86 108.1 90 114.4 Q94 108.6 98 114.8 Q102 108.9 106 115 Q110 109 114 115 Q118 108.9 122 114.8 Q126 108.6 130 114.4 Q134 108.1 138 113.8 Q142 107.4 146 112.9 Q150 106.4 154 111.9 Q158 105.3 162 110.7" stroke-width="2.6"/>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(40 44) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(186 70) scale(0.65)"/>
+    <use href="#estrella" transform="translate(190 136) scale(0.65)"/>
+    <use href="#estrella-b" transform="translate(30 128) scale(0.6)"/>
+  </g>
+</svg>

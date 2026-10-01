@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 저기요 · ¡disculpe! · Estilo A Sticker pop · persona que levanta la mano para llamar a alguien -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 112 C40 56 70 38 96 38 C122 38 152 56 142 112 Z"/>
+<ellipse cx="96" cy="100" rx="44" ry="42"/>
+<path d="M38 196 C38 166 64 152 96 152 C128 152 154 166 154 196 Z"/>
+<path d="M134 176 L162 96" fill="none" stroke-width="52"/>
+<ellipse cx="151" cy="84" rx="6" ry="8.5" transform="rotate(-35 151 84)"/>
+<ellipse cx="165" cy="72" rx="14" ry="17" transform="rotate(12 165 72)"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 112 C40 56 70 38 96 38 C122 38 152 56 142 112 Z"/>
+<ellipse cx="96" cy="100" rx="44" ry="42"/>
+<path d="M38 196 C38 166 64 152 96 152 C128 152 154 166 154 196 Z"/>
+<path d="M134 176 L162 96" fill="none" stroke-width="52"/>
+<ellipse cx="151" cy="84" rx="6" ry="8.5" transform="rotate(-35 151 84)"/>
+<ellipse cx="165" cy="72" rx="14" ry="17" transform="rotate(12 165 72)"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 112 C40 56 70 38 96 38 C122 38 152 56 142 112 Z"/>
+<ellipse cx="96" cy="100" rx="44" ry="42"/>
+<path d="M38 196 C38 166 64 152 96 152 C128 152 154 166 154 196 Z"/>
+<path d="M134 176 L162 96" fill="none" stroke-width="45"/>
+<ellipse cx="151" cy="84" rx="6" ry="8.5" transform="rotate(-35 151 84)"/>
+<ellipse cx="165" cy="72" rx="14" ry="17" transform="rotate(12 165 72)"/>
+</g>
+<!-- pelo de atrás (corto, negro) -->
+<path d="M50 112 C40 56 70 38 96 38 C122 38 152 56 142 112 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- torso: chaleco azul, cuello, cuello blanco -->
+<path d="M38 196 C38 166 64 152 96 152 C128 152 154 166 154 196 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- brazo levantado -->
+<path d="M134 176 L162 96" stroke="#14142B" stroke-width="32" stroke-linecap="round"/>
+<path d="M134 176 L162 96" stroke="#4236F6" stroke-width="24" stroke-linecap="round"/>
+<path d="M84 132 L84 154 Q96 162 108 154 L108 132 Z" fill="#F3C39A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M80 154 Q96 170 112 154 Q96 162 80 154 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- cabeza -->
+<ellipse cx="96" cy="100" rx="44" ry="42" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M52 104 C48 66 70 48 96 48 C122 48 144 66 140 104 C136 90 128 80 118 76 C108 84 88 86 74 80 C64 86 56 94 52 104 Z" fill="#14142B"/>
+<path d="M140 104 C136 90 128 80 118 76 C108 84 88 86 74 80 C64 86 56 94 52 104" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68 56 Q80 47 94 47" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- mano en alto (mitón con pulgar) -->
+<ellipse cx="151" cy="84" rx="6" ry="8.5" transform="rotate(-35 151 84)" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="165" cy="72" rx="14" ry="17" transform="rotate(12 165 72)" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M163 57 L162.5 63" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M171 58 L169.8 64" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- líneas de "¡hola, aquí!" -->
+<path d="M150 36 L146 27" stroke="#14142B" stroke-width="11" stroke-linecap="round"/>
+<path d="M150 36 L146 27" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M168 32 L169 21" stroke="#14142B" stroke-width="11" stroke-linecap="round"/>
+<path d="M168 32 L169 21" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M186 38 L194 29" stroke="#14142B" stroke-width="11" stroke-linecap="round"/>
+<path d="M186 38 L194 29" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<!-- cara -->
+<ellipse cx="84.1" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="107.9" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="85.97" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="109.77" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="73.9" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="118.1" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M89.2 121.05 Q96 131.25 102.8 121.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M26 18 Q28.4 27.6 38 30 Q28.4 32.4 26 42 Q23.6 32.4 14 30 Q23.6 27.6 26 18 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M22 141 Q23.8 148.2 31 150 Q23.8 151.8 22 159 Q20.2 151.8 13 150 Q20.2 148.2 22 141 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="130" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

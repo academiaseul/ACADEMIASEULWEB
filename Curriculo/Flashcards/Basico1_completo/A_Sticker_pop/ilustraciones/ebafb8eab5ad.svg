@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 미국 · Estados Unidos · Estilo A Sticker pop · Estatua de la Libertad verde, con antorcha (sin bandera) -->
+<!-- silueta: brazo + antorcha + rayos de la corona + cabeza + torso -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M100 168 L62 104" fill="none" stroke-width="48"/>
+<path d="M58 56 C46 52 46 38 54 28 C56 36 60 36 60 30 C68 36 72 48 58 56 Z"/>
+<path d="M42 68 L74 68 L68 56 L48 56 Z"/>
+<path d="M51 102 L65 102 L64 68 L52 68 Z"/>
+<ellipse cx="58" cy="100" rx="11" ry="10"/>
+<path d="M105.27 91.37 L76.04 82 L98.77 102.63 Z"/>
+<path d="M113.7 84.84 L89.43 66.04 L103.74 93.2 Z"/>
+<path d="M123.85 81.59 L107.48 55.62 L111.63 86.03 Z"/>
+<path d="M134.5 82 L128 52 L121.5 82 Z"/>
+<path d="M144.37 86.03 L148.52 55.62 L132.15 81.59 Z"/>
+<path d="M152.26 93.2 L166.57 66.04 L142.3 84.84 Z"/>
+<path d="M157.23 102.63 L179.96 82 L150.73 91.37 Z"/>
+<ellipse cx="128" cy="112" rx="34" ry="34"/>
+<path d="M84 196 C84 168 102 152 128 152 C154 152 172 168 172 196 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M100 168 L62 104" fill="none" stroke-width="48"/>
+<path d="M58 56 C46 52 46 38 54 28 C56 36 60 36 60 30 C68 36 72 48 58 56 Z"/>
+<path d="M42 68 L74 68 L68 56 L48 56 Z"/>
+<path d="M51 102 L65 102 L64 68 L52 68 Z"/>
+<ellipse cx="58" cy="100" rx="11" ry="10"/>
+<path d="M105.27 91.37 L76.04 82 L98.77 102.63 Z"/>
+<path d="M113.7 84.84 L89.43 66.04 L103.74 93.2 Z"/>
+<path d="M123.85 81.59 L107.48 55.62 L111.63 86.03 Z"/>
+<path d="M134.5 82 L128 52 L121.5 82 Z"/>
+<path d="M144.37 86.03 L148.52 55.62 L132.15 81.59 Z"/>
+<path d="M152.26 93.2 L166.57 66.04 L142.3 84.84 Z"/>
+<path d="M157.23 102.63 L179.96 82 L150.73 91.37 Z"/>
+<ellipse cx="128" cy="112" rx="34" ry="34"/>
+<path d="M84 196 C84 168 102 152 128 152 C154 152 172 168 172 196 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M100 168 L62 104" fill="none" stroke-width="41"/>
+<path d="M58 56 C46 52 46 38 54 28 C56 36 60 36 60 30 C68 36 72 48 58 56 Z"/>
+<path d="M42 68 L74 68 L68 56 L48 56 Z"/>
+<path d="M51 102 L65 102 L64 68 L52 68 Z"/>
+<ellipse cx="58" cy="100" rx="11" ry="10"/>
+<path d="M105.27 91.37 L76.04 82 L98.77 102.63 Z"/>
+<path d="M113.7 84.84 L89.43 66.04 L103.74 93.2 Z"/>
+<path d="M123.85 81.59 L107.48 55.62 L111.63 86.03 Z"/>
+<path d="M134.5 82 L128 52 L121.5 82 Z"/>
+<path d="M144.37 86.03 L148.52 55.62 L132.15 81.59 Z"/>
+<path d="M152.26 93.2 L166.57 66.04 L142.3 84.84 Z"/>
+<path d="M157.23 102.63 L179.96 82 L150.73 91.37 Z"/>
+<ellipse cx="128" cy="112" rx="34" ry="34"/>
+<path d="M84 196 C84 168 102 152 128 152 C154 152 172 168 172 196 Z"/>
+</g>
+<!-- túnica (verde cobre) con pliegue cruzado -->
+<path d="M84 196 C84 168 102 152 128 152 C154 152 172 168 172 196 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M100 162 Q130 180 166 176" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M120 176 Q124 186 120 194" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M146 180 Q144 188 148 194" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M116 136 L116 156 Q128 162 140 156 L140 136 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- brazo en alto con la antorcha -->
+<path d="M100 168 L62 104" fill="none" stroke="#14142B" stroke-width="28" stroke-linecap="round"/>
+<path d="M100 168 L62 104" fill="none" stroke="#6FCFAE" stroke-width="20" stroke-linecap="round"/>
+<path d="M51 102 L65 102 L64 68 L52 68 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M42 68 L74 68 L68 56 L48 56 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M58 56 C46 52 46 38 54 28 C56 36 60 36 60 30 C68 36 72 48 58 56 Z" fill="#FFD95E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M58 52 C53 49 53 43 57 39 C59 43 62 45 62 42 C64 46 63 50 58 52 Z" fill="#E8B84B"/>
+<ellipse cx="58" cy="100" rx="11" ry="10" fill="#8FE3C6" stroke="#14142B" stroke-width="4"/>
+<path d="M52 98 L64 98" stroke="#2F8F57" stroke-width="2.5" stroke-linecap="round"/>
+<!-- rayos de la corona (detrás de la cabeza) -->
+<path d="M105.27 91.37 L76.04 82 L98.77 102.63 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M113.7 84.84 L89.43 66.04 L103.74 93.2 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M123.85 81.59 L107.48 55.62 L111.63 86.03 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M134.5 82 L128 52 L121.5 82 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M144.37 86.03 L148.52 55.62 L132.15 81.59 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M152.26 93.2 L166.57 66.04 L142.3 84.84 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M157.23 102.63 L179.96 82 L150.73 91.37 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cabeza -->
+<ellipse cx="128" cy="112" rx="34" ry="34" fill="#8FE3C6" stroke="#14142B" stroke-width="4"/>
+<!-- banda de la corona con ventanitas -->
+<path d="M94 112 C92 86 108 76 128 76 C148 76 164 86 162 112 C154 100 142 94 128 94 C114 94 102 100 94 112 Z" fill="#6FCFAE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="105" y="85" width="6" height="6" rx="1.5" fill="#2F8F57"/>
+<rect x="125" y="81" width="6" height="6" rx="1.5" fill="#2F8F57"/>
+<rect x="145" y="85" width="6" height="6" rx="1.5" fill="#2F8F57"/>
+<!-- cara de la casa (128,120) s=0.85 -->
+<ellipse cx="116.1" cy="120" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="139.9" cy="120" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="117.97" cy="117.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="141.77" cy="117.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="105.9" cy="131.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="150.1" cy="131.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M121.2 131.05 Q128 141.25 134.8 131.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M194 19 Q196.2 27.8 205 30 Q196.2 32.2 194 41 Q191.8 32.2 183 30 Q191.8 27.8 194 19 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M98 20 Q99.6 26.4 106 28 Q99.6 29.6 98 36 Q96.4 29.6 90 28 Q96.4 26.4 98 20 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 177 Q31.8 184.2 39 186 Q31.8 187.8 30 195 Q28.2 187.8 21 186 Q28.2 184.2 30 177 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="32" cy="146" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

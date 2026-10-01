@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="사과" data-es="manzana">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 88 172, 150 172, 190 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- manzana dorada (nunca roja) -->
+    <path d="M110 60 C 98 46, 64 46, 58 80 C 52 114, 78 156, 98 156 C 104 156, 106 152, 110 152 C 114 152, 116 156, 122 156 C 142 156, 168 114, 162 80 C 156 46, 122 46, 110 60 Z" fill="#1F3B33"/>
+    <path d="M110 60 C 98 46, 64 46, 58 80 C 52 114, 78 156, 98 156 C 104 156, 106 152, 110 152 C 114 152, 116 156, 122 156 C 142 156, 168 114, 162 80 C 156 46, 122 46, 110 60 Z" fill="url(#rd)"/>
+    <!-- brillo -->
+    <path d="M72 86 C 72 76, 77 68, 86 63" stroke-width="2.6"/>
+    <circle cx="70" cy="96" r="2.2" fill="#F3F0E4" stroke="none"/>
+    <!-- tallo y hoja menta -->
+    <path d="M110 60 C 109 50, 111 42, 115 34" stroke-width="3.4"/>
+    <path d="M114 42 C 122 28, 142 26, 152 32 C 144 44, 126 50, 114 42 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.6"/>
+    <path d="M119 41 C 128 37, 138 34, 147 33" stroke="#9ED9B0" stroke-width="1.8"/>
+    <use href="#cara" transform="translate(110 108)"/>
+    <use href="#estrella" transform="translate(40 48) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(184 62) scale(0.7)"/>
+    <use href="#estrella" transform="translate(186 134) scale(0.65)"/>
+    <use href="#estrella-b" transform="translate(34 132) scale(0.6)"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="텔레비전" data-es="televisor">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 166 C 80 172, 150 172, 204 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- mueble bajo: tapa, frente y costado -->
+    <path d="M30 130 L38 122 H198 L190 130 Z" fill="url(#rt)"/>
+    <path d="M30 130 H190 V156 H30 Z" fill="#1F3B33"/>
+    <path d="M190 130 L198 122 V148 L190 156 Z" fill="url(#rt)"/>
+    <path d="M36 135 H107 V151 H36 Z M113 135 H184 V151 H113 Z" stroke-width="2.4"/>
+    <circle cx="101" cy="143" r="2.6" fill="#E8B84B" stroke="none"/>
+    <circle cx="119" cy="143" r="2.6" fill="#E8B84B" stroke="none"/>
+    <path d="M38 156 V162 M182 156 V162" stroke-width="3.6"/>
+    <!-- pie del televisor -->
+    <path d="M104 106 H116 V122 H104 Z" fill="url(#rt)" stroke-width="2.6"/>
+    <ellipse cx="110" cy="123" rx="22" ry="3.6" fill="#1F3B33" stroke-width="2.6"/>
+    <!-- pantalla plana: marco con trama y pantalla oscura con cara -->
+    <path d="M46 26 H174 C 178 26, 180 28, 180 32 V106 C 180 110, 178 112, 174 112 H46 C 42 112, 40 110, 40 106 V32 C 40 28, 42 26, 46 26 Z" fill="#1F3B33"/>
+    <path d="M46 26 H174 C 178 26, 180 28, 180 32 V106 C 180 110, 178 112, 174 112 H46 C 42 112, 40 110, 40 106 V32 C 40 28, 42 26, 46 26 Z" fill="url(#rt)"/>
+    <path d="M49 35 H171 V103 H49 Z" fill="#1F3B33" stroke-width="2.4"/>
+    <path d="M150 40 L166 56 M158 40 L166 48" stroke="#9FCBEF" stroke-width="2.2" stroke-opacity="0.85"/>
+    <use href="#cara" transform="translate(110 64)"/>
+    <circle cx="170" cy="107.5" r="1.8" fill="#E8B84B" stroke="none"/>
+    <use href="#nota" transform="translate(200 66) scale(0.75)"/>
+    <use href="#estrella" transform="translate(22 50) scale(0.75)"/>
+    <use href="#estrella-b" transform="translate(20 104) scale(0.55)"/>
+  </g>
+</svg>

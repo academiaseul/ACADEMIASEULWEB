@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="친구" data-es="amigo, amiga">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 166 C 80 172, 150 172, 196 163" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- chispazo dorado del choque de manos -->
+    <path d="M110 43 V31 M101 45 L94 37 M119 45 L126 37" stroke="#E8B84B" stroke-width="2.8"/>
+    <use href="#estrella" transform="translate(110 18) scale(0.6)"/>
+    <!-- amigo 1: polera a rayas -->
+    <path d="M52 106 C 40 118, 36 140, 34 162 L94 162 C 92 140, 88 118, 76 106 Z" fill="#1F3B33"/>
+    <path d="M52 106 C 40 118, 36 140, 34 162 L94 162 C 92 140, 88 118, 76 106 Z" fill="url(#rt)"/>
+    <path d="M56 107 Q64 114 72 107" stroke-width="2.2"/>
+    <path d="M39 136 C 52 140, 76 140, 91 136 M37 150 C 52 154, 78 154, 93 150" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M50 114 C 42 124, 40 138, 42 148"/>
+    <circle cx="42" cy="151" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M78 112 C 92 104, 100 80, 104 60"/>
+    <circle cx="64" cy="82" r="23" fill="#1F3B33"/>
+    <path d="M40 82 C 38 65, 50 55, 65 55 C 79 55, 90 65, 88 82 C 82 77, 73 73, 67 67 C 62 73, 53 77, 40 82 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(64 91) scale(0.64)"/>
+    <!-- amiga 2: cola de caballo -->
+    <path d="M174 72 C 188 72, 194 88, 190 104 C 188 110, 184 112, 182 112 C 186 100, 184 86, 172 80 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M144 106 C 132 118, 128 140, 126 162 L186 162 C 184 140, 180 118, 168 106 Z" fill="#1F3B33"/>
+    <path d="M144 106 C 132 118, 128 140, 126 162 L186 162 C 184 140, 180 118, 168 106 Z" fill="url(#rt)"/>
+    <path d="M150 107 L156 116 L162 107" stroke-width="2.2"/>
+    <path d="M170 114 C 178 124, 180 138, 178 148"/>
+    <circle cx="178" cy="151" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M142 112 C 128 104, 120 80, 116 60"/>
+    <circle cx="156" cy="82" r="23" fill="#1F3B33"/>
+    <path d="M133 82 C 134 66, 145 59, 156 59 C 168 59, 179 66, 179 82 C 170 78, 162 72, 158 65 C 152 73, 143 78, 133 82 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="175" cy="70" r="2.8" fill="#E8B84B" stroke="none"/>
+    <use href="#cara-feliz" transform="translate(156 91) scale(0.64)"/>
+    <!-- las dos palmas que chocan -->
+    <ellipse cx="104" cy="54" rx="5" ry="6.5" fill="#F3F0E4" stroke="none"/>
+    <ellipse cx="116" cy="54" rx="5" ry="6.5" fill="#F3F0E4" stroke="none"/>
+    <!-- adornos -->
+    <use href="#estrella-b" transform="translate(28 36) scale(0.7)"/>
+    <use href="#corazon" transform="translate(196 34) scale(0.75)"/>
+  </g>
+</svg>

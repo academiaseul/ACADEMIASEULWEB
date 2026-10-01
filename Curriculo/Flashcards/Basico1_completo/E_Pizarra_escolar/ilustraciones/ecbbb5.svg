@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="컵" data-es="taza, vaso">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 166 C 88 172, 150 172, 196 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- asa dorada -->
+    <path d="M146 80 C 182 76, 184 130, 146 128 L 146 114 C 166 114, 168 94, 146 94 Z" fill="#1F3B33"/>
+    <path d="M146 80 C 182 76, 184 130, 146 128 L 146 114 C 166 114, 168 94, 146 94 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- cuerpo de cerámica -->
+    <path d="M62 60 V146 C 62 160, 150 160, 150 146 V60 Z" fill="#1F3B33"/>
+    <path d="M62 60 V146 C 62 160, 150 160, 150 146 V60" fill="url(#rt)"/>
+    <path d="M72 80 V124" stroke-width="2.2" stroke-opacity="0.6"/>
+    <!-- boca: vacía y oscura por dentro -->
+    <ellipse cx="106" cy="60" rx="44" ry="10" fill="#1F3B33"/>
+    <path d="M68 62 C 88 70, 124 70, 144 62" stroke-width="1.8" stroke-opacity="0.6"/>
+    <use href="#cara" transform="translate(106 106)"/>
+    <use href="#estrella-b" transform="translate(164 38) scale(0.7)"/>
+    <use href="#estrella" transform="translate(36 50) scale(0.85)"/>
+    <use href="#estrella" transform="translate(190 150) scale(0.6)"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="한국 음식" data-es="comida coreana">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 167 C 74 173, 150 173, 206 163" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- mesa baja: cubierta, canto y patas -->
+    <path d="M14 136 L38 92 H182 L206 136 Z" fill="#1F3B33"/>
+    <path d="M14 136 L38 92 H182 L206 136 Z" fill="url(#rt)"/>
+    <path d="M14 136 H206 V145 H14 Z" fill="#1F3B33"/>
+    <path d="M14 136 H206 V145 H14 Z" fill="url(#rt)"/>
+    <path d="M26 145 C 26 152, 24 158, 20 163 M194 145 C 194 152, 196 158, 200 163" stroke-width="3.6"/>
+    <!-- platito de kimchi (hojas de repollo, sin rojo) -->
+    <ellipse cx="94" cy="99" rx="16" ry="5" fill="#1F3B33" stroke-width="2.4"/>
+    <path d="M81 98 C 79 89, 86 84, 92 87 C 96 82, 106 84, 108 92 C 109 95, 108 97, 106 98 Z" fill="url(#rm)" stroke="#9ED9B0" stroke-width="2.2"/>
+    <path d="M87 95 C 89 91, 92 90, 95 91 M97 96 C 99 92, 102 91, 105 93" stroke-width="1.8" stroke-opacity="0.8"/>
+    <!-- platito de tortilla enrollada (dorada) -->
+    <ellipse cx="152" cy="99" rx="16" ry="5" fill="#1F3B33" stroke-width="2.4"/>
+    <circle cx="144" cy="93" r="5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2"/>
+    <circle cx="152" cy="92" r="5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2"/>
+    <circle cx="160" cy="93" r="5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2"/>
+    <!-- sopa con vapor -->
+    <path d="M114 98 C 110 92, 118 88, 114 82 M124 96 C 120 88, 128 84, 124 76 M134 98 C 130 92, 138 88, 134 82" stroke-width="2.4" stroke-opacity="0.85"/>
+    <path d="M98 110 C 100 126, 110 134, 124 134 C 138 134, 148 126, 150 110 Z" fill="#1F3B33"/>
+    <path d="M98 110 C 100 126, 110 134, 124 134 C 138 134, 148 126, 150 110 Z" fill="url(#rt)"/>
+    <ellipse cx="124" cy="110" rx="26" ry="6" fill="#1F3B33"/>
+    <ellipse cx="124" cy="110" rx="22" ry="3.8" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.2"/>
+    <!-- tazón de arroz con cara (protagonista) -->
+    <path d="M42 108 C 42 82, 84 82, 84 108 Z" fill="#1F3B33"/>
+    <path d="M42 108 C 42 82, 84 82, 84 108 Z" fill="url(#rb)"/>
+    <path d="M40 106 C 40 124, 50 134, 62 134 C 74 134, 84 124, 84 106 Z" fill="#1F3B33"/>
+    <path d="M40 106 C 40 124, 50 134, 62 134 C 74 134, 84 124, 84 106 Z" fill="url(#rt)"/>
+    <use href="#cara" transform="translate(62 114) scale(0.62)"/>
+    <!-- cuchara y palillos dorados -->
+    <path d="M160 130 L172 108" stroke="#E8B84B" stroke-width="3"/>
+    <g transform="rotate(28 175 102)"><ellipse cx="175" cy="102" rx="4.4" ry="6.5" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/></g>
+    <path d="M170 132 L183 106 M176 133 L188 108" stroke="#E8B84B" stroke-width="2.6"/>
+    <use href="#estrella" transform="translate(30 40) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(190 38) scale(0.65)"/>
+    <use href="#estrella" transform="translate(162 54) scale(0.6)"/>
+  </g>
+</svg>

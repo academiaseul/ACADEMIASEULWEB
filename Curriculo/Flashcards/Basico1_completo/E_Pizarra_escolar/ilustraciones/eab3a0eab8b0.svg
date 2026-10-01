@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="고기" data-es="carne">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- plato -->
+    <ellipse cx="108" cy="150" rx="80" ry="15" fill="#1F3B33"/>
+    <ellipse cx="108" cy="150" rx="80" ry="15" fill="url(#rt)"/>
+    <ellipse cx="108" cy="149" rx="60" ry="9" stroke-width="2" stroke-opacity="0.7"/>
+    <!-- vapor -->
+    <path d="M88 52 C 82 45, 93 39, 87 30 M106 48 C 100 41, 111 35, 105 26 M124 52 C 118 45, 129 39, 123 30" stroke-width="2.2" stroke-opacity="0.85"/>
+    <!-- carne de caricatura atravesada por el hueso -->
+    <g transform="rotate(-20 104 106)">
+      <path d="M42 100 L166 100 A 7.5 7.5 0 1 1 173 106 A 7.5 7.5 0 1 1 166 112 L42 112 A 7.5 7.5 0 1 1 35 106 A 7.5 7.5 0 1 1 42 100 Z" fill="#1F3B33"/>
+      <path d="M42 100 L166 100 A 7.5 7.5 0 1 1 173 106 A 7.5 7.5 0 1 1 166 112 L42 112 A 7.5 7.5 0 1 1 35 106 A 7.5 7.5 0 1 1 42 100 Z" fill="url(#rb)"/>
+      <path d="M58 106 C 58 82, 78 70, 104 70 C 130 70, 150 82, 150 106 C 150 130, 130 142, 104 142 C 78 142, 58 130, 58 106 Z" fill="#1F3B33"/>
+      <path d="M58 106 C 58 82, 78 70, 104 70 C 130 70, 150 82, 150 106 C 150 130, 130 142, 104 142 C 78 142, 58 130, 58 106 Z" fill="url(#rd)"/>
+      <path d="M70 90 C 76 81, 88 76, 100 75" stroke-width="2.2" stroke-opacity="0.85"/>
+    </g>
+    <use href="#cara" transform="translate(104 110)"/>
+    <use href="#estrella" transform="translate(34 62) scale(0.9)"/>
+    <use href="#estrella-b" transform="translate(190 44) scale(0.7)"/>
+    <use href="#estrella" transform="translate(198 122) scale(0.6)"/>
+  </g>
+</svg>

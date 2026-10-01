@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 요 · colchón delgado del suelo — 요 extendido con 베개 (almohada con 베갯모 azules) e 이불 doblado -->
+  <use href="#kw-brillo" transform="translate(36 50) scale(11)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(98 46) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(204 108) scale(5.5)" fill="#FFFFFF"/>
+  <circle cx="22" cy="110" r="3" fill="#FFFFFF"/>
+  <circle cx="200" cy="48" r="2.5" fill="#E8B84B"/>
+  <circle cx="150" cy="44" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="185" rx="84" ry="7" fill="#D2CBFA"/>
+  <!-- cara de arriba del colchón (tela blanca con lunares) -->
+  <path d="M58 112 L162 112 Q168 112 171 118 L190 150 L30 150 L49 118 Q52 112 58 112 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M51 141 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0 M75 143 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0 M101 135 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0 M107 145 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0 M135 144 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0 M163 143 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0" fill="#8CCBF6"/>
+  <!-- canto delgado del colchón: relleno, sombra ondulada, contorno -->
+  <path d="M30 150 L190 150 L190 168 Q190 176 182 176 L38 176 Q30 176 30 168 Z" fill="#8CCBF6"/>
+  <path d="M30 167 Q40 162 50 167 T70 167 T90 167 T110 167 T130 167 T150 167 T170 167 T190 167 L190 168 Q190 176 182 176 L38 176 Q30 176 30 168 Z" fill="#6FB8EE"/>
+  <path d="M30 150 L190 150 L190 168 Q190 176 182 176 L38 176 Q30 176 30 168 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- almohada (베개) con tapas azules a los lados -->
+  <rect x="48" y="96" width="58" height="32" rx="15" fill="#FFF6E6" stroke="#003478" stroke-width="3"/>
+  <path d="M62 103 Q76 99 90 101" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="50" cy="112" rx="7" ry="15" fill="#4236F6" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="104" cy="112" rx="7" ry="15" fill="#4236F6" stroke="#003478" stroke-width="2.6"/>
+  <!-- cobija (이불) doblada en tres -->
+  <rect x="112" y="118" width="72" height="18" rx="9" fill="#7FD0B0" stroke="#003478" stroke-width="3"/>
+  <rect x="114" y="101" width="68" height="18" rx="9" fill="#7FD0B0" stroke="#003478" stroke-width="3"/>
+  <rect x="116" y="84" width="64" height="18" rx="9" fill="#A6DEC4" stroke="#003478" stroke-width="3"/>
+  <path d="M126 93 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M146 92 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M164 94 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M128 110 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M150 111 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M170 110 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M122 127 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M144 128 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0 M166 127 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0" fill="#FFFFFF"/>
+  <!-- cara dormida en el canto del colchón -->
+  <use href="#kw-cara-dormida" transform="translate(110 158) scale(0.8)"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 노래 · canción · Estilo A Sticker pop · persona cantando con micrófono (ojos cerrados de gusto) y notas musicales doradas -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M56 108 C50 60 74 40 98 40 C122 40 146 60 140 108 Z"/>
+<ellipse cx="98" cy="98" rx="44" ry="42"/>
+<path d="M38 196 C38 166 64 150 98 150 C132 150 158 166 158 196 Z"/>
+<path d="M138 146 L152 176" fill="none" stroke-width="36"/>
+<circle cx="134" cy="138" r="10"/>
+<ellipse cx="148" cy="166" rx="11" ry="12"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M56 108 C50 60 74 40 98 40 C122 40 146 60 140 108 Z"/>
+<ellipse cx="98" cy="98" rx="44" ry="42"/>
+<path d="M38 196 C38 166 64 150 98 150 C132 150 158 166 158 196 Z"/>
+<path d="M138 146 L152 176" fill="none" stroke-width="36"/>
+<circle cx="134" cy="138" r="10"/>
+<ellipse cx="148" cy="166" rx="11" ry="12"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M56 108 C50 60 74 40 98 40 C122 40 146 60 140 108 Z"/>
+<ellipse cx="98" cy="98" rx="44" ry="42"/>
+<path d="M38 196 C38 166 64 150 98 150 C132 150 158 166 158 196 Z"/>
+<path d="M138 146 L152 176" fill="none" stroke-width="29"/>
+<circle cx="134" cy="138" r="10"/>
+<ellipse cx="148" cy="166" rx="11" ry="12"/>
+</g>
+<!-- torso: polera menta con cuello en V -->
+<path d="M38 196 C38 166 64 150 98 150 C132 150 158 166 158 196 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="86" y="130" width="24" height="22" fill="#C98A5E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M84 151 Q98 168 112 151 Z" fill="#C98A5E" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- pelo de atrás, orejas, cabeza (piel morena) -->
+<path d="M56 108 C50 60 74 40 98 40 C122 40 146 60 140 108 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="55" cy="106" rx="7" ry="9" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="141" cy="106" rx="7" ry="9" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="98" cy="98" rx="44" ry="42" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<!-- flequillo recto: relleno sin borde + canto de abajo -->
+<path d="M56 100 C52 60 76 44 98 44 C120 44 144 60 140 100 Q136 84 128 80 Q119 86 110 80 Q101 86 92 80 Q83 86 74 80 Q62 84 56 100 Z" fill="#14142B"/>
+<path d="M140 100 Q136 84 128 80 Q119 86 110 80 Q101 86 92 80 Q83 86 74 80 Q62 84 56 100" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M76 56 Q88 50 100 51" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- cara cantando: ojos cerrados (s = 0,85) y boca abierta -->
+<path d="M81 108 Q86.1 102.9 91.2 108" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<path d="M104.8 108 Q109.9 102.9 115 108" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<ellipse cx="75.9" cy="119.9" rx="5.95" ry="3.82" fill="#FFB98A"/>
+<ellipse cx="120.1" cy="119.9" rx="5.95" ry="3.82" fill="#FFB98A"/>
+<path d="M90 120 Q98 134 106 120 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- micrófono (mango w = 8) -->
+<path d="M138 146 L152 176" fill="none" stroke="#14142B" stroke-width="16" stroke-linecap="round"/>
+<path d="M138 146 L152 176" fill="none" stroke="#5E6280" stroke-width="8" stroke-linecap="round"/>
+<circle cx="134" cy="138" r="10" fill="#E3E6F2" stroke="#14142B" stroke-width="4"/>
+<path d="M127 135 L141 135" stroke="#8A8FA8" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M127 141 L141 141" stroke="#8A8FA8" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M134 130 L134 146" stroke="#8A8FA8" stroke-width="2.5" stroke-linecap="round"/>
+<!-- mano (mitón) -->
+<ellipse cx="148" cy="166" rx="11" ry="12" transform="rotate(-20 148 166)" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<path d="M141 163 L148 161" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- notas musicales doradas -->
+<ellipse cx="172" cy="104" rx="9" ry="7" transform="rotate(-20 172 104)" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<path d="M180 101 L180 66" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M180 66 Q192 70 194 84 Q188 76 180 76 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<ellipse cx="168" cy="58" rx="8" ry="6" transform="rotate(-20 168 58)" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<ellipse cx="194" cy="50" rx="8" ry="6" transform="rotate(-20 194 50)" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<path d="M175 56 L175 30" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M201 48 L201 22" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<path d="M175 30 L201 22 L201 30 L175 38 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M24 29 Q26.2 37.8 35 40 Q26.2 42.2 24 51 Q21.8 42.2 13 40 Q21.8 37.8 24 29 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 132 Q197.6 138.4 204 140 Q197.6 141.6 196 148 Q194.4 141.6 188 140 Q194.4 138.4 196 132 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="24" cy="122" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

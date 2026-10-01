@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="공책" data-es="cuaderno">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 168 C 80 174, 150 174, 194 164" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- tapa dorada que asoma por los bordes -->
+    <rect x="28" y="40" width="164" height="114" rx="4" fill="#1F3B33" stroke="none"/>
+    <rect x="28" y="40" width="164" height="114" rx="4" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- hojas -->
+    <rect x="34" y="44" width="72" height="104" rx="2" fill="#1F3B33"/>
+    <rect x="114" y="44" width="72" height="104" rx="2" fill="#1F3B33"/>
+    <!-- líneas -->
+    <path d="M42 60 H98 M42 72 H98 M42 132 H98" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M122 60 H178 M122 72 H178 M122 84 H178 M122 96 H178 M122 108 H178 M122 120 H178 M122 132 H178" stroke-width="2" stroke-opacity="0.75"/>
+    <use href="#cara" transform="translate(70 101) scale(0.85)"/>
+    <!-- espiral -->
+    <ellipse cx="110" cy="54" rx="8" ry="3.4" stroke-width="2.4"/>
+    <ellipse cx="110" cy="66" rx="8" ry="3.4" stroke-width="2.4"/>
+    <ellipse cx="110" cy="78" rx="8" ry="3.4" stroke-width="2.4"/>
+    <ellipse cx="110" cy="90" rx="8" ry="3.4" stroke-width="2.4"/>
+    <ellipse cx="110" cy="102" rx="8" ry="3.4" stroke-width="2.4"/>
+    <ellipse cx="110" cy="114" rx="8" ry="3.4" stroke-width="2.4"/>
+    <ellipse cx="110" cy="126" rx="8" ry="3.4" stroke-width="2.4"/>
+    <ellipse cx="110" cy="138" rx="8" ry="3.4" stroke-width="2.4"/>
+    <!-- lápiz -->
+    <g transform="rotate(-35 170 136)">
+      <path d="M146 131 H186 V141 H146 Z" fill="#1F3B33" stroke="none"/>
+      <path d="M146 131 H186 V141 H146 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <path d="M186 131 L198 136 L186 141 Z" fill="#1F3B33" stroke-width="2.2"/>
+      <path d="M138 131 H146 V141 H138 Z" fill="#1F3B33" stroke-width="2.2"/>
+      <path d="M138 131 H146 V141 H138 Z" fill="url(#rt)" stroke="none"/>
+    </g>
+    <use href="#estrella" transform="translate(22 24) scale(0.7)"/>
+    <use href="#estrella-b" transform="translate(198 24) scale(0.6)"/>
+  </g>
+</svg>

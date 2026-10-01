@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="병원" data-es="hospital">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 165 C 74 172, 150 172, 204 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- edificio del hospital -->
+    <path d="M28 162 V38 H124 V162"/>
+    <path d="M22 38 H130" stroke-width="3.4"/>
+    <!-- emblema con la cruz dorada (nunca roja) -->
+    <circle cx="76" cy="60" r="17" fill="#1F3B33" stroke-width="2.8"/>
+    <path d="M71 47 H81 V55 H89 V65 H81 V73 H71 V65 H63 V55 H71 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- ventanas a los lados y cara en la fachada -->
+    <rect x="36" y="88" width="16" height="14" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="100" y="88" width="16" height="14" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="36" y="114" width="16" height="14" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <rect x="100" y="114" width="16" height="14" rx="1.5" fill="url(#ra)" stroke-width="2.2"/>
+    <use href="#cara" transform="translate(76 100) scale(0.72)"/>
+    <!-- puerta de vidrio -->
+    <rect x="62" y="130" width="28" height="32" fill="url(#ra)" stroke-width="2.6"/>
+    <path d="M76 130 V162" stroke-width="2.2"/>
+    <!-- ambulancia: caja, cabina, luz celeste en el techo, ruedas -->
+    <path d="M140 108 C 140 101, 154 101, 154 108 Z" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.4"/>
+    <path d="M136 98 L132 94 M147 96 V90 M158 98 L162 94" stroke="#9FCBEF" stroke-width="2.2"/>
+    <path d="M178 120 H190 L202 134 V150 C 202 152, 200 154, 198 154 H178 Z" fill="#1F3B33"/>
+    <path d="M178 120 H190 L202 134 V150 C 202 152, 200 154, 198 154 H178 Z" fill="url(#rt)"/>
+    <path d="M182 124 H188.5 L197 134 H182 Z" fill="#1F3B33" stroke-width="2.2"/>
+    <path d="M182 124 H188.5 L197 134 H182 Z" fill="url(#ra)" stroke="none"/>
+    <rect x="130" y="108" width="50" height="46" rx="4" fill="#1F3B33"/>
+    <path d="M150 117 H158 V126 H167 V134 H158 V143 H150 V134 H141 V126 H150 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="146" cy="155" r="8" fill="#1F3B33"/>
+    <circle cx="146" cy="155" r="2.4" fill="#F3F0E4" stroke="none"/>
+    <circle cx="188" cy="155" r="8" fill="#1F3B33"/>
+    <circle cx="188" cy="155" r="2.4" fill="#F3F0E4" stroke="none"/>
+    <use href="#estrella" transform="translate(178 46) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(150 28) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(200 82) scale(0.6)"/>
+  </g>
+</svg>

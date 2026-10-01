@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="학원" data-es="academia privada">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 166 C 80 172, 150 172, 206 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- luna y estrellas: es de noche -->
+    <path d="M38 25 A16 16 0 1 0 47 47 A13 13 0 0 1 38 25 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.6"/>
+    <!-- edificio de varios pisos -->
+    <path d="M60 26 H156 V162 H60 Z" fill="#1F3B33"/>
+    <path d="M60 58 H156 M60 92 H156 M60 124 H156" stroke-width="2.2" stroke-opacity="0.7"/>
+    <!-- letreros sin texto, uno por piso -->
+    <path d="M66 31 H150 V42 H66 Z" fill="url(#rb)" stroke-width="2.4"/>
+    <path d="M66 63 H150 V74 H66 Z" fill="url(#ra)" stroke="#9FCBEF" stroke-width="2.4"/>
+    <path d="M66 128 H92 V136 H66 Z M124 128 H150 V136 H124 Z" fill="url(#rt)" stroke-width="2.2"/>
+    <!-- ventanas encendidas -->
+    <path d="M68 46 H82 V54 H68 Z M88 46 H102 V54 H88 Z M114 46 H128 V54 H114 Z M134 46 H148 V54 H134 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2"/>
+    <path d="M68 79 H82 V87 H68 Z M88 79 H102 V87 H88 Z M114 79 H128 V87 H114 Z M134 79 H148 V87 H134 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2"/>
+    <!-- cara en la fachada -->
+    <use href="#cara" transform="translate(108 102) scale(0.7)"/>
+    <!-- puerta de vidrio -->
+    <path d="M96 130 H120 V162 H96 Z" fill="url(#ra)" stroke-width="2.6"/>
+    <path d="M108 130 V162" stroke-width="2"/>
+    <!-- letrero vertical dorado colgado al costado -->
+    <path d="M156 44 H162 M156 108 H162" stroke-width="2.4"/>
+    <path d="M162 38 H176 V114 H162 Z" fill="#1F3B33"/>
+    <path d="M162 38 H176 V114 H162 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <!-- estudiante con mochila que camina hacia la puerta (de perfil, mira a la derecha) -->
+    <path d="M80 158 L76 166 M86 158 L91 165" stroke-width="2.6"/>
+    <path d="M77 144 C 75 150, 75 155, 76 159 H90 C 91 155, 91 150, 89 144 Z" fill="#1F3B33"/>
+    <path d="M77 144 C 75 150, 75 155, 76 159 H90 C 91 155, 91 150, 89 144 Z" fill="url(#rt)" stroke-width="2.4"/>
+    <path d="M67 146 C 67 143, 69 142, 72 142 H77 V157 H72 C 69 157, 67 156, 67 153 Z" fill="#1F3B33"/>
+    <path d="M67 146 C 67 143, 69 142, 72 142 H77 V157 H72 C 69 157, 67 156, 67 153 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M87 148 L93 153" stroke-width="2.4"/>
+    <circle cx="83" cy="134" r="9" fill="#1F3B33"/>
+    <path d="M74.2 136 C 72 126, 80 122, 87 124 C 91 125, 92.5 128, 92 130.5 C 86 128.5, 80 130, 75.5 137 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <circle cx="87.5" cy="134.5" r="1.7" fill="#F3F0E4" stroke="none"/>
+    <ellipse cx="86.5" cy="139" rx="2.4" ry="1.4" fill="#F4B98C" stroke="none"/>
+    <!-- otro estudiante que llega desde la derecha (mira a la izquierda) -->
+    <path d="M190 158 L194 166 M184 158 L179 165" stroke-width="2.6"/>
+    <path d="M193 144 C 195 150, 195 155, 194 159 H180 C 179 155, 179 150, 181 144 Z" fill="#1F3B33"/>
+    <path d="M193 144 C 195 150, 195 155, 194 159 H180 C 179 155, 179 150, 181 144 Z" fill="url(#rt)" stroke-width="2.4"/>
+    <path d="M203 146 C 203 143, 201 142, 198 142 H193 V157 H198 C 201 157, 203 156, 203 153 Z" fill="#1F3B33"/>
+    <path d="M203 146 C 203 143, 201 142, 198 142 H193 V157 H198 C 201 157, 203 156, 203 153 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M183 148 L177 153" stroke-width="2.4"/>
+    <circle cx="187" cy="134" r="9" fill="#1F3B33"/>
+    <path d="M195.8 136 C 198 126, 190 122, 183 124 C 179 125, 177.5 128, 178 130.5 C 184 128.5, 190 130, 194.5 137 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+    <circle cx="182.5" cy="134.5" r="1.7" fill="#F3F0E4" stroke="none"/>
+    <ellipse cx="183.5" cy="139" rx="2.4" ry="1.4" fill="#F4B98C" stroke="none"/>
+    <use href="#estrella-b" transform="translate(194 28) scale(0.65)"/>
+    <use href="#estrella" transform="translate(196 76) scale(0.6)"/>
+    <use href="#estrella-b" transform="translate(30 86) scale(0.55)"/>
+  </g>
+</svg>

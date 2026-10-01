@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 고기 · carne · Estilo A Sticker pop · pierna de carne asada con hueso (cafés, marcas de parrilla) sobre un plato, con vapor -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="110" cy="164" rx="78" ry="22"/>
+<path d="M144 86 L174 56" fill="none" stroke-width="44"/>
+<circle cx="168" cy="50" r="10"/>
+<circle cx="180" cy="62" r="10"/>
+<path d="M138 76 C120 74 74 80 58 106 C44 130 58 160 88 166 C116 172 140 150 146 124 C150 108 152 96 156 90 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="110" cy="164" rx="78" ry="22"/>
+<path d="M144 86 L174 56" fill="none" stroke-width="44"/>
+<circle cx="168" cy="50" r="10"/>
+<circle cx="180" cy="62" r="10"/>
+<path d="M138 76 C120 74 74 80 58 106 C44 130 58 160 88 166 C116 172 140 150 146 124 C150 108 152 96 156 90 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="110" cy="164" rx="78" ry="22"/>
+<path d="M144 86 L174 56" fill="none" stroke-width="37"/>
+<circle cx="168" cy="50" r="10"/>
+<circle cx="180" cy="62" r="10"/>
+<path d="M138 76 C120 74 74 80 58 106 C44 130 58 160 88 166 C116 172 140 150 146 124 C150 108 152 96 156 90 Z"/>
+</g>
+<!-- vapor -->
+<path d="M84 64 Q78 56 84 48 Q90 40 84 32" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108 60 Q102 52 108 44 Q114 36 108 28" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- plato blanco con centro lavanda -->
+<ellipse cx="110" cy="164" rx="78" ry="22" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="110" cy="162" rx="58" ry="13" fill="#DCE0FA" stroke="#B3B8D6" stroke-width="2.5"/>
+<!-- hueso: trazo tinta, dos nudos y caña crema -->
+<path d="M144 86 L174 56" stroke="#14142B" stroke-width="24" stroke-linecap="round"/>
+<circle cx="168" cy="50" r="10" fill="#FFF4D9" stroke="#14142B" stroke-width="4"/>
+<circle cx="180" cy="62" r="10" fill="#FFF4D9" stroke="#14142B" stroke-width="4"/>
+<path d="M144 86 L174 56" stroke="#FFF4D9" stroke-width="16" stroke-linecap="round"/>
+<path d="M156 70 L166 60" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<!-- carne asada -->
+<path d="M138 76 C120 74 74 80 58 106 C44 130 58 160 88 166 C116 172 140 150 146 124 C150 108 152 96 156 90 Z" fill="#A86B3C" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M70 108 L86 94" stroke="#74461F" stroke-width="4" stroke-linecap="round"/>
+<path d="M88 106 L106 91" stroke="#74461F" stroke-width="4" stroke-linecap="round"/>
+<path d="M108 104 L126 89" stroke="#74461F" stroke-width="4" stroke-linecap="round"/>
+<path d="M62 128 Q62 142 70 152" stroke="#D9A35F" stroke-width="5" stroke-linecap="round"/>
+<!-- cara de la casa en (96,128), s = 0,85 -->
+<ellipse cx="84.1" cy="128" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="107.9" cy="128" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="85.97" cy="125.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="109.77" cy="125.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="73.9" cy="139.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="118.1" cy="139.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M89.2 139.05 Q96 149.25 102.8 139.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M30 20 Q32.4 29.6 42 32 Q32.4 34.4 30 44 Q27.6 34.4 18 32 Q27.6 29.6 30 20 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M22 102 Q23.6 108.4 30 110 Q23.6 111.6 22 118 Q20.4 111.6 14 110 Q20.4 108.4 22 102 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="190" cy="116" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

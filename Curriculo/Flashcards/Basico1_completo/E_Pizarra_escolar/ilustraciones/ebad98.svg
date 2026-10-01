@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="뭘" data-es="qué (objeto; = 뭐를)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 165 C 90 172, 150 172, 196 161" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- globo de diálogo con la cola hacia abajo a la izquierda -->
+    <path d="M42 18 H124 C 134 18, 142 26, 142 36 V82 C 142 92, 134 100, 124 100 H66 L 40 122 L 48 100 H42 C 32 100, 24 92, 24 82 V36 C 24 26, 32 18, 42 18 Z" fill="#1F3B33"/>
+    <path d="M42 18 H124 C 134 18, 142 26, 142 36 V82 C 142 92, 134 100, 124 100 H66 L 40 122 L 48 100 H42 C 32 100, 24 92, 24 82 V36 C 24 26, 32 18, 42 18 Z" fill="url(#rt)"/>
+    <path d="M32 40 C 32 32, 36 27, 42 26" stroke-width="2" stroke-opacity="0.7"/>
+    <!-- gran signo de pregunta dorado dentro del globo -->
+    <path d="M66 46 C 66 26, 100 26, 100 44 C 100 56, 83 58, 83 70 V73" stroke="#E8B84B" stroke-width="4.5"/>
+    <circle cx="83" cy="86" r="4.6" fill="#E8B84B" stroke="none"/>
+    <!-- corazón con cara: lo que te gusta -->
+    <path d="M156 156 C 128 138, 116 122, 118 106 C 120 93, 131 86, 141 87 C 148 88, 153 92, 156 98 C 159 92, 164 88, 171 87 C 181 86, 192 93, 194 106 C 196 122, 184 138, 156 156 Z" fill="#1F3B33"/>
+    <path d="M156 156 C 128 138, 116 122, 118 106 C 120 93, 131 86, 141 87 C 148 88, 153 92, 156 98 C 159 92, 164 88, 171 87 C 181 86, 192 93, 194 106 C 196 122, 184 138, 156 156 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="3"/>
+    <path d="M127 104 C 128 98, 132 95, 137 94" stroke-width="2.2" stroke-opacity="0.8"/>
+    <use href="#cara-sorpresa" transform="translate(156 116) scale(0.7)"/>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(178 40) scale(0.85)"/>
+    <use href="#corazon" transform="translate(196 70) scale(0.7)"/>
+    <use href="#estrella-b" transform="translate(84 140) scale(0.65)"/>
+    <use href="#estrella" transform="translate(26 146) scale(0.6)"/>
+  </g>
+</svg>

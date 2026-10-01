@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 출구 · salida (del metro) -->
+  <use href="#kw-brillo" transform="translate(26 48) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(196 30) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(196 158) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="124" r="3" fill="#CFC8FF"/>
+  <circle cx="204" cy="100" r="2.5" fill="#FFFFFF"/>
+  <circle cx="40" cy="172" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="56" ry="7" fill="#F0DA9C"/>
+  <!-- poste gris con base -->
+  <rect x="101" y="128" width="18" height="54" rx="4" fill="#A9AFC3" stroke="#003478" stroke-width="2.6"/>
+  <path d="M106 140 L106 172" fill="none" stroke="#D5D9E4" stroke-width="3" stroke-linecap="round"/>
+  <rect x="84" y="176" width="52" height="10" rx="5" fill="#6E7591" stroke="#003478" stroke-width="2.6"/>
+  <!-- letrero amarillo: relleno, sombra ondulada, contorno -->
+  <rect x="44" y="28" width="132" height="108" rx="16" fill="#FBDD7E"/>
+  <path d="M44 122 Q60.5 115 77 122 T110 122 T143 122 T176 122 Q176 136 160 136 L60 136 Q44 136 44 122 Z" fill="#F3D27A"/>
+  <rect x="44" y="28" width="132" height="108" rx="16" fill="none" stroke="#003478" stroke-width="3"/>
+  <ellipse cx="62" cy="42" rx="9" ry="4.5" fill="#FFF3CC" transform="rotate(-30 62 42)"/>
+  <!-- número de salida en un círculo blanco -->
+  <circle cx="80" cy="66" r="23" fill="#FFFFFF" stroke="#003478" stroke-width="3"/>
+  <text x="80" y="79" font-family="Jua, sans-serif" font-size="38" text-anchor="middle" fill="#003478">3</text>
+  <!-- flecha navy gruesa hacia arriba a la derecha -->
+  <path d="M120 92 L150 61" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round"/>
+  <path d="M136 49 L162 49 L162 75 Z" fill="#003478" stroke="#003478" stroke-width="4" stroke-linejoin="round"/>
+  <use href="#kw-cara" transform="translate(110 108) scale(0.85)"/>
+</svg>

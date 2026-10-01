@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 이분 · esta persona (con respeto) · Estilo A Sticker pop · una mano con la palma hacia arriba presenta con respeto a una señora mayor de pelo canoso ondulado y collar de perlas -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M84 104 C76 96 78 84 84 78 C78 66 86 54 98 54 C102 42 116 38 126 42 C136 36 152 40 156 52 C168 54 176 66 170 78 C178 86 178 98 170 104 Q164 112 156 106 L100 106 Q92 112 84 104 Z"/>
+<ellipse cx="128" cy="88" rx="40" ry="38"/>
+<path d="M80 196 C80 164 102 142 128 142 C154 142 176 164 176 196 Z"/>
+<path d="M30 190 Q40 176 54 170" fill="none" stroke-width="44"/>
+<path d="M54 176 C50 168 52 160 60 158 L94 156 Q100 157 100 162 Q100 167 94 168 L70 172 Q64 178 54 176 Z"/>
+<path d="M62 158 Q62 148 70 147 Q76 148 74 158 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M84 104 C76 96 78 84 84 78 C78 66 86 54 98 54 C102 42 116 38 126 42 C136 36 152 40 156 52 C168 54 176 66 170 78 C178 86 178 98 170 104 Q164 112 156 106 L100 106 Q92 112 84 104 Z"/>
+<ellipse cx="128" cy="88" rx="40" ry="38"/>
+<path d="M80 196 C80 164 102 142 128 142 C154 142 176 164 176 196 Z"/>
+<path d="M30 190 Q40 176 54 170" fill="none" stroke-width="44"/>
+<path d="M54 176 C50 168 52 160 60 158 L94 156 Q100 157 100 162 Q100 167 94 168 L70 172 Q64 178 54 176 Z"/>
+<path d="M62 158 Q62 148 70 147 Q76 148 74 158 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M84 104 C76 96 78 84 84 78 C78 66 86 54 98 54 C102 42 116 38 126 42 C136 36 152 40 156 52 C168 54 176 66 170 78 C178 86 178 98 170 104 Q164 112 156 106 L100 106 Q92 112 84 104 Z"/>
+<ellipse cx="128" cy="88" rx="40" ry="38"/>
+<path d="M80 196 C80 164 102 142 128 142 C154 142 176 164 176 196 Z"/>
+<path d="M30 190 Q40 176 54 170" fill="none" stroke-width="37"/>
+<path d="M54 176 C50 168 52 160 60 158 L94 156 Q100 157 100 162 Q100 167 94 168 L70 172 Q64 178 54 176 Z"/>
+<path d="M62 158 Q62 148 70 147 Q76 148 74 158 Z"/>
+</g>
+<!-- pelo de atrás: canas onduladas -->
+<path d="M84 104 C76 96 78 84 84 78 C78 66 86 54 98 54 C102 42 116 38 126 42 C136 36 152 40 156 52 C168 54 176 66 170 78 C178 86 178 98 170 104 Q164 112 156 106 L100 106 Q92 112 84 104 Z" fill="#E3E6F2" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- chaqueta azul, blusa blanca, solapas, broche -->
+<path d="M80 196 C80 164 102 142 128 142 C154 142 176 164 176 196 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M112 146 L128 178 L144 146 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M108 148 L122 184" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<path d="M148 148 L134 184" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<circle cx="155" cy="170" r="5.5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<path d="M116 116 L116 148 Q128 154 140 148 L140 116 Z" fill="#F3C39A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- collar de perlas -->
+<circle cx="116" cy="148" r="3.2" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="119.5" cy="153.5" r="3.2" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="123.5" cy="157.5" r="3.2" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="128" cy="159" r="3.2" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="132.5" cy="157.5" r="3.2" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="136.5" cy="153.5" r="3.2" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="140" cy="148" r="3.2" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5"/>
+<!-- cabeza + flequillo ondulado -->
+<ellipse cx="128" cy="88" rx="40" ry="38" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M90 90 C88 66 104 52 128 52 C152 52 168 66 166 90 C162 82 156 78 150 80 C146 72 138 70 132 76 C126 70 116 70 112 78 C106 74 96 76 94 84 C92 86 91 88 90 90 Z" fill="#E3E6F2"/>
+<path d="M166 90 C162 82 156 78 150 80 C146 72 138 70 132 76 C126 70 116 70 112 78 C106 74 96 76 94 84 C92 86 91 88 90 90" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M96 62 Q100 56 108 57" stroke="#8A8FA8" stroke-width="3" stroke-linecap="round"/>
+<path d="M148 57 Q156 59 160 66" stroke="#8A8FA8" stroke-width="3" stroke-linecap="round"/>
+<path d="M120 45 Q128 41 136 45" stroke="#8A8FA8" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="116.1" cy="98" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="139.9" cy="98" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="117.97" cy="95.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="141.77" cy="95.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="105.9" cy="109.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="150.1" cy="109.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M121.2 109.05 Q128 119.25 134.8 109.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- mano que presenta con la palma hacia arriba (manga menta) -->
+<path d="M30 190 Q40 176 54 170" stroke="#14142B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30 190 Q40 176 54 170" stroke="#8FE3C6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M54 176 C50 168 52 160 60 158 L94 156 Q100 157 100 162 Q100 167 94 168 L70 172 Q64 178 54 176 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M62 158 Q62 148 70 147 Q76 148 74 158 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M76 163 L92 162" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M30 26 Q32.4 35.6 42 38 Q32.4 40.4 30 50 Q27.6 40.4 18 38 Q27.6 35.6 30 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M36 99 Q37.8 106.2 45 108 Q37.8 109.8 36 117 Q34.2 109.8 27 108 Q34.2 106.2 36 99 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 131 Q199.6 137.4 206 139 Q199.6 140.6 198 147 Q196.4 140.6 190 139 Q196.4 137.4 198 131 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="198" cy="28" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

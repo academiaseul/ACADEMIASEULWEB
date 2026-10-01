@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 집 · casa -->
+  <use href="#kw-brillo" transform="translate(30 52) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(198 76) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(196 150) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="122" r="3" fill="#CFC8FF"/>
+  <circle cx="72" cy="34" r="2.5" fill="#FFFFFF"/>
+  <circle cx="30" cy="164" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="188" rx="70" ry="7" fill="#F0DA9C"/>
+  <!-- humo: nubecitas blancas con contorno (sobre mantequilla) -->
+  <circle cx="150" cy="34" r="5" fill="#FFFFFF" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="161" cy="23" r="7" fill="#FFFFFF" stroke="#003478" stroke-width="2.2"/>
+  <circle cx="178" cy="15" r="6" fill="#FFFFFF" stroke="#003478" stroke-width="2.2"/>
+  <!-- chimenea detrás del techo -->
+  <rect x="136" y="50" width="18" height="42" fill="#C99A5E" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="132" y="43" width="26" height="10" rx="3" fill="#8C6448" stroke="#003478" stroke-width="2.6"/>
+  <!-- muros lilas: relleno, sombra ondulada, contorno -->
+  <path d="M58 98 L162 98 L162 176 Q162 182 156 182 L64 182 Q58 182 58 176 Z" fill="#E4E0FF"/>
+  <path d="M58 168 Q68.4 162 78.8 168 T99.6 168 T120.4 168 T141.2 168 T162 168 L162 176 Q162 182 156 182 L64 182 Q58 182 58 176 Z" fill="#CFC8FF"/>
+  <path d="M58 98 L162 98 L162 176 Q162 182 156 182 L64 182 Q58 182 58 176 Z" fill="none" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <!-- techo azul de marca con reflejo y ventanita redonda -->
+  <path d="M44 104 L102 46 Q110 38 118 46 L176 104 Q180 112 170 112 L50 112 Q40 112 44 104 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M68 94 L96 66" fill="none" stroke="#8FB6FF" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="110" cy="82" r="10" fill="#FFF3CC" stroke="#003478" stroke-width="2.6"/>
+  <path d="M110 72 L110 92 M100 82 L120 82" fill="none" stroke="#003478" stroke-width="2"/>
+  <!-- ventana celeste -->
+  <rect x="68" y="118" width="36" height="26" rx="5" fill="#B5DDFB" stroke="#003478" stroke-width="2.6"/>
+  <path d="M86 118 L86 144 M68 131 L104 131" fill="none" stroke="#003478" stroke-width="2.2"/>
+  <path d="M72 127 L77 122" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- puerta de madera con pomo dorado -->
+  <path d="M122 182 L122 144 Q122 130 138 130 Q154 130 154 144 L154 182 Z" fill="#E7B46E" stroke="#003478" stroke-width="2.6" stroke-linejoin="round"/>
+  <circle cx="147" cy="158" r="3" fill="#E8B84B" stroke="#003478" stroke-width="2"/>
+  <!-- cara en la fachada -->
+  <use href="#kw-cara" transform="translate(88 160) scale(0.76)"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="안녕" data-es="hola / chao (entre amigos)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 166 C 80 172, 150 172, 194 163" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- amigo 1: polera a rayas y gorra -->
+    <path d="M60 84 C 48 98, 44 136, 42 162 L 106 162 C 104 136, 100 98, 88 84 Z" fill="#1F3B33"/>
+    <path d="M60 84 C 48 98, 44 136, 42 162 L 106 162 C 104 136, 100 98, 88 84 Z" fill="url(#rt)"/>
+    <path d="M64 85 Q74 92 84 85" stroke-width="2.2"/>
+    <path d="M48 122 C 62 126, 86 126, 101 122 M46 136 C 62 140, 86 140, 103 136" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M54 96 C 44 90, 39 80, 37 68"/>
+    <circle cx="36.5" cy="64.5" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <path d="M94 98 C 102 110, 104 124, 104 136"/>
+    <circle cx="104" cy="139" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <circle cx="74" cy="62" r="23" fill="#1F3B33"/>
+    <path d="M51 60 C 51 42, 62 35, 74 35 C 86 35, 97 42, 97 60 C 90 57, 82 56, 74 56 C 66 56, 58 57, 51 60 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M92 57 C 102 56, 112 59, 116 64 C 108 65, 98 63, 90 61 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <circle cx="74" cy="35.5" r="2.8" fill="#E8B84B" stroke="none"/>
+    <use href="#cara-feliz" transform="translate(74 71) scale(0.64)"/>
+    <!-- amiga 2: polerón con capucha y pelo corto -->
+    <path d="M121 60 C 117 84, 121 94, 128 98 L 164 98 C 171 94, 175 84, 171 60 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M132 84 C 120 98, 116 136, 114 162 L 178 162 C 176 136, 172 98, 160 84 Z" fill="#1F3B33"/>
+    <path d="M132 84 C 120 98, 116 136, 114 162 L 178 162 C 176 136, 172 98, 160 84 Z" fill="url(#rt)"/>
+    <path d="M126 92 C 128 80, 164 80, 166 92 C 156 87, 136 87, 126 92 Z" fill="url(#rt)" stroke-width="2.4"/>
+    <path d="M138 92 L136 108 M154 92 L156 108" stroke-width="2.2"/>
+    <circle cx="136" cy="110" r="2" fill="#F3F0E4" stroke="none"/>
+    <circle cx="156" cy="110" r="2" fill="#F3F0E4" stroke="none"/>
+    <path d="M127 148 L131 132 L161 132 L165 148" stroke-width="2" stroke-opacity="0.75"/>
+    <path d="M126 98 C 118 110, 116 124, 116 136"/>
+    <circle cx="116" cy="139" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <path d="M166 96 C 176 90, 181 80, 183 68"/>
+    <circle cx="183.5" cy="64.5" r="3.8" fill="#F3F0E4" stroke="none"/>
+    <circle cx="146" cy="62" r="23" fill="#1F3B33"/>
+    <path d="M123 62 C 124 46, 135 39, 146 39 C 158 39, 169 46, 169 62 C 160 58, 152 52, 148 45 C 142 53, 133 58, 123 62 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#cara-feliz" transform="translate(146 71) scale(0.64)"/>
+    <!-- marcas de mano que se agita -->
+    <path d="M25 55 Q19 63 25 71 M17 51 Q9 63 17 75" stroke="#E8B84B" stroke-width="2.4"/>
+    <path d="M195 55 Q201 63 195 71 M203 51 Q211 63 203 75" stroke="#E8B84B" stroke-width="2.4"/>
+    <use href="#estrella-b" transform="translate(110 26) scale(0.7)"/>
+    <use href="#estrella" transform="translate(26 142) scale(0.72)"/>
+    <use href="#estrella" transform="translate(196 142) scale(0.72)"/>
+  </g>
+</svg>

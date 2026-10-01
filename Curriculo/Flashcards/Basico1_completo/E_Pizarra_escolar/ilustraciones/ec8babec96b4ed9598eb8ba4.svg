@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="싫어하다" data-es="no gustar, detestar (싫어해요; suena fuerte)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 166 C 80 172, 150 172, 204 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- corazón tachado con una X dorada grande -->
+    <path d="M176 78 C 168 64, 146 64, 146 86 C 146 102, 164 114, 176 124 C 188 114, 206 102, 206 86 C 206 64, 184 64, 176 78 Z" fill="#1F3B33"/>
+    <path d="M176 78 C 168 64, 146 64, 146 86 C 146 102, 164 114, 176 124 C 188 114, 206 102, 206 86 C 206 64, 184 64, 176 78 Z" fill="url(#rt)" stroke-width="2.8"/>
+    <path d="M150 62 L202 122 M202 62 L150 122" stroke="#E8B84B" stroke-width="5"/>
+    <!-- cuerpo, echado hacia atrás -->
+    <path d="M58 102 C 44 114, 38 140, 36 162 L116 162 C 114 140, 108 114, 94 102 Z" fill="#1F3B33"/>
+    <path d="M58 102 C 44 114, 38 140, 36 162 L116 162 C 114 140, 108 114, 94 102 Z" fill="url(#rt)"/>
+    <path d="M66 103 Q76 110 86 103" stroke-width="2.2"/>
+    <path d="M52 118 C 42 128, 38 142, 40 152"/>
+    <circle cx="40.5" cy="155" r="3.6" fill="#F3F0E4" stroke="none"/>
+    <!-- brazo con la palma que rechaza -->
+    <path d="M100 116 C 110 120, 118 122, 126 122"/>
+    <g transform="translate(-12 26)">
+      <path d="M128 86 L128 68 C128 64, 134 64, 134 68 L134 62 C134 58, 140 58, 140 62 L140 63 C140 59, 146 59, 146 63 L146 68 C146 64.5, 152 64.5, 152 68 L152 84 C152 91, 147 96, 140 96 C133 96, 128 92, 128 86 Z" fill="#1F3B33"/>
+      <path d="M128 84 C 124 77, 118 76, 119 81 C 120 86, 124 90, 129 92" fill="#1F3B33"/>
+      <path d="M134 68 V77 M140 63 V77 M146 68 V77" stroke-width="1.8" stroke-opacity="0.7"/>
+    </g>
+    <!-- cabeza que se aparta -->
+    <g transform="rotate(-10 76 100)">
+      <circle cx="76" cy="70" r="30" fill="#1F3B33"/>
+      <path d="M46 68 C 45 48, 59 38, 76 38 C 94 38, 107 48, 106 68 C 103 60, 99 54, 93 52 C 83 55, 68 53, 61 46 C 57 54, 51 60, 46 68 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.4"/>
+      <use href="#cara-disgusto" transform="translate(76 78) scale(0.82)"/>
+    </g>
+    <!-- escalofrío -->
+    <path d="M30 40 l 5 -6 l 5 6 l 5 -6 l 5 6 M24 60 l -6 -3 M26 74 l -7 1" stroke-width="2.4" stroke-opacity="0.85"/>
+    <use href="#estrella-b" transform="translate(130 30) scale(0.6)"/>
+  </g>
+</svg>

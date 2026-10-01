@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 176" width="220" height="176" data-kr="이 사람" data-es="esta persona (amigos, misma edad)">
+  <g fill="none" stroke="#F3F0E4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 166 C 84 172, 150 172, 200 162" stroke-width="2.2" stroke-opacity="0.65"/>
+    <!-- la foto (tipo instantánea), un poco girada, con cinta arriba -->
+    <g transform="rotate(4 140 84)">
+      <rect x="90" y="18" width="100" height="128" rx="4" fill="#1F3B33"/>
+      <rect x="90" y="18" width="100" height="128" rx="4" fill="url(#rt)"/>
+      <rect x="99" y="27" width="82" height="88" rx="2" fill="#1F3B33" stroke-width="2.4"/>
+      <!-- el joven de la foto: gorra dorada y sonrisa -->
+      <path d="M118 115 C 118 102, 126 94, 132 92 L148 92 C 154 94, 162 102, 162 115 Z" fill="url(#rt)" stroke-width="2.4"/>
+      <circle cx="140" cy="71" r="18" fill="#1F3B33" stroke-width="2.6"/>
+      <path d="M122 68.4 C 122 54.3, 130.6 48.9, 140 48.9 C 149.4 48.9, 158 54.3, 158 68.4 C 152.5 66.1, 146.3 65.3, 140 65.3 C 133.7 65.3, 127.5 66.1, 122 68.4 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+      <path d="M154 66 C 162 65.3, 169.8 67.7, 172.9 71.6 C 166.6 72.3, 158.8 70.8, 152.5 69.2 Z" fill="url(#rd)" stroke="#E8B84B" stroke-width="2.2"/>
+      <circle cx="140" cy="49.3" r="2.2" fill="#E8B84B" stroke="none"/>
+      <use href="#cara-feliz" transform="translate(140 78) scale(0.52)"/>
+      <rect x="127" y="12" width="26" height="11" rx="1.5" fill="#1F3B33"/>
+      <rect x="127" y="12" width="26" height="11" rx="1.5" fill="url(#rb)" stroke-width="2"/>
+    </g>
+    <!-- la mano que señala la foto (manga, puño e índice) -->
+    <g transform="translate(14 -6)">
+      <path d="M10 104 L40 99 L44 141 L12 147" fill="#1F3B33"/>
+      <path d="M10 104 L40 99 L44 141 L12 147" fill="url(#rt)"/>
+      <path d="M42 112 C 42 104, 50 101, 60 102 L70 104 C 77 106, 79 112, 77 118 L77 130 C 77 138, 69 142, 59 141 C 49 140, 42 134, 42 126 Z" fill="#1F3B33"/>
+      <path d="M70 104 L97 104 C 103 104, 103 113, 97 113 L72 113" fill="#1F3B33"/>
+      <path d="M51 110 C 57 115, 64 116, 72 113" stroke-width="2.4"/>
+      <path d="M62 122 C 68 121, 73 122, 76 124 M60 131 C 66 130, 71 131, 75 133" stroke-width="2" stroke-opacity="0.75"/>
+    </g>
+    <!-- adornos -->
+    <use href="#estrella" transform="translate(36 40) scale(0.85)"/>
+    <use href="#estrella-b" transform="translate(66 62) scale(0.6)"/>
+    <use href="#estrella" transform="translate(202 150) scale(0.6)"/>
+  </g>
+</svg>

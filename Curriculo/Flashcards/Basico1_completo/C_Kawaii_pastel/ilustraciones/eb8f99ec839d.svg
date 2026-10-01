@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 동생 · hermano o hermana menor -->
+  <use href="#kw-brillo" transform="translate(34 44) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(186 42) scale(7)" fill="#CFC8FF"/>
+  <use href="#kw-brillo" transform="translate(202 150) scale(5)" fill="#FFFFFF"/>
+  <circle cx="22" cy="116" r="3" fill="#FFFFFF"/>
+  <circle cx="110" cy="40" r="2.5" fill="#E8B84B"/>
+  <circle cx="206" cy="96" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="80" ry="7" fill="#D2CBFA"/>
+  <!-- el joven (atrás, al centro) lleva de la mano a sus dos hermanitos -->
+  <g transform="matrix(0.72 0 0 0.72 30.8 51.1)">
+    <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.6"/>
+    <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="3.6"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="4.2" stroke-linejoin="round"/>
+    <path d="M98 124 L110 140 L122 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="3.3" stroke-linejoin="round"/>
+    <path d="M84 132 Q66 150 76 166 M136 132 Q154 150 144 166" fill="none" stroke="#003478" stroke-width="18" stroke-linecap="round"/>
+    <path d="M84 132 Q66 150 76 166 M136 132 Q154 150 144 166" fill="none" stroke="#4236F6" stroke-width="9.7" stroke-linecap="round"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#F2C99A" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#F2C99A" stroke="#003478" stroke-width="3.6"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#F2C99A" stroke="#003478" stroke-width="4.2"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="4.2" stroke-linejoin="round"/>
+    <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="4.8" stroke-linecap="round"/>
+    <use href="#kw-cara" transform="translate(110 98)"/>
+  </g>
+  <!-- hermanito (adelante, izquierda) -->
+  <g transform="matrix(0.5 0 0 0.5 9 93.25)">
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="5.2"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="5.2"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#7FD0B0" stroke="#003478" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M84 132 Q66 150 74 168 M136 132 Q156 140 152 156" fill="none" stroke="#003478" stroke-width="26" stroke-linecap="round"/>
+    <path d="M84 132 Q66 150 74 168 M136 132 Q156 140 152 156" fill="none" stroke="#7FD0B0" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="74" cy="170" r="8" fill="#F2C99A" stroke="#003478" stroke-width="4.8"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#F2C99A" stroke="#003478" stroke-width="5.2"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#F2C99A" stroke="#003478" stroke-width="5.2"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#F2C99A" stroke="#003478" stroke-width="6"/>
+    <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M106 38 Q100 22 113 21 Q121 23 116 31" fill="none" stroke="#003478" stroke-width="6" stroke-linecap="round"/>
+    <use href="#kw-cara-feliz" transform="translate(110 98)"/>
+  </g>
+  <!-- hermanita (adelante, derecha), con dos moñitos -->
+  <g transform="matrix(0.5 0 0 0.5 101 93.25)">
+    <circle cx="76" cy="46" r="15" fill="#3B4566" stroke="#003478" stroke-width="6"/>
+    <circle cx="144" cy="46" r="15" fill="#3B4566" stroke="#003478" stroke-width="6"/>
+    <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#4236F6" stroke="#003478" stroke-width="5.2"/>
+    <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#4236F6" stroke="#003478" stroke-width="5.2"/>
+    <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#F6D47A" stroke="#003478" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M136 132 Q154 150 146 168 M84 132 Q64 140 68 156" fill="none" stroke="#003478" stroke-width="26" stroke-linecap="round"/>
+    <path d="M136 132 Q154 150 146 168 M84 132 Q64 140 68 156" fill="none" stroke="#F6D47A" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="146" cy="170" r="8" fill="#F2C99A" stroke="#003478" stroke-width="4.8"/>
+    <ellipse cx="62" cy="92" rx="8" ry="10" fill="#F2C99A" stroke="#003478" stroke-width="5.2"/>
+    <ellipse cx="158" cy="92" rx="8" ry="10" fill="#F2C99A" stroke="#003478" stroke-width="5.2"/>
+    <ellipse cx="110" cy="84" rx="48" ry="42" fill="#F2C99A" stroke="#003478" stroke-width="6"/>
+    <path d="M63 92 Q56 38 110 36 Q164 38 157 92 Q152 70 140 64 Q126 74 110 68 Q94 74 80 64 Q68 70 63 92 Z" fill="#3B4566" stroke="#003478" stroke-width="6" stroke-linejoin="round"/>
+    <use href="#kw-cara-feliz" transform="translate(110 98)"/>
+  </g>
+  <!-- manos tomadas -->
+  <circle cx="85" cy="171" r="5.5" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <circle cx="135" cy="171" r="5.5" fill="#F2C99A" stroke="#003478" stroke-width="2.4"/>
+  <!-- brillo dorado sobre quienes nombra la palabra: los hermanitos -->
+  <use href="#kw-brillo" transform="translate(60 98) scale(8)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(162 96) scale(8)" fill="#E8B84B"/>
+</svg>

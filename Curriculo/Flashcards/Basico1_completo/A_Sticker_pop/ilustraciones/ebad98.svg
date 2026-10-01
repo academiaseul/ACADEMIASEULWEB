@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 뭘 · qué (objeto) · Estilo A Sticker pop · globo con signo de pregunta que sale de una caja de regalo con cara (sin corazón: regla sin rosado) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M154 26 C177 26 196 40 196 61 C196 82 177 96 154 96 C150 96 147 96 144 95 L128 110 L128 90 C117 83 112 72 112 61 C112 40 131 26 154 26 Z"/>
+<rect x="26" y="104" width="122" height="26" rx="8"/>
+<rect x="34" y="126" width="106" height="64" rx="8"/>
+<path d="M53 102 C44 84 28 86 31 97 C33 105 45 106 53 102 Z"/>
+<path d="M53 102 C62 84 78 86 75 97 C73 105 61 106 53 102 Z"/>
+<circle cx="53" cy="102" r="6.5"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M154 26 C177 26 196 40 196 61 C196 82 177 96 154 96 C150 96 147 96 144 95 L128 110 L128 90 C117 83 112 72 112 61 C112 40 131 26 154 26 Z"/>
+<rect x="26" y="104" width="122" height="26" rx="8"/>
+<rect x="34" y="126" width="106" height="64" rx="8"/>
+<path d="M53 102 C44 84 28 86 31 97 C33 105 45 106 53 102 Z"/>
+<path d="M53 102 C62 84 78 86 75 97 C73 105 61 106 53 102 Z"/>
+<circle cx="53" cy="102" r="6.5"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M154 26 C177 26 196 40 196 61 C196 82 177 96 154 96 C150 96 147 96 144 95 L128 110 L128 90 C117 83 112 72 112 61 C112 40 131 26 154 26 Z"/>
+<rect x="26" y="104" width="122" height="26" rx="8"/>
+<rect x="34" y="126" width="106" height="64" rx="8"/>
+<path d="M53 102 C44 84 28 86 31 97 C33 105 45 106 53 102 Z"/>
+<path d="M53 102 C62 84 78 86 75 97 C73 105 61 106 53 102 Z"/>
+<circle cx="53" cy="102" r="6.5"/>
+</g>
+<!-- globo de diálogo blanco (la punta queda bajo la tapa) -->
+<path d="M154 26 C177 26 196 40 196 61 C196 82 177 96 154 96 C150 96 147 96 144 95 L128 110 L128 90 C117 83 112 72 112 61 C112 40 131 26 154 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- signo de pregunta dibujado: trazo tinta 17 + azul 9, punto -->
+<path d="M144 51 Q144 41 154 41 Q164 41 164 50 Q164 57 157 60 Q154 62 154 68" fill="none" stroke="#14142B" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M144 51 Q144 41 154 41 Q164 41 164 50 Q164 57 157 60 Q154 62 154 68" fill="none" stroke="#4236F6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="154" cy="81" r="5.5" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<!-- caja: cuerpo lila con cinta dorada a un costado -->
+<rect x="34" y="126" width="106" height="64" rx="8" fill="#C7B8FF" stroke="#14142B" stroke-width="4"/>
+<rect x="46" y="126" width="14" height="64" fill="#E8B84B" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M128 140 L128 176" fill="none" stroke="#ECE6FF" stroke-width="4" stroke-linecap="round"/>
+<!-- tapa azul con brillo y cinta -->
+<rect x="26" y="104" width="122" height="26" rx="8" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M72 112 L94 112" fill="none" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<rect x="46" y="104" width="14" height="26" fill="#E8B84B" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- moño dorado -->
+<path d="M53 102 C44 84 28 86 31 97 C33 105 45 106 53 102 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M53 102 C62 84 78 86 75 97 C73 105 61 106 53 102 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M48 98 Q41 93 36 95" fill="none" stroke="#B9861E" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M58 98 Q65 93 70 95" fill="none" stroke="#B9861E" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="53" cy="102" r="6.5" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<!-- cara de la casa en (100,154), s = 0,85 -->
+<ellipse cx="88.1" cy="154" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="111.9" cy="154" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="89.97" cy="151.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="113.77" cy="151.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="77.9" cy="165.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="122.1" cy="165.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M93.2 165.05 Q100 175.25 106.8 165.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M34 32 Q36.4 41.6 46 44 Q36.4 46.4 34 56 Q31.6 46.4 22 44 Q31.6 41.6 34 32 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M80 32 Q81.6 38.4 88 40 Q81.6 41.6 80 48 Q78.4 41.6 72 40 Q78.4 38.4 80 32 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M186 130 Q188 138 196 140 Q188 142 186 150 Q184 142 176 140 Q184 138 186 130 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="182" cy="176" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

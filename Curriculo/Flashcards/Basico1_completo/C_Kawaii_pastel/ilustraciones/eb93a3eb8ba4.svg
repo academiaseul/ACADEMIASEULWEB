@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 듣다 · escuchar -->
+  <use href="#kw-brillo" transform="translate(192 86) scale(9)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(28 98) scale(6)" fill="#CFC8FF"/>
+  <circle cx="40" cy="170" r="2.5" fill="#FFFFFF"/>
+  <circle cx="184" cy="168" r="2.5" fill="#CFC8FF"/>
+  <ellipse class="kw-suelo" cx="110" cy="189" rx="60" ry="7" fill="#D2CBFA"/>
+  <!-- notas musicales alrededor -->
+  <g transform="translate(36 62)">
+    <ellipse cx="0" cy="0" rx="7" ry="5.2" fill="#4236F6" stroke="#003478" stroke-width="2.2" transform="rotate(-20)"/>
+    <path d="M6 -2 L6 -26 Q17 -20 15 -9" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(180 50)">
+    <ellipse cx="0" cy="0" rx="7" ry="5.2" fill="#FFFFFF" stroke="#003478" stroke-width="2.2" transform="rotate(-20)"/>
+    <ellipse cx="18" cy="-4" rx="7" ry="5.2" fill="#FFFFFF" stroke="#003478" stroke-width="2.2" transform="rotate(-20 18 -4)"/>
+    <path d="M6 -2 L6 -24 L24 -28 L24 -6" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 -24 L24 -28" fill="none" stroke="#003478" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(194 134) scale(0.85)">
+    <ellipse cx="0" cy="0" rx="7" ry="5.2" fill="#4236F6" stroke="#003478" stroke-width="2.4" transform="rotate(-20)"/>
+    <path d="M6 -2 L6 -26 Q17 -20 15 -9" fill="none" stroke="#003478" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(26 140) scale(0.85)">
+    <ellipse cx="0" cy="0" rx="7" ry="5.2" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" transform="rotate(-20)"/>
+    <path d="M6 -2 L6 -26 Q17 -20 15 -9" fill="none" stroke="#003478" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- cuerpo: piernas, zapatos, polerón azul -->
+  <rect x="94" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <rect x="114" y="170" width="12" height="15" rx="5" fill="#3B4566" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="99" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <ellipse cx="121" cy="186" rx="10.5" ry="5.5" fill="#FFFFFF" stroke="#003478" stroke-width="2.6"/>
+  <path d="M78 176 Q76 138 98 124 L122 124 Q144 138 142 176 Q142 182 136 182 L84 182 Q78 182 78 176 Z" fill="#4236F6" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M100 124 L110 138 L120 124 Z" fill="#FFFFFF" stroke="#003478" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M84 132 Q70 150 80 166 M136 132 Q160 138 162 120" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M84 132 Q70 150 80 166 M136 132 Q160 138 162 120" fill="none" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="80" cy="168" r="6" fill="#C98F5E" stroke="#003478" stroke-width="2.4"/>
+  <!-- cabeza y pelo -->
+  <ellipse cx="110" cy="84" rx="48" ry="42" fill="#C98F5E" stroke="#003478" stroke-width="3"/>
+  <path d="M63 86 Q58 38 110 36 Q162 38 157 86 Q150 70 138 64 Q128 74 112 69 Q98 76 84 67 Q72 72 63 86 Z" fill="#3B4566" stroke="#003478" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M82 50 Q94 42 108 42" fill="none" stroke="#6E7591" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- audífonos grandes menta: cintillo (trazo doble), almohadillas y copas -->
+  <path d="M57 74 Q56 30 110 30 Q164 30 163 74" fill="none" stroke="#003478" stroke-width="13" stroke-linecap="round"/>
+  <path d="M57 74 Q56 30 110 30 Q164 30 163 74" fill="none" stroke="#7FD0B0" stroke-width="7" stroke-linecap="round"/>
+  <rect x="60" y="72" width="14" height="36" rx="6" fill="#FFFDF8" stroke="#003478" stroke-width="2.4"/>
+  <rect x="146" y="72" width="14" height="36" rx="6" fill="#FFFDF8" stroke="#003478" stroke-width="2.4"/>
+  <rect x="42" y="64" width="26" height="52" rx="12" fill="#7FD0B0" stroke="#003478" stroke-width="3"/>
+  <rect x="152" y="64" width="26" height="52" rx="12" fill="#7FD0B0" stroke="#003478" stroke-width="3"/>
+  <ellipse cx="51" cy="78" rx="3" ry="7" fill="#C6F0DE"/>
+  <ellipse cx="161" cy="78" rx="3" ry="7" fill="#C6F0DE"/>
+  <circle cx="162" cy="121" r="6" fill="#C98F5E" stroke="#003478" stroke-width="2.4"/>
+  <!-- cara propia: ojos cerrados de gusto, boca abierta, mejillas doradas (piel morena) -->
+  <ellipse cx="83" cy="109" rx="8" ry="5" fill="#F3D27A"/>
+  <ellipse cx="137" cy="109" rx="8" ry="5" fill="#F3D27A"/>
+  <path d="M89 100 Q95 91 101 100 M119 100 Q125 91 131 100" fill="none" stroke="#003478" stroke-width="3" stroke-linecap="round"/>
+  <path d="M103 105 Q110 106 117 105 Q116.5 115 110 115 Q103.5 115 103 105 Z" fill="#003478"/>
+</svg>

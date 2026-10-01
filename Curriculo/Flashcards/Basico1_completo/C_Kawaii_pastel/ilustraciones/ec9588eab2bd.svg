@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <!-- 안경 · lentes, anteojos -->
+  <use href="#kw-brillo" transform="translate(110 46) scale(10)" fill="#FFFFFF"/>
+  <use href="#kw-brillo" transform="translate(20 92) scale(7)" fill="#E8B84B"/>
+  <use href="#kw-brillo" transform="translate(202 96) scale(6)" fill="#FFFFFF"/>
+  <circle cx="24" cy="166" r="3" fill="#FFFFFF"/>
+  <circle cx="196" cy="172" r="2.5" fill="#E8B84B"/>
+  <circle cx="78" cy="62" r="2.5" fill="#FFFFFF"/>
+  <ellipse class="kw-suelo" cx="110" cy="187" rx="74" ry="7" fill="#D2CBFA"/>
+  <!-- patas abiertas hacia atrás (detrás del marco): trazo doble 10/4 -->
+  <path d="M46 124 Q40 96 42 70 Q43 60 50 58 M174 124 Q180 96 178 70 Q177 60 170 58" fill="none" stroke="#003478" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 124 Q40 96 42 70 Q43 60 50 58 M174 124 Q180 96 178 70 Q177 60 170 58" fill="none" stroke="#4236F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- cristales celestes con reflejos -->
+  <circle cx="74" cy="132" r="30" fill="#D6E3FF"/>
+  <circle cx="146" cy="132" r="30" fill="#D6E3FF"/>
+  <path d="M55 124 Q58 113 67 108 M127 124 Q130 113 139 108" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- marcos redondos azules + puente -->
+  <path d="M44 132 A30 30 0 1 0 104 132 A30 30 0 1 0 44 132 Z M116 132 A30 30 0 1 0 176 132 A30 30 0 1 0 116 132 Z" fill="none" stroke="#003478" stroke-width="11"/>
+  <path d="M44 132 A30 30 0 1 0 104 132 A30 30 0 1 0 44 132 Z M116 132 A30 30 0 1 0 176 132 A30 30 0 1 0 116 132 Z" fill="none" stroke="#4236F6" stroke-width="5"/>
+  <path d="M103 125 Q110 115 117 125" fill="none" stroke="#003478" stroke-width="11" stroke-linecap="round"/>
+  <path d="M103 125 Q110 115 117 125" fill="none" stroke="#4236F6" stroke-width="5" stroke-linecap="round"/>
+  <rect x="36" y="119" width="9" height="13" rx="3" fill="#4236F6" stroke="#003478" stroke-width="2.4"/>
+  <rect x="175" y="119" width="9" height="13" rx="3" fill="#4236F6" stroke="#003478" stroke-width="2.4"/>
+  <!-- cara: un ojo en cada cristal, mejillas y sonrisa bajo el puente -->
+  <ellipse cx="86" cy="147" rx="6.5" ry="4" fill="#FFCBA0"/>
+  <ellipse cx="134" cy="147" rx="6.5" ry="4" fill="#FFCBA0"/>
+  <use href="#kw-ojo" transform="translate(77 133) scale(1.1)"/>
+  <use href="#kw-ojo" transform="translate(143 133) scale(1.1)"/>
+  <path d="M104 155 Q110 162 116 155" fill="none" stroke="#003478" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

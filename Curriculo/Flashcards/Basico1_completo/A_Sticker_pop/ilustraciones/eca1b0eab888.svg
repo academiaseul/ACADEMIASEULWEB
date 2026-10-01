@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 조금 · un poco · Estilo A Sticker pop · mano de perfil haciendo "un poquito": índice y pulgar que convergen, casi juntos en las yemas (hueco de 8), flechas que aprietan el hueco -->
+<!-- CAPA 1 · silueta: manga + dedos doblados + índice + pulgar + dorso -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="24" y="98" width="34" height="48" rx="8"/>
+<rect x="112" y="104" width="34" height="40" rx="13"/>
+<path d="M106 94 L164 100" fill="none" stroke-width="52"/>
+<path d="M104 152 L160 140" fill="none" stroke-width="52"/>
+<path d="M46 122 C46 94 66 82 94 84 L110 88 C124 94 128 108 128 124 C128 144 118 158 100 162 L88 164 C62 164 46 148 46 122 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="24" y="98" width="34" height="48" rx="8"/>
+<rect x="112" y="104" width="34" height="40" rx="13"/>
+<path d="M106 94 L164 100" fill="none" stroke-width="52"/>
+<path d="M104 152 L160 140" fill="none" stroke-width="52"/>
+<path d="M46 122 C46 94 66 82 94 84 L110 88 C124 94 128 108 128 124 C128 144 118 158 100 162 L88 164 C62 164 46 148 46 122 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="24" y="98" width="34" height="48" rx="8"/>
+<rect x="112" y="104" width="34" height="40" rx="13"/>
+<path d="M106 94 L164 100" fill="none" stroke-width="45"/>
+<path d="M104 152 L160 140" fill="none" stroke-width="45"/>
+<path d="M46 122 C46 94 66 82 94 84 L110 88 C124 94 128 108 128 124 C128 144 118 158 100 162 L88 164 C62 164 46 148 46 122 Z"/>
+</g>
+<!-- CAPA 2 · manga azul con brillo -->
+<rect x="24" y="98" width="34" height="48" rx="8" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M34 108 L34 136" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<!-- dedos doblados (medio, anular y meñique), entre el índice y el pulgar -->
+<rect x="112" y="104" width="34" height="40" rx="13" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M136 121 L144 121" stroke="#14142B" stroke-width="2.6" stroke-linecap="round"/>
+<!-- índice y pulgar: tinta 32 + piel 24, convergen hacia las yemas -->
+<path d="M106 94 L164 100" stroke="#14142B" stroke-width="32" stroke-linecap="round"/>
+<path d="M106 94 L164 100" stroke="#F3C39A" stroke-width="24" stroke-linecap="round"/>
+<path d="M104 152 L160 140" stroke="#14142B" stroke-width="32" stroke-linecap="round"/>
+<path d="M104 152 L160 140" stroke="#F3C39A" stroke-width="24" stroke-linecap="round"/>
+<!-- uñas por fuera (arriba en el índice, abajo en el pulgar): el hueco queda limpio -->
+<ellipse cx="161.8" cy="91.7" rx="6" ry="3.6" fill="#FFE6B8" stroke="#14142B" stroke-width="2.5" transform="rotate(6 161.8 91.7)"/>
+<ellipse cx="158.7" cy="148.5" rx="6" ry="3.6" fill="#FFE6B8" stroke="#14142B" stroke-width="2.5" transform="rotate(-12 158.7 148.5)"/>
+<!-- dorso de la mano (tapa la base de los dedos) -->
+<path d="M46 122 C46 94 66 82 94 84 L110 88 C124 94 128 108 128 124 C128 144 118 158 100 162 L88 164 C62 164 46 148 46 122 Z" fill="#F3C39A" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- CAPA 3 · cara de la casa en (86,124), s = 0,72 -->
+<ellipse cx="75.92" cy="124" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="96.08" cy="124" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="77.5" cy="121.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="97.66" cy="121.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="67.28" cy="134.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="104.72" cy="134.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M80.24 133.36 Q86 142 91.76 133.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- flechas que aprietan el hueco: "así de poquito" (dorado con borde tinta) -->
+<path d="M194 78 L194 98" stroke="#14142B" stroke-width="10" stroke-linecap="round"/>
+<path d="M186 95 L194 105 L202 95" stroke="#14142B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194 78 L194 98" stroke="#E8B84B" stroke-width="4" stroke-linecap="round"/>
+<path d="M186 95 L194 105 L202 95" stroke="#E8B84B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194 162 L194 142" stroke="#14142B" stroke-width="10" stroke-linecap="round"/>
+<path d="M186 145 L194 135 L202 145" stroke="#14142B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194 162 L194 142" stroke="#E8B84B" stroke-width="4" stroke-linecap="round"/>
+<path d="M186 145 L194 135 L202 145" stroke="#E8B84B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- CAPA 4 · adornos -->
+<path d="M40 32 Q42.4 41.6 52 44 Q42.4 46.4 40 56 Q37.6 46.4 28 44 Q37.6 41.6 40 32 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M30 175 Q31.8 182.2 39 184 Q31.8 185.8 30 193 Q28.2 185.8 21 184 Q28.2 182.2 30 175 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M156 168 Q157.6 174.4 164 176 Q157.6 177.6 156 184 Q154.4 177.6 148 176 Q154.4 174.4 156 168 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="150" cy="40" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

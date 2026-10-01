@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 사과 · manzana · Estilo A Sticker pop · manzana VERDE (nunca roja), hoja en el tallo -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M110 72 Q108 54 116 40" fill="none" stroke-width="34"/>
+<path d="M116 54 C126 32 156 28 168 36 C160 56 136 64 116 54 Z"/>
+<path d="M110 70 C92 56 46 58 46 112 C46 158 78 192 98 190 C104 189 106 186 110 186 C114 186 116 189 122 190 C142 192 174 158 174 112 C174 58 128 56 110 70 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M110 72 Q108 54 116 40" fill="none" stroke-width="34"/>
+<path d="M116 54 C126 32 156 28 168 36 C160 56 136 64 116 54 Z"/>
+<path d="M110 70 C92 56 46 58 46 112 C46 158 78 192 98 190 C104 189 106 186 110 186 C114 186 116 189 122 190 C142 192 174 158 174 112 C174 58 128 56 110 70 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M110 72 Q108 54 116 40" fill="none" stroke-width="27"/>
+<path d="M116 54 C126 32 156 28 168 36 C160 56 136 64 116 54 Z"/>
+<path d="M110 70 C92 56 46 58 46 112 C46 158 78 192 98 190 C104 189 106 186 110 186 C114 186 116 189 122 190 C142 192 174 158 174 112 C174 58 128 56 110 70 Z"/>
+</g>
+<!-- tallo (w = 6) -->
+<path d="M110 72 Q108 54 116 40" fill="none" stroke="#14142B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 72 Q108 54 116 40" fill="none" stroke="#74461F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- hoja -->
+<path d="M116 54 C126 32 156 28 168 36 C160 56 136 64 116 54 Z" fill="#5CC98A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M122 51 Q142 42 160 38" stroke="#2F8F57" stroke-width="3" stroke-linecap="round" fill="none"/>
+<!-- manzana verde -->
+<path d="M110 70 C92 56 46 58 46 112 C46 158 78 192 98 190 C104 189 106 186 110 186 C114 186 116 189 122 190 C142 192 174 158 174 112 C174 58 128 56 110 70 Z" fill="#7FD69A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M96 70 Q110 80 124 70" stroke="#2F8F57" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<path d="M150 158 Q160 146 164 130" stroke="#5CC98A" stroke-width="5" stroke-linecap="round" fill="none"/>
+<!-- brillo -->
+<path d="M62 108 Q64 88 80 78" stroke="#B4F0C8" stroke-width="6" stroke-linecap="round" fill="none"/>
+<circle cx="62" cy="124" r="3.5" fill="#B4F0C8"/>
+<!-- cara de la casa en (110,128), s = 1 -->
+<ellipse cx="96" cy="128" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="128" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="124.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="124.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="142" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="142" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 141 Q110 153 118 141 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M32 26 Q34.4 35.6 44 38 Q34.4 40.4 32 50 Q29.6 40.4 20 38 Q29.6 35.6 32 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 141 Q197.8 148.2 205 150 Q197.8 151.8 196 159 Q194.2 151.8 187 150 Q194.2 148.2 196 141 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="26" cy="172" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>
