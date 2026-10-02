@@ -8,6 +8,8 @@
 // Sistema visual = el del boletín de cursos (papel #F6F3EC, tinta, franja vertical a la izquierda,
 // Playfair Display + IBM Plex, hangul en Noto) pero en clave de anuncio: una idea por tarjeta, letras grandes,
 // mucho contraste, fondos que alternan azul / papel. Marca: azul #4236F6, navy #003478, oro #E8B84B, blanco.
+// Cabecera = logo principal (Curriculo/Flashcards/marca/logo_principal.svg, 260×88 px, blanco sobre azul y azul sobre
+// papel) + etiqueta a la derecha. El sello del tigre aparece una sola vez: en la tarjeta 5, al final del filete.
 // NUNCA rojo ni rosado. Oro solo sobre azul (sobre papel no se lee). Sin fotos ni dibujos de niños.
 // Reglas de anuncio: titulares ≥ 64 px, texto ≥ 34 px, margen seguro 90 px, sin cajas que parezcan botones,
 // sin flechas tipo "haz clic", sin preguntas que aludan a atributos personales.
@@ -39,7 +41,11 @@ const AZUL = "#4236F6", NAVY = "#003478", GOLD = "#E8B84B", WHITE = "#FFFFFF";
 const PAPER = "#F6F3EC", INK = "#0A0A0F", MUTED = "#4A4D59";
 const AZUL_DEEP = "#2D22C9"; // franja de las tarjetas azules (un tono más profundo del mismo azul)
 
-// sello del tigre (vector, fill=currentColor) → se colorea con CSS `color`
+// logo principal (wordmark "ACADEMIA / Seúl", vector, fill=currentColor, proporción 2,95:1) → cabecera de todas las
+// tarjetas; blanco sobre azul, azul #4236F6 sobre papel. Se fija solo la altura: el ancho sale del viewBox (no se deforma).
+const LOGO_SVG = fs.readFileSync(path.join(REPO, "Curriculo/Flashcards/marca/logo_principal.svg"), "utf8")
+  .replace(/<\?xml[^>]*>/, "").replace("<svg ", '<svg class="logo" ');
+// sello del tigre (vector, fill=currentColor) → solo en la tarjeta 5, cerrando el filete sobre la web
 const SELLO_SVG = fs.readFileSync(path.join(REPO, "Curriculo/Flashcards/marca/sello_linea_v2.svg"), "utf8")
   .replace(/<\?xml[^>]*>/, "").replace("<svg ", '<svg class="sello" ');
 
@@ -105,14 +111,15 @@ const CSS = `
   .azul { color: ${AZUL}; }
   .navy { color: ${NAVY}; }
 
-  /* cabecera: sello + marca | etiqueta */
-  .head { display: flex; justify-content: space-between; align-items: center; flex: none; height: 84px; }
-  .brand { display: flex; align-items: center; gap: 20px; }
+  /* cabecera: logo principal | etiqueta */
+  .head { display: flex; justify-content: space-between; align-items: center; flex: none; height: 88px; }
+  .logo { height: 88px; width: auto; aspect-ratio: 732.51 / 248.22; display: block; flex: none; color: ${AZUL}; }
+  .blue .logo { color: ${WHITE}; }
   .sello { height: 84px; width: auto; display: block; color: ${AZUL}; }
   .blue .sello { color: ${WHITE}; }
-  .brand .name { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 42px; letter-spacing: 0.2px; white-space: nowrap; }
   .tag { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 34px; letter-spacing: 3px;
-         text-transform: uppercase; white-space: nowrap; color: ${AZUL}; }
+         text-transform: uppercase; white-space: nowrap; color: ${AZUL};
+         transform: translateY(7px); } /* centrada en el cuerpo de "Seúl", no en la caja del logo (que incluye ACADEMIA) */
   .blue .tag { color: ${GOLD}; }
 
   /* zona visual que se queda con el aire sobrante, y bloque de texto apoyado abajo */
@@ -133,7 +140,7 @@ const CSS = `
 // Tarjetas
 // ════════════════════════════════════════════════════════════════════════
 const head = (tag) =>
-  `<div class="head"><div class="brand">${SELLO_SVG}<div class="name">Academia Seúl</div></div><div class="tag">${tag}</div></div>`;
+  `<div class="head">${LOGO_SVG}<div class="tag">${tag}</div></div>`;
 
 // íconos (SVG, sin texto) para la tarjeta de Niños
 const ICON = {
@@ -207,6 +214,7 @@ const CARDS = [
   {
     n: 3, blue: true,
     css: `
+      .c3 .txt, .c3 .vis, .c3 > .info { text-align: center; }
       .c3 .h1 { font-size: 80px; margin-top: 44px; }  .pt .c3 .h1 { font-size: 92px; margin-top: 64px; }
       .c3 .vis { flex-direction: column; align-items: stretch; justify-content: center; padding: 26px 0; }
       .c3 .row { padding: 16px 0 18px; border-top: 2px solid rgba(255,255,255,.5); }
@@ -278,8 +286,10 @@ const CARDS = [
       .c5 .price .side { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 50px; line-height: 1.08; }
       .c5 .cuotas { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 64px; line-height: 1.1; margin-top: 12px; }
       .pt .c5 .cuotas { font-size: 68px; }
-      .c5 .rule { margin: 0 0 26px; }
-      .pt .c5 .rule { margin: 0 0 32px; }
+      .c5 .sealrule { display: flex; align-items: center; gap: 24px; margin: 0 0 22px; }
+      .pt .c5 .sealrule { margin: 0 0 28px; }
+      .c5 .sealrule .rule { flex: 1; }
+      .c5 .sealrule .sello { height: 72px; }
       .c5 .dl { font-weight: 600; font-size: 40px; line-height: 1.3; }
       .c5 .go { font-weight: 600; font-size: 40px; line-height: 1.3; margin-top: 18px; }
       .c5 .web { font-family: 'Playfair Display', Georgia, serif; font-weight: 900; font-size: 92px; line-height: 1.34; letter-spacing: -0.5px; margin-top: -8px; }`,
@@ -291,7 +301,7 @@ const CARDS = [
         <div class="cuotas">o 2 cuotas de <span class="gold">US$75</span></div>
       </div>
       <div class="txt">
-        <div class="rule"></div>
+        <div class="sealrule"><div class="rule"></div>${SELLO_SVG}</div>
         <div class="dl">Matrícula hasta el <span class="gold nw">domingo 11 de octubre</span></div>
         <div class="go">Inscríbete en</div>
         <div class="web">academiaseul.com</div>

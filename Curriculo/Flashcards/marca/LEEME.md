@@ -6,3 +6,7 @@
 - Colores permitidos en materiales: azul **#4236F6**, lila **#A99BFF** (sobre fondos claros), blanco o crema **#F3F0E4** (sobre la pizarra u otros fondos oscuros) y negro **#111** (impresión en B/N).
 - **Nunca** en coral ni rosado: regla de la casa, sin rojo.
 - Tamaño mínimo recomendado: 0,35 in (≈ 34 px) de ancho.
+
+# Logo principal · vector
+
+`logo_principal.svg` sale de `D:\Deskotop to D\Academia Seul\1.Logo Principal\Logo Principal Academia Seúl.ai` (pdftocairo -svg + aislado). Proporción 2,95 : 1. Usa `fill="currentColor"`: azul **#4236F6** o navy **#003478** sobre fondos claros, blanco sobre azul o navy, negro para B/N. **Nunca** coral ni rosado. Ancho mínimo recomendado: 1 in (≈ 96 px) en impresión, 160 px en pantalla.
