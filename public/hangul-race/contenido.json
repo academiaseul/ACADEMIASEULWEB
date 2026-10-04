@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "nota": "Contenido de 한글 Race. Para agregar palabras no hace falta tocar el código: suma un objeto a 'items' y su id a la lista 'items' de un nivel. Campos: id, tipo (vocal|consonante|silaba|palabra|frase), ko, rom (romanización revisada), alt (otras formas que se aceptan al escribir), es, tip (pista en español), decir (texto que suena; por defecto ko), nivel (A1…), curso (a11|a12|a21|topik2|ninos), leccion, categoria, acceso (gratis|alumno), audio (ruta propia; vacío = /audio/kr/<hex>.mp3 y, si no existe, voz del dispositivo).",
+  "rangos": [
+    { "xp": 0, "nombre": "Principiante", "ko": "새내기" },
+    { "xp": 60, "nombre": "Explorador del Hangul", "ko": "탐험가" },
+    { "xp": 200, "nombre": "Hangul Chingu", "ko": "한글 친구" },
+    { "xp": 500, "nombre": "Lector de coreano", "ko": "읽는 사람" },
+    { "xp": 1000, "nombre": "Velocista coreano", "ko": "스피드왕" }
+  ],
+  "confusiones": [
+    ["ㅏ", "ㅓ", "ㅗ", "ㅜ"],
+    ["ㅑ", "ㅕ", "ㅛ", "ㅠ"],
+    ["ㅡ", "ㅜ", "ㅣ", "ㅓ"],
+    ["ㄱ", "ㅋ", "ㄷ"],
+    ["ㄷ", "ㅌ", "ㄴ", "ㄹ"],
+    ["ㅂ", "ㅍ", "ㅁ"],
+    ["ㅈ", "ㅊ", "ㅅ"],
+    ["ㅇ", "ㅎ", "ㅁ"]
+  ],
+  "modos": [
+    {
+      "id": "reconoce",
+      "nombre": "Reconoce",
+      "ko": "알아보기",
+      "descripcion": "Ves una letra y eliges cómo suena.",
+      "niveles": [
+        { "id": "vocales", "nombre": "Vocales", "muestra": "ㅏ ㅓ ㅗ", "items": ["v-a", "v-ya", "v-eo", "v-yeo", "v-o", "v-yo", "v-u", "v-yu", "v-eu", "v-i"], "preguntas": 10 },
+        { "id": "consonantes", "nombre": "Consonantes", "muestra": "ㄱ ㄴ ㄷ", "items": ["c-g", "c-n", "c-d", "c-r", "c-m", "c-b", "c-s", "c-ng", "c-j", "c-ch", "c-k", "c-t", "c-p", "c-h"], "preguntas": 12 },
+        { "id": "silabas", "nombre": "Sílabas", "muestra": "가 나 다", "items": ["s-ga", "s-na", "s-da", "s-ra", "s-ma", "s-ba", "s-sa", "s-a", "s-ja", "s-ha", "s-go", "s-nu", "s-meo", "s-bi"], "preguntas": 10 }
+      ]
+    },
+    {
+      "id": "construye",
+      "nombre": "Construye",
+      "ko": "만들기",
+      "descripcion": "Juntas las piezas y armas la sílaba.",
+      "niveles": [
+        { "id": "al-lado", "nombre": "Vocal al lado", "muestra": "ㄱ + ㅏ = 가", "generar": { "iniciales": ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅇ", "ㅈ", "ㅎ"], "vocales": ["ㅏ", "ㅓ", "ㅣ", "ㅑ", "ㅕ"] }, "preguntas": 8 },
+        { "id": "abajo", "nombre": "Vocal abajo", "muestra": "ㄴ + ㅗ = 노", "generar": { "iniciales": ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅇ", "ㅈ", "ㅎ"], "vocales": ["ㅗ", "ㅜ", "ㅡ", "ㅛ", "ㅠ"] }, "preguntas": 8 },
+        { "id": "batchim", "nombre": "Con batchim", "muestra": "ㅎ + ㅏ + ㄴ = 한", "silabas": ["한", "국", "글", "강", "밥", "물", "집", "눈", "문", "말", "손", "산", "김", "남", "봄", "곰"], "preguntas": 8 }
+      ]
+    },
+    {
+      "id": "corre",
+      "nombre": "Corre",
+      "ko": "달리기",
+      "descripcion": "60 segundos: lee y escribe todas las que puedas.",
+      "segundos": 60,
+      "niveles": [
+        { "id": "silabas", "nombre": "Sílabas", "muestra": "가 · 노 · 미", "items": ["s-ga", "s-na", "s-da", "s-ra", "s-ma", "s-ba", "s-sa", "s-a", "s-ja", "s-ha", "s-go", "s-nu", "s-meo", "s-bi"], "generar": { "iniciales": ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅇ", "ㅈ", "ㅎ"], "vocales": ["ㅏ", "ㅓ", "ㅗ", "ㅜ", "ㅡ", "ㅣ"] } },
+        { "id": "palabras", "nombre": "Palabras", "muestra": "나무 · 우유", "items": ["w-namu", "w-uyu", "w-oi", "w-bada", "w-moja", "w-ai", "w-gogi", "w-gudu", "w-meori", "w-chingu", "w-hakgyo", "w-hanguk", "w-gabang", "w-keopi", "w-hangeul", "w-gimchi"] },
+        { "id": "vocabulario", "nombre": "Vocabulario", "muestra": "안녕 · 사랑", "items": ["w-annyeong", "w-gamsa", "w-sarang", "w-oneul", "w-naeil", "w-chingu", "w-hanguk", "w-seoul", "w-eumsik", "w-mul", "w-bap", "w-ireum", "w-saram", "w-seonsaengnim"] }
+      ]
+    }
+  ],
+  "proximamente": [
+    { "id": "lee", "nombre": "Lee", "ko": "읽기", "descripcion": "Palabras y frases: eliges cómo se lee y aprendes qué significan." },
+    { "id": "escribe", "nombre": "Escribe", "ko": "쓰기", "descripcion": "Con teclado coreano: 안녕하세요 a toda velocidad." }
+  ],
+  "items": [
+    { "id": "v-a", "tipo": "vocal", "ko": "ㅏ", "rom": "a", "decir": "아", "tip": "a de amor", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "v-ya", "tipo": "vocal", "ko": "ㅑ", "rom": "ya", "decir": "야", "tip": "ia de piano: la rayita extra agrega la y", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "v-eo", "tipo": "vocal", "ko": "ㅓ", "rom": "eo", "decir": "어", "tip": "o abierta, boca relajada (sin redondear los labios)", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "v-yeo", "tipo": "vocal", "ko": "ㅕ", "rom": "yeo", "decir": "여", "tip": "yo con la boca relajada", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "v-o", "tipo": "vocal", "ko": "ㅗ", "rom": "o", "decir": "오", "tip": "o de oso, labios redondos", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "v-yo", "tipo": "vocal", "ko": "ㅛ", "rom": "yo", "decir": "요", "tip": "io de avión: dos rayitas = y + o", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "v-u", "tipo": "vocal", "ko": "ㅜ", "rom": "u", "decir": "우", "tip": "u de uva: la rayita apunta hacia abajo", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "v-yu", "tipo": "vocal", "ko": "ㅠ", "rom": "yu", "decir": "유", "tip": "iu de ciudad", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "v-eu", "tipo": "vocal", "ko": "ㅡ", "rom": "eu", "decir": "으", "tip": "sonríe y di u", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "v-i", "tipo": "vocal", "ko": "ㅣ", "rom": "i", "decir": "이", "tip": "i de isla: una línea de pie", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+
+    { "id": "c-g", "tipo": "consonante", "ko": "ㄱ", "rom": "g / k", "decir": "가", "tip": "g suave, entre g y k (como en 가 = ga)", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-n", "tipo": "consonante", "ko": "ㄴ", "rom": "n", "decir": "나", "tip": "n normal (나 = na)", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-d", "tipo": "consonante", "ko": "ㄷ", "rom": "d / t", "decir": "다", "tip": "d suave (다 = da)", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-r", "tipo": "consonante", "ko": "ㄹ", "rom": "r / l", "decir": "라", "tip": "r suave de \"pero\"; al final suena l", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-m", "tipo": "consonante", "ko": "ㅁ", "rom": "m", "decir": "마", "tip": "m normal: parece una boca cerrada", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-b", "tipo": "consonante", "ko": "ㅂ", "rom": "b / p", "decir": "바", "tip": "b suave (바 = ba)", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-s", "tipo": "consonante", "ko": "ㅅ", "rom": "s", "decir": "사", "tip": "s normal (사 = sa)", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-ng", "tipo": "consonante", "ko": "ㅇ", "rom": "muda / ng", "decir": "아", "tip": "muda al inicio (아 = a); al final suena ng", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-j", "tipo": "consonante", "ko": "ㅈ", "rom": "j", "decir": "자", "tip": "ch suave, casi \"dch\" (자 = ja)", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-ch", "tipo": "consonante", "ko": "ㅊ", "rom": "ch", "decir": "차", "tip": "ch con aire: es ㅈ con una rayita encima", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-k", "tipo": "consonante", "ko": "ㅋ", "rom": "k", "decir": "카", "tip": "k con aire: es ㄱ con una rayita más", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-t", "tipo": "consonante", "ko": "ㅌ", "rom": "t", "decir": "타", "tip": "t con aire: es ㄷ con una rayita más", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-p", "tipo": "consonante", "ko": "ㅍ", "rom": "p", "decir": "파", "tip": "p con aire", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "c-h", "tipo": "consonante", "ko": "ㅎ", "rom": "h", "decir": "하", "tip": "j muy suave, como un suspiro (하 = ha)", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+
+    { "id": "s-ga", "tipo": "silaba", "ko": "가", "rom": "ga", "alt": ["ka"], "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-na", "tipo": "silaba", "ko": "나", "rom": "na", "es": "yo (entre amigos)", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-da", "tipo": "silaba", "ko": "다", "rom": "da", "alt": ["ta"], "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-ra", "tipo": "silaba", "ko": "라", "rom": "ra", "alt": ["la"], "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-ma", "tipo": "silaba", "ko": "마", "rom": "ma", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-ba", "tipo": "silaba", "ko": "바", "rom": "ba", "alt": ["pa"], "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-sa", "tipo": "silaba", "ko": "사", "rom": "sa", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-a", "tipo": "silaba", "ko": "아", "rom": "a", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-ja", "tipo": "silaba", "ko": "자", "rom": "ja", "alt": ["cha"], "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-ha", "tipo": "silaba", "ko": "하", "rom": "ha", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-go", "tipo": "silaba", "ko": "고", "rom": "go", "alt": ["ko"], "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-nu", "tipo": "silaba", "ko": "누", "rom": "nu", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-meo", "tipo": "silaba", "ko": "머", "rom": "meo", "alt": ["mo"], "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "s-bi", "tipo": "silaba", "ko": "비", "rom": "bi", "alt": ["pi"], "es": "lluvia", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+
+    { "id": "w-namu", "tipo": "palabra", "ko": "나무", "rom": "namu", "es": "árbol", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "naturaleza", "acceso": "gratis" },
+    { "id": "w-uyu", "tipo": "palabra", "ko": "우유", "rom": "uyu", "alt": ["uiu"], "es": "leche", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "comida", "acceso": "gratis" },
+    { "id": "w-oi", "tipo": "palabra", "ko": "오이", "rom": "oi", "es": "pepino", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "comida", "acceso": "gratis" },
+    { "id": "w-bada", "tipo": "palabra", "ko": "바다", "rom": "bada", "alt": ["pada"], "es": "mar", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "naturaleza", "acceso": "gratis" },
+    { "id": "w-moja", "tipo": "palabra", "ko": "모자", "rom": "moja", "alt": ["mocha"], "es": "gorro, sombrero", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "ropa", "acceso": "gratis" },
+    { "id": "w-ai", "tipo": "palabra", "ko": "아이", "rom": "ai", "es": "niño, niña", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "personas", "acceso": "gratis" },
+    { "id": "w-gogi", "tipo": "palabra", "ko": "고기", "rom": "gogi", "alt": ["kogi"], "es": "carne", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "comida", "acceso": "gratis" },
+    { "id": "w-gudu", "tipo": "palabra", "ko": "구두", "rom": "gudu", "alt": ["kudu"], "es": "zapatos", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "ropa", "acceso": "gratis" },
+    { "id": "w-meori", "tipo": "palabra", "ko": "머리", "rom": "meori", "alt": ["mori"], "es": "cabeza; pelo", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "cuerpo", "acceso": "gratis" },
+    { "id": "w-chingu", "tipo": "palabra", "ko": "친구", "rom": "chingu", "alt": ["chinggu", "chingoo"], "es": "amigo, amiga", "nivel": "A1", "curso": "a11", "leccion": "S4", "categoria": "personas", "acceso": "gratis" },
+    { "id": "w-hakgyo", "tipo": "palabra", "ko": "학교", "rom": "hakgyo", "alt": ["hakkyo", "hakyo"], "es": "escuela, colegio", "nivel": "A1", "curso": "a11", "leccion": "S5", "categoria": "lugares", "acceso": "gratis" },
+    { "id": "w-hanguk", "tipo": "palabra", "ko": "한국", "rom": "hanguk", "alt": ["hankuk", "hangug", "hangook"], "es": "Corea", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "lugares", "acceso": "gratis" },
+    { "id": "w-gabang", "tipo": "palabra", "ko": "가방", "rom": "gabang", "alt": ["kabang"], "es": "bolso, mochila", "nivel": "A1", "curso": "a11", "leccion": "S3", "categoria": "objetos", "acceso": "gratis" },
+    { "id": "w-keopi", "tipo": "palabra", "ko": "커피", "rom": "keopi", "alt": ["kopi", "keopee"], "es": "café", "nivel": "A1", "curso": "a11", "leccion": "S3", "categoria": "comida", "acceso": "gratis" },
+    { "id": "w-hangeul", "tipo": "palabra", "ko": "한글", "rom": "hangeul", "alt": ["hangul", "hangeulh"], "es": "alfabeto coreano", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "hangul", "acceso": "gratis" },
+    { "id": "w-gimchi", "tipo": "palabra", "ko": "김치", "rom": "gimchi", "alt": ["kimchi"], "es": "kimchi", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "comida", "acceso": "gratis" },
+
+    { "id": "w-annyeong", "tipo": "palabra", "ko": "안녕", "rom": "annyeong", "alt": ["annyong", "anyong", "anyeong"], "es": "hola / chao (entre amigos)", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "saludos", "acceso": "gratis" },
+    { "id": "w-gamsa", "tipo": "palabra", "ko": "감사", "rom": "gamsa", "alt": ["kamsa"], "es": "gratitud (la base de 감사합니다)", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "saludos", "acceso": "gratis" },
+    { "id": "w-sarang", "tipo": "palabra", "ko": "사랑", "rom": "sarang", "es": "amor", "nivel": "A1", "curso": "a11", "leccion": "", "categoria": "k-pop", "acceso": "gratis" },
+    { "id": "w-oneul", "tipo": "palabra", "ko": "오늘", "rom": "oneul", "alt": ["onul", "oneur"], "es": "hoy", "nivel": "A1", "curso": "a11", "leccion": "S6", "categoria": "tiempo", "acceso": "gratis" },
+    { "id": "w-naeil", "tipo": "palabra", "ko": "내일", "rom": "naeil", "alt": ["neil", "nail"], "es": "mañana", "nivel": "A1", "curso": "a12", "leccion": "", "categoria": "tiempo", "acceso": "gratis" },
+    { "id": "w-seoul", "tipo": "palabra", "ko": "서울", "rom": "seoul", "alt": ["seul", "soul"], "es": "Seúl", "nivel": "A1", "curso": "a11", "leccion": "", "categoria": "lugares", "acceso": "gratis" },
+    { "id": "w-eumsik", "tipo": "palabra", "ko": "음식", "rom": "eumsik", "alt": ["umsik", "eumshik"], "es": "comida", "nivel": "A1", "curso": "a11", "leccion": "S7", "categoria": "comida", "acceso": "gratis" },
+    { "id": "w-mul", "tipo": "palabra", "ko": "물", "rom": "mul", "es": "agua", "nivel": "A1", "curso": "a11", "leccion": "S3", "categoria": "comida", "acceso": "gratis" },
+    { "id": "w-bap", "tipo": "palabra", "ko": "밥", "rom": "bap", "alt": ["pap", "bab"], "es": "arroz; comida", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "comida", "acceso": "gratis" },
+    { "id": "w-ireum", "tipo": "palabra", "ko": "이름", "rom": "ireum", "alt": ["irum"], "es": "nombre", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "personas", "acceso": "gratis" },
+    { "id": "w-saram", "tipo": "palabra", "ko": "사람", "rom": "saram", "es": "persona", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "personas", "acceso": "gratis" },
+    { "id": "w-seonsaengnim", "tipo": "palabra", "ko": "선생님", "rom": "seonsaengnim", "alt": ["sonsaengnim", "seonsengnim", "sonsengnim"], "es": "profesor, profesora", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "personas", "acceso": "gratis" },
+
+    { "id": "f-annyeonghaseyo", "tipo": "frase", "ko": "안녕하세요", "rom": "annyeonghaseyo", "alt": ["annyonghaseyo", "anyonghaseyo"], "es": "hola (formal)", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "saludos", "acceso": "gratis" },
+    { "id": "f-gamsahamnida", "tipo": "frase", "ko": "감사합니다", "rom": "gamsahamnida", "alt": ["kamsahamnida"], "es": "gracias", "tip": "Se escribe 합니다 pero suena 함니다: la ㅂ se vuelve m antes de ㄴ.", "nivel": "A1", "curso": "a11", "leccion": "S2", "categoria": "saludos", "acceso": "gratis" },
+    { "id": "f-gwaenchanayo", "tipo": "frase", "ko": "괜찮아요", "rom": "gwaenchanayo", "alt": ["kwenchanayo", "gwenchanayo"], "es": "está bien / no te preocupes", "tip": "La ㅎ de 찮 casi no suena: 괜차나요.", "nivel": "A1", "curso": "a12", "leccion": "", "categoria": "expresiones", "acceso": "gratis" },
+    { "id": "f-mwohaeyo", "tipo": "frase", "ko": "뭐 해요?", "rom": "mwo haeyo", "alt": ["mwohaeyo", "mo haeyo"], "es": "¿qué haces?", "nivel": "A1", "curso": "a11", "leccion": "S6", "categoria": "expresiones", "acceso": "gratis" },
+    { "id": "f-eodigayo", "tipo": "frase", "ko": "어디 가요?", "rom": "eodi gayo", "alt": ["eodigayo", "odi gayo"], "es": "¿adónde vas?", "nivel": "A1", "curso": "a11", "leccion": "S5", "categoria": "expresiones", "acceso": "gratis" },
+    { "id": "f-saranghaeyo", "tipo": "frase", "ko": "사랑해요", "rom": "saranghaeyo", "alt": ["sarangheyo"], "es": "te quiero", "nivel": "A1", "curso": "a11", "leccion": "", "categoria": "k-pop", "acceso": "gratis" },
+    { "id": "f-hwaiting", "tipo": "frase", "ko": "화이팅", "rom": "hwaiting", "alt": ["fighting", "hwaiteng"], "es": "¡ánimo!, ¡tú puedes!", "nivel": "A1", "curso": "a11", "leccion": "S1", "categoria": "expresiones", "acceso": "gratis" }
+  ]
+}

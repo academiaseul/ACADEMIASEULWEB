@@ -10,11 +10,12 @@ const nextConfig = {
     ],
   },
   transpilePackages: ['remotion', '@remotion/player', '@remotion/transitions', '@remotion/cli'],
-  // Apps estáticas de un solo archivo: Lector de Hangul (public/lector-coreano) y Dubu (public/dubu).
+  // Apps estáticas: Lector de Hangul (public/lector-coreano), Dubu (public/dubu) y 한글 Race (public/hangul-race).
   async rewrites() {
     return [
       { source: '/lector-coreano', destination: '/lector-coreano/index.html' },
       { source: '/dubu', destination: '/dubu/index.html' },
+      { source: '/hangul-race', destination: '/hangul-race/index.html' },
     ];
   },
   async redirects() {

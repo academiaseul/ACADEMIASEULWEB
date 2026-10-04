@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>한글 Race · ¿Qué tan rápido lees coreano? — Academia Seúl</title>
+<meta name="description" content="한글 Race: el juego gratis para aprender a leer coreano. Reconoce letras, arma sílabas y corre contra el reloj. En español, con voz coreana y sin cuenta. De Academia Seúl.">
+<meta name="theme-color" content="#4036ED">
+<link rel="canonical" href="https://www.academiaseul.com/hangul-race">
+<meta property="og:title" content="한글 Race · ¿Qué tan rápido lees coreano?">
+<meta property="og:description" content="Aprende a leer coreano jugando: letras, sílabas y palabras contra el reloj. Gratis y sin cuenta, de Academia Seúl.">
+<meta property="og:image" content="https://www.academiaseul.com/og-image.png">
+<meta property="og:url" content="https://www.academiaseul.com/hangul-race">
+<meta property="og:type" content="website">
+<link rel="icon" href="/hangul-race/tigre.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script>
+  // Tema compartido con el sitio, el Lector y Dubu (as-theme), antes de pintar
+  try { var t = localStorage.getItem('as-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<style>
+/* ── Tokens (marca Academia Seúl · nunca rojo ni rosado) ─────────────────── */
+:root{--bg:#F6F6F6;--card:#FFFFFF;--txt:#14142B;--muted:#5C6280;--border:#E3E5EF;--azul:#4036ED;--azul-txt:#4036ED;--azul-osc:#2D23C9;--lila:#A79BFF;--lila-suave:#EEEBFF;--navy:#003478;--navy-txt:#003478;--oro:#E8B84B;--oro-txt:#8A6A14;--oro-suave:#FFF5DC;--sombra:0 8px 28px rgba(16,16,60,.08);--radio:22px}
+[data-theme=dark]{--bg:#0B0B14;--card:#16162B;--txt:#F1F1F8;--muted:#A6ABC2;--border:#272746;--azul:#4C43F0;--azul-txt:#A49EFF;--azul-osc:#3B32D8;--lila:#A79BFF;--lila-suave:#211E44;--navy-txt:#C9D4FF;--oro:#E8B84B;--oro-txt:#E8B84B;--oro-suave:#2E2614;--sombra:0 8px 28px rgba(0,0,0,.45)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--txt);font-family:"Noto Sans KR",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+body{min-height:100dvh;overflow-x:hidden}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--azul-txt);outline-offset:3px}
+a{color:var(--azul-txt)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+[hidden]{display:none!important}
+.tigre{display:inline-block;background:var(--azul);-webkit-mask:url(/hangul-race/tigre.png) center/contain no-repeat;mask:url(/hangul-race/tigre.png) center/contain no-repeat;flex-shrink:0}
+.tigre.oro{background:var(--oro)}.tigre.blanco{background:#fff}
+
+/* ── Cabecera y pie del sitio (iguales a Dubu y el Lector) ──────────────── */
+.site-top{background:var(--card);border-bottom:1px solid var(--border)}
+.site-top .in{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:10px 16px}
+.site-top .logo{display:flex;align-items:center;gap:10px;margin-right:auto;text-decoration:none}
+.site-top img{display:block}
+.site-top a.lnk{color:var(--muted);text-decoration:none;font-weight:700;font-size:.9rem}
+.site-top a.lnk:hover{color:var(--azul-txt)}
+.site-top .ico{width:40px;height:40px;border-radius:10px;border:1px solid var(--border);color:var(--muted);display:flex;align-items:center;justify-content:center;font-size:17px}
+.site-top .ico:hover{color:var(--azul-txt);border-color:var(--azul-txt)}
+@media (max-width:560px){.site-top .wordmark,.site-top a.lnk.opc{display:none}.site-top .in{gap:12px}}
+.site-foot{background:#0a0a0f;color:rgba(255,255,255,.55);margin-top:48px;font-size:.88rem}
+.site-foot .in{max-width:960px;margin:0 auto;padding:34px 16px 26px;display:flex;flex-direction:column;gap:18px}
+.site-foot .brandrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.site-foot .tag{color:#fafaf5;font-weight:700}.site-foot .tag b{color:#A79BFF}
+.site-foot nav{display:flex;flex-wrap:wrap;gap:6px 18px}
+.site-foot nav a{color:rgba(255,255,255,.6);text-decoration:none;font-weight:600}
+.site-foot nav a:hover{color:#fafaf5}
+.site-foot .copy{border-top:1px solid rgba(255,255,255,.08);padding-top:14px;font-size:.78rem;color:rgba(255,255,255,.4)}
+
+/* ── App ────────────────────────────────────────────────────────────────── */
+.app{max-width:540px;margin:0 auto;padding:0 16px}
+.screen{display:none;flex-direction:column;gap:18px;min-height:calc(100dvh - 61px);padding:20px 0 28px}
+.screen.on{display:flex;animation:entra .25s ease-out}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:16px;font-weight:800;font-size:17px;background:var(--azul);color:#fff;box-shadow:0 8px 22px rgba(64,54,237,.28);transition:transform .12s,background .15s;text-decoration:none}
+.btn:hover{background:var(--azul-osc)}
+.btn:active{transform:translateY(2px)}
+.btn.grande{min-height:64px;font-size:21px;letter-spacing:.04em;border-radius:20px}
+.btn.linea{background:var(--card);color:var(--azul-txt);border:2px solid var(--border);box-shadow:none}
+.btn.linea:hover{border-color:var(--azul-txt);background:var(--card)}
+.btn.chico{min-height:44px;font-size:15px;padding:0 16px;border-radius:12px}
+.fila{display:flex;gap:10px;flex-wrap:wrap}
+.fila>.btn{flex:1 1 220px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radio);box-shadow:var(--sombra);padding:20px}
+.muted{color:var(--muted)}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;padding:6px 12px;border-radius:999px;background:var(--lila-suave);color:var(--navy-txt)}
+
+/* Inicio */
+.hero{display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;padding-top:18px}
+.hero .tigre{width:92px;height:92px}
+.hero h1{margin:0;font-size:clamp(48px,14vw,72px);font-weight:900;line-height:1;letter-spacing:-.02em;color:var(--txt)}
+.hero h1 span{color:var(--azul-txt)}
+.hero .sub{margin:0;font-size:19px;font-weight:500;color:var(--muted);max-width:380px}
+.burbuja{position:relative;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:10px 14px;font-size:15px;font-weight:600;box-shadow:var(--sombra)}
+.burbuja .es{display:block;font-size:12.5px;font-weight:500;color:var(--muted);margin-top:2px}
+.pasos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;text-align:center}
+.pasos div{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:14px 8px;font-size:13px;color:var(--muted)}
+.pasos b{display:block;font-size:26px;color:var(--txt);margin-bottom:4px}
+.perfil{display:flex;align-items:center;gap:12px}
+.barra{height:10px;border-radius:999px;background:var(--lila-suave);overflow:hidden}
+.barra i{display:block;height:100%;background:var(--azul);border-radius:999px;transition:width .5s}
+.fine{font-size:13px;color:var(--muted);text-align:center;margin:0}
+
+/* Elegir */
+.top{display:flex;align-items:center;gap:10px}
+.top h2{margin:0;font-size:22px;flex-grow:1}
+.icob{width:44px;height:44px;border-radius:12px;border:1px solid var(--border);background:var(--card);display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--muted)}
+.icob:hover{color:var(--azul-txt);border-color:var(--azul-txt)}
+.modo{display:flex;flex-direction:column;gap:12px}
+.modo h3{margin:0;font-size:20px;display:flex;align-items:baseline;gap:8px}
+.modo h3 small{font-size:14px;color:var(--muted);font-weight:500}
+.modo p{margin:0;color:var(--muted);font-size:15px}
+.niveles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.nv{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-height:76px;padding:12px 14px;border-radius:16px;border:2px solid var(--border);background:var(--card);text-align:left}
+.nv:hover{border-color:var(--azul-txt)}
+.nv b{font-size:15px}
+.nv .m{font-size:18px;font-weight:700;color:var(--azul-txt)}
+.nv .rec{font-size:12px;font-weight:700;color:var(--oro-txt)}
+.nv.sug{border-color:var(--azul);background:var(--lila-suave)}
+.pronto{opacity:.7}
+.pronto .nv{cursor:default}
+
+/* Cuenta regresiva */
+#cuenta{align-items:center;justify-content:center;text-align:center}
+#cuenta .num{font-size:140px;font-weight:900;line-height:1;color:var(--azul-txt)}
+#cuenta .ko{font-size:30px;font-weight:700;margin-top:4px}
+#cuenta .lbl{font-size:16px;color:var(--muted)}
+.salta{animation:cuenta .7s ease-out}
+
+/* Juego */
+.hud{display:flex;align-items:center;gap:10px}
+.hud .prog{flex-grow:1;height:12px;border-radius:999px;background:var(--lila-suave);overflow:hidden}
+.hud .prog i{display:block;height:100%;width:0;background:var(--azul);border-radius:999px;transition:width .3s}
+.hud .prog.tiempo i{transition:width .1s linear}
+.hud .prog.poco i{background:var(--oro)}
+.hud .dato{display:flex;align-items:center;gap:4px;font-weight:800;font-size:15px;min-width:52px;justify-content:center;padding:6px 10px;border-radius:12px;background:var(--card);border:1px solid var(--border)}
+.hud .dato.racha.on{background:var(--oro-suave);border-color:var(--oro);color:var(--oro-txt)}
+.coach{display:flex;align-items:center;gap:10px;min-height:58px}
+.coach .tigre{width:44px;height:44px}
+.coach .burbuja{flex-grow:1}
+.tablero{position:relative;background:var(--card);border:1px solid var(--border);border-radius:28px;box-shadow:var(--sombra);min-height:min(230px,30vh);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:62px 14px 22px;text-align:center}
+.tablero .ko{font-size:clamp(84px,27vw,140px);font-weight:700;line-height:1.05;color:var(--txt)}
+.tablero .ko.largo{font-size:clamp(60px,18vw,96px)}
+.tablero .pie{min-height:26px;font-size:18px;font-weight:600;color:var(--muted);margin-top:6px}
+.tablero .pie b{color:var(--azul-txt)}
+.tablero .oir{position:absolute;top:12px;right:12px;width:48px;height:48px;border-radius:14px;background:var(--lila-suave);color:var(--navy-txt);font-size:20px;display:flex;align-items:center;justify-content:center}
+.tablero .tipo{position:absolute;top:16px;left:18px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tablero.ok{border-color:var(--azul);animation:pop .35s ease-out}
+.tablero.mal{animation:shake .4s ease-in-out}
+.xpvuela{position:absolute;top:40%;left:50%;transform:translateX(-50%);font-weight:900;font-size:24px;color:var(--azul-txt);pointer-events:none;animation:sube .9s ease-out forwards}
+/* Construye: piezas que se juntan */
+.piezas{display:flex;align-items:center;justify-content:center;gap:14px;transition:gap .3s,opacity .3s,transform .3s}
+.piezas .p{font-size:clamp(64px,19vw,100px);font-weight:700;line-height:1;padding:6px 14px;border-radius:18px;background:var(--lila-suave);color:var(--navy-txt)}
+.piezas .mas{font-size:34px;font-weight:700;color:var(--muted)}
+.piezas.tres{gap:6px}
+.piezas.tres .p{font-size:clamp(44px,13vw,76px);padding:4px 10px}
+.piezas.tres .mas{font-size:26px}
+.piezas.juntar{gap:0;opacity:0;transform:scale(.6)}
+.armada{display:none;font-size:clamp(96px,30vw,150px);font-weight:700;line-height:1;color:var(--azul-txt)}
+.armada.on{display:block;animation:pop .4s ease-out}
+.regla{font-size:14px;color:var(--muted);margin-top:8px;min-height:20px}
+/* Opciones */
+.opciones{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.op{position:relative;min-height:76px;border-radius:18px;border:2px solid var(--border);background:var(--card);font-size:24px;font-weight:800;color:var(--txt);box-shadow:0 2px 0 var(--border);transition:transform .1s,border-color .15s,background .15s}
+.op.kr{font-size:40px;font-weight:700}
+.op:hover:not(:disabled){border-color:var(--azul-txt)}
+.op:active:not(:disabled){transform:translateY(2px)}
+.op .n{position:absolute;top:6px;left:10px;font-size:11px;font-weight:700;color:var(--muted)}
+.op.ok{background:var(--azul);border-color:var(--azul);color:#fff}
+.op.ok::after{content:"✓";position:absolute;top:6px;right:10px;font-size:16px}
+.op.mal{border-color:var(--oro);background:var(--oro-suave);color:var(--muted);text-decoration:line-through;cursor:default}
+.op.mal::after{content:"✗";position:absolute;top:6px;right:10px;font-size:16px;color:var(--oro-txt);text-decoration:none}
+.op:disabled{cursor:default}
+/* Explicación */
+.explica{display:none;border-radius:18px;background:var(--oro-suave);border:2px solid var(--oro);padding:14px 16px;font-size:15px;line-height:1.5}
+.explica.on{display:block;animation:entra .2s ease-out}
+.explica b.t{display:block;font-size:17px;margin-bottom:4px}
+.explica p{margin:2px 0}
+/* Corre */
+.escribe{display:flex;gap:10px}
+.escribe input{flex:1 1 auto;min-width:0;height:64px;border-radius:18px;border:2px solid var(--border);background:var(--card);color:var(--txt);font:inherit;font-size:24px;font-weight:700;text-align:center;padding:0 12px}
+.escribe input:focus{border-color:var(--azul-txt);outline:none}
+.escribe input.duda{border-color:var(--oro)}
+.escribe .btn{min-height:64px;padding:0 20px;border-radius:18px}
+.pista{min-height:24px;font-size:15px;text-align:center;color:var(--muted)}
+.pista b{color:var(--oro-txt)}
+.ultimo{min-height:30px;text-align:center;font-size:15px;color:var(--muted)}
+.ultimo .kr{font-weight:700;color:var(--azul-txt)}
+.ayuda{font-size:13px;color:var(--muted);text-align:center;margin:0}
+
+/* Resultado */
+.res-head{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px}
+.res-head .tigre{width:84px;height:84px}
+.res-head h2{margin:0;font-size:30px;font-weight:900}
+.res-head .es{color:var(--muted);font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:14px;text-align:center}
+.stat b{display:block;font-size:30px;font-weight:900;line-height:1.1}
+.stat span{font-size:13px;color:var(--muted);font-weight:600}
+.record{align-self:center;background:var(--oro-suave);color:var(--oro-txt);border:2px solid var(--oro);font-weight:800;padding:8px 16px;border-radius:999px;font-size:15px}
+.aprend{display:flex;flex-wrap:wrap;gap:8px}
+.aprend button{display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 12px;border-radius:14px;background:var(--card);border:1px solid var(--border);min-width:72px}
+.aprend button:hover{border-color:var(--azul-txt)}
+.aprend .k{font-size:24px;font-weight:700}
+.aprend .r{font-size:12px;color:var(--muted)}
+.aprend .e{font-size:11px;color:var(--muted)}
+.aprend button.rep{border-color:var(--oro);background:var(--oro-suave)}
+h3.sec{margin:6px 0 0;font-size:16px}
+.curso{display:flex;gap:14px;align-items:center}
+.curso .tigre{width:40px;height:40px}
+.curso p{margin:0;font-size:14px;line-height:1.45;color:var(--muted)}
+.curso a{font-weight:700}
+
+/* Confeti (azul, lila y oro) */
+.confeti{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:30}
+.confeti i{position:absolute;top:-12px;width:9px;height:14px;border-radius:2px;animation:cae 1.6s ease-in forwards}
+
+@keyframes entra{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.06)}100%{transform:scale(1)}}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-9px)}40%{transform:translateX(9px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
+@keyframes sube{from{opacity:1;transform:translate(-50%,0)}to{opacity:0;transform:translate(-50%,-60px)}}
+@keyframes cuenta{from{transform:scale(1.5);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes cae{to{transform:translateY(105vh) rotate(540deg);opacity:.9}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.confeti{display:none}}
+</style>
+</head>
+<body>
+<nav class="site-top" aria-label="Academia Seúl">
+  <div class="in">
+    <a class="logo" href="/" aria-label="Volver a academiaseul.com">
+      <img src="/logo-tiger-red.png" alt="" style="height:36px;width:36px;object-fit:contain">
+      <img class="wordmark" src="/logo-text-red.png" alt="Academia Seúl" style="height:24px;width:auto;object-fit:contain">
+    </a>
+    <a class="lnk opc" href="/lector-coreano">Lector</a>
+    <a class="lnk opc" href="/dubu">Dubu</a>
+    <a class="lnk" href="/programa">Cursos</a>
+    <button type="button" class="ico" id="btn-sonido" aria-label="Silenciar sonido" aria-pressed="true" title="Sonido">🔊</button>
+    <button type="button" class="ico" id="btn-tema" aria-label="Cambiar a modo noche" title="Modo noche">☾</button>
+  </div>
+</nav>
+
+<main class="app">
+
+  <!-- ── Inicio ── -->
+  <section id="inicio" class="screen on" aria-labelledby="titulo">
+    <div class="hero">
+      <span class="tigre" role="img" aria-label="Tigre chingu de Academia Seúl"></span>
+      <h1 id="titulo">한글 <span>Race</span></h1>
+      <p class="sub">¿Qué tan rápido puedes leer coreano?</p>
+      <div class="burbuja" id="saludo">화이팅! 🐯<span class="es">Aunque no sepas nada, en 2 minutos vas a leer tus primeras letras.</span></div>
+    </div>
+    <button class="btn grande" id="btn-jugar">JUGAR</button>
+    <p class="fine" id="sugerido">Empiezas por: Reconoce · Vocales</p>
+    <div class="card perfil" id="perfil" hidden>
+      <span class="tigre oro" style="width:38px;height:38px" aria-hidden="true"></span>
+      <div style="flex-grow:1;display:flex;flex-direction:column;gap:6px">
+        <div style="display:flex;justify-content:space-between;gap:8px;font-size:14px"><b id="rango">Principiante</b><span class="muted" id="xp-total">0 XP</span></div>
+        <div class="barra" aria-hidden="true"><i id="rango-barra" style="width:0"></i></div>
+        <span class="muted" style="font-size:12.5px" id="rango-prox"></span>
+      </div>
+    </div>
+    <button class="btn linea" id="btn-elegir">Elegir modo y nivel</button>
+    <div class="pasos" aria-label="Cómo se juega">
+      <div><b>ㅏ</b>Reconoce las letras</div>
+      <div><b>가</b>Arma sílabas</div>
+      <div><b>⏱</b>Corre contra el reloj</div>
+    </div>
+    <p class="fine">Gratis · sin cuenta · con voz coreana · Academia Seúl</p>
+  </section>
+
+  <!-- ── Elegir modo y nivel ── -->
+  <section id="elegir" class="screen" aria-labelledby="t-elegir">
+    <div class="top">
+      <button class="icob" data-ir="inicio" aria-label="Volver">←</button>
+      <h2 id="t-elegir">Elige tu carrera</h2>
+    </div>
+    <div id="lista-modos" style="display:flex;flex-direction:column;gap:14px"></div>
+  </section>
+
+  <!-- ── Cuenta regresiva ── -->
+  <section id="cuenta" class="screen" aria-live="assertive">
+    <span class="lbl" id="cuenta-lbl">Reconoce · Vocales</span>
+    <span class="num" id="cuenta-num">3</span>
+    <span class="ko" id="cuenta-ko">셋</span>
+  </section>
+
+  <!-- ── Juego ── -->
+  <section id="juego" class="screen" aria-label="Juego">
+    <div class="hud">
+      <button class="icob" id="btn-salir" aria-label="Salir de la ronda">✕</button>
+      <div class="prog" id="prog" role="progressbar" aria-label="Avance de la ronda" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i></i></div>
+      <span class="dato racha" id="hud-racha" title="Racha" aria-label="Racha">🔥 0</span>
+      <span class="dato" id="hud-xp" title="XP" aria-label="XP">0 XP</span>
+    </div>
+    <div class="coach">
+      <span class="tigre" aria-hidden="true"></span>
+      <div class="burbuja" id="coach">화이팅! 🐯<span class="es">¡Tú puedes!</span></div>
+    </div>
+    <div class="tablero" id="tablero">
+      <span class="tipo" id="tipo">Vocal</span>
+      <button class="oir" id="btn-oir" aria-label="Escuchar">🔊</button>
+      <div id="vista"></div>
+      <div class="pie" id="pie"></div>
+    </div>
+    <div class="explica" id="explica" role="status"></div>
+    <div class="opciones" id="opciones"></div>
+    <form class="escribe" id="escribe" hidden autocomplete="off">
+      <label class="sr" for="entrada">Escribe cómo se lee</label>
+      <input id="entrada" type="text" inputmode="text" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="go" placeholder="¿cómo se lee?">
+      <button class="btn" type="submit" aria-label="Enviar">→</button>
+    </form>
+    <div class="pista" id="pista"></div>
+    <div class="ultimo" id="ultimo"></div>
+    <div class="fila" id="corre-acciones" hidden>
+      <button class="btn linea chico" id="btn-pasar">Pasar</button>
+    </div>
+    <p class="ayuda" id="ayuda">Teclado: 1–4 para elegir · espacio para escuchar</p>
+  </section>
+
+  <!-- ── Resultado ── -->
+  <section id="resultado" class="screen" aria-labelledby="res-titulo">
+    <div class="res-head">
+      <span class="tigre" aria-hidden="true"></span>
+      <h2 id="res-titulo">잘했어!</h2>
+      <span class="es" id="res-es">¡Bien hecho!</span>
+    </div>
+    <span class="record" id="res-record" hidden>🏆 Nuevo récord personal</span>
+    <div class="stats" id="stats"></div>
+    <div class="card perfil">
+      <span class="tigre oro" style="width:38px;height:38px" aria-hidden="true"></span>
+      <div style="flex-grow:1;display:flex;flex-direction:column;gap:6px">
+        <div style="display:flex;justify-content:space-between;gap:8px;font-size:14px"><b id="res-rango">Principiante</b><span class="muted" id="res-xp-total">0 XP</span></div>
+        <div class="barra" aria-hidden="true"><i id="res-barra" style="width:0"></i></div>
+        <span class="muted" style="font-size:12.5px" id="res-prox"></span>
+      </div>
+    </div>
+    <button class="btn grande" id="btn-otra">JUGAR DE NUEVO</button>
+    <div class="fila">
+      <button class="btn linea" id="btn-siguiente" hidden>Siguiente nivel →</button>
+      <button class="btn linea" id="btn-compartir">Compartir mi récord</button>
+    </div>
+    <h3 class="sec">Lo que leíste <span class="muted" style="font-weight:500;font-size:13px">· toca para escuchar</span></h3>
+    <div class="aprend" id="aprend"></div>
+    <div class="card curso">
+      <span class="tigre" aria-hidden="true"></span>
+      <p>¿Te gustó? En <b>Básico 1</b> aprendes a leer y a hablar desde cero, en vivo y en español. <a href="/programa#a11">Ver el curso</a></p>
+    </div>
+    <button class="btn linea chico" data-ir="elegir" style="align-self:center">Elegir otro modo</button>
+  </section>
+
+</main>
+<div class="sr" aria-live="polite" id="live"></div>
+
+<div class="site-foot">
+  <div class="in">
+    <div class="brandrow">
+      <img src="/logo-tiger-red.png" alt="" style="height:34px;width:34px;object-fit:contain">
+      <img src="/logo-text-red.png" alt="Academia Seúl" style="height:22px;width:auto;object-fit:contain">
+      <span class="tag" style="margin-left:8px">Aprende coreano con un <b>chingu</b>.</span>
+    </div>
+    <nav aria-label="Enlaces">
+      <a href="/">Inicio</a>
+      <a href="/programa">Cursos</a>
+      <a href="/hangul-race">한글 Race</a>
+      <a href="/dubu">Dubu · el puzzle</a>
+      <a href="/lector-coreano">Lector de Hangul</a>
+      <a href="/recursos">Recursos</a>
+      <a href="/blog">Blog</a>
+      <a href="/terminos">Términos</a>
+      <a href="/privacidad">Privacidad</a>
+    </nav>
+    <div class="copy">© 2026 Academia Seúl · Santiago, Chile · 한글 Race es gratis y sin cuenta: tu progreso se guarda en este navegador.</div>
+  </div>
+</div>
+
+<script src="/hangul-race/motor.js"></script>
+<script>
+/* ======================================================================
+   한글 Race · pantalla. Toda la lógica de juego está en motor.js (HR.*);
+   el contenido, en contenido.json. Aquí solo se dibuja y se escucha.
+   ====================================================================== */
+(function () {
+  'use strict';
+  const $ = (s) => document.querySelector(s);
+  const el = (tag, attrs, html) => { const e = document.createElement(tag); if (attrs) for (const k in attrs) e.setAttribute(k, attrs[k]); if (html != null) e.innerHTML = html; return e; };
+  const esc = (t) => String(t == null ? '' : t).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const ahora = () => performance.now();
+  const reducido = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  let PROG = null, P = null, MODOS = null;
+  const S = { bloqueado: false, timers: [], reloj: null, modo: null, nivel: null };
+
+  /* ── Frases del tigre (coreano + español) ── */
+  const DICE = {
+    ok: [['오! 잘했어! 🐯', '¡Bien hecho!'], ['맞아요! ✓', '¡Correcto!'], ['좋아요!', '¡Muy bien!'], ['대박!', '¡Increíble!'], ['완벽해요!', '¡Perfecto!']],
+    ok2: [['그렇지! 🐯', '¡Eso! Ahora sí.'], ['맞아요! ✓', '¡Ahora sí!'], ['좋아요!', '¡Bien! Así se aprende.']],
+    racha: [['연속 {n}개! 🔥', '¡{n} seguidas!']],
+    mal: [['괜찮아! 다시 해보자.', 'Tranqui, ¡otra vez!'], ['거의 다 왔어!', '¡Casi!'], ['다시 해볼까요?', '¿Lo intentamos de nuevo?']],
+    inicio: [['화이팅! 🐯', '¡Tú puedes!']],
+    final: [['거의 다 왔어!', '¡Ya casi terminas!']],
+  };
+  const elige = (arr) => arr[Math.floor(Math.random() * arr.length)];
+  function coach(tipo, n) {
+    const [ko, es] = elige(DICE[tipo]).map((t) => t.replace('{n}', n));
+    $('#coach').innerHTML = esc(ko) + '<span class="es">' + esc(es) + '</span>';
+  }
+  const anunciar = (t) => { $('#live').textContent = ''; setTimeout(() => { $('#live').textContent = t; }, 30); };
+
+  /* ── Audio: clip propio → voz SunHi del sitio (/audio/kr/<hex>.mp3) → voz del dispositivo ── */
+  const AUDIO_BASE = '/audio/kr/', cache = {}, falta = {};
+  let actual = null, koVoz = null;
+  function eligeVoz() { try { koVoz = speechSynthesis.getVoices().find((v) => (v.lang || '').toLowerCase().startsWith('ko')) || null; } catch (e) {} }
+  if ('speechSynthesis' in window) { eligeVoz(); try { speechSynthesis.onvoiceschanged = eligeVoz; } catch (e) {} }
+  const hex = (t) => { try { return Array.from(new TextEncoder().encode(t)).map((b) => b.toString(16).padStart(2, '0')).join(''); } catch (e) { return null; } };
+  function fuente(item) { return item.audio || (AUDIO_BASE + hex(HR.queSuena(item)) + '.mp3'); }
+  function tts(t) { try { if (!('speechSynthesis' in window)) return; const u = new SpeechSynthesisUtterance(t); u.lang = 'ko-KR'; if (koVoz) u.voice = koVoz; u.rate = 0.85; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (e) {} }
+  function oir(item) {
+    if (!PROG.sonido || !item) return;
+    const texto = HR.queSuena(item), src = fuente(item);
+    if (falta[src]) { tts(texto); return; }
+    try {
+      if (actual) actual.pause();
+      let a = cache[src]; if (!a) { a = new Audio(src); cache[src] = a; }
+      actual = a; a.currentTime = 0;
+      const p = a.play();
+      if (p && p.catch) p.catch((err) => { if (err && err.name === 'NotAllowedError') return; falta[src] = 1; delete cache[src]; tts(texto); });
+    } catch (e) { tts(texto); }
+  }
+  function precargar(items) { for (const it of items) { const src = fuente(it); if (cache[src] || falta[src]) continue; try { const a = new Audio(src); a.preload = 'auto'; a.onerror = () => { falta[src] = 1; }; cache[src] = a; } catch (e) {} } }
+  // Pequeños sonidos de juego (sin archivos)
+  let ctx = null;
+  function blip(f, t0, dur, g) {
+    if (!PROG.sonido) return;
+    try { if (!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)(); if (ctx.state === 'suspended') ctx.resume();
+      const o = ctx.createOscillator(), v = ctx.createGain(); o.type = 'triangle'; o.frequency.value = f;
+      v.gain.setValueAtTime(0, ctx.currentTime + t0); v.gain.linearRampToValueAtTime(g || 0.16, ctx.currentTime + t0 + 0.005); v.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + t0 + dur);
+      o.connect(v); v.connect(ctx.destination); o.start(ctx.currentTime + t0); o.stop(ctx.currentTime + t0 + dur + 0.05); } catch (e) {}
+  }
+  const sonidoOk = () => { blip(660, 0, 0.12); blip(990, 0.07, 0.16); };
+  const sonidoMal = () => blip(240, 0, 0.18, 0.12);
+
+  /* ── Pantallas ── */
+  function ir(id) {
+    for (const s of document.querySelectorAll('.screen')) s.classList.toggle('on', s.id === id);
+    window.scrollTo(0, 0);
+    const foco = { inicio: '#btn-jugar', elegir: '#t-elegir', resultado: '#btn-otra' }[id];
+    if (foco) setTimeout(() => { const f = $(foco); if (f) { if (!f.hasAttribute('tabindex') && f.tagName === 'H2') f.setAttribute('tabindex', '-1'); f.focus({ preventScroll: true }); } }, 60);
+    if (id === 'inicio') pintaInicio();
+  }
+  const limpiaTimers = () => { S.timers.forEach(clearTimeout); S.timers = []; if (S.reloj) { clearInterval(S.reloj); S.reloj = null; } };
+  const luego = (fn, ms) => { S.timers.push(setTimeout(fn, ms)); };
+
+  function nombreDe(m, n) { const mo = HR.modo(m), nv = HR.nivel(m, n); return (mo ? mo.nombre : m) + ' · ' + (nv ? nv.nombre : n); }
+
+  function pintaPerfil(pre) {
+    const r = HR.rango(PROG.xp);
+    $(pre + 'rango').textContent = r.nombre + ' · ' + r.ko;
+    $(pre + 'xp-total').textContent = PROG.xp + ' XP';
+    $(pre + 'barra').style.width = Math.round(r.avance * 100) + '%';
+    $(pre + 'prox').textContent = r.proximo ? 'Faltan ' + (r.proximo.xp - PROG.xp) + ' XP para ' + r.proximo.nombre : '¡Llegaste al rango más alto! 🐯';
+  }
+  function pintaInicio() {
+    const rec = HR.recomendado(PROG);
+    $('#sugerido').textContent = (PROG.partidas ? 'Tu siguiente carrera: ' : 'Empiezas por: ') + nombreDe(rec.modo, rec.nivel);
+    $('#perfil').hidden = !PROG.partidas;
+    if (PROG.partidas) {
+      const r = HR.rango(PROG.xp);
+      $('#rango').textContent = r.nombre + ' · ' + r.ko;
+      $('#xp-total').textContent = PROG.xp + ' XP';
+      $('#rango-barra').style.width = Math.round(r.avance * 100) + '%';
+      $('#rango-prox').textContent = r.proximo ? 'Faltan ' + (r.proximo.xp - PROG.xp) + ' XP para ' + r.proximo.nombre : '¡Llegaste al rango más alto! 🐯';
+      $('#saludo').innerHTML = '다시 왔네! 🐯<span class="es">¡Volviste! ¿Una carrera más?</span>';
+    }
+  }
+
+  function pintaElegir() {
+    const rec = HR.recomendado(PROG);
+    const cont = $('#lista-modos');
+    cont.innerHTML = '';
+    for (const m of MODOS.modos) {
+      const c = el('div', { class: 'card modo' });
+      c.innerHTML = '<h3>' + esc(m.nombre) + ' <small>' + esc(m.ko) + '</small></h3><p>' + esc(m.descripcion) + '</p>';
+      const g = el('div', { class: 'niveles' });
+      for (const n of m.niveles) {
+        const r = PROG.records[m.id + ':' + n.id];
+        const sug = rec.modo === m.id && rec.nivel === n.id;
+        const b = el('button', { class: 'nv' + (sug ? ' sug' : ''), 'data-modo': m.id, 'data-nivel': n.id });
+        b.innerHTML = '<span class="m">' + esc(n.muestra) + '</span><b>' + esc(n.nombre) + '</b>' +
+          (r ? '<span class="rec">✓ ' + (m.id === 'corre' ? r.primeraVez + ' palabras' : r.precision + ' %') + '</span>' : (sug ? '<span class="rec">← sigue aquí</span>' : ''));
+        b.setAttribute('aria-label', m.nombre + ', ' + n.nombre + (r ? ', récord ' + (m.id === 'corre' ? r.primeraVez + ' palabras' : r.precision + ' por ciento') : '') + (sug ? ', recomendado' : ''));
+        g.appendChild(b);
+      }
+      c.appendChild(g);
+      cont.appendChild(c);
+    }
+    for (const p of MODOS.proximamente || []) {
+      const c = el('div', { class: 'card modo pronto' });
+      c.innerHTML = '<h3>' + esc(p.nombre) + ' <small>' + esc(p.ko) + '</small> <span class="chip">pronto</span></h3><p>' + esc(p.descripcion) + '</p>';
+      cont.appendChild(c);
+    }
+  }
+
+  /* ── Cuenta regresiva: 셋 · 둘 · 하나 ── */
+  function cuenta(m, n, despues) {
+    $('#cuenta-lbl').textContent = nombreDe(m, n);
+    ir('cuenta');
+    const pasos = [['3', '셋'], ['2', '둘'], ['1', '하나'], ['¡Ya!', '시작!']];
+    let i = 0;
+    const paso = () => {
+      if (i >= pasos.length) { despues(); return; }
+      const [num, ko] = pasos[i++];
+      const N = $('#cuenta-num'); N.textContent = num; $('#cuenta-ko').textContent = ko;
+      N.classList.remove('salta'); void N.offsetWidth; N.classList.add('salta');
+      blip(i < 4 ? 520 : 880, 0, 0.1);
+      luego(paso, i < 4 ? 650 : 350);
+    };
+    paso();
+  }
+
+  /* ── Juego ── */
+  function iniciar(m, n) {
+    limpiaTimers();
+    S.modo = m; S.nivel = n;
+    P = HR.nuevaPartida(m, n);
+    precargar(P.pool.slice(0, 30));
+    cuenta(m, n, () => {
+      ir('juego');
+      const corre = m === 'corre';
+      $('#opciones').hidden = corre;
+      $('#escribe').hidden = !corre;
+      $('#corre-acciones').hidden = !corre;
+      $('#ayuda').textContent = corre ? 'Escribe en letras latinas (annyeong) o con teclado coreano (안녕) · Enter para enviar' : 'Teclado: 1–4 para elegir · espacio para escuchar';
+      $('#prog').classList.toggle('tiempo', corre);
+      $('#prog').setAttribute('aria-label', corre ? 'Tiempo restante' : 'Avance de la ronda');
+      $('#ultimo').innerHTML = '';
+      coach('inicio');
+      pintaHud();
+      if (corre) arrancaReloj();
+      siguiente();
+    });
+  }
+
+  function arrancaReloj() {
+    const total = P.segundos * 1000, t0 = ahora();
+    P.inicio = t0;
+    const barra = $('#prog i');
+    S.reloj = setInterval(() => {
+      const resta = Math.max(0, total - (ahora() - t0));
+      const pct = (resta / total) * 100;
+      barra.style.width = pct + '%';
+      $('#prog').setAttribute('aria-valuenow', Math.round(pct));
+      $('#prog').classList.toggle('poco', resta < 10000);
+      if (resta <= 0) terminar();
+    }, 100);
+  }
+
+  function pintaHud() {
+    const r = $('#hud-racha');
+    r.textContent = '🔥 ' + P.racha;
+    r.classList.toggle('on', P.racha >= 3);
+    r.setAttribute('aria-label', 'Racha ' + P.racha);
+    $('#hud-xp').textContent = P.xp + ' XP';
+    if (P.modo !== 'corre') {
+      const pct = Math.round((Math.max(0, P.i) / P.total) * 100);
+      $('#prog i').style.width = pct + '%';
+      $('#prog').setAttribute('aria-valuenow', pct);
+    }
+  }
+
+  const ETIQUETA = { vocal: 'Vocal', consonante: 'Consonante', silaba: 'Sílaba', palabra: 'Palabra', frase: 'Frase' };
+
+  function siguiente() {
+    S.bloqueado = false;
+    const q = HR.siguiente(P, ahora());
+    if (!q) { terminar(); return; }
+    const tab = $('#tablero');
+    tab.classList.remove('ok', 'mal');
+    $('#explica').classList.remove('on');
+    $('#explica').innerHTML = '';
+    $('#pie').innerHTML = '';
+    $('#pista').innerHTML = '';
+    $('#tipo').textContent = q.modo === 'construye' ? 'Arma la sílaba' : (ETIQUETA[q.item.tipo] || '');
+    const vista = $('#vista');
+    if (q.modo === 'construye') {
+      vista.innerHTML = '<div class="piezas' + (q.piezas.length > 2 ? ' tres' : '') + '" id="piezas">' + q.piezas.map((p) => '<span class="p">' + esc(p) + '</span>').join('<span class="mas" aria-hidden="true">+</span>') + '</div><div class="armada" id="armada" aria-hidden="true"></div><div class="regla" id="regla"></div>';
+      vista.setAttribute('aria-label', 'Piezas: ' + q.piezas.join(' más '));
+    } else {
+      const largo = Array.from(q.prompt).length > 2;
+      vista.innerHTML = '<div class="ko' + (largo ? ' largo' : '') + '" lang="ko">' + esc(q.prompt) + '</div>';
+      vista.setAttribute('aria-label', (ETIQUETA[q.item.tipo] || '') + ' coreana ' + q.prompt);
+    }
+    if (q.modo === 'corre') {
+      const inp = $('#entrada');
+      inp.value = ''; inp.classList.remove('duda'); inp.disabled = false;
+      inp.focus({ preventScroll: true });
+    } else {
+      const ops = $('#opciones');
+      ops.innerHTML = '';
+      q.opciones.forEach((o, i) => {
+        const b = el('button', { class: 'op' + (q.modo === 'construye' ? ' kr' : ''), 'data-valor': o, type: 'button' });
+        b.innerHTML = '<span class="n" aria-hidden="true">' + (i + 1) + '</span>' + esc(o);
+        if (q.modo === 'construye') b.setAttribute('lang', 'ko');
+        ops.appendChild(b);
+      });
+    }
+    // En Corre se escucha cuando aciertas; en Reconoce las letras sueltas también al aparecer (ayuda a asociar)
+    precargar([q.item]);
+    pintaHud();
+    if (P.modo !== 'corre' && P.total && P.i === P.total - 2) coach('final');
+  }
+
+  function flotaXp(n) {
+    if (!n) return;
+    const f = el('span', { class: 'xpvuela', 'aria-hidden': 'true' }, '+' + n);
+    $('#tablero').appendChild(f);
+    luego(() => f.remove(), 950);
+  }
+  function significado(it) {
+    const partes = ['<b lang="ko">' + esc(it.ko) + '</b>', esc(it.rom)];
+    if (it.es) partes.push(esc(it.es));
+    return partes.join(' · ');
+  }
+
+  function elegirOpcion(btn) {
+    if (S.bloqueado || !btn || btn.disabled) return;
+    const q = P.actual;
+    const res = HR.responder(P, btn.dataset.valor, ahora());
+    if (!res) return;
+    if (res.ok) {
+      S.bloqueado = true;
+      btn.classList.add('ok');
+      for (const b of document.querySelectorAll('#opciones .op')) b.disabled = true;
+      $('#tablero').classList.add('ok');
+      sonidoOk();
+      flotaXp(res.xp);
+      if (q.modo === 'construye') {
+        $('#piezas').classList.add('juntar');
+        luego(() => { const a = $('#armada'); a.textContent = q.correcta; a.classList.add('on'); a.removeAttribute('aria-hidden'); }, reducido ? 0 : 260);
+        $('#regla').textContent = q.batchim ? 'La consonante final (batchim) va abajo.' : (q.vertical ? q.piezas[1] + ' es vertical: va a la derecha.' : q.piezas[1] + ' es horizontal: va debajo.');
+      }
+      $('#pie').innerHTML = significado(q.item);
+      luego(() => oir(q.item), 120);
+      if (res.hito) coach('racha', res.racha); else coach(res.primera ? 'ok' : 'ok2');
+      anunciar('Correcto. ' + q.item.ko + ' se lee ' + q.item.rom + (q.item.es ? ', ' + q.item.es : ''));
+      pintaHud();
+      luego(siguiente, res.primera ? 1150 : 1700);
+    } else {
+      btn.classList.add('mal');
+      btn.disabled = true;
+      btn.setAttribute('aria-label', btn.dataset.valor + ', incorrecta');
+      const t = $('#tablero'); t.classList.remove('mal'); void t.offsetWidth; t.classList.add('mal');
+      sonidoMal();
+      muestraExplicacion(res.explicacion, q.item);
+      coach('mal');
+      pintaHud();
+    }
+  }
+
+  function muestraExplicacion(ex, item) {
+    const box = $('#explica');
+    box.innerHTML = '<b class="t">✗ ' + esc(ex.titulo) + '</b>' + ex.lineas.map((l) => '<p>' + esc(l) + '</p>').join('') +
+      '<p style="margin-top:8px"><button type="button" class="btn linea chico" id="btn-oir-exp">🔊 Escuchar ' + esc(HR.queSuena(item)) + '</button></p>';
+    box.classList.add('on');
+    anunciar('Casi. ' + ex.titulo + '. ' + ex.lineas.join('. ') + '. Inténtalo otra vez.');
+  }
+
+  /* Corre: escribir */
+  function intentaEscrito(final) {
+    if (S.bloqueado) return;
+    const q = P.actual; if (!q) return;
+    const inp = $('#entrada');
+    const v = inp.value;
+    if (!v.trim()) return;
+    const tieneKo = /[ㄱ-ㆎ가-힣]/.test(v);
+    const r = HR.normRom(v);
+    const listo = HR.coincide(q.item, v);
+    // Mientras escribe en letras latinas: se envía solo apenas está bien (y no es el comienzo de otra forma válida).
+    if (!final) {
+      inp.classList.toggle('duda', !HR.vaBien(q.item, v));
+      const prefijoDeOtra = HR.aceptadasDe(q.item).some((a) => a.length > r.length && a.startsWith(r));
+      if (!(listo && !tieneKo && !prefijoDeOtra)) return;
+    }
+    const res = HR.responder(P, v, ahora());
+    if (res.ok) {
+      S.bloqueado = true;
+      $('#tablero').classList.remove('ok'); void $('#tablero').offsetWidth; $('#tablero').classList.add('ok');
+      sonidoOk();
+      flotaXp(res.xp);
+      oir(q.item);
+      $('#ultimo').innerHTML = '✓ ' + significado(q.item);
+      if (res.hito) coach('racha', res.racha); else if (Math.random() < 0.5) coach(res.primera ? 'ok' : 'ok2');
+      anunciar('Correcto: ' + q.item.ko + ', ' + q.item.rom);
+      pintaHud();
+      // limpiar después de que el teclado coreano termine la composición
+      luego(() => { inp.value = ''; siguiente(); }, 260);
+    } else {
+      const t = $('#tablero'); t.classList.remove('mal'); void t.offsetWidth; t.classList.add('mal');
+      sonidoMal();
+      coach('mal');
+      if (P.intentos === 1) $('#pista').innerHTML = 'Pista: empieza con <b>' + esc(q.pista[0] || q.item.rom.slice(0, 2)) + '…</b>';
+      else $('#pista').innerHTML = 'Se lee <b>' + esc(q.item.rom) + '</b> · escríbelo para seguir';
+      anunciar('Casi. ' + $('#pista').textContent);
+      pintaHud();
+    }
+  }
+
+  function pasar() {
+    if (S.bloqueado || !P || !P.actual) return;
+    const q = P.actual;
+    HR.pasar(P);
+    $('#ultimo').innerHTML = '→ ' + significado(q.item);
+    pintaHud();
+    siguiente();
+  }
+
+  /* ── Fin de la ronda ── */
+  function terminar() {
+    if (!P || P.terminada) return;
+    P.terminada = true;
+    limpiaTimers();
+    const R = HR.resumen(P, ahora());
+    if (P.modo === 'corre') R.segundos = P.segundos;
+    const reg = HR.registrar(PROG, R);
+    PROG.ultimo = { modo: R.modo, nivel: R.nivel };
+    HR.guardarProgreso(PROG);
+    pintaResultado(R, reg);
+    ir('resultado');
+    if (R.precision === 100 || reg.subioRango || reg.record) confeti();
+  }
+
+  function pintaResultado(R, reg) {
+    const perfecto = R.precision === 100 && R.intentadas > 0;
+    const [ko, es] = perfecto ? ['완벽해! 🐯', '¡Perfecto!'] : R.precision >= 80 ? ['잘했어!', '¡Bien hecho!'] : R.precision >= 50 ? ['좋아요!', '¡Vas muy bien!'] : ['괜찮아! 다시 해보자.', 'Tranqui: cada carrera te enseña algo nuevo.'];
+    $('#res-titulo').textContent = reg.subioRango ? '한글 레벨 업! 🎉' : ko;
+    $('#res-es').textContent = reg.subioRango ? '¡Subiste a ' + reg.rangoAhora.nombre + '!' : es;
+    $('#res-record').hidden = !reg.record;
+    const corre = R.modo === 'corre';
+    const datos = [
+      [R.xp + '', 'XP'],
+      [R.precision + ' %', 'precisión'],
+      ['🔥 ' + R.mejorRacha, 'mejor racha'],
+      corre ? [R.correctas + '', 'palabras en ' + R.segundos + ' s'] : ['⏱ ' + R.segundos + ' s', 'tiempo'],
+    ];
+    $('#stats').innerHTML = datos.map(([b, s]) => '<div class="stat"><b>' + esc(b) + '</b><span>' + esc(s) + '</span></div>').join('');
+    pintaPerfil('#res-');
+    $('#res-rango').textContent = reg.rangoAhora.nombre + ' · ' + reg.rangoAhora.ko;
+    const sig = HR.despuesDe(R.modo, R.nivel);
+    const btnSig = $('#btn-siguiente');
+    btnSig.hidden = !(sig && R.precision >= 70);
+    if (sig) { btnSig.dataset.modo = sig.modo; btnSig.dataset.nivel = sig.nivel; btnSig.textContent = 'Siguiente: ' + (HR.nivel(sig.modo, sig.nivel) || {}).nombre + ' →'; btnSig.setAttribute('aria-label', 'Siguiente nivel: ' + nombreDe(sig.modo, sig.nivel)); }
+    const repasar = new Set(R.repasar.map((i) => i.id));
+    const items = R.aprendidos.slice(0, 16);
+    $('#aprend').innerHTML = items.map((it, i) => '<button type="button" data-i="' + i + '" class="' + (repasar.has(it.id) ? 'rep' : '') + '" aria-label="Escuchar ' + esc(it.ko) + ', ' + esc(it.rom) + (it.es ? ', ' + esc(it.es) : '') + (repasar.has(it.id) ? ', para repasar' : '') + '"><span class="k" lang="ko">' + esc(it.ko) + '</span><span class="r">' + esc(it.rom) + '</span>' + (it.es ? '<span class="e">' + esc(it.es) + '</span>' : '') + '</button>').join('');
+    $('#aprend').dataset.items = JSON.stringify(items);
+    S.ultimoR = R;
+    anunciar('Ronda terminada. ' + R.xp + ' XP, ' + R.precision + ' por ciento de precisión, racha de ' + R.mejorRacha + '.');
+  }
+
+  function confeti() {
+    if (reducido) return;
+    const c = el('div', { class: 'confeti', 'aria-hidden': 'true' });
+    const colores = ['#4036ED', '#A79BFF', '#E8B84B', '#003478'];
+    for (let i = 0; i < 42; i++) {
+      const p = el('i');
+      p.style.left = Math.random() * 100 + '%';
+      p.style.background = colores[i % colores.length];
+      p.style.animationDelay = Math.random() * 0.5 + 's';
+      p.style.transform = 'rotate(' + Math.random() * 360 + 'deg)';
+      c.appendChild(p);
+    }
+    document.body.appendChild(c);
+    setTimeout(() => c.remove(), 2400);
+  }
+
+  /* ── Tarjeta para compartir (imagen 1080×1350, nada se sube a ningún servidor) ── */
+  function tarjeta(R) {
+    const W = 1080, H = 1350, cv = document.createElement('canvas');
+    cv.width = W; cv.height = H;
+    const g = cv.getContext('2d');
+    g.fillStyle = '#4036ED'; g.fillRect(0, 0, W, H);
+    g.fillStyle = 'rgba(167,155,255,.35)'; g.beginPath(); g.arc(W - 90, 120, 260, 0, Math.PI * 2); g.fill();
+    g.fillStyle = '#FFFFFF'; g.textAlign = 'center';
+    const F = '"Noto Sans KR", system-ui, sans-serif';
+    g.font = '700 46px ' + F; g.fillText('MI RÉCORD EN', W / 2, 300);
+    g.font = '900 150px ' + F; g.fillText('한글 Race', W / 2, 450);
+    g.font = '500 40px ' + F; g.fillStyle = 'rgba(255,255,255,.85)'; g.fillText(nombreDe(R.modo, R.nivel), W / 2, 530);
+    const filas = [[R.precision + ' %', 'precisión'], ['🔥 ' + R.mejorRacha, 'racha'], R.modo === 'corre' ? [R.correctas + '', 'palabras en ' + R.segundos + ' s'] : [R.segundos + ' s', 'tiempo']];
+    filas.forEach(([v, l], i) => {
+      const x = 180 + i * 360;
+      g.fillStyle = 'rgba(255,255,255,.12)'; g.beginPath(); g.roundRect ? g.roundRect(x - 160, 620, 320, 230, 36) : g.rect(x - 160, 620, 320, 230); g.fill();
+      g.fillStyle = '#FFFFFF'; g.font = '900 84px ' + F; g.fillText(v, x, 760);
+      g.font = '500 34px ' + F; g.fillStyle = 'rgba(255,255,255,.85)'; g.fillText(l, x, 815);
+    });
+    g.fillStyle = '#E8B84B'; g.font = '800 58px ' + F; g.fillText('¿Puedes superarme?', W / 2, 990);
+    g.fillStyle = '#FFFFFF'; g.font = '700 40px ' + F; g.fillText('academiaseul.com/hangul-race', W / 2, 1180);
+    g.font = '500 34px ' + F; g.fillStyle = 'rgba(255,255,255,.8)'; g.fillText('Academia Seúl · gratis y sin cuenta', W / 2, 1240);
+    return new Promise((ok) => {
+      const img = new Image();
+      img.onload = () => {
+        // tigre en blanco: se pinta la silueta del logo
+        const t = document.createElement('canvas'); t.width = 150; t.height = 150;
+        const tg = t.getContext('2d'); tg.drawImage(img, 0, 0, 150, 150); tg.globalCompositeOperation = 'source-in'; tg.fillStyle = '#FFFFFF'; tg.fillRect(0, 0, 150, 150);
+        g.drawImage(t, W / 2 - 75, 80);
+        cv.toBlob(ok, 'image/png');
+      };
+      img.onerror = () => cv.toBlob(ok, 'image/png');
+      img.src = '/hangul-race/tigre.png';
+    });
+  }
+  async function compartir() {
+    if (!S.ultimoR) return;
+    const btn = $('#btn-compartir'); btn.disabled = true;
+    try {
+      const blob = await tarjeta(S.ultimoR);
+      const archivo = new File([blob], 'hangul-race-record.png', { type: 'image/png' });
+      const texto = '🐯 Mi récord en 한글 Race: ' + S.ultimoR.precision + ' % de precisión y racha de ' + S.ultimoR.mejorRacha + '. ¿Puedes superarme? https://www.academiaseul.com/hangul-race';
+      if (navigator.canShare && navigator.canShare({ files: [archivo] })) {
+        await navigator.share({ files: [archivo], text: texto, title: '한글 Race' });
+      } else {
+        const a = el('a', { href: URL.createObjectURL(blob), download: 'hangul-race-record.png' });
+        document.body.appendChild(a); a.click(); a.remove();
+        anunciar('Imagen descargada. ¡Compártela donde quieras!');
+      }
+    } catch (e) { /* el usuario canceló */ }
+    btn.disabled = false;
+  }
+
+  /* ── Tema y sonido ── */
+  function aplicaTema(t) {
+    document.documentElement.dataset.theme = t;
+    try { localStorage.setItem('as-theme', t); } catch (e) {}
+    const b = $('#btn-tema'); b.textContent = t === 'dark' ? '☀' : '☾'; b.setAttribute('aria-label', t === 'dark' ? 'Cambiar a modo día' : 'Cambiar a modo noche');
+  }
+  function pintaSonido() {
+    const b = $('#btn-sonido'); b.textContent = PROG.sonido ? '🔊' : '🔇';
+    b.setAttribute('aria-pressed', PROG.sonido ? 'true' : 'false');
+    b.setAttribute('aria-label', PROG.sonido ? 'Silenciar sonido' : 'Activar sonido');
+  }
+
+  /* ── Eventos ── */
+  function eventos() {
+    $('#btn-jugar').addEventListener('click', () => { const r = HR.recomendado(PROG); iniciar(r.modo, r.nivel); });
+    $('#btn-elegir').addEventListener('click', () => { pintaElegir(); ir('elegir'); });
+    document.addEventListener('click', (e) => {
+      const nv = e.target.closest('.nv[data-modo]'); if (nv) { iniciar(nv.dataset.modo, nv.dataset.nivel); return; }
+      const irA = e.target.closest('[data-ir]'); if (irA) { if (irA.dataset.ir === 'elegir') pintaElegir(); ir(irA.dataset.ir); return; }
+      const op = e.target.closest('#opciones .op'); if (op) { elegirOpcion(op); return; }
+      if (e.target.closest('#btn-oir-exp')) { oir(P.actual.item); return; }
+      const ap = e.target.closest('#aprend button'); if (ap) { const items = JSON.parse($('#aprend').dataset.items || '[]'); oir(items[+ap.dataset.i]); }
+    });
+    $('#btn-oir').addEventListener('click', () => { if (P && P.actual) oir(P.actual.item); });
+    $('#btn-salir').addEventListener('click', () => { limpiaTimers(); P = null; ir('inicio'); });
+    $('#btn-otra').addEventListener('click', () => iniciar(S.modo, S.nivel));
+    $('#btn-siguiente').addEventListener('click', (e) => iniciar(e.currentTarget.dataset.modo, e.currentTarget.dataset.nivel));
+    $('#btn-compartir').addEventListener('click', compartir);
+    $('#btn-pasar').addEventListener('click', pasar);
+    const inp = $('#entrada');
+    let componiendo = false;
+    inp.addEventListener('compositionstart', () => { componiendo = true; });
+    inp.addEventListener('compositionend', () => { componiendo = false; });
+    inp.addEventListener('input', () => { if (!componiendo) intentaEscrito(false); });
+    $('#escribe').addEventListener('submit', (e) => { e.preventDefault(); if (componiendo) { setTimeout(() => intentaEscrito(true), 40); return; } intentaEscrito(true); });
+    $('#btn-tema').addEventListener('click', () => aplicaTema(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'));
+    $('#btn-sonido').addEventListener('click', () => { PROG.sonido = !PROG.sonido; HR.guardarProgreso(PROG); pintaSonido(); });
+    document.addEventListener('keydown', (e) => {
+      if (!$('#juego').classList.contains('on') || !P || e.target === inp) return;
+      if (e.key >= '1' && e.key <= '4') { const b = document.querySelectorAll('#opciones .op')[+e.key - 1]; if (b) { e.preventDefault(); elegirOpcion(b); } }
+      else if (e.key === ' ' && e.target === document.body) { e.preventDefault(); if (P.actual) oir(P.actual.item); }
+      else if (e.key === 'Escape') { limpiaTimers(); P = null; ir('inicio'); }
+    });
+  }
+
+  /* ── Arranque ── */
+  async function init() {
+    PROG = HR.cargarProgreso();
+    aplicaTema(document.documentElement.dataset.theme || 'light');
+    pintaSonido();
+    eventos();
+    try {
+      const r = await fetch('/hangul-race/contenido.json', { cache: 'no-cache' });
+      MODOS = HR.cargar(await r.json());
+    } catch (e) {
+      $('#saludo').innerHTML = 'No pudimos cargar el juego.<span class="es">Revisa tu conexión y vuelve a intentar.</span>';
+      $('#btn-jugar').disabled = true;
+      return;
+    }
+    pintaInicio();
+    window.HRUI = { iniciar, terminar, tarjeta, estado: () => ({ P, PROG }) }; // para pruebas
+  }
+  document.addEventListener('DOMContentLoaded', init);
+})();
+</script>
+</body>
+</html>

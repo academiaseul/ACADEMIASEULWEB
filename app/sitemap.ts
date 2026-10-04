@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/hangul-dle`, lastModified: MAYO, changeFrequency: 'daily', priority: 0.5 },
     { url: `${BASE}/lector-coreano`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/dubu`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/hangul-race`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/taller`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/privacidad`, lastModified: HOY, changeFrequency: 'yearly', priority: 0.2 },
     { url: `${BASE}/terminos`, lastModified: HOY, changeFrequency: 'yearly', priority: 0.2 },
