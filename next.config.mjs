@@ -21,6 +21,11 @@ const nextConfig = {
   async redirects() {
     return [
       // URL oficial del Lector desde el 22 sept 2026: /lector-coreano. Alias y URLs viejas redirigen.
+      // URL corta para reels, DMs y anuncios: academiaseul.com/inscribete (conserva ?clase=…)
+      { source: '/inscribete', destination: '/nivel-1#clases', permanent: false },
+      { source: '/inscribirme', destination: '/nivel-1#clases', permanent: false },
+      { source: '/inscripcion', destination: '/nivel-1#clases', permanent: false },
+      { source: '/matricula', destination: '/nivel-1#clases', permanent: false },
       { source: '/coreano', destination: '/lector-coreano', permanent: true },
       { source: '/lector', destination: '/lector-coreano', permanent: true },
       { source: '/lector-hangul', destination: '/lector-coreano', permanent: true },

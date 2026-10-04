@@ -43,6 +43,8 @@ export default function Nivel1Page() {
   const [selectedClase, setSelectedClase] = useState<ClaseId>("a11-martes");
   const [plan, setPlan] = useState<Plan>("unico");
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+  // Hasta el primer tick (mientras carga en un celular lento) se muestra "–" y no un engañoso 0:00:00
+  const [relojListo, setRelojListo] = useState(false);
   const { pais, esChile, info, hora } = useHoraLocal();
   const { t } = useT();
   const [desdeChile, setDesdeChile] = useState(true);
@@ -55,6 +57,8 @@ export default function Nivel1Page() {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [formError, setFormError] = useState("");
+  // Si Formspree falla (cuota agotada, red), el alumno igual puede mandar sus datos por WhatsApp
+  const [envioFallo, setEnvioFallo] = useState(false);
 
   // Confirmación de pago (avisa al owner quién pagó)
   const [payConfirming, setPayConfirming] = useState(false);
@@ -106,7 +110,7 @@ export default function Nivel1Page() {
       const ins = inscripcionRef.current;
       if (!grid || !ins) return;
       const y = window.scrollY + window.innerHeight;
-      setMostrarSticky(window.scrollY > grid.offsetTop + 200 && y < ins.offsetTop + 120);
+      setMostrarSticky(window.scrollY > Math.min(grid.offsetTop, 480) && y < ins.offsetTop + 120);
     };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -125,7 +129,8 @@ export default function Nivel1Page() {
   };
   const sidebarCursos = CLASES.map((c) => {
     const cu = cursoDe(c);
-    return { id: c.id, emoji: cu.emoji, label: t(cu.nombreCorto), sub: `${t(c.dia)} ${hora(c.horaChile)}${esChile ? "" : ` ${t(info.corto)}`} · ${t(profeCorto(c))}` };
+    // Básico 1 tiene dos secciones: el chip dice el día para que no se vean dos iguales
+    return { id: c.id, emoji: cu.emoji, label: cu.cursoId === "a11" ? `${t(cu.nombreCorto)} · ${t(c.dia)}` : t(cu.nombreCorto), sub: `${t(c.dia)} ${hora(c.horaChile)}${esChile ? "" : ` ${t(info.corto)}`} · ${t(profeCorto(c))}` };
   });
   const sidebarSecciones = [
     { id: "clases", label: t("¿Qué curso tomo?") },
@@ -178,10 +183,11 @@ export default function Nivel1Page() {
           motivacion: form.motivacion,
         }),
       });
-      if (res.ok) setSubmitted(true);
-      else setFormError(t("Hubo un problema al enviar. Intenta de nuevo o escríbenos por WhatsApp."));
+      if (res.ok) { setSubmitted(true); setEnvioFallo(false); }
+      else { setFormError(t("Hubo un problema al enviar. Intenta de nuevo o escríbenos por WhatsApp.")); setEnvioFallo(true); }
     } catch {
       setFormError(t("Hubo un problema al enviar. Intenta de nuevo o escríbenos por WhatsApp."));
+      setEnvioFallo(true);
     } finally {
       setSubmitting(false);
     }
@@ -241,7 +247,7 @@ export default function Nivel1Page() {
     }
   };
 
-  // Countdown al inicio de la cohorte: lunes 19 de octubre de 2026 (hora Chile)
+  // Countdown al inicio de la cohorte: lunes 12 de octubre de 2026, 00:00 hora Chile (Niños parte el 19)
   useEffect(() => {
     const deadline = new Date("2026-10-12T00:00:00-03:00").getTime();
     const tick = () => {
@@ -255,6 +261,7 @@ export default function Nivel1Page() {
       });
     };
     tick();
+    setRelojListo(true);
     const id = setInterval(tick, 1000);
     return () => clearInterval(id);
   }, []);
@@ -266,6 +273,7 @@ export default function Nivel1Page() {
   const clpRef = (usd: number) => t("${clp} CLP", { clp: (usd === PRECIO_UNICO ? CLP_UNICO : CLP_MENSUAL).toLocaleString("es-CL") });
 
   const faqs = [
+    { q: t("¿Cómo me inscribo?"), a: t("En 3 pasos, sin crear cuenta: 1) elige tu clase arriba en esta página (si nunca estudiaste coreano, es Básico 1); 2) deja tus datos en el formulario; 3) paga con Mercado Pago, PayPal o transferencia y te confirmamos el cupo por correo y WhatsApp. Matrícula abierta hasta el {cierre}.", { cierre: t(CIERRE_MATRICULA) }) },
     { q: t("¿Las clases son en vivo o grabadas?"), a: t("En vivo por Zoom (60 min cada una). Si te pierdes alguna, recibes la grabación dentro de las 24 horas y puedes escribirnos para resolver dudas de esa clase.") },
     { q: t("¿Cuánto dura cada curso y cuándo empieza?"), a: t("Todos los cursos duran 8 semanas (2 meses), con 1 clase en vivo por semana. La cohorte arranca {inicio} y termina la semana del 30 de noviembre. Matrícula abierta hasta el {cierre}.", { inicio: t(INICIO_SEMANA), cierre: t(CIERRE_MATRICULA) }) },
     { q: t("¿Cuánto cuesta y cómo pago?"), a: t("{precio} — mismo precio en todos los cursos. Aceptamos transferencia bancaria en Chile (sin comisión), tarjeta de crédito/débito vía Mercado Pago (se cobra en pesos chilenos) y PayPal en dólares (también con tarjeta, sin cuenta PayPal).", { precio: t(precioLabel()) }) },
@@ -323,7 +331,7 @@ export default function Nivel1Page() {
           <div className="inline-block px-4 py-1 mb-6 rounded-full bg-white/10 text-xs font-bold tracking-widest">{t("TODOS LOS NIVELES · COHORTE OCTUBRE 2026")}</div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             <span className="block text-2xl md:text-3xl mb-3 opacity-80">한국어 수업</span>
-            {t("Matrícula octubre 2026")}
+            {t("Inscripción octubre 2026")}
           </h1>
           <p className="text-lg md:text-xl mt-4 max-w-2xl mx-auto opacity-90">{t("De Básico 1 a TOPIK II, y Coreano para Niños de 8 a 15 — elige tu clase.")}</p>
           <p className="text-base mt-3 max-w-2xl mx-auto opacity-80">{t("8 semanas desde {inicio} · 1 clase en vivo por semana · 60 min · {precio} · certificado incluido", { inicio: t(INICIO_SEMANA), precio: t(precioLabel()) })}</p>
@@ -331,13 +339,13 @@ export default function Nivel1Page() {
           <div className="mt-8 inline-block bg-white/10 backdrop-blur rounded-2xl px-6 py-4">
             <div className="text-xs tracking-widest opacity-80 mb-2">{t("⏰ LAS CLASES EMPIEZAN EN")}</div>
             <div className="flex gap-4 md:gap-6 justify-center text-2xl md:text-4xl font-bold">
-              <div><div>{timeLeft.days}</div><div className="text-xs opacity-70 mt-1">{t("DÍAS")}</div></div>
+              <div><div>{relojListo ? timeLeft.days : "–"}</div><div className="text-xs opacity-70 mt-1">{t("DÍAS")}</div></div>
               <div className="opacity-40">:</div>
-              <div><div>{timeLeft.hours.toString().padStart(2, "0")}</div><div className="text-xs opacity-70 mt-1">{t("HORAS")}</div></div>
+              <div><div>{relojListo ? timeLeft.hours.toString().padStart(2, "0") : "–"}</div><div className="text-xs opacity-70 mt-1">{t("HORAS")}</div></div>
               <div className="opacity-40">:</div>
-              <div><div>{timeLeft.minutes.toString().padStart(2, "0")}</div><div className="text-xs opacity-70 mt-1">{t("MIN")}</div></div>
+              <div><div>{relojListo ? timeLeft.minutes.toString().padStart(2, "0") : "–"}</div><div className="text-xs opacity-70 mt-1">{t("MIN")}</div></div>
               <div className="opacity-40">:</div>
-              <div><div>{timeLeft.seconds.toString().padStart(2, "0")}</div><div className="text-xs opacity-70 mt-1">{t("SEG")}</div></div>
+              <div><div>{relojListo ? timeLeft.seconds.toString().padStart(2, "0") : "–"}</div><div className="text-xs opacity-70 mt-1">{t("SEG")}</div></div>
             </div>
             <div className="text-xs opacity-70 mt-2">{t("Matrícula abierta hasta el {cierre}", { cierre: t(CIERRE_MATRICULA) })}</div>
           </div>
@@ -346,6 +354,12 @@ export default function Nivel1Page() {
             <a href="#clases" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">{t("Elegir mi clase")}</a>
             <a href="/programa" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">{t("Ver syllabus completo")}</a>
           </div>
+          {/* Cómo inscribirse, a la vista desde el primer pantallazo */}
+          <ol className="mt-6 max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-2 text-sm text-left">
+            <li className="bg-white/10 rounded-xl px-4 py-3"><strong>1.</strong> {t("Elige tu clase")}</li>
+            <li className="bg-white/10 rounded-xl px-4 py-3"><strong>2.</strong> {t("Deja tus datos (sin crear cuenta)")}</li>
+            <li className="bg-white/10 rounded-xl px-4 py-3"><strong>3.</strong> {t("Paga con Mercado Pago, PayPal o transferencia y te confirmamos el cupo por correo/WhatsApp")}</li>
+          </ol>
         </div>
       </section>
 
@@ -524,6 +538,17 @@ export default function Nivel1Page() {
               </div>
 
               {formError && <p className="text-sm font-medium" style={{ color: "var(--as-azul-txt)" }}>{formError}</p>}
+              {envioFallo && (
+                <a
+                  href={waLink(t("Hola Jay! Quiero {verbo} en {curso} ({dia} {hora} Chile) con {plan}. El formulario del sitio no se envió. Mis datos: {nombre} · {correo} · {whatsapp}.", { verbo, curso: t(curso.nombreCorto), dia: t(clase.dia), hora: clase.horaChile, plan: planLabel, nombre: esNinos && form.apoderado ? form.apoderado + " / " + form.nombre : form.nombre, correo: form.correo, whatsapp: form.whatsapp }))}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center py-3 rounded-full text-white font-bold"
+                  style={{ backgroundColor: "#25D366" }}
+                >
+                  {t("📲 Enviar mis datos por WhatsApp")}
+                </a>
+              )}
 
               <button type="submit" disabled={submitting} className="w-full py-4 rounded-full text-white font-bold text-lg hover:scale-[1.02] transition disabled:opacity-60" style={{ backgroundColor: "#3D2EE8" }}>
                 {submitting ? t("Enviando...") : t("Reservar cupo en {curso} →", { curso: t(curso.nombreCorto).split(" (")[0] })}
@@ -572,25 +597,6 @@ export default function Nivel1Page() {
               </button>
             </div>
 
-            {/* What's included */}
-            <div className="border-t border-gray-200 pt-8 mb-8">
-              <h3 className="font-bold text-gray-900 mb-4 text-center">{t("Incluye:")}</h3>
-              <ul className="space-y-2.5 max-w-md mx-auto">
-                {[
-                  t("8 clases en vivo por Zoom (60 min c/u)"),
-                  t("Certificado de Academia Seúl al terminar"),
-                  esNinos ? t("Grabaciones privadas, solo para las familias del grupo") : t("Grabaciones de cada clase (24 h después)"),
-                  t("Slides + hojas de actividad por sesión"),
-                  t("Lector de Hangul con audio nativo (tarea gamificada)"),
-                  t("Pronunciación corregida personalmente"),
-                  t("Grupo chico (máx. {n})", { n: clase.cupos }),
-                  esNinos ? t("Grupo de WhatsApp solo para apoderados") : t("Comunidad de alumnos por WhatsApp/Discord"),
-                ].map((item) => (
-                  <li key={item} className="flex gap-3 items-start"><span style={{ color: "var(--as-azul-txt)" }} className="font-bold">✓</span><span className="text-gray-700">{item}</span></li>
-                ))}
-              </ul>
-            </div>
-
             {/* País de pago */}
             <div className="flex flex-wrap items-center justify-center gap-2 mb-5 text-sm">
               <span className="text-gray-500">{t("¿Desde dónde pagas?")}</span>
@@ -600,6 +606,12 @@ export default function Nivel1Page() {
             </div>
 
             <div className="space-y-3">
+              {!submitted && (
+                <p className="text-center text-sm font-bold" style={{ color: "var(--as-azul-txt)" }}>
+                  {t("Antes de pagar, completa el Paso 1 (tus datos) para que sepamos a qué clase corresponde tu pago.")}{" "}
+                  <a href="#inscripcion" className="underline">{t("Ir al Paso 1 ↑")}</a>
+                </p>
+              )}
               <p className="text-center text-xs font-bold tracking-widest text-gray-400 mb-1">{t("ELIGE CÓMO PAGAR")}</p>
 
               {desdeChile ? (
@@ -638,7 +650,7 @@ export default function Nivel1Page() {
 
               {avisoMP && (
                 <div className="rounded-2xl bg-[#FFF8E6] border border-[#F2E2A8] p-4 text-sm text-yellow-900 text-center">
-                  <Tr k="Cuando termines en Mercado Pago, vuelve a esta pestaña: tu cupo queda reservado con los datos de arriba y te confirmamos por WhatsApp." />
+                  <Tr k="Cuando termines en Mercado Pago, vuelve a esta página y toca **“Ya pagué con Mercado Pago (tarjeta)”** aquí abajo. Te confirmamos el cupo por correo/WhatsApp." />
                 </div>
               )}
               {avisoPayPal && (
@@ -676,6 +688,25 @@ export default function Nivel1Page() {
                   </div>
                 )}
               </div>
+            </div>
+
+            {/* Qué incluye: va después del pago para que los botones de pago queden más arriba */}
+            <div className="border-t border-gray-200 pt-8 mt-8">
+              <h3 className="font-bold text-gray-900 mb-4 text-center">{t("Incluye:")}</h3>
+              <ul className="space-y-2.5 max-w-md mx-auto">
+                {[
+                  t("8 clases en vivo por Zoom (60 min c/u)"),
+                  t("Certificado de Academia Seúl al terminar"),
+                  esNinos ? t("Grabaciones privadas, solo para las familias del grupo") : t("Grabaciones de cada clase (24 h después)"),
+                  t("Slides + hojas de actividad por sesión"),
+                  t("Lector de Hangul con audio nativo (tarea gamificada)"),
+                  t("Pronunciación corregida personalmente"),
+                  t("Grupo chico (máx. {n})", { n: clase.cupos }),
+                  esNinos ? t("Grupo de WhatsApp solo para apoderados") : t("Comunidad de alumnos por WhatsApp/Discord"),
+                ].map((item) => (
+                  <li key={item} className="flex gap-3 items-start"><span style={{ color: "var(--as-azul-txt)" }} className="font-bold">✓</span><span className="text-gray-700">{item}</span></li>
+                ))}
+              </ul>
             </div>
 
             <div className="text-center text-xs text-gray-500 mt-6">{t("🔒 Certificado incluido · Grabaciones incluidas · Tu información está protegida")}</div>

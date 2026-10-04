@@ -3,17 +3,21 @@
 import { ChevronDown } from 'lucide-react';
 import { useT, i18n } from '@/lib/i18n';
 
-// Las 5 primeras se muestran en la home (faqs.slice(0, 5)) en orden de objeciones:
-// "¿necesito saber algo?", "¿cuánto?", "¿a qué hora?", "¿en vivo?", "¿cómo pago?".
+// Las 6 primeras se muestran en la home (faqs.slice(0, 6)) en orden de objeciones:
+// "¿cómo me inscribo?", "¿necesito saber algo?", "¿cuánto?", "¿a qué hora?", "¿en vivo?", "¿cómo pago?".
 // Los textos van marcados con i18n() y se traducen al renderizar con t(f.q) / t(f.a).
 export const faqs = [
+  {
+    q: i18n('¿Cómo me inscribo?'),
+    a: i18n('En 3 pasos, sin crear cuenta: 1) entra a academiaseul.com/inscribete y elige tu clase (si nunca estudiaste coreano, es Básico 1); 2) deja tus datos en el formulario; 3) paga con Mercado Pago, PayPal o transferencia y te confirmamos el cupo por correo y WhatsApp. US$150 el curso completo · o 2 cuotas de US$75. Matrícula abierta hasta el domingo 11 de octubre.'),
+  },
   {
     q: i18n('¿Necesito saber algo de coreano para empezar?'),
     a: i18n('No. Básico 1 (A1.1) y Coreano para Niños están pensados para empezar desde cero: lo primero que aprendes es a leer el alfabeto (한글). Si ya sabes algo, tienes Básico 2 (A1.2), Conversacional 1 (A2.1) y TOPIK II — haz el test de nivel gratuito o escríbenos y te ayudamos a elegir tu curso.'),
   },
   {
     q: i18n('¿Cuánto cuesta y qué incluye?'),
-    a: i18n('Mismo precio en todos los cursos: US$150 el curso completo o 2 cuotas de US$75. Incluye las 8 clases en vivo (60 min), grabaciones, material de estudio, el Lector de Hangul, certificado de Academia Seúl y acceso a la comunidad. El programa completo está en /programa.'),
+    a: i18n('Mismo precio en todos los cursos: US$150 el curso completo · o 2 cuotas de US$75. Incluye las 8 clases en vivo (60 min), grabaciones, material de estudio, el Lector de Hangul, certificado de Academia Seúl y acceso a la comunidad. El programa completo está en /programa.'),
   },
   {
     q: i18n('¿Qué horarios y fechas hay?'),
@@ -71,7 +75,7 @@ export default function FAQ() {
         </div>
 
         <div className="space-y-3">
-          {faqs.slice(0, 5).map((f) => (
+          {faqs.slice(0, 6).map((f) => (
             <details
               key={f.q}
               className="group rounded-2xl bg-white border-2 border-seoul-black/10 open:border-seoul-red/50 shadow-sm transition-colors"

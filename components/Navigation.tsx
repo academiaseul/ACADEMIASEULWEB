@@ -153,14 +153,23 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
               </a>
             </div>
 
-            {/* Mobile hamburger */}
-            <button
-              className="lg:hidden text-seoul-black/70 hover:text-seoul-black p-2"
-              onClick={() => setMobileOpen((v) => !v)}
-              aria-label={t('Abrir menú')}
-            >
-              {mobileOpen ? <X size={22} /> : <Menu size={22} />}
-            </button>
+            {/* Móvil: inscripción siempre visible + menú */}
+            <div className="lg:hidden flex items-center gap-2">
+              <a
+                href="/nivel-1#clases"
+                className="max-[339px]:hidden inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold text-white whitespace-nowrap"
+                style={{ backgroundColor: '#4236F6' }}
+              >
+                {t('Inscribirme →')}
+              </a>
+              <button
+                className="text-seoul-black/70 hover:text-seoul-black p-2"
+                onClick={() => setMobileOpen((v) => !v)}
+                aria-label={t('Abrir menú')}
+              >
+                {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+              </button>
+            </div>
           </div>
         </div>
       </motion.header>

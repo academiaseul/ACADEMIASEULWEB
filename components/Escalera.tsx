@@ -97,7 +97,7 @@ export default function Escalera({
             <div className={`mt-3 rounded-2xl border-2 border-[#4236F6] p-4 flex flex-col sm:flex-row sm:items-center gap-3 ${oscuro ? "bg-white/5" : "bg-[#F5F3FF]"}`}>
               <p className={`flex-1 text-sm leading-relaxed ${oscuro ? "text-white" : "text-gray-800"}`}>{t(sel.frase)}</p>
               <a
-                href={`/nivel-1?clase=${primeraClaseDe(sel.cursoId)}#clases`}
+                href={`/nivel-1?clase=${primeraClaseDe(sel.cursoId)}#inscripcion`}
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-white font-bold text-sm whitespace-nowrap hover:scale-105 transition"
                 style={{ backgroundColor: "#4236F6" }}
               >
@@ -109,7 +109,7 @@ export default function Escalera({
       )}
 
       {/* Adultos: 5 peldaños con flechas */}
-      <div className="flex flex-col md:flex-row md:items-stretch gap-2 md:gap-0">
+      <div className="flex flex-col md:flex-row md:items-stretch gap-4 md:gap-0">
         {peldanos.map((p, i) => {
           const esActivo = p.cursoId !== undefined && resaltado === p.cursoId;
           return (

@@ -188,14 +188,15 @@ export default function SidebarCursos({
       {/* Móvil / tablet: chips pegados bajo el menú */}
       <div className="lg:hidden sticky z-30 bg-white/95 backdrop-blur border-b border-gray-200" style={{ top: headerH }}>
         <div className="flex gap-2 overflow-x-auto px-4 py-2.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-          {cursos.map((c) => (
-            <CursoBtn key={c.id} c={c} activo={esActivo(c)} compacto onCurso={onCurso} ir={ir} />
-          ))}
+          {/* El botón de inscripción va primero: en el celular los chips se salen de la pantalla */}
           {cta && (
             <a href={cta.href} className="flex-shrink-0 inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold text-white whitespace-nowrap" style={{ backgroundColor: "#4236F6" }}>
               {cta.label}
             </a>
           )}
+          {cursos.map((c) => (
+            <CursoBtn key={c.id} c={c} activo={esActivo(c)} compacto onCurso={onCurso} ir={ir} />
+          ))}
         </div>
       </div>
     </>

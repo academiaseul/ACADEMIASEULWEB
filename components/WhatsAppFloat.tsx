@@ -14,7 +14,10 @@ const DEFAULT_MESSAGE = encodeURIComponent(
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${DEFAULT_MESSAGE}`;
 
 // Marcados con i18n(); se traducen al renderizar con t(qr.label) / t(qr.msg).
-const QUICK_REPLIES = [
+// La primera opción no necesita a Jay: va directo al formulario. La segunda sigue abriendo el chat.
+type QuickReply = { label: string; msg?: string; href?: string };
+const QUICK_REPLIES: QuickReply[] = [
+  { label: i18n('Inscribirme · Octubre 2026 →'), href: '/nivel-1#clases' },
   {
     label: i18n('Quiero inscribirme (clases desde la semana del 12 de octubre)'),
     msg: i18n('Hola Jay! Quiero inscribirme en la cohorte de octubre. ¿Me ayudas a elegir el curso y el método de pago?'),
@@ -90,11 +93,12 @@ export default function WhatsAppFloat() {
                     {QUICK_REPLIES.map((qr) => (
                       <a
                         key={qr.label}
-                        href={buildUrl(t(qr.msg))}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href={qr.href ?? buildUrl(t(qr.msg ?? ''))}
+                        target={qr.href ? undefined : '_blank'}
+                        rel={qr.href ? undefined : 'noopener noreferrer'}
                         onClick={() => setExpanded(false)}
                         className="group px-3 py-2.5 rounded-lg bg-white/[0.03] hover:bg-[#25D366]/15 border border-white/[0.06] hover:border-[#25D366]/40 transition-all text-left"
+                        style={qr.href ? { backgroundColor: '#4236F6', borderColor: '#4236F6' } : undefined}
                       >
                         <span className="text-sm text-white/85 group-hover:text-white font-medium leading-snug">
                           {t(qr.label)}

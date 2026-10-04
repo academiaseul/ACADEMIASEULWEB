@@ -47,8 +47,31 @@ export default function HorarioSemanal({
         </div>
       </div>
 
-      {/* Grilla */}
-      <div className="overflow-x-auto rounded-2xl border border-gray-200 bg-white">
+      {/* Móvil: lista de las 6 clases (la grilla de 4 días no cabe a 375 px) */}
+      <div className="sm:hidden flex flex-col gap-2">
+        {CLASES.map((c) => {
+          const curso = cursoDe(c);
+          const activa = seleccionada === c.id;
+          const cls = `block w-full text-left rounded-xl border-2 px-4 py-3 bg-white transition ${activa ? "border-[#4236F6] shadow-md" : "border-gray-200"}`;
+          const inner = (
+            <>
+              <div className="font-bold text-gray-900 leading-tight">{curso.emoji} {t(curso.nombreCorto)}</div>
+              <div className="text-sm text-gray-600 mt-0.5">
+                {td(c.dia)} {hora(c.horaChile)}{!esChile && <span className="text-gray-400"> ({c.horaChile} {t("Chile")})</span>} · {t(profeCorto(c))}
+              </div>
+              {activa && <div className="text-xs font-bold mt-1" style={{ color: "#4236F6" }}>{t("✓ Seleccionada")}</div>}
+            </>
+          );
+          return onSelect ? (
+            <button key={c.id} type="button" onClick={() => onSelect(c.id)} className={cls}>{inner}</button>
+          ) : (
+            <a key={c.id} href={`/nivel-1?clase=${c.id}#clases`} className={cls}>{inner}</a>
+          );
+        })}
+      </div>
+
+      {/* Grilla (tablet y escritorio) */}
+      <div className="hidden sm:block overflow-x-auto rounded-2xl border border-gray-200 bg-white">
         <table className="w-full text-sm min-w-[600px]">
           <thead>
             <tr className="text-white" style={{ backgroundColor: "#4236F6" }}>
