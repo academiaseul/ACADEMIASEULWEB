@@ -40,7 +40,7 @@ Generadores en `Lanzamiento_Octubre_2026/fuente/`: `make_disenos_octubre.js`, `m
   - mié 7: *Tus profes* (modo foto)
   - jue 8: el carrusel (modo foto, las 5 láminas)
   - vie 9: 한글날 (modo foto, o el Reel 5)
-  - sáb 10: el Reel 4 si está grabado
+  - vie 9: también el Reel 4 (19:30)
   Los textos TikTok están en cada día.
 - **Ojo:** en TikTok los links de captions y comentarios no se pueden tocar, así que el texto dice `academiaseul.com/inscribete` escrito o *"escríbeme por DM"*. Responde los comentarios de "info" con el texto corto del Kit (8 semanas · 1 clase en vivo de 60 min por semana · US$150 el curso completo · o 2 cuotas de US$75 · matrícula hasta el domingo 11), nunca con el de "Nivel 1 de 10 semanas".
 
@@ -52,8 +52,8 @@ Generadores en `Lanzamiento_Octubre_2026/fuente/`: `make_disenos_octubre.js`, `m
 |---|---|---|---|
 | **Mié 7** (esta noche) | **Tus profes** `02_conoce_a_tus_profes.png` | Destacado **Inscríbete** (4) + compartir el post | Fijar *Tus profes* · crear destacado *Inscríbete* |
 | **Jue 8** | 12:30 **Carrusel** `anuncio_carrusel/4x5/anuncio_01…05.png` | 12:35 `05c_quedan_3_dias` · 20:00 `1_paso1` + pregunta | Fijar el carrusel |
-| **Vie 9** · 한글날 | 12:30 **한글날** `04_hangeulnal_9_octubre.png` (o el Reel 5 si está grabado, no los dos) | 12:35 post + link al Lector · 19:00 `05d_quedan_2_dias` | — |
-| **Sáb 10** | 19:30 **Reel 4** solo si está grabado (si no, sin feed) | 12:30 `05e_manana_cierra` · 20:00 reel de Kiran | — |
+| **Vie 9** · 한글날 | 12:30 **한글날** `04_hangeulnal_9_octubre.png` · 19:30 **Reel 4** (se graba el jue 8 en la mañana) | 12:35 post + link al Lector · 19:00 `05d_quedan_2_dias` · 19:35 el Reel 4 | Fijar el **Reel 4** (reemplaza al carrusel) |
+| **Sáb 10** | — (si el Reel 4 se atrasó: 12:30, no más tarde) | 12:30 `05e_manana_cierra` · 20:00 reel de Kiran | — |
 | **Dom 11** · CIERRE | — (sin feed) | 10:00 `05b_hoy_cierra` · 16:00 WhatsApp · 19:00 `05f_ultimas_horas` · 22:30 `05f` | `05b` al destacado |
 | **Lun 12** · feriado | 19:30 **Empezamos** `06_empezamos_esta_semana.png` (solo con las clases que abrieron) | 10:00 bienvenida · 19:35 lista de espera | Fijar *Empezamos* · bio → `/notificarme` |
 
@@ -135,7 +135,7 @@ Aprende coreano con profes coreanos 🇰🇷 Desde cero o con nivel, en vivo por
 ## VIE 9 · 한글날 · quedan 2 días
 
 ### Feed 12:30 · «580 años del Hangul» (`Campana_Assets/instagram/octubre/04_hangeulnal_9_octubre.png`)
-Si grabaste el Reel 5, sube ese en su lugar (caption en `Calendario_Posts_3al12oct_2026.md`, vie 9). **No los dos.**
+(El Reel 5 de 한글날 queda fuera: el jueves se graba el Reel 4.)
 ```
 Hoy, 9 de octubre, es 한글날, el Día del Hangul: 580 años de un alfabeto hecho para que todo el pueblo pudiera leer 🇰🇷
 
@@ -159,12 +159,15 @@ Hoy es 한글날: 580 años del Hangul 🇰🇷 "Un sabio lo aprende antes de qu
 - 12:35 · comparte el post con el texto `580 años después: aprende a leerlo gratis` + sticker `Leer gratis` → `https://www.academiaseul.com/lector-coreano`
 - 19:00 · `05d_quedan_2_dias_story.png` + `Inscribirme`
 
+### Feed 19:30 · Reel 4 «Llegué a Chile sin hablar español» → **fijarlo**
+Guion y lista de tomas: `Reels_3_y_4_Guiones_3oct_2026.md` (se graba el **jueves 8 en la mañana**; me mandas el video y te hago portada y rótulos). Caption, TikTok, Shorts y comentario fijado: `Calendario_Posts_3al12oct_2026.md`, sección mié 7 (ya corregidos al 7 oct). Historia 19:35: el reel + `Inscribirme`.
+
 ---
 
 ## SÁB 10 · mañana cierra
 
-### Feed 19:30 · Reel 4 «Llegué a Chile sin hablar español» **solo si está grabado**
-Caption, portada y comentario fijado en `Calendario_Posts_3al12oct_2026.md` (sección mié 7; el 7 oct se corrigieron TikTok/Shorts a `/inscribete` y 🎯 → 📝). Si no está grabado, hoy no hay feed: las historias alcanzan.
+### Feed: nada nuevo
+Si el Reel 4 no alcanzó a salir el viernes, sale hoy a las **12:30** (no a las 19:30: necesita horas para circular antes del cierre).
 
 ### Historias
 - 12:30 · `05e_manana_cierra_story.png` + `Inscribirme`
