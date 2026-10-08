@@ -194,7 +194,7 @@ Si el Reel 4 no alcanzó a salir el viernes, sale hoy a las **12:30** (no a las 
 - [ ] **Sitio a lista de espera:** decisión tuya, pendiente. Con tu OK, Claude pone `COHORTE_ABIERTA = false` y `PROXIMA_COHORTE_LABEL = "Enero 2027"` en `lib/nivel1.ts`, ajusta los textos de matrícula abierta de la home (PromoBar, Courses, FAQ, CTA) y verifica el deploy antes de las 19:30.
 - [ ] **Bio de los dos perfiles** → `academiaseul.com/notificarme` (`Lista de espera · enero 2027`). La home sigue diciendo "matrícula abierta" hasta que se haga el paso anterior.
 - [ ] **Destacado *Inscríbete*:** quita `05b` y `4_cierre_domingo_11` (Kit §5). Cuando el sitio pase a lista de espera, **archiva el destacado completo** (no lo renombres) y crea uno nuevo, `Enero 2027`, con la historia de las 19:35.
-- [ ] 10:00 historia: `Bienvenidos a la cohorte de octubre 💙 Revisen su correo: ahí está todo para su primera clase (Niños: el Zoom llega el domingo 18)`
+- [ ] 10:00 historia: `Bienvenidos a las clases de octubre 💙 Revisen su correo: ahí está todo para su primera clase (Niños: el Zoom llega el domingo 18)`
 - [ ] **Antes de las 19:30:** confirma qué clases abrieron. Si alguna no llegó al mínimo, borra su línea de la caption y pídeme regenerar `06` sin esa fila. No publiques el PNG tal cual.
 - [ ] **19:30 feed** `06_empezamos_esta_semana.png` → **fijarlo** (reemplaza al carrusel)
 ```
@@ -208,7 +208,7 @@ Lunes 19: Coreano para Niños con Jay y Abby (18:00). Hoy es feriado en Chile, p
 
 A quienes se inscribieron: gracias por confiar. Revisen su correo: ahí está todo 💙
 
-¿No alcanzaste? La próxima cohorte es en enero de 2027: déjame tus datos en academiaseul.com/notificarme (link en la bio) y te aviso primero. Mientras tanto, Dubu y el Lector de Hangul siguen gratis.
+¿No alcanzaste? Las próximas clases empiezan en enero de 2027: déjame tus datos en academiaseul.com/notificarme (link en la bio) y te aviso primero. Mientras tanto, Dubu y el Lector de Hangul siguen gratis.
 
 #academiaseul #aprendecoreano #coreanoparalatinos #한글 #clasesdecoreano #coreanoonline #화이팅 #시작
 ```

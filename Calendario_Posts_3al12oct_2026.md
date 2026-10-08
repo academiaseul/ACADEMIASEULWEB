@@ -332,11 +332,11 @@ Lunes 19: Coreano para Niños con Jay y Abby (18:00). Hoy es feriado en Chile, p
 
 A quienes se inscribieron: gracias por confiar. Revisen su correo: ahí está todo 💙
 
-¿No alcanzaste? La próxima cohorte es en enero de 2027: lista de espera en el link de la bio. Mientras tanto, Dubu y el Lector de Hangul siguen gratis.
+¿No alcanzaste? Las próximas clases empiezan en enero de 2027: lista de espera en el link de la bio. Mientras tanto, Dubu y el Lector de Hangul siguen gratis.
 
 #academiaseul #aprendecoreano #coreanoparalatinos #한글 #clasesdecoreano #coreanoonline #화이팅 #시작
 ```
-**📲 Historias:** 10:00 `Bienvenidos a la cohorte de octubre 💙 Revisen su correo: link de Zoom y grupo de WhatsApp de su clase` · 19:35 `¿No alcanzaste? Enero 2027 🌱 Déjame tus datos y te aviso primero` + link `https://www.academiaseul.com/notificarme`
+**📲 Historias:** 10:00 `Bienvenidos a las clases de octubre 💙 Revisen su correo: link de Zoom y grupo de WhatsApp de su clase` · 19:35 `¿No alcanzaste? Enero 2027 🌱 Déjame tus datos y te aviso primero` + link `https://www.academiaseul.com/notificarme`
 
 ---
 
