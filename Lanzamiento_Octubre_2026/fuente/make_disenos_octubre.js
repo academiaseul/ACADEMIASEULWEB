@@ -298,7 +298,7 @@ function retoStory(x) {
 function profes() {
   const P = [
     { ko: "기란", ro: "Kiran", cod: "KOR 101", curso: "Básico 1 <span class='lv'>(A1.1)</span>", hora: "martes o jueves 20:00 Chile", bio: "coreana criada en Argentina, bilingüe" },
-    { ko: "홍미영", ro: "Abby", cod: "KOR 201 · 050", curso: "Conversacional 1 <span class='lv'>(A2.1)</span>", hora: "martes 21:00 Chile <span>(miércoles 9:00 en Seúl)</span>", extra: "<span class='y'>y Niños con Jay</span> <span class='lv'>(8–15)</span>", extraHora: "lunes 18:00 Chile", bio: "pedagoga, enseña desde Corea" },
+    { ko: "홍미영", ro: "Abby", cod: "KOR 201 · 050", curso: "Conversacional 1 <span class='lv'>(A2.1)</span>", hora: "martes 21:00 Chile <span>(miércoles 9:00 en Seúl)</span>", extra: "<span class='y'>y Niños con Jay</span> <span class='lv'>(8–15)</span>", extraHora: "lunes 18:00 Chile <span>· desde el 19 oct</span>", bio: "pedagoga, enseña desde Corea" },
     { ko: "김재희", ro: "Jay", cod: "KOR 102 · 301", curso: "Básico 2 <span class='lv'>(A1.2)</span> y TOPIK II", hora: "miércoles y jueves 21:00 Chile", bio: "nació en Seúl, creció en Chile" },
   ];
   const css = `
@@ -328,7 +328,7 @@ function profes() {
   <h1 class="ttl">Tus profes <em>de octubre</em></h1>
   <div class="lead">Clases en vivo por Zoom · 8 semanas · 60 min por sesión</div>
   <div class="cards">${cards}</div>
-  ${foot("Clases desde la <span>semana del 12 de octubre</span><br>→ academiaseul.com/nivel-1")}`;
+  ${foot("Matrícula hasta el <span>domingo 11 de octubre</span><br>→ academiaseul.com/inscribete")}`;
   return doc({ story: false, css, body });
 }
 
@@ -438,7 +438,8 @@ const clasesHTML = () => `<div class="cl">${CLASES.map((c) => `<div><div class="
   <div class="c">${c.curso}<small>${c.nivel}</small>${c.nota ? `<span class="nt">${c.nota}</span>` : ""}</div><div class="p">${c.profe}</div></div>`).join("")}
   <div class="hc">hora Chile (UTC−3) · 8 semanas · 60 min · certificado incluido</div></div>`;
 
-function cierre() {
+// ttl: titular de 2 líneas (la 2.ª en cursiva azul). Variantes del 7 oct: cuenta regresiva jue 8 → sáb 10.
+function cierre(ttl = "ÚLTIMOS<br><em>DÍAS</em>") {
   const css = clasesCSS + `
   .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 150px; line-height: 1.04; letter-spacing: -4px; margin: 56px 0 0; }
   .ttl em { font-style: italic; color: ${AZUL}; }
@@ -455,17 +456,18 @@ function cierre() {
   `;
   const body = `
   ${top("Matrícula", "Octubre 2026")}
-  <h1 class="ttl">ÚLTIMOS<br><em>DÍAS</em></h1>
+  <h1 class="ttl">${ttl}</h1>
   <div class="when">La matrícula de octubre cierra el<br><span class="nw"><span>domingo 11 · 23:59</span> <small>(Chile)</small></span></div>
   ${clasesHTML()}
   <div class="fee"><div class="a"><span>US$150</span> el curso completo · o 2 cuotas de <span>US$75</span></div></div>
-  <div class="url"><div class="u">academiaseul.com/nivel-1</div></div>`;
+  <div class="url"><div class="u">academiaseul.com/inscribete</div></div>`;
   return doc({ story: true, css, body });
 }
 
-function hoyCierra() {
+// ttl/size: "ÚLTIMAS HORAS" (dom 11 en la noche) usa un titular más chico para que quepa en una línea por palabra
+function hoyCierra(ttl = "HOY<br><em>CIERRA</em>", size = 196) {
   const css = clasesCSS + `
-  .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 196px; line-height: .9; letter-spacing: -5px; margin: 44px 0 0; }
+  .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: ${size}px; line-height: .9; letter-spacing: -5px; margin: 44px 0 0; }
   .ttl em { font-style: italic; color: ${GOLD2}; }
   .when { display: flex; align-items: baseline; gap: 20px; margin-top: 30px; }
   .when .h { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 92px; line-height: 1; color: ${GOLD2}; }
@@ -476,8 +478,8 @@ function hoyCierra() {
   `;
   const body = `
   ${top("Matrícula", "Domingo 11 de octubre")}
-  <h1 class="ttl">HOY<br><em>CIERRA</em></h1>
-  <div class="when"><div class="h">23:59</div><div class="z">hora Chile</div></div>
+  <h1 class="ttl">${ttl}</h1>
+  <div class="when"><div class="h">23:59</div><div class="z">hora Chile${size < 196 ? " · cierra hoy" : ""}</div></div>
   ${clasesHTML()}
   <div class="bio"><div class="t">Link en la bio</div><svg data-deco viewBox="0 0 24 24" fill="none" stroke="${PAPER}" stroke-width="2.6" stroke-linecap="square"><path d="M12 21V4M5 11l7-7 7 7"/></svg></div>`;
   return doc({ story: true, css, body, dark: true });
@@ -524,7 +526,7 @@ function empezamos() {
   <div class="wk">${SEM.map((s, i) => `<div class="${i === 3 ? "nx" : ""}"><div class="d"><div class="n">${s.n}</div><div class="w">${s.dow}<span>oct</span></div></div>
     <div class="cs">${s.clases.map((c) => `<div><div class="h">${c[0]}</div><div class="c">${c[1]} <span>${c[2]}</span></div></div>`).join("")}</div></div>`).join("")}</div>
   <div class="hc"><b>hora Chile</b> · 8 semanas · 60 min · en vivo por Zoom</div>
-  <div class="espera"><div class="a">¿No alcanzaste? Lista de espera<br>para <span>enero 2027</span> en academiaseul.com</div>${sello("wseal")}</div>
+  <div class="espera"><div class="a">¿No alcanzaste? Lista de espera<br>para <span>enero 2027</span>: academiaseul.com/notificarme</div>${sello("wseal")}</div>
   ${foot("Nos vemos en clase · <span class='kr'>화이팅!</span>")}`;
   return doc({ story: false, css, body });
 }
@@ -537,7 +539,11 @@ const DISENOS = [
   { file: "03_vivo_lee_tu_nombre_story.png", story: true, html: vivo() },
   { file: "04_hangeulnal_9_octubre.png", story: false, html: hangeulnal() },
   { file: "05_cierre_domingo_11_story.png", story: true, html: cierre() },
+  { file: "05c_quedan_3_dias_story.png", story: true, html: cierre("QUEDAN<br><em>3 DÍAS</em>") },
+  { file: "05d_quedan_2_dias_story.png", story: true, html: cierre("QUEDAN<br><em>2 DÍAS</em>") },
+  { file: "05e_manana_cierra_story.png", story: true, html: cierre("MAÑANA<br><em>CIERRA</em>") },
   { file: "05b_hoy_cierra_story.png", story: true, html: hoyCierra() },
+  { file: "05f_ultimas_horas_story.png", story: true, html: hoyCierra("ÚLTIMAS<br><em>HORAS</em>", 168) },
   { file: "06_empezamos_esta_semana.png", story: false, html: empezamos() },
   ...DIAS.map((x) => ({ file: `07_reto_dia_${x.d}_story.png`, story: true, html: retoStory(x) })),
 ];

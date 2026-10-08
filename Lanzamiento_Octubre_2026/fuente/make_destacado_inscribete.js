@@ -60,7 +60,7 @@ const LAMINAS = {
   "3_como_pago.png": `
     <div class="zona">
       <div class="kicker">¿CÓMO PAGO?</div>
-      <div class="precio">US$150<br><span style="font-size:52px;font-weight:700">el curso completo</span><br><span style="font-size:52px;font-weight:700">· o 2 cuotas de US$75</span></div>
+      <div class="precio">US$150<br><span style="font-size:52px;font-weight:700">el curso completo ·</span><br><span style="font-size:52px;font-weight:700">o 2 cuotas de US$75</span></div>
       <div class="nota">Mismo precio en todos los cursos</div>
       <div class="card">
         <div class="fila"><b>En Chile</b><span>transferencia sin comisión o Mercado Pago</span></div>

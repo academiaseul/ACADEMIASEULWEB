@@ -1,7 +1,7 @@
 # Calendario de posts, captions y tareas · sáb 3 → lun 12 de octubre de 2026
 
 Horas de Chile. Una publicación en el feed por día. **El cierre de matrícula es el domingo 11 a las 23:59.**
-Vienen de: `Plan_Desde_29sep_2026.md` §3 · `Reels_Desde_30sep_2026.md` · `Captions_Redes_Octubre_2026.md`. Si este archivo y esos no coinciden, **manda este** (está actualizado al 3 de octubre: Reels 1 y 2 publicados, reels de Kiran y Abby agregados).
+Vienen de: `Plan_Desde_29sep_2026.md` §3 · `Reels_Desde_30sep_2026.md` · `Captions_Redes_Octubre_2026.md`. **Desde el mié 7 manda `Plan_Instagram_7al12oct_2026.md`** (al 7 de octubre no se había subido ninguna pieza de campaña; plan corto hasta el lun 12). Si este archivo y esos no coinciden, manda este (está actualizado al 3 de octubre: Reels 1 y 2 publicados, reels de Kiran y Abby agregados).
 
 **Rutina fija (no se anota cada día):** cada pago que llega → registro de pagos + mensaje de confirmación (a1/a2/a3 de `Lanzamiento_Octubre_2026/alumnos/Mensajes_Alumnos.md`) · comentarios: un bloque de 10 min al publicar y otro a las 21:00 · a quien escribe "quiero aprender": *«¡Siii! 🫰 ¿Partes desde cero o ya sabes algo de coreano?»* y según la respuesta, su curso.
 
@@ -183,7 +183,7 @@ Alguien tuvo paciencia conmigo. Por eso creé Academia Seúl: para ser esa perso
 🌱 Básico 1 (A1.1) · desde cero · con Kiran · martes o jueves 20:00
 🚀 Básico 2 (A1.2) · con Jay · miércoles 21:00
 💬 Conversacional 1 (A2.1) · con Abby, desde Corea · martes 21:00
-🎯 TOPIK II (B1+) · con Jay · jueves 21:00 · máx. 8
+📝 TOPIK II (B1+) · con Jay · jueves 21:00 · máx. 8
 🧒 Coreano para Niños (8–15) · con Jay y Abby · lunes 18:00 · desde el 19 de octubre
 
 En vivo por Zoom · 8 semanas · grupos pequeños · certificado incluido. Horas de Chile (en la web ves la de tu país).
@@ -196,7 +196,7 @@ Empezamos la semana del 12 de octubre · matrícula hasta el domingo 11 → link
 ```
 **TikTok**
 ```
-Llegué a Chile a los 10 años sin hablar español 🇰🇷→🇨🇱 Hoy enseño coreano. Clases en vivo: este octubre empezamos 🇰🇷 Matrícula hasta el domingo 11 · academiaseul.com
+Llegué a Chile a los 10 años sin hablar español 🇰🇷→🇨🇱 Hoy enseño coreano. Clases en vivo: este octubre empezamos 🇰🇷 Matrícula hasta el domingo 11 · academiaseul.com/inscribete
 #aprendecoreano #clasesdecoreano #coreanoonline #academiaseul
 ```
 **YouTube Shorts**
@@ -208,12 +208,12 @@ Clases de coreano en vivo por Zoom desde la semana del 12 de octubre. 8 semanas 
 🌱 Básico 1 (A1.1), desde cero · Kiran · martes o jueves 20:00
 🚀 Básico 2 (A1.2) · Jay · miércoles 21:00
 💬 Conversacional 1 (A2.1) · Abby, desde Corea · martes 21:00
-🎯 TOPIK II (B1+) · Jay · jueves 21:00 · máx. 8
+📝 TOPIK II (B1+) · Jay · jueves 21:00 · máx. 8
 🧒 Coreano para Niños (8–15) · Jay y Abby · lunes 18:00 · desde el 19 de octubre
 Horas de Chile: en la web ves la hora de tu país.
 
 US$150 el curso completo · o 2 cuotas de US$75. Matrícula hasta el domingo 11 de octubre (23:59, hora Chile):
-https://www.academiaseul.com/nivel-1
+https://www.academiaseul.com/inscribete
 ¿No sabes tu nivel? Test gratis: https://www.academiaseul.com/test-nivel
 WhatsApp: https://wa.me/56942115562
 #Shorts #clasesdecoreano #aprendecoreano

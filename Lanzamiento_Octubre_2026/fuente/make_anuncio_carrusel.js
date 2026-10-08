@@ -174,7 +174,7 @@ const CARDS = [
       <div class="vis"><div class="hg" lang="ko">한국어</div></div>
       <div class="txt">
         <div class="h1">Aprende coreano<br><em class="gold">con profes coreanos</em></div>
-        <div class="lead">Clases en vivo por Zoom<br><span class="gold">desde el 13 de octubre</span></div>
+        <div class="lead">Clases en vivo por Zoom<br><span class="gold">desde la semana del 12 de octubre</span></div>
       </div>`,
   },
   // 02 · BÁSICO 1
@@ -292,7 +292,7 @@ const CARDS = [
       .c5 .sealrule .sello { height: 72px; }
       .c5 .dl { font-weight: 600; font-size: 40px; line-height: 1.3; }
       .c5 .go { font-weight: 600; font-size: 40px; line-height: 1.3; margin-top: 18px; }
-      .c5 .web { font-family: 'Playfair Display', Georgia, serif; font-weight: 900; font-size: 92px; line-height: 1.34; letter-spacing: -0.5px; margin-top: -8px; }`,
+      .c5 .web { font-family: 'Playfair Display', Georgia, serif; font-weight: 900; font-size: 64px; white-space: nowrap; line-height: 1.34; letter-spacing: -0.5px; margin-top: -8px; }`,
     body: () => `
       ${head("Matrícula abierta")}
       <div class="vis">
@@ -304,7 +304,7 @@ const CARDS = [
         <div class="sealrule"><div class="rule"></div>${SELLO_SVG}</div>
         <div class="dl">Matrícula hasta el <span class="gold nw">domingo 11 de octubre</span></div>
         <div class="go">Inscríbete en</div>
-        <div class="web">academiaseul.com</div>
+        <div class="web">academiaseul.com/inscribete</div>
       </div>`,
   },
 ];
