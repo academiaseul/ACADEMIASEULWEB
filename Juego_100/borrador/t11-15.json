@@ -1,0 +1,1180 @@
+[
+  {
+    "n": 11,
+    "titulo": "Detector de 받침",
+    "objetivo": "Puedo saber si una palabra termina en 받침 mirando y desarmando su ÚLTIMA sílaba.",
+    "nuevo": [
+      "Detector de 받침: se mira solo la ÚLTIMA sílaba y se desarma (책 = ㅊ+ㅐ+ㄱ)",
+      "La ㅇ de abajo SÍ es 받침 (suena ng); la ㅇ de arriba es muda y no cuenta"
+    ],
+    "tarjeta_regla": "DETECTOR DE 받침 · Desarma la ÚLTIMA sílaba. ¿Queda una consonante abajo? → tiene 받침: 책 = ㅊ+ㅐ+ㄱ. ¿Termina en vocal? → no tiene: 커피 → 피 = ㅍ+ㅣ. La ㅇ de abajo sí cuenta (방 = ㅂ+ㅏ+ㅇ); la de arriba es muda (유 = ㅇ+ㅠ). 🔊 책 · 커피 · 가방",
+    "calentamiento": [
+      {
+        "id": "N11-C1",
+        "tipo": "reconoce",
+        "enunciado": "Calentamiento (repaso del nivel 8) · 🔊 Suena una palabra. Toca lo que oíste: 물 · 문 · 무 · 몰",
+        "respuesta": "물",
+        "distractores": [
+          "문",
+          "무",
+          "몰"
+        ],
+        "explicacion_error": "물 = ㅁ+ㅜ+ㄹ: termina en ㄹ, que al final de la sílaba suena como una l. 문 termina en ㄴ y 무 no tiene 받침.",
+        "audio_texto": "물",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°42 · hangul-race w-mul"
+      },
+      {
+        "id": "N11-C2",
+        "tipo": "reconoce",
+        "enunciado": "Calentamiento (repaso del nivel 8) · 🔊 Suena una palabra. Toca lo que oíste: 김치 · 긴치 · 깁치 · 기치",
+        "respuesta": "김치",
+        "distractores": [
+          "긴치",
+          "깁치",
+          "기치"
+        ],
+        "explicacion_error": "김 = ㄱ+ㅣ+ㅁ: la ㅁ final suena “mmm” por la nariz antes de 치. Con ㄴ (긴치) la lengua toca detrás de los dientes, con ㅂ (깁치) los labios se cierran sin sonido y sin 받침 (기치) no queda nada.",
+        "audio_texto": "김치",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°38 (tipo T, solo lectura) · hangul-race w-gimchi"
+      }
+    ],
+    "items": [
+      {
+        "id": "N11-01",
+        "tipo": "clasifica-batchim",
+        "enunciado": "ADIVINA PRIMERO, todavía sin regla (no cuenta para las estrellas) · [Dibujo: libro cerrado de tapa azul con un marcador asomando] 책 (libro). ¿A qué bandeja va? CON 받침 (una consonante abajo) | SIN 받침",
+        "respuesta": "CON 받침",
+        "distractores": [
+          "SIN 받침"
+        ],
+        "explicacion_error": "책 = ㅊ+ㅐ+ㄱ: abajo queda la ㄱ → tiene 받침.",
+        "audio_texto": "책",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°43 · plan §3 nivel 11"
+      },
+      {
+        "id": "N11-02",
+        "tipo": "clasifica-batchim",
+        "enunciado": "[Dibujo: silla de madera con respaldo y cuatro patas] 의자 (silla). ¿A qué bandeja va? CON 받침 | SIN 받침",
+        "respuesta": "SIN 받침",
+        "distractores": [
+          "CON 받침"
+        ],
+        "explicacion_error": "Mira la ÚLTIMA sílaba, no la primera: 자 = ㅈ+ㅏ termina en vocal → sin 받침. La ㅇ de 의 va arriba: es muda y no cuenta.",
+        "audio_texto": "의자",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°48 · plan §3 nivel 11"
+      },
+      {
+        "id": "N11-03",
+        "tipo": "reconoce",
+        "enunciado": "학생 (estudiante) = 학 + 생. Desarma la ÚLTIMA sílaba: ¿qué letra está abajo en 생? ㅇ · ㄱ · ㅅ · ㅐ",
+        "respuesta": "ㅇ",
+        "distractores": [
+          "ㄱ",
+          "ㅅ",
+          "ㅐ"
+        ],
+        "explicacion_error": "En 생 la ㅅ va arriba, la ㅐ al lado y la ㅇ abajo: esa ㅇ es el 받침 y suena ng. La ㄱ es de 학, la primera sílaba, y no manda.",
+        "audio_texto": "학생",
+        "audio_existe": true,
+        "pronunciacion": "[학쌩]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°26 · plan §3 nivel 11"
+      },
+      {
+        "id": "N11-04",
+        "tipo": "clasifica-batchim",
+        "enunciado": "[Dibujo: taza de café humeante sobre un platito] 커피 (café). ¿A qué bandeja va? CON 받침 | SIN 받침",
+        "respuesta": "SIN 받침",
+        "distractores": [
+          "CON 받침"
+        ],
+        "explicacion_error": "피 = ㅍ+ㅣ: termina en la vocal ㅣ → sin 받침.",
+        "audio_texto": "커피",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°51 · plan §3 nivel 11"
+      },
+      {
+        "id": "N11-05",
+        "tipo": "clasifica-batchim",
+        "enunciado": "[Dibujo: mochila escolar con dos correas y un bolsillo delantero] 가방 (mochila). ¿A qué bandeja va? CON 받침 | SIN 받침",
+        "respuesta": "CON 받침",
+        "distractores": [
+          "SIN 받침"
+        ],
+        "explicacion_error": "방 = ㅂ+ㅏ+ㅇ. La ㅇ de abajo SÍ es 받침: suena ng.",
+        "audio_texto": "가방",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°45 · plan §3 nivel 11"
+      },
+      {
+        "id": "N11-06",
+        "tipo": "clasifica-batchim",
+        "enunciado": "[Dibujo: caja de leche con una vaca dibujada y un vaso al lado] 우유 (leche). ¿A qué bandeja va? CON 받침 | SIN 받침",
+        "respuesta": "SIN 받침",
+        "distractores": [
+          "CON 받침"
+        ],
+        "explicacion_error": "유 = ㅇ+ㅠ: la ㅇ está arriba y es muda; abajo no hay nada → sin 받침.",
+        "audio_texto": "우유",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°4 · plan §3 nivel 11"
+      },
+      {
+        "id": "N11-07",
+        "tipo": "construye",
+        "enunciado": "[Dibujo: lápiz amarillo con la punta afilada] 연필 (lápiz). Arma su ÚLTIMA sílaba con las piezas ㅍ · ㅣ · ㄹ · ㄴ (sobra una).",
+        "respuesta": "필 (ㅍ arriba + ㅣ al lado + ㄹ abajo)",
+        "distractores": [
+          "핀 (con ㄴ abajo)",
+          "피 (sin pieza abajo)"
+        ],
+        "explicacion_error": "필 = ㅍ arriba, ㅣ al lado y ㄹ abajo: esa ㄹ es el 받침 de 연필. La ㄴ es de 연, la primera sílaba.",
+        "audio_texto": "연필",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°44 (no hay clip de 필 suelto: suena la palabra)"
+      },
+      {
+        "id": "N11-08",
+        "tipo": "clasifica-batchim",
+        "enunciado": "Arrastra cada palabra a su bandeja, CON 받침 o SIN 받침: [Dibujo: profesora frente a una pizarra] 선생님 · [Dibujo: reloj redondo de pared] 시계 · [Dibujo: pan redondo y dorado] 빵 · [Dibujo: papá con bigote, camisa y corbata] 아버지",
+        "respuesta": "CON 받침: 선생님, 빵 · SIN 받침: 시계, 아버지",
+        "distractores": [
+          "선생님 en SIN 받침",
+          "빵 en SIN 받침",
+          "시계 en CON 받침",
+          "아버지 en CON 받침"
+        ],
+        "explicacion_error": "님 = ㄴ+ㅣ+ㅁ y 빵 = ㅃ+ㅏ+ㅇ tienen una consonante abajo. 계 = ㄱ+ㅖ y 지 = ㅈ+ㅣ terminan en vocal.",
+        "audio_texto": "선생님 | 시계 | 빵 | 아버지",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°27, 46, 41, 12"
+      },
+      {
+        "id": "N11-09",
+        "tipo": "reconoce",
+        "enunciado": "Toca la ÚNICA palabra que termina en 받침: 친구 (amigo) · 물 (agua) · 어머니 (madre) · 학교 (colegio)",
+        "respuesta": "물",
+        "distractores": [
+          "친구",
+          "어머니",
+          "학교"
+        ],
+        "explicacion_error": "물 = ㅁ+ㅜ+ㄹ: termina en ㄹ. 학교 es la trampa: 학 tiene 받침, pero la última sílaba, 교, termina en vocal.",
+        "audio_texto": "물",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°72, 42, 11, 85"
+      },
+      {
+        "id": "N11-10",
+        "tipo": "clasifica-batchim",
+        "enunciado": "Arrastra cada palabra a su bandeja: [Dibujo: celular con la pantalla encendida y un globito de mensaje] 휴대폰 · [Dibujo: mapa de la península coreana con la bandera] 한국 · [Dibujo: abuela de pelo blanco tejiendo en una mecedora] 할머니 · [Dibujo: fachada de cafetería con toldo] 카페",
+        "respuesta": "CON 받침: 휴대폰, 한국 · SIN 받침: 할머니, 카페",
+        "distractores": [
+          "할머니 en CON 받침 (por la ㄹ de 할)",
+          "휴대폰 en SIN 받침",
+          "한국 en SIN 받침",
+          "카페 en CON 받침"
+        ],
+        "explicacion_error": "폰 = ㅍ+ㅗ+ㄴ y 국 = ㄱ+ㅜ+ㄱ tienen 받침. 할머니 empieza con 받침, pero termina en 니 (vocal), igual que 카페 en 페.",
+        "audio_texto": "휴대폰 | 한국 | 할머니 | 카페",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°47, 22, 70, 88"
+      },
+      {
+        "id": "N11-11",
+        "tipo": "clasifica-batchim",
+        "enunciado": "Solo con el oído (el 한글 no se muestra; en pantalla solo aparece “escritorio”): 🔊 suena 책상. ¿A qué bandeja va? CON 받침 | SIN 받침",
+        "respuesta": "CON 받침",
+        "distractores": [
+          "SIN 받침"
+        ],
+        "explicacion_error": "상 = ㅅ+ㅏ+ㅇ: termina en ng → tiene 받침. Fíjate también en que la ㅅ suena tensa después de la ㄱ: [책쌍].",
+        "audio_texto": "책상",
+        "audio_existe": true,
+        "pronunciacion": "[책쌍]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°49"
+      }
+    ],
+    "ojo": "학교 y 할머니 empiezan con 받침 (학, 할), pero terminan en vocal (교, 니). El detector mira SOLO la última sílaba, porque es la que se pega con lo que viene en el nivel 12.",
+    "cierre": "¡Detector de 받침 activado! Estrellas por precisión al primer intento (los ítems “Adivina primero” no cuentan): 1★ al terminar, 2★ con 80 % o más, 3★ con 95 % o más. XP: +10 a la primera, +4 al segundo intento, +5 cada 5 seguidas y +20 la primera vez que terminas el nivel. Los ítems fallados entran a la caja 1 del Leitner y la tarjeta de regla queda en “Mis reglas”. SIGUIENTE → nivel 12: 예요."
+  },
+  {
+    "n": 12,
+    "titulo": "예요: después de vocal",
+    "objetivo": "Puedo decir “es ___” con palabras que terminan en vocal: 의자예요, 커피예요.",
+    "nuevo": [
+      "N + 예요 = “es ___” (también “soy”, “eres”, “son”): va AL FINAL y pegado a la palabra",
+      "예요 solo después de vocal (sin 받침); se escribe con ㅖ"
+    ],
+    "tarjeta_regla": "예요 = “es” (y también “soy”, “eres”, “son”). Va AL FINAL, pegado a la palabra. Úsalo si la última sílaba termina en vocal: 의자 → 의자예요 · 커피 → 커피예요. Se escribe con ㅖ. ¿Termina en 받침? Lleva otra forma: nivel 13. 🔊 의자예요 · 커피예요",
+    "calentamiento": [
+      {
+        "id": "N12-C1",
+        "tipo": "clasifica-batchim",
+        "enunciado": "Calentamiento (nivel 11) · [Dibujo: mochila escolar con dos correas] 가방. ¿A qué bandeja va? CON 받침 | SIN 받침",
+        "respuesta": "CON 받침",
+        "distractores": [
+          "SIN 받침"
+        ],
+        "explicacion_error": "방 = ㅂ+ㅏ+ㅇ: la ㅇ de abajo es 받침 y suena ng.",
+        "audio_texto": "가방",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°45 (vencido de N11-05)"
+      },
+      {
+        "id": "N12-C2",
+        "tipo": "reconoce",
+        "enunciado": "Calentamiento (nivel 11) · ¿Qué letra está abajo en la última sílaba de 선생님? ㅁ · ㄴ · ㅇ · ㅣ",
+        "respuesta": "ㅁ",
+        "distractores": [
+          "ㄴ",
+          "ㅇ",
+          "ㅣ"
+        ],
+        "explicacion_error": "님 = ㄴ+ㅣ+ㅁ: la ㄴ va arriba, la ㅣ al lado y la ㅁ abajo. Esa ㅁ es el 받침.",
+        "audio_texto": "선생님",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°27"
+      }
+    ],
+    "items": [
+      {
+        "id": "N12-01",
+        "tipo": "escucha-imagen",
+        "enunciado": "ADIVINA PRIMERO (no cuenta para las estrellas) · 🔊 suena 커피예요. ¿De qué habla? [taza de café humeante sobre un platito] · [silla de madera] · [caja de leche con un vaso] · [dos amigos chocando las manos]",
+        "respuesta": "[taza de café humeante]",
+        "distractores": [
+          "[silla de madera]",
+          "[caja de leche]",
+          "[dos amigos]"
+        ],
+        "explicacion_error": "커피예요 = es café. Oíste 커피 + 예요, y 예요 significa “es”.",
+        "audio_texto": "커피예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°51 · frase nueva · plan §3 nivel 12"
+      },
+      {
+        "id": "N12-02",
+        "tipo": "ordena",
+        "enunciado": "ADIVINA PRIMERO (no cuenta para las estrellas) · Si 커피예요 es “es café”, ¿cómo dices “es una silla”? [Dibujo: silla de madera] Ordena los bloques: [예요] [의자]",
+        "respuesta": "의자예요",
+        "distractores": [
+          "예요 의자"
+        ],
+        "explicacion_error": "En coreano el “es” va AL FINAL y pegado: 의자 + 예요 = 의자예요.",
+        "audio_texto": "의자예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°48 · frase nueva · plan §3 nivel 12"
+      },
+      {
+        "id": "N12-03",
+        "tipo": "escucha-imagen",
+        "enunciado": "🔊 suena 우유예요. Toca el dibujo: [caja de leche con una vaca dibujada y un vaso] · [reloj redondo de pared] · [abuela tejiendo] · [taza de café]",
+        "respuesta": "[caja de leche]",
+        "distractores": [
+          "[reloj]",
+          "[abuela]",
+          "[taza de café]"
+        ],
+        "explicacion_error": "우유예요 = es leche. 우유 termina en vocal (유 = ㅇ+ㅠ) → 예요.",
+        "audio_texto": "우유예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°4 · frase nueva · plan §3 nivel 12"
+      },
+      {
+        "id": "N12-04",
+        "tipo": "escucha-imagen",
+        "enunciado": "🔊 suena 학교예요. Toca el dibujo: [edificio de colegio con reloj en la fachada y un niño con mochila] · [edificio de oficinas alto con muchas ventanas] · [fachada de cafetería con toldo] · [casita de techo inclinado]",
+        "respuesta": "[edificio de colegio]",
+        "distractores": [
+          "[edificio de oficinas]",
+          "[cafetería]",
+          "[casita]"
+        ],
+        "explicacion_error": "학교예요 = es el colegio. 학 tiene 받침, pero la última sílaba, 교, termina en vocal → 예요.",
+        "audio_texto": "학교예요",
+        "audio_existe": false,
+        "pronunciacion": "[학꾜예요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°85 (dibujos distractores: n°86, 88, 84) · frase nueva"
+      },
+      {
+        "id": "N12-05",
+        "tipo": "clasifica-batchim",
+        "enunciado": "¿A cuáles les toca 예요? Arrastra cada palabra a la bandeja 예요 o a la bandeja “otra forma (nivel 13)”: [Dibujo: reloj de pared] 시계 · [Dibujo: libro de tapa azul] 책 · [Dibujo: mamá de pelo corto con delantal] 어머니 · [Dibujo: lápiz amarillo] 연필",
+        "respuesta": "예요: 시계, 어머니 · otra forma: 책, 연필",
+        "distractores": [
+          "책 en 예요",
+          "연필 en 예요",
+          "시계 en otra forma",
+          "어머니 en otra forma"
+        ],
+        "explicacion_error": "계 y 니 terminan en vocal → 시계예요, 어머니예요. 책 y 연필 terminan en 받침 (ㄱ, ㄹ): para ellas llega otra forma en el nivel 13.",
+        "audio_texto": "시계 | 책 | 어머니 | 연필",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°46, 43, 11, 44"
+      },
+      {
+        "id": "N12-06",
+        "tipo": "ordena",
+        "enunciado": "[Dibujo: dos amigos de la misma edad chocando las manos] Di “es un amigo”. Ordena las sílabas: [예] [친] [요] [구]",
+        "respuesta": "친구예요",
+        "distractores": [
+          "구친예요",
+          "예요친구"
+        ],
+        "explicacion_error": "Primero la palabra entera, 친구, y al final 예요, todo pegado: 친구예요.",
+        "audio_texto": "친구예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°72 · frase nueva · plan §3 nivel 12"
+      },
+      {
+        "id": "N12-07",
+        "tipo": "escucha-imagen",
+        "enunciado": "🔊 suena 사과예요. Toca el dibujo: [manzana brillante con una hoja verde] · [racimo de plátanos amarillos] · [pan dorado] · [taza de café]",
+        "respuesta": "[manzana]",
+        "distractores": [
+          "[plátanos]",
+          "[pan]",
+          "[taza de café]"
+        ],
+        "explicacion_error": "사과예요 = es una manzana. 과 = ㄱ+ㅘ termina en vocal → 예요.",
+        "audio_texto": "사과예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°146 · frase nueva"
+      },
+      {
+        "id": "N12-08",
+        "tipo": "ordena",
+        "enunciado": "[Dibujo: abuela de pelo blanco con anteojos y moño, tejiendo] Di “es la abuela”. Ordena las sílabas: [머] [예] [할] [요] [니]",
+        "respuesta": "할머니예요",
+        "distractores": [
+          "할니머예요",
+          "예요할머니"
+        ],
+        "explicacion_error": "할머니 termina en 니 (vocal) → 예요. La ㄹ de 할 está en la primera sílaba: no manda.",
+        "audio_texto": "할머니예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°70 · frase nueva"
+      },
+      {
+        "id": "N12-09",
+        "tipo": "clasifica-batchim",
+        "enunciado": "¿A cuáles les toca 예요? Bandeja 예요 o bandeja “otra forma (nivel 13)”: [Dibujo: mamá sonriente abrazando a un niño] 엄마 · [Dibujo: pan dorado] 빵 · [Dibujo: fachada de cafetería] 카페 · [Dibujo: celular encendido] 휴대폰",
+        "respuesta": "예요: 엄마, 카페 · otra forma: 빵, 휴대폰",
+        "distractores": [
+          "빵 en 예요",
+          "휴대폰 en 예요",
+          "엄마 en otra forma",
+          "카페 en otra forma"
+        ],
+        "explicacion_error": "마 y 페 terminan en vocal → 엄마예요, 카페예요. 빵 (ㅇ abajo) y 휴대폰 (ㄴ abajo) tienen 받침.",
+        "audio_texto": "엄마 | 빵 | 카페 | 휴대폰",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°63, 41, 88, 47"
+      },
+      {
+        "id": "N12-10",
+        "tipo": "ordena",
+        "enunciado": "[Dibujo: cama individual con almohada y frazada a rayas] Di “es una cama”. Ordena y deja fuera la pieza que sobra: [대] [요] [침] [예] [에]",
+        "respuesta": "침대예요 (sobra 에)",
+        "distractores": [
+          "침대에요"
+        ],
+        "explicacion_error": "Después de vocal se escribe 예요, con ㅖ (dos rayitas). Al hablar rápido 예 y 에 suenan casi igual, por eso *침대에요 es un error muy común.",
+        "audio_texto": "침대예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°128 · frase nueva"
+      },
+      {
+        "id": "N12-11",
+        "tipo": "escucha-imagen",
+        "enunciado": "🔊 suena 아버지예요. Toca el dibujo: [papá con bigote, camisa y corbata] · [abuelo canoso con bastón y chaleco] · [mamá con delantal] · [dos amigos chocando las manos]",
+        "respuesta": "[papá con bigote]",
+        "distractores": [
+          "[abuelo con bastón]",
+          "[mamá]",
+          "[dos amigos]"
+        ],
+        "explicacion_error": "아버지예요 = es el padre (el papá). El abuelo es 할아버지 [하라버지]: tiene una sílaba más al principio.",
+        "audio_texto": "아버지예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°12 (dibujos distractores: n°71, 11, 72) · frase nueva"
+      },
+      {
+        "id": "N12-12",
+        "tipo": "escucha-imagen",
+        "enunciado": "🔊 suena 바나나예요. Toca el dibujo: [racimo de plátanos amarillos] · [manzana brillante] · [plato de carne marinada] · [caja de leche]",
+        "respuesta": "[racimo de plátanos]",
+        "distractores": [
+          "[manzana]",
+          "[carne marinada]",
+          "[caja de leche]"
+        ],
+        "explicacion_error": "바나나예요 = es un plátano (una banana). 나 termina en vocal → 예요.",
+        "audio_texto": "바나나예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°148 · frase nueva"
+      }
+    ],
+    "ojo": "예요 no cambia con la persona: sirve para “soy”, “eres”, “es” y “son”. Y el coreano no usa artículos (un, una, el, la): 의자예요 = “es una silla” o “es la silla”.",
+    "cierre": "¡Ya dices “es ___” en coreano! Estrellas por precisión al primer intento (los ítems “Adivina primero” no cuentan): 1★ al terminar, 2★ con 80 % o más, 3★ con 95 % o más. XP: +10 a la primera, +4 al segundo intento, +5 cada 5 seguidas y +20 la primera vez que terminas el nivel. Los ítems fallados entran a la caja 1 del Leitner y la tarjeta de regla queda en “Mis reglas”. SIGUIENTE → nivel 13: 이에요."
+  },
+  {
+    "n": 13,
+    "titulo": "이에요: después de 받침",
+    "objetivo": "Puedo decir “es ___” con palabras que terminan en 받침 y oír cómo salta la consonante: 책이에요 [채기에요].",
+    "nuevo": [
+      "N + 이에요 después de 받침",
+      "Enlace de sonido (연음): el 받침 salta a la ㅇ de 이에요 (책이에요 [채기에요])",
+      "La ㅇ final no salta: 가방이에요 se lee tal cual"
+    ],
+    "tarjeta_regla": "이에요 · ¿La última sílaba tiene 받침? → 이에요: 책 → 책이에요 [채기에요] · 연필 → 연필이에요 [연피리에요]. La ㅇ de 이 es un asiento vacío: la consonante de abajo salta a sentarse ahí. La ㅇ final no salta: 가방이에요. 🔊 책이에요 · 연필이에요 · 가방이에요",
+    "calentamiento": [
+      {
+        "id": "N13-C1",
+        "tipo": "escucha-imagen",
+        "enunciado": "Calentamiento (nivel 12) · 🔊 suena 친구예요. Toca el dibujo: [dos amigos chocando las manos] · [abuela tejiendo] · [edificio de colegio] · [taza de café]",
+        "respuesta": "[dos amigos]",
+        "distractores": [
+          "[abuela]",
+          "[colegio]",
+          "[taza de café]"
+        ],
+        "explicacion_error": "친구예요 = es un amigo. 구 termina en vocal → 예요.",
+        "audio_texto": "친구예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°72 (vencido de N12-06)"
+      },
+      {
+        "id": "N13-C2",
+        "tipo": "clasifica-batchim",
+        "enunciado": "Calentamiento (nivel 11) · [Dibujo: pan redondo y dorado] 빵. ¿A qué bandeja va? CON 받침 | SIN 받침",
+        "respuesta": "CON 받침",
+        "distractores": [
+          "SIN 받침"
+        ],
+        "explicacion_error": "빵 = ㅃ+ㅏ+ㅇ: la ㅇ de abajo es 받침.",
+        "audio_texto": "빵",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°41 (vencido de N11-08)"
+      }
+    ],
+    "items": [
+      {
+        "id": "N13-01",
+        "tipo": "copula",
+        "enunciado": "ADIVINA PRIMERO (no cuenta para las estrellas) · [Dibujo: libro cerrado de tapa azul] 책 tiene 받침. ¿Cuál crees que va? 책 + ___ (예요 | 이에요). Al responder, suena la forma correcta.",
+        "respuesta": "이에요 → 책이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "책 termina en ㄱ (받침) → 이에요: 책이에요. Escucha cómo salta la ㄱ: [채기에요].",
+        "audio_texto": "책이에요",
+        "audio_existe": true,
+        "pronunciacion": "[채기에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°43 · clip existente · plan §3 nivel 13"
+      },
+      {
+        "id": "N13-02",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: pan redondo, dorado y esponjoso] 빵 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 빵이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "빵 = ㅃ+ㅏ+ㅇ: tiene 받침 → 이에요. La ㅇ final no salta, así que suena tal cual: [빵이에요].",
+        "audio_texto": "빵이에요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°41 · frase nueva · plan §3 nivel 13"
+      },
+      {
+        "id": "N13-03",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: lápiz amarillo con la punta afilada] 연필 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 연필이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "필 termina en ㄹ → 이에요. La ㄹ salta y suena como una r suave: [연피리에요].",
+        "audio_texto": "연필이에요",
+        "audio_existe": false,
+        "pronunciacion": "[연피리에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°44 · frase nueva · plan §3 nivel 13"
+      },
+      {
+        "id": "N13-04",
+        "tipo": "reconoce",
+        "enunciado": "[Dibujo: vaso de agua con un cubo de hielo] 🔊 suena 물이에요. Se escribe 물 + 이에요. ¿Qué sílaba oíste justo después de 무? 리 · 이 · 니 · 미",
+        "respuesta": "리",
+        "distractores": [
+          "이",
+          "니",
+          "미"
+        ],
+        "explicacion_error": "La ㄹ de 물 salta a la ㅇ de 이: por eso oyes 리, [무리에요].",
+        "audio_texto": "물이에요",
+        "audio_existe": false,
+        "pronunciacion": "[무리에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°42 · frase nueva"
+      },
+      {
+        "id": "N13-05",
+        "tipo": "escucha-imagen",
+        "enunciado": "🔊 suena 가방이에요. Toca el dibujo: [mochila escolar con dos correas] · [pan dorado] · [libro de tapa azul] · [lápiz amarillo]",
+        "respuesta": "[mochila escolar]",
+        "distractores": [
+          "[pan]",
+          "[libro]",
+          "[lápiz]"
+        ],
+        "explicacion_error": "가방이에요 = es una mochila. Termina en ㅇ, que no salta: suena tal cual, [가방이에요].",
+        "audio_texto": "가방이에요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°45 · frase nueva · plan §3 nivel 13"
+      },
+      {
+        "id": "N13-06",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: profesora frente a una pizarra, señalando con un puntero] 선생님 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 선생님이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "님 termina en ㅁ → 이에요. La ㅁ salta a la ㅇ: [선생니미에요].",
+        "audio_texto": "선생님이에요",
+        "audio_existe": false,
+        "pronunciacion": "[선생니미에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°27 · frase nueva · plan §3 nivel 13"
+      },
+      {
+        "id": "N13-07",
+        "tipo": "copula",
+        "enunciado": "Repaso del nivel 12 · [Dibujo: reloj redondo de pared con las manecillas marcando las tres] 시계 + ___ (예요 | 이에요)",
+        "respuesta": "예요 → 시계예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "Cuidado: 계 = ㄱ+ㅖ termina en vocal → 예요, como en el nivel 12. 이에요 es solo para las palabras con 받침.",
+        "audio_texto": "시계예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°46 · frase nueva (reemplaza 친구예요, que ya sale en N13-C1)"
+      },
+      {
+        "id": "N13-08",
+        "tipo": "reconoce",
+        "enunciado": "[Dibujo: celular con la pantalla encendida] 🔊 suena 휴대폰이에요. ¿Qué sílaba oíste justo antes de 에요? 니 · 이 · 리 · 미",
+        "respuesta": "니",
+        "distractores": [
+          "이",
+          "리",
+          "미"
+        ],
+        "explicacion_error": "La ㄴ de 폰 salta a la ㅇ de 이 y forma 니: [휴대포니에요].",
+        "audio_texto": "휴대폰이에요",
+        "audio_existe": false,
+        "pronunciacion": "[휴대포니에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°47 · frase nueva"
+      },
+      {
+        "id": "N13-09",
+        "tipo": "escucha-imagen",
+        "enunciado": "🔊 suena 학생이에요. Toca el dibujo: [estudiante con mochila y un cuaderno bajo el brazo] · [profesora frente a una pizarra] · [edificio de colegio] · [familia de cuatro abrazada]",
+        "respuesta": "[estudiante con mochila]",
+        "distractores": [
+          "[profesora]",
+          "[edificio de colegio]",
+          "[familia]"
+        ],
+        "explicacion_error": "학생이에요 = es estudiante (o “soy estudiante”). Suena [학쌩이에요]: la ㅇ final no salta y la ㅅ se pone tensa después de la ㄱ.",
+        "audio_texto": "학생이에요",
+        "audio_existe": false,
+        "pronunciacion": "[학쌩이에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°26 (dibujos distractores: n°27, 85, 62) · frase nueva"
+      },
+      {
+        "id": "N13-10",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: edificio de hospital con una cruz azul en la fachada y una ambulancia] 병원 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 병원이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "원 = ㅇ+ㅝ+ㄴ termina en ㄴ → 이에요. La ㄴ salta: [병워니에요].",
+        "audio_texto": "병원이에요",
+        "audio_existe": false,
+        "pronunciacion": "[병워니에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°87 · frase nueva"
+      },
+      {
+        "id": "N13-11",
+        "tipo": "copula",
+        "enunciado": "Repaso del nivel 12 · [Dibujo: mamá de pelo corto con delantal, con los brazos abiertos] 어머니 + ___ (예요 | 이에요)",
+        "respuesta": "예요 → 어머니예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "니 = ㄴ+ㅣ termina en vocal → 예요. La ㄴ está arriba, no abajo.",
+        "audio_texto": "어머니예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°11 · frase nueva"
+      },
+      {
+        "id": "N13-12",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: casita de techo inclinado con puerta, ventana y chimenea] 집 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 집이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "집 termina en ㅂ → 이에요. La ㅂ salta y suena suave: [지비에요].",
+        "audio_texto": "집이에요",
+        "audio_existe": false,
+        "pronunciacion": "[지비에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°84 · frase nueva"
+      }
+    ],
+    "ojo": "Se escribe 이에요 (이 + 에요), aunque al hablar rápido suene parecido a [이예요]. Escribir *책이예요 es un error: lo practicas en el nivel 14.",
+    "cierre": "¡Ya oyes cómo salta el 받침! Estrellas por precisión al primer intento (el ítem “Adivina primero” no cuenta): 1★ al terminar, 2★ con 80 % o más, 3★ con 95 % o más. XP: +10 a la primera, +4 al segundo intento, +5 cada 5 seguidas y +20 la primera vez que terminas el nivel. Los ítems fallados entran a la caja 1 del Leitner y la tarjeta de regla queda en “Mis reglas”. SIGUIENTE → nivel 14: ¿예요 o 이에요?"
+  },
+  {
+    "n": 14,
+    "titulo": "¿예요 o 이에요?",
+    "objetivo": "Puedo elegir 예요 o 이에요 mirando la ÚLTIMA sílaba, con cosas y con nombres.",
+    "nuevo": [
+      "Mezcla: elegir 예요 o 이에요 sin saber de antemano cuál toca",
+      "Nombres hispanos en 한글 con 예요/이에요: manda cómo termina el nombre en 한글 (루카스예요, 다니엘이에요)",
+      "저는 ___ como bloque fijo (“yo...” al presentarte; se explica en el nivel 16)"
+    ],
+    "tarjeta_regla": "Recordatorio (20 s; se reabre con “¿Cuál era la regla?”) · Mira la última sílaba. ¿Tiene una consonante abajo (받침)? → 이에요. ¿Termina en vocal? → 예요. 책 → 책이에요 [채기에요] · 의자 → 의자예요. Truco: la ㅇ de 이에요 es un asiento vacío; la consonante del final salta a sentarse ahí (menos la ㅇ, que no salta: 가방이에요).",
+    "calentamiento": [
+      {
+        "id": "N14-C1",
+        "tipo": "clasifica-batchim",
+        "enunciado": "Calentamiento (nivel 11) · [Dibujo: taza de café humeante] ¿커피 termina en 받침? CON 받침 | SIN 받침",
+        "respuesta": "SIN 받침",
+        "distractores": [
+          "CON 받침"
+        ],
+        "explicacion_error": "피 = ㅍ+ㅣ termina en vocal → sin 받침.",
+        "audio_texto": "커피",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §4 calentamiento (a) · palabras_basico1 n°51"
+      },
+      {
+        "id": "N14-C2",
+        "tipo": "reconoce",
+        "enunciado": "Calentamiento (nivel 8) · 🔊 Escucha y toca lo que oíste: 학생 · 학교 · 한국 · 학원",
+        "respuesta": "학생",
+        "distractores": [
+          "학교",
+          "한국",
+          "학원"
+        ],
+        "explicacion_error": "Oíste [학쌩]: 학 + 생. 학교 suena [학꾜], 한국 empieza con 한 y 학원 suena [하권].",
+        "audio_texto": "학생",
+        "audio_existe": true,
+        "pronunciacion": "[학쌩]",
+        "romanizacion": "",
+        "fuente": "plan §4 calentamiento (b) · palabras_basico1 n°26, 85, 22, 125 (tipo T)"
+      }
+    ],
+    "items": [
+      {
+        "id": "N14-01",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: libro cerrado de tapa azul con un marcador asomando] 책 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 책이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "책 = ㅊ+ㅐ+ㄱ → termina en ㄱ (받침) → 이에요. Escucha cómo salta la ㄱ: [채기에요].",
+        "audio_texto": "책이에요",
+        "audio_existe": true,
+        "pronunciacion": "[채기에요]",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 1 · palabras_basico1 n°43 · clip existente"
+      },
+      {
+        "id": "N14-02",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: silla de madera con respaldo y cuatro patas] 의자 + ___ (예요 | 이에요)",
+        "respuesta": "예요 → 의자예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "Mira la ÚLTIMA sílaba, no la primera: 자 = ㅈ+ㅏ termina en vocal → 예요. La ㅇ de 의 está arriba: es muda y no cuenta.",
+        "audio_texto": "의자예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 2 (trampa a propósito: 의 empieza con ㅇ) · palabras_basico1 n°48"
+      },
+      {
+        "id": "N14-03",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: mochila escolar con dos correas] 가방 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 가방이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "방 = ㅂ+ㅏ+ㅇ. La ㅇ de abajo SÍ es 받침 (suena ng) → 이에요, y no salta: [가방이에요].",
+        "audio_texto": "가방이에요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 3 · palabras_basico1 n°45"
+      },
+      {
+        "id": "N14-04",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: taza de café humeante sobre un platito] 커피 + ___ (예요 | 이에요)",
+        "respuesta": "예요 → 커피예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "피 = ㅍ+ㅣ → termina en vocal → 예요.",
+        "audio_texto": "커피예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 4 · palabras_basico1 n°51"
+      },
+      {
+        "id": "N14-05",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: lápiz amarillo con la punta afilada] 연필 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 연필이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "필 termina en ㄹ → 이에요. La ㄹ salta y suena como una r suave: [연피리에요].",
+        "audio_texto": "연필이에요",
+        "audio_existe": false,
+        "pronunciacion": "[연피리에요]",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 5 · palabras_basico1 n°44"
+      },
+      {
+        "id": "N14-06",
+        "tipo": "escucha-imagen",
+        "enunciado": "🔊 suena 우유예요. Toca el dibujo: [caja de leche con una vaca dibujada] · [libro de tapa azul] · [silla de madera] · [mochila escolar]",
+        "respuesta": "[caja de leche]",
+        "distractores": [
+          "[libro]",
+          "[silla]",
+          "[mochila]"
+        ],
+        "explicacion_error": "우유예요 = es leche. 우유 termina en la vocal ㅠ (유 = ㅇ+ㅠ) → 예요.",
+        "audio_texto": "우유예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 6 (corregido: la vocal es ㅠ, no ㅜ) · palabras_basico1 n°4"
+      },
+      {
+        "id": "N14-07",
+        "tipo": "copula",
+        "enunciado": "Completa en contexto: preséntate como estudiante. [Dibujo: estudiante con mochila y un cuaderno bajo el brazo] 저는 학생___ (예요 | 이에요)",
+        "respuesta": "이에요 → 저는 학생이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "생 = ㅅ+ㅐ+ㅇ → tiene 받침 ㅇ → 이에요. Suena [저는 학쌩이에요].",
+        "audio_texto": "저는 학생이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 학쌩이에요]",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 7 · palabras_basico1 n°26 · 저는 = bloque fijo"
+      },
+      {
+        "id": "N14-08",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: dos amigos de la misma edad chocando las manos] 친구 + ___ (예요 | 이에요)",
+        "respuesta": "예요 → 친구예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "구 = ㄱ+ㅜ → termina en vocal → 예요.",
+        "audio_texto": "친구예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 8 · palabras_basico1 n°72"
+      },
+      {
+        "id": "N14-09",
+        "tipo": "ordena",
+        "enunciado": "Di que eres Daniel. [Dibujo: chico con una etiqueta de nombre: Daniel → 다니엘] Ordena los bloques (sobra uno): [이에요] [저는] [예요] [다니엘]",
+        "respuesta": "저는 다니엘이에요 (sobra 예요)",
+        "distractores": [
+          "저는 다니엘예요",
+          "이에요 저는 다니엘"
+        ],
+        "explicacion_error": "저는 va primero y la terminación al final, pegada al nombre: 다니엘 termina en ㄹ (받침) → 이에요 [다니에리에요]. 마리아, en cambio, termina en vocal → 마리아예요.",
+        "audio_texto": "저는 다니엘이에요",
+        "audio_existe": true,
+        "pronunciacion": "[저는 다니에리에요]",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 9 · lista de nombres · clip existente"
+      },
+      {
+        "id": "N14-10",
+        "tipo": "copula",
+        "enunciado": "Él es Lucas. [Dibujo: chico con una etiqueta de nombre: Lucas → 루카스] 루카스 + ___ (예요 | 이에요)",
+        "respuesta": "예요 → 루카스예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "En español Lucas termina en s, pero en 한글 es 루카스, y 스 = ㅅ+ㅡ termina en vocal → 예요. Manda cómo termina en 한글, no en español.",
+        "audio_texto": "루카스예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "lista de nombres · nuevo (mejora del plan §4)"
+      },
+      {
+        "id": "N14-11",
+        "tipo": "copula",
+        "enunciado": "Preséntate como Martín. [Dibujo: chico con una etiqueta de nombre: Martín → 마르틴] 저는 마르틴___ (예요 | 이에요)",
+        "respuesta": "이에요 → 저는 마르틴이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "틴 = ㅌ+ㅣ+ㄴ termina en ㄴ → 이에요. La ㄴ salta: [저는 마르티니에요].",
+        "audio_texto": "저는 마르틴이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 마르티니에요]",
+        "romanizacion": "",
+        "fuente": "lista de nombres · nuevo (mejora del plan §4)"
+      },
+      {
+        "id": "N14-12",
+        "tipo": "dos-formas",
+        "enunciado": "Ortografía · ¿Cuál está bien escrita? 책이에요 / 책이예요",
+        "respuesta": "책이에요",
+        "distractores": [
+          "책이예요"
+        ],
+        "explicacion_error": "Después de 받침 la terminación es 이에요: *책이예요 está mal escrito, aunque al hablar rápido suenen parecido.",
+        "audio_texto": "책이에요",
+        "audio_existe": true,
+        "pronunciacion": "[채기에요]",
+        "romanizacion": "",
+        "fuente": "plan §4 ítem 10 · clip existente (solo suena la forma correcta)"
+      }
+    ],
+    "ojo": "아니에요 (“no es”) NO es una palabra más 이에요: viene del verbo 아니다 y siempre se escribe 아니에요, nunca *아니예요; lo usarás en el nivel 18 (빵이 아니에요). 저예요 (“soy yo”) y 뭐예요? (“¿qué es?”) SÍ siguen la regla, porque 저 y 뭐 terminan en vocal; aun así mucha gente escribe *저에요 y *뭐에요 porque así suenan: lo practicas en el nivel 19.",
+    "cierre": "¡Ya eliges solo! Estrellas por precisión al primer intento: 1★ al terminar, 2★ con 80 % o más, 3★ con 95 % o más. XP: +10 a la primera, +4 al segundo intento, +5 cada 5 seguidas y +20 la primera vez que terminas el nivel. Los ítems fallados entran a la caja 1 del Leitner y la regla queda guardada en “Mis reglas”. SIGUIENTE → nivel 15 (repaso mezclado)."
+  },
+  {
+    "n": 15,
+    "titulo": "Repaso mezclado · Hangul + 예요/이에요",
+    "objetivo": "Puedo leer, oír y elegir 예요/이에요 en una ronda mezclada, sin la regla a la vista. Portada: “Ronda mezclada: es normal fallar más.” (6 ítems de Hangul de los niveles 1–10 + 6 de los niveles 11–14; el botón “¿Cuál era la regla?” abre las tarjetas de 11, 12 y 13).",
+    "nuevo": [],
+    "tarjeta_regla": "",
+    "calentamiento": [
+      {
+        "id": "N15-C1",
+        "tipo": "reconoce",
+        "enunciado": "Calentamiento (nivel 13) · [Dibujo: lápiz amarillo] 🔊 suena 연필이에요. ¿Qué sílaba oíste justo antes de 에요? 리 · 이 · 니 · 미",
+        "respuesta": "리",
+        "distractores": [
+          "이",
+          "니",
+          "미"
+        ],
+        "explicacion_error": "La ㄹ de 필 salta a la ㅇ de 이 y forma 리: [연피리에요].",
+        "audio_texto": "연필이에요",
+        "audio_existe": false,
+        "pronunciacion": "[연피리에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°44 (vencido de N13-03)"
+      },
+      {
+        "id": "N15-C2",
+        "tipo": "ordena",
+        "enunciado": "Calentamiento (nivel 12) · [Dibujo: fachada de cafetería con toldo] Di “es una cafetería”. Ordena las sílabas: [페] [요] [카] [예]",
+        "respuesta": "카페예요",
+        "distractores": [
+          "페카예요",
+          "예요카페"
+        ],
+        "explicacion_error": "카페 termina en vocal (페) → 예요, al final y pegado: 카페예요.",
+        "audio_texto": "카페예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°88 · frase nueva"
+      }
+    ],
+    "items": [
+      {
+        "id": "N15-01",
+        "tipo": "pares",
+        "enunciado": "Hangul (nivel 6) · 🔊 suena 빵. ¿Cuál oíste? 빵 · 방 · 팡",
+        "respuesta": "빵",
+        "distractores": [
+          "방",
+          "팡"
+        ],
+        "explicacion_error": "빵 (pan) empieza con ㅃ: tensa, apretada y sin aire. 방 (pieza) es más suave y 팡 lleva un soplo de aire.",
+        "audio_texto": "빵",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nivel 6 (plan §3) · palabras_basico1 n°41, 127"
+      },
+      {
+        "id": "N15-02",
+        "tipo": "pares",
+        "enunciado": "Hangul (nivel 2) · 🔊 suena 저. ¿Cuál oíste? 저 · 조",
+        "respuesta": "저",
+        "distractores": [
+          "조"
+        ],
+        "explicacion_error": "저 (yo) lleva ㅓ: boca abierta y relajada. 조 lleva ㅗ: labios redondos, como para silbar.",
+        "audio_texto": "저",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nivel 2 (plan §3) · palabras_basico1 n°20"
+      },
+      {
+        "id": "N15-03",
+        "tipo": "reconoce",
+        "enunciado": "Hangul (nivel 7) · 🔊 suena 회사 (empresa). Toca lo que oíste: 회사 · 휘사 · 허사 · 화사",
+        "respuesta": "회사",
+        "distractores": [
+          "휘사",
+          "허사",
+          "화사"
+        ],
+        "explicacion_error": "회 lleva ㅚ: se escribe ㅗ+ㅣ, pero hoy suena casi como la “ue” de “huevo”. 휘 lleva ㅟ (como 위), 화 lleva ㅘ (como 와) y 허 lleva ㅓ.",
+        "audio_texto": "회사",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nivel 7 (plan §3) · palabras_basico1 n°86"
+      },
+      {
+        "id": "N15-04",
+        "tipo": "reconoce",
+        "enunciado": "Hangul (nivel 8) · Se escribe 꽃 (flor). 🔊 ¿Cómo suena? [꼳] · [꼬치] · [꼭]",
+        "respuesta": "[꼳]",
+        "distractores": [
+          "[꼬치]",
+          "[꼭]"
+        ],
+        "explicacion_error": "Al final de la sílaba la ㅊ suena como ㄷ: 꽃 [꼳]. No le agregues vocal (꼬치) ni la cambies por ㄱ.",
+        "audio_texto": "꽃",
+        "audio_existe": true,
+        "pronunciacion": "[꼳]",
+        "romanizacion": "",
+        "fuente": "nivel 8 (plan §3)"
+      },
+      {
+        "id": "N15-05",
+        "tipo": "reconoce",
+        "enunciado": "Hangul (nivel 9) · 🔊 suena 감사합니다. ¿Cómo se escribe? 감사합니다 · 감사함니다 · 감사하니다",
+        "respuesta": "감사합니다",
+        "distractores": [
+          "감사함니다",
+          "감사하니다"
+        ],
+        "explicacion_error": "Se escribe 합니다, pero suena [감사함니다]: la ㅂ se vuelve ㅁ antes de ㄴ. Escribe lo que es, no lo que suena.",
+        "audio_texto": "감사합니다",
+        "audio_existe": true,
+        "pronunciacion": "[감사함니다]",
+        "romanizacion": "",
+        "fuente": "nivel 9 (plan §3) · palabras_basico1 n°19 · hangul-race f-gamsahamnida"
+      },
+      {
+        "id": "N15-06",
+        "tipo": "reconoce",
+        "enunciado": "Hangul (nivel 4) · 🔊 suena 아버지. Toca lo que oíste: 아버지 · 아버치 · 아버디 · 아보지",
+        "respuesta": "아버지",
+        "distractores": [
+          "아버치",
+          "아버디",
+          "아보지"
+        ],
+        "explicacion_error": "지 lleva ㅈ: suave, nunca como la jota; 치 lleva un soplo de aire y 디 suena como una d. Además, 버 lleva ㅓ (boca abierta), no ㅗ (labios redondos).",
+        "audio_texto": "아버지",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nivel 4 (plan §3) · palabras_basico1 n°12"
+      },
+      {
+        "id": "N15-07",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: chico con una etiqueta de nombre: Gabriel → 가브리엘] 가브리엘 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 가브리엘이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "엘 termina en ㄹ → 이에요. La ㄹ salta: [가브리에리에요].",
+        "audio_texto": "가브리엘이에요",
+        "audio_existe": false,
+        "pronunciacion": "[가브리에리에요]",
+        "romanizacion": "",
+        "fuente": "lista de nombres · nuevo"
+      },
+      {
+        "id": "N15-08",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: plato de tiras de carne marinada con cebollín y sésamo] 불고기 + ___ (예요 | 이에요)",
+        "respuesta": "예요 → 불고기예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "불 tiene 받침, pero manda la última: 기 = ㄱ+ㅣ termina en vocal → 예요.",
+        "audio_texto": "불고기예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°149 · frase nueva"
+      },
+      {
+        "id": "N15-09",
+        "tipo": "copula",
+        "enunciado": "[Dibujo: fachada de restaurante con un letrero de tazón y palillos] 식당 + ___ (예요 | 이에요)",
+        "respuesta": "이에요 → 식당이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "당 = ㄷ+ㅏ+ㅇ: tiene 받침 → 이에요. La ㅇ no salta, y la ㄷ suena tensa después de la ㄱ: [식땅이에요].",
+        "audio_texto": "식당이에요",
+        "audio_existe": false,
+        "pronunciacion": "[식땅이에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°89 · frase nueva"
+      },
+      {
+        "id": "N15-10",
+        "tipo": "escucha-imagen",
+        "enunciado": "🔊 suena 라면이에요. Toca el dibujo: [olla de fideos humeantes con un huevo y palillos] · [plato de carne marinada] · [pan dorado] · [manzana]",
+        "respuesta": "[olla de fideos]",
+        "distractores": [
+          "[carne marinada]",
+          "[pan]",
+          "[manzana]"
+        ],
+        "explicacion_error": "라면이에요 = es ramen coreano (fideos instantáneos). 면 termina en ㄴ → 이에요, y la ㄴ salta: [라며니에요].",
+        "audio_texto": "라면이에요",
+        "audio_existe": false,
+        "pronunciacion": "[라며니에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°150 · frase nueva"
+      },
+      {
+        "id": "N15-11",
+        "tipo": "copula",
+        "enunciado": "Preséntate como Carlos. [Dibujo: chico con una etiqueta de nombre: Carlos → 카를로스] 저는 카를로스___ (예요 | 이에요)",
+        "respuesta": "예요 → 저는 카를로스예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "En 한글 Carlos es 카를로스, y 스 termina en la vocal ㅡ → 예요. Manda cómo termina en 한글, no en español.",
+        "audio_texto": "저는 카를로스예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "lista de nombres · la misma trampa que usa Kiran en la S2 de Básico 1"
+      },
+      {
+        "id": "N15-12",
+        "tipo": "dos-formas",
+        "enunciado": "Ortografía · ¿Cuál está bien escrita? 친구예요 / 친구에요",
+        "respuesta": "친구예요",
+        "distractores": [
+          "친구에요"
+        ],
+        "explicacion_error": "Después de vocal se escribe 예요, con ㅖ. *친구에요 es un error común porque al hablar rápido suenan parecido.",
+        "audio_texto": "친구예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°72 · frase nueva (solo suena la forma correcta)"
+      }
+    ],
+    "ojo": "",
+    "cierre": "Repaso mezclado listo. Si fallaste más que en el 14, es normal: mezclar es lo que fija la regla, y los ítems fallados vuelven en tu “Repaso del día” y en “Mis difíciles”. Estrellas por precisión al primer intento: 1★ al terminar, 2★ con 80 % o más, 3★ con 95 % o más. XP: +10 a la primera, +4 al segundo intento, +5 cada 5 seguidas y +20 la primera vez que terminas el nivel. SIGUIENTE → nivel 16: 저는 ___ 사람이에요."
+  }
+]

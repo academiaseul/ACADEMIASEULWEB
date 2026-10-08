@@ -1,0 +1,98 @@
+[
+  {
+    "es": "María",
+    "ko": "마리아",
+    "pron": "[마리아] · con la cópula: 마리아예요",
+    "batchim": false
+  },
+  {
+    "es": "Sofía",
+    "ko": "소피아",
+    "pron": "[소피아] · 소피아예요",
+    "batchim": false
+  },
+  {
+    "es": "Camila",
+    "ko": "카밀라",
+    "pron": "[카밀라] · 카밀라예요",
+    "batchim": false
+  },
+  {
+    "es": "Valentina",
+    "ko": "발렌티나",
+    "pron": "[발렌티나] · 발렌티나예요",
+    "batchim": false
+  },
+  {
+    "es": "Mateo",
+    "ko": "마테오",
+    "pron": "[마테오] · 마테오예요",
+    "batchim": false
+  },
+  {
+    "es": "José",
+    "ko": "호세",
+    "pron": "[호세] · 호세예요",
+    "batchim": false
+  },
+  {
+    "es": "Diego",
+    "ko": "디에고",
+    "pron": "[디에고] · 디에고예요",
+    "batchim": false
+  },
+  {
+    "es": "Nicolás",
+    "ko": "니콜라스",
+    "pron": "[니콜라스] · 니콜라스예요 (trampa útil: en español termina en s; en 한글, en la vocal de 스)",
+    "batchim": false
+  },
+  {
+    "es": "Daniel",
+    "ko": "다니엘",
+    "pron": "[다니엘] · 다니엘이에요 [다니에리에요]",
+    "batchim": true
+  },
+  {
+    "es": "Juan",
+    "ko": "후안",
+    "pron": "[후안] · 후안이에요 [후아니에요]",
+    "batchim": true
+  },
+  {
+    "es": "Isabel",
+    "ko": "이사벨",
+    "pron": "[이사벨] · 이사벨이에요 [이사베리에요]",
+    "batchim": true
+  },
+  {
+    "es": "Miguel",
+    "ko": "미겔",
+    "pron": "[미겔] · 미겔이에요 [미게리에요]",
+    "batchim": true
+  },
+  {
+    "es": "Gabriel",
+    "ko": "가브리엘",
+    "pron": "[가브리엘] · 가브리엘이에요 [가브리에리에요]",
+    "batchim": true
+  },
+  {
+    "es": "Sebastián",
+    "ko": "세바스티안",
+    "pron": "[세바스티안] · 세바스티안이에요 [세바스티아니에요]",
+    "batchim": true
+  },
+  {
+    "es": "Abril",
+    "ko": "아브릴",
+    "pron": "[아브릴] · 아브릴이에요 [아브리리에요]",
+    "batchim": true
+  },
+  {
+    "es": "Belén",
+    "ko": "벨렌",
+    "pron": "[벨렌] · 벨렌이에요 [벨레니에요]",
+    "batchim": true
+  }
+]

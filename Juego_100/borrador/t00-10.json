@@ -1,0 +1,2560 @@
+[
+  {
+    "n": 0,
+    "titulo": "Llegada a Incheon · ¿desde dónde partes?",
+    "objetivo": "En menos de 2 minutos: oigo y leo mi primera palabra, entiendo el mapa y elijo por dónde empezar.",
+    "nuevo": [
+      "Primer contacto con 아 y 우유 (se enseñan de verdad en el nivel 1)"
+    ],
+    "tarjeta_regla": "",
+    "calentamiento": [],
+    "items": [
+      {
+        "id": "N00-01",
+        "tipo": "tarjeta",
+        "enunciado": "PRUEBA DE SONIDO. Pantalla de llegada al aeropuerto de Incheon con el tigre del sello (azul #4236F6). Texto: 'Toca 🔊 y escucha.' Suena 안녕하세요 ('hola'). Dos botones: 'Sí, lo oigo' · 'No suena'. Este primer toque también activa el audio en el celular.",
+        "respuesta": "Sí, lo oigo → sigue",
+        "distractores": [
+          "No suena → pantalla de ayuda"
+        ],
+        "explicacion_error": "Si no suena, sube el volumen, quita el modo silencio y vuelve a tocar 🔊. Si aun así no suena, el juego usa la voz de tu dispositivo.",
+        "audio_texto": "안녕하세요",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "annyeonghaseyo",
+        "fuente": "palabras_basico1 n°16 / hangul-race f-annyeonghaseyo"
+      },
+      {
+        "id": "N00-02",
+        "tipo": "tarjeta",
+        "enunciado": "TARJETA DE 세종대왕 (sin puntaje). Dibujo: la estatua dorada del rey Sejong en la plaza de Gwanghwamun, con un libro abierto. Texto: 'En 1443 el rey Sejong el Grande (세종대왕) creó el alfabeto que hoy llamamos 한글, y en 1446 lo dio a conocer para que todo el pueblo pudiera leer y escribir. Hoy lo lees tú.' Botón 🔊 y botón 'Seguir'.",
+        "respuesta": "(tarjeta: Seguir)",
+        "distractores": [],
+        "explicacion_error": "",
+        "audio_texto": "세종대왕",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "sejong daewang",
+        "fuente": "nuevo (plan §3 nivel 0)"
+      },
+      {
+        "id": "N00-03",
+        "tipo": "reconoce",
+        "enunciado": "PRIMER ACIERTO GUIADO. 'Tu primera letra es ㅏ. Con una ㅇ adelante, que al inicio no suena, se escribe 아 y suena a.' Toca 🔊 y después toca 아. Opciones grandes: 아 · 오 (la correcta brilla suave para guiar).",
+        "respuesta": "아",
+        "distractores": [
+          "오"
+        ],
+        "explicacion_error": "En 오 la vocal va abajo de la ㅇ y se dice con los labios redondos. En 아 la rayita mira a la derecha y suena 'a': ¡prueba de nuevo!",
+        "audio_texto": "아",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "a",
+        "fuente": "hangul-race s-a / v-a · dubu 1-1"
+      },
+      {
+        "id": "N00-04",
+        "tipo": "reconoce",
+        "enunciado": "PRIMERA PALABRA. 'Con esas letras ya lees una palabra: 우유.' Toca 🔊 y toca el dibujo que corresponde: [vaso de leche] · [árbol]. Romanización en gris después del audio.",
+        "respuesta": "dibujo del vaso de leche (우유 = leche)",
+        "distractores": [
+          "dibujo del árbol (나무)"
+        ],
+        "explicacion_error": "우유 se lee u-yu y significa leche. ¡Es tu primera palabra en coreano!",
+        "audio_texto": "우유",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "uyu",
+        "fuente": "palabras_basico1 n°4 / hangul-race w-uyu / dubu 1-5"
+      },
+      {
+        "id": "N00-05",
+        "tipo": "reconoce",
+        "enunciado": "DIAGNÓSTICO (no da puntaje). '¿Ya sabes leer esto?' Se muestra 서울 sin audio. Opciones: Seúl · Corea · Gracias · Todavía no sé leerlo. Si acierta, se recomienda la puerta 2; si no, la puerta 1. El audio suena después de responder.",
+        "respuesta": "Seúl",
+        "distractores": [
+          "Corea",
+          "Gracias",
+          "Todavía no sé leerlo (no es error: lleva a la puerta 1)"
+        ],
+        "explicacion_error": "Dice 서울, Seúl: 서 = ㅅ + ㅓ y 울 = ㅇ + ㅜ + ㄹ. Sin apuro: en 10 niveles lo lees sin ayuda.",
+        "audio_texto": "서울",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "seoul",
+        "fuente": "hangul-race w-seoul"
+      },
+      {
+        "id": "N00-06",
+        "tipo": "tarjeta",
+        "enunciado": "PUERTA 1 · 'Empiezo de cero'. Dibujo: el tigre con mochila saliendo por la puerta de llegadas, con una flecha hacia Gwanghwamun. Texto: 'Te llevamos al nivel 1: las 6 vocales.' Debajo, enlace discreto: '¿Prefieres ver primero la clase de Hangul grabada? → /taller'.",
+        "respuesta": "Abre el nivel 1",
+        "distractores": [],
+        "explicacion_error": "",
+        "audio_texto": "",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §3 nivel 0"
+      },
+      {
+        "id": "N00-07",
+        "tipo": "tarjeta",
+        "enunciado": "PUERTA 2 · 'Ya leo Hangul'. Texto: 'Rinde el jefe del nivel 10 en modo Saltar aquí: 20 preguntas. Con 80 % o más a la primera, saltas al nivel 11 (Bukchon). Si no llegas, empiezas en el 1 sin perder nada.'",
+        "respuesta": "Abre el jefe 10 en modo Saltar aquí",
+        "distractores": [],
+        "explicacion_error": "",
+        "audio_texto": "",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §3 nivel 0 y §5 (Saltar aquí)"
+      },
+      {
+        "id": "N00-08",
+        "tipo": "tarjeta",
+        "enunciado": "PUERTA 3 · 'Soy alumno/a'. Texto: 'Escribe la llave de tu curso (te la da tu profe en clase o en el grupo de WhatsApp) y te ofrecemos el Saltar aquí del tramo de tu curso.' Botón 'Tengo llave'. Sin nombre ni correo.",
+        "respuesta": "Pide la llave → ofrece el Saltar aquí del tramo de su curso",
+        "distractores": [],
+        "explicacion_error": "",
+        "audio_texto": "",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §3 nivel 0 y §7.5 (llave)"
+      },
+      {
+        "id": "N00-09",
+        "tipo": "tarjeta",
+        "enunciado": "PUERTA 4 · 'Solo quiero practicar'. Texto: 'Ve directo a la Mochila: el Alfabeto del Lector, Dubu, Corre de 한글 Race, la clase grabada y las flashcards.'",
+        "respuesta": "Abre la Mochila",
+        "distractores": [],
+        "explicacion_error": "",
+        "audio_texto": "",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §3 nivel 0 y §8"
+      },
+      {
+        "id": "N00-10",
+        "tipo": "tarjeta",
+        "enunciado": "AVISO DE MIGRACIÓN (solo si el navegador tiene progreso de otra app; se lee sin borrar nada). Ejemplos: 'Vimos que terminaste los barrios 1 y 2 de Dubu (Bukchon e Insadong): te abonamos los niveles 1–5.' · 'Vimos tu récord en 한글 Race: te recomendamos la puerta 2.' · 'Vimos que usaste el Lector: tu Alfabeto ya está en la Mochila.'",
+        "respuesta": "(tarjeta: Seguir)",
+        "distractores": [],
+        "explicacion_error": "",
+        "audio_texto": "",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "plan §3 nivel 0 (adaptadores de solo lectura hr-progreso-v1, dubu-progreso, as-lector-hangul); equivalencia Dubu 1–2 = Tigre 1–5 según el nivel 5"
+      }
+    ],
+    "ojo": "",
+    "cierre": "Sin XP ni estrellas. Al elegir puerta: '¡Bienvenido/a a Corea! 화이팅!' y el mapa se abre en el nivel elegido."
+  },
+  {
+    "n": 1,
+    "titulo": "Las 6 vocales y la ㅇ muda",
+    "objetivo": "Puedo oír y leer 아 어 오 우 으 이, y leer 아이, 오이 y 우유.",
+    "nuevo": [
+      "ㅇ muda al inicio de la sílaba (la silla vacía)",
+      "Vocales base ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ: ㅗ y ㅜ redondean los labios; ㅓ y ㅡ, no",
+      "Vocal parada → a la derecha; vocal acostada → abajo"
+    ],
+    "tarjeta_regla": "(Aparece después del ítem 1, 'adivina primero'.) Toda sílaba empieza con consonante: para decir 'a' se pone ㅇ, que al inicio no suena → 아. Vocal parada (ㅏ ㅓ ㅣ), a la derecha; acostada (ㅗ ㅜ ㅡ), abajo. ㅗ y ㅜ redondean los labios; ㅓ y ㅡ, no. 🔊 아 · 어 · 오 · 우 · 으 · 이",
+    "calentamiento": [],
+    "items": [
+      {
+        "id": "N01-01",
+        "tipo": "reconoce",
+        "enunciado": "ADIVINA PRIMERO (no cuenta para las estrellas). Escucha 🔊 y toca la sílaba que crees que oíste. Opciones: 아 · 오 · 우",
+        "respuesta": "아",
+        "distractores": [
+          "오",
+          "우"
+        ],
+        "explicacion_error": "아 tiene la rayita hacia la derecha y suena 'a' de casa. La ㅇ de adelante no suena: es una silla vacía.",
+        "audio_texto": "아",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "a",
+        "fuente": "hangul-race v-a / s-a"
+      },
+      {
+        "id": "N01-02",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 오 · 어 · 우",
+        "respuesta": "오",
+        "distractores": [
+          "어",
+          "우"
+        ],
+        "explicacion_error": "오 es la 'o' de oso, con los labios redondos; la rayita apunta hacia arriba. 어 se dice con la boca abierta y los labios relajados.",
+        "audio_texto": "오",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "o",
+        "fuente": "hangul-race v-o"
+      },
+      {
+        "id": "N01-03",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 어 · 오 · 아",
+        "respuesta": "어",
+        "distractores": [
+          "오",
+          "아"
+        ],
+        "explicacion_error": "어 abre la boca como para 'a', pero dices 'o' sin redondear los labios. Si tus labios hacen un círculo, es 오.",
+        "audio_texto": "어",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "eo",
+        "fuente": "hangul-race v-eo"
+      },
+      {
+        "id": "N01-04",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 우 · 으 · 오",
+        "respuesta": "우",
+        "distractores": [
+          "으",
+          "오"
+        ],
+        "explicacion_error": "우 es la 'u' de uva: labios redondos y hacia adelante, con la rayita hacia abajo. 으 se dice sonriendo.",
+        "audio_texto": "우",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "u",
+        "fuente": "hangul-race v-u"
+      },
+      {
+        "id": "N01-05",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 으 · 우 · 이",
+        "respuesta": "으",
+        "distractores": [
+          "우",
+          "이"
+        ],
+        "explicacion_error": "으 es 'sonríe y di u': labios estirados, sin redondear. Se escribe con una sola raya acostada.",
+        "audio_texto": "으",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "eu",
+        "fuente": "hangul-race v-eu"
+      },
+      {
+        "id": "N01-06",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 이 · 으 · 어",
+        "respuesta": "이",
+        "distractores": [
+          "으",
+          "어"
+        ],
+        "explicacion_error": "이 es la 'i' de isla: una raya parada a la derecha de la ㅇ. 으 tiene la raya acostada, abajo.",
+        "audio_texto": "이",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "i",
+        "fuente": "hangul-race v-i"
+      },
+      {
+        "id": "N01-07",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la sílaba en el tablero 2×2 de Dubu (fichas: ㅇ · ㅗ · ㅏ · ㅓ). Pista gris: o.",
+        "respuesta": "오 (ㅇ + ㅗ abajo)",
+        "distractores": [
+          "아 (ㅇ + ㅏ)",
+          "어 (ㅇ + ㅓ)"
+        ],
+        "explicacion_error": "ㅗ es una vocal acostada, así que va debajo de la ㅇ: 오. Las paradas (ㅏ ㅓ) van a la derecha.",
+        "audio_texto": "오",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "o",
+        "fuente": "dubu 1-2"
+      },
+      {
+        "id": "N01-08",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'leche' en el tablero 3×3 (fichas: ㅇ · ㅇ · ㅜ · ㅠ · ㅗ · ㅡ · ㅏ · ㅓ · ㅣ). Pista gris: uyu. Nota en pantalla: '유 lleva ㅠ: es ㅜ con una rayita más, que agrega una y (la ves completa en el nivel 2)'.",
+        "respuesta": "우유 (ㅇ + ㅜ, ㅇ + ㅠ)",
+        "distractores": [
+          "오유 (ㅗ en vez de ㅜ)",
+          "으유 (ㅡ en vez de ㅜ)"
+        ],
+        "explicacion_error": "우 lleva ㅜ, con los labios hacia adelante, y 유 lleva ㅠ, que es ㅜ con una rayita más. Las dos son acostadas: van abajo de la ㅇ.",
+        "audio_texto": "우유",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "uyu",
+        "fuente": "dubu 1-5 / palabras_basico1 n°4 / hangul-race w-uyu"
+      },
+      {
+        "id": "N01-09",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones (ilustraciones de las flashcards): [pepino] · [niño sonriente] · [vaso de leche]",
+        "respuesta": "pepino (오이)",
+        "distractores": [
+          "niño (아이)",
+          "leche (우유)"
+        ],
+        "explicacion_error": "오이 empieza con 오, con los labios redondos: es pepino. 아이 empieza con 아 y es niño o niña: una sola vocal cambia la palabra.",
+        "audio_texto": "오이",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "oi",
+        "fuente": "palabras_basico1 n°5 / hangul-race w-oi"
+      },
+      {
+        "id": "N01-10",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [niño sonriente] · [pepino] · [vaso de leche]",
+        "respuesta": "niño, niña (아이)",
+        "distractores": [
+          "pepino (오이)",
+          "leche (우유)"
+        ],
+        "explicacion_error": "아이 = 아 + 이, 'a-i': niño o niña. Con 오 al principio sería 오이, pepino.",
+        "audio_texto": "아이",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ai",
+        "fuente": "palabras_basico1 n°3 / hangul-race w-ai"
+      },
+      {
+        "id": "N01-11",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [vaso de leche] · [pepino] · [niño sonriente]",
+        "respuesta": "leche (우유)",
+        "distractores": [
+          "pepino (오이)",
+          "niño (아이)"
+        ],
+        "explicacion_error": "우유 = 'u-yu': leche. Las dos vocales van abajo porque son acostadas.",
+        "audio_texto": "우유",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "uyu",
+        "fuente": "palabras_basico1 n°4 / hangul-race w-uyu"
+      }
+    ],
+    "ojo": "La ㅇ tiene dos trabajos: al inicio de la sílaba no suena (아) y abajo suena 'ng' (lo ves en el nivel 8).",
+    "cierre": "Estrellas por precisión a la primera (1★ al terminar, 2★ con 80 %, 3★ con 95 %); XP +10 a la primera, +4 al segundo intento, +5 cada 5 seguidas, +20 por terminar. Palabras nuevas: 아이, 오이, 우유. Mochila: Alfabeto del Lector (vocales) y Dubu 1-1 y 1-2. SIGUIENTE → nivel 2."
+  },
+  {
+    "n": 2,
+    "titulo": "Una rayita más = y · el oído ㅓ/ㅗ y ㅡ/ㅜ",
+    "objetivo": "Puedo leer 야 여 요 유 y distinguir de oído 어/오 y 으/우.",
+    "nuevo": [
+      "Una rayita más agrega una 'y': ㅑ ㅕ ㅛ ㅠ",
+      "Oído ㅓ/ㅗ: labios relajados o redondos",
+      "Oído ㅡ/ㅜ: sonrisa o labios hacia adelante"
+    ],
+    "tarjeta_regla": "Una rayita más agrega una 'y': ㅏ→ㅑ (ya), ㅓ→ㅕ (yeo), ㅗ→ㅛ (yo), ㅜ→ㅠ (yu). Truco del espejo: si tus labios hacen un círculo, es ㅗ o ㅜ; si no, es ㅓ o ㅡ. 🔊 야 · 여 · 요 · 유",
+    "calentamiento": [
+      {
+        "id": "N02-C1",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 우 · 으 · 오",
+        "respuesta": "우",
+        "distractores": [
+          "으",
+          "오"
+        ],
+        "explicacion_error": "우 es la 'u' de uva: labios redondos y hacia adelante. 으 se dice sonriendo.",
+        "audio_texto": "우",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "u",
+        "fuente": "repaso N01-04 / hangul-race v-u"
+      },
+      {
+        "id": "N02-C2",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [pepino] · [niño sonriente] · [vaso de leche]",
+        "respuesta": "pepino (오이)",
+        "distractores": [
+          "niño (아이)",
+          "leche (우유)"
+        ],
+        "explicacion_error": "오이 empieza con 오, con los labios redondos: pepino. 아이 es niño o niña.",
+        "audio_texto": "오이",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "oi",
+        "fuente": "repaso N01-09 / palabras_basico1 n°5"
+      }
+    ],
+    "items": [
+      {
+        "id": "N02-01",
+        "tipo": "reconoce",
+        "enunciado": "ADIVINA PRIMERO (no cuenta). 'Si ㅏ suena a, ¿cómo sonará ㅏ con una rayita más?' Escucha 🔊 y toca. Opciones: 야 · 아 · 여",
+        "respuesta": "야",
+        "distractores": [
+          "아",
+          "여"
+        ],
+        "explicacion_error": "야 es 'ia' de piano: ㅏ con una rayita más. Esa rayita extra agrega la 'y'.",
+        "audio_texto": "야",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ya",
+        "fuente": "hangul-race v-ya"
+      },
+      {
+        "id": "N02-02",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 여 · 요 · 어",
+        "respuesta": "여",
+        "distractores": [
+          "요",
+          "어"
+        ],
+        "explicacion_error": "여 es 'y' + ㅓ, con la boca relajada; sus dos rayitas miran a la izquierda. 요 tiene los palitos arriba y los labios redondos.",
+        "audio_texto": "여",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "yeo",
+        "fuente": "hangul-race v-yeo"
+      },
+      {
+        "id": "N02-03",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 요 · 유 · 여",
+        "respuesta": "요",
+        "distractores": [
+          "유",
+          "여"
+        ],
+        "explicacion_error": "요 es 'y' + ㅗ: dos palitos hacia arriba y labios redondos. 유 tiene los palitos hacia abajo.",
+        "audio_texto": "요",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "yo",
+        "fuente": "hangul-race v-yo"
+      },
+      {
+        "id": "N02-04",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 유 · 요 · 우",
+        "respuesta": "유",
+        "distractores": [
+          "요",
+          "우"
+        ],
+        "explicacion_error": "유 es 'iu' de ciudad: ㅜ con una rayita más, con los palitos hacia abajo. Sin la rayita extra es 우.",
+        "audio_texto": "유",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "yu",
+        "fuente": "hangul-race v-yu"
+      },
+      {
+        "id": "N02-05",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅓ/ㅗ. Escucha 🔊 y toca lo que oíste. Opciones: 어 · 오",
+        "respuesta": "어",
+        "distractores": [
+          "오"
+        ],
+        "explicacion_error": "Con 어 la boca queda abierta y los labios relajados. Si suena redondo, como la 'o' de oso, es 오.",
+        "audio_texto": "어",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "eo",
+        "fuente": "dubu 1-3 (ronda 어/오)"
+      },
+      {
+        "id": "N02-06",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅓ/ㅗ. Escucha 🔊 y toca lo que oíste. Opciones: 오 · 어",
+        "respuesta": "오",
+        "distractores": [
+          "어"
+        ],
+        "explicacion_error": "오 redondea los labios en un círculo pequeño. 어 abre la boca sin redondear.",
+        "audio_texto": "오",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "o",
+        "fuente": "dubu 1-3 (ronda 어/오)"
+      },
+      {
+        "id": "N02-07",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅡ/ㅜ. Escucha 🔊 y toca lo que oíste. Opciones: 으 · 우",
+        "respuesta": "으",
+        "distractores": [
+          "우"
+        ],
+        "explicacion_error": "으 se dice sonriendo, con los labios estirados. 우 los lleva hacia adelante, como para dar un beso.",
+        "audio_texto": "으",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "eu",
+        "fuente": "dubu 1-3 (ronda 으/우)"
+      },
+      {
+        "id": "N02-08",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅡ/ㅜ. Escucha 🔊 y toca lo que oíste. Opciones: 우 · 으",
+        "respuesta": "우",
+        "distractores": [
+          "으"
+        ],
+        "explicacion_error": "우 lleva los labios redondos hacia adelante. 으 es una sonrisa, sin redondear.",
+        "audio_texto": "우",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "u",
+        "fuente": "dubu 1-3 (ronda 으/우)"
+      },
+      {
+        "id": "N02-09",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅕ/ㅛ. Escucha 🔊 y toca lo que oíste. Opciones: 요 · 여",
+        "respuesta": "요",
+        "distractores": [
+          "여"
+        ],
+        "explicacion_error": "요 redondea los labios: es 오 con 'y'. 여 los deja relajados: es 어 con 'y'.",
+        "audio_texto": "요",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "yo",
+        "fuente": "dubu 1-3 (ronda 여/요)"
+      },
+      {
+        "id": "N02-10",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [zorro] · [vaso de leche] · [pepino]",
+        "respuesta": "zorro (여우)",
+        "distractores": [
+          "leche (우유)",
+          "pepino (오이)"
+        ],
+        "explicacion_error": "여우 = 여 + 우, 'yeo-u': zorro. 우유 (leche) empieza con 우, sin la 'y'.",
+        "audio_texto": "여우",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "yeou",
+        "fuente": "nuevo (plan §3 nivel 2)"
+      },
+      {
+        "id": "N02-11",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la palabra que oíste (significa 'razón'). Opciones: 이유 · 이요 · 이우",
+        "respuesta": "이유",
+        "distractores": [
+          "이요",
+          "이우"
+        ],
+        "explicacion_error": "유 lleva ㅠ: 'yu', con los palitos hacia abajo. 요, con los palitos hacia arriba, suena 'yo'.",
+        "audio_texto": "이유",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "iyu",
+        "fuente": "nuevo"
+      }
+    ],
+    "ojo": "ㅕ es 'y' + ㅓ, con la boca relajada: 여 no es el 'yo' del español. El 'yo' redondo es 요. Escúchalos seguidos en el Alfabeto del Lector.",
+    "cierre": "Estrellas por precisión a la primera; +20 XP por terminar. Palabras nuevas: 여우, 이유. Mochila: Dubu 1-3 (oído) y el Alfabeto del Lector. SIGUIENTE → nivel 3."
+  },
+  {
+    "n": 3,
+    "titulo": "Consonantes I: fotos de la boca (ㄱ ㄴ ㄷ ㄹ ㅁ)",
+    "objetivo": "Puedo leer sílabas con ㄱ ㄴ ㄷ ㄹ ㅁ y palabras como 나무, 머리, 고기 y 어머니.",
+    "nuevo": [
+      "ㄱ ㄴ ㅁ: fotos de la boca (lengua atrás, punta arriba, labios)",
+      "ㄷ = ㄴ + un trazo (d suave)",
+      "ㄹ = r suave de 'pero' (nunca rr)"
+    ],
+    "tarjeta_regla": "Las consonantes son fotos de tu boca: ㄱ, la lengua que sube atrás; ㄴ, la punta arriba; ㅁ, los labios cerrados. ㄴ con un trazo más es ㄷ. ㄹ es la r suave de 'pero'. En el juego, cada letra suena con ㅏ: ㄱ → 가. 🔊 가 · 나 · 다 · 라 · 마",
+    "calentamiento": [
+      {
+        "id": "N03-C1",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 어 · 오 · 아",
+        "respuesta": "어",
+        "distractores": [
+          "오",
+          "아"
+        ],
+        "explicacion_error": "어 abre la boca sin redondear los labios. Si tus labios hacen un círculo, es 오.",
+        "audio_texto": "어",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "eo",
+        "fuente": "repaso N01-03 / N02-05"
+      },
+      {
+        "id": "N03-C2",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 유 · 요 · 우",
+        "respuesta": "유",
+        "distractores": [
+          "요",
+          "우"
+        ],
+        "explicacion_error": "유 es ㅜ con una rayita más: 'yu', con los palitos hacia abajo. 요 tiene los palitos arriba.",
+        "audio_texto": "유",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "yu",
+        "fuente": "repaso N02-04"
+      }
+    ],
+    "items": [
+      {
+        "id": "N03-01",
+        "tipo": "reconoce",
+        "enunciado": "ADIVINA PRIMERO (no cuenta). Escucha 🔊 y toca la consonante que crees que suena. Opciones: ㄱ · ㄴ · ㅁ",
+        "respuesta": "ㄱ",
+        "distractores": [
+          "ㄴ",
+          "ㅁ"
+        ],
+        "explicacion_error": "ㄱ es la parte de atrás de la lengua que sube: suena 'g' suave, como en 가. ㄴ suena 'n' y ㅁ, 'm'.",
+        "audio_texto": "가",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "g (가 = ga)",
+        "fuente": "hangul-race c-g"
+      },
+      {
+        "id": "N03-02",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la consonante. Opciones: ㄷ · ㄴ · ㄹ",
+        "respuesta": "ㄷ",
+        "distractores": [
+          "ㄴ",
+          "ㄹ"
+        ],
+        "explicacion_error": "ㄷ es ㄴ con una tapa arriba: una 'd' suave, con poco aire. Con ㄴ sonaría 나.",
+        "audio_texto": "다",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "d (다 = da)",
+        "fuente": "hangul-race c-d"
+      },
+      {
+        "id": "N03-03",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la consonante. Opciones: ㄹ · ㄴ · ㄷ",
+        "respuesta": "ㄹ",
+        "distractores": [
+          "ㄴ",
+          "ㄷ"
+        ],
+        "explicacion_error": "ㄹ suena como la r de 'pero': un solo toquecito de la lengua. Nunca es la rr de 'perro'.",
+        "audio_texto": "라",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "r (라 = ra)",
+        "fuente": "hangul-race c-r"
+      },
+      {
+        "id": "N03-04",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 y arma la sílaba con las piezas: ㄴ · ㄷ · ㅓ · ㅗ",
+        "respuesta": "너 (ㄴ + ㅓ)",
+        "distractores": [
+          "노 (ㄴ + ㅗ)",
+          "더 (ㄷ + ㅓ)"
+        ],
+        "explicacion_error": "너 = ㄴ + ㅓ: la vocal parada va a la derecha y los labios no se redondean. 노 llevaría la ㅗ abajo.",
+        "audio_texto": "너",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "neo",
+        "fuente": "hangul-race construye 'al-lado' / palabras_basico1 n°2"
+      },
+      {
+        "id": "N03-05",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 y arma la sílaba con las piezas: ㄱ · ㄴ · ㅗ · ㅓ",
+        "respuesta": "고 (ㄱ + ㅗ)",
+        "distractores": [
+          "거 (ㄱ + ㅓ)",
+          "노 (ㄴ + ㅗ)"
+        ],
+        "explicacion_error": "ㅗ es acostada, así que va debajo de la ㄱ: 고. 거 lleva la ㅓ a la derecha, sin redondear.",
+        "audio_texto": "고",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "go",
+        "fuente": "hangul-race construye 'abajo' / s-go"
+      },
+      {
+        "id": "N03-06",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 y arma la sílaba con las piezas: ㅁ · ㄴ · ㅓ · ㅗ",
+        "respuesta": "머 (ㅁ + ㅓ)",
+        "distractores": [
+          "모 (ㅁ + ㅗ)",
+          "너 (ㄴ + ㅓ)"
+        ],
+        "explicacion_error": "머 = ㅁ + ㅓ: labios que se juntan y después boca abierta sin redondear. Es la primera sílaba de 머리 (cabeza).",
+        "audio_texto": "머",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "meo",
+        "fuente": "hangul-race s-meo"
+      },
+      {
+        "id": "N03-07",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'árbol' en el tablero 3×3 (fichas: ㄴ · ㅁ · ㅏ · ㅜ · ㅓ · ㅗ · ㄷ · ㄹ · ㅇ). Pista gris: namu.",
+        "respuesta": "나무 (ㄴ + ㅏ, ㅁ + ㅜ)",
+        "distractores": [
+          "너무 (ㅓ en vez de ㅏ)",
+          "나모 (ㅗ en vez de ㅜ)"
+        ],
+        "explicacion_error": "나 = ㄴ + ㅏ y 무 = ㅁ + ㅜ: 'na-mu', árbol. La ㅜ va abajo porque es acostada.",
+        "audio_texto": "나무",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "namu",
+        "fuente": "dubu 2-2 / palabras_basico1 n°6 / hangul-race w-namu"
+      },
+      {
+        "id": "N03-08",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'carne' en el tablero 3×3 (fichas: ㄱ · ㄱ · ㅗ · ㅣ · ㅓ · ㅜ · ㄴ · ㅁ · ㄷ). Pista gris: gogi.",
+        "respuesta": "고기 (ㄱ + ㅗ, ㄱ + ㅣ)",
+        "distractores": [
+          "거기 (ㅓ en vez de ㅗ)",
+          "구기 (ㅜ en vez de ㅗ)"
+        ],
+        "explicacion_error": "고 lleva la ㅗ abajo (labios redondos) y 기 lleva la ㅣ a la derecha: 'go-gui' (con la g de 'guitarra'), carne. Ojo: 거기 existe y significa 'ahí'.",
+        "audio_texto": "고기",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "gogi",
+        "fuente": "dubu 2-1 / palabras_basico1 n°13 / hangul-race w-gogi"
+      },
+      {
+        "id": "N03-09",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'madre' en el tablero 3×3 (fichas: ㅇ · ㅓ · ㅁ · ㅓ · ㄴ · ㅣ · ㅗ · ㅏ · ㄹ). Pista gris: eomeoni.",
+        "respuesta": "어머니 (ㅇ + ㅓ, ㅁ + ㅓ, ㄴ + ㅣ)",
+        "distractores": [
+          "오머니 (ㅗ en vez de ㅓ)",
+          "어머리 (ㄹ en vez de ㄴ)"
+        ],
+        "explicacion_error": "어머니 tiene 3 cuadrados: 어 + 머 + 니, 'eo-meo-ni', madre. Las dos ㅓ se dicen con la boca abierta, sin redondear.",
+        "audio_texto": "어머니",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "eomeoni",
+        "fuente": "palabras_basico1 n°11"
+      },
+      {
+        "id": "N03-10",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la palabra que oíste (significa 'cabeza; pelo'). Opciones: 머리 · 모리 · 머니",
+        "respuesta": "머리",
+        "distractores": [
+          "모리",
+          "머니"
+        ],
+        "explicacion_error": "머리 = 머 (ㅓ, sin redondear) + 리 (ㄹ + ㅣ). Entre vocales, la ㄹ suena como la r de 'pero'.",
+        "audio_texto": "머리",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "meori",
+        "fuente": "palabras_basico1 n°9 / hangul-race w-meori"
+      },
+      {
+        "id": "N03-11",
+        "tipo": "reconoce",
+        "enunciado": "OÍDO ㅡ/ㅜ con consonante. Escucha 🔊 y toca lo que oíste. Opciones: 구 · 그 · 거",
+        "respuesta": "구",
+        "distractores": [
+          "그",
+          "거"
+        ],
+        "explicacion_error": "구 = ㄱ + ㅜ, con los labios hacia adelante. 그 se dice sonriendo (ㅡ) y 거, con la boca abierta (ㅓ).",
+        "audio_texto": "구",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "gu",
+        "fuente": "dubu 2-3 (ronda 그/구); plan §3 nivel 2, movido al 3 porque lleva ㄱ"
+      },
+      {
+        "id": "N03-12",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la palabra que oíste (significa 'aquí'). Opciones: 여기 · 거기 · 고기",
+        "respuesta": "여기",
+        "distractores": [
+          "거기",
+          "고기"
+        ],
+        "explicacion_error": "여기 empieza con 여 ('yeo'), porque la ㅇ no suena. 거기 ('ahí') empieza con ㄱ, y 고기 es carne.",
+        "audio_texto": "여기",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "yeogi",
+        "fuente": "palabras_basico1 n°93; plan §3 nivel 2, movido al 3 porque lleva ㄱ"
+      }
+    ],
+    "ojo": "ㄹ cambia según dónde esté: entre vocales es la r suave de 'pero' (머리), y al final de la sílaba suena l (물, en el nivel 8).",
+    "cierre": "Estrellas por precisión a la primera; +20 XP por terminar. Palabras nuevas: 나무, 고기, 어머니, 머리, 여기. Mochila: Dubu Insadong 2-1 a 2-3 y el Alfabeto del Lector (consonantes). SIGUIENTE → nivel 4."
+  },
+  {
+    "n": 4,
+    "titulo": "Consonantes II: ㅂ ㅅ ㅈ ㅎ (la ㅈ nunca es jota)",
+    "objetivo": "Puedo leer sílabas con ㅂ ㅅ ㅈ ㅎ y palabras como 바다, 모자, 구두 y 아버지.",
+    "nuevo": [
+      "ㅂ: b suave (ㅁ con dos orejitas)",
+      "ㅅ (s) y ㅈ (ㅅ + un trazo = ch suave, nunca jota)",
+      "ㅎ: puro aire, como una jota muy suave"
+    ],
+    "tarjeta_regla": "ㅂ es una b suave y ㅅ, una s. ㅈ es ㅅ con un trazo: suena ch suave (casi la j inglesa de 'jeans'), nunca nuestra jota. La que se parece a una jota muy suave es ㅎ: puro aire. 🔊 바 · 사 · 자 · 하",
+    "calentamiento": [
+      {
+        "id": "N04-C1",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la consonante. Opciones: ㄹ · ㄴ · ㄷ",
+        "respuesta": "ㄹ",
+        "distractores": [
+          "ㄴ",
+          "ㄷ"
+        ],
+        "explicacion_error": "ㄹ suena como la r de 'pero', un solo toquecito. Nunca es la rr de 'perro'.",
+        "audio_texto": "라",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "r (라 = ra)",
+        "fuente": "repaso N03-03"
+      },
+      {
+        "id": "N04-C2",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la palabra que oíste (significa 'cabeza; pelo'). Opciones: 머리 · 모리 · 머니",
+        "respuesta": "머리",
+        "distractores": [
+          "모리",
+          "머니"
+        ],
+        "explicacion_error": "머리 = 머 (ㅓ, sin redondear) + 리. La ㄹ entre vocales es una r suave.",
+        "audio_texto": "머리",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "meori",
+        "fuente": "repaso N03-10"
+      }
+    ],
+    "items": [
+      {
+        "id": "N04-01",
+        "tipo": "reconoce",
+        "enunciado": "ADIVINA PRIMERO (no cuenta). Escucha 🔊 y toca la consonante. Opciones: ㅈ · ㅎ · ㅅ",
+        "respuesta": "ㅈ",
+        "distractores": [
+          "ㅎ",
+          "ㅅ"
+        ],
+        "explicacion_error": "자 lleva ㅈ: una 'ch' suave, nunca la jota del español. La que se parece a una jota muy suave es ㅎ (하).",
+        "audio_texto": "자",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "j (자 = ja)",
+        "fuente": "hangul-race c-j"
+      },
+      {
+        "id": "N04-02",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la consonante. Opciones: ㅂ · ㅁ · ㄷ",
+        "respuesta": "ㅂ",
+        "distractores": [
+          "ㅁ",
+          "ㄷ"
+        ],
+        "explicacion_error": "ㅂ es ㅁ con dos orejitas: una 'b' suave, con los labios que se abren. ㅁ es 'm', con los labios cerrados.",
+        "audio_texto": "바",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "b (바 = ba)",
+        "fuente": "hangul-race c-b"
+      },
+      {
+        "id": "N04-03",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la consonante. Opciones: ㅅ · ㅈ · ㅎ",
+        "respuesta": "ㅅ",
+        "distractores": [
+          "ㅈ",
+          "ㅎ"
+        ],
+        "explicacion_error": "ㅅ es una 's' y dibuja un diente. ㅈ es ㅅ con un trazo arriba y suena 'ch' suave.",
+        "audio_texto": "사",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "s (사 = sa)",
+        "fuente": "hangul-race c-s"
+      },
+      {
+        "id": "N04-04",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la consonante. Opciones: ㅎ · ㅇ · ㅈ",
+        "respuesta": "ㅎ",
+        "distractores": [
+          "ㅇ",
+          "ㅈ"
+        ],
+        "explicacion_error": "하 lleva ㅎ: puro aire, como una jota muy suave. Con ㅇ no sonaría nada al inicio: 아.",
+        "audio_texto": "하",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "h (하 = ha)",
+        "fuente": "hangul-race c-h"
+      },
+      {
+        "id": "N04-05",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la sílaba. Opciones: 시 · 지 · 히",
+        "respuesta": "시",
+        "distractores": [
+          "지",
+          "히"
+        ],
+        "explicacion_error": "시 = ㅅ + ㅣ: delante de ㅣ, la ㅅ suena casi 'shi' suave. 지 lleva ㅈ y suena 'chi' suave.",
+        "audio_texto": "시",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "si",
+        "fuente": "nuevo (Curriculo S01 §3.2: ㅅ delante de ㅣ)"
+      },
+      {
+        "id": "N04-06",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'mar' en el tablero 3×3 (fichas: ㅂ · ㄷ · ㅏ · ㅏ · ㅁ · ㅓ · ㅗ · ㅅ · ㅈ). Pista gris: bada.",
+        "respuesta": "바다 (ㅂ + ㅏ, ㄷ + ㅏ)",
+        "distractores": [
+          "마다 (ㅁ en vez de ㅂ)",
+          "바더 (ㅓ en vez de ㅏ)"
+        ],
+        "explicacion_error": "바 = ㅂ + ㅏ y 다 = ㄷ + ㅏ: 'ba-da', mar. ㅂ y ㄷ suenan suaves, con poco aire.",
+        "audio_texto": "바다",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "bada",
+        "fuente": "dubu 2-4 / palabras_basico1 n°7 / hangul-race w-bada"
+      },
+      {
+        "id": "N04-07",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'gorro' en el tablero 3×3 (fichas: ㅁ · ㅗ · ㅈ · ㅏ · ㅅ · ㅎ · ㅓ · ㅜ · ㄴ). Pista gris: moja.",
+        "respuesta": "모자 (ㅁ + ㅗ, ㅈ + ㅏ)",
+        "distractores": [
+          "모사 (ㅅ en vez de ㅈ)",
+          "머자 (ㅓ en vez de ㅗ)"
+        ],
+        "explicacion_error": "모 lleva la ㅗ abajo y 자 lleva ㅈ, la 'ch' suave: 'mo-ja', gorro. La j de la pista gris es la de 'jeans', nunca nuestra jota.",
+        "audio_texto": "모자",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "moja",
+        "fuente": "palabras_basico1 n°8 / hangul-race w-moja"
+      },
+      {
+        "id": "N04-08",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'zapatos (de vestir)' en el tablero 3×3 (fichas: ㄱ · ㅜ · ㄷ · ㅜ · ㅡ · ㅗ · ㅂ · ㅅ · ㄴ). Pista gris: gudu.",
+        "respuesta": "구두 (ㄱ + ㅜ, ㄷ + ㅜ)",
+        "distractores": [
+          "그두 (ㅡ en vez de ㅜ)",
+          "구도 (ㅗ en vez de ㅜ)"
+        ],
+        "explicacion_error": "구 y 두 llevan la ㅜ abajo, con los labios hacia adelante: 'gu-du', zapatos de vestir. ㄱ y ㄷ suenan suaves.",
+        "audio_texto": "구두",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "gudu",
+        "fuente": "palabras_basico1 n°10 / hangul-race w-gudu"
+      },
+      {
+        "id": "N04-09",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'padre' en el tablero 3×3 (fichas: ㅇ · ㅏ · ㅂ · ㅓ · ㅈ · ㅣ · ㅎ · ㅅ · ㅗ). Pista gris: abeoji.",
+        "respuesta": "아버지 (ㅇ + ㅏ, ㅂ + ㅓ, ㅈ + ㅣ)",
+        "distractores": [
+          "아버히 (ㅎ en vez de ㅈ)",
+          "아보지 (ㅗ en vez de ㅓ)"
+        ],
+        "explicacion_error": "아 + 버 + 지: 'a-beo-ji', padre. Entre vocales la ㅈ suena todavía más suave, nunca como jota.",
+        "audio_texto": "아버지",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "abeoji",
+        "fuente": "palabras_basico1 n°12"
+      },
+      {
+        "id": "N04-10",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [gorro] · [zapatos de vestir] · [mar]",
+        "respuesta": "gorro, sombrero (모자)",
+        "distractores": [
+          "zapatos (구두)",
+          "mar (바다)"
+        ],
+        "explicacion_error": "모자 es gorro o sombrero; 구두 son zapatos de vestir. Fíjate en la primera vocal: 모 (ㅗ) frente a 구 (ㅜ).",
+        "audio_texto": "모자",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "moja",
+        "fuente": "palabras_basico1 n°8"
+      },
+      {
+        "id": "N04-11",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [una mano con un dedo levantado: uno] · [mariposa] · [mar]",
+        "respuesta": "uno (하나)",
+        "distractores": [
+          "mariposa (나비)",
+          "mar (바다)"
+        ],
+        "explicacion_error": "하나 = 하 + 나, 'ha-na': uno, cuando cuentas cosas. 하 lleva ㅎ, puro aire.",
+        "audio_texto": "하나",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "hana",
+        "fuente": "dubu 2-5"
+      },
+      {
+        "id": "N04-12",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [mariposa] · [árbol] · [gorro]",
+        "respuesta": "mariposa (나비)",
+        "distractores": [
+          "árbol (나무)",
+          "gorro (모자)"
+        ],
+        "explicacion_error": "나비 = 나 + 비, 'na-bi': mariposa. 나무 (árbol) también empieza con 나, pero sigue con 무.",
+        "audio_texto": "나비",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "nabi",
+        "fuente": "nuevo"
+      }
+    ],
+    "ojo": "ㅂ ㄷ ㄱ ㅈ son 'suaves': a veces suenan casi b/d/g y a veces casi p/t/k (ㅈ, entre ch y la j de 'jeans'), y siguen siendo la misma letra. Lo que sí cambia la palabra es el aire o el apretón: lo ves en el nivel 6.",
+    "cierre": "Estrellas por precisión a la primera; +20 XP por terminar. Palabras nuevas: 바다, 모자, 구두, 아버지, 하나, 나비. Mochila: Dubu 2-4 y 2-5. SIGUIENTE → nivel 5 (repaso)."
+  },
+  {
+    "n": 5,
+    "titulo": "Repaso mezclado: arma bloques al lado o abajo",
+    "objetivo": "Puedo armar cualquier sílaba sin 받침, con la vocal al lado (가, 너) o abajo (고, 누), y oír ㅓ/ㅗ y ㅡ/ㅜ.",
+    "nuevo": [],
+    "tarjeta_regla": "Sin regla nueva. El botón '¿Cuál era la regla?' reabre las tarjetas de los niveles 1–4.",
+    "calentamiento": [
+      {
+        "id": "N05-C1",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅡ/ㅜ. Escucha 🔊 y toca lo que oíste. Opciones: 으 · 우",
+        "respuesta": "으",
+        "distractores": [
+          "우"
+        ],
+        "explicacion_error": "으 se dice sonriendo, con los labios estirados. 우 los lleva hacia adelante.",
+        "audio_texto": "으",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "eu",
+        "fuente": "repaso N02-07"
+      },
+      {
+        "id": "N05-C2",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'gorro' en el tablero 3×3 (fichas: ㅁ · ㅗ · ㅈ · ㅏ · ㅅ · ㅎ · ㅓ · ㅜ · ㄴ). Pista gris: moja.",
+        "respuesta": "모자 (ㅁ + ㅗ, ㅈ + ㅏ)",
+        "distractores": [
+          "모사 (ㅅ en vez de ㅈ)",
+          "머자 (ㅓ en vez de ㅗ)"
+        ],
+        "explicacion_error": "모 lleva la ㅗ abajo y 자 lleva la ㅈ, 'ch' suave: 'mo-ja'. La ㅈ nunca es jota.",
+        "audio_texto": "모자",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "moja",
+        "fuente": "repaso N04-07"
+      }
+    ],
+    "items": [
+      {
+        "id": "N05-01",
+        "tipo": "construye",
+        "enunciado": "Aviso al empezar: 'Ronda mezclada: es normal fallar más.' Escucha 🔊 y arma la sílaba con las piezas: ㄱ · ㄴ · ㅏ · ㅗ",
+        "respuesta": "가 (ㄱ + ㅏ)",
+        "distractores": [
+          "고 (ㄱ + ㅗ)",
+          "나 (ㄴ + ㅏ)"
+        ],
+        "explicacion_error": "가 = ㄱ + ㅏ: la vocal parada va a la derecha. 고 llevaría la ㅗ abajo, con los labios redondos.",
+        "audio_texto": "가",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ga",
+        "fuente": "hangul-race construye 'al-lado' / s-ga"
+      },
+      {
+        "id": "N05-02",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 y arma la sílaba con las piezas: ㄴ · ㄷ · ㅓ · ㅗ",
+        "respuesta": "너 (ㄴ + ㅓ)",
+        "distractores": [
+          "노 (ㄴ + ㅗ)",
+          "더 (ㄷ + ㅓ)"
+        ],
+        "explicacion_error": "너 = ㄴ + ㅓ, a la derecha y sin redondear. 노 lleva la ㅗ abajo.",
+        "audio_texto": "너",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "neo",
+        "fuente": "plan §3 nivel 5 (가, 너 / 고, 누) / palabras_basico1 n°2"
+      },
+      {
+        "id": "N05-03",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 y arma la sílaba con las piezas: ㄱ · ㅈ · ㅗ · ㅓ",
+        "respuesta": "고 (ㄱ + ㅗ)",
+        "distractores": [
+          "거 (ㄱ + ㅓ)",
+          "조 (ㅈ + ㅗ)"
+        ],
+        "explicacion_error": "고 = ㄱ + ㅗ: la vocal acostada va abajo. 조 empezaría con ㅈ, una 'ch' suave.",
+        "audio_texto": "고",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "go",
+        "fuente": "hangul-race construye 'abajo' / s-go"
+      },
+      {
+        "id": "N05-04",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 y arma la sílaba con las piezas: ㄴ · ㄹ · ㅜ · ㅡ",
+        "respuesta": "누 (ㄴ + ㅜ)",
+        "distractores": [
+          "느 (ㄴ + ㅡ)",
+          "루 (ㄹ + ㅜ)"
+        ],
+        "explicacion_error": "누 = ㄴ + ㅜ, abajo y con los labios hacia adelante. 느 se diría sonriendo (ㅡ).",
+        "audio_texto": "누",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "nu",
+        "fuente": "hangul-race s-nu"
+      },
+      {
+        "id": "N05-05",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 y arma la sílaba con las piezas: ㅎ · ㅇ · ㅗ · ㅓ",
+        "respuesta": "호 (ㅎ + ㅗ)",
+        "distractores": [
+          "허 (ㅎ + ㅓ)",
+          "오 (ㅇ + ㅗ)"
+        ],
+        "explicacion_error": "호 = ㅎ + ㅗ: aire y labios redondos. Sin la ㅎ sería 오, y con ㅓ sería 허.",
+        "audio_texto": "호",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ho",
+        "fuente": "hangul-race construye 'abajo' (generador)"
+      },
+      {
+        "id": "N05-06",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 y arma la sílaba con las piezas: ㅈ · ㅅ · ㅣ · ㅡ",
+        "respuesta": "지 (ㅈ + ㅣ)",
+        "distractores": [
+          "시 (ㅅ + ㅣ)",
+          "즈 (ㅈ + ㅡ)"
+        ],
+        "explicacion_error": "지 = ㅈ + ㅣ: 'chi' suave, la última sílaba de 아버지. 시 lleva ㅅ, sin el trazo de arriba.",
+        "audio_texto": "지",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ji",
+        "fuente": "hangul-race construye 'al-lado' (generador)"
+      },
+      {
+        "id": "N05-07",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅓ/ㅗ. Escucha 🔊 y toca lo que oíste. Opciones: 서 · 소",
+        "respuesta": "서",
+        "distractores": [
+          "소"
+        ],
+        "explicacion_error": "서 = ㅅ + ㅓ, con los labios relajados. 소 los redondea (y significa 'vaca').",
+        "audio_texto": "서",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "seo",
+        "fuente": "dubu PARES ㅓ/ㅗ / 5-3"
+      },
+      {
+        "id": "N05-08",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅡ/ㅜ. Escucha 🔊 y toca lo que oíste. Opciones: 두 · 드",
+        "respuesta": "두",
+        "distractores": [
+          "드"
+        ],
+        "explicacion_error": "두 = ㄷ + ㅜ, con los labios hacia adelante. 드 se dice sonriendo.",
+        "audio_texto": "두",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "du",
+        "fuente": "dubu PARES ㅡ/ㅜ / 5-3"
+      },
+      {
+        "id": "N05-09",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅓ/ㅗ. Escucha 🔊 y toca lo que oíste. Opciones: 노 · 너",
+        "respuesta": "노",
+        "distractores": [
+          "너"
+        ],
+        "explicacion_error": "노 redondea los labios (ㅗ). 너 los deja relajados (ㅓ).",
+        "audio_texto": "노",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "no",
+        "fuente": "dubu 5-3 (ronda 너/노)"
+      },
+      {
+        "id": "N05-10",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅡ/ㅜ. Escucha 🔊 y toca lo que oíste. Opciones: 브 · 부",
+        "respuesta": "브",
+        "distractores": [
+          "부"
+        ],
+        "explicacion_error": "브 = ㅂ + ㅡ, sonriendo y sin redondear. 부 lleva la ㅜ, con los labios hacia adelante.",
+        "audio_texto": "브",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "beu",
+        "fuente": "dubu PARES ㅡ/ㅜ"
+      },
+      {
+        "id": "N05-11",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'aquí' en el tablero 3×3 (fichas: ㅇ · ㅕ · ㄱ · ㅣ · ㅓ · ㅛ · ㄴ · ㅁ · ㄷ). Pista gris: yeogi.",
+        "respuesta": "여기 (ㅇ + ㅕ, ㄱ + ㅣ)",
+        "distractores": [
+          "어기 (ㅓ sin la rayita extra)",
+          "요기 (ㅛ en vez de ㅕ)"
+        ],
+        "explicacion_error": "여 lleva ㅕ: ㅓ con una rayita más, 'yeo'. 기 = ㄱ + ㅣ: 'yeo-gi', aquí.",
+        "audio_texto": "여기",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "yeogi",
+        "fuente": "palabras_basico1 n°93 / repaso N03-12"
+      },
+      {
+        "id": "N05-12",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'tofu' en el tablero 3×3 (fichas: ㄷ · ㅜ · ㅂ · ㅜ · ㅡ · ㅗ · ㅁ · ㄱ · ㅓ). Pista gris: dubu.",
+        "respuesta": "두부 (ㄷ + ㅜ, ㅂ + ㅜ)",
+        "distractores": [
+          "드부 (ㅡ en vez de ㅜ)",
+          "두보 (ㅗ en vez de ㅜ)"
+        ],
+        "explicacion_error": "두 y 부 llevan la ㅜ abajo: 'du-bu', tofu. ¡Así se llama Dubu, el puzzle de tu Mochila!",
+        "audio_texto": "두부",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "dubu",
+        "fuente": "nuevo (nombre de Dubu; hoy Dubu lo dice como 두 + 부)"
+      }
+    ],
+    "ojo": "Sin 받침 ya armas cualquier sílaba. Bonus en la Mochila: los barrios Bukchon e Insadong de Dubu y Corre de 한글 Race (60 segundos de sílabas).",
+    "cierre": "Estrellas por precisión a la primera; +20 XP por terminar. Lo que falles vuelve en el Repaso del día. Equivale a los barrios 1–2 de Dubu. SIGUIENTE → nivel 6."
+  },
+  {
+    "n": 6,
+    "titulo": "Aire o apretón: 가 · 카 · 까",
+    "objetivo": "Puedo oír y leer la diferencia entre suave, con aire y tensa: 가/카/까, 다/타/따, 바/파/빠.",
+    "nuevo": [
+      "Aspiradas ㅋ ㅌ ㅍ ㅊ: un trazo más = más aire",
+      "Tensas ㄲ ㄸ ㅃ ㅆ ㅉ: letra doble = apretón, sin aire"
+    ],
+    "tarjeta_regla": "Cada familia tiene tres hermanas: 가 (suave), 카 (con aire), 까 (apretada, sin aire). La prueba del papel: pon una tira frente a la boca. Con 카 se mueve; con 까, no. Un trazo más = aire; letra doble = apretón. 🔊 가 · 카 · 까",
+    "calentamiento": [
+      {
+        "id": "N06-C1",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅓ/ㅗ. Escucha 🔊 y toca lo que oíste. Opciones: 노 · 너",
+        "respuesta": "노",
+        "distractores": [
+          "너"
+        ],
+        "explicacion_error": "노 redondea los labios (ㅗ). 너 los deja relajados (ㅓ).",
+        "audio_texto": "노",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "no",
+        "fuente": "repaso N05-09"
+      },
+      {
+        "id": "N06-C2",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'mar' en el tablero 3×3 (fichas: ㅂ · ㄷ · ㅏ · ㅏ · ㅁ · ㅓ · ㅗ · ㅅ · ㅈ). Pista gris: bada.",
+        "respuesta": "바다 (ㅂ + ㅏ, ㄷ + ㅏ)",
+        "distractores": [
+          "마다 (ㅁ en vez de ㅂ)",
+          "바더 (ㅓ en vez de ㅏ)"
+        ],
+        "explicacion_error": "바 = ㅂ + ㅏ y 다 = ㄷ + ㅏ: 'ba-da', mar.",
+        "audio_texto": "바다",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "bada",
+        "fuente": "repaso N04-06"
+      }
+    ],
+    "items": [
+      {
+        "id": "N06-01",
+        "tipo": "pares",
+        "enunciado": "ADIVINA PRIMERO (no cuenta). Escucha 🔊 (2 voces) y toca la que lleva aire. Opciones: 가 · 카 · 까",
+        "respuesta": "카",
+        "distractores": [
+          "가",
+          "까"
+        ],
+        "explicacion_error": "카 lleva ㅋ, que es ㄱ con un trazo más: sale aire y el papel se mueve. 까 es apretada y sin aire.",
+        "audio_texto": "카",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ka",
+        "fuente": "dubu 4-2 (ronda 가/카/까)"
+      },
+      {
+        "id": "N06-02",
+        "tipo": "pares",
+        "enunciado": "Escucha 🔊 (2 voces) y toca lo que oíste. Opciones: 가 · 카 · 까",
+        "respuesta": "까",
+        "distractores": [
+          "가",
+          "카"
+        ],
+        "explicacion_error": "까 lleva ㄲ, la letra doble: aprieta la garganta y no sueltes aire. Se parece mucho a la 'ca' de 'casa', que en español sale sin soplo.",
+        "audio_texto": "까",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "kka",
+        "fuente": "dubu 4-2 (ronda 가/카/까)"
+      },
+      {
+        "id": "N06-03",
+        "tipo": "pares",
+        "enunciado": "Escucha 🔊 (2 voces) y toca lo que oíste. Opciones: 가 · 카 · 까",
+        "respuesta": "가",
+        "distractores": [
+          "카",
+          "까"
+        ],
+        "explicacion_error": "가 es la suave: muy poco aire y sin apretar. Ni soplo (카) ni apretón (까).",
+        "audio_texto": "가",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ga",
+        "fuente": "dubu 4-2 (ronda 가/카/까)"
+      },
+      {
+        "id": "N06-04",
+        "tipo": "pares",
+        "enunciado": "Escucha 🔊 (2 voces) y toca lo que oíste. Opciones: 다 · 타 · 따",
+        "respuesta": "타",
+        "distractores": [
+          "다",
+          "따"
+        ],
+        "explicacion_error": "타 lleva ㅌ, ㄷ con un trazo más: 't' con soplo, más aire que nuestra 't'. 따 es la doble, apretada.",
+        "audio_texto": "타",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ta",
+        "fuente": "dubu 4-2 (ronda 다/타/따)"
+      },
+      {
+        "id": "N06-05",
+        "tipo": "pares",
+        "enunciado": "Escucha 🔊 (2 voces) y toca lo que oíste. Opciones: 다 · 타 · 따",
+        "respuesta": "따",
+        "distractores": [
+          "다",
+          "타"
+        ],
+        "explicacion_error": "따 lleva ㄸ, la letra doble: apretón sin aire, casi como la 'ta' de 'taza'. 타 suelta aire y 다 es suave.",
+        "audio_texto": "따",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "tta",
+        "fuente": "dubu 4-2 (ronda 다/타/따)"
+      },
+      {
+        "id": "N06-06",
+        "tipo": "pares",
+        "enunciado": "Escucha 🔊 (2 voces) y toca lo que oíste. Opciones: 바 · 파 · 빠",
+        "respuesta": "파",
+        "distractores": [
+          "바",
+          "빠"
+        ],
+        "explicacion_error": "파 lleva ㅍ: soplo fuerte, más aire que nuestra 'p'. 빠 es apretada y sin aire.",
+        "audio_texto": "파",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pa",
+        "fuente": "dubu 4-2 (ronda 바/파/빠)"
+      },
+      {
+        "id": "N06-07",
+        "tipo": "pares",
+        "enunciado": "Escucha 🔊 (2 voces) y toca lo que oíste. Opciones: 바 · 파 · 빠",
+        "respuesta": "빠",
+        "distractores": [
+          "바",
+          "파"
+        ],
+        "explicacion_error": "빠 lleva ㅃ: labios apretados y nada de aire, casi como la 'pa' de 'papá'. 바 es la suave.",
+        "audio_texto": "빠",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ppa",
+        "fuente": "dubu 4-2 (ronda 바/파/빠)"
+      },
+      {
+        "id": "N06-08",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'café (bebida)' en el tablero 3×3 (fichas: ㅋ · ㅓ · ㅍ · ㅣ · ㄱ · ㅂ · ㅗ · ㅏ · ㄷ). Pista gris: keopi.",
+        "respuesta": "커피 (ㅋ + ㅓ, ㅍ + ㅣ)",
+        "distractores": [
+          "거피 (ㄱ, sin aire)",
+          "커비 (ㅂ en vez de ㅍ)"
+        ],
+        "explicacion_error": "커 lleva ㅋ y 피 lleva ㅍ: las dos con aire, 'keo-pi'. Por eso no es 거 ni 비.",
+        "audio_texto": "커피",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "keopi",
+        "fuente": "dubu 4-1 / palabras_basico1 n°51 / hangul-race w-keopi"
+      },
+      {
+        "id": "N06-09",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'falda' en el tablero 3×3 (fichas: ㅊ · ㅣ · ㅁ · ㅏ · ㅈ · ㅓ · ㅂ · ㅋ · ㅎ). Pista gris: chima. Dibujo: una falda azul.",
+        "respuesta": "치마 (ㅊ + ㅣ, ㅁ + ㅏ)",
+        "distractores": [
+          "지마 (ㅈ, sin aire)",
+          "치머 (ㅓ en vez de ㅏ)"
+        ],
+        "explicacion_error": "치 lleva ㅊ, que es ㅈ con un trazo más: 'ch' con soplo, y 마 = ㅁ + ㅏ. 'chi-ma' es falda.",
+        "audio_texto": "치마",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "chima",
+        "fuente": "nuevo (reemplaza a 피자 de dubu 4-5: su romanización obligatoria 'pija' es una grosería en varios países de Latinoamérica)"
+      },
+      {
+        "id": "N06-10",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅏ/ㅗ. Escucha 🔊 y toca la palabra que oíste. Opciones: 아빠 · 오빠",
+        "respuesta": "오빠",
+        "distractores": [
+          "아빠"
+        ],
+        "explicacion_error": "오빠 empieza con 오, labios redondos: hermano mayor (lo dice una mujer). 아빠 empieza con 아: papá.",
+        "audio_texto": "오빠",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "oppa",
+        "fuente": "palabras_basico1 n°67 y n°64"
+      },
+      {
+        "id": "N06-11",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [pan] · [pizza] · [taza de café]",
+        "respuesta": "pan (빵)",
+        "distractores": [
+          "pizza (피자)",
+          "café (커피)"
+        ],
+        "explicacion_error": "빵 lleva ㅃ, apretada y sin aire: pan. La ㅇ de abajo es un 받침 y suena 'ng' (lo ves en el nivel 8).",
+        "audio_texto": "빵",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ppang",
+        "fuente": "dubu 4-4 / palabras_basico1 n°41"
+      },
+      {
+        "id": "N06-12",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [taza de té] · [taza de café] · [pan]",
+        "respuesta": "té (차)",
+        "distractores": [
+          "café (커피)",
+          "pan (빵)"
+        ],
+        "explicacion_error": "차 lleva ㅊ, que es ㅈ con un trazo: 'ch' con soplo. 차 es té, y también 'auto' o 'carro'.",
+        "audio_texto": "차",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "cha",
+        "fuente": "dubu DICC (차 = té)"
+      }
+    ],
+    "ojo": "ㅅ no tiene hermana con aire, solo la tensa ㅆ: 사 / 싸. ㅈ sí tiene las tres: 자 / 차 / 짜.",
+    "cierre": "Estrellas por precisión a la primera; +20 XP por terminar. Los pares se oyen en 2 voces (SunHi y, desde noviembre, Jay). Palabras nuevas: 커피, 치마, 오빠, 아빠, 빵, 차. Mochila: Dubu Gwangjang 4-1 a 4-5. SIGUIENTE → nivel 7."
+  },
+  {
+    "n": 7,
+    "titulo": "Dos vocales en una (ㅐ ㅔ ㅖ ㅚ ㅟ ㅘ ㅝ ㅢ)",
+    "objetivo": "Puedo leer las vocales compuestas y palabras como 시계, 회사, 위, 의자, 뭐 y 사과.",
+    "nuevo": [
+      "ㅐ y ㅔ hoy suenan igual ('e'); ㅖ = 'ye'",
+      "ㅘ ㅝ ㅚ ㅟ: ㅗ/ㅜ + otra vocal, de un solo golpe (wa, wo, we, wi)",
+      "ㅢ = ㅡ + ㅣ, de un golpe (의)"
+    ],
+    "tarjeta_regla": "ㅐ y ㅔ hoy suenan igual, 'e': se distinguen al escribir (개 perro, 게 cangrejo). ㅖ es 'ye'. ㅗ o ㅜ con otra vocal se dicen de un solo golpe: 와, 워, 외, 위. Y ㅢ es ㅡ + ㅣ: 의. 🔊 와 · 워 · 위 · 의",
+    "calentamiento": [
+      {
+        "id": "N07-C1",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'café (bebida)' en el tablero 3×3 (fichas: ㅋ · ㅓ · ㅍ · ㅣ · ㄱ · ㅂ · ㅗ · ㅏ · ㄷ). Pista gris: keopi.",
+        "respuesta": "커피 (ㅋ + ㅓ, ㅍ + ㅣ)",
+        "distractores": [
+          "거피 (ㄱ, sin aire)",
+          "커비 (ㅂ en vez de ㅍ)"
+        ],
+        "explicacion_error": "커 lleva ㅋ y 피 lleva ㅍ: las dos con aire, 'keo-pi'.",
+        "audio_texto": "커피",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "keopi",
+        "fuente": "repaso N06-08"
+      },
+      {
+        "id": "N07-C2",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [pan] · [pizza] · [taza de café]",
+        "respuesta": "pan (빵)",
+        "distractores": [
+          "pizza (피자)",
+          "café (커피)"
+        ],
+        "explicacion_error": "빵 lleva ㅃ, apretada y sin aire: pan.",
+        "audio_texto": "빵",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ppang",
+        "fuente": "repaso N06-11"
+      }
+    ],
+    "items": [
+      {
+        "id": "N07-01",
+        "tipo": "reconoce",
+        "enunciado": "ADIVINA PRIMERO (no cuenta). 'ㅗ y ㅏ se juntan en una sola vocal: ㅘ.' Escucha 🔊 y toca. Opciones: 와 · 워 · 오",
+        "respuesta": "와",
+        "distractores": [
+          "워",
+          "오"
+        ],
+        "explicacion_error": "와 = ㅗ + ㅏ dicho de un solo golpe: 'wa'. 워 (ㅜ + ㅓ) suena 'wo'.",
+        "audio_texto": "와",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "wa",
+        "fuente": "nuevo"
+      },
+      {
+        "id": "N07-02",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 워 · 와 · 우",
+        "respuesta": "워",
+        "distractores": [
+          "와",
+          "우"
+        ],
+        "explicacion_error": "워 = ㅜ + ㅓ, de un solo golpe: 'wo'. La vas a oír en 뭐 ('¿qué?').",
+        "audio_texto": "워",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "wo",
+        "fuente": "nuevo"
+      },
+      {
+        "id": "N07-03",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 위 · 외 · 의",
+        "respuesta": "위",
+        "distractores": [
+          "외",
+          "의"
+        ],
+        "explicacion_error": "위 = ㅜ + ㅣ: 'wi', de un golpe. 외 (ㅗ + ㅣ) suena 'we' y 의 empieza sonriendo.",
+        "audio_texto": "위",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "wi",
+        "fuente": "nuevo"
+      },
+      {
+        "id": "N07-04",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 의 · 위 · 이",
+        "respuesta": "의",
+        "distractores": [
+          "위",
+          "이"
+        ],
+        "explicacion_error": "의 = ㅡ + ㅣ: empieza sonriendo y termina en 'i', de un golpe. No redondea los labios como 위.",
+        "audio_texto": "의",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ui",
+        "fuente": "nuevo"
+      },
+      {
+        "id": "N07-05",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 외 · 위 · 와",
+        "respuesta": "외",
+        "distractores": [
+          "위",
+          "와"
+        ],
+        "explicacion_error": "외 se escribe ㅗ + ㅣ, pero hoy se dice 'we'. Es la vocal de 회사 (empresa).",
+        "audio_texto": "외",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "oe",
+        "fuente": "nuevo"
+      },
+      {
+        "id": "N07-06",
+        "tipo": "reconoce",
+        "enunciado": "Dibujo de un perro (en azul y dorado). '개 y 게 suenan igual. ¿Cuál es perro?' Opciones: 개 · 게",
+        "respuesta": "개",
+        "distractores": [
+          "게"
+        ],
+        "explicacion_error": "Perro se escribe 개, con ㅐ; 게, con ㅔ, es cangrejo. Hoy suenan igual: se aprenden junto con la palabra.",
+        "audio_texto": "개",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "gae",
+        "fuente": "dubu DICC (개 perro, 게 cangrejo)"
+      },
+      {
+        "id": "N07-07",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'reloj' en el tablero 3×3 (fichas: ㅅ · ㅣ · ㄱ · ㅖ · ㅔ · ㅐ · ㅈ · ㅓ · ㅕ). Pista gris: sigye.",
+        "respuesta": "시계 (ㅅ + ㅣ, ㄱ + ㅖ)",
+        "distractores": [
+          "시게 (ㅔ en vez de ㅖ)",
+          "시개 (ㅐ en vez de ㅖ)"
+        ],
+        "explicacion_error": "계 = ㄱ + ㅖ ('ye'): 'si-gye', reloj. Mucha gente lo dice 'si-ge', pero se escribe con ㅖ.",
+        "audio_texto": "시계",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "sigye",
+        "fuente": "palabras_basico1 n°46"
+      },
+      {
+        "id": "N07-08",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'empresa, oficina' en el tablero 3×3 (fichas: ㅎ · ㅗ · ㅣ · ㅅ · ㅏ · ㅜ · ㅓ · ㅈ · ㅇ; ㅚ se arma con ㅗ + ㅣ, como en Dubu). Pista gris: hoesa.",
+        "respuesta": "회사 (ㅎ + ㅗ + ㅣ = 회, ㅅ + ㅏ)",
+        "distractores": [
+          "후사 (ㅜ en vez de ㅚ)",
+          "호사 (sin la ㅣ)"
+        ],
+        "explicacion_error": "회 = ㅎ + ㅚ, y ㅚ se arma con ㅗ + ㅣ. Hoy 회사 se dice 'hwe-sa' (en la pista: hoesa): empresa u oficina.",
+        "audio_texto": "회사",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "hoesa",
+        "fuente": "palabras_basico1 n°86"
+      },
+      {
+        "id": "N07-09",
+        "tipo": "arma-tablero",
+        "enunciado": "Escucha 🔊 y arma la palabra 'silla' en el tablero 3×3 (fichas: ㅇ · ㅡ · ㅣ · ㅈ · ㅏ · ㅜ · ㅗ · ㅅ · ㅓ). Pista gris: uija.",
+        "respuesta": "의자 (ㅇ + ㅡ + ㅣ = 의, ㅈ + ㅏ)",
+        "distractores": [
+          "이자 (sin la ㅡ)",
+          "위자 (ㅜ en vez de ㅡ)"
+        ],
+        "explicacion_error": "의 se arma con ㅡ + ㅣ: empieza sonriendo, sin redondear. 'ui-ja' es silla.",
+        "audio_texto": "의자",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "uija",
+        "fuente": "palabras_basico1 n°48"
+      },
+      {
+        "id": "N07-10",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [gato encima de una caja] · [gato debajo de la caja] · [gato detrás de la caja]",
+        "respuesta": "arriba, encima (위)",
+        "distractores": [
+          "debajo (아래)",
+          "detrás (뒤)"
+        ],
+        "explicacion_error": "위 = 'wi', de un solo golpe: arriba o encima. No es 'u-i'.",
+        "audio_texto": "위",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "wi",
+        "fuente": "palabras_basico1 n°96 (distractores n°97 y n°99)"
+      },
+      {
+        "id": "N07-11",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [manzana verde] · [pera coreana] · [pepino]",
+        "respuesta": "manzana (사과)",
+        "distractores": [
+          "pera (배)",
+          "pepino (오이)"
+        ],
+        "explicacion_error": "사과 = 사 + 과: manzana. 과 junta ㅗ + ㅏ en un solo golpe: 'gwa'.",
+        "audio_texto": "사과",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "sagwa",
+        "fuente": "palabras_basico1 n°146 / dubu 5-1 (en lugar de 과일, que lleva 받침; banana sale de las opciones porque 바나나 es transferencia en el jefe 10)"
+      },
+      {
+        "id": "N07-12",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la palabra que oíste (significa '¿qué?'). Opciones: 뭐 · 머 · 모",
+        "respuesta": "뭐",
+        "distractores": [
+          "머",
+          "모"
+        ],
+        "explicacion_error": "뭐 = ㅁ + ㅝ: 'mwo', de un solo golpe. 머 y 모 no tienen la 'w'.",
+        "audio_texto": "뭐",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "mwo",
+        "fuente": "palabras_basico1 n°52"
+      }
+    ],
+    "ojo": "Quedan 3 compuestas: ㅒ (얘) y ㅞ (웨) aparecen poco, pero ㅙ la verás mucho: 왜, '¿por qué?'. ㅙ, ㅞ y ㅚ hoy suenan casi igual: 'we'. Están en el Alfabeto del Lector.",
+    "cierre": "Estrellas por precisión a la primera; +20 XP por terminar. Palabras nuevas: 시계, 회사, 의자, 위, 사과, 뭐, 개. SIGUIENTE → nivel 8."
+  },
+  {
+    "n": 8,
+    "titulo": "받침: el piso de abajo y sus 7 sonidos",
+    "objetivo": "Puedo leer sílabas con 받침 (산, 강, 물, 밥, 책, 한국, 김치) y sé que al final solo hay 7 sonidos.",
+    "nuevo": [
+      "받침: la consonante de abajo (después no hay vocal)",
+      "Solo 7 sonidos finales: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ (옷 [옫], 꽃 [꼳], 부엌 [부억])",
+      "ㅇ abajo = ng; ㄴ abajo = n"
+    ],
+    "tarjeta_regla": "받침 es la consonante de abajo. Después no agregues vocal: 밥 es una sola sílaba. Al final solo hay 7 sonidos, ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ: por eso 옷 suena [옫]. ㅇ abajo suena ng: 강. Desde aquí, la pronunciación real va en [hangul]. 🔊 강 · 산 · 밥 · 옷",
+    "calentamiento": [
+      {
+        "id": "N08-C1",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 위 · 외 · 의",
+        "respuesta": "위",
+        "distractores": [
+          "외",
+          "의"
+        ],
+        "explicacion_error": "위 = ㅜ + ㅣ: 'wi', de un golpe. 외 suena 'we' y 의 empieza sonriendo.",
+        "audio_texto": "위",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "wi",
+        "fuente": "repaso N07-03"
+      },
+      {
+        "id": "N08-C2",
+        "tipo": "pares",
+        "enunciado": "Escucha 🔊 (2 voces) y toca lo que oíste. Opciones: 바 · 파 · 빠",
+        "respuesta": "빠",
+        "distractores": [
+          "바",
+          "파"
+        ],
+        "explicacion_error": "빠 lleva ㅃ: labios apretados y nada de aire. 파 suelta aire y 바 es suave.",
+        "audio_texto": "빠",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "ppa",
+        "fuente": "repaso N06-07"
+      }
+    ],
+    "items": [
+      {
+        "id": "N08-01",
+        "tipo": "construye",
+        "enunciado": "ADIVINA PRIMERO (no cuenta). 'Ahora la sílaba tiene un piso más abajo.' Escucha 🔊 (significa 'río') y arma la sílaba con las piezas: ㄱ · ㅏ · ㅇ · ㄴ",
+        "respuesta": "강 (ㄱ + ㅏ + ㅇ abajo)",
+        "distractores": [
+          "간 (ㄴ abajo)",
+          "가 y la ㅇ suelta al lado (dos cuadrados)"
+        ],
+        "explicacion_error": "La consonante final va abajo, en el mismo cuadrado: 강. Abajo, la ㅇ suena 'ng', como en 'tengo'.",
+        "audio_texto": "강",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "gang",
+        "fuente": "dubu 3-1 / hangul-race construye 'batchim'"
+      },
+      {
+        "id": "N08-02",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 (significa 'montaña') y arma la sílaba con las piezas: ㅅ · ㅏ · ㄴ · ㅇ",
+        "respuesta": "산 (ㅅ + ㅏ + ㄴ abajo)",
+        "distractores": [
+          "상 (ㅇ abajo)"
+        ],
+        "explicacion_error": "산 termina en ㄴ: la punta de la lengua toca detrás de los dientes, como en 'pan'. Con ㅇ abajo sería 상, con la lengua atrás.",
+        "audio_texto": "산",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "san",
+        "fuente": "dubu 3-2 / hangul-race construye 'batchim'"
+      },
+      {
+        "id": "N08-03",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 (significa 'agua') y arma la sílaba con las piezas: ㅁ · ㅜ · ㄹ · ㄴ",
+        "respuesta": "물 (ㅁ + ㅜ + ㄹ abajo)",
+        "distractores": [
+          "문 (ㄴ abajo: puerta)"
+        ],
+        "explicacion_error": "물 termina en ㄹ, que abajo suena como una 'l'. Con ㄴ sería 문, otra palabra: puerta.",
+        "audio_texto": "물",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "mul",
+        "fuente": "dubu 3-4 / palabras_basico1 n°42 / hangul-race w-mul"
+      },
+      {
+        "id": "N08-04",
+        "tipo": "construye",
+        "enunciado": "Escucha 🔊 (significa 'libro') y arma la sílaba con las piezas: ㅊ · ㅐ · ㄱ · ㅈ",
+        "respuesta": "책 (ㅊ + ㅐ + ㄱ abajo)",
+        "distractores": [
+          "채 y la ㄱ suelta al lado (dos cuadrados)",
+          "잭 (ㅈ en vez de ㅊ)"
+        ],
+        "explicacion_error": "책 es una sola sílaba: ㅊ + ㅐ + ㄱ abajo. Cierra en la ㄱ sin soltar aire: no es 'che-ku'.",
+        "audio_texto": "책",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "chaek",
+        "fuente": "palabras_basico1 n°43"
+      },
+      {
+        "id": "N08-05",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅁ/ㅇ al final. Escucha 🔊 y toca lo que oíste. Opciones: 곰 · 공",
+        "respuesta": "공",
+        "distractores": [
+          "곰"
+        ],
+        "explicacion_error": "공 (pelota) termina en ㅇ: boca abierta, 'ng'. 곰 (oso) termina en ㅁ: labios cerrados.",
+        "audio_texto": "공",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "gong",
+        "fuente": "dubu 3-3 (ronda 곰/공)"
+      },
+      {
+        "id": "N08-06",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㄴ/ㅇ al final. Escucha 🔊 y toca lo que oíste. Opciones: 반 · 방",
+        "respuesta": "방",
+        "distractores": [
+          "반"
+        ],
+        "explicacion_error": "방 (habitación) termina en ㅇ: la lengua se queda atrás, como la n de 'tengo'. 반 termina en ㄴ: la punta toca arriba, como en 'pan'.",
+        "audio_texto": "방",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "bang",
+        "fuente": "Curriculo S02 §3.1 (반/방) / dubu PARES batchim"
+      },
+      {
+        "id": "N08-07",
+        "tipo": "pares",
+        "enunciado": "OÍDO ㅁ/ㅂ/ㅇ al final. Escucha 🔊 y toca lo que oíste. Opciones: 밤 · 밥 · 방",
+        "respuesta": "밥",
+        "distractores": [
+          "밤",
+          "방"
+        ],
+        "explicacion_error": "밥 (arroz) termina en ㅂ: labios cerrados y sin soltar el aire. 밤 (noche) cierra en ㅁ, con sonido nasal.",
+        "audio_texto": "밥",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "bap",
+        "fuente": "dubu 6-3 (ronda 밤/밥/방) / palabras_basico1 n°39"
+      },
+      {
+        "id": "N08-08",
+        "tipo": "reconoce",
+        "enunciado": "옷 = ropa (se escribe con ㅅ abajo). Toca 🔊 y elige cómo suena. Opciones: [옫] · [오스] · [옹]",
+        "respuesta": "[옫]",
+        "distractores": [
+          "[오스]",
+          "[옹]"
+        ],
+        "explicacion_error": "Al final, la ㅅ suena como ㄷ: 't' sin soltar el aire, 옷 [옫]. Nunca agregues una vocal: no es 'o-su'.",
+        "audio_texto": "옷",
+        "audio_existe": true,
+        "pronunciacion": "[옫]",
+        "romanizacion": "ot",
+        "fuente": "dubu DICC (옷) / plan §3 nivel 8"
+      },
+      {
+        "id": "N08-09",
+        "tipo": "reconoce",
+        "enunciado": "꽃 = flor. Toca 🔊 y elige cómo suena. Opciones: [꼳] · [꼬치] · [꼬츠]",
+        "respuesta": "[꼳]",
+        "distractores": [
+          "[꼬치]",
+          "[꼬츠]"
+        ],
+        "explicacion_error": "La ㅊ de abajo también suena ㄷ: 꽃 [꼳]. Se escribe con ㅊ y se dice cortito.",
+        "audio_texto": "꽃",
+        "audio_existe": true,
+        "pronunciacion": "[꼳]",
+        "romanizacion": "kkot",
+        "fuente": "dubu 4-3"
+      },
+      {
+        "id": "N08-10",
+        "tipo": "reconoce",
+        "enunciado": "부엌 = cocina. Toca 🔊 y elige cómo suena. Opciones: [부억] · [부어크] · [부엉]",
+        "respuesta": "[부억]",
+        "distractores": [
+          "[부어크]",
+          "[부엉]"
+        ],
+        "explicacion_error": "La ㅋ de abajo suena como ㄱ: 부엌 [부억]. Al final de la sílaba solo hay 7 sonidos.",
+        "audio_texto": "부엌",
+        "audio_existe": false,
+        "pronunciacion": "[부억]",
+        "romanizacion": "bueok",
+        "fuente": "nuevo (plan §3 nivel 8)"
+      },
+      {
+        "id": "N08-11",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la palabra que oíste. Opciones: 김치 · 긴치 · 깅치",
+        "respuesta": "김치",
+        "distractores": [
+          "긴치",
+          "깅치"
+        ],
+        "explicacion_error": "김 termina en ㅁ: cierra los labios antes de decir 치. No es 'kin-chi'.",
+        "audio_texto": "김치",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "gimchi",
+        "fuente": "palabras_basico1 n°38 / hangul-race w-gimchi / dubu 6-2"
+      },
+      {
+        "id": "N08-12",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la palabra que oíste. Opciones: 한국 · 하국 · 한구",
+        "respuesta": "한국",
+        "distractores": [
+          "하국",
+          "한구"
+        ],
+        "explicacion_error": "한국 tiene 2 sílabas y las dos llevan 받침: 한 (ㄴ) y 국 (ㄱ). 하국 pierde la ㄴ y 한구 pierde la ㄱ; tampoco es 'han-gu-ku'.",
+        "audio_texto": "한국",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "hanguk",
+        "fuente": "palabras_basico1 n°22 / hangul-race w-hanguk / dubu 3-5 (sin el distractor 항국: muchos nativos dicen [항국] al hablar rápido)"
+      }
+    ],
+    "ojo": "La ㅇ tiene dos trabajos: arriba no suena (아) y abajo suena 'ng' (강). Adelanto de Bukchon: si después del 받침 viene una ㅇ, la consonante salta a ese asiento vacío: 한국어 [한구거].",
+    "cierre": "Estrellas por precisión a la primera; +20 XP por terminar. Palabras nuevas: 강, 산, 물, 책, 공, 방, 밥, 옷, 꽃, 부엌, 김치, 한국. Mochila: Aprender 6 del Lector ('El truco del batchim') y Dubu Hongdae 3-1 a 3-5. SIGUIENTE → nivel 9."
+  },
+  {
+    "n": 9,
+    "titulo": "Así se dice y se escribe: saludos, teclado y tu nombre",
+    "objetivo": "Puedo saludar y despedirme con frases enteras, escribir en el teclado coreano y escribir mi nombre en 한글.",
+    "nuevo": [
+      "Saludos como bloque: 안녕하세요, 감사합니다 [감사함니다], 반갑습니다 [반갑씀니다], 안녕히 가세요 / 안녕히 계세요, 화이팅",
+      "Teclado 두벌식: consonantes con la mano izquierda, vocales con la derecha",
+      "Tu nombre en 한글 se escribe como suena"
+    ],
+    "tarjeta_regla": "Los saludos se aprenden enteros, como una canción: 감사합니다 suena [감사함니다] porque la ㅂ antes de ㄴ suena m. En el teclado coreano, la mano izquierda escribe consonantes y la derecha, vocales. 🔊 안녕하세요 · 감사합니다 · 반갑습니다",
+    "calentamiento": [
+      {
+        "id": "N09-C1",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca la palabra que oíste. Opciones: 한국 · 하국 · 한구",
+        "respuesta": "한국",
+        "distractores": [
+          "하국",
+          "한구"
+        ],
+        "explicacion_error": "한 termina en ㄴ y 국 en ㄱ: 2 sílabas con 받침, sin agregar vocal.",
+        "audio_texto": "한국",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "hanguk",
+        "fuente": "repaso N08-12"
+      },
+      {
+        "id": "N09-C2",
+        "tipo": "reconoce",
+        "enunciado": "꽃 = flor. Toca 🔊 y elige cómo suena. Opciones: [꼳] · [꼬치] · [꼬츠]",
+        "respuesta": "[꼳]",
+        "distractores": [
+          "[꼬치]",
+          "[꼬츠]"
+        ],
+        "explicacion_error": "La ㅊ de abajo suena ㄷ: 꽃 [꼳], cortito y sin vocal al final.",
+        "audio_texto": "꽃",
+        "audio_existe": true,
+        "pronunciacion": "[꼳]",
+        "romanizacion": "kkot",
+        "fuente": "repaso N08-09"
+      }
+    ],
+    "items": [
+      {
+        "id": "N09-01",
+        "tipo": "reconoce",
+        "enunciado": "Entras a tu clase de Zoom y saludas a la profe. ¿Qué dices? (🔊 en cada opción) Opciones: 안녕하세요 · 안녕 · 안녕히 계세요",
+        "respuesta": "안녕하세요",
+        "distractores": [
+          "안녕",
+          "안녕히 계세요"
+        ],
+        "explicacion_error": "안녕하세요 es el 'hola' cortés, para la profe y para quien recién conoces. 안녕 es solo para amigos cercanos de tu edad o para niños.",
+        "audio_texto": "안녕하세요",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "annyeonghaseyo",
+        "fuente": "palabras_basico1 n°16 / hangul-race f-annyeonghaseyo"
+      },
+      {
+        "id": "N09-02",
+        "tipo": "reconoce",
+        "enunciado": "La profe te explicó algo difícil y le quieres dar las gracias. Opciones: 감사합니다 · 반갑습니다 · 안녕하세요",
+        "respuesta": "감사합니다",
+        "distractores": [
+          "반갑습니다",
+          "안녕하세요"
+        ],
+        "explicacion_error": "감사합니다 = gracias, y sirve con todo el mundo. 반갑습니다 es 'encantado/a', al conocer a alguien.",
+        "audio_texto": "감사합니다",
+        "audio_existe": true,
+        "pronunciacion": "[감사함니다]",
+        "romanizacion": "gamsahamnida",
+        "fuente": "palabras_basico1 n°19 / hangul-race f-gamsahamnida"
+      },
+      {
+        "id": "N09-03",
+        "tipo": "reconoce",
+        "enunciado": "Conoces a alguien por primera vez y quieres decir 'encantado/a'. Opciones: 반갑습니다 · 감사합니다 · 화이팅",
+        "respuesta": "반갑습니다",
+        "distractores": [
+          "감사합니다",
+          "화이팅"
+        ],
+        "explicacion_error": "반갑습니다 = encantado o encantada. Se dice [반갑씀니다]: apréndelo entero, como una canción.",
+        "audio_texto": "반갑습니다",
+        "audio_existe": true,
+        "pronunciacion": "[반갑씀니다]",
+        "romanizacion": "bangapseumnida",
+        "fuente": "palabras_basico1 n°30"
+      },
+      {
+        "id": "N09-04",
+        "tipo": "reconoce",
+        "enunciado": "Sales de una tienda en Seúl; la vendedora se queda. ¿Qué le dices? Opciones: 안녕히 계세요 · 안녕히 가세요",
+        "respuesta": "안녕히 계세요",
+        "distractores": [
+          "안녕히 가세요"
+        ],
+        "explicacion_error": "Si tú te vas, a quien se queda le dices 안녕히 계세요 ('quédese bien'). 안녕히 가세요 es para quien se va.",
+        "audio_texto": "안녕히 계세요",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "annyeonghi gyeseyo",
+        "fuente": "palabras_basico1 n°18"
+      },
+      {
+        "id": "N09-05",
+        "tipo": "reconoce",
+        "enunciado": "Trabajas en un café de Seúl y una clienta se va; tú te quedas. ¿Qué le dices? Opciones: 안녕히 가세요 · 안녕히 계세요",
+        "respuesta": "안녕히 가세요",
+        "distractores": [
+          "안녕히 계세요"
+        ],
+        "explicacion_error": "A quien se va se le dice 안녕히 가세요 ('váyase bien'). Es como nuestro 'que le vaya bien'.",
+        "audio_texto": "안녕히 가세요",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "annyeonghi gaseyo",
+        "fuente": "palabras_basico1 n°17"
+      },
+      {
+        "id": "N09-06",
+        "tipo": "reconoce",
+        "enunciado": "Tu amiga tiene un examen mañana. ¡Dale ánimo! Opciones: 화이팅 · 감사합니다 · 안녕히 가세요",
+        "respuesta": "화이팅",
+        "distractores": [
+          "감사합니다",
+          "안녕히 가세요"
+        ],
+        "explicacion_error": "화이팅 = ¡ánimo!, ¡tú puedes! Viene del inglés 'fighting', y también lo verás escrito 파이팅.",
+        "audio_texto": "화이팅",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "hwaiting",
+        "fuente": "palabras_basico1 n°14 / hangul-race f-hwaiting"
+      },
+      {
+        "id": "N09-07",
+        "tipo": "dos-formas",
+        "enunciado": "Suena [감사함니다]. ¿Cuál está bien escrito? Opciones: 감사합니다 · 감사함니다",
+        "respuesta": "감사합니다",
+        "distractores": [
+          "감사함니다"
+        ],
+        "explicacion_error": "Se escribe 합니다, con ㅂ, aunque suene [함니다]: la ㅂ antes de ㄴ suena m. Escribe lo que es; di lo que suena.",
+        "audio_texto": "감사합니다",
+        "audio_existe": true,
+        "pronunciacion": "[감사함니다]",
+        "romanizacion": "gamsahamnida",
+        "fuente": "palabras_basico1 n°19"
+      },
+      {
+        "id": "N09-08",
+        "tipo": "dos-formas",
+        "enunciado": "Suena [반갑씀니다]. ¿Cuál está bien escrito? Opciones: 반갑습니다 · 반갑씀니다",
+        "respuesta": "반갑습니다",
+        "distractores": [
+          "반갑씀니다"
+        ],
+        "explicacion_error": "Se escribe 습니다: la ㅅ se aprieta después de ㅂ y la ㅂ suena m antes de ㄴ, pero la escritura no cambia.",
+        "audio_texto": "반갑습니다",
+        "audio_existe": true,
+        "pronunciacion": "[반갑씀니다]",
+        "romanizacion": "bangapseumnida",
+        "fuente": "palabras_basico1 n°30"
+      },
+      {
+        "id": "N09-09",
+        "tipo": "dictado",
+        "enunciado": "TECLADO 두벌식 (3 minutos). Teclado coreano en pantalla, con las letras latinas en gris. Escucha 🔊 y escribe la palabra 'árbol'. Pista: ㄴ = S, ㅏ = K, ㅁ = A, ㅜ = N.",
+        "respuesta": "나무 (teclas S K A N)",
+        "distractores": [],
+        "explicacion_error": "Consonantes con la mano izquierda (ㄴ = S, ㅁ = A) y vocales con la derecha (ㅏ = K, ㅜ = N). El teclado arma el bloque solo.",
+        "audio_texto": "나무",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "namu",
+        "fuente": "palabras_basico1 n°6 / hangul-race w-namu"
+      },
+      {
+        "id": "N09-10",
+        "tipo": "dictado",
+        "enunciado": "TECLADO 두벌식. El clásico: escucha 🔊 y escribe el saludo. Pista si la pides: d k s s u d g k t p d y.",
+        "respuesta": "안녕하세요 (teclas D K S S U D G K T P D Y)",
+        "distractores": [],
+        "explicacion_error": "La ㄴ final de 안 y la ㄴ inicial de 녕 son dos S seguidas: el teclado decide solo cuál va abajo. Tecleas ㅇㅏㄴ ㄴㅕㅇ ㅎㅏ ㅅㅔ ㅇㅛ.",
+        "audio_texto": "안녕하세요",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "annyeonghaseyo",
+        "fuente": "palabras_basico1 n°16 / hangul-race proximamente 'Escribe'"
+      },
+      {
+        "id": "N09-11",
+        "tipo": "dictado",
+        "enunciado": "TU NOMBRE EN 한글. Escucha 🔊 y escribe 'Daniel' con bloques o con el teclado. Bloques: 다 · 니 · 엘 · 넬 · 데. Pista de teclado: E K S L D P F.",
+        "respuesta": "다니엘",
+        "distractores": [
+          "다니에르",
+          "다닐"
+        ],
+        "explicacion_error": "La l final va abajo, en el mismo cuadrado: 엘 = ㅇ + ㅔ + ㄹ. Tu nombre se escribe como suena, no letra por letra.",
+        "audio_texto": "다니엘",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "daniel",
+        "fuente": "nombres_lista (lista cerrada) / Curriculo S01 §3.5"
+      },
+      {
+        "id": "N09-12",
+        "tipo": "dictado",
+        "enunciado": "TU NOMBRE EN 한글. Escucha 🔊 y escribe 'Camila' con bloques o con el teclado. Bloques: 카 · 가 · 밀 · 미 · 라 · 리. Pista de teclado: Z K A L F F K.",
+        "respuesta": "카밀라",
+        "distractores": [
+          "가밀라",
+          "카미라"
+        ],
+        "explicacion_error": "En los nombres extranjeros, la c de 'Ca' se escribe con ㅋ (no con ㄱ): 카. La l entre vocales se escribe doble: una abajo (밀) y otra adelante (라).",
+        "audio_texto": "카밀라",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "kamilla",
+        "fuente": "nombres_lista (lista cerrada) / Curriculo S01 §3.5"
+      }
+    ],
+    "ojo": "안녕 (sin 하세요) es solo para amigos cercanos de tu edad o para niños. Y si los dos se van, cada uno por su lado, los dos dicen 안녕히 가세요.",
+    "cierre": "TU NOMBRE: al terminar eliges tu nombre de la lista cerrada (마리아, 다니엘, 카밀라, 소피아, 마테오… ver nombres_lista) y lo ves y oyes en 한글; si no está, el Generador de nombre (/generador-nombre) te propone una forma y tu profe la confirma. Estrellas por precisión a la primera; +20 XP por terminar. Mochila: guía del alfabeto en PDF. SIGUIENTE → JEFE 10."
+  },
+  {
+    "n": 10,
+    "titulo": "JEFE · Ya leo Hangul",
+    "objetivo": "Demuestro que leo y oigo cualquier palabra en 한글, también palabras que nunca practiqué.",
+    "nuevo": [
+      "Dicho del barrio: 시작이 반이다 (se aprende como bloque)"
+    ],
+    "tarjeta_regla": "TARJETA DEL DICHO (aparece antes del ítem 18; no puntúa). Dibujo literal: el tigre del sello con una pata en el primer peldaño de una escalera, y la mitad de la escalera ya brilla en dorado (#E8B84B). 🔊 시작이 반이다 [시자기 바니다]. Literal: 'el comienzo es la mitad'. Significa que atreverse a empezar ya es la mitad del trabajo. Equivalente hispano (total): 'Obra empezada, medio acabada'. Se aprende como bloque; su gramática (이, 이다) llega más adelante.",
+    "calentamiento": [],
+    "items": [
+      {
+        "id": "N10-01",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 어 · 오 · 으",
+        "respuesta": "어",
+        "distractores": [
+          "오",
+          "으"
+        ],
+        "explicacion_error": "어 abre la boca sin redondear los labios. 오 los redondea y 으 los estira en una sonrisa.",
+        "audio_texto": "어",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: eo",
+        "fuente": "repaso N01-03 / N02-05"
+      },
+      {
+        "id": "N10-02",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 그 · 구 · 거",
+        "respuesta": "그",
+        "distractores": [
+          "구",
+          "거"
+        ],
+        "explicacion_error": "그 se dice sonriendo (ㅡ). 구 lleva los labios hacia adelante (ㅜ) y 거 abre la boca (ㅓ).",
+        "audio_texto": "그",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: geu",
+        "fuente": "dubu 2-3 / repaso N03-11"
+      },
+      {
+        "id": "N10-03",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 다 · 타 · 따",
+        "respuesta": "따",
+        "distractores": [
+          "다",
+          "타"
+        ],
+        "explicacion_error": "따 es la letra doble: apretón sin aire. 타 suelta aire y 다 es suave.",
+        "audio_texto": "따",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: tta",
+        "fuente": "repaso N06-05"
+      },
+      {
+        "id": "N10-04",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 🔊 y toca lo que oíste. Opciones: 반 · 방 · 밤",
+        "respuesta": "방",
+        "distractores": [
+          "반",
+          "밤"
+        ],
+        "explicacion_error": "방 termina en ㅇ: 'ng', con la lengua atrás. 반 cierra con la punta de la lengua (ㄴ) y 밤, con los labios (ㅁ).",
+        "audio_texto": "방",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: bang",
+        "fuente": "repaso N08-06"
+      },
+      {
+        "id": "N10-05",
+        "tipo": "reconoce",
+        "enunciado": "Lee (el audio suena al responder): 의자. ¿Qué es? Opciones: silla · reloj · empresa",
+        "respuesta": "silla",
+        "distractores": [
+          "reloj",
+          "empresa"
+        ],
+        "explicacion_error": "의자 = 의 (ㅡ + ㅣ) + 자: silla. 시계 es reloj y 회사, empresa.",
+        "audio_texto": "의자",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: uija",
+        "fuente": "repaso N07-09"
+      },
+      {
+        "id": "N10-06",
+        "tipo": "reconoce",
+        "enunciado": "Lee: 옷 (ropa). ¿Cómo suena? Opciones: [옫] · [오스] · [옹]",
+        "respuesta": "[옫]",
+        "distractores": [
+          "[오스]",
+          "[옹]"
+        ],
+        "explicacion_error": "Al final, la ㅅ suena como ㄷ: [옫], sin vocal después.",
+        "audio_texto": "옷",
+        "audio_existe": true,
+        "pronunciacion": "[옫]",
+        "romanizacion": "pista: ot",
+        "fuente": "repaso N08-08"
+      },
+      {
+        "id": "N10-07",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [árbol] · [mar] · [carne]",
+        "respuesta": "árbol (나무)",
+        "distractores": [
+          "mar (바다)",
+          "carne (고기)"
+        ],
+        "explicacion_error": "나무 es árbol; 바다 es mar y 고기, carne.",
+        "audio_texto": "나무",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: namu",
+        "fuente": "repaso N03-07"
+      },
+      {
+        "id": "N10-08",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [pepino] · [niño sonriente] · [vaso de leche]",
+        "respuesta": "pepino (오이)",
+        "distractores": [
+          "niño (아이)",
+          "leche (우유)"
+        ],
+        "explicacion_error": "오이 empieza con 오, con los labios redondos: pepino. 아이, con 아, es niño.",
+        "audio_texto": "오이",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: oi",
+        "fuente": "repaso N01-09"
+      },
+      {
+        "id": "N10-09",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [pan] · [pizza] · [taza de café]",
+        "respuesta": "pan (빵)",
+        "distractores": [
+          "pizza (피자)",
+          "café (커피)"
+        ],
+        "explicacion_error": "빵 lleva ㅃ, apretada, y una ㅇ abajo que suena 'ng': pan.",
+        "audio_texto": "빵",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: ppang",
+        "fuente": "repaso N06-11"
+      },
+      {
+        "id": "N10-10",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha 🔊 y toca el dibujo. Opciones: [libro] · [silla] · [reloj]",
+        "respuesta": "libro (책)",
+        "distractores": [
+          "silla (의자)",
+          "reloj (시계)"
+        ],
+        "explicacion_error": "책 = ㅊ + ㅐ + ㄱ abajo: libro, en una sola sílaba.",
+        "audio_texto": "책",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: chaek",
+        "fuente": "repaso N08-04"
+      },
+      {
+        "id": "N10-11",
+        "tipo": "reconoce",
+        "enunciado": "TRANSFERENCIA (una palabra que nunca practicaste). Lee sin audio y toca el dibujo: 바나나. Opciones: [banana] · [manzana verde] · [pepino]",
+        "respuesta": "banana",
+        "distractores": [
+          "manzana (사과)",
+          "pepino (오이)"
+        ],
+        "explicacion_error": "바나나 = ba-na-na: ¡banana! Muchas palabras coreanas vienen de otros idiomas y, si lees bien, se entienden solas.",
+        "audio_texto": "바나나",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: banana",
+        "fuente": "palabras_basico1 n°148 (transferencia)"
+      },
+      {
+        "id": "N10-12",
+        "tipo": "reconoce",
+        "enunciado": "TRANSFERENCIA. Lee sin audio y toca el dibujo: 컴퓨터. Opciones: [computador portátil] · [celular] · [reloj]",
+        "respuesta": "computador, computadora",
+        "distractores": [
+          "celular (휴대폰)",
+          "reloj (시계)"
+        ],
+        "explicacion_error": "컴퓨터 = 컴 + 퓨 + 터: computador o computadora. ㅋ, ㅍ y ㅌ llevan aire, como en el inglés 'computer'.",
+        "audio_texto": "컴퓨터",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: keompyuteo",
+        "fuente": "palabras_basico1 n°106 (transferencia; sin 텔레비전 entre las opciones para no adelantar N10-13)"
+      },
+      {
+        "id": "N10-13",
+        "tipo": "reconoce",
+        "enunciado": "TRANSFERENCIA. Lee sin audio y toca el dibujo: 텔레비전. Opciones: [televisor] · [radio] · [celular]",
+        "respuesta": "televisor",
+        "distractores": [
+          "radio",
+          "celular (휴대폰)"
+        ],
+        "explicacion_error": "텔레비전 = 텔 + 레 + 비 + 전: televisor. 텔 termina en ㄹ y 전 en ㄴ, dos 받침 que ya sabes leer.",
+        "audio_texto": "텔레비전",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: tellebijeon",
+        "fuente": "palabras_basico1 n°130 (transferencia; sin 컴퓨터 entre las opciones para no adelantar N10-12)"
+      },
+      {
+        "id": "N10-14",
+        "tipo": "reconoce",
+        "enunciado": "TRANSFERENCIA (una palabra que nunca practicaste). Escucha 🔊 y toca lo que oíste (significa 'paraguas'). Opciones: 우산 · 오산 · 우상",
+        "respuesta": "우산",
+        "distractores": [
+          "오산",
+          "우상"
+        ],
+        "explicacion_error": "우산 = 우 (labios hacia adelante) + 산 (ㄴ abajo, con la punta de la lengua arriba): paraguas. 오산 lleva ㅗ y 우상 termina en ㅇ, con la lengua atrás.",
+        "audio_texto": "우산",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: usan",
+        "fuente": "palabras_basico1 n°50 (transferencia de oído: no es un préstamo, así que se mide oír y leer, no adivinar el significado; también es Dubu 5-2, nivel bonus)"
+      },
+      {
+        "id": "N10-15",
+        "tipo": "reconoce",
+        "enunciado": "TRANSFERENCIA. Escucha 🔊 y toca lo que oíste (significa 'fruta'). Opciones: 과일 · 고일 · 과이",
+        "respuesta": "과일",
+        "distractores": [
+          "고일",
+          "과이"
+        ],
+        "explicacion_error": "과일 = 과 (ㄱ + ㅘ, 'gwa') + 일 (ㄹ abajo, suena l): fruta. 고일 no tiene la 'w' y 과이 no tiene 받침.",
+        "audio_texto": "과일",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "pista: gwail",
+        "fuente": "palabras_basico1 n°147 (transferencia de oído; plan §3 nivel 7, movido al jefe porque lleva 받침)"
+      },
+      {
+        "id": "N10-16",
+        "tipo": "dos-formas",
+        "enunciado": "Suena [감사함니다] ('gracias'). ¿Cuál está bien escrito? Opciones: 감사합니다 · 감사함니다",
+        "respuesta": "감사합니다",
+        "distractores": [
+          "감사함니다"
+        ],
+        "explicacion_error": "Se escribe 합니다, con ㅂ, aunque suene [함니다]: la ㅂ antes de ㄴ suena m. Escribe lo que es; di lo que suena.",
+        "audio_texto": "감사합니다",
+        "audio_existe": true,
+        "pronunciacion": "[감사함니다]",
+        "romanizacion": "pista: gamsahamnida",
+        "fuente": "repaso N09-07"
+      },
+      {
+        "id": "N10-17",
+        "tipo": "dos-formas",
+        "enunciado": "Suena [꼳] ('flor'). ¿Cuál está bien escrito? Opciones: 꽃 · 꼳",
+        "respuesta": "꽃",
+        "distractores": [
+          "꼳"
+        ],
+        "explicacion_error": "Se escribe 꽃, con ㅊ abajo, aunque suene [꼳]. Al final hay 7 sonidos, pero más letras que pueden ir abajo.",
+        "audio_texto": "꽃",
+        "audio_existe": true,
+        "pronunciacion": "[꼳]",
+        "romanizacion": "pista: kkot",
+        "fuente": "repaso N08-09"
+      },
+      {
+        "id": "N10-18",
+        "tipo": "reconoce",
+        "enunciado": "DICHO DEL BARRIO (después de la tarjeta del dicho). Completa: 시작이 ___이다 ('el comienzo es la mitad'). Opciones: 반 · 밥 · 방",
+        "respuesta": "반",
+        "distractores": [
+          "밥",
+          "방"
+        ],
+        "explicacion_error": "반 = mitad, y termina en ㄴ. 밥 es arroz y 방, habitación: ¡el 받침 cambia la palabra!",
+        "audio_texto": "시작이 반이다",
+        "audio_existe": false,
+        "pronunciacion": "[시자기 바니다]",
+        "romanizacion": "pista: sijagi banida",
+        "fuente": "dicho del barrio (plan §3 nivel 10)"
+      },
+      {
+        "id": "N10-19",
+        "tipo": "reconoce",
+        "enunciado": "¿Cuándo dirías 시작이 반이다? Opciones: A una amiga que por fin se inscribió en clases de coreano y está nerviosa · Cuando alguien llega tarde a clase · Para despedirte al final del día",
+        "respuesta": "A una amiga que por fin se inscribió en clases de coreano y está nerviosa",
+        "distractores": [
+          "Cuando alguien llega tarde a clase",
+          "Para despedirte al final del día"
+        ],
+        "explicacion_error": "Se dice para animar a quien se atreve a empezar algo. Dar el primer paso ya es la mitad del camino.",
+        "audio_texto": "시작이 반이다",
+        "audio_existe": false,
+        "pronunciacion": "[시자기 바니다]",
+        "romanizacion": "pista: sijagi banida",
+        "fuente": "dicho del barrio (plan §5: ¿en qué situación se usa?)"
+      },
+      {
+        "id": "N10-20",
+        "tipo": "reconoce",
+        "enunciado": "¿Qué refrán en español dice lo mismo que 시작이 반이다? Opciones: Obra empezada, medio acabada · Más vale tarde que nunca · No por mucho madrugar amanece más temprano",
+        "respuesta": "Obra empezada, medio acabada",
+        "distractores": [
+          "Más vale tarde que nunca",
+          "No por mucho madrugar amanece más temprano"
+        ],
+        "explicacion_error": "'Obra empezada, medio acabada' dice lo mismo: empezar ya es la mitad del trabajo. 'Más vale tarde que nunca' habla de llegar tarde, no de empezar.",
+        "audio_texto": "시작이 반이다",
+        "audio_existe": false,
+        "pronunciacion": "[시자기 바니다]",
+        "romanizacion": "pista: sijagi banida",
+        "fuente": "dicho del barrio (plan §5: emparéjalo con el refrán hispano)"
+      }
+    ],
+    "ojo": "",
+    "cierre": "Se aprueba con 80 % o más a la primera (16 de 20): se abre Bukchon (nivel 11), sello 'Gwanghwamun · Ya leo Hangul' (mide lectura y escucha; el habla se practica en clase) y tarjeta para compartir de 1080×1350 'Ya leo Hangul · academiaseul.com/tigre' (sin precios). Si no llega: 'Repasa los niveles X e Y' (los 2–3 con más errores) y reintento inmediato con otra semilla. Llamado a la acción: 'Esto es la semana 1–2 de Básico 1 con Kiran' → /inscribete o /notificarme según /api/cursos. Encuesta anónima de 4 preguntas. En modo 'Saltar aquí' (puerta 2 del nivel 0) es el mismo jefe: con 80 % salta al 11; si no, sigue desde el 1 sin perder nada."
+  }
+]

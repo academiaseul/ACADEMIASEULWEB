@@ -1,0 +1,1334 @@
+[
+  {
+    "n": 16,
+    "titulo": "저는 칠레 사람이에요 · País y profesión",
+    "objetivo": "Puedo decir mi nombre, mi país y a qué me dedico, y entiendo las preguntas 이름이 뭐예요? y 어느 나라 사람이에요?",
+    "nuevo": [
+      "País + 사람 = nacionalidad: con 사람 siempre va 이에요, aunque el país termine en vocal",
+      "Profesiones con 예요/이에요: 학생, 선생님, 회사원, 의사",
+      "Fórmulas para preguntar: 이름이 뭐예요? · 어느 나라 사람이에요? (저는 sigue como bloque fijo)"
+    ],
+    "tarjeta_regla": "País + 사람 = nacionalidad: 칠레 사람 (persona de Chile). Manda la última sílaba de todo el bloque: 사람 termina en ㅁ → siempre 이에요 [사라미에요]. Las profesiones siguen la regla de siempre: 회사원이에요 [회사워니에요] · 의사예요.",
+    "calentamiento": [
+      {
+        "id": "N16-C1",
+        "tipo": "clasifica-batchim",
+        "enunciado": "Calentamiento (repaso de los niveles 11 y 13). ¿선생님 termina en 받침? Llévala a su bandeja: «Con 받침» o «Sin 받침».",
+        "respuesta": "Con 받침",
+        "distractores": [
+          "Sin 받침"
+        ],
+        "explicacion_error": "Mira solo la última sílaba: 님 = ㄴ+ㅣ+ㅁ, con ㅁ abajo, así que termina en 받침. Por eso se dice 선생님이에요 [선생니미에요].",
+        "audio_texto": "선생님",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°27 · repaso de los niveles 11 (tipo) y 13 (선생님이에요)"
+      },
+      {
+        "id": "N16-C2",
+        "tipo": "copula",
+        "enunciado": "Calentamiento (repaso del nivel 13). [dibujo: un lápiz] 연필 + ___",
+        "respuesta": "이에요 → 연필이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "필 = ㅍ+ㅣ+ㄹ termina en ㄹ (받침) → 이에요. La ㄹ salta y suena como una r suave: [연피리에요].",
+        "audio_texto": "연필이에요",
+        "audio_existe": false,
+        "pronunciacion": "[연피리에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°44 · repaso nivel 13"
+      }
+    ],
+    "items": [
+      {
+        "id": "N16-01",
+        "tipo": "copula",
+        "enunciado": "Adivina primero (no cuenta para las estrellas). [dibujo: silueta del mapa de Chile, larga y delgada, en azul; al lado, una chica se señala el pecho] Ella dice que es chilena: 저는 칠레 사람 + ___",
+        "respuesta": "이에요 → 저는 칠레 사람이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "칠레 termina en vocal, pero 이에요 va pegado a 사람, y 람 = ㄹ+ㅏ+ㅁ termina en ㅁ. Con 사람 siempre va 이에요: [사라미에요].",
+        "audio_texto": "저는 칠레 사람이에요",
+        "audio_existe": true,
+        "pronunciacion": "[저는 칠레 사라미에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°20 저, n°23 칠레, n°21 사람 · clip existente"
+      },
+      {
+        "id": "N16-02",
+        "tipo": "reconoce",
+        "enunciado": "Escucha y elige: ¿de dónde es esta persona?",
+        "respuesta": "De México.",
+        "distractores": [
+          "De Chile.",
+          "De Colombia.",
+          "De Corea."
+        ],
+        "explicacion_error": "멕시코 = México, y 멕시코 사람 = persona de México: mexicano o mexicana. Fíjate en la ㅅ tensa: [멕씨코].",
+        "audio_texto": "저는 멕시코 사람이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 멕씨코 사라미에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°24 멕시코, n°21 사람"
+      },
+      {
+        "id": "N16-03",
+        "tipo": "copula",
+        "enunciado": "[dibujo: silueta del mapa de Corea en azul; al lado, un chico que saluda con la mano] Él es coreano: 한국 사람 + ___",
+        "respuesta": "이에요 → 한국 사람이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "Manda la última sílaba de todo el bloque: 람 termina en ㅁ → 이에요. Y después de 국 la ㅅ suena tensa: [한국싸라미에요].",
+        "audio_texto": "한국 사람이에요",
+        "audio_existe": false,
+        "pronunciacion": "[한국싸라미에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°22 한국, n°21 사람"
+      },
+      {
+        "id": "N16-04",
+        "tipo": "copula",
+        "enunciado": "Lucas se presenta: 저는 루카스 + ___",
+        "respuesta": "예요 → 저는 루카스예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "En español Lucas termina en s, pero en 한글 es 루카스, y 스 = ㅅ+ㅡ termina en vocal → 예요. Manda cómo se escribe en 한글, no en español.",
+        "audio_texto": "저는 루카스예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · lista cerrada de nombres (루카스)"
+      },
+      {
+        "id": "N16-05",
+        "tipo": "reconoce",
+        "enunciado": "Escucha y elige: ¿a qué se dedica esta persona?",
+        "respuesta": "Es profesor o profesora.",
+        "distractores": [
+          "Es estudiante.",
+          "Es médico o médica.",
+          "Es empleado o empleada de oficina."
+        ],
+        "explicacion_error": "선생님 = profesor o profesora. Y 님 termina en ㅁ → 선생님이에요 [선생니미에요].",
+        "audio_texto": "선생님이에요",
+        "audio_existe": false,
+        "pronunciacion": "[선생니미에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°27 선생님"
+      },
+      {
+        "id": "N16-06",
+        "tipo": "copula",
+        "enunciado": "[dibujo: un hombre con corbata, credencial colgando del cuello y un notebook bajo el brazo] Es empleado de oficina: 회사원 + ___",
+        "respuesta": "이에요 → 회사원이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "원 = ㅇ+ㅝ+ㄴ termina en ㄴ (받침) → 이에요. La ㄴ salta a la vocal que sigue: [회사워니에요].",
+        "audio_texto": "회사원이에요",
+        "audio_existe": false,
+        "pronunciacion": "[회사워니에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°36 회사원 (tipo T, semana 2; lo nombra el plan §3)"
+      },
+      {
+        "id": "N16-07",
+        "tipo": "copula",
+        "enunciado": "[dibujo: una mujer con bata blanca y estetoscopio] Ella es médica: 의사 + ___",
+        "respuesta": "예요 → 의사예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "사 = ㅅ+ㅏ termina en vocal → 예요. 의사 y 회사원 tienen 사, pero manda la ÚLTIMA sílaba: 회사원 termina en ㄴ y 의사 no.",
+        "audio_texto": "의사예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°37 의사 (tipo T, semana 2; lo nombra el plan §3)"
+      },
+      {
+        "id": "N16-08",
+        "tipo": "reconoce",
+        "enunciado": "El tigre te pregunta: 어느 나라 사람이에요? ¿Qué te está preguntando?",
+        "respuesta": "¿De qué país eres?",
+        "distractores": [
+          "¿Cómo te llamas?",
+          "¿Eres estudiante?",
+          "¿A qué te dedicas?"
+        ],
+        "explicacion_error": "나라 = país, así que 어느 나라 사람이에요? es «¿persona de qué país eres?»: ¿de dónde eres? Por ahora se aprende entera, como fórmula.",
+        "audio_texto": "어느 나라 사람이에요?",
+        "audio_existe": false,
+        "pronunciacion": "[어느 나라 사라미에요]",
+        "romanizacion": "",
+        "fuente": "nuevo (fórmula) · palabras_basico1 n°29 나라 (tipo T), n°21 사람"
+      },
+      {
+        "id": "N16-09",
+        "tipo": "reconoce",
+        "enunciado": "El tigre te pregunta: 이름이 뭐예요? Elige la respuesta que le corresponde.",
+        "respuesta": "저는 소피아예요.",
+        "distractores": [
+          "칠레 사람이에요.",
+          "학생이에요.",
+          "반갑습니다."
+        ],
+        "explicacion_error": "이름 = nombre, así que 이름이 뭐예요? = ¿cómo te llamas? Respondes con tu nombre: 저는 소피아예요.",
+        "audio_texto": "이름이 뭐예요?",
+        "audio_existe": true,
+        "pronunciacion": "[이르미 뭐예요]",
+        "romanizacion": "",
+        "fuente": "nuevo (fórmula) · palabras_basico1 n°28 이름 (tipo T) · clips existentes: 이름이 뭐예요? y 저는 소피아예요"
+      },
+      {
+        "id": "N16-10",
+        "tipo": "copula",
+        "enunciado": "Isabel se presenta: 저는 이사벨 + ___",
+        "respuesta": "이에요 → 저는 이사벨이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "벨 = ㅂ+ㅔ+ㄹ termina en ㄹ → 이에요. La ㄹ salta y suena como r suave: [이사베리에요].",
+        "audio_texto": "저는 이사벨이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 이사베리에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · lista cerrada de nombres (이사벨)"
+      },
+      {
+        "id": "N16-11",
+        "tipo": "ordena",
+        "enunciado": "Di que eres de Colombia. Ordena los bloques (sobra uno): [사람] [예요] [저는] [이에요] [콜롬비아]",
+        "respuesta": "저는 콜롬비아 사람이에요",
+        "distractores": [
+          "[예요] (bloque que sobra)"
+        ],
+        "explicacion_error": "Primero el país y después 사람, y 이에요 va pegado a 사람 porque 람 termina en ㅁ. Por eso sobra 예요, aunque 콜롬비아 termine en vocal.",
+        "audio_texto": "저는 콜롬비아 사람이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 콜롬비아 사라미에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°25 콜롬비아, n°21 사람"
+      },
+      {
+        "id": "N16-12",
+        "tipo": "ordena",
+        "enunciado": "El tigre empieza: 이름이 뭐예요? Ordena el resto de la conversación (eres Gabriel, de Chile): [칠레 사람이에요.] [저는 가브리엘이에요.] [어느 나라 사람이에요?]",
+        "respuesta": "저는 가브리엘이에요. → 어느 나라 사람이에요? → 칠레 사람이에요.",
+        "distractores": [
+          "어느 나라 사람이에요? → 저는 가브리엘이에요. → 칠레 사람이에요. (orden equivocado típico)"
+        ],
+        "explicacion_error": "Primero respondes tu nombre (가브리엘 termina en ㄹ → 이에요 [가브리에리에요]). Después el tigre pregunta de dónde eres y respondes con tu país + 사람.",
+        "audio_texto": "이름이 뭐예요? | 저는 가브리엘이에요 | 어느 나라 사람이에요? | 칠레 사람이에요",
+        "audio_existe": false,
+        "pronunciacion": "[이르미 뭐예요] | [저는 가브리에리에요] | [어느 나라 사라미에요] | [칠레 사라미에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · lista cerrada de nombres (가브리엘) · palabras_basico1 n°23 칠레, n°28 이름, n°29 나라 · solo existe el clip de la 1.ª línea"
+      }
+    ],
+    "ojo": "En coreano dices 저는 una sola vez: 저는 마리아예요. 칠레 사람이에요. 학생이에요. Repetir 저는 en cada frase suena raro. Y por ahora 저는 va como bloque: «yo, en cuanto a mí».",
+    "cierre": "Estrellas por precisión al primer intento (1★ al terminar, 2★ con 80 % o más, 3★ con 95 % o más); XP 10/4 y +5 cada 5 seguidas; los fallados van a la caja 1 del Leitner. Palabras nuevas: 사람, 칠레, 멕시코, 콜롬비아, 한국, 회사원, 이름, 나라. «Mis reglas» guarda: «Con 사람, siempre 이에요». Mochila: flashcards de la semana 2. SIGUIENTE → 17 · 이게 뭐예요?"
+  },
+  {
+    "n": 17,
+    "titulo": "이게 뭐예요? · ¿Qué es esto?",
+    "objetivo": "Puedo preguntar qué es algo (esto, eso, aquello) y responder eligiendo bien 예요 o 이에요.",
+    "nuevo": [
+      "이게/그게/저게 뭐예요? como fórmula (¿qué es esto/eso/aquello?)",
+      "이거/그거/저거: cerca de mí / cerca de ti / lejos de los dos",
+      "여기/거기/저기 con la cópula: 여기예요! (¡aquí!) · 저기예요! (¡es allá!)"
+    ],
+    "tarjeta_regla": "이게 뭐예요? = ¿Qué es esto? Respondes con la regla de siempre: 책이에요 · 시계예요. 이 = cerca de mí · 그 = cerca de ti · 저 = lejos de los dos: 이거 / 그거 / 저거 y 여기 / 거기 / 저기. 이게 va como bloque.",
+    "calentamiento": [
+      {
+        "id": "N17-C1",
+        "tipo": "copula",
+        "enunciado": "Calentamiento (repaso del nivel 16). [dibujo: silueta del mapa de México en azul] 멕시코 사람 + ___",
+        "respuesta": "이에요 → 멕시코 사람이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "멕시코 termina en vocal, pero manda 사람: 람 termina en ㅁ → 이에요 [멕씨코 사라미에요].",
+        "audio_texto": "멕시코 사람이에요",
+        "audio_existe": false,
+        "pronunciacion": "[멕씨코 사라미에요]",
+        "romanizacion": "",
+        "fuente": "repaso N16 · palabras_basico1 n°24, n°21"
+      },
+      {
+        "id": "N17-C2",
+        "tipo": "copula",
+        "enunciado": "Calentamiento (repaso del nivel 14). Camila se presenta: 저는 카밀라 + ___",
+        "respuesta": "예요 → 저는 카밀라예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "라 = ㄹ+ㅏ termina en vocal → 예요. La ㄹ de 밀 está en el medio del nombre; lo que manda es el final.",
+        "audio_texto": "저는 카밀라예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "repaso N14 · lista cerrada de nombres (카밀라)"
+      }
+    ],
+    "items": [
+      {
+        "id": "N17-01",
+        "tipo": "reconoce",
+        "enunciado": "Adivina primero (no cuenta para las estrellas). [dibujo: el tigre sostiene un paquete en su pata y te mira con curiosidad] Escucha: ¿qué te pregunta?",
+        "respuesta": "¿Qué es esto?",
+        "distractores": [
+          "¿Cómo te llamas?",
+          "¿De dónde eres?",
+          "¿Es un libro?"
+        ],
+        "explicacion_error": "뭐 = qué, e 이게 = esto (lo que tiene cerca quien habla: aquí, el tigre). Y fíjate: 뭐 termina en vocal → 뭐예요.",
+        "audio_texto": "이게 뭐예요?",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo (fórmula) · palabras_basico1 n°54 이게, n°52 뭐 · clip existente"
+      },
+      {
+        "id": "N17-02",
+        "tipo": "copula",
+        "enunciado": "[dibujo: el tigre muestra un celular] 이게 뭐예요? — 휴대폰 + ___",
+        "respuesta": "이에요 → 휴대폰이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "폰 = ㅍ+ㅗ+ㄴ termina en ㄴ → 이에요. La ㄴ salta: [휴대포니에요].",
+        "audio_texto": "휴대폰이에요",
+        "audio_existe": false,
+        "pronunciacion": "[휴대포니에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°47 휴대폰"
+      },
+      {
+        "id": "N17-03",
+        "tipo": "copula",
+        "enunciado": "[dibujo: el tigre muestra un pancito calentito con forma de pez] 이게 뭐예요? — 붕어빵 + ___",
+        "respuesta": "이에요 → 붕어빵이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "빵 termina en ㅇ, y la ㅇ de abajo SÍ es 받침 → 이에요. Esa ㅇ no salta: suena ng, [붕어빵이에요].",
+        "audio_texto": "붕어빵이에요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°57 붕어빵 (tipo T, semana 3; lo nombra el plan §3)"
+      },
+      {
+        "id": "N17-04",
+        "tipo": "reconoce",
+        "enunciado": "[dibujo: Sofía encontró una cosa rara en la calle; la tiene en SU mano y te la muestra, curiosa] Sofía pregunta por lo que tiene ella en la mano: ___ 뭐예요?",
+        "respuesta": "이게",
+        "distractores": [
+          "그게",
+          "저게"
+        ],
+        "explicacion_error": "이 = cerca de quien habla. Lo que Sofía tiene en su mano es 이거, y en la pregunta se dice 이게 뭐예요?",
+        "audio_texto": "이게 뭐예요?",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°53 이거, n°54 이게"
+      },
+      {
+        "id": "N17-05",
+        "tipo": "reconoce",
+        "enunciado": "[dibujo: tu amigo, frente a ti, tiene un paraguas en la mano] Preguntas por lo que tiene TU AMIGO: ___ 뭐예요?",
+        "respuesta": "그게",
+        "distractores": [
+          "이게",
+          "저게"
+        ],
+        "explicacion_error": "그 = cerca de quien escucha. Lo que tiene la otra persona es 그거: 그게 뭐예요?",
+        "audio_texto": "그게 뭐예요?",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°53 그거, n°54 그게"
+      },
+      {
+        "id": "N17-06",
+        "tipo": "reconoce",
+        "enunciado": "[dibujo: al otro lado de la calle, un puesto de pancitos con forma de pez; tú y tu amiga lo miran desde lejos] Preguntas por aquello que está lejos de ustedes: ___ 뭐예요?",
+        "respuesta": "저게",
+        "distractores": [
+          "이게",
+          "그게"
+        ],
+        "explicacion_error": "저 = lejos de los dos. Lo que está allá es 저거: 저게 뭐예요?",
+        "audio_texto": "저게 뭐예요?",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°53 저거, n°54 저게"
+      },
+      {
+        "id": "N17-07",
+        "tipo": "copula",
+        "enunciado": "[dibujo: tu amigo te muestra el reloj de su muñeca] 그게 뭐예요? — 시계 + ___",
+        "respuesta": "예요 → 시계예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "계 = ㄱ+ㅖ termina en vocal → 예요. La ㅖ se ve larga, pero es una vocal.",
+        "audio_texto": "시계예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°46 시계"
+      },
+      {
+        "id": "N17-08",
+        "tipo": "copula",
+        "enunciado": "[dibujo: al fondo de la sala, un escritorio vacío] 저게 뭐예요? — 책상 + ___",
+        "respuesta": "이에요 → 책상이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "상 = ㅅ+ㅏ+ㅇ: la ㅇ de abajo es 받침 → 이에요. Suena [책쌍이에요], porque la ㅅ se pone tensa después de 책.",
+        "audio_texto": "책상이에요",
+        "audio_existe": false,
+        "pronunciacion": "[책쌍이에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°49 책상"
+      },
+      {
+        "id": "N17-09",
+        "tipo": "reconoce",
+        "enunciado": "[dibujo: un café lleno de gente; Mateo busca a su amiga y ella levanta la mano desde su mesa] Ella le dice «¡Aquí estoy!»: ___",
+        "respuesta": "여기예요!",
+        "distractores": [
+          "저기예요!",
+          "거기예요!"
+        ],
+        "explicacion_error": "여기 = aquí, cerca de mí (como 이거). 기 termina en vocal → 여기예요.",
+        "audio_texto": "여기예요!",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°93 여기 (semana 5, adelantado por el plan §3)"
+      },
+      {
+        "id": "N17-10",
+        "tipo": "reconoce",
+        "enunciado": "[dibujo: tu amiga busca el puesto de 붕어빵; tú lo señalas al final de la calle] Le dices «¡Es allá!»: ___",
+        "respuesta": "저기예요!",
+        "distractores": [
+          "여기예요!",
+          "거기예요!"
+        ],
+        "explicacion_error": "저기 = allá, lejos de ustedes dos (como 저거). 기 termina en vocal → 저기예요.",
+        "audio_texto": "저기예요!",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°94 저기, n°102 거기 (tipo T)"
+      },
+      {
+        "id": "N17-11",
+        "tipo": "ordena",
+        "enunciado": "Arma la pregunta «¿Qué es esto?» (sobra un bloque): [예요?] [이게] [이에요?] [뭐]",
+        "respuesta": "이게 뭐예요?",
+        "distractores": [
+          "[이에요?] (bloque que sobra)"
+        ],
+        "explicacion_error": "뭐 = ㅁ+ㅝ termina en vocal → 예요. La pregunta también sigue la regla, por eso sobra 이에요.",
+        "audio_texto": "이게 뭐예요?",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°54, n°52"
+      },
+      {
+        "id": "N17-12",
+        "tipo": "ordena",
+        "enunciado": "[dibujo: tu amigo tiene un paraguas en la mano] Ordena la pregunta y la respuesta (sobra un bloque): [우산이에요.] [저게] [뭐예요?] [그게]",
+        "respuesta": "그게 뭐예요? — 우산이에요.",
+        "distractores": [
+          "[저게] (bloque que sobra)"
+        ],
+        "explicacion_error": "Lo que tiene tu amigo está cerca de él → 그게. Y 산 termina en ㄴ → 우산이에요 [우사니에요].",
+        "audio_texto": "그게 뭐예요? | 우산이에요",
+        "audio_existe": false,
+        "pronunciacion": " | [우사니에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°54 그게, n°50 우산"
+      }
+    ],
+    "ojo": "En la conversación también oirás 이거 뭐예요? (con 이거 en vez de 이게): las dos están bien. Y 뭐예요 suena casi [뭐에요] al hablar rápido, pero se escribe 뭐예요; lo practicas en el nivel 19.",
+    "cierre": "Estrellas por precisión al primer intento; los fallados van al Leitner. Palabras nuevas: 뭐, 이거/그거/저거, 이게/그게/저게, 여기/거기/저기, 휴대폰, 붕어빵, 책상, 우산. «Mis reglas» guarda la tarjeta 이 · 그 · 저. Mochila: flashcards de la semana 3. SIGUIENTE → 18 · 빵이 아니에요."
+  },
+  {
+    "n": 18,
+    "titulo": "빵이 아니에요 · No es + 네/아니요",
+    "objetivo": "Puedo decir que algo no es (N이/가 아니에요) y responder 네 o 아니요 a una pregunta de sí o no.",
+    "nuevo": [
+      "N이/가 아니에요 = no es: 이 después de 받침, 가 después de vocal (solo dentro de este marco fijo)",
+      "네 / 아니요 para responder preguntas de sí o no (이거 빵이에요? con tono de pregunta)"
+    ],
+    "tarjeta_regla": "No es = N + 이/가 + 아니에요. ¿Termina en 받침? → 이: 빵이 아니에요 · 책이 아니에요 [채기 아니에요]. ¿Termina en vocal? → 가: 시계가 아니에요. Es la misma pregunta de 이에요/예요. Para responder: 네 = sí · 아니요 = no.",
+    "calentamiento": [
+      {
+        "id": "N18-C1",
+        "tipo": "reconoce",
+        "enunciado": "Calentamiento (repaso del nivel 17). Escucha: ¿qué te preguntan?",
+        "respuesta": "¿Qué es aquello?",
+        "distractores": [
+          "¿Qué es esto?",
+          "¿Qué es eso?"
+        ],
+        "explicacion_error": "저 = lejos de los dos, así que 저게 뭐예요? = ¿qué es aquello? (이게 = esto · 그게 = eso).",
+        "audio_texto": "저게 뭐예요?",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "repaso N17 · palabras_basico1 n°54"
+      },
+      {
+        "id": "N18-C2",
+        "tipo": "copula",
+        "enunciado": "Calentamiento (repaso del nivel 16). [dibujo: un hombre con corbata y notebook] 회사원 + ___",
+        "respuesta": "이에요 → 회사원이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "원 termina en ㄴ → 이에요, y la ㄴ salta: [회사워니에요].",
+        "audio_texto": "회사원이에요",
+        "audio_existe": false,
+        "pronunciacion": "[회사워니에요]",
+        "romanizacion": "",
+        "fuente": "repaso N16 · palabras_basico1 n°36"
+      }
+    ],
+    "items": [
+      {
+        "id": "N18-01",
+        "tipo": "copula",
+        "enunciado": "Adivina primero (no cuenta para las estrellas). Variante 이/가 + 아니에요. [dibujo: el tigre muestra un vaso de leche y pregunta, pícaro, 이거 빵이에요?] Respondes: 아니요, 빵 + ___ 아니에요. (Elige 이 o 가.)",
+        "respuesta": "이 → 아니요, 빵이 아니에요",
+        "distractores": [
+          "가"
+        ],
+        "explicacion_error": "빵 termina en ㅇ (받침) → 이: 빵이 아니에요. Es la misma pregunta de siempre: si dirías 빵이에요, ahora va 이.",
+        "audio_texto": "아니요, 빵이 아니에요",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°41 빵, n°56 아니요 · clip existente"
+      },
+      {
+        "id": "N18-02",
+        "tipo": "reconoce",
+        "enunciado": "Escucha y elige qué significa.",
+        "respuesta": "No, no es un lápiz.",
+        "distractores": [
+          "Sí, es un lápiz.",
+          "¿Es un lápiz?",
+          "No, no hay lápiz."
+        ],
+        "explicacion_error": "아니요 = no, y 연필이 아니에요 = no es un lápiz. Para decir «no hay» se usa otra palabra, que verás más adelante.",
+        "audio_texto": "아니요, 연필이 아니에요",
+        "audio_existe": false,
+        "pronunciacion": "[아니요, 연피리 아니에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°44 연필"
+      },
+      {
+        "id": "N18-03",
+        "tipo": "copula",
+        "enunciado": "Variante 이/가 + 아니에요. [dibujo: un reloj con una ✗ dorada encima] 시계 + ___ 아니에요. (Elige 이 o 가.)",
+        "respuesta": "가 → 시계가 아니에요",
+        "distractores": [
+          "이"
+        ],
+        "explicacion_error": "계 termina en vocal → 가: 시계가 아니에요. Truco: donde irían 예요, ahora va 가.",
+        "audio_texto": "시계가 아니에요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°46 시계"
+      },
+      {
+        "id": "N18-04",
+        "tipo": "copula",
+        "enunciado": "Variante 이/가 + 아니에요. [dibujo: el tigre muestra un lápiz y pregunta 이거 책이에요?] 아니요, 책 + ___ 아니에요.",
+        "respuesta": "이 → 아니요, 책이 아니에요",
+        "distractores": [
+          "가"
+        ],
+        "explicacion_error": "책 = ㅊ+ㅐ+ㄱ termina en ㄱ → 이. La ㄱ salta a la vocal: [채기 아니에요].",
+        "audio_texto": "아니요, 책이 아니에요",
+        "audio_existe": false,
+        "pronunciacion": "[아니요, 채기 아니에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°43 책, n°44 연필 (dibujo)"
+      },
+      {
+        "id": "N18-05",
+        "tipo": "copula",
+        "enunciado": "Variante 이/가 + 아니에요. [dibujo: una taza de café con una ✗ dorada encima] 커피 + ___ 아니에요.",
+        "respuesta": "가 → 커피가 아니에요",
+        "distractores": [
+          "이"
+        ],
+        "explicacion_error": "피 = ㅍ+ㅣ termina en vocal → 가: 커피가 아니에요.",
+        "audio_texto": "커피가 아니에요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°51 커피"
+      },
+      {
+        "id": "N18-06",
+        "tipo": "reconoce",
+        "enunciado": "¿Cuál significa «no es»?",
+        "respuesta": "아니에요",
+        "distractores": [
+          "아니요"
+        ],
+        "explicacion_error": "아니요 = «no», la respuesta corta. 아니에요 = «no es», y va al final de la frase, después de 이/가.",
+        "audio_texto": "아니에요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°56 아니요 (tipo T)"
+      },
+      {
+        "id": "N18-07",
+        "tipo": "reconoce",
+        "enunciado": "[dibujo: el tigre señala un paraguas y pregunta 우산이에요?] Responde.",
+        "respuesta": "네, 우산이에요.",
+        "distractores": [
+          "아니요, 우산이 아니에요."
+        ],
+        "explicacion_error": "Sí es un paraguas, así que respondes 네 (sí): 네, 우산이에요 [우사니에요].",
+        "audio_texto": "네, 우산이에요",
+        "audio_existe": false,
+        "pronunciacion": "[네, 우사니에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°55 네 (tipo T), n°50 우산"
+      },
+      {
+        "id": "N18-08",
+        "tipo": "reconoce",
+        "enunciado": "[dibujo: el tigre señala una silla y pregunta 이거 책상이에요?] Responde.",
+        "respuesta": "아니요, 책상이 아니에요. 의자예요.",
+        "distractores": [
+          "네, 책상이에요.",
+          "아니요, 의자가 아니에요. 책상이에요."
+        ],
+        "explicacion_error": "Es una silla: primero dices lo que NO es (책상이 아니에요) y después lo que SÍ es (의자예요).",
+        "audio_texto": "아니요, 책상이 아니에요. 의자예요",
+        "audio_existe": false,
+        "pronunciacion": "[아니요, 책쌍이 아니에요. 의자예요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°49 책상, n°48 의자"
+      },
+      {
+        "id": "N18-09",
+        "tipo": "copula",
+        "enunciado": "Variante 이/가 + 아니에요. Te presentas: 저는 회사원이에요. 학생 + ___ 아니에요.",
+        "respuesta": "이 → 저는 회사원이에요. 학생이 아니에요.",
+        "distractores": [
+          "가"
+        ],
+        "explicacion_error": "생 termina en ㅇ (받침) → 이: 학생이 아니에요 [학쌩이 아니에요].",
+        "audio_texto": "저는 회사원이에요. 학생이 아니에요",
+        "audio_existe": true,
+        "pronunciacion": "[저는 회사워니에요. 학쌩이 아니에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°36 회사원, n°26 학생 · clip existente"
+      },
+      {
+        "id": "N18-10",
+        "tipo": "copula",
+        "enunciado": "Variante 이/가 + 아니에요. Alguien te llama María, pero tú eres Camila. Corriges: 저는 마리아 + ___ 아니에요. 카밀라예요.",
+        "respuesta": "가 → 저는 마리아가 아니에요. 카밀라예요.",
+        "distractores": [
+          "이"
+        ],
+        "explicacion_error": "마리아 termina en vocal → 가: 마리아가 아니에요. Con los nombres funciona igual que con las cosas.",
+        "audio_texto": "저는 마리아가 아니에요. 카밀라예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · lista cerrada de nombres (마리아, 카밀라)"
+      },
+      {
+        "id": "N18-11",
+        "tipo": "reconoce",
+        "enunciado": "Escucha y elige qué significa.",
+        "respuesta": "No es un celular.",
+        "distractores": [
+          "Es un celular.",
+          "¿Es un celular?",
+          "No tengo celular."
+        ],
+        "explicacion_error": "아니에요 al final = no es: 휴대폰이 아니에요 = no es un celular. La ㄴ de 폰 salta: [휴대포니 아니에요].",
+        "audio_texto": "휴대폰이 아니에요",
+        "audio_existe": false,
+        "pronunciacion": "[휴대포니 아니에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°47 휴대폰"
+      },
+      {
+        "id": "N18-12",
+        "tipo": "ordena",
+        "enunciado": "[dibujo: el tigre, muy serio, muestra una mochila y pregunta 이거 의자예요?] Ordena tu respuesta (sobra un bloque): [가방이에요.] [아니에요.] [의자이] [아니요,] [의자가]",
+        "respuesta": "아니요, 의자가 아니에요. 가방이에요.",
+        "distractores": [
+          "[의자이] (bloque que sobra)"
+        ],
+        "explicacion_error": "자 termina en vocal → 의자가 (por eso sobra 의자이). Y 방 termina en ㅇ → 가방이에요.",
+        "audio_texto": "아니요, 의자가 아니에요. 가방이에요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°48 의자, n°45 가방"
+      }
+    ],
+    "ojo": "아니요 (no) y 아니에요 (no es) se parecen, pero no son lo mismo: «아니요, 빵이 아니에요» = No, no es pan. Por ahora usas 이/가 solo antes de 아니에요 (y dentro de fórmulas como 이름이 뭐예요?); para qué más sirve lo verás más adelante.",
+    "cierre": "Estrellas por precisión al primer intento; los fallados van al Leitner. Palabras nuevas: 아니에요, 네, 아니요. «Mis reglas» guarda «이/가 아니에요: la misma pregunta del 받침». SIGUIENTE → 19 · Así se dice y se escribe."
+  },
+  {
+    "n": 19,
+    "titulo": "Así se dice y se escribe · Bukchon",
+    "objetivo": "Escribo bien 이에요, 아니에요, 저예요 y 뭐예요 aunque suenen distinto, oigo el enlace (이름이 [이르미]) y escribo 5 frases al dictado.",
+    "nuevo": [
+      "Ortografía: después de 받침, 이에요 (nunca *이예요: 책이에요, no *책이예요), 아니에요 (nunca *아니예요), 저예요 y 뭐예요 (nunca *저에요 ni *뭐에요)",
+      "연음 (enlace): el 받침 salta a la vocal que sigue: 이름이 [이르미], 한국어 [한구거]",
+      "저예요 = soy yo (para decir quién es)"
+    ],
+    "tarjeta_regla": "Se escribe como manda la regla, aunque suene distinto: 책이에요 (nunca *책이예요) · 아니에요 (nunca *아니예요) · 저예요 y 뭐예요 (nunca *저에요 ni *뭐에요: 저 y 뭐 terminan en vocal). Al hablar, el 받침 salta: 이름이 [이르미], 한국어 [한구거].",
+    "calentamiento": [
+      {
+        "id": "N19-C1",
+        "tipo": "copula",
+        "enunciado": "Calentamiento (repaso del nivel 18). Variante 이/가 + 아니에요. [dibujo: el tigre muestra un lápiz y pregunta 이거 책이에요?] 아니요, 책 + ___ 아니에요.",
+        "respuesta": "이 → 아니요, 책이 아니에요",
+        "distractores": [
+          "가"
+        ],
+        "explicacion_error": "책 termina en ㄱ (받침) → 이, y la ㄱ salta: [채기 아니에요].",
+        "audio_texto": "아니요, 책이 아니에요",
+        "audio_existe": false,
+        "pronunciacion": "[아니요, 채기 아니에요]",
+        "romanizacion": "",
+        "fuente": "repaso N18-04"
+      },
+      {
+        "id": "N19-C2",
+        "tipo": "reconoce",
+        "enunciado": "Calentamiento (repaso del nivel 17). [dibujo: tu amigo tiene un pancito con forma de pez en la mano] Preguntas qué es: ___ 뭐예요?",
+        "respuesta": "그게",
+        "distractores": [
+          "이게",
+          "저게"
+        ],
+        "explicacion_error": "Lo que tiene tu amigo está cerca de él → 그: 그게 뭐예요?",
+        "audio_texto": "그게 뭐예요?",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "repaso N17 · palabras_basico1 n°54"
+      }
+    ],
+    "items": [
+      {
+        "id": "N19-01",
+        "tipo": "dos-formas",
+        "enunciado": "¿Cuál está bien escrita?",
+        "respuesta": "선생님이에요",
+        "distractores": [
+          "선생님이예요"
+        ],
+        "explicacion_error": "Después de 받침 se escribe 이에요; 받침 + *이예요 no existe, aunque al hablar rápido suene parecido. Se dice [선생니미에요].",
+        "audio_texto": "선생님이에요",
+        "audio_existe": false,
+        "pronunciacion": "[선생니미에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°27"
+      },
+      {
+        "id": "N19-02",
+        "tipo": "dos-formas",
+        "enunciado": "[dibujo: el tigre muestra un vaso de agua y pregunta 우유예요?] Dices que no es leche. ¿Cuál está bien escrita?",
+        "respuesta": "우유가 아니에요",
+        "distractores": [
+          "우유가 아니예요"
+        ],
+        "explicacion_error": "아니에요 viene de 아니다 («no ser») y siempre se escribe con 에. *아니예요 es un error muy común: ¡a ti ya no te pasa!",
+        "audio_texto": "우유가 아니에요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°4 우유"
+      },
+      {
+        "id": "N19-03",
+        "tipo": "dos-formas",
+        "enunciado": "[dibujo: alguien toca la puerta; desde afuera, Valentina dice «¡Soy yo, Valentina!»] ¿Cuál está bien escrita?",
+        "respuesta": "저예요, 발렌티나예요!",
+        "distractores": [
+          "저에요, 발렌티나예요!"
+        ],
+        "explicacion_error": "저 termina en vocal → 예요: 저예요. Suena casi [저에요], pero se escribe 저예요.",
+        "audio_texto": "저예요, 발렌티나예요!",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°20 저 · lista cerrada de nombres (발렌티나)"
+      },
+      {
+        "id": "N19-04",
+        "tipo": "dos-formas",
+        "enunciado": "¿Cuál está bien escrita?",
+        "respuesta": "이름이 뭐예요?",
+        "distractores": [
+          "이름이 뭐에요?"
+        ],
+        "explicacion_error": "뭐 termina en vocal (ㅝ) → 예요: 뭐예요. *뭐에요 se ve mucho en internet, pero no es la forma correcta.",
+        "audio_texto": "이름이 뭐예요?",
+        "audio_existe": true,
+        "pronunciacion": "[이르미 뭐예요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°28, n°52 · clip existente"
+      },
+      {
+        "id": "N19-05",
+        "tipo": "reconoce",
+        "enunciado": "Escucha 이름이 뭐예요? ¿Cómo suena la primera palabra?",
+        "respuesta": "[이르미]",
+        "distractores": [
+          "[이름이]",
+          "[이름미]"
+        ],
+        "explicacion_error": "La ㅁ de 름 salta a la ㅇ vacía de 이: suena [이르미]. Se escribe siempre 이름이.",
+        "audio_texto": "이름이 뭐예요?",
+        "audio_existe": true,
+        "pronunciacion": "[이르미 뭐예요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°28 이름 · clip existente"
+      },
+      {
+        "id": "N19-06",
+        "tipo": "reconoce",
+        "enunciado": "Se escribe 한국어 (el idioma coreano). Escucha: ¿cómo suena?",
+        "respuesta": "[한구거]",
+        "distractores": [
+          "[한국어]",
+          "[한구커]"
+        ],
+        "explicacion_error": "La ㄱ de 국 salta a la ㅇ vacía de 어 y sigue suave, sin aire: [한구거]. Es el mismo salto de 책이에요 [채기에요].",
+        "audio_texto": "한국어",
+        "audio_existe": true,
+        "pronunciacion": "[한구거]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°121 한국어 (tipo T, semana 6; solo para oír el enlace, lo nombra el plan §3) · clip existente"
+      },
+      {
+        "id": "N19-07",
+        "tipo": "reconoce",
+        "enunciado": "Oyes [채기에요]. ¿Cómo se escribe?",
+        "respuesta": "책이에요",
+        "distractores": [
+          "채기에요"
+        ],
+        "explicacion_error": "Se escribe la palabra completa (책) + 이에요; el salto de la ㄱ solo se oye. Si escribes 채기에요, desaparece la palabra 책.",
+        "audio_texto": "책이에요",
+        "audio_existe": true,
+        "pronunciacion": "[채기에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°43 · clip existente"
+      },
+      {
+        "id": "N19-08",
+        "tipo": "dictado",
+        "enunciado": "Dictado 1 de 5. Escribe lo que oyes (con teclado o con bloques).",
+        "respuesta": "저예요",
+        "distractores": [],
+        "explicacion_error": "저 termina en vocal → 예요. Si escribiste 저에요, oíste bien, pero se escribe 저예요.",
+        "audio_texto": "저예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°20"
+      },
+      {
+        "id": "N19-09",
+        "tipo": "dictado",
+        "enunciado": "Dictado 2 de 5. Escribe lo que oyes.",
+        "respuesta": "어느 나라 사람이에요?",
+        "distractores": [],
+        "explicacion_error": "Suena [사라미에요], pero se escribe 사람이에요: la ㅁ se queda abajo en 람 y después va 이에요.",
+        "audio_texto": "어느 나라 사람이에요?",
+        "audio_existe": false,
+        "pronunciacion": "[어느 나라 사라미에요]",
+        "romanizacion": "",
+        "fuente": "repaso N16 (fórmula)"
+      },
+      {
+        "id": "N19-10",
+        "tipo": "dictado",
+        "enunciado": "Dictado 3 de 5. Escribe lo que oyes.",
+        "respuesta": "아니요, 빵이 아니에요.",
+        "distractores": [],
+        "explicacion_error": "아니요 (no) + 빵이 아니에요 (no es pan). 아니에요 siempre con 에, nunca *아니예요.",
+        "audio_texto": "아니요, 빵이 아니에요",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "repaso N18 · clip existente"
+      },
+      {
+        "id": "N19-11",
+        "tipo": "dictado",
+        "enunciado": "Dictado 4 de 5. Escribe lo que oyes.",
+        "respuesta": "저는 다니엘이에요.",
+        "distractores": [],
+        "explicacion_error": "Suena [다니에리에요], pero se escribe 다니엘 + 이에요: la ㄹ se queda abajo en 엘.",
+        "audio_texto": "저는 다니엘이에요",
+        "audio_existe": true,
+        "pronunciacion": "[저는 다니에리에요]",
+        "romanizacion": "",
+        "fuente": "lista cerrada de nombres (다니엘) · clip existente"
+      },
+      {
+        "id": "N19-12",
+        "tipo": "dictado",
+        "enunciado": "Dictado 5 de 5. Escribe lo que oyes.",
+        "respuesta": "선생님, 이게 뭐예요?",
+        "distractores": [],
+        "explicacion_error": "님 lleva ㅁ abajo, y 뭐예요 se escribe con 예. La coma va después de 선생님 porque le hablas a tu profe.",
+        "audio_texto": "선생님, 이게 뭐예요?",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°27, n°54, n°52"
+      }
+    ],
+    "ojo": "Cuando alguien te dice 감사합니다, puedes responder 아니에요: «¡no es nada!». Y se escribe así, 아니에요, como ya sabes.",
+    "cierre": "Estrellas por precisión al primer intento; en el dictado hay crédito parcial por jamo («te faltó el 받침 ㅁ»). «Mis reglas» guarda «Así se escribe: 이에요, 아니에요, 저예요, 뭐예요». SIGUIENTE → 20 · JEFE «Preséntate» (aviso antes de entrar: el jefe pide 80 % al primer intento y trae 5 palabras que nunca usaste con esta regla)."
+  },
+  {
+    "n": 20,
+    "titulo": "JEFE · Preséntate",
+    "objetivo": "Me presento en coreano (nombre, país, profesión), pregunto qué es algo y digo que no es, eligiendo bien 예요 o 이에요 incluso con palabras que nunca practiqué con esta regla.",
+    "nuevo": [],
+    "tarjeta_regla": "Recordatorio (se abre con «¿Cuál era la regla?»): mira la última sílaba. ¿Tiene 받침? → 이에요 · 이 아니에요. ¿Termina en vocal? → 예요 · 가 아니에요. Con 사람, siempre 이에요. Se escribe 아니에요, 저예요 y 뭐예요.",
+    "calentamiento": [
+      {
+        "id": "N20-C1",
+        "tipo": "copula",
+        "enunciado": "Calentamiento. Daniel se presenta: 저는 다니엘 + ___",
+        "respuesta": "이에요 → 저는 다니엘이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "엘 termina en ㄹ → 이에요, y la ㄹ salta: [다니에리에요].",
+        "audio_texto": "저는 다니엘이에요",
+        "audio_existe": true,
+        "pronunciacion": "[저는 다니에리에요]",
+        "romanizacion": "",
+        "fuente": "repaso N14 · lista cerrada de nombres · clip existente"
+      },
+      {
+        "id": "N20-C2",
+        "tipo": "clasifica-batchim",
+        "enunciado": "Calentamiento. ¿회사원 termina en 받침? Llévala a su bandeja: «Con 받침» o «Sin 받침».",
+        "respuesta": "Con 받침",
+        "distractores": [
+          "Sin 받침"
+        ],
+        "explicacion_error": "원 = ㅇ+ㅝ+ㄴ, con ㄴ abajo → termina en 받침. Por eso 회사원이에요 [회사워니에요].",
+        "audio_texto": "회사원",
+        "audio_existe": true,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "repaso N16 · palabras_basico1 n°36 · clip existente"
+      }
+    ],
+    "items": [
+      {
+        "id": "N20-01",
+        "tipo": "ordena",
+        "enunciado": "Preséntate como Mateo, de México. Ordena las 4 frases: [반갑습니다.] [멕시코 사람이에요.] [안녕하세요!] [저는 마테오예요.]",
+        "respuesta": "안녕하세요! 저는 마테오예요. 멕시코 사람이에요. 반갑습니다.",
+        "distractores": [
+          "저는 마테오예요. 안녕하세요! 멕시코 사람이에요. 반갑습니다. (orden equivocado típico)"
+        ],
+        "explicacion_error": "Una presentación va así: saludo, nombre, país y 반갑습니다 para cerrar. 마테오 termina en vocal → 예요, y 사람 termina en ㅁ → 이에요.",
+        "audio_texto": "안녕하세요! 저는 마테오예요. 멕시코 사람이에요. 반갑습니다",
+        "audio_existe": false,
+        "pronunciacion": "[안녕하세요! 저는 마테오예요. 멕씨코 사라미에요. 반갑씀니다]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°16, n°30, n°24, n°21 · lista cerrada de nombres (마테오)"
+      },
+      {
+        "id": "N20-02",
+        "tipo": "copula",
+        "enunciado": "Valentina se presenta: 안녕하세요! 저는 발렌티나 + ___",
+        "respuesta": "예요 → 안녕하세요! 저는 발렌티나예요.",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "나 = ㄴ+ㅏ termina en vocal → 예요. La ㄴ de 렌 está en el medio; manda el final.",
+        "audio_texto": "안녕하세요! 저는 발렌티나예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo · lista cerrada de nombres (발렌티나)"
+      },
+      {
+        "id": "N20-03",
+        "tipo": "copula",
+        "enunciado": "Gabriel se presenta: 저는 가브리엘 + ___",
+        "respuesta": "이에요 → 저는 가브리엘이에요.",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "엘 termina en ㄹ → 이에요. La ㄹ salta como r suave: [가브리에리에요].",
+        "audio_texto": "저는 가브리엘이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 가브리에리에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · lista cerrada de nombres (가브리엘)"
+      },
+      {
+        "id": "N20-04",
+        "tipo": "copula",
+        "enunciado": "[dibujo: un chico en una calle de Bukchon, frente a un hanok, se señala el pecho] Él dice que es coreano: 저는 한국 사람 + ___",
+        "respuesta": "이에요 → 저는 한국 사람이에요.",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "Con 사람 siempre 이에요: 람 termina en ㅁ. Suena [한국싸라미에요].",
+        "audio_texto": "저는 한국 사람이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 한국싸라미에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · palabras_basico1 n°22, n°21"
+      },
+      {
+        "id": "N20-05",
+        "tipo": "ordena",
+        "enunciado": "Juan responde a 이름이 뭐예요? Ordena (sobra un bloque): [후안] [예요.] [저는] [이에요.]",
+        "respuesta": "저는 후안이에요.",
+        "distractores": [
+          "[예요.] (bloque que sobra)"
+        ],
+        "explicacion_error": "후안 termina en ㄴ → 이에요, y la ㄴ salta: [후아니에요]. Es un nombre que no habías visto, pero la regla es la misma.",
+        "audio_texto": "저는 후안이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 후아니에요]",
+        "romanizacion": "",
+        "fuente": "nuevo · lista cerrada de nombres (후안)"
+      },
+      {
+        "id": "N20-06",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha y elige el dibujo.",
+        "respuesta": "[dibujo: una médica con bata blanca y estetoscopio]",
+        "distractores": [
+          "[dibujo: un estudiante con mochila y cuadernos]",
+          "[dibujo: un hombre con corbata y notebook]",
+          "[dibujo: una profesora frente a una pizarra]"
+        ],
+        "explicacion_error": "의사 = médico o médica. 사 termina en vocal → 의사예요.",
+        "audio_texto": "의사예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°37 (escucha)"
+      },
+      {
+        "id": "N20-07",
+        "tipo": "reconoce",
+        "enunciado": "Escucha y elige: ¿de dónde es?",
+        "respuesta": "De Colombia.",
+        "distractores": [
+          "De Chile.",
+          "De México.",
+          "De Corea."
+        ],
+        "explicacion_error": "콜롬비아 = Colombia, y 콜롬비아 사람 = persona de Colombia. Escucha la l larga de 콜롬.",
+        "audio_texto": "저는 콜롬비아 사람이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 콜롬비아 사라미에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°25 (escucha)"
+      },
+      {
+        "id": "N20-08",
+        "tipo": "escucha-imagen",
+        "enunciado": "Escucha y elige el dibujo de lo que SÍ es.",
+        "respuesta": "[dibujo: un celular]",
+        "distractores": [
+          "[dibujo: un reloj]",
+          "[dibujo: un libro]",
+          "[dibujo: una silla]"
+        ],
+        "explicacion_error": "Primero dice lo que NO es (시계가 아니에요) y después lo que SÍ es: 휴대폰이에요 [휴대포니에요].",
+        "audio_texto": "시계가 아니에요. 휴대폰이에요",
+        "audio_existe": false,
+        "pronunciacion": "[시계가 아니에요. 휴대포니에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°46, n°47 (escucha)"
+      },
+      {
+        "id": "N20-09",
+        "tipo": "reconoce",
+        "enunciado": "Escucha la pregunta y elige la respuesta que corresponde.",
+        "respuesta": "한국 사람이에요.",
+        "distractores": [
+          "저는 소피아예요.",
+          "네, 학생이에요.",
+          "아니요, 책이 아니에요."
+        ],
+        "explicacion_error": "Te preguntan de qué país eres (나라 = país), así que respondes con tu país + 사람: 한국 사람이에요.",
+        "audio_texto": "어느 나라 사람이에요?",
+        "audio_existe": false,
+        "pronunciacion": "[어느 나라 사라미에요]",
+        "romanizacion": "",
+        "fuente": "fórmula N16 (escucha)"
+      },
+      {
+        "id": "N20-10",
+        "tipo": "copula",
+        "enunciado": "Transferencia (palabra de la semana 1 que nunca usaste con esta regla). [dibujo: un gorro de lana] 모자 + ___",
+        "respuesta": "예요 → 모자예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "자 = ㅈ+ㅏ termina en vocal → 예요. La regla sirve para TODAS las palabras, también las que nunca practicaste.",
+        "audio_texto": "모자예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°8 모자 (semana 1) · transferencia"
+      },
+      {
+        "id": "N20-11",
+        "tipo": "copula",
+        "enunciado": "Transferencia. [dibujo: un árbol frondoso junto a un hanok] 나무 + ___",
+        "respuesta": "예요 → 나무예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "무 = ㅁ+ㅜ termina en vocal → 예요: 나무예요.",
+        "audio_texto": "나무예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°6 나무 (semana 1) · transferencia"
+      },
+      {
+        "id": "N20-12",
+        "tipo": "copula",
+        "enunciado": "Transferencia. [dibujo: en Bukchon, el tigre toca con la pata las letras coreanas de un cartel que tiene justo al lado] 이게 뭐예요? — 한글 + ___",
+        "respuesta": "이에요 → 한글이에요",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "글 = ㄱ+ㅡ+ㄹ termina en ㄹ → 이에요. La ㄹ salta como r suave: [한그리에요].",
+        "audio_texto": "한글이에요",
+        "audio_existe": false,
+        "pronunciacion": "[한그리에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°15 한글 (tipo T, semana 1; lo propone el plan §3) · transferencia"
+      },
+      {
+        "id": "N20-13",
+        "tipo": "copula",
+        "enunciado": "Transferencia. [dibujo: el tigre muestra un vaso de agua y pregunta 우유예요?] 아니요, 물 + ___",
+        "respuesta": "이에요 → 아니요, 물이에요.",
+        "distractores": [
+          "예요"
+        ],
+        "explicacion_error": "물 = ㅁ+ㅜ+ㄹ: aunque sea una sola sílaba, tiene ㄹ abajo → 이에요. Suena [무리에요].",
+        "audio_texto": "아니요, 물이에요",
+        "audio_existe": false,
+        "pronunciacion": "[아니요, 무리에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°42 물 (semana 3; se leyó en el nivel 8) · transferencia"
+      },
+      {
+        "id": "N20-14",
+        "tipo": "copula",
+        "enunciado": "Transferencia. [dibujo: un pepino] 오이 + ___",
+        "respuesta": "예요 → 오이예요",
+        "distractores": [
+          "이에요"
+        ],
+        "explicacion_error": "La ㅇ de 이 está ARRIBA y es muda; abajo no hay nada, así que 오이 termina en la vocal ㅣ → 예요. Ese 이 es parte de la palabra (오+이), por eso aquí 오이예요 sí está bien escrito.",
+        "audio_texto": "오이예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°5 오이 (semana 1) · transferencia"
+      },
+      {
+        "id": "N20-15",
+        "tipo": "copula",
+        "enunciado": "Variante 이/가 + 아니에요. [dibujo: el tigre muestra un paraguas y pregunta 이거 가방이에요?] 아니요, 가방 + ___ 아니에요. 우산이에요. (Elige 이 o 가.)",
+        "respuesta": "이 → 아니요, 가방이 아니에요. 우산이에요.",
+        "distractores": [
+          "가"
+        ],
+        "explicacion_error": "방 termina en ㅇ (받침) → 이: 가방이 아니에요. Esa ㅇ no salta: suena ng.",
+        "audio_texto": "아니요, 가방이 아니에요. 우산이에요",
+        "audio_existe": false,
+        "pronunciacion": "[아니요, 가방이 아니에요. 우사니에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°45, n°50 · repaso N18"
+      },
+      {
+        "id": "N20-16",
+        "tipo": "reconoce",
+        "enunciado": "[dibujo: Sofía y su amigo miran, desde lejos, un puesto de 붕어빵 al otro lado de la calle] ¿Qué pregunta Sofía?",
+        "respuesta": "저게 뭐예요?",
+        "distractores": [
+          "이게 뭐예요?",
+          "그게 뭐예요?"
+        ],
+        "explicacion_error": "El puesto está lejos de los dos → 저: 저게 뭐예요?",
+        "audio_texto": "저게 뭐예요?",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "repaso N17 · palabras_basico1 n°54"
+      },
+      {
+        "id": "N20-17",
+        "tipo": "dos-formas",
+        "enunciado": "Ortografía. ¿Cuál está bien escrita?",
+        "respuesta": "학생이에요",
+        "distractores": [
+          "학생이예요"
+        ],
+        "explicacion_error": "Después de 받침 se escribe 이에요, nunca 이예요. Suena [학쌩이에요].",
+        "audio_texto": "학생이에요",
+        "audio_existe": false,
+        "pronunciacion": "[학쌩이에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°26 · ortografía N19"
+      },
+      {
+        "id": "N20-18",
+        "tipo": "dos-formas",
+        "enunciado": "Ortografía. ¿Cuál está bien escrita?",
+        "respuesta": "휴대폰이 아니에요",
+        "distractores": [
+          "휴대폰이 아니예요"
+        ],
+        "explicacion_error": "아니에요 viene de 아니다 y siempre va con 에: nunca *아니예요.",
+        "audio_texto": "휴대폰이 아니에요",
+        "audio_existe": false,
+        "pronunciacion": "[휴대포니 아니에요]",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°47 · ortografía N19"
+      },
+      {
+        "id": "N20-19",
+        "tipo": "dos-formas",
+        "enunciado": "Ortografía. Tu amigo pregunta quién toca la puerta. Respondes «¡Soy yo!»: ¿cuál está bien escrita?",
+        "respuesta": "저예요!",
+        "distractores": [
+          "저에요!"
+        ],
+        "explicacion_error": "저 termina en vocal → 예요. Suena casi [저에요], pero se escribe 저예요.",
+        "audio_texto": "저예요",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "palabras_basico1 n°20 · ortografía N19"
+      },
+      {
+        "id": "N20-20",
+        "tipo": "dictado",
+        "enunciado": "Dictado final: escribe lo que oyes (con teclado o con bloques).",
+        "respuesta": "저는 이사벨이에요. 칠레 사람이에요.",
+        "distractores": [],
+        "explicacion_error": "Suena [이사베리에요] y [사라미에요], pero se escribe la forma completa: 이사벨 + 이에요 y 사람 + 이에요.",
+        "audio_texto": "저는 이사벨이에요. 칠레 사람이에요",
+        "audio_existe": false,
+        "pronunciacion": "[저는 이사베리에요. 칠레 사라미에요]",
+        "romanizacion": "",
+        "fuente": "lista cerrada de nombres (이사벨) · palabras_basico1 n°23, n°21"
+      },
+      {
+        "id": "N20-D0",
+        "tipo": "tarjeta",
+        "enunciado": "Dicho del barrio Bukchon (no puntúa). [ilustración: el tigre acostado en el 마루 de madera de un hanok de Bukchon, comiendo un 떡 sin ningún esfuerzo; tonos azul, navy y oro] 누워서 떡 먹기. Literal: «comer 떡 acostado». Significa: algo facilísimo. Equivalente hispano (total): «es pan comido».",
+        "respuesta": "(tarjeta de lectura)",
+        "distractores": [],
+        "explicacion_error": "",
+        "audio_texto": "누워서 떡 먹기",
+        "audio_existe": false,
+        "pronunciacion": "[누워서 떵먹끼]",
+        "romanizacion": "",
+        "fuente": "dicho tradicional (속담), dominio público · lo propone el plan §3"
+      },
+      {
+        "id": "N20-D1",
+        "tipo": "reconoce",
+        "enunciado": "Dicho (no cuenta para el 80 %). Completa: 누워서 ___ 먹기",
+        "respuesta": "떡",
+        "distractores": [
+          "빵",
+          "밥"
+        ],
+        "explicacion_error": "En español decimos «pan comido», pero en coreano se come 떡, un pastelito de arroz: 누워서 떡 먹기.",
+        "audio_texto": "누워서 떡 먹기",
+        "audio_existe": false,
+        "pronunciacion": "[누워서 떵먹끼]",
+        "romanizacion": "",
+        "fuente": "dicho tradicional · nuevo"
+      },
+      {
+        "id": "N20-D2",
+        "tipo": "reconoce",
+        "enunciado": "Dicho (no cuenta para el 80 %). ¿En qué situación dirías 누워서 떡 먹기?",
+        "respuesta": "Cuando algo te resulta facilísimo.",
+        "distractores": [
+          "Cuando tienes mucho sueño.",
+          "Cuando comiste demasiado."
+        ],
+        "explicacion_error": "El dicho no habla de comer ni de dormir: dice que algo es tan fácil como comer 떡 acostado.",
+        "audio_texto": "",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo"
+      },
+      {
+        "id": "N20-D3",
+        "tipo": "reconoce",
+        "enunciado": "Dicho (no cuenta para el 80 %). ¿Qué refrán en español dice lo mismo?",
+        "respuesta": "Es pan comido.",
+        "distractores": [
+          "Más vale tarde que nunca.",
+          "Al que madruga, Dios lo ayuda."
+        ],
+        "explicacion_error": "Equivalente total: los dos dicen que algo es muy fácil. ¡Como presentarte en coreano ahora!",
+        "audio_texto": "",
+        "audio_existe": false,
+        "pronunciacion": "",
+        "romanizacion": "",
+        "fuente": "nuevo"
+      }
+    ],
+    "ojo": "Las 5 palabras de transferencia (모자, 나무, 한글, 물, 오이) nunca las habías usado con 이에요/예요: las resolviste con la regla, no de memoria. Eso es leer coreano de verdad.",
+    "cierre": "PARA PASAR: 80 % al primer intento en los 20 ítems (las 3 preguntas del dicho no cuentan). Si no llega: «Repasa los niveles X e Y» (los 2–3 niveles de origen de los ítems fallados, por ejemplo 13 y 18) y reintento inmediato con otra semilla; nunca se pierde lo ganado. AL PASAR: (1) Sello honesto del barrio: «Bukchon · 예요/이에요 — lectura, escucha y escritura guiada de los temas de las semanas 1 a 3 de Básico 1 (A1.1); el habla se practica en clase» (nunca «eres A1»). (2) Tarjeta para compartir 1080×1350, «Llegué al nivel 20 · 호랑이 100»: el tigre frente a un hanok de Bukchon, la frase «Ya me presento en coreano: 안녕하세요! 저는 ___예요/이에요. 반갑습니다!», las estrellas del barrio y academiaseul.com/tigre; sin precio y sin el nombre del jugador. (3) Encuesta anónima de 4 preguntas, opcional. (4) Pantalla de candados, sin popups: el mapa muestra los niveles 21–100 con su título y su objetivo y un candado, con el texto «Desde el 21, Tigre 100 es para alumnos de Academia Seúl». Mensaje: «¡Lo lograste! Lo que acabas de jugar es lo que se ve en las semanas 2 y 3 de Básico 1. En clase lo dices en voz alta, con profe y compañeros, y sigues con la familia, los números y el ¿dónde está? (niveles 21–30)». Botones: «Tengo llave» y el llamado que decide /api/cursos (que lee lib/nivel1.ts): con la matrícula abierta, «Quiero Básico 1 en vivo» → academiaseul.com/inscribete?clase=a11-martes o ?clase=a11-jueves; con la matrícula cerrada, «Avísame cuando abra Básico 1» → /notificarme. Si la pantalla muestra horario, profe o precio, salen de /api/cursos ← lib/nivel1.ts: el juego no los escribe. Repaso del día, Mis difíciles y la Mochila (flashcards S1–S3, Lector Aprender 6) siguen abiertos y gratis."
+  }
+]

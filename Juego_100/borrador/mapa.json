@@ -1,0 +1,1870 @@
+[
+  {
+    "n": 0,
+    "barrio": "Incheon (인천) · Llegada",
+    "titulo": "Llegada a Incheon · ¿desde dónde partes?",
+    "curso_semana": "Puerta gratis, antes de Básico 1 (Básico 1 S1 = mar 13 / jue 15 oct). Enlaza a /test-nivel; no lo reemplaza",
+    "nuevo": [
+      "Primer contacto con 아 y 우유 (se enseñan de verdad en el nivel 1)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce"
+    ],
+    "clase": "puerta",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 1,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "Las 6 vocales y la ㅇ muda",
+    "curso_semana": "Básico 1 (A1.1) · S1 (mar 13 / jue 15 oct) · Lector Aprender 2 · Dubu 1-1 a 1-5",
+    "nuevo": [
+      "ㅇ muda al inicio de la sílaba (la silla vacía)",
+      "Vocales base ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ: ㅗ y ㅜ redondean los labios; ㅓ y ㅡ, no",
+      "Vocal parada → a la derecha; vocal acostada → abajo"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "construye"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 2,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "Una rayita más = y · el oído ㅓ/ㅗ y ㅡ/ㅜ",
+    "curso_semana": "Básico 1 · S1 (13/15 oct) · Dubu 1 (pares al oído)",
+    "nuevo": [
+      "Una rayita más agrega una 'y': ㅑ ㅕ ㅛ ㅠ",
+      "Oído ㅓ/ㅗ: labios relajados o redondos",
+      "Oído ㅡ/ㅜ: sonrisa o labios hacia adelante"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "pares",
+      "construye"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 3,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "Consonantes I: fotos de la boca (ㄱ ㄴ ㄷ ㄹ ㅁ)",
+    "curso_semana": "Básico 1 · S1 (13/15 oct) · Lector Aprender 3 y 5 · Dubu 2 (Insadong)",
+    "nuevo": [
+      "ㄱ ㄴ ㅁ: fotos de la boca (lengua atrás, punta arriba, labios)",
+      "ㄷ = ㄴ + un trazo (d suave)",
+      "ㄹ = r suave de 'pero' (nunca rr)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "arma-tablero",
+      "construye"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 4,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "Consonantes II: ㅂ ㅅ ㅈ ㅎ (la ㅈ nunca es jota)",
+    "curso_semana": "Básico 1 · S1 (13/15 oct) · Dubu 2",
+    "nuevo": [
+      "ㅂ: b suave (ㅁ con dos orejitas)",
+      "ㅅ (s) y ㅈ (ㅅ + un trazo = ch suave, nunca jota)",
+      "ㅎ: puro aire, como una jota muy suave"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "arma-tablero",
+      "construye"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 5,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "Repaso mezclado: arma bloques al lado o abajo",
+    "curso_semana": "Básico 1 · S1 (13/15 oct) · equivale a los barrios 1–2 de Dubu",
+    "nuevo": [],
+    "tipos": [
+      "arma-tablero",
+      "construye",
+      "corre"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 6,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "Aire o apretón: 가 · 카 · 까",
+    "curso_semana": "Básico 1 · S1–S2 (aspiradas en S1; tensas en S2, mar 20 / jue 22 oct) · Lector Aprender 4 · Dubu 4 (Gwangjang)",
+    "nuevo": [
+      "Aspiradas ㅋ ㅌ ㅍ ㅊ: un trazo más = más aire",
+      "Tensas ㄲ ㄸ ㅃ ㅆ ㅉ: letra doble = apretón, sin aire"
+    ],
+    "tipos": [
+      "tarjeta",
+      "pares",
+      "reconoce",
+      "construye"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 7,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "Dos vocales en una (ㅐ ㅔ ㅖ ㅚ ㅟ ㅘ ㅝ ㅢ)",
+    "curso_semana": "Básico 1 · S2 (20/22 oct)",
+    "nuevo": [
+      "ㅐ y ㅔ hoy suenan igual ('e'); ㅖ = 'ye'",
+      "ㅘ ㅝ ㅚ ㅟ: ㅗ/ㅜ + otra vocal, de un solo golpe (wa, wo, we, wi)",
+      "ㅢ = ㅡ + ㅣ, de un golpe (의)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "construye",
+      "corre"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 8,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "받침: el piso de abajo y sus 7 sonidos",
+    "curso_semana": "Básico 1 · S2 (20/22 oct) · Lector Aprender 6 'El truco del batchim' · Dubu 3 (Hongdae)",
+    "nuevo": [
+      "받침: la consonante de abajo (después no hay vocal)",
+      "Solo 7 sonidos finales: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ (옷 [옫], 꽃 [꼳], 부엌 [부억])",
+      "ㅇ abajo = ng; ㄴ abajo = n"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "construye",
+      "pares"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 9,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "Así se dice y se escribe: saludos, teclado y tu nombre",
+    "curso_semana": "Básico 1 · S1–S2 (13–22 oct): saludos y teclado en S1, presentación en S2",
+    "nuevo": [
+      "Saludos como bloque: 안녕하세요, 감사합니다 [감사함니다], 반갑습니다 [반갑씀니다], 안녕히 가세요 / 안녕히 계세요, 화이팅",
+      "Teclado 두벌식: consonantes con la mano izquierda, vocales con la derecha",
+      "Tu nombre en 한글 se escribe como suena"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "construye"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 10,
+    "barrio": "Gwanghwamun (광화문)",
+    "titulo": "JEFE · Ya leo Hangul",
+    "curso_semana": "Básico 1 · cierre de S2 (20/22 oct) · CTA: 'Esto es la semana 1–2 de Básico 1'",
+    "nuevo": [
+      "Dicho del barrio: 시작이 반이다 (se aprende como bloque)"
+    ],
+    "tipos": [
+      "reconoce",
+      "construye",
+      "pares",
+      "arma-tablero"
+    ],
+    "clase": "jefe",
+    "dicho": "시작이 반이다 · 'empezar ya es la mitad' (equivalente parcial propuesto: 'obra empezada, medio acabada')",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 11,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "Detector de 받침",
+    "curso_semana": "Básico 1 · S2 (20/22 oct) · Lector Aprender 6",
+    "nuevo": [
+      "Detector de 받침: se mira solo la ÚLTIMA sílaba y se desarma (책 = ㅊ+ㅐ+ㄱ)",
+      "La ㅇ de abajo SÍ es 받침 (suena ng); la ㅇ de arriba es muda y no cuenta"
+    ],
+    "tipos": [
+      "tarjeta",
+      "clasifica-batchim",
+      "reconoce"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 12,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "예요: después de vocal",
+    "curso_semana": "Básico 1 · S2 (20/22 oct)",
+    "nuevo": [
+      "N + 예요 = “es ___” (también “soy”, “eres”, “son”): va AL FINAL y pegado a la palabra",
+      "예요 solo después de vocal (sin 받침); se escribe con ㅖ"
+    ],
+    "tipos": [
+      "tarjeta",
+      "copula",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 13,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "이에요: después de 받침",
+    "curso_semana": "Básico 1 · S2 (20/22 oct); la notación [ ] del curso arranca en S3",
+    "nuevo": [
+      "N + 이에요 después de 받침",
+      "Enlace de sonido (연음): el 받침 salta a la ㅇ de 이에요 (책이에요 [채기에요])",
+      "La ㅇ final no salta: 가방이에요 se lee tal cual"
+    ],
+    "tipos": [
+      "tarjeta",
+      "copula",
+      "escucha-imagen",
+      "clasifica-batchim"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 14,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "¿예요 o 이에요?",
+    "curso_semana": "Básico 1 · S2 (20/22 oct) · nivel de ejemplo del plan (§4)",
+    "nuevo": [
+      "Mezcla: elegir 예요 o 이에요 sin saber de antemano cuál toca",
+      "Nombres hispanos en 한글 con 예요/이에요: manda cómo termina el nombre en 한글 (루카스예요, 다니엘이에요)",
+      "저는 ___ como bloque fijo (“yo...” al presentarte; se explica en el nivel 16)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "copula",
+      "escucha-imagen",
+      "ordena",
+      "dos-formas"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 15,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "Repaso mezclado · Hangul + 예요/이에요",
+    "curso_semana": "Básico 1 · S2 (20/22 oct)",
+    "nuevo": [],
+    "tipos": [
+      "reconoce",
+      "clasifica-batchim",
+      "copula"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 16,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "저는 칠레 사람이에요 · País y profesión",
+    "curso_semana": "Básico 1 · S2 (20/22 oct) · frase clave 안녕하세요! 저는 ___예요/이에요.",
+    "nuevo": [
+      "País + 사람 = nacionalidad: con 사람 siempre va 이에요, aunque el país termine en vocal",
+      "Profesiones con 예요/이에요: 학생, 선생님, 회사원, 의사",
+      "Fórmulas para preguntar: 이름이 뭐예요? · 어느 나라 사람이에요? (저는 sigue como bloque fijo)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "copula",
+      "ordena",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 17,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "이게 뭐예요? · ¿Qué es esto?",
+    "curso_semana": "Básico 1 · S3 (27/29 oct) · frase clave 이게 뭐예요?",
+    "nuevo": [
+      "이게/그게/저게 뭐예요? como fórmula (¿qué es esto/eso/aquello?)",
+      "이거/그거/저거: cerca de mí / cerca de ti / lejos de los dos",
+      "여기/거기/저기 con la cópula: 여기예요! (¡aquí!) · 저기예요! (¡es allá!)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escucha-imagen",
+      "copula",
+      "reconoce"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 18,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "빵이 아니에요 · No es + 네/아니요",
+    "curso_semana": "Básico 1 · S3 (27/29 oct)",
+    "nuevo": [
+      "N이/가 아니에요 = no es: 이 después de 받침, 가 después de vocal (solo dentro de este marco fijo)",
+      "네 / 아니요 para responder preguntas de sí o no (이거 빵이에요? con tono de pregunta)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "copula",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 19,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "Así se dice y se escribe · Bukchon",
+    "curso_semana": "Básico 1 · S2–S3 (20–29 oct)",
+    "nuevo": [
+      "Ortografía: después de 받침, 이에요 (nunca *이예요: 책이에요, no *책이예요), 아니에요 (nunca *아니예요), 저예요 y 뭐예요 (nunca *저에요 ni *뭐에요)",
+      "연음 (enlace): el 받침 salta a la vocal que sigue: 이름이 [이르미], 한국어 [한구거]",
+      "저예요 = soy yo (para decir quién es)"
+    ],
+    "tipos": [
+      "dos-formas",
+      "reconoce",
+      "dictado"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 20,
+    "barrio": "Bukchon (북촌)",
+    "titulo": "JEFE · Preséntate",
+    "curso_semana": "Básico 1 · S3 (27/29 oct) · cierre de la parte gratis (0–20 publicado el lun 26 oct)",
+    "nuevo": [],
+    "tipos": [
+      "ordena",
+      "escucha-imagen",
+      "copula",
+      "dos-formas"
+    ],
+    "clase": "jefe",
+    "dicho": "누워서 떡 먹기 · 'comer tteok acostado' = 'pan comido' (equivalente total)",
+    "notas": "detalle ítem por ítem en 01_Diseno_Niveles_0-20.md"
+  },
+  {
+    "n": 21,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "La familia según quién habla",
+    "curso_semana": "Básico 1 · S4 (mar 3 / jue 5 nov) · mitad del curso · frase clave 누구예요?",
+    "nuevo": [
+      "Familia según quién habla: 언니/누나, 오빠/형, 동생, 엄마, 아빠, 할머니, 할아버지",
+      "우리 + N ('mi' familia = 우리)",
+      "누구예요? — 우리 ___예요/이에요"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escucha-imagen",
+      "reconoce",
+      "copula"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "Ítem '¿quién habla, Sofía o Mateo?' (nombres de la lista cerrada). Desde aquí no existe la romanización (la prueba lo verifica). t21-30 se publica el lun 9 nov con llave. Audio: 10/11; falta 우리 언니예요 (sí existe 우리 엄마예요, úsala de ancla)."
+  },
+  {
+    "n": 22,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "은/는 en marcos fijos + 이분 / 이 사람",
+    "curso_semana": "Básico 1 · S4 (3/5 nov)",
+    "nuevo": [
+      "은/는 elegido por el 받침 dentro de marcos fijos (la función se ve en el 41)",
+      "이분 (respetuoso) / 이 사람 (amigos, misma edad)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "particula",
+      "ordena",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "이분은 우리 할머니예요 · 이 사람은 마르코예요 (plan). ⚑ 마르코 no está en la lista cerrada de nombres: usar 이 사람은 마테오예요 o sumar 마르코 a la lista. Matiz: a la propia madre no se le dice 이 사람 (우리 엄마예요 señalando la foto). particula = bandeja 은/는 (tipo de F3). Audio: 1/3 (이분은 우리 할머니예요)."
+  },
+  {
+    "n": 23,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "Números sino-coreanos 1–100 + 공",
+    "curso_semana": "Básico 1 · S4 (3/5 nov) · Lector Aprender 7 + Practicar Números",
+    "nuevo": [
+      "Sino-coreanos 일…십 y su armado hasta 100 (이십칠, 백)",
+      "공 para el teléfono",
+      "십육 [심뉵]"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "dictado",
+      "corre"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "Números en tres direcciones (escucha ↔ cifra ↔ hangul); con tiempo solo en Corre (opcional). Frase: 전화번호는 구, 일이삼사, 오육칠팔이에요 (número inventado, formato chileno). ⚑ Regla 'nunca números con la cópula': la frase va como frase fija revisada, nunca como ítem copula. Audio: 7/8; falta la frase del teléfono."
+  },
+  {
+    "n": 24,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "Nativos 1–5 + 명",
+    "curso_semana": "Básico 1 · S4 (3/5 nov)",
+    "nuevo": [
+      "Nativos 하나–다섯 → 한/두/세/네/다섯 + 명 (solo personas)",
+      "몇 명이에요?"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "escucha-imagen",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "우리 가족은 네 명이에요 (은/는 del 22). Edad, hora y nativos completos quedan para el 43. 네 명 y 내 suenan igual (ㅔ = ㅐ). Audio: 7/7."
+  },
+  {
+    "n": 25,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "REPASO mezclado: cópula, 은/는 y números",
+    "curso_semana": "Básico 1 · S4 (3/5 nov) · chequeo de mitad de curso",
+    "nuevo": [],
+    "tipos": [
+      "copula",
+      "particula",
+      "reconoce"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "15 preguntas: mitad 21–24 y mitad vencidas de 0–20 (cópula, 아니에요, 받침), con el aviso 'es normal fallar más'."
+  },
+  {
+    "n": 26,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "Lugares + 어디예요?",
+    "curso_semana": "Básico 1 · S5 (mar 10 / jue 12 nov) · frase clave 집이 어디예요?",
+    "nuevo": [
+      "어디예요? (어디 + 예요)",
+      "Lugares: 집, 학교, 회사, 병원, 카페, 식당, 화장실, 은행, 공원, 지하철역",
+      "N이/가 어디예요? como marco fijo (이/가 ya visto en el 18)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escucha-imagen",
+      "reconoce",
+      "copula"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "Respuestas con cópula solo con palabras N: 저기예요, 여기예요, 학교예요. ⚑ 집이 어디예요? — 산티아고예요 (Básico 1 S5) usa una ciudad con la cópula: fuera de los ítems copula salvo que Jay apruebe una lista cerrada de ciudades. 식당 [식땅], 학교 [학꾜]. Audio: 10/11 (las 10 palabras); faltan 집이 어디예요?, 저기예요 y 여기예요."
+  },
+  {
+    "n": 27,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "이/가 + 있어요/없어요",
+    "curso_semana": "Básico 1 · S5 (10/12 nov) · frase clave 화장실이 어디예요?",
+    "nuevo": [
+      "이/가 como partícula de sujeto con 있어요/없어요",
+      "있어요 [이써요] / 없어요 [업써요] = está / no está",
+      "저기요! (¡disculpe!) ≠ 저기 (allá)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "particula",
+      "escucha-imagen",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "화장실이 어디예요? — 저기 있어요. Bandeja 이/가 con formas especiales como ítems propios (제가, 누가; aquí solo se reconocen). Audio: 3/5; faltan 있어요 y 없어요 sueltos."
+  },
+  {
+    "n": 28,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "Posiciones 위·아래·앞·뒤·옆·안",
+    "curso_semana": "Básico 1 · S5 (10/12 nov)",
+    "nuevo": [
+      "Posiciones 위, 아래, 앞, 뒤, 옆, 안",
+      "N에 = lugar donde está algo: 책상 위에 있어요"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escena",
+      "escucha-imagen",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "책이 책상 위에 있어요 · 옆에 [여페], 앞에 [아페]. Escena: toca en la ilustración dónde está el 책 (tipo escena, plan §7). Audio: 7/9; faltan 옆에 y 앞에."
+  },
+  {
+    "n": 29,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "Así se dice y se escribe",
+    "curso_semana": "Básico 1 · S5 (10/12 nov) + fórmulas de supervivencia (orden de octubre, pregunta 4)",
+    "nuevo": [
+      "3번 출구 [삼번 출구]: orientarse por la salida del metro",
+      "Supervivencia como fórmulas: 이거 주세요, 물 주세요, 이거 얼마예요?, 천 원, 만 원",
+      "Pronunciación de números + dictado"
+    ],
+    "tipos": [
+      "dos-formas",
+      "reconoce",
+      "dictado"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "Fórmulas sin análisis: 주세요 tendrá regla en el 68; 천 y 만 van como bloques porque los números solo llegan a 100. Si en diciembre se adopta el orden de enero, este nivel se reordena en mapa.json. Audio: 0/6 (faltan todas)."
+  },
+  {
+    "n": 30,
+    "barrio": "Estación de Seúl (서울역)",
+    "titulo": "JEFE 'Perdido en Seúl'",
+    "curso_semana": "Básico 1 · cierre de S5 (10/12 nov)",
+    "nuevo": [],
+    "tipos": [
+      "escena",
+      "ordena",
+      "particula",
+      "escucha-imagen"
+    ],
+    "clase": "jefe",
+    "dicho": "호랑이도 제 말 하면 온다 · 'hasta el tigre aparece si hablas de él' = 'hablando del rey de Roma' (equivalente total); lo presenta el tigre",
+    "notas": "Encuentra el baño y la salida 3; presenta a tu familia en 4 frases. ≥5 de transferencia (objetos de la S3 nunca usados con posiciones: 우산이 의자 아래에 있어요, 휴대폰이 가방 안에 있어요), 4 de escucha, 2 de ortografía. 80 % abre el 31. Audio: falta el clip del dicho."
+  },
+  {
+    "n": 31,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "Verbos de todos los días",
+    "curso_semana": "Básico 1 · S6 (mar 17 / jue 19 nov)",
+    "nuevo": [
+      "Forma de diccionario: raíz + 다",
+      "8 verbos con ilustración: 가다, 오다, 먹다, 마시다, 보다, 자다, 쉬다, 일어나다"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escucha-imagen",
+      "reconoce",
+      "corre"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "Solo vocabulario: todavía no se conjuga. t31-40 se publica el lun 23 nov. Audio: 8/8."
+  },
+  {
+    "n": 32,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "La máquina -아요/어요",
+    "curso_semana": "Básico 1 · S6 (17/19 nov) · frase clave 어디에 가요?",
+    "nuevo": [
+      "Presente -아요/어요: ㅏ/ㅗ → 아요; el resto → 어요",
+      "Formas declaradas: 가요, 봐요, 와요"
+    ],
+    "tipos": [
+      "tarjeta",
+      "conjuga",
+      "reconoce",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "먹어요 [머거요], 읽어요 [일거요] (읽다 es de la S7: se acepta como vocabulario). Contracciones e irregulares declarados en lista, nunca adivinados. conjuga (F3): la raíz y la terminación se funden con animación al estilo Dubu. Audio: 0/5 (faltan todas)."
+  },
+  {
+    "n": 33,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "하다 → 해요 + contracciones",
+    "curso_semana": "Básico 1 · S6–S7 (17–26 nov)",
+    "nuevo": [
+      "하다 → 해요: 공부해요, 일해요, 운동해요",
+      "Contracción con ㅣ/ㅜ: 마셔요, 배워요",
+      "Formas fijas: 써요, 들어요"
+    ],
+    "tipos": [
+      "tarjeta",
+      "conjuga",
+      "reconoce",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "Básico 1 sistematiza la contracción ㅣ/ㅜ en la S7: el nivel la adelanta unos días. La regla de 써요 y 들어요 llega en el 47. Audio: 0/7 (faltan todas)."
+  },
+  {
+    "n": 34,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "N에 가요/와요 + hoy, siempre, ahora",
+    "curso_semana": "Básico 1 · S6 (17/19 nov)",
+    "nuevo": [
+      "N에 가요 / 와요 (에 de destino)",
+      "오늘 / 매일 / 지금 al inicio, sin partícula",
+      "그리고 ('y') entre dos frases"
+    ],
+    "tipos": [
+      "tarjeta",
+      "ordena",
+      "particula",
+      "conjuga"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "어디에 가요? — 회사에 가요 · 매일 커피 마셔요 (objeto sin partícula: 을/를 llega en el 37). Audio: 6/7; falta 매일 커피 마셔요."
+  },
+  {
+    "n": 35,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "REPASO mezclado: conjugación, cópula e 이/가",
+    "curso_semana": "Básico 1 · S6–S7",
+    "nuevo": [],
+    "tipos": [
+      "conjuga",
+      "copula",
+      "particula"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "15 preguntas: mitad 31–34 y mitad vencidas de 11–30."
+  },
+  {
+    "n": 36,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "있어요/없어요 = hay / no hay",
+    "curso_semana": "Básico 1 · S7 (24/26 nov) · frase clave 방에 침대가 있어요.",
+    "nuevo": [
+      "N에 N이/가 있어요/없어요 = hay / no hay (describir un lugar)",
+      "Mi pieza: 방, 침대, 창문, 텔레비전, 그림"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escena",
+      "particula",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "방에 침대가 있어요 · 창문이 없어요 [창무니]. Tarjeta del 온돌 (calefacción bajo el piso: por eso se entra sin zapatos). Audio: 1/2; falta 창문이 없어요."
+  },
+  {
+    "n": 37,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "을/를 por el 받침",
+    "curso_semana": "Básico 1 · S7 (24/26 nov)",
+    "nuevo": [
+      "을/를 (objeto directo): 을 tras 받침, 를 tras vocal"
+    ],
+    "tipos": [
+      "tarjeta",
+      "particula",
+      "ordena",
+      "dictado"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "책을 읽어요 [채글], 커피를 마셔요, 드라마를 봐요, 음악을 들어요 [으마글]. Bandeja 을/를 + ordena SOV. Audio: 1/4 (책을 읽어요)."
+  },
+  {
+    "n": 38,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "좋아해요 / 안 좋아해요",
+    "curso_semana": "Básico 1 · S8 (1/3 dic; fórmula desde S7) · frase clave 뭘 좋아해요?",
+    "nuevo": [
+      "N을/를 좋아해요 [조아해요]",
+      "안 좋아해요 como frase fija (la negación con 안 llega en el 56)",
+      "정말 / 조금"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escucha-imagen",
+      "ordena",
+      "reconoce"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "불고기를 정말 좋아해요 · 김치를 좋아해요? — 아니요, 안 좋아해요. Ojo: 싫어해요 suena fuerte. En español 'me gusta' va al revés: en coreano la cosa es el objeto con 을/를. Audio: 3/4; falta 싫어해요."
+  },
+  {
+    "n": 39,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "Así se dice y se escribe",
+    "curso_semana": "Básico 1 · S7–S8 (24 nov – 3 dic)",
+    "nuevo": [
+      "Ordena frases con 은/는, 이/가, 을/를 y 에 mezclados",
+      "Fórmulas: 잘 먹겠습니다 / 잘 먹었습니다",
+      "Primer 안 돼요 (돼 = 되어; fórmula)"
+    ],
+    "tipos": [
+      "ordena",
+      "dos-formas",
+      "dictado"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "Dictado con crédito parcial por jamo ('te faltó el 받침 ㄱ'). dos-formas: 안 돼요 / *안 되요. Audio: 2/3; falta 안 돼요."
+  },
+  {
+    "n": 40,
+    "barrio": "Hongdae (홍대)",
+    "titulo": "JEFE 'Yo en coreano'",
+    "curso_semana": "Básico 1 · S8 (1/3 dic) · proyecto 'Yo en coreano' (jefe listo el lun 30 nov)",
+    "nuevo": [],
+    "tipos": [
+      "ordena",
+      "dictado",
+      "particula",
+      "conjuga"
+    ],
+    "clase": "jefe",
+    "dicho": "금강산도 식후경 · 'hasta el Geumgangsan se mira después de comer' ≈ 'barriga llena, corazón contento' (equivalente parcial)",
+    "notas": "Arma 6 frases sobre ti y dictado de 8; ≥5 de transferencia (combinaciones nunca practicadas: 라면을 먹어요, 영화를 봐요). Sello 'Contenidos de Básico 1 (A1.1)' (nunca 'eres A1') e invitación a Básico 2 (/p/basico2). 'Saltar aquí' al 41 para ex-alumnos de julio. Audio: falta el clip del dicho."
+  },
+  {
+    "n": 41,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "은/는 frente a 이/가 por función",
+    "curso_semana": "Básico 2 (A1.2) · S1 (mié 14 oct 2026); el tramo se publica en F5, antes de la cohorte de enero",
+    "nuevo": [
+      "은/는 = tema o contraste ('en cuanto a…') frente a 이/가 = información nueva ('el que…'), en dos pasos: primero la función, después la forma"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "particula",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "고향이 어디예요? — 제 고향은 멕시코예요. 지금은 칠레에 살아요. La explicación no puede ser solo fonética (la prueba lo exige). Léxico: 제, 고향, 살다 (살아요, regular). Completa en contexto (diálogo de 2 líneas). Audio: 0/3."
+  },
+  {
+    "n": 42,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "있어요 = tener + mi perfil",
+    "curso_semana": "Básico 2 · S1 (14 oct)",
+    "nuevo": [
+      "N이/가 있어요 = tener",
+      "Perfil: 직업, 고향, 취미 + ___ 씨"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "ordena",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "형제가 있어요? — 네, 오빠가 한 명 있어요 (명 del 24). ___ 씨 nunca con el propio nombre. Audio: 0/2."
+  },
+  {
+    "n": 43,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "Nativos hasta 99 + 살/시",
+    "curso_semana": "Básico 2 · S2 (mié 21 oct)",
+    "nuevo": [
+      "Nativos 1–99 (열, 스물, 서른…)",
+      "Formas cortas ante contador: 한 시, 세 시, 스무 살",
+      "Contadores 살 (edad) y 시 (hora)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "dictado",
+      "corre"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "스무 살, 스물다섯 살, 한 시, 세 시 · 몇 시 [멷씨]. Regla de bolsillo: hora y edad = nativo. Audio: 0/5."
+  },
+  {
+    "n": 44,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "Fechas y hora",
+    "curso_semana": "Básico 2 · S2 (21 oct) · frase clave 생일이 언제예요?",
+    "nuevo": [
+      "Fechas: 월 + 일 (유월 y 시월 pierden la consonante)",
+      "Minutos sino-coreanos: 삼십 분, 반",
+      "오전/오후 y días de la semana (léxico)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escena",
+      "reconoce",
+      "dictado"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "유월 십오 일, 시월, 세 시 삼십 분, 아홉 시 반, 월요일…일요일. Reloj y calendario interactivos. 세 시 삼십 분 mezcla nativo y sino en una frase. Audio: 6/8; faltan 유월 십오 일 y 아홉 시 반."
+  },
+  {
+    "n": 45,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "REPASO: ¿nativo o sino-coreano?",
+    "curso_semana": "Básico 2 · S2 (21 oct)",
+    "nuevo": [],
+    "tipos": [
+      "reconoce",
+      "dictado",
+      "corre"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "Hora, edad y precio (천 원 y 만 원 siguen como fórmulas del 29), con tiempo opcional en Corre. Mitad 41–44 y mitad vencidas de 21–40."
+  },
+  {
+    "n": 46,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "에 de tiempo",
+    "curso_semana": "Básico 2 · S2 (21 oct)",
+    "nuevo": [
+      "N에 de tiempo: 일곱 시에, 월요일에",
+      "Sin 에: 오늘, 내일, 매일, 지금"
+    ],
+    "tipos": [
+      "tarjeta",
+      "particula",
+      "ordena",
+      "dos-formas"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "일곱 시에 일어나요. dos-formas: 오늘 가요 / *오늘에 가요. 내일 es vocabulario nuevo. Audio: 1/1."
+  },
+  {
+    "n": 47,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "Irregulares ㅂ/ㄷ/으/르",
+    "curso_semana": "Básico 2 · S3 (mié 28 oct)",
+    "nuevo": [
+      "Irregulares de todos los días como un solo paradigma: ㅂ → 워요, ㄷ → ㄹ, 으 se cae, 르 → 라/러 con ㄹ doble",
+      "Trampas que son regulares: 입어요, 씻어요"
+    ],
+    "tipos": [
+      "tarjeta",
+      "conjuga",
+      "dos-formas",
+      "reconoce"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "더워요, 어려워요, 들어요, 바빠요, 써요, 몰라요 · 입어요, 씻어요. 'Jefecitos' de la máquina de conjugar, declarados en lista. 들어요 y 써요 eran formas fijas del 33: aquí reciben su regla. Audio: 0/8."
+  },
+  {
+    "n": 48,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "에서 frente a 에 + -고",
+    "curso_semana": "Básico 2 · S3 (28 oct) · frase clave 회사에서 일해요.",
+    "nuevo": [
+      "에서 = donde ocurre una acción frente a 에 = donde está / a donde va / cuándo",
+      "-고 como fórmula para unir dos acciones (la regla, en el 59)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "particula",
+      "completa",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "회사에서 일해요 / 회사에 가요 / 집에 있어요 · 씻고 아침을 먹어요. Regla de bolsillo: 있다/없다 y 가다/오다 → 에; cualquier otra acción → 에서. Audio: 3/4; falta 집에 있어요."
+  },
+  {
+    "n": 49,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "Así se dice y se escribe",
+    "curso_semana": "Básico 2 · S2–S3 (21–28 oct)",
+    "nuevo": [
+      "며칠 (nunca *몇일)",
+      "Se escribe 6월 / 10월, se lee 유월 / 시월",
+      "-ㅂ니다/습니다 para reconocer: 갑니다 [감니다], 먹습니다 [먹씀니다], 입니다"
+    ],
+    "tipos": [
+      "dos-formas",
+      "reconoce",
+      "dictado"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "저는 카밀라입니다 (nombre de la lista cerrada) · 이번 역은 시청입니다 (metro). -ㅂ니다 solo se reconoce; producción en el 87. Audio: 2/5 (며칠, 이번 역은 시청입니다)."
+  },
+  {
+    "n": 50,
+    "barrio": "Sinchon (신촌)",
+    "titulo": "JEFE 'Un día en mi vida'",
+    "curso_semana": "Básico 2 · cierre de S3 (28 oct)",
+    "nuevo": [],
+    "tipos": [
+      "escucha-imagen",
+      "completa",
+      "dictado",
+      "particula"
+    ],
+    "clase": "jefe",
+    "dicho": "티끌 모아 태산 · 'juntando polvo se hace una montaña' ≈ 'grano a grano llena la gallina el buche' (equivalente total)",
+    "notas": "Escucha una agenda y complétala (hora, 에/에서, irregulares). ≥5 de transferencia (verbos de Básico 1 con horas y lugares nuevos), 4 de escucha, 2 de ortografía (며칠, 6월). Audio: falta el clip del dicho."
+  },
+  {
+    "n": 51,
+    "barrio": "Río Han (한강)",
+    "titulo": "Pasado -았/었어요 + 이었어요/였어요",
+    "curso_semana": "Básico 2 · S4 (mié 4 nov) · mitad del curso · frase clave 주말에 뭐 했어요?",
+    "nuevo": [
+      "Pasado -았/었어요 (la misma regla de la vocal que el presente)",
+      "Cópula en pasado: 이었어요 tras 받침 / 였어요 tras vocal (vuelve la regla del 받침)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "conjuga",
+      "copula",
+      "dictado"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "갔어요, 먹었어요 [머거써요] · 대학생이었어요, 의사였어요 (plan). ⚑ 대학생 es de la lista de Básico 2 y 의사 es tipo T: para los ítems copula usar N (학생이었어요, 친구였어요) o pedir a Jay que amplíe la lista. Un solo pasado coreano para 'fui', 'iba' y 'he ido'. Audio: 0/5."
+  },
+  {
+    "n": 52,
+    "barrio": "Río Han (한강)",
+    "titulo": "부터~까지 / 에서~까지 + 하고 / (이)랑",
+    "curso_semana": "Básico 2 · S4 (4 nov)",
+    "nuevo": [
+      "N부터 N까지 (tiempo) / N에서 N까지 (lugar)",
+      "N하고 / N(이)랑 (con; y)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "particula",
+      "completa",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "아홉 시부터 여섯 시까지 · 동생이랑, 친구랑 · 같이 [가치] y 혼자 como vocabulario. 이랑 tras 받침, 랑 tras vocal; 하고 sirve siempre. Audio: 2/5 (같이, 혼자)."
+  },
+  {
+    "n": 53,
+    "barrio": "Río Han (한강)",
+    "titulo": "Futuro -(으)ㄹ 거예요 + -거나 / (이)나",
+    "curso_semana": "Básico 2 · S5 (mié 11 nov) · frase clave 기차로 부산에 갈 거예요.",
+    "nuevo": [
+      "-(으)ㄹ 거예요 (futuro e intención; con ㄹ final: 살 거예요)",
+      "-거나 (o, entre verbos) / N(이)나 (o, entre sustantivos)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "conjuga",
+      "completa",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "만날 거예요, 먹을 거예요, 살 거예요 · 커피나 차. Se escribe separado (갈 거예요; se repasa en el 59). Audio: 0/4."
+  },
+  {
+    "n": 54,
+    "barrio": "Río Han (한강)",
+    "titulo": "(으)로 de medio",
+    "curso_semana": "Básico 2 · S5 (11 nov)",
+    "nuevo": [
+      "N(으)로 = medio (버스로); tras ㄹ, solo 로 (지하철로)",
+      "걸어서 y 이거 한국어로 뭐예요? como fórmulas"
+    ],
+    "tipos": [
+      "tarjeta",
+      "particula",
+      "escucha-imagen",
+      "reconoce"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "Bandeja con (으)로: si el 받침 es ㄹ, va 로. Audio: 2/4 (걸어서, 이거 한국어로 뭐예요?); faltan 버스로 y 지하철로."
+  },
+  {
+    "n": 55,
+    "barrio": "Río Han (한강)",
+    "titulo": "REPASO mezclado de los tres tiempos",
+    "curso_semana": "Básico 2 · S5 (11 nov)",
+    "nuevo": [],
+    "tipos": [
+      "conjuga",
+      "completa",
+      "dictado"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "Conjuga con 어제 / 오늘 / 내일; mitad 51–54 y mitad vencidas de 31–50."
+  },
+  {
+    "n": 56,
+    "barrio": "Río Han (한강)",
+    "titulo": "안 / -지 않아요",
+    "curso_semana": "Básico 2 · S6 (mié 18 nov)",
+    "nuevo": [
+      "안 + verbo o adjetivo",
+      "-지 않아요 (lo mismo, más escrito)",
+      "Negaciones que son otra palabra: 없다, 모르다 (nunca *안 알아요)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "dos-formas",
+      "conjuga",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "안 먹어요 = 먹지 않아요 [먹찌 아나요] · 운동 안 해요 (nunca *안 운동해요). El 안 좋아해요 del 38 recibe su regla. Audio: 0/3."
+  },
+  {
+    "n": 57,
+    "barrio": "Río Han (한강)",
+    "titulo": "못 + -(으)ㄹ 수 있어요/없어요",
+    "curso_semana": "Básico 2 · S6 (18 nov) · frase clave 미안해요, 내일은 못 가요.",
+    "nuevo": [
+      "못 + verbo (no poder)",
+      "-(으)ㄹ 수 있어요 / 없어요 (capacidad, posibilidad)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escucha-imagen",
+      "completa",
+      "conjuga"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "내일은 못 가요 · 수영할 수 있어요? — 아니요, 못 해요 [모태요]. Ante una invitación, 안 가요 suena a 'no quiero': se usa 못 가요 + una razón. Audio: 1/3 (수영할 수 있어요?)."
+  },
+  {
+    "n": 58,
+    "barrio": "Río Han (한강)",
+    "titulo": "도 / 만 + 보다 (더) / 제일",
+    "curso_semana": "Básico 2 · S7 (mié 25 nov) · Partículas pro",
+    "nuevo": [
+      "도 / 만: reemplazan a 은/는, 이/가, 을/를 y se suman a 에/에서",
+      "A이/가 B보다 (더) ___",
+      "제일 (el más), como palabra"
+    ],
+    "tipos": [
+      "tarjeta",
+      "particula",
+      "completa",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "저도요!, 커피만 마셔요 · 서울이 산티아고보다 더 커요 · 커피를 제일 좋아해요. 주말마다 entra solo como vocabulario (así el nivel queda en 3, corrección del plan). Audio: 2/5 (저도요, 서울이 산티아고보다 더 커요)."
+  },
+  {
+    "n": 59,
+    "barrio": "Río Han (한강)",
+    "titulo": "Así se dice y se escribe",
+    "curso_semana": "Básico 2 · S8 (mié 2 dic; -지만 como fórmula desde S6)",
+    "nuevo": [
+      "-고 / -지만 pasan de fórmula a regla + 그래서, 그렇지만 [그러치만]",
+      "Ortografía de 안 / 않 y separación: 갈 거예요, 할 수 있어요",
+      "Fórmulas: 축하해요 [추카해요], 수고했어요!"
+    ],
+    "tipos": [
+      "dos-formas",
+      "ordena",
+      "dictado"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "어렵지만 재미있어요. Truco: 안 = 아니, va antes del verbo; 않 = 아니하, va después de -지. Audio: 4/5; falta 어렵지만 재미있어요."
+  },
+  {
+    "n": 60,
+    "barrio": "Río Han (한강)",
+    "titulo": "JEFE 'Mi vida en tres tiempos'",
+    "curso_semana": "Básico 2 · S8 (2 dic) · proyecto 'Mi vida en tres tiempos'",
+    "nuevo": [],
+    "tipos": [
+      "conjuga",
+      "dos-formas",
+      "dictado",
+      "completa"
+    ],
+    "clase": "jefe",
+    "dicho": "원숭이도 나무에서 떨어진다 · 'hasta el mono se cae del árbol' ≈ 'al mejor cazador se le va la liebre' (equivalente total)",
+    "notas": "Tres tiempos + negación + partículas; dictado de las reglas de sonido de A1.2 (먹었어요 [머거써요], 같이 [가치], 못 해요 [모태요]). Sello 'Contenidos de Básico 2 (A1.2)' → /p/conversacional1. 'Saltar aquí' al 61 para hablantes de herencia. Audio: falta el clip del dicho."
+  },
+  {
+    "n": 61,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "-(으)ㄴ 지 ___ 됐어요 + -고 싶어요",
+    "curso_semana": "Conversacional 1 (A2.1) · S1 (mar 13 oct 21:00 Chile = mié 14 KST) · frase ancla 한국어를 배운 지 ___ 됐어요.",
+    "nuevo": [
+      "-(으)ㄴ 지 + tiempo + 됐어요 ('hace ___ que…'; marco fijo)",
+      "-고 싶어요 (metas; solo yo o tú)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "dialogo",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "한국어를 배운 지 일 년 됐어요 [일련] · 한국에 가고 싶어요. 됐어요 va en pasado aunque en español digamos 'estudio'; 살다 → 산 지. El -(으)ㄴ es el del mapa del 72. dialogo y registro son tipos de F6; cada frase lleva etiqueta de registro (해요체). Audio: 1/2; falta 한국에 가고 싶어요."
+  },
+  {
+    "n": 62,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "Reparar la conversación + 맞장구",
+    "curso_semana": "Conversacional 1 · S1 (13 oct) y Lab 1 (S5)",
+    "nuevo": [
+      "Reparación como fórmulas: 다시 한번 말해 주세요, 천천히 말해 주세요, 무슨 뜻이에요?",
+      "맞장구: 아, 그래요?, 진짜요?, 그렇구나"
+    ],
+    "tipos": [
+      "tarjeta",
+      "dialogo",
+      "reconoce",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "-아/어 주세요 va como bloque (regla en el 68). 그렇구나 es una reacción en 반말 suave: solo se reconoce (반말 en producción, nivel 94). Opcional: 'Repite y compara' (nada se sube). Audio: 6/6."
+  },
+  {
+    "n": 63,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "-아/어 봤어요 + 중에서 제일",
+    "curso_semana": "Conversacional 1 · S2 (mar 20 oct) · M01 K-pop",
+    "nuevo": [
+      "-아/어 봤어요 (experiencia)",
+      "N 중에서 + 제일 (superlativo)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "conjuga",
+      "dialogo",
+      "completa"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "콘서트에 가 봤어요? · 갔어요 (un hecho) frente a 가 봤어요 (experiencia) · 멤버 중에서 누가 제일 좋아요? Con 보다 se dice solo 봤어요. 아직 못 가 봤어요 (못 del 57). Audio: 2/2."
+  },
+  {
+    "n": 64,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "-아서/어서 de causa + 좋아요 / 좋아해요",
+    "curso_semana": "Conversacional 1 · S2 (20 oct)",
+    "nuevo": [
+      "-아서/어서 de causa (el tiempo va solo al final)",
+      "N이/가 좋아요 frente a N을/를 좋아해요"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "dos-formas",
+      "dialogo"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "노래가 좋아서 좋아해요 (nunca *좋았어서) · BTS가 좋아요 / BTS를 좋아해요. -아서 no va con -(으)세요 ni -(으)ㄹ까요 (eso es -(으)니까, nivel 81). ⚑ Revisión nativa: más natural con objeto explícito (노래가 좋아서 BTS를 좋아해요). BTS es nombre propio y nunca ítem copula. Audio: 0/3."
+  },
+  {
+    "n": 65,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "REPASO mezclado",
+    "curso_semana": "Conversacional 1 · S2–S3",
+    "nuevo": [],
+    "tipos": [
+      "dialogo",
+      "completa",
+      "conjuga"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "Mitad 61–64 y mitad vencidas de 41–60 (tres tiempos, 안/못)."
+  },
+  {
+    "n": 66,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "-(으)ㄹ까요? + -(으)러 가요",
+    "curso_semana": "Conversacional 1 · S3 (mar 27 oct) · M02 Viajes · frase ancla 바다를 보러 제주도에 가요.",
+    "nuevo": [
+      "-(으)ㄹ까요? (proponer)",
+      "-(으)러 가요/와요 (ir a + para qué; solo con 가다, 오다, 다니다)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "dialogo",
+      "completa",
+      "conjuga"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "같이 제주도에 갈까요? — 좋아요! · 바다를 보러 가요. Error típico: *공부하러 해요. Audio: 1/3 (좋아요)."
+  },
+  {
+    "n": 67,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "-아서 de secuencia + (으)로 de dirección",
+    "curso_semana": "Conversacional 1 · S3 (27 oct)",
+    "nuevo": [
+      "-아서/어서 de secuencia frente a -고",
+      "(으)로 de dirección (ampliación del 54): 왼쪽으로, 2호선으로"
+    ],
+    "tipos": [
+      "tarjeta",
+      "ordena",
+      "completa",
+      "escena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "공항에 가서 비행기를 타요 · 2호선으로 갈아타요 [이호선]. Con -아서 la primera acción es necesaria para la segunda; con -고 solo se suman. Audio: 1/3 (공항에 가서 비행기를 타요)."
+  },
+  {
+    "n": 68,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "-(으)세요 → -아/어 주세요 → -지 마세요",
+    "curso_semana": "Conversacional 1 · S4 (mar 3 nov) · M03 Gastronomía · frase ancla 여기요! 물 좀 주세요.",
+    "nuevo": [
+      "-(으)세요 (indicación cortés)",
+      "-아/어 주세요 ('hágame el favor de…')",
+      "-지 마세요 (petición negativa)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "dialogo",
+      "conjuga",
+      "registro"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "여기 앉으세요 [안즈세요], 계산해 주세요, 오이는 넣지 마세요. Primero -(으)세요, en este orden. Las fórmulas 이거 주세요 (29) y 말해 주세요 (62) reciben su regla; el -시- se explica en el 86. Audio: 0/3."
+  },
+  {
+    "n": 69,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "Así se dice y se escribe",
+    "curso_semana": "Conversacional 1 · S4 (3 nov) + S7 (잘 못해요)",
+    "nuevo": [
+      "Restaurante: 개 / 병 / 잔 + nativos; 인분 + sino-coreanos",
+      "¿A quién le hablas?: 감사합니다 / 고마워요 / 고마워 (el 반말 solo se reconoce)",
+      "잘 못해요 (no soy bueno) / 못 해요 (no puedo) y 배운 지 (지 va separado)"
+    ],
+    "tipos": [
+      "registro",
+      "dos-formas",
+      "dictado"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "삼겹살 이 인분 주세요, 여기요!, 잘 먹겠습니다, 떡볶이 [떡뽀끼]. Audio: 3/5; faltan 고마워요 y 고마워."
+  },
+  {
+    "n": 70,
+    "barrio": "Gwangjang (광장시장)",
+    "titulo": "JEFE 'Cena en Gwangjang'",
+    "curso_semana": "Conversacional 1 · cierre de S4 (3 nov), antesala del Lab 1",
+    "nuevo": [],
+    "tipos": [
+      "dialogo",
+      "registro",
+      "completa",
+      "escucha-imagen"
+    ],
+    "clase": "jefe",
+    "dicho": "가는 말이 고와야 오는 말이 곱다 · 'si las palabras que van son amables, las que vuelven también' ≈ 'trata como quieres que te traten' (equivalente parcial)",
+    "notas": "Diálogo por turnos con el tigre: pedir, proponer y reparar (audio de cada línea; 2 voces si Jay graba). ≥5 de transferencia, 4 de escucha, 2 de ortografía. Audio: falta el clip del dicho."
+  },
+  {
+    "n": 71,
+    "barrio": "Insadong (인사동)",
+    "titulo": "-아/어 보여요 + colores",
+    "curso_semana": "Conversacional 1 · S6 (mar 17 nov) · M04 Hanbok",
+    "nuevo": [
+      "-아/어 보여요 ('se ve + adjetivo'; solo con adjetivos)",
+      "Colores como sustantivo: 파란색, 노란색, 하얀색, 검은색"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escucha-imagen",
+      "conjuga",
+      "completa"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "편해 보여요, 맛있어 보여요, 예뻐 보여요 (예쁘다 → 예뻐). Audio: 4/6 (los 4 colores); faltan 편해 보여요 y 맛있어 보여요."
+  },
+  {
+    "n": 72,
+    "barrio": "Insadong (인사동)",
+    "titulo": "Modificadores -는 / -(으)ㄴ / -(으)ㄹ + N",
+    "curso_semana": "Conversacional 1 · S6 (17 nov; bloques desde S2 y S4)",
+    "nuevo": [
+      "-(으)ㄴ + N con adjetivos: 편한 옷, 작은 가방",
+      "-는 + N con verbos: 좋아하는 노래",
+      "Mapa de los 3 modificadores (-(으)ㄹ solo se reconoce hasta el 74)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "conjuga",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "매운 음식 (irregular ㅂ, en lista desde el 47). Colores con ㅎ (빨간, 파란…) como vocabulario, sin explicar la irregularidad. Audio: 1/4 (매운 음식)."
+  },
+  {
+    "n": 73,
+    "barrio": "Insadong (인사동)",
+    "titulo": "-(으)ㄴ/는 것 같아요",
+    "curso_semana": "Conversacional 1 · S6 (17 nov)",
+    "nuevo": [
+      "-(으)ㄴ/는 것 같아요 [걷까타요] ('me parece que…')"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "dialogo",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "전통 한복이 더 예쁜 것 같아요 (더 del 58). 보여요 = impresión de la vista; 것 같아요 = opinión que suaviza. Audio: 1/1."
+  },
+  {
+    "n": 74,
+    "barrio": "Insadong (인사동)",
+    "titulo": "-(으)ㄹ 때",
+    "curso_semana": "Conversacional 1 · S7 (mar 24 nov) · M05 PC방",
+    "nuevo": [
+      "-(으)ㄹ 때 ('cuando')",
+      "어렸을 때 como fórmula (-았/었을 때 llega en el 91)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "escena",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "게임할 때, 시간이 있을 때, 놀 때 (ㄹ), 들을 때 (ㄷ). Audio: 1/3 (어렸을 때)."
+  },
+  {
+    "n": 75,
+    "barrio": "Insadong (인사동)",
+    "titulo": "REPASO mezclado (lab)",
+    "curso_semana": "Conversacional 1 · espíritu del Lab 1 (S5, mar 10 nov); se juega en la S7",
+    "nuevo": [],
+    "tipos": [
+      "dialogo",
+      "completa",
+      "escucha-imagen"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "Repaso activo de 61–74: contar experiencias, proponer, pedir, describir, opinar y reparar. El lab de la S5 cae antes que 71–74 en el curso; en el juego el repaso respeta la plantilla x5."
+  },
+  {
+    "n": 76,
+    "barrio": "Insadong (인사동)",
+    "titulo": "-기 전에 / -(으)ㄴ 후에",
+    "curso_semana": "Conversacional 1 · S7 (24 nov)",
+    "nuevo": [
+      "-기 전에 (antes de)",
+      "-(으)ㄴ 후에 (después de)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "ordena",
+      "completa",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "자기 전에, 게임하기 전에 · 수업이 끝난 후에, 밥을 먹은 후에. Audio: 0/2."
+  },
+  {
+    "n": 77,
+    "barrio": "Insadong (인사동)",
+    "titulo": "-(으)면 frente a -(으)ㄹ 때",
+    "curso_semana": "Conversacional 1 · S7 (24 nov)",
+    "nuevo": [
+      "-(으)면 ('si' / 'cada vez que')",
+      "Contraste -(으)면 / -(으)ㄹ 때 con una escena"
+    ],
+    "tipos": [
+      "tarjeta",
+      "escena",
+      "completa",
+      "dialogo"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "이기면 기분이 좋아요 · 시간이 있으면 PC방에 가요 (PC방 es un lugar, nunca ítem copula). 놀면 (ㄹ: sin 으), 들으면 (ㄷ). Audio: 1/2; falta 시간이 있으면 PC방에 가요."
+  },
+  {
+    "n": 78,
+    "barrio": "Insadong (인사동)",
+    "titulo": "Reglas de sonido de A2.1",
+    "curso_semana": "Conversacional 1 · transversal (S1–S8)",
+    "nuevo": [
+      "유음화: 일 년 [일련], 한라산 [할라산], 설날 [설랄]",
+      "비음화: 몇 년 [면년], 컵라면 [컴나면]",
+      "ㅎ débil: 많이 [마니]"
+    ],
+    "tipos": [
+      "tarjeta",
+      "dictado",
+      "reconoce",
+      "pares"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "Dictado con el aviso 'se escribe X, suena [Y]'. Audio: 3/6 (한라산, 설날, 컵라면); faltan 일 년, 몇 년, 많이."
+  },
+  {
+    "n": 79,
+    "barrio": "Insadong (인사동)",
+    "titulo": "Así se dice y se escribe",
+    "curso_semana": "Conversacional 1 · S6–S8 (17 nov – 1 dic)",
+    "nuevo": [
+      "되 / 돼 (돼 = 되어): 안 돼요, 됐어요",
+      "Fórmulas: 웬일이에요? (se escribe 웬) y 내일 봬요 (봬 = 뵈어)",
+      "잘 어울려요!"
+    ],
+    "tipos": [
+      "dos-formas",
+      "dictado",
+      "reconoce"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "Truco: si cabe 해, va 돼; si cabe 하, va 되. ⚑ ORDEN: el plan incluye 돼야 해요, pero -아/어야 해요 se enseña en el 83 (Conversacional 1 solo lo reconoce): se saca de aquí y vuelve en el 99. Audio: 0/5."
+  },
+  {
+    "n": 80,
+    "barrio": "Insadong (인사동)",
+    "titulo": "JEFE 'Corea que amo, en mi voz'",
+    "curso_semana": "Conversacional 1 · Lab 2 + evaluación oral (S8, mar 1 dic)",
+    "nuevo": [],
+    "tipos": [
+      "escucha-imagen",
+      "completa",
+      "dos-formas",
+      "dictado"
+    ],
+    "clase": "jefe",
+    "dicho": "낮말은 새가 듣고 밤말은 쥐가 듣는다 · 'de día oyen los pájaros y de noche los ratones' = 'las paredes oyen' (equivalente total)",
+    "notas": "Describe 3 fotos con 보여요 y 것 같아요; ≥5 de transferencia, 4 de escucha, 2 de ortografía (되/돼). Sello 'Contenidos de Conversacional 1 (A2.1)'. Audio: falta el clip del dicho."
+  },
+  {
+    "n": 81,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "-(으)니까 frente a -아서",
+    "curso_semana": "Conversacional 2 (A2.2) · S1 (mié 13 ene 2027 [POR CONFIRMAR]) · La escuela",
+    "nuevo": [
+      "-(으)니까 (razón que lleva a proponer, pedir o aconsejar)",
+      "Contraste con -아서: *시간이 없어서 빨리 가세요 ✗"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "dos-formas",
+      "dialogo"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "시간이 없으니까 빨리 가요 · para agradecer o disculparse, siempre -아서: 늦어서 죄송해요. Solo entran ítems sin ⚑ (RN-1…RN-17 resueltos). Audio: 0/2."
+  },
+  {
+    "n": 82,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "-죠 + la escuela coreana",
+    "curso_semana": "Conversacional 2 · S1 (13 ene)",
+    "nuevo": [
+      "-죠 (confirmar o dar la razón): 맞죠? — 그렇죠!",
+      "Léxico de escuela: 학원, 교복, 선배/후배, 급식"
+    ],
+    "tipos": [
+      "tarjeta",
+      "dialogo",
+      "escucha-imagen",
+      "completa"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "이다 → 이죠 tras consonante / 죠 tras vocal (vuelve la regla del 받침). Entonación que sube para confirmar y baja para dar la razón. Audio: 7/7."
+  },
+  {
+    "n": 83,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "-아/어야 해요 + -기 때문에",
+    "curso_semana": "Conversacional 2 · S2 (mié 20 ene) · El 수능",
+    "nuevo": [
+      "-아/어야 해요 (hay que, tengo que)",
+      "-기 때문에 / N 때문에",
+      "Mapa de las 3 razones: -아서 / -(으)니까 / -기 때문에"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "dialogo",
+      "ordena"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "공부해야 해요 · 수능 때문에 스트레스를 받아요. -아/어야 해요 es nueva para la cohorte real (Conversacional 1 solo la reconoció). Audio: 0/2."
+  },
+  {
+    "n": 84,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "-(으)려고 + opinar",
+    "curso_semana": "Conversacional 2 · S2 (20 ene)",
+    "nuevo": [
+      "-(으)려고 ('para'; con cualquier verbo) frente a -(으)러 (solo con movimiento)",
+      "Opinar con fórmulas: 제 생각에는…, 저도 그렇게 생각해요"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "dialogo",
+      "registro"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "좋은 대학교에 가려고 공부해요 (좋은 del 72) · *공부하러 일찍 일어나요 ✗. Audio: existen las 2 fórmulas; falta la frase con -(으)려고."
+  },
+  {
+    "n": 85,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "REPASO mezclado",
+    "curso_semana": "Conversacional 2 · S2–S3",
+    "nuevo": [],
+    "tipos": [
+      "completa",
+      "dialogo",
+      "registro"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "Mitad 81–84 y mitad vencidas de 61–80 (razones, propuestas, opinión)."
+  },
+  {
+    "n": 86,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "Honoríficos -(으)시- + verbos especiales",
+    "curso_semana": "Conversacional 2 · S3 (mié 27 ene) · La oficina · frase ancla 김 과장님, 식사하셨어요?",
+    "nuevo": [
+      "-(으)시-: respeto hacia el sujeto (nunca sobre uno mismo)",
+      "Verbos especiales: 드시다, 계시다, 주무시다, 말씀하시다"
+    ],
+    "tipos": [
+      "tarjeta",
+      "registro",
+      "conjuga",
+      "dos-formas"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "식사하셨어요?, 계세요, 드세요, 주무세요 · *저는 가세요 ✗. Las fórmulas 안녕히 계세요 (9) y 여기 앉으세요 (68) 'eran -(으)시-'. Audio: 1/4 (식사하셨어요?)."
+  },
+  {
+    "n": 87,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "-ㅂ니다 en producción + pedir permiso",
+    "curso_semana": "Conversacional 2 · S3 (27 ene)",
+    "nuevo": [
+      "-ㅂ니다/습니다 en producción (presentación formal, informe breve)",
+      "-아/어도 돼요? (pedir permiso)",
+      "-(으)면 안 돼요 (prohibir)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "registro",
+      "dialogo",
+      "conjuga"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "처음 뵙겠습니다 (fórmula) · 먼저 퇴근해도 될까요? (-(으)ㄹ까요 del 66) · 늦으면 안 돼요 (-(으)면 del 77). Tope de 3 justo. Audio: 1/3 (처음 뵙겠습니다)."
+  },
+  {
+    "n": 88,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "-(으)ㄹ게요 frente a -(으)ㄹ 거예요 + -네요",
+    "curso_semana": "Conversacional 2 · S5 (mié 10 feb) · 설날 contado",
+    "nuevo": [
+      "-(으)ㄹ게요 (me comprometo, pensando en el otro; nunca en pregunta)",
+      "-네요 (reacción en el momento)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "dialogo",
+      "completa",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "제가 설거지할게요 · 내일 갈 거예요 (te informo) / 내일 갈게요 (te lo prometo) · 맛있어 보이네요! (보여요 del 71). La ortografía de -ㄹ게요 va DESPUÉS, en el 89 (corrección del plan). Audio: 1/3 (제가 설거지할게요)."
+  },
+  {
+    "n": 89,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "Así se dice y se escribe",
+    "curso_semana": "Conversacional 2 · Lab 3 (S4, 3 feb) + S5 (10 feb)",
+    "nuevo": [
+      "Saludos de 설날: 새해 복 많이 받으세요!, 명절 잘 보내셨어요?",
+      "Ortografía: -ㄹ게요 (nunca *-ㄹ께요; -ㄹ까요 sí)",
+      "-고 싶어 해요 (el deseo de otra persona; se escribe separado)"
+    ],
+    "tipos": [
+      "dos-formas",
+      "registro",
+      "dictado"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "아이들은 세뱃돈을 받고 싶어 해요. -고 싶어 해요 es la única estructura nueva dentro de un x9 en todo el mapa (Conversacional 2 la da en la S5); queda aquí para no pasar de 3 en el 88. Audio: 3/3."
+  },
+  {
+    "n": 90,
+    "barrio": "Yeouido (여의도)",
+    "titulo": "JEFE '설날 con una familia coreana'",
+    "curso_semana": "Conversacional 2 · S5 (10 feb 2027) · evento 설날 (dom 7 feb 2027)",
+    "nuevo": [],
+    "tipos": [
+      "registro",
+      "dialogo",
+      "dos-formas",
+      "escucha-imagen"
+    ],
+    "clase": "jefe",
+    "dicho": "백지장도 맞들면 낫다 · 'hasta una hoja de papel pesa menos entre dos' = 'la unión hace la fuerza' (equivalente total)",
+    "notas": "Elige el registro para la abuela, el jefe y un chingu. ≥5 de transferencia, 4 de escucha, 2 de ortografía (-ㄹ게요, 싶어 해요). Audio: falta el clip del dicho."
+  },
+  {
+    "n": 91,
+    "barrio": "Namsan (남산)",
+    "titulo": "-는데 de fondo + -았/었을 때",
+    "curso_semana": "Conversacional 2 · S6 (mié 17 feb) · Mitos y leyendas",
+    "nuevo": [
+      "-는데 / -(으)ㄴ데 / -았/었는데: el fondo y después lo que pasa",
+      "-았/었을 때 frente a -(으)ㄹ 때 (ampliación del 74)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "ordena",
+      "completa",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "엄마가 고개를 넘는데 호랑이가 나타났어요 (escena de cuento tradicional, frase original). El -는데 de contraste solo se reconoce. Audio: 1/1."
+  },
+  {
+    "n": 92,
+    "barrio": "Namsan (남산)",
+    "titulo": "N밖에 + negación, N처럼 y -게 되다",
+    "curso_semana": "Conversacional 2 · S6–S7 (17–24 feb)",
+    "nuevo": [
+      "N밖에 + negación (frente a 만)",
+      "N처럼 ('como')",
+      "-게 되다 (un cambio que no fue un plan)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "dos-formas",
+      "conjuga"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "떡이 하나밖에 안 남았어요 (*하나밖에 있어요 ✗) · 한국 사람처럼 · 좋아하게 됐어요. Tope de 3 justo. Audio: 1/3 (떡이 하나밖에 안 남았어요)."
+  },
+  {
+    "n": 93,
+    "barrio": "Namsan (남산)",
+    "titulo": "Cuentos y 한다체 para reconocer",
+    "curso_semana": "Conversacional 2 · S6 (17 feb)",
+    "nuevo": [
+      "한다체 para reconocer: -ㄴ/는다, -았/었다, N이다 / 였다",
+      "Apertura de cuento: 옛날 옛적에"
+    ],
+    "tipos": [
+      "tarjeta",
+      "reconoce",
+      "ordena",
+      "escucha-imagen"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "호랑이가 살았다, 간다, 먹는다, 호랑이였다. Ordenar un cuento por escenas. Audio: 1/2 (옛날 옛적에)."
+  },
+  {
+    "n": 94,
+    "barrio": "Namsan (남산)",
+    "titulo": "반말 + -자",
+    "curso_semana": "Conversacional 2 · S7 (mié 24 feb) · K-drama",
+    "nuevo": [
+      "반말 (해체): 'quita el 요' + 저/제 → 나/내, 네/아니요 → 응/아니",
+      "Vuelve la cópula: 학생이에요 → 학생이야, 의사예요 → 의사야",
+      "-자 (proponer en 반말)"
+    ],
+    "tipos": [
+      "tarjeta",
+      "registro",
+      "conjuga",
+      "dialogo"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "말 놓을까요? — 좋아, 말 놓자! Solo con amigos de la misma edad o menores, y después de acordarlo. Ítems copula en 반말 con sustantivos N (학생이야, 친구야); ⚑ 의사 es tipo T. Audio: 1/4 (좋아, 말 놓자!)."
+  },
+  {
+    "n": 95,
+    "barrio": "Namsan (남산)",
+    "titulo": "REPASO mezclado",
+    "curso_semana": "Conversacional 2 · S7 (24 feb)",
+    "nuevo": [],
+    "tipos": [
+      "registro",
+      "completa",
+      "dictado"
+    ],
+    "clase": "repaso",
+    "dicho": "",
+    "notas": "Mitad 91–94 y mitad vencidas de 61–90."
+  },
+  {
+    "n": 96,
+    "barrio": "Namsan (남산)",
+    "titulo": "Puente al TOPIK: -기 위해서 + 한다체",
+    "curso_semana": "Antesala de TOPIK II (B1+) · puente de la S1 (-기 위해서) y taller de la S4 (한다체 en producción) del curso de octubre: jue 15 oct y jue 5 nov 2026",
+    "nuevo": [
+      "-기 위해서 (propósito formal) frente a -(으)려고",
+      "한다체 en producción: 운동을 한다, 갈 것이다"
+    ],
+    "tipos": [
+      "tarjeta",
+      "conjuga",
+      "completa",
+      "dos-formas"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "한국 회사에 취직하기 위해서 토픽을 준비해요. Ítems ORIGINALES con formato TOPIK; los exámenes oficiales solo se citan por 회차. Audio: 1/3; faltan 운동을 한다 y 갈 것이다."
+  },
+  {
+    "n": 97,
+    "barrio": "Namsan (남산)",
+    "titulo": "Fórmulas del 쓰기 51",
+    "curso_semana": "TOPIK II · S4 (jue 5 nov 2026) · 쓰기 51–52",
+    "nuevo": [
+      "Fórmulas de aviso como bloque: -아/어 주시기 바랍니다, -아/어 주십시오"
+    ],
+    "tipos": [
+      "tarjeta",
+      "completa",
+      "reconoce"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "연락해 주시기 바랍니다, 문의해 주십시오. Completa un aviso inventado (nunca de un examen). Audio: 0/2."
+  },
+  {
+    "n": 98,
+    "barrio": "Namsan (남산)",
+    "titulo": "Plantilla del 쓰기 53",
+    "curso_semana": "TOPIK II · S5 (jue 12 nov 2026) · 쓰기 53",
+    "nuevo": [
+      "Plantilla de 4 frases del gráfico (4 marcos = 1 estructura): 조사를 실시하였다, 가장 높게 나타났다, 3배 증가하였다"
+    ],
+    "tipos": [
+      "tarjeta",
+      "ordena",
+      "completa"
+    ],
+    "clase": "nuevo",
+    "dicho": "",
+    "notas": "Ordena la descripción de un gráfico inventado ('○○연구소', datos ficticios). 높게 (-게 adverbial) va dentro del marco, sin explicarse. Audio: 0/2."
+  },
+  {
+    "n": 99,
+    "barrio": "Namsan (남산)",
+    "titulo": "Así se dice y se escribe",
+    "curso_semana": "TOPIK II · S4–S5 (원고지) + ortografía final de A2",
+    "nuevo": [
+      "Ortografía final: 왠지 / 웬일, 어떡해 / 어떻게, *됬다 → 됐다, 안 되다 / 안되다",
+      "원고지: una letra por casilla"
+    ],
+    "tipos": [
+      "dos-formas",
+      "dictado",
+      "reconoce"
+    ],
+    "clase": "asi-se-dice",
+    "dicho": "",
+    "notas": "El LEEME cita la regla del 국립국어원. Aquí entra 돼야 해요 (sacado del 79) como ítem de 되/돼. Audio: 0/4."
+  },
+  {
+    "n": 100,
+    "barrio": "Namsan (남산)",
+    "titulo": "JEFE FINAL '달인'",
+    "curso_semana": "Conversacional 2 · S8 (Lab 4 + proyecto, mié 3 mar 2027) + antesala de TOPIK II (B1+)",
+    "nuevo": [],
+    "tipos": [
+      "particula",
+      "copula",
+      "conjuga",
+      "registro",
+      "dos-formas",
+      "dictado"
+    ],
+    "clase": "jefe",
+    "dicho": "천 리 길도 한 걸음부터 · 'un camino de mil li empieza con un paso' = 'paso a paso se llega lejos' (equivalente total)",
+    "notas": "3 etapas: (1) partículas y cópula, (2) conjugación y registro, (3) ortografía y escucha; modo rápido opcional. Tarjeta 'Llegué a Namsan'. Texto fijo: 'cubre los temas de Básico 1 a Conversacional 2' (nunca 'nivel 100 = B1' ni 'listo para el TOPIK'). Invitación al diagnóstico TOPIK II por WhatsApp. -대/-데 y el discurso indirecto quedan para 101+. Audio: falta el clip del dicho."
+  }
+]

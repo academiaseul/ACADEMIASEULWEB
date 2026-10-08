@@ -26,7 +26,15 @@ Actúas como el equipo de Jay Kim (김재희, fundador; hola.academiaseul@gmail.
   - Revisión nativa repartida: Jay 0–20 y 41–60, Kiran 21–40, Abby 61–100.
   - URL propuesta: /tigre.
 
-  El próximo paso es la F0, diseño en papel de los niveles 0–20, y espera el OK de Jay.
+  **F0 hecha (8 oct 2026)** en `Juego_100/`:
+  - `01_Diseno_Niveles_0-20.md`: 21 niveles y 303 ítems con revisión nativa adversarial.
+  - `02_Mapa_0-100.md`: los 101 niveles.
+  - `03_Dichos_Esquema_Llave.md`: 10 속담, esquema JSON y llave.
+  - `04_Hoja_Revision_0-20.md/.csv`: para la revisión de Jay.
+  - `05_Audio_Faltante_0-20.md`: 86 clips.
+  - `borrador/*.json`.
+
+  Próximo paso: F1 (hub + niveles 0–10, 13–19 oct). Jay revisa 0–10 hacia el lun 19 y 11–20 hacia el jue 22.
 - **Taller gratis** (`/taller`, desde el 22 sept 2026): modo "grabado" — la clase completa de Hangul en YouTube (`zmbuLPcgfpw`, empieza en el segundo 2414) embebida en la página, formulario = material + aviso del próximo en vivo; datos en `lib/taller.ts` (`PROXIMO_TALLER.fechaISO = null` ⇒ grabado; con fecha futura vuelve el modo en vivo). Enlazado en Recursos (menú), footer "Gratis" y `/recursos`. Contacto = WhatsApp directo.
 - **Trilingüe ES/EN/KO + modo día/noche** (16 sept 2026). Preferencias en `lib/prefs.tsx` (localStorage `as-lang`/`as-theme`; controles en `components/PrefsControls.tsx`, en el menú). Traducción estilo gettext: `t("texto en español")` desde `lib/i18n.tsx` en componentes cliente; datos a nivel de módulo se marcan con `i18n("...")`; los campos de `lib/nivel1.ts` se traducen al renderizar (`t(curso.subtitulo)`, `td(horarioDe(...))` para días). Diccionarios `lib/dict/en.ts` y `lib/dict/ko.ts` (915 claves; si falta una clave se muestra el español). Para textos nuevos: envolver con `t()`, extraer claves con `scratchpad/i18n_extract.js`, traducir en `i18n_en.json`/`i18n_ko.json` y regenerar con `i18n_build_dict.js`. Nunca `${}` dentro de `t()`. Páginas con `metadata` se parten en `app/x/page.tsx` (server, metadata) + `components/XContent.tsx` (cliente). Siguen solo en español: Lector, blog, legales, guías/pronunciación, generador-nombre, hangul-dle y la metadata SEO.
 - Modo noche: sin `dark:` por componente; `app/globals.css` remapea las utilidades claras bajo `html.dark` (bloque generado por `scratchpad/gen_dark_css.js`). Textos azules inline: `var(--as-azul-txt)` / `var(--as-navy-txt)`. El Lector comparte `as-theme` y tiene botón luna/sol.
