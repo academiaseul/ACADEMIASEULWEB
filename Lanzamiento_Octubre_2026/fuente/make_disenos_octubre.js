@@ -420,6 +420,35 @@ function hangeulnal() {
   return doc({ story: false, css, body });
 }
 
+// 04b · 한글날 en historia (vie 9 oct): mismo contenido que el post, en 9:16, con espacio para el sticker "Leer gratis"
+function hangeulnalStory() {
+  const css = `
+  .kick { display: flex; align-items: baseline; gap: 16px; margin-top: 40px; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 44px; white-space: nowrap; }
+  .kick .kr { color: ${AZUL}; font-weight: 900; font-size: 52px; font-family: 'Noto Sans KR', sans-serif; }
+  .big { display: flex; align-items: center; gap: 30px; margin-top: 26px; }
+  .big .n { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 300px; line-height: .86; letter-spacing: -8px; }
+  .big .s .a { font-family: 'Playfair Display', serif; font-weight: 700; font-style: italic; font-size: 100px; line-height: .9; color: ${AZUL}; }
+  .big .s .y { font-family: 'IBM Plex Mono', monospace; font-size: 30px; font-weight: 600; letter-spacing: 2px; margin-top: 16px; white-space: nowrap; }
+  .jamo { display: flex; justify-content: space-between; margin-top: 40px; padding: 14px 0; border-top: 1.5px solid ${INK}; border-bottom: 1.5px solid ${INK}; }
+  .jamo span { font-family: 'Noto Sans KR', sans-serif; font-weight: 700; font-size: 46px; color: ${AZUL}; opacity: .55; }
+  .es { font-family: 'Playfair Display', serif; font-style: italic; font-size: 44px; line-height: 1.3; margin-top: 40px; }
+  .src { font-family: 'IBM Plex Mono', monospace; font-size: 20px; color: ${MUTED}; margin-top: 14px; letter-spacing: 1px; }
+  .try { margin-top: auto; background: ${INK}; color: ${PAPER}; padding: 30px 34px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+  .try .a { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 46px; line-height: 1.2; }
+  .try .a span { color: ${GOLD2}; }
+  .try .b { font-family: 'Noto Sans KR', sans-serif; font-weight: 900; font-size: 64px; color: ${GOLD2}; white-space: nowrap; }
+  `;
+  const body = `
+  ${top("<span class='ko'>한글날</span> · Día del Hangul", "9 de octubre")}
+  <div class="kick"><span>Hoy es</span><span class="kr">한글날</span></div>
+  <div class="big"><div class="n">580</div><div class="s"><div class="a">años</div><div class="y">1446 → 2026</div></div></div>
+  <div class="jamo" data-deco>${"ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎ".split("").map((j) => `<span>${j}</span>`).join("")}</div>
+  <div class="es">“Un sabio lo aprende antes de que termine la mañana; incluso el más lento, en diez días.”</div>
+  <div class="src">— Hunminjeongeum Haerye (1446)</div>
+  <div class="try"><div class="a">Aprende a leerlo <span>gratis</span><br>toca el link <span style="font-family:'IBM Plex Mono',monospace;font-weight:600">↑</span></div><div class="b">가나다</div></div>`;
+  return doc({ story: true, css, body });
+}
+
 // ════════════════════════════════════════════════════════════════════════
 // 05 · Últimos días (historia, lun 5 → sáb 10) y 05b · Hoy cierra (dom 11)
 // ════════════════════════════════════════════════════════════════════════
@@ -538,6 +567,7 @@ const DISENOS = [
   { file: "02_conoce_a_tus_profes.png", story: false, html: profes() },
   { file: "03_vivo_lee_tu_nombre_story.png", story: true, html: vivo() },
   { file: "04_hangeulnal_9_octubre.png", story: false, html: hangeulnal() },
+  { file: "04b_hangeulnal_story.png", story: true, html: hangeulnalStory() },
   { file: "05_cierre_domingo_11_story.png", story: true, html: cierre() },
   { file: "05c_quedan_3_dias_story.png", story: true, html: cierre("QUEDAN<br><em>3 DÍAS</em>") },
   { file: "05d_quedan_2_dias_story.png", story: true, html: cierre("QUEDAN<br><em>2 DÍAS</em>") },
