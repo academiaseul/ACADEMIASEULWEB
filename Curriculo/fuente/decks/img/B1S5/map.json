@@ -1,0 +1,149 @@
+{
+  "imagenes": [
+    {
+      "L": "2",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L2_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Parlante con ondas y 2 casilleros vacíos (escucha y escribe el número de dos cifras); sin adornos, llena el viewBox"
+    },
+    {
+      "L": "2",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L2_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Parlante con ondas y 2 casilleros vacíos (escucha y escribe el número de dos cifras); sin adornos, llena el viewBox"
+    },
+    {
+      "L": "2",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L2_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Celular que suena (ondas a los dos lados) y 4 casilleros vacíos (los 4 dígitos del teléfono); celular más grande, sin adornos"
+    },
+    {
+      "L": "2",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L2_item3.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 가족: familia de 4 personas (para 네 명), sin estrellitas de adorno"
+    },
+    {
+      "L": "2",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L2_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Daniel (hombre, izq.) presenta con la mano abierta a su hermana mayor (der., más alta); personajes nuevos, no la flashcard 누나, para no regalar la respuesta"
+    },
+    {
+      "L": "3",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L3_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mapa D1 sin nombres de países (América de México a Chile con EE.UU.; España y Corea agrandadas, fuera de escala; España como península pegada al suroeste de Francia, que sigue fuera del marco, arriba a la derecha) con pines y burbujas 산티아고예요. y 서울이에요. (texto a 24), para los sellos de Zoom"
+    },
+    {
+      "L": "6",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L6_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mismo dibujo en las 3 columnas (A habla, B escucha con su libro, reloj lejos), personas más grandes, sin lápiz ni aros: 여기 · cerca de mí: A señala hacia abajo un pin dorado grande pegado a su lado"
+    },
+    {
+      "L": "6",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L6_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mismo dibujo en las 3 columnas: 거기 · cerca de ti: A estira la mano hacia B y el pin dorado grande está pegado a B"
+    },
+    {
+      "L": "6",
+      "destino": "col",
+      "indice": 2,
+      "archivo": "L6_col2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mismo dibujo en las 3 columnas: 저기 · lejos de los dos: A estira el brazo, flecha punteada por encima de B hasta el reloj y el pin dorado grande debajo del reloj"
+    },
+    {
+      "L": "7",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L7_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D3 con los objetos más grandes: computador encima del escritorio, taza al lado del computador, celular encima de un libro, bolso abierto debajo del escritorio con lentes asomando adentro, silla tapizada delante del escritorio, gato DETRÁS de la silla (la silla lo tapa entero: por la izquierda asoman una oreja, un ojo y una pata; por la derecha, la cola); sin paraguas"
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L8_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 위: gato encima del escritorio (de frente); misma escala del gato y del escritorio en 위/아래/옆; sin insignia de manos (los gestos los hace la profe en vivo)"
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L8_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 아래: gato debajo del escritorio, entre las patas; misma escala; sin insignia"
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L8_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 앞: gato delante de la casa, sentado en el caminito entre la puerta y la calle, tapando la parte de abajo de la puerta (vista de mapa: la puerta mira a la calle); sin insignia"
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L8_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 뒤: gato detrás de la casa, en el patio de atrás: la casa lo tapa y solo asoman orejas, ojos y la cola por encima del techo (vista de mapa: la puerta mira a la calle); sin insignia"
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L8_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 옆: gato al lado del escritorio, en el suelo; misma escala; sin insignia"
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L8_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 안: gato dentro de un bolso (asoma la cabeza, patitas en el borde); misma escala; sin insignia"
+    },
+    {
+      "L": "15",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L15_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Letrero D5: cartel genérico de salida de metro con el 3 y la palabra 출구, y otro de 화장실 con pictogramas (sin logos de operadores)"
+    },
+    {
+      "L": "22",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L22_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D6: dos versiones del escritorio D3 (A arriba, B abajo), el libro en el mismo lugar en las dos, con 3 cambios: celular encima del libro / debajo del libro (asoman la punta y el borde con la pantalla); gato detrás de la silla (asoman oreja y ojo por un lado y la cola por el otro) / delante de la silla (entero, tapando la silla); lentes dentro del bolso / al lado del computador"
+    }
+  ],
+  "sin_imagen": []
+}

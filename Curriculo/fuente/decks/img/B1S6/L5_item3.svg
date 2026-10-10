@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- El día de Kiran · imagen 4: casa y un bol de arroz con palillos (집에 가요. 그리고 밥 먹어요) · sin número propio (la lámina ya lo pone) -->
+<g>
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(-14 2) scale(0.76)"><path d="M32 110 L110 36 L188 110 L174 122 L164 112 L164 186 L56 186 L56 112 L46 122 Z"/><rect x="136" y="42" width="24" height="48"/></g><path d="M92 150 L206 150 Q204 204 149 204 Q94 204 92 150 Z"/><ellipse cx="149" cy="146" rx="54" ry="22"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(-14 2) scale(0.76)"><path d="M32 110 L110 36 L188 110 L174 122 L164 112 L164 186 L56 186 L56 112 L46 122 Z"/><rect x="136" y="42" width="24" height="48"/></g><path d="M92 150 L206 150 Q204 204 149 204 Q94 204 92 150 Z"/><ellipse cx="149" cy="146" rx="54" ry="22"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(-14 2) scale(0.76)"><path d="M32 110 L110 36 L188 110 L174 122 L164 112 L164 186 L56 186 L56 112 L46 122 Z"/><rect x="136" y="42" width="24" height="48"/></g><path d="M92 150 L206 150 Q204 204 149 204 Q94 204 92 150 Z"/><ellipse cx="149" cy="146" rx="54" ry="22"/></g>
+<g transform="translate(-14 2) scale(0.76)">
+<rect x="140" y="50" width="16" height="40" fill="#A86B3C" stroke="#14142B" stroke-width="6.45" stroke-linejoin="round"/>
+<rect x="136" y="42" width="24" height="10" rx="3" fill="#74461F" stroke="#14142B" stroke-width="6.45"/>
+<path d="M56 186 L56 104 L110 56 L164 104 L164 186 Z" fill="#FFF4D9" stroke="#14142B" stroke-width="6.45" stroke-linejoin="round"/>
+<path d="M32 110 L110 36 L188 110 L174 122 L110 62 L46 122 Z" fill="#4236F6" stroke="#14142B" stroke-width="6.45" stroke-linejoin="round"/>
+<path d="M52 100 L100 54" stroke="#DCE0FA" stroke-width="6.45" stroke-linecap="round"/>
+<rect x="66" y="132" width="30" height="28" rx="4" fill="#9FD3F5" stroke="#14142B" stroke-width="6.45"/>
+<path d="M81 134 L81 158 M68 146 L94 146" stroke="#14142B" stroke-width="4.84" stroke-linecap="round"/>
+<path d="M118 186 L118 144 Q118 128 134 128 Q150 128 150 144 L150 186 Z" fill="#C98A3E" stroke="#14142B" stroke-width="6.45" stroke-linejoin="round"/>
+<circle cx="143" cy="162" r="4" fill="#E8B84B" stroke="#14142B" stroke-width="4.84"/></g><path d="M120 112 L196 96 M124 120 L200 108" stroke="#14142B" stroke-width="8" stroke-linecap="round"/><path d="M120 112 L196 96 M124 120 L200 108" stroke="#C98A3E" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M94 146 Q98 120 149 120 Q200 120 204 146 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M118 132 L124 132 M140 128 L146 128 M162 132 L168 132 M132 140 L138 140 M154 140 L160 140" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<path d="M92 146 L206 146 Q204 202 149 202 Q94 202 92 146 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M98 166 L200 166" stroke="#4236F6" stroke-width="7"/><path d="M98 166 L200 166" stroke="#14142B" stroke-width="0"/>
+<path d="M108 182 Q112 192 126 194" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round" fill="none"/>
+</g>
+</svg>

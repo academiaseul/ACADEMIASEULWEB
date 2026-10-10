@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 학생 · estudiante · Estilo A Sticker pop · estudiante de uniforme con mochila (tirantes) y un cuaderno bajo el brazo -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="148" y="126" width="36" height="50" rx="4" transform="rotate(14 166 151)"/>
+<path d="M58 106 C52 60 78 44 104 44 C130 44 156 60 150 106 Z"/>
+<ellipse cx="60" cy="108" rx="7" ry="9"/>
+<ellipse cx="148" cy="108" rx="7" ry="9"/>
+<ellipse cx="104" cy="98" rx="44" ry="42"/>
+<path d="M48 172 C48 132 70 122 104 122 C138 122 160 132 160 172 Z"/>
+<path d="M44 196 C44 166 70 150 104 150 C138 150 164 166 164 196 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="148" y="126" width="36" height="50" rx="4" transform="rotate(14 166 151)"/>
+<path d="M58 106 C52 60 78 44 104 44 C130 44 156 60 150 106 Z"/>
+<ellipse cx="60" cy="108" rx="7" ry="9"/>
+<ellipse cx="148" cy="108" rx="7" ry="9"/>
+<ellipse cx="104" cy="98" rx="44" ry="42"/>
+<path d="M48 172 C48 132 70 122 104 122 C138 122 160 132 160 172 Z"/>
+<path d="M44 196 C44 166 70 150 104 150 C138 150 164 166 164 196 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="148" y="126" width="36" height="50" rx="4" transform="rotate(14 166 151)"/>
+<path d="M58 106 C52 60 78 44 104 44 C130 44 156 60 150 106 Z"/>
+<ellipse cx="60" cy="108" rx="7" ry="9"/>
+<ellipse cx="148" cy="108" rx="7" ry="9"/>
+<ellipse cx="104" cy="98" rx="44" ry="42"/>
+<path d="M48 172 C48 132 70 122 104 122 C138 122 160 132 160 172 Z"/>
+<path d="M44 196 C44 166 70 150 104 150 C138 150 164 166 164 196 Z"/>
+</g>
+<!-- pelo de atrás negro, orejas -->
+<path d="M58 106 C52 60 78 44 104 44 C130 44 156 60 150 106 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="60" cy="108" rx="7" ry="9" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="148" cy="108" rx="7" ry="9" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<!-- mochila que asoma detrás de los hombros (colores del 가방) -->
+<path d="M48 172 C48 132 70 122 104 122 C138 122 160 132 160 172 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M48 152 L48 148 C48 132 70 122 104 122 C138 122 160 132 160 148 L160 152 Q104 162 48 152 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- uniforme navy con camisa blanca -->
+<path d="M44 196 C44 166 70 150 104 150 C138 150 164 166 164 196 Z" fill="#003478" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M92 132 L92 154 Q104 160 116 154 L116 132 Z" fill="#C98A5E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M90 153 L104 174 L118 153 Q104 160 90 153 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<!-- tirantes de la mochila con hebillas doradas -->
+<path d="M68 160 L62 196" stroke="#14142B" stroke-width="18" stroke-linecap="round"/>
+<path d="M68 160 L62 196" stroke="#6FCFAE" stroke-width="10" stroke-linecap="round"/>
+<path d="M140 160 L146 196" stroke="#14142B" stroke-width="18" stroke-linecap="round"/>
+<path d="M140 160 L146 196" stroke="#6FCFAE" stroke-width="10" stroke-linecap="round"/>
+<rect x="58" y="176" width="12" height="8" rx="2" fill="#E8B84B" stroke="#14142B" stroke-width="2.6"/>
+<!-- cuaderno lila bajo el brazo: tapa, etiqueta y anillos -->
+<rect x="148" y="126" width="36" height="50" rx="4" transform="rotate(14 166 151)" fill="#C7B8FF" stroke="#14142B" stroke-width="4"/>
+<rect x="158" y="134" width="20" height="10" rx="2" transform="rotate(14 166 151)" fill="#FFFFFF" stroke="#14142B" stroke-width="2.6"/>
+<path d="M154 132 L154 168" transform="rotate(14 166 151)" stroke="#ECE6FF" stroke-width="4" stroke-linecap="round"/>
+<!-- brazo navy que aprieta el cuaderno contra el cuerpo -->
+<path d="M138 164 C150 162 160 170 164 184 L166 196 L144 196 C144 186 142 174 138 164 Z" fill="#003478" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cabeza, flequillo, brillo -->
+<ellipse cx="104" cy="98" rx="44" ry="42" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<path d="M60 104 C56 70 78 52 104 52 C130 52 152 70 148 104 C142 88 132 80 120 79 C110 88 94 90 80 86 C72 90 64 96 60 104 Z" fill="#14142B"/>
+<path d="M148 104 C142 88 132 80 120 79 C110 88 94 90 80 86 C72 90 64 96 60 104" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M78 58 Q90 52 102 53" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- cara de la casa (104,110) s 0.85 -->
+<ellipse cx="92.1" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="115.9" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="93.97" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="117.77" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="81.9" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="126.1" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M97.2 121.05 Q104 131.25 110.8 121.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M28 24 Q30.4 33.6 40 36 Q30.4 38.4 28 48 Q25.6 38.4 16 36 Q25.6 33.6 28 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 51 Q197.8 58.2 205 60 Q197.8 61.8 196 69 Q194.2 61.8 187 60 Q194.2 58.2 196 51 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="24" cy="150" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 490" width="425" height="490" fill="none">
+<!-- B1S2 L5 · Un piso más: la sílaba 강 como edificio (letrero 강; piso de arriba ㄱ consonante + ㅏ vocal; piso nuevo de abajo ㅇ = 받침) · edificio a todo el ancho y rótulos grandes (28–34) · Sticker pop -->
+<g transform="translate(7 8)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="28" stroke-linejoin="round" stroke-linecap="round">
+<rect x="134" y="14" width="157" height="100" rx="20"/>
+<rect x="166" y="110" width="93" height="26"/>
+<path d="M64 134 L361 134 L401 174 L24 174 Z"/>
+<rect x="34" y="172" width="357" height="284"/>
+<rect x="18" y="452" width="389" height="22" rx="11"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="28" stroke-linejoin="round" stroke-linecap="round">
+<rect x="134" y="14" width="157" height="100" rx="20"/>
+<rect x="166" y="110" width="93" height="26"/>
+<path d="M64 134 L361 134 L401 174 L24 174 Z"/>
+<rect x="34" y="172" width="357" height="284"/>
+<rect x="18" y="452" width="389" height="22" rx="11"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="round" stroke-linecap="round">
+<rect x="134" y="14" width="157" height="100" rx="20"/>
+<rect x="166" y="110" width="93" height="26"/>
+<path d="M64 134 L361 134 L401 174 L24 174 Z"/>
+<rect x="34" y="172" width="357" height="284"/>
+<rect x="18" y="452" width="389" height="22" rx="11"/>
+</g>
+<!-- letrero del techo con la sílaba completa -->
+<rect x="166" y="110" width="13" height="26" fill="#8A8DA0" stroke="#14142B" stroke-width="4"/>
+<rect x="246" y="110" width="13" height="26" fill="#8A8DA0" stroke="#14142B" stroke-width="4"/>
+<rect x="134" y="14" width="157" height="100" rx="20" fill="#4236F6" stroke="#14142B" stroke-width="5"/>
+<text x="212.5" y="96" font-family="Malgun Gothic" font-size="84" font-weight="bold" fill="#FFFFFF" text-anchor="middle">강</text>
+<!-- techo -->
+<path d="M64 134 L361 134 L401 174 L24 174 Z" fill="#003478" stroke="#14142B" stroke-width="5" stroke-linejoin="round"/>
+<path d="M78 147 L347 147" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+<!-- piso de arriba: consonante + vocal -->
+<rect x="34" y="174" width="357" height="146" fill="#DCE0FA" stroke="#14142B" stroke-width="5"/>
+<rect x="52" y="186" width="152" height="90" rx="14" fill="#FFFFFF" stroke="#14142B" stroke-width="5"/>
+<rect x="221" y="186" width="152" height="90" rx="14" fill="#FFFFFF" stroke="#14142B" stroke-width="5"/>
+<text x="128" y="258" font-family="Malgun Gothic" font-size="74" font-weight="bold" fill="#4236F6" text-anchor="middle">ㄱ</text>
+<text x="297" y="258" font-family="Malgun Gothic" font-size="74" font-weight="bold" fill="#4236F6" text-anchor="middle">ㅏ</text>
+<text x="128" y="308" font-family="Arial" font-size="28" font-weight="bold" fill="#003478" text-anchor="middle">consonante</text>
+<text x="297" y="308" font-family="Arial" font-size="28" font-weight="bold" fill="#003478" text-anchor="middle">vocal</text>
+<!-- piso nuevo de abajo: el 받침 -->
+<rect x="34" y="330" width="357" height="126" fill="#FFD95E" stroke="#14142B" stroke-width="5"/>
+<rect x="22" y="318" width="381" height="16" rx="8" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="56" y="346" width="150" height="94" rx="14" fill="#FFFFFF" stroke="#14142B" stroke-width="5"/>
+<text x="131" y="422" font-family="Malgun Gothic" font-size="74" font-weight="bold" fill="#003478" text-anchor="middle">ㅇ</text>
+<text x="300" y="414" font-family="Malgun Gothic" font-size="46" font-weight="bold" fill="#003478" text-anchor="middle">받침</text>
+<!-- suelo -->
+<rect x="18" y="452" width="389" height="22" rx="11" fill="#7FD1AE" stroke="#14142B" stroke-width="4"/>
+<!-- adornos -->
+<path d="M58 40 Q61 52 73 55 Q61 58 58 70 Q55 58 43 55 Q55 52 58 40 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M370 52 Q372.4 61.6 382 64 Q372.4 66.4 370 76 Q367.6 66.4 358 64 Q367.6 61.6 370 52 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="392" cy="104" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

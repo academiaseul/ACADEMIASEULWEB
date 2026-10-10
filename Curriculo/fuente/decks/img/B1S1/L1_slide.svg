@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 490" width="425" height="490" fill="none">
+<!-- B1S1 L1 · mapa mínimo del teclado coreano: A S D F G = ㅁ ㄴ ㅇ ㄹ ㅎ (consonantes, teclas blancas) y H J K L = ㅗ ㅓ ㅏ ㅣ (vocales, teclas amarillas); letra latina y jamo grandes; ejemplo D + K = 아 en el chat -->
+<g transform="translate(4.2 4.9)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="16.799999999999997" stroke-linejoin="round"><rect x="10" y="10" width="405" height="132" rx="24"/><rect x="89" y="156" width="326" height="132" rx="24"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="16.799999999999997" stroke-linejoin="round"><rect x="10" y="10" width="405" height="132" rx="24"/><rect x="89" y="156" width="326" height="132" rx="24"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="11.899999999999999" stroke-linejoin="round"><rect x="10" y="10" width="405" height="132" rx="24"/><rect x="89" y="156" width="326" height="132" rx="24"/></g>
+<rect x="10" y="10" width="405" height="132" rx="24" fill="#DCE0FA" stroke="#14142B" stroke-width="4"/>
+<rect x="89" y="156" width="326" height="132" rx="24" fill="#FFF3C8" stroke="#14142B" stroke-width="4"/>
+<rect x="20.5" y="26" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="20.5" y="20" width="72" height="106" rx="14" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<text x="30.5" y="52" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">A</text>
+<text x="60.5" y="110" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#4236F6">ㅁ</text>
+<rect x="98.5" y="26" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="98.5" y="20" width="72" height="106" rx="14" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<text x="108.5" y="52" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">S</text>
+<text x="138.5" y="110" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#4236F6">ㄴ</text>
+<rect x="176.5" y="26" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="176.5" y="20" width="72" height="106" rx="14" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<text x="186.5" y="52" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">D</text>
+<text x="216.5" y="110" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#4236F6">ㅇ</text>
+<rect x="254.5" y="26" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="254.5" y="20" width="72" height="106" rx="14" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<text x="264.5" y="52" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">F</text>
+<text x="294.5" y="110" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#4236F6">ㄹ</text>
+<path d="M280.5 120 L300.5 120" stroke="#8A8DA0" stroke-width="4" stroke-linecap="round"/>
+<rect x="332.5" y="26" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="332.5" y="20" width="72" height="106" rx="14" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<text x="342.5" y="52" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">G</text>
+<text x="372.5" y="110" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#4236F6">ㅎ</text>
+<rect x="99" y="172" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="99" y="166" width="72" height="106" rx="14" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<text x="109" y="198" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">H</text>
+<text x="139" y="253" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#003478">ㅗ</text>
+<rect x="177" y="172" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="177" y="166" width="72" height="106" rx="14" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<text x="187" y="198" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">J</text>
+<text x="217" y="253" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#003478">ㅓ</text>
+<path d="M203 266 L223 266" stroke="#8A8DA0" stroke-width="4" stroke-linecap="round"/>
+<rect x="255" y="172" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="255" y="166" width="72" height="106" rx="14" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<text x="265" y="198" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">K</text>
+<text x="295" y="253" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#003478">ㅏ</text>
+<rect x="333" y="172" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="333" y="166" width="72" height="106" rx="14" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<text x="343" y="198" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">L</text>
+<text x="373" y="253" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#003478">ㅣ</text>
+<rect x="12" y="334" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="12" y="328" width="72" height="106" rx="14" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<text x="22" y="360" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">D</text>
+<text x="52" y="418" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#4236F6">ㅇ</text>
+<text x="107" y="396" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="44" fill="#14142B">+</text>
+<rect x="130" y="334" width="72" height="106" rx="14" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="130" y="328" width="72" height="106" rx="14" fill="#FFD95E" stroke="#14142B" stroke-width="4"/>
+<text x="140" y="360" font-family="Arial" font-weight="bold" font-size="28" fill="#14142B">K</text>
+<text x="170" y="415" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="56" fill="#003478">ㅏ</text>
+<text x="226" y="396" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="44" fill="#14142B">=</text>
+<g transform="translate(3.6 4.2)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="14.4" stroke-linejoin="round"><path d="M272 314 L394 314 Q414 314 414 334 L414 420 Q414 440 394 440 L302 440 L280 466 L283 440 L272 440 Q252 440 252 420 L252 334 Q252 314 272 314 Z"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="14.4" stroke-linejoin="round"><path d="M272 314 L394 314 Q414 314 414 334 L414 420 Q414 440 394 440 L302 440 L280 466 L283 440 L272 440 Q252 440 252 420 L252 334 Q252 314 272 314 Z"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="10.2" stroke-linejoin="round"><path d="M272 314 L394 314 Q414 314 414 334 L414 420 Q414 440 394 440 L302 440 L280 466 L283 440 L272 440 Q252 440 252 420 L252 334 Q252 314 272 314 Z"/></g>
+<path d="M272 314 L394 314 Q414 314 414 334 L414 420 Q414 440 394 440 L302 440 L280 466 L283 440 L272 440 Q252 440 252 420 L252 334 Q252 314 272 314 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<text x="333" y="412" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="92" fill="#4236F6">아</text>
+<path d="M402 458 Q404.2 466.8 413 469 Q404.2 471.2 402 480 Q399.8 471.2 391 469 Q399.8 466.8 402 458 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="30" cy="470" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

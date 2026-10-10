@@ -1,0 +1,261 @@
+{
+  "imagenes": [
+    {
+      "L": "2",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L2_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Escritorio del Quiz 5, sin marco propio y con los muebles llenando el encuadre: computador grande encima del escritorio; al lado del computador, una taza de café; una silla de perfil con un libro encima; debajo de la silla, un bolso; ventana y cuadro arriba; sin paraguas"
+    },
+    {
+      "L": "3",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L3_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "El mismo dibujo del escritorio de L2 (Quiz 5), sin marco propio"
+    },
+    {
+      "L": "5",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L5_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Imagen 1, sin número propio (la lámina ya lo pone), llenando el cuadro: sol y alguien que se estira (일어나요)"
+    },
+    {
+      "L": "5",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L5_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Imagen 2, sin número propio, llenando el cuadro: taza de café humeante (매일 커피 마셔요)"
+    },
+    {
+      "L": "5",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L5_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Imagen 3, sin número propio: parque (árbol y banca) y zapatillas grandes (공원에 가요. 그리고 운동해요)"
+    },
+    {
+      "L": "5",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L5_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Imagen 4, sin número propio: casa más grande y un bol de arroz con palillos (집에 가요. 그리고 밥 먹어요)"
+    },
+    {
+      "L": "5",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L5_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Imagen 5, sin número propio: videollamada en un portátil con 4 alumnos grandes (지금 일해요!)"
+    },
+    {
+      "L": "6",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L6_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Las mismas 5 imágenes de L5 (versión nueva) en una sola lámina, con insignias navy numeradas legibles (para acompañar la tabla de frases)"
+    },
+    {
+      "L": "8a",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L8a_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 가다, en grande: mano de lado cuyos dos dedos caminan alejándose hacia la derecha, flecha grande hacia afuera"
+    },
+    {
+      "L": "8a",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L8a_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 오다: Kiran estira el brazo y llama con la mano abierta (flecha curva de los dedos hacia ella) y una flecha grande que viene hacia ella"
+    },
+    {
+      "L": "8a",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L8a_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 먹다: palillos grandes con un bocado de arroz a la boca y el bol en primer plano"
+    },
+    {
+      "L": "8a",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L8a_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 마시다: taza grande inclinada en la boca, con vapor"
+    },
+    {
+      "L": "8a",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L8a_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 보다: mano en V grande junto a los ojos, líneas de mirada y flecha hacia adelante"
+    },
+    {
+      "L": "8a",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L8a_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 자다: cabeza ladeada sobre las dos manos juntas bajo la mejilla, ojos cerrados y Z grandes"
+    },
+    {
+      "L": "8b",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L8b_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 공부하다: palma abierta grande y un lápiz que escribe en ella"
+    },
+    {
+      "L": "8b",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L8b_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 일하다: teclado grande con teclas visibles y dos manos que teclean"
+    },
+    {
+      "L": "8b",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L8b_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 운동하다: Kiran trotando de cuerpo entero (brazos doblados, uno adelante y otro atrás), zapatillas y líneas de velocidad"
+    },
+    {
+      "L": "8b",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L8b_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 쉬다: recostada en el sofá con las manos detrás de la nuca (codos bien afuera)"
+    },
+    {
+      "L": "8b",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L8b_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 요리하다: olla grande con vapor, cucharón que revuelve y flecha circular"
+    },
+    {
+      "L": "8b",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L8b_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gesto de 일어나다: sentada en la cama, brazos arriba, bostezo y sol"
+    },
+    {
+      "L": "15",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L15_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Casa con alguien que llama por teléfono en la ventana; en la calle, una persona con el celular camina hacia la casa (flecha hacia la casa)"
+    },
+    {
+      "L": "17",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L17_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Calle de noche con un edificio lleno de carteles de 학원 (inglés, lectura, matemáticas) y otro de piano, alumnos de espaldas con mochila, sin caras"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 0,
+      "archivo": "L20_glifo0.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 집 (ícono 1)"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 1,
+      "archivo": "L20_glifo1.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 학교 (ícono 2)"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 2,
+      "archivo": "L20_glifo2.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 회사 (ícono 3)"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 3,
+      "archivo": "L20_glifo3.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 카페 (ícono 4)"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 4,
+      "archivo": "L20_glifo4.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 식당 (ícono 5), adaptada: letrero grande con bol de arroz y palillos para que no se confunda con 회사"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 5,
+      "archivo": "L20_glifo5.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 공원 (ícono 6)"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 6,
+      "archivo": "L20_glifo6.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 병원 (ícono 7)"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 7,
+      "archivo": "L20_glifo7.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 은행 (ícono 8)"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 8,
+      "archivo": "L20_glifo8.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 학원 (ícono 9), adaptada: letreros laterales grandes con libro y lápiz para que no se confunda con 회사"
+    },
+    {
+      "L": "20",
+      "destino": "glifo",
+      "indice": 9,
+      "archivo": "L20_glifo9.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 한국 (ícono 10)"
+    }
+  ],
+  "sin_imagen": []
+}

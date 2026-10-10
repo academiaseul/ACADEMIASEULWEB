@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" width="440" height="200" fill="none">
+<!-- Quiz 3, ítem 5: fachada de un café y su pizarra con el horario (카페 한강 · 화요일 ~ 일요일 · 오전 8:00 ~ 오후 10:00 · 월요일은 쉽니다.). Pizarra grande: es la única fuente del ítem. -->
+<g transform="translate(220 100) scale(0.95) translate(-220 -100)">
+<g transform="translate(58 182) scale(0.78)">
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="-46" y="-84" width="92" height="84" rx="4"/>
+<path d="M-54 -86 L54 -86 L54 -68 L-54 -68 Z"/>
+<rect x="-16" y="-118" width="32" height="26" rx="5"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="-46" y="-84" width="92" height="84" rx="4"/>
+<path d="M-54 -86 L54 -86 L54 -68 L-54 -68 Z"/>
+<rect x="-16" y="-118" width="32" height="26" rx="5"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="-46" y="-84" width="92" height="84" rx="4"/>
+<path d="M-54 -86 L54 -86 L54 -68 L-54 -68 Z"/>
+<rect x="-16" y="-118" width="32" height="26" rx="5"/>
+</g>
+<rect x="-46" y="-84" width="92" height="84" rx="4" fill="#FFF3D6" stroke="#14142B" stroke-width="4"/>
+<rect x="-39" y="-58" width="32" height="33.6" rx="3" fill="#9FD3F5" stroke="#14142B" stroke-width="3.5"/>
+<rect x="7" y="-58" width="32" height="58" rx="3" fill="#A86B3C" stroke="#14142B" stroke-width="3.5"/>
+<circle cx="32" cy="-30" r="2.5" fill="#E8B84B"/>
+<path d="M-54 -86 L-36 -86 L-36 -70 Q-45 -61 -54 -70 Z" fill="#4236F6" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M-36 -86 L-18 -86 L-18 -70 Q-27 -61 -36 -70 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M-18 -86 L0 -86 L0 -70 Q-9 -61 -18 -70 Z" fill="#4236F6" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M0 -86 L18 -86 L18 -70 Q9 -61 0 -70 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M18 -86 L36 -86 L36 -70 Q27 -61 18 -70 Z" fill="#4236F6" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M36 -86 L54 -86 L54 -70 Q45 -61 36 -70 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<rect x="-16" y="-118" width="32" height="26" rx="5" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<path d="M-7 -111 L7 -111 L6 -101 Q0 -97 -6 -101 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<!-- pizarra -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="114" y="12" width="312" height="176" rx="16"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="114" y="12" width="312" height="176" rx="16"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="114" y="12" width="312" height="176" rx="16"/>
+</g>
+<rect x="114" y="12" width="312" height="176" rx="16" fill="#C98A3E" stroke="#14142B" stroke-width="4"/>
+<rect x="124" y="22" width="292" height="156" rx="8" fill="#003478" stroke="#14142B" stroke-width="3.5"/>
+<text x="270" y="58" font-family="Malgun Gothic" font-size="32" font-weight="bold" fill="#FFD95E" text-anchor="middle">카페 한강</text>
+<path d="M180 72 L360 72" stroke="#E8B84B" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 7"/>
+<text x="270" y="103" font-family="Malgun Gothic" font-size="25" fill="#FFFFFF" text-anchor="middle">화요일 ~ 일요일</text>
+<text x="270" y="136" font-family="Malgun Gothic" font-size="25" fill="#FFFFFF" text-anchor="middle">오전 8:00 ~ 오후 10:00</text>
+<text x="270" y="168" font-family="Malgun Gothic" font-size="25" fill="#FFFFFF" text-anchor="middle">월요일은 쉽니다.</text>
+<path d="M24 32 Q25.8 39.2 33 41 Q25.8 42.8 24 50 Q22.2 42.8 15 41 Q22.2 39.2 24 32 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+</g>
+</svg>

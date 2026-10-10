@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- Extra · ítem 2 = Busan: puente colgante sobre el mar, rascacielos y playa (foto sin nombre) · Estilo A Sticker pop · Academia Seúl -->
+<defs><clipPath id="fBusan"><rect x="4" y="4" width="212" height="212" rx="26"/></clipPath></defs>
+<g clip-path="url(#fBusan)">
+<rect x="0" y="0" width="220" height="220" fill="#E6F5FF"/>
+<g transform="translate(-37.4 -45.4) scale(1.34)">
+<circle cx="150" cy="66" r="13" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<path d="M48 66 Q53 61 58 66 Q63 61 68 66" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="30" y="92" width="18" height="46" fill="#B3B8D6" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/><rect x="32.67" y="100" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="40.33" y="100" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="32.67" y="113" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="40.33" y="113" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="32.67" y="126" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="40.33" y="126" width="5" height="7" rx="1" fill="#9FD3F5"/>
+<rect x="48" y="80" width="20" height="58" fill="#DCE0FA" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/><rect x="51.33" y="88" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="59.67" y="88" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="51.33" y="101" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="59.67" y="101" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="51.33" y="114" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="59.67" y="114" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="51.33" y="127" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="59.67" y="127" width="5" height="7" rx="1" fill="#9FD3F5"/>
+<rect x="68" y="98" width="16" height="40" fill="#003478" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/><rect x="73.5" y="106" width="5" height="7" rx="1" fill="#FFD95E"/><rect x="73.5" y="119" width="5" height="7" rx="1" fill="#FFD95E"/>
+<rect x="150" y="96" width="18" height="42" fill="#DCE0FA" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/><rect x="152.67" y="104" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="160.33" y="104" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="152.67" y="117" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="160.33" y="117" width="5" height="7" rx="1" fill="#9FD3F5"/>
+<rect x="168" y="86" width="22" height="52" fill="#B3B8D6" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/><rect x="172" y="94" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="181" y="94" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="172" y="107" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="181" y="107" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="172" y="120" width="5" height="7" rx="1" fill="#9FD3F5"/><rect x="181" y="120" width="5" height="7" rx="1" fill="#9FD3F5"/>
+<rect x="118" y="104" width="18" height="34" fill="#4236F6" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/><rect x="124.5" y="112" width="5" height="7" rx="1" fill="#FFD95E"/><rect x="124.5" y="125" width="5" height="7" rx="1" fill="#FFD95E"/>
+<path d="M18 138 Q40 132 62 138 T106 138 T150 138 T194 138 T238 138 L238 210 L18 210 Z" fill="#9FD3F5" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M18 126 Q50 122 79 92 M79 92 Q110 132 141 92 M141 92 Q170 122 202 126" fill="none" stroke="#003478" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M92 109.26 L92 130" stroke="#003478" stroke-width="2"/><path d="M102 114.67 L102 130" stroke="#003478" stroke-width="2"/><path d="M110 116 L110 130" stroke="#003478" stroke-width="2"/><path d="M118 114.67 L118 130" stroke="#003478" stroke-width="2"/><path d="M128 109.26 L128 130" stroke="#003478" stroke-width="2"/><path d="M40 120.5 L40 130" stroke="#003478" stroke-width="2"/><path d="M56 116.5 L56 130" stroke="#003478" stroke-width="2"/><path d="M164 116.5 L164 130" stroke="#003478" stroke-width="2"/><path d="M180 120.5 L180 130" stroke="#003478" stroke-width="2"/>
+<rect x="74" y="86" width="10" height="56" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/><rect x="136" y="86" width="10" height="56" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="14" y="128" width="192" height="9" rx="3" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<path d="M10 172 Q36 158 62 172 T114 172 T166 172 T218 172 L218 210 L10 210 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M40 170 Q48 163 56 170" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/><path d="M150 170 Q158 163 166 170" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/><path d="M96 152 Q102 147 108 152" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<path d="M18 210 L18 186 Q70 176 120 192 Q150 200 160 210 Z" fill="#FFD95E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="70" cy="194" r="2.5" fill="#C98A3E"/><circle cx="96" cy="198" r="2" fill="#C98A3E"/><circle cx="50" cy="200" r="2" fill="#C98A3E"/>
+</g>
+</g>
+<rect x="4" y="4" width="212" height="212" rx="26" fill="none" stroke="#14142B" stroke-width="5"/>
+</svg>

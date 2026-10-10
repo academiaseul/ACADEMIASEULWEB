@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B1S1 L14 · ㄴ · perfil con la boca en corte: la punta de la lengua toca detrás de los dientes de arriba; la ㄴ azul sigue la lengua; boca grande, interior oscuro y lengua naranja para que se vea en Zoom -->
+<g transform="translate(6 11) scale(0.9)">
+<g transform="translate(6.666666666666667 7.777777777777779)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="26.666666666666668" stroke-linejoin="round" stroke-linecap="round"><path d="M120 12 C170 12 204 46 204 96 C204 126 194 146 180 158 L180 184 L100 184 L100 176 C84 176 62 174 50 166 C40 160 36 150 38 140 L37 136 C31 135 28 130 31 127 L35 125 L31 122 C28 118 30 113 36 112 L37 108 C30 106 20 101 19 97 C24 92 34 84 40 74 C40 54 46 38 60 26 C76 16 96 12 120 12 Z"/><path d="M42 64 C44 30 78 10 122 10 C172 10 206 46 204 98 C203 122 196 140 184 152 C188 120 178 86 152 74 C120 58 80 58 42 64 Z"/><path d="M70 204 C72 192 86 184 104 184 L176 184 C194 184 206 192 208 204 Z"/><ellipse cx="166" cy="104" rx="11" ry="15"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="26.666666666666668" stroke-linejoin="round" stroke-linecap="round"><path d="M120 12 C170 12 204 46 204 96 C204 126 194 146 180 158 L180 184 L100 184 L100 176 C84 176 62 174 50 166 C40 160 36 150 38 140 L37 136 C31 135 28 130 31 127 L35 125 L31 122 C28 118 30 113 36 112 L37 108 C30 106 20 101 19 97 C24 92 34 84 40 74 C40 54 46 38 60 26 C76 16 96 12 120 12 Z"/><path d="M42 64 C44 30 78 10 122 10 C172 10 206 46 204 98 C203 122 196 140 184 152 C188 120 178 86 152 74 C120 58 80 58 42 64 Z"/><path d="M70 204 C72 192 86 184 104 184 L176 184 C194 184 206 192 208 204 Z"/><ellipse cx="166" cy="104" rx="11" ry="15"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="18.88888888888889" stroke-linejoin="round" stroke-linecap="round"><path d="M120 12 C170 12 204 46 204 96 C204 126 194 146 180 158 L180 184 L100 184 L100 176 C84 176 62 174 50 166 C40 160 36 150 38 140 L37 136 C31 135 28 130 31 127 L35 125 L31 122 C28 118 30 113 36 112 L37 108 C30 106 20 101 19 97 C24 92 34 84 40 74 C40 54 46 38 60 26 C76 16 96 12 120 12 Z"/><path d="M42 64 C44 30 78 10 122 10 C172 10 206 46 204 98 C203 122 196 140 184 152 C188 120 178 86 152 74 C120 58 80 58 42 64 Z"/><path d="M70 204 C72 192 86 184 104 184 L176 184 C194 184 206 192 208 204 Z"/><ellipse cx="166" cy="104" rx="11" ry="15"/></g>
+<path d="M120 12 C170 12 204 46 204 96 C204 126 194 146 180 158 L180 184 L100 184 L100 176 C84 176 62 174 50 166 C40 160 36 150 38 140 L37 136 C31 135 28 130 31 127 L35 125 L31 122 C28 118 30 113 36 112 L37 108 C30 106 20 101 19 97 C24 92 34 84 40 74 C40 54 46 38 60 26 C76 16 96 12 120 12 Z" fill="#C98A5E" stroke="#14142B" stroke-width="4.44" stroke-linejoin="round"/>
+<path d="M42 64 C44 30 78 10 122 10 C172 10 206 46 204 98 C203 122 196 140 184 152 C188 120 178 86 152 74 C120 58 80 58 42 64 Z" fill="#74461F" stroke="#14142B" stroke-width="4.44" stroke-linejoin="round"/>
+<ellipse cx="166" cy="104" rx="11" ry="15" fill="#C98A5E" stroke="#14142B" stroke-width="4.44" stroke-linejoin="round"/>
+<path d="M164 96 Q172 104 164 112" stroke="#A86B3C" stroke-width="3.33" stroke-linecap="round"/>
+<path d="M70 204 C72 192 86 184 104 184 L176 184 C194 184 206 192 208 204 Z" fill="#003478" stroke="#14142B" stroke-width="4.44" stroke-linejoin="round"/>
+<path d="M100 186 Q140 198 180 186" stroke="#14142B" stroke-width="3.89" stroke-linecap="round"/>
+<ellipse cx="74" cy="68" rx="6" ry="8" fill="#14142B"/><circle cx="76" cy="65.4" r="2.2" fill="#FFFFFF"/>
+<ellipse cx="88" cy="87" rx="8" ry="5" fill="#FFB98A"/>
+<clipPath id="cav1"><path d="M48 114 C62 104 92 102 114 103 C132 104 144 110 148 124 L150 184 L128 184 L128 172 C128 166 122 164 112 164 L60 164 C52 164 48 158 48 150 Z"/></clipPath>
+<path d="M48 114 C62 104 92 102 114 103 C132 104 144 110 148 124 L150 184 L128 184 L128 172 C128 166 122 164 112 164 L60 164 C52 164 48 158 48 150 Z" fill="#14142B"/>
+<g clip-path="url(#cav1)"><path d="M48 200 L48 122 C48 108 54 104 62 108 C66 120 72 130 88 134 C104 138 120 136 128 144 L128 200 Z" fill="#F0A055" stroke="#C8641E" stroke-width="3.89" stroke-linejoin="round"/></g>
+<path d="M48 114 C62 104 92 102 114 103 C132 104 144 110 148 124 L150 184 L128 184 L128 172 C128 166 122 164 112 164 L60 164 C52 164 48 158 48 150 Z" stroke="#14142B" stroke-width="4.44" stroke-linejoin="round"/>
+<path d="M40 109 L50 109 L49 122 L42 122 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.33" stroke-linejoin="round"/>
+<path d="M42 128 L49 128 L50 141 L40 141 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.33" stroke-linejoin="round"/>
+<path d="M62 124 L62 150 L110 150" stroke="#FFFFFF" stroke-width="18.89" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M62 124 L62 150 L110 150" stroke="#4236F6" stroke-width="11.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

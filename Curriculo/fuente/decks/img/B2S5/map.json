@@ -1,0 +1,83 @@
+{
+  "imagenes": [
+    {
+      "L": "1",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L1_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Caja azul de palitos de chocolate sin marca, con 11/11 en blanco y cuatro palitos que asoman en dos pares (como 11 11), dos palitos sueltos delante y corazones azul y oro. El 였어요 en azul de la frase lo pone el generador."
+    },
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mi plan en 6 viñetas en una grilla 2 × 3 que se lee como el texto (1 2 / 3 4 / 5 6), con números grandes: 1 calendario 일월, 2 avión, 3 familia (papá, abuela, mamá) que entra desde el borde de su viñeta, 4 tren bala, 5 Busan: mar con puente que llena la viñeta y cámara de fotos, 6 luna con mesa de comida coreana y cama de hotel (-거나). Reemplaza la foto de Jay."
+    },
+    {
+      "L": "11",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L11_slide.svg",
+      "origen": "flashcard",
+      "descripcion": "Un brazo entra desde el borde izquierdo y señala la taza de la flashcard 컵, con el globo «이거 한국어로 뭐예요?» (fila 4 de la tabla); la respuesta 컵이에요 la dice la clase, no está escrita."
+    },
+    {
+      "L": "13",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L13_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mapa simple de Corea del Sur con solo 서울, 부산 y 제주도: Seúl → Busan por una vía de tren con un tren bala, y Seúl → Jeju con un arco punteado por el mar y un avión. Sin romanización."
+    },
+    {
+      "L": "24",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L24_slide.png",
+      "origen": "captura_sitio",
+      "descripcion": "Captura RECORTADA del Lector (public/lector-coreano/index.html del repo, vista de 432 px, 10 oct 2026): solo las pestañas (Practicar activa), las chapitas (Palabras activa), la fila Lectura · Racha 0 · Aciertos 0/0 y la tarjeta 서울; sin opciones (traen romanización), sin casilla y sin pie. Proporción 425:490, texto ≈ 1,7 veces más grande que la captura anterior. Script: scratchpad/rev/cap_lector_recorte.js."
+    },
+    {
+      "L": "Extra",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "LExtra_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Foto 1 = 서울: «foto» cuadrada de esquinas redondeadas que llena el viewBox, con la torre N Seoul entera y grande en el cerro Namsan sobre la ciudad, sin nombre."
+    },
+    {
+      "L": "Extra",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "LExtra_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Foto 2 = 부산: «foto» cuadrada que llena el viewBox, con puente colgante sobre el mar, rascacielos y playa, sin nombre."
+    },
+    {
+      "L": "Extra",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "LExtra_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Foto 3 = 제주도: «foto» cuadrada que llena el viewBox, con el abuelo de piedra (돌하르방) que entra desde el borde inferior, el monte Halla, el mar y una rama de mandarinas, sin nombre."
+    },
+    {
+      "L": "Extra",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "LExtra_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Foto 4 = 일본 (Tokio): «foto» cuadrada que llena el viewBox, con el monte nevado y una torre de celosía dorada, sin nombre."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "25",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la lámina de cierre ya trae el logo azul y el sello del tigre de la plantilla."
+    }
+  ]
+}

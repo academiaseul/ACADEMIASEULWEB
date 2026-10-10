@@ -1,0 +1,99 @@
+{
+  "imagenes": [
+    {
+      "L": "1",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L1_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dos relojes en dos tarjetas: arriba Santiago, miércoles, 21:00, de noche (fondo navy y luna); abajo 서울, jueves, 09:00, de mañana (fondo celeste y sol). Ambos relojes marcan las nueve."
+    },
+    {
+      "L": "3",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L3_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Ítem 3 (집에 강아지가 ______ → 없어요): una casa con un gato sentado al frente (sí hay) y, al lado, el perrito de las flashcards a color tachado con una X gris gruesa de contorno oscuro que deja ver su cara (no hay perro). Piezas grandes para que se lea a 0,8\"."
+    },
+    {
+      "L": "5",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L5_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Santiago: reloj que marca las 21:05 de noche (luna, fondo navy) y calendario de octubre de 2026 con las dos semanas de clase (12–18 y 19–25, lunes primero, letra grande) y el miércoles 21 marcado en azul."
+    },
+    {
+      "L": "5",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L5_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Seúl: reloj que marca las 09:05 de mañana (sol, fondo celeste) y el mismo calendario de octubre de 2026 (semanas del 12 y del 19) con el jueves 22 marcado en amarillo: el día marcado salta uno a la derecha."
+    },
+    {
+      "L": "9",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L9_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Reloj analógico grande con las 12 horas rotuladas en hangul (한 시 … 열두 시) en lugar de números; marca 아홉 시 (destacado en azul), la hora de la clase."
+    },
+    {
+      "L": "10",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L10_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Para 제 강아지는 세 살이에요: el perrito de las flashcards con gorro de fiesta junto a una torta con 3 velas (llamas amarillas). Opcional: si Jay quiere usar la foto de su propia mascota, la pega encima en PowerPoint."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L11_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Reloj que marca las 4:00 (sin números: el alumno lee la hora). Esfera grande, horario corto y gordo en oro, minutero largo y delgado en navy."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L11_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Reloj que marca las 11:00 (mismo diseño: horario corto y gordo en el 11, minutero largo en el 12, para que no se confunda con las 12:00)."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L11_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Reloj que marca las 7:00 (mismo diseño)."
+    },
+    {
+      "L": "17",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L17_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Hoja 'Calendario del curso' (el título 생일이 언제예요? va en la lámina, no se repite en la hoja): 2 columnas × 6 filas, de 일월 a 유월 y de 칠월 a 십이월 (유월 y 시월 destacados en amarillo), cada mes con dos renglones vacíos para escribir los nombres en vivo con 'Anotar' de Zoom (o compartir la hoja de Google con el mismo formato)."
+    },
+    {
+      "L": "23",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L23_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dibujo (en vez de foto con licencia) de un bol de 미역국 humeante: caldo claro con tiras de alga verde oscuro y trocitos de carne, con un tazón de arroz, cuchara y palillos al lado."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "2",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la portada de la plantilla ya trae el logo azul de Academia Seúl y el sello del tigre."
+    }
+  ]
+}

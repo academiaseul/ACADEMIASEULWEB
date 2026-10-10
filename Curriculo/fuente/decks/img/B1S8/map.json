@@ -1,0 +1,144 @@
+{
+  "imagenes": [
+    {
+      "L": "3",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L3_palabra0.svg",
+      "origen": "flashcard",
+      "descripcion": "Provisional hasta que Kiran mande sus 4 gustos reales (antes del vie 20 nov): taza de café (flashcard 커피) para 커피를 정말 좋아해요."
+    },
+    {
+      "L": "3",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L3_palabra1.svg",
+      "origen": "flashcard",
+      "descripcion": "Provisional hasta que Kiran mande sus 4 gustos reales (antes del vie 20 nov): pantalla con una escena de K-drama y pañuelos (flashcard 드라마) para 한국 드라마를 좋아해요."
+    },
+    {
+      "L": "3",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L3_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Provisional hasta que Kiran mande sus 4 gustos reales (antes del vie 20 nov): olla de ramyeon (flashcard 라면) para 라면은 조금 좋아해요."
+    },
+    {
+      "L": "3",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L3_palabra3.svg",
+      "origen": "flashcard",
+      "descripcion": "Provisional hasta que Kiran mande sus 4 gustos reales (antes del vie 20 nov): pelota y pesa (flashcard 운동) para 운동은 안 좋아해요."
+    },
+    {
+      "L": "9a",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L9a_palabra0.svg",
+      "origen": "flashcard",
+      "descripcion": "Manzana verde (flashcard 사과), nunca roja."
+    },
+    {
+      "L": "9a",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L9a_palabra1.svg",
+      "origen": "flashcard",
+      "descripcion": "Racimo de bananas (flashcard 바나나)."
+    },
+    {
+      "L": "9a",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L9a_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Frutas grandes saliendo de una canasta baja: racimo de uvas lila, manzana verde, pera dorada y plátanos (redibujo de la flashcard 과일 para que se distinga cada fruta)"
+    },
+    {
+      "L": "9a",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L9a_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Plato blanco con un montón de tiras grandes de carne marinada (cintas onduladas cafés con borde claro), cebolla, cebollín, zanahoria y sésamo; palillos que levantan una tira (redibujo de la flashcard 불고기)"
+    },
+    {
+      "L": "9a",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L9a_palabra4.svg",
+      "origen": "flashcard",
+      "descripcion": "Olla de ramyeon con palillos (flashcard 라면)."
+    },
+    {
+      "L": "9b",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L9b_palabra0.svg",
+      "origen": "flashcard",
+      "descripcion": "Claqueta y cabritas (flashcard 영화)."
+    },
+    {
+      "L": "9b",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L9b_palabra1.svg",
+      "origen": "flashcard",
+      "descripcion": "Joven cantando con micrófono y notas (flashcard 노래)."
+    },
+    {
+      "L": "9b",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L9b_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Pantalla con una escena de K-drama y pañuelos (flashcard 드라마)."
+    },
+    {
+      "L": "9b",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L9b_palabra3.svg",
+      "origen": "flashcard",
+      "descripcion": "Pelota y pesa (flashcard 운동)."
+    },
+    {
+      "L": "9b",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L9b_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "포기김치 cortado a lo largo sobre un plato: hojas de col con nervios crema y pasta de ají naranja oscuro (#C8641E/#E08A3C, nunca rojo), puntas verdes y dos trozos cortados; reemplaza la vasija 옹기 que se leía como olla"
+    },
+    {
+      "L": "10",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L10_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "En Corea: caja de regalo abierta, mixta, con 사과 verdes y 배 dorados con pintitas, cada fruta en su malla blanca de espuma bien visible; cinta y moño dorados; llena el cuadro; sin texto ni manzanas rojas."
+    },
+    {
+      "L": "10",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L10_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Por acá: canasta navideña de mimbre con pan de pascua (frutas confitadas verdes y doradas), un regalo y galletas; al lado, otro regalo y una torre de galletas; misma altura que la caja de la otra columna."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "1",
+      "motivo": "plantilla",
+      "instruccion": "La portada de la plantilla de la casa ya trae logo azul y sello del tigre. Solo si Jay quiere el diseño exacto de la lám. 1 de A1_Nivel_1/Repaso_MidTerm_A1.pptx: copiarla a mano en PowerPoint con los textos nuevos de esta portada (azul #4236F6, nada en rojo)."
+    },
+    {
+      "L": "19",
+      "motivo": "plantilla",
+      "instruccion": "La lámina de cierre de la plantilla ya trae el sello del tigre (versión 2, sin marco). Solo si Jay quiere el diseño de la lám. 34 de A1_Nivel_1/Repaso_MidTerm_A1.pptx (frase de marca del kit): pegarlo a mano en PowerPoint."
+    }
+  ]
+}

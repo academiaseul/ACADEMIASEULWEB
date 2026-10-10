@@ -1,0 +1,173 @@
+{
+  "imagenes": [
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Edificio de la sílaba 강 (idea de la lám. 93 de Hangul_Deck_Cap3-4) a todo el ancho: letrero 강 en el techo; piso de arriba con ㄱ y ㅏ y sus rótulos «consonante» y «vocal» en grande (28); piso nuevo de abajo, en amarillo, con ㅇ y el rótulo 받침 al lado (46)"
+    },
+    {
+      "L": "8",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L8_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㄴ final: letra ㄴ en un círculo azul + cabeza grande de perfil con la boca en corte; boca casi cerrada, la lengua NARANJA sube y su punta toca detrás de los dientes de arriba (punto dorado grande + flecha navy hacia arriba adelante); aire en lila; sin camisa azul (nada se confunde con la lengua); el busto se cierra abajo con un cuello de camisa verde, sin corte en el borde"
+    },
+    {
+      "L": "8",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L8_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅇ final: letra ㅇ en un círculo azul + la misma cabeza; boca abierta (mandíbula abajo), la punta de la lengua NARANJA baja detrás de los dientes de abajo y la parte de atrás sube hasta el paladar blando (punto dorado grande al fondo + flecha navy hacia atrás); el busto se cierra abajo con un cuello de camisa verde, sin corte en el borde"
+    },
+    {
+      "L": "9",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L9_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La prueba del papel en dos viñetas: una mano sostiene una tira de papel frente a la boca; con 카 sale aire y la tira se dobla, con 까 la tira cuelga quieta"
+    },
+    {
+      "L": "18a",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L18a_palabra0.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 칠레: cordillera nevada (ícono neutro, sin bandera)"
+    },
+    {
+      "L": "18a",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L18a_palabra1.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 멕시코: pirámide escalonada (sin bandera)"
+    },
+    {
+      "L": "18a",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L18a_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 콜롬비아: taza de café frente a cerros verdes (sin bandera)"
+    },
+    {
+      "L": "18a",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L18a_palabra3.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 한국: portón de 한옥 con techo de tejas (sin bandera)"
+    },
+    {
+      "L": "18a",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L18a_palabra4.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 아르헨티나: sol dorado (sin bandera)"
+    },
+    {
+      "L": "18a",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L18a_palabra5.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 페루: montaña de Machu Picchu con muro de piedra (sin bandera)"
+    },
+    {
+      "L": "18a",
+      "destino": "palabra",
+      "indice": 6,
+      "archivo": "L18a_palabra6.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 스페인: guitarra (sin bandera)"
+    },
+    {
+      "L": "18a",
+      "destino": "palabra",
+      "indice": 7,
+      "archivo": "L18a_palabra7.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 미국: Estatua de la Libertad (sin bandera)"
+    },
+    {
+      "L": "18b",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L18b_palabra0.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 학생: alumno con mochila y cuaderno"
+    },
+    {
+      "L": "18b",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L18b_palabra1.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 선생님: profesora con lentes frente a la pizarra"
+    },
+    {
+      "L": "18b",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L18b_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 회사원: empleado de oficina con corbata y credencial"
+    },
+    {
+      "L": "18b",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L18b_palabra3.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 의사: médica con delantal blanco y estetoscopio"
+    },
+    {
+      "L": "20",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L20_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "목례 en Zoom: en la pantalla de un computador, una alumna (rótulo 마리아, letra 22) baja un poco la cabeza con los ojos cerrados (punteado = dónde estaba la cabeza, flecha hacia abajo) y dice 안녕하세요!"
+    },
+    {
+      "L": "21",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L21_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Puerta abierta: quien se queda, adentro, dice 안녕히 가세요!; quien sale por la puerta (flecha dorada hacia afuera) dice 안녕히 계세요!"
+    },
+    {
+      "L": "29",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L29_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Pizarra de menú propia colgada en la pared: rótulo 메뉴 (el de la guía, lámina 29) y 김밥 · 비빔밥 · 불고기 · 라면 · 김치찌개 en texto tipeado con íconos de tiza; sin precios ni romanización"
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "1",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la portada de la casa ya trae el logo azul de Academia Seúl."
+    },
+    {
+      "L": "13",
+      "motivo": "foto_kiran",
+      "instruccion": "Foto de Kiran sonriendo, sin rótulos encima, para la derecha de la lámina. Lo más rápido: recortar la parte de arriba de Campana_Assets/instagram/octubre/reels/kiran/Reel_Kiran_portada.png (de la frente al pecho, sin «CONOCE A TU PROFE» ni «KIRAN · 기란» ni el degradado navy), en proporción vertical 425:490 (p. ej. 850 × 980 px), o usar una foto que mande ella. Guardarla como Curriculo/fuente/decks/img/B1S2/L13_slide.jpg y sumar al map.json {\"L\":\"13\",\"destino\":\"slide\",\"indice\":0,\"archivo\":\"L13_slide.jpg\",\"origen\":\"material_propio\"} (o pegarla a mano en PowerPoint). Antes, confirmar con Kiran que le gusta la foto."
+    },
+    {
+      "L": "14",
+      "motivo": "persona_real",
+      "instruccion": "3 fotos con licencia libre de Wikimedia Commons (dominio público, CC BY o CC BY-SA) de Son Heung-min, Shakira y Pedro Pascal, en ese orden (columna 1, 2 y 3). Recortar cada una a lo ancho en proporción 2,2:1 (p. ej. 880 × 400 px) con la cara centrada y guardarlas como Curriculo/fuente/decks/img/B1S2/L14_col0.jpg, L14_col1.jpg y L14_col2.jpg; sumarlas al map.json con destino col e indice 0, 1 y 2 (o pegarlas a mano arriba de cada columna). Poner autor y licencia de cada foto en las notas del orador. Nunca capturas de buscador ni fotos de prensa o de agencias. Evitar fotos donde domine el rojo (p. ej. Son con la camiseta roja de la selección): mejor camiseta blanca u oscura, o recortar a la cara. Si no aparece una foto libre de alguno, dejar esa columna sin foto: la lámina funciona igual con los nombres."
+    }
+  ]
+}

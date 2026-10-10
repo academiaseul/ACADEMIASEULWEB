@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B1S1 L8 · ㅏ · cara con la boca de la vocal: a de casa: boca bien abierta -->
+<g transform="translate(6.0 7.0)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24.0" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="110" cy="124" rx="74" ry="72"/><ellipse cx="38" cy="130" rx="10" ry="13"/><ellipse cx="182" cy="130" rx="10" ry="13"/><path d="M36 128 C30 72 66 42 110 42 C154 42 190 72 184 128 C176 102 160 88 140 86 Q124 98 110 88 Q96 98 80 86 C60 90 44 106 36 128 Z"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24.0" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="110" cy="124" rx="74" ry="72"/><ellipse cx="38" cy="130" rx="10" ry="13"/><ellipse cx="182" cy="130" rx="10" ry="13"/><path d="M36 128 C30 72 66 42 110 42 C154 42 190 72 184 128 C176 102 160 88 140 86 Q124 98 110 88 Q96 98 80 86 C60 90 44 106 36 128 Z"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17.0" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="110" cy="124" rx="74" ry="72"/><ellipse cx="38" cy="130" rx="10" ry="13"/><ellipse cx="182" cy="130" rx="10" ry="13"/><path d="M36 128 C30 72 66 42 110 42 C154 42 190 72 184 128 C176 102 160 88 140 86 Q124 98 110 88 Q96 98 80 86 C60 90 44 106 36 128 Z"/></g>
+
+<ellipse cx="38" cy="130" rx="10" ry="13" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="182" cy="130" rx="10" ry="13" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="110" cy="124" rx="74" ry="72" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M36 128 C30 72 66 42 110 42 C154 42 190 72 184 128 C176 102 160 88 140 86 Q124 98 110 88 Q96 98 80 86 C60 90 44 106 36 128 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M70 60 Q86 52 102 52" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="96" cy="114" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="114" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="110.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="110.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="78" cy="134" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="142" cy="134" rx="7" ry="4.5" fill="#FFB98A"/>
+<clipPath id="boca0"><ellipse cx="110" cy="160" rx="21" ry="28"/></clipPath>
+<ellipse cx="110" cy="160" rx="21" ry="28" fill="#14142B"/>
+<g clip-path="url(#boca0)"><rect x="80" y="120" width="60" height="23" fill="#FFFFFF"/><ellipse cx="110" cy="191" rx="19" ry="15" fill="#F0A055" stroke="#C8641E" stroke-width="3"/></g>
+<ellipse cx="110" cy="160" rx="21" ry="28" fill="none" stroke="#14142B" stroke-width="4"/>
+</svg>

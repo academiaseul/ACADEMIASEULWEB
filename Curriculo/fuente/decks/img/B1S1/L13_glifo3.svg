@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B1S1 L13 · ㅕ · orden de trazo: rayita · rayita · palo (número = orden, flecha = sentido); trazos gruesos y números grandes para que se lean en Zoom -->
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M42 82 L118 82" transform="translate(4 5)" stroke="#14142B" stroke-opacity="0.25" stroke-width="40"/>
+<path d="M42 140 L118 140" transform="translate(4 5)" stroke="#14142B" stroke-opacity="0.25" stroke-width="40"/>
+<path d="M128 32 L128 188" transform="translate(4 5)" stroke="#14142B" stroke-opacity="0.25" stroke-width="40"/>
+<path d="M42 82 L118 82" stroke="#14142B" stroke-width="40"/>
+<path d="M42 140 L118 140" stroke="#14142B" stroke-width="40"/>
+<path d="M128 32 L128 188" stroke="#14142B" stroke-width="40"/>
+<path d="M42 82 L118 82" stroke="#FFFFFF" stroke-width="31"/>
+<path d="M42 140 L118 140" stroke="#FFFFFF" stroke-width="31"/>
+<path d="M128 32 L128 188" stroke="#FFFFFF" stroke-width="31"/>
+</g>
+<path d="M36 82 L88 82" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+<path d="M106 82 L86 94 L86 70 Z" fill="#4236F6" stroke="#4236F6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M36 140 L88 140" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+<path d="M106 140 L86 152 L86 128 Z" fill="#4236F6" stroke="#4236F6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M128 44 L128 166" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+<path d="M128 184 L116 164 L140 164 Z" fill="#4236F6" stroke="#4236F6" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="52" cy="36" r="23" fill="#003478" stroke="#14142B" stroke-width="3.5"/>
+<text x="52" y="47" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="32" fill="#FFFFFF">1</text>
+<circle cx="52" cy="186" r="23" fill="#003478" stroke="#14142B" stroke-width="3.5"/>
+<text x="52" y="197" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="32" fill="#FFFFFF">2</text>
+<circle cx="174" cy="42" r="23" fill="#003478" stroke="#14142B" stroke-width="3.5"/>
+<text x="174" y="53" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="32" fill="#FFFFFF">3</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B1S1 L8 · ㅜ · cara con la boca de la vocal: labios redondos y hacia adelante (fruncidos, con marcas de 'adelante') -->
+<g transform="translate(6.0 7.0)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24.0" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="110" cy="124" rx="74" ry="72"/><ellipse cx="38" cy="130" rx="10" ry="13"/><ellipse cx="182" cy="130" rx="10" ry="13"/><path d="M40 112 C40 66 72 46 110 46 C148 46 180 66 180 112 C168 90 146 80 110 80 C74 80 52 90 40 112 Z"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24.0" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="110" cy="124" rx="74" ry="72"/><ellipse cx="38" cy="130" rx="10" ry="13"/><ellipse cx="182" cy="130" rx="10" ry="13"/><path d="M40 112 C40 66 72 46 110 46 C148 46 180 66 180 112 C168 90 146 80 110 80 C74 80 52 90 40 112 Z"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17.0" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="110" cy="124" rx="74" ry="72"/><ellipse cx="38" cy="130" rx="10" ry="13"/><ellipse cx="182" cy="130" rx="10" ry="13"/><path d="M40 112 C40 66 72 46 110 46 C148 46 180 66 180 112 C168 90 146 80 110 80 C74 80 52 90 40 112 Z"/></g>
+
+<ellipse cx="38" cy="130" rx="10" ry="13" fill="#8A5A3C" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="182" cy="130" rx="10" ry="13" fill="#8A5A3C" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="110" cy="124" rx="74" ry="72" fill="#8A5A3C" stroke="#14142B" stroke-width="4"/>
+<path d="M40 112 C40 66 72 46 110 46 C148 46 180 66 180 112 C168 90 146 80 110 80 C74 80 52 90 40 112 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="96" cy="114" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="114" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="110.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="110.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="78" cy="134" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="142" cy="134" rx="7" ry="4.5" fill="#FFB98A"/>
+<g transform="translate(110 160) scale(0.84) translate(-110 -160)">
+<path d="M88 158 C88 141 98 135 104.5 138 Q110 142 115.5 138 C122 135 132 141 132 158 C132 174 122 182 110 182 C98 182 88 174 88 158 Z" transform="translate(4 6)" fill="#14142B" opacity="0.3"/>
+<path d="M88 158 C88 141 98 135 104.5 138 Q110 142 115.5 138 C122 135 132 141 132 158 C132 174 122 182 110 182 C98 182 88 174 88 158 Z" fill="#E8A877" stroke="#14142B" stroke-width="4.8" stroke-linejoin="round"/>
+<ellipse cx="110" cy="159" rx="7" ry="6" fill="#14142B"/>
+<path d="M96 168 Q100 176 108 177" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+</g>
+</svg>

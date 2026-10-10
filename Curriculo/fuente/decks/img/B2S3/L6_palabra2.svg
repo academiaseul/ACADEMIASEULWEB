@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 일하다 · trabajar · Estilo A Sticker pop · oficinista con corbata tecleando en el notebook, papeles al lado -->
+<g transform="translate(5.38 -2.25) scale(1.0000)">
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="20" y="104" width="30" height="38" rx="3" transform="rotate(-12 35 123)"/>
+<rect x="24" y="102" width="30" height="38" rx="3" transform="rotate(6 39 121)"/>
+<path d="M68 92 C62 46 86 30 110 30 C134 30 158 46 152 92 Z"/>
+<ellipse cx="110" cy="78" rx="40" ry="38"/>
+<path d="M54 188 C54 150 80 128 110 128 C140 128 166 150 166 188 Z"/>
+<rect x="62" y="160" width="96" height="28" rx="7"/>
+<rect x="52" y="184" width="116" height="8" rx="4"/>
+<ellipse cx="58" cy="181" rx="10" ry="9"/>
+<ellipse cx="162" cy="181" rx="10" ry="9"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="20" y="104" width="30" height="38" rx="3" transform="rotate(-12 35 123)"/>
+<rect x="24" y="102" width="30" height="38" rx="3" transform="rotate(6 39 121)"/>
+<path d="M68 92 C62 46 86 30 110 30 C134 30 158 46 152 92 Z"/>
+<ellipse cx="110" cy="78" rx="40" ry="38"/>
+<path d="M54 188 C54 150 80 128 110 128 C140 128 166 150 166 188 Z"/>
+<rect x="62" y="160" width="96" height="28" rx="7"/>
+<rect x="52" y="184" width="116" height="8" rx="4"/>
+<ellipse cx="58" cy="181" rx="10" ry="9"/>
+<ellipse cx="162" cy="181" rx="10" ry="9"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="20" y="104" width="30" height="38" rx="3" transform="rotate(-12 35 123)"/>
+<rect x="24" y="102" width="30" height="38" rx="3" transform="rotate(6 39 121)"/>
+<path d="M68 92 C62 46 86 30 110 30 C134 30 158 46 152 92 Z"/>
+<ellipse cx="110" cy="78" rx="40" ry="38"/>
+<path d="M54 188 C54 150 80 128 110 128 C140 128 166 150 166 188 Z"/>
+<rect x="62" y="160" width="96" height="28" rx="7"/>
+<rect x="52" y="184" width="116" height="8" rx="4"/>
+<ellipse cx="58" cy="181" rx="10" ry="9"/>
+<ellipse cx="162" cy="181" rx="10" ry="9"/>
+</g>
+<!-- papeles con clip -->
+<rect x="20" y="104" width="30" height="38" rx="3" transform="rotate(-12 35 123)" fill="#DCE0FA" stroke="#14142B" stroke-width="3.5"/>
+<rect x="24" y="102" width="30" height="38" rx="3" transform="rotate(6 39 121)" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<path d="M31 114 L48 116" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<path d="M30 122 L47 124" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<path d="M29 130 L41 131" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<rect x="34" y="96" width="9" height="14" rx="4.5" transform="rotate(6 38.5 103)" fill="none" stroke="#E8B84B" stroke-width="3"/>
+<!-- pelo de atrás (corto) -->
+<path d="M68 92 C62 46 86 30 110 30 C134 30 158 46 152 92 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- chaqueta navy, camisa blanca, corbata azul -->
+<path d="M54 188 C54 150 80 128 110 128 C140 128 166 150 166 188 Z" fill="#003478" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M100 110 L100 130 Q110 136 120 130 L120 110 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M95 130 L110 158 L125 130 Q110 124 95 130 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M106.5 139 L113.5 139 L116 152 L110 159 L104 152 Z" fill="#4236F6" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M104.5 132 L115.5 132 L113.5 139 L106.5 139 Z" fill="#4236F6" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- cabeza -->
+<ellipse cx="110" cy="78" rx="40" ry="38" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M70 84 C66 50 88 38 110 38 C132 38 154 50 150 84 C146 74 138 68 128 64 C116 70 98 68 88 60 C80 64 74 72 70 84 Z" fill="#14142B"/>
+<path d="M150 84 C146 74 138 68 128 64 C116 70 98 68 88 60 C80 64 74 72 70 84" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M114 42 Q128 40 140 48" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="99.5" cy="88" rx="4.88" ry="6.38" fill="#14142B"/>
+<ellipse cx="120.5" cy="88" rx="4.88" ry="6.38" fill="#14142B"/>
+<circle cx="101.15" cy="85.45" r="1.8" fill="#FFFFFF"/>
+<circle cx="122.15" cy="85.45" r="1.8" fill="#FFFFFF"/>
+<ellipse cx="90.5" cy="98.5" rx="5.25" ry="3.38" fill="#FFB98A"/>
+<ellipse cx="129.5" cy="98.5" rx="5.25" ry="3.38" fill="#FFB98A"/>
+<path d="M104 97.75 Q110 106.75 116 97.75 Z" fill="#14142B" stroke="#14142B" stroke-width="2.25" stroke-linejoin="round"/>
+<!-- notebook visto por detrás, con estrellita dorada -->
+<rect x="62" y="160" width="96" height="28" rx="7" fill="#E3E6F2" stroke="#14142B" stroke-width="4"/>
+<path d="M110 166.5 L112.2 171.2 L117.3 171.7 L113.5 175.1 L114.5 180.1 L110 177.6 L105.5 180.1 L106.5 175.1 L102.7 171.7 L107.8 171.2 Z" fill="#E8B84B" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="52" y="184" width="116" height="8" rx="4" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<!-- manos tecleando -->
+<ellipse cx="58" cy="181" rx="10" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="162" cy="181" rx="10" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M48 166 L44 160" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M56 163 L56 156" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M164 163 L164 156" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M172 166 L176 160" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M24 15 Q26.2 23.8 35 26 Q26.2 28.2 24 37 Q21.8 28.2 13 26 Q21.8 23.8 24 15 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 21 Q195.8 28.2 203 30 Q195.8 31.8 194 39 Q192.2 31.8 185 30 Q192.2 28.2 194 21 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="196" cy="118" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</g>
+</svg>

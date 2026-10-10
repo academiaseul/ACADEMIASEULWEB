@@ -1,0 +1,69 @@
+{
+  "imagenes": [
+    {
+      "L": "7",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L7_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dos tazas más grandes sobre una mesa cuyas patas entran desde el borde inferior, con etiquetas grandes 커피 (taza de café de la flashcard) y 차 (taza de té verde celadón con bolsita). Reemplaza la foto propia; Jay igual levanta sus tazas reales en cámara."
+    },
+    {
+      "L": "11",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L11_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Vagón de metro lleno (dibujo propio): pasajeros de pie con agarraderas; uno levanta la mano para pasar y dice «잠깐만요!»."
+    },
+    {
+      "L": "12",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L12_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dos paneles con encuadre parecido y rótulos grandes: 서울 (torre N Seoul grande y entera sobre el Namsan, muchos edificios, río Han, nube y copos de nieve grandes = frío) y 산티아고 (cordillera nevada más baja para que el rótulo no tape las cumbres, Gran Torre Santiago como rascacielos de vidrio con su corona de vigas, menos edificios, sol = calor). · Cada panel con un solo contorno y sombra suave (sin el doble contorno de sticker), para que no quede doble marco dentro del panel lila de la lámina."
+    },
+    {
+      "L": "13",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L13_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Esquema de flechas con cajas grandes: «Seúl · es más grande · que Santiago» (en dos líneas, 27 px) → 서울이 · 산티아고보다 · 더 커요; la flecha azul lleva «que Santiago» a 산티아고보다, antes del adjetivo; abajo, «보다 = que»."
+    },
+    {
+      "L": "16",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L16_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Agenda de la semana de Jay (월요일 a 일요일): la columna del café es la de la mañana (sol grande en la cabecera, fondo amarillo suave y un sol junto a cada taza = 아침마다); kimchi reconocible todos los días (pocillo con hojas de col de nervio blanco cubiertas de pasta de ají en naranja oscuro, sin rojo = 매일); clase por Zoom el 수요일 (fila lila) y pesas el fin de semana (토요일 y 일요일, filas celestes)."
+    },
+    {
+      "L": "19",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L19_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Billetera abierta con un solo billete de 천 원 (1000, azul, sin retrato), cara de apuro, polvo y una polilla GRANDE y clara (alas con manchas, antenas plumosas) que sale volando con su estela: la billetera está casi vacía. Reemplaza la foto propia; Jay igual abre su billetera en cámara."
+    },
+    {
+      "L": "20",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L20_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Cuatro billetes coreanos estilizados uno bajo otro, sin taparse y con rótulos grandes, sin retratos ni dólares: 1000 천 원 (azul), 5000 오천 원 (durazno, sin rojo), 10000 만 원 (verde) y 50000 오만 원 (amarillo)."
+    },
+    {
+      "L": "21",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L21_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Estante de panadería vacío (bandejas con migas) con un solo pan (el de la flashcard 빵) y el cartel «하나밖에 안 남았어요!»."
+    }
+  ],
+  "sin_imagen": []
+}

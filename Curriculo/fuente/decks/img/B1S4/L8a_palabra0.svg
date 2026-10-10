@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 할아버지 · abuelo · Estilo A Sticker pop · calvo con canas a los lados, cejas gruesas, chaleco azul y bastón -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="66" cy="106" rx="7" ry="9"/>
+<ellipse cx="154" cy="106" rx="7" ry="9"/>
+<path d="M70 74 C58 76 54 92 60 100 C56 108 62 116 70 112 C70 100 72 88 78 80 Z"/>
+<path d="M150 74 C162 76 166 92 160 100 C164 108 158 116 150 112 C150 100 148 88 142 80 Z"/>
+<ellipse cx="110" cy="94" rx="44" ry="42"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+<path d="M52 196 L52 134 Q52 118 40 118 Q30 118 30 130" fill="none" stroke-width="36"/>
+<path d="M64 174 Q54 166 52 156" fill="none" stroke-width="40"/>
+<ellipse cx="52" cy="148" rx="9" ry="8"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="66" cy="106" rx="7" ry="9"/>
+<ellipse cx="154" cy="106" rx="7" ry="9"/>
+<path d="M70 74 C58 76 54 92 60 100 C56 108 62 116 70 112 C70 100 72 88 78 80 Z"/>
+<path d="M150 74 C162 76 166 92 160 100 C164 108 158 116 150 112 C150 100 148 88 142 80 Z"/>
+<ellipse cx="110" cy="94" rx="44" ry="42"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+<path d="M52 196 L52 134 Q52 118 40 118 Q30 118 30 130" fill="none" stroke-width="36"/>
+<path d="M64 174 Q54 166 52 156" fill="none" stroke-width="40"/>
+<ellipse cx="52" cy="148" rx="9" ry="8"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="66" cy="106" rx="7" ry="9"/>
+<ellipse cx="154" cy="106" rx="7" ry="9"/>
+<path d="M70 74 C58 76 54 92 60 100 C56 108 62 116 70 112 C70 100 72 88 78 80 Z"/>
+<path d="M150 74 C162 76 166 92 160 100 C164 108 158 116 150 112 C150 100 148 88 142 80 Z"/>
+<ellipse cx="110" cy="94" rx="44" ry="42"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+<path d="M52 196 L52 134 Q52 118 40 118 Q30 118 30 130" fill="none" stroke-width="29"/>
+<path d="M64 174 Q54 166 52 156" fill="none" stroke-width="33"/>
+<ellipse cx="52" cy="148" rx="9" ry="8"/>
+</g>
+<!-- camisa blanca + chaleco azul con botones dorados -->
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M50 196 C50 172 64 158 94 152 L108 186 L108 196 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M170 196 C170 172 156 158 126 152 L112 186 L112 196 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="99" cy="170" r="3.5" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="103" cy="184" r="3.5" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<path d="M98 128 L98 152 Q110 158 122 152 L122 128 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M110 156 L96 149 L101 164 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M110 156 L124 149 L119 164 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- orejas, cabeza calva con brillo, canas a los lados -->
+<ellipse cx="66" cy="106" rx="7" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="154" cy="106" rx="7" ry="9" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="110" cy="94" rx="44" ry="42" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M88 66 Q98 58 110 58" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M70 74 C58 76 54 92 60 100 C56 108 62 116 70 112 C70 100 72 88 78 80 Z" fill="#E3E6F2" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M150 74 C162 76 166 92 160 100 C164 108 158 116 150 112 C150 100 148 88 142 80 Z" fill="#E3E6F2" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M64 90 Q67 86 71 88" stroke="#8A8FA8" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M156 90 Q153 86 149 88" stroke="#8A8FA8" stroke-width="2.5" stroke-linecap="round"/>
+<!-- cejas gruesas de canas -->
+<path d="M85 95 Q93 84 106 90 Q104 96 96 96 Q89 98 85 95 Z" fill="#E3E6F2" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M135 95 Q127 84 114 90 Q116 96 124 96 Q131 98 135 95 Z" fill="#E3E6F2" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- cara -->
+<ellipse cx="98.1" cy="108" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="108" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="105.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="105.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="119.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="119.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 119.05 Q110 129.25 116.8 119.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- bastón de madera y mano que lo toma -->
+<path d="M52 196 L52 134 Q52 118 40 118 Q30 118 30 130" stroke="#14142B" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52 196 L52 134 Q52 118 40 118 Q30 118 30 130" stroke="#A86B3C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64 174 Q54 166 52 156" stroke="#14142B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64 174 Q54 166 52 156" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="52" cy="148" rx="9" ry="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M46 146 L58 146" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M190 28 Q192.4 37.6 202 40 Q192.4 42.4 190 52 Q187.6 42.4 178 40 Q187.6 37.6 190 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M28 47 Q29.8 54.2 37 56 Q29.8 57.8 28 65 Q26.2 57.8 19 56 Q26.2 54.2 28 47 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 111 Q195.8 118.2 203 120 Q195.8 121.8 194 129 Q192.2 121.8 185 120 Q192.2 118.2 194 111 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="104" cy="26" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- Foto 4 · libro: bolsa de compras con un libro nuevo asomando (오후에 책을 샀어요.) · libro grande (tapa azul, lomo, etiqueta, canto de hojas y cinta), bolsa lisa sin carita -->
+<g transform="translate(-13.14 -6.28) scale(0.9792)">
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(132 104) rotate(-9)"><rect x="-36" y="-62" width="72" height="104" rx="5"/><path d="M-36 -62 L-25 -75 L47 -75 L36 -62 Z"/></g><path d="M66 116 L200 116 L208 208 L58 208 Z"/><path d="M96 116 Q96 70 140 70 Q184 70 184 116" fill="none" stroke-width="32"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(132 104) rotate(-9)"><rect x="-36" y="-62" width="72" height="104" rx="5"/><path d="M-36 -62 L-25 -75 L47 -75 L36 -62 Z"/></g><path d="M66 116 L200 116 L208 208 L58 208 Z"/><path d="M96 116 Q96 70 140 70 Q184 70 184 116" fill="none" stroke-width="32"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round"><g transform="translate(132 104) rotate(-9)"><rect x="-36" y="-62" width="72" height="104" rx="5"/><path d="M-36 -62 L-25 -75 L47 -75 L36 -62 Z"/></g><path d="M66 116 L200 116 L208 208 L58 208 Z"/><path d="M96 116 Q96 70 140 70 Q184 70 184 116" fill="none" stroke-width="25"/></g>
+<path d="M96 116 Q96 70 140 70 Q184 70 184 116" stroke="#14142B" stroke-width="15" stroke-linecap="round" fill="none"/><path d="M96 116 Q96 70 140 70 Q184 70 184 116" stroke="#A86B3C" stroke-width="7" stroke-linecap="round" fill="none"/>
+<g transform="translate(132 104) rotate(-9)">
+<path d="M-36 -62 L-25 -75 L47 -75 L36 -62 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M-22 -68.5 L38 -68.5" stroke="#B3B8D6" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="-36" y="-62" width="72" height="104" rx="5" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<rect x="-36" y="-62" width="14" height="104" rx="4" fill="#003478" stroke="#14142B" stroke-width="4"/>
+<rect x="-12" y="-52" width="40" height="26" rx="4" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<path d="M-6 -43 L22 -43 M-6 -35 L14 -35" stroke="#8A8DA0" stroke-width="3" stroke-linecap="round"/>
+<path d="M22 -75 L22 -54 L27 -59 L32 -54 L32 -75" fill="#E8B84B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+</g>
+<path d="M66 116 L200 116 L208 208 L58 208 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M66 116 L200 116 L199 134 L67 134 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M88 116 Q88 84 133 84 Q178 84 178 116" stroke="#14142B" stroke-width="15" stroke-linecap="round" fill="none"/><path d="M88 116 Q88 84 133 84 Q178 84 178 116" stroke="#A86B3C" stroke-width="7" stroke-linecap="round" fill="none"/>
+<circle cx="88" cy="124" r="4" fill="#A86B3C" stroke="#14142B" stroke-width="2"/><circle cx="178" cy="124" r="4" fill="#A86B3C" stroke="#14142B" stroke-width="2"/>
+<path d="M80 152 L78 190" stroke="#FFD95E" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+<path d="M38 49 Q40.2 57.8 49 60 Q40.2 62.2 38 71 Q35.8 62.2 27 60 Q35.8 57.8 38 49 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M200 32 Q201.6 38.4 208 40 Q201.6 41.6 200 48 Q198.4 41.6 192 40 Q198.4 38.4 200 32 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+</g>
+</svg>

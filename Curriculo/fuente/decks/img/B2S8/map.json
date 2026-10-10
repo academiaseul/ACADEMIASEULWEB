@@ -1,0 +1,43 @@
+{
+  "imagenes": [
+    {
+      "L": "4",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L4_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dos trenes que llenan el viewBox, con texto grande (vagones a 28, carteles a 30): la locomotora y el vagón con -고 (밥을 먹고 / 바다를 보고) van sin tiempo; solo el último vagón (커피를 마셨어요 / 사진을 찍을 거예요) lleva el cartel del tiempo: PASADO / FUTURO."
+    },
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Tijera que corta el 다 de 어렵다; la raíz 어렵 (etiqueta «raíz» grande en una pastilla azul) no cambia → 어렵 + 지만 = 어렵지만; abajo, en su propia caja gris punteada con una X gris, 어려워지만 tachado en gris oscuro y grande (sin rojo)."
+    },
+    {
+      "L": "11",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L11_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Temporizador navy #003478 con 30 minutos marcados (medio dial) y la etiqueta «30 min»; sin rojo."
+    },
+    {
+      "L": "14",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L14_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Diploma con sello dorado sostenido por cuatro manos: dos (mangas navy) lo entregan y dos (mangas azules) lo reciben, todas con las dos manos (두 손으로); las mangas se desvanecen hacia los bordes en vez de cortarse en seco."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "18",
+      "motivo": "plantilla",
+      "instruccion": "Lámina de cierre: la plantilla ya trae el logo azul de Academia Seúl y el sello del tigre; no hay que pegar nada."
+    }
+  ]
+}

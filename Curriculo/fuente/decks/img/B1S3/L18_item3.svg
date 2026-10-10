@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- reloj de pulsera (시계) · derecho y grande: correa navy de arriba abajo, caja dorada, esfera blanca que marca las tres, corona a la derecha · Estilo A Sticker pop · Academia Seul -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><rect x="80" y="14" width="60" height="188" rx="20"/><circle cx="110" cy="108" r="68"/><rect x="176" y="96" width="16" height="24" rx="5"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><rect x="80" y="14" width="60" height="188" rx="20"/><circle cx="110" cy="108" r="68"/><rect x="176" y="96" width="16" height="24" rx="5"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round"><rect x="80" y="14" width="60" height="188" rx="20"/><circle cx="110" cy="108" r="68"/><rect x="176" y="96" width="16" height="24" rx="5"/></g>
+<!-- correa -->
+<rect x="80" y="14" width="60" height="188" rx="20" fill="#003478" stroke="#14142B" stroke-width="4.5"/>
+<path d="M92 24 L92 40 M128 24 L128 40" stroke="#4236F6" stroke-width="4" stroke-linecap="round"/>
+<circle cx="110" cy="186" r="4" fill="#DCE0FA"/><circle cx="110" cy="196" r="3.4" fill="#DCE0FA" opacity="0.7"/>
+<!-- corona y caja -->
+<rect x="176" y="96" width="16" height="24" rx="5" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<circle cx="110" cy="108" r="68" fill="#E8B84B" stroke="#14142B" stroke-width="4.5"/>
+<circle cx="110" cy="108" r="55" fill="#FFFFFF" stroke="#14142B" stroke-width="4.5"/>
+<path d="M66 82 A50 50 0 0 1 88 62" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round"/>
+<!-- marcas de las 12, 3, 6 y 9 -->
+<path d="M110 58 L110 68 M160 108 L150 108 M110 158 L110 148 M60 108 L70 108" stroke="#14142B" stroke-width="6" stroke-linecap="round"/>
+<!-- agujas: las tres en punto -->
+<path d="M110 108 L110 70" stroke="#14142B" stroke-width="12" stroke-linecap="round"/><path d="M110 108 L110 70" stroke="#4236F6" stroke-width="5" stroke-linecap="round"/>
+<path d="M110 108 L142 108" stroke="#14142B" stroke-width="14" stroke-linecap="round"/><path d="M110 108 L142 108" stroke="#003478" stroke-width="6.5" stroke-linecap="round"/>
+<circle cx="110" cy="108" r="7" fill="#E8B84B" stroke="#14142B" stroke-width="3.5"/>
+<!-- cara de la casa, abajo de las agujas -->
+<ellipse cx="98" cy="128" rx="4.8" ry="6.2" fill="#14142B"/><ellipse cx="122" cy="128" rx="4.8" ry="6.2" fill="#14142B"/>
+<circle cx="99.6" cy="125.6" r="1.7" fill="#FFFFFF"/><circle cx="123.6" cy="125.6" r="1.7" fill="#FFFFFF"/>
+<ellipse cx="86" cy="138" rx="5" ry="3.2" fill="#FFB98A"/><ellipse cx="134" cy="138" rx="5" ry="3.2" fill="#FFB98A"/>
+<path d="M105 136 Q110 143 115 136 Z" fill="#14142B" stroke="#14142B" stroke-width="2" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M30 22 Q32.4 31.6 42 34 Q32.4 36.4 30 46 Q27.6 36.4 18 34 Q27.6 31.6 30 22 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 170 Q194 178 202 180 Q194 182 192 190 Q190 182 182 180 Q190 178 192 170 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+</svg>

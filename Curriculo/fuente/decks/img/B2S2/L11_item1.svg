@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B2S2 L11 ítem 2 · reloj que marca las 11:00 (sin números: el alumno lee la hora). Esfera grande, horario corto y gordo en oro, minutero largo y delgado en navy -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><circle cx="108" cy="108" r="91"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><circle cx="108" cy="108" r="91"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round"><circle cx="108" cy="108" r="91"/></g>
+<circle cx="108" cy="108" r="91" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M30.01 79.61 A83 83 0 0 1 60.39 40.01" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round"/>
+<circle cx="108" cy="108" r="75" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<path d="M108 39 L108 55" stroke="#14142B" stroke-width="8" stroke-linecap="round"/><path d="M142.5 48.24 L137.5 56.9" stroke="#14142B" stroke-width="5.5" stroke-linecap="round"/><path d="M167.76 73.5 L159.1 78.5" stroke="#14142B" stroke-width="5.5" stroke-linecap="round"/><path d="M177 108 L161 108" stroke="#14142B" stroke-width="8" stroke-linecap="round"/><path d="M167.76 142.5 L159.1 137.5" stroke="#14142B" stroke-width="5.5" stroke-linecap="round"/><path d="M142.5 167.76 L137.5 159.1" stroke="#14142B" stroke-width="5.5" stroke-linecap="round"/><path d="M108 177 L108 161" stroke="#14142B" stroke-width="8" stroke-linecap="round"/><path d="M73.5 167.76 L78.5 159.1" stroke="#14142B" stroke-width="5.5" stroke-linecap="round"/><path d="M48.24 142.5 L56.9 137.5" stroke="#14142B" stroke-width="5.5" stroke-linecap="round"/><path d="M39 108 L55 108" stroke="#14142B" stroke-width="8" stroke-linecap="round"/><path d="M48.24 73.5 L56.9 78.5" stroke="#14142B" stroke-width="5.5" stroke-linecap="round"/><path d="M73.5 48.24 L78.5 56.9" stroke="#14142B" stroke-width="5.5" stroke-linecap="round"/>
+<path d="M108 108 L108 42" stroke="#14142B" stroke-width="15" stroke-linecap="round"/>
+<path d="M108 108 L108 42" stroke="#003478" stroke-width="7" stroke-linecap="round"/>
+<path d="M108 108 L89 75.09" stroke="#14142B" stroke-width="23" stroke-linecap="round"/>
+<path d="M108 108 L89 75.09" stroke="#E8B84B" stroke-width="15" stroke-linecap="round"/>
+<circle cx="108" cy="108" r="8" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+</svg>

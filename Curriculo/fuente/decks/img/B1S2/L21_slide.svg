@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 490" width="425" height="490" fill="none">
+<!-- B1S2 L21 · ¿Quién se va?: puerta abierta; quien se queda (adentro) dice 안녕히 가세요! y quien sale por la puerta (flecha dorada) dice 안녕히 계세요! · Sticker pop -->
+<g transform="translate(6.38 7.35) scale(0.97)">
+<g transform="translate(0 -40)">
+<g transform="translate(7 8)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="26" stroke-linejoin="round" stroke-linecap="round">
+<rect x="10" y="436" width="405" height="18" rx="9"/>
+<rect x="222" y="214" width="126" height="228" rx="10"/>
+<path d="M354 352 L380 352 L380 334 L410 366 L380 398 L380 380 L354 380 Z"/>
+<path d="M24 400 L58 400 L54 438 L28 438 Z"/>
+<ellipse cx="41" cy="384" rx="22" ry="26"/>
+<ellipse cx="112" cy="293" rx="33" ry="33"/>
+<rect x="78" y="328" width="68" height="108" rx="10"/>
+<path d="M140 346 L162 276"/>
+<path d="M82 346 L74 396"/>
+<ellipse cx="288" cy="293" rx="33" ry="33"/>
+<rect x="254" y="328" width="68" height="108" rx="10"/>
+<path d="M316 346 L338 276"/>
+<path d="M258 346 L250 396"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="26" stroke-linejoin="round" stroke-linecap="round">
+<rect x="10" y="436" width="405" height="18" rx="9"/>
+<rect x="222" y="214" width="126" height="228" rx="10"/>
+<path d="M354 352 L380 352 L380 334 L410 366 L380 398 L380 380 L354 380 Z"/>
+<path d="M24 400 L58 400 L54 438 L28 438 Z"/>
+<ellipse cx="41" cy="384" rx="22" ry="26"/>
+<ellipse cx="112" cy="293" rx="33" ry="33"/>
+<rect x="78" y="328" width="68" height="108" rx="10"/>
+<path d="M140 346 L162 276"/>
+<path d="M82 346 L74 396"/>
+<ellipse cx="288" cy="293" rx="33" ry="33"/>
+<rect x="254" y="328" width="68" height="108" rx="10"/>
+<path d="M316 346 L338 276"/>
+<path d="M258 346 L250 396"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="18" stroke-linejoin="round" stroke-linecap="round">
+<rect x="10" y="436" width="405" height="18" rx="9"/>
+<rect x="222" y="214" width="126" height="228" rx="10"/>
+<path d="M354 352 L380 352 L380 334 L410 366 L380 398 L380 380 L354 380 Z"/>
+<path d="M24 400 L58 400 L54 438 L28 438 Z"/>
+<ellipse cx="41" cy="384" rx="22" ry="26"/>
+<ellipse cx="112" cy="293" rx="33" ry="33"/>
+<rect x="78" y="328" width="68" height="108" rx="10"/>
+<path d="M140 346 L162 276"/>
+<path d="M82 346 L74 396"/>
+<ellipse cx="288" cy="293" rx="33" ry="33"/>
+<rect x="254" y="328" width="68" height="108" rx="10"/>
+<path d="M316 346 L338 276"/>
+<path d="M258 346 L250 396"/>
+</g>
+<!-- piso -->
+<rect x="10" y="436" width="405" height="18" rx="9" fill="#E3E6F2" stroke="#14142B" stroke-width="4"/>
+<!-- planta -->
+<ellipse cx="41" cy="384" rx="22" ry="26" fill="#2F8F57" stroke="#14142B" stroke-width="4"/>
+<path d="M41 404 L41 368 M41 388 L30 376 M41 380 L52 368" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M24 400 L58 400 L54 438 L28 438 Z" fill="#C98A3E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- puerta abierta: afuera se ve el cielo y el pasto -->
+<rect x="222" y="214" width="126" height="228" rx="10" fill="#A86B3C" stroke="#14142B" stroke-width="5"/>
+<path d="M236 438 L236 234 Q236 228 242 228 L328 228 Q334 228 334 234 L334 438 Z" fill="#9FD3F5" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M236 404 L334 404 L334 438 L236 438 Z" fill="#7FD1AE" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M300 252 q8 -10 18 -4 q8 -4 12 6 q-4 6 -12 4 l-14 0 q-8 0 -4 -6 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M236 228 L254 242 L254 428 L236 438 Z" fill="#C98A3E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="246" cy="334" r="4" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- se queda (adentro, a la izquierda) -->
+<path d="M140 346 L162 294" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M140 346 L162 294" stroke="#4236F6" stroke-width="14" stroke-linecap="round"/>
+<rect x="151" y="264" width="22" height="32" rx="10" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="149" cy="288" rx="4.5" ry="7.5" transform="rotate(-35 149 288)" fill="#FFE0C4" stroke="#14142B" stroke-width="3.5"/>
+<path d="M82 346 L74 388" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M82 346 L74 388" stroke="#4236F6" stroke-width="14" stroke-linecap="round"/>
+<circle cx="73" cy="396" r="8" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<rect x="87" y="388" width="21" height="44" rx="6" fill="#003478" stroke="#14142B" stroke-width="4"/>
+<rect x="116" y="388" width="21" height="44" rx="6" fill="#003478" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="96" cy="432" rx="15" ry="7" fill="#14142B"/>
+<ellipse cx="128" cy="432" rx="15" ry="7" fill="#14142B"/>
+<path d="M78 396 L78 356 C78 338 92 328 112 328 C132 328 146 338 146 356 L146 396 Z" fill="#4236F6" stroke="#14142B" stroke-width="4.5" stroke-linejoin="round"/>
+<path d="M103 329 L112 341 L121 329 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<ellipse cx="83" cy="300" rx="5.5" ry="7.5" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="141" cy="300" rx="5.5" ry="7.5" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="112" cy="296" rx="30" ry="29" fill="#FFE0C4" stroke="#14142B" stroke-width="4.5"/>
+<path d="M81.4 299.6 C77.8 270.8 94 261.8 112 261.8 C130 261.8 146.2 270.8 142.6 299.6 C139 287 131.8 279.8 122.8 278.9 C115.6 285.2 103 287 94 284.3 C88.6 287.9 84.1 292.4 81.4 299.6 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="103.6" cy="302" rx="3.9" ry="5.1" fill="#14142B"/>
+<circle cx="104.92" cy="299.96" r="1.44" fill="#FFFFFF"/>
+<ellipse cx="120.4" cy="302" rx="3.9" ry="5.1" fill="#14142B"/>
+<circle cx="121.72" cy="299.96" r="1.44" fill="#FFFFFF"/>
+<ellipse cx="96.4" cy="310.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<ellipse cx="127.6" cy="310.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<path d="M107.2 309.8 Q112 317 116.8 309.8 Z" fill="#14142B" stroke="#14142B" stroke-width="1.8" stroke-linejoin="round"/>
+<!-- se va (en la puerta) -->
+<path d="M316 346 L338 294" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M316 346 L338 294" stroke="#7FD1AE" stroke-width="14" stroke-linecap="round"/>
+<rect x="327" y="264" width="22" height="32" rx="10" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="325" cy="288" rx="4.5" ry="7.5" transform="rotate(-35 325 288)" fill="#C98A5E" stroke="#14142B" stroke-width="3.5"/>
+<path d="M258 346 L250 388" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M258 346 L250 388" stroke="#7FD1AE" stroke-width="14" stroke-linecap="round"/>
+<circle cx="249" cy="396" r="8" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<rect x="263" y="388" width="21" height="44" rx="6" fill="#5E6280" stroke="#14142B" stroke-width="4"/>
+<rect x="292" y="388" width="21" height="44" rx="6" fill="#5E6280" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="272" cy="432" rx="15" ry="7" fill="#14142B"/>
+<ellipse cx="304" cy="432" rx="15" ry="7" fill="#14142B"/>
+<path d="M254 396 L254 356 C254 338 268 328 288 328 C308 328 322 338 322 356 L322 396 Z" fill="#7FD1AE" stroke="#14142B" stroke-width="4.5" stroke-linejoin="round"/>
+<path d="M279 329 L288 341 L297 329 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<ellipse cx="259" cy="300" rx="5.5" ry="7.5" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="317" cy="300" rx="5.5" ry="7.5" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="288" cy="296" rx="30" ry="29" fill="#C98A5E" stroke="#14142B" stroke-width="4.5"/>
+<path d="M257.4 299.6 C253.8 270.8 270 261.8 288 261.8 C306 261.8 322.2 270.8 318.6 299.6 C315 287 307.8 279.8 298.8 278.9 C291.6 285.2 279 287 270 284.3 C264.6 287.9 260.1 292.4 257.4 299.6 Z" fill="#74461F" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="279.6" cy="302" rx="3.9" ry="5.1" fill="#14142B"/>
+<circle cx="280.92" cy="299.96" r="1.44" fill="#FFFFFF"/>
+<ellipse cx="296.4" cy="302" rx="3.9" ry="5.1" fill="#14142B"/>
+<circle cx="297.72" cy="299.96" r="1.44" fill="#FFFFFF"/>
+<ellipse cx="272.4" cy="310.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<ellipse cx="303.6" cy="310.4" rx="4.2" ry="2.7" fill="#FFB98A"/>
+<path d="M283.2 309.8 Q288 317 292.8 309.8 Z" fill="#14142B" stroke="#14142B" stroke-width="1.8" stroke-linejoin="round"/>
+<!-- flecha dorada: sale -->
+<path d="M354 352 L380 352 L380 334 L410 366 L380 398 L380 380 L354 380 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- globos: cada uno dice lo que le corresponde al otro -->
+<path d="M32 118 L186 118 Q208 118 208 140 L208 162 Q208 184 186 184 L128 184 L114 236 L100 184 L32 184 Q10 184 10 162 L10 140 Q10 118 32 118 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="5" stroke-linejoin="round"/>
+<text x="109" y="160" font-family="Malgun Gothic" font-size="25" font-weight="bold" fill="#003478" text-anchor="middle">안녕히 가세요!</text>
+<path d="M238 118 L392 118 Q414 118 414 140 L414 162 Q414 184 392 184 L314 184 L284 236 L290 184 L238 184 Q216 184 216 162 L216 140 Q216 118 238 118 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="5" stroke-linejoin="round"/>
+<text x="315" y="160" font-family="Malgun Gothic" font-size="25" font-weight="bold" fill="#003478" text-anchor="middle">안녕히 계세요!</text>
+<path d="M36 70 Q38.8 81.2 50 84 Q38.8 86.8 36 98 Q33.2 86.8 22 84 Q33.2 81.2 36 70 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M392 71 Q394.2 79.8 403 82 Q394.2 84.2 392 93 Q389.8 84.2 381 82 Q389.8 79.8 392 71 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="212" cy="92" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+<path d="M386 488 Q388.4 497.6 398 500 Q388.4 502.4 386 512 Q383.6 502.4 374 500 Q383.6 497.6 386 488 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="40" cy="506" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+<circle cx="392" cy="248" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</g>
+</g>
+</svg>

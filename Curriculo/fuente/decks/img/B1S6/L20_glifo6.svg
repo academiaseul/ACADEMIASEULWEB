@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 병원 · hospital · Estilo A Sticker pop · edificio blanco con cornisa menta, cruz médica AZUL en la torre central y cara en la fachada -->
+<!-- 1) silueta: torre central + cornisa + bloque principal -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="76" y="34" width="68" height="52" rx="6"/>
+<rect x="40" y="78" width="140" height="12" rx="4"/>
+<rect x="44" y="80" width="132" height="100" rx="4"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="76" y="34" width="68" height="52" rx="6"/>
+<rect x="40" y="78" width="140" height="12" rx="4"/>
+<rect x="44" y="80" width="132" height="100" rx="4"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="76" y="34" width="68" height="52" rx="6"/>
+<rect x="40" y="78" width="140" height="12" rx="4"/>
+<rect x="44" y="80" width="132" height="100" rx="4"/>
+</g>
+<!-- 2) torre blanca con la cruz azul de la marca (nunca roja) -->
+<rect x="76" y="34" width="68" height="52" rx="6" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<path d="M104 41 L116 41 L116 52 L127 52 L127 64 L116 64 L116 75 L104 75 L104 64 L93 64 L93 52 L104 52 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M108 46 L108 54" fill="none" stroke="#DCE0FA" stroke-width="3" stroke-linecap="round"/>
+<!-- bloque principal y cornisa menta -->
+<rect x="44" y="80" width="132" height="100" rx="4" fill="#F3F6FF" stroke="#14142B" stroke-width="4"/>
+<rect x="40" y="78" width="140" height="12" rx="4" fill="#6FCFAE" stroke="#14142B" stroke-width="4"/>
+<!-- ventanas a los lados, tres filas -->
+<rect x="54" y="102" width="18" height="16" rx="2" fill="#9FD8FF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="54" y="130" width="18" height="16" rx="2" fill="#9FD8FF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="54" y="158" width="18" height="14" rx="2" fill="#9FD8FF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="148" y="102" width="18" height="16" rx="2" fill="#9FD8FF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="148" y="130" width="18" height="16" rx="2" fill="#9FD8FF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="148" y="158" width="18" height="14" rx="2" fill="#9FD8FF" stroke="#14142B" stroke-width="3.5"/>
+<!-- entrada: alero menta y puertas de vidrio -->
+<path d="M94 180 L94 154 L126 154 L126 180 Z" fill="#9FD8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M110 156 L110 178" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round"/>
+<path d="M99 170 L104 162" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<rect x="88" y="146" width="44" height="8" rx="3" fill="#6FCFAE" stroke="#14142B" stroke-width="3.5"/>
+<!-- 3) cara de la casa en la fachada (110,116), s = 0,85 -->
+<ellipse cx="98.1" cy="116" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="116" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="113.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="113.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="127.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="127.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 127.05 Q110 137.25 116.8 127.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- 4) adornos -->
+<path d="M28 28 Q30.4 37.6 40 40 Q30.4 42.4 28 52 Q25.6 42.4 16 40 Q25.6 37.6 28 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M190 32 Q192 40 200 42 Q192 44 190 52 Q188 44 180 42 Q188 40 190 32 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="24" cy="130" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 490" width="425" height="490" fill="none">
+<!-- L21 · 하나밖에 안 남았어요: estante de panadería con un solo pan y el cartel · Estilo A Sticker pop · Academia Seúl -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><rect x="50" y="26" width="325" height="116" rx="18"/><rect x="40" y="168" width="345" height="302" rx="14"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><rect x="50" y="26" width="325" height="116" rx="18"/><rect x="40" y="168" width="345" height="302" rx="14"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round"><rect x="50" y="26" width="325" height="116" rx="18"/><rect x="40" y="168" width="345" height="302" rx="14"/></g>
+<rect x="40" y="168" width="345" height="302" rx="14" fill="#A86B3C" stroke="#14142B" stroke-width="5"/>
+<rect x="58" y="186" width="309" height="268" rx="8" fill="#F1F0FE" stroke="#14142B" stroke-width="3.5"/>
+<rect x="58" y="306" width="309" height="16" fill="#C98A3E" stroke="#14142B" stroke-width="4"/>
+<rect x="84" y="284" width="257" height="16" rx="8" fill="#E3E6F2" stroke="#14142B" stroke-width="3.5"/>
+<ellipse cx="120" cy="280" rx="4" ry="2.6" fill="#C98A3E"/><ellipse cx="134" cy="282" rx="2.6" ry="2" fill="#EDC27E"/><ellipse cx="146" cy="279" rx="3.2" ry="2.2" fill="#C98A3E"/><ellipse cx="256" cy="281" rx="4" ry="2.6" fill="#C98A3E"/><ellipse cx="270" cy="283" rx="2.6" ry="2" fill="#EDC27E"/><ellipse cx="282" cy="280" rx="3.2" ry="2.2" fill="#C98A3E"/>
+<rect x="84" y="434" width="257" height="16" rx="8" fill="#E3E6F2" stroke="#14142B" stroke-width="3.5"/>
+<ellipse cx="100" cy="430" rx="4" ry="2.6" fill="#C98A3E"/><ellipse cx="114" cy="432" rx="2.6" ry="2" fill="#EDC27E"/><ellipse cx="126" cy="429" rx="3.2" ry="2.2" fill="#C98A3E"/><ellipse cx="290" cy="431" rx="4" ry="2.6" fill="#C98A3E"/><ellipse cx="304" cy="433" rx="2.6" ry="2" fill="#EDC27E"/><ellipse cx="316" cy="430" rx="3.2" ry="2.2" fill="#C98A3E"/>
+<g transform="translate(140.5 310) scale(0.65)"><g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M54 182 L54 100 C32 94 32 50 70 46 C86 30 134 30 150 46 C188 50 188 94 166 100 L166 182 Q166 192 156 192 L64 192 Q54 192 54 182 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M54 182 L54 100 C32 94 32 50 70 46 C86 30 134 30 150 46 C188 50 188 94 166 100 L166 182 Q166 192 156 192 L64 192 Q54 192 54 182 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M54 182 L54 100 C32 94 32 50 70 46 C86 30 134 30 150 46 C188 50 188 94 166 100 L166 182 Q166 192 156 192 L64 192 Q54 192 54 182 Z"/>
+</g>
+<path d="M54 182 L54 100 C32 94 32 50 70 46 C86 30 134 30 150 46 C188 50 188 94 166 100 L166 182 Q166 192 156 192 L64 192 Q54 192 54 182 Z" fill="#C98A3E" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M66 176 L66 91 C46 86 47 60 75 58 C90 45 130 45 145 58 C173 60 174 86 154 91 L154 176 Q154 180 150 180 L70 180 Q66 180 66 176 Z" fill="#FFE6B8" stroke="#DDA45A" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="84" cy="158" rx="3.5" ry="2.5" fill="#EDC27E"/>
+<ellipse cx="138" cy="164" rx="3" ry="2" fill="#EDC27E"/>
+<ellipse cx="130" cy="72" rx="3" ry="2" fill="#EDC27E"/>
+<ellipse cx="88" cy="78" rx="2.5" ry="2" fill="#EDC27E"/>
+<ellipse cx="142" cy="140" rx="2.5" ry="2" fill="#EDC27E"/>
+<ellipse cx="96" cy="120" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="120" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="116.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="116.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="134" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="134" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 133 Q110 145 118 133 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/></g>
+<path d="M122 350 Q124 358 132 360 Q124 362 122 370 Q120 362 112 360 Q120 358 122 350 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M306 340 Q308.4 349.6 318 352 Q308.4 354.4 306 364 Q303.6 354.4 294 352 Q303.6 349.6 306 340 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M112 142 L112 170 M313 142 L313 170" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<rect x="50" y="26" width="325" height="116" rx="18" fill="#FFFFFF" stroke="#14142B" stroke-width="5"/>
+<rect x="62" y="38" width="301" height="92" rx="12" fill="none" stroke="#4236F6" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="212.5" y="78" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="34" fill="#003478"><tspan fill="#4236F6">하나</tspan>밖에</text>
+<text x="212.5" y="120" text-anchor="middle" font-family="Malgun Gothic" font-weight="bold" font-size="34" fill="#003478">안 남았어요!</text>
+<circle cx="22" cy="150" r="7" fill="none" stroke="#14142B" stroke-width="3"/>
+<path d="M404 199 Q406.2 207.8 415 210 Q406.2 212.2 404 221 Q401.8 212.2 393 210 Q401.8 207.8 404 199 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+</svg>

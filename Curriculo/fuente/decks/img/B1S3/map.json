@@ -1,0 +1,144 @@
+{
+  "imagenes": [
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La bolsa misteriosa: una mochila (가방) azul y navy, sin cara, con un globo dorado con «?» encima. Acompaña la pregunta enorme 이게 뭐예요?"
+    },
+    {
+      "L": "8",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L8_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "이거 · cerca de mí: A (quien habla, con globo) y B de la cintura hacia arriba (bustos cerrados abajo, sin corte en el borde), grandes y a la misma escala en las 3 columnas; A sostiene un lápiz grande sobre el pecho, dentro de un aro dorado; B con su libro abierto y el reloj de pared, sin realce."
+    },
+    {
+      "L": "8",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L8_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "그거 · cerca de ti: la misma escena y escala; A estira la mano hacia B y señala su libro abierto grande, que queda dentro de un aro dorado."
+    },
+    {
+      "L": "8",
+      "destino": "col",
+      "indice": 2,
+      "archivo": "L8_col2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "저거 · lejos de los dos: la misma escena y escala; A estira el brazo hacia arriba y una flecha punteada pasa sobre B y llega al reloj de pared, realzado con un halo dorado."
+    },
+    {
+      "L": "15",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L15_slide.svg",
+      "origen": "flashcard",
+      "descripcion": "La flashcard 붕어빵 (pan con forma de pez, sin texto) en grande, sobre un círculo lila suave: los alumnos adivinan qué es."
+    },
+    {
+      "L": "17",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L17_item0.svg",
+      "origen": "flashcard",
+      "descripcion": "Ítem 1 · pan: flashcard 빵 (rebanada de pan)."
+    },
+    {
+      "L": "17",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L17_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Ítem 2 · vaso de leche: el cartón de leche de la flashcard 우유 en grande a la izquierda (frente lila con una gota de leche blanca, techo azul) y delante el vaso de la flashcard 물 lleno de leche blanca, con cara; los dos llenan el cuadro para que no se confunda con agua."
+    },
+    {
+      "L": "17",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L17_item2.svg",
+      "origen": "flashcard",
+      "descripcion": "Ítem 3 · libro: flashcard 책 (libro abierto)."
+    },
+    {
+      "L": "17",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L17_item3.svg",
+      "origen": "flashcard",
+      "descripcion": "Ítem 4 · taza de café: flashcard 커피."
+    },
+    {
+      "L": "17",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L17_item4.svg",
+      "origen": "flashcard",
+      "descripcion": "Ítem 5 · plato de arroz: flashcard 밥 (bol de arroz)."
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L18_item0.svg",
+      "origen": "flashcard",
+      "descripcion": "Ítem 6 · silla: flashcard 의자."
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L18_item1.svg",
+      "origen": "flashcard",
+      "descripcion": "Ítem 7 · gorro: flashcard 모자 (la misma de la S1; la respuesta es 모자예요, no 구두)."
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L18_item2.svg",
+      "origen": "flashcard",
+      "descripcion": "Ítem 8 · lápiz: flashcard 연필."
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L18_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Ítem 9 · reloj de pulsera: reloj de muñeca derecho y grande, correa navy de arriba abajo, caja dorada, esfera blanca que marca las tres y corona a la derecha (la respuesta es 시계예요, no 휴대폰)."
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L18_item4.svg",
+      "origen": "flashcard",
+      "descripcion": "Ítem 10 · pepino: la flashcard 오이 rehecha más reconocible: pepino grande en diagonal con granitos en el contorno, rayas claras, rabito y flor seca amarilla, y una rodaja grande con semillas."
+    },
+    {
+      "L": "22",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L22_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Café de Seúl: A (izquierda, insignia A) y B (derecha, insignia B) en los extremos de la mesa; lo de A (taza de café, celular y libro abierto, grandes) sobre un individual lila a su lado; lo de B (cuaderno verde y bolso dorado) sobre un individual verde a su lado y su paraguas azul apoyado en su extremo de la mesa; madera libre en el medio de la mesa; lejos de los dos, un reloj grande en la pared y, por la ventana, un puesto de 붕어빵 con toldo azul y 3 pescaditos grandes."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "1",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la portada de la plantilla ya trae el logo azul de Academia Seúl."
+    },
+    {
+      "L": "27",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la lámina de cierre de la plantilla ya trae el sello del tigre (versión 2, sin marco)."
+    }
+  ]
+}

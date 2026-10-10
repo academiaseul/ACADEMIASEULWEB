@@ -15586,7 +15586,8 @@
         },
         "frase": {
           "ko": "어제 한국은 빼빼로데이였어요.",
-          "es": "Ayer en Corea fue el día del 빼빼로 (11/11)."
+          "es": "Ayer en Corea fue el día del 빼빼로 (11/11).",
+          "destacar": "였어요"
         },
         "glifos": [],
         "palabras": [],

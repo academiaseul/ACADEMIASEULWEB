@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 490" width="425" height="490" fill="none">
+<!-- Mano levantada (mano arriba) y, debajo, las vocales ㅏ y ㅗ en dos tarjetas -->
+<circle cx="212" cy="150" r="124" fill="#F1F0FE" stroke="#DCE0FA" stroke-width="4"/>
+<g transform="translate(206 158) scale(1.22)">
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="-30" y="56" width="62" height="56" rx="10"/>
+<path d="M-42 -6 Q-42 -18 -30 -18 L34 -18 Q46 -18 46 -4 L44 40 Q40 64 18 66 L-18 66 Q-42 64 -42 40 Z"/>
+<rect x="-38.5" y="-70" width="17" height="76" rx="8.5"/>
+<rect x="-20.5" y="-84" width="17" height="90" rx="8.5"/>
+<rect x="-2.5" y="-90" width="17" height="96" rx="8.5"/>
+<rect x="15.5" y="-84" width="17" height="90" rx="8.5"/>
+<path d="M40 26 L66 -6" fill="none" stroke-width="37"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="-30" y="56" width="62" height="56" rx="10"/>
+<path d="M-42 -6 Q-42 -18 -30 -18 L34 -18 Q46 -18 46 -4 L44 40 Q40 64 18 66 L-18 66 Q-42 64 -42 40 Z"/>
+<rect x="-38.5" y="-70" width="17" height="76" rx="8.5"/>
+<rect x="-20.5" y="-84" width="17" height="90" rx="8.5"/>
+<rect x="-2.5" y="-90" width="17" height="96" rx="8.5"/>
+<rect x="15.5" y="-84" width="17" height="90" rx="8.5"/>
+<path d="M40 26 L66 -6" fill="none" stroke-width="37"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="-30" y="56" width="62" height="56" rx="10"/>
+<path d="M-42 -6 Q-42 -18 -30 -18 L34 -18 Q46 -18 46 -4 L44 40 Q40 64 18 66 L-18 66 Q-42 64 -42 40 Z"/>
+<rect x="-38.5" y="-70" width="17" height="76" rx="8.5"/>
+<rect x="-20.5" y="-84" width="17" height="90" rx="8.5"/>
+<rect x="-2.5" y="-90" width="17" height="96" rx="8.5"/>
+<rect x="15.5" y="-84" width="17" height="90" rx="8.5"/>
+<path d="M40 26 L66 -6" fill="none" stroke-width="30"/>
+</g>
+<rect x="-30" y="56" width="62" height="56" rx="10" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M-30 70 L32 70" stroke="#14142B" stroke-width="3.5"/>
+<rect x="-38.5" y="-70" width="17" height="76" rx="8.5" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<rect x="-20.5" y="-84" width="17" height="90" rx="8.5" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<rect x="-2.5" y="-90" width="17" height="96" rx="8.5" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<rect x="15.5" y="-84" width="17" height="90" rx="8.5" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<path d="M40 26 L66 -6" stroke="#14142B" stroke-width="25" stroke-linecap="round"/><path d="M40 26 L66 -6" stroke="#F3C39A" stroke-width="17" stroke-linecap="round"/>
+<path d="M-42 -6 Q-42 -18 -30 -18 L34 -18 Q46 -18 46 -4 L44 40 Q40 64 18 66 L-18 66 Q-42 64 -42 40 Z" fill="#F3C39A" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M-26 36 Q-8 46 12 40" stroke="#8A5A3C" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+</g>
+<path d="M70 70 Q58 96 70 122" stroke="#14142B" stroke-width="12" stroke-linecap="round"/><path d="M70 70 Q58 96 70 122" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M354 70 Q366 96 354 122" stroke="#14142B" stroke-width="12" stroke-linecap="round"/><path d="M354 70 Q366 96 354 122" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="32" y="312" width="150" height="150" rx="26"/>
+<rect x="243" y="312" width="150" height="150" rx="26"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="32" y="312" width="150" height="150" rx="26"/>
+<rect x="243" y="312" width="150" height="150" rx="26"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="32" y="312" width="150" height="150" rx="26"/>
+<rect x="243" y="312" width="150" height="150" rx="26"/>
+</g>
+<rect x="32" y="312" width="150" height="150" rx="26" fill="#FFFFFF" stroke="#14142B" stroke-width="5"/>
+<text x="107" y="424" font-family="Malgun Gothic" font-size="112" font-weight="bold" fill="#4236F6" text-anchor="middle">ㅏ</text>
+<rect x="243" y="312" width="150" height="150" rx="26" fill="#FFFFFF" stroke="#14142B" stroke-width="5"/>
+<text x="318" y="424" font-family="Malgun Gothic" font-size="112" font-weight="bold" fill="#4236F6" text-anchor="middle">ㅗ</text>
+<text x="212" y="404" font-family="Arial" font-size="44" font-weight="bold" fill="#5E6280" text-anchor="middle">/</text>
+<path d="M40 26 Q42.8 37.2 54 40 Q42.8 42.8 40 54 Q37.2 42.8 26 40 Q37.2 37.2 40 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M390 210 Q392 218 400 220 Q392 222 390 230 Q388 222 380 220 Q388 218 390 210 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="380" cy="34" r="7" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

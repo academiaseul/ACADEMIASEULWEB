@@ -1,0 +1,275 @@
+{
+  "imagenes": [
+    {
+      "L": "1",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L1_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mapa mínimo del teclado coreano: teclas A S D F G = ㅁ ㄴ ㅇ ㄹ ㅎ (consonantes, teclas blancas) y H J K L = ㅗ ㅓ ㅏ ㅣ (vocales, teclas amarillas); teclas más grandes con la letra latina en negro (28) y el jamo grande (56) para que la relación tecla → letra se lea proyectada; rayita gris de F y J al pie de la tecla; abajo el ejemplo D + K = 아 en un globo de chat."
+    },
+    {
+      "L": "3",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L3_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "따라 하세요: palma abierta hacia la cámara (gesto de 'tu turno') con un globo de diálogo de tres puntos."
+    },
+    {
+      "L": "3",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L3_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "읽으세요: mano con el índice que señala una pantalla que muestra 가."
+    },
+    {
+      "L": "3",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L3_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "다시 한번: índice levantado que dibuja un círculo (flecha circular azul alrededor de la punta)."
+    },
+    {
+      "L": "3",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L3_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "잘했어요: pulgar arriba con destellos."
+    },
+    {
+      "L": "4",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L4_slide.png",
+      "origen": "material_propio",
+      "descripcion": "Rey Sejong (세종) en caricatura, de brazos cruzados y con lentes de sol: image3.png de A1_Nivel_1/Parte 1 - historia de hangul.pptx (lámina 2), recortada con fondo transparente y centrada a 850 × 980 px. El 곤룡포 del original era rojo: se recoloreó a azul de la casa (sin rojo); el dragón y los adornos siguen dorados."
+    },
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dibujo de celebración de 한글날 en vez de foto: calendario 'OCT 9', guirnalda, globos con ㅎ ㄱ ㅏ, confeti y cinta con 한글날."
+    },
+    {
+      "L": "8",
+      "destino": "glifo",
+      "indice": 0,
+      "archivo": "L8_glifo0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅏ: cara con la boca bien abierta (óvalo alto), dientes arriba y lengua naranja."
+    },
+    {
+      "L": "8",
+      "destino": "glifo",
+      "indice": 1,
+      "archivo": "L8_glifo1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅓ: cara con la boca abierta y relajada, sin redondear (óvalo más ancho que alto, con dientes arriba y lengua naranja para que se lea como boca y no como bigote)."
+    },
+    {
+      "L": "8",
+      "destino": "glifo",
+      "indice": 2,
+      "archivo": "L8_glifo2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅗ: cara con los labios redondos y chiquitos."
+    },
+    {
+      "L": "8",
+      "destino": "glifo",
+      "indice": 3,
+      "archivo": "L8_glifo3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅜ: cara con los labios redondos, fruncidos y hacia adelante (trompita clara con arco de cupido, abertura mínima y sombra debajo que muestra que sobresale; sin rayitas alrededor)."
+    },
+    {
+      "L": "8",
+      "destino": "glifo",
+      "indice": 4,
+      "archivo": "L8_glifo4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅡ: cara con los labios estirados en línea, sin adelantar."
+    },
+    {
+      "L": "8",
+      "destino": "glifo",
+      "indice": 5,
+      "archivo": "L8_glifo5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅣ: cara con sonrisa de foto (dientes, ojos felices y lengua naranja)."
+    },
+    {
+      "L": "9",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L9_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅓ: la misma cara de L8 (boca abierta y relajada, con dientes y lengua) + mano que muestra 1 dedo; ambas más grandes para llenar la columna."
+    },
+    {
+      "L": "9",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L9_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅗ: la misma cara de L8 (labios redondos) + mano que muestra 2 dedos; ambas más grandes para llenar la columna."
+    },
+    {
+      "L": "10",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L10_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅡ: la misma cara de L8 (sonrisa sin redondear) + mano que muestra 1 dedo; ambas más grandes para llenar la columna."
+    },
+    {
+      "L": "10",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L10_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅜ: la misma cara de L8 (trompita hacia adelante, clara sobre la piel) + mano que muestra 2 dedos; ambas más grandes para llenar la columna."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 0,
+      "archivo": "L13_glifo0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅏ: 1 palo · 2 rayita a la derecha (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 1,
+      "archivo": "L13_glifo1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅑ: palo · rayita · rayita (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 2,
+      "archivo": "L13_glifo2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅓ: 1 rayita · 2 palo (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 3,
+      "archivo": "L13_glifo3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅕ: rayita · rayita · palo (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 4,
+      "archivo": "L13_glifo4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅗ: 1 palito hacia abajo · 2 raya (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 5,
+      "archivo": "L13_glifo5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅛ: palito · palito · raya (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 6,
+      "archivo": "L13_glifo6.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅜ: 1 raya · 2 palito hacia abajo (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 7,
+      "archivo": "L13_glifo7.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅠ: raya · palito · palito (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 8,
+      "archivo": "L13_glifo8.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅡ: una raya (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "13",
+      "destino": "glifo",
+      "indice": 9,
+      "archivo": "L13_glifo9.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Orden de trazo de ㅣ: un palo (trazos gruesos que llenan el cuadro, número de orden en un círculo navy grande (32) junto al inicio de cada trazo y flecha azul gruesa con el sentido: de arriba abajo y de izquierda a derecha)."
+    },
+    {
+      "L": "14",
+      "destino": "glifo",
+      "indice": 0,
+      "archivo": "L14_glifo0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㄱ: cabeza de perfil con la boca en corte grande (interior oscuro); la parte de atrás de la lengua naranja sube y toca el paladar y una ㄱ azul gruesa con halo blanco sigue la lengua."
+    },
+    {
+      "L": "14",
+      "destino": "glifo",
+      "indice": 1,
+      "archivo": "L14_glifo1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㄴ: cabeza de perfil con la boca en corte grande (interior oscuro); la punta de la lengua naranja toca detrás de los dientes de arriba y una ㄴ azul gruesa con halo blanco sigue la lengua."
+    },
+    {
+      "L": "14",
+      "destino": "glifo",
+      "indice": 2,
+      "archivo": "L14_glifo2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅁ: cara de frente con los labios cerrados dentro de un cuadrado azul."
+    },
+    {
+      "L": "14",
+      "destino": "glifo",
+      "indice": 3,
+      "archivo": "L14_glifo3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅅ: un diente con punta y una ㅅ azul que dibuja su forma."
+    },
+    {
+      "L": "14",
+      "destino": "glifo",
+      "indice": 4,
+      "archivo": "L14_glifo4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "ㅇ: cabeza de perfil con la boca en corte grande (interior oscuro, lengua naranja relajada); la garganta (el tubo detrás de la lengua) marcada con un círculo azul grueso."
+    },
+    {
+      "L": "16",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L16_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Palma frente a la boca en dos viñetas: con 가 casi no sale aire (rayita gris) y con 카 el soplo azul llega a la palma."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "2",
+      "motivo": "plantilla",
+      "instruccion": "Nada que conseguir: la portada ya trae el logo azul de Academia Seúl y el sello del tigre en la plantilla de la casa."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 한국 · Corea · Estilo A Sticker pop · casa tradicional 한옥 con techo de tejas curvo y cara en la fachada (sin bandera: el taegukgi lleva rojo) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 50 Q56 58 66 56 L154 56 Q164 58 170 50 L170 62 Q164 68 154 68 L66 68 Q56 68 50 62 Z"/>
+<path d="M22 94 Q40 96 56 64 L164 64 Q180 96 198 94 Q190 112 172 112 L48 112 Q30 112 22 94 Z"/>
+<rect x="50" y="110" width="120" height="68"/>
+<rect x="40" y="176" width="140" height="16" rx="4"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 50 Q56 58 66 56 L154 56 Q164 58 170 50 L170 62 Q164 68 154 68 L66 68 Q56 68 50 62 Z"/>
+<path d="M22 94 Q40 96 56 64 L164 64 Q180 96 198 94 Q190 112 172 112 L48 112 Q30 112 22 94 Z"/>
+<rect x="50" y="110" width="120" height="68"/>
+<rect x="40" y="176" width="140" height="16" rx="4"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M50 50 Q56 58 66 56 L154 56 Q164 58 170 50 L170 62 Q164 68 154 68 L66 68 Q56 68 50 62 Z"/>
+<path d="M22 94 Q40 96 56 64 L164 64 Q180 96 198 94 Q190 112 172 112 L48 112 Q30 112 22 94 Z"/>
+<rect x="50" y="110" width="120" height="68"/>
+<rect x="40" y="176" width="140" height="16" rx="4"/>
+</g>
+<!-- muro de estuco crema con pilares y viga de madera -->
+<rect x="50" y="110" width="120" height="68" fill="#FFF4D9" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="50" y="110" width="11" height="68" fill="#A86B3C" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="159" y="110" width="11" height="68" fill="#A86B3C" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="50" y="110" width="120" height="11" fill="#A86B3C" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- ventanitas de celosía (창살) -->
+<rect x="64" y="130" width="15" height="30" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<path d="M71.5 132 L71.5 158 M66 140 L77 140 M66 150 L77 150" stroke="#A86B3C" stroke-width="2.6" stroke-linecap="round"/>
+<rect x="141" y="130" width="15" height="30" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<path d="M148.5 132 L148.5 158 M143 140 L154 140 M143 150 L154 150" stroke="#A86B3C" stroke-width="2.6" stroke-linecap="round"/>
+<!-- techo de tejas curvo con aleros levantados -->
+<path d="M22 94 Q40 96 56 64 L164 64 Q180 96 198 94 Q190 112 172 112 L48 112 Q30 112 22 94 Z" fill="#8A8FA8" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M72 70 L62 106 M88 70 L82 108 M104 70 L102 108 M120 70 L122 108 M136 70 L142 108 M152 70 L160 106" stroke="#5E6280" stroke-width="3" stroke-linecap="round"/>
+<path d="M30 98 Q40 104 52 104 L168 104 Q180 104 190 98" stroke="#E3E6F2" stroke-width="4" stroke-linecap="round"/>
+<!-- cumbrera con puntas levantadas -->
+<path d="M50 50 Q56 58 66 56 L154 56 Q164 58 170 50 L170 62 Q164 68 154 68 L66 68 Q56 68 50 62 Z" fill="#5E6280" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- basamento de piedra (기단) -->
+<rect x="40" y="176" width="140" height="16" rx="4" fill="#E3E6F2" stroke="#14142B" stroke-width="4"/>
+<path d="M72 180 L72 188 M106 180 L106 188 M140 180 L140 188" stroke="#8A8FA8" stroke-width="3" stroke-linecap="round"/>
+<!-- cara de la casa en la fachada (110,144) s 0.85 -->
+<ellipse cx="98.1" cy="144" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="144" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="141.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="141.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="155.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="155.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 155.05 Q110 165.25 116.8 155.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M26 24 Q28.4 33.6 38 36 Q28.4 38.4 26 48 Q23.6 38.4 14 36 Q23.6 33.6 26 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 24 Q198 32 206 34 Q198 36 196 44 Q194 36 186 34 Q194 32 196 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="24" cy="150" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

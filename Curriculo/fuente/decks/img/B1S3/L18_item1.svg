@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 모자 · sombrero, gorro · Estilo A Sticker pop · mazo aprobado (30 sept 2026) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="110" cy="150" rx="86" ry="28"/>
+<path d="M64 150 C62 96 84 66 110 66 C136 66 158 96 156 150 Q110 166 64 150 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="110" cy="150" rx="86" ry="28"/>
+<path d="M64 150 C62 96 84 66 110 66 C136 66 158 96 156 150 Q110 166 64 150 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="110" cy="150" rx="86" ry="28"/>
+<path d="M64 150 C62 96 84 66 110 66 C136 66 158 96 156 150 Q110 166 64 150 Z"/>
+</g>
+<defs>
+<clipPath id="clipGorro">
+<path d="M64 150 C62 96 84 66 110 66 C136 66 158 96 156 150 Q110 166 64 150 Z"/>
+</clipPath>
+</defs>
+<ellipse cx="110" cy="150" rx="86" ry="28" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M34 148 L48 151" fill="none" stroke="#B9861E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42 164 L55 160" fill="none" stroke="#B9861E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M186 148 L172 151" fill="none" stroke="#B9861E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M178 164 L165 160" fill="none" stroke="#B9861E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M92 166 L93 174" fill="none" stroke="#B9861E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M128 166 L127 174" fill="none" stroke="#B9861E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64 150 C62 96 84 66 110 66 C136 66 158 96 156 150 Q110 166 64 150 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<g clip-path="url(#clipGorro)">
+<path d="M30 120 Q110 142 190 120 L190 152 Q110 174 30 152 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<path d="M64 150 C62 96 84 66 110 66 C136 66 158 96 156 150 Q110 166 64 150 Z" fill="none" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M142 140 L127 130 L127 150 Z" fill="#2A1FC7" stroke="#14142B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M142 140 L157 130 L157 150 Z" fill="#2A1FC7" stroke="#14142B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="142" cy="140" r="5.5" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<path d="M90 80 L95 88" fill="none" stroke="#B9861E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M130 80 L125 88" fill="none" stroke="#B9861E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 74 L110 82" fill="none" stroke="#B9861E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="98.1" cy="104" rx="5.52" ry="7.22" fill="#14142B"/>
+<ellipse cx="121.9" cy="104" rx="5.52" ry="7.22" fill="#14142B"/>
+<circle cx="99.97" cy="101.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="101.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="115.9" rx="5.95" ry="3.82" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="115.9" rx="5.95" ry="3.82" fill="#FFB98A"/>
+<path d="M103.2 115.05 Q110 125.25 116.8 115.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<path d="M38 45 Q40.6 55.4 51 58 Q40.6 60.6 38 71 Q35.4 60.6 25 58 Q35.4 55.4 38 45 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M188 52 Q190 60 198 62 Q190 64 188 72 Q186 64 178 62 Q186 60 188 52 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="30" cy="196" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

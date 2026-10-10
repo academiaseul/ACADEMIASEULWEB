@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 490" width="425" height="490" fill="none">
+<!-- Corrección del Quiz 5 (mismo dibujo de L2) · escritorio: computador encima del escritorio, taza al lado del computador, silla con un libro encima, bolso debajo de la silla; sin paraguas. Sin marco propio (la lámina ya pone el panel); los muebles llenan el encuadre. -->
+<!-- piso -->
+<path d="M0 418 L425 418 L425 490 L0 490 Z" fill="#DCE0FA"/>
+<path d="M0 418 L425 418" stroke="#B3B8D6" stroke-width="5"/>
+<!-- ventana (arriba a la izquierda) -->
+<rect x="14" y="14" width="136" height="104" rx="10" fill="#9FD3F5" stroke="#14142B" stroke-width="5.5"/>
+<path d="M82 14 L82 118 M14 66 L150 66" stroke="#14142B" stroke-width="5.5"/>
+<path d="M28 30 L52 30" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<!-- cuadro (arriba a la derecha) -->
+<rect x="296" y="14" width="114" height="78" rx="8" fill="#FFFFFF" stroke="#14142B" stroke-width="5.5"/>
+<rect x="308" y="26" width="90" height="54" rx="4" fill="#9FD3F5" stroke="#14142B" stroke-width="4"/>
+<path d="M310 78 L336 48 L354 66 L370 52 L396 78 Z" fill="#2F8F57" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="380" cy="40" r="7" fill="#FFD95E" stroke="#14142B" stroke-width="3.5"/>
+<!-- sombras en el piso -->
+<ellipse cx="290" cy="440" rx="134" ry="8" fill="#B3B8D6" opacity="0.8"/>
+<ellipse cx="82" cy="440" rx="74" ry="8" fill="#B3B8D6" opacity="0.8"/>
+<!-- ESCRITORIO -->
+<rect x="176" y="262" width="22" height="178" rx="7" fill="#A86B3C" stroke="#14142B" stroke-width="5.5"/>
+<rect x="384" y="262" width="22" height="178" rx="7" fill="#A86B3C" stroke="#14142B" stroke-width="5.5"/>
+<rect x="160" y="246" width="262" height="22" rx="7" fill="#C98A3E" stroke="#14142B" stroke-width="5.5"/>
+<path d="M176 256 L246 256" stroke="#EDC27E" stroke-width="5" stroke-linecap="round"/>
+<!-- computador encima del escritorio -->
+<rect x="240" y="208" width="26" height="34" fill="#8A8DA0" stroke="#14142B" stroke-width="5.5"/>
+<rect x="216" y="234" width="74" height="14" rx="7" fill="#5E6280" stroke="#14142B" stroke-width="5.5"/>
+<rect x="170" y="86" width="166" height="126" rx="12" fill="#4236F6" stroke="#14142B" stroke-width="5.5"/>
+<rect x="182" y="98" width="142" height="100" rx="5" fill="#9FD3F5" stroke="#14142B" stroke-width="4"/>
+<path d="M196 116 L226 116" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<path d="M196 132 L212 132" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<!-- taza de café al lado del computador -->
+<path d="M362 150 Q354 140 362 130 Q370 120 362 110" stroke="#8A8DA0" stroke-width="5" stroke-linecap="round"/>
+<path d="M382 150 Q374 140 382 130 Q390 120 382 110" stroke="#8A8DA0" stroke-width="5" stroke-linecap="round"/>
+<path d="M392 184 Q414 184 412 202 Q410 220 392 218" stroke="#14142B" stroke-width="16" stroke-linecap="round"/>
+<path d="M392 184 Q414 184 412 202 Q410 220 392 218" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<path d="M346 168 L396 168 L394 232 Q393 244 381 244 L361 244 Q349 244 348 232 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="5.5" stroke-linejoin="round"/>
+<rect x="347" y="194" width="48" height="14" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="371" cy="168" rx="25" ry="7" fill="#74461F" stroke="#14142B" stroke-width="4.5"/>
+<!-- SILLA (de perfil, mirando al escritorio) -->
+<rect x="22" y="136" width="22" height="304" rx="8" fill="#A86B3C" stroke="#14142B" stroke-width="5.5"/>
+<rect x="12" y="132" width="42" height="104" rx="13" fill="#C98A3E" stroke="#14142B" stroke-width="5.5"/>
+<path d="M24 150 L24 200" stroke="#EDC27E" stroke-width="5" stroke-linecap="round"/>
+<rect x="128" y="318" width="20" height="122" rx="7" fill="#A86B3C" stroke="#14142B" stroke-width="5.5"/>
+<rect x="14" y="300" width="142" height="22" rx="8" fill="#C98A3E" stroke="#14142B" stroke-width="5.5"/>
+<path d="M60 310 L140 310" stroke="#EDC27E" stroke-width="5" stroke-linecap="round"/>
+<!-- libro encima de la silla -->
+<path d="M58 258 L144 258 L150 276 L52 276 Z" fill="#003478" stroke="#14142B" stroke-width="5.5" stroke-linejoin="round"/>
+<path d="M70 266 L132 266" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" opacity="0.85"/>
+<rect x="52" y="276" width="98" height="16" rx="3" fill="#FFFFFF" stroke="#14142B" stroke-width="5.5"/>
+<path d="M60 284 L142 284" stroke="#B3B8D6" stroke-width="3" stroke-linecap="round"/>
+<rect x="48" y="290" width="106" height="9" rx="4.5" fill="#003478" stroke="#14142B" stroke-width="4.5"/>
+<!-- bolso debajo de la silla -->
+<path d="M68 376 C68 330 108 330 108 376" stroke="#14142B" stroke-width="17" stroke-linecap="round"/>
+<path d="M68 376 C68 330 108 330 108 376" stroke="#003478" stroke-width="7" stroke-linecap="round"/>
+<path d="M58 372 L118 372 L122 424 Q122 436 110 436 L64 436 Q54 436 54 424 Z" fill="#4236F6" stroke="#14142B" stroke-width="5.5" stroke-linejoin="round"/>
+<path d="M56 396 L120 396" stroke="#14142B" stroke-width="4.5"/>
+<rect x="78" y="388" width="20" height="16" rx="4" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M64 412 L64 422" stroke="#9FD3F5" stroke-width="5" stroke-linecap="round"/>
+</svg>

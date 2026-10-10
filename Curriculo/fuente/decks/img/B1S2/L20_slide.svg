@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 490" width="425" height="490" fill="none">
+<!-- B1S2 L20 · 목례 frente a la cámara: alumna en una videollamada inclina un poco la cabeza (ojos cerrados, flecha hacia abajo, punteado = posición inicial) y dice 안녕하세요! · Sticker pop -->
+<g transform="translate(0 44)">
+<g transform="translate(8 9)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="30" stroke-linejoin="round" stroke-linecap="round">
+<rect x="38" y="120" width="349" height="230" rx="20"/>
+<path d="M18 346 L407 346 L392 378 L33 378 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="30" stroke-linejoin="round" stroke-linecap="round">
+<rect x="38" y="120" width="349" height="230" rx="20"/>
+<path d="M18 346 L407 346 L392 378 L33 378 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="21" stroke-linejoin="round" stroke-linecap="round">
+<rect x="38" y="120" width="349" height="230" rx="20"/>
+<path d="M18 346 L407 346 L392 378 L33 378 Z"/>
+</g>
+<!-- computador -->
+<rect x="38" y="120" width="349" height="230" rx="20" fill="#003478" stroke="#14142B" stroke-width="5"/>
+<rect x="58" y="140" width="309" height="192" rx="8" fill="#DCE0FA" stroke="#14142B" stroke-width="4"/>
+<circle cx="212.5" cy="130" r="4.5" fill="#9FD3F5" stroke="#14142B" stroke-width="2"/>
+<path d="M18 346 L407 346 L392 378 L33 378 Z" fill="#B3B8D6" stroke="#14142B" stroke-width="5" stroke-linejoin="round"/>
+<path d="M180 346 L245 346 L241 354 L184 354 Z" fill="#8A8DA0" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<!-- en la pantalla: una alumna hace 목례 (la cabeza baja un poco; la línea punteada es dónde estaba) -->
+<g>
+<ellipse cx="212.5" cy="214" rx="48" ry="45" fill="none" stroke="#8A8DA0" stroke-width="3.5" stroke-dasharray="9 7"/>
+<path d="M160 300 C150 250 160 196 212.5 196 C265 196 275 250 265 300 Z" fill="#74461F" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M140 332 C140 296 170 280 212.5 280 C255 280 285 296 285 332 Z" fill="#4236F6" stroke="#14142B" stroke-width="4.5" stroke-linejoin="round"/>
+<path d="M212.5 288 L196 284 L204 302 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M212.5 288 L229 284 L221 302 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<ellipse cx="165.5" cy="252" rx="7" ry="9" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="259.5" cy="252" rx="7" ry="9" fill="#F3C39A" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="212.5" cy="246" rx="46" ry="43" fill="#F3C39A" stroke="#14142B" stroke-width="4.5"/>
+<path d="M165.5 250 C160.5 202 190.5 196 212.5 196 C234.5 196 264.5 202 259.5 250 C252.5 240 238.5 234 224.5 234 C214.5 240 198.5 242 186.5 238 C176.5 240 169.5 244 165.5 250 Z" fill="#74461F" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M192.5 208 Q206.5 202 220.5 204" stroke="#C98A3E" stroke-width="5" stroke-linecap="round"/>
+<path d="M195.5 258 Q200.6 252.9 205.7 258" stroke="#14142B" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M219.3 258 Q224.4 252.9 229.5 258" stroke="#14142B" stroke-width="3.4" stroke-linecap="round"/>
+<ellipse cx="190.4" cy="269.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="234.6" cy="269.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M205.7 269.05 Q212.5 279.25 219.3 269.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<path d="M286 170 C318 196 318 236 292 262" stroke="#14142B" stroke-width="13" stroke-linecap="round"/>
+<path d="M286 170 C318 196 318 236 292 262" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>
+<path d="M281 270 L302 268 L288 252 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+</g>
+<rect x="64" y="297" width="92" height="31" rx="7" fill="#14142B" opacity="0.78"/>
+<text x="110" y="320.5" font-family="Malgun Gothic" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">마리아</text>
+<!-- globo -->
+<path d="M114 22 L311 22 Q333 22 333 44 L333 70 Q333 92 311 92 L218 92 L205 150 L190 92 L114 92 Q92 92 92 70 L92 44 Q92 22 114 22 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="5" stroke-linejoin="round"/>
+<text x="212.5" y="69.24" font-family="Malgun Gothic" font-size="34" font-weight="bold" fill="#003478" text-anchor="middle">안녕하세요!</text>
+<path d="M48 49 Q51 61 63 64 Q51 67 48 79 Q45 67 33 64 Q45 61 48 49 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M384 35 Q386.2 43.8 395 46 Q386.2 48.2 384 57 Q381.8 48.2 373 46 Q381.8 43.8 384 35 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="372" cy="6" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+<path d="M56 406 Q58.4 415.6 68 418 Q58.4 420.4 56 430 Q53.6 420.4 44 418 Q53.6 415.6 56 406 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="372" cy="420" r="7" fill="none" stroke="#14142B" stroke-width="3"/>
+</g>
+</svg>

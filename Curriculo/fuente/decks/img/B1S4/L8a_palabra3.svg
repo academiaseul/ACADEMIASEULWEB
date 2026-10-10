@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 엄마 · mamá · Estilo A Sticker pop · ejemplo de PERSONA de la guía (_GUIA.md, ejemplo 2) -->
+<!-- 1) Silueta del sticker: las mismas 3 formas (pelo de atrás + cabeza + torso) tres veces: sombra, borde tinta 24, borde blanco 17 -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M56 112 C50 62 78 36 110 36 C142 36 170 62 164 112 L166 146 Q152 156 138 146 L82 146 Q68 156 54 146 Z"/>
+<ellipse cx="110" cy="98" rx="46" ry="44"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M56 112 C50 62 78 36 110 36 C142 36 170 62 164 112 L166 146 Q152 156 138 146 L82 146 Q68 156 54 146 Z"/>
+<ellipse cx="110" cy="98" rx="46" ry="44"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M56 112 C50 62 78 36 110 36 C142 36 170 62 164 112 L166 146 Q152 156 138 146 L82 146 Q68 156 54 146 Z"/>
+<ellipse cx="110" cy="98" rx="46" ry="44"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<!-- 2) Piezas de color, de atrás hacia adelante, cada una con borde tinta 4 -->
+<!-- pelo de atrás (melena corta) -->
+<path d="M56 112 C50 62 78 36 110 36 C142 36 170 62 164 112 L166 146 Q152 156 138 146 L82 146 Q68 156 54 146 Z" fill="#4A3426" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- torso: blusa azul de la marca + cuello blanco -->
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M98 132 L98 152 Q110 160 122 152 L122 132 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M110 158 Q92 148 84 160 Q96 172 110 160 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M110 158 Q128 148 136 160 Q124 172 110 160 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="110" cy="176" r="4" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- cabeza (piel clara) -->
+<ellipse cx="110" cy="98" rx="46" ry="44" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<!-- flequillo con raya al lado: relleno SIN borde (tapa el contorno de la cabeza) y borde solo en el canto de abajo -->
+<path d="M63 104 C58 64 82 46 110 46 C138 46 162 64 157 104 C152 84 140 72 124 70 C114 80 96 84 82 82 C72 86 66 94 63 104 Z" fill="#4A3426"/>
+<path d="M157 104 C152 84 140 72 124 70 C114 80 96 84 82 82 C72 86 66 94 63 104" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- brillo del pelo -->
+<path d="M84 60 Q96 54 108 56" stroke="#6E4424" stroke-width="5" stroke-linecap="round"/>
+<!-- horquilla dorada -->
+<rect x="130" y="60" width="20" height="9" rx="4.5" fill="#E8B84B" stroke="#14142B" stroke-width="3" transform="rotate(-24 140 64.5)"/>
+<!-- 3) Cara de la casa (face) en (110,110) a escala 0.85: ojos, brillos, mejillas durazno, boca -->
+<ellipse cx="98.1" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 121.05 Q110 131.25 116.8 121.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- 4) Adornos: 2 chispas + 1 anillo, fuera de la figura y lejos del botón de audio (abajo a la derecha) -->
+<path d="M30 28 Q32.4 37.6 42 40 Q32.4 42.4 30 52 Q27.6 42.4 18 40 Q27.6 37.6 30 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M196 70 Q198 78 206 80 Q198 82 196 90 Q194 82 186 80 Q194 78 196 70 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="190" cy="28" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

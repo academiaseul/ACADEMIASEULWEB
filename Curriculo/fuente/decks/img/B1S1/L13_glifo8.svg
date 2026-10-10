@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B1S1 L13 · ㅡ · orden de trazo: una raya (número = orden, flecha = sentido); trazos gruesos y números grandes para que se lean en Zoom -->
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M30 118 L190 118" transform="translate(4 5)" stroke="#14142B" stroke-opacity="0.25" stroke-width="40"/>
+<path d="M30 118 L190 118" stroke="#14142B" stroke-width="40"/>
+<path d="M30 118 L190 118" stroke="#FFFFFF" stroke-width="31"/>
+</g>
+<path d="M36 118 L168 118" stroke="#4236F6" stroke-width="7" stroke-linecap="round"/>
+<path d="M186 118 L166 130 L166 106 Z" fill="#4236F6" stroke="#4236F6" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="46" cy="72" r="23" fill="#003478" stroke="#14142B" stroke-width="3.5"/>
+<text x="46" y="83" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="32" fill="#FFFFFF">1</text>
+</svg>

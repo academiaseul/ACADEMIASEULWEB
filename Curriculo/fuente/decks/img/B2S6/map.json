@@ -1,0 +1,27 @@
+{
+  "imagenes": [
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Día del 수능 dibujado en vez de la foto con licencia: colegio (flashcard 학교) con el reloj en las 9:00, una alumna de espaldas que entra por el portón, sin cara, y dos papás afuera con las manos juntas, con corazones."
+    },
+    {
+      "L": "7",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L7_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Tres viñetas del mismo hombre genérico (no es un retrato de Jay), SIN números (el orden de arriba abajo calza con las frases) y con la misma escala de persona: arriba busto que entra desde el borde + señal de no fumar en navy (담배를 안 피워요), al medio baila torpe con gotas de sudor y notas (춤을 잘 못 춰요), abajo maneja un auto azul (운전할 수 있어요). Reemplaza las fotos de Jay."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "28",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la lámina de cierre ya trae el logo azul y el sello del tigre de la plantilla."
+    }
+  ]
+}

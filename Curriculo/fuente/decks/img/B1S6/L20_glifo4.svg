@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 식당 · restaurante · Estilo A Sticker pop · restaurante de techo coreano con letrero de madera (bol de arroz y palillos), ventanas de papel hanji y cortina en la puerta -->
+<g transform="translate(8.8 6) scale(0.92)">
+<!-- 1) silueta: letrero grande + postes + cumbrera + techo + muro (edificio bajado 22 para dar lugar al letrero) -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="22" y="8" width="176" height="74" rx="10"/>
+<rect x="84" y="80" width="52" height="12"/>
+<g transform="translate(0 22)"><rect x="66" y="66" width="88" height="10" rx="4"/>
+<path d="M28 96 Q56 92 70 72 L150 72 Q164 92 192 96 Q190 104 180 102 L40 102 Q30 104 28 96 Z"/>
+<rect x="50" y="100" width="120" height="84"/></g>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="22" y="8" width="176" height="74" rx="10"/>
+<rect x="84" y="80" width="52" height="12"/>
+<g transform="translate(0 22)"><rect x="66" y="66" width="88" height="10" rx="4"/>
+<path d="M28 96 Q56 92 70 72 L150 72 Q164 92 192 96 Q190 104 180 102 L40 102 Q30 104 28 96 Z"/>
+<rect x="50" y="100" width="120" height="84"/></g>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="22" y="8" width="176" height="74" rx="10"/>
+<rect x="84" y="80" width="52" height="12"/>
+<g transform="translate(0 22)"><rect x="66" y="66" width="88" height="10" rx="4"/>
+<path d="M28 96 Q56 92 70 72 L150 72 Q164 92 192 96 Q190 104 180 102 L40 102 Q30 104 28 96 Z"/>
+<rect x="50" y="100" width="120" height="84"/></g>
+</g>
+<g transform="translate(0 22)">
+<!-- 2) muro lila claro -->
+<rect x="50" y="100" width="120" height="84" fill="#ECE6FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- techo de tejas azul con aleros curvos y cumbrera navy -->
+<path d="M28 96 Q56 92 70 72 L150 72 Q164 92 192 96 Q190 104 180 102 L40 102 Q30 104 28 96 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M86 79 L84 97 M98 79 L97 97 M110 79 L110 97 M122 79 L123 97 M134 79 L136 97" fill="none" stroke="#2A1FC7" stroke-width="3" stroke-linecap="round"/>
+<path d="M44 94 Q62 88 72 78" fill="none" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<rect x="66" y="66" width="88" height="10" rx="4" fill="#003478" stroke="#14142B" stroke-width="4"/>
+</g>
+<!-- postes y letrero GRANDE de madera: bol de arroz humeante con palillos (lo que distingue al restaurante) -->
+<rect x="86" y="80" width="8" height="12" fill="#74461F" stroke="#14142B" stroke-width="3"/>
+<rect x="126" y="80" width="8" height="12" fill="#74461F" stroke="#14142B" stroke-width="3"/>
+<rect x="22" y="8" width="176" height="74" rx="10" fill="#A0703F" stroke="#14142B" stroke-width="4.5"/>
+<rect x="32" y="17" width="156" height="56" rx="5" fill="#FFF4D9" stroke="#74461F" stroke-width="3"/>
+<path d="M72 34 Q66 28 72 22 M84 34 Q78 28 84 22" stroke="#8A8DA0" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M82 48 Q84 32 110 32 Q136 32 138 48 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M98 41 L102 41 M114 38 L118 38 M124 43 L128 43" stroke="#B3B8D6" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M128 40 L170 24 M132 45 L174 31" stroke="#14142B" stroke-width="8" stroke-linecap="round"/>
+<path d="M128 40 L170 24 M132 45 L174 31" stroke="#C98A3E" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M76 47 L144 47 Q143 68 110 68 Q77 68 76 47 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M84 55 L136 55" stroke="#DCE0FA" stroke-width="3" stroke-linecap="round"/>
+<g transform="translate(0 22)">
+<!-- ventanas de papel hanji con celosía -->
+<rect x="56" y="114" width="20" height="28" rx="2" fill="#FFF4D9" stroke="#14142B" stroke-width="4"/>
+<path d="M66 116 L66 140 M58 123.3 L74 123.3 M58 132.7 L74 132.7" fill="none" stroke="#A0703F" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="144" y="114" width="20" height="28" rx="2" fill="#FFF4D9" stroke="#14142B" stroke-width="4"/>
+<path d="M154 116 L154 140 M146 123.3 L162 123.3 M146 132.7 L162 132.7" fill="none" stroke="#A0703F" stroke-width="2.5" stroke-linecap="round"/>
+<!-- puerta de madera con cortina navy -->
+<path d="M94 184 L94 152 L126 152 L126 184 Z" fill="#A0703F" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M110 166 L110 182" fill="none" stroke="#74461F" stroke-width="3" stroke-linecap="round"/>
+<rect x="92" y="150" width="36" height="14" rx="2" fill="#003478" stroke="#14142B" stroke-width="3.5"/>
+<path d="M104 152 L104 162 M116 152 L116 162" fill="none" stroke="#DCE0FA" stroke-width="2.5" stroke-linecap="round"/>
+<!-- 3) cara de la casa en el muro (110,124), s = 0,8 -->
+<ellipse cx="98.8" cy="124" rx="5.2" ry="6.8" fill="#14142B"/>
+<ellipse cx="121.2" cy="124" rx="5.2" ry="6.8" fill="#14142B"/>
+<circle cx="100.56" cy="121.28" r="1.92" fill="#FFFFFF"/>
+<circle cx="122.96" cy="121.28" r="1.92" fill="#FFFFFF"/>
+<ellipse cx="89.2" cy="135.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<ellipse cx="130.8" cy="135.2" rx="5.6" ry="3.6" fill="#FFB98A"/>
+<path d="M103.6 134.4 Q110 144 116.4 134.4 Z" fill="#14142B" stroke="#14142B" stroke-width="2.4" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

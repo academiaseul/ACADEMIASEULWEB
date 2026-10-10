@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" width="440" height="200" fill="none">
+<!-- Reloj de nuestra clase: de las 21:00 a las 22:00 (el tramo entre las 9 y las 10 resaltado en amarillo con contorno), con la luna de la noche -->
+<g transform="translate(108 100) scale(0.95)">
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="0" cy="0" r="82"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="0" cy="0" r="82"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="0" cy="0" r="82"/>
+</g>
+<circle cx="0" cy="0" r="82" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M-70.52 -24.6 A73.8 73.8 0 0 1 -36.9 -63.96" stroke="#DCE0FA" stroke-width="5" stroke-linecap="round"/>
+<circle cx="0" cy="0" r="65.60000000000001" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<path d="M0 0 L-63.6 0 A63.6 63.6 0 0 1 -55.08 -31.8 Z" fill="#FFD95E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M0 -61.6 L0 -53.6" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<circle cx="29.3" cy="-50.75" r="3.47" fill="#B3B8D6"/>
+<circle cx="50.75" cy="-29.3" r="3.47" fill="#B3B8D6"/>
+<path d="M61.6 0 L53.6 0" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<circle cx="50.75" cy="29.3" r="3.47" fill="#B3B8D6"/>
+<circle cx="29.3" cy="50.75" r="3.47" fill="#B3B8D6"/>
+<path d="M0 61.6 L0 53.6" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<circle cx="-29.3" cy="50.75" r="3.47" fill="#B3B8D6"/>
+<circle cx="-50.75" cy="29.3" r="3.47" fill="#B3B8D6"/>
+<path d="M-61.6 0 L-53.6 0" stroke="#14142B" stroke-width="5" stroke-linecap="round"/>
+<circle cx="-50.75" cy="-29.3" r="3.47" fill="#B3B8D6"/>
+<circle cx="-29.3" cy="-50.75" r="3.47" fill="#B3B8D6"/>
+<path d="M0 0 L0 -48.54" stroke="#14142B" stroke-width="13" stroke-linecap="round"/><path d="M0 0 L0 -48.54" stroke="#E8B84B" stroke-width="5.5" stroke-linecap="round"/>
+<path d="M0 0 L-32.8 0" stroke="#14142B" stroke-width="15" stroke-linecap="round"/><path d="M0 0 L-32.8 0" stroke="#E8B84B" stroke-width="7.5" stroke-linecap="round"/>
+<circle cx="0" cy="0" r="8.2" fill="#4236F6" stroke="#14142B" stroke-width="3.5"/>
+</g>
+<path d="M206 22 A22 22 0 1 0 224 56 A18 18 0 1 1 206 22 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M246 22 Q247.6 28.4 254 30 Q247.6 31.6 246 38 Q244.4 31.6 238 30 Q244.4 28.4 246 22 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<text x="330" y="78" font-family="Arial" font-size="44" font-weight="bold" fill="#003478" text-anchor="middle">21:00</text>
+<text x="330" y="122" font-family="Arial" font-size="40" font-weight="bold" fill="#E8B84B" text-anchor="middle">~</text>
+<text x="330" y="172" font-family="Arial" font-size="44" font-weight="bold" fill="#003478" text-anchor="middle">22:00</text>
+</svg>

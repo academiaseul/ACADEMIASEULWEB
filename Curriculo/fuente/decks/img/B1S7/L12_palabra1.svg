@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B1S7 L12 palabra1 · 음악을 들어요 · audífonos grandes con notas musicales · Estilo A Sticker pop -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M54 120 C46 34 174 34 166 120" fill="none" stroke-width="44"/>
+<rect x="34" y="104" width="46" height="80" rx="18"/>
+<rect x="140" y="104" width="46" height="80" rx="18"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M54 120 C46 34 174 34 166 120" fill="none" stroke-width="44"/>
+<rect x="34" y="104" width="46" height="80" rx="18"/>
+<rect x="140" y="104" width="46" height="80" rx="18"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M54 120 C46 34 174 34 166 120" fill="none" stroke-width="37"/>
+<rect x="34" y="104" width="46" height="80" rx="18"/>
+<rect x="140" y="104" width="46" height="80" rx="18"/>
+</g>
+<!-- arco -->
+<path d="M54 120 C46 34 174 34 166 120" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M54 120 C46 34 174 34 166 120" stroke="#4236F6" stroke-width="14" stroke-linecap="round"/>
+<path d="M76 66 Q92 54 110 53" stroke="#9DB7FF" stroke-width="4.5" stroke-linecap="round"/>
+<!-- almohadillas y copas -->
+<rect x="70" y="112" width="20" height="64" rx="10" fill="#DCE0FA" stroke="#14142B" stroke-width="4"/>
+<rect x="130" y="112" width="20" height="64" rx="10" fill="#DCE0FA" stroke="#14142B" stroke-width="4"/>
+<rect x="34" y="104" width="46" height="80" rx="18" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<rect x="140" y="104" width="46" height="80" rx="18" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M44 120 L44 142" stroke="#9DB7FF" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M150 120 L150 142" stroke="#9DB7FF" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="57" cy="160" r="8" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<circle cx="163" cy="160" r="8" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- notas musicales -->
+<ellipse cx="96" cy="128" rx="9" ry="6.5" transform="rotate(-20 96 128)" fill="#FFD95E" stroke="#14142B" stroke-width="3"/>
+<path d="M104.5 125 L104.5 96 Q116 100 116 112" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="118" cy="164" rx="8" ry="6" transform="rotate(-20 118 164)" fill="#FFD95E" stroke="#14142B" stroke-width="3"/>
+<path d="M125.5 161 L125.5 138 L106 143" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="99" cy="167" rx="8" ry="6" transform="rotate(-20 99 167)" fill="#FFD95E" stroke="#14142B" stroke-width="3"/>
+<path d="M106.5 164 L106.5 143" stroke="#14142B" stroke-width="4" stroke-linecap="round"/>
+<!-- adornos -->
+<path d="M26 22 Q28.4 31.6 38 34 Q28.4 36.4 26 46 Q23.6 36.4 14 34 Q23.6 31.6 26 22 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M198 26 Q199.8 33.2 207 35 Q199.8 36.8 198 44 Q196.2 36.8 189 35 Q196.2 33.2 198 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="200" cy="198" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

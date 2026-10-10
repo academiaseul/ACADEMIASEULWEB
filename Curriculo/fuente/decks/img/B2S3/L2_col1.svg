@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" width="440" height="200" fill="none">
+<!-- Quiz 2, ítem 5: tarjeta de cumpleaños de 지수 (globos, torta, fecha, hora y lugar). Texto grande: la tarjeta es la única fuente del ítem. -->
+<g transform="translate(220 100) scale(0.95) translate(-220 -100)">
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="12" y="12" width="412" height="174" rx="18"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="12" y="12" width="412" height="174" rx="18"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="12" y="12" width="412" height="174" rx="18"/>
+</g>
+<rect x="12" y="12" width="412" height="174" rx="18" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<!-- globos -->
+<path d="M38 82 Q32 98 42 114" stroke="#14142B" stroke-width="2.5" fill="none"/>
+<ellipse cx="38" cy="58" rx="17" ry="21" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<path d="M34 78 L42 78 L38 84 Z" fill="#4236F6" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M29 48 Q32 42 38 41" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M140 76 Q134 92 144 108" stroke="#14142B" stroke-width="2.5" fill="none"/>
+<ellipse cx="140" cy="52" rx="17" ry="21" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M136 72 L144 72 L140 78 Z" fill="#E8B84B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M131 42 Q134 36 140 35" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<!-- torta -->
+<ellipse cx="88" cy="168" rx="56" ry="9" fill="#E3E6F2" stroke="#14142B" stroke-width="4"/>
+<rect x="42" y="116" width="92" height="50" rx="8" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M42 126 Q42 116 52 116 L124 116 Q134 116 134 126 L134 134 Q128 142 122 134 Q116 144 108 134 Q100 142 92 134 Q84 144 76 134 Q68 142 60 134 Q52 144 46 134 Q42 140 42 134 Z" fill="#4236F6" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="60" cy="152" r="3.5" fill="#FFFFFF"/><circle cx="88" cy="154" r="3.5" fill="#FFFFFF"/><circle cx="116" cy="152" r="3.5" fill="#FFFFFF"/>
+<rect x="62" y="94" width="8" height="24" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/><path d="M62 102 L70 98 M62 110 L70 106" stroke="#4236F6" stroke-width="2.5"/>
+<path d="M66 78 Q73 87 66 92 Q59 87 66 78 Z" fill="#FFD95E" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="84" y="94" width="8" height="24" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/><path d="M84 102 L92 98 M84 110 L92 106" stroke="#4236F6" stroke-width="2.5"/>
+<path d="M88 78 Q95 87 88 92 Q81 87 88 78 Z" fill="#FFD95E" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="106" y="94" width="8" height="24" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/><path d="M106 102 L114 98 M106 110 L114 106" stroke="#4236F6" stroke-width="2.5"/>
+<path d="M110 78 Q117 87 110 92 Q103 87 110 78 Z" fill="#FFD95E" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="68" cy="38" r="3" fill="#E8B84B"/><circle cx="32" cy="128" r="3" fill="#E8B84B"/>
+<!-- separador -->
+<path d="M168 30 L168 168" stroke="#DCE0FA" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+<!-- título -->
+<text x="296" y="56" font-family="Malgun Gothic" font-size="32" font-weight="bold" fill="#003478" text-anchor="middle">지수 생일 파티</text>
+<path d="M190 70 L402 70" stroke="#E8B84B" stroke-width="4" stroke-linecap="round"/>
+<!-- fecha -->
+<rect x="186" y="86" width="24" height="22" rx="4" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/><rect x="186" y="86" width="24" height="8" rx="3" fill="#4236F6" stroke="#14142B" stroke-width="3"/>
+<text x="222" y="106" font-family="Malgun Gothic" font-size="26" fill="#14142B">11월 6일 (금)</text>
+<!-- hora -->
+<circle cx="198" cy="130" r="12" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/><path d="M198 122 L198 130 L204 134" stroke="#14142B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="222" y="139" font-family="Malgun Gothic" font-size="26" fill="#14142B">저녁 7시</text>
+<!-- lugar -->
+<path d="M198 176 Q186 163 187 159 A11 11 0 0 1 209 159 Q210 163 198 176 Z" fill="#4236F6" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/><circle cx="198" cy="159" r="3.8" fill="#FFFFFF"/>
+<text x="222" y="172" font-family="Malgun Gothic" font-size="26" fill="#14142B">카페 서울</text>
+</g>
+</svg>

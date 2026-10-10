@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 은행 · banco · Estilo A Sticker pop · edificio de columnas con frontón azul, moneda dorada con el signo ₩ dibujado, cara entre las columnas y escalinata -->
+<!-- 1) silueta: frontón + friso + muro + escalones -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 86 L110 32 L190 86 Z"/>
+<rect x="34" y="86" width="152" height="14" rx="3"/>
+<rect x="44" y="98" width="132" height="72"/>
+<rect x="36" y="168" width="148" height="10" rx="2"/>
+<rect x="32" y="176" width="156" height="8" rx="2"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 86 L110 32 L190 86 Z"/>
+<rect x="34" y="86" width="152" height="14" rx="3"/>
+<rect x="44" y="98" width="132" height="72"/>
+<rect x="36" y="168" width="148" height="10" rx="2"/>
+<rect x="32" y="176" width="156" height="8" rx="2"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 86 L110 32 L190 86 Z"/>
+<rect x="34" y="86" width="152" height="14" rx="3"/>
+<rect x="44" y="98" width="132" height="72"/>
+<rect x="36" y="168" width="148" height="10" rx="2"/>
+<rect x="32" y="176" width="156" height="8" rx="2"/>
+</g>
+<!-- 2) muro de fondo lavanda -->
+<rect x="44" y="98" width="132" height="72" fill="#DCE0FA" stroke="#14142B" stroke-width="4"/>
+<!-- columnas blancas (fuste, capitel, basa) -->
+<rect x="46" y="104" width="12" height="58" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="64" y="104" width="12" height="58" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="144" y="104" width="12" height="58" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="162" y="104" width="12" height="58" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<path d="M52 110 L52 156 M70 110 L70 156 M150 110 L150 156 M168 110 L168 156" fill="none" stroke="#B3B8D6" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="43" y="100" width="18" height="7" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="61" y="100" width="18" height="7" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="141" y="100" width="18" height="7" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="159" y="100" width="18" height="7" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="43" y="160" width="18" height="8" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="61" y="160" width="18" height="8" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="141" y="160" width="18" height="8" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<rect x="159" y="160" width="18" height="8" rx="2" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5"/>
+<!-- puerta navy -->
+<path d="M98 170 L98 152 Q98 146 104 146 L116 146 Q122 146 122 152 L122 170 Z" fill="#003478" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M110 148 L110 168" fill="none" stroke="#4236F6" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="106" cy="160" r="2" fill="#E8B84B"/>
+<circle cx="114" cy="160" r="2" fill="#E8B84B"/>
+<!-- escalinata -->
+<rect x="32" y="176" width="156" height="8" rx="2" fill="#B3B8D6" stroke="#14142B" stroke-width="4"/>
+<rect x="36" y="168" width="148" height="10" rx="2" fill="#E3E6F2" stroke="#14142B" stroke-width="4"/>
+<!-- friso y frontón azul -->
+<rect x="34" y="86" width="152" height="14" rx="3" fill="#F3F6FF" stroke="#14142B" stroke-width="4"/>
+<path d="M30 86 L110 32 L190 86 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M52 80 L90 54.5" fill="none" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<!-- moneda dorada con el signo del won dibujado (W + dos barras) -->
+<circle cx="110" cy="64" r="15" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<circle cx="110" cy="64" r="11" fill="none" stroke="#B9861E" stroke-width="2.5"/>
+<path d="M103.5 57.5 L106.5 71 L110 61 L113.5 71 L116.5 57.5" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M101.5 63 L118.5 63 M101.5 67.5 L118.5 67.5" fill="none" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- 3) cara de la casa entre las columnas (110,122), s = 0,72 -->
+<ellipse cx="99.92" cy="122" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="120.08" cy="122" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="101.5" cy="119.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="121.66" cy="119.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="91.28" cy="132.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="128.72" cy="132.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M104.24 131.36 Q110 140 115.76 131.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+<!-- 4) adornos -->
+<path d="M30 24 Q32.4 33.6 42 36 Q32.4 38.4 30 48 Q27.6 38.4 18 36 Q27.6 33.6 30 24 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M190 26 Q192 34 200 36 Q192 38 190 46 Q188 38 180 36 Q188 34 190 26 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="22" cy="130" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

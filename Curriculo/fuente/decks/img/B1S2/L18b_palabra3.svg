@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 의사 · médico, médica · Estilo A Sticker pop · médica con delantal blanco y estetoscopio azul al cuello -->
+<!-- silueta: moño + orejas + pelo de atrás + cabeza + torso -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="38" r="15"/>
+<ellipse cx="65" cy="106" rx="7" ry="9"/>
+<ellipse cx="155" cy="106" rx="7" ry="9"/>
+<path d="M66 100 C62 60 86 44 110 44 C134 44 158 60 154 100 Z"/>
+<ellipse cx="110" cy="98" rx="45" ry="43"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="38" r="15"/>
+<ellipse cx="65" cy="106" rx="7" ry="9"/>
+<ellipse cx="155" cy="106" rx="7" ry="9"/>
+<path d="M66 100 C62 60 86 44 110 44 C134 44 158 60 154 100 Z"/>
+<ellipse cx="110" cy="98" rx="45" ry="43"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="38" r="15"/>
+<ellipse cx="65" cy="106" rx="7" ry="9"/>
+<ellipse cx="155" cy="106" rx="7" ry="9"/>
+<path d="M66 100 C62 60 86 44 110 44 C134 44 158 60 154 100 Z"/>
+<ellipse cx="110" cy="98" rx="45" ry="43"/>
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z"/>
+</g>
+<!-- moño y pelo de atrás (negro) -->
+<circle cx="110" cy="38" r="15" fill="#14142B" stroke="#14142B" stroke-width="4"/>
+<path d="M102 32 Q108 27 115 28" stroke="#5E6280" stroke-width="4" stroke-linecap="round"/>
+<path d="M66 100 C62 60 86 44 110 44 C134 44 158 60 154 100 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- delantal blanco, ropa de hospital menta -->
+<path d="M50 196 C50 166 76 150 110 150 C144 150 170 166 170 196 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M93 151 Q110 147 127 151 L110 184 Z" fill="#8FE3C6" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M93 151 L84 162 L98 170" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M127 151 L136 162 L122 170" stroke="#14142B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 184 L110 196" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M98 132 L98 152 Q110 160 122 152 L122 132 Z" fill="#8D5A3B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- bolsillo con lápiz azul -->
+<path d="M70 168 L70 160" stroke="#14142B" stroke-width="8" stroke-linecap="round"/>
+<path d="M70 168 L70 160" stroke="#4236F6" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="60" y="166" width="22" height="18" rx="3" fill="#FFFFFF" stroke="#14142B" stroke-width="3"/>
+<!-- estetoscopio azul alrededor del cuello -->
+<path d="M100 152 C92 164 90 176 94 184" stroke="#14142B" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M120 152 C130 162 134 170 134 176" stroke="#14142B" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100 152 C92 164 90 176 94 184" stroke="#4236F6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M120 152 C130 162 134 170 134 176" stroke="#4236F6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="94" cy="186" r="4.5" fill="#E3E6F2" stroke="#14142B" stroke-width="3"/>
+<circle cx="135" cy="182" r="8" fill="#E3E6F2" stroke="#14142B" stroke-width="3.5"/>
+<circle cx="135" cy="182" r="3.5" fill="#8A8FA8"/>
+<!-- orejas y cabeza (piel oscura) -->
+<ellipse cx="65" cy="106" rx="7" ry="9" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="155" cy="106" rx="7" ry="9" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="110" cy="98" rx="45" ry="43" fill="#8D5A3B" stroke="#14142B" stroke-width="4"/>
+<!-- pelo recogido: relleno sin borde + canto de abajo -->
+<path d="M65 100 C61 62 86 48 110 48 C134 48 159 62 155 100 C150 82 140 70 124 66 C110 64 92 66 82 74 C74 80 68 90 65 100 Z" fill="#14142B"/>
+<path d="M155 100 C150 82 140 70 124 66 C110 64 92 66 82 74 C74 80 68 90 65 100" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M86 60 Q98 53 112 53" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<rect x="100" y="46" width="20" height="8" rx="4" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<!-- cara de la casa (110,110) s=0.85 -->
+<ellipse cx="98.1" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="110" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="107.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="121.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 121.05 Q110 131.25 116.8 121.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M30 18 Q32.4 27.6 42 30 Q32.4 32.4 30 42 Q27.6 32.4 18 30 Q27.6 27.6 30 18 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M194 66 Q196 74 204 76 Q196 78 194 86 Q192 78 184 76 Q192 74 194 66 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="188" cy="30" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

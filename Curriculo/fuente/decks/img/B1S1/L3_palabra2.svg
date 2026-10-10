@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B1S1 L3 · 다시 한번 · índice levantado que dibuja un círculo (flecha circular azul) -->
+<path d="M73.2 85.1 A38 38 0 1 1 119.4 83.1" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+<path d="M73.2 85.1 A38 38 0 1 1 119.4 83.1" stroke="#14142B" stroke-width="12" stroke-linecap="round"/>
+<path d="M73.2 85.1 A38 38 0 1 1 119.4 83.1" stroke="#4236F6" stroke-width="6" stroke-linecap="round"/>
+<path d="M108.7 92.1 L113.9 73.4 L128.0 90.3 Z" fill="#4236F6" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<g transform="translate(66 48) scale(0.84)">
+<g transform="translate(6.0 7.0)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24.0" stroke-linejoin="round" stroke-linecap="round"><rect x="30" y="160" width="62" height="30" rx="8"/><rect x="48" y="74" width="21" height="30" rx="10.5"/><rect x="66" y="78" width="19" height="28" rx="9.5"/><rect x="82" y="84" width="17" height="26" rx="8.5"/><rect x="24" y="12" width="24" height="94" rx="12"/><rect x="20" y="88" width="82" height="80" rx="26"/><rect x="24" y="116" width="60" height="22" rx="11" transform="rotate(-14 54 127)"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24.0" stroke-linejoin="round" stroke-linecap="round"><rect x="30" y="160" width="62" height="30" rx="8"/><rect x="48" y="74" width="21" height="30" rx="10.5"/><rect x="66" y="78" width="19" height="28" rx="9.5"/><rect x="82" y="84" width="17" height="26" rx="8.5"/><rect x="24" y="12" width="24" height="94" rx="12"/><rect x="20" y="88" width="82" height="80" rx="26"/><rect x="24" y="116" width="60" height="22" rx="11" transform="rotate(-14 54 127)"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17.0" stroke-linejoin="round" stroke-linecap="round"><rect x="30" y="160" width="62" height="30" rx="8"/><rect x="48" y="74" width="21" height="30" rx="10.5"/><rect x="66" y="78" width="19" height="28" rx="9.5"/><rect x="82" y="84" width="17" height="26" rx="8.5"/><rect x="24" y="12" width="24" height="94" rx="12"/><rect x="20" y="88" width="82" height="80" rx="26"/><rect x="24" y="116" width="60" height="22" rx="11" transform="rotate(-14 54 127)"/></g>
+<rect x="30" y="160" width="62" height="30" rx="8" fill="#003478" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M40 166 L82 166" stroke="#14142B" stroke-width="3" opacity="0.35"/>
+<rect x="48" y="74" width="21" height="30" rx="10.5" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="66" y="78" width="19" height="28" rx="9.5" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="82" y="84" width="17" height="26" rx="8.5" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="24" y="12" width="24" height="94" rx="12" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M30 28 Q36 20 42 28" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="4" stroke-linecap="round"/>
+<rect x="20" y="88" width="82" height="80" rx="26" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M64 98 Q66 106 64 112 M82 102 Q84 108 82 114" stroke="#F3C39A" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="24" y="116" width="60" height="22" rx="11" transform="rotate(-14 54 127)" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+</g>
+<path d="M186 109 Q188.2 117.8 197 120 Q188.2 122.2 186 131 Q183.8 122.2 175 120 Q183.8 117.8 186 109 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="30" cy="150" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

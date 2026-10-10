@@ -1,0 +1,72 @@
+{
+  "imagenes": [
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La pieza de Kiran en vista isométrica (casa de muñecas), sin texto: cama junto a la ventana con cortinas azules, espejo al lado del clóset, escritorio con computador, teclado y una foto enmarcada encima, silla azul, cuadro de montañas en la pared, puerta; sin televisor."
+    },
+    {
+      "L": "7",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L7_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "El mismo dibujo de L5 con insignias navy grandes (números Arial 26) en el orden del ejercicio: 1 cama, 2 computador, 3 espejo (insignia arriba del espejo con flechita, sin taparlo) y 5 ventana con visto verde (sí hay); 4 = televisor gris con antena y patas, fuera de la pieza, con X gris (no hay). Nada en rojo."
+    },
+    {
+      "L": "10",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L10_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Ayer: corte de un 온돌 tradicional — fogón a la izquierda, aire caliente bajo las losas de piedra hacia la chimenea — y un 요 extendido en el piso tibio, con almohada y frazada; ondas de calor oro."
+    },
+    {
+      "L": "10",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L10_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Hoy: cama sobre el piso tibio; en el corte, tubos de agua caliente bajo el piso que vienen de la caldera; ondas de calor oro."
+    },
+    {
+      "L": "12",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L12_palabra0.svg",
+      "origen": "flashcard",
+      "descripcion": "Libro abierto (flashcard 책) para 책을 읽어요."
+    },
+    {
+      "L": "12",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L12_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Audífonos azules con notas musicales para 음악을 들어요."
+    },
+    {
+      "L": "12",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L12_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Lápiz y hoja con un dibujo (flashcard 그림) para 그림을 그려요: el lápiz y el papel de la mímica."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "1",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la portada de la plantilla ya trae el logo azul y el sello del tigre (versión 2, sin marco)."
+    },
+    {
+      "L": "30",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la lámina de cierre de la plantilla ya trae el sello del tigre (versión 2, sin marco)."
+    }
+  ]
+}

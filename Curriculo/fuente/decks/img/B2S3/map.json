@@ -1,0 +1,101 @@
+{
+  "imagenes": [
+    {
+      "L": "2",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L2_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Quiz 2, ítem 5 (arriba de la columna 2): tarjeta de cumpleaños dibujada con globos y torta y el texto del ítem: 지수 생일 파티 · 11월 6일 (금) · 저녁 7시 · 카페 서울 · Texto grande (24+): la tarjeta es la única fuente del ítem 5."
+    },
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mi día: 6 escenas dibujadas, numeradas y con su hora (1 7:00 despertador · 2 7:30 lavarse y desayunar · 3 9:00 trabajar en el computador · 4 18:00 trotar en el parque · 5 20:00 audífonos en casa · 6 21:00 la clase en el notebook). Son las mismas escenas de L6, recortadas a su contenido y sin destellos para que se vean grandes; si Jay prefiere sus fotos, las pega encima en el mismo orden · Un solo protagonista (el mismo hombre de piel clara y pelo negro en las escenas 1, 3, 4 y 5), para que se lea como el día de una persona."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L6_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "7:00 · 보통 일곱 시쯤 일어나요: persona estirándose en la cama (flashcard 일어나다) con un despertador a las 7:00 · Recoloreado: el mismo protagonista de L5 (pelo negro). Sin el rulo en la coronilla."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L6_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "7:30 · 씻고 아침을 먹어요: lavamanos con el agua corriendo y burbujas, una flecha y el desayuno (tostada en un plato y café). La flecha muestra el -고: primero una acción y después la otra"
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L6_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "9:00 · 아홉 시에 출근해요. 회사에서 일해요: oficinista tecleando en el notebook (flashcard 일하다)"
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L6_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "18:00 · 공원에서 운동해요: persona trotando (flashcard 운동하다) con un árbol y pasto · Recoloreado: el mismo protagonista de L5. Pelo liso como en las escenas 1, 3 y 5."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L6_palabra4.svg",
+      "origen": "flashcard",
+      "descripcion": "20:00 · 집에서 쉬어요. 음악을 들어요: persona con audífonos (flashcard 듣다) · Recoloreado: el mismo protagonista de L5."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L6_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "21:00 · 지금은… 한국어 수업!: notebook con la videollamada de la clase (4 caras) y la luna"
+    },
+    {
+      "L": "14",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L14_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "에 (4 viñetas en el orden de la columna, mismo lenguaje que col1: silueta clara = lugar, figura sticker = persona): de pie dentro de la casa (집에 있어요) · persona con maletín y flecha hacia la oficina, separada del edificio (회사에 가요) · persona y flecha hacia el café con toldo y taza (카페에 가요) · reloj a las 9:00 y maletín (아홉 시에 출근해요). Todo dentro de su viñeta."
+    },
+    {
+      "L": "14",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L14_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "에서 (3 dibujos en el orden de la columna): descansando en el sofá dentro de la casa (집에서 쉬어요) · trabajando en el notebook en la oficina (회사에서 일해요) · estudiando con una taza en el café (카페에서 공부해요)"
+    },
+    {
+      "L": "17",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L17_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dónde se oye el coreano de micrófono, 4 íconos en el orden de las viñetas, cada uno con un parlante: metro (frente del tren) · noticias (televisor con locutora) · tienda grande (edificio con bolsa de compras) · presentación ante un grupo (gráfico, presentador y público de espaldas)"
+    },
+    {
+      "L": "21",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L21_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Oficina en Seúl dibujada (sin marcas): ventanal con la ciudad y la torre en el cerro, reloj a las 9:00 con el rótulo «Seúl, jueves 9:00», una oficinista en su escritorio y alguien que llega con maletín (출근해요) · Un solo marco con sombra suave (sin el doble contorno de sticker), para que no quede doble marco dentro del panel lila de la lámina."
+    }
+  ],
+  "sin_imagen": []
+}

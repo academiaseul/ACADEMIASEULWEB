@@ -1,0 +1,107 @@
+{
+  "imagenes": [
+    {
+      "L": "2",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L2_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Quiz 3, ítem 5 (arriba de la columna 2): fachada de un café y su pizarra con el aviso exacto: 카페 한강 · 화요일 ~ 일요일 · 오전 8:00 ~ 오후 10:00 · 월요일은 쉽니다. · Pizarra grande con letra de 24+ (es la única fuente del ítem 5)."
+    },
+    {
+      "L": "7",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L7_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Foto 1 · parque (토요일 아침에 공원에서 운동했어요): persona trotando en el parque, el mismo dibujo de B2S3 L6 (18:00). Si Jay prefiere su foto, la pega encima · Mismo protagonista en las fotos 1–6 (piel clara, pelo negro, el de B2S3 L5–L6), para que se lea como el fin de semana de una persona."
+    },
+    {
+      "L": "7",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L7_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Foto 2 · café (카페에 있었어요. 커피를 마셨어요): persona en un café con su taza en una mesita, toldo azul y blanco de fondo · Mismo protagonista en las fotos 1–6 (piel clara, pelo negro, el de B2S3 L5–L6), para que se lea como el fin de semana de una persona."
+    },
+    {
+      "L": "7",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L7_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Foto 3 · amigo + comida (친구하고 점심을 먹었어요. 한국 음식을 먹었어요): dos amigos (flashcard 친구) detrás de una mesa con comida coreana (flashcard 한국 음식) · El chico de la derecha es el protagonista; la amiga es la otra persona. El bol de arroz va sin carita."
+    },
+    {
+      "L": "8",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L8_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Foto 4 · libro (오후에 책을 샀어요): bolsa de compras lisa (sin carita) con un libro nuevo grande asomando: tapa azul, lomo navy, etiqueta, canto de hojas y cinta; el asa de adelante cruza delante del libro"
+    },
+    {
+      "L": "8",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L8_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Foto 5 · sofá (집에서 쉬었어요. 드라마를 봤어요): televisor con un drama (dos personajes en primer plano y un corazón azul) y la persona descansando en el sofá (flashcard 쉬다) · Mismo protagonista en las fotos 1–6 (piel clara, pelo negro, el de B2S3 L5–L6), para que se lea como el fin de semana de una persona. (sin el moño de la flashcard)"
+    },
+    {
+      "L": "8",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L8_item2.svg",
+      "origen": "flashcard",
+      "descripcion": "Foto 6 · cocina (저녁에 혼자 요리했어요): persona con gorro de cocina revolviendo una olla (flashcard 요리하다) · Mismo protagonista en las fotos 1–6 (piel clara, pelo negro, el de B2S3 L5–L6), para que se lea como el fin de semana de una persona."
+    },
+    {
+      "L": "9",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L9_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dos manos levantadas: a la izquierda 1 dedo (presente), a la derecha 2 dedos (pasado). Sin texto"
+    },
+    {
+      "L": "11",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L11_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mano abierta levantada (mano arriba) y, debajo, las vocales ㅏ / ㅗ en dos tarjetas"
+    },
+    {
+      "L": "18",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L18_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Tiempo: reloj de la clase con el tramo de las 9 a las 10 resaltado en amarillo con contorno, la luna y «21:00 ~ 22:00»"
+    },
+    {
+      "L": "18",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L18_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Lugares: mapa simplificado de Corea del Sur (con Jeju) y flecha de 서울 a 부산; separada por una línea punteada, una berenjena coreana larga y delgada con la palabra 가지 (까지 ≠ 가지)"
+    },
+    {
+      "L": "22",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L22_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Café de Seúl dibujado (sin marcas): ventanal a la calle, lámparas, pizarra de menú sin texto, alguien estudiando con su notebook (카공) y dos amigos conversando con café · Un solo marco con sombra suave (sin el doble contorno de sticker), para que no quede doble marco dentro del panel lila de la lámina."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "5",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: es la portada de «El pasado» y el logo azul de Academia Seúl ya viene en la plantilla de portada."
+    }
+  ]
+}

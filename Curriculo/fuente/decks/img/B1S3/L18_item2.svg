@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 연필 · lápiz · Estilo A Sticker pop · lápiz amarillo en diagonal (punta abajo a la izquierda, goma lila arriba a la derecha) -->
+<!-- 1) Silueta: cono de madera + cuerpo + virola + goma, girados -30 grados -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(-7 11) rotate(-30 110 110)">
+<path d="M70 80 L30 110 L70 140 Z"/>
+<rect x="66" y="80" width="104" height="60"/>
+<rect x="152" y="76" width="18" height="68" rx="4"/>
+<path d="M168 80 L178 80 Q190 80 190 92 L190 128 Q190 140 178 140 L168 140 Z"/>
+</g>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(-7 11) rotate(-30 110 110)">
+<path d="M70 80 L30 110 L70 140 Z"/>
+<rect x="66" y="80" width="104" height="60"/>
+<rect x="152" y="76" width="18" height="68" rx="4"/>
+<path d="M168 80 L178 80 Q190 80 190 92 L190 128 Q190 140 178 140 L168 140 Z"/>
+</g>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(-7 11) rotate(-30 110 110)">
+<path d="M70 80 L30 110 L70 140 Z"/>
+<rect x="66" y="80" width="104" height="60"/>
+<rect x="152" y="76" width="18" height="68" rx="4"/>
+<path d="M168 80 L178 80 Q190 80 190 92 L190 128 Q190 140 178 140 L168 140 Z"/>
+</g>
+</g>
+<defs>
+<clipPath id="clipCuerpo">
+<path d="M66 80 L156 80 L156 140 L66 140 Q58 130 66 120 Q58 110 66 100 Q58 90 66 80 Z"/>
+</clipPath>
+</defs>
+<!-- 2) Piezas de color (en el mismo sistema girado) -->
+<g transform="translate(-7 11) rotate(-30 110 110)">
+<!-- madera tajada y mina -->
+<path d="M70 80 L30 110 L70 140 Z" fill="#FFE6B8" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M44 99.5 L30 110 L44 120.5 Q48 110 44 99.5 Z" fill="#5E6280" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- goma lila -->
+<path d="M168 80 L178 80 Q190 80 190 92 L190 128 Q190 140 178 140 L168 140 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M180 92 L180 106" stroke="#ECE6FF" stroke-width="4" stroke-linecap="round"/>
+<!-- cuerpo hexagonal amarillo: fondo, cara inferior en sombra, aristas, borde encima -->
+<path d="M66 80 L156 80 L156 140 L66 140 Q58 130 66 120 Q58 110 66 100 Q58 90 66 80 Z" fill="#FFD95E"/>
+<g clip-path="url(#clipCuerpo)">
+<rect x="50" y="128" width="120" height="16" fill="#E8B84B"/>
+<path d="M50 92 L160 92" stroke="#B9861E" stroke-width="3"/>
+<path d="M50 128 L160 128" stroke="#B9861E" stroke-width="3"/>
+</g>
+<path d="M80 86 L140 86" stroke="#FFF4D9" stroke-width="4" stroke-linecap="round"/>
+<path d="M66 80 L156 80 L156 140 L66 140 Q58 130 66 120 Q58 110 66 100 Q58 90 66 80 Z" fill="none" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- virola de metal -->
+<rect x="152" y="76" width="18" height="68" rx="4" fill="#E3E6F2" stroke="#14142B" stroke-width="4"/>
+<path d="M158 81 L158 139" stroke="#8A8FA8" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M164 81 L164 139" stroke="#8A8FA8" stroke-width="2.5" stroke-linecap="round"/>
+<!-- 3) Cara de la casa en (112,104), s = 0,72, en la cara central del lápiz -->
+<ellipse cx="101.92" cy="104" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="122.08" cy="104" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="103.5" cy="101.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="123.66" cy="101.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="93.28" cy="114.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="130.72" cy="114.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M106.24 113.36 Q112 122 117.76 113.36 Z" fill="#14142B" stroke="#14142B" stroke-width="2.16" stroke-linejoin="round"/>
+</g>
+<!-- 4) Adornos -->
+<path d="M38 28 Q40.4 37.6 50 40 Q40.4 42.4 38 52 Q35.6 42.4 26 40 Q35.6 37.6 38 28 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M172 151 Q173.8 158.2 181 160 Q173.8 161.8 172 169 Q170.2 161.8 163 160 Q170.2 158.2 172 151 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="40" cy="196" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>
