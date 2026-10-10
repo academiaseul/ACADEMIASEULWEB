@@ -72,3 +72,6 @@ Brevo/Envios_desde_29sep/_privado/
 
 # Vistas previas generadas por Brevo/Envios_desde_29sep/herramientas/preview.js
 Brevo/Envios_desde_29sep/herramientas/previews/
+
+# Imágenes de control visual de los decks (se regeneran con post_com.ps1)
+Curriculo/*/decks/_qa/
