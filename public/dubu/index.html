@@ -574,7 +574,7 @@ function finDeMundo(m){const t=$('finmundo');t.innerHTML='';const mundo=MUNDOS[m
   if(pares.length)acc.append(h('button',{class:'btn line',onclick:()=>{velo('velo-fin',false);repasar(pares.slice(0,2));}},'Repasar'));
   const sig=MUNDOS[m];acc.append(h('button',{class:'btn',onclick:()=>{velo('velo-fin',false);if(sig)abreNivel(sig.niveles[0]);else muestraMapa();}},sig?'Siguiente barrio':'Volver al mapa'));t.append(acc);
   const url='https://www.academiaseul.com/nivel-1?utm_source=dubu&utm_campaign=mundo'+m;
-  t.append(m>=6?h('p',{class:'lead primaria'},'Acabas de leer lo que verás en las primeras clases de Básico 1. ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso →')):h('p',{class:'lead'},'Esto se ve en Básico 1 · la semana del 12 de octubre → ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso')));
+  t.append(m>=6?h('p',{class:'lead primaria'},'Acabas de leer lo que verás en las primeras clases de Básico 1. ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso →')):h('p',{class:'lead'},'Esto se ve en Básico 1 · la semana del 19 de octubre → ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso')));
   velo('velo-fin',true);}
 function repasar(pares){const rondas=[];for(let i=0;i<4;i++){const k=pares[i%pares.length];const lista=PARES[k]||PARES['ㅓ/ㅗ'];rondas.push(lista[Math.floor(Math.random()*lista.length)]);}abreNivel({id:'repaso',tipo:'reconocer',rondas,par:pares[0],mundo:0});}
 

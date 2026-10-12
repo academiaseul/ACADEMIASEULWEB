@@ -16,11 +16,11 @@
 export const COHORTE_ABIERTA = true;
 
 export const PROXIMA_COHORTE_LABEL = "Octubre 2026";
-export const INICIO_LABEL = "Semana del 12 de octubre de 2026";
-export const INICIO_SEMANA = "la semana del 12 de octubre";
-export const INICIO_ISO = "2026-10-12";
-export const FIN_LABEL = "Semana del 30 de noviembre de 2026";
-export const CIERRE_MATRICULA = "domingo 11 de octubre (o hasta llenar los cupos)";
+export const INICIO_LABEL = "Semana del 19 de octubre de 2026";
+export const INICIO_SEMANA = "la semana del 19 de octubre";
+export const INICIO_ISO = "2026-10-19";
+export const FIN_LABEL = "Semana del 7 de diciembre de 2026";
+export const CIERRE_MATRICULA = "domingo 18 de octubre (o hasta llenar los cupos)";
 
 // 💵 Precios (USD) — cada curso: pago único o 2 cuotas.
 export const PRECIO_UNICO = 150;
@@ -117,17 +117,17 @@ export type Clase = {
   profeId: ProfeId;
   dia: string;
   horaChile: string; // "18:00"
-  primeraClase: string; // "martes 13 de octubre"
+  primeraClase: string; // "martes 20 de octubre"
   cupos: number;
 };
 
 // Orden = orden de la escalera (Básico 1 → Básico 2 → Conversacional 1 → TOPIK II), Niños al final.
 export const CLASES: Clase[] = [
-  { id: "a11-martes", cursoId: "a11", label: "Básico 1 (A1.1) · Martes 20:00 Chile · Kiran", profeId: "guiran", dia: "Martes", horaChile: "20:00", primeraClase: "martes 13 de octubre", cupos: 15 },
-  { id: "a11-jueves", cursoId: "a11", label: "Básico 1 (A1.1) · Jueves 20:00 Chile · Kiran", profeId: "guiran", dia: "Jueves", horaChile: "20:00", primeraClase: "jueves 15 de octubre", cupos: 15 },
-  { id: "a12", cursoId: "a12", label: "Básico 2 (A1.2) · Miércoles 21:00 Chile · Jay", profeId: "jay", dia: "Miércoles", horaChile: "21:00", primeraClase: "miércoles 14 de octubre", cupos: 15 },
-  { id: "a21", cursoId: "a21", label: "Conversacional 1 (A2.1) · Martes 21:00 Chile · Abby", profeId: "abby", dia: "Martes", horaChile: "21:00", primeraClase: "martes 13 de octubre", cupos: 15 },
-  { id: "topik2", cursoId: "topik2", label: "TOPIK II (B1+) · Jueves 21:00 Chile · Jay", profeId: "jay", dia: "Jueves", horaChile: "21:00", primeraClase: "jueves 15 de octubre", cupos: 8 },
+  { id: "a11-martes", cursoId: "a11", label: "Básico 1 (A1.1) · Martes 20:00 Chile · Kiran", profeId: "guiran", dia: "Martes", horaChile: "20:00", primeraClase: "martes 20 de octubre", cupos: 15 },
+  { id: "a11-jueves", cursoId: "a11", label: "Básico 1 (A1.1) · Jueves 20:00 Chile · Kiran", profeId: "guiran", dia: "Jueves", horaChile: "20:00", primeraClase: "jueves 22 de octubre", cupos: 15 },
+  { id: "a12", cursoId: "a12", label: "Básico 2 (A1.2) · Miércoles 21:00 Chile · Jay", profeId: "jay", dia: "Miércoles", horaChile: "21:00", primeraClase: "miércoles 21 de octubre", cupos: 15 },
+  { id: "a21", cursoId: "a21", label: "Conversacional 1 (A2.1) · Martes 21:00 Chile · Abby", profeId: "abby", dia: "Martes", horaChile: "21:00", primeraClase: "martes 20 de octubre", cupos: 15 },
+  { id: "topik2", cursoId: "topik2", label: "TOPIK II (B1+) · Jueves 21:00 Chile · Jay", profeId: "jay", dia: "Jueves", horaChile: "21:00", primeraClase: "jueves 22 de octubre", cupos: 8 },
   { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–15) · Lunes 18:00 Chile · Jay y Abby", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "lunes 19 de octubre", cupos: 12 },
 ];
 
@@ -345,7 +345,7 @@ export const CURSOS: Curso[] = [
     nivel: "8–15 años · desde cero",
     libro: "Material propio Academia Seúl + Lector de Hangul",
     descripcion:
-      "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia. Empieza el lunes 19 de octubre (el 12 es feriado en Chile) y termina el 7 de diciembre.",
+      "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia. Empieza el lunes 19 de octubre y termina el 7 de diciembre.",
     logros: [
       "Leer sus primeras palabras en coreano",
       "Presentarse: nombre y edad",

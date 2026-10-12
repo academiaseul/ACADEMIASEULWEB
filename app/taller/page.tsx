@@ -306,7 +306,7 @@ export default function TallerPage() {
             </h2>
             <p className="text-gray-600 mb-8 max-w-md mx-auto">
               Practica lo que viste en el video con nuestras dos apps gratuitas, y cuando quieras ir en serio,
-              Básico 1 parte la semana del 12 de octubre.
+              Básico 1 parte la semana del 19 de octubre.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
               {[

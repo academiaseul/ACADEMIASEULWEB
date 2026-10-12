@@ -9,7 +9,7 @@ import { useT, i18n } from '@/lib/i18n';
 export const faqs = [
   {
     q: i18n('¿Cómo me inscribo?'),
-    a: i18n('En 3 pasos, sin crear cuenta: 1) entra a academiaseul.com/inscribete y elige tu clase (si nunca estudiaste coreano, es Básico 1); 2) deja tus datos en el formulario; 3) paga con Mercado Pago, PayPal o transferencia y te confirmamos el cupo por correo y WhatsApp. US$150 el curso completo · o 2 cuotas de US$75. Matrícula abierta hasta el domingo 11 de octubre.'),
+    a: i18n('En 3 pasos, sin crear cuenta: 1) entra a academiaseul.com/inscribete y elige tu clase (si nunca estudiaste coreano, es Básico 1); 2) deja tus datos en el formulario; 3) paga con Mercado Pago, PayPal o transferencia y te confirmamos el cupo por correo y WhatsApp. US$150 el curso completo · o 2 cuotas de US$75. Matrícula abierta hasta el domingo 18 de octubre.'),
   },
   {
     q: i18n('¿Necesito saber algo de coreano para empezar?'),
@@ -21,7 +21,7 @@ export const faqs = [
   },
   {
     q: i18n('¿Qué horarios y fechas hay?'),
-    a: i18n('La cohorte parte la semana del 12 de octubre de 2026 y dura 8 semanas (una clase por semana, hora de Chile): Coreano para Niños lunes 18:00 · Básico 1 martes 20:00 o jueves 20:00 · Conversacional 1 martes 21:00 · Básico 2 miércoles 21:00 · TOPIK II jueves 21:00. Conversión rápida: 20:00 Chile = 18:00 Colombia/Perú · 17:00 México · 20:00 Argentina · 19:00 EE.UU. Este (18:00 desde el 1 de noviembre) · 01:00 España (00:00 desde el 25 de octubre). En la página de inscripción eliges tu país y ves la hora exacta.'),
+    a: i18n('La cohorte parte la semana del 19 de octubre de 2026 y dura 8 semanas (una clase por semana, hora de Chile): Coreano para Niños lunes 18:00 · Básico 1 martes 20:00 o jueves 20:00 · Conversacional 1 martes 21:00 · Básico 2 miércoles 21:00 · TOPIK II jueves 21:00. Conversión rápida: 20:00 Chile = 18:00 Colombia/Perú · 17:00 México · 20:00 Argentina · 19:00 EE.UU. Este (18:00 desde el 1 de noviembre) · 01:00 España (00:00 desde el 25 de octubre). En la página de inscripción eliges tu país y ves la hora exacta.'),
   },
   {
     q: i18n('¿Las clases son en vivo o grabadas?'),

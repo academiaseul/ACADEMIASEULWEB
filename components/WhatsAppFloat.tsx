@@ -19,7 +19,7 @@ type QuickReply = { label: string; msg?: string; href?: string };
 const QUICK_REPLIES: QuickReply[] = [
   { label: i18n('Inscribirme · Octubre 2026 →'), href: '/nivel-1#clases' },
   {
-    label: i18n('Quiero inscribirme (clases desde la semana del 12 de octubre)'),
+    label: i18n('Quiero inscribirme (clases desde la semana del 19 de octubre)'),
     msg: i18n('Hola Jay! Quiero inscribirme en la cohorte de octubre. ¿Me ayudas a elegir el curso y el método de pago?'),
   },
   {
