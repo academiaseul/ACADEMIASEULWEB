@@ -560,8 +560,82 @@ function empezamos() {
   return doc({ story: false, css, body });
 }
 
+// ════════════════════════════════════════════════════════════════════════
+// 08 · Una semana más (lun 12 oct): la cohorte se corre una semana → matrícula hasta el dom 18, inicio la semana del 19
+// ════════════════════════════════════════════════════════════════════════
+const CLASES_19 = CLASES.map(({ nota, ...c }) => c); // todas parten la misma semana: sin la nota de Niños
+
+function unaSemanaMasStory() {
+  const css = clasesCSS + `
+  .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 140px; line-height: 1.02; letter-spacing: -4px; margin: 50px 0 0; }
+  .ttl em { font-style: italic; color: ${AZUL}; }
+  .when { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 42px; line-height: 1.2; margin-top: 24px; }
+  .when .nw { white-space: nowrap; }
+  .when span { color: ${AZUL}; }
+  .when small { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 22px; color: ${MUTED}; letter-spacing: 1px; }
+  .fee { margin-top: 22px; background: ${INK}; color: ${PAPER}; padding: 22px 30px; flex: none; }
+  .fee .a { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 36px; line-height: 1.2; }
+  .fee .a span { color: ${GOLD2}; }
+  .url { margin-top: auto; display: flex; align-items: center; justify-content: space-between; border-top: 3px solid ${INK}; padding-top: 16px; flex: none; }
+  .url .u { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 50px; color: ${AZUL}; white-space: nowrap; }
+  `;
+  const body = `
+  ${top("Matrícula", "Octubre 2026")}
+  <h1 class="ttl">UNA SEMANA<br><em>MÁS</em></h1>
+  <div class="when">Matrícula abierta hasta el<br><span class="nw"><span>domingo 18 · 23:59</span> <small>(Chile)</small></span><br>Empezamos el <span>lunes 19 de octubre</span></div>
+  <div class="cl">${CLASES_19.map((c) => `<div><div class="dh">${c.dia} <span>${c.hora}</span></div>
+    <div class="c">${c.curso}<small>${c.nivel}</small></div><div class="p">${c.profe}</div></div>`).join("")}
+    <div class="hc">hora Chile (UTC−3) · 8 semanas · 60 min · certificado incluido</div></div>
+  <div class="fee"><div class="a"><span>US$150</span> el curso completo · o 2 cuotas de <span>US$75</span></div></div>
+  <div class="url"><div class="u">academiaseul.com/inscribete</div></div>`;
+  return doc({ story: true, css, body });
+}
+
+function unaSemanaMasFeed() {
+  const SEM = [
+    { dow: "lun", n: "19", clases: [["18:00", "Coreano para Niños", "con Jay y Abby"]] },
+    { dow: "mar", n: "20", clases: [["20:00", "Básico 1", "con Kiran"], ["21:00", "Conversacional 1", "con Abby"]] },
+    { dow: "mié", n: "21", clases: [["21:00", "Básico 2", "con Jay"]] },
+    { dow: "jue", n: "22", clases: [["20:00", "Básico 1", "con Kiran"], ["21:00", "TOPIK II", "con Jay"]] },
+  ];
+  const css = `
+  .ko { font-family: 'Noto Sans KR', sans-serif; font-weight: 900; font-size: 104px; line-height: 1.05; color: ${AZUL}; margin-top: 26px; letter-spacing: -2px; }
+  .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 78px; line-height: 1; letter-spacing: -2px; margin: 6px 0 0; white-space: nowrap; }
+  .ttl em { font-style: italic; font-weight: 700; }
+  .wk { margin-top: 28px; border-top: 3px solid ${INK}; }
+  .wk > div { display: grid; grid-template-columns: 176px 1fr; column-gap: 26px; padding: 16px 0; border-bottom: 1px solid rgba(10,10,15,.22); align-items: center; }
+  .wk .d { display: flex; align-items: baseline; gap: 12px; }
+  .wk .d .n { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 76px; line-height: .9; }
+  .wk .d .w { font-family: 'IBM Plex Mono', monospace; font-size: 20px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: ${AZUL}; line-height: 1.25; }
+  .wk .d .w span { display: block; color: ${MUTED}; font-weight: 500; }
+  .wk .cs > div { display: flex; align-items: baseline; gap: 18px; padding: 5px 0; }
+  .wk .cs .h { font-family: 'IBM Plex Mono', monospace; font-size: 24px; font-weight: 600; color: ${AZUL}; flex: none; width: 88px; }
+  .wk .cs .c { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 36px; line-height: 1.1; }
+  .wk .cs .c span { font-weight: 500; font-style: italic; color: ${MUTED}; }
+  .hc { margin-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 17px; letter-spacing: 2px; text-transform: uppercase; color: ${MUTED}; }
+  .hc b { color: ${INK}; }
+  .mat { margin-top: 26px; background: ${INK}; color: ${PAPER}; padding: 22px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+  .mat .a { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 32px; line-height: 1.25; }
+  .mat .a span { color: ${GOLD2}; }
+  .mat .wseal { height: 64px; width: auto; filter: brightness(0) invert(1); flex: none; }
+  .foot .cta .kr { font-family: 'Noto Sans KR', sans-serif; font-weight: 900; color: ${AZUL}; }
+  `;
+  const body = `
+  ${top("Matrícula", "Semana del 19 de octubre")}
+  <div class="ko">일주일 더!</div>
+  <h1 class="ttl">Abrimos <em>una semana más</em></h1>
+  <div class="wk">${SEM.map((s) => `<div><div class="d"><div class="n">${s.n}</div><div class="w">${s.dow}<span>oct</span></div></div>
+    <div class="cs">${s.clases.map((c) => `<div><div class="h">${c[0]}</div><div class="c">${c[1]} <span>${c[2]}</span></div></div>`).join("")}</div></div>`).join("")}</div>
+  <div class="hc"><b>hora Chile</b> · 8 semanas · 60 min · en vivo por Zoom</div>
+  <div class="mat"><div class="a">Matrícula hasta el <span>domingo 18</span> · US$150<br>o 2 cuotas de US$75 · academiaseul.com/inscribete</div>${sello("wseal")}</div>
+  ${foot("¿Desde cero? Básico 1 con Kiran · <span class='kr'>화이팅!</span>")}`;
+  return doc({ story: false, css, body });
+}
+
 // ─── lista de diseños ───
 const DISENOS = [
+  { file: "08_una_semana_mas_story.png", story: true, html: unaSemanaMasStory() },
+  { file: "08_una_semana_mas.png", story: false, html: unaSemanaMasFeed() },
   { file: "00_chuseok_story.png", story: true, html: chuseok() },
   { file: "01_reto_leocoreanoen7dias.png", story: false, html: retoFeed() },
   { file: "02_conoce_a_tus_profes.png", story: false, html: profes() },
