@@ -119,7 +119,7 @@ export default function GeneradorNombre() {
           )}
 
           <p className="mt-5 text-center text-sm text-gray-400">
-            Transliteración aproximada al estilo coreano. La pronunciación usa la voz coreana de tu dispositivo
+            Según la norma oficial para escribir el español en coreano (국립국어원). Nombres de otro idioma pueden escribirse distinto. La pronunciación usa la voz coreana de tu dispositivo
             (si no se escucha, instala una voz en coreano en tu sistema).
           </p>
 
