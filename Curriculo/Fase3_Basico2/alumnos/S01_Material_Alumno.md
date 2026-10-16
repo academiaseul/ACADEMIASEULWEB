@@ -1,6 +1,6 @@
 # Semana 1 · Re-presentación · 다시, 반갑습니다!
 ### Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · con Jay (김재희 선생님)
-**Miércoles 14 de octubre · 21:00 (hora de Chile) · Libro: *Uso de la gramática coreana · Nivel inicial*, Fundamentos 01–02 (si lo tienes; esta semana no lo necesitas para la tarea)**
+**Miércoles 21 de octubre · 21:00 (hora de Chile) · Libro: *Uso de la gramática coreana · Nivel inicial*, Fundamentos 01–02 (si lo tienes; esta semana no lo necesitas para la tarea)**
 
 > **Durante la clase** vas a usar la **sección 7 (tarjeta de sala)**: tenla abierta **antes** de entrar a tu sala de Zoom, porque el chat de la sala es otro y ahí no vas a ver lo que Jay pegó en el chat general. Todo lo demás es para después: repasar, hacer la tarea y llegar con ventaja a la clase 2.
 > **Los 🔊 de este material** abren el audio de cada palabra y de cada frase clave (con la misma voz coreana del Lector).
@@ -363,7 +363,7 @@ Y un detalle que vas a usar desde hoy: entre compañeros, el nombre va con **씨
 
 ## 9. Tarea de la semana (≈ 30 minutos)
 
-**Plazo:** antes de la clase 2 · **miércoles 21 de octubre, 21:00 (hora de Chile)**. Todo se entrega en el grupo de WhatsApp del curso, salvo el audio de diagnóstico (en privado a Jay).
+**Plazo:** antes de la clase 2 · **miércoles 28 de octubre, 21:00 (hora de Chile)**. Todo se entrega en el grupo de WhatsApp del curso, salvo el audio de diagnóstico (en privado a Jay).
 
 **1 · Lector de Hangul · 8 min** · academiaseul.com/lector-coreano
 1. **Practicar → Sílabas, 3 rondas seguidas** (al terminar cada ronda, "Siguiente ronda"). El modo cambia solo en cada ronda: Lectura → Escucha → Inversa. Por eso son tres.
@@ -373,7 +373,7 @@ Y un detalle que vas a usar desde hoy: entre compañeros, el nombre va con **씨
 *Tips:* usa siempre el mismo celular o computador y el mismo navegador (tu progreso se guarda ahí). Activa la casilla **"🔊 pronunciar automáticamente al responder"**. En las rondas de **Lectura**, las opciones vienen en letras latinas, y en la **Inversa**, la pregunta: es lo único del Lector que todavía no cambiamos. Truco: **di la sílaba en voz alta antes de mirar las opciones**. La ronda que más te sirve es la de **Escucha** 👂.
 
 **2 · Hoja 1 · 12 min** · escríbela en tu cuaderno o imprímela desde la carpeta del curso; foto al grupo.
-Si la mandas **antes del viernes 16**, Jay la usa para armar las parejas de la semana 2.
+Si la mandas **antes del viernes 23**, Jay la usa para armar las parejas de la semana 2.
 
 *Parte A · Completa las 10 frases* con **이에요/예요**, **있어요/없어요** y la partícula que falta (**은/는 · 이/가**).
 1. 안녕하세요! 저___ 루시아___. 반갑습니다.
@@ -407,16 +407,16 @@ Anota en cifras tu **cumpleaños** y tu **edad**, un **número de teléfono** (r
 
 **Entregables (marca cuando esté listo)**
 - [ ] Captura de Progreso del Lector (Sílabas y Batchim) + tus estrellas de Escucha 👂
-- [ ] Foto de la Hoja 1 (ideal: antes del vie 16)
+- [ ] Foto de la Hoja 1 (ideal: antes del vie 23)
 - [ ] Audio de 30 segundos, sin leer
-- [ ] Solo si no conversaste con Jay en clase: audio de diagnóstico (abajo), antes del **dom 18 oct**
+- [ ] Solo si no conversaste con Jay en clase: audio de diagnóstico (abajo), antes del **dom 25 oct**
 
 **La clase 2 empieza con el quiz 1:** 5 preguntas en 5 minutos sobre lo de hoy: 이/가 아니에요, ¿은/는 o 이/가?, 있어요 o 없어요, 살다 → ___ y una lectura cortita estilo TOPIK I ("¿de qué se habla?"). Los ejercicios 1–5 y 8 de la sección 6 son tu mejor repaso.
 **¿Faltaste?** La grabación se sube dentro de 24 horas (las salas no se graban). Haz la tarea y el audio de diagnóstico.
 
 ### ¿No alcanzaste a conversar con Jay (o faltaste)? Tu diagnóstico por audio
 
-Mándale a Jay **por mensaje privado de WhatsApp**, antes del **domingo 18 de octubre**, un audio de unos 2 minutos. Lee la pregunta, **deja el papel y responde sin leer**. No tiene nota: sirve para saber desde dónde partes y armar bien tu pareja.
+Mándale a Jay **por mensaje privado de WhatsApp**, antes del **domingo 25 de octubre**, un audio de unos 2 minutos. Lee la pregunta, **deja el papel y responde sin leer**. No tiene nota: sirve para saber desde dónde partes y armar bien tu pareja.
 1. 안녕하세요! 이름이 뭐예요? 어느 나라 사람이에요?
 2. 어디에 살아요?
 3. 형제가 있어요? (o: 가족이 몇 명이에요?)

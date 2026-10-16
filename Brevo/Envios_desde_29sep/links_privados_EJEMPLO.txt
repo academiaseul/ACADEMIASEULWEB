@@ -24,5 +24,5 @@ PEGAR LINK GRUPO NIÑOS =
 PEGAR LINK GUÍA DEL ALUMNO =
 PEGAR LINK GUÍA PARA FAMILIAS =
 
-# Texto, no link. Completa la frase "La segunda se paga ___." (propuesta: la semana del 9 de noviembre)
+# Texto, no link. Completa la frase "La segunda se paga ___." (propuesta: antes de tu clase 5: la semana del 16 de noviembre (en Niños, la del 9) [POR CONFIRMAR]; O1 también llega a los apoderados de Niños, que no se corrieron; antes de la semana extra era la del 9 para todos)
 ESCRIBIR FECHA CUOTA 2 =

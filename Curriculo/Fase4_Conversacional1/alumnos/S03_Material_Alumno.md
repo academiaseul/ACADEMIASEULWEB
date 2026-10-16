@@ -1,6 +1,6 @@
 # Semana 3 · Viajes: Jeju y Seúl · 여행: 제주와 서울
 ### Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · con Abby (홍미영 선생님)
-**Martes 27 de octubre · 21:00 (hora de Chile) = miércoles 28, 09:00 en Corea · Módulo M02**
+**Martes 3 de noviembre · 21:00 (hora de Chile) = miércoles 4 de noviembre, 09:00 en Corea · Módulo M02**
 
 > **La clase es en coreano.** Abby habla en coreano todo el tiempo. El español está escrito aquí, en las slides y en el chat. Lee las secciones 1 a 3 antes de clase: con 15 minutos basta.
 > **Durante la clase** vas a usar la **sección 7** (tarjetas de sala y lista de precios). Tenla abierta **antes** de entrar a tu sala de Zoom, porque en la sala no ves el chat general.
@@ -426,7 +426,7 @@ La idea que te llevas: **Seúl no es toda Corea.** Cada región tiene su manera 
 
 ## 9. Tarea de la semana (≈ 28 minutos)
 
-**Plazo:** antes de la clase 4 · **martes 3 de noviembre, 21:00 (hora de Chile)**. Todo se entrega **en el grupo de WhatsApp del curso** (salvo la parte 4, que va en tu cuaderno). Abby te responde por audio o por texto dentro de **48 horas**.
+**Plazo:** antes de la clase 4 · **martes 10 de noviembre, 21:00 (hora de Chile)**. Todo se entrega **en el grupo de WhatsApp del curso** (salvo la parte 4, que va en tu cuaderno). Abby te responde por audio o por texto dentro de **48 horas**.
 
 **1 · Itinerario de 2 días en Corea · 10 min** · mensaje escrito en 한글 en el grupo
 6 a 8 frases. Tiene que haber: **cómo te mueves** (con (으)로), **a dónde vas y para qué** (con -(으)러), **al menos una frase con -아서/어서** y **una comida**. Puede ser Seúl, Jeju, Busan o donde quieras. **La última frase es una propuesta a alguien del grupo**, con su nombre: ○○ 씨, 같이 ___에 갈까요? Y si alguien te propone algo a ti, respóndele en el grupo: **좋아요!** o **글쎄요… 그럼 ___(으)ㄹ까요?**

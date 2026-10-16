@@ -1,8 +1,8 @@
 # Semana 8 · Simulacro final + plan personal · 모의고사와 나의 계획
 ### TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · con Jay (김재희 선생님)
-**Jueves 3 de diciembre · 21:00 (hora de Chile) · cuaderno de estrategia de la semana 8**
+**Jueves 10 de diciembre · 21:00 (hora de Chile) · cuaderno de estrategia de la semana 8**
 
-> **Antes de la clase** usas la **sección 9**: ahí está tu tarea previa y la plantilla **"Mi ruta"**, que completas cuando te llegue tu hoja de resultados del simulacro (el miércoles 2).
+> **Antes de la clase** usas la **sección 9**: ahí está tu tarea previa y la plantilla **"Mi ruta"**, que completas cuando te llegue tu hoja de resultados del simulacro (el miércoles 9).
 > **Durante la clase** usas la **sección 7** (tarjeta de sala y tu minuto): tenla abierta **antes** de entrar a tu sala de Zoom.
 > **Los 🔊** abren el audio de cada palabra y de cada frase clave (voz coreana nativa, la misma de todo el curso).
 
@@ -170,7 +170,7 @@ El programa lo dice en una línea: **un examen oficial completo al mes, dos sesi
 
 **Cuánto es en total:** entre 4 y 4 horas y media por semana (1 h 45' de 듣기, 1 a 1 h 30' de 쓰기, 20' de tus 3 tipos y el examen del mes, que repartido da 1 hora por semana). Si no te caben, **recorta, no infles**: un plan que se cumple a medias no es un plan. Mejor 10 minutos todos los días que 2 horas "cuando pueda".
 
-**¿Qué exámenes uso?** Ediciones oficiales publicadas en topik.go.kr que **no** hayas hecho. Anota las que usaste en el curso (los exámenes A a E) para no repetirlas. Si tu examen es en abril, desde el 3 de diciembre tienes unos 4 meses: **4 exámenes completos**.
+**¿Qué exámenes uso?** Ediciones oficiales publicadas en topik.go.kr que **no** hayas hecho. Anota las que usaste en el curso (los exámenes A a E) para no repetirlas. Si tu examen es en abril, desde el 10 de diciembre tienes unos 4 meses: **4 exámenes completos**.
 
 **¿Y quién corrige mi 쓰기 después?** Tú, con los códigos de corrección (cuaderno de la semana 1) y las rúbricas de las semanas 4, 5 y 7; mejor todavía, con un compañero del grupo: se corrigen el uno al otro. Lo que Academia Seúl ofrece después del curso te lo cuenta Jay (en la clase 8 o por el grupo del curso).
 
@@ -449,9 +449,9 @@ Y lo contrario: la **미역국**, la sopa de algas. Si hiciste Básico 2 con nos
 
 | # | Qué | Plazo | Dónde |
 |---|---|---|---|
-| 1 | **Simulacro completo** (Examen E, 180', como el día real: 듣기 + 쓰기 seguidos, pausa de no más de 20', 읽기). Si todavía no lo mandaste: último plazo el **miércoles 2 a las 12:00** | **Lun 30 nov, 22:00** | Formulario (듣기 y 읽기) + foto o escaneo del 쓰기 al chat privado con Jay |
-| 2 | **Portafolio:** tu 54 de la semana 7 reescrito con las correcciones + audio de 3 minutos leyéndolo | **Mié 2 dic, 22:00** | Chat privado con Jay |
-| 3 | **Puente (≈ 30'):** los ejercicios de la **sección 6** (≈ 15', cuando quieras) y, cuando te llegue tu **hoja de resultados** (por privado, el **miércoles 2**, a más tardar a las 14:00), **"Mi ruta"** de la A a la H (≈ 15'). La parte I (el borrador de tu plan) la escribes en la sala, mientras tu pareja está con Jay | Antes del jue 3, 21:00 | Tu cuaderno |
+| 1 | **Simulacro completo** (Examen E, 180', como el día real: 듣기 + 쓰기 seguidos, pausa de no más de 20', 읽기). Si todavía no lo mandaste: último plazo el **miércoles 9 a las 12:00** | **Lun 7 dic, 22:00** | Formulario (듣기 y 읽기) + foto o escaneo del 쓰기 al chat privado con Jay |
+| 2 | **Portafolio:** tu 54 de la semana 7 reescrito con las correcciones + audio de 3 minutos leyéndolo | **Mié 9 dic, 22:00** | Chat privado con Jay |
+| 3 | **Puente (≈ 30'):** los ejercicios de la **sección 6** (≈ 15', cuando quieras) y, cuando te llegue tu **hoja de resultados** (por privado, el **miércoles 9**, a más tardar a las 14:00), **"Mi ruta"** de la A a la H (≈ 15'). La parte I (el borrador de tu plan) la escribes en la sala, mientras tu pareja está con Jay | Antes del jue 10, 21:00 | Tu cuaderno |
 | 4 | *Opcional (2'):* si mandaste un audio en octubre (el del diagnóstico por WhatsApp o el de la clase 1 en casa), escúchalo otra vez. El jueves vas a notar la diferencia | — | — |
 
 ### Mi ruta · 나의 토픽 계획
@@ -525,14 +525,14 @@ ____________________________________________
 
 ### Después de la clase
 
-1. **Tu plan de estudio en coreano, unos 150 caracteres, en el grupo de WhatsApp** del curso, **antes del viernes 4 de diciembre a las 22:00**. En 한다체 o en 해요체, pero en uno solo (marcos en 3.3).
+1. **Tu plan de estudio en coreano, unos 150 caracteres, en el grupo de WhatsApp** del curso, **antes del viernes 11 de diciembre a las 22:00**. En 한다체 o en 해요체, pero en uno solo (marcos en 3.3).
    - **Meta 3:** meta con margen (≈ 130), 듣기 diario, 쓰기 51–53 dos veces por semana, un examen al mes.
    - **Meta 4–5:** meta con margen (≈ 160), lo mismo + el 54 cada semana y 읽기 35–50 en 35'.
 2. **topik.go.kr:** busca el **periodo de inscripción** del examen que elegiste y **confirma la sede de tu país**. Anótalo en tu calendario **hoy mismo** (el error más caro del TOPIK es llegar tarde a la inscripción).
-3. **El lunes 7 de diciembre**, si completaste el curso, te llega tu **certificado digital** de Academia Seúl con el puntaje de tu simulacro y tu nivel estimado. Es un certificado de la academia: el certificado oficial TOPIK solo lo entrega el 국립국제교육원 cuando rindes el examen real. Los requisitos te los confirma Jay.
+3. **El lunes 14 de diciembre**, si completaste el curso, te llega tu **certificado digital** de Academia Seúl con el puntaje de tu simulacro y tu nivel estimado. Es un certificado de la academia: el certificado oficial TOPIK solo lo entrega el 국립국제교육원 cuando rindes el examen real. Los requisitos te los confirma Jay.
 
 ### ¿Faltaste a la clase 8?
-Antes del **domingo 6 de diciembre a las 22:00**, por privado a Jay:
+Antes del **domingo 13 de diciembre a las 22:00**, por privado a Jay:
 - el **quiz 7** (te lo manda Jay; sin apuntes y **antes** de mirar la grabación, porque ahí sale la clave);
 - el **mini-simulacro** con la grabación, desde el minuto 4, 10 minutos sin pausar → formulario;
 - **tu minuto** en audio o video (las 6 piezas de la sección 7);
@@ -540,12 +540,12 @@ Antes del **domingo 6 de diciembre a las 22:00**, por privado a Jay:
 Tu revisión de 3 minutos te llega en un audio de Jay.
 
 ### Entregables (marca cuando esté listo)
-- [ ] Simulacro: formulario de 듣기 y 읽기 + foto del 쓰기 (lun 30, 22:00)
-- [ ] Portafolio: 54 reescrito + audio de 3' (mié 2, 22:00)
+- [ ] Simulacro: formulario de 듣기 y 읽기 + foto del 쓰기 (lun 7, 22:00)
+- [ ] Portafolio: 54 reescrito + audio de 3' (mié 9, 22:00)
 - [ ] "Mi ruta" A–H, antes de la clase
 - [ ] Quiz 7 y mini-simulacro (en clase)
 - [ ] Mi minuto (en clase)
-- [ ] Plan en coreano en el grupo (vie 4, 22:00)
+- [ ] Plan en coreano en el grupo (vie 11, 22:00)
 - [ ] Periodo de inscripción y sede, anotados y confirmados en topik.go.kr
 
 ---

@@ -1,8 +1,8 @@
 # Básico 1 (A1.1) · Semana 6 · 학교에 가요 · Mi día
-### Guía de la profesora · Kiran (기란) · martes 17 y jueves 19 de noviembre de 2026 · 20:00–20:58 (hora de Chile)
+### Guía de la profesora · Kiran (기란) · martes 24 y jueves 26 de noviembre de 2026 · 20:00–20:58 (hora de Chile)
 
 **MATERIAL DE LA PROFESORA · no se comparte con alumnos** (tiene claves, tiempos y notas internas). El material del alumno está en `../alumnos/S06_Material_Alumno.md`.
-Fuente: `../00_Diseno_Basico1.md` (B.7, B.10, B.11, B.12, C, D, E) y el syllabus publicado `Programa_Completo_Octubre_2026/fuente/cursos_es.json` (a11 · semana 6), que manda. Versión 1 · 26 sept 2026 · plazo N−2: listo y revisado el **vie 6 nov**.
+Fuente: `../00_Diseno_Basico1.md` (B.7, B.10, B.11, B.12, C, D, E) y el syllabus publicado `Programa_Completo_Octubre_2026/fuente/cursos_es.json` (a11 · semana 6), que manda. Versión 1 · 26 sept 2026 · plazo N−2: listo y revisado el **vie 13 nov**.
 
 > **Cómo leer esta guía**
 > - **[YA]** = mejora de la Fase 1 que se aplica en octubre sin cambiar nada publicado. **⚑** = coreano o dato que conviene que confirme una nativa (tú o Abby) antes de usarlo. **[regla del certificado: pendiente de decisión de Jay]** = donde el kit y la ficha publicada no coinciden.
@@ -31,7 +31,7 @@ Fuente: `../00_Diseno_Basico1.md` (B.7, B.10, B.11, B.12, C, D, E) y el syllabus
 
 | Campo | Semana 6 · 학교에 가요 · Mi día |
 |---|---|
-| **1 · Tema** | 학교에 가요 · Mi día. Lección 6 del libro *한글학교 한국어 1*. Contar a dónde vas y qué haces cada día con tus primeros verbos en presente. Fechas: mar 17 nov (sección martes) · jue 19 nov (sección jueves), 20:00–20:58, hora de Chile. |
+| **1 · Tema** | 학교에 가요 · Mi día. Lección 6 del libro *한글학교 한국어 1*. Contar a dónde vas y qué haces cada día con tus primeros verbos en presente. Fechas: mar 24 nov (sección martes) · jue 26 nov (sección jueves), 20:00–20:58, hora de Chile. |
 | **2 · Objetivos** | Al terminar, el alumno puede: (1) decir a dónde va y preguntar 어디에 가요?; (2) contar qué hace hoy, ahora y todos los días con 9 verbos núcleo en presente -아요/어요 (+ 쉬어요, 요리해요, 일어나요, 해요); (3) preguntar y responder 뭐 해요?; (4) unir dos frases con 그리고; (5) contar el día de un compañero en tercera persona (마리아는 매일 회사에 가요); (6) elegir 가요 o 와요 según hacia dónde va el movimiento; (7) explicar qué es un 학원 sin generalizar ("muchos estudiantes…"). |
 | **3 · Gramática** | **[nueva 1] Presente -아요/어요:** se quita -다; última vocal de la raíz ㅏ/ㅗ → -아요, las demás → -어요, 하다 → 해요. Cuatro formas se aprenden tal cual: **가요, 와요, 봐요, 마셔요** (la contracción se sistematiza en la S7); 자요 y 일어나요 funcionan como 가요. Una sola forma para todas las personas; la pregunta es la misma forma con entonación que sube; el presente también cubre "estoy -ando" y el plan de hoy.<br>**[nueva 2] N에 가요 / 와요:** 에 = destino ("a"), el mismo 에 de la S5 (책상 위에 있어요), ahora con movimiento. 가요/와요 con la misma lógica que el español: 지금 와요? — 네, 지금 가요!<br>**Léxico (no cuenta como estructura):** 오늘 / 매일 / 지금 al inicio, sin partícula · 어디에 가요? · 뭐 해요? · 그리고 entre dos frases · objeto sin partícula esta semana (커피 마셔요, 한국어 공부해요): es natural en lo oral y 을/를 llega en la S7. Carga: 2 estructuras nuevas (B.10). |
 | **4 · Vocabulario** | **Núcleo publicado (12, se evalúan):** 가다 ir (가요) · 오다 venir (와요) · 먹다 comer (먹어요) · 마시다 beber (마셔요) · 보다 ver (봐요) · 자다 dormir (자요) · 공부하다 estudiar (공부해요) · 일하다 trabajar (일해요) · 운동하다 hacer ejercicio (운동해요) · 오늘 hoy · 매일 todos los días · 지금 ahora.<br>**Del tema (7, se usan y se reconocen):** 하다 hacer (해요): 뭐 해요? · 한국어 idioma coreano · 쉬다 descansar (쉬어요) · 요리하다 cocinar (요리해요) · 일어나다 levantarse (일어나요) · 학원 academia privada · 그리고 y (entre dos frases). **Comando (C):** 손 드세요 (levanten la mano). Total: 19 + el comando = 20 filas de la lista C, más 빨리빨리 (cultura, reconocer).<br>**Vuelve de semanas anteriores:** lugares (집, 학교, 회사, 병원, 카페, 식당, 은행, 공원, 여기) · comida y bebida (커피, 물, 우유, 빵, 밥, 고기, 김치) · 동생, 친구, 한국.<br>**Anticipo (aviso):** 드라마 (núcleo de la S8) se usa solo como objeto de 봐요, porque con el vocabulario del curso no hay nada natural que "ver". Es un préstamo que todos reconocen. |
@@ -43,7 +43,7 @@ Fuente: `../00_Diseno_Basico1.md` (B.7, B.10, B.11, B.12, C, D, E) y el syllabus
 | **10 · Tarea de reading** | Lectura del diálogo modelo en pantalla. En el material del alumno: mini-texto "우리 동생 준호예요" (6 líneas) con 5 preguntas de comprensión (lectura con comprensión, como pide el diseño desde la S5). Lector → Palabras (rondas Lectura e Inversa). |
 | **11 · Tarea de writing** | Hoja de la lección 6: tabla de conjugación de los 9 verbos + 8 frases con N에 가요/와요 (a mano o tipeadas). Partícula pegada al sustantivo (학교에) y verbo separado (학교에 가요): 띄어쓰기. |
 | **12 · Actividad interactiva** | Rueda de conjugación con gestos (coro + relevo) · encuesta 손 드세요 con ranking del grupo en pantalla · 어디에 가요? en parejas abiertas con 10 íconos de lugares · tríos: mi día → reporte → minuto libre. |
-| **13 · Tarea para la casa** | ≈ 28 min, antes de la clase 7 (mar 24 / jue 26 nov, 20:00). (1) Lector, 8 min: Practicar → Palabras, 3 rondas seguidas; captura de Progreso (Contrarreloj opcional). (2) Hoja de la lección 6, 12 min. (3) Audio de 45 s, 8 min: tu día típico con al menos 6 verbos en presente. Extra opcional: flashcards de verbos; Dubu 5-5 (학교, solo oído). **Prepara la S7:** ordena tu pieza (o elige una foto de ella) para el tour de la clase 7. |
+| **13 · Tarea para la casa** | ≈ 28 min, antes de la clase 7 (mar 1 / jue 3 dic, 20:00). (1) Lector, 8 min: Practicar → Palabras, 3 rondas seguidas; captura de Progreso (Contrarreloj opcional). (2) Hoja de la lección 6, 12 min. (3) Audio de 45 s, 8 min: tu día típico con al menos 6 verbos en presente. Extra opcional: flashcards de verbos; Dubu 5-5 (학교, solo oído). **Prepara la S7:** ordena tu pieza (o elige una foto de ella) para el tour de la clase 7. |
 | **14 · Recurso digital (exacto)** | **Lector → Practicar → Palabras, 3 rondas seguidas** (10 palabras por ronda de un banco de 22: 오늘, 학교, 친구, 커피, 카페, 우유, 김치, 선생님…; cada ronda cambia de modo sola y el Lector recuerda en cuál quedó, así que no siempre empieza en Lectura, pero 3 rondas seguidas pasan por Lectura, Escucha e Inversa). El banco trae 5 palabras que el curso no enseña (서울, 사랑, 내일, 시간, 주세요): solo se leen, no se evalúan. Consejo: decir la palabra en voz alta **antes** de mirar las opciones. **En lugar del Contrarreloj [YA]**, que el syllabus publica y que siempre se responde con letras latinas: queda como extra opcional (superar el récord y guardar la captura; el récord aparece en Progreso como "récord contrarreloj"). Extra: Dubu → barrio 5 Río Han, nivel 5-5 (학교, solo de oído), si ya abrió ese barrio. |
 | **15 · Preparación de la profe** | Checklist completo en §C.2: deck S6 (25 láminas), Quiz 5 con el dibujo, lista de tríos (lector rápido + lento), cronómetro, mensajes de sala listos para transmitir, hoja del curso abierta, lista de "palabras a pedido". |
 | **16 · Entregable del alumno** | Captura de Progreso · hoja de la lección 6 (foto o PDF en el grupo) · audio de 45 s con su día. |
@@ -100,12 +100,12 @@ Es la base del bloque "Mi día" de la presentación final (F.2 del diseño): lo 
 - [ ] La lista de "palabras a pedido" (§C.4) a mano, para pegarla en el chat si alguien la necesita.
 
 **Durante**
-- Nombre de la grabación: `Basico1-Martes_S06_2026-11-17` / `Basico1-Jueves_S06_2026-11-19`.
+- Nombre de la grabación: `Basico1-Martes_S06_2026-11-24` / `Basico1-Jueves_S06_2026-11-26`.
 - Cada alumno habla al menos 3 veces (quiz no cuenta; sí la rueda, la cadena, las salas y el plenario).
 - Si vas atrasada, recorta según §C.12; **nunca** las salas ni el minuto libre.
 
 **Después (dentro de 24 h)**
-- Sube la grabación + el PDF del deck + la tarea a la carpeta: `Basico1_S06_2026-11-17_Mi_dia.pdf` / `Basico1_S06_2026-11-19_Mi_dia.pdf` (convención del kit: Curso_S0N_Fecha_Tema).
+- Sube la grabación + el PDF del deck + la tarea a la carpeta: `Basico1_S06_2026-11-24_Mi_dia.pdf` / `Basico1_S06_2026-11-26_Mi_dia.pdf` (convención del kit: Curso_S0N_Fecha_Tema).
 - Marca asistencia y Quiz 5 en la hoja del curso.
 - Publica el mensaje post-clase (§C.15).
 - Una línea a Jay: "todo bien / faltó X / grupo lento en Y".
@@ -167,7 +167,7 @@ Es la base del bloque "Mi día" de la presentación final (F.2 del diseño): lo 
 - ES: *¿Qué es un 학원? Una academia privada. Muchos estudiantes en Corea, después del colegio, van al 학원: para reforzar materias, inglés, piano o taekwondo. También hay 학원 para adultos: de idiomas, de cocina… Nosotros, en el fondo, somos un 학원 de coreano, pero online.*
 - *¿Hay algo parecido en sus países?* (esperable: preu en Chile, preicfes en Colombia, academia pre en Perú, curso de ingreso en Argentina, cursos para el examen de admisión en México). *No es lo mismo, pero se entiende la presión, ¿no?*
 - Solo si alguien menciona el 빨리빨리: *Muchos coreanos hablan de la "cultura del 빨리빨리" con humor: a veces con orgullo (todo es rápido: internet, trámites, delivery) y a veces como autocrítica, riéndose de su propio apuro. Es una autoironía, no una descripción de todo un país.*
-- Gancho opcional de calendario [YA]: sección martes, *este jueves 19 de noviembre (hora de Corea) es el 수능, el gran examen de ingreso a la universidad: para eso se preparan muchos de esos estudiantes*; sección jueves, *hoy, jueves 19, fue el 수능 en Corea (allá ya es viernes: aquí se dio entre anoche y esta madrugada)…* (Una línea; el tema se profundiza en Conversacional.)
+- Gancho opcional de calendario [YA], igual en las dos secciones: *el jueves pasado, 19 de noviembre, fue el 수능 en Corea, el gran examen de ingreso a la universidad: para eso se preparan muchos de esos estudiantes.* (Una línea; el tema se profundiza en Conversacional.)
 
 **20:20 · C · Rueda de conjugación (L18)**
 - ES: *Yo digo el verbo del diccionario con su gesto; ustedes me devuelven el presente. Primero todos juntos, con el micrófono cerrado, en voz alta.*
@@ -427,7 +427,7 @@ Criterio: verbo conjugado y 에 en el destino. Si en 5 escriben "아니요, 운�
 
 | # | Título | En pantalla | Nota para Kiran |
 |---|---|---|---|
-| L1 | 학교에 가요 · Mi día | Semana 6 · Lección 6 del libro · Básico 1 · mar 17 / jue 19 nov | Portada mientras entran; grabación ya encendida |
+| L1 | 학교에 가요 · Mi día | Semana 6 · Lección 6 del libro · Básico 1 · mar 24 / jue 26 nov | Portada mientras entran; grabación ya encendida |
 | L2 | Quiz 5 | Dibujo del escritorio (computador sobre el escritorio, café al lado del computador, libro sobre la silla, bolso debajo de la silla, sin paraguas) + los 5 ítems de §C.13 | Si la hoja de la lección 5 ya trae un dibujo parecido, se reutiliza |
 | L3 | Quiz 5 · respuestas | Las 5 respuestas; 책**이** resaltado en azul | Pregunta "¿termina en 받침?" antes de mostrar la 3 |
 | L4 | Esta semana vas a poder decir… | Las 5 frases de §0 | 20 segundos; léelas una vez |
@@ -457,7 +457,7 @@ Criterio: verbo conjugado y 에 en el destino. Si en 5 escriben "아니요, 운�
 
 > ¡Gracias por la clase de hoy, chingus!
 > Grabación: [link]
-> Tarea para antes del **[martes 24 / jueves 26] de noviembre, 20:00** (hora Chile):
+> Tarea para antes del **[martes 1 / jueves 3] de diciembre, 20:00** (hora Chile):
 > 1) **Lector de Hangul → Practicar → Palabras: 3 rondas seguidas** (cada ronda cambia de modo sola: en 3 rondas pasan por Lectura, Escucha e Inversa). Di cada palabra en voz alta antes de mirar las opciones. Mándenme la captura de Progreso. *Extra opcional:* el Contrarreloj (intenta superar tu récord; ahí se responde con letras latinas, por eso es extra).
 > 2) **Hoja de la lección 6:** la tabla de los 9 verbos + las 8 frases con 에 가요/와요 (foto o PDF aquí en el grupo).
 > 3) **Audio de 45 segundos:** tu día típico con al menos 6 verbos en presente (매일…, 오늘…, 그리고…).
@@ -483,7 +483,7 @@ Criterio: verbo conjugado y 에 en el destino. Si en 5 escriben "아니요, 운�
 2. **Lectura:** *(foto) 우리 동생 준호예요. 준호는 학생이에요. … 지금 집에 와요.* ¿Natural como texto corto de una hermana que está en casa? (Revisión nativa: se cambió 민준 por 준호 porque una hermana diría 민준**이는**, con el sufijo cariñoso -이 de los nombres con 받침, y eso confunde en A1; con un nombre en vocal, 준호는 es natural y además practica 는.)
 3. **Palabras a pedido** (§C.4): ¿estás cómoda dándolas en el chat? ¿Agregarías o quitarías alguna? ¿*회사에 다녀요* como input a pedido te parece bien o prefieres no abrirlo?
 4. **Anticipo de 드라마** para 봐요 (es núcleo de la S8): ¿algún objeto más natural con el vocabulario del curso?
-5. **Gancho del 수능** (jue 19 nov 2026, fecha verificada en la Fase 1): ¿lo usas o prefieres no abrir el tema en A1?
+5. **Gancho del 수능** (jue 19 nov 2026, fecha verificada en la Fase 1; con el curso corrido una semana cae la semana anterior a esta clase y se cuenta en pasado): ¿lo usas o prefieres no abrir el tema en A1?
 6. **Dato de las vocales "brillantes" (양성 모음):** ¿te sirve para explicar -아요/어요 o complica?
 
 ---

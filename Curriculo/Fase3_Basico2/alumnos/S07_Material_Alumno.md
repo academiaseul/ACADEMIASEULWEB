@@ -1,6 +1,6 @@
 # Semana 7 · Partículas pro · comparar, precisar y matizar
 ### Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · con Jay (김재희)
-**Miércoles 25 de noviembre · 21:00 (hora de Chile) · Libro: Partículas 05 의 · 09 에게/한테 · 10 도 · 11 만 · 12 밖에 · 14 쯤 · 15 처럼 · 16 보다 · 17 마다**
+**Miércoles 2 de diciembre · 21:00 (hora de Chile) · Libro: Partículas 05 의 · 09 에게/한테 · 10 도 · 11 만 · 12 밖에 · 14 쯤 · 15 처럼 · 16 보다 · 17 마다**
 
 > **Para la clase:** ten a mano **tus fotos para comparar** (el par que elegiste en la tarea de la semana 6 y, si puedes, dos pares más en el celular: la práctica usa **dos ciudades, dos comidas y dos ídolos**), tu **escritorio a la vista** y la **sección 7 (tarjeta de sala)** abierta antes de entrar a tu sala de Zoom (el chat de la sala es otro y ahí no ves lo que Jay pegó en el chat general).
 > **Esta semana te llevas tres cosas más:** la **Hoja de partículas 7**, que tiene el mismo formato que la sección 2 del examen (9.1) · tu **lista de repaso** del vocabulario de las semanas 1 a 7 (9.2) · tu **tarjeta para la conversación** de la clase 8 (9.4).
@@ -391,11 +391,11 @@ Y funciona al revés, porque también hay estereotipos sobre nosotros: "¿los ch
 
 ## 9. Tarea de la semana (≈ 30 minutos)
 
-**Plazo:** antes de la clase 8, **miércoles 2 de diciembre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso, **salvo la Hoja de partículas 7, que va por privado a Jay** (la lista de palabras, si prefieres, también por privado).
+**Plazo:** antes de la clase 8, **miércoles 9 de diciembre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso, **salvo la Hoja de partículas 7, que va por privado a Jay** (la lista de palabras, si prefieres, también por privado).
 
 ### 9.1 Hoja de partículas 7 · 12 min · **obligatoria**
 
-Tiene **el mismo formato que la sección 2 del examen final**: por eso, de todas las entregas del curso, esta es la que no te puedes saltar. **Si la mandas a más tardar el domingo 29 de noviembre, te llega corregida antes del examen.** Foto de la hoja o texto tipeado, **por privado a Jay** (no al grupo: así nadie ve tus respuestas antes de hacer las suyas).
+Tiene **el mismo formato que la sección 2 del examen final**: por eso, de todas las entregas del curso, esta es la que no te puedes saltar. **Si la mandas a más tardar el domingo 6 de diciembre, te llega corregida antes del examen.** Foto de la hoja o texto tipeado, **por privado a Jay** (no al grupo: así nadie ve tus respuestas antes de hacer las suyas).
 
 **Instrucciones:** elige la partícula del recuadro que corresponde y escríbela en su forma correcta (은 o 는, 이 o 가, 을 o 를, según el 받침). Algunas se usan dos veces. Si la palabra ya trae 에, escribe solo lo que falta. El español entre paréntesis te dice qué significa la frase.
 
@@ -485,8 +485,8 @@ En la clase 8, después del examen escrito, vas a conversar **5 minutos en corea
 **Después de la clase 8:** grabas tu **presentación de 1 minuto en tres tiempos** (quién eres, qué hiciste en este curso y qué harás) y la subes al grupo. Escúchala junto a tu audio de la semana 1: ese es tu "antes y después".
 
 **Lo que viene:**
-- **Lunes 30 de noviembre:** llega al grupo el **simulacro corto** del examen (10 preguntas, las mismas 4 secciones).
-- **Miércoles 2 de diciembre:** 21:00 calentamiento · **21:10 examen escrito en línea** (30 minutos; se escribe en 한글: **prueba tu teclado coreano esta semana**) · 21:40 la conversación en parejas.
+- **Lunes 7 de diciembre:** llega al grupo el **simulacro corto** del examen (10 preguntas, las mismas 4 secciones).
+- **Miércoles 9 de diciembre:** 21:00 calentamiento · **21:10 examen escrito en línea** (30 minutos; se escribe en 한글: **prueba tu teclado coreano esta semana**) · 21:40 la conversación en parejas.
 - **¿Sabes que no puedes venir el 2?** Avísale a Jay esta semana.
 
 ### Extra, si te quedan ganas
@@ -496,7 +496,7 @@ En la clase 8, después del examen escrito, vas a conversar **5 minutos en corea
 - **Las 3 frases de hoy** en audio: [🔊](https://www.academiaseul.com/audio/kr/eca080eb8f84ec9a94.mp3) 저도요 · [🔊](https://www.academiaseul.com/audio/kr/ec849cec9ab8ec9db420ec82b0ed8bb0ec9584eab3a0ebb3b4eb8ba420eb8d9420ecbba4ec9a94.mp3) 서울이 산티아고보다 더 커요 · [🔊](https://www.academiaseul.com/audio/kr/ec82aceb9e8ceba788eb8ba420eb8baceb9dbcec9a94.mp3) 사람마다 달라요. Repítelas encima del audio; cuando esté en la carpeta, también el clip de la clase con la voz de Jay.
 
 ### Qué entregas esta semana (marca cuando esté listo)
-- [ ] Hoja de partículas 7 (obligatoria, por privado a Jay; si llega a más tardar el dom 29 nov, vuelve corregida antes del examen)
+- [ ] Hoja de partículas 7 (obligatoria, por privado a Jay; si llega a más tardar el dom 6 dic, vuelve corregida antes del examen)
 - [ ] Mi lista de 20 palabras
 - [ ] 5 frases comparando mi país con Corea + el audio
 - [ ] Practiqué 5 minutos con mi pareja (recomendado)

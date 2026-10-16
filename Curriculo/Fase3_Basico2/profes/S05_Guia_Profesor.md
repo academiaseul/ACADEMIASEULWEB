@@ -1,5 +1,5 @@
 # Básico 2 (A1.2) · Semana 5 · 갈 거예요! · El futuro y tus planes
-### Guía del profesor · Jay Kim (김재희) · miércoles 11 de noviembre de 2026 · 21:00–22:00 (hora de Chile) · jueves 12, 09:00 en Corea
+### Guía del profesor · Jay Kim (김재희) · miércoles 18 de noviembre de 2026 · 21:00–22:00 (hora de Chile) · jueves 19, 09:00 en Corea
 
 **MATERIAL DEL PROFESOR · solo para Jay · no se comparte con alumnos.** El material del alumno, sin respuestas ni notas internas, está en `../alumnos/S05_Material_Alumno.md`. Las claves están aquí, en C.16.
 Versión 1.1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3) · revisión de coordinación: tiempos del bloque 2, conteo de coreano en voz alta, fórmula 시간이 있어요 para R2, clave de la Hoja 5 y ⚑ D.18–D.19.
@@ -32,7 +32,7 @@ Versión 1.1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 
 | Minuto libre [YA] | 이번 주말에 뭐 할 거예요? + una de la S4: 어제 뭐 했어요? |
 | Reciclaje | Pasado de la S4 (빼빼로데이였어요, quiz 4, drill "tres tiempos") · 에 de tiempo (S2) · 에 / 에서 (S3) · 에서~까지 y 하고/(이)랑 (S4) · 들어요 (S3) → 들을 거예요 · 같이 (S4) → 같이 ___요! |
 | Grupo mixto | Julio **reconoce** 갈 거예요 (bonus de su clase 10, que su guía escribía *[gal go-e-io]*: hoy se corrige a [갈꺼에요]) · quien entró por test puede traer 할 거야 de los dramas → 할 거예요 · primera clase completa con las **parejas nuevas** de mitad de curso · reto: 뭐 타고 갈 거예요? + -고 · rescate: solo -(으)ㄹ 거예요 y 로 (C.10) |
-| Grabación | Desde el minuto 0 · `Basico2_S05_2026-11-11` |
+| Grabación | Desde el minuto 0 · `Basico2_S05_2026-11-18` |
 
 **Tres ajustes de esta guía, todos dentro de lo publicado:**
 1. **El role play "quedemos" invita con 같이 ___요! [YA]** (diseño B.6, Fase 1 §15.1): la pregunta publicada *토요일에 영화를 보거나 산에 갈 거예요?* pregunta por un plan y no invita. El -거나 publicado sigue en el role play, pero en su lugar natural: **la respuesta** a "¿qué vas a hacer el sábado?" (영화를 보거나 쉴 거예요). La invitación va con 같이 ___요!, y tú dices -(으)ㄹ까요? para que lo reconozcan (같이 갈까요?).
@@ -45,7 +45,7 @@ Versión 1.1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 
 
 | | |
 |---|---|
-| **Fecha** | Miércoles 11 de noviembre de 2026 · 21:00–22:00, hora de Chile (UTC−3) · en Corea ya es **jueves 12, 09:00** (el 11/11, 빼빼로데이, fue "ayer") |
+| **Fecha** | Miércoles 18 de noviembre de 2026 · 21:00–22:00, hora de Chile (UTC−3) · en Corea ya es **jueves 19, 09:00**: el 11/11 (빼빼로데이) fue el miércoles pasado, y a esa hora en Corea se rinde el **수능** (se cuenta en la S6) |
 | **Unidad del libro** | *Uso de la gramática coreana · Nivel inicial*: **Tiempos 04** (futuro e intención -(으)ㄹ 거예요) · **Enumeración y contraste 02** (-거나) · **Partículas 13** ((으)로, medio de transporte). Referencia de secuencia para ti; en clase se usan el deck y la tarjeta de sala |
 | **Romanización** | Ninguna (diseño D). Consignas simples en coreano con glosa desde hoy |
 
@@ -55,17 +55,17 @@ Versión 1.1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 
 | 2 | **Objetivos de aprendizaje** | Al terminar, el alumno puede: (a) decir qué va a hacer y cuándo, con -(으)ㄹ 거예요 bien formado (vocal, consonante, ㄹ final, 듣다) y la palabra de tiempo con o sin 에; (b) decir cómo va a ir (비행기로, 기차로, 지하철로, 걸어서) y preguntar 뭐로 갈 거예요?; (c) ofrecer dos opciones con -거나 (verbos) y (이)나 (sustantivos); (d) contar un plan de 3 días en 6 frases; (e) invitar con 같이 ___아요/어요! y aceptar con 좋아요!, acordando hora y lugar; (f) preguntar 이거 한국어로 뭐예요?; (g) reconocer -(으)ㄹ까요? y 뭐 타고 갈 거예요? en boca de Jay |
 | 3 | **Gramática** (3 nuevas + fórmulas) | **[nueva 1] -(으)ㄹ 거예요** (futuro e intención; "voy a…" y "-ré" a la vez): vocal → -ㄹ 거예요 (갈, 볼, 쉴, 할) · consonante → -을 거예요 (먹을, 찍을) · ㄹ final: nada (살 거예요, 놀 거예요) · ㄷ irregular: 들을 거예요. Se escribe **separado** y con **예**: 갈 거예요. Con adjetivos y con el clima (y a veces con otra persona) también es "seguramente" (내일 추울 거예요): se reconoce; con otra persona sigue siendo, sobre todo, su plan (다니엘 씨는 부산에 갈 거예요). **[nueva 2] -거나** (o, entre verbos; el tiempo va solo al final: 영화를 보거나 쉴 거예요) y **N(이)나** (o, entre sustantivos: 커피나 차 · 빵이나 밥 · 지하철이나 버스). **[nueva 3] N(으)로** (medio): 비행기로, 기차로, 버스로, 차로; tras ㄹ, 로 (지하철로); tras otra consonante, 으로 (손으로). **A pie = 걸어서** (fórmula). El mismo 로 de **이거 한국어로 뭐예요?** · **Léxico:** 내일 (sin 에) · 이번 주말에 · 다음 주에 · 내년에. **Fórmulas [YA]:** 같이 ___아요/어요! + 좋아요! para invitar · -고 en futuro (바다를 보고 사진을 찍을 거예요). **Lo dice Jay:** 같이 갈까요? · 뭐 타고 갈 거예요? · **Ciclo:** R = el plan de Jay con una foto · C = frase propia en cadena + drill "tres tiempos, una frase" (publicado) · G = vacaciones soñadas en salas (publicado) · L = role play "quedemos" (publicado, con 같이 ___요!) + minuto libre |
 | 4 | **Vocabulario** (23) | **Núcleo publicado (12, se evalúan):** 내일 mañana (el día siguiente) · 다음 주 la próxima semana · 내년 el próximo año · 휴가 vacaciones (del trabajo) · 계획 plan · 비행기 avión · 기차 tren · 바다 mar (↺) · 산 montaña, cerro · 호텔 hotel · 사진을 찍다 sacar fotos · 구경하다 recorrer, mirar (un lugar). **Del tema y fórmulas (9):** 이번 주말 este fin de semana · 버스 bus · 지하철 metro · 차 auto (y "té") · 걸어서 a pie [F] · 여름 verano · 방학 vacaciones (del colegio o la universidad) · 같이 ___요! / 좋아요! [F] · 이거 한국어로 뭐예요? [F]. **Reconocer (2):** 빼빼로데이 · 뭐 타고 갈 거예요? · **A pedido** (no entran en la lista; se dan si un alumno las necesita para su plan): 제주도, 부산, 일본 (nombres propios) · 수영하다 (núcleo de la S6: anticipo) · 택시 · 배 (barco) · 자전거 |
-| 5 | **Expresiones coreanas** | • 이번 주말에 뭐 할 거예요? · 휴가에 어디에 갈 거예요? · 뭐로 갈 거예요? (reconocer: 뭐 타고 갈 거예요?)<br>• 같이 ___아요/어요! — 좋아요! · 몇 시에 만나요? · 어디에서 만나요? · 토요일에 봐요!<br>• **시간이 있어요** (fórmula para R2: "estoy libre"; es el 있어요 de "tener" de la S1 y 시간 está en la lista de Palabras del Lector) — sin ella, las casillas "—" de las agendas no se pueden decir<br>• 이거 한국어로 뭐예요?<br>• Lo dice Jay: 같이 갈까요? · 어제 한국은 빼빼로데이였어요.<br>• **Frases clave del coro:** 다음 주에 뭐 할 거예요? / 기차로 부산에 갈 거예요. / 영화를 보거나 쉴 거예요. |
+| 5 | **Expresiones coreanas** | • 이번 주말에 뭐 할 거예요? · 휴가에 어디에 갈 거예요? · 뭐로 갈 거예요? (reconocer: 뭐 타고 갈 거예요?)<br>• 같이 ___아요/어요! — 좋아요! · 몇 시에 만나요? · 어디에서 만나요? · 토요일에 봐요!<br>• **시간이 있어요** (fórmula para R2: "estoy libre"; es el 있어요 de "tener" de la S1 y 시간 está en la lista de Palabras del Lector) — sin ella, las casillas "—" de las agendas no se pueden decir<br>• 이거 한국어로 뭐예요?<br>• Lo dice Jay: 같이 갈까요? · 지난주 수요일은 빼빼로데이였어요.<br>• **Frases clave del coro:** 다음 주에 뭐 할 거예요? / 기차로 부산에 갈 거예요. / 영화를 보거나 쉴 거예요. |
 | 6 | **Pronunciación** | **Se explica la tensión después de -(으)ㄹ:** 갈 거예요 [갈꺼에요] · 먹을 거예요 [머글꺼에요] · 할 거예요 [할꺼에요] · 들을 거예요 [드를꺼에요] (se escribe 거, suena 꺼) · **거예요 se dice [거에요]** y se escribe con 예. 사진을 찍을 거예요 [사지늘 찌글꺼에요] · 지하철로 (ㄹ + 로 = una l larga) · 먹거나 [먹꺼나] · 걸어서 [거러서] · 좋아요 [조아요] · 같이 [가치] (S4). **Se corrige siempre:** ㅓ de 거예요 (julio lo aprendió como *go*: "갈 고예요*"), la vocal de apoyo tras el 받침 y las tensas (ㄲ de [꺼], ㅉ de 찍다, ㅃ de 빵이나). **Drill de 3 segundos** contra 가을 거예요* / 먹ㄹ 거예요* (nota publicada). **Se deja pasar:** la entonación y la ㄹ entre vocales |
-| 7 | **Cultura** | Capa contemporánea. **Publicado:** las vacaciones de verano en Corea son cortas: muchos trabajadores toman solo 3–5 días seguidos, a fines de julio o comienzos de agosto, así que el viaje típico es intenso: Jeju, Busan o Japón en un fin de semana largo. **Frase ancla:** **여름휴가에 제주도에 갈 거예요.** **Puente:** las vacaciones largas de enero y febrero (hemisferio sur) frente a 3–5 días; **휴가** (del trabajo) frente a **방학** (del colegio o la universidad, largas en verano y en invierno). Pregunta al chat, sin generalizar: "¿cuántos días seguidos toma la gente en tu país?". **Gancho [YA]** (Fase 1 §10.6, 1 minuto): *어제 한국은 빼빼로데이였어요* (fecha comercial, no tradición; y de paso, un pasado con 였어요) |
+| 7 | **Cultura** | Capa contemporánea. **Publicado:** las vacaciones de verano en Corea son cortas: muchos trabajadores toman solo 3–5 días seguidos, a fines de julio o comienzos de agosto, así que el viaje típico es intenso: Jeju, Busan o Japón en un fin de semana largo. **Frase ancla:** **여름휴가에 제주도에 갈 거예요.** **Puente:** las vacaciones largas de enero y febrero (hemisferio sur) frente a 3–5 días; **휴가** (del trabajo) frente a **방학** (del colegio o la universidad, largas en verano y en invierno). Pregunta al chat, sin generalizar: "¿cuántos días seguidos toma la gente en tu país?". **Gancho [YA]** (Fase 1 §10.6, 1 minuto): *지난주 수요일은 빼빼로데이였어요* (el 11/11 fue el miércoles pasado; fecha comercial, no tradición; y de paso, un pasado con 였어요) |
 | 8 | **Tarea de speaking** (en clase) | Cadena "이번 주말에 뭐 할 거예요?" (frase propia) · cadena "회사에 뭐로 가요?" · "두 개!" con -거나 · drill "tres tiempos, una frase" (todos, 3 s cada uno) · salas: vacaciones soñadas (entrevista de 5 preguntas + plan de 3 días en 6 frases), "quedemos" con agendas A/B y minuto libre · 3 alumnos cuentan el plan de su pareja en el cierre |
 | 9 | **Tarea de listening** | El plan de Jay (6 frases, 2 veces) con chequeo 네/아니요 · la tensión [갈꺼에요] frente a lo escrito · en R2, escuchar la agenda del compañero y anotarla · las 3 frases clave (clip de 20 s) |
 | 10 | **Tarea de reading** | Lectura del plan de Jay en pantalla (연음 y tensión marcadas) · ítem estilo TOPIK I del quiz 4 (mini-texto de un fin de semana) · agendas A/B/C en 한글 · **itinerario de Minji** (Hoja 5) · Lector: Palabras (22 palabras; trae 내일 y 버스) |
 | 11 | **Tarea de writing** | Quiz 4 tipeado en el chat · Hoja 5: 12 huecos + tu plan del fin de semana en 4 frases · 띄어쓰기 que se corrige desde hoy: **갈 거예요** (separado), **다음 주** (separado) frente a **지난주** (junto), partícula pegada (지하철로, 커피나) |
 | 12 | **Actividad interactiva** | **Vacaciones soñadas** con la foto que cada uno guardó en la tarea de la S4 (publicada) + **"Quedemos" con agendas A/B/C** (vacío de información: hay que preguntar día por día para encontrar el día libre común y después invitar) |
-| 13 | **Tarea para la casa** | ≈ 30 min, antes de la clase 6 (mié 18 nov, 21:00). (1) **Hoja 5, 12 min** (publicada): itinerario con -(으)ㄹ 거예요, -거나/(이)나 y (으)로 (12 huecos) + tu plan del fin de semana en 4 frases. (2) **Lector, 5 min:** Practicar → Palabras, 3 rondas seguidas; captura de Progreso. (3) **Quiz en línea 2, 8 min** (publicado; 10 preguntas de futuro y expresiones de tiempo; se revisa al abrir la clase 6). (4) **Prepara la S6, 5 min:** anota 3 cosas que sabes hacer (nadar, cocinar, manejar, tocar guitarra…) y 3 que no, y piensa en una invitación que tendrías que rechazar. **Reto:** 뭐 타고 갈 거예요? en tu itinerario + 2 frases con -고. **Rescate:** itinerario solo con -(으)ㄹ 거예요 y 로 (sin los huecos 6 y 8) |
+| 13 | **Tarea para la casa** | ≈ 30 min, antes de la clase 6 (mié 25 nov, 21:00). (1) **Hoja 5, 12 min** (publicada): itinerario con -(으)ㄹ 거예요, -거나/(이)나 y (으)로 (12 huecos) + tu plan del fin de semana en 4 frases. (2) **Lector, 5 min:** Practicar → Palabras, 3 rondas seguidas; captura de Progreso. (3) **Quiz en línea 2, 8 min** (publicado; 10 preguntas de futuro y expresiones de tiempo; se revisa al abrir la clase 6). (4) **Prepara la S6, 5 min:** anota 3 cosas que sabes hacer (nadar, cocinar, manejar, tocar guitarra…) y 3 que no, y piensa en una invitación que tendrías que rechazar. **Reto:** 뭐 타고 갈 거예요? en tu itinerario + 2 frases con -고. **Rescate:** itinerario solo con -(으)ㄹ 거예요 y 로 (sin los huecos 6 y 8) |
 | 14 | **Recurso digital** (exacto) | **Lector** (`/lector-coreano`) → **Practicar → Palabras, 3 rondas seguidas** (≈ 5 min; el modo rota solo en el orden Lectura → Escucha → Inversa, así que 3 rondas seguidas pasan por los tres; **no siempre empieza por Lectura**: el Lector recuerda en qué modo quedó la última vez (`prog.rot`); 10 preguntas por ronda; la lista son 22 palabras e incluye **내일** y **버스**). Ojo, romanización: en Palabras, las **opciones de Lectura** y la **pista de Inversa** vienen en letras latinas, y la línea de corrección también: por eso la consigna es **decir la palabra en voz alta antes de tocar** (diseño D) y comprobarla con la casilla "🔊 pronunciar automáticamente al responder" (en Inversa no hay botón 🔊 en la pregunta). **Extra [YA]:** ⚡ Contrarreloj (60 s; mezcla sílabas, batchim, palabras y números; siempre con opciones romanizadas), diciendo cada palabra en voz alta antes de tocar; el récord queda solo en **Progreso** (publicado: "guardar tu marca"). **Formulario** del quiz en línea 2: `[PLACEHOLDER: link del quiz en línea 2]` (plataforma: DECISIÓN DE JAY 5) |
-| 15 | **Preparación del profe** | Revisar deck S5 (guion en C.17) y Hoja 5 (el equipo los produce; tú apruebas: plazo N−2, vie 30 oct) · tu foto real para el R (5 min) · juntar 3 errores de la Hoja 4 para la lámina 3 · salas preasignadas con las **parejas nuevas** · quiz en línea 2 activo · checklist completo en C.2 |
+| 15 | **Preparación del profe** | Revisar deck S5 (guion en C.17) y Hoja 5 (el equipo los produce; tú apruebas: plazo N−2, vie 6 nov) · tu foto real para el R (5 min) · juntar 3 errores de la Hoja 4 para la lámina 3 · salas preasignadas con las **parejas nuevas** · quiz en línea 2 activo · checklist completo en C.2 |
 | 16 | **Entregable del alumno** | Hoja 5 (foto o texto en el grupo) · captura de Progreso (Palabras) · quiz en línea 2 enviado |
 | 17 | **Evaluación** | **Quiz 4** (abre la clase, sobre la S4; clave en C.16): 갔어요 · 먹었어요 · 이었어요 · 부터/까지 + 1 ítem estilo TOPIK I de lectura (⚑ D-12). **Observación formativa** en salas: forma del futuro (vocal/consonante/ㄹ) · 로 frente a 에 · -거나 con el tiempo al final (bien / a reforzar). **Quiz en línea 2** (cuenta como tarea de la semana, diseño E.3). Lo de hoy entra en el **Quiz 5** (abre la clase 6; su clave va en la guía de la S6): 가다 → 갈 거예요 · 먹다 → 먹을 거예요 · 살다 → 살 거예요 · 지하철___ 가요 + un ítem TOPIK I de un plan. **Registro:** asistencia en vivo / grabación + tarea, en columnas separadas **[regla del certificado: pendiente de decisión de Jay]** · quiz 4 · tareas |
 
@@ -77,7 +77,7 @@ Versión 1.1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 
 
 | Min | Hora | Bloque | Qué hace Jay | Qué hacen los alumnos | Zoom: pantalla · salas · chat | Material |
 |---|---|---|---|---|---|---|
-| 0–1 | 21:00–21:01 | **1 · Apertura + gancho 빼빼로데이** | Inicia la grabación. 안녕하세요, 여러분! "En Chile es 11; en Corea ya es jueves 12": 어제 한국은 빼빼로데이였어요. Fecha comercial, no tradición | Repiten 빼빼로데이였어요 | Grabación en la nube ON · L1 | L1 (foto 11/11) |
+| 0–1 | 21:00–21:01 | **1 · Apertura + gancho 빼빼로데이** | Inicia la grabación. 안녕하세요, 여러분! "El 11/11 fue el miércoles pasado": 지난주 수요일은 빼빼로데이였어요. Fecha comercial, no tradición | Repiten 빼빼로데이였어요 | Grabación en la nube ON · L1 | L1 (foto 11/11) |
 | 1–5 | 21:01–21:05 | **2 · Quiz 4** (sobre la S4) + hoja 4 | Consigna (30 s) · respuestas con el chat en "solo anfitrión" (2 min) · revela y corrige el error más repetido (45 s) · 3 errores de la Hoja 4 en pantalla (45 s) | Responden 1)–5) en un solo mensaje (solo lo ve Jay) | L2 (quiz) · L3 (hoja 4) · chat: "solo anfitrión" durante el quiz, después "todos" | Clave en C.16.1 |
 | 5–8 | 21:05–21:08 | **3 · R: el plan de Jay** | "Hoy vas a poder decir" (20 s). Cuenta su plan con la foto: 6 frases, dos veces, despacio. 3 chequeos falsos/verdaderos | Escuchan; responden en coro 네! / 아니요, 기차로! | L4 · L5 (foto de Jay) | Foto real de Jay |
 | 8–15 | 21:08–21:15 | **4 · [nueva 1] -(으)ㄹ 거예요** (R → C) | Regla (vocal · consonante · ㄹ · 듣다), escritura separada, [갈꺼에요], línea del tiempo con y sin 에. Cadena: 이번 주말에 뭐 할 거예요? (5 nombres) | Coro de formas; 5 dicen su frase; el resto la escribe en el chat | L6–L9 · chat público | Verbos en L9 |
@@ -102,23 +102,23 @@ Que cada alumno salga **contando un plan de verdad**: qué va a hacer, cuándo, 
 
 ### C.2 Checklist de preparación
 
-**Antes del vie 30 oct (plazo N−2 del deck S5 y la Hoja 5, diseño G.2)**
+**Antes del vie 6 nov (plazo N−2 del deck S5 y la Hoja 5, diseño G.2)**
 - [ ] Leer esta guía y el material del alumno; aprobar el deck S5 contra el guion de C.17 y la Hoja 5 (material del alumno, sección 9). **Tú no produces material:** si falta algo, avisa a producción ese mismo día.
 - [ ] Resolver los ⚑ de la sección D (son pocos y cortos: casi todos son "¿lo dirías así?").
-- [ ] Decidir la plataforma del quiz en línea 2 (DECISIÓN DE JAY 5) y aprobar sus 10 preguntas (C.16.4). Plazo del formulario: **vie 6 nov** (G.2).
+- [ ] Decidir la plataforma del quiz en línea 2 (DECISIÓN DE JAY 5) y aprobar sus 10 preguntas (C.16.4). Plazo del formulario: **vie 13 nov** (G.2).
 
-**Dom 8 nov (mitad de curso, diseño E.4)**
+**Dom 15 nov (mitad de curso, diseño E.4)**
 - [ ] Comentarios de 3 líneas y guía de estudio enviados (plazo propuesto, DECISIÓN DE JAY 8).
 - [ ] **Parejas nuevas** para S5–S8 con la evidencia de mitad de curso: A + B o B + B, nunca A + A; los C en trío con un A y un B. Anota quién recibe **reto** y quién **rescate** esta semana (C.10).
 
-**Lun 9 – mar 10 nov**
+**Lun 16 – mar 17 nov**
 - [ ] Revisar las Hojas 4 que llegaron y elegir **los 3 errores más repetidos** para la lámina 3 (si no llegaron suficientes, usa los de C.16.1).
 - [ ] Elegir **tu foto** para el R (Busan, un tren, Jeju o tu plan real) y adaptar tus 6 frases de C.3 (bloque 3) a tu plan de verdad, sin salir del vocabulario de la lista.
-- [ ] **Mar 10:** publicar el recordatorio de C.15.1 (la foto del lugar al que quieren viajar: la guardaron como tarea de la S4).
+- [ ] **Mar 17:** publicar el recordatorio de C.15.1 (la foto del lugar al que quieren viajar: la guardaron como tarea de la S4).
 - [ ] Administrativo (no va en la clase): la **2.ª cuota** vence antes de la clase 5 (programa público). Si hay pendientes, se escribe por privado, nunca en el grupo.
 
-**Mié 11, 20:45**
-- [ ] Zoom: salas **preasignadas** (parejas nuevas), "permitir volver a la sesión principal" ON, cierre automático a los **19 minutos** + cuenta regresiva de 60 s. Grabación en la nube lista: `Basico2_S05_2026-11-11`.
+**Mié 18, 20:45**
+- [ ] Zoom: salas **preasignadas** (parejas nuevas), "permitir volver a la sesión principal" ON, cierre automático a los **19 minutos** + cuenta regresiva de 60 s. Grabación en la nube lista: `Basico2_S05_2026-11-18`.
 - [ ] Deck en L1, "Compartir sonido" marcado. Pestaña del Lector abierta en **Practicar → Palabras** (para los 20 s de la tarea).
 - [ ] Esta guía abierta en **C.16.1** (clave del quiz 4) y en **C.16.6** (lista del drill).
 - [ ] Link de la tarjeta de sala copiado (`[PLACEHOLDER: link de la tarjeta de sala S5]`), listo para pegar a las 21:34:30.
@@ -126,11 +126,11 @@ Que cada alumno salga **contando un plan de verdad**: qué va a hacer, cuándo, 
 - [ ] Lista de las parejas a mano (para llamar a los 3 del resumen: uno de cada perfil).
 
 **Después de la clase (dentro de 24 h)**
-- [ ] Subir la grabación + PDF del deck (`Basico2_S05_2026-11-11_Futuro.pdf`) + la tarea a la carpeta del curso.
+- [ ] Subir la grabación + PDF del deck (`Basico2_S05_2026-11-18_Futuro.pdf`) + la tarea a la carpeta del curso.
 - [ ] Publicar el mensaje post-clase (C.15.3) con el link del quiz en línea 2 **activo**.
 - [ ] Registrar asistencia (en vivo / grabación + tarea), quiz 4 y observación de salas (C.14).
 - [ ] Pedir el recorte del coro de cierre: `B2_S05_frases_clave.mp3` (48 h; lo hace la persona de producción que designes, diseño B.12).
-- [ ] Durante la semana: corregir las Hojas 5 (máximo 3 puntos, uno positivo primero) y mirar los resultados del quiz en línea 2 antes del mié 18 (se revisa al abrir la clase 6).
+- [ ] Durante la semana: corregir las Hojas 5 (máximo 3 puntos, uno positivo primero) y mirar los resultados del quiz en línea 2 antes del mié 25 (se revisa al abrir la clase 6).
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 *Los guiones están en "tú", la voz de la marca; dilos con tus palabras. **(KO)** = en coreano; **(ES)** = en español. Comandos, saludos, felicitaciones y correcciones de pronunciación van siempre en coreano (따라 하세요 · 다시 한번 · 잘했어요 · 말하세요); la gramática se explica en español.*
@@ -138,9 +138,10 @@ Que cada alumno salga **contando un plan de verdad**: qué va a hacer, cuándo, 
 #### Bloque 1 · 21:00–21:01 · Apertura + gancho 빼빼로데이 · L1
 - Graba desde el minuto 0.
 - **(KO)** «안녕하세요, 여러분!»
-- **(ES)** «Aquí en Chile hoy es miércoles 11 de noviembre. Pero en Corea ya es jueves 12, las nueve de la mañana. O sea que el 11/11 en Corea fue… ayer.» (L1: foto de una caja de palitos de chocolate y "11/11") **(KO)** «어제 한국은 빼빼로데이였어요.» **따라 하세요:** «빼빼로데이였어요.» → grupo.
+- **(ES)** «Aquí en Chile hoy es miércoles 18 de noviembre; en Corea ya es jueves 19, las nueve de la mañana. ¿Y el miércoles pasado, el 11/11? En Corea fue un día especial.» (L1: foto de una caja de palitos de chocolate y "11/11") **(KO)** «지난주 수요일은 빼빼로데이였어요.» **따라 하세요:** «빼빼로데이였어요.» → grupo.
 - **(ES)** «빼빼로 es una galletita en forma de palito, y 11/11 parecen cuatro palitos. Es una fecha comercial, que se hizo popular en los años 90: no es una fiesta tradicional. Muchos se regalan una cajita en la oficina o en el colegio. Y fíjense en lo que acabamos de decir: **였어요**, el pasado de la semana pasada. Último viaje al pasado antes de irnos al futuro: el quiz 4.»
   *(Si alguien pregunta: el mismo 11 de noviembre en Corea es el día de los agricultores, y el gobierno promueve ese día el 가래떡, el tteok alargado, como alternativa ⚑ D.4. No lo digas si no preguntan: es 1 minuto.)*
+  *(Y si alguien lo menciona: hoy, a esta misma hora, en Corea se rinde el **수능**, el examen de ingreso a la universidad ⚑ S6-6. «Lo vemos la próxima semana.» No lo desarrolles: es el gancho de la S6. Con el curso corrido una semana, la clase 5 ya no cae el 11/11; antes se decía «어제 한국은 빼빼로데이였어요».)*
 
 #### Bloque 2 · 21:01–21:05 · Quiz 4 · L2–L3
 - **(ES)** «Quiz 4, sobre la clase pasada. Cinco preguntas en la lámina. Respondan en el chat (hoy, como siempre, me llega solo a mí: chat en **"solo anfitrión"**), todo en un solo mensaje: 1) … 2) … La 5 es de lectura, tipo TOPIK: solo el número de la opción. Tienen dos minutos. 화이팅!» (Los ítems están en L2 y en C.16.1.)
@@ -402,7 +403,7 @@ Que cada alumno salga **contando un plan de verdad**: qué va a hacer, cuándo, 
 
 **Observación formativa en salas** (B = bien · R = a reforzar), una columna por punto: forma del futuro (vocal / consonante / ㄹ) · 로 frente a 에 · -거나 con el tiempo al final · invitación con 같이 ___요!.
 
-**Tarea de la S5 (entrega antes del mié 18 nov, 21:00):**
+**Tarea de la S5 (entrega antes del mié 25 nov, 21:00):**
 - **Hoja 5:** clave en C.16.3. Mira sobre todo la forma (갈 / 먹을 / 살 / 들을), 로 y el tiempo al final con -거나. **Máximo 3 puntos por alumno, uno positivo primero.** Un audio tuyo de 15 s leyendo una de sus frases bien dicha es la corrección que más retiene.
 - **Captura de Progreso:** se pide haber hecho 3 rondas seguidas de Palabras; no se exige un número de estrellas.
 - **Quiz en línea 2:** el formulario corrige solo; mira el ítem que más fallaron para el comienzo de la clase 6 (se revisa al abrirla, publicado).
@@ -422,9 +423,9 @@ Asistencia en vivo y "grabación + tarea" van **en columnas separadas** hasta qu
 
 ### C.15 Mensajes para el grupo (listos para copiar)
 
-**C.15.1 Recordatorio del día antes** (mar 10 nov)
+**C.15.1 Recordatorio del día antes** (mar 17 nov)
 ```
-¡Hola, chingus! 🐯 Mañana miércoles 11, 21:00 (Chile) · [hora de un país del grupo], clase 5: ¡el FUTURO!
+¡Hola, chingus! 🐯 Mañana miércoles 18, 21:00 (Chile) · [hora de un país del grupo], clase 5: ¡el FUTURO!
 Tengan a mano:
 • la foto del lugar al que sueñan viajar (la guardaron como tarea de la semana 4),
 • el teclado coreano listo: el quiz 4 va en el chat.
@@ -436,11 +437,11 @@ Si todavía no mandaron la hoja 4, esta noche es buen momento 😉
 - 21:44 · `R2 · Quedemos: A = primero en la lista de Zoom (en trío, el tercero usa la C). Pregunten: ___요일에 뭐 할 거예요? ("—" = 시간이 있어요!) → día libre → 같이 ___요! → 몇 시에? 어디에서?`
 - 21:51 · `R3 · Minuto libre, sin cuaderno: 이번 주말에 뭐 할 거예요? + 어제 뭐 했어요? 화이팅!`
 
-**C.15.3 Mensaje post-clase** (mié 11 nov, después de subir la grabación)
+**C.15.3 Mensaje post-clase** (mié 18 nov, después de subir la grabación)
 ```
 ¡Gracias por la clase de hoy, chingus! Desde hoy hablan en pasado, presente y futuro 🐯
 Grabación: [link]
-Tarea para antes del miércoles 18 de noviembre, 21:00 (hora Chile) · unos 30 minutos:
+Tarea para antes del miércoles 25 de noviembre, 21:00 (hora Chile) · unos 30 minutos:
 1) Hoja 5 (en su material, sección 9): el itinerario de Minji (12 huecos) + su plan del fin de semana en 4 frases. Foto o texto aquí en el grupo.
 2) Lector de Hangul (academiaseul.com/lector-coreano) → Practicar → Palabras, 3 rondas seguidas. Digan cada palabra en voz alta ANTES de tocar. Captura de Progreso aquí.
 3) Quiz en línea 2 (10 preguntas, 8 min): [link]. Lo revisamos al empezar la clase 6.
@@ -556,7 +557,7 @@ Preguntas de comprensión: 1 **기차로** (갈 거예요) · 2 **(친구하고)
 
 | L | Título | En pantalla | Nota para Jay | Fuente |
 |---|---|---|---|---|
-| 1 | 어제 한국은 빼빼로데이였어요 | Foto genérica de palitos de chocolate + "11/11" · "Chile: mié 11 · Corea: jue 12, 09:00" · la frase con 였어요 destacado | Gancho de 1 min · graba desde aquí | Nueva |
+| 1 | 지난주 수요일은 빼빼로데이였어요 | Foto genérica de palitos de chocolate + "11/11" · "11/11 = 지난주 수요일" · la frase con 였어요 destacado | Gancho de 1 min · graba desde aquí | Nueva |
 | 2 | Quiz 4 · 퀴즈 4 | Los 5 ítems de C.16.1 · "Respuestas: un solo mensaje (el chat va solo a Jay) · 1) … 5)" · al clic, la clave en azul | 30 s + 2 min + 45 s | Nueva |
 | 3 | Hoja 4 · lo que vi | 3 frases correctas en grande; la versión con error, tachada en gris y pequeña | Reemplaza con errores reales | Nueva |
 | 4 | Hoy vas a poder decir | Las 5 frases de la sección 0, con español | 20 s | Nueva |
@@ -580,7 +581,7 @@ Preguntas de comprensión: 1 **기차로** (갈 거예요) · 2 **(친구하고)
 | 21 | 파트너는 뭐 할 거예요? | "___ 씨는 ___ 거예요." | 3 alumnos | Nueva |
 | 22 | Lo que oí hoy | 3 casilleros para escribir en vivo (o los 3 de C.3, bloque 11) | Frase buena, no la mala | Nueva |
 | 23 | Las 3 frases de hoy | 다음 주에 뭐 할 거예요? / 기차로 부산에 갈 거예요. / 영화를 보거나 쉴 거예요. | Tú solo primero, lento y claro | B.12 |
-| 24 | Tarea · ≈ 30 min · antes del mié 18, 21:00 | 1 Hoja 5 (12 min) · 2 Lector → Palabras, 3 rondas (5 min) · 3 Quiz en línea 2 (8 min) · 4 Prepara la S6 (5 min) · reto / rescate · "Quiz 5: 갈 · 먹을 · 살 거예요 · 로" · captura del Lector con la línea de corrección tapada | 20 s de Lector en vivo | Nueva |
+| 24 | Tarea · ≈ 30 min · antes del mié 25, 21:00 | 1 Hoja 5 (12 min) · 2 Lector → Palabras, 3 rondas (5 min) · 3 Quiz en línea 2 (8 min) · 4 Prepara la S6 (5 min) · reto / rescate · "Quiz 5: 갈 · 먹을 · 살 거예요 · 로" · captura del Lector con la línea de corrección tapada | 20 s de Lector en vivo | Nueva |
 | 25 | 잘했어요! 다음 주에 봐요! | 화이팅 · logo | Finalizar a las 22:00 | Plantilla |
 | Extra | ¿Adónde voy? | 4 fotos de destinos sin nombre (Seúl, Busan, Jeju, Tokio) | Emergencia (C.11) | Nueva |
 
@@ -590,25 +591,25 @@ Preguntas de comprensión: 1 **기차로** (갈 거예요) · 2 **(친구하고)
 
 | # | Qué | Por qué | Quién · cuándo |
 |---|---|---|---|
-| 1 | ⚑ **같이 ___요! para invitar** (diseño D-9): 다음 주에 같이 영화 봐요! · 토요일 오후에 같이 산에 가요! · 같이 한국 영화 봐요! | Es la fórmula [YA] que reemplaza a la invitación publicada; confirmar que la dices así sin -(으)ㄹ까요 | Jay · antes del vie 30 oct |
-| 2 | ⚑ **Cierres de la cita:** 몇 시에 만나요? · 어디에서 만나요? · 토요일에 봐요! · 다음 주에 봐요! | Se usan en R2, en el diálogo y en tu despedida | Jay · vie 30 oct |
-| 3 | ⚑ **부산을 구경할 거예요 / 제주도를 구경할 거예요** frente a 부산 구경을 할 거예요 | Las dos se oyen; el material usa la primera | Jay · vie 30 oct |
-| 4 | ⚑ **빼빼로데이:** "fecha comercial, popular desde los años 90" y, solo si preguntan, "el mismo día es el día de los agricultores y se promueve el 가래떡" | Dato de calendario (Fase 1 §10.6); el origen exacto tiene varias versiones: no se cuenta ninguna | Jay · vie 30 oct |
-| 5 | ⚑ **Vacaciones:** lo publicado ("3–5 días seguidos, fines de julio o comienzos de agosto") + "a Jeju casi todos van en avión: no tiene tren" + (si preguntan) Seúl–Busan en tren rápido ≈ 2,5 h | El primero es texto publicado; los otros dos son datos que dices en voz | Jay · vie 30 oct |
-| 6 | ⚑ **Espaciado:** 여름휴가 / 여름방학 (juntos) | Revisión de nativo (26 sept): el 표준국어대사전 registra 여름휴가 y 여름방학 como una sola palabra, así que la guía y el material ya escriben **여름휴가** junto (frase ancla, L13 y Hoja 5). El diseño (C, S5) todavía dice 여름 휴가: corregirlo allí. ⚑ confirmar en el diccionario | Producción, con el diccionario · vie 30 oct |
+| 1 | ⚑ **같이 ___요! para invitar** (diseño D-9): 다음 주에 같이 영화 봐요! · 토요일 오후에 같이 산에 가요! · 같이 한국 영화 봐요! | Es la fórmula [YA] que reemplaza a la invitación publicada; confirmar que la dices así sin -(으)ㄹ까요 | Jay · antes del vie 6 nov |
+| 2 | ⚑ **Cierres de la cita:** 몇 시에 만나요? · 어디에서 만나요? · 토요일에 봐요! · 다음 주에 봐요! | Se usan en R2, en el diálogo y en tu despedida | Jay · vie 6 nov |
+| 3 | ⚑ **부산을 구경할 거예요 / 제주도를 구경할 거예요** frente a 부산 구경을 할 거예요 | Las dos se oyen; el material usa la primera | Jay · vie 6 nov |
+| 4 | ⚑ **빼빼로데이:** "fecha comercial, popular desde los años 90" y, solo si preguntan, "el mismo día es el día de los agricultores y se promueve el 가래떡" | Dato de calendario (Fase 1 §10.6); el origen exacto tiene varias versiones: no se cuenta ninguna | Jay · vie 6 nov |
+| 5 | ⚑ **Vacaciones:** lo publicado ("3–5 días seguidos, fines de julio o comienzos de agosto") + "a Jeju casi todos van en avión: no tiene tren" + (si preguntan) Seúl–Busan en tren rápido ≈ 2,5 h | El primero es texto publicado; los otros dos son datos que dices en voz | Jay · vie 6 nov |
+| 6 | ⚑ **Espaciado:** 여름휴가 / 여름방학 (juntos) | Revisión de nativo (26 sept): el 표준국어대사전 registra 여름휴가 y 여름방학 como una sola palabra, así que la guía y el material ya escriben **여름휴가** junto (frase ancla, L13 y Hoja 5). El diseño (C, S5) todavía dice 여름 휴가: corregirlo allí. ⚑ confirmar en el diccionario | Producción, con el diccionario · vie 6 nov |
 | 7 | ⚑ **파트너는 뭐 할 거예요?** en el cierre | 파트너 no está en la lista; es préstamo transparente y solo lo dices tú. Alternativa sin préstamo: «___ 씨는 뭐 할 거예요?» señalando a la pareja | Jay · en vivo |
-| 8 | ⚑ **Ítem 5 del quiz 4** (estilo TOPIK I) | Es original (diseño D-12); si prefieres uno oficial de topik.go.kr, cita edición y número y ajusta la clave | Jay · vie 30 oct |
-| 9 | ⚑ **다음 주 토요일에** (diálogo, escena 2) | Natural; en el habla también se oye sin 에. Se deja con 에 por coherencia con la regla del día | Jay · vie 30 oct |
+| 8 | ⚑ **Ítem 5 del quiz 4** (estilo TOPIK I) | Es original (diseño D-12); si prefieres uno oficial de topik.go.kr, cita edición y número y ajusta la clave | Jay · vie 6 nov |
+| 9 | ⚑ **다음 주 토요일에** (diálogo, escena 2) | Natural; en el habla también se oye sin 에. Se deja con 에 por coherencia con la regla del día | Jay · vie 6 nov |
 | 10 | **Lector · Palabras sí muestra romanización** (código: `makeQ()` y el prompt de `rev`) | En Palabras, las opciones de **Lectura** y la **pista de Inversa** son romanización (Inversa usa `revHint || rom`), igual que la línea de corrección (`answer()`). Por eso la consigna "decir en voz alta antes de tocar" (diseño D). Cambiarlo es código: anexo I #14 | Informativo; ya está en el material del alumno |
 | 11 | **Contrarreloj como extra** | La ficha publicada pide "una partida cronometrada"; el Contrarreloj siempre es Lectura con opciones romanizadas (`startDrill('time')`). Se mantiene como extra [YA], con su récord en Progreso | Informativo (diseño B.6) |
 | 12 | **"Lo presenta en 6 frases al grupo"** (publicado) | Se hace en la sala y 3 alumnos lo llevan al plenario (ajuste 3 de la sección 0) | Informativo |
-| 13 | **Quiz en línea 2:** plataforma y link (`[PLACEHOLDER]`) | DECISIÓN DE JAY 5; el formulario tiene que estar listo el **vie 6 nov** (G.2) con las 10 preguntas de C.16.4 | **DECISIÓN DE JAY** · vie 16 oct (plataforma) |
-| 14 | **Link de la tarjeta de sala** (`[PLACEHOLDER]` en C.3, bloque 9) y cuándo reciben los alumnos este material | La tarjeta tiene que estar abierta antes de entrar a la sala. Si el material no llegó, se usa el texto de respaldo | **DECISIÓN DE JAY** (quién lo envía) · lun 9 nov |
+| 13 | **Quiz en línea 2:** plataforma y link (`[PLACEHOLDER]`) | DECISIÓN DE JAY 5; el formulario tiene que estar listo el **vie 13 nov** (G.2) con las 10 preguntas de C.16.4 | **DECISIÓN DE JAY** · vie 23 oct (plataforma) |
+| 14 | **Link de la tarjeta de sala** (`[PLACEHOLDER]` en C.3, bloque 9) y cuándo reciben los alumnos este material | La tarjeta tiene que estar abierta antes de entrar a la sala. Si el material no llegó, se usa el texto de respaldo | **DECISIÓN DE JAY** (quién lo envía) · lun 16 nov |
 | 15 | **Numeración del libro** (diseño D-15) | "Tiempos 04 · Enumeración y contraste 02 · Partículas 13" es la de la ficha publicada | Jay, con el ejemplar |
 | 16 | **Consignas en coreano con glosa desde la S5** (diseño D) | Primera semana: 말하세요, 쓰세요, 고르세요, 연결하세요, 바꾸세요, 읽으세요 van siempre con su traducción | Informativo |
-| 17 | **2.ª cuota** antes de la clase 5 (programa público) | No es tema de clase; si hay pendientes, por privado | Jay · antes del 11 nov |
-| 18 | ⚑ **시간이 있어요** para las casillas "—" de R2 (revisión de coordinación, 26 sept) | Las agendas tenían días libres que el alumno no tenía cómo decir (sin 안 ni 없어요 de agenda: eso es la S6). 시간이 있어요 usa el 있어요 de "tener" y una palabra del Lector; confirmar que también la dices así en el modelo (o 시간 있어요, sin 이, al hablar) | Jay · vie 30 oct |
-| 19 | ⚑ **좋아요!** como reacción al plan del otro (diálogo, escena 1: Camila tras 한국 기차는 정말 빨라요) | "Qué bueno" ante el plan ajeno suena más a 좋겠어요! o 와, 좋네요!, que están fuera de nivel. Si te suena raro, cámbialo por **와!** (ya está en la escena) en guía y material | Jay · vie 30 oct |
+| 17 | **2.ª cuota** antes de la clase 5 (programa público) | No es tema de clase; si hay pendientes, por privado | Jay · antes del 18 nov |
+| 18 | ⚑ **시간이 있어요** para las casillas "—" de R2 (revisión de coordinación, 26 sept) | Las agendas tenían días libres que el alumno no tenía cómo decir (sin 안 ni 없어요 de agenda: eso es la S6). 시간이 있어요 usa el 있어요 de "tener" y una palabra del Lector; confirmar que también la dices así en el modelo (o 시간 있어요, sin 이, al hablar) | Jay · vie 6 nov |
+| 19 | ⚑ **좋아요!** como reacción al plan del otro (diálogo, escena 1: Camila tras 한국 기차는 정말 빨라요) | "Qué bueno" ante el plan ajeno suena más a 좋겠어요! o 와, 좋네요!, que están fuera de nivel. Si te suena raro, cámbialo por **와!** (ya está en la escena) en guía y material | Jay · vie 6 nov |
 
 *Coreano de esta guía:* todo lo que se pide producir está en la lista C del diseño hasta la S5 o en la lista C de Básico 1. Fuera de lista, y marcado: 시간 (solo en la fórmula 시간이 있어요 de R2; está en Palabras del Lector, ⚑ 18), 파트너 (lo dices tú, ⚑ 7), 컵 (Básico 1), 피자 (préstamo en la Hoja 5; está en el Lector), 서울역 y 부산역 (nombres propios), 손 (solo como ejemplo de 으로), 타다 (reto: 뭐 타고 갈 거예요?, reconocimiento publicado), 가래떡 (solo si preguntan).
 

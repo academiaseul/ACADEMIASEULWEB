@@ -1,6 +1,6 @@
 # Semana 5 · 집이 어디예요? · Lugares
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 10 de noviembre · Sección jueves: jueves 12 de noviembre · 20:00 (hora de Chile) · Libro: lección 5**
+**Sección martes: martes 17 de noviembre · Sección jueves: jueves 19 de noviembre · 20:00 (hora de Chile) · Libro: lección 5**
 
 Esta semana el curso sale a la calle: vas a preguntar y decir dónde están las cosas y los lugares.
 
@@ -392,7 +392,7 @@ Con lo que aprendiste hoy ya puedes arreglártelas en una estación:
 
 ## 9. Tarea de la semana (≈ 25 minutos, antes de la clase 6)
 
-**Entrega:** antes del **martes 17 o jueves 19 de noviembre a las 20:00** (según tu sección), en el grupo de WhatsApp del curso. Mejor repartida en dos o tres días.
+**Entrega:** antes del **martes 24 o jueves 26 de noviembre a las 20:00** (según tu sección), en el grupo de WhatsApp del curso. Mejor repartida en dos o tres días.
 
 ### (1) Lector de Hangul · 8 minutos
 [academiaseul.com/lector-coreano](https://www.academiaseul.com/lector-coreano) → pestaña **Practicar**:

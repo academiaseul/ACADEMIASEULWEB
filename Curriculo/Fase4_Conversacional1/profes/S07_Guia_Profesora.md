@@ -1,8 +1,9 @@
 # 회화 1 (A2.1) · 7주차 · PC방과 e스포츠 (M05)
-### 교사 가이드 · Abby 선생님 (홍미영) · 2026년 11월 25일(수) 09:00–10:00 (한국 시간) = 칠레 11월 24일(화) 21:00–22:00
+### 교사 가이드 · Abby 선생님 (홍미영) · 2026년 12월 2일(수) 09:00–10:00 (한국 시간) = 칠레 12월 1일(화) 21:00–22:00
 
 **교사용 자료 · Abby 선생님 전용 · 학생들에게 공유하지 않습니다.** 정답과 메모가 없는 학생용 자료는 `../alumnos/S07_Material_Alumno.md`에 있습니다.
-버전 1.1 · 2026년 9월 26일(토) · 교육 총괄팀(Fase 4) 작성 · 같은 날 코디네이터 검토 반영 (스몰토크 짝 배정, 퀴즈 뒤 채팅 설정, 방 15분 보호와 대화 비율, 토론 팀 인원, -(으)세요 → -지 마세요 순서). 진행 순서: 제작팀 초안 → Abby 선생님 한국어 검토(약 20분) → Jay 승인. **제작 마감(N−2): 칠레 11월 13일(금)** (덱, 카드, 사진, LCK 링크 포함).
+버전 1.1 · 2026년 9월 26일(토) · 교육 총괄팀(Fase 4) 작성 · 같은 날 코디네이터 검토 반영 (스몰토크 짝 배정, 퀴즈 뒤 채팅 설정, 방 15분 보호와 대화 비율, 토론 팀 인원, -(으)세요 → -지 마세요 순서). 진행 순서: 제작팀 초안 → Abby 선생님 한국어 검토(약 20분) → Jay 승인. **제작 마감(N−2): 칠레 11월 20일(금)** (덱, 카드, 사진, LCK 링크 포함).
+**2026년 10월 16일 수정:** 개강이 한 주 미뤄져서(Jay 결정, 10월 12일) 이 가이드의 모든 날짜를 7일 뒤로 옮겼어요 (이번 수업은 한국 12월 2일(수)). 8회차 날짜인 칠레 12월 8일(화)은 공휴일이라서 Jay가 진행 여부를 확인해요: 확인되면 📋의 "[por confirmar]"를 지우고 붙여 주세요 (feriado en Chile: Jay confirma si se mantiene).
 
 > **출처 (공개된 내용이 우선):** `../00_Diseno_Conversacional1.md` (0, A, B0.3–B0.4, B.1, B.8, B.11–B.13, C 7주차, D, E.2, E.4, E.6–E.8, F, G, ⚑ D-8·D-13~D-17·D-20) · 공개 강의 계획 `a21 · 7주차` (`Programa_Completo_Octubre_2026/fuente/cursos_es.json`) · 공개 프로그램 `Curriculo/publico/Programa_Conversacional1_A2-1.md`와 `public/programas/Programa_ConversacionalA21_Octubre_2026.pdf` · 선생님이 9월 25일에 받은 키트 (`Kit_Abby_Conversacional_Ninos_KO.pdf`의 7회차, 원본 `make_kits_profes.js`)와 `Mensajes_Kiran_Abby.md` · Fase 1 (§4.6, §10.4–10.5, §14.2, §15 #19) · Básico 2 설계 (6주차 못·잘, 7주차 마다·쯤) · 기존 M05 덱 `A2_Nivel_2/Programa_Cultura_10_Semanas/Decks/Semana05_PCbang_ESports.pptx` · D: 드라이브 검색 결과 (C.17) · Lector와 Dubu 코드 확인 · 음성 클립 목록 `Curriculo/audio/Clips_Octubre_2026.md`.
 > **표시:** **⚑** = 원어민 검토 또는 사용 전 확인 · **[YA]** = 공개 내용을 바꾸지 않고 10월에 적용하는 개선 (Fase 1) · **DECISIÓN DE JAY** = Jay가 정할 정책이나 공개 문구 · **[regla del certificado: pendiente de decisión de Jay]** = 수료증 기준 미정 · **📋 슬라이드/채팅용 (스페인어)** = 선생님이 읽거나 번역하지 않고 화면에 띄우거나 채팅에 붙여 넣기만 하는 스페인어 문장 (90/10 규칙). 상자마다 아래에 한국어 요지를 달았습니다.
@@ -47,7 +48,7 @@
 
 | | |
 |---|---|
-| **날짜** | 2026년 11월 25일(수) 09:00–10:00 (한국) = 칠레 11월 24일(화) 21:00–22:00 · 아르헨티나 21:00 · 콜롬비아·페루 19:00 · 멕시코 18:00 · 스페인 25일(수) 01:00 |
+| **날짜** | 2026년 12월 2일(수) 09:00–10:00 (한국) = 칠레 12월 1일(화) 21:00–22:00 · 아르헨티나 21:00 · 콜롬비아·페루 19:00 · 멕시코 18:00 · 스페인 2일(수) 01:00 |
 | **모듈** | M05 · PC방과 e스포츠 · *PC방 y e-sports* (3개 국어 덱, 기존 덱 수정본: C.17) |
 | **참고서** | KGIU Beginning: -기 전에 / -(으)ㄴ 후에 (덱 표기 Unit 5) · -(으)ㄹ 때 · -(으)면 (단원 확인 ⚑ S7-7). 수업에서는 덱과 카드만 씁니다 |
 | **로마자** | 없음 |
@@ -66,10 +67,10 @@
 | 10 | **읽기 과제** | PC방 요금표 (롤플레이 카드) · 설문 카드 · 토론 카드 · 퀴즈 5번 (TOPIK I 형식) · 학생 자료 6번의 TOPIK I 형식 읽기 (민호 씨의 주말, 약 150음절) · 과제: LCK 하이라이트 자막 (⚑ D-16) |
 | 11 | **쓰기 과제** | 채팅: 자기 문장 (심심할 때…), 두 문장 잇기 (수업이 끝난 후에…), 짝의 습관 1문장 · 과제: -(으)면 문장 5개, 키워드 카드 5장 (문장 없이 단어만) |
 | 12 | **상호작용 활동** | **PC방 롤플레이** (공개: 2시간 + 컵라면 + 시간당 요금) · **짝 설문 "언제, 얼마나 해요?"** (공개: -(으)ㄹ 때와 마다 → 짝의 제일 재미있는 습관 보고) · **미니 토론 "e스포츠는 스포츠예요?"** (공개: 두 팀, 것 같아요 + -지만, 선생님이 사회) · (예비) -(으)면 꼬리 잇기 |
-| 13 | **숙제** | 약 30분, **칠레 11월 28일(토)까지** (설계: "29일(일) 전", ⚑ S7-9), 모두 단톡방으로: (1) 90초 음성: 나의 디지털 취미 (-(으)ㄹ 때 + -기 전에 / -(으)ㄴ 후에), 10분 · (2) -(으)면 문장 5개, 7분 · (3) LCK 하이라이트 2분 + 아는 단어 5개, 5분 · (4) 평가 준비: 키워드 카드 5장 (주제마다 8단어까지, 문장 없이) 사진, 8분. **따로 (평가, 공개):** 음성 1 "전과 후" (칠레 29일(일) 22:00 = 한국 30일(월) 10:00까지) · 모듈 추첨 (칠레 29일(일) 12:00 = 한국 30일(월) 00:00, Jay) · 음성 2 독백 2분 (칠레 30일(월) 22:00 = 한국 12월 1일(화) 10:00까지). **지원:** 구조 3개 카드 + 쓰기는 3문장 · **도전:** -(으)면 + -(으)ㄹ 거예요 |
+| 13 | **숙제** | 약 30분, **칠레 12월 5일(토)까지** (설계: "6일(일) 전", ⚑ S7-9), 모두 단톡방으로: (1) 90초 음성: 나의 디지털 취미 (-(으)ㄹ 때 + -기 전에 / -(으)ㄴ 후에), 10분 · (2) -(으)면 문장 5개, 7분 · (3) LCK 하이라이트 2분 + 아는 단어 5개, 5분 · (4) 평가 준비: 키워드 카드 5장 (주제마다 8단어까지, 문장 없이) 사진, 8분. **따로 (평가, 공개):** 음성 1 "전과 후" (칠레 6일(일) 22:00 = 한국 7일(월) 10:00까지) · 모듈 추첨 (칠레 6일(일) 12:00 = 한국 7일(월) 00:00, Jay) · 음성 2 독백 2분 (칠레 7일(월) 22:00 = 한국 12월 8일(화) 10:00까지). **지원:** 구조 3개 카드 + 쓰기는 3문장 · **도전:** -(으)면 + -(으)ㄹ 거예요 |
 | 14 | **디지털 자료** | 덱 M05 수정본 (C.17) · LCK 공식 하이라이트 링크 (제작팀 선택, ⚑ D-16) · 라이선스 사진: PC방 내부, 경기장·스크린, 컵라면 (⚑ D-8) · 음성 클립 (SunHi: 20항목 + 핵심 문장 3개) · 카드 (학생 자료 7번). **Lector와 Dubu는 배정하지 않습니다** (Fase 1 §14.2: 이번 주 어휘가 없고, 연습 선택지에 로마자가 있음) |
 | 15 | **교사 준비** | C.2 체크리스트. 핵심: 가이드와 덱 검토 (N−2), 도입의 "선생님의 하루" 5문장을 실제 이야기로 바꾸기 (⚑ S7-2), 평가 짝 명단 받기, 덱 L16에 방 번호 넣기 |
-| 16 | **학생 제출물** | 90초 음성 · -(으)면 5문장 · LCK 단어 5개 · 키워드 카드 5장 (사진) → 단톡방, 칠레 28일(토)까지 · 평가 음성 2개 (위 일정) |
+| 16 | **학생 제출물** | 90초 음성 · -(으)면 5문장 · LCK 단어 5개 · 키워드 카드 5장 (사진) → 단톡방, 칠레 12월 5일(토)까지 · 평가 음성 2개 (위 일정) |
 | 17 | **평가** | 퀴즈 6 (M04) + TOPIK I 1문항 (자체 점수 없음, 참여 항목) · 소그룹 방 참여 · 평가 공지 (짝·카드·주제·일정). 기록은 항목별로 따로 (설계 E.2) **[regla del certificado: pendiente de decisión de Jay]** |
 
 ---
@@ -106,34 +107,34 @@
 
 ### C.2 준비 체크리스트
 
-**칠레 11월 13일(금)까지 (N−2 · 제작팀이 만든 것을 검토만 하시면 됩니다)**
+**칠레 11월 20일(금)까지 (N−2 · 제작팀이 만든 것을 검토만 하시면 됩니다)**
 - [ ] 이 가이드, 학생 자료, 덱(C.17 기준)을 읽고 한국어가 어색한 곳을 고쳐 주세요 (약 20분). D의 ⚑ 항목에 의견을 주시면 Jay가 반영합니다.
 - [ ] 도입(R)의 "선생님의 하루" 5문장을 선생님의 실제 이야기로 바꿔 주세요 (⚑ S7-2). 할 때 · 전에 · 후에 · 면 · 잘 못해요만 들어가면 됩니다. L9의 "어렸을 때 ___ 게임" 예시(테트리스)도 선생님 이야기로 (C.3 블록 4).
 - [ ] 제작팀이 고른 LCK 하이라이트(⚑ D-16)와 사진 3장(⚑ D-8)을 확인해 주세요. 도입에서는 30초만 씁니다. 시작 지점을 메모해 두세요.
 
-**한국 11월 24일(화)까지**
+**한국 12월 1일(화)까지**
 - [ ] Jay에게서 받을 것: **평가 짝 명단**을 방 번호와 함께, 채팅에 바로 붙일 수 있는 텍스트로 (15명이면 짝 6개 + 3인 1개. **3인 방은 6번 방**으로: 그래야 토론 팀이 홀수 방 8명 : 짝수 방 7명이 됩니다. ⚑ S7-1, S7-15), 스몰토크용 **6주차 짝 명단** (6주차와 같은 📋), 평가 공지 최종 문구 (C.15 b), 롤플레이 카드 2장 최종본 (학생 자료 9번과 같은 내용).
 - [ ] 덱 L16에 방 번호와 짝 이름이 들어갔는지 확인.
 - [ ] 단톡방에 수업 알림 (키트 형식): «내일 수업이 있어요! · Mañana hay clase: martes 21:00 Chile · 18:00 México».
 - [ ] 6주차 과제 피드백 마무리 (48시간 규칙, 공개).
 
-**수업 당일 (한국 25일(수)) 08:45–08:58**
+**수업 당일 (한국 12월 2일(수)) 08:45–08:58**
 - [ ] 앞 수업이 같은 계정이라 **08:58 이후에 입장** (키트). 호스트 키를 옆에 두세요.
 - [ ] 덱을 L0에 열어 두기 · LCK 영상 탭을 열고 30초 구간 확인 · 소리 테스트.
 - [ ] 메모장에 이 가이드의 📋 문장들을 **순서대로** 복사해 두기 (C.3의 📋 상자 순서 = 붙여 넣는 순서).
 - [ ] 퀴즈 기록표와 오류 메모장 열기 · 타이머 준비.
-- [ ] 녹화 파일 이름: `Conv1_S07_2026-11-25` (키트 규칙).
+- [ ] 녹화 파일 이름: `Conv1_S07_2026-12-02` (키트 규칙).
 
 **수업 후 24시간 안에**
-- [ ] 녹화 + 덱 PDF + 과제를 Drive 과정 폴더에: `Conv1_S07_2026-11-25_PCbang.pdf` (설계 G.3).
+- [ ] 녹화 + 덱 PDF + 과제를 Drive 과정 폴더에: `Conv1_S07_2026-12-02_PCbang.pdf` (설계 G.3).
 - [ ] 단톡방 메시지 (C.15 a). 평가 공지(C.15 b)는 Jay가 올립니다: 올라갔는지만 확인해 주세요.
 - [ ] 기록표: 출석 (실시간 / 녹화 + 과제를 **따로**), 퀴즈 6, 소그룹 방 메모 (C.14).
 - [ ] Jay에게 한 줄: «잘 끝났어요 / ○○ 씨 결석 / ○○ 씨 평가가 걱정돼요».
 - [ ] **결석한 학생** 이름을 Jay에게 알려 주세요. Jay가 평가 공지를 개인 메시지로 보냅니다 (C.15 c).
 
-**그 주 (한국 11월 26일(목) ~ 12월 1일(화))**
+**그 주 (한국 12월 3일(목) ~ 12월 8일(화))**
 - [ ] 7주차 과제는 48시간 안에 피드백 (학생당 최대 3가지, 칭찬 먼저). 독백 준비에 도움이 되도록 **먼저 온 과제부터** 봐 주세요.
-- [ ] 한국 30일(월) 10:00까지 "전과 후" 음성, 12월 1일(화) 10:00까지 독백 음성이 들어옵니다. 12월 1일(화)에 듣고 루브릭을 미리 채워 두면 (설계 E.6), 8주차 수업에서는 롤플레이만 남습니다 (공개 메모 7).
+- [ ] 한국 12월 7일(월) 10:00까지 "전과 후" 음성, 12월 8일(화) 10:00까지 독백 음성이 들어옵니다. 12월 8일(화)에 듣고 루브릭을 미리 채워 두면 (설계 E.6), 8주차 수업에서는 롤플레이만 남습니다 (공개 메모 7).
 
 ### C.3 수업 진행 순서와 교사 발화
 
@@ -311,10 +312,10 @@
 - **L21 · 평가 공지 (1′30″):** 「다음 주는 평가예요. 세 가지예요. 하나, 1주차 자기소개를 다시 녹음해요. 2분에서 3분이에요. 1주차 음성하고 같이 일요일 밤까지 보내 주세요. 둘, 일요일 낮에 Jay 선생님이 주제를 뽑아요. K-pop, 여행, 음식, 한복, e스포츠 중에서 하나예요. 그 주제로 2분 이야기해요. 월요일 밤까지 보내 주세요. 키워드 카드만 보세요. 읽지 마세요! 셋, 다음 수업에서 평가 짝하고 롤플레이를 해요. 식당 아니면 여행사예요. 그리고 제가 한 사람에게 질문을 두 개씩 해요.」 「편하게 하세요. 긴장하지 마세요. 실수해도 괜찮아요. 천천히 말해도 괜찮아요. 그렇지만 카드만 보세요. 읽지 마세요!」 *('-(으)면 안 돼요'는 A2.2 구조라서 이미 아는 '-지 마세요'로 말합니다. 늘 '-(으)세요' 지시를 먼저, '-지 마세요'를 그 뒤에: 편하게 하세요 → 긴장하지 마세요 · 카드만 보세요 → 읽지 마세요.)* → 📋 붙여 넣기.
 
 > **📋 슬라이드/채팅용 (스페인어)** · L21 (화면) + 채팅
-> *Tu evaluación oral · clase 8 · martes 1 de diciembre, 21:00 (hora de Chile)*
-> *1) Audio "antes y después": vuelve a grabar tu presentación de la semana 1, ahora de 2–3 minutos, y mándala junto con la original → hasta el domingo 29 de noviembre, 22:00.*
-> *2) Sorteo del tema del monólogo: domingo 29 de noviembre, 12:00, en el grupo (K-pop · viajes · comida · 한복 · e-sports).*
-> *3) Monólogo de 2 minutos sobre tu tema, sin leer, solo con tu tarjeta de palabras clave (máximo 8 palabras) → hasta el lunes 30 de noviembre, 22:00.*
+> *Tu evaluación oral · clase 8 · martes 8 de diciembre [por confirmar], 21:00 (hora de Chile)*
+> *1) Audio "antes y después": vuelve a grabar tu presentación de la semana 1, ahora de 2–3 minutos, y mándala junto con la original → hasta el domingo 6 de diciembre, 22:00.*
+> *2) Sorteo del tema del monólogo: domingo 6 de diciembre, 12:00, en el grupo (K-pop · viajes · comida · 한복 · e-sports).*
+> *3) Monólogo de 2 minutos sobre tu tema, sin leer, solo con tu tarjeta de palabras clave (máximo 8 palabras) → hasta el lunes 7 de diciembre, 22:00.*
 > *4) En la clase 8: role play de 3 minutos con tu pareja de evaluación (restaurante o agencia de viajes, por sorteo) + 2 preguntas de Abby para cada uno. Las parejas las publica Jay hoy en el grupo.*
 > *Todo el detalle está en la sección 9 de tu material y en el mensaje de Jay en el grupo. Hablar lento no baja la nota; leer, sí. 화이팅!*
 >
@@ -323,11 +324,11 @@
 - **L22 · 과제 (45″):** 「과제는 학생 자료 9번에 있어요. 음성은 90초예요. 이렇게 시작해 보세요: '저는 심심할 때 웹툰을 봐요. 자기 전에 삼십 분쯤 봐요…' 키워드 카드도 꼭 만들어 주세요. 토요일까지예요!」 → 📋.
 
 > **📋 슬라이드/채팅용 (스페인어)** · L22 (화면) + 채팅
-> *Tarea · unos 30 minutos · hasta el sábado 28 de noviembre (hora de Chile) · por el grupo de WhatsApp:*
+> *Tarea · unos 30 minutos · hasta el sábado 5 de diciembre (hora de Chile) · por el grupo de WhatsApp:*
 > *1) Audio de 90 s: tu pasatiempo digital, con -(으)ㄹ 때 y -기 전에 / -(으)ㄴ 후에 · 2) 5 frases con -(으)면 · 3) 2 minutos del resumen de la LCK + 5 palabras que reconozcas · 4) 5 tarjetas de palabras clave (una por tema, máximo 8 palabras, sin frases) → foto.*
 > *Si la mandas antes, Abby te corrige antes de que grabes tu monólogo.*
 >
-> (요지: 과제 4개, 칠레 28일(토)까지, 단톡방. 일찍 내면 독백 녹음 전에 피드백을 받을 수 있음.)
+> (요지: 과제 4개, 칠레 12월 5일(토)까지, 단톡방. 일찍 내면 독백 녹음 전에 피드백을 받을 수 있음.)
 
 - **인사 (30″):** 「오늘도 수고했어요! 다음 주에 만나요. 화이팅!」 → 학생들: 「감사합니다!」 (8주차에 배울 "선생님께는 감사합니다"를 오늘 자연스럽게 먼저 듣게 됩니다.)
 - **10:00:** "모두에 대해 회의 종료".
@@ -594,23 +595,23 @@
 ```
 오늘도 수고했어요! / ¡Buen trabajo hoy! 🎮
 녹화 / Grabación: [링크] (소그룹 방은 녹화되지 않아요 / las salas no se graban)
-과제 · 칠레 11월 28일(토)까지 / Tarea · hasta el sábado 28 de noviembre (hora de Chile) · ~30 min:
+과제 · 칠레 12월 5일(토)까지 / Tarea · hasta el sábado 5 de diciembre (hora de Chile) · ~30 min:
 1) 음성 90초: 나의 디지털 취미 (-(으)ㄹ 때, -기 전에 / -(으)ㄴ 후에) / Audio de 90 s: tu pasatiempo digital
 2) -(으)면 문장 5개 / 5 frases con -(으)면
 3) LCK 하이라이트 2분 + 아는 단어 5개 / 2 min del resumen de la LCK + 5 palabras: [링크]
 4) 키워드 카드 5장 (주제마다 8단어까지, 문장 X) → 사진 / 5 tarjetas de palabras clave (máx. 8 palabras, sin frases) → foto
 평가 안내는 Jay 선생님 메시지를 꼭 읽어 주세요! / Lee el mensaje de Jay sobre la evaluación.
-다음 주에 만나요! 화이팅! / ¡Nos vemos el martes 1 de diciembre! 화이팅
+다음 주에 만나요! 화이팅! / ¡Nos vemos el martes 8 de diciembre [por confirmar]! 화이팅
 ```
 
 **(b) Jay · 평가 공지 (스페인어, 수업 당일 칠레 22:15쯤 · 설계 E.6 "Abby는 수업에서, Jay가 게시")** · *선생님은 올라갔는지만 확인하시면 됩니다.*
 ```
 📣 Evaluación oral de Conversacional 1 · lo que viene
 Parejas de la evaluación: [PLACEHOLDER: lista de parejas y el trío]
-1) Audio "antes y después" (2–3 min): vuelve a grabar tu presentación de la semana 1, más larga (quién eres, hace cuánto estudias coreano, por qué, qué puedes hacer ahora y qué quieres hacer). Mándala aquí JUNTO con tu audio de la semana 1 · hasta el domingo 29 de noviembre, 22:00 (hora de Chile). ¿No lo guardaste? Búscalo en este grupo (lo mandaste en octubre) y reenvíalo.
-2) Sorteo del tema: domingo 29 de noviembre, 12:00, aquí en el grupo. Temas: K-pop · viajes · comida · 한복 · e-sports.
-3) Monólogo de 2 minutos sobre tu tema, SIN LEER, solo con tu tarjeta de palabras clave (máximo 8 palabras, ninguna frase) · hasta el lunes 30 de noviembre, 22:00.
-4) Clase 8 (martes 1 de diciembre, 21:00): Lab "24 horas en Seúl" (no tiene nota) + role play de 3 minutos con tu pareja (restaurante o agencia de viajes, por sorteo) + 2 preguntas de Abby para cada uno. Las 2 tarjetas de role play están en la sección 9 de tu material.
+1) Audio "antes y después" (2–3 min): vuelve a grabar tu presentación de la semana 1, más larga (quién eres, hace cuánto estudias coreano, por qué, qué puedes hacer ahora y qué quieres hacer). Mándala aquí JUNTO con tu audio de la semana 1 · hasta el domingo 6 de diciembre, 22:00 (hora de Chile). ¿No lo guardaste? Búscalo en este grupo (lo mandaste en octubre) y reenvíalo.
+2) Sorteo del tema: domingo 6 de diciembre, 12:00, aquí en el grupo. Temas: K-pop · viajes · comida · 한복 · e-sports.
+3) Monólogo de 2 minutos sobre tu tema, SIN LEER, solo con tu tarjeta de palabras clave (máximo 8 palabras, ninguna frase) · hasta el lunes 7 de diciembre, 22:00.
+4) Clase 8 (martes 8 de diciembre [por confirmar], 21:00): Lab "24 horas en Seúl" (no tiene nota) + role play de 3 minutos con tu pareja (restaurante o agencia de viajes, por sorteo) + 2 preguntas de Abby para cada uno. Las 2 tarjetas de role play están en la sección 9 de tu material.
 Qué miramos: fluidez, estructuras del curso, vocabulario de los temas, pronunciación y cómo escuchas y reaccionas. Hablar lento no baja la nota; leer, sí.
 ¿Faltas a la clase 8? Haces el role play con Abby en una cita de 10 minutos por Zoom esa misma semana.
 [PLACEHOLDER · DECISIÓN DE JAY 8: cómo se graba el role play (nota de voz de cada pareja, con consentimiento y borrado después del informe)]
@@ -618,9 +619,9 @@ Qué miramos: fluidez, estructuras del curso, vocabulario de los temas, pronunci
 ¡Van a estar bien! 화이팅 🐯
 ```
 
-**(c) Jay · 결석한 학생에게 개인 메시지 (스페인어, 칠레 25일(수))**
+**(c) Jay · 결석한 학생에게 개인 메시지 (스페인어, 칠레 12월 2일(수))**
 ```
-¡Hola, [nombre]! Te extrañamos en la clase 7 🎮 La grabación ya está en el grupo. Ojo, que esta semana se anunció la evaluación oral: tu pareja es [nombre], el sorteo del tema es el domingo 29 a las 12:00 y los dos audios vencen el domingo 29 y el lunes 30 a las 22:00 (hora de Chile). Todo está en la sección 9 de tu material y en el mensaje fijado del grupo. Si tienes cualquier duda, me escribes. ¡화이팅!
+¡Hola, [nombre]! Te extrañamos en la clase 7 🎮 La grabación ya está en el grupo. Ojo, que esta semana se anunció la evaluación oral: tu pareja es [nombre], el sorteo del tema es el domingo 6 de diciembre a las 12:00 y los dos audios vencen el domingo 6 y el lunes 7 a las 22:00 (hora de Chile). Todo está en la sección 9 de tu material y en el mensaje fijado del grupo. Si tienes cualquier duda, me escribes. ¡화이팅!
 ```
 
 ### C.16 정답
@@ -689,7 +690,7 @@ Qué miramos: fluidez, estructuras del curso, vocabulario de los temas, pronunci
 | L | 제목 | 화면 | 메모 | 출처 |
 |---|---|---|---|---|
 | 0 | 수업 규칙 (고정) | Zoom 지시어와 글로스: 소그룹 방에 들어가세요 = entren a las salas · 채팅에 쓰세요 = escriban en el chat · 마이크를 켜 주세요 = enciendan el micrófono · 다시 모이세요 = volvemos a juntarnos · 1분 남았어요 = queda 1 minuto · 생존 문장 5개: 다시 한번 말해 주세요 · 천천히 말해 주세요 · ___이/가 무슨 뜻이에요? · 잘 모르겠어요 · 잠깐만요! | 매주 같은 슬라이드 (설계 D.1) | 과정 공통 |
-| 1 | 표지 | M05 · PC방과 e스포츠 · *PC방 y e-sports · PC bangs & e-sports* · 7주차 · 11월 25일(수) 09:00 (칠레 11월 24일(화) 21:00) · 로고 | 08:58–09:00 | 기존 덱 L1 수정 |
+| 1 | 표지 | M05 · PC방과 e스포츠 · *PC방 y e-sports · PC bangs & e-sports* · 7주차 · 12월 2일(수) 09:00 (칠레 12월 1일(화) 21:00) · 로고 | 08:58–09:00 | 기존 덱 L1 수정 |
 | 2 | 퀴즈 6 · 1번 | 생활한복을 입은 사람 사진 · **이 옷 어때요?** · 아래 작게 "___ 보여요" | 사진은 M04 덱 것 재사용 | 새로 |
 | 3 | 퀴즈 6 · 2–4번 | 왼쪽: 전통 한복 / 현대적인 한복 사진 두 장 · **뭐가 더 예뻐요?** · 가운데: 편하다 + 옷 → ? · 예쁘다 + 치마 → ? · 오른쪽: 노란색 치마 사진 · **무슨 색깔이에요?** | 3번은 채팅 | 새로 |
 | 4 | 퀴즈 6 · 5번 (TOPIK I) | 기출 문항 또는 예비 문항 (C.16) · "채팅에 번호!" · 출처 표기 (회차·번호) | ⚑ D-17 | 제작팀 |
@@ -709,9 +710,9 @@ Qué miramos: fluidez, estructuras del curso, vocabulario de los temas, pronunci
 | 18 | 토론 카드 | 반응: 아, 그래요? · 맞아요. 그렇지만… · 글쎄요… · 의견: 저는 e스포츠도 스포츠인 것 같아요 / 스포츠가 아닌 것 같아요 · 이유 아이디어 (네): 선수들이 매일 연습해요 · 팀하고 경기가 있어요 · 결승에 팬이 많아요 · 실력이 중요해요 · 결승을 보면 정말 재미있어요 / (아니요): 앉아서 해요 · 재미있지만 운동이 아니에요 · 몸을 많이 안 움직여요 · 게임을 많이 하면 몸에 안 좋아요 · 연결: -지만 · 그렇지만 · 그래서 · -아서/어서 · 새 단어 글로스: 연습하다 · 중요하다 · 몸 · 움직이다 | 학생 자료 7.4와 같음 | 새로 |
 | 19 | 오늘 들은 것 | 공통 오류 3개 → 맞는 문장 (C.3 블록 11 예시, 들은 것으로 바꾸기) | 따라 하기 | 새로 |
 | 20 | 오늘의 문장 3개 | 게임할 때 컵라면을 먹어요. / 수업이 끝난 후에 PC방에 가요. / 이기면 기분이 좋아요. | 합창 → 클립 | 설계 B.13 |
-| 21 | 다음 주는 평가예요! | 달력 (칠레 시간): 29일(일) 12:00 추첨 · 29일(일) 22:00 "전과 후" · 30일(월) 22:00 독백 · 12월 1일(화) 21:00 롤플레이 + 질문 2개 · 주제 5개 아이콘 · "읽지 않기 · 키워드 카드 8단어까지" · 긴장하지 마세요! 실수해도 괜찮아요! | 📋 블록 11 | 새로 (설계 E.6·F.1) |
+| 21 | 다음 주는 평가예요! | 달력 (칠레 시간): 12월 6일(일) 12:00 추첨 · 6일(일) 22:00 "전과 후" · 7일(월) 22:00 독백 · 12월 8일(화) 21:00 롤플레이 + 질문 2개 · 주제 5개 아이콘 · "읽지 않기 · 키워드 카드 8단어까지" · 긴장하지 마세요! 실수해도 괜찮아요! | 📋 블록 11 | 새로 (설계 E.6·F.1) |
 | 21b | 식당 롤플레이 맛보기 | 모델 5줄 (한국어 + ES): 어서 오세요! 몇 분이세요? — 두 명이요. — 여기 앉으세요. 메뉴는 여기 있어요. — 감사합니다. 사장님, 뭐가 맛있어요? — 삼겹살이 제일 인기가 많아요. 김치찌개도 맛있어요. | 선택 (C.11 4번) | 설계 F.4 모델 3 |
-| 22 | 과제 · 수고했어요! | 과제 4개 + 칠레 28일(토)까지 + 단톡방 · 오늘도 수고했어요! · 다음 주에 만나요! · 화이팅 | 📋 블록 11 | 기존 덱 L9 수정 |
+| 22 | 과제 · 수고했어요! | 과제 4개 + 칠레 12월 5일(토)까지 + 단톡방 · 오늘도 수고했어요! · 다음 주에 만나요! · 화이팅 | 📋 블록 11 | 기존 덱 L9 수정 |
 | 부록 A | 어휘 1 | 게임을 하다 · 이기다 · 지다 · 팀 · 선수 · 경기 · 결승 · 실력 (ES/EN) | PDF 복습용 | 기존 덱 L4 수정 |
 | 부록 B | 어휘 2 | PC방 · 시간당 · 컵라면 · 충전하다 · 응원하다 · 시작하다 · 끝나다 · 심심하다 · 기분이 좋다 · 프로게이머 · e스포츠 · 어렸을 때 (ES/EN) | PDF 복습용 | 기존 덱 L5 수정 |
 | 부록 C | 예비 활동 | -(으)면 꼬리 잇기 시작 문장 · "누구일까요?" 틀 | C.11 | 새로 |
@@ -720,33 +721,33 @@ Qué miramos: fluidez, estructuras del curso, vocabulario de los temas, pronunci
 
 ## D. ⚑ 원어민 검토 및 미결 사항
 
-*설계 문서의 코드(D-n)는 그대로 쓰고, 이 가이드에서 새로 생긴 것은 S7-n으로 적었습니다. 마감: 칠레 11월 13일(금) (N−2).*
+*설계 문서의 코드(D-n)는 그대로 쓰고, 이 가이드에서 새로 생긴 것은 S7-n으로 적었습니다. 마감: 칠레 11월 20일(금) (N−2).*
 
 | 코드 | 내용 | 이유 | 누가 · 언제 |
 |---|---|---|---|
-| D-8 | 사진 라이선스 (PC방 내부, 경기장·스크린, 컵라면, 퀴즈의 한복 사진) | Korea.net, 공공누리 1유형의 상업적 사용 조건 확인 | 제작팀 · Jay · 11월 13일 |
-| D-13 | ⚑ **잘 못해요** ('못해요' 붙여 씀 = 실력이 부족) vs **못 해요** (띄어 씀 = 할 수 없음) | Básico 2 6주차와 일관성. 과제에서는 두 띄어쓰기 모두 인정 | Jay · 11월 13일 |
-| D-14 | ⚑ PC방에서 **두 시간이요** vs **두 시간 충전해 주세요** | 요즘은 키오스크가 많음. 카드에는 둘 다 있음 | Abby 선생님 (요즘 한국) · 11월 13일 |
-| D-15 | ⚑ PC방 요금 "지역에 따라 1,000–2,000원 정도" (2026년) | 공개 문구는 1,500원. 롤플레이 요금표도 1,500원(허구의 가게) | Abby 선생님 · 11월 13일 |
-| D-16 | ⚑ LCK 공식 하이라이트 (2분 이하, 자막 한국어 또는 영어) | 공식 채널 링크만. 도입 30초 구간 지정 | 제작팀 · 11월 13일 |
-| D-17 | ⚑ 퀴즈 6의 TOPIK I 기출 문항 (회차·번호) | 없으면 C.16의 예비 문항(새로 만든 것)을 씀 | 제작팀 → Jay · 11월 13일 |
-| D-20 | 기존 덱의 "당신 나라", "처음 방송한 나라" | C.17대로 교정 | 제작팀 · 11월 13일 |
-| S7-1 | **평가 짝 명단**을 수업 전에 받아 소그룹 방에 쓰기 (3인 방은 6번) | 설계 F.5는 "7주차에 Jay가 게시"라고만 함. 이 가이드는 수업 전(한국 24일(화)까지) 전달을 제안: 평가 짝과 한 번 연습하게 하려고. 안 되면 6주차 짝 방을 그대로 (자동 배정 X: 공개 메모 6) | **DECISIÓN DE JAY** · 한국 11월 24일 |
-| S7-2 | 도입 "선생님의 하루" 5문장과 "어렸을 때 테트리스" | 예시 데이터. 선생님의 실제 이야기로 (구조만 유지) | Abby 선생님 · 11월 13일 |
-| S7-3 | ⚑ 토론 공식 **스포츠인 것 같아요 / 스포츠가 아닌 것 같아요** | 명사 + 인 것 같아요는 6주차에 배우지 않음. 덩어리로 카드에 넣음. 자연스러움과 수준 확인 | Jay · Abby 선생님 · 11월 13일 |
-| S7-4 | ⚑ **경기에서 이겼어요 / 우리 팀이 이겼어요** vs 경기를 이겼어요 | 교정할지, 넘어갈지 (C.7 16번은 가볍게만) | Jay · 11월 13일 |
-| S7-5 | ⚑ 게이머가 아닌 학생용: **휴대폰을 봐요** (휴대폰을 해요?) · **웹툰을 봐요** | 구어에서 자연스러운 쪽 | Abby 선생님 · 11월 13일 |
-| S7-6 | ⚑ 모델 대화: 「게임을 시작하기 전에 계산해 주세요」(가게 말로 자연스러운지) · 「두 시간이요」 · 「칠레에서는 '시베르'라고 했어요」(9월 26일 3차 검토: 「이름이 '시베르'였어요」는 가게 하나의 이름처럼 들려서 바꿈) · 「경기장 표는 벌써 없어요」(9월 26일 검토에서 「경기장 표는 너무 비싸요」를 바꿈: LCK 결승은 값보다 예매가 금방 끝나는 것이 실제 모습. 결승을 PC방 단체 응원으로 보는 설정이 요즘도 자연스러운지 확인) · 9월 26일 2차 검토: 장면 2의 총액을 두 사람 × 두 시간 + 컵라면 = **팔천 원**으로 고침 (전에는 한 사람 값 오천 원만 계산되어 있었음) | 학생 자료 5번과 같은 대화 | Jay · Abby 선생님 · 11월 13일 |
-| S7-7 | ⚑ KGIU 단원 번호: -(으)ㄹ 때 · -(으)면 (-기 전에 / -(으)ㄴ 후에는 덱에 "Unit 5, pp. 130/133") | 책으로 확인 | Jay · 11월 13일 |
-| S7-8 | 평가 음성 2개를 **어디로** 보내는지 (단톡방 vs 선생님 개인 메시지) | 공개 내용은 "음성으로"만. 이 자료는 모든 과제처럼 **단톡방**으로 적었음. 개인으로 바꾸면 학생 자료 9번 세 줄과 C.15 b만 고치면 됨 | **DECISIÓN DE JAY** · 11월 13일 |
-| S7-9 | 과제 마감 "일요일 29일 전" = **칠레 28일(토)** | 설계 B.8 "antes del dom 29 nov"를 이렇게 읽음. 시각(예: 22:00)을 정할지 | Jay · 11월 13일 |
-| S7-10 | Zoom: 한국어 메뉴 이름 (소회의실, 호스트 권한 가져오기, 참가자가 소회의실 선택 허용, 메시지 브로드캐스트) · 퀴즈 때 채팅 "호스트에게만" · 학원 계정에서 "소회의실 선택" 기능이 켜져 있는지 | 버전에 따라 이름이 다름. 한 번 테스트 | Jay · 11월 13일 |
-| S7-11 | 음성 클립: 7주차 20항목 + 핵심 문장 3개는 9월 26일에 생성됨 (`Clips_Octubre_2026.md`). **main에 push해야** 학생 자료의 🔊 링크가 열림. PC방 · e스포츠 · LCK는 음성이 [피시방] · [이스포츠] · [엘시케이]로 읽는지 한 번 들어 보기 | 링크가 안 열리면 학생 자료가 깨짐 | 제작팀 · Jay · 11월 13일 |
-| S7-12 | 롤플레이 요금표 (허구의 가게): 시간당 1,500원 · 컵라면 2,000원 · 콜라/사이다 1,500원 · 삼각김밥 1,500원 · 물 1,000원 | 실제 가게 이름·메뉴 사진은 쓰지 않음. 금액이 현실적인지 | Abby 선생님 · 11월 13일 |
-| S7-13 | `alumnos/C1_Proyecto_Final.md` (설계 G.2)가 아직 없음 | 학생 자료 9번에 롤플레이 카드 2장과 일정을 넣었음. 나중에 그 파일을 만들 때 **같은 내용**으로 (한 곳에서 관리) | 제작팀 · 11월 13일 |
+| D-8 | 사진 라이선스 (PC방 내부, 경기장·스크린, 컵라면, 퀴즈의 한복 사진) | Korea.net, 공공누리 1유형의 상업적 사용 조건 확인 | 제작팀 · Jay · 11월 20일 |
+| D-13 | ⚑ **잘 못해요** ('못해요' 붙여 씀 = 실력이 부족) vs **못 해요** (띄어 씀 = 할 수 없음) | Básico 2 6주차와 일관성. 과제에서는 두 띄어쓰기 모두 인정 | Jay · 11월 20일 |
+| D-14 | ⚑ PC방에서 **두 시간이요** vs **두 시간 충전해 주세요** | 요즘은 키오스크가 많음. 카드에는 둘 다 있음 | Abby 선생님 (요즘 한국) · 11월 20일 |
+| D-15 | ⚑ PC방 요금 "지역에 따라 1,000–2,000원 정도" (2026년) | 공개 문구는 1,500원. 롤플레이 요금표도 1,500원(허구의 가게) | Abby 선생님 · 11월 20일 |
+| D-16 | ⚑ LCK 공식 하이라이트 (2분 이하, 자막 한국어 또는 영어) | 공식 채널 링크만. 도입 30초 구간 지정 | 제작팀 · 11월 20일 |
+| D-17 | ⚑ 퀴즈 6의 TOPIK I 기출 문항 (회차·번호) | 없으면 C.16의 예비 문항(새로 만든 것)을 씀 | 제작팀 → Jay · 11월 20일 |
+| D-20 | 기존 덱의 "당신 나라", "처음 방송한 나라" | C.17대로 교정 | 제작팀 · 11월 20일 |
+| S7-1 | **평가 짝 명단**을 수업 전에 받아 소그룹 방에 쓰기 (3인 방은 6번) | 설계 F.5는 "7주차에 Jay가 게시"라고만 함. 이 가이드는 수업 전(한국 12월 1일(화)까지) 전달을 제안: 평가 짝과 한 번 연습하게 하려고. 안 되면 6주차 짝 방을 그대로 (자동 배정 X: 공개 메모 6) | **DECISIÓN DE JAY** · 한국 12월 1일 |
+| S7-2 | 도입 "선생님의 하루" 5문장과 "어렸을 때 테트리스" | 예시 데이터. 선생님의 실제 이야기로 (구조만 유지) | Abby 선생님 · 11월 20일 |
+| S7-3 | ⚑ 토론 공식 **스포츠인 것 같아요 / 스포츠가 아닌 것 같아요** | 명사 + 인 것 같아요는 6주차에 배우지 않음. 덩어리로 카드에 넣음. 자연스러움과 수준 확인 | Jay · Abby 선생님 · 11월 20일 |
+| S7-4 | ⚑ **경기에서 이겼어요 / 우리 팀이 이겼어요** vs 경기를 이겼어요 | 교정할지, 넘어갈지 (C.7 16번은 가볍게만) | Jay · 11월 20일 |
+| S7-5 | ⚑ 게이머가 아닌 학생용: **휴대폰을 봐요** (휴대폰을 해요?) · **웹툰을 봐요** | 구어에서 자연스러운 쪽 | Abby 선생님 · 11월 20일 |
+| S7-6 | ⚑ 모델 대화: 「게임을 시작하기 전에 계산해 주세요」(가게 말로 자연스러운지) · 「두 시간이요」 · 「칠레에서는 '시베르'라고 했어요」(9월 26일 3차 검토: 「이름이 '시베르'였어요」는 가게 하나의 이름처럼 들려서 바꿈) · 「경기장 표는 벌써 없어요」(9월 26일 검토에서 「경기장 표는 너무 비싸요」를 바꿈: LCK 결승은 값보다 예매가 금방 끝나는 것이 실제 모습. 결승을 PC방 단체 응원으로 보는 설정이 요즘도 자연스러운지 확인) · 9월 26일 2차 검토: 장면 2의 총액을 두 사람 × 두 시간 + 컵라면 = **팔천 원**으로 고침 (전에는 한 사람 값 오천 원만 계산되어 있었음) | 학생 자료 5번과 같은 대화 | Jay · Abby 선생님 · 11월 20일 |
+| S7-7 | ⚑ KGIU 단원 번호: -(으)ㄹ 때 · -(으)면 (-기 전에 / -(으)ㄴ 후에는 덱에 "Unit 5, pp. 130/133") | 책으로 확인 | Jay · 11월 20일 |
+| S7-8 | 평가 음성 2개를 **어디로** 보내는지 (단톡방 vs 선생님 개인 메시지) | 공개 내용은 "음성으로"만. 이 자료는 모든 과제처럼 **단톡방**으로 적었음. 개인으로 바꾸면 학생 자료 9번 세 줄과 C.15 b만 고치면 됨 | **DECISIÓN DE JAY** · 11월 20일 |
+| S7-9 | 과제 마감 "일요일 6일 전" = **칠레 12월 5일(토)** | 설계 B.8 "antes del dom 6 dic"를 이렇게 읽음. 시각(예: 22:00)을 정할지 | Jay · 11월 20일 |
+| S7-10 | Zoom: 한국어 메뉴 이름 (소회의실, 호스트 권한 가져오기, 참가자가 소회의실 선택 허용, 메시지 브로드캐스트) · 퀴즈 때 채팅 "호스트에게만" · 학원 계정에서 "소회의실 선택" 기능이 켜져 있는지 | 버전에 따라 이름이 다름. 한 번 테스트 | Jay · 11월 20일 |
+| S7-11 | 음성 클립: 7주차 20항목 + 핵심 문장 3개는 9월 26일에 생성됨 (`Clips_Octubre_2026.md`). **main에 push해야** 학생 자료의 🔊 링크가 열림. PC방 · e스포츠 · LCK는 음성이 [피시방] · [이스포츠] · [엘시케이]로 읽는지 한 번 들어 보기 | 링크가 안 열리면 학생 자료가 깨짐 | 제작팀 · Jay · 11월 20일 |
+| S7-12 | 롤플레이 요금표 (허구의 가게): 시간당 1,500원 · 컵라면 2,000원 · 콜라/사이다 1,500원 · 삼각김밥 1,500원 · 물 1,000원 | 실제 가게 이름·메뉴 사진은 쓰지 않음. 금액이 현실적인지 | Abby 선생님 · 11월 20일 |
+| S7-13 | `alumnos/C1_Proyecto_Final.md` (설계 G.2)가 아직 없음 | 학생 자료 9번에 롤플레이 카드 2장과 일정을 넣었음. 나중에 그 파일을 만들 때 **같은 내용**으로 (한 곳에서 관리) | 제작팀 · 11월 20일 |
 | S7-14 | 인지용 **롤드컵** (롤 월드 챔피언십)을 선생님 말로 소개할지 | 학생들이 좋아할 만한 말. 학생 자료에는 넣지 않았음 | Abby 선생님 · 선택 |
 | S7-15 | 토론 팀 나누기: 홀수 방 = 1팀, 짝수 방 = 2팀 | 15명이면 3인 방을 6번에 두어 8 : 7 (3인 방이 7번이면 9 : 6이 됨). 인원이 다르면 선생님이 한 방만 옮겨 맞추기 | Jay (명단) · Abby 선생님 (수업 중 판단) |
-| DECISIÓN DE JAY 1 · 3 · 8 · 9 · 12 | 수료증 기준 · 수료증의 레벨 문구 · 롤플레이 녹음 방식 · 회화 2 안내 · 퀴즈 결석자 | 설계 "Decisiones que este diseño necesita de Jay". 이 가이드는 자리 표시만 둠 (C.14, C.15 b) | Jay · 11월 24일 전 |
+| DECISIÓN DE JAY 1 · 3 · 8 · 9 · 12 | 수료증 기준 · 수료증의 레벨 문구 · 롤플레이 녹음 방식 · 회화 2 안내 · 퀴즈 결석자 | 설계 "Decisiones que este diseño necesita de Jay". 이 가이드는 자리 표시만 둠 (C.14, C.15 b) | Jay · 12월 1일 전 |
 
 *이 가이드의 한국어:* 학생에게 요구하는 말은 목록 C의 1–7주차, Básico 1–2에서 나옵니다. 목록 밖이고 표시한 것: 스포츠인 것 같아요 / 아닌 것 같아요 (공식, S7-3) · 웹툰, 유튜브, 삼각김밥, 사이다, 연습하다, 중요하다, 몸, 움직이다 (학생이 원할 때, 평가 X) · 시베르 (고유명사) · 선생님만 쓰는 말 (인지): 상관없어요, 시키다, 만약, 짝꿍, 실수해도 괜찮아요, 천천히 말해도 괜찮아요, 긴장하지 마세요, 가고 싶어 해요 (5초 모델), -(으)ㄹ 수 있어요 (음식도 시킬 수 있어요) · 모델 대화의 「'시베르'라고 했어요」 (덩어리).
 

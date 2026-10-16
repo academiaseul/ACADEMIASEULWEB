@@ -1,6 +1,6 @@
 # Kit "¿Cómo me inscribo?" · Academia Seúl · cohorte octubre 2026
 
-**Para Jay. Vigente del domingo 4 al domingo 11 de octubre de 2026.** **Link para todo: academiaseul.com/inscribete** (en vivo desde el 4 oct: lleva a la página de inscripción y respeta `?clase=…`, así que `academiaseul.com/inscribete?clase=a12` también funciona). Los links con `?clase=` abren la clase ya elegida. Los conteos de caracteres de §4 se hicieron con /nivel-1 (3 caracteres menos): siguen bajo los límites. Los datos salen de `lib/nivel1.ts`, de `app/nivel-1/page.tsx` (el flujo real de la web), de `/terminos`, del calendario de Brevo y de CLAUDE.md. Están listos para copiar y pegar.
+**Para Jay. Vigente del domingo 4 al domingo 18 de octubre de 2026** (el lun 12 Jay corrió la cohorte una semana: matrícula hasta el dom 18 y clases desde la semana del 19; todo el kit ya va con esas fechas). **Link para todo: academiaseul.com/inscribete** (en vivo desde el 4 oct: lleva a la página de inscripción y respeta `?clase=…`, así que `academiaseul.com/inscribete?clase=a12` también funciona). Los links con `?clase=` abren la clase ya elegida. Los conteos de caracteres de §4 se hicieron con /nivel-1 (3 caracteres menos): siguen bajo los límites. Los datos salen de `lib/nivel1.ts`, de `app/nivel-1/page.tsx` (el flujo real de la web), de `/terminos`, del calendario de Brevo y de CLAUDE.md. Están listos para copiar y pegar.
 
 **Reglas que respeta todo el kit:**
 - El precio aparece siempre igual: **US$150 el curso completo · o 2 cuotas de US$75**.
@@ -14,23 +14,23 @@
 
 | Curso | Para quién | Día y hora (Chile) | Profe | 1.ª clase | Link directo |
 |---|---|---|---|---|---|
-| Básico 1 (A1.1) · martes | desde cero | Martes 20:00 | Kiran | mar 13 oct | academiaseul.com/nivel-1?clase=a11-martes |
-| Básico 1 (A1.1) · jueves | desde cero (mismo programa) | Jueves 20:00 | Kiran | jue 15 oct | academiaseul.com/nivel-1?clase=a11-jueves |
-| Básico 2 (A1.2) | ya lee hangul · Básico 1 o Nivel 1 de julio | Miércoles 21:00 | Jay | mié 14 oct | academiaseul.com/nivel-1?clase=a12 |
-| Conversacional 1 (A2.1) | Básico 2 o test de nivel | Martes 21:00 (= mié 09:00 en Corea) | Abby | mar 13 oct | academiaseul.com/nivel-1?clase=a21 |
-| TOPIK II (B1+) | nivel intermedio (B1) · máx. 8 | Jueves 21:00 | Jay | jue 15 oct | academiaseul.com/nivel-1?clase=topik2 |
+| Básico 1 (A1.1) · martes | desde cero | Martes 20:00 | Kiran | mar 20 oct | academiaseul.com/nivel-1?clase=a11-martes |
+| Básico 1 (A1.1) · jueves | desde cero (mismo programa) | Jueves 20:00 | Kiran | jue 22 oct | academiaseul.com/nivel-1?clase=a11-jueves |
+| Básico 2 (A1.2) | ya lee hangul · Básico 1 o Nivel 1 de julio | Miércoles 21:00 | Jay | mié 21 oct | academiaseul.com/nivel-1?clase=a12 |
+| Conversacional 1 (A2.1) | Básico 2 o test de nivel | Martes 21:00 (= mié 09:00 en Corea) | Abby | mar 20 oct | academiaseul.com/nivel-1?clase=a21 |
+| TOPIK II (B1+) | nivel intermedio (B1) · máx. 8 | Jueves 21:00 | Jay | jue 22 oct | academiaseul.com/nivel-1?clase=topik2 |
 | Coreano para Niños (8–15) | desde cero · sin test · máx. 12 | Lunes 18:00 | Jay y Abby | lun 19 oct (termina lun 7 dic) | academiaseul.com/nivel-1?clase=ninos |
 
 - **Lo común a todos los cursos:**
   - 8 semanas, con 1 clase en vivo por Zoom de 60 min a la semana.
   - Grabación de cada clase dentro de 24 h (disponible durante todo el curso) y certificado incluido.
-  - Inicio la semana del 12 de octubre (Niños, el lunes 19). Fin la semana del 30 de noviembre (Niños, el 7 de diciembre).
-- **Matrícula:** hasta el **domingo 11 de octubre a las 23:59, hora de Chile** (la web dice "o hasta llenar los cupos").
+  - Inicio la semana del 19 de octubre y fin la semana del 7 de diciembre (Niños: del lunes 19 de octubre al lunes 7 de diciembre). El martes 8 de diciembre es feriado en Chile: la clase 8 de Básico 1 martes y de Conversacional 1 está por confirmar (no la prometas).
+- **Matrícula:** hasta el **domingo 18 de octubre a las 23:59, hora de Chile** (la web dice "o hasta llenar los cupos"). Esa noche Jay decide clase por clase cuáles abren.
 - **Cómo es la inscripción en la web (3 pasos):**
   1. **Regístrate:** eliges tu clase y llenas el formulario. El cupo queda reservado y se confirma con el pago.
   2. **Paga.**
   3. **Confirma tu pago:** botón "Ya pagué con…". Después Jay verifica y confirma por correo o WhatsApp.
-- **Después:** el lunes 12 a las 9:00 sale el correo de bienvenida con el link de Zoom, el grupo de WhatsApp y la guía del alumno. **Niños:** ese correo trae el grupo de apoderados y la guía para familias. El Zoom de Niños no va en ese correo, por privacidad: llega en el recordatorio del domingo 18 a las 18:00.
+- **Después:** el lunes 19 a las 9:00 sale el correo de bienvenida con el link de Zoom, el grupo de WhatsApp y la guía del alumno. **Niños:** su clase 1 es ese mismo lunes a las 18:00, así que el link de Zoom (por privacidad no va en el correo de bienvenida) llega en el recordatorio del domingo 18 a las 18:00, y el grupo de apoderados, por WhatsApp ese domingo (c6 de Mensajes_Alumnos); el correo del lunes 19 trae la guía para familias.
 - **Pagos:**
 
 | Método | Para quién | Monto / link |
@@ -39,7 +39,7 @@
 | 💳 Mercado Pago (tarjeta de crédito, débito o transferencia, sin cuenta) | Chile; fuera de Chile se cobra en CLP | Curso completo $150.000 CLP: https://mpago.la/1cHrbqy · Cuota 1 ($75.000 CLP): sin link fijo, solo desde la web (formulario → "2 cuotas" → botón Mercado Pago); hay que probarlo una vez (ver 2.7 c) · Cuota 2: sin link |
 | 🌎 PayPal en dólares | Recomendado fuera de Chile | US$150: https://www.paypal.com/ncp/payment/5X33QK4A928FU · cuota de US$75 (sirve para la 1 y la 2): https://www.paypal.com/ncp/payment/SQ2YHGEZFUDEC |
 
-- **Cuotas:** una al inscribirse y otra al inicio del mes 2, antes de la clase 5 (así lo dicen la web y `/terminos`). La semana exacta está por confirmar; la propuesta es la del 9 de noviembre.
+- **Cuotas:** una al inscribirse y otra al inicio del mes 2, antes de la clase 5 (así lo dicen la web y `/terminos`). La semana exacta está por confirmar; la propuesta es la del 16 de noviembre (en Niños, la del 9, porque su clase 5 es el lunes 16).
 - **WhatsApp:** +56 9 4211 5562 · https://wa.me/56942115562
 
 ---
@@ -55,7 +55,7 @@ Inscribirte es todo online:
 2️⃣ Llena el formulario: así reservas tu cupo
 3️⃣ Paga y toca "Ya pagué": yo te confirmo el cupo
 
-Son 8 semanas en vivo por Zoom, 1 clase de 60 min a la semana, con grabación y certificado. US$150 el curso completo · o 2 cuotas de US$75. Empezamos la semana del 12 de octubre y la matrícula cierra el domingo 11.
+Son 8 semanas en vivo por Zoom, 1 clase de 60 min a la semana, con grabación y certificado. US$150 el curso completo · o 2 cuotas de US$75. Empezamos la semana del 19 de octubre y la matrícula cierra el domingo 18.
 
 Para recomendarte la clase justa: ¿partes desde cero o ya sabes algo de coreano?
 ```
@@ -69,7 +69,7 @@ Inscribirte es todo online:
 2️⃣ Llena el formulario: así reservas tu cupo
 3️⃣ Paga y toca *"Ya pagué"*: yo te confirmo el cupo por aquí
 
-Son *8 semanas en vivo por Zoom*, 1 clase de 60 min a la semana, con grabación y certificado. *US$150 el curso completo · o 2 cuotas de US$75*. Empezamos la *semana del 12 de octubre* y la matrícula cierra el *domingo 11*.
+Son *8 semanas en vivo por Zoom*, 1 clase de 60 min a la semana, con grabación y certificado. *US$150 el curso completo · o 2 cuotas de US$75*. Empezamos la *semana del 19 de octubre* y la matrícula cierra el *domingo 18*.
 
 Para recomendarte la clase justa: ¿partes desde cero o ya sabes algo de coreano?
 ```
@@ -84,15 +84,15 @@ Para recomendarte la clase justa: ¿partes desde cero o ya sabes algo de coreano
 ¡Perfecto, se empieza de cero! 🌱 Tu curso es Básico 1 (A1.1) con Kiran, profesora coreana criada en Argentina que explica en español. En las semanas 1 y 2 ya lees hangul, y al final te presentas, cuentas tu día y lo que te gusta.
 
 Es el mismo programa en dos días; eliges uno (hora de Chile):
-👉 Martes 20:00, desde el 13 de octubre: academiaseul.com/nivel-1?clase=a11-martes
-👉 Jueves 20:00, desde el 15 de octubre: academiaseul.com/nivel-1?clase=a11-jueves
+👉 Martes 20:00, desde el 20 de octubre: academiaseul.com/nivel-1?clase=a11-martes
+👉 Jueves 20:00, desde el 22 de octubre: academiaseul.com/nivel-1?clase=a11-jueves
 
 8 semanas en vivo por Zoom, máximo 15 por grupo, grabación y certificado. US$150 el curso completo · o 2 cuotas de US$75. ¿Qué día te acomoda más?
 ```
 
 ### 2.2 · Ya lee hangul → Básico 2
 ```text
-¡Ya pasaste lo más difícil! 🙌 Tu curso es Básico 2 (A1.2) conmigo (Jay): miércoles 21:00 hora de Chile, desde el 14 de octubre. Pasas del presente al pasado y al futuro, y terminas conversando 5 minutos seguidos en coreano.
+¡Ya pasaste lo más difícil! 🙌 Tu curso es Básico 2 (A1.2) conmigo (Jay): miércoles 21:00 hora de Chile, desde el 21 de octubre. Pasas del presente al pasado y al futuro, y terminas conversando 5 minutos seguidos en coreano.
 
 Es para quien hizo Básico 1 o el Nivel 1 de julio (ese certificado ya equivale a Básico 1). Si aprendiste por tu cuenta y no sabes si te alcanza, haz el test gratis: academiaseul.com/test-nivel
 
@@ -102,7 +102,7 @@ US$150 el curso completo · o 2 cuotas de US$75.
 
 ### 2.3 · Ya conversa → Conversacional 1
 ```text
-¡Qué bien! Tu curso es Conversacional 1 (A2.1) con Abby, profesora coreana nativa que enseña desde Corea: martes 21:00 hora de Chile, desde el 13 de octubre. Es puro hablar: cada semana un tema de la Corea que amas (K-pop, viajes, comida, hanbok, e-sports) en grupo chico.
+¡Qué bien! Tu curso es Conversacional 1 (A2.1) con Abby, profesora coreana nativa que enseña desde Corea: martes 21:00 hora de Chile, desde el 20 de octubre. Es puro hablar: cada semana un tema de la Corea que amas (K-pop, viajes, comida, hanbok, e-sports) en grupo chico.
 
 Pide Básico 2 o el test de nivel gratis: academiaseul.com/test-nivel (o cuéntame por aquí qué has estudiado y lo vemos por WhatsApp en 10 minutos).
 
@@ -112,7 +112,7 @@ US$150 el curso completo · o 2 cuotas de US$75.
 
 ### 2.4 · TOPIK → TOPIK II
 ```text
-¡Vamos por ese examen! TOPIK II (B1+) es conmigo (Jay): jueves 21:00 hora de Chile, desde el 15 de octubre, en un grupo chico de máximo 8. Es 100 % examen: estrategia por sección, corrección personal de tu escritura (쓰기 51–54) y simulacros cronometrados. Ideal si apuntas al TOPIK de abril 2027.
+¡Vamos por ese examen! TOPIK II (B1+) es conmigo (Jay): jueves 21:00 hora de Chile, desde el 22 de octubre, en un grupo chico de máximo 8. Es 100 % examen: estrategia por sección, corrección personal de tu escritura (쓰기 51–54) y simulacros cronometrados. Ideal si apuntas al TOPIK de abril 2027.
 
 Es para nivel intermedio (B1). Antes de confirmar tu cupo te mando un mini diagnóstico de 10 minutos por WhatsApp, sin nota: es para asegurarnos de que este curso es el que te conviene hoy. Si ya tienes un resultado oficial de TOPIK II con nivel 3 o más, entras directo.
 
@@ -121,13 +121,13 @@ US$150 el curso completo · o 2 cuotas de US$75. ¿Te mando el diagnóstico?
 ```
 > **Nota interna:**
 > - El texto del diagnóstico está en `Curriculo/Fase6_TOPIK2/00_Diseno_TOPIK2.md` §B0.2.
-> - Según ese diseño, el último diagnóstico se recibe el **sábado 10 de octubre a las 20:00**, para responder antes del cierre.
+> - Según ese diseño, el último diagnóstico se recibía el sábado 10 de octubre a las 20:00; con la matrícula corrida, pasa al **sábado 17 de octubre a las 20:00**, para responder antes del cierre del domingo 18.
 
 ### 2.5 · Papás y mamás → Coreano para Niños (8–15)
 ```text
 ¡Qué lindo! 🧒 Coreano para Niños (8–15) es los lunes 18:00 hora de Chile, con Jay y Abby, dos profes coreanos nativos. Grupo de máximo 12, desde cero y sin test: aprenden a leer el alfabeto, a presentarse y sus primeras frases con juegos, canciones y dibujos, y terminan con un mini-show para la familia.
 
-Empieza el lunes 19 de octubre (el 12 es feriado en Chile) y termina el lunes 7 de diciembre, con certificado.
+Empieza el lunes 19 de octubre y termina el lunes 7 de diciembre, con certificado.
 
 Solo necesita un computador o tablet con cámara y micrófono. Las grabaciones son privadas, solo para las familias del grupo, y tú recibes un grupo de WhatsApp de apoderados.
 
@@ -183,7 +183,7 @@ Primero llena el formulario en academiaseul.com/inscribete (así el cupo queda r
 
 ### 2.8 · "¿Hasta cuándo me puedo inscribir?"
 ```text
-La matrícula está abierta hasta el domingo 11 de octubre a las 23:59, hora de Chile (o hasta que se llene el grupo). Las clases empiezan la semana del 12 de octubre; Niños, el lunes 19.
+La matrícula está abierta hasta el domingo 18 de octubre a las 23:59, hora de Chile (o hasta que se llene el grupo). Las clases empiezan la semana del 19 de octubre.
 Te inscribes aquí: academiaseul.com/inscribete
 
 Si octubre no te acomoda, sin problema: te anoto para enero 2027 y te aviso primero 💙
@@ -212,7 +212,7 @@ Ojo: España cambia la hora el 25 de octubre y EE.UU. el 1 de noviembre; desde a
 
 ### 2.11 · "¿Hay certificado?"
 ```text
-¡Sí, está incluido en todos los cursos! Al terminar recibes el certificado digital de Academia Seúl de tu nivel (por ejemplo, Básico 1 (A1.1)); se entrega la semana del 7 de diciembre. Para otorgarlo se consideran tu asistencia y tu participación.
+¡Sí, está incluido en todos los cursos! Al terminar recibes el certificado digital de Academia Seúl de tu nivel (por ejemplo, Básico 1 (A1.1)); se entrega la semana del 14 de diciembre (en Niños, en el show final del lunes 7 de diciembre). Para otorgarlo se consideran tu asistencia y tu participación.
 
 Es un certificado propio de la academia, no una acreditación oficial: no reemplaza al examen TOPIK. Y con el de Básico 1 pasas directo a Básico 2 💙
 ```
@@ -224,15 +224,15 @@ Si pagaste directo desde el link y todavía no llenaste el formulario, llénalo 
 
 Qué viene después:
 1️⃣ Te confirmo el cupo por WhatsApp o correo.
-2️⃣ El lunes 12 de octubre a las 9:00 te llega un correo con tu link de Zoom, el grupo de WhatsApp de tu curso y la guía del alumno (si no lo ves, revisa Promociones o Spam).
+2️⃣ El lunes 19 de octubre a las 9:00 te llega un correo con tu link de Zoom, el grupo de WhatsApp de tu curso y la guía del alumno (si no lo ves, revisa Promociones o Spam).
 3️⃣ La víspera de tu primera clase, a las 18:00 hora de Chile, te llega un recordatorio con tu link de Zoom.
 
 Para ir calentando, gratis: Dubu (academiaseul.com/dubu) y el Lector de Hangul con voz nativa (academiaseul.com/lector-coreano) 🐯
 ```
-> **Para Niños**, cambia 2️⃣ y 3️⃣ por: "2️⃣ El lunes 12 de octubre te llega un correo con el grupo de WhatsApp de apoderados y la guía para familias (si no lo ves, revisa Promociones o Spam). 3️⃣ El domingo 18 a las 18:00 te llega el link de Zoom, con lo que hay que preparar para la primera clase."
+> **Para Niños**, cambia 2️⃣ y 3️⃣ por: "2️⃣ El domingo 18 a las 18:00 te llega el link de Zoom, con lo que hay que preparar para la primera clase, y por aquí te mando el grupo de WhatsApp de apoderados. 3️⃣ El lunes 19 a las 9:00 te llega un correo con la guía para familias (si no lo ves, revisa Promociones o Spam)."
 
 > **Nota interna (no pegar), sobre "¿y si no se llena el curso?":**
-> - El mínimo para abrir una clase no está publicado. No respondas con un número.
+> - El mínimo para abrir una clase no está publicado. No respondas con un número. (Interno: con la matrícula corrida, el dom 18 en la noche Jay decide clase por clase; mínimo 3.)
 > - Lo único publicado está en academiaseul.com/terminos §4: si la academia cancela una cohorte antes de su inicio, se devuelve el 100 % de lo pagado.
 > - Respuesta honesta: "Buena pregunta 🙏 Te lo confirmo yo personalmente antes de que pagues." Si quieres, agrega lo publicado: "Y para tu tranquilidad: si la academia cancela un curso antes de empezar, se devuelve el 100 % de lo pagado (academiaseul.com/terminos)."
 
@@ -242,13 +242,13 @@ Para ir calentando, gratis: Dubu (academiaseul.com/dubu) y el Lector de Hangul c
 
 | Situación | Texto |
 |---|---|
-| General | `¡Sí! 💙 Matrícula abierta hasta el domingo 11 de octubre · link en la bio, o escríbeme INSCRIBIRME por DM y te mando los pasos 🐯` |
+| General | `¡Sí! 💙 Matrícula abierta hasta el domingo 18 de octubre · link en la bio, o escríbeme INSCRIBIRME por DM y te mando los pasos 🐯` |
 | Desde cero | `¡Desde cero se puede! 🌱 Básico 1 con Kiran, martes o jueves 20:00 hora de Chile. Link en la bio o escríbeme INSCRIBIRME por DM` |
 | Pregunta el precio en público | `¡Te lo mando por DM! 💙` (y se lo mandas) |
 | Niños | `¡Sí! Coreano para Niños (8–15), lunes 18:00 hora de Chile. Te paso los detalles por DM 💙` |
 | Le escribiste tú por DM | `¡Te escribí por DM! 💙` |
-| TikTok sin link en la bio | `Inscripción en academiaseul.com/inscribete · matrícula hasta el domingo 11 💙` |
-| Comentario fijado | `¿Cómo me inscribo? 👉 link en la bio o escríbeme INSCRIBIRME por DM · matrícula hasta el domingo 11 de octubre` |
+| TikTok sin link en la bio | `Inscripción en academiaseul.com/inscribete · matrícula hasta el domingo 18 💙` |
+| Comentario fijado | `¿Cómo me inscribo? 👉 link en la bio o escríbeme INSCRIBIRME por DM · matrícula hasta el domingo 18 de octubre` |
 
 > Las palabras clave de la sección 4 solo funcionan en **mensajes directos**, no en comentarios. Por eso el comentario invita a escribir "INSCRIBIRME" por DM.
 
@@ -269,7 +269,7 @@ Para ir calentando, gratis: Dubu (academiaseul.com/dubu) y el Lector de Hangul c
 Se envía cuando alguien te escribe por primera vez.
 ```text
 ¡Hola, {nombre}! 💙 Gracias por escribir a Academia Seúl 🐯
-Para inscribirte entra a academiaseul.com/inscribete: eliges tu clase, dejas tus datos y pagas. Empezamos la semana del 12 de octubre y la matrícula cierra el domingo 11.
+Para inscribirte entra a academiaseul.com/inscribete: eliges tu clase, dejas tus datos y pagas. Empezamos la semana del 19 de octubre y la matrícula cierra el domingo 18.
 ¿Partes desde cero o ya sabes algo de coreano? Te respondo yo, Jay, apenas vea tu mensaje.
 ```
 
@@ -278,10 +278,10 @@ Aparecen como botones cuando alguien abre un chat nuevo contigo. También se pue
 
 | # | Pregunta | Respuesta |
 |---|---|---|
-| 1 | **¿Cómo me inscribo?** (18) | `¡Es todo online! 1️⃣ Entra a academiaseul.com/inscribete y elige tu clase. 2️⃣ Llena el formulario: así reservas tu cupo. 3️⃣ Paga y toca "Ya pagué" para que te confirme. El lunes 12 de octubre te llegan por correo el link de Zoom y el grupo de WhatsApp de tu curso (en Niños, el Zoom llega el domingo 18). Matrícula hasta el domingo 11 de octubre, 23:59 hora de Chile.` (366) |
+| 1 | **¿Cómo me inscribo?** (18) | `¡Es todo online! 1️⃣ Entra a academiaseul.com/inscribete y elige tu clase. 2️⃣ Llena el formulario: así reservas tu cupo. 3️⃣ Paga y toca "Ya pagué" para que te confirme. El lunes 19 de octubre te llegan por correo el link de Zoom y el grupo de WhatsApp de tu curso (en Niños, el Zoom llega el domingo 18). Matrícula hasta el domingo 18 de octubre, 23:59 hora de Chile.` (366) |
 | 2 | **¿Cuánto cuesta y cómo pago?** (27) | `US$150 el curso completo · o 2 cuotas de US$75 (mismo precio en todos los cursos). Incluye 8 clases en vivo de 60 min, grabaciones y certificado. En Chile: transferencia sin comisión (te paso los datos por aquí) o Mercado Pago ($150.000 CLP, tarjeta o transferencia). Desde otros países: PayPal en dólares. Todo desde academiaseul.com/inscribete` (342) |
 | 3 | **¿Qué curso me sirve?** (20) | `Desde cero: Básico 1 (mar o jue 20:00). Ya lees hangul: Básico 2 (mié 21:00). Ya conversas: Conversacional 1 (mar 21:00). Nivel intermedio y vas por el TOPIK II: TOPIK II (jue 21:00). Niños de 8 a 15: lunes 18:00. Son horas de Chile; la web te muestra la de tu país. ¿No sabes tu nivel? Test gratis de 2 min: academiaseul.com/test-nivel` (336) |
-| 4 | **¿Cuándo empiezan las clases?** (28) | `La semana del 12 de octubre (Niños, el lunes 19): 8 semanas, 1 clase en vivo por Zoom a la semana. Terminan la semana del 30 de noviembre (Niños, el 7 de diciembre). La matrícula cierra el domingo 11 de octubre a las 23:59 hora de Chile. Horarios en tu hora local: academiaseul.com/inscribete` (289) |
+| 4 | **¿Cuándo empiezan las clases?** (28) | `La semana del 19 de octubre: 8 semanas, 1 clase en vivo por Zoom a la semana. Terminan la semana del 7 de diciembre. La matrícula cierra el domingo 18 de octubre a las 23:59 hora de Chile. Horarios en tu hora local: academiaseul.com/inscribete` (240) |
 
 ### 4.3 · Respuestas por palabra clave
 En *Automatizaciones → Respuestas personalizadas / Palabras clave → Crear*: escribes las palabras clave y la respuesta.
@@ -299,7 +299,7 @@ A conversar · Conversacional 1 con Abby · martes 21:00 → academiaseul.com/ni
 Nivel intermedio · TOPIK II con Jay · jueves 21:00 → academiaseul.com/nivel-1?clase=topik2
 Niños de 8 a 15 · Jay y Abby · lunes 18:00 → academiaseul.com/nivel-1?clase=ninos
 
-Llenas el formulario, pagas y te confirmo el cupo. US$150 el curso completo · o 2 cuotas de US$75. Matrícula hasta el domingo 11 de octubre 💙
+Llenas el formulario, pagas y te confirmo el cupo. US$150 el curso completo · o 2 cuotas de US$75. Matrícula hasta el domingo 18 de octubre 💙
 ```
 
 **Palabra clave "COREANO"** (solo esa; "info" o "cursos" saltarían en medio de cualquier conversación) · 547 caracteres:
@@ -311,7 +311,7 @@ Llenas el formulario, pagas y te confirmo el cupo. US$150 el curso completo · o
 4️⃣ TOPIK II · nivel intermedio, rumbo al examen · jue 21:00
 5️⃣ Niños 8–15 · lun 18:00
 US$150 el curso completo · o 2 cuotas de US$75
-Inscripción: academiaseul.com/inscribete · matrícula hasta el domingo 11 de octubre.
+Inscripción: academiaseul.com/inscribete · matrícula hasta el domingo 18 de octubre.
 ¿Partes desde cero o ya sabes algo de coreano?
 ```
 
@@ -324,6 +324,8 @@ Sirven para responder a mano en 2 toques.
 ---
 
 ## 5 · Destacado "INSCRÍBETE" (4 historias) y bio de Instagram
+
+> **Ojo (calendario corrido):** las láminas 2 y 4 del destacado (`Campana_Assets/instagram/octubre/destacado_inscribete/`, generador `Lanzamiento_Octubre_2026/fuente/make_destacado_inscribete.js`) se regeneraron el vie 16 oct con el calendario nuevo: la 2 dice «lunes 19 de octubre» y la 4 ahora es `4_cierre_domingo_18.png` («domingo 18 de octubre» · «semana del 19 de octubre»). En Instagram, **reemplaza en el destacado** la lámina 2 vieja y la `4_cierre_domingo_11` por estas dos; las láminas 1 y 3 y la portada no cambian.
 
 **Portada del destacado:**
 - Fondo azul `#4236F6` con el sello del tigre en blanco.
@@ -356,7 +358,7 @@ PASO 3 · PAGA Y CONFIRMA
 Paga y toca "Ya pagué"
 → te confirmo el cupo por WhatsApp
 
-El lunes 12 de octubre te llegan por correo tu grupo de WhatsApp y tu link de Zoom (Niños: el Zoom llega el domingo 18) 💙
+El lunes 19 de octubre te llegan por correo tu grupo de WhatsApp y tu link de Zoom (Niños: el Zoom llega el domingo 18) 💙
 ```
 
 **Lámina 3 · Cómo pago**
@@ -375,25 +377,24 @@ Desde otros países: PayPal en dólares
 **Lámina 4 · Cierre**
 ```text
 LA MATRÍCULA CIERRA EL
-DOMINGO 11 DE OCTUBRE
+DOMINGO 18 DE OCTUBRE
 23:59 · hora de Chile
 
-Empezamos la semana del 12 de octubre
-(Niños, el lunes 19)
+Empezamos la semana del 19 de octubre
 
 8 semanas en vivo · grabaciones · certificado
 ¿Dudas? Escríbeme INSCRIBIRME por DM 🐯
 ```
 
 **Bio de @academiaseul** (elige una):
-- **A** (134 caracteres): `Clases de coreano en vivo para hispanohablantes 🐯 Profes coreanos · desde cero hasta TOPIK II · Matrícula de octubre hasta el dom 11 👇`
-- **B** (133 caracteres): `Coreano en vivo por Zoom para hispanohablantes 🐯 Desde cero hasta TOPIK II · Niños 8–15 · Inscríbete hasta el domingo 11 de octubre 👇`
+- **A** (134 caracteres): `Clases de coreano en vivo para hispanohablantes 🐯 Profes coreanos · desde cero hasta TOPIK II · Matrícula de octubre hasta el dom 18 👇`
+- **B** (133 caracteres): `Coreano en vivo por Zoom para hispanohablantes 🐯 Desde cero hasta TOPIK II · Niños 8–15 · Inscríbete hasta el domingo 18 de octubre 👇`
 
 **Enlaces** (*Editar perfil → Enlaces*; no cuentan en los 150 caracteres):
 1. `Inscríbete · cursos de octubre` → `https://www.academiaseul.com/nivel-1?utm_source=instagram&utm_medium=bio`
 2. `Lector de Hangul gratis` → `https://www.academiaseul.com/lector-coreano`
 
-**Después del domingo 11 (lunes 12 por la mañana, cuando la web pasa a lista de espera con tu OK):**
+**Después del domingo 18 (lunes 19 por la mañana, cuando la web pasa a lista de espera con tu OK):**
 - Bio: `Clases de coreano en vivo para hispanohablantes 🐯 Profes coreanos · desde cero hasta TOPIK II · Próximos cursos: enero 2027 👇` (125 caracteres).
 - Link 1 → `academiaseul.com`, como dice el plan.
 - Archiva la lámina 4 del destacado.
@@ -458,7 +459,7 @@ Referencia rápida (hora de Chile):
 *Lunes 18:00 hora de Chile* · con Jay y Abby, dos profes coreanos nativos · máximo 12 · desde cero, sin test.
 Juegos, canciones y dibujos: aprenden a leer el alfabeto, a presentarse y sus primeras frases, y terminan con un mini-show para la familia.
 
-Empieza el *lunes 19 de octubre* (el 12 es feriado en Chile) y termina el *lunes 7 de diciembre*, con certificado.
+Empieza el *lunes 19 de octubre* y termina el *lunes 7 de diciembre*, con certificado.
 Necesita un computador o tablet con cámara y micrófono. Grabaciones privadas, solo para las familias del grupo, y un grupo de WhatsApp de apoderados.
 
 *US$150 el curso completo · o 2 cuotas de US$75*

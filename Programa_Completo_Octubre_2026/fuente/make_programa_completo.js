@@ -69,12 +69,15 @@ const DIAS = { Lunes: 0, Martes: 1, "Miércoles": 2, Jueves: 3 };
 const MES = { es: ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"], en: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] };
 const DIA_ABR = { es: { Lunes: "lun", Martes: "mar", "Miércoles": "mié", Jueves: "jue" }, en: { Lunes: "Mon", Martes: "Tue", "Miércoles": "Wed", Jueves: "Thu" } };
 const DIA_FULL = { es: { Lunes: "Lunes", Martes: "Martes", "Miércoles": "Miércoles", Jueves: "Jueves" }, en: { Lunes: "Monday", Martes: "Tuesday", "Miércoles": "Wednesday", Jueves: "Thursday" } };
+// Calendario corrido una semana (decisión de Jay, lun 12 oct 2026): todos los cursos parten la semana del lunes 19 de
+// octubre (Niños ya partía el 19 y no cambia). El martes 8 de diciembre es feriado en Chile: esa clase va "por confirmar".
+const INICIO = Date.UTC(2026, 9, 19);
+const esFeriado8dic = (d) => d.getUTCMonth() === 11 && d.getUTCDate() === 8;
 function fechas(dia, L) {
-  const base = new Date(Date.UTC(2026, 9, 12) + (dia === "Lunes" ? 7 * 86400000 : 0)); // Niños (lunes) parte el 19: el 12 es feriado
-  return Array.from({ length: 8 }, (_, w) => { const d = new Date(base.getTime() + (w * 7 + DIAS[dia]) * 86400000); return L === "es" ? `${DIA_ABR.es[dia]} ${d.getUTCDate()} ${MES.es[d.getUTCMonth()]}` : `${DIA_ABR.en[dia]} ${MES.en[d.getUTCMonth()]} ${d.getUTCDate()}`; });
+  return Array.from({ length: 8 }, (_, w) => { const d = new Date(INICIO + (w * 7 + DIAS[dia]) * 86400000); const pc = esFeriado8dic(d) ? (L === "es" ? " [por confirmar]" : " [TBC]") : ""; return (L === "es" ? `${DIA_ABR.es[dia]} ${d.getUTCDate()} ${MES.es[d.getUTCMonth()]}` : `${DIA_ABR.en[dia]} ${MES.en[d.getUTCMonth()]} ${d.getUTCDate()}`) + pc; });
 }
 function semanaRango(w, L) {
-  const base = new Date(Date.UTC(2026, 9, 12) + w * 7 * 86400000); const fin = new Date(base.getTime() + 4 * 86400000);
+  const base = new Date(INICIO + w * 7 * 86400000); const fin = new Date(base.getTime() + 4 * 86400000);
   return L === "es" ? `${base.getUTCDate()} ${MES.es[base.getUTCMonth()]} – ${fin.getUTCDate()} ${MES.es[fin.getUTCMonth()]}` : `${MES.en[base.getUTCMonth()]} ${base.getUTCDate()} – ${MES.en[fin.getUTCMonth()]} ${fin.getUTCDate()}`;
 }
 
@@ -123,8 +126,8 @@ function build(L, cursos) {
   ch.push(espacio(60)); ch.push(P(run(t.ninosNota, { size: 20, color: GREY }))); ch.push(P(run(t.conv2, { size: 20, color: GREY })));
   ch.push(H1(t.secciones[3])); ch.push(P(run(t.calIntro)));
   const f = { Lunes: fechas("Lunes", L), Martes: fechas("Martes", L), "Miércoles": fechas("Miércoles", L), Jueves: fechas("Jueves", L) };
-  ch.push(headTable(t.calCols, Array.from({ length: 8 }, (_, w) => [String(w + 1), semanaRango(w, L), f.Lunes[w] + (w === 0 ? " *" : ""), f.Martes[w], f.Martes[w], f["Miércoles"][w], f.Jueves[w], f.Jueves[w]]), [600, 1500, 1200, 1200, 1200, 1200, 1200, 1260], 18));
-  ch.push(espacio(60)); ch.push(P(run("* " + t.feriadoNota, { size: 19, color: GREY })));
+  ch.push(headTable(t.calCols, Array.from({ length: 8 }, (_, w) => [String(w + 1), semanaRango(w, L), f.Lunes[w], f.Martes[w], f.Martes[w], f["Miércoles"][w], f.Jueves[w], f.Jueves[w]]), [600, 1500, 1200, 1200, 1200, 1200, 1200, 1260], 18));
+  ch.push(espacio(60)); ch.push(P(run(t.feriadoNota, { size: 19, color: GREY })));
   ch.push(H3(L === "es" ? "Hitos" : "Milestones")); ch.push(kvTable(t.hitos));
   ch.push(H1(t.secciones[4])); ch.push(P(run(t.tzIntro)));
   ch.push(headTable(t.tzCols, D.TZ_ROWS.map((r) => [r.horaChile, r.mexico, r.colombiaPeru, r.argentina, r.usaEste, r.espana, r.corea]), [1100, 1100, 1200, 1200, 1500, 1700, 1560]));

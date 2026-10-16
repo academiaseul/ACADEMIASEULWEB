@@ -1,6 +1,6 @@
 # Semana 4 · 쓰기 51–52 · Completar textos · 괄호 속 한 문장
 ### TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · con Jay (김재희 선생님)
-**Jueves 5 de noviembre · 21:00 (hora de Chile) · viernes 6, 09:00 en Corea · cuaderno de estrategia**
+**Jueves 12 de noviembre · 21:00 (hora de Chile) · viernes 13, 09:00 en Corea · cuaderno de estrategia**
 
 > **Durante la clase** vas a usar la **sección 7 (tarjeta de sala)**: tenla abierta **antes** de entrar a tu sala de Zoom, porque dentro de la sala no ves el chat general. Ten a mano **una hoja o la parte 51–52 del 답안지 de la casa, lápiz y cronómetro**: hoy escribimos a mano, como en el examen. Todo lo demás es para después: repasar, hacer la tarea y llegar con ventaja a la clase 5.
 > **Los 🔊 de este cuaderno** abren el audio de cada palabra y de cada frase clave (voz coreana de referencia).
@@ -390,7 +390,7 @@ En muchos edificios de departamentos de Corea (**아파트**), la administració
 
 ## 9. Tarea de la semana (≈ 40 minutos)
 
-**Plazo para recibir corrección antes de la clase 5:** **lunes 9 de noviembre, 22:00 (hora de Chile)**. Si la mandas más tarde (hasta el jueves 12 a las 21:00), cuenta igual como tarea, pero la corrección detallada puede llegarte después de la clase 5.
+**Plazo para recibir corrección antes de la clase 5:** **lunes 16 de noviembre, 22:00 (hora de Chile)**. Si la mandas más tarde (hasta el jueves 19 a las 21:00), cuenta igual como tarea, pero la corrección detallada puede llegarte después de la clase 5.
 **Dónde:** **chat privado con Jay** (WhatsApp). Tu escritura no va al grupo: en clase se corrigen respuestas anónimas y solo funciona si el grupo no las vio antes.
 
 ### Núcleo (cuenta para tu nota)
@@ -422,7 +422,7 @@ En 한글, cada una con **tu propia traducción**: **las 10 del kit** (página 3
 - **Meta 4–5:** una segunda versión de cada ㉡ de C y D con otra fórmula (-아/어 주시기 바랍니다 ↔ -(으)시면 됩니다). Y el **㉡ del 52 del Examen A**, el que Jay dejó abierto en clase (pista: la estructura está en la oración que empieza con 이처럼): escríbelo debajo de tu 52 de B y Jay te lo marca en la misma corrección.
 
 ### Entregables (marca cuando esté listo)
-- [ ] Foto de los 51–52 de B (51 reescrito + 52), C y D · **lun 9 nov, 22:00**
+- [ ] Foto de los 51–52 de B (51 reescrito + 52), C y D · **lun 16 nov, 22:00**
 - [ ] Foto de tu lista de 15 fórmulas (mismo mensaje)
 - [ ] 원고지 impreso para la clase 5
 - [ ] (Opcional) tu WhatsApp en coreano

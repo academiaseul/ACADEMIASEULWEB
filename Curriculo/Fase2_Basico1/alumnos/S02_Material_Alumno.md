@@ -1,6 +1,6 @@
 # Semana 2 · 가나다라 II + 안녕하세요
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 20 de octubre · Sección jueves: jueves 22 de octubre · 20:00 (hora de Chile) · Libro: 가나다라 II (Hangul, parte 2) + Lección 1**
+**Sección martes: martes 27 de octubre · Sección jueves: jueves 29 de octubre · 20:00 (hora de Chile) · Libro: 가나다라 II (Hangul, parte 2) + Lección 1**
 
 Esta semana terminas de leer el alfabeto y te presentas en coreano.
 
@@ -411,7 +411,7 @@ Las decimos despacio al final de la clase: búscalas en los últimos minutos de 
 
 ## 9. Tarea de la semana (≈ 25 minutos)
 
-**Entrega antes de tu clase 3: martes 27 o jueves 29 de octubre, 20:00 (hora de Chile), en el grupo de WhatsApp del curso.** Mejor en dos o tres ratos que todo de una vez.
+**Entrega antes de tu clase 3: martes 3 o jueves 5 de noviembre, 20:00 (hora de Chile), en el grupo de WhatsApp del curso.** Mejor en dos o tres ratos que todo de una vez.
 
 **1 · Lector de Hangul (10 min)** · [academiaseul.com/lector-coreano](https://www.academiaseul.com/lector-coreano)
 - **Aprender → 4 "Suma un trazo, suma fuerza"** y **6 "El truco del batchim"**: tócalas y escúchalas (2 min).

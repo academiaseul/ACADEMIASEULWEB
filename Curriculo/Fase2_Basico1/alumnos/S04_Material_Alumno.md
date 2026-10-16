@@ -1,6 +1,6 @@
 # Semana 4 · 우리 엄마예요 · Mi familia
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 3 de noviembre · Sección jueves: jueves 5 de noviembre · 20:00 (hora de Chile) · Libro: lección 4**
+**Sección martes: martes 10 de noviembre · Sección jueves: jueves 12 de noviembre · 20:00 (hora de Chile) · Libro: lección 4**
 
 ¡Llegamos a la mitad del curso, chingu! Hace tres semanas, para muchos el 한글 era un misterio; esta semana vas a mostrar una foto y presentar a tu familia en coreano. También vas a contar hasta 100 y a dictar un número de teléfono. Trae a clase tu foto con 3 o 4 personas (familia, amigos, famosos o un dibujo: tú eliges) y **cuaderno y lápiz** para el bingo. Si puedes, dibuja antes de la clase un cuadrado de 3 × 3 vacío: en clase solo vas a llenarlo.
 
@@ -327,7 +327,7 @@ Kiran puede entrar a tu sala y preguntar **몇 명이에요?** ("¿cuántas pers
 
 ## 9. Tarea de la semana (≈ 28 minutos)
 
-**Entrégala antes de tu clase 5:** martes 10 de noviembre (sección martes) o jueves 12 de noviembre (sección jueves), 20:00 hora de Chile. Mejor repartida en varios días.
+**Entrégala antes de tu clase 5:** martes 17 de noviembre (sección martes) o jueves 19 de noviembre (sección jueves), 20:00 hora de Chile. Mejor repartida en varios días.
 
 **1 · Lector de Hangul (8 min).** Entrena: leer y oír los números del 1 al 99.
 - Entra a **academiaseul.com/lector-coreano** → pestaña **Aprender** → **7 "Dos maneras de contar (숫자)"**. Mueve el explorador (botones − , + y el dado 🎲) y escucha unos 10 números con el botón 🔊. Esta semana fíjate en la tarjeta **"Sino-coreano"**. Debajo de cada número en 한글 vas a ver letras latinas en negrita: **tápalas con el dedo** y lee el 한글. La tarjeta "Nativo" y el recuadro "Trucos que salvan vidas" (la hora, 한 개, 천, 만) son un adelanto de Básico 2: míralos si te da curiosidad; no se evalúan.

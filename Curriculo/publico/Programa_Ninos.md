@@ -45,7 +45,7 @@ Todas las clases son los lunes a las 18:00 (hora de Chile).
 | **7** · lun 30 nov | **¡Ñam! Comida coreana** | Nombrarás comidas coreanas y frutas (김밥, 라면, 불고기, 떡볶이, 김치, 딸기…) y dirás qué te gusta y qué no: 저는 김밥 좋아해요 / 김치 안 좋아해요. En la mesa dirás 맛있어요! (¡está rico!) o 매워요 (pica). Empezamos a ensayar el show final. |
 | **8** · lun 7 dic | **🎤 Show final + certificado** | Las familias entran a Zoom. Presentarás tu mini-show de 30–40 segundos (saludo, nombre, edad, familia, animal y comida favorita), leerás 5 palabras en 한글 en voz alta y cerrarás con 감사합니다 y una reverencia. Recibes tu certificado en pantalla. Se valora que te atrevas a hablar, no la perfección. |
 
-El lunes 12 de octubre es feriado en Chile: por eso este curso parte el 19 de octubre y termina el 7 de diciembre, una semana después que los cursos de adultos.
+Este curso parte el lunes 19 de octubre, la misma semana que los cursos de adultos, y termina el lunes 7 de diciembre.
 
 ---
 
@@ -120,11 +120,11 @@ Cada semana trae un pedacito de Corea conectado con lo que aprendes:
 |---|---|
 | **Día** | Lunes |
 | **Hora** | 18:00–19:00, hora de Chile |
-| **Fecha de inicio** | Lunes 19 de octubre de 2026 (el 12 es feriado en Chile) |
+| **Fecha de inicio** | Lunes 19 de octubre de 2026 |
 | **Última clase** | Lunes 7 de diciembre de 2026: mini-show final + certificado |
 | **Duración** | 8 semanas · 8 clases de 60 minutos |
 | **Profesores** | Jay Kim (김재희) y Abby (홍미영) |
-| **Cierre de matrícula** | Domingo 11 de octubre (o hasta llenar los cupos) |
+| **Cierre de matrícula** | Domingo 18 de octubre (o hasta llenar los cupos) |
 
 **Las 8 fechas:** 19 y 26 de octubre · 2, 9, 16, 23 y 30 de noviembre · 7 de diciembre.
 
@@ -222,4 +222,4 @@ Está planificado **Coreano para Niños 2** para enero de 2027. Si tiene 13 año
 
 ¿Tienes otra pregunta? Escríbenos por WhatsApp al **+56 9 4211 5562**. Programa en PDF: [Programa_Ninos_Octubre_2026.pdf](https://www.academiaseul.com/programas/Programa_Ninos_Octubre_2026.pdf) · Inscripción: [academiaseul.com/nivel-1?clase=ninos](https://www.academiaseul.com/nivel-1?clase=ninos). 화이팅!
 
-*Programa público · Coreano para Niños (8–15) · cohorte octubre 2026 · versión del 26 de septiembre de 2026.*
+*Programa público · Coreano para Niños (8–15) · cohorte octubre 2026 · versión del 26 de septiembre de 2026, actualizada el 16 de octubre de 2026 (cierre de matrícula: domingo 18 de octubre).*

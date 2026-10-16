@@ -54,7 +54,7 @@ const LAMINAS = {
       <div class="kicker">¿CÓMO ME INSCRIBO?</div>
       <div class="paso"><div class="num">2</div><div><h3>Deja tus datos</h3><p>Llena el formulario en<br><b style="color:#fff">academiaseul.com/inscribete</b><br>→ tu cupo queda reservado</p></div></div>
       <div class="paso"><div class="num">3</div><div><h3>Paga y confirma</h3><p>Paga y toca <b style="color:#fff">“Ya pagué”</b><br>→ te confirmamos el cupo por correo y WhatsApp</p></div></div>
-      <div class="card" style="font-size:36px;line-height:1.4">El <b>lunes 12 de octubre</b> te llegan por correo tu grupo de WhatsApp y tu link de Zoom.<br><span style="color:#4A5079">Niños: el Zoom llega el domingo 18.</span></div>
+      <div class="card" style="font-size:36px;line-height:1.4">El <b>lunes 19 de octubre</b> te llegan por correo tu grupo de WhatsApp y tu link de Zoom.<br><span style="color:#4A5079">Niños: el Zoom llega el domingo 18.</span></div>
     </div>
     <div class="pie">sin crear cuenta · 화이팅!</div>`,
   "3_como_pago.png": `
@@ -68,12 +68,13 @@ const LAMINAS = {
       </div>
       <div class="sub">¿Dudas? WhatsApp<br><b style="color:#fff">+56 9 4211 5562</b></div>
     </div>`,
-  "4_cierre_domingo_11.png": `
+  // Calendario corrido una semana (decisión de Jay, lun 12 oct 2026): cierre dom 18, todas las clases desde la semana del 19.
+  "4_cierre_domingo_18.png": `
     <div class="zona" style="text-align:center;align-items:center">
       <div class="kicker">LA MATRÍCULA CIERRA EL</div>
-      <h1 style="font-size:118px">DOMINGO 11<br>DE OCTUBRE</h1>
+      <h1 style="font-size:118px">DOMINGO 18<br>DE OCTUBRE</h1>
       <div class="sub"><span class="gold">23:59</span> · hora de Chile</div>
-      <div class="card" style="text-align:center;font-size:40px;line-height:1.45;width:100%">Empezamos la <b>semana del 12 de octubre</b><br><span style="color:#4A5079">(Niños, el lunes 19)</span><br>8 semanas en vivo · grabaciones · certificado</div>
+      <div class="card" style="text-align:center;font-size:40px;line-height:1.45;width:100%">Empezamos la <b>semana del 19 de octubre</b><br>8 semanas en vivo · grabaciones · certificado</div>
       <div class="sub">¿Dudas? Escríbenos<br><b style="color:#fff">INSCRIBIRME</b> por DM&nbsp;🐯</div>
     </div>`,
 };

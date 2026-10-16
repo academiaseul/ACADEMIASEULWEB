@@ -1,6 +1,6 @@
 <!--
 Academia Seúl · Programas públicos · VERSIÓN C (WhatsApp) · cohorte octubre 2026
-Fuentes: las 6 páginas públicas de esta carpeta + lib/nivel1.ts. Redactado el 26 sept 2026.
+Fuentes: las 6 páginas públicas de esta carpeta + lib/nivel1.ts. Redactado el 26 sept 2026; fechas al día el 16 oct 2026 con la cohorte corrida una semana (decisión de Jay, 12 oct 2026).
 Emojis elegidos para que ninguno se vea rojo (sin 🎯 🇰🇷 🎎 ❓ 📚 📌 ❤️): números 1️⃣–5️⃣, 🌱 🐯 💵 🕗 💙 👉 🔜 🔍.
 -->
 
@@ -17,7 +17,7 @@ Emojis elegidos para que ninguno se vea rojo (sin 🎯 🇰🇷 🎎 ❓ 📚 �
 ```text
 ¡Hola! 👋 Gracias por escribir a Academia Seúl 🐯
 
-Estos son los cursos de *octubre 2026*, online en vivo por Zoom: *8 semanas*, 1 clase de 60 min a la semana. Parten la *semana del 12 de octubre* (Niños, el lunes 19). Horarios en hora de Chile:
+Estos son los cursos de *octubre 2026*, online en vivo por Zoom: *8 semanas*, 1 clase de 60 min a la semana. Parten la *semana del 19 de octubre* (Niños, el lunes 19). Horarios en hora de Chile:
 
 1️⃣ *Básico 1 (A1.1)* · desde cero
 Mar o jue 20:00 · con Kiran
@@ -37,7 +37,7 @@ Incluye clases en vivo, grabaciones, material, tareas corregidas, grupo con tu p
 ¿No sabes tu nivel? Test gratis de 2 min 👉 www.academiaseul.com/test-nivel o cuéntame qué has estudiado y te oriento 🙂
 
 Inscripción 👉 www.academiaseul.com/nivel-1
-La matrícula cierra el *domingo 11 de octubre*.
+La matrícula cierra el *domingo 18 de octubre*.
 
 ¿Cuál te interesa? Dime el número y te mando el detalle 💙
 ```
@@ -56,7 +56,7 @@ Para empezar desde cero. En 8 semanas:
 • preguntas qué es algo y dónde está
 • cuentas tu día y lo que te gusta
 
-🕗 *Martes 20:00* (desde el 13 oct) *o jueves 20:00* (desde el 15 oct), hora de Chile. Es el mismo programa: eliges uno.
+🕗 *Martes 20:00* (desde el 20 oct) *o jueves 20:00* (desde el 22 oct), hora de Chile. Es el mismo programa: eliges uno.
 Con Kiran, profesora coreana criada en Argentina, que explica en español. Máx. 15 por sección.
 💵 US$150 · o 2 cuotas de US$75
 
@@ -75,7 +75,7 @@ Para quien ya lee Hangul y se presenta (Básico 1, el Nivel 1 de julio o equival
 • dices lo que no haces y lo que sabes hacer
 • conversas unos 5 minutos sobre tu vida
 
-🕗 *Miércoles 21:00* (hora de Chile), desde el 14 de octubre · con Jay · máx. 15
+🕗 *Miércoles 21:00* (hora de Chile), desde el 21 de octubre · con Jay · máx. 15
 💵 US$150 · o 2 cuotas de US$75
 
 ¿Hiciste el Nivel 1 de julio? Este es tu curso: tu certificado te habilita directo.
@@ -90,7 +90,7 @@ Inscripción 👉 www.academiaseul.com/nivel-1?clase=a12
 Para quien ya arma frases en presente, pasado y futuro, pero se bloquea al hablar. Cada semana un tema: K-pop, viajes a Jeju y Seúl, comida, hanbok y videojuegos, más 2 laboratorios de conversación.
 
 La clase es *en coreano*, con Abby, profesora coreana nativa que enseña desde Corea (las slides traen apoyo en español e inglés).
-🕗 *Martes 21:00* (hora de Chile), desde el 13 de octubre · máx. 15
+🕗 *Martes 21:00* (hora de Chile), desde el 20 de octubre · máx. 15
 💵 US$150 · o 2 cuotas de US$75
 
 Inscripción 👉 www.academiaseul.com/nivel-1?clase=a21
@@ -106,7 +106,7 @@ Para quien ya tiene coreano intermedio y va a rendir el TOPIK II. En 8 semanas:
 • 쓰기 51–54 con corrección personal, línea a línea
 • un simulacro completo de 180 min y tu plan de estudio
 
-🕗 *Jueves 21:00* (hora de Chile), desde el 15 de octubre · con Jay
+🕗 *Jueves 21:00* (hora de Chile), desde el 22 de octubre · con Jay
 *Máximo 8 estudiantes*
 💵 US$150 · o 2 cuotas de US$75 (la inscripción al examen oficial se paga aparte)
 
@@ -119,7 +119,7 @@ Inscripción 👉 www.academiaseul.com/nivel-1?clase=topik2
 5️⃣ *Coreano para Niños (8–15) · Juega y aprende*
 Desde cero, con juegos, canciones y dibujos. En 8 semanas leen sus primeras palabras en 한글, escriben su nombre, cuentan hasta 10 y cierran con un mini-show para la familia.
 
-🕗 *Lunes 18:00* (hora de Chile), del 19 de octubre al 7 de diciembre (el 12 es feriado)
+🕗 *Lunes 18:00* (hora de Chile), del 19 de octubre al 7 de diciembre
 Dos profes en cada clase: Jay explica en español y Abby pone la pronunciación nativa. Máx. 12 niños.
 Un adulto ayuda a conectarse y envía las tareas por WhatsApp. Nunca publicamos caras de menores.
 💵 US$150 · o 2 cuotas de US$75
@@ -137,7 +137,7 @@ Día, hora, profe y fecha exacta: por confirmar.
 
 Anótate sin costo en la lista de espera y te avisamos primero 👉 www.academiaseul.com/notificarme?curso=conversacion
 
-¿Todavía no haces Conversacional 1? Parte el martes 13 de octubre a las 21:00 👉 www.academiaseul.com/nivel-1?clase=a21
+¿Todavía no haces Conversacional 1? Parte el martes 20 de octubre a las 21:00 👉 www.academiaseul.com/nivel-1?clase=a21
 ```
 
 ---
@@ -184,5 +184,6 @@ NOTAS (no se envían):
 - ✅ El PDF público de Básico 1 (https://www.academiaseul.com/programas/Programa_Basico1_Octubre_2026.pdf) ya coincide con el programa (corregido el 26 sept 2026); se puede enviar.
 - Mercado Pago en 2 cuotas depende del link de US$75 (MP_LINK_MENSUAL, pendiente) o del checkout dinámico (MP_ACCESS_TOKEN). La respuesta "¿Cómo pago?" no promete un medio específico para las cuotas.
 - PayPal "sin cuenta" sigue pendiente: por eso dice "también con tarjeta", sin prometer "sin cuenta".
+- Calendario corrido una semana (16 oct 2026): todos parten la semana del 19 de octubre (Niños sin cambios: lun 19 oct → lun 7 dic) y la matrícula cierra el dom 18 oct. Después del dom 18, el mensaje principal y "¿Todavía no haces Conversacional 1?" quedan desactualizados.
 - Conversacional 2 (29 sept 2026): el bloque sigue el diseño final (Curriculo/Fase5_Conversacional2/00_Diseno_Conversacional2.md): temas en el orden de la Opción A, 2 laboratorios y mini-pódcast final, precio único. Día, hora, profe y fecha exacta dependen de Jay.
 -->

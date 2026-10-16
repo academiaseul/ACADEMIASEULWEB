@@ -1,8 +1,8 @@
 # Básico 2 (A1.2) · Semana 6 · 못 가요 · Negación y habilidad
-### Guía del profesor · Jay Kim (김재희) · miércoles 18 de noviembre de 2026 · 21:00–22:00 (hora de Chile) = jueves 19, 09:00 en Corea, en pleno 수능
+### Guía del profesor · Jay Kim (김재희) · miércoles 25 de noviembre de 2026 · 21:00–22:00 (hora de Chile) = jueves 26, 09:00 en Corea (el 수능 fue el jueves anterior, 19 nov, durante la clase 5)
 
 **MATERIAL DEL PROFESOR · solo para Jay · no se comparte con alumnos** (tiene claves, tiempos y notas internas). El material del alumno, sin respuestas ni notas internas, está en `../alumnos/S06_Material_Alumno.md`.
-Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3) · plazo N−2: deck, hoja y esta guía listos y revisados el **vie 6 nov**.
+Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3) · plazo N−2: deck, hoja y esta guía listos y revisados el **vie 13 nov**.
 
 > **Fuentes (manda lo publicado):** `../00_Diseno_Basico2.md` (B.7 = esta semana; B.1, B.10–B.12, B0.3–B0.4, C, D, E.2–E.3, E.6, F.5, G, I) · syllabus publicado `a12 · S6` en `Programa_Completo_Octubre_2026/fuente/cursos_es.json` · programa público `Curriculo/publico/Programa_Basico2_A1-2.md` (semana 6: "Lo que no hago y lo que sé hacer") · Fase 1 (§4.5, §7.4, §10.4–10.6, §15.1) · Lector revisado en su código (`public/lector-coreano/index.html`: Pictogramas, 34 imágenes en 2 grupos, 10 preguntas por ronda) · artículo del blog `/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana` (existe en `app/blog/`).
 > **Marcas:** **⚑** = coreano o dato que confirmas tú (nativo) antes de usarlo · **[YA]** = mejora de la Fase 1 aplicada dentro de lo publicado · **DECISIÓN DE JAY** = política o texto público · **[regla del certificado: pendiente de decisión de Jay]**.
@@ -45,7 +45,7 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 
 | | |
 |---|---|
-| **Fecha** | Miércoles 18 de noviembre de 2026 · 21:00–22:00, hora de Chile (UTC−3) · jueves 19, 09:00 en Corea: a esa hora se está rindiendo el **수능** (fecha verificada en la Fase 1 §10.6) |
+| **Fecha** | Miércoles 25 de noviembre de 2026 · 21:00–22:00, hora de Chile (UTC−3) · jueves 26, 09:00 en Corea · el **수능** fue el jueves anterior, 19 nov, a la misma hora que la clase 5 (fecha verificada en la Fase 1 §10.6; con el curso corrido una semana, el gancho se cuenta en pasado) |
 | **Unidad del libro** | Negación 01–03: 안 / -지 않아요 · 못 / -지 못해요 · negaciones que son palabras propias · Habilidad 01: -(으)ㄹ 수 있어요/없어요 (⚑ D-15: numeración de la ficha publicada) |
 | **Romanización** | Ninguna (política D del diseño). Pronunciación en 한글 entre corchetes |
 
@@ -57,13 +57,13 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 | 4 | **Vocabulario** (20) | **Núcleo publicado (12, se evalúan):** 수영하다 nadar · 운전하다 manejar, conducir · 기타를 치다 tocar la guitarra (쳐요) · 노래하다 cantar · 춤을 추다 bailar (춰요) · 매운 음식 comida picante · 술을 마시다 beber alcohol · 담배를 피우다 fumar (피워요) · 늦게 tarde · 잘 bien · 전혀 para nada (con negación) · 싫어하다 no gustar, detestar (↺ Básico 1 S8; julio L9). **Del tema y fórmulas (6):** 맵다 ser picante (매워요) · 미안해요 perdón · 다음에 la próxima vez · 일이 있어서 [F] es que tengo algo · 다이어트하다 hacer dieta · -지만 [F] pero. **Reconocer (2):** 수능 · 시험 잘 보세요!. **Vuelven:** 없다 · 모르다 (S3) · 좋아하다 · 영화 · 산 · 바다 · 같이 · 내일 · 토요일 · 피곤하다 · 바쁘다. **A pedido (no se evalúa):** 노래방 karaoke (노래 + 방, dos palabras que ya conocen; sale en el diálogo) |
 | 5 | **Expresiones coreanas** | ___할 수 있어요? — 네, 할 수 있어요. / 조금 할 수 있어요. / 아니요, 못 해요. / 전혀 못 해요. · 미안해요, ___은/는 못 가요. 일이 있어서 못 가요. 다음에 같이 가요! · ___은/는요? (¿y el…? para otro día) · 알아요? — 아니요, 몰라요. · 매워요? — 조금 매워요. / 안 매워요? — 네, 안 매워요. · Reconocer: 시험 잘 보세요! · **Frases clave del coro de cierre:** 수영할 수 있어요? / 미안해요, 내일은 못 가요. / 다음에 같이 가요! |
 | 6 | **Pronunciación** | **Se explica 못:** 못 해요 [모태요] (ㄷ + ㅎ → ㅌ) · 못 먹어요 [몬머거요] (ante ㅁ o ㄴ, ㄴ) · 못 가요 [몯까요] (ante ㄱ ㄷ ㅂ ㅅ ㅈ, la siguiente se tensa). **Se explica la tensión después de -(으)ㄹ** (como en 갈 거예요 de la S5): 할 수 있어요 [할쑤이써요] · 먹을 수 [머글쑤]. Se imitan: 않아요 [아나요] (la ㅎ se cae, como en 좋아요) · 먹지 않아요 [먹찌아나요] · 싫어해요 [시러해요] · 늦게 [늗께] · 없어요 [업써요]. **Se corrige siempre:** vocal de apoyo tras 받침 (못 → "mo-su", "mo-tu") · ㅓ/ㅗ (못 con labios redondos, no 멋) · tensas ([몯까요], [할쑤]). ㅝ de 춤을 춰요 y 담배를 피워요 de un golpe. **Se deja pasar:** entonación y la ㄹ entre vocales |
-| 7 | **Cultura** | Capa contemporánea. **Publicado:** rechazar una invitación rara vez es un "no" seco: se usa 못 con una razón (일이 있어서 못 가요) y muchas veces 다음에, aunque no haya próxima: es cortesía, no promesa. **Frase ancla:** **미안해요, 일이 있어서 못 가요. 다음에 같이 가요!** **Puente:** "ahí vemos", "te aviso", "la próxima sí" (Fase 1 §10.4). **Matiz:** "muchos", "es una forma amable que se oye mucho", nunca "los coreanos nunca dicen que no"; también hay gente directa. **Gancho de calendario [YA]** (Fase 1 §10.6): mientras dura la clase, en Corea se rinde el 수능; a quien rinde se le dice 시험 잘 보세요! (reconocer) + espiral con la S2: muchos evitan el 미역국 antes de un examen, "para no resbalar" (lectura opcional en español: el artículo del blog) ⚑ D-14 |
+| 7 | **Cultura** | Capa contemporánea. **Publicado:** rechazar una invitación rara vez es un "no" seco: se usa 못 con una razón (일이 있어서 못 가요) y muchas veces 다음에, aunque no haya próxima: es cortesía, no promesa. **Frase ancla:** **미안해요, 일이 있어서 못 가요. 다음에 같이 가요!** **Puente:** "ahí vemos", "te aviso", "la próxima sí" (Fase 1 §10.4). **Matiz:** "muchos", "es una forma amable que se oye mucho", nunca "los coreanos nunca dicen que no"; también hay gente directa. **Gancho de calendario [YA]** (Fase 1 §10.6): el jueves pasado, a la hora de la clase 5, en Corea se rindió el 수능; a quien rinde se le dice 시험 잘 보세요! (reconocer) + espiral con la S2: muchos evitan el 미역국 antes de un examen, "para no resbalar" (lectura opcional en español: el artículo del blog) ⚑ D-14 |
 | 8 | **Tarea de speaking** (en clase) | Cada alumno habla ≥ 4 veces fuera de las salas: frase en el chat leída en voz alta o turno 1:1 · dedos + eco de la frase correcta · una pregunta y una respuesta en la cadena del drill · coro. En salas (19 min): encuesta "¿sabes…?" + 2 frases sobre la pareja en tercera persona · tres tarjetas, tres negaciones · role play de la invitación · minuto libre (뭐 할 수 있어요? + 휴가에 어디에 갈 거예요?). En casa: audio de 40 s "할 수 있어요, 못 해요" |
 | 9 | **Tarea de listening** | Las tres fotos de Jay (escriben en el chat qué entendieron) · dedos: 1 = 안, 2 = 못, con 7 frases dichas por Jay · el diálogo de KakaoTalk leído en voz alta · el reporte del compañero en salas y en el cierre · en casa, Pictogramas: una de las 3 rondas es Escucha (oyes la palabra y eliges la imagen) |
 | 10 | **Tarea de reading** | Quiz 5, ítem 5 (estilo TOPIK I: "¿de qué se habla?") · diálogo de KakaoTalk en pantalla (invitación y rechazo; diseño A.14: "mensaje de invitación y de rechazo tipo KakaoTalk (S6)") · material del alumno, ejercicio 6: el mensaje de 수진 (≈ 70 sílabas) con 4 preguntas, la última con formato TOPIK I ("elige la correcta") · tarjetas de sala |
 | 11 | **Tarea de writing** | 3 frases propias en el chat (una con 안, una con 못 o -(으)ㄹ 수 있어요, una con -지만) · Hoja 6 (15 situaciones + 5 cosas que sé hacer y 5 que no). **띄어쓰기 que se corrige:** separado 안 가요 · 못 가요 · 운동 안 해요 · 할 수 있어요; la forma larga, 먹지 않아요 · 가지 못해요 (ver ⚑ 1 de D sobre 못해요) |
 | 12 | **Actividad interactiva** | Tres fotos de Jay · dedos 안/못 en la galería · cadena "___할 수 있어요?" por nombre · encuesta con ○ △ × (como se marca en Corea) · tres tarjetas, tres negaciones · role play de la invitación con "¿y el sábado?" · minuto libre |
-| 13 | **Tarea para la casa** | ≈ 30 min, antes de la clase 7 (**mié 25 nov, 21:00**). (1) **Lector, 5 min:** Practicar → Pictogramas, 3 rondas seguidas + reto de voz; captura de Progreso. (2) **Hoja 6, 15 min** (publicada): elegir 안 / 못 / -(으)ㄹ 수 없어요 en 15 situaciones (+ 2 de ellas también en forma larga -지 않아요, porque el quiz 6 la pide a todos) + 5 cosas que sabes hacer y 5 que no. (3) **Audio de 40 s, 5 min** (publicado): "할 수 있어요, 못 해요", 6 frases mezclando habilidad y negación (pueden salir de la Parte B de la hoja: una sola producción, dicha y escrita; diseño B.10). (4) **Prepara la S7, 5 min:** elige dos ciudades, dos comidas o dos ídolos para comparar y guarda una foto de cada uno; deja a la vista lo que hay en tu escritorio. **Reto:** -지 않아요 / -지 못해요 en 5 situaciones de la hoja + 1 frase con -지만. **Rescate:** solo 안 y 못 (situaciones 1–10) + el audio |
+| 13 | **Tarea para la casa** | ≈ 30 min, antes de la clase 7 (**mié 2 dic, 21:00**). (1) **Lector, 5 min:** Practicar → Pictogramas, 3 rondas seguidas + reto de voz; captura de Progreso. (2) **Hoja 6, 15 min** (publicada): elegir 안 / 못 / -(으)ㄹ 수 없어요 en 15 situaciones (+ 2 de ellas también en forma larga -지 않아요, porque el quiz 6 la pide a todos) + 5 cosas que sabes hacer y 5 que no. (3) **Audio de 40 s, 5 min** (publicado): "할 수 있어요, 못 해요", 6 frases mezclando habilidad y negación (pueden salir de la Parte B de la hoja: una sola producción, dicha y escrita; diseño B.10). (4) **Prepara la S7, 5 min:** elige dos ciudades, dos comidas o dos ídolos para comparar y guarda una foto de cada uno; deja a la vista lo que hay en tu escritorio. **Reto:** -지 않아요 / -지 못해요 en 5 situaciones de la hoja + 1 frase con -지만. **Rescate:** solo 안 y 못 (situaciones 1–10) + el audio |
 | 14 | **Recurso digital (exacto)** | **Lector** (`/lector-coreano`) → **Practicar** → **🖼 Pictogramas, 3 rondas seguidas** (5 min). Cada ronda tiene 10 imágenes; el modo rota solo (📖 Lectura: ves la imagen y eliges la palabra en 한글 · 👂 Escucha: oyes la palabra y eliges la imagen · 🔁 Inversa: ves la palabra y eliges la imagen) y el grupo cambia cada 3 rondas ("comida y objetos" · "naturaleza y vida" · "todo"); el Lector recuerda dónde quedó cada alumno. **Sin romanización en preguntas ni opciones;** la línea de corrección sí la trae ("keo·pi · café"): se tapa. **Reto de voz** (le da un propósito de la semana): al terminar cada ronda, elegir 2 imágenes y decir una frase con 안, 못 o 할 수 있어요 (커피를 안 마셔요 · 바다에서 수영할 수 있어요). El banco trae palabras que el curso no enseña (딸기, 꽃, 별…): se leen, no se evalúan. → **Progreso**: captura. **Extra [YA]:** el Contrarreloj que pide el programa ("superar la marca de la semana 5"), diciendo la palabra en voz alta antes de tocar. **Lectura cultural opcional:** academiaseul.com/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana |
 | 15 | **Preparación del profe** | Checklist completo en C.2. Lo esencial: deck S6 (28 láminas + 2 extra, guion en C.17) · tus 3 fotos para L7 · resultados del quiz en línea 2 (las 2 preguntas más falladas) y 1 error frecuente de la Hoja 5 · quiz 5 listo en L2–L3 · 7 salas creadas con los nombres de las parejas de mitad de curso · 3 mensajes para transmitir (21:41 · 21:45 · 21:51) · documento de notas · hoja del curso abierta |
 | 16 | **Entregable del alumno** | Captura de Progreso (Pictogramas) · Hoja 6 (foto o PDF en el grupo) · audio de 40 s en el grupo |
@@ -78,7 +78,7 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 | Min | Hora | Bloque | Qué hace Jay | Qué hacen los alumnos | Zoom: pantalla · salas · chat | Material |
 |---|---|---|---|---|---|---|
 | 0–5 | 21:00–21:05 | **1 · Quiz 5 + revisión** | Graba. 안녕하세요, 여러분! Chat en "solo anfitrión"; quiz 5 en pantalla (2,5 min); «끝!», guarda el chat y lo vuelve a "todos"; corrige en voz alta (1 min). Revisión del quiz en línea 2: las 2 preguntas más falladas + 1 error de la Hoja 5 (1 min) | Responden los 5 ítems en **un solo mensaje** numerado, en 한글 (solo lo ve Jay) | Grabación en la nube ON · L1 → L2–L3 → L4 · chat: "solo anfitrión" durante el quiz, después "todos" | L1–L4 · resumen del formulario del quiz en línea 2 |
-| 5–7 | 21:05–21:07 | **2 · 수능 + R** | Gancho: en Corea son las 9:00 del jueves y se rinde el 수능; 시험 잘 보세요! (reconocer); guiño al 미역국. L6 en 15 s (lo que podrán decir). Tres fotos: 담배를 안 피워요 · 춤을 잘 못 춰요 · 운전할 수 있어요 | Escriben en el chat, en español, qué entendieron de cada foto | L5 → L6 → L7 (frases con clic) · chat | L5–L7 · tus 3 fotos |
+| 5–7 | 21:05–21:07 | **2 · 수능 + R** | Gancho: el jueves pasado a esta hora (durante la clase 5) en Corea se rindió el 수능; 시험 잘 보세요! (reconocer); guiño al 미역국. L6 en 15 s (lo que podrán decir). Tres fotos: 담배를 안 피워요 · 춤을 잘 못 춰요 · 운전할 수 있어요 | Escriben en el chat, en español, qué entendieron de cada foto | L5 → L6 → L7 (frases con clic) · chat | L5–L7 · tus 3 fotos |
 | 7–13 | 21:07–21:13 | **3 · [nueva 1] 안 + -지 않아요** (R → C) | "No" delante del verbo; el objeto antes; con adjetivos; el 안 en medio de 운동 안 해요; un ex-julio da un ejemplo (rol de experto). Frase propia al chat; lee 3. Forma larga -지 않아요 [아나요] y el truco "si dudas, la larga" | Coro; frase propia en el chat (저는 ___을/를 안 ___); 3 la dicen con micrófono | L8–L11 · chat · micrófonos en silencio para el coro | L8–L11 |
 | 13–19 | 21:13–21:19 | **4 · [nueva 2] 못 · ¿안 o 못?** (R → C) | 못 = no puedo / no sé; 잘 못 먹어요. "…porque no quiero / …porque no puedo". Nunca 못 + adjetivo. Aviso de las invitaciones. Dedos (7 frases). 못 suena distinto (3 casos) + -지 못해요 para reconocer | 1 o 2 dedos a la cámara; eco de la frase correcta; coro de [모태요] [몬머거요] [몯까요] | Vista de galería (dedos) · L12–L15 | L12–L15 |
 | 19–24 | 21:19–21:24 | **5 · [nueva 3] -(으)ㄹ 수 있어요/없어요** (R → C) | ㄹ 수 / 을 수 = la pieza del futuro (갈 거예요 → 갈 수 있어요); ㄹ y ㄷ; separado; [할쑤]. Coro: 저는 한글을 읽을 수 있어요! Frase propia (de sus notas de la S5). Pregunta y escala de 4 respuestas; pregunta a 2 alumnos | Coro; frase propia en el chat; 2 responden en voz alta | L16–L18 · chat | L16–L18 |
@@ -99,20 +99,20 @@ Que cada alumno salga **eligiendo sin pensar entre 안 y 못** (decidí no hacer
 
 ### C.2 Checklist de preparación
 
-**Antes del vie 6 nov (plazo N−2)**
+**Antes del vie 13 nov (plazo N−2)**
 - [ ] Leer esta guía y `../alumnos/S06_Material_Alumno.md`; revisar el deck S6 contra C.17 y la Hoja 6 (sección 9 del material). **Tú no produces: revisas y apruebas.**
 - [ ] Resolver los ⚑ de D, sobre todo el **1 (못 해요 / 못해요)**: lo que decidas se aplica igual en el deck, la hoja, las tarjetas y la clave.
 - [ ] Elegir **tus 3 fotos** para L7 (5 min): algo que no haces, algo que no puedes o no sabes, algo que sí sabes. Si las frases de C.3 no son verdad para ti, **cambia el verbo, no la estructura** (⚑ 2).
 - [ ] Decidir si esta semana se hace el **ensayo de grabación con el celular** de la conversación evaluada (DECISIÓN DE JAY 4, F.5 del diseño: "el minuto libre de la S6 o la S7 se graba igual"). Si es sí, el mensaje de las 21:51 lo pide (texto en C.3, bloque 11).
 
-**Lun 16 – mar 17 nov**
+**Lun 23 – mar 24 nov**
 - [ ] Mirar el **resumen del quiz en línea 2** (formulario): anota las 2 preguntas con más errores. Su clave está en la guía de la S5.
 - [ ] Revisar las **Hojas 5** entregadas: anota **1 error frecuente** (esperables: 가을 거예요* · 지하철으로* · 갈거예요 sin espacio).
 - [ ] Lo que anotaron para "prepara la S6" (3 cosas que saben hacer, 3 que no y una invitación que tendrían que rechazar) **no se entregó**: la tarea de la S5 solo pedía anotarlo. Lo traen a L17 y a R3. Por eso, ten a mano la lista de **palabras a pedido** (C.5, al final): nadar, manejar y cocinar están en la lista; esquiar, bicicleta o piano llegan por chat.
 - [ ] Confirmar las **parejas de mitad de curso** (E.4 del diseño: A + B o B + B, los C en trío) y quién recibe reto y rescate.
 - [ ] ⚑ Confirmar el **horario del 수능 2026** en el sitio del 한국교육과정평가원 (kice.re.kr): esta guía asume que a las 09:00 KST corre la 1.ª prueba, 국어 (horario habitual, 08:40–10:00).
 
-**El día de la clase (mié 18 nov)**
+**El día de la clase (mié 25 nov)**
 - [ ] Recordatorio en el grupo a las 18:00: "Hoy 21:00 Chile · 19:00 Colombia y Perú · 18:00 México · 19:00 Nueva York · jueves 01:00 España". (Desde el 1 de noviembre EE.UU. y desde el 25 de octubre España ya cambiaron de hora.)
 
 **20:50, antes de abrir**
@@ -121,10 +121,10 @@ Que cada alumno salga **eligiendo sin pensar entre 안 y 못** (decidí no hacer
 - [ ] Deck abierto en L1 ("Compartir sonido" marcado). Pestaña del Lector en **Practicar → 🖼 Pictogramas** para los 20 s de la tarea.
 - [ ] Los 3 mensajes de salas copiados en un documento (C.3, bloque 11).
 - [ ] Documento de notas para los errores de las salas · cronómetro visible · hoja del curso abierta (columnas en C.14).
-- [ ] Nombre de la grabación: `Basico2_S06_2026-11-18`.
+- [ ] Nombre de la grabación: `Basico2_S06_2026-11-25`.
 
 **Después de la clase (dentro de 24 h)**
-- [ ] Subir grabación + PDF del deck + tarea a la carpeta del curso: `Basico2_S06_2026-11-18_Negacion-y-habilidad.pdf`.
+- [ ] Subir grabación + PDF del deck + tarea a la carpeta del curso: `Basico2_S06_2026-11-25_Negacion-y-habilidad.pdf`.
 - [ ] Marcar asistencia (en vivo / grabación + tarea, columnas separadas), quiz 5 y observación de salas (C.14).
 - [ ] Publicar el mensaje de C.15.
 - [ ] Clip de las 3 frases clave: `B2_S06_frases_clave.mp3`, recortado de la grabación por la persona de producción (48 h, B.12).
@@ -143,7 +143,7 @@ Que cada alumno salga **eligiendo sin pensar entre 안 y 못** (decidí no hacer
 - **Revisión del quiz en línea 2 (1 min, L4):** muestra las 2 preguntas más falladas (las anotaste el lunes) y resuélvelas en 20 s cada una. Termina con el error frecuente de la Hoja 5 en 10 s: «✗ 지하철으로 → ✓ 지하철로».
 
 #### Bloque 2 · 21:05–21:07 · 수능 + R · L5–L7
-- **L5 (40 s, ES):** «Antes de empezar, ¿qué hora es ahora en Corea? Jueves 19, las nueve de la mañana. Y no es un jueves cualquiera: hoy es el **수능**, el examen de ingreso a la universidad. En este momento, cientos de miles de estudiantes están rindiendo su primera prueba… que es de coreano, 국어 ⚑. O sea: estamos estudiando coreano a la misma hora que ellos. A alguien que va a rendir un examen se le dice **시험 잘 보세요!**, "¡que te vaya bien!". Solo para reconocer.» *(Guiño de 10 s:)* «¿Se acuerdan de la sopa del cumpleaños, semana 2? 미역국. Hoy muchos no la comen. ¿Por qué? Se los cuento al final… o lo leen en el blog.»
+- **L5 (40 s, ES):** «Antes de empezar: ¿se acuerdan de la clase de la semana pasada? En Corea eran las nueve de la mañana del jueves 19, y no era un jueves cualquiera: era el **수능**, el examen de ingreso a la universidad. Mientras teníamos la clase 5, cientos de miles de estudiantes estaban rindiendo su primera prueba… que es de coreano, 국어 ⚑. O sea: estudiamos coreano a la misma hora que ellos. A alguien que va a rendir un examen se le dice **시험 잘 보세요!**, "¡que te vaya bien!". Solo para reconocer.» *(Guiño de 10 s:)* «¿Se acuerdan de la sopa del cumpleaños, semana 2? 미역국. Antes de un examen, muchos no la comen. ¿Por qué? Se los cuento al final… o lo leen en el blog.»
   *Si preguntan por los aviones (el blog lo cuenta): durante la prueba de audio de inglés, en la tarde, se suspenden despegues y aterrizajes ⚑. Una línea, y sigues.*
 - **L6 (15 s, ES):** «Esto es lo que van a poder decir al final de la clase. No lo expliquemos: solo mírenlo.»
 - **L7 · Tres fotos (1 min).** «Les cuento tres cosas de mí. No traduzco: miren la foto y escriban en el chat, en español, qué entendieron.» Dilo dos veces cada una, con gesto:
@@ -230,8 +230,8 @@ Que cada alumno salga **eligiendo sin pensar entre 안 y 못** (decidí no hacer
   2. «✗ 못 바빠요 / ✗ 안 알아요 → ✓ **안 바빠요 · 몰라요**.» (todos repiten)
   3. «✗ [모스가요] → ✓ **[몯까요]** · ✗ [몯해요] → ✓ **[모태요]**.» (todos repiten; en la lámina el error también va en 한글 entre corchetes, nunca en letras latinas)
 - **L26 · Las 3 frases de hoy (1 min).** «Primero yo, despacio; después ustedes.» Tú solo, lento, con 2 s de pausa: **«수영할 수 있어요?»** → grupo · **«미안해요, 내일은 못 가요.»** → grupo · **«다음에 같이 가요!»** → grupo. Luego las tres a ritmo natural. *De aquí se recorta `B2_S06_frases_clave.mp3` (lo corta producción; tu versión va sola, lenta y limpia).*
-- **L27 · Tarea (1 min).** Compartes 20 s el Lector (Practicar → 🖼 Pictogramas; pestaña Progreso). **(ES)** «Unos 30 minutos, antes del miércoles 25 a las 21:00. Uno: el Lector, **Pictogramas, 3 rondas seguidas**; después de cada ronda, elige dos imágenes y di una frase con 안, 못 o 할 수 있어요; captura de Progreso. Dos: la **Hoja 6**, en la sección 9 de su material, con dos frases también en forma larga, 먹지 않아요. Tres: un **audio de 40 segundos**, "할 수 있어요, 못 해요": seis frases sobre lo que sabes hacer y lo que no. Y cuatro, para la clase 7: elijan dos ciudades, dos comidas o dos ídolos para comparar, con una foto de cada uno, y dejen a la vista lo que hay en su escritorio. Sí, en serio.»
-- **L28 · Anticipo y despedida (30 s).** «La clase 7 empieza con el quiz 6: 안 o 못, 먹지 않아요, 할 수 있어요 y 운동 안 해요. Y el dato de la sopa: muchos no comen 미역국 antes de un examen porque es resbalosa, y en coreano "resbalarse" en un examen es reprobar. Está en el blog.» **(KO)** «오늘 수능 보는 학생들, 화이팅! 여러분도 화이팅! 감사합니다!» ⚑ *(보는 = modificador fuera de nivel: es input tuyo, no se pide; si prefieres, solo «여러분, 화이팅! 감사합니다!»).*
+- **L27 · Tarea (1 min).** Compartes 20 s el Lector (Practicar → 🖼 Pictogramas; pestaña Progreso). **(ES)** «Unos 30 minutos, antes del miércoles 2 a las 21:00. Uno: el Lector, **Pictogramas, 3 rondas seguidas**; después de cada ronda, elige dos imágenes y di una frase con 안, 못 o 할 수 있어요; captura de Progreso. Dos: la **Hoja 6**, en la sección 9 de su material, con dos frases también en forma larga, 먹지 않아요. Tres: un **audio de 40 segundos**, "할 수 있어요, 못 해요": seis frases sobre lo que sabes hacer y lo que no. Y cuatro, para la clase 7: elijan dos ciudades, dos comidas o dos ídolos para comparar, con una foto de cada uno, y dejen a la vista lo que hay en su escritorio. Sí, en serio.»
+- **L28 · Anticipo y despedida (30 s).** «La clase 7 empieza con el quiz 6: 안 o 못, 먹지 않아요, 할 수 있어요 y 운동 안 해요. Y el dato de la sopa: muchos no comen 미역국 antes de un examen porque es resbalosa, y en coreano "resbalarse" en un examen es reprobar. Está en el blog.» **(KO)** «여러분, 화이팅! 감사합니다!» *(Con el curso corrido una semana, el 수능 ya fue: la despedida de antes, «오늘 수능 보는 학생들, 화이팅!», ya no corresponde.)*
 - **22:00 en punto:** "Finalizar reunión para todos".
 
 ### C.4 Cada estructura en 4 pasos (R → C → G → L)
@@ -341,8 +341,8 @@ Que cada alumno salga **eligiendo sin pensar entre 안 y 못** (decidí no hacer
 *Uso en clase:* la escena 1 se lee en L21 (tú a 다니엘, un alumno A a 카밀라) y trae la frase ancla, "¿y el viernes?" (___은/는요?), la escala de 잘 / 잘 못 y el truco del 네. La escena 2 es el modelo de la ronda 1 y del reporte: al final, 카밀라 podría decir al grupo **다니엘 씨는 수영할 수 있지만 운전은 못 해요.** Todo el coreano es de la lista C hasta la S6 y de Básico 1, salvo **노래방** (palabra a pedido: 노래 + 방, las dos conocidas). ⚑ 3.
 
 ### C.9 Preguntas para hacerle al grupo
-1. (chat) «En Corea son las 9 de la mañana del jueves. ¿Qué pasa hoy allá?» (수능)
-2. «¿Qué sopa se come en el cumpleaños? ¿Por qué creen que hoy muchos no la comen?» (미역국: resbalar = reprobar)
+1. (chat) «El jueves pasado, a esta hora, ¿qué pasó en Corea?» (수능)
+2. «¿Qué sopa se come en el cumpleaños? ¿Por qué creen que antes de un examen muchos no la comen?» (미역국: resbalar = reprobar)
 3. «"No voy": ¿안 o 못? ¿Y si es porque no quiero?»
 4. «¿Por qué 운동 안 해요 y no 안 운동해요? ¿Y por qué 안 좋아해요?»
 5. «¿Se puede decir 못 바빠요? ¿Por qué no?»
@@ -439,11 +439,11 @@ Asistencia en vivo y "grabación + tarea" van **en columnas separadas** hasta qu
 
 ### C.15 Mensaje post-clase para el grupo (listo para pegar)
 
-**Publicar el mié 18 nov, después de subir la grabación:**
+**Publicar el mié 25 nov, después de subir la grabación:**
 ```
-¡Gracias por la clase de hoy, chingus! 🐯 (Y a los estudiantes que hoy rinden el 수능 en Corea: 시험 잘 보세요!)
+¡Gracias por la clase de hoy, chingus! 🐯 (Y un saludo a los estudiantes que rindieron el 수능 en Corea la semana pasada: ¡que les vaya bien con los resultados!)
 Grabación: [link]
-Tarea para antes del miércoles 25 de noviembre, 21:00 (hora Chile) · unos 30 minutos:
+Tarea para antes del miércoles 2 de diciembre, 21:00 (hora Chile) · unos 30 minutos:
 1) Lector de Hangul (academiaseul.com/lector-coreano) → Practicar → 🖼 Pictogramas, 3 rondas seguidas (5 min). Tapa la línea de letras latinas 😉 Después de cada ronda, elige 2 imágenes y di en voz alta una frase con 안, 못 o 할 수 있어요 (커피를 안 마셔요). Captura de Progreso aquí.
 2) Hoja 6 (sección 9 de tu material, 15 min): 15 situaciones con 안 / 못 / -(으)ㄹ 수 없어요 (y 2 de tus frases con 안 también en forma larga, -지 않아요) + 5 cosas que sabes hacer y 5 que no. Foto o PDF aquí.
 3) Audio de 40 segundos aquí: "할 수 있어요, 못 해요". 6 frases sobre lo que sabes hacer y lo que no (pueden ser las de la Parte B de la hoja; sin leer, si puedes).
@@ -542,11 +542,11 @@ La clase 7 empieza con el quiz 6: 안 o 못, 먹지 않아요, 할 수 있어요
 
 | L | Título | En pantalla | Nota | Fuente |
 |---|---|---|---|---|
-| 1 | Mientras llegan | **안녕하세요!** · "Semana 6 · 안 · 못 · 할 수 있어요" · "En Corea: jueves 19, 09:00 · hoy es el 수능" · "El quiz 5 empieza a las 21:00: abre el chat" | 21:00 | Portada de la plantilla |
+| 1 | Mientras llegan | **안녕하세요!** · "Semana 6 · 안 · 못 · 할 수 있어요" · "En Corea: jueves 26, 09:00 · el jueves pasado fue el 수능" · "El quiz 5 empieza a las 21:00: abre el chat" | 21:00 | Portada de la plantilla |
 | 2 | 퀴즈 5 · Quiz 5 (1–4) | Ítems 1–4 de C.16 · "Un solo mensaje, numerado · 2,5 min" | — | Nueva |
 | 3 | 퀴즈 5 · ítem 5 | El texto de Jeju y las 4 opciones · "읽고 고르세요 (lee y elige)" | Estilo TOPIK I | Nueva |
 | 4 | Clave + quiz en línea 2 | Las 5 respuestas (aparecen con clic) · espacio para las 2 preguntas del quiz en línea 2 · "✗ 지하철으로 → ✓ 지하철로" (o el error que anotaste) | Se completa el lunes | Nueva |
-| 5 | 지금 한국은… 수능 | Foto libre · "Jueves 19 · 09:00 · 국어" · **시험 잘 보세요!** (reconocer) · 🍲 미역국? | Gancho [YA] · ⚑ horario | Nueva |
+| 5 | 지난주 목요일, 한국은… 수능 | Foto libre · "Jueves 19 nov · 09:00 · 국어" · **시험 잘 보세요!** (reconocer) · 🍲 미역국? | Gancho [YA] · ⚑ horario | Nueva |
 | 6 | Hoy vas a poder decir… | Las 5 frases de la sección 0 | 15 s | Nueva |
 | 7 | Tres cosas de Jay | 3 fotos; las frases aparecen con clic: 저는 담배를 안 피워요 · 저는 춤을 잘 못 춰요 · 그리고 저는 운전할 수 있어요 | R de las 3 estructuras | Nueva (tus fotos) |
 | 8 | 안 = "no" delante del verbo | 고기를 안 먹어요 · 커피를 안 마셔요 · 안 바빠요 · 안 매워요 · "El objeto va antes: ✗ 안 고기를 먹어요" | Rol de experto (julio) | Nueva |
@@ -568,7 +568,7 @@ La clase 7 empieza con el quiz 6: 안 o 못, 먹지 않아요, 할 수 있어요
 | 24 | Salas · 20 min | R1 encuesta ○ △ × (+ 2 frases sobre tu pareja) · R2 tres tarjetas (21:41) · R3 la invitación (21:45) · minuto libre (21:51) · "Tu tarjeta: sección 7 del material" · "La columna 3 es Jay" | 21:34:30 | Nueva |
 | 25 | Lo que oí hoy | 3 recuadros: ✗ → ✓ (se completa con lo que oíste) | — | Nueva |
 | 26 | Las 3 frases de hoy | 수영할 수 있어요? / 미안해요, 내일은 못 가요. / 다음에 같이 가요! | Coro; de aquí sale el clip | B.12 |
-| 27 | Tarea (≈ 30 min) | 1 Lector → Practicar → 🖼 Pictogramas, 3 rondas seguidas + reto de voz (5 min) · 2 Hoja 6 (15 min; 2 frases también en forma larga) · 3 Audio de 40 s "할 수 있어요, 못 해요" (5 min; puede usar la Parte B) · 4 Prepara la S7: 2 ciudades, comidas o ídolos + fotos; tu escritorio a la vista (5 min) · Plazo: mié 25 nov, 21:00 · Reto / Rescate | — | Nueva |
+| 27 | Tarea (≈ 30 min) | 1 Lector → Practicar → 🖼 Pictogramas, 3 rondas seguidas + reto de voz (5 min) · 2 Hoja 6 (15 min; 2 frases también en forma larga) · 3 Audio de 40 s "할 수 있어요, 못 해요" (5 min; puede usar la Parte B) · 4 Prepara la S7: 2 ciudades, comidas o ídolos + fotos; tu escritorio a la vista (5 min) · Plazo: mié 2 dic, 21:00 · Reto / Rescate | — | Nueva |
 | 28 | Nos vemos en la semana 7 | "Quiz 6: 안 o 못 · 먹지 않아요 · 할 수 있어요 · 운동 안 해요" · 감사합니다! 화이팅! | — | Nueva |
 | E1 | ¿Quién puede…? 손 드세요 | 5 íconos (수영 · 운전 · 기타 · 춤 · 매운 음식) + contador ___ 명 | Emergencia (C.11) | Nueva |
 | E2 | Bonus: -있다 → -없다 | 재미있어요 → 재미없어요 · 맛있어요 → 맛없어요 | Extensión; no entra en el quiz | Nueva |
@@ -579,24 +579,24 @@ La clase 7 empieza con el quiz 6: 안 o 못, 먹지 않아요, 할 수 있어요
 
 | # | Qué | Por qué | Quién · cuándo |
 |---|---|---|---|
-| 1 | ⚑ **띄어쓰기 de 못해요.** El diccionario (표준국어대사전) escribe **못하다** junto cuando significa "no saber hacerlo, hacerlo mal" (노래를 못해요, 수영을 못해요) y **못 하다** separado cuando algo impide hacerlo (일이 있어서 운동을 못 했어요). El diseño y lo publicado escriben **수영 못 해요 · 운전 못 해요 · 전혀 못 해요** separados, para mostrar la regla "못 + verbo" | Si el deck usa las dos grafías, confunde; si usa solo la separada, a veces no es la del diccionario. Recomendación: en octubre, **separado siempre** (regla simple, coherente con 안 해요) y aceptar las dos en hoja y quiz; -지 못해요 va siempre junto. Si prefieres la del diccionario, se cambia en deck, material, tarjetas y clave a la vez | Jay · antes del vie 6 nov |
+| 1 | ⚑ **띄어쓰기 de 못해요.** El diccionario (표준국어대사전) escribe **못하다** junto cuando significa "no saber hacerlo, hacerlo mal" (노래를 못해요, 수영을 못해요) y **못 하다** separado cuando algo impide hacerlo (일이 있어서 운동을 못 했어요). El diseño y lo publicado escriben **수영 못 해요 · 운전 못 해요 · 전혀 못 해요** separados, para mostrar la regla "못 + verbo" | Si el deck usa las dos grafías, confunde; si usa solo la separada, a veces no es la del diccionario. Recomendación: en octubre, **separado siempre** (regla simple, coherente con 안 해요) y aceptar las dos en hoja y quiz; -지 못해요 va siempre junto. Si prefieres la del diccionario, se cambia en deck, material, tarjetas y clave a la vez | Jay · antes del vie 13 nov |
 | 2 | ⚑ **Tus tres frases de L7** (저는 담배를 안 피워요 · 춤을 잘 못 춰요 · 운전할 수 있어요) | Son de ejemplo: si no son verdad, cambia el verbo, no la estructura | Jay · al elegir las fotos |
 | 3 | ⚑ **Naturalidad del diálogo:** 금요일은 갈 수 있어요! (¿o dirías 금요일은 괜찮아요, fuera de la lista?) · 네, 잘 먹어요! como "lo como sin problema" · 노래는 할 수 있어요 (¿o 노래는 잘해요?) · 다음에 같이 노래방에 가요! (노래방, palabra a pedido) | Todo es de la lista C salvo 노래방; revisar el tono de KakaoTalk | Jay · N−2 |
 | 4 | ⚑ **Invitación del role play** 내일 같이 영화 봐요! (D-9 del diseño) en lugar de la publicada …볼 거예요? | Mejora [YA] ya decidida en el diseño; confirmar que la dices así en voz | Jay |
 | 5 | ⚑ **일이 있어서** como fórmula (D-10 del diseño) | -아서 se enseña en Conversacional 1 | Jay |
-| 6 | ⚑ **Horario del 수능 2026** y el dato "a las 09:00 KST se rinde 국어" | Horario habitual (1.ª prueba, 08:40–10:00); confirmar en kice.re.kr. Los aviones (prueba de audio de inglés) y la entrada tardía de oficinas: solo si preguntan (el blog lo cuenta; Fase 1 §15.1 pide fuente para 2026) | Jay · lun 16 nov |
+| 6 | ⚑ **Horario del 수능 2026** y el dato "a las 09:00 KST se rinde 국어" | Horario habitual (1.ª prueba, 08:40–10:00); confirmar en kice.re.kr. Los aviones (prueba de audio de inglés) y la entrada tardía de oficinas: solo si preguntan (el blog lo cuenta; Fase 1 §15.1 pide fuente para 2026) | Jay · lun 16 nov (antes de la clase 5, que cae durante el 수능) |
 | 7 | ⚑ **Tono del 미역국 antes de un examen** ("muchos lo evitan") (D-14 del diseño) | El blog del sitio dice "nadie come"; en clase se dice "muchos" | Jay |
 | 8 | ⚑ **Ítem TOPIK I del quiz 5** (D-12 del diseño) | Es original "estilo TOPIK I"; si prefieres uno oficial de topik.go.kr, cita edición y número | Jay · N−2 |
 | 9 | **Encuesta "a tres compañeros"** con salas de 2 | La columna 1 sale de la cadena del drill y la 3 eres tú al entrar a la sala; si tu recorrido no alcanza todas las salas, la columna 3 queda para la pareja de la sala vecina en la clase 7 (o vacía: no se evalúa) | Informativo |
-| 10 | **Ensayo de grabación** de la conversación evaluada | DECISIÓN DE JAY 4 (F.5 del diseño: "el minuto libre de la S6 o la S7 se graba igual") | Jay · antes del mié 18 nov |
+| 10 | **Ensayo de grabación** de la conversación evaluada | DECISIÓN DE JAY 4 (F.5 del diseño: "el minuto libre de la S6 o la S7 se graba igual") | Jay · antes del mié 25 nov |
 | 11 | **Quiz en línea 2** | Sus preguntas y clave son de la guía de la S5 y del formulario (DECISIÓN DE JAY 5, plataforma); esta guía solo reserva 1 minuto para revisar las 2 más falladas | Informativo |
 | 12 | **Resumen del cierre con 파트너** | 파트너 no está en la lista; alternativa sin palabra nueva: «[A] 씨, [B] 씨는 뭐 할 수 있어요?» | Jay decide en vivo |
 | 13 | **Pictogramas no trae imágenes de la semana** (수영, 운전, 기타, 춤, 노래) | Sirve para mantener vocabulario y lectura sin romanización; el "reto de voz" conecta la tarea con la gramática. Imágenes nuevas: anexo E | Informativo |
-| 14 | **Registro y certificado** | Asistencia en vivo / grabación + tarea y "6 de 7 entregas": **[regla del certificado: pendiente de decisión de Jay]** (DECISIÓN DE JAY 1) | Jay · antes del 14 oct (ya debería estar resuelto a esta altura) |
+| 14 | **Registro y certificado** | Asistencia en vivo / grabación + tarea y "6 de 7 entregas": **[regla del certificado: pendiente de decisión de Jay]** (DECISIÓN DE JAY 1) | Jay · antes del 21 oct (ya debería estar resuelto a esta altura) |
 | 15 | **Numeración del libro** (Negación 01–03, Habilidad 01) | D-15 del diseño | Jay · con el ejemplar |
 | 16 | **Revisión de coordinación del 26 sept (ya aplicada)** | (1) Bloque 4 pasaba de 6 min (dedos + chat): tiempos ajustados a 5:30. (2) La consigna de salas duraba ≈ 45 s en un hueco de 30 s: acortada. (3) El conteo de coreano en voz alta bajó de 32 a ≈ 29 min (R2 es mitad español). (4) Quiz 5: los ítems 2 y 3 no decían "futuro". (5) Los ejercicios 2, 4 y 5 del material repetían, palabra por palabra, los ejemplos de la explicación: cambiados (claves en C.16). (6) -지 않아요, que el quiz 6 pide a todos, solo estaba en el reto: la Hoja 6 pide 2 frases en forma larga a todos. (7) El audio puede reutilizar la Parte B (diseño B.10: una sola producción larga). (8) "Leer en el grupo lo que anotaron": la S5 no pedía entregarlo. (9) C.13 prometía reponer la clase: pasa a DECISIÓN DE JAY, como en la S1 y la S3. (10) Láminas L15 y L25 y el modelo de comentario: el error de pronunciación va en 한글 ([모스가요]), no en letras latinas. (11) El material usa las consignas en coreano que se anunciaron en la S5 | Informativo |
 
-*Coreano de esta guía:* todo lo que se pide producir está en la lista maestra (C) hasta la S6 y en la de Básico 1; lo que se adelanta o se reconoce está marcado (시험 잘 보세요, -지 못해요, 노래방 a pedido, 파트너 y 보는 solo en voz de Jay). No quedan otros ⚑ de naturalidad fuera de los de arriba.
+*Coreano de esta guía:* todo lo que se pide producir está en la lista maestra (C) hasta la S6 y en la de Básico 1; lo que se adelanta o se reconoce está marcado (시험 잘 보세요, -지 못해요, 노래방 a pedido y 파트너 solo en voz de Jay; el 보는 de la antigua despedida del 수능 ya no se usa). No quedan otros ⚑ de naturalidad fuera de los de arriba.
 
 ---
 

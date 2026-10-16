@@ -1,6 +1,6 @@
 # Semana 8 · Laboratorio 2 + evaluación oral de etapa
 ### Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · con Abby (홍미영 선생님)
-**Martes 1 de diciembre · 21:00 (hora de Chile) = miércoles 2, 09:00 en Corea · Lab 2 (módulos 1 a 5) + evaluación oral**
+**Martes 8 de diciembre [por confirmar] · 21:00 (hora de Chile) = miércoles 9, 09:00 en Corea · Lab 2 (módulos 1 a 5) + evaluación oral**
 
 Llegamos, chingu. En octubre te presentaste en 60 segundos, con nervios y con la tarjeta en la mano. Esta semana juntas los cinco temas del curso (K-pop, viajes, comida, 한복 y PC방) y muestras que ya no solo *sabes* coreano: lo *usas*. No hay nada nuevo que aprender. Esta hoja sirve para tres cosas: preparar tus dos audios, ensayar los role plays con tu pareja y llegar tranquilo/a al martes. 화이팅!
 
@@ -22,15 +22,15 @@ Llegamos, chingu. En octubre te presentaste en 60 segundos, con nervios y con la
 
 | Cuándo | Qué |
 |---|---|
-| **Martes 24 de noviembre** (clase 7) | Recibiste tu pareja de evaluación, las 2 tarjetas de role play y los 5 temas del monólogo; de tarea armaste tus 5 tarjetas de palabras clave |
-| **Del martes 24 al domingo 29, 22:00** | **Audio 1:** tu "antes y después" (tu presentación regrabada, de 2 a 3 minutos, junto con la de octubre) |
-| **Domingo 29 de noviembre, 12:00** | **Sorteo** del tema de tu monólogo, en el grupo de WhatsApp (lo hace Jay) |
-| **Hasta el lunes 30 de noviembre, 22:00** | **Audio 2:** tu monólogo de 2 minutos sobre el tema que te tocó |
-| **Lunes 30 o martes 1** | Ensayo de 10 minutos con tu pareja (WhatsApp o Zoom): los dos role plays |
-| **Martes 1, en la mañana** | Abby publica en el grupo el **orden de las salas** de la evaluación |
-| **Martes 1 · 21:00** | **Clase 8:** 21:02 Lab 2 · 21:17 evaluación en parejas · 21:55 cierre |
-| **Hasta el viernes 4 de diciembre** | Autoevaluación final y encuesta del curso (link en el grupo). Si faltaste a la clase 8: tu cita de 10 minutos con Abby |
-| **Lunes 7 de diciembre** | Entrega de los certificados digitales y del informe individual de Abby |
+| **Martes 1 de diciembre** (clase 7) | Recibiste tu pareja de evaluación, las 2 tarjetas de role play y los 5 temas del monólogo; de tarea armaste tus 5 tarjetas de palabras clave |
+| **Del martes 1 al domingo 6 de diciembre, 22:00** | **Audio 1:** tu "antes y después" (tu presentación regrabada, de 2 a 3 minutos, junto con la de octubre) |
+| **Domingo 6 de diciembre, 12:00** | **Sorteo** del tema de tu monólogo, en el grupo de WhatsApp (lo hace Jay) |
+| **Hasta el lunes 7 de diciembre, 22:00** | **Audio 2:** tu monólogo de 2 minutos sobre el tema que te tocó |
+| **Lunes 7 o martes 8 de diciembre** | Ensayo de 10 minutos con tu pareja (WhatsApp o Zoom): los dos role plays |
+| **Martes 8, en la mañana** | Abby publica en el grupo el **orden de las salas** de la evaluación |
+| **Martes 8 · 21:00** [por confirmar] | **Clase 8:** 21:02 Lab 2 · 21:17 evaluación en parejas · 21:55 cierre |
+| **Hasta el viernes 11 de diciembre** | Autoevaluación final y encuesta del curso (link en el grupo). Si faltaste a la clase 8: tu cita de 10 minutos con Abby |
+| **Lunes 14 de diciembre** | Entrega de los certificados digitales y del informe individual de Abby |
 
 ### Tu evaluación en una mirada
 
@@ -38,8 +38,8 @@ No hay examen escrito ni quiz esta semana. La evaluación tiene cuatro partes, y
 
 | Parte | Cómo | Duración | Cuándo |
 |---|---|---|---|
-| **1 · Tu "antes y después"** | Audio: tu presentación de la semana 1, regrabada y más larga, junto con la original | 2–3 min | hasta el domingo 29, 22:00 |
-| **2 · Tu monólogo** | Audio sobre el tema que te toque, **sin leer**, mirando solo tu tarjeta de palabras clave | 2 min | sorteo domingo 29, 12:00 · entrega lunes 30, 22:00 |
+| **1 · Tu "antes y después"** | Audio: tu presentación de la semana 1, regrabada y más larga, junto con la original | 2–3 min | hasta el domingo 6 de diciembre, 22:00 |
+| **2 · Tu monólogo** | Audio sobre el tema que te toque, **sin leer**, mirando solo tu tarjeta de palabras clave | 2 min | sorteo domingo 6 de diciembre, 12:00 · entrega lunes 7 de diciembre, 22:00 |
 | **3 · Tu role play** | En vivo, con tu pareja. Abby sortea: **restaurante** o **agencia de viajes** | 3 min | clase 8 |
 | **4 · Dos preguntas** | Abby te hace 2 preguntas sobre los temas del curso | ≈ 1 min | clase 8, justo después del role play |
 
@@ -48,7 +48,7 @@ No hay examen escrito ni quiz esta semana. La evaluación tiene cuatro partes, y
 - **Pedir que te repitan cuenta a favor.** Decir 다시 한번 말해 주세요 no es fallar: es conversar.
 - **Tu "antes y después" no es para comparar con nadie.** Es para que tú escuches cuánto avanzaste, y Abby lo comenta en tu informe.
 
-El lunes 7 de diciembre se entregan los **certificados digitales** y el **informe individual de Abby**. Los requisitos exactos del certificado te los confirma Academia Seúl.
+El lunes 14 de diciembre se entregan los **certificados digitales** y el **informe individual de Abby**. Los requisitos exactos del certificado te los confirma Academia Seúl.
 
 ---
 
@@ -194,7 +194,7 @@ Esta semana no hay un sonido nuevo: **se evalúa todo lo que practicaste**. Esto
 
 ## 5. Diálogo · Diez minutos después del sorteo
 
-**Domingo 29 de noviembre, 12:10 (hora de Chile).** 루시아 (Perú, trabaja en una oficina en Lima) y 안드레스 (Colombia, estudia en la universidad en Medellín) son pareja de evaluación. Acaban de ver el sorteo en el grupo y se llaman por video para ensayar.
+**Domingo 6 de diciembre, 12:10 (hora de Chile).** 루시아 (Perú, trabaja en una oficina en Lima) y 안드레스 (Colombia, estudia en la universidad en Medellín) son pareja de evaluación. Acaban de ver el sorteo en el grupo y se llaman por video para ensayar.
 
 | | Coreano | Español |
 |---|---|---|
@@ -505,8 +505,8 @@ Al terminar un examen, un proyecto o un día de trabajo, en Corea se oye mucho *
 
 ### Antes de la clase (≈ 30 minutos repartidos en la semana: lo que se entrega)
 
-1. **Audio 1 · tu "antes y después" · 10 min.** Graba de nuevo tu presentación de la semana 1, ahora de **2 a 3 minutos** y **sin leer** (usa el ejercicio 8 y 5 palabras clave). Mándala al **grupo de WhatsApp del curso junto con tu audio de octubre**, con el mensaje "Evaluación 1 · antes y después · [tu nombre]". **Plazo: domingo 29 de noviembre, 22:00 (hora de Chile).**
-2. **Audio 2 · tu monólogo · 10 min.** El **domingo 29 a las 12:00 (hora de Chile)** Jay sortea en el grupo un tema para cada uno: K-pop · viajes · comida · 한복 · e-sports. Graba **2 minutos sobre tu tema, sin leer**, mirando solo tu tarjeta de palabras clave (ejercicio 7). Mándalo al **grupo de WhatsApp del curso** con el mensaje "Evaluación 2 · [tema] · [tu nombre]". **Plazo: lunes 30 de noviembre, 22:00 (hora de Chile).**
+1. **Audio 1 · tu "antes y después" · 10 min.** Graba de nuevo tu presentación de la semana 1, ahora de **2 a 3 minutos** y **sin leer** (usa el ejercicio 8 y 5 palabras clave). Mándala al **grupo de WhatsApp del curso junto con tu audio de octubre**, con el mensaje "Evaluación 1 · antes y después · [tu nombre]". **Plazo: domingo 6 de diciembre, 22:00 (hora de Chile).**
+2. **Audio 2 · tu monólogo · 10 min.** El **domingo 6 de diciembre a las 12:00 (hora de Chile)** Jay sortea en el grupo un tema para cada uno: K-pop · viajes · comida · 한복 · e-sports. Graba **2 minutos sobre tu tema, sin leer**, mirando solo tu tarjeta de palabras clave (ejercicio 7). Mándalo al **grupo de WhatsApp del curso** con el mensaje "Evaluación 2 · [tema] · [tu nombre]". **Plazo: lunes 7 de diciembre, 22:00 (hora de Chile).**
 3. **Los dos role plays · 10 min.** Con tu pareja, por WhatsApp o Zoom, el lunes o el martes: cada role play una vez con cada rol, con las tarjetas de la sección 7B y el cronómetro en 3 minutos.
 
 **Si te quedan 10–15 minutos más (no se entrega):** el diálogo en voz alta y los ejercicios 1 a 5 (todos, unos 25 minutos). Si solo alcanzas una parte, prioriza el diálogo y los ejercicios 2 y 3: son el calentamiento perfecto para el martes.
@@ -514,7 +514,7 @@ Al terminar un examen, un proyecto o un día de trabajo, en Corea se oye mucho *
 ### Después de la clase (≈ 15 minutos)
 
 4. **Tu antes y después · 5 min.** Escucha tu audio de octubre y el nuevo, uno detrás del otro. Anota una cosa que mejoraste y una que quieres trabajar, y úsalas en la primera y la segunda pregunta de la autoevaluación.
-5. **Autoevaluación final y encuesta del curso · 10 min.** El link llega al grupo después de la clase. **Plazo: viernes 4 de diciembre.** La autoevaluación te pregunta, más o menos, esto (en español está bien; si quieres un reto, responde dos en coreano):
+5. **Autoevaluación final y encuesta del curso · 10 min.** El link llega al grupo después de la clase. **Plazo: viernes 11 de diciembre.** La autoevaluación te pregunta, más o menos, esto (en español está bien; si quieres un reto, responde dos en coreano):
    - 3 cosas que hoy puedes hacer en coreano y en octubre no podías.
    - La estructura que más usas y la que todavía te cuesta.
    - ¿Qué módulo te gustó más y por qué?

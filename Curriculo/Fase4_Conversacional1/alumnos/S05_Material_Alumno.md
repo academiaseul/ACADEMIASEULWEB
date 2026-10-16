@@ -1,6 +1,6 @@
 # Semana 5 · Laboratorio de conversación 1 · 회화 랩 1
 ### Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · con Abby (홍미영 선생님)
-**Martes 10 de noviembre · 21:00 (hora de Chile) = miércoles 11 de noviembre, 09:00 en Corea · Sin tema nuevo y sin slides nuevas: hoy hablas tú**
+**Martes 17 de noviembre · 21:00 (hora de Chile) = miércoles 18 de noviembre, 09:00 en Corea, ¡la víspera del 수능! · Sin tema nuevo y sin slides nuevas: hoy hablas tú**
 
 > **Antes de la clase:** repasa tu **guía de estudio M01–M03** (llegó con el material de la semana 4) y lee las secciones 1 a 5 de esta hoja. Son 15 minutos y te vas a sentir mucho más suelto/a en el lab.
 > **Durante la clase** vas a usar la **sección 7 (tarjetas de estación)**. Tenla abierta **antes** de entrar a tu sala de Zoom: dentro de la sala no ves el chat general.
@@ -46,6 +46,14 @@ Y tu kit de supervivencia de la semana 1 queda completo: la frase **___이/가 �
 | 16 | **맞장구** | las pequeñas reacciones que muestran que escuchas | (nota cultural, sección 8) | [🔊](https://www.academiaseul.com/audio/kr/eba79eec9ea5eab5ac.mp3) |
 | 17 | **대박!** | ¡increíble! (muy informal: entre amigos) | 와, 대박! | [🔊](https://www.academiaseul.com/audio/kr/eb8c80ebb095.mp3) |
 
+**Para reconocer · el 수능 (cultura: no entran en el quiz; sección 8)**
+
+| Coreano | Qué es | 🔊 |
+|---|---|---|
+| **내일은 수능 날이에요** | mañana es el día del 수능 (el examen de ingreso a la universidad) | [🔊](https://www.academiaseul.com/audio/kr/eb82b4ec9dbcec9d8020ec8898eb8aa520eb82a0ec9db4ec9790ec9a94.mp3) |
+| **수능 대박!** | ¡que te vaya increíble en el 수능! | [🔊](https://www.academiaseul.com/audio/kr/ec8898eb8aa520eb8c80ebb095.mp3) |
+| **시험 잘 보세요!** | ¡que te vaya bien en el examen! (sirve para cualquier examen, no solo el 수능) | [🔊](https://www.academiaseul.com/audio/kr/ec8b9ced979820ec9e9820ebb3b4ec84b8ec9a94.mp3) |
+
 **De vuelta desde la clase 1 (ya las conoces: hoy las usas de verdad)**
 [다시 한번 말해 주세요](https://www.academiaseul.com/audio/kr/eb8ba4ec8b9c20ed959cebb28820eba790ed95b420eca3bcec84b8ec9a94.mp3) (¿me lo repites?) · [천천히 말해 주세요](https://www.academiaseul.com/audio/kr/ecb29cecb29ced9e8820eba790ed95b420eca3bcec84b8ec9a94.mp3) (más despacio, por favor) · [잘 모르겠어요](https://www.academiaseul.com/audio/kr/ec9e9820ebaaa8eba5b4eab2a0ec96b4ec9a94.mp3) (no sé bien) · [이거 한국어로 뭐예요?](https://www.academiaseul.com/audio/kr/ec9db4eab1b020ed959ceab5adec96b4eba19c20ebad90ec9888ec9a943f.mp3) (¿cómo se dice esto en coreano?) · [네? ↗](https://www.academiaseul.com/audio/kr/eb84a43f.mp3) (¿perdón?, ¿cómo?)
 
@@ -62,6 +70,8 @@ Y tu kit de supervivencia de la semana 1 queda completo: la frase **___이/가 �
 | **계속하세요!** | ¡sigan! |
 | **한국어로 해요!** | ¡en coreano! |
 | **모두 수고했어요!** | ¡buen trabajo, todos! |
+| **수험생** | quien rinde un examen importante |
+| **찹쌀떡** | pastelito de arroz glutinoso (un regalo típico antes del 수능) |
 
 **Palabras que solo aparecen en las tarjetas** (para entender los precios; no entran en el quiz): 게스트하우스 hostal · 무료 gratis · 공깃밥 plato de arroz · 흑돼지 cerdo negro de Jeju · 해물라면 ramen de mariscos · 한정식 menú tradicional completo · 놀이공원 parque de diversiones · 자전거 bicicleta.
 
@@ -461,7 +471,7 @@ Un detalle de registro: **진짜? · 대박! · 맞아!** (sin 요) son de amigo
 
 **Tu frase para llevarte:** **아, 그래요? 진짜요?**
 
-**¿Y el 11/11?** El día de nuestra clase, en Corea es **11 de noviembre**: el **빼빼로데이** [🔊](https://www.academiaseul.com/audio/kr/ebb9bcebb9bceba19ceb8db0ec9db4.mp3). Toma su nombre de unas galletitas en forma de palito bañadas en chocolate, porque 11/11 parece cuatro palitos. Es una **fecha comercial** que se hizo popular en los años 90, no una fiesta tradicional; aun así, mucha gente se regala una cajita en la oficina o en el colegio. ¿En tu país hay fechas así?
+**¿Y mañana?** El día de nuestra clase, en Corea ya es miércoles 18: **la víspera del 수능**. El jueves 19 de noviembre, cientos de miles de estudiantes rinden en Corea el gran examen de ingreso a la universidad. El día anterior se les dice: **시험 잘 보세요!** (¡que te vaya bien!) y, entre amigos, **수능 대박!** (¡que te vaya increíble!). Muchos les regalan 찹쌀떡 o 엿, dulces que "se pegan": 붙다 es pegarse y también "quedar" en la universidad. Si quieres saber por qué muchos evitan la sopa de algas (미역국) antes de un examen, lee (opcional) el artículo del blog de la academia: academiaseul.com/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana. *(El artículo es para público general y trae letras latinas: tú lee el 한글.)* ¿En tu país hay un examen así?
 
 *Para leer más (opcional):* [Nunchi: el arte coreano de leer el ambiente](https://www.academiaseul.com/blog/nunchi-el-arte-coreano-de-leer-el-ambiente), en el blog de Academia Seúl.
 
@@ -469,7 +479,7 @@ Un detalle de registro: **진짜? · 대박! · 맞아!** (sin 요) son de amigo
 
 ## 9. Tarea de la semana (≈ 30 minutos)
 
-**Plazo:** antes de la clase 6 · **martes 17 de noviembre, 21:00 (hora de Chile)**. Todo se entrega en el **grupo de WhatsApp del curso**.
+**Plazo:** antes de la clase 6 · **martes 24 de noviembre, 21:00 (hora de Chile)**. Todo se entrega en el **grupo de WhatsApp del curso**.
 
 **1 · Audio de 2 minutos · 12 min** · nota de voz en el grupo
 **"Un fin de semana perfecto en Corea"**: tiene que tener **algo de K-pop, un viaje y una comida**. Sin leer: prepáralo con **5 palabras clave** anotadas y habla.
@@ -482,7 +492,7 @@ Un detalle de registro: **진짜? · 대박! · 맞아!** (sin 요) son de amigo
 *Reto:* usa **그러니까** y **글쎄요** (por ejemplo: 호텔이요? 글쎄요… 저는 게스트하우스가 좋아요).
 
 **2 · Autoevaluación · 6 min** · mensaje en el grupo
-Copia este formulario en WhatsApp y complétalo. Las casillas están en coreano para que Abby las lea de inmediato; lo demás lo puedes escribir **en español**. Si lo mandas **a más tardar el viernes 13 de noviembre**, Abby lo tiene en cuenta para tu **comentario de mitad de curso**.
+Copia este formulario en WhatsApp y complétalo. Las casillas están en coreano para que Abby las lea de inmediato; lo demás lo puedes escribir **en español**. Si lo mandas **a más tardar el viernes 20 de noviembre**, Abby lo tiene en cuenta para tu **comentario de mitad de curso**.
 
 > **랩 1 자기 평가 · Mi autoevaluación del Lab 1**
 > ☐ "다시 한번 말해 주세요" / "천천히 말해 주세요"를 사용했어요. *(Pedí que me repitieran o que hablaran más despacio.)*
@@ -499,11 +509,11 @@ Las salas de Zoom no se graban, pero **las presentaciones de los grupos sí** (e
 **4 · Prepara la clase 6 · 2 min**
 La clase 6 es sobre el **한복**. Busca y ten a mano **una foto del traje típico de tu país** (el chamanto, el huipil, la pollera…, o el que sea tuyo).
 
-**Tus 2 puntos de pronunciación:** Abby te los manda por **nota de voz** a más tardar el **jueves 12 de noviembre, 22:00 (hora de Chile)**. Escúchalos, repítelos 3 veces en voz alta y, si quieres, respóndele con tu versión.
+**Tus 2 puntos de pronunciación:** Abby te los manda por **nota de voz** a más tardar el **jueves 19 de noviembre, 22:00 (hora de Chile)**. Escúchalos, repítelos 3 veces en voz alta y, si quieres, respóndele con tu versión.
 
 **Entregables (marca cuando esté listo)**
 - [ ] Audio de 2 minutos: "un fin de semana perfecto en Corea"
-- [ ] Autoevaluación (ideal: a más tardar el vie 13)
+- [ ] Autoevaluación (ideal: a más tardar el vie 20)
 - [ ] 3 frases de compañeros, en 한글 y con nombre
 - [ ] Foto del traje típico de tu país (para mostrarla en la clase 6)
 
@@ -523,6 +533,7 @@ La clase 6 es sobre el **한복**. Busca y ten a mano **una foto del traje típi
 - [ ] Digo precios grandes con **만**: **삼십만 원 · 십오만 원 · 사만 칠천 원**.
 - [ ] Cuento experiencias (**먹어 봤어요?**), propongo (**갈까요?**) y pido para tres (**삼겹살 이 인분 주세요**) sin detenerme a pensar la regla.
 - [ ] Presento en 1 minuto lo que decidió mi grupo.
+- [ ] Sé qué decirle a alguien que rinde el 수능: **시험 잘 보세요! 수능 대박!**
 
 **Tus 3 frases de la semana** (escúchalas y repítelas encima del audio, 1 minuto al día):
 > **잠깐만요, 다시 한번 말해 주세요.** [🔊](https://www.academiaseul.com/audio/kr/ec9ea0eab990eba78cec9a942c20eb8ba4ec8b9c20ed959cebb28820eba790ed95b420eca3bcec84b8ec9a94.mp3)

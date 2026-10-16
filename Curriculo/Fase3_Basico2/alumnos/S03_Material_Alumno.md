@@ -1,8 +1,10 @@
 # Semana 3 · Presente completo · Mi rutina
 ### Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · con Jay (김재희)
-**Miércoles 28 de octubre · 21:00 (hora de Chile) · en Corea, jueves 29 a las 09:00 · Libro: *Uso de la gramática coreana · Nivel inicial*, unidades Tiempos 01–02**
+**Miércoles 4 de noviembre · 21:00 (hora de Chile) · en Corea, jueves 5 a las 09:00 · Libro: *Uso de la gramática coreana · Nivel inicial*, unidades Tiempos 01–02**
 
 > **Para la clase** trae tu lista de **8 cosas que haces en un día normal** (la tarea de la semana 2) y ten abierta la **sección 7 (tarjeta de sala)** antes de entrar a tu sala de Zoom: el chat de la sala es otro y ahí no vas a ver lo que Jay pegó en el chat general. Todo lo demás es para repasar, hacer la tarea y llegar con ventaja a la clase 4.
+>
+> *Horario de esta semana:* en EE.UU. cambió la hora el domingo 1: la clase es a las **19:00 (hora del Este)**. En Chile, como siempre, 21:00.
 
 Ya sabes decir tu edad, tu cumpleaños y a qué hora te levantas. Esta semana armas **tu día completo**: qué haces, a qué hora y dónde. Y de paso conoces a los verbos rebeldes que más vas a usar en tu vida en coreano. 화이팅!
 
@@ -435,13 +437,13 @@ Lo interesante pasa al irse. En muchas oficinas, si te vas antes que tus colegas
 
 ## 9. Tarea de la semana (≈ 30 minutos)
 
-**Plazo:** antes de la clase 4 · **miércoles 4 de noviembre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso, salvo el quiz en línea, que se envía solo.
+**Plazo:** antes de la clase 4 · **miércoles 11 de noviembre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso, salvo el quiz en línea, que se envía solo.
 
 | # | Qué | Dónde, exactamente | Tiempo | Qué entregas |
 |---|---|---|---|---|
 | 1 | **Hoja 3** | Ejercicio 4 de este material (también está en PDF en la carpeta del curso): la tabla de 20 verbos en -아요/어요 y -ㅂ니다/습니다 | 12 min | Foto o PDF de la hoja |
 | 2 | **Lector de Hangul** | academiaseul.com/lector-coreano → **Practicar → Palabras → 3 rondas seguidas.** Cada ronda son 10 palabras; al terminar, toca **Siguiente ronda**. El modo cambia solo en cada ronda (Lectura, Escucha, Inversa), así que en 3 rondas seguidas pasas por los tres. **Di cada palabra en voz alta antes de mirar las opciones**, y activa "🔊 pronunciar automáticamente al responder" para oírla después | 5 min | Captura de la pestaña **Progreso** |
-| 3 | **Quiz en línea 1** | Link en el mensaje del grupo del miércoles 28. 10 preguntas sobre el presente y los irregulares. Hazlo sin mirar la hoja: sirve para saber qué reforzar. **Cuenta como tarea de esta semana** | 8 min | Se envía solo al terminar |
+| 3 | **Quiz en línea 1** | Link en el mensaje del grupo del miércoles 4. 10 preguntas sobre el presente y los irregulares. Hazlo sin mirar la hoja: sirve para saber qué reforzar. **Cuenta como tarea de esta semana** | 8 min | Se envía solo al terminar |
 | 4 | **Prepara la semana 4** | Escribe **5 cosas que hiciste el fin de semana pasado**, en español o con el verbo en diccionario (친구 만나다, 영화 보다, 집에서 쉬다…) | 5 min | Tráelas a la clase 4: ¡llega el pasado! |
 
 *Sobre el Lector:* todavía muestra letras latinas en dos de sus tres modos (en Lectura, en las opciones; en Inversa, en la pregunta). Por eso el truco es decir la palabra en voz alta antes de mirar: tu ojo tiene que ir al 한글. Usa siempre el mismo navegador: tu progreso se guarda ahí.

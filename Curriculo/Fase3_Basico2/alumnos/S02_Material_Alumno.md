@@ -1,6 +1,6 @@
 # Semana 2 · Números aplicados: edad, cumpleaños, hora y teléfono
 ### Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · con Jay (김재희 선생님)
-**Miércoles 21 de octubre · 21:00 (hora de Chile) = jueves 22, 09:00 en Corea · Libro: *Uso de la gramática coreana · Nivel inicial*, Fundamentos 03–05 (números sino-coreanos y nativos · fechas y días de la semana · la hora)**
+**Miércoles 28 de octubre · 21:00 (hora de Chile) = jueves 29, 09:00 en Corea · Libro: *Uso de la gramática coreana · Nivel inicial*, Fundamentos 03–05 (números sino-coreanos y nativos · fechas y días de la semana · la hora)**
 
 > **Antes de entrar a la clase**, ten a mano lo que anotaste en la tarea 4 de la semana 1: tu cumpleaños, tu edad (real o inventada), tu teléfono (real o inventado) y a qué hora te levantas, almuerzas y te acuestas. **Durante la clase** vas a usar la **sección 7 (tarjeta de sala)**: ábrela antes de entrar a tu sala de Zoom, porque el chat de la sala es otro y ahí no vas a ver lo que Jay pegó en el chat general. Todo lo demás es para después: repasar, hacer la tarea y llegar con ventaja a la clase 3.
 > **Los 🔊 de este material** abren el audio de cada palabra y de cada frase clave (con la misma voz coreana del Lector).
@@ -13,7 +13,7 @@
 2. **생일이 언제예요? — 유월 십오 일이에요.** — ¿Cuándo es tu cumpleaños? — El 15 de junio.
 3. **지금 몇 시예요? — 밤 아홉 시 반이에요.** — ¿Qué hora es? — Las nueve y media de la noche.
 4. **몇 시에 일어나요? — 일곱 시에 일어나요.** — ¿A qué hora te levantas? — A las siete.
-5. **오늘은 시월 이십일 일 수요일이에요.** — Hoy es miércoles 21 de octubre.
+5. **오늘은 시월 이십팔 일 수요일이에요.** — Hoy es miércoles 28 de octubre.
 
 Con esto ya puedes dar tus datos cuando te los pidan y entender la hora de una cita sin pedir que te la repitan tres veces. Y un secreto: en coreano hay **dos maneras de contar**. Esta semana aprendes cuál va con qué.
 
@@ -120,7 +120,7 @@ El resto no cambia: 다섯 시, 여섯 살, 일곱 시.
 
 | Español | Se escribe | Se lee |
 |---|---|---|
-| miércoles 21 de octubre | 10월 21일 수요일 | 시월 이십일 일 수요일 |
+| miércoles 28 de octubre | 10월 28일 수요일 | 시월 이십팔 일 수요일 |
 | 15 de junio | 6월 15일 | 유월 십오 일 |
 
 - ¿Cuándo? → **언제**: 생일이 언제예요?
@@ -240,17 +240,17 @@ Y si en la frase hay tiempo **y** lugar, lo más natural es decir primero el tie
 
 ## 5. Diálogo
 
-**Escena 1 · En la sala de Zoom** (Camila y Daniel hacen la encuesta de cumpleaños; en Chile son las 21:30 del miércoles 21)
+**Escena 1 · En la sala de Zoom** (Camila y Daniel hacen la encuesta de cumpleaños; en Chile son las 21:30 del miércoles 28)
 
 | Quién | Coreano | Español |
 |---|---|---|
 | 다니엘 | 카밀라 씨, 생일이 언제예요? | Camila, ¿cuándo es tu cumpleaños? |
 | 카밀라 | 유월 십오 일이에요. 다니엘 씨는요? | El 15 de junio. ¿Y tú, Daniel? |
-| 다니엘 | 제 생일은 시월 이십이 일이에요. | Mi cumpleaños es el 22 de octubre. |
-| 카밀라 | 와! 지금 한국은 시월 이십이 일이에요! | ¡Oh! ¡Ahora en Corea es 22 de octubre! |
+| 다니엘 | 제 생일은 시월 이십구 일이에요. | Mi cumpleaños es el 29 de octubre. |
+| 카밀라 | 와! 지금 한국은 시월 이십구 일이에요! | ¡Oh! ¡Ahora en Corea es 29 de octubre! |
 | 다니엘 | 정말요? | ¿En serio? |
 | 카밀라 | 네! 한국은 지금 목요일 아침 아홉 시 반이에요. 생일 축하해요! | ¡Sí! En Corea ahora es jueves, las nueve y media de la mañana. ¡Feliz cumpleaños! |
-| 다니엘 | 하하, 감사합니다! 칠레는 아직 이십일 일이에요. | ¡Jaja, gracias! En Chile todavía es 21. |
+| 다니엘 | 하하, 감사합니다! 칠레는 아직 이십팔 일이에요. | ¡Jaja, gracias! En Chile todavía es 28. |
 
 **Escena 2 · Edad y teléfono**
 
@@ -404,7 +404,7 @@ b) 010-2468-1357 (un celular de Corea) → ________________________
   - **생일이 언제예요?**
   - **몇 살이에요?** (la respuesta puede ser real o inventada)
   - Una de familia: **어머니 생일이 언제예요?** · **강아지는 몇 살이에요?** · **남편/아내 생일이 언제예요?**
-- **Para cerrar:** cada uno presenta a un compañero, en una o dos frases: «다니엘 씨 생일은 시월 이십이 일이에요. 스물다섯 살이에요.»
+- **Para cerrar:** cada uno presenta a un compañero, en una o dos frases: «다니엘 씨 생일은 시월 이십구 일이에요. 스물다섯 살이에요.»
 - **Reto:** pregunta la fecha completa (**몇 월 며칠이에요?**) y di tus horas con 오전/오후.
 
 **Minuto libre** (3 min · sin mirar el cuaderno, en cualquier orden)
@@ -429,7 +429,7 @@ Y en tu país, ¿preguntar la edad al conocer a alguien es normal o raro? Esa di
 
 ## 9. Tarea de la semana (≈ 30 minutos)
 
-**Plazo:** antes de la clase 3 · **miércoles 28 de octubre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso.
+**Plazo:** antes de la clase 3 · **miércoles 4 de noviembre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso.
 
 **1 · Lector de Hangul · ≈ 12 min** · academiaseul.com/lector-coreano
 1. **Aprender → 7 "Dos maneras de contar".** Muévete por el explorador con **−** y **+** (o con 🎲): cada número aparece en las dos series, con audio. **Di el número en voz alta antes de tocar 🔊.** Debajo aparece en letras latinas: tápalo con el dedo. En el recuadro "Trucos que salvan vidas", toca el 🔊 de **세 시 삼십 분** y repítelo 3 veces.
@@ -445,7 +445,7 @@ Y en tu país, ¿preguntar la edad al conocer a alguien es normal o raro? Esa di
 1. Mi edad (real o inventada): ______ 살 → 저는 ____________________ 살이에요.
 2. Mi cumpleaños: ___월 ___일 → 제 생일은 ______________________________.
 3. Mi teléfono (real o inventado): ______________ → 제 전화번호는 ______________________________.
-4. Hoy: 10월 21일 수요일 → 오늘은 ______________________________.
+4. Hoy: 10월 28일 수요일 → 오늘은 ______________________________.
 
 *B · Tres horas de mi día* (en cifras y en 한글, con 에)
 5. ___:___ → ________________________ 일어나요.
@@ -487,7 +487,7 @@ Anota **8 cosas que haces en un día normal** (en español o con el verbo en dic
 
 - [ ] Digo mi edad (real o inventada) con **살** y los números nativos, incluido **스무 살**.
 - [ ] Pregunto y digo un cumpleaños: **생일이 언제예요? — 유월 십오 일이에요.**
-- [ ] Digo la fecha de hoy de lo grande a lo chico: **오늘은 시월 이십일 일 수요일이에요.**
+- [ ] Digo la fecha de hoy de lo grande a lo chico: **오늘은 시월 이십팔 일 수요일이에요.**
 - [ ] Digo la hora con **hora nativa y minutos sino**: 세 시 삼십 분 · 아홉 시 반.
 - [ ] Pongo **오전/오후** o **아침/저녁/밤** antes de la hora.
 - [ ] Dicto mi teléfono cifra por cifra, con **공**, y entiendo el de otro.

@@ -1,8 +1,8 @@
 # Semana 1 · Diagnóstico + radiografía del TOPIK II · 시험을 알자
 ### TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · Cuaderno de estrategia · con Jay (김재희 선생님)
-**Jueves 15 de octubre · 21:00 (hora de Chile) · la sala de Zoom se abre a las 20:58**
+**Jueves 22 de octubre · 21:00 (hora de Chile) · la sala de Zoom se abre a las 20:58**
 
-> **Antes de la clase (10 minutos, a más tardar el miércoles 14)**
+> **Antes de la clase (10 minutos, a más tardar el miércoles 21)**
 > 1. Descarga de **topik.go.kr** (sección de exámenes anteriores, 기출문제) el **제64회 TOPIK II**, que en este curso llamamos **Examen A**: el cuadernillo de **읽기** (2교시), el de **듣기·쓰기** (1교시) y el **audio (MP3)** del 듣기. La ruta paso a paso está en la página 4 del kit de nivelación. **No lo resuelvas ni lo hojees:** es tu diagnóstico del jueves.
 > 2. Imprime la **hoja de respuestas** de la carpeta del curso. Si no puedes imprimir, usa la grilla de la sección 7 de este cuaderno o una hoja cuadriculada.
 > 3. Ten a mano: computador con Zoom, audífonos, lápiz, goma, el cronómetro de tu celular y el teclado coreano instalado (guía rápida al final de la sección 9).
@@ -377,7 +377,7 @@ Corrige con **lápiz o azul** (en Academia Seúl nunca usamos rojo). Cada aciert
 | 듣기 1–10 | ___ | × 2 | ___ / 20 |
 | 쓰기 51 (provisorio) | ㉠ ___ / 5 | ㉡ ___ / 5 | ___ / 10 |
 
-**Tu puntaje es tuyo:** no lo escribas en el chat. **Hoy, antes de las 23:00:** foto de tu hoja completa al **chat privado con Jay** (no al grupo). El viernes 16 te devuelve el 51 corregido.
+**Tu puntaje es tuyo:** no lo escribas en el chat. **Hoy, antes de las 23:00:** foto de tu hoja completa al **chat privado con Jay** (no al grupo). El viernes 23 te devuelve el 51 corregido.
 
 **Tarjeta 5 · 21:48 · Mi corte objetivo**
 El corte es para el **total**: no necesitas lo mismo en cada sección. Reparte tu meta y compárala con lo de hoy.
@@ -426,9 +426,9 @@ Un detalle de la cultura de estudio en Corea que te va a servir: muchos estudian
 
 | Qué | Cuánto | Dónde | Plazo |
 |---|---|---|---|
-| Foto de tu hoja del diagnóstico | 1 min | Chat **privado** con Jay | **Hoy, jue 15, 23:00** |
-| **Núcleo 1:** Examen B · 읽기 1–20 con tiempos | ≈ 28 min | Formulario de autocorrección: [link] | **Mié 21 oct, 22:00** (si se te pasa, mándalo igual antes de la clase 2) |
-| **Núcleo 2:** las 12 palabras + 6 oraciones | ≈ 12 min | Grupo de WhatsApp del curso | Antes de la clase 2 (jue 22, 21:00) |
+| Foto de tu hoja del diagnóstico | 1 min | Chat **privado** con Jay | **Hoy, jue 22, 23:00** |
+| **Núcleo 1:** Examen B · 읽기 1–20 con tiempos | ≈ 28 min | Formulario de autocorrección: [link] | **Mié 28 oct, 22:00** (si se te pasa, mándalo igual antes de la clase 2) |
+| **Núcleo 2:** las 12 palabras + 6 oraciones | ≈ 12 min | Grupo de WhatsApp del curso | Antes de la clase 2 (jue 29, 21:00) |
 | **Tarea 3 · Escucha:** podcast + 5 palabras nuevas | ≈ 15 min | Mismo mensaje de tus 6 oraciones | Antes de la clase 2 |
 | **Puente a la S2** | 5 min | Tu cuaderno | Antes de la clase 2 |
 | Ruta intensiva | opcional | — | — |
@@ -451,7 +451,7 @@ Un detalle de la cultura de estudio en Corea que te va a servir: muchos estudian
 - **Meta 3:** las 20 respondidas en 20 minutos, **ninguna en blanco**. Los aciertos todavía no importan. (El reloj Chingu pide 1–20 en 15 minutos: a eso llegamos en la clase 2.)
 - **Meta 4–5:** lo mismo y, con el cronómetro de nuevo, **읽기 21–25** del mismo examen en 10 minutos, como en el reloj Chingu (también al formulario).
 - **Rescate** (si Jay te lo indica en tu mensaje del viernes): **읽기 1–12 en 12 minutos**, mismo formulario. Las 6 oraciones se hacen igual.
-- *¿Todavía no sabes tu sub-meta?* Te llega el viernes 16 con tu mapa. Hasta entonces, haz la Meta 3.
+- *¿Todavía no sabes tu sub-meta?* Te llega el viernes 23 con tu mapa. Hasta entonces, haz la Meta 3.
 
 **Núcleo 2 · Las 12 palabras + 6 oraciones (cuenta para la nota)**
 Escribe **2 oraciones con cada verbo**: 증가하다, 감소하다 y 해결하다 (6 en total). Que sean tuyas: sobre tu ciudad, tu trabajo, tu estudio. Mándalas en un solo mensaje al grupo del curso. Se aceptan en 해요체 (-아/어요); si te animas con el estilo escrito (-다), mejor.
@@ -470,15 +470,15 @@ Escucha **15 minutos de un podcast coreano lento** (Jay manda opciones en el gru
 
 **Entregables (marca cuando esté listo)**
 - [ ] Foto de mi hoja del diagnóstico al chat privado con Jay (hoy, 23:00)
-- [ ] Formulario de B 읽기 1–20 con mis tiempos (mié 21, 22:00; a más tardar, antes de la clase 2)
+- [ ] Formulario de B 읽기 1–20 con mis tiempos (mié 28, 22:00; a más tardar, antes de la clase 2)
 - [ ] 6 oraciones + mis 5 palabras del podcast en el grupo (antes de la clase 2)
 - [ ] 3 verbos en 한다체 subrayados en 읽기 19–20
-- [ ] Solo si faltaste o no alcanzaste la entrevista: diagnóstico en casa (abajo), antes del **domingo 18**
+- [ ] Solo si faltaste o no alcanzaste la entrevista: diagnóstico en casa (abajo), antes del **domingo 25**
 
 **La clase 2 empieza con el quiz 1:** 5 preguntas en 5 minutos sobre lo de hoy: palabras de la semana, un conector y la radiografía del examen. Los ejercicios 1, 2, 3 y 5 de la sección 6 son tu mejor repaso.
 
 ### ¿Faltaste o no alcanzaste la entrevista? Tu diagnóstico en casa
-Mira la grabación (se sube dentro de 24 horas) y, antes del **domingo 18 de octubre**:
+Mira la grabación (se sube dentro de 24 horas) y, antes del **domingo 25 de octubre**:
 1. **Si faltaste:** con el Examen A (제64회), **읽기 1–10 y el 51 en 15 minutos** cronometrados, a mano. Después **듣기 1–10** con el MP3: una sola escucha y sin pausar. Foto de tu hoja al chat privado con Jay.
 2. **Un audio de unos 2 minutos** al chat privado con Jay. Lee la pregunta, **deja el papel y responde sin leer**: 왜 토픽을 준비해요? · 한국어를 얼마나, 어떻게 공부했어요? · 몇 급을 받고 싶어요? 언제요?
 3. Jay te manda por privado **un párrafo corto para leer en voz alta** en el mismo audio. No lo practiques antes: le interesa cómo lo lees a la primera.

@@ -1,5 +1,5 @@
 # Básico 1 (A1.1) · Semana 8 · 사과를 좋아해요 + examen · "Yo en coreano"
-### Guía de la profesora · Kiran (기란) · martes 1 y jueves 3 de diciembre de 2026 · 20:00–20:58 (hora de Chile)
+### Guía de la profesora · Kiran (기란) · martes 8 (feriado en Chile: Jay confirma si se mantiene) y jueves 10 de diciembre de 2026 · 20:00–20:58 (hora de Chile)
 **Lección 9 + Lección 10 (repaso integral) del libro**
 
 > **MATERIAL DE LA PROFESORA · no se comparte con alumnos.** Con respuestas, tiempos y notas internas: **no se comparte con los alumnos.** Lo que reciben los alumnos está en `../alumnos/S08_Material_Alumno.md` (sin respuestas).
@@ -50,11 +50,11 @@
 | 10 | **Tarea de reading** | Mini-texto original "안녕하세요! 저는 소피아예요." (15 frases cortas con las 6 piezas del curso; material del alumno, ejercicio 6): leer en voz alta dos veces, la segunda sin detenerse, y responder 6 preguntas en coreano. Es la meta de lectura de A1.1: leer un mini-texto de 5 frases sin deletrear. Más el diálogo modelo y el texto con huecos de 다니엘 (ejercicio 5). |
 | 11 | **Tarea de writing** | Antes de la clase: sección 4 del examen (6 frases sobre ti). En clase: la coincidencia y la diferencia **tipeadas en 한글** en el chat. En la hoja: ejercicios 4, 5 y 7 (preguntas, texto con huecos, 4 frases de gustos). |
 | 12 | **Actividad interactiva** | Encuesta de gustos en salas de 2–3 con la tarjeta de 13 palabras (la de la S7 + 사과, 바나나, 과일) + "tu palabra". Extensión si sobra tiempo: "Adivina quién" con los reportes del chat (C.11). |
-| 13 | **Tarea para la casa** | **Antes de la clase:** examen escrito en línea de 30 min (abre 48 h antes de la clase 8) · ejercicios 1–7 de la hoja (≈ 20 min, repaso del examen; no se entregan) · ensayo de la presentación (≈ 10 min: 3 veces en voz alta + 1 grabación sin mirar). **Después, ≈ 20 min:** (1) Lector → Progreso, captura final (≈ 5 min, con una ronda de Pictogramas o de Contrarreloj si quieren); (2) audio de 1 minuto con la mini-presentación ya corregida, sin leer, en el grupo (≈ 10 min con el ensayo) [plazo propuesto: domingo 6 de diciembre; confirmar con Kiran]; (3) escuchar su audio base de la S1 y el final ("antes y después") y anotar **para sí** una cosa que mejoró y una que quiere trabajar en Básico 2 (≈ 5 min; no se entrega). No hay "clase siguiente": la tarea prepara Básico 2 (el audio final es su punto de partida). |
+| 13 | **Tarea para la casa** | **Antes de la clase:** examen escrito en línea de 30 min (abre 48 h antes de la clase 8) · ejercicios 1–7 de la hoja (≈ 20 min, repaso del examen; no se entregan) · ensayo de la presentación (≈ 10 min: 3 veces en voz alta + 1 grabación sin mirar). **Después, ≈ 20 min:** (1) Lector → Progreso, captura final (≈ 5 min, con una ronda de Pictogramas o de Contrarreloj si quieren); (2) audio de 1 minuto con la mini-presentación ya corregida, sin leer, en el grupo (≈ 10 min con el ensayo) [plazo propuesto: domingo 13 de diciembre; confirmar con Kiran]; (3) escuchar su audio base de la S1 y el final ("antes y después") y anotar **para sí** una cosa que mejoró y una que quiere trabajar en Básico 2 (≈ 5 min; no se entrega). No hay "clase siguiente": la tarea prepara Básico 2 (el audio final es su punto de partida). |
 | 14 | **Recurso digital** | **Después de la clase:** Lector (`/lector-coreano`) → pestaña **Progreso** → captura final: estrellas de todos los niveles. El Contrarreloj de cierre que menciona el programa queda **opcional** [YA]: si lo juegan, el "récord contrarreloj" sale en la misma pantalla de Progreso. **Para repasar antes del examen:** Practicar → Pictogramas, 3 rondas seguidas (el Lector elige el grupo por rotación: quien hizo justo las 9 rondas de S3, S5 y S7 cae en "comida y objetos", que trae 사과, 바나나, 라면, 커피, 우유, 빵; "todo" también los incluye; las opciones nunca están en letras latinas) + Palabras, 3 rondas seguidas (trae 바나나, 김치, 라면, 커피), diciendo la palabra en voz alta antes de mirar las opciones. **Extra opcional:** Dubu, barrio 5 Río Han (5-1 사과, de oído; 5-3 pares ㅓ/ㅗ y ㅡ/ㅜ) o barrio 6 Estación de Seúl (6-2 김치; 6-3 받침 밤/밥/방), si ya lo tienen abierto. Flashcards de comida y gustos (semana 8, carpeta del curso). |
-| 15 | **Preparación de la profe** | Checklist completo en C.2. Lo esencial: tus 4 gustos reales al equipo del deck antes del **vie 20 nov** · guiones devueltos antes de la clase 8 · orden de presentaciones publicado · recordatorios del examen · planilla de rúbrica lista · cronómetro · textos para pegar en el chat (orden y preguntas). |
+| 15 | **Preparación de la profe** | Checklist completo en C.2. Lo esencial: tus 4 gustos reales al equipo del deck antes del **vie 27 nov** · guiones devueltos antes de la clase 8 · orden de presentaciones publicado · recordatorios del examen · planilla de rúbrica lista · cronómetro · textos para pegar en el chat (orden y preguntas). |
 | 16 | **Entregable del alumno** | Examen escrito (antes de la clase) · presentación "Yo en coreano" en vivo + respuesta a una pregunta del grupo · captura final de Progreso · audio final de 1 minuto. |
-| 17 | **Evaluación** | **Examen escrito** (50 pts, 4 secciones publicadas; **máximo 2 ítems de la Lección 9**) + **parte oral "Yo en coreano"** con la rúbrica de 5 criterios (20 pts). Ambos forman el 35 % "Examen o presentación final" de la tabla del kit (participación 25 · tareas 25 · quizzes 15 · final 35); el reparto del 35 % entre escrito y oral: propuesta 17,5 + 17,5 (**DECISIÓN DE JAY**). No hay quiz en la clase 8. Informe a Jay el **vie 4 dic**; certificados el **lun 7 dic**. **[regla del certificado: pendiente de decisión de Jay]** (C.17). |
+| 17 | **Evaluación** | **Examen escrito** (50 pts, 4 secciones publicadas; **máximo 2 ítems de la Lección 9**) + **parte oral "Yo en coreano"** con la rúbrica de 5 criterios (20 pts). Ambos forman el 35 % "Examen o presentación final" de la tabla del kit (participación 25 · tareas 25 · quizzes 15 · final 35); el reparto del 35 % entre escrito y oral: propuesta 17,5 + 17,5 (**DECISIÓN DE JAY**). No hay quiz en la clase 8. Informe a Jay el **vie 11 dic**; certificados el **lun 14 dic**. **[regla del certificado: pendiente de decisión de Jay]** (C.17). |
 
 **Romanización:** ninguna, en nada (deck, hoja, chat, examen). Notación [ ] en Hangul solo cuando hay regla de sonido.
 
@@ -79,8 +79,8 @@
 | 19–22 | 20:19 | Reporte | "Escriban en el chat, en 한글, su coincidencia y su diferencia." Lee 3 en voz alta; 2 pares lo dicen de viva voz. Corrige **un** patrón para todos. A las 20:21 pega en el chat las **preguntas del grupo**. | Tipean en 한글; dos pares hablan. | Lám. 12 → **deja de compartir** a las 20:21:30. Chat: preguntas del grupo. | Lám. 12 · C.10 |
 | 22–52 | 20:22 | **"Yo en coreano"** · G + **L** | Da el pie: "(nombre), 화이팅!". Cronometra (con 15 presentes: ≈ 1:30 + pregunta). **Destaca** (Spotlight) el video de quien presenta. Puntúa en la planilla. No interrumpe: anota. Tras la respuesta: "잘했어요!" | Presentan sin leer, mostrando fotos a la cámara; el siguiente de la lista hace una pregunta; quien presenta responde. El resto escucha y juega su bingo. | Vista de orador, sin compartir pantalla. Reacciones 👏. Chat: solo preguntas del grupo. | Planilla · cronómetro · C.10 |
 | 52–53 | 20:52 | 3 frases clave | "따라 하세요!" 뭘 좋아해요? / 불고기를 정말 좋아해요. / 아니요, 안 좋아해요. Dos veces. | Coro, con micrófono abierto. | Lám. 15. (De aquí se recorta `B1_S08_frases_clave.mp3`.) | Lám. 15 |
-| 53–56 | 20:53 | Una frase de 8 semanas | Da un ejemplo de alumno: "저는 한국어를 공부해요!" Rueda en el orden de la lista, una frase cada uno (≈ 8 s). Con más de 12 presentes: todos al chat + 4 voces. | Cada uno dice (o tipea) una frase que no sabía decir el 13 o el 15 de octubre. | Lám. 16. | Lám. 16 |
-| 56–57 | 20:56 | Puente a Básico 2 + tarea | Básico 2 en enero (pasado, futuro, hora, edad, fechas) · certificado la semana del 7 dic · tarea final (captura + audio de 1 min). | Escuchan; anotan el plazo del audio. | Láms. 17–18. | Láms. 17–18 |
+| 53–56 | 20:53 | Una frase de 8 semanas | Da un ejemplo de alumno: "저는 한국어를 공부해요!" Rueda en el orden de la lista, una frase cada uno (≈ 8 s). Con más de 12 presentes: todos al chat + 4 voces. | Cada uno dice (o tipea) una frase que no sabía decir el 20 o el 22 de octubre. | Lám. 16. | Lám. 16 |
+| 56–57 | 20:56 | Puente a Básico 2 + tarea | Básico 2 en enero (pasado, futuro, hora, edad, fechas) · certificado la semana del 14 dic · tarea final (captura + audio de 1 min). | Escuchan; anotan el plazo del audio. | Láms. 17–18. | Láms. 17–18 |
 | 57–58 | 20:57 | Despedida | "감사합니다! 안녕히 가세요!" (Kiran se queda: los alumnos se van). Captura de galería **solo si el grupo acepta** (y no va a redes sin permiso explícito). Corta la grabación y cierra a las 20:58. | "감사합니다! 안녕히 계세요!" + leve inclinación. | Lám. 19. | Lám. 19 |
 
 ### B.2 Ajuste según cuántos presentan
@@ -117,22 +117,22 @@ Que cada alumno **se vaya habiendo hablado de sí mismo en coreano, sin leer, fr
 
 | Cuándo | Qué | Nota |
 |---|---|---|
-| **vie 20 nov** | Mandar al equipo del deck **tus 4 gustos reales** (por texto: 2 que te encantan, 1 "un poco", 1 que no). | El deck los trae con imagen. Tú no buscas fotos ni armas láminas. |
-| **vie 20 nov** | Revisar el deck de la S8 y esta guía; avisar si falta algo. | Regla N−2 (diseño G.2). |
-| **Clase 7** (mar 24 / jue 26 nov) | Sorteo del orden de presentaciones y publicación en el grupo · tarjeta de gustos · encargo del guion. | Lo cubre la guía de la S7. |
+| **vie 27 nov** | Mandar al equipo del deck **tus 4 gustos reales** (por texto: 2 que te encantan, 1 "un poco", 1 que no). | El deck los trae con imagen. Tú no buscas fotos ni armas láminas. |
+| **vie 27 nov** | Revisar el deck de la S8 y esta guía; avisar si falta algo. | Regla N−2 (diseño G.2). |
+| **Clase 7** (mar 1 / jue 3 dic) | Sorteo del orden de presentaciones y publicación en el grupo · tarjeta de gustos · encargo del guion. | Lo cubre la guía de la S7. |
 | **48 h después de la clase 7** | Recibir los guiones [plazo propuesto; confirmar con Kiran]. | El guion es formativo: no lleva nota. |
 | **Antes de la clase 8** | Devolver cada guion corregido (partículas, 이에요/예요, -아요/어요; máximo 3 marcas, una positiva primero). | Idealmente 48 h antes de la clase, para que ensayen. |
 | **Con el mensaje post-clase de la S7** | Compartir en el grupo el PDF de `S08_Material_Alumno` (sirve de repaso para el examen). | Producción lo pasa a PDF. |
-| **Del 24 nov al 3 dic** | Responder en el grupo las dudas de los ejercicios de la hoja, **una por una** y con la pista del 받침 ("¿termina en 받침?"), usando la clave de C.14. | **No publiques la clave completa** antes del jue 3 dic a las 20:00, cuando cierra el examen de la sección jueves: la sección 3 del examen se parece a los ejercicios 2 y 5. |
-| **dom 29 nov · 20:00** | Sección martes: abre el examen. Publicar el link en el grupo del martes. | Link: `[PLACEHOLDER: link del formulario — lo confirma Jay]`. |
-| **lun 30 nov** | Recordatorio al grupo del martes: "El examen cierra mañana a las 20:00 (hora Chile), justo cuando empieza la clase. Ríndelo antes. Trae tus fotos y tu guion ensayado." | Sumar la hora de un país del grupo (kit §6). |
-| **mar 1 dic · 18:00** | Revisar quién del martes no ha rendido; recordatorio **por privado**. | — |
-| **mar 1 dic · 20:00** | Sección jueves: abre el examen. Publicar el link en el grupo del jueves. | Coincide con el inicio de la clase del martes: déjalo programado o pídeselo a Jay. |
-| **mié 2 dic** | Recordatorio al grupo del jueves (mismo texto). | — |
-| **jue 3 dic · 18:00** | Revisar quién del jueves no ha rendido; recordatorio por privado. | — |
+| **Del 1 dic al 10 dic** | Responder en el grupo las dudas de los ejercicios de la hoja, **una por una** y con la pista del 받침 ("¿termina en 받침?"), usando la clave de C.14. | **No publiques la clave completa** antes del jue 10 dic a las 20:00, cuando cierra el examen de la sección jueves: la sección 3 del examen se parece a los ejercicios 2 y 5. |
+| **dom 6 dic · 20:00** | Sección martes: abre el examen. Publicar el link en el grupo del martes. | Link: `[PLACEHOLDER: link del formulario — lo confirma Jay]`. |
+| **lun 7 dic** | Recordatorio al grupo del martes: "El examen cierra mañana a las 20:00 (hora Chile), justo cuando empieza la clase. Ríndelo antes. Trae tus fotos y tu guion ensayado." | Sumar la hora de un país del grupo (kit §6). |
+| **mar 8 dic · 18:00** | Revisar quién del martes no ha rendido; recordatorio **por privado**. | — |
+| **mar 8 dic · 20:00** | Sección jueves: abre el examen. Publicar el link en el grupo del jueves. | Coincide con el inicio de la clase del martes: déjalo programado o pídeselo a Jay. |
+| **mié 9 dic** | Recordatorio al grupo del jueves (mismo texto). | — |
+| **jue 10 dic · 18:00** | Revisar quién del jueves no ha rendido; recordatorio por privado. | — |
 | **Día de la clase** | Planilla de rúbrica con los nombres en el orden sorteado · cronómetro (celular) · textos para pegar (orden y preguntas, C.10) · Zoom: 7 salas automáticas, cuenta regresiva de 15 s, grabación en la nube. | — |
 
-**Si alguien no rindió el examen en su ventana:** el kit no lo cubre → **DECISIÓN DE JAY** (propuesta: reabrir el formulario para esa persona hasta el domingo 6 de diciembre). No lo prometas en el grupo hasta que Jay decida.
+**Si alguien no rindió el examen en su ventana:** el kit no lo cubre → **DECISIÓN DE JAY** (propuesta: reabrir el formulario para esa persona hasta el domingo 13 de diciembre). No lo prometas en el grupo hasta que Jay decida.
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 
@@ -208,7 +208,7 @@ Que cada alumno **se vaya habiendo hablado de sí mismo en coreano, sin leer, fr
 
 - **KO:** "따라 하세요! 뭘 좋아해요? … 불고기를 정말 좋아해요. … 아니요, 안 좋아해요." (2 veces; con micrófonos abiertos).
 - **ES:** "Última ronda: una frase que no sabías decir hace 8 semanas. Por ejemplo…" **KO:** "저는 한국어를 공부해요!" **ES:** "…pero la de ustedes. Empieza (primer nombre de la lista)." → rueda en el orden de la lista (≈ 8 s cada uno; con más de 12 presentes, todos al chat y 4 voces).
-- **ES (puente):** "En enero viene Básico 2 (A1.2): pasado, futuro, la hora, la edad y las fechas. Hoy dices 불고기를 좋아해요; en Básico 2 vas a decir 'ayer comí bulgogi'. El certificado se entrega la semana del 7 de diciembre, y Jay les va a contar de Básico 2."
+- **ES (puente):** "En enero viene Básico 2 (A1.2): pasado, futuro, la hora, la edad y las fechas. Hoy dices 불고기를 좋아해요; en Básico 2 vas a decir 'ayer comí bulgogi'. El certificado se entrega la semana del 14 de diciembre, y Jay les va a contar de Básico 2."
 - **ES (tarea):** "Antes del [fecha], unos 20 minutos: captura final de Progreso y tu audio de 1 minuto con la presentación corregida. Escucha tu audio de la semana 1 y el de hoy: ese es tu antes y después. Anota para ti una cosa que mejoraste y una que quieres trabajar en Básico 2."
 - **KO:** "감사합니다! 안녕히 가세요! 화이팅!" → los alumnos: "감사합니다! 안녕히 계세요!" ⚑ (C.8 y D).
 
@@ -384,7 +384,7 @@ Preguntas para el compañero (elige una o haz la tuya):
 | Lee el guion | "Mírame a mí y cuéntamelo." Si sigue, no lo detengas; la fluidez refleja que leyó. |
 | Se pasa de tiempo | Al corte (1:30 con 13–15 presentes; 2:00 con 12 o menos), deja terminar la frase en curso (≤ 10 s) y pasa a la pregunta. Anota en la planilla los bloques que no alcanzó a decir y menciónalo en el comentario escrito ("ordena tus ideas para que entren en minuto y medio"). ⚑ Criterio de aula que decides tú (y le cuentas a Jay en el informe): si un bloque quedó fuera **solo por el corte**, cómo pesa en "Vocabulario" (los 6 bloques cubiertos). |
 | Dura menos de 1 minuto | Hazle tú 1–2 preguntas de la lista para completar los bloques que faltan. |
-| Falla la conexión | Pasa al siguiente y déjalo para el final. Si tampoco puede, **[regla del certificado: pendiente de decisión de Jay]** (propuesta del diseño E.7: video de 1–2 min + respuesta grabada a una pregunta que envías tú, antes del domingo 6 de diciembre). |
+| Falla la conexión | Pasa al siguiente y déjalo para el final. Si tampoco puede, **[regla del certificado: pendiente de decisión de Jay]** (propuesta del diseño E.7: video de 1–2 min + respuesta grabada a una pregunta que envías tú, antes del domingo 13 de diciembre). |
 | Ausente | Igual que el caso anterior. No lo resuelvas en el grupo hasta que Jay decida. |
 | Llega tarde | Presenta al final de la lista. |
 | No mandó guion en la S7 | Presenta igual. El guion no lleva nota. |
@@ -469,9 +469,9 @@ Revisa: 을/를 según 받침 · 정말 y 조금 antes del verbo · 안 pegado a
 
 | # | Título en pantalla | Contenido en pantalla | Nota (y qué se reutiliza) |
 |---|---|---|---|
-| 1 | 사과를 좋아해요 + Yo en coreano | Básico 1 (A1.1) · Clase 8 · mar 1 / jue 3 dic 2026 · Kiran (기란) | Portada de `Repaso_MidTerm_A1.pptx` lám. 1 con textos nuevos. |
+| 1 | 사과를 좋아해요 + Yo en coreano | Básico 1 (A1.1) · Clase 8 · mar 8 / jue 10 dic 2026 · Kiran (기란) | Portada de `Repaso_MidTerm_A1.pptx` lám. 1 con textos nuevos. |
 | 2 | 오늘 · Hoy | 4 bloques con hora: 좋아해요 (20:03) · Encuesta (20:10) · Yo en coreano (20:22) · Cierre (20:52). Pie: "El orden de presentaciones está en el chat". | Nueva. |
-| 3 | 기란 선생님은 뭘 좋아해요? | 4 imágenes con los gustos reales de Kiran; cada frase aparece con un clic **después** de que Kiran la dice (formato: 커피를 정말 좋아해요. · 한국 드라마를 좋아해요. · 라면은 조금 좋아해요. · 운동은 안 좋아해요., con los gustos que mande Kiran). | Nueva, con los 4 gustos que Kiran manda antes del vie 20 nov. |
+| 3 | 기란 선생님은 뭘 좋아해요? | 4 imágenes con los gustos reales de Kiran; cada frase aparece con un clic **después** de que Kiran la dice (formato: 커피를 정말 좋아해요. · 한국 드라마를 좋아해요. · 라면은 조금 좋아해요. · 운동은 안 좋아해요., con los gustos que mande Kiran). | Nueva, con los 4 gustos que Kiran manda antes del vie 27 nov. |
 | 4 | "Me gusta" funciona al revés | Diagrama de C.4.1: español (el kimchi = sujeto) vs coreano (저는 · 김치를 · 좋아해요). Pie: "Como 'yo adoro el kimchi' · *I like kimchi*". | Nueva. Idea tomada de `Repaso_MidTerm_A1.pptx` lám. 19 (el orden coreano), sin su romanización. |
 | 5 | ¿을 o 를? | Dos columnas: 받침 → 을 (라면을, 음악을, 한국 음식을) · vocal → 를 (사과를, 커피를, 드라마를). Recuadro: [라며늘] [으마글]. | Adaptar `Repaso_MidTerm_A1.pptx` lám. 22–23 (quitar la romanización y 입어요, que no es del curso). Ojo: en los apuntes de julio (`좋아해요-260912.docx`) 을/를 aparece como "objeto indirecto": es objeto **directo**. |
 | 6 | 뭘 = 뭐 + 를 | 뭘 좋아해요? · ___을/를 좋아해요? → 네, (정말) 좋아해요. / 아니요, 안 좋아해요. Pie: "como de + el = del". | Adaptar `Repaso_MidTerm_A1.pptx` lám. 25–26: **quitar** 망고 주스, 파스타, 소주 y la romanización; **cambiar** "싫어해요" como negativo por defecto por 안 좋아해요. |
@@ -485,7 +485,7 @@ Revisa: 을/를 según 받침 · 정말 y 조금 antes del verbo · 안 pegado a
 | 14 | Preguntas para tu compañero | Las 8 preguntas de C.10. | Respaldo por si el chat falla. |
 | 15 | 오늘의 문장 · 3 frases clave | 뭘 좋아해요? / 불고기를 정말 좋아해요. / 아니요, 안 좋아해요. | Mismo formato que las láminas de frases clave de S1–S7. |
 | 16 | 8주 전에는…? | "Una frase que no sabías decir hace 8 semanas". Ejemplo: 저는 한국어를 공부해요! | Nueva. |
-| 17 | 다음 단계 · Básico 2 (A1.2) | Pasado · futuro · la hora · la edad · las fechas · enero de 2027. Ejemplo "solo para mirar": 불고기를 좋아해요 (hoy) → 어제 불고기를 먹었어요 (ayer comí bulgogi) · 내일 불고기를 먹을 거예요 (mañana voy a comer bulgogi). Certificado: semana del 7 de diciembre. | Nueva. Las dos frases de Básico 2 **no se practican** ni entran en nada: son el anzuelo del puente publicado. |
+| 17 | 다음 단계 · Básico 2 (A1.2) | Pasado · futuro · la hora · la edad · las fechas · enero de 2027. Ejemplo "solo para mirar": 불고기를 좋아해요 (hoy) → 어제 불고기를 먹었어요 (ayer comí bulgogi) · 내일 불고기를 먹을 거예요 (mañana voy a comer bulgogi). Certificado: semana del 14 de diciembre. | Nueva. Las dos frases de Básico 2 **no se practican** ni entran en nada: son el anzuelo del puente publicado. |
 | 18 | Tu tarea final (≈ 20 min) | 1) Lector → Progreso: captura final. 2) Audio de 1 min: tu presentación corregida, sin leer. 3) Escucha tu audio de la semana 1 y el de hoy; anota para ti 1 cosa que mejoraste y 1 para Básico 2. Plazo: [fecha]. | Nueva. |
 | 19 | 8주 전에는 한글도 몰랐어요. | "Hace 8 semanas no sabía ni 한글." (sin sujeto: la dice el alumno sobre sí mismo; si se quiere en segunda persona, el español puede ir "no sabías", pero el coreano se lee como primera persona) · 감사합니다 · 안녕히 가세요 / 안녕히 계세요 · 화이팅! | Reutilizar `Repaso_MidTerm_A1.pptx` lám. 34 (misma frase de marca que el kit). La frase está en pasado: se muestra traducida, no se practica (el pasado es de Básico 2). |
 | B1 | Respaldo · Las 6 piezas | Tabla de C.4.8 (이에요/예요 · 은/는 · 이/가 · 을/를 · 에 · -아요/어요). | `Particulas_Coreanas_Editable.pptx` o `Repaso_MidTerm_A1.pptx` láms. 20–24, **quitando** 에서, 의, 안 가요, 수영장, 백화점 y la romanización. |
@@ -497,7 +497,7 @@ Revisa: 을/를 según 받침 · 정말 y 조금 antes del verbo · 안 pegado a
 ### C.16 Después de la clase
 
 **Dentro de 24 horas (kit §6):**
-- Subir a la carpeta del curso la grabación (`Basico1-Martes_S08_2026-12-01` / `Basico1-Jueves_S08_2026-12-03`), el PDF de la clase y la tarea (`Curso_S08_Fecha_Tema.pdf`).
+- Subir a la carpeta del curso la grabación (`Basico1-Martes_S08_2026-12-08` / `Basico1-Jueves_S08_2026-12-10`), el PDF de la clase y la tarea (`Curso_S08_Fecha_Tema.pdf`).
 - Marcar en la hoja del curso la asistencia y los 5 puntajes orales (+ checklist).
 - Publicar en el grupo el mensaje post-clase (abajo) y mandarle a Jay una línea ("todo bien / faltó X / …").
 - Producción recorta de la grabación el coro de las 3 frases clave: `B1_S08_frases_clave.mp3` (diseño B.12; Kiran no graba ni edita).
@@ -505,24 +505,24 @@ Revisa: 을/를 según 받침 · 정말 y 조금 antes del verbo · 안 pegado a
 **Mensaje post-clase (para el grupo):**
 > ¡Gracias por la última clase, chingus! Hoy se presentaron en coreano, sin leer. 잘했어요!
 > Grabación: [link]
-> **Tarea final (≈ 20 min), antes del [domingo 6 de diciembre · confirmar]:**
+> **Tarea final (≈ 20 min), antes del [domingo 13 de diciembre · confirmar]:**
 > 1) Lector de Hangul → pestaña Progreso: captura final con tus estrellas (si quieres, antes juega una ronda de ⚡ Contrarreloj: tu récord sale en la misma pantalla).
 > 2) Audio de 1 minuto aquí en el grupo: tu "Yo en coreano" ya corregido, sin leer.
 > 3) Escucha tu audio de la semana 1 y el de hoy. Ese es tu antes y después. Anota para ti una cosa que mejoraste y una que quieres trabajar en Básico 2.
-> En 48 horas te llega por escrito mi comentario de tu presentación. El certificado se entrega la semana del 7 de diciembre, y Jay les cuenta de Básico 2. 감사합니다! 화이팅!
+> En 48 horas te llega por escrito mi comentario de tu presentación. El certificado se entrega la semana del 14 de diciembre, y Jay les cuenta de Básico 2. 감사합니다! 화이팅!
 
-**Dentro de 48 horas: comentario escrito de la presentación** (máximo 3 puntos, uno positivo primero; kit y diseño F.5). Sección martes: hasta el jue 3 dic; sección jueves: hasta el sáb 5 dic.
+**Dentro de 48 horas: comentario escrito de la presentación** (máximo 3 puntos, uno positivo primero; kit y diseño F.5). Sección martes: hasta el jue 10 dic; sección jueves: hasta el sáb 12 dic.
 > **[Nombre], 잘했어요.**
 > ✅ **Lo mejor:** [una cosa concreta, citando su frase: "tu 이분은 우리 할머니예요 sonó natural y respetuoso"].
 > **Tu foco para Básico 2:** [una sola cosa: "마리아**예요**: tu nombre termina en vocal"].
 > ➡️ **Siguiente paso:** [una acción: "Lector → Practicar → Batchim, 3 rondas; fíjate en [밥]"].
 > Escucha tu audio de la semana 1 y el de hoy: [una línea sobre el cambio].
 
-**Examen escrito:** las secciones 1–3 se corrigen con la clave del formulario (`profes/B1_Examen_Final_Clave.md`, que prepara el equipo). La **sección 4** (6 frases) la corriges tú: propuesta del diseño E.5, 1 pt por frase comprensible (6) + 2 pts partículas + 2 pts 이에요/예요 y -아요/어요; la parte de "gustos" se corrige con criterio flexible, acordado entre Jay y tú. Sección jueves: corrección el jue 3 en la noche o el vie 4 temprano, para llegar al informe.
+**Examen escrito:** las secciones 1–3 se corrigen con la clave del formulario (`profes/B1_Examen_Final_Clave.md`, que prepara el equipo). La **sección 4** (6 frases) la corriges tú: propuesta del diseño E.5, 1 pt por frase comprensible (6) + 2 pts partículas + 2 pts 이에요/예요 y -아요/어요; la parte de "gustos" se corrige con criterio flexible, acordado entre Jay y tú. Sección jueves: corrección el jue 10 en la noche o el vie 11 temprano, para llegar al informe.
 
 **Audios finales:** no entran en las "7 semanas con tarea" (S1–S7) y llegan después del informe. Basta con una respuesta breve y positiva (sugerencia, para no sumar carga).
 
-**Viernes 4 de diciembre · informe a Jay** (kit: asistencia, notas y recomendación de nivel por alumno):
+**Viernes 11 de diciembre · informe a Jay** (kit: asistencia, notas y recomendación de nivel por alumno):
 
 | Alumno | Sección | Asistencia en vivo (/8) | Grabación + tarea (n.º) | Tareas (/7) | Quizzes (prom. /5, 6 quizzes) | Examen (/50) | Oral (/20) | Nota final (%) | Recomendación |
 |---|---|---|---|---|---|---|---|---|---|
@@ -531,9 +531,9 @@ Revisa: 을/를 según 받침 · 정말 y 조금 antes del verbo · 안 pegado a
 - Pesos del kit: participación 25 % · tareas 25 % · quizzes 15 % · examen o presentación final 35 %. Reparto del 35 %: propuesta 17,5 (escrito) + 17,5 (oral) (**DECISIÓN DE JAY**). Cómo se convierte la participación en porcentaje: el kit no lo fija → lo acuerdan Jay y Kiran.
 - Recomendación de nivel: "≥ 60 % sugerido para avanzar"; quien no llegue, avanza con plan de refuerzo o repite el peldaño, a tu criterio (kit).
 - Registra **por separado** asistencia en vivo, asistencia por grabación + tarea y nota, para que Jay pueda aplicar cualquiera de las dos reglas del certificado. **[regla del certificado: pendiente de decisión de Jay]**
-- Cuándo y cómo recibe cada alumno su nota final y su recomendación: **[propuesta: con el certificado, lun 7 dic; confirmar con Jay]**.
+- Cuándo y cómo recibe cada alumno su nota final y su recomendación: **[propuesta: con el certificado, lun 14 dic; confirmar con Jay]**.
 
-**Lunes 7 de diciembre:** certificados y preventa de Básico 2 (Jay).
+**Lunes 14 de diciembre:** certificados y preventa de Básico 2 (Jay).
 
 ### C.17 Evaluación y certificado: lo que se cierra esta semana
 
@@ -577,16 +577,16 @@ Revisa: 을/를 según 받침 · 정말 y 조금 antes del verbo · 안 pegado a
 
 | # | Qué | Quién | Plazo |
 |---|---|---|---|
-| 1 | Regla del certificado de octubre (kit vs ficha `a11`) · **[regla del certificado: pendiente de decisión de Jay]** | Jay | Antes del 13 oct (diseño) |
-| 2 | Reparto del 35 % entre escrito y oral (propuesta 17,5 + 17,5) | Jay | Antes del informe del vie 4 dic |
-| 3 | Quién no presenta el día 8 (propuesta: video antes del dom 6 dic) | Jay | Antes del 24 nov (se avisa en la S7) |
-| 4 | Quién no rinde el examen en su ventana (propuesta: reabrir hasta el dom 6 dic) | Jay | Antes del dom 29 nov |
-| 5 | Link y plataforma del examen (`[PLACEHOLDER]` en el kit) | Jay | vie 20 nov |
-| 6 | Plazo del audio final (propuesta: dom 6 dic) | Kiran | Clase 8 |
-| 7 | Cuándo recibe el alumno su nota final y su recomendación (propuesta: con el certificado, lun 7 dic) | Jay | vie 4 dic |
-| 8 | Conversión de la participación a porcentaje | Jay y Kiran | vie 4 dic |
-| 9 | **Flashcards de la semana 8** (`alumnos/B1_Flashcards.xlsx`): en `A1_Nivel_1/200_Flashcards_Coreano_A1.xlsx` **faltan** 영화, 노래, 드라마, 운동, 싫어하다, 정말 y 조금, y **배 figura como "estómago"** (categoría Cuerpo), no como "pera". Hay que agregarlas y corregirlo al armar el mazo, ocultando la romanización. | Producción | vie 20 nov |
-| 10 | Kiran manda sus 4 gustos reales para la lámina 3 | Kiran | vie 20 nov |
+| 1 | Regla del certificado de octubre (kit vs ficha `a11`) · **[regla del certificado: pendiente de decisión de Jay]** | Jay | Antes del 20 oct (diseño) |
+| 2 | Reparto del 35 % entre escrito y oral (propuesta 17,5 + 17,5) | Jay | Antes del informe del vie 11 dic |
+| 3 | Quién no presenta el día 8 (propuesta: video antes del dom 13 dic) | Jay | Antes del 1 dic (se avisa en la S7) |
+| 4 | Quién no rinde el examen en su ventana (propuesta: reabrir hasta el dom 13 dic) | Jay | Antes del dom 6 dic |
+| 5 | Link y plataforma del examen (`[PLACEHOLDER]` en el kit) | Jay | vie 27 nov |
+| 6 | Plazo del audio final (propuesta: dom 13 dic) | Kiran | Clase 8 |
+| 7 | Cuándo recibe el alumno su nota final y su recomendación (propuesta: con el certificado, lun 14 dic) | Jay | vie 11 dic |
+| 8 | Conversión de la participación a porcentaje | Jay y Kiran | vie 11 dic |
+| 9 | **Flashcards de la semana 8** (`alumnos/B1_Flashcards.xlsx`): en `A1_Nivel_1/200_Flashcards_Coreano_A1.xlsx` **faltan** 영화, 노래, 드라마, 운동, 싫어하다, 정말 y 조금, y **배 figura como "estómago"** (categoría Cuerpo), no como "pera". Hay que agregarlas y corregirlo al armar el mazo, ocultando la romanización. | Producción | vie 27 nov |
+| 10 | Kiran manda sus 4 gustos reales para la lámina 3 | Kiran | vie 27 nov |
 
 ---
 

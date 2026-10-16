@@ -1,6 +1,6 @@
 # Semana 5 · 갈 거예요! · El futuro y tus planes
 ### Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · con Jay (김재희)
-**Miércoles 11 de noviembre · 21:00 (hora de Chile) · Libro: Tiempos 04 · Enumeración y contraste 02 · Partículas 13 (*Uso de la gramática coreana · Nivel inicial*)**
+**Miércoles 18 de noviembre · 21:00 (hora de Chile) · Libro: Tiempos 04 · Enumeración y contraste 02 · Partículas 13 (*Uso de la gramática coreana · Nivel inicial*)**
 
 > **Para la clase:** ten a mano **la foto del lugar al que sueñas viajar** (la guardaste en la tarea de la semana 4) y el teclado coreano listo, porque el quiz 4 va en el chat. Durante las salas vas a usar la **sección 7 (tarjeta de sala)**: ábrela **antes** de entrar, porque dentro de la sala no ves el chat general. Todo lo demás es para repasar, hacer la tarea y llegar con ventaja a la clase 6.
 
@@ -450,13 +450,13 @@ Al cerrar la sala: **감사합니다!** o **토요일에 봐요!** 😉
 
 **Un puente con nuestro lado del mundo:** en Chile, Argentina o Uruguay, las vacaciones largas son en enero y febrero, cuando en Corea es pleno invierno. ¿Y en tu país? ¿Cuántos días seguidos se toma la gente y cuándo? Cuéntalo en el grupo: es buena práctica para decir **___월에 휴가가 있어요.**
 
-**¿Y el 11/11?** El día de nuestra clase, en Corea ya es jueves 12, así que el 11 de noviembre fue "ayer": **어제 한국은 빼빼로데이였어요.** El **빼빼로데이** toma su nombre de unas galletitas en forma de palito bañadas en chocolate: 11/11 parecen cuatro palitos. Es una **fecha comercial** que se hizo popular en los años 90, no una fiesta tradicional; aun así, muchos se regalan una cajita en la oficina o en el colegio. Y fíjate en la frase: **였어요**, el pasado de la semana pasada.
+**¿Y el 11/11?** Fue el miércoles de la semana pasada, así que en clase lo dijimos en pasado: **지난주 수요일은 빼빼로데이였어요.** El **빼빼로데이** toma su nombre de unas galletitas en forma de palito bañadas en chocolate: 11/11 parecen cuatro palitos. Es una **fecha comercial** que se hizo popular en los años 90, no una fiesta tradicional; aun así, muchos se regalan una cajita en la oficina o en el colegio. Y fíjate en la frase: **였어요**, el pasado de la semana pasada.
 
 ---
 
 ## 9. Tarea de la semana (≈ 30 minutos, antes de la clase 6)
 
-**Plazo:** antes del **miércoles 18 de noviembre, 21:00** (hora de Chile). La Hoja 5 y la captura del Lector se entregan en el grupo de WhatsApp del curso; el quiz en línea se envía en su propio formulario. Mejor repartida en dos o tres días.
+**Plazo:** antes del **miércoles 25 de noviembre, 21:00** (hora de Chile). La Hoja 5 y la captura del Lector se entregan en el grupo de WhatsApp del curso; el quiz en línea se envía en su propio formulario. Mejor repartida en dos o tres días.
 
 ### (1) Hoja 5 · 12 minutos
 

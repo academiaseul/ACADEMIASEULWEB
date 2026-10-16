@@ -1,5 +1,5 @@
 # Básico 1 (A1.1) · Semana 3 · 이게 뭐예요? · ¿Qué es esto?
-### Guía de la profesora · Kiran (기란) · martes 27 y jueves 29 de octubre de 2026 · 20:00–20:58 (hora de Chile)
+### Guía de la profesora · Kiran (기란) · martes 3 y jueves 5 de noviembre de 2026 · 20:00–20:58 (hora de Chile)
 
 **MATERIAL DE LA PROFESORA · documento interno · no se comparte con alumnos.** Lecciones 2 y 3 del libro. Versión 1.1 · sábado 26 de septiembre de 2026 (revisada por coordinación pedagógica: tiempos, cascada, control de 이거/그거/저거, Lector y Dubu verificados en el código).
 Fuentes: `../00_Diseno_Basico1.md` (B.4, B.10, B.11, B.12, C, D, E), syllabus publicado `a11` semana 3 (`Programa_Completo_Octubre_2026/fuente/cursos_es.json`), kit de Kiran y programa público de Básico 1. Material del alumno de esta semana: `../alumnos/S03_Material_Alumno.md` (sin respuestas).
@@ -44,18 +44,18 @@ Fuentes: `../00_Diseno_Basico1.md` (B.4, B.10, B.11, B.12, C, D, E), syllabus pu
 | 13 | **Tarea para la casa** | ≈ 25 min, antes de la clase 4. (1) Lector, 8 min: Practicar → Pictogramas, 3 rondas seguidas, y Palabras, 3 rondas seguidas; captura de Progreso. (2) Hoja de las lecciones 2–3, 13 min: quiz escrito de 10 ítems + foto de 5 objetos de su casa con su etiqueta en 한글 (un papelito pegado a cada uno). (3) Audio de 30 s, 4 min: 5 preguntas y respuestas (이게 뭐예요? — 책이에요.) con el objeto en la mano. Extra: Dubu, barrio 5. **Prepara la S4:** elegir una foto con 3 o 4 personas (familia, amigos, famosos o un dibujo, si prefiere no mostrar a su familia). |
 | 14 | **Recurso digital** (exacto) | Lector (`academiaseul.com/lector-coreano`) → **Practicar → 🖼 Pictogramas**, 3 rondas seguidas (el modo rota solo: Lectura → Escucha → Inversa; el primer grupo de palabras es "comida y objetos": 책, 우산, 빵, 물, 커피…; preguntas y opciones van en 한글 o dibujo, sin letras latinas) y **Practicar → Palabras**, 3 rondas seguidas (consejo: decir la palabra en voz alta antes de mirar las opciones; ojo: en Palabras los modos Lectura e Inversa **sí** usan romanización, en las opciones o en la pregunta, y la lista trae palabras de otras semanas, como 선생님, 한국, 친구 o 주세요; el material del alumno lo avisa). Extra: **Dubu** (`academiaseul.com/dubu`) → barrio 5 **Río Han**, niveles 5-1 사과 · 5-2 우산 · 5-3 "¿Cuál oíste?" (서/소, 그/구, 너/노, 드/두, 머/모) · 5-4 안녕 · 5-5 학교: solo de oído. Río Han se abre al completar el barrio 4 (Gwangjang). |
 | 15 | **Preparación de la profe** | Deck de la S3 (lo entrega el equipo; guion en C.14) · bolsa con 10 objetos + taza de café · 2 nombres del grupo para el quiz 2 · revisar las entregas de la S2 y anotar 2–3 errores frecuentes y quién no lee 받침 · mensaje del día anterior (texto en C.2) · Zoom: salas, cuenta regresiva de 30 s, mensajes a todas las salas, grabación en la nube. Checklist completa en C.2. |
-| 16 | **Entregable del alumno** | Captura de Progreso (Pictogramas y Palabras) · foto de la hoja con el quiz de 10 ítems · foto de 5 objetos etiquetados · audio de 30 s. Todo en el grupo de WhatsApp de su sección, antes del mar 3 nov 20:00 (martes) o del jue 5 nov 20:00 (jueves). |
+| 16 | **Entregable del alumno** | Captura de Progreso (Pictogramas y Palabras) · foto de la hoja con el quiz de 10 ítems · foto de 5 objetos etiquetados · audio de 30 s. Todo en el grupo de WhatsApp de su sección, antes del mar 10 nov 20:00 (martes) o del jue 12 nov 20:00 (jueves). |
 | 17 | **Evaluación** | **Quiz 2** (abre la clase, sobre la S2; clave en C.13): 2 dictados con 받침 (밥, 한국) · 2 "¿이에요 o 예요?" con nombres del grupo · 1 situación (sales de la casa de un amigo y te despides de su mamá, que se queda → 안녕히 계세요). **Observación sin nota** en las salas: ¿elige 이 o 가 en 아니에요? ¿usa 그거 para lo que tiene el compañero? (bien / a reforzar en la hoja del curso). **Tareas:** cumplida / no cumplida; el quiz de la hoja se corrige con la clave pero no es nota de quiz. La semana 3 se evalúa en el **quiz 3**, que abre la clase 4 (su clave va en la guía de la S4). Los audios de esta semana entran en el chequeo de mitad de curso (S4). |
 
 ---
 
 ## B. Plan de clase minuto a minuto (58 minutos útiles · termina a las 20:58)
 
-Misma clase en las dos secciones (martes 27 y jueves 29 de octubre). Lo único que cambia son los dos nombres del quiz 2.
+Misma clase en las dos secciones (martes 3 y jueves 5 de noviembre). Lo único que cambia son los dos nombres del quiz 2.
 
 | Minuto · hora | Bloque | Qué hace Kiran | Qué hacen los alumnos | Zoom: pantalla · salas · chat | Material |
 |---|---|---|---|---|---|
-| 0–1 · 20:00 | Bienvenida | Inicia la grabación en la nube. Saluda con leve inclinación: "안녕하세요!" | Responden "안녕하세요!" con cámara | Grabación ON · comparte el deck | Lámina 1 |
+| 0–1 · 20:00 | Bienvenida | Inicia la grabación en la nube. Saluda con leve inclinación: "안녕하세요!" Recuerda que en EE.UU. cambió la hora el domingo 1. | Responden "안녕하세요!" con cámara | Grabación ON · comparte el deck | Lámina 1 |
 | 1–4 · 20:01 | **Quiz 2** (sobre la S2) | Dicta 밥 y 한국 (dos veces cada una, con 10 s entre ítems). Muestra los ítems 3–5 | Escriben las 5 respuestas en **un solo mensaje privado** a Kiran | Chat: "Para: Kiran". Si el chat privado no está habilitado, a "Todos" | Lámina 2 |
 | 4–5 · 20:04 | Corrección + tarea de la S2 | Muestra las respuestas y comenta 1 error frecuente de las entregas de la S2. Guarda el chat | Se autocorrigen; reacción ✋ de Zoom quien tuvo 5/5 | Chat → "…" → Guardar chat | Lámina 3 |
 | 5–8 · 20:05 | **R · La bolsa misteriosa** | Deja de compartir y destaca su video. Saca 10 objetos: "이게 뭐예요?" (pausa) "연필이에요. 따라 하세요." Termina con la bolsa: "가방이에요!" | Escuchan y repiten en coro. No ven nada escrito todavía | Sin pantalla compartida · "Destacar para todos" en el video de Kiran · micrófonos abiertos para el coro | Bolsa con objetos |
@@ -89,8 +89,8 @@ Esta semana los alumnos dejan de hablar solo de sí mismos (S2) y empiezan a nom
 
 ### C.2 Checklist de preparación
 
-**Antes de la semana (a más tardar el lunes 26 de octubre)**
-- [ ] Tienes el **deck de la S3**. Por la regla N−2 debía llegarte el vie 16 oct: si ese viernes no llegó, avísale a Jay ese mismo día (no esperes al lunes 26, que es el día anterior a la clase) (decisión 0 del diseño: los decks de Básico 1 en 60 minutos se producen en la Fase 2). El guion lámina por lámina está en C.14.
+**Antes de la semana (a más tardar el lunes 2 de noviembre)**
+- [ ] Tienes el **deck de la S3**. Por la regla N−2 debía llegarte el vie 23 oct: si ese viernes no llegó, avísale a Jay ese mismo día (no esperes al lunes 2, que es el día anterior a la clase) (decisión 0 del diseño: los decks de Básico 1 en 60 minutos se producen en la Fase 2). El guion lámina por lámina está en C.14.
 - [ ] El **material del alumno de la S3** está en la carpeta del curso y en el grupo: los alumnos lo necesitan abierto en las salas (tarjetas A, B y C).
 - [ ] Revisaste las **entregas de la S2** (captura, hoja de la lección 1, audio de 20 s y presentación tipeada). Anota:
   - 2–3 errores frecuentes para comentar en el minuto 4 (típicos: 이에요/예요 al revés, "저 는" separado, 가세요/계세요 cruzados).
@@ -102,10 +102,10 @@ Esta semana los alumnos dejan de hablar solo de sí mismos (S2) y empiezan a nom
 - [ ] Una taza de **커피** en el escritorio (sirve para "그게 뭐예요?" y para el cierre).
 - [ ] Tu 책상 y tu 의자 ya están en cámara: los tocas cuando llegue su turno.
 
-**El día anterior** (lun 26 para el martes · mié 28 para el jueves)
+**El día anterior** (lun 2 para el martes · mié 4 para el jueves)
 - [ ] Mensaje en el grupo (cópialo y ajusta el día):
 
-> ¡Hola, chingus! Mañana [martes 27 / jueves 29] tenemos la clase 3: **이게 뭐예요? · ¿Qué es esto?** 🕗 20:00 Chile, Argentina y Uruguay · 18:00 Colombia, Perú y Ecuador · 17:00 CDMX · 19:00 EE.UU. (Este) · **00:00 en España (medianoche, ya es [miércoles 28 / viernes 30]: desde esta semana, por el cambio de hora)** · 08:00 en Corea (día siguiente).
+> ¡Hola, chingus! Mañana [martes 3 / jueves 5] tenemos la clase 3: **이게 뭐예요? · ¿Qué es esto?** 🕗 20:00 Chile, Argentina y Uruguay · 18:00 Colombia, Perú y Ecuador · 17:00 CDMX · **18:00 EE.UU. (Este; desde esta semana, por el cambio de hora)** · 00:00 en España (medianoche, ya es [miércoles 4 / viernes 6]) · 08:00 en Corea (día siguiente).
 > Tengan a mano sus **5 objetos**: un libro, un lápiz, su celular, un paraguas y una taza. Y tengan abierto el material de la semana 3 (se lo dejo aquí en el grupo): lo vamos a usar en las salas. 화이팅!
 
 - [ ] Zoom de prueba: salas habilitadas, **cuenta regresiva de 30 s** al cerrar, "Permitir que los participantes vuelvan a la sala principal" activado, grabación en la nube activada, chat privado con la anfitriona permitido.
@@ -117,7 +117,7 @@ Esta semana los alumnos dejan de hablar solo de sí mismos (S2) y empiezan a nom
 **10 minutos antes** (19:50)
 - [ ] Entras al link → Participantes → "Reclamar anfitrión" con la clave.
 - [ ] Deck abierto en la lámina 1 · bolsa a mano · esta guía abierta en B y C.13.
-- [ ] Nombre de la grabación: `Basico1-Martes_S03_2026-10-27` o `Basico1-Jueves_S03_2026-10-29`.
+- [ ] Nombre de la grabación: `Basico1-Martes_S03_2026-11-03` o `Basico1-Jueves_S03_2026-11-05`.
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 
@@ -278,7 +278,7 @@ Esta semana los alumnos dejan de hablar solo de sí mismos (S2) y empiezan a nom
 
 Está en el material del alumno con su traducción y 3 preguntas de comprensión (claves en C.13). Úsalo en la actividad de emergencia (C.11) o léelo con un alumno voluntario si sobran 2 minutos antes de las salas.
 
-*Un café de Seúl, a fines de octubre. Al otro lado de la calle hay un puesto callejero. 루카스 es un chileno de intercambio; 서연 es su amiga coreana.*
+*Un café de Seúl, a comienzos de noviembre. Al otro lado de la calle hay un puesto callejero. 루카스 es un chileno de intercambio; 서연 es su amiga coreana.*
 
 | # | | Coreano | Español | Nota para ti |
 |---|---|---|---|---|
@@ -438,7 +438,7 @@ Cómo se usa: la corriges con esta clave y devuelves máximo 3 comentarios. No e
 
 | # | Título | En pantalla | Nota |
 |---|---|---|---|
-| 1 | Semana 3 · 이게 뭐예요? | "¿Qué es esto?" · Básico 1 (A1.1) · Lecciones 2 y 3 del libro · Kiran (기란) · mar 27 / jue 29 oct | Portada con logo azul |
+| 1 | Semana 3 · 이게 뭐예요? | "¿Qué es esto?" · Básico 1 (A1.1) · Lecciones 2 y 3 del libro · Kiran (기란) · mar 3 / jue 5 nov | Portada con logo azul |
 | 2 | Quiz 2 · 5 respuestas | 1 y 2: "Escribe lo que oyes". 3: "저는 [nombre 1]___." 4: "저는 [nombre 2]___." (¿이에요 o 예요?) 5: "Sales de la casa de un amigo. Su mamá se queda en la puerta. ¿Qué le dices a ella?" · Pie: "Un solo mensaje privado a Kiran: 1… 2… 3… 4… 5…" | Los dos nombres son campos editables: Kiran los cambia el martes y el jueves |
 | 3 | Quiz 2 · respuestas | 밥 · 한국 · 이에요 · 예요 · 안녕히 계세요 | Con 받침 marcado en color azul en 밥 y 한국 |
 | 4 | Hoy vas a poder decir… | Las 5 frases de C.1 / §0 (coreano grande + español) | Sin romanización |
@@ -468,19 +468,19 @@ Cómo se usa: la corriges con esta clave y devuelves máximo 3 comentarios. No e
 
 ### C.15 Después de la clase (dentro de 24 horas, como pide el kit)
 
-- [ ] Sube la grabación, el PDF del deck y la tarea a la carpeta del curso: `Basico1_S03_2026-10-27_Que_es_esto` (martes) o `…_2026-10-29_…` (jueves).
+- [ ] Sube la grabación, el PDF del deck y la tarea a la carpeta del curso: `Basico1_S03_2026-11-03_Que_es_esto` (martes) o `…_2026-11-05_…` (jueves).
 - [ ] Marca en la hoja del curso: asistencia **en vivo**, quiz 2 (0–5), turnos de habla y la observación de las salas (이/가 en 아니에요 · 그거 para lo del compañero: bien / a reforzar).
 - [ ] Publica el mensaje post-clase en el grupo (plantilla del kit, ya completa):
 
 > ¡Gracias por la clase de hoy, chingus!
 > Grabación: [link]
-> Tarea para antes del **[martes 3 / jueves 5] de noviembre, 20:00** (hora Chile):
+> Tarea para antes del **[martes 10 / jueves 12] de noviembre, 20:00** (hora Chile):
 > 1) Lector de Hangul → Practicar → **Pictogramas: 3 rondas seguidas** y **Palabras: 3 rondas seguidas** (mándenme la captura de Progreso)
 > 2) **Hoja de las lecciones 2–3**: el quiz de 10 ítems (foto aquí en el grupo) + **foto de 5 cosas de tu casa con su etiqueta en 한글**
 > 3) **Audio de 30 segundos**: 5 preguntas y respuestas con el objeto en la mano (이게 뭐예요? — 책이에요.)
 > Extra: Dubu, barrio 5 (Río Han).
 > Para la clase 4: elige una foto con 3 o 4 personas (familia, amigos, famosos o un dibujo).
-> ¡Nos vemos el [martes 3 / jueves 5] a las 20:00! 화이팅
+> ¡Nos vemos el [martes 10 / jueves 12] a las 20:00! 화이팅
 
 - [ ] A Jay, una línea: "todo bien / faltó X / grupo lento en Y".
 - [ ] Responde los audios a medida que lleguen con un audio tuyo de 15 s (nota publicada: es el hábito que más retiene al grupo). Guárdalos: son evidencia del chequeo de mitad de curso de la S4.
@@ -538,7 +538,7 @@ Otras de la lección 2 del libro que pueden aparecer: 칠판 pizarra · 지우�
 8. **Lector, 3 rondas seguidas:** el grupo de Pictogramas depende de las rondas que el alumno ya hizo (las 3 primeras son "comida y objetos"; las 4–6, "naturaleza y vida"). Si alguien ya jugó Pictogramas en la S1–S2, le tocará otro grupo: igual cumple la tarea.
 9. **Dubu, barrio 5:** solo se abre al completar el barrio 4 (Gwangjang). "Ya sé leer" abre solo los barrios 1–3. En Río Han los fallos se cuentan por nivel: al 2.º fallo aparece una pista en español, al 3.º se muestra la romanización del bloque y al 4.º, el 한글 (verificado en `public/dubu/index.html`, función `fallo`). El material del alumno lo explica en simple ("dos errores → pista; si sigues fallando, te muestra la palabra").
 10. **Deck de la S3:** no existe en el repo (decisión 0). Este guion (C.14) basta para producirlo.
-11. **Jueves 29 de octubre:** es el aniversario de la tragedia de Itaewon (29 oct 2022). No es tema de una clase A1, pero si en la semana sale Halloween, sin bromas sobre Itaewon.
+11. **Halloween e Itaewon:** el aniversario de la tragedia de Itaewon (29 oct 2022) y Halloween (sáb 31 oct) cayeron en la semana de la clase 2 (guía de la S2, D, punto 8). Si en esta clase sale Halloween, sin bromas sobre Itaewon.
 12. **Precisión del texto publicado:** la ficha `a11` dice "이게 = 이거 + 가". Técnicamente 이게 viene de 이것이. No lo contradecimos: en clase y en el material se dice "esto + marca de sujeto, fundidos", que calza con las dos versiones.
 13. **Lector, Palabras:** a diferencia de Pictogramas, en Palabras el modo Lectura ofrece las opciones en romanización y el modo Inversa muestra la pregunta en romanización (solo Escucha es 100 % 한글). Además, la lista (22 palabras) trae solo 커피 y 아니요 de esta semana; el resto son de la S2 (선생님, 한국, 사람, 이름) o de más adelante (친구, 학교, 주세요…). Es lo publicado ("Palabras y Pictogramas") y no se toca el código en octubre: el material del alumno avisa de las dos cosas. Va al anexo [2027] junto con el punto 7.
 

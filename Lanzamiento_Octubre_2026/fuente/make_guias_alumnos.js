@@ -97,12 +97,15 @@ const DIAS = { Lunes: 0, Martes: 1, "Miércoles": 2, Jueves: 3 };
 const MES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 const MES_LARGO = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 const DIA_ABR = { Lunes: "lun", Martes: "mar", "Miércoles": "mié", Jueves: "jue" };
-/** Las 8 fechas de una clase (Date UTC). Niños (lunes) parte el 19: el lunes 12 es feriado en Chile. */
+/** Las 8 fechas de una clase (Date UTC). Cohorte corrida una semana (lun 12 oct 2026): todas parten la semana del
+ *  lunes 19 de octubre (Niños el lun 19, sin cambios) y terminan la semana del 7 de diciembre. */
 function fechasDe(dia) {
-  const base = Date.UTC(2026, 9, 12) + (dia === "Lunes" ? 7 * 86400000 : 0);
+  const base = Date.UTC(2026, 9, 19);
   return Array.from({ length: 8 }, (_, w) => new Date(base + (w * 7 + DIAS[dia]) * 86400000));
 }
-/** "13, 20 y 27 oct · 3, 10, 17 y 24 nov · 1 dic" */
+/** El martes 8 de diciembre es feriado en Chile: la clase 8 de los martes queda [por confirmar]. */
+const esFeriado = (d) => d.getUTCMonth() === 11 && d.getUTCDate() === 8;
+/** "20 y 27 oct · 3, 10, 17 y 24 nov · 1 y 8 dic" */
 function fechasCompactas(dia) {
   const grupos = [];
   for (const d of fechasDe(dia)) {
@@ -131,7 +134,9 @@ const CURSO_NINOS = D.cursoPorId("ninos");
 const profeNombre = (c) => D.profeDe(c.profeId).nombre;
 const PRECIO = D.precioLabel(); // "US$150 el curso completo · o 2 cuotas de US$75"
 if (PRECIO !== "US$150 el curso completo · o 2 cuotas de US$75") throw new Error("Precio distinto al literal acordado: " + PRECIO);
-const CUOTA2 = "semana del 9 de noviembre [POR CONFIRMAR]";
+// Cuota 2: adultos, semana de su clase 5 (16 nov); Niños no cambia de calendario (clase 5 = lun 16 nov) → semana del 9.
+const CUOTA2 = "semana del 16 de noviembre [POR CONFIRMAR]";
+const CUOTA2_NINOS = "semana del 9 de noviembre [POR CONFIRMAR]";
 const CLP_UNICO = D.CLP_UNICO.toLocaleString("es-CL").replace(/,/g, ".");
 const CLP_CUOTA = D.CLP_MENSUAL.toLocaleString("es-CL").replace(/,/g, ".");
 const WA = "+56 9 4211 5562";
@@ -182,8 +187,8 @@ function guiaAlumno() {
   const ch = [];
   ch.push(...portada({
     kor: "환영합니다!", titulo: "Tu curso empieza", sub: "Guía del alumno · Cohorte octubre 2026",
-    lineas: ["Básico 1 · Básico 2 · Conversacional 1 · TOPIK II", "8 semanas · 1 clase en vivo de 60 minutos por Zoom · certificado incluido", "Semana del 12 de octubre → semana del 30 de noviembre de 2026"],
-    nota: "Versión 1.0 · 25 de septiembre de 2026 · Horarios y datos: academiaseul.com/programa (fuente única). Si algo cambia, te avisamos por el grupo de tu curso.",
+    lineas: ["Básico 1 · Básico 2 · Conversacional 1 · TOPIK II", "8 semanas · 1 clase en vivo de 60 minutos por Zoom · certificado incluido", "Semana del 19 de octubre → semana del 7 de diciembre de 2026"],
+    nota: "Versión 1.1 · 16 de octubre de 2026 (calendario corrido una semana) · Horarios y datos: academiaseul.com/programa (fuente única). Si algo cambia, te avisamos por el grupo de tu curso.",
   }));
   const secs = ["Bienvenida", "Tu clase y tus fechas", "Tu hora en tu país", "Cómo es una clase de 60 minutos", "Qué necesitas", "Checklist para tu clase 1", "Grabaciones", "Tareas y práctica entre clases", "Evaluación y certificado", "Pagos", "Normas del curso", "El grupo de WhatsApp de tu curso", "Hitos del curso", "Preguntas rápidas", "Contacto"];
   ch.push(...indice(secs));
@@ -192,12 +197,12 @@ function guiaAlumno() {
   // 1 · Bienvenida
   ch.push(H1(S()));
   ch.push(P([B("¡Hola, chingu! 안녕하세요.")]));
-  ch.push(P(run("Soy Jay Kim (김재희), fundador de Academia Seúl. Nací en Seúl y crecí en Chile desde los 10 años, así que sé lo que es aprender un idioma desde cero. Gracias por confiar en nosotros: desde la semana del 12 de octubre vamos a estar juntos 8 semanas, con una clase en vivo por semana.")));
+  ch.push(P(run("Soy Jay Kim (김재희), fundador de Academia Seúl. Nací en Seúl y crecí en Chile desde los 10 años, así que sé lo que es aprender un idioma desde cero. Gracias por confiar en nosotros: desde la semana del 19 de octubre vamos a estar juntos 8 semanas, con una clase en vivo por semana.")));
   ch.push(P(run("En esta guía está todo lo práctico: tu horario (también en la hora de tu país), cómo es una clase, qué necesitas tener listo, cómo funcionan las tareas, las grabaciones, la evaluación, el certificado y los pagos. Léela una vez con calma y guárdala en el celular: casi todas las dudas se responden aquí.")));
   ch.push(P(run("Una sola regla de oro: equivocarse es parte del curso. En coreano, como en todo, se aprende hablando. 화이팅!")));
   ch.push(caja([
     [B("Lo más importante en 3 líneas", { color: NAVY })],
-    [B("1. ", { color: AZUL }), run("El lunes 12 de octubre a las 9:00 (hora Chile) te llega un correo con tu link de Zoom, el link del grupo de WhatsApp de tu curso y esta guía.")],
+    [B("1. ", { color: AZUL }), run("El lunes 19 de octubre a las 9:00 (hora Chile) te llega un correo con tu link de Zoom, el link del grupo de WhatsApp de tu curso y esta guía.")],
     [B("2. ", { color: AZUL }), run("24 horas antes de tu primera clase te llega un recordatorio (correo y grupo de WhatsApp).")],
     [B("3. ", { color: AZUL }), run(`Si algo no te llega, escríbeme al WhatsApp ${WA}.`)],
   ]));
@@ -211,7 +216,9 @@ function guiaAlumno() {
       `${c.dia} ${c.horaChile}`,
       D.profeDe(c.profeId).corto,
       fechaLarga(c.dia, fechasDe(c.dia)[0]).replace(/^./, (x) => x.toUpperCase()),
-      fechasCompactas(c.dia),
+      esFeriado(fechasDe(c.dia)[7])
+        ? [{ t: fechasCompactas(c.dia) }, { t: "8 dic: feriado en Chile [por confirmar]", o: { color: GREY, size: 17 } }]
+        : fechasCompactas(c.dia),
     ]), [2300, 1300, 900, 1700, 3160], 19));
   ch.push(espacio(60));
   ch.push(bullet([B("Básico 1 (A1.1)"), run(" tiene dos secciones iguales, martes o jueves a las 20:00, con Kiran. Vas a la que elegiste al inscribirte (puedes cambiarte hasta la semana 2, según cupo).")]));
@@ -240,7 +247,7 @@ function guiaAlumno() {
   }), [1500, 850, 950, 1000, 1000, 1250, 1500, 1310], 18));
   ch.push(espacio(60));
   ch.push(P(run(D.TZ_NOTA, { size: 20, color: GREY })));
-  ch.push(bullet(run("Las primeras clases (13, 14 y 15 de octubre) son antes de los dos cambios de hora.")));
+  ch.push(bullet(run("Las primeras clases (20, 21 y 22 de octubre) son antes de los dos cambios de hora.")));
   ch.push(bullet(run("España y Corea: la clase cae el día siguiente. Ejemplo: Básico 2 del miércoles 21:00 Chile es jueves 02:00 en España (01:00 desde el 25 de octubre) y jueves 09:00 en Corea.")));
   ch.push(bullet(run("¿Otro país? En academiaseul.com/programa eliges tu país y ves la hora exacta. O escríbenos y te la decimos.")));
 
@@ -269,7 +276,7 @@ function guiaAlumno() {
   ch.push(P(run("Marca cada punto antes de tu primera clase:")));
   [
     [run("Pagué el curso (o la cuota 1) y recibí la confirmación por WhatsApp o correo.")],
-    [run("Recibí el correo del lunes 12 de octubre y guardé mi "), B("link de Zoom"), run(" (también queda fijado en el grupo).")],
+    [run("Recibí el correo del lunes 19 de octubre y guardé mi "), B("link de Zoom"), run(" (también queda fijado en el grupo).")],
     [run("Me uní al "), B("grupo de WhatsApp"), run(" de mi curso y me presenté (nombre, país y por qué aprendo coreano).")],
     [run("Anoté mi "), B("hora local"), run(" (sección 3) y puse una alarma 15 minutos antes.")],
     [run("Actualicé Zoom y probé cámara, micrófono y audífonos (prueba gratis en zoom.us/test).")],
@@ -311,7 +318,7 @@ function guiaAlumno() {
   ch.push(caja([run(T.certRegla, { size: 20 })]));
   ch.push(espacio(60));
   ch.push(P(run(T.certNiveles, { size: 20, color: GREY })));
-  ch.push(P([run("Los certificados digitales se entregan el "), B("lunes 7 de diciembre"), run(".")]));
+  ch.push(P([run("Los certificados digitales se entregan el "), B("lunes 14 de diciembre"), run(".")]));
 
   // 10 · Pagos
   ch.push(H1(S()));
@@ -337,7 +344,7 @@ function guiaAlumno() {
 
   // 12 · Grupo de WhatsApp
   ch.push(H1(S()));
-  ch.push(P(run("Cada curso tiene su propio grupo. Te llega el link en el correo del lunes 12 de octubre; tu profe y Jay son administradores.")));
+  ch.push(P(run("Cada curso tiene su propio grupo. Te llega el link en el correo del lunes 19 de octubre; tu profe y Jay son administradores.")));
   [
     "Solo temas del curso: dudas, tareas, audios y avisos. Nada de cadenas, ventas ni spam.",
     "La profe responde dentro de 24 horas, en horario hábil. Si es urgente (no puedes entrar a Zoom), escribe a Jay.",
@@ -351,16 +358,16 @@ function guiaAlumno() {
   // 13 · Hitos
   ch.push(H1(S()));
   ch.push(kvTable([
-    ["Dom 11 de octubre", "Cierre de matrícula (23:59 o hasta llenar los cupos)."],
-    ["Lun 12 de octubre · 9:00", "Correo de bienvenida: link de Zoom, grupo de WhatsApp y esta guía."],
+    ["Dom 18 de octubre", "Cierre de matrícula (23:59 o hasta llenar los cupos)."],
+    ["Lun 19 de octubre · 9:00", "Correo de bienvenida: link de Zoom, grupo de WhatsApp y esta guía."],
     ["24 h antes de tu clase 1", "Recordatorio por correo y por el grupo."],
-    ["Semana 1 · 13–15 oct", "Primera clase: Básico 1 martes y Conversacional 1 (mar 13) · Básico 2 (mié 14) · Básico 1 jueves y TOPIK II (jue 15)."],
-    ["Semana 2 · 19–23 oct", "Último plazo para cambiar de sección u horario (según cupo)."],
+    ["Semana 1 · 20–22 oct", "Primera clase: Básico 1 martes y Conversacional 1 (mar 20) · Básico 2 (mié 21) · Básico 1 jueves y TOPIK II (jue 22)."],
     ["Dom 25 oct · dom 1 nov", "Cambio de hora en España (25 oct) y en EE.UU. (1 nov). Chile no cambia."],
-    ["Semana 4 · 2–6 nov", "Mitad del curso: guía de estudio y feedback individual de tu profe."],
-    ["Semana 5 · desde el 9 nov", "Solo plan de 2 cuotas: cuota 2 [fecha POR CONFIRMAR], antes de tu clase 5."],
-    ["Semana 8 · 30 nov – 4 dic", "Sesión final: examen o presentación + cierre."],
-    ["Lun 7 de diciembre", "Certificados digitales y preventa de la cohorte de enero 2027 (prioridad de cupo para alumnos activos)."],
+    ["Semana 2 · 26–30 oct", "Último plazo para cambiar de sección u horario (según cupo)."],
+    ["Semana 4 · 9–13 nov", "Mitad del curso: guía de estudio y feedback individual de tu profe."],
+    ["Semana 5 · desde el 16 nov", "Solo plan de 2 cuotas: cuota 2 [fecha POR CONFIRMAR], antes de tu clase 5."],
+    ["Semana 8 · 7–11 dic", "Sesión final: examen o presentación + cierre. El martes 8 es feriado en Chile: la fecha de la clase 8 de Básico 1 martes y de Conversacional 1 está [por confirmar]."],
+    ["Lun 14 de diciembre", "Certificados digitales y preventa de la cohorte de enero 2027 (prioridad de cupo para alumnos activos)."],
   ], 2600));
 
   // 14 · Preguntas rápidas
@@ -393,7 +400,7 @@ function guiaFamilias() {
   ch.push(...portada({
     kor: "어린이 한국어", titulo: "Guía para familias", sub: `${NOMBRE_CLASE.ninos} · ${CURSO_NINOS.subtitulo} · Cohorte octubre 2026`,
     lineas: [`${NINOS.dia} ${NINOS.horaChile} hora Chile · 8 clases en vivo de 60 minutos por Zoom`, `Primera clase: ${fechaLarga(NINOS.dia, f[0])} · Show final: ${fechaLarga(NINOS.dia, f[7])}`, `Con Jay y Abby · máximo ${NINOS.cupos} niños y niñas · certificado incluido`],
-    nota: "Versión 1.0 · 25 de septiembre de 2026 · Para madres, padres y apoderados. Horarios y datos: academiaseul.com/programa.",
+    nota: "Versión 1.1 · 16 de octubre de 2026 · Para madres, padres y apoderados. Horarios y datos: academiaseul.com/programa.",
   }));
   const secs = ["Bienvenida", "El curso en una mirada", "Las 8 clases", "La hora en tu país", "Cómo es una clase", "Qué necesita tu hijo o hija", "El rol del apoderado", "Privacidad y cuidado", "Tareas cortas", "Evaluación, show final y certificado", "Si falta a una clase", "Pagos", "El grupo de WhatsApp de apoderados", "Fechas clave", "Contacto"];
   ch.push(...indice(secs));
@@ -406,8 +413,8 @@ function guiaFamilias() {
   ch.push(P(run("Esta guía es para ti, el adulto que acompaña. Aquí está cuándo son las clases, qué necesita tener listo, cómo puedes ayudar (sobre todo en la clase 1), cómo cuidamos la privacidad de los niños y cómo funcionan las tareas. Son 5 minutos de lectura.")));
   ch.push(caja([
     [B("Lo más importante", { color: NAVY })],
-    [B("1. ", { color: AZUL }), run("La primera clase es el "), B("lunes 19 de octubre a las 18:00"), run(" (hora Chile). El lunes 12 es feriado en Chile, por eso partimos una semana después.")],
-    [B("2. ", { color: AZUL }), run("El lunes 12 de octubre te llega un correo con el link de Zoom y el del grupo de WhatsApp de apoderados. El domingo 18 te llega un recordatorio.")],
+    [B("1. ", { color: AZUL }), run("La primera clase es el "), B("lunes 19 de octubre a las 18:00"), run(" (hora Chile).")],
+    [B("2. ", { color: AZUL }), run("El domingo 18 de octubre (18:00) te llega el recordatorio con el link de Zoom, y el lunes 19 a las 9:00, el correo de bienvenida con el grupo de WhatsApp de apoderados y esta guía.")],
     [B("3. ", { color: AZUL }), run("En la clase 1, conecta y acompaña a tu hijo o hija. Desde la clase 2, participa solo o sola.")],
   ]));
 
@@ -417,7 +424,7 @@ function guiaFamilias() {
     ["Curso", `${NOMBRE_CLASE.ninos} · ${CURSO_NINOS.subtitulo}`],
     ["Para quién", "Niños y niñas de 8 a 15 años, desde cero (no necesitan saber nada de coreano)."],
     ["Día y hora", `${NINOS.dia} ${NINOS.horaChile} hora Chile (en Corea: martes 06:00). Otros países en la sección 4.`],
-    ["Primera clase", `${fechaLarga(NINOS.dia, f[0]).replace(/^./, (x) => x.toUpperCase())} (el 12 es feriado en Chile)`],
+    ["Primera clase", fechaLarga(NINOS.dia, f[0]).replace(/^./, (x) => x.toUpperCase())],
     ["Última clase", `${fechaLarga(NINOS.dia, f[7]).replace(/^./, (x) => x.toUpperCase())}: mini-show final para la familia + certificado`],
     ["Duración", "8 clases en vivo de 60 minutos por Zoom, una por semana"],
     ["Profes", `${profeNombre(NINOS)}: Jay lleva el hilo de la clase y las explicaciones en español; Abby lidera canciones, sonidos y la pronunciación nativa.`],
@@ -430,7 +437,7 @@ function guiaFamilias() {
   ch.push(P(run(`Todos los lunes a las ${NINOS.horaChile} hora Chile:`)));
   ch.push(headTable(["Clase", "Fecha", "Qué aprendemos"], CURSO_NINOS.sesiones.map((s, i) => [String(s.num), `${DIA_ABR[NINOS.dia]} ${f[i].getUTCDate()} ${MES[f[i].getUTCMonth()]}`, [{ t: s.titulo.replace(/^🎤\s*/, ""), o: { bold: true } }, { t: s.desc, o: { size: 18, color: GREY } }]]), [800, 1500, 7060], 19));
   ch.push(espacio(60));
-  ch.push(P(run("Feriados: el lunes 12 de octubre no hay clase (por eso partimos el 19). Si alguna vez tuviéramos que mover una clase, avisamos por el grupo con al menos 48 horas y ofrecemos reposición o grabación.", { size: 20, color: GREY })));
+  ch.push(P(run("Feriados: ninguna de las 8 clases cae en un feriado de Chile. Si alguna vez tuviéramos que mover una clase, avisamos por el grupo con al menos 48 horas y ofrecemos reposición o grabación.", { size: 20, color: GREY })));
 
   // 4
   ch.push(H1(S()));
@@ -520,7 +527,7 @@ function guiaFamilias() {
   ch.push(kvTable([
     ["Precio", PRECIO],
     ["Si pagaste completo", "Listo: no tienes que hacer nada más."],
-    ["Si elegiste 2 cuotas", `Cuota 2 (US$75): al inicio del mes 2, la ${CUOTA2}. Te avisamos por WhatsApp unos días antes.`],
+    ["Si elegiste 2 cuotas", `Cuota 2 (US$75): al inicio del mes 2, la ${CUOTA2_NINOS}. Te avisamos por WhatsApp unos días antes.`],
     ["Cómo pagar la cuota 2", [`Transferencia en Chile (datos por WhatsApp, sin comisión) · PayPal US$75: ${D.PAYPAL_LINK_MENSUAL} (con tarjeta, sin cuenta PayPal) · Mercado Pago $${CLP_CUOTA} CLP (te enviamos el link).`]],
     ["Comprobante", `Por WhatsApp al ${WA}.`],
     ["Política", "Detalles, cambios y reembolsos en academiaseul.com/terminos."],
@@ -539,9 +546,8 @@ function guiaFamilias() {
   // 14
   ch.push(H1(S()));
   ch.push(kvTable([
-    ["Dom 11 de octubre", "Cierre de matrícula (23:59 o hasta llenar los 12 cupos)."],
-    ["Lun 12 de octubre", "Feriado en Chile: no hay clase. Te llega el correo con el link de Zoom y el grupo de WhatsApp."],
-    ["Dom 18 de octubre", "Recordatorio de la clase 1."],
+    ["Dom 18 de octubre", "Recordatorio de la clase 1 con el link de Zoom (18:00). Cierre de matrícula (23:59 o hasta llenar los 12 cupos)."],
+    ["Lun 19 de octubre · 9:00", "Correo de bienvenida con el grupo de WhatsApp de apoderados y esta guía."],
     ["Lun 19 de octubre · 18:00", "Clase 1: conecta y acompaña."],
     ["Dom 25 de octubre", "Cambio de hora en España (EE.UU. cambia el dom 1 de noviembre). Chile no cambia."],
     ["Lun 26 de octubre", "Clase 2: desde aquí participa solo o sola."],

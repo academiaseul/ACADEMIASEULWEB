@@ -4,12 +4,13 @@
   Contenido semana a semana tomado de Programa_Completo_Octubre_2026/fuente/cursos_es.json (topik2),
   el mismo syllabus que dicen los PDF de /programas. Horario, cupo y precio: lib/nivel1.ts.
   Políticas: components/FAQ.tsx y app/terminos/page.tsx. Borrador del 26 de septiembre de 2026.
+  Fechas al día el 16 oct 2026 con el calendario corrido una semana (decisión de Jay, 12 oct 2026): jue 22 oct → jue 10 dic.
   Lo marcado "Confirmar con Academia Seúl." no está definido todavía: no publicarlo como hecho.
 -->
 
 ## 🎯 TOPIK II (B1+) · Estrategia de examen
 
-**토픽 II 준비반** · Jueves 21:00 hora de Chile · con Jay · primera clase: jueves 15 de octubre de 2026 · 8 semanas · máximo 8 estudiantes
+**토픽 II 준비반** · Jueves 21:00 hora de Chile · con Jay · primera clase: jueves 22 de octubre de 2026 · 8 semanas · máximo 8 estudiantes
 
 ### Conoce el TOPIK II por dentro, practica con exámenes oficiales y llega al día del examen sabiendo cómo usar cada minuto.
 
@@ -51,14 +52,14 @@ Probablemente todavía no es tu curso si:
 
 | Semana | Tema | ¿Qué aprenderás? |
 |---|---|---|
-| **1** · jue 15 oct | Diagnóstico y radiografía del TOPIK II | Conocerás cómo se arma y se puntúa el examen. Harás un mini simulacro con un examen oficial y saldrás con tu nivel de partida y tu fecha objetivo. |
-| **2** · jue 22 oct | 읽기 I · Lectura, preguntas 1–20 | Reconocerás cada tipo de pregunta antes de leer el texto completo y leerás anuncios buscando solo lo clave. Aprenderás a resolver rápido las fáciles para guardar tiempo para las difíciles. |
-| **3** · jue 29 oct | 듣기 I · Escucha, preguntas 1–20 | Leerás las opciones antes del audio y tomarás notas mínimas. Aprenderás a resolver con una sola escucha, como en el examen real. |
-| **4** · jue 5 nov | 쓰기 51–52 · Completar textos | Aprenderás las fórmulas que más se repiten para avisos, correos y textos breves, y cómo pasar al estilo escrito. Son 20 puntos de los más rentables del examen. |
-| **5** · jue 12 nov | 쓰기 53 · Describir un gráfico | Describirás una encuesta en 200 a 300 caracteres con una plantilla de cuatro frases y las reglas de la hoja cuadriculada del examen (원고지). |
-| **6** · jue 19 nov | 읽기 y 듣기 II · Preguntas de nivel 4–6 | Trabajarás las preguntas difíciles: titulares, idea central, intención y actitud del hablante. Aprenderás qué responder ahora y qué dejar para después. |
-| **7** · jue 26 nov | 쓰기 54 · El ensayo de opinión | Armarás un ensayo de 600 a 700 caracteres con introducción, desarrollo y conclusión, y recibirás corrección personal antes del simulacro. |
-| **8** · jue 3 dic | Simulacro final y tu plan personal | Analizarás tu simulacro completo de 180 minutos sección por sección y armarás tu plan de estudio semanal hasta el TOPIK real. |
+| **1** · jue 22 oct | Diagnóstico y radiografía del TOPIK II | Conocerás cómo se arma y se puntúa el examen. Harás un mini simulacro con un examen oficial y saldrás con tu nivel de partida y tu fecha objetivo. |
+| **2** · jue 29 oct | 읽기 I · Lectura, preguntas 1–20 | Reconocerás cada tipo de pregunta antes de leer el texto completo y leerás anuncios buscando solo lo clave. Aprenderás a resolver rápido las fáciles para guardar tiempo para las difíciles. |
+| **3** · jue 5 nov | 듣기 I · Escucha, preguntas 1–20 | Leerás las opciones antes del audio y tomarás notas mínimas. Aprenderás a resolver con una sola escucha, como en el examen real. |
+| **4** · jue 12 nov | 쓰기 51–52 · Completar textos | Aprenderás las fórmulas que más se repiten para avisos, correos y textos breves, y cómo pasar al estilo escrito. Son 20 puntos de los más rentables del examen. |
+| **5** · jue 19 nov | 쓰기 53 · Describir un gráfico | Describirás una encuesta en 200 a 300 caracteres con una plantilla de cuatro frases y las reglas de la hoja cuadriculada del examen (원고지). |
+| **6** · jue 26 nov | 읽기 y 듣기 II · Preguntas de nivel 4–6 | Trabajarás las preguntas difíciles: titulares, idea central, intención y actitud del hablante. Aprenderás qué responder ahora y qué dejar para después. |
+| **7** · jue 3 dic | 쓰기 54 · El ensayo de opinión | Armarás un ensayo de 600 a 700 caracteres con introducción, desarrollo y conclusión, y recibirás corrección personal antes del simulacro. |
+| **8** · jue 10 dic | Simulacro final y tu plan personal | Analizarás tu simulacro completo de 180 minutos sección por sección y armarás tu plan de estudio semanal hasta el TOPIK real. |
 
 #### Semana a semana, en detalle
 
@@ -102,7 +103,7 @@ Probablemente todavía no es tu curso si:
 - **Palabras:** 장점, 단점, 긍정적, 부정적, 필요성, 방안, 바람직하다.
 
 **Semana 8 · Simulacro final y tu plan personal**
-- **Antes de la clase** rindes en casa un simulacro completo con un examen oficial que no hayas visto. Son 180 minutos cronometrados: 60 de 듣기, 50 de 쓰기 y 70 de 읽기, con hoja de respuestas. Resérvate unas tres horas entre el 26 de noviembre y el 3 de diciembre.
+- **Antes de la clase** rindes en casa un simulacro completo con un examen oficial que no hayas visto. Son 180 minutos cronometrados: 60 de 듣기, 50 de 쓰기 y 70 de 읽기, con hoja de respuestas. Resérvate unas tres horas entre el 3 y el 10 de diciembre.
 - **En clase** revisarás tu puntaje por sección frente a los cortes de nivel y harás un mini simulacro sorpresa de 10 minutos. Luego armarás tu plan semanal hasta el TOPIK que elijas. También verás la logística del examen: la inscripción en topik.go.kr, los documentos y qué llevar ese día. Cierras presentando en coreano, en un minuto, tu meta y tu plan.
 - **Palabras:** 수험표, 신분증, 답안지, 응시하다, 접수 기간, 성적 발표, 합격.
 
@@ -165,13 +166,13 @@ El TOPIK también es una ventana a la Corea de hoy. Estas son algunas de las cos
 |---|---|
 | **Día** | Jueves |
 | **Hora** | 21:00 a 22:00, hora de Chile (Santiago, UTC−3 durante todo el curso) |
-| **Fecha de inicio** | Jueves 15 de octubre de 2026 |
-| **Última clase** | Jueves 3 de diciembre de 2026 |
+| **Fecha de inicio** | Jueves 22 de octubre de 2026 |
+| **Última clase** | Jueves 10 de diciembre de 2026 |
 | **Duración** | 8 semanas · 8 clases de 60 minutos |
 | **Profesor** | Jay Kim (김재희) |
-| **Cierre de matrícula** | Domingo 11 de octubre (o hasta llenar los cupos) |
+| **Cierre de matrícula** | Domingo 18 de octubre (o hasta llenar los cupos) |
 
-**Las 8 fechas:** 15, 22 y 29 de octubre · 5, 12, 19 y 26 de noviembre · 3 de diciembre.
+**Las 8 fechas:** 22 y 29 de octubre · 5, 12, 19 y 26 de noviembre · 3 y 10 de diciembre.
 
 **Tu hora en otros países:** México 18:00 · Colombia y Perú 19:00 · Argentina 21:00 · EE.UU. (Este) 20:00, y 19:00 desde el 1 de noviembre · España 02:00 de la madrugada del viernes, y 01:00 desde el 25 de octubre · Corea 09:00 del viernes. En la [página de inscripción](https://www.academiaseul.com/nivel-1?clase=topik2) eliges tu país y ves la hora exacta.
 
@@ -184,7 +185,7 @@ El TOPIK también es una ventana a la Corea de hoy. Estas son algunas de las cos
 **US$150 el curso completo · o 2 cuotas de US$75**
 
 - Es el mismo precio en todos los cursos de Academia Seúl.
-- **En 2 cuotas:** la primera al inscribirte y la segunda antes de la clase 5, que es el jueves 12 de noviembre.
+- **En 2 cuotas:** la primera al inscribirte y la segunda antes de la clase 5, que es el jueves 19 de noviembre.
 - **Formas de pago:**
   - Transferencia bancaria en Chile, sin comisión.
   - Mercado Pago con tarjeta de crédito o débito (cobra el equivalente en pesos chilenos).
@@ -213,13 +214,13 @@ No necesitas comprar libros. Como consulta opcional, Jay puede recomendarte *Kor
 
 ### 👥 Cupos
 
-**Máximo 8 estudiantes.** El grupo es chico para que la corrección de la escritura sea individual y para que todos practiquen en cada clase. Los cupos se asignan por orden de inscripción y la matrícula cierra el domingo 11 de octubre, o antes si se completa el grupo.
+**Máximo 8 estudiantes.** El grupo es chico para que la corrección de la escritura sea individual y para que todos practiquen en cada clase. Los cupos se asignan por orden de inscripción y la matrícula cierra el domingo 18 de octubre, o antes si se completa el grupo.
 
 ---
 
 ### 📜 Certificado
 
-Al completar el curso recibes el **certificado digital de Academia Seúl de Preparación TOPIK II (B1+)**. Los certificados de la cohorte se entregan el lunes 7 de diciembre de 2026.
+Al completar el curso recibes el **certificado digital de Academia Seúl de Preparación TOPIK II (B1+)**. Los certificados de la cohorte se entregan el lunes 14 de diciembre de 2026.
 
 - **Es un certificado de la academia, no una acreditación oficial.** No lo emite el gobierno coreano ni reemplaza el certificado TOPIK. El certificado oficial TOPIK solo lo entrega el 국립국제교육원 (NIIED) cuando rindes el examen real.
 - El nivel que estimamos con tu simulacro es una referencia para tu plan de estudio, no un resultado oficial.
@@ -251,7 +252,7 @@ Puedes pagar por transferencia bancaria en Chile (sin comisión), con tarjeta v�
 Una vez iniciada la cohorte, el pago no es reembolsable. Si no puedes continuar, escríbenos y buscamos juntos una solución, como pasarte a una cohorte posterior. Si Academia Seúl cancela una cohorte antes de su inicio, se reembolsa el 100 % de lo pagado. Si te retiras antes de que empiece el curso: *Confirmar con Academia Seúl.* Los detalles están en [academiaseul.com/terminos](https://www.academiaseul.com/terminos).
 
 **¿Qué pasa después de inscribirme?**
-El lunes 12 de octubre te llega un correo con el link de Zoom, el grupo de WhatsApp del curso y la guía del alumno. El miércoles 14 recibes un recordatorio. Para la clase 1, trae tu fecha objetivo de TOPIK y el nivel que buscas.
+El lunes 19 de octubre te llega un correo con el link de Zoom, el grupo de WhatsApp del curso y la guía del alumno. El miércoles 21 recibes un recordatorio. Para la clase 1, trae tu fecha objetivo de TOPIK y el nivel que buscas.
 
 ---
 

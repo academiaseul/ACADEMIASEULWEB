@@ -1,6 +1,6 @@
 # Semana 1 · Orientación · 한국어를 배운 지 얼마나 됐어요?
 ### Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · con Abby (홍미영 선생님)
-**Martes 13 de octubre · 21:00 (hora de Chile) = miércoles 14, 09:00 en Corea · 60 minutos por Zoom**
+**Martes 20 de octubre · 21:00 (hora de Chile) = miércoles 21, 09:00 en Corea · 60 minutos por Zoom**
 
 > **Durante la clase** vas a usar la **sección 7 (tarjeta de entrevista)**: tenla abierta **antes** de entrar a tu sala de Zoom, porque dentro de la sala no ves el chat general. Todo lo demás es para antes y después: repasar, hacer la tarea y llegar con ventaja a la clase 2.
 > **Los 🔊 de este material** abren el audio de cada palabra y de las frases de la semana, con la misma voz coreana del Lector. Las 5 frases de la tarjeta de lectura (sección 9) **no** tienen audio, a propósito: esa lectura es tuya.
@@ -433,7 +433,7 @@ Desde ahí, la persona mayor le habla en 반말, y muchas veces la menor sigue c
 
 ## 9. Tarea de la semana (≈ 25 minutos)
 
-**Plazo:** antes de la clase 2 · **martes 20 de octubre, 21:00 (hora de Chile)**. Todo se entrega en el **grupo de WhatsApp del curso**. Si puedes, manda el audio **antes del jueves 15**: así Abby lo suma a tu diagnóstico y armamos mejor las parejas.
+**Plazo:** antes de la clase 2 · **martes 27 de octubre, 21:00 (hora de Chile)**. Todo se entrega en el **grupo de WhatsApp del curso**. Si puedes, manda el audio **antes del jueves 22**: así Abby lo suma a tu diagnóstico y armamos mejor las parejas.
 
 **1 · Tu audio "antes" · 60–90 segundos + 5 frases · 15 min** · mensaje de voz en el grupo
 Preséntate **sin leer**. Antes de grabar, anota **5 palabras clave** (no frases) y habla mirándolas. Qué incluir:
@@ -451,7 +451,7 @@ Preséntate **sin leer**. Antes de grabar, anota **5 palabras clave** (no frases
 > 5. 맛있어요! 정말 재미있어요.
 
 **¡Guárdalo!** (reenvíatelo o descárgalo). Antes de la clase 8 grabas tu presentación otra vez, más larga (2–3 minutos), y la mandas **junto con esta**: ese "antes y después" es parte de tu evaluación final.
-*Apoyo:* el **modelo de audio de Abby** está en el grupo desde el lunes 12: escúchalo una vez, y después haz el tuyo con tus datos.
+*Apoyo:* el **modelo de audio de Abby** está en el grupo desde el lunes 19: escúchalo una vez, y después haz el tuyo con tus datos.
 
 **2 · Tus 3 metas · 5 min** · por escrito, en 한글, en el grupo
 Tres frases con **-고 싶어요** sobre lo que quieres lograr en coreano en estas 8 semanas.
@@ -470,13 +470,13 @@ Tres frases con **-고 싶어요** sobre lo que quieres lograr en coreano en est
 - [ ] Audio de 60–90 segundos + las 5 frases leídas (y guardado)
 - [ ] 3 metas con -고 싶어요, escritas en 한글
 - [ ] Foto de tu 최애 en el grupo
-- [ ] Solo si faltaste o Abby no alcanzó a escucharte en la sala: el audio de la entrevista (abajo), antes del **domingo 18 de octubre, 22:00**
+- [ ] Solo si faltaste o Abby no alcanzó a escucharte en la sala: el audio de la entrevista (abajo), antes del **domingo 25 de octubre, 22:00**
 
 **La clase 2 empieza con el quiz 1:** 5 preguntas en 5 minutos sobre lo de hoy (한국어를 배운 지 얼마나 됐어요?, palabras de la tabla, -고 싶어요 y una lectura cortita estilo TOPIK I). Los ejercicios de la sección 6 son tu mejor repaso.
 **¿Faltaste?** La grabación se sube dentro de 24 horas (las salas no se graban). Haz toda la tarea y el audio de la entrevista.
 
 ### ¿Faltaste o Abby no alcanzó a escucharte? Tu entrevista por audio
-Además de la tarea, manda al grupo, antes del **domingo 18 de octubre a las 22:00 (hora de Chile)**, un audio de 1–2 minutos respondiendo las **5 preguntas de la tarjeta** (sección 7.2). Lee la pregunta, **deja el papel y responde sin leer**. No tiene nota: sirve para saber desde dónde partes y armar bien tu pareja.
+Además de la tarea, manda al grupo, antes del **domingo 25 de octubre a las 22:00 (hora de Chile)**, un audio de 1–2 minutos respondiendo las **5 preguntas de la tarjeta** (sección 7.2). Lee la pregunta, **deja el papel y responde sin leer**. No tiene nota: sirve para saber desde dónde partes y armar bien tu pareja.
 
 ### Si Abby o Jay te lo recomiendan (rescate)
 - **Si tu lectura va lenta:** Lector de Hangul (academiaseul.com/lector-coreano) → **Practicar → Palabras**, 3 rondas seguidas, 3 días por semana, hasta la semana 3. Di cada palabra en voz alta **antes** de mirar las opciones.

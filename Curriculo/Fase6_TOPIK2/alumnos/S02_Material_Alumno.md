@@ -1,6 +1,6 @@
 # Semana 2 · 읽기 I · Lectura, preguntas 1–20 · 지시문부터!
 ### TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · con Jay (김재희 선생님) · cuaderno de estrategia
-**Jueves 22 de octubre · 21:00 (hora de Chile y de Argentina) · 18:00 México · 19:00 Colombia y Perú · 20:00 EE. UU. (Este) · 02:00 del viernes en España · 09:00 del viernes en Corea · la sala se abre a las 20:58**
+**Jueves 29 de octubre · 21:00 (hora de Chile y de Argentina) · 18:00 México · 19:00 Colombia y Perú · 20:00 EE. UU. (Este) · 01:00 del viernes en España · 09:00 del viernes en Corea · la sala se abre a las 20:58**
 
 > **Antes de entrar:** ten abierta la **sección 7** (tarjeta de sala), un lápiz y el **cronómetro del celular**. La clase abre con el **quiz 1** (5 preguntas sobre la semana 1).
 > **Por favor, no resuelvas la carrera de la sección 7 antes de la clase:** la gracia es hacerla contra el reloj.
@@ -420,7 +420,7 @@ Los anuncios de 읽기 5–8 no son inventos de examen: son los papeles que se v
 
 ## 9. Tarea de la semana (≈ 40 minutos · núcleo)
 
-**Plazos:** el formulario, **miércoles 28 de octubre, 22:00 (hora de Chile)** · la ficha, **lunes 26 de octubre, 22:00**, para que Jay te la devuelva corregida el martes (si se te pasa, mándala igual antes de la clase 3) · el audio, antes de la clase 3 (**jueves 29, 21:00**).
+**Plazos:** el formulario, **miércoles 4 de noviembre, 22:00 (hora de Chile)** · la ficha, **lunes 2 de noviembre, 22:00**, para que Jay te la devuelva corregida el martes (si se te pasa, mándala igual antes de la clase 3) · el audio, antes de la clase 3 (**jueves 5, 21:00**).
 
 **Dónde se descargan los exámenes:** en **topik.go.kr**, en la sección de exámenes anteriores (기출문제). La ruta exacta, con captura, está en la **página 4 de tu kit**. Cada examen trae el cuadernillo, la clave y, en 듣기, el audio (MP3) y el guion (대본).
 **Examen C = 제___회** y **Examen D = 제___회**: la edición exacta está en tu kit y en el mensaje de Jay del grupo.
@@ -433,7 +433,7 @@ Los anuncios de 읽기 5–8 no son inventos de examen: son los papeles que se v
 - Si una pregunta pasa de un minuto: punto al lado y sigue. **Ninguna en blanco.**
 - Anota el minuto en que terminas cada bloque (1–8 · 9–12 · 13–15 · 16–20) y tu tiempo total. Pasa respuestas y tiempos al formulario: se corrige solo.
 
-**2 · Ficha de 10 expresiones equivalentes · 15 min** → foto a tu **chat privado con Jay**, antes del **lunes 26, 22:00**.
+**2 · Ficha de 10 expresiones equivalentes · 15 min** → foto a tu **chat privado con Jay**, antes del **lunes 2, 22:00**.
 - Elige **10 pares** del banco de abajo. Para cada uno: los dos patrones en 한글, qué significan en español y **un ejemplo tuyo** (sobre tu vida, tu estudio, tu ciudad). Puede ir en 해요체 o en 한다체, como te salga natural.
 - Los ejemplos del banco son para entender: **no los copies**.
 
@@ -476,9 +476,9 @@ Los anuncios de 읽기 5–8 no son inventos de examen: son los papeles que se v
 **Si hoy sentiste que 1–20 te queda muy lejos**, escríbele a Jay por privado antes del domingo. Conversan 5 minutos, con tus propios resultados, y ven juntos qué ruta te sirve más. A veces es el rescate; a veces conviene construir primero las bases hablando (la escalera de Academia Seúl está para eso). No es un fracaso: el TOPIK te va a esperar, y llegar con bases te rinde el doble.
 
 ### Entregables (marca cuando esté listo)
-- [ ] Formulario del Examen C · 읽기 1–20, con tu tiempo total (mié 28, 22:00)
-- [ ] Foto de la ficha de 10 expresiones en el chat privado con Jay (lun 26, 22:00)
-- [ ] Audio de 1 minuto con un anuncio de C 5–8 en el grupo (antes del jue 29, 21:00)
+- [ ] Formulario del Examen C · 읽기 1–20, con tu tiempo total (mié 4, 22:00)
+- [ ] Foto de la ficha de 10 expresiones en el chat privado con Jay (lun 2, 22:00)
+- [ ] Audio de 1 minuto con un anuncio de C 5–8 en el grupo (antes del jue 5, 21:00)
 - [ ] MP3 y 대본 del 듣기 del Examen B descargados (sin escuchar)
 - [ ] Cuadernillo y MP3 del 듣기 del Examen C descargados (sin abrir)
 

@@ -51,7 +51,9 @@ const FECHAS_VIEJAS = [
   { re: /\b8\s*[–-]\s*12\b/, txt: '"8–12" (rango de edad viejo de Niños; es 8–15)' },
 ];
 const AVISOS_TEXTO = [
-  { re: /(desde|parte[n]?|empieza[n]?|comienza[n]?|inicio|nos vemos)\s+(el\s+)?(lunes\s+)?12 de octubre/i, txt: 'di "la semana del 12 de octubre" (la 1.ª clase es el martes 13; Niños el lunes 19)' },
+  { re: /(desde|parte[n]?|empieza[n]?|comienza[n]?|inicio|nos vemos)\s+(el\s+)?(lunes\s+)?12 de octubre/i, txt: 'el inicio ya no es el 12: con el calendario corrido (lun 12 oct) es "la semana del 19 de octubre" (Niños lun 19 · adultos desde el mar 20)' },
+  // Calendario original (cierre dom 11 · inicio semana del 12): sirve para no reciclar por error un correo viejo (E0–E4 ya salieron)
+  { re: /\b(domingo|dom\.?)\s+11\b|semana del 12 de octubre|\b(martes|mar\.?)\s+13 de octubre|\b(mi[ée]rcoles|mi[ée]\.?)\s+14 de octubre|\b(jueves|jue\.?)\s+15 de octubre|semana del 30 de noviembre/i, txt: 'fecha del calendario original: desde el lun 12 oct la matrícula cierra el dom 18 y las clases van de la semana del 19 de octubre a la del 7 de diciembre' },
   { re: /Chuseok|추석/i, txt: 'menciona Chuseok (fue el 25 de septiembre): revisa si el saludo sigue vigente' },
   { re: /#LeoCoreanoEn7D[ií]as/i, txt: 'menciona el reto #LeoCoreanoEn7Días: confirma que las fechas del reto sean las nuevas' },
   { re: /150\.000/, txt: 'aparece "$150.000" (CLP): el precio público es en US$; úsalo solo si hablas del link de Mercado Pago' },

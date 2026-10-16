@@ -1,6 +1,6 @@
 # Semana 7 · 쓰기 54 · El ensayo de opinión
 ### TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · con Jay (김재희 선생님)
-**Jueves 26 de noviembre · 21:00 (hora de Chile) · En pantalla: Examen A · 54 · Tu tarea: Examen D · 54**
+**Jueves 3 de diciembre · 21:00 (hora de Chile) · En pantalla: Examen A · 54 · Tu tarea: Examen D · 54**
 
 > **Para la clase:** ten a mano el **원고지 de la casa** (o un cuaderno cuadriculado), un lápiz y **tu 서론 de la semana 6** (el de "경쟁은 개인과 사회에 도움이 되는가?"). Abre la **sección 7** antes de entrar a tu sala de Zoom: el chat de la sala es otro y ahí no ves lo que Jay pega en el chat general.
 > **Esta es la última semana antes del simulacro.** En la sección 9 están tu tarea, tu calendario hasta la clase 8 y cómo rendir el simulacro.
@@ -474,13 +474,13 @@ Y aquí está la clave para tu puntaje: en el 54, quien corrige **premia la post
 
 ### 9.1 Núcleo (≈ 45 minutos · cuenta para la nota)
 
-**1 · Tu 54 del Examen D · 30 minutos** → **foto por privado a Jay hasta el viernes 27 de noviembre a las 22:00**
+**1 · Tu 54 del Examen D · 30 minutos** → **foto por privado a Jay hasta el viernes 4 de diciembre a las 22:00**
 - Abre el **Examen D** que descargaste en la semana 5, en la **pregunta 54**. **No leas el tema antes de poner el cronómetro:** los 3 minutos de consigna y 개요 son parte de los 30.
 - A mano, en el **원고지 de la casa**, con lápiz, **sin diccionario ni traductor**. Sigue tu plan de 3.9 y haz la revisión de 3 minutos.
 - Anota arriba cuántos minutos te tomó.
-- **Si llega hasta el viernes a las 22:00, te vuelve corregido línea a línea el sábado 28 a las 20:00**, antes de tu simulacro. Si se te complica el viernes, avísale a Jay.
+- **Si llega hasta el viernes a las 22:00, te vuelve corregido línea a línea el sábado 5 a las 20:00**, antes de tu simulacro. Si se te complica el viernes, avísale a Jay.
 
-**2 · Reescritura + audio de 3 minutos** → **por privado a Jay hasta el miércoles 2 de diciembre a las 22:00**
+**2 · Reescritura + audio de 3 minutos** → **por privado a Jay hasta el miércoles 9 de diciembre a las 22:00**
 - Con la corrección del sábado, **reescribe tu 54** (a mano o tipeado en 한글) aplicando cada **R**, **G** y **C**.
 - **Grábate leyéndolo en voz alta** (unos 3 minutos). Lee tranquilo: se escucha el ritmo y la 연음, no el acento.
 - Esta es la **pieza 1 de tu portafolio**: en la clase 8 la vas a comparar con el 54 de tu simulacro. ¿Qué ya no se te escapa?
@@ -497,17 +497,17 @@ Y aquí está la clave para tu puntaje: en el 54, quien corrige **premia la post
 Rindes en casa el **Examen E** completo, uno que no has visto. Jay te confirma la edición en el mensaje del jueves.
 
 - **Hoy:** descarga de topik.go.kr el Examen E (los cuadernillos y el MP3 de 듣기) **sin abrir las preguntas**. La clave no la bajes: el formulario corrige solo. Imprime el **답안지** y el **원고지 de la casa**.
-- **Cuándo:** entre el **sábado 28 y el lunes 30 de noviembre**. Te recomendamos el **domingo**, después de leer la corrección de tu 54.
+- **Cuándo:** entre el **sábado 5 y el lunes 7 de diciembre**. Te recomendamos el **domingo**, después de leer la corrección de tu 54.
 - **Cómo, igual que el día real:** 듣기 y 쓰기 seguidos (110 minutos), una pausa de **no más de 20 minutos** y 읽기 (70 minutos). Cronómetro a la vista, celular en otra pieza, lápiz, sin diccionario. Usa el **reloj Chingu**: 듣기 lo marca el audio · 쓰기 51–52 en 8', 53 en 15', 54 en 27' · 읽기 1–20 en 15', 21–25 en 10', 26–50 en 40' y 5' finales para pasar respuestas. **Nada en blanco.**
-- **Qué mandas, hasta el lunes 30 a las 22:00:** tus respuestas de 듣기 y 읽기 en el **formulario** (se corrigen solas) y la **foto o escaneo de tu 쓰기** (51–54) por privado a Jay.
-- **Si no alcanzas el lunes:** puedes entregar hasta el **miércoles 2 a las 12:00**; tu puntaje de 듣기 y 읽기 lo ves en clase y la corrección del 쓰기 te llega antes del lunes 7.
+- **Qué mandas, hasta el lunes 7 a las 22:00:** tus respuestas de 듣기 y 읽기 en el **formulario** (se corrigen solas) y la **foto o escaneo de tu 쓰기** (51–54) por privado a Jay.
+- **Si no alcanzas el lunes:** puedes entregar hasta el **miércoles 9 a las 12:00**; tu puntaje de 듣기 y 읽기 lo ves en clase y la corrección del 쓰기 te llega antes del lunes 14.
 - **Qué se mira:** que sea de verdad un ensayo general (180 minutos, sin ayuda, las cuatro tareas de 쓰기 intentadas). Tu puntaje y tu nivel estimado son **una referencia para armar tu plan**, no un resultado oficial.
 
 ### 9.3 Puente a la clase 8 (2 minutos)
 
 Anota en tu cuaderno tu **meta**: qué nivel quieres (3급, 4급…) y en qué examen. En la clase 8, con el puntaje del simulacro, la vas a presentar en coreano en 1 minuto: **제 목표는 ___는 거예요.**
 
-El **viernes 27** te llega el **cuaderno de la clase 8**: sus ejercicios de la sección 6 los haces cuando quieras (unos 15 minutos). El **miércoles 2**, antes de las 14:00, te llega por privado tu **hoja de resultados** del simulacro: con ella completas "Mi ruta" (sección 9 de ese cuaderno, unos 15 minutos).
+El **viernes 4** te llega el **cuaderno de la clase 8**: sus ejercicios de la sección 6 los haces cuando quieras (unos 15 minutos). El **miércoles 9**, antes de las 14:00, te llega por privado tu **hoja de resultados** del simulacro: con ella completas "Mi ruta" (sección 9 de ese cuaderno, unos 15 minutos).
 
 ### 9.4 Ruta intensiva (opcional: no suma ni resta)
 
@@ -517,10 +517,10 @@ El **viernes 27** te llega el **cuaderno de la clase 8**: sus ejercicios de la s
 - **Lectura en voz alta** 5 minutos al día: tu 54 o el 서론 modelo de la sección 5.
 
 ### Qué entregas (marca cuando esté listo)
-- [ ] Foto de mi 54 del Examen D (por privado · **vie 27, 22:00**)
+- [ ] Foto de mi 54 del Examen D (por privado · **vie 4, 22:00**)
 - [ ] Descargué el Examen E, el MP3 y el 답안지 **sin abrir las preguntas**
-- [ ] Simulacro: formulario + foto del 쓰기 (**lun 30, 22:00**)
-- [ ] 54 reescrito + audio de 3 minutos (por privado · **mié 2 dic, 22:00**)
+- [ ] Simulacro: formulario + foto del 쓰기 (**lun 7, 22:00**)
+- [ ] 54 reescrito + audio de 3 minutos (por privado · **mié 9 dic, 22:00**)
 - [ ] Mi meta anotada para la clase 8
 - [ ] (Opcional) Mi banco de 20 expresiones en el grupo
 
@@ -528,15 +528,15 @@ El **viernes 27** te llega el **cuaderno de la clase 8**: sus ejercicios de la s
 
 | Cuándo | Qué |
 |---|---|
-| **Jue 26** | Clase 7 · descargas el Examen E sin abrirlo |
-| **Vie 27** | Te llega el cuaderno de la clase 8 |
-| **Vie 27, 22:00** | Cierra tu 54 (foto por privado) |
-| **Sáb 28, 20:00** | Te llega tu 54 corregido |
-| **Sáb 28 – lun 30** | Simulacro de 180 minutos (te recomendamos el domingo) |
-| **Lun 30, 22:00** | Entregas el simulacro (formulario + foto del 쓰기) |
-| **Mié 2, antes de las 14:00** | Te llega tu hoja de resultados → completas "Mi ruta" (cuaderno de la clase 8) |
-| **Mié 2, 22:00** | Portafolio: 54 reescrito + audio |
-| **Jue 3, 21:00** | Clase 8: tu puntaje, tu plan y tu presentación de 1 minuto |
+| **Jue 3** | Clase 7 · descargas el Examen E sin abrirlo |
+| **Vie 4** | Te llega el cuaderno de la clase 8 |
+| **Vie 4, 22:00** | Cierra tu 54 (foto por privado) |
+| **Sáb 5, 20:00** | Te llega tu 54 corregido |
+| **Sáb 5 – lun 7** | Simulacro de 180 minutos (te recomendamos el domingo) |
+| **Lun 7, 22:00** | Entregas el simulacro (formulario + foto del 쓰기) |
+| **Mié 9, antes de las 14:00** | Te llega tu hoja de resultados → completas "Mi ruta" (cuaderno de la clase 8) |
+| **Mié 9, 22:00** | Portafolio: 54 reescrito + audio |
+| **Jue 10, 21:00** | Clase 8: tu puntaje, tu plan y tu presentación de 1 minuto |
 
 **¿Faltaste?** Mira la grabación (se sube dentro de 24 horas junto con el esqueleto que armó el grupo), haz el 54 igual, con el mismo plazo, y escríbele a Jay para ver cómo rindes el quiz 6.
 

@@ -1,6 +1,6 @@
 # Semana 7 · 방에 침대가 있어요 · Mi pieza y mis verbos
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 24 de noviembre · Sección jueves: jueves 26 de noviembre · 20:00 (hora de Chile) · Libro: lecciones 7 y 8**
+**Sección martes: martes 1 de diciembre · Sección jueves: jueves 3 de diciembre · 20:00 (hora de Chile) · Libro: lecciones 7 y 8**
 
 ---
 
@@ -325,13 +325,13 @@ Si te quedas en blanco, respira y di lo más simple que sepas. Una frase corta y
 
 Por el piso tibio, y porque mucha vida pasa en el suelo, **en Corea uno se saca los zapatos al entrar a la casa**. En Latinoamérica el piso radiante es raro: ¿en tu casa se entra con zapatos?
 
-**¿Estaciones al revés?** Si vives en el sur del continente (Chile, Argentina, Uruguay…), mientras a ti se te viene el verano, en Corea ya hace frío y el 온돌 está prendido (si vives en México o España, tú también vas al invierno). Y a fines de noviembre muchas familias coreanas preparan el **김장**: hacen kimchi para todo el invierno (la fecha cambia de norte a sur). Hoy muchas familias hacen menos cantidad o lo compran hecho, pero sigue siendo una tradición muy querida. Así que esta semana tiene sentido preguntar… **김치를 좋아해요?**
+**¿Estaciones al revés?** Si vives en el sur del continente (Chile, Argentina, Uruguay…), mientras a ti se te viene el verano, en Corea ya hace frío y el 온돌 está prendido (si vives en México o España, tú también vas al invierno). Y entre fines de noviembre y comienzos de diciembre muchas familias coreanas preparan el **김장**: hacen kimchi para todo el invierno (la fecha cambia de norte a sur). Hoy muchas familias hacen menos cantidad o lo compran hecho, pero sigue siendo una tradición muy querida. Así que esta semana tiene sentido preguntar… **김치를 좋아해요?**
 
 ---
 
 ## 9. Tarea de la semana (≈ 30 minutos + el examen)
 
-Todo se entrega **antes de tu clase 8** (martes 1 o jueves 3 de diciembre, 20:00 hora de Chile), en el grupo de WhatsApp del curso, salvo el guion, que va directo a Kiran.
+Todo se entrega **antes de tu clase 8** (martes 8 [por confirmar] o jueves 10 de diciembre, 20:00 hora de Chile), en el grupo de WhatsApp del curso, salvo el guion, que va directo a Kiran.
 
 ### 9.1 Hoja de las lecciones 7–8 + quiz de 15 preguntas (10 min)
 
@@ -423,15 +423,15 @@ Si te salen 11 o 12 frases cortas, no pasa nada: caben en 2 minutos.
 - [ ] ¿Está todo en 한글, sin letras latinas?
 - [ ] ¿Son frases que aprendimos en clase? Si una frase la sacaste de un traductor, cámbiala por una del curso: te va a salir más natural al decirla.
 
-**Cómo lo envías:** tipeado en 한글, a Kiran, por el canal que ella indique en el grupo, a más tardar **48 horas después de tu clase 7** (sección martes: jueves 26 de noviembre, 20:00 · sección jueves: sábado 28 de noviembre, 20:00), salvo que Kiran publique otro plazo en el grupo. Te vuelve corregido antes de la clase 8.
+**Cómo lo envías:** tipeado en 한글, a Kiran, por el canal que ella indique en el grupo, a más tardar **48 horas después de tu clase 7** (sección martes: jueves 3 de diciembre, 20:00 · sección jueves: sábado 5 de diciembre, 20:00), salvo que Kiran publique otro plazo en el grupo. Te vuelve corregido antes de la clase 8.
 
 **Cómo lo practicas:** léelo en voz alta varias veces y después grábate una vez sin mirar. No lo memorices palabra por palabra: aprende las ideas en orden. En la clase 8 puedes mostrar hasta 4 fotos o dibujos de apoyo (tú, tu familia, tu pieza, algo que te gusta), pero nunca el texto. Las fotos pueden ser de famosos o dibujos. **Hablar lento no baja la nota.**
 
 ### 9.4 Examen escrito en línea (30 minutos)
 
 Lo rindes **antes de tu clase 8**, cuando quieras dentro de tu ventana:
-- **Sección martes:** se abre el **domingo 29 de noviembre a las 20:00** y cierra el **martes 1 de diciembre a las 20:00**.
-- **Sección jueves:** se abre el **martes 1 de diciembre a las 20:00** y cierra el **jueves 3 de diciembre a las 20:00**.
+- **Sección martes:** se abre el **domingo 6 de diciembre a las 20:00** y cierra el **martes 8 de diciembre a las 20:00** [por confirmar].
+- **Sección jueves:** se abre el **martes 8 de diciembre a las 20:00** y cierra el **jueves 10 de diciembre a las 20:00**.
 - Link: lo publica Kiran en el grupo.
 
 Tiene 4 partes (50 puntos): **dictado** de 10 sílabas y palabras · **vocabulario** coreano ↔ español · **partículas y conjugación** · **6 frases sobre ti**. Todo en 한글, sin letras latinas. Busca un momento tranquilo, con audífonos para el dictado.

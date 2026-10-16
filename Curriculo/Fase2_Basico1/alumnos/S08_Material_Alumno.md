@@ -1,6 +1,6 @@
 # Semana 8 · 사과를 좋아해요 + "Yo en coreano"
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 1 de diciembre · Sección jueves: jueves 3 de diciembre · 20:00 (hora de Chile) · Libro: lección 9 + lección 10 (repaso)**
+**Sección martes: martes 8 de diciembre [por confirmar] · Sección jueves: jueves 10 de diciembre · 20:00 (hora de Chile) · Libro: lección 9 + lección 10 (repaso)**
 
 Llegamos, chingu. Hace 8 semanas no reconocías ni una letra, y esta semana te presentas en coreano entre 1 y 2 minutos, sin leer. De paso aprendemos a decir lo que te gusta y lo que no, sin ofender a nadie. 화이팅!
 
@@ -20,11 +20,11 @@ Llegamos, chingu. Hace 8 semanas no reconocías ni una letra, y esta semana te p
 
 | | Sección martes | Sección jueves |
 |---|---|---|
-| **1 · Examen escrito en línea** (30 min) | Desde el **dom 29 nov, 20:00** hasta el **mar 1 dic, 20:00** | Desde el **mar 1 dic, 20:00** hasta el **jue 3 dic, 20:00** |
-| **2 · Clase 8** | mar 1 dic, 20:00 (hora de Chile) | jue 3 dic, 20:00 (hora de Chile) |
+| **1 · Examen escrito en línea** (30 min) | Desde el **dom 6 dic, 20:00** hasta el **mar 8 dic, 20:00** [por confirmar] | Desde el **mar 8 dic, 20:00** hasta el **jue 10 dic, 20:00** |
+| **2 · Clase 8** | mar 8 dic, 20:00 (hora de Chile) [por confirmar] | jue 10 dic, 20:00 (hora de Chile) |
 | **3 · Tarea final** (≈ 20 min) | Después de la clase, antes del ______ | Después de la clase, antes del ______ |
 | Comentario escrito de Kiran sobre tu presentación | En los 2 días siguientes a tu clase | En los 2 días siguientes a tu clase |
-| Certificado | Semana del 7 de diciembre | Semana del 7 de diciembre |
+| Certificado | Semana del 14 de diciembre | Semana del 14 de diciembre |
 
 *(Kiran confirma en el grupo la fecha de la tarea final.)*
 

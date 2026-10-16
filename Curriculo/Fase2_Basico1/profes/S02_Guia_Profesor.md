@@ -1,5 +1,5 @@
 # Básico 1 (A1.1) · Semana 2 · 가나다라 II + 안녕하세요
-### Guía de la profesora · Kiran (기란) · martes 20 y jueves 22 de octubre de 2026 · 20:00–20:58 (hora de Chile)
+### Guía de la profesora · Kiran (기란) · martes 27 y jueves 29 de octubre de 2026 · 20:00–20:58 (hora de Chile)
 
 **MATERIAL DE LA PROFESORA · no se comparte con alumnos.** Tiene respuestas, tiempos y notas internas. No se comparte con alumnos. Lo que reciben los alumnos está en `../alumnos/S02_Material_Alumno.md`.
 
@@ -13,7 +13,7 @@ Fuentes: `../00_Diseno_Basico1.md` (B.3, B.10–B.12, C, D, E) · syllabus publi
 
 | | |
 |---|---|
-| Clase | 2 de 8 · martes 20 oct (sección martes) y jueves 22 oct (sección jueves) · 20:00–20:58, hora de Chile |
+| Clase | 2 de 8 · martes 27 oct (sección martes) y jueves 29 oct (sección jueves) · 20:00–20:58, hora de Chile |
 | Lección del libro | 가나다라 II (Hangul, parte 2) + Lección 1 del libro |
 | La idea de la semana | El Hangul II **no es un alfabeto nuevo**: es el mismo sistema con *un piso más* (받침), *un soplo o un apretón más* (aspiradas y tensas) y *dos vocales en una* (compuestas). Con eso ya leen cualquier sílaba, y con 저는 N이에요/예요 dicen su primera frase real |
 | Estructuras nuevas (tope 3) | 1 · Hangul II (받침 con 7 sonidos, tensas, compuestas frecuentes) · 2 · 저는 N이에요/예요 (+ N 사람, + ocupación) · 3 · 은/는 **solo dentro de 저는** |
@@ -51,14 +51,14 @@ Fuentes: `../00_Diseno_Basico1.md` (B.3, B.10–B.12, C, D, E) · syllabus publi
 | **13 · Tarea para la casa** | ≈ 25 min, antes de la clase 3. (1) **Lector, 10 min:** Aprender 4 "Suma un trazo, suma fuerza" y 6 "El truco del batchim" + Practicar → Aspiradas y tensas, Batchim y Sílabas, **3 rondas seguidas de cada uno**; captura de Progreso. (2) **Hoja de la lección 1, 10 min:** 8 presentaciones con 이에요/예요 y la suya (nombre, país, ocupación). (3) **Audio de 20 s, 5 min:** su presentación completa, sin leer; y la misma presentación tipeada en el grupo. **Extra:** Dubu, barrios 3 Hongdae y 4 Gwangjang · Lector → Practicar → Vocales, 3 rondas más (le salen las compuestas). **Prepara la S3:** dejar a mano 5 objetos de la casa (un libro, un lápiz, el celular, un paraguas, una taza). |
 | **14 · Recurso digital (exacto)** | **Lector** (`/lector-coreano`) → Aprender 4 y 6 · Practicar → Aspiradas y tensas (3 rondas seguidas), Batchim (3 rondas seguidas) y Sílabas (3 rondas seguidas). El modo rota solo (Lectura → Escucha → Inversa) y el grupo cambia cada 3 rondas: por eso "3 rondas seguidas". **Ojo con lo que practica cada uno (verificado en el código):** Aspiradas y tensas = ㅋ ㅌ ㅍ ㅊ ㄲ ㄸ ㅃ ㅆ ㅉ; Batchim = 16 palabras con 받침 (밥, 물, 방, 빵, 산, 강, 책, 꽃…); **Sílabas = consonante + vocal, sin 받침**, y para quien nunca la jugó, las rondas 1–3 son "vocales básicas" (las compuestas llegan en las rondas 4–6). Por eso la tarea del alumno sugiere, como extra, **Practicar → Vocales, 3 rondas más**: después de las 3 de la S1, el Lector ya le pone "vocales compuestas". **Extra: Dubu** (`/dubu`), barrio 3 Hongdae (3-1 강, 3-2 산, 3-3 pares 안/앙 · 암/앙 · 곰/공 · 밥/방, 3-4 물, 3-5 한국) y barrio 4 Gwangjang (4-1 커피, 4-2 가/카/까 · 다/타/따 · 바/파/빠 · 사/싸, 4-3 꽃, 4-4 빵, 4-5 피자). Dubu abre los barrios en orden: quien no terminó los barrios 1–2 (extra de la S1) empieza por ahí. En estos barrios Dubu muestra romanización como pista; desde la S3 pasamos al barrio 5, solo de oído. **En clase:** Lector → Aprender 6 (tabla del batchim) compartido con sonido. |
 | **15 · Preparación de la profe** | Ver checklist completo en C.2. Lo esencial: revisar las entregas de la S1 (audio base, nombre en Hangul) y marcar el diagnóstico · con el Quiz 1 y el diagnóstico, pensar los tríos (un lector rápido con uno lento) · tener una tira de papel a mano · probar Zoom (salas, grabación, chat "solo anfitrión") · tener abierto este documento en la sección C.10 para pegar las tarjetas en el chat. |
-| **16 · Entregable del alumno** | Captura de Progreso (Aspiradas y tensas, Batchim, Sílabas) · foto o PDF de la hoja de la lección 1 · audio de 20 s con su presentación + la misma presentación tipeada en 한글 en el grupo. Plazo: antes de su clase 3 (mar 27 o jue 29 oct, 20:00). |
+| **16 · Entregable del alumno** | Captura de Progreso (Aspiradas y tensas, Batchim, Sílabas) · foto o PDF de la hoja de la lección 1 · audio de 20 s con su presentación + la misma presentación tipeada en 한글 en el grupo. Plazo: antes de su clase 3 (mar 3 o jue 5 nov, 20:00). |
 | **17 · Evaluación** | **Quiz 1** (abre la clase; sobre la S1; 5 ítems; clave en C.14): 2 dictados de sílaba (ㅓ/ㅗ y ㅡ/ㅜ) · 1 "arma la sílaba" (ㅁ + ㅗ) · 1 significado (바다) · 1 lectura en voz alta por turnos. Cuenta en el 15 % de quizzes de la tabla del kit (la ficha publicada `a11` lo pone dentro del 40 % de participación y quizzes → **[regla del certificado: pendiente de decisión de Jay]**; tú solo anotas x/5). **Observación sin nota** en el role play: ¿elige bien 가세요/계세요? (cultura en uso; se anota ✓ / a reforzar). **Tareas:** las 3 entregas cuentan en el 25 % de tareas. **Participación:** asistencia + al menos 3 turnos de habla. Asistencia: el kit dice "en vivo o grabación + tarea"; la ficha publicada dice "solo en vivo" → **[regla del certificado: pendiente de decisión de Jay]**: mientras tanto, anota por separado *en vivo* / *grabación + tarea* / nota. |
 
 ---
 
 ## B. Plan de clase minuto a minuto (58 minutos útiles · termina a las 20:58)
 
-Graba desde el minuto 0 (nombre: `Basico1-Martes_S02_2026-10-20` o `Basico1-Jueves_S02_2026-10-22`). Los números de slide son los del guion de C.16.
+Graba desde el minuto 0 (nombre: `Basico1-Martes_S02_2026-10-27` o `Basico1-Jueves_S02_2026-10-29`). Los números de slide son los del guion de C.16.
 
 | Minuto (reloj) | Bloque | Qué hace la profe | Qué hacen los alumnos | Zoom: pantalla · salas · chat | Material |
 |---|---|---|---|---|---|
@@ -85,7 +85,7 @@ Graba desde el minuto 0 (nombre: `Basico1-Martes_S02_2026-10-20` o `Basico1-Juev
 | 50:00–53:00 (20:50–20:53) | **Salas · L · Minuto libre** | Sigue rotando; escucha si hay saludo, preguntas y despedida | Saludan a los 2 compañeros sin guion; al cerrar, todos se van: "안녕히 가세요!" | 20:52:30 cerrar salas (30 s de cuenta regresiva) | Slide 25 |
 | 53:00–54:30 (20:53–20:55) | Cierre · errores del día | Los 2–3 errores más repetidos (ver C.6), con la forma correcta en coro | Repiten la forma correcta | Slide 26 | Tus notas |
 | 54:30–56:00 (20:55–20:56) | **Las 3 frases clave en coro** | Frase por frase, despacio y con pausa (de aquí sale el clip): "안녕하세요! 저는 마리아예요. 저는 다니엘이에요." → coro con su nombre · "저는 칠레 사람이에요." → coro · "안녕히 계세요!" → coro | Coro ×2 | Slide 26 · todos con micrófono abierto solo en el coro | Slide 26 |
-| 56:00–57:30 (20:56–20:57) | Tarea | Lee la tarea con el destino exacto; "5 objetos para la clase 3"; aviso de hora de España si hay alumnos allá | Preguntan dudas en 15 s o en el grupo | Slide 27 | Slide 27 · C.17 |
+| 56:00–57:30 (20:56–20:57) | Tarea | Lee la tarea con el destino exacto; "5 objetos para la clase 3"; aviso de hora de EE.UU. si hay alumnos allá | Preguntan dudas en 15 s o en el grupo | Slide 27 | Slide 27 · C.17 |
 | 57:30–58:00 (20:57–20:58) | Despedida | "감사합니다! 화이팅!" Ellos se van, tú te quedas: te dicen 안녕히 계세요, respondes 안녕히 가세요 | "안녕히 계세요!" + 목례 | Slide 28 · **terminar la reunión a las 20:58** | Slide 28 |
 
 **Si el grupo es chico** (8 alumnos o menos): la ronda dura 2 minutos y el quiz de lectura 1 minuto; usa los 3 minutos que sobran en la C (una segunda vuelta de "Nuestros nombres" con ocupación) o en la actividad de emergencia (C.12). Salas: 2 o 3 tríos.
@@ -105,7 +105,7 @@ Que cada alumno **lea cualquier sílaba** (con 받침, tensas y compuestas) y sa
 
 **Lo que te entregamos (tú no produces material):** deck de la S2 (guion en C.16) con la slide 22 "Nuestros nombres" ya armada con los nombres que tu grupo tipeó en la S1 · este documento con el Quiz 1, las tarjetas de salas y la clave · la hoja de la lección 1 en PDF (sale de `../alumnos/S02_Material_Alumno.md`, sección 6, ejercicios 1–4) · la tarjeta de países. Si la slide 22 no llega a tiempo: usa los nombres de la galería de Zoom (ver abajo) y escríbelos tú en el chat.
 
-**El lunes 19 (sección martes) o el miércoles 21 (sección jueves)**
+**El lunes 26 (sección martes) o el miércoles 28 (sección jueves)**
 - [ ] Revisa las entregas de la S1: escucha los audios base y marca en la hoja del curso ㅓ/ㅗ · ㅡ/ㅜ · ㅇ muda (bien / a reforzar). Respóndelos con tu audio de 15 s (máximo 3 puntos, uno positivo primero).
 - [ ] Revisa cómo escribió cada uno su nombre en 한글 y corrige la grafía por el grupo si hace falta (tabla de nombres en C.15). Confirma a producción la lista final para la slide 22.
 - [ ] Con el diagnóstico, anota 5 posibles tríos (un lector rápido con uno lento). El Quiz 1 los ajusta en vivo.
@@ -124,7 +124,7 @@ Que cada alumno **lea cualquier sílaba** (con 받침, tensas y compuestas) y sa
 - [ ] Anota 2–3 errores frecuentes para el cierre y la observación de 가세요/계세요 por alumno.
 
 **Después (dentro de 24 horas)** — detalle en C.17
-- [ ] Grabación + PDF de la clase + tarea a la carpeta del curso: `Basico1_S02_2026-10-20_Hangul2-Presentarse.pdf` (o `…2026-10-22…`).
+- [ ] Grabación + PDF de la clase + tarea a la carpeta del curso: `Basico1_S02_2026-10-27_Hangul2-Presentarse.pdf` (o `…2026-10-29…`).
 - [ ] Asistencia, Quiz 1 y observación en la hoja del curso.
 - [ ] Mensaje post-clase en el grupo (texto en C.17) y una línea a Jay: "todo bien / faltó X / grupo lento en Y".
 
@@ -470,7 +470,7 @@ Plantilla trilingüe de la casa (título ES/KO; EN pequeño si la plantilla lo p
 
 | # | Título | En pantalla | Nota / reutilización |
 |---|---|---|---|
-| 1 | 가나다라 II + 안녕하세요 | Básico 1 · Semana 2 · mar 20 / jue 22 oct · Kiran (기란) · logo azul | Nueva |
+| 1 | 가나다라 II + 안녕하세요 | Básico 1 · Semana 2 · mar 27 / jue 29 oct · Kiran (기란) · logo azul | Nueva |
 | 2 | Quiz 1 · 퀴즈 | 1 (dictado) · 2 (dictado) · 3 ㅁ + ㅗ = ? · 4 바다 = ? | Los ítems 1–2 no llevan texto (son dictado). Nueva |
 | 3 | Quiz 1 · lee tu palabra | 15 palabras numeradas: 버스 · 너 · 아이 · 우유 · 오이 · 나무 · 드라마 · 모자 · 머리 · 구두 · 어머니 · 아버지 · 고기 · 오리 · 두부 (sin romanización ni significado: es lectura) | Nueva |
 | 4 | Hoy vas a poder decir… | 안녕하세요! 저는 ___예요/이에요. · 저는 칠레 사람이에요. · 안녕히 계세요! (Hangul + español, sin romanización) | Nueva |
@@ -504,22 +504,22 @@ Plantilla trilingüe de la casa (título ES/KO; EN pequeño si la plantilla lo p
 
 ### C.17 Después de la clase
 
-**Mensaje del día anterior (lunes 19 / miércoles 21, en el grupo):**
+**Mensaje del día anterior (lunes 26 / miércoles 28, en el grupo):**
 
-> ¡Hola, chingus! Mañana [martes 20 / jueves 22] es nuestra clase 2: 20:00 hora Chile (18:00 Colombia y Perú · 17:00 México · 19:00 EE.UU. Este · 01:00 del día siguiente en España). Dos pedidos: entren a Zoom con su nombre en 한글 y en español, por ejemplo **마리아 (María)**, y tengan una hoja de papel a mano (hacemos un experimento de pronunciación). Si todavía no mandaron la tarea de la semana 1, están a tiempo. ¡Nos vemos mañana! 화이팅
+> ¡Hola, chingus! Mañana [martes 27 / jueves 29] es nuestra clase 2: 20:00 hora Chile (18:00 Colombia y Perú · 17:00 México · 19:00 EE.UU. Este · 00:00 en España, ya del día siguiente: desde esta semana, por el cambio de hora). Dos pedidos: entren a Zoom con su nombre en 한글 y en español, por ejemplo **마리아 (María)**, y tengan una hoja de papel a mano (hacemos un experimento de pronunciación). Si todavía no mandaron la tarea de la semana 1, están a tiempo. ¡Nos vemos mañana! 화이팅
 
 **Mensaje post-clase (plantilla del kit, completa):**
 
 > ¡Gracias por la clase de hoy, chingus!
 > Grabación: [link]
-> Tarea para antes del [martes 27 / jueves 29] de octubre, 20:00 (hora Chile):
+> Tarea para antes del [martes 3 / jueves 5] de noviembre, 20:00 (hora Chile):
 > 1) Lector de Hangul → Aprender 4 y 6 + Practicar → Aspiradas y tensas, Batchim y Sílabas: 3 rondas seguidas de cada uno (el modo cambia solo). Mándenme la captura de Progreso.
 > 2) Hoja de la lección 1 (foto o PDF aquí en el grupo).
 > 3) Audio de 20 segundos con su presentación completa, sin leer: 저는 ___. ___ 사람이에요. ___. Y escríbanla también aquí, con el teclado coreano.
 > Extra: Dubu, barrios 3 y 4 · y en el Lector, Practicar → Vocales, 3 rondas más (ahí salen las vocales compuestas).
 > Para la clase 3: tengan a mano 5 objetos de su casa (un libro, un lápiz, su celular, un paraguas y una taza).
-> [Solo si hay alumnos en España] El domingo 25 España cambia de hora: nuestra clase 3 allá es a las 00:00.
-> ¡Nos vemos el [martes 27 / jueves 29] a las 20:00! 화이팅
+> [Solo si hay alumnos en EE.UU.] El domingo 1 de noviembre EE.UU. cambia de hora: nuestra clase 3 allá (hora del Este) es a las 18:00.
+> ¡Nos vemos el [martes 3 / jueves 5] a las 20:00! 화이팅
 
 **Devolución de los audios de 20 s** (tu audio de 15 s; máximo 3 puntos, uno positivo primero). Frases que te sirven:
 - "잘했어요! Tu 저는 suena muy natural."
@@ -535,21 +535,22 @@ Plantilla trilingüe de la casa (título ES/KO; EN pequeño si la plantilla lo p
 
 ---
 
-## D. ⚑ Para revisar con nativo y pendientes (antes del lunes 19 de octubre)
+## D. ⚑ Para revisar con nativo y pendientes (antes del lunes 26 de octubre)
 
 **⚑ Coreano y datos**
-1. **Despedida al final de la clase por Zoom:** usamos la convención "ustedes se van, yo me quedo" → los alumnos dicen **안녕히 계세요** y tú **안녕히 가세요** (es la 3.ª frase clave). ¿Te suena natural para una clase en línea, o dirías otra cosa? (diseño, ⚑ 4). Si cambias algo, avísanos antes del martes 20: está en el material del alumno.
+1. **Despedida al final de la clase por Zoom:** usamos la convención "ustedes se van, yo me quedo" → los alumnos dicen **안녕히 계세요** y tú **안녕히 가세요** (es la 3.ª frase clave). ¿Te suena natural para una clase en línea, o dirías otra cosa? (diseño, ⚑ 4). Si cambias algo, avísanos antes del martes 27: está en el material del alumno.
 2. **Grafías de los famosos** de la slide 14: 손흥민 · 샤키라 · 페드로 파스칼 (grafías habituales en la prensa coreana). Pedro Pascal nació en Santiago pero tiene doble nacionalidad (chilena y estadounidense): 칠레 사람 se sostiene, pero si alguien lo discute, usa otro famoso chileno. Y si alguno no te gusta, cámbialo por otro con nacionalidad clara (uno con 이에요 y uno con 예요, como mínimo).
 3. **"저는 기란이에요. 한국 사람이에요. 선생님이에요."** y en la ronda **"기란 선생님이에요. 한국 사람이에요."** dicho por un alumno señalándote. Un nativo, delante de la profe, diría con más respeto 기란 선생님이세요 / 한국 분이세요; eso es de otro nivel y en la S2 aceptamos la forma con 이에요. ¿Te parece bien aceptarla, o prefieres que el alumno diga solo "기란 선생님!" y siga con su presentación?
 4. **Puente de las oclusivas** ("nuestra p/t/k está más cerca de ㅃ/ㄸ/ㄲ"): úsalo solo si te convence al oído.
 5. **Tarjeta de países a pedido** (diseño, ⚑ 6) y **ocupaciones a pedido** (C.15): grafías y naturalidad (p. ej., 개발자 frente a 프로그래머).
 6. **Escena 2 del diálogo modelo:** "저는 회사원이에요." dicho justo después de "학생이에요." (se entiende como "y yo…"). ¿Te suena natural así? Si no, dinos cómo lo dirías sin 저도 ni otras formas que el grupo todavía no vio.
 7. **선생님 para hablar de uno mismo** ("저는 선생님이에요" en la R, en el ejercicio 2 de la hoja —casos 4 y 7— y en la tabla de ocupaciones del alumno). Con 님 es, en rigor, un trato de respeto hacia otro; lo más cuidado para uno mismo es 교사예요 o 한국어 선생님이에요. En el habla es muy frecuente y lo dejamos por ser vocabulario núcleo publicado; el material del alumno ya trae una nota. ¿Te parece bien así?
+8. **Jueves 29 de octubre** (clase 2 de la sección jueves): es el aniversario de la tragedia de Itaewon (29 oct 2022), y el sábado 31 es Halloween. No es tema de una clase A1, pero si sale Halloween, sin bromas sobre Itaewon.
 
 **DECISIONES DE JAY que tocan esta semana**
 - **[regla del certificado: pendiente de decisión de Jay]:** si la clase vista en grabación + tarea cuenta como asistencia (kit: sí; ficha `a11`: no). Hasta entonces, registro por separado.
 - Cómo recupera el Quiz 1 quien faltó (propuesta en C.14).
-- Slide 22 "Nuestros nombres": quién la arma (producción) y hasta cuándo (propuesta: lunes 19 a las 12:00 para martes; miércoles 21 a las 12:00 para jueves).
+- Slide 22 "Nuestros nombres": quién la arma (producción) y hasta cuándo (propuesta: lunes 26 a las 12:00 para martes; miércoles 28 a las 12:00 para jueves).
 - Responsable del recorte semanal del clip de las 3 frases clave (`B1_S02_frases_clave.mp3`, dentro de 48 h de la clase del martes).
 
 ---

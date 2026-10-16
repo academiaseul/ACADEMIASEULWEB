@@ -1,5 +1,5 @@
 # Básico 2 (A1.2) · Semana 4 · El pasado · -았/었어요 (mitad del curso)
-### Guía del profesor · Jay Kim (김재희) · miércoles 4 de noviembre de 2026 · 21:00–22:00 (hora de Chile) · jueves 5, 09:00 en Corea
+### Guía del profesor · Jay Kim (김재희) · miércoles 11 de noviembre de 2026 · 21:00–22:00 (hora de Chile) · jueves 12, 09:00 en Corea
 
 **MATERIAL DEL PROFESOR · solo para Jay · no se comparte con alumnos.** El material del alumno, sin respuestas ni notas internas, está en `../alumnos/S04_Material_Alumno.md`.
 Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3).
@@ -27,7 +27,7 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 | Estructuras nuevas (tope 3) | 1) **-았어요/었어요** (+ 이었어요/였어요) · 2) **N부터 N까지** (tiempo) / **N에서 N까지** (lugares) · 3) **N하고 / N(이)랑** (con; y) |
 | No cuentan | Palabras de tiempo con y sin 에 (léxico) · 에는 / 은/는 para contrastar (reactivación de la S1) · **-고 en pasado** (fórmula desde la S3: el tiempo solo en el último verbo) · 주말 잘 보냈어요? (reconocer) · 누구하고 / 누구랑 (fórmula) |
 | Vocabulario | 19 entradas: 12 de núcleo publicado (2 reactivadas: 영화를 보다, 요리하다) + 6 del tema y fórmulas + 1 de reconocimiento (A.1). **Todas tienen clip** en `public/audio/kr` (generados el 26 sept; ver C.2) |
-| Evaluación | **Quiz 3** al abrir (sobre la S3) + 1 ítem estilo TOPIK I + revisión del quiz en línea 1 · **mitad del curso** (C.14): comentario de 3 líneas + guía de estudio, dom 8 nov (DECISIÓN DE JAY 8) · parejas nuevas desde la S5 |
+| Evaluación | **Quiz 3** al abrir (sobre la S3) + 1 ítem estilo TOPIK I + revisión del quiz en línea 1 · **mitad del curso** (C.14): comentario de 3 líneas + guía de estudio, dom 15 nov (DECISIÓN DE JAY 8) · parejas nuevas desde la S5 |
 | Romanización | **Ninguna** (diseño D). La pronunciación va en 한글 entre corchetes: 먹었어요 [머거써요] |
 | Lo que no se toca | Los 20 minutos de salas, el mini-diario oral (es práctica publicada **y** la evidencia en vivo de la mitad del curso) y el coro de las 3 frases clave |
 | Coreano en voz alta | ≈ 25 de los 60 minutos hay alumnos diciendo coreano (cuenta conservadora): ≈ 18 en salas de 3 (≈ 6 min de habla por persona) + ≈ 2 del drill (los turnos de 3 s) + ≈ 4 de turnos y coros en la lección + ≈ 2 en el cierre. Solo las salas ya dan casi los 20: el resto de la hora asegura el mínimo aunque una sala se trabe |
@@ -44,7 +44,7 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 
 | | |
 |---|---|
-| **Fecha** | Miércoles **4 de noviembre de 2026** · 21:00–22:00, hora de Chile (UTC−3) · jueves 5, 09:00 en Corea · **EE.UU. (Este): 19:00** (cambió de hora el dom 1 nov) · España: jue 01:00 |
+| **Fecha** | Miércoles **11 de noviembre de 2026** · 21:00–22:00, hora de Chile (UTC−3) · jueves 12, 09:00 en Corea · EE.UU. (Este): 19:00 (desde el dom 1 nov) · España: jue 01:00 |
 | **Unidad del libro** | Tiempos 03 (pasado -았어요/었어요) · Partículas 08 (부터~까지 · 에서~까지) · expresiones de tiempo pasado · 하고 / (이)랑 (⚑ D-15) |
 | **Romanización** | Ninguna. Corchetes en 한글 ([해써요]); si alguien escribe en letras latinas en el chat, Jay responde con la misma frase en 한글, sin reproche |
 | **Grupo mixto** | Julio **reconoce** 갔어요 (bonus de la clase 10) · quien entró por test suele traer 했어 / 먹었어 de los dramas: se sube a 했어요 · lo demás es nuevo para todos · en el mini-diario oral **abre la ronda quien ya trae el pasado** (B0.4) |
@@ -63,11 +63,11 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 | 10 | **Tarea de reading** | En clase: el aviso del ítem TOPIK del quiz 3 · las agendas ficticias en 한글. En casa: el diálogo y el **mini-diario de Camila** (sección 5 del material: 11 frases + 4 preguntas) · Lector → Números, ronda 📖 Lectura |
 | 11 | **Tarea de writing** | En clase: una frase propia en pasado en el chat (bloque 3) y los checks de 에 / (이)랑 en el chat. En casa: **mini-diario escrito** de 3 frases por el grupo (publicado) + **Hoja 4** (15 frases al pasado + texto con 부터~까지; publicada). 띄어쓰기 de la semana: **지난주** (junto) · **지난 주말**, **오늘 아침** (separado) · partícula pegada: 친구하고, 아홉 시부터 |
 | 12 | **Actividad interactiva** | **Agenda ficticia** en tríos (vacío de información: cada uno es 민지, 하준 o 루시아 y completa la semana de los otros dos preguntando 몇 시부터 몇 시까지…? · 어디에서 어디까지…? · 누구하고…?) + **mini-diario oral** con preguntas del grupo |
-| 13 | **Tarea para la casa** | ≈ 28 min, antes de la clase 5 (mié 11 nov, 21:00). (1) **Mini-diario escrito, 5 min:** 3 frases en pasado sobre tu día de hoy, por el grupo (texto o foto). (2) **Lector, 8 min:** Practicar → Números, 3 rondas seguidas mientras el encabezado diga "nativos" o "mezclados"; captura de Progreso. (3) **Hoja 4, 12 min** (ejercicios 9 y 10 del material): 15 frases de presente a pasado + texto con 부터~까지. (4) **Prepara la S5, 3 min:** elige un lugar al que quieras viajar y guarda una foto. **Reto:** 2 frases del mini-diario unidas con -고. **Rescate:** mini-diario + las 8 primeras frases de la hoja (el Lector no se quita) |
+| 13 | **Tarea para la casa** | ≈ 28 min, antes de la clase 5 (mié 18 nov, 21:00). (1) **Mini-diario escrito, 5 min:** 3 frases en pasado sobre tu día de hoy, por el grupo (texto o foto). (2) **Lector, 8 min:** Practicar → Números, 3 rondas seguidas mientras el encabezado diga "nativos" o "mezclados"; captura de Progreso. (3) **Hoja 4, 12 min** (ejercicios 9 y 10 del material): 15 frases de presente a pasado + texto con 부터~까지. (4) **Prepara la S5, 3 min:** elige un lugar al que quieras viajar y guarda una foto. **Reto:** 2 frases del mini-diario unidas con -고. **Rescate:** mini-diario + las 8 primeras frases de la hoja (el Lector no se quita) |
 | 14 | **Recurso digital** (exacto) | **Lector** (`academiaseul.com/lector-coreano`) → **Practicar → Números**: rondas de 10 preguntas; el modo rota solo (📖 Lectura: ve 아홉 y elige 9 · 👂 Escucha: oye y elige el 한글 · 🔁 **Inversa: ve "9 · nativo" y elige 아홉**) y el grupo cambia cada 3 rondas (sino-coreanos → nativos → mezclados). Se piden **3 rondas seguidas mientras el encabezado diga "nativos" o "mezclados"**; si dice "sino-coreanos" (es lo más probable después de la tarea de la S2), se juega igual y se sigue hasta que cambie: esas rondas no cuentan para las 3. Las opciones son cifras o 한글; la línea de corrección trae romanización: se tapa con el dedo. **Progreso** → captura. **Clips:** las 19 palabras y las 3 frases clave de la semana tienen audio de referencia (voz SunHi del Lector) en el catálogo `Curriculo/audio/Clips_Octubre_2026.md` (ver C.2) |
 | 15 | **Preparación del profe** | Checklist en C.2. Lo esencial: tus **6 fotos del fin de semana** (5 min, eliges tú), la lista de **5 tríos**, la **tabla de mitad de curso** con la evidencia S1–S3 ya cargada, Zoom con chat privado y salas manuales, y el resumen del quiz en línea 1 abierto |
-| 16 | **Entregable del alumno** | Antes del mié 11 nov, 21:00: mini-diario escrito (3 frases) · captura de Progreso (Números) · Hoja 4 (foto o tipeada) · foto del lugar para la S5 (la muestra en clase) |
-| 17 | **Evaluación** | **Quiz 3** al abrir (4 ítems de la S3 + 1 estilo TOPIK I; clave en C.16) + revisión del **quiz en línea 1**. **Observación en salas:** forma del pasado, 에 con el tiempo, 부터/까지/에서, 하고/(이)랑, ㅆ tensa (C.14). **Mitad del curso (E.4):** con la evidencia que ya existe (diagnóstico, audios S1–S2, quizzes 1–3, quiz en línea 1, hojas 1–3) + el mini-diario oral de hoy → guía de estudio + comentario de 3 líneas el **dom 8 nov** (DECISIÓN DE JAY 8) + parejas nuevas para S5–S8. **Registro:** asistencia en vivo / grabación + tarea, en columnas separadas **[regla del certificado: pendiente de decisión de Jay]**. **Adelanto:** la clase 5 abre con el quiz 4 sobre esta semana (su clave va en la guía de la S5) |
+| 16 | **Entregable del alumno** | Antes del mié 18 nov, 21:00: mini-diario escrito (3 frases) · captura de Progreso (Números) · Hoja 4 (foto o tipeada) · foto del lugar para la S5 (la muestra en clase) |
+| 17 | **Evaluación** | **Quiz 3** al abrir (4 ítems de la S3 + 1 estilo TOPIK I; clave en C.16) + revisión del **quiz en línea 1**. **Observación en salas:** forma del pasado, 에 con el tiempo, 부터/까지/에서, 하고/(이)랑, ㅆ tensa (C.14). **Mitad del curso (E.4):** con la evidencia que ya existe (diagnóstico, audios S1–S2, quizzes 1–3, quiz en línea 1, hojas 1–3) + el mini-diario oral de hoy → guía de estudio + comentario de 3 líneas el **dom 15 nov** (DECISIÓN DE JAY 8) + parejas nuevas para S5–S8. **Registro:** asistencia en vivo / grabación + tarea, en columnas separadas **[regla del certificado: pendiente de decisión de Jay]**. **Adelanto:** la clase 5 abre con el quiz 4 sobre esta semana (su clave va en la guía de la S5) |
 
 ### A.1 Vocabulario de la semana (19 entradas)
 
@@ -101,7 +101,7 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 | 주말 잘 보냈어요? | ¿qué tal tu fin de semana? | R | lo dice Jay; se responde con lo que hiciste. 보내다 no se enseña | ✓ |
 
 **Ya conocidas que esta semana se usan mucho** (Básico 1 y S1–S3; no se enseñan de nuevo): 친구 · 동생 · 엄마 · 카페 · 식당 · 공원 · 집 · 회사 · 학교 · 바다 · 빵 · 커피 · 드라마 · 한국 음식 · 점심 · 저녁 · 오후 · 토요일/일요일 · 정말 · 너무 · 그리고 · 쉬다 · 운동하다 · 공부하다 · 일하다 · 자다 · 살다.
-**A pedido (no se evalúa, no está en la hoja):** el fin de semana del 31 oct–1 nov trae **Halloween** y, para quienes están en México, el **Día de Muertos**. Si alguien lo necesita: 핼러윈 · 파티 (se da la palabra, no se enseña). Nota interna en C.5 §16.
+**A pedido (no se evalúa, no está en la hoja):** si alguien cuenta el fin de semana del 31 oct–1 nov (la tarea de la S3 se escribe esa semana), salen **Halloween** y, para quienes están en México, el **Día de Muertos**. Si alguien lo necesita: 핼러윈 · 파티 (se da la palabra, no se enseña). Nota interna en C.5 §16.
 
 ---
 
@@ -135,23 +135,23 @@ Que cada alumno salga **contando su fin de semana en coreano**: 5 frases en pasa
 
 ### C.2 Checklist de preparación
 
-**Antes del vie 23 oct (regla N−2 del diseño; lo prepara producción, tú revisas y apruebas)**
+**Antes del vie 30 oct (regla N−2 del diseño; lo prepara producción, tú revisas y apruebas)**
 - [ ] Revisar el deck S4 con el guion de C.17 y la Hoja 4 (ejercicios 9 y 10 del material del alumno). **Tú no produces material** (Fase 1 §14.4).
 - [ ] Resolver los ⚑ de la sección D (son tuyos: eres el nativo del curso).
-- [ ] **Clips:** los 19 clips de vocabulario y los 3 de las frases clave de la S4 ya están generados en `public/audio/kr` (catálogo `Curriculo/audio/Clips_Octubre_2026.md`), pero hoy (26 sept) **no están publicados**: se publican con el push a `main`. Confirmar antes del 4 nov que las URL del catálogo responden, para poder mandar el link de las 3 frases en el mensaje post-clase.
+- [ ] **Clips:** los 19 clips de vocabulario y los 3 de las frases clave de la S4 ya están generados en `public/audio/kr` (catálogo `Curriculo/audio/Clips_Octubre_2026.md`), pero hoy (26 sept) **no están publicados**: se publican con el push a `main`. Confirmar antes del 11 nov que las URL del catálogo responden, para poder mandar el link de las 3 frases en el mensaje post-clase.
 
-**Antes del vie 30 oct**
+**Antes del vie 6 nov**
 - [ ] Revisar la **guía de estudio de mitad de curso** (`alumnos/B2_Guia_Estudio_Mitad.md`, S1–S4) y la plantilla del comentario (`profes/B2_Plantilla_Comentario_Mitad.md`) que prepara producción (diseño G.2).
-- [ ] Decidir el plazo del comentario (DECISIÓN DE JAY 8; recomendación: dom 8 nov) y la plataforma del quiz en línea 1 (DECISIÓN DE JAY 5), si no está decidida.
+- [ ] Decidir el plazo del comentario (DECISIÓN DE JAY 8; recomendación: dom 15 nov) y la plataforma del quiz en línea 1 (DECISIÓN DE JAY 5), si no está decidida.
 
-**El día anterior (mar 3 nov, ≈ 30 min)**
-- [ ] Mensaje en el grupo: "mañana, miércoles 21:00 Chile · 19:00 Colombia/Perú · 18:00 México · **EE.UU. (Este): 19:00, cambió la hora el domingo** · España: jueves 01:00". Pídeles que tengan a mano **las 5 cosas que hicieron el fin de semana** (tarea de la S3, punto 4) y la **sección 7 del material** abierta.
-- [ ] Elegir tus **6 fotos del fin de semana** (sáb 31 oct – dom 1 nov) para L7–L8. Lo fijo: 6 frases, al menos 4 verbos distintos en pasado, un 부터~까지, un 하고 y un adjetivo (맛있었어요 / 피곤했어요). Si tu fin de semana no calza, usa el guion de ejemplo de C.3 (bloque 2) con fotos genéricas.
+**El día anterior (mar 10 nov, ≈ 30 min)**
+- [ ] Mensaje en el grupo: "mañana, miércoles 21:00 Chile · 19:00 Colombia/Perú · 18:00 México · EE.UU. (Este): 19:00 · España: jueves 01:00". Pídeles que tengan a mano **las 5 cosas que hicieron el fin de semana** (tarea de la S3, punto 4) y la **sección 7 del material** abierta.
+- [ ] Elegir tus **6 fotos del fin de semana** (sáb 7 – dom 8 nov) para L7–L8. Lo fijo: 6 frases, al menos 4 verbos distintos en pasado, un 부터~까지, un 하고 y un adjetivo (맛있었어요 / 피곤했어요). Si tu fin de semana no calza, usa el guion de ejemplo de C.3 (bloque 2) con fotos genéricas.
 - [ ] Revisar las entregas de la S3 (Hoja 3, captura de Palabras, quiz en línea 1) y anotar quién no entregó.
 - [ ] Abrir el **resumen del quiz en línea 1** (formulario) y elegir los 2 ítems con más errores para L4.
 - [ ] **Mitad de curso:** cargar en la tabla de C.14 lo que ya tienes (diagnóstico, audios S1–S2, quizzes 1–2, quiz en línea 1, hojas 1–3). Después de la clase solo sumas el quiz 3 y el mini-diario.
 - [ ] Armar **5 tríos** con el mapa del grupo (perfiles del diagnóstico, B0.2): nunca dos A juntos; cada C con un A y un B; B + B + B vale; nadie con su pareja de siempre si se puede (es un anticipo de las parejas nuevas). Con 14: 4 tríos + 1 par · con 13: 3 tríos + 2 pares · con 16: 4 tríos + 2 pares. En cada trío, anota el **rol de tarjeta**: A = el primero del trío en orden alfabético, después B y C (tarjetas 민지, 하준 y 루시아). **El rol de tarjeta no es el perfil:** un alumno de perfil C puede tener la tarjeta A. En un par, la tarjeta C no se usa.
-- [ ] **Si aplica:** recordatorio **por privado, nunca en el grupo**, a quienes pagan en 2 cuotas: la segunda (US$75) vence antes de la clase 5, mié 11 nov (programa público).
+- [ ] **Si aplica:** recordatorio **por privado, nunca en el grupo**, a quienes pagan en 2 cuotas: la segunda (US$75) vence antes de la clase 5, mié 18 nov (programa público; semana del 16 de noviembre [POR CONFIRMAR]).
 
 **20:50, antes de abrir**
 - [ ] Zoom con la clave de anfitrión; grabación en la nube lista; chat configurable a "solo anfitrión" (quiz); salas habilitadas, **asignación manual**, "permitir volver a la sesión principal" ON, cierre automático a los **19 minutos** con cuenta regresiva de 60 s.
@@ -159,15 +159,15 @@ Que cada alumno salga **contando su fin de semana en coreano**: 5 frases en pasa
 - [ ] Esta guía abierta en C.3 y C.16 (clave del quiz 3 y frases del drill).
 - [ ] La **tabla de mitad de curso** abierta en otra ventana (para anotar en las salas).
 - [ ] El texto de respaldo de la tarjeta de sala (C.3, bloque 9) copiado, listo para pegar.
-- [ ] Nombre de la grabación: `Basico2_S04_2026-11-04`.
+- [ ] Nombre de la grabación: `Basico2_S04_2026-11-11`.
 
 **Después de la clase (dentro de 24 h)**
-- [ ] Subir la grabación, el PDF del deck, la **clave de la Hoja 3** y el material de la S4 a la carpeta del curso (`Basico2_S04_2026-11-04_El-pasado.pdf`, convención G.3).
+- [ ] Subir la grabación, el PDF del deck, la **clave de la Hoja 3** y el material de la S4 a la carpeta del curso (`Basico2_S04_2026-11-11_El-pasado.pdf`, convención G.3).
 - [ ] Guardar el chat (tiene las respuestas del quiz 3) y anotar el quiz en la hoja del curso.
 - [ ] Marcar asistencia **en vivo** y **grabación + tarea** en columnas separadas **[regla del certificado: pendiente de decisión de Jay]**.
 - [ ] Publicar el mensaje de C.15.
 - [ ] Pedir a producción el recorte del coro: `B2_S04_frases_clave.mp3` (B.12).
-- [ ] Hasta el **dom 8 nov:** comentario de 3 líneas por privado a cada alumno + guía de estudio al grupo + parejas nuevas (C.14).
+- [ ] Hasta el **dom 15 nov:** comentario de 3 líneas por privado a cada alumno + guía de estudio al grupo + parejas nuevas (C.14).
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 *Los guiones van en "tú" y en tu voz: dilos con tus palabras. **KO** = lo dices en coreano, despacio y con gesto; **ES** = explicación en español; (→) = lo que responden los alumnos. Comandos, saludos, felicitaciones y correcciones de pronunciación, siempre en coreano.*
@@ -242,7 +242,7 @@ Que cada alumno salga **contando su fin de semana en coreano**: 5 frases en pasa
 #### Bloque 10 · 21:35–21:55 · Salas de 3
 - **Rondas** (detalle en la sección 7 del material; claves en C.16):
   - **R1 · 21:35–21:41 · Agenda ficticia (G).** Cada uno mira **solo** su tarjeta (honor chingu). Se presentan como su personaje (저는 민지예요. 회사원이에요.) y los otros dos preguntan y completan la tabla en blanco: 몇 시부터 몇 시까지 일했어요? · 수요일에는 뭐 했어요? · 토요일에 어디에 갔어요? · 누구하고 갔어요? · 어디에서 어디까지 갔어요?
-  - **R2 · 21:41–21:51 · Mini-diario oral (L).** Por turnos, ≈ 3 minutos cada uno: su último fin de semana (sáb 31 oct – dom 1 nov, o el que anotaron en la tarea de la S3 si la hicieron antes) en 5 frases en pasado, sin leer (pueden mirar sus notas de la tarea de la S3 antes de empezar). Los otros dos hacen **una pregunta cada uno** (publicado: 누구하고 갔어요? · 어디에서 먹었어요?; valen también 재미있었어요? · 몇 시부터 몇 시까지…?). Abre la ronda quien ya trae el pasado (B0.4).
+  - **R2 · 21:41–21:51 · Mini-diario oral (L).** Por turnos, ≈ 3 minutos cada uno: su último fin de semana (sáb 7 – dom 8 nov, o el que anotaron en la tarea de la S3 si la hicieron antes) en 5 frases en pasado, sin leer (pueden mirar sus notas de la tarea de la S3 antes de empezar). Los otros dos hacen **una pregunta cada uno** (publicado: 누구하고 갔어요? · 어디에서 먹었어요?; valen también 재미있었어요? · 몇 시부터 몇 시까지…?). Abre la ronda quien ya trae el pasado (B0.4).
   - **R3 · 21:51–21:54 · Minuto libre (L).** Tarjeta B.11: **주말에 뭐 했어요?** + una de la S3: **보통 어디에서 공부해요?** Sin cuaderno. Si ya contaron el fin de semana, sigan con 어제 뭐 했어요? (misma estructura, otro día).
 - **Tu circuito (≈ 3,5 min por sala; empieza por las salas con un perfil C):** 1) escuchas 30 s sin interrumpir; 2) haces **una** pregunta tuya a quien habla (누구하고 갔어요? · 맛있었어요? · 몇 시부터 몇 시까지…?); 3) corriges **una** cosa en coreano (recast o «다시 한번: 먹었어요»); 4) anotas en la tabla de mitad de curso, por alumno, tres marcas rápidas: **pasado** (bien / a reforzar) · **partículas** (에 del tiempo, 에/에서, 하고) · **pronunciación** (ㅆ, vocal de apoyo, ㅓ/ㅗ). Quien no alcances a oír queda en blanco: el resto de la evidencia lo cubre (C.14).
 - **Mensajes a todas las salas** (Salas → "Transmitir mensaje"):
@@ -257,7 +257,7 @@ Que cada alumno salga **contando su fin de semana en coreano**: 5 frases en pasa
   2. «어제에 → **어제**; 토요일 → **토요일에**.»
   3. «[해서요] → **[해써요]**: la ㅆ, apretada.»
 - **L26 · Las 3 frases de hoy (1 min). ES:** «Primero yo, despacio; después ustedes.» Tú solo, con 2 s de pausa: «**주말에 뭐 했어요?**» → grupo · «**친구하고 영화를 봤어요.**» → grupo · «**아홉 시부터 여섯 시까지 일했어요.**» → grupo. Dos vueltas. *De aquí se recorta `B2_S04_frases_clave.mp3`: tu versión va sola, lenta y limpia.*
-- **L27–L28 · Tarea y mitad de curso (1:15). ES:** «Unos 28 minutos, antes de la clase 5, el miércoles 11. Uno: el mini-diario, tres frases en pasado sobre tu día, aquí en el grupo. Dos: el Lector, Números, tres rondas seguidas cuando arriba diga "nativos" o "mezclados", y la captura. Tres: la Hoja 4, que son los ejercicios 9 y 10 de tu material. Cuatro: elige un lugar al que quieras viajar y guarda una foto, que la usamos el miércoles. Y la mitad del curso: el domingo 8 les llega la guía de estudio de las semanas 1 a 4 y a cada uno, por privado, mi comentario en tres líneas. Desde la clase 5, parejas nuevas.»
+- **L27–L28 · Tarea y mitad de curso (1:15). ES:** «Unos 28 minutos, antes de la clase 5, el miércoles 18. Uno: el mini-diario, tres frases en pasado sobre tu día, aquí en el grupo. Dos: el Lector, Números, tres rondas seguidas cuando arriba diga "nativos" o "mezclados", y la captura. Tres: la Hoja 4, que son los ejercicios 9 y 10 de tu material. Cuatro: elige un lugar al que quieras viajar y guarda una foto, que la usamos el miércoles. Y la mitad del curso: el domingo 15 les llega la guía de estudio de las semanas 1 a 4 y a cada uno, por privado, mi comentario en tres líneas. Desde la clase 5, parejas nuevas.»
 - **L29 · Cierre (30 s). ES:** «La clase 5 abre con el quiz 4: pasado y 부터~까지.» **KO:** «오늘 정말 잘했어요! 감사합니다!» → grupo: «감사합니다!»
 - **22:00 en punto:** "Finalizar reunión para todos".
 
@@ -375,7 +375,7 @@ Que cada alumno salga **contando su fin de semana en coreano**: 5 frases en pasa
 
 **Lectura · El mini-diario de Camila** (material del alumno, sección 5)
 
-> **11월 1일 일요일**
+> **11월 8일 일요일**
 > 어제는 토요일이었어요. 아침에 공원에서 운동했어요. 열한 시부터 한 시까지 친구하고 카페에 있었어요. 빵을 먹고 커피를 마셨어요. 오후에는 혼자 영화를 봤어요. 정말 재미있었어요!
 > 오늘은 집에서 쉬었어요. 작년에는 대학생이었어요. 토요일에 수업이 있었어요. 지금은 회사원이에요. 토요일에는 쉬어요!
 
@@ -416,7 +416,7 @@ Que cada alumno salga **contando su fin de semana en coreano**: 5 frases en pasa
 5. **Drill:** una vuelta con 10 alumnos; los que no alcanzan escriben en el chat su frase transformada (la número 11–15 de la lista de C.16, con un tiempo) y tú lees una en voz alta.
 6. **Dentro de las salas**, si hay que elegir: R1 (agenda) baja a 4 minutos. **R2 (mini-diario) y R3 (minuto libre) no se tocan:** son la práctica publicada y la evidencia de la mitad del curso.
 
-**Nunca se recortan:** los 20 minutos de salas, el coro de las 3 frases clave y la explicación de la tarea (y del domingo 8).
+**Nunca se recortan:** los 20 minutos de salas, el coro de las 3 frases clave y la explicación de la tarea (y del domingo 15).
 
 ### C.13 Plan B técnico
 - **No abren las salas:** R1 se hace en la sala principal con 3 voluntarios (uno por tarjeta) y el resto completa la tabla en el chat; R2, mini-diario de 4–5 alumnos en la sala principal con preguntas del chat (누구하고 갔어요?). El resto de la evidencia de mitad de curso sale de la tarea (mini-diario escrito).
@@ -445,7 +445,7 @@ Que cada alumno salga **contando su fin de semana en coreano**: 5 frases en pasa
 |---|---|---|---|---|---|---|---|---|
 | … | B | ✓ · ✓ | 4 · 3 · 5 | 8 | ✓ · ✓ · — | bien · a reforzar · bien | 4/4 · 0 | con … |
 
-A diferencia de Básico 1, aquí **no hace falta esperar la tarea de la S4**: toda la evidencia existe el miércoles en la noche, así que el comentario puede salir el domingo 8 sin dejar a nadie afuera.
+A diferencia de Básico 1, aquí **no hace falta esperar la tarea de la S4**: toda la evidencia existe el miércoles en la noche, así que el comentario puede salir el domingo 15 sin dejar a nadie afuera.
 
 **2. Comentario de 3 líneas** (≈ 3 min por alumno, ≈ 45 min en total; máximo ~60 palabras; el primer punto, positivo; una sola acción). **Por privado, nunca en el grupo.** Plantilla: `profes/B2_Plantilla_Comentario_Mitad.md` (diseño G.2).
 - **Fortaleza:** algo concreto que ya hace bien (con una evidencia).
@@ -455,19 +455,19 @@ A diferencia de Básico 1, aquí **no hace falta esperar la tarea de la S4**: to
 *Tres ejemplos:*
 > **Fortaleza:** en tu mini-diario del miércoles contaste tu fin de semana en 6 frases sin mirar el cuaderno, y 갔어요 / 먹었어요 salieron perfectos. **Foco:** 에 y 에서 (카페에 공부했어요 → 카페에서 공부했어요). **Siguiente paso:** en la Hoja 4, antes de escribir cada lugar pregúntate "¿voy o hago algo ahí?".
 
-> **Fortaleza:** tu pronunciación es muy clara: la ㅆ de 했어요 ya suena apretada. **Foco:** te faltan la Hoja 2 y el audio de la semana 2, y las tareas cuentan. **Siguiente paso:** manda la Hoja 4 y el mini-diario antes del miércoles 11; si se te complica, escríbeme y armamos un plan.
+> **Fortaleza:** tu pronunciación es muy clara: la ㅆ de 했어요 ya suena apretada. **Foco:** te faltan la Hoja 2 y el audio de la semana 2, y las tareas cuentan. **Siguiente paso:** manda la Hoja 4 y el mini-diario antes del miércoles 18; si se te complica, escríbeme y armamos un plan.
 
 > **Fortaleza:** entiendes todo a la primera y en tu sala ayudas a los demás. **Foco:** la vocal del pasado (먹았어요 → 먹었어요). **Siguiente paso:** 5 minutos al día con la tabla 3.1 de tu material, en voz alta y con la mano arriba para ㅏ/ㅗ.
 
-**3. Guía de estudio de mitad de curso** (`alumnos/B2_Guia_Estudio_Mitad.md`, S1–S4: presentarse, números y hora, presente e irregulares, 에/에서, pasado). Se manda **a todo el grupo** el dom 8 nov con el mensaje de las parejas.
+**3. Guía de estudio de mitad de curso** (`alumnos/B2_Guia_Estudio_Mitad.md`, S1–S4: presentarse, números y hora, presente e irregulares, 에/에서, pasado). Se manda **a todo el grupo** el dom 15 nov con el mensaje de las parejas.
 
-**4. Parejas nuevas para S5–S8** (E.4.3): misma regla (A + B o B + B; los C en trío con un A y un B), con lo que viste hoy. Se publican el dom 8 nov en el grupo; debutan en el role play de la S5.
+**4. Parejas nuevas para S5–S8** (E.4.3): misma regla (A + B o B + B; los C en trío con un A y un B), con lo que viste hoy. Se publican el dom 15 nov en el grupo; debutan en el role play de la S5.
 
 **5. Si alguien sigue en C** (lectura o estructuras): conversación de 5 minutos por WhatsApp esta semana y plan de refuerzo (Lector → Aprender 6 "El truco del batchim" + Practicar → Batchim, 3 rondas seguidas; Dubu (`academiaseul.com/dubu`), barrios 5 "Río Han" y 6 "Estación de Seúl", que son de solo oído; y el taller `/taller` desde el segundo 2414 si falta base: el mismo plan de B0.3); no cambia de curso.
 
 **6. Asistencia a mitad.** Quien ya faltó a 2 clases **en vivo** queda al límite (6 de 8). Regístralo en columnas separadas (en vivo · grabación + tarea) y no lo comuniques como regla hasta decidir **[regla del certificado: pendiente de decisión de Jay]** (ficha `a12`: 6 de 8 en vivo; Guía del Alumno: en vivo o grabación + tarea). En el comentario, si hace falta, basta con "no te pierdas las próximas clases".
 
-**7. Plazo:** domingo 8 de noviembre, 20:00 (DECISIÓN DE JAY 8; recomendación del diseño). Si no alcanzas con los 15, primero los C y los que tienen faltas; el resto, a más tardar el lunes 9.
+**7. Plazo:** domingo 15 de noviembre, 20:00 (DECISIÓN DE JAY 8; recomendación del diseño). Si no alcanzas con los 15, primero los C y los que tienen faltas; el resto, a más tardar el lunes 16.
 
 **Columnas de la hoja del curso para la S4**
 
@@ -477,22 +477,22 @@ A diferencia de Básico 1, aquí **no hace falta esperar la tarea de la S4**: to
 
 ### C.15 Mensaje post-clase para el grupo (listo para pegar)
 
-**Publicar el mié 4 nov en la noche o el jue 5, después de subir la grabación:**
+**Publicar el mié 11 nov en la noche o el jue 12, después de subir la grabación:**
 ```
 ¡Gracias por la clase de hoy, chingus! 🐯 주말 잘 보냈어요? 😉
 Grabación: [link] · Slides y clave de la Hoja 3: [link a la carpeta]
-Tarea para antes del miércoles 11 de noviembre, 21:00 (hora Chile) · unos 28 minutos:
+Tarea para antes del miércoles 18 de noviembre, 21:00 (hora Chile) · unos 28 minutos:
 1) Mini-diario: 3 frases en pasado sobre tu día de hoy, aquí en el grupo (texto o foto del cuaderno). Ej.: 오늘 아침에 커피를 마셨어요.
 2) Lector de Hangul (academiaseul.com/lector-coreano) → Practicar → Números: 3 rondas seguidas cuando arriba diga "nativos" o "mezclados" (si dice "sino-coreanos", juégala igual y sigue hasta que cambie). Mándenme la captura de Progreso.
 3) Hoja 4 = ejercicios 9 y 10 de su material de la semana 4: 15 frases al pasado + el texto con 부터~까지. Foto o tipeada (mejor tipeada: el examen final se tipea).
 4) Para la clase 5: elige un lugar al que quieras viajar y guarda una foto.
 Reto: une 2 frases de tu mini-diario con -고. Rescate: el mini-diario + las 8 primeras frases de la hoja.
 Audio de las 19 palabras de la semana y de las 3 frases de hoy: [link a los clips] → 주말에 뭐 했어요? · 친구하고 영화를 봤어요 · 아홉 시부터 여섯 시까지 일했어요
-Mitad del curso: el domingo 8 les llega aquí la guía de estudio (semanas 1 a 4) y a cada uno, por privado, mi comentario en 3 líneas. Desde la clase 5, parejas nuevas.
+Mitad del curso: el domingo 15 les llega aquí la guía de estudio (semanas 1 a 4) y a cada uno, por privado, mi comentario en 3 líneas. Desde la clase 5, parejas nuevas.
 La clase 5 abre con el quiz 4 (pasado y 부터~까지). ¡Nos vemos el miércoles a las 21:00! 화이팅!
 ```
 
-**Domingo 8 nov (guía de estudio + parejas):**
+**Domingo 15 nov (guía de estudio + parejas):**
 ```
 ¡Hola, chingus! Llegamos a la mitad del curso 🎉
 Guía de estudio de las semanas 1 a 4: [link]
@@ -614,7 +614,7 @@ Consigna (en español): *Lee el aviso. ¿Qué frase es correcta?*
 | 1 | Mientras llegan | **안녕하세요!** · "Semana 4 · mitad del curso" · "Ten el chat abierto: en 1 minuto, quiz 3" · horas por país (EE.UU. 19:00 desde el 1 nov) | 21:00 | Nueva |
 | 2 | Quiz 3 | Los 5 ítems (C.16) con el aviso de "카페 한강" · "Un solo mensaje (el chat va solo a Jay): 1) … 5)" | 2,5 min | Nueva |
 | 3 | Quiz 3 · respuestas | 더워요 · 몰라요 · 에서 · ② 갑니다 · ② + la nota "쉽니다 ← 쉬다 (no 쉽다)" | 1 min | Nueva |
-| 4 | Quiz en línea 1: lo que más costó | Los 2 ítems con más errores (del formulario) + la forma correcta · "Clave de la Hoja 3: en la carpeta" | 45 s | Nueva (se llena el martes 3) |
+| 4 | Quiz en línea 1: lo que más costó | Los 2 ítems con más errores (del formulario) + la forma correcta · "Clave de la Hoja 3: en la carpeta" | 45 s | Nueva (se llena el martes 10) |
 | 5 | 과거 · El pasado | "Básico 2 · Semana 4 · Hoy cuentas tu fin de semana" · logo azul | — | Portada de la plantilla |
 | 6 | Hoy vas a poder decir… | Las 5 frases de la sección 0 | 20 s | Nueva |
 | 7 | 주말 잘 보냈어요? (1) | Fotos 1–3 de Jay con su frase debajo, **apareciendo después** de que Jay la dice | R | Nueva (fotos de Jay) |
@@ -637,8 +637,8 @@ Consigna (en español): *Lee el aviso. ¿Qué frase es correcta?*
 | 24 | Salas de 3 · 3 rondas | R1 Agenda (A 민지 · B 하준 · C 루시아) · R2 Mini-diario: 5 frases + 2 preguntas (누구하고 갔어요? · 어디에서 먹었어요?) · R3 Minuto libre, sin cuaderno · "Tarjeta: sección 7 de tu material" | 21:34 | Nueva |
 | 25 | Lo que oí hoy | Se llena en vivo; por defecto: 먹었어요 (no 먹았어요) · 어제 / 토요일에 · [해써요] | — | Nueva |
 | 26 | Las 3 frases de hoy | 주말에 뭐 했어요? / 친구하고 영화를 봤어요. / 아홉 시부터 여섯 시까지 일했어요. | Coro; de aquí sale el clip | B.12 |
-| 27 | Tarea (≈ 28 min) | 1 Mini-diario (5') · 2 Lector → Practicar → Números: 3 rondas seguidas con "nativos" o "mezclados" en el encabezado (8') + captura de Progreso · 3 Hoja 4 = ejercicios 9 y 10 (12') · 4 Foto de un lugar para viajar (3') · Reto / Rescate · plazo: mié 11 nov, 21:00 | — | Nueva |
-| 28 | Mitad del curso | "Dom 8 nov: guía de estudio (S1–S4) en el grupo + tu comentario de 3 líneas por privado · desde la clase 5: parejas nuevas" | — | Nueva |
+| 27 | Tarea (≈ 28 min) | 1 Mini-diario (5') · 2 Lector → Practicar → Números: 3 rondas seguidas con "nativos" o "mezclados" en el encabezado (8') + captura de Progreso · 3 Hoja 4 = ejercicios 9 y 10 (12') · 4 Foto de un lugar para viajar (3') · Reto / Rescate · plazo: mié 18 nov, 21:00 | — | Nueva |
+| 28 | Mitad del curso | "Dom 15 nov: guía de estudio (S1–S4) en el grupo + tu comentario de 3 líneas por privado · desde la clase 5: parejas nuevas" | — | Nueva |
 | 29 | 감사합니다! 화이팅! | "Clase 5: quiz 4 (pasado y 부터~까지) · traigan su foto de viaje" | — | Plantilla |
 | Extra | Emergencia | Las 4 actividades de C.11 | — | Nueva |
 
@@ -648,22 +648,22 @@ Consigna (en español): *Lee el aviso. ¿Qué frase es correcta?*
 
 | # | Qué | Por qué | Quién · antes de |
 |---|---|---|---|
-| S4-1 | ⚑ **Diálogo y mini-diario** (C.8): naturalidad general; en particular **부산이요? 제 고향이에요!** · **아, 아홉 시예요. 화이팅!** (cierre de la charla de oficina) · **동생이랑 요리했어요. 불고기를 먹었어요.** · **바다에서 놀았어요** (adultos) · **친구 두 명하고 같이 갔어요** | Es el modelo que los alumnos imitan en R2 | Jay · vie 23 oct |
-| S4-2 | ⚑ **Guion de las 6 fotos** (C.3, bloque 2): es un ejemplo; Jay lo reemplaza por su fin de semana real con las piezas fijas (부터~까지, 하고, un adjetivo) | R auténtico | Jay · mar 3 nov |
-| S4-3 | ⚑ **여행하다 con lugar:** se enseña 혼자 여행했어요 · 한국을 여행했어요 y se corrige 한국에 여행했어요*. ¿Prefieres enseñar solo 한국에 갔어요 y dejar 여행하다 sin complemento de lugar? En el diálogo: **서울에서 부산까지 여행했어요** | Error muy probable del hispanohablante ("viajé a") | Jay · vie 23 oct |
-| S4-4 | ⚑ **Omisión oral de 에** (주말 뭐 했어요?): la guía dice "no se corrige en lo oral, sí en lo escrito". ¿De acuerdo con ese criterio? | Coherencia de corrección | Jay · vie 23 oct |
-| S4-5 | ⚑ **"Regla de bolsillo" de 에** ("si dirías 'el ___' en español, lleva 에"): funciona con todo el léxico de la semana (incluido 오늘 아침에); ¿algún caso del curso donde falle y convenga avisar? | Es una simplificación | Jay · vie 23 oct |
-| S4-6 | ⚑ **카공** (C.3, bloque 7; material, sección 8) como palabra que se oye (reconocer) y **주말 잘 보내세요!** (viernes, reconocer) | Suman autenticidad; no se evalúan | Jay · vie 23 oct |
-| S4-7 | **Halloween / Itaewon** (C.5 §17): la guía pide no convertir Halloween en tema cultural coreano. ¿Quieres decir algo en clase si sale, o solo seguir? | Tema sensible desde 2022 | Jay · mar 3 nov |
+| S4-1 | ⚑ **Diálogo y mini-diario** (C.8): naturalidad general; en particular **부산이요? 제 고향이에요!** · **아, 아홉 시예요. 화이팅!** (cierre de la charla de oficina) · **동생이랑 요리했어요. 불고기를 먹었어요.** · **바다에서 놀았어요** (adultos) · **친구 두 명하고 같이 갔어요** | Es el modelo que los alumnos imitan en R2 | Jay · vie 30 oct |
+| S4-2 | ⚑ **Guion de las 6 fotos** (C.3, bloque 2): es un ejemplo; Jay lo reemplaza por su fin de semana real con las piezas fijas (부터~까지, 하고, un adjetivo) | R auténtico | Jay · mar 10 nov |
+| S4-3 | ⚑ **여행하다 con lugar:** se enseña 혼자 여행했어요 · 한국을 여행했어요 y se corrige 한국에 여행했어요*. ¿Prefieres enseñar solo 한국에 갔어요 y dejar 여행하다 sin complemento de lugar? En el diálogo: **서울에서 부산까지 여행했어요** | Error muy probable del hispanohablante ("viajé a") | Jay · vie 30 oct |
+| S4-4 | ⚑ **Omisión oral de 에** (주말 뭐 했어요?): la guía dice "no se corrige en lo oral, sí en lo escrito". ¿De acuerdo con ese criterio? | Coherencia de corrección | Jay · vie 30 oct |
+| S4-5 | ⚑ **"Regla de bolsillo" de 에** ("si dirías 'el ___' en español, lleva 에"): funciona con todo el léxico de la semana (incluido 오늘 아침에); ¿algún caso del curso donde falle y convenga avisar? | Es una simplificación | Jay · vie 30 oct |
+| S4-6 | ⚑ **카공** (C.3, bloque 7; material, sección 8) como palabra que se oye (reconocer) y **주말 잘 보내세요!** (viernes, reconocer) | Suman autenticidad; no se evalúan | Jay · vie 30 oct |
+| S4-7 | **Halloween / Itaewon** (C.5 §17): la guía pide no convertir Halloween en tema cultural coreano. ¿Quieres decir algo en clase si sale, o solo seguir? | Tema sensible desde 2022 | Jay · mar 10 nov |
 | S4-8 | **Salas de 3 esta semana** (ajuste 1): cambia el "de a dos" habitual por tríos para que el mini-diario tenga "el grupo" que pregunta y para oír a todos en la mitad del curso | Dentro de B.1 ("salas de 2–3"); se avisa en la consigna | Informativo |
-| S4-9 | **Ítem estilo TOPIK I del quiz 3** (D-12): original ("카페 한강"). ¿Lo reemplazas por un ítem oficial de topik.go.kr (tipo "aviso"), citando edición y número? | Política del diseño E.3 | Jay · vie 23 oct |
+| S4-9 | **Ítem estilo TOPIK I del quiz 3** (D-12): original ("카페 한강"). ¿Lo reemplazas por un ítem oficial de topik.go.kr (tipo "aviso"), citando edición y número? | Política del diseño E.3 | Jay · vie 30 oct |
 | S4-10 | **Clave de la Hoja 3** a la carpeta en vez de corregirla entera en pantalla (ajuste 3) | El bloque de 5 minutos no alcanza para quiz + hoja + quiz en línea | Informativo; la clave está en la guía de la S3 |
-| S4-11 | **Clips de la S4** (19 de vocabulario + 3 frases clave) generados el 26 sept en `public/audio/kr`, **sin publicar** (hoy están fuera de git). El diseño (C) ya lo registra (control final) y el material del alumno los enlaza con 🔊 (sección 2 y sección 10) | Para el material, el mensaje post-clase y el shadowing | Quien publique el sitio · push antes del 14 oct (los 🔊 de la S1 y la S2 también dependen de eso) |
-| S4-12 | **Deck de julio con rojo** (`FF5C5C` en `09_Pasado` L4 y L10, y en `07_Rutina` L12) y con dos problemas de contenido en L12 ("uno solo no funciona", que es falso, y 서울부터 부산까지 como modelo de viaje, que no es el estándar: C.5 §10) | Se reutilizan como base (C.17) | Producción · vie 23 oct |
-| S4-13 | **Plazo del comentario de mitad** (dom 8 nov, DECISIÓN DE JAY 8) · **plataforma del quiz en línea** (DECISIÓN DE JAY 5) · **regla del certificado** (DECISIÓN DE JAY 1): la guía registra todo por separado mientras tanto | Decisiones abiertas del diseño | Jay · antes del 4 nov |
-| S4-14 | **Unidad del libro para 하고 / (이)랑** (D-15): la ficha no la cita | Citar la unidad correcta en el deck | Jay (con el ejemplar) · vie 23 oct |
-| S4-15 | **Notación de pronunciación** (D-17): [해써요] · [머거써요] · [마시써써요] · [가치] · [장년] · [여섣씨까지] · 일했어요 [이래써요] (se deja pasar). ¿Así en el deck? | Coherencia con las otras semanas | Jay · vie 23 oct |
-| S4-16 | ⚑ **Dos ejemplos nuevos del material** (revisión de coordinación, 26 sept): 3.4 **작년에 제 취미는 드라마였어요. 지금은 한국어예요!** (reemplaza 김치찌개였어요: 김치찌개 no está en ninguna lista C) y ejercicio 3d **어제 점심은 빵하고 우유였어요.** (antes repetía el marco del ejemplo). ¿Naturales? | Modelo de 였어요 tras vocal | Jay · vie 23 oct |
+| S4-11 | **Clips de la S4** (19 de vocabulario + 3 frases clave) generados el 26 sept en `public/audio/kr`, **sin publicar** (hoy están fuera de git). El diseño (C) ya lo registra (control final) y el material del alumno los enlaza con 🔊 (sección 2 y sección 10) | Para el material, el mensaje post-clase y el shadowing | Quien publique el sitio · push antes del 21 oct (los 🔊 de la S1 y la S2 también dependen de eso) |
+| S4-12 | **Deck de julio con rojo** (`FF5C5C` en `09_Pasado` L4 y L10, y en `07_Rutina` L12) y con dos problemas de contenido en L12 ("uno solo no funciona", que es falso, y 서울부터 부산까지 como modelo de viaje, que no es el estándar: C.5 §10) | Se reutilizan como base (C.17) | Producción · vie 30 oct |
+| S4-13 | **Plazo del comentario de mitad** (dom 15 nov, DECISIÓN DE JAY 8) · **plataforma del quiz en línea** (DECISIÓN DE JAY 5) · **regla del certificado** (DECISIÓN DE JAY 1): la guía registra todo por separado mientras tanto | Decisiones abiertas del diseño | Jay · antes del 11 nov |
+| S4-14 | **Unidad del libro para 하고 / (이)랑** (D-15): la ficha no la cita | Citar la unidad correcta en el deck | Jay (con el ejemplar) · vie 30 oct |
+| S4-15 | **Notación de pronunciación** (D-17): [해써요] · [머거써요] · [마시써써요] · [가치] · [장년] · [여섣씨까지] · 일했어요 [이래써요] (se deja pasar). ¿Así en el deck? | Coherencia con las otras semanas | Jay · vie 30 oct |
+| S4-16 | ⚑ **Dos ejemplos nuevos del material** (revisión de coordinación, 26 sept): 3.4 **작년에 제 취미는 드라마였어요. 지금은 한국어예요!** (reemplaza 김치찌개였어요: 김치찌개 no está en ninguna lista C) y ejercicio 3d **어제 점심은 빵하고 우유였어요.** (antes repetía el marco del ejemplo). ¿Naturales? | Modelo de 였어요 tras vocal | Jay · vie 30 oct |
 | S4-17 | **Tríos por perfil** (ajuste 1 y C.2, corregidos a la regla B0.2: nunca dos A juntos, cada C con un A y un B) y **rol de tarjeta ≠ perfil** (las dos cosas usan A · B · C) | Evitar que Jay arme los tríos con la letra equivocada | Informativo |
 
 *Coreano de esta guía:* todo lo que se pide producir sale de la lista maestra C hasta la S4 y de la lista C de Básico 1; lo que no (핼러윈, 파티, 카공, 주말 잘 보내세요!, 가 봤어요, 갔었어요, 아니었어요, 버스로) está marcado como reconocimiento, "a pedido" o extensión, y no entra en quiz ni examen.

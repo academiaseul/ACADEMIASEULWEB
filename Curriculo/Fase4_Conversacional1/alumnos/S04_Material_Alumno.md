@@ -1,6 +1,6 @@
 # Semana 4 · Cultura gastronómica · 여기요! 물 좀 주세요
 ### Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · con Abby (홍미영 선생님)
-**Martes 3 de noviembre · 21:00 (hora de Chile) = miércoles 4, 09:00 en Corea · Módulo M03**
+**Martes 10 de noviembre · 21:00 (hora de Chile) = miércoles 11, 09:00 en Corea (allá es el 빼빼로데이) · Módulo M03**
 
 > **Durante la clase** vas a usar la **sección 7 (tarjeta de sala y menú)**: ábrela **antes** de entrar a tu sala de Zoom, porque dentro de la sala no ves la pantalla de Abby. Todo lo demás es para antes o después: repasar, hacer la tarea y llegar con ventaja al Laboratorio 1.
 > **La clase es en coreano.** El español vive aquí, en las slides y en el chat. Si te pierdes: **다시 한번 말해 주세요 · 천천히 말해 주세요 · 잘 모르겠어요** (y hoy vas a entender por qué las dos primeras terminan en 주세요).
@@ -381,13 +381,15 @@ Y antes de comer, **잘 먹겠습니다**. Ojo, no es "¡buen provecho!": ese lo
 
 **En tu país:** el pebre y las sopaipillas que llegan a la mesa en Chile, los totopos y las salsas de la taquería en México, la canchita de la cevichería en Perú… Cada cocina tiene su "반찬". ¿Cuál es el de tu país?
 
+**¿Y el 11/11?** El día de nuestra clase, en Corea es **11 de noviembre**: el **빼빼로데이** [🔊](https://www.academiaseul.com/audio/kr/ebb9bcebb9bceba19ceb8db0ec9db4.mp3). Toma su nombre de unas galletitas en forma de palito bañadas en chocolate, porque 11/11 parece cuatro palitos. Es una **fecha comercial** que se hizo popular en los años 90, no una fiesta tradicional; aun así, mucha gente se regala una cajita en la oficina o en el colegio. ¿En tu país hay fechas así?
+
 **Tu frase para llevarte:** **여기요! 물 좀 주세요.**
 
 ---
 
 ## 9. Tarea de la semana (≈ 28 minutos)
 
-**Plazo:** antes de la clase 5 · **martes 10 de noviembre, 21:00 (hora de Chile)**. Todo se entrega en el **grupo de WhatsApp del curso**. Abby te devuelve la corrección por audio o texto en 48 horas.
+**Plazo:** antes de la clase 5 · **martes 17 de noviembre, 21:00 (hora de Chile)**. Todo se entrega en el **grupo de WhatsApp del curso**. Abby te devuelve la corrección por audio o texto en 48 horas.
 
 **1 · Audio de 60–90 segundos · 10 min** · nota de voz en el grupo
 Recomienda un plato (coreano o de tu país): cómo se llama, **al menos 3 sabores** (맵다 · 달다 · 짜다 · 시다 · 고소하다 · 맛있다) y termina con **먹어 보세요!** Prepáralo con 5 palabras clave, no con un guion, y grábalo sin leer.

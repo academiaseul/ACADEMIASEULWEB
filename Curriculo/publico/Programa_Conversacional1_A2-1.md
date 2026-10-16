@@ -3,12 +3,12 @@ Academia Seúl · Programa público · VERSIÓN A (sitio web)
 Curso: Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · cohorte octubre 2026
 Contenido semana a semana: Programa_Completo_Octubre_2026/fuente/cursos_es.json (a21), el mismo syllabus que ya recibió Abby y que está publicado en el Programa Completo.
 Horario, profesora, cupo y precio: lib/nivel1.ts. Políticas: components/FAQ.tsx, app/terminos/page.tsx, textos_generales.js, Guía del Alumno (Lanzamiento_Octubre_2026).
-Redactado el 26 sept 2026. Lo marcado "Confirmar con Academia Seúl" espera la decisión de Jay antes de publicarse tal cual.
+Redactado el 26 sept 2026; fechas al día con el calendario corrido una semana (decisión de Jay, 12 oct 2026) el 16 oct 2026. Lo marcado "Confirmar con Academia Seúl" espera la decisión de Jay antes de publicarse tal cual.
 -->
 
 ## 💬 Conversacional 1 — A2.1 · Corea que amas · 회화 A2.1
 
-**Martes 21:00 (hora de Chile) = miércoles 09:00 en Corea · con Abby · desde el martes 13 de octubre de 2026 · 8 semanas · online en vivo por Zoom**
+**Martes 21:00 (hora de Chile) = miércoles 09:00 en Corea · con Abby · desde el martes 20 de octubre de 2026 · 8 semanas · online en vivo por Zoom**
 
 ### Ya tienes las bases: ahora toca usarlas para hablar en coreano de lo que amas de Corea, con una profesora nativa.
 
@@ -58,25 +58,25 @@ Este curso es para ti si:
 
 | Semana | Tema | ¿Qué aprenderás? |
 |---|---|---|
-| **1** · mar 13 oct | Orientación y diagnóstico oral | Te presentas con más detalle que en Básico 2, conoces al grupo y a Abby, y fijas tus 3 metas de conversación. |
-| **2** · mar 20 oct | K-pop y cultura fan | Hablas de tu grupo y tu 최애, cuentas experiencias como fan y explicas por qué te gusta algo. |
-| **3** · mar 27 oct | Viajes: Jeju y Seúl | Planeas un viaje en pareja, dices cómo moverte y cuentas un viaje en pasado. |
-| **4** · mar 3 nov | Cultura gastronómica | Pides en un restaurante con cantidades y cortesía, recomiendas un plato y describes sabores. |
-| **5** · mar 10 nov | Laboratorio de conversación 1 | Sin tema nuevo: 40 minutos hablando en grupos de 3 sobre K-pop, viajes y comida, con corrección de pronunciación uno a uno. |
-| **6** · mar 17 nov | Hanbok y estética | Describes ropa, colores y estampados, comparas lo tradicional con lo moderno y opinas con matices. |
-| **7** · mar 24 nov | PC방 (cibercafé coreano) y e-sports | Hablas de videojuegos y tiempo libre: cuándo, cuánto, antes y después, y qué pasa "si…". |
-| **8** · mar 1 dic | Laboratorio 2 y evaluación oral | Juntas los cinco temas en una conversación, haces tu evaluación oral en pareja y comparas tu "antes y después". |
+| **1** · mar 20 oct | Orientación y diagnóstico oral | Te presentas con más detalle que en Básico 2, conoces al grupo y a Abby, y fijas tus 3 metas de conversación. |
+| **2** · mar 27 oct | K-pop y cultura fan | Hablas de tu grupo y tu 최애, cuentas experiencias como fan y explicas por qué te gusta algo. |
+| **3** · mar 3 nov | Viajes: Jeju y Seúl | Planeas un viaje en pareja, dices cómo moverte y cuentas un viaje en pasado. |
+| **4** · mar 10 nov | Cultura gastronómica | Pides en un restaurante con cantidades y cortesía, recomiendas un plato y describes sabores. |
+| **5** · mar 17 nov | Laboratorio de conversación 1 | Sin tema nuevo: 40 minutos hablando en grupos de 3 sobre K-pop, viajes y comida, con corrección de pronunciación uno a uno. |
+| **6** · mar 24 nov | Hanbok y estética | Describes ropa, colores y estampados, comparas lo tradicional con lo moderno y opinas con matices. |
+| **7** · mar 1 dic | PC방 (cibercafé coreano) y e-sports | Hablas de videojuegos y tiempo libre: cuándo, cuánto, antes y después, y qué pasa "si…". |
+| **8** · mar 8 dic [por confirmar] | Laboratorio 2 y evaluación oral | Juntas los cinco temas en una conversación, haces tu evaluación oral en pareja y comparas tu "antes y después". |
 
 #### Semana a semana, en detalle
 
-**Semana 1 · Orientación y diagnóstico oral** (martes 13 de octubre)
+**Semana 1 · Orientación y diagnóstico oral** (martes 20 de octubre)
 - **Aprendes a:** presentarte con más detalle (nombre, país, qué haces, hace cuánto estudias coreano y por qué) y a decir qué quieres lograr en el curso.
 - **Estructuras clave:** -고 싶어요 (quiero + verbo) → *한국어로 말하고 싶어요.* · -(으)ㄴ 지 … 됐어요 (hace … que) → *한국어를 배운 지 6개월 됐어요.* Además repasas, dentro de tu presentación, el presente, el pasado y el futuro, y los conectores -고 (y), -지만 (pero) y 그래서 (por eso).
 - **Practicas:** una ronda de presentaciones en cadena y entrevistas en parejas, en salas de Zoom, sobre lo que amas de Corea. Mientras conversas, Abby pasa por las salas para conocer tu punto de partida. No es un examen.
 - **En casa:** grabas un audio de 60–90 segundos con tu presentación. Guárdalo, porque en la semana 8 lo vuelves a grabar y comparas.
 - **Cultura:** por qué en Corea es normal que te pregunten la edad apenas te conocen.
 
-**Semana 2 · K-pop y cultura fan** (martes 20 de octubre)
+**Semana 2 · K-pop y cultura fan** (martes 27 de octubre)
 - **Aprendes a:** hablar de tu grupo, de sus integrantes y de los conciertos, contar lo que has hecho como fan y explicar por qué te gusta.
 - **Estructuras clave:** -아/어 봤어요 (¿has…? / he…) → *콘서트에 가 봤어요?* · 제일 (el/la más) → *제일 좋아하는 노래* · N 중에서 (de entre) → *멤버 중에서 누가 제일 좋아요?* · -아서/어서 (porque) → *노래가 좋아서 이 그룹을 좋아해요.*
 - **Palabras del tema:** 멤버 (integrante), 최애 (favorito absoluto), 콘서트 (concierto), 응원봉 (*lightstick*), 팬미팅 (encuentro de fans), 무대 (escenario).
@@ -84,7 +84,7 @@ Este curso es para ti si:
 - **En casa:** un audio de 90 segundos recomendando una canción coreana.
 - **Cultura:** los fandoms, sus nombres y el 응원법.
 
-**Semana 3 · Viajes: Jeju y Seúl** (martes 27 de octubre)
+**Semana 3 · Viajes: Jeju y Seúl** (martes 3 de noviembre)
 - **Aprendes a:** planear un viaje con otra persona (proponer, decidir, cómo moverse) y contar un viaje encadenando frases en pasado.
 - **Estructuras clave:** -(으)ㄹ까요? (¿y si…?, ¿vamos…?) → *제주도에 갈까요?* · -(으)러 가요 (ir a + para qué) → *바다를 보러 가요.* · (으)로 (en, hacia) → *지하철로, 왼쪽으로* · -아서/어서 (y luego) → *공항에 가서 비행기를 타요.*
 - **Palabras del tema:** 여행 (viaje), 공항 (aeropuerto), 지하철 (metro), 숙소 (alojamiento), 예약하다 (reservar), 경치 (paisaje).
@@ -92,7 +92,7 @@ Este curso es para ti si:
 - **En casa:** un itinerario escrito de 2 días en Corea y un audio sobre tu viaje soñado (o uno que ya hiciste).
 - **Cultura:** los 돌하르방, los "abuelos de piedra" de Jeju.
 
-**Semana 4 · Cultura gastronómica** (martes 3 de noviembre)
+**Semana 4 · Cultura gastronómica** (martes 10 de noviembre)
 - **Aprendes a:** pedir en un restaurante coreano con cantidades y cortesía, recomendar un plato, describir sabores y entender un pedido dicho a velocidad natural.
 - **Estructuras clave:** -아/어 주세요 (deme…, por favor) → *물 좀 주세요.* · contadores 개, 병, 잔 e 인분 → *삼겹살 2인분 주세요.* · -지 마세요 (no…, por favor) → *너무 맵게 하지 마세요.* · adjetivo + sustantivo → *매운 음식* (comida picante).
 - **Palabras del tema:** 맵다 (picante), 짜다 (salado), 달다 (dulce), 고소하다 (sabor tostado, a sésamo), 반찬 (guarniciones), 계산 (la cuenta).
@@ -100,14 +100,14 @@ Este curso es para ti si:
 - **En casa:** un audio recomendando un plato con al menos 3 sabores y un pedido escrito para 3 personas.
 - **Cultura:** los 반찬 y cómo se llama al personal en un restaurante coreano.
 
-**Semana 5 · Laboratorio de conversación 1** (martes 10 de noviembre)
+**Semana 5 · Laboratorio de conversación 1** (martes 17 de noviembre)
 - **Qué pasa:** no hay tema nuevo. Son 40 minutos de conversación en grupos de 3, rotando por tres estaciones: agencia de viajes, restaurante y encuentro de fans. Al final, tu grupo negocia un fin de semana en Seúl con un presupuesto y tiene que ponerse de acuerdo solo en coreano.
 - **Aprendes a no quedarte en blanco:** 다시 한번 말해 주세요 (¿me lo repite, por favor?), 천천히 (despacio), 잠깐만요 (un momento), 무슨 뜻이에요? (¿qué significa?), 진짜요? (¿en serio?), 저도요 (yo también).
 - **Corrección personal:** Abby pasa por las salas y te devuelve 2 puntos de pronunciación para trabajar, con el modelo correcto.
 - **En casa:** un audio de 2 minutos sobre "un fin de semana perfecto en Corea" y una autoevaluación corta (en español está bien).
 - **Cultura:** el 맞장구, las pequeñas reacciones que muestran que estás escuchando.
 
-**Semana 6 · Hanbok y estética** (martes 17 de noviembre)
+**Semana 6 · Hanbok y estética** (martes 24 de noviembre)
 - **Aprendes a:** describir ropa, colores y estampados, comparar lo tradicional con lo moderno y opinar con matices sobre el 한복 (traje tradicional coreano) y la estética coreana.
 - **Estructuras clave:** -아/어 보여요 (se ve…) → *편해 보여요.* · -(으)ㄴ/는 것 같아요 (me parece que…) → *전통 한복이 더 예쁜 것 같아요.* · N보다 더 (más… que) → *한복이 청바지보다 더 화려해요.* · -지만 (pero) → *예쁘지만 불편해요.*
 - **Palabras del tema:** 색깔 (color), 무늬 (estampado), 전통 (tradición), 화려하다 (vistoso), 편하다 (cómodo), 어울리다 (quedar bien).
@@ -115,7 +115,7 @@ Este curso es para ti si:
 - **En casa:** 6–8 frases sobre tu ropa favorita o sobre un 한복 que te gustaría usar, y un audio con tu opinión.
 - **Cultura:** el 한복 en los palacios de Seúl hoy.
 
-**Semana 7 · PC방 y e-sports** (martes 24 de noviembre)
+**Semana 7 · PC방 y e-sports** (martes 1 de diciembre)
 - **Aprendes a:** hablar de videojuegos, tiempo libre y tecnología. Vas a contar cuándo y cuánto juegas, decir qué haces bien o mal, expresar condiciones y sostener un mini-debate.
 - **Estructuras clave:** -(으)ㄹ 때 (cuando) → *게임할 때 컵라면을 먹어요.* · -기 전에 / -(으)ㄴ 후에 (antes de / después de) → *수업이 끝난 후에* · 잘 / 못 (bien / no poder) → *저는 게임을 잘 못해요.* · -(으)면 (si) → *이기면 기분이 좋아요.*
 - **Palabras del tema:** 이기다 (ganar), 지다 (perder), 선수 (jugador profesional), 경기 (partida), 실력 (nivel, habilidad), 응원하다 (alentar).
@@ -123,7 +123,7 @@ Este curso es para ti si:
 - **En casa:** un audio sobre tu pasatiempo digital, que puede ser un juego, una app, un drama o música. No necesitas ser gamer.
 - **Cultura:** el PC방 como parte de la vida social coreana.
 
-**Semana 8 · Laboratorio 2 y evaluación oral** (martes 1 de diciembre)
+**Semana 8 · Laboratorio 2 y evaluación oral** (martes 8 de diciembre [por confirmar])
 - **Antes de la clase envías dos audios:**
   1. tu presentación de la semana 1, regrabada y ampliada a 2–3 minutos, que es tu "antes y después";
   2. un monólogo de 2 minutos sobre uno de los cinco temas del curso, que se sortea con anticipación. Lo dices sin leer, solo con una tarjeta de palabras clave.
@@ -194,7 +194,7 @@ En las semanas 5 y 8 (los laboratorios), los bloques 3 y 4 se juntan en 40 minut
 
 **Cómo sabrás que avanzas:** no hay examen escrito. Cuentan tu participación en clase y en los laboratorios, tus tareas y la evaluación oral de la semana 8. Evaluamos para orientarte, no para castigarte.
 
-**Antes de empezar:** el lunes 12 de octubre recibes por correo tu link de Zoom, el acceso al grupo de WhatsApp del curso y la guía del alumno.
+**Antes de empezar:** el lunes 19 de octubre recibes por correo tu link de Zoom, el acceso al grupo de WhatsApp del curso y la guía del alumno.
 
 **Qué necesitas:** computador (o celular) con Zoom actualizado, audífonos con micrófono, cámara encendida durante la clase (salvo problemas de conexión) y tu nombre real en Zoom.
 
@@ -206,11 +206,11 @@ En las semanas 5 y 8 (los laboratorios), los bloques 3 y 4 se juntan en 40 minut
 |---|---|
 | **Día** | Martes |
 | **Hora** | 21:00 a 22:00, hora de Chile (Santiago) · miércoles 09:00 a 10:00 en Corea |
-| **Fecha de inicio** | Martes 13 de octubre de 2026 |
-| **Las 8 clases** | 13, 20 y 27 de octubre · 3, 10, 17 y 24 de noviembre · 1 de diciembre |
+| **Fecha de inicio** | Martes 20 de octubre de 2026 |
+| **Las 8 clases** | 20 y 27 de octubre · 3, 10, 17 y 24 de noviembre · 1 y 8 de diciembre [por confirmar] |
 | **Duración** | 8 semanas · 8 clases de 60 minutos |
 | **Profesora** | **Abby (홍미영)**: profesora coreana nativa y pedagoga, enseña desde Corea |
-| **Cierre de matrícula** | Domingo 11 de octubre (o antes, si se completan los cupos) |
+| **Cierre de matrícula** | Domingo 18 de octubre (o antes, si se completan los cupos) |
 
 **¿Qué hora es en tu país?** (martes 21:00 en Chile)
 
@@ -225,6 +225,8 @@ En las semanas 5 y 8 (los laboratorios), los bloques 3 y 4 se juntan en 40 minut
 
 Puedes tomar el curso desde toda Latinoamérica, España y EE.UU.: es 100 % online. Chile no cambia de hora durante el curso.
 
+El martes 8 de diciembre es feriado en Chile: la fecha de la clase 8 está **[por confirmar]** y te la avisamos con tiempo.
+
 ---
 
 ### 💰 Inversión
@@ -232,7 +234,7 @@ Puedes tomar el curso desde toda Latinoamérica, España y EE.UU.: es 100 % onli
 **US$150 el curso completo · o 2 cuotas de US$75**
 
 - **Pago único:** US$150 por las 8 semanas.
-- **En 2 cuotas:** la primera, de US$75, al inscribirte. La segunda, de US$75, antes de la clase 5 (martes 10 de noviembre). Te avisamos por WhatsApp unos días antes.
+- **En 2 cuotas:** la primera, de US$75, al inscribirte. La segunda, de US$75, antes de la clase 5 (martes 17 de noviembre). Te avisamos por WhatsApp unos días antes.
 - **Formas de pago:** transferencia bancaria en Chile (sin comisión), Mercado Pago con tarjeta o transferencia (se cobra en pesos chilenos) y PayPal en dólares, también con tarjeta.
 - Es el mismo precio para todos los cursos de Academia Seúl.
 - Tu cupo queda confirmado cuando recibimos el pago completo o la primera cuota, y te avisamos apenas lo registramos.
@@ -260,13 +262,13 @@ Reserva tu cupo en [academiaseul.com/nivel-1?clase=a21](https://www.academiaseul
 
 ### 👥 Cupos
 
-**Máximo 15 estudiantes**, para que todos hablen en cada clase y reciban corrección personal. Conversacional 1 tiene una sola sección en esta cohorte (martes 21:00). Los cupos se asignan por orden de inscripción, y la matrícula cierra el domingo 11 de octubre o antes, si se completa el grupo.
+**Máximo 15 estudiantes**, para que todos hablen en cada clase y reciban corrección personal. Conversacional 1 tiene una sola sección en esta cohorte (martes 21:00). Los cupos se asignan por orden de inscripción, y la matrícula cierra el domingo 18 de octubre o antes, si se completa el grupo.
 
 ---
 
 ### 📜 Certificado
 
-Al completar el curso recibes el **certificado digital de Academia Seúl · Conversacional 1 (A2.1)**, junto con un informe individual de Abby que comenta tu "antes y después". Los certificados digitales se entregan el lunes 7 de diciembre de 2026.
+Al completar el curso recibes el **certificado digital de Academia Seúl · Conversacional 1 (A2.1)**, junto con un informe individual de Abby que comenta tu "antes y después". Los certificados digitales se entregan el lunes 14 de diciembre de 2026.
 
 - Para otorgarlo se consideran tu **asistencia** y tu **participación** a lo largo del curso. Los requisitos exactos (asistencia mínima y nota): **Confirmar con Academia Seúl.**
 - Con este certificado pasas directo a **Conversacional 2 (A2.2)**, que abre en enero de 2027, sin rendir el test de nivel.
@@ -302,14 +304,14 @@ Una vez iniciado el curso, el pago no es reembolsable. Si no puedes continuar, e
 
 ---
 
-**¿Nos vemos el martes 13?** Inscríbete en [academiaseul.com/nivel-1?clase=a21](https://www.academiaseul.com/nivel-1?clase=a21) · ¿Dudas sobre tu nivel? WhatsApp **+56 9 4211 5562**. 화이팅!
+**¿Nos vemos el martes 20?** Inscríbete en [academiaseul.com/nivel-1?clase=a21](https://www.academiaseul.com/nivel-1?clase=a21) · ¿Dudas sobre tu nivel? WhatsApp **+56 9 4211 5562**. 화이팅!
 
 <!--
 PENDIENTE ANTES DE PUBLICAR (no visible en la página):
 1. Requisitos del certificado. cursos_es.json (a21) pide nota ≥ 60 % y asistencia ≥ 75 % (6 de 8 clases EN VIVO; "la grabación no cuenta como asistencia salvo aviso previo"). textos_generales.js, la Guía del Alumno ya entregada y app/terminos dicen que se entrega "por asistencia y participación" y que grabación + tarea SÍ cuentan. El PDF público de Conversacional 1 agrega que la evaluación final "no es para reprobar". Hay que unificar.
-2. Fecha del certificado. cursos_es.json y la Guía del Alumno dicen lunes 7 de diciembre (así quedó aquí). El PDF público Programa_ConversacionalA21_Octubre_2026.pdf dice "en la última clase o por correo esa misma semana".
+2. Fecha del certificado. cursos_es.json y la Guía del Alumno dicen lunes 7 de diciembre; con la cohorte corrida una semana (12 oct 2026) aquí quedó lunes 14 de diciembre. El PDF público Programa_ConversacionalA21_Octubre_2026.pdf dice "en la última clase o por correo esa misma semana".
 3. Pesos de la evaluación. cursos_es.json (a21): 40 % participación / 30 % tareas / 30 % evaluación oral. textos_generales.js (general): 25 / 25 / 15 / 35. Por eso aquí no se publican porcentajes.
-4. Sorteo del tema del monólogo (semana 8). cursos_es.json dice "domingo 22" en la tarea y "domingo anterior" en la evaluación. El kit de Abby dice que la fecha se confirma con Jay. Aquí solo dice "se sortea con anticipación".
+4. Sorteo del tema del monólogo (semana 8). cursos_es.json dice "domingo 22" en la tarea y "domingo anterior" en la evaluación. El kit de Abby dice que la fecha se confirma con Jay. Aquí solo dice "se sortea con anticipación" (con el calendario corrido, el sorteo propuesto pasa del dom 29 nov al dom 6 dic).
 5. "La mitad de las sesiones son laboratorio oral" (lib/nivel1.ts, /programa, PDF del curso y Guía del Alumno): en el syllabus hay 2 laboratorios de 8 sesiones. Aquí se dice "dos laboratorios" y "al menos la mitad de cada clase la pasas conversando", que sí coincide con la estructura de 60 minutos. Se recomienda corregir la frase en lib/nivel1.ts.
 6. Libro: cursos_es.json cita Korean Grammar in Use · Beginning como referencia "por unidad", pero lib/nivel1.ts da como material "módulos conversacionales propios". ¿El alumno necesita tenerlo?
 7. Retiro antes del inicio de la cohorte: los términos no lo cubren.
@@ -317,4 +319,5 @@ PENDIENTE ANTES DE PUBLICAR (no visible en la página):
 9. Conversacional 2 (enero 2027): falta fecha, día, horario y profesor/a.
 10. Test de nivel: el de /test-nivel son 5 preguntas (2 minutos) y no distingue A1.2 de A2.1. Para quien llega de fuera, recomendar una conversación corta por WhatsApp. cursos_es.json habla de un test de "10 minutos".
 11. Emojis (revisión del 26 sept): los que se ven rojos en muchos teléfonos se cambiaron en las 7 páginas por 🙋 · ✏️ · 📘 · 🌏 · 🕗 · ✅ · ❔ (regla "nunca rojo en documentos", igual que Mensajes_Alumnos.md).
+12. Calendario corrido una semana (16 oct 2026): martes 20 oct → martes 8 dic (= miércoles 21 oct → miércoles 9 dic, 09:00 KST); la clase 8 cae en el feriado del martes 8 de diciembre en Chile y va "[por confirmar]" hasta que Jay decida. Cuota 2 antes de la clase 5 (mar 17 nov). Correo con Zoom, grupo y guía: lunes 19 oct.
 -->

@@ -6,15 +6,15 @@ Página índice que reúne los 6 programas públicos. Cada curso va resumido aqu
 Al publicarla en el sitio, cambiar esos links relativos por la URL de cada curso.
 Fuentes: las 6 páginas de esta carpeta (que salen de cursos_es.json, el syllabus entregado a las profes) y lib/nivel1.ts
 (horarios, profes, cupos, precio, husos horarios). Políticas: app/terminos, components/FAQ.tsx.
-Fechas verificadas con el calendario 2026: mar 13, mié 14, jue 15 y lun 19 de octubre; lun 12 de octubre = feriado en Chile.
-Redactado el 26 sept 2026. Lo que dice "Confirmar con Academia Seúl" espera la decisión de Jay.
+Fechas verificadas con el calendario 2026: mar 20, mié 21, jue 22 y lun 19 de octubre; mar 8 de diciembre = feriado en Chile (Inmaculada Concepción).
+Redactado el 26 sept 2026; fechas al día el 16 oct 2026 con la cohorte corrida una semana (decisión de Jay, 12 oct 2026). Lo que dice "Confirmar con Academia Seúl" espera la decisión de Jay.
 -->
 
 # Cursos de coreano · Octubre 2026
 
 **Aquí tienes lo que vas a aprender en cada curso, cuándo son las clases, quién te enseña y cómo elegir tu nivel.**
 
-En Academia Seúl aprendes coreano en clases en vivo por Zoom, en grupos pequeños y con profes coreanos. Todos los cursos de octubre duran **8 semanas**, con **1 clase de 60 minutos por semana**, y tienen el mismo precio: **US$150 el curso completo · o 2 cuotas de US$75**. Las clases de adultos parten **la semana del 12 de octubre** y Coreano para Niños parte el **lunes 19 de octubre**. La matrícula cierra el **domingo 11 de octubre**, o antes si se llenan los cupos.
+En Academia Seúl aprendes coreano en clases en vivo por Zoom, en grupos pequeños y con profes coreanos. Todos los cursos de octubre duran **8 semanas**, con **1 clase de 60 minutos por semana**, y tienen el mismo precio: **US$150 el curso completo · o 2 cuotas de US$75**. Todas las clases parten **la semana del 19 de octubre** (Coreano para Niños, el **lunes 19**) y terminan la semana del 7 de diciembre. La matrícula cierra el **domingo 18 de octubre**, o antes si se llenan los cupos.
 
 Los horarios están en **hora de Chile** (Santiago), que se mantiene en UTC−3 durante todo el curso. Más abajo tienes la hora de tu país.
 
@@ -24,15 +24,15 @@ Los horarios están en **hora de Chile** (Santiago), que se mantiene en UTC−3 
 
 | Curso | Profesor/a | Día | Hora (Chile) | Inicio | Última clase |
 |---|---|---|---|---|---|
-| Básico 1 (A1.1) · sección martes | Kiran | Martes | 20:00–21:00 | **Martes 13 de octubre** | Martes 1 de diciembre |
-| Básico 1 (A1.1) · sección jueves | Kiran | Jueves | 20:00–21:00 | **Jueves 15 de octubre** | Jueves 3 de diciembre |
-| Básico 2 (A1.2) | Jay | Miércoles | 21:00–22:00 | **Miércoles 14 de octubre** | Miércoles 2 de diciembre |
-| Conversacional 1 (A2.1) | Abby | Martes | 21:00–22:00 | **Martes 13 de octubre** | Martes 1 de diciembre |
-| TOPIK II (B1+) | Jay | Jueves | 21:00–22:00 | **Jueves 15 de octubre** | Jueves 3 de diciembre |
+| Básico 1 (A1.1) · sección martes | Kiran | Martes | 20:00–21:00 | **Martes 20 de octubre** | Martes 8 de diciembre [por confirmar] |
+| Básico 1 (A1.1) · sección jueves | Kiran | Jueves | 20:00–21:00 | **Jueves 22 de octubre** | Jueves 10 de diciembre |
+| Básico 2 (A1.2) | Jay | Miércoles | 21:00–22:00 | **Miércoles 21 de octubre** | Miércoles 9 de diciembre |
+| Conversacional 1 (A2.1) | Abby | Martes | 21:00–22:00 | **Martes 20 de octubre** | Martes 8 de diciembre [por confirmar] |
+| TOPIK II (B1+) | Jay | Jueves | 21:00–22:00 | **Jueves 22 de octubre** | Jueves 10 de diciembre |
 | Coreano para Niños (8–15) | Jay y Abby | Lunes | 18:00–19:00 | **Lunes 19 de octubre** | Lunes 7 de diciembre |
 | Conversacional 2 (A2.2) | Por anunciar | Por anunciar | Por anunciar | **Próximamente · enero 2027** | — |
 
-- El **lunes 12 de octubre es feriado en Chile**. Por eso Coreano para Niños empieza el lunes 19 y termina una semana después que los cursos de adultos.
+- El **martes 8 de diciembre es feriado en Chile**: la fecha de la última clase de los martes (Básico 1 · sección martes y Conversacional 1) está por confirmar, y te la avisamos con tiempo.
 - Básico 1 tiene **dos secciones con el mismo programa y la misma profesora**. Eliges martes o jueves.
 - Conversacional 2 **no abre en octubre**. Si quieres que te avisemos primero, anótate en la [lista de espera](https://www.academiaseul.com/notificarme?curso=conversacion).
 
@@ -75,13 +75,13 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 | Si… | Tu curso | Cuándo |
 |---|---|---|
-| Nunca he estudiado coreano | **Básico 1 (A1.1)** | Martes 20:00 (desde el 13 oct) o jueves 20:00 (desde el 15 oct) |
+| Nunca he estudiado coreano | **Básico 1 (A1.1)** | Martes 20:00 (desde el 20 oct) o jueves 20:00 (desde el 22 oct) |
 | Reconozco algunas letras o palabras, pero todavía no leo 한글 con seguridad | **Básico 1 (A1.1)** | Martes o jueves 20:00 |
-| Ya sé Hangul y los fundamentos: me presento y hablo en presente | **Básico 2 (A1.2)** | Miércoles 21:00 (desde el 14 oct) |
+| Ya sé Hangul y los fundamentos: me presento y hablo en presente | **Básico 2 (A1.2)** | Miércoles 21:00 (desde el 21 oct) |
 | Hice el Nivel 1 de julio de 2026 | **Básico 2 (A1.2)**. Ese curso hoy se llama Básico 1 y tu certificado te habilita directo. Si sientes que la lectura te quedó floja, puedes repetir Básico 1 | Miércoles 21:00 |
-| Puedo construir frases, pero me cuesta conversar | **Conversacional 1 (A2.1)** | Martes 21:00 (desde el 13 oct) |
+| Puedo construir frases, pero me cuesta conversar | **Conversacional 1 (A2.1)** | Martes 21:00 (desde el 20 oct) |
 | Ya puedo conversar y quiero profundizar en Corea | **Conversacional 2 (A2.2)** | Próximamente · enero 2027 ([lista de espera](https://www.academiaseul.com/notificarme?curso=conversacion)) |
-| Quiero preparar el TOPIK II | **TOPIK II (B1+)**. Necesitas un coreano intermedio | Jueves 21:00 (desde el 15 oct) |
+| Quiero preparar el TOPIK II | **TOPIK II (B1+)**. Necesitas un coreano intermedio | Jueves 21:00 (desde el 22 oct) |
 | Mi hijo/a tiene 8–15 años | **Coreano para Niños** (de 13 a 15 años también puede tomar Básico 1) | Lunes 18:00 (desde el 19 oct) |
 
 **Si no sabes qué nivel tienes, Academia Seúl te orienta antes de que te inscribas.** Haz el **test de nivel gratis** en [academiaseul.com/test-nivel](https://www.academiaseul.com/test-nivel) (5 preguntas, unos 2 minutos, sin registro) o escríbenos por **WhatsApp al +56 9 4211 5562** y cuéntanos qué has estudiado.
@@ -94,7 +94,7 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 ### 🌱 Básico 1 — A1.1 · Primeras Palabras · 첫 한국어
 
-**Martes 20:00 o jueves 20:00 (hora de Chile) · con Kiran · desde el martes 13 o el jueves 15 de octubre · 8 semanas · desde cero**
+**Martes 20:00 o jueves 20:00 (hora de Chile) · con Kiran · desde el martes 20 o el jueves 22 de octubre · 8 semanas · desde cero**
 
 *De no reconocer ni una letra a presentarte en coreano: 8 semanas para leer 한글 y decir tus primeras frases reales.*
 
@@ -102,14 +102,14 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 | Semana | Fecha | Tema | ¿Qué aprenderás? |
 |---|---|---|---|
-| 1 | 13 / 15 oct | 가나다라 I · La sílaba | Las vocales básicas y las consonantes simples, cómo se arma una sílaba y tus primeras palabras |
-| 2 | 20 / 22 oct | 가나다라 II + 안녕하세요 | La consonante final (받침), las dobles y las vocales compuestas. Saludas y te presentas |
-| 3 | 27 / 29 oct | 이게 뭐예요? · ¿Qué es esto? | Preguntas y dices qué es algo (이거, 그거, 저거), respondes sí o no y dices lo que algo no es |
-| 4 | 3 / 5 nov | 우리 엄마예요 · Mi familia | Presentas a tu familia con una foto. Cuentas del 1 al 100 y dictas tu teléfono |
-| 5 | 10 / 12 nov | 집이 어디예요? · Lugares | Dices dónde vives y dónde están las cosas: arriba, abajo, al lado, dentro |
-| 6 | 17 / 19 nov | 학교에 가요 · Mi día | Tus primeros verbos en presente: a dónde vas y qué haces cada día |
-| 7 | 24 / 26 nov | Mi pieza y mis verbos | "Hay" y "no hay", qué haces con las cosas, y preparas tu presentación final |
-| 8 | 1 / 3 dic | 사과를 좋아해요 + examen | Lo que te gusta y lo que no, un examen corto en línea y tu mini-presentación "Yo en coreano" |
+| 1 | 20 / 22 oct | 가나다라 I · La sílaba | Las vocales básicas y las consonantes simples, cómo se arma una sílaba y tus primeras palabras |
+| 2 | 27 / 29 oct | 가나다라 II + 안녕하세요 | La consonante final (받침), las dobles y las vocales compuestas. Saludas y te presentas |
+| 3 | 3 / 5 nov | 이게 뭐예요? · ¿Qué es esto? | Preguntas y dices qué es algo (이거, 그거, 저거), respondes sí o no y dices lo que algo no es |
+| 4 | 10 / 12 nov | 우리 엄마예요 · Mi familia | Presentas a tu familia con una foto. Cuentas del 1 al 100 y dictas tu teléfono |
+| 5 | 17 / 19 nov | 집이 어디예요? · Lugares | Dices dónde vives y dónde están las cosas: arriba, abajo, al lado, dentro |
+| 6 | 24 / 26 nov | 학교에 가요 · Mi día | Tus primeros verbos en presente: a dónde vas y qué haces cada día |
+| 7 | 1 / 3 dic | Mi pieza y mis verbos | "Hay" y "no hay", qué haces con las cosas, y preparas tu presentación final |
+| 8 | 8 dic [por confirmar] / 10 dic | 사과를 좋아해요 + examen | Lo que te gusta y lo que no, un examen corto en línea y tu mini-presentación "Yo en coreano" |
 
 **Al terminar el curso podrás…**
 - leer en voz alta un cartel, un menú o el nombre de tu grupo favorito escrito en 한글;
@@ -117,8 +117,8 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 - preguntar qué es algo o dónde está el baño, y entender una respuesta corta: *화장실이 어디예요?*;
 - contar tu día y tus gustos, y hablar de ti 1 a 2 minutos sin leer.
 
-**Horario:** martes 20:00–21:00 (13 oct → 1 dic) o jueves 20:00–21:00 (15 oct → 3 dic), hora de Chile · Kiran (기란)
-**Inversión:** US$150 el curso completo · o 2 cuotas de US$75 (la segunda antes de la clase 5: martes 10 o jueves 12 de noviembre)
+**Horario:** martes 20:00–21:00 (20 oct → 8 dic [por confirmar]) o jueves 20:00–21:00 (22 oct → 10 dic), hora de Chile · Kiran (기란)
+**Inversión:** US$150 el curso completo · o 2 cuotas de US$75 (la segunda antes de la clase 5: martes 17 o jueves 19 de noviembre)
 **Incluye:** 8 clases en vivo · grabaciones · slides y hoja de actividad por clase (PDF) · el Lector de Hangul como tarea guiada, con audio nativo · tareas con corrección de tus audios · grupo de WhatsApp del curso · guía de estudio a mitad de curso · certificado digital
 **Cupos:** máximo 15 estudiantes por sección (martes y jueves son grupos distintos)
 
@@ -128,7 +128,7 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 ### 🚀 Básico 2 — A1.2 · Pasado, presente y futuro · 기초 한국어 2
 
-**Miércoles 21:00 (hora de Chile) · con Jay · desde el miércoles 14 de octubre · 8 semanas · requiere Básico 1 o equivalente**
+**Miércoles 21:00 (hora de Chile) · con Jay · desde el miércoles 21 de octubre · 8 semanas · requiere Básico 1 o equivalente**
 
 *Pasa de frases sueltas a contar tu vida en coreano: lo que hiciste, lo que haces y lo que vas a hacer.*
 
@@ -136,14 +136,14 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 | Semana | Fecha | Tema | ¿Qué aprenderás? |
 |---|---|---|---|
-| 1 | 14 oct | Te vuelves a presentar | Te presentas con más detalle y repasas lo esencial de Básico 1. Conversación de diagnóstico, sin nota |
-| 2 | 21 oct | Números en la vida real | Los dos sistemas de números para tu edad, tu cumpleaños, tu teléfono y la hora |
-| 3 | 28 oct | Tu rutina en presente | Un día normal con unos 10 verbos, incluidos irregulares de todos los días. 에 y 에서 |
-| 4 | 4 nov | El pasado | Cuentas qué hiciste: cuándo, dónde y con quién, y desde y hasta cuándo |
-| 5 | 11 nov | El futuro y tus planes | Planeas tu semana o un viaje: qué vas a hacer, cuándo y cómo vas a ir |
-| 6 | 18 nov | Lo que no hago y lo que sé hacer | "No lo hago", "no puedo" y "sé hacerlo". Rechazas una invitación con amabilidad |
-| 7 | 25 nov | Partículas para sonar natural | Comparas y precisas: más que, como, solo, también, cada, más o menos |
-| 8 | 2 dic | Conectores, examen y cierre | Unes ideas con "y" y "pero", conversas unos 5 minutos y rindes el examen final |
+| 1 | 21 oct | Te vuelves a presentar | Te presentas con más detalle y repasas lo esencial de Básico 1. Conversación de diagnóstico, sin nota |
+| 2 | 28 oct | Números en la vida real | Los dos sistemas de números para tu edad, tu cumpleaños, tu teléfono y la hora |
+| 3 | 4 nov | Tu rutina en presente | Un día normal con unos 10 verbos, incluidos irregulares de todos los días. 에 y 에서 |
+| 4 | 11 nov | El pasado | Cuentas qué hiciste: cuándo, dónde y con quién, y desde y hasta cuándo |
+| 5 | 18 nov | El futuro y tus planes | Planeas tu semana o un viaje: qué vas a hacer, cuándo y cómo vas a ir |
+| 6 | 25 nov | Lo que no hago y lo que sé hacer | "No lo hago", "no puedo" y "sé hacerlo". Rechazas una invitación con amabilidad |
+| 7 | 2 dic | Partículas para sonar natural | Comparas y precisas: más que, como, solo, también, cada, más o menos |
+| 8 | 9 dic | Conectores, examen y cierre | Unes ideas con "y" y "pero", conversas unos 5 minutos y rindes el examen final |
 
 **Al terminar el curso podrás…**
 - contarle a alguien tu fin de semana: *토요일에 친구하고 카페에 갔어요.*;
@@ -151,8 +151,8 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 - decir que no a una invitación sin sonar cortante: *미안해요, 내일은 못 가요.*;
 - mantener una conversación de unos 5 minutos sobre tu rutina, lo que hiciste y lo que vas a hacer.
 
-**Horario:** miércoles 21:00–22:00, hora de Chile (14 oct → 2 dic) · Jay Kim (김재희)
-**Inversión:** US$150 el curso completo · o 2 cuotas de US$75 (la segunda antes de la clase 5: miércoles 11 de noviembre)
+**Horario:** miércoles 21:00–22:00, hora de Chile (21 oct → 9 dic) · Jay Kim (김재희)
+**Inversión:** US$150 el curso completo · o 2 cuotas de US$75 (la segunda antes de la clase 5: miércoles 18 de noviembre)
 **Incluye:** 8 clases en vivo · grabaciones · slides y hojas de actividad (PDF) · práctica en el Lector de Hangul · tareas y mini-diarios con comentarios · examen final y conversación evaluada · grupo de WhatsApp del curso · guía de estudio a mitad de curso · certificado digital
 **Cupos:** máximo 15 estudiantes
 
@@ -162,7 +162,7 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 ### 💬 Conversacional 1 — A2.1 · Corea que amas · 회화 A2.1
 
-**Martes 21:00 (hora de Chile) = miércoles 09:00 en Corea · con Abby · desde el martes 13 de octubre · 8 semanas · requiere Básico 2 o equivalente**
+**Martes 21:00 (hora de Chile) = miércoles 09:00 en Corea · con Abby · desde el martes 20 de octubre · 8 semanas · requiere Básico 2 o equivalente**
 
 *Ya tienes las bases: ahora toca usarlas para hablar en coreano de lo que amas de Corea, con una profesora nativa.*
 
@@ -170,14 +170,14 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 | Semana | Fecha | Tema | ¿Qué aprenderás? |
 |---|---|---|---|
-| 1 | 13 oct | Orientación y diagnóstico oral | Te presentas con más detalle, conoces al grupo y fijas tus 3 metas de conversación |
-| 2 | 20 oct | K-pop y cultura fan | Hablas de tu grupo y tu 최애, cuentas experiencias como fan y explicas por qué te gusta |
-| 3 | 27 oct | Viajes: Jeju y Seúl | Planeas un viaje en pareja, dices cómo moverte en metro y cuentas un viaje |
-| 4 | 3 nov | Cultura gastronómica | Pides en un restaurante para varias personas, recomiendas un plato y describes sabores |
-| 5 | 10 nov | Laboratorio de conversación 1 | 40 minutos de conversación en grupos de 3, con corrección personal de pronunciación |
-| 6 | 17 nov | Hanbok y estética | Describes ropa y estilo, comparas lo tradicional con lo moderno y opinas con matices |
-| 7 | 24 nov | PC방 (cibercafé coreano) y e-sports | Hablas de videojuegos y tiempo libre: cuándo, antes y después, y qué pasa "si…" |
-| 8 | 1 dic | Laboratorio 2 y evaluación oral | Juntas los cinco temas, rindes una evaluación oral en pareja y comparas tu "antes y después" |
+| 1 | 20 oct | Orientación y diagnóstico oral | Te presentas con más detalle, conoces al grupo y fijas tus 3 metas de conversación |
+| 2 | 27 oct | K-pop y cultura fan | Hablas de tu grupo y tu 최애, cuentas experiencias como fan y explicas por qué te gusta |
+| 3 | 3 nov | Viajes: Jeju y Seúl | Planeas un viaje en pareja, dices cómo moverte en metro y cuentas un viaje |
+| 4 | 10 nov | Cultura gastronómica | Pides en un restaurante para varias personas, recomiendas un plato y describes sabores |
+| 5 | 17 nov | Laboratorio de conversación 1 | 40 minutos de conversación en grupos de 3, con corrección personal de pronunciación |
+| 6 | 24 nov | Hanbok y estética | Describes ropa y estilo, comparas lo tradicional con lo moderno y opinas con matices |
+| 7 | 1 dic | PC방 (cibercafé coreano) y e-sports | Hablas de videojuegos y tiempo libre: cuándo, antes y después, y qué pasa "si…" |
+| 8 | 8 dic [por confirmar] | Laboratorio 2 y evaluación oral | Juntas los cinco temas, rindes una evaluación oral en pareja y comparas tu "antes y después" |
 
 **Al terminar el curso podrás…**
 - conversar unos minutos sobre lo que te gusta de Corea: *콘서트에 가 봤어요?*;
@@ -185,8 +185,8 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 - proponerle un plan a alguien y ponerse de acuerdo: *이번 주말에 같이 홍대에 갈까요?*;
 - pedir ayuda sin quedarte en blanco: *잠깐만요… 다시 한번 말해 주세요.*
 
-**Horario:** martes 21:00–22:00, hora de Chile (13 oct → 1 dic) · miércoles 09:00 en Corea · Abby (홍미영)
-**Inversión:** US$150 el curso completo · o 2 cuotas de US$75 (la segunda antes de la clase 5: martes 10 de noviembre)
+**Horario:** martes 21:00–22:00, hora de Chile (20 oct → 8 dic [por confirmar]) · miércoles 09:00 en Corea · Abby (홍미영)
+**Inversión:** US$150 el curso completo · o 2 cuotas de US$75 (la segunda antes de la clase 5: martes 17 de noviembre)
 **Incluye:** 8 clases en vivo, dos de ellas laboratorios de conversación · grabaciones · slides con apoyo en español e inglés · hojas de actividad y tarjetas de conversación · material real de Corea (menús, mapa del metro, clips) · corrección de tus audios semanales · grupo de WhatsApp del curso · evaluación oral e informe individual · certificado digital
 **Cupos:** máximo 15 estudiantes
 
@@ -223,7 +223,7 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 ### 🎯 TOPIK II — B1+ · Estrategia de examen · 토픽 II 준비반
 
-**Jueves 21:00 (hora de Chile) · con Jay · desde el jueves 15 de octubre · 8 semanas · máximo 8 estudiantes**
+**Jueves 21:00 (hora de Chile) · con Jay · desde el jueves 22 de octubre · 8 semanas · máximo 8 estudiantes**
 
 *Conoce el TOPIK II por dentro, practica con exámenes oficiales y llega al día del examen sabiendo cómo usar cada minuto.*
 
@@ -231,14 +231,14 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 
 | Semana | Fecha | Tema | ¿Qué aprenderás? |
 |---|---|---|---|
-| 1 | 15 oct | Diagnóstico y radiografía del TOPIK II | Cómo se arma y se puntúa el examen. Mini simulacro y tu nivel de partida |
-| 2 | 22 oct | 읽기 I · Lectura, preguntas 1–20 | Reconoces cada tipo de pregunta y resuelves rápido las fáciles |
-| 3 | 29 oct | 듣기 I · Escucha, preguntas 1–20 | Lees las opciones antes del audio, tomas notas y resuelves con una sola escucha |
-| 4 | 5 nov | 쓰기 51–52 · Completar textos | Fórmulas para avisos, correos y textos breves, en el registro que corresponde |
-| 5 | 12 nov | 쓰기 53 · Describir un gráfico | 200 a 300 caracteres con una plantilla de cuatro frases y las reglas del 원고지 |
-| 6 | 19 nov | 읽기 y 듣기 II · Preguntas de nivel 4–6 | Titulares, idea central y actitud del hablante. Qué responder ahora y qué dejar para después |
-| 7 | 26 nov | 쓰기 54 · El ensayo de opinión | Un ensayo de 600 a 700 caracteres con estructura clara y corrección personal |
-| 8 | 3 dic | Simulacro final y tu plan personal | Analizas tu simulacro de 180 minutos y armas tu plan de estudio hasta el examen |
+| 1 | 22 oct | Diagnóstico y radiografía del TOPIK II | Cómo se arma y se puntúa el examen. Mini simulacro y tu nivel de partida |
+| 2 | 29 oct | 읽기 I · Lectura, preguntas 1–20 | Reconoces cada tipo de pregunta y resuelves rápido las fáciles |
+| 3 | 5 nov | 듣기 I · Escucha, preguntas 1–20 | Lees las opciones antes del audio, tomas notas y resuelves con una sola escucha |
+| 4 | 12 nov | 쓰기 51–52 · Completar textos | Fórmulas para avisos, correos y textos breves, en el registro que corresponde |
+| 5 | 19 nov | 쓰기 53 · Describir un gráfico | 200 a 300 caracteres con una plantilla de cuatro frases y las reglas del 원고지 |
+| 6 | 26 nov | 읽기 y 듣기 II · Preguntas de nivel 4–6 | Titulares, idea central y actitud del hablante. Qué responder ahora y qué dejar para después |
+| 7 | 3 dic | 쓰기 54 · El ensayo de opinión | Un ensayo de 600 a 700 caracteres con estructura clara y corrección personal |
+| 8 | 10 dic | Simulacro final y tu plan personal | Analizas tu simulacro de 180 minutos y armas tu plan de estudio hasta el examen |
 
 **Al terminar el curso podrás…**
 - sentarte frente a un TOPIK II completo sabiendo cuánto tiempo darle a cada parte;
@@ -246,8 +246,8 @@ Todos son online en vivo por Zoom, duran 8 semanas (1 clase de 60 minutos por se
 - escribir a mano, en 원고지, la descripción de un gráfico y un ensayo de opinión con estructura clara;
 - salir con tu plan de estudio semanal hasta la fecha de examen que elijas.
 
-**Horario:** jueves 21:00–22:00, hora de Chile (15 oct → 3 dic) · Jay Kim (김재희)
-**Inversión:** US$150 el curso completo · o 2 cuotas de US$75 (la segunda antes de la clase 5: jueves 12 de noviembre). No incluye la inscripción al examen oficial TOPIK, que se paga aparte en los canales oficiales.
+**Horario:** jueves 21:00–22:00, hora de Chile (22 oct → 10 dic) · Jay Kim (김재희)
+**Inversión:** US$150 el curso completo · o 2 cuotas de US$75 (la segunda antes de la clase 5: jueves 19 de noviembre). No incluye la inscripción al examen oficial TOPIK, que se paga aparte en los canales oficiales.
 **Incluye:** 8 clases en vivo · grabaciones · práctica con exámenes TOPIK II oficiales publicados · guía por tipo de pregunta y plantillas para 쓰기 51–54 · corrección personal de tu escritura · simulacro completo con análisis por sección · plan de estudio personal · grupo de WhatsApp del curso · certificado digital
 **Cupos:** máximo 8 estudiantes
 
@@ -282,7 +282,7 @@ Nadie puede prometerte un puntaje: el curso te da estrategia, práctica con exá
 - contar hasta 10 y decir en la mesa *맛있어요!*;
 - presentar un mini-show de 30 a 40 segundos frente a tu familia.
 
-**Horario:** lunes 18:00–19:00, hora de Chile (19 oct → 7 dic; el 12 de octubre es feriado en Chile) · Jay Kim (김재희) y Abby (홍미영)
+**Horario:** lunes 18:00–19:00, hora de Chile (19 oct → 7 dic) · Jay Kim (김재희) y Abby (홍미영)
 **Inversión:** US$150 el curso completo · o 2 cuotas de US$75 (la segunda antes de la clase 5: lunes 16 de noviembre)
 **Incluye:** 8 clases en vivo con dos profes coreanos · grabaciones para repasar en familia · láminas, bingos y tarjetas de letras (PDF) · canciones de la academia · tablero de stickers · nota semanal para la familia por WhatsApp · Lector de Hangul y Dubu para practicar en casa · mini-show final y certificado
 **Cupos:** máximo 12 niños y niñas (el taller de cada clase se divide en dos salas de hasta 6)
@@ -322,7 +322,7 @@ Las clases no son una charla: **hablas en todas**. Casi siempre empiezan con un 
 
 ## Certificado
 
-Al completar tu curso recibes el **certificado digital de Academia Seúl** del nivel cursado, que considera tu asistencia y tu participación. Los certificados se entregan la semana del 7 de diciembre de 2026. En Niños se entrega en pantalla durante el mini-show del lunes 7 de diciembre. Los requisitos exactos (asistencia mínima y nota): **Confirmar con Academia Seúl.**
+Al completar tu curso recibes el **certificado digital de Academia Seúl** del nivel cursado, que considera tu asistencia y tu participación. Los certificados se entregan la semana del 14 de diciembre de 2026. En Niños se entrega en pantalla durante el mini-show del lunes 7 de diciembre. Los requisitos exactos (asistencia mínima y nota): **Confirmar con Academia Seúl.**
 
 Es un certificado propio de la academia. Los niveles A1.1, A1.2 y A2.1 corresponden a nuestra escalera de cursos, que se basa en el Marco Común Europeo (MCER/CEFR). **No es una acreditación oficial**: no lo emite el gobierno de Corea ni una universidad, y no reemplaza al examen TOPIK.
 
@@ -375,7 +375,7 @@ Recibes tu certificado y sigues con el próximo peldaño de la escalera. En ener
 
 **Links directos:** [Básico 1 · martes](https://www.academiaseul.com/nivel-1?clase=a11-martes) · [Básico 1 · jueves](https://www.academiaseul.com/nivel-1?clase=a11-jueves) · [Básico 2](https://www.academiaseul.com/nivel-1?clase=a12) · [Conversacional 1](https://www.academiaseul.com/nivel-1?clase=a21) · [TOPIK II](https://www.academiaseul.com/nivel-1?clase=topik2) · [Coreano para Niños](https://www.academiaseul.com/nivel-1?clase=ninos) · [Conversacional 2: lista de espera](https://www.academiaseul.com/notificarme?curso=conversacion)
 
-**La matrícula cierra el domingo 11 de octubre**, o antes si se completan los cupos.
+**La matrícula cierra el domingo 18 de octubre**, o antes si se completan los cupos.
 
 ¿Dudas? Escríbenos por **WhatsApp al +56 9 4211 5562**. 화이팅!
 
@@ -389,4 +389,5 @@ NOTAS PARA JAY (no visibles en la página):
 6. Conversacional 2 (actualizado el 29 sept 2026 con el diseño final, Curriculo/Fase5_Conversacional2/00_Diseno_Conversacional2.md): semanas en el orden de la Opción A (4 Lab 3 + se viene el 설날 · 5 설날 y 추석 · 6 mitos · 8 Lab 4 + proyecto; DECISIÓN DE JAY 4), precio único publicado (US$150 o 2 × US$75) y "casi toda en coreano" (DECISIÓN DE JAY 7). Día, hora, profe y fecha exacta de inicio: "Confirmar con Academia Seúl". El calendario de arriba sigue con "Por anunciar". Detalle y pendientes en Programa_Conversacional2_A2-2.md.
 7. PayPal "tarjeta sin cuenta" y link de Mercado Pago de la cuota (MP_LINK_MENSUAL) siguen pendientes: aquí solo dice "PayPal, también con tarjeta" y no se promete Mercado Pago en cuotas.
 8. "Qué pasa cuando termino": textos_generales lista para enero 2027 Básico 1, Básico 2, Conversacional 2 y Niños 2, sin Conversacional 1. ¿Dónde sigue quien termina Básico 2 en diciembre?
+9. Calendario corrido una semana (decisión de Jay, 12 oct 2026; página al día el 16 oct 2026): matrícula hasta el dom 18 oct; Básico 1 mar 20 / jue 22 oct → mar 8 / jue 10 dic; Básico 2 mié 21 oct → mié 9 dic; Conversacional 1 mar 20 oct → mar 8 dic; TOPIK II jue 22 oct → jue 10 dic; Niños sin cambios (lun 19 oct → lun 7 dic); cuota 2 antes de la clase 5 (semana del 16 nov); certificados de adultos la semana del 14 dic. El mar 8 dic es feriado en Chile: la última clase de los martes va "por confirmar" hasta que Jay decida.
 -->

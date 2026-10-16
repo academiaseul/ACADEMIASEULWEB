@@ -3,20 +3,58 @@
 **Reemplaza a `Calendario_Envios_Octubre_2026.md` desde hoy, martes 29 de septiembre.** El reto #LeoCoreanoEn7Días no se lanzó y L1, L1-b y L2 nunca salieron. Por eso los correos L1–L5b, el O1, el R1 y el N1 del 25 de septiembre ya no se usan. Ahora mandan los archivos de `Brevo/Envios_desde_29sep/`.
 Plan general: `Plan_Desde_29sep_2026.md` §4. **Cómo pegar cada correo en Brevo: `Brevo/Envios_desde_29sep/LEEME_Como_pegar_en_Brevo.md`** (léelo antes de la primera campaña).
 
+> **Actualizado el vie 16 de octubre de 2026: la matrícula se corrió una semana** (decisión de Jay del lun 12 oct; el sitio lo dice desde el commit b368e67). Ahora cierra el **domingo 18 de octubre a las 23:59**. Las clases van desde la **semana del 19 de octubre** (Niños lun 19 · Básico 1 mar 20 y jue 22 · Conversacional 1 mar 20, que en Corea es mié 21 a las 09:00 · Básico 2 mié 21 · TOPIK II jue 22) hasta la semana del 7 de diciembre. **Empieza por el §0.** Lo que en los §2, §3 y §7 dice "dom 11", "lun 12" o "mar 13" es historia. Los días que valen son los del §0 y de la tabla del §1.
+
 | Dato fijo | Valor |
 |---|---|
 | Hora | **Chile (UTC−3)**. Zona de envío de Brevo: *America/Santiago* (menú de la cuenta → *Settings → Campaigns → Default settings*) |
 | Remitente | Jay · Academia Seúl (el correo ya verificado en Brevo) |
 | Responder a | hola.academiaseul@gmail.com (en *Additional settings*; varios correos piden "respóndeme") |
 | Prospectos | lista `01 Leads sitio`: 97 contactos (P1 18 · P2 21 · P3 58). En P1 hay **solo 2** ex-alumnos de julio: al resto de julio se le escribe 1:1 por WhatsApp (plan §5) |
-| Inscritos | lista `02 Alumnos octubre`, y el dom 11 también `02a` … `02f` (una por clase) |
+| Inscritos | lista `02 Alumnos octubre` y, después del cierre, también `02a` … `02f` (una por clase): `02f` el dom 18 a las 17:30, y las demás el dom 18 en la noche (§0.2) |
 | Primer contacto | lista `03 Primer contacto`: los contactos que reunieron la escuela y las profes y que **dieron su correo** a la academia o a una profe para recibir información. Recibe E0 (jue 1) y después se suma a E3, E4 y E5. Quién entra, tope diario y bajas: §7 |
 | Precio (así en todos) | US$150 el curso completo · o 2 cuotas de US$75 |
-| Cierre | domingo 11 de octubre, 23:59 (o antes si se llenan los cupos) |
+| Cierre | **domingo 18 de octubre, 23:59** (o antes si se llenan los cupos). Se corrió una semana el lun 12; antes era el domingo 11 |
 | Seguimiento | Todos los links al sitio ya traen `utm_source=brevo&utm_medium=email&utm_campaign=` + `e0` … `e5`, `o1`, `r1`, `n1`. En Brevo deja **apagado** *Activate UTM tracking* |
 | Preheader | Ya viene **oculto dentro de cada HTML**. En Brevo deja **vacío** el campo *Preview text* (si lo llenas, se ve dos veces) |
 
-**Reglas:** máximo 1 correo por persona cada 48 h · máximo 300 envíos al día (plan gratis; se suman **todas** las campañas del día: deja margen para las pruebas y no pases de 290. Con `01` sola el día más cargado no pasa de ~120; con la `03`, los cupos están en §7) · **antes de cada envío a prospectos, mueve a `02 Alumnos octubre` a quien ya pagó**, porque Brevo aplica la exclusión en el momento del envío. Hay una sola excepción, a propósito: los inscritos de Básico 1 martes y de Conversacional 1 reciben O1 (09:00) y R1 (18:00) el mismo lunes 12. Son avisos de su clase.
+**Reglas:** máximo 1 correo por persona cada 48 h · máximo 300 envíos al día (plan gratis; se suman **todas** las campañas del día: deja margen para las pruebas y no pases de 290. Con `01` sola el día más cargado no pasa de ~120; con la `03`, los cupos están en §7) · **antes de cada envío a prospectos, mueve a `02 Alumnos octubre` a quien ya pagó**, porque Brevo aplica la exclusión en el momento del envío. Hay dos excepciones, a propósito: los inscritos de Básico 1 martes y de Conversacional 1 reciben O1 (09:00) y R1 (18:00) el mismo lunes 19, y los apoderados de Niños reciben R1f (dom 18, 18:00) y O1 (lun 19, 09:00). Son avisos de su clase.
+
+---
+
+## 0 · Qué cambia en Brevo con la semana extra (léelo primero)
+
+| Correo | Antes | Ahora | Qué cambió |
+|---|---|---|---|
+| E0 · E1 · E2 · E3 · E4 A · E4 B | 30 sep – 8 oct | — | Ya pasaron. No se reenvían |
+| **E5** · Hoy cierra | dom 11 · 12:00 | **dom 18 · 12:00** | El HTML ya dice "Domingo 18 de octubre" y "clases desde el lunes 19". Abre con "Dejé la matrícula abierta una semana más, y hoy es el último día". Sirve tanto si el E5 del dom 11 salió como si no. Lleva **asunto nuevo** y su segmento pasa a **14 días** (§0.1) |
+| **R1f** · Niños | dom 18 · 18:00 | **dom 18 · 18:00** (no cambia) | Ahora sale **antes** del cierre y antes de decidir qué clases abren (§0.2). Cambió una línea: el link del grupo de apoderados llega "mañana temprano" en O1 |
+| **O1** · Bienvenida | lun 12 · 09:00 | **lun 19 · 09:00** | Trae las fechas nuevas de las 5 clases de adultos y el "hasta el …" de cada una. Básico 1 martes y Conversacional 1 dicen "martes 8 de diciembre (feriado en Chile: por confirmar)". A los apoderados de Niños les dice "su primera clase es hoy, lunes 19 de octubre, a las 18:00" |
+| **R1a** · **R1b** | lun 12 · 18:00 | **lun 19 · 18:00** | Dicen martes 20 de octubre y remiten al "correo del lunes 19" |
+| **N1** · Lista enero | mar 13 · 13:00 | **mar 20 · 13:00** (49 h después de E5) | El texto no cambia: "Esta semana arranca…" sigue siendo verdad |
+| **R1c** | mar 13 · 18:00 | **mar 20 · 18:00** | Dice miércoles 21 de octubre |
+| **R1d** · **R1e** | mié 14 · 18:00 | **mié 21 · 18:00** | Dicen jueves 22 de octubre |
+
+Los archivos conservan la fecha original en el nombre (`E5_Hoy_Cierra_11oct.html`, `O1_Bienvenida_12oct.html`, `N1_Lista_Enero_13oct.html`). Así no se rompen `rellenar_links.js` ni los links desde otros documentos. Por dentro ya traen las fechas nuevas.
+
+### 0.1 · E5 del domingo 18 (≈ 10 min, sáb 17 o dom 18 antes de las 11:30)
+
+1. **Segmento:** en *CRM › Contacts › Segments*, abre `E5 · Abrió E3 o E4` y cambia *In the last* **7 days** por **14 days**. El dom 18 a las 12:00 eso cubre desde el dom 4: E3 (lun 5), E4 A o B (jue 8) y el E5 del dom 11, si salió. Con 7 días solo quedarían quienes abrieron el E5 del dom 11. Si usas *Fixed period*: del 4 al 18 de octubre.
+2. **Campaña:** si el E5 del dom 11 salió, en *Marketing › Campaigns* usa *Duplicate* sobre él y ponle el nombre `E5 · Hoy cierra · 18 oct`. Si no salió (quedó en borrador o lo pausaste), edita esa misma campaña y cámbiale el nombre.
+3. **Asunto:** `Ahora sí, hoy cierra · 23:59 hora Chile` (así no parece el mismo correo de hace una semana). Deja vacío el *Preview text*.
+4. **Design → Edit:** Ctrl+A, Supr y pega el `E5_Hoy_Cierra_11oct.html` actualizado. La copia que quedó en la campaña del dom 11 dice "martes 13" y **no** sirve.
+5. **Destinatarios y envío:** *Send to* el segmento y *Don't send to* `02 Alumnos octubre` (antes, mueve a `02` a quien ya pagó). Luego *Send test email* y *Schedule for later* para el **dom 18 a las 12:00**. Antes de que salga, revisa que el número de destinatarios no pase de 290.
+
+### 0.2 · Domingo 18 y lunes 19: qué clases abren, y después O1, los R1 y N1
+
+- **R1f (Niños) sale antes de decidir.** El dom 18 a las 17:30, arma `02f Niños` con los apoderados que ya pagaron y rellena R1f (§4). Prográmalo para las 18:00 solo si Niños ya tiene el mínimo (3). Si no lo tiene, déjalo en borrador y, si la clase abre, mándalo esa misma noche apenas decidas: dice "mañana" y sirve hasta las 23:59. Si Niños no abre, R1f no sale.
+- **El dom 18 en la noche**, después del cierre, decides clase por clase (mínimo 3). Con eso armas la `02` final y las listas `02a` a `02e`, y rellenas O1 y los R1 (§4).
+- **Si una clase no abre:** no programes su R1. Pídele a Claude que saque su tarjeta de O1 y vuelva a validarlo. A sus inscritos escríbeles 1:1 por WhatsApp (otro horario o devolución del 100 %).
+- **Lun 19 antes de las 09:00**, programa O1 (lun 19 · 09:00), R1a y R1b (lun 19 · 18:00), R1c (mar 20 · 18:00) y R1d y R1e (mié 21 · 18:00). N1 (mar 20 · 13:00) se programa el lun 19, después de dejar el sitio en lista de espera y verificar el deploy (§5).
+- **Zoom:** cambiar la fecha de una reunión recurrente no cambia su link. Si creaste las 5 reuniones de adultos con inicio el 13, 14 o 15 de octubre y "8 ocurrencias", edita cada serie (*Edit → All occurrences*) para que empiece el 20, 21 o 22 de octubre. Si no lo haces, Zoom termina la serie una semana antes. La de Niños no cambia.
+- **Cuota 2:** la propuesta para ⟪ESCRIBIR FECHA CUOTA 2⟫ pasa a `antes de tu clase 5: la semana del 16 de noviembre (en Niños, la del 9)` [POR CONFIRMAR] (antes era la del 9 para todos). O1 también les llega a los apoderados de Niños, cuyo calendario no cambió: su clase 5 es el lun 16 y su guía dice "semana del 9 de noviembre".
+- **Martes 8 de diciembre, feriado en Chile:** es la clase 8 de Básico 1 martes y de Conversacional 1 (en Corea, mié 9 a las 09:00). Si lo decides antes de pegar O1 (se mantiene o se mueve a otro día), pídele a Claude que cambie "(feriado en Chile: por confirmar)" en esas 2 tarjetas y lo vuelva a validar.
+- **Hay dos excepciones a la regla de 48 h**, y son a propósito: los apoderados de Niños reciben R1f (dom 18 · 18:00) y O1 (lun 19 · 09:00), y los inscritos de Básico 1 martes y de Conversacional 1 reciben O1 y R1 el mismo lun 19.
 
 ---
 
@@ -24,35 +62,38 @@ Plan general: `Plan_Desde_29sep_2026.md` §4. **Cómo pegar cada correo en Brevo
 
 Copia el asunto **de esta tabla** tal cual, sin comillas. Ninguno lleva etiquetas de Brevo ni barras.
 
-| Id | Sale (hora Chile) | Enviar a (*Send to*) | No enviar a (*Don't send to*) | Asunto | Preheader (ya va oculto en el HTML) | Archivo | Estado al 29 sep |
+| Id | Sale (hora Chile) | Enviar a (*Send to*) | No enviar a (*Don't send to*) | Asunto | Preheader (ya va oculto en el HTML) | Archivo | Estado al 16 oct |
 |---|---|---|---|---|---|---|---|
-| **E1** | mié 30 sep · 10:00 | lista `01 Leads sitio` | lista `02 Alumnos octubre` | Te lo dejo en un minuto: los cursos de octubre 💙 | 5 cursos, días, horas, profes y precio en una página · matrícula hasta el domingo 11 | `E1_Programa_30sep.html` | ✅ Listo. El link al PDF de una página da 404 hasta que se publique la hoja resumen (§5, plan B) |
-| **E0** | jue 1 oct · 10:00 | lista `03 Primer contacto` (si pasa de 250: 2 lotes, §7) | listas `01 Leads sitio` **y** `02 Alumnos octubre` (nadie recibe E0 y E1, y nadie que ya pagó recibe una presentación) | Hola, somos Academia Seúl: te presentamos a tus profes 🐯 | Quiénes somos, tus 3 profes y cómo empezar gratis hoy | `E0_Presentacion_Academia_y_Profes.html` | ✅ Listo. Asunto alternativo, más corto en el celular: Jay, Kiran y Abby: tus profes de coreano 🐯 (usa uno solo, sin A/B) |
-| **E2** | vie 2 oct · 10:00 | lista `01 Leads sitio` | lista `02 Alumnos octubre` | Tu nombre en coreano, en 5 minutos 🐯 | El sábado 3 es 개천절 · generador de nombres, taller grabado, Lector y Dubu, gratis | `E2_Tu_Nombre_En_Coreano_2oct.html` | ✅ Listo |
-| **E3** | lun 5 oct · 10:00 | listas `01 Leads sitio` + `03 Primer contacto` (si la `03` pasa de 190: `01` + `03 · Lote B`, y el lote A el mar 6, §7) | lista `02 Alumnos octubre` | Última semana: cierro la matrícula el domingo 11 | Los 5 cursos con su día, hora y cupos · empezamos el martes 13 | `E3_Ultima_Semana_5oct.html` | ✅ Listo (pie apto para la `03` desde el 29 sep) |
-| **E4 · A** | jue 8 oct · 10:00 | segmento `E4 · Abrió algo` (ya incluye a los de la `03` que abrieron E0 o E3) | lista `02 Alumnos octubre` | Quedan 3 días (y mañana es 한글날) | El domingo 11 cierro la matrícula · US$150 el curso completo · o 2 cuotas de US$75 | `E4_Quedan_3_Dias_8oct.html` | ✅ Listo (1 aviso a propósito: `CURSO_SUGERIDO`, §5) |
-| **E4 · B** | jue 8 oct · 10:00 | listas `01 Leads sitio` + `03 Primer contacto` (= quien no abrió nada, también los de la `03` que no abrieron E0 ni E3) | lista `02 Alumnos octubre` **y** segmento `E4 · Abrió algo` | ¿Todavía quieres aprender coreano? | (el mismo) | `E4_Quedan_3_Dias_8oct.html` (el mismo HTML) | ✅ Listo. Si E4 A + E4 B pasa de 290, la `03` sale de E4 B (§7) |
-| **E5** | dom 11 oct · 12:00 | segmento `E5 · Abrió E3 o E4` (ya incluye a los de la `03` que abrieron E3 o E4) | lista `02 Alumnos octubre` | Hoy cierra · 23:59 hora Chile | Último día de matrícula de octubre · clases desde el martes 13 | `E5_Hoy_Cierra_11oct.html` | ✅ Listo |
-| **O1** | lun 12 oct · 09:00 | lista `02 Alumnos octubre` | — | ¡Empezamos esta semana! Tu Zoom, tu grupo y tu hora | Todo para tu primera clase: link de Zoom, grupo de WhatsApp, guía y programa de tu curso | `_privado/O1_Bienvenida_12oct.html` (copia rellena) | 🔧 Plantilla: 14 marcas ⟪…⟫ (§4) |
-| **R1a** | lun 12 oct · 18:00 | lista `02a B1 martes` | — | Mañana es tu primera clase: Básico 1 (A1.1) | Martes 13 de octubre · 20:00 hora Chile · tu link de Zoom adentro | `_privado/R1a_Basico1_Martes.html` | 🔧 Plantilla: 1 marca (Zoom) |
-| **R1b** | lun 12 oct · 18:00 | lista `02b Conversacional 1` | — | Mañana es tu primera clase: Conversacional 1 (A2.1) | Martes 13 de octubre · 21:00 hora Chile · tu link de Zoom adentro | `_privado/R1b_Conversacional1.html` | 🔧 Plantilla: 1 marca (Zoom) |
-| **N1** | mar 13 oct · 13:00 (49 h después de E5) | lista `01 Leads sitio` (¿también la `03`? lo decides el lun 12, §7) | lista `02 Alumnos octubre` (con la lista final) | Tu lugar en enero 2027 🌱 | Lista de espera de enero abierta · el Lector, Dubu y el taller siguen gratis | `N1_Lista_Enero_13oct.html` | ✅ Listo. Solo se manda con el sitio en lista de espera (§5) |
-| **R1c** | mar 13 oct · 18:00 | lista `02c Básico 2` | — | Mañana es tu primera clase: Básico 2 (A1.2) | Miércoles 14 de octubre · 21:00 hora Chile · tu link de Zoom adentro | `_privado/R1c_Basico2.html` | 🔧 Plantilla: 1 marca (Zoom) |
-| **R1d** | mié 14 oct · 18:00 | lista `02d B1 jueves` | — | Mañana es tu primera clase: Básico 1 (A1.1) | Jueves 15 de octubre · 20:00 hora Chile · tu link de Zoom adentro | `_privado/R1d_Basico1_Jueves.html` | 🔧 Plantilla: 1 marca (Zoom) |
-| **R1e** | mié 14 oct · 18:00 | lista `02e TOPIK II` | — | Mañana es tu primera clase: TOPIK II (B1+) | Jueves 15 de octubre · 21:00 hora Chile · tu link de Zoom adentro | `_privado/R1e_TOPIK2.html` | 🔧 Plantilla: 1 marca (Zoom) |
-| **R1f** | dom 18 oct · 18:00 | lista `02f Niños` (apoderados) | — | Mañana es la primera clase de Coreano para Niños | Lunes 19 · 18:00 hora Chile · conecta y acompaña en esta primera clase | `_privado/R1f_Ninos.html` | 🔧 Plantilla: 1 marca (Zoom de Niños) |
+| **E1** | mié 30 sep · 10:00 | lista `01 Leads sitio` | lista `02 Alumnos octubre` | Te lo dejo en un minuto: los cursos de octubre 💙 | 5 cursos, días, horas, profes y precio en una página · matrícula hasta el domingo 11 | `E1_Programa_30sep.html` | Ya pasó. No se reenvía |
+| **E0** | jue 1 oct · 10:00 | lista `03 Primer contacto` (si pasa de 250: 2 lotes, §7) | listas `01 Leads sitio` **y** `02 Alumnos octubre` (nadie recibe E0 y E1, y nadie que ya pagó recibe una presentación) | Hola, somos Academia Seúl: te presentamos a tus profes 🐯 | Quiénes somos, tus 3 profes y cómo empezar gratis hoy | `E0_Presentacion_Academia_y_Profes.html` | Ya pasó. No se reenvía |
+| **E2** | vie 2 oct · 10:00 | lista `01 Leads sitio` | lista `02 Alumnos octubre` | Tu nombre en coreano, en 5 minutos 🐯 | El sábado 3 es 개천절 · generador de nombres, taller grabado, Lector y Dubu, gratis | `E2_Tu_Nombre_En_Coreano_2oct.html` | Ya pasó. No se reenvía |
+| **E3** | lun 5 oct · 10:00 | listas `01 Leads sitio` + `03 Primer contacto` (si la `03` pasa de 190: `01` + `03 · Lote B`, y el lote A el mar 6, §7) | lista `02 Alumnos octubre` | Última semana: cierro la matrícula el domingo 11 | Los 5 cursos con su día, hora y cupos · empezamos el martes 13 | `E3_Ultima_Semana_5oct.html` | Ya pasó. No se reenvía (decía el cierre y el inicio de antes) |
+| **E4 · A** | jue 8 oct · 10:00 | segmento `E4 · Abrió algo` (ya incluye a los de la `03` que abrieron E0 o E3) | lista `02 Alumnos octubre` | Quedan 3 días (y mañana es 한글날) | El domingo 11 cierro la matrícula · US$150 el curso completo · o 2 cuotas de US$75 | `E4_Quedan_3_Dias_8oct.html` | Ya pasó. No se reenvía (habla de 한글날 "mañana") |
+| **E4 · B** | jue 8 oct · 10:00 | listas `01 Leads sitio` + `03 Primer contacto` (= quien no abrió nada, también los de la `03` que no abrieron E0 ni E3) | lista `02 Alumnos octubre` **y** segmento `E4 · Abrió algo` | ¿Todavía quieres aprender coreano? | (el mismo) | `E4_Quedan_3_Dias_8oct.html` (el mismo HTML) | Ya pasó. No se reenvía |
+| E5 (versión vieja) | dom 11 oct · 12:00 | segmento `E5 · Abrió E3 o E4` (7 días) | lista `02 Alumnos octubre` | Hoy cierra · 23:59 hora Chile | Último día de matrícula de octubre · clases desde el martes 13 | (el HTML de entonces) | Ya pasó: si estaba programado, salió. No pasa nada: el E5 del dom 18 lo reconoce ("una semana más") |
+| **E5** | **dom 18 oct · 12:00** | segmento `E5 · Abrió E3 o E4`, **cambiado a 14 días** (§0.1; ya incluye a los de la `03` que abrieron E3, E4 o el E5 del dom 11) | lista `02 Alumnos octubre` | Ahora sí, hoy cierra · 23:59 hora Chile | Último día de matrícula de octubre · clases desde el lunes 19 | `E5_Hoy_Cierra_11oct.html` (el nombre conserva la fecha vieja; el contenido es del dom 18) | ✅ Listo, actualizado el 16 oct (§0.1) |
+| **R1f** | dom 18 oct · 18:00 (no cambia; solo si Niños ya tiene el mínimo, §0.2) | lista `02f Niños` (apoderados) | — | Mañana es la primera clase de Coreano para Niños | Lunes 19 · 18:00 hora Chile · conecta y acompaña en esta primera clase | `_privado/R1f_Ninos.html` | 🔧 Plantilla: 1 marca (Zoom de Niños). Actualizada el 16 oct: el link del grupo llega "mañana temprano" en O1 |
+| **O1** | **lun 19 oct · 09:00** | lista `02 Alumnos octubre` | — | ¡Empezamos esta semana! Tu Zoom, tu grupo y tu hora | Todo para tu primera clase: link de Zoom, grupo de WhatsApp, guía y programa de tu curso | `_privado/O1_Bienvenida_12oct.html` (copia rellena) | 🔧 Plantilla: 14 marcas ⟪…⟫ (§4). Fechas nuevas desde el 16 oct. Si una clase no abre, se saca su tarjeta (§0.2) |
+| **R1a** | **lun 19 oct · 18:00** | lista `02a B1 martes` | — | Mañana es tu primera clase: Básico 1 (A1.1) | Martes 20 de octubre · 20:00 hora Chile · tu link de Zoom adentro | `_privado/R1a_Basico1_Martes.html` | 🔧 Plantilla: 1 marca (Zoom). Fechas nuevas |
+| **R1b** | **lun 19 oct · 18:00** | lista `02b Conversacional 1` | — | Mañana es tu primera clase: Conversacional 1 (A2.1) | Martes 20 de octubre · 21:00 hora Chile · tu link de Zoom adentro | `_privado/R1b_Conversacional1.html` | 🔧 Plantilla: 1 marca (Zoom). Fechas nuevas |
+| **N1** | **mar 20 oct · 13:00** (49 h después de E5) | lista `01 Leads sitio` (¿también la `03`? lo decides el lun 19, §7) | lista `02 Alumnos octubre` (con la lista final) | Tu lugar en enero 2027 🌱 | Lista de espera de enero abierta · el Lector, Dubu y el taller siguen gratis | `N1_Lista_Enero_13oct.html` | ✅ Listo, sin cambios de texto. Solo se manda con el sitio en lista de espera (§5) |
+| **R1c** | **mar 20 oct · 18:00** | lista `02c Básico 2` | — | Mañana es tu primera clase: Básico 2 (A1.2) | Miércoles 21 de octubre · 21:00 hora Chile · tu link de Zoom adentro | `_privado/R1c_Basico2.html` | 🔧 Plantilla: 1 marca (Zoom). Fechas nuevas |
+| **R1d** | **mié 21 oct · 18:00** | lista `02d B1 jueves` | — | Mañana es tu primera clase: Básico 1 (A1.1) | Jueves 22 de octubre · 20:00 hora Chile · tu link de Zoom adentro | `_privado/R1d_Basico1_Jueves.html` | 🔧 Plantilla: 1 marca (Zoom). Fechas nuevas |
+| **R1e** | **mié 21 oct · 18:00** | lista `02e TOPIK II` | — | Mañana es tu primera clase: TOPIK II (B1+) | Jueves 22 de octubre · 21:00 hora Chile · tu link de Zoom adentro | `_privado/R1e_TOPIK2.html` | 🔧 Plantilla: 1 marca (Zoom). Fechas nuevas |
 
 Todas las rutas son relativas a `Brevo/Envios_desde_29sep/`. En O1 y en los R1 se pega **la copia rellena de `_privado/`**, nunca la plantilla (§4).
 
-**Plan B de fechas:** si tu correo largo con el programa salió **después del lunes 28 a las 10:00**, E1 pasa al **jueves 1 a las 10:00** y E2 al **sábado 3 a las 10:00**. Lo demás no cambia. E2 dice "Este sábado 3 es 개천절", sin "mañana", así que sirve para los dos días. E0 sale igual el jue 1 a las 10:00 (son listas distintas y nadie recibe los dos), pero ese día le queda menos cupo (§7).
+**Plan B de fechas** (histórico, del 29 sep; ya no aplica): si tu correo largo con el programa salió **después del lunes 28 a las 10:00**, E1 pasa al **jueves 1 a las 10:00** y E2 al **sábado 3 a las 10:00**. Lo demás no cambia. E2 dice "Este sábado 3 es 개천절", sin "mañana", así que sirve para los dos días. E0 sale igual el jue 1 a las 10:00 (son listas distintas y nadie recibe los dos), pero ese día le queda menos cupo (§7).
 
-**Nombre interno de cada campaña** (solo lo ves tú; ayuda a encontrarlas): `E0 · Presentación · 1 oct` (con lotes: `E0 A · Presentación · 1 oct`, `E0 B · Presentación · 2 oct` y `E3 A · Última semana · 6 oct`, §7) · `E1 · Programa · 30 sep` · `E2 · Tu nombre · 2 oct` · `E3 · Última semana · 5 oct` · `E4 A · Abrió algo · 8 oct` · `E4 B · No abrió · 8 oct` · `E5 · Hoy cierra · 11 oct` · `O1 · Bienvenida · 12 oct` · `R1a · Básico 1 martes` · `R1b · Conversacional 1` · `R1c · Básico 2` · `R1d · Básico 1 jueves` · `R1e · TOPIK II` · `R1f · Niños` · `N1 · Lista enero · 13 oct`.
+**Nombre interno de cada campaña** (solo lo ves tú; ayuda a encontrarlas): `E0 · Presentación · 1 oct` (con lotes: `E0 A · Presentación · 1 oct`, `E0 B · Presentación · 2 oct` y `E3 A · Última semana · 6 oct`, §7) · `E1 · Programa · 30 sep` · `E2 · Tu nombre · 2 oct` · `E3 · Última semana · 5 oct` · `E4 A · Abrió algo · 8 oct` · `E4 B · No abrió · 8 oct` · `E5 · Hoy cierra · 11 oct` · `E5 · Hoy cierra · 18 oct` · `O1 · Bienvenida · 19 oct` · `R1a · Básico 1 martes` · `R1b · Conversacional 1` · `R1c · Básico 2` · `R1d · Básico 1 jueves` · `R1e · TOPIK II` · `R1f · Niños` · `N1 · Lista enero · 20 oct`.
 
 **E4 son dos campañas normales** con el mismo HTML y distinto asunto. No uses la opción *A/B test* de Brevo, porque esa reparte a las personas al azar.
 
 ---
 
 ## 2 · Sesión única de programación en Brevo · hoy martes 29 · 21:00 (≈ 45 min)
+
+> **Histórico** (se hizo el 29 sep y el 1 oct). Lo que falta programar con la semana extra está en el §0.
 
 Deja programados E1, E2, E3, E4 A, E4 B y E5, y crea la lista `03 Primer contacto` (vacía). O1, los R1 y N1 **no** se programan hoy: necesitan los links de Zoom, los grupos y la lista final (dom 11 en la noche y lun 12). E0 se programa el **jue 1**, cuando importes la `03` (§2-b).
 
@@ -75,7 +116,7 @@ Deja programados E1, E2, E3, E4 A, E4 B y E5, y crea la lista `03 Primer contact
 4. **Al terminar:** en *Marketing › Campaigns* tienen que verse 6 campañas *Scheduled*, con estas fechas: 30 sep 10:00 · 2 oct 10:00 · 5 oct 10:00 · 8 oct 10:00 (dos) · 11 oct 12:00. El jue 1 se suma E0 (§2-b).
 5. **Si Brevo no deja programar E4 A o E5** porque su segmento todavía está vacío: déjalas en borrador (*Draft*). E4 A se termina el **jue 8 a las 09:30** (5 min). E5 se programa el **jue 8 en la tarde**, cuando E4 ya salió y el segmento tiene gente, o a más tardar el dom 11 antes de las 11:30. E4 B siempre se puede programar hoy.
 
-**Controles de 2 minutos en los días de envío** (ya están en el plan §3): lun 5, jue 8 y dom 11, antes de la hora de salida, mueve a los nuevos pagados a `02`. El jue 8 a las 09:30 y el dom 11 a las 11:30, abre la campaña programada y revisa que el número de destinatarios tenga sentido. E4 A + E4 B tienen que sumar lo mismo que (`01` + `03`) − `02`, y **no pasar de 290** (si pasa, §7.3). E5, lo mismo: 290 como máximo.
+**Controles de 2 minutos en los días de envío** (ya están en el plan §3): lun 5, jue 8, dom 11 y **dom 18**, antes de la hora de salida, mueve a los nuevos pagados a `02`. El jue 8 a las 09:30 y el **dom 18 a las 11:30** (antes, el dom 11), abre la campaña programada y revisa que el número de destinatarios tenga sentido. E4 A + E4 B tienen que sumar lo mismo que (`01` + `03`) − `02`, y **no pasar de 290** (si pasa, §7.3). E5, lo mismo: 290 como máximo.
 
 ### 2-b · Jueves 1 antes de las 09:30 · importar la `03` y programar E0 (≤ 15 min)
 
@@ -100,12 +141,12 @@ Se crean una vez y Brevo los actualiza solo: *CRM › Contacts › Segments → 
 
 **`E4 · No abrió nada`**: **ya no hace falta crearlo.** E4 B va a `01 Leads sitio` y excluye `02` y `E4 · Abrió algo`. Son las mismas personas, con un paso menos, y nadie queda fuera ni recibe los dos.
 
-**`E5 · Abrió E3 o E4`**: quién abrió algún correo en los últimos 7 días. El dom 11 a las 12:00 eso cubre desde el dom 4 a las 12:00, o sea E3 (lun 5) y E4 A o B (jue 8). Si en esa semana alguien abre tarde E1 o E2, también entra, y está bien: es alguien interesado.
-1. Condición: *Marketing › Email › Email opened* → *Email campaigns* · *At least* **1** *time* · *In the last* **7 days**.
+**`E5 · Abrió E3 o E4`**: quién abrió algún correo en los últimos **14 días** (eran 7 para el dom 11; con la semana extra se cambian a 14, §0.1). El dom 18 a las 12:00 eso cubre desde el dom 4 a las 12:00, o sea E3 (lun 5), E4 A o B (jue 8) y el E5 del dom 11, si salió. Si en esas dos semanas alguien abre tarde E1 o E2, también entra, y está bien: es alguien interesado.
+1. Condición: *Marketing › Email › Email opened* → *Email campaigns* · *At least* **1** *time* · *In the last* **14 days** (si el segmento ya existe, edítalo: el nombre no cambia).
 2. *Save as segment* → nombre exacto `E5 · Abrió E3 o E4` → *Create*.
 
-**Si tu Brevo no ofrece *In the last … days*:** usa *Fixed period*, del 28 de septiembre al 8 de octubre para E4 y del 4 al 11 de octubre para E5.
-Otra forma, más precisa pero que depende de los nombres: en la misma condición, *Choose which campaigns → Email name → Is exactly* con el nombre interno de cada campaña (`E1 · Programa · 30 sep`, `E2 · Tu nombre · 2 oct`, `E3 · Última semana · 5 oct`), unidas con **+ Or**. Para E5: `E3 · Última semana · 5 oct`, `E4 A · Abrió algo · 8 oct` y `E4 B · No abrió · 8 oct`.
+**Si tu Brevo no ofrece *In the last … days*:** usa *Fixed period*, del 28 de septiembre al 8 de octubre para E4 y del 4 al 18 de octubre para el E5 del dom 18.
+Otra forma, más precisa pero que depende de los nombres: en la misma condición, *Choose which campaigns → Email name → Is exactly* con el nombre interno de cada campaña (`E1 · Programa · 30 sep`, `E2 · Tu nombre · 2 oct`, `E3 · Última semana · 5 oct`), unidas con **+ Or**. Para E5: `E3 · Última semana · 5 oct`, `E4 A · Abrió algo · 8 oct`, `E4 B · No abrió · 8 oct` y `E5 · Hoy cierra · 11 oct`.
 
 ---
 
@@ -122,17 +163,17 @@ El repo es **público**. Los links de Zoom (llevan la clave adentro) y los de lo
 | ⟪PEGAR LINK ZOOM TOPIK II⟫ | O1 · R1e | ídem | mar 6 |
 | ⟪PEGAR LINK ZOOM NIÑOS⟫ | **solo R1f**. Por privacidad de los niños no va en O1, que también les llega a los adultos | ídem | mar 6 |
 | ⟪PEGAR LINK GRUPO BÁSICO 1 MARTES⟫ · ⟪…CONVERSACIONAL 1⟫ · ⟪…BÁSICO 2⟫ · ⟪…BÁSICO 1 JUEVES⟫ · ⟪…TOPIK II⟫ · ⟪…NIÑOS⟫ | O1 (1 vez cada una) | Grupo → *Invitar al grupo mediante enlace* → *Copiar enlace* (`https://chat.whatsapp.com/…`) | **mié 7** (creas los 6 grupos) |
-| ⟪PEGAR LINK GUÍA DEL ALUMNO⟫ · ⟪PEGAR LINK GUÍA PARA FAMILIAS⟫ | O1 | Google Drive → *Compartir* → "Cualquier persona con el enlace" (lector). Tiene que ser la **versión final**, sin "[POR CONFIRMAR]": Claude las regenera cuando decidas la regla del certificado (vie 9) y la cuota 2 | **sáb 10 o dom 11** |
-| ⟪ESCRIBIR FECHA CUOTA 2⟫ | O1 | Texto, no link. Completa la frase "La segunda se paga ___." Propuesta: `la semana del 9 de noviembre`. Si aún no lo decides: `en noviembre (te confirmo la fecha exacta)` | decisión **antes del dom 11** |
+| ⟪PEGAR LINK GUÍA DEL ALUMNO⟫ · ⟪PEGAR LINK GUÍA PARA FAMILIAS⟫ | O1 | Google Drive → *Compartir* → "Cualquier persona con el enlace" (lector). Tiene que ser la **versión final**, sin "[POR CONFIRMAR]": Claude las regenera cuando decidas la regla del certificado y la cuota 2 | **sáb 17 o dom 18** (antes, sáb 10 o dom 11) |
+| ⟪ESCRIBIR FECHA CUOTA 2⟫ | O1 | Texto, no link. Completa la frase "La segunda se paga ___." Propuesta: `antes de tu clase 5: la semana del 16 de noviembre (en Niños, la del 9)` [POR CONFIRMAR] (con la semana extra; antes era la del 9 para todos; O1 también les llega a los apoderados de Niños, que no se corrieron). Si aún no lo decides: `en noviembre (te confirmo la fecha exacta)` | decisión **antes del dom 18** |
 
 En total son 15 marcas y todas se rellenan desde un solo archivo. O1 lleva 14 (todas menos el Zoom de Niños). Cada R1 lleva 1, que aparece 3 veces: en el texto, en su link y en el botón.
 
-**Cómo rellenar (dom 11 en la noche, ~10 min; si quieres, deja los Zoom y los grupos pegados desde el mié 7):**
+**Cómo rellenar (dom 18 en la noche, después de decidir qué clases abren, ~10 min; si quieres, deja los Zoom y los grupos pegados antes. R1f se rellena antes, el dom 18 a las 17:30, §0.2):**
 1. En la carpeta del repo: `node Brevo/Envios_desde_29sep/rellenar_links.js`. La primera vez crea `_privado/links_privados.txt` y se detiene.
 2. Abre ese archivo con el Bloc de notas y pega cada link después de su "=" (uno por línea). Guarda.
 3. Vuelve a correr el mismo comando. Deja las 7 copias rellenas en `_privado/` y te dice `LISTO` o `FALTA` con la marca vacía. Con `REVISA` te avisa si un Zoom no es de `zoom.us`, si un grupo no es de `chat.whatsapp.com` o si pegaste el mismo link dos veces.
 4. Pídele a Claude que pase cada copia por `preview.js`. Tiene que decir **LISTO PARA PEGAR EN BREVO**. Hoy, con links de prueba, las 7 copias pasan.
-5. Crea las listas `02a B1 martes`, `02b Conversacional 1`, `02c Básico 2`, `02d B1 jueves`, `02e TOPIK II` y `02f Niños` (en Niños, el correo del apoderado) a partir de las listas que arma Claude con el export de Formspree y el registro de pagos. Después programa O1 y los 6 R1.
+5. Crea las listas `02a B1 martes`, `02b Conversacional 1`, `02c Básico 2`, `02d B1 jueves`, `02e TOPIK II` y `02f Niños` (en Niños, el correo del apoderado) a partir de las listas que arma Claude con el export de Formspree y el registro de pagos. Después programa O1 y los R1 de las clases que abren, con los días del §0.2 (R1f ya salió el dom 18 a las 18:00, o esa misma noche).
 
 **Si prefieres hacerlo a mano:** copia la plantilla dentro de `_privado/`, ábrela con el Bloc de notas y usa Ctrl+H con cada marca, incluidos los signos ⟪ ⟫. Al final busca "⟪": tiene que dar 0 resultados. Guarda en UTF-8 y pide la validación igual.
 
@@ -143,6 +184,8 @@ En total son 15 marcas y todas se rellenan desde un solo archivo. O1 lleva 14 (t
 ---
 
 ## 5 · Correo por correo: qué ajustar y qué mirar en la prueba
+
+> E0, E1, E2, E3 y E4 ya pasaron: sus párrafos quedan como referencia. Lo vigente empieza en E5 (dom 18).
 
 En todos: saludo "¡Hola, [nombre]!" y, en un contacto sin nombre, "¡Hola, chingu!" · nada se sale por la derecha en el celular · precio exacto · solo azul, navy y dorado · WhatsApp → chat con +56 9 4211 5562 · al pie, "Darme de baja" y "Ver en el navegador" (en la prueba a veces son de ejemplo; en el envío real funcionan). En el plan gratis, **los links del correo de prueba vencen unos 30 minutos después de que llega**: tócalos pronto.
 
@@ -169,27 +212,30 @@ En todos: saludo "¡Hola, [nombre]!" y, en un contacto sin nombre, "¡Hola, chin
 - Prueba: *Preview* con un contacto de Básico 2 (debe decir "Básico 2 (A1.2)") y con uno sin dato ("Básico 1 (A1.1)"). Manda una prueba de cada campaña: cambia el asunto y el cuerpo es el mismo.
 - A los de la `03` la tarjeta les dice "Básico 1 (A1.1)", porque no tienen `CURSO_SUGERIDO`. Justo abajo viene "¿No es el tuyo?" con los 5 cursos y el test, así que funciona igual.
 
-**E5 · Hoy cierra** (dom 11): son 4 líneas: "Si ya te inscribiste, ignora este correo", botón con el precio, WhatsApp y la lista de enero 2027. Se lee en una sola pantalla.
-- Ese día ten el WhatsApp a mano: las historias de las 16:00 también mandan ahí.
+**E5 · Hoy cierra** (dom 18; la versión del dom 11 ya pasó): son 4 líneas: "Dejé la matrícula abierta una semana más, y hoy es el último día… mañana, lunes 19, empiezan las clases", "Si ya te inscribiste, ignora este correo", botón con el precio, WhatsApp y la lista de enero 2027. Se lee en una sola pantalla.
+- Prueba: arriba dice "Domingo 18 de octubre · hasta las 23:59, hora Chile" y el asunto es `Ahora sí, hoy cierra · 23:59 hora Chile`.
+- Ese día ten el WhatsApp a mano: las historias de cierre del dom 18 también mandan ahí.
 
-**O1 · Bienvenida** (lun 12): una tarjeta por clase (Zoom, grupo y programa en PDF), qué preparar en 5 pasos, las horas por país (con el cambio de hora de España el 25 oct y de EE. UU. el 1 nov), las guías, la cuota 2, el Lector, Dubu, las 3 normas y el contacto. No dice la regla del certificado: remite a la guía.
-- Prueba: toca **los 11 links de clase** (5 Zoom y 6 grupos). Cada uno tiene que abrir **su** clase o **su** grupo; es el error más caro. La tarjeta de Niños no trae Zoom, a propósito. Las 2 guías abren **sin iniciar sesión** (pruébalo en una ventana de incógnito). La línea de la cuota 2 dice la fecha que decidiste.
+**O1 · Bienvenida** (lun 19): una tarjeta por clase (Zoom, grupo y programa en PDF), qué preparar en 5 pasos, las horas por país (con el cambio de hora de España el 25 oct y de EE. UU. el 1 nov, que sigue siendo verdad: las primeras clases son antes), las guías, la cuota 2, el Lector, Dubu, las 3 normas y el contacto. No dice la regla del certificado: remite a la guía.
+- Fechas desde el 16 oct: Básico 1 martes y Conversacional 1, "martes 20 de octubre" y "hasta el martes 8 de diciembre (feriado en Chile: por confirmar)" · Básico 2, "miércoles 21 de octubre" y "hasta el miércoles 9 de diciembre" · Básico 1 jueves y TOPIK II, "jueves 22 de octubre" y "hasta el jueves 10 de diciembre" · Niños sigue igual (lun 19 → lun 7 dic), y arriba les dice a los apoderados que la primera clase es hoy a las 18:00.
+- Prueba: toca **los 11 links de clase** (5 Zoom y 6 grupos). Cada uno tiene que abrir **su** clase o **su** grupo; es el error más caro. La tarjeta de Niños no trae Zoom, a propósito. Las 2 guías abren **sin iniciar sesión** (pruébalo en una ventana de incógnito). La línea de la cuota 2 dice la fecha que decidiste. Si una clase no abrió, su tarjeta ya no está (§0.2).
 
 **R1a … R1f · Recordatorio** (18:00 del día anterior a cada 1.ª clase): cada archivo ya trae su curso, día, hora, profe, las horas por país y qué preparar.
 
 | R1 | Curso | 1.ª clase | Hora Chile | Profe | Llegada | Qué pide para la clase 1 |
 |---|---|---|---|---|---|---|
-| a | Básico 1 (A1.1) · martes | mar 13 oct | 20:00 | Kiran (기란) | 5 min antes | Calentamiento opcional con el Lector o Dubu |
-| b | Conversacional 1 (A2.1) | mar 13 oct | 21:00 (Corea: mié 09:00) | Abby | 21:00 en punto, sala 20:58 | Pensar 3 cosas que quiere poder decir al terminar |
-| c | Básico 2 (A1.2) | mié 14 oct | 21:00 | Jay (김재희) | 5 min antes | 5 frases para presentarse |
-| d | Básico 1 (A1.1) · jueves | jue 15 oct | 20:00 | Kiran (기란) | 5 min antes | Calentamiento opcional con el Lector o Dubu |
-| e | TOPIK II (B1+) | jue 15 oct | 21:00 | Jay (김재희) | 21:00 en punto, sala 20:58 | Bajar de topik.go.kr el 제64회 TOPIK II (읽기, 듣기·쓰기 y MP3) **sin resolverlo** e imprimir la hoja de respuestas. Si decides no pedirlo o el MP3 no se puede bajar, pídele a Claude que saque esa frase |
+| a | Básico 1 (A1.1) · martes | mar 20 oct | 20:00 | Kiran (기란) | 5 min antes | Calentamiento opcional con el Lector o Dubu |
+| b | Conversacional 1 (A2.1) | mar 20 oct | 21:00 (Corea: mié 21, 09:00) | Abby | 21:00 en punto, sala 20:58 | Pensar 3 cosas que quiere poder decir al terminar |
+| c | Básico 2 (A1.2) | mié 21 oct | 21:00 | Jay (김재희) | 5 min antes | 5 frases para presentarse |
+| d | Básico 1 (A1.1) · jueves | jue 22 oct | 20:00 | Kiran (기란) | 5 min antes | Calentamiento opcional con el Lector o Dubu |
+| e | TOPIK II (B1+) | jue 22 oct | 21:00 | Jay (김재희) | 21:00 en punto, sala 20:58 | Bajar de topik.go.kr el 제64회 TOPIK II (읽기, 듣기·쓰기 y MP3) **sin resolverlo** e imprimir la hoja de respuestas. Si decides no pedirlo o el MP3 no se puede bajar, pídele a Claude que saque esa frase |
 | f | Coreano para Niños (8–15) | lun 19 oct | 18:00 (Corea: mar 06:00) | Jay y Abby | 10 min antes, con un adulto | Acompañar la clase 1 · nombre de pila · privacidad |
 
+- Desde el 16 oct, R1a a R1e remiten al "correo del lunes 19" (O1) para el link del grupo. R1f sale antes que O1, así que dice que ese link llega "mañana temprano".
 - Prueba de cada R1: el botón y el link de texto abren el Zoom **de esa clase**. El mismo recordatorio va por el grupo de cada curso (`Lanzamiento_Octubre_2026/alumnos/Mensajes_Alumnos.md`, c1–c5 y (i) para Niños).
 
-**N1 · Lista de enero** (mar 13, se programa el lun 12): la cohorte de octubre arrancó y la próxima es en enero de 2027, con el estreno de Conversacional 2 (A2.2). Trae el botón a la lista de espera, los links por curso, "responde 'enero' y te anoto yo" y los 4 recursos gratis. No dice día, hora, profe ni precio de Conversacional 2.
-- **Antes de programarlo:** el sitio tiene que estar en lista de espera (`COHORTE_ABIERTA = false` en `lib/nivel1.ts`, con el deploy verificado el lun 12). Con la cohorte todavía abierta, los links por curso muestran "ya tiene matrícula abierta" en `/notificarme`. Si el cambio no se hizo, N1 no sale.
+**N1 · Lista de enero** (mar 20, se programa el lun 19): la cohorte de octubre arrancó y la próxima es en enero de 2027, con el estreno de Conversacional 2 (A2.2). Trae el botón a la lista de espera, los links por curso, "responde 'enero' y te anoto yo" y los 4 recursos gratis. No dice día, hora, profe ni precio de Conversacional 2.
+- **Antes de programarlo:** el sitio tiene que estar en lista de espera (`COHORTE_ABIERTA = false` en `lib/nivel1.ts`, con el deploy verificado el lun 19). Con la cohorte todavía abierta, los links por curso muestran "ya tiene matrícula abierta" en `/notificarme`. Si el cambio no se hizo, N1 no sale.
 - Respuestas "enero": agrégalas a una lista nueva `05 Enero 2027` (el número 03 es `03 Primer contacto`).
 - Párrafo opcional, solo si aceptas inscripciones tardías esa semana: pégalo en su propia línea justo después del párrafo que termina en `el paso que sigue a Conversacional 1.</p>` y vuelve a validarlo:
   `<p style="margin:0 0 14px 0;">¿Se te pasó la fecha por unos días? Escríbeme hoy al WhatsApp y vemos si todavía te puedo sumar a un grupo de esta semana.</p>`
@@ -198,7 +244,7 @@ En todos: saludo "¡Hola, [nombre]!" y, en un contacto sin nombre, "¡Hola, chin
 
 ---
 
-## 6 · Validación (29 sep, `preview.js`)
+## 6 · Validación (29 sep y 16 oct, `preview.js`)
 
 | Correo | Resultado | Links |
 |---|---|---|
@@ -211,6 +257,19 @@ En todos: saludo "¡Hola, [nombre]!" y, en un contacto sin nombre, "¡Hola, chin
 | O1 y R1a … R1f rellenados con links de prueba | LISTO · 0 fallas (O1: 1 aviso que viene del link de prueba) | en 200 |
 
 E3, E4, E5 y N1 se volvieron a validar el 29 sep después de cambiarles el pie para la `03` (§7.1): siguen LISTO, con los mismos resultados de la tabla.
+
+**Revalidación del 16 oct (fechas de la semana extra), con `preview.js`:**
+
+| Correo | Resultado | Links |
+|---|---|---|
+| E5 del dom 18 (con el asunto `Ahora sí, hoy cierra · 23:59 hora Chile`) | LISTO · 0 fallas · 0 avisos · 11,6 KB · nada se sale en el celular | los 8, en 200 |
+| N1 (sin cambios de texto) | LISTO · 0 fallas · 0 avisos | todos en 200 |
+| O1 (plantilla) | NO LISTO **a propósito**: 13 fallas, todas por las marcas ⟪…⟫ de links | los links reales, en 200 |
+| R1a … R1f (plantillas) | NO LISTO **a propósito**: 2 fallas cada uno, las marcas de Zoom | los links reales, en 200 |
+| O1 y R1a … R1f rellenados con links de prueba (copias fuera del repo, no en `_privado/`) | LISTO · 0 fallas · 0 avisos · O1 63 KB · nada se sale en el celular | en 200 |
+
+Desde el 16 oct, `preview.js` también **avisa** si un correo trae una fecha del calendario original (dom 11, semana del 12, mar 13 / mié 14 / jue 15 de octubre, semana del 30 de noviembre). E5, O1, los R1 y N1 dan 0 avisos con esa regla; E0–E4, que ya salieron, sí la disparan (es lo esperado: no se reenvían).
+
 También se validaron sin nombre ("¡Hola, chingu!") y en el celular (390 px): nada se sale de la pantalla y no hay nada rojo. Peso: E1 35 KB y O1 26 KB; los demás, entre 6 y 13 KB (Gmail recorta cerca de 102 KB).
 Capturas (700 px y 390 px) y hoja de contacto con la vista de celular de todos: carpeta temporal de la sesión, `scratchpad/brevo_v2/previews/` (`_hoja.png`). La prueba que vale es el *Send a test* en tu celular.
 
@@ -272,10 +331,10 @@ Criterio: a un contacto frío que no abre no se le insiste. **Quien no abre nada
 | **E3** (lun 5 · 10:00) | *Send to*: `01 Leads sitio` + `03 Primer contacto` (con lotes, §7.2). *Don't send to* sigue siendo `02`. Brevo no manda dos veces a quien esté en las dos listas | Segundo toque para quien no abrió E0 (96 h después) |
 | **E4 A** (jue 8) | **Nada.** El segmento `E4 · Abrió algo` ya incluye a los de la `03` que abrieron E0 o E3 | Sigue quien abrió |
 | **E4 B** (jue 8) | *Send to*: `01 Leads sitio` + `03 Primer contacto`. *Don't send to*: `02` + `E4 · Abrió algo`. Le llega a quien no abrió nada, también de la `03` | Último toque para quien no abrió; con el asunto "¿Todavía quieres aprender coreano?" |
-| **E5** (dom 11 · 12:00) | **Nada.** El segmento `E5 · Abrió E3 o E4` ya incluye a los de la `03` que abrieron E3 o E4 | Solo sigue quien abrió |
-| **N1** (mar 13) | Por ahora va solo a `01`. El lun 12 decides si también va a los de la `03` que abrieron algo (su pie ya sirve para ellos) | — |
+| **E5** (dom 11 · 12:00, ya pasó; y **dom 18 · 12:00**) | **Nada.** El segmento `E5 · Abrió E3 o E4` (14 días desde el dom 18, §0.1) ya incluye a los de la `03` que abrieron E3, E4 o el E5 del dom 11 | Solo sigue quien abrió |
+| **N1** (**mar 20**) | Por ahora va solo a `01`. El **lun 19** decides si también va a los de la `03` que abrieron algo (su pie ya sirve para ellos) | — |
 
-- **El control del jue 8 a las 09:30 cambia:** E4 A + E4 B ahora suman (`01` + `03`) − `02`. Si pasa de **290**, en E4 B agrega `03 Primer contacto` a *Don't send to*: los de la `03` que no abrieron nada se quedan con E0 y E3, y los que abrieron siguen en E4 A. Si aun así pasa (solo con lotes), en E4 A agrega `03 · Lote B` a *Don't send to*. E4 no se puede correr al viernes: dice "mañana, viernes 9 · 한글날". El dom 11 a las 11:30, mira lo mismo en E5 (si pasa de 290, `03 · Lote B` a su *Don't send to*).
+- **El control del jue 8 a las 09:30 cambia:** E4 A + E4 B ahora suman (`01` + `03`) − `02`. Si pasa de **290**, en E4 B agrega `03 Primer contacto` a *Don't send to*: los de la `03` que no abrieron nada se quedan con E0 y E3, y los que abrieron siguen en E4 A. Si aun así pasa (solo con lotes), en E4 A agrega `03 · Lote B` a *Don't send to*. E4 no se puede correr al viernes: dice "mañana, viernes 9 · 한글날". El dom 18 a las 11:30 (antes, el dom 11), mira lo mismo en E5 (si pasa de 290, `03 · Lote B` a su *Don't send to*).
 - A los de la `03` la tarjeta de E4 les sugiere Básico 1 (A1.1), porque no tienen `CURSO_SUGERIDO` (§5).
 
 ### 7.4 · Respuestas, bajas y semáforo (desde el jue 1)

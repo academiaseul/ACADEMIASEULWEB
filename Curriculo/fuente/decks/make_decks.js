@@ -177,6 +177,8 @@ function tituloRuns(s) {
 // Columna de "lo incorrecto": gris y tachada si su cabecera lo pide, o si la lámina lo pide y la cabecera es la de errores
 const TACHAR = { color: COL.gris, strike: "sngStrike" };
 const esTachada = (cab, s) => /tachad|en gris/i.test(cab || "") || (/lo que o[ií]|incorrect|as[ií] no|errores?\b/i.test(cab || "") && /tachad|gris/i.test([s.subtitulo, ...(s.bullets || []), s.ejercicio && s.ejercicio.consigna].join(" ")));
+// fila final incompleta (p. ej. 5 tarjetas en 3 + 2): se centra en vez de dejar un hueco en la esquina
+const centrarUltima = (i, n, cols, paso) => { const filas = Math.ceil(n / cols), enUltima = n - (filas - 1) * cols; return Math.floor(i / cols) === filas - 1 && enUltima < cols ? ((cols - enUltima) * paso) / 2 : 0; };
 const sh = () => ({ type: "outer", blur: 6, offset: 2, angle: 90, color: "14142B", opacity: 0.12 });
 let romN = 0, revN = 0;
 
@@ -263,7 +265,7 @@ const LAY = {
     const yEs = (it) => { const q = qDe(it); if (q) return q + 0.14; let a = ch * 0.64; if (tieneRom && it.rom) a += ch * 0.16; return a; };
     const tallaEs = Math.max(12, Math.min(...g.filter((it) => it.es).map((it) => tallaTexto(it.es, cw - 0.14, ch - yEs(it) - 0.06, Math.max(12, Math.min(20, Math.round(ch * 7.5))), 10)), 20));
     for (let i = 0; i < n; i++) {
-      const x = MX + (i % cols) * (cw + gap), y = y0 + Math.floor(i / cols) * (ch + gap), it = g[i];
+      const x = MX + (i % cols) * (cw + gap) + centrarUltima(i, n, cols, cw + gap), y = y0 + Math.floor(i / cols) * (ch + gap), it = g[i];
       slide.addShape(pres.ShapeType.roundRect, { x, y, w: cw, h: ch, fill: { color: COL.tinte }, line: { color: COL.borde, width: 1 }, rectRadius: 0.15, objectName: "tile_" + i });
       // con imagen del glifo: la imagen arriba a la izquierda, el hangul a su lado; romanización y español debajo, a todo el ancho
       const q = qDe(it); if (it._img) await ponerImg(slide, it._img, x + 0.08, y + 0.06, q, q, "glifo_img_" + i);
@@ -290,7 +292,7 @@ const LAY = {
     const conDib = await Promise.all(p.map(async (it) => !!(it._img || (await dibujo(it.ko)))));
     const tallaP = Math.min(...p.map((it, i) => koFit(it.ko, cw - 0.2, ch * (conDib[i] ? 0.2 : 0.34), 54, 16).size));
     for (let i = 0; i < n; i++) {
-      const x = MX + (i % cols) * (cw + gap), y = y0 + Math.floor(i / cols) * (ch + gap), it = p[i];
+      const x = MX + (i % cols) * (cw + gap) + centrarUltima(i, n, cols, cw + gap), y = y0 + Math.floor(i / cols) * (ch + gap), it = p[i];
       slide.addShape(pres.ShapeType.roundRect, { x, y, w: cw, h: ch, fill: { color: COL.blanco }, line: { color: COL.borde, width: 1 }, rectRadius: 0.15, shadow: sh(), objectName: "card_" + i });
       const img = it._img || (await dibujo(it.ko));
       const imgH = img ? Math.min(ch * 0.48, cw * 0.62) : 0;
@@ -423,7 +425,7 @@ async function ejercicioTarjetas(pres, slide, s, it, ini, y0, W) {
   const tallaPreg = Math.max(13, Math.min(...it.map((q) => tallaTexto(String(q.pregunta), cw - 0.2, pH, 22, 12))));
   const tallaResp = Math.max(12, Math.min(...it.map((q) => tallaTexto(String(q.respuesta), cw - 0.3, aH - 0.08, 20, 11))));
   for (const [i, q] of it.entries()) {
-    const x = MX + (i % cols) * (cw + gap), y = y0 + Math.floor(i / cols) * (ch + gap);
+    const x = MX + (i % cols) * (cw + gap) + centrarUltima(i, n, cols, cw + gap), y = y0 + Math.floor(i / cols) * (ch + gap);
     slide.addShape(pres.ShapeType.roundRect, { x, y, w: cw, h: ch, fill: { color: COL.blanco }, line: { color: COL.borde, width: 1 }, rectRadius: 0.15, shadow: sh(), objectName: "card_" + i });
     await ponerImg(slide, q._img, x + 0.12, y + 0.1, cw - 0.24, iH, "item_img_" + i);
     slide.addShape(pres.ShapeType.ellipse, { x: x + 0.1, y: y + 0.1, w: 0.46, h: 0.46, fill: { color: COL.navy }, line: { color: COL.blanco, width: 1.5 }, objectName: "num_" + i });

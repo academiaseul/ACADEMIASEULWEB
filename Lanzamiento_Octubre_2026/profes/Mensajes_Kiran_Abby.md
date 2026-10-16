@@ -4,34 +4,89 @@ Mensajes de WhatsApp (normal) listos para copiar y pegar. Todo en **hora Chile**
 Cada envío te toma unos 5 minutos: copia el bloque, cambia los `[PLACEHOLDER]` si los hay y manda.
 Los mensajes de Abby van en coreano; debajo de cada uno está la traducción al español para ti.
 
+> **Calendario corrido una semana (decisión de Jay, lun 12 oct 2026).** La matrícula cierra el **dom 18 oct** y las clases empiezan la **semana del 19**: Básico 1 mar 20 / jue 22 → mar 8 / jue 10 dic · Conversacional 1 mar 20 Chile = **mié 21, 09:00 KST** → mar 8 dic Chile = mié 9 dic KST · **Niños no cambia** (lun 19 oct → lun 7 dic; mar 20 oct → mar 8 dic en Corea). El **mar 8 dic es feriado en Chile**: tú confirmas si se mantiene la clase 8 de Básico 1 martes y de Conversacional 1. Los kits ya van en la **versión 1.2** con las fechas nuevas. Los mensajes 1, 2, 3.1, 3.2 y 3.2-b son **históricos** (ya se enviaron con el calendario original); lo vigente es la sección 0 y, desde ahí, 3.3–3.5.
+
 ---
 
-## Resumen de envíos
+## Resumen de envíos (vigente desde el vie 16 oct)
 
 | Cuándo (hora Chile) | A quién | Mensaje | Adjuntos |
 |---|---|---|---|
-| **hoy vie 25 sep**, antes de las 20:00 | Kiran | 1.1 + 2.1 (guion del clip) | `Kit_Kiran_Basico1_ES.pdf` + PDFs de Básico 1 y Programa Completo ES |
-| **hoy vie 25 sep**, 20:00–22:00 (= sáb 26, 08:00–10:00 en Corea) | Abby | 1.2 + 2.2 (guion del clip) | `Kit_Abby_Conversacional_Ninos_KO.pdf` + PDFs de Conversacional 1, Niños y Programa Completo EN |
+| **vie 16 oct**, antes de las 20:00 | Kiran | 0.1 aviso del cambio + kit 1.2 | `Kit_Kiran_Basico1_ES.pdf` (v1.2) |
+| **vie 16 oct**, 20:00 (= sáb 17, 08:00 KST) | Abby | 0.2 aviso del cambio + kit 1.2 | `Kit_Abby_Conversacional_Ninos_KO.pdf` (v1.2) |
+| antes del lun 19 oct (si aún no salió) | Kiran y Abby | 3.2-b links de Zoom + clave de anfitrión, con las reuniones ya movidas a las fechas nuevas | — (van en el texto) |
+| **dom 18 oct**, en la noche | — | Decides clase por clase cuáles abren (mínimo 3). Si una sección no abre, ajusta 3.3. | — |
+| lun 19 oct, 10:00 | Kiran | 3.3 listas y grupos | listas de alumnos |
+| lun 19 oct, 10:00 (= lun 19, 22:00 KST) | Abby | 3.3 listas y grupos | listas de alumnos |
+| lun 19 oct, justo después de 3.3 (o junto) | Abby | 3.4 primera clase Niños (mar 20, 06:00 KST = lun 19, 18:00 Chile) | — |
+| mar 20 oct, 14:00 | Kiran | 3.4 primera clase (martes) | — |
+| mar 20 oct, 19:00 (= mié 21, 07:00 KST) | Abby | 3.4 primera clase Conversacional 1 | — |
+| jue 22 oct, 14:00 | Kiran | 3.4 primera clase (jueves) | — |
+| vie 23 oct, 12:00 | Kiran | 3.5 check-in semana 1 | — |
+| vie 23 oct, 20:00 (= sáb 24, 08:00 KST) | Abby | 3.5 check-in semana 1 | — |
+
+<details><summary>Envíos ya hechos con el calendario original (histórico)</summary>
+
+| Cuándo (hora Chile) | A quién | Mensaje | Adjuntos |
+|---|---|---|---|
+| vie 25 sep, antes de las 20:00 | Kiran | 1.1 + 2.1 (guion del clip) | `Kit_Kiran_Basico1_ES.pdf` (v1.1) + PDFs de Básico 1 y Programa Completo ES |
+| vie 25 sep, 20:00–22:00 (= sáb 26, 08:00–10:00 en Corea) | Abby | 1.2 + 2.2 (guion del clip) | `Kit_Abby_Conversacional_Ninos_KO.pdf` (v1.1) + PDFs de Conversacional 1, Niños y Programa Completo EN |
 | mar 29 sep, 12:00 | Kiran | 3.1 clip mañana | — |
 | mar 29 sep, 20:00 (= mié 30, 08:00 KST) | Abby | 3.1 clip mañana | — |
 | lun 5 oct, 12:00 | Kiran | 3.2 Zoom de la academia: link y clave antes del mié 7 | — |
 | lun 5 oct, 20:00 (= mar 6, 08:00 KST) | Abby | 3.2 Zoom de la academia: link y clave antes del mié 7 | — |
 | mar 6 oct, 12:00 (tope mié 7) | Kiran | 3.2-b sus 2 links de Zoom + clave de anfitrión | — (van en el texto) |
 | mar 6 oct, 20:00 (= mié 7, 08:00 KST; tope mié 7 Chile) | Abby | 3.2-b sus 2 links de Zoom + clave de anfitrión | — (van en el texto) |
-| lun 12 oct, 10:00 | Kiran | 3.3 listas y grupos | listas de alumnos |
-| lun 12 oct, 10:00 (= lun 12, 22:00 KST) | Abby | 3.3 listas y grupos | listas de alumnos |
-| mar 13 oct, 14:00 | Kiran | 3.4 primera clase (martes) | — |
-| mar 13 oct, 19:00 (= mié 14, 07:00 KST) | Abby | 3.4 primera clase Conversacional 1 | — |
-| jue 15 oct, 14:00 | Kiran | 3.4 primera clase (jueves) | — |
-| vie 16 oct, 12:00 | Kiran | 3.5 check-in semana 1 | — |
-| vie 16 oct, 20:00 (= sáb 17, 08:00 KST) | Abby | 3.5 check-in semana 1 | — |
-| lun 19 oct, 10:00 (= lun 19, 22:00 KST) | Abby | 3.4 primera clase Niños (mar 20, 06:00 KST) | — |
 
-**Adjuntos:** los kits están en `Lanzamiento_Octubre_2026/profes/` en .pdf (exportados el vie 25) y .docx. Los programas van como link dentro del mensaje (ya están publicados en el sitio); si prefieres adjuntarlos, están en `public/programas/`.
+</details>
+
+**Adjuntos:** los kits están en `Lanzamiento_Octubre_2026/profes/` en .docx (versión 1.2, regenerados el vie 16 oct) y .pdf (hay que volver a exportarlos desde Word: el PDF del vie 25 tiene las fechas viejas). Los programas van como link dentro del mensaje (ya están publicados en el sitio); si prefieres adjuntarlos, están en `public/programas/`.
 
 ---
 
-## 1. HOY · viernes 25 de septiembre
+## 0. Aviso del cambio de calendario · vie 16 oct
+
+Si ya les avisaste del cambio por otro lado, manda solo el kit 1.2 con la primera línea y la última.
+
+### 0.1 Kiran (español)
+
+Adjunta: `Kit_Kiran_Basico1_ES.pdf` (versión 1.2)
+
+```text
+¡Hola, Kiran! Te cuento un cambio de calendario: corrimos la cohorte una semana para dar más tiempo de matrícula.
+
+• La matrícula cierra el *domingo 18 de octubre* a las 23:59. Esa noche te confirmo qué secciones abren.
+• Tu primera clase es el *martes 20* (sección martes) y el *jueves 22* (sección jueves), a las 20:00 hora Chile.
+• Las últimas son el *martes 8 de diciembre* (es feriado en Chile: te confirmo si se mantiene o la movemos) y el *jueves 10 de diciembre*.
+• El *lunes 19* te mando las listas y te dejo como admin de los dos grupos de WhatsApp.
+• Antes del lunes 19 te mando (o te confirmo, si ya los tienes) los links de Zoom con las fechas nuevas.
+
+Te adjunto el kit actualizado (versión 1.2) con todas las fechas nuevas. El programa y las clases no cambian. ¡Gracias por la paciencia, chingu! 화이팅
+Jay
+```
+
+### 0.2 Abby (coreano)
+
+Adjunta: `Kit_Abby_Conversacional_Ninos_KO.pdf` (versión 1.2)
+
+```text
+선생님, 안녕하세요! 일정 변경이 있어서 연락드려요. 등록 기간을 한 주 연장하기로 해서 회화 1이 한 주 늦게 시작해요.
+
+• 등록 마감: 칠레 10월 18일(일) 23:59 (한국 10월 19일(월) 오전 11시 59분). 마감 후에 수업별로 개설 여부를 확정해서 알려 드릴게요.
+• *회화 1* 첫 수업: *한국 10월 21일(수) 오전 9시* (칠레 화요일 밤 9시), 마지막 수업: 12월 9일(수). 칠레는 12월 8일(화)이 공휴일이라 마지막 수업은 제가 확인해서 다시 알려 드릴게요.
+• *어린이반*은 그대로예요: 한국 10월 20일(화) 오전 6시 ~ 12월 8일(화).
+• 명단과 단톡방은 한국 10월 19일(월) 밤에 보내 드릴게요.
+• Zoom 링크는 새 일정에 맞춰 한국 10월 19일(월)까지 보내 드릴게요 (이미 받으셨다면 다시 확인해 드릴게요).
+
+바뀐 날짜를 모두 반영한 키트(버전 1.2)를 첨부했어요. 수업 내용은 그대로예요. 양해해 주셔서 감사합니다. 화이팅!
+Jay (김재희) 드림
+```
+
+> **Traducción (para Jay):** ¡Hola, profe! Le escribo por un cambio de calendario: decidimos extender la matrícula una semana, así que Conversacional 1 empieza una semana más tarde. • Cierre de matrícula: domingo 18 de octubre, 23:59 en Chile (lunes 19, 11:59 en Corea); después del cierre le confirmo qué clases abren. • Conversacional 1: primera clase el miércoles 21 de octubre a las 09:00 en Corea (martes 21:00 en Chile); última, el miércoles 9 de diciembre. Como el martes 8 de diciembre es feriado en Chile, le confirmo después la última clase. • Niños no cambia: martes 20 de octubre, 06:00 en Corea, al martes 8 de diciembre. • La lista y los grupos se los mando el lunes 19 en la noche (hora de Corea). • Los links de Zoom, ajustados al calendario nuevo, se los mando a más tardar el lunes 19 (Corea); si ya los tiene, se los vuelvo a confirmar. Le adjunto el kit actualizado (versión 1.2) con todas las fechas nuevas; el contenido de las clases no cambia. ¡Gracias por la comprensión! 화이팅. Jay (김재희).
+
+---
+
+## 1. Viernes 25 de septiembre · enviado (histórico, calendario original)
 
 ### 1.1 Kiran (español)
 
@@ -103,7 +158,7 @@ Jay (김재희) 드림
 
 ---
 
-## 2. Guion del clip de presentación (15 s, vertical, luz de frente)
+## 2. Guion del clip de presentación (15 s, vertical, luz de frente) · enviado (histórico)
 
 Mándalo justo después del mensaje de hoy. Se usa el **vie 2 oct** en el post "Conoce a tus profes" (feed 02_conoce_a_tus_profes).
 
@@ -160,7 +215,7 @@ Yo le pongo en pantalla tu nombre, el curso y el horario. Plazo: *mié 30 sep, 2
 
 ## 3. Recordatorios
 
-### 3.1 Martes 29 sep · el clip vence mañana
+### 3.1 Martes 29 sep · el clip vence mañana · enviado (histórico)
 
 **Kiran** (12:00)
 
@@ -176,7 +231,7 @@ Yo le pongo en pantalla tu nombre, el curso y el horario. Plazo: *mié 30 sep, 2
 
 > **Traducción:** ¡Buenos días, profe! Te recuerdo suavemente que el clip de 15 s vence mañana, jueves 1 de octubre a las 10:00 en Corea. Basta con grabarlo en vertical y con luz de frente; ¡no tiene que ser perfecto! Lo publicamos el viernes 2 (Chile) en el post "Conoce a tus profes". ¡Gracias!
 
-### 3.2 Lunes 5 oct · tu Zoom llega antes del miércoles 7
+### 3.2 Lunes 5 oct · tu Zoom llega antes del miércoles 7 · enviado (histórico)
 
 Zoom va por la **cuenta de pago de la academia**: Jay crea las 6 reuniones recurrentes (una por clase, 8 sesiones cada una) y manda a cada profe su link + la clave de anfitrión antes del mié 7 (3.2-b). Las profes no crean ni envían ningún link. Si el lun 5 ya tienes las reuniones creadas, junta 3.2 y 3.2-b en un solo mensaje.
 
@@ -198,9 +253,9 @@ Esta semana armo los grupos de WhatsApp y el domingo 11 cierra la matrícula. Po
 
 > **Traducción:** ¡Hola, profe! Zoom quedó con la cuenta de pago de la academia: una reunión recurrente de 8 sesiones por clase, así que no tiene que crear ningún link. Hasta el miércoles 7 de octubre le mando los links de Conversacional 1 (miércoles 09:00) y de Niños (martes 06:00) y la clave de anfitrión. Las salas para grupos y la grabación en la nube las dejo activadas yo. Un detalle: justo antes de Conversacional 1 (a las 08:00) hay otra clase en la misma cuenta, que termina a las 08:58; por eso a Conversacional 1 se entra desde las 08:58. Esta semana armo los grupos de WhatsApp y la matrícula cierra el domingo 11 (Chile). Por ahora vamos con [N] en Conversacional 1 y [N] en Niños. ¡Gracias!
 
-### 3.2-b Martes 6 oct (tope mié 7) · link de Zoom y clave de anfitrión
+### 3.2-b Link de Zoom y clave de anfitrión · original: mar 6 oct · ahora: antes del lun 19 oct, si aún no salió
 
-Cuando crees las 6 reuniones (plan §6 #2). La clave de anfitrión es la de la cuenta de la academia: mándala solo a las profes, nunca a un grupo.
+Cuando crees las 6 reuniones (plan §6 #2). Con el calendario corrido, la reunión recurrente de cada clase tiene que empezar en la fecha nueva (Básico 1 mar 20 y jue 22 · Conversacional 1 mar 20 · Básico 2 mié 21 · TOPIK II jue 22; Niños sigue el lun 19). Si ya la habías creado desde el 12–15 de octubre, edita la serie en Zoom: el link suele seguir siendo el mismo, pero confírmalo. La clave de anfitrión es la de la cuenta de la academia: mándala solo a las profes, nunca a un grupo.
 
 **Kiran** (12:00)
 
@@ -213,7 +268,7 @@ Para quedar como anfitriona: entras al link, abres *Participantes* → *Reclamar
 Recuerda que termina puntual a las 20:58. Si quieres, esta semana lo probamos juntos 5 minutos. ¡Gracias!
 ```
 
-**Abby** (20:00 Chile = mié 7, 08:00 en Corea)
+**Abby** (20:00 Chile = 08:00 del día siguiente en Corea)
 
 ```text
 선생님, 좋은 아침이에요! Zoom 링크 보내 드려요 (학원 계정, 8주 동안 같은 링크예요):
@@ -226,7 +281,9 @@ Recuerda que termina puntual a las 20:58. Si quieres, esta semana lo probamos ju
 
 > **Traducción:** ¡Buenos días, profe! Le mando sus links de Zoom (cuenta de la academia, el mismo link las 8 semanas): Conversacional 1 · miércoles 09:00: [link]; Niños · martes 06:00: [link]. Clave de anfitrión: [clave] (solo para ella; que no la comparta con los alumnos). Para quedar como anfitriona: entra al link, Participantes → "Reclamar anfitrión" e ingresa la clave; así puede grabar, abrir salas y admitir alumnos. A Conversacional 1 entra después de las 08:58, cuando termina la clase anterior; en Niños yo también entro. Si quiere, esta semana lo probamos 5 minutos juntos. ¡Gracias!
 
-### 3.3 Lunes 12 oct (feriado en Chile) · listas y grupos
+### 3.3 Lunes 19 oct · listas y grupos
+
+Si el dom 18 en la noche una sección no abrió (mínimo 3), quita su línea y avísale aparte a la profe.
 
 **Kiran** (10:00)
 
@@ -240,12 +297,12 @@ Ya eres admin de los dos grupos de WhatsApp:
 • Jueves: [PLACEHOLDER: link del grupo]
 
 Hoy te pido un saludo corto en cada grupo con la hora de la clase (Chile + algún país del grupo). Por si te sirve, algo así:
-"¡안녕하세요! Soy Kiran, tu profe de Básico 1. Nos vemos el [martes 13 / jueves 15] a las 20:00 (hora Chile · 20:00 Argentina · 17:00 México). Trae cuaderno y lápiz: ¡vamos a escribir 한글 desde el primer día! 화이팅"
+"¡안녕하세요! Soy Kiran, tu profe de Básico 1. Nos vemos el [martes 20 / jueves 22] a las 20:00 (hora Chile · 20:00 Argentina · 17:00 México). Trae cuaderno y lápiz: ¡vamos a escribir 한글 desde el primer día! 화이팅"
 
-Mañana *mar 13 a las 20:00* es tu primera clase. ¡Vamos!
+Mañana *mar 20 a las 20:00* es tu primera clase. ¡Vamos!
 ```
 
-**Abby** (10:00 Chile = lun 12, 22:00 en Corea)
+**Abby** (10:00 Chile = lun 19, 22:00 en Corea)
 
 ```text
 선생님, 안녕하세요! 칠레에서 어젯밤 등록을 마감했어요. 명단 보내드려요:
@@ -257,17 +314,19 @@ Mañana *mar 13 a las 20:00* es tu primera clase. ¡Vamos!
 • 어린이반 가족방: [PLACEHOLDER: 링크]
 
 회화 1 단톡방에 짧게 인사 부탁드려요. 예를 들면:
-"안녕하세요! 회화 1 선생님 Abby예요. 한국에서 수업해요. 첫 수업은 10월 13일(화) 밤 9시(칠레 시간)예요. 수업에서 한국어로 많이 이야기해요! 화이팅! / ¡Hola! Soy Abby, tu profe de Conversacional 1. Primera clase: martes 13 de octubre, 21:00 (hora Chile)."
+"안녕하세요! 회화 1 선생님 Abby예요. 한국에서 수업해요. 첫 수업은 10월 20일(화) 밤 9시(칠레 시간)예요. 수업에서 한국어로 많이 이야기해요! 화이팅! / ¡Hola! Soy Abby, tu profe de Conversacional 1. Primera clase: martes 20 de octubre, 21:00 (hora Chile)."
 어린이반 가족방에는 제가 스페인어로 먼저 안내할게요. 선생님은 짧게 '안녕하세요!' 인사만 해 주셔도 좋아요.
 
-첫 회화 수업은 *한국 10월 14일(수) 오전 9시*예요. 화이팅!
+어린이반 첫 수업은 바로 내일 아침 6시(한국 10월 20일(화))예요. 체크리스트는 따로 보내 드릴게요. 첫 회화 수업은 *한국 10월 21일(수) 오전 9시*예요. 화이팅!
 ```
 
-> **Traducción:** ¡Hola, profe! Anoche (Chile) cerramos la matrícula. Te mando las listas: Conversacional 1: [N] alumnos [nombres y país]; Niños: [N] [nombre, edad y país]. Ya la agregué como admin de los grupos (Conversacional 1 y grupo de familias de Niños). Le pido un saludo corto en el grupo de Conversacional 1, por ejemplo: "¡Hola! Soy Abby, la profe de Conversacional 1. Doy clases desde Corea. La primera clase es el martes 13 de octubre a las 21:00 (hora Chile). ¡En clase vamos a hablar mucho en coreano! 화이팅" (+ la misma info en español). En el grupo de familias de Niños yo escribo primero en español; ella puede saludar solo con un "안녕하세요". Su primera clase de Conversacional es el miércoles 14 de octubre a las 09:00 en Corea.
+> **Traducción:** ¡Hola, profe! Anoche (Chile) cerramos la matrícula. Te mando las listas: Conversacional 1: [N] alumnos [nombres y país]; Niños: [N] [nombre, edad y país]. Ya la agregué como admin de los grupos (Conversacional 1 y grupo de familias de Niños). Le pido un saludo corto en el grupo de Conversacional 1, por ejemplo: "¡Hola! Soy Abby, la profe de Conversacional 1. Doy clases desde Corea. La primera clase es el martes 20 de octubre a las 21:00 (hora Chile). ¡En clase vamos a hablar mucho en coreano! 화이팅" (+ la misma info en español). En el grupo de familias de Niños yo escribo primero en español; ella puede saludar solo con un "안녕하세요". La primera clase de Niños es mañana mismo a las 06:00 (martes 20 de octubre en Corea); el checklist va en un mensaje aparte. Su primera clase de Conversacional es el miércoles 21 de octubre a las 09:00 en Corea.
 
 ### 3.4 El día de su primera clase
 
-**Kiran · martes 13 oct** (14:00)
+Orden real: Niños (Abby, mensaje del lun 19, más abajo) → Kiran martes 20 → Abby Conversacional 1 martes 20 → Kiran jueves 22.
+
+**Kiran · martes 20 oct** (14:00)
 
 ```text
 ¡Hoy es el día, Kiran! Primera clase de Básico 1 (martes) a las 20:00. Checklist de 3 puntos:
@@ -277,13 +336,13 @@ Mañana *mar 13 a las 20:00* es tu primera clase. ¡Vamos!
 Hoy tus alumnos leen sus primeras sílabas. ¡A disfrutarlo! 화이팅
 ```
 
-**Kiran · jueves 15 oct** (14:00)
+**Kiran · jueves 22 oct** (14:00)
 
 ```text
 ¡Hoy te toca la sección del jueves, Kiran! 20:00, mismo checklist del martes: grabación desde el minuto 0 · deck y hoja 가나다라 I · grabación + tarea + asistencia dentro de 24 h. Ya tienes el rodaje del martes: si quieres ajustar algo, esta es la oportunidad. 화이팅
 ```
 
-**Abby · Conversacional 1 · martes 13 oct** (19:00 Chile = mié 14, 07:00 en Corea)
+**Abby · Conversacional 1 · martes 20 oct** (19:00 Chile = mié 21, 07:00 en Corea)
 
 ```text
 선생님, 좋은 아침이에요! 오늘 *오전 9시*가 회화 1 첫 수업이에요 (칠레 화요일 밤 9시). 체크리스트 3가지:
@@ -295,7 +354,7 @@ Hoy tus alumnos leen sus primeras sílabas. ¡A disfrutarlo! 화이팅
 
 > **Traducción:** ¡Buenos días, profe! Hoy a las 09:00 es la primera clase de Conversacional 1 (martes 21:00 en Chile). Checklist: 1) entrar a Zoom a las 08:58 (la clase anterior, en la misma cuenta, termina a esa hora), reclamar anfitrión con la clave, grabación en la nube desde el minuto 0 y salas listas; 2) la sesión 1 es orientación + diagnóstico oral: mientras rota por las salas, anotar 3 datos por alumno (fluidez, pronunciación, meta personal); 3) dentro de 24 h: grabación y tarea en el grupo, asistencia y una línea para mí. ¡Que disfrute la primera clase! 화이팅
 
-**Abby · Coreano para Niños · lunes 19 oct** (10:00 Chile = lun 19, 22:00 en Corea; la clase es mar 20, 06:00 KST)
+**Abby · Coreano para Niños · lunes 19 oct** (10:00 Chile = lun 19, 22:00 en Corea, justo después de 3.3; la clase es mar 20, 06:00 KST)
 
 ```text
 선생님, 안녕하세요! 내일 *오전 6시*(한국 10월 20일(화))가 어린이반 첫 수업이에요. 이른 시간인데 정말 감사해요. 체크리스트 3가지:
@@ -307,7 +366,7 @@ Hoy tus alumnos leen sus primeras sílabas. ¡A disfrutarlo! 화이팅
 
 > **Traducción:** ¡Hola, profe! Mañana a las 06:00 (martes 20 de octubre en Corea) es la primera clase de Niños. Gracias de verdad por el horario tan temprano. Checklist: 1) entrar a Zoom a las 05:50 (yo también entro): grabación y 2 salas (máx. 6 niños cada una); 2) canción de saludo, juego de las 6 vocales, tablero de stickers y 2 juegos de reserva (memorice y bingo); 3) después de clase: nota semanal de 3 líneas a las familias (yo organizo quién la manda) + asistencia. No subimos caras de los niños a redes. ¡Nos vemos mañana! 화이팅
 
-### 3.5 Viernes 16 oct · check-in de la semana 1
+### 3.5 Viernes 23 oct · check-in de la semana 1
 
 **Kiran** (12:00)
 
@@ -319,22 +378,23 @@ Hoy tus alumnos leen sus primeras sílabas. ¡A disfrutarlo! 화이팅
 Si prefieres, lo hablamos 15 minutos por llamada cuando te acomode. ¡Gracias, de verdad!
 ```
 
-**Abby** (20:00 Chile = sáb 17, 08:00 en Corea)
+**Abby** (20:00 Chile = sáb 24, 08:00 en Corea)
 
 ```text
 선생님, 첫 주 수고 많으셨어요! 회화 1 첫 수업 어떠셨어요? 짧게 3가지만 여쭤볼게요:
 1) 녹화와 과제는 단톡방에 잘 올라갔나요?
 2) 걱정되는 학생이 있나요? (수준, 연결 상태 등)
-3) 다음 주 화요일 오전 6시 어린이반 첫 수업 준비: 역할 분담(저는 수업 흐름과 스페인어 설명, 선생님은 노래·발음 모델과 몸으로 하는 게임) 괜찮으세요? 필요한 자료가 있으면 알려 주세요.
+3) 어린이반 첫 수업은 어떠셨어요? 역할 분담(저는 수업 흐름과 스페인어 설명, 선생님은 노래·발음 모델과 몸으로 하는 게임)은 이대로 괜찮으세요? 필요한 자료가 있으면 알려 주세요.
 편하실 때 15분 통화도 좋아요. 감사합니다!
 ```
 
-> **Traducción:** ¡Gracias por la primera semana, profe! ¿Cómo le fue en la primera clase de Conversacional 1? Tres preguntas cortas: 1) ¿se subieron bien la grabación y la tarea al grupo?; 2) ¿hay algún alumno que le preocupe (nivel, conexión, etc.)?; 3) para la primera clase de Niños del próximo martes a las 06:00: ¿le parece bien el reparto de roles (yo llevo el hilo de la clase y las explicaciones en español; ella, canciones, modelo de pronunciación y juegos de movimiento)? Si necesita algún material, que me avise. Si le acomoda, hablamos 15 minutos por llamada. ¡Gracias!
+> **Traducción:** ¡Gracias por la primera semana, profe! ¿Cómo le fue en la primera clase de Conversacional 1? Tres preguntas cortas: 1) ¿se subieron bien la grabación y la tarea al grupo?; 2) ¿hay algún alumno que le preocupe (nivel, conexión, etc.)?; 3) ¿cómo le fue en la primera clase de Niños? ¿Le parece bien seguir con el mismo reparto de roles (yo llevo el hilo de la clase y las explicaciones en español; ella, canciones, modelo de pronunciación y juegos de movimiento)? Si necesita algún material, que me avise. Si le acomoda, hablamos 15 minutos por llamada. ¡Gracias!
 
 ---
 
 ## Para completar antes de enviar (Jay)
 
-- ~~Exportar los dos kits a PDF~~ Hecho el vie 25 (Kit_Kiran_Basico1_ES.pdf, 13 págs · Kit_Abby_Conversacional_Ninos_KO.pdf, 18 págs). Si cambias un .docx, vuelve a exportarlo con Word.
-- Rellenar los `[PLACEHOLDER]` de los mensajes 3.2, 3.2-b y 3.3: inscritos del día, links de Zoom y clave de anfitrión, listas y links de los grupos.
-- En los kits quedan como `[PLACEHOLDER]`: carpetas de Drive, hoja de asistencia, links de Zoom, grupos de WhatsApp y el formulario del examen escrito de Básico 1. Se completan cuando existan (mié 7 oct) y se reenvía el kit o se mandan por el grupo.
+- **Exportar a PDF los kits 1.2** (los .docx se regeneraron el vie 16 oct con el calendario corrido; los PDF del vie 25 tienen las fechas viejas). Se hace con Word, antes de mandar 0.1 y 0.2.
+- Decidir la clase 8 del **mar 8 dic** (feriado en Chile): Básico 1 martes y Conversacional 1 (= mié 9 dic en Corea). Los kits dicen "Jay confirma si se mantiene".
+- Rellenar los `[PLACEHOLDER]` de los mensajes 3.2-b y 3.3: links de Zoom y clave de anfitrión, listas y links de los grupos.
+- En los kits quedan como `[PLACEHOLDER]`: carpetas de Drive, hoja de asistencia, links de Zoom, grupos de WhatsApp y el formulario del examen escrito de Básico 1. Se completan cuando existan (antes del lun 19 oct) y se reenvía el kit o se mandan por el grupo.

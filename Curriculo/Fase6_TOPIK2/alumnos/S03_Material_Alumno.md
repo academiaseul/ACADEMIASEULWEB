@@ -1,6 +1,6 @@
 # Semana 3 · 듣기 I · Escucha, preguntas 1–20 · 한 번만 들어요
 ### TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · con Jay (김재희 선생님)
-**Cuaderno de estrategia · jueves 29 de octubre · 21:00 (hora de Chile) = viernes 30, 09:00 en Corea**
+**Cuaderno de estrategia · jueves 5 de noviembre · 21:00 (hora de Chile) = viernes 6, 09:00 en Corea**
 
 > **Antes de la clase (10 minutos):**
 > 1. Del **Examen C**, ten listo el **cuadernillo de 듣기** (PDF) y su **MP3**. **No lo abras todavía** y no mires la parte de 듣기 de la clave: en clase hacemos 1–12 como en el examen. Si puedes, imprime las páginas de las preguntas 1–12 (o tenlas en otra pantalla).
@@ -485,7 +485,7 @@ En muchas oficinas, además, un superior le habla a su equipo en 해요체, con 
 
 ## 9. Tarea de la semana (≈ 35 minutos + 8 del puente)
 
-**Plazo: miércoles 4 de noviembre, 22:00 (hora de Chile).**
+**Plazo: miércoles 11 de noviembre, 22:00 (hora de Chile).**
 
 ### Núcleo (cuenta para la nota)
 

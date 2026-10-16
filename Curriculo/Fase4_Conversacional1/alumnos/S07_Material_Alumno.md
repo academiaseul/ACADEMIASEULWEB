@@ -1,6 +1,6 @@
 # Semana 7 · PC방 y e-sports · PC방에 가요!
 ### Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · con Abby (홍미영 선생님)
-**Martes 24 de noviembre · 21:00 (hora de Chile) = miércoles 25, 09:00 en Corea · Módulo M05**
+**Martes 1 de diciembre · 21:00 (hora de Chile) = miércoles 2 de diciembre, 09:00 en Corea · Módulo M05**
 
 > **Durante la clase** vas a usar la **sección 7** (tarjetas de sala y del debate): tenla abierta **antes** de entrar a tu sala de Zoom, porque dentro de la sala no ves el chat general. Todo lo demás es para antes y después de la clase.
 > **Los 🔊** abren el audio de cada palabra y de cada frase clave, con la misma voz coreana del Lector.
@@ -428,7 +428,7 @@ Pero ojo con la foto de postal: hoy **mucha gente juega en su casa**, en el comp
 
 ## 9. Tarea de la semana (≈ 30 minutos)
 
-**Plazo:** antes del domingo 29 de noviembre, o sea, **hasta el sábado 28 de noviembre (hora de Chile)**. Todo va al **grupo de WhatsApp del curso**. Si puedes, mándala antes (el jueves 26, por ejemplo): Abby corrige en 48 horas y así grabas tu monólogo con esa corrección en la mano.
+**Plazo:** antes del domingo 6 de diciembre, o sea, **hasta el sábado 5 de diciembre (hora de Chile)**. Todo va al **grupo de WhatsApp del curso**. Si puedes, mándala antes (el jueves 3 de diciembre, por ejemplo): Abby corrige en 48 horas y así grabas tu monólogo con esa corrección en la mano.
 
 **1 · Audio de 90 segundos · 10 min** · nota de voz en el grupo
 Tu pasatiempo digital (videojuegos, una app, dramas, música, webtoons…). Cuenta:
@@ -466,15 +466,15 @@ En estas 8 semanas hablaste de K-pop, viajes, comida, 한복 y videojuegos. Ahor
 
 | Cuándo (hora de Chile) | Qué | Tú |
 |---|---|---|
-| **hoy, martes 24 de noviembre** | Jay publica en el grupo las parejas de la evaluación, los temas y este calendario | Confirma quién es tu pareja |
-| hasta el **domingo 29 de noviembre, 22:00** | **Audio 1 · "antes y después"** (2–3 min) | Mándalo junto con tu audio de la semana 1 |
-| **domingo 29 de noviembre, 12:00** | **Sorteo** del tema de tu monólogo, en el grupo | Mira qué tema te tocó |
-| hasta el **lunes 30 de noviembre, 22:00** | **Audio 2 · monólogo** (2 min, sin leer) | Solo con tu tarjeta de palabras clave |
-| **martes 1 de diciembre, 21:00** | **Clase 8:** calentamiento "24 horas en Seúl" (sin nota) + tu role play en pareja (3 min) + 2 preguntas de Abby | Llega con los dos role plays preparados |
+| **hoy, martes 1 de diciembre** | Jay publica en el grupo las parejas de la evaluación, los temas y este calendario | Confirma quién es tu pareja |
+| hasta el **domingo 6 de diciembre, 22:00** | **Audio 1 · "antes y después"** (2–3 min) | Mándalo junto con tu audio de la semana 1 |
+| **domingo 6 de diciembre, 12:00** | **Sorteo** del tema de tu monólogo, en el grupo | Mira qué tema te tocó |
+| hasta el **lunes 7 de diciembre, 22:00** | **Audio 2 · monólogo** (2 min, sin leer) | Solo con tu tarjeta de palabras clave |
+| **martes 8 de diciembre, 21:00** [por confirmar] | **Clase 8:** calentamiento "24 horas en Seúl" (sin nota) + tu role play en pareja (3 min) + 2 preguntas de Abby | Llega con los dos role plays preparados |
 
 **Pieza 1 · Tu "antes y después" (audio, 2–3 minutos).** Vuelve a grabar tu presentación de la semana 1, ahora más larga: quién eres, qué haces, **hace cuánto estudias coreano** (-(으)ㄴ 지 ___ 됐어요), por qué, **qué puedes hacer ahora en coreano** y **qué quieres hacer** (-고 싶어요). Mándala **junto con tu audio de la semana 1**. ¿No lo guardaste? Búscalo en el grupo (lo mandaste en octubre) y reenvíalo. Escúchalos uno detrás del otro: esa es tu mejor nota.
 
-**Pieza 2 · Tu monólogo (audio, 2 minutos).** El domingo 29 a las 12:00, Jay sortea en el grupo **un tema para cada uno**: K-pop · viajes · comida · 한복 · e-sports. Grabas **2 minutos sobre tu tema, sin leer**, mirando solo tu tarjeta de palabras clave. Un esqueleto que funciona con cualquier tema:
+**Pieza 2 · Tu monólogo (audio, 2 minutos).** El domingo 6 de diciembre a las 12:00, Jay sortea en el grupo **un tema para cada uno**: K-pop · viajes · comida · 한복 · e-sports. Grabas **2 minutos sobre tu tema, sin leer**, mirando solo tu tarjeta de palabras clave. Un esqueleto que funciona con cualquier tema:
 
 | Paso | Qué dices | Molde |
 |---|---|---|

@@ -785,7 +785,7 @@ const CURSOS = {
         [r("No se comparte con los alumnos: su material va en el Cuaderno del alumno.", { size: 20, bold: true, color: AZUL })],
       ], [
         centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
-        centro([r("Versión del 26 de septiembre de 2026 · compilada desde Curriculo/Fase2_Basico1 (00_Diseno_Basico1.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
+        centro([r("Versión del 16 de octubre de 2026 (calendario corrido una semana) · compilada desde Curriculo/Fase2_Basico1 (00_Diseno_Basico1.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
       ]],
     },
     cuaderno: {
@@ -828,7 +828,7 @@ const CURSOS = {
         [r("No se comparte con los alumnos: su material va en el Cuaderno del alumno.", { size: 20, bold: true, color: AZUL })],
       ], [
         centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
-        centro([r("Versión del 26 de septiembre de 2026 · compilada desde Curriculo/Fase3_Basico2 (00_Diseno_Basico2.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
+        centro([r("Versión del 16 de octubre de 2026 (calendario corrido una semana) · compilada desde Curriculo/Fase3_Basico2 (00_Diseno_Basico2.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
       ]],
     },
     cuaderno: {
@@ -881,7 +881,7 @@ const CURSOS = {
         centro([r("Conversacional 1", { bold: true, size: 60 })], 0, 60),
         centro([r("교사용 가이드", { bold: true, size: 44, color: AZUL })], 0, 160),
         centro([r("2026년 10월 · 홍미영 (Abby)", { size: 26, color: NAVY, bold: true })], 0, 80),
-        centro([r("매주 수요일 09:00–10:00 (한국 시간) = 칠레 화요일 21:00 · 10월 14일 ~ 12월 2일 · Zoom 8주", { size: 21, color: GREY })], 0, 60),
+        centro([r("매주 수요일 09:00–10:00 (한국 시간) = 칠레 화요일 21:00 · 10월 21일 ~ 12월 9일 · Zoom 8주", { size: 21, color: GREY })], 0, 60),
       ], [
         [r("교사용 자료", { bold: true, size: 22, color: NAVY })],
         [r("1~8주차 수업 가이드: 한눈에 보기, 주차 개요, 분 단위 수업 계획, 교사 가이드 (정답·루브릭·진단표), 원어민 검토 사항.", { size: 20 })],
@@ -889,7 +889,7 @@ const CURSOS = {
         [r("학생들에게는 공유하지 않아요. 학생 자료는 학생용 워크북 (Cuaderno del alumno)에 따로 있어요.", { size: 20, bold: true, color: AZUL })],
       ], [
         centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
-        centro([r("2026년 9월 26일 버전 · Curriculo/Fase4_Conversacional1 (profes/S01–S08 + 부록 00_Diseno_Conversacional1.md)에서 컴파일", { size: 16, color: GREY, italics: true })], 80, 0),
+        centro([r("2026년 10월 16일 수정판 (개강 한 주 연기에 맞춰 날짜 수정) · Curriculo/Fase4_Conversacional1 (profes/S01–S08 + 부록 00_Diseno_Conversacional1.md)에서 컴파일", { size: 16, color: GREY, italics: true })], 80, 0),
       ]],
     },
     cuaderno: {
@@ -980,7 +980,7 @@ const CURSOS = {
         centro([r("TOPIK II (B1+)", { bold: true, size: 60 })], 0, 60),
         centro([r("Guía del profesor", { bold: true, size: 44, color: AZUL })], 0, 160),
         centro([r("Cohorte octubre 2026 · Profesor: Jay (김재희)", { size: 26, color: NAVY, bold: true })], 0, 80),
-        centro([r("Sección única: jueves 21:00–22:00, hora de Chile (viernes 09:00 en Corea) · 15 de octubre al 3 de diciembre · 8 semanas por Zoom · máximo 8 alumnos", { size: 21, color: GREY })], 0, 60),
+        centro([r("Sección única: jueves 21:00–22:00, hora de Chile (viernes 09:00 en Corea) · 22 de octubre al 10 de diciembre · 8 semanas por Zoom · máximo 8 alumnos", { size: 21, color: GREY })], 0, 60),
       ], [
         [r("Material del profesor", { bold: true, size: 22, color: NAVY })],
         [r("Diseño del curso + guías de clase de las semanas 1 a 8: plan minuto a minuto, estrategia explicada desde el español, claves del Banco Chingu, criterios de corrección de 쓰기 51–54, plantillas y notas.", { size: 20 })],
@@ -988,7 +988,7 @@ const CURSOS = {
         [r("No se comparte con los alumnos: su material va en el Cuaderno de estrategia.", { size: 20, bold: true, color: AZUL })],
       ], [
         centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
-        centro([r("Versión del 27 de septiembre de 2026 · compilada desde Curriculo/Fase6_TOPIK2 (00_Diseno_TOPIK2.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
+        centro([r("Versión del 16 de octubre de 2026 (calendario corrido una semana) · compilada desde Curriculo/Fase6_TOPIK2 (00_Diseno_TOPIK2.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
       ]],
     },
     cuaderno: {

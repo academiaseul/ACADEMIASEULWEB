@@ -1,8 +1,8 @@
 # TOPIK II (B1+) · Semana 3 · 듣기 I · Escucha, preguntas 1–20
-### Guía del profesor · Jay Kim (김재희) · jueves 29 de octubre de 2026 · 21:00–22:00 (hora de Chile) = viernes 30, 09:00 en Corea
+### Guía del profesor · Jay Kim (김재희) · jueves 5 de noviembre de 2026 · 21:00–22:00 (hora de Chile) = viernes 6, 09:00 en Corea
 
 **MATERIAL DEL PROFESOR · solo para Jay · no se comparte con alumnos.** El cuaderno de estrategia del alumno, sin respuestas ni notas internas, está en `../alumnos/S03_Material_Alumno.md`.
-Versión 1.4 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 6) · rev. 1.4 (segunda revisión adversarial de coordinación pedagógica): bloque 1 vuelto a sumar 5' (tu tarea en números = 30 s, no 1') · bloque 6 con presupuesto explícito (D2 en un solo mensaje de chat) · el número del mini-simulacro deja de decirse en voz alta por obligación (se pidió por mensaje directo: "nadie más lo ve") · quien falta o se queda sin profe cuenta con la clave de **L20 (1–12)**, nunca con la clave oficial de C (C 듣기 13–17 es el mini-simulacro de la S8) · camino de la corrección personal del 51 de B explicitado (línea a línea con el 51 reescrito de la S4, mar 10 nov) · respuestas a los audios de 2' alineadas con la guía de la S4 · mensaje privado de rescate (C.15d) · shadowing como hábito de la tarea publicada, no "opcional" · clips 🔊: el sitio en vivo ya los sirve (D-S3-9) · rev. 1.3 (revisión lingüística adversarial; 지시문 de 1–3, 4–8, 9–12, 13–16 y 17–20 vueltos a contrastar con el cuadernillo del 제64회): cuaderno 6.3.3 민수 씨도 같이 갈까요? → 갈래요? (invitar al oyente) · 6.5.5 rehecho (el cliente no dice "no hay pasajes": ahora habla el empleado) · 6.8.1 opción ② rehecha (필요한 내용만 빨리 끝내다 no era natural; ahora 회의 시간을 줄이다, par mínimo con ③ 횟수) · números: 번/배 nativos y "desde 100, sino-coreano" · formato de tarea con noticia y entrevista · guía: D2 "어제 주문한" → "지난주에" (verosimilitud) · quiz 2 con sus 지시문 (1–2 y 3–4) · ✘ 환불받고 싶어요 → 환불을 받고 싶어요 (que el error señalado sea solo 싶어요) · rev. 1.2 (revisión adversarial de coordinación pedagógica): la regla del "eco" corregida con el 대본 del 제64회 (en 13–16 la correcta suele repetir las palabras del audio: A 15 y A 16; decide el detalle, no el parecido, como en la S2) · -(으)니까 de la S1 señalado en A 11–12 · bloque 7 vuelto a caber en 2 minutos (salas creadas durante el bloque 6) · reactivar el audio de los alumnos después del mini-simulacro · presupuesto de tiempo del bloque 9 · rescate con el audio de 13–16 aclarado y ruta honesta (B0.4) · D-S3-3 y D-S3-10 cerrados con las guías de la S2 y la S4 · clave de 6.3 y marco "라고 했기 때문이에요" del cuaderno corregidos. Rev. 1.1: revisión lingüística y de formato TOPIK (지시문 contrastados con el cuadernillo del 제64회 y del 제41회 de tu PC; claves de A 11–20 contrastadas con el 정답 및 배점표). Plazo N−2 de esta semana: **vie 16 oct** (diseño G.2): ese día revisas y apruebas; tú no produces material.
+Versión 1.4 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 6) · rev. 1.4 (segunda revisión adversarial de coordinación pedagógica): bloque 1 vuelto a sumar 5' (tu tarea en números = 30 s, no 1') · bloque 6 con presupuesto explícito (D2 en un solo mensaje de chat) · el número del mini-simulacro deja de decirse en voz alta por obligación (se pidió por mensaje directo: "nadie más lo ve") · quien falta o se queda sin profe cuenta con la clave de **L20 (1–12)**, nunca con la clave oficial de C (C 듣기 13–17 es el mini-simulacro de la S8) · camino de la corrección personal del 51 de B explicitado (línea a línea con el 51 reescrito de la S4, mar 17 nov) · respuestas a los audios de 2' alineadas con la guía de la S4 · mensaje privado de rescate (C.15d) · shadowing como hábito de la tarea publicada, no "opcional" · clips 🔊: el sitio en vivo ya los sirve (D-S3-9) · rev. 1.3 (revisión lingüística adversarial; 지시문 de 1–3, 4–8, 9–12, 13–16 y 17–20 vueltos a contrastar con el cuadernillo del 제64회): cuaderno 6.3.3 민수 씨도 같이 갈까요? → 갈래요? (invitar al oyente) · 6.5.5 rehecho (el cliente no dice "no hay pasajes": ahora habla el empleado) · 6.8.1 opción ② rehecha (필요한 내용만 빨리 끝내다 no era natural; ahora 회의 시간을 줄이다, par mínimo con ③ 횟수) · números: 번/배 nativos y "desde 100, sino-coreano" · formato de tarea con noticia y entrevista · guía: D2 "어제 주문한" → "지난주에" (verosimilitud) · quiz 2 con sus 지시문 (1–2 y 3–4) · ✘ 환불받고 싶어요 → 환불을 받고 싶어요 (que el error señalado sea solo 싶어요) · rev. 1.2 (revisión adversarial de coordinación pedagógica): la regla del "eco" corregida con el 대본 del 제64회 (en 13–16 la correcta suele repetir las palabras del audio: A 15 y A 16; decide el detalle, no el parecido, como en la S2) · -(으)니까 de la S1 señalado en A 11–12 · bloque 7 vuelto a caber en 2 minutos (salas creadas durante el bloque 6) · reactivar el audio de los alumnos después del mini-simulacro · presupuesto de tiempo del bloque 9 · rescate con el audio de 13–16 aclarado y ruta honesta (B0.4) · D-S3-3 y D-S3-10 cerrados con las guías de la S2 y la S4 · clave de 6.3 y marco "라고 했기 때문이에요" del cuaderno corregidos. Rev. 1.1: revisión lingüística y de formato TOPIK (지시문 contrastados con el cuadernillo del 제64회 y del 제41회 de tu PC; claves de A 11–20 contrastadas con el 정답 및 배점표). Plazo N−2 de esta semana: **vie 23 oct** (diseño G.2): ese día revisas y apruebas; tú no produces material.
 
 > **Fuentes (manda lo publicado):** `../00_Diseno_TOPIK2.md` (Hechos fijos, A.10–A.16, B0.5, B0.7, B.1, **B.4**, B.10–B.12, C, D, E.2–E.4, E.8, G.1–G.3, I) · syllabus publicado `topik2 · semana 3` en `Programa_Completo_Octubre_2026/fuente/cursos_es.json` · programa público `Curriculo/publico/Programa_TOPIK2_B1.md` y `public/programas/Programa_TOPIK2_Octubre_2026.pdf` · Fase 1 (§4.9, §9.2–9.3, §10.5, §14.2) · el 제64회 de tu PC (Examen A: cuadernillo de 듣기·쓰기 y 대본, revisados el 27 sept para ubicar las pistas de 11–12 y 17–18; aquí no se transcriben) · clips en `public/audio/kr` (índice `Curriculo/audio/Clips_Octubre_2026.md`).
 > **Marcas:** **⚑** = coreano o dato que se valida antes de usarlo (el coreano, tú; los datos del examen, topik.go.kr) · **[YA]** = mejora de la Fase 1 aplicada dentro de lo publicado · **DECISIÓN DE JAY** = política o texto público · **[regla del certificado: pendiente de decisión de Jay]**.
@@ -38,7 +38,7 @@ Versión 1.4 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 
 1. **El dictado activo usa ítems del Banco Chingu leídos por ti**, no el audio oficial pausado: A 4–8 ya lo oyeron en el diagnóstico de la S1, y pausar el MP3 oficial a mitad de diálogo en Zoom es frágil. Hueco honesto (diseño A.16): no hay audios propios de dos voces; tú lees las dos y lo anuncias («남자:… 여자:…»).
 2. **La R usa A 11 y A 12** (diseño B.4): los dos son del tipo 9–12 y juntos muestran sus tres trampas (lo que ya pasó, lo que hará el otro, lo que pasaría "si no resulta") y el -는데요 que abre el puente. Para 17–20 no hay audio en clase: 40 segundos con el 대본 de A 18 en pantalla.
 3. **Las salas duran 5 minutos y traen dos guiones escritos** además de la situación libre: quien escucha no mira el guion y solo tiene sus 4 opciones, como en el examen. Así "el compañero adivina qué hará" (publicado) funciona en parejas.
-4. **El mini-simulacro se hace con el cuadernillo de cada alumno** (descargado antes de la clase) y tú compartes solo el audio y un reloj: así pueden leer las opciones de la pregunta siguiente mientras suena la actual, que es la técnica de hoy. Por eso hay un recordatorio el martes 27 (C.15b) y un plan B si alguien no lo tiene (C.13) ⚑ D-S3-3.
+4. **El mini-simulacro se hace con el cuadernillo de cada alumno** (descargado antes de la clase) y tú compartes solo el audio y un reloj: así pueden leer las opciones de la pregunta siguiente mientras suena la actual, que es la técnica de hoy. Por eso hay un recordatorio el martes 3 (C.15b) y un plan B si alguien no lo tiene (C.13) ⚑ D-S3-3.
 
 ---
 
@@ -46,7 +46,7 @@ Versión 1.4 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 
 
 | | |
 |---|---|
-| **Fecha** | Jueves 29 de octubre de 2026 · 21:00–22:00, hora de Chile (UTC−3) · viernes 30, 09:00 en Corea · 18:00 México · 19:00 Colombia y Perú · 21:00 Argentina · 20:00 EE.UU. (Este) · 01:00 del viernes en España. Entras a las **20:58** (cuenta de Zoom compartida con Kiran) |
+| **Fecha** | Jueves 5 de noviembre de 2026 · 21:00–22:00, hora de Chile (UTC−3) · viernes 6, 09:00 en Corea · 18:00 México · 19:00 Colombia y Perú · 21:00 Argentina · 19:00 EE.UU. (Este) · 01:00 del viernes en España. Entras a las **20:58** (cuenta de Zoom compartida con Kiran) |
 | **Examen oficial del día** | **A** (제64회 ⚑ E-2): 듣기 11–12 con audio + 대본 de 12 y 18 · **C**: 듣기 1–12 (mini-simulacro) · tarea: **B** 듣기 1–20 + 쓰기 51 de B (puente) |
 | **Material** | Cuadernillo de A (escaneado) y su MP3 · MP3 de C con el inicio del ítem 1 anotado + clave oficial de C · Banco Chingu: quiz 2, ítem puente P1, dictados D1–D2 (+ D3 para la cultura), guiones A y B y tarjetas de situación (cuaderno §7) · hoja de símbolos (cuaderno §3.2) · 3 frases anónimas de la ficha de expresiones · 답안지 de la casa |
 | **Foco de habilidad** | 듣기 (anticipación, notas, soltar y seguir) + habla en role play |
@@ -68,9 +68,9 @@ Versión 1.4 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 
 | 10 | **Tarea de reading** | Leer 지시문 y opciones **antes** del audio (la lectura que da puntos en 듣기) · opciones de 9–12 en 한다체 (puente de la S2) · 대본 en la segunda escucha · lectura en voz alta del 대본 de 13–16, 5'/día (ruta, [YA]) |
 | 11 | **Tarea de writing** | Notas con símbolos (máximo 3 palabras por ítem) · dictado de la última frase en el chat · **puente a la S4: el 51 del Examen B a mano** (4 minutos, foto al chat con Jay) · (opcional) mini-diálogo de 4–6 líneas del cuaderno (6.10) |
 | 12 | **Actividad interactiva** | **Dictado activo por tramos** (publicado) · **role play 9–12 cliente/empleado** (publicado) con guiones cruzados y situación libre · "¿Quién es el 선배?" en el chat · votación 1–4 en el chat |
-| 13 | **Tarea para la casa** | **Núcleo (≈ 35'):** (1) **Examen B · 듣기 1–20, una sola escucha, sin pausar** (≈ 20') → formulario **antes del mié 4 nov, 22:00**; después, **segunda escucha con el 대본** solo de las que fallaste, marcando lo que no captaste (≈ 8'). (2) **Audio de 2 minutos** resumiendo en coreano, con tus palabras, un diálogo de 13–16 del Examen B, con al menos 3 palabras de la semana → grupo (≈ 7' con la preparación). **Puente a la S4 (8'):** leer las 10 fórmulas del 51 (kit pág. 3) y **escribir a mano el 51 del Examen B** (㉠ y ㉡, 4 minutos) → foto al chat con Jay, mismo plazo. **Hábito diario (publicado como tarea; no se entrega ni se registra, ⚑ D-S3-20):** shadowing 5'/día con el audio oficial, 3 segundos detrás. **Ruta intensiva:** lectura en voz alta del 대본 · reto 4–5: B 21–24 (dos escuchas) |
+| 13 | **Tarea para la casa** | **Núcleo (≈ 35'):** (1) **Examen B · 듣기 1–20, una sola escucha, sin pausar** (≈ 20') → formulario **antes del mié 11 nov, 22:00**; después, **segunda escucha con el 대본** solo de las que fallaste, marcando lo que no captaste (≈ 8'). (2) **Audio de 2 minutos** resumiendo en coreano, con tus palabras, un diálogo de 13–16 del Examen B, con al menos 3 palabras de la semana → grupo (≈ 7' con la preparación). **Puente a la S4 (8'):** leer las 10 fórmulas del 51 (kit pág. 3) y **escribir a mano el 51 del Examen B** (㉠ y ㉡, 4 minutos) → foto al chat con Jay, mismo plazo. **Hábito diario (publicado como tarea; no se entrega ni se registra, ⚑ D-S3-20):** shadowing 5'/día con el audio oficial, 3 segundos detrás. **Ruta intensiva:** lectura en voz alta del 대본 · reto 4–5: B 21–24 (dos escuchas) |
 | 14 | **Recurso digital** (exacto) | **Examen B · 듣기 1–20:** MP3 + 대본 (descargados en el puente de la S2) + cuadernillo · **formulario de autocorrección de B 듣기 1–20** (`[PLACEHOLDER: link del formulario B 듣기 1–20]`, P1 de G.2; plataforma: DECISIÓN DE JAY 7) · **hoja de símbolos** (cuaderno §3.2) · **Examen C · 듣기 1–12** (cuadernillo + MP3, para la clase) · puente a la S4: **kit pág. 3** + **Examen B · 쓰기 51** (en el mismo cuadernillo de 듣기·쓰기) · clips 🔊 de las 19 palabras y las 3 frases clave (G.2, ⚑ D-S3-9). **Lector y Dubu: no** |
-| 15 | **Preparación del profe** | Checklist en C.2. Lo esencial: MP3 de A con el inicio del 11 anotado · MP3 de C con el inicio del 1 anotado y la duración real de 1–12 medida · clave oficial de C · quiz 2 en el formulario · 3 frases de la ficha elegidas (mar 27) · parejas del mapa listas para asignar · "Compartir sonido" probado · recordatorio del mar 27 enviado |
+| 15 | **Preparación del profe** | Checklist en C.2. Lo esencial: MP3 de A con el inicio del 11 anotado · MP3 de C con el inicio del 1 anotado y la duración real de 1–12 medida · clave oficial de C · quiz 2 en el formulario · 3 frases de la ficha elegidas (mar 3) · parejas del mapa listas para asignar · "Compartir sonido" probado · recordatorio del mar 3 enviado |
 | 16 | **Entregable del alumno** | Formulario de B 듣기 1–20 (con los campos de hábitos, C.16) · audio de 2 minutos en el grupo · foto del 51 del Examen B al chat con Jay · (4–5) respuestas de B 21–24 en el mismo formulario |
 | 17 | **Evaluación** | **Quiz 2** (sobre la S2: 2 palabras, 1 conector en formato 1–2, 1 ítem de estrategia 지시문 → tipo, 1 ítem 13–15) · **conteo del mini-simulacro C 1–12** (formativo: se registra, no pondera) · **corrección personal en clase:** 3 frases de la ficha de expresiones equivalentes (anónimas) · ✓ de habla en coreano en la sala · tarea núcleo S3 (se registra 1 · 0,5 · 0; propuesta E.2) · asistencia en vivo y "grabación + tarea" en columnas separadas **[regla del certificado: pendiente de decisión de Jay]** |
 
@@ -93,7 +93,7 @@ Versión 1.4 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 
 | 26–31 | 21:26–21:31 | **8 · G: salas de 2** | Visitas 2 salas (1' cada una); transmites el cambio de ronda a las 21:28:30 | R1 guiones cruzados (uno lee, el otro adivina; cambian) · R2 role play libre + tercera persona | Salas · "Transmitir mensaje" | Tarjeta de sala (cuaderno §7) |
 | 31–43 | 21:31–21:43 | **9 · L: mini-simulacro · Examen C · 듣기 1–12** | 30 s para marcar ♂/♀; reproduces desde el ítem 1, sin pausas; miras caras y anotas dónde se pierden | Resuelven con su cuadernillo y el 답안지, una escucha | Compartir pantalla L19 (reloj) con "Compartir sonido" · "Silenciar a todos" | MP3 de C (desde el ítem 1) · L19 |
 | 43–45 | 21:43–21:45 | **10 · Clave y conteo** | Clave oficial en pantalla; pides el conteo por mensaje directo | Cuentan y te escriben "9/12" | Reactivar "Permitir que los participantes se activen el audio" · L20 · chat privado | Clave oficial de C |
-| 45–52 | 21:45–21:52 | **11 · Corrección personal: la ficha de expresiones** | 3 frases anónimas: qué sumó, qué restó, cómo se dice; un alumno justifica en coreano cada una | 맞아요? 틀렸어요? + 왜냐하면…; repiten la versión buena | L21–L23 | 3 frases (elegidas el mar 27) |
+| 45–52 | 21:45–21:52 | **11 · Corrección personal: la ficha de expresiones** | 3 frases anónimas: qué sumó, qué restó, cómo se dice; un alumno justifica en coreano cada una | 맞아요? 틀렸어요? + 왜냐하면…; repiten la versión buena | L21–L23 | 3 frases (elegidas el mar 3) |
 | 52–55 | 21:52–21:55 | **12 · ¿Dónde se fueron los puntos? + meta** | 4 alumnos lo dicen en coreano (el número, solo si quieren); un arreglo por tipo; meta para B | ___번이 어려웠어요. (y, si quieren, 저는 12문제 중에 ___문제를 맞혔어요.) | L24 | L24 · tabla de arreglos (C.3) |
 | 55–60 | 21:55–22:00 | **13 · Cierre** | Fórmula del día · **3 frases clave en coro** (tú primero, lento) · tarea · quiz 3 · **22:00: finalizar** | Coro; dudas al chat | L25–L28 · "Finalizar reunión para todos" | L25–L28 |
 
@@ -106,42 +106,42 @@ Que cada alumno salga con un **método de tres tiempos para 1–20** (antes: leo
 
 ### C.2 Checklist de preparación
 
-**Antes del vie 16 oct (N−2: revisas y apruebas, no produces)**
+**Antes del vie 23 oct (N−2: revisas y apruebas, no produces)**
 - [ ] Leer esta guía y el cuaderno del alumno (`S03_Material_Alumno.md`). Revisar el **deck S3** con el guion de C.17 y la **tarjeta de sala** (cuaderno §7). Si algo no calza, se lo devuelves a producción.
 - [ ] Resolver los ⚑ de la sección D (en especial D-S3-1, el coreano de los ítems del Banco Chingu).
 - [ ] Confirmar que el **formulario de B 듣기 1–20** está armado con la clave de B y los campos de hábitos (plantilla en C.16; P1 de G.2).
 - [ ] **Clips 🔊:** las 19 palabras y las 3 frases clave de la S3 están en `public/audio/kr` y en `origin/main` desde el commit `6c2e7943` (27 sept; índice `Curriculo/audio/Clips_Octubre_2026.md`). Solo falta escucharlos una vez (D-S3-9). El sitio en vivo **ya los sirve**: los 22 links del cuaderno respondieron 200 (`audio/mpeg`) en la revisión de la tarde del 27 sept (D-S3-9).
 
-**Jue 22 oct (clase 2)**
+**Jue 29 oct (clase 2)**
 - [ ] Confirmar que lo dijiste en el cierre de la S2: la guía de la S2 ya lo pide en su L26 y en la sección 9 del cuaderno (descargar del Examen C **también el cuadernillo de 듣기 y su MP3**, sin abrirlos, y no abrir la clave de C; D-S3-3, resuelto).
 
-**Mar 27 oct (tu bloque fijo de corrección, E.8)**
+**Mar 3 nov (tu bloque fijo de corrección, E.8)**
 - [ ] Corregir las **fichas de 10 expresiones equivalentes** (S2) con códigos (~25', E.8), **devolverlas por privado ese mismo día** (plantilla "Devolución de la ficha" de la guía de la S2) y elegir **3 frases anónimas** para L21–L23: una que sume (para celebrar) y dos con errores que le sirvan a todo el grupo (modelos en C.16 si no aparecen claros). Si una ficha llega después del martes (el plazo de nota es antes de la clase), se corrige el jueves y en el bloque 11 no dices "ya les llegaron" a esa persona.
 - [ ] **Audio:** abrir el MP3 del 듣기 de A y anotar el minuto en que empieza el ítem 11; abrir el MP3 de C, anotar el minuto en que empieza el ítem 1 y **medir cuánto dura de 1 a 12** (del inicio del 1 al final de la pausa del 12). Si pasa de 12:30, el mini-simulacro será 1–10 (⚑ D-S3-4). Anota los dos minutos en L8 y L19 (los alumnos los necesitan si falla el audio compartido).
 - [ ] Tener la **clave oficial de C** (1–12). La de A ya está en C.16 (verificada con el 정답 및 배점표 oficial de tu PC).
 - [ ] **18:00:** mandar el **recordatorio** al grupo (texto en C.15b).
 
-**Mié 28 oct**
-- [ ] 22:00 vence el formulario de C 읽기 1–20. **Jue 29 a mediodía:** mirar los resultados (tiempo medio, aciertos medios, tipo más fallado) para "tu tarea en números" (L5).
+**Mié 4 nov**
+- [ ] 22:00 vence el formulario de C 읽기 1–20. **Jue 5 a mediodía:** mirar los resultados (tiempo medio, aciertos medios, tipo más fallado) para "tu tarea en números" (L5).
 
-**Jue 29, antes de entrar (20:45)**
+**Jue 5, antes de entrar (20:45)**
 - [ ] Quiz 2 cargado en el formulario (o las 5 preguntas en L3 si lo haces por chat); link copiado.
 - [ ] Deck abierto en L1. Pestañas: MP3 de A (en el 11), cuadernillo A escaneado (página de 11–12), 대본 de A 12 y 18, MP3 de C (en el ítem 1), clave de C.
 - [ ] Probar "Compartir pantalla" con **"Compartir sonido"** marcado (ya probado en la prueba técnica P0 de octubre; hoy es el día que más depende de eso).
 - [ ] Lista de **parejas del mapa** (sub-meta 4–5 con sub-meta 3) a mano para asignar las 4 salas en 30 segundos; el hablante de herencia, si está, en una pareja con alguien de sub-meta 3.
-- [ ] Cronómetro visible. Nombre de la grabación: `TOPIK2_S03_2026-10-29`.
+- [ ] Cronómetro visible. Nombre de la grabación: `TOPIK2_S03_2026-11-05`.
 - [ ] Planilla del curso abierta en la columna de la S3 (C.14).
 
 **Después de la clase (dentro de 24 h)**
-- [ ] Subir la grabación, el PDF del deck y la tarea a la carpeta del curso: `TOPIK2_S03_2026-10-29_Escucha.pdf` (convención G.3).
+- [ ] Subir la grabación, el PDF del deck y la tarea a la carpeta del curso: `TOPIK2_S03_2026-11-05_Escucha.pdf` (convención G.3).
 - [ ] Publicar el mensaje de C.15a.
 - [ ] Planilla: asistencia (en vivo / grabación + tarea, columnas separadas), quiz 2, conteo C 1–12, tipo más fallado, ✓ de habla.
 - [ ] Mensaje privado a quien faltó (C.15c).
-- [ ] **Vie 30 oct:** mensaje privado de **rescate** (C.15d) a quien bajó de 6/12 o tuvo C en 듣기 en el diagnóstico; si además es alguien con sub-meta 3 y el aviso escrito de la S1, agrega la línea honesta de C.10.
+- [ ] **Vie 6 nov:** mensaje privado de **rescate** (C.15d) a quien bajó de 6/12 o tuvo C en 듣기 en el diagnóstico; si además es alguien con sub-meta 3 y el aviso escrito de la S1, agrega la línea honesta de C.10.
 
-**Del jue 29 oct al vie 6 nov**
-- [ ] Escuchar los audios de 2 minutos a 1,5× **a medida que llegan** (≈ 1'30" cada uno, ≈ 12' en total) y responder en el grupo con una línea (plantilla en C.16). Los que lleguen el mié 4, a más tardar el **vie 6 nov**: así lo anuncia la guía de la S4 en su bloque 1 («los audios de 2 minutos los respondo por escrito esta semana»).
-- [ ] **Jue 5, por la mañana:** revisar las fotos del 51 del Examen B y **elegir 3 anónimos** para la corrección en vivo de la S4 (≈ 10', E.8: "solo se elige qué mostrar"; criterios en C.16) ⚑ D-S3-10.
+**Del jue 5 nov al vie 13 nov**
+- [ ] Escuchar los audios de 2 minutos a 1,5× **a medida que llegan** (≈ 1'30" cada uno, ≈ 12' en total) y responder en el grupo con una línea (plantilla en C.16). Los que lleguen el mié 11, a más tardar el **vie 13 nov**: así lo anuncia la guía de la S4 en su bloque 1 («los audios de 2 minutos los respondo por escrito esta semana»).
+- [ ] **Jue 12, por la mañana:** revisar las fotos del 51 del Examen B y **elegir 3 anónimos** para la corrección en vivo de la S4 (≈ 10', E.8: "solo se elige qué mostrar"; criterios en C.16) ⚑ D-S3-10.
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 *Los guiones están en "tú", la voz de la marca; dilos con tus palabras. La estrategia va en español; todo ítem, ejemplo, corrección y felicitación, en coreano (diseño D: ≥ 60 % de la clase en coreano). Regla de las salas: una palabra en español dentro de una frase coreana se permite; la frase entera, no.*
@@ -232,10 +232,10 @@ Que cada alumno salga con un **método de tres tiempos para 1–20** (antes: leo
 - **(ES, 30 s):** «Examen C, 듣기 del 1 al 12. **Una escucha, sin pausas, como el día del examen.** Cuadernillo abierto en la página del 1 y el 답안지 al lado. Tienen 30 segundos para lo de antes: lean el 지시문 del 9 al 12 y marquen ♀ o ♂ al lado de esos números. Cámaras encendidas, micrófonos apagados. Si se les escapa una: 다음 문제로 넘어갈게요.»
 - **(KO, 5 s):** «**한 번만 들려줄게요. 잘 들어 보세요.**» (la frase está en la tabla "Lo que dice Jay en clase" del cuaderno).
 - "Silenciar a todos" (y desactiva "Permitir que los participantes se activen el audio").
-- Compartes **L19** (reloj de 12:00 y "문제 1–12") con **"Compartir sonido"** y das play al MP3 de C **desde el inicio del ítem 1** (minuto anotado el mar 27).
+- Compartes **L19** (reloj de 12:00 y "문제 1–12") con **"Compartir sonido"** y das play al MP3 de C **desde el inicio del ítem 1** (minuto anotado el mar 3).
 - **Mientras suena:** no hablas. Miras la galería y anotas en un papel en qué número se ven caras perdidas o manos que borran: eso alimenta el bloque 12. Si alguien escribe en el chat que no oye, aplica el plan B (C.13) sin detener a los demás.
 - Terminado el 12 (cuando empiece el anuncio del 13), **stop**.
-- **Presupuesto del bloque (12 minutos):** ≈ 45 s de consigna, silencio y play + la duración que mediste el mar 27. Si el audio dura **hasta 11:15**, el bloque 10 queda entero; **de 11:15 a 12:30**, el bloque 10 se hace en 1 minuto (clave en pantalla y conteo por mensaje directo al mismo tiempo, sin la felicitación); **más de 12:30**, el mini-simulacro es 1–10 (D-S3-4). Nunca se corta a mitad de un ítem.
+- **Presupuesto del bloque (12 minutos):** ≈ 45 s de consigna, silencio y play + la duración que mediste el mar 3. Si el audio dura **hasta 11:15**, el bloque 10 queda entero; **de 11:15 a 12:30**, el bloque 10 se hace en 1 minuto (clave en pantalla y conteo por mensaje directo al mismo tiempo, sin la felicitación); **más de 12:30**, el mini-simulacro es 1–10 (D-S3-4). Nunca se corta a mitad de un ítem.
 
 #### Bloque 10 · 21:43–21:45 · Clave y conteo · L20
 - **Primero, en Participantes:** vuelve a activar "Permitir que los participantes se activen el audio" (lo apagaste en el bloque 9; sin eso, nadie puede hablar en los bloques 11 y 12).
@@ -244,7 +244,7 @@ Que cada alumno salga con un **método de tres tiempos para 1–20** (antes: leo
 - **(KO)** «수고했어요! 12분 동안 한 번도 멈추지 않았어요.»
 
 #### Bloque 11 · 21:45–21:52 · Corrección personal: la ficha de expresiones · L21–L23
-*Publicado: "revisión en pantalla de dos o tres producciones de la tarea (anónimas): qué sumó puntos, qué los restó". Esta semana, 3 frases de la ficha de 10 expresiones equivalentes de la S2, elegidas el mar 27.*
+*Publicado: "revisión en pantalla de dos o tres producciones de la tarea (anónimas): qué sumó puntos, qué los restó". Esta semana, 3 frases de la ficha de 10 expresiones equivalentes de la S2, elegidas el mar 3.*
 - Por frase (≈ 2'): la muestras sin nombre. **(KO)** «이 문장, 맞아요? 틀렸어요?» → llamas a un alumno (que no sea el autor, si lo sabes) y responde con el marco de la S2: «틀렸어요. 왜냐하면 ___기 때문이에요.» o «맞아요. ___ 때문에 좋아요.» (se permite la palabra técnica en español). Tú das la versión buena y **el grupo la repite**.
 - **L21 · la que suma primero:** «¿Qué sumó aquí?» (natural, el par equivalente bien usado).
 - **L22–L23 · las dos con error:** la regla en una frase de español y la frase corregida en coreano. Modelos si no aparecen claros en las fichas (C.16): -자마자 con pasado (도착했자마자*), 마련하다* por 마련이다, doble obligación (탈 수밖에 없어야*).
@@ -267,7 +267,7 @@ Que cada alumno salga con un **método de tres tiempos para 1–20** (antes: leo
 #### Bloque 13 · 21:55–22:00 · Cierre · L25–L28
 - **L25 · La fórmula del día (20 s):** «**Antes:** leo y predigo, ♂/♀ · **Durante:** 2–3 palabras con símbolos · **Después:** marco en 3 segundos y suelto.»
 - **L26 · Las 3 frases de hoy (45 s):** «Primero yo, despacio; después ustedes.» Tú solo, lento, 2 segundos de pausa: «**다시 한번 말씀해 주시겠어요?**» → grupo · «**남자는 회의 자료를 준비할 거예요.**» → grupo · «**여자는 환불을 받고 싶어 해요.**» → grupo. *De aquí se recorta `T2_S03_frases_clave.mp3` (B.12; lo recorta la persona de producción que designes): tu versión va sola, lenta y limpia.*
-- **L27 · Tarea (2'):** «Unos 35 minutos, más 8 del puente, antes del **miércoles 4 a las 22:00**. Uno: Examen B, 듣기 1 a 20, **una sola escucha**, sin pausar, desde el ítem 1 hasta que el locutor anuncie el 21. Marcan al momento y pasan las respuestas al formulario, que se corrige solo. **Recién después**, segunda escucha con el 대본, solo de las que fallaron. Dos: un audio de 2 minutos en el grupo resumiendo en coreano un diálogo del 13 al 16, con sus palabras y al menos tres palabras de hoy; el modelo está en la sección 5. Tres, el puente a la clase 4: leen las 10 fórmulas del 51 en el kit, página 3, y escriben **a mano** el 51 del Examen B en 4 minutos; la foto me la mandan **por privado**, no al grupo, porque la corregimos anónima en la clase 4, y cada uno recibe la suya corregida cuando la reescriba en la tarea de la clase 4. Y todos los días, 5 minutos de shadowing con el audio de B, después del formulario: es parte de la tarea, aunque no se entrega. La clase 4 abre con el **quiz 3**.»
+- **L27 · Tarea (2'):** «Unos 35 minutos, más 8 del puente, antes del **miércoles 11 a las 22:00**. Uno: Examen B, 듣기 1 a 20, **una sola escucha**, sin pausar, desde el ítem 1 hasta que el locutor anuncie el 21. Marcan al momento y pasan las respuestas al formulario, que se corrige solo. **Recién después**, segunda escucha con el 대본, solo de las que fallaron. Dos: un audio de 2 minutos en el grupo resumiendo en coreano un diálogo del 13 al 16, con sus palabras y al menos tres palabras de hoy; el modelo está en la sección 5. Tres, el puente a la clase 4: leen las 10 fórmulas del 51 en el kit, página 3, y escriben **a mano** el 51 del Examen B en 4 minutos; la foto me la mandan **por privado**, no al grupo, porque la corregimos anónima en la clase 4, y cada uno recibe la suya corregida cuando la reescriba en la tarea de la clase 4. Y todos los días, 5 minutos de shadowing con el audio de B, después del formulario: es parte de la tarea, aunque no se entrega. La clase 4 abre con el **quiz 3**.»
 - **L28 (KO, 20 s):** «오늘 정말 잘했어요. 12분 동안 한 번만 들었어요! 화이팅!» · «감사합니다!»
 - **22:00:** "Finalizar reunión para todos".
 
@@ -340,7 +340,7 @@ Que cada alumno salga con un **método de tres tiempos para 1–20** (antes: leo
 **Regla de corrección:** esta semana se corrige al vuelo **solo** lo que cambia la respuesta de un ítem (3, 5, 6, 7, 8). El resto se anota para el quiz 3 o la línea personal.
 
 ### C.8 Ítems y textos modelo originales (Banco Chingu)
-*Todos originales, con el formato del examen. Los dictados, el ítem puente y los guiones los "lee" una voz (la tuya o la de un alumno): anuncia siempre «남자:» / «여자:». ⚑ D-S3-1: revisa el coreano de todo este apartado antes del vie 16 oct.*
+*Todos originales, con el formato del examen. Los dictados, el ítem puente y los guiones los "lee" una voz (la tuya o la de un alumno): anuncia siempre «남자:» / «여자:». ⚑ D-S3-1: revisa el coreano de todo este apartado antes del vie 23 oct.*
 
 **P1 · Ítem puente -는데요 (tipo 9–12; bloque 4)** · ※ 다음 대화를 잘 듣고 여자가 이어서 할 행동으로 알맞은 것을 고르십시오.
 > 남자: 지은 씨, 다음 주 회의 준비는 다 됐어요?
@@ -497,10 +497,10 @@ Pregunta del cuaderno · 여자가 이어서 할 행동: ① 자료의 숫자를
 **Corrección de 쓰기 esta semana (E.8)**
 | Qué | Tipo | Cuándo | Tiempo |
 |---|---|---|---|
-| Fichas de 10 expresiones (S2) | Códigos | **mar 27 oct** (antes de la clase) | ~25' |
-| 51 del Examen B (puente a la S4) | Solo eliges 3 anónimos para la S4 | **jue 5 nov, por la mañana** (vence el mié 4, 22:00) ⚑ D-S3-10 | ~10' |
+| Fichas de 10 expresiones (S2) | Códigos | **mar 3 nov** (antes de la clase) | ~25' |
+| 51 del Examen B (puente a la S4) | Solo eliges 3 anónimos para la S4 | **jue 12 nov, por la mañana** (vence el mié 11, 22:00) ⚑ D-S3-10 | ~10' |
 
-**Cuándo recibe cada alumno la corrección personal de su 51 de B** (la ficha promete corrección personal de la escritura): no esta semana. El jueves 5 el grupo ve 3 respuestas corregidas en vivo con la rúbrica, y en la tarea de la S4 cada uno **reescribe su 51 de B** y lo recibe corregido **línea a línea el mar 10 nov** (E.8; guía S4, ajuste 2 y D4-11, pendiente de tu aprobación). Carga total de 쓰기 de esta semana: ~35' (25' de fichas + 10' de selección), más ≈ 12' de audios. Si alguien pregunta por su 51, dilo así: «Te llega corregido línea a línea cuando lo reescribas en la tarea de la clase 4.»
+**Cuándo recibe cada alumno la corrección personal de su 51 de B** (la ficha promete corrección personal de la escritura): no esta semana. El jueves 12 el grupo ve 3 respuestas corregidas en vivo con la rúbrica, y en la tarea de la S4 cada uno **reescribe su 51 de B** y lo recibe corregido **línea a línea el mar 17 nov** (E.8; guía S4, ajuste 2 y D4-11, pendiente de tu aprobación). Carga total de 쓰기 de esta semana: ~35' (25' de fichas + 10' de selección), más ≈ 12' de audios. Si alguien pregunta por su 51, dilo así: «Te llega corregido línea a línea cuando lo reescribas en la tarea de la clase 4.»
 
 **Audio de 2 minutos:** se escuchan a 1,5×, sin corrección línea a línea: una línea por alumno en el grupo (plantilla en C.16). Si hay un error que cambia el sentido (-(으)ㄹ게요 en tercera persona, 싶어요 por 싶어 해요), va por privado.
 
@@ -510,17 +510,17 @@ Pregunta del cuaderno · 여자가 이어서 할 행동: ① 자료의 숫자를
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | | ✓ / — | ✓ / — | | | 1–3 / 4–8 / 9–12 | ✓ / — | | sí / no | ✓ / — | ✓ / — | /4 | |
 
-Asistencia en vivo y "grabación + tarea" en **columnas separadas** hasta que decidas qué cuenta para el certificado **[regla del certificado: pendiente de decisión de Jay]**. La tarea núcleo de la S3 se registra como 1 (completa y antes del jue 5, 21:00) · 0,5 (incompleta o tarde) · 0 (propuesta E.2, DECISIÓN DE JAY 3); la ruta intensiva no suma ni resta.
+Asistencia en vivo y "grabación + tarea" en **columnas separadas** hasta que decidas qué cuenta para el certificado **[regla del certificado: pendiente de decisión de Jay]**. La tarea núcleo de la S3 se registra como 1 (completa y antes del jue 12, 21:00) · 0,5 (incompleta o tarde) · 0 (propuesta E.2, DECISIÓN DE JAY 3); la ruta intensiva no suma ni resta.
 
 **Qué entra en el quiz 3** (lo redacta la guía de la S4, con su clave; E.3): 2 palabras del núcleo de esta semana (formato 빈칸 o 비슷한 의미) · 1 de gramática (-(으)ㄹ게요 frente a -(으)ㄹ 거예요 en tercera persona, o -고 싶어 하다) · 1 de estrategia ("¿qué anotas con símbolos?") · 1 ítem 9–12 leído por Jay ("¿qué hará?"). El cuaderno ya lo anuncia así.
 
 ### C.15 Mensajes para el grupo (listos para pegar)
 
-**a) Post-clase · jue 29 oct, después de subir la grabación**
+**a) Post-clase · jue 5 nov, después de subir la grabación**
 ```
 ¡Gracias por la clase de hoy, chingus! 🎧 12 minutos, una sola escucha: ¡lo lograron!
 Grabación: [link] (las salas no se graban)
-Tarea · antes del miércoles 4 de noviembre, 22:00 (hora Chile) · unos 35 minutos + 8 del puente:
+Tarea · antes del miércoles 11 de noviembre, 22:00 (hora Chile) · unos 35 minutos + 8 del puente:
 1) Examen B · 듣기 1–20 · UNA sola escucha, sin pausar (desde el ítem 1 hasta que el locutor anuncie el 21). Marca al momento y pasa tus respuestas al formulario: [link]. Después, segunda escucha con el 대본 SOLO de las que fallaste.
 2) Audio de 2 minutos aquí en el grupo: resume en coreano un diálogo de 13–16 del Examen B, con tus palabras y al menos 3 palabras de la semana. Sin leer el 대본 (modelo en la sección 5 del cuaderno).
 3) Puente a la clase 4: lee las 10 fórmulas del 51 (kit, pág. 3) y escribe A MANO el 51 del Examen B (㉠ y ㉡) en 4 minutos. La foto me la mandas POR PRIVADO, no al grupo: lo corregimos anónimo en la clase 4, y tu corrección personal llega cuando lo reescribas en la tarea de la clase 4.
@@ -529,24 +529,24 @@ Meta 3: 14/20 · Meta 4–5: 16/20 + 21–24 con dos escuchas.
 La clase 4 abre con el quiz 3. 잘 못 들었어요? 다음 문제로 넘어갈게요! 화이팅!
 ```
 
-**b) Recordatorio · mar 27 oct, 18:00**
+**b) Recordatorio · mar 3 nov, 18:00**
 ```
-¡Hola, chingus! Para la clase del jueves 29 (듣기 I) necesitan 3 cosas:
+¡Hola, chingus! Para la clase del jueves 5 (듣기 I) necesitan 3 cosas:
 1) Del Examen C: el cuadernillo de 듣기 (PDF) y su MP3. NO lo abran todavía ni miren la parte de 듣기 de la clave: el jueves hacemos 1–12 como en el examen. Si pueden, impriman las páginas de las preguntas 1–12 (o ténganlas en otra pantalla).
 2) El 답안지 de la casa impreso (o una hoja numerada del 1 al 12) y lápiz.
 3) Audífonos.
 Y recuerden: el formulario de C 읽기 1–20 vence mañana miércoles a las 22:00. 화이팅!
 ```
 
-**c) Privado · a quien faltó (vie 30 oct)**
+**c) Privado · a quien faltó (vie 6 nov)**
 ```
 ¡Hola, [nombre]! Te extrañamos el jueves 🙏 La grabación está en el grupo. Te pido dos cosas:
 1) El mini-simulacro por tu cuenta: Examen C, 듣기 1–12, UNA escucha y sin pausar (antes de ver la grabación). Cuenta con la clave que aparece en la grabación (lámina "정답 · C 1–12"), no con la clave oficial de C, y mándame tu número por aquí (por ejemplo, 8/12).
-2) La misma tarea del grupo (B 1–20, audio de 2 minutos y el 51 de B) antes del miércoles 4, 22:00.
+2) La misma tarea del grupo (B 1–20, audio de 2 minutos y el 51 de B) antes del miércoles 11, 22:00.
 Para el quiz 2: [PLACEHOLDER: cómo lo rinde, DECISIÓN DE JAY 3]. ¡화이팅!
 ```
 
-**d) Privado · rescate (vie 30 oct; a quien bajó de 6/12 hoy o tuvo C en 듣기 en el diagnóstico; C.10)**
+**d) Privado · rescate (vie 6 nov; a quien bajó de 6/12 hoy o tuvo C en 듣기 en el diagnóstico; C.10)**
 ```
 ¡Hola, [nombre]! Gracias por el esfuerzo del jueves 💙 Tu mini-simulacro me dice que 듣기 todavía va rápido para ti, y eso es normal a esta altura. Esta semana te propongo una versión a tu medida:
 1) Examen B, 듣기 1–12 (no 1–20), una sola escucha, con tu hoja de símbolos al lado. Mismo formulario (deja 13–20 en blanco).
@@ -630,7 +630,7 @@ Lo que más te va a subir el 듣기 son las horas de escucha: 5 minutos de shado
 - Mensaje al enviar: "Tu puntaje es de una escucha: ese es tu número real. Ahora, segunda escucha con el 대본 solo de las que fallaste."
 
 **51 del Examen B (puente) · cómo eliges los 3 anónimos para la S4 (≈ 10', E.8)**
-Uno que sume (fórmulas del kit bien usadas y el registro del texto), uno con **error de registro** (-아/어요 en un aviso formal) y uno con **error de contenido** (el espacio no responde a lo que viene después del paréntesis). No se corrige nada todavía: la corrección es en vivo en la S4 con la rúbrica, y la personal llega con el 51 reescrito de la tarea de la S4 (línea a línea, mar 10 nov; C.14).
+Uno que sume (fórmulas del kit bien usadas y el registro del texto), uno con **error de registro** (-아/어요 en un aviso formal) y uno con **error de contenido** (el espacio no responde a lo que viene después del paréntesis). No se corrige nada todavía: la corrección es en vivo en la S4 con la rúbrica, y la personal llega con el 51 reescrito de la tarea de la S4 (línea a línea, mar 17 nov; C.14).
 
 *Rúbrica del 51–52 (E.8; 5 puntos por espacio; ⚑ E-8: la guía oficial publica las categorías, no estas bandas)*
 | Puntos | El espacio… |
@@ -646,7 +646,7 @@ Uno que sume (fórmulas del kit bien usadas y el registro del texto), uno con **
 
 ### C.17 Guion de slides (para armar el deck sin inventar)
 
-**Base y reglas.** No hay deck S3 de TOPIK II en el repo; se arma con esta tabla y la plantilla de la casa (plazo N−2: vie 16 oct). Acento azul `#4236F6`, cabeceras navy `#003478`, **nunca rojo** (tampoco en ✘ ni en las marcas del -는데요: resaltado en azul). **Cero romanización.** El Examen A se muestra desde el escaneo de tu PC (examen oficial en pantalla, publicado); **no** se pega en el deck ningún ítem de B, C, D o E, ni páginas del libro comercial de simulacros.
+**Base y reglas.** No hay deck S3 de TOPIK II en el repo; se arma con esta tabla y la plantilla de la casa (plazo N−2: vie 23 oct). Acento azul `#4236F6`, cabeceras navy `#003478`, **nunca rojo** (tampoco en ✘ ni en las marcas del -는데요: resaltado en azul). **Cero romanización.** El Examen A se muestra desde el escaneo de tu PC (examen oficial en pantalla, publicado); **no** se pega en el deck ningún ítem de B, C, D o E, ni páginas del libro comercial de simulacros.
 
 | L | Título | En pantalla | Nota | Fuente |
 |---|---|---|---|---|
@@ -676,7 +676,7 @@ Uno que sume (fórmulas del kit bien usadas y el registro del texto), uno con **
 | 24 | ¿Dónde se fueron mis puntos? | **저는 12문제 중에 ___문제를 맞혔어요.** (si quieres) **___번이 어려웠어요.** · tabla de arreglos por tipo (C.3, bloque 12) · Meta B: 3 → 14/20 · 4–5 → 16/20 | — | Nueva |
 | 25 | La fórmula del día | Antes: leo y predigo, ♂/♀ · Durante: 2–3 palabras con símbolos · Después: marco en 3 s y suelto | — | Nueva |
 | 26 | Las 3 frases de hoy | 다시 한번 말씀해 주시겠어요? / 남자는 회의 자료를 준비할 거예요. / 여자는 환불을 받고 싶어 해요. | Coro; de aquí sale el clip | Diseño B.12 |
-| 27 | Tarea · antes del mié 4 nov, 22:00 | 1 B 듣기 1–20 una escucha → formulario (20') + 2.ª escucha con 대본 (8') · 2 Audio de 2' al grupo (7') · Puente: kit pág. 3 + 51 de B a mano, 4' → privado a Jay · Todos los días: shadowing 5' · Metas 3 / 4–5 | — | Nueva |
+| 27 | Tarea · antes del mié 11 nov, 22:00 | 1 B 듣기 1–20 una escucha → formulario (20') + 2.ª escucha con 대본 (8') · 2 Audio de 2' al grupo (7') · Puente: kit pág. 3 + 51 de B a mano, 4' → privado a Jay · Todos los días: shadowing 5' · Metas 3 / 4–5 | — | Nueva |
 | 28 | 수고했어요! 화이팅! | "La clase 4 abre con el quiz 3" · 감사합니다 | — | Nueva |
 | Extra A | D3 completo | Las 3 líneas + opciones | Emergencia 1 | Banco Chingu |
 | Extra B | Números al oído | 6 cifras para escribir en el chat (C.11) | Emergencia 3 | Nueva |
@@ -687,26 +687,26 @@ Uno que sume (fórmulas del kit bien usadas y el registro del texto), uno con **
 
 | # | Qué | Por qué | Quién · cuándo |
 |---|---|---|---|
-| D-S3-1 | ⚑ **Todo el coreano original de esta guía y del cuaderno** (quiz 2, P1, D1–D3, guiones A y B, tarjetas R2, diálogos modelo 1–2, ejercicios 6.2–6.10, resumen modelo) | Diseño D-1. Puntos finos: 한 치수 큰 걸로 (D2; ¿o 한 사이즈 큰 걸로?) · 체크인을 밤 열한 시쯤 하면 안 될까요? (diálogo 1; se mantiene -(으)면 안 될까요? porque es la forma de la semana) · 김 대리님 dicho por un superior (guion B; en muchas empresas se dice 김 대리 sin 님) · 이 상품은 교환은 안 되고 환불만 가능해요 (6.4) · -거든요 en 6.8 · el orden 나-라-다-가 del quiz 2 (ítem 5). Corregido en la rev. 1.3: 6.3.3 (갈래요?), 6.5.5 (empleado: 창가 자리는 없는데요), 6.8.1 ② (회의 시간을 줄이는 것이 좋다), D2 (지난주에). Ya corregido en la rev. 1.1: 안내 말씀드립니다 (junto, 6.7) · 12문제 중에 ___문제를 맞혔어요 (맞히다, no 맞다) · 6.8.1 reescrito para que la correcta no repita las palabras del audio | Jay · vie 16 oct |
+| D-S3-1 | ⚑ **Todo el coreano original de esta guía y del cuaderno** (quiz 2, P1, D1–D3, guiones A y B, tarjetas R2, diálogos modelo 1–2, ejercicios 6.2–6.10, resumen modelo) | Diseño D-1. Puntos finos: 한 치수 큰 걸로 (D2; ¿o 한 사이즈 큰 걸로?) · 체크인을 밤 열한 시쯤 하면 안 될까요? (diálogo 1; se mantiene -(으)면 안 될까요? porque es la forma de la semana) · 김 대리님 dicho por un superior (guion B; en muchas empresas se dice 김 대리 sin 님) · 이 상품은 교환은 안 되고 환불만 가능해요 (6.4) · -거든요 en 6.8 · el orden 나-라-다-가 del quiz 2 (ítem 5). Corregido en la rev. 1.3: 6.3.3 (갈래요?), 6.5.5 (empleado: 창가 자리는 없는데요), 6.8.1 ② (회의 시간을 줄이는 것이 좋다), D2 (지난주에). Ya corregido en la rev. 1.1: 안내 말씀드립니다 (junto, 6.7) · 12문제 중에 ___문제를 맞혔어요 (맞히다, no 맞다) · 6.8.1 reescrito para que la correcta no repita las palabras del audio | Jay · vie 23 oct |
 | D-S3-2 | ⚑ **E-1: 1–20 una sola escucha; 21–50, dos** | El cuaderno lo afirma (es publicado), y el reto 4–5 (B 21–24 con dos escuchas) depende de eso. Confirmado por el anuncio del locutor del Examen A antes de la S1 (diseño) | Jay · antes de la S1 |
-| D-S3-3 | **El cuadernillo y el MP3 de 듣기 del Examen C** · resuelto | El recurso publicado de la S2 dice "Examen C (읽기 + clave)". Para el mini-simulacro cada alumno necesita el cuadernillo de 듣기 y el MP3 (y no mirar la parte de 듣기 de la clave). **Ya integrado** en la guía de la S2 (L26, campo 13 y O-17) y en su cuaderno (sección 9); aquí queda el recordatorio del mar 27 (C.15b) y el plan B de C.13 | Informativo |
-| D-S3-4 | ⚑ **Duración real de C 1–12 y minuto del ítem 1** | El programa publicado dice "unos 12 minutos"; depende de la edición. Hasta 11:15, todo cabe; de 11:15 a 12:30, el bloque 10 se hace en 1 minuto; más de 12:30, el mini-simulacro es 1–10 (presupuesto en el bloque 9) | Jay · mar 27 oct |
+| D-S3-3 | **El cuadernillo y el MP3 de 듣기 del Examen C** · resuelto | El recurso publicado de la S2 dice "Examen C (읽기 + clave)". Para el mini-simulacro cada alumno necesita el cuadernillo de 듣기 y el MP3 (y no mirar la parte de 듣기 de la clave). **Ya integrado** en la guía de la S2 (L26, campo 13 y O-17) y en su cuaderno (sección 9); aquí queda el recordatorio del mar 3 (C.15b) y el plan B de C.13 | Informativo |
+| D-S3-4 | ⚑ **Duración real de C 1–12 y minuto del ítem 1** | El programa publicado dice "unos 12 minutos"; depende de la edición. Hasta 11:15, todo cabe; de 11:15 a 12:30, el bloque 10 se hace en 1 minuto; más de 12:30, el mini-simulacro es 1–10 (presupuesto en el bloque 9) | Jay · mar 3 nov |
 | D-S3-5 | **Respuestas de A 11–20** · resuelto | Verificadas el 27 sept con el 정답 및 배점표 oficial del 제64회 (pág. 1 del PDF de hojas de respuesta de tu PC): 11 ① · 12 ② · 13 ③ · 14 ① · 15 ③ · 16 ③ · 17 ① · 18 ② · 19 ① · 20 ②. La misma tabla oficial (pág. 2) confirma, para esta edición, el reparto de 쓰기 51 = 10 · 52 = 10 · 53 = 30 · 54 = 50 (parte de ⚑ E-1 del diseño) | Informativo |
 | D-S3-6 | ⚑ **"En 9–12, 여자가; en 17–20, 남자의"** | Contrastado el 27 sept en los cuadernillos del 제64회 (Examen A) y del 제41회 de tu PC: en los dos, 9–12 pregunta por 여자 y 17–20 por 남자, subrayados. Por eso todos los ítems 9–12 del Banco Chingu (P1, guiones A y B, diálogo 1, 6.4) preguntan por la mujer. Confirmar con B y C | Jay · al confirmar el banco (G.1b) |
-| D-S3-7 | **Nombre del archivo del alumno** | **Resuelto en el control final (27 sept):** se queda `S0N_Material_Alumno.md` en las 8 semanas (convención de las Fases 2–4); el diseño (§0, G.2, G.3) y el README de `alumnos/` ya lo dicen. Nota original: Esta guía se escribió con `alumnos/S03_Material_Alumno.md` (instrucción del encargo). El README de `alumnos/` y el diseño (G.3) dicen `S0N_Cuaderno_Estrategia.md`. Hay que unificar: renombrar o corregir el README | Dirección Académica · antes del vie 16 oct |
+| D-S3-7 | **Nombre del archivo del alumno** | **Resuelto en el control final (27 sept):** se queda `S0N_Material_Alumno.md` en las 8 semanas (convención de las Fases 2–4); el diseño (§0, G.2, G.3) y el README de `alumnos/` ya lo dicen. Nota original: Esta guía se escribió con `alumnos/S03_Material_Alumno.md` (instrucción del encargo). El README de `alumnos/` y el diseño (G.3) dicen `S0N_Cuaderno_Estrategia.md`. Hay que unificar: renombrar o corregir el README | Dirección Académica · antes del vie 23 oct |
 | D-S3-8 | **Ediciones de los Exámenes B y C** | El cuaderno dice "Examen B (제___회, el de tu kit)", igual que el cuaderno de la S2 con C y D. Completar con la edición confirmada (G.1b, DECISIÓN DE JAY 6) | Producción · al cerrar G.1b |
-| D-S3-9 | **Clips 🔊 del cuaderno** | Los 22 links del cuaderno (19 palabras + 3 frases clave) siguen la regla de la casa y los 22 archivos existen en `public/audio/kr` (generados el 27 sept, G.2; verificados: cada nombre decodifica al texto exacto). **Publicados** (commit `6c2e7943`, ya en `origin/main`; revisado el 27 sept). Conviene escuchar una vez 회의, 동료, 출장 y 접수 (la voz lee sola la pronunciación) **Control final (27 sept):** los archivos están en `origin/main`, pero el sitio en vivo (www.academiaseul.com, servido por Vercel) respondía **404** para 194 de los 195 clips que enlazan los 8 cuadernos. **Rev. 1.4 (tarde del 27 sept):** los 22 links de este cuaderno responden **200** con `audio/mpeg` en www.academiaseul.com; el deploy ya se arregló para esta semana. Queda solo la escucha de control | Jay · antes del vie 16 oct |
-| D-S3-10 | **Plazo del 51 del Examen B** · unificado con la S4 | E.4 dice mié 4 nov, 22:00 y E.8 pone la selección el mié 4; como el miércoles das Básico 2 a las 21:00 y el plazo vence a las 22:00, la selección pasa al **jue 5 por la mañana**. La guía de la S4 ya lo aplica (su C.2, C.14, L20 y D4-20). E.8 del diseño corregido en el control final (mié 4 → jue 5) | Dirección Académica · al revisar el diseño |
+| D-S3-9 | **Clips 🔊 del cuaderno** | Los 22 links del cuaderno (19 palabras + 3 frases clave) siguen la regla de la casa y los 22 archivos existen en `public/audio/kr` (generados el 27 sept, G.2; verificados: cada nombre decodifica al texto exacto). **Publicados** (commit `6c2e7943`, ya en `origin/main`; revisado el 27 sept). Conviene escuchar una vez 회의, 동료, 출장 y 접수 (la voz lee sola la pronunciación) **Control final (27 sept):** los archivos están en `origin/main`, pero el sitio en vivo (www.academiaseul.com, servido por Vercel) respondía **404** para 194 de los 195 clips que enlazan los 8 cuadernos. **Rev. 1.4 (tarde del 27 sept):** los 22 links de este cuaderno responden **200** con `audio/mpeg` en www.academiaseul.com; el deploy ya se arregló para esta semana. Queda solo la escucha de control | Jay · antes del vie 23 oct |
+| D-S3-10 | **Plazo del 51 del Examen B** · unificado con la S4 | E.4 dice mié 11 nov, 22:00 y E.8 pone la selección el mié 11; como el miércoles das Básico 2 a las 21:00 y el plazo vence a las 22:00, la selección pasa al **jue 12 por la mañana**. La guía de la S4 ya lo aplica (su C.2, C.14, L20 y D4-20). E.8 del diseño corregido en el control final (mié 11 → jue 12) | Dirección Académica · al revisar el diseño |
 | D-S3-11 | **Composición del quiz 2** | E.3 pide un ítem de 13–15 y B.4 "1 conector + 1 ítem 1–2". Se resolvió con el conector en formato 1–2 (ítem 3) y el 13–15 como ítem 5 | Informativo |
 | D-S3-12 | **Minutos de coreano hablado** | ≈ 5 por alumno esta semana (meta del diseño: 8), por los 12 minutos del mini-simulacro publicado. Lo compensa el audio de 2 minutos. Si quieres más, el bloque que se puede acortar es el 5 (réplicas) a favor de las salas | Informativo · DECISIÓN DE JAY si prefieres otro reparto |
-| D-S3-13 | **Formulario de B 듣기 1–20** | Plataforma (DECISIÓN DE JAY 7) y campos de hábitos (C.16). El link va en el mensaje post-clase | Producción · vie 16 oct |
-| D-S3-14 | **Canal del 51** | Por privado a ti (DECISIÓN DE JAY 4, recomendación del diseño): la corrección de la S4 es anónima y solo funciona si el grupo no vio los textos | Jay · antes del 12 oct |
-| D-S3-15 | **Quiz 2 de quien falta** | Mensaje C.15c con placeholder: depende de la regla de cálculo (E.2, DECISIÓN DE JAY 3) | Jay · antes del 15 oct |
-| D-S3-16 | ⚑ **Respuestas a -(으)면 안 될까요?** | El cuaderno solo pide reconocer 그럼요 · 네, 그렇게 하세요 (aceptar) y 죄송하지만… (negar). ¿Son las que quieres? | Jay · vie 16 oct |
-| D-S3-17 | ⚑ **Lectura de la jerarquía en A 12** | En el bloque 3 dices que él "la llama por su nombre con 씨 y le pide que se apure": es una lectura razonable del 대본 (él coordina), no un dato del examen. Si no te convence, usa solo D3 | Jay · vie 16 oct |
+| D-S3-13 | **Formulario de B 듣기 1–20** | Plataforma (DECISIÓN DE JAY 7) y campos de hábitos (C.16). El link va en el mensaje post-clase | Producción · vie 23 oct |
+| D-S3-14 | **Canal del 51** | Por privado a ti (DECISIÓN DE JAY 4, recomendación del diseño): la corrección de la S4 es anónima y solo funciona si el grupo no vio los textos | Jay · antes del 19 oct |
+| D-S3-15 | **Quiz 2 de quien falta** | Mensaje C.15c con placeholder: depende de la regla de cálculo (E.2, DECISIÓN DE JAY 3) | Jay · antes del 22 oct |
+| D-S3-16 | ⚑ **Respuestas a -(으)면 안 될까요?** | El cuaderno solo pide reconocer 그럼요 · 네, 그렇게 하세요 (aceptar) y 죄송하지만… (negar). ¿Son las que quieres? | Jay · vie 23 oct |
+| D-S3-17 | ⚑ **Lectura de la jerarquía en A 12** | En el bloque 3 dices que él "la llama por su nombre con 씨 y le pide que se apure": es una lectura razonable del 대본 (él coordina), no un dato del examen. Si no te convence, usa solo D3 | Jay · vie 23 oct |
 | D-S3-18 | **Salas con asignación manual** | Zoom no pre-asigna salas si los alumnos no entran con cuenta registrada; asignar 4 parejas toma ~30 s (ya está en el bloque 7) | Informativo |
 | D-S3-19 | **La grabación incluye el audio oficial de C** | 12 minutos del MP3 quedan en la grabación del grupo. Es el mismo archivo que cada alumno descargó de topik.go.kr; la grabación no se publica fuera del grupo | Informativo |
-| D-S3-20 | **Shadowing: ¿tarea u opcional?** | La ficha publica el shadowing de 5'/día como **tarea**; el diseño (B.4) lo había puesto en la ruta intensiva ("opcional, no suma ni resta"). Rev. 1.4: en la guía y el cuaderno va como **hábito diario de la tarea publicada, que no se entrega ni se registra** (la tarea que pondera es la sección oficial + la producción, como dice la ficha en "evaluación"). Si quieres que cuente: DECISIÓN DE JAY 3 (misma pregunta que el podcast de la S1, R-1) | Jay · antes del 29 oct |
+| D-S3-20 | **Shadowing: ¿tarea u opcional?** | La ficha publica el shadowing de 5'/día como **tarea**; el diseño (B.4) lo había puesto en la ruta intensiva ("opcional, no suma ni resta"). Rev. 1.4: en la guía y el cuaderno va como **hábito diario de la tarea publicada, que no se entrega ni se registra** (la tarea que pondera es la sección oficial + la producción, como dice la ficha en "evaluación"). Si quieres que cuente: DECISIÓN DE JAY 3 (misma pregunta que el podcast de la S1, R-1) | Jay · antes del 5 nov |
 | D-S3-21 | **Clave de C para quien falta** | La clave oficial de C trae 듣기 13–17, que son el mini-simulacro sorpresa de la S8 (guía S8, D-2). Rev. 1.4: quien falta o se queda sin profe corrige con la lámina L20 (solo 1–12) de la grabación, nunca con la clave oficial | Informativo |
 
 *Coreano de esta guía:* lo que se pide producir sale del vocabulario de la S3 y de lo que el TOPIK II da por sabido. Fuera de la lista C y solo para reconocer: 치수, 대리, 지사, 이어폰, 케이블, 체크인, 담당자, 영수증, 안내 데스크, 고객님, 성함 (glosados en el cuaderno donde aparecen).

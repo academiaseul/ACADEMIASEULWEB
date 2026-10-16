@@ -1,6 +1,6 @@
 # Semana 6 · Las preguntas difíciles y el triaje · 지금, 나중에, 찍기
 ### TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · con Jay (김재희 선생님)
-**Jueves 19 de noviembre · 21:00 hora de Chile** (18:00 México · 19:00 Colombia, Perú y EE. UU. Este · 21:00 Argentina · 01:00 del viernes en España) · **viernes 20, 09:00 en Corea: el 수능 fue ayer**
+**Jueves 26 de noviembre · 21:00 hora de Chile** (18:00 México · 19:00 Colombia, Perú y EE. UU. Este · 21:00 Argentina · 01:00 del viernes en España) · **viernes 27, 09:00 en Corea: el 수능 fue el jueves pasado**
 
 > **Antes de entrar:** ten abierto el **Examen C** que descargaste en la semana 2 (lo vamos a mirar en pantalla) y este cuaderno en la **sección 7**, que es la que usas en clase y en tu sala de Zoom.
 > **No leas antes de la clase la sección 7.4** (el contrarreloj): es tu práctica cronometrada y solo sirve si la lees por primera vez con el reloj corriendo.
@@ -49,7 +49,7 @@ La semana 2 aprendiste a resolver rápido las preguntas 1–20. Hoy entras a la 
 | 20 | **저출산** [저출싼] | baja natalidad | 저출산은 사회 전체의 문제이기도 하다. | [🔊](https://www.academiaseul.com/audio/kr/eca080ecb69cec82b0.mp3) |
 | 21 | **조선** | Joseon, la dinastía del rey Sejong | 세종은 조선의 네 번째 왕이다. | [🔊](https://www.academiaseul.com/audio/kr/eca1b0ec84a0.mp3) |
 | 22 | **세종대왕** | el rey Sejong, creador del Hangul | 세종대왕은 훈민정음을 만들었다. | [🔊](https://www.academiaseul.com/audio/kr/ec84b8eca285eb8c80ec9995.mp3) |
-| 23 | **수능** | examen nacional de admisión universitaria | 어제 한국에서 수능이 있었어요. | [🔊](https://www.academiaseul.com/audio/kr/ec8898eb8aa5.mp3) |
+| 23 | **수능** | examen nacional de admisión universitaria | 지난주에 한국에서 수능이 있었어요. | [🔊](https://www.academiaseul.com/audio/kr/ec8898eb8aa5.mp3) |
 | 24 | **수험생** | quien rinde un examen | 수험생 여러분, 힘내세요! | [🔊](https://www.academiaseul.com/audio/kr/ec8898ed9798ec839d.mp3) |
 
 **El código de los titulares (para reconocer: te ahorra segundos en 읽기 25–27)**
@@ -518,9 +518,9 @@ Dos compañeros van a leer un debate breve, **dos veces**, como en el examen. T�
 
 ---
 
-## 8. Nota cultural · Ayer fue el 수능, y hoy se debate la natalidad
+## 8. Nota cultural · La semana pasada fue el 수능, y hoy se debate la natalidad
 
-**Ayer, en Corea, fue el día del 수능.** El jueves 19 de noviembre, cuando aquí era todavía la noche del miércoles, cientos de miles de 수험생 rindieron el examen de admisión universitaria. En los días previos es costumbre que familias y amigos les regalen **엿** [🔊](https://www.academiaseul.com/audio/kr/ec97bf.mp3) (caramelo de malta) o **찹쌀떡** [🔊](https://www.academiaseul.com/audio/kr/ecb0b9ec8c80eb96a1.mp3) (pastel de arroz glutinoso): son pegajosos, y **붙다** [🔊](https://www.academiaseul.com/audio/kr/ebb699eb8ba4.mp3) significa "pegarse" y también "aprobar". Y la tradición dice que antes del examen no se come **미역국** [🔊](https://www.academiaseul.com/audio/kr/ebafb8ec97adeab5ad.mp3), la sopa de algas que se toma en los cumpleaños: es resbalosa, y **미끄러지다** ("resbalarse") también se usa para decir "reprobar". Son costumbres que nacieron alrededor del 수능 y que hoy se extienden a otros exámenes importantes. Si quieres la historia completa, lee el artículo del blog: **academiaseul.com/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana**.
+**El jueves pasado, en Corea, fue el día del 수능.** El jueves 19 de noviembre, cuando aquí era todavía la noche del miércoles, cientos de miles de 수험생 rindieron el examen de admisión universitaria. En los días previos es costumbre que familias y amigos les regalen **엿** [🔊](https://www.academiaseul.com/audio/kr/ec97bf.mp3) (caramelo de malta) o **찹쌀떡** [🔊](https://www.academiaseul.com/audio/kr/ecb0b9ec8c80eb96a1.mp3) (pastel de arroz glutinoso): son pegajosos, y **붙다** [🔊](https://www.academiaseul.com/audio/kr/ebb699eb8ba4.mp3) significa "pegarse" y también "aprobar". Y la tradición dice que antes del examen no se come **미역국** [🔊](https://www.academiaseul.com/audio/kr/ebafb8ec97adeab5ad.mp3), la sopa de algas que se toma en los cumpleaños: es resbalosa, y **미끄러지다** ("resbalarse") también se usa para decir "reprobar". Son costumbres que nacieron alrededor del 수능 y que hoy se extienden a otros exámenes importantes. Si quieres la historia completa, lee el artículo del blog: **academiaseul.com/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana**.
 
 > **시험 잘 보세요!** [🔊](https://www.academiaseul.com/audio/kr/ec8b9ced979820ec9e9820ebb3b4ec84b8ec9a94.mp3) — ¡Que te vaya bien en el examen! · **수능 대박!** [🔊](https://www.academiaseul.com/audio/kr/ec8898eb8aa520eb8c80ebb095.mp3) — ¡Que te vaya increíble en el 수능! (lo que se dice a un 수험생)
 
@@ -543,7 +543,7 @@ Dos compañeros van a leer un debate breve, **dos veces**, como en el examen. T�
 - Cronómetro a la vista, sin diccionario, celular en otra pieza. Respuestas en el 답안지 de la casa (o en una hoja).
 - **Hazlo a saltos, como en el examen real:** 21–25 en 10' · primera pasada de 26–50 en unos 30' (지금 se resuelven; 나중에 se marcan con un círculo; 찍기 se marcan ya) · 10' para volver a los 나중에 y revisar que **nada** quede en blanco.
 - Llena la **hoja de triaje** (abajo) mientras avanzas.
-- Pasa tus respuestas, tu tiempo y tu triaje al **formulario del Examen D** (se corrige solo) **antes del miércoles 25 de noviembre, 22:00** (hora de Chile). Así Jay llega a la clase 7 sabiendo cómo te fue.
+- Pasa tus respuestas, tu tiempo y tu triaje al **formulario del Examen D** (se corrige solo) **antes del miércoles 2 de diciembre, 22:00** (hora de Chile). Así Jay llega a la clase 7 sabiendo cómo te fue.
 - **Meta 3:** 21–35 con calma y bien hechas; 36–50 con triaje estricto (90 segundos máximo por pregunta) y **cero en blanco**.
 - **Meta 4–5:** las 30 completas, con al menos 5 minutos al final para volver a tus 나중에.
 - **Tu número para 21–50** (una cuenta, no una promesa): toma tu corte de 읽기 de la tabla de la semana 1, réstale los puntos de tu 1–20 del Examen C (semana 2) y divide por 2. Ejemplo 3급: (45 − 28) ÷ 2 → **9 de 30**. Ejemplo 4급: (55 − 32) ÷ 2 → **12 de 30**. Mi número: ___ de 30.
@@ -562,9 +562,9 @@ Dos compañeros van a leer un debate breve, **dos veces**, como en el examen. T�
 - Ojo: **no copies la consigna** (ni "현대 사회에서 경쟁은 피하기 어렵다" ni la pregunta): dilas con tus palabras. La misma consigna lo advierte (단, 문제를 그대로 옮겨 쓰지 마시오: "no copies la pregunta tal cual"), y en el examen copiar resta.
 - Las preguntas guía van **en orden**: la ① (por qué hace falta la competencia) y la ② (qué problemas trae cuando es excesiva) son los dos lados del debate; la ③ (qué esfuerzo hace falta) es el cierre. En el 서론 todavía no las respondes.
 - Reglas: 한다체 siempre (nada de -아/어요) · sin "저는" · no respondas todavía las preguntas guía (eso es del 본론).
-- **Foto al chat privado con Jay antes del lunes 23 de noviembre, 22:00.** Jay te lo devuelve con códigos el martes 24, y dos 서론 (anónimos) se corrigen en pantalla en la clase 7.
+- **Foto al chat privado con Jay antes del lunes 30 de noviembre, 22:00.** Jay te lo devuelve con códigos el martes 1, y dos 서론 (anónimos) se corrigen en pantalla en la clase 7.
 
-*Los plazos del lunes y del miércoles son para que Jay alcance a corregir antes de la clase. Para la nota, cuenta entregar todo antes de la clase 7 (jueves 26, 21:00).*
+*Los plazos del lunes y del miércoles son para que Jay alcance a corregir antes de la clase. Para la nota, cuenta entregar todo antes de la clase 7 (jueves 3, 21:00).*
 
 ### Ruta intensiva · opcional (no suma ni resta)
 - **Examen D · 듣기 21–50** con dos escuchas por pregunta, como en el examen, **sin pausar**. Después, un **audio de 2 minutos** en coreano, al grupo, explicando la actitud del hablante en dos preguntas de 45–50 (남자는 ___에 대해 ___고 있어요. 왜냐하면…). **Meta 3:** 21–30 · **Meta 4–5:** 21–50, con foco en 41–50. **Si solo te da el tiempo para una parte** (≈ 15 minutos): 31–32 y 45–50, las de actitud que practicamos hoy. Es la única vez antes del simulacro que escuchas un debate y una conferencia de verdad: vale la pena.
@@ -618,8 +618,8 @@ Dos compañeros van a leer un debate breve, **dos veces**, como en el examen. T�
 Si tus 지금 aciertan **menos** que tus 나중에, tu triaje está al revés: estás marcando "지금" preguntas que en realidad te cuestan. Eso es justo lo que queremos descubrir.
 
 ### Entregables (marca cuando esté listo)
-- [ ] Formulario del Examen D · 읽기 21–50 + tu triaje (antes del **mié 25 nov, 22:00**)
-- [ ] Foto de tu 서론 (Meta 4–5: + las tres ideas) al chat con Jay (antes del **lun 23 nov, 22:00**)
+- [ ] Formulario del Examen D · 읽기 21–50 + tu triaje (antes del **mié 2 dic, 22:00**)
+- [ ] Foto de tu 서론 (Meta 4–5: + las tres ideas) al chat con Jay (antes del **lun 30 nov, 22:00**)
 - [ ] *(Opcional)* Audio de 2 minutos sobre 듣기 45–50 · ficha de 15 titulares
 
 **La clase 7 empieza con el quiz 6:** 5 preguntas en 5 minutos sobre lo de hoy: un titular para pasar a oración, dos verbos de actitud, una decisión de triaje y una palabra de la semana. Tu mejor repaso: los ejercicios 6.1, 6.2 y 6.5.

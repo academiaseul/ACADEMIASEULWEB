@@ -57,12 +57,13 @@ function caja(parts, fill = TINT, border = AZUL) {
 }
 const espacio = (n = 120) => new Paragraph({ children: [run("", { size: 8 })], spacing: { after: n } });
 
-// ---- fechas de la cohorte (semana del 12 oct 2026, 8 semanas; Niños desde el 19) ----
+// ---- fechas de la cohorte (semana del 19 oct 2026, 8 semanas; corrida una semana por decisión de Jay el 12 oct 2026;
+//      Niños sigue igual: lun 19 oct → lun 7 dic) ----
 const DIAS = { Lunes: 0, Martes: 1, "Miércoles": 2, Jueves: 3, Viernes: 4, "Sábado": 5 };
 const MESES_ES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 const DIA_ABR = { Lunes: "lun", Martes: "mar", "Miércoles": "mié", Jueves: "jue", Viernes: "vie", "Sábado": "sáb" };
 function fechas(dia) {
-  const base = new Date(Date.UTC(2026, 9, 12) + (dia === "Lunes" ? 7 * 86400000 : 0)); // lunes 12 oct 2026; Niños (lunes) parte el 19: el 12 es feriado
+  const base = new Date(Date.UTC(2026, 9, 19)); // lunes 19 oct 2026: todas las clases (también Niños) parten esa semana
   const out = [];
   for (let w = 0; w < 8; w++) {
     const d = new Date(base.getTime() + (w * 7 + DIAS[dia]) * 86400000);
@@ -70,7 +71,8 @@ function fechas(dia) {
   }
   return out;
 }
-const FERIADO = "12 oct"; // Encuentro de Dos Mundos (Chile)
+const FERIADO = "8 dic"; // Inmaculada Concepción (Chile): cae en la clase 8 de los martes (Básico 1 martes y Conversacional 1)
+const esFeriado = (f) => (" " + f).endsWith(" " + FERIADO);
 
 function portada(titulo, koreano, subtitulo, lineas) {
   return [
@@ -115,7 +117,7 @@ async function programaCurso(curso) {
   ch.push(P(run(curso.descripcion)));
   ch.push(headTable(["Dato", "Detalle"], [
     ["Nivel", `${curso.cefr}${curso.requiere ? " · requiere " + curso.requiere : " · desde cero"}${curso.alias ? " · antes: " + curso.alias : ""}`],
-    ["Duración", `8 semanas · 1 clase en vivo por semana · 60 minutos · ${curso.cursoId === "ninos" ? "lunes 19 de octubre de 2026 → lunes 7 de diciembre de 2026 (el 12 de octubre es feriado en Chile)" : `${D.INICIO_LABEL} → ${D.FIN_LABEL.toLowerCase()}`}`],
+    ["Duración", `8 semanas · 1 clase en vivo por semana · 60 minutos · ${curso.cursoId === "ninos" ? "lunes 19 de octubre de 2026 → lunes 7 de diciembre de 2026" : `${D.INICIO_LABEL} → ${D.FIN_LABEL.toLowerCase()}`}`],
     ["Horario", clases.map(c => `${c.dia} ${c.horaChile} (hora Chile) · ${profeTxt(c)}`).join("  |  ")],
     ["Modalidad", "En vivo por Zoom · grabación disponible 24 h después de cada clase"],
     ["Material", curso.libro],
@@ -133,9 +135,9 @@ async function programaCurso(curso) {
     if (clases.length > 1) ch.push(H2(`Sección ${c.dia} ${c.horaChile} · ${profeTxt(c)}`));
     const fs8 = fechas(c.dia);
     ch.push(headTable(["#", "Fecha", "Clase", "Qué vemos"], curso.sesiones.map((s, i) => [
-      String(s.num), fs8[i] + (fs8[i].includes(FERIADO) ? " *" : ""), [{ t: s.titulo, o: { bold: true } }], s.desc,
+      String(s.num), fs8[i] + (esFeriado(fs8[i]) ? " *" : ""), [{ t: s.titulo, o: { bold: true } }], s.desc,
     ]), [500, 1300, 3000, 4560]));
-    if (fs8.some(f => f.includes(FERIADO))) ch.push(P(run(`* El ${FERIADO} es feriado en Chile; la clase se confirma con el grupo (se mantiene online o se recupera esa misma semana).`, { size: 18, italics: true, color: GREY }), { spacing: { before: 80 } }));
+    if (fs8.some(esFeriado)) ch.push(P(run(`* El ${FERIADO} es feriado en Chile: la fecha de esta clase está por confirmar y te la avisamos con tiempo.`, { size: 18, italics: true, color: GREY }), { spacing: { before: 80 } }));
     ch.push(espacio(80));
   }
 
@@ -233,9 +235,9 @@ async function programaGeneral() {
   ch.push(P(run(D.TZ_NOTA, { size: 18, italics: true, color: GREY }), { spacing: { before: 80 } }));
   ch.push(H2("Fechas de las 8 clases"));
   ch.push(headTable(["Curso", "1", "2", "3", "4", "5", "6", "7", "8"],
-    D.CLASES.map(c => [`${cursoDeClase(c).emoji} ${cursoDeClase(c).nombreCorto.split(" (")[0]} (${DIA_ABR[c.dia]})`, ...fechas(c.dia).map(f => f.replace(/^\S+ /, "") + (f.includes(FERIADO) ? "*" : ""))]),
+    D.CLASES.map(c => [`${cursoDeClase(c).emoji} ${cursoDeClase(c).nombreCorto.split(" (")[0]} (${DIA_ABR[c.dia]})`, ...fechas(c.dia).map(f => f.replace(/^\S+ /, "") + (esFeriado(f) ? "*" : ""))]),
     [2560, 850, 850, 850, 850, 850, 850, 850, 850]));
-  if (D.CLASES.some(c => fechas(c.dia).some(f => f.includes(FERIADO)))) ch.push(P(run(`* El ${FERIADO} es feriado en Chile; esa clase se confirma con el grupo.`, { size: 18, italics: true, color: GREY }), { spacing: { before: 80 } }));
+  if (D.CLASES.some(c => fechas(c.dia).some(esFeriado))) ch.push(P(run(`* El ${FERIADO} es feriado en Chile: esa clase está por confirmar.`, { size: 18, italics: true, color: GREY }), { spacing: { before: 80 } }));
 
   ch.push(H1("3. Cómo es una clase de 60 minutos", { pageBreakBefore: true }));
   ch.push(headTable(["Minutos", "Bloque", "Qué pasa"], [

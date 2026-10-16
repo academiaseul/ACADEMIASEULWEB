@@ -1,6 +1,6 @@
 # Semana 2 · K-pop y cultura fan · 케이팝과 팬 문화
 ### Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · con Abby (홍미영 선생님)
-**Martes 20 de octubre · 21:00 (hora de Chile) = miércoles 21, 09:00 en Corea · Módulo M01**
+**Martes 27 de octubre · 21:00 (hora de Chile) = miércoles 28, 09:00 en Corea · Módulo M01**
 
 > **Antes de la clase:** ten a mano la **foto de tu 최애** (o de tu cantante, actor o actriz coreano favorito) y los 3 datos que anotaste en la tarea de la semana 1. **Durante la clase** vas a usar la **sección 7**: ábrela antes de entrar a tu sala de Zoom, porque dentro de la sala no ves el chat general. Lo demás es para antes y después: leer, repasar y hacer la tarea.
 > **La clase es en coreano.** Abby habla solo coreano; el español está en las slides, en el chat y aquí. Si te pierdes, usa tus frases de supervivencia: **다시 한번 말해 주세요** (¿me lo repite?) · **천천히 말해 주세요** (más despacio, por favor) · **잘 모르겠어요** (no entiendo bien) · **잠깐만요!** (¡un momento!). ¿Te falta una palabra? Escríbela en español en el chat y Abby te la da en coreano.
@@ -381,7 +381,7 @@ Un fandom también es una **comunidad**: muchos fans organizan voluntariados y d
 
 ## 9. Tarea de la semana (≈ 30 minutos)
 
-**Plazo:** antes de la clase 3 · **martes 27 de octubre, 21:00 (hora de Chile)**. Todo se entrega en el **grupo de WhatsApp del curso**. Abby te responde en **48 horas**, por audio o por texto.
+**Plazo:** antes de la clase 3 · **martes 3 de noviembre, 21:00 (hora de Chile)**. Todo se entrega en el **grupo de WhatsApp del curso**. Abby te responde en **48 horas**, por audio o por texto.
 
 **1 · Audio de 90 segundos · 12 min** · nota de voz en el grupo
 **Recomienda una canción coreana:** de quién es, cómo es y por qué la recomiendas (con -아서/어서). Prepáralo con 5 palabras clave, no con un guion, y grábalo **sin leer**.

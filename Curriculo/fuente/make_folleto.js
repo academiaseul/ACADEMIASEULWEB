@@ -5,6 +5,8 @@
 // títulos azules #4236F6, logo azul en portada. Nunca rojo.
 // Uso: cd <scratchpad> && node curriculo/make_folleto.js
 // Salida: Curriculo/publico/Folleto_Cursos_Octubre_2026.docx (el PDF lo exporta el coordinador con Word).
+// 16 oct 2026: fechas al día con la cohorte corrida una semana (decisión de Jay, 12 oct): matrícula hasta el dom 18 oct,
+// inicio la semana del 19 (Niños sin cambios: lun 19 oct → lun 7 dic). El mar 8 dic es feriado en Chile: S8 de los martes [por confirmar].
 const fs = require("fs");
 const path = require("path");
 
@@ -111,14 +113,14 @@ const CURSOS = [
     ],
     fechaCol: "Fecha (mar y jue)",
     semanas: [
-      ["1", "13 y 15 oct", "가나다라 I · La sílaba", "Las vocales básicas y las consonantes simples, cómo se arma una sílaba y tus primeras palabras."],
-      ["2", "20 y 22 oct", "가나다라 II + 안녕하세요", "La consonante final (받침), las dobles y las vocales compuestas. Saludas y te presentas."],
-      ["3", "27 y 29 oct", "이게 뭐예요? · ¿Qué es esto?", "Preguntas y dices qué es algo (이거, 그거, 저거), respondes sí o no y dices lo que no es."],
-      ["4", "3 y 5 nov", "우리 엄마예요 · Mi familia", "Presentas a tu familia con una foto. Cuentas del 1 al 100 y dictas tu teléfono."],
-      ["5", "10 y 12 nov", "집이 어디예요? · Lugares", "Dices dónde vives y dónde están las cosas: arriba, abajo, al lado, dentro."],
-      ["6", "17 y 19 nov", "학교에 가요 · Mi día", "Tus primeros verbos en presente: a dónde vas y qué haces cada día."],
-      ["7", "24 y 26 nov", "Mi pieza y mis verbos", "\"Hay\" y \"no hay\", qué haces con las cosas, y preparas tu presentación final."],
-      ["8", "1 y 3 dic", "사과를 좋아해요 + examen", "Lo que te gusta y lo que no, un examen corto en línea y tu mini-presentación \"Yo en coreano\"."],
+      ["1", "20 y 22 oct", "가나다라 I · La sílaba", "Las vocales básicas y las consonantes simples, cómo se arma una sílaba y tus primeras palabras."],
+      ["2", "27 y 29 oct", "가나다라 II + 안녕하세요", "La consonante final (받침), las dobles y las vocales compuestas. Saludas y te presentas."],
+      ["3", "3 y 5 nov", "이게 뭐예요? · ¿Qué es esto?", "Preguntas y dices qué es algo (이거, 그거, 저거), respondes sí o no y dices lo que no es."],
+      ["4", "10 y 12 nov", "우리 엄마예요 · Mi familia", "Presentas a tu familia con una foto. Cuentas del 1 al 100 y dictas tu teléfono."],
+      ["5", "17 y 19 nov", "집이 어디예요? · Lugares", "Dices dónde vives y dónde están las cosas: arriba, abajo, al lado, dentro."],
+      ["6", "24 y 26 nov", "학교에 가요 · Mi día", "Tus primeros verbos en presente: a dónde vas y qué haces cada día."],
+      ["7", "1 y 3 dic", "Mi pieza y mis verbos", "\"Hay\" y \"no hay\", qué haces con las cosas, y preparas tu presentación final."],
+      ["8", "8 (por confirmar) y 10 dic", "사과를 좋아해요 + examen", "Lo que te gusta y lo que no, un examen corto en línea y tu mini-presentación \"Yo en coreano\"."],
     ],
     podras: [
       ["Leer en voz alta un cartel, un menú o el nombre de tu grupo favorito escrito en 한글.", null],
@@ -126,8 +128,8 @@ const CURSOS = [
       ["Preguntar qué es algo o dónde está el baño, y entender una respuesta corta:", "화장실이 어디예요?"],
       ["Contar tu día y tus gustos, y hablar de ti 1 a 2 minutos sin leer.", null],
     ],
-    horario: "Martes 20:00–21:00 (13 oct → 1 dic) o jueves 20:00–21:00 (15 oct → 3 dic), hora de Chile · con Kiran (기란). Mismo programa: eliges una sección.",
-    inversion: PRECIO + " (la 2.ª antes de la clase 5: martes 10 o jueves 12 de noviembre).",
+    horario: "Martes 20:00–21:00 (20 oct → 8 dic, por confirmar: es feriado en Chile) o jueves 20:00–21:00 (22 oct → 10 dic), hora de Chile · con Kiran (기란). Mismo programa: eliges una sección.",
+    inversion: PRECIO + " (la 2.ª antes de la clase 5: martes 17 o jueves 19 de noviembre).",
     incluye: "8 clases en vivo · grabaciones · slides y hojas de actividad (PDF) · el Lector de Hangul como tarea guiada · corrección de tus audios · grupo de WhatsApp del curso · guía de estudio a mitad de curso · certificado digital.",
     cupos: "Máximo 15 estudiantes por sección (martes y jueves son grupos distintos).",
     inscribete: WEB + "/nivel-1?clase=a11-martes  ·  " + WEB + "/nivel-1?clase=a11-jueves",
@@ -144,14 +146,14 @@ const CURSOS = [
     ],
     fechaCol: "Fecha (mié)",
     semanas: [
-      ["1", "14 oct", "Te vuelves a presentar", "Te presentas con más detalle y repasas lo esencial de Básico 1. Conversación de diagnóstico, sin nota."],
-      ["2", "21 oct", "Números en la vida real", "Los dos sistemas de números para tu edad, tu cumpleaños, tu teléfono y la hora."],
-      ["3", "28 oct", "Tu rutina en presente", "Un día normal con unos 10 verbos, incluidos irregulares de todos los días. 에 y 에서."],
-      ["4", "4 nov", "El pasado", "Cuentas qué hiciste: cuándo, dónde y con quién, y desde y hasta cuándo."],
-      ["5", "11 nov", "El futuro y tus planes", "Planeas tu semana o un viaje: qué vas a hacer, cuándo y cómo vas a ir."],
-      ["6", "18 nov", "Lo que no hago y lo que sé hacer", "\"No lo hago\", \"no puedo\" y \"sé hacerlo\". Rechazas una invitación con amabilidad."],
-      ["7", "25 nov", "Partículas para sonar natural", "Comparas y precisas: más que, como, solo, también, cada, más o menos."],
-      ["8", "2 dic", "Conectores, examen y cierre", "Unes ideas con \"y\" y \"pero\", conversas unos 5 minutos y rindes el examen final."],
+      ["1", "21 oct", "Te vuelves a presentar", "Te presentas con más detalle y repasas lo esencial de Básico 1. Conversación de diagnóstico, sin nota."],
+      ["2", "28 oct", "Números en la vida real", "Los dos sistemas de números para tu edad, tu cumpleaños, tu teléfono y la hora."],
+      ["3", "4 nov", "Tu rutina en presente", "Un día normal con unos 10 verbos, incluidos irregulares de todos los días. 에 y 에서."],
+      ["4", "11 nov", "El pasado", "Cuentas qué hiciste: cuándo, dónde y con quién, y desde y hasta cuándo."],
+      ["5", "18 nov", "El futuro y tus planes", "Planeas tu semana o un viaje: qué vas a hacer, cuándo y cómo vas a ir."],
+      ["6", "25 nov", "Lo que no hago y lo que sé hacer", "\"No lo hago\", \"no puedo\" y \"sé hacerlo\". Rechazas una invitación con amabilidad."],
+      ["7", "2 dic", "Partículas para sonar natural", "Comparas y precisas: más que, como, solo, también, cada, más o menos."],
+      ["8", "9 dic", "Conectores, examen y cierre", "Unes ideas con \"y\" y \"pero\", conversas unos 5 minutos y rindes el examen final."],
     ],
     podras: [
       ["Contarle a alguien tu fin de semana:", "토요일에 친구하고 카페에 갔어요."],
@@ -159,8 +161,8 @@ const CURSOS = [
       ["Decir que no a una invitación sin sonar cortante:", "미안해요, 내일은 못 가요."],
       ["Mantener una conversación de unos 5 minutos sobre tu rutina, lo que hiciste y lo que vas a hacer.", null],
     ],
-    horario: "Miércoles 21:00–22:00, hora de Chile (14 oct → 2 dic) · con Jay Kim (김재희).",
-    inversion: PRECIO + " (la 2.ª antes de la clase 5: miércoles 11 de noviembre).",
+    horario: "Miércoles 21:00–22:00, hora de Chile (21 oct → 9 dic) · con Jay Kim (김재희).",
+    inversion: PRECIO + " (la 2.ª antes de la clase 5: miércoles 18 de noviembre).",
     incluye: "8 clases en vivo · grabaciones · slides y hojas de actividad (PDF) · práctica en el Lector de Hangul · tareas y mini-diarios con comentarios · examen final y conversación evaluada · grupo de WhatsApp del curso · guía de estudio · certificado digital.",
     cupos: "Máximo 15 estudiantes.",
     inscribete: WEB + "/nivel-1?clase=a12",
@@ -177,14 +179,14 @@ const CURSOS = [
     ],
     fechaCol: "Fecha (mar)",
     semanas: [
-      ["1", "13 oct", "Orientación y diagnóstico oral", "Te presentas con más detalle, conoces al grupo y fijas tus 3 metas de conversación."],
-      ["2", "20 oct", "K-pop y cultura fan", "Hablas de tu grupo y tu 최애, cuentas experiencias como fan y explicas por qué te gusta."],
-      ["3", "27 oct", "Viajes: Jeju y Seúl", "Planeas un viaje en pareja, dices cómo moverte en metro y cuentas un viaje."],
-      ["4", "3 nov", "Cultura gastronómica", "Pides en un restaurante para varias personas, recomiendas un plato y describes sabores."],
-      ["5", "10 nov", "Laboratorio de conversación 1", "40 minutos de conversación en grupos de 3, con corrección personal de pronunciación."],
-      ["6", "17 nov", "Hanbok y estética", "Describes ropa y estilo, comparas lo tradicional con lo moderno y opinas con matices."],
-      ["7", "24 nov", "PC방 (cibercafé coreano) y e-sports", "Hablas de videojuegos y tiempo libre: cuándo, antes y después, y qué pasa \"si…\"."],
-      ["8", "1 dic", "Laboratorio 2 y evaluación oral", "Juntas los cinco temas, rindes una evaluación oral en pareja y comparas tu \"antes y después\"."],
+      ["1", "20 oct", "Orientación y diagnóstico oral", "Te presentas con más detalle, conoces al grupo y fijas tus 3 metas de conversación."],
+      ["2", "27 oct", "K-pop y cultura fan", "Hablas de tu grupo y tu 최애, cuentas experiencias como fan y explicas por qué te gusta."],
+      ["3", "3 nov", "Viajes: Jeju y Seúl", "Planeas un viaje en pareja, dices cómo moverte en metro y cuentas un viaje."],
+      ["4", "10 nov", "Cultura gastronómica", "Pides en un restaurante para varias personas, recomiendas un plato y describes sabores."],
+      ["5", "17 nov", "Laboratorio de conversación 1", "40 minutos de conversación en grupos de 3, con corrección personal de pronunciación."],
+      ["6", "24 nov", "Hanbok y estética", "Describes ropa y estilo, comparas lo tradicional con lo moderno y opinas con matices."],
+      ["7", "1 dic", "PC방 (cibercafé coreano) y e-sports", "Hablas de videojuegos y tiempo libre: cuándo, antes y después, y qué pasa \"si…\"."],
+      ["8", "8 dic (por confirmar)", "Laboratorio 2 y evaluación oral", "Juntas los cinco temas, rindes una evaluación oral en pareja y comparas tu \"antes y después\"."],
     ],
     podras: [
       ["Conversar unos minutos sobre lo que te gusta de Corea:", "콘서트에 가 봤어요?"],
@@ -192,8 +194,8 @@ const CURSOS = [
       ["Proponerle un plan a alguien y ponerse de acuerdo:", "이번 주말에 같이 홍대에 갈까요?"],
       ["Pedir ayuda sin quedarte en blanco:", "잠깐만요… 다시 한번 말해 주세요."],
     ],
-    horario: "Martes 21:00–22:00, hora de Chile (13 oct → 1 dic) = miércoles 09:00 en Corea · con Abby (홍미영), profesora coreana nativa que enseña desde Corea.",
-    inversion: PRECIO + " (la 2.ª antes de la clase 5: martes 10 de noviembre).",
+    horario: "Martes 21:00–22:00, hora de Chile (20 oct → 8 dic, por confirmar: es feriado en Chile) = miércoles 09:00 en Corea · con Abby (홍미영), profesora coreana nativa que enseña desde Corea.",
+    inversion: PRECIO + " (la 2.ª antes de la clase 5: martes 17 de noviembre).",
     incluye: "8 clases en vivo (2 son laboratorios de conversación) · grabaciones · slides con apoyo en español e inglés · hojas de actividad y tarjetas de conversación · material real de Corea · corrección de tus audios · grupo de WhatsApp · informe individual · certificado digital.",
     cupos: "Máximo 15 estudiantes.",
     inscribete: WEB + "/nivel-1?clase=a21",
@@ -210,14 +212,14 @@ const CURSOS = [
     ],
     fechaCol: "Fecha (jue)",
     semanas: [
-      ["1", "15 oct", "Diagnóstico y radiografía del TOPIK II", "Cómo se arma y se puntúa el examen. Mini simulacro y tu nivel de partida."],
-      ["2", "22 oct", "읽기 I · Lectura, preguntas 1–20", "Reconoces cada tipo de pregunta y resuelves rápido las fáciles."],
-      ["3", "29 oct", "듣기 I · Escucha, preguntas 1–20", "Lees las opciones antes del audio, tomas notas y resuelves con una sola escucha."],
-      ["4", "5 nov", "쓰기 51–52 · Completar textos", "Fórmulas para avisos, correos y textos breves, en el registro que corresponde."],
-      ["5", "12 nov", "쓰기 53 · Describir un gráfico", "200 a 300 caracteres con una plantilla de cuatro frases y las reglas del 원고지."],
-      ["6", "19 nov", "읽기 y 듣기 II · Nivel 4–6", "Titulares, idea central y actitud del hablante. Qué responder ahora y qué dejar para después."],
-      ["7", "26 nov", "쓰기 54 · El ensayo de opinión", "Un ensayo de 600 a 700 caracteres con estructura clara y corrección personal."],
-      ["8", "3 dic", "Simulacro final y tu plan personal", "Analizas tu simulacro de 180 minutos y armas tu plan de estudio hasta el examen."],
+      ["1", "22 oct", "Diagnóstico y radiografía del TOPIK II", "Cómo se arma y se puntúa el examen. Mini simulacro y tu nivel de partida."],
+      ["2", "29 oct", "읽기 I · Lectura, preguntas 1–20", "Reconoces cada tipo de pregunta y resuelves rápido las fáciles."],
+      ["3", "5 nov", "듣기 I · Escucha, preguntas 1–20", "Lees las opciones antes del audio, tomas notas y resuelves con una sola escucha."],
+      ["4", "12 nov", "쓰기 51–52 · Completar textos", "Fórmulas para avisos, correos y textos breves, en el registro que corresponde."],
+      ["5", "19 nov", "쓰기 53 · Describir un gráfico", "200 a 300 caracteres con una plantilla de cuatro frases y las reglas del 원고지."],
+      ["6", "26 nov", "읽기 y 듣기 II · Nivel 4–6", "Titulares, idea central y actitud del hablante. Qué responder ahora y qué dejar para después."],
+      ["7", "3 dic", "쓰기 54 · El ensayo de opinión", "Un ensayo de 600 a 700 caracteres con estructura clara y corrección personal."],
+      ["8", "10 dic", "Simulacro final y tu plan personal", "Analizas tu simulacro de 180 minutos y armas tu plan de estudio hasta el examen."],
     ],
     podras: [
       ["Sentarte frente a un TOPIK II completo sabiendo cuánto tiempo darle a cada parte.", null],
@@ -225,8 +227,8 @@ const CURSOS = [
       ["Escribir a mano, en 원고지, la descripción de un gráfico y un ensayo de opinión con estructura clara.", null],
       ["Salir con tu plan de estudio semanal hasta la fecha de examen que elijas.", null],
     ],
-    horario: "Jueves 21:00–22:00, hora de Chile (15 oct → 3 dic) · con Jay Kim (김재희).",
-    inversion: PRECIO + " (la 2.ª antes de la clase 5: jueves 12 de noviembre). La inscripción al examen oficial se paga aparte.",
+    horario: "Jueves 21:00–22:00, hora de Chile (22 oct → 10 dic) · con Jay Kim (김재희).",
+    inversion: PRECIO + " (la 2.ª antes de la clase 5: jueves 19 de noviembre). La inscripción al examen oficial se paga aparte.",
     incluye: "8 clases en vivo · grabaciones · exámenes TOPIK II oficiales publicados · guía por tipo de pregunta y plantillas para 쓰기 51–54 · corrección personal de tu escritura · simulacro completo con análisis · plan de estudio · grupo de WhatsApp · certificado digital.",
     cupos: "Máximo 8 estudiantes, para que la corrección de la escritura sea individual.",
     inscribete: WEB + "/nivel-1?clase=topik2",
@@ -258,7 +260,7 @@ const CURSOS = [
       ["Contar hasta 10 y decir en la mesa", "맛있어요!"],
       ["Presentar un mini-show de 30 a 40 segundos frente a tu familia.", null],
     ],
-    horario: "Lunes 18:00–19:00, hora de Chile (19 oct → 7 dic; el 12 de octubre es feriado en Chile) · con Jay Kim (김재희) y Abby (홍미영).",
+    horario: "Lunes 18:00–19:00, hora de Chile (19 oct → 7 dic) · con Jay Kim (김재희) y Abby (홍미영).",
     inversion: PRECIO + " (la 2.ª antes de la clase 5: lunes 16 de noviembre).",
     incluye: "8 clases en vivo con dos profes · grabaciones · láminas, bingos y tarjetas de letras (PDF) · canciones · tablero de stickers · nota semanal para la familia por WhatsApp · Lector de Hangul y Dubu · mini-show final y certificado.",
     cupos: "Máximo 12 niños y niñas, en dos salas de hasta 6 para el taller. Nunca publicamos caras de menores.",
@@ -304,16 +306,16 @@ function build() {
   );
   ch.push(caja([
     [run("Online en vivo por Zoom · 8 semanas · 1 clase de 60 minutos por semana", { bold: true, size: 22, color: NAVY })],
-    [run("Inicio: semana del 12 de octubre de 2026 · Coreano para Niños: lunes 19 de octubre", { size: 21 })],
+    [run("Inicio: semana del 19 de octubre de 2026 (Coreano para Niños: lunes 19) · fin: semana del 7 de diciembre", { size: 21 })],
     [run(PRECIO, { bold: true, size: 22, color: AZUL })],
-    [run("Matrícula abierta hasta el domingo 11 de octubre (o hasta llenar los cupos)", { size: 21 })],
+    [run("Matrícula abierta hasta el domingo 18 de octubre (o hasta llenar los cupos)", { size: 21 })],
   ]));
   ch.push(
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 300, after: 60 }, children: [run("Básico 1 (A1.1) · Básico 2 (A1.2) · Conversacional 1 (A2.1) · TOPIK II (B1+) · Coreano para Niños (8–15)", { size: 20, bold: true })] }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 60 }, children: [run("Próximamente: Conversacional 2 (A2.2), enero 2027", { size: 20, color: GREY })] }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 360 }, children: [new ImageRun({ type: "png", data: SELLO, transformation: { width: 84, height: 81 } })] }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 100 }, children: [run(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })] }),
-    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 160 }, children: [run("Horarios en hora de Chile (Santiago, UTC−3 durante todo el curso). Versión del 29 de septiembre de 2026.", { size: 16, color: GREY, italics: true })] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 160 }, children: [run("Horarios en hora de Chile (Santiago, UTC−3 durante todo el curso). Versión del 16 de octubre de 2026.", { size: 16, color: GREY, italics: true })] }),
   );
 
   // ---------- OCTUBRE DE UN VISTAZO ----------
@@ -325,22 +327,22 @@ function build() {
   const g = (t, sub) => [{ t, o: { bold: true } }, { t: sub, o: { color: GREY, size: 16 } }];
   ch.push(headTable(["Hora (Chile)", "Lunes", "Martes", "Miércoles", "Jueves"], [
     [[{ t: "18:00", o: { bold: true, color: AZUL } }], g("Coreano para Niños", "Jay y Abby · desde el 19 oct"), "", "", ""],
-    [[{ t: "20:00", o: { bold: true, color: AZUL } }], "", g("Básico 1", "Kiran · desde el 13 oct"), "", g("Básico 1", "Kiran · desde el 15 oct")],
-    [[{ t: "21:00", o: { bold: true, color: AZUL } }], "", g("Conversacional 1", "Abby · desde el 13 oct"), g("Básico 2", "Jay · desde el 14 oct"), g("TOPIK II", "Jay · desde el 15 oct")],
+    [[{ t: "20:00", o: { bold: true, color: AZUL } }], "", g("Básico 1", "Kiran · desde el 20 oct"), "", g("Básico 1", "Kiran · desde el 22 oct")],
+    [[{ t: "21:00", o: { bold: true, color: AZUL } }], "", g("Conversacional 1", "Abby · desde el 20 oct"), g("Básico 2", "Jay · desde el 21 oct"), g("TOPIK II", "Jay · desde el 22 oct")],
   ], [1280, 2200, 2200, 2200, 2200], 18));
 
   ch.push(H2("Calendario"));
   ch.push(headTable(["Curso", "Profesor/a", "Día y hora (Chile)", "Primera clase", "Última clase"], [
-    [[{ t: "Básico 1 (A1.1)", o: { bold: true } }, { t: "sección martes", o: { color: GREY, size: 16 } }], "Kiran", "Martes 20:00–21:00", [{ t: "Martes 13 de octubre", o: { bold: true, color: AZUL } }], "Martes 1 de diciembre"],
-    [[{ t: "Básico 1 (A1.1)", o: { bold: true } }, { t: "sección jueves", o: { color: GREY, size: 16 } }], "Kiran", "Jueves 20:00–21:00", [{ t: "Jueves 15 de octubre", o: { bold: true, color: AZUL } }], "Jueves 3 de diciembre"],
-    [[{ t: "Básico 2 (A1.2)", o: { bold: true } }], "Jay", "Miércoles 21:00–22:00", [{ t: "Miércoles 14 de octubre", o: { bold: true, color: AZUL } }], "Miércoles 2 de diciembre"],
-    [[{ t: "Conversacional 1 (A2.1)", o: { bold: true } }], "Abby", "Martes 21:00–22:00", [{ t: "Martes 13 de octubre", o: { bold: true, color: AZUL } }], "Martes 1 de diciembre"],
-    [[{ t: "TOPIK II (B1+)", o: { bold: true } }], "Jay", "Jueves 21:00–22:00", [{ t: "Jueves 15 de octubre", o: { bold: true, color: AZUL } }], "Jueves 3 de diciembre"],
-    [[{ t: "Coreano para Niños (8–15)", o: { bold: true } }], "Jay y Abby", "Lunes 18:00–19:00", [{ t: "Lunes 19 de octubre *", o: { bold: true, color: AZUL } }], "Lunes 7 de diciembre"],
+    [[{ t: "Básico 1 (A1.1)", o: { bold: true } }, { t: "sección martes", o: { color: GREY, size: 16 } }], "Kiran", "Martes 20:00–21:00", [{ t: "Martes 20 de octubre", o: { bold: true, color: AZUL } }], "Martes 8 de diciembre *"],
+    [[{ t: "Básico 1 (A1.1)", o: { bold: true } }, { t: "sección jueves", o: { color: GREY, size: 16 } }], "Kiran", "Jueves 20:00–21:00", [{ t: "Jueves 22 de octubre", o: { bold: true, color: AZUL } }], "Jueves 10 de diciembre"],
+    [[{ t: "Básico 2 (A1.2)", o: { bold: true } }], "Jay", "Miércoles 21:00–22:00", [{ t: "Miércoles 21 de octubre", o: { bold: true, color: AZUL } }], "Miércoles 9 de diciembre"],
+    [[{ t: "Conversacional 1 (A2.1)", o: { bold: true } }], "Abby", "Martes 21:00–22:00", [{ t: "Martes 20 de octubre", o: { bold: true, color: AZUL } }], "Martes 8 de diciembre *"],
+    [[{ t: "TOPIK II (B1+)", o: { bold: true } }], "Jay", "Jueves 21:00–22:00", [{ t: "Jueves 22 de octubre", o: { bold: true, color: AZUL } }], "Jueves 10 de diciembre"],
+    [[{ t: "Coreano para Niños (8–15)", o: { bold: true } }], "Jay y Abby", "Lunes 18:00–19:00", [{ t: "Lunes 19 de octubre", o: { bold: true, color: AZUL } }], "Lunes 7 de diciembre"],
     [[{ t: "Conversacional 2 (A2.2)", o: { bold: true } }], "Por anunciar", "Por anunciar", [{ t: "Próximamente · enero 2027", o: { bold: true, color: NAVY } }], "—"],
   ], [2600, 1350, 2050, 2180, 1900], 18));
   ch.push(espacio(50));
-  ch.push(P(run("* El lunes 12 de octubre es feriado en Chile: por eso Coreano para Niños empieza el 19 y termina una semana después que los cursos de adultos. Básico 1 tiene dos secciones con el mismo programa y la misma profesora. La matrícula de todos los cursos cierra el domingo 11 de octubre.", { size: 17, color: GREY }), { spacing: { after: 60, line: 252 } }));
+  ch.push(P(run("* El martes 8 de diciembre es feriado en Chile: la fecha de la última clase de los martes está por confirmar y la avisamos con tiempo. Todos los cursos parten la semana del 19 de octubre. Básico 1 tiene dos secciones con el mismo programa y la misma profesora. La matrícula de todos los cursos cierra el domingo 18 de octubre.", { size: 17, color: GREY }), { spacing: { after: 60, line: 252 } }));
 
   ch.push(H2("¿Qué hora es en tu país?"));
   ch.push(headTable(["Chile", "Argentina · Uruguay", "Colombia · Perú · Ecuador", "México (CDMX)", "EE.UU. (Este)", "España", "Corea"], [
@@ -367,13 +369,13 @@ function build() {
   ch.push(H1("¿Qué curso debo tomar?"));
   const tc = (t) => [{ t, o: { bold: true, color: AZUL } }];
   ch.push(headTable(["Si…", "Tu curso", "Día y hora (Chile)"], [
-    ["Nunca he estudiado coreano", tc("Básico 1 (A1.1)"), "Martes o jueves 20:00 · desde el 13 o el 15 oct"],
+    ["Nunca he estudiado coreano", tc("Básico 1 (A1.1)"), "Martes o jueves 20:00 · desde el 20 o el 22 oct"],
     ["Reconozco algunas letras o palabras, pero todavía no leo 한글 con seguridad", tc("Básico 1 (A1.1)"), "Martes o jueves 20:00"],
-    ["Ya sé Hangul y los fundamentos: me presento y hablo en presente", tc("Básico 2 (A1.2)"), "Miércoles 21:00 · desde el 14 oct"],
+    ["Ya sé Hangul y los fundamentos: me presento y hablo en presente", tc("Básico 2 (A1.2)"), "Miércoles 21:00 · desde el 21 oct"],
     ["Hice el Nivel 1 de julio de 2026 (hoy se llama Básico 1)", [{ t: "Básico 2 (A1.2)", o: { bold: true, color: AZUL } }, { t: "o repetir Básico 1 si la lectura te quedó floja", o: { size: 16, color: GREY } }], "Miércoles 21:00"],
-    ["Puedo construir frases, pero me cuesta conversar", tc("Conversacional 1 (A2.1)"), "Martes 21:00 · desde el 13 oct"],
+    ["Puedo construir frases, pero me cuesta conversar", tc("Conversacional 1 (A2.1)"), "Martes 21:00 · desde el 20 oct"],
     ["Ya puedo conversar y quiero profundizar en Corea", tc("Conversacional 2 (A2.2)"), "Próximamente · enero 2027"],
-    ["Quiero preparar el TOPIK II (tengo coreano intermedio)", tc("TOPIK II (B1+)"), "Jueves 21:00 · desde el 15 oct"],
+    ["Quiero preparar el TOPIK II (tengo coreano intermedio)", tc("TOPIK II (B1+)"), "Jueves 21:00 · desde el 22 oct"],
     ["Mi hijo/a tiene 8–15 años", [{ t: "Coreano para Niños", o: { bold: true, color: AZUL } }, { t: "de 13 a 15 años también puede tomar Básico 1", o: { size: 16, color: GREY } }], "Lunes 18:00 · desde el 19 oct"],
   ], [4700, 2900, 2480], 18));
   ch.push(espacio(100));
@@ -419,7 +421,7 @@ function build() {
     ["¿Desde qué países puedo tomar las clases?", "Desde toda Latinoamérica, España y EE.UU.: las clases son 100 % online. En «Octubre de un vistazo» tienes la hora de cada país."],
     ["¿Cómo pago?", "Pago único de US$150 o 2 cuotas de US$75: la primera al inscribirte y la segunda antes de la clase 5 de tu curso. Puedes pagar por transferencia bancaria en Chile (sin comisión), Mercado Pago con tarjeta o transferencia (se cobra en pesos chilenos) o PayPal en dólares, también con tarjeta. Tu cupo queda confirmado cuando recibimos el pago completo o la primera cuota."],
     ["¿Hay devolución?", "Una vez iniciado el curso, el pago no es reembolsable. Si no puedes continuar, escríbenos y buscamos juntos una solución, por ejemplo pasarte a una cohorte posterior. Si Academia Seúl cancela un curso antes de que empiece, te devolvemos el 100 %. Condiciones completas en " + WEB + "/terminos."],
-    ["¿Recibo un certificado? ¿Es oficial?", "Al completar tu curso recibes el certificado digital de Academia Seúl del nivel cursado, que considera tu asistencia y tu participación. Se entregan la semana del 7 de diciembre (en Niños, durante el mini-show del lunes 7). Es un certificado propio de la academia: no es una acreditación oficial, no lo emite el gobierno de Corea ni una universidad y no reemplaza al examen TOPIK."],
+    ["¿Recibo un certificado? ¿Es oficial?", "Al completar tu curso recibes el certificado digital de Academia Seúl del nivel cursado, que considera tu asistencia y tu participación. Se entregan la semana del 14 de diciembre (en Niños, durante el mini-show del lunes 7 de diciembre). Es un certificado propio de la academia: no es una acreditación oficial, no lo emite el gobierno de Corea ni una universidad y no reemplaza al examen TOPIK."],
     ["¿Me sirve para el TOPIK?", "Básico 1, Básico 2 y Conversacional 1 te van acercando al nivel del TOPIK I, pero no son cursos de preparación de examen. Si tu meta es el TOPIK II, está el curso TOPIK II (B1+), con exámenes oficiales, corrección de escritura y simulacro. La inscripción al examen oficial se paga aparte."],
     ["¿Qué pasa cuando termino?", "Sigues con el próximo peldaño de la escalera. En enero de 2027 abre la siguiente cohorte, que incluye Conversacional 2 (A2.2), y los alumnos activos tienen preventa con prioridad de cupo."],
   ];
@@ -447,7 +449,7 @@ function build() {
     ["Conversacional 2", [run("Lista de espera: ", { size: 18 }), run(WEB + "/notificarme?curso=conversacion", { size: 18, color: AZUL, bold: true })]],
   ], 2300, 18));
   ch.push(espacio(100));
-  ch.push(caja([[run("La matrícula cierra el domingo 11 de octubre", { bold: true, size: 22, color: NAVY }), run(", o antes si se completan los cupos. Las clases de adultos parten la semana del 12 de octubre y Coreano para Niños, el lunes 19.", { size: 21 })]]));
+  ch.push(caja([[run("La matrícula cierra el domingo 18 de octubre", { bold: true, size: 22, color: NAVY }), run(", o antes si se completan los cupos. Todas las clases parten la semana del 19 de octubre (Coreano para Niños, el lunes 19).", { size: 21 })]]));
 
   ch.push(H2("Quién te enseña"));
   ch.push(bullet([run("Jay Kim (김재희)", { bold: true, size: 19 }), run(" · Básico 2, TOPIK II y Niños. Fundador de Academia Seúl, coreano nativo que vive en Chile desde los 10 años. Creó el Método Chingu™ y el Lector de Hangul, y lleva más de 8 años enseñando coreano a hispanohablantes.", { size: 19 })]));

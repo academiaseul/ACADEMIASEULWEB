@@ -1,5 +1,5 @@
 # TOPIK II (B1+) · Semana 6 · 읽기/듣기 II · Preguntas de nivel 4–6
-### Guía del profesor · Jay Kim (김재희) · jueves 19 de noviembre de 2026 · 21:00–22:00 (hora de Chile) = viernes 20, 09:00 en Corea · el 수능 fue ayer
+### Guía del profesor · Jay Kim (김재희) · jueves 26 de noviembre de 2026 · 21:00–22:00 (hora de Chile) = viernes 27, 09:00 en Corea · el 수능 fue el jueves pasado (19 nov)
 
 **MATERIAL DEL PROFESOR · solo para Jay · no se comparte con alumnos.** El material del alumno, sin respuestas ni notas internas, está en `../alumnos/S06_Material_Alumno.md` (el "cuaderno de estrategia" de la semana; ver ⚑ S6-18 sobre el nombre del archivo).
 Versión 1.3 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 6) · revisión de coordinación en D, S6-26 · revisión nativa adversarial (4.ª pasada) en D, S6-27 · revisión adversarial de coordinación (5.ª pasada) en D, S6-28.
@@ -42,7 +42,7 @@ Versión 1.3 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 
 3. **El debate se escucha, no se lee.** Publicado: "dos alumnos leen un guion breve de debate, el resto identifica la 태도 y la 의도". El guion va **solo** a los 2 lectores (el miércoles, por privado); los demás tienen únicamente las preguntas en su cuaderno y escuchan **dos veces**, como en 듣기 21–50. El texto se comparte en el grupo después de la clase.
 4. **La tarea publicada se ordena en núcleo + puente + ruta** (diseño B.7 y E.4). Publicado: 읽기 21–50 + 듣기 21–50 con audio + ficha de 15 titulares (≈ 150'). Núcleo: 읽기 21–50 en 50' con hoja de triaje (≈ 55'); puente a la S7: el 서론; ruta intensiva: 듣기 21–50 + audio y la ficha de titulares. Nada publicado desaparece: cambia qué cuenta para la nota.
 5. **La corrección personal (10') es sobre los 53 de la S5**, que es la tarea que llega a esta clase (publicado: "dos o tres producciones de la tarea, anónimas"). Se engancha con hoy: el **이는** de la frase 4 del 53 es la misma pista de 39–41.
-6. **La cultura del día va al principio, no al final.** El 수능 fue ayer (Fase 1 §10.6): lo usas en 2 minutos como apertura del **cuidado del ánimo** ("ayer medio país fue 수험생; hoy lo son ustedes"), con 엿, 찹쌀떡, 붙다 y el 미역국 adelantados de la S8.
+6. **La cultura del día va al principio, no al final.** El 수능 fue el jueves pasado (jue 19 nov en Corea, Fase 1 §10.6; con el calendario corrido, la S5 fue al día siguiente y esta clase cae una semana después): lo usas en 2 minutos como apertura del **cuidado del ánimo** ("la semana pasada medio país fue 수험생; hoy lo son ustedes"), con 엿, 찹쌀떡, 붙다 y el 미역국 adelantados de la S8.
 
 ---
 
@@ -50,7 +50,7 @@ Versión 1.3 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 
 
 | | |
 |---|---|
-| **Fecha** | Jueves 19 de noviembre de 2026 · 21:00–22:00, hora de Chile (UTC−3) · 18:00 México · 19:00 Colombia, Perú y EE. UU. (Este) · 21:00 Argentina · 01:00 del viernes en España · **viernes 20, 09:00 en Corea**. Entras a la cuenta compartida a las **20:58**, cuando termina Kiran |
+| **Fecha** | Jueves 26 de noviembre de 2026 · 21:00–22:00, hora de Chile (UTC−3) · 18:00 México · 19:00 Colombia, Perú y EE. UU. (Este) · 21:00 Argentina · 01:00 del viernes en España · **viernes 27, 09:00 en Corea**. Entras a la cuenta compartida a las **20:58**, cuando termina Kiran |
 | **Examen oficial del día** | **Examen C** (⚑ E-2; candidato del diseño: 제52회): 읽기 21–50 y 듣기 21–50 **en pantalla** · **Examen D** (⚑ E-2; candidato: 제83회): 읽기 21–50 (tarea núcleo) y 듣기 21–50 (ruta). El Examen E sigue sin abrirse |
 | **Sub-metas** (mapa del grupo, revisado en el chequeo de mitad) | **Sub-meta 3:** foco en 읽기 21–35 y 듣기 21–30; de 36 en adelante, triaje estricto y cero en blanco · **Sub-meta 4–5:** 21–50 completo, suma 읽기 35–50 y 듣기 41–50 (nota publicada) + esqueleto del 54 en la tarea puente · **Rescate:** 읽기 21–30 con calma, 31–50 con 찍기; el 서론 se hace igual |
 | **Romanización** | Ninguna (diseño, sección D) |
@@ -63,16 +63,16 @@ Versión 1.3 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 
 | 4 | **Vocabulario** (24) | **Núcleo publicado (12; quiz 6 y 1–2 en el 서론):** 급증하다 · 논란 · 대책 · 정책 · 제도 · 우려 · 비판 · 강조하다 · 주장하다 · 태도 · 심정 · 의도. **Del examen (7, T):** 제목 · 기사 · 필자 · 강연 · 토론 · 전문가 · 찍다. **Cultura (5, R):** 저출산 · 조선 · 세종대왕 · 수능 · 수험생. **Para reconocer (cuaderno §2, no entran en el quiz):** el código de los titulares, 12 verbos de las opciones de actitud y 13 palabras de 심정 |
 | 5 | **Expresiones coreanas** | 이 문제는 나중에 다시 풀게요. / 이건 지금 풀게요. / 이건 찍을게요. · 필자는 ___에 대해 우려하고 / 비판하고 / 동의하고 있어요. · 이 기사의 중심 내용은 ___예요/이에요. · (titular) → ___이/가 ___고 있다. · 좋은 생각이에요. 그런데 저는 조금 다르게 생각해요. (B.11) · **Frases clave del coro:** 이 문제는 나중에 다시 풀게요. / 필자는 새로운 제도에 대해 우려하고 있어요. / 이 기사의 중심 내용은 청년 취업 문제예요. |
 | 6 | **Pronunciación / escucha** | El examen no evalúa pronunciación; la escucha sí depende de ella. **Se practica:** 급증 [급쯩] · 논란 [놀란] · 필자 [필짜] · 저출산 [저출싼] · 잇따라 [읻따라] · 찍다 [찍따] · 입을 모아 [이블 모아]. **Se escucha:** el ritmo del 강연 (frases largas en -습니다 [슴니다], pausa antes de la idea importante) y las **señales de opinión** del debate (물론 ~지만 · 하지만 · -다기보다는 · 문제는 ~ · ~다고 봐요) |
-| 7 | **Cultura** | Capa contemporánea + generacional. **Publicado:** los textos de nivel 5–6 citan 조선, 세종대왕 y la 저출산; leer un titular de 연합뉴스 al día. **[YA] Calendario** (Fase 1 §10.6, verificado): **el 수능 fue ayer**, jueves 19 nov en Corea (08:40 KST = miércoles 18, 20:40 en Chile). Adelantas el dato de la S8: 엿 y 찹쌀떡 para "pegarse" (붙다 = pegarse y aprobar) y el 미역국 que no se come (미끄러지다) ⚑ D-6, con el artículo del blog. **Matiz [YA]:** es cultura del **수능** que se extiende a otros exámenes; no "cultura del TOPIK". **Titulares:** inventados, sin cifras ni datos del día (⚑ D-11). **Frase ancla** (Fase 1 §10.4): *출산은 개인의 선택이지만, 저출산은 사회 전체가 함께 풀어야 할 문제이기도 하다.* ⚑ D-7 (cierra el texto A del contrarreloj). **Puente:** la baja natalidad también se discute en Chile y en Latinoamérica; se compara sin decir "los coreanos no quieren hijos" |
+| 7 | **Cultura** | Capa contemporánea + generacional. **Publicado:** los textos de nivel 5–6 citan 조선, 세종대왕 y la 저출산; leer un titular de 연합뉴스 al día. **[YA] Calendario** (Fase 1 §10.6, verificado): **el 수능 fue el jueves pasado**, 19 nov en Corea (08:40 KST = miércoles 18, 20:40 en Chile; la S5 fue al día siguiente). Adelantas el dato de la S8: 엿 y 찹쌀떡 para "pegarse" (붙다 = pegarse y aprobar) y el 미역국 que no se come (미끄러지다) ⚑ D-6, con el artículo del blog. **Matiz [YA]:** es cultura del **수능** que se extiende a otros exámenes; no "cultura del TOPIK". **Titulares:** inventados, sin cifras ni datos del día (⚑ D-11). **Frase ancla** (Fase 1 §10.4): *출산은 개인의 선택이지만, 저출산은 사회 전체가 함께 풀어야 할 문제이기도 하다.* ⚑ D-7 (cierra el texto A del contrarreloj). **Puente:** la baja natalidad también se discute en Chile y en Latinoamérica; se compara sin decir "los coreanos no quieren hijos" |
 | 8 | **Tarea de speaking** (en clase) | Cada alumno habla coreano: (1) sala de 2, 8 minutos: decide cada tarjeta **en voz alta con la razón** (이건 지금 풀게요. 짧은 글이니까요.) y discrepa con cortesía (B.11); en la ronda 3, **cada uno** dice la tarjeta 1 (un titular) como oración completa · (2) 3 alumnos reconstruyen un titular en voz alta en la sala principal · (3) 2 alumnos leen el debate; 2 justifican la actitud del hombre en coreano; todos responden la pregunta oral sobre la mujer (chat o voz) · (4) 2 dicen una frase de actitud en el bloque 6 · (5) coro de las 3 frases. Registro: ✓ de habla en la planilla (E.2) |
 | 9 | **Tarea de listening** | **Debate simulado** tipo 듣기 31–32 leído por 2 compañeros, **dos veces**, sin texto, con las opciones leídas antes y notas con símbolos (S3): idea central y 태도 del hombre + 의도 de la mujer (3 de opción múltiple) + una oral sobre la actitud de la mujer: así se cumple lo publicado, "la 태도 y la 의도 de cada hablante". En casa (ruta): Examen D 듣기 21–50 con dos escuchas y sin pausar + audio de 2' sobre la actitud en 45–50 (publicado) |
 | 10 | **Tarea de reading** | Tu triaje de 10 ítems del Examen C (R) · 3 titulares en vivo · **10 tarjetas originales** de tipos 21–50 (triaje + resolución de los 지금) · **contrarreloj** de 4 ítems tipo 46–50 en 5'30" · texto modelo anotado (cuaderno §5, lectura en voz alta 5 min/día) · tarea: **Examen D 읽기 21–50 en 50'** |
 | 11 | **Tarea de writing** | En clase, poca (esta es una semana de lectura): la mini hoja de triaje, las respuestas en el chat, 1 frase de actitud. En casa: **puente a la S7: el 서론 del 54** (2–3 frases en 한다체) sobre *"경쟁은 개인과 사회에 도움이 되는가?"*; sub-meta 4–5: + 3 ideas en viñetas (esqueleto). Ejercicio 6.5 del cuaderno (titulares → oración en 한다체) como repaso |
 | 12 | **Actividad interactiva** | **Triaje en pares** (publicado) · **titulares en vivo** con votación en el chat (publicado) · **debate simulado** (publicado) · contrarreloj con conteo de puntos en vivo |
-| 13 | **Tarea para la casa** | **Núcleo (≈ 55'; la única semana que pasa de 45 porque la sección entera lo exige, diseño B.10):** Examen D · 읽기 21–50 en 50', a saltos, + hoja de triaje → **formulario antes del mié 25 nov, 22:00** (publicado). **Puente a la S7 (10'):** el 서론 → **foto al chat privado contigo antes del lun 23 nov, 22:00** (DECISIÓN DE JAY 4: canal privado); sub-meta 4–5 suma el esqueleto (B0.7, E.8). **Ruta intensiva:** D 듣기 21–50 con dos escuchas + audio de 2' al grupo (publicado) · ficha de 15 titulares desnominalizados (publicado) · un titular de 연합뉴스 al día. **Rescate:** 21–30. Plazo de nota (publicado): antes de la clase 7 |
+| 13 | **Tarea para la casa** | **Núcleo (≈ 55'; la única semana que pasa de 45 porque la sección entera lo exige, diseño B.10):** Examen D · 읽기 21–50 en 50', a saltos, + hoja de triaje → **formulario antes del mié 2 dic, 22:00** (publicado). **Puente a la S7 (10'):** el 서론 → **foto al chat privado contigo antes del lun 30 nov, 22:00** (DECISIÓN DE JAY 4: canal privado); sub-meta 4–5 suma el esqueleto (B0.7, E.8). **Ruta intensiva:** D 듣기 21–50 con dos escuchas + audio de 2' al grupo (publicado) · ficha de 15 titulares desnominalizados (publicado) · un titular de 연합뉴스 al día. **Rescate:** 21–30. Plazo de nota (publicado): antes de la clase 7 |
 | 14 | **Recurso digital** (exacto) | **Examen C** (PDF de 읽기 y de 듣기, lo tienen desde la S2) · **Examen D** (읽기 + 듣기 con MP3, 대본 y clave; descargado en la tarea puente de la S5) · **formulario de D 읽기 21–50** con clave y campos de triaje (plataforma: DECISIÓN DE JAY 7) · **hoja de triaje** (cuaderno §9) · **blog** (lectura opcional): `https://www.academiaseul.com/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana` y `https://www.academiaseul.com/blog/hangul-el-alfabeto-mas-cientifico` · 🔊 de las 24 palabras y las 3 frases en `https://www.academiaseul.com/audio/kr/<hex>.mp3`. El Lector y Dubu **no se asignan** (diseño D) |
-| 15 | **Preparación del profe** | Checklist en C.2. Lo esencial: aprobar deck S6 (guion en C.17), cuaderno S6 y formulario de D (los produce el equipo, **plazo N−2: vie 6 nov**); corregir los 53 el **mar 17** y elegir ahí los 3 fragmentos anónimos; el **mié 18**, mandar el guion del debate a 2 lectores y armar las **parejas del mismo nivel**; tener el Examen C abierto con los 10 ítems del triaje marcados |
-| 16 | **Entregable del alumno** | En clase: mini hoja de triaje y puntos del contrarreloj en el chat. Tarea: **formulario de D 읽기 21–50 + hoja de triaje** (mié 25, 22:00) · **foto del 서론** (lun 23, 22:00; 4–5: + esqueleto) · (opcional) audio de 2' y ficha de titulares |
+| 15 | **Preparación del profe** | Checklist en C.2. Lo esencial: aprobar deck S6 (guion en C.17), cuaderno S6 y formulario de D (los produce el equipo, **plazo N−2: vie 13 nov**); corregir los 53 el **mar 24** y elegir ahí los 3 fragmentos anónimos; el **mié 25**, mandar el guion del debate a 2 lectores y armar las **parejas del mismo nivel**; tener el Examen C abierto con los 10 ítems del triaje marcados |
+| 16 | **Entregable del alumno** | En clase: mini hoja de triaje y puntos del contrarreloj en el chat. Tarea: **formulario de D 읽기 21–50 + hoja de triaje** (mié 2, 22:00) · **foto del 서론** (lun 30, 22:00; 4–5: + esqueleto) · (opcional) audio de 2' y ficha de titulares |
 | 17 | **Evaluación** | **Quiz 5** (sobre la S5: 2 palabras + 1 ítem de 원고지 + 1 ítem de gráfico + la frase 2 de un 53; clave en C.16) · **puntos del triaje y del contrarreloj: formativos** (no van a la nota) · ✓ de habla · tarea núcleo registrada (completa y antes de la S7 = 1; E.2, propuesta) · **cuidado del ánimo** (nota publicada): "el nivel 3 es el 40 % del examen; las preguntas de nivel 6 no son tu meta" · asistencia en vivo y "grabación + tarea" en columnas separadas **[regla del certificado: pendiente de decisión de Jay]** |
 
 ---
@@ -85,7 +85,7 @@ Versión 1.3 · domingo 27 de septiembre de 2026 · Dirección Académica (Fase 
 |---|---|---|---|---|---|---|
 | — | 20:58–21:00 | **0 · Llegada** | Reclama el anfitrión con la clave · admite desde la sala de espera · **Grabar → En la nube** · L1 en pantalla · confirma por chat privado que los 2 lectores del debate tienen el guion | Entran; abren el cuaderno en la §7 y el Examen C | Grabación ON | L1 |
 | 0–5 | 21:00–21:05 | **1 · Quiz 5** | Pega el link del formulario (o pide respuestas por chat privado) · cronómetro **3'20"** · **mientras corre, creas las salas de 2 asignadas a mano** (sin abrirlas; ya están todos) · clave (50 s) · 30 s sobre los 53 que devolvió el martes | Responden 5 ítems; corrigen con la clave | Cronómetro visible · chat · salas creadas y cerradas | L1 · L1b · formulario |
-| 5–7 | 21:05–21:07 | **2 · Ayer fue el 수능 + ánimo** | 엿, 찹쌀떡, 붙다, 미역국 en 1 minuto · "hoy el puntaje baja, y está bien: 3급 = 40 %" | Escuchan; 1 o 2 responden en coreano | Pantalla L2–L3 | L2–L3 |
+| 5–7 | 21:05–21:07 | **2 · El 수능 de la semana pasada + ánimo** | 엿, 찹쌀떡, 붙다, 미역국 en 1 minuto · "hoy el puntaje baja, y está bien: 3급 = 40 %" | Escuchan; 1 o 2 responden en coreano | Pantalla L2–L3 | L2–L3 |
 | 7–10 | 21:07–21:10 | **3 · El mapa de la segunda mitad** | Mapa de 읽기 21–50 y de 듣기 21–50 · "manda el 지시문, no el número" · sondeo: "¿qué marcaron como rápidas en D?" | Escriben en el chat 3 números que marcaron en D | Pantalla L4–L5 · chat | L4–L5 |
 | 10–14 | 21:10–21:14 | **4 · Triaje + R en voz alta** | Las 3 decisiones, las 3 reglas y el reloj (1'30") · **R:** triaje en voz alta de 10 ítems del Examen C, con -(으)ㄹ게요 (2'30") | Miran su Examen C; anotan tu decisión al lado de cada número | Pantalla L6–L7 → **compartir el PDF del Examen C** | L6–L7 · Examen C |
 | 14–17 | 21:14–21:17 | **5 · Para reconocer** | Código de titulares + receta para desnominalizar · 셈이다 / 따름이다 / 반면에 · pistas de cohesión de 39–41 | Repiten en coro 2 titulares desnominalizados | Pantalla L8–L9 | L8–L9 |
@@ -107,42 +107,42 @@ Que cada alumno salga con **un método para la mitad difícil del examen**: reco
 
 ### C.2 Checklist de preparación
 
-**Antes del vie 6 nov (plazo N−2 del diseño: revisas y apruebas, no produces)**
+**Antes del vie 13 nov (plazo N−2 del diseño: revisas y apruebas, no produces)**
 - [ ] Leer esta guía y el cuaderno S6. Aprobar el **deck S6** (guion en C.17), el **cuaderno** y el **formulario de D 읽기 21–50** (campos en C.16). Si algo no calza, se lo devuelves a producción.
 - [ ] Revisar los ⚑ de la sección D (en especial todo el coreano original: tarjetas, titulares, debate, contrarreloj, texto modelo, quiz 5).
 - [ ] Confirmar que el **Examen C** y el **Examen D** están publicados con audio, 대본 y clave (⚑ E-2; lo pediste para el vie 2 oct). Mira en tu C qué tipo es el **46** (actitud o <보기>): cambia una frase de tu R (C.3, bloque 4).
 
-**Mar 17 nov (bloque fijo de corrección, E.8: ~80')**
+**Mar 24 nov (bloque fijo de corrección, E.8: ~80')**
 - [ ] Corregir los 53 de la S5 (los dos línea a línea: en el de C, cada error de R, G o C reescrito; en el de D, códigos en cada línea y solo la frase que más resta reescrita; guía S5, D-26) y devolverlos.
 - [ ] Mientras corriges, **elegir 3 fragmentos para el bloque 12**: uno con -아/어요 (R), uno con opinión o causa inventada (C) y uno bueno (✓), idealmente con **이는**. **Transcríbelos** (no muestres la foto: la letra delata). Si no aparecen, usa los de C.8.7.
 - [ ] Anotar los **3 errores más repetidos** del grupo en el 53 (te sirven para el comentario de 30 s del quiz).
 
-**Mié 18 nov**
+**Mié 25 nov**
 - [ ] **Lectores del debate:** el hablante de herencia (si hay) + un alumno de sub-meta 4–5. Mensaje privado con el guion de C.8.4 (texto en C.15) antes de las 20:00. Pídeles que lo lean una vez en voz alta en casa y que **no** lo compartan. Suplente: tú lees las dos voces.
 - [ ] **Parejas del mismo nivel** para la sala (diseño B0.3): 3 con 3, 4–5 con 4–5; si el número es impar, un trío. Anótalas: las asignas a mano durante el quiz (21:01–21:04).
 - [ ] Preparar el **Examen C** en PDF con los 10 ítems del triaje marcados: **21, 23, 25, 28, 32, 35, 39, 42, 46, 48**.
 
-**Jue 19, 20:45 (antes de entrar)**
+**Jue 26, 20:45 (antes de entrar)**
 - [ ] Deck abierto en L1 · link del formulario del quiz 5 copiado · PDF del Examen C abierto en otra pestaña.
 - [ ] Texto de respaldo de la sala (C.3, bloque 8) en un portapapeles o nota.
 - [ ] Cronómetro visible (en pantalla compartida, no solo en tu celular).
 - [ ] La planilla del curso abierta: columnas de quiz 5, ✓ de habla y contrarreloj.
-- [ ] Nombre de la grabación: `TOPIK2_S06_2026-11-19`.
+- [ ] Nombre de la grabación: `TOPIK2_S06_2026-11-26`.
 
-**Jue 19, 20:58**
+**Jue 26, 20:58**
 - [ ] Entrar cuando Kiran termine, **reclamar el anfitrión** con la clave, abrir la sala de espera y admitir.
 - [ ] **Grabar → En la nube.**
 - [ ] **Salas para grupos → Crear → Asignar manualmente**: las parejas del miércoles. **Hazlo durante el quiz (21:01–21:04)**, no a las 20:59: en ese momento tú no hablas y ya entró todo el mundo (quien llega a las 21:00 no aparece en la lista si las creaste antes). No las abras todavía. Opciones: "Cerrar automáticamente las salas después de **7 minutos**" (Zoom solo acepta minutos enteros) · cuenta regresiva de **30 s** · "Permitir volver a la sesión principal" ON. Las abres a las 21:23:30: a las 21:30:30 empieza la cuenta regresiva y a las 21:31 están todos de vuelta.
 - [ ] Chat privado a los 2 lectores: «¿Tienen el guion abierto? Leemos a las 21:34.»
 
 **Después de la clase (dentro de 24 h)**
-- [ ] Subir la grabación, el PDF del deck y el **대본 del debate** a la carpeta: `TOPIK2_S06_2026-11-19_Nivel4-6.pdf` (convención G.3).
+- [ ] Subir la grabación, el PDF del deck y el **대본 del debate** a la carpeta: `TOPIK2_S06_2026-11-26_Nivel4-6.pdf` (convención G.3).
 - [ ] Publicar el mensaje de C.15 (con el texto del debate).
 - [ ] Planilla: asistencia (en vivo / grabación + tarea, en columnas separadas), quiz 5, ✓ de habla, puntos del contrarreloj (formativo).
 
-**Lun 23 – jue 26 nov**
-- [ ] **Lun 23, 22:00:** vencen los 서론. **Mar 24 (bloque fijo):** corregirlos con códigos (~25') y los esqueletos de sub-meta 4–5 (~15'); elegir **2 서론 anónimos** para la clínica de la S7 (E.8).
-- [ ] **Mié 25, 22:00:** cierra el formulario de D. **Jue 26, antes de la S7:** mirar las hojas de triaje (C.16, "cómo leerla", ~15') y preparar el dato del grupo para el quiz 6 y los mensajes de ánimo a quien lo necesite (C.15).
+**Lun 30 – jue 3 dic**
+- [ ] **Lun 30, 22:00:** vencen los 서론. **Mar 1 (bloque fijo):** corregirlos con códigos (~25') y los esqueletos de sub-meta 4–5 (~15'); elegir **2 서론 anónimos** para la clínica de la S7 (E.8).
+- [ ] **Mié 2, 22:00:** cierra el formulario de D. **Jue 3, antes de la S7:** mirar las hojas de triaje (C.16, "cómo leerla", ~15') y preparar el dato del grupo para el quiz 6 y los mensajes de ánimo a quien lo necesite (C.15).
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 *Los guiones van en "tú", la voz de la casa; dilos con tus palabras. La estrategia, en español; los ítems, las decisiones, las felicitaciones y todo lo que pueda ir en coreano, en coreano. Desde la S2, el metalenguaje (정답, 선택지, 지문, 지시문, 빈칸) se dice en coreano sin traducir.*
@@ -156,8 +156,8 @@ Que cada alumno salga con **un método para la mitad difícil del examen**: reco
 - A los 3'20": **«그만!»** L1b con la clave (50 s). Una línea por ítem (C.16): «La 3: después del punto, la frase sigue en la casilla de al lado, sin casilla vacía. La 5: en nuestra plantilla, la frase 2 nombra el segundo lugar con su cifra y termina en 그 뒤를 이었다.»
 - **(ES, 30 s)** «El martes les devolví sus 53. Tres cosas que el grupo ya hace bien: ___. Lo que más puntos nos resta: ___. Lo vemos en el bloque de corrección, al final.» *(Rellenas con tu corrección del martes.)*
 
-#### Bloque 2 · 21:05–21:07 · Ayer fue el 수능 + ánimo · L2–L3
-- **L2 (KO + ES, 1 min):** «**어제 한국에서 수능이 있었어요.** Ayer, cuando aquí era miércoles en la noche, cientos de miles de 수험생 rindieron el examen de admisión universitaria. ¿Qué se les regala antes? **엿**, **찹쌀떡**: cosas pegajosas. ¿Por qué? **붙으라고요!** 붙다 es "pegarse" y también "aprobar". ¿Y qué no se come? **미역국**. **미끄러우니까요!** 미끄러지다, "resbalarse", también es reprobar. Nació con el 수능 y hoy se usa para cualquier examen importante. El artículo del blog está en su cuaderno.»
+#### Bloque 2 · 21:05–21:07 · El 수능 de la semana pasada + ánimo · L2–L3
+- **L2 (KO + ES, 1 min):** «**지난주에 한국에서 수능이 있었어요.** El jueves pasado en Corea, cuando aquí era miércoles en la noche, cientos de miles de 수험생 rindieron el examen de admisión universitaria. ¿Qué se les regala antes? **엿**, **찹쌀떡**: cosas pegajosas. ¿Por qué? **붙으라고요!** 붙다 es "pegarse" y también "aprobar". ¿Y qué no se come? **미역국**. **미끄러우니까요!** 미끄러지다, "resbalarse", también es reprobar. Nació con el 수능 y hoy se usa para cualquier examen importante. El artículo del blog está en su cuaderno.»
 - **(KO, 10 s)** «카밀라 씨, 수험생한테 뭐라고 말해요?» → «시험 잘 보세요!» *(Si no sale, lo dices tú y el grupo repite; 수능 대박! también vale.)*
 - **L3 (ES, 50 s) · el mensaje de ánimo (nota publicada, no se recorta):** «Hoy ustedes son nuestros 수험생. Y les aviso algo antes de empezar: **esta semana el puntaje baja**. Las preguntas 21–50 son las más difíciles del examen, y es normal sacar menos que en 1–20. Acuérdense del dato de la clase 1: **para el nivel 3 necesitan el 40 % del examen.** Las preguntas de nivel 6 no son su meta. La meta de hoy es otra: **no regalar tiempo y no dejar nada en blanco**. Si el viernes sienten que bajaron, léanse esta lámina.»
 
@@ -198,7 +198,7 @@ Que cada alumno salga con **un método para la mitad difícil del examen**: reco
 - **(ES, 15 s)** «Tres titulares. Uno de ustedes lo dice como oración; el resto vota la opción con el número en el chat. Los titulares son inventados, en estilo de prensa: no son noticias reales.»
 - Por titular (≈ 50 s): muestras el titular solo → **«카밀라 씨, 이 제목을 문장으로 말해 볼까요?»** (30 s; si se traba, le das el sujeto: «누가? 기업이…») → aparecen las 4 opciones → **«여러분, 몇 번이에요? 번호만 채팅에 써 주세요.»** → confirmas con la frase completa.
   - **L12 · TA:** 주 4일 근무제 도입 기업 잇따라… "생산성 오히려 올라" (→ ②) · primer turno: alguien de **sub-meta 3** (es su tipo 지금).
-  - **L13 · TC:** 수능 마친 수험생들, 해방감도 잠시… 진로 고민 시작 (→ ④) · «Ayer, ¿se acuerdan? 해방감 = sensación de libertad; 진로, el rumbo de estudios o de trabajo.»
+  - **L13 · TC:** 수능 마친 수험생들, 해방감도 잠시… 진로 고민 시작 (→ ④) · «El 수능 de la semana pasada, ¿se acuerdan? 해방감 = sensación de libertad; 진로, el rumbo de estudios o de trabajo.»
   - **L14 · TD:** 저출산 대책 '현금 지원' 논란… "돈으로는 한계" vs "더 늘려야" (→ ①) · «**논란** + **vs**: dos posturas enfrentadas. Guárdenlo: vuelve en el contrarreloj.»
 - Modelos de oración y claves en C.8.2 y C.16.
 
@@ -251,8 +251,8 @@ Que cada alumno salga con **un método para la mitad difícil del examen**: reco
 - **L23 · la fórmula del día (30 s):** «**지시문 → 90 segundos → 지금, 나중에 o 찍기. Nada en blanco.** Y para la actitud: **필자는 ___에 대해 ___고 있어요**, con la partícula de cada verbo.»
 - **Meta para la próxima clase (35 s; publicado: "meta de puntaje para la próxima clase"):** «Examen D, 21–50, en 50 minutos. **Meta 3:** 21–35 bien hechas y cero en blanco. **Meta 4–5:** las 30, con 5 minutos para volver a sus 나중에. Y su **número**: corte de 읽기 de su tabla de la clase 1, menos los puntos de su 1–20 del Examen C de la semana 2, dividido por 2. Eso es lo que les basta en 21–50. Para el 3급, con 14 en 1–20: **9 de 30**. Para el 4급 (55 en 읽기), con 16 en 1–20: **12 de 30**. Es una cuenta, no una promesa.» *(Mismo cálculo de L7 y del mensaje de ánimo de C.15; ⚑ S6-15.)*
 - **L24 · las 3 frases (1 min):** «Primero yo, despacio; después ustedes.» Tú solo, lento, con 2 segundos de pausa: **«이 문제는 나중에 다시 풀게요.»** → grupo · **«필자는 새로운 제도에 대해 우려하고 있어요.»** → grupo · **«이 기사의 중심 내용은 청년 취업 문제예요.»** → grupo. *De aquí se recorta `T2_S06_frases_clave.mp3` (B.12): tu versión, sola y limpia.*
-- **L25 · tarea (2 min):** «Uno, el núcleo: Examen D, 읽기 21–50, en 50 minutos, a saltos, con la hoja de triaje de la sección 9; formulario antes del **miércoles 25 a las 22:00**. Dos, el puente a la clase 7: el **서론** del ensayo sobre la competencia, 2 frases; los de meta 4–5, 3 frases y tres ideas en viñetas. Foto a mi chat privado antes del **lunes 23 a las 22:00**. Tres, si quieren más: 듣기 21–50 del Examen D y el audio de 2 minutos, o la ficha de titulares. La clase 7 abre con el **quiz 6**: un titular, dos verbos de actitud, un triaje y una palabra.»
-- **(KO, 20 s)** «오늘 정말 잘했어요. 점수가 좀 내려가도 괜찮아요. 3급은 40%면 돼요! 어제 한국 수험생들처럼, 우리도 화이팅!» → «감사합니다!»
+- **L25 · tarea (2 min):** «Uno, el núcleo: Examen D, 읽기 21–50, en 50 minutos, a saltos, con la hoja de triaje de la sección 9; formulario antes del **miércoles 2 a las 22:00**. Dos, el puente a la clase 7: el **서론** del ensayo sobre la competencia, 2 frases; los de meta 4–5, 3 frases y tres ideas en viñetas. Foto a mi chat privado antes del **lunes 30 a las 22:00**. Tres, si quieren más: 듣기 21–50 del Examen D y el audio de 2 minutos, o la ficha de titulares. La clase 7 abre con el **quiz 6**: un titular, dos verbos de actitud, un triaje y una palabra.»
+- **(KO, 20 s)** «오늘 정말 잘했어요. 점수가 좀 내려가도 괜찮아요. 3급은 40%면 돼요! 수능을 본 한국 수험생들처럼, 우리도 화이팅!» → «감사합니다!»
 - **22:00:** "Finalizar reunión para todos".
 
 ### C.4 Cada tipo de pregunta en 4 pasos (R → C → G → L)
@@ -527,14 +527,14 @@ Texto completo **en el cuaderno, sección 7.4**. Texto A: medidas contra la 저�
 
 | Qué | Cuándo | Cómo | Tiempo |
 |---|---|---|---|
-| 서론 (todos) | **mar 24 nov** | Códigos (C.16) + 3 líneas | 3' × 8 ≈ 25' |
-| Esqueleto del 54 (sub-meta 4–5) | mar 24 nov | Códigos, no línea a línea | 4' × (2–4) ≈ 15' |
-| 2 서론 anónimos para la clínica de la S7 | mar 24 nov | Transcritos (no foto) | 5' |
-| Hojas de triaje de D | jue 26, antes de la S7 | Lectura rápida por patrones (C.16) | ≈ 15' |
+| 서론 (todos) | **mar 1 dic** | Códigos (C.16) + 3 líneas | 3' × 8 ≈ 25' |
+| Esqueleto del 54 (sub-meta 4–5) | mar 1 dic | Códigos, no línea a línea | 4' × (2–4) ≈ 15' |
+| 2 서론 anónimos para la clínica de la S7 | mar 1 dic | Transcritos (no foto) | 5' |
+| Hojas de triaje de D | jue 3, antes de la S7 | Lectura rápida por patrones (C.16) | ≈ 15' |
 
-**Cuidado del ánimo (nota publicada: "cuida el ánimo en la semana 6").** El jueves 26, antes de la clase, mira los puntajes de D 21–50. Para quien quede **por debajo de su número** (la cuenta del bloque 13: 9 de 30 para el 3급 con 14 en 1–20; 12 de 30 para el 4급 con 16), mensaje privado de C.15 **antes** de la S7: no se entera por el quiz. Nunca lo compares con otro alumno.
+**Cuidado del ánimo (nota publicada: "cuida el ánimo en la semana 6").** El jueves 3, antes de la clase, mira los puntajes de D 21–50. Para quien quede **por debajo de su número** (la cuenta del bloque 13: 9 de 30 para el 3급 con 14 en 1–20; 12 de 30 para el 4급 con 16), mensaje privado de C.15 **antes** de la S7: no se entera por el quiz. Nunca lo compares con otro alumno.
 
-**Asistencia y certificado.** La S6 es la clase 6 de 8. Registra asistencia en vivo y "grabación + tarea" en columnas separadas. Quien a esta altura lleve 3 ausencias en vivo ya no llega a "6 de 8 en vivo" (la regla de la ficha); con la regla general (grabación + tarea) sí podría: **no le digas nada todavía**, porque depende de tu decisión **[regla del certificado: pendiente de decisión de Jay]** (DECISIÓN DE JAY 3). Si decides antes del 26, avísale en privado qué necesita.
+**Asistencia y certificado.** La S6 es la clase 6 de 8. Registra asistencia en vivo y "grabación + tarea" en columnas separadas. Quien a esta altura lleve 3 ausencias en vivo ya no llega a "6 de 8 en vivo" (la regla de la ficha); con la regla general (grabación + tarea) sí podría: **no le digas nada todavía**, porque depende de tu decisión **[regla del certificado: pendiente de decisión de Jay]** (DECISIÓN DE JAY 3). Si decides antes del 3 dic, avísale en privado qué necesita.
 
 **Columnas de la planilla para la S6**
 
@@ -544,23 +544,23 @@ Texto completo **en el cuaderno, sección 7.4**. Texto A: medidas contra la 저�
 
 ### C.15 Mensajes post-clase (listos para pegar)
 
-**Mensaje privado a los 2 lectores del debate (mié 18, antes de las 20:00):**
+**Mensaje privado a los 2 lectores del debate (mié 25, antes de las 20:00):**
 ```
 ¡Hola, [nombre]! Mañana en la clase de TOPIK II te pido un favor 🙏 Vamos a simular un debate tipo 듣기 31–32 y quiero que lo leas tú con [otro nombre]. Tú eres la voz de [여자 / 남자]. Te dejo el guion abajo: léelo una vez en voz alta en casa, a ritmo natural, y por favor no lo compartas (los demás lo van a escuchar sin texto). Lo leemos dos veces a las 21:34. ¡Gracias! 화이팅
 [pegar aquí el guion de C.8.4, solo el coreano]
 ```
 
-**Mensaje al grupo (jue 19, después de subir la grabación, o a más tardar el vie 20 a mediodía):**
+**Mensaje al grupo (jue 26, después de subir la grabación, o a más tardar el vie 27 a mediodía):**
 ```
 ¡Gracias por la clase de hoy, chingus! 수험생 여러분, 수고 많았어요 🐯
 Grabación: [link] (las salas no se graban). Láminas: [link]
 Recuerden: esta semana el puntaje baja, y está bien. El nivel 3 es el 40 % del examen.
 
-TAREA (plazo de nota: antes de la clase 7, jueves 26, 21:00):
-1) NÚCLEO · Examen D, 읽기 21–50 en 50 minutos, a saltos, con la hoja de triaje (cuaderno, sección 9). Respuestas, tiempo y triaje al formulario: [link] antes del MIÉRCOLES 25, 22:00.
+TAREA (plazo de nota: antes de la clase 7, jueves 3, 21:00):
+1) NÚCLEO · Examen D, 읽기 21–50 en 50 minutos, a saltos, con la hoja de triaje (cuaderno, sección 9). Respuestas, tiempo y triaje al formulario: [link] antes del MIÉRCOLES 2, 22:00.
    Meta 3: 21–35 bien hechas, triaje estricto después y NADA en blanco. Meta 4–5: las 30, con 5 minutos para volver a sus 나중에.
    Su número (cuaderno, sección 9): (corte de 읽기 − puntos de su 1–20) ÷ 2 = lo que les basta en 21–50. Es una cuenta, no una promesa.
-2) PUENTE A LA CLASE 7 · El 서론 del ensayo "경쟁은 개인과 사회에 도움이 되는가?" (cuaderno, sección 9). Meta 3: 2 frases. Meta 4–5: 3 frases + 3 ideas en viñetas. A mano, en 한다체. Foto a mi chat PRIVADO antes del LUNES 23, 22:00.
+2) PUENTE A LA CLASE 7 · El 서론 del ensayo "경쟁은 개인과 사회에 도움이 되는가?" (cuaderno, sección 9). Meta 3: 2 frases. Meta 4–5: 3 frases + 3 ideas en viñetas. A mano, en 한다체. Foto a mi chat PRIVADO antes del LUNES 30, 22:00.
 3) OPCIONAL · Examen D 듣기 21–50 con dos escuchas y un audio de 2 minutos aquí sobre la actitud del hablante en dos preguntas de 45–50 · ficha de 15 titulares.
 
 La clase 7 abre con el quiz 6: un titular, dos verbos de actitud, un triaje y una palabra (ejercicios 6.1, 6.2 y 6.5 del cuaderno).
@@ -568,15 +568,15 @@ Lectura opcional: academiaseul.com/blog/sopa-de-algas-antes-de-un-examen-superst
 
 El debate de hoy (대본), para que lo repasen:
 [pegar aquí el guion de C.8.4, solo el coreano]
-¡Nos vemos el jueves 26 a las 21:00! 화이팅!
+¡Nos vemos el jueves 3 a las 21:00! 화이팅!
 ```
 
-**Mensaje privado de ánimo (jue 26, antes de la S7, a quien quedó bajo su número en D 21–50):**
+**Mensaje privado de ánimo (jue 3, antes de la S7, a quien quedó bajo su número en D 21–50):**
 ```
 ¡Hola, [nombre]! Vi tu Examen D 👀 Primero lo bueno: [una fortaleza concreta: "tus titulares, 3 de 3" / "no dejaste nada en blanco" / "volviste a todos tus 나중에"]. En 21–50 sacaste [N] de 30, y te digo algo con números: con tu 1–20 de la semana 2 ([N]/20), para llegar a tu corte de 읽기 ([45 para el 3급 / 55 para el 4급]) te bastan [N] aciertos en 21–50. Tu triaje dice que tus puntos están en [21–27 / 32–38]: ahí vamos a apuntar, y 44–50 los marcas sin culpa. Las preguntas de nivel 6 no son tu meta. Mañana lo vemos juntos. 화이팅!
 ```
 
-**Devolución del 서론 (mar 24; 3 líneas, primero la fortaleza):**
+**Devolución del 서론 (mar 1; 3 líneas, primero la fortaleza):**
 ```
 ¡Hola, [nombre]! Tu 서론, con códigos en azul en la foto.
 ✓ Lo que suma: [p. ej., "presentas el tema sin copiar la pregunta y en 한다체 de principio a fin"].
@@ -654,7 +654,7 @@ Para el jueves: [la fórmula: "___은/는 우리 사회의 중요한 문제이�
 | **6.6** | **④ ㉣** · pista: **이렇게** → lo que acaba de describirse (una hora en cada idioma = enseñarse mutuamente) |
 | **6.7** | Sin clave única. 1 (frases 2 y 3 de 6.2): 필자는 제도를 서둘러 바꾸는 것에 대해 우려하고 있어요 (o …바꾸는 것을 우려하고 있어요) · 필자는 시민의 의견을 듣지 않고 정책을 결정한 것을 비판하고 있어요. Mira la partícula (비판하다 → 을/를, nunca 에) y que diga **qué**: "필자는 우려하고 있어요" a secas es el error #4 de C.7. *(El texto modelo de la §5 ya trae su propia frase de actitud como ejemplo; por eso el ejercicio usa 6.2.)* 2: 이 기사의 중심 내용은 ___예요/이에요 con un sustantivo o una frase nominal (반려동물 관련 산업의 호황이에요). 3: -(으)ㄹ게요 + -(으)니까요 |
 
-**Cómo leer la hoja de triaje de D (jue 26, ~15')**
+**Cómo leer la hoja de triaje de D (jue 3, ~15')**
 
 | Patrón | Qué ves | Qué significa | Qué le dices |
 |---|---|---|---|
@@ -695,13 +695,13 @@ Nombre · sub-meta (3 / 4–5) · respuestas 21–50 (con clave oficial de D, au
 
 ### C.17 Guion de slides (para armar el deck sin inventar)
 
-**Base y reglas.** No hay deck previo de TOPIK II S6 (diseño G.1): se arma con esta tabla y la plantilla de la casa. Plazo: **vie 6 nov** (N−2). Acento azul `#4236F6`, cabeceras navy `#003478`, **nunca rojo** (tampoco en ✗, ni en "semáforos" de triaje: 지금 / 나중에 / 찍기 van en azul, navy y gris). **Cero romanización**; pronunciación en 한글 entre corchetes. **Nada escaneado de un examen ni de un libro**: el Examen C se muestra desde el PDF del alumno, en vivo, no pegado en el deck. Imágenes: con licencia libre o propias.
+**Base y reglas.** No hay deck previo de TOPIK II S6 (diseño G.1): se arma con esta tabla y la plantilla de la casa. Plazo: **vie 13 nov** (N−2). Acento azul `#4236F6`, cabeceras navy `#003478`, **nunca rojo** (tampoco en ✗, ni en "semáforos" de triaje: 지금 / 나중에 / 찍기 van en azul, navy y gris). **Cero romanización**; pronunciación en 한글 entre corchetes. **Nada escaneado de un examen ni de un libro**: el Examen C se muestra desde el PDF del alumno, en vivo, no pegado en el deck. Imágenes: con licencia libre o propias.
 
 | L | Título | En pantalla | Nota | Fuente |
 |---|---|---|---|---|
 | 1 | Quiz 5 · 5분 | Los 5 ítems de C.8.1 · "Link en el chat" · cronómetro 3'20" (el ítem 3 lleva la fila de casillas dibujada, en azul y gris) | 21:00 · creas las salas mientras corre | C.8.1 |
 | 1b | 정답 | Clave 3 · 4 · 2 · 3 · 2 con una línea cada una | Formativo del grupo | C.16 |
-| 2 | 어제는 수능 날 | Ilustración o foto libre de 엿 y 찹쌀떡 · **붙다** = pegarse = aprobar · **미역국** ✗ → 미끄러지다 · **시험 잘 보세요! · 수능 대박!** · link del blog | 1 min | Diseño B.7 · blog |
+| 2 | 지난주 목요일, 수능 날 | Ilustración o foto libre de 엿 y 찹쌀떡 · **붙다** = pegarse = aprobar · **미역국** ✗ → 미끄러지다 · **시험 잘 보세요! · 수능 대박!** · link del blog | 1 min | Diseño B.7 · blog |
 | 3 | Esta semana el puntaje baja | Grande: **3급 = 40 %** · "Las preguntas de nivel 6 no son tu meta" · "Meta de hoy: no regalar tiempo · nada en blanco" | Mensaje de ánimo (nota publicada) | Clase del 17 sept · ficha publicada |
 | 4 | 읽기 21–50 | Tabla de tipos (cuaderno §3.1, sin las columnas de meta) · "Todas valen 2 puntos" · "**Manda el 지시문, no el número**" | — | Cuaderno §3.1 · 제60회 (verificado) |
 | 5 | 듣기 21–50 | Pares y dos escuchas · 31–32 debate · "45–50: primero qué coincide, después 태도" | — | Cuaderno §3.1 |
@@ -719,12 +719,12 @@ Nombre · sub-meta (3 / 4–5) · respuestas 21–50 (con clave oficial de D, au
 | 17 | 토론 · 두 번 들어요 | "Sin texto · lean las opciones (40 s) · ♀ ♂ ✓ ✗ ! " · cuaderno 7.3 · abajo, tras las respuestas: "반대한다기보다는 = no es tanto que me oponga…" | — | C.8.4 |
 | 18 | 시작! 5분 30초 | Cronómetro grande · "Cuaderno 7.4 · nada en blanco · respuestas al chat cuando diga 그만" | Silencio | — |
 | 19 | 정답 · 8점 | A1 ② · A2 ③ · B1 ④ · B2 ③ · (bonus ①) · 2 trampas · **la frase ancla** en grande | Coro de la frase ancla | C.16 · Fase 1 §10.4 |
-| 20 | 53 · fragmento 1 | Fragmento transcrito · al clic, códigos (en azul) y versión corregida | Anónimo | Corrección del mar 17 / C.8.7 |
+| 20 | 53 · fragmento 1 | Fragmento transcrito · al clic, códigos (en azul) y versión corregida | Anónimo | Corrección del mar 24 / C.8.7 |
 | 21 | 53 · fragmento 2 | Idem · "El 53 no opina · la causa solo si el gráfico la da" | — | Idem |
 | 22 | 53 · fragmento 3 | Idem · "**이는** = la pista de 39–41" | — | Idem |
 | 23 | La fórmula del día | 지시문 → 90 s → 지금 / 나중에 / 찍기 · nada en blanco · 필자는 ___에 대해 ___고 있어요 · meta D: Meta 3 / Meta 4–5 · **tu número:** (corte de 읽기 − puntos de 1–20) ÷ 2 = aciertos que te bastan en 21–50 (3급: 9 de 30 · 4급: 12 de 30; ejemplo, no promesa) | — | C.3, bloque 13 |
 | 24 | Las 3 frases de hoy | 이 문제는 나중에 다시 풀게요. / 필자는 새로운 제도에 대해 우려하고 있어요. / 이 기사의 중심 내용은 청년 취업 문제예요. | Coro; de aquí sale el clip | Diseño B.12 |
-| 25 | Tarea | Núcleo D 읽기 21–50 (formulario, mié 25, 22:00) · puente 서론 (chat privado, lun 23, 22:00) · ruta opcional · "Quiz 6: titular · 2 verbos de actitud · triaje · 1 palabra" · **수고 많았어요!** | — | Cuaderno §9 |
+| 25 | Tarea | Núcleo D 읽기 21–50 (formulario, mié 2, 22:00) · puente 서론 (chat privado, lun 30, 22:00) · ruta opcional · "Quiz 6: titular · 2 verbos de actitud · triaje · 1 palabra" · **수고 많았어요!** | — | Cuaderno §9 |
 | Extra A | Titulares de reserva | TB · TE · TF | Emergencia | C.8.2 |
 | Extra B | ¿Qué actitud? | Las 3 frases de C.11 (2) | Emergencia | C.11 |
 | Extra C | 심정 | 3 situaciones de C.11 (4) | Emergencia | C.11 |
@@ -735,34 +735,34 @@ Nombre · sub-meta (3 / 4–5) · respuestas 21–50 (con clave oficial de D, au
 
 | # | Qué | Por qué | Quién · cuándo |
 |---|---|---|---|
-| S6-1 | ⚑ **Todo el coreano original de la semana** (D-1 del diseño): quiz 5, 6 titulares, 10 tarjetas, guion del debate, textos A y B, texto modelo "수능 날의 풍경", ejercicios 6.1–6.7, 3 frases de emergencia, modelo de 서론 | Son de producción propia; en especial: el modismo **입을 모아** en la tarjeta 2 (¿el más natural para "coinciden los expertos"?), **서운하다** como única respuesta de la tarjeta 3, **감격스럽다** en la 8, "반색" en la tarjeta 1, "-다기보다는" en el debate | Jay · vie 6 nov |
-| S6-2 | ⚑ **Titulares inventados** (D-11) | Estilo de prensa y su versión en oración. Que ninguno se lea como noticia real (TC habla del día después del 수능; TD del debate sobre el 현금 지원) | Jay · vie 6 nov |
-| S6-3 | ⚑ **Frase ancla** (D-7): 출산은 개인의 선택이지만, 저출산은 사회 전체가 함께 풀어야 할 문제이기도 하다 | Cierra el texto A del contrarreloj y la nota cultural | Jay · vie 6 nov |
-| S6-4 | ⚑ **미역국 → 미끄러지다 y 엿/찹쌀떡** (D-6) | Contados como cultura del 수능 que se extiende a otros exámenes, sin generalizar | Jay · vie 6 nov |
+| S6-1 | ⚑ **Todo el coreano original de la semana** (D-1 del diseño): quiz 5, 6 titulares, 10 tarjetas, guion del debate, textos A y B, texto modelo "수능 날의 풍경", ejercicios 6.1–6.7, 3 frases de emergencia, modelo de 서론 | Son de producción propia; en especial: el modismo **입을 모아** en la tarjeta 2 (¿el más natural para "coinciden los expertos"?), **서운하다** como única respuesta de la tarjeta 3, **감격스럽다** en la 8, "반색" en la tarjeta 1, "-다기보다는" en el debate | Jay · vie 13 nov |
+| S6-2 | ⚑ **Titulares inventados** (D-11) | Estilo de prensa y su versión en oración. Que ninguno se lea como noticia real (TC habla de los días después del 수능; TD del debate sobre el 현금 지원) | Jay · vie 13 nov |
+| S6-3 | ⚑ **Frase ancla** (D-7): 출산은 개인의 선택이지만, 저출산은 사회 전체가 함께 풀어야 할 문제이기도 하다 | Cierra el texto A del contrarreloj y la nota cultural | Jay · vie 13 nov |
+| S6-4 | ⚑ **미역국 → 미끄러지다 y 엿/찹쌀떡** (D-6) | Contados como cultura del 수능 que se extiende a otros exámenes, sin generalizar | Jay · vie 13 nov |
 | S6-5 | ⚑ **Datos del texto modelo** | Horario de entrada atrasado en empresas y oficinas públicas, la policía que lleva a los atrasados: prácticas conocidas del día del 수능. "cientos de miles de 수험생" (nota cultural): sin cifra exacta a propósito | Jay (o producción, con la prensa del 19–20 nov) |
 | S6-6 | ⚑ **El 46 de 읽기 cambia según la edición** | En el 제60회 (verificado el 27 sept) el 46 es "<보기>, dónde va" y la actitud del autor es el **50**; la ficha publicada dice "46–50: actitud y propósito". El cuaderno lo dice así: "46: actitud o <보기>, según el examen; manda el 지시문". Mira qué es el 46 en tus Exámenes C y D (C.2) | Jay · vie 2 oct (con E-2) · anexo E |
 | S6-7 | ⚑ **Dos escuchas en 21–50** (E-1) | El cuaderno lo afirma porque está publicado en la tarea de la S6 ("dos escuchas por pregunta, como en el examen real"). Lo confirma el locutor del audio oficial | Jay · con el audio del Examen A |
 | S6-8 | **Formato del 쓰기 y de los puntos, verificado** (avance de E-1 y E-8) | El cuadernillo del 제60회 dice 51–52 "(각 10점)", 53 "(30점)", 54 "(50점)", y "(각 2점)" en todos los ítems de 듣기 y 읽기. Queda por confirmar en topik.go.kr solo el reparto por categorías (E-8) | Informativo |
-| S6-9 | ⚑ **Pronunciaciones en corchetes** | 필자 [필짜] y 저출산 [저출싼] (tensión en sino-coreanas después de ㄹ) · 급증 [급쯩] · 논란 [놀란] · 잇따라 [읻따라]. Van en el cuaderno | Jay · vie 6 nov |
-| S6-10 | **Clips de audio** | Los 24 🔊 del vocabulario y las 3 frases clave **están publicados** en `public/audio/kr` (tanda de TOPIK II, commit `6c2e7943`, ya en `origin/main`; verificados uno por uno el 27 sept). El cuaderno también enlaza 시험 잘 보세요 · 수능 대박 y, en la nota cultural, 엿 · 찹쌀떡 · 붙다 · 미역국 (clips que ya existían por la S8 y por Básico 2). **No existen** (el cuaderno no los enlaza): 우려하다 `ec9ab0eba0a4ed9598eb8ba4` · 비판하다 `ebb984ed8c90ed9598eb8ba4` · 동의하다 `eb8f99ec9d98ed9598eb8ba4` · 기대하다 `eab8b0eb8c80ed9598eb8ba4` · 이건 지금 풀게요 `ec9db4eab1b420eca780eab88820ed9280eab28cec9a94` · 이건 나중에 풀게요 `ec9db4eab1b420eb8298eca491ec979020ed9280eab28cec9a94` · 이건 찍을게요 `ec9db4eab1b420ecb08dec9d84eab28cec9a94` · 미끄러지다 `ebafb8eb8184eb9faceca780eb8ba4` · la frase ancla (`ecb69cec82b0ec9d80…ed9598eb8ba4`, hex completo con el script de la casa). Si se generan, se suma el 🔊 en el cuaderno. **Control final (27 sept):** los archivos están en `origin/main`, pero el sitio en vivo (www.academiaseul.com, servido por Vercel) respondía **404** para 194 de los 195 clips que enlazan los 8 cuadernos. **Actualizado en la revisión de coordinación (27 sept, tarde, después del commit `5d607d8a` que arregla los deploys de Vercel):** los **33 clips distintos que enlaza este cuaderno responden 200 con `audio/mpeg`** en www.academiaseul.com (y un hex inventado sigue dando 404, o sea que no es una página de relleno). Para esta semana, resuelto. **Control final, 2.ª pasada (27 sept, noche):** los 195 clips distintos que enlazan los 8 cuadernos responden **200** (`audio/mpeg`) en www.academiaseul.com tras el commit `5d607d8a`: ⚑ N-1 del diseño cerrado. | Producción · antes del vie 6 nov (opcional) |
-| S6-11 | **El guion del debate se manda antes a 2 alumnos** | Esos dos conocen las respuestas de 1, 2 y 3: no las responden en el chat (sí la pregunta oral sobre la otra voz). Alternativa si no te gusta: lees tú las dos voces | Jay · mié 18 nov |
-| S6-12 | **Parejas del mismo nivel** | El diseño (B0.3) las pide para el triaje de la S6; de S2 a S5 fueron mixtas. Con un número impar de una sub-meta, un trío | Jay · mié 18 nov |
+| S6-9 | ⚑ **Pronunciaciones en corchetes** | 필자 [필짜] y 저출산 [저출싼] (tensión en sino-coreanas después de ㄹ) · 급증 [급쯩] · 논란 [놀란] · 잇따라 [읻따라]. Van en el cuaderno | Jay · vie 13 nov |
+| S6-10 | **Clips de audio** | Los 24 🔊 del vocabulario y las 3 frases clave **están publicados** en `public/audio/kr` (tanda de TOPIK II, commit `6c2e7943`, ya en `origin/main`; verificados uno por uno el 27 sept). El cuaderno también enlaza 시험 잘 보세요 · 수능 대박 y, en la nota cultural, 엿 · 찹쌀떡 · 붙다 · 미역국 (clips que ya existían por la S8 y por Básico 2). **No existen** (el cuaderno no los enlaza): 우려하다 `ec9ab0eba0a4ed9598eb8ba4` · 비판하다 `ebb984ed8c90ed9598eb8ba4` · 동의하다 `eb8f99ec9d98ed9598eb8ba4` · 기대하다 `eab8b0eb8c80ed9598eb8ba4` · 이건 지금 풀게요 `ec9db4eab1b420eca780eab88820ed9280eab28cec9a94` · 이건 나중에 풀게요 `ec9db4eab1b420eb8298eca491ec979020ed9280eab28cec9a94` · 이건 찍을게요 `ec9db4eab1b420ecb08dec9d84eab28cec9a94` · 미끄러지다 `ebafb8eb8184eb9faceca780eb8ba4` · la frase ancla (`ecb69cec82b0ec9d80…ed9598eb8ba4`, hex completo con el script de la casa). Si se generan, se suma el 🔊 en el cuaderno. **Control final (27 sept):** los archivos están en `origin/main`, pero el sitio en vivo (www.academiaseul.com, servido por Vercel) respondía **404** para 194 de los 195 clips que enlazan los 8 cuadernos. **Actualizado en la revisión de coordinación (27 sept, tarde, después del commit `5d607d8a` que arregla los deploys de Vercel):** los **33 clips distintos que enlaza este cuaderno responden 200 con `audio/mpeg`** en www.academiaseul.com (y un hex inventado sigue dando 404, o sea que no es una página de relleno). Para esta semana, resuelto. **Control final, 2.ª pasada (27 sept, noche):** los 195 clips distintos que enlazan los 8 cuadernos responden **200** (`audio/mpeg`) en www.academiaseul.com tras el commit `5d607d8a`: ⚑ N-1 del diseño cerrado. | Producción · antes del vie 13 nov (opcional) |
+| S6-11 | **El guion del debate se manda antes a 2 alumnos** | Esos dos conocen las respuestas de 1, 2 y 3: no las responden en el chat (sí la pregunta oral sobre la otra voz). Alternativa si no te gusta: lees tú las dos voces | Jay · mié 25 nov |
+| S6-12 | **Parejas del mismo nivel** | El diseño (B0.3) las pide para el triaje de la S6; de S2 a S5 fueron mixtas. Con un número impar de una sub-meta, un trío | Jay · mié 25 nov |
 | S6-13 | **El blog "sopa de algas" usa romanización** | Es lectura opcional para público general (miyeokguk, butda…); el curso no usa romanización. El cuaderno solo da el link. Informativo | Informativo |
 | S6-14 | **Ediciones de C y D** (E-2) | Esta guía no transcribe ni da claves de C ni de D: la clave es la oficial. Si C o D cambian de edición, cambia solo tu R del bloque 4 (qué dices en cada número) | Jay · vie 2 oct |
-| S6-15 | ⚑ **Umbrales de "ánimo" y patrones de la hoja de triaje** | "9 de 30" sale del reparto 45/45/30 de la S1 con 14/20 en 1–20: es una cuenta de ejemplo, no una regla. Los patrones A–F son heurística de la casa: calibrarlos con el grupo | Jay · jue 26 nov |
+| S6-15 | ⚑ **Umbrales de "ánimo" y patrones de la hoja de triaje** | "9 de 30" sale del reparto 45/45/30 de la S1 con 14/20 en 1–20: es una cuenta de ejemplo, no una regla. Los patrones A–F son heurística de la casa: calibrarlos con el grupo | Jay · jue 3 dic |
 | S6-16 | **Objetivo publicado "15–20 puntos extra"** | Se presenta como meta orientativa; no se repite como promesa en clase ni en el cuaderno (regla de no prometer puntajes). Propuesta de redacción en el anexo E | DECISIÓN DE JAY · enero |
-| S6-17 | **Tarea: el plazo del 서론 el lunes y el de D el miércoles** | Siguen el diseño (E.4, E.8). Si el formulario de D choca con tu carga de otras clases, se puede mover al jueves 26 a las 12:00 sin tocar la nota | DECISIÓN DE JAY 4 (canal) · informativo |
+| S6-17 | **Tarea: el plazo del 서론 el lunes y el de D el miércoles** | Siguen el diseño (E.4, E.8). Si el formulario de D choca con tu carga de otras clases, se puede mover al jueves 3 a las 12:00 sin tocar la nota | DECISIÓN DE JAY 4 (canal) · informativo |
 | S6-18 | **Nombre del archivo del alumno** | **Resuelto en el control final (27 sept):** se queda `S0N_Material_Alumno.md` en las 8 semanas (convención de las Fases 2–4); el diseño (§0, G.2, G.3) y el README de `alumnos/` ya lo dicen. Nota original: Este cuaderno se guardó como `alumnos/S06_Material_Alumno.md` (nombre del encargo). El diseño (G.3) y el README de `alumnos/` dicen `S0N_Cuaderno_Estrategia.md`. Unificar los 8 cuando estén | Coordinación · al cerrar la fase |
-| S6-19 | **Titular TC y el día del 수능** | Se muestra el viernes 20 en Corea: coherente con "el día después". Si el 수능 2026 se hubiera movido (no hay indicio; la Fase 1 lo verificó), cambiar "ayer" | Informativo |
+| S6-19 | **Titular TC y el día del 수능** | Se muestra el viernes 27 en Corea, una semana después del 수능 (calendario corrido el 12 oct): el titular sigue valiendo, porque habla de lo que viene después del examen ("해방감도 잠시… 진로 고민 시작"). Si el 수능 2026 se hubiera movido (no hay indicio; la Fase 1 lo verificó), cambiar "la semana pasada" / "지난주" | Informativo |
 | S6-20 | **Vocabulario fuera de la lista C** | Titulares (바늘구멍, 해방감, 한파, 취약 계층…), debate (시범, 신중하게, -다기보다는) y cuaderno (listas de 심정 y verbos de opciones): todo para **reconocer**; ninguno entra en el quiz 6 | Informativo |
 | S6-21 | **Guion del debate en el grupo después de la clase** | El 대본 se comparte post-clase para repaso (C.15); en clase solo se escucha | Informativo |
 | S6-22 | **Consigna del 서론 = la de la S7, palabra por palabra** | **Control final (27 sept):** las dos semanas se habían "alineado" cada una con una versión distinta de la otra (aquí: 긍정적인 영향 / 부정적인 영향; en la S7: 필요한 이유 / 지나치면 생기는 문제). Se dejó una sola, **la de la S7** (C.8 de su guía y sección 5 de su material: 현대 사회에서 경쟁은 피하기 어렵다… 단, 문제를 그대로 옮겨 쓰지 마시오), porque de ella dependen el modelo del 54, el 개요 y el esqueleto de la S7. Cambiados aquí: C.16 (consigna y primera frase del modelo de 서론) y cuaderno §9 (consigna y aviso de no copiar). Copiar la frase de la consigna o la pregunta en el 서론 es código C | Informativo |
 | S6-24 | **Revisión nativa del 27 sept (2.ª pasada)** | Se cotejaron los 지시문 de las tarjetas y del debate con el cuadernillo del 제60회 (páginas renderizadas del PDF público): 21 "( )에 들어갈 알맞은 것을 고르십시오" · 23 y 42 "밑줄 친 부분에 나타난 '…'의 심정으로 알맞은 것" · 48 "위 글을 쓴 목적으로 알맞은 것" · 50 "…필자의 태도로 알맞은 것" · 듣기 31 "남자의 생각으로 알맞은 것" · 32 "남자의 태도로 알맞은 것" · 27 "남자가 여자에게 말하는 의도를 고르십시오" (sin "가장" en todos esos). Cambios: debate 1–2 al 지시문 real; tarjeta 2 al del 21; en 39–41 (tarjeta 7 y 6.6) los huecos van **después** de cada frase, como en el examen (se añadió una frase inicial; la clave sigue en ㉣); 6.1 con opciones que no se delatan por la partícula; quiz 5 ítem 1: 순위 → 절반 (con "( )으로", 순위 se descartaba solo por la partícula); TD: "효과 없어" → "돈으로는 한계" (el 25 del 제60회 es "출산율 또 하락, 정부 대책 효과 없어": se evita el eco con un ítem oficial); debate, 6.2, 6.5 (4 y 5), texto 10, texto B, C.11 y cierre: naturalidad. ⚑ La pregunta 3 del debate (의도 de una frase citada) no es un formato del 듣기 real: queda marcada en el cuaderno como "pregunta extra de la casa" | Informativo · Jay puede revertir cualquier cambio |
-| S6-23 | ⚑ **Pregunta 3 del debate (의도 de la mujer)** | Añadida en la revisión del 27 sept para cumplir lo publicado ("identifica la 태도 y la 의도 de cada hablante"): hombre → idea central y 태도 (1–2); mujer → 의도 (3) y actitud (4, oral); el 의도 del hombre (-다기보다는) queda como reto 4–5. Coreano de las opciones: revisarlo con el resto (S6-1) | Jay · vie 6 nov |
-| S6-25 | **El 듣기 21–50 oficial queda en la ruta (opcional)** | Es lo que dice el diseño (B.7, B.10: núcleo = 읽기 21–50). Consecuencia honesta: antes del simulacro, nadie está **obligado** a escuchar un 강연 o un 대담 real de 41–50. Para que no quede en nada, el cuaderno ofrece una ruta mínima (31–32 + 45–50 de D, ≈ 15') y el formulario puede preguntar "¿hiciste algo de 듣기 21–50?" (sí/no, sin nota). Si prefieres que 31–32 + 45–50 sea núcleo, el núcleo pasa a ≈ 70': DECISIÓN DE JAY | Jay · antes del vie 6 nov |
+| S6-23 | ⚑ **Pregunta 3 del debate (의도 de la mujer)** | Añadida en la revisión del 27 sept para cumplir lo publicado ("identifica la 태도 y la 의도 de cada hablante"): hombre → idea central y 태도 (1–2); mujer → 의도 (3) y actitud (4, oral); el 의도 del hombre (-다기보다는) queda como reto 4–5. Coreano de las opciones: revisarlo con el resto (S6-1) | Jay · vie 13 nov |
+| S6-25 | **El 듣기 21–50 oficial queda en la ruta (opcional)** | Es lo que dice el diseño (B.7, B.10: núcleo = 읽기 21–50). Consecuencia honesta: antes del simulacro, nadie está **obligado** a escuchar un 강연 o un 대담 real de 41–50. Para que no quede en nada, el cuaderno ofrece una ruta mínima (31–32 + 45–50 de D, ≈ 15') y el formulario puede preguntar "¿hiciste algo de 듣기 21–50?" (sí/no, sin nota). Si prefieres que 31–32 + 45–50 sea núcleo, el núcleo pasa a ≈ 70': DECISIÓN DE JAY | Jay · antes del vie 13 nov |
 | S6-26 | **Revisión de coordinación del 27 sept (3.ª pasada)** | (1) Tiempos: el quiz sumaba 5'20" y el contrarreloj 7'45": ahora quiz 3'20" + clave 50 s y contrarreloj con 그만 a las 21:43:45 y cierre a las 21:45; bloques 4, 5 y 9 recortados 10–20 s. (2) Las salas se crean durante el quiz, no a las 20:59. (3) Quiz 5 ítem 3: ahora es "encontrar un error de 원고지", como prometió el cuaderno S5. (4) "Cada alumno reconstruye un titular" (publicado) se cumple con la tarjeta 1 en la ronda 3 de la sala. (5) Puente -는데: -던데요 del debate enlazado con el -는데요 de la S3 (guía y cuaderno §3.8); fila "Reciclaje" con los 4 puentes. (6) Ruta honesta en la S6 (C.10). (7) Cuaderno: glosa de 감격스럽다 sin "lágrimas" (delataba la tarjeta 8) y ruta mínima de 듣기 | Informativo · Jay puede revertir cualquier cambio |
-| S6-27 | **Revisión nativa adversarial del 27 sept (4.ª pasada)** | Cotejo otra vez contra el cuadernillo del 제60회 (texto extraído del PDF público). Cambios: (1) tu R del 23: «소설이에요» → «'나'의 경험을 쓴 글이에요» (en el 제60회 el 23–24 es un relato personal en primera persona; el 소설 es el 42–43). (2) Cuaderno 6.3: 지시문 con «다음», como en el 3–4 real; distractor ③ «한 척입니다» (forma no natural) → «한 척했습니다». (3) Tarjeta 1, opción ③: «여는 날과 시간을 늘려서» → «여는 시간을 늘려서» (el titular no dice "días"; ahora calza con tu modelo oral del bloque 8). (4) Cuaderno §3.4: el ejemplo de 기대하다 era «방학을 기대하고 있어요», justo lo que se "espera que llegue" (기다리다), en la misma sección que enseña a separarlos → «시민들은 새 정책의 효과를 기대하고 있어요». (5) Texto A: «지급하는 것이 대표적이다» → «지급하는 방식이 대표적이다». (6) Nota de la pregunta 3 del debate, redactada sin ambigüedad. (7) Guía: clave del quiz 5 (5) sin "siempre" (es nuestra plantilla, no una regla del examen); citas de la tarjeta 10 fieles al texto (C.5 #10 y C.16); el modelo de 서론 son ≈ 145 casillas con espacios, no 130. **Queda para ti:** la consigna del 서론 (compartida con la S7) mezcla el formato: el 54 real pone arriba «다음을 주제로 하여 자신의 생각을 600～700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오.» y en el recuadro el texto + «아래의 내용을 중심으로 … 자신의 의견을 쓰라» con las 3 viñetas. No se tocó aquí para no desalinear la S7: si la ajustas, hazlo en las dos semanas a la vez ⚑ | Jay · vie 6 nov (la consigna) · el resto informativo |
-| S6-28 | **Revisión adversarial de coordinación (27 sept, 5.ª pasada)** | Suma de la hora: 5 + 15 + 25 + 10 + 5 = 60, bloque a bloque; el único que se pasaba era el **debate**: el guion tiene ≈ 350 sílabas y dos alumnos no lo leen en 1'10" → ahora 1'10"–1'30" por lectura y **hora de control 21:36:30** que protege el contrarreloj (C.3, bloque 10; B; C.8.4). **Meta de puntaje** (publicada en el cierre: "meta de puntaje para la próxima clase") faltaba: ahora cada alumno calcula **su número** para 21–50 con la misma cuenta de L7 (bloque 13, L23, C.15 y cuaderno §9), y el mensaje de ánimo usa ese número en vez de "9 de 30" para todos (un alumno de 4급 con 10 de 30 también lo necesita). Fila "Reciclaje": la tarjeta 4 no trae -기 위해서 → 6.1 (4 y 6), texto A y tarjeta 1 ④. Cuaderno 6.7 (1): la consigna ya no delata las respuestas de 6.2 (2 y 3) ("qué le preocupa o critica"). Clips: los 33 del cuaderno ya suenan en vivo (S6-10). Sin cambios: ruta honesta (C.10), carga de corrección (C.14: mar 17 ≈ 80', mar 24 ≈ 45', jue 26 ≈ 15'), puentes, claves (tarjetas, debate, contrarreloj, quiz 5 y ejercicios, cotejadas con el cuaderno), sin rojo y sin respuestas en el cuaderno | Informativo · Jay puede revertir cualquier cambio |
+| S6-27 | **Revisión nativa adversarial del 27 sept (4.ª pasada)** | Cotejo otra vez contra el cuadernillo del 제60회 (texto extraído del PDF público). Cambios: (1) tu R del 23: «소설이에요» → «'나'의 경험을 쓴 글이에요» (en el 제60회 el 23–24 es un relato personal en primera persona; el 소설 es el 42–43). (2) Cuaderno 6.3: 지시문 con «다음», como en el 3–4 real; distractor ③ «한 척입니다» (forma no natural) → «한 척했습니다». (3) Tarjeta 1, opción ③: «여는 날과 시간을 늘려서» → «여는 시간을 늘려서» (el titular no dice "días"; ahora calza con tu modelo oral del bloque 8). (4) Cuaderno §3.4: el ejemplo de 기대하다 era «방학을 기대하고 있어요», justo lo que se "espera que llegue" (기다리다), en la misma sección que enseña a separarlos → «시민들은 새 정책의 효과를 기대하고 있어요». (5) Texto A: «지급하는 것이 대표적이다» → «지급하는 방식이 대표적이다». (6) Nota de la pregunta 3 del debate, redactada sin ambigüedad. (7) Guía: clave del quiz 5 (5) sin "siempre" (es nuestra plantilla, no una regla del examen); citas de la tarjeta 10 fieles al texto (C.5 #10 y C.16); el modelo de 서론 son ≈ 145 casillas con espacios, no 130. **Queda para ti:** la consigna del 서론 (compartida con la S7) mezcla el formato: el 54 real pone arriba «다음을 주제로 하여 자신의 생각을 600～700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오.» y en el recuadro el texto + «아래의 내용을 중심으로 … 자신의 의견을 쓰라» con las 3 viñetas. No se tocó aquí para no desalinear la S7: si la ajustas, hazlo en las dos semanas a la vez ⚑ | Jay · vie 13 nov (la consigna) · el resto informativo |
+| S6-28 | **Revisión adversarial de coordinación (27 sept, 5.ª pasada)** | Suma de la hora: 5 + 15 + 25 + 10 + 5 = 60, bloque a bloque; el único que se pasaba era el **debate**: el guion tiene ≈ 350 sílabas y dos alumnos no lo leen en 1'10" → ahora 1'10"–1'30" por lectura y **hora de control 21:36:30** que protege el contrarreloj (C.3, bloque 10; B; C.8.4). **Meta de puntaje** (publicada en el cierre: "meta de puntaje para la próxima clase") faltaba: ahora cada alumno calcula **su número** para 21–50 con la misma cuenta de L7 (bloque 13, L23, C.15 y cuaderno §9), y el mensaje de ánimo usa ese número en vez de "9 de 30" para todos (un alumno de 4급 con 10 de 30 también lo necesita). Fila "Reciclaje": la tarjeta 4 no trae -기 위해서 → 6.1 (4 y 6), texto A y tarjeta 1 ④. Cuaderno 6.7 (1): la consigna ya no delata las respuestas de 6.2 (2 y 3) ("qué le preocupa o critica"). Clips: los 33 del cuaderno ya suenan en vivo (S6-10). Sin cambios: ruta honesta (C.10), carga de corrección (C.14: mar 24 nov ≈ 80', mar 1 dic ≈ 45', jue 3 dic ≈ 15'), puentes, claves (tarjetas, debate, contrarreloj, quiz 5 y ejercicios, cotejadas con el cuaderno), sin rojo y sin respuestas en el cuaderno | Informativo · Jay puede revertir cualquier cambio |
 
 *Coreano de esta guía:* todo lo que el alumno produce sale de la lista C de la S6, de los marcos de B.11 o de lo reciclado (-(으)ㄹ게요 de la S3, 한다체 de la S4, 반면 de la S5). Lo demás (titulares, textos, debate, listas de reconocimiento) es input para reconocer y va marcado arriba.
 
@@ -782,4 +782,4 @@ Nombre · sub-meta (3 / 4–5) · respuestas 21–50 (con clave oficial de D, au
 | **Formulario de D con la lectura del triaje automática** (porcentajes de 지금 / 나중에 / 찍기 calculados solos) | Diseño I #12 | Herramienta reutilizable |
 | **Cápsula de calendario del 수능** fija en la semana del examen de cada cohorte (en enero no hay 수능: se movería a otro gancho) | Fase 1 §10.6 | Depende del calendario de la cohorte |
 
-화이팅, Jay. Esta es la clase en que el grupo mira de frente la parte más dura del examen. Si el jueves 26 cada uno sabe dónde están sus puntos y nadie dejó una respuesta en blanco, la semana 6 hizo su trabajo. 🐯
+화이팅, Jay. Esta es la clase en que el grupo mira de frente la parte más dura del examen. Si el jueves 3 cada uno sabe dónde están sus puntos y nadie dejó una respuesta en blanco, la semana 6 hizo su trabajo. 🐯

@@ -1,9 +1,9 @@
 # Básico 1 (A1.1) · Semana 7 · 방에 침대가 있어요 · Mi pieza y mis verbos
-### Guía de la profesora · Kiran (기란) · martes 24 y jueves 26 de noviembre de 2026 · 20:00–20:58 (hora de Chile)
+### Guía de la profesora · Kiran (기란) · martes 1 y jueves 3 de diciembre de 2026 · 20:00–20:58 (hora de Chile)
 
 **MATERIAL DE LA PROFESORA · documento interno · no se comparte con alumnos**
 
-Lecciones 7 y 8 del libro · Sección martes: **mar 24 nov** · Sección jueves: **jue 26 nov** · Zoom con salas · máx. 15 alumnos
+Lecciones 7 y 8 del libro · Sección martes: **mar 1 dic** · Sección jueves: **jue 3 dic** · Zoom con salas · máx. 15 alumnos
 
 Fuente única: `Curriculo/Fase2_Basico1/00_Diseno_Basico1.md` (B.8, C, D, E, F). Manda el syllabus publicado (`cursos_es.json`, curso `a11`, semana 7). El material del alumno de esta semana es `../alumnos/S07_Material_Alumno.md`.
 
@@ -87,7 +87,7 @@ Que cada alumno **describa su pieza** (qué hay y qué no hay) y **diga qué hac
 
 ### C.2 Checklist de preparación
 
-**Lo prepara el equipo (regla N−2: listo el vie 13 nov). Tú no produces material.**
+**Lo prepara el equipo (regla N−2: listo el vie 20 nov). Tú no produces material.**
 - [ ] Deck de la S7 (30 slides, guion en C.15), en PDF en la carpeta del curso.
 - [ ] Dibujo de "la pieza de Kiran" (slide 5) y su versión con sí/no (slide 7). Contenido exacto: cama junto a la ventana · ventana · escritorio con computador encima · silla · foto sobre el escritorio · clóset con un espejo al lado · un dibujo (cuadro) · puerta · **sin televisor** (marcado con una X gris, nunca roja).
 - [ ] `alumnos/S07_Material_Alumno.md` en PDF (hoja 7–8 + quiz de 15 + consigna del guion).
@@ -95,8 +95,8 @@ Que cada alumno **describa su pieza** (qué hay y qué no hay) y **diga qué hac
 - [ ] Kit "Yo en coreano" (`alumnos/B1_Proyecto_Final.md` y `profes/B1_Proyecto_Final_Profe.md`, P1). Si aún no existen, usa la sección 9.3 del material del alumno y C.13 de esta guía.
 - [ ] Flashcards de "casa y objetos" (`alumnos/B1_Flashcards.xlsx`): en `A1_Nivel_1/200_Flashcards_Coreano_A1.xlsx` ya están 방, 침대, 창문, 텔레비전, 거울, 문, 읽다, 쓰다 y 듣다; **faltan** 그림, 그리다, 배우다, 음악, 컴퓨터, 옷장, 사진, 케이팝 y 한국 음식. Ocultar la columna de romanización.
 - [ ] Repaso de la lección 9 [YA]: capítulos 7 ("La máquina de conjugar y 을/를") y 8 ("Me gusta") de `A1_Nivel_1/Guia_Estudio_MidTerm_A1.docx`, adaptados (sin la columna "[se lee]", sin 입어요/신어요, sin el bonus de pasado y futuro, sin 나는). Si no llegan adaptados, **no los entregues**: el material del alumno ya cubre la S7 y la fórmula de gustos.
-- [ ] Link del examen escrito: **[PLACEHOLDER: link del formulario — lo confirma Jay]** (decisión 3 de Jay, vie 20 nov).
-- [ ] **Decisión 4 de Jay** (qué pasa con quien no pueda presentar el día 8): **[regla del certificado: pendiente de decisión de Jay]**. Propuesta del diseño: video de 1–2 min + respuesta grabada a una pregunta que envía Kiran, antes del dom 6 dic. Se avisa en esta clase.
+- [ ] Link del examen escrito: **[PLACEHOLDER: link del formulario — lo confirma Jay]** (decisión 3 de Jay, vie 27 nov).
+- [ ] **Decisión 4 de Jay** (qué pasa con quien no pueda presentar el día 8): **[regla del certificado: pendiente de decisión de Jay]**. Propuesta del diseño: video de 1–2 min + respuesta grabada a una pregunta que envía Kiran, antes del dom 13 dic. Se avisa en esta clase.
 - [ ] Lista de nombres de cada sección (**todos los inscritos**, también quien falte a la clase 7) cargada en un **barajador de listas** del navegador, que ordena todos los nombres de una vez, para el sorteo del orden de la clase 8. No uses una ruleta que saca un nombre por giro: con 15 nombres no cabe en el cierre.
 
 **El día anterior (tú)**
@@ -108,7 +108,7 @@ Que cada alumno **describa su pieza** (qué hay y qué no hay) y **diga qué hac
 **10 minutos antes**
 - [ ] Deck abierto en la slide 1; barajador de listas abierto en otra pestaña, con los nombres ya cargados.
 - [ ] Sobre el escritorio: **un libro, audífonos, un lápiz y una hoja** (para las mímicas del bloque 12–16).
-- [ ] Graba desde el minuto 0 (nombre: `Basico1-Martes_S07_2026-11-24` o `Basico1-Jueves_S07_2026-11-26`).
+- [ ] Graba desde el minuto 0 (nombre: `Basico1-Martes_S07_2026-12-01` o `Basico1-Jueves_S07_2026-12-03`).
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 
@@ -278,7 +278,9 @@ A los 9 min, mensaje a todas las salas: `Cambio: MÍMICA 🙂` · a los 16 min: 
 **Guion, examen y sorteo (slides 26–29), ES:**
 > "Tarea grande de la semana: tu **guion** para 'Yo en coreano', 8 a 10 frases: quién eres, tu familia, dónde vives, tu día y tu pieza. Los gustos, si quieres, con la tarjeta; si no, los armamos en la clase 8. Tipeado en 한글, me lo mandas **[plazo propuesto: 48 h después de esta clase]** y te lo devuelvo corregido antes de la clase 8."
 >
-> "El **examen escrito** en línea dura 30 minutos y lo rindes antes de la clase 8: [martes: se abre el domingo 29 a las 20:00 y cierra el martes 1 a las 20:00] / [jueves: se abre el martes 1 a las 20:00 y cierra el jueves 3 a las 20:00]. Tu repaso es la hoja 7–8: hazla antes del examen."
+> "El **examen escrito** en línea dura 30 minutos y lo rindes antes de la clase 8: [martes: se abre el domingo 6 a las 20:00 y cierra el martes 8 a las 20:00] / [jueves: se abre el martes 8 a las 20:00 y cierra el jueves 10 a las 20:00]. Tu repaso es la hoja 7–8: hazla antes del examen."
+>
+> *(Solo para ti: el mar 8 de diciembre es feriado en Chile; Jay confirma antes de esta clase si la clase 8 del martes se mantiene. Si cambia, usa la fecha nueva aquí y en el mensaje post-clase.)*
 >
 > "Y ahora, el sorteo del orden de la clase 8." (Baraja la lista una vez; captura de pantalla; se publica en el grupo con el mensaje post-clase. Si alguien falta hoy, queda en la lista igual.)
 >
@@ -425,12 +427,12 @@ Cómo usarlo: si sobra tiempo o como lectura en parejas (roles cambiados). Todo 
 ```
 ¡Gracias por la clase de hoy, chingus!
 Grabación: [link]
-Tarea para antes de tu clase 8 ([mar 1 / jue 3] dic, 20:00 hora Chile):
+Tarea para antes de tu clase 8 ([mar 8 / jue 10] dic, 20:00 hora Chile):
 1) Hoja de las lecciones 7–8 + quiz de 15 preguntas (foto o PDF aquí). Hazla ANTES del examen: es tu repaso.
 2) Lector de Hangul → Practicar → Palabras, 3 rondas seguidas, y Pictogramas, 3 rondas seguidas. Mándame la captura de Progreso.
-3) Tu guion de "Yo en coreano" (8–10 frases, tipeado en 한글) → envíamelo [tu canal: p. ej., mensaje privado de WhatsApp] antes del [jue 26 nov / sáb 28 nov], 20:00 [plazo propuesto]. Te lo devuelvo corregido antes de la clase 8.
+3) Tu guion de "Yo en coreano" (8–10 frases, tipeado en 한글) → envíamelo [tu canal: p. ej., mensaje privado de WhatsApp] antes del [jue 3 dic / sáb 5 dic], 20:00 [plazo propuesto]. Te lo devuelvo corregido antes de la clase 8.
 4) Te dejo el material de la semana 8 (PDF): léelo antes del examen, te sirve de repaso.
-Examen escrito en línea (30 min): [martes: dom 29 nov 20:00 → mar 1 dic 20:00] [jueves: mar 1 dic 20:00 → jue 3 dic 20:00] · link: [PLACEHOLDER — lo confirma Jay]
+Examen escrito en línea (30 min): [martes: dom 6 dic 20:00 → mar 8 dic 20:00] [jueves: mar 8 dic 20:00 → jue 10 dic 20:00] · link: [PLACEHOLDER — lo confirma Jay]
 Orden de presentaciones de la clase 8: [lista del sorteo]
 ¡Nos vemos el [día] a las 20:00! 화이팅
 ```
@@ -439,7 +441,7 @@ Orden de presentaciones de la clase 8: [lista del sorteo]
 - **Propuesta (confirmar con Kiran):** publicar en el grupo la clave de la hoja 7–8 cuando venza el plazo del guion, para que sirva de repaso antes del examen.
 
 **Corrección del guion (formativa, sin nota).**
-- Plazo propuesto de devolución: a más tardar 24 h antes de la clase 8 (martes: lun 30 nov, 20:00 · jueves: mié 2 dic, 20:00) **[propuesta; confirmar con Kiran]**.
+- Plazo propuesto de devolución: a más tardar 24 h antes de la clase 8 (martes: lun 7 dic, 20:00 · jueves: mié 9 dic, 20:00) **[propuesta; confirmar con Kiran]**.
 - Qué marcas: partículas (이/가 · 을/를 · 은/는 · 에) · 이에요/예요 · conjugación -아요/어요 · partícula pegada · verbo al final · frases fuera del curso (C.6, fila del traductor).
 - Código sugerido (para que el alumno corrija): **[P]** partícula · **[E]** 이에요/예요 · **[V]** verbo · **[→]** "hay una forma del curso más simple" · **[+]** ¡muy bien! Devuelves la versión corregida y, arriba, **máximo 3 comentarios, el primero positivo**.
 - Chequeo de contenido (lista de F.1): saludo y quién es · familia · dónde vive · su día (≥ 3 verbos) · su pieza (qué hay y qué no) · gustos (opcional) · 감사합니다. Si falta un bloque, pídelo en uno de los 3 comentarios.
@@ -500,7 +502,7 @@ Plantilla trilingüe de la casa (ES/KO/EN), acento azul `#4236F6`, cabeceras nav
 
 | # | Título | Contenido en pantalla | Nota para la profe | Reutiliza |
 |---|---|---|---|---|
-| 1 | Semana 7 · Mi pieza y mis verbos | 방에 침대가 있어요 · Lecciones 7 y 8 del libro · Kiran · mar 24 / jue 26 nov | Se graba desde aquí | Plantilla de la casa |
+| 1 | Semana 7 · Mi pieza y mis verbos | 방에 침대가 있어요 · Lecciones 7 y 8 del libro · Kiran · mar 1 / jue 3 dic | Se graba desde aquí | Plantilla de la casa |
 | 2 | Quiz 6 | Los 5 ítems (como en el chat) | Lee el ítem 5 dos veces | Nuevo |
 | 3 | Clave del quiz 6 | 가요 · 먹어요 · 공부해요 · 에 · 매일 회사에 가요 | 1 min | Nuevo |
 | 4 | Hoy vas a poder decir… | Las 5 frases de "puede decir" | 20 s | Nuevo |
@@ -546,8 +548,8 @@ Apoyo para la profe (no se proyecta): apuntes de Jay de julio `A1_Nivel_1/clase 
 6. Tip 써요 / 서요 (C.7): ¿útil o distrae?
 
 **Pendientes que no decide Kiran:**
-- **[regla del certificado: pendiente de decisión de Jay]**: cómo cuenta la asistencia (en vivo o grabación + tarea) y qué pasa con quien no presenta el día 8 (decisión 4, antes del 24 nov; se avisa en esta clase).
-- Link y plataforma del examen (decisión 3, vie 20 nov): **[PLACEHOLDER]**.
+- **[regla del certificado: pendiente de decisión de Jay]**: cómo cuenta la asistencia (en vivo o grabación + tarea) y qué pasa con quien no presenta el día 8 (decisión 4, antes del 1 dic; se avisa en esta clase).
+- Link y plataforma del examen (decisión 3, vie 27 nov): **[PLACEHOLDER]**.
 - Canal y plazo del guion: **[propuesta: 48 h después de la clase 7; confirmar con Kiran]**.
 - Flashcards de la S7 (9 palabras faltan en el xlsx) y capítulos 7–8 de la guía de estudio adaptados (producción).
 - Responsable del recorte de `B1_S07_frases_clave.mp3` (decisión 2).

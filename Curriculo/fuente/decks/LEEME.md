@@ -1,6 +1,6 @@
 # Decks de clase · Básico 1 y Básico 2 · octubre 2026
 
-Generados el 9 oct 2026 desde el guion de slides de cada guía de profesor (sección C.14–C.17). Ocho agentes los convirtieron y dos revisores adversariales los compararon contra las guías: Básico 1 quedó sin correcciones y en Básico 2 se reemplazaron 5 láminas. El 10 oct se corrigieron los 141 defectos del primer control visual, se agregó portada a Básico 2 S5 y S8 (lámina 0) y se dibujaron las imágenes de las láminas (ver abajo).
+Generados el 9 oct 2026 desde el guion de slides de cada guía de profesor (sección C.14–C.17). Ocho agentes los convirtieron y dos revisores adversariales los compararon contra las guías: Básico 1 quedó sin correcciones y en Básico 2 se reemplazaron 5 láminas. El 10 oct se corrigieron los 141 defectos del primer control visual, se agregó portada a Básico 2 S5 y S8 (lámina 0) y se dibujaron las imágenes de las láminas (ver abajo). El 16 oct se corrieron todas las fechas una semana (las clases empiezan la semana del 19 de octubre; el mar 8 de diciembre, feriado en Chile, va como «por confirmar») y se regeneraron los 16 decks; las filas incompletas de las grillas quedan centradas.
 
 **Archivos:** `Curriculo/Fase2_Basico1/decks/Basico1_S0N_Kiran.pptx` y `Curriculo/Fase3_Basico2/decks/Basico2_S0N_Jay.pptx` (16:9). Las notas del orador de cada lámina dicen qué hacer, el tiempo, la fuente y si la imagen está incluida o pendiente.
 

@@ -1,5 +1,5 @@
 # Básico 2 (A1.2) · Semana 8 · Conectores + examen final + conversación de 5 minutos
-### Guía del profesor · Jay Kim (김재희) · miércoles 2 de diciembre de 2026 · 21:00–22:00 (hora de Chile) = jueves 3, 09:00 en Corea
+### Guía del profesor · Jay Kim (김재희) · miércoles 9 de diciembre de 2026 · 21:00–22:00 (hora de Chile) = jueves 10, 09:00 en Corea
 
 **MATERIAL DEL PROFESOR · solo para Jay · no se comparte con alumnos.** Trae respuestas, la propuesta de examen con su clave, el simulacro con su clave, tiempos y notas internas. El material del alumno, sin respuestas ni notas internas, está en `../alumnos/S08_Material_Alumno.md`.
 Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3).
@@ -45,7 +45,7 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 
 | | |
 |---|---|
-| **Fecha** | Miércoles 2 de diciembre de 2026 · 21:00–22:00, hora de Chile (UTC−3) = jueves 3, 09:00 en Corea. Única clase del miércoles en la cuenta de Zoom: 60 minutos completos |
+| **Fecha** | Miércoles 9 de diciembre de 2026 · 21:00–22:00, hora de Chile (UTC−3) = jueves 10, 09:00 en Corea. Única clase del miércoles en la cuenta de Zoom: 60 minutos completos |
 | **Unidad del libro** | Enumeración y contraste 01 (-고) y 03 (-지만) · integración de las 7 clases · examen final + evaluación oral · certificado. El libro es tu referencia; en clase se usa el deck (C.17) |
 | **Romanización** | Ninguna (diseño D). Si alguien escribe en el chat con letras latinas, respondes con la misma frase en 한글, sin reproche. En el examen no se acepta romanización (C.16) |
 
@@ -63,11 +63,11 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 | 10 | **Tarea de reading** | Examen: consignas en coreano con glosa y 30 frases del curso · antes de la clase: el **mensaje de 호세** (material del alumno, ejercicio 7: un texto en tres tiempos con conectores y 5 preguntas en coreano) y el simulacro · el diálogo modelo en voz alta |
 | 11 | **Tarea de writing** | Examen **tipeado en 한글**: 5 frases personales (rutina, fin de semana, plan, algo que no hace o no puede, una libre) · en casa: el guion del audio final en 6–8 frases (ejercicio 8), que **no** se lee en la conversación · en el chat del cierre: una frase con -지만 sobre el curso |
 | 12 | **Actividad interactiva** | **Cadena de conectores con giro** (21:04–21:08) + **conversación evaluada en parejas** con la tarjeta de 6 temas (publicada en la S7) |
-| 13 | **Tarea para la casa** | **Antes de la clase** (publicado: repasar las hojas 1–7 y hacer el simulacro; ≈ 30 min): simulacro corto de 10 preguntas (lun 30 nov, 10 min) · ejercicios 1–7 del material de la S8 (15 min) · ensayo de 5 minutos con la pareja, por WhatsApp o Zoom (5 min). **Después** (publicado, ≈ 15–20 min): **audio de 1 minuto en tres tiempos** (quién soy, qué hice en este curso, qué haré en Conversacional 1) en el grupo · escuchar el audio de diagnóstico de la S1 y el nuevo ("antes y después") · Lector → **Progreso**: captura final (recomendada, no obligatoria). **Reto:** 2 frases con -고, 1 con -지만 y un 그래서 en el audio. **Rescate:** audio de 6 frases (2 por tiempo), con una tarjeta de palabras clave a la vista (no frases escritas) |
-| 14 | **Recurso digital** (exacto) | **Antes:** simulacro corto en el formulario (lun 30 nov; publicado) · repaso opcional para fechas y horas: Lector (`/lector-coreano`) → **Aprender 7 "Dos maneras de contar"** (explorador 1–99 y el 🔊 de 세 시 삼십 분) + **Practicar → Números**, 3 rondas seguidas. *Revisado en el código:* las tarjetas del explorador y la línea de corrección de Practicar traen letras latinas; el material le pide al alumno taparlas con el dedo (diseño D). **Después:** Lector → pestaña **Progreso** → captura final (publicado como "Contrarreloj, ronda final, **recomendada, no obligatoria**": el **⚡ Contrarreloj queda opcional** [YA], porque sus opciones vienen en romanización; si lo juegan, que digan la palabra en voz alta antes de mirar las opciones; el récord aparece en Progreso como "récord contrarreloj ⚡") |
+| 13 | **Tarea para la casa** | **Antes de la clase** (publicado: repasar las hojas 1–7 y hacer el simulacro; ≈ 30 min): simulacro corto de 10 preguntas (lun 7 dic, 10 min) · ejercicios 1–7 del material de la S8 (15 min) · ensayo de 5 minutos con la pareja, por WhatsApp o Zoom (5 min). **Después** (publicado, ≈ 15–20 min): **audio de 1 minuto en tres tiempos** (quién soy, qué hice en este curso, qué haré en Conversacional 1) en el grupo · escuchar el audio de diagnóstico de la S1 y el nuevo ("antes y después") · Lector → **Progreso**: captura final (recomendada, no obligatoria). **Reto:** 2 frases con -고, 1 con -지만 y un 그래서 en el audio. **Rescate:** audio de 6 frases (2 por tiempo), con una tarjeta de palabras clave a la vista (no frases escritas) |
+| 14 | **Recurso digital** (exacto) | **Antes:** simulacro corto en el formulario (lun 7 dic; publicado) · repaso opcional para fechas y horas: Lector (`/lector-coreano`) → **Aprender 7 "Dos maneras de contar"** (explorador 1–99 y el 🔊 de 세 시 삼십 분) + **Practicar → Números**, 3 rondas seguidas. *Revisado en el código:* las tarjetas del explorador y la línea de corrección de Practicar traen letras latinas; el material le pide al alumno taparlas con el dedo (diseño D). **Después:** Lector → pestaña **Progreso** → captura final (publicado como "Contrarreloj, ronda final, **recomendada, no obligatoria**": el **⚡ Contrarreloj queda opcional** [YA], porque sus opciones vienen en romanización; si lo juegan, que digan la palabra en voz alta antes de mirar las opciones; el récord aparece en Progreso como "récord contrarreloj ⚡") |
 | 15 | **Preparación del profe** | Checklist completo en C.2. Lo esencial: examen y simulacro aprobados y cargados (DECISIÓN DE JAY 0 y 5) · plan B del examen en PDF · planilla de rúbrica con las parejas · lista del orden de la cadena · Zoom: grabación en la nube, salas para grupos, cuenta regresiva de 60 s |
-| 16 | **Entregable del alumno** | Examen escrito (en clase) · conversación evaluada (en clase; si no alcanzaste a escucharlo, audio de 3 min dentro de las 48 h: hasta el vie 4 dic, 22:00) · audio final de 1 minuto · captura final de Progreso (**recomendada, no obligatoria**, como está publicado: no se cobra ni resta) |
-| 17 | **Evaluación** | Examen final escrito (**40 pts**, 4 secciones publicadas, **sin ítems obligatorios de -고/-지만**) + conversación evaluada (**16 pts**, rúbrica publicada) (diseño E.5, E.6, F). Reparto del final, recomendación del diseño: mitad y mitad. **[regla del certificado: pendiente de decisión de Jay]** (C.14). Devolución escrita del oral en 48 h; examen corregido e informe el **vie 4 dic** [propuesta]; certificados la **semana del 7 de diciembre** (DECISIÓN DE JAY 3: lun 7) |
+| 16 | **Entregable del alumno** | Examen escrito (en clase) · conversación evaluada (en clase; si no alcanzaste a escucharlo, audio de 3 min dentro de las 48 h: hasta el vie 11 dic, 22:00) · audio final de 1 minuto · captura final de Progreso (**recomendada, no obligatoria**, como está publicado: no se cobra ni resta) |
+| 17 | **Evaluación** | Examen final escrito (**40 pts**, 4 secciones publicadas, **sin ítems obligatorios de -고/-지만**) + conversación evaluada (**16 pts**, rúbrica publicada) (diseño E.5, E.6, F). Reparto del final, recomendación del diseño: mitad y mitad. **[regla del certificado: pendiente de decisión de Jay]** (C.14). Devolución escrita del oral en 48 h; examen corregido e informe el **vie 11 dic** [propuesta]; certificados la **semana del 14 de diciembre** (DECISIÓN DE JAY 3: lun 14) |
 
 ---
 
@@ -100,18 +100,18 @@ Que cada alumno **salga sabiendo que puede contar su vida en coreano**: lo escri
 
 | Cuándo | Qué | Nota |
 |---|---|---|
-| **vie 20 nov** (N−2) | Revisar y aprobar: deck S8 (C.17), **examen final v1** y **simulacro** (C.16), y su carga en el formulario (**DECISIÓN DE JAY 0 y 5**) | Producción arma el deck y el formulario; tú revisas. El examen de 2020–21 de tu PC sirve de modelo de formato, no se usa tal cual (diseño E.5) |
-| **vie 20 nov** | Pedir a producción el **PDF del plan B** del examen (las mismas 4 secciones, numeradas) y dejarlo en la carpeta del curso, **sin publicar** | Para C.13 |
-| **Clase 7 · mié 25 nov** | Publicar parejas (por perfil: A + B o B + B; tríos con los C) y la tarjeta de la conversación (F.1) · pedir consentimiento para grabar la conversación con el celular (**DECISIÓN DE JAY 4**) · recordar el teclado coreano · si cambia la línea del certificado, aviso breve (**DECISIÓN DE JAY 2**) | Lo cubre la guía de la S7 |
-| **dom 29 nov** | Recibir las hojas de partículas 7 (entrega propuesta en la S7) | Obligatoria según la ficha: anótala por separado |
-| **lun 30 nov** | Devolver las hojas corregidas (máximo 3 marcas, una positiva primero) · publicar el **simulacro** con el mensaje C.15-a | El simulacro no lleva nota; el formulario muestra la clave al enviar |
-| **mar 1 dic** | Mensaje C.15-b (recordatorio) · probar el formulario del examen con un segundo dispositivo (cronómetro, "1 respuesta por persona", nombre obligatorio, sin mostrar puntaje) · planilla de rúbrica con las parejas y la columna "fuente: en vivo / audio" · **ordenar la lista de la cadena** (C.3, bloque 3) | Revisar quién no hizo el simulacro y quién no entregó la hoja 7: un mensaje privado, sin presión |
-| **mié 2 dic · 20:45** | Zoom abierto (anfitrión) · "Reflejar mi video" desactivado · deck en L1 · formulario abierto **sin aceptar respuestas** · link copiado · planilla, lista de la cadena y cronómetro visibles · nombre de la grabación: `Basico2_S08_2026-12-02` | Salas: se arman durante el examen (21:12), no antes: así puedes mover a quien falte |
+| **vie 27 nov** (N−2) | Revisar y aprobar: deck S8 (C.17), **examen final v1** y **simulacro** (C.16), y su carga en el formulario (**DECISIÓN DE JAY 0 y 5**) | Producción arma el deck y el formulario; tú revisas. El examen de 2020–21 de tu PC sirve de modelo de formato, no se usa tal cual (diseño E.5) |
+| **vie 27 nov** | Pedir a producción el **PDF del plan B** del examen (las mismas 4 secciones, numeradas) y dejarlo en la carpeta del curso, **sin publicar** | Para C.13 |
+| **Clase 7 · mié 2 dic** | Publicar parejas (por perfil: A + B o B + B; tríos con los C) y la tarjeta de la conversación (F.1) · pedir consentimiento para grabar la conversación con el celular (**DECISIÓN DE JAY 4**) · recordar el teclado coreano · si cambia la línea del certificado, aviso breve (**DECISIÓN DE JAY 2**) | Lo cubre la guía de la S7 |
+| **dom 6 dic** | Recibir las hojas de partículas 7 (entrega propuesta en la S7) | Obligatoria según la ficha: anótala por separado |
+| **lun 7 dic** | Devolver las hojas corregidas (máximo 3 marcas, una positiva primero) · publicar el **simulacro** con el mensaje C.15-a | El simulacro no lleva nota; el formulario muestra la clave al enviar |
+| **mar 8 dic** (feriado en Chile) | Mensaje C.15-b (recordatorio) · probar el formulario del examen con un segundo dispositivo (cronómetro, "1 respuesta por persona", nombre obligatorio, sin mostrar puntaje) · planilla de rúbrica con las parejas y la columna "fuente: en vivo / audio" · **ordenar la lista de la cadena** (C.3, bloque 3) | Revisar quién no hizo el simulacro y quién no entregó la hoja 7: un mensaje privado, sin presión |
+| **mié 9 dic · 20:45** | Zoom abierto (anfitrión) · "Reflejar mi video" desactivado · deck en L1 · formulario abierto **sin aceptar respuestas** · link copiado · planilla, lista de la cadena y cronómetro visibles · nombre de la grabación: `Basico2_S08_2026-12-09` | Salas: se arman durante el examen (21:12), no antes: así puedes mover a quien falte |
 | **Esa noche** (22:00–22:30) | Dejar de aceptar respuestas (si no lo hiciste a las 21:41) · exportar las respuestas · completar la planilla del oral **mientras te acuerdas** · guardar los audios de WhatsApp | — |
-| **Dentro de 24 h** | Subir grabación + PDF de la clase (`Basico2_S08_2026-12-02_Conectores-y-examen.pdf`) · publicar el mensaje C.15-c · producción recorta el coro: `B2_S08_frases_clave.mp3` | Tú no editas audio |
-| **Dentro de 48 h** (hasta el vie 4 dic, 22:00) | Devolución escrita del oral (3 líneas por alumno, C.14) · recibir los audios de 3 min de quien no alcanzaste a escuchar | Diseño F.5–F.6 |
-| **vie 4 dic** | Examen corregido a cada alumno · informe final por alumno (C.14) · mensaje general C.15-d | Recomendación individual de nivel: **DECISIÓN DE JAY 11** |
-| **Semana del 7 dic** | Certificados (lun 7, **DECISIÓN DE JAY 3**) y preventa de Conversacional 1 (**DECISIÓN DE JAY 6**: dónde y cuándo sigue) | — |
+| **Dentro de 24 h** | Subir grabación + PDF de la clase (`Basico2_S08_2026-12-09_Conectores-y-examen.pdf`) · publicar el mensaje C.15-c · producción recorta el coro: `B2_S08_frases_clave.mp3` | Tú no editas audio |
+| **Dentro de 48 h** (hasta el vie 11 dic, 22:00) | Devolución escrita del oral (3 líneas por alumno, C.14) · recibir los audios de 3 min de quien no alcanzaste a escuchar | Diseño F.5–F.6 |
+| **vie 11 dic** | Examen corregido a cada alumno · informe final por alumno (C.14) · mensaje general C.15-d | Recomendación individual de nivel: **DECISIÓN DE JAY 11** |
+| **Semana del 14 dic** | Certificados (lun 14, **DECISIÓN DE JAY 3**) y preventa de Conversacional 1 (**DECISIÓN DE JAY 6**: dónde y cuándo sigue) | — |
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 *Dilo con tus palabras. Lo que va en coreano se dice en coreano (saludo, consignas cortas, correcciones de pronunciación, cierre); la explicación va en español. Hoy hablas poco: el protagonismo es del grupo.*
@@ -170,7 +170,7 @@ Que cada alumno **salga sabiendo que puede contar su vida en coreano**: lo escri
 - **두 손으로 (20 s).** Tomas una hoja (o una tarjeta) y la ofreces a la cámara **con las dos manos**: «Su certificado es digital, pero en Corea un diploma se entrega y se recibe así: **두 손으로**. A ver: recíbanlo.» → estiran las dos manos hacia la cámara + «감사합니다!».
 - **L15 · Coro (40 s).** «Primero yo, despacio; después ustedes.» Tú solo, con 2 s de pausa: «**밥을 먹고 커피를 마셨어요.**» → grupo · «**한국어는 어렵지만 재미있어요.**» → grupo · «**수고했어요!**» → grupo. *De aquí se recorta `B2_S08_frases_clave.mp3`: tu versión, sola, lenta y limpia.*
 - **L16 · Resumen (30 s, en paralelo).** «Al chat: una frase con -지만 sobre este curso.» Lees 2 o 3 en voz alta (es el "3 alumnos resumen la clase" publicado). Si no hay tiempo, las lees en el mensaje de la noche.
-- **L16–L17 · Tarea y fechas (40 s, ES).** «Después de la clase, un **audio de 1 minuto en tres tiempos**: quién eres, qué hiciste en este curso y qué harás. Escúchalo al lado de tu audio del 14 de octubre: ese es tu antes y después. Y, si quieres, la captura final de Progreso en el Lector (recomendada, no obligatoria). Si no alcancé a escucharte en la sala, un audio de 3 minutos con la tarjeta, hasta el viernes a las 22:00. El viernes les llega el examen corregido; el certificado, la semana del 7 de diciembre.» *(Lo del viernes y la recomendación individual: DECISIÓN DE JAY 11.)*
+- **L16–L17 · Tarea y fechas (40 s, ES).** «Después de la clase, un **audio de 1 minuto en tres tiempos**: quién eres, qué hiciste en este curso y qué harás. Escúchalo al lado de tu audio del 21 de octubre: ese es tu antes y después. Y, si quieres, la captura final de Progreso en el Lector (recomendada, no obligatoria). Si no alcancé a escucharte en la sala, un audio de 3 minutos con la tarjeta, hasta el viernes a las 22:00. El viernes les llega el examen corregido; el certificado, la semana del 14 de diciembre.» *(Lo del viernes y la recomendación individual: DECISIÓN DE JAY 11.)*
 - **L18 · (KO)** «축하해요! 화이팅!» · **22:00 en punto:** "Finalizar reunión para todos".
 
 ### C.4 Cada estructura en 4 pasos (R → C → G → L)
@@ -231,7 +231,7 @@ Que cada alumno **salga sabiendo que puede contar su vida en coreano**: lo escri
 
 ### C.8 Diálogo modelo original (el mismo que tiene el alumno en la sección 5)
 
-**Domingo 29 de noviembre, videollamada.** 발렌티나 (Chile, trabaja en una oficina) y 마테오 (Perú, estudia y trabaja), compañeros de Básico 2, ensayan la conversación del miércoles. Es un modelo de interacción, **no** un guion para memorizar, y es distinto de la respuesta modelo del diseño (F.4).
+**Domingo 6 de diciembre, videollamada.** 발렌티나 (Chile, trabaja en una oficina) y 마테오 (Perú, estudia y trabaja), compañeros de Básico 2, ensayan la conversación del miércoles. Es un modelo de interacción, **no** un guion para memorizar, y es distinto de la respuesta modelo del diseño (F.4).
 
 | Quién | Coreano | Español | Nota para ti |
 |---|---|---|---|
@@ -325,9 +325,9 @@ Que cada alumno **salga sabiendo que puede contar su vida en coreano**: lo escri
 |---|---|
 | **El formulario no abre o se cae** | Pegas en el chat el link del **PDF del plan B** (carpeta del curso). Respuestas numeradas (1.1, 1.2…) en un **mensaje privado de WhatsApp** a ti, hasta las 21:40. Misma clave (C.16) |
 | **Un alumno sin teclado coreano** | Escribe en 한글 **a mano** en su cuaderno y, a las 21:40, manda la foto de cada página por WhatsApp. Se corrige igual |
-| **Se le corta la conexión a un alumno durante el examen** | Vuelve a entrar y sigue; si el formulario perdió sus respuestas, completa en papel y manda la foto a las 21:40. Si no vuelve: rinde el examen completo después, **hasta el vie 4 dic, 22:00** (propuesta del diseño E.7) → **[regla del certificado: pendiente de decisión de Jay]**. No lo prometas en vivo |
+| **Se le corta la conexión a un alumno durante el examen** | Vuelve a entrar y sigue; si el formulario perdió sus respuestas, completa en papel y manda la foto a las 21:40. Si no vuelve: rinde el examen completo después, **hasta el vie 11 dic, 22:00** (propuesta del diseño E.7) → **[regla del certificado: pendiente de decisión de Jay]**. No lo prometas en vivo |
 | **Llega tarde al examen** | Hasta 10 minutos tarde: rinde hasta las 21:41 con el grupo (sin tiempo extra) **[propuesta]**. Más tarde: igual que "se le corta la conexión" |
-| **Se te corta a ti** | El examen sigue (el formulario no depende de Zoom). Si no vuelves en 10 minutos: mensaje al grupo, "conversación por videollamada de WhatsApp con su pareja, 2 × 5 minutos, grabada, y me mandan el audio antes del vie 4 dic, 22:00" |
+| **Se te corta a ti** | El examen sigue (el formulario no depende de Zoom). Si no vuelves en 10 minutos: mensaje al grupo, "conversación por videollamada de WhatsApp con su pareja, 2 × 5 minutos, grabada, y me mandan el audio antes del vie 11 dic, 22:00" |
 | **No abren las salas** | Las parejas se llaman por videollamada de WhatsApp (ya lo hicieron para ensayar), graban la nota de voz y vuelven a Zoom a las 21:56. Tú puntúas con los audios |
 | **Una pareja sin compañero** (faltó uno) | El alumno solo pasa a un trío (nunca A + A + A). Si faltan dos de parejas distintas, se juntan entre ellos |
 | **Número impar** | Un trío: 4 minutos por persona con su cronómetro, más la ronda libre |
@@ -338,7 +338,7 @@ Que cada alumno **salga sabiendo que puede contar su vida en coreano**: lo escri
 
 ### C.14 Evaluación y seguimiento de la semana
 
-**1 · Examen final escrito (40 pts).** Propuesta completa y clave en C.16. **Corrección:** la sección 2 (partículas) y los ítems cerrados se corrigen solos en el formulario si la plataforma lo permite (DECISIÓN DE JAY 5); las secciones 1 (español → coreano y coreano → español), 3 y 4 las revisas tú con la clave y sus variantes aceptadas (≈ 5–6 minutos por examen; ≈ 1,5 h con 15). Se devuelve corregido **el vie 4 dic** [propuesta del diseño E.5].
+**1 · Examen final escrito (40 pts).** Propuesta completa y clave en C.16. **Corrección:** la sección 2 (partículas) y los ítems cerrados se corrigen solos en el formulario si la plataforma lo permite (DECISIÓN DE JAY 5); las secciones 1 (español → coreano y coreano → español), 3 y 4 las revisas tú con la clave y sus variantes aceptadas (≈ 5–6 minutos por examen; ≈ 1,5 h con 15). Se devuelve corregido **el vie 11 dic** [propuesta del diseño E.5].
 
 **2 · Conversación evaluada (16 pts).** Rúbrica publicada de 4 criterios, con descriptores para Básico 2 (diseño F.6):
 
@@ -357,13 +357,13 @@ Que cada alumno **salga sabiendo que puede contar su vida en coreano**: lo escri
 
 *Mínimo esperado para "listo para Conversacional 1"* (diseño F.3): los 5 minutos con pausas pero sin pasar al español (1–2 palabras sueltas se toleran) · los tres tiempos al menos una vez cada uno, con la forma correcta · al menos 4 de los 6 temas · al menos 2 preguntas a la pareja · se le entiende con un interlocutor paciente. **-고 y -지만 suman en el comentario, no en la nota** (E.6). El uso cultural se comenta, no puntúa.
 
-**3 · Devolución del oral (dentro de 48 h, hasta el vie 4 dic, 22:00).** Tres líneas, una fortaleza primero:
+**3 · Devolución del oral (dentro de 48 h, hasta el vie 11 dic, 22:00).** Tres líneas, una fortaleza primero:
 > **[Nombre], 수고했어요!**
 > **Lo mejor:** [una frase textual suya: "tu 기타는 칠 수 있지만 노래는 잘 못 해요 sonó natural y con humor"].
 > **Tu foco para Conversacional 1:** [una sola cosa: "el pasado de 먹다 es 먹었어요: la vocal manda"].
 > **Siguiente paso:** [una acción: "escucha tu audio de octubre y el de hoy: fíjate en tus 받침"].
 
-**4 · Informe final por alumno (vie 4 dic).** Todo **por separado**, para poder aplicar cualquiera de las dos reglas publicadas **[regla del certificado: pendiente de decisión de Jay]** (diseño E.2):
+**4 · Informe final por alumno (vie 11 dic).** Todo **por separado**, para poder aplicar cualquiera de las dos reglas publicadas **[regla del certificado: pendiente de decisión de Jay]** (diseño E.2):
 
 | Alumno | Asistencia en vivo (/8) | Grabación + tarea (n.º) | Tareas S1–S7 (/7) · hoja 7 | Quizzes 1–6 | Quizzes en línea (/2) | Examen (/40) | Oral (/16) | Nota con la regla de la ficha `a12` | Nota con la regla de la Guía del Alumno | Recomendación |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -372,14 +372,14 @@ Que cada alumno **salga sabiendo que puede contar su vida en coreano**: lo escri
 - **Regla de la ficha `a12`** (publicada en el programa): 40 % participación y quizzes · 30 % tareas (al menos 6 de 7; la hoja de partículas 7, obligatoria) · 30 % examen escrito + oral; certificado con nota ≥ 60 % **y** 6 de 8 clases **en vivo** ("ver la grabación no cuenta"). También publicado en la ficha: **quien no alcance el 60 % recibe un plan de refuerzo y puede rendir el oral de nuevo antes de la cohorte de enero** (si se aplica esta regla, esa es la salida; no inventes otra).
 - **Regla de la Guía del Alumno**: 25 % participación · 25 % tareas · 15 % quizzes · 35 % final; certificado por participación con ≥ 75 % de asistencia (6 de 8) **en vivo o grabada con la tarea**; el 60 % es recomendación de nivel.
 - Reparto del final recomendado por el diseño: mitad y mitad (examen 40 pts y oral 16 pts, cada uno la mitad del peso del final). Cómo se convierte la participación en porcentaje: no está fijado en ningún texto; lo decides tú.
-- **Quien faltó a la clase 8:** el oral se cubre con el audio de 3 minutos (publicado). El escrito, propuesta: en línea hasta el vie 4 dic, 22:00 → **[regla del certificado: pendiente de decisión de Jay]**.
-- **Pase a Conversacional 1:** la ficha dice que con el certificado se entra directo, sin test; la nota publicada para el profesor dice "comunica ese mismo día quién pasa". Propuesta del diseño: ese día, mensaje general; el vie 4 dic, la recomendación individual con el examen corregido (**DECISIÓN DE JAY 11**).
+- **Quien faltó a la clase 8:** el oral se cubre con el audio de 3 minutos (publicado). El escrito, propuesta: en línea hasta el vie 11 dic, 22:00 → **[regla del certificado: pendiente de decisión de Jay]**.
+- **Pase a Conversacional 1:** la ficha dice que con el certificado se entra directo, sin test; la nota publicada para el profesor dice "comunica ese mismo día quién pasa". Propuesta del diseño: ese día, mensaje general; el vie 11 dic, la recomendación individual con el examen corregido (**DECISIÓN DE JAY 11**).
 
-**5 · Audio "antes y después".** Diagnóstico de la S1 + audio final de 1 minuto. No lleva nota; respóndelo con 1–2 líneas positivas (es la evidencia más motivadora y la que abre Conversacional 1). Plazo sugerido para los alumnos: **antes del domingo 6 de diciembre** [propuesta].
+**5 · Audio "antes y después".** Diagnóstico de la S1 + audio final de 1 minuto. No lleva nota; respóndelo con 1–2 líneas positivas (es la evidencia más motivadora y la que abre Conversacional 1). Plazo sugerido para los alumnos: **antes del domingo 13 de diciembre** [propuesta].
 
 ### C.15 Mensajes para el grupo (listos para pegar)
 
-**a) Lunes 30 de noviembre · el simulacro**
+**a) Lunes 7 de diciembre · el simulacro**
 ```
 ¡Hola, chingus! 🐯 Llegó el simulacro del examen final: 10 preguntas, unos 10 minutos, con las mismas 4 partes del miércoles (vocabulario, partículas, tiempos y datos, traducción). No tiene nota: al enviarlo ves las respuestas.
 Simulacro: [link]
@@ -387,31 +387,31 @@ Todo en 한글, con el teclado coreano. Si algo no te sale, repasa la hoja de es
 Y esta semana, 5 minutos de conversación con tu pareja (WhatsApp o Zoom), con la tarjeta de 6 temas. Sin guion: ideas y un par de frases por tema. 화이팅!
 ```
 
-**b) Martes 1 de diciembre · recordatorio**
+**b) Martes 8 de diciembre · recordatorio**
 ```
-Mañana, miércoles 2 de diciembre, 21:00 (hora Chile), es nuestra última clase 🎓
+Mañana, miércoles 9 de diciembre, 21:00 (hora Chile), es nuestra última clase 🎓
 21:00 conectores (-고 y -지만) · 21:10 examen final escrito (30 min, en línea) · 21:40 conversación con tu pareja
 Trae: teclado coreano funcionando, audífonos, el celular cargado y la tarjeta de la conversación a mano (sección 7 de tu material de la semana 8).
 Si mañana no puedes conectarte, avísame hoy por privado.
 Hablar lento no baja la nota. 화이팅!
 ```
 
-**c) Miércoles 2 de diciembre · después de la clase**
+**c) Miércoles 9 de diciembre · después de la clase**
 ```
 여러분, 정말 수고했어요! 🐯 Hoy escribieron y conversaron en coreano en presente, pasado y futuro.
 Grabación: [link]
-Tarea final (unos 15–20 minutos), antes del [domingo 6 de diciembre]:
-1) Audio de 1 minuto aquí en el grupo: tu "vida en tres tiempos" (quién eres, qué hiciste en este curso y qué harás). Después escúchalo al lado de tu audio del 14 de octubre: ese es tu antes y después.
+Tarea final (unos 15–20 minutos), antes del [domingo 13 de diciembre]:
+1) Audio de 1 minuto aquí en el grupo: tu "vida en tres tiempos" (quién eres, qué hiciste en este curso y qué harás). Después escúchalo al lado de tu audio del 21 de octubre: ese es tu antes y después.
 2) Recomendado, no obligatorio: Lector de Hangul (academiaseul.com/lector-coreano) → pestaña Progreso → captura final. Si quieres, antes juega una ronda de ⚡ Contrarreloj: sus opciones vienen en letras latinas, así que di cada palabra en voz alta antes de mirarlas.
-Si no alcancé a escucharte en la sala, o faltaste hoy: audio de 3 minutos respondiendo la tarjeta, hasta el viernes 4 de diciembre a las 22:00.
+Si no alcancé a escucharte en la sala, o faltaste hoy: audio de 3 minutos respondiendo la tarjeta, hasta el viernes 11 de diciembre a las 22:00.
 Algunas frases de hoy: [2–3 frases con -지만 del chat]
-El viernes les llega a cada uno, por privado, el examen corregido, mi comentario de la conversación y mi recomendación para Conversacional 1. El certificado, la semana del 7 de diciembre. 축하해요! 화이팅!
+El viernes les llega a cada uno, por privado, el examen corregido, mi comentario de la conversación y mi recomendación para Conversacional 1. El certificado, la semana del 14 de diciembre. 축하해요! 화이팅!
 ```
 
-**d) Viernes 4 de diciembre · resultados (mensaje general; lo individual va por privado)**
+**d) Viernes 11 de diciembre · resultados (mensaje general; lo individual va por privado)**
 ```
 ¡Hola, chingus! Hoy les escribo a cada uno por privado con su examen corregido y mi comentario de la conversación.
-Gracias por estas 8 semanas: pasaron de frases sueltas a contar su vida en coreano. El certificado llega la semana del 7 de diciembre, y en estos días les cuento todo sobre Conversacional 1 (A2.1). 감사합니다! 화이팅!
+Gracias por estas 8 semanas: pasaron de frases sueltas a contar su vida en coreano. El certificado llega la semana del 14 de diciembre, y en estos días les cuento todo sobre Conversacional 1 (A2.1). 감사합니다! 화이팅!
 ```
 *(Si decides comunicar la recomendación de nivel en otro momento, ajusta la primera línea: DECISIÓN DE JAY 11.)*
 
@@ -498,7 +498,7 @@ Orden: **b → d → a → c**. Texto: 먼저 아홉 시쯤 일어났어요. 그
 
 **Ejercicio 8 · Tu guion:** abierto. Revisa: los tres tiempos, al menos un -고 o un -지만, partículas según el 받침, y que no pase de 8 frases (1 minuto hablado).
 
-#### 3 · Simulacro corto (lun 30 nov · formulario con autocorrección · sin nota)
+#### 3 · Simulacro corto (lun 7 dic · formulario con autocorrección · sin nota)
 
 | # | Sección | Consigna (en el formulario) | Respuesta · aceptadas |
 |---|---|---|---|
@@ -617,8 +617,8 @@ Orden: **b → d → a → c**. Texto: 먼저 아홉 시쯤 일어났어요. 그
 | 13 | En la sala | Ronda 1 (21:41) abre A: temas 1–3 · Ronda 2 (21:46) abre B: temas 4–6 · Ronda 3 (21:51) libre · Tríos: 4 min cada uno · 📱 uno graba · tarjeta sí, guion no · **네?** si no entiendes · reacciona: 저도요! 맞아요! 와! · hablar lento no baja la nota · al final: **수고했어요!** | 45 s | Nueva |
 | 14 | 수고했어요! — 감사합니다! | Dos flechas: Jay → grupo: 수고했어요 · grupo → Jay: 감사합니다 · entre compañeros: 수고했어요 · dibujo de dos manos entregando un diploma: **두 손으로** | 21:57 | Nueva |
 | 15 | 오늘의 문장 · 3 frases clave | 밥을 먹고 커피를 마셨어요. / 한국어는 어렵지만 재미있어요. / 수고했어요! | Coro; de aquí sale el clip | B.12 |
-| 16 | Tu tarea final (≈ 15–20 min) | 1) Audio de 1 min en tres tiempos: quién soy · qué hice en este curso · qué haré · 2) Escúchalo al lado de tu audio del 14 de octubre · 3) Recomendado: Lector → Progreso, captura final (⚡ Contrarreloj, opcional) · ¿No te escuché en la sala? Audio de 3 min hasta el vie 4 dic, 22:00 · Chat: "una frase con -지만 sobre este curso" | 40 s | Nueva |
-| 17 | Lo que viene | vie 4 dic: examen corregido · semana del 7 dic: certificado · siguiente peldaño: Conversacional 1 (A2.1) · lista de las 8 semanas con un ✓ cada una (Re-presentación · Números · Presente · Pasado · Futuro · Negación y habilidad · Partículas · Conectores) | Fechas de cierre sujetas a DECISIÓN DE JAY 3, 6 y 11 | Diseño de `Sesion_11` lám. 9, con contenido nuevo |
+| 16 | Tu tarea final (≈ 15–20 min) | 1) Audio de 1 min en tres tiempos: quién soy · qué hice en este curso · qué haré · 2) Escúchalo al lado de tu audio del 21 de octubre · 3) Recomendado: Lector → Progreso, captura final (⚡ Contrarreloj, opcional) · ¿No te escuché en la sala? Audio de 3 min hasta el vie 11 dic, 22:00 · Chat: "una frase con -지만 sobre este curso" | 40 s | Nueva |
+| 17 | Lo que viene | vie 11 dic: examen corregido · semana del 14 dic: certificado · siguiente peldaño: Conversacional 1 (A2.1) · lista de las 8 semanas con un ✓ cada una (Re-presentación · Números · Presente · Pasado · Futuro · Negación y habilidad · Partículas · Conectores) | Fechas de cierre sujetas a DECISIÓN DE JAY 3, 6 y 11 | Diseño de `Sesion_11` lám. 9, con contenido nuevo |
 | 18 | 수고했어요, 여러분! 축하해요! | Logo azul · 화이팅! · @academiaseul | 22:00 | Portada de la plantilla |
 | R1 | Respaldo · Plan B del examen | Link al PDF del plan B + "respuestas numeradas por WhatsApp privado a Jay hasta las 21:40" | Solo si falla el formulario (C.13) | Nueva |
 | R2 | Respaldo · Parejas | La lista de parejas y tríos de la S7 | Para reasignar en vivo | Nueva |
@@ -629,7 +629,7 @@ Orden: **b → d → a → c**. Texto: 먼저 아홉 시쯤 일어났어요. 그
 
 ## D. ⚑ Para revisar con nativo y pendientes
 
-**⚑ Coreano (lo confirmas tú antes del vie 20 nov):**
+**⚑ Coreano (lo confirmas tú antes del vie 27 nov):**
 
 | # | Qué | Por qué | Dónde |
 |---|---|---|---|
@@ -647,17 +647,17 @@ Orden: **b → d → a → c**. Texto: 먼저 아홉 시쯤 일어났어요. 그
 
 | # | Qué | Quién · plazo |
 |---|---|---|
-| 1 | **Examen final:** aprobar la propuesta v1 (C.16 §4) o adaptar el examen 2020–21 de tu PC; si lo apruebas, se copia a `profes/B2_Examen_Final_Clave.md` (**DECISIÓN DE JAY 0**) | Jay · vie 20 nov |
-| 2 | Plataforma del examen, del simulacro y de los quizzes en línea (cronómetro, autocorrección, "1 respuesta por persona") (**DECISIÓN DE JAY 5**) | Jay · vie 16 oct (diseño) |
-| 3 | **PDF del plan B** del examen (mismas 4 secciones) en la carpeta del curso, sin publicar | Producción · vie 20 nov |
-| 4 | Grabación de la conversación con el celular, con consentimiento en la S7 y borrado tras el informe (**DECISIÓN DE JAY 4**) | Jay · antes del 25 nov |
-| 5 | Regla del certificado y pesos de octubre (ficha `a12` vs Guía del Alumno) · **[regla del certificado: pendiente de decisión de Jay]** (DECISIÓN 1) | Jay · antes del 14 oct (diseño) |
-| 6 | Fecha del certificado: lun 7 dic o "semana del 7" (DECISIÓN 3) · línea de nivel (DECISIÓN 2) | Jay |
-| 7 | Quien falta a la clase 8 o se desconecta: ¿escrito en línea hasta el vie 4 dic, 22:00? · quien llega tarde (C.13) | Jay · antes del 25 nov (se avisa en la S7) |
-| 8 | Comunicación del pase a Conversacional 1: mensaje general el día 2 + individual el vie 4 dic (DECISIÓN 11) · dónde sigue en enero (DECISIÓN 6) | Jay · antes del 2 dic |
-| 9 | Plazo del audio final de 1 minuto (propuesta: dom 6 dic) | Jay · clase 8 |
+| 1 | **Examen final:** aprobar la propuesta v1 (C.16 §4) o adaptar el examen 2020–21 de tu PC; si lo apruebas, se copia a `profes/B2_Examen_Final_Clave.md` (**DECISIÓN DE JAY 0**) | Jay · vie 27 nov |
+| 2 | Plataforma del examen, del simulacro y de los quizzes en línea (cronómetro, autocorrección, "1 respuesta por persona") (**DECISIÓN DE JAY 5**) | Jay · vie 23 oct (diseño) |
+| 3 | **PDF del plan B** del examen (mismas 4 secciones) en la carpeta del curso, sin publicar | Producción · vie 27 nov |
+| 4 | Grabación de la conversación con el celular, con consentimiento en la S7 y borrado tras el informe (**DECISIÓN DE JAY 4**) | Jay · antes del 2 dic |
+| 5 | Regla del certificado y pesos de octubre (ficha `a12` vs Guía del Alumno) · **[regla del certificado: pendiente de decisión de Jay]** (DECISIÓN 1) | Jay · antes del 21 oct (diseño) |
+| 6 | Fecha del certificado: lun 14 dic o "semana del 14" (DECISIÓN 3) · línea de nivel (DECISIÓN 2) | Jay |
+| 7 | Quien falta a la clase 8 o se desconecta: ¿escrito en línea hasta el vie 11 dic, 22:00? · quien llega tarde (C.13) | Jay · antes del 2 dic (se avisa en la S7) |
+| 8 | Comunicación del pase a Conversacional 1: mensaje general el día 9 + individual el vie 11 dic (DECISIÓN 11) · dónde sigue en enero (DECISIÓN 6) | Jay · antes del 9 dic |
+| 9 | Plazo del audio final de 1 minuto (propuesta: dom 13 dic) | Jay · clase 8 |
 | 10 | 띄어쓰기 en el examen: ¿no descuenta si no cambia el significado? (C.7 #13) | Jay · con la clave |
-| 11 | Planilla del oral en Drive con las parejas de la S7 y la columna "fuente" | Producción · vie 20 nov |
+| 11 | Planilla del oral en Drive con las parejas de la S7 y la columna "fuente" | Producción · vie 27 nov |
 
 *Coreano de esta guía:* todo lo que se pide producir sale de la lista C de Básico 2 hasta la S8 y de la de Básico 1. Fuera de C, a propósito y solo en tu voz o para reconocer: 마지막 (como sustantivo: 마지막 수업), 남았어요, 시작, 끝, 들고 (como contraejemplo), 가서 / 일어나서 / 만나서 (input de Conversacional 1) y 그런데 / 근데 (respuesta a una pregunta). Del curso de Básico 1, como reconocimiento: 여러분, 정말요?
 

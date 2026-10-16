@@ -1,9 +1,9 @@
 # Semana 6 · 못 가요 · Negación y habilidad
 ### Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · con Jay (김재희)
-**Miércoles 18 de noviembre · 21:00 (hora de Chile) · Libro: Negación 01–03 y Habilidad 01**
+**Miércoles 25 de noviembre · 21:00 (hora de Chile) · Libro: Negación 01–03 y Habilidad 01**
 
 > **Durante la clase** vas a usar la **sección 7 (tarjeta de sala)**: tenla abierta **antes** de entrar a tu sala de Zoom, porque el chat de la sala es otro y ahí no vas a ver lo que Jay pegó en el chat general. Todo lo demás es para después: repasar, hacer la tarea y llegar con ventaja a la clase 7.
-> **Un dato para empezar:** cuando en Chile sean las 21:00 del miércoles, en Corea será jueves a las 9 de la mañana, y ese jueves es el **수능**, el gran examen de ingreso a la universidad. Mientras tú estudias coreano, cientos de miles de estudiantes estarán rindiendo su examen. (Más en la sección 8.)
+> **Un dato para empezar:** el miércoles pasado, durante la clase 5 (21:00 en Chile), en Corea era jueves a las 9 de la mañana, y ese jueves fue el **수능**, el gran examen de ingreso a la universidad. Mientras estudiábamos coreano, cientos de miles de estudiantes estaban rindiendo su examen. (Más en la sección 8.)
 
 ---
 
@@ -397,7 +397,7 @@ Tiene tres piezas, y cada una hace un trabajo:
 
 Ojo: no es que "en Corea nadie diga que no". Hay gente muy directa, como en todas partes. Es una forma amable que vas a oír mucho, y que ahora ya sabes usar.
 
-**Y hoy, en Corea, es el 수능.** Mientras tenemos clase, en Corea es jueves a las 9 de la mañana y cientos de miles de estudiantes están rindiendo el examen de ingreso a la universidad. Es un día tan importante que muchos estudiantes se preparan durante años. A alguien que va a rendir un examen se le dice **시험 잘 보세요!** (¡que te vaya bien en el examen!).
+**El jueves pasado, en Corea, fue el 수능.** Mientras teníamos la clase 5, en Corea era jueves a las 9 de la mañana y cientos de miles de estudiantes estaban rindiendo el examen de ingreso a la universidad. Es un día tan importante que muchos estudiantes se preparan durante años. A alguien que va a rendir un examen se le dice **시험 잘 보세요!** (¡que te vaya bien en el examen!).
 ¿Te acuerdas de la sopa del cumpleaños de la semana 2, **미역국**? Antes de un examen, muchos **no** la comen: el alga es resbalosa, y en coreano "resbalarse" en un examen es reprobar. Lo que sí se regala son cosas que "se pegan", porque aprobar se dice "pegarse" al examen. Si quieres saber más, está en el blog: academiaseul.com/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana
 
 **Un puente:** ¿cómo se llama el examen de ingreso a la universidad en tu país? (PAES en Chile, Saber 11 en Colombia, los exámenes de admisión en México y Perú…). La presión se parece, aunque en Corea el día entero gira alrededor del examen.
@@ -408,7 +408,7 @@ Ojo: no es que "en Corea nadie diga que no". Hay gente muy directa, como en toda
 
 ## 9. Tarea de la semana (≈ 30 minutos)
 
-**Plazo:** antes de la clase 7 · **miércoles 25 de noviembre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso.
+**Plazo:** antes de la clase 7 · **miércoles 2 de diciembre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso.
 
 **1 · Lector de Hangul · 5 min** · academiaseul.com/lector-coreano
 1. **Practicar** → **🖼 Pictogramas, 3 rondas seguidas.** Cada ronda tiene 10 imágenes y cambia de modo sola: 📖 Lectura (ves la imagen y eliges la palabra en 한글) → 👂 Escucha (oyes la palabra y eliges la imagen) → 🔁 Inversa (ves la palabra y eliges la imagen). Arriba dice el grupo ("comida y objetos", "naturaleza y vida" o "todo"); si ya jugaste antes, puede empezar en otro: sigue igual.

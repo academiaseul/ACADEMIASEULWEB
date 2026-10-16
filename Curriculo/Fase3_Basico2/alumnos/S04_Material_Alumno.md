@@ -1,10 +1,8 @@
 # Semana 4 · El pasado · -았/었어요
 ### Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · con Jay (김재희)
-**Miércoles 4 de noviembre · 21:00 (hora de Chile) · mitad del curso · Libro: Tiempos 03 (pasado) y Partículas 08 (부터~까지)**
+**Miércoles 11 de noviembre · 21:00 (hora de Chile) · mitad del curso · Libro: Tiempos 03 (pasado) y Partículas 08 (부터~까지)**
 
 > **Para la clase, ten a mano dos cosas:** las **5 cosas que hiciste el fin de semana** (las anotaste en la tarea de la semana 3) y la **sección 7 (tarjeta de sala)** abierta **antes** de entrar a tu sala de Zoom, porque el chat de la sala es otro y ahí no vas a ver lo que Jay pegó en el chat general. Todo lo demás es para después: repasar, hacer la tarea y llegar con ventaja a la clase 5.
->
-> *Horario de esta semana:* en EE.UU. cambió la hora el domingo 1: la clase es a las **19:00 (hora del Este)**. En Chile, como siempre, 21:00.
 
 ---
 
@@ -258,7 +256,7 @@ El pasado no cambia las partículas. La regla de la semana 3 sigue igual:
 
 ### Lectura · El mini-diario de Camila
 
-> **11월 1일 일요일**
+> **11월 8일 일요일**
 > 어제는 토요일이었어요. 아침에 공원에서 운동했어요. 열한 시부터 한 시까지 친구하고 카페에 있었어요. 빵을 먹고 커피를 마셨어요. 오후에는 혼자 영화를 봤어요. 정말 재미있었어요!
 > 오늘은 집에서 쉬었어요. 작년에는 대학생이었어요. 토요일에 수업이 있었어요. 지금은 회사원이에요. 토요일에는 쉬어요!
 
@@ -437,7 +435,7 @@ Cada uno es un personaje: **A = 민지 · B = 하준 · C = 루시아**. Mira **
 | Domingo | | |
 
 ### Ronda 2 · Tu mini-diario del fin de semana (10 min)
-Ahora hablas de **ti**. Por turnos (≈ 3 minutos cada uno), cuenta tu último fin de semana (sábado 31 y domingo 1, o el que anotaste en la tarea de la semana 3) en **5 frases en pasado**. Puedes mirar tus notas antes de empezar, pero **cuéntalo sin leer**. Los otros dos te hacen **una pregunta cada uno**:
+Ahora hablas de **ti**. Por turnos (≈ 3 minutos cada uno), cuenta tu último fin de semana (sábado 7 y domingo 8, o el que anotaste en la tarea de la semana 3) en **5 frases en pasado**. Puedes mirar tus notas antes de empezar, pero **cuéntalo sin leer**. Los otros dos te hacen **una pregunta cada uno**:
 > **누구하고 갔어요?** · **어디에서 먹었어요?**
 > (también sirven: 재미있었어요? · 맛있었어요? · 몇 시부터 몇 시까지…?)
 
@@ -483,7 +481,7 @@ Cambia la segunda parte por lo que hiciste tú. Desde esta semana, cada lunes ti
 
 ## 9. Tarea de la semana (≈ 28 minutos)
 
-**Plazo:** antes de la clase 5, **miércoles 11 de noviembre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso. Mejor repartida en varios días.
+**Plazo:** antes de la clase 5, **miércoles 18 de noviembre, 21:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso. Mejor repartida en varios días.
 
 **1 · Mini-diario escrito · 5 min**
 Escribe **3 frases en pasado sobre tu día de hoy** (el día que lo hagas) y mándalas al grupo, tipeadas o en foto del cuaderno.
@@ -524,7 +522,7 @@ Elige **un lugar al que quieras viajar** (una ciudad, una playa, un país) y gua
 
 ### Mitad del curso: qué recibes esta semana
 
-Esta semana no hay un examen extra. Jay mira todo lo que ya hiciste: tu conversación de la semana 1, tus audios, tus quizzes, el quiz en línea, tus hojas y tu mini-diario del miércoles. Con eso recibes (Jay te confirma el día en clase; la idea es el **domingo 8 de noviembre**):
+Esta semana no hay un examen extra. Jay mira todo lo que ya hiciste: tu conversación de la semana 1, tus audios, tus quizzes, el quiz en línea, tus hojas y tu mini-diario del miércoles. Con eso recibes (Jay te confirma el día en clase; la idea es el **domingo 15 de noviembre**):
 
 - **La guía de estudio de mitad de curso**, en el grupo, para repasar las semanas 1 a 4.
 - **Un comentario personal de Jay**, por privado, en 3 líneas: **una fortaleza**, **un foco** para las semanas que vienen y **tu siguiente paso**.

@@ -2,27 +2,29 @@
 
 Todo listo para **copiar, pegar y cambiar los [CORCHETES]**, desde WhatsApp normal (sin Business). Formato de WhatsApp: `*negrita*`.
 Fuente de horarios y fechas: `lib/nivel1.ts`. Precio literal: **US$150 el curso completo · o 2 cuotas de US$75**.
+
+**Calendario corrido una semana (decisión de Jay, lun 12 oct 2026):** matrícula hasta el **dom 18 oct**; las clases empiezan la **semana del 19** (Niños no cambia: lun 19 oct → lun 7 dic). El **mar 8 dic es feriado en Chile**: en Básico 1 martes y Conversacional 1 esa fecha va **[por confirmar]** hasta que Jay decida; bórralo o cámbialo antes de mandar.
 Sin emojis rojos a propósito (regla de la casa: nada de corazones rojos, dianas, confeti, chinches, despertadores ni banderas con rojo; el corazón de la casa es el azul 💙).
 
-**Marcadores:** `[nombre]` · `[CURSO]` · `[LINK ZOOM …]` (los mandan las profes hasta el mié 7) · `[LINK CARPETA …]` (carpeta de Drive del curso) · `[LINK GRABACIÓN]` · `[NOMBRE DEL NIÑO/A]` · `[FECHA … POR CONFIRMAR]`.
+**Marcadores:** `[nombre]` · `[CURSO]` · `[LINK ZOOM …]` (los crea Jay en la cuenta de la academia, con las fechas nuevas) · `[LINK CARPETA …]` (carpeta de Drive del curso) · `[LINK GRABACIÓN]` · `[NOMBRE DEL NIÑO/A]` · `[FECHA … POR CONFIRMAR]`.
 
 ## Cuándo va cada uno (hora Chile)
 
 | # | Mensaje | Cuándo | Dónde · quién lo manda |
 |---|---|---|---|
-| a | Confirmación de pago y cupo + "trae un chingu" | Apenas registras cada pago (desde hoy hasta el dom 11) | 1:1 · Jay |
-| b | Bienvenida al grupo del curso (6 variantes) | Lun 12 oct, 09:00, junto con el correo O1 → **fijarlo** | Grupo de cada curso · Jay |
-| c | Recordatorio 24 h antes de la clase 1 (6 variantes) | Lun 12 18:00 (B1 martes y Conv. 1) · mar 13 18:00 (Básico 2) · mié 14 18:00 (B1 jueves y TOPIK II) · dom 18 18:00 (Niños → mensaje **i**) | Grupo · Jay o la profe |
+| a | Confirmación de pago y cupo + "trae un chingu" | Apenas registras cada pago (hasta el dom 18) | 1:1 · Jay |
+| b | Bienvenida al grupo del curso (6 variantes) | Lun 19 oct, 09:00, junto con el correo O1 → **fijarlo** · b6 (Niños): dom 18, antes de (i) | Grupo de cada curso · Jay |
+| c | Recordatorio 24 h antes de la clase 1 (6 variantes) | Dom 18 18:00 (Niños → mensaje **i** en el grupo + **c6** 1:1) · lun 19 18:00 (B1 martes y Conv. 1) · mar 20 18:00 (Básico 2) · mié 21 18:00 (B1 jueves y TOPIK II) | Grupo · Jay o la profe |
 | d | Recordatorio 1 h antes | 1 h antes de cada clase 1 (tabla en d) | Grupo · la profe o Jay |
 | e | Post-clase 1: grabación + tarea | Dentro de 24 h después de la clase 1 | Grupo · la profe |
-| f | Ex-alumnos del Nivel 1 de julio → Básico 2 (2 variantes) | A: lun 28 sep · B: lun 5 oct, solo a quien no respondió | 1:1 · Jay |
-| g | Llenó el formulario pero no pagó (2 variantes) | 1: al día siguiente del formulario · 2: una sola vez, jue 8 o dom 11 | 1:1 · Jay |
-| h | Recordatorio de la cuota 2 | [FECHA POR CONFIRMAR] (propuesta: vie 6 nov, para pagar la semana del 9 nov) | 1:1 · Jay |
+| f | Ex-alumnos del Nivel 1 de julio → Básico 2 (2 variantes) | A: lun 28 sep · B: lun 5 oct, solo a quien no respondió (los dos ya salieron; f2 ya va con las fechas nuevas por si quieres una última vuelta antes del dom 18) | 1:1 · Jay |
+| g | Llenó el formulario pero no pagó (2 variantes) | 1: al día siguiente del formulario · 2: una sola vez, jue 15 o dom 18 | 1:1 · Jay |
+| h | Recordatorio de la cuota 2 | [FECHA POR CONFIRMAR] (propuesta: vie 13 nov, para pagar la semana del 16 nov · Niños: vie 6 nov, para la semana del 9 nov) | 1:1 · Jay |
 | i | Familias de Niños · víspera de la clase 1 | Dom 18 oct, 18:00 | Grupo de apoderados · Jay |
-| b0 | Nombre, foto y descripción de los 6 grupos | Mié 7 oct, al crear los grupos | WhatsApp · Jay |
+| b0 | Nombre, foto y descripción de los 6 grupos | Al crear los grupos (si ya existen, cambia la descripción por la de abajo, con las fechas nuevas) | WhatsApp · Jay |
 | j | Cambio de hora en España (j1) y EE.UU. (j2) | Vie 23 oct y vie 30 oct, 12:00 | Los 6 grupos · Jay |
 
-> Para no saturar a nadie: si un ex-alumno de julio (f) también está entre los 10 contactos del 1:1 del plan, **manda solo uno** de los dos ese día. Y después del domingo 11, borra el párrafo de "trae un chingu" del mensaje (a).
+> Para no saturar a nadie: si un ex-alumno de julio (f) también está entre los 10 contactos del 1:1 del plan, **manda solo uno** de los dos ese día. Y después del domingo 18, borra el párrafo de "trae un chingu" del mensaje (a).
 
 ---
 
@@ -35,12 +37,12 @@ Sin emojis rojos a propósito (regla de la casa: nada de corazones rojos, dianas
 Ya estás en *[CURSO]* · [DÍA] [HORA] hora Chile · con [PROFE]. Tu primera clase es el *[FECHA 1.ª CLASE]*.
 
 Qué viene ahora:
-1️⃣ El *lunes 12 de octubre a las 9:00* te llega un correo con tu link de Zoom, el grupo de WhatsApp de tu curso y la guía del alumno (si no lo ves, revisa Promociones o Spam).
+1️⃣ El *lunes 19 de octubre a las 9:00* te llega un correo con tu link de Zoom, el grupo de WhatsApp de tu curso y la guía del alumno (si no lo ves, revisa Promociones o Spam).
 2️⃣ 24 horas antes de tu primera clase te llega un recordatorio.
 
 Para ir calentando, gratis: Dubu, el puzzle del Hangul (academiaseul.com/dubu) y el Lector con voz nativa (academiaseul.com/lector-coreano) 🐯
 
-Una cosa más: aprender coreano de a dos es más fácil (y más divertido). Si un amigo o amiga se inscribe contigo antes del *domingo 11 de octubre*, los dos reciben una *sesión 1:1 de 20 minutos conmigo* para practicar pronunciación o resolver dudas. Reenvíale esto: academiaseul.com/nivel-1 y dime su nombre por aquí para anotarla.
+Una cosa más: aprender coreano de a dos es más fácil (y más divertido). Si un amigo o amiga se inscribe contigo antes del *domingo 18 de octubre*, los dos reciben una *sesión 1:1 de 20 minutos conmigo* para practicar pronunciación o resolver dudas. Reenvíale esto: academiaseul.com/nivel-1 y dime su nombre por aquí para anotarla.
 ```
 
 **a2 · Pagó la cuota 1 de 2**
@@ -49,13 +51,13 @@ Una cosa más: aprender coreano de a dos es más fácil (y más divertido). Si u
 
 Ya estás en *[CURSO]* · [DÍA] [HORA] hora Chile · con [PROFE]. Tu primera clase es el *[FECHA 1.ª CLASE]*.
 
-La cuota 2 (US$75) es al inicio del mes 2: la *semana del 9 de noviembre* [POR CONFIRMAR]. Te aviso unos días antes, no tienes que acordarte tú.
+La cuota 2 (US$75) es al inicio del mes 2: la *semana del 16 de noviembre* [POR CONFIRMAR]. Te aviso unos días antes, no tienes que acordarte tú.
 
 Qué viene ahora:
-1️⃣ El *lunes 12 de octubre a las 9:00* te llega un correo con tu link de Zoom, el grupo de WhatsApp de tu curso y la guía del alumno (si no lo ves, revisa Promociones o Spam).
+1️⃣ El *lunes 19 de octubre a las 9:00* te llega un correo con tu link de Zoom, el grupo de WhatsApp de tu curso y la guía del alumno (si no lo ves, revisa Promociones o Spam).
 2️⃣ 24 horas antes de tu primera clase te llega un recordatorio.
 
-Una cosa más: si un amigo o amiga se inscribe contigo antes del *domingo 11 de octubre*, los dos reciben una *sesión 1:1 de 20 minutos conmigo*. Reenvíale esto: academiaseul.com/nivel-1 y dime su nombre por aquí 🐯
+Una cosa más: si un amigo o amiga se inscribe contigo antes del *domingo 18 de octubre*, los dos reciben una *sesión 1:1 de 20 minutos conmigo*. Reenvíale esto: academiaseul.com/nivel-1 y dime su nombre por aquí 🐯
 ```
 
 **a3 · Apoderado de Coreano para Niños**
@@ -63,30 +65,30 @@ Una cosa más: si un amigo o amiga se inscribe contigo antes del *domingo 11 de 
 ¡[nombre], pago recibido y cupo confirmado para [NOMBRE DEL NIÑO/A] en *Coreano para Niños (8–15)*! 🙌 환영합니다 💙
 
 Lunes 18:00 hora Chile, con Jay y Abby, máximo 12 niños y niñas.
-Primera clase: *lunes 19 de octubre* (el 12 es feriado en Chile). Última: lunes 7 de diciembre, con mini-show para la familia.
+Primera clase: *lunes 19 de octubre*. Última: lunes 7 de diciembre, con mini-show para la familia.
 
-El *lunes 12 de octubre* te llega un correo con el link de Zoom, el grupo de WhatsApp de apoderados y la guía para familias. Mientras tanto, para ir jugando: academiaseul.com/dubu 🐯
+El *domingo 18 de octubre* te mando el link de Zoom y el del grupo de WhatsApp de apoderados, y el *lunes 19 a las 9:00* te llega un correo con la guía para familias. Mientras tanto, para ir jugando: academiaseul.com/dubu 🐯
 ```
-*(Si pagó en 2 cuotas, suma la línea de la cuota 2 de a2.)*
+*(Si pagó en 2 cuotas, suma la línea de la cuota 2 de a2, pero con «la semana del 9 de noviembre»: en Niños la clase 5 es el lunes 16.)*
 
 ---
 
-## (b0) Nombre, foto y descripción de los 6 grupos · mié 7 oct
+## (b0) Nombre, foto y descripción de los 6 grupos · al crearlos (si ya existen, actualiza la descripción)
 
-Foto del grupo: el sello del tigre azul (versión 2, sin marco). Ajustes: *solo admins pueden editar la info del grupo*; mensajes, todos. Admins: Jay + la profe del curso (lun 12). Niños = solo apoderados.
+Foto del grupo: el sello del tigre azul (versión 2, sin marco). Ajustes: *solo admins pueden editar la info del grupo*; mensajes, todos. Admins: Jay + la profe del curso (lun 19). Niños = solo apoderados.
 
 | Grupo (nombre) | Descripción (pegar tal cual y cambiar los corchetes) |
 |---|---|
-| Academia Seúl · Básico 1 · martes 20:00 | Básico 1 (A1.1) · Primeras Palabras · con Kiran (기란) · martes 20:00 hora Chile · 8 clases, del 13 oct al 1 dic · Zoom: [LINK ZOOM B1 MARTES] · Carpeta: [LINK CARPETA B1 MARTES] · Pagos y dudas administrativas: Jay, +56 9 4211 5562 |
-| Academia Seúl · Conversacional 1 · martes 21:00 | Conversacional 1 (A2.1) · Corea que amas · con Abby (홍미영), desde Corea · martes 21:00 hora Chile (miércoles 09:00 en Corea) · 8 clases, del 13 oct al 1 dic · Zoom: [LINK ZOOM C1] · Carpeta: [LINK CARPETA C1] · Pagos y dudas administrativas: Jay, +56 9 4211 5562 |
-| Academia Seúl · Básico 2 · miércoles 21:00 | Básico 2 (A1.2) · Pasado, presente y futuro · con Jay (김재희) · miércoles 21:00 hora Chile · 8 clases, del 14 oct al 2 dic · Zoom: [LINK ZOOM B2] · Carpeta: [LINK CARPETA B2] |
-| Academia Seúl · Básico 1 · jueves 20:00 | Básico 1 (A1.1) · Primeras Palabras · con Kiran (기란) · jueves 20:00 hora Chile · 8 clases, del 15 oct al 3 dic · Zoom: [LINK ZOOM B1 JUEVES] · Carpeta: [LINK CARPETA B1 JUEVES] · Pagos y dudas administrativas: Jay, +56 9 4211 5562 |
-| Academia Seúl · TOPIK II · jueves 21:00 | TOPIK II (B1+) · Estrategia de examen · con Jay (김재희) · jueves 21:00 hora Chile · 8 clases, del 15 oct al 3 dic · Zoom: [LINK ZOOM TOPIK] · Carpeta: [LINK CARPETA TOPIK] |
+| Academia Seúl · Básico 1 · martes 20:00 | Básico 1 (A1.1) · Primeras Palabras · con Kiran (기란) · martes 20:00 hora Chile · 8 clases, del 20 oct al 8 dic [por confirmar] · Zoom: [LINK ZOOM B1 MARTES] · Carpeta: [LINK CARPETA B1 MARTES] · Pagos y dudas administrativas: Jay, +56 9 4211 5562 |
+| Academia Seúl · Conversacional 1 · martes 21:00 | Conversacional 1 (A2.1) · Corea que amas · con Abby (홍미영), desde Corea · martes 21:00 hora Chile (miércoles 09:00 en Corea) · 8 clases, del 20 oct al 8 dic [por confirmar] · Zoom: [LINK ZOOM C1] · Carpeta: [LINK CARPETA C1] · Pagos y dudas administrativas: Jay, +56 9 4211 5562 |
+| Academia Seúl · Básico 2 · miércoles 21:00 | Básico 2 (A1.2) · Pasado, presente y futuro · con Jay (김재희) · miércoles 21:00 hora Chile · 8 clases, del 21 oct al 9 dic · Zoom: [LINK ZOOM B2] · Carpeta: [LINK CARPETA B2] |
+| Academia Seúl · Básico 1 · jueves 20:00 | Básico 1 (A1.1) · Primeras Palabras · con Kiran (기란) · jueves 20:00 hora Chile · 8 clases, del 22 oct al 10 dic · Zoom: [LINK ZOOM B1 JUEVES] · Carpeta: [LINK CARPETA B1 JUEVES] · Pagos y dudas administrativas: Jay, +56 9 4211 5562 |
+| Academia Seúl · TOPIK II · jueves 21:00 | TOPIK II (B1+) · Estrategia de examen · con Jay (김재희) · jueves 21:00 hora Chile · 8 clases, del 22 oct al 10 dic · Zoom: [LINK ZOOM TOPIK] · Carpeta: [LINK CARPETA TOPIK] |
 | Academia Seúl · Niños · familias · lunes 18:00 | Coreano para Niños (8–15) · Juega y aprende · con Jay y Abby · lunes 18:00 hora Chile · 8 clases, del 19 oct al 7 dic (mini-show final) · Grupo solo para apoderados · Zoom: [LINK ZOOM NIÑOS] · Carpeta: [LINK CARPETA NIÑOS] · No publicamos caras ni nombres de menores |
 
 ---
 
-## (b) Bienvenida al grupo de cada curso · lun 12, 09:00 · fijar el mensaje
+## (b) Bienvenida al grupo de cada curso · lun 19, 09:00 (Niños: dom 18, antes de i) · fijar el mensaje
 
 **b1 · Básico 1 (A1.1) · martes**
 ```
@@ -94,7 +96,7 @@ Foto del grupo: el sello del tigre azul (versión 2, sin marco). Ajustes: *solo 
 
 Soy Jay, fundador de Academia Seúl. Les presento a su profe, *Kiran (기란)*: coreana criada en Argentina, bilingüe, con años enseñando coreano en español.
 
-🕗 *Martes 20:00 hora Chile* · 8 clases: 13, 20 y 27 oct · 3, 10, 17 y 24 nov · 1 dic
+🕗 *Martes 20:00 hora Chile* · 8 clases: 20 y 27 oct · 3, 10, 17 y 24 nov · 1 y 8 dic [por confirmar]
 🌎 20:00 Chile y Argentina = 18:00 Col/Perú · 17:00 México · 19:00 EE.UU. Este · 01:00 España (mié) · 08:00 Corea (mié). España baja una hora desde el 25 oct y EE.UU. desde el 1 nov.
 💻 Zoom (el mismo las 8 semanas): [LINK ZOOM B1 MARTES]
 📁 Carpeta del curso (grabaciones, PDFs y tareas): [LINK CARPETA B1 MARTES]
@@ -116,7 +118,7 @@ Para romper el hielo: preséntate con tu nombre, desde qué país te conectas y 
 
 Soy Jay, fundador de Academia Seúl. Les presento a su profe, *Abby (홍미영)*: profesora coreana nativa y pedagoga (MSU), que les enseña desde Corea. Aquí se viene a hablar: K-pop, viajes, comida, hanbok, e-sports…
 
-🕗 *Martes 21:00 hora Chile* (para Abby, miércoles 09:00) · 8 clases: 13, 20 y 27 oct · 3, 10, 17 y 24 nov · 1 dic
+🕗 *Martes 21:00 hora Chile* (para Abby, miércoles 09:00) · 8 clases: 20 y 27 oct · 3, 10, 17 y 24 nov · 1 y 8 dic [por confirmar]
 🌎 21:00 Chile y Argentina = 19:00 Col/Perú · 18:00 México · 20:00 EE.UU. Este · 02:00 España (mié) · 09:00 Corea (mié). España baja una hora desde el 25 oct y EE.UU. desde el 1 nov.
 💻 Zoom (el mismo las 8 semanas): [LINK ZOOM C1]
 📁 Carpeta del curso (grabaciones, PDFs y tareas): [LINK CARPETA C1]
@@ -138,7 +140,7 @@ Para romper el hielo: preséntate en coreano (¡como puedas!) con tu nombre, tu 
 
 Soy Jay, su profe en este curso (y fundador de Academia Seúl). Si vienen del Nivel 1 de julio: ¡qué alegría verlos de nuevo! La clase 1 es un repaso activo de Básico 1, así que nadie queda atrás.
 
-🕗 *Miércoles 21:00 hora Chile* · 8 clases: 14, 21 y 28 oct · 4, 11, 18 y 25 nov · 2 dic
+🕗 *Miércoles 21:00 hora Chile* · 8 clases: 21 y 28 oct · 4, 11, 18 y 25 nov · 2 y 9 dic
 🌎 21:00 Chile y Argentina = 19:00 Col/Perú · 18:00 México · 20:00 EE.UU. Este · 02:00 España (jue) · 09:00 Corea (jue). España baja una hora desde el 25 oct y EE.UU. desde el 1 nov.
 💻 Zoom (el mismo las 8 semanas): [LINK ZOOM B2]
 📁 Carpeta del curso (grabaciones, PDFs y tareas): [LINK CARPETA B2]
@@ -160,7 +162,7 @@ Para romper el hielo: preséntate con tu nombre, desde qué país te conectas y 
 
 Soy Jay, fundador de Academia Seúl. Les presento a su profe, *Kiran (기란)*: coreana criada en Argentina, bilingüe, con años enseñando coreano en español.
 
-🕗 *Jueves 20:00 hora Chile* · 8 clases: 15, 22 y 29 oct · 5, 12, 19 y 26 nov · 3 dic
+🕗 *Jueves 20:00 hora Chile* · 8 clases: 22 y 29 oct · 5, 12, 19 y 26 nov · 3 y 10 dic
 🌎 20:00 Chile y Argentina = 18:00 Col/Perú · 17:00 México · 19:00 EE.UU. Este · 01:00 España (vie) · 08:00 Corea (vie). España baja una hora desde el 25 oct y EE.UU. desde el 1 nov.
 💻 Zoom (el mismo las 8 semanas): [LINK ZOOM B1 JUEVES]
 📁 Carpeta del curso (grabaciones, PDFs y tareas): [LINK CARPETA B1 JUEVES]
@@ -182,7 +184,7 @@ Para romper el hielo: preséntate con tu nombre, desde qué país te conectas y 
 
 Soy Jay, su profe en este grupo (y fundador de Academia Seúl). Somos máximo 8: la idea es que cada uno salga con su estrategia por sección, su escritura (쓰기) corregida y un plan personal hasta su examen.
 
-🕗 *Jueves 21:00 hora Chile* · 8 clases: 15, 22 y 29 oct · 5, 12, 19 y 26 nov · 3 dic
+🕗 *Jueves 21:00 hora Chile* · 8 clases: 22 y 29 oct · 5, 12, 19 y 26 nov · 3 y 10 dic
 🌎 21:00 Chile y Argentina = 19:00 Col/Perú · 18:00 México · 20:00 EE.UU. Este · 02:00 España (vie) · 09:00 Corea (vie). España baja una hora desde el 25 oct y EE.UU. desde el 1 nov.
 💻 Zoom (el mismo las 8 semanas): [LINK ZOOM TOPIK]
 📁 Carpeta del curso (grabaciones, simulacros y material): [LINK CARPETA TOPIK]
@@ -203,7 +205,7 @@ Para romper el hielo: preséntate con tu nombre, tu país, qué nivel TOPIK busc
 
 Soy Jay, fundador de Academia Seúl, y junto a *Abby (홍미영)*, profesora coreana nativa y pedagoga, vamos a acompañar a sus hijos e hijas estas 8 semanas, con juegos, canciones y dibujos.
 
-🕗 *Lunes 18:00 hora Chile* (para Abby, martes 06:00) · 8 clases: 19 y 26 oct · 2, 9, 16, 23 y 30 nov · 7 dic (mini-show final para la familia). El lunes 12 es feriado en Chile: partimos el 19.
+🕗 *Lunes 18:00 hora Chile* (para Abby, martes 06:00) · 8 clases: 19 y 26 oct · 2, 9, 16, 23 y 30 nov · 7 dic (mini-show final para la familia).
 🌎 18:00 Chile y Argentina = 16:00 Col/Perú · 15:00 México · 17:00 EE.UU. Este · 23:00 España · 06:00 Corea (mar). España baja una hora desde el 25 oct y EE.UU. desde el 1 nov.
 💻 Zoom (el mismo las 8 semanas): [LINK ZOOM NIÑOS]
 📁 Carpeta del curso (grabaciones y láminas): [LINK CARPETA NIÑOS]
@@ -224,9 +226,9 @@ Para conocernos: cuéntennos el nombre de su hijo o hija, su edad y desde qué p
 
 ## (c) Recordatorio 24 h antes de la clase 1 · en el grupo
 
-**c1 · Básico 1 martes · lun 12, 18:00**
+**c1 · Básico 1 martes · lun 19, 18:00**
 ```
-🔔 *Mañana martes 13, 20:00 hora Chile* es nuestra primera clase de Básico 1 con Kiran.
+🔔 *Mañana martes 20, 20:00 hora Chile* es nuestra primera clase de Básico 1 con Kiran.
 🌎 18:00 Col/Perú · 17:00 México · 20:00 Argentina · 19:00 EE.UU. Este · 01:00 España (mié) · 08:00 Corea (mié)
 💻 Zoom: [LINK ZOOM B1 MARTES]
 
@@ -235,9 +237,9 @@ Calentamiento opcional (10 min): Lector de Hangul → pestaña Alfabeto · acade
 ¡Nos vemos mañana! 화이팅 🐯
 ```
 
-**c2 · Conversacional 1 · lun 12, 18:00**
+**c2 · Conversacional 1 · lun 19, 18:00**
 ```
-🔔 *Mañana martes 13, 21:00 hora Chile* es nuestra primera clase de Conversacional 1 con Abby (para ella, miércoles 09:00 en Corea).
+🔔 *Mañana martes 20, 21:00 hora Chile* es nuestra primera clase de Conversacional 1 con Abby (para ella, miércoles 09:00 en Corea).
 🌎 19:00 Col/Perú · 18:00 México · 21:00 Argentina · 20:00 EE.UU. Este · 02:00 España (mié) · 09:00 Corea (mié)
 💻 Zoom: [LINK ZOOM C1]
 
@@ -246,9 +248,9 @@ La clase 1 es para romper el hielo: piensa en 3 cosas que quieras poder decir en
 ¡Nos vemos mañana! 화이팅 🐯
 ```
 
-**c3 · Básico 2 · mar 13, 18:00**
+**c3 · Básico 2 · mar 20, 18:00**
 ```
-🔔 *Mañana miércoles 14, 21:00 hora Chile* es nuestra primera clase de Básico 2.
+🔔 *Mañana miércoles 21, 21:00 hora Chile* es nuestra primera clase de Básico 2.
 🌎 19:00 Col/Perú · 18:00 México · 21:00 Argentina · 20:00 EE.UU. Este · 02:00 España (jue) · 09:00 Corea (jue)
 💻 Zoom: [LINK ZOOM B2]
 
@@ -257,9 +259,9 @@ Calentamiento: prepara 5 frases para presentarte (nombre, país, ocupación, fam
 ¡Nos vemos mañana! 화이팅 🐯 Jay
 ```
 
-**c4 · Básico 1 jueves · mié 14, 18:00**
+**c4 · Básico 1 jueves · mié 21, 18:00**
 ```
-🔔 *Mañana jueves 15, 20:00 hora Chile* es nuestra primera clase de Básico 1 con Kiran.
+🔔 *Mañana jueves 22, 20:00 hora Chile* es nuestra primera clase de Básico 1 con Kiran.
 🌎 18:00 Col/Perú · 17:00 México · 20:00 Argentina · 19:00 EE.UU. Este · 01:00 España (vie) · 08:00 Corea (vie)
 💻 Zoom: [LINK ZOOM B1 JUEVES]
 
@@ -268,9 +270,9 @@ Calentamiento opcional (10 min): Lector de Hangul → pestaña Alfabeto · acade
 ¡Nos vemos mañana! 화이팅 🐯
 ```
 
-**c5 · TOPIK II · mié 14, 18:00**
+**c5 · TOPIK II · mié 21, 18:00**
 ```
-🔔 *Mañana jueves 15, 21:00 hora Chile* es nuestra primera clase de TOPIK II.
+🔔 *Mañana jueves 22, 21:00 hora Chile* es nuestra primera clase de TOPIK II.
 🌎 19:00 Col/Perú · 18:00 México · 21:00 Argentina · 20:00 EE.UU. Este · 02:00 España (vie) · 09:00 Corea (vie)
 💻 Zoom: [LINK ZOOM TOPIK]
 
@@ -280,7 +282,7 @@ La clase 1 es diagnóstico + radiografía del examen: trae tu fecha objetivo de 
 ```
 
 **c6 · Coreano para Niños · dom 18, 18:00**
-En el grupo de apoderados va el mensaje **(i)** (es el mismo recordatorio, con las indicaciones para las familias). Esta versión corta es 1:1, solo para la familia que todavía no entró al grupo:
+En el grupo de apoderados va el mensaje **(i)** (es el mismo recordatorio, con las indicaciones para las familias). Esta versión corta es 1:1, para cada familia que todavía no entró al grupo (con el correo de bienvenida corrido al lun 19, el link del grupo llega por aquí: en la práctica, a todas las que pagaron):
 ```
 ¡Hola [nombre]! Jay de Academia Seúl 💙 Mañana *lunes 19 de octubre, 18:00 hora Chile* es la primera clase de Coreano para Niños.
 💻 Zoom: [LINK ZOOM NIÑOS]
@@ -294,11 +296,11 @@ En esta primera clase les pido conectar 10 minutos antes y acompañar a [NOMBRE 
 
 | Clase | Mandar a las (hora Chile) |
 |---|---|
-| Básico 1 martes | mar 13, 19:00 |
-| Conversacional 1 | mar 13, 20:00 |
-| Básico 2 | mié 14, 20:00 |
-| Básico 1 jueves | jue 15, 19:00 |
-| TOPIK II | jue 15, 20:00 |
+| Básico 1 martes | mar 20, 19:00 |
+| Conversacional 1 | mar 20, 20:00 |
+| Básico 2 | mié 21, 20:00 |
+| Básico 1 jueves | jue 22, 19:00 |
+| TOPIK II | jue 22, 20:00 |
 | Coreano para Niños | lun 19, 17:00 |
 
 ```
@@ -364,7 +366,7 @@ Tarea de la semana 1 según el programa oficial (`cursos_es.json`), ya resumida 
 
 ## (f) Ex-alumnos del Nivel 1 de julio → Básico 2 (A1.2) · 1:1
 
-**f1 · Lun 28 sep (el puente)**
+**f1 · Lun 28 sep (el puente) · enviado (histórico: fechas del calendario original y el reto que no se lanzó; no reenviar)**
 ```
 ¡Hola [nombre]! Jay de Academia Seúl 💙 ¿Cómo va ese coreano?
 
@@ -380,10 +382,10 @@ Si lo que quieres es puro hablar, también está Conversacional 1 con Abby (mart
 P.D.: si te inscribes con un chingu antes del domingo 11, los dos reciben una sesión 1:1 de 20 minutos conmigo. Y hoy empieza el reto #LeoCoreanoEn7Días en @academiaseul (10 min al día): perfecto para desempolvar el Hangul 🐯
 ```
 
-**f2 · Lun 5 oct (corta, solo si no respondió la f1)**
+**f2 · Corta, solo si no respondió la f1 (original: lun 5 oct · fechas ya puestas al día con el calendario corrido)**
 ```
-[nombre], te escribo corto 🙏 El domingo 11 cierro la matrícula de octubre.
-Tu paso natural después del Nivel 1 de julio es *Básico 2 (A1.2)*: miércoles 21:00 hora Chile, conmigo, desde el 14 de octubre. US$150 el curso completo · o 2 cuotas de US$75.
+[nombre], te escribo corto 🙏 El domingo 18 cierro la matrícula de octubre.
+Tu paso natural después del Nivel 1 de julio es *Básico 2 (A1.2)*: miércoles 21:00 hora Chile, conmigo, desde el 21 de octubre. US$150 el curso completo · o 2 cuotas de US$75.
 Si sí: academiaseul.com/nivel-1?clase=a12
 Si octubre no te acomoda, dime "enero" y te aviso primero cuando abra la próxima. Cualquiera de las dos respuestas me sirve 💙
 ```
@@ -405,10 +407,10 @@ Cuando pagues, mándame el comprobante por aquí y te confirmo. ¿Te quedó algu
 ```
 *(Si pide 2 cuotas por Mercado Pago: el link fijo de $75.000 CLP aún no existe (pendiente de Jay nº 5). Mientras tanto, transferencia o PayPal US$75.)*
 
-**g2 · Una sola vez, jue 8 o dom 11**
+**g2 · Una sola vez, jue 15 o dom 18**
 ```
 [nombre], tu inscripción a *[CURSO]* está a un paso: falta el pago para confirmar el cupo 🙏
-El *domingo 11 a las 23:59* cierro la matrícula de octubre. ¿Lo confirmamos? Te mando el link que prefieras (transferencia, Mercado Pago o PayPal).
+El *domingo 18 a las 23:59* cierro la matrícula de octubre. ¿Lo confirmamos? Te mando el link que prefieras (transferencia, Mercado Pago o PayPal).
 Si octubre no te acomoda, sin problema: te anoto para enero 2027 y te aviso primero 💙
 ```
 
@@ -417,7 +419,7 @@ Si octubre no te acomoda, sin problema: te anoto para enero 2027 y te aviso prim
 ## (h) Recordatorio de la cuota 2 · 1:1 · [FECHA POR CONFIRMAR]
 
 ```
-¡Hola [nombre]! 💙 Un recordatorio amable: toca la *cuota 2 de 2 (US$75)* de *[CURSO]*. Se paga la *semana del 9 de noviembre* [POR CONFIRMAR], antes de tu clase 5.
+¡Hola [nombre]! 💙 Un recordatorio amable: toca la *cuota 2 de 2 (US$75)* de *[CURSO]*. Se paga la *semana del 16 de noviembre* [POR CONFIRMAR], antes de tu clase 5.
 
 Formas de pago:
 • Transferencia en Chile, sin comisión: te paso los datos por aquí.
@@ -426,7 +428,7 @@ Formas de pago:
 
 Cuando pagues, mándame el comprobante por aquí y te confirmo. ¡Vamos que ya llevamos 4 semanas! 화이팅 🐯
 ```
-*(Niños: cambia "antes de tu clase 5" por "antes de la clase 5 (lunes 16 de noviembre)".)*
+*(Niños: cambia "la *semana del 16 de noviembre* [POR CONFIRMAR], antes de tu clase 5" por "la *semana del 9 de noviembre* [POR CONFIRMAR], antes de la clase 5 (lunes 16 de noviembre)", y "ya llevamos 4 semanas" por "ya llevamos 3 semanas".)*
 
 ---
 
@@ -445,7 +447,7 @@ Para esta primera clase les pedimos:
 
 Recuerden: no publicamos caras de menores, y la grabación es solo para este grupo.
 Después de cada clase les llega aquí una nota de 3 líneas con la tarea (10 minutos de Lector o Dubu).
-La guía para familias llegó en el correo del lunes 12 (la dejo fijada aquí también).
+La guía para familias la dejo fijada aquí, y mañana a las 9:00 les llega también en el correo de bienvenida.
 
 ¡Nos vemos mañana! 화이팅 🐯
 ```

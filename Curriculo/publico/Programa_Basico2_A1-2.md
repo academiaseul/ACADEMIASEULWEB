@@ -3,12 +3,12 @@ Academia Seúl · Programa público · VERSIÓN A (sitio web)
 Curso: Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · cohorte octubre 2026
 Contenido semana a semana: Programa_Completo_Octubre_2026/fuente/cursos_es.json (a12), el mismo syllabus que ya está publicado y entregado.
 Horario, profesor, cupo y precio: lib/nivel1.ts. Políticas: components/FAQ.tsx, app/terminos/page.tsx, textos_generales.js.
-Redactado el 25–26 sept 2026. Lo marcado "Confirmar con Academia Seúl" espera la decisión de Jay antes de publicarse tal cual.
+Redactado el 25–26 sept 2026; fechas al día con el calendario corrido una semana (decisión de Jay, 12 oct 2026) el 16 oct 2026. Lo marcado "Confirmar con Academia Seúl" espera la decisión de Jay antes de publicarse tal cual.
 -->
 
 ## 🚀 Básico 2 — A1.2 · Pasado, presente y futuro · 기초 한국어 2
 
-**Miércoles 21:00 (hora de Chile) · con Jay · desde el miércoles 14 de octubre de 2026 · 8 semanas · online en vivo por Zoom**
+**Miércoles 21:00 (hora de Chile) · con Jay · desde el miércoles 21 de octubre de 2026 · 8 semanas · online en vivo por Zoom**
 
 ### Pasa de frases sueltas a contar tu vida en coreano: lo que hiciste, lo que haces y lo que vas a hacer.
 
@@ -59,14 +59,14 @@ Este curso es para ti si:
 
 | Semana | Tema | ¿Qué aprenderás? |
 |---|---|---|
-| **1** · mié 14 oct | Te vuelves a presentar | Te presentas con más detalle (ciudad, trabajo o estudios, familia, pasatiempo) y respondes preguntas sobre ti sin leer. Repasas 이에요/예요, 아니에요, 있어요/없어요 y la diferencia entre 은/는 y 이/가. **Practicarás:** una entrevista en parejas (어디에 살아요? 형제가 있어요? 취미가 뭐예요?) y presentar a tu compañero/a al grupo. También tienes una conversación breve con Jay para ver desde dónde partes; no lleva nota. |
-| **2** · mié 21 oct | Números en la vida real | Usas los dos sistemas de números (일, 이, 삼… y 하나, 둘, 셋…) para tu edad, tu cumpleaños, tu teléfono y la hora. Preguntas con 몇: 몇 살이에요? · 몇 시예요? **Practicarás:** dictarle números de teléfono y fechas a un compañero/a y armar entre todos el calendario de cumpleaños del curso (생일이 언제예요?). |
-| **3** · mié 28 oct | Tu rutina en presente | Describes un día normal con unos 10 verbos, incluidos irregulares de todos los días (덥다 → 더워요, 듣다 → 들어요, 바쁘다 → 바빠요, 모르다 → 몰라요). Distingues 에 y 에서 (회사에 가요 · 회사에서 일해요) y reconoces el estilo formal -ㅂ니다/습니다. **Practicarás:** contarle tu rutina con horas a un compañero/a, que después la cuenta al grupo. |
-| **4** · mié 4 nov | El pasado | Cuentas qué hiciste en 6 a 8 frases: cuándo, dónde y con quién (주말에 친구하고 카페에 갔어요). Dices desde cuándo y hasta cuándo: 아홉 시부터 여섯 시까지 일했어요. **Practicarás:** tu mini-diario oral del fin de semana, con preguntas del grupo. |
-| **5** · mié 11 nov | El futuro y tus planes | Planeas tu semana o tus vacaciones soñadas: qué vas a hacer, cuándo, en qué vas a ir y con quién (비행기로 갈 거예요). Ofreces alternativas con "o": 영화를 보거나 쉴 거예요. **Practicarás:** armar un plan de viaje de 3 días y proponerle un plan a un compañero/a para la próxima semana. |
-| **6** · mié 18 nov | Lo que no hago y lo que sé hacer | Diferencias "no lo hago" (안 먹어요 / 먹지 않아요), "no puedo" (못 가요) y "sé o puedo hacerlo" (운전할 수 있어요). Aprendes palabras que ya son negativas: 없다, 모르다, 싫어하다. **Practicarás:** una encuesta de "¿sabes…?" y el role play de la invitación que no puedes aceptar. |
-| **7** · mié 25 nov | Partículas para sonar natural | Comparas y precisas con 보다 (más que), 처럼 (como), 만 y 밖에 (solo), 도 (también), 마다 (cada), 쯤 (más o menos), 한테 (a alguien) y 의 (de): 세 시쯤 만나요 · 친구한테 선물을 줬어요. **Practicarás:** comparar ciudades, comidas e ídolos, y un dictado de partículas con el formato del examen final. |
-| **8** · mié 2 dic | Conectores, examen y cierre | Unes ideas con -고 (y) y -지만 (pero): 밥을 먹고 커피를 마셨어요. Juntas presente, pasado y futuro en una conversación de unos 5 minutos sobre tu vida. Rindes el examen final escrito (30 minutos, en línea) y una conversación evaluada en parejas. |
+| **1** · mié 21 oct | Te vuelves a presentar | Te presentas con más detalle (ciudad, trabajo o estudios, familia, pasatiempo) y respondes preguntas sobre ti sin leer. Repasas 이에요/예요, 아니에요, 있어요/없어요 y la diferencia entre 은/는 y 이/가. **Practicarás:** una entrevista en parejas (어디에 살아요? 형제가 있어요? 취미가 뭐예요?) y presentar a tu compañero/a al grupo. También tienes una conversación breve con Jay para ver desde dónde partes; no lleva nota. |
+| **2** · mié 28 oct | Números en la vida real | Usas los dos sistemas de números (일, 이, 삼… y 하나, 둘, 셋…) para tu edad, tu cumpleaños, tu teléfono y la hora. Preguntas con 몇: 몇 살이에요? · 몇 시예요? **Practicarás:** dictarle números de teléfono y fechas a un compañero/a y armar entre todos el calendario de cumpleaños del curso (생일이 언제예요?). |
+| **3** · mié 4 nov | Tu rutina en presente | Describes un día normal con unos 10 verbos, incluidos irregulares de todos los días (덥다 → 더워요, 듣다 → 들어요, 바쁘다 → 바빠요, 모르다 → 몰라요). Distingues 에 y 에서 (회사에 가요 · 회사에서 일해요) y reconoces el estilo formal -ㅂ니다/습니다. **Practicarás:** contarle tu rutina con horas a un compañero/a, que después la cuenta al grupo. |
+| **4** · mié 11 nov | El pasado | Cuentas qué hiciste en 6 a 8 frases: cuándo, dónde y con quién (주말에 친구하고 카페에 갔어요). Dices desde cuándo y hasta cuándo: 아홉 시부터 여섯 시까지 일했어요. **Practicarás:** tu mini-diario oral del fin de semana, con preguntas del grupo. |
+| **5** · mié 18 nov | El futuro y tus planes | Planeas tu semana o tus vacaciones soñadas: qué vas a hacer, cuándo, en qué vas a ir y con quién (비행기로 갈 거예요). Ofreces alternativas con "o": 영화를 보거나 쉴 거예요. **Practicarás:** armar un plan de viaje de 3 días y proponerle un plan a un compañero/a para la próxima semana. |
+| **6** · mié 25 nov | Lo que no hago y lo que sé hacer | Diferencias "no lo hago" (안 먹어요 / 먹지 않아요), "no puedo" (못 가요) y "sé o puedo hacerlo" (운전할 수 있어요). Aprendes palabras que ya son negativas: 없다, 모르다, 싫어하다. **Practicarás:** una encuesta de "¿sabes…?" y el role play de la invitación que no puedes aceptar. |
+| **7** · mié 2 dic | Partículas para sonar natural | Comparas y precisas con 보다 (más que), 처럼 (como), 만 y 밖에 (solo), 도 (también), 마다 (cada), 쯤 (más o menos), 한테 (a alguien) y 의 (de): 세 시쯤 만나요 · 친구한테 선물을 줬어요. **Practicarás:** comparar ciudades, comidas e ídolos, y un dictado de partículas con el formato del examen final. |
+| **8** · mié 9 dic | Conectores, examen y cierre | Unes ideas con -고 (y) y -지만 (pero): 밥을 먹고 커피를 마셨어요. Juntas presente, pasado y futuro en una conversación de unos 5 minutos sobre tu vida. Rindes el examen final escrito (30 minutos, en línea) y una conversación evaluada en parejas. |
 
 ---
 
@@ -137,11 +137,11 @@ Cada clase trae un momento de cultura ligado a lo que estás aprendiendo esa sem
 |---|---|
 | **Día** | Miércoles |
 | **Hora** | 21:00 a 22:00, hora de Chile (Santiago) |
-| **Fecha de inicio** | Miércoles 14 de octubre de 2026 |
-| **Las 8 clases** | 14, 21 y 28 de octubre · 4, 11, 18 y 25 de noviembre · 2 de diciembre |
+| **Fecha de inicio** | Miércoles 21 de octubre de 2026 |
+| **Las 8 clases** | 21 y 28 de octubre · 4, 11, 18 y 25 de noviembre · 2 y 9 de diciembre |
 | **Duración** | 8 semanas · 8 clases de 60 minutos |
 | **Profesor** | **Jay Kim (김재희)**: fundador de Academia Seúl, coreano nativo radicado en Chile, creador del Método Chingu™ y del Lector de Hangul, con más de 8 años enseñando coreano a hispanohablantes |
-| **Cierre de matrícula** | Domingo 11 de octubre (o antes, si se completan los cupos) |
+| **Cierre de matrícula** | Domingo 18 de octubre (o antes, si se completan los cupos) |
 
 **¿Qué hora es en tu país?** (miércoles 21:00 en Chile)
 
@@ -161,7 +161,7 @@ Cada clase trae un momento de cultura ligado a lo que estás aprendiendo esa sem
 **US$150 el curso completo · o 2 cuotas de US$75**
 
 - **Pago único:** US$150 por las 8 semanas.
-- **En 2 cuotas:** la primera, de US$75, al inscribirte. La segunda, de US$75, antes de la clase 5 (miércoles 11 de noviembre).
+- **En 2 cuotas:** la primera, de US$75, al inscribirte. La segunda, de US$75, antes de la clase 5 (miércoles 18 de noviembre).
 - **Formas de pago:** transferencia bancaria en Chile (sin comisión), Mercado Pago con tarjeta o transferencia (se cobra en pesos chilenos) y PayPal en dólares, también con tarjeta.
 - Tu cupo queda confirmado cuando recibimos el pago completo o la primera cuota, y te avisamos apenas lo registramos.
 - Detalles de pagos, cambios y reembolsos en [academiaseul.com/terminos](https://www.academiaseul.com/terminos).
@@ -186,13 +186,13 @@ Reserva tu cupo en [academiaseul.com/nivel-1?clase=a12](https://www.academiaseul
 
 ### 👥 Cupos
 
-**Máximo 15 estudiantes** en el grupo, para que todos hablen en cada clase y reciban corrección personal. Los cupos se asignan por orden de inscripción y la matrícula cierra el domingo 11 de octubre, o antes si se completa el grupo.
+**Máximo 15 estudiantes** en el grupo, para que todos hablen en cada clase y reciban corrección personal. Los cupos se asignan por orden de inscripción y la matrícula cierra el domingo 18 de octubre, o antes si se completa el grupo.
 
 ---
 
 ### 📜 Certificado
 
-Al completar el curso recibes el **certificado digital de Academia Seúl · Básico 2 (A1.2)**. Se entrega la semana del 7 de diciembre de 2026.
+Al completar el curso recibes el **certificado digital de Academia Seúl · Básico 2 (A1.2)**. Se entrega la semana del 14 de diciembre de 2026.
 
 - Para otorgarlo se consideran tu **asistencia** y tu **participación** a lo largo del curso. Los requisitos exactos (asistencia mínima y nota): **Confirmar con Academia Seúl.**
 - Con este certificado puedes inscribirte en **Conversacional 1 (A2.1)**, el siguiente paso de la escalera, sin rendir el test de nivel.
@@ -203,7 +203,7 @@ Al completar el curso recibes el **certificado digital de Academia Seúl · Bás
 ### ❓ Preguntas frecuentes
 
 **Hice el Nivel 1 de julio. ¿Este es mi curso?**
-Sí. Ese curso hoy se llama Básico 1 (A1.1), y tu certificado te habilita directo para Básico 2. La primera clase es un repaso activo de lo que viste en julio, así que no llegas en frío. Si tu Hangul está oxidado, dale una vuelta al [Lector de Hangul](https://www.academiaseul.com/lector-coreano) antes del 14 de octubre.
+Sí. Ese curso hoy se llama Básico 1 (A1.1), y tu certificado te habilita directo para Básico 2. La primera clase es un repaso activo de lo que viste en julio, así que no llegas en frío. Si tu Hangul está oxidado, dale una vuelta al [Lector de Hangul](https://www.academiaseul.com/lector-coreano) antes del 21 de octubre.
 
 **No hice Básico 1, pero sé algo de coreano. ¿Puedo entrar?**
 Sí, si ya lees Hangul con soltura y manejas lo básico: presentarte, 이에요/예요, 있어요/없어요, los números y el presente -아요/어요. Haz el [test de nivel gratis](https://www.academiaseul.com/test-nivel) o escríbenos por WhatsApp al +56 9 4211 5562 y te orientamos antes de que te inscribas. Si todavía no lees Hangul, tu curso es Básico 1.
@@ -228,7 +228,7 @@ El siguiente paso de la escalera es **Conversacional 1 (A2.1)**, un curso centra
 
 ---
 
-**¿Nos vemos el miércoles 14?** Inscríbete en [academiaseul.com/nivel-1?clase=a12](https://www.academiaseul.com/nivel-1?clase=a12) · Descarga el [programa en PDF](https://www.academiaseul.com/programas/Programa_Basico2_Octubre_2026.pdf) · ¿Dudas? WhatsApp **+56 9 4211 5562**. 화이팅!
+**¿Nos vemos el miércoles 21?** Inscríbete en [academiaseul.com/nivel-1?clase=a12](https://www.academiaseul.com/nivel-1?clase=a12) · Descarga el [programa en PDF](https://www.academiaseul.com/programas/Programa_Basico2_Octubre_2026.pdf) · ¿Dudas? WhatsApp **+56 9 4211 5562**. 화이팅!
 
 <!--
 PENDIENTE ANTES DE PUBLICAR (no visible en la página):
@@ -238,4 +238,5 @@ PENDIENTE ANTES DE PUBLICAR (no visible en la página):
 4. Próxima sección de Conversacional 1 (A2.1): textos_generales lista enero 2027 = Básico 1, Básico 2, Conversacional 2 y Niños 2, sin Conversacional 1. ¿Dónde sigue quien termina Básico 2 en diciembre?
 5. PayPal "tarjeta sin cuenta": sigue en la lista de pendientes de Jay (activar "Cuenta de PayPal opcional"). Aquí solo dice "también con tarjeta"; FAQ.tsx ya promete "sin tener cuenta PayPal".
 6. Examen final: en el sitio y en cursos_es se llama "examen A2 de la casa". Aquí dice "examen final escrito" para no confundir (el curso es A1.2). No contradice lo publicado.
+7. Calendario corrido una semana (16 oct 2026): S1 mié 21 oct → S8 mié 9 dic; cuota 2 antes de la clase 5 (mié 18 nov); certificado la semana del 14 de diciembre. Los ganchos culturales de esta página (semanas 1–8) no dependen de la fecha, así que no cambian.
 -->

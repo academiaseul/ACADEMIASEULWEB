@@ -1,6 +1,6 @@
 # Semana 8 · Conectores + examen final + conversación de 5 minutos
 ### Básico 2 (A1.2) · Pasado, presente y futuro · 기초 한국어 2 · con Jay (김재희)
-**Miércoles 2 de diciembre · 21:00 (hora de Chile) · Libro: Enumeración y contraste 01 y 03 (-고 · -지만)**
+**Miércoles 9 de diciembre · 21:00 (hora de Chile) · Libro: Enumeración y contraste 01 y 03 (-고 · -지만)**
 
 Llegamos, chingu. En octubre te volviste a presentar; hoy cuentas lo que haces, lo que hiciste y lo que vas a hacer, y lo unes con "y" y "pero" para que suene a conversación y no a lista. Esta semana no aprendes nada que no hayas dicho antes: **-고** lo usas desde la semana 3 y **-지만** desde la semana 6. Hoy les ponemos nombre, rindes el examen final y conversas 5 minutos con tu pareja. 화이팅!
 
@@ -22,14 +22,14 @@ Llegamos, chingu. En octubre te volviste a presentar; hoy cuentas lo que haces, 
 
 | Cuándo | Qué |
 |---|---|
-| **Domingo 29 de noviembre** | Entregas tu hoja de partículas 7 (Jay te la devuelve corregida antes del examen) |
-| **Lunes 30 de noviembre** | Llega al grupo el **simulacro corto** del examen: 10 preguntas, sin nota |
-| **Lunes 30 y martes 1** | Ensayas 5 minutos con tu pareja, por WhatsApp o Zoom, con la tarjeta de 6 temas (sección 7) |
-| **Miércoles 2 · 21:00** | **Clase 8:** 21:00 conectores · 21:10 examen final escrito (30 min) · 21:40 conversación con tu pareja · 21:57 cierre |
+| **Domingo 6 de diciembre** | Entregas tu hoja de partículas 7 (Jay te la devuelve corregida antes del examen) |
+| **Lunes 7 de diciembre** | Llega al grupo el **simulacro corto** del examen: 10 preguntas, sin nota |
+| **Lunes 7 y martes 8** | Ensayas 5 minutos con tu pareja, por WhatsApp o Zoom, con la tarjeta de 6 temas (sección 7) |
+| **Miércoles 9 · 21:00** | **Clase 8:** 21:00 conectores · 21:10 examen final escrito (30 min) · 21:40 conversación con tu pareja · 21:57 cierre |
 | **Después de la clase** | Tu audio de 1 minuto en tres tiempos (y, si quieres, la captura final de Progreso) (sección 9) |
-| **Hasta el viernes 4 · 22:00** | Solo si Jay no alcanzó a escucharte en la sala o si faltaste: audio de 3 minutos con la tarjeta |
+| **Hasta el viernes 11 · 22:00** | Solo si Jay no alcanzó a escucharte en la sala o si faltaste: audio de 3 minutos con la tarjeta |
 | **Dentro de la semana** | Te llega, por privado, tu examen corregido, el comentario de tu conversación y la recomendación de Jay para tu siguiente paso |
-| **Semana del 7 de diciembre** | Tu certificado de Básico 2 |
+| **Semana del 14 de diciembre** | Tu certificado de Básico 2 |
 
 ### El examen final: lo que tienes que saber
 - **30 minutos, en línea, dentro de la clase** (21:10–21:40), con Jay en la sala principal. El link aparece en el chat a las 21:09.
@@ -220,7 +220,7 @@ Como en una receta o unas instrucciones:
 
 ## 5. Diálogo · El ensayo del domingo
 
-**Domingo 29 de noviembre, videollamada.** Valentina (Chile, trabaja en una oficina) y Mateo (Perú, estudia y trabaja) son compañeros de Básico 2 y ensayan su conversación del miércoles.
+**Domingo 6 de diciembre, videollamada.** Valentina (Chile, trabaja en una oficina) y Mateo (Perú, estudia y trabaja) son compañeros de Básico 2 y ensayan su conversación del miércoles.
 
 | | Coreano | Español |
 |---|---|---|
@@ -416,7 +416,7 @@ Al terminar un examen, un proyecto o un día de trabajo, en Corea se oye mucho *
 ## 9. Tarea de la semana
 
 ### Antes de la clase (≈ 30 min)
-1. **Simulacro corto · 10 min** · link en el grupo el **lunes 30 de noviembre**. 10 preguntas con las mismas 4 partes del examen; al enviarlo ves las respuestas. No tiene nota.
+1. **Simulacro corto · 10 min** · link en el grupo el **lunes 7 de diciembre**. 10 preguntas con las mismas 4 partes del examen; al enviarlo ves las respuestas. No tiene nota.
 2. **El diálogo (sección 5) en voz alta y los ejercicios 1 a 7 de esta hoja · 15 min.** No se entregan: si te queda una duda, pregúntale a Jay en el grupo. Si no te alcanza el tiempo, prioriza el diálogo y los ejercicios 3, 4 y 7.
 3. **Ensayo con tu pareja · 5 min**, por WhatsApp o Zoom, con la tarjeta de la sección 7 y el cronómetro. Sin guion: ideas y un par de frases por tema.
 4. **Revisa la corrección de tu hoja de partículas 7** que te devuelve Jay: es el mismo formato de la parte 2 del examen.
@@ -424,13 +424,13 @@ Al terminar un examen, un proyecto o un día de trabajo, en Corea se oye mucho *
 
 ### Después de la clase (≈ 15–20 min)
 1. **Audio de 1 minuto en tres tiempos · 10 min** · en el grupo de WhatsApp del curso. Quién eres, qué hiciste en este curso y qué harás (usa tu guion del ejercicio 8, pero intenta no leerlo). Plazo: el que Jay confirme en el grupo.
-2. **Tu antes y después · 5 min.** Escucha tu audio del 14 de octubre (tu diagnóstico o tu re-presentación de 30 segundos) y después el de hoy. Anota, solo para ti, **una cosa que mejoraste** y **una que quieres trabajar** en Conversacional 1.
+2. **Tu antes y después · 5 min.** Escucha tu audio del 21 de octubre (tu diagnóstico o tu re-presentación de 30 segundos) y después el de hoy. Anota, solo para ti, **una cosa que mejoraste** y **una que quieres trabajar** en Conversacional 1.
 3. **Recomendado, no obligatorio: Lector de Hangul → pestaña Progreso → captura final · 2 min** → al grupo. Si quieres, antes juega una ronda de **⚡ Contrarreloj**: sus opciones vienen en letras latinas, así que di cada palabra en voz alta **antes** de mirar las opciones. Tu récord aparece en Progreso ("récord contrarreloj ⚡").
 
 **Reto:** en tu audio, 2 frases con -고, 1 con -지만 y un 그래서.
 **Si esta semana vas justo de tiempo:** haz un audio de 6 frases (2 en presente, 2 en pasado y 2 en futuro), con una tarjeta de **palabras clave** a la vista (palabras sueltas, no frases).
 
-**¿Jay no alcanzó a escucharte en la sala, o faltaste a la clase?** Manda un **audio de 3 minutos** respondiendo las preguntas de la tarjeta de la sección 7, **hasta el viernes 4 de diciembre a las 22:00**.
+**¿Jay no alcanzó a escucharte en la sala, o faltaste a la clase?** Manda un **audio de 3 minutos** respondiendo las preguntas de la tarjeta de la sección 7, **hasta el viernes 11 de diciembre a las 22:00**.
 
 **Entregas de esta semana:** examen escrito (en clase) · conversación con tu pareja (en clase, o el audio de 3 minutos) · audio final de 1 minuto. **Recomendada:** la captura final de Progreso.
 

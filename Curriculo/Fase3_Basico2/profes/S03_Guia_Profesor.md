@@ -1,8 +1,8 @@
 # Básico 2 (A1.2) · Semana 3 · Presente completo · Mi rutina
-### Guía del profesor · Jay Kim (김재희) · miércoles 28 de octubre de 2026 · 21:00–22:00 (hora de Chile) = jueves 29, 09:00 en Corea
+### Guía del profesor · Jay Kim (김재희) · miércoles 4 de noviembre de 2026 · 21:00–22:00 (hora de Chile) = jueves 5, 09:00 en Corea
 
 **MATERIAL DEL PROFESOR · solo para Jay · no se comparte con alumnos** (tiene claves, tiempos y notas internas). El material del alumno, sin respuestas ni notas, está en `../alumnos/S03_Material_Alumno.md`.
-Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3). Plazo N−2 (diseño G.2): deck S3 y Hoja 3 listos el **vie 16 oct**; quiz en línea 1 listo el **vie 23 oct**.
+Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3). Plazo N−2 (diseño G.2): deck S3 y Hoja 3 listos el **vie 23 oct**; quiz en línea 1 listo el **vie 30 oct**.
 
 > **Fuentes (manda lo publicado):** `../00_Diseno_Basico2.md` (B.1, B.4, B.10–B.12, B0.3–B0.4, C, D, E.3, G) · syllabus publicado `a12 · S3` en `Programa_Completo_Octubre_2026/fuente/cursos_es.json` (lección, gramática, 12 palabras, 3 prácticas, 3 tareas, cultura y notas del profesor) · programa público `Curriculo/publico/Programa_Basico2_A1-2.md` y PDF `public/programas/Programa_Basico2_Octubre_2026.pdf` · Fase 1 (§4.5 [YA] -고 como fórmula, §6.4 reglas de sonido que se explican en Básico 2, §7.4 romanización, §10.5 matiz de 먼저 가겠습니다, §15 #45 Contrarreloj) · formato de `../../Fase2_Basico1/profes/S01_Guia_Profesor.md` · Lector revisado en su código (`public/lector-coreano/index.html`: Practicar → Palabras usa un banco de 22 palabras y rota Lectura → Escucha → Inversa) · deck de julio `A1_Nivel_1/07_Rutina_Diaria/Sesion_07_Rutina_Diaria_v2.pptx` (láminas reutilizables en C.17).
 > **Marcas:** **⚑** = coreano o dato que validas tú antes de usarlo (eres el nativo del curso) · **[YA]** = mejora de la Fase 1 aplicada dentro de lo publicado · **DECISIÓN DE JAY** = política o texto público · **[regla del certificado: pendiente de decisión de Jay]**.
@@ -42,7 +42,7 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 
 | | |
 |---|---|
-| **Fecha** | **Miércoles 28 de octubre de 2026** · 21:00–22:00, hora de Chile (UTC−3) · jueves 29, 09:00 en Corea · única clase del miércoles en la cuenta de Zoom: 60 minutos completos |
+| **Fecha** | **Miércoles 4 de noviembre de 2026** · 21:00–22:00, hora de Chile (UTC−3) · jueves 5, 09:00 en Corea · **EE.UU. (Este): 19:00** (cambió de hora el dom 1 nov) · España: jue 01:00 · única clase del miércoles en la cuenta de Zoom: 60 minutos completos |
 | **Unidad del libro** | *Uso de la gramática coreana · Nivel inicial*, **Tiempos 01–02**: presente cortés -아요/어요 completo y presente formal -ㅂ니다/습니다 · verbos irregulares de uso diario · 에서 frente a 에 (⚑ D-15: confirmar la numeración con tu ejemplar; esta guía no cita páginas) |
 | **Romanización** | Ninguna (diseño D). Corchetes en 한글: 먹습니다 [먹씀니다] |
 
@@ -60,7 +60,7 @@ Versión 1 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 3)
 | 10 | **Tarea de reading** | Diálogo de la sección 5 leído en voz alta en la sala (1 minuto, un papel cada uno) · lectura formal "박민호입니다" (material, ejercicio 6): encontrar la información y pasar 4 formas -ㅂ니다 a -아요/어요 · Lector → Palabras (rondas Lectura e Inversa) |
 | 11 | **Tarea de writing** | Frases propias en el chat (clima de su ciudad, dónde estudia, presentación formal) · **Hoja 3** (publicada): tabla de 20 verbos (12 regulares y 8 irregulares) en -아요/어요 y -ㅂ니다/습니다 · reto: 3 frases con -고 있어요. 띄어쓰기: partícula pegada (회사에서), verbo separado (회사에서 일해요), 쯤 pegado a la hora (일곱 시쯤) |
 | 12 | **Actividad interactiva** | **Rueda de conjugación** con marcador del grupo (regular = 1 punto, irregular = 2; meta: 25 puntos en 4 minutos) · **ráfaga ¿에 o 에서?** · **"¿Dónde estoy?"** en salas (여기에서 커피를 마셔요. 그리고 공부해요. 어디예요? — 카페예요!) · escucha selectiva con "¿amigo o cliente?" |
-| 13 | **Tarea para la casa** | ≈ 30 min, antes de la clase 4 (mié 4 nov, 21:00). (1) **Hoja 3, 12 min** (publicada): tabla de 20 verbos en -아요/어요 y -ㅂ니다/습니다 (la columna formal se completa con la regla: es reconocimiento). (2) **Lector, 5 min:** Practicar → Palabras, 3 rondas seguidas; captura de Progreso. (3) **Quiz en línea 1, 8 min** (publicado; se revisa al abrir la clase 4). (4) **Prepara la S4, 5 min:** escribe 5 cosas que hiciste el fin de semana pasado (en español o con el verbo en diccionario: 친구 만나다, 영화 보다…). **Reto** (nota publicada): 3 frases con -고 있어요 en la hoja. **Rescate** (nota publicada): solo 6 verbos de la hoja + audio de 30 s de tu rutina en lugar de la hoja completa. Extra: Contrarreloj; ejercicios de la sección 6 |
+| 13 | **Tarea para la casa** | ≈ 30 min, antes de la clase 4 (mié 11 nov, 21:00). (1) **Hoja 3, 12 min** (publicada): tabla de 20 verbos en -아요/어요 y -ㅂ니다/습니다 (la columna formal se completa con la regla: es reconocimiento). (2) **Lector, 5 min:** Practicar → Palabras, 3 rondas seguidas; captura de Progreso. (3) **Quiz en línea 1, 8 min** (publicado; se revisa al abrir la clase 4). (4) **Prepara la S4, 5 min:** escribe 5 cosas que hiciste el fin de semana pasado (en español o con el verbo en diccionario: 친구 만나다, 영화 보다…). **Reto** (nota publicada): 3 frases con -고 있어요 en la hoja. **Rescate** (nota publicada): solo 6 verbos de la hoja + audio de 30 s de tu rutina en lugar de la hoja completa. Extra: Contrarreloj; ejercicios de la sección 6 |
 | 14 | **Recurso digital** (exacto) | **Lector** (`academiaseul.com/lector-coreano`) → **Practicar → Palabras, 3 rondas seguidas** (5 min; 10 palabras por ronda de un banco de 22: 카페, 커피, 학교, 친구, 오늘, 내일, 선생님…; el modo rota solo y el Lector recuerda dónde quedó cada alumno, así que 3 rondas seguidas pasan por Lectura, Escucha e Inversa). Consejo: decir la palabra en voz alta **antes** de mirar las opciones y activar "🔊 pronunciar automáticamente al responder". Ojo: en Lectura las opciones y en Inversa la pregunta van en letras latinas; es la limitación conocida del Lector (diseño D) y por eso se pide leer en voz alta. **[YA]** El "Contrarreloj en modo Escucha" publicado no existe (el Contrarreloj siempre es Lectura, con opciones romanizadas): queda como extra opcional. **+ Quiz en línea 1** de 10 preguntas (formulario con autocorrección; plataforma: DECISIÓN DE JAY 5; link `[PLACEHOLDER: quiz en línea 1]`). **Audio:** las 24 filas de la semana y las 3 frases clave tienen clip nativo (voz SunHi, generado el 26 sept; `Curriculo/audio/Clips_Octubre_2026.md`); el material del alumno los enlaza con 🔊 (línea al final de la sección 2 y sección 10). Tu voz sigue siendo la referencia en la grabación y en el clip del coro |
 | 15 | **Preparación del profesor** | Checklist en C.2. Lo esencial: tus 6 fotos del día (las eliges tú, 5 min) · deck S3 revisado (28 láminas, guion en C.17) · Quiz 2 en L2 · salas renombradas con las parejas del mapa del grupo · link de la tarjeta de sala y del quiz en línea listos para pegar · planilla del curso abierta · cronómetro |
 | 16 | **Entregable del alumno** | Hoja 3 (foto o PDF en el grupo) · captura de Progreso (Palabras) · quiz en línea 1 enviado · (rescate) audio de 30 s de su rutina |
@@ -95,21 +95,21 @@ Que cada alumno salga **contando su día normal en 8–10 frases sin leer**, con
 
 ### C.2 Checklist de preparación
 
-**Antes del vie 16 oct (plazo N−2)**
+**Antes del vie 23 oct (plazo N−2)**
 - [ ] Revisar el deck S3 con el guion de C.17 y el material del alumno de la S3. Tú no produces: revisas y apruebas (diseño 0.9). Resolver los ⚑ de D (sobre todo D-6, D-7 y D-8), porque si cambias una frase se cambia en la guía **y** en el material.
 - [ ] Elegir tus **6 fotos del día** para L5 (propias o con licencia libre; 5 minutos). El guion de C.3 es un ejemplo: cambia horas, lugares o verbos por los de tu día real, pero conserva 쯤, -고, 에서 y 바빠요.
 - [ ] Revisar la Hoja 3 (C.16 trae la clave).
 
-**Antes del vie 23 oct**
+**Antes del vie 30 oct**
 - [ ] Quiz en línea 1 armado en la plataforma que decidas (DECISIÓN DE JAY 5), con las 10 preguntas de C.14, autocorrección y el link en `[PLACEHOLDER: quiz en línea 1]`.
 
-**Entre el vie 23 y el mar 27 oct**
+**Entre el vie 30 oct y el mar 3 nov**
 - [ ] Mirar en la planilla el Quiz 1, la Hoja 2 y los audios de 40 s de la S2: anota 2 errores de la Hoja 2 para L3 (típicos: 스물 살* → 스무 살 · 육월* → 유월 · 몇일* → 며칠).
-- [ ] Confirmar las parejas del **mapa del grupo** (vie 16 oct): A + B o B + B; los C en trío con un A y un B. Tenerlas escritas como nombres de sala: "Sala 1 · Camila + Daniel"…
+- [ ] Confirmar las parejas del **mapa del grupo** (vie 23 oct): A + B o B + B; los C en trío con un A y un B. Tenerlas escritas como nombres de sala: "Sala 1 · Camila + Daniel"…
 - [ ] Anotar quién recibe la **tarjeta reto** (perfil A) y quién la **tarjeta rescate** (perfil C o quien no entregó la Hoja 2): se lo dices por mensaje privado después de la clase, no en público.
 
-**Mar 27 oct (el día anterior)**
-- [ ] Mensaje en el grupo: «Mañana, clase 3: **21:00 Chile · 18:00 México · 19:00 Colombia y Perú · 21:00 Argentina · 20:00 EE.UU. (Este) · 01:00 España (jueves; allá ya cambió la hora el domingo 25)** · 09:00 del jueves en Corea. Traigan su lista de 8 cosas que hacen en un día normal: es la base de la clase. 화이팅!»
+**Mar 3 nov (el día anterior)**
+- [ ] Mensaje en el grupo: «Mañana, clase 3: **21:00 Chile · 18:00 México · 19:00 Colombia y Perú · 21:00 Argentina · 19:00 EE.UU. (Este; allá cambió la hora el domingo 1) · 01:00 España (jueves)** · 09:00 del jueves en Corea. Traigan su lista de 8 cosas que hacen en un día normal: es la base de la clase. 화이팅!»
 - [ ] Si aprobaste la clínica de lectura (DECISIÓN DE JAY 10), recordárselo en privado a los perfil C: mié 20:45–20:57.
 
 **20:50, antes de abrir**
@@ -117,15 +117,15 @@ Que cada alumno salga **contando su día normal en 8–10 frases sin leer**, con
 - [ ] Deck abierto en L1, con "Compartir sonido" marcado.
 - [ ] En un bloc de notas: link de la **tarjeta de sala** (`[PLACEHOLDER: link de la tarjeta de sala S3]`), link del **quiz en línea 1**, los 3 mensajes de sala (C.3, bloque 9) y la lista de parejas.
 - [ ] Planilla del curso abierta (columnas en C.14) · cronómetro visible · documento de notas para los errores.
-- [ ] Nombre de la grabación: `Basico2_S03_2026-10-28`.
+- [ ] Nombre de la grabación: `Basico2_S03_2026-11-04`.
 
 **Después de la clase (dentro de 24 h)**
-- [ ] Subir grabación + PDF del deck + tarea a la carpeta del curso: `Basico2_S03_2026-10-28_Presente-completo.pdf` (convención `Curso_S0N_Fecha_Tema`, diseño G.3).
+- [ ] Subir grabación + PDF del deck + tarea a la carpeta del curso: `Basico2_S03_2026-11-04_Presente-completo.pdf` (convención `Curso_S0N_Fecha_Tema`, diseño G.3).
 - [ ] Marcar asistencia (en vivo / grabación + tarea, en columnas separadas), Quiz 2 (x/5) y observación de salas en la planilla.
 - [ ] Publicar el mensaje de C.15 (grabación + tarea + link del quiz en línea).
 - [ ] Mensajes privados de reto y rescate (C.10).
 - [ ] El clip `B2_S03_frases_clave.mp3` se recorta de la grabación (L26) dentro de 48 h; lo hace la persona de producción que designaste (diseño B.12). Si el coro salió con ruido, lo grabas tú con el celular (20 s).
-- [ ] **Mar 3 nov:** revisar los resultados del quiz en línea 1 y elegir las 2 preguntas más falladas para abrir la clase 4.
+- [ ] **Mar 10 nov:** revisar los resultados del quiz en línea 1 y elegir las 2 preguntas más falladas para abrir la clase 4.
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 *Los guiones están en "tú", la voz de la marca; dilos con tus palabras. Explicas en español; conversas, corriges y felicitas en coreano (따라 하세요 · 다시 한번 · 잘했어요 · 읽으세요 · 여러분).*
@@ -370,7 +370,7 @@ Que cada alumno salga **contando su día normal en 8–10 frases sin leer**, con
 | Perfil C de lectura (mapa del grupo) | Lectura lenta; leen -습니다 letra por letra | Clínica 20:45 (si la aprobaste) · en trío con un A y un B · en la rueda, verbos regulares primero · rescate en la tarea |
 | Perfil A | Van rápido | Tarjeta **reto** (-고 있어요 + formal) por mensaje privado · en R3, pedirles -고 |
 
-**Parejas:** las del mapa del grupo (vie 16 oct), A + B o B + B, nunca A + A; los C en trío con un A y un B. Se rehacen en la S4 con la evidencia de mitad de curso. **Reto y rescate** se comunican en privado; la tarea núcleo es la misma para todos y **el rescate nunca quita la parte oral** (por eso es "6 verbos + audio").
+**Parejas:** las del mapa del grupo (vie 23 oct), A + B o B + B, nunca A + A; los C en trío con un A y un B. Se rehacen en la S4 con la evidencia de mitad de curso. **Reto y rescate** se comunican en privado; la tarea núcleo es la misma para todos y **el rescate nunca quita la parte oral** (por eso es "6 verbos + audio").
 **Mensajes privados modelo (después de la clase):**
 - *Reto:* «[nombre], vas muy bien 💪 Esta semana, en la Hoja 3, suma el reto: 3 frases con -고 있어요 (지금 ___고 있어요). Si te animas, cuenta tu rutina en formal en un audio. 화이팅!»
 - *Rescate:* «[nombre], esta semana hazlo así: en la Hoja 3, solo los 6 verbos marcados (-아요/어요) y mándame un audio de 30 s con tu rutina. La parte oral es la que más cuenta. 화이팅!»
@@ -406,7 +406,7 @@ Que cada alumno salga **contando su día normal en 8–10 frases sin leer**, con
 
 **Quiz 2** (abre la clase; clave en C.16): 5 ítems, 1 punto cada uno → planilla x/5. Qué mirar: 스무 살 (no 스물) y 유월 (no 육월), que son los 2 ítems que el diseño anticipa como más fallados (B.3).
 
-**Quiz en línea 1** (publicado; se arma antes del vie 23 oct; cuenta como tarea de la S3; se revisa al abrir la clase 4). Formulario con autocorrección, 10 preguntas de opción múltiple (3 opciones), 1 punto cada una. **Consigna para el alumno:** «Elige la forma correcta. 8 minutos. Sin mirar la hoja: es para saber qué reforzar.»
+**Quiz en línea 1** (publicado; se arma antes del vie 30 oct; cuenta como tarea de la S3; se revisa al abrir la clase 4). Formulario con autocorrección, 10 preguntas de opción múltiple (3 opciones), 1 punto cada una. **Consigna para el alumno:** «Elige la forma correcta. 8 minutos. Sin mirar la hoja: es para saber qué reforzar.»
 
 | # | Pregunta | Opciones | Correcta |
 |---|---|---|---|
@@ -429,7 +429,7 @@ Que cada alumno salga **contando su día normal en 8–10 frases sin leer**, con
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | | ✓ / — | ✓ / — | | ✓ / — | ✓ / — | ✓ / — | | A / B / C | A / B / C | nota breve | R / Rs / — | nota |
 
-*A = sólido · B = en camino · C = a reforzar* (la misma escala del diagnóstico; nunca colores). Asistencia en vivo y "grabación + tarea" van **en columnas separadas** hasta que decidas qué cuenta para el certificado **[regla del certificado: pendiente de decisión de Jay]**. La observación de salas (irregulares y 에/에서) es evidencia para el **comentario de mitad de curso** (dom 8 nov, DECISIÓN DE JAY 8).
+*A = sólido · B = en camino · C = a reforzar* (la misma escala del diagnóstico; nunca colores). Asistencia en vivo y "grabación + tarea" van **en columnas separadas** hasta que decidas qué cuenta para el certificado **[regla del certificado: pendiente de decisión de Jay]**. La observación de salas (irregulares y 에/에서) es evidencia para el **comentario de mitad de curso** (dom 15 nov, DECISIÓN DE JAY 8).
 
 **Cómo corregir la Hoja 3 (≈ 1 minuto por alumno).** Mira tres cosas, en este orden: (1) las 8 formas irregulares en -아요/어요 (el error que más importa); (2) 입어요 y 씻어요 (¿sobregeneralizó?); (3) en la columna formal, solo 삽니다 y 마십니다/배웁니다 (vocal → -ㅂ니다). El resto de la columna formal es reconocimiento: no se corrige una por una.
 
@@ -440,11 +440,11 @@ Que cada alumno salga **contando su día normal en 8–10 frases sin leer**, con
 
 ### C.15 Mensaje post-clase para el grupo (lista para pegar)
 
-**Publicar el mié 28 oct, después de subir la grabación:**
+**Publicar el mié 4 nov, después de subir la grabación:**
 ```
 ¡Gracias por la clase de hoy, chingus! 🐯
 Grabación: [link]
-Tarea para antes del miércoles 4 de noviembre, 21:00 (hora Chile) · unos 30 minutos:
+Tarea para antes del miércoles 11 de noviembre, 21:00 (hora Chile) · unos 30 minutos:
 1) Hoja 3 (en la carpeta): la tabla de 20 verbos en -아요/어요 y -ㅂ니다/습니다. Foto o PDF aquí en el grupo.
 2) Lector de Hangul (academiaseul.com/lector-coreano): Practicar → Palabras, 3 rondas seguidas. Di cada palabra en voz alta ANTES de mirar las opciones. Mándenme la captura de Progreso.
 3) Quiz en línea 1 (10 preguntas, 8 minutos, cuenta como tarea): [link]. Lo revisamos al empezar la clase 4.
@@ -453,7 +453,7 @@ Extra: el Contrarreloj del Lector y los ejercicios de la sección 6 de tu materi
 Las 3 frases de hoy (clip en la carpeta en 48 h): 씻고 아침을 먹어요. / 회사에서 일해요. / 요즘 너무 바빠요.
 La clase 4 abre con el quiz 3: irregulares, 에 o 에서, y "¿cuál es formal?".
 Y recuerden: si se van antes de la oficina… 먼저 들어가 보겠습니다 😉
-¡Nos vemos el miércoles 4 a las 21:00! 화이팅!
+¡Nos vemos el miércoles 11 a las 21:00! 화이팅!
 ```
 
 ### C.16 Clave de respuestas
@@ -597,7 +597,7 @@ Respuesta: **④** (저녁 7시 es de tarde-noche, no 오전). Verificado: el 6 
 | 24 | Minuto libre | 보통 몇 시에 일어나요? · 요즘 바빠요? · 생일이 언제예요? | En el chat, como imagen | Diseño B.11 |
 | 25 | Lo que oí hoy | 3 errores ✗ → ✓ (se ajustan a lo que oíste) | Sin nombres | Nueva |
 | 26 | Las 3 frases de hoy | 씻고 아침을 먹어요. / 회사에서 일해요. / 요즘 너무 바빠요. | Coro; de aquí sale el clip | Diseño B.12 |
-| 27 | Tarea (≈ 30 min) | 1 Hoja 3 (12 min) · 2 Lector: Practicar → Palabras, 3 rondas seguidas (5 min) · 3 Quiz en línea 1 (8 min) · 4 Prepara la S4: 5 cosas del fin de semana pasado (5 min) · plazo: mié 4 nov, 21:00 · Reto / Rescate | — | Nueva |
+| 27 | Tarea (≈ 30 min) | 1 Hoja 3 (12 min) · 2 Lector: Practicar → Palabras, 3 rondas seguidas (5 min) · 3 Quiz en línea 1 (8 min) · 4 Prepara la S4: 5 cosas del fin de semana pasado (5 min) · plazo: mié 11 nov, 21:00 · Reto / Rescate | — | Nueva |
 | 28 | 감사합니다! 화이팅! | "Clase 4: el pasado · abre con el quiz 3" | — | Plantilla |
 | Extra | -고 있어요 | 지금 뭐 하고 있어요? — 한국어를 공부하고 있어요. | Reto / extensión | Julio L29, adaptada |
 | Extra | ¿Dónde estoy? | 6 íconos de lugares para la adivinanza en grupo | Emergencia / plan B | Nueva |
@@ -608,22 +608,22 @@ Respuesta: **④** (저녁 7시 es de tarde-noche, no 오전). Verificado: el 6 
 
 | # | Qué | Por qué | Quién · cuándo |
 |---|---|---|---|
-| 1 | ⚑ **D-6 · 서울은 추워요** (frase 4 de "puede decir", L13, material) | A fines de octubre, a las 9:00, en Seúl hace frío por la mañana; lo más preciso sería 쌀쌀해요, que está fuera de nivel. Propuesta: mantener 추워요 y, si quieres, decir 쌀쌀해요 como input | Jay · vie 16 oct |
-| 2 | ⚑ **D-7 · 먼저 가겠습니다 / 먼저 들어가 보겠습니다** (bloque 7, diálogo escena 2, material 8) y la respuesta **수고하셨습니다** ("si preguntan") | El publicado dice 먼저 가겠습니다; la Fase 1 propone 먼저 들어가 보겠습니다 como el más frecuente. ¿Cuál dices en voz? ¿Agregas 먼저 퇴근하겠습니다? | Jay · vie 16 oct |
-| 3 | ⚑ **D-8 · -고 con la rutina** | 씻고 아침을 먹어요 · 퇴근하고 운동해요 / 퇴근하고 한국어를 공부해요 · 아침을 먹고 출근해요 · 음악을 듣고 자요 como fórmula; 일어나서 씻어요 solo como input tuyo. ¿De acuerdo con todas? | Jay · vie 16 oct |
-| 4 | ⚑ **D-12 · Ítem 5 del Quiz 2** | Es original "estilo TOPIK I" (formato 40–42 de 읽기). Si prefieres un ítem oficial de topik.go.kr, reemplazarlo citando edición y número. Confirma también que el formato 40–42 sigue siendo "맞지 않는 것" en la edición vigente | Jay · vie 16 oct |
-| 5 | ⚑ **D-15 · Unidades del libro** | "Tiempos 01–02" es la numeración de la ficha publicada; confirmar con el ejemplar (y si 에서 e irregulares están en otras unidades del libro, citarlas solo en la guía) | Jay · vie 16 oct |
-| 6 | ⚑ **D-16 · ¿Julio vio -ㅂ니다 y 에서?** | El deck `07_Rutina_Diaria_v2` (julio) trae 갑니다, 먹습니다, 침대에서 잡니다 y 만듭니다. Si se usó en clase, los ex-alumnos de julio ya vieron 에서 y -ㅂ니다: el bloque 6 puede ir más rápido y el "experto de julio" tiene más que decir | Jay · antes del 28 oct |
-| 7 | ⚑ **D-17 · Notación** | [감니다] · [임니다] · [먹씀니다] · [삼니다] · [씨서요] · [드러요] · [씯꼬] · [아치믈]: ¿las escribes así en el deck? | Jay · vie 16 oct |
-| 8 | ⚑ **S3-a (nuevo) · Diálogo** | Naturalidad de: 퇴근하고 한국어를 공부해요 · 오늘 멕시코는 더워요? — 네, 조금 더워요. 산티아고는요? · 음… 몰라요! 지금 집에 있어요 · 아, 선생님이에요! · y la respuesta 네, 안녕히 가세요! a 먼저 들어가 보겠습니다 (¿o 네, 들어가세요!, fuera de nivel?) | Jay · vie 16 oct |
-| 9 | ⚑ **S3-b (nuevo) · Tu día en L5–L6** | El guion es un ejemplo: 출근해요 / 회사에서 일해요 / 공원에서 운동해요 deben ser verdad para ti o cambiarse (si trabajas en casa: 집에서 일해요). Conserva 쯤, -고, 에서 y 바빠요 | Jay · vie 16 oct |
-| 10 | ⚑ **S3-c (nuevo) · Nombres de ciudades en 한글** (material, sección 2) | Siguen la norma de 외래어 표기법 (산티아고, 멕시코시티, 보고타, 메데인, 부에노스아이레스…); confirmar las 14 | Jay · vie 16 oct |
-| 11 | **Quiz en línea 1: plataforma** | Sin plataforma no hay link (DECISIÓN DE JAY 5). Si no está el vie 23 oct, se manda como imagen en el grupo y se corrige en la clase 4 | **DECISIÓN DE JAY 5** · vie 16 oct |
-| 12 | **Clínica de lectura** (bloque 0) | Opcional, solo perfil C | **DECISIÓN DE JAY 10** · antes del 21 oct |
-| 13 | **Producción del deck S3 y de la Hoja 3** | P1 del diseño G.2, plazo vie 16 oct. La Hoja 3 sale del ejercicio 4 del material del alumno (→ PDF con la plantilla de la casa) | Producción · vie 16 oct |
+| 1 | ⚑ **D-6 · 서울은 추워요** (frase 4 de "puede decir", L13, material) | A comienzos de noviembre (clase corrida una semana), a las 9:00, en Seúl hace frío por la mañana: 추워요 calza todavía mejor; 쌀쌀해요 sería más fino, pero está fuera de nivel. Propuesta: mantener 추워요 y, si quieres, decir 쌀쌀해요 como input | Jay · vie 23 oct |
+| 2 | ⚑ **D-7 · 먼저 가겠습니다 / 먼저 들어가 보겠습니다** (bloque 7, diálogo escena 2, material 8) y la respuesta **수고하셨습니다** ("si preguntan") | El publicado dice 먼저 가겠습니다; la Fase 1 propone 먼저 들어가 보겠습니다 como el más frecuente. ¿Cuál dices en voz? ¿Agregas 먼저 퇴근하겠습니다? | Jay · vie 23 oct |
+| 3 | ⚑ **D-8 · -고 con la rutina** | 씻고 아침을 먹어요 · 퇴근하고 운동해요 / 퇴근하고 한국어를 공부해요 · 아침을 먹고 출근해요 · 음악을 듣고 자요 como fórmula; 일어나서 씻어요 solo como input tuyo. ¿De acuerdo con todas? | Jay · vie 23 oct |
+| 4 | ⚑ **D-12 · Ítem 5 del Quiz 2** | Es original "estilo TOPIK I" (formato 40–42 de 읽기). Si prefieres un ítem oficial de topik.go.kr, reemplazarlo citando edición y número. Confirma también que el formato 40–42 sigue siendo "맞지 않는 것" en la edición vigente | Jay · vie 23 oct |
+| 5 | ⚑ **D-15 · Unidades del libro** | "Tiempos 01–02" es la numeración de la ficha publicada; confirmar con el ejemplar (y si 에서 e irregulares están en otras unidades del libro, citarlas solo en la guía) | Jay · vie 23 oct |
+| 6 | ⚑ **D-16 · ¿Julio vio -ㅂ니다 y 에서?** | El deck `07_Rutina_Diaria_v2` (julio) trae 갑니다, 먹습니다, 침대에서 잡니다 y 만듭니다. Si se usó en clase, los ex-alumnos de julio ya vieron 에서 y -ㅂ니다: el bloque 6 puede ir más rápido y el "experto de julio" tiene más que decir | Jay · antes del 4 nov |
+| 7 | ⚑ **D-17 · Notación** | [감니다] · [임니다] · [먹씀니다] · [삼니다] · [씨서요] · [드러요] · [씯꼬] · [아치믈]: ¿las escribes así en el deck? | Jay · vie 23 oct |
+| 8 | ⚑ **S3-a (nuevo) · Diálogo** | Naturalidad de: 퇴근하고 한국어를 공부해요 · 오늘 멕시코는 더워요? — 네, 조금 더워요. 산티아고는요? · 음… 몰라요! 지금 집에 있어요 · 아, 선생님이에요! · y la respuesta 네, 안녕히 가세요! a 먼저 들어가 보겠습니다 (¿o 네, 들어가세요!, fuera de nivel?) | Jay · vie 23 oct |
+| 9 | ⚑ **S3-b (nuevo) · Tu día en L5–L6** | El guion es un ejemplo: 출근해요 / 회사에서 일해요 / 공원에서 운동해요 deben ser verdad para ti o cambiarse (si trabajas en casa: 집에서 일해요). Conserva 쯤, -고, 에서 y 바빠요 | Jay · vie 23 oct |
+| 10 | ⚑ **S3-c (nuevo) · Nombres de ciudades en 한글** (material, sección 2) | Siguen la norma de 외래어 표기법 (산티아고, 멕시코시티, 보고타, 메데인, 부에노스아이레스…); confirmar las 14 | Jay · vie 23 oct |
+| 11 | **Quiz en línea 1: plataforma** | Sin plataforma no hay link (DECISIÓN DE JAY 5). Si no está el vie 30 oct, se manda como imagen en el grupo y se corrige en la clase 4 | **DECISIÓN DE JAY 5** · vie 23 oct |
+| 12 | **Clínica de lectura** (bloque 0) | Opcional, solo perfil C | **DECISIÓN DE JAY 10** · antes del 28 oct |
+| 13 | **Producción del deck S3 y de la Hoja 3** | P1 del diseño G.2, plazo vie 23 oct. La Hoja 3 sale del ejercicio 4 del material del alumno (→ PDF con la plantilla de la casa) | Producción · vie 23 oct |
 | 14 | **Palabras del Lector con letras latinas** | En Lectura (opciones) e Inversa (pregunta) el Lector muestra romanización; no se toca código en octubre (diseño D). Por eso la tarea pide leer en voz alta antes de mirar | Informativo · [2027] en el anexo |
-| 15 | **Audio de los verbos de la semana (actualizado en el control final)** | Desde el 26 sept las 24 filas tienen clip SunHi y el material los enlaza (🔊). Están en `public/audio/kr` **sin publicar** (fuera de git): hace falta el push a `main` antes del 14 oct (el mismo pendiente de la S1, D-26). El clip del coro (48 h) sigue importando: es tu voz | Jay / producción · antes del lun 12 oct |
-| 16 | **Salas con "elegir sala"** | Se probó para la S1 (D-18). Si falló entonces, en la S3 se asigna a mano durante el quiz | Jay · antes del 28 oct |
+| 15 | **Audio de los verbos de la semana (actualizado en el control final)** | Desde el 26 sept las 24 filas tienen clip SunHi y el material los enlaza (🔊). Están en `public/audio/kr` **sin publicar** (fuera de git): hace falta el push a `main` antes del 21 oct (el mismo pendiente de la S1, D-26). El clip del coro (48 h) sigue importando: es tu voz | Jay / producción · antes del lun 19 oct |
+| 16 | **Salas con "elegir sala"** | Se probó para la S1 (D-18). Si falló entonces, en la S3 se asigna a mano durante el quiz | Jay · antes del 4 nov |
 
 *Coreano de esta guía:* todo lo que se pide producir está en la lista maestra (C) hasta la S3 o en la de Básico 1 (정말요, 조금, 음악, 저도요, 선생님, 여러분). Anticipos marcados: 어렵다 y 쉽다 (núcleo de la S8, usados como ejemplo de ㅂ), 쓰다 (Básico 1, como ejemplo de 으), 파티 y 퀴즈 como préstamos solo en lectura. Lo demás que no es de nivel (일어나서, 쌀쌀해요, 수고하셨습니다, -고 있어요) va solo como input tuyo o como reto.
 
@@ -641,4 +641,4 @@ Respuesta: **④** (저녁 7시 es de tarde-noche, no 오전). Verificado: el 6 
 | Misión semanal de 25 minutos (drill + mini-diario escrito y en audio + una pregunta para la clase siguiente) en lugar de "hoja + Lector + quiz en línea" | Fase 1 §11.6; diseño I #7 | Cambia tareas publicadas |
 | Estructura de clase unificada (la ficha dice lección de 25'; el PDF, 30') | Diseño I #12 | Textos publicados |
 
-화이팅, Jay. El miércoles 28, cuando en Seúl la gente esté entrando a la oficina, tus alumnos van a estar contándote su día en coreano. 🐯
+화이팅, Jay. El miércoles 4, cuando en Seúl la gente esté entrando a la oficina, tus alumnos van a estar contándote su día en coreano. 🐯

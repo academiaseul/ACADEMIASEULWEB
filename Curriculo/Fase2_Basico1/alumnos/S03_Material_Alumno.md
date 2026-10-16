@@ -1,6 +1,6 @@
 # Semana 3 · 이게 뭐예요? · ¿Qué es esto?
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 27 de octubre · Sección jueves: jueves 29 de octubre · 20:00 (hora de Chile) · Libro: lecciones 2 y 3**
+**Sección martes: martes 3 de noviembre · Sección jueves: jueves 5 de noviembre · 20:00 (hora de Chile) · Libro: lecciones 2 y 3**
 
 La semana pasada aprendiste a decir quién eres. Esta semana empiezas a nombrar el mundo: con una sola pregunta vas a poder saber cómo se llama cualquier cosa que tengas delante. 🗣️
 
@@ -287,7 +287,7 @@ Usa los 5 objetos que dejaste a mano (un libro, un lápiz, tu celular, un paragu
 
 ## 9. Tarea de la semana (≈ 25 minutos)
 
-**Entrégala en el grupo de WhatsApp de tu sección antes de tu clase 4:** martes 3 de noviembre a las 20:00 (sección martes) o jueves 5 de noviembre a las 20:00 (sección jueves), hora de Chile. Mejor repartida en 2 o 3 días.
+**Entrégala en el grupo de WhatsApp de tu sección antes de tu clase 4:** martes 10 de noviembre a las 20:00 (sección martes) o jueves 12 de noviembre a las 20:00 (sección jueves), hora de Chile. Mejor repartida en 2 o 3 días.
 
 ### 1) Lector de Hangul · 8 min
 

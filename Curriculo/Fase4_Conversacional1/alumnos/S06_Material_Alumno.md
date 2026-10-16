@@ -1,6 +1,6 @@
 # Semana 6 · Hanbok y estética · 한복과 미
 ### Conversacional 1 (A2.1) · Corea que amas · 회화 A2.1 · con Abby (홍미영 선생님)
-**Martes 17 de noviembre · 21:00 (hora de Chile) = miércoles 18, 09:00 en Corea, ¡la víspera del 수능! · Módulo M04**
+**Martes 24 de noviembre · 21:00 (hora de Chile) = miércoles 25, 09:00 en Corea · Módulo M04**
 
 > **Durante la clase** vas a usar la **sección 7 (tarjetas de sala)** y la **hoja de fotos** (link en el chat de Zoom y en la carpeta del curso). Ábrelas **antes** de entrar a tu sala: dentro de la sala no ves el chat general. Todo lo demás es para antes y después de clase: leer, repasar, hacer la tarea y llegar con ventaja a la clase 7.
 > **La clase es en coreano.** El español está aquí, en las slides y en el chat. Si te pierdes, usa tus frases de supervivencia: 다시 한번 말해 주세요 · 천천히 말해 주세요 · ___이/가 무슨 뜻이에요? · 잘 모르겠어요 · 잠깐만요!
@@ -57,9 +57,6 @@ Esta semana aprendes a **opinar como en coreano**: separar lo que **ves** (보�
 | **북촌** | barrio de casas tradicionales, junto a los palacios | [🔊](https://www.academiaseul.com/audio/kr/ebb681ecb48c.mp3) |
 | **오방색** | los cinco colores tradicionales de Corea (sección 8) | [🔊](https://www.academiaseul.com/audio/kr/ec98a4ebb0a9ec8389.mp3) |
 | **생활한복** | 한복 moderno, para el día a día | [🔊](https://www.academiaseul.com/audio/kr/ec839ded999ced959cebb3b5.mp3) |
-| **내일은 수능 날이에요** | mañana es el día del 수능 (el examen de ingreso a la universidad) | [🔊](https://www.academiaseul.com/audio/kr/eb82b4ec9dbcec9d8020ec8898eb8aa520eb82a0ec9db4ec9790ec9a94.mp3) |
-| **수능 대박!** | ¡que te vaya increíble en el 수능! | [🔊](https://www.academiaseul.com/audio/kr/ec8898eb8aa520eb8c80ebb095.mp3) |
-| **시험 잘 보세요!** | ¡que te vaya bien en el examen! (sirve para cualquier examen, no solo el 수능) | [🔊](https://www.academiaseul.com/audio/kr/ec8b9ced979820ec9e9820ebb3b4ec84b8ec9a94.mp3) |
 
 **Palabras que ya sabes y vas a usar mucho:** 옷 (ropa) · 모자 · 가방 · 비싸다 · 싸다 · 크다 · 작다 · 멋있다 (semana 2) · 인기가 많다 (semana 2) · 예산 (semana 5) · 사진을 찍다 · 구경하다 · 사람마다 달라요.
 
@@ -71,7 +68,6 @@ Esta semana aprendes a **opinar como en coreano**: separar lo que **ves** (보�
 | **골라요** · **맞혀요** | elijan · adivinen |
 | **모델 같아요!** | ¡pareces modelo! (con sustantivos se dice ___ 같아요) |
 | **입장료가 무료예요** | la entrada es gratis |
-| **수험생** | quien rinde un examen importante |
 | **진짜 스타일리스트 같아요!** | ¡parecen estilistas de verdad! (otra vez ___ 같아요 con sustantivo) |
 
 **A pedido (no entran en el quiz: úsalas si las necesitas)**
@@ -425,7 +421,6 @@ El 한복 no quedó en el pasado. Hoy existe el **생활한복**, un 한복 mode
 
 **¿Y en tu país?** Piensa en el **chamanto** en Chile, el **huipil** en México y Guatemala, o la **pollera** en Panamá, en la costa de Colombia y en los Andes. En algunos lugares se usan todos los días; en otros, en fiestas patrias, bailes o matrimonios. Igual que el 한복, cuentan una historia con sus colores.
 
-**Y al día siguiente, en Corea, es el 수능.** El jueves 19 de noviembre, cientos de miles de estudiantes rinden en Corea el gran examen de ingreso a la universidad. El día anterior se les dice: **시험 잘 보세요!** (¡que te vaya bien!) y, entre amigos, **수능 대박!** (¡que te vaya increíble!). Si quieres saber por qué muchos evitan la sopa de algas (미역국) antes de un examen, lee (opcional) el artículo del blog de la academia: academiaseul.com/blog/sopa-de-algas-antes-de-un-examen-supersticion-coreana. *(El artículo es para público general y trae letras latinas: tú lee el 한글.)*
 
 **Tu frase para llevarte:** **한복을 입으러 경복궁에 가고 싶어요.**
 
@@ -433,7 +428,7 @@ El 한복 no quedó en el pasado. Hoy existe el **생활한복**, un 한복 mode
 
 ## 9. Tarea de la semana (≈ 28 minutos)
 
-**Plazo:** antes de la clase 7 · **martes 24 de noviembre, 21:00 (hora de Chile)** = miércoles 25, 09:00 en Corea. **Todo se entrega en el grupo de WhatsApp del curso.** Abby te devuelve la corrección por audio o texto en 48 horas.
+**Plazo:** antes de la clase 7 · **martes 1 de diciembre, 21:00 (hora de Chile)** = miércoles 2 de diciembre, 09:00 en Corea. **Todo se entrega en el grupo de WhatsApp del curso.** Abby te devuelve la corrección por audio o texto en 48 horas.
 
 **1 · Tu ropa o tu 한복 en 6–8 frases · 10 min** · escritas en 한글, en el grupo
 Describe tu ropa favorita o un 한복 que te gustaría usar: **colores, estampado, cómo se ve y con qué combina**.
@@ -456,11 +451,11 @@ La semana que viene el tema es **PC방 y e-sports** (¡no hace falta ser gamer!)
 - [ ] Link de un 한복 + 3 colores y 2 adjetivos en 한글
 
 > **📌 Tu evaluación final: guarda estas fechas**
-> El programa decía "sorteo del domingo 22". **La fecha correcta es el domingo 29 de noviembre**, para que el módulo de la semana 7 (PC방 y e-sports) también entre en el sorteo.
-> - **Domingo 29 de noviembre, 12:00 (hora de Chile):** Jay sortea en el grupo un tema para cada uno (K-pop · viajes · comida · 한복 · e-sports).
-> - **Hasta el domingo 29, 22:00:** tu autopresentación "antes y después" (2–3 minutos), junto con tu audio de la semana 1.
-> - **Hasta el lunes 30 de noviembre, 22:00:** tu monólogo de 2 minutos sobre el tema que te toque, sin leer.
-> - **Martes 1 de diciembre, 21:00:** clase 8, role play en parejas con Abby.
+> El programa decía "sorteo del domingo 22". **La fecha correcta es el domingo 6 de diciembre**, para que el módulo de la semana 7 (PC방 y e-sports) también entre en el sorteo.
+> - **Domingo 6 de diciembre, 12:00 (hora de Chile):** Jay sortea en el grupo un tema para cada uno (K-pop · viajes · comida · 한복 · e-sports).
+> - **Hasta el domingo 6 de diciembre, 22:00:** tu autopresentación "antes y después" (2–3 minutos), junto con tu audio de la semana 1.
+> - **Hasta el lunes 7 de diciembre, 22:00:** tu monólogo de 2 minutos sobre el tema que te toque, sin leer.
+> - **Martes 8 de diciembre, 21:00 [por confirmar]:** clase 8, role play en parejas con Abby.
 > En la clase 7 te damos todo lo demás: parejas, las 2 tarjetas de role play y las reglas.
 
 **La clase 7 empieza con el quiz 6:** 5 preguntas sobre esta semana: cómo se ve algo (보여요), tu opinión (것 같아요), adjetivo + sustantivo (편한 옷), los colores y una lectura cortita estilo TOPIK I. Los ejercicios 1–5 y 8 de la sección 6 son tu mejor repaso.
@@ -480,7 +475,6 @@ La semana que viene el tema es **PC방 y e-sports** (¡no hace falta ser gamer!)
 - [ ] Comparo y matizo: **전통 한복이 생활한복보다 더 화려해요. 예쁘지만 좀 불편해요.**
 - [ ] Digo que algo queda bien: **파란색 치마가 잘 어울려요.**
 - [ ] Opino sin generalizar: **한국에서는 ___ 것 같아요. 그렇지만 사람마다 달라요.**
-- [ ] Sé qué decirle a alguien que rinde el 수능: **시험 잘 보세요! 수능 대박!**
 
 **Tus 3 frases de la semana** (escúchalas y repítelas encima del audio, 1 minuto al día):
 > **이 한복은 편해 보여요.** [🔊](https://www.academiaseul.com/audio/kr/ec9db420ed959cebb3b5ec9d8020ed8eb8ed95b420ebb3b4ec97acec9a94.mp3)
@@ -489,4 +483,4 @@ La semana que viene el tema es **PC방 y e-sports** (¡no hace falta ser gamer!)
 
 *Cuando esté en la carpeta, escucha también el clip de la clase: son las mismas 3 frases, con la voz de Abby y del grupo.*
 
-**Tu mochila hasta hoy:** 21 palabras de la semana (algunas ya las conocías) y 7 para reconocer · 3 estructuras nuevas (보여요 para lo que ves · 것 같아요 para lo que piensas · el adjetivo delante del sustantivo) · los cinco colores del 오방색 · la frase para opinar sin generalizar · y un 수능 대박! para tus amigos coreanos. Hace seis semanas te presentabas; hoy ya das tu opinión con matices. 화이팅! 🐯
+**Tu mochila hasta hoy:** 21 palabras de la semana (algunas ya las conocías) y 4 para reconocer · 3 estructuras nuevas (보여요 para lo que ves · 것 같아요 para lo que piensas · el adjetivo delante del sustantivo) · los cinco colores del 오방색 · y la frase para opinar sin generalizar. Hace seis semanas te presentabas; hoy ya das tu opinión con matices. 화이팅! 🐯

@@ -3,12 +3,12 @@ Academia Seúl · Programa público · VERSIÓN A (sitio web)
 Curso: Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · cohorte octubre 2026
 Contenido semana a semana: Programa_Completo_Octubre_2026/fuente/cursos_es.json (a11), el mismo syllabus que ya está publicado y entregado a Kiran.
 Horario, profesora, cupo y precio: lib/nivel1.ts. Políticas: components/FAQ.tsx, app/terminos/page.tsx, textos_generales.js.
-Redactado el 26 sept 2026. Lo marcado "Confirmar con Academia Seúl" espera la decisión de Jay antes de publicarse tal cual.
+Redactado el 26 sept 2026; fechas al día con el calendario corrido una semana (decisión de Jay, 12 oct 2026) el 16 oct 2026. Lo marcado "Confirmar con Academia Seúl" espera la decisión de Jay antes de publicarse tal cual.
 -->
 
 ## 🌱 Básico 1 — A1.1 · Primeras Palabras · 첫 한국어
 
-**Martes 20:00 o jueves 20:00 (hora de Chile) · con Kiran · desde el martes 13 o el jueves 15 de octubre de 2026 · 8 semanas · online en vivo por Zoom**
+**Martes 20:00 o jueves 20:00 (hora de Chile) · con Kiran · desde el martes 20 o el jueves 22 de octubre de 2026 · 8 semanas · online en vivo por Zoom**
 
 ### De no reconocer ni una letra a presentarte en coreano: 8 semanas para leer 한글 y decir tus primeras frases reales.
 
@@ -55,14 +55,14 @@ Este curso es para ti si:
 
 | Semana | Tema | ¿Qué aprenderás? |
 |---|---|---|
-| **1** · mar 13 / jue 15 oct | 가나다라 I · La sílaba | Conoces las 10 vocales básicas y las 14 consonantes simples, y entiendes cómo se arma una sílaba coreana: la vocal va a la derecha (가) o debajo (고). Lees tus primeras palabras: 나무 (árbol), 바다 (mar), 우유 (leche), 어머니 (madre). **Practicarás:** leer en voz alta con corrección uno a uno (sobre todo ㅓ y ㅡ, dos sonidos que no existen en español) y armar sílabas en parejas, en las que uno dicta y el otro escribe y lee. |
-| **2** · mar 20 / jue 22 oct | 가나다라 II + 안녕하세요 | Completas el alfabeto con la consonante final (받침) de palabras como 한국, 김치 y 밥, las consonantes dobles (ㄲ ㄸ ㅃ ㅆ ㅉ) y las vocales compuestas más usadas. Saludas, te despides y te presentas con tu nombre y tu país: 저는 ___이에요/예요. 저는 칠레 사람이에요. **Practicarás:** una ronda de presentaciones con cámara y un role play de encuentro y despedida, en el que eliges entre 안녕히 가세요 y 안녕히 계세요. |
-| **3** · mar 27 / jue 29 oct | 이게 뭐예요? · ¿Qué es esto? | Preguntas y respondes qué es cualquier objeto, eligiendo entre "esto", "eso" y "aquello" (이거, 그거, 저거) según dónde está. Dices sí o no y lo que algo no es: 네, 빵이에요 · 아니요, 빵이 아니에요. **Practicarás:** mostrar objetos de tu casa a la cámara mientras el grupo te pregunta 이게 뭐예요? |
-| **4** · mar 3 / jue 5 nov | 우리 엄마예요 · Mi familia | Presentas a tu familia con una foto (이 사람은 우리 엄마예요) y preguntas quién es alguien: 누구예요? Cuentas del 1 al 100, dictas tu teléfono y dices cuántos son en tu familia: 우리 가족은 네 명이에요. **Practicarás:** un álbum familiar en vivo y un bingo de números. |
-| **5** · mar 10 / jue 12 nov | 집이 어디예요? · Lugares | Dices dónde vives (집이 어디예요? — 산티아고예요) y dónde están las cosas: 책이 책상 위에 있어요. Preguntas por lugares de la ciudad: 화장실이 어디예요? **Practicarás:** describir tu escritorio para que el grupo lo dibuje y dar indicaciones sobre un plano. |
-| **6** · mar 17 / jue 19 nov | 학교에 가요 · Mi día | Conjugas tus primeros verbos en presente (가요, 먹어요, 마셔요, 공부해요) y cuentas a dónde vas y qué haces cada día: 매일 회사에 가요. 오늘 운동해요. **Practicarás:** "mi día en 5 frases" en parejas y contarle al grupo el día de tu compañero o compañera. |
-| **7** · mar 24 / jue 26 nov | Mi pieza y mis verbos | Describes tu pieza (tu habitación) con "hay" y "no hay": 방에 침대가 있어요 · 텔레비전은 없어요. Dices qué haces con las cosas: 책을 읽어요 · 음악을 들어요 · 그림을 그려요. **Practicarás:** un tour de tu pieza por cámara y mímica de verbos en parejas. Esta semana escribes el guion de tu mini-presentación final y te lo devolvemos corregido. |
-| **8** · mar 1 / jue 3 dic | 사과를 좋아해요 + examen | Dices qué te gusta y qué no: 김치를 좋아해요? — 네, 정말 좋아해요 / 아니요, 안 좋아해요. Repasas todo el curso y presentas "Yo en coreano", 1 a 2 minutos sobre ti sin leer. Antes de esta clase rindes un examen escrito corto en línea. **Practicarás:** una encuesta de gustos en parejas y tu mini-presentación final, con una pregunta del grupo. |
+| **1** · mar 20 / jue 22 oct | 가나다라 I · La sílaba | Conoces las 10 vocales básicas y las 14 consonantes simples, y entiendes cómo se arma una sílaba coreana: la vocal va a la derecha (가) o debajo (고). Lees tus primeras palabras: 나무 (árbol), 바다 (mar), 우유 (leche), 어머니 (madre). **Practicarás:** leer en voz alta con corrección uno a uno (sobre todo ㅓ y ㅡ, dos sonidos que no existen en español) y armar sílabas en parejas, en las que uno dicta y el otro escribe y lee. |
+| **2** · mar 27 / jue 29 oct | 가나다라 II + 안녕하세요 | Completas el alfabeto con la consonante final (받침) de palabras como 한국, 김치 y 밥, las consonantes dobles (ㄲ ㄸ ㅃ ㅆ ㅉ) y las vocales compuestas más usadas. Saludas, te despides y te presentas con tu nombre y tu país: 저는 ___이에요/예요. 저는 칠레 사람이에요. **Practicarás:** una ronda de presentaciones con cámara y un role play de encuentro y despedida, en el que eliges entre 안녕히 가세요 y 안녕히 계세요. |
+| **3** · mar 3 / jue 5 nov | 이게 뭐예요? · ¿Qué es esto? | Preguntas y respondes qué es cualquier objeto, eligiendo entre "esto", "eso" y "aquello" (이거, 그거, 저거) según dónde está. Dices sí o no y lo que algo no es: 네, 빵이에요 · 아니요, 빵이 아니에요. **Practicarás:** mostrar objetos de tu casa a la cámara mientras el grupo te pregunta 이게 뭐예요? |
+| **4** · mar 10 / jue 12 nov | 우리 엄마예요 · Mi familia | Presentas a tu familia con una foto (이 사람은 우리 엄마예요) y preguntas quién es alguien: 누구예요? Cuentas del 1 al 100, dictas tu teléfono y dices cuántos son en tu familia: 우리 가족은 네 명이에요. **Practicarás:** un álbum familiar en vivo y un bingo de números. |
+| **5** · mar 17 / jue 19 nov | 집이 어디예요? · Lugares | Dices dónde vives (집이 어디예요? — 산티아고예요) y dónde están las cosas: 책이 책상 위에 있어요. Preguntas por lugares de la ciudad: 화장실이 어디예요? **Practicarás:** describir tu escritorio para que el grupo lo dibuje y dar indicaciones sobre un plano. |
+| **6** · mar 24 / jue 26 nov | 학교에 가요 · Mi día | Conjugas tus primeros verbos en presente (가요, 먹어요, 마셔요, 공부해요) y cuentas a dónde vas y qué haces cada día: 매일 회사에 가요. 오늘 운동해요. **Practicarás:** "mi día en 5 frases" en parejas y contarle al grupo el día de tu compañero o compañera. |
+| **7** · mar 1 / jue 3 dic | Mi pieza y mis verbos | Describes tu pieza (tu habitación) con "hay" y "no hay": 방에 침대가 있어요 · 텔레비전은 없어요. Dices qué haces con las cosas: 책을 읽어요 · 음악을 들어요 · 그림을 그려요. **Practicarás:** un tour de tu pieza por cámara y mímica de verbos en parejas. Esta semana escribes el guion de tu mini-presentación final y te lo devolvemos corregido. |
+| **8** · mar 8 dic [por confirmar] / jue 10 dic | 사과를 좋아해요 + examen | Dices qué te gusta y qué no: 김치를 좋아해요? — 네, 정말 좋아해요 / 아니요, 안 좋아해요. Repasas todo el curso y presentas "Yo en coreano", 1 a 2 minutos sobre ti sin leer. Antes de esta clase rindes un examen escrito corto en línea. **Practicarás:** una encuesta de gustos en parejas y tu mini-presentación final, con una pregunta del grupo. |
 
 ---
 
@@ -137,15 +137,17 @@ La romanización (el coreano escrito con letras latinas) solo te acompaña los p
 |---|---|---|
 | **Día** | Martes | Jueves |
 | **Hora** | 20:00 a 21:00, hora de Chile (Santiago) | 20:00 a 21:00, hora de Chile (Santiago) |
-| **Fecha de inicio** | Martes 13 de octubre de 2026 | Jueves 15 de octubre de 2026 |
-| **Las 8 clases** | 13, 20 y 27 de octubre · 3, 10, 17 y 24 de noviembre · 1 de diciembre | 15, 22 y 29 de octubre · 5, 12, 19 y 26 de noviembre · 3 de diciembre |
+| **Fecha de inicio** | Martes 20 de octubre de 2026 | Jueves 22 de octubre de 2026 |
+| **Las 8 clases** | 20 y 27 de octubre · 3, 10, 17 y 24 de noviembre · 1 y 8 de diciembre [por confirmar] | 22 y 29 de octubre · 5, 12, 19 y 26 de noviembre · 3 y 10 de diciembre |
 | **Duración** | 8 semanas · 8 clases de 60 minutos | 8 semanas · 8 clases de 60 minutos |
 | **Profesora** | **Kiran (기란)** | **Kiran (기란)** |
-| **Cierre de matrícula** | Domingo 11 de octubre (o antes, si se completan los cupos) | Domingo 11 de octubre (o antes, si se completan los cupos) |
+| **Cierre de matrícula** | Domingo 18 de octubre (o antes, si se completan los cupos) | Domingo 18 de octubre (o antes, si se completan los cupos) |
 
 **Kiran (기란)** es una profesora coreana que se crió en Argentina. Es bilingüe en coreano y español y lleva años enseñando coreano a hispanohablantes.
 
 Las dos secciones siguen **el mismo programa**, semana a semana. Eliges una.
+
+El martes 8 de diciembre es feriado en Chile: la fecha de la última clase de la sección martes está **[por confirmar]** y te la avisamos con tiempo.
 
 **¿Qué hora es en tu país?** (20:00 en Chile, que se mantiene en UTC−3 durante todo el curso)
 
@@ -167,7 +169,7 @@ Las clases son 100 % online, así que puedes conectarte desde cualquier país de
 **US$150 el curso completo · o 2 cuotas de US$75**
 
 - **Pago único:** US$150 por las 8 semanas.
-- **En 2 cuotas:** pagas la primera, de US$75, al inscribirte, y la segunda, de US$75, antes de tu clase 5 (martes 10 o jueves 12 de noviembre, según tu sección).
+- **En 2 cuotas:** pagas la primera, de US$75, al inscribirte, y la segunda, de US$75, antes de tu clase 5 (martes 17 o jueves 19 de noviembre, según tu sección).
 - **Formas de pago:** transferencia bancaria en Chile (sin comisión), Mercado Pago con tarjeta o transferencia (se cobra en pesos chilenos) y PayPal en dólares, también con tarjeta.
 - Tu cupo queda confirmado cuando recibimos el pago completo o la primera cuota. Te avisamos apenas lo registramos.
 - Los detalles de pagos, cambios y reembolsos están en [academiaseul.com/terminos](https://www.academiaseul.com/terminos).
@@ -198,13 +200,13 @@ Tu experiencia Academia Seúl incluye:
 
 ### 👥 Cupos
 
-**Máximo 15 estudiantes por sección**, para que todos hablen en cada clase y reciban corrección personal. Martes y jueves son dos grupos distintos, cada uno con su propio cupo. Los cupos se asignan por orden de inscripción, y la matrícula cierra el domingo 11 de octubre, o antes si se completa el grupo.
+**Máximo 15 estudiantes por sección**, para que todos hablen en cada clase y reciban corrección personal. Martes y jueves son dos grupos distintos, cada uno con su propio cupo. Los cupos se asignan por orden de inscripción, y la matrícula cierra el domingo 18 de octubre, o antes si se completa el grupo.
 
 ---
 
 ### 📜 Certificado
 
-Al completar el curso recibes el **certificado digital de Academia Seúl · Básico 1 (A1.1)**. Se entrega la semana del 7 de diciembre de 2026.
+Al completar el curso recibes el **certificado digital de Academia Seúl · Básico 1 (A1.1)**. Se entrega la semana del 14 de diciembre de 2026.
 
 - Para otorgarlo se consideran tu **asistencia** y tu **participación** a lo largo del curso. Los requisitos exactos (asistencia mínima y nota): **Confirmar con Academia Seúl.**
 - Con este certificado puedes pasar directo a **Básico 2 (A1.2)**, el siguiente paso de la escalera.
@@ -241,7 +243,7 @@ Tu siguiente paso es **Básico 2 (A1.2)**, donde pasas del presente al pasado y 
 
 ---
 
-**¿Nos vemos el martes 13 o el jueves 15?** Inscríbete en [academiaseul.com/nivel-1?clase=a11-martes](https://www.academiaseul.com/nivel-1?clase=a11-martes) o [academiaseul.com/nivel-1?clase=a11-jueves](https://www.academiaseul.com/nivel-1?clase=a11-jueves) · ¿Dudas? WhatsApp **+56 9 4211 5562**. 화이팅!
+**¿Nos vemos el martes 20 o el jueves 22?** Inscríbete en [academiaseul.com/nivel-1?clase=a11-martes](https://www.academiaseul.com/nivel-1?clase=a11-martes) o [academiaseul.com/nivel-1?clase=a11-jueves](https://www.academiaseul.com/nivel-1?clase=a11-jueves) · ¿Dudas? WhatsApp **+56 9 4211 5562**. 화이팅!
 
 <!--
 PENDIENTE ANTES DE PUBLICAR (no visible en la página):
@@ -250,10 +252,11 @@ PENDIENTE ANTES DE PUBLICAR (no visible en la página):
 3. Libro 한글학교 한국어 1: ¿el alumno debe tener su ejemplar o basta con las slides y hojas en PDF?
 4. Retiro antes del inicio de la cohorte: los términos no lo cubren.
 5. ✅ Resuelto el 26 sept 2026: lib/nivel1.ts (/programa), el PDF público de Básico 1 y la lámina del boletín ya dicen "Contar del 1 al 100 y decir cuántos son en tu familia"; la hora se ve en Básico 2.
-6. Fecha de entrega del certificado: el PDF de Básico 1 dice "en la última clase (o por correo esa misma semana)", mientras que cursos_es.json, textos_generales y la Guía del Alumno dicen "semana / lunes 7 de diciembre". Aquí dice "semana del 7 de diciembre", igual que en Básico 2.
+6. Fecha de entrega del certificado: el PDF de Básico 1 dice "en la última clase (o por correo esa misma semana)", mientras que cursos_es.json, textos_generales y la Guía del Alumno dicen "semana / lunes 7 de diciembre". Aquí dice "semana del 14 de diciembre" (antes "semana del 7"; la cohorte se corrió una semana el 12 oct 2026), igual que en Básico 2.
 7. PayPal "tarjeta sin cuenta" sigue en los pendientes de Jay (activar "Cuenta de PayPal opcional"). Aquí solo dice "también con tarjeta". Mercado Pago en 2 cuotas: MP_LINK_MENSUAL está vacío y depende del checkout dinámico (MP_ACCESS_TOKEN en Netlify).
 8. Flashcards digitales (semanas 4–8) y guía de pronunciación: están en la lista de materiales de a11. La guía existe (public/pronunciacion-coreana-academia-seul.pdf). Las flashcards existen del curso de julio (A1_Nivel_1/Flashcards_Coreano_A1.html). Confirmar que estén en la carpeta del curso de octubre.
 9. Emojis (revisión del 26 sept): los que se ven rojos (bandera, diana, muñecas, regalo, signo de pregunta, libros, calendario) se cambiaron en las 7 páginas por 🙋 · ✏️ · 📘 · 🌏 · 🕗 · ✅ · ❔, por la regla "nunca rojo en documentos".
 10. ✅ El PDF público (https://www.academiaseul.com/programas/Programa_Basico1_Octubre_2026.pdf) ya coincide con este programa (26 sept 2026): se puede volver a enlazar.
 11. Carga de trabajo: cursos_es.json (a11) no fija horas semanales (Básico 2 sí: unas 2 horas). Aquí se describen las tres tareas sin cifra de tiempo.
+12. Calendario corrido una semana (16 oct 2026): la última clase de la sección martes cae el martes 8 de diciembre, feriado en Chile; aquí va "[por confirmar]" hasta que Jay decida si se mantiene online o se recupera. La cuota 2 queda antes de la clase 5 (mar 17 / jue 19 nov).
 -->

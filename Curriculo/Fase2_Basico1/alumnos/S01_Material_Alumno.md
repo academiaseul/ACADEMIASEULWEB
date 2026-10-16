@@ -1,6 +1,6 @@
 # Semana 1 · 가나다라 I · La sílaba
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 13 de octubre · Sección jueves: jueves 15 de octubre · 20:00 (hora de Chile) · Libro: 가나다라 I (Hangul, parte 1)**
+**Sección martes: martes 20 de octubre · Sección jueves: jueves 22 de octubre · 20:00 (hora de Chile) · Libro: 가나다라 I (Hangul, parte 1)**
 
 > **Durante la clase** vas a usar la **sección 7 (tarjeta de sala)**: tenla abierta **antes** de entrar a tu sala de Zoom, porque el chat de la sala es otro y ahí no vas a ver lo que Kiran pegó en el chat general. Todo lo demás es para después: repasar, hacer la tarea y llegar con ventaja a la clase 2.
 
@@ -320,7 +320,7 @@ En **1443**, el rey **Sejong (세종)** creó un alfabeto nuevo y en **1446** lo
 
 Por eso el 한글 es tan lógico: **las consonantes son retratos de la boca** (ya comprobaste ㄴ y ㅁ con la tuya) y **las vocales combinan cielo, tierra y persona**. No es un dibujo que se memoriza: es un sistema que se entiende.
 
-**Llegaste en buena semana:** hace unos días, el **9 de octubre**, Corea del Sur celebró **한글날**, el día del alfabeto, que es feriado nacional. ¿Sabías que cuando se celebró por primera vez, en 1926, se llamaba **가갸날**? El nombre venía de **가 갸 거 겨 고 교 구 규 그 기**, la cantinela con la que se aprendía a leer. En 1928 pasó a llamarse 한글날, y la fecha del 9 de octubre se fijó recién en 1945.
+**Llegaste en buen momento:** este mes, el **9 de octubre**, Corea del Sur celebró **한글날**, el día del alfabeto, que es feriado nacional. ¿Sabías que cuando se celebró por primera vez, en 1926, se llamaba **가갸날**? El nombre venía de **가 갸 거 겨 고 교 구 규 그 기**, la cantinela con la que se aprendía a leer. En 1928 pasó a llamarse 한글날, y la fecha del 9 de octubre se fijó recién en 1945.
 
 **Un puente con nuestra infancia:** muchos aprendimos a leer con un silabario (el *Silabario Hispanoamericano* en Chile, *Coquito* en Perú… ¿cuál fue el tuyo?) y su "ma, me, mi, mo, mu". El 가갸거겨 es exactamente eso: el coreano también se aprende **por sílabas**. Cuando alguien en Corea dice **가나다라**, lo usa como nosotros decimos "el abecé".
 
@@ -330,7 +330,7 @@ Por eso el 한글 es tan lógico: **las consonantes son retratos de la boca** (y
 
 ## 9. Tarea de la semana (≈ 30 minutos)
 
-**Plazo:** antes de tu clase 2 · **sección martes: mar 20 de octubre, 20:00** · **sección jueves: jue 22 de octubre, 20:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso.
+**Plazo:** antes de tu clase 2 · **sección martes: mar 27 de octubre, 20:00** · **sección jueves: jue 29 de octubre, 20:00** (hora de Chile). Todo se entrega en el grupo de WhatsApp del curso.
 
 **1 · Lector de Hangul · 10 min** · academiaseul.com/lector-coreano
 1. **Alfabeto** → toca "Las 21 vocales" y "Las 19 consonantes" y escucha cada cuadro (atajo: el botón **▶ Escuchar todas en orden**, y repites en voz alta cada una). Hoy vimos 10 vocales y 14 consonantes; las demás son de la semana 2: escúchalas sin presión.

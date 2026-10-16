@@ -1,6 +1,6 @@
 # Semana 6 · 학교에 가요 · Mi día
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 17 de noviembre · Sección jueves: jueves 19 de noviembre · 20:00 (hora de Chile) · Libro: lección 6**
+**Sección martes: martes 24 de noviembre · Sección jueves: jueves 26 de noviembre · 20:00 (hora de Chile) · Libro: lección 6**
 
 Hasta ahora dijiste qué **es** algo (책이에요), quién **es** alguien (우리 엄마예요) y dónde **está** (책상 위에 있어요). Esta semana empiezas a decir qué **haces**: a dónde vas, qué tomas, qué estudias. Llegan tus primeros verbos. 화이팅!
 
@@ -362,7 +362,7 @@ En Corea, muchos estudiantes van al **학원** [하권] después del colegio: ac
 
 ## 9. Tarea de la semana (≈ 28 minutos · antes de tu clase 7)
 
-**Entrega:** sección martes, antes del **martes 24 de noviembre, 20:00** · sección jueves, antes del **jueves 26 de noviembre, 20:00** (hora de Chile), en el grupo de WhatsApp del curso.
+**Entrega:** sección martes, antes del **martes 1 de diciembre, 20:00** · sección jueves, antes del **jueves 3 de diciembre, 20:00** (hora de Chile), en el grupo de WhatsApp del curso.
 
 | # | Qué | Dónde, exactamente | Tiempo | Qué entregas |
 |---|---|---|---|---|

@@ -4,6 +4,8 @@
 // Estilo de la casa: US Letter, Arial (+ Malgun Gothic para el coreano), azul #4236F6, navy #003478. Nunca rojo.
 // Uso: cd <scratchpad> && node curriculo/make_hoja_resumen.js
 // Salida: Curriculo/publico/Hoja_Resumen_Cursos_Octubre_2026.pdf (1 página) y .png (1632×2112, para WhatsApp).
+// 16 oct 2026: fechas al día con la cohorte corrida una semana (decisión de Jay, 12 oct): inicio la semana del 19,
+// cierre de matrícula dom 18 oct; Niños sin cambios (lun 19 oct → lun 7 dic). Copiar también a public/programas/.
 const fs = require("fs");
 const path = require("path");
 
@@ -29,25 +31,25 @@ const CURSOS = [
     nivel: "A1.1", nombre: "Básico 1", sub: "Primeras Palabras", kr: "첫 한국어", color: "#4236F6",
     para: "Nunca has estudiado coreano.",
     logros: ["Leer Hangul (한글), el alfabeto coreano", "Presentarte y presentar a tu familia", "Contar tu día y lo que te gusta"],
-    horario: "Mar <span style=\"font-weight:normal\">o</span> jue 20:00", who: "con Kiran · desde mar 13 o jue 15 oct", nota: "Mismo curso: eliges el día",
+    horario: "Mar <span style=\"font-weight:normal\">o</span> jue 20:00", who: "con Kiran · desde mar 20 o jue 22 oct", nota: "Mismo curso: eliges el día",
   },
   {
     nivel: "A1.2", nombre: "Básico 2", sub: "Pasado, presente y futuro", kr: "기초 한국어 2", color: "#2F62D9",
     para: "Ya lees Hangul y te presentas.",
     logros: ["Contar tu fin de semana y tus planes", "Decir la hora, tu edad y tu teléfono", "Conversar unos 5 minutos"],
-    horario: "Mié 21:00", who: "con Jay · desde el 14 oct", nota: "Sigue a Básico 1 (= Nivel 1 de julio)",
+    horario: "Mié 21:00", who: "con Jay · desde el 21 oct", nota: "Sigue a Básico 1 (= Nivel 1 de julio)",
   },
   {
     nivel: "A2.1", nombre: "Conversacional 1", sub: "Corea que amas", kr: "회화 A2.1", color: "#0B7F86",
     para: "Usas pasado y futuro, pero te cuesta conversar.",
     logros: ["Conversar de K-pop, viajes y comida", "Pedir en un restaurante coreano", "Dar tu opinión con matices"],
-    horario: "Mar 21:00", who: "con Abby (vive en Corea) · desde el 13 oct", nota: "Clase en coreano",
+    horario: "Mar 21:00", who: "con Abby (vive en Corea) · desde el 20 oct", nota: "Clase en coreano",
   },
   {
     nivel: "B1+", nombre: "TOPIK II", sub: "Estrategia de examen", kr: "토픽 II 준비반", color: "#003478",
     para: "Tienes nivel intermedio y vas por el TOPIK II.",
     logros: ["Un simulacro completo con cronómetro", "쓰기 51–54 con corrección personal", "Tu plan de estudio hasta el examen"],
-    horario: "Jue 21:00", who: "con Jay · desde el 15 oct", nota: "Máx. 8 personas",
+    horario: "Jue 21:00", who: "con Jay · desde el 22 oct", nota: "Máx. 8 personas",
   },
   {
     nivel: "8–15 años", nombre: "Coreano para Niños", sub: "Juega y aprende", kr: "어린이 한국어", color: "#6A4BD8",
@@ -199,7 +201,7 @@ async function main() {
     <img class="logo" src="${LOGO_BLANCO}" alt="Academia Seúl">
     <h1>Cursos de coreano en vivo</h1>
     <p class="lead">Octubre 2026 · desde cero hasta TOPIK II · adultos y niños (8–15)<br>Profes coreanos, clases pensadas para hispanohablantes. <span class="kr">같이 배워요!</span></p>
-    </div><div class="badge"><div class="k">INICIO</div><div class="v">Semana del 12 de octubre</div><div class="s">Niños: lunes 19 de octubre</div></div></div>
+    </div><div class="badge"><div class="k">INICIO</div><div class="v">Semana del 19 de octubre</div><div class="s">Niños: lunes 19 · fin: semana del 7 dic</div></div></div>
   </header>
 
   <section class="facts">
@@ -237,7 +239,7 @@ async function main() {
             <a class="wa" href="${URL_WHATSAPP}">¿Dudas? WhatsApp <b>+56 9 4211 5562</b></a>
           </div>
         </div>
-        <div class="cierre">Cierre: dom 11 oct, o antes si se llenan los cupos</div>
+        <div class="cierre">Cierre: dom 18 oct, o antes si se llenan los cupos</div>
       </div>
     </div>
   </main>

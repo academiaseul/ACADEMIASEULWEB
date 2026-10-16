@@ -1,6 +1,6 @@
 # Semana 5 · 쓰기 53 · Describir un gráfico · 그래프를 글로
 ### TOPIK II (B1+) · Estrategia de examen · 토픽 II 준비반 · con Jay (김재희 선생님)
-**Jueves 12 de noviembre · 21:00 (hora de Chile) · Cuaderno de estrategia · semana 5 de 8**
+**Jueves 19 de noviembre · 21:00 (hora de Chile) · Cuaderno de estrategia · semana 5 de 8**
 
 > **Para la clase ten a mano:** la **sección 7** de este cuaderno, el **원고지 de la casa impreso** (o un cuaderno cuadriculado de 20 cuadros por línea, con la línea 10 marcada), **lápiz** y tu **cronómetro**. Hoy escribes un 53 completo contra el reloj.
 > **Los 🔊** abren el audio de cada palabra y de cada frase clave, con voz coreana. Si alguno no abre, avísale a Jay en el grupo.
@@ -460,7 +460,7 @@ Y aquí está la clave cultural del 53: **se describe, no se opina.** Igual que 
 
 ## 9. Tarea de la semana (≈ 40 minutos)
 
-**Plazos:** para recibir tu corrección el martes: **lunes 16 de noviembre, 22:00 (hora de Chile)**. Para que cuente en la nota: antes de la clase 6 (jueves 19, 21:00).
+**Plazos:** para recibir tu corrección el martes: **lunes 23 de noviembre, 22:00 (hora de Chile)**. Para que cuente en la nota: antes de la clase 6 (jueves 26, 21:00).
 **Dónde:** los 53 y el esqueleto, al **chat privado con Jay**; el audio y el gráfico real, al **grupo del curso**.
 
 **Núcleo (cuenta para la nota)**
@@ -481,7 +481,7 @@ Las **4 frases de la sección 1, de memoria**, al grupo. Primero ensaya con el t
 **Puente a la clase 6 · 5 min**
 Descarga el **Examen D completo** (읽기 y 듣기, con el **MP3**, el **대본** y la **clave**) y lee **solo los enunciados (지시문) de 읽기 21–50**. Marca con lápiz los que te parecen "rápidos". **No los resuelvas**: la semana 6 es la de las preguntas difíciles y el triaje (qué respondo ahora, qué dejo para después). La **hoja de triaje** va en la sección 9 del cuaderno de la semana 6: descárgala junto con él y tenla a mano para la tarea de esa semana.
 
-**Meta 4–5 (si esa es tu meta: Jay te lo confirmó en tu corrección del martes 10) · 10 min**
+**Meta 4–5 (si esa es tu meta: Jay te lo confirmó en tu corrección del martes 17) · 10 min**
 **Esqueleto del 54 del Examen C** → mismo chat privado, mismo plazo:
 1. **서론** de 2 frases, en 한다체 (por ejemplo: 최근 ___이/가 늘고 있다. · ___은/는 우리 사회의 중요한 문제이다.).
 2. **Tres ideas en viñetas**, una por cada pregunta guía del tema, **en el mismo orden**.

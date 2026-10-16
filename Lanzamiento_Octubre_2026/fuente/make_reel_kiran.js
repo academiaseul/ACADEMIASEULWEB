@@ -35,12 +35,13 @@ const BASE = "body{margin:0;width:1080px;height:1920px;position:relative;overflo
   await render(`<div class="c" style="top:300px"><div class="wh" style="font-size:104px">KIRAN · 기란</div><br><div class="pill" style="font-size:44px;margin-top:16px">Profe de Básico 1 (A1.1)</div></div>`, "rotulo_2_nombre.png", true);
   // Rótulo 3 (9–15 s): horario
   await render(`<div class="c" style="top:300px"><div class="blk" style="font-size:66px">MARTES o JUEVES · 20:00</div><br><div class="pill" style="font-size:42px;margin-top:16px">hora Chile · 8 semanas · en vivo por Zoom</div></div>`, "rotulo_3_horario.png", true);
-  // Cierre (último 1,5 s, sobre fondo azul)
+  // Cierre (último 1,5 s, sobre fondo azul). Calendario corrido una semana (lun 12 oct 2026): sale como
+  // cierre_kiran_18.png; cierre_kiran.png (semana del 12 · domingo 11) es el del reel ya publicado en Instagram.
   await render(`<div style="position:absolute;inset:0;background:#4236F6"></div>
     <div style="position:absolute;left:50%;margin-left:-110px;top:470px;width:220px;color:#fff">${SELLO.replace("<svg", '<svg style="width:100%;height:auto"')}</div>
     <div class="c" style="top:780px;color:#fff;font-family:'Plus Jakarta Sans';font-weight:800;font-size:92px;line-height:1.1">Básico 1 con Kiran</div>
-    <div class="c" style="top:930px;color:#fff;font-size:48px;font-weight:600">empieza la semana del 12 de octubre</div>
-    <div class="c" style="top:1090px"><div class="wh" style="font-size:54px">Matrícula hasta el domingo 11</div></div>
-    <div class="c" style="top:1240px;color:#E8B84B;font-size:50px;font-weight:800">academiaseul.com/nivel-1</div>`, "cierre_kiran.png");
+    <div class="c" style="top:930px;color:#fff;font-size:48px;font-weight:600">empieza la semana del 19 de octubre</div>
+    <div class="c" style="top:1090px"><div class="wh" style="font-size:54px">Matrícula hasta el domingo 18</div></div>
+    <div class="c" style="top:1240px;color:#E8B84B;font-size:50px;font-weight:800">academiaseul.com/nivel-1</div>`, "cierre_kiran_18.png");
   await b.close(); console.log("ok");
 })();
