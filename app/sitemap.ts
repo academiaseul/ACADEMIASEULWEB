@@ -4,6 +4,7 @@ const BASE = 'https://www.academiaseul.com';
 // Fechas fijas: si cambian en cada build, Google ignora lastmod.
 const HOY = new Date('2026-09-22');
 const BLOG_30SEP = new Date('2026-09-30');
+const BLOG_15OCT = new Date('2026-10-15');
 const JUNIO = new Date('2026-06-07');
 const MAYO = new Date('2026-05-20');
 
@@ -18,7 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/sobre`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/recursos/guias`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE}/recursos/pronunciacion`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${BASE}/blog`, lastModified: BLOG_30SEP, changeFrequency: 'weekly', priority: 0.6 },
+    { url: `${BASE}/blog`, lastModified: BLOG_15OCT, changeFrequency: 'weekly', priority: 0.6 },
+    { url: `${BASE}/blog/como-escribir-tu-nombre-en-coreano`, lastModified: BLOG_15OCT, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE}/blog/frases-de-kdrama-en-coreano`, lastModified: BLOG_15OCT, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE}/blog/numeros-en-coreano-dos-sistemas`, lastModified: BLOG_15OCT, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE}/blog/pepero-day-11-de-noviembre-en-corea`, lastModified: BLOG_15OCT, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE}/blog/suneung-el-dia-que-corea-se-detiene`, lastModified: BLOG_15OCT, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${BASE}/blog/hangeulnal-el-dia-del-alfabeto-coreano`, lastModified: BLOG_30SEP, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${BASE}/blog/chuseok-el-dia-de-accion-de-gracias-coreano`, lastModified: BLOG_30SEP, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${BASE}/blog/como-se-pronuncia-seul-en-coreano`, lastModified: BLOG_30SEP, changeFrequency: 'monthly', priority: 0.5 },

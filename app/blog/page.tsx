@@ -18,6 +18,56 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "como-escribir-tu-nombre-en-coreano",
+    korean: "이름",
+    title: "Cómo se escribe tu nombre en coreano (y por qué Sofía se lee «Sopia»)",
+    excerpt:
+      "María es 마리아, José es 호세 y Valentina es 발렌티나: las reglas para escribir tu nombre en hangul (sílabas, 받침, la f, la v, la j y la e final), por qué a veces aparece de dos formas y cómo firmar con él.",
+    date: "15 de octubre, 2026",
+    readTime: "12 min",
+    tag: "Idioma",
+  },
+  {
+    slug: "frases-de-kdrama-en-coreano",
+    korean: "대박",
+    title: "15 frases que escuchas en todos los K-dramas (y qué significan de verdad)",
+    excerpt:
+      "대박, 진짜?, 괜찮아, 보고 싶어, 가지 마, 오빠, 화이팅 y ocho más: qué dicen literalmente, qué quieren decir de verdad, cuándo no usarlas (반말 vs. 존댓말) y su versión cortés para la vida real.",
+    date: "15 de octubre, 2026",
+    readTime: "10 min",
+    tag: "K-drama",
+  },
+  {
+    slug: "numeros-en-coreano-dos-sistemas",
+    korean: "하나 · 일",
+    title: "하나 o 일: por qué el coreano tiene dos sistemas de números (y cuándo usar cada uno)",
+    excerpt:
+      "세 시 삼십 분: la hora en números nativos y los minutos en sino-coreanos, en la misma frase. De dónde vienen 하나 y 일, cuándo se usa cada uno (hora, edad, plata, fechas, teléfono), por qué Corea cuenta de 만 en 만 y un mini-ejercicio con respuestas.",
+    date: "15 de octubre, 2026",
+    readTime: "10 min",
+    tag: "Idioma",
+  },
+  {
+    slug: "pepero-day-11-de-noviembre-en-corea",
+    korean: "빼빼로데이",
+    title: "Pepero Day (빼빼로데이): por qué en Corea se regalan palitos de chocolate cada 11 de noviembre",
+    excerpt:
+      "El 11/11 parece cuatro palitos, y Corea lo celebra con cajas de chocolate, canastos con peluche y críticos del «상술». Origen (con sus varias versiones), a quién se regala, el 가래떡데이 y cómo decir «ayer fue el Pepero Day» en coreano.",
+    date: "15 de octubre, 2026",
+    readTime: "10 min",
+    tag: "Mitos y fiestas",
+  },
+  {
+    slug: "suneung-el-dia-que-corea-se-detiene",
+    korean: "수능",
+    title: "수능: el día que Corea entera se detiene (y los aviones esperan)",
+    excerpt:
+      "Las oficinas entran a las diez, ningún avión despega durante el listening y a los estudiantes les regalan tenedores. Qué es el 수능 y cuándo es en 2026, sus supersticiones, la vida del 고3 y cómo decir 수능 대박.",
+    date: "15 de octubre, 2026",
+    readTime: "11 min",
+    tag: "Cultura y costumbres",
+  },
+  {
     slug: "hangeulnal-el-dia-del-alfabeto-coreano",
     korean: "한글날",
     title: "한글날: por qué Corea celebra su alfabeto cada 9 de octubre",
