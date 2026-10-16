@@ -3,112 +3,13 @@
 import { useState, useRef } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { nombreACoreano } from "@/lib/nombreCoreano";
 
-// ── Motor de transliteración español → Hangul (한글) ──
-const INIT = ["ㄱ","ㄲ","ㄴ","ㄷ","ㄸ","ㄹ","ㅁ","ㅂ","ㅃ","ㅅ","ㅆ","ㅇ","ㅈ","ㅉ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
-const MED = ["ㅏ","ㅐ","ㅑ","ㅒ","ㅓ","ㅔ","ㅕ","ㅖ","ㅗ","ㅘ","ㅙ","ㅚ","ㅛ","ㅜ","ㅝ","ㅞ","ㅟ","ㅠ","ㅡ","ㅢ","ㅣ"];
-const FIN = ["","ㄱ","ㄲ","ㄳ","ㄴ","ㄵ","ㄶ","ㄷ","ㄹ","ㄺ","ㄻ","ㄼ","ㄽ","ㄾ","ㄿ","ㅀ","ㅁ","ㅂ","ㅄ","ㅅ","ㅆ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
-
-function compose(i: string, m: string, f?: string): string {
-  const ii = INIT.indexOf(i), mm = MED.indexOf(m), ff = FIN.indexOf(f || "");
-  if (ii < 0 || mm < 0) return i + m;
-  return String.fromCharCode(0xac00 + (ii * 21 + mm) * 28 + (ff < 0 ? 0 : ff));
-}
-
-const VOW: Record<string, string> = { a: "ㅏ", e: "ㅔ", i: "ㅣ", o: "ㅗ", u: "ㅜ" };
-const IOT: Record<string, string> = { a: "ㅑ", e: "ㅖ", o: "ㅛ", u: "ㅠ", i: "ㅣ" };
-const CINIT: Record<string, string> = { b:"ㅂ", v:"ㅂ", d:"ㄷ", f:"ㅍ", j:"ㅎ", k:"ㅋ", m:"ㅁ", n:"ㄴ", p:"ㅍ", r:"ㄹ", s:"ㅅ", t:"ㅌ", z:"ㅅ", w:"ㅇ" };
-const CANFIN: Record<string, string> = { "ㄴ":"ㄴ", "ㅁ":"ㅁ", "ㄹ":"ㄹ", "ㅇ":"ㅇ" };
-
-type Tok = { k: string; init?: string; med?: string; n?: boolean; isL?: boolean };
-
-function strip(s: string): string {
-  return s.toLowerCase().normalize("NFD")
-    .replace(/[̀-̂̄-ͯ]/g, "")
-    .replace(/̃/g, "~");
-}
-
-function tokenize(w: string): Tok[] {
-  w = w.replace(/n~/g, "Ñ");
-  const t: Tok[] = [];
-  let i = 0;
-  while (i < w.length) {
-    const c = w[i], c2 = w.substr(i, 2);
-    if (c2 === "ch") { t.push({ k: "C", init: "ㅊ" }); i += 2; continue; }
-    if (c2 === "ll") { t.push({ k: "Y" }); i += 2; continue; }
-    if (c2 === "rr") { t.push({ k: "C", init: "ㄹ" }); i += 2; continue; }
-    if (c2 === "qu") { t.push({ k: "C", init: "ㅋ" }); i += 2; continue; }
-    if (c === "g") {
-      const n = w[i + 1];
-      if (n === "e" || n === "i") { t.push({ k: "C", init: "ㅎ" }); i++; continue; }
-      if (n === "u" && (w[i + 2] === "e" || w[i + 2] === "i")) { t.push({ k: "C", init: "ㄱ" }); i += 2; continue; }
-      t.push({ k: "C", init: "ㄱ" }); i++; continue;
-    }
-    if (c === "c") {
-      const n = w[i + 1];
-      if (n === "e" || n === "i") { t.push({ k: "C", init: "ㅅ" }); i++; continue; }
-      t.push({ k: "C", init: "ㅋ" }); i++; continue;
-    }
-    if (c === "Ñ") { t.push({ k: "Y", n: true }); i++; continue; }
-    if (c === "y") {
-      const n = w[i + 1];
-      if (n && "aeiou".includes(n)) { t.push({ k: "Y" }); i++; continue; }
-      t.push({ k: "V", med: "ㅣ" }); i++; continue;
-    }
-    if (c === "h") { i++; continue; }
-    if (c === "l") { t.push({ k: "C", init: "ㄹ", isL: true }); i++; continue; }
-    if (c === "x") { t.push({ k: "C", init: "ㅋ" }); t.push({ k: "X" }); i++; continue; }
-    if ("aeiou".includes(c)) { t.push({ k: "V", med: VOW[c] }); i++; continue; }
-    if (CINIT[c]) { t.push({ k: "C", init: CINIT[c] }); i++; continue; }
-    i++;
-  }
-  return t;
-}
-
-function transliterateWord(w: string): string {
-  const t = tokenize(w);
-  const out: string[] = [];
-  let p: { i: string; m?: string; f?: string } | null = null;
-  let i = 0;
-  const flush = () => { if (p) { if (!p.m) p.m = "ㅡ"; out.push(compose(p.i, p.m, p.f)); p = null; } };
-  while (i < t.length) {
-    const tok = t[i];
-    if (tok.k === "X") { flush(); out.push(compose("ㅅ", "ㅡ")); i++; continue; }
-    if (tok.k === "V") {
-      if (p && !p.m) { p.m = tok.med; } else { flush(); p = { i: "ㅇ", m: tok.med }; }
-      i++; continue;
-    }
-    if (tok.k === "Y") {
-      const nv = t[i + 1];
-      flush();
-      if (nv && nv.k === "V") {
-        const base = Object.keys(VOW).find((k) => VOW[k] === nv.med) || "a";
-        p = { i: tok.n ? "ㄴ" : "ㅇ", m: IOT[base] || nv.med! };
-        i += 2; continue;
-      }
-      p = { i: tok.n ? "ㄴ" : "ㅇ", m: "ㅣ" }; i++; continue;
-    }
-    // consonante
-    if (p && !p.m) { p.m = "ㅡ"; flush(); continue; }
-    const next = t[i + 1];
-    if (p && p.m) {
-      if (tok.isL && next && next.k === "V") { p.f = "ㄹ"; flush(); p = { i: "ㄹ" }; i++; continue; }
-      if (CANFIN[tok.init!] && (!next || next.k === "C" || next.k === "X")) { p.f = CANFIN[tok.init!]; flush(); i++; continue; }
-      flush(); p = { i: tok.init! }; i++; continue;
-    }
-    p = { i: tok.init! }; i++;
-  }
-  flush();
-  return out.join("");
-}
-
-function translate(s: string): string {
-  return strip(s).split(/(\s+)/).map((seg) => (/\s/.test(seg) ? seg : transliterateWord(seg))).join("");
-}
+// Motor de transliteración español → hangul: lib/nombreCoreano.ts (norma oficial del 국립국어원)
 
 export default function GeneradorNombre() {
   const [input, setInput] = useState("");
-  const out = translate(input);
+  const out = nombreACoreano(input);
   const cardRef = useRef<HTMLDivElement>(null);
 
   const speak = () => {

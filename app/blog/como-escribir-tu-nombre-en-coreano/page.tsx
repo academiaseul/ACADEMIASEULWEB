@@ -163,7 +163,7 @@ const vocabulario = [
 const faqs = [
   {
     q: "¿Cómo se escribe mi nombre en coreano?",
-    a: "Por cómo suena, sílaba por sílaba. Cada sílaba es un bloque de hangul: María es 마리아, José es 호세, Camila es 카밀라 y Valentina es 발렌티나. Las letras que no existen en coreano tienen reemplazo fijo: la f es ㅍ, la v es ㅂ, la j es ㅎ y la z es ㅅ. Para una primera versión al tiro, usa el generador gratis de Academia Seúl en academiaseul.com/generador-nombre y revísala con estas reglas.",
+    a: "Por cómo suena, sílaba por sílaba. Cada sílaba es un bloque de hangul: María es 마리아, José es 호세, Camila es 카밀라 y Valentina es 발렌티나. Las letras que no existen en coreano tienen reemplazo fijo: la f es ㅍ, la v es ㅂ, la j es ㅎ y la z es ㅅ. Para verlo al tiro, usa el generador gratis de Academia Seúl en academiaseul.com/generador-nombre: sigue estas mismas reglas.",
   },
   {
     q: "¿Mi nombre en coreano tiene un significado?",
@@ -530,11 +530,10 @@ export default function NombreEnCoreanoPost() {
           <p className="text-base text-gray-700 leading-snug mb-5">
             Escribe tu nombre, míralo en hangul, escúchalo con la voz coreana de
             tu celular o computador y descárgalo como imagen para tus historias.
-            Ojo: es una transcripción rápida y aproximada, no la norma. Si tu
-            nombre tiene una r antes de consonante o al final (Fernanda, Javier),
-            una n antes de c o g (Ángel), una x, un gua o grupos como bl, fl, pl
-            o ct (Pablo, Victoria), compara el resultado con las reglas de este
-            artículo: si no coinciden, quédate con la del artículo.
+            Sigue las mismas reglas de este artículo (la norma del 국립국어원):
+            Fernanda sale 페르난다, Ángel 앙헬 y Pablo 파블로. Si tu nombre viene
+            de otro idioma (Kevin, Ashley), se lee a la española: ahí puede que
+            en Corea te lo escriban distinto, como te explico más abajo.
           </p>
           <Link
             href="/generador-nombre"
