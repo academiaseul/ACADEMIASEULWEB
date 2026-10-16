@@ -463,12 +463,13 @@ const clasesCSS = `
   .cl .p { font-size: 25px; font-style: italic; color: var(--muted); text-align: right; white-space: nowrap; }
   .cl .hc { font-family: 'IBM Plex Mono', monospace; font-size: 16px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; padding: 8px 0 0; border: 0; display: block; }
 `;
-const clasesHTML = () => `<div class="cl">${CLASES.map((c) => `<div><div class="dh">${c.dia} <span>${c.hora}</span></div>
+const clasesHTML = (lista = CLASES) => `<div class="cl">${lista.map((c) => `<div><div class="dh">${c.dia} <span>${c.hora}</span></div>
   <div class="c">${c.curso}<small>${c.nivel}</small>${c.nota ? `<span class="nt">${c.nota}</span>` : ""}</div><div class="p">${c.profe}</div></div>`).join("")}
   <div class="hc">hora Chile (UTC−3) · 8 semanas · 60 min · certificado incluido</div></div>`;
 
 // ttl: titular de 2 líneas (la 2.ª en cursiva azul). Variantes del 7 oct: cuenta regresiva jue 8 → sáb 10.
-function cierre(ttl = "ÚLTIMOS<br><em>DÍAS</em>") {
+// cuando/lista: la matrícula extendida (cierre dom 18, todas las clases desde la semana del 19) usa cierre(ttl, "domingo 18 · 23:59", CLASES_19)
+function cierre(ttl = "ÚLTIMOS<br><em>DÍAS</em>", cuando = "domingo 11 · 23:59", lista = CLASES) {
   const css = clasesCSS + `
   .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 150px; line-height: 1.04; letter-spacing: -4px; margin: 56px 0 0; }
   .ttl em { font-style: italic; color: ${AZUL}; }
@@ -486,15 +487,15 @@ function cierre(ttl = "ÚLTIMOS<br><em>DÍAS</em>") {
   const body = `
   ${top("Matrícula", "Octubre 2026")}
   <h1 class="ttl">${ttl}</h1>
-  <div class="when">La matrícula de octubre cierra el<br><span class="nw"><span>domingo 11 · 23:59</span> <small>(Chile)</small></span></div>
-  ${clasesHTML()}
+  <div class="when">La matrícula de octubre cierra el<br><span class="nw"><span>${cuando}</span> <small>(Chile)</small></span></div>
+  ${clasesHTML(lista)}
   <div class="fee"><div class="a"><span>US$150</span> el curso completo · o 2 cuotas de <span>US$75</span></div></div>
   <div class="url"><div class="u">academiaseul.com/inscribete</div></div>`;
   return doc({ story: true, css, body });
 }
 
 // ttl/size: "ÚLTIMAS HORAS" (dom 11 en la noche) usa un titular más chico para que quepa en una línea por palabra
-function hoyCierra(ttl = "HOY<br><em>CIERRA</em>", size = 196) {
+function hoyCierra(ttl = "HOY<br><em>CIERRA</em>", size = 196, fecha = "Domingo 11 de octubre", lista = CLASES) {
   const css = clasesCSS + `
   .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: ${size}px; line-height: .9; letter-spacing: -5px; margin: 44px 0 0; }
   .ttl em { font-style: italic; color: ${GOLD2}; }
@@ -506,10 +507,10 @@ function hoyCierra(ttl = "HOY<br><em>CIERRA</em>", size = 196) {
   .bio svg { width: 54px; height: 54px; flex: none; }
   `;
   const body = `
-  ${top("Matrícula", "Domingo 11 de octubre")}
+  ${top("Matrícula", fecha)}
   <h1 class="ttl">${ttl}</h1>
   <div class="when"><div class="h">23:59</div><div class="z">hora Chile${size < 196 ? " · cierra hoy" : ""}</div></div>
-  ${clasesHTML()}
+  ${clasesHTML(lista)}
   <div class="bio"><div class="t">Link en la bio</div><svg data-deco viewBox="0 0 24 24" fill="none" stroke="${PAPER}" stroke-width="2.6" stroke-linecap="square"><path d="M12 21V4M5 11l7-7 7 7"/></svg></div>`;
   return doc({ story: true, css, body, dark: true });
 }
@@ -519,10 +520,10 @@ function hoyCierra(ttl = "HOY<br><em>CIERRA</em>", size = 196) {
 // ════════════════════════════════════════════════════════════════════════
 function empezamos() {
   const SEM = [
-    { dow: "mar", n: "13", clases: [["20:00", "Básico 1", "con Kiran"], ["21:00", "Conversacional 1", "con Abby"]] },
-    { dow: "mié", n: "14", clases: [["21:00", "Básico 2", "con Jay"]] },
-    { dow: "jue", n: "15", clases: [["20:00", "Básico 1", "con Kiran"], ["21:00", "TOPIK II", "con Jay"]] },
     { dow: "lun", n: "19", clases: [["18:00", "Coreano para Niños", "con Jay y Abby"]] },
+    { dow: "mar", n: "20", clases: [["20:00", "Básico 1", "con Kiran"], ["21:00", "Conversacional 1", "con Abby"]] },
+    { dow: "mié", n: "21", clases: [["21:00", "Básico 2", "con Jay"]] },
+    { dow: "jue", n: "22", clases: [["20:00", "Básico 1", "con Kiran"], ["21:00", "TOPIK II", "con Jay"]] },
   ];
   const css = `
   .ko { font-family: 'Noto Sans KR', sans-serif; font-weight: 900; font-size: 112px; line-height: 1.05; color: ${AZUL}; margin-top: 30px; letter-spacing: -2px; }
@@ -549,10 +550,10 @@ function empezamos() {
   .foot .cta .kr { font-family: 'Noto Sans KR', sans-serif; font-weight: 900; color: ${AZUL}; }
   `;
   const body = `
-  ${top("Inicio de clases", "Semana del 12 de octubre")}
+  ${top("Inicio de clases", "Semana del 19 de octubre")}
   <div class="ko">시작합니다</div>
   <h1 class="ttl">Empezamos <em>esta semana</em></h1>
-  <div class="wk">${SEM.map((s, i) => `<div class="${i === 3 ? "nx" : ""}"><div class="d"><div class="n">${s.n}</div><div class="w">${s.dow}<span>oct</span></div></div>
+  <div class="wk">${SEM.map((s) => `<div><div class="d"><div class="n">${s.n}</div><div class="w">${s.dow}<span>oct</span></div></div>
     <div class="cs">${s.clases.map((c) => `<div><div class="h">${c[0]}</div><div class="c">${c[1]} <span>${c[2]}</span></div></div>`).join("")}</div></div>`).join("")}</div>
   <div class="hc"><b>hora Chile</b> · 8 semanas · 60 min · en vivo por Zoom</div>
   <div class="espera"><div class="a">¿No alcanzaste? Lista de espera<br>para <span>enero 2027</span>: academiaseul.com/notificarme</div>${sello("wseal")}</div>
@@ -635,6 +636,11 @@ function unaSemanaMasFeed() {
 // ─── lista de diseños ───
 const DISENOS = [
   { file: "08_una_semana_mas_story.png", story: true, html: unaSemanaMasStory() },
+  // cuenta regresiva de la matrícula extendida (cierre dom 18 oct)
+  { file: "09d_quedan_2_dias_18_story.png", story: true, html: cierre("QUEDAN<br><em>2 DÍAS</em>", "domingo 18 · 23:59", CLASES_19) },
+  { file: "09e_manana_cierra_18_story.png", story: true, html: cierre("MAÑANA<br><em>CIERRA</em>", "domingo 18 · 23:59", CLASES_19) },
+  { file: "09b_hoy_cierra_18_story.png", story: true, html: hoyCierra("HOY<br><em>CIERRA</em>", 196, "Domingo 18 de octubre", CLASES_19) },
+  { file: "09f_ultimas_horas_18_story.png", story: true, html: hoyCierra("ÚLTIMAS<br><em>HORAS</em>", 168, "Domingo 18 de octubre", CLASES_19) },
   { file: "08_una_semana_mas.png", story: false, html: unaSemanaMasFeed() },
   { file: "00_chuseok_story.png", story: true, html: chuseok() },
   { file: "01_reto_leocoreanoen7dias.png", story: false, html: retoFeed() },
