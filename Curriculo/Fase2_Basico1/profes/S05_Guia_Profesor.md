@@ -9,6 +9,7 @@ Fuente única: `../00_Diseno_Basico1.md` (B.6 para esta semana, C para el vocabu
 > - **[YA]** = mejora de la Fase 1 que se aplica en octubre sin cambiar nada publicado. **⚑** = coreano o dato que valida un nativo (Kiran, Abby o Jay) antes de usarlo. **[regla del certificado: pendiente de decisión de Jay]** = donde el kit y la ficha publicada no coinciden (diseño, E.7).
 > - Todo el coreano de esta guía usa solo lo enseñado hasta la S5 (lista C del diseño). Lo que va más allá está marcado como **fórmula** (se imita sin explicar) o como **lo dice Kiran, no se pide** (input para reconocer).
 > - El libro se cita por lección. **Ningún diálogo, texto ni ejercicio de esta guía sale del libro:** todo es original.
+> - ***(ampliación 21 oct 2026)*** = lo que se agregó para las 4 posiciones extra que pidió Jay (밖 · 사이 · 오른쪽 · 왼쪽; láminas 9b, 9c, 9d y 13b del deck). Son ampliación: no cambian las metas de la clase (lámina 4) y no entran en el Quiz 5 ni en la hoja de la lección 5. 하고 aparece solo dentro de la fórmula ___하고 ___ 사이에 (no se enseña como partícula).
 
 ---
 
@@ -60,7 +61,7 @@ Fuente única: `../00_Diseno_Basico1.md` (B.6 para esta semana, C para el vocabu
 | 14 | **Recurso digital** (exacto) | **Lector → Practicar → Pictogramas**, 3 rondas seguidas (las preguntas y las opciones son solo dibujos y Hangul; **ojo:** la línea de retroalimentación que aparece después de responder sí trae la romanización, p. ej. "집 · jip · casa"). El grupo de dibujos lo elige la app según cuántas rondas de Pictogramas hizo cada uno antes: quien hizo exactamente las 3 de la S3 verá ahora "naturaleza y vida"; quien no hizo ninguna, "comida y objetos" (집, 문, 컴퓨터, 우산…); quien hizo más, puede caer en "todo". Cualquiera sirve (nota técnica en D). **Lector → Practicar → Palabras**, 3 rondas seguidas (Lectura, Escucha e Inversa: el modo rota solo; la lista incluye 카페, 학교, 서울). Consejo: decir la palabra en voz alta ANTES de mirar las opciones. **Extra opcional:** Dubu, repetir el barrio que más costó (si no saben cuál: Río Han, nivel 5-5, 학교 solo de oído) · flashcards de lugares de la carpeta del curso (sin romanización). |
 | 15 | **Preparación de la profe** | Revisar el deck S5 y esta guía (domingo o lunes) · releer los comentarios de mitad de curso (quién tiene de foco 받침 o ㅓ/ㅗ) · armar las parejas de salas (lector rápido + lector lento, según quiz y mitad de curso) · en el escritorio, a la vista de la cámara: computador, un libro, un lápiz, una taza, el celular, un bolso · Zoom: sellos de anotación activos para el mapa, salas de 19 min con cuenta regresiva de 60 s · recordatorio en el grupo el día antes (papel, lápiz, 3 cosas sobre la mesa, ciudad + 3 lugares). Detalle en C.2. |
 | 16 | **Entregable del alumno** | Captura de Progreso (Pictogramas y Palabras) · foto de la hoja de la lección 5 · foto del escritorio o la pieza con 5 frases tipeadas en el grupo. |
-| 17 | **Evaluación** | **Quiz 4** (abre la clase, sobre la S4): dictado de 27 y 84 · 4 dígitos de un teléfono · "¿cuántos son?" (네 명) · 언니 o 누나 según quién habla. **Observación formativa** en salas: 이/가 y "posición + 에" (bien / a reforzar) en la hoja del curso. **Tarea:** 3 entregas (el kit pide "entregadas antes de la clase siguiente"; el umbral de "6 de 7 semanas" es la propuesta del diseño, E.2, no una regla comunicada a los alumnos). Lo de hoy entra en el **Quiz 5** (abre la clase 6): 2 posiciones con un dibujo (위/옆) · 1 "책___ 있어요" · 1 pregunta con 어디 · 1 있어요 o 없어요. Registro de asistencia por separado (en vivo / grabación + tarea): **[regla del certificado: pendiente de decisión de Jay]**. |
+| 17 | **Evaluación** | **Quiz 4** (abre la clase, sobre la S4): dictado de 27 y 84 · 4 dígitos de un teléfono · "¿cuántos son?" (네 명) · 언니 o 누나 según quién habla. **Observación formativa** en salas: 이/가 y "posición + 에" (bien / a reforzar) en la hoja del curso. **Tarea:** 3 entregas (el kit pide "entregadas antes de la clase siguiente"; el umbral de "6 de 7 semanas" es la propuesta del diseño, E.2, no una regla comunicada a los alumnos). Lo de hoy entra en el **Quiz 5** (abre la clase 6): 2 posiciones con un dibujo (위/옆) · 1 "책___ 있어요" · 1 pregunta con 어디 · 1 있어요 o 없어요. *(ampliación 21 oct 2026)* Las 4 posiciones de la ampliación (밖 · 사이 · 오른쪽 · 왼쪽) son extra: no entran en el Quiz 5. Registro de asistencia por separado (en vivo / grabación + tarea): **[regla del certificado: pendiente de decisión de Jay]**. |
 
 ---
 
@@ -89,6 +90,21 @@ La estructura publicada (quiz · lección · práctica controlada · pares · ci
 | 56–58 | 20:56–20:58 | Tarea y despedida | Muestra la tarea y avisa que el mensaje llega al grupo. 안녕히 가세요! 화이팅! | 감사합니다! 안녕히 계세요! | Lám. 20–21 · detener la grabación a las 20:58 | Mensaje post-clase (C.15.3) |
 
 **Suma de control:** 1 + 4 + 3 + 3 + 2 + 3 + 4 + 2 + 3 + 3 + 3 + 2 + 19 + 1 + 2 + 1 + 2 = **58 minutos** (20:00 → 20:58). A las 21:00 empieza otra clase en la misma cuenta de Zoom: **a las 20:58 se corta, vaya donde vaya la clase** (lo que no alcanzó va al mensaje post-clase).
+
+**Con la ampliación de posiciones, de 20:16 a 20:31** *(ampliación 21 oct 2026)*. Las láminas 9b, 9c, 9d y 13b suman ≈ 5,5 minutos. Salen de C.12, pasos 1–3, aplicados de antemano: relámpago solo con la 14a, cultura en 1 minuto y lectura en 1 minuto. Estas filas reemplazan las de 20:16 a 20:31 de la tabla de arriba; lo demás no cambia y **los 19 minutos de salas no se tocan**.
+
+| Minuto | Hora | Bloque | Qué hace la profe | Qué hacen los alumnos | Zoom: pantalla · salas · chat | Material |
+|---|---|---|---|---|---|---|
+| 16–19 | 20:16–20:19 | **4 posiciones más:** 밖 · 사이 · 오른쪽 · 왼쪽 | 9b: gestos y eco (2 min) · 9c: cómo se arman (1 min, **opcional**) · 9d: las 10 en 20 s, sin leerla (C.3, paso 6b) | Imitan gesto + palabra; dos leen una frase de la 9c | Láminas 9b–9d | Dibujos D4b |
+| 19–23 | 20:19–20:23 | 이/가 · 있어요/없어요 · 어디예요? | Igual que arriba | Igual que arriba | Láminas 10–12 | — |
+| 23–25 | 20:23–20:25 | **C:** el lápiz que se mueve | Igual que arriba y cierra con 사이: 책하고 컵 사이에 있어요. Derecha e izquierda **no** con la cámara | Coro → 4 respuestas individuales por nombre | Cámara de Kiran · lám. 13 | Lápiz, libro, taza |
+| 25–27 | 20:25–20:27 | **¿Dónde está el gato?** (**opcional**) | Un alumno por dibujo, por nombre; revela con clic (C.3, paso 8b; clave en C.13.14) | Responden ___에 있어요 | Lám. 13b | Dibujos D4b sin flechas |
+| 27–28,5 | 20:27–20:28:30 | **C:** ¿이 o 가? relámpago | Solo las 4 primeras palabras (lámina 14a); la 14b, solo si vas adelantada | Escriben 이 o 가 en el chat a la vez; uno lee la frase | Lám. 14a · chat público | — |
+| 28,5–29,5 | 20:28:30–20:29:30 | Cultura, versión de 1 minuto | Solo el letrero y 화장실이 어디예요? — 3번 출구 옆에 있어요 | Leen el letrero | Lám. 15 | Letrero (D5) |
+| 29,5–30,5 | 20:29:30–20:30:30 | **C → G:** lectura "우리 동네", versión de 1 minuto | 2 alumnos leen las líneas 2 y 3; el grupo responde la pregunta 1. El resto, en casa (ejercicio 6) | Leen en voz alta; responden en coreano | Lám. 16 | Texto en C.13.8 |
+| 30,5–31 | 20:30:30–20:31 | Margen | 30 segundos de colchón antes de las instrucciones de salas | — | — | — |
+
+*(ampliación 21 oct 2026)* Suma con la ampliación: 1 + 4 + 3 + 3 + 2 + 3 + 3 + 4 + 2 + 2 + 1,5 + 1 + 1 + 0,5 + 2 + 19 + 1 + 2 + 1 + 2 = **58 minutos**. 9c y 13b son opcionales: si vas atrasada, sáltalas. Si te saltas alguna y vas adelantada, devuelve el tiempo en este orden: 14b · lectura completa · cultura completa.
 
 **¿Cuánto coreano dicen los alumnos?** En salas, 18 minutos de actividad en coreano (tour 7 + plano 8 + minuto libre 3): con parejas, ≈ 9 minutos de habla por alumno. En la sala principal, bloques en que el grupo produce coreano: cadena del mapa 3 · eco de lugares 3 · gestos + palabra 1 · coro de 있어요/어디예요 1 · lápiz 2 · lectura 3 · errores y coro de cierre 3 = 16 minutos (en ellos también habla Kiran, así que cuenta ≈ la mitad; el relámpago no cuenta, es escrito). Total de la clase con los alumnos diciendo coreano: **≈ 26 minutos (18 + ≈ 8)**, por encima de los 20, y al menos 3 turnos individuales por alumno (kit): uno en la cadena o en el chat del mapa, uno en el lápiz, la lectura o el relámpago, y los de las salas.
 
@@ -169,8 +185,26 @@ Que cada alumno salga de la clase **preguntando y diciendo dónde está algo** c
 - ES (lámina 9): "La frase coreana es un tren de 3 vagones. Primer vagón: la cosa + 이 o 가. Segundo vagón: el lugar + 에; si hay posición, primero va el objeto de referencia y después la posición: 책상 위에, 'escritorio-encima-en'. Tercer vagón, siempre el último: 있어요 (está) o 없어요 (no está)."
 - KO (lento, señalando los vagones): 책이 · 책상 위에 · 있어요.
 - ES: "Fíjense en que no hay ningún 'del': 책상 위, sin nada en el medio. Y 위 es un sustantivo, 'la parte de arriba': 책상 위 es 'lo de arriba del escritorio'."
+- *(ampliación 21 oct 2026)* No anuncies todavía las 4 posiciones extra: primero las 6 y el tren de la lámina 9. Vienen en el paso 6b.
+
+**Paso 6b · 20:16–20:19 · 4 posiciones más: 밖 · 사이 · 오른쪽 · 왼쪽** (láminas 9b–9d) *(ampliación 21 oct 2026)*
+- Son extra, para entender y usar si salen. No entran en el Quiz 5 ni en la hoja de la lección 5. En el material del alumno están marcadas "(nuevo)" (vocabulario, 3.3 y ejercicio 8), y la 9d queda en el PDF del deck. **Si a las 20:16 ya vas atrasada,** muestra solo la 9d (20 s, ES: "estas 4 son extra; están en su material y en el PDF") y sigue con el paso 7.
+- Lámina 9b (2 min). ES: "Cuatro más, de regalo: para entenderlas y usarlas si las necesitan." Gestos:
+  - 밖: el dedo de 안 sale de la mano en tazón y queda afuera.
+  - 사이: las dos manos planas a los lados de la cara (tu cara está 사이).
+  - 오른쪽 / 왼쪽: levantas tu mano derecha / izquierda.
+- En Zoom estás frente a ellos: tu mano derecha les aparece al lado izquierdo de la pantalla y tienden a copiarte como en un espejo. No digas "hagan como yo". ES: "Levanten **su** mano derecha: 오른쪽!" Con cosas, la derecha y la izquierda se dicen como se ve el dibujo: señala las flechas de la lámina (la pantalla compartida no se invierte).
+- KO: 따라 하세요. 밖! 사이! 오른쪽! 왼쪽! (gesto + palabra, dos veces). Después dices solo la palabra, en desorden, y ellos hacen el gesto.
+- ES: "쪽 es 'lado': 오른쪽 es el lado derecho y 왼쪽, el izquierdo. 옆 es 'al lado', de cualquiera de los dos; 오른쪽 y 왼쪽 dicen cuál." Pronunciación en C.7: 밖에 [바께] · 오른쪽에 [오른쪼게] · 왼쪽에 [왼쪼게].
+- Para ti: 밖에 va siempre con 있어요. Nunca "N 밖에 없어요": al oído, 집 밖에 없어요 suena igual que 집밖에 없어요 ("no hay nada más que la casa"; ese 밖에 = "solo" llega en Básico 2). Para "no está afuera", di 안에 있어요.
+- Lámina 9c (1 min, **opcional**: los mismos ejemplos están en la 9d). ES: "Es el mismo tren de 3 vagones: solo cambia el vagón del medio. 오른쪽 y 왼쪽 funcionan como 위: primero la referencia y después 에, 컴퓨터 오른쪽에 ('computador-lado derecho-en'). 사이 necesita dos cosas: 의자하고 책상 사이에 ('silla y escritorio, entre'). Y 밖 es el contrario de 안."
+  *(하고 = "y" va pegado a la primera cosa, sin espacio, y aquí es solo una fórmula: no lo expliques como partícula nueva. Buena noticia: no cambia con el 받침 (의자하고, 책상하고).)*
+- KO: dos alumnos por nombre leen una frase de la 9c cada uno: ___, 읽으세요!
+- Errores esperables: *사이 의자하고 책상에 → 의자하고 책상 사이에 · *오른쪽 컴퓨터에 → 컴퓨터 오른쪽에 · *의자 사이에 (con una sola cosa) → 사이 necesita dos. Señalando, 오른쪽에 있어요 (sin la referencia) también vale.
+- Lámina 9d (20 s). ES: "Aquí están las 10: las 6 de hoy y 4 extra." No la leas; pasa a la 10. Si preguntan por otras posiciones, en C.4 ("Si preguntan…").
 
 **Paso 7 · 20:16–20:20 · 이/가 · 있어요/없어요 · 어디예요?** (láminas 10–12)
+- *(ampliación 21 oct 2026)* Hoy: 20:19–20:23 (se corre 3 minutos por las láminas 9b–9d).
 - ES (lámina 10): "El primer vagón lleva 이 o 가. La regla ya la conocen de 이에요/예요 y de 아니에요: si la palabra termina en 받침, 이 (책이, 은행이, 화장실이); si termina en vocal, 가 (커피가, 카페가, 컴퓨터가). El español también ajusta por sonido: decimos 'Fernando **e** Isabel', no 'y Isabel'."
 - ES (lámina 11): "Se escribe 있어요 y se dice [이써요], con la ㅆ apretada. 없어요 se dice [업써요]: cierren los labios en la ㅂ. Y ojo: en español 'no está' es 'no' + 'está'. En coreano 없어요 es otra palabra: no se dice 'no 있어요'."
 - KO: 따라 하세요. 있어요 [이써요] … 없어요 [업써요] … 휴대폰이 가방 안에 있어요. … 휴대폰이 가방 안에 없어요.
@@ -181,17 +215,29 @@ Que cada alumno salga de la clase **preguntando y diciendo dónde está algo** c
 - KO: 따라 하세요. 화장실이 어디예요? … 저기 있어요. Dos alumnos por nombre: uno pregunta, otro responde.
 
 **Paso 8 · 20:20–20:22 · C: el lápiz que se mueve** (cámara; lámina 13)
+- *(ampliación 21 oct 2026)* Hoy: 20:23–20:25.
 - Pones un lápiz sobre el libro. KO: 연필이 어디에 있어요? → Grupo: 책 위에 있어요!
 - Lo mueves: debajo del libro, asomando (아래) · al lado (옆) · entre el libro y la cámara (앞) · detrás del libro, parado (뒤) · dentro de la taza (안: 컵 안에 있어요). Primero en coro; después 4 alumnos por nombre.
 - Variante con sus objetos (si el grupo se ríe, funciona): KO: 휴대폰, 책 위에! *(ellos ponen su celular sobre un libro y lo muestran a la cámara)* → KO a uno: 휴대폰이 어디에 있어요? → 책 위에 있어요.
 - Corrección rápida si dicen "책 위 있어요": KO 에! 책 위**에** 있어요. 다시 한번.
+- *(ampliación 21 oct 2026)* Si diste la 9b, cierra con uno de 사이 (≈ 20 s): pones el lápiz entre el libro y la taza. KO: 연필이 어디에 있어요? → 책하고 컵 사이에 있어요. (책하고 se dice [채카고]: se imita, no se explica.) **Derecha e izquierda, no con la cámara:** lo que pones a tu derecha, ellos lo ven a su izquierda (y tu vista propia de Zoom está en espejo). Eso se practica con los dibujos de la 13b, que tienen un solo punto de vista.
+
+**Paso 8b · 20:25–20:27 · ¿Dónde está el gato?** (lámina 13b) *(ampliación 21 oct 2026)* · **opcional**
+- Si a las 20:25 vas atrasada, sáltala: el relámpago (14a) no se toca.
+- ES: "Miren el dibujo y respondan: ___에 있어요. La derecha y la izquierda, como las ven ustedes." La palabra bajo cada dibujo es la pista (la referencia).
+- KO, un alumno por dibujo, por nombre: ___, 고양이가 어디에 있어요? Revelas con clic. Respuestas en C.13.14.
+- Si dicen otra posición que también es cierta (옆에 en el 2, el 3 o el 4), acéptala y pide la nueva. KO: 네, 잘했어요! 오른쪽? 왼쪽? 밖? Sin la referencia también vale: 오른쪽에 있어요 · 밖에 있어요.
+- En el 1, si dicen solo 사이에 있어요, acéptalo y complétalo tú. KO: 네! 의자하고 책상 사이에 있어요. Si falta el 에, KO: 에! 오른쪽에 있어요. 다시 한번.
+- Sin variante con cámara: en Zoom, la derecha y la izquierda llegan invertidas.
 
 **Paso 9 · 20:22–20:25 · C: ¿이 o 가? relámpago** (lámina 14, chat público)
+- *(ampliación 21 oct 2026)* Hoy: 20:27–20:28:30 y solo las 4 primeras palabras (화장실 · 카페 · 은행 · 학교; lámina 14a). Las otras 4 (lámina 14b), solo si vas adelantada.
 - ES: "Aparece una palabra. Escriben solo 이 o 가 en el chat, pero no aprieten enter hasta que yo diga '3, 2, 1, enter'."
 - Palabras, en este orden: 화장실 · 카페 · 은행 · 학교 · 공원 · 컴퓨터 · 휴대폰 · 우유.
 - Después de cada una, KO a un alumno: ___, 읽으세요! (lee la frase de la lámina: 화장실이 저기 있어요 · 카페가 학교 옆에 있어요 · …). Clave en C.13.2.
 
 **Paso 10 · 20:25–20:28 · Cultura: Seúl se orienta por el metro** (lámina 15)
+- *(ampliación 21 oct 2026)* Hoy: 20:28:30–20:29:30, versión de 1 minuto (C.12, paso 1): solo el letrero (3번 출구: "번 es número; el 3 se lee 삼번") y 화장실이 어디예요? — 3번 출구 옆에 있어요. El resto está en la nota cultural del material del alumno. Lo de abajo, solo si vas adelantada.
 - ES: "Si en Seúl preguntan '¿dónde nos juntamos?', lo más común no es dar la calle y el número. Desde 2014 la dirección oficial usa el nombre de la calle (도로명 주소), pero para juntarse mucha gente usa la estación de metro más cercana y su número de salida: las estaciones grandes tienen varias salidas numeradas."
 - KO (leyendo el letrero): 3번 출구. ES: "번 es 'número': 3번 출구 es la salida 3. El 3 se lee con los números de la semana pasada: 삼번 출구."
 - KO, frases ancla (despacio): 지하철역이 어디예요? — 저기 있어요. · 화장실이 어디예요? — 3번 출구 옆에 있어요.
@@ -201,6 +247,7 @@ Que cada alumno salga de la clase **preguntando y diciendo dónde está algo** c
   *(동네에 지하철역이 있어요? es "¿hay metro en tu barrio?": un anticipo del "hay" de la S7. Aquí va solo como pregunta de sí o no.)*
 
 **Paso 11 · 20:28–20:31 · C → G: lectura "우리 동네"** (lámina 16)
+- *(ampliación 21 oct 2026)* Hoy: 20:29:30–20:30:30, versión de 1 minuto (C.12, paso 2): 2 alumnos leen las líneas 2 y 3 (우리 집은 산티아고에 있어요 · 공원이 우리 집 뒤에 있어요) y el grupo responde la pregunta 1 (공원이 어디에 있어요?). El resto se lee en casa (ejercicio 6 del material del alumno). La versión completa de abajo, solo si vas adelantada.
 - ES: "Primera lectura con comprensión del curso. Cada uno lee una frase en voz alta y después respondemos 2 preguntas."
 - KO: ___, 읽으세요! (6 alumnos, una línea cada uno; la primera línea tiene 3 frases cortas). Corriges 받침 y [ ] con 다시 한번.
 - Preguntas, KO: 공원이 어디에 있어요? → 집 뒤에 있어요. · 은행이 어디에 있어요? → 지하철역 옆에 있어요. Texto y clave en C.13.8.
@@ -246,7 +293,8 @@ Que cada alumno salga de la clase **preguntando y diciendo dónde está algo** c
 
 **Si preguntan…** (respuesta corta y sin abrir tema)
 - "¿Cómo digo 'vivo en Santiago'?" → 산티아고에 살아요. "Es otro verbo: se entiende con el presente de la semana que viene. Por ahora, 집이 어디예요? — 산티아고예요."
-- "¿Y 'entre', 'afuera', 'izquierda', 'derecha'?" → "Existen (사이, 밖, 왼쪽, 오른쪽) y llegan más adelante. Hoy nos quedamos con 6."
+- "¿Y 'entre', 'afuera', 'izquierda', 'derecha'?" → *(ampliación 21 oct 2026)* "Están en la lámina 9b: 사이, 밖, 왼쪽, 오른쪽. Son extra de hoy, para entenderlas y usarlas si las necesitan; no entran en el quiz."
+- *(ampliación 21 oct 2026)* "¿Y 밑? ¿Y 'en medio', 'cerca', 'frente a'?" → "밑 es casi lo mismo que 아래 y se oye mucho al hablar (가방이 책상 밑에 있어요): se reconoce, no se pide. 가운데 (en medio), 근처 (cerca) y 건너편 o 맞은편 (al otro lado de la calle) llegan más adelante." Ojo con "frente al banco", cruzando la calle: no es 앞, que es justo delante.
 - "¿있어요 no era 'tener'?" → "También sirve para eso; lo vemos más adelante."
 - "¿Y 에서? Lo escucho en los K-dramas." → "Es 'en' cuando **haces** algo en un lugar. Llega en Básico 2. Hoy solo 'estar en': 에."
 - "¿Por qué no 책상의 위?" → "No hace falta. 책상 위 es lo natural."
@@ -302,6 +350,8 @@ Que cada alumno salga de la clase **preguntando y diciendo dónde está algo** c
 | 회사 | — | ㅚ hoy suena casi como "we" |
 | 은행 | — | Dos sílabas claras; la ㅎ es suave, nunca jota |
 | 어디예요 · 여기예요 · 저기예요 | [어디에요] · [여기에요] · [저기에요] | Se escribe 예, se dice 에 (como 뭐예요 [뭐에요] en la S3) |
+| 밖 · 밖에 *(ampliación 21 oct 2026)* | [박] · [바께] | Sola, [박]; con 에, la ㄲ pasa a la sílaba siguiente y se oye tensa |
+| 오른쪽에 · 왼쪽에 *(ampliación 21 oct 2026)* | [오른쪼게] · [왼쪼게] | La ㄱ pasa a la sílaba siguiente. La ㅚ de 왼, como en 회사 (casi "we"): [웬쪽] también es correcto, no lo corrijas |
 
 Se deja pasar: entonación y velocidad. La entonación de pregunta (sube) sí se modela en 어디예요? y en las preguntas de sí o no (가방 안에 있어요? ↗).
 
@@ -372,6 +422,8 @@ Reto individual del Lector para los rápidos (nota publicada): el modo Inversa d
 Máximo 10 preguntas; quien adivina esconde la siguiente cosa en su propia mesa y el grupo le pregunta a él o a ella.
 
 ### C.12 Si vas atrasada: qué recortar (en este orden)
+
+*(ampliación 21 oct 2026)* **Con las láminas 9b–9d y 13b, los pasos 1–3 ya vienen aplicados de antemano** (cultura en 1 minuto, lectura con 2 frases y 1 pregunta, relámpago con 4 palabras): de ahí salen los ≈ 5,5 minutos de las 4 posiciones extra (plan en B, después de la suma de control). Si aun así vas atrasada: sáltate la 13b (a las 20:25) y la 9c; si a las 20:16 ya vas atrasada, muestra solo la 9d (20 s) y sigue. Después vienen los pasos 4 y 5 de esta lista. Si vas adelantada, devuelve el tiempo en este orden: 14b · lectura completa · cultura completa.
 
 1. **Cultura (paso 10) a 1 minuto:** solo la lámina del letrero y la frase 화장실이 어디예요? — 3번 출구 옆에 있어요. El resto está en la nota cultural del material del alumno.
 2. **Lectura "우리 동네" (paso 11) a 2 frases y 1 pregunta,** o se lee en casa (está en el material del alumno como ejercicio 6).
@@ -492,9 +544,12 @@ Plano completo (solo para ti):
 | B ⑧ | 민지 집이 어디예요? | 회사 옆에 있어요. | — |
 | Los dos, al final | 지하철역이 어디예요? | 은행 앞에 있어요. | 3번 출구예요. |
 
+*(ampliación 21 oct 2026)* **También vale, con las posiciones de la 9b** (derecha e izquierda mirando el plano): ① 학교 왼쪽에 있어요 · ② 회사 왼쪽에 있어요 · ⑤ 학교하고 식당 사이에 있어요 · ⑥ 은행 오른쪽에 있어요 · ⑧ 회사 오른쪽에 있어요. Acéptalas sin dudar. En el tour de escritorio (paso 1 de las salas), 오른쪽/왼쪽 es desde la silla de quien describe: si al mostrar la mesa la cámara la ve al revés, no es un error.
+
 #### C.13.11 Hoja de la lección 5 (tarea) · Parte A · etiquetar las 6 escenas
 (a) 옆 · (b) 위 · (c) 뒤 · (d) 안 · (e) 아래 · (f) 앞
 Frases completas para leer en voz alta: (a) 고양이가 책상 옆에 있어요. (b) 고양이가 책상 위에 있어요. (c) 고양이가 집 뒤에 있어요. (d) 고양이가 가방 안에 있어요. (e) 고양이가 책상 아래에 있어요. (f) 고양이가 집 앞에 있어요.
+*(ampliación 21 oct 2026)* La hoja sigue con las 6 (la consigna del material del alumno lo aclara). Si alguien escribe 오른쪽 en la (a) (el gato también está a la derecha, como se ve), es correcto: acéptalo y pídele la de la hoja, 옆. En la (c) y la (f), 밖 también es cierto, pero la hoja pide la posición exacta (뒤 / 앞).
 
 #### C.13.12 Hoja de la lección 5 · Parte B · 8 frases con 에 있어요
 1. 컴퓨터**가** 책상 **위에** 있어요.
@@ -513,6 +568,21 @@ Libre; debe corresponder a la foto. Ejemplo para un escritorio con computador, t
 3. 휴대폰이 책 위에 있어요.
 4. 가방이 의자 아래에 있어요.
 5. 안경이 가방 안에 없어요.
+
+*(ampliación 21 oct 2026)* Si usan 오른쪽, 왼쪽, 사이 o 밖 (la lámina 20 y el mensaje post-clase lo permiten), revisa lo mismo: referencia + posición + 에 (컴퓨터 오른쪽에 · 컵하고 책 사이에); la derecha y la izquierda, como se ven en la foto; 밖에, solo con 있어요. No es obligatorio usarlas.
+
+#### C.13.14 Lámina 13b y ejercicio 8 del material del alumno · ¿Dónde está el gato? *(ampliación 21 oct 2026)*
+
+Los mismos 4 dibujos, en otro orden. Derecha e izquierda: como se ve el dibujo.
+
+| Lámina 13b | Ejercicio 8 | Dibujo | Pista | Respuesta | También vale |
+|---|---|---|---|---|---|
+| 1 | ② | El gato entre la silla y el escritorio | 의자 · 책상 | 의자하고 책상 사이에 있어요. | 사이에 있어요 (complétala tú) |
+| 2 | ① | El gato a la derecha del escritorio | 책상 | 책상 오른쪽에 있어요. | 오른쪽에 있어요 · 책상 옆에 있어요 (acéptala y pide 오른쪽) |
+| 3 | ④ | La casa por dentro (un sillón, vacía) y el gato afuera, en el jardín | 집 | 집 밖에 있어요. | 밖에 있어요 · 집 옆에 있어요 (acéptala y pide 밖) |
+| 4 | ③ | El gato a la izquierda del escritorio | 책상 | 책상 왼쪽에 있어요. | 왼쪽에 있어요 · 책상 옆에 있어요 (acéptala y pide 왼쪽) |
+
+En el ejercicio 8 se escribe la frase entera: ① 고양이가 책상 오른쪽에 있어요. ② 고양이가 의자하고 책상 사이에 있어요. ③ 고양이가 책상 왼쪽에 있어요. ④ 고양이가 집 밖에 있어요. Revisar el 띄어쓰기: 의자하고 pegado; 책상 오른쪽에 y 집 밖에, con espacio.
 
 ### C.14 Corrección de la tarea y registro
 
@@ -549,12 +619,13 @@ Libre; debe corresponder a la foto. Ejemplo para un escritorio con computador, t
 > Tarea para antes del [martes 24 / jueves 26] de noviembre, 20:00 (hora Chile), unos 25 minutos:
 > 1) **Lector de Hangul → Practicar → Pictogramas: 3 rondas seguidas. Después Palabras: 3 rondas seguidas** (el modo cambia solo; una de las rondas es la Inversa). Di cada palabra en voz alta ANTES de mirar las opciones. Mándenme la captura de Progreso.
 > 2) **Hoja de la lección 5:** etiquetar el dibujo con 위/아래/앞/뒤/옆/안 y completar 8 frases con 에 있어요 (foto aquí en el grupo).
-> 3) **Foto de tu escritorio o de tu pieza + 5 frases tipeadas en 한글** que digan dónde está cada cosa (책이 책상 위에 있어요). Puede ser cualquier mesa: no tienes que mostrar tu casa.
+> 3) **Foto de tu escritorio o de tu pieza + 5 frases tipeadas en 한글** que digan dónde está cada cosa (책이 책상 위에 있어요). Puedes usar 오른쪽, 왼쪽, 사이 y 밖. Puede ser cualquier mesa: no tienes que mostrar tu casa.
 > Para la clase 6: anota en español 5 cosas que haces todos los días.
 > ¿Faltaste? Mira la grabación, haz la tarea y, si quieres, mándame un audio de 60 segundos respondiendo 집이 어디예요? y 지하철역이 어디예요?
 > ¡Nos vemos el [martes/jueves] a las 20:00! 화이팅
 
 *(La línea "¿Faltaste?" es la recomendación [YA] de la Fase 1 §16.1: el audio es opcional y no condiciona la asistencia.)*
+*(ampliación 21 oct 2026: "Puedes usar 오른쪽, 왼쪽, 사이 y 밖", en el punto 3, calza con la lámina 20. Es opcional.)*
 
 ### C.16 Guion de slides (deck S5) y materiales que se reutilizan
 
@@ -562,7 +633,7 @@ Libre; debe corresponder a la foto. Ejemplo para un escritorio con computador, t
 
 | Archivo | Qué se usa | Qué se quita o cambia |
 |---|---|---|
-| `06_Ubicacion/Sesion_06_Ubicacion.pptx` (y `.pdf`) | Plantilla y láminas 1 (portada), 6 (에 있다), 7 (lugares), 8 (posiciones), 9 (lecturas), 15 (화이팅) | **Quitar:** láminas 2–5 (있다 como "tener", 시간/돈/남자친구, 존댓말 y -세요), 10–11 (에서), 12 (muebles: son de la S7), 14 (cierre con 에서) · la romanización de todas las láminas · 백화점, 영화관, 밖, 사이, 밑 y el 의 · la nota "수업이 저녁 8시에 있어요" (hora: Básico 2) · "Profesora Jay Kim" → Kiran · 고양이가 침대 위에 (침대 es de la S7) → 고양이가 의자 위에 |
+| `06_Ubicacion/Sesion_06_Ubicacion.pptx` (y `.pdf`) | Plantilla y láminas 1 (portada), 6 (에 있다), 7 (lugares), 8 (posiciones), 9 (lecturas), 15 (화이팅) | **Quitar:** láminas 2–5 (있다 como "tener", 시간/돈/남자친구, 존댓말 y -세요), 10–11 (에서), 12 (muebles: son de la S7), 14 (cierre con 에서) · la romanización de todas las láminas · 백화점, 영화관, 밖, 사이, 밑 y el 의 (*ampliación 21 oct 2026:* 밖 y 사이 vuelven en la lámina 9b) · la nota "수업이 저녁 8시에 있어요" (hora: Básico 2) · "Profesora Jay Kim" → Kiran · 고양이가 침대 위에 (침대 es de la S7) → 고양이가 의자 위에 |
 | `06_Ubicacion/Sesion_06_Materiales_Completos.md` | Ejercicio 2 de la hoja (ubicación) como banco de ítems; quiz, preguntas 4, 6 y 7 (sirven para el Quiz 5) | Ejercicio 1 (tener), 3 (에/에서) y 5 (traducción con 에서) fuera · "침대가 창문 옆" → S7 |
 | `Particulas_Coreanas_Editable.pptx` | Lámina 2 (cabecera y regla de 이/가) para la lámina 10 | Cambiar todos los ejemplos (날씨, 바빠요, 와요, 자요 no están en el curso) por los de C.13.2 |
 | `Guia_Particulas_Coreanas_ES.md` | El puente "el agua / Fernando e Isabel" (punto 4) | — |
@@ -580,19 +651,23 @@ Libre; debe corresponder a la foto. Ejemplo para un escritorio con computador, t
 | 5 | 우리 동네 · Lugares | 9 iconos D2: 집 · 학교 [학꾜] · 회사 · 병원 · 카페 · 식당 [식땅] · 화장실 · 은행 · 공원 | Eco dos veces | Sesion_06 lám. 7 (sin 백화점 ni 영화관; + 은행, 화장실) |
 | 6 | 여기 · 거기 · 저기 | Diagrama de 3 distancias paralelo a 이거 · 그거 · 저거 · "aquí/acá · ahí · allá" · 어디 = ¿dónde? | Señala con el dedo | Deck S3 (diagrama) |
 | 7 | 선생님 책상 | Respaldo si la cámara no muestra tu mesa: dibujo D3 | 네/아니요 | Nueva |
-| 8 | 위 · 아래 · 앞 · 뒤 · 옆 · 안 | 6 viñetas D4 (gato y escritorio; gato en el bolso) + iconos de manos | Gestos | Sesion_06 lám. 8 (sin 밑, 밖, 사이 ni 의) |
+| 8 | 위 · 아래 · 앞 · 뒤 · 옆 · 안 | 6 viñetas D4 (gato y escritorio; gato en el bolso) + iconos de manos | Gestos · *(ampliación 21 oct 2026)* no anuncies todavía las 4 de la 9b | Sesion_06 lám. 8 (sin 밑 ni 의; *ampliación 21 oct 2026:* 밖 y 사이 vuelven en la 9b) |
 | 9 | La frase en 3 vagones | [책이] [책상 위에] [있어요] en 3 cajas azules, con "la cosa + 이/가 · el lugar + 에 · 있어요/없어요" debajo · 3 ejemplos: 커피가 컴퓨터 옆에 있어요. · 가방이 의자 아래에 있어요. · 휴대폰이 가방 안에 없어요. | El vagón 3 siempre al final | Sesion_06 lám. 6 (idea; ejemplos nuevos) |
+| 9b | 4 posiciones más · 밖 · 사이 · 오른쪽 · 왼쪽 *(ampliación 21 oct 2026)* | "Extra de hoy: para entender y usar si las necesitas" · 밖 fuera, afuera (밖 [박] · 밖에 [바께]) · 사이 entre · 오른쪽 derecha (오른쪽에 [오른쪼게]) · 왼쪽 izquierda (왼쪽에 [왼쪼게]) · 4 viñetas D4b (derecha e izquierda con flecha azul) | 2 min · gestos (C.3, paso 6b) · "levanten SU mano derecha" · extra: no entran en el Quiz 5 | Nueva |
+| 9c | Cómo se arman · 사이 · 오른쪽 · 밖 *(ampliación 21 oct 2026)* | "Siempre: primero la referencia, después la posición, y 에" · 3 columnas: **Entre dos cosas** ___하고 ___ 사이에 → 고양이가 의자하고 책상 사이에 있어요. ("하고 = y (solo en esta fórmula)") · **¿Qué lado?** ___ 오른쪽에 / ___ 왼쪽에 → 커피가 컴퓨터 오른쪽에 있어요. · 책이 컴퓨터 왼쪽에 있어요. · **Dentro / fuera** ___ 안에 ↔ ___ 밖에 → 고양이가 집 안에 있어요. · 고양이가 집 밖에 있어요. | 1 min · **opcional** · solo cambia el vagón del medio | Nueva |
+| 9d | Las 10 posiciones · 위치 *(ampliación 21 oct 2026)* | "La cosa + 이/가 · el lugar + 에 · 있어요" · tabla de 2 columnas (Posición · Ejemplo): las 6 de la lámina 8 + 밖 · 사이 · 오른쪽 y 왼쪽 ("como lo ves"), con un ejemplo cada una (C.3, paso 6b) | 20 s, sin leerla · queda en el PDF del deck como referencia de los alumnos | Nueva |
 | 10 | ¿이 o 가? | "¿Termina en 받침? Sí → 이 · No → 가" · 책이 / 커피가 · 은행이 / 카페가 · "Como 'Fernando **e** Isabel'" | Misma regla que 이에요/예요 | Particulas lám. 2 (regla) |
 | 11 | 있어요 · 없어요 | 있어요 [이써요] = está · 없어요 [업써요] = no está · "없어요 es otra palabra: no se dice 'no 있어요'" | Imitar entero | Nueva |
 | 12 | ¿Dónde está? | 화장실이 어디예요? → 저기 있어요. / 저기예요. / 카페 옆에 있어요. · "Se escribe 어디예요, se dice [어디에요]" · 저기 = allá · 저기요 = ¡disculpe! | 어디 en el lugar de la respuesta | Sesion_06 lám. 13 (reemplazada por el diálogo 2) |
-| 13 | 연필이 어디에 있어요? | Solo la pregunta, grande | Tu cámara con lápiz, libro y taza | Nueva |
-| 14 | ¿이 o 가? relámpago | 8 palabras, una por clic (animación); al final de cada una, la frase de C.13.2 | "3, 2, 1, enter" | Nueva |
-| 15 | Seúl se orienta por el metro | Letrero D5 "3번 출구" + "화장실" · 3 frases ancla · 3번 출구에서 만나요 (en gris: "solo para reconocer") · "도로명 주소 · desde 2014" · puente: "a dos cuadras del metro" | 3 minutos | Nueva |
-| 16 | Lee y responde: 우리 동네 | El texto de C.13.8 + 공원이 어디에 있어요? · 은행이 어디에 있어요? | 5 lectores | Nueva |
+| 13 | 연필이 어디에 있어요? | Solo la pregunta, grande | Tu cámara con lápiz, libro y taza · *(ampliación 21 oct 2026)* cierra con 책하고 컵 사이에 있어요; derecha e izquierda, no con la cámara | Nueva |
+| 13b | ¿Dónde está el gato? · 고양이가 어디에 있어요? *(ampliación 21 oct 2026)* | "Mira el dibujo y responde: ___에 있어요. (Derecha e izquierda: como lo ves tú)" · 4 dibujos D4b sin flechas, con la pista debajo: 의자 · 책상 / 책상 / 집 / 책상 · respuesta con clic | 2 min · **opcional** · un alumno por dibujo (C.3, paso 8b) · clave en C.13.14 | Nueva |
+| 14 | ¿이 o 가? relámpago | 8 palabras, una por clic (animación); al final de cada una, la frase de C.13.2 | "3, 2, 1, enter" · *(ampliación 21 oct 2026)* hoy solo las 4 primeras (14a) | Nueva |
+| 15 | Seúl se orienta por el metro | Letrero D5 "3번 출구" + "화장실" · 3 frases ancla · 3번 출구에서 만나요 (en gris: "solo para reconocer") · "도로명 주소 · desde 2014" · puente: "a dos cuadras del metro" | 3 minutos · *(ampliación 21 oct 2026)* hoy, versión de 1 minuto (C.12, paso 1) | Nueva |
+| 16 | Lee y responde: 우리 동네 | El texto de C.13.8 + 공원이 어디에 있어요? · 은행이 어디에 있어요? | 5 lectores · *(ampliación 21 oct 2026)* hoy, 2 lectores y 1 pregunta (C.12, paso 2) | Nueva |
 | 17 | Salas · 3 pasos | 1 Tour de escritorio (7 min) · 2 Plano A/B (8 min) · 3 Minuto libre (3 min) · "Primero en la lista = Plano A" · tarjeta del minuto libre · modelo de C.8 | Mostrar mientras armas las salas | Nueva |
 | 18 | Errores del día | Tres casilleros vacíos para escribir en vivo (o los 3 típicos: 책상 위**에** · 커피**가** · 있어요 al final) | Frase buena, no la mala | Nueva |
 | 19 | 3 frases clave | 화장실이 어디예요? · 저기 있어요. · 책이 책상 위에 있어요. | Tú sola primero, clara | Plantilla del coro |
-| 20 | Tarea · ≈ 25 min · antes de la clase 6 | Las 3 tareas con minutos + "Prepara la S6: 5 cosas que haces todos los días" | El mensaje llega al grupo | Nueva |
+| 20 | Tarea · ≈ 25 min · antes de la clase 6 | Las 3 tareas con minutos + "Prepara la S6: 5 cosas que haces todos los días" · *(ampliación 21 oct 2026)* en la foto: "(puedes usar 오른쪽, 왼쪽, 사이 y 밖)" | El mensaje llega al grupo | Nueva |
 | 21 | 안녕히 계세요 · 화이팅! | — | Detén la grabación a las 20:58 | Sesion_06 lám. 15 |
 | 22 | (respaldo) Las 3 diferencias | Dibujos D6 lado a lado | Solo si sobra tiempo | Nueva |
 
@@ -601,6 +676,7 @@ Libre; debe corresponder a la foto. Ejemplo para un escritorio con computador, t
 - **D2 · Iconos de lugares:** casa, colegio, edificio de oficinas, hospital (**cruz azul**, nunca roja), taza de café, plato con palillos, baño (símbolo de persona), banco (moneda), árbol con banca.
 - **D3 · Escritorio de la profe (lámina 7, "선생님 책상"; respaldo de la cámara del paso 5):** computador encima del escritorio; taza al lado del computador; celular encima de un libro; bolso debajo del escritorio con unos lentes asomando adentro; silla delante del escritorio; gato detrás de la silla; ningún paraguas. Preguntas de respaldo: 컴퓨터가 책상 위에 있어요? (네) · 휴대폰이 가방 안에 있어요? (아니요, 책 위에 있어요) · 고양이가 의자 뒤에 있어요? (네) · 우산이 책상 옆에 있어요? (아니요, 없어요).
 - **D4 · Posiciones:** gato sobre, debajo y al lado de un escritorio (vista de lado); gato dentro de un bolso; gato delante y detrás de una casa (vista de mapa, con la puerta hacia la calle).
+- **D4b · Posiciones extra (láminas 9b y 13b)** *(ampliación 21 oct 2026)*: mismo estilo y escala que D4. 밖 = la casa de D4 en corte (se ve el interior, con un sillón, vacía) y el gato afuera, en el jardín, lejos de la puerta (para que no se lea 앞) y sin líneas de movimiento · 사이 = el gato sentado entre la silla y el escritorio · 오른쪽 = el gato a la derecha del escritorio (como lo ve quien mira), con flecha azul → · 왼쪽 = espejo, con flecha ←. En la 13b, los mismos 4 dibujos **sin flechas** (la flecha regala la respuesta).
 - **D5 · Letrero:** cartel genérico de salida de metro con el número 3 y la palabra 출구, y otro con 화장실. Ilustración propia o foto propia: sin logos de operadores.
 - **D6 · Las 3 diferencias:** dos versiones de D3 con 3 cambios (celular encima/debajo del libro; gato detrás/delante de la silla; lentes dentro del bolso / al lado del computador).
 - **D7 · Hoja de la lección 5, Parte A:** si se ilustra, un solo dibujo de la pieza de Minji con las 6 posiciones de C.13.11; el material del alumno trae una versión en texto que funciona sin ilustración.
@@ -622,6 +698,7 @@ Libre; debe corresponder a la foto. Ejemplo para un escritorio con computador, t
 11. **Nombre de los archivos:** resuelto en el control final (diseño G.3): `S05_Guia_Profesor.md` y `S05_Material_Alumno.md`.
 12. **Palabras que dice Kiran** (input, no se piden): 여러분 (agregado a C en el control final, tipo C), 선생님 책상이에요 (Kiran hablando de sí misma como 선생님), 번 en 3번 출구 (en C como parte de la expresión).
 13. **Despedida en Zoom** (⚑4 del diseño, sigue abierta): esta guía usa 안녕히 계세요 (alumnos) / 안녕히 가세요 (Kiran), como en las semanas anteriores.
+14. *(ampliación 21 oct 2026)* **Láminas 9b–9d y 13b:** la revisión nativa no dejó coreano abierto. 가방 밖에 (poco natural) se cambió por 집 밖에; la frase de 사이 es la misma en 9c, 9d y 13b (고양이가 의자하고 책상 사이에 있어요), y [웬쪽] se acepta. Dos propuestas del revisor nativo se descartaron por decisión pedagógica: exigir al menos una frase con 오른쪽 en la tarea y practicar derecha e izquierda con la cámara. **Pendiente (no es de coreano):** los dibujos D4b de 밖 (casa en corte) y los de la 13b sin flecha están por rehacerse. Si no alcanzan y el deck vuelve a 가방 밖에, hay que cambiar también C.13.14 (el dibujo 3 de la 13b) y las filas 9c, 9d y 13b de C.16. El ejercicio 8 del material puede quedar con la casa: es un dibujo en texto.
 
 ---
 

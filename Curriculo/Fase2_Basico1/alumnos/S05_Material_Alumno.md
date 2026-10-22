@@ -67,6 +67,15 @@ Un aviso sobre el Lector: todavía usa letras latinas en algunos lugares (en Pal
 | 출구 | salida (del metro) · 3번 출구 = salida 3 | 3번 출구 [삼번 출구] |
 | 컴퓨터 | computador | |
 
+**Ampliación: 4 posiciones más (nuevo)** · extra de esta clase: para entender y usar si las necesitas. No entran en el Quiz 5 ni en la hoja de la lección 5.
+
+| 한글 | Español | Cómo suena, si cambia |
+|---|---|---|
+| 밖 | fuera, afuera | 밖 [박] · 밖에 [바께] |
+| 사이 | entre | |
+| 오른쪽 | derecha | 오른쪽에 [오른쪼게] |
+| 왼쪽 | izquierda | 왼쪽에 [왼쪼게] |
+
 **Fórmula nueva**
 
 | 한글 | Español | Cuándo |
@@ -159,6 +168,20 @@ Tres cosas que en español son al revés:
 1. **Primero va el objeto de referencia y después la posición.** "Encima del escritorio" → 책상 위에 ("escritorio-encima-en").
 2. **No hay "de".** 책상 위, sin nada en el medio.
 3. **La posición es un sustantivo**, como "el frente" o "el fondo": 책상 위 es "la parte de arriba del escritorio". Por eso lleva 에 detrás.
+
+**4 posiciones más (nuevo).** 밖, 사이, 오른쪽 y 왼쪽 se arman igual: primero la referencia, después la posición, y 에.
+
+| Coreano | Español |
+|---|---|
+| 고양이가 집 밖에 있어요. | El gato está fuera de la casa. (밖 es lo contrario de 안) |
+| 커피가 컴퓨터 오른쪽에 있어요. | El café está a la derecha del computador. |
+| 책이 컴퓨터 왼쪽에 있어요. | El libro está a la izquierda del computador. |
+| 고양이가 의자하고 책상 사이에 있어요. | El gato está entre la silla y el escritorio. |
+
+- **쪽 = lado.** 옆 es "al lado", de cualquiera de los dos lados; 오른쪽 y 왼쪽 dicen cuál.
+- **La derecha y la izquierda de las cosas, como tú las ves** en el dibujo o en la foto. En Zoom, Kiran está frente a ti: su mano derecha te aparece al lado izquierdo de la pantalla. Si te pide la mano derecha, levanta **tu** mano derecha.
+- **사이 necesita dos cosas**, unidas con 하고 (= y), que va pegado a la primera: 의자하고 책상 사이에. Por ahora 하고 va solo en esta fórmula, y no cambia con el 받침 (의자하고 · 책상하고).
+- **밖에, siempre con 있어요.** Para decir que algo no está afuera, di que está adentro: 안에 있어요.
 
 ### 3.4 La frase completa: un tren de 3 vagones
 
@@ -312,6 +335,50 @@ Mira tu mesa ahora mismo y escribe 3 frases. Después, 2 frases sobre tu barrio 
 
 Antes de dar por terminada cada frase, revisa: ¿이 o 가 según el 받침? ¿La posición lleva 에? ¿있어요 o 없어요 va al final?
 
+### Ejercicio 8 (nuevo) · ¿Dónde está el gato?
+
+Opcional: practica las 4 posiciones nuevas (밖, 사이, 오른쪽, 왼쪽). Mira cada dibujo y completa la frase. La palabra entre corchetes es la pista: la referencia. La derecha y la izquierda, como tú las ves. En algunos dibujos 옆 también sería verdad, pero aquí usa la posición nueva.
+
+① [책상]
+```
+    +--------------+
+    |  escritorio  |   (gato)
+    +--+--------+--+
+       |        |
+```
+① → 고양이가 ________________________ 있어요.
+
+② [의자 · 책상]
+```
+    +-------+            +--------------+
+    | silla |   (gato)   |  escritorio  |
+    +-+---+-+            +--+--------+--+
+      |   |                 |        |
+```
+② → 고양이가 ________________________ 있어요.
+
+③ [책상]
+```
+               +--------------+
+    (gato)     |  escritorio  |
+               +--+--------+--+
+                  |        |
+```
+③ → 고양이가 ________________________ 있어요.
+
+④ [집] · la casa por dentro (se ve el sillón)
+```
+               /\
+              /  \
+             /    \
+            /      \
+          +----------+
+          |  sillón  |
+          |          |              (gato)
+    ======+==========+====== jardín ======
+```
+④ → 고양이가 ________________________ 있어요.
+
 ---
 
 ## 7. En clase: salas de 2 o 3 (19 minutos)
@@ -407,6 +474,7 @@ Tu progreso se guarda en el navegador: usa siempre el mismo celular o computador
 Haz las partes A y B (aquí abajo), en papel o en esta hoja, y manda una foto al grupo.
 
 **Parte A · Etiqueta el dibujo.** ¿Dónde está el gato? Escribe debajo de cada escena **위, 아래, 앞, 뒤, 옆 o 안**. Después lee la frase completa en voz alta: 고양이가 책상 ___에 있어요. (en las escenas (c) y (f), 집 ___에; en la (d), 가방 ___에)
+*(nuevo)* En esta hoja van solo esas 6: en la (a) escribe 옆, aunque el gato también esté a la derecha. 밖, 사이, 오른쪽 y 왼쪽 se practican en el ejercicio 8.
 
 (a)
 ```
@@ -479,7 +547,7 @@ Haz las partes A y B (aquí abajo), en papel o en esta hoja, y manda una foto al
 
 ### (3) Tu escritorio en coreano · 7 minutos
 1. Sácale una foto a tu escritorio o a tu pieza. Puede ser cualquier mesa: no tienes que mostrar tu casa.
-2. Escribe **5 frases con el teclado coreano** que digan dónde está cada cosa: 책이 책상 위에 있어요.
+2. Escribe **5 frases con el teclado coreano** que digan dónde está cada cosa: 책이 책상 위에 있어요. *(nuevo)* Si quieres, usa también 오른쪽, 왼쪽, 사이 y 밖.
 3. Manda la foto y las 5 frases al grupo.
 
 Antes de enviar, revisa:

@@ -129,6 +129,70 @@
       "descripcion": "D4 안: gato dentro de un bolso (asoma la cabeza, patitas en el borde); misma escala; sin insignia"
     },
     {
+      "L": "9b",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L9b_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 밖 (고양이가 집 밖에 있어요): la misma casa de 앞/뒤, vista de frente, con un ventanal que deja ver adentro vacío (la camita azul del gato, sin gato); el gato afuera, sentado en el pasto del jardín a la derecha, lejos de la puerta (que está a la izquierda, con su caminito a la calle), para no confundir con 앞 ni con 옆; gato a la misma escala que 앞/뒤. Respaldo del dibujo anterior (bolso): L9b_palabra0_bolso.svg"
+    },
+    {
+      "L": "9b",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L9b_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 사이: el gato sentado entre una silla de madera (estilo flashcard 의자, sin cara) y el escritorio de L8; los tres en el suelo, misma escala"
+    },
+    {
+      "L": "9b",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L9b_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 오른쪽: el escritorio de L8 y el gato a la DERECHA (desde quien mira), con flecha azul gruesa → encima del gato"
+    },
+    {
+      "L": "9b",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L9b_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "D4 왼쪽: espejo de 오른쪽: el gato a la IZQUIERDA del escritorio (desde quien mira), con flecha azul gruesa ← encima; el gato espejado con la cola hacia afuera y el brillo de los ojos sin voltear"
+    },
+    {
+      "L": "13b",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L13b_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Copia de L9b_palabra1 (사이): el gato entre la silla y el escritorio"
+    },
+    {
+      "L": "13b",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L13b_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Copia de L9b_palabra2 (오른쪽): el gato a la derecha del escritorio, sin flecha (en el ejercicio la flecha regalaría la respuesta)"
+    },
+    {
+      "L": "13b",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L13b_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Copia de L9b_palabra0 (밖): la casa con el ventanal vacío y el gato afuera, en el jardín, lejos de la puerta. Respaldo del dibujo anterior (bolso): L13b_item2_bolso.svg"
+    },
+    {
+      "L": "13b",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L13b_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Copia de L9b_palabra3 (왼쪽): el gato a la izquierda del escritorio, sin flecha (en el ejercicio la flecha regalaría la respuesta)"
+    },
+    {
       "L": "15",
       "destino": "slide",
       "indice": 0,
