@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 읽다 · leer · Estilo A Sticker pop · joven sentado en un sillón leyendo un libro abierto -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M46 186 L46 72 C46 42 70 30 110 30 C150 30 174 42 174 72 L174 186 Z"/>
+<rect x="32" y="132" width="36" height="54" rx="14"/>
+<rect x="152" y="132" width="36" height="54" rx="14"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M46 186 L46 72 C46 42 70 30 110 30 C150 30 174 42 174 72 L174 186 Z"/>
+<rect x="32" y="132" width="36" height="54" rx="14"/>
+<rect x="152" y="132" width="36" height="54" rx="14"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M46 186 L46 72 C46 42 70 30 110 30 C150 30 174 42 174 72 L174 186 Z"/>
+<rect x="32" y="132" width="36" height="54" rx="14"/>
+<rect x="152" y="132" width="36" height="54" rx="14"/>
+</g>
+<!-- sillón dorado: respaldo y cojín -->
+<path d="M46 186 L46 72 C46 42 70 30 110 30 C150 30 174 42 174 72 L174 186 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M58 186 L58 78 C58 54 78 42 110 42 C142 42 162 54 162 78 L162 186" fill="#FFD95E" stroke="#B9861E" stroke-width="3" stroke-linejoin="round"/>
+<!-- persona: orejas, torso, cuello, cabeza, pelo corto -->
+<ellipse cx="70" cy="96" rx="7" ry="9" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="150" cy="96" rx="7" ry="9" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<path d="M62 186 C62 158 84 142 110 142 C136 142 158 158 158 186 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M98 118 L98 144 Q110 151 122 144 L122 118 Z" fill="#C98A5E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="110" cy="86" rx="40" ry="38" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<path d="M70 86 C66 52 88 38 110 38 C132 38 154 52 150 86 C146 72 138 64 128 62 C122 68 112 70 102 66 C94 70 84 70 78 70 C74 74 72 80 70 86 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M88 48 Q100 43 112 44" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- cara -->
+<ellipse cx="98.1" cy="96" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="96" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="93.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="93.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="107.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="107.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 107.05 Q110 117.25 116.8 107.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- libro abierto: tapa azul y dos páginas -->
+<path d="M60 152 L110 160 L160 152 L160 186 L110 194 L60 186 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M64 146 Q88 138 110 154 L110 188 Q88 174 64 182 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M156 146 Q132 138 110 154 L110 188 Q132 174 156 182 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M72 154 Q88 148 102 158" stroke="#B3B8D6" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M72 165 Q88 159 102 169" stroke="#B3B8D6" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M148 154 Q132 148 118 158" stroke="#B3B8D6" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M148 165 Q132 159 118 169" stroke="#B3B8D6" stroke-width="3.5" stroke-linecap="round"/>
+<!-- brazos del sillón (delante) y manos que sostienen el libro -->
+<rect x="32" y="132" width="36" height="54" rx="14" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<rect x="152" y="132" width="36" height="54" rx="14" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M42 146 L58 146" stroke="#B9861E" stroke-width="3" stroke-linecap="round"/>
+<path d="M162 146 L178 146" stroke="#B9861E" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="66" cy="168" rx="10" ry="12" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="154" cy="168" rx="10" ry="12" fill="#C98A5E" stroke="#14142B" stroke-width="4"/>
+<!-- adornos -->
+<path d="M22 16 Q24 24 32 26 Q24 28 22 36 Q20 28 12 26 Q20 24 22 16 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M202 104 Q203.6 110.4 210 112 Q203.6 113.6 202 120 Q200.4 113.6 194 112 Q200.4 110.4 202 104 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="198" cy="26" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

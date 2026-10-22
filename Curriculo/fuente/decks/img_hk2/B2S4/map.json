@@ -1,0 +1,312 @@
+{
+  "imagenes": [
+    {
+      "L": "3",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L3_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Bicicleta azul de lado (자전거를 타요), sin persona"
+    },
+    {
+      "L": "3",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L3_item1.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 사진: cámara instantánea azul que imprime una foto (사진을 찍어요)"
+    },
+    {
+      "L": "3",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L3_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Café y pan juntos (커피하고 빵): flashcards 커피 y 빵 en una misma escena"
+    },
+    {
+      "L": "3",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L3_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "서아 (6 años, colitas negras con moños dorados, polera amarilla) sentada en un columpio de madera, tomada de las cuerdas"
+    },
+    {
+      "L": "3",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L3_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "하나 (izq., pelo negro largo) y 도윤 (der., polera blanca) cada uno con una cámara azul delante del pecho (사진을 찍어요); destellos dorados del flash"
+    },
+    {
+      "L": "4",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L4_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Videollamada en pantalla partida (ventana tipo Zoom): izquierda 산티아고 de noche (21:00): Valentina en su escritorio con el cuaderno de coreano abierto, lámpara encendida y ventana con luna y estrellas; derecha 서울 de mañana (09:00): 하나 con el pelo mojado (gotas), bolso de natación navy al hombro y café para llevar, edificios y sol. Etiquetas 산티아고 y 서울 y relojes 21:00 / 09:00"
+    },
+    {
+      "L": "7",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L7_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "아침: ventana con cortinas azules y el sol (con cara) saliendo detrás de una loma, y delante una taza de café humeante (flashcard 커피)"
+    },
+    {
+      "L": "7",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L7_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "저녁: la misma ventana con el cielo azul oscuro y la primera estrella (dorada), y delante una lámpara encendida con su halo amarillo"
+    },
+    {
+      "L": "7",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L7_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 오늘: calendario con cara y un día dorado encerrado en un círculo azul, con un dedo que lo señala"
+    },
+    {
+      "L": "7",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L7_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "내일: calendario de la casa (cabecera azul con cara) con hoy en dorado y el día siguiente en azul, y una flecha dorada que salta de hoy a mañana"
+    },
+    {
+      "L": "7",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L7_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "언제: reloj azul de la casa (como la flashcard 시계) con un globo azul con signo de pregunta"
+    },
+    {
+      "L": "8",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L8_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "아침 (parte del día): el sol con cara saliendo detrás de una loma verde"
+    },
+    {
+      "L": "8",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L8_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "내일 (el día siguiente): el mismo calendario de L7 con hoy en dorado, mañana en azul y la flecha que salta"
+    },
+    {
+      "L": "8",
+      "destino": "col",
+      "indice": 2,
+      "archivo": "L8_col2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "내일 아침에: el calendario de 내일 + el sol saliendo (las dos imágenes de las columnas anteriores, juntas)"
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L9_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "점심: el sol alto (arriba) y el tazón de arroz con cuchara y palillos de la flashcard 밥"
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L9_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "밤: luna creciente dorada, estrellas y la cama de la flashcard 침대 (hora de dormir)"
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L9_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "주말: calendario de la casa con 7 columnas; sábado y domingo (las dos últimas) en azul sobre una franja dorada"
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L9_palabra3.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 매일: calendario con todos los días marcados"
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L9_palabra4.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 지금: despertador con un dedo que lo señala"
+    },
+    {
+      "L": "11",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L11_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Gran signo de pregunta azul; abajo, dos toallas dobladas con un gorro de natación navy y unas gafas de natación encima, y un despertador azul que marca las 7:00 (con su letrero 07:00); sin piscina ni nadador"
+    },
+    {
+      "L": "13",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L13_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Cuatro miniaturas alineadas con las 4 parejas de filas de la tabla (arriba queda libre, a la altura del subtítulo y la cabecera): 하나 con el pelo mojado, la correa y el bolso de natación y unas gafas (mismo diseño de L4); 도윤 con gorro de chef y delantal azul marino junto a una olla humeante; 마테오 (pelo crespo) con su camiseta verde y una pelota de fútbol; 콩이 (perrito café, collar amarillo) en el parque, en el pasto junto a un árbol"
+    },
+    {
+      "L": "14",
+      "destino": "col",
+      "indice": 0,
+      "archivo": "L14_col0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Las tres actividades de la columna: gafas de natación (수영), pesa (운동) y libro abierto (공부)"
+    },
+    {
+      "L": "14",
+      "destino": "col",
+      "indice": 1,
+      "archivo": "L14_col1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Las tres comidas con su momento arriba: desayuno (sol saliendo) = café y pan (flashcards 커피 y 빵) en una bandeja; almuerzo (sol alto) = arroz (flashcard 밥) y sopa en una bandeja; cena (luna) = 불고기 (flashcard)"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L15_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "아침 + 커피를 마셔요: el sol saliendo y la taza de café (flashcard 커피)"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L15_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "저녁 + 요리해요: luna creciente, una estrella y una olla azul humeante"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L15_item2.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 오늘: el día de hoy marcado en el calendario"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L15_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Copia de L7_palabra3 (내일): calendario con hoy en dorado, mañana en azul y la flecha que salta"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L15_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "밤 + 드라마를 봐요: luna creciente y estrellas sobre el televisor de la flashcard 텔레비전"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 5,
+      "archivo": "L15_item5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "주말 + 자전거를 타요: el calendario de fin de semana (sábado y domingo en azul) y la bicicleta azul"
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L18_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "서아 cantando con los ojos felices y un micrófono de juguete (bola dorada, mango azul), con notas musicales"
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L18_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "콩이 (perrito café con collar amarillo: el dibujo de la flashcard 강아지 recoloreado) sentado en el pasto del parque junto a un árbol"
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L18_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "마테오 (camiseta verde de fútbol, pelo crespo) andando en la bicicleta azul"
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L18_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Valentina (pelo largo café, polera menta) con su cuaderno de coreano abierto en las manos"
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L18_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "도윤 (pelo negro corto, polera blanca con cuello navy) sacando una foto con una cámara azul; destello dorado del flash"
+    },
+    {
+      "L": "18",
+      "destino": "item",
+      "indice": 5,
+      "archivo": "L18_item5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "하나 (pelo negro largo, blusa azul con cuello blanco) con un café para llevar humeante en la mano"
+    },
+    {
+      "L": "22",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L22_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Cadena de 4 globos de diálogo azules en zigzag, unidos por flechas doradas, cada uno con un icono: oficina (일해요), pesa (운동해요), olla (요리해요), bicicleta (자전거를 타요)"
+    },
+    {
+      "L": "23",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L23_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dos recuadros de Zoom con nombre: Valentina (arriba) con un globo azul con la oficina (저는 내일 일해요); Mateo (abajo) con un globo azul que repite la oficina y agrega la pesa (… 일해요. 저는 내일 운동해요.)"
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "1",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la portada de la plantilla ya trae el logo azul de Academia Seúl y el sello del tigre."
+    },
+    {
+      "L": "5",
+      "motivo": "otro",
+      "instruccion": "Opcional, en PowerPoint: si quieres la videollamada en miniatura arriba, copia la imagen de la lámina 4 (L4_slide.svg), achícala a unos 2\" de ancho y pégala sobre las tarjetas; el generador no tiene un lugar «arriba» y, a la derecha o dentro de cada tarjeta, achica demasiado las frases del diálogo. Para resaltar 아침에, 저녁에 y 내일 en azul, selecciona esas palabras en las tarjetas y cámbiales el color a #4236F6 (las frases ya salen en azul: si quieres contraste, deja el resto en navy #003478)."
+    }
+  ]
+}

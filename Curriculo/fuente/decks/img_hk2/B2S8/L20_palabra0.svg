@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 드라마 · serie, K-drama · Estilo A Sticker pop · televisor con una pareja coreana mirándose y, delante, una caja de pañuelos emocionada (lágrima azul) -->
+<defs>
+<clipPath id="pantalla"><rect x="30" y="42" width="100" height="74" rx="6"/></clipPath>
+</defs>
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="72" y="122" width="16" height="14"/>
+<rect x="52" y="134" width="56" height="10" rx="5"/>
+<rect x="20" y="32" width="120" height="94" rx="12"/>
+<path d="M140 130 Q134 112 146 106 Q148 92 160 96 Q170 88 174 102 Q186 108 176 130 Z"/>
+<rect x="122" y="128" width="70" height="52" rx="8"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="72" y="122" width="16" height="14"/>
+<rect x="52" y="134" width="56" height="10" rx="5"/>
+<rect x="20" y="32" width="120" height="94" rx="12"/>
+<path d="M140 130 Q134 112 146 106 Q148 92 160 96 Q170 88 174 102 Q186 108 176 130 Z"/>
+<rect x="122" y="128" width="70" height="52" rx="8"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="72" y="122" width="16" height="14"/>
+<rect x="52" y="134" width="56" height="10" rx="5"/>
+<rect x="20" y="32" width="120" height="94" rx="12"/>
+<path d="M140 130 Q134 112 146 106 Q148 92 160 96 Q170 88 174 102 Q186 108 176 130 Z"/>
+<rect x="122" y="128" width="70" height="52" rx="8"/>
+</g>
+<!-- pie del televisor -->
+<rect x="72" y="122" width="16" height="14" fill="#2A1FC7" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="52" y="134" width="56" height="10" rx="5" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<!-- marco y pantalla -->
+<rect x="20" y="32" width="120" height="94" rx="12" fill="#4236F6" stroke="#14142B" stroke-width="4"/>
+<rect x="30" y="42" width="100" height="74" rx="6" fill="#9FD8FF"/>
+<g clip-path="url(#pantalla)">
+<!-- ella: pelo largo negro, blusa lila; mira a la derecha -->
+<path d="M46 118 L46 86 C46 70 54 64 62 64 C70 64 78 70 78 86 L78 118 Z" fill="#14142B"/>
+<path d="M40 120 C40 104 50 98 62 98 C74 98 84 104 84 120 Z" fill="#C7B8FF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="62" cy="82" r="14" fill="#FFE0C4" stroke="#14142B" stroke-width="3"/>
+<path d="M48 84 C47 71 55 66 62 66 C70 66 77 71 76 80 C70 75 62 74 56 78 C52 80 50 82 48 84 Z" fill="#14142B"/>
+<ellipse cx="61" cy="84" rx="2.2" ry="3" fill="#14142B"/>
+<ellipse cx="69" cy="84" rx="2.2" ry="3" fill="#14142B"/>
+<circle cx="61.8" cy="82.8" r="0.9" fill="#FFFFFF"/>
+<circle cx="69.8" cy="82.8" r="0.9" fill="#FFFFFF"/>
+<ellipse cx="56" cy="89.5" rx="2.5" ry="1.7" fill="#FFB98A"/>
+<ellipse cx="72" cy="89.5" rx="2.5" ry="1.7" fill="#FFB98A"/>
+<path d="M62.5 89.5 Q65 93.5 67.5 89.5 Z" fill="#14142B" stroke="#14142B" stroke-width="1.5" stroke-linejoin="round"/>
+<!-- él: pelo corto castaño, traje navy; mira a la izquierda -->
+<path d="M76 120 C76 104 86 98 98 98 C110 98 120 104 120 120 Z" fill="#003478" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M92 99 L98 108 L104 99 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M84 84 C82 68 90 64 98 64 C106 64 114 68 112 84 Z" fill="#4A3426" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="98" cy="82" r="14" fill="#FFE0C4" stroke="#14142B" stroke-width="3"/>
+<path d="M84 80 C84 70 91 66 98 66 C106 66 112 70 112 80 C106 74 96 72 88 76 C86 77 85 78 84 80 Z" fill="#4A3426"/>
+<ellipse cx="91" cy="84" rx="2.2" ry="3" fill="#14142B"/>
+<ellipse cx="99" cy="84" rx="2.2" ry="3" fill="#14142B"/>
+<circle cx="91.8" cy="82.8" r="0.9" fill="#FFFFFF"/>
+<circle cx="99.8" cy="82.8" r="0.9" fill="#FFFFFF"/>
+<ellipse cx="88" cy="89.5" rx="2.5" ry="1.7" fill="#FFB98A"/>
+<ellipse cx="103" cy="89.5" rx="2.5" ry="1.7" fill="#FFB98A"/>
+<path d="M92.5 89.5 Q95 93.5 97.5 89.5 Z" fill="#14142B" stroke="#14142B" stroke-width="1.5" stroke-linejoin="round"/>
+<!-- chispa dorada entre los dos -->
+<path d="M80 48 Q81.2 54.8 88 56 Q81.2 57.2 80 64 Q78.8 57.2 72 56 Q78.8 54.8 80 48 Z" fill="#FFD95E" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M114 48 Q122 48 124 56" stroke="#E6F5FF" stroke-width="4" stroke-linecap="round" fill="none"/>
+</g>
+<rect x="30" y="42" width="100" height="74" rx="6" fill="none" stroke="#14142B" stroke-width="3.5"/>
+<!-- caja de pañuelos -->
+<path d="M140 130 Q134 112 146 106 Q148 92 160 96 Q170 88 174 102 Q186 108 176 130 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M150 108 Q156 116 154 126" stroke="#B3B8D6" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+<path d="M166 104 Q163 114 168 124" stroke="#B3B8D6" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+<rect x="122" y="128" width="70" height="52" rx="8" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M130 172 L184 172" stroke="#B9861E" stroke-width="3" stroke-linecap="round"/>
+<!-- cara de la casa en (157,152), s = 0,72, emocionada: lágrima azul y boca temblorosa -->
+<ellipse cx="146.92" cy="152" rx="4.68" ry="6.12" fill="#14142B"/>
+<ellipse cx="167.08" cy="152" rx="4.68" ry="6.12" fill="#14142B"/>
+<circle cx="148.5" cy="149.55" r="1.73" fill="#FFFFFF"/>
+<circle cx="168.66" cy="149.55" r="1.73" fill="#FFFFFF"/>
+<ellipse cx="138.28" cy="162.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<ellipse cx="175.72" cy="162.08" rx="5.04" ry="3.24" fill="#FFB98A"/>
+<path d="M150.5 164 Q153.75 160 157 164 Q160.25 168 163.5 164" stroke="#14142B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M179 141 C179 141 174.5 147 174.5 150 A4.5 4.5 0 0 0 183.5 150 C183.5 147 179 141 179 141 Z" fill="#8FB0FF" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/>
+<!-- adornos -->
+<path d="M190 25 Q192.2 33.8 201 36 Q192.2 38.2 190 47 Q187.8 38.2 179 36 Q187.8 33.8 190 25 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M28 168 Q29.6 174.4 36 176 Q29.6 177.6 28 184 Q26.4 177.6 20 176 Q26.4 174.4 28 168 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="88" cy="176" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

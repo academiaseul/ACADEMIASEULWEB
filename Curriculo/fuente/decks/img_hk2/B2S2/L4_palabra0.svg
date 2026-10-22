@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 먹다 · comer · Estilo A Sticker pop · niño feliz que muerde un pan, con migas -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M48 116 C38 56 70 36 98 36 C126 36 158 56 148 116 Z"/>
+<ellipse cx="98" cy="92" rx="46" ry="44"/>
+<path d="M58 196 C58 166 76 148 98 148 C120 148 138 166 138 196 Z"/>
+<path d="M130 184 L138 170" fill="none" stroke-width="42"/>
+<path d="M128.48 156.98 L128.48 122.54 A7 7 0 0 0 130 111 A7 7 0 0 0 136 102 A7 7 0 0 0 146 96.5 C152 92.5 162 92.5 168.8 99.86 C184.76 101.54 184.76 120.02 175.52 122.54 L175.52 156.98 Q175.52 161.18 171.32 161.18 L132.68 161.18 Q128.48 161.18 128.48 156.98 Z"/>
+<ellipse cx="140" cy="163" rx="12" ry="9.5"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M48 116 C38 56 70 36 98 36 C126 36 158 56 148 116 Z"/>
+<ellipse cx="98" cy="92" rx="46" ry="44"/>
+<path d="M58 196 C58 166 76 148 98 148 C120 148 138 166 138 196 Z"/>
+<path d="M130 184 L138 170" fill="none" stroke-width="42"/>
+<path d="M128.48 156.98 L128.48 122.54 A7 7 0 0 0 130 111 A7 7 0 0 0 136 102 A7 7 0 0 0 146 96.5 C152 92.5 162 92.5 168.8 99.86 C184.76 101.54 184.76 120.02 175.52 122.54 L175.52 156.98 Q175.52 161.18 171.32 161.18 L132.68 161.18 Q128.48 161.18 128.48 156.98 Z"/>
+<ellipse cx="140" cy="163" rx="12" ry="9.5"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M48 116 C38 56 70 36 98 36 C126 36 158 56 148 116 Z"/>
+<ellipse cx="98" cy="92" rx="46" ry="44"/>
+<path d="M58 196 C58 166 76 148 98 148 C120 148 138 166 138 196 Z"/>
+<path d="M130 184 L138 170" fill="none" stroke-width="35"/>
+<path d="M128.48 156.98 L128.48 122.54 A7 7 0 0 0 130 111 A7 7 0 0 0 136 102 A7 7 0 0 0 146 96.5 C152 92.5 162 92.5 168.8 99.86 C184.76 101.54 184.76 120.02 175.52 122.54 L175.52 156.98 Q175.52 161.18 171.32 161.18 L132.68 161.18 Q128.48 161.18 128.48 156.98 Z"/>
+<ellipse cx="140" cy="163" rx="12" ry="9.5"/>
+</g>
+<defs>
+<clipPath id="clipPan">
+<path d="M128.48 156.98 L128.48 122.54 A7 7 0 0 0 130 111 A7 7 0 0 0 136 102 A7 7 0 0 0 146 96.5 C152 92.5 162 92.5 168.8 99.86 C184.76 101.54 184.76 120.02 175.52 122.54 L175.52 156.98 Q175.52 161.18 171.32 161.18 L132.68 161.18 Q128.48 161.18 128.48 156.98 Z"/>
+</clipPath>
+</defs>
+<!-- pelo de atrás (corte tazón, negro) -->
+<path d="M48 116 C38 56 70 36 98 36 C126 36 158 56 148 116 Z" fill="#14142B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- cuerpo chico (niño): polera azul, cuello blanco -->
+<path d="M58 196 C58 166 76 148 98 148 C120 148 138 166 138 196 Z" fill="#4236F6" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M88 128 L88 150 Q98 156 108 150 L108 128 Z" fill="#FFE0C4" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M84 150 Q98 164 112 150 Q98 158 84 150 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M130 184 L138 170" stroke="#14142B" stroke-width="22" stroke-linecap="round"/>
+<path d="M130 184 L138 170" stroke="#4236F6" stroke-width="14" stroke-linecap="round"/>
+<!-- cabeza grande -->
+<ellipse cx="98" cy="92" rx="46" ry="44" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M52 102 C46 62 72 46 98 46 C124 46 150 62 144 102 C140 94 137 87 134 80 Q122 88 110 80 Q98 88 86 80 Q74 88 62 80 C59 87 56 94 52 102 Z" fill="#14142B"/>
+<path d="M144 102 C140 94 137 87 134 80 Q122 88 110 80 Q98 88 86 80 Q74 88 62 80 C59 87 56 94 52 102" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70 58 Q82 50 96 50" stroke="#5E6280" stroke-width="5" stroke-linecap="round"/>
+<!-- cara: ojos cerrados de gusto, mejillas, boca masticando -->
+<path d="M81 104 Q86.1 98.9 91.2 104" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M104.8 104 Q109.9 98.9 115 104" stroke="#14142B" stroke-width="3.5" stroke-linecap="round"/>
+<ellipse cx="75.9" cy="115.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="120.1" cy="115.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M91.2 115.05 Q98 125.25 104.8 115.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/>
+<!-- pan de molde con un mordisco: miga, corteza recortada y borde -->
+<path d="M128.48 156.98 L128.48 122.54 A7 7 0 0 0 130 111 A7 7 0 0 0 136 102 A7 7 0 0 0 146 96.5 C152 92.5 162 92.5 168.8 99.86 C184.76 101.54 184.76 120.02 175.52 122.54 L175.52 156.98 Q175.52 161.18 171.32 161.18 L132.68 161.18 Q128.48 161.18 128.48 156.98 Z" fill="#FFE6B8"/>
+<g clip-path="url(#clipPan)">
+<path d="M146 96.5 C152 92.5 162 92.5 168.8 99.86 C184.76 101.54 184.76 120.02 175.52 122.54 L175.52 156.98 Q175.52 161.18 171.32 161.18 L132.68 161.18 Q128.48 161.18 128.48 156.98 L128.48 122.54" stroke="#C98A3E" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<ellipse cx="156" cy="120" rx="3" ry="2" fill="#EDC27E"/>
+<ellipse cx="146" cy="140" rx="3" ry="2" fill="#EDC27E"/>
+<ellipse cx="162" cy="146" rx="2.5" ry="2" fill="#EDC27E"/>
+<path d="M128.48 156.98 L128.48 122.54 A7 7 0 0 0 130 111 A7 7 0 0 0 136 102 A7 7 0 0 0 146 96.5 C152 92.5 162 92.5 168.8 99.86 C184.76 101.54 184.76 120.02 175.52 122.54 L175.52 156.98 Q175.52 161.18 171.32 161.18 L132.68 161.18 Q128.48 161.18 128.48 156.98 Z" fill="none" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<!-- mano que sostiene el pan -->
+<ellipse cx="140" cy="163" rx="12" ry="9.5" fill="#FFE0C4" stroke="#14142B" stroke-width="4"/>
+<path d="M136 157 L136 162" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M143 156.5 L143 161.5" stroke="#14142B" stroke-width="2.5" stroke-linecap="round"/>
+<!-- migas que saltan del mordisco -->
+<ellipse cx="190" cy="62" rx="3" ry="2.4" fill="#EDC27E" stroke="#14142B" stroke-width="2.5"/>
+<ellipse cx="176" cy="76" rx="3.5" ry="2.8" fill="#EDC27E" stroke="#14142B" stroke-width="2.5"/>
+<ellipse cx="200" cy="86" rx="3" ry="2.4" fill="#EDC27E" stroke="#14142B" stroke-width="2.5"/>
+<!-- adornos -->
+<path d="M24 15 Q26.2 23.8 35 26 Q26.2 28.2 24 37 Q21.8 28.2 13 26 Q21.8 23.8 24 15 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M192 21 Q193.8 28.2 201 30 Q193.8 31.8 192 39 Q190.2 31.8 183 30 Q190.2 28.2 192 21 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="24" cy="162" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

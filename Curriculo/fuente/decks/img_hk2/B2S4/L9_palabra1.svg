@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B2S4 L9 · palabra 1 · 밤: luna creciente dorada, estrellas y la cama de la flashcard 침대 (hora de dormir) -->
+<g transform="translate(58 58) scale(1 1)"><g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><path d="M5.6 -27.44 A28 28 0 1 0 5.6 27.44 A29.4 29.4 0 0 1 5.6 -27.44 Z"/></g><g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><path d="M5.6 -27.44 A28 28 0 1 0 5.6 27.44 A29.4 29.4 0 0 1 5.6 -27.44 Z"/></g><g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round"><path d="M5.6 -27.44 A28 28 0 1 0 5.6 27.44 A29.4 29.4 0 0 1 5.6 -27.44 Z"/></g><path d="M5.6 -27.44 A28 28 0 1 0 5.6 27.44 A29.4 29.4 0 0 1 5.6 -27.44 Z" fill="#FFD95E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/></g><path d="M118 24 Q120 32 128 34 Q120 36 118 44 Q116 36 108 34 Q116 32 118 24 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/><path d="M168 54 Q169.6 60.4 176 62 Q169.6 63.6 168 70 Q166.4 63.6 160 62 Q166.4 60.4 168 54 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/><path d="M110 78 Q111.2 82.8 116 84 Q111.2 85.2 110 90 Q108.8 85.2 104 84 Q108.8 82.8 110 78 Z" fill="#FFD95E" stroke="#14142B" stroke-width="2.5" stroke-linejoin="round"/><g transform="translate(45.2 71.2) scale(0.68)"><g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M48 120 L48 66 Q48 44 70 44 L150 44 Q172 44 172 66 L172 120 Z"/>
+<path d="M58 108 L162 108 L182 156 L38 156 Z"/>
+<rect x="38" y="154" width="144" height="22" rx="4"/>
+<rect x="50" y="172" width="10" height="12" rx="3"/>
+<rect x="160" y="172" width="10" height="12" rx="3"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M48 120 L48 66 Q48 44 70 44 L150 44 Q172 44 172 66 L172 120 Z"/>
+<path d="M58 108 L162 108 L182 156 L38 156 Z"/>
+<rect x="38" y="154" width="144" height="22" rx="4"/>
+<rect x="50" y="172" width="10" height="12" rx="3"/>
+<rect x="160" y="172" width="10" height="12" rx="3"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M48 120 L48 66 Q48 44 70 44 L150 44 Q172 44 172 66 L172 120 Z"/>
+<path d="M58 108 L162 108 L182 156 L38 156 Z"/>
+<rect x="38" y="154" width="144" height="22" rx="4"/>
+<rect x="50" y="172" width="10" height="12" rx="3"/>
+<rect x="160" y="172" width="10" height="12" rx="3"/>
+</g>
+<rect x="50" y="172" width="10" height="12" rx="3" fill="#A86B3C" stroke="#14142B" stroke-width="3.5"/>
+<rect x="160" y="172" width="10" height="12" rx="3" fill="#A86B3C" stroke="#14142B" stroke-width="3.5"/>
+<path d="M48 120 L48 66 Q48 44 70 44 L150 44 Q172 44 172 66 L172 120 Z" fill="#C98A3E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="62" y="58" width="96" height="40" rx="10" fill="#A86B3C" stroke="#74461F" stroke-width="3"/>
+<path d="M60 70 Q62 56 76 54" stroke="#D9A35F" stroke-width="5" stroke-linecap="round"/>
+<rect x="78" y="82" width="64" height="28" rx="12" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<path d="M88 90 Q96 86 106 87" stroke="#DCE0FA" stroke-width="4" stroke-linecap="round"/>
+<path d="M58 108 L162 108 L182 156 L38 156 Z" fill="#E8B84B" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M58 108 L162 108 L166.2 118 L53.8 118 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3.5" stroke-linejoin="round"/>
+<rect x="38" y="154" width="144" height="22" rx="4" fill="#E8B84B" stroke="#14142B" stroke-width="4"/>
+<path d="M42 162 L178 162" stroke="#FFF4D9" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M42 169 L178 169" stroke="#FFF4D9" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M150 126 L158 144" stroke="#FFF4D9" stroke-width="4.5" stroke-linecap="round"/>
+<ellipse cx="98.1" cy="132" rx="5.53" ry="7.23" fill="#14142B"/>
+<ellipse cx="121.9" cy="132" rx="5.53" ry="7.23" fill="#14142B"/>
+<circle cx="99.97" cy="129.11" r="2.04" fill="#FFFFFF"/>
+<circle cx="123.77" cy="129.11" r="2.04" fill="#FFFFFF"/>
+<ellipse cx="87.9" cy="143.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<ellipse cx="132.1" cy="143.9" rx="5.95" ry="3.83" fill="#FFB98A"/>
+<path d="M103.2 143.05 Q110 153.25 116.8 143.05 Z" fill="#14142B" stroke="#14142B" stroke-width="2.55" stroke-linejoin="round"/></g><circle cx="204" cy="196" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

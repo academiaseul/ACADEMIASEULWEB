@@ -1,0 +1,227 @@
+{
+  "imagenes": [
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Videollamada en un notebook, en dos mitades: a la izquierda 하나 (pelo corto, blusa azul con cuello blanco) con un globo «?»; a la derecha 도윤 (polera blanca y delantal navy, fondo de azulejos de cocina) muestra la caja de juguetes amarilla de 서아 con un osito café y un conejo blanco de bufanda amarilla. No hay tren. Etiquetas 하나 y 도윤 como en Zoom."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L6_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "장난감: caja de juguetes amarilla abierta (borde azul) de la que asoman una pelota azul, un bloque verde y un osito."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L6_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "장난감 기차: tren de juguete (locomotora azul y amarilla con humo, vagón verde con carga)."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L6_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "장난감 비행기: avión de juguete blanco con alas amarillas, cola azul y hélice dorada."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L6_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "장난감 자동차: auto de juguete verde con llave de cuerda dorada en el techo."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L6_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "인형: muñeca de trapo genérica (pelo de lana café con moños azules, vestido azul con lunares y un parche cosido, medias a rayas)."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L6_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "곰 인형: osito de peluche café sentado, con moño azul y costuras."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 6,
+      "archivo": "L6_palabra6.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "토끼 인형: conejo de peluche blanco de orejas largas (interior lila) con bufanda amarilla; sin overol ni vestido."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 7,
+      "archivo": "L6_palabra7.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "강아지 인형: la flashcard 강아지 convertida en peluche (costuras punteadas en la cabeza, las orejas y el cuerpo, y una etiqueta cosida al costado)."
+    },
+    {
+      "L": "9",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L9_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "뭐가 있어요?: mochila azul abierta con bolsillo verde de la que salen un cuaderno, unos lentes y un celular (las tres son flashcards de Básico 1: 공책, 안경, 휴대폰). Si Jay prefiere, pega encima la foto de su propia mochila abierta."
+    },
+    {
+      "L": "10",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L10_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La repisa de 서아: repisa blanca de dos niveles en una pieza lila; arriba el osito café y el conejo blanco de bufanda amarilla, abajo el auto verde. Solo 3 juguetes (no hay tren, avión ni perrito), los mismos dibujos de L6."
+    },
+    {
+      "L": "12",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L12_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Chat genérico sin logos en el celular de Mateo (cabecera 하나): foto 1 muy de cerca de un tejido azul marino con rayas blancas y foto 2 de la pantalla redonda de un reloj con la hora (10:30), cada una con «이게 뭐예요?»; a la derecha, con flechas y los números 1 y 2, las fotos completas: calcetines azul marino con rayas blancas y un reloj inteligente negro."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L13_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "옷: ropa doblada en una pila (polera celeste, suéter dorado y pantalón navy)."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L13_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "치마: falda azul marino con pliegues y botón dorado."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L13_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "바지: pantalón de mezclilla con costuras doradas y bastas dobladas."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L13_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "운동화: un par de zapatillas blancas con talón, punta, cordones y franja de la suela en azul."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L13_palabra4.svg",
+      "origen": "flashcard",
+      "descripcion": "구두: flashcard de Básico 1 (zapatos de vestir)."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L13_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "양말: un par de calcetines azul marino con rayas blancas (puño blanco, talón y punta azules)."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 6,
+      "archivo": "L13_palabra6.svg",
+      "origen": "flashcard",
+      "descripcion": "안경: flashcard de Básico 1 (lentes)."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 7,
+      "archivo": "L13_palabra7.svg",
+      "origen": "flashcard",
+      "descripcion": "모자: flashcard de Básico 1 (sombrero dorado con cinta azul; no es un gorro de lana)."
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L16_item0.svg",
+      "origen": "flashcard",
+      "descripcion": "1 · zapatos de vestir: flashcard 구두."
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L16_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "2 · calcetines azul marino con rayas blancas (el mismo dibujo de L13)."
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L16_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "3 · pantalón de mezclilla (el mismo dibujo de L13)."
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L16_item3.svg",
+      "origen": "flashcard",
+      "descripcion": "4 · lentes: flashcard 안경."
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L16_item4.svg",
+      "origen": "flashcard",
+      "descripcion": "5 · gorro: flashcard 모자."
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 5,
+      "archivo": "L16_item5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "6 · falda azul marino (el mismo dibujo de L13)."
+    },
+    {
+      "L": "22",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L22_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Tablero de juego ilustrado: los 12 dibujos de L6 y L13 numerados del 1 al 12 en tres columnas, en el mismo orden que la tabla (1–4 tren, avión, auto, osito; 5–8 conejo, perrito de peluche, falda, pantalón; 9–12 zapatillas, zapatos, calcetines, lentes)."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "1",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la portada de la plantilla ya trae el logo azul de Academia Seúl y el sello del tigre."
+    }
+  ]
+}

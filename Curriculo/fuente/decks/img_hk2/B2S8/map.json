@@ -1,0 +1,371 @@
+{
+  "imagenes": [
+    {
+      "L": "2",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L2_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Tres plátanos sueltos (dibujo de la flashcard 바나나, separados para contarlos), para 바나나가 몇 개 있어요?"
+    },
+    {
+      "L": "2",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L2_item4.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 가방: una mochila (azul y menta), para 가방이 몇 개 있어요? (한 개)"
+    },
+    {
+      "L": "2",
+      "destino": "item",
+      "indice": 5,
+      "archivo": "L2_item5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Cinco lápices amarillos parados en fila, iguales y separados para contarlos (estilo de la flashcard 연필), para 연필이 몇 개 있어요?"
+    },
+    {
+      "L": "4",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L4_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Pantalla de un chat de grupo genérico (celular sin marca ni app reconocible): arriba los avatares de 하나, 발렌티나 y 마테오; burbujas grises (하나 y 마테오, con su avatar y nombre) y azules (발렌티나, a la derecha), con rayitas en vez de texto; dentro del chat, la foto de un elefante en el zoológico (cielo, árbol, valla) y la de un plato de ramyeon con caldo dorado visto desde arriba."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L6_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "커요: un elefante enorme (dibujo propio) y, a sus pies, 콩이, el perrito de 도윤, chiquitito al lado."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L6_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "작아요: 콩이 solo, chiquitito, en un círculo lila grande, con dos flechas azules que apuntan hacia él desde los lados."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L6_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "재미있어요: 발렌티나 y 마테오 muertos de la risa en el carro azul de una montaña rusa, con un brazo arriba cada uno."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L6_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "재미없어요: 마테오, aburrido y con una gota de sudor, mira su reloj de pulsera al final de una fila larguísima de gente (de espaldas, que se pierde a la izquierda); reloj de pared arriba."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L6_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "맛있어요: 도윤 con gorro y delantal de cocinero, feliz y con el pulgar arriba, detrás de su olla de ramyeon humeante (olla de la flashcard 라면)."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L6_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "맛없어요: un adulto con cara de asco (ojos apretados, boca ondulada) y la mano levantada frente a una taza de café aguado (color café con leche clarito) con humo gris oscuro de quemado."
+    },
+    {
+      "L": "8",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L8_slide.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 김치 (Básico 1) centrada en el formato de la lámina (425 × 490), sin cambios en el dibujo."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L11_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "1: la olla de ramyeon humeante de la flashcard 라면 con tres estrellas azules de calificación arriba."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L11_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "2: una adulta aburrida (ojos a media asta, boca recta) mira su reloj de pulsera; arriba a la izquierda, el ícono de la flashcard 영화 (claqueta y cabritas) para decir «película»."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L11_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "3: 콩이 chiquitito (la misma imagen de 작아요 en L6)."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L11_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "4: una mochila enorme (la de la flashcard 가방) junto a 하나, que le llega a la mitad y la mira con la boca abierta."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L11_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "5: un adulto con cara de asco frente al café aguado y quemado (la misma imagen de 맛없어요 en L6)."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 5,
+      "archivo": "L11_item5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "6: 발렌티나, feliz, en su laptop (sin marcas) en plena clase de coreano en línea; arriba a la derecha, el ícono de la flashcard 한국어 (globo con el sombrero 갓)."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L13_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "길어요: un plátano larguísimo (dibujo de la flashcard 바나나, estirado) con una flecha doble azul debajo que marca el largo."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L13_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "짧아요: un lápiz cortito, gastado (estilo de la flashcard 연필), con una flecha doble azul corta debajo que marca el largo."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L13_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "뚱뚱해요: un gato gordito (el gato de la flashcard 고양이, ancho y redondo)."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L13_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "날씬해요: un gato delgado (el gato de la flashcard 고양이, angosto y esbelto)."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L13_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "코끼리: un elefante de perfil, gris lila, con la trompa curvada (dibujo propio)."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L13_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "기린: una jirafa de perfil, amarilla con manchas café (dibujo propio)."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 6,
+      "archivo": "L13_palabra6.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "코: el mismo elefante con la trompa destacada en azul y dos brillos al lado."
+    },
+    {
+      "L": "13",
+      "destino": "palabra",
+      "indice": 7,
+      "archivo": "L13_palabra7.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "목: la misma jirafa con el cuello destacado en azul y dos brillos al lado."
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L15_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Par 1 (A/B): A = olla de ramyeon humeante (flashcard 라면) con tres estrellas azules · B = la misma olla sin vapor, con caldo gris, carita triste, copos fríos y una sola estrella azul (las otras dos vacías)."
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L15_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Par 2 (A/B): A = 하나 y 마테오 en un sofá con cabritas, atentos (ojos grandes, boca de «oh») a la tele, que muestra una serie · B = la misma tele y el mismo sofá con un adulto aburrido que mira su celular."
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L15_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Par 3 (A/B): A = 하나 de pie con una mochila chiquita en el suelo, que le llega a la rodilla · B = 하나 de pie junto a una mochila enorme, más alta que ella (mochila de la flashcard 가방)."
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L15_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Par 4 (A/B): A = 콩이 gordito (cuerpo ancho y redondo) · B = 콩이 delgado (cuerpo angosto); misma cara y mismo collar azul."
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L15_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Par 5 (A/B): A = un lápiz largo · B = un lápiz corto; los dos con la punta en el mismo lugar para comparar (estilo de la flashcard 연필)."
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 5,
+      "archivo": "L15_item5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Par 6 (A/B): A = 하나 muerta de la risa delante del elefante del zoológico (valla de madera) · B = 하나 sentada en una banca de madera del zoológico, aburrida, mirando su reloj de pulsera (atrás, la valla, un árbol y el elefante lejos)."
+    },
+    {
+      "L": "20",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L20_palabra0.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 드라마 para «한국 드라마»."
+    },
+    {
+      "L": "20",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L20_palabra1.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 영화 para «한국 영화»."
+    },
+    {
+      "L": "20",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L20_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 한국어 para «한국어 수업»."
+    },
+    {
+      "L": "20",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L20_palabra3.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 김치 para «김치»."
+    },
+    {
+      "L": "20",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L20_palabra4.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 라면 para «라면»."
+    },
+    {
+      "L": "20",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L20_palabra5.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 불고기 para «불고기»."
+    },
+    {
+      "L": "20",
+      "destino": "palabra",
+      "indice": 6,
+      "archivo": "L20_palabra6.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 붕어빵 para «붕어빵»."
+    },
+    {
+      "L": "20",
+      "destino": "palabra",
+      "indice": 7,
+      "archivo": "L20_palabra7.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 커피 para «커피»."
+    },
+    {
+      "L": "22",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L22_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "코끼리: el elefante de L13 (dibujo propio), mismo tamaño de tarjeta que los otros animales."
+    },
+    {
+      "L": "22",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L22_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "기린: la jirafa de L13 (dibujo propio)."
+    },
+    {
+      "L": "22",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L22_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "곰: un oso café, gordito, sentado de frente (dibujo propio)."
+    },
+    {
+      "L": "22",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L22_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "토끼: un conejo gris claro, sentado de frente, con las orejas celestes por dentro (sin rosado; dibujo propio)."
+    },
+    {
+      "L": "22",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L22_palabra4.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 강아지."
+    },
+    {
+      "L": "22",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L22_palabra5.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard 고양이."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "1",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la portada de la plantilla ya trae el logo azul de Academia Seúl y el sello del tigre."
+    }
+  ]
+}

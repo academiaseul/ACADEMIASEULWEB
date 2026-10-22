@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- 안경 · lentes · Estilo A Sticker pop -->
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="66" cy="130" r="39"/>
+<circle cx="154" cy="130" r="39"/>
+<path d="M36 119 L48 64 Q51 54 60 56" fill="none" stroke-width="38"/>
+<path d="M184 119 L172 64 Q169 54 160 56" fill="none" stroke-width="38"/>
+<path d="M97 134 Q110 146 123 134" fill="none" stroke-width="38"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="66" cy="130" r="39"/>
+<circle cx="154" cy="130" r="39"/>
+<path d="M36 119 L48 64 Q51 54 60 56" fill="none" stroke-width="38"/>
+<path d="M184 119 L172 64 Q169 54 160 56" fill="none" stroke-width="38"/>
+<path d="M97 134 Q110 146 123 134" fill="none" stroke-width="38"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="66" cy="130" r="39"/>
+<circle cx="154" cy="130" r="39"/>
+<path d="M36 119 L48 64 Q51 54 60 56" fill="none" stroke-width="31"/>
+<path d="M184 119 L172 64 Q169 54 160 56" fill="none" stroke-width="31"/>
+<path d="M97 134 Q110 146 123 134" fill="none" stroke-width="31"/>
+</g>
+<path d="M36 119 L48 64 Q51 54 60 56" fill="none" stroke="#14142B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 119 L48 64 Q51 54 60 56" fill="none" stroke="#4236F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M184 119 L172 64 Q169 54 160 56" fill="none" stroke="#14142B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M184 119 L172 64 Q169 54 160 56" fill="none" stroke="#4236F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="66" cy="130" r="32" fill="#E6F5FF"/>
+<circle cx="154" cy="130" r="32" fill="#E6F5FF"/>
+<path d="M46 122 L60 106" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M48 134 L70 110" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M134 122 L148 106" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M136 134 L158 110" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="72" cy="136" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="148" cy="136" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="74.2" cy="132.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="150.2" cy="132.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="62" cy="152" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="158" cy="152" rx="7" ry="4.5" fill="#FFB98A"/>
+<circle cx="66" cy="130" r="32" fill="none" stroke="#14142B" stroke-width="18"/>
+<circle cx="154" cy="130" r="32" fill="none" stroke="#14142B" stroke-width="18"/>
+<circle cx="66" cy="130" r="32" fill="none" stroke="#4236F6" stroke-width="10"/>
+<circle cx="154" cy="130" r="32" fill="none" stroke="#4236F6" stroke-width="10"/>
+<path d="M97 134 Q110 146 123 134" fill="none" stroke="#14142B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M97 134 Q110 146 123 134" fill="none" stroke="#4236F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M48 108 Q56 100 66 99" stroke="#8FB0FF" stroke-width="3" stroke-linecap="round"/>
+<path d="M136 108 Q144 100 154 99" stroke="#8FB0FF" stroke-width="3" stroke-linecap="round"/>
+<path d="M110 38 Q112.4 47.6 122 50 Q112.4 52.4 110 62 Q107.6 52.4 98 50 Q107.6 47.6 110 38 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M26 188 Q27.6 194.4 34 196 Q27.6 197.6 26 204 Q24.4 197.6 18 196 Q24.4 194.4 26 188 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="110" cy="192" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

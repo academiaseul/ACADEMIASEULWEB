@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B2S4 L15 · item 4 · 밤 + 드라마를 봐요: luna creciente y estrellas sobre el televisor de la flashcard 텔레비전 -->
+<g transform="translate(52 48) scale(1 1)"><g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><path d="M4.8 -23.52 A24 24 0 1 0 4.8 23.52 A25.2 25.2 0 0 1 4.8 -23.52 Z"/></g><g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round"><path d="M4.8 -23.52 A24 24 0 1 0 4.8 23.52 A25.2 25.2 0 0 1 4.8 -23.52 Z"/></g><g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round"><path d="M4.8 -23.52 A24 24 0 1 0 4.8 23.52 A25.2 25.2 0 0 1 4.8 -23.52 Z"/></g><path d="M4.8 -23.52 A24 24 0 1 0 4.8 23.52 A25.2 25.2 0 0 1 4.8 -23.52 Z" fill="#FFD95E" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/></g><path d="M106 22 Q107.6 28.4 114 30 Q107.6 31.6 106 38 Q104.4 31.6 98 30 Q104.4 28.4 106 22 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/><path d="M196 33 Q197.4 38.6 203 40 Q197.4 41.4 196 47 Q194.6 41.4 189 40 Q194.6 38.6 196 33 Z" fill="#FFD95E" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/><g transform="translate(51.4 67.4) scale(0.66)"><g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="34" y="48" width="152" height="96" rx="12"/>
+<rect x="100" y="142" width="20" height="12"/>
+<rect x="44" y="152" width="132" height="32" rx="6"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<rect x="34" y="48" width="152" height="96" rx="12"/>
+<rect x="100" y="142" width="20" height="12"/>
+<rect x="44" y="152" width="132" height="32" rx="6"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<rect x="34" y="48" width="152" height="96" rx="12"/>
+<rect x="100" y="142" width="20" height="12"/>
+<rect x="44" y="152" width="132" height="32" rx="6"/>
+</g>
+<rect x="100" y="142" width="20" height="12" fill="#8A8FA8" stroke="#14142B" stroke-width="4" stroke-linejoin="round"/>
+<rect x="44" y="152" width="132" height="32" rx="6" fill="#C98A3E" stroke="#14142B" stroke-width="4"/>
+<rect x="54" y="160" width="52" height="17" rx="3" fill="#D9A35F" stroke="#14142B" stroke-width="3"/>
+<rect x="114" y="160" width="52" height="17" rx="3" fill="#D9A35F" stroke="#14142B" stroke-width="3"/>
+<circle cx="80" cy="168.5" r="3.2" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<circle cx="140" cy="168.5" r="3.2" fill="#E8B84B" stroke="#14142B" stroke-width="2.5"/>
+<rect x="34" y="48" width="152" height="96" rx="12" fill="#5E6280" stroke="#14142B" stroke-width="4"/>
+<rect x="44" y="58" width="132" height="76" rx="6" fill="#9FD8FF" stroke="#14142B" stroke-width="3.5"/>
+<path d="M150 65 Q161 65 168 72" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M54 124 Q56 128 62 128" stroke="#E6F5FF" stroke-width="4" stroke-linecap="round"/>
+<circle cx="110" cy="139" r="2.4" fill="#E8B84B"/>
+<ellipse cx="96" cy="96" rx="6.5" ry="8.5" fill="#14142B"/>
+<ellipse cx="124" cy="96" rx="6.5" ry="8.5" fill="#14142B"/>
+<circle cx="98.2" cy="92.6" r="2.4" fill="#FFFFFF"/>
+<circle cx="126.2" cy="92.6" r="2.4" fill="#FFFFFF"/>
+<ellipse cx="84" cy="110" rx="7" ry="4.5" fill="#FFB98A"/>
+<ellipse cx="136" cy="110" rx="7" ry="4.5" fill="#FFB98A"/>
+<path d="M102 109 Q110 121 118 109 Z" fill="#14142B" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>

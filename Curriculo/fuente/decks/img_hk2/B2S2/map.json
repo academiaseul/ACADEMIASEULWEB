@@ -1,0 +1,315 @@
+{
+  "imagenes": [
+    {
+      "L": "4",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L4_palabra0.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 먹다 (comer (먹어요))."
+    },
+    {
+      "L": "4",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L4_palabra1.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 마시다 (beber, tomar (마셔요))."
+    },
+    {
+      "L": "4",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L4_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 보다 (ver, mirar (봐요))."
+    },
+    {
+      "L": "4",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L4_palabra3.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 읽다 (leer (읽어요))."
+    },
+    {
+      "L": "5",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L5_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Escena 1: celular con el chat de grupo «한국어 친구들» (10:00) y 5 fotos: 하나 nadando en una piscina techada con gorro azul; 서아 cantando con un micrófono de juguete; 콩이 durmiendo en su cojín; 도윤 en su cocina con delantal azul marino y un sartén; 마테오 trotando en un parque, de espaldas, con gorra azul. Abajo a la derecha, una ventanita de videollamada con 발렌티나 (sorprendida) y 마테오 (sonriendo) mirando el celular. Personajes originales de la casa."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L6_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La foto de 하나 nadando (de L5) con un signo de pregunta: «와! 누가 수영해요?»."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L6_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La foto de 하나 nadando (de L5): «하나 씨가 수영해요.»."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L6_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La foto de 도윤 en su cocina (de L5) con un signo de pregunta: «도윤 씨가 노래해요?»."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L6_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La foto de 서아 cantando con su micrófono de juguete (de L5): «아니요, 서아가 노래해요.»."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L6_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La foto de la persona trotando de espaldas (de L5) con un signo de pregunta: «누가 운동해요? 마테오 씨?»."
+    },
+    {
+      "L": "6",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L6_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La foto de la persona trotando (de L5) con la cara sonriente de 마테오 en un círculo (es él): «네, 제가 운동해요! 하하.»."
+    },
+    {
+      "L": "7",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L7_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La escena 1 de L5 (misma imagen: chat «한국어 친구들» con las 5 fotos y la videollamada), para responder mirando las fotos."
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L8_palabra0.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 노래 (canción) · muestra a una persona cantando con micrófono y notas."
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L8_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "수영해요: una adulta (하나) nadando en una piscina techada con gorro azul, un brazo fuera del agua y salpicaduras."
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L8_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 운동하다 (hacer ejercicio (운동해요))."
+    },
+    {
+      "L": "8",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L8_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "이야기해요: dos adultos (un hombre de polera verde y una mujer de moño) conversan frente a frente en una mesita de café con dos tazas humeantes; globos de diálogo con puntos suspensivos."
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L9_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "전화해요: 하나 (pelo negro largo, polera azul) con el celular al oído, sonriendo, y ondas de sonido."
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L9_palabra1.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 공부하다 (estudiar (공부해요))."
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L9_palabra2.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 자다 (dormir (자요))."
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L9_palabra3.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 일어나다 (levantarse, despertarse (일어나요))."
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L9_palabra4.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 일하다 (trabajar (일해요))."
+    },
+    {
+      "L": "9",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L9_palabra5.svg",
+      "origen": "flashcard",
+      "descripcion": "Flashcard de Básico 1: 요리하다 (cocinar (요리해요))."
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L11_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Una mujer joven camina por la calle con el celular al oído y una bolsa de papel con pan (dos baguettes); edificios de fondo. (respuesta: 전화해요)"
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L11_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Un bebé durmiendo en su cuna de madera, tapado con una manta celeste con estrellitas; luna en la ventana y «Zzz». (respuesta: 자요)"
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L11_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Una mujer nadando en el mar (no en piscina): olas, sol, una nube y un velero a lo lejos; un brazo fuera del agua. (respuesta: 수영해요)"
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L11_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Dos amigas conversando en una banca del parque, mirándose; globos de diálogo con puntos suspensivos; árboles al fondo. (respuesta: 이야기해요)"
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L11_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Una mujer en pijama, recién despierta y despeinada, sentada al borde de la cama, apaga el despertador del velador, que marca las 7:00 (agujas). (respuesta: 일어나요)"
+    },
+    {
+      "L": "11",
+      "destino": "item",
+      "indice": 5,
+      "archivo": "L11_item5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Tres amigos cantando con micrófonos en una sala de karaoke, con la pantalla y notas musicales. (respuesta: 노래해요)"
+    },
+    {
+      "L": "12",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L12_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "서아 (de la escena 1: dos moños con cintas amarillas, vestido celeste) cantando con su micrófono de juguete, notas musicales y un gran signo de interrogación azul."
+    },
+    {
+      "L": "16",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L16_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "서아 cantando con su micrófono de juguete (izquierda) y, a su lado, 도윤 detrás del mesón de su cocina, con delantal azul marino y una olla, que mira a cámara con cara de «yo no»: cejas arriba, boca ondulada, gotita de sudor y la mano diciendo que no."
+    },
+    {
+      "L": "17",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L17_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Escena 2, vertical: el departamento de 도윤 un domingo en la mañana, con 3 ambientes apilados. Cocina (arriba): 도윤 con delantal azul marino revolviendo una olla. Pieza (al medio): 서아 sentada en la cama, bostezando y frotándose un ojo, recién despierta; 콩이 durmiendo a los pies de la cama (Zzz). Living (abajo): 하나 hablando por celular junto a la ventana; 발렌티나 estudiando en la mesa con un cuaderno y un lápiz; 마테오 cantando con una guitarra."
+    },
+    {
+      "L": "20",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L20_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Un micrófono de pie con notas musicales alrededor (sin personas). (1 · 노래해요)"
+    },
+    {
+      "L": "20",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L20_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Una cama con alguien tapado hasta la cabeza (solo asoma un mechón de pelo), luna en la ventana y «Zzz»; sin cara. (2 · 자요)"
+    },
+    {
+      "L": "20",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L20_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Una piscina vista desde atrás del nadador: alguien nada de espaldas a nosotros (solo la nuca y un brazo), con corcheras y espuma; sin cara. (3 · 수영해요)"
+    },
+    {
+      "L": "20",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L20_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Un escritorio con un cuaderno azul marino que dice «한국어» y un lápiz amarillo; sin personas. (4 · 공부해요)"
+    },
+    {
+      "L": "21",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L21_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La escena 2 de L17 (misma imagen: el departamento de 도윤 con cocina, pieza y living) para el drill en cadena."
+    },
+    {
+      "L": "30",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L30_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Escena A (sábado al mediodía, club con piscina y parrilla), letra «A» en la esquina: 하나 nadando en la piscina (gorro azul); 마테오 saltando la cuerda en el pasto; 도윤 en la parrilla con delantal azul marino; 서아 cantando con su micrófono de juguete sobre una manta a cuadros; 발렌티나 sentada en una silla de playa hablando por celular; 콩이 durmiendo a la sombra del árbol. Para S02_Imagen_A.png."
+    },
+    {
+      "L": "31",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L31_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Escena B, el mismo club con el mismo encuadre y fondo que A, letra «B» en la esquina, con 4 cambios: 마테오 nadando; 하나 saltando la cuerda; 발렌티나 cantando con el micrófono de juguete sobre la manta; 서아 sentada en la silla de playa hablando por un teléfono de juguete amarillo. Iguales que en A: 도윤 en la parrilla y 콩이 durmiendo bajo el árbol. Para S02_Imagen_B.png."
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "1",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la portada de la plantilla ya trae el logo azul de Academia Seúl y el sello del tigre."
+    }
+  ]
+}

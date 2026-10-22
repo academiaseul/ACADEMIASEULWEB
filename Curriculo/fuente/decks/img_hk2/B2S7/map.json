@@ -1,0 +1,443 @@
+{
+  "imagenes": [
+    {
+      "L": "3",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L3_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Living de 도윤 un domingo (escena original, personajes de la casa): 서아 (6, vestido amarillo, coletas) cuenta con el dedo un plato con 4 panes (flashcard 빵) sobre la mesa de centro; 콩이 (perrito café, collar amarillo) a sus pies; Valentina y Mateo sentados en el sofá azul; 도윤 (delantal navy) llega desde la cocina con una bolsa de papel cerrada y saluda con la mano (no se ven las manzanas)."
+    },
+    {
+      "L": "4a",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L4a_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "일 (1): teclado de celular navy con la tecla 1 iluminada en azul #4236F6 y 1 en la pantalla"
+    },
+    {
+      "L": "4a",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L4a_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "이 (2): teclado de celular navy con la tecla 2 iluminada en azul #4236F6 y 2 en la pantalla"
+    },
+    {
+      "L": "4a",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L4a_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "삼 (3): teclado de celular navy con la tecla 3 iluminada en azul #4236F6 y 3 en la pantalla"
+    },
+    {
+      "L": "4a",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L4a_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "사 (4): teclado de celular navy con la tecla 4 iluminada en azul #4236F6 y 4 en la pantalla"
+    },
+    {
+      "L": "4a",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L4a_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "오 (5): teclado de celular navy con la tecla 5 iluminada en azul #4236F6 y 5 en la pantalla"
+    },
+    {
+      "L": "4b",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L4b_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "육 (6): teclado de celular navy con la tecla 6 iluminada en azul #4236F6 y 6 en la pantalla"
+    },
+    {
+      "L": "4b",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L4b_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "칠 (7): teclado de celular navy con la tecla 7 iluminada en azul #4236F6 y 7 en la pantalla"
+    },
+    {
+      "L": "4b",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L4b_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "팔 (8): teclado de celular navy con la tecla 8 iluminada en azul #4236F6 y 8 en la pantalla"
+    },
+    {
+      "L": "4b",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L4b_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "구 (9): teclado de celular navy con la tecla 9 iluminada en azul #4236F6 y 9 en la pantalla"
+    },
+    {
+      "L": "4b",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L4b_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "십 (10): teclado de celular navy con las teclas 1 y 0 iluminadas en azul #4236F6 y 10 en la pantalla"
+    },
+    {
+      "L": "5a",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L5a_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "하나 (1): 1 puntos azules #4236F6 sobre una tarjeta blanca, ordenados como en una ficha de dominó"
+    },
+    {
+      "L": "5a",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L5a_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "둘 (2): 2 puntos azules #4236F6 sobre una tarjeta blanca, ordenados como en una ficha de dominó"
+    },
+    {
+      "L": "5a",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L5a_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "셋 (3): 3 puntos azules #4236F6 sobre una tarjeta blanca, ordenados como en una ficha de dominó"
+    },
+    {
+      "L": "5a",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L5a_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "넷 (4): 4 puntos azules #4236F6 sobre una tarjeta blanca, ordenados como en una ficha de dominó"
+    },
+    {
+      "L": "5a",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L5a_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "다섯 (5): 5 puntos azules #4236F6 sobre una tarjeta blanca, ordenados como en una ficha de dominó"
+    },
+    {
+      "L": "5b",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L5b_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "여섯 (6): 6 puntos azules #4236F6 sobre una tarjeta blanca, ordenados como en una ficha de dominó"
+    },
+    {
+      "L": "5b",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L5b_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "일곱 (7): 7 puntos azules #4236F6 sobre una tarjeta blanca, ordenados como en una ficha de dominó"
+    },
+    {
+      "L": "5b",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L5b_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "여덟 (8): 8 puntos azules #4236F6 sobre una tarjeta blanca, ordenados como en una ficha de dominó"
+    },
+    {
+      "L": "5b",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L5b_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "아홉 (9): 9 puntos azules #4236F6 sobre una tarjeta blanca, ordenados como en una ficha de dominó"
+    },
+    {
+      "L": "5b",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L5b_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "열 (10): 10 puntos azules #4236F6 sobre una tarjeta blanca, en dos filas de 5"
+    },
+    {
+      "L": "10",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L10_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "한 개: 1 pan (flashcard 빵, sin destellos) sobre una bandeja lila"
+    },
+    {
+      "L": "10",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L10_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "두 개: 2 panes (flashcard 빵, sin destellos) sobre una bandeja lila"
+    },
+    {
+      "L": "10",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L10_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "세 개: 3 panes (flashcard 빵, sin destellos) sobre una bandeja lila"
+    },
+    {
+      "L": "10",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L10_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "네 개: 4 panes (flashcard 빵, sin destellos) sobre una bandeja lila, en dos filas"
+    },
+    {
+      "L": "10",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L10_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "다섯 개: 5 panes (flashcard 빵, sin destellos) sobre una bandeja lila, en dos filas"
+    },
+    {
+      "L": "10",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L10_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "여섯 개: 6 panes (flashcard 빵, sin destellos) sobre una bandeja lila, en dos filas"
+    },
+    {
+      "L": "10",
+      "destino": "palabra",
+      "indice": 6,
+      "archivo": "L10_palabra6.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "일곱 개: 7 panes (flashcard 빵, sin destellos) sobre una bandeja lila, en dos filas"
+    },
+    {
+      "L": "10",
+      "destino": "palabra",
+      "indice": 7,
+      "archivo": "L10_palabra7.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "여덟 개: 8 panes (flashcard 빵, sin destellos) sobre una bandeja lila, en dos filas"
+    },
+    {
+      "L": "11",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L11_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "한 살: torta de cumpleaños con 1 vela azul (llamas amarillas)"
+    },
+    {
+      "L": "11",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L11_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "두 살: torta de cumpleaños con 2 velas azules (llamas amarillas)"
+    },
+    {
+      "L": "11",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L11_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "세 살: torta de cumpleaños con 3 velas azules (llamas amarillas)"
+    },
+    {
+      "L": "11",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L11_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "네 살: torta de cumpleaños con 4 velas azules (llamas amarillas)"
+    },
+    {
+      "L": "11",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L11_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "다섯 살: torta de cumpleaños con 5 velas azules (llamas amarillas)"
+    },
+    {
+      "L": "11",
+      "destino": "palabra",
+      "indice": 5,
+      "archivo": "L11_palabra5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "여섯 살: torta de cumpleaños con 6 velas azules en dos filas (llamas amarillas)"
+    },
+    {
+      "L": "11",
+      "destino": "palabra",
+      "indice": 6,
+      "archivo": "L11_palabra6.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "열 살: torta de cumpleaños con 10 velas azules en dos filas (llamas amarillas)"
+    },
+    {
+      "L": "11",
+      "destino": "palabra",
+      "indice": 7,
+      "archivo": "L11_palabra7.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "몇 살: torta de cumpleaños con un signo de pregunta azul en lugar de velas"
+    },
+    {
+      "L": "14",
+      "destino": "slide",
+      "indice": 0,
+      "archivo": "L14_slide.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "콩이 (perrito café de 도윤, collar amarillo, gorro de fiesta azul) sentado junto a una torta con 3 velas azules; banderines y confeti azul, oro y menta."
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L15_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "4 panes en dos filas de 2 sobre una bandeja (igual que L10 네 개)"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L15_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "2 tazas (flashcard 컵 repetida, sin destellos)"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L15_item2.svg",
+      "origen": "flashcard",
+      "descripcion": "1 caja de leche: flashcard 우유 tal cual"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L15_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "9 manzanas verdes en 3 filas de 3 (flashcard 사과 repetida, sin destellos)"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L15_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "3 sillas en fila (flashcard 의자 repetida, sin destellos)"
+    },
+    {
+      "L": "15",
+      "destino": "item",
+      "indice": 5,
+      "archivo": "L15_item5.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Estuche de lápices abierto y vacío (연필 0)"
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 0,
+      "archivo": "L16_item0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "서아 (6 años, coletas, vestido amarillo) con una torta de 6 velas azules"
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 1,
+      "archivo": "L16_item1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "콩이 (perrito café) con una torta de 3 velas azules"
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 2,
+      "archivo": "L16_item2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Un perro (flashcard 강아지, crema) con una torta de 2 velas azules"
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 3,
+      "archivo": "L16_item3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Un gato (flashcard 고양이) con una torta de 8 velas azules en dos filas"
+    },
+    {
+      "L": "16",
+      "destino": "item",
+      "indice": 4,
+      "archivo": "L16_item4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "La amiga de 서아 (7 años, dos moños, polera menta) con una torta de 7 velas azules"
+    },
+    {
+      "L": "18",
+      "destino": "palabra",
+      "indice": 0,
+      "archivo": "L18_palabra0.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "스무 살: torta con velas de número 2 y 0 en azul (20 años)"
+    },
+    {
+      "L": "18",
+      "destino": "palabra",
+      "indice": 1,
+      "archivo": "L18_palabra1.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Mateo (mexicano, camiseta verde de fútbol) con 25 en un globito azul"
+    },
+    {
+      "L": "18",
+      "destino": "palabra",
+      "indice": 2,
+      "archivo": "L18_palabra2.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "하나 (coreana, pelo largo negro, blusa azul) con 28 en un globito azul"
+    },
+    {
+      "L": "18",
+      "destino": "palabra",
+      "indice": 3,
+      "archivo": "L18_palabra3.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "Valentina (chilena, pelo castaño ondulado, polera menta) con 30 en un globito azul"
+    },
+    {
+      "L": "18",
+      "destino": "palabra",
+      "indice": 4,
+      "archivo": "L18_palabra4.svg",
+      "origen": "dibujo_nuevo",
+      "descripcion": "도윤 (coreano, cocinero: gorro y chaqueta blancos) con 33 en un globito azul"
+    }
+  ],
+  "sin_imagen": [
+    {
+      "L": "1",
+      "motivo": "plantilla",
+      "instruccion": "Nada que hacer: la portada de la plantilla ya trae el logo azul de Academia Seúl y el sello del tigre."
+    }
+  ]
+}

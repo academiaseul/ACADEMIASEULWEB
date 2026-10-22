@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B2S7 L5a · 하나 = 1 · ficha con 1 puntos azules -->
+<g transform="translate(3.3 3.85)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="13.2" stroke-linejoin="round" stroke-linecap="round"><rect x="26" y="26" width="168" height="168" rx="24"/></g>
+<g fill="#14142B" stroke="#14142B" stroke-width="13.2" stroke-linejoin="round" stroke-linecap="round"><rect x="26" y="26" width="168" height="168" rx="24"/></g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="9.35" stroke-linejoin="round" stroke-linecap="round"><rect x="26" y="26" width="168" height="168" rx="24"/></g>
+<rect x="26" y="26" width="168" height="168" rx="24" fill="#FFFFFF" stroke="#14142B" stroke-width="5"/><circle cx="110" cy="110" r="17" fill="#4236F6" stroke="#14142B" stroke-width="3"/><circle cx="104.56" cy="104.56" r="4.08" fill="#FFFFFF" opacity="0.55"/>
+</svg>

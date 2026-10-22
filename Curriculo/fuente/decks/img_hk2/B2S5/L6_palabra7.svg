@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220" fill="none">
+<!-- B2S5 L6 · 강아지 인형 · perrito de peluche: la flashcard 강아지 con costuras y etiqueta cosida -->
+<defs><filter id="stk" filterUnits="userSpaceOnUse" x="-40" y="-40" width="300" height="300" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6.5" result="d1"/><feGaussianBlur in="d1" stdDeviation="1.6" result="b1"/><feComponentTransfer in="b1" result="a1"><feFuncA type="linear" slope="6" intercept="-1.6"/></feComponentTransfer><feFlood flood-color="#FFFFFF" result="fw"/><feComposite in="fw" in2="a1" operator="in" result="W"/><feMorphology in="SourceAlpha" operator="dilate" radius="10" result="d2"/><feGaussianBlur in="d2" stdDeviation="1.6" result="b2"/><feComponentTransfer in="b2" result="a2"><feFuncA type="linear" slope="6" intercept="-1.6"/></feComponentTransfer><feFlood flood-color="#14142B" result="fk"/><feComposite in="fk" in2="a2" operator="in" result="KK"/><feOffset in="KK" dx="6" dy="7" result="s0"/><feComponentTransfer in="s0" result="S"><feFuncA type="linear" slope="0.28"/></feComponentTransfer><feMerge><feMergeNode in="S"/><feMergeNode in="KK"/><feMergeNode in="W"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g transform="translate(6 7)" opacity="0.28" fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M132 178 C162 180 178 156 170 134" fill="none" stroke-width="44"/>
+<path d="M62 66 C44 66 32 100 40 126 C46 140 64 132 68 112 Z"/>
+<path d="M138 66 C156 66 168 100 160 126 C154 140 136 132 132 112 Z"/>
+<ellipse cx="100" cy="94" rx="52" ry="42"/>
+<path d="M62 192 C56 156 72 124 100 124 C128 124 144 156 138 192 Z"/>
+<ellipse cx="86" cy="190" rx="13" ry="8.5"/>
+<ellipse cx="114" cy="190" rx="13" ry="8.5"/>
+<rect x="38" y="150" width="24" height="20" rx="3" transform="rotate(-14 50 160)"/>
+</g>
+<g fill="#14142B" stroke="#14142B" stroke-width="24" stroke-linejoin="round" stroke-linecap="round">
+<path d="M132 178 C162 180 178 156 170 134" fill="none" stroke-width="44"/>
+<path d="M62 66 C44 66 32 100 40 126 C46 140 64 132 68 112 Z"/>
+<path d="M138 66 C156 66 168 100 160 126 C154 140 136 132 132 112 Z"/>
+<ellipse cx="100" cy="94" rx="52" ry="42"/>
+<path d="M62 192 C56 156 72 124 100 124 C128 124 144 156 138 192 Z"/>
+<ellipse cx="86" cy="190" rx="13" ry="8.5"/>
+<ellipse cx="114" cy="190" rx="13" ry="8.5"/>
+<rect x="38" y="150" width="24" height="20" rx="3" transform="rotate(-14 50 160)"/>
+</g>
+<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="17" stroke-linejoin="round" stroke-linecap="round">
+<path d="M132 178 C162 180 178 156 170 134" fill="none" stroke-width="37"/>
+<path d="M62 66 C44 66 32 100 40 126 C46 140 64 132 68 112 Z"/>
+<path d="M138 66 C156 66 168 100 160 126 C154 140 136 132 132 112 Z"/>
+<ellipse cx="100" cy="94" rx="52" ry="42"/>
+<path d="M62 192 C56 156 72 124 100 124 C128 124 144 156 138 192 Z"/>
+<ellipse cx="86" cy="190" rx="13" ry="8.5"/>
+<ellipse cx="114" cy="190" rx="13" ry="8.5"/>
+<rect x="38" y="150" width="24" height="20" rx="3" transform="rotate(-14 50 160)"/>
+</g>
+<path d="M132 178 C162 180 178 156 170 134" fill="none" stroke="#14142B" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M132 178 C162 180 178 156 170 134" fill="none" stroke="#FFF4D9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M168 140 Q172 136 170 132" fill="none" stroke="#D9A35F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M62 192 C56 156 72 124 100 124 C128 124 144 156 138 192 Z" fill="#FFF4D9" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="100" cy="168" rx="18" ry="20" fill="#FFFFFF"/>
+<ellipse cx="86" cy="190" rx="13" ry="8.5" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="114" cy="190" rx="13" ry="8.5" fill="#FFFFFF" stroke="#14142B" stroke-width="4"/>
+<path d="M82 191 L82 196.5" fill="none" stroke="#14142B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 191 L90 196.5" fill="none" stroke="#14142B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 191 L110 196.5" fill="none" stroke="#14142B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M118 191 L118 196.5" fill="none" stroke="#14142B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="100" cy="94" rx="52" ry="42" fill="#FFF4D9" stroke="#14142B" stroke-width="4"/>
+<ellipse cx="119" cy="89" rx="15" ry="14" fill="#D9A35F"/>
+<path d="M62 66 C44 66 32 100 40 126 C46 140 64 132 68 112 Z" fill="#D9A35F" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M138 66 C156 66 168 100 160 126 C154 140 136 132 132 112 Z" fill="#D9A35F" stroke="#14142B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 58 Q104 52 110 54" fill="none" stroke="#14142B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="100" cy="114" rx="22" ry="15" fill="#FFFFFF"/>
+<ellipse cx="75" cy="106" rx="6.5" ry="4.2" fill="#FFB98A"/>
+<ellipse cx="125" cy="106" rx="6.5" ry="4.2" fill="#FFB98A"/>
+<ellipse cx="83" cy="91" rx="7.5" ry="9.5" fill="#14142B"/>
+<ellipse cx="117" cy="91" rx="7.5" ry="9.5" fill="#14142B"/>
+<circle cx="86" cy="86.8" r="3" fill="#FFFFFF"/>
+<circle cx="120" cy="86.8" r="3" fill="#FFFFFF"/>
+<circle cx="80.8" cy="95.5" r="1.5" fill="#FFFFFF"/>
+<circle cx="114.8" cy="95.5" r="1.5" fill="#FFFFFF"/>
+<path d="M92 105 Q100 100 108 105 Q106 111 100 112 Q94 111 92 105 Z" fill="#14142B" stroke="#14142B" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="97.5" cy="104" r="1.6" fill="#FFFFFF"/>
+<path d="M100 112 L100 116" fill="none" stroke="#14142B" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M91 115 Q95.5 122 100 116 Q104.5 122 109 115" fill="none" stroke="#14142B" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74 140 Q100 152 126 140" fill="none" stroke="#14142B" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74 140 Q100 152 126 140" fill="none" stroke="#4236F6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="153" r="6" fill="#E8B84B" stroke="#14142B" stroke-width="3"/>
+<g transform="rotate(-14 50 160)"><rect x="38" y="150" width="24" height="20" rx="3" fill="#DCE0FA" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/><rect x="41.5" y="153.5" width="17" height="13" rx="2" fill="none" stroke="#4236F6" stroke-width="1.8" stroke-dasharray="2.5 2.5"/><path d="M45 160 L55 160" fill="none" stroke="#4236F6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M61 160 L66 158" fill="none" stroke="#14142B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M100 54 L100 74" fill="none" stroke="#14142B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/><path d="M58 76 C48 80 42 100 46 120" fill="none" stroke="#8A5A3C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.5 4"/><path d="M142 76 C152 80 158 100 154 120" fill="none" stroke="#8A5A3C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.5 4"/><path d="M70 168 Q66 178 70 186" fill="none" stroke="#14142B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4"/><path d="M130 168 Q134 178 130 186" fill="none" stroke="#14142B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4"/>
+<path d="M188 31 Q190.2 39.8 199 42 Q190.2 44.2 188 53 Q185.8 44.2 177 42 Q185.8 39.8 188 31 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<path d="M26 167 Q27.8 174.2 35 176 Q27.8 177.8 26 185 Q24.2 177.8 17 176 Q24.2 174.2 26 167 Z" fill="#FFFFFF" stroke="#14142B" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="38" cy="38" r="6" fill="none" stroke="#14142B" stroke-width="3"/>
+</svg>

@@ -78,3 +78,8 @@ Curriculo/*/decks/_qa/
 
 # Vistas previas PNG de las imágenes de los decks (se regeneran con img_tools/render.js)
 Curriculo/fuente/decks/img/*/_png/
+
+# Decks con paginas de los libros 한글학교 한국어 1 y 2 (material con derechos del 재외동포교육진흥재단, uso en clase): nunca al repo publico
+_privado/
+Curriculo/fuente/decks/img_hk2/*/_png/
+Curriculo/*/decks_hk2/_qa/
