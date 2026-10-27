@@ -6,6 +6,8 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import { PrefsProvider, THEME_INIT_SCRIPT } from '@/lib/prefs';
+import { CampanaProvider } from '@/lib/campana';
+import { enLanzamiento, matriculaAbierta } from '@/lib/nivel1';
 import MetaPixel from '@/components/MetaPixel';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import MicrosoftClarity from '@/components/MicrosoftClarity';
@@ -44,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Academia Seúl | Aprende Coreano Online con Clases en Vivo',
     description:
-      'Clases de coreano en vivo con profesores nativos. Grupos pequeños, Método Chingu™. Matrícula octubre 2026 · LATAM, España y EE.UU.',
+      'Clases de coreano en vivo con profesores nativos. Básico 1 desde cero: 8 martes desde el 10 de noviembre de 2026, por Zoom · LATAM, España y EE.UU.',
     url: 'https://www.academiaseul.com',
     type: 'website',
     locale: 'es_CL',
@@ -78,8 +80,11 @@ export default function RootLayout({
       </head>
       <body className="bg-seoul-black antialiased overflow-x-hidden">
         <PrefsProvider>
+        {/* Precio de lanzamiento y cierre de matrícula según la fecha (valor inicial = el del build) */}
+        <CampanaProvider lanzamientoInicial={enLanzamiento()} matriculaInicial={matriculaAbierta()}>
         {children}
         <WhatsAppFloat />
+        </CampanaProvider>
         </PrefsProvider>
 
         {/* Analytics (cargan solo si las env vars existen) */}

@@ -5,17 +5,18 @@ const BASE = 'https://www.academiaseul.com';
 const HOY = new Date('2026-09-22');
 const BLOG_30SEP = new Date('2026-09-30');
 const BLOG_15OCT = new Date('2026-10-15');
+const B1NOV = new Date('2026-10-26'); // modo «Básico 1 · noviembre 2026»
 const JUNIO = new Date('2026-06-07');
 const MAYO = new Date('2026-05-20');
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
-    { url: `${BASE}/`, lastModified: HOY, changeFrequency: 'weekly', priority: 1 },
-    { url: `${BASE}/nivel-1`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE}/programa`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${BASE}/`, lastModified: B1NOV, changeFrequency: 'weekly', priority: 1 },
+    { url: `${BASE}/nivel-1`, lastModified: B1NOV, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${BASE}/programa`, lastModified: B1NOV, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${BASE}/generador-nombre`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/recursos`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${BASE}/test-nivel`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/test-nivel`, lastModified: B1NOV, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/sobre`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/recursos/guias`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE}/recursos/pronunciacion`, lastModified: HOY, changeFrequency: 'weekly', priority: 0.7 },
@@ -34,12 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/blog/por-que-en-corea-no-existe-el-piso-4`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${BASE}/blog/hangul-el-alfabeto-mas-cientifico`, lastModified: JUNIO, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${BASE}/blog/nunchi-el-arte-coreano-de-leer-el-ambiente`, lastModified: JUNIO, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${BASE}/faq`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/faq`, lastModified: B1NOV, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/hangul-dle`, lastModified: MAYO, changeFrequency: 'daily', priority: 0.5 },
     { url: `${BASE}/lector-coreano`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/dubu`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/hangul-race`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE}/taller`, lastModified: HOY, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/taller`, lastModified: B1NOV, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/privacidad`, lastModified: HOY, changeFrequency: 'yearly', priority: 0.2 },
     { url: `${BASE}/terminos`, lastModified: HOY, changeFrequency: 'yearly', priority: 0.2 },
   ];

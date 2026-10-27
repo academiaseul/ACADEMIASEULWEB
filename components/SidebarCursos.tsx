@@ -13,6 +13,8 @@ export type SidebarItem = {
   emoji?: string;
   sub?: string;
 };
+/** Curso que hoy no se inscribe (en curso o próximamente): link a su lista de espera. */
+export type SidebarProximo = SidebarItem & { href: string };
 
 function CursoBtn({
   c,
@@ -77,6 +79,8 @@ export default function SidebarCursos({
   onCurso,
   tituloCursos,
   tituloSecciones,
+  proximos = [],
+  tituloProximos,
   cta,
 }: {
   cursos: SidebarItem[];
@@ -85,13 +89,17 @@ export default function SidebarCursos({
   onCurso?: (id: string) => void;
   tituloCursos?: string;
   tituloSecciones?: string;
+  /** Solo en escritorio, bajo los cursos: los que hoy no se inscriben (gris, link a la lista de espera). */
+  proximos?: SidebarProximo[];
+  tituloProximos?: string;
   cta?: { label: string; href: string };
 }) {
   const [headerH, setHeaderH] = useState(120);
   const [activaSeccion, setActivaSeccion] = useState<string>("");
   const { t } = useT();
   // Los títulos que llegan por props ya vienen traducidos por quien los pasa.
-  const tituloCursosTxt = tituloCursos ?? t("Clases de octubre");
+  const tituloCursosTxt = tituloCursos ?? t("Cursos");
+  const tituloProximosTxt = tituloProximos ?? t("Próximamente");
   const tituloSeccionesTxt = tituloSecciones ?? t("En esta página");
 
   // Altura real del header fijo (nav + barra promo, que puede cerrarse).
@@ -148,6 +156,23 @@ export default function SidebarCursos({
               <CursoBtn key={c.id} c={c} activo={esActivo(c)} onCurso={onCurso} ir={ir} />
             ))}
           </nav>
+
+          {proximos.length > 0 && (
+            <>
+              <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-gray-400 mt-7 mb-2 px-1">{tituloProximosTxt}</div>
+              <nav className="flex flex-col gap-0.5">
+                {proximos.map((p) => (
+                  <a key={p.id} href={p.href} className="flex items-start gap-2.5 rounded-xl px-3 py-2 hover:bg-gray-50 transition opacity-75 hover:opacity-100">
+                    {p.emoji && <span className="text-base leading-none mt-0.5">{p.emoji}</span>}
+                    <span className="min-w-0">
+                      <span className="block text-[13px] font-semibold leading-tight text-gray-700">{p.label}</span>
+                      {p.sub && <span className="block text-[11px] text-gray-500 mt-0.5">{p.sub}</span>}
+                    </span>
+                  </a>
+                ))}
+              </nav>
+            </>
+          )}
 
           {secciones.length > 0 && (
             <>

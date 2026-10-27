@@ -17,7 +17,7 @@ const footerLinks = [
       { label: i18n('Conversacional 1 (A2.1)'), href: '/programa#a21' },
       { label: i18n('TOPIK II (B1+)'),         href: '/programa#topik2' },
       { label: i18n('Coreano para Niños'),     href: '/programa#ninos' },
-      { label: i18n('Inscripción octubre 2026'), href: '/nivel-1#clases' },
+      { label: i18n('Inscripción Básico 1 · noviembre'), href: '/nivel-1?clase=a11-martes#clases' },
     ],
   },
   {

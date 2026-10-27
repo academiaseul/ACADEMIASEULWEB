@@ -35,7 +35,7 @@ export default function Terminos() {
           Términos y <span className="text-gradient-red">Condiciones</span>
         </h1>
         <p className="text-white/40 text-sm mb-12">
-          Última actualización: septiembre 2026
+          Última actualización: octubre 2026
         </p>
 
         <div className="space-y-10 text-white/70 leading-relaxed text-[15px]">
@@ -77,9 +77,9 @@ export default function Terminos() {
               </li>
               <li>
                 Los precios están publicados en USD (Mercado Pago cobra el equivalente en
-                CLP) y pueden variar según la cohorte. Cada curso ofrece dos modalidades:
-                pago único (US$150) o plan mensual de 2 cuotas (US$75 al inscribirte y
-                US$75 al inicio del segundo mes).
+                CLP) y pueden variar según la clase o la promoción vigente. Cada curso
+                ofrece dos modalidades: pago único (US$150 el curso completo) o 2 cuotas
+                de US$75 (la primera al inscribirte y la segunda antes de la clase 5).
               </li>
               <li>
                 Tu cupo queda confirmado únicamente cuando recibimos el pago completo o
@@ -88,7 +88,7 @@ export default function Terminos() {
                 clases y grabaciones se suspende hasta regularizar el pago.
               </li>
               <li>
-                Los cupos son limitados por cohorte. Se asignan por orden de inscripción.
+                Los cupos son limitados por clase. Se asignan por orden de inscripción.
               </li>
             </ul>
           </section>
@@ -104,7 +104,7 @@ export default function Terminos() {
             <ul className="list-disc pl-6 mt-3 space-y-2">
               <li>
                 El cupo se confirma una vez registrado el pago. Por tratarse de un grupo
-                con cupos limitados, el pago no es reembolsable una vez iniciada la cohorte.
+                con cupos limitados, el pago no es reembolsable una vez iniciado el curso.
               </li>
               <li>
                 Si por algún motivo no puedes continuar, escríbenos a{' '}
@@ -114,10 +114,10 @@ export default function Terminos() {
                 >
                   hola@academiaseul.com
                 </a>{' '}
-                y buscamos juntos una solución, como tu traslado a una cohorte posterior.
+                y buscamos juntos una solución, como tu traslado a un grupo posterior.
               </li>
               <li>
-                Si Academia Seúl cancela una cohorte antes de su inicio, se reembolsa el
+                Si Academia Seúl cancela un grupo antes de su inicio, se reembolsa el
                 100% de lo pagado.
               </li>
             </ul>
@@ -125,13 +125,12 @@ export default function Terminos() {
 
           <section>
             <h2 className="text-xl md:text-2xl font-bold text-seoul-white mb-3">
-              5. Cambios de cohorte y reprogramación
+              5. Cambios de grupo y reprogramación
             </h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>
-                Puedes solicitar cambio de sección u horario (por ejemplo, de Básico 1
-                martes a Básico 1 jueves) en cualquier momento, sujeto a disponibilidad de
-                cupo.
+                Puedes solicitar cambio de sección u horario (por ejemplo, a otro horario
+                del mismo curso) en cualquier momento, sujeto a disponibilidad de cupo.
               </li>
               <li>
                 Las clases en vivo se graban y quedan disponibles durante el curso, así
@@ -157,7 +156,7 @@ export default function Terminos() {
               <li>
                 Recibes tu certificado de Academia Seúl del nivel cursado (Básico 1 · A1.1,
                 Básico 2 · A1.2, Conversacional 1 · A2.1, TOPIK II o Coreano para
-                Niños) al completar la cohorte.
+                Niños) al completar el curso.
               </li>
               <li>
                 Se considera tu asistencia y participación en las clases en vivo o grabadas

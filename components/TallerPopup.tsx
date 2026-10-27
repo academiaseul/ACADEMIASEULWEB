@@ -7,8 +7,10 @@ import { X } from 'lucide-react';
 import Link from 'next/link';
 import { events } from '@/lib/analytics';
 import { PROXIMO_TALLER, tallerVigente } from '@/lib/taller';
+import { usePrecio } from '@/lib/campana';
 
-const STORAGE_KEY = 'taller_popup_dismissed_v2';
+// v3: campaña «Básico 1 · noviembre 2026» (vuelve a mostrarse a quien cerró la de octubre).
+const STORAGE_KEY = 'taller_popup_dismissed_v3';
 const SHOW_AFTER_MS = 15000;
 const EXCLUDED_PATHS = ['/taller', '/notificarme', '/nivel-1'];
 
@@ -35,6 +37,7 @@ export default function TallerPopup() {
   const [tallerOver, setTallerOver] = useState(false);
   const hasShownRef = useRef(false); // show at most once per visit
   const pathname = usePathname();
+  const { lanzamiento, matriculaAbierta } = usePrecio();
 
   useEffect(() => {
     // Sin taller vigente => el popup promociona el Nivel 1
@@ -43,6 +46,8 @@ export default function TallerPopup() {
 
   useEffect(() => {
     if (EXCLUDED_PATHS.some((p) => pathname?.startsWith(p))) return;
+    // Sin taller en vivo y con la matrícula de Básico 1 cerrada, no hay nada que ofrecer.
+    if (!matriculaAbierta && !tallerVigente()) return;
 
     try {
       const dismissed = localStorage.getItem(STORAGE_KEY);
@@ -69,7 +74,7 @@ export default function TallerPopup() {
       document.removeEventListener('mouseleave', exitHandler);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pathname]);
+  }, [pathname, matriculaAbierta]);
 
   const handleClose = () => {
     setIsOpen(false);
@@ -120,10 +125,10 @@ export default function TallerPopup() {
               </button>
 
               {tallerOver ? (
-              /* ============ NIVEL 1 LAUNCH PROMO (after June 6) ============ */
+              /* ============ BÁSICO 1 · NOVIEMBRE 2026 (sin taller en vivo) ============ */
               <div className="px-7 py-8 text-center">
                 <span className="inline-block text-[10px] font-bold tracking-[0.25em] uppercase text-seoul-red bg-seoul-red/10 border border-seoul-red/30 px-3 py-1.5 rounded-full mb-5">
-                  Promo de lanzamiento
+                  {lanzamiento ? 'Precio de lanzamiento' : 'Básico 1 · desde cero'}
                 </span>
 
                 <div
@@ -141,26 +146,32 @@ export default function TallerPopup() {
                 </h2>
 
                 <p className="pt-4 text-sm text-white/55 leading-relaxed max-w-xs mx-auto">
-                  8 semanas en vivo por Zoom · 60 min por clase · certificado incluido. Desde cero hasta TOPIK II.
+                  Básico 1 con Kiran: 8 clases en vivo por Zoom, una por semana, 60 min, certificado incluido. Empiezas leyendo 한글 y terminas presentándote.
                 </p>
 
                 <div className="mt-6 inline-flex items-center gap-3 px-5 py-3 rounded-full bg-white/[0.04] border border-white/10">
-                  <span className="text-2xl font-bold text-seoul-white">19 de octubre</span>
+                  <span className="text-2xl font-bold text-seoul-white">10 de noviembre</span>
                   <span className="text-[10px] uppercase tracking-widest text-seoul-red font-bold">
-                    matrícula abierta
+                    martes 20:00 Chile
                   </span>
                 </div>
 
-                <p className="mt-5 text-[11px] text-white/50">
-                  US$150 el curso completo o US$75/mes × 2 · cupos limitados por clase.
+                <p className="mt-5 text-[11px] text-white/60">
+                  {lanzamiento ? (
+                    <>
+                      Precio de lanzamiento: <s className="text-white/40">US$150</s> US$120 el curso completo · o 2 cuotas de US$60 (hasta el domingo 8 de noviembre).
+                    </>
+                  ) : (
+                    <>US$150 el curso completo · o 2 cuotas de US$75 · cupos limitados.</>
+                  )}
                 </p>
 
                 <Link
-                  href="/nivel-1#clases"
+                  href="/nivel-1?clase=a11-martes#clases"
                   onClick={handleCtaClick}
                   className="group mt-6 w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold text-sm rounded-xl transition-all duration-300"
                 >
-                  <span>Elegir mi clase</span>
+                  <span>Inscribirme en Básico 1</span>
                   <span className="group-hover:translate-x-1 transition-transform duration-200">{'->'}</span>
                 </Link>
                 <button
@@ -192,7 +203,7 @@ export default function TallerPopup() {
                 </h2>
 
                 <p className="pt-4 text-sm text-white/55 leading-relaxed max-w-xs mx-auto">
-                  Taller en vivo por Zoom, 100% gratuito. Se parte de la primera cohorte de Academia Seul.
+                  Taller en vivo por Zoom, 100% gratuito. Tu primer paso en Academia Seúl.
                 </p>
 
                 <div className="mt-6 inline-flex items-center gap-3 px-4 py-2.5 rounded-full bg-white/[0.04] border border-white/10">

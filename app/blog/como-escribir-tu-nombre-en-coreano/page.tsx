@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import PrecioCampana from "@/components/PrecioCampana";
 
 const POST_URL = "https://www.academiaseul.com/blog/como-escribir-tu-nombre-en-coreano";
 const IMG = "/blog/como-escribir-tu-nombre-en-coreano";
@@ -726,12 +727,12 @@ export default function NombreEnCoreanoPost() {
           <Link href="/generador-nombre" className={linkCls}>
             generador de tu nombre en coreano
           </Link>
-          . Y cuando quieras clases en vivo, Básico 1 (A1.1) parte desde cero:
-          aprendes a leer el Hangul completo, a escribir tu nombre sin ayuda y a
-          presentarte con <Kr>저는 ___예요</Kr>. US$150 el curso completo · o 2
-          cuotas de US$75. Revisa las{" "}
-          <Link href="/nivel-1#clases" className={linkCls}>
-            próximas clases
+          . Y cuando quieras clases en vivo, Básico 1 (A1.1) parte desde cero con
+          Kiran: aprendes a leer el Hangul completo, a escribir tu nombre y a
+          presentarte con <Kr>저는 ___예요</Kr>. Son 8 martes desde el 10 de
+          noviembre, a las 20:00 hora de Chile · <PrecioCampana />.{" "}
+          <Link href="/nivel-1?clase=a11-martes#clases" className={linkCls}>
+            Reserva tu cupo
           </Link>
           .
         </p>
@@ -757,10 +758,10 @@ export default function NombreEnCoreanoPost() {
               Tu nombre en coreano →
             </Link>
             <Link
-              href="/nivel-1#clases"
+              href="/nivel-1?clase=a11-martes#clases"
               className="bg-seoul-red text-white font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
-              Ver próximas clases →
+              Inscribirme en Básico 1 →
             </Link>
           </div>
           <p className="text-white/60 text-sm mt-6">

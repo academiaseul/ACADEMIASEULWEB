@@ -3,10 +3,13 @@
 import { useRef } from 'react';
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 import { useT } from '@/lib/i18n';
-import { precioLabel } from '@/lib/nivel1';
+import { CIERRE_MATRICULA, RITMO_LABEL, CLASE_PRINCIPAL } from '@/lib/nivel1';
+import { usePrecio } from '@/lib/campana';
+import PrecioCampana from '@/components/PrecioCampana';
 
 export default function CTASection() {
   const { t } = useT();
+  const precio = usePrecio();
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
@@ -75,7 +78,8 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-base md:text-lg text-seoul-black/65 max-w-lg mx-auto leading-relaxed mb-4"
         >
-          {t('Clases en vivo desde la semana del 19 de octubre · 8 semanas · certificado incluido. US$150 el curso completo · o 2 cuotas de US$75.')}
+          {t('Básico 1 desde cero: {ritmo}, en vivo con Kiran, certificado incluido.', { ritmo: t(RITMO_LABEL) })}{' '}
+          <strong className="text-seoul-black/80"><PrecioCampana /></strong>
         </motion.p>
 
         <motion.p
@@ -84,7 +88,9 @@ export default function CTASection() {
           transition={{ duration: 0.7, delay: 0.25 }}
           className="font-bold text-seoul-black/80 mb-12"
         >
-          {t('La matrícula cierra el domingo 18 de octubre.')}
+          {precio.matriculaAbierta
+            ? t('La matrícula cierra el {cierre}.', { cierre: t(CIERRE_MATRICULA) })
+            : t('¿Quieres sumarte o que te avisemos de la próxima clase? Escríbenos por WhatsApp.')}
         </motion.p>
 
         {/* CTA Buttons */}
@@ -95,11 +101,11 @@ export default function CTASection() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center"
         >
           <a
-            href="/nivel-1#clases"
+            href={`/nivel-1?clase=${CLASE_PRINCIPAL}#clases`}
             className="group relative text-center px-10 py-4 bg-seoul-red text-white font-bold text-base rounded-lg hover:bg-[#2C1FB0] transition-all duration-300 shadow-2xl shadow-seoul-red/30 hover:shadow-seoul-red/50 hover:-translate-y-0.5"
           >
             <span className="relative z-10">
-              {t('Inscribirme · Octubre 2026 →')}
+              {t('Inscribirme en Básico 1 →')}
             </span>
           </a>
           <a
@@ -118,9 +124,9 @@ export default function CTASection() {
           className="mt-12 flex flex-col sm:flex-row sm:flex-wrap gap-6 justify-center items-center"
         >
           {[
-            '✓ ' + t(precioLabel()),
+            '✓ ' + t(precio.label),
             t('✓ Grabación de cada clase en 24 h'),
-            t('✓ Máx. 15 alumnos (8 en TOPIK II · 12 en Niños)'),
+            t('✓ Máx. 15 alumnos por clase'),
             t('✓ Certificado incluido'),
           ].map((item) => (
             <span key={item} className="text-sm text-seoul-black/55 font-medium">

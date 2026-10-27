@@ -411,17 +411,18 @@ export default function MiyeokgukPost() {
         <p className="mb-6">
           Si estás preparando el TOPIK, el examen oficial de coreano, ya sabes
           qué <em>no</em> comer la noche anterior. Lo demás te lo damos
-          nosotros: en Academia Seúl abrimos un grupo de{" "}
-          <Link href="/nivel-1#clases" className="text-seoul-red font-bold underline">
+          nosotros: en Academia Seúl tenemos un grupo de{" "}
+          <Link href="/notificarme?curso=topik" className="text-seoul-red font-bold underline">
             TOPIK II (B1+)
           </Link>{" "}
-          los jueves a las 21:00 hora de Chile, con Jay, ocho semanas y máximo
-          ocho personas. Trabajamos la escritura{" "}
+          con Jay, ocho semanas y máximo ocho personas, que vuelve en enero de
+          2027. Trabajamos la escritura{" "}
           <span className="kr" style={{ fontFamily: "'Noto Sans KR', sans-serif" }}>쓰기</span>{" "}
           (preguntas 51 a 54, las que más puntos dejan en el camino) con
           corrección individual, y hacemos simulacros con tiempo real para que
           el día del examen no haya sorpresas. Cuesta US$150 el curso completo ·
-          o 2 cuotas de US$75, y arrancamos la semana del 19 de octubre.
+          o 2 cuotas de US$75; anótate en la lista de espera y te avisamos
+          primero.
         </p>
         <p className="mb-10">
           La sopa de algas te la tomas el día que apruebes. Esa sí que va a
@@ -451,9 +452,8 @@ export default function MiyeokgukPost() {
           </h3>
           <p className="text-white/70 mb-7 max-w-md mx-auto">
             Empieza por el Lector de Hangul gratis (el alfabeto coreano se
-            aprende en una tarde) o entra directo a los cursos en vivo de
-            octubre: Básico 1, Básico 2, Conversacional 1, TOPIK II y Coreano
-            para Niños.
+            aprende en una tarde) o entra directo a Básico 1, el curso en vivo
+            desde cero que parte el martes 10 de noviembre.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -463,10 +463,10 @@ export default function MiyeokgukPost() {
               Lector de Hangul gratis →
             </a>
             <Link
-              href="/nivel-1#clases"
+              href="/nivel-1?clase=a11-martes#clases"
               className="bg-seoul-red text-white font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
-              Ver cursos de octubre →
+              Empezar Básico 1 →
             </Link>
           </div>
           <p className="text-white/50 text-sm mt-6">합격을 응원합니다, chingu! 🇰🇷</p>

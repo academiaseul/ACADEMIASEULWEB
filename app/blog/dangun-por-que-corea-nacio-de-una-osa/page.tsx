@@ -396,10 +396,10 @@ export default function DangunPost() {
           con el Lector de Hangul puedes leer tus primeras palabras esta misma
           semana. Lo que sí te pediremos, ya en clase, es un poquito de{" "}
           <span className="kr" style={{ fontFamily: "'Noto Sans KR', sans-serif" }}>인내심</span>{" "}
-          de osa: ocho semanas, una hora por sesión. La cohorte que empieza la
-          semana del 19 de octubre tiene Básico 1 (A1.1), Básico 2 (A1.2),
-          Conversacional 1 (A2.1), TOPIK II (B1+) y Coreano para Niños (8–15),
-          por US$150 el curso completo · o 2 cuotas de US$75.
+          de osa: ocho semanas, una hora por sesión. Básico 1 (A1.1), el curso
+          desde cero, parte el martes 10 de noviembre: 8 martes en vivo a las
+          20:00 hora de Chile, por US$150 el curso completo · o 2 cuotas de
+          US$75.
         </p>
 
         <blockquote className="border-l-4 border-seoul-red bg-[#F4F7FF] px-6 py-5 my-10 text-seoul-black font-medium">
@@ -463,8 +463,8 @@ export default function DangunPost() {
           </h3>
           <p className="text-white/70 mb-7 max-w-md mx-auto">
             El cielo se abrió una vez sobre el monte Taebaek. El tuyo se abre con
-            el Lector de Hangul gratis o con un cupo en los cursos en vivo que
-            empiezan la semana del 19 de octubre.
+            el Lector de Hangul gratis o con un cupo en Básico 1, el curso en
+            vivo desde cero que empieza el martes 10 de noviembre.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -474,10 +474,10 @@ export default function DangunPost() {
               Lector de Hangul gratis →
             </a>
             <Link
-              href="/nivel-1#clases"
+              href="/nivel-1?clase=a11-martes#clases"
               className="bg-seoul-red text-white font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
-              Ver cursos de octubre →
+              Empezar Básico 1 →
             </Link>
           </div>
           <p className="text-white/50 text-sm mt-6">화이팅 chingu! 🇰🇷</p>

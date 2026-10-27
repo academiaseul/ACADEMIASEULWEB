@@ -217,10 +217,10 @@ export default function Testimonials() {
             {t('La mejor forma de conocer nuestro método: una clase en vivo.')}
           </p>
           <a
-            href="/nivel-1#clases"
+            href="/nivel-1?clase=a11-martes#clases"
             className="inline-flex items-center gap-2 px-8 py-4 bg-seoul-red hover:bg-[#2C1FB0] text-white font-semibold rounded-lg shadow-xl shadow-seoul-red/25 transition-all duration-300 group"
           >
-            {t('Inscribirme · Octubre 2026 →')}
+            {t('Inscribirme en Básico 1 →')}
           </a>
           <a
             href={wa}

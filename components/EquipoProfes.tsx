@@ -4,11 +4,13 @@ import { PROFES, CLASES, cursoDe, type ProfeId } from "@/lib/nivel1";
 import { useT } from "@/lib/i18n";
 
 // Tarjetas del equipo docente, con los cursos que dicta cada uno (nombreCorto).
-export default function EquipoProfes({ destacado, compacto = false }: { destacado?: ProfeId; compacto?: boolean }) {
+// `solo` = muestra una sola tarjeta (en /nivel-1, la profe de la clase abierta).
+export default function EquipoProfes({ destacado, compacto = false, solo }: { destacado?: ProfeId; compacto?: boolean; solo?: ProfeId }) {
   const { t } = useT();
+  const lista = solo ? PROFES.filter((p) => p.id === solo) : PROFES;
   return (
-    <div className={`grid grid-cols-1 sm:grid-cols-2 ${compacto ? "lg:grid-cols-4" : "lg:grid-cols-4"} gap-4`}>
-      {PROFES.map((p) => {
+    <div className={solo ? "grid grid-cols-1 gap-4" : `grid grid-cols-1 sm:grid-cols-2 ${compacto ? "lg:grid-cols-4" : "lg:grid-cols-4"} gap-4`}>
+      {lista.map((p) => {
         const cursos = Array.from(new Set(CLASES.filter((c) => c.profeId === p.id).map((c) => cursoDe(c).nombreCorto)));
         const activo = destacado === p.id;
         return (

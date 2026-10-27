@@ -5,13 +5,23 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { COHORTE_ABIERTA, precioLabel, INICIO_SEMANA } from "@/lib/nivel1";
+import { COHORTE_ABIERTA, RITMO_LABEL, CLASE_PRINCIPAL } from "@/lib/nivel1";
+import { usePrecio } from "@/lib/campana";
+import PrecioCampana from "@/components/PrecioCampana";
 import { useT, i18n } from "@/lib/i18n";
 
 const WHATSAPP_NUMBER = "56942115562";
 
-// Cursos con matrícula abierta ahora mismo → mandar directo a inscripción.
-const CURSOS_ABIERTOS = new Set(["nivel1", "topik", "ninos", "basico2", "conversacional"]);
+// Cursos con matrícula abierta ahora mismo → mandar directo a inscripción (modo «Básico 1 · noviembre»).
+const CURSOS_ABIERTOS = new Set(["nivel1"]);
+// Estado de los que hoy no se inscriben (se muestra bajo el título de la lista de espera).
+const ESTADO_CURSO: Record<string, string> = {
+  basico2: i18n("Básico 2 ya está en curso (desde el 21 de octubre). Déjanos tus datos y te avisamos cuando abra el próximo."),
+  conversacional: i18n("Vuelve en enero de 2027. Déjanos tus datos y te avisamos primero."),
+  topik: i18n("Vuelve en enero de 2027. Déjanos tus datos y te avisamos primero."),
+  ninos: i18n("Vuelve en enero de 2027. Déjanos tus datos y te avisamos primero."),
+  conversacion: i18n("Abre en enero de 2027. Déjanos tus datos y te avisamos primero."),
+};
 
 const cursoLabels: Record<string, { nombre: string; korean: string }> = {
   nivel1:        { nombre: i18n("Básico 1 (A1.1)"),           korean: "첫 한국어" },
@@ -51,6 +61,7 @@ const MOTIVOS = [
 
 function NotificarmeForm() {
   const { t } = useT();
+  const precio = usePrecio();
   const searchParams = useSearchParams();
   const cursoParam = searchParams.get("curso") || "general";
   const curso = cursoLabels[cursoParam] || cursoLabels.general;
@@ -132,22 +143,23 @@ function NotificarmeForm() {
 
   return (
     <div className="max-w-2xl mx-auto">
-      {COHORTE_ABIERTA && CURSOS_ABIERTOS.has(cursoParam) && (
+      {COHORTE_ABIERTA && precio.matriculaAbierta && CURSOS_ABIERTOS.has(cursoParam) && (
         <div className="mb-10 rounded-2xl border border-seoul-red/40 bg-seoul-red/10 p-6">
           <p className="text-seoul-white font-bold text-lg mb-1">
             {t("🎓 ¡Buenas noticias! {curso} ya tiene matrícula abierta.", { curso: t(curso.nombre) })}
           </p>
           <p className="text-white/70 text-sm mb-4">
-            {t("Las clases empiezan {inicio} de 2026 — 8 semanas, certificado incluido, {precio}. No necesitas lista de espera: elige tu horario y reserva tu cupo.", { inicio: t(INICIO_SEMANA), precio: t(precioLabel()) })}
+            {t("{ritmo} · martes 20:00 hora de Chile · con Kiran · certificado incluido. No necesitas lista de espera: reserva tu cupo.", { ritmo: t(RITMO_LABEL) })}
           </p>
+          <p className="text-seoul-white text-sm font-bold mb-4"><PrecioCampana tachadoClassName="font-normal text-white/50" /></p>
           <Link
-            href="/nivel-1#clases"
+            href={`/nivel-1?clase=${CLASE_PRINCIPAL}#clases`}
             className="inline-flex items-center gap-2 px-6 py-3 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold rounded-lg transition-all duration-300 text-sm"
           >
-            {t("Inscribirme · Octubre 2026 →")}
+            {t("Inscribirme en Básico 1 →")}
           </Link>
           <p className="text-white/40 text-xs mt-4">
-            {t("¿Prefieres que te avisemos para una cohorte futura? Deja tus datos abajo.")}
+            {t("¿Prefieres que te avisemos de una clase futura? Deja tus datos abajo.")}
           </p>
         </div>
       )}
@@ -160,6 +172,9 @@ function NotificarmeForm() {
           <br />
           <em className="not-italic text-gradient-red">{t(curso.nombre)}</em>
         </h1>
+        {ESTADO_CURSO[cursoParam] && (
+          <p className="text-seoul-white font-semibold mt-6">{t(ESTADO_CURSO[cursoParam])}</p>
+        )}
         <p className="text-white/60 text-lg mt-6">
           <span className="font-korean">{curso.korean}</span> · {t("Sé el/la primer/a en saber cuando abramos cupos. Los miembros de la lista de espera tienen acceso prioritario a horarios y cupos.")}
         </p>

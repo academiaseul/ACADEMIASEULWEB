@@ -65,7 +65,7 @@ export default function SobreContent() {
           <p>
             <Tr k="Y en el camino descubrí algo que me dolió: casi todo el material para aprender coreano está hecho **para nativos**, o **en inglés**. No existe contenido —ni un libro de verdad— pensado para hispanohablantes. Seré su **profesor Kim**, y un buen" />{" "}
             <em>chingu</em>.{" "}
-            <Tr k="Por eso voy a escribirlo junto al gran equipo de profesores que he formado — ya puedes conocerlos en el programa de octubre. **Para ustedes.**" />
+            <Tr k="Por eso voy a escribirlo junto al gran equipo de profesores que he formado — ya puedes conocerlos en el programa de cursos. **Para ustedes.**" />
           </p>
           <p>
             {t("Gracias por estar aquí, justo al inicio de este viaje. Este puente lo cruzamos juntos.")}
@@ -90,10 +90,10 @@ export default function SobreContent() {
             {t("Empieza desde cero conmigo y el equipo. Clases en vivo, grupos pequeños.")}
           </p>
           <a
-            href="/nivel-1"
+            href="/nivel-1?clase=a11-martes#clases"
             className="inline-block bg-seoul-red text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition"
           >
-            {t("Ver cursos de octubre →")}
+            {t("Empezar Básico 1 →")}
           </a>
         </div>
       </section>

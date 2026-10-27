@@ -100,10 +100,10 @@ export default function MetodoChingu() {
           className="mt-14 text-center"
         >
           <a
-            href="/nivel-1#clases"
+            href="/nivel-1?clase=a11-martes#clases"
             className="inline-flex items-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-seoul-red/40"
           >
-            {t('Elegir mi clase →')}
+            {t('Inscribirme en Básico 1 →')}
           </a>
           <a href="/programa" className="mt-4 block text-sm text-white/70 underline underline-offset-4 hover:text-white">
             {t('Así se aplica el método en cada curso →')}

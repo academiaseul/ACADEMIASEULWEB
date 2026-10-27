@@ -4,10 +4,11 @@ import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useT, i18n } from "@/lib/i18n";
-import { INICIO_SEMANA, precioLabel } from "@/lib/nivel1";
+import { RITMO_LABEL } from "@/lib/nivel1";
+import PrecioCampana from "@/components/PrecioCampana";
 
 const destinos = [
-  { href: "/nivel-1", emoji: "🎓", title: i18n("Inscripción octubre 2026"), desc: i18n("Elige tu clase, mira tu horario local y reserva tu cupo.") },
+  { href: "/nivel-1?clase=a11-martes", emoji: "🎓", title: i18n("Inscripción Básico 1 · noviembre"), desc: i18n("Coreano desde cero con Kiran: mira tu hora local y reserva tu cupo.") },
   { href: "/dubu", emoji: "🧩", title: i18n("Dubu · el puzzle del Hangul"), desc: i18n("Combina consonante + vocal y lee tu primera palabra. Gratis.") },
   { href: "/lector-coreano", emoji: "🐯", title: i18n("Lector de Hangul"), desc: i18n("Toca cada letra y escúchala con voz nativa. Gratis.") },
   { href: "/taller", emoji: "▶️", title: i18n("Taller gratis de Hangul (video)"), desc: i18n("La clase completa de 1 hora, grabada en vivo.") },
@@ -36,7 +37,7 @@ export default function NotFound() {
             {t("Puede que el link esté mal escrito o que la página haya cambiado de dirección. Te dejamos los atajos más usados:")}
           </p>
           <p className="text-sm text-gray-500 mb-10">
-            {t("Cohorte octubre 2026 · clases desde {semana}", { semana: t(INICIO_SEMANA) })} · {t(precioLabel())}
+            {t("Básico 1 · {ritmo}", { ritmo: t(RITMO_LABEL) })} · <PrecioCampana corto />
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-left">

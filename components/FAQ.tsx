@@ -2,26 +2,32 @@
 
 import { ChevronDown } from 'lucide-react';
 import { useT, i18n } from '@/lib/i18n';
+import { usePrecio } from '@/lib/campana';
+import { MP_LINK_LANZAMIENTO, PAYPAL_LINK_LANZAMIENTO } from '@/lib/nivel1';
 
 // Las 6 primeras se muestran en la home (faqs.slice(0, 6)) en orden de objeciones:
 // "¿cómo me inscribo?", "¿necesito saber algo?", "¿cuánto?", "¿a qué hora?", "¿en vivo?", "¿cómo pago?".
 // Los textos van marcados con i18n() y se traducen al renderizar con t(f.q) / t(f.a).
-export const faqs = [
+// `aLanzamiento` se agrega al final de la respuesta solo mientras rige el precio de lanzamiento
+// (hasta el dom 8 nov); el JSON-LD de /faq usa solo `a`, que no vence.
+export type Faq = { q: string; a: string; aLanzamiento?: string };
+export const faqs: Faq[] = [
   {
     q: i18n('¿Cómo me inscribo?'),
-    a: i18n('En 3 pasos, sin crear cuenta: 1) entra a academiaseul.com/inscribete y elige tu clase (si nunca estudiaste coreano, es Básico 1); 2) deja tus datos en el formulario; 3) paga con Mercado Pago, PayPal o transferencia y te confirmamos el cupo por correo y WhatsApp. US$150 el curso completo · o 2 cuotas de US$75. Matrícula abierta hasta el domingo 18 de octubre.'),
+    a: i18n('En 3 pasos, sin crear cuenta: 1) entra a academiaseul.com/inscribete; 2) deja tus datos en el formulario; 3) paga con Mercado Pago, PayPal o transferencia y te confirmamos el cupo por correo y WhatsApp. Hoy está abierto Básico 1 (desde cero): 8 martes desde el 10 de noviembre, a las 20:00 hora de Chile. Matrícula abierta hasta el lunes 9 de noviembre.'),
   },
   {
     q: i18n('¿Necesito saber algo de coreano para empezar?'),
-    a: i18n('No. Básico 1 (A1.1) y Coreano para Niños están pensados para empezar desde cero: lo primero que aprendes es a leer el alfabeto (한글). Si ya sabes algo, tienes Básico 2 (A1.2), Conversacional 1 (A2.1) y TOPIK II — haz el test de nivel gratuito o escríbenos y te ayudamos a elegir tu curso.'),
+    a: i18n('No. Básico 1 (A1.1) empieza desde cero: lo primero que aprendes es a leer y escribir el alfabeto (한글), con romanización solo en las clases 1 y 2. Si ya sabes algo, haz el test de nivel gratuito o escríbenos: Básico 2 ya está en curso y Conversacional 1 y TOPIK II vuelven en enero de 2027.'),
   },
   {
     q: i18n('¿Cuánto cuesta y qué incluye?'),
-    a: i18n('Mismo precio en todos los cursos: US$150 el curso completo · o 2 cuotas de US$75. Incluye las 8 clases en vivo (60 min), grabaciones, material de estudio, el Lector de Hangul, certificado de Academia Seúl y acceso a la comunidad. El programa completo está en /programa.'),
+    a: i18n('US$150 el curso completo · o 2 cuotas de US$75. Incluye las 8 clases en vivo (60 min), la grabación de cada clase, material de cada semana con audio nativo, el Lector de Hangul, el grupo de WhatsApp de la clase y el certificado de Academia Seúl. El programa completo está en /programa.'),
+    aLanzamiento: i18n('Precio de lanzamiento de Básico 1: US$120 el curso completo · o 2 cuotas de US$60, hasta el domingo 8 de noviembre.'),
   },
   {
     q: i18n('¿Qué horarios y fechas hay?'),
-    a: i18n('La cohorte parte la semana del 19 de octubre de 2026 y dura 8 semanas (una clase por semana, hora de Chile): Coreano para Niños lunes 18:00 · Básico 1 martes 20:00 o jueves 20:00 · Conversacional 1 martes 21:00 · Básico 2 miércoles 21:00 · TOPIK II jueves 21:00. Conversión rápida: 20:00 Chile = 18:00 Colombia/Perú · 17:00 México · 20:00 Argentina · 19:00 EE.UU. Este (18:00 desde el 1 de noviembre) · 01:00 España (00:00 desde el 25 de octubre). En la página de inscripción eliges tu país y ves la hora exacta.'),
+    a: i18n('Básico 1 (desde cero, con Kiran): 8 martes desde el 10 de noviembre de 2026, a las 20:00 hora de Chile, 60 min por Zoom. Conversión rápida: 18:00 Colombia/Perú · 17:00 México · 20:00 Argentina · 18:00 EE.UU. Este · 00:00 España (ya es miércoles). Básico 2 ya está en curso; Conversacional 1, TOPIK II y Coreano para Niños vuelven en enero de 2027 (anótate en la lista de espera).'),
   },
   {
     q: i18n('¿Las clases son en vivo o grabadas?'),
@@ -29,15 +35,19 @@ export const faqs = [
   },
   {
     q: i18n('¿Cómo puedo pagar?'),
-    a: i18n('Transferencia bancaria en Chile (sin comisión), tarjeta de crédito/débito vía Mercado Pago (se cobra en pesos chilenos) o PayPal en dólares — también con tarjeta, sin tener cuenta PayPal. Puedes pagar los US$150 de una vez o en 2 cuotas de US$75. Te confirmamos por correo apenas registramos tu pago.'),
+    a: i18n('Transferencia bancaria en Chile (sin comisión), tarjeta de crédito/débito vía Mercado Pago (se cobra en pesos chilenos) o PayPal en dólares — también con tarjeta, sin tener cuenta PayPal. Puedes pagar el curso de una vez o en 2 cuotas. Te confirmamos por correo apenas registramos tu pago.'),
+    // Solo mientras Jay no pegue los links de lanzamiento en lib/nivel1.ts.
+    aLanzamiento: MP_LINK_LANZAMIENTO || PAYPAL_LINK_LANZAMIENTO
+      ? undefined
+      : i18n('Con el precio de lanzamiento (hasta el domingo 8 de noviembre), Jay te envía el link de pago por WhatsApp.'),
   },
   {
     q: i18n('¿Recibo un certificado?'),
-    a: i18n('Sí, está incluido en todos los cursos. Al completar tu curso recibes el certificado de Academia Seúl del nivel correspondiente (Básico 1 · A1.1, Básico 2 · A1.2, Conversacional 1 · A2.1, TOPIK II o Niños), en base a tu asistencia y participación. Si tienes el certificado Nivel 1 (cohorte julio 2026), equivale a Básico 1 (A1.1) y te habilita directo para Básico 2.'),
+    a: i18n('Sí, está incluido en todos los cursos. Al completar tu curso recibes el certificado de Academia Seúl del nivel correspondiente (Básico 1 · A1.1, Básico 2 · A1.2, Conversacional 1 · A2.1, TOPIK II o Niños), en base a tu asistencia y participación. Si tienes el certificado del Nivel 1 de julio 2026, equivale a Básico 1 (A1.1) y te habilita directo para Básico 2.'),
   },
   {
     q: i18n('¿Me sirve para el examen TOPIK?'),
-    a: i18n('Sí. Nuestra escalera está alineada con el marco CEFR y el TOPIK: Básico 1 y 2 te llevan al TOPIK I, y el grupo TOPIK II (jueves 21:00 Chile) está enfocado 100% en el examen oficial, con corrección de escritura y simulacros.'),
+    a: i18n('Sí. Nuestra escalera está alineada con el marco CEFR y el TOPIK: Básico 1 y 2 te llevan al TOPIK I, y el grupo TOPIK II (vuelve en enero de 2027) está enfocado 100% en el examen oficial, con corrección de escritura y simulacros.'),
   },
   {
     q: i18n('¿Desde qué países puedo tomar las clases?'),
@@ -45,12 +55,20 @@ export const faqs = [
   },
   {
     q: i18n('Fui alumno/a del Nivel 1 en julio, ¿qué curso sigo?'),
-    a: i18n('Ese curso hoy se llama Básico 1 (A1.1) y tu certificado equivale a A1.1. Tu siguiente paso es Básico 2 (A1.2) · miércoles 21:00 Chile · con Jay. Si lo que quieres es hablar, también puedes entrar a Conversacional 1 (A2.1) con el test de nivel.'),
+    a: i18n('Ese curso hoy se llama Básico 1 (A1.1) y tu certificado equivale a A1.1. Tu siguiente paso es Básico 2 (A1.2), que ya está en curso desde el 21 de octubre: escríbenos y te avisamos cuando abra el próximo. ¿Tienes un chingu que quiera empezar desde cero? Básico 1 es para él o ella.'),
   },
 ];
 
+/** Respuesta traducida + frase del lanzamiento mientras rige. */
+export function useRespuestaFaq() {
+  const { t } = useT();
+  const { lanzamiento } = usePrecio();
+  return (f: Faq) => (lanzamiento && f.aLanzamiento ? `${t(f.a)} ${t(f.aLanzamiento)}` : t(f.a));
+}
+
 export default function FAQ() {
   const { t } = useT();
+  const respuesta = useRespuestaFaq();
   const whatsappUrl =
     'https://wa.me/56942115562?text=' +
     encodeURIComponent(t('Hola Jay! Vi academiaseul.com y quiero información sobre los cursos de coreano.'));
@@ -88,7 +106,7 @@ export default function FAQ() {
                 />
               </summary>
               <p className="px-5 md:px-6 pb-5 md:pb-6 -mt-1 text-seoul-black/60 leading-relaxed text-sm md:text-base">
-                {t(f.a)}
+                {respuesta(f)}
               </p>
             </details>
           ))}

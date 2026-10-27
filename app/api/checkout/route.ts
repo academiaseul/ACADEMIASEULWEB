@@ -7,8 +7,9 @@ export const dynamic = 'force-dynamic';
 const BASE =
   process.env.NEXT_PUBLIC_BASE_URL || 'https://www.academiaseul.com';
 
-// Precios en CLP (cuenta Mercado Pago Chile) · cohorte octubre 2026.
-// US$150 pago único / US$75 mensual (×2). Ajustables por env sin deploy.
+// Precios en CLP (cuenta Mercado Pago Chile) · precio NORMAL: US$150 pago único / US$75 mensual (×2).
+// Ajustables por env sin deploy. Durante el precio de lanzamiento de Básico 1 (hasta el dom 8 nov 2026)
+// /nivel-1 NO llama a este checkout: el botón va al link de lanzamiento o a WhatsApp.
 // NOTA: se renombraron las vars (antes MP_PRICE_CLP) para que un valor viejo
 // configurado en Vercel no cobre el monto de la cohorte anterior.
 const PRICE_CLP_UNICO = Number(process.env.MP_PRICE_CLP_UNICO || 150000);
@@ -52,7 +53,7 @@ export async function POST(req: NextRequest) {
             id: `oct-2026-${cohorteKey || 'clase'}-${esMensual ? 'mensual' : 'unico'}`,
             title: `Academia Seúl · ${clase || 'Curso de coreano'} — ${planLabel}`,
             description:
-              'Curso de coreano en vivo · 8 semanas · cohorte octubre 2026 · certificado incluido',
+              'Curso de coreano en vivo · 8 clases · certificado incluido',
             quantity: 1,
             unit_price: unitPrice,
             currency_id: 'CLP',

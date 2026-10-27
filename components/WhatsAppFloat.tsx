@@ -5,6 +5,8 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, X } from 'lucide-react';
 import { useT, i18n } from '@/lib/i18n';
+import { usePrecio } from '@/lib/campana';
+import { WA_LANZAMIENTO_MSG } from '@/lib/nivel1';
 
 const WHATSAPP_NUMBER = '56942115562';
 // URL exportada a nivel de módulo (sin hook): el mensaje queda en español.
@@ -17,10 +19,11 @@ const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${DEFAULT_MESSAGE}`;
 // La primera opción no necesita a Jay: va directo al formulario. La segunda sigue abriendo el chat.
 type QuickReply = { label: string; msg?: string; href?: string };
 const QUICK_REPLIES: QuickReply[] = [
-  { label: i18n('Inscribirme · Octubre 2026 →'), href: '/nivel-1#clases' },
+  { label: i18n('Inscribirme en Básico 1 →'), href: '/nivel-1?clase=a11-martes#clases' },
   {
-    label: i18n('Quiero inscribirme (clases desde la semana del 19 de octubre)'),
-    msg: i18n('Hola Jay! Quiero inscribirme en la cohorte de octubre. ¿Me ayudas a elegir el curso y el método de pago?'),
+    // Durante el precio de lanzamiento el mensaje es el del brief (WA_LANZAMIENTO_MSG); ver más abajo.
+    label: i18n('Quiero inscribirme en Básico 1 (desde el martes 10 de noviembre)'),
+    msg: i18n('Hola Jay! Quiero inscribirme en Básico 1 (martes 20:00 hora de Chile, desde el 10 de noviembre). ¿Me ayudas con el pago?'),
   },
   {
     label: i18n('¿Qué nivel me conviene?'),
@@ -39,6 +42,8 @@ export default function WhatsAppFloat() {
   const [expanded, setExpanded] = useState(false);
   const pathname = usePathname();
   const { t } = useT();
+  const { lanzamiento } = usePrecio();
+  const mensajeDe = (qr: QuickReply, i: number) => (i === 1 && lanzamiento ? WA_LANZAMIENTO_MSG : qr.msg ?? '');
 
   useEffect(() => {
     const timer = setTimeout(() => setVisible(true), SHOW_AFTER_MS);
@@ -90,10 +95,10 @@ export default function WhatsAppFloat() {
                     {t('Empieza la conversacion')}
                   </p>
                   <div className="flex flex-col gap-1.5">
-                    {QUICK_REPLIES.map((qr) => (
+                    {QUICK_REPLIES.map((qr, i) => (
                       <a
                         key={qr.label}
-                        href={qr.href ?? buildUrl(t(qr.msg ?? ''))}
+                        href={qr.href ?? buildUrl(t(mensajeDe(qr, i)))}
                         target={qr.href ? undefined : '_blank'}
                         rel={qr.href ? undefined : 'noopener noreferrer'}
                         onClick={() => setExpanded(false)}

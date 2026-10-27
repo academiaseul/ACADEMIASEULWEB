@@ -29,6 +29,9 @@ const { pathToFileURL } = require('url');
 
 // ───────────────────────── configuración de la casa ─────────────────────────
 const PRECIO = 'US$150 el curso completo · o 2 cuotas de US$75';
+// Precio de lanzamiento de Básico 1 · noviembre 2026 (decisión de Jay, 26 oct): vale hasta el domingo 8 de noviembre, 23:59
+const PRECIO_LANZAMIENTO = 'US$120 el curso completo · o 2 cuotas de US$60';
+const PRECIOS = [PRECIO, PRECIO_LANZAMIENTO];
 const WA = '56942115562';
 const CLASES_OK = ['a11-martes', 'a11-jueves', 'a12', 'a21', 'topik2', 'ninos'];
 const MAX_BYTES = 90 * 1024;
@@ -342,12 +345,14 @@ function revisar(file, opts) {
   const texto = htmlToText(src);
   const plano = texto.replace(/\n/g, ' ');
   const plus = [];
-  let i = -1; while ((i = plano.indexOf(PRECIO, i + 1)) !== -1) plus.push([i, i + PRECIO.length]);
+  const usadas = new Set();
+  for (const P of PRECIOS) { let i = -1; while ((i = plano.indexOf(P, i + 1)) !== -1) { plus.push([i, i + P.length]); usadas.add(P); } }
   const montos = [...plano.matchAll(/US\$\s?\d[\d.,]*/g)];
   const sueltos = montos.filter(m => !plus.some(([a, b]) => m.index >= a && m.index < b));
   if (!montos.length) res.nota('No menciona el precio.');
-  else if (sueltos.length) res.falla(`Precio fuera de la fórmula exacta "${PRECIO}": ${sueltos.map(m => `"…${plano.slice(Math.max(0, m.index - 25), m.index + 30).trim()}…"`).join(' · ')}`);
-  else res.bien(`El precio aparece ${plus.length === 1 ? '1 vez' : plus.length + ' veces'} y siempre como "${PRECIO}".`);
+  else if (sueltos.length) res.falla(`Precio fuera de la fórmula exacta "${PRECIO}" (o, en la campaña de Básico 1 de noviembre, "${PRECIO_LANZAMIENTO}"): ${sueltos.map(m => `"…${plano.slice(Math.max(0, m.index - 25), m.index + 30).trim()}…"`).join(' · ')}`);
+  else res.bien(`El precio aparece ${plus.length === 1 ? '1 vez' : plus.length + ' veces'} y siempre con la fórmula exacta (${[...usadas].map(p => `"${p}"`).join(' y ')}).`);
+  if (usadas.has(PRECIO_LANZAMIENTO) && !/domingo 8 de noviembre|domingo 8\b|hoy[^.]{0,80}23:59/i.test(plano)) res.aviso(`Usa el precio de lanzamiento ("${PRECIO_LANZAMIENTO}") sin decir hasta cuándo vale: hasta el domingo 8 de noviembre, 23:59 hora de Chile.`);
   if (/desde\s+US\$/i.test(plano)) res.falla('Dice "desde US$…": el precio nunca va con "desde".');
   if (/\/\s*mes\b|\bal mes\b|\bpor mes\b/i.test(plano)) res.falla('Menciona el precio "por mes" o "/mes": son 2 cuotas de US$75, no una mensualidad.');
   let viejas = 0;

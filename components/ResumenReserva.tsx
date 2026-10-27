@@ -1,6 +1,7 @@
 "use client";
 
-import { cursoDe, profeCorto, PRECIO_UNICO, PRECIO_MENSUAL, MESES, type Clase, type PaisKey } from "@/lib/nivel1";
+import { cursoDe, profeCorto, MESES, type Clase, type PaisKey } from "@/lib/nivel1";
+import { usePrecio } from "@/lib/campana";
 import { horaLocal, PAISES } from "@/lib/nivel1";
 import { useT, Tr } from "@/lib/i18n";
 
@@ -22,6 +23,7 @@ export default function ResumenReserva({
   visible?: boolean;
 }) {
   const { t } = useT();
+  const p = usePrecio();
   const curso = cursoDe(clase);
   const info = PAISES.find((p) => p.key === pais) ?? PAISES[0];
   const hora = horaLocal(clase.horaChile, pais);
@@ -29,7 +31,9 @@ export default function ResumenReserva({
     pais === "chile"
       ? t("{dia} {hora} Chile", { dia: t(clase.dia), hora: clase.horaChile })
       : t("{dia} {hora} {pais} ({horaChile} Chile)", { dia: t(clase.dia), hora, pais: t(info.corto), horaChile: clase.horaChile });
-  const precio = plan === "unico" ? t("US${p} pago único", { p: PRECIO_UNICO }) : t("{n} cuotas de US${m}", { n: MESES, m: PRECIO_MENSUAL });
+  // Precio vigente (lanzamiento hasta el dom 8 nov, después el normal)
+  const base = plan === "unico" ? t("US${p} pago único", { p: p.unico }) : t("{n} cuotas de US${m}", { n: MESES, m: p.mensual });
+  const precio = p.lanzamiento ? t("{plan} · precio de lanzamiento", { plan: base }) : base;
 
   const cuerpo = (
     <div className="flex flex-col sm:flex-row sm:items-center gap-3">

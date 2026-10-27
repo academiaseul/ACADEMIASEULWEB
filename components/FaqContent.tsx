@@ -3,11 +3,12 @@
 import { ChevronDown } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { faqs } from "@/components/FAQ";
+import { faqs, useRespuestaFaq } from "@/components/FAQ";
 import { useT } from "@/lib/i18n";
 
 export default function FaqContent() {
   const { t } = useT();
+  const respuesta = useRespuestaFaq();
   const whatsappUrl =
     "https://wa.me/56942115562?text=" +
     encodeURIComponent(t("Hola Jay! Vi academiaseul.com y tengo una duda sobre los cursos de coreano."));
@@ -53,7 +54,7 @@ export default function FaqContent() {
               />
             </summary>
             <p className="px-5 md:px-6 pb-5 md:pb-6 -mt-1 text-gray-600 leading-relaxed text-sm md:text-base">
-              {t(f.a)}
+              {respuesta(f)}
             </p>
           </details>
         ))}

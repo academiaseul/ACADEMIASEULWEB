@@ -7,24 +7,25 @@ import HorarioSemanal from "@/components/HorarioSemanal";
 import EquipoProfes from "@/components/EquipoProfes";
 import SidebarCursos from "@/components/SidebarCursos";
 import StructuredData from "@/components/StructuredData";
+import PrecioCampana from "@/components/PrecioCampana";
 import {
-  CLASES,
   CURSOS,
-  INICIO_LABEL,
-  INICIO_SEMANA,
-  FIN_LABEL,
+  RITMO_LABEL,
+  ESTADO_LABEL,
+  CLASE_PRINCIPAL,
   PRECIO_UNICO,
   PRECIO_MENSUAL,
   MESES,
   precioLabel,
   WHATSAPP,
-  PROGRAMA_GENERAL_PDF,
-  PROGRAMA_COMPLETO_PDF,
+  PROGRAMA_BASICO1_PDF,
   pdfDe,
   clasesDe,
   profeDe,
   primeraClaseDe,
+  notificarHref,
 } from "@/lib/nivel1";
+import { usePrecio } from "@/lib/campana";
 
 import { useT } from "@/lib/i18n";
 
@@ -34,10 +35,19 @@ const AZUL_TXT = "var(--as-azul-txt, #3D2EE8)";
 
 export default function ProgramaContent() {
   const { t, td } = useT();
+  const precio = usePrecio();
   const orden = [...CURSOS].sort((a, b) => (a.paso === 0 ? 99 : a.paso) - (b.paso === 0 ? 99 : b.paso));
   const sidebarCursos = orden.map((c) => {
     const cs = clasesDe(c.cursoId);
-    return { id: c.cursoId, emoji: c.emoji, label: t(c.nombreCorto), sub: `${td(cs.map((k) => k.dia).join(" o "))} ${cs[0].horaChile} Chile · ${t(profeDe(cs[0].profeId).corto)}` };
+    const abierta = cs.some((k) => k.estado === "abierta");
+    return {
+      id: c.cursoId,
+      emoji: c.emoji,
+      label: t(c.nombreCorto),
+      sub: abierta
+        ? `${td(cs.map((k) => k.dia).join(" o "))} ${cs[0].horaChile} Chile · ${t(profeDe(cs[0].profeId).corto)} · ${t(ESTADO_LABEL.abierta)}`
+        : t(ESTADO_LABEL[cs[0].estado]),
+    };
   });
   const sidebarSecciones = [
     { id: "escalera", label: t("La escalera") },
@@ -46,9 +56,6 @@ export default function ProgramaContent() {
     { id: "equipo", label: t("Equipo docente") },
     { id: "precio", label: t("Precio y pago") },
   ];
-  // "Semana del 7 de diciembre" → minúscula inicial tras la flecha (vale para ES/EN/KO).
-  const finTxt = t(FIN_LABEL);
-  const finMin = finTxt.charAt(0).toLowerCase() + finTxt.slice(1);
 
   return (
     <main className="min-h-screen bg-white">
@@ -59,27 +66,27 @@ export default function ProgramaContent() {
       {/* Hero */}
       <section className="relative overflow-hidden text-white pt-16 md:pt-20" style={{ backgroundColor: AZUL }}>
         <div className="max-w-5xl mx-auto px-6 py-16 md:py-24 text-center">
-          <div className="inline-block px-4 py-1 mb-6 rounded-full bg-white/10 text-xs font-bold tracking-widest">{t("PROGRAMA OFICIAL · COHORTE OCTUBRE 2026")}</div>
+          <div className="inline-block px-4 py-1 mb-6 rounded-full bg-white/10 text-xs font-bold tracking-widest">{t("PROGRAMA OFICIAL · BÁSICO 1 ABRE EL 10 DE NOVIEMBRE")}</div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             <span className="block text-2xl md:text-3xl mb-3 opacity-80">교육 과정</span>
             {t("Programa y syllabus")}
           </h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">{t("5 cursos · 6 horarios · 8 semanas · 1 clase de 60 min por semana · certificado incluido")}</p>
-          <p className="text-sm md:text-base mt-3 opacity-70">{t(INICIO_LABEL)} → {finMin} · {t(precioLabel())}</p>
+          <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">{t("5 cursos · 8 semanas · 1 clase de 60 min por semana · certificado incluido")}</p>
+          <p className="text-sm md:text-base mt-3 opacity-80">{t("Abierta ahora: Básico 1 · {ritmo} · martes 20:00 hora de Chile", { ritmo: t(RITMO_LABEL) })}</p>
+          <p className="text-sm md:text-base mt-1 font-bold"><PrecioCampana tachadoClassName="opacity-60 font-normal" /></p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="/nivel-1#clases" className="px-8 py-3.5 bg-white text-[#3D2EE8] font-bold rounded-full hover:scale-105 transition">{t("Inscribirme →")}</a>
-            <a href={PROGRAMA_GENERAL_PDF} download className="px-8 py-3.5 border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition">{t("📄 Descargar programa (PDF)")}</a>
+            <a href={`/nivel-1?clase=${CLASE_PRINCIPAL}#clases`} className="px-8 py-3.5 bg-white text-[#3D2EE8] font-bold rounded-full hover:scale-105 transition">{t("Inscribirme en Básico 1 →")}</a>
+            {/* Solo el PDF de Básico 1 de noviembre (si ya se exportó); los de octubre traen fechas vencidas */}
+            {PROGRAMA_BASICO1_PDF ? (
+              <a href={PROGRAMA_BASICO1_PDF} download className="px-8 py-3.5 border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition">{t("📄 Programa de Básico 1 (PDF)")}</a>
+            ) : (
+              <a href="#a11" className="px-8 py-3.5 border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition">{t("Ver syllabus semana a semana")}</a>
+            )}
           </div>
-          <p className="text-xs md:text-sm mt-4 opacity-70">
-            {t("¿Quieres el detalle semana a semana?")}{" "}
-            <a href={PROGRAMA_COMPLETO_PDF.es} download className="underline underline-offset-2 hover:opacity-100">{t("Programa completo de estudios (PDF, español)")}</a>
-            {" · "}
-            <a href={PROGRAMA_COMPLETO_PDF.en} download className="underline underline-offset-2 hover:opacity-100">{t("Complete program (PDF, English)")}</a>
-          </p>
         </div>
       </section>
 
-      <SidebarCursos cursos={sidebarCursos} secciones={sidebarSecciones} cta={{ label: t("Inscribirme →"), href: "/nivel-1#clases" }} />
+      <SidebarCursos cursos={sidebarCursos} secciones={sidebarSecciones} tituloCursos={t("Cursos")} cta={{ label: t("Inscribirme en Básico 1 →"), href: `/nivel-1?clase=${CLASE_PRINCIPAL}#clases` }} />
 
       {/* Escalera */}
       <section id="escalera" className="py-14 bg-[#F5F3FF]">
@@ -94,7 +101,7 @@ export default function ProgramaContent() {
       <section id="horarios" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">{t("Horario semanal")}</h2>
-          <p className="text-gray-600 text-center mb-8">{t("Todas las clases parten {inicio} · toca tu país para ver tu hora", { inicio: t(INICIO_SEMANA) })}</p>
+          <p className="text-gray-600 text-center mb-8">{t("Básico 1 parte el martes 10 de noviembre · toca tu país para ver tu hora")}</p>
           <HorarioSemanal />
         </div>
       </section>
@@ -128,6 +135,7 @@ export default function ProgramaContent() {
       {/* Syllabus por curso */}
       {orden.map((curso, idx) => {
         const clases = clasesDe(curso.cursoId);
+        const abierta = clases.some((c) => c.estado === "abierta");
         return (
           <section key={curso.cursoId} id={curso.cursoId} className={`py-16 ${idx % 2 === 0 ? "bg-white" : "bg-[#F5F3FF]"}`}>
             <div className="max-w-6xl mx-auto px-6">
@@ -139,16 +147,27 @@ export default function ProgramaContent() {
                     {curso.grupo === "ninos" ? t("Ruta Niños") : t("Paso {n} de la escalera", { n: curso.paso })} · {t(curso.cefr)}
                   </div>
                   <h2 className="text-3xl font-bold text-gray-900 leading-tight mb-1">{t(curso.nombreCorto)}</h2>
-                  <div className="text-lg text-gray-400 mb-4">{t(curso.subtitulo)} · {curso.koreanTitle}</div>
+                  <div className="text-lg text-gray-500 mb-4">{t(curso.subtitulo)}{t(curso.subtitulo) !== curso.koreanTitle && <> · {curso.koreanTitle}</>}</div>
                   <p className="text-gray-700 leading-relaxed mb-5">{t(curso.descripcion)}</p>
 
                   <div className="bg-white rounded-2xl border border-gray-200 p-5 space-y-2 text-sm mb-5">
-                    {clases.map((c) => (
-                      <div key={c.id} className="grid grid-cols-[110px_1fr] gap-2">
-                        <span className="text-gray-500">{t(c.dia)}</span>
-                        <span className="font-bold text-gray-900">{t("{hora} Chile · primera clase {fecha}", { hora: c.horaChile, fecha: t(c.primeraClase) })}</span>
-                      </div>
-                    ))}
+                    {clases.map((c) =>
+                      c.estado === "enero_2027" ? (
+                        <div key={c.id} className="grid grid-cols-[110px_1fr] gap-2">
+                          <span className="text-gray-500">{t("Horario")}</span>
+                          <span className="font-bold text-gray-900">{t(ESTADO_LABEL[c.estado])}</span>
+                        </div>
+                      ) : (
+                        <div key={c.id} className="grid grid-cols-[110px_1fr] gap-2">
+                          <span className="text-gray-500">{t(c.dia)}</span>
+                          <span className="font-bold text-gray-900">
+                            {c.estado === "abierta"
+                              ? t("{hora} Chile · primera clase {fecha}", { hora: c.horaChile, fecha: t(c.primeraClase) })
+                              : `${c.horaChile} Chile · ${t(ESTADO_LABEL[c.estado])}`}
+                          </span>
+                        </div>
+                      ),
+                    )}
                     <div className="grid grid-cols-[110px_1fr] gap-2">
                       <span className="text-gray-500">{t("Profesor/a")}</span>
                       <span className="font-semibold text-gray-900">{t(profeDe(clases[0].profeId).nombre)}</span>
@@ -163,7 +182,7 @@ export default function ProgramaContent() {
                     </div>
                     <div className="grid grid-cols-[110px_1fr] gap-2">
                       <span className="text-gray-500">{t("Precio")}</span>
-                      <span className="font-bold text-gray-900">{t("US${p} · o {n} × US${m}", { p: PRECIO_UNICO, n: MESES, m: PRECIO_MENSUAL })}</span>
+                      <span className="font-bold text-gray-900">{abierta ? <PrecioCampana corto conFecha={false} tachadoClassName="font-normal text-gray-400" /> : t("US${p} · o {n} × US${m}", { p: PRECIO_UNICO, n: MESES, m: PRECIO_MENSUAL })}</span>
                     </div>
                   </div>
 
@@ -175,10 +194,14 @@ export default function ProgramaContent() {
                   </ul>
 
                   <div className="flex flex-col sm:flex-row gap-3">
-                    <a href={`/nivel-1?clase=${primeraClaseDe(curso.cursoId)}#clases`} className="inline-block text-center px-7 py-3 rounded-full text-white font-bold hover:scale-105 transition" style={{ backgroundColor: AZUL }}>
-                      {curso.grupo === "ninos" ? t("Inscribir a mi hijo/a →") : t("Inscribirme en {curso} →", { curso: t(curso.nombreCorto).split(" (")[0] })}
+                    <a href={abierta ? `/nivel-1?clase=${primeraClaseDe(curso.cursoId)}#clases` : notificarHref(curso.cursoId)} className="inline-block text-center px-7 py-3 rounded-full text-white font-bold hover:scale-105 transition" style={{ backgroundColor: abierta ? AZUL : "#003478" }}>
+                      {!abierta
+                        ? `${t("Avísame cuando abra")} →`
+                        : curso.grupo === "ninos"
+                          ? t("Inscribir a mi hijo/a →")
+                          : t("Inscribirme en {curso} →", { curso: t(curso.nombreCorto).split(" (")[0] })}
                     </a>
-                    <a href={pdfDe(curso.cursoId)} download className="inline-block text-center px-7 py-3 rounded-full font-bold border-2 hover:bg-white transition" style={{ borderColor: AZUL_TXT, color: AZUL_TXT }}>{t("📄 Programa PDF")}</a>
+                    {pdfDe(curso.cursoId) && <a href={pdfDe(curso.cursoId)} download className="inline-block text-center px-7 py-3 rounded-full font-bold border-2 hover:bg-white transition" style={{ borderColor: AZUL_TXT, color: AZUL_TXT }}>{t("📄 Programa PDF")}</a>}
                   </div>
                 </div>
 
@@ -215,7 +238,14 @@ export default function ProgramaContent() {
       <section id="precio" className="py-16 bg-[#F5F3FF]">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">{t("Un solo precio para todos los cursos")}</h2>
-          <p className="text-gray-600 mb-10">{t("{precio} — sin importar el nivel.", { precio: t(precioLabel()) })}</p>
+          <p className="text-gray-600 mb-2">{t("{precio} — sin importar el nivel.", { precio: t(precioLabel()) })}</p>
+          {precio.lanzamiento ? (
+            <p className="font-bold text-gray-900 mb-10">
+              {t("Básico 1 de noviembre:")} <PrecioCampana tachadoClassName="font-normal text-gray-400" />
+            </p>
+          ) : (
+            <div className="mb-10" />
+          )}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mb-10">
             <div className="rounded-2xl border-2 bg-white p-6" style={{ borderColor: AZUL_TXT }}>
               <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">{t("PAGO ÚNICO")}</div>
@@ -225,7 +255,7 @@ export default function ProgramaContent() {
             <div className="rounded-2xl border-2 border-gray-200 bg-white p-6">
               <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">{t("{n} CUOTAS", { n: MESES })}</div>
               <div className="text-5xl font-bold" style={{ color: AZUL_TXT }}>{MESES} × US${PRECIO_MENSUAL}</div>
-              <div className="text-sm text-gray-600 mt-2">{t("Una al inscribirte, otra al inicio del mes 2")}</div>
+              <div className="text-sm text-gray-600 mt-2">{t("Una al inscribirte y otra antes de la clase 5")}</div>
             </div>
           </div>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-w-2xl mx-auto text-left mb-10">
@@ -234,8 +264,8 @@ export default function ProgramaContent() {
             ))}
           </ul>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="/nivel-1#clases" className="px-8 py-4 rounded-full text-white font-bold text-lg hover:scale-105 transition" style={{ backgroundColor: AZUL }}>{t("Inscribirme · Octubre 2026 →")}</a>
-            <a href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(t("Hola Jay! Vi el programa de octubre y tengo una duda sobre qué curso me conviene."))}`} target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full font-bold text-lg border-2 bg-white hover:bg-[#F5F3FF] transition" style={{ borderColor: AZUL_TXT, color: AZUL_TXT }}>{t("💬 ¿Qué nivel me conviene?")}</a>
+            <a href={`/nivel-1?clase=${CLASE_PRINCIPAL}#clases`} className="px-8 py-4 rounded-full text-white font-bold text-lg hover:scale-105 transition" style={{ backgroundColor: AZUL }}>{t("Inscribirme en Básico 1 →")}</a>
+            <a href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(t("Hola Jay! Vi el programa de cursos y tengo una duda sobre qué curso me conviene."))}`} target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full font-bold text-lg border-2 bg-white hover:bg-[#F5F3FF] transition" style={{ borderColor: AZUL_TXT, color: AZUL_TXT }}>{t("💬 ¿Qué nivel me conviene?")}</a>
           </div>
         </div>
       </section>

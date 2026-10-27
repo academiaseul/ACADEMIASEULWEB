@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { PROXIMO_TALLER, TALLER_GRABADO, tallerVigente } from "@/lib/taller";
+import { usePrecio } from "@/lib/campana";
 import Link from "next/link";
 import LiteYouTube from "@/components/LiteYouTube";
 import Navigation from "@/components/Navigation";
@@ -17,6 +18,7 @@ type FormData = {
 };
 
 export default function TallerPage() {
+  const { lanzamiento } = usePrecio();
   const [formData, setFormData] = useState<FormData>({
     nombre: "",
     email: "",
@@ -118,7 +120,7 @@ export default function TallerPage() {
     },
     {
       q: "¿Qué pasa después del taller?",
-      a: "Tendrás la oportunidad de unirte a los cursos en vivo de Academia Seúl — 8 semanas de coreano por Zoom, certificado incluido, con matrícula abierta desde octubre de 2026.",
+      a: "Tu siguiente paso es Básico 1, el curso en vivo desde cero: 8 martes por Zoom desde el 10 de noviembre de 2026, a las 20:00 hora de Chile, con Kiran y certificado incluido.",
     },
     {
       q: "¿En qué plataforma se ve?",
@@ -306,13 +308,13 @@ export default function TallerPage() {
             </h2>
             <p className="text-gray-600 mb-8 max-w-md mx-auto">
               Practica lo que viste en el video con nuestras dos apps gratuitas, y cuando quieras ir en serio,
-              Básico 1 parte la semana del 19 de octubre.
+              Básico 1 parte el martes 10 de noviembre.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
               {[
                 { e: "🧩", t: "Dubu · 두부", d: "Puzzle: combina consonante + vocal y forma la palabra que lees o escuchas.", h: "/dubu", c: "Jugar" },
                 { e: "🐯", t: "Lector de Hangul", d: "Toca cada letra y escucha la voz nativa. Practica lectura y números.", h: "/lector-coreano", c: "Practicar" },
-                { e: "🌱", t: "Básico 1 (A1.1)", d: "8 semanas en vivo con la Prof.ª Kiran · martes o jueves 20:00 Chile · US$150 el curso completo · o 2 cuotas de US$75.", h: "/nivel-1?clase=a11-martes", c: "Ver el curso" },
+                { e: "🌱", t: "Básico 1 (A1.1)", d: lanzamiento ? "8 martes en vivo con Kiran desde el 10 de noviembre · 20:00 Chile · Precio de lanzamiento: US$120 el curso completo · o 2 cuotas de US$60 (hasta el domingo 8 de noviembre)." : "8 martes en vivo con Kiran desde el 10 de noviembre · 20:00 Chile · US$150 el curso completo · o 2 cuotas de US$75.", h: "/nivel-1?clase=a11-martes#clases", c: "Inscribirme" },
               ].map((x) => (
                 <Link key={x.h} href={x.h} className="bg-white border-2 border-[#0D0D0D] p-5 shadow-[4px_4px_0_#0D0D0D] hover:shadow-[6px_6px_0_#3D2EE8] hover:-translate-y-0.5 transition-all">
                   <div className="text-3xl mb-2">{x.e}</div>

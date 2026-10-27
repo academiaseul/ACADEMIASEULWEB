@@ -64,21 +64,27 @@ function resultFor(score: number) {
     return {
       tier: i18n('Principiante total'),
       emoji: '🌱',
-      text: i18n('Estás partiendo desde cero — el lugar perfecto para empezar bien. Básico 1 (A1.1) te enseña a leer hangul en la primera semana y a construir tus primeras frases. Martes o jueves 20:00 (Chile), desde la semana del 19 de octubre.'),
+      text: i18n('Estás partiendo desde cero — el lugar perfecto para empezar bien. Básico 1 (A1.1) te enseña a leer hangul en las dos primeras clases y a construir tus primeras frases. Martes 20:00 (Chile), 8 martes desde el 10 de noviembre, con Kiran.'),
       rec: i18n('Básico 1 (A1.1) · desde cero'),
+      href: '/nivel-1?clase=a11-martes#clases',
+      cta: i18n('Inscribirme en Básico 1 →'),
     };
   if (score <= 7)
     return {
       tier: i18n('Falso principiante'),
       emoji: '🚀',
-      text: i18n('Ya tienes contacto con el idioma, pero te faltan bases ordenadas. Básico 1 te llena los huecos y te da estructura para avanzar de verdad — y si ya lees hangul con soltura, Básico 2 (miércoles 21:00) es tu curso.'),
-      rec: i18n('Básico 1 (A1.1) · o Básico 2 si ya lees hangul'),
+      text: i18n('Ya tienes contacto con el idioma, pero te faltan bases ordenadas. Básico 1 te llena los huecos y te da estructura para avanzar de verdad: parte el martes 10 de noviembre. Si ya lees hangul con soltura, escríbenos y vemos juntos si te conviene Básico 1 o esperar el próximo Básico 2.'),
+      rec: i18n('Básico 1 (A1.1) · desde el 10 de noviembre'),
+      href: '/nivel-1?clase=a11-martes#clases',
+      cta: i18n('Inscribirme en Básico 1 →'),
     };
   return {
     tier: i18n('Tienes bases'),
     emoji: '🔥',
-    text: i18n('Vas bien. Básico 2 (A1.2, miércoles 21:00) te lleva al pasado y al futuro; si ya conversas, Conversacional 1 (A2.1) con profesora nativa (martes 21:00) es para ti. ¿Vas por el examen? TOPIK II (B1+), jueves 21:00.'),
+    text: i18n('Vas bien. Básico 2 (A1.2) te lleva al pasado y al futuro (ya está en curso; te avisamos del próximo). Si ya conversas, Conversacional 1 (A2.1) con profesora nativa es para ti, y si vas por el examen, TOPIK II (B1+): los dos vuelven en enero de 2027.'),
     rec: i18n('Básico 2 (A1.2) · Conversacional 1 (A2.1) · o TOPIK II (B1+)'),
+    href: '/notificarme?curso=general',
+    cta: i18n('Avísame cuando abran →'),
   };
 }
 
@@ -269,10 +275,10 @@ export default function TestNivelPage() {
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="/nivel-1#clases"
+                href={result.href}
                 className="inline-block bg-seoul-red text-white font-bold px-8 py-4 rounded-full hover:scale-[1.02] transition"
               >
-                {t('Inscribirme · Octubre 2026 →')}
+                {t(result.cta)}
               </a>
               <a
                 href="/recursos/guias"

@@ -111,7 +111,7 @@ export default function HangulPost() {
         <blockquote className="border-l-4 border-seoul-red bg-[#F4F7FF] px-6 py-5 my-10 text-seoul-black font-medium">
           La tradición dice que una persona inteligente puede aprender el Hangul
           en una mañana, y cualquier persona en unos pocos días. Casi 600 años
-          después, con el Lector de Hangul y en Básico 1 lo comprobamos en cada cohorte: en una hora
+          después, con el Lector de Hangul y en Básico 1 lo comprobamos en cada grupo: en una hora
           ya estás leyendo tus primeras palabras.
         </blockquote>
 
@@ -258,10 +258,10 @@ export default function HangulPost() {
               Lector de Hangul gratis →
             </a>
             <Link
-              href="/nivel-1#clases"
+              href="/nivel-1?clase=a11-martes#clases"
               className="bg-seoul-red text-white font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
-              Ver cursos de octubre →
+              Empezar Básico 1 →
             </Link>
           </div>
           <p className="text-white/50 text-sm mt-6">화이팅 chingu! 🇰🇷</p>

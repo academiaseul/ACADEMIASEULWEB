@@ -5,6 +5,8 @@ import Image from 'next/image';
 import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { useT } from '@/lib/i18n';
+import PrecioCampana from '@/components/PrecioCampana';
+import { RITMO_LABEL, CLASE_PRINCIPAL } from '@/lib/nivel1';
 
 // Hero: en 5 segundos el visitante debe saber qué es, para quién, qué lo hace distinto y qué hacer.
 // Presupuesto: eyebrow · H1 · sub · oferta · 2 botones · micro-link · franja de 3 datos. Un solo stagger
@@ -90,17 +92,20 @@ export default function Hero() {
             {t('desde la primera semana y hablas desde el día uno.')}
           </p>
           <p className="mt-3 text-sm font-semibold text-white/90">
-            {t('Cohorte octubre 2026 · 8 semanas desde la semana del 19 de octubre · US$150 el curso completo · o 2 cuotas de US$75')}
+            {t('Básico 1 · coreano desde cero con Kiran · {ritmo} · martes 20:00 hora de Chile', { ritmo: t(RITMO_LABEL) })}
+          </p>
+          <p className="mt-1.5 text-sm font-bold text-[#E8B84B]">
+            <PrecioCampana tachadoClassName="font-normal text-white/60" />
           </p>
         </motion.div>
 
         {/* 3 · Qué hacer: primario (elegir clase) + secundario (test de nivel) */}
         <motion.div variants={item} className="mt-8 flex w-full flex-col items-center gap-3 sm:w-auto sm:flex-row sm:gap-4">
           <a
-            href="/nivel-1#clases"
+            href={`/nivel-1?clase=${CLASE_PRINCIPAL}#clases`}
             className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-seoul-red px-8 py-4 font-semibold text-white shadow-xl shadow-seoul-red/25 transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#2C1FB0] hover:shadow-seoul-red/40 focus:outline-none focus:ring-2 focus:ring-seoul-red focus:ring-offset-2 focus:ring-offset-seoul-black sm:w-auto"
           >
-            {t('Elegir mi clase →')}
+            {t('Inscribirme en Básico 1 →')}
           </a>
           <a
             href="/test-nivel"
@@ -110,14 +115,14 @@ export default function Hero() {
           </a>
         </motion.div>
 
-        {/* 4 · Micro-link para quien empieza de cero */}
+        {/* 4 · Micro-link: probar gratis antes (taller grabado de Hangul) */}
         <motion.p variants={item} className="mt-5 text-sm text-white/85">
-          {t('¿Nunca estudiaste coreano?')}{' '}
+          {t('¿Quieres probar antes?')}{' '}
           <a
-            href="/nivel-1?clase=a11-martes#clases"
+            href="/taller"
             className="font-bold text-white underline decoration-white/50 underline-offset-4 transition-colors hover:text-[#E8B84B]"
           >
-            {t('Empiezas en Básico 1 (A1.1) →')}
+            {t('Mira gratis la clase de Hangul →')}
           </a>
         </motion.p>
 

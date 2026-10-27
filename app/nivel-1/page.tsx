@@ -9,44 +9,59 @@ import HorarioSemanal from "@/components/HorarioSemanal";
 import EquipoProfes from "@/components/EquipoProfes";
 import ResumenReserva from "@/components/ResumenReserva";
 import SidebarCursos from "@/components/SidebarCursos";
+import PrecioCampana from "@/components/PrecioCampana";
 import { useHoraLocal } from "@/lib/useHoraLocal";
+import { usePrecio, type Plan } from "@/lib/campana";
 import { useT, i18n, Tr } from "@/lib/i18n";
 import {
   COHORTE_ABIERTA,
   PROXIMA_COHORTE_LABEL,
   INICIO_SEMANA,
+  RITMO_LABEL,
+  PRIMERA_CLASE_ISO,
   CIERRE_MATRICULA,
+  LANZAMIENTO_HASTA,
   PRECIO_UNICO,
   PRECIO_MENSUAL,
   MESES,
   precioLabel,
   PAYPAL_LINK_UNICO,
   PAYPAL_LINK_MENSUAL,
+  PAYPAL_LINK_LANZAMIENTO,
+  PAYPAL_LINK_LANZAMIENTO_CUOTA,
   HOTMART_LINK_UNICO,
   HOTMART_LINK_MENSUAL,
   MP_LINK_UNICO,
   MP_LINK_MENSUAL,
-  CLP_UNICO,
-  CLP_MENSUAL,
+  MP_LINK_LANZAMIENTO,
+  MP_LINK_LANZAMIENTO_CUOTA,
   WHATSAPP,
   CLASES,
+  CLASES_ABIERTAS,
+  CLASE_PRINCIPAL,
+  ESTADO_LABEL,
+  esClaseAbierta,
+  notificarHref,
   cursoDe,
   profeCorto,
   pdfDe,
   type ClaseId,
 } from "@/lib/nivel1";
 
-type Plan = "unico" | "mensual";
 const RESERVA_KEY = "asReserva";
 
 export default function Nivel1Page() {
-  const [selectedClase, setSelectedClase] = useState<ClaseId>("a11-martes");
+  const [selectedClase, setSelectedClase] = useState<ClaseId>(CLASE_PRINCIPAL);
+  // Si llega un ?clase= de una clase que hoy no se inscribe (Básico 2, enero 2027), se avisa arriba.
+  const [avisoClase, setAvisoClase] = useState<ClaseId | null>(null);
   const [plan, setPlan] = useState<Plan>("unico");
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   // Hasta el primer tick (mientras carga en un celular lento) se muestra "–" y no un engañoso 0:00:00
   const [relojListo, setRelojListo] = useState(false);
+  const [yaEmpezo, setYaEmpezo] = useState(false);
   const { pais, esChile, info, hora } = useHoraLocal();
   const { t } = useT();
+  const precio = usePrecio();
   const [desdeChile, setDesdeChile] = useState(true);
   const [tocoPais, setTocoPais] = useState(false);
   const [mostrarSticky, setMostrarSticky] = useState(false);
@@ -68,10 +83,11 @@ export default function Nivel1Page() {
   const [avisoPayPal, setAvisoPayPal] = useState(false);
   const [avisoMP, setAvisoMP] = useState(false);
 
-  const clase = CLASES.find((c) => c.id === selectedClase) ?? CLASES[0];
+  const clase = CLASES_ABIERTAS.find((c) => c.id === selectedClase) ?? CLASES_ABIERTAS[0] ?? CLASES[0];
   const curso = cursoDe(clase);
   const esNinos = curso.grupo === "ninos";
-  const planLabel = plan === "unico" ? t("US${p} pago único", { p: PRECIO_UNICO }) : t("{n} cuotas de US${m}", { n: MESES, m: PRECIO_MENSUAL });
+  const planBase = plan === "unico" ? t("US${p} pago único", { p: precio.unico }) : t("{n} cuotas de US${m}", { n: MESES, m: precio.mensual });
+  const planLabel = precio.lanzamiento ? t("{plan} · precio de lanzamiento", { plan: planBase }) : planBase;
   const paso = submitted ? (payConfirmed ? 3 : 2) : 1;
 
   // País de pago: sigue al país detectado hasta que el usuario lo toque.
@@ -87,11 +103,13 @@ export default function Nivel1Page() {
         const r = JSON.parse(saved);
         if (r.form) setForm((f) => ({ ...f, ...r.form }));
         if (r.plan) setPlan(r.plan);
-        if (r.selectedClase && CLASES.some((k) => k.id === r.selectedClase)) setSelectedClase(r.selectedClase);
+        if (r.selectedClase && esClaseAbierta(r.selectedClase)) setSelectedClase(r.selectedClase);
         if (r.submitted) setSubmitted(true);
       }
     } catch {}
-    if (c && CLASES.some((k) => k.id === c)) setSelectedClase(c as ClaseId);
+    // ?clase=a11-jueves (ya no se dicta) queda en Básico 1 martes, la clase por defecto.
+    if (c && esClaseAbierta(c)) setSelectedClase(c as ClaseId);
+    else if (c && CLASES.some((k) => k.id === c)) setAvisoClase(c as ClaseId);
     const p = params.get("pago");
     if (p) {
       setPagoStatus(p);
@@ -118,6 +136,7 @@ export default function Nivel1Page() {
   }, []);
 
   const elegirClase = (id: ClaseId) => {
+    if (!esClaseAbierta(id)) return; // solo las clases abiertas se inscriben
     setSelectedClase(id);
     setFormError("");
   };
@@ -127,10 +146,14 @@ export default function Nivel1Page() {
     const el = document.getElementById("clases");
     if (el) window.scrollTo({ top: el.offsetTop - 120, behavior: "smooth" });
   };
-  const sidebarCursos = CLASES.map((c) => {
+  // Barra lateral: la clase abierta arriba (seleccionable); las demás abajo como "Próximamente" (lista de espera).
+  const sidebarCursos = CLASES_ABIERTAS.map((c) => {
     const cu = cursoDe(c);
-    // Básico 1 tiene dos secciones: el chip dice el día para que no se vean dos iguales
-    return { id: c.id, emoji: cu.emoji, label: cu.cursoId === "a11" ? `${t(cu.nombreCorto)} · ${t(c.dia)}` : t(cu.nombreCorto), sub: `${t(c.dia)} ${hora(c.horaChile)}${esChile ? "" : ` ${t(info.corto)}`} · ${t(profeCorto(c))}` };
+    return { id: c.id, emoji: cu.emoji, label: t(cu.nombreCorto), sub: `${t(c.dia)} ${hora(c.horaChile)}${esChile ? "" : ` ${t(info.corto)}`} · ${t(profeCorto(c))}` };
+  });
+  const sidebarProximos = CLASES.filter((c) => c.estado !== "abierta").map((c) => {
+    const cu = cursoDe(c);
+    return { id: c.id, emoji: cu.emoji, label: t(cu.nombreCorto), sub: t(ESTADO_LABEL[c.estado]), href: notificarHref(cu.cursoId) };
   });
   const sidebarSecciones = [
     { id: "clases", label: t("¿Qué curso tomo?") },
@@ -219,11 +242,27 @@ export default function Nivel1Page() {
     }
   };
 
-  // Pago con Mercado Pago: link fijo (lib/nivel1.ts) o checkout dinámico con datos del alumno
+  // Links del precio de lanzamiento (vacíos ⇒ el botón va a WhatsApp, ver más abajo)
+  const mpLanzamiento = plan === "unico" ? MP_LINK_LANZAMIENTO : MP_LINK_LANZAMIENTO_CUOTA;
+
+  // Pago con Mercado Pago: link fijo (lib/nivel1.ts) o checkout dinámico con datos del alumno.
+  // Durante el lanzamiento NUNCA se usa el checkout dinámico (cobra 150.000 / 75.000).
+  const faltanDatos = () => {
+    if (submitted && form.nombre && form.correo) return false;
+    setFormError(t("Primero completa tus datos arriba para reservar tu cupo."));
+    document.getElementById("inscripcion")?.scrollIntoView({ behavior: "smooth" });
+    return true;
+  };
+  // PayPal con precio de lanzamiento y sin link propio: WhatsApp, pero solo con los datos ya enviados.
+  const pagarPayPalLanzamiento = () => {
+    if (faltanDatos()) return;
+    window.open(waLanzamiento("PayPal"), "_blank", "noopener");
+  };
   const pagarConTarjeta = async () => {
-    if (!submitted || !form.nombre || !form.correo) {
-      setFormError(t("Primero completa tus datos arriba para reservar tu cupo."));
-      document.getElementById("inscripcion")?.scrollIntoView({ behavior: "smooth" });
+    if (faltanDatos()) return;
+    if (precio.lanzamiento) {
+      window.open(mpLanzamiento || waLanzamiento("Mercado Pago"), "_blank", "noopener");
+      if (mpLanzamiento) setAvisoMP(true);
       return;
     }
     const linkFijo = plan === "unico" ? MP_LINK_UNICO : MP_LINK_MENSUAL;
@@ -247,12 +286,12 @@ export default function Nivel1Page() {
     }
   };
 
-  // Countdown al inicio de la cohorte: lunes 19 de octubre de 2026, 00:00 hora Chile (corrida una semana el 12 oct)
+  // Countdown a la primera clase de Básico 1: martes 10 de noviembre de 2026, 20:00 hora de Chile
   useEffect(() => {
-    const deadline = new Date("2026-10-19T00:00:00-03:00").getTime();
+    const deadline = new Date(PRIMERA_CLASE_ISO).getTime();
     const tick = () => {
       const diff = deadline - Date.now();
-      if (diff <= 0) { setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 }); return; }
+      if (diff <= 0) { setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 }); setYaEmpezo(true); return; }
       setTimeLeft({
         days: Math.floor(diff / 86400000),
         hours: Math.floor((diff / 3600000) % 24),
@@ -269,20 +308,28 @@ export default function Nivel1Page() {
   const verbo = esNinos ? t("inscribir a mi hijo/a") : t("inscribirme");
   const waLink = (msg: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
   const waTransfer = waLink(t("Hola Jay! Quiero {verbo} en {curso} ({dia} {hora} Chile) con {plan}. ¿Me pasas los datos para la transferencia?", { verbo, curso: t(curso.nombreCorto), dia: t(clase.dia), hora: clase.horaChile, plan: planLabel }));
-  const waPayPalMensual = waLink(t("Hola Jay! Estoy fuera de Chile y quiero pagar {curso} en {n} cuotas de US${m}. ¿Me envías el link de PayPal?", { curso: t(curso.nombreCorto), n: MESES, m: PRECIO_MENSUAL }));
-  const clpRef = (usd: number) => t("${clp} CLP", { clp: (usd === PRECIO_UNICO ? CLP_UNICO : CLP_MENSUAL).toLocaleString("es-CL") });
+  const waPayPalMensual = waLink(t("Hola Jay! Estoy fuera de Chile y quiero pagar {curso} en {n} cuotas de US${m}. ¿Me envías el link de PayPal?", { curso: t(curso.nombreCorto), n: MESES, m: precio.mensual }));
+  // Precio de lanzamiento sin link propio: se coordina por WhatsApp (texto del brief + plan y método).
+  const waLanzamiento = (metodo: string) => waLink(t("Hola Jay, quiero inscribirme en Básico 1 con el precio de lanzamiento ({plan} · {metodo}). Mis datos: {nombre} · {correo}.", { plan: planBase, metodo, nombre: form.nombre, correo: form.correo }));
+  const clpRef = (clp: number) => t("${clp} CLP", { clp: clp.toLocaleString("es-CL") });
+  const precioNormal = t(precioLabel());
 
   const faqs = [
-    { q: t("¿Cómo me inscribo?"), a: t("En 3 pasos, sin crear cuenta: 1) elige tu clase arriba en esta página (si nunca estudiaste coreano, es Básico 1); 2) deja tus datos en el formulario; 3) paga con Mercado Pago, PayPal o transferencia y te confirmamos el cupo por correo y WhatsApp. Matrícula abierta hasta el {cierre}.", { cierre: t(CIERRE_MATRICULA) }) },
+    { q: t("¿Cómo me inscribo?"), a: t("En 3 pasos, sin crear cuenta: 1) deja tus datos en el formulario de esta página; 2) paga con Mercado Pago, PayPal o transferencia; 3) te confirmamos el cupo por correo y WhatsApp y te sumamos al grupo de la clase. Matrícula abierta hasta el {cierre}.", { cierre: t(CIERRE_MATRICULA) }) },
     { q: t("¿Las clases son en vivo o grabadas?"), a: t("En vivo por Zoom (60 min cada una). Si te pierdes alguna, recibes la grabación dentro de las 24 horas y puedes escribirnos para resolver dudas de esa clase.") },
-    { q: t("¿Cuánto dura cada curso y cuándo empieza?"), a: t("Todos los cursos duran 8 semanas (2 meses), con 1 clase en vivo por semana. La cohorte arranca {inicio} y termina la semana del 7 de diciembre. Matrícula abierta hasta el {cierre}.", { inicio: t(INICIO_SEMANA), cierre: t(CIERRE_MATRICULA) }) },
-    { q: t("¿Cuánto cuesta y cómo pago?"), a: t("{precio} — mismo precio en todos los cursos. Aceptamos transferencia bancaria en Chile (sin comisión), tarjeta de crédito/débito vía Mercado Pago (se cobra en pesos chilenos) y PayPal en dólares (también con tarjeta, sin cuenta PayPal).", { precio: t(precioLabel()) }) },
-    { q: t("¿Necesito experiencia previa?"), a: t("Para Básico 1 (A1.1) y Coreano para Niños: cero, empezamos desde el alfabeto. Básico 2 (A1.2) requiere Básico 1 (o el Nivel 1 de julio). Conversacional 1 (A2.1) requiere Básico 2 o el test de nivel. TOPIK II es para nivel intermedio.") },
-    { q: t("Fui alumno/a del Nivel 1 en julio, ¿qué curso sigo?"), a: t("Ese curso hoy se llama Básico 1 (A1.1) y tu certificado equivale a A1.1. Tu siguiente paso es Básico 2 (A1.2) · miércoles 21:00 Chile · con Jay. Si lo que quieres es hablar, también puedes entrar a Conversacional 1 con test de nivel.") },
-    { q: t("¿Cuántas personas hay por clase?"), a: t("Máximo 15 alumnos por clase (8 en TOPIK II y 12 en Niños). Grupos chicos para que el profesor corrija tu pronunciación personalmente.") },
+    { q: t("¿Cuándo empieza y cuánto dura?"), a: t("Básico 1 son {ritmo}: una clase en vivo por semana, a las 20:00 hora de Chile, de 60 minutos por Zoom. Matrícula abierta hasta el {cierre}.", { ritmo: t(RITMO_LABEL), cierre: t(CIERRE_MATRICULA) }) },
+    {
+      q: t("¿Cuánto cuesta y cómo pago?"),
+      a: precio.lanzamiento
+        ? t("{lanzamiento} (hasta el {fecha}). Desde el lunes 9 de noviembre: {normal}. Aceptamos transferencia bancaria en Chile (sin comisión), tarjeta de crédito/débito vía Mercado Pago (se cobra en pesos chilenos) y PayPal en dólares (también con tarjeta, sin cuenta PayPal).", { lanzamiento: t(precio.label), fecha: t(LANZAMIENTO_HASTA), normal: precioNormal })
+        : t("{precio}. Aceptamos transferencia bancaria en Chile (sin comisión), tarjeta de crédito/débito vía Mercado Pago (se cobra en pesos chilenos) y PayPal en dólares (también con tarjeta, sin cuenta PayPal).", { precio: precioNormal }),
+    },
+    { q: t("¿Necesito experiencia previa?"), a: t("No. Básico 1 empieza desde cero: lo primero es leer y escribir el alfabeto (한글). La romanización se usa solo en las clases 1 y 2; después, puro 한글.") },
+    { q: t("¿Qué voy a aprender?"), a: t("Básico 1 sigue el libro 한글학교 한국어 1 con material propio y audio nativo: leer y escribir 한글, presentarte, preguntar «¿qué es esto?», la familia, lugares y posiciones, ir a lugares, lo que hay en tu pieza, verbos de todos los días y lo que te gusta. Cierra con el proyecto final «Yo en coreano».") },
+    { q: t("Fui alumno/a del Nivel 1 en julio, ¿qué curso sigo?"), a: t("Ese curso hoy se llama Básico 1 (A1.1) y tu certificado equivale a A1.1. Tu siguiente paso es Básico 2 (A1.2), que ya está en curso desde el 21 de octubre: escríbenos y te avisamos cuando abra el próximo. ¿Tienes un chingu que quiera empezar desde cero? Básico 1 es para él o ella.") },
+    { q: t("¿Cuántas personas hay por clase?"), a: t("Máximo 15 alumnos. Grupos chicos para que la profesora corrija tu pronunciación personalmente.") },
     { q: t("¿Recibo certificado?"), a: t("Sí, está incluido en todos los cursos. Al completar tu curso recibes el certificado de Academia Seúl del nivel correspondiente, en base a tu asistencia y participación.") },
-    { q: t("¿Cómo es la clase de Niños?"), a: t("60 minutos divididos en bloques de 10–15 min (canción · juego · lectura · dibujo) con un grupo de máximo 12. Las grabaciones son privadas, solo para las familias del grupo, y el apoderado recibe un grupo de WhatsApp propio. Tu hijo/a solo necesita un computador o tablet con cámara y ganas de jugar.") },
-    { q: t("¿En qué hora llegan las clases a mi país?"), a: t("Elige tu país en la grilla de horarios de esta página y verás la hora exacta. Las clases de 20:00 y 21:00 Chile caen de madrugada en España; la de Niños (18:00 Chile) llega a las 23:00 / 22:00 en España.") },
+    { q: t("¿En qué hora llegan las clases a mi país?"), a: t("20:00 en Chile = 18:00 en Colombia y Perú · 17:00 en México · 20:00 en Argentina · 18:00 en EE.UU. (hora del Este) · 00:00 en España (ya es miércoles) · 08:00 del miércoles en Corea. Elige tu país en el horario de esta página y verás tu hora exacta.") },
   ];
 
   // Página de cierre + lista de espera cuando la cohorte no está abierta.
@@ -292,8 +339,8 @@ export default function Nivel1Page() {
         <Navigation solid />
         <section className="min-h-[80vh] flex flex-col items-center justify-center text-center px-6 pt-32 pb-24 bg-[#F5F3FF]">
           <span className="inline-flex items-center gap-2 bg-white border border-[#E5E1FB] text-[#4036ED] text-xs font-bold tracking-[2px] uppercase px-4 py-2 rounded-full mb-6">{t("Cursos en vivo")}</span>
-          <h1 className="font-black text-gray-900 leading-tight mb-5" style={{ fontSize: "clamp(32px, 5vw, 56px)" }}>{t("Esta cohorte ya está en marcha")}</h1>
-          <p className="text-gray-600 text-lg max-w-xl mb-8">{t("Anótate en la lista de espera y te avisamos apenas se abran los cupos de la próxima cohorte ({cohorte}) — con acceso prioritario a horarios y precio.", { cohorte: t(PROXIMA_COHORTE_LABEL) })}</p>
+          <h1 className="font-black text-gray-900 leading-tight mb-5" style={{ fontSize: "clamp(32px, 5vw, 56px)" }}>{t("Esta clase ya está en marcha")}</h1>
+          <p className="text-gray-600 text-lg max-w-xl mb-8">{t("Anótate en la lista de espera y te avisamos apenas se abran los cupos de las próximas clases ({cuando}) — con acceso prioritario a horarios y precio.", { cuando: t(PROXIMA_COHORTE_LABEL) })}</p>
           <Link href="/notificarme?curso=nivel1" className="inline-flex items-center gap-2 bg-[#4036ED] text-white font-bold px-8 py-4 rounded-xl hover:bg-[#332BC7] transition-colors">{t("Anotarme en la lista de espera →")}</Link>
         </section>
         <Footer />
@@ -328,43 +375,58 @@ export default function Nivel1Page() {
       {/* Hero */}
       <section className="relative overflow-hidden text-white pt-16 md:pt-20" style={{ backgroundColor: "#3D2EE8" }}>
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-16 md:py-24 text-center">
-          <div className="inline-block px-4 py-1 mb-6 rounded-full bg-white/10 text-xs font-bold tracking-widest">{t("TODOS LOS NIVELES · COHORTE OCTUBRE 2026")}</div>
+          <div className="inline-block px-4 py-1 mb-6 rounded-full bg-white/10 text-xs font-bold tracking-widest">{t("BÁSICO 1 · DESDE CERO · NOVIEMBRE 2026")}</div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="block text-2xl md:text-3xl mb-3 opacity-80">한국어 수업</span>
-            {t("Inscripción octubre 2026")}
+            <span className="block text-2xl md:text-3xl mb-3 opacity-80">첫 한국어</span>
+            {t("Básico 1 · Coreano desde cero")}
           </h1>
-          <p className="text-lg md:text-xl mt-4 max-w-2xl mx-auto opacity-90">{t("De Básico 1 a TOPIK II, y Coreano para Niños de 8 a 15 — elige tu clase.")}</p>
-          <p className="text-base mt-3 max-w-2xl mx-auto opacity-80">{t("8 semanas desde {inicio} · 1 clase en vivo por semana · 60 min · {precio} · certificado incluido", { inicio: t(INICIO_SEMANA), precio: t(precioLabel()) })}</p>
+          <p className="text-lg md:text-xl mt-4 max-w-2xl mx-auto opacity-90">{t("Lee y escribe 한글, preséntate y arma tus primeras frases reales, en vivo y con Kiran.")}</p>
+          <p className="text-base mt-3 max-w-2xl mx-auto opacity-80">{t("{ritmo} · martes 20:00 hora de Chile · 60 min por Zoom · certificado incluido", { ritmo: t(RITMO_LABEL) })}</p>
+          <p className="text-base md:text-lg mt-3 max-w-2xl mx-auto font-bold"><PrecioCampana tachadoClassName="opacity-60 font-normal" /></p>
 
-          <div className="mt-8 inline-block bg-white/10 backdrop-blur rounded-2xl px-6 py-4">
-            <div className="text-xs tracking-widest opacity-80 mb-2">{t("⏰ LAS CLASES EMPIEZAN EN")}</div>
-            <div className="flex gap-4 md:gap-6 justify-center text-2xl md:text-4xl font-bold">
-              <div><div>{relojListo ? timeLeft.days : "–"}</div><div className="text-xs opacity-70 mt-1">{t("DÍAS")}</div></div>
-              <div className="opacity-40">:</div>
-              <div><div>{relojListo ? timeLeft.hours.toString().padStart(2, "0") : "–"}</div><div className="text-xs opacity-70 mt-1">{t("HORAS")}</div></div>
-              <div className="opacity-40">:</div>
-              <div><div>{relojListo ? timeLeft.minutes.toString().padStart(2, "0") : "–"}</div><div className="text-xs opacity-70 mt-1">{t("MIN")}</div></div>
-              <div className="opacity-40">:</div>
-              <div><div>{relojListo ? timeLeft.seconds.toString().padStart(2, "0") : "–"}</div><div className="text-xs opacity-70 mt-1">{t("SEG")}</div></div>
+          {!yaEmpezo && (
+            <div className="mt-8 inline-block bg-white/10 backdrop-blur rounded-2xl px-6 py-4">
+              <div className="text-xs tracking-widest opacity-80 mb-2">{t("⏰ LA PRIMERA CLASE EMPIEZA EN")}</div>
+              <div className="flex gap-4 md:gap-6 justify-center text-2xl md:text-4xl font-bold">
+                <div><div>{relojListo ? timeLeft.days : "–"}</div><div className="text-xs opacity-70 mt-1">{t("DÍAS")}</div></div>
+                <div className="opacity-40">:</div>
+                <div><div>{relojListo ? timeLeft.hours.toString().padStart(2, "0") : "–"}</div><div className="text-xs opacity-70 mt-1">{t("HORAS")}</div></div>
+                <div className="opacity-40">:</div>
+                <div><div>{relojListo ? timeLeft.minutes.toString().padStart(2, "0") : "–"}</div><div className="text-xs opacity-70 mt-1">{t("MIN")}</div></div>
+                <div className="opacity-40">:</div>
+                <div><div>{relojListo ? timeLeft.seconds.toString().padStart(2, "0") : "–"}</div><div className="text-xs opacity-70 mt-1">{t("SEG")}</div></div>
+              </div>
+              <div className="text-xs opacity-70 mt-2">
+                {precio.matriculaAbierta
+                  ? t("Matrícula abierta hasta el {cierre}", { cierre: t(CIERRE_MATRICULA) })
+                  : t("La matrícula cerró el lunes 9 de noviembre. ¿Quieres entrar igual? Escríbenos por WhatsApp.")}
+              </div>
             </div>
-            <div className="text-xs opacity-70 mt-2">{t("Matrícula abierta hasta el {cierre}", { cierre: t(CIERRE_MATRICULA) })}</div>
-          </div>
+          )}
+          {yaEmpezo && (
+            <a href={waLink(t("Hola Jay! Vi que Básico 1 ya empezó. ¿Puedo sumarme o me avisas de la próxima clase?"))} target="_blank" rel="noopener noreferrer" className="mt-8 inline-block bg-white/10 backdrop-blur rounded-2xl px-6 py-4 text-sm font-semibold underline-offset-4 hover:underline">
+              {t("Básico 1 ya empezó el martes 10 de noviembre. ¿Quieres sumarte igual o que te avisemos de la próxima clase? Escríbenos por WhatsApp →")}
+            </a>
+          )}
 
           <div className="mt-8 flex flex-col md:flex-row gap-4 justify-center items-center">
-            <a href="#clases" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">{t("Elegir mi clase")}</a>
-            <a href="/programa" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">{t("Ver syllabus completo")}</a>
+            <a href="#inscripcion" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">{t("Reservar mi cupo →")}</a>
+            <a href="/programa#a11" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">{t("Ver syllabus completo")}</a>
           </div>
           {/* Cómo inscribirse, a la vista desde el primer pantallazo */}
           <ol className="mt-6 max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-2 text-sm text-left">
-            <li className="bg-white/10 rounded-xl px-4 py-3"><strong>1.</strong> {t("Elige tu clase")}</li>
-            <li className="bg-white/10 rounded-xl px-4 py-3"><strong>2.</strong> {t("Deja tus datos (sin crear cuenta)")}</li>
-            <li className="bg-white/10 rounded-xl px-4 py-3"><strong>3.</strong> {t("Paga con Mercado Pago, PayPal o transferencia y te confirmamos el cupo por correo/WhatsApp")}</li>
+            <li className="bg-white/10 rounded-xl px-4 py-3"><strong>1.</strong> {t("Deja tus datos (sin crear cuenta)")}</li>
+            <li className="bg-white/10 rounded-xl px-4 py-3"><strong>2.</strong> {t("Paga con Mercado Pago, PayPal o transferencia")}</li>
+            <li className="bg-white/10 rounded-xl px-4 py-3"><strong>3.</strong> {t("Te confirmamos el cupo y te sumamos al grupo de WhatsApp de la clase")}</li>
           </ol>
         </div>
       </section>
 
       <SidebarCursos
         cursos={sidebarCursos}
+        proximos={sidebarProximos}
+        tituloCursos={t("Clase abierta")}
+        tituloProximos={t("Las demás clases")}
         secciones={sidebarSecciones}
         activoCurso={selectedClase}
         onCurso={elegirDesdeSidebar}
@@ -374,21 +436,35 @@ export default function Nivel1Page() {
       {/* Paso 0 · ¿Qué curso tomo? + grilla */}
       <section id="clases" className="py-16 bg-[#F5F3FF]">
         <div className="max-w-6xl mx-auto px-6">
+          {avisoClase && (() => {
+            const otra = CLASES.find((c) => c.id === avisoClase)!;
+            const otroCurso = cursoDe(otra);
+            return (
+              <div className="mb-10 rounded-2xl border-2 border-[#3D2EE8] bg-white p-5 flex flex-col sm:flex-row sm:items-center gap-3">
+                <p className="flex-1 text-sm text-gray-800">
+                  <Tr k="**{curso}** · {estado}. Por ahora la única clase abierta es Básico 1, desde cero." vars={{ curso: t(otroCurso.nombreCorto), estado: t(ESTADO_LABEL[otra.estado]) }} />
+                </p>
+                <a href={notificarHref(otroCurso.cursoId)} className="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-white font-bold text-sm whitespace-nowrap" style={{ backgroundColor: "#3D2EE8" }}>
+                  {t("Avísame cuando abra")} →
+                </a>
+              </div>
+            );
+          })()}
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">{t("¿Qué curso tomo?")}</h2>
-          <p className="text-gray-600 text-center mb-8">{t("Toca tu caso y te decimos tu peldaño — o elige directo en el horario.")}</p>
+          <p className="text-gray-600 text-center mb-8">{t("Si nunca estudiaste coreano, tu curso es Básico 1. Toca tu caso para ver tu peldaño.")}</p>
           <Escalera activo={curso.cursoId} compacta />
 
-          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mt-14 mb-2">{t("Elige tu clase")}</h2>
-          <p className="text-gray-600 text-center mb-6">{t("5 cursos · 6 horarios (Básico 1 se dicta martes y jueves: elige uno)")}</p>
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mt-14 mb-2">{t("Tu clase y tu hora local")}</h2>
+          <p className="text-gray-600 text-center mb-6">{t("Una clase abierta: Básico 1 · martes 20:00 hora de Chile · {ritmo}. Toca tu país para ver tu hora.", { ritmo: t(RITMO_LABEL) })}</p>
           <HorarioSemanal seleccionada={selectedClase} onSelect={elegirClase} />
 
           {/* Detalle de la clase elegida */}
           <div className="mt-8 bg-white rounded-3xl border-2 border-[#3D2EE8] p-6 md:p-8">
             <div className="flex flex-col md:flex-row md:items-start gap-6">
               <div className="flex-1">
-                <div className="text-xs font-bold tracking-widest uppercase mb-1" style={{ color: "#818CF8" }}>{t("Tu selección")}</div>
+                <div className="text-xs font-bold tracking-widest uppercase mb-1" style={{ color: "var(--as-azul-txt)" }}>{t("Tu selección")}</div>
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">{curso.emoji} {t(curso.nombreCorto)}</h3>
-                <div className="text-gray-500 mb-3">{t(curso.subtitulo)} · {curso.koreanTitle}</div>
+                <div className="text-gray-600 mb-3">{t(curso.subtitulo)}{t(curso.subtitulo) !== curso.koreanTitle && <> · {curso.koreanTitle}</>}</div>
                 <p className="text-gray-700 mb-4">{t(curso.descripcion)}</p>
                 {curso.requiere && <p className="text-sm text-gray-600 mb-1"><strong>{t("Requiere:")}</strong> {t(curso.requiere)}</p>}
                 {curso.alias && <p className="text-sm text-gray-600 mb-1"><strong>{t("Antes se llamaba:")}</strong> {t(curso.alias)}</p>}
@@ -398,7 +474,7 @@ export default function Nivel1Page() {
                 <a href="#inscripcion" className="text-center px-6 py-4 rounded-full text-white font-bold text-lg hover:scale-105 transition" style={{ backgroundColor: "#3D2EE8" }}>
                   {esNinos ? t("Inscribir a mi hijo/a →") : t("Reservar mi cupo →")}
                 </a>
-                <a href={pdfDe(curso.cursoId)} download className="text-center px-6 py-3 rounded-full font-bold border-2 border-[#3D2EE8] text-[#3D2EE8] hover:bg-[#F5F3FF] transition">{t("📄 Programa PDF")}</a>
+                {pdfDe(curso.cursoId) && <a href={pdfDe(curso.cursoId)} download className="text-center px-6 py-3 rounded-full font-bold border-2 border-[#3D2EE8] text-[#3D2EE8] hover:bg-[#F5F3FF] transition">{t("📄 Programa PDF")}</a>}
                 <a href={`/programa#${curso.cursoId}`} className="text-center text-sm font-semibold text-[#3D2EE8] underline">{t("Ver syllabus semana a semana")}</a>
               </div>
             </div>
@@ -431,9 +507,14 @@ export default function Nivel1Page() {
       {/* Profes */}
       <section id="profes" className="py-16 bg-gradient-to-b from-white to-[#F5F3FF]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">{t("Tu equipo de profesores")}</h2>
-          <p className="text-gray-600 text-center mb-10">{t("Nativos y bilingües, con años de experiencia enseñando coreano a hispanohablantes.")}</p>
-          <EquipoProfes destacado={clase.profeId} />
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">{t("Tu profesora")}</h2>
+          <p className="text-gray-600 text-center mb-10">{t("Bilingüe coreano–español, con años de experiencia enseñando coreano a hispanohablantes.")}</p>
+          <div className="max-w-sm mx-auto">
+            <EquipoProfes destacado={clase.profeId} solo={clase.profeId} />
+          </div>
+          <p className="text-center mt-6">
+            <a href="/programa#equipo" className="text-sm font-semibold underline underline-offset-4" style={{ color: "var(--as-azul-txt)" }}>{t("Conoce a todo el equipo →")}</a>
+          </p>
         </div>
       </section>
 
@@ -508,15 +589,10 @@ export default function Nivel1Page() {
                 <select
                   aria-label={esNinos ? t("¿Qué nivel de coreano tiene tu hijo/a?") : t("¿Cuál es tu nivel de coreano?")}
                   value={form.nivel}
-                  onChange={(e) => {
-                    const v = e.target.value;
-                    setForm({ ...form, nivel: v });
-                    if (v === "Fui alumno/a del Nivel 1 (julio 2026)") elegirClase("a12");
-                  }}
+                  onChange={(e) => setForm({ ...form, nivel: e.target.value })}
                   className={`${input} bg-white`}
                 >
                   <option value="">{t("Selecciona un nivel")}</option>
-                  {!esNinos && <option value="Fui alumno/a del Nivel 1 (julio 2026)">{t("Fui alumno/a del Nivel 1 (julio 2026) — quiero seguir con Básico 2")}</option>}
                   <option value="Desde cero">{t("Desde cero (no sabe nada) 🐣")}</option>
                   <option value="Lee algo del alfabeto">{t("Lee algo del alfabeto (한글)")}</option>
                   <option value="Terminó Básico 1 o equivalente">{t("Terminó Básico 1 o equivalente (lee 한글 y se presenta)")}</option>
@@ -574,28 +650,44 @@ export default function Nivel1Page() {
           <div className="text-center mb-10">
             <div className="inline-block px-4 py-1 mb-3 rounded-full text-xs font-bold tracking-widest text-white" style={{ backgroundColor: "#3D2EE8" }}>{t("PASO 2 · PAGO")}</div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">{t("Completa tu pago")}</h2>
-            <p className="text-sm font-bold tracking-widest" style={{ color: "#818CF8" }}>{t("MISMO PRECIO EN TODOS LOS CURSOS")}</p>
+            <p className="text-sm font-bold tracking-widest" style={{ color: "var(--as-azul-txt)" }}>
+              {precio.lanzamiento ? t("PRECIO DE LANZAMIENTO (−20 %) HASTA EL DOMINGO 8 DE NOVIEMBRE") : t("CURSO COMPLETO · 8 CLASES EN VIVO")}
+            </p>
           </div>
 
           <div className="bg-white border-2 border-[#3D2EE8] rounded-3xl p-8 md:p-12 shadow-xl">
             <div className="mb-6"><ResumenReserva clase={clase} plan={plan} pais={pais} /></div>
 
             {/* Plan selector */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
               <button type="button" onClick={() => setPlan("unico")} className={`p-6 rounded-2xl border-2 text-center transition ${plan === "unico" ? "border-[#3D2EE8] bg-[#F5F3FF] shadow-md" : "border-gray-200 hover:border-gray-300"}`}>
                 <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">{t("PAGO ÚNICO")}</div>
-                <div className="text-4xl md:text-5xl font-bold" style={{ color: "var(--as-azul-txt)" }}>US${PRECIO_UNICO}</div>
-                <div className="text-sm text-gray-600 mt-2">{t("El curso completo de 8 semanas")}{desdeChile ? ` · ${clpRef(PRECIO_UNICO)}` : ""}</div>
+                <div className="text-4xl md:text-5xl font-bold" style={{ color: "var(--as-azul-txt)" }}>
+                  {precio.lanzamiento && <><s className="text-xl md:text-2xl font-semibold text-gray-400 mr-2 align-middle"><span className="sr-only">{t("Precio normal:")} </span>US${PRECIO_UNICO}</s><span className="sr-only">{t("Ahora:")} </span></>}
+                  US${precio.unico}
+                </div>
+                <div className="text-sm text-gray-600 mt-2">{t("El curso completo de 8 semanas")}{desdeChile ? ` · ${clpRef(precio.clpUnico)}` : ""}</div>
                 {plan === "unico" && <div className="mt-3 text-xs font-bold" style={{ color: "var(--as-azul-txt)" }}>{t("✓ Seleccionado")}</div>}
               </button>
               <button type="button" onClick={() => setPlan("mensual")} className={`p-6 rounded-2xl border-2 text-center transition ${plan === "mensual" ? "border-[#3D2EE8] bg-[#F5F3FF] shadow-md" : "border-gray-200 hover:border-gray-300"}`}>
                 <div className="text-xs font-bold tracking-widest text-gray-500 mb-1">{t("{n} CUOTAS", { n: MESES })}</div>
-                <div className="text-4xl md:text-5xl font-bold" style={{ color: "var(--as-azul-txt)" }}>{MESES} × US${PRECIO_MENSUAL}</div>
-                <div className="text-sm text-gray-600 mt-2">{t("Una al inscribirte y otra al inicio del mes 2")}{desdeChile ? ` · ${clpRef(PRECIO_MENSUAL)} ${t("c/u")}` : ""}</div>
-                {!desdeChile && !PAYPAL_LINK_MENSUAL && <div className="text-xs text-gray-500 mt-1">{t("Fuera de Chile se coordina por WhatsApp")}</div>}
+                <div className="text-4xl md:text-5xl font-bold" style={{ color: "var(--as-azul-txt)" }}>
+                  {precio.lanzamiento && <><s className="text-xl md:text-2xl font-semibold text-gray-400 mr-2 align-middle"><span className="sr-only">{t("Precio normal:")} </span>{MESES} × US${PRECIO_MENSUAL}</s><span className="sr-only">{t("Ahora:")} </span></>}
+                  {MESES} × US${precio.mensual}
+                </div>
+                <div className="text-sm text-gray-600 mt-2">{t("Una al inscribirte y otra antes de la clase 5")}{desdeChile ? ` · ${clpRef(precio.clpMensual)} ${t("c/u")}` : ""}</div>
+                {!desdeChile && !(precio.lanzamiento ? PAYPAL_LINK_LANZAMIENTO_CUOTA : PAYPAL_LINK_MENSUAL) && <div className="text-xs text-gray-500 mt-1">{t("Fuera de Chile se coordina por WhatsApp")}</div>}
                 {plan === "mensual" && <div className="mt-3 text-xs font-bold" style={{ color: "var(--as-azul-txt)" }}>{t("✓ Seleccionado")}</div>}
               </button>
             </div>
+            {precio.lanzamiento ? (
+              <p className="text-center text-sm text-gray-600 mb-8 max-w-xl mx-auto">
+                {t("🚀 Precio de lanzamiento (−20 %) hasta el domingo 8 de noviembre a las 23:59, hora de Chile. Desde el lunes 9: {normal}.", { normal: precioNormal })}
+                {!(plan === "unico" ? PAYPAL_LINK_LANZAMIENTO : PAYPAL_LINK_LANZAMIENTO_CUOTA) && !mpLanzamiento && <> {t("Con este precio, Jay te envía el link de pago por WhatsApp.")}</>}
+              </p>
+            ) : (
+              <div className="mb-8" />
+            )}
 
             {/* País de pago */}
             <div className="flex flex-wrap items-center justify-center gap-2 mb-5 text-sm">
@@ -621,27 +713,36 @@ export default function Nivel1Page() {
                       <p className="text-base font-bold text-gray-900">{t("🏦 Transferencia bancaria · Chile")}</p>
                       <span className="text-[10px] font-bold text-white px-3 py-1 rounded-full" style={{ backgroundColor: "#16a34a" }}>{t("RECOMENDADO · SIN COMISIÓN")}</span>
                     </div>
-                    <p className="text-sm text-gray-700 mb-4">{t("Sin comisión: el monto llega completo ({monto} — te confirmamos el monto exacto). Escríbenos y te enviamos los datos.", { monto: plan === "unico" ? clpRef(PRECIO_UNICO) : t("{clp} por cuota", { clp: clpRef(PRECIO_MENSUAL) }) })}</p>
+                    <p className="text-sm text-gray-700 mb-4">{t("Sin comisión: el monto llega completo ({monto} — te confirmamos el monto exacto). Escríbenos y te enviamos los datos.", { monto: plan === "unico" ? clpRef(precio.clpUnico) : t("{clp} por cuota", { clp: clpRef(precio.clpMensual) }) })}</p>
                     <a href={waTransfer} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-white text-sm font-bold" style={{ backgroundColor: "#25D366" }}>{t("📲 Pedir datos por WhatsApp")}</a>
                   </div>
                   <p className="text-center text-xs text-gray-400 pt-2">{t("o paga al instante con")}</p>
                   <button type="button" onClick={pagarConTarjeta} disabled={payLoading} className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition disabled:opacity-60">
-                    {payLoading ? t("Abriendo pago seguro…") : t("💳 Tarjeta o transferencia · Mercado Pago ({plan})", { plan: planLabel })}
+                    {payLoading
+                      ? t("Abriendo pago seguro…")
+                      : precio.lanzamiento && !mpLanzamiento
+                        ? t("💳 Tarjeta o transferencia · Mercado Pago · te enviamos el link por WhatsApp")
+                        : t("💳 Tarjeta o transferencia · Mercado Pago ({plan})", { plan: planLabel })}
                   </button>
-                  <p className="text-center text-xs text-gray-500 -mt-1">{t("{clp} · crédito, débito o transferencia, sin cuenta. Reserva tu cupo arriba antes de pagar.", { clp: plan === "unico" ? clpRef(PRECIO_UNICO) : clpRef(PRECIO_MENSUAL) })}</p>
-                  <BotonPayPal plan={plan} onClick={() => setAvisoPayPal(true)} waMensual={waPayPalMensual} relleno={false} />
+                  <p className="text-center text-xs text-gray-500 -mt-1">{t("{clp} · crédito, débito o transferencia, sin cuenta. Reserva tu cupo arriba antes de pagar.", { clp: plan === "unico" ? clpRef(precio.clpUnico) : clpRef(precio.clpMensual) })}</p>
+                  <BotonPayPal plan={plan} onClick={() => setAvisoPayPal(true)} waMensual={waPayPalMensual} onLanzamiento={pagarPayPalLanzamiento} relleno={false} />
                 </>
               ) : (
                 <>
-                  <BotonPayPal plan={plan} onClick={() => setAvisoPayPal(true)} waMensual={waPayPalMensual} relleno />
+                  <BotonPayPal plan={plan} onClick={() => setAvisoPayPal(true)} waMensual={waPayPalMensual} onLanzamiento={pagarPayPalLanzamiento} relleno />
                   <p className="text-center text-xs text-gray-500 -mt-1"><Tr k="Recomendado fuera de Chile · pagas en dólares con cualquier tarjeta, **sin cuenta PayPal** (opción “Pagar con tarjeta”)." /></p>
-                  {(plan === "unico" ? HOTMART_LINK_UNICO : HOTMART_LINK_MENSUAL) && (
+                  {/* Hotmart cobra el precio normal: se oculta mientras rige el lanzamiento */}
+                  {!precio.lanzamiento && (plan === "unico" ? HOTMART_LINK_UNICO : HOTMART_LINK_MENSUAL) && (
                     <a href={plan === "unico" ? HOTMART_LINK_UNICO : HOTMART_LINK_MENSUAL} target="_blank" rel="noopener noreferrer" className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition">
                       {t("🌐 Tarjeta en tu moneda (USD/EUR/local) · Hotmart")}
                     </a>
                   )}
                   <button type="button" onClick={pagarConTarjeta} disabled={payLoading} className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition disabled:opacity-60">
-                    {payLoading ? t("Abriendo pago seguro…") : t("💳 Mercado Pago ({plan})", { plan: planLabel })}
+                    {payLoading
+                      ? t("Abriendo pago seguro…")
+                      : precio.lanzamiento && !mpLanzamiento
+                        ? t("💳 Mercado Pago · te enviamos el link por WhatsApp")
+                        : t("💳 Mercado Pago ({plan})", { plan: planLabel })}
                   </button>
                   <p className="text-center text-xs text-gray-500 -mt-1">{t("Se cobra en pesos chilenos; tu banco puede cobrar comisión por cambio de moneda.")}</p>
                   <p className="text-center text-xs text-gray-500">{t("¿Prefieres transferencia internacional?")} <a href={waTransfer} target="_blank" rel="noopener noreferrer" className="underline font-semibold" style={{ color: "var(--as-azul-txt)" }}>{t("Escríbenos por WhatsApp")}</a>.</p>
@@ -670,7 +771,7 @@ export default function Nivel1Page() {
                       {[
                         { m: i18n("Mercado Pago (tarjeta)"), e: "💳" },
                         { m: "PayPal", e: "🌍" },
-                        ...(HOTMART_LINK_UNICO ? [{ m: "Hotmart", e: "🌐" }] : []),
+                        ...(HOTMART_LINK_UNICO && !precio.lanzamiento ? [{ m: "Hotmart", e: "🌐" }] : []),
                         { m: i18n("Transferencia bancaria"), e: "🏦" },
                       ].map((opt) => (
                         <button key={opt.m} type="button" disabled={payConfirming} onClick={() => confirmarPago(opt.m)} className="px-4 py-2.5 rounded-full text-sm font-bold border-2 border-[#3D2EE8] text-[#3D2EE8] hover:bg-[#3D2EE8] hover:text-white transition disabled:opacity-50">
@@ -733,10 +834,11 @@ export default function Nivel1Page() {
       <section className="py-20 text-white" style={{ backgroundColor: "#3D2EE8" }}>
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">{t("¿Listo para empezar?")}</h2>
-          <p className="text-lg opacity-90 mb-8">{t("Las clases arrancan {inicio} — {precio}. Certificado incluido.", { inicio: t(INICIO_SEMANA), precio: t(precioLabel()) })}</p>
+          <p className="text-lg opacity-90 mb-2">{t("Básico 1 arranca {inicio}: {ritmo}, a las 20:00 hora de Chile. Certificado incluido.", { inicio: t(INICIO_SEMANA), ritmo: t(RITMO_LABEL) })}</p>
+          <p className="text-base font-bold mb-8"><PrecioCampana tachadoClassName="opacity-60 font-normal" /></p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="#clases" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">{t("Elegir mi clase")}</a>
-            <a href={waLink(t("Hola Jay! Tengo una duda sobre los cursos de octubre."))} target="_blank" rel="noopener noreferrer" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">{t("💬 Hablar con Jay primero")}</a>
+            <a href="#inscripcion" className="px-8 py-4 bg-white text-[#3D2EE8] font-bold rounded-full text-lg hover:scale-105 transition">{t("Reservar mi cupo →")}</a>
+            <a href={waLink(t("Hola Jay! Tengo una duda sobre Básico 1 de noviembre."))} target="_blank" rel="noopener noreferrer" className="px-8 py-4 border-2 border-white text-white font-bold rounded-full text-lg hover:bg-white/10 transition">{t("💬 Hablar con Jay primero")}</a>
           </div>
           <div className="mt-8 text-sm opacity-70">{t("화이팅 chingu! Nos vemos {inicio}.", { inicio: t(INICIO_SEMANA) })}</div>
         </div>
@@ -748,12 +850,30 @@ export default function Nivel1Page() {
   );
 }
 
-function BotonPayPal({ plan, onClick, waMensual, relleno }: { plan: Plan; onClick: () => void; waMensual: string; relleno: boolean }) {
+function BotonPayPal({ plan, onClick, waMensual, onLanzamiento, relleno }: { plan: Plan; onClick: () => void; waMensual: string; onLanzamiento: () => void; relleno: boolean }) {
   const { t } = useT();
+  const precio = usePrecio();
   const cls = relleno
     ? "block w-full py-3.5 rounded-full text-white font-bold text-base text-center hover:scale-[1.01] transition"
     : "block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition";
   const style = relleno ? { backgroundColor: "#3D2EE8" } : undefined;
+  // Precio de lanzamiento: link propio si Jay lo creó; si no, WhatsApp con los datos del alumno (los links
+  // normales cobran US$150 / US$75). onLanzamiento exige el formulario enviado antes de abrir WhatsApp.
+  if (precio.lanzamiento) {
+    const link = plan === "unico" ? PAYPAL_LINK_LANZAMIENTO : PAYPAL_LINK_LANZAMIENTO_CUOTA;
+    if (link) {
+      return (
+        <a href={link} target="_blank" rel="noopener noreferrer" onClick={onClick} className={cls} style={style}>
+          {t("🌍 PayPal · en dólares ({monto})", { monto: plan === "unico" ? `US$${precio.unico}` : t("US${m} por cuota", { m: precio.mensual }) })}
+        </a>
+      );
+    }
+    return (
+      <button type="button" onClick={onLanzamiento} className={cls} style={style}>
+        {t("🌍 PayPal en dólares · te enviamos el link por WhatsApp")}
+      </button>
+    );
+  }
   if (plan === "unico" || PAYPAL_LINK_MENSUAL) {
     return (
       <a href={plan === "unico" ? PAYPAL_LINK_UNICO : PAYPAL_LINK_MENSUAL} target="_blank" rel="noopener noreferrer" onClick={onClick} className={cls} style={style}>

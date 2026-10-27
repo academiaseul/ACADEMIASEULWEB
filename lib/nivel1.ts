@@ -1,9 +1,15 @@
-// ⚙️ CONFIGURACIÓN DE LA COHORTE · OCTUBRE 2026
+// ⚙️ CONFIGURACIÓN DEL PROGRAMA · MODO «BÁSICO 1 · NOVIEMBRE 2026»
 //
 // Fuente única de verdad del programa: NOMBRES, precios, clases, horarios (con
 // zonas horarias), profesores y syllabus de 8 semanas. La leen /nivel-1
 // (matrícula), /programa (syllabus público), la home (Courses), los PDFs
 // descargables (scratchpad/make_programas_pdf.js) y el checkout de Mercado Pago.
+//
+// Decisión de Jay (lun 26 oct 2026): se promueve UNA sola clase.
+//   · Básico 1 · martes 20:00 Chile · Kiran · 8 martes desde el martes 10 de noviembre.
+//   · Básico 2 está en curso desde el miércoles 21 de octubre (no se inscribe).
+//   · Conversacional 1, TOPIK II y Niños: próximamente, enero 2027 (lista de espera).
+// Cada clase tiene un `estado`; solo las "abierta" muestran inscripción y pago.
 //
 // Regla de nombres (una sola en todo el sitio):
 //   nombreCorto  → "Básico 1 (A1.1)"     en títulos, selects, correos, WhatsApp
@@ -11,16 +17,28 @@
 //   subtitulo    → "Primeras Palabras"   solo como línea gris secundaria
 //   koreanTitle  → decorativo
 //
-// Para cerrar la matrícula cuando arranque la cohorte: COHORTE_ABIERTA = false.
+// Para cerrar la matrícula a mano (página de lista de espera): COHORTE_ABIERTA = false.
+// Las fechas *_ISO hacen que el sitio cambie solo: precio de lanzamiento, cierre y cuenta regresiva.
 
 export const COHORTE_ABIERTA = true;
 
-export const PROXIMA_COHORTE_LABEL = "Octubre 2026";
-export const INICIO_LABEL = "Semana del 19 de octubre de 2026";
-export const INICIO_SEMANA = "la semana del 19 de octubre";
-export const INICIO_ISO = "2026-10-19";
-export const FIN_LABEL = "Semana del 7 de diciembre de 2026";
-export const CIERRE_MATRICULA = "domingo 18 de octubre (o hasta llenar los cupos)";
+export const PROXIMA_COHORTE_LABEL = "enero 2027";
+export const INICIO_LABEL = "Martes 10 de noviembre de 2026";
+/** Se usa dentro de frases: "Las clases arrancan {inicio}", "Nos vemos {inicio}". */
+export const INICIO_SEMANA = "el martes 10 de noviembre";
+export const INICIO_ISO = "2026-11-10";
+/** Primera clase de Básico 1 (cuenta regresiva de /nivel-1). */
+export const PRIMERA_CLASE_ISO = "2026-11-10T20:00:00-03:00";
+/** Así se dice en los textos públicos (no se publica fecha de término). */
+export const RITMO_LABEL = "8 martes desde el 10 de noviembre";
+/**
+ * SOLO INTERNO: los textos públicos no llevan fecha de término. Básico 1: 10, 17 y 24 nov ·
+ * 1, 8, 15, 22 y 29 dic. La clase 5 cae el mar 8 dic (feriado en Chile): la propuesta es
+ * hacerla igual porque es online [POR CONFIRMAR con Jay].
+ */
+export const FIN_LABEL = "Martes 29 de diciembre de 2026";
+export const CIERRE_MATRICULA = "lunes 9 de noviembre a las 23:59, hora de Chile (o hasta llenar los cupos)";
+export const CIERRE_MATRICULA_ISO = "2026-11-09T23:59:59-03:00";
 
 // 💵 Precios (USD) — cada curso: pago único o 2 cuotas.
 export const PRECIO_UNICO = 150;
@@ -30,6 +48,25 @@ export const MESES = 2;
 export const precioLabel = () =>
   `US$${PRECIO_UNICO} el curso completo · o ${MESES} cuotas de US$${PRECIO_MENSUAL}`;
 export const PRECIO_CORTO = `US$${PRECIO_UNICO} · o ${MESES} × US$${PRECIO_MENSUAL}`;
+
+// 🚀 Precio de lanzamiento de Básico 1 (−20 %), hasta el domingo 8 de noviembre a las 23:59 hora de Chile.
+// Desde el lunes 9 vuelve solo el precio normal. Se calcula en el cliente (lib/campana.tsx).
+export const PRECIO_LANZAMIENTO_UNICO = 120;
+export const PRECIO_LANZAMIENTO_MENSUAL = 60;
+export const CLP_LANZAMIENTO_UNICO = 120000;
+export const CLP_LANZAMIENTO_MENSUAL = 60000;
+export const LANZAMIENTO_HASTA_ISO = "2026-11-08T23:59:59-03:00";
+export const LANZAMIENTO_HASTA = "domingo 8 de noviembre";
+/** "US$120 el curso completo · o 2 cuotas de US$60" (va después de "Precio de lanzamiento:" y del US$150 tachado). */
+export const precioLanzamientoMonto = () =>
+  `US$${PRECIO_LANZAMIENTO_UNICO} el curso completo · o ${MESES} cuotas de US$${PRECIO_LANZAMIENTO_MENSUAL}`;
+/** Texto plano (WhatsApp, correos): "Precio de lanzamiento: US$120 el curso completo · o 2 cuotas de US$60". */
+export const precioLanzamientoLabel = () => `Precio de lanzamiento: ${precioLanzamientoMonto()}`;
+export const PRECIO_LANZAMIENTO_CORTO = `US$${PRECIO_LANZAMIENTO_UNICO} · o ${MESES} × US$${PRECIO_LANZAMIENTO_MENSUAL}`;
+/** ¿Rige el precio de lanzamiento en este instante? */
+export const enLanzamiento = (ahora: number = Date.now()) => ahora <= Date.parse(LANZAMIENTO_HASTA_ISO);
+/** ¿Sigue abierta la matrícula de Básico 1 en este instante? */
+export const matriculaAbierta = (ahora: number = Date.now()) => ahora <= Date.parse(CIERRE_MATRICULA_ISO);
 
 // 🔗 Links de pago PayPal (Pay Links con monto fijo, confirmados por Jay el 15 sept 2026).
 // Si PAYPAL_LINK_MENSUAL queda vacío, el plan en cuotas se coordina por WhatsApp.
@@ -45,6 +82,15 @@ export const MP_LINK_UNICO = "https://mpago.la/1cHrbqy"; // $150.000 CLP · curs
 export const MP_LINK_MENSUAL = ""; // TODO(Jay): crear el link de $75.000 CLP (cuota 1 de 2)
 export const CLP_UNICO = 150000;
 export const CLP_MENSUAL = 75000;
+
+// 🔗 Links del PRECIO DE LANZAMIENTO (todavía no existen). TODO(Jay): crearlos y pegarlos aquí.
+// Mientras rija el lanzamiento y estén vacíos, el botón de pago abre WhatsApp con WA_LANZAMIENTO_MSG
+// (nunca el checkout dinámico, que cobra 150.000 / 75.000). Después del dom 8 vuelven los links normales.
+export const PAYPAL_LINK_LANZAMIENTO = ""; // US$120 · curso completo
+export const PAYPAL_LINK_LANZAMIENTO_CUOTA = ""; // US$60 · cuota 1 de 2
+export const MP_LINK_LANZAMIENTO = ""; // $120.000 CLP · curso completo
+export const MP_LINK_LANZAMIENTO_CUOTA = ""; // $60.000 CLP · cuota 1 de 2
+export const WA_LANZAMIENTO_MSG = "Hola Jay, quiero inscribirme en Básico 1 con el precio de lanzamiento";
 
 // 🔗 Hotmart (checkout en la moneda del alumno: USD/EUR/moneda local — ideal
 // para alumnos fuera de LatAm). Los botones solo aparecen cuando el link existe.
@@ -78,7 +124,7 @@ export const PROFES: Profe[] = [
     nombre: "Kiran · 기란",
     corto: "Kiran",
     emoji: "🌱",
-    rol: "Básico 1 (martes y jueves)",
+    rol: "Básico 1 (martes)",
     bio: "Profesora coreana criada en Argentina — bilingüe perfecta. Años de experiencia enseñando coreano en español.",
   },
   {
@@ -102,6 +148,8 @@ export const profeDe = (id: ProfeId): Profe => PROFES.find((p) => p.id === id)!;
 
 export type CursoId = "ninos" | "a11" | "a12" | "a21" | "topik2";
 
+// "a11-jueves" dejó de ofrecerse el 26 oct 2026 (solo hay Básico 1 los martes). El id sigue en el
+// tipo para que los links viejos ?clase=a11-jueves no rompan: /nivel-1 los lleva a "a11-martes".
 export type ClaseId =
   | "a11-martes"
   | "a11-jueves"
@@ -110,6 +158,13 @@ export type ClaseId =
   | "topik2"
   | "ninos";
 
+/**
+ * abierta     → se inscribe y se paga en /nivel-1 (hoy solo Básico 1 · martes).
+ * en_curso    → ya empezó (Básico 2, desde el 21 de octubre): sin inscripción, lista de espera.
+ * enero_2027  → próximamente: sin botón de pago, lista de espera en /notificarme.
+ */
+export type EstadoClase = "abierta" | "en_curso" | "enero_2027";
+
 export type Clase = {
   id: ClaseId;
   cursoId: CursoId;
@@ -117,21 +172,43 @@ export type Clase = {
   profeId: ProfeId;
   dia: string;
   horaChile: string; // "18:00"
-  primeraClase: string; // "martes 20 de octubre"
+  primeraClase: string; // "martes 10 de noviembre"
   cupos: number;
+  estado: EstadoClase;
 };
 
 // Orden = orden de la escalera (Básico 1 → Básico 2 → Conversacional 1 → TOPIK II), Niños al final.
+// Día y hora de las clases "enero_2027" son los de octubre: el horario de enero está por confirmar.
 export const CLASES: Clase[] = [
-  { id: "a11-martes", cursoId: "a11", label: "Básico 1 (A1.1) · Martes 20:00 Chile · Kiran", profeId: "guiran", dia: "Martes", horaChile: "20:00", primeraClase: "martes 20 de octubre", cupos: 15 },
-  { id: "a11-jueves", cursoId: "a11", label: "Básico 1 (A1.1) · Jueves 20:00 Chile · Kiran", profeId: "guiran", dia: "Jueves", horaChile: "20:00", primeraClase: "jueves 22 de octubre", cupos: 15 },
-  { id: "a12", cursoId: "a12", label: "Básico 2 (A1.2) · Miércoles 21:00 Chile · Jay", profeId: "jay", dia: "Miércoles", horaChile: "21:00", primeraClase: "miércoles 21 de octubre", cupos: 15 },
-  { id: "a21", cursoId: "a21", label: "Conversacional 1 (A2.1) · Martes 21:00 Chile · Abby", profeId: "abby", dia: "Martes", horaChile: "21:00", primeraClase: "martes 20 de octubre", cupos: 15 },
-  { id: "topik2", cursoId: "topik2", label: "TOPIK II (B1+) · Jueves 21:00 Chile · Jay", profeId: "jay", dia: "Jueves", horaChile: "21:00", primeraClase: "jueves 22 de octubre", cupos: 8 },
-  { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–15) · Lunes 18:00 Chile · Jay y Abby", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "lunes 19 de octubre", cupos: 12 },
+  { id: "a11-martes", cursoId: "a11", label: "Básico 1 (A1.1) · Martes 20:00 Chile · Kiran", profeId: "guiran", dia: "Martes", horaChile: "20:00", primeraClase: "martes 10 de noviembre", cupos: 15, estado: "abierta" },
+  { id: "a12", cursoId: "a12", label: "Básico 2 (A1.2) · Miércoles 21:00 Chile · Jay", profeId: "jay", dia: "Miércoles", horaChile: "21:00", primeraClase: "miércoles 21 de octubre", cupos: 15, estado: "en_curso" },
+  { id: "a21", cursoId: "a21", label: "Conversacional 1 (A2.1) · Martes 21:00 Chile · Abby", profeId: "abby", dia: "Martes", horaChile: "21:00", primeraClase: "enero 2027", cupos: 15, estado: "enero_2027" },
+  { id: "topik2", cursoId: "topik2", label: "TOPIK II (B1+) · Jueves 21:00 Chile · Jay", profeId: "jay", dia: "Jueves", horaChile: "21:00", primeraClase: "enero 2027", cupos: 8, estado: "enero_2027" },
+  { id: "ninos", cursoId: "ninos", label: "Coreano para Niños (8–15) · Lunes 18:00 Chile · Jay y Abby", profeId: "ninos", dia: "Lunes", horaChile: "18:00", primeraClase: "enero 2027", cupos: 12, estado: "enero_2027" },
 ];
 
-// 🌎 Conversión de horarios (octubre–noviembre 2026, Chile en horario de verano UTC-3).
+/** La clase que se promueve hoy (deep link por defecto de /nivel-1 y de todos los botones). */
+export const CLASE_PRINCIPAL: ClaseId = "a11-martes";
+export const CLASES_ABIERTAS: Clase[] = CLASES.filter((c) => c.estado === "abierta");
+export const esClaseAbierta = (id: string): boolean => CLASES.some((c) => c.id === id && c.estado === "abierta");
+/** Textos de estado (claves de traducción). */
+export const ESTADO_LABEL: Record<EstadoClase, string> = {
+  abierta: "Inscripciones abiertas",
+  en_curso: "En curso desde el 21 de octubre",
+  enero_2027: "Próximamente · enero 2027",
+};
+/** Lista de espera de cada curso (claves de app/notificarme). */
+const NOTIFICAR_SLUG: Record<CursoId, string> = {
+  a11: "nivel1",
+  a12: "basico2",
+  a21: "conversacional",
+  topik2: "topik",
+  ninos: "ninos",
+};
+export const notificarHref = (cursoId: CursoId): string => `/notificarme?curso=${NOTIFICAR_SLUG[cursoId]}`;
+
+// 🌎 Conversión de horarios (noviembre 2026–enero 2027: Chile UTC-3, EE.UU. Este UTC-5, España UTC+1).
+// Básico 1 (10 nov → diciembre) no cruza ningún cambio de hora.
 export type TzRow = {
   horaChile: string;
   mexico: string;
@@ -144,20 +221,19 @@ export type TzRow = {
 export type PaisKey = "chile" | keyof Omit<TzRow, "horaChile">;
 
 export const TZ_ROWS: TzRow[] = [
-  { horaChile: "18:00", mexico: "15:00", colombiaPeru: "16:00", argentina: "18:00", usaEste: "17:00 → 16:00", espana: "23:00 → 22:00", corea: "06:00 (día sig.)" },
-  { horaChile: "20:00", mexico: "17:00", colombiaPeru: "18:00", argentina: "20:00", usaEste: "19:00 → 18:00", espana: "01:00 → 00:00 (día sig.)", corea: "08:00 (día sig.)" },
-  { horaChile: "21:00", mexico: "18:00", colombiaPeru: "19:00", argentina: "21:00", usaEste: "20:00 → 19:00", espana: "02:00 → 01:00 (día sig.)", corea: "09:00 (día sig.)" },
+  { horaChile: "18:00", mexico: "15:00", colombiaPeru: "16:00", argentina: "18:00", usaEste: "16:00", espana: "22:00", corea: "06:00 (día sig.)" },
+  { horaChile: "20:00", mexico: "17:00", colombiaPeru: "18:00", argentina: "20:00", usaEste: "18:00", espana: "00:00 (día sig.)", corea: "08:00 (día sig.)" },
+  { horaChile: "21:00", mexico: "18:00", colombiaPeru: "19:00", argentina: "21:00", usaEste: "19:00", espana: "01:00 (día sig.)", corea: "09:00 (día sig.)" },
 ];
-export const TZ_NOTA =
-  "España cambia de hora el 25 de octubre y EE.UU. el 1 de noviembre (se muestra antes → después). Chile, Argentina, México, Colombia, Perú y Corea no cambian durante el curso.";
+export const TZ_NOTA = "Ningún país cambia de hora durante Básico 1 (noviembre y diciembre).";
 
 export const PAISES: { key: PaisKey; label: string; corto: string; bandera: string; cambiaHora?: string }[] = [
   { key: "chile", label: "Chile", corto: "Chile", bandera: "🇨🇱" },
   { key: "argentina", label: "Argentina / Uruguay / Brasil", corto: "Argentina", bandera: "🇦🇷" },
   { key: "colombiaPeru", label: "Colombia / Perú / Ecuador", corto: "Col/Perú", bandera: "🇨🇴" },
   { key: "mexico", label: "México (CDMX)", corto: "México", bandera: "🇲🇽" },
-  { key: "usaEste", label: "EE.UU. (hora del Este)", corto: "EE.UU. Este", bandera: "🇺🇸", cambiaHora: "En EE.UU. la hora cambia el 1 de noviembre (se muestra antes → después)." },
-  { key: "espana", label: "España", corto: "España", bandera: "🇪🇸", cambiaHora: "En España la hora cambia el 25 de octubre (se muestra antes → después)." },
+  { key: "usaEste", label: "EE.UU. (hora del Este)", corto: "EE.UU. Este", bandera: "🇺🇸" },
+  { key: "espana", label: "España", corto: "España", bandera: "🇪🇸", cambiaHora: "En España la clase de las 20:00 de Chile cae a medianoche (00:00 del día siguiente)." },
   { key: "corea", label: "Corea", corto: "Corea", bandera: "🇰🇷", cambiaHora: "Para Corea, las clases caen a la mañana del día siguiente." },
 ];
 export function horaLocal(horaChile: string, pais: PaisKey): string {
@@ -345,7 +421,7 @@ export const CURSOS: Curso[] = [
     nivel: "8–15 años · desde cero",
     libro: "Material propio Academia Seúl + Lector de Hangul",
     descripcion:
-      "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia. Empieza el lunes 19 de octubre y termina el 7 de diciembre.",
+      "Coreano desde cero para niños y niñas, con juegos, canciones y dibujos. Aprenden a leer el alfabeto, presentarse y decir sus primeras frases — y terminan con un mini-show para la familia. Vuelve en enero de 2027.",
     logros: [
       "Leer sus primeras palabras en coreano",
       "Presentarse: nombre y edad",
@@ -392,17 +468,14 @@ export function horarioDe(cursoId: CursoId, pais: PaisKey = "chile"): string {
 /** Primera clase disponible de un curso (para deep links ?clase=). */
 export const primeraClaseDe = (cursoId: CursoId): ClaseId => clasesDe(cursoId)[0].id;
 
-// 📄 PDFs descargables (public/programas/, generados con scratchpad/make_programas_pdf.js).
-const PDF_SLUG: Record<CursoId, string> = {
-  ninos: "Ninos",
-  a11: "Basico1",
-  a12: "Basico2",
-  a21: "ConversacionalA21",
-  topik2: "TOPIK2",
-};
-export const PROGRAMA_GENERAL_PDF = "/programas/Programa_Cursos_Octubre_2026.pdf";
-/** Programa completo de estudios (alumnos + profes), 60+ páginas, ES y EN. */
-export const PROGRAMA_COMPLETO_PDF = { es: "/programas/Programa_Completo_Octubre_2026_ES.pdf", en: "/programas/Programa_Completo_Octubre_2026_EN.pdf" };
+// 📄 PDFs descargables (public/programas/).
+// Los PDFs de octubre (Programa_*_Octubre_2026.pdf, Programa_Cursos y Programa_Completo ES/EN) traen
+// fechas vencidas ("semana del 19 de octubre", "martes o jueves"): siguen en public/ pero ya no se enlazan.
+// Básico 1 de noviembre: public/programas/Programa_Basico1_Noviembre_2026.pdf (se exporta del .docx con Word).
+// next.config.mjs revisa al compilar si ese PDF existe y lo pasa en AS_PDF_BASICO1: mientras no exista,
+// los botones "Programa PDF" no se muestran (y /p/basico1 lleva a /programa#a11). Así nunca hay un link roto.
+export const PROGRAMA_BASICO1_PDF: string = process.env.AS_PDF_BASICO1 || "";
+/** PDF del programa de un curso, o "" si no hay uno vigente (entonces no se muestra el botón). */
 export function pdfDe(cursoId: CursoId): string {
-  return `/programas/Programa_${PDF_SLUG[cursoId]}_Octubre_2026.pdf`;
+  return cursoId === "a11" ? PROGRAMA_BASICO1_PDF : "";
 }

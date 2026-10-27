@@ -14,7 +14,7 @@ type NavLink = { label: string; href: string; highlight?: boolean; children?: Na
 // Contacto directo al WhatsApp de Jay (mensaje traducido dentro del componente).
 const navLinks: NavLink[] = [
   { label: i18n('Inicio'),        href: '/#hero'     },
-  { label: i18n('Inscripción octubre'), href: '/nivel-1', highlight: true },
+  { label: i18n('Inscripción Básico 1'), href: '/nivel-1?clase=a11-martes', highlight: true },
   { label: i18n('Programa'),      href: '/programa'  },
   { label: i18n('Sobre Jay'),     href: '/sobre'     },
   {
@@ -156,7 +156,7 @@ export default function Navigation({ solid = false }: { solid?: boolean }) {
             {/* Móvil: inscripción siempre visible + menú */}
             <div className="lg:hidden flex items-center gap-2">
               <a
-                href="/nivel-1#clases"
+                href="/nivel-1?clase=a11-martes#clases"
                 className="max-[339px]:hidden inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold text-white whitespace-nowrap"
                 style={{ backgroundColor: '#4236F6' }}
               >

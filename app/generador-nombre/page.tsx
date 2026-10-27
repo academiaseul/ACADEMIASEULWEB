@@ -134,8 +134,8 @@ export default function GeneradorNombre() {
               <a href="/lector-coreano" className="px-7 py-3.5 rounded-full font-bold" style={{ backgroundColor: "#E8B84B", color: "#0D0D0D" }}>
                 Lector de Hangul gratis →
               </a>
-              <a href="/nivel-1#clases" className="px-7 py-3.5 rounded-full font-bold bg-seoul-red text-white">
-                Inscribirme a un curso →
+              <a href="/nivel-1?clase=a11-martes#clases" className="px-7 py-3.5 rounded-full font-bold bg-seoul-red text-white">
+                Empezar Básico 1 →
               </a>
             </div>
             <p className="text-white/50 text-sm mt-5">화이팅 chingu! 🇰🇷</p>

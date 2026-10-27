@@ -271,10 +271,10 @@ export default function WordGame() {
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                 <a
-                  href="/nivel-1#clases"
+                  href="/nivel-1?clase=a11-martes#clases"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-seoul-red hover:bg-seoul-red-muted text-white font-semibold rounded-lg transition-all duration-300 text-sm w-full sm:w-auto"
                 >
-                  {t('Inscribirme · Octubre 2026 →')}
+                  {t('Inscribirme en Básico 1 →')}
                 </a>
                 <button
                   onClick={handleStart}

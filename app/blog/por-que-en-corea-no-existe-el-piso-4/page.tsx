@@ -420,8 +420,8 @@ export default function Piso4Post() {
           en voz nativa el número que elijas y un modo de práctica,
           todo gratis. Y si quieres que alguien te acompañe piso por
           piso, en Básico 1 (A1.1) los aprendemos juntos: US$150 el curso
-          completo · o 2 cuotas de US$75, y empezamos la semana del 5 de
-          octubre.
+          completo · o 2 cuotas de US$75, y empezamos el martes 10 de
+          noviembre.
         </p>
 
         {/* CTA */}
@@ -437,8 +437,8 @@ export default function Piso4Post() {
           </h3>
           <p className="text-white/70 mb-7 max-w-md mx-auto">
             Practica los números sino-coreanos y nativos con audio de voz nativa
-            en el Lector de Hangul gratis, o ve directo a los cursos en vivo de
-            octubre: ambos sistemas se aprenden en Básico 1 (A1.1).
+            en el Lector de Hangul gratis, o ve directo a Básico 1 (A1.1), que
+            parte el martes 10 de noviembre: ahí se aprenden los dos sistemas.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -448,10 +448,10 @@ export default function Piso4Post() {
               Lector de Hangul gratis →
             </a>
             <Link
-              href="/nivel-1#clases"
+              href="/nivel-1?clase=a11-martes#clases"
               className="bg-seoul-red text-white font-bold px-7 py-3.5 shadow-[4px_4px_0_rgba(255,255,255,0.2)] hover:-translate-y-0.5 transition-transform"
             >
-              Ver cursos de octubre →
+              Empezar Básico 1 →
             </Link>
           </div>
           <p className="text-white/50 text-sm mt-6">화이팅 chingu! 🇰🇷</p>
