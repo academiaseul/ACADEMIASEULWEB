@@ -28,10 +28,26 @@
 
   const RR_I = { 'ㄱ': 'g', 'ㄲ': 'kk', 'ㄴ': 'n', 'ㄷ': 'd', 'ㄸ': 'tt', 'ㄹ': 'r', 'ㅁ': 'm', 'ㅂ': 'b', 'ㅃ': 'pp', 'ㅅ': 's', 'ㅆ': 'ss', 'ㅇ': '', 'ㅈ': 'j', 'ㅉ': 'jj', 'ㅊ': 'ch', 'ㅋ': 'k', 'ㅌ': 't', 'ㅍ': 'p', 'ㅎ': 'h' };
   const RR_M = { 'ㅏ': 'a', 'ㅐ': 'ae', 'ㅑ': 'ya', 'ㅒ': 'yae', 'ㅓ': 'eo', 'ㅔ': 'e', 'ㅕ': 'yeo', 'ㅖ': 'ye', 'ㅗ': 'o', 'ㅘ': 'wa', 'ㅙ': 'wae', 'ㅚ': 'oe', 'ㅛ': 'yo', 'ㅜ': 'u', 'ㅝ': 'wo', 'ㅞ': 'we', 'ㅟ': 'wi', 'ㅠ': 'yu', 'ㅡ': 'eu', 'ㅢ': 'ui', 'ㅣ': 'i' };
-  const RR_F = { '': '', 'ㄱ': 'k', 'ㄲ': 'k', 'ㄴ': 'n', 'ㄷ': 't', 'ㄹ': 'l', 'ㅁ': 'm', 'ㅂ': 'p', 'ㅅ': 't', 'ㅆ': 't', 'ㅇ': 'ng', 'ㅈ': 't', 'ㅊ': 't', 'ㅋ': 'k', 'ㅌ': 't', 'ㅍ': 'p', 'ㅎ': 't' };
+  // Finales: la consonante que de verdad suena (갇/갓/갔 = «gat»). Las dobles (ㄺ ㄵ ㅄ…)
+  // también: 읽 = «ik», 많 = «man», 값 = «gap». Sin ellas, 찮 se explicaba como «ㄶ (undefined)».
+  const RR_F = { '': '', 'ㄱ': 'k', 'ㄲ': 'k', 'ㄳ': 'k', 'ㄴ': 'n', 'ㄵ': 'n', 'ㄶ': 'n', 'ㄷ': 't', 'ㄹ': 'l', 'ㄺ': 'k', 'ㄻ': 'm', 'ㄼ': 'l', 'ㄽ': 'l', 'ㄾ': 'l', 'ㄿ': 'p', 'ㅀ': 'l', 'ㅁ': 'm', 'ㅂ': 'p', 'ㅄ': 'p', 'ㅅ': 't', 'ㅆ': 't', 'ㅇ': 'ng', 'ㅈ': 't', 'ㅊ': 't', 'ㅋ': 'k', 'ㅌ': 't', 'ㅍ': 'p', 'ㅎ': 't' };
   // Formas que un hispanohablante escribe a menudo y que aceptamos al escribir
   const ALT_I = { 'ㄱ': ['k'], 'ㄷ': ['t'], 'ㅂ': ['p'], 'ㅈ': ['ch'], 'ㄹ': ['l'] };
   const ALT_M = { 'ㅓ': ['o'], 'ㅕ': ['yo'], 'ㅡ': ['u'], 'ㅜ': ['oo'] };
+  // Una variante solo vale si NO es la lectura normal de otro jamo del mismo hueco:
+  // «k» por ㄱ choca con ㅋ, «o» por ㅓ con ㅗ, «u» por ㅡ con ㅜ, «yo» por ㅕ con ㅛ.
+  // ㅓ/ㅗ, ㅡ/ㅜ y la aspiración son EL error del hispanohablante: darlos por buenos
+  // enseña al revés. Quedan en pie ㄹ→«l» y ㅜ→«oo», que no son de nadie más.
+  function sinChoque(tabla, rr) {
+    const out = {};
+    for (const j of Object.keys(tabla)) {
+      const otros = new Set(Object.keys(rr).filter((x) => x !== j).map((x) => rr[x]).filter(Boolean));
+      out[j] = tabla[j].filter((a) => a && !otros.has(a));
+    }
+    return out;
+  }
+  const ALT_I_OK = sinChoque(ALT_I, RR_I);
+  const ALT_M_OK = sinChoque(ALT_M, RR_M);
 
   function romSilaba(s) {
     const d = decompose(s);
@@ -44,21 +60,69 @@
   function altSilaba(s) {
     const d = decompose(s);
     if (!d) return [];
-    const ini = [RR_I[d[0]]].concat(ALT_I[d[0]] || []);
-    const med = [RR_M[d[1]]].concat(ALT_M[d[1]] || []);
+    const ini = [RR_I[d[0]]].concat(ALT_I_OK[d[0]] || []);
+    const med = [RR_M[d[1]]].concat(ALT_M_OK[d[1]] || []);
     const fin = RR_F[d[2]] || '';
     const out = new Set();
     for (const a of ini) for (const b of med) out.add(a + b + fin);
     out.delete(romSilaba(s));
     return Array.from(out);
   }
+  // Todas las formas con que se puede escribir una sílaba (la oficial y sus variantes limpias)
+  const formasDe = (s) => [romSilaba(s)].concat(altSilaba(s)).map(normRom).filter(Boolean);
+  // Sílabas con las que se confunde: misma final, inicial o vocal del grupo de confusión
+  function vecinasDe(s) {
+    const d = decompose(s);
+    if (!d) return [];
+    const out = [];
+    for (const c of [d[0]].concat(grupoDe(d[0]))) for (const v of [d[1]].concat(grupoDe(d[1]))) {
+      const t = compose(c, v, d[2]);
+      if (t && t !== s) out.push(t);
+    }
+    return out;
+  }
 
   /* ── Normalizar respuestas ─────────────────────────────────────────── */
   const normRom = (t) => (t || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z]/g, '');
   const normKo = (t) => (t || '').normalize('NFC').replace(/[^가-힣ㄱ-ㆎ]/g, '');
 
+  // ¿Esta cadena es en realidad OTRA palabra parecida? (머 «mo» = 모, 커피 «kopi» = 코피,
+  // 한글 «hangul» = 한굴). Recorre la palabra sílaba por sílaba dejando cambiar cada una
+  // por una vecina confundible; si se puede leer así cambiando al menos una, choca.
+  function chocaCon(ko, cadena) {
+    const sil = Array.from(ko || '').filter(esSilaba);
+    const meta = normRom(cadena);
+    if (!sil.length || !meta) return false;
+    let est = [[0, false]]; // [letras ya leídas, ¿se cambió alguna sílaba?]
+    for (const s of sil) {
+      const opciones = [[s, false]].concat(vecinasDe(s).map((t) => [t, true]));
+      const sig = new Map();
+      for (const [pos, cambio] of est) {
+        for (const [t, esOtra] of opciones) {
+          for (const f of formasDe(t)) {
+            if (f && meta.startsWith(f, pos)) sig.set((pos + f.length) + ':' + (cambio || esOtra), [pos + f.length, cambio || esOtra]);
+          }
+        }
+      }
+      est = Array.from(sig.values());
+      if (!est.length) return false;
+    }
+    return est.some(([pos, cambio]) => pos === meta.length && cambio);
+  }
+
+  // Lo que de verdad se acepta: la romanización oficial siempre, y las variantes
+  // solo si no son la lectura de otra palabra (si no, decirle «correcto» sería mentir).
+  const CACHE_OK = new Map();
   function aceptadas(item) {
-    return [item.rom].concat(item.alt || []).map(normRom).filter(Boolean);
+    const rom = normRom(item.rom);
+    const alt = (item.alt || []).map(normRom).filter(Boolean);
+    const clave = item.ko + '\u0000' + rom + '\u0000' + alt.join('\u0001');
+    let out = CACHE_OK.get(clave);
+    if (!out) {
+      out = Array.from(new Set([rom].concat(alt.filter((a) => a !== rom && !chocaCon(item.ko, a))))).filter(Boolean);
+      CACHE_OK.set(clave, out);
+    }
+    return out;
   }
   // ¿La respuesta escrita es correcta? Acepta romanización (y sus variantes) o el hangul mismo.
   function coincide(item, entrada) {
@@ -94,17 +158,31 @@
   const elegir = (arr, r) => arr[Math.floor(r() * arr.length)];
 
   /* ── Contenido ─────────────────────────────────────────────────────── */
-  let C = null, ITEM = {}, JAMO = {};
+  let C = null, ITEM = {}, JAMO = {}, PORKO = {};
 
   function cargar(json) {
     C = json;
     ITEM = {};
     JAMO = {};
+    PORKO = {};
+    CACHE_OK.clear(); // los choques dependen de C.confusiones
     for (const it of json.items) {
       ITEM[it.id] = it;
+      PORKO[normKo(it.ko)] = it;
       if (it.tipo === 'vocal' || it.tipo === 'consonante') JAMO[it.ko] = it;
     }
     return C;
+  }
+  // ¿Podemos decir «eso es 코피» sin inventar una palabra? Solo si es una sílaba suelta
+  // (ahí la frase habla de la lectura: «ko» se lee 코), si está en el contenido, o si
+  // está en la lista «vecinas» del json (palabras reales, con su significado).
+  function vecinaConocida(ko) {
+    const limpio = normKo(ko);
+    if (Array.from(limpio).length === 1) return { ok: true, es: '' };
+    if (PORKO[limpio]) return { ok: true, es: PORKO[limpio].es || '' };
+    const v = (C && C.vecinas) || {};
+    if (Object.prototype.hasOwnProperty.call(v, limpio)) return { ok: true, es: v[limpio] || '' };
+    return { ok: false, es: '' };
   }
   const modo = (id) => C.modos.find((m) => m.id === id);
   const nivel = (m, n) => (modo(m) || { niveles: [] }).niveles.find((x) => x.id === n);
@@ -121,13 +199,41 @@
     return (C.confusiones || []).filter((g) => g.includes(j)).flat().filter((x) => x !== j);
   }
 
+  const nomI = (c) => (c === 'ㅇ' ? 'muda' : RR_I[c]);
   // Explicación en español de una sílaba: 거 = ㄱ (g) + ㅓ (eo)
   function explicaSilaba(s) {
     const d = decompose(s);
     if (!d) return '';
-    const p = [d[0] + ' (' + (d[0] === 'ㅇ' ? 'muda' : RR_I[d[0]]) + ')', d[1] + ' (' + RR_M[d[1]] + ')'];
+    const p = [d[0] + ' (' + nomI(d[0]) + ')', d[1] + ' (' + RR_M[d[1]] + ')'];
     if (d[2]) p.push(d[2] + ' (' + RR_F[d[2]] + ')');
     return s + ' = ' + p.join(' + ');
+  }
+
+  // ¿Lo que escribió (o eligió) es otra palabra parecida? Devuelve cuál y qué jamo cambió,
+  // para poder decirle «casi: escribiste la ㅗ, aquí va la ㅓ» en vez de un error seco.
+  function casiDe(ko, entrada) {
+    const r = normRom(entrada);
+    if (!r || normKo(entrada)) return null;
+    const sil = Array.from(ko || '');
+    for (let i = 0; i < sil.length; i++) {
+      const d = decompose(sil[i]);
+      if (!d) continue;
+      for (const c of [d[0]].concat(grupoDe(d[0]))) for (const v of [d[1]].concat(grupoDe(d[1]))) {
+        if (c === d[0] && v === d[1]) continue;
+        const t = compose(c, v, d[2]);
+        if (!t) continue;
+        const otras = sil.slice();
+        otras[i] = t;
+        const palabra = otras.join('');
+        if (normRom(romPorSilabas(palabra).join('')) !== r) continue;
+        const lineas = [];
+        if (v !== d[1]) lineas.push('Escribiste la ' + v + ' (' + RR_M[v] + '); aquí va la ' + d[1] + ' (' + RR_M[d[1]] + ').');
+        if (c !== d[0]) lineas.push('Escribiste la ' + c + ' (' + nomI(c) + '); aquí va la ' + d[0] + ' (' + nomI(d[0]) + ').');
+        const conocida = vecinaConocida(palabra);
+        return { ko: palabra, silaba: t, rom: normRom(romPorSilabas(palabra).join('')), lineas, real: conocida.ok, es: conocida.es };
+      }
+    }
+    return null;
   }
 
   /* ── Preguntas por modo ────────────────────────────────────────────── */
@@ -152,22 +258,24 @@
   }
 
   // Reconoce: letra o sílaba → elige cómo suena (4 opciones)
+  // Las confundibles (거/고, 그/구, 가/카) van primero a propósito: la confusión se entrena,
+  // no se esconde. Antes quedaban fuera porque «go» contaba como respuesta válida de 거.
   function preguntaReconoce(item, pool, r) {
     const correcta = item.rom;
-    const cand = [];
+    const cerca = [], lejos = [];
     if (item.tipo === 'silaba') {
       const d = decompose(item.ko);
-      for (const v of grupoDe(d[1])) { const s = compose(d[0], v, d[2]); if (s) cand.push(romSilaba(s)); }
-      for (const c of grupoDe(d[0])) { const s = compose(c, d[1], d[2]); if (s) cand.push(romSilaba(s)); }
-      for (const p of pool) cand.push(p.rom);
+      for (const v of grupoDe(d[1])) { const s = compose(d[0], v, d[2]); if (s) cerca.push(romSilaba(s)); } // la vocal: ㅓ/ㅗ, ㅡ/ㅜ
+      for (const c of grupoDe(d[0])) { const s = compose(c, d[1], d[2]); if (s) cerca.push(romSilaba(s)); } // la consonante: ㄱ/ㅋ
+      for (const p of pool) lejos.push(p.rom);
     } else {
-      for (const j of grupoDe(item.ko)) if (JAMO[j] && JAMO[j].tipo === item.tipo) cand.push(JAMO[j].rom);
-      for (const p of pool) cand.push(p.rom);
+      for (const j of grupoDe(item.ko)) if (JAMO[j] && JAMO[j].tipo === item.tipo) cerca.push(JAMO[j].rom);
+      for (const p of pool) lejos.push(p.rom);
     }
-    // nunca una opción que también sería correcta (고 se puede escribir go o ko)
-    const validas = item.tipo === 'silaba' ? aceptadas(item).concat(altSilaba(item.ko).map(normRom)) : [normRom(correcta)];
+    // nunca una opción que también se aceptaría como correcta
+    const validas = aceptadas(item);
     const distractores = [];
-    for (const c of barajar(cand.slice(0, 6), r).concat(barajar(cand.slice(6), r))) {
+    for (const c of barajar(cerca, r).concat(barajar(lejos, r))) {
       if (c && c !== correcta && !validas.includes(normRom(c)) && !distractores.includes(c)) distractores.push(c);
       if (distractores.length === 3) break;
     }
@@ -194,17 +302,36 @@
     return { modo: 'construye', item, piezas: [c, v].concat(f ? [f] : []), prompt: item.ko, correcta: item.ko, opciones: barajar([item.ko].concat(distractores), r), vertical: esVertical(v), batchim: !!f };
   }
 
+  // La pista del primer fallo. En una palabra, la primera sílaba («seon…»); en una sílaba
+  // suelta eso sería la respuesta completa, así que solo se nombra la consonante: la vocal
+  // (ㅓ/ㅗ, ㅡ/ㅜ) es justo lo que hay que acertar.
+  function pistaCorre(item) {
+    const sil = Array.from(item.ko || '').filter(esSilaba);
+    if (!sil.length) return { texto: 'escríbelo como suena', clave: item.rom.slice(0, 2) + '…' };
+    if (sil.length > 1) return { texto: 'empieza con', clave: romSilaba(sil[0]) + '…' };
+    const d = decompose(sil[0]);
+    if (d[0] === 'ㅇ') return { texto: 'la ㅇ del principio no suena:', clave: 'lee solo la vocal' };
+    return { texto: 'empieza con la', clave: d[0] + ' (' + RR_I[d[0]] + ')' };
+  }
+
   function preguntaCorre(item) {
-    return { modo: 'corre', item, prompt: item.ko, correcta: item.rom, pista: romPorSilabas(item.ko) };
+    return { modo: 'corre', item, prompt: item.ko, correcta: item.rom, pista: romPorSilabas(item.ko), ayuda: pistaCorre(item) };
   }
 
   /* ── Explicaciones cuando la respuesta no es la correcta ───────────── */
   function explicar(pregunta, elegida) {
     const it = pregunta.item;
-    const out = { titulo: '', lineas: [] };
+    const out = { titulo: '', lineas: [], casi: false };
     if (pregunta.modo === 'reconoce') {
       if (it.tipo === 'silaba') {
         out.titulo = it.ko + ' se lee ' + it.rom;
+        const c = casiDe(it.ko, elegida);
+        if (c) {
+          out.casi = true;
+          // Solo nombramos la otra palabra si existe de verdad: 한굴 o 킴치 no son palabras
+          if (c.real) out.lineas.push('«' + elegida + '» es ' + c.ko + (c.es ? ' (' + c.es + ')' : '') + '.');
+          for (const l of c.lineas) out.lineas.push(l);
+        }
         out.lineas.push(explicaSilaba(it.ko));
         const d = decompose(it.ko);
         if (JAMO[d[1]] && JAMO[d[1]].tip) out.lineas.push(d[1] + ' = ' + RR_M[d[1]] + ': ' + JAMO[d[1]].tip);
@@ -223,9 +350,23 @@
       if ((de[2] || '') !== (f || '')) out.lineas.push(f ? 'Abajo va ' + f + ': la consonante final (batchim) se escribe debajo.' : 'Esta sílaba no lleva consonante abajo.');
       out.lineas.push(esVertical(v) ? v + ' es vertical: va a la derecha de la consonante.' : v + ' es horizontal: va debajo de la consonante.');
     } else {
-      out.titulo = it.ko + ' se lee ' + it.rom;
-      if (it.tip) out.lineas.push(it.tip);
-      else out.lineas.push(Array.from(it.ko).filter(esSilaba).map(explicaSilaba).join(' · '));
+      // Corre (escribir): si lo que escribió es otra palabra, se lo decimos sin regalar
+      // la respuesta, para que lo reintente: «Casi: «ko» es 코».
+      const c = casiDe(it.ko, elegida);
+      if (c) {
+        out.casi = true;
+        // Nombrar la otra palabra solo si existe (sílaba suelta, ítem del json o lista «vecinas»);
+        // si no, se dice qué letra cambió y nada más: 한굴, 킴치 y 학쿄 no son palabras.
+        out.titulo = c.real
+          ? 'Casi: «' + String(elegida).trim() + '» es ' + c.ko + (c.es ? ' (' + c.es + ')' : '')
+          : 'Casi: cambiaste ' + (c.lineas.length > 1 ? 'dos letras' : 'una letra');
+        for (const l of c.lineas) out.lineas.push(l);
+        if (it.tip) out.lineas.push(it.tip);
+      } else {
+        out.titulo = it.ko + ' se lee ' + it.rom;
+        if (it.tip) out.lineas.push(it.tip);
+        else out.lineas.push(Array.from(it.ko).filter(esSilaba).map(explicaSilaba).join(' · '));
+      }
     }
     return out;
   }
@@ -383,7 +524,7 @@
   const aceptadasDe = aceptadas;
   const api = {
     compose, decompose, esSilaba, esVertical, romSilaba, romPorSilabas, altSilaba, explicaSilaba,
-    normRom, normKo, coincide, vaBien, aceptadasDe, rng, barajar,
+    normRom, normKo, coincide, vaBien, aceptadasDe, chocaCon, casiDe, vecinasDe, pistaCorre, rng, barajar,
     cargar, modo, nivel, poolDe, itemSilaba, queSuena,
     nuevaPartida, siguiente, responder, pasar, resumen, explicar,
     cargarProgreso, guardarProgreso, registrar, rango, recomendado, despuesDe, RUTA, XP,

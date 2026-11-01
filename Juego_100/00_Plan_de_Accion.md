@@ -751,7 +751,7 @@ Con el OK de Jay (pregunta 7):
 - B) Grabas unos 60–100 clips en noviembre (pares mínimos, saludos y frases clave), cerca de 1 hora
 - C) Tú, Kiran y Abby (3 voces) para los diálogos de Conversacional en 2027
 
-**Recomendación:** B en noviembre y C para los tramos 61+. La carpeta /audio/kr-jay/ ya está prevista en la cadena de audio de Dubu.
+**Recomendación:** B en noviembre y C para los tramos 61+. La carpeta /audio/kr-jay/ está prevista en el diseño, pero hoy no existe y Dubu ya no la consulta (el interruptor se quitó el 1 de noviembre de 2026).
 
 ## 10. Fases
 

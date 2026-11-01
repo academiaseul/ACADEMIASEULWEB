@@ -25,7 +25,7 @@ Inicio → **JUGAR** (la siguiente carrera recomendada) → cuenta 셋 · 둘 ·
 | **Construye** 만들기 | ㄱ + ㅏ | eliges la sílaba armada; las piezas se juntan en el bloque | Vocal al lado · Vocal abajo · Con batchim |
 | **Corre** 달리기 | una sílaba o palabra, 60 s | la escribes en letras latinas (annyeong) o con teclado coreano (안녕) | Sílabas · Palabras · Vocabulario |
 
-**Cada error enseña algo.** No se pierde la pregunta: la opción mala queda marcada (✗, tachada, en dorado; nunca en rojo), aparece por qué ("Elegiste 범 = ㅂ + ㅓ + ㅁ. Mira la vocal: necesitas ㅗ. ㅗ es horizontal: va debajo") y se vuelve a intentar. En Corre, el primer error da una pista ("empieza con seon…"), el segundo muestra la respuesta, y se puede pasar.
+**Cada error enseña algo.** No se pierde la pregunta: la opción mala queda marcada (✗, tachada, en dorado; nunca en rojo), aparece por qué ("Elegiste 범 = ㅂ + ㅓ + ㅁ. Mira la vocal: necesitas ㅗ. ㅗ es horizontal: va debajo") y se vuelve a intentar. En Corre, el primer error da una pista —en una palabra, la primera sílaba ("empieza con seon…"); en una sílaba suelta eso sería la respuesta completa, así que solo se nombra la consonante ("empieza con la ㄱ (g)")—, el segundo muestra la respuesta, y se puede pasar. Si escribió otra lectura (거 → "go"), antes de la pista aparece el recuadro "Casi…" con el jamo que cambió.
 
 **La ruta recomendada:** Vocales → Consonantes → Vocal al lado → Vocal abajo → Sílabas → Corre Sílabas → Batchim → Corre Palabras → Corre Vocabulario. JUGAR lleva al primer nivel sin récord, o con menos de 80 % (en Corre, menos de 10 palabras a la primera).
 
@@ -53,7 +53,7 @@ Las letras sueltas suenan con su sílaba (ㅏ → 아, ㄱ → 가), igual que e
    ```
    - `tipo`: vocal · consonante · silaba · palabra · frase.
    - `rom`: romanización revisada oficial.
-   - `alt`: otras formas que se aceptan al escribir.
+   - `alt`: otras formas que se aceptan al escribir. **Ojo:** el motor rechaza en silencio las que son la lectura de otra sílaba o palabra parecida (`chocaCon`), porque darlas por buenas enseña al revés. Caen «ka» por 가 (es 카), «ko» por 고 (es 코), «mo» por 머 (es 모), «hangul» por 한글 (es 한굴) y «kopi» por 커피 (es 코피). Sobreviven las que no son de nadie: ㄹ → «l» (라 = la) y ㅜ → «oo» (구 = goo). Si una `alt` no se acepta, la prueba lo dice y hay que sacarla del json.
    - `tip`: pista en español que aparece cuando se equivoca.
    - `decir`: lo que suena, si no es `ko`.
    - `audio`: ruta de un clip propio.
@@ -63,7 +63,9 @@ Las letras sueltas suenan con su sílaba (ㅏ → 아, ㄱ → 가), igual que e
 3. Corre `node Juego_HangulRace/prueba_motor.js`.
 4. Si falta audio, genéralo con la voz del sitio (SunHi, -8 %) o deja que suene la del dispositivo.
 
-Ojo con `alt`: una variante que sea el comienzo de otra (annyeon / annyeong) hace que Corre la envíe antes de tiempo. La prueba no lo detecta, así que hay que evitarlas.
+Ojo con `alt`: una variante que sea el comienzo de otra (annyeon / annyeong) hace que en Corre la respuesta buena deje de enviarse sola y haya que apretar Enter. **La prueba ya lo detecta** (revisa todas las formas aceptadas de cada ítem y de las 399 sílabas sin batchim).
+
+`vecinas` (arriba del json) es la lista de palabras reales —con su significado— que el motor puede nombrar cuando el alumno confunde una letra: «Casi: «kopi» es 코피 (sangre de nariz)». Fuera de esa lista solo nombra sílabas sueltas e ítems del json; con cualquier otra cosa dice «Casi: cambiaste una letra» y explica qué jamo cambió, para no inventar palabras (한굴, 킴치 y 학쿄 no existen). Agregar una palabra a `vecinas` es la forma de recuperar el mensaje bueno.
 
 ## Lo que viene
 

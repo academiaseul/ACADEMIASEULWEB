@@ -10,7 +10,7 @@ Objetivo: que las sílabas y palabras del juego suenen con la voz de Jay en vez 
 | Costo | 0 | Starter ≈ US$5/mes (clon instantáneo) · Creator ≈ US$22/mes (clon profesional) — confirmar en elevenlabs.io/pricing |
 | Recomendación | **Hacerlo ya para Dubu** | Hacerlo si queremos voz de Jay en todo (Lector, nuevas palabras, tarjetas, videos) |
 
-Los dos caminos terminan igual: una carpeta `public/audio/kr-jay/` con archivos `<hex-utf8>.mp3` (mismo esquema que `public/audio/kr/`). Dubu ya tiene el interruptor **Ajustes → Voz de Jay**: si el clip existe en `kr-jay` lo usa; si no, cae a SunHi y luego al TTS del dispositivo. Así se puede publicar poco a poco.
+Los dos caminos terminan igual: una carpeta `public/audio/kr-jay/` con archivos `<hex-utf8>.mp3` (mismo esquema que `public/audio/kr/`). Dubu **ya no** tiene el interruptor Ajustes → Voz de Jay: se quitó el 1 de noviembre de 2026 porque la carpeta estaba vacía. Cuando haya clips, se vuelve a poner la cadena `kr-jay` → `kr` (SunHi) → TTS del dispositivo y así se puede publicar poco a poco.
 
 ---
 
@@ -19,7 +19,7 @@ Los dos caminos terminan igual: una carpeta `public/audio/kr-jay/` con archivos 
 1. **Dónde**: pieza chica con cortinas/ropa (sin eco), sin ventilador ni calle. Celular a 15–20 cm de la boca, en modo avión, o el micrófono del computador si es bueno. Formato: WAV o M4A/MP3 de máxima calidad.
 2. **Cómo**: abre `guion_grabacion.txt` (está en esta carpeta). Lee cada ítem con **1 segundo de silencio** entre uno y otro, tono neutro de profesor, ni cantado ni apurado; las sílabas sueltas se leen como en clase (가 = "ga", no "기역-아"). Si te equivocas, repite el ítem después de una pausa (yo me quedo con la última toma).
 3. **Marca el bloque**: antes de empezar cada bloque di su nombre ("bloque vocales", "bloque batchim") para que sea fácil cortar.
-4. **Envíame** el archivo largo (o varios): yo lo corto por silencios, normalizo el volumen, lo convierto a MP3 44.1 kHz 64 kbps y lo dejo en `public/audio/kr-jay/` con el nombre hex de cada texto. Verifico que los 97 estén y activo la voz en el juego.
+4. **Envíame** el archivo largo (o varios): yo lo corto por silencios, normalizo el volumen, lo convierto a MP3 44.1 kHz 64 kbps y lo dejo en `public/audio/kr-jay/` con el nombre hex de cada texto. Verifico que los 97 estén, vuelvo a poner el interruptor en Dubu y activo la voz en el juego.
 5. **Control de calidad**: escuchamos en el juego los pares 가/카/까, 어/오, 으/우, 안/앙. Si alguno no se distingue bien, se regraba solo ese.
 
 Tiempo estimado: 15–20 min de grabación + 1 h de corte.
@@ -62,7 +62,7 @@ node Juego_Dubu/voz/generate_voz.js generate <voiceId> --lector   # los 563 del 
 node Juego_Dubu/voz/generate_voz.js deploy                       # copia a public/audio/kr-jay/
 ```
 
-Es reanudable (si se corta, vuelve a correr y sigue donde iba). Después: `git add public/audio/kr-jay && git commit && git push`, y en el juego activas **Ajustes → Voz de Jay**. Para el Lector, el mismo interruptor se puede agregar cuando la voz esté aprobada.
+Es reanudable (si se corta, vuelve a correr y sigue donde iba). Después: `git add public/audio/kr-jay && git commit && git push`, y vuelves a poner **Ajustes → Voz de Jay** en Dubu (se quitó mientras la carpeta estaba vacía). Para el Lector, el mismo interruptor se puede agregar cuando la voz esté aprobada.
 
 ### 6. Costos reales
 1 crédito ≈ 1 carácter. Dubu completo ≈ 300 créditos; el Lector ≈ 1.800; un mes Starter trae 30.000. Es decir: **una vez generado, no vuelve a costar** (los clips quedan estáticos en el sitio).

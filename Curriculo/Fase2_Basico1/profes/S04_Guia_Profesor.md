@@ -1,8 +1,11 @@
 # Básico 1 (A1.1) · Semana 4 · 우리 엄마예요 · Mi familia (mitad del curso)
-### Guía de la profesora · Kiran (기란) · martes 10 y jueves 12 de noviembre de 2026 · 20:00–20:58 (hora de Chile)
+### Guía de la profesora · Kiran (기란) · martes 1 de diciembre de 2026 · 20:00–20:58 (hora de Chile)
+
+> **Calendario de este curso (corrido el 1 nov 2026):** 8 clases, **los martes 20:00–20:58 (hora de Chile)**, del **mar 10 de noviembre** al **mar 29 de diciembre** de 2026. S1 10 nov · S2 17 nov · S3 24 nov · S4 1 dic · S5 8 dic · S6 15 dic · S7 22 dic · S8 29 dic. **Ya no hay sección de los jueves: hay un solo grupo semanal.** Esta guía es la clase 4 (**mar 1 de diciembre de 2026**).
+> **[POR CONFIRMAR con Jay: el martes 8 de diciembre (clase 5) es feriado en Chile (Inmaculada Concepción), y las clases 7 y 8 caen el 22 y el 29 de diciembre, entre fiestas. El calendario queda igual hasta que Jay decida.]**
 
 **MATERIAL DE LA PROFESORA · no se comparte con alumnos.** Trae respuestas, tiempos y notas internas, así que no se comparte con los alumnos. Su versión es `alumnos/S04_Material_Alumno.md`.
-**Fuentes:** `00_Diseno_Basico1.md` (B.5, B.10–B.12, C, D, E.3–E.4) · syllabus publicado `cursos_es.json → a11 · semana 4` · Kit de Kiran v1.1 · Lector (`/lector-coreano`) y Dubu (`/dubu`) revisados en el código el 26 sept 2026.
+**Fuentes:** `00_Diseno_Basico1.md` (B.5, B.10–B.12, C, D, E.3–E.4) · syllabus publicado `cursos_es.json → a11 · semana 4` · Kit de Kiran v1.3 · Lector (`/lector-coreano`) y Dubu (`/dubu`) revisados en el código el 26 sept 2026.
 **Libro:** *한글학교 한국어 1*, Lección 4. Aquí solo se cita. Ningún diálogo, texto ni ejercicio de esta guía sale del libro: todos son originales.
 
 > **Leyenda.** **⚑** = coreano o dato que revisa un nativo del equipo antes de usarlo · **[YA]** = mejora de la Fase 1 que se aplica sin tocar lo publicado · **[propuesta: …]** = plazo u operación que se confirma con Kiran o Jay · **L7** = lámina 7 del deck (guion en C.15).
@@ -53,9 +56,9 @@
 | 11 | **Tarea de writing** | En clase: 이에요/예요 y los dígitos del dictado en el chat (teclado coreano). En casa: 6 frases sobre la familia con el patrón 우리 ___은/는 ___이에요/예요, a mano (foto) o tipeadas en el grupo (se recomienda tipearlas: el examen final es tipeado). Primer 띄어쓰기 de la semana: 우리 엄마 (separado) · 우리나라 (junto). |
 | 12 | **Actividad interactiva** | **Bingo de números** (20 en pantalla, cada alumno elige 9 y arma su cartón de 3×3) + **álbum en vivo** con la foto propia. |
 | 13 | **Tarea para la casa** | ≈ 28 min, antes de la clase 5. (1) Lector, 8 min: Aprender 7 "Dos maneras de contar (숫자)" + Practicar → Números, 3 rondas seguidas mientras el encabezado diga "sino-coreanos"; captura de Progreso. (2) Flashcards de familia, 5 min + hoja: 6 frases con 우리 ___은/는 ___이에요/예요, 8 min. (3) Audio de 40 s, 7 min: lectura de control (10 s) y después presentar a 3 personas de la foto, sin leer. Extra: Dubu, barrio 6. Prepara la S5: el nombre de tu ciudad y 3 lugares cerca de tu casa (banco, parque, metro…). |
-| 14 | **Recurso digital** | **Lector → Aprender → 7 "Dos maneras de contar (숫자)"** (explorador del 1 al 99 con las dos voces y el botón "Practicar números →") · **Practicar → Números**: el modo rota solo (📖 Lectura → 👂 Escucha → 🔁 Inversa) y el grupo cambia cada 3 rondas (sino-coreanos → nativos → mezclados). Se piden 3 rondas mientras el encabezado diga "sino-coreanos", con la meta publicada de ★★★ (≥ 90 % a la primera = 9 de 10); quien no llegue manda igual la captura. "Nativos" (hasta 99) es extra y no se evalúa. Las respuestas de Números son cifras o 한글, nunca romanización. **Ojo:** el explorador de Aprender 7 muestra romanización en negrita debajo de cada número, y Números la muestra en la corrección cuando el alumno falla; no se toca el código en octubre, así que la hoja pide taparla con el dedo (sección D del diseño). · **Flashcards de familia** (12 palabras, en la carpeta del curso) · **Dubu, barrio 6 Estación de Seúl** (6-1 친구 · 6-2 김치 · 6-3 밤/밥/방 · 산/삼 · 말/만 · 달/다 · 6-4 강아지 · 6-5 선생님). Solo se abre con el barrio 5 terminado. |
+| 14 | **Recurso digital** | **Lector → Aprender → 7 "Dos maneras de contar (숫자)"** (explorador del 1 al 99 con las dos voces y el botón "Practicar números →") · **Practicar → Números**: el modo rota solo (📖 Lectura → 👂 Escucha → 🔁 Inversa) y el grupo cambia cada 3 rondas (sino-coreanos → nativos → mezclados). Se piden 3 rondas mientras el encabezado diga "sino-coreanos", con la meta publicada de ★★★ (≥ 90 % a la primera = 9 de 10); quien no llegue manda igual la captura. "Nativos" (hasta 99) es extra y no se evalúa. Las respuestas de Números son cifras o 한글, nunca romanización. **Ojo:** el explorador de Aprender 7 muestra romanización en negrita debajo de cada número, y Números la muestra en la corrección cuando el alumno falla; no se toca el código en este curso, así que la hoja pide taparla con el dedo (sección D del diseño). · **Flashcards de familia** (12 palabras, en la carpeta del curso) · **Dubu, barrio 6 Estación de Seúl** (6-1 친구 · 6-2 김치 · 6-3 밤/밥/방 · 산/삼 · 말/만 · 달/다 · 6-4 강아지 · 6-5 선생님). Solo se abre con el barrio 5 terminado. |
 | 15 | **Preparación de la profe** | Checklist en C.2 (unos 25 minutos el día anterior, más la tabla de mitad de curso). |
-| 16 | **Entregable del alumno** | Antes de la clase 5 (mar 17 nov / jue 19 nov, 20:00): captura de Progreso (Números) · 6 frases sobre la familia · audio de 40 s (lectura de control + familia). |
+| 16 | **Entregable del alumno** | Antes de la clase 5 (mar 8 dic, 20:00): captura de Progreso (Números) · 6 frases sobre la familia · audio de 40 s (lectura de control + familia). |
 | 17 | **Evaluación** | **Quiz 3** al abrir (clave en C.14): 2 이거/그거/저거 con un dibujo · 2 negaciones (빵이 / 우유가 아니에요) · 1 de vocabulario. **Observación en salas:** 우리 N, 오빠/형, 이에요/예요 tras 받침, 명 con nativos, 공 (se anota, no se puntúa). **MITAD DEL CURSO (C.13):** chequeo con la evidencia que ya existe (audio base S1, audios S2–S4, quizzes 1–3, estrellas, hojas) + la lectura de control del audio de la S4 → guía de estudio de mitad de curso + comentario de 3 líneas de Kiran (una fortaleza · un foco · el siguiente paso). Plazo: [propuesta: domingo siguiente a la clase 4; confirmar con Kiran]. Asistencia a mitad: [regla del certificado: pendiente de decisión de Jay] (C.13, punto 8). **Adelanto:** la clase 5 abre con el Quiz 4 sobre esta semana. |
 
 ### A.1 Vocabulario de la semana (24 entradas)
@@ -118,7 +121,7 @@
 | 20:51–20:53 | Vuelta | Mensaje a las 20:51: "Cerramos en 1 minuto. 잘했어요!" Las salas se cierran solas a las 20:52 | Terminan la frase y vuelven a la sala principal | Cuenta regresiva de 60 s (si no cerraron solas, "Cerrar todas las salas" a las 20:52) | — |
 | 20:53–20:55 | Cierre · errores | Los 2–3 errores del día (de tu lista; en C.5 están los más probables) | Repiten la forma correcta | Pantalla | Tus notas |
 | 20:55–20:56 | **3 frases clave** | Cada frase la dices **tú sola** (todos en silencio, para el clip) y después ellos repiten. Dos vueltas. | Coro | Micrófonos: silencio → abiertos | L21 |
-| 20:56–20:58 | Tarea + mitad de curso + despedida | L22: tarea, tarjeta de lectura de control y qué reciben de mitad de curso. 감사합니다! → 안녕히 가세요! | 감사합니다! 안녕히 계세요! | **Termina la reunión a las 20:58** (a las 21:00 empieza otra clase en la misma cuenta) | L22–L23 |
+| 20:56–20:58 | Tarea + mitad de curso + despedida | L22: tarea, tarjeta de lectura de control y qué reciben de mitad de curso. 감사합니다! → 안녕히 가세요! | 감사합니다! 안녕히 계세요! | **Termina la reunión a las 20:58** (es el horario publicado) | L22–L23 |
 
 **Cuenta de minutos:** 1 + 4 (quiz) + 3 + 6 + 4 (familia) + 7 + 6 (números) + 2 (demo) + 20 (salas, con la vuelta) + 5 (cierre) = **58 minutos, fin 20:58**.
 **Coreano en boca de los alumnos:** 17 minutos de salas hablando solo coreano (álbum 9 + teléfonos 5 + minuto libre 3) + ≈ 10 minutos de coro, turnos y respuestas en la sala principal (20:05–20:31 y cierre) = **≈ 27 minutos de clase con los alumnos hablando coreano**. Por alumno: unos 8 minutos propios en la sala (algo menos en el trío), 1–2 turnos individuales en la sala principal y el coro; así cumple los "al menos 3 turnos por clase" del kit.
@@ -143,7 +146,7 @@ Que cada alumno pueda **mostrar una foto y presentar a su familia en coreano**: 
 - [ ] Zoom: salas habilitadas y cargadas con tu lista de parejas (19 min, cierre automático, cuenta regresiva de 60 s), grabación en la nube activada, chat privado con la anfitriona permitido (quiz), **participantes pueden compartir pantalla** (para mostrar la foto en las salas).
 - [ ] Deck abierto en L1 y esta guía en C.14 (clave del Quiz 3 y lista del bingo).
 
-**Durante:** graba desde el minuto 0 (nombre: `Basico1-Martes_S04_2026-11-10` / `Basico1-Jueves_S04_2026-11-12`) · comandos, saludos y correcciones de pronunciación en coreano · anota 2–3 errores del grupo y quién habló poco · **20:58, fin**.
+**Durante:** graba desde el minuto 0 (nombre: `Basico1-Martes_S04_2026-12-01`) · comandos, saludos y correcciones de pronunciación en coreano · anota 2–3 errores del grupo y quién habló poco · **20:58, fin**.
 
 **No necesitas producir nada.** Las imágenes, el cartón del bingo, la tarjeta del minuto libre y la tarjeta de lectura de control están en el deck. No hace falta que muestres a tu familia (si quieres, es opcional).
 
@@ -247,7 +250,7 @@ Recorre las 7 salas (≈ 2,5 min en cada una) y manda "Transmitir mensaje" a las
 #### Cierre (20:53–20:58)
 - **Errores del día (2 min):** los 2–3 más repetidos, con la forma correcta en pantalla o en el chat. Siempre en positivo: "Muchos dijeron 동생예요; con 받침 es 동생이에요. Todos: 동생이에요."
 - **3 frases clave (1 min):** **ES:** "Primero yo sola, ustedes en silencio; después ustedes." **KO:** 누구예요? … 우리 엄마예요. … 우리 가족은 네 명이에요. Dos vueltas. (El clip `B1_S04_frases_clave.mp3` sale de esta parte de la grabación: habla despacio y sin ruido de fondo.)
-- **Tarea y mitad de curso (1,5 min, L22):** las 3 partes de la tarea, la tarjeta de lectura de control ("estas 5 palabras las leen al inicio del audio, antes de presentar a su familia") y qué reciben de mitad de curso: la guía de estudio en el grupo y tu comentario de 3 líneas por privado. Diles el día que acordaste [propuesta: domingo 15 de noviembre; confirmar con Kiran]. Si Jay eligió la salida (b) de C.13 §6, agrega: "si me mandan el audio antes del sábado 14 a las 20:00, lo incluyo en su comentario; si llega después, les respondo dentro de 48 horas" (es un pedido, no una regla nueva). "La clase 5 abre con el Quiz 4: números y familia."
+- **Tarea y mitad de curso (1,5 min, L22):** las 3 partes de la tarea, la tarjeta de lectura de control ("estas 5 palabras las leen al inicio del audio, antes de presentar a su familia") y qué reciben de mitad de curso: la guía de estudio en el grupo y tu comentario de 3 líneas por privado. Diles el día que acordaste [propuesta: domingo 6 de diciembre; confirmar con Kiran]. Si Jay eligió la salida (b) de C.13 §6, agrega: "si me mandan el audio antes del sábado 5 de diciembre a las 20:00, lo incluyo en su comentario; si llega después, les respondo dentro de 48 horas" (es un pedido, no una regla nueva). "La clase 5 abre con el Quiz 4: números y familia."
 - **KO:** 감사합니다! (→ 감사합니다! 안녕히 계세요!) → 안녕히 가세요! 화이팅!
 
 ### C.4 Explicaciones para hispanohablantes
@@ -266,7 +269,7 @@ Recorre las 7 salas (≈ 2,5 min en cada una) y manda "Transmitir mensaje" a las
 
 **7. El contador va después del número.** En español decimos "cuatro personas" (número + sustantivo); en coreano es número + contador: **네 명**, y la frase completa, 우리 가족은 네 명이에요. Además, 하나, 둘, 셋 y 넷 se acortan delante de 명 (한, 두, 세, 네). Error típico: *사 명, con el sino-coreano.
 
-**8. El teléfono se dice dígito por dígito.** En Chile y en México solemos leerlo por pares ("noventa y ocho, setenta y seis"); en coreano se lee de a uno, con una pausa entre grupos. Si alguien pregunta por el "에" que a veces se oye entre grupos (공일공, 일이삼사**에** 오육칠팔): es la partícula 의 pronunciada [에], y se oye sobre todo entre el segundo y el tercer grupo. En octubre enseñamos solo la pausa; no se explica ni se exige.
+**8. El teléfono se dice dígito por dígito.** En Chile y en México solemos leerlo por pares ("noventa y ocho, setenta y seis"); en coreano se lee de a uno, con una pausa entre grupos. Si alguien pregunta por el "에" que a veces se oye entre grupos (공일공, 일이삼사**에** 오육칠팔): es la partícula 의 pronunciada [에], y se oye sobre todo entre el segundo y el tercer grupo. En este curso enseñamos solo la pausa; no se explica ni se exige.
 
 ### C.5 Errores típicos anticipados y cómo corregirlos
 
@@ -286,7 +289,7 @@ Recorre las 7 salas (≈ 2,5 min en cada una) y manda "Transmitir mensaje" a las
 | **영** en el teléfono | Lo vio en el Lector o en una guía | Se entiende, pero lo usual es **공** | — |
 | 우리 가족**는** | No aplica la regla de 받침 | "가족 termina en ㄱ → 가족**은**" | — |
 | Cuenta al perro con 명 | El perro es familia 😄 | "명 es para personas: 우리 강아지예요!" | Nota en la hoja |
-| Presenta a un amigo con **우리 친구예요** | Extiende 우리 a todo | Más claro: **친구예요** (우리 친구 puede entenderse como "nuestro amigo", de los dos; lo natural con un amigo propio sería 제 친구, que no se enseña en octubre) | — |
+| Presenta a un amigo con **우리 친구예요** | Extiende 우리 a todo | Más claro: **친구예요** (우리 친구 puede entenderse como "nuestro amigo", de los dos; lo natural con un amigo propio sería 제 친구, que no se enseña en este curso) | — |
 
 **Estrategia (kit):** primero lo que impide entender (뭐/누구, el número equivocado); lo que no bloquea se anota y va al cierre. La pista siempre es el 받침: pregunta "¿termina en 받침?" en vez de dar la respuesta. En la hoja escrita: máximo 3 comentarios por alumno, el primero positivo.
 
@@ -382,7 +385,7 @@ Recorre las 7 salas (≈ 2,5 min en cada una) y manda "Transmitir mensaje" a las
 
 ### C.11 Actividad de emergencia (si sobra tiempo en la sala principal)
 **A. 삼육구 게임 (3 min), un juego de grupo muy conocido en Corea (en fiestas, en los paseos de la universidad y en el recreo).**
-Se cuenta por turnos en sino-coreano (일, 이, …). Cuando un número tiene 3, 6 o 9 (삼, 육, 구), no se dice: se aplaude una vez por cada 3, 6 o 9 (33 = dos aplausos). Quien se equivoca empieza de nuevo desde 일. El orden es la lista de participantes de Zoom. **ES:** "El récord del grupo del martes fue ___: ¡supérenlo!" (Anótalo y úsalo el jueves.)
+Se cuenta por turnos en sino-coreano (일, 이, …). Cuando un número tiene 3, 6 o 9 (삼, 육, 구), no se dice: se aplaude una vez por cada 3, 6 o 9 (33 = dos aplausos). Quien se equivoca empieza de nuevo desde 일. El orden es la lista de participantes de Zoom. **ES:** "El récord de la clase pasada fue ___: ¡supérenlo!" (Anótalo y úsalo la semana siguiente.)
 
 **B. ¿Quién soy? (2 min), con la familia Simpson (lámina de respaldo LB1).**
 - **KO:** 우리 동생은 매기예요. 우리 오빠는 바트예요. 저는 누구예요? (→ 리사예요!)
@@ -416,7 +419,7 @@ Se cuenta por turnos en sino-coreano (일, 이, …). Cuando un número tiene 3,
 | Un alumno tiene problemas técnicos | Kit: recibe la grabación y escribe sus dudas en el grupo; no pierde la asistencia. |
 | La grabación en la nube no arrancó | Iníciala apenas lo notes y, al terminar, avísale a Jay en tu línea post-clase. |
 
-### C.13 Mitad del curso (S4 · 10 y 12 de noviembre): chequeo sin examen extra
+### C.13 Mitad del curso (S4 · martes 1 de diciembre): chequeo sin examen extra
 
 **Qué se prometió.** El programa público: *"una guía de estudio y comentarios de tu profesora a mitad de curso"*. El kit: *"semana 4: mitad del curso, guía de estudio y feedback individual por alumno"*. Se cumple así, sin agregar un examen:
 
@@ -426,7 +429,7 @@ Se cuenta por turnos en sino-coreano (일, 이, …). Cuando un número tiene 3,
 |---|---|---|---|---|---|---|---|
 | … | bien / a reforzar | ✓ / — | … | … | ✓ / — | ver punto 2 | … |
 
-**2. Lectura de control** [YA] (decisión 5 de Jay: OK pendiente antes del 10 nov). Son los primeros 10 segundos del audio de la S4, con la tarjeta **한국 · 선생님 · 휴대폰 · 책상 · 할아버지**. Escúchala una vez (≈ 30 s por alumno) y marca **bien / a reforzar** en 4 criterios:
+**2. Lectura de control** [YA] (decisión 5 de Jay: OK pendiente antes del 1 dic). Son los primeros 10 segundos del audio de la S4, con la tarjeta **한국 · 선생님 · 휴대폰 · 책상 · 할아버지**. Escúchala una vez (≈ 30 s por alumno) y marca **bien / a reforzar** en 4 criterios:
 
 | Criterio | Dónde se oye | "Bien" suena | "A reforzar" suena |
 |---|---|---|---|
@@ -449,17 +452,17 @@ Compárala con el diagnóstico del audio base de la S1: es la primera evidencia 
 
 > **Fortaleza:** tienes 3 estrellas en todo y lees rápido. **Foco:** 이에요/예요 en frases largas (동생예요 → 동생이에요). **Siguiente paso:** en tus 6 frases de esta semana, subraya cada palabra con 받침 antes de escribir 이에요.
 
-**4. Guía de estudio de mitad de curso.** Es un archivo aparte, `alumnos/B1_Guia_Estudio_Mitad.md` (G.2 del diseño: capítulos 0–4 de `A1_Nivel_1/Guia_Estudio_MidTerm_A1.docx`, adaptados sin romanización fuera de [ ] y sin la hora). Se envía **a todo el grupo** con el mensaje post-clase de la S4. Si todavía no está lista, avísale a Jay el lunes 9 nov.
+**4. Guía de estudio de mitad de curso.** Es un archivo aparte, `alumnos/B1_Guia_Estudio_Mitad.md` (G.2 del diseño: capítulos 0–4 de `A1_Nivel_1/Guia_Estudio_MidTerm_A1.docx`, adaptados sin romanización fuera de [ ] y sin la hora). Se envía **a todo el grupo** con el mensaje post-clase de la S4. Si todavía no está lista, avísale a Jay el lunes 30 de noviembre.
 
 **5. Canal:** el comentario va **por privado** (nunca en el grupo). Si el tiempo no alcanza, esta semana el comentario escrito puede reemplazar tu audio de respuesta de 15 segundos [propuesta: confirmar con Jay].
 
-**6. Plazo.** [propuesta: domingo siguiente a la clase 4 = **domingo 15 de noviembre** para las dos secciones; confirmar con Kiran]. **⚑ Ojo con el calendario:** la tarea de la S4 se entrega antes de la clase 5 (mar 17 / jue 19), así que el domingo 15 muchos audios con la lectura de control todavía no habrán llegado, sobre todo en la sección del jueves. Tres salidas, para decidir con Jay: **(a)** comentario el dom 15 con la evidencia S1–S3 + Quiz 3, y la lectura de control se comenta cuando llega el audio, junto con la respuesta de la S5 · **(b)** pedir en clase que el audio se mande antes del sábado 14 a las 20:00 (sin obligar: quien lo mande después recibe el comentario dentro de 48 h) · **(c)** comentarios escalonados: sección martes el dom 15 y sección jueves el mar 17. Recomendación de esta guía: **(b)**, que no cambia la tarea publicada. En la hoja del alumno solo dice "Kiran te confirma el día en clase" y "manda tu audio apenas lo tengas".
+**6. Plazo.** [propuesta: domingo siguiente a la clase 4 = **domingo 6 de diciembre**; confirmar con Kiran]. **⚑ Ojo con el calendario:** la tarea de la S4 se entrega antes de la clase 5 (mar 8 dic), así que el domingo 6 muchos audios con la lectura de control todavía no habrán llegado. Dos salidas, para decidir con Jay: **(a)** comentario el dom 6 con la evidencia S1–S3 + Quiz 3, y la lectura de control se comenta cuando llega el audio, junto con la respuesta de la S5 · **(b)** pedir en clase que el audio se mande antes del sábado 5 de diciembre a las 20:00 (sin obligar: quien lo mande después recibe el comentario dentro de 48 h). Recomendación de esta guía: **(b)**, que no cambia la tarea publicada. En la hoja del alumno solo dice "Kiran te confirma el día en clase" y "manda tu audio apenas lo tengas".
 
 **7. Si alguien no lee 받침 a esta altura:** 10 minutos aparte antes o después de la clase 5 (nota publicada) + el taller en video (`/taller`) como repaso. No frenes al grupo.
 
 **8. Asistencia a mitad de curso.** Quien ya faltó a 2 clases queda al límite de 6 de 8. Regístralo por separado (en vivo · grabación + tarea) y, si faltó a 2 **en vivo**, avísale a Jay: según qué regla se aplique, el caso cambia. **[regla del certificado: pendiente de decisión de Jay]** (kit: ≥ 75 %, en vivo o grabación + tarea; ficha `a11`: 6 de 8 en vivo y ≥ 60 %). No se lo comuniques al alumno como regla hasta que Jay decida; en el comentario, si hace falta, basta con "no te pierdas las próximas clases".
 
-**9. Informe a Jay** (una línea por sección, el lunes 16 nov): "S4 martes: 13/15 con comentario; 2 a reforzar 받침 (nombres); 1 con 2 faltas en vivo (nombre)".
+**9. Informe a Jay** (una línea, el lunes 7 de diciembre): "S4: 13/15 con comentario; 2 a reforzar 받침 (nombres); 1 con 2 faltas en vivo (nombre)".
 
 ### C.14 Clave de respuestas
 
@@ -514,7 +517,7 @@ Quedan para la ronda 2 (los cantan los alumnos): 삼 (3) · 십 (10) · 십오 (
 
 ### C.15 Guion de slides (deck de la S4)
 
-Plantilla de la casa: azul `#4236F6`, cabeceras navy `#003478`, Arial, logo azul en la portada. **Nunca rojo** (tampoco en íconos ni en flechas). **Sin romanización** (nivel 2): solo 한글, español y [ ] donde se indica. PDF para la carpeta: `Basico1_S04_2026-11-10_Mi_familia.pdf`.
+Plantilla de la casa: azul `#4236F6`, cabeceras navy `#003478`, Arial, logo azul en la portada. **Nunca rojo** (tampoco en íconos ni en flechas). **Sin romanización** (nivel 2): solo 한글, español y [ ] donde se indica. PDF para la carpeta: `Basico1_S04_2026-12-01_Mi_familia.pdf`.
 
 **Qué se reutiliza de `A1_Nivel_1/`:**
 - `04_Vida_Diaria/Sesion_04b_Personas_Familia.pptx`: **§4B.4** (우리, "nuestro", no "mi") → L7 · **§4B.5** (familia y hermanos según quién habla) → L8–L9 · **§4B.6** (누구예요?) → L6. **Quitar:** toda la romanización (tiene errores como "an niong ja se yo" o "ja-ra-bo-chi"), los pronombres (그녀, 당신, 그들), 누가 / 제가, 제 이름은, 좋아해요, el repaso de futuro y pasado, las láminas de 이거/그거/저거 (son de la S3) y 남자친구 / 여자친구 / "남사친구 / 여사친구" (no están en el curso; además la forma coloquial es 남사친 / 여사친). **Corregir:** "우리 나라" → **우리나라**. **No reutilizar** los ejemplos "이 사람은 우리 엄마예요" ni "우리 친구예요" de los apuntes de julio (`Clase sabado-260815.pdf`, `Clase Uri 6-260812.pdf`).
@@ -524,7 +527,7 @@ Plantilla de la casa: azul `#4236F6`, cabeceras navy `#003478`, Arial, logo azul
 
 | L | Título | En pantalla | Nota |
 |---|---|---|---|
-| 1 | 우리 엄마예요 · Mi familia | Básico 1 · Semana 4 · Lección 4 del libro · Kiran (기란) · mar 10 / jue 12 nov | Portada con logo azul |
+| 1 | 우리 엄마예요 · Mi familia | Básico 1 · Semana 4 · Lección 4 del libro · Kiran (기란) · mar 1 dic | Portada con logo azul |
 | 2 | Quiz 3 | Dibujo (Kiran con un libro; un alumno con una taza al lado; un reloj lejos, en la pared; flechas ① taza y ② reloj) + los 5 ítems de C.14 + "Un solo mensaje privado a Kiran: 1) … 5) … Espera: 하나, 둘, 셋 → Enter" | Nuevo |
 | 3 | Quiz 3 · respuestas | 1 그거 · 2 저게 (저거) · 3 이 · 4 가 · 5 연필 | Se muestra después del envío |
 | 4 | Hoy vas a poder decir… | Las 5 frases de "Después de esta clase puedo decir" | Sin traducción en pantalla; Kiran las dice |
@@ -552,7 +555,7 @@ Plantilla de la casa: azul `#4236F6`, cabeceras navy `#003478`, Arial, logo azul
 | LB3 | Respaldo: 삼육구 게임 | Las reglas en 3 líneas | C.11-A |
 
 ### C.16 Después de la clase (dentro de 24 horas, como pide el kit)
-- [ ] Sube la grabación, el PDF del deck y la tarea a la carpeta del curso (`Basico1_S04_2026-11-10_Mi_familia.pdf` / `…2026-11-12…`).
+- [ ] Sube la grabación, el PDF del deck y la tarea a la carpeta del curso (`Basico1_S04_2026-12-01_Mi_familia.pdf`).
 - [ ] Marca en la hoja del curso la asistencia, el Quiz 3 y quién habló poco.
 - [ ] Publica el mensaje post-clase (abajo) con la guía de estudio de mitad de curso.
 - [ ] Una línea a Jay: "todo bien / faltó X / grupo lento en Y".
@@ -564,14 +567,14 @@ Plantilla de la casa: azul `#4236F6`, cabeceras navy `#003478`, Arial, logo azul
 > ¡Gracias por la clase de hoy, chingus!
 > Grabación: [link]
 > Guía de estudio de mitad de curso: [link a la carpeta]
-> Tarea para antes del [martes 17 / jueves 19] de noviembre, 20:00 (hora Chile):
+> Tarea para antes del **martes 8 de diciembre**, 20:00 (hora Chile):
 > 1) Lector de Hangul → Aprender → 7 "Dos maneras de contar" + Practicar → Números: 3 rondas seguidas mientras arriba diga "sino-coreanos" (mándenme la captura de Progreso)
 > 2) Flashcards de familia (carpeta) + hoja: 6 frases sobre tu familia con 우리 ___은/는 ___이에요/예요 (foto o tipeadas aquí en el grupo)
 > 3) Audio de 40 segundos: primero lee 한국 · 선생님 · 휴대폰 · 책상 · 할아버지, y después presenta a 3 personas de tu foto, sin leer
 > Extra: Dubu → barrio 6, Estación de Seúl (6-1 a 6-5)
 > Para la clase 5: anota tu ciudad y 3 lugares cerca de tu casa (banco, parque, metro…)
 > Esta semana te llega por privado tu comentario de mitad de curso. Manda tu audio apenas lo tengas 🙌
-> ¡Nos vemos el [día] a las 20:00! 화이팅
+> ¡Nos vemos el martes 8 a las 20:00! 화이팅
 
 ---
 
@@ -579,20 +582,20 @@ Plantilla de la casa: azul `#4236F6`, cabeceras navy `#003478`, Arial, logo azul
 
 | # | Qué | Quién | Antes de |
 |---|---|---|---|
-| 1 | ⚑ **이분은 우리 할머니예요:** con 이분, un nativo podría preferir el honorífico **할머니세요** (y **저희** en vez de 우리 hablando con la profe). Lo mismo con la pregunta del diálogo **이분은 누구예요?**: con 이분, lo más cortés es **이분은 누구세요?** En A1 aceptamos 예요 y 우리 (-(으)시- no se enseña en Básico 1); Kiran puede decir "también vas a oír 할머니세요 y 누구세요" sin pedirlo. | Kiran o Abby | vie 6 nov |
-| 2 | ⚑ **Línea del matiz de 우리** (C.4 §1): "es la forma normal y cálida de hablar de lo propio que compartes con los tuyos; con cosas personales no se usa". ¿Es justa y suficiente? (Ítem 3 de la lista ⚑ del diseño.) | Kiran o Abby | vie 6 nov |
+| 1 | ⚑ **이분은 우리 할머니예요:** con 이분, un nativo podría preferir el honorífico **할머니세요** (y **저희** en vez de 우리 hablando con la profe). Lo mismo con la pregunta del diálogo **이분은 누구예요?**: con 이분, lo más cortés es **이분은 누구세요?** En A1 aceptamos 예요 y 우리 (-(으)시- no se enseña en Básico 1); Kiran puede decir "también vas a oír 할머니세요 y 누구세요" sin pedirlo. | Kiran o Abby | vie 27 nov |
+| 2 | ⚑ **Línea del matiz de 우리** (C.4 §1): "es la forma normal y cálida de hablar de lo propio que compartes con los tuyos; con cosas personales no se usa". ¿Es justa y suficiente? (Ítem 3 de la lista ⚑ del diseño.) | Kiran o Abby | vie 27 nov |
 | 3 | **몇 명이에요?** como **fórmula de reconocimiento** que dice Kiran (C.3 paso 14, salas). Los alumnos no la producen ni se evalúa. **Resuelto en el control final:** agregada a la lista C del diseño (tipo R). | Dirección Académica | hecho (26 sept) |
-| 4 | **Plazo del comentario de mitad** frente a la entrega del audio (C.13 §6): elegir (a), (b) o (c). Recomendación: (b). | Jay + Kiran | lun 9 nov |
-| 5 | **Lectura de control** en el audio de la S4 (decisión 5 del diseño). | Jay | mar 10 nov |
-| 6 | **Flashcards de familia:** `200_Flashcards_Coreano_A1.xlsx` tiene 10 de las 12 palabras núcleo (tarjetas n.º 22, 23, 26–32 y 222); **faltan 할머니 y 할아버지**. Hay que agregarlas al armar `alumnos/B1_Flashcards.xlsx` y ocultar la columna de romanización. | Producción | vie 30 oct |
-| 7 | **Familia de 덕선** (*응답하라 1988*): confirmar los nombres (보라 = 언니, 노을 = 남동생) y el uso de la imagen. Si no, usar LB1 (Simpson). | Producción | vie 30 oct |
-| 8 | **Guía de estudio de mitad** (`alumnos/B1_Guia_Estudio_Mitad.md`): el capítulo 3 de la guía de julio dice "Corea piensa en equipo, decir MI mamá suena egoísta" y usa "제 동생이에요"; hay que adaptarlo al matiz [YA] y quitar 제 (no se enseña en octubre). | Redactor de la guía | vie 30 oct |
+| 4 | **Plazo del comentario de mitad** frente a la entrega del audio (C.13 §6): elegir (a), (b) o (c). Recomendación: (b). | Jay + Kiran | lun 30 nov |
+| 5 | **Lectura de control** en el audio de la S4 (decisión 5 del diseño). | Jay | mar 1 dic |
+| 6 | **Flashcards de familia:** `200_Flashcards_Coreano_A1.xlsx` tiene 10 de las 12 palabras núcleo (tarjetas n.º 22, 23, 26–32 y 222); **faltan 할머니 y 할아버지**. Hay que agregarlas al armar `alumnos/B1_Flashcards.xlsx` y ocultar la columna de romanización. | Producción | vie 20 nov |
+| 7 | **Familia de 덕선** (*응답하라 1988*): confirmar los nombres (보라 = 언니, 노을 = 남동생) y el uso de la imagen. Si no, usar LB1 (Simpson). | Producción | vie 20 nov |
+| 8 | **Guía de estudio de mitad** (`alumnos/B1_Guia_Estudio_Mitad.md`): el capítulo 3 de la guía de julio dice "Corea piensa en equipo, decir MI mamá suena egoísta" y usa "제 동생이에요"; hay que adaptarlo al matiz [YA] y quitar 제 (no se enseña en este curso). | Redactor de la guía | vie 20 nov |
 | 9 | **Lector → Números:** si un alumno ya jugó Números, el grupo puede estar en "nativos" o "mezclados"; en la hoja se le pide seguir jugando hasta que vuelva "sino-coreanos" (hasta 6 rondas extra). Elegir grupo en el Lector queda para [2027]. | — | — |
 | 10 | **Nombre de los archivos:** resuelto en el control final (diseño G.3): `S04_Guia_Profesor.md` y `S04_Material_Alumno.md`; las piezas transversales usan `B1_<Pieza>`. | Dirección Académica | hecho (26 sept) |
 
 ---
 
-## E. Anexo "Enero 2027" (NO se aplica en octubre: cambiaría lo publicado)
+## E. Anexo "Enero 2027" (NO se aplica en este curso: cambiaría lo publicado)
 - **제 (= 저의) como palabra en la S4** (제 친구, 제 휴대폰), frente a 우리 con la familia (Fase 1 §4.4).
 - **Lector:** elegir el grupo "sino-coreanos" directamente y un paquete "Familia" con audio nativo (hoy, de las 12 palabras núcleo de la S4 solo 친구 tiene clip).
 - **Audio de las palabras de familia** con el pipeline de SunHi (V5).

@@ -346,7 +346,7 @@ const RR_F={'':'','ㄱ':'k','ㄲ':'k','ㄴ':'n','ㄷ':'t','ㄹ':'l','ㅁ':'m','�
 const rrSil=s=>{const[i,m,f]=decompose(s);return (RR_I[i]||'')+(RR_M[m]||'')+(RR_F[f]||'');};
 
 /* ── Audio: clips nativos + TTS de respaldo (igual que el Lector) ─────── */
-const AUDIO_BASE="/audio/kr/", AUDIO_JAY="/audio/kr-jay/", audioCache={}, audioMissing={}; let currentAudio=null, koVoice=null;
+const AUDIO_BASE="/audio/kr/", audioCache={}, audioMissing={}; let currentAudio=null, koVoice=null;
 function pickVoice(){try{koVoice=speechSynthesis.getVoices().find(v=>(v.lang||"").toLowerCase().startsWith("ko"))||null;}catch(e){}}
 if("speechSynthesis" in window){pickVoice();try{speechSynthesis.onvoiceschanged=pickVoice;}catch(e){}}
 function hexOf(t){try{return Array.from(new TextEncoder().encode(t)).map(b=>b.toString(16).padStart(2,"0")).join("");}catch(e){return null;}}
@@ -355,9 +355,8 @@ function ttsSpeak(t){try{if(!("speechSynthesis" in window))return;const u=new Sp
 function speak(t){
   if(DEV&&(!t||(t.length===1&&/^[ㄱ-ㅎㅏ-ㅣ]$/.test(t))))throw new Error('jamo suelto a speak: '+t);
   if(t==='두부'){speakQueue(['두','부'],120);return;}
-  // cadena de voces: Jay (Ajustes → Voz de Jay, clips en /audio/kr-jay/) → SunHi (/audio/kr/) → voz del dispositivo
-  const bases=(typeof P!=="undefined"&&P.voz==="jay")?[AUDIO_JAY,AUDIO_BASE]:[AUDIO_BASE];
-  const h=hexOf(t);const base=h?bases.find(b=>!audioMissing[b+t]):null;
+  // cadena de voces: clips nativos de SunHi (/audio/kr/) → voz del dispositivo
+  const h=hexOf(t);const base=(h&&!audioMissing[AUDIO_BASE+t])?AUDIO_BASE:null;
   if(base){const src=base+h+".mp3";try{if(currentAudio)currentAudio.pause();let a=audioCache[src];if(!a){a=new Audio(src);audioCache[src]=a;}currentAudio=a;a.currentTime=0;
     const p=a.play();if(p&&p.catch)p.catch(err=>{if(err&&err.name==="NotAllowedError")return;audioMissing[base+t]=1;delete audioCache[src];speak(t);});return;}catch(e){}}
   ttsSpeak(t);}
@@ -367,7 +366,7 @@ function speakQueue(lista,gapMs=350){const id=++colaId;let i=0;
     const antes=currentAudio;speak(t);const a=(currentAudio&&currentAudio!==antes)||(currentAudio&&!currentAudio.paused)?currentAudio:null;if(a){a.onended=fin;}else{ttsOnEnd=fin;}setTimeout(fin,1500);};
   next();}
 function cancelaCola(){colaId++;}
-function preload(lista){const base=(typeof P!=="undefined"&&P.voz==="jay")?AUDIO_JAY:AUDIO_BASE;for(const t of lista){if(!t||t==='두부')continue;const h=hexOf(t);if(!h)continue;const src=base+h+".mp3";if(audioCache[src]||audioMissing[base+t])continue;try{const a=new Audio(src);a.preload='auto';audioCache[src]=a;}catch(e){}}}
+function preload(lista){for(const t of lista){if(!t||t==='두부')continue;const h=hexOf(t);if(!h)continue;const src=AUDIO_BASE+h+".mp3";if(audioCache[src]||audioMissing[AUDIO_BASE+t])continue;try{const a=new Audio(src);a.preload='auto';audioCache[src]=a;}catch(e){}}}
 let ctx=null;
 function audioCtx(){try{if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)();if(ctx.state==='suspended')ctx.resume();}catch(e){}return ctx;}
 function tok(freq=520,t0=0,dur=.03,gain=.25){const c=audioCtx();if(!c)return;const o=c.createOscillator(),g=c.createGain();o.type='triangle';o.frequency.value=freq;
@@ -459,8 +458,8 @@ async function verificaTodo(){const res=[];for(const n of NIVELES){const r=verif
 
 /* ── Progreso (localStorage) ─────────────────────────────────────────── */
 const PKEY='dubu-progreso';
-let P={niveles:{},oido:{},roman:true,tutos:{},saltado:false,voz:'sunhi'};
-function cargaP(){try{const j=JSON.parse(localStorage.getItem(PKEY)||'null');if(j&&j.niveles)P=Object.assign(P,j);}catch(e){}}
+let P={niveles:{},oido:{},roman:true,tutos:{},saltado:false};
+function cargaP(){try{const j=JSON.parse(localStorage.getItem(PKEY)||'null');if(j&&j.niveles)P=Object.assign(P,j);}catch(e){}delete P.voz;/* resto del interruptor «Voz de Jay», que ya no existe */}
 function guardaP(){try{localStorage.setItem(PKEY,JSON.stringify(P));}catch(e){}}
 function tema(){try{return localStorage.getItem('as-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch(e){return 'light';}}
 function aplicaTema(t){document.documentElement.dataset.theme=t;try{localStorage.setItem('as-theme',t);}catch(e){}for(const b of document.querySelectorAll('#btn-tema,#btn-tema-mapa,#btn-tema-top'))b.textContent=t==='dark'?'☀':'☾';}
@@ -574,7 +573,8 @@ function finDeMundo(m){const t=$('finmundo');t.innerHTML='';const mundo=MUNDOS[m
   if(pares.length)acc.append(h('button',{class:'btn line',onclick:()=>{velo('velo-fin',false);repasar(pares.slice(0,2));}},'Repasar'));
   const sig=MUNDOS[m];acc.append(h('button',{class:'btn',onclick:()=>{velo('velo-fin',false);if(sig)abreNivel(sig.niveles[0]);else muestraMapa();}},sig?'Siguiente barrio':'Volver al mapa'));t.append(acc);
   const url='https://www.academiaseul.com/nivel-1?clase=a11-martes&utm_source=dubu&utm_campaign=mundo'+m;
-  t.append(m>=6?h('p',{class:'lead primaria'},'Acabas de leer lo que verás en las primeras clases de Básico 1. ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso →')):h('p',{class:'lead'},'Esto se ve en Básico 1 · desde el martes 10 de noviembre → ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso')));
+  // sin fechas: esta página no se actualiza cuando cambia el calendario (los utm sí importan)
+  t.append(m>=6?h('p',{class:'lead primaria'},'Acabas de leer lo que verás en las primeras clases de Básico 1. ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso →')):h('p',{class:'lead'},'Esto se ve en Básico 1, nuestra clase para empezar de cero → ',h('a',{href:url,target:'_blank',rel:'noopener'},'Ver el curso')));
   velo('velo-fin',true);}
 function repasar(pares){const rondas=[];for(let i=0;i<4;i++){const k=pares[i%pares.length];const lista=PARES[k]||PARES['ㅓ/ㅗ'];rondas.push(lista[Math.floor(Math.random()*lista.length)]);}abreNivel({id:'repaso',tipo:'reconocer',rondas,par:pares[0],mundo:0});}
 
@@ -625,10 +625,9 @@ function muestraAlbum(){const t=$('album');t.innerHTML='';t.append(h('h2',{},'Á
   t.append(l,h('div',{class:'acciones'},h('button',{class:'btn line',onclick:()=>velo('velo-album',false)},'Cerrar')));velo('velo-album',true);}
 function muestraAjustes(){const t=$('ajustes');t.innerHTML='';t.append(h('h2',{},'Ajustes'));
   const sw=(on,fn)=>h('button',{class:'switch'+(on?' on':''),role:'switch','aria-checked':on?'true':'false',onclick:fn});
-  t.append(h('div',{class:'ajuste'},h('span',{},'Voz de Jay ',h('span',{class:'sub'},'(si falta un clip, suena SunHi)')),sw(P.voz==='jay',()=>{P.voz=P.voz==='jay'?'sunhi':'jay';guardaP();for(const k in audioMissing)delete audioMissing[k];muestraAjustes();})));
   t.append(h('div',{class:'ajuste'},h('span',{},'Modo noche'),sw(tema()==='dark',()=>{aplicaTema(tema()==='dark'?'light':'dark');muestraAjustes();})));
   t.append(h('div',{class:'ajuste'},h('span',{},'Ya sé leer (abre los barrios 1–3)'),h('button',{class:'btn line',style:'min-height:40px',onclick:()=>{yaSeLeer();velo('velo-ajustes',false);}},'Saltar')));
-  t.append(h('div',{class:'ajuste'},h('span',{},'Borrar mi progreso'),h('button',{class:'btn gris',style:'min-height:40px',onclick:()=>{if(confirm('¿Borrar el progreso de este dispositivo?')){P={niveles:{},oido:{},roman:true,tutos:{},saltado:false,voz:P.voz};guardaP();velo('velo-ajustes',false);muestraMapa();}}},'Borrar')));
+  t.append(h('div',{class:'ajuste'},h('span',{},'Borrar mi progreso'),h('button',{class:'btn gris',style:'min-height:40px',onclick:()=>{if(confirm('¿Borrar el progreso de este dispositivo?')){P={niveles:{},oido:{},roman:true,tutos:{},saltado:false};guardaP();velo('velo-ajustes',false);muestraMapa();}}},'Borrar')));
   t.append(h('p',{class:'lead'},'Dubu es un juego gratis de ',h('a',{href:'https://www.academiaseul.com/?utm_source=dubu',target:'_blank',rel:'noopener'},'Academia Seúl'),'. Voz nativa, sin cuenta, sin anuncios.'));
   t.append(h('div',{class:'acciones'},h('button',{class:'btn line',onclick:()=>velo('velo-ajustes',false)},'Cerrar')));velo('velo-ajustes',true);}
 function yaSeLeer(){P.saltado=true;guardaP();abreNivel(MUNDOS[2].niveles[0]);}
@@ -663,7 +662,7 @@ document.addEventListener('DOMContentLoaded',init);
     </div>
     <nav aria-label="Enlaces">
       <a href="/">Inicio</a>
-      <a href="/nivel-1?clase=a11-martes#clases">Inscripción Básico 1 · noviembre</a>
+      <a href="/nivel-1?clase=a11-martes#clases">Inscripción Básico 1</a>
       <a href="/programa">Programa</a>
       <a href="/dubu">Dubu · el puzzle</a>
       <a href="/lector-coreano">Lector de Hangul</a>

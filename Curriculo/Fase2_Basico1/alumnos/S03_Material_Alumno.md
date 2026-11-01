@@ -1,6 +1,8 @@
 # Semana 3 · 이게 뭐예요? · ¿Qué es esto?
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 3 de noviembre · Sección jueves: jueves 5 de noviembre · 20:00 (hora de Chile) · Libro: lecciones 2 y 3**
+**Clase 3 · martes 24 de noviembre de 2026 · 20:00–20:58 (hora de Chile) · Libro: lecciones 2 y 3**
+
+*Tu calendario: **8 clases, los martes de 20:00 a 20:58 (hora de Chile)**, del **10 de noviembre** al **29 de diciembre de 2026** — 10, 17 y 24 de noviembre · 1, 8, 15, 22 y 29 de diciembre. Si alguna fecha cambia, Kiran lo avisa en el grupo.*
 
 La semana pasada aprendiste a decir quién eres. Esta semana empiezas a nombrar el mundo: con una sola pregunta vas a poder saber cómo se llama cualquier cosa que tengas delante. 🗣️
 
@@ -157,7 +159,7 @@ Desde esta semana ves el sonido real en 한글 entre corchetes. No hay que apren
 
 ## 5. Diálogo · En un café de Seúl
 
-*Fines de octubre. Al otro lado de la calle hay un puesto callejero. Lucas (루카스), un chileno de intercambio, está en un café con su amiga coreana 서연.*
+*Fines de noviembre. Al otro lado de la calle hay un puesto callejero. Lucas (루카스), un chileno de intercambio, está en un café con su amiga coreana 서연.*
 
 | | Coreano | Español |
 |---|---|---|
@@ -287,7 +289,7 @@ Usa los 5 objetos que dejaste a mano (un libro, un lápiz, tu celular, un paragu
 
 ## 9. Tarea de la semana (≈ 25 minutos)
 
-**Entrégala en el grupo de WhatsApp de tu sección antes de tu clase 4:** martes 10 de noviembre a las 20:00 (sección martes) o jueves 12 de noviembre a las 20:00 (sección jueves), hora de Chile. Mejor repartida en 2 o 3 días.
+**Entrégala en el grupo de WhatsApp del curso antes de la clase 4:** **martes 1 de diciembre a las 20:00** (hora de Chile). Mejor repartida en 2 o 3 días.
 
 ### 1) Lector de Hangul · 8 min
 

@@ -1,9 +1,12 @@
 # Básico 1 (A1.1) · Semana 7 · 방에 침대가 있어요 · Mi pieza y mis verbos
-### Guía de la profesora · Kiran (기란) · martes 1 y jueves 3 de diciembre de 2026 · 20:00–20:58 (hora de Chile)
+### Guía de la profesora · Kiran (기란) · martes 22 de diciembre de 2026 · 20:00–20:58 (hora de Chile)
+
+> **Calendario de este curso (corrido el 1 nov 2026):** 8 clases, **los martes 20:00–20:58 (hora de Chile)**, del **mar 10 de noviembre** al **mar 29 de diciembre** de 2026. S1 10 nov · S2 17 nov · S3 24 nov · S4 1 dic · S5 8 dic · S6 15 dic · S7 22 dic · S8 29 dic. **Ya no hay sección de los jueves: hay un solo grupo semanal.** Esta guía es la clase 7 (**mar 22 de diciembre de 2026 — entre fiestas**).
+> **[POR CONFIRMAR con Jay: el martes 8 de diciembre (clase 5) es feriado en Chile (Inmaculada Concepción), y las clases 7 y 8 caen el 22 y el 29 de diciembre, entre fiestas. El calendario queda igual hasta que Jay decida.]**
 
 **MATERIAL DE LA PROFESORA · documento interno · no se comparte con alumnos**
 
-Lecciones 7 y 8 del libro · Sección martes: **mar 1 dic** · Sección jueves: **jue 3 dic** · Zoom con salas · máx. 15 alumnos
+Lecciones 7 y 8 del libro · **mar 22 dic**, 20:00–20:58 (hora de Chile) · Zoom con salas · máx. 15 alumnos
 
 Fuente única: `Curriculo/Fase2_Basico1/00_Diseno_Basico1.md` (B.8, C, D, E, F). Manda el syllabus publicado (`cursos_es.json`, curso `a11`, semana 7). El material del alumno de esta semana es `../alumnos/S07_Material_Alumno.md`.
 
@@ -36,7 +39,7 @@ Fuente única: `Curriculo/Fase2_Basico1/00_Diseno_Basico1.md` (B.8, C, D, E, F).
 | 4 | **Vocabulario** | **Núcleo (12, se evalúan):** 방 · 침대 · 창문 · 텔레비전 · 그림 · 그리다 (그려요) · 읽다 (읽어요) · 쓰다 (써요) · 듣다 (들어요) · 배우다 (배워요) · 음악 · 컴퓨터 (ya se leyó en la S5). **Del tema (6, se reconocen):** 옷장 · 거울 · 사진 · 문 · 케이팝 · 한국 음식. **Tarjeta de gustos [YA]:** 김치를 · 라면을 · 불고기를 · 커피를 · 케이팝을 · 드라마를 · 영화를 · 노래를 · 운동을 · 한국 음식을 + 좋아해요 / 안 좋아해요. Total de la semana: 18 entradas + tarjeta. |
 | 5 | **Expresiones coreanas** | 방에 뭐가 있어요? — ___이/가 있어요. · ___은/는 없어요. (contraste; reconocer) · ___을/를 읽어요 · 들어요 · 그려요 · 배워요 · 써요 · Fórmula: ___을/를 좋아해요. / 안 좋아해요. · **3 frases clave del coro:** 방에 침대가 있어요. / 책을 읽어요. / 김치를 좋아해요. |
 | 6 | **Pronunciación** | Se imitan como palabra entera, sin explicar la regla: 읽어요 [일거요] · 있어요 [이써요] · 없어요 [업써요] · 책을 [채글] · 음악을 [으마글] · 그림을 [그리믈] · 창문이 [창무니] · 좋아해요 [조아해요] (la ㅎ se cae). Se corrige siempre: 써요 con ㅆ tensa, sin aire · 그려요 con ㅕ (no "gre-yo") · 배워요 con ㅝ de un golpe · ㅇ final de 방 y 창문 (no "ban", no "chanmun"). |
-| 7 | **Cultura** | Capa tradicional → contemporánea. Casi todas las casas y departamentos coreanos tienen calefacción bajo el piso, heredera del **온돌** tradicional (antes, el calor del fogón pasaba bajo piedras del piso; hoy, tubos de agua caliente), y todavía hay quien duerme sobre un **요** (colchón delgado que se extiende en el suelo). Matiz [YA], capa ayer/hoy ⚑: **우리 할머니 집에 침대가 없어요. · 우리 집에 침대가 있어요.** Hoy la mayoría duerme en cama. Puente: en Latinoamérica el piso radiante es raro; por el piso tibio (y porque mucha vida pasa en el suelo), en Corea se entra a la casa sin zapatos. Gancho de calendario [YA], opcional: a fines de noviembre muchas familias preparan el **김장** (kimchi para el invierno; la fecha varía de norte a sur, y hoy muchas familias hacen menos cantidad o lo compran hecho: matiz generacional) → conecta con 김치를 좋아해요. Estaciones invertidas **solo para el hemisferio sur**: allá ya se prende el 온돌; en Chile o Argentina se viene el verano (quien vive en México o España está entrando al invierno, igual que Corea). |
+| 7 | **Cultura** | Capa tradicional → contemporánea. Casi todas las casas y departamentos coreanos tienen calefacción bajo el piso, heredera del **온돌** tradicional (antes, el calor del fogón pasaba bajo piedras del piso; hoy, tubos de agua caliente), y todavía hay quien duerme sobre un **요** (colchón delgado que se extiende en el suelo). Matiz [YA], capa ayer/hoy ⚑: **우리 할머니 집에 침대가 없어요. · 우리 집에 침대가 있어요.** Hoy la mayoría duerme en cama. Puente: en Latinoamérica el piso radiante es raro; por el piso tibio (y porque mucha vida pasa en el suelo), en Corea se entra a la casa sin zapatos. Gancho de calendario [YA], opcional: hace unas semanas, entre fines de noviembre y comienzos de diciembre, muchas familias coreanas hicieron el **김장** (kimchi para todo el invierno; la fecha varía de norte a sur, y hoy muchas familias hacen menos cantidad o lo compran hecho: matiz generacional), así que a esta altura del año el kimchi del invierno ya está guardado → conecta con 김치를 좋아해요. Estaciones invertidas **solo para el hemisferio sur**: allá hace frío y el 온돌 está prendido; en Chile o Argentina acaba de empezar el verano (quien vive en México o España está en invierno, igual que Corea). |
 | 8 | **Tarea de speaking (en clase)** | **Tour de tu pieza** en tríos: 4 frases (방에 ___이/가 있어요 · ___ 위에 ___이/가 있어요 · ___이/가 없어요, o ___은/는 없어요 si le sale · 저는 매일 ___을/를 ___) + responder las preguntas del grupo (컴퓨터가 있어요? — 네, 있어요 / 아니요, 없어요). **Mímica de verbos** con frase completa. **Minuto libre** [YA]: 방에 뭐가 있어요? + 오늘 뭐 해요?, sin guion. |
 | 9 | **Tarea de listening (en clase)** | El tour de la pieza de Kiran (marcar lo que hay y lo que no, con reacciones de Zoom) · el ítem 5 del quiz 6 (comprensión oral) · el dictado de partículas (Kiran lee cada frase; los alumnos escriben la partícula). |
 | 10 | **Tarea de reading** | Lectura en voz alta por turnos de las 10 frases del dictado · en el material: mini-texto "La pieza de Daniel" (8 frases) con 5 preguntas de comprensión (ejercicio 1). |
@@ -72,7 +75,7 @@ La estructura publicada (quiz 5 · lección 15 · controlada 15 · pares 20 · c
 | **49–53** · 20:49–20:53 | **L · Minuto libre** [YA] (3 min) + regreso | Escucha una sala sin intervenir | Preguntan y responden sin mirar el cuaderno, en cualquier orden | Salas; cierre automático a los 19 min + 15 s | Tarjeta del minuto libre (chat) |
 | **53–54** · 20:53–20:54 | **Cierre: errores del día** | Dice los 2–3 errores más repetidos con la forma correcta (sin nombres) | Repiten la forma correcta | Pantalla: slide 23 | Tus notas de las salas |
 | **54–56** · 20:54–20:56 | **3 frases clave en coro + tarjeta de gustos** | 2 s de silencio y después las 3 frases, despacio, 2 veces cada una (de aquí se recorta el clip). Muestra la tarjeta de gustos y pregunta a 2 alumnos 김치를 좋아해요? | Coro. Dos voluntarios responden 네, 좋아해요 / 아니요, 안 좋아해요 | Pantalla: slides 24–25. Todos con micrófono abierto en el coro | Tarjeta de gustos |
-| **56–58** · 20:56–20:58 | **Guion, examen, sorteo y despedida** | Guion (8–10 frases, plazo), ventanas del examen por sección, sorteo del orden de la clase 8 y tarea. Despide: 감사합니다! 화이팅! | Anotan fechas; ven su turno para la clase 8 | Pantalla: slides 26–30. Sorteo con el barajador de listas preparado (un clic, 15 s). Termina la grabación a las 20:58 | Lista de nombres para el sorteo |
+| **56–58** · 20:56–20:58 | **Guion, examen, sorteo y despedida** | Guion (8–10 frases, plazo), ventana del examen, sorteo del orden de la clase 8 y tarea. Despide: 감사합니다! 화이팅! | Anotan fechas; ven su turno para la clase 8 | Pantalla: slides 26–30. Sorteo con el barajador de listas preparado (un clic, 15 s). Termina la grabación a las 20:58 | Lista de nombres para el sorteo |
 
 **Turnos de habla por alumno (≥ 3):** coro (varios) · relevo de la rueda (1) · justificación del dictado (10 alumnos) · tour (1 largo) · mímica (varios) · minuto libre (1–2) · coro final.
 
@@ -87,7 +90,7 @@ Que cada alumno **describa su pieza** (qué hay y qué no hay) y **diga qué hac
 
 ### C.2 Checklist de preparación
 
-**Lo prepara el equipo (regla N−2: listo el vie 20 nov). Tú no produces material.**
+**Lo prepara el equipo (regla N−2: listo el vie 11 dic). Tú no produces material.**
 - [ ] Deck de la S7 (30 slides, guion en C.15), en PDF en la carpeta del curso.
 - [ ] Dibujo de "la pieza de Kiran" (slide 5) y su versión con sí/no (slide 7). Contenido exacto: cama junto a la ventana · ventana · escritorio con computador encima · silla · foto sobre el escritorio · clóset con un espejo al lado · un dibujo (cuadro) · puerta · **sin televisor** (marcado con una X gris, nunca roja).
 - [ ] `alumnos/S07_Material_Alumno.md` en PDF (hoja 7–8 + quiz de 15 + consigna del guion).
@@ -95,9 +98,9 @@ Que cada alumno **describa su pieza** (qué hay y qué no hay) y **diga qué hac
 - [ ] Kit "Yo en coreano" (`alumnos/B1_Proyecto_Final.md` y `profes/B1_Proyecto_Final_Profe.md`, P1). Si aún no existen, usa la sección 9.3 del material del alumno y C.13 de esta guía.
 - [ ] Flashcards de "casa y objetos" (`alumnos/B1_Flashcards.xlsx`): en `A1_Nivel_1/200_Flashcards_Coreano_A1.xlsx` ya están 방, 침대, 창문, 텔레비전, 거울, 문, 읽다, 쓰다 y 듣다; **faltan** 그림, 그리다, 배우다, 음악, 컴퓨터, 옷장, 사진, 케이팝 y 한국 음식. Ocultar la columna de romanización.
 - [ ] Repaso de la lección 9 [YA]: capítulos 7 ("La máquina de conjugar y 을/를") y 8 ("Me gusta") de `A1_Nivel_1/Guia_Estudio_MidTerm_A1.docx`, adaptados (sin la columna "[se lee]", sin 입어요/신어요, sin el bonus de pasado y futuro, sin 나는). Si no llegan adaptados, **no los entregues**: el material del alumno ya cubre la S7 y la fórmula de gustos.
-- [ ] Link del examen escrito: **[PLACEHOLDER: link del formulario — lo confirma Jay]** (decisión 3 de Jay, vie 27 nov).
-- [ ] **Decisión 4 de Jay** (qué pasa con quien no pueda presentar el día 8): **[regla del certificado: pendiente de decisión de Jay]**. Propuesta del diseño: video de 1–2 min + respuesta grabada a una pregunta que envía Kiran, antes del dom 13 dic. Se avisa en esta clase.
-- [ ] Lista de nombres de cada sección (**todos los inscritos**, también quien falte a la clase 7) cargada en un **barajador de listas** del navegador, que ordena todos los nombres de una vez, para el sorteo del orden de la clase 8. No uses una ruleta que saca un nombre por giro: con 15 nombres no cabe en el cierre.
+- [ ] Link del examen escrito: **[PLACEHOLDER: link del formulario — lo confirma Jay]** (decisión 3 de Jay, vie 18 dic).
+- [ ] **Decisión 4 de Jay** (qué pasa con quien no pueda presentar el día 8): **[regla del certificado: pendiente de decisión de Jay]**. Propuesta del diseño: video de 1–2 min + respuesta grabada a una pregunta que envía Kiran, antes del **dom 3 de enero de 2027** **[POR CONFIRMAR con Jay]**. Se avisa en esta clase.
+- [ ] Lista de nombres del grupo (**todos los inscritos**, también quien falte a la clase 7) cargada en un **barajador de listas** del navegador, que ordena todos los nombres de una vez, para el sorteo del orden de la clase 8. No uses una ruleta que saca un nombre por giro: con 15 nombres no cabe en el cierre.
 
 **El día anterior (tú)**
 - [ ] Confirma la clase en el grupo: "mañana 20:00 Chile · 18:00 Colombia/Perú · 17:00 México" (ajusta a los países del grupo; España ya cambió de hora).
@@ -108,7 +111,7 @@ Que cada alumno **describa su pieza** (qué hay y qué no hay) y **diga qué hac
 **10 minutos antes**
 - [ ] Deck abierto en la slide 1; barajador de listas abierto en otra pestaña, con los nombres ya cargados.
 - [ ] Sobre el escritorio: **un libro, audífonos, un lápiz y una hoja** (para las mímicas del bloque 12–16).
-- [ ] Graba desde el minuto 0 (nombre: `Basico1-Martes_S07_2026-12-01` o `Basico1-Jueves_S07_2026-12-03`).
+- [ ] Graba desde el minuto 0 (nombre: `Basico1-Martes_S07_2026-12-22`).
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
 
@@ -162,9 +165,9 @@ Guarda el chat y anota el puntaje en la hoja del curso (1 punto por ítem).
 
 **KO:** 우리 할머니 집에 침대가 없어요. · 우리 집에 침대가 있어요. **따라 하세요!** (2 veces)
 
-**ES:** "Por el piso tibio, y porque mucha vida pasa en el suelo, en Corea uno se saca los zapatos al entrar a la casa. ¿En sus casas se entra con zapatos?" (1–2 respuestas rápidas.) "Y ahora mismo allá hace frío y el 온돌 está prendido; en Chile y Argentina se nos viene el verano." (Si hay alumnos de México o España: "ustedes van al invierno, igual que Corea".)
+**ES:** "Por el piso tibio, y porque mucha vida pasa en el suelo, en Corea uno se saca los zapatos al entrar a la casa. ¿En sus casas se entra con zapatos?" (1–2 respuestas rápidas.) "Y ahora mismo allá hace frío y el 온돌 está prendido; en Chile y Argentina acaba de empezar el verano." (Si hay alumnos de México o España: "ustedes van al invierno, igual que Corea".)
 
-*Opcional, 20 s, si vas a tiempo:* "Estos días muchas familias coreanas hacen **김장**: preparan kimchi para todo el invierno. Hoy muchas hacen menos o lo compran hecho, pero sigue siendo una tradición muy querida. Guárdenlo, que al final de la clase vamos a decir si nos gusta el kimchi."
+*Opcional, 20 s, si vas a tiempo:* "Hace unas semanas, entre fines de noviembre y comienzos de diciembre, muchas familias coreanas hicieron el **김장**: prepararon kimchi para todo el invierno, así que ahora ya lo tienen guardado. Hoy muchas hacen menos o lo compran hecho, pero sigue siendo una tradición muy querida. Guárdenlo, que al final de la clase vamos a decir si nos gusta el kimchi."
 
 No digas "los coreanos duermen en el suelo": di "hay quien", "en muchas casas", "hoy la mayoría".
 
@@ -278,9 +281,9 @@ A los 9 min, mensaje a todas las salas: `Cambio: MÍMICA 🙂` · a los 16 min: 
 **Guion, examen y sorteo (slides 26–29), ES:**
 > "Tarea grande de la semana: tu **guion** para 'Yo en coreano', 8 a 10 frases: quién eres, tu familia, dónde vives, tu día y tu pieza. Los gustos, si quieres, con la tarjeta; si no, los armamos en la clase 8. Tipeado en 한글, me lo mandas **[plazo propuesto: 48 h después de esta clase]** y te lo devuelvo corregido antes de la clase 8."
 >
-> "El **examen escrito** en línea dura 30 minutos y lo rindes antes de la clase 8: [martes: se abre el domingo 6 a las 20:00 y cierra el martes 8 a las 20:00] / [jueves: se abre el martes 8 a las 20:00 y cierra el jueves 10 a las 20:00]. Tu repaso es la hoja 7–8: hazla antes del examen."
+> "El **examen escrito** en línea dura 30 minutos y lo rindes antes de la clase 8: **se abre el domingo 27 de diciembre a las 20:00 y cierra el martes 29 a las 20:00**. Tu repaso es la hoja 7–8: hazla antes del examen."
 >
-> *(Solo para ti: el mar 8 de diciembre es feriado en Chile; Jay confirma antes de esta clase si la clase 8 del martes se mantiene. Si cambia, usa la fecha nueva aquí y en el mensaje post-clase.)*
+> *(Solo para ti: esta clase cae el 22 de diciembre y la clase 8 el 29, entre Navidad y Año Nuevo, así que la ventana del examen cruza las fiestas. **[POR CONFIRMAR con Jay: si decide mover la clase 8 o la ventana, usa la fecha nueva aquí y en el mensaje post-clase.]**)*
 >
 > "Y ahora, el sorteo del orden de la clase 8." (Baraja la lista una vez; captura de pantalla; se publica en el grupo con el mensaje post-clase. Si alguien falta hoy, queda en la lista igual.)
 >
@@ -419,7 +422,7 @@ Cómo usarlo: si sobra tiempo o como lectura en parejas (roles cambiados). Todo 
 | **La grabación no partió o se cortó** | Iníciala apenas lo notes y avísale a Jay en la línea post-clase. Si el coro de las 3 frases clave no quedó grabado, dilo: el clip lo resuelve producción o Jay (diseño B.12). Tú no grabas aparte. |
 | **Se te corta la luz o internet** | Regla del kit: avisa en el grupo desde el celular; si no se retoma en 10 minutos, la clase se repone en la misma semana. Si vuelves antes, salta directo a las salas (C.12). |
 | **El barajador no carga** | Haz el sorteo apenas termine la clase y publícalo en el grupo con el mensaje post-clase. La clase 8 necesita el orden publicado. |
-| **Te preguntan por el link del examen o por lo que pasa si no pueden presentar** | Solo lo confirmado: las ventanas de cada sección. El link lo publicas en el grupo cuando Jay lo confirme; lo demás: **[regla del certificado: pendiente de decisión de Jay]**. No prometas nada distinto. |
+| **Te preguntan por el link del examen o por lo que pasa si no pueden presentar** | Solo lo confirmado: la ventana del examen. El link lo publicas en el grupo cuando Jay lo confirme; lo demás: **[regla del certificado: pendiente de decisión de Jay]**. No prometas nada distinto. |
 
 ### C.13 Después de la clase (dentro de 24 h) · guion y examen
 
@@ -427,21 +430,21 @@ Cómo usarlo: si sobra tiempo o como lectura en parejas (roles cambiados). Todo 
 ```
 ¡Gracias por la clase de hoy, chingus!
 Grabación: [link]
-Tarea para antes de tu clase 8 ([mar 8 / jue 10] dic, 20:00 hora Chile):
+Tarea para antes de la clase 8 (mar 29 dic, 20:00 hora Chile):
 1) Hoja de las lecciones 7–8 + quiz de 15 preguntas (foto o PDF aquí). Hazla ANTES del examen: es tu repaso.
 2) Lector de Hangul → Practicar → Palabras, 3 rondas seguidas, y Pictogramas, 3 rondas seguidas. Mándame la captura de Progreso.
-3) Tu guion de "Yo en coreano" (8–10 frases, tipeado en 한글) → envíamelo [tu canal: p. ej., mensaje privado de WhatsApp] antes del [jue 3 dic / sáb 5 dic], 20:00 [plazo propuesto]. Te lo devuelvo corregido antes de la clase 8.
+3) Tu guion de "Yo en coreano" (8–10 frases, tipeado en 한글) → envíamelo [tu canal: p. ej., mensaje privado de WhatsApp] antes del jue 24 dic, 20:00 [plazo propuesto; ojo: es Nochebuena, confírmalo con Kiran]. Te lo devuelvo corregido antes de la clase 8.
 4) Te dejo el material de la semana 8 (PDF): léelo antes del examen, te sirve de repaso.
-Examen escrito en línea (30 min): [martes: dom 6 dic 20:00 → mar 8 dic 20:00] [jueves: mar 8 dic 20:00 → jue 10 dic 20:00] · link: [PLACEHOLDER — lo confirma Jay]
+Examen escrito en línea (30 min): se abre el dom 27 dic a las 20:00 y cierra el mar 29 dic a las 20:00 · link: [PLACEHOLDER — lo confirma Jay]
 Orden de presentaciones de la clase 8: [lista del sorteo]
-¡Nos vemos el [día] a las 20:00! 화이팅
+¡Nos vemos el martes 29 a las 20:00! 화이팅
 ```
 - Sube grabación + PDF de la clase + tarea a la carpeta (`Curso_S07_Fecha_Tema`). Marca asistencia, quiz 6 y observaciones del tour en la hoja del curso (en vivo · grabación + tarea · nota, por separado: **[regla del certificado: pendiente de decisión de Jay]**). Una línea a Jay.
 - **Recorte del clip** `B1_S07_frases_clave.mp3` (las 3 frases del coro): lo hace producción o Jay dentro de 48 h de la clase del martes. Tú no grabas ni editas.
 - **Propuesta (confirmar con Kiran):** publicar en el grupo la clave de la hoja 7–8 cuando venza el plazo del guion, para que sirva de repaso antes del examen.
 
 **Corrección del guion (formativa, sin nota).**
-- Plazo propuesto de devolución: a más tardar 24 h antes de la clase 8 (martes: lun 7 dic, 20:00 · jueves: mié 9 dic, 20:00) **[propuesta; confirmar con Kiran]**.
+- Plazo propuesto de devolución: a más tardar 24 h antes de la clase 8 (**lun 28 dic, 20:00**) **[propuesta; confirmar con Kiran]**.
 - Qué marcas: partículas (이/가 · 을/를 · 은/는 · 에) · 이에요/예요 · conjugación -아요/어요 · partícula pegada · verbo al final · frases fuera del curso (C.6, fila del traductor).
 - Código sugerido (para que el alumno corrija): **[P]** partícula · **[E]** 이에요/예요 · **[V]** verbo · **[→]** "hay una forma del curso más simple" · **[+]** ¡muy bien! Devuelves la versión corregida y, arriba, **máximo 3 comentarios, el primero positivo**.
 - Chequeo de contenido (lista de F.1): saludo y quién es · familia · dónde vive · su día (≥ 3 verbos) · su pieza (qué hay y qué no) · gustos (opcional) · 감사합니다. Si falta un bloque, pídelo en uno de los 3 comentarios.
@@ -449,7 +452,7 @@ Orden de presentaciones de la clase 8: [lista del sorteo]
 - Si el guion llega con romanización, devuélvelo pidiendo 한글. Si alguien no puede tipear, **propuesta:** se acepta una foto del guion escrito a mano, legible.
 - Si un guion trae gustos, corrige solo 을/를 y 좋아해요 / 안 좋아해요; no introduzcas 싫어해요 (es de la S8 y suena fuerte).
 
-**Recordatorios de la semana 8 que se anuncian hoy:** examen en línea (ventanas arriba; sin romanización; 4 secciones: dictado 10 pts · vocabulario 15 · partículas y conjugación 15 · 6 frases sobre ti 10) · presentación de 1–2 min sin leer, cámara encendida, hasta 4 fotos o dibujos de apoyo, nunca el texto · orden sorteado · qué pasa si alguien no puede presentar: **[regla del certificado: pendiente de decisión de Jay]**.
+**Recordatorios de la semana 8 que se anuncian hoy:** examen en línea (la ventana está arriba; sin romanización; 4 secciones: dictado 10 pts · vocabulario 15 · partículas y conjugación 15 · 6 frases sobre ti 10) · presentación de 1–2 min sin leer, cámara encendida, hasta 4 fotos o dibujos de apoyo, nunca el texto · orden sorteado · qué pasa si alguien no puede presentar: **[regla del certificado: pendiente de decisión de Jay]**.
 
 ### C.14 Clave de respuestas
 
@@ -502,7 +505,7 @@ Plantilla trilingüe de la casa (ES/KO/EN), acento azul `#4236F6`, cabeceras nav
 
 | # | Título | Contenido en pantalla | Nota para la profe | Reutiliza |
 |---|---|---|---|---|
-| 1 | Semana 7 · Mi pieza y mis verbos | 방에 침대가 있어요 · Lecciones 7 y 8 del libro · Kiran · mar 1 / jue 3 dic | Se graba desde aquí | Plantilla de la casa |
+| 1 | Semana 7 · Mi pieza y mis verbos | 방에 침대가 있어요 · Lecciones 7 y 8 del libro · Kiran · mar 22 dic | Se graba desde aquí | Plantilla de la casa |
 | 2 | Quiz 6 | Los 5 ítems (como en el chat) | Lee el ítem 5 dos veces | Nuevo |
 | 3 | Clave del quiz 6 | 가요 · 먹어요 · 공부해요 · 에 · 매일 회사에 가요 | 1 min | Nuevo |
 | 4 | Hoy vas a poder decir… | Las 5 frases de "puede decir" | 20 s | Nuevo |
@@ -528,7 +531,7 @@ Plantilla trilingüe de la casa (ES/KO/EN), acento azul `#4236F6`, cabeceras nav
 | 24 | 3 frases clave | 방에 침대가 있어요. · 책을 읽어요. · 김치를 좋아해요. | 2 s de silencio antes; cada frase 2 veces | `B1_Frases_Clave.md` (fila S7) |
 | 25 | Tarjeta de gustos | 김치를 · 라면을 · 불고기를 · 커피를 · 케이팝을 · 드라마를 · 영화를 · 노래를 · 운동을 · 한국 음식을 + 좋아해요 / 안 좋아해요 | Fórmula, sin explicar | `B1_Tarjeta_Gustos.md` |
 | 26 | Tu guion final | Qué cuentas (5 bloques + gustos opcional) · 3 frases de ejemplo · plazo [propuesto] | Solo 3 frases del modelo, para que nadie lo copie | Consigna F.1 del diseño |
-| 27 | Examen en línea | 30 min · 4 secciones (10 · 15 · 15 · 10) · sin romanización · ventanas por sección · link [PLACEHOLDER] | — | Nuevo |
+| 27 | Examen en línea | 30 min · 4 secciones (10 · 15 · 15 · 10) · sin romanización · ventana del examen · link [PLACEHOLDER] | — | Nuevo |
 | 28 | Sorteo | "Orden de la clase 8" | Barajador de listas en otra pestaña (un clic) | — |
 | 29 | Tarea de la semana | Hoja 7–8 + quiz 15 · Lector: Palabras y Pictogramas, 3 rondas seguidas cada uno · Guion | — | Nuevo |
 | 30 | 감사합니다 · 화이팅! | Sello del tigre (versión 2, sin marco) | Despedida 20:58 | Plantilla de la casa |
@@ -548,8 +551,8 @@ Apoyo para la profe (no se proyecta): apuntes de Jay de julio `A1_Nivel_1/clase 
 6. Tip 써요 / 서요 (C.7): ¿útil o distrae?
 
 **Pendientes que no decide Kiran:**
-- **[regla del certificado: pendiente de decisión de Jay]**: cómo cuenta la asistencia (en vivo o grabación + tarea) y qué pasa con quien no presenta el día 8 (decisión 4, antes del 1 dic; se avisa en esta clase).
-- Link y plataforma del examen (decisión 3, vie 27 nov): **[PLACEHOLDER]**.
+- **[regla del certificado: pendiente de decisión de Jay]**: cómo cuenta la asistencia (en vivo o grabación + tarea) y qué pasa con quien no presenta el día 8 (decisión 4, antes del mar 22 dic; se avisa en esta clase).
+- Link y plataforma del examen (decisión 3, vie 18 dic): **[PLACEHOLDER]**.
 - Canal y plazo del guion: **[propuesta: 48 h después de la clase 7; confirmar con Kiran]**.
 - Flashcards de la S7 (9 palabras faltan en el xlsx) y capítulos 7–8 de la guía de estudio adaptados (producción).
 - Responsable del recorte de `B1_S07_frases_clave.mp3` (decisión 2).
@@ -557,12 +560,12 @@ Apoyo para la profe (no se proyecta): apuntes de Jay de julio `A1_Nivel_1/clase 
 
 ---
 
-## E. Anexo "Enero 2027" (NO se aplica en octubre: cambiaría lo publicado)
+## E. Anexo "Enero 2027" (NO se aplica en este curso: cambiaría lo publicado)
 
-| Cambio | Fuente | Por qué no en octubre |
+| Cambio | Fuente | Por qué no en este curso |
 |---|---|---|
 | S5 = lecciones 5 + 7: "está en" y "hay" juntos; la S7 deja de repetir 있어요 y gana tiempo | Fase 1 §4.4 · diseño I #5 | Cambia las lecciones por semana publicadas |
-| S7 = lecciones 8 + 9: 좋아해요 como **estructura** (no solo fórmula del cierre) y 에서 como reconocimiento (회사에서 일해요) | Fase 1 §4.4 · diseño I #6 | Cambia las lecciones por semana publicadas; en octubre 좋아해요 es fórmula [YA] y 에서 solo se dice si preguntan |
+| S7 = lecciones 8 + 9: 좋아해요 como **estructura** (no solo fórmula del cierre) y 에서 como reconocimiento (회사에서 일해요) | Fase 1 §4.4 · diseño I #6 | Cambia las lecciones por semana publicadas; en este curso 좋아해요 es fórmula [YA] y 에서 solo se dice si preguntan |
 | Misión semanal única de 25 minutos en lugar de 3 entregas (esta semana, guion + hoja + Lector + examen) | Fase 1 §11.6 · diseño I #10 | Cambia las tareas publicadas |
 | Lector: elegir modo y grupo, y modo sin romanización (Palabras) · "Mis palabras de la semana" con los muebles de la S7 | Fase 1 §7.4 · diseño I #18 | Cambia código |
 | Audio nativo para el vocabulario de la S7 (hoy solo 방 y 문 tienen clip) | Fase 1 §5.4 V5 · diseño I #19 | Producción larga |

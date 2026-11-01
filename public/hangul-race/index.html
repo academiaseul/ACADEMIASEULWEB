@@ -644,7 +644,9 @@ h3.sec{margin:6px 0 0;font-size:16px}
 
   function muestraExplicacion(ex, item) {
     const box = $('#explica');
-    box.innerHTML = '<b class="t">✗ ' + esc(ex.titulo) + '</b>' + ex.lineas.map((l) => '<p>' + esc(l) + '</p>').join('') +
+    // El ✗ sobra solo cuando el título ya empieza con «Casi…» (Corre). En Reconoce el título
+    // es «거 se lee geo» aunque haya confundido un jamo, y ahí la marca sí hace falta.
+    box.innerHTML = '<b class="t">' + (/^Casi/.test(ex.titulo) ? '' : '✗ ') + esc(ex.titulo) + '</b>' + ex.lineas.map((l) => '<p>' + esc(l) + '</p>').join('') +
       '<p style="margin-top:8px"><button type="button" class="btn linea chico" id="btn-oir-exp">🔊 Escuchar ' + esc(HR.queSuena(item)) + '</button></p>';
     box.classList.add('on');
     anunciar('Casi. ' + ex.titulo + '. ' + ex.lineas.join('. ') + '. Inténtalo otra vez.');
@@ -683,9 +685,12 @@ h3.sec{margin:6px 0 0;font-size:16px}
       const t = $('#tablero'); t.classList.remove('mal'); void t.offsetWidth; t.classList.add('mal');
       sonidoMal();
       coach('mal');
-      if (P.intentos === 1) $('#pista').innerHTML = 'Pista: empieza con <b>' + esc(q.pista[0] || q.item.rom.slice(0, 2)) + '…</b>';
+      if (P.intentos === 1) $('#pista').innerHTML = 'Pista: ' + esc(q.ayuda.texto) + ' <b>' + esc(q.ayuda.clave) + '</b>';
       else $('#pista').innerHTML = 'Se lee <b>' + esc(q.item.rom) + '</b> · escríbelo para seguir';
-      anunciar('Casi. ' + $('#pista').textContent);
+      // Si escribió otra palabra (거 → «go»), se le dice qué jamo cambió y lo vuelve a intentar
+      if (res.explicacion && res.explicacion.casi) muestraExplicacion(res.explicacion, q.item);
+      else { $('#explica').classList.remove('on'); $('#explica').innerHTML = ''; anunciar('Casi. ' + $('#pista').textContent); }
+      inp.focus({ preventScroll: true });
       pintaHud();
     }
   }

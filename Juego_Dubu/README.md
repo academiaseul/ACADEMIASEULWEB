@@ -12,10 +12,10 @@ Prototipo v2 (19 sept 2026): puzzle de tablero **C + V**. La v1 (fabricar letras
 6 barrios × 5 niveles = 30. Tablero **2×2 o 3×3** con consonantes (azul) y vocales (dorado): tocas consonante → vocal (→ batchim) y se forma la sílaba; si coincide con la meta, cuaja y pasa a la siguiente. Tipos: **Arma** (meta romanizada; en el barrio 1 también la sílaba fantasma), **Oído** (meta solo por audio; romanización tras 3 fallos), **¿Cuál oíste?** (pares mínimos). Los distractores del tablero son pares mínimos de las letras necesarias (ㅓ/ㅗ, ㅡ/ㅜ, ㄱ/ㅋ/ㄲ, ㄴ/ㅇ…) generados con semilla por nivel. Al fallar, la sílaba se desmorona solo desde la pieza equivocada y suena meta → tuya. Puntuación: 3 cubitos sin fallos, 2 con ≤2, 1 después → plato de 15 por barrio (90 en total). Identidad: el tigre del logo como máscara CSS (`tigre.png`), pintado en azul/dorado.
 
 ## Voz de Jay
-Carpeta `voz/`: guía (`Guia_Voz_Jay_ElevenLabs.md`), guion de grabación (`guion_grabacion.txt`, 98 ítems) y script `generate_voz.js` (clonar, probar, generar, publicar). Los clips van a `public/audio/kr-jay/` con el mismo nombre hex; el juego tiene el interruptor Ajustes → Voz de Jay (cae a SunHi y luego al TTS si falta un clip).
+Carpeta `voz/`: guía (`Guia_Voz_Jay_ElevenLabs.md`), guion de grabación (`guion_grabacion.txt`, 98 ítems) y script `generate_voz.js` (clonar, probar, generar, publicar). Los clips van a `public/audio/kr-jay/` con el mismo nombre hex; el interruptor Ajustes → Voz de Jay se quitó de Dubu el 1 de noviembre de 2026 porque `public/audio/kr-jay/` estaba vacía y la interfaz prometía una voz que no existía: hay que volver a ponerlo (y la cadena kr-jay → kr → TTS) cuando haya clips de verdad.
 
 ## Pendientes / ideas v2
-- Generar el clip 두부 y los de sílabas que hoy caen en TTS (친 김 선 생 님 국 녕 학), idealmente ya con la voz de Jay.
+- Generar el clip 두부, idealmente ya con la voz de Jay (hoy 두부 se resuelve diciendo 두 + 부 por separado). Las sílabas que caían en TTS ya tienen clip: 김 y 국 estaban, y 친 선 생 님 녕 학 se generaron el 1 de noviembre de 2026 con SunHi −8 %.
 - Enlazar desde /recursos y la home ("Empieza gratis hoy").
 - Alinear el Lector con la fonética canónica (+fuerte / +aire; gemela = tensa sin aire).
 - Más barrios (batchim doble, ㅐ/ㅔ, palabras de Básico 2), contrarreloj de oído, tarjeta para compartir.

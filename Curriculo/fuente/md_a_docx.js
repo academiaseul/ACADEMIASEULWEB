@@ -771,33 +771,33 @@ const CURSOS = {
     prefijo: /^Básico 1 \(A1\.1\) · /,
     guia: {
       salida: "Guia_Profesor_Basico1_Octubre_2026.docx",
-      titulo: "Básico 1 (A1.1) · Guía del profesor · Cohorte octubre 2026",
-      descripcion: "Básico 1 (A1.1) · diseño del curso y guías de la profesora, semanas 1 a 8 · cohorte octubre 2026",
+      titulo: "Básico 1 (A1.1) · Guía del profesor · Noviembre–diciembre 2026",
+      descripcion: "Básico 1 (A1.1) · diseño del curso y guías de la profesora, semanas 1 a 8 · noviembre–diciembre 2026",
       portada: () => [[
         centro([r("첫 한국어 · Primeras Palabras", { bold: true, size: 30, color: AZUL })], 120, 80),
         centro([r("Básico 1 (A1.1)", { bold: true, size: 60 })], 0, 60),
         centro([r("Guía del profesor", { bold: true, size: 44, color: AZUL })], 0, 160),
-        centro([r("Cohorte octubre 2026 · Profesora: Kiran (기란)", { size: 26, color: NAVY, bold: true })], 0, 80),
-        centro([r("Sección martes y sección jueves · 20:00–20:58, hora de Chile · 8 semanas por Zoom", { size: 21, color: GREY })], 0, 60),
+        centro([r("Noviembre–diciembre 2026 · Profesora: Kiran (기란)", { size: 26, color: NAVY, bold: true })], 0, 80),
+        centro([r("Los martes · 20:00–20:58, hora de Chile · 8 clases por Zoom, del 10 de noviembre al 29 de diciembre de 2026", { size: 21, color: GREY })], 0, 60),
       ], [
         [r("Material de la profesora", { bold: true, size: 22, color: NAVY })],
         [r("Diseño del curso + guías de clase de las semanas 1 a 8: plan minuto a minuto, explicaciones desde el español, claves, rúbricas y notas.", { size: 20 })],
         [r("No se comparte con los alumnos: su material va en el Cuaderno del alumno.", { size: 20, bold: true, color: AZUL })],
       ], [
         centro([r(WEB + " · WhatsApp " + WA + " · @academiaseul", { size: 19, color: GREY })], 120, 60),
-        centro([r("Versión del 16 de octubre de 2026 (calendario corrido una semana) · compilada desde Curriculo/Fase2_Basico1 (00_Diseno_Basico1.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
+        centro([r("Versión del 1 de noviembre de 2026 (calendario de noviembre–diciembre: 8 martes, del 10 de noviembre al 29 de diciembre; ya no hay sección de los jueves) · compilada desde Curriculo/Fase2_Basico1 (00_Diseno_Basico1.md y profes/S01–S08)", { size: 16, color: GREY, italics: true })], 80, 0),
       ]],
     },
     cuaderno: {
       salida: "Cuaderno_Alumno_Basico1_Octubre_2026.docx",
-      titulo: "Básico 1 (A1.1) · Cuaderno del alumno · Cohorte octubre 2026",
-      descripcion: "Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · material del alumno, semanas 1 a 8 · cohorte octubre 2026",
+      titulo: "Básico 1 (A1.1) · Cuaderno del alumno · Noviembre–diciembre 2026",
+      descripcion: "Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · material del alumno, semanas 1 a 8 · noviembre–diciembre 2026",
       portada: () => [[
         centro([r("Básico 1 (A1.1)", { bold: true, size: 60 })], 120, 60),
         centro([r("Primeras Palabras · 첫 한국어", { bold: true, size: 36, color: AZUL })], 0, 160),
         centro([r("Cuaderno del alumno", { bold: true, size: 44, color: NAVY })], 0, 160),
-        centro([r("Cohorte octubre 2026 · con Kiran (기란) · martes o jueves 20:00, hora de Chile", { size: 22, color: GREY })], 0, 360),
-        centro([r("Nombre: ______________________________     Sección:  martes  /  jueves", { size: 22 })], 0, 60),
+        centro([r("Noviembre–diciembre 2026 · con Kiran (기란) · los martes 20:00, hora de Chile", { size: 22, color: GREY })], 0, 360),
+        centro([r("Nombre: ______________________________     Clase: los martes, 20:00 (hora de Chile)", { size: 22 })], 0, 60),
       ], [
         [r("8 semanas para leer 한글 y decir tus primeras frases reales.", { bold: true, size: 22, color: NAVY })],
         [r("Cada semana: lo que vas a poder decir, vocabulario, gramática, cómo suena, diálogo, ejercicios, tarjeta de sala, nota cultural y tarea.", { size: 20 })],

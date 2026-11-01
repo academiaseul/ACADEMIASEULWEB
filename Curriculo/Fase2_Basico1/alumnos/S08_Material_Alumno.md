@@ -1,6 +1,10 @@
 # Semana 8 · 사과를 좋아해요 + "Yo en coreano"
 ### Básico 1 (A1.1) · Primeras Palabras · 첫 한국어 · con Kiran (기란)
-**Sección martes: martes 8 de diciembre [por confirmar] · Sección jueves: jueves 10 de diciembre · 20:00 (hora de Chile) · Libro: lección 9 + lección 10 (repaso)**
+**Clase 8 · martes 29 de diciembre de 2026 · 20:00–20:58 (hora de Chile) · Libro: lección 9 + lección 10 (repaso)**
+
+*Tu calendario: **8 clases, los martes de 20:00 a 20:58 (hora de Chile)**, del **10 de noviembre** al **29 de diciembre de 2026** — 10, 17 y 24 de noviembre · 1, 8, 15, 22 y 29 de diciembre. Si alguna fecha cambia, Kiran lo avisa en el grupo.*
+
+*La clase 8 cae entre Navidad y Año Nuevo. Si algo se mueve, Kiran lo avisa en el grupo.*
 
 Llegamos, chingu. Hace 8 semanas no reconocías ni una letra, y esta semana te presentas en coreano entre 1 y 2 minutos, sin leer. De paso aprendemos a decir lo que te gusta y lo que no, sin ofender a nadie. 화이팅!
 
@@ -18,13 +22,13 @@ Llegamos, chingu. Hace 8 semanas no reconocías ni una letra, y esta semana te p
 
 ### Tu semana 8 en tres momentos
 
-| | Sección martes | Sección jueves |
-|---|---|---|
-| **1 · Examen escrito en línea** (30 min) | Desde el **dom 6 dic, 20:00** hasta el **mar 8 dic, 20:00** [por confirmar] | Desde el **mar 8 dic, 20:00** hasta el **jue 10 dic, 20:00** |
-| **2 · Clase 8** | mar 8 dic, 20:00 (hora de Chile) [por confirmar] | jue 10 dic, 20:00 (hora de Chile) |
-| **3 · Tarea final** (≈ 20 min) | Después de la clase, antes del ______ | Después de la clase, antes del ______ |
-| Comentario escrito de Kiran sobre tu presentación | En los 2 días siguientes a tu clase | En los 2 días siguientes a tu clase |
-| Certificado | Semana del 14 de diciembre | Semana del 14 de diciembre |
+| | Cuándo |
+|---|---|
+| **1 · Examen escrito en línea** (30 min) | Desde el **dom 27 dic, 20:00** hasta el **mar 29 dic, 20:00** |
+| **2 · Clase 8** | **mar 29 dic, 20:00** (hora de Chile) |
+| **3 · Tarea final** (≈ 20 min) | Después de la clase, antes del ______ |
+| Comentario escrito de Kiran sobre tu presentación | En los 2 días siguientes a la clase |
+| Certificado | Semana del 11 de enero de 2027 (Kiran y Jay lo confirman en el grupo) |
 
 *(Kiran confirma en el grupo la fecha de la tarea final.)*
 
@@ -348,7 +352,7 @@ Piensa desde ya en **una frase que no sabías decir hace 8 semanas**. Todos vamo
 
 En Corea, para **추석**, la fiesta de la cosecha (septiembre u octubre, según el calendario lunar), y para **설날**, el Año Nuevo lunar (enero o febrero; el próximo es el **domingo 7 de febrero de 2027**), un regalo clásico es **una caja de 사과 o de 배**: manzanas o peras coreanas, grandes y jugosas, con cada fruta envuelta una por una. Se lleva al visitar a la familia o para agradecer a alguien. Hoy también se regalan otros sets (de carne, de aceite, ¡hasta de Spam!), pero la caja de fruta sigue siendo un clásico.
 
-**¿Y por acá?** Estamos en diciembre, en plena temporada de regalos: la canasta navideña (en Colombia, la ancheta), el pan de pascua en Chile o el pan dulce en Argentina. Y 추석 se parece a Navidad o, en Chile, a Fiestas Patrias: la fiesta en que todos vuelven a ver a la familia.
+**¿Y por acá?** Estamos entre Navidad y Año Nuevo, en plena temporada de regalos: la canasta navideña (en Colombia, la ancheta), el pan de pascua en Chile o el pan dulce en Argentina. Y 추석 se parece a Navidad o, en Chile, a Fiestas Patrias: la fiesta en que todos vuelven a ver a la familia.
 
 **Dilo en coreano:** si alguien te regala una caja así, ya puedes decir **사과를 좋아해요!** o **배를 정말 좋아해요!** y, por supuesto, **감사합니다!**
 
@@ -362,7 +366,7 @@ En Corea, para **추석**, la fiesta de la cosecha (septiembre u octubre, según
 
 ### Antes de la clase
 1. **Ejercicios 1 a 7 de esta hoja** (≈ 20 min), antes de rendir el examen: son tu mejor repaso. No se entregan; si te queda una duda, pregúntale a Kiran en el grupo.
-2. **Examen escrito en línea** (30 min), en la ventana de tu sección (arriba, "Tu semana 8").
+2. **Examen escrito en línea** (30 min), dentro de la ventana (arriba, "Tu semana 8": del dom 27 al mar 29 de diciembre).
 3. **Ensaya tu presentación** (≈ 10 min) con el guion que te devolvió Kiran: dila **3 veces en voz alta**, con cronómetro (apunta a un minuto y medio), y **grábate una vez sin mirar** el papel. No la memorices palabra por palabra: apréndete las ideas en orden.
 4. **Repaso (opcional, ≈ 5 min):** Lector de Hangul ([academiaseul.com/lector-coreano](https://www.academiaseul.com/lector-coreano)) → **Practicar** → **Pictogramas**, 3 rondas seguidas (el Lector elige el grupo solo: si te toca "comida y objetos" o "todo", ahí están 사과, 바나나 y 라면) y **Palabras**, 3 rondas seguidas. Di cada palabra en voz alta **antes** de mirar las opciones.
 

@@ -1,12 +1,15 @@
 # Básico 1 (A1.1) · Semana 5 · 집이 어디예요? · Lugares
-### Guía de la profesora · Kiran (기란) · martes 17 y jueves 19 de noviembre de 2026 · 20:00–20:58 (hora de Chile)
+### Guía de la profesora · Kiran (기란) · martes 8 de diciembre de 2026 · 20:00–20:58 (hora de Chile)
 
-**MATERIAL DE LA PROFESORA · no se comparte con alumnos** · Lección 5 del libro *한글학교 한국어 1* · versión 1.2 (revisión lingüística + revisión pedagógica) · 26 de septiembre de 2026
+> **Calendario de este curso (corrido el 1 nov 2026):** 8 clases, **los martes 20:00–20:58 (hora de Chile)**, del **mar 10 de noviembre** al **mar 29 de diciembre** de 2026. S1 10 nov · S2 17 nov · S3 24 nov · S4 1 dic · S5 8 dic · S6 15 dic · S7 22 dic · S8 29 dic. **Ya no hay sección de los jueves: hay un solo grupo semanal.** Esta guía es la clase 5 (**mar 8 de diciembre de 2026 — ¡ojo, feriado en Chile!**).
+> **[POR CONFIRMAR con Jay: el martes 8 de diciembre (clase 5) es feriado en Chile (Inmaculada Concepción), y las clases 7 y 8 caen el 22 y el 29 de diciembre, entre fiestas. El calendario queda igual hasta que Jay decida.]**
+
+**MATERIAL DE LA PROFESORA · no se comparte con alumnos** · Lección 5 del libro *한글학교 한국어 1* · versión 1.3 (corrida al calendario de noviembre–diciembre; una sola clase semanal) · 1 de noviembre de 2026 · base: v1.2 (revisión lingüística + revisión pedagógica) del 26 de septiembre de 2026
 
 Fuente única: `../00_Diseno_Basico1.md` (B.6 para esta semana, C para el vocabulario, D para la romanización, E para la evaluación). Manda el syllabus publicado (`Programa_Completo_Octubre_2026/fuente/cursos_es.json`, curso `a11`, semana 5). El material del alumno de esta semana está en `../alumnos/S05_Material_Alumno.md` (sin respuestas). Las claves están aquí, en la sección C.13.
 
 > **Cómo leer esta guía**
-> - **[YA]** = mejora de la Fase 1 que se aplica en octubre sin cambiar nada publicado. **⚑** = coreano o dato que valida un nativo (Kiran, Abby o Jay) antes de usarlo. **[regla del certificado: pendiente de decisión de Jay]** = donde el kit y la ficha publicada no coinciden (diseño, E.7).
+> - **[YA]** = mejora de la Fase 1 que se aplica en este curso sin cambiar nada publicado. **⚑** = coreano o dato que valida un nativo (Kiran, Abby o Jay) antes de usarlo. **[regla del certificado: pendiente de decisión de Jay]** = donde el kit y la ficha publicada no coinciden (diseño, E.7).
 > - Todo el coreano de esta guía usa solo lo enseñado hasta la S5 (lista C del diseño). Lo que va más allá está marcado como **fórmula** (se imita sin explicar) o como **lo dice Kiran, no se pide** (input para reconocer).
 > - El libro se cita por lección. **Ningún diálogo, texto ni ejercicio de esta guía sale del libro:** todo es original.
 > - ***(ampliación 21 oct 2026)*** = lo que se agregó para las 4 posiciones extra que pidió Jay (밖 · 사이 · 오른쪽 · 왼쪽; láminas 9b, 9c, 9d y 13b del deck). Son ampliación: no cambian las metas de la clase (lámina 4) y no entran en el Quiz 5 ni en la hoja de la lección 5. 하고 aparece solo dentro de la fórmula ___하고 ___ 사이에 (no se enseña como partícula).
@@ -17,17 +20,16 @@ Fuente única: `../00_Diseno_Basico1.md` (B.6 para esta semana, C para el vocabu
 
 | | |
 |---|---|
-| Sección martes | mar 17 nov · 20:00–20:58 |
-| Sección jueves | jue 19 nov · 20:00–20:58 |
+| Fecha | **mar 8 dic 2026** · 20:00–20:58 · **[POR CONFIRMAR con Jay: el 8 de diciembre es feriado en Chile (Inmaculada Concepción)]** |
 | Lección del libro | Lección 5 (집이 어디예요?) |
-| Viene de la S4 | 우리 N · números sino-coreanos 1–100 + 공 · nativos 1–5 con 명 · 누구예요? · mitad del curso (comentario de 3 líneas a cada alumno, propuesto para el dom 15 nov) |
+| Viene de la S4 | 우리 N · números sino-coreanos 1–100 + 공 · nativos 1–5 con 명 · 누구예요? · mitad del curso (comentario de 3 líneas a cada alumno, propuesto para el dom 6 dic) |
 | Va a la S6 | -아요/어요 · N에 가요/와요: el 에 de hoy (dónde **está** algo) vuelve la semana próxima como destino (a dónde **vas**) |
 | Estructuras nuevas | **3:** N에 있어요/없어요 · posiciones + 에 · 이/가 con 있어요/없어요. Léxico, no estructura: 어디예요? y 여기/거기/저기 |
 | Romanización | **Nivel 3: ninguna** en deck, hoja, quiz ni tarea. Notación en Hangul entre corchetes solo cuando hay regla de sonido: 있어요 [이써요] |
 | Frases clave (coro de cierre, se recortan como audio) | 화장실이 어디예요? · 저기 있어요. · 책이 책상 위에 있어요. |
 | Minuto libre [YA] | 집이 어디예요? + una de la S4: 누구예요? |
 | Quiz que abre la clase | Quiz 4 (sobre la S4) |
-| Grabación | Desde el minuto 0 · `Basico1-Martes_S05_2026-11-17` · `Basico1-Jueves_S05_2026-11-19` |
+| Grabación | Desde el minuto 0 · `Basico1-Martes_S05_2026-12-08` |
 
 **Después de esta clase puedo decir…**
 
@@ -89,7 +91,7 @@ La estructura publicada (quiz · lección · práctica controlada · pares · ci
 | 55–56 | 20:55–20:56 | **3 frases clave en coro** | Dice cada frase sola y clara (para el recorte del clip); después el grupo repite | Repiten con micrófono abierto | Lám. 19 | Guion B.12 |
 | 56–58 | 20:56–20:58 | Tarea y despedida | Muestra la tarea y avisa que el mensaje llega al grupo. 안녕히 가세요! 화이팅! | 감사합니다! 안녕히 계세요! | Lám. 20–21 · detener la grabación a las 20:58 | Mensaje post-clase (C.15.3) |
 
-**Suma de control:** 1 + 4 + 3 + 3 + 2 + 3 + 4 + 2 + 3 + 3 + 3 + 2 + 19 + 1 + 2 + 1 + 2 = **58 minutos** (20:00 → 20:58). A las 21:00 empieza otra clase en la misma cuenta de Zoom: **a las 20:58 se corta, vaya donde vaya la clase** (lo que no alcanzó va al mensaje post-clase).
+**Suma de control:** 1 + 4 + 3 + 3 + 2 + 3 + 4 + 2 + 3 + 3 + 3 + 2 + 19 + 1 + 2 + 1 + 2 = **58 minutos** (20:00 → 20:58). **A las 20:58 se corta, vaya donde vaya la clase** (lo que no alcanzó va al mensaje post-clase). **[POR CONFIRMAR con Jay: en este calendario el martes a las 21:00 ya no entra otra clase en la cuenta de Zoom.]**
 
 **Con la ampliación de posiciones, de 20:16 a 20:31** *(ampliación 21 oct 2026)*. Las láminas 9b, 9c, 9d y 13b suman ≈ 5,5 minutos. Salen de C.12, pasos 1–3, aplicados de antemano: relámpago solo con la 14a, cultura en 1 minuto y lectura en 1 minuto. Estas filas reemplazan las de 20:16 a 20:31 de la tabla de arriba; lo demás no cambia y **los 19 minutos de salas no se tocan**.
 
@@ -118,14 +120,14 @@ Que cada alumno salga de la clase **preguntando y diciendo dónde está algo** c
 
 ### C.2 Checklist de preparación
 
-**Domingo 15 o lunes 16 (martes) · martes 17 (jueves)**
+**Domingo 6 o lunes 7 de diciembre**
 - [ ] Revisar el deck S5 (guion en C.16) y esta guía. Si falta una lámina o un dibujo, avisar a Jay ese mismo día.
-- [ ] Releer los comentarios de mitad de curso que mandaste el domingo 15 (propuesta): anotar quién tiene de foco 받침, ㅓ/ㅗ o las partículas, para llamarlo en la práctica controlada.
+- [ ] Releer los comentarios de mitad de curso que mandaste el domingo 6 (propuesta): anotar quién tiene de foco 받침, ㅓ/ㅗ o las partículas, para llamarlo en la práctica controlada.
 - [ ] Armar las parejas de salas con la hoja del curso: un lector rápido con uno lento (resultados del quiz 3 y de la mitad de curso). Con 15 alumnos: 6 parejas + 1 trío. Dejar las salas preasignadas en Zoom si la cuenta lo permite.
-- [ ] Si alguien todavía no lee 받침 (lo dice el chequeo de mitad de curso): ofrecerle 10 minutos antes de la clase (19:50–20:00), nunca después (a las 21:00 empieza otra clase en la misma cuenta), y recomendarle el taller en video (`/taller`) como repaso.
+- [ ] Si alguien todavía no lee 받침 (lo dice el chequeo de mitad de curso): ofrecerle 10 minutos antes de la clase (19:50–20:00) y recomendarle el taller en video (`/taller`) como repaso. **[POR CONFIRMAR con Jay: en este calendario el martes a las 21:00 ya no entra otra clase en la cuenta; si queda libre, también podrían ir después de las 20:58.]**
 - [ ] Verificar que las flashcards de lugares estén en la carpeta del curso (diseño G.2) y que el material del alumno de la S5 (con el Plano A/B y la hoja) esté en el grupo o en la carpeta **antes** de la clase: los alumnos lo necesitan en las salas.
 
-**El día antes** (lun 16 para el martes · mié 18 para el jueves)
+**El día antes** (lun 7 de diciembre)
 - [ ] Publicar el recordatorio en el grupo (texto en C.15.1): papel y lápiz, 3 o 4 cosas sobre la mesa y el nombre de su ciudad + 3 lugares cerca de su casa (lo anotaron como preparación en la S4).
 - [ ] Probar Zoom: salas habilitadas, grabación en la nube, **anotación con sellos** activa para el mapa (Configuración → En reunión → Anotación).
 
@@ -586,7 +588,7 @@ En el ejercicio 8 se escribe la frase entera: ① 고양이가 책상 오른쪽�
 
 ### C.14 Corrección de la tarea y registro
 
-**Qué miras en las 3 entregas** (antes del mar 24 / jue 26 nov, 20:00):
+**Qué miras en las 3 entregas** (antes del mar 15 dic, 20:00):
 - **Captura de Progreso:** estrellas en Pictogramas y Palabras. No se exige un número de estrellas: se pide haber hecho 3 rondas seguidas de cada uno.
 - **Hoja de la lección 5:** Parte A (6 posiciones) y Parte B (이/가 + posición + 에 + 있어요/없어요). Si falla 이/가, la pregunta de siempre: "¿termina en 받침?".
 - **Foto + 5 frases:** que cada frase corresponda a la foto; 이/가; 에; verbo al final; 띄어쓰기 (책상 위에 con espacio; 책이 con la partícula pegada).
@@ -596,12 +598,12 @@ En el ejercicio 8 se escribe la frase entera: ① 고양이가 책상 오른쪽�
 
 **Mensaje a Jay al terminar** (kit): "todo bien / faltó X / grupo lento en Y".
 
-**Subir a la carpeta del curso** (dentro de 24 h): grabación + PDF del deck `Basico1_S05_2026-11-17_Lugares.pdf` (y `…2026-11-19…` para el jueves) + la tarea.
+**Subir a la carpeta del curso** (dentro de 24 h): grabación + PDF del deck `Basico1_S05_2026-12-08_Lugares.pdf` + la tarea.
 
 ### C.15 Mensajes para el grupo (listos para copiar)
 
-**C.15.1 Recordatorio del día antes** (lun 16 para el martes · mié 18 para el jueves)
-> ¡Hola, chingus! Mañana [martes 17 / jueves 19] a las 20:00 (Chile) · [hora de un país del grupo] tenemos la clase 5: **집이 어디예요?**
+**C.15.1 Recordatorio del día antes** (lun 7 de diciembre)
+> ¡Hola, chingus! Mañana **martes 8 de diciembre** a las 20:00 (Chile) · [hora de un país del grupo] tenemos la clase 5: **집이 어디예요?**
 > Tengan a mano:
 > • papel y lápiz para dibujar,
 > • su escritorio (o una mesa) con 3 o 4 cosas encima,
@@ -616,13 +618,13 @@ En el ejercicio 8 se escribe la frase entera: ① 고양이가 책상 오른쪽�
 **C.15.3 Mensaje post-clase** (plantilla del kit, completada)
 > ¡Gracias por la clase de hoy, chingus!
 > Grabación: [link]
-> Tarea para antes del [martes 24 / jueves 26] de noviembre, 20:00 (hora Chile), unos 25 minutos:
+> Tarea para antes del **martes 15 de diciembre**, 20:00 (hora Chile), unos 25 minutos:
 > 1) **Lector de Hangul → Practicar → Pictogramas: 3 rondas seguidas. Después Palabras: 3 rondas seguidas** (el modo cambia solo; una de las rondas es la Inversa). Di cada palabra en voz alta ANTES de mirar las opciones. Mándenme la captura de Progreso.
 > 2) **Hoja de la lección 5:** etiquetar el dibujo con 위/아래/앞/뒤/옆/안 y completar 8 frases con 에 있어요 (foto aquí en el grupo).
 > 3) **Foto de tu escritorio o de tu pieza + 5 frases tipeadas en 한글** que digan dónde está cada cosa (책이 책상 위에 있어요). Puedes usar 오른쪽, 왼쪽, 사이 y 밖. Puede ser cualquier mesa: no tienes que mostrar tu casa.
 > Para la clase 6: anota en español 5 cosas que haces todos los días.
 > ¿Faltaste? Mira la grabación, haz la tarea y, si quieres, mándame un audio de 60 segundos respondiendo 집이 어디예요? y 지하철역이 어디예요?
-> ¡Nos vemos el [martes/jueves] a las 20:00! 화이팅
+> ¡Nos vemos el martes 15 a las 20:00! 화이팅
 
 *(La línea "¿Faltaste?" es la recomendación [YA] de la Fase 1 §16.1: el audio es opcional y no condiciona la asistencia.)*
 *(ampliación 21 oct 2026: "Puedes usar 오른쪽, 왼쪽, 사이 y 밖", en el punto 3, calza con la lámina 20. Es opcional.)*
@@ -644,7 +646,7 @@ En el ejercicio 8 se escribe la frase entera: ① 고양이가 책상 오른쪽�
 
 | # | Título | En pantalla | Nota para Kiran | Fuente |
 |---|---|---|---|---|
-| 1 | Semana 5 · 집이 어디예요? · Lugares | Lección 5 del libro · Básico 1 (A1.1) · Kiran (기란) · mar 17 / jue 19 nov | Graba desde aquí | Sesion_06 lám. 1 (adaptada) |
+| 1 | Semana 5 · 집이 어디예요? · Lugares | Lección 5 del libro · Básico 1 (A1.1) · Kiran (기란) · mar 8 dic | Graba desde aquí | Sesion_06 lám. 1 (adaptada) |
 | 2 | Quiz 4 | 1–3: "Escucha y escribe el número" (casilleros vacíos) · 4: dibujo de 4 personas + 우리 가족은 ___ 명이에요. a) 사 b) 네 c) 넷 · 5: "Daniel (hombre) presenta a su hermana mayor: 우리 ___예요. a) 언니 b) 누나" · "Respuestas: chat privado a Kiran" | Dictados en C.3 paso 2 | Nueva |
 | 3 | 집이 어디예요? | Mapa D1 · burbujas: 산티아고예요. · 서울이에요. · "¿Termina en 받침? → 이에요 / 예요" | Sellos de anotación | Nueva |
 | 4 | Hoy vas a poder decir | Las 5 frases de la sección 0, con español | 20 s | Nueva |
@@ -702,12 +704,12 @@ En el ejercicio 8 se escribe la frase entera: ① 고양이가 책상 오른쪽�
 
 ---
 
-## E. Anexo "Enero 2027" (NO se aplica en octubre: cambiaría lo publicado)
+## E. Anexo "Enero 2027" (NO se aplica en este curso: cambiaría lo publicado)
 
 | Cambio | Fuente | Por qué no ahora |
 |---|---|---|
 | S5 = lecciones 5 + 7: "está en" y "hay" (N에 N이/가 있어요) juntos; la S7 deja de repetir 있어요 | Fase 1 §4.4 · diseño I.5 | Cambia las lecciones por semana publicadas |
-| Lectura de supervivencia en A1: 입구/출구, 화장실, un menú de café con préstamos | Fase 1 §7.3 · diseño I.13 | Contenido nuevo (en octubre solo se leen 화장실 y 3번 출구, que ya son vocabulario de la semana) |
+| Lectura de supervivencia en A1: 입구/출구, 화장실, un menú de café con préstamos | Fase 1 §7.3 · diseño I.13 | Contenido nuevo (en este curso solo se leen 화장실 y 3번 출구, que ya son vocabulario de la semana) |
 | Lector con elección de modo y de grupo y un modo sin romanización; "Mis palabras de la semana" (los lugares de la S5) | Fase 1 §7.4 · diseño I.18 | Cambia código |
 | Audio nativo para todo el vocabulario (hoy 7 de las 23 entradas de la S5) | Fase 1 §5.4 · diseño I.19 | Producción larga |
 

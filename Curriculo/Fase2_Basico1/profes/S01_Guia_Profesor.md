@@ -1,10 +1,13 @@
 # Básico 1 (A1.1) · Semana 1 · 가나다라 I · La sílaba
-### Guía de la profesora · Kiran (기란) · martes 20 y jueves 22 de octubre de 2026 · 20:00–20:58 (hora de Chile)
+### Guía de la profesora · Kiran (기란) · martes 10 de noviembre de 2026 · 20:00–20:58 (hora de Chile)
+
+> **Calendario de este curso (corrido el 1 nov 2026):** 8 clases, **los martes 20:00–20:58 (hora de Chile)**, del **mar 10 de noviembre** al **mar 29 de diciembre** de 2026. S1 10 nov · S2 17 nov · S3 24 nov · S4 1 dic · S5 8 dic · S6 15 dic · S7 22 dic · S8 29 dic. **Ya no hay sección de los jueves: hay un solo grupo semanal.** Esta guía es la clase 1 (**mar 10 de noviembre de 2026**).
+> **[POR CONFIRMAR con Jay: el martes 8 de diciembre (clase 5) es feriado en Chile (Inmaculada Concepción), y las clases 7 y 8 caen el 22 y el 29 de diciembre, entre fiestas. El calendario queda igual hasta que Jay decida.]**
 
 **MATERIAL DE LA PROFESORA · solo para Kiran · no se comparte con alumnos.** El material del alumno, sin respuestas ni notas internas, está en `../alumnos/S01_Material_Alumno.md`.
-Versión 1.2 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 2), revisada por coordinación pedagógica y en el control final de continuidad.
+Versión 1.3 · domingo 1 de noviembre de 2026 (corrida al calendario de noviembre–diciembre; una sola clase semanal, los martes) · base: v1.2 del sábado 26 de septiembre de 2026 · Dirección Académica (Fase 2), revisada por coordinación pedagógica y en el control final de continuidad.
 
-> **Fuentes (manda lo publicado):** `../00_Diseno_Basico1.md` (B.1, B.2, B.10–B.12, C, D, E.3, G) · syllabus publicado `a11 · S1` en `Programa_Completo_Octubre_2026/fuente/cursos_es.json` · programa público `Curriculo/publico/Programa_Basico1_A1-1.md` · Kit de Kiran v1.1 (`Lanzamiento_Octubre_2026/profes/Kit_Kiran_Basico1_ES.pdf`) · Fase 1 (§7.4 romanización, §8.3 teclado, §10.5–10.6 matices y calendario) · Lector y Dubu revisados en su código (`public/lector-coreano/index.html`, `public/dubu/index.html`).
+> **Fuentes (manda lo publicado):** `../00_Diseno_Basico1.md` (B.1, B.2, B.10–B.12, C, D, E.3, G) · syllabus publicado `a11 · S1` en `Programa_Completo_Octubre_2026/fuente/cursos_es.json` · programa público `Curriculo/publico/Programa_Basico1_A1-1.md` · Kit de Kiran v1.3 (`Lanzamiento_Octubre_2026/profes/Kit_Kiran_Basico1_ES.pdf`) · Fase 1 (§7.4 romanización, §8.3 teclado, §10.5–10.6 matices y calendario) · Lector y Dubu revisados en su código (`public/lector-coreano/index.html`, `public/dubu/index.html`).
 > **Marcas:** **⚑** = validar con nativo o probar antes de usar · **[YA]** = mejora de la Fase 1 aplicada dentro de lo publicado · **DECISIÓN DE JAY** = política o texto público · **[regla del certificado: pendiente de decisión de Jay]**.
 > **Libro 한글학교 한국어 1:** se cita por sección ("가나다라 I del libro"). Nada de esta guía copia sus láminas, textos ni ejercicios: los ejemplos, el diálogo y los ejercicios son originales.
 
@@ -42,7 +45,7 @@ Versión 1.2 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 
 
 | | |
 |---|---|
-| **Fecha** | Sección martes: **mar 20 oct** · Sección jueves: **jue 22 oct** · 20:00–20:58, hora de Chile (UTC−3) |
+| **Fecha** | **mar 10 nov 2026** · 20:00–20:58, hora de Chile (UTC−3). Una sola clase semanal, los martes |
 | **Lección del libro** | 가나다라 I (Hangul, parte 1) del libro 한글학교 한국어 1: vocales y consonantes simples y sus láminas de palabras (⚑ números de página: confírmalos con tu ejemplar; esta guía no los cita). El libro es tu referencia de secuencia; en clase se usa el deck y la tarjeta de sala |
 | **Romanización** | Nivel 1 (sección D del diseño): coreano + romanización gris y pequeña **debajo**, que aparece **después** de oír el sonido + español. Solo en letras y palabras sueltas |
 
@@ -54,7 +57,7 @@ Versión 1.2 · sábado 26 de septiembre de 2026 · Dirección Académica (Fase 
 | 4 | **Vocabulario** (18) | **Núcleo (12, se evalúan):** 나 (na) yo, entre amigos · 너 (neo) tú, entre amigos · 아이 (ai) niño, niña · 우유 (uyu) leche · 오이 (oi) pepino · 나무 (namu) árbol · 바다 (bada) mar · 모자 (moja) sombrero, gorro · 머리 (meori) cabeza; pelo · 구두 (gudu) zapatos de vestir · 어머니 (eomeoni) madre · 아버지 (abeoji) padre. **Del tema, comandos y fórmulas (6):** 고기 (gogi) carne [T] · 따라 하세요 (ttara haseyo) repitan [C] · 읽으세요 (ilgeuseyo) lean [C] · 다시 한번 (dasi hanbeon) otra vez [C] · 잘했어요 (jalhaesseoyo) ¡muy bien! [C] · 화이팅! (hwaiting) ¡ánimo! [F] |
 | 5 | **Expresiones coreanas** | Rutina que se imita: **안녕하세요** · **감사합니다** · Comandos que se reconocen de oído: 따라 하세요 · 읽으세요 · 다시 한번 · 잘했어요 · Frases clave del coro de cierre: **아, 어, 오, 우, 으, 이 / 나무 · 바다 · 우유 / 어머니 · 아버지** |
 | 6 | **Pronunciación** | ㅓ (boca abierta y relajada) vs ㅗ (labios redondos): 어머니 / 오이 · ㅡ (sonríe y di u) vs ㅜ (u de uva) · ㅇ muda al inicio (아이, 우유) · ㄹ entre vocales = r suave de "pero" (머리) · ㅈ nunca es jota (아버지) · ㄱ ㄷ ㅂ iniciales suaves, con poco aire (구두, 바다) · ㅋ ㅌ ㅍ ㅊ con mucho soplo (prueba de la mano) · ㅅ + ㅣ suena casi "sh" (시). **Se corrige 1:1 con cámara: ㅓ/ㅗ y ㅡ/ㅜ.** 감사합니다 se imita como palabra entera [감사함니다], sin explicar la regla |
-| 7 | **Cultura** | Capa tradicional + contemporánea. El rey Sejong creó el 한글 en 1443 y lo publicó en 1446 (훈민정음, "los sonidos correctos para enseñar al pueblo"); las consonantes dibujan la boca (ㄴ = lengua tocando detrás de los dientes, ㅁ = labios cerrados): **los alumnos lo comprueban con su propia boca**. Gancho de calendario [YA]: "este mes, el 9 de octubre, Corea (del Sur) celebró 한글날, el día del alfabeto". Puente: igual que aprendimos a leer con un silabario (Silabario Hispanoamericano en Chile, Coquito en Perú), el 한글 se lee por sílabas. Frase ancla: **가나다라마바사 · 아자차카타파하** (el canto de las consonantes) |
+| 7 | **Cultura** | Capa tradicional + contemporánea. El rey Sejong creó el 한글 en 1443 y lo publicó en 1446 (훈민정음, "los sonidos correctos para enseñar al pueblo"); las consonantes dibujan la boca (ㄴ = lengua tocando detrás de los dientes, ㅁ = labios cerrados): **los alumnos lo comprueban con su propia boca**. Gancho de calendario [YA]: "el mes pasado, el 9 de octubre, Corea (del Sur) celebró 한글날, el día del alfabeto". Puente: igual que aprendimos a leer con un silabario (Silabario Hispanoamericano en Chile, Coquito en Perú), el 한글 se lee por sílabas. Frase ancla: **가나다라마바사 · 아자차카타파하** (el canto de las consonantes) |
 | 8 | **Tarea de speaking** (en clase) | Cada alumno habla ≥ 3 veces: 안녕하세요 al entrar · un turno 1:1 de pronunciación (15 alumnos repartidos en 3 bloques) · una palabra en la lectura relámpago · 18 minutos de sala leyendo en voz alta (≈ 8–9 min de habla por persona) · coro final |
 | 9 | **Tarea de listening** | Pares mínimos con dedos a la cámara (어/오, 으/우) · fábrica de oído en sala (Lista A / Lista B) · comandos de clase reconocidos de oído · ¿아이 u 오이? |
 | 10 | **Tarea de reading** | Sílabas del canto 가나다라… · lectura relámpago de las 12 palabras con dibujo (grupo) y sin ayuda, cronometrada (sala) · leer la sílaba que arma el compañero |
@@ -93,16 +96,16 @@ Que cada alumno salga **leyendo en voz alta** sílabas consonante + vocal y las 
 
 ### C.2 Checklist de preparación
 
-**Antes del vie 16 oct (plazo del kit)**
+**Antes del vie 6 nov (plazo del kit)**
 - [ ] Leer esta guía y el material del alumno; revisar el deck S1 con el guion de C.17. Avisar a Jay si falta algo (el deck, la tarjeta de sala y la hoja los produce el equipo: **tú no produces material**).
 - [ ] Revisar la **tabla de nombres** (material del alumno, 3.5) ⚑ y los ⚑ de D.
 - [ ] Probar la **guía de teclado** del material del alumno en tu celular y en tu computador (P0 del diseño: se prueba antes de enviarla).
 
-**Lun 19 oct (recibes la lista)**
-- [ ] Mirar los nombres de cada sección: ¿alguno no está en la tabla de nombres o tiene ll, ñ, x, y? Anótalo para resolverlo en el chat cuando lo tipeen.
-- [ ] Saludar en cada grupo de WhatsApp con la hora de la clase (Chile + un país del grupo).
+**Lun 9 nov (recibes la lista; la matrícula cierra ese día a las 23:59)**
+- [ ] Mirar los nombres del grupo: ¿alguno no está en la tabla de nombres o tiene ll, ñ, x, y? Anótalo para resolverlo en el chat cuando lo tipeen.
+- [ ] Saludar en el grupo de WhatsApp con la hora de la clase (Chile + un país del grupo).
 
-**El día anterior** (lun 19 para la sección martes · mié 21 para la sección jueves)
+**El día anterior** (lun 9 nov)
 - [ ] Confirmar la clase en el grupo ("mañana 20:00 Chile · 18:00 Colombia").
 - [ ] Probar Zoom: salas para grupos habilitadas y grabación en la nube activada.
 
@@ -113,14 +116,14 @@ Que cada alumno salga **leyendo en voz alta** sílabas consonante + vocal y las 
 - [ ] Link de la **tarjeta de sala** copiado, listo para pegar en el chat a las 20:32.
 - [ ] Documento de notas abierto para anotar errores en las salas.
 - [ ] Cronómetro visible (celular o reloj).
-- [ ] Nombre de la grabación: `Basico1-Martes_S01_2026-10-20` / `Basico1-Jueves_S01_2026-10-22`.
+- [ ] Nombre de la grabación: `Basico1-Martes_S01_2026-11-10`.
 
 **Después de la clase (dentro de 24 h, kit §6)**
-- [ ] Subir grabación + PDF de la clase + tarea a la carpeta del curso (`Basico1-Martes_S01_2026-10-20_Ganadara-I.pdf`, según la convención `Curso_S01_Fecha_Tema`).
+- [ ] Subir grabación + PDF de la clase + tarea a la carpeta del curso (`Basico1-Martes_S01_2026-11-10_Ganadara-I.pdf`, según la convención `Curso_S01_Fecha_Tema`).
 - [ ] Marcar asistencia y turnos en la hoja del curso (columnas en C.14).
 - [ ] Publicar en el grupo el mensaje de C.15 (grabación + tarea con fecha).
-- [ ] Mandarle a Jay una línea: "todo bien / faltó X / grupo lento en Y". Si algo del timing no cupo el martes, dilo: la sección jueves se ajusta con eso.
-- [ ] Check-in de la semana 1 con Jay: **vie 23 oct**.
+- [ ] Mandarle a Jay una línea: "todo bien / faltó X / grupo lento en Y". Si algo del timing no cupo, dilo: se ajusta en la clase 2.
+- [ ] Check-in de la semana 1 con Jay: **vie 13 nov**.
 - [ ] Durante la semana: escuchar los audios base y marcar el diagnóstico (C.14). Responder cada audio con un audio tuyo de ~15 s o por texto: **máximo 3 puntos, uno positivo primero**.
 
 ### C.3 Secuencia exacta de enseñanza (lo que dices)
@@ -141,7 +144,7 @@ Que cada alumno salga **leyendo en voz alta** sílabas consonante + vocal y las 
   - **잘했어요** (pulgar arriba) → "¡muy bien!"
   «No hay que memorizarlas: de tanto oírlas, las vas a reconocer.» *(La romanización gris aparece después de que los dijiste.)*
 - **L4 · Sejong (ES):** «Este alfabeto tiene autor. El rey Sejong, **세종**, lo creó en 1443 y lo publicó en 1446 en un libro llamado **훈민정음**: "los sonidos correctos para enseñar al pueblo". Antes, para escribir había que saber caracteres chinos, y eso era para pocos. Sejong quería que cualquiera pudiera leer. El libro lo promete así: una persona sabia lo aprende en una mañana; incluso quien no lo es, en diez días. Nosotros tenemos ocho semanas: vamos sobrados.» *(Si alguien pregunta: la frase de la mañana y los diez días está en el epílogo del libro, escrito por el sabio Jeong In-ji, 정인지.)*
-- **L5 · 한글날 (ES):** «Y llegaron en buen momento: este mes, el 9 de octubre, Corea del Sur celebró **한글날**, el día del alfabeto. Es feriado nacional.» *(Si preguntan: dejó de ser feriado en 1991 y volvió a serlo en 2013; en Corea del Norte el día del alfabeto es el 15 de enero.)*
+- **L5 · 한글날 (ES):** «Y llegaron en buen momento: el mes pasado, el 9 de octubre, Corea del Sur celebró **한글날**, el día del alfabeto. Es feriado nacional.» *(Si preguntan: dejó de ser feriado en 1991 y volvió a serlo en 2013; en Corea del Norte el día del alfabeto es el 15 de enero.)*
 - **L6 · Puente (ES):** «Varios escribieron Silabario, Coquito… (nombra lo que salió en el chat). Con esos libros aprendimos "ma, me, mi, mo, mu": por sílabas. El coreano se lee exactamente así. La única diferencia: cada sílaba va dentro de un cuadrado.» **(KO)** «따라 하세요: **한글!**» → grupo: «한글!»
 
 #### Bloque 3 · 20:07–20:15 · Vocales · L7–L13
@@ -223,7 +226,7 @@ Que cada alumno salga **leyendo en voz alta** sílabas consonante + vocal y las 
 - **L25 · Tarea (1 min 30 s).** Compartes 20 s el Lector (Practicar → chips Vocales y Consonantes; pestaña Progreso). «Unos 30 minutos, antes de la clase 2. Uno: el Lector, 10 minutos, y me mandas la captura de Progreso. Dos: la hoja 가나다라 I, con tu nombre en 한글, y tu nombre tipeado en el grupo. Tres: un audio de 30 segundos con las 6 vocales y las 12 palabras. Ese es tu **audio base**: en la semana 8 lo comparamos con tu audio final, así que guárdalo. Todo va en el mensaje del grupo esta noche. Y la clase 2 empieza con un quiz de 5 preguntas en el chat sobre lo de hoy: instala el teclado.»
 - **L26 · La línea gris (15 s).** «La línea gris es un puente: semanas 1 y 2, sí; 3 y 4, solo si la pides; desde la 5, solo 한글. En tu hoja está el porqué.»
 - **L27 · Cierre (15 s).** **(KO)** «잘했어요! 화이팅!» Luego, con leve inclinación: «**감사합니다!**» → el grupo lo imita: «감사합니다!»
-- **20:58 en punto:** "Finalizar reunión para todos" (a las 21:00 empieza otra clase en la misma cuenta).
+- **20:58 en punto:** "Finalizar reunión para todos" (la clase termina a las 20:58: es el horario publicado). **[POR CONFIRMAR con Jay: en este calendario, el martes a las 21:00 ya no entra otra clase en la cuenta de Zoom.]**
 
 ### C.4 Cada estructura en 4 pasos (R → C → G → L)
 
@@ -393,21 +396,19 @@ Guarda el diagnóstico: es el "antes" que se compara con el audio final de la S8
 
 ### C.15 Mensaje post-clase para el grupo (plantilla del kit, lista para pegar)
 
-**Sección martes (publicar el mar 20 oct, después de subir la grabación):**
+**Mensaje para el grupo (publicar el mar 10 nov, después de subir la grabación):**
 ```
 ¡Gracias por la clase de hoy, chingus! 🐯
 Grabación: [link]
-Tarea para antes del martes 27 de octubre, 20:00 (hora Chile) · unos 30 minutos:
+Tarea para antes del martes 17 de noviembre, 20:00 (hora Chile) · unos 30 minutos:
 1) Lector de Hangul (academiaseul.com/lector-coreano): Alfabeto (toca las 21 vocales y las 19 consonantes) + Aprender 1, 2, 3 y 5 + Practicar → Vocales, 3 rondas seguidas, y Consonantes, 3 rondas seguidas. Mándenme la captura de Progreso.
 2) Hoja 가나다라 I (en la carpeta): trazar las 10 vocales y las 14 consonantes, 5 veces cada una, y tu nombre en 한글 con la tabla. Foto aquí en el grupo. Escribe también tu nombre aquí con el teclado coreano (guía de teclado en tu material).
 3) Audio de 30 segundos aquí en el grupo: las 6 vocales (아, 어, 오, 우, 으, 이) y las 12 palabras de la semana. Es tu "audio base": en la semana 8 lo comparamos con tu audio final. ¡Guárdalo!
 Extra: Dubu (academiaseul.com/dubu), barrios Bukchon e Insadong.
 La clase 2 empieza con un quiz cortito en el chat: instala el teclado 😉
-[Solo si hay alumnos en España] El domingo 25 España cambia de hora: nuestra clase 2 allá es a las 00:00.
+[Solo si hay alumnos en España] Ojo con la hora: en España la clase es a las 00:00, ya del miércoles (4 horas más que en Chile).
 ¡Nos vemos el martes a las 20:00! 화이팅!
 ```
-
-**Sección jueves (publicar el jue 22 oct):** el mismo mensaje, con «antes del **jueves 29 de octubre**, 20:00» y «¡Nos vemos el **jueves** a las 20:00!».
 
 ### C.16 Clave de respuestas
 
@@ -462,7 +463,7 @@ Reglas que explican casi todos: la h no se escribe (Héctor 엑토르, Hugo 우�
 - **Imágenes de Sejong:** `A1_Nivel_1/Parte 1 - historia de hangul.pptx` (12 láminas, casi todas imágenes): 1 o 2 para L4.
 - **Hoja de la tarea:** `A1_Nivel_1/Hoja_Practica_Hangul_A1.pdf` (pág. 1: 14 consonantes; pág. 2: 10 vocales + 고기, 우유, 바다, 나무) + una página nueva "Tu nombre en 한글" con la tabla 3.5 del material del alumno. Arreglos antes de entregarla (⚑ D): la etiqueta de ㅇ dice solo "ng" (poner "muda / ng"), la de ㅈ dice "j/y" (poner "j · ch suave") y el encabezado dice "Nivel 1 (A1)" (poner "Básico 1 (A1.1)"). **Resuelto (26 sept, D.4):** la hoja ya tiene los tres arreglos y la página 3 "Tu nombre en 한글"; fuente editable en `A1_Nivel_1/fuente/Hoja_Practica_Hangul_A1.html` (PDF con `render_hoja_practica.js`).
 - **Referencia de una página:** `public/Guia_Alfabeto_Coreano_Hangul.pdf` (azul, gratis) para el plan B y para la carpeta.
-- **Del curso de julio, no reutilizar:** el timing de 90 min de `01_Hangul_Vocales/Sesion_01_Materiales_Completos.md`, su quiz (el quiz 1 de octubre está en la guía de la S2), su ejercicio 7 (palabras que no son de la S1) ni su tabla de nombres (dice "e/i → ㅣ": la e es ㅔ).
+- **Del curso de julio, no reutilizar:** el timing de 90 min de `01_Hangul_Vocales/Sesion_01_Materiales_Completos.md`, su quiz (el quiz 1 de este curso está en la guía de la S2), su ejercicio 7 (palabras que no son de la S1) ni su tabla de nombres (dice "e/i → ㅣ": la e es ㅔ).
 - **Reglas del deck:** plantilla de la casa (ES/KO/EN; el inglés, solo en el título), acento azul `#4236F6`, **nunca rojo**. Romanización **gris, pequeña, debajo** y con animación **después** de que Kiran dijo el sonido; unificar con la del Lector (ga, geo, go…; el deck de julio usa "ka, keo, ko"). Ejemplos de palabras solo de la S1 (el deck de julio usa 오빠, 코, 아빠, 말, 서울… en las láminas de vocales: cámbialos). Quitar todo lo que es de la S2: ㅐ en "11 vocales", compuestas, tensas, 받침. Dibujos propios o íconos libres: **no escanear las láminas del libro**.
 
 | L | Título | En pantalla | Nota | Fuente |
@@ -471,7 +472,7 @@ Reglas que explican casi todos: la h no se escribe (Héctor 엑토르, Hugo 우�
 | 2 | 가나다라 I · La sílaba | "Básico 1 · Semana 1 · Hoy lees tus primeras palabras" · logo azul | — | Portada de la plantilla |
 | 3 | Comandos de clase | 따라 하세요 · 읽으세요 · 다시 한번 · 잘했어요, con ícono del gesto y el español; romanización gris con animación | Se reconocen, no se memorizan | Nueva |
 | 4 | 1443 · 세종 | Retrato · "1443: lo crea · 1446: lo publica" · 훈민정음 = "los sonidos correctos para enseñar al pueblo" · la promesa de la mañana y los diez días | 1 min | Cap1-2 L3–L4 (§1.1–1.2) + imagen de "Parte 1 - historia de hangul" |
-| 5 | 한글날 · 9 de octubre | "Este mes, el 9 de octubre, Corea celebró el día del alfabeto (feriado nacional)" · foto con licencia libre | Gancho [YA] | Nueva |
+| 5 | 한글날 · 9 de octubre | "El mes pasado, el 9 de octubre, Corea celebró el día del alfabeto (feriado nacional)" · foto con licencia libre | Gancho [YA] | Nueva |
 | 6 | Como tu silabario | "ma · me · mi · mo · mu" junto a "가 · 갸 · 거 · 겨 · 고…" · "El 한글 se lee por sílabas. Cada sílaba, un cuadrado" | Usa el chat del bloque 1 | Cap1-2 L63 (§3.1), adaptada |
 | 7 | Tres dibujos | ㆍ cielo · ㅡ tierra · ㅣ persona | 30 s | Cap1-2 L11–L12 (§1.7–1.8) |
 | 8 | Las 6 vocales base | ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ, cada una con un ícono de boca · romanización gris al final (a · eo · o · u · eu · i) | Coro y eco | Cap1-2 L13–L18 (§1.9–1.10), fusionadas |
@@ -492,7 +493,7 @@ Reglas que explican casi todos: la h no se escribe (Héctor 엑토르, Hugo 우�
 | 22 | Salas · 4 rondas | "Al entrar: 안녕하세요" · R1 Batalla de sílabas · R2 Fábrica de oído · R3 Las 12 palabras · R4 Lectura relámpago con cronómetro · "Tarjeta: link en el chat" | 20:32 | Nueva |
 | 23 | Lo que oí hoy | 어머니 (ㅓ) · 으 (ㅡ) · 머리, 아버지 (ㄹ, ㅈ) | Se ajusta a lo que oíste | Nueva |
 | 24 | Las 3 frases de hoy | 아, 어, 오, 우, 으, 이 / 나무 · 바다 · 우유 / 어머니 · 아버지 (sin romanización) | Coro; de aquí sale el clip | B.12 |
-| 25 | Tarea (≈ 30 min) | 1 Lector (10 min, destino exacto) · 2 Hoja 가나다라 I + nombre + nombre tipeado (15 min) · 3 Audio base de 30 s: 6 vocales + 12 palabras (5 min) · Extra: Dubu, Bukchon e Insadong · plazo: antes de tu clase 2 (mar 27 / jue 29, 20:00) | — | Nueva |
+| 25 | Tarea (≈ 30 min) | 1 Lector (10 min, destino exacto) · 2 Hoja 가나다라 I + nombre + nombre tipeado (15 min) · 3 Audio base de 30 s: 6 vocales + 12 palabras (5 min) · Extra: Dubu, Bukchon e Insadong · plazo: antes de la clase 2 (mar 17 nov, 20:00) | — | Nueva |
 | 25b | Tu nombre en 한글 | La tabla de nombres (material del alumno, 3.5) | La "tabla del deck" que cita la tarea publicada | Nueva |
 | 26 | ¿Y la línea gris? | "Semanas 1–2: sí, después del audio · 3–4: solo si la pides · desde la 5: solo 한글" | 15 s | Diseño, sección D |
 | 27 | 감사합니다! 화이팅! | 감사합니다 · 화이팅 · "Nos vemos en la clase 2" | — | Cap1-2 L124–L125, adaptadas |
@@ -504,18 +505,18 @@ Reglas que explican casi todos: la h no se escribe (Héctor 엑토르, Hugo 우�
 
 | # | Qué | Por qué | Quién · cuándo |
 |---|---|---|---|
-| 1 | ⚑ **Tabla de nombres** (material del alumno, 3.5, y C.16) | Sigue la norma de transcripción del español; hay variantes aceptadas (y fans que usan la grafía de su ídolo). Confirmar las grafías y la regla de la ㄹㄹ | Kiran · antes del vie 16 oct |
-| 2 | ⚑ **Guía de teclado** (material del alumno, sección 9) | Es el borrador de la Fase 1 §8.3: las rutas de menú cambian según la versión del sistema. Probar en Android, iPhone, Windows y Mac | Jay o quien produce · P0, vie 16 oct |
-| 3 | **La guía de teclado no está en la bienvenida ni en el recordatorio** (`Lanzamiento_Octubre_2026/alumnos/Mensajes_Alumnos.md`, b1/b4 y c1/c4) | Si no llega antes de la clase 1, el bloque 1 solo muestra el mapa y la instalación va a la tarea | **DECISIÓN DE JAY:** agregar el link en c1 (lun 19, 18:00) y c4 (mié 21, 18:00) |
+| 1 | ⚑ **Tabla de nombres** (material del alumno, 3.5, y C.16) | Sigue la norma de transcripción del español; hay variantes aceptadas (y fans que usan la grafía de su ídolo). Confirmar las grafías y la regla de la ㄹㄹ | Kiran · antes del vie 6 nov |
+| 2 | ⚑ **Guía de teclado** (material del alumno, sección 9) | Es el borrador de la Fase 1 §8.3: las rutas de menú cambian según la versión del sistema. Probar en Android, iPhone, Windows y Mac | Jay o quien produce · P0, vie 6 nov |
+| 3 | **La guía de teclado no está en la bienvenida ni en el recordatorio** (`Lanzamiento_Octubre_2026/alumnos/Mensajes_Alumnos.md`, b1/b4 y c1/c4) | Si no llega antes de la clase 1, el bloque 1 solo muestra el mapa y la instalación va a la tarea | **DECISIÓN DE JAY:** agregar el link en el recordatorio del lun 9 nov, 18:00 (ya no hay un segundo recordatorio: el grupo es uno) |
 | 4 | **Hoja_Practica_Hangul_A1.pdf** | ㅇ figura solo como "ng" (contradice la ㅇ muda), ㅈ como "j/y" y el encabezado dice "Nivel 1 (A1)"; falta la página del nombre. **Resuelto (26 sept):** rehecha como HTML de la casa (`A1_Nivel_1/fuente/Hoja_Practica_Hangul_A1.html` + `render_hoja_practica.js`) → PDF de 3 páginas, US Letter: ㅇ "muda / ng", ㅈ "j · ch suave", encabezado "Básico 1 (A1.1)" y pág. 3 "Tu nombre en 한글" con la tabla 3.5 | hecho (26 sept) |
 | 5 | **Guía de pronunciación en PDF** (`public/pronunciacion-coreana-academia-seul.pdf`, promesa publicada) | Títulos y logo en **rojo** (marca antigua) y dice "Nivel 1": choca con la regla de no usar rojo | **DECISIÓN DE JAY:** regenerarla en azul antes de ponerla en la carpeta |
-| 6 | **Romanizaciones distintas** entre materiales | La Guía del Alfabeto usa "ia, ieo, io, iu" y "u-iu" para 우유; el Lector y el deck, "ya, yeo, yo, yu" y "uyu"; el deck de julio, "ka, keo". Si un alumno pregunta: "son dos formas de escribir lo mismo: por eso la romanización engaña" | Jay (unificar en enero); en octubre se explica así |
+| 6 | **Romanizaciones distintas** entre materiales | La Guía del Alfabeto usa "ia, ieo, io, iu" y "u-iu" para 우유; el Lector y el deck, "ya, yeo, yo, yu" y "uyu"; el deck de julio, "ka, keo". Si un alumno pregunta: "son dos formas de escribir lo mismo: por eso la romanización engaña" | Jay (unificar en enero); en este curso se explica así |
 | 7 | **Audio base con las 6 vocales** | Agrega 5 s a lo publicado ("leer las 12 palabras"), porque sin ellas no hay ㅡ para el diagnóstico | Informado a Jay y Kiran; no cambia el plazo ni la duración |
-| 8 | **Quién archiva los audios base** | Son el "antes" de la S8 y en WhatsApp se pierden. Propuesta: cada alumno guarda el suyo y Jay exporta el chat del grupo al cierre de la S1 | **DECISIÓN DE JAY** · antes del dom 25 oct |
-| 9 | **Decks de 60 minutos** | Si ya existen en Drive, se alinean con C.17; si no, se arman con C.17 | **DECISIÓN DE JAY, decisión 0** · jue 1 oct |
+| 8 | **Quién archiva los audios base** | Son el "antes" de la S8 y en WhatsApp se pierden. Propuesta: cada alumno guarda el suyo y Jay exporta el chat del grupo al cierre de la S1 | **DECISIÓN DE JAY** · antes del dom 15 nov |
+| 9 | **Decks de 60 minutos** | **Hecho (9–10 oct 2026):** los 8 decks de Kiran están en `Curriculo/Fase2_Basico1/decks/` (`Basico1_S01_Kiran.pptx` … `Basico1_S08_Kiran.pptx`), armados con el guion de C.17 | hecho |
 | 10 | Lector: "Consonantes" practica **10** de las 14 | ㅋ ㅌ ㅍ ㅊ están en "Aspiradas y tensas" (tarea de la S2). En la S1 se ven en clase y en la hoja. Si alguien pregunta por qué no aparecen, esa es la razón | Informativo |
 | 11 | Lector: el modo **y el grupo rotan solos** y se guardan por navegador | Para quien nunca usó el Lector, las 3 primeras rondas de Vocales son las 10 de la semana ("vocales básicas") en Lectura, Escucha e Inversa. Quien ya jugó puede caer en "compuestas" (S2): igual cuenta. El progreso se guarda solo en ese navegador | Informativo; ya está en la tarea del alumno |
-| 12 | **Cuándo y cómo reciben los alumnos este material** (en especial la sección 7, tarjeta de sala) y el link de la tarjeta (`[PLACEHOLDER]` en C.3, bloque 7) | Las salas dependen de que cada alumno tenga la tarjeta abierta; el chat de la sala principal no se ve dentro de las salas. Si el material no llegó antes de la clase, se usa el texto para pegar del bloque 7 | **DECISIÓN DE JAY** (quién lo envía y cuándo) · antes del lun 19 oct |
+| 12 | **Cuándo y cómo reciben los alumnos este material** (en especial la sección 7, tarjeta de sala) y el link de la tarjeta (`[PLACEHOLDER]` en C.3, bloque 7) | Las salas dependen de que cada alumno tenga la tarjeta abierta; el chat de la sala principal no se ve dentro de las salas. Si el material no llegó antes de la clase, se usa el texto para pegar del bloque 7 | **DECISIÓN DE JAY** (quién lo envía y cuándo) · antes del lun 9 nov |
 | 13 | **Quiz 1, ítem 5** (guía de la S2) hace leer palabras que no son de la lista de la S1 (버스, 드라마, 오리, 두부) | Son decodificables con lo de la S1 y miden lectura, no vocabulario. El material del alumno ya avisa que puede tocar "una palabra que no conoces" | Informativo |
 
 *Coreano de esta guía:* todo el coreano que se pide producir son palabras y fórmulas de la lista maestra (C) de la S1; el diálogo usa solo eso y los comandos. No quedan ⚑ de naturalidad fuera de los de arriba.
@@ -526,14 +527,14 @@ Reglas que explican casi todos: la h no se escribe (Héctor 엑토르, Hugo 우�
 
 ---
 
-## E. Anexo "Enero 2027" (NO se aplica en octubre: cambiaría lo publicado)
+## E. Anexo "Enero 2027" (NO se aplica en este curso: cambiaría lo publicado)
 
-| Cambio | Fuente | Por qué no en octubre |
+| Cambio | Fuente | Por qué no en este curso |
 |---|---|---|
 | S1 con fórmulas orales explícitas (안녕하세요, 저는 ___예요/이에요, 감사합니다) y 이름이 뭐예요? como fórmula | Fase 1 §4.4 y §6.3; diseño I #1 | Cambia el contenido publicado de la S1 |
 | Lector: elegir modo y grupo; modo "sin romanización" que se desbloquea con 3 estrellas · Dubu: interruptor visible de romanización | Fase 1 §7.4; diseño I #18 | Cambia código |
 | Audio nativo para las 7 palabras de la S1 que hoy no tienen clip (아이, 오이, 모자, 머리, 구두, 어머니, 아버지) | Diseño C e I #19 | Producción larga |
 | Deck oficial por lección alineado al libro | Diseño I #20 | Producción de enero |
-| Tarea publicada "hasta 3 estrellas en Lectura y Escucha" → "3 rondas seguidas" escrito en la ficha | Fase 1 §15 #45 | En octubre se dice así en el mensaje, sin tocar la ficha |
+| Tarea publicada "hasta 3 estrellas en Lectura y Escucha" → "3 rondas seguidas" escrito en la ficha | Fase 1 §15 #45 | En este curso se dice así en el mensaje, sin tocar la ficha |
 
 화이팅, Kiran. En 58 minutos, 15 personas van a leer su primer 나무. 🐯
