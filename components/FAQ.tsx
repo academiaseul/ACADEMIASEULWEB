@@ -3,7 +3,7 @@
 import { ChevronDown } from 'lucide-react';
 import { useT, i18n } from '@/lib/i18n';
 import { usePrecio } from '@/lib/campana';
-import { MP_LINK_LANZAMIENTO, PAYPAL_LINK_LANZAMIENTO } from '@/lib/nivel1';
+import { PAYPAL_LINK_LANZAMIENTO } from '@/lib/nivel1';
 
 // Las 6 primeras se muestran en la home (faqs.slice(0, 6)) en orden de objeciones:
 // "¿cómo me inscribo?", "¿necesito saber algo?", "¿cuánto?", "¿a qué hora?", "¿en vivo?", "¿cómo pago?".
@@ -36,10 +36,11 @@ export const faqs: Faq[] = [
   {
     q: i18n('¿Cómo puedo pagar?'),
     a: i18n('Transferencia bancaria en Chile (sin comisión), tarjeta de crédito/débito vía Mercado Pago (se cobra en pesos chilenos) o PayPal en dólares — también con tarjeta, sin tener cuenta PayPal. Puedes pagar el curso de una vez o en 2 cuotas. Te confirmamos por correo apenas registramos tu pago.'),
-    // Solo mientras Jay no pegue los links de lanzamiento en lib/nivel1.ts.
-    aLanzamiento: MP_LINK_LANZAMIENTO || PAYPAL_LINK_LANZAMIENTO
+    // Con el precio de lanzamiento la tarjeta sí funciona (el checkout calcula el monto en el
+    // servidor); lo único que sigue pasando por WhatsApp es PayPal, mientras Jay no cree su link.
+    aLanzamiento: PAYPAL_LINK_LANZAMIENTO
       ? undefined
-      : i18n('Con el precio de lanzamiento (hasta el domingo 8 de noviembre), Jay te envía el link de pago por WhatsApp.'),
+      : i18n('Con el precio de lanzamiento (hasta el domingo 8 de noviembre) puedes pagar al instante con tarjeta por Mercado Pago. Si prefieres PayPal, Jay te envía el link por WhatsApp.'),
   },
   {
     q: i18n('¿Recibo un certificado?'),

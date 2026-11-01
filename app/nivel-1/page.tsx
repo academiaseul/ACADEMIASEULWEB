@@ -246,7 +246,9 @@ export default function Nivel1Page() {
   const mpLanzamiento = plan === "unico" ? MP_LINK_LANZAMIENTO : MP_LINK_LANZAMIENTO_CUOTA;
 
   // Pago con Mercado Pago: link fijo (lib/nivel1.ts) o checkout dinámico con datos del alumno.
-  // Durante el lanzamiento NUNCA se usa el checkout dinámico (cobra 150.000 / 75.000).
+  // El checkout dinámico sirve también durante el lanzamiento: el monto lo decide el SERVIDOR
+  // en app/api/checkout/route.ts con enLanzamiento(), así que cobra 120.000 / 60.000 hasta el
+  // dom 8 nov y 150.000 / 75.000 desde el lun 9, sin que haya que tocar nada ese día.
   const faltanDatos = () => {
     if (submitted && form.nombre && form.correo) return false;
     setFormError(t("Primero completa tus datos arriba para reservar tu cupo."));
@@ -260,12 +262,14 @@ export default function Nivel1Page() {
   };
   const pagarConTarjeta = async () => {
     if (faltanDatos()) return;
-    if (precio.lanzamiento) {
-      window.open(mpLanzamiento || waLanzamiento("Mercado Pago"), "_blank", "noopener");
-      if (mpLanzamiento) setAvisoMP(true);
+    // Durante el lanzamiento: si Jay creó un link propio de US$120/US$60, se usa ese; si no,
+    // el checkout dinámico de abajo cobra el monto de lanzamiento (lo calcula el servidor).
+    if (precio.lanzamiento && mpLanzamiento) {
+      window.open(mpLanzamiento, "_blank", "noopener");
+      setAvisoMP(true);
       return;
     }
-    const linkFijo = plan === "unico" ? MP_LINK_UNICO : MP_LINK_MENSUAL;
+    const linkFijo = precio.lanzamiento ? "" : plan === "unico" ? MP_LINK_UNICO : MP_LINK_MENSUAL;
     if (linkFijo) { window.open(linkFijo, "_blank", "noopener"); setAvisoMP(true); return; }
     setPayLoading(true);
     try {
@@ -683,7 +687,7 @@ export default function Nivel1Page() {
             {precio.lanzamiento ? (
               <p className="text-center text-sm text-gray-600 mb-8 max-w-xl mx-auto">
                 {t("🚀 Precio de lanzamiento (−20 %) hasta el domingo 8 de noviembre a las 23:59, hora de Chile. Desde el lunes 9: {normal}.", { normal: precioNormal })}
-                {!(plan === "unico" ? PAYPAL_LINK_LANZAMIENTO : PAYPAL_LINK_LANZAMIENTO_CUOTA) && !mpLanzamiento && <> {t("Con este precio, Jay te envía el link de pago por WhatsApp.")}</>}
+                {!(plan === "unico" ? PAYPAL_LINK_LANZAMIENTO : PAYPAL_LINK_LANZAMIENTO_CUOTA) && <> {t("Con PayPal, Jay te envía el link de pago por WhatsApp.")}</>}
               </p>
             ) : (
               <div className="mb-8" />
@@ -720,9 +724,7 @@ export default function Nivel1Page() {
                   <button type="button" onClick={pagarConTarjeta} disabled={payLoading} className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition disabled:opacity-60">
                     {payLoading
                       ? t("Abriendo pago seguro…")
-                      : precio.lanzamiento && !mpLanzamiento
-                        ? t("💳 Tarjeta o transferencia · Mercado Pago · te enviamos el link por WhatsApp")
-                        : t("💳 Tarjeta o transferencia · Mercado Pago ({plan})", { plan: planLabel })}
+                      : t("💳 Tarjeta o transferencia · Mercado Pago ({plan})", { plan: planLabel })}
                   </button>
                   <p className="text-center text-xs text-gray-500 -mt-1">{t("{clp} · crédito, débito o transferencia, sin cuenta. Reserva tu cupo arriba antes de pagar.", { clp: plan === "unico" ? clpRef(precio.clpUnico) : clpRef(precio.clpMensual) })}</p>
                   <BotonPayPal plan={plan} onClick={() => setAvisoPayPal(true)} waMensual={waPayPalMensual} onLanzamiento={pagarPayPalLanzamiento} relleno={false} />
@@ -740,9 +742,7 @@ export default function Nivel1Page() {
                   <button type="button" onClick={pagarConTarjeta} disabled={payLoading} className="block w-full py-3.5 rounded-full text-[#3D2EE8] font-bold text-base text-center border-2 border-[#3D2EE8] hover:bg-[#F5F3FF] transition disabled:opacity-60">
                     {payLoading
                       ? t("Abriendo pago seguro…")
-                      : precio.lanzamiento && !mpLanzamiento
-                        ? t("💳 Mercado Pago · te enviamos el link por WhatsApp")
-                        : t("💳 Mercado Pago ({plan})", { plan: planLabel })}
+                      : t("💳 Mercado Pago ({plan})", { plan: planLabel })}
                   </button>
                   <p className="text-center text-xs text-gray-500 -mt-1">{t("Se cobra en pesos chilenos; tu banco puede cobrar comisión por cambio de moneda.")}</p>
                   <p className="text-center text-xs text-gray-500">{t("¿Prefieres transferencia internacional?")} <a href={waTransfer} target="_blank" rel="noopener noreferrer" className="underline font-semibold" style={{ color: "var(--as-azul-txt)" }}>{t("Escríbenos por WhatsApp")}</a>.</p>
