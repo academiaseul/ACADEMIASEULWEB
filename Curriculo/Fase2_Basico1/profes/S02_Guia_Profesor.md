@@ -499,7 +499,7 @@ Plantilla trilingüe de la casa (título ES/KO; EN pequeño si la plantilla lo p
 | 24 | Salas de 3 · 20 min | Act. 1 (6 min) · Act. 2 escenas A–D (9 min) · Act. 3 minuto libre (3 min) + el checklist del juez | Nueva (mismo texto que C.10) |
 | 25 | Minuto libre | Identidad secreta · 안녕하세요! 이름이 뭐예요? · 어느 나라 사람이에요? · sin cuaderno | Nueva (tarjeta B.11 de la S2) |
 | 26 | Las 3 frases clave | 안녕하세요! 저는 ___예요/이에요. · 저는 칠레 사람이에요. · 안녕히 계세요! | Nueva |
-| 27 | Tarea · antes de tu clase 3 | Lector (Aprender 4 y 6 + Aspiradas y tensas, Batchim, Sílabas: 3 rondas seguidas) · Hoja de la lección 1 · Audio 20 s + tipeada · Extra: Dubu 3–4 y Vocales (3 rondas más) · Prepara: 5 objetos | Nueva |
+| 27 | Tarea · antes de la clase 3 | Lector (Aprender 4 y 6 + Aspiradas y tensas, Batchim, Sílabas: 3 rondas seguidas) · Hoja de la lección 1 · Audio 20 s + tipeada · Extra: Dubu 3–4 y Vocales (3 rondas más) · Prepara: 5 objetos | Nueva |
 | 28 | 감사합니다! | 안녕히 계세요 (ustedes) · 안녕히 가세요 (Kiran) · 화이팅! | Adaptar lám. 125 del deck de Hangul (quitar romanización) |
 | 29 | Extra · 메뉴 (solo si sobra tiempo, C.12) | Pizarra de menú con 5 platos en 한글, sin romanización ni precios: 김밥 · 비빔밥 · 불고기 · 라면 · 김치찌개 | Nueva, después de la 28 (oculta si no se usa) |
 

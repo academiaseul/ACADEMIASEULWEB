@@ -77,6 +77,35 @@ Los días siguen la tabla de `Plan_Basico1_Noviembre_2026.md` §2. Ese plan mand
   - todo va centrado entre y≈430 y y≈1410;
   - no lo tapan el recorte 3:4 de la grilla del perfil, los botones de la derecha ni el texto de abajo.
 
+### Ángulo «la última clase de 2026» (desde el lun 2 de noviembre)
+
+Es un hecho verificado en `lib/nivel1.ts`: `a11-martes` está `abierta` (martes 10 de noviembre), `a12` (Básico 2) está `en_curso` desde el 21 de octubre y no se promueve, y Conversacional 1, TOPIK II y Coreano para Niños están en `enero_2027` con lista de espera. Por eso **Básico 1 del martes 10 de noviembre es la última clase que empieza en 2026**. La fecha de término sigue sin aparecer: se dice «8 martes desde el 10 de noviembre».
+
+**`b1n_30_ultima_clase_2026_feed.png`** · feed (1080×1350) · la pieza del ángulo
+- **Cuándo:** lun 2 o mar 3 a las 19:30, en colaboración entre @academiaseul y @jaychingu.oficial. Reemplaza a `b1n_01` como primer fijado si el anuncio no se publicó.
+- **Qué dice:**
+  - «La siguiente tanda es en enero de 2027» · **La última clase de 2026**;
+  - Básico 1 · coreano desde cero · con Kiran · 기란;
+  - empieza el martes 10 de noviembre · 8 martes · 20:00 hora de Chile · 60 min por Zoom;
+  - el cuadro de los dos años: noviembre 2026 → Básico 1, **abierta**; enero 2027 → Conversacional 1, TOPIK II y Coreano para Niños (8–15), **lista de espera**, y Básico 2 ya está en curso;
+  - precio de lanzamiento y academiaseul.com/inscribete.
+
+**`b1n_34_cierra_el_ano_feed.png`** · feed azul (1080×1350) · «Empieza 2027 leyendo 한글»
+- **Cuándo:** jue 5 a las 19:30, en colaboración. Es la promesa concreta, para quien ya vio la fecha y el precio.
+- **Qué dice:** los cinco logros de las 8 clases, cada uno con su frase en coreano (las mismas frases clave B.12 de `Curriculo/Fase2_Basico1/00_Diseno_Basico1.md`, igual que el carrusel):
+  1. lees y escribes 한글 — 아 어 오 우 으 이 · 나무 · 바다;
+  2. te presentas — 안녕하세요! 저는 마리아예요.;
+  3. hablas de tu familia — 우리 가족은 네 명이에요.;
+  4. dices dónde están las cosas — 화장실이 어디예요?;
+  5. cuentas lo que te gusta — 불고기를 정말 좋아해요!
+- Abajo: 8 martes desde el martes 10 de noviembre · 20:00 hora de Chile · 60 min por Zoom · certificado incluido, el precio de lanzamiento y la URL. **Sin fecha de término.**
+
+| Archivo | Cuándo | Notas |
+|---|---|---|
+| `b1n_31_ultima_clase_2026_story.png` | lun 2 a las 12:30 y en el estado de WhatsApp. Al destacado INSCRÍBETE | La misma idea en historia: «La última clase de 2026», la fecha, el recuadro «después de esta clase, la siguiente tanda es en enero de 2027» y el precio de lanzamiento. Los 352 px de abajo quedan libres para el sticker de link |
+| `b1n_32_quedan_6_story.png` | lun 2 a las 12:30 o mar 3 | Cuenta regresiva al día de hoy: **quedan 6 días** de precio de lanzamiento, hasta el domingo 8 a las 23:59. Sustituye a `b1n_12`, que decía 7 y servía para el dom 1 |
+| `b1n_33_enero_2027_story.png` | mié 4 o vie 6 a las 12:30, y como respuesta en DM a quien dice «esta vez no puedo» | La pieza honesta: Conversacional 1 (A2.1, Abby), TOPIK II (B1+, Jay, máx. 8) y Coreano para Niños (8–15, Jay y Abby) vuelven en enero de 2027, con lista de espera. Dice que los horarios de enero se confirman antes de abrir la matrícula. Cierra con que Básico 1 es «ahora o en enero». **No lleva precio**, así que sigue sirviendo después del domingo 8 |
+
 ## Reel de Kiran (fuera de esta carpeta)
 
 Los archivos van en `Campana_Assets/instagram/octubre/reels/kiran/`. Los hace `Lanzamiento_Octubre_2026/fuente/make_reel_kiran.js`, que se ejecuta desde una copia en el scratchpad. Con `node make_reel_kiran.js 10nov` salen solo estas dos variantes, sin el video. Los archivos de octubre no se tocan.
@@ -112,6 +141,7 @@ La lámina vieja `4_cierre_domingo_18.png` quedó en `_historico_octubre/`.
 Estas piezas dicen «precio de lanzamiento». Desde el lunes 9 no se vuelven a publicar:
 - `b1n_01`, `b1n_02_carrusel_6`, `b1n_03` y `b1n_10` a `b1n_14`;
 - `b1n_17` y `b1n_18`;
+- `b1n_30`, `b1n_31`, `b1n_32` y `b1n_34` (`b1n_33` no trae precio y sigue sirviendo);
 - `cierre_kiran_10nov`;
 - la lámina 3 del destacado.
 

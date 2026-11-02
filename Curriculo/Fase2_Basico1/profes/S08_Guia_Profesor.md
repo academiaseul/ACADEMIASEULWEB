@@ -208,7 +208,7 @@ Que cada alumno **se vaya habiendo hablado de sí mismo en coreano, sin leer, fr
 
 - **KO:** "따라 하세요! 뭘 좋아해요? … 불고기를 정말 좋아해요. … 아니요, 안 좋아해요." (2 veces; con micrófonos abiertos).
 - **ES:** "Última ronda: una frase que no sabías decir hace 8 semanas. Por ejemplo…" **KO:** "저는 한국어를 공부해요!" **ES:** "…pero la de ustedes. Empieza (primer nombre de la lista)." → rueda en el orden de la lista (≈ 8 s cada uno; con más de 12 presentes, todos al chat y 4 voces).
-- **ES (puente):** "En enero viene Básico 2 (A1.2): pasado, futuro, la hora, la edad y las fechas. Hoy dices 불고기를 좋아해요; en Básico 2 vas a decir 'ayer comí bulgogi'. El certificado se entrega la semana del 11 de enero de 2027, y Jay les va a contar de Básico 2."
+- **ES (puente):** "En enero viene Básico 2 (A1.2): pasado, futuro, la hora, la edad y las fechas. Hoy dices 불고기를 좋아해요; en Básico 2 vas a decir 'ayer comí bulgogi'. El certificado se entrega en enero; les aviso la fecha exacta en el grupo. Y Jay les va a contar de Básico 2."
 - **ES (tarea):** "Antes del [fecha], unos 20 minutos: captura final de Progreso y tu audio de 1 minuto con la presentación corregida. Escucha tu audio de la semana 1 y el de hoy: ese es tu antes y después. Anota para ti una cosa que mejoraste y una que quieres trabajar en Básico 2."
 - **KO:** "감사합니다! 안녕히 가세요! 화이팅!" → los alumnos: "감사합니다! 안녕히 계세요!" ⚑ (C.8 y D).
 
@@ -485,7 +485,7 @@ Revisa: 을/를 según 받침 · 정말 y 조금 antes del verbo · 안 pegado a
 | 14 | Preguntas para tu compañero | Las 8 preguntas de C.10. | Respaldo por si el chat falla. |
 | 15 | 오늘의 문장 · 3 frases clave | 뭘 좋아해요? / 불고기를 정말 좋아해요. / 아니요, 안 좋아해요. | Mismo formato que las láminas de frases clave de S1–S7. |
 | 16 | 8주 전에는…? | "Una frase que no sabías decir hace 8 semanas". Ejemplo: 저는 한국어를 공부해요! | Nueva. |
-| 17 | 다음 단계 · Básico 2 (A1.2) | Pasado · futuro · la hora · la edad · las fechas · enero de 2027. Ejemplo "solo para mirar": 불고기를 좋아해요 (hoy) → 어제 불고기를 먹었어요 (ayer comí bulgogi) · 내일 불고기를 먹을 거예요 (mañana voy a comer bulgogi). Certificado: semana del 11 de enero de 2027. | Nueva. Las dos frases de Básico 2 **no se practican** ni entran en nada: son el anzuelo del puente publicado. |
+| 17 | 다음 단계 · Básico 2 (A1.2) | Pasado · futuro · la hora · la edad · las fechas · enero de 2027. Ejemplo "solo para mirar": 불고기를 좋아해요 (hoy) → 어제 불고기를 먹었어요 (ayer comí bulgogi) · 내일 불고기를 먹을 거예요 (mañana voy a comer bulgogi). Certificado: la fecha se avisa en el grupo (propuesta interna: semana del 11 de enero de 2027, **[POR CONFIRMAR con Jay]**). | Nueva. Las dos frases de Básico 2 **no se practican** ni entran en nada: son el anzuelo del puente publicado. |
 | 18 | Tu tarea final (≈ 20 min) | 1) Lector → Progreso: captura final. 2) Audio de 1 min: tu presentación corregida, sin leer. 3) Escucha tu audio de la semana 1 y el de hoy; anota para ti 1 cosa que mejoraste y 1 para Básico 2. Plazo: [fecha]. | Nueva. |
 | 19 | 8주 전에는 한글도 몰랐어요. | "Hace 8 semanas no sabía ni 한글." (sin sujeto: la dice el alumno sobre sí mismo; si se quiere en segunda persona, el español puede ir "no sabías", pero el coreano se lee como primera persona) · 감사합니다 · 안녕히 가세요 / 안녕히 계세요 · 화이팅! | Reutilizar `Repaso_MidTerm_A1.pptx` lám. 34 (misma frase de marca que el kit). La frase está en pasado: se muestra traducida, no se practica (el pasado es de Básico 2). |
 | B1 | Respaldo · Las 6 piezas | Tabla de C.4.8 (이에요/예요 · 은/는 · 이/가 · 을/를 · 에 · -아요/어요). | `Particulas_Coreanas_Editable.pptx` o `Repaso_MidTerm_A1.pptx` láms. 20–24, **quitando** 에서, 의, 안 가요, 수영장, 백화점 y la romanización. |
@@ -509,7 +509,7 @@ Revisa: 을/를 según 받침 · 정말 y 조금 antes del verbo · 안 pegado a
 > 1) Lector de Hangul → pestaña Progreso: captura final con tus estrellas (si quieres, antes juega una ronda de ⚡ Contrarreloj: tu récord sale en la misma pantalla).
 > 2) Audio de 1 minuto aquí en el grupo: tu "Yo en coreano" ya corregido, sin leer.
 > 3) Escucha tu audio de la semana 1 y el de hoy. Ese es tu antes y después. Anota para ti una cosa que mejoraste y una que quieres trabajar en Básico 2.
-> En 48 horas te llega por escrito mi comentario de tu presentación. El certificado se entrega la semana del 11 de enero de 2027, y Jay les cuenta de Básico 2. 감사합니다! 화이팅!
+> En 48 horas te llega por escrito mi comentario de tu presentación. El certificado se entrega en enero; les aviso la fecha exacta en el grupo. Y Jay les cuenta de Básico 2. 감사합니다! 화이팅!
 
 **Dentro de 48 horas: comentario escrito de la presentación** (máximo 3 puntos, uno positivo primero; kit y diseño F.5). Plazo: hasta el **jue 31 dic**.
 > **[Nombre], 잘했어요.**

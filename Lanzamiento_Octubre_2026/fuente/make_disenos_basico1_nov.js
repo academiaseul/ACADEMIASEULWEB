@@ -663,6 +663,161 @@ function tiktokPortada() {
   return doc({ story: true, css, body, blue: true });
 }
 
+// ════════════════════════════════════════════════════════════════════════
+// b1n_30 … b1n_34 · ángulo «la última clase de 2026» (lun 2 nov 2026)
+// ════════════════════════════════════════════════════════════════════════
+// Es verdad y está verificado en lib/nivel1.ts: a11-martes está "abierta" (mar 10 nov), a12 está "en_curso" (empezó
+// el 21 oct y no se promueve) y a21, topik2 y ninos están en "enero_2027" con lista de espera. Por eso Básico 1 del
+// martes 10 de noviembre es la última clase que EMPIEZA en 2026. En lo público no va la fecha de término.
+
+// Bloque «noviembre 2026 / enero 2027»: lo que abre ahora y lo que vuelve en enero, con su estado.
+const ANIOS_CSS = `
+  .anios { border: 3px solid var(--fg); flex: none; }
+  .anios > div { display: grid; grid-template-columns: 1fr auto; column-gap: 20px; align-items: center; padding: 16px 24px 17px; }
+  .anios > div + div { border-top: 3px solid var(--fg); }
+  .anios .yr { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 3px; text-transform: uppercase; color: var(--azul); }
+  .anios .wh { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 34px; line-height: 1.16; margin-top: 4px; }
+  .anios .wh small { display: block; font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 18px; letter-spacing: 1px; color: var(--muted); margin-top: 5px; }
+  .anios .st { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: 2px; text-transform: uppercase; text-align: center; padding: 9px 16px; white-space: nowrap; }
+  .anios .st.on { background: var(--azul); color: #FFFFFF; }
+  body.blue .anios .st.on { color: ${INK}; }
+  .anios .st.off { border: 2px solid var(--line); color: var(--muted); }
+`;
+const anios = () => `<div class="anios">
+  <div><div><div class="yr">Noviembre 2026</div><div class="wh">Básico 1 (A1.1) · desde cero<small>con Kiran · martes 20:00 (Chile) · 8 martes</small></div></div><div class="st on">Abierta</div></div>
+  <div><div><div class="yr">Enero 2027</div><div class="wh">Conversacional 1 · TOPIK II<small>y Coreano para Niños (8–15) · Básico 2 ya está en curso</small></div></div><div class="st off">Lista de espera</div></div></div>`;
+
+// b1n_30 · La última clase de 2026 (feed)
+function ultimaClaseFeed() {
+  const css = CAL_CSS + PRECIO_CSS + ANIOS_CSS + `
+  .kick { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 21px; letter-spacing: 3.5px; text-transform: uppercase; color: ${AZUL}; margin-top: 30px; flex: none; }
+  .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 84px; line-height: 1.02; letter-spacing: -3px; margin: 8px 0 0; flex: none; }
+  .ttl em { font-style: italic; color: ${AZUL}; }
+  .lead { font-family: 'Playfair Display', serif; font-size: 33px; margin-top: 14px; line-height: 1.25; flex: none; }
+  .lead b { font-weight: 900; }
+  .lead .kr { font-weight: 700; color: ${AZUL}; font-size: 30px; }
+  .fecha { margin-top: 26px; padding-top: 24px; border-top: 3px solid ${INK}; }
+  .anios { margin-top: 26px; }
+  .precio { margin-top: 26px; }
+  .precio .a { font-size: 40px; }
+  `;
+  const body = `
+  ${top("Básico 1 · A1.1", "Noviembre 2026")}
+  <div class="kick">La siguiente tanda es en enero de 2027</div>
+  <h1 class="ttl">La última clase<br><em>de 2026</em></h1>
+  <div class="lead"><b>Básico 1</b> · coreano desde cero · con <b>Kiran</b> · <span class="kr">기란</span></div>
+  ${calendario()}
+  ${anios()}
+  ${precioLanz()}
+  ${foot(`Inscríbete en <span>${D.url}</span><br>o por WhatsApp ${D.wa}`)}`;
+  return doc({ story: false, css, body });
+}
+
+// b1n_31 · La última clase de 2026 (historia) · abajo queda libre el espacio del sticker de link
+function ultimaClaseStory() {
+  const css = CAL_CSS + PRECIO_CSS + URL_CSS + `
+  .kick { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 24px; letter-spacing: 3.5px; text-transform: uppercase; color: ${AZUL}; margin-top: 34px; flex: none; }
+  .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 120px; line-height: .98; letter-spacing: -4px; margin: 10px 0 0; flex: none; }
+  .ttl em { font-style: italic; color: ${AZUL}; }
+  .lead { font-family: 'Playfair Display', serif; font-size: 38px; margin-top: 20px; line-height: 1.25; flex: none; }
+  .lead b { font-weight: 900; }
+  .lead .kr { font-weight: 700; color: ${AZUL}; font-size: 34px; }
+  .fecha { margin-top: 32px; padding-top: 28px; border-top: 3px solid ${INK}; }
+  .luego { margin-top: 30px; border: 3px solid ${INK}; background: #FFFDF8; padding: 20px 26px; font-family: 'Playfair Display', serif; font-size: 32px; line-height: 1.3; flex: none; }
+  .luego b { font-weight: 900; color: ${AZUL}; }
+  .precio { margin-top: 30px; }
+  .precio .a { font-size: 42px; }
+  `;
+  const body = `
+  ${top("Básico 1 · A1.1", "Noviembre 2026")}
+  <div class="kick">La siguiente tanda es en enero de 2027</div>
+  <h1 class="ttl">La última<br>clase <em>de 2026</em></h1>
+  <div class="lead"><b>Básico 1</b> · coreano desde cero · con <b>Kiran</b> · <span class="kr">기란</span></div>
+  ${calendario()}
+  <div class="luego">Después de esta clase,<br>la siguiente tanda es en <b>enero de 2027</b>.</div>
+  ${precioLanz()}
+  ${urlRow()}`;
+  return doc({ story: true, css, body });
+}
+
+// b1n_33 · Enero 2027 y lista de espera (historia): la pieza honesta para quien no alcanza
+const ENERO = [
+  ["Mar 21:00", "Conversacional 1", "A2.1 · con Abby, desde Corea"],
+  ["Jue 21:00", "TOPIK II", "B1+ · con Jay · máx. 8"],
+  ["Lun 18:00", "Coreano para Niños", "8–15 años · con Jay y Abby"],
+];
+function eneroStory() {
+  const css = URL_CSS + `
+  .kick { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 24px; letter-spacing: 3.5px; text-transform: uppercase; color: ${AZUL}; margin-top: 34px; flex: none; }
+  .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 112px; line-height: .98; letter-spacing: -4px; margin: 10px 0 0; flex: none; }
+  .ttl em { font-style: italic; color: ${AZUL}; }
+  .lst { margin-top: 36px; border-top: 3px solid ${INK}; flex: none; }
+  .lst .row { display: grid; grid-template-columns: 196px 1fr; column-gap: 20px; align-items: baseline; padding: 18px 0; border-bottom: 1px solid rgba(10,10,15,.2); }
+  .lst .dh { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 26px; letter-spacing: 1px; color: ${AZUL}; white-space: nowrap; }
+  .lst .c { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 40px; line-height: 1.1; }
+  .lst .c small { display: block; font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 19px; letter-spacing: .5px; color: ${MUTED}; margin-top: 6px; }
+  .nt { font-family: 'IBM Plex Mono', monospace; font-size: 19px; color: ${MUTED}; letter-spacing: .3px; line-height: 1.5; margin-top: 14px; flex: none; }
+  .ahora { margin-top: 32px; background: ${INK}; color: ${PAPER}; padding: 24px 30px; flex: none; }
+  .ahora .lbl { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 19px; letter-spacing: 2.5px; text-transform: uppercase; color: ${GOLD2}; }
+  .ahora .a { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 40px; line-height: 1.22; margin-top: 8px; }
+  .ahora .a b { color: ${GOLD2}; font-weight: 900; }
+  .ahora .b { font-family: 'IBM Plex Mono', monospace; font-size: 20px; color: ${LILA}; letter-spacing: .3px; margin-top: 10px; line-height: 1.5; }
+  `;
+  const filas = ENERO.map((e) => `<div class="row"><div class="dh">${e[0]}</div><div class="c">${e[1]}<small>${e[2]}</small></div></div>`).join("");
+  const body = `
+  ${top("Enero 2027", "Lista de espera")}
+  <div class="kick">¿No alcanzas este año?</div>
+  <h1 class="ttl">Vuelven en<br><em>enero de 2027</em></h1>
+  <div class="lst">${filas}</div>
+  <div class="nt">Horas de Chile · los horarios de enero se confirman antes de abrir la matrícula.<br>Deja tu nombre en la lista de espera y te avisamos primero.</div>
+  <div class="ahora"><div class="lbl">Lo único que empieza en 2026</div>
+    <div class="a"><b>Básico 1 (A1.1)</b> · desde cero · con Kiran<br>martes 10 de noviembre · 20:00 (Chile)</div>
+    <div class="b">8 martes · 60 min por Zoom · es ahora o en enero</div></div>
+  ${urlRow()}`;
+  return doc({ story: true, css, body });
+}
+
+// b1n_34 · «Empieza 2027 leyendo 한글» (feed azul): lo que sabe hacer quien entra el 10 de noviembre.
+// Las frases son las mismas del carrusel (B.12 de 00_Diseno_Basico1.md). Sin fecha de término.
+const LOGROS = [
+  ["Lees y escribes <span class='kr'>한글</span>", "아 어 오 우 으 이 · 나무 · 바다", "las vocales · árbol · mar"],
+  ["Te presentas", "안녕하세요! 저는 마리아예요.", "¡Hola! Soy María."],
+  ["Hablas de tu familia", "우리 가족은 네 명이에요.", "En mi familia somos cuatro."],
+  ["Dices dónde están las cosas", "화장실이 어디예요?", "¿Dónde está el baño?"],
+  ["Cuentas lo que te gusta", "불고기를 정말 좋아해요!", "¡Me encanta el bulgogi!"],
+];
+function cierraElAnoFeed() {
+  const css = PRECIO_CSS + `
+  .kick { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 21px; letter-spacing: 3.5px; text-transform: uppercase; color: ${GOLD2}; margin-top: 28px; flex: none; }
+  .ttl { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 86px; line-height: 1; letter-spacing: -3px; margin: 8px 0 0; flex: none; }
+  .ttl em { font-style: italic; color: ${GOLD2}; }
+  .ttl .kr { font-family: 'Noto Sans KR', sans-serif; font-style: normal; font-weight: 900; font-size: .92em; }
+  .lg { margin-top: 26px; flex: none; }
+  .lg > div { padding: 13px 0 12px 26px; border-top: 2px solid rgba(255,255,255,.4); position: relative; }
+  .lg > div:last-child { border-bottom: 2px solid rgba(255,255,255,.4); }
+  .lg > div::before { content: ""; position: absolute; left: 0; top: 19px; width: 14px; height: 4px; background: ${GOLD2}; }
+  .lg .t { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 34px; line-height: 1.12; }
+  .lg .t .kr { font-family: 'Noto Sans KR', sans-serif; font-weight: 900; }
+  .lg .k { font-family: 'Noto Sans KR', sans-serif; font-weight: 700; font-size: 29px; line-height: 1.3; color: ${GOLD2}; margin-top: 5px; }
+  .lg .k span { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 400; font-size: 25px; color: ${LILA}; margin-left: 10px; }
+  .when { margin-top: 24px; font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 21px; letter-spacing: 1.5px; text-transform: uppercase; line-height: 1.5; flex: none; }
+  .when span { color: ${GOLD2}; }
+  .precio { margin-top: 24px; }
+  .precio .a { font-size: 38px; }
+  .foot .cta .kr { font-family: 'Noto Sans KR', sans-serif; font-weight: 900; color: ${GOLD2}; }
+  `;
+  const lg = LOGROS.map((l) => `<div><div class="t">${l[0]}</div><div class="k">${l[1]}<span>${l[2]}</span></div></div>`).join("");
+  const body = `
+  ${top("Básico 1 · A1.1", "Con Kiran · martes 20:00")}
+  <div class="kick">Entras el martes 10 de noviembre · son 8 martes</div>
+  <h1 class="ttl">Empieza 2027<br><em>leyendo <span class="kr">한글</span></em></h1>
+  <div class="lg">${lg}</div>
+  <div class="when">8 martes desde el <span>martes 10 de noviembre</span><br>20:00 hora de Chile · 60 min por Zoom · certificado incluido</div>
+  ${precioLanz()}
+  ${foot(`Inscríbete en <span>${D.url}</span> · <span class="kr">화이팅!</span>`)}`;
+  return doc({ story: false, css, body, blue: true });
+}
+
 // ─── lista de diseños ───
 const DISENOS = [
   { file: "b1n_01_anuncio_feed.png", story: false, html: anuncioFeed() },
@@ -680,6 +835,12 @@ const DISENOS = [
   { file: "b1n_17_trae_un_chingu_story.png", story: true, html: traeUnChingu() },
   { file: "b1n_18_trae_un_chingu_cuentas_story.png", story: true, html: traeUnChingu(true) },
   { file: "b1n_20_tiktok_portada.png", story: true, html: tiktokPortada() },
+  // ángulo «la última clase de 2026» (lun 2 nov)
+  { file: "b1n_30_ultima_clase_2026_feed.png", story: false, html: ultimaClaseFeed() },
+  { file: "b1n_31_ultima_clase_2026_story.png", story: true, html: ultimaClaseStory() },
+  { file: "b1n_32_quedan_6_story.png", story: true, html: quedan(6, "Lunes 2 de noviembre") },
+  { file: "b1n_33_enero_2027_story.png", story: true, html: eneroStory() },
+  { file: "b1n_34_cierra_el_ano_feed.png", story: false, html: cierraElAnoFeed() },
 ];
 
 // ─── control de calidad dentro del navegador (el mismo de make_disenos_octubre.js) ───

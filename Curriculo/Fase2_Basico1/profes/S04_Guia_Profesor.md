@@ -385,7 +385,7 @@ Recorre las 7 salas (≈ 2,5 min en cada una) y manda "Transmitir mensaje" a las
 
 ### C.11 Actividad de emergencia (si sobra tiempo en la sala principal)
 **A. 삼육구 게임 (3 min), un juego de grupo muy conocido en Corea (en fiestas, en los paseos de la universidad y en el recreo).**
-Se cuenta por turnos en sino-coreano (일, 이, …). Cuando un número tiene 3, 6 o 9 (삼, 육, 구), no se dice: se aplaude una vez por cada 3, 6 o 9 (33 = dos aplausos). Quien se equivoca empieza de nuevo desde 일. El orden es la lista de participantes de Zoom. **ES:** "El récord de la clase pasada fue ___: ¡supérenlo!" (Anótalo y úsalo la semana siguiente.)
+Se cuenta por turnos en sino-coreano (일, 이, …). Cuando un número tiene 3, 6 o 9 (삼, 육, 구), no se dice: se aplaude una vez por cada 3, 6 o 9 (33 = dos aplausos). Quien se equivoca empieza de nuevo desde 일. El orden es la lista de participantes de Zoom. **ES:** "Anotamos el récord del grupo: la próxima vez hay que superarlo." (Apunta el número en la hoja del curso; si el juego vuelve a salir en otra clase, compáralo.)
 
 **B. ¿Quién soy? (2 min), con la familia Simpson (lámina de respaldo LB1).**
 - **KO:** 우리 동생은 매기예요. 우리 오빠는 바트예요. 저는 누구예요? (→ 리사예요!)
