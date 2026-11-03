@@ -1034,7 +1034,7 @@ export const EN: Dict = {
   "en curso": "in progress",
   "te avisamos cuando abra.": "we'll let you know when it opens.",
   "Grupo de máximo 8 enfocado 100% en el examen oficial: TOPIK II (B1+) con Jay.": "A group of up to 8, 100% focused on the official exam: TOPIK II (B1+) with Jay.",
-  "Coreano para Niños (8–15): juegos, canciones y un show final para la familia.": "Korean for Kids (8–15): games, songs and a final show for the family.",
+  "Básico 1 (A1.1) parte desde cero con el alfabeto, así que también sirve para tu hijo o hija, y varios lo toman junto a su mamá o papá. La inscripción la haces tú. Coreano para Niños, con juegos y canciones, vuelve en enero.": "Basic 1 (A1.1) starts from zero with the alphabet, so it works for your son or daughter too, and several take it together with their mum or dad. You sign them up. Korean for Kids, with games and songs, is back in January.",
   "Por confirmar": "To be confirmed",
   "Básico 1 · noviembre 2026": "Basic 1 · November 2026",
   "Matrícula abierta hasta el lunes 9 de noviembre": "Enrollment open until Monday, November 9",

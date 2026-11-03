@@ -30,7 +30,7 @@ const ENTRADAS: { key: Entrada; label: string; cursoId: CursoId; frase: string }
   { key: "nivel1", label: i18n("Terminé el Nivel 1 de julio"), cursoId: "a12", frase: i18n("¿Fuiste alumno/a del Nivel 1 en julio? Ese curso hoy se llama Básico 1 (A1.1). Tu siguiente paso es Básico 2 (A1.2) · miércoles 21:00 Chile · con Jay.") },
   { key: "hablar", label: i18n("Quiero hablar"), cursoId: "a21", frase: i18n("Con Básico 2 terminado (o test de nivel), Conversacional 1 (A2.1) con la Prof.ª Abby: puro hablar con una nativa.") },
   { key: "topik", label: i18n("Voy por el TOPIK"), cursoId: "topik2", frase: i18n("Grupo de máximo 8 enfocado 100% en el examen oficial: TOPIK II (B1+) con Jay.") },
-  { key: "ninos", label: i18n("Es para mi hijo/a"), cursoId: "ninos", frase: i18n("Coreano para Niños (8–15): juegos, canciones y un show final para la familia.") },
+  { key: "ninos", label: i18n("Es para mi hijo/a"), cursoId: "a11", frase: i18n("Básico 1 (A1.1) parte desde cero con el alfabeto, así que también sirve para tu hijo o hija, y varios lo toman junto a su mamá o papá. La inscripción la haces tú. Coreano para Niños, con juegos y canciones, vuelve en enero.") },
 ];
 
 /** Estado de un curso: el de su clase (si hay una abierta, manda esa). */
@@ -134,7 +134,7 @@ export default function Escalera({
               >
                 {estadoDe(sel.cursoId) !== "abierta"
                   ? `${t("Avísame cuando abra")} →`
-                  : sel.cursoId === "ninos"
+                  : sel.key === "ninos"
                     ? t("Inscribir a mi hijo/a →")
                     : t("Ir a {curso} →", { curso: t(CURSOS.find((c) => c.cursoId === sel.cursoId)!.nombreCorto).split(" (")[0] })}
               </a>

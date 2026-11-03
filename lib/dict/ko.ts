@@ -1034,7 +1034,7 @@ export const KO: Dict = {
   "en curso": "진행 중",
   "te avisamos cuando abra.": "오픈하면 알려 드릴게요.",
   "Grupo de máximo 8 enfocado 100% en el examen oficial: TOPIK II (B1+) con Jay.": "최대 8명, 공식 시험에 100% 집중하는 반: Jay 선생님의 TOPIK II (B1+).",
-  "Coreano para Niños (8–15): juegos, canciones y un show final para la familia.": "어린이 한국어 (8–15세): 게임, 노래, 그리고 가족을 위한 마지막 발표회.",
+  "Básico 1 (A1.1) parte desde cero con el alfabeto, así que también sirve para tu hijo o hija, y varios lo toman junto a su mamá o papá. La inscripción la haces tú. Coreano para Niños, con juegos y canciones, vuelve en enero.": "기초 1 (A1.1)은 한글부터 시작하니 자녀도 함께 들을 수 있고, 엄마나 아빠와 같이 수강하는 분도 여러 분 계십니다. 등록은 보호자가 해 주세요. 게임과 노래로 배우는 어린이 한국어는 1월에 다시 열립니다.",
   "Por confirmar": "추후 확정",
   "Básico 1 · noviembre 2026": "기초 1 · 2026년 11월",
   "Matrícula abierta hasta el lunes 9 de noviembre": "11월 9일(월)까지 등록 접수 중",

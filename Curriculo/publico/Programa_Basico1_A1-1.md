@@ -32,11 +32,12 @@ Este curso es para ti si:
 - **Quieres que te expliquen el coreano desde el español.** Kiran es una profesora coreana que se crió en Argentina y enseña en los dos idiomas.
 - **Te animas a hablar con la cámara encendida** y a equivocarte en voz alta. En este grupo nos equivocamos todos.
 - Puedes dedicar **1 hora en vivo** a la semana, los martes, y hacer **tareas cortas repartidas en varios días**.
+- **Quieres aprender junto a tu hijo o hija.** Básico 1 parte desde cero con el alfabeto, así que sirve para los dos, y varias familias lo toman juntas. No hay edad mínima: si puede seguir una clase de 60 minutos por Zoom, puede entrar. La inscripción la hace el padre, la madre o el tutor, que es con quien nos coordinamos.
 
 **Probablemente no es tu curso si…**
 
 - **Ya lees 한글 con soltura y te presentas sin ayuda.** Tu curso es **Básico 2 (A1.2)**. El grupo actual empezó el 21 de octubre: escríbenos por **WhatsApp al +56 9 4211 5562** y te avisamos cuándo abre el próximo. Si no sabes bien cuál es tu nivel, haz el **test de nivel gratis** ([academiaseul.com/test-nivel](https://www.academiaseul.com/test-nivel): 5 preguntas, unos 2 minutos, sin registro).
-- **Buscas clases para un niño o una niña de 8 a 15 años.** Escríbenos y te avisamos cuándo abre **Coreano para Niños** ([lista de espera](https://www.academiaseul.com/notificarme?curso=ninos)). Desde los 13 años también se puede entrar a Básico 1.
+- **Buscas el formato de niños: juegos, canciones, dibujos y un show final para la familia.** Eso es **Coreano para Niños**, que vuelve en enero de 2027 ([lista de espera](https://www.academiaseul.com/notificarme?curso=ninos)). Si tu hijo o hija se acomoda en un grupo con adultos, puede entrar a Básico 1 desde ya.
 
 ¿Quieres probar antes de decidir? Tienes gratis el [Lector de Hangul](https://www.academiaseul.com/lector-coreano), [Dubu](https://www.academiaseul.com/dubu), el puzzle del Hangul, el juego [한글 Race](https://www.academiaseul.com/hangul-race) y el [taller de Hangul en video](https://www.academiaseul.com/taller), una clase completa de una hora.
 

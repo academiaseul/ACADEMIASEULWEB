@@ -193,11 +193,11 @@ export default function Privacidad() {
               8. Menores de edad
             </h2>
             <p>
-              Nuestros cursos para adultos están dirigidos a personas de 14 años o más; entre
-              14 y 18 años se requiere autorización de tu padre, madre o tutor. El curso
-              Coreano para Niños (8–15 años) se contrata exclusivamente a través del padre,
-              madre o tutor, quien entrega sus propios datos de contacto y autoriza la
-              participación del menor. No recopilamos datos de menores sin esa autorización.
+              Cualquier persona menor de 18 años se inscribe a través de su padre, madre o
+              tutor, quien entrega sus propios datos de contacto y autoriza la participación.
+              Esto vale para todos nuestros cursos, incluido Coreano para Niños. De un alumno
+              menor de edad tratamos solo su nombre y lo necesario para la clase y el
+              certificado. No recopilamos datos de menores sin esa autorización.
             </p>
           </section>
 
