@@ -43,6 +43,10 @@ export const faqs: Faq[] = [
       : i18n('Con el precio de lanzamiento (hasta el domingo 8 de noviembre) puedes pagar al instante con tarjeta por Mercado Pago. Si prefieres PayPal, Jay te envía el link por WhatsApp.'),
   },
   {
+    q: i18n('¿Mi hijo o hija puede tomar el curso? ¿Hay edad mínima?'),
+    a: i18n('No hay edad mínima. Básico 1 parte desde cero con el alfabeto, así que también sirve para un niño, una niña o un adolescente: el único criterio es que pueda seguir una clase de 60 minutos por Zoom. Eso sí, es un grupo con adultos; el formato con juegos, canciones y show final es Coreano para Niños (8–15), que vuelve en enero de 2027. A los menores de 18 los inscribe su padre, madre o tutor, que deja sus propios datos y es con quien nos coordinamos. Varias familias lo toman juntas y funciona muy bien, porque practican en la casa entre clase y clase.'),
+  },
+  {
     q: i18n('¿Recibo un certificado?'),
     a: i18n('Sí, está incluido en todos los cursos. Al completar tu curso recibes el certificado de Academia Seúl del nivel correspondiente (Básico 1 · A1.1, Básico 2 · A1.2, Conversacional 1 · A2.1, TOPIK II o Niños), en base a tu asistencia y participación. Si tienes el certificado del Nivel 1 de julio 2026, equivale a Básico 1 (A1.1) y te habilita directo para Básico 2.'),
   },

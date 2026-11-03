@@ -68,7 +68,7 @@ export default function Nivel1Page() {
   const inscripcionRef = useRef<HTMLElement>(null);
 
   // Inscripción form
-  const [form, setForm] = useState({ nombre: "", correo: "", whatsapp: "", edad: "", rut: "", pais: "", nivel: "", comoConocio: "", motivacion: "", apoderado: "" });
+  const [form, setForm] = useState({ nombre: "", correo: "", whatsapp: "", edad: "", rut: "", pais: "", nivel: "", comoConocio: "", motivacion: "", apoderado: "", menor: false });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [formError, setFormError] = useState("");
@@ -86,6 +86,9 @@ export default function Nivel1Page() {
   const clase = CLASES_ABIERTAS.find((c) => c.id === selectedClase) ?? CLASES_ABIERTAS[0] ?? CLASES[0];
   const curso = cursoDe(clase);
   const esNinos = curso.grupo === "ninos";
+  // Un menor puede entrar a cualquier curso (sin edad minima desde el 2 nov 2026). La casilla es
+  // el acto de autorizacion del apoderado y queda registrada en el correo de Formspree.
+  const pideApoderado = esNinos || form.menor;
   const planBase = plan === "unico" ? t("US${p} pago único", { p: precio.unico }) : t("{n} cuotas de US${m}", { n: MESES, m: precio.mensual });
   const planLabel = precio.lanzamiento ? t("{plan} · precio de lanzamiento", { plan: planBase }) : planBase;
   const paso = submitted ? (payConfirmed ? 3 : 2) : 1;
@@ -174,7 +177,7 @@ export default function Nivel1Page() {
       [form.nivel, t("nivel")],
       [form.comoConocio, t("cómo nos conociste")],
     ];
-    if (esNinos) req.unshift([form.apoderado, t("nombre del apoderado/a")]);
+    if (pideApoderado) req.unshift([form.apoderado, t("nombre del apoderado/a")]);
     return req.filter(([v]) => !v).map(([, n]) => n);
   };
 
@@ -194,7 +197,8 @@ export default function Nivel1Page() {
           clase: clase.label,
           plan: planLabel,
           nombre: form.nombre,
-          apoderado: esNinos ? form.apoderado : "",
+          apoderado: pideApoderado ? form.apoderado : "",
+          menor_de_edad: form.menor ? "si - el apoderado/a autorizo la participacion en el formulario" : "",
           correo: form.correo,
           whatsapp: form.whatsapp,
           edad: form.edad,
@@ -226,7 +230,7 @@ export default function Nivel1Page() {
           _subject: `💰 PAGO ${curso.nombreCorto} — ${form.nombre || "alumno sin nombre"}`,
           tipo: "Confirmación de pago",
           nombre: form.nombre || "(no completó inscripción)",
-          apoderado: esNinos ? form.apoderado : "",
+          apoderado: pideApoderado ? form.apoderado : "",
           correo: form.correo,
           whatsapp: form.whatsapp,
           clase: clase.label,
@@ -549,7 +553,21 @@ export default function Nivel1Page() {
 
           {!submitted ? (
             <form onSubmit={handleInscribir} className="bg-[#F5F3FF] rounded-3xl p-6 md:p-8 border border-[#E5E1FB] space-y-4">
-              {esNinos && (
+              {!esNinos && (
+                <label className="flex gap-3 items-start cursor-pointer rounded-2xl bg-white border border-[#E5E1FB] p-4">
+                  <input
+                    type="checkbox"
+                    checked={form.menor}
+                    aria-label={t("Inscribo a un o una menor de 18 años")}
+                    onChange={(e) => setForm({ ...form, menor: e.target.checked })}
+                    className="mt-0.5 h-4 w-4 flex-shrink-0 accent-[#3D2EE8]"
+                  />
+                  <span className="text-sm text-gray-700 leading-relaxed">
+                    {t("Inscribo a un o una menor de 18 años. Dejo mis propios datos de contacto como su padre, madre o tutor/a y autorizo su participación.")}
+                  </span>
+                </label>
+              )}
+              {pideApoderado && (
                 <>
                   <div className="text-xs font-bold tracking-widest uppercase" style={{ color: "var(--as-azul-txt)" }}>{t("Datos del apoderado/a")}</div>
                   <div>
@@ -573,17 +591,22 @@ export default function Nivel1Page() {
                 <input type="text" value={form.pais} aria-label={t("País y ciudad")} onChange={(e) => setForm({ ...form, pais: e.target.value })} placeholder={info.corto === "Chile" ? t("Ej: Chile, Santiago") : t("Ej: {pais}, ciudad", { pais: t(info.corto) })} className={input} />
               </div>
 
-              {esNinos && <div className="text-xs font-bold tracking-widest uppercase pt-2" style={{ color: "var(--as-azul-txt)" }}>{t("Datos del alumno/a")}</div>}
+              {pideApoderado && <div className="text-xs font-bold tracking-widest uppercase pt-2" style={{ color: "var(--as-azul-txt)" }}>{t("Datos del alumno/a")}</div>}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className={label}>{esNinos ? t("Nombre del niño/a *") : t("Nombre completo *")}</label>
-                  <input type="text" value={form.nombre} aria-label={esNinos ? t("Nombre del niño/a") : t("Nombre completo")} onChange={(e) => setForm({ ...form, nombre: e.target.value })} placeholder={esNinos ? t("Nombre y apellido del niño/a") : t("Tu nombre y apellido")} className={input} />
+                  <label className={label}>{esNinos ? t("Nombre del niño/a *") : form.menor ? t("Nombre del alumno/a *") : t("Nombre completo *")}</label>
+                  <input type="text" value={form.nombre} aria-label={esNinos ? t("Nombre del niño/a") : form.menor ? t("Nombre del alumno/a") : t("Nombre completo")} onChange={(e) => setForm({ ...form, nombre: e.target.value })} placeholder={pideApoderado ? t("Nombre y apellido del alumno/a") : t("Tu nombre y apellido")} className={input} />
                 </div>
                 <div>
-                  <label className={label}>{esNinos ? t("Edad del niño/a *") : t("Edad *")}</label>
-                  <input type="number" min={1} value={form.edad} aria-label={esNinos ? t("Edad del niño/a") : t("Edad")} onChange={(e) => setForm({ ...form, edad: e.target.value })} placeholder={esNinos ? t("Ej: 10") : t("Ej: 24")} className={input} />
+                  <label className={label}>{esNinos ? t("Edad del niño/a *") : form.menor ? t("Edad del alumno/a *") : t("Edad *")}</label>
+                  <input type="number" min={1} value={form.edad} aria-label={esNinos ? t("Edad del niño/a") : t("Edad")} onChange={(e) => setForm({ ...form, edad: e.target.value })} placeholder={esNinos ? t("Ej: 10") : form.menor ? "" : t("Ej: 24")} className={input} />
                 </div>
               </div>
+              {!esNinos && (
+                <p className="text-xs text-gray-500 leading-relaxed -mt-1">
+                  {t("Sin edad mínima: si puede seguir una clase de 60 minutos por Zoom, puede entrar. Es un grupo con adultos; el formato con juegos y canciones es Coreano para Niños, que vuelve en enero de 2027.")}
+                </p>
+              )}
               <div>
                 <label className={label}>{t("Documento de identidad")} <span className="font-normal text-gray-400">{t("(opcional)")}</span></label>
                 <input type="text" value={form.rut} aria-label={t("Documento de identidad")} onChange={(e) => setForm({ ...form, rut: e.target.value })} placeholder={t("RUT o ID — lo pediremos al emitir el certificado")} className={input} />
@@ -620,7 +643,7 @@ export default function Nivel1Page() {
               {formError && <p className="text-sm font-medium" style={{ color: "var(--as-azul-txt)" }}>{formError}</p>}
               {envioFallo && (
                 <a
-                  href={waLink(t("Hola Jay! Quiero {verbo} en {curso} ({dia} {hora} Chile) con {plan}. El formulario del sitio no se envió. Mis datos: {nombre} · {correo} · {whatsapp}.", { verbo, curso: t(curso.nombreCorto), dia: t(clase.dia), hora: clase.horaChile, plan: planLabel, nombre: esNinos && form.apoderado ? form.apoderado + " / " + form.nombre : form.nombre, correo: form.correo, whatsapp: form.whatsapp }))}
+                  href={waLink(t("Hola Jay! Quiero {verbo} en {curso} ({dia} {hora} Chile) con {plan}. El formulario del sitio no se envió. Mis datos: {nombre} · {correo} · {whatsapp}.", { verbo, curso: t(curso.nombreCorto), dia: t(clase.dia), hora: clase.horaChile, plan: planLabel, nombre: pideApoderado && form.apoderado ? form.apoderado + " / " + form.nombre : form.nombre, correo: form.correo, whatsapp: form.whatsapp }))}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center py-3 rounded-full text-white font-bold"
@@ -633,7 +656,10 @@ export default function Nivel1Page() {
               <button type="submit" disabled={submitting} className="w-full py-4 rounded-full text-white font-bold text-lg hover:scale-[1.02] transition disabled:opacity-60" style={{ backgroundColor: "#3D2EE8" }}>
                 {submitting ? t("Enviando...") : t("Reservar cupo en {curso} →", { curso: t(curso.nombreCorto).split(" (")[0] })}
               </button>
-              <p className="text-center text-xs text-gray-500">{t("🔒 Tus datos están protegidos y no se comparten.")}</p>
+              <p className="text-center text-xs text-gray-500">
+                {t("🔒 Usamos tus datos solo para tu inscripción y para escribirte del curso.")}{" "}
+                <a href="/privacidad" className="underline" style={{ color: "var(--as-azul-txt)" }}>{t("Cómo tratamos tus datos")}</a>
+              </p>
             </form>
           ) : (
             <div className="bg-[#F0FBF4] rounded-3xl p-8 border border-[#BCEBCD] text-center">

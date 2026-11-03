@@ -19,7 +19,7 @@ const ESTADO_CURSO: Record<string, string> = {
   basico2: i18n("Básico 2 ya está en curso (desde el 21 de octubre). Déjanos tus datos y te avisamos cuando abra el próximo."),
   conversacional: i18n("Vuelve en enero de 2027. Déjanos tus datos y te avisamos primero."),
   topik: i18n("Vuelve en enero de 2027. Déjanos tus datos y te avisamos primero."),
-  ninos: i18n("Vuelve en enero de 2027. Déjanos tus datos y te avisamos primero."),
+  ninos: i18n("Coreano para Niños vuelve en enero de 2027 con su formato propio: juegos, canciones, dibujos y show final. Déjanos tus datos y te avisamos primero."),
   conversacion: i18n("Abre en enero de 2027. Déjanos tus datos y te avisamos primero."),
 };
 
@@ -160,6 +160,29 @@ function NotificarmeForm() {
           </Link>
           <p className="text-white/40 text-xs mt-4">
             {t("¿Prefieres que te avisemos de una clase futura? Deja tus datos abajo.")}
+          </p>
+        </div>
+      )}
+      {COHORTE_ABIERTA && precio.matriculaAbierta && cursoParam === "ninos" && (
+        <div className="mb-10 rounded-2xl border border-seoul-red/40 bg-seoul-red/10 p-6">
+          <p className="text-seoul-white font-bold text-lg mb-1">
+            {t("👧 Mientras tanto: Básico 1 no tiene edad mínima.")}
+          </p>
+          <p className="text-white/70 text-sm mb-4">
+            {t("Básico 1 parte desde cero con el alfabeto, así que también sirve para tu hijo o hija, y varios lo toman junto a su mamá o papá. Si puede seguir una clase de 60 minutos por Zoom, puede entrar. La inscripción la haces tú.")}
+          </p>
+          <p className="text-white/70 text-sm mb-4">
+            {t("{ritmo} · martes 20:00 hora de Chile · con Kiran · certificado incluido.", { ritmo: t(RITMO_LABEL) })}
+          </p>
+          <p className="text-seoul-white text-sm font-bold mb-4"><PrecioCampana tachadoClassName="font-normal text-white/50" /></p>
+          <Link
+            href={`/nivel-1?clase=${CLASE_PRINCIPAL}#clases`}
+            className="inline-flex items-center gap-2 px-6 py-3 bg-seoul-red hover:bg-seoul-red-muted text-white font-bold rounded-lg transition-all duration-300 text-sm"
+          >
+            {t("Ver Básico 1 →")}
+          </Link>
+          <p className="text-white/40 text-xs mt-4">
+            {t("Y si prefieren el formato con juegos y canciones, deja tus datos abajo y te avisamos en enero.")}
           </p>
         </div>
       )}

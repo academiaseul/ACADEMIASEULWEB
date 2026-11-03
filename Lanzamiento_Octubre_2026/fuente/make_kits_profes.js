@@ -296,9 +296,22 @@ function buildKiran() {
     ["Grupo con niveles muy distintos", "Salas por nivel en la práctica y tarea base / extra. Avísale a Jay."],
     ["Feriados y fiestas", "El martes 8 de diciembre (clase 5) es feriado en Chile: Jay confirma si se mantiene o se mueve. Y las clases 7 y 8 caen el 22 y el 29 de diciembre, entre Navidad y Año Nuevo: Jay confirma también esas dos. Si hay que mover una clase, se avisa con 48 h y se ofrece reposición o grabación."],
     ["Conducta inapropiada", "Advertencia en privado; si se repite, le informas a Jay, que decide."],
+    ["Un alumno o alumna menor de edad en el grupo", "Jay te avisa antes de la clase 1 (nombre de pila y edad). Tres cosas cambian: su sala de grupos es siempre de 3, nunca de 2; en Zoom entra solo con su nombre de pila; y el chat queda en «Todos», sin privados. Si un día no se puede armar un trío, entras tú a esa sala o la ronda se hace sin salas. Detalle en Curriculo/Protocolo_Menores_Grupos_Adultos.md."],
   ]));
   ch.push(H3("Comunicación"));
   ["Grupo de WhatsApp del curso: solo temas del curso. Respondes las dudas dentro de 24 h, en horario hábil.", "Nada de datos personales de otros alumnos fuera del grupo.", "Con Jay: la hoja del curso en Drive (asistencia, quiz, notas) el mismo día de la clase + un mensaje de una línea al terminar cada clase.", "Check-in de la primera semana con Jay: viernes 13 de noviembre.", "Capturas o videos de la clase para redes: solo con permiso del grupo.", "Material en la carpeta del curso con nombre estándar: Curso_S01_Fecha_Tema.pdf."].forEach((x) => ch.push(bullet(x)));
+
+  // 8b. Menores de edad
+  ch.push(H3("Si hay un alumno o alumna menor de edad"));
+  ch.push(P("Desde noviembre de 2026 Básico 1 no tiene edad mínima: lo inscribe su padre, madre o tutor y el criterio es que pueda seguir una clase de 60 minutos por Zoom. Jay te avisa antes de la clase 1 si hay alguno, con su nombre de pila y su edad. La regla de la casa es una sola y vale para todo el curso: nunca un adulto a solas con un menor."));
+  [
+    "Salas de grupos: la sala del menor es SIEMPRE de 3 personas, nunca de 2. La consigna ya permite tríos («salas de 2, alguna de 3»), así que no cambia nada de la clase: solo fija cuál es la de tres. Si ese día faltan alumnos y no se arma el trío, entras tú a esa sala y te quedas, o esa ronda se hace sin salas, en la sala principal.",
+    "Nombre en Zoom: solo el nombre de pila, sin apellido. Si entró con los dos, se lo cambias desde el panel de participantes (botón derecho → Cambiar nombre). No hace falta explicarlo delante del grupo.",
+    "Chat: en «Todos» desde la clase 1 (Zoom → Más → Chat → Participantes pueden chatear con: Todos). Sin mensajes privados entre participantes.",
+    "Si el menor queda solo contigo en la sesión (llegó antes, se cayeron los demás, se quedó después): dejas la grabación corriendo y cierras la sesión, o esperas con cámara y micrófono encendidos a que llegue alguien más. Nada de clase particular improvisada.",
+    "Tareas con video donde se le ve la cara: van por privado al WhatsApp de la academia (+56 9 4211 5562), no al grupo. Los audios y las fotos de la hoja sí pueden ir al grupo.",
+    "No es tu trabajo verificar edades ni hablar de pagos con la familia: eso es de Jay.",
+  ].forEach((x) => ch.push(bullet(x)));
 
   // 9. Materiales
   ch.push(H1("9. Materiales y links"));

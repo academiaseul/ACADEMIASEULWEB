@@ -144,7 +144,7 @@ export default function Courses() {
         </div>
 
         {/* Adultos */}
-        <div className="text-xs font-bold tracking-[0.25em] uppercase text-seoul-black/40 mb-4">{t('Adultos · la escalera')}</div>
+        <div className="text-xs font-bold tracking-[0.25em] uppercase text-seoul-black/40 mb-4">{t('La escalera · sin edad mínima')}</div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 mb-10">
           {adultos.map((c, i) => (
             <CourseCard key={c.cursoId} curso={c} index={i} pais={pais} paisCorto={info.corto} />

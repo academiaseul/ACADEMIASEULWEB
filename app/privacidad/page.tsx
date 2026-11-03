@@ -120,7 +120,7 @@ export default function Privacidad() {
                 inscripción.
               </li>
               <li>
-                <strong>Netlify:</strong> hosting del sitio web. <strong>Google Analytics, Meta Pixel y Microsoft Clarity:</strong> analítica de uso, cuando están activos.
+                <strong>Vercel:</strong> hosting del sitio web. <strong>Google Analytics, Meta Pixel y Microsoft Clarity:</strong> analítica de uso, cuando están activos.
               </li>
               <li>
                 <strong>Zoom:</strong> plataforma de clases en vivo.
