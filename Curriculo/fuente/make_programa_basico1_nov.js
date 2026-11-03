@@ -157,6 +157,7 @@ async function main() {
     ["Modalidad", "En vivo por Zoom · grabación disponible 24 h después de cada clase"],
     ["Material", CURSO.libro],
     ["Cupos", `Máximo ${C.cupos} personas`],
+    ["Edad", "Sin edad mínima — si puede seguir una clase de 60 minutos por Zoom, puede entrar. A los menores de 18 los inscribe su padre, madre o tutor, que es con quien nos coordinamos."],
     ["Precio de lanzamiento", `${C.lanzamiento} (hasta el ${C.lanzamientoHasta})`],
     ["Precio normal", `${C.normal} (desde el lunes 9 de noviembre)`],
     ["Inscripciones", `Hasta el ${C.cierre}`],

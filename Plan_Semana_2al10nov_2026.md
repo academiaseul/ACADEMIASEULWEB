@@ -842,6 +842,114 @@ Y mientras, me gustaría dejarte algo por la paciencia: una *sesión 1:1 de 20 m
 Perdón de verdad, y gracias por haber confiado. 죄송합니다 🙏
 ```
 
+## 9b · Familias · el público que se abrió el lunes 2
+
+Decisión de Jay del lun 2 de noviembre: **Básico 1 no tiene edad mínima.** Parte desde cero con el alfabeto, así que también sirve para un niño o una adolescente, y hay familias que lo toman juntas. El criterio que sí se dice en voz alta: **«si puede seguir una clase de 60 minutos por Zoom, puede entrar»**. A cualquier menor de 18 lo inscribe su padre, madre o tutor, que es con quien se coordina. El formato de niños —juegos, canciones, dibujos y show final— sigue siendo Coreano para Niños, que vuelve en enero de 2027.
+
+Esto no es un mensaje nuevo que inventar: es demanda que ya pediste y que estaba esperando enero. **Los que pidieron lista de espera de Coreano para Niños están en Formspree** (`mzdypyky`). No van en el repo; ábrelos ahí.
+
+Antes del lunes 2, el sitio perdía justo a esta gente: el chip «Es para mi hijo/a» llevaba a Coreano para Niños, que está marcado `enero_2027`, o sea al formulario de «avísame». Ya está arreglado y ahora lleva a Básico 1.
+
+### 9b.1 · A las familias de la lista de espera de Niños (1:1, lo mandas tú)
+
+Uno por uno, nunca en lote. Si la conversación tiene más de 24 h, Meta no te deja responder fuera de plantilla: ahí escribe por WhatsApp.
+
+```
+Hola [nombre]! Soy Jay, de Academia Seúl 🐯
+
+Te escribo porque pediste aviso para Coreano para Niños. Ese curso
+vuelve en enero, pero antes te quiero contar otra opción.
+
+Este mes abrimos Básico 1 con la profesora Kiran y parte desde cero:
+la clase 1 es el alfabeto coreano, letra por letra. No tiene edad
+mínima. Si [nombre del niño o la niña] puede seguir una clase de 60
+minutos por Zoom, puede entrar, y la inscripción la haces tú.
+
+Son 8 martes a las 20:00 (hora de Chile), 60 minutos. Hay familias
+que lo toman juntas y resulta muy bien, porque en la casa se practica
+entre clase y clase.
+
+Empieza el martes 10. Precio de lanzamiento US$120 el curso completo
+(o 2 cuotas de US$60) hasta el domingo 8; después queda en US$150.
+
+Y si prefieren el formato de niños, con juegos y canciones, te aviso
+en enero y no pasa nada. ¿Te cuento más?
+```
+
+### 9b.2 · Respuesta a «¿sirve para mi hijo/a?»
+
+```
+¡Hola! Sí 🙂
+
+Básico 1 parte desde cero: la primera clase es el alfabeto coreano,
+letra por letra. No hay edad mínima — el único criterio es que pueda
+seguir una clase de 60 minutos por Zoom.
+
+Son 8 martes a las 20:00 (hora de Chile), en vivo, y queda la
+grabación. La inscripción la haces tú como apoderado/a y nos
+coordinamos contigo.
+
+Varios lo toman junto a su mamá o su papá, y les resulta muy bien.
+
+Precio de lanzamiento: US$120 el curso completo o 2 cuotas de US$60,
+hasta el domingo 8. ¿Cuántos años tiene?
+```
+
+Si contesta una edad chica (7, 8, 9) y tú ves que no va a aguantar los 60 minutos, **díselo**:
+
+```
+Te soy honesto: a esa edad la clase de adultos se le puede hacer
+larga, porque es una hora de leer y escribir, sin juegos. Puede
+entrar si tú crees que aguanta, pero yo esperaría Coreano para Niños
+en enero, que está hecho para su edad: juegos, canciones, dibujos y
+un show final para la familia. Te aviso en cuanto tenga las fechas 🙂
+```
+
+### 9b.3 · Historia para subir (texto sobre el diseño)
+
+```
+¿Y si lo aprenden juntos?
+
+Básico 1 parte desde cero.
+La clase 1 es el alfabeto, letra por letra.
+Sin edad mínima.
+
+8 martes · 20:00 Chile · con la profe Kiran
+US$120 hasta el domingo
+
+academiaseul.com/inscribete
+```
+
+### 9b.4 · Caption del post de familias
+
+```
+Mi mamá me preguntó si podía aprender conmigo.
+
+Le dije que sí, y resulta que es la mejor forma: en la casa
+se practica entre clase y clase, y nadie se da por vencido
+cuando el otro sigue ahí.
+
+Básico 1 parte desde cero. La clase 1 es el alfabeto coreano,
+letra por letra, con la profesora Kiran — coreana, criada en
+Argentina, explica en los dos idiomas.
+
+No hay edad mínima. El único criterio es que pueda seguir una
+clase de 60 minutos por Zoom. A los menores de 18 los inscribe
+su papá, mamá o tutor.
+
+8 martes · 20:00 hora de Chile · desde el martes 10
+US$120 el curso completo, o 2 cuotas de US$60, hasta el domingo 8
+
+Link en la bio 👆
+
+#coreano #aprendercoreano #hangul #coreanoparaprincipiantes
+#academiaseul #estudiarcoreano #idiomacoreano #coreanoenfamilia
+```
+
+⚑ **Lo que NO se dice.** Nunca «curso para niños» a secas, porque el formato de niños es el de enero y prometerlo ahora es una promesa que no se cumple. Nunca un número de edad mínima, porque ya no existe. Y no hay descuento por familia: si Jay quiere uno, hay que crearlo y decidirlo primero [POR CONFIRMAR].
+
+---
+
 ## 10 · Objeciones
 
 **«Es caro» / «no me alcanza»**
