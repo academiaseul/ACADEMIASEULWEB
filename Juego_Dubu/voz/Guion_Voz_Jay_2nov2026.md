@@ -5,7 +5,8 @@
 - **Bloques 1 a 6 = los imprescindibles: 358 ítems, 45 minutos de grabación.** Cubren Dubu entero, la parte del Lector que el alumno toca el primer día, las 127 palabras de Básico 1 que faltan y las 23 frases clave del curso de Kiran.
 - **Si solo alcanzas 10 minutos: graba el bloque 1 y nada más.** Es el único que enciende algo visible el mismo día.
 - Bloques 7 y 8 son opcionales y están al final, con la recomendación honesta de cada uno.
-- Ningún texto se repite entre bloques: están deduplicados en cascada.
+- **Bloque 9 (nuevo, 2 nov): el RPG 호랑이의 모험 · La aventura del Tigre (`/aventura`).** El juego dice 139 textos distintos y 114 ya están en los bloques 1–8. El bloque 9 trae solo los que faltan: **40 ítems, 7 minutos**. Con el bloque 1 + el 9, todo el juego suena con tu voz.
+- Ningún texto se repite entre bloques: están deduplicados en cascada (salvo 5 sílabas del bloque 7 que el juego necesita y que repito en el 9, porque el 7 es el que recomiendo no grabar).
 
 ## Cómo grabar
 
@@ -713,6 +714,60 @@ pieza chica con ropa o cortinas (sin eco), celular en modo avión a 15–20 cm d
 
 ---
 
+## Bloque 9 · La aventura del Tigre (el RPG)
+
+**40 ítems · 7 minutos.** Todo lo que el RPG `/aventura` dice y que no está en los bloques 1–6: lo que dicen los personajes, lo que se pide en la tienda, las sílabas de los letreros y las palabras de los duelos. El juego ya está preparado: en cuanto tus clips estén en `public/audio/kr-jay/` suenan con tu voz (y aparece «Ajustes → Voz de Jay» para apagarla); lo que no hayas grabado sigue sonando con SunHi. Lo que más se nota: los personajes, que hoy hablan con la voz del dispositivo porque esas frases no existen ni en SunHi.
+
+**Cómo leerlo:** Di «bloque nueve». Las frases de los personajes (1–11) llévalas actuadas, como en el juego: 하나 contenta de conocerte, la abuela con un 아이고 de suspiro y después un 아이고 de alegría, el dependiente amable de tienda, el 뚝딱 del 도깨비 corto y fuerte (es el golpe de su garrote mágico) y el 멍멍 de un perrito chico. 2 segundos entre frase y frase. Las de la tienda (12–19) con tono de cliente amable; 김밥이에요 y 부채예요 son las respuestas equivocadas que el juego muestra al lado de 주세요, así que léelas neutras, como un «es un 김밥». Las palabras y sílabas (20–30) como en clase, 1 segundo entre una y otra. **Si alguna frase de los personajes no te suena natural, dila como la dirías tú y avísame:** cambio el texto del juego para que calce con tu grabación (son frases nuevas que todavía no revisaste).
+
+**Parte dos (31–40): solo si NO vas a grabar el bloque 8.** Son 10 textos del bloque 8 que el juego también usa. Di «parte dos» antes de empezarla.
+
+```
+저는 하나예요. 반갑습니다
+와! 감사합니다
+아이고
+아이고, 고마워요
+어서 오세요
+네, 여기 있어요
+안녕하세요! 저는 도윤이에요
+안녕하세요! 저는 마테오예요
+와, 커피! 감사합니다
+뚝딱
+멍멍
+김밥 주세요
+우유 주세요
+물 주세요
+부채 주세요
+연필 주세요
+우산 주세요
+김밥이에요
+부채예요
+북촌
+이유
+나비
+치마
+한
+글
+얘
+왜
+외
+웨
+개
+parte dos
+시작이 반이다
+안녕하세요! 저는 발렌티나예요
+칠레 사람이에요
+멕시코 사람이에요
+우유예요
+물이에요
+연필이에요
+우산이에요
+여우
+부엌
+```
+
+Los textos van tal cual los busca el juego (sin el signo final: el juego quita la puntuación del final antes de buscar el clip). La lista se arma con `node Juego_RPG/voz/textos_aventura.js`, que cruza lo que dice el juego con este guion y con los clips SunHi.
+
 ## Qué hago yo cuando me mandes los archivos
 
 - Corto el archivo largo por silencios usando las marcas de bloque que dijiste en voz alta, normalizo el volumen y exporto a MP3 44,1 kHz / 64 kbps mono, el mismo formato que usa el script.
@@ -723,6 +778,7 @@ pieza chica con ropa o cortinas (sin eco), celular en modo avión a 15–20 cm d
 - Cambio los audios de las flashcards y del Cuaderno de Básico 1 para que apunten a tu voz cuando exista, con caída a SunHi si falta un clip.
 - Arreglo los números que están mal en la documentación: la guía dice 97 ítems de Dubu (son 98) y «los 563 del Lector» (son 546); CLAUDE.md dice 1.124 clips (son 1.990); `Juego_100/05_Audio_Faltante_0-20.md` dice «86 textos sin clip» (son 95 distintos, porque 6 de sus líneas traen varias palabras separadas por «|», y 13 de ellos ya tienen clip).
 - Arreglo el `--lector` de `Juego_Dubu/voz/generate_voz.js`: hoy toma TODOS los archivos de `public/audio/kr/`, o sea 1.990 textos, no los 563 que promete la guía. Si alguien lo corriera con ElevenLabs gastaría muchísimo más de lo previsto.
+- Corro `node Juego_RPG/voz/indice_kr_jay.js`, que arma `public/audio/kr-jay/indice.json` con la lista de lo que grabaste: el RPG `/aventura` solo pide un clip tuyo si está en esa lista (así no hace pedidos que fallan) y lo demás sigue con SunHi.
 - Commit y push a `main`, y confirmo que el deploy de Vercel pasó antes de decirte que está arriba.
 
 ## Avisos

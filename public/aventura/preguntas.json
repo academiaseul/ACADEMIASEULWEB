@@ -1,0 +1,1935 @@
+{
+ "origen": "Juego_100/borrador/t00-10.json",
+ "generado": "2026-11-03",
+ "preguntas": [
+  {
+   "id": "N01-01",
+   "nivel": 1,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la sílaba que crees que oíste.",
+   "audio": "아",
+   "suenaAntes": true,
+   "respuesta": "아",
+   "distractores": [
+    "오",
+    "우"
+   ],
+   "explicacion": "아 tiene la rayita hacia la derecha y suena 'a' de casa. La ㅇ de adelante no suena: es una silla vacía.",
+   "rom": "a",
+   "pron": ""
+  },
+  {
+   "id": "N01-02",
+   "nivel": 1,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "오",
+   "suenaAntes": true,
+   "respuesta": "오",
+   "distractores": [
+    "어",
+    "우"
+   ],
+   "explicacion": "오 es la 'o' de oso, con los labios redondos; la rayita apunta hacia arriba. 어 se dice con la boca abierta y los labios relajados.",
+   "rom": "o",
+   "pron": ""
+  },
+  {
+   "id": "N01-03",
+   "nivel": 1,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "어",
+   "suenaAntes": true,
+   "respuesta": "어",
+   "distractores": [
+    "오",
+    "아"
+   ],
+   "explicacion": "어 abre la boca como para 'a', pero dices 'o' sin redondear los labios. Si tus labios hacen un círculo, es 오.",
+   "rom": "eo",
+   "pron": ""
+  },
+  {
+   "id": "N01-04",
+   "nivel": 1,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "우",
+   "suenaAntes": true,
+   "respuesta": "우",
+   "distractores": [
+    "으",
+    "오"
+   ],
+   "explicacion": "우 es la 'u' de uva: labios redondos y hacia adelante, con la rayita hacia abajo. 으 se dice sonriendo.",
+   "rom": "u",
+   "pron": ""
+  },
+  {
+   "id": "N01-05",
+   "nivel": 1,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "으",
+   "suenaAntes": true,
+   "respuesta": "으",
+   "distractores": [
+    "우",
+    "이"
+   ],
+   "explicacion": "으 es 'sonríe y di u': labios estirados, sin redondear. Se escribe con una sola raya acostada.",
+   "rom": "eu",
+   "pron": ""
+  },
+  {
+   "id": "N01-06",
+   "nivel": 1,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "이",
+   "suenaAntes": true,
+   "respuesta": "이",
+   "distractores": [
+    "으",
+    "어"
+   ],
+   "explicacion": "이 es la 'i' de isla: una raya parada a la derecha de la ㅇ. 으 tiene la raya acostada, abajo.",
+   "rom": "i",
+   "pron": ""
+  },
+  {
+   "id": "N01-07",
+   "nivel": 1,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "오",
+   "suenaAntes": true,
+   "respuesta": "오",
+   "distractores": [
+    "아",
+    "어"
+   ],
+   "explicacion": "ㅗ es una vocal acostada, así que va debajo de la ㅇ: 오. Las paradas (ㅏ ㅓ) van a la derecha.",
+   "rom": "o",
+   "pron": ""
+  },
+  {
+   "id": "N01-08",
+   "nivel": 1,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «leche»).",
+   "audio": "우유",
+   "suenaAntes": true,
+   "respuesta": "우유",
+   "distractores": [
+    "오유",
+    "으유"
+   ],
+   "explicacion": "우 lleva ㅜ, con los labios hacia adelante, y 유 lleva ㅠ, que es ㅜ con una rayita más. Las dos son acostadas: van abajo de la ㅇ.",
+   "rom": "uyu",
+   "pron": ""
+  },
+  {
+   "id": "N01-09",
+   "nivel": 1,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "오이",
+   "suenaAntes": true,
+   "respuesta": "pepino",
+   "distractores": [
+    "niño",
+    "leche"
+   ],
+   "explicacion": "오이 empieza con 오, con los labios redondos: es pepino. 아이 empieza con 아 y es niño o niña: una sola vocal cambia la palabra.",
+   "rom": "oi",
+   "pron": ""
+  },
+  {
+   "id": "N01-10",
+   "nivel": 1,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "아이",
+   "suenaAntes": true,
+   "respuesta": "niño, niña",
+   "distractores": [
+    "pepino",
+    "leche"
+   ],
+   "explicacion": "아이 = 아 + 이, 'a-i': niño o niña. Con 오 al principio sería 오이, pepino.",
+   "rom": "ai",
+   "pron": ""
+  },
+  {
+   "id": "N01-11",
+   "nivel": 1,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "우유",
+   "suenaAntes": true,
+   "respuesta": "leche",
+   "distractores": [
+    "pepino",
+    "niño"
+   ],
+   "explicacion": "우유 = 'u-yu': leche. Las dos vocales van abajo porque son acostadas.",
+   "rom": "uyu",
+   "pron": ""
+  },
+  {
+   "id": "N02-01",
+   "nivel": 2,
+   "tipo": "reconoce",
+   "instruccion": "Si ㅏ suena a, ¿cómo sonará ㅏ con una rayita más? Escucha 🔊 y toca.",
+   "audio": "야",
+   "suenaAntes": true,
+   "respuesta": "야",
+   "distractores": [
+    "아",
+    "여"
+   ],
+   "explicacion": "야 es 'ia' de piano: ㅏ con una rayita más. Esa rayita extra agrega la 'y'.",
+   "rom": "ya",
+   "pron": ""
+  },
+  {
+   "id": "N02-02",
+   "nivel": 2,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "여",
+   "suenaAntes": true,
+   "respuesta": "여",
+   "distractores": [
+    "요",
+    "어"
+   ],
+   "explicacion": "여 es 'y' + ㅓ, con la boca relajada; sus dos rayitas miran a la izquierda. 요 tiene los palitos arriba y los labios redondos.",
+   "rom": "yeo",
+   "pron": ""
+  },
+  {
+   "id": "N02-03",
+   "nivel": 2,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "요",
+   "suenaAntes": true,
+   "respuesta": "요",
+   "distractores": [
+    "유",
+    "여"
+   ],
+   "explicacion": "요 es 'y' + ㅗ: dos palitos hacia arriba y labios redondos. 유 tiene los palitos hacia abajo.",
+   "rom": "yo",
+   "pron": ""
+  },
+  {
+   "id": "N02-04",
+   "nivel": 2,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "유",
+   "suenaAntes": true,
+   "respuesta": "유",
+   "distractores": [
+    "요",
+    "우"
+   ],
+   "explicacion": "유 es 'iu' de ciudad: ㅜ con una rayita más, con los palitos hacia abajo. Sin la rayita extra es 우.",
+   "rom": "yu",
+   "pron": ""
+  },
+  {
+   "id": "N02-05",
+   "nivel": 2,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "어",
+   "suenaAntes": true,
+   "respuesta": "어",
+   "distractores": [
+    "오"
+   ],
+   "explicacion": "Con 어 la boca queda abierta y los labios relajados. Si suena redondo, como la 'o' de oso, es 오.",
+   "rom": "eo",
+   "pron": ""
+  },
+  {
+   "id": "N02-06",
+   "nivel": 2,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "오",
+   "suenaAntes": true,
+   "respuesta": "오",
+   "distractores": [
+    "어"
+   ],
+   "explicacion": "오 redondea los labios en un círculo pequeño. 어 abre la boca sin redondear.",
+   "rom": "o",
+   "pron": ""
+  },
+  {
+   "id": "N02-07",
+   "nivel": 2,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "으",
+   "suenaAntes": true,
+   "respuesta": "으",
+   "distractores": [
+    "우"
+   ],
+   "explicacion": "으 se dice sonriendo, con los labios estirados. 우 los lleva hacia adelante, como para dar un beso.",
+   "rom": "eu",
+   "pron": ""
+  },
+  {
+   "id": "N02-08",
+   "nivel": 2,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "우",
+   "suenaAntes": true,
+   "respuesta": "우",
+   "distractores": [
+    "으"
+   ],
+   "explicacion": "우 lleva los labios redondos hacia adelante. 으 es una sonrisa, sin redondear.",
+   "rom": "u",
+   "pron": ""
+  },
+  {
+   "id": "N02-09",
+   "nivel": 2,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "요",
+   "suenaAntes": true,
+   "respuesta": "요",
+   "distractores": [
+    "여"
+   ],
+   "explicacion": "요 redondea los labios: es 오 con 'y'. 여 los deja relajados: es 어 con 'y'.",
+   "rom": "yo",
+   "pron": ""
+  },
+  {
+   "id": "N02-10",
+   "nivel": 2,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "여우",
+   "suenaAntes": true,
+   "respuesta": "zorro",
+   "distractores": [
+    "leche",
+    "pepino"
+   ],
+   "explicacion": "여우 = 여 + 우, 'yeo-u': zorro. 우유 (leche) empieza con 우, sin la 'y'.",
+   "rom": "yeou",
+   "pron": ""
+  },
+  {
+   "id": "N02-11",
+   "nivel": 2,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la palabra que oíste (significa «razón»).",
+   "audio": "이유",
+   "suenaAntes": true,
+   "respuesta": "이유",
+   "distractores": [
+    "이요",
+    "이우"
+   ],
+   "explicacion": "유 lleva ㅠ: 'yu', con los palitos hacia abajo. 요, con los palitos hacia arriba, suena 'yo'.",
+   "rom": "iyu",
+   "pron": ""
+  },
+  {
+   "id": "N03-01",
+   "nivel": 3,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la consonante que crees que suena.",
+   "audio": "가",
+   "suenaAntes": true,
+   "respuesta": "ㄱ",
+   "distractores": [
+    "ㄴ",
+    "ㅁ"
+   ],
+   "explicacion": "ㄱ es la parte de atrás de la lengua que sube: suena 'g' suave, como en 가. ㄴ suena 'n' y ㅁ, 'm'.",
+   "rom": "g (가 = ga)",
+   "pron": ""
+  },
+  {
+   "id": "N03-02",
+   "nivel": 3,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la consonante.",
+   "audio": "다",
+   "suenaAntes": true,
+   "respuesta": "ㄷ",
+   "distractores": [
+    "ㄴ",
+    "ㄹ"
+   ],
+   "explicacion": "ㄷ es ㄴ con una tapa arriba: una 'd' suave, con poco aire. Con ㄴ sonaría 나.",
+   "rom": "d (다 = da)",
+   "pron": ""
+  },
+  {
+   "id": "N03-03",
+   "nivel": 3,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la consonante.",
+   "audio": "라",
+   "suenaAntes": true,
+   "respuesta": "ㄹ",
+   "distractores": [
+    "ㄴ",
+    "ㄷ"
+   ],
+   "explicacion": "ㄹ suena como la r de 'pero': un solo toquecito de la lengua. Nunca es la rr de 'perro'.",
+   "rom": "r (라 = ra)",
+   "pron": ""
+  },
+  {
+   "id": "N03-04",
+   "nivel": 3,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "너",
+   "suenaAntes": true,
+   "respuesta": "너",
+   "distractores": [
+    "노",
+    "더"
+   ],
+   "explicacion": "너 = ㄴ + ㅓ: la vocal parada va a la derecha y los labios no se redondean. 노 llevaría la ㅗ abajo.",
+   "rom": "neo",
+   "pron": ""
+  },
+  {
+   "id": "N03-05",
+   "nivel": 3,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "고",
+   "suenaAntes": true,
+   "respuesta": "고",
+   "distractores": [
+    "거",
+    "노"
+   ],
+   "explicacion": "ㅗ es acostada, así que va debajo de la ㄱ: 고. 거 lleva la ㅓ a la derecha, sin redondear.",
+   "rom": "go",
+   "pron": ""
+  },
+  {
+   "id": "N03-06",
+   "nivel": 3,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "머",
+   "suenaAntes": true,
+   "respuesta": "머",
+   "distractores": [
+    "모",
+    "너"
+   ],
+   "explicacion": "머 = ㅁ + ㅓ: labios que se juntan y después boca abierta sin redondear. Es la primera sílaba de 머리 (cabeza).",
+   "rom": "meo",
+   "pron": ""
+  },
+  {
+   "id": "N03-07",
+   "nivel": 3,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «árbol»).",
+   "audio": "나무",
+   "suenaAntes": true,
+   "respuesta": "나무",
+   "distractores": [
+    "너무",
+    "나모"
+   ],
+   "explicacion": "나 = ㄴ + ㅏ y 무 = ㅁ + ㅜ: 'na-mu', árbol. La ㅜ va abajo porque es acostada.",
+   "rom": "namu",
+   "pron": ""
+  },
+  {
+   "id": "N03-08",
+   "nivel": 3,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «carne»).",
+   "audio": "고기",
+   "suenaAntes": true,
+   "respuesta": "고기",
+   "distractores": [
+    "거기",
+    "구기"
+   ],
+   "explicacion": "고 lleva la ㅗ abajo (labios redondos) y 기 lleva la ㅣ a la derecha: 'go-gui' (con la g de 'guitarra'), carne. Ojo: 거기 existe y significa 'ahí'.",
+   "rom": "gogi",
+   "pron": ""
+  },
+  {
+   "id": "N03-09",
+   "nivel": 3,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «madre»).",
+   "audio": "어머니",
+   "suenaAntes": true,
+   "respuesta": "어머니",
+   "distractores": [
+    "오머니",
+    "어머리"
+   ],
+   "explicacion": "어머니 tiene 3 cuadrados: 어 + 머 + 니, 'eo-meo-ni', madre. Las dos ㅓ se dicen con la boca abierta, sin redondear.",
+   "rom": "eomeoni",
+   "pron": ""
+  },
+  {
+   "id": "N03-10",
+   "nivel": 3,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la palabra que oíste (significa «cabeza; pelo»).",
+   "audio": "머리",
+   "suenaAntes": true,
+   "respuesta": "머리",
+   "distractores": [
+    "모리",
+    "머니"
+   ],
+   "explicacion": "머리 = 머 (ㅓ, sin redondear) + 리 (ㄹ + ㅣ). Entre vocales, la ㄹ suena como la r de 'pero'.",
+   "rom": "meori",
+   "pron": ""
+  },
+  {
+   "id": "N03-11",
+   "nivel": 3,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "구",
+   "suenaAntes": true,
+   "respuesta": "구",
+   "distractores": [
+    "그",
+    "거"
+   ],
+   "explicacion": "구 = ㄱ + ㅜ, con los labios hacia adelante. 그 se dice sonriendo (ㅡ) y 거, con la boca abierta (ㅓ).",
+   "rom": "gu",
+   "pron": ""
+  },
+  {
+   "id": "N03-12",
+   "nivel": 3,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la palabra que oíste (significa «aquí»).",
+   "audio": "여기",
+   "suenaAntes": true,
+   "respuesta": "여기",
+   "distractores": [
+    "거기",
+    "고기"
+   ],
+   "explicacion": "여기 empieza con 여 ('yeo'), porque la ㅇ no suena. 거기 ('ahí') empieza con ㄱ, y 고기 es carne.",
+   "rom": "yeogi",
+   "pron": ""
+  },
+  {
+   "id": "N04-01",
+   "nivel": 4,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la consonante.",
+   "audio": "자",
+   "suenaAntes": true,
+   "respuesta": "ㅈ",
+   "distractores": [
+    "ㅎ",
+    "ㅅ"
+   ],
+   "explicacion": "자 lleva ㅈ: una 'ch' suave, nunca la jota del español. La que se parece a una jota muy suave es ㅎ (하).",
+   "rom": "j (자 = ja)",
+   "pron": ""
+  },
+  {
+   "id": "N04-02",
+   "nivel": 4,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la consonante.",
+   "audio": "바",
+   "suenaAntes": true,
+   "respuesta": "ㅂ",
+   "distractores": [
+    "ㅁ",
+    "ㄷ"
+   ],
+   "explicacion": "ㅂ es ㅁ con dos orejitas: una 'b' suave, con los labios que se abren. ㅁ es 'm', con los labios cerrados.",
+   "rom": "b (바 = ba)",
+   "pron": ""
+  },
+  {
+   "id": "N04-03",
+   "nivel": 4,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la consonante.",
+   "audio": "사",
+   "suenaAntes": true,
+   "respuesta": "ㅅ",
+   "distractores": [
+    "ㅈ",
+    "ㅎ"
+   ],
+   "explicacion": "ㅅ es una 's' y dibuja un diente. ㅈ es ㅅ con un trazo arriba y suena 'ch' suave.",
+   "rom": "s (사 = sa)",
+   "pron": ""
+  },
+  {
+   "id": "N04-04",
+   "nivel": 4,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la consonante.",
+   "audio": "하",
+   "suenaAntes": true,
+   "respuesta": "ㅎ",
+   "distractores": [
+    "ㅇ",
+    "ㅈ"
+   ],
+   "explicacion": "하 lleva ㅎ: puro aire, como una jota muy suave. Con ㅇ no sonaría nada al inicio: 아.",
+   "rom": "h (하 = ha)",
+   "pron": ""
+  },
+  {
+   "id": "N04-05",
+   "nivel": 4,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la sílaba.",
+   "audio": "시",
+   "suenaAntes": true,
+   "respuesta": "시",
+   "distractores": [
+    "지",
+    "히"
+   ],
+   "explicacion": "시 = ㅅ + ㅣ: delante de ㅣ, la ㅅ suena casi 'shi' suave. 지 lleva ㅈ y suena 'chi' suave.",
+   "rom": "si",
+   "pron": ""
+  },
+  {
+   "id": "N04-06",
+   "nivel": 4,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «mar»).",
+   "audio": "바다",
+   "suenaAntes": true,
+   "respuesta": "바다",
+   "distractores": [
+    "마다",
+    "바더"
+   ],
+   "explicacion": "바 = ㅂ + ㅏ y 다 = ㄷ + ㅏ: 'ba-da', mar. ㅂ y ㄷ suenan suaves, con poco aire.",
+   "rom": "bada",
+   "pron": ""
+  },
+  {
+   "id": "N04-07",
+   "nivel": 4,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «gorro»).",
+   "audio": "모자",
+   "suenaAntes": true,
+   "respuesta": "모자",
+   "distractores": [
+    "모사",
+    "머자"
+   ],
+   "explicacion": "모 lleva la ㅗ abajo y 자 lleva ㅈ, la 'ch' suave: 'mo-ja', gorro. La j de la pista gris es la de 'jeans', nunca nuestra jota.",
+   "rom": "moja",
+   "pron": ""
+  },
+  {
+   "id": "N04-08",
+   "nivel": 4,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «zapatos (de vestir)»).",
+   "audio": "구두",
+   "suenaAntes": true,
+   "respuesta": "구두",
+   "distractores": [
+    "그두",
+    "구도"
+   ],
+   "explicacion": "구 y 두 llevan la ㅜ abajo, con los labios hacia adelante: 'gu-du', zapatos de vestir. ㄱ y ㄷ suenan suaves.",
+   "rom": "gudu",
+   "pron": ""
+  },
+  {
+   "id": "N04-09",
+   "nivel": 4,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «padre»).",
+   "audio": "아버지",
+   "suenaAntes": true,
+   "respuesta": "아버지",
+   "distractores": [
+    "아버히",
+    "아보지"
+   ],
+   "explicacion": "아 + 버 + 지: 'a-beo-ji', padre. Entre vocales la ㅈ suena todavía más suave, nunca como jota.",
+   "rom": "abeoji",
+   "pron": ""
+  },
+  {
+   "id": "N04-10",
+   "nivel": 4,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "모자",
+   "suenaAntes": true,
+   "respuesta": "gorro, sombrero",
+   "distractores": [
+    "zapatos",
+    "mar"
+   ],
+   "explicacion": "모자 es gorro o sombrero; 구두 son zapatos de vestir. Fíjate en la primera vocal: 모 (ㅗ) frente a 구 (ㅜ).",
+   "rom": "moja",
+   "pron": ""
+  },
+  {
+   "id": "N04-11",
+   "nivel": 4,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "하나",
+   "suenaAntes": true,
+   "respuesta": "uno",
+   "distractores": [
+    "mariposa",
+    "mar"
+   ],
+   "explicacion": "하나 = 하 + 나, 'ha-na': uno, cuando cuentas cosas. 하 lleva ㅎ, puro aire.",
+   "rom": "hana",
+   "pron": ""
+  },
+  {
+   "id": "N04-12",
+   "nivel": 4,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "나비",
+   "suenaAntes": true,
+   "respuesta": "mariposa",
+   "distractores": [
+    "árbol",
+    "gorro"
+   ],
+   "explicacion": "나비 = 나 + 비, 'na-bi': mariposa. 나무 (árbol) también empieza con 나, pero sigue con 무.",
+   "rom": "nabi",
+   "pron": ""
+  },
+  {
+   "id": "N05-01",
+   "nivel": 5,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "가",
+   "suenaAntes": true,
+   "respuesta": "가",
+   "distractores": [
+    "고",
+    "나"
+   ],
+   "explicacion": "가 = ㄱ + ㅏ: la vocal parada va a la derecha. 고 llevaría la ㅗ abajo, con los labios redondos.",
+   "rom": "ga",
+   "pron": ""
+  },
+  {
+   "id": "N05-02",
+   "nivel": 5,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "너",
+   "suenaAntes": true,
+   "respuesta": "너",
+   "distractores": [
+    "노",
+    "더"
+   ],
+   "explicacion": "너 = ㄴ + ㅓ, a la derecha y sin redondear. 노 lleva la ㅗ abajo.",
+   "rom": "neo",
+   "pron": ""
+  },
+  {
+   "id": "N05-03",
+   "nivel": 5,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "고",
+   "suenaAntes": true,
+   "respuesta": "고",
+   "distractores": [
+    "거",
+    "조"
+   ],
+   "explicacion": "고 = ㄱ + ㅗ: la vocal acostada va abajo. 조 empezaría con ㅈ, una 'ch' suave.",
+   "rom": "go",
+   "pron": ""
+  },
+  {
+   "id": "N05-04",
+   "nivel": 5,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "누",
+   "suenaAntes": true,
+   "respuesta": "누",
+   "distractores": [
+    "느",
+    "루"
+   ],
+   "explicacion": "누 = ㄴ + ㅜ, abajo y con los labios hacia adelante. 느 se diría sonriendo (ㅡ).",
+   "rom": "nu",
+   "pron": ""
+  },
+  {
+   "id": "N05-05",
+   "nivel": 5,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "호",
+   "suenaAntes": true,
+   "respuesta": "호",
+   "distractores": [
+    "허",
+    "오"
+   ],
+   "explicacion": "호 = ㅎ + ㅗ: aire y labios redondos. Sin la ㅎ sería 오, y con ㅓ sería 허.",
+   "rom": "ho",
+   "pron": ""
+  },
+  {
+   "id": "N05-06",
+   "nivel": 5,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada.",
+   "audio": "지",
+   "suenaAntes": true,
+   "respuesta": "지",
+   "distractores": [
+    "시",
+    "즈"
+   ],
+   "explicacion": "지 = ㅈ + ㅣ: 'chi' suave, la última sílaba de 아버지. 시 lleva ㅅ, sin el trazo de arriba.",
+   "rom": "ji",
+   "pron": ""
+  },
+  {
+   "id": "N05-07",
+   "nivel": 5,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "서",
+   "suenaAntes": true,
+   "respuesta": "서",
+   "distractores": [
+    "소"
+   ],
+   "explicacion": "서 = ㅅ + ㅓ, con los labios relajados. 소 los redondea (y significa 'vaca').",
+   "rom": "seo",
+   "pron": ""
+  },
+  {
+   "id": "N05-08",
+   "nivel": 5,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "두",
+   "suenaAntes": true,
+   "respuesta": "두",
+   "distractores": [
+    "드"
+   ],
+   "explicacion": "두 = ㄷ + ㅜ, con los labios hacia adelante. 드 se dice sonriendo.",
+   "rom": "du",
+   "pron": ""
+  },
+  {
+   "id": "N05-09",
+   "nivel": 5,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "노",
+   "suenaAntes": true,
+   "respuesta": "노",
+   "distractores": [
+    "너"
+   ],
+   "explicacion": "노 redondea los labios (ㅗ). 너 los deja relajados (ㅓ).",
+   "rom": "no",
+   "pron": ""
+  },
+  {
+   "id": "N05-10",
+   "nivel": 5,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "브",
+   "suenaAntes": true,
+   "respuesta": "브",
+   "distractores": [
+    "부"
+   ],
+   "explicacion": "브 = ㅂ + ㅡ, sonriendo y sin redondear. 부 lleva la ㅜ, con los labios hacia adelante.",
+   "rom": "beu",
+   "pron": ""
+  },
+  {
+   "id": "N05-11",
+   "nivel": 5,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «aquí»).",
+   "audio": "여기",
+   "suenaAntes": true,
+   "respuesta": "여기",
+   "distractores": [
+    "어기",
+    "요기"
+   ],
+   "explicacion": "여 lleva ㅕ: ㅓ con una rayita más, 'yeo'. 기 = ㄱ + ㅣ: 'yeo-gi', aquí.",
+   "rom": "yeogi",
+   "pron": ""
+  },
+  {
+   "id": "N05-12",
+   "nivel": 5,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «tofu»).",
+   "audio": "두부",
+   "suenaAntes": true,
+   "respuesta": "두부",
+   "distractores": [
+    "드부",
+    "두보"
+   ],
+   "explicacion": "두 y 부 llevan la ㅜ abajo: 'du-bu', tofu. ¡Así se llama Dubu, el puzzle de tu Mochila!",
+   "rom": "dubu",
+   "pron": ""
+  },
+  {
+   "id": "N06-01",
+   "nivel": 6,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca la que lleva aire.",
+   "audio": "카",
+   "suenaAntes": true,
+   "respuesta": "카",
+   "distractores": [
+    "가",
+    "까"
+   ],
+   "explicacion": "카 lleva ㅋ, que es ㄱ con un trazo más: sale aire y el papel se mueve. 까 es apretada y sin aire.",
+   "rom": "ka",
+   "pron": ""
+  },
+  {
+   "id": "N06-02",
+   "nivel": 6,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "까",
+   "suenaAntes": true,
+   "respuesta": "까",
+   "distractores": [
+    "가",
+    "카"
+   ],
+   "explicacion": "까 lleva ㄲ, la letra doble: aprieta la garganta y no sueltes aire. Se parece mucho a la 'ca' de 'casa', que en español sale sin soplo.",
+   "rom": "kka",
+   "pron": ""
+  },
+  {
+   "id": "N06-03",
+   "nivel": 6,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "가",
+   "suenaAntes": true,
+   "respuesta": "가",
+   "distractores": [
+    "카",
+    "까"
+   ],
+   "explicacion": "가 es la suave: muy poco aire y sin apretar. Ni soplo (카) ni apretón (까).",
+   "rom": "ga",
+   "pron": ""
+  },
+  {
+   "id": "N06-04",
+   "nivel": 6,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "타",
+   "suenaAntes": true,
+   "respuesta": "타",
+   "distractores": [
+    "다",
+    "따"
+   ],
+   "explicacion": "타 lleva ㅌ, ㄷ con un trazo más: 't' con soplo, más aire que nuestra 't'. 따 es la doble, apretada.",
+   "rom": "ta",
+   "pron": ""
+  },
+  {
+   "id": "N06-05",
+   "nivel": 6,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "따",
+   "suenaAntes": true,
+   "respuesta": "따",
+   "distractores": [
+    "다",
+    "타"
+   ],
+   "explicacion": "따 lleva ㄸ, la letra doble: apretón sin aire, casi como la 'ta' de 'taza'. 타 suelta aire y 다 es suave.",
+   "rom": "tta",
+   "pron": ""
+  },
+  {
+   "id": "N06-06",
+   "nivel": 6,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "파",
+   "suenaAntes": true,
+   "respuesta": "파",
+   "distractores": [
+    "바",
+    "빠"
+   ],
+   "explicacion": "파 lleva ㅍ: soplo fuerte, más aire que nuestra 'p'. 빠 es apretada y sin aire.",
+   "rom": "pa",
+   "pron": ""
+  },
+  {
+   "id": "N06-07",
+   "nivel": 6,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "빠",
+   "suenaAntes": true,
+   "respuesta": "빠",
+   "distractores": [
+    "바",
+    "파"
+   ],
+   "explicacion": "빠 lleva ㅃ: labios apretados y nada de aire, casi como la 'pa' de 'papá'. 바 es la suave.",
+   "rom": "ppa",
+   "pron": ""
+  },
+  {
+   "id": "N06-08",
+   "nivel": 6,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «café (bebida)»).",
+   "audio": "커피",
+   "suenaAntes": true,
+   "respuesta": "커피",
+   "distractores": [
+    "거피",
+    "커비"
+   ],
+   "explicacion": "커 lleva ㅋ y 피 lleva ㅍ: las dos con aire, 'keo-pi'. Por eso no es 거 ni 비.",
+   "rom": "keopi",
+   "pron": ""
+  },
+  {
+   "id": "N06-09",
+   "nivel": 6,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «falda»).",
+   "audio": "치마",
+   "suenaAntes": true,
+   "respuesta": "치마",
+   "distractores": [
+    "지마",
+    "치머"
+   ],
+   "explicacion": "치 lleva ㅊ, que es ㅈ con un trazo más: 'ch' con soplo, y 마 = ㅁ + ㅏ. 'chi-ma' es falda.",
+   "rom": "chima",
+   "pron": ""
+  },
+  {
+   "id": "N06-10",
+   "nivel": 6,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca la palabra que oíste.",
+   "audio": "오빠",
+   "suenaAntes": true,
+   "respuesta": "오빠",
+   "distractores": [
+    "아빠"
+   ],
+   "explicacion": "오빠 empieza con 오, labios redondos: hermano mayor (lo dice una mujer). 아빠 empieza con 아: papá.",
+   "rom": "oppa",
+   "pron": ""
+  },
+  {
+   "id": "N06-11",
+   "nivel": 6,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "빵",
+   "suenaAntes": true,
+   "respuesta": "pan",
+   "distractores": [
+    "pizza",
+    "café"
+   ],
+   "explicacion": "빵 lleva ㅃ, apretada y sin aire: pan. La ㅇ de abajo es un 받침 y suena 'ng' (lo ves en el nivel 8).",
+   "rom": "ppang",
+   "pron": ""
+  },
+  {
+   "id": "N06-12",
+   "nivel": 6,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "차",
+   "suenaAntes": true,
+   "respuesta": "té",
+   "distractores": [
+    "café",
+    "pan"
+   ],
+   "explicacion": "차 lleva ㅊ, que es ㅈ con un trazo: 'ch' con soplo. 차 es té, y también 'auto' o 'carro'.",
+   "rom": "cha",
+   "pron": ""
+  },
+  {
+   "id": "N07-01",
+   "nivel": 7,
+   "tipo": "reconoce",
+   "instruccion": "ㅗ y ㅏ se juntan en una sola vocal: ㅘ. Escucha 🔊 y toca.",
+   "audio": "와",
+   "suenaAntes": true,
+   "respuesta": "와",
+   "distractores": [
+    "워",
+    "오"
+   ],
+   "explicacion": "와 = ㅗ + ㅏ dicho de un solo golpe: 'wa'. 워 (ㅜ + ㅓ) suena 'wo'.",
+   "rom": "wa",
+   "pron": ""
+  },
+  {
+   "id": "N07-02",
+   "nivel": 7,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "워",
+   "suenaAntes": true,
+   "respuesta": "워",
+   "distractores": [
+    "와",
+    "우"
+   ],
+   "explicacion": "워 = ㅜ + ㅓ, de un solo golpe: 'wo'. La vas a oír en 뭐 ('¿qué?').",
+   "rom": "wo",
+   "pron": ""
+  },
+  {
+   "id": "N07-03",
+   "nivel": 7,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "위",
+   "suenaAntes": true,
+   "respuesta": "위",
+   "distractores": [
+    "외",
+    "의"
+   ],
+   "explicacion": "위 = ㅜ + ㅣ: 'wi', de un golpe. 외 (ㅗ + ㅣ) suena 'we' y 의 empieza sonriendo.",
+   "rom": "wi",
+   "pron": ""
+  },
+  {
+   "id": "N07-04",
+   "nivel": 7,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "의",
+   "suenaAntes": true,
+   "respuesta": "의",
+   "distractores": [
+    "위",
+    "이"
+   ],
+   "explicacion": "의 = ㅡ + ㅣ: empieza sonriendo y termina en 'i', de un golpe. No redondea los labios como 위.",
+   "rom": "ui",
+   "pron": ""
+  },
+  {
+   "id": "N07-05",
+   "nivel": 7,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "외",
+   "suenaAntes": true,
+   "respuesta": "외",
+   "distractores": [
+    "위",
+    "와"
+   ],
+   "explicacion": "외 se escribe ㅗ + ㅣ, pero hoy se dice 'we'. Es la vocal de 회사 (empresa).",
+   "rom": "oe",
+   "pron": ""
+  },
+  {
+   "id": "N07-06",
+   "nivel": 7,
+   "tipo": "reconoce",
+   "instruccion": "개 y 게 suenan igual. ¿Cuál es perro?",
+   "audio": "개",
+   "suenaAntes": false,
+   "respuesta": "개",
+   "distractores": [
+    "게"
+   ],
+   "explicacion": "Perro se escribe 개, con ㅐ; 게, con ㅔ, es cangrejo. Hoy suenan igual: se aprenden junto con la palabra.",
+   "rom": "gae",
+   "pron": ""
+  },
+  {
+   "id": "N07-07",
+   "nivel": 7,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «reloj»).",
+   "audio": "시계",
+   "suenaAntes": true,
+   "respuesta": "시계",
+   "distractores": [
+    "시게",
+    "시개"
+   ],
+   "explicacion": "계 = ㄱ + ㅖ ('ye'): 'si-gye', reloj. Mucha gente lo dice 'si-ge', pero se escribe con ㅖ.",
+   "rom": "sigye",
+   "pron": ""
+  },
+  {
+   "id": "N07-08",
+   "nivel": 7,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «empresa, oficina»).",
+   "audio": "회사",
+   "suenaAntes": true,
+   "respuesta": "회사",
+   "distractores": [
+    "후사",
+    "호사"
+   ],
+   "explicacion": "회 = ㅎ + ㅚ, y ㅚ se arma con ㅗ + ㅣ. Hoy 회사 se dice 'hwe-sa' (en la pista: hoesa): empresa u oficina.",
+   "rom": "hoesa",
+   "pron": ""
+  },
+  {
+   "id": "N07-09",
+   "nivel": 7,
+   "tipo": "arma-tablero",
+   "instruccion": "Escucha 🔊 y toca la palabra bien armada (significa «silla»).",
+   "audio": "의자",
+   "suenaAntes": true,
+   "respuesta": "의자",
+   "distractores": [
+    "이자",
+    "위자"
+   ],
+   "explicacion": "의 se arma con ㅡ + ㅣ: empieza sonriendo, sin redondear. 'ui-ja' es silla.",
+   "rom": "uija",
+   "pron": ""
+  },
+  {
+   "id": "N07-10",
+   "nivel": 7,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "위",
+   "suenaAntes": true,
+   "respuesta": "arriba, encima",
+   "distractores": [
+    "debajo",
+    "detrás"
+   ],
+   "explicacion": "위 = 'wi', de un solo golpe: arriba o encima. No es 'u-i'.",
+   "rom": "wi",
+   "pron": ""
+  },
+  {
+   "id": "N07-11",
+   "nivel": 7,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "사과",
+   "suenaAntes": true,
+   "respuesta": "manzana",
+   "distractores": [
+    "pera",
+    "pepino"
+   ],
+   "explicacion": "사과 = 사 + 과: manzana. 과 junta ㅗ + ㅏ en un solo golpe: 'gwa'.",
+   "rom": "sagwa",
+   "pron": ""
+  },
+  {
+   "id": "N07-12",
+   "nivel": 7,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la palabra que oíste (significa «¿qué?»).",
+   "audio": "뭐",
+   "suenaAntes": true,
+   "respuesta": "뭐",
+   "distractores": [
+    "머",
+    "모"
+   ],
+   "explicacion": "뭐 = ㅁ + ㅝ: 'mwo', de un solo golpe. 머 y 모 no tienen la 'w'.",
+   "rom": "mwo",
+   "pron": ""
+  },
+  {
+   "id": "N08-01",
+   "nivel": 8,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada (significa «río»).",
+   "audio": "강",
+   "suenaAntes": true,
+   "respuesta": "강",
+   "distractores": [
+    "간"
+   ],
+   "explicacion": "La consonante final va abajo, en el mismo cuadrado: 강. Abajo, la ㅇ suena 'ng', como en 'tengo'.",
+   "rom": "gang",
+   "pron": ""
+  },
+  {
+   "id": "N08-02",
+   "nivel": 8,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada (significa «montaña»).",
+   "audio": "산",
+   "suenaAntes": true,
+   "respuesta": "산",
+   "distractores": [
+    "상"
+   ],
+   "explicacion": "산 termina en ㄴ: la punta de la lengua toca detrás de los dientes, como en 'pan'. Con ㅇ abajo sería 상, con la lengua atrás.",
+   "rom": "san",
+   "pron": ""
+  },
+  {
+   "id": "N08-03",
+   "nivel": 8,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada (significa «agua»).",
+   "audio": "물",
+   "suenaAntes": true,
+   "respuesta": "물",
+   "distractores": [
+    "문"
+   ],
+   "explicacion": "물 termina en ㄹ, que abajo suena como una 'l'. Con ㄴ sería 문, otra palabra: puerta.",
+   "rom": "mul",
+   "pron": ""
+  },
+  {
+   "id": "N08-04",
+   "nivel": 8,
+   "tipo": "construye",
+   "instruccion": "Escucha 🔊 y toca la sílaba bien armada (significa «libro»).",
+   "audio": "책",
+   "suenaAntes": true,
+   "respuesta": "책",
+   "distractores": [
+    "잭"
+   ],
+   "explicacion": "책 es una sola sílaba: ㅊ + ㅐ + ㄱ abajo. Cierra en la ㄱ sin soltar aire: no es 'che-ku'.",
+   "rom": "chaek",
+   "pron": ""
+  },
+  {
+   "id": "N08-05",
+   "nivel": 8,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "공",
+   "suenaAntes": true,
+   "respuesta": "공",
+   "distractores": [
+    "곰"
+   ],
+   "explicacion": "공 (pelota) termina en ㅇ: boca abierta, 'ng'. 곰 (oso) termina en ㅁ: labios cerrados.",
+   "rom": "gong",
+   "pron": ""
+  },
+  {
+   "id": "N08-06",
+   "nivel": 8,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "방",
+   "suenaAntes": true,
+   "respuesta": "방",
+   "distractores": [
+    "반"
+   ],
+   "explicacion": "방 (habitación) termina en ㅇ: la lengua se queda atrás, como la n de 'tengo'. 반 termina en ㄴ: la punta toca arriba, como en 'pan'.",
+   "rom": "bang",
+   "pron": ""
+  },
+  {
+   "id": "N08-07",
+   "nivel": 8,
+   "tipo": "pares",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "밥",
+   "suenaAntes": true,
+   "respuesta": "밥",
+   "distractores": [
+    "밤",
+    "방"
+   ],
+   "explicacion": "밥 (arroz) termina en ㅂ: labios cerrados y sin soltar el aire. 밤 (noche) cierra en ㅁ, con sonido nasal.",
+   "rom": "bap",
+   "pron": ""
+  },
+  {
+   "id": "N08-08",
+   "nivel": 8,
+   "tipo": "reconoce",
+   "instruccion": "옷 = ropa (se escribe con ㅅ abajo). Toca 🔊 y elige cómo suena.",
+   "audio": "옷",
+   "suenaAntes": true,
+   "respuesta": "[옫]",
+   "distractores": [
+    "[오스]",
+    "[옹]"
+   ],
+   "explicacion": "Al final, la ㅅ suena como ㄷ: 't' sin soltar el aire, 옷 [옫]. Nunca agregues una vocal: no es 'o-su'.",
+   "rom": "ot",
+   "pron": "[옫]"
+  },
+  {
+   "id": "N08-09",
+   "nivel": 8,
+   "tipo": "reconoce",
+   "instruccion": "꽃 = flor. Toca 🔊 y elige cómo suena.",
+   "audio": "꽃",
+   "suenaAntes": true,
+   "respuesta": "[꼳]",
+   "distractores": [
+    "[꼬치]",
+    "[꼬츠]"
+   ],
+   "explicacion": "La ㅊ de abajo también suena ㄷ: 꽃 [꼳]. Se escribe con ㅊ y se dice cortito.",
+   "rom": "kkot",
+   "pron": "[꼳]"
+  },
+  {
+   "id": "N08-10",
+   "nivel": 8,
+   "tipo": "reconoce",
+   "instruccion": "부엌 = cocina. Toca 🔊 y elige cómo suena.",
+   "audio": "부엌",
+   "suenaAntes": true,
+   "respuesta": "[부억]",
+   "distractores": [
+    "[부어크]",
+    "[부엉]"
+   ],
+   "explicacion": "La ㅋ de abajo suena como ㄱ: 부엌 [부억]. Al final de la sílaba solo hay 7 sonidos.",
+   "rom": "bueok",
+   "pron": "[부억]"
+  },
+  {
+   "id": "N08-11",
+   "nivel": 8,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la palabra que oíste.",
+   "audio": "김치",
+   "suenaAntes": true,
+   "respuesta": "김치",
+   "distractores": [
+    "긴치",
+    "깅치"
+   ],
+   "explicacion": "김 termina en ㅁ: cierra los labios antes de decir 치. No es 'kin-chi'.",
+   "rom": "gimchi",
+   "pron": ""
+  },
+  {
+   "id": "N08-12",
+   "nivel": 8,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca la palabra que oíste.",
+   "audio": "한국",
+   "suenaAntes": true,
+   "respuesta": "한국",
+   "distractores": [
+    "하국",
+    "한구"
+   ],
+   "explicacion": "한국 tiene 2 sílabas y las dos llevan 받침: 한 (ㄴ) y 국 (ㄱ). 하국 pierde la ㄴ y 한구 pierde la ㄱ; tampoco es 'han-gu-ku'.",
+   "rom": "hanguk",
+   "pron": ""
+  },
+  {
+   "id": "N09-01",
+   "nivel": 9,
+   "tipo": "reconoce",
+   "instruccion": "Entras a tu clase de Zoom y saludas a la profe. ¿Qué dices?",
+   "audio": "안녕하세요",
+   "suenaAntes": false,
+   "respuesta": "안녕하세요",
+   "distractores": [
+    "안녕",
+    "안녕히 계세요"
+   ],
+   "explicacion": "안녕하세요 es el 'hola' cortés, para la profe y para quien recién conoces. 안녕 es solo para amigos cercanos de tu edad o para niños.",
+   "rom": "annyeonghaseyo",
+   "pron": ""
+  },
+  {
+   "id": "N09-02",
+   "nivel": 9,
+   "tipo": "reconoce",
+   "instruccion": "La profe te explicó algo difícil y le quieres dar las gracias.",
+   "audio": "감사합니다",
+   "suenaAntes": false,
+   "respuesta": "감사합니다",
+   "distractores": [
+    "반갑습니다",
+    "안녕하세요"
+   ],
+   "explicacion": "감사합니다 = gracias, y sirve con todo el mundo. 반갑습니다 es 'encantado/a', al conocer a alguien.",
+   "rom": "gamsahamnida",
+   "pron": "[감사함니다]"
+  },
+  {
+   "id": "N09-03",
+   "nivel": 9,
+   "tipo": "reconoce",
+   "instruccion": "Conoces a alguien por primera vez y quieres decir «encantado/a».",
+   "audio": "반갑습니다",
+   "suenaAntes": false,
+   "respuesta": "반갑습니다",
+   "distractores": [
+    "감사합니다",
+    "화이팅"
+   ],
+   "explicacion": "반갑습니다 = encantado o encantada. Se dice [반갑씀니다]: apréndelo entero, como una canción.",
+   "rom": "bangapseumnida",
+   "pron": "[반갑씀니다]"
+  },
+  {
+   "id": "N09-04",
+   "nivel": 9,
+   "tipo": "reconoce",
+   "instruccion": "Sales de una tienda en Seúl; la vendedora se queda. ¿Qué le dices?",
+   "audio": "안녕히 계세요",
+   "suenaAntes": false,
+   "respuesta": "안녕히 계세요",
+   "distractores": [
+    "안녕히 가세요"
+   ],
+   "explicacion": "Si tú te vas, a quien se queda le dices 안녕히 계세요 ('quédese bien'). 안녕히 가세요 es para quien se va.",
+   "rom": "annyeonghi gyeseyo",
+   "pron": ""
+  },
+  {
+   "id": "N09-05",
+   "nivel": 9,
+   "tipo": "reconoce",
+   "instruccion": "Trabajas en un café de Seúl y una clienta se va; tú te quedas. ¿Qué le dices?",
+   "audio": "안녕히 가세요",
+   "suenaAntes": false,
+   "respuesta": "안녕히 가세요",
+   "distractores": [
+    "안녕히 계세요"
+   ],
+   "explicacion": "A quien se va se le dice 안녕히 가세요 ('váyase bien'). Es como nuestro 'que le vaya bien'.",
+   "rom": "annyeonghi gaseyo",
+   "pron": ""
+  },
+  {
+   "id": "N09-06",
+   "nivel": 9,
+   "tipo": "reconoce",
+   "instruccion": "Tu amiga tiene un examen mañana. ¡Dale ánimo!",
+   "audio": "화이팅",
+   "suenaAntes": false,
+   "respuesta": "화이팅",
+   "distractores": [
+    "감사합니다",
+    "안녕히 가세요"
+   ],
+   "explicacion": "화이팅 = ¡ánimo!, ¡tú puedes! Viene del inglés 'fighting', y también lo verás escrito 파이팅.",
+   "rom": "hwaiting",
+   "pron": ""
+  },
+  {
+   "id": "N09-07",
+   "nivel": 9,
+   "tipo": "dos-formas",
+   "instruccion": "Suena [감사함니다]. ¿Cuál está bien escrito?",
+   "audio": "감사합니다",
+   "suenaAntes": true,
+   "respuesta": "감사합니다",
+   "distractores": [
+    "감사함니다"
+   ],
+   "explicacion": "Se escribe 합니다, con ㅂ, aunque suene [함니다]: la ㅂ antes de ㄴ suena m. Escribe lo que es; di lo que suena.",
+   "rom": "gamsahamnida",
+   "pron": "[감사함니다]"
+  },
+  {
+   "id": "N09-08",
+   "nivel": 9,
+   "tipo": "dos-formas",
+   "instruccion": "Suena [반갑씀니다]. ¿Cuál está bien escrito?",
+   "audio": "반갑습니다",
+   "suenaAntes": true,
+   "respuesta": "반갑습니다",
+   "distractores": [
+    "반갑씀니다"
+   ],
+   "explicacion": "Se escribe 습니다: la ㅅ se aprieta después de ㅂ y la ㅂ suena m antes de ㄴ, pero la escritura no cambia.",
+   "rom": "bangapseumnida",
+   "pron": "[반갑씀니다]"
+  },
+  {
+   "id": "N10-01",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "어",
+   "suenaAntes": true,
+   "respuesta": "어",
+   "distractores": [
+    "오",
+    "으"
+   ],
+   "explicacion": "어 abre la boca sin redondear los labios. 오 los redondea y 으 los estira en una sonrisa.",
+   "rom": "eo",
+   "pron": ""
+  },
+  {
+   "id": "N10-02",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "그",
+   "suenaAntes": true,
+   "respuesta": "그",
+   "distractores": [
+    "구",
+    "거"
+   ],
+   "explicacion": "그 se dice sonriendo (ㅡ). 구 lleva los labios hacia adelante (ㅜ) y 거 abre la boca (ㅓ).",
+   "rom": "geu",
+   "pron": ""
+  },
+  {
+   "id": "N10-03",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "따",
+   "suenaAntes": true,
+   "respuesta": "따",
+   "distractores": [
+    "다",
+    "타"
+   ],
+   "explicacion": "따 es la letra doble: apretón sin aire. 타 suelta aire y 다 es suave.",
+   "rom": "tta",
+   "pron": ""
+  },
+  {
+   "id": "N10-04",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Escucha 🔊 y toca lo que oíste.",
+   "audio": "방",
+   "suenaAntes": true,
+   "respuesta": "방",
+   "distractores": [
+    "반",
+    "밤"
+   ],
+   "explicacion": "방 termina en ㅇ: 'ng', con la lengua atrás. 반 cierra con la punta de la lengua (ㄴ) y 밤, con los labios (ㅁ).",
+   "rom": "bang",
+   "pron": ""
+  },
+  {
+   "id": "N10-05",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Lee: 의자. ¿Qué es?",
+   "audio": "의자",
+   "suenaAntes": false,
+   "respuesta": "silla",
+   "distractores": [
+    "reloj",
+    "empresa"
+   ],
+   "explicacion": "의자 = 의 (ㅡ + ㅣ) + 자: silla. 시계 es reloj y 회사, empresa.",
+   "rom": "uija",
+   "pron": ""
+  },
+  {
+   "id": "N10-06",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Lee: 옷 (ropa). ¿Cómo suena?",
+   "audio": "옷",
+   "suenaAntes": false,
+   "respuesta": "[옫]",
+   "distractores": [
+    "[오스]",
+    "[옹]"
+   ],
+   "explicacion": "Al final, la ㅅ suena como ㄷ: [옫], sin vocal después.",
+   "rom": "ot",
+   "pron": "[옫]"
+  },
+  {
+   "id": "N10-07",
+   "nivel": 10,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "나무",
+   "suenaAntes": true,
+   "respuesta": "árbol",
+   "distractores": [
+    "mar",
+    "carne"
+   ],
+   "explicacion": "나무 es árbol; 바다 es mar y 고기, carne.",
+   "rom": "namu",
+   "pron": ""
+  },
+  {
+   "id": "N10-08",
+   "nivel": 10,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "오이",
+   "suenaAntes": true,
+   "respuesta": "pepino",
+   "distractores": [
+    "niño",
+    "leche"
+   ],
+   "explicacion": "오이 empieza con 오, con los labios redondos: pepino. 아이, con 아, es niño.",
+   "rom": "oi",
+   "pron": ""
+  },
+  {
+   "id": "N10-09",
+   "nivel": 10,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "빵",
+   "suenaAntes": true,
+   "respuesta": "pan",
+   "distractores": [
+    "pizza",
+    "café"
+   ],
+   "explicacion": "빵 lleva ㅃ, apretada, y una ㅇ abajo que suena 'ng': pan.",
+   "rom": "ppang",
+   "pron": ""
+  },
+  {
+   "id": "N10-10",
+   "nivel": 10,
+   "tipo": "escucha-imagen",
+   "instruccion": "Escucha 🔊 y toca lo que significa.",
+   "audio": "책",
+   "suenaAntes": true,
+   "respuesta": "libro",
+   "distractores": [
+    "silla",
+    "reloj"
+   ],
+   "explicacion": "책 = ㅊ + ㅐ + ㄱ abajo: libro, en una sola sílaba.",
+   "rom": "chaek",
+   "pron": ""
+  },
+  {
+   "id": "N10-11",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Palabra nueva. Lee sin audio y toca lo que significa: 바나나.",
+   "audio": "바나나",
+   "suenaAntes": false,
+   "respuesta": "banana",
+   "distractores": [
+    "manzana",
+    "pepino"
+   ],
+   "explicacion": "바나나 = ba-na-na: ¡banana! Muchas palabras coreanas vienen de otros idiomas y, si lees bien, se entienden solas.",
+   "rom": "banana",
+   "pron": ""
+  },
+  {
+   "id": "N10-12",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Palabra nueva. Lee sin audio y toca lo que significa: 컴퓨터.",
+   "audio": "컴퓨터",
+   "suenaAntes": false,
+   "respuesta": "computador, computadora",
+   "distractores": [
+    "celular",
+    "reloj"
+   ],
+   "explicacion": "컴퓨터 = 컴 + 퓨 + 터: computador o computadora. ㅋ, ㅍ y ㅌ llevan aire, como en el inglés 'computer'.",
+   "rom": "keompyuteo",
+   "pron": ""
+  },
+  {
+   "id": "N10-13",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Palabra nueva. Lee sin audio y toca lo que significa: 텔레비전.",
+   "audio": "텔레비전",
+   "suenaAntes": false,
+   "respuesta": "televisor",
+   "distractores": [
+    "radio",
+    "celular"
+   ],
+   "explicacion": "텔레비전 = 텔 + 레 + 비 + 전: televisor. 텔 termina en ㄹ y 전 en ㄴ, dos 받침 que ya sabes leer.",
+   "rom": "tellebijeon",
+   "pron": ""
+  },
+  {
+   "id": "N10-14",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Palabra nueva. Escucha 🔊 y toca lo que oíste (significa «paraguas»).",
+   "audio": "우산",
+   "suenaAntes": true,
+   "respuesta": "우산",
+   "distractores": [
+    "오산",
+    "우상"
+   ],
+   "explicacion": "우산 = 우 (labios hacia adelante) + 산 (ㄴ abajo, con la punta de la lengua arriba): paraguas. 오산 lleva ㅗ y 우상 termina en ㅇ, con la lengua atrás.",
+   "rom": "usan",
+   "pron": ""
+  },
+  {
+   "id": "N10-15",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Palabra nueva. Escucha 🔊 y toca lo que oíste (significa «fruta»).",
+   "audio": "과일",
+   "suenaAntes": true,
+   "respuesta": "과일",
+   "distractores": [
+    "고일",
+    "과이"
+   ],
+   "explicacion": "과일 = 과 (ㄱ + ㅘ, 'gwa') + 일 (ㄹ abajo, suena l): fruta. 고일 no tiene la 'w' y 과이 no tiene 받침.",
+   "rom": "gwail",
+   "pron": ""
+  },
+  {
+   "id": "N10-16",
+   "nivel": 10,
+   "tipo": "dos-formas",
+   "instruccion": "Suena [감사함니다] («gracias»). ¿Cuál está bien escrito?",
+   "audio": "감사합니다",
+   "suenaAntes": true,
+   "respuesta": "감사합니다",
+   "distractores": [
+    "감사함니다"
+   ],
+   "explicacion": "Se escribe 합니다, con ㅂ, aunque suene [함니다]: la ㅂ antes de ㄴ suena m. Escribe lo que es; di lo que suena.",
+   "rom": "gamsahamnida",
+   "pron": "[감사함니다]"
+  },
+  {
+   "id": "N10-17",
+   "nivel": 10,
+   "tipo": "dos-formas",
+   "instruccion": "Suena [꼳] («flor»). ¿Cuál está bien escrito?",
+   "audio": "꽃",
+   "suenaAntes": true,
+   "respuesta": "꽃",
+   "distractores": [
+    "꼳"
+   ],
+   "explicacion": "Se escribe 꽃, con ㅊ abajo, aunque suene [꼳]. Al final hay 7 sonidos, pero más letras que pueden ir abajo.",
+   "rom": "kkot",
+   "pron": "[꼳]"
+  },
+  {
+   "id": "N10-18",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "Dicho del barrio. Completa: 시작이 ___이다 («el comienzo es la mitad»).",
+   "audio": "시작이 반이다",
+   "suenaAntes": false,
+   "respuesta": "반",
+   "distractores": [
+    "밥",
+    "방"
+   ],
+   "explicacion": "반 = mitad, y termina en ㄴ. 밥 es arroz y 방, habitación: ¡el 받침 cambia la palabra!",
+   "rom": "sijagi banida",
+   "pron": "[시자기 바니다]"
+  },
+  {
+   "id": "N10-19",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "¿Cuándo dirías 시작이 반이다?",
+   "audio": "시작이 반이다",
+   "suenaAntes": false,
+   "respuesta": "A una amiga que por fin se inscribió en clases de coreano y está nerviosa",
+   "distractores": [
+    "Cuando alguien llega tarde a clase",
+    "Para despedirte al final del día"
+   ],
+   "explicacion": "Se dice para animar a quien se atreve a empezar algo. Dar el primer paso ya es la mitad del camino.",
+   "rom": "sijagi banida",
+   "pron": "[시자기 바니다]"
+  },
+  {
+   "id": "N10-20",
+   "nivel": 10,
+   "tipo": "reconoce",
+   "instruccion": "¿Qué refrán en español dice lo mismo que 시작이 반이다?",
+   "audio": "시작이 반이다",
+   "suenaAntes": false,
+   "respuesta": "Obra empezada, medio acabada",
+   "distractores": [
+    "Más vale tarde que nunca",
+    "No por mucho madrugar amanece más temprano"
+   ],
+   "explicacion": "'Obra empezada, medio acabada' dice lo mismo: empezar ya es la mitad del trabajo. 'Más vale tarde que nunca' habla de llegar tarde, no de empezar.",
+   "rom": "sijagi banida",
+   "pron": "[시자기 바니다]"
+  }
+ ]
+}

@@ -25,12 +25,14 @@ const nextConfig = {
   env: {
     AS_PDF_BASICO1: pdfBasico1,
   },
-  // Apps estáticas: Lector de Hangul (public/lector-coreano), Dubu (public/dubu) y 한글 Race (public/hangul-race).
+  // Apps estáticas: Lector de Hangul (public/lector-coreano), Dubu (public/dubu), 한글 Race (public/hangul-race)
+  // y 호랑이의 모험 (public/aventura, prototipo con noindex, sin enlazar).
   async rewrites() {
     return [
       { source: '/lector-coreano', destination: '/lector-coreano/index.html' },
       { source: '/dubu', destination: '/dubu/index.html' },
       { source: '/hangul-race', destination: '/hangul-race/index.html' },
+      { source: '/aventura', destination: '/aventura/index.html' },
     ];
   },
   async redirects() {

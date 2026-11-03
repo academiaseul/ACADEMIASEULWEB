@@ -1,0 +1,406 @@
+{
+  "version": 1,
+  "capitulo": { "n": 1, "titulo": "Gwanghwamun", "ko": "광화문", "curso": "Básico 1 · semanas 1 y 2" },
+  "inicio": { "mapa": "plaza", "x": 19, "y": 6, "dir": "abajo", "won": 0, "misiones": ["q1"] },
+  "reaparecer": { "mapa": "plaza", "x": 19, "y": 6, "dir": "abajo" },
+
+  "mapas": {
+    "plaza": {
+      "nombre": "Plaza Gwanghwamun",
+      "filas": [
+        "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+        "###############GGGGGGGGG################",
+        "###############GGGGGGGGG################",
+        "TT.T.TT.T.T.TTTGGGGGGGGGTTTT.TT.TT.TTTST",
+        "T.,....,...,..============.::::::::::::X",
+        "T..T......,...============L::.RRRRRRRR.T",
+        "T._____.T.....T===========.::.WVWVVWVW.T",
+        "T._____......,============.::.WWWDWWWW.T",
+        "T._____..,....============.::..........T",
+        "T.....T.......T===========L::.........,T",
+        "T......S.T....====^^^^====.::.FFS......T",
+        "T.,......,....====^^^^====.::..........T",
+        "T....T....,...T====S======.::..........T",
+        "T..,......T...============.::.FFS......T",
+        "T.......,.....============L::..........T",
+        "T.............T===========.::..........T",
+        "T.RRRRRRRR....===~~~~~~===.::.FFS......T",
+        "T.WVWWVWVW....===~~~~~~===.::..........T",
+        "T.WWWdWWWW....T===========L::.RRRR.RRRRT",
+        "T......S......============.::.WVVW.WVVWT",
+        "T,...........,============.::.WdWW.WWdWT",
+        "T..T......T...T===========.::..S..T.S..T",
+        "T.............============.::::::::::::T",
+        "========================================",
+        "~~~~~~~~~~~~~~~~~~bbbb~~~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~~~bbbb~~~~~~~~~~~~~~~~~~",
+        "========================================",
+        "T...,......,.......,.......,.......,...T",
+        "T......T.........,..........T..........T",
+        "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
+      ],
+      "objetos": [
+        { "tipo": "puerta-palacio", "x": 15, "y": 0 },
+        { "tipo": "estatua", "x": 18, "y": 8 }
+      ],
+      "etiquetas": [
+        { "x": 19.5, "y": 1.55, "texto": "光化門", "tipo": "placa" },
+        { "x": 34, "y": 5.5, "texto": "편의점", "tipo": "techo" }
+      ],
+      "zonas": [
+        { "enemigo": "verde", "x": 1, "y": 4, "w": 12, "h": 11, "n": 3, "desde": "q2" },
+        { "enemigo": "azul", "x": 1, "y": 27, "w": 38, "h": 2, "n": 4, "desde": "q4" },
+        { "enemigo": "morado", "x": 33, "y": 9, "w": 6, "h": 9, "n": 3, "desde": "q5" }
+      ],
+      "portales": [
+        { "x": 33, "y": 7, "a": { "mapa": "tienda", "x": 5, "y": 7, "dir": "arriba" } }
+      ],
+      "npcs": [
+        { "id": "hana", "x": 21, "y": 7 },
+        { "id": "jefe", "x": 19, "y": 4 },
+        { "id": "halmeoni", "x": 31, "y": 11 },
+        { "id": "doyun", "x": 4, "y": 19 },
+        { "id": "seoa", "x": 4, "y": 7 },
+        { "id": "kongi", "x": 6, "y": 8, "zona": { "x": 2, "y": 5, "w": 9, "h": 5 } },
+        { "id": "mateo", "x": 33, "y": 21 },
+        { "id": "valentina", "x": 38, "y": 21 }
+      ],
+      "info": [
+        { "id": "estatua", "x": 18, "y": 10, "w": 4, "h": 2 },
+        { "id": "palacio", "x": 15, "y": 3, "w": 9, "h": 1 },
+        { "id": "bukchon", "x": 38, "y": 3 },
+        { "id": "barrera", "x": 39, "y": 4 },
+        { "id": "restaurante", "x": 5, "y": 18 },
+        { "id": "cafeteria", "x": 31, "y": 20 },
+        { "id": "panaderia", "x": 37, "y": 20 },
+        { "id": "fuente", "x": 17, "y": 16, "w": 6, "h": 2 },
+        { "id": "cheonggyecheon", "x": 0, "y": 24, "w": 40, "h": 2 }
+      ]
+    },
+    "tienda": {
+      "nombre": "편의점",
+      "interior": true,
+      "filas": [
+        "WWWWWWWWWWWW",
+        "WHHHH--HHHHW",
+        "W----------W",
+        "WHH-HH-CCCCW",
+        "W----------W",
+        "WHHH--HHH--W",
+        "W----------W",
+        "W----------W",
+        "WWWWWDWWWWWW"
+      ],
+      "objetos": [],
+      "etiquetas": [],
+      "zonas": [],
+      "portales": [
+        { "x": 5, "y": 8, "a": { "mapa": "plaza", "x": 33, "y": 8, "dir": "abajo" }, "despedida": true }
+      ],
+      "npcs": [
+        { "id": "jeomwon", "x": 9, "y": 2 }
+      ],
+      "info": []
+    }
+  },
+
+  "objetos": {
+    "gimbap": { "nombre": "김밥", "es": "rollo de arroz y algas", "esUn": "un rollo de arroz y algas", "precio": 3000, "efecto": { "curar": 25 }, "desc": "Recupera 25 de 기운.", "pedir": "김밥 주세요.", "noPedir": "김밥이에요." },
+    "uyu": { "nombre": "우유", "es": "leche", "esUn": "leche", "precio": 1500, "efecto": { "curar": 12 }, "desc": "Recupera 12 de 기운.", "pedir": "우유 주세요.", "noPedir": "우유예요." },
+    "mul": { "nombre": "물", "es": "agua", "esUn": "agua", "precio": 1000, "efecto": { "curar": 8 }, "desc": "Recupera 8 de 기운.", "pedir": "물 주세요.", "noPedir": "물이에요." },
+    "buchae": { "nombre": "부채", "es": "abanico", "esUn": "un abanico", "precio": 2000, "efecto": { "quitarOpcion": true }, "desc": "En un duelo, se lleva una opción incorrecta.", "pedir": "부채 주세요.", "noPedir": "부채예요." },
+    "yeonpil": { "nombre": "연필", "es": "lápiz", "esUn": "un lápiz", "precio": 1000, "efecto": { "pista": true }, "desc": "En un duelo, escribe la pista en letras latinas.", "pedir": "연필 주세요.", "noPedir": "연필이에요." },
+    "usan": { "nombre": "우산", "es": "paraguas", "esUn": "un paraguas", "precio": 5000, "efecto": { "escudo": true }, "desc": "En un duelo, te protege del próximo golpe de 방망이.", "pedir": "우산 주세요.", "noPedir": "우산이에요." }
+  },
+
+  "tiendas": {
+    "pyeonuijeom": { "nombre": "편의점", "es": "tienda de conveniencia", "npc": "jeomwon", "objetos": ["uyu", "gimbap", "mul", "buchae", "yeonpil", "usan"] }
+  },
+
+  "enemigos": {
+    "verde": { "nombre": "초록 도깨비", "es": "도깨비 verde", "donde": "los 도깨비 verdes del parque (al oeste)", "color": "verde", "rango": 1, "hp": 30, "atk": 5, "xp": 10, "won": [300, 600], "niveles": [1, 2], "letras": ["ㅏ", "ㅓ", "ㅗ", "ㅜ", "ㅡ", "ㅣ", "ㅑ", "ㅕ", "ㅛ", "ㅠ"], "objeto": { "id": "gimbap", "p": 0.2 } },
+    "azul": { "nombre": "파란 도깨비", "es": "도깨비 azul", "donde": "los 도깨비 azules del sur del 청계천", "color": "azul", "rango": 2, "hp": 45, "atk": 7, "xp": 18, "won": [500, 900], "niveles": [3, 4, 5], "letras": ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅈ", "ㅎ"], "objeto": { "id": "gimbap", "p": 0.25 } },
+    "morado": { "nombre": "보라 도깨비", "es": "도깨비 morado", "donde": "los 도깨비 morados del lado este del mercado", "color": "morado", "rango": 3, "hp": 60, "atk": 9, "xp": 26, "won": [700, 1200], "niveles": [6, 7, 8], "letras": ["ㅋ", "ㅌ", "ㅍ", "ㅊ", "ㄲ", "ㄸ", "ㅃ", "ㅆ", "ㅉ", "ㅐ", "ㅔ", "ㅚ", "ㅟ", "ㅘ", "ㅝ", "ㅢ", "ㅖ"], "objeto": { "id": "buchae", "p": 0.2 } },
+    "jefe": { "nombre": "도깨비 대장", "es": "el jefe de los 도깨비", "color": "jefe", "rango": 4, "hp": 200, "atk": 8, "xp": 60, "won": [3000, 3000], "niveles": [9, 10], "letras": [], "jefe": true }
+  },
+
+  "letreros": {
+    "uyu": { "mapa": "plaza", "x": 32, "y": 13, "palabra": "우유", "es": "leche", "lugar": "el puesto de leche", "mision": "q2" },
+    "oi": { "mapa": "plaza", "x": 32, "y": 10, "palabra": "오이", "es": "pepino", "lugar": "el puesto de 할머니", "mision": "q2" },
+    "gogi": { "mapa": "plaza", "x": 7, "y": 19, "palabra": "고기", "es": "carne", "lugar": "el restaurante de 도윤", "mision": "q4" },
+    "namu": { "mapa": "plaza", "x": 7, "y": 10, "palabra": "나무", "es": "árbol", "lugar": "el árbol grande del parque", "mision": "q4" },
+    "moja": { "mapa": "plaza", "x": 32, "y": 16, "palabra": "모자", "es": "gorro", "lugar": "el puesto de gorros", "mision": "q4" },
+    "keopi": { "mapa": "plaza", "x": 31, "y": 21, "palabra": "커피", "es": "café", "lugar": "la cafetería", "mision": "q5" },
+    "ppang": { "mapa": "plaza", "x": 36, "y": 21, "palabra": "빵", "es": "pan", "lugar": "la panadería", "mision": "q5" },
+    "hangeul": { "mapa": "plaza", "x": 19, "y": 12, "palabra": "한글", "es": "el alfabeto coreano", "lugar": "la estatua del rey 세종", "mision": "q6" }
+  },
+
+  "misiones": {
+    "q1": {
+      "titulo": "안녕하세요, 서울!", "es": "Hola, Seúl", "da": "hana", "entrega": "hana",
+      "objetivos": [ { "tipo": "flag", "id": "saludo_hana", "texto": "Saluda a 하나 en la plaza" } ],
+      "recompensa": { "xp": 10, "won": 3000, "objetos": { "gimbap": 2, "buchae": 1 } }
+    },
+    "q2": {
+      "titulo": "Las vocales robadas", "da": "hana", "entrega": "hana", "requiere": ["q1"],
+      "objetivos": [
+        { "tipo": "derrotar", "id": "verde", "n": 3, "texto": "Gánales 3 duelos a los 도깨비 verdes (parque, al oeste)" },
+        { "tipo": "letrero", "id": "uyu", "texto": "Arma el letrero del puesto de leche (mercado)" },
+        { "tipo": "letrero", "id": "oi", "texto": "Arma el letrero del puesto de 할머니 (mercado)" }
+      ],
+      "recompensa": { "xp": 20, "won": 2000, "objetos": { "yeonpil": 2 } }
+    },
+    "q3": {
+      "titulo": "Un recado para 할머니", "da": "halmeoni", "entrega": "halmeoni", "requiere": ["q2"],
+      "objetivos": [
+        { "tipo": "comprar", "id": "uyu", "texto": "Compra 우유 en el 편의점 (norte del mercado)" },
+        { "tipo": "flag", "id": "despedida", "texto": "Despídete bien al salir de la tienda" }
+      ],
+      "recompensa": { "xp": 20, "won": 2000, "objetos": { "usan": 1 } }
+    },
+    "q4": {
+      "titulo": "Consonantes rebeldes", "da": "doyun", "entrega": "doyun", "requiere": ["q2"],
+      "objetivos": [
+        { "tipo": "derrotar", "id": "azul", "n": 3, "texto": "Gánales 3 duelos a los 도깨비 azules (al sur del 청계천)" },
+        { "tipo": "letrero", "id": "gogi", "texto": "Arma el letrero del restaurante de 도윤" },
+        { "tipo": "letrero", "id": "namu", "texto": "Arma el letrero del árbol grande del parque" },
+        { "tipo": "letrero", "id": "moja", "texto": "Arma el letrero del puesto de gorros (mercado)" }
+      ],
+      "recompensa": { "xp": 30, "won": 3000, "objetos": { "gimbap": 2 } }
+    },
+    "q5": {
+      "titulo": "Aire o apretón", "da": "mateo", "entrega": "mateo", "requiere": ["q4"],
+      "objetivos": [
+        { "tipo": "derrotar", "id": "morado", "n": 3, "texto": "Gánales 3 duelos a los 도깨비 morados (mercado, al este)" },
+        { "tipo": "letrero", "id": "keopi", "texto": "Arma el letrero de la cafetería" },
+        { "tipo": "letrero", "id": "ppang", "texto": "Arma el letrero de la panadería" }
+      ],
+      "recompensa": { "xp": 30, "won": 3000, "objetos": { "usan": 1, "buchae": 1 } }
+    },
+    "q6": {
+      "titulo": "El jefe de Gwanghwamun", "da": "hana", "entrega": "hana", "requiere": ["q3", "q4", "q5"],
+      "objetivos": [
+        { "tipo": "derrotar", "id": "jefe", "n": 1, "texto": "Gánale al 도깨비 대장 (puerta del palacio)" },
+        { "tipo": "letrero", "id": "hangeul", "texto": "Arma el letrero frente a la estatua del rey 세종" }
+      ],
+      "recompensa": { "xp": 50 }
+    }
+  },
+
+  "npcs": {
+    "hana": {
+      "nombre": "하나", "sprite": { "tipo": "persona", "peinado": "largo", "pelo": "#2b2233", "piel": "#f5d0ae", "ropa": "#4a9fd0", "sombra": "#3a85b3" },
+      "dialogos": [
+        { "si": { "mision": "q1", "estado": "activa" }, "lineas": [
+          { "ko": "안녕하세요!", "es": "¡Hola!" },
+          { "elige": { "pregunta": "하나 te saluda. ¿Qué le respondes?", "opciones": [
+            { "ko": "안녕하세요!", "es": "¡Hola!", "ok": true, "dice": "¡Eso! 안녕하세요 es el saludo respetuoso: sirve a cualquier hora del día y con casi todos (con niños y amigos, 안녕)." },
+            { "ko": "안녕히 계세요.", "es": "Adiós (a quien se queda).", "porque": "Eso es para despedirte cuando te vas. Para saludar se dice 안녕하세요." },
+            { "ko": "감사합니다.", "es": "Gracias.", "porque": "감사합니다 es «gracias». Para saludar se dice 안녕하세요." }
+          ] } },
+          { "ko": "저는 하나예요. 반갑습니다!", "es": "Soy Hana. ¡Encantada!" },
+          { "es": "¡Qué bueno que llegaste, tigre! Tenemos un problema: anoche los 도깨비 se robaron las letras de los letreros de Gwanghwamun. Nadie puede leer el barrio." },
+          { "es": "Los 도깨비 son duendes traviesos de los cuentos coreanos. No son malos, pero les encantan los desafíos: si les ganas un duelo de coreano, te devuelven una letra." },
+          { "es": "Toma la primera: ㅇ. Al inicio de la sílaba no suena: es una silla vacía. Para escribir «a» se pone ㅇ + ㅏ = 아.", "accion": { "letra": "ㅇ" } },
+          { "es": "Y esto, para el camino. Los 도깨비 verdes andan por el parque, al oeste. ¡화이팅!", "accion": { "flag": "saludo_hana", "completar": "q1", "iniciar": "q2" } }
+        ] },
+        { "si": { "mision": "q2", "estado": "lista" }, "lineas": [
+          { "ko": "와! 감사합니다!", "es": "¡Wow! ¡Gracias!" },
+          { "es": "¡El mercado se puede leer otra vez! 할머니 te estaba buscando. Y 도윤 también: su restaurante, al suroeste del parque, quedó sin letrero.", "accion": { "completar": "q2" } }
+        ] },
+        { "si": { "mision": "q2", "estado": "activa" }, "lineas": [
+          { "es": "Los 도깨비 verdes están en el parque, al oeste. Con sus vocales puedes armar el letrero de 할머니 y el del puesto de leche, en el mercado, al este." },
+          { "es": "Acércate a un letrero y toca ✋ (o la barra espaciadora) para armarlo." }
+        ] },
+        { "si": { "mision": "q6", "estado": "lista" }, "lineas": [
+          { "ko": "시작이 반이다!", "es": "«Empezar ya es la mitad»." },
+          { "es": "Es un dicho coreano: lo más difícil es empezar. Y tú ya empezaste: leíste un barrio entero.", "accion": { "completar": "q6" } }
+        ] },
+        { "si": { "mision": "q6", "estado": "activa" }, "lineas": [
+          { "es": "El 도깨비 대장 te espera frente a la puerta del palacio. Si te equivocas, no pasa nada: te vuelve a preguntar." }
+        ] },
+        { "si": { "mision": "q6", "estado": "disponible" }, "lineas": [
+          { "es": "¡Lo lograste! El mercado, el parque y los cafés se pueden leer otra vez. Falta uno: el letrero 한글, frente a la estatua del rey 세종." },
+          { "es": "Se lo llevó el 도깨비 대장, el jefe. Ya despertó y te espera frente a la puerta del palacio. Sus preguntas mezclan todo lo que aprendiste." },
+          { "es": "Lleva 김밥 y un 우산. ¡화이팅!", "accion": { "iniciar": "q6" } }
+        ] },
+        { "si": { "mision": "q6", "estado": "hecha" }, "lineas": [
+          { "es": "¿Vamos a Bukchon? El camino está al noreste... pero los 도깨비 lo bloquearon con cajas. ¡Muy pronto!" }
+        ] },
+        { "lineas": [
+          { "es": "¿Cómo vas? Revisa tus misiones en el 📜. Si te falta 기운, en el 편의점 venden 김밥." }
+        ] }
+      ]
+    },
+    "jefe": {
+      "nombre": "도깨비 대장", "sprite": { "tipo": "dokkaebi", "color": "jefe", "grande": true }, "ocultoSi": { "flag": "jefe_vencido" },
+      "dialogos": [
+        { "si": { "mision": "q6", "estado": "activa" }, "lineas": [
+          { "es": "¡Así que tú eres el tigre que anda armando letreros! Las letras del 한글 son mías. Si las quieres, gánamelas." },
+          { "ko": "뚝딱!", "es": "(El golpe de su 방망이 mágico. En los cuentos dicen «금 나와라, 뚝딱!» y aparece oro.)", "accion": { "duelo": "jefe" } }
+        ] },
+        { "lineas": [
+          { "es": "Zzz... El 도깨비 대장 duerme frente a la puerta del palacio. Mejor no despertarlo todavía." }
+        ] }
+      ]
+    },
+    "halmeoni": {
+      "nombre": "할머니", "sprite": { "tipo": "persona", "peinado": "mono", "pelo": "#c9c6cf", "piel": "#eac3a0", "ropa": "#7d5ba6", "sombra": "#664a8a", "pantalon": "#5b4a3a" },
+      "dialogos": [
+        { "si": { "mision": "q3", "estado": "lista", "objeto": "uyu" }, "lineas": [
+          { "ko": "아이고, 고마워요!", "es": "¡Ay, gracias!", "accion": { "quitar": { "uyu": 1 } } },
+          { "es": "고마워요 también es «gracias», más cercano que 감사합니다. Tú, a personas mayores o que no conoces, mejor 감사합니다." },
+          { "es": "Para el camino: un 우산 (paraguas). Los 도깨비 golpean con su garrote, el 방망이. El 우산 te protege de un golpe.", "accion": { "completar": "q3" } }
+        ] },
+        { "si": { "mision": "q3", "estado": "lista" }, "lineas": [
+          { "es": "¿Y la leche? ¿Te la tomaste? Cómprame otra, por favor: 우유 주세요." }
+        ] },
+        { "si": { "mision": "q3", "estado": "activa" }, "lineas": [
+          { "es": "El 편의점 está al norte del mercado. Se pide así: lo que quieres + 주세요. 우유 주세요. Y al salir, despídete bien." }
+        ] },
+        { "si": { "mision": "q3", "estado": "disponible" }, "lineas": [
+          { "es": "¡Tú armaste mi letrero! 오이 = pepino. Ahora todos saben lo que vendo." },
+          { "es": "¿Me harías un favor? Necesito 우유 (leche) y no puedo dejar el puesto. El 편의점 está ahí arriba, al norte del mercado." },
+          { "es": "En la tienda se pide así: el nombre de lo que quieres + 주세요 («deme, por favor»). 우유 주세요.", "accion": { "iniciar": "q3" } }
+        ] },
+        { "si": { "mision": "q3", "estado": "hecha" }, "lineas": [
+          { "es": "Mis 오이 están fresquitos. ¡화이팅, tigre!" }
+        ] },
+        { "si": { "letrero": "oi" }, "lineas": [
+          { "es": "¡Mi letrero vuelve a decir 오이! Ve a contarle a 하나." }
+        ] },
+        { "lineas": [
+          { "ko": "아이고...", "es": "(¡Ay, ay, ay!...)" },
+          { "es": "Los 도깨비 se llevaron las letras de mi letrero. ¿Cómo va a saber la gente que vendo pepinos?" }
+        ] }
+      ]
+    },
+    "jeomwon": {
+      "nombre": "점원", "sprite": { "tipo": "persona", "peinado": "gorra", "pelo": "#2b2233", "piel": "#f2cba6", "ropa": "#2f9e8f", "sombra": "#25806f" },
+      "dialogos": [
+        { "lineas": [ { "ko": "어서 오세요!", "es": "¡Bienvenido!", "accion": { "tienda": "pyeonuijeom" } } ] }
+      ]
+    },
+    "doyun": {
+      "nombre": "도윤", "sprite": { "tipo": "persona", "peinado": "chef", "pelo": "#2b2233", "piel": "#e8bf98", "ropa": "#ffffff", "sombra": "#dcdce6" },
+      "dialogos": [
+        { "si": { "mision": "q4", "estado": "lista" }, "lineas": [
+          { "ko": "감사합니다!", "es": "¡Gracias!" },
+          { "es": "고기 = carne. ¡Mi letrero volvió! Oye, mi amigo 마테오 anda buscando un café y no encuentra el letrero. Está al sureste, cerca de la panadería.", "accion": { "completar": "q4" } }
+        ] },
+        { "si": { "mision": "q4", "estado": "activa" }, "lineas": [
+          { "es": "Los 도깨비 azules están al sur del 청계천, el arroyo. Cruza por el puente de la plaza." }
+        ] },
+        { "si": { "mision": "q4", "estado": "disponible" }, "lineas": [
+          { "ko": "안녕하세요! 저는 도윤이에요.", "es": "¡Hola! Soy Doyun." },
+          { "es": "Soy cocinero. Mi restaurante quedó sin letrero: los 도깨비 azules se llevaron las letras." },
+          { "es": "Ellos tienen las consonantes: ㄱ, ㄴ, ㅁ... Andan al sur, del otro lado del 청계천. Con esas letras arma también el 나무 del parque y el letrero del puesto de gorros.", "accion": { "iniciar": "q4" } }
+        ] },
+        { "si": { "mision": "q4", "estado": "hecha" }, "lineas": [
+          { "es": "¿Ya probaste la carne a la coreana? Se asa en la mesa. ¡Ven cuando quieras!" }
+        ] },
+        { "lineas": [
+          { "es": "(도윤 mira el letrero vacío de su restaurante y suspira.)" }
+        ] }
+      ]
+    },
+    "seoa": {
+      "nombre": "서아", "sprite": { "tipo": "persona", "peinado": "coletas", "pelo": "#3a2a22", "piel": "#f7d5b5", "ropa": "#e8b84b", "sombra": "#c99a2e", "pantalon": "#4236F6" },
+      "dialogos": [
+        { "si": { "flag": "saludo_seoa" }, "lineas": [
+          { "es": "¡콩이 es mi perrito! Le gusta correr por el parque." }
+        ] },
+        { "lineas": [
+          { "ko": "안녕!", "es": "¡Hola!" },
+          { "elige": { "pregunta": "서아 tiene 6 años y te ve como a otro niño: te saluda con 안녕. ¿Qué le respondes?", "opciones": [
+            { "ko": "안녕!", "es": "¡Hola!", "ok": true, "dice": "¡Perfecto! 안녕 es para niños y amigos de tu edad. A un adulto, siempre 안녕하세요." },
+            { "ko": "안녕하세요!", "es": "¡Hola! (formal)", "ok": true, "dice": "También está bien, aunque suena serio para una niña. 안녕 es para niños y amigos de tu edad; a un adulto, siempre 안녕하세요." },
+            { "ko": "안녕히 가세요.", "es": "Adiós (a quien se va).", "porque": "Eso es para despedir a alguien que se va. 서아 te está saludando." }
+          ] } },
+          { "es": "¡콩이 es mi perrito! Le gusta correr por el parque.", "accion": { "flag": "saludo_seoa" } }
+        ] }
+      ]
+    },
+    "kongi": {
+      "nombre": "콩이", "sprite": { "tipo": "perro" },
+      "dialogos": [
+        { "lineas": [
+          { "ko": "멍멍!", "es": "¡Guau, guau!" },
+          { "es": "En coreano, el «guau, guau» se escribe 멍멍." }
+        ] }
+      ]
+    },
+    "mateo": {
+      "nombre": "마테오", "sprite": { "tipo": "persona", "peinado": "corto", "pelo": "#4a3326", "piel": "#d9a77c", "ropa": "#2f8f6a", "sombra": "#25735a", "pantalon": "#2c3a5a" },
+      "dialogos": [
+        { "si": { "mision": "q5", "estado": "lista" }, "lineas": [
+          { "ko": "와, 커피! 감사합니다!", "es": "¡Wow, café! ¡Gracias!" },
+          { "es": "Ahora que todo se lee, 하나 quiere hablar contigo. Creo que es algo grande. Está en la plaza.", "accion": { "completar": "q5" } }
+        ] },
+        { "si": { "mision": "q5", "estado": "activa" }, "lineas": [
+          { "es": "Los 도깨비 morados rondan el lado este del mercado. Pon la mano frente a la boca: 카 suelta aire, 까 se aprieta sin aire y 가 lleva muy poco aire." }
+        ] },
+        { "si": { "mision": "q5", "estado": "disponible" }, "lineas": [
+          { "ko": "안녕하세요! 저는 마테오예요.", "es": "¡Hola! Soy Mateo." },
+          { "ko": "멕시코 사람이에요.", "es": "Soy mexicano." },
+          { "es": "Vivo en Seúl y estudio coreano, como tú. Quería un café, pero el letrero de la cafetería está en blanco... y el de la panadería, también." },
+          { "es": "Esas letras las tienen los 도깨비 morados, en el lado este del mercado. Ojo: sus preguntas son de 가, 카 y 까. ¡La diferencia es el aire!", "accion": { "iniciar": "q5" } }
+        ] },
+        { "si": { "mision": "q5", "estado": "hecha" }, "lineas": [
+          { "es": "¡Por fin mi 커피! En Corea se toma mucho café helado, incluso en invierno." }
+        ] },
+        { "lineas": [
+          { "ko": "안녕하세요!", "es": "¡Hola!" },
+          { "es": "Yo también estoy aprendiendo coreano. ¡화이팅!" }
+        ] }
+      ]
+    },
+    "valentina": {
+      "nombre": "발렌티나", "sprite": { "tipo": "persona", "peinado": "largo", "pelo": "#5a3a22", "piel": "#f0c49c", "ropa": "#4236F6", "sombra": "#2d23c9" },
+      "dialogos": [
+        { "si": { "letrero": "ppang" }, "lineas": [
+          { "es": "빵 = pan. ¡Huele increíble! Esta panadería es mi favorita." }
+        ] },
+        { "si": { "mision": "q5", "estado": "activa" }, "lineas": [
+          { "ko": "안녕하세요! 저는 발렌티나예요.", "es": "¡Hola! Soy Valentina." },
+          { "es": "El letrero de la panadería tiene una sola sílaba, pero con piso de abajo: la letra de abajo se llama 받침. ¡Fíjate en cómo termina el sonido!" }
+        ] },
+        { "lineas": [
+          { "ko": "안녕하세요! 저는 발렌티나예요.", "es": "¡Hola! Soy Valentina." },
+          { "ko": "칠레 사람이에요.", "es": "Soy chilena." },
+          { "es": "Vivo en Seúl y estudio coreano. ¡Esta panadería es mi favorita!" }
+        ] }
+      ]
+    }
+  },
+
+  "despedida": [
+    { "elige": { "pregunta": "Sales de la tienda y el 점원 se queda adentro. ¿Qué le dices?", "opciones": [
+      { "ko": "안녕히 계세요.", "es": "Adiós (a quien se queda).", "ok": true, "dice": "¡Eso! 안녕히 계세요 = «quédese bien» (안녕히 = bien, en paz · 계세요 = quédese): lo dice el que se va." },
+      { "ko": "안녕히 가세요.", "es": "Adiós (a quien se va).", "porque": "안녕히 가세요 = «váyase bien»: se le dice al que se va. Aquí te vas tú y el 점원 se queda: 안녕히 계세요." }
+    ] } },
+    { "quien": "jeomwon", "ko": "안녕히 가세요!", "es": "¡Que le vaya bien!", "accion": { "flag": "despedida" } }
+  ],
+
+  "info": {
+    "estatua": [
+      { "titulo": "세종대왕 · el gran rey Sejong", "es": "En 1443, el rey 세종 creó el 한글 (entonces se llamaba 훈민정음) y en 1446 lo dio a conocer, para que todo el pueblo pudiera leer y escribir." },
+      { "es": "Antes, en Corea se escribía con caracteres chinos (한자), que muy poca gente podía aprender." }
+    ],
+    "palacio": [
+      { "titulo": "광화문 · Gwanghwamun", "es": "Es la puerta principal del palacio 경복궁 (Gyeongbokgung). La placa dice 光化門 en caracteres chinos y, como en las placas antiguas, se lee de derecha a izquierda." }
+    ],
+    "bukchon": [
+      { "ko": "북촌", "es": "Bukchon" },
+      { "es": "Por aquí se va a Bukchon, el barrio de las casas tradicionales (한옥). Capítulo 2: próximamente." }
+    ],
+    "barrera": [
+      { "es": "Los 도깨비 bloquearon el camino a Bukchon con cajas. Capítulo 2: próximamente." }
+    ],
+    "restaurante": [ { "es": "Es el restaurante de 도윤. Abre en la tarde." } ],
+    "cafeteria": [ { "es": "La cafetería abre cuando su letrero se pueda leer." } ],
+    "panaderia": [ { "es": "Huele a pan recién hecho." } ],
+    "fuente": [ { "es": "Las fuentes de la plaza. En verano, los niños juegan en el agua." } ],
+    "cheonggyecheon": [ { "titulo": "청계천 · Cheonggyecheon", "es": "Un arroyo que cruza el centro de Seúl. Durante unos 40 años estuvo tapado por una avenida y una autopista elevada; en 2005 lo recuperaron." } ]
+  }
+}

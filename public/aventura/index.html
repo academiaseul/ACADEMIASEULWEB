@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>호랑이의 모험 · La aventura del Tigre — Academia Seúl</title>
+<meta name="description" content="Un RPG gratis para aprender a leer coreano: recupera las letras que robaron los 도깨비 y vuelve a armar los letreros de Gwanghwamun. En español, con voz coreana y sin cuenta. De Academia Seúl.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#14142B">
+<link rel="icon" href="/aventura/tigre.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script>
+  // Tema compartido con el sitio, el Lector, Dubu y 한글 Race (as-theme), antes de pintar
+  try { var t = localStorage.getItem('as-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<style>
+/* ── Tokens (marca Academia Seúl · nunca rojo ni rosado) ─────────────────── */
+:root{--bg:#F6F6F6;--card:#FFFFFF;--txt:#14142B;--muted:#5C6280;--border:#E3E5EF;--azul:#4236F6;--azul-txt:#4036ED;--azul-osc:#2D23C9;--lila-suave:#EEEBFF;--navy:#003478;--navy-txt:#003478;--oro:#E8B84B;--oro-txt:#8A6A14;--oro-suave:#FFF5DC;--noche:#14142B;--sombra:0 10px 32px rgba(16,16,60,.22);--radio:20px}
+[data-theme=dark]{--bg:#0B0B14;--card:#16162B;--txt:#F1F1F8;--muted:#A6ABC2;--border:#2A2A4A;--azul:#4C43F0;--azul-txt:#A49EFF;--azul-osc:#3B32D8;--lila-suave:#211E44;--navy-txt:#C9D4FF;--oro-txt:#E8B84B;--oro-suave:#2E2614;--sombra:0 10px 32px rgba(0,0,0,.5)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%;background:var(--noche);color:var(--txt);font-family:"Noto Sans KR",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased;overflow:hidden;overscroll-behavior:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid var(--azul-txt);outline-offset:3px}
+button:disabled{cursor:default}
+a{color:var(--azul-txt)}
+[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ko{font-family:"Noto Sans KR",sans-serif;word-break:keep-all}
+.tigre{display:inline-block;background:var(--azul);-webkit-mask:url(/aventura/tigre.png) center/contain no-repeat;mask:url(/aventura/tigre.png) center/contain no-repeat;flex-shrink:0}
+.tigre.blanco{background:#fff}.tigre.oro{background:var(--oro)}
+
+/* ── Mundo ──────────────────────────────────────────────────────────────── */
+#mundo{position:fixed;inset:0;width:100vw;height:100dvh;image-rendering:pixelated;image-rendering:crisp-edges;touch-action:none;display:block}
+#velo{position:fixed;inset:0;background:#000;opacity:0;pointer-events:none;transition:opacity .16s;z-index:30}
+#velo.on{opacity:1}
+
+/* ── HUD ────────────────────────────────────────────────────────────────── */
+#hud{position:fixed;top:calc(10px + env(safe-area-inset-top));left:10px;right:10px;display:flex;justify-content:space-between;align-items:flex-start;gap:10px;pointer-events:none;z-index:10}
+#hud > *{pointer-events:auto}
+.estado{background:rgba(20,20,43,.86);color:#fff;border-radius:16px;padding:8px 12px 9px;display:grid;grid-template-columns:auto 1fr;gap:2px 10px;align-items:center;min-width:180px;max-width:240px;box-shadow:0 6px 18px rgba(0,0,0,.25);backdrop-filter:blur(6px)}
+.estado .nv{grid-row:span 3;display:flex;flex-direction:column;align-items:center;gap:1px;font-weight:900;font-size:.72rem;letter-spacing:.04em}
+.estado .nv b{font-size:1.15rem;line-height:1}
+.barra{height:9px;border-radius:5px;background:rgba(255,255,255,.16);overflow:hidden;position:relative}
+.barra i{position:absolute;inset:0;width:100%;transform-origin:left;transition:transform .35s ease}
+.barra.hp i{background:linear-gradient(90deg,#6c63ff,#4236F6)}
+.barra.xp{height:5px}.barra.xp i{background:var(--oro)}
+.estado .fila{display:flex;justify-content:space-between;font-size:.7rem;color:rgba(255,255,255,.75);font-weight:700}
+.estado .won{font-weight:900;color:#ffe08a}
+.botones{display:flex;gap:8px}
+.ico{width:46px;height:46px;border-radius:14px;background:rgba(20,20,43,.86);color:#fff;font-size:20px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.25);position:relative}
+.ico:hover{background:var(--azul)}
+.ico .punto{position:absolute;top:6px;right:6px;width:10px;height:10px;border-radius:50%;background:var(--oro);border:2px solid #14142b}
+#lugar{position:fixed;left:50%;top:calc(14px + env(safe-area-inset-top));transform:translateX(-50%);background:rgba(20,20,43,.86);color:#fff;font-weight:800;font-size:.8rem;padding:6px 14px;border-radius:99px;pointer-events:none;z-index:9;opacity:0;transition:opacity .4s}
+#lugar.on{opacity:1}
+@media (max-width:640px){#lugar{top:auto;bottom:calc(150px + env(safe-area-inset-bottom))}}
+
+/* ── Controles táctiles ─────────────────────────────────────────────────── */
+#controles{position:fixed;left:0;right:0;bottom:calc(14px + env(safe-area-inset-bottom));display:flex;justify-content:space-between;align-items:flex-end;padding:0 14px;pointer-events:none;z-index:10}
+#controles > *{pointer-events:auto}
+.cruz{display:grid;grid-template-columns:repeat(3,54px);grid-template-rows:repeat(3,54px);gap:2px;opacity:.88}
+.cruz button{background:rgba(20,20,43,.78);color:#fff;font-size:20px;border-radius:12px;touch-action:none;user-select:none;-webkit-user-select:none}
+.cruz button.on{background:var(--azul)}
+.cruz .c{background:transparent;pointer-events:none}
+.btn-a{width:78px;height:78px;border-radius:50%;background:var(--azul);color:#fff;font-weight:900;font-size:1.6rem;box-shadow:0 8px 22px rgba(66,54,246,.45);touch-action:none;user-select:none;-webkit-user-select:none;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1}
+.btn-a small{font-size:.62rem;font-weight:800;margin-top:3px;letter-spacing:.03em}
+.btn-a:active{transform:scale(.95)}
+#ayuda-teclas{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:rgba(20,20,43,.8);color:rgba(255,255,255,.85);font-size:.75rem;padding:6px 14px;border-radius:99px;z-index:9;pointer-events:none;white-space:nowrap}
+#ayuda-teclas kbd{font-family:inherit;font-weight:800;background:rgba(255,255,255,.14);border-radius:5px;padding:1px 6px;margin:0 2px}
+body.tactil #ayuda-teclas{display:none}
+body:not(.tactil) #controles{display:none}
+
+/* ── Avisos ─────────────────────────────────────────────────────────────── */
+#avisos{position:fixed;top:calc(78px + env(safe-area-inset-top));left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;z-index:40;pointer-events:none;width:min(92vw,420px)}
+.aviso{background:var(--card);color:var(--txt);border-radius:14px;padding:9px 14px;font-weight:700;font-size:.88rem;box-shadow:var(--sombra);border-left:5px solid var(--azul);animation:baja .25s ease-out;max-width:100%}
+.aviso.oro{border-left-color:var(--oro)}
+.aviso.letra{border-left-color:var(--oro);font-size:1rem}
+.aviso.sale{animation:sube .3s ease-in forwards}
+@keyframes baja{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+@keyframes sube{to{opacity:0;transform:translateY(-8px)}}
+
+/* ── Tarjetas y paneles ─────────────────────────────────────────────────── */
+.capa{position:fixed;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(10,10,25,.55);backdrop-filter:blur(2px)}
+.tarjeta{background:var(--card);color:var(--txt);border-radius:var(--radio);box-shadow:var(--sombra);width:min(100%,560px);max-height:calc(100dvh - 32px);overflow:auto;padding:20px}
+.tarjeta h2{margin:0 0 4px;font-size:1.25rem;font-weight:900}
+.tarjeta .sub{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+.cerrar{float:right;width:38px;height:38px;border-radius:12px;border:1px solid var(--border);font-size:18px;color:var(--muted);margin:-4px -4px 0 8px}
+.cerrar:hover{color:var(--azul-txt);border-color:var(--azul-txt)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:10px 20px;border-radius:14px;font-weight:800;background:var(--azul);color:#fff;text-decoration:none}
+.btn:hover{background:var(--azul-osc)}
+.btn.sec{background:var(--lila-suave);color:var(--azul-txt)}
+.btn.sec:hover{background:var(--border)}
+.btn:disabled{opacity:.45}
+.btn.ancho{width:100%}
+.oir{width:40px;height:40px;border-radius:12px;background:var(--lila-suave);color:var(--azul-txt);font-size:18px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.oir:hover{background:var(--azul);color:#fff}
+
+/* ── Diálogo ────────────────────────────────────────────────────────────── */
+#dialogo{position:fixed;left:0;right:0;bottom:0;z-index:25;display:flex;justify-content:center;padding:0 12px calc(12px + env(safe-area-inset-bottom))}
+.globo{background:var(--card);color:var(--txt);border-radius:22px;box-shadow:0 -6px 32px rgba(0,0,0,.3);width:min(100%,720px);padding:14px 16px 16px;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;cursor:pointer;border:3px solid var(--azul);position:relative;animation:baja .2s ease-out}
+.globo .retrato{grid-row:span 3;width:64px;height:64px;border-radius:16px;background:var(--lila-suave);image-rendering:pixelated;align-self:start}
+.globo .quien{font-weight:900;color:var(--azul-txt);font-size:.85rem;display:flex;align-items:center;gap:8px}
+.globo .linea-ko{display:flex;align-items:center;gap:10px}
+.globo .linea-ko .ko{font-size:1.45rem;font-weight:900;line-height:1.3}
+.globo .linea-es{font-size:1rem;line-height:1.5}
+.globo .linea-es.sub-es{color:var(--muted);font-size:.92rem}
+.globo .sigue{position:absolute;right:16px;bottom:10px;color:var(--azul-txt);font-size:.85rem;animation:late 1s infinite}
+@keyframes late{50%{transform:translateY(2px);opacity:.5}}
+.opciones{grid-column:1/-1;display:grid;gap:8px;margin-top:8px}
+.op{display:flex;align-items:center;gap:10px;text-align:left;border:2px solid var(--border);border-radius:14px;padding:10px 14px;min-height:52px;font-weight:700;background:var(--card)}
+.op:hover:not(:disabled){border-color:var(--azul-txt)}
+.op .ko{font-size:1.2rem;font-weight:900}
+.op small{color:var(--muted);font-weight:600}
+.op.bien{border-color:var(--azul);background:var(--lila-suave)}
+.op.mal{border-color:var(--oro);background:var(--oro-suave);text-decoration:line-through;text-decoration-color:var(--oro-txt);opacity:.75}
+.nota{grid-column:1/-1;border-radius:12px;padding:10px 12px;font-size:.93rem;line-height:1.5;margin-top:6px}
+.nota.bien{background:var(--lila-suave);color:var(--azul-txt);font-weight:700}
+.nota.mal{background:var(--oro-suave);color:var(--oro-txt);font-weight:700}
+
+/* ── Duelo ──────────────────────────────────────────────────────────────── */
+#batalla{position:fixed;inset:0;z-index:22;background:radial-gradient(circle at 50% 25%,#3b33a8 0,#1c1a4a 55%,#0d0c24 100%);color:#fff;display:flex;flex-direction:column;align-items:center;overflow:auto;padding:calc(12px + env(safe-area-inset-top)) 12px calc(12px + env(safe-area-inset-bottom))}
+#batalla.entra{animation:destello .45s ease-out}
+@keyframes destello{0%{filter:brightness(3)}100%{filter:none}}
+.arena{width:min(100%,640px);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;margin-top:4px}
+.luchador{display:flex;flex-direction:column;gap:5px;font-weight:800;font-size:.85rem}
+.luchador.der{text-align:right}
+.luchador .barra{height:12px;border-radius:6px}
+.luchador.enemigo .barra i{background:linear-gradient(90deg,#f2d27a,#e8b84b)}
+.luchador .num{font-size:.75rem;color:rgba(255,255,255,.7)}
+.sprite-duelo{width:128px;height:128px;image-rendering:pixelated;animation:flota 1.6s ease-in-out infinite}
+.sprite-duelo.golpe{animation:golpe .35s}
+@keyframes flota{50%{transform:translateY(-6px)}}
+@keyframes golpe{0%,100%{transform:none;filter:none}25%{transform:translateX(-8px);filter:brightness(2.2)}60%{transform:translateX(6px)}}
+.tiembla{animation:tiembla .35s}
+@keyframes tiembla{25%{transform:translateX(-6px)}50%{transform:translateX(5px)}75%{transform:translateX(-3px)}}
+.flota-num{position:fixed;font-weight:900;font-size:1.6rem;pointer-events:none;animation:subeNum .9s ease-out forwards;z-index:30;text-shadow:0 2px 6px rgba(0,0,0,.4)}
+.flota-num.azul{color:#cfcaff}.flota-num.oro{color:#ffe08a}
+@keyframes subeNum{to{transform:translateY(-46px);opacity:0}}
+.pregunta{width:min(100%,640px);background:var(--card);color:var(--txt);border-radius:22px;padding:16px;margin-top:12px;box-shadow:var(--sombra)}
+.pregunta .cab{display:flex;align-items:center;gap:12px}
+.pregunta .instr{font-weight:800;font-size:1.02rem;line-height:1.45;flex:1}
+.pregunta .oir{width:56px;height:56px;font-size:24px;border-radius:16px}
+.pregunta .pista{color:var(--muted);font-size:.85rem;margin-top:6px}
+.pregunta .ops{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-top:14px}
+.pregunta .ops.largas{grid-template-columns:1fr}
+.pregunta .ops button{min-height:64px;border-radius:16px;border:2px solid var(--border);font-size:1.6rem;font-weight:900;padding:8px 10px;background:var(--card)}
+.pregunta .ops.largas button,.pregunta .ops button.es{font-size:1rem;font-weight:800}
+.pregunta .ops button:hover:not(:disabled){border-color:var(--azul-txt);background:var(--lila-suave)}
+.pregunta .ops button.bien{border-color:var(--azul);background:var(--azul);color:#fff}
+.pregunta .ops button.mal{border-color:var(--oro);background:var(--oro-suave);color:var(--oro-txt);text-decoration:line-through}
+.pregunta .ops button.oculta{visibility:hidden}
+.pregunta .nota{margin-top:12px}
+.acciones-duelo{width:min(100%,640px);display:flex;gap:8px;margin-top:10px;justify-content:space-between}
+.acciones-duelo .btn{min-height:44px;padding:8px 14px;font-size:.9rem}
+.mochila-duelo{width:min(100%,640px);display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.mochila-duelo button{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border-radius:12px;padding:6px 12px 6px 6px;font-weight:700;font-size:.85rem;color:#fff}
+.mochila-duelo button:hover{background:rgba(255,255,255,.22)}
+.mochila-duelo img{width:32px;height:32px;image-rendering:pixelated}
+.botin{display:grid;gap:10px;margin:12px 0}
+.botin .letra{display:flex;align-items:center;gap:14px;background:var(--oro-suave);border-radius:16px;padding:12px}
+.botin .letra b{font-size:2.6rem;line-height:1;font-weight:900;color:var(--txt)}
+.botin .linea{font-weight:700}
+@media (max-width:420px){.arena{grid-template-columns:1fr 92px 1fr}.sprite-duelo{width:92px;height:92px}.luchador{font-size:.74rem}}
+.racha{color:#ffe08a;font-weight:900;font-size:.85rem;text-align:center;min-height:1.2em;margin-top:6px}
+
+/* ── Letrero ────────────────────────────────────────────────────────────── */
+.tabla-letrero{display:flex;gap:8px;justify-content:center;margin:12px 0}
+.tabla-letrero span{width:68px;height:68px;border-radius:14px;border:3px dashed var(--border);display:flex;align-items:center;justify-content:center;font-size:2.4rem;font-weight:900;color:var(--muted)}
+.tabla-letrero span.lista{border-style:solid;border-color:var(--azul);color:var(--txt);background:var(--lila-suave)}
+.tabla-letrero span.ahora{border-style:solid;border-color:var(--oro)}
+.armar{display:grid;gap:10px}
+.armar h3{margin:4px 0 0;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.fichas{display:flex;flex-wrap:wrap;gap:6px}
+.fichas button{min-width:46px;height:46px;border-radius:12px;border:2px solid var(--border);font-size:1.35rem;font-weight:900;padding:0 8px}
+.fichas button:hover{border-color:var(--azul-txt)}
+.fichas button.sel{border-color:var(--azul);background:var(--azul);color:#fff}
+.fichas button.nada{font-size:.85rem;font-weight:800}
+.vista{display:flex;align-items:center;gap:14px;justify-content:center;margin:6px 0}
+.vista .bloque{width:84px;height:84px;border-radius:18px;background:var(--lila-suave);display:flex;align-items:center;justify-content:center;font-size:3rem;font-weight:900;color:var(--azul-txt)}
+
+/* ── Panel (misiones, mochila, letras, ajustes) ─────────────────────────── */
+.pestanas{display:flex;gap:6px;margin:4px 0 14px;flex-wrap:wrap}
+.pestanas button{padding:8px 14px;border-radius:99px;font-weight:800;font-size:.88rem;background:var(--lila-suave);color:var(--azul-txt)}
+.pestanas button[aria-selected=true]{background:var(--azul);color:#fff}
+.mision{border:1px solid var(--border);border-radius:16px;padding:12px 14px;margin-bottom:10px}
+.mision h3{margin:0 0 6px;font-size:1rem}
+.mision h3 small{color:var(--muted);font-weight:700;font-size:.78rem;margin-left:6px}
+.mision ul{margin:0;padding:0;list-style:none;display:grid;gap:4px;font-size:.9rem}
+.mision li::before{content:"○ ";color:var(--muted)}
+.mision li.hecho{color:var(--muted);text-decoration:line-through}
+.mision li.hecho::before{content:"✓ ";color:var(--azul-txt)}
+.mision .entrega{margin-top:8px;font-weight:800;color:var(--azul-txt);font-size:.9rem}
+.mision.hecha{opacity:.6}
+.fila-obj{display:flex;align-items:center;gap:12px;border:1px solid var(--border);border-radius:16px;padding:10px 12px;margin-bottom:8px}
+.fila-obj img{width:48px;height:48px;image-rendering:pixelated;background:var(--lila-suave);border-radius:12px}
+.fila-obj .txt{flex:1;min-width:0}
+.fila-obj .txt b{font-size:1.1rem}
+.fila-obj .txt small{display:block;color:var(--muted);font-size:.82rem;line-height:1.35}
+.fila-obj .cant{font-weight:900;color:var(--muted);margin-right:4px}
+.fila-obj .btn{min-height:40px;padding:6px 14px;font-size:.88rem}
+.dogam{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:6px}
+.dogam button{aspect-ratio:1;border-radius:12px;border:2px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:1.5rem;font-weight:900;line-height:1.1}
+.dogam button small{font-size:.62rem;color:var(--muted);font-weight:700}
+.dogam button.tengo{border-color:var(--azul);background:var(--lila-suave)}
+.dogam button.no{color:var(--border)}
+.ajuste{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--border)}
+.ajuste small{display:block;color:var(--muted);font-size:.82rem}
+.interruptor{width:54px;height:30px;border-radius:99px;background:var(--border);position:relative;flex-shrink:0}
+.interruptor::after{content:"";position:absolute;top:3px;left:3px;width:24px;height:24px;border-radius:50%;background:#fff;transition:transform .2s;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.interruptor[aria-checked=true]{background:var(--azul)}
+.interruptor[aria-checked=true]::after{transform:translateX(24px)}
+
+/* ── Título ─────────────────────────────────────────────────────────────── */
+#titulo{position:fixed;inset:0;z-index:50;background:radial-gradient(circle at 50% 30%,#4236F6 0,#231c8f 45%,#0d0c24 100%);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:24px 18px calc(24px + env(safe-area-inset-bottom));text-align:center;overflow:auto}
+#titulo .marca{position:absolute;top:calc(14px + env(safe-area-inset-top));left:16px;display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.8);text-decoration:none;font-weight:800;font-size:.85rem}
+#titulo h1{margin:0;font-size:clamp(2.2rem,9vw,3.6rem);font-weight:900;letter-spacing:-.02em;line-height:1.05}
+#titulo h1 small{display:block;font-size:.38em;font-weight:800;letter-spacing:.02em;color:#cfcaff;margin-top:8px}
+#titulo .cap{background:rgba(255,255,255,.12);border-radius:99px;padding:6px 16px;font-weight:800;font-size:.85rem}
+#titulo .elenco{display:flex;gap:14px;align-items:flex-end;margin:4px 0}
+#titulo .elenco canvas{width:72px;height:72px;image-rendering:pixelated}
+#titulo .elenco canvas.grande{width:96px;height:96px}
+#titulo .acciones{display:grid;gap:10px;width:min(100%,320px)}
+#titulo .btn{min-height:54px;font-size:1.05rem}
+#titulo .btn.sec{background:rgba(255,255,255,.14);color:#fff}
+#titulo .letra-chica{color:rgba(255,255,255,.65);font-size:.8rem;max-width:380px;line-height:1.5}
+
+/* ── Fin de capítulo ────────────────────────────────────────────────────── */
+.fin-dicho{background:var(--lila-suave);border-radius:18px;padding:16px;text-align:center;margin:12px 0}
+.fin-dicho .ko{font-size:1.8rem;font-weight:900;color:var(--azul-txt)}
+.cifras{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:12px 0}
+.cifras div{border:1px solid var(--border);border-radius:14px;padding:10px;text-align:center}
+.cifras b{display:block;font-size:1.5rem;font-weight:900}
+.cifras small{color:var(--muted);font-weight:700;font-size:.78rem}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<canvas id="mundo" role="img" aria-label="El mapa del juego"></canvas>
+<div id="velo"></div>
+
+<div id="hud" hidden>
+  <div class="estado" aria-label="Tu estado">
+    <div class="nv"><span>NV</span><b id="hud-nivel">1</b></div>
+    <div class="barra hp" title="기운 (energía)"><i id="hud-hp"></i></div>
+    <div class="fila"><span>기운 <span id="hud-hp-txt">30/30</span></span><span class="won" id="hud-won">0원</span></div>
+    <div class="barra xp" title="Experiencia"><i id="hud-xp"></i></div>
+  </div>
+  <div class="botones">
+    <button class="ico" id="btn-misiones" aria-label="Misiones" title="Misiones (Q)">📜<span class="punto" id="punto-misiones" hidden></span></button>
+    <button class="ico" id="btn-mochila" aria-label="Mochila y letras" title="Mochila (I)">🎒</button>
+    <button class="ico" id="btn-ajustes" aria-label="Ajustes" title="Ajustes">⚙️</button>
+  </div>
+</div>
+<div id="lugar"></div>
+<div id="ayuda-teclas" hidden><kbd>←↑↓→</kbd> moverte · <kbd>Espacio</kbd> hablar · <kbd>Q</kbd> misiones · <kbd>I</kbd> mochila · o haz clic en el mapa</div>
+
+<div id="controles" hidden>
+  <div class="cruz" aria-label="Moverse">
+    <span class="c"></span><button data-dir="arriba" aria-label="Arriba">▲</button><span class="c"></span>
+    <button data-dir="izquierda" aria-label="Izquierda">◀</button><span class="c"></span><button data-dir="derecha" aria-label="Derecha">▶</button>
+    <span class="c"></span><button data-dir="abajo" aria-label="Abajo">▼</button><span class="c"></span>
+  </div>
+  <button class="btn-a" id="btn-a" aria-label="Hablar o revisar">✋<small>HABLAR</small></button>
+</div>
+
+<div id="avisos" aria-live="polite"></div>
+
+<section id="dialogo" hidden aria-live="polite">
+  <div class="globo" id="globo">
+    <canvas class="retrato" id="retrato" width="16" height="16" aria-hidden="true"></canvas>
+    <div class="quien" id="dlg-quien"></div>
+    <div class="linea-ko" id="dlg-ko-fila"><span class="ko" id="dlg-ko"></span><button class="oir" id="dlg-oir" aria-label="Escuchar">🔊</button></div>
+    <div class="linea-es" id="dlg-es"></div>
+    <div class="opciones" id="dlg-ops"></div>
+    <div class="nota" id="dlg-nota" hidden></div>
+    <span class="sigue" id="dlg-sigue">▼</span>
+  </div>
+</section>
+
+<section id="batalla" hidden aria-label="Duelo">
+  <div class="arena">
+    <div class="luchador">
+      <span>🐯 Tigre · NV <span id="bt-nv">1</span></span>
+      <div class="barra hp"><i id="bt-hp"></i></div>
+      <span class="num" id="bt-hp-txt"></span>
+    </div>
+    <canvas class="sprite-duelo" id="bt-sprite" width="16" height="16" aria-hidden="true"></canvas>
+    <div class="luchador der enemigo">
+      <span class="ko" id="bt-nombre"></span>
+      <div class="barra"><i id="bt-ehp"></i></div>
+      <span class="num" id="bt-ehp-txt"></span>
+    </div>
+  </div>
+  <div class="racha" id="bt-racha"></div>
+  <div class="pregunta" id="bt-pregunta">
+    <div class="cab">
+      <div class="instr" id="bt-instr"></div>
+      <button class="oir" id="bt-oir" aria-label="Escuchar">🔊</button>
+    </div>
+    <div class="pista" id="bt-pista" hidden></div>
+    <div class="ops" id="bt-ops"></div>
+    <div class="nota" id="bt-nota" hidden></div>
+  </div>
+  <div class="acciones-duelo" id="bt-acciones">
+    <button class="btn sec" id="bt-mochila">🎒 Objetos</button>
+    <button class="btn sec" id="bt-huir">🏃 Huir</button>
+  </div>
+  <div class="mochila-duelo" id="bt-objetos" hidden></div>
+</section>
+
+<section id="capa" class="capa" hidden>
+  <div class="tarjeta" id="tarjeta" role="dialog" aria-modal="true"></div>
+</section>
+
+<section id="titulo">
+  <a class="marca" href="/"><span class="tigre blanco" style="width:26px;height:26px"></span>Academia Seúl</a>
+  <div class="cap">Capítulo 1 · Gwanghwamun</div>
+  <h1 class="ko">호랑이의 모험<small>La aventura del Tigre</small></h1>
+  <div class="elenco" aria-hidden="true"><canvas id="t-hana" width="16" height="16"></canvas><canvas id="t-tigre" class="grande" width="16" height="16"></canvas><canvas id="t-dok" width="16" height="16"></canvas></div>
+  <p class="letra-chica" style="font-size:.95rem;color:rgba(255,255,255,.85)">Los 도깨비 se robaron las letras de Seúl. Gánales duelos de coreano, recupera el 한글 y vuelve a armar cada letrero.</p>
+  <div class="acciones">
+    <button class="btn" id="btn-continuar" hidden>Continuar</button>
+    <button class="btn" id="btn-nueva">Nueva partida</button>
+  </div>
+  <p class="letra-chica">Gratis y sin cuenta: tu avance se guarda en este navegador. Usa audífonos o sube el volumen. Para quien parte de cero: es lo de las semanas 1 y 2 de Básico 1.</p>
+</section>
+
+<script src="/aventura/motor.js"></script>
+<script src="/aventura/sprites.js"></script>
+<script src="/aventura/juego.js"></script>
+</body>
+</html>
