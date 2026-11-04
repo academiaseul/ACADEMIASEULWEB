@@ -161,6 +161,76 @@ t('IA: persigue cuando te ve y vuelve a casa', () => {
   assert.strictEqual(en.estado, 'vuelve');
 });
 
+/* ── Repaso, racha y guía ─────────────────────────────────────────── */
+const DIA = 86400000, AHORA = new Date(2026, 10, 3, 12, 0, 0).getTime();
+t('repaso: fallar vuelve pronto, acertar aleja', () => {
+  const est = RPG.crearEstado(MUNDO);
+  const b = RPG.nuevaBatalla(MUNDO, est, 'verde', BANCO, 5, AHORA);
+  const q = RPG.preguntaActual(b);
+  RPG.responder(b, est, q.opciones.find((o) => o !== q.respuesta));
+  assert.ok(est.repaso[q.id].e === 1 && est.repaso[q.id].c === 0 && est.repaso[q.id].p === AHORA + 600000, 'la caja 0 vuelve en 10 minutos');
+  RPG.responder(b, est, q.respuesta);
+  assert.strictEqual(est.repaso[q.id].v, 1, 'acertar después de fallar no cuenta como acierto');
+  const q2 = RPG.preguntaActual(b);
+  RPG.responder(b, est, q2.respuesta);
+  assert.ok(est.repaso[q2.id].c === 1 && est.repaso[q2.id].p === AHORA + DIA, 'acertar al primer intento sube de caja');
+  const otra = RPG.nuevaBatalla(MUNDO, est, 'verde', BANCO, 6, AHORA + 700000);
+  assert.strictEqual(otra.cola[0].id, q.id, 'lo que venció va primero en el próximo duelo');
+  assert.deepStrictEqual(RPG.debiles(est, BANCO, 5).map((x) => x.id), [q.id]);
+});
+t('duelo nuevo: de los niveles bajos a los altos', () => {
+  const est = RPG.crearEstado(MUNDO);
+  const b = RPG.nuevaBatalla(MUNDO, est, 'azul', BANCO, 11, AHORA);
+  const niveles = b.cola.map((q) => q.nivel);
+  assert.deepStrictEqual(niveles, niveles.slice().sort((x, y) => x - y));
+});
+t('el primer duelo suelta dos letras y deja armar el primer letrero', () => {
+  const est = RPG.crearEstado(MUNDO), rnd = RPG.azar(3);
+  for (const l of RPG.elegirDialogo(est, MUNDO, 'hana').lineas) RPG.aplicarAccion(est, MUNDO, l.accion);
+  const gana = () => { const b = RPG.nuevaBatalla(MUNDO, est, 'verde', BANCO, 8, AHORA); while (!b.fin) RPG.responder(b, est, RPG.preguntaActual(b).respuesta); return RPG.botin(b, est, MUNDO, rnd, AHORA); };
+  assert.strictEqual(gana().letras.length, 2);
+  assert.strictEqual(RPG.siguientePaso(est, MUNDO).tipo, 'letrero');
+  assert.strictEqual(gana().letras.length, 1, 'el segundo duelo vuelve a soltar una');
+});
+t('racha y 도깨비 dorado', () => {
+  const est = RPG.crearEstado(MUNDO);
+  assert.ok(!RPG.doradoDisponible(est, AHORA), 'sin nada que repasar no aparece');
+  for (let k = 0; k < 6; k++) RPG.anotar(est, BANCO[k].id, false, AHORA);
+  assert.ok(RPG.doradoDisponible(est, AHORA));
+  const pasa = (ahora) => { const b = RPG.nuevaBatalla(MUNDO, est, 'oro', BANCO, 9, ahora); while (!b.fin) RPG.responder(b, est, RPG.preguntaActual(b).respuesta); return RPG.botin(b, est, MUNDO, RPG.azar(1), ahora); };
+  const b = RPG.nuevaBatalla(MUNDO, est, 'oro', BANCO, 9, AHORA);
+  assert.ok(b.cola.length === 5 && b.cola.every((q) => est.repaso[q.id]), 'el dorado solo pregunta lo ya visto');
+  assert.strictEqual(pasa(AHORA).racha, 1);
+  assert.ok(!RPG.doradoDisponible(est, AHORA + 1000), 'una vez al día');
+  assert.ok(RPG.doradoDisponible(est, AHORA + DIA));
+  assert.strictEqual(pasa(AHORA + DIA).racha, 2);
+  assert.strictEqual(RPG.rachaViva(est, AHORA + DIA * 2), 2, 'al día siguiente sigue viva');
+  assert.strictEqual(RPG.rachaViva(est, AHORA + DIA * 3), 0, 'dos días sin repasar la cortan');
+  assert.strictEqual(pasa(AHORA + DIA * 4).racha, 1);
+});
+t('el dorado hace todas sus preguntas, aunque el tigre pegue fuerte', () => {
+  const est = RPG.crearEstado(MUNDO);
+  est.nivel = 20;
+  for (let k = 0; k < 8; k++) RPG.anotar(est, BANCO[k].id, false, AHORA);
+  const b = RPG.nuevaBatalla(MUNDO, est, 'oro', BANCO, 9, AHORA);
+  assert.strictEqual(b.hp, b.hpMax);
+  const q1 = RPG.preguntaActual(b), mala = q1.opciones.find((o) => o !== q1.respuesta);
+  RPG.responder(b, est, mala);
+  assert.strictEqual(b.cola.length, 6, 'la fallada vuelve');
+  assert.strictEqual(b.hp, b.hpMax, 'y la barra se alarga, no baja');
+  let respuestas = 0;
+  while (!b.fin) { const anterior = b.hp; RPG.responder(b, est, RPG.preguntaActual(b).respuesta); respuestas++; assert.ok(b.hp < anterior); assert.ok(respuestas <= 6, 'no se queda pegado'); }
+  assert.strictEqual(respuestas, 6, 'cinco preguntas más la que volvió');
+  assert.strictEqual(b.fin, 'victoria');
+});
+t('una partida guardada antes de la guía y del repaso se puede cargar', () => {
+  const vieja = RPG.crearEstado(MUNDO);
+  delete vieja.repaso; delete vieja.racha; delete vieja.ajustes.musica; delete vieja.ajustes.cruz;
+  const est = RPG.cargar(JSON.stringify(vieja), MUNDO);
+  assert.ok(est.repaso && est.racha.n === 0 && est.ajustes.musica === true && est.ajustes.cruz === false);
+  assert.ok(RPG.nuevaBatalla(MUNDO, est, 'verde', BANCO, 1).cola.length);
+});
+
 /* ── El capítulo completo, sin pantalla ───────────────────────────── */
 t('capítulo 1 de punta a punta', () => {
   const est = RPG.crearEstado(MUNDO);
@@ -187,17 +257,25 @@ t('capítulo 1 de punta a punta', () => {
     while (letreros.some((l) => RPG.faltanLetras(est, MUNDO, l).length) && n++ < 30) gana(tipo);
     assert.ok(n < 30, `${tipo}: nunca soltó las letras de ${letreros}`);
   };
+  const guia = () => RPG.siguientePaso(est, MUNDO);
+  assert.deepStrictEqual([guia().tipo, guia().id], ['npc', 'hana']);
   habla('hana');
   assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q1'), 'hecha');
+  assert.deepStrictEqual([guia().tipo, guia().id], ['zona', 'verde']);
   assert.ok(est.letras.includes('ㅇ') && est.won === 3000);
   for (let k = 0; k < 3; k++) gana('verde');
   ganaHastaTener('verde', ['uyu', 'oi']);
+  assert.strictEqual(guia().tipo, 'letrero');
   arma('uyu'); arma('oi');
   assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q2'), 'lista');
+  assert.strictEqual(guia().id, 'hana');
   habla('hana');
+  assert.strictEqual(guia().id, 'halmeoni');
   assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q3'), 'disponible');
   habla('halmeoni'); habla('doyun');
+  assert.deepStrictEqual([guia().id, guia().mapa], ['jeomwon', 'tienda']);
   assert.ok(RPG.comprar(est, MUNDO, 'pyeonuijeom', 'uyu').ok);
+  assert.deepStrictEqual([guia().tipo, guia().x, guia().y], ['salida', 5, 8]);
   for (const l of MUNDO.despedida) RPG.aplicarAccion(est, MUNDO, l.accion);
   assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q3'), 'lista');
   habla('halmeoni');
@@ -207,17 +285,21 @@ t('capítulo 1 de punta a punta', () => {
   ganaHastaTener('azul', ['gogi', 'namu', 'moja']);
   arma('gogi'); arma('namu'); arma('moja');
   habla('doyun'); habla('mateo');
+  assert.deepStrictEqual([guia().tipo, guia().id], ['zona', 'morado']);
   for (let k = 0; k < 3; k++) gana('morado');
   ganaHastaTener('morado', ['keopi', 'ppang']);
   arma('keopi'); arma('ppang');
   habla('mateo');
   assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q6'), 'disponible');
   habla('hana');
+  assert.strictEqual(guia().id, 'jefe');
   const jefe = gana('jefe');
   assert.ok(jefe.eventos.length);
+  assert.strictEqual(guia().tipo, 'letrero');
   arma('hangeul');
   habla('hana');
   assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q6'), 'hecha');
+  assert.strictEqual(guia(), null);
   console.log(`  capítulo jugado: nivel ${est.nivel}, ${est.letras.length} letras, ${est.stats.duelos} duelos, ${RPG.fmtWon(est.won)}`);
   // Guardar y cargar
   const otra = RPG.cargar(RPG.serializar(est), MUNDO);

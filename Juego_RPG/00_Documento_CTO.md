@@ -1,6 +1,6 @@
 # 호랑이의 모험 · La aventura del Tigre — documento de CTO
 
-Fecha: 2 de noviembre de 2026. Estado: **prototipo jugable del capítulo 1** en `public/aventura/` (URL `/aventura`), **subido oculto el 3 nov 2026** (academiaseul.com/aventura funciona para quien tenga el link), sin enlazar, fuera del sitemap y con `noindex` hasta que Jay apruebe ponerlo en el menú.
+Fecha: 2 de noviembre de 2026. Estado: **prototipo jugable del capítulo 1** en `public/aventura/` (URL `/aventura`), **subido oculto el 3 nov 2026 y actualizado con las mejoras el 4 nov** (academiaseul.com/aventura funciona para quien tenga el link), sin enlazar, fuera del sitemap y con `noindex` hasta que Jay apruebe ponerlo en el menú.
 
 ## 1. La decisión de tecnología: web, no Unity
 
@@ -59,6 +59,36 @@ Cómo quedan los temas del curso en nuestro motor:
 
 Personajes: los de las clases de Básico 2 (하나, 도윤, 서아, 발렌티나, 마테오, 콩이) y una 할머니 del puesto de verduras.
 
+### Mejoras del 3 nov 2026 (después de jugarlo como alguien que llega desde un reel)
+
+| Problema | Qué se hizo |
+|---|---|
+| El primer letrero pedía 4 duelos (unas 12 preguntas) | El primer duelo suelta 2 letras: se arma el primer letrero con 1 duelo. Las preguntas nuevas van de los niveles bajos a los altos. |
+| El arranque eran 2 pantallas de texto | Prólogo de 4 segundos, saltable: un 도깨비 se roba el letrero 한글 delante de ti y huye al parque, justo adonde hay que ir. |
+| No se veía qué hacer | Guía siempre a la vista debajo del HUD (`RPG.siguientePaso`) y flecha en el mapa. Al tocarla, el tigre camina solo (el 자동 이동 de los MMORPG coreanos). |
+| La cruz tapaba el mapa en el celular | La cruz queda apagada (se activa en Ajustes). Se camina tocando el mapa, y ✋ solo aparece cuando hay algo que hacer y dice qué (Hablar, Armar, Leer, Mirar). |
+| 28 frases sin clip: mudas en un PC sin voz coreana | Clips SunHi generados con `Juego_RPG/voz/generar_clips_sunhi.js`. Hoy todo lo que el juego dice tiene clip. |
+| En el duelo no estaba el tigre | Escenario con los dos personajes, ataque, zarpazo, golpe de 방망이, destellos y derrota del 도깨비. |
+| Sin música | Música propia hecha con WebAudio, sin archivos: pentatónica y patrones de 장구 (plaza, duelo, jefe). Baja sola cuando suena el coreano y se apaga en Ajustes. |
+| No se repasaba lo que cada uno falla | Cajas de Leitner por jugador en `est.repaso`: lo que falló vuelve primero. En Letras aparecen «Palabras que ya lees» y «Lo que más te ha costado». |
+| Sin motivo para volver mañana | 황금 도깨비: una vez al día, 5 preguntas de lo que más te cuesta, y racha de días. |
+| Armar un letrero no se sentía | Chispas, la palabra sube sobre el letrero y los vecinos celebran. Al pasar junto a un letrero armado, el mundo se lee solo (audio y traducción). |
+| `confirm()` puede no funcionar en navegadores integrados | Ventana propia. |
+| Sin forma de contarlo | Tarjeta para compartir al terminar el capítulo (PNG, sin datos personales). |
+| Otoño en Seúl sin otoño | Ginkgos amarillos (los de Sejong-daero) y hojas que caen. |
+| Los 도깨비 débiles seguían persiguiéndote | Cuando su misión ya se cumplió, dejan de perseguir. |
+
+La revisión en pantalla de esas mejoras encontró cuatro errores, ya corregidos:
+
+| Error | Causa | Arreglo |
+|---|---|---|
+| El 황금 도깨비 caía con 2 respuestas y no con 5 (a nivel 7) | El duelo terminaba por vida, y el tigre pega más fuerte a medida que sube | En un repaso la vida sale de la cola de preguntas (`vidaDeRepaso` en `motor.js`). La pregunta fallada vuelve y alarga la barra. |
+| La música tapaba parte del coreano | Volvía a los 1,5 s y 127 de los 139 clips duran más | Vuelve cuando el clip termina (`a.onended`); los 6 s quedan como tope. |
+| La música casi no se oía | Quedaba unos 22 dB bajo la voz | `VOL_MUSICA = 3`: 13 dB bajo la voz en plaza y duelo, 10 en el jefe, con picos de 0,26 (no satura). Medido, no escuchado: si no gusta, se cambia ese número. |
+| «Borrar» en Ajustes no borraba nada (también en la versión publicada el 3 nov) | `visibilitychange` guardaba de nuevo la partida durante la recarga | Bandera `borrando` en `guardar()`. |
+
+Medición con `Juego_RPG/bot_navegador.js` (juega con los mismos botones que un alumno, sin leer ni pensar): primer letrero a los ~11 s de bot. Cuánto se demora una persona que lee no está medido: hay que verlo con un alumno real.
+
 ## 3. Arquitectura
 
 Sigue el principio de Tigre 100 (`Juego_100/00_Plan_de_Accion.md` §7): app estática, sin build, motor sin DOM, contenido en JSON, prueba en Node.
@@ -77,10 +107,10 @@ Juego_RPG/
   prueba_motor.js       node Juego_RPG/prueba_motor.js
 ```
 
-- Audio: clip de `/audio/kr/<hex-utf8>.mp3` → voz del dispositivo (ko-KR). Sonidos de juego con WebAudio, sin archivos.
-- Guardado: `localStorage['as-aventura-v1']`, con try/catch.
+- Audio: clip de voz de Jay si existe → `/audio/kr/<hex-utf8>.mp3` → voz del dispositivo (ko-KR). Sonidos y música con WebAudio, sin archivos.
+- Guardado: `localStorage['as-aventura-v1']`, con try/catch. Las partidas viejas cargan: `cargar` completa `repaso`, `racha` y los ajustes nuevos.
 - Tema: lee `as-theme` (día/noche) para la interfaz; el mundo en pixel art no cambia.
-- Controles: flechas o WASD + Enter/Espacio; en el celular, cruz táctil y **tocar para caminar** (ruta BFS).
+- Controles: flechas o WASD + Enter/Espacio; en el celular, **tocar para caminar** (ruta BFS), guía que camina sola y cruz opcional.
 
 ## 4. Hoja de ruta (cada capítulo = un tramo de Tigre 100)
 
@@ -105,7 +135,7 @@ Juego_RPG/
 
 - **Prioridad del negocio:** la matrícula de Básico 1 cierra el lun 9 nov y al 2 nov no se había publicado nada de la campaña. El juego no llena esa clase esta semana; un reel de Jay sí. El juego sirve como pieza para un reel («hice un videojuego para aprender coreano») y como imán desde enero.
 - **Coreano nuevo sin revisar:** los diálogos de los NPC son nuevos. Pasaron una revisión nativa adversarial (ver §7), pero Jay tiene la última palabra.
-- **Audio:** las frases nuevas de los diálogos no tienen clip todavía y usan la voz del dispositivo (en Windows sin voz coreana, no suenan). Las cubre el **bloque 9** del guion de voz de Jay (40 ítems, 7 min; `Juego_Dubu/voz/Guion_Voz_Jay_2nov2026.md`). El juego ya prefiere la voz de Jay cuando el clip existe: lee `public/audio/kr-jay/indice.json` (lo arma `node Juego_RPG/voz/indice_kr_jay.js`) y, si falta un clip, usa SunHi.
+- **Audio:** desde el 3 nov todo tiene clip SunHi. El **bloque 9** del guion de voz de Jay los reemplaza por su voz (40 ítems, 7 min; `Juego_Dubu/voz/Guion_Voz_Jay_2nov2026.md`). El juego ya prefiere la voz de Jay cuando el clip existe: lee `public/audio/kr-jay/indice.json` (lo arma `node Juego_RPG/voz/indice_kr_jay.js`) y, si falta un clip, usa SunHi.
 - **Repo público:** todo lo de `public/aventura/` es visible en GitHub. No hay nada privado ahí.
 
 ## 7. Revisión nativa

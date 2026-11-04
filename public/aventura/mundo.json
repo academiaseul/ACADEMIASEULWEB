@@ -1,8 +1,10 @@
 {
   "version": 1,
   "capitulo": { "n": 1, "titulo": "Gwanghwamun", "ko": "광화문", "curso": "Básico 1 · semanas 1 y 2" },
-  "inicio": { "mapa": "plaza", "x": 19, "y": 6, "dir": "abajo", "won": 0, "misiones": ["q1"] },
-  "reaparecer": { "mapa": "plaza", "x": 19, "y": 6, "dir": "abajo" },
+  "inicio": { "mapa": "plaza", "x": 19, "y": 14, "dir": "arriba", "won": 0, "misiones": ["q1"] },
+  "reaparecer": { "mapa": "plaza", "x": 20, "y": 14, "dir": "derecha" },
+  "prologo": { "letrero": "hangeul", "desde": { "x": 18, "y": 13 }, "hasta": { "x": 5, "y": 13 }, "textos": ["Seúl, una mañana de otoño.", "¡Un 도깨비 se roba las letras del último letrero!"] },
+  "dorado": { "mapa": "plaza", "x": 23, "y": 15 },
 
   "mapas": {
     "plaza": {
@@ -56,7 +58,7 @@
         { "x": 33, "y": 7, "a": { "mapa": "tienda", "x": 5, "y": 7, "dir": "arriba" } }
       ],
       "npcs": [
-        { "id": "hana", "x": 21, "y": 7 },
+        { "id": "hana", "x": 21, "y": 13 },
         { "id": "jefe", "x": 19, "y": 4 },
         { "id": "halmeoni", "x": 31, "y": 11 },
         { "id": "doyun", "x": 4, "y": 19 },
@@ -121,7 +123,8 @@
     "verde": { "nombre": "초록 도깨비", "es": "도깨비 verde", "donde": "los 도깨비 verdes del parque (al oeste)", "color": "verde", "rango": 1, "hp": 30, "atk": 5, "xp": 10, "won": [300, 600], "niveles": [1, 2], "letras": ["ㅏ", "ㅓ", "ㅗ", "ㅜ", "ㅡ", "ㅣ", "ㅑ", "ㅕ", "ㅛ", "ㅠ"], "objeto": { "id": "gimbap", "p": 0.2 } },
     "azul": { "nombre": "파란 도깨비", "es": "도깨비 azul", "donde": "los 도깨비 azules del sur del 청계천", "color": "azul", "rango": 2, "hp": 45, "atk": 7, "xp": 18, "won": [500, 900], "niveles": [3, 4, 5], "letras": ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅈ", "ㅎ"], "objeto": { "id": "gimbap", "p": 0.25 } },
     "morado": { "nombre": "보라 도깨비", "es": "도깨비 morado", "donde": "los 도깨비 morados del lado este del mercado", "color": "morado", "rango": 3, "hp": 60, "atk": 9, "xp": 26, "won": [700, 1200], "niveles": [6, 7, 8], "letras": ["ㅋ", "ㅌ", "ㅍ", "ㅊ", "ㄲ", "ㄸ", "ㅃ", "ㅆ", "ㅉ", "ㅐ", "ㅔ", "ㅚ", "ㅟ", "ㅘ", "ㅝ", "ㅢ", "ㅖ"], "objeto": { "id": "buchae", "p": 0.2 } },
-    "jefe": { "nombre": "도깨비 대장", "es": "el jefe de los 도깨비", "color": "jefe", "rango": 4, "hp": 200, "atk": 8, "xp": 60, "won": [3000, 3000], "niveles": [9, 10], "letras": [], "jefe": true }
+    "jefe": { "nombre": "도깨비 대장", "es": "el jefe de los 도깨비", "color": "jefe", "rango": 4, "hp": 200, "atk": 8, "xp": 60, "won": [3000, 3000], "niveles": [9, 10], "letras": [], "jefe": true },
+    "oro": { "nombre": "황금 도깨비", "es": "도깨비 dorado", "color": "oro", "rango": 0, "hp": 50, "atk": 3, "xp": 15, "won": [1000, 1000], "niveles": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "letras": [], "repaso": true, "preguntas": 5 }
   },
 
   "letreros": {
@@ -138,7 +141,7 @@
   "misiones": {
     "q1": {
       "titulo": "안녕하세요, 서울!", "es": "Hola, Seúl", "da": "hana", "entrega": "hana",
-      "objetivos": [ { "tipo": "flag", "id": "saludo_hana", "texto": "Saluda a 하나 en la plaza" } ],
+      "objetivos": [ { "tipo": "flag", "id": "saludo_hana", "texto": "Saluda a 하나 en la plaza", "npc": "hana" } ],
       "recompensa": { "xp": 10, "won": 3000, "objetos": { "gimbap": 2, "buchae": 1 } }
     },
     "q2": {
@@ -154,7 +157,7 @@
       "titulo": "Un recado para 할머니", "da": "halmeoni", "entrega": "halmeoni", "requiere": ["q2"],
       "objetivos": [
         { "tipo": "comprar", "id": "uyu", "texto": "Compra 우유 en el 편의점 (norte del mercado)" },
-        { "tipo": "flag", "id": "despedida", "texto": "Despídete bien al salir de la tienda" }
+        { "tipo": "flag", "id": "despedida", "texto": "Despídete bien al salir de la tienda", "salida": "tienda" }
       ],
       "recompensa": { "xp": 20, "won": 2000, "objetos": { "usan": 1 } }
     },
@@ -199,10 +202,10 @@
             { "ko": "감사합니다.", "es": "Gracias.", "porque": "감사합니다 es «gracias». Para saludar se dice 안녕하세요." }
           ] } },
           { "ko": "저는 하나예요. 반갑습니다!", "es": "Soy Hana. ¡Encantada!" },
-          { "es": "¡Qué bueno que llegaste, tigre! Tenemos un problema: anoche los 도깨비 se robaron las letras de los letreros de Gwanghwamun. Nadie puede leer el barrio." },
-          { "es": "Los 도깨비 son duendes traviesos de los cuentos coreanos. No son malos, pero les encantan los desafíos: si les ganas un duelo de coreano, te devuelven una letra." },
+          { "es": "¿Lo viste? Es un 도깨비, un duende travieso de los cuentos coreanos. Se robaron las letras de todos los letreros de Gwanghwamun y nadie puede leer el barrio." },
+          { "es": "No son malos, pero aman los desafíos: si les ganas un duelo de coreano, te devuelven las letras." },
           { "es": "Toma la primera: ㅇ. Al inicio de la sílaba no suena: es una silla vacía. Para escribir «a» se pone ㅇ + ㅏ = 아.", "accion": { "letra": "ㅇ" } },
-          { "es": "Y esto, para el camino. Los 도깨비 verdes andan por el parque, al oeste. ¡화이팅!", "accion": { "flag": "saludo_hana", "completar": "q1", "iniciar": "q2" } }
+          { "es": "Y esto, para el camino. Corrió al parque, al oeste. ¡화이팅!", "accion": { "flag": "saludo_hana", "completar": "q1", "iniciar": "q2" } }
         ] },
         { "si": { "mision": "q2", "estado": "lista" }, "lineas": [
           { "ko": "와! 감사합니다!", "es": "¡Wow! ¡Gracias!" },

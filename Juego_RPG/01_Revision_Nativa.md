@@ -34,6 +34,10 @@ Fecha: 2 de noviembre de 2026. La hizo un revisor adversarial con el perfil de h
 - **마테오:** «가 lleva muy poco aire» (antes decía «es suave»).
 - **Tienda:** una línea de cultura explica que en un 편의점 real tomas el producto y lo llevas a la caja; 주세요 se usa en el mercado, en un café o para lo que está detrás del mostrador.
 
+## Agregado el 3 nov 2026 (sin revisión nativa todavía)
+- **황금 도깨비:** nombre del 도깨비 dorado del repaso diario. Es la única palabra coreana nueva de las mejoras del 3 nov.
+- Los 28 clips nuevos son de SunHi. Conviene escuchar 「뚝딱」, 「아이고」 y 「네, 여기 있어요」: la voz sintética no siempre da con la intención.
+
 ## Quedan para Jay (no se tocaron)
 - **할머니:** una abuela a un joven diría más bien 고마워 o 고마워라; se dejó 고마워요 por ser A1.
 - **점원:** en el trato de tienda es más típico 「여기 있습니다」; se dejó 「네, 여기 있어요」.

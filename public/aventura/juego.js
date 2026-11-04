@@ -6,6 +6,8 @@
    ====================================================================== */
 (function () {
   'use strict';
+  // /aventura?prueba=1: el bucle corre con un reloj, para poder probar con la pestaña oculta
+  if (/[?&]prueba=1/.test(location.search)) window.requestAnimationFrame = (f) => setTimeout(() => f(performance.now()), 33);
   const R = window.RPG, S = window.SPRITES, T = S.T;
   const $ = (id) => document.getElementById(id);
   const CLAVE = 'as-aventura-v1';
@@ -30,8 +32,9 @@
   // El clip se busca con el texto tal cual y, si no está, sin la puntuación final
   function oir(texto) {
     if (!texto || (est && !est.ajustes.sonido)) return;
+    bajarMusica(6000);
     const limpio = texto.replace(/[.!?~…]+$/u, '').trim();
-    const candidatos = [texto, limpio].filter((x, i, a) => x && a.indexOf(x) === i).map((x) => AUDIO_BASE + hex(x) + '.mp3');
+    const candidatos = [limpio, texto].filter((x, i, a) => x && a.indexOf(x) === i).map((x) => AUDIO_BASE + hex(x) + '.mp3');
     if (vozJay.has(limpio) && !(est && est.ajustes.vozJay === false)) candidatos.unshift(AUDIO_JAY + hex(limpio) + '.mp3');
     probar(candidatos, 0, limpio || texto);
   }
@@ -43,7 +46,7 @@
       if (sonando) sonando.pause();
       let a = cacheAudio[src];
       if (!a) { a = new Audio(src); cacheAudio[src] = a; }
-      sonando = a; a.currentTime = 0;
+      sonando = a; a.currentTime = 0; a.onended = subirMusica;
       const p = a.play();
       if (p && p.catch) p.catch((err) => { if (err && err.name === 'NotAllowedError') return; falta[src] = 1; delete cacheAudio[src]; probar(lista, i + 1, texto); });
     } catch (e) { tts(texto); }
@@ -73,8 +76,106 @@
     choque: () => blip(110, 0.06, 'triangle', 0.05),
   };
 
+  /* ── Música: pentatónica y patrones de 장구, compuesta para este juego y sin archivos ── */
+  const NOTA = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
+  const hz = (n) => 440 * Math.pow(2, (NOTA[n[0]] + (+n[1] + 1) * 12 - 69) / 12);
+  // 'A4:3' = la nota A4 durante 3 pasos · 'r:3' = 3 pasos de silencio
+  function pauta(txt) {
+    const notas = [];
+    let p = 0;
+    for (const t of txt.trim().split(/\s+/)) { const [n, d] = t.split(':'); if (n !== 'r') notas[p] = { f: hz(n), d: +d }; p += +d; }
+    return { notas, largo: p };
+  }
+  const TEMAS = {
+    plaza: { paso: 0.2, vol: 0.028, perc: 'D..k.kD..',
+      mel: pauta('A4:3 B4:3 D5:3 E5:6 D5:3 B4:3 A4:3 G4:3 A4:9 D5:3 E5:3 G5:3 E5:3 D5:3 B4:3 A4:3 B4:2 A4:1 G4:3 E4:6 r:3'),
+      baj: pauta('D3:9 A2:9 G2:9 D3:9 G2:9 E3:9 A2:9 D3:9') },
+    duelo: { paso: 0.115, vol: 0.024, perc: 'D.kDk.D.k.kk',
+      mel: pauta('D5:3 F5:3 G5:3 A5:3 G5:3 F5:3 D5:6 C5:3 D5:3 F5:3 G5:3 F5:3 D5:3 C5:3 A4:3'),
+      baj: pauta('D3:3 r:3 D3:3 C3:3 D3:3 r:3 A2:3 C3:3 D3:3 r:3 D3:3 F3:3 C3:3 r:3 A2:3 C3:3') },
+    jefe: { paso: 0.095, vol: 0.026, perc: 'D.kDk.DkD.kk',
+      mel: pauta('A4:3 C5:3 D5:3 F5:3 D5:3 C5:3 A4:6 G4:3 A4:3 C5:3 D5:3 C5:3 A4:3 G4:3 F4:3'),
+      baj: pauta('A2:3 r:3 A2:3 G2:3 A2:3 r:3 F2:3 G2:3 A2:3 r:3 A2:3 C3:3 G2:3 r:3 F2:3 G2:3') },
+  };
+  let mus = null, ruido = null, relojBaja = 0;
+  // Sin esto la música queda unos 22 dB bajo la voz y en un celular casi no se oye. Con 3 queda
+  // unos 13 dB bajo la voz, sin saturar. Si suena fuerte o suave, es el único número que hay que tocar.
+  const VOL_MUSICA = 3;
+  function notaMus(f, t, dur, tipo, vol) {
+    const o = actx.createOscillator(), g = actx.createGain();
+    o.type = tipo; o.frequency.value = f;
+    g.gain.setValueAtTime(0.0001, t); g.gain.linearRampToValueAtTime(vol, t + 0.015); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    o.connect(g); g.connect(mus.salida); o.start(t); o.stop(t + dur + 0.02);
+  }
+  // 덩 (D): golpe grave · 덕 (k): golpe seco
+  function jang(t, grave) {
+    const g = actx.createGain();
+    g.connect(mus.salida);
+    if (grave) {
+      const o = actx.createOscillator();
+      o.frequency.setValueAtTime(150, t); o.frequency.exponentialRampToValueAtTime(70, t + 0.09);
+      g.gain.setValueAtTime(0.08, t); g.gain.exponentialRampToValueAtTime(0.0001, t + 0.13);
+      o.connect(g); o.start(t); o.stop(t + 0.14);
+      return;
+    }
+    if (!ruido) {
+      ruido = actx.createBuffer(1, Math.floor(actx.sampleRate * 0.08), actx.sampleRate);
+      const d = ruido.getChannelData(0);
+      for (let k = 0; k < d.length; k++) d[k] = Math.random() * 2 - 1;
+    }
+    const s = actx.createBufferSource(), f = actx.createBiquadFilter();
+    s.buffer = ruido; f.type = 'bandpass'; f.frequency.value = 1900; f.Q.value = 1.2;
+    g.gain.setValueAtTime(0.04, t); g.gain.exponentialRampToValueAtTime(0.0001, t + 0.07);
+    s.connect(f); f.connect(g); s.start(t); s.stop(t + 0.08);
+  }
+  function programar() {
+    if (!mus) return;
+    const M = TEMAS[mus.tema];
+    while (mus.prox < actx.currentTime + 0.3) {
+      const t = mus.prox, p = mus.p;
+      const m = M.mel.notas[p % M.mel.largo]; if (m) notaMus(m.f, t, m.d * M.paso * 0.92, 'triangle', M.vol);
+      const b = M.baj.notas[p % M.baj.largo]; if (b) notaMus(b.f, t, b.d * M.paso * 0.9, 'square', M.vol * 0.32);
+      const c = M.perc[p % M.perc.length]; if (c !== '.') jang(t, c === 'D');
+      mus.prox += M.paso; mus.p++;
+    }
+  }
+  function pararMusica() {
+    if (!mus) return;
+    clearInterval(mus.reloj);
+    const s = mus.salida;
+    s.gain.setTargetAtTime(0, actx.currentTime, 0.05);
+    setTimeout(() => { try { s.disconnect(); } catch (e) {} }, 500);
+    mus = null;
+  }
+  function tocarMusica(tema) {
+    if (!actx) return;
+    const quiere = est && est.ajustes.sonido && est.ajustes.musica ? tema : null;
+    if (mus && mus.tema === quiere) return;
+    pararMusica();
+    if (!quiere) return;
+    const salida = actx.createGain();
+    salida.gain.value = VOL_MUSICA;
+    salida.connect(actx.destination);
+    mus = { tema: quiere, p: 0, prox: actx.currentTime + 0.12, salida, reloj: setInterval(programar, 90) };
+    programar();
+  }
+  const temaActual = () => (modo === 'batalla' && bat ? (bat.en.jefe ? 'jefe' : 'duelo') : 'plaza');
+  // Mientras suena el coreano la música casi desaparece: lo importante es oír la sílaba.
+  // Vuelve cuando termina el clip; ms es solo un tope por si el clip nunca avisa (el más largo dura 4,9 s).
+  function bajarMusica(ms) {
+    if (!mus) return;
+    mus.salida.gain.setTargetAtTime(VOL_MUSICA * 0.08, actx.currentTime, 0.03);
+    clearTimeout(relojBaja);
+    relojBaja = setTimeout(subirMusica, ms);
+  }
+  function subirMusica() {
+    clearTimeout(relojBaja);
+    if (mus) mus.salida.gain.setTargetAtTime(VOL_MUSICA, actx.currentTime, 0.25);
+  }
+
   /* ── Guardar ───────────────────────────────────────────────────────── */
-  function guardar() { if (!est) return; est.x = jug.x; est.y = jug.y; est.dir = jug.dir; try { localStorage.setItem(CLAVE, R.serializar(est)); } catch (e) {} }
+  let borrando = false;   // Al recargar se dispara visibilitychange, que guardaría de nuevo lo recién borrado
+  function guardar() { if (!est || borrando) return; est.x = jug.x; est.y = jug.y; est.dir = jug.dir; try { localStorage.setItem(CLAVE, R.serializar(est)); } catch (e) {} }
   function leerGuardado() { try { return R.cargar(localStorage.getItem(CLAVE), MUNDO); } catch (e) { return null; } }
 
   /* ── Lienzo, escala y cámara ───────────────────────────────────────── */
@@ -127,19 +228,31 @@
     const e = R.estadoMision(est, MUNDO, z.desde);
     return e === 'activa' || e === 'lista' || e === 'hecha';
   }
+  // Cuando su misión ya se cumplió, esos 도깨비 dejan de perseguirte: siguen ahí si quieres un duelo
+  const vistaDe = (z) => (z.desde && R.estadoMision(est, MUNDO, z.desde) === 'hecha' ? -1 : 4);
   function poblarZonas() {
+    for (const en of enemigos) if (en.zona) en.vista = vistaDe(en.zona);
     (mapa().zonas || []).forEach((z, zi) => {
       if (!zonaActiva(z)) return;
       const vivos = enemigos.filter((e) => e.zi === zi).length + reapariciones.filter((r) => r.zi === zi).length;
       for (let k = vivos; k < z.n; k++) aparecer(zi);
     });
+    poblarDorado();
+  }
+  // El 도깨비 dorado: una vez al día, con las preguntas que más te cuestan. No persigue a nadie.
+  let doradoAvisado = false;
+  function poblarDorado() {
+    const d = MUNDO.dorado;
+    if (est.mapa !== d.mapa || enemigos.some((e) => e.tipo === 'oro') || !libre(d.x, d.y) || (jug.x === d.x && jug.y === d.y) || !R.doradoDisponible(est, Date.now())) return;
+    enemigos.push({ uid: ++uid, tipo: 'oro', x: d.x, y: d.y, casaX: d.x, casaY: d.y, estado: 'quieto', t: 2, aturdido: 0, cool: 0, mov: null, dir: 'izquierda', fijo: true });
+    if (!doradoAvisado) { doradoAvisado = true; aviso('✦ Apareció el 황금 도깨비: viene a repasar lo que te costó', 'oro'); }
   }
   function aparecer(zi) {
     const z = mapa().zonas[zi];
     for (let intento = 0; intento < 60; intento++) {
       const x = z.x + Math.floor(rnd() * z.w), y = z.y + Math.floor(rnd() * z.h);
       if (!libre(x, y) || R.dist({ x, y }, jug) < 5) continue;
-      enemigos.push({ uid: ++uid, zi, tipo: z.enemigo, x, y, casaX: x, casaY: y, zona: z, estado: 'quieto', t: 2, aturdido: 0, cool: 600 + rnd() * 900, mov: null, dir: 'abajo' });
+      enemigos.push({ uid: ++uid, zi, tipo: z.enemigo, x, y, casaX: x, casaY: y, zona: z, estado: 'quieto', t: 2, aturdido: 0, cool: 600 + rnd() * 900, mov: null, dir: 'abajo', vista: vistaDe(z) });
       return true;
     }
     return false;
@@ -155,6 +268,10 @@
   window.addEventListener('keydown', (ev) => {
     const e = { code: codigo(ev), key: ev.key, preventDefault: () => ev.preventDefault() };
     const d = TECLAS[e.code];
+    if (modo === 'escena') {
+      if (e.code === 'Space' || e.code === 'Enter' || e.code === 'Escape') { e.preventDefault(); terminarCine(); }
+      return;
+    }
     if (modo === 'mapa') {
       if (d) { e.preventDefault(); if (!pulsadas.includes(d)) pulsadas.push(d); return; }
       if (e.code === 'Space' || e.code === 'Enter' || e.code === 'KeyZ' || e.code === 'KeyE') { e.preventDefault(); interactuar(); return; }
@@ -186,19 +303,25 @@
   // Tocar o hacer clic en el mapa: caminar hasta ahí (y hablar si hay alguien)
   let marca = null;
   cv.addEventListener('pointerdown', (e) => {
+    if (modo === 'escena') { terminarCine(); return; }
     if (modo !== 'mapa') return;
+    guiaAuto = false;
     const cam = camara();
     const gx = Math.floor(((e.clientX * dpr - cam.ox) / escala + cam.x) / T);
     const gy = Math.floor(((e.clientY * dpr - cam.oy) / escala + cam.y) / T);
     marca = { x: gx, y: gy, t: performance.now() };
     if (gx === jug.x && gy === jug.y) { interactuar(); return; }
+    caminarA(gx, gy);
+  });
+  function caminarA(gx, gy) {
     const objetivo = interactuableEn(gx, gy);
     const r = R.ruta(MUNDO, est.mapa, destino(jug), { x: gx, y: gy }, (x, y) => !!npcEn(x, y) || (!!enemigoEn(x, y) && !(x === gx && y === gy)));
-    if (!r) return;
+    if (!r) return false;
     jug.ruta = r;
     jug.alFinal = objetivo ? { x: gx, y: gy } : null;
-    if (!r.length && objetivo) { mirarHacia(gx, gy); interactuar(); }
-  });
+    if (!r.length && objetivo && !jug.mov) { mirarHacia(gx, gy); interactuar(); }
+    return true;
+  }
   function mirarHacia(x, y) {
     const dx = x - jug.x, dy = y - jug.y;
     if (Math.abs(dx) >= Math.abs(dy) && dx) jug.dir = dx > 0 ? 'derecha' : 'izquierda';
@@ -211,6 +334,8 @@
     const dt = Math.min(50, t - ultimo); ultimo = t;
     if (modo === 'mapa' && est) actualizar(dt);
     dibujar(t);
+    if (modo === 'batalla' && bat) dibujarDuelo(t);
+    if (est) botonA(t);
     requestAnimationFrame(bucle);
   }
   function actualizar(dt) {
@@ -221,13 +346,18 @@
     }
     if (!jug.mov && modo === 'mapa') {
       const d = dirPedida();
-      if (d) { jug.ruta = []; jug.alFinal = null; intentarPaso(d); }
+      if (d) { jug.ruta = []; jug.alFinal = null; guiaAuto = false; intentarPaso(d); }
       else if (jug.ruta.length) {
         const p = jug.ruta[0];
         const dd = p.x > jug.x ? 'derecha' : p.x < jug.x ? 'izquierda' : p.y > jug.y ? 'abajo' : 'arriba';
         if (intentarPaso(dd)) jug.ruta.shift(); else { jug.ruta = []; }
         if (!jug.ruta.length && jug.alFinal) { const f = jug.alFinal; jug.alFinal = null; jug.alFinalPend = f; }
-      } else if (jug.alFinalPend) { const f = jug.alFinalPend; jug.alFinalPend = null; mirarHacia(f.x, f.y); interactuar(); }
+      } else if (jug.alFinalPend) { const f = jug.alFinalPend; jug.alFinalPend = null; mirarHacia(f.x, f.y); guiaAuto = false; interactuar(); }
+      else if (guiaAuto) {
+        // El 도깨비 se movió mientras caminabas: la guía lo vuelve a buscar
+        guiaAuto = false;
+        if (paso && paso.tipo === 'zona' && enemigos.some((e) => e.tipo === paso.id) && guiaVueltas++ < 6) autoCaminar();
+      }
     }
     if (modo !== 'mapa') return;
     // 도깨비
@@ -263,10 +393,12 @@
   }
   function alLlegar() {
     est.x = jug.x; est.y = jug.y;
+    leerCerca();
     const p = (mapa().portales || []).find((q) => q.x === jug.x && q.y === jug.y);
     if (!p) return;
     jug.ruta = []; jug.alFinal = null; jug.alFinalPend = null; pulsadas.length = 0; dirTactil = null;
-    const cruzar = () => fundido(() => { cargarMapa(p.a.mapa, p.a.x, p.a.y, p.a.dir); guardar(); });
+    const seguir = guiaAuto;
+    const cruzar = () => fundido(() => { cargarMapa(p.a.mapa, p.a.x, p.a.y, p.a.dir); guardar(); hud(); if (seguir) setTimeout(autoCaminar, 240); });
     if (p.despedida) {
       if (!est.flags.despedida) { abrirDialogo(MUNDO.despedida, 'jeomwon', cruzar); return; }
       aviso('점원: 안녕히 가세요!'); oir('안녕히 가세요');
@@ -278,6 +410,7 @@
     setTimeout(() => { fn(); v.classList.remove('on'); modo = 'mapa'; }, 170);
   }
   function actualizarEnemigo(en, dt) {
+    if (en.fijo) return;
     if (en.mov) { en.mov.t += dt; if (en.mov.t >= en.mov.dur) { en.x = en.mov.to.x; en.y = en.mov.to.y; en.mov = null; } return; }
     if ((en.cool -= dt) > 0) return;
     const yo = destino(jug);
@@ -331,13 +464,15 @@
       ctx.fillRect(i * T + o, j * T + 5, 4, 1); ctx.fillRect(i * T + ((o + 8) % 16), j * T + 11, 3, 1);
     }
     // Letreros (el tablero; la palabra va en la pasada de texto)
-    for (const l of Object.values(MUNDO.letreros)) if (l.mapa === est.mapa) S.tablero(ctx, l.x * T, l.y * T + 1, !!est.letreros[idLetrero(l)]);
+    for (const l of Object.values(MUNDO.letreros)) if (l.mapa === est.mapa) S.tablero(ctx, l.x * T, l.y * T + 1, !!est.letreros[idLetrero(l)] || (cine && cine.l === l && t - cine.t0 < CINE.huye));
     // Personajes, de atrás hacia adelante
     const cuerpos = [];
     for (const n of npcs) cuerpos.push({ y: pix(n).y, f: () => dibujarNPC(n, t) });
     for (const en of enemigos) cuerpos.push({ y: pix(en).y, f: () => dibujarEnemigo(en, t) });
     cuerpos.push({ y: pix(jug).y, f: () => dibujarJugador(t) });
+    if (cine) cuerpos.push({ y: 1e6, f: () => dibujarDokkaebiCine(t) });
     cuerpos.sort((a, b) => a.y - b.y).forEach((c) => c.f());
+    if (!mapa().interior) hojas(t, cam, vw, vh);
     // Pasada de texto, nítida a la escala real de la pantalla
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     const aPantalla = (wx, wy) => ({ x: cam.ox + (wx - cam.x) * escala, y: cam.oy + (wy - cam.y) * escala });
@@ -345,9 +480,12 @@
     for (const l of Object.values(MUNDO.letreros)) {
       if (l.mapa !== est.mapa) continue;
       const id = idLetrero(l), p = aPantalla(l.x * T + 8, l.y * T + 6.5);
-      if (est.letreros[id]) {
+      const alfaCine = cine && cine.l === l ? Math.max(0, 1 - (t - cine.t0 - CINE.letras) / (CINE.cada * cine.jamo.length)) : 0;
+      if (est.letreros[id] || alfaCine > 0) {
+        ctx.globalAlpha = alfaCine > 0 ? Math.min(1, alfaCine) : 1;
         ctx.fillStyle = '#14234a'; ctx.font = `900 ${Math.round(7.5 * escala)}px "Noto Sans KR",sans-serif`;
         ctx.fillText(l.palabra, p.x, p.y);
+        ctx.globalAlpha = 1;
       }
       const marcaL = marcaLetrero(id);
       if (marcaL) burbuja(aPantalla(l.x * T + 8, l.y * T - 6), marcaL, t);
@@ -358,12 +496,78 @@
       else { ctx.fillStyle = '#ffffff'; ctx.font = `900 ${Math.round(8 * escala)}px "Noto Sans KR",sans-serif`; }
       ctx.fillText(e.texto, p.x, p.y);
     }
-    for (const n of npcs) { const m = marcaNPC(n.id); if (m) { const q = pix(n); burbuja(aPantalla(q.x + 8, q.y - (n.id === 'jefe' ? 22 : 6)), m, t); } }
+    for (const n of npcs) { const m = n.feliz > t ? '♪' : marcaNPC(n.id); if (m) { const q = pix(n); burbuja(aPantalla(q.x + 8, q.y - (n.id === 'jefe' ? 22 : 6)), m, t); } }
+    if (cine) dibujarCine(t, aPantalla);
+    dibujarFx(t, aPantalla);
+    dibujarGuia(t, aPantalla);
     if (marca && t - marca.t < 450) {
       const p = aPantalla(marca.x * T + 8, marca.y * T + 8);
       ctx.strokeStyle = 'rgba(255,255,255,.85)'; ctx.lineWidth = Math.max(2, escala / 2);
       ctx.beginPath(); ctx.arc(p.x, p.y, (4 + (t - marca.t) / 60) * escala, 0, Math.PI * 2); ctx.stroke();
     }
+  }
+  // Hojas de 은행나무 que caen. No guardan estado: la posición sale del reloj.
+  const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function hojas(t, cam, vw, vh) {
+    if (quieto) return;
+    for (let k = 0; k < 16; k++) {
+      const a = (k * 0.6180339887) % 1, b = (k * 0.7548776662) % 1;
+      const x = ((a * vw + t * 0.006 + Math.sin(t / 900 + k) * 6) % vw + vw) % vw;
+      const y = (b * vh + t * (0.012 + b * 0.01)) % vh;
+      ctx.fillStyle = k % 3 ? '#f2c94c' : '#e8b84b';
+      ctx.fillRect(Math.round(cam.x + x), Math.round(cam.y + y), 2, 1 + (Math.floor(t / 300 + k) % 2));
+    }
+  }
+  /* Efectos en el mapa: chispas y palabras que suben */
+  const fx = [];
+  function chispas(wx, wy, n, colores, fuerza) {
+    const t0 = performance.now();
+    for (let k = 0; k < n; k++) {
+      const a = rnd() * Math.PI * 2, v = (fuerza || 0.05) * (0.4 + rnd());
+      fx.push({ x: wx, y: wy, vx: Math.cos(a) * v, vy: Math.sin(a) * v - 0.02, t0, dur: 450 + rnd() * 450, c: colores[k % colores.length] });
+    }
+  }
+  function textoEn(wx, wy, txt, dur) { fx.push({ x: wx, y: wy, vx: 0, vy: -0.008, t0: performance.now(), dur: dur || 1800, txt }); }
+  function dibujarFx(t, aPantalla) {
+    for (let k = fx.length - 1; k >= 0; k--) {
+      const f = fx[k], e = t - f.t0;
+      if (e >= f.dur) { fx.splice(k, 1); continue; }
+      if (e < 0) continue;
+      const p = aPantalla(f.x + f.vx * e, f.y + f.vy * e + (f.txt ? 0 : 0.00004 * e * e));
+      const a = 1 - e / f.dur;
+      if (f.txt) {
+        ctx.globalAlpha = Math.min(1, a * 2.5);
+        ctx.font = `900 ${Math.round(8 * escala)}px "Noto Sans KR",sans-serif`;
+        ctx.lineWidth = Math.max(3, escala); ctx.strokeStyle = '#14142b'; ctx.strokeText(f.txt, p.x, p.y);
+        ctx.fillStyle = '#ffffff'; ctx.fillText(f.txt, p.x, p.y);
+      } else {
+        ctx.globalAlpha = a; ctx.fillStyle = f.c;
+        const s = Math.max(2, escala * 1.4); ctx.fillRect(p.x, p.y, s, s);
+      }
+    }
+    ctx.globalAlpha = 1;
+  }
+  // La flecha de la guía: sobre el objetivo si se ve, en el borde de la pantalla si no
+  function dibujarGuia(t, aPantalla) {
+    if (modo !== 'mapa') return;
+    const d = destinoGuia();
+    if (!d) return;
+    const p = aPantalla(d.x * T + 8, d.y * T + 8), W = cv.width, H = cv.height;
+    const m = 34 * dpr, arriba = 128 * dpr;
+    ctx.fillStyle = '#e8b84b'; ctx.strokeStyle = '#14142b'; ctx.lineWidth = Math.max(2, escala * 0.6);
+    const tri = (a, b, c) => { ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.lineTo(c[0], c[1]); ctx.closePath(); ctx.fill(); ctx.stroke(); };
+    if (p.x > m && p.x < W - m && p.y > arriba && p.y < H - m) {
+      const y = p.y - (24 + Math.sin(t / 220) * 2) * escala, s = 4.5 * escala;
+      tri([p.x - s, y - s], [p.x + s, y - s], [p.x, y + s * 0.7]);
+      return;
+    }
+    const cx = W / 2, cy = H / 2, dx = p.x - cx, dy = p.y - cy;
+    const k = Math.min((W / 2 - m) / Math.abs(dx || 1), (dy < 0 ? cy - arriba : H / 2 - m) / Math.abs(dy || 1));
+    const r = 15 * dpr + Math.sin(t / 220) * dpr;
+    ctx.save();
+    ctx.translate(cx + dx * k, cy + dy * k); ctx.rotate(Math.atan2(dy, dx));
+    tri([r, 0], [-r * 0.7, r * 0.8], [-r * 0.7, -r * 0.8]);
+    ctx.restore();
   }
   function burbuja(p, txt, t) {
     const r = 5.5 * escala, y = p.y + Math.sin(t / 250) * escala;
@@ -402,6 +606,11 @@
     const p = pix(en), b = Math.round(Math.sin(t / 220 + en.uid) * 0.8);
     sombra(p.x, p.y, 12);
     ctx.drawImage(S.dokkaebi(MUNDO.enemigos[en.tipo].color, en.dir === 'izquierda'), Math.round(p.x), Math.round(p.y - 2 + b));
+    if (en.tipo === 'oro') {
+      ctx.fillStyle = '#fff4c2';
+      const k = Math.floor(t / 180) % 4;
+      ctx.fillRect(p.x + [1, 13, 3, 14][k], p.y + [1, 3, 11, 9][k], 2, 2);
+    }
     if (en.estado === 'persigue' && !en.aturdido) {
       ctx.fillStyle = '#e8b84b'; ctx.fillRect(Math.round(p.x) + 7, Math.round(p.y) - 9, 2, 4); ctx.fillRect(Math.round(p.x) + 7, Math.round(p.y) - 4, 2, 1);
     }
@@ -436,7 +645,46 @@
     $('hud-xp').style.transform = `scaleX(${(est.xp - a) / (b - a)})`;
     const hayLista = Object.keys(MUNDO.misiones).some((id) => R.estadoMision(est, MUNDO, id) === 'lista');
     $('punto-misiones').hidden = !hayLista;
+    refrescarGuia();
   }
+  /* ── La guía: el siguiente paso, siempre a la vista ────────────────── */
+  let paso = null, guiaAuto = false, guiaVueltas = 0;
+  function refrescarGuia() {
+    paso = R.siguientePaso(est, MUNDO);
+    if (!paso && R.doradoDisponible(est, Date.now())) {
+      const d = MUNDO.dorado;
+      paso = { tipo: 'zona', id: 'oro', texto: 'Repaso del día: gánale al 황금 도깨비', mapa: d.mapa, x: d.x, y: d.y };
+    }
+    $('guia').hidden = !paso;
+    if (!paso) return;
+    $('guia-txt').textContent = paso.texto;
+    const aprende = est.stats.duelos === 0 && est.misiones.q2 && est.misiones.q2.estado === 'activa';
+    $('guia').classList.toggle('pulso', !!aprende);
+    $('guia-sub').hidden = !aprende;
+  }
+  // Dónde está lo que busca la guía en este mapa: la persona, el 도깨비 más cercano o la puerta
+  function destinoGuia() {
+    if (!paso) return null;
+    if (paso.mapa !== est.mapa) {
+      const p = (mapa().portales || []).find((q) => q.a.mapa === paso.mapa);
+      return p ? { x: p.x, y: p.y } : null;
+    }
+    if (paso.tipo === 'zona') {
+      const cerca = enemigos.filter((e) => e.tipo === paso.id).sort((a, b) => R.dist(a, jug) - R.dist(b, jug))[0];
+      if (cerca) return { x: destino(cerca).x, y: destino(cerca).y };
+    }
+    if (paso.tipo === 'npc') { const n = npcs.find((q) => q.id === paso.id); if (n) return { x: n.x, y: n.y }; }
+    return { x: paso.x, y: paso.y };
+  }
+  function autoCaminar() {
+    if (modo !== 'mapa') return;
+    const d = destinoGuia();
+    if (!d) return;
+    guiaAuto = true;
+    marca = { x: d.x, y: d.y, t: performance.now() };
+    caminarA(d.x, d.y);
+  }
+  $('guia').addEventListener('click', () => { guiaVueltas = 0; autoCaminar(); });
   function aviso(texto, tipo) {
     const d = document.createElement('div');
     d.className = 'aviso' + (tipo ? ' ' + tipo : '');
@@ -471,19 +719,63 @@
   function letreroEn(x, y) { return Object.keys(MUNDO.letreros).find((k) => { const l = MUNDO.letreros[k]; return l.mapa === est.mapa && l.x === x && l.y === y; }) || null; }
   function infoEn(x, y) { const i = (mapa().info || []).find((q) => x >= q.x && y >= q.y && x < q.x + (q.w || 1) && y < q.y + (q.h || 1)); return i ? i.id : null; }
   function interactuableEn(x, y) { return npcEn(x, y) || enemigoEn(x, y) || letreroEn(x, y) || infoEn(x, y) || (R.baldosa(MUNDO, est.mapa, x, y) === 'C'); }
+  // Lo que hay para hacer aquí: primero al frente, después a los lados
+  function cerca() {
+    for (const d of [jug.dir].concat(Object.keys(R.DIRS).filter((q) => q !== jug.dir))) {
+      const [dx, dy] = R.DIRS[d];
+      let x = jug.x + dx, y = jug.y + dy;
+      if (enemigoEn(x, y)) return { d, x, y, que: 'Duelo' };
+      if (R.baldosa(MUNDO, est.mapa, x, y) === 'C') { x += dx; y += dy; }
+      if (npcEn(x, y)) return { d, x, y, que: 'Hablar' };
+      const l = letreroEn(x, y);
+      if (l) return { d, x, y, que: est.letreros[l] ? 'Leer' : 'Armar' };
+      if (infoEn(x, y)) return { d, x, y, que: 'Mirar' };
+    }
+    return null;
+  }
   function interactuar() {
     if (jug.mov || modo !== 'mapa') return;
-    const [dx, dy] = R.DIRS[jug.dir];
-    let x = jug.x + dx, y = jug.y + dy;
-    const en = enemigoEn(x, y);
+    const c = cerca();
+    if (!c) return;
+    jug.dir = c.d;
+    const en = enemigoEn(c.x, c.y);
     if (en) { empezarDuelo(en); return; }
-    if (R.baldosa(MUNDO, est.mapa, x, y) === 'C') { x += dx; y += dy; }
-    const n = npcEn(x, y);
+    const n = npcEn(c.x, c.y);
     if (n) { hablar(n); return; }
-    const l = letreroEn(x, y);
+    const l = letreroEn(c.x, c.y);
     if (l) { tocarLetrero(l); return; }
-    const i = infoEn(x, y);
-    if (i) { abrirDialogo(MUNDO.info[i], null); return; }
+    const i = infoEn(c.x, c.y);
+    if (i) abrirDialogo(MUNDO.info[i], null);
+  }
+  // El botón ✋ solo aparece cuando hay algo que hacer, y dice qué
+  let relojA = 0;
+  function botonA(t) {
+    if (t - relojA < 180 || jug.mov) return;
+    relojA = t;
+    const c = modo === 'mapa' ? cerca() : null, b = $('btn-a');
+    b.classList.toggle('oculto', !c);
+    if (c) $('btn-a-txt').textContent = c.que.toUpperCase();
+  }
+  // Al pasar junto a un letrero ya armado, el mundo se lee solo
+  const leidos = {};
+  function leerCerca() {
+    const ahora = performance.now();
+    for (const [dx, dy] of Object.values(R.DIRS)) {
+      const id = letreroEn(jug.x + dx, jug.y + dy);
+      if (!id || !est.letreros[id] || ahora - (leidos[id] || -1e9) < 30000) continue;
+      leidos[id] = ahora;
+      const l = MUNDO.letreros[id];
+      oir(l.palabra);
+      textoEn(l.x * T + 8, l.y * T - 6, `${l.palabra} · ${l.es}`);
+    }
+  }
+  function celebrar(id) {
+    const l = MUNDO.letreros[id], x = l.x * T + 8, y = l.y * T + 4, t = performance.now();
+    chispas(x, y, 30, ['#ffe08a', '#e8b84b', '#ffffff', '#a49eff'], 0.07);
+    textoEn(x, y - 14, l.palabra, 2200);
+    leidos[id] = t;
+    SFX.nivel();
+    for (const n of npcs) if (R.dist(n, l) <= 7) n.feliz = t + 1800;
   }
   function hablar(n) {
     if (n.mov) return;
@@ -588,22 +880,111 @@
   function empezarDuelo(en) {
     if (modo === 'batalla') return;
     jug.ruta = []; jug.alFinal = null; jug.alFinalPend = null; pulsadas.length = 0; dirTactil = null;
+    guiaAuto = false;
     modo = 'batalla';
     const E = MUNDO.enemigos[en.tipo];
     bat = { b: R.nuevaBatalla(MUNDO, est, en.tipo, BANCO, Math.floor(rnd() * 1e9)), en, bloqueado: false };
-    const sp = $('bt-sprite').getContext('2d');
-    sp.clearRect(0, 0, 16, 16); sp.drawImage(S.dokkaebi(E.color), 0, 0);
+    tocarMusica(temaActual());
+    chisp.length = 0; accion('entra');
     $('bt-nombre').textContent = E.nombre;
     const el = $('batalla');
     el.hidden = false; el.classList.remove('entra'); void el.offsetWidth; el.classList.add('entra');
     $('bt-objetos').hidden = true;
     $('bt-acciones').hidden = false;
-    $('bt-racha').textContent = '';
+    $('bt-racha').textContent = est.stats.duelos === 0 ? '🐯 Acierta y el tigre ataca. Si fallas, aprendes y sigues.' :
+      E.repaso ? '✦ Repaso del día: lo que más te ha costado.' : en.jefe ? '¡El 도깨비 대장 te desafía!' : `¡Un ${E.es} te desafía!`;
     blip(330, 0.1, 'square', 0.05); blip(440, 0.1, 'square', 0.05, 0.1); blip(660, 0.2, 'square', 0.05, 0.2);
     barrasDuelo();
     mostrarPregunta();
-    aviso(en.jefe ? '¡El 도깨비 대장 te desafía!' : `¡Un ${E.es} te desafía! 뚝딱!`, 'oro');
   }
+  /* Escenario del duelo: el tigre a la izquierda, el 도깨비 a la derecha */
+  const EW = 176, EH = 72, TX = 26, EX = 118, ce = $('bt-escena').getContext('2d');
+  const chisp = [], suelos = {};
+  let ani = null;
+  function accion(tipo) { ani = { tipo, t0: performance.now(), hecho: false }; }
+  function sueloDuelo(tipo) {
+    if (suelos[tipo]) return suelos[tipo];
+    const t = { verde: '.', azul: ',', morado: ':', jefe: '=', oro: '=' }[tipo] || '.';
+    const fila = t.repeat(12), c = document.createElement('canvas');
+    c.width = EW; c.height = 16;
+    const x = c.getContext('2d');
+    for (let i = 0; i < 12; i++) S.dibujarBaldosa(x, [fila], i, 0);
+    return (suelos[tipo] = c);
+  }
+  function chispasDuelo(x, y, n, colores) {
+    for (let k = 0; k < n; k++) {
+      const a = rnd() * Math.PI * 2, v = 0.02 + rnd() * 0.05;
+      chisp.push({ x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v - 0.02, t0: performance.now(), dur: 300 + rnd() * 300, c: colores[k % colores.length] });
+    }
+  }
+  const ease = (k) => k * k * (3 - 2 * k);
+  function zarpazo(x, y, k, oro) {
+    ce.fillStyle = oro ? '#ffe08a' : '#ffffff';
+    const largo = Math.floor(14 * Math.min(1, k * 2.5));
+    for (let i = 0; i < 3; i++) for (let j = 0; j < largo; j++) ce.fillRect(x + i * 7 + 8 - j * 0.6, y + j * 1.6, 2, 2);
+  }
+  function dibujarDuelo(t) {
+    const jefe = !!bat.en.jefe, color = MUNDO.enemigos[bat.en.tipo].color, tamE = jefe ? 48 : 32, piso = EH - 8;
+    let tx = TX, ex = EX, ty = piso - 32 + Math.round(Math.sin(t / 260)), ey = piso - tamE + Math.round(Math.sin(t / 220 + 1) * 1.4);
+    let flashT = false, flashE = false, alfaE = 1, alfaT = 1, paso = 0, garra = null;
+    if (ani) {
+      const e = t - ani.t0;
+      if (ani.tipo === 'entra') {
+        const k = Math.min(1, e / 360);
+        tx = TX - 60 * (1 - ease(k)); ex = EX + 60 * (1 - ease(k));
+        if (k >= 1) ani = null;
+      } else if (ani.tipo === 'ataque' || ani.tipo === 'critico') {
+        const D = ani.tipo === 'critico' ? 620 : 440, k = Math.min(1, e / D);
+        const ida = k < 0.34 ? k / 0.34 : k < 0.56 ? 1 : 1 - (k - 0.56) / 0.44;
+        tx = TX + (EX - TX - 26) * ease(ida); paso = k < 0.34 ? (Math.floor(e / 60) % 2) + 1 : 0;
+        if (k >= 0.34 && !ani.hecho) {
+          ani.hecho = true;
+          chispasDuelo(EX + 16, piso - 16, ani.tipo === 'critico' ? 26 : 12, ani.tipo === 'critico' ? ['#ffe08a', '#e8b84b', '#ffffff'] : ['#ffffff', '#cfcaff']);
+          if (ani.tipo === 'critico') sacudir();
+        }
+        if (k >= 0.34 && k < 0.7) {
+          flashE = Math.floor(e / 50) % 2 === 0; ex = EX + 5;
+          garra = { k: (k - 0.34) / 0.36, oro: ani.tipo === 'critico' };
+        }
+        if (k >= 1) { const fin = bat.b.fin === 'victoria'; ani = null; if (fin) accion('vence'); }
+      } else if (ani.tipo === 'golpe') {
+        const D = 460, k = Math.min(1, e / D);
+        const ida = k < 0.34 ? k / 0.34 : k < 0.56 ? 1 : 1 - (k - 0.56) / 0.44;
+        ex = EX - (EX - TX - 22) * ease(ida);
+        if (k >= 0.34 && !ani.hecho) { ani.hecho = true; sacudir(); chispasDuelo(TX + 16, piso - 16, 10, ['#e8b84b', '#ffe08a']); }
+        if (k >= 0.34 && k < 0.7) { flashT = Math.floor(e / 50) % 2 === 0; tx = TX - 5; }
+        if (k >= 1) ani = null;
+      } else if (ani.tipo === 'vence') {
+        const k = Math.min(1, e / 620);
+        if (!ani.hecho) { ani.hecho = true; chispasDuelo(EX + tamE / 2, piso - tamE / 2, 30, ['#ffe08a', '#e8b84b', '#ffffff', '#a49eff']); }
+        alfaE = Math.max(0, 1 - k * 1.5); ey -= k * 8;
+        ty -= Math.abs(Math.sin(e / 130)) * 7;
+      } else if (ani.tipo === 'cae') {
+        alfaT = Math.max(0.35, 1 - e / 500);
+      }
+    }
+    ce.imageSmoothingEnabled = false;
+    ce.clearRect(0, 0, EW, EH);
+    ce.drawImage(sueloDuelo(bat.en.tipo), 0, EH - 16);
+    ce.fillStyle = 'rgba(0,0,0,.22)';
+    ce.fillRect(Math.round(tx) + 4, piso - 2, 24, 3);
+    if (alfaE > 0) ce.fillRect(Math.round(ex) + 4, piso - 2, tamE - 8, 3);
+    const sprT = S.tigre('derecha', paso), sprE = S.dokkaebi(color, true);
+    ce.globalAlpha = alfaT;
+    ce.drawImage(flashT ? S.silueta(sprT) : sprT, Math.round(tx), Math.round(ty), 32, 32);
+    ce.globalAlpha = alfaE;
+    if (alfaE > 0) ce.drawImage(flashE ? S.silueta(sprE) : sprE, Math.round(ex), Math.round(ey), tamE, tamE);
+    ce.globalAlpha = 1;
+    if (garra) zarpazo(EX + 2, piso - 30, garra.k, garra.oro);
+    for (let k = chisp.length - 1; k >= 0; k--) {
+      const c = chisp[k], e = t - c.t0;
+      if (e >= c.dur) { chisp.splice(k, 1); continue; }
+      ce.globalAlpha = 1 - e / c.dur; ce.fillStyle = c.c;
+      ce.fillRect(Math.round(c.x + c.vx * e), Math.round(c.y + c.vy * e + 0.00008 * e * e), 2, 2);
+    }
+    ce.globalAlpha = 1;
+  }
+  function sacudir() { const b = $('bt-escena'); b.classList.remove('sacude'); void b.offsetWidth; b.classList.add('sacude'); }
   function barrasDuelo() {
     const b = bat.b, max = R.hpMax(est);
     $('bt-nv').textContent = est.nivel;
@@ -639,11 +1020,11 @@
     const q = bat.q, p = $('bt-pista');
     if ((bat.b.pista || est.ajustes.rom) && q.rom) { p.hidden = false; p.textContent = `Pista: ${q.rom}`; } else p.hidden = true;
   }
-  function numero(el, txt, clase) {
+  function numero(el, txt, clase, x) {
     const r = el.getBoundingClientRect();
     const d = document.createElement('div');
     d.className = 'flota-num ' + clase; d.textContent = txt;
-    d.style.left = (r.left + r.width / 2 - 20) + 'px'; d.style.top = (r.top + 10) + 'px';
+    d.style.left = (r.left + r.width * x - 20) + 'px'; d.style.top = (r.top + 6) + 'px';
     document.body.appendChild(d); setTimeout(() => d.remove(), 950);
   }
   function responder(op, btn) {
@@ -658,8 +1039,8 @@
       [...$('bt-ops').children].forEach((x) => { x.disabled = true; });
       (r.critico ? SFX.zarpazo : SFX.golpe)();
       if (q.audio) setTimeout(() => oir(q.audio), 150);
-      const spr = $('bt-sprite'); spr.classList.remove('golpe'); void spr.offsetWidth; spr.classList.add('golpe');
-      numero(spr, `-${r.dano}`, 'azul');
+      accion(r.critico ? 'critico' : 'ataque');
+      numero($('bt-escena'), `-${r.dano}`, 'azul', 0.8);
       nota.hidden = false; nota.className = 'nota bien';
       const lectura = [q.audio && q.audio !== q.respuesta ? q.audio : '', q.pron, q.rom ? `«${q.rom}»` : ''].filter(Boolean).join(' · ');
       nota.textContent = (r.primera ? '✓ ¡Bien!' : '✓ Ahora sí.') + (lectura ? ' ' + lectura : '');
@@ -670,12 +1051,13 @@
       btn.classList.add('mal'); btn.disabled = true;
       SFX.error();
       const caja = $('bt-pregunta'); caja.classList.remove('tiembla'); void caja.offsetWidth; caja.classList.add('tiembla');
-      numero($('bt-hp'), r.escudo ? '☂ 0' : `-${r.dano}`, 'oro');
+      accion('golpe');
+      numero($('bt-escena'), r.escudo ? '☂ 0' : `-${r.dano}`, 'oro', 0.2);
       nota.hidden = false; nota.className = 'nota mal';
       nota.textContent = (r.escudo ? '☂ Tu 우산 paró el golpe. ' : '뚝딱! ') + r.explicacion + ' Prueba otra vez.';
       $('bt-racha').textContent = '';
       barrasDuelo(); hud();
-      if (r.fin === 'derrota') { bat.bloqueado = true; setTimeout(derrota, 1600); }
+      if (r.fin === 'derrota') { bat.bloqueado = true; setTimeout(() => accion('cae'), 500); setTimeout(derrota, 1600); }
     }
   }
   $('bt-mochila').addEventListener('click', () => {
@@ -708,14 +1090,14 @@
     cerrarDuelo();
     aviso('Huiste. El 도깨비 se queda con sus letras... por ahora.');
   });
-  function cerrarDuelo() { $('batalla').hidden = true; bat = null; modo = 'mapa'; hud(); guardar(); }
+  function cerrarDuelo() { $('batalla').hidden = true; bat = null; modo = 'mapa'; ani = null; tocarMusica('plaza'); hud(); guardar(); }
   function victoria() {
     const { b, en } = bat;
     const bot = R.botin(b, est, MUNDO, rnd);
     if (en.jefe) R.evento(est, MUNDO, { tipo: 'flag', id: 'jefe_vencido' });
     else {
       enemigos = enemigos.filter((x) => x !== en);
-      reapariciones.push({ zi: en.zi, t: 35000 });
+      if (!MUNDO.enemigos[en.tipo].repaso) reapariciones.push({ zi: en.zi, t: 35000 });
     }
     refrescarNPCs();
     SFX.moneda();
@@ -723,15 +1105,18 @@
     const letras = (bot.letras || []).map((j) => `<div class="letra"><b class="ko">${esc(j)}</b><div><div class="linea">Nueva letra: ${esc(j)}</div><small>Suena «${esc(R.romLetra(j))}» · como en ${esc(R.silabaDeLetra(j))}</small></div><button class="oir" data-letra="${esc(j)}" aria-label="Escuchar">🔊</button></div>`).join('');
     const lineas = [`+${bot.xp} XP`, '+' + R.fmtWon(bot.won)];
     if (bot.objeto) lineas.push(`+1 ${MUNDO.objetos[bot.objeto].nombre} (lo soltó al huir)`);
-    if (!bot.letras.length) lineas.push('Ya tenías todas sus letras: te pagó en 원.');
+    if (!bot.letras.length && !MUNDO.enemigos[en.tipo].repaso) lineas.push('Ya tenías todas sus letras: te pagó en 원.');
+    if (bot.racha) lineas.push(`🔥 Racha de repaso: ${bot.racha} ${bot.racha === 1 ? 'día' : 'días seguidos'}. Vuelve mañana.`);
+    if (bot.subio) lineas.push(`¡Subiste al nivel ${est.nivel}! Tu 기운 se llenó y pegas más fuerte.`);
     $('bt-pregunta').innerHTML = `<h2 style="margin:0">¡Ganaste el duelo!</h2><p class="sub" style="margin:4px 0 0;color:var(--muted)">${b.aciertos} de ${b.aciertos + b.errores} al primer intento</p><div class="botin">${letras}${lineas.map((l) => `<div class="linea">${esc(l)}</div>`).join('')}</div><button class="btn ancho" id="bt-seguir">Seguir</button>`;
     $('bt-pregunta').querySelectorAll('[data-letra]').forEach((x) => x.addEventListener('click', () => oirLetra(x.dataset.letra)));
     if (bot.letras.length) { SFX.letra(); setTimeout(() => oirLetra(bot.letras[0]), 450); }
     $('bt-seguir').addEventListener('click', () => {
       cerrarDuelo();
-      if (bot.subio) { SFX.nivel(); aviso(`¡Subiste al nivel ${est.nivel}! Tu 기운 se llenó.`, 'oro'); }
+      if (bot.subio) SFX.nivel();
       avisarEventos(bot.eventos);
       poblarZonas();
+      if (paso && paso.tipo === 'letrero') aviso('✦ ¡Ya tienes las letras para armar un letrero!', 'oro');
     });
     $('bt-seguir').focus();
     barrasDuelo(); hud(); guardar();
@@ -875,7 +1260,7 @@
     const evs = R.restaurarLetrero(est, MUNDO, arm.id);
     SFX.letra(); setTimeout(() => oir(l.palabra), 600);
     abrirCapa(`<h2>¡Letrero armado!</h2><div class="fin-dicho"><div class="ko">${esc(l.palabra)}</div><div>${esc(l.es)}</div></div><p class="sub">${esc(l.lugar.charAt(0).toUpperCase() + l.lugar.slice(1))} se puede leer otra vez.</p><button class="btn ancho cerrar-final" id="a-listo">Seguir</button>`);
-    $('a-listo').addEventListener('click', () => { cerrarCapa(); avisarEventos(evs); });
+    $('a-listo').addEventListener('click', () => { cerrarCapa(); celebrar(arm.id); avisarEventos(evs); });
     $('a-listo').focus();
     hud(); guardar();
   }
@@ -924,30 +1309,46 @@
     const n = todas.filter((j) => est.letras.includes(j)).length;
     el.innerHTML = `<p class="sub">Tu 도감 de letras: <b>${n} de ${todas.length}</b>. Toca una para escucharla. Las que faltan las tienen los 도깨비.</p>
       <h3 style="font-size:.8rem;color:var(--muted);margin:10px 0 6px">CONSONANTES</h3><div class="dogam">${R.CHO.split('').map(celda).join('')}</div>
-      <h3 style="font-size:.8rem;color:var(--muted);margin:14px 0 6px">VOCALES</h3><div class="dogam">${R.JUNG.split('').map(celda).join('')}</div>`;
+      <h3 style="font-size:.8rem;color:var(--muted);margin:14px 0 6px">VOCALES</h3><div class="dogam">${R.JUNG.split('').map(celda).join('')}</div>` + palabrasYRepaso();
     el.querySelectorAll('[data-j]').forEach((b) => b.addEventListener('click', () => oirLetra(b.dataset.j)));
+    el.querySelectorAll('[data-oir]').forEach((b) => b.addEventListener('click', () => oir(b.dataset.oir)));
     function celda(j) {
       const t = est.letras.includes(j);
       return t ? `<button class="tengo ko" data-j="${esc(j)}" aria-label="${esc(j)}">${esc(j)}<small>${esc(j === 'ㅇ' ? '— / ng' : R.romLetra(j))}</small></button>` : `<button class="no" disabled aria-label="Letra que falta">?</button>`;
     }
   }
+  function palabrasYRepaso() {
+    const palabras = Object.keys(MUNDO.letreros).filter((id) => est.letreros[id]).map((id) => MUNDO.letreros[id]);
+    const dificiles = R.debiles(est, BANCO, 5);
+    const titulo = (t) => `<h3 style="font-size:.8rem;color:var(--muted);margin:16px 0 6px">${t}</h3>`;
+    const fila = (q) => {
+      const audio = q.audio ? `<button class="oir" data-oir="${esc(q.audio)}" aria-label="Escuchar">🔊</button>` : '';
+      return `<div class="repasar"><b class="ko">${esc(q.respuesta)}</b><small>${esc(q.explicacion)}</small>${audio}</div>`;
+    };
+    return (palabras.length ? titulo('PALABRAS QUE YA LEES') + `<div class="palabras">${palabras.map((l) => `<button class="ko" data-oir="${esc(l.palabra)}">${esc(l.palabra)}<small>${esc(l.es)}</small></button>`).join('')}</div>` : '') +
+      (dificiles.length ? titulo('LO QUE MÁS TE HA COSTADO') + dificiles.map(fila).join('') : '');
+  }
   function panelAjustes(el) {
     const sw = (id, on, titulo, desc) => `<div class="ajuste"><div><b>${titulo}</b><small>${desc}</small></div><button class="interruptor" role="switch" id="${id}" aria-checked="${on}" aria-label="${titulo}"></button></div>`;
     el.innerHTML = sw('aj-sonido', est.ajustes.sonido, 'Sonido', 'La voz coreana y los efectos.') +
+      sw('aj-musica', est.ajustes.musica, 'Música', 'Baja sola cuando suena el coreano.') +
       (vozJay.size ? sw('aj-jay', est.ajustes.vozJay !== false, 'Voz de Jay', `Las palabras y frases que Jay grabó (${vozJay.size}) suenan con su voz; el resto, con la voz del sitio.`) : '') +
       sw('aj-rom', est.ajustes.rom, 'Pista en letras latinas', 'Muestra siempre la romanización en los duelos. Mejor dejarla apagada y usar 연필 cuando haga falta.') +
+      sw('aj-cruz', est.ajustes.cruz, 'Cruz de control', 'En el celular. Sin ella, se camina tocando el mapa.') +
       `<div class="ajuste"><div><b>Prueba de sonido</b><small>Si no oyes nada, sube el volumen y quita el modo silencio.</small></div><button class="btn sec" id="aj-prueba">🔊 안녕하세요</button></div>
       <div class="ajuste"><div><b>Empezar de nuevo</b><small>Borra tu avance en este navegador.</small></div><button class="btn sec" id="aj-borrar">Borrar</button></div>
       <p class="sub" style="margin-top:16px">Capítulo 1 · ${esc(MUNDO.capitulo.curso)}. Las preguntas salen del material de Academia Seúl. <a href="/">academiaseul.com</a></p>`;
-    $('aj-sonido').addEventListener('click', () => { est.ajustes.sonido = !est.ajustes.sonido; guardar(); abrirPanel('ajustes'); });
+    $('aj-sonido').addEventListener('click', () => { est.ajustes.sonido = !est.ajustes.sonido; tocarMusica('plaza'); guardar(); abrirPanel('ajustes'); });
+    $('aj-musica').addEventListener('click', () => { est.ajustes.musica = !est.ajustes.musica; tocarMusica('plaza'); guardar(); abrirPanel('ajustes'); });
+    $('aj-cruz').addEventListener('click', () => { est.ajustes.cruz = !est.ajustes.cruz; document.body.classList.toggle('con-cruz', est.ajustes.cruz); guardar(); abrirPanel('ajustes'); });
     if ($('aj-jay')) $('aj-jay').addEventListener('click', () => { est.ajustes.vozJay = est.ajustes.vozJay === false; guardar(); abrirPanel('ajustes'); oir('안녕하세요'); });
     $('aj-rom').addEventListener('click', () => { est.ajustes.rom = !est.ajustes.rom; guardar(); abrirPanel('ajustes'); });
     $('aj-prueba').addEventListener('click', () => oir('안녕하세요'));
-    $('aj-borrar').addEventListener('click', () => {
-      if (!confirm('¿Borrar tu avance y empezar de nuevo?')) return;
+    $('aj-borrar').addEventListener('click', () => confirmar('¿Borrar tu avance y empezar de nuevo?', () => {
+      borrando = true;
       try { localStorage.removeItem(CLAVE); } catch (e) {}
       location.reload();
-    });
+    }));
   }
 
   /* ── Fin del capítulo ──────────────────────────────────────────────── */
@@ -964,10 +1365,105 @@
       <div class="fin-dicho"><div class="ko">시작이 반이다</div><div>«Empezar ya es la mitad». En español: obra empezada, medio acabada.</div></div>
       <div class="cifras"><div><b>${letras}/${todas}</b><small>letras en tu 도감</small></div><div><b>${prec}%</b><small>al primer intento</small></div><div><b>${est.stats.duelos}</b><small>duelos ganados</small></div><div><b>${min} min</b><small>de juego</small></div></div>
       <p style="line-height:1.55">Lo que acabas de jugar es lo que se ve en las semanas 1 y 2 de <b>Básico 1</b>, la clase en vivo de Academia Seúl. Allí sigues con una profesora, en grupo y con certificado.</p>
-      <div style="display:grid;gap:8px"><a class="btn" href="/inscribete?clase=a11-martes">Ver Básico 1</a><button class="btn sec" id="f-seguir">Seguir explorando</button></div>
+      <div style="display:grid;gap:8px"><a class="btn" href="/inscribete?clase=a11-martes">Ver Básico 1</a><button class="btn sec" id="f-compartir">Compartir mi tarjeta</button><button class="btn sec" id="f-seguir">Seguir explorando</button></div>
       <p class="sub" style="margin-top:12px">Capítulo 2 · Bukchon (예요/이에요 y presentarte): próximamente.</p>`);
     $('f-seguir').addEventListener('click', cerrarCapa);
+    $('f-compartir').addEventListener('click', () => compartir({ letras, todas, prec, duelos: est.stats.duelos }));
     guardar();
+  }
+  // Una imagen lista para Instagram o WhatsApp. No lleva ningún dato personal.
+  async function compartir(c) {
+    const cv2 = document.createElement('canvas'); cv2.width = 1080; cv2.height = 1350;
+    const x = cv2.getContext('2d');
+    const g = x.createRadialGradient(540, 420, 40, 540, 420, 1100);
+    g.addColorStop(0, '#4236F6'); g.addColorStop(0.6, '#231c8f'); g.addColorStop(1, '#0d0c24');
+    x.fillStyle = g; x.fillRect(0, 0, 1080, 1350);
+    x.imageSmoothingEnabled = false;
+    x.drawImage(S.tigre('abajo', 0), 330, 110, 420, 420);
+    x.textAlign = 'center'; x.fillStyle = '#ffffff';
+    const f = (peso, n) => `${peso} ${n}px "Noto Sans KR",sans-serif`;
+    x.font = f(900, 108); x.fillText('¡Ya leo Hangul!', 540, 680);
+    x.font = f(900, 80); x.fillStyle = '#ffe08a'; x.fillText('시작이 반이다', 540, 800);
+    x.font = f(700, 42); x.fillStyle = '#cfcaff'; x.fillText('Empezar ya es la mitad', 540, 866);
+    x.font = f(900, 54); x.fillStyle = '#ffffff';
+    x.fillText(`${c.letras} letras · ${c.prec}% al primer intento`, 540, 1000);
+    x.fillText(`${c.duelos} duelos ganados`, 540, 1076);
+    x.font = f(700, 40); x.fillStyle = 'rgba(255,255,255,.8)';
+    x.fillText('호랑이의 모험 · academiaseul.com/aventura', 540, 1270);
+    const blob = await new Promise((ok) => cv2.toBlob(ok, 'image/png'));
+    if (!blob) return;
+    const archivoImg = new File([blob], 'ya-leo-hangul.png', { type: 'image/png' });
+    if (navigator.canShare && navigator.canShare({ files: [archivoImg] })) {
+      try { await navigator.share({ files: [archivoImg], text: 'Aprendí a leer coreano jugando 🐯 academiaseul.com/aventura' }); return; } catch (e) { if (e.name === 'AbortError') return; }
+    }
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob); a.download = archivoImg.name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    aviso('Tarjeta descargada.');
+  }
+
+  /* ── Confirmar (sin confirm(): en algunos navegadores integrados no aparece) ── */
+  function confirmar(texto, si) {
+    $('conf-txt').textContent = texto;
+    $('confirma').hidden = false;
+    $('conf-si').onclick = () => { $('confirma').hidden = true; si(); };
+    $('conf-no').onclick = () => { $('confirma').hidden = true; };
+    $('conf-no').focus();
+  }
+
+  /* ── Prólogo: un 도깨비 se roba las letras frente a la estatua ───── */
+  const CINE = { bubble: 500, letras: 950, cada: 240, huye: 2650, dur: 1000 };
+  let cine = null;
+  function prologo(alTerminar) {
+    if (quieto) { alTerminar(); return; }
+    const P = MUNDO.prologo, l = MUNDO.letreros[P.letrero];
+    modo = 'escena';
+    document.body.classList.add('cine');
+    cine = { t0: performance.now(), P, l, jamo: R.letrasDe(l.palabra), robadas: 0, dijo: false, segundo: false, fin: alTerminar };
+    ponerNarra(P.textos[0]);
+  }
+  function ponerNarra(txt) { const n = $('narra'); n.hidden = false; n.innerHTML = `${esc(txt)}<small>Toca para saltar</small>`; }
+  function terminarCine() {
+    const c = cine;
+    if (!c) return;
+    cine = null;
+    $('narra').hidden = true;
+    document.body.classList.remove('cine');
+    modo = 'mapa';
+    hud();
+    c.fin();
+  }
+  function posCine(t) {
+    const P = cine.P, k = Math.max(0, Math.min(1, (t - cine.t0 - CINE.huye) / CINE.dur));
+    return { x: (P.desde.x + (P.hasta.x - P.desde.x) * k) * T, y: P.desde.y * T, huye: k > 0 };
+  }
+  function dibujarDokkaebiCine(t) {
+    const p = posCine(t), b = p.huye ? Math.abs(Math.round(Math.sin(t / 60) * 2)) : 0;
+    sombra(p.x, p.y, 12);
+    ctx.drawImage(S.dokkaebi('verde', p.huye), Math.round(p.x), Math.round(p.y - 2 - b));
+  }
+  function dibujarCine(t, aPantalla) {
+    const e = t - cine.t0, c = cine, p = posCine(t);
+    if (!c.dijo && e > CINE.bubble) { c.dijo = true; oir('뚝딱'); blip(180, 0.1, 'square', 0.06); }
+    if (e > CINE.bubble && e < CINE.huye) {
+      const q = aPantalla(p.x + 8, p.y - 7);
+      ctx.font = `900 ${Math.round(8 * escala)}px "Noto Sans KR",sans-serif`;
+      ctx.lineWidth = Math.max(3, escala); ctx.strokeStyle = '#14142b'; ctx.strokeText('뚝딱!', q.x, q.y);
+      ctx.fillStyle = '#ffe08a'; ctx.fillText('뚝딱!', q.x, q.y);
+    }
+    c.jamo.forEach((j, k) => {
+      const k0 = CINE.letras + k * CINE.cada, a = (e - k0) / 520;
+      if (a < 0 || a >= 1) return;
+      if (c.robadas <= k) { c.robadas = k + 1; blip(660 + k * 90, 0.08, 'square', 0.04); }
+      const de = { x: c.l.x * T + 8, y: c.l.y * T + 6 }, s = ease(a);
+      const q = aPantalla(de.x + (p.x + 8 - de.x) * s, de.y + (p.y + 4 - de.y) * s - Math.sin(a * Math.PI) * 14);
+      ctx.font = `900 ${Math.round(9 * escala)}px "Noto Sans KR",sans-serif`;
+      ctx.lineWidth = Math.max(3, escala); ctx.strokeStyle = '#14142b'; ctx.strokeText(j, q.x, q.y);
+      ctx.fillStyle = '#ffe08a'; ctx.fillText(j, q.x, q.y);
+    });
+    if (!c.segundo && e > CINE.bubble + 500) { c.segundo = true; ponerNarra(c.P.textos[1]); }
+    if (e > CINE.huye + CINE.dur + 250) terminarCine();
   }
 
   /* ── Título y arranque ─────────────────────────────────────────────── */
@@ -983,15 +1479,13 @@
     est = nueva ? R.crearEstado(MUNDO) : (leerGuardado() || R.crearEstado(MUNDO));
     $('titulo').hidden = true;
     $('hud').hidden = false; $('controles').hidden = false; $('ayuda-teclas').hidden = false;
+    document.body.classList.toggle('con-cruz', !!est.ajustes.cruz);
     cargarMapa(est.mapa, est.x, est.y, est.dir);
     modo = 'mapa';
     hud();
-    if (nueva) {
-      abrirDialogo([
-        { titulo: 'Seúl, una mañana de otoño', es: 'El tigre del sello de Academia Seúl llega a la plaza Gwanghwamun. Algo raro pasa: todos los letreros están en blanco.' },
-        { titulo: 'Cómo se juega', es: document.body.classList.contains('tactil') ? 'Toca el mapa donde quieras ir, o usa la cruz. Para hablar o revisar algo, toca ✋. Habla con 하나: está a tu lado.' : 'Muévete con las flechas (o WASD) o haz clic en el mapa. Para hablar o revisar algo, usa la barra espaciadora. Habla con 하나: está a tu lado.' },
-      ], null);
-    } else aviso('¡Bienvenido de vuelta!');
+    tocarMusica('plaza');
+    if (nueva) prologo(() => { jug.dir = 'derecha'; abrirDialogo(R.elegirDialogo(est, MUNDO, 'hana').lineas, 'hana'); });
+    else aviso('¡Bienvenido de vuelta!');
     guardar();
     setTimeout(() => { $('ayuda-teclas').hidden = true; }, 15000);
   }
@@ -1010,12 +1504,20 @@
     if (hay) $('btn-nueva').classList.add('sec');
     $('btn-continuar').addEventListener('click', () => empezar(false));
     $('btn-nueva').addEventListener('click', () => {
-      if (hay && !confirm('Ya tienes una partida guardada. ¿Empezar de nuevo y borrarla?')) return;
-      empezar(true);
+      if (hay) confirmar('Ya tienes una partida guardada. ¿Empezar de nuevo y borrarla?', () => empezar(true));
+      else empezar(true);
     });
-    document.addEventListener('visibilitychange', () => { if (document.hidden) guardar(); });
+    if (hay) {
+      const n = R.rachaViva(hay, Date.now()), dorado = R.doradoDisponible(hay, Date.now());
+      $('t-racha').hidden = !n && !dorado;
+      $('t-racha').textContent = [n ? `🔥 ${n} ${n === 1 ? 'día' : 'días seguidos'}` : '', dorado ? 'El 황금 도깨비 te espera' : ''].filter(Boolean).join(' · ');
+    }
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) guardar();
+      if (actx) { try { if (document.hidden) actx.suspend(); else actx.resume(); } catch (e) {} }
+    });
     // Para probar: /aventura?prueba=1 deja mirar el estado desde la consola
-    if (/[?&]prueba=1/.test(location.search)) window.__aventura = { get est() { return est; }, get bat() { return bat; }, get modo() { return modo; }, get enemigos() { return enemigos; }, duelo: (en) => empezarDuelo(en), R, cargarMapa: (...a) => cargarMapa(...a), hud, poblarZonas };
+    if (/[?&]prueba=1/.test(location.search)) window.__aventura = { get est() { return est; }, get bat() { return bat; }, get modo() { return modo; }, get enemigos() { return enemigos; }, get paso() { return paso; }, get jug() { return jug; }, get mus() { return mus; }, get arm() { return arm; }, duelo: (en) => empezarDuelo(en), mostrarFin, R, cargarMapa: (...a) => cargarMapa(...a), hud, poblarZonas, autoCaminar, destinoGuia, terminarCine, MUNDO };
     requestAnimationFrame(bucle);
   }
   iniciar();

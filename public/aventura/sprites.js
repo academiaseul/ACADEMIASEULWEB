@@ -61,7 +61,7 @@
     '...KKvvvvvvKmK..', '....KggKKggK....', '....KggK.KggK...', '...KKKK..KKKK...'];
   const COLOR_DOKKAEBI = {
     verde: ['#5bb36a', '#3f8f50'], azul: ['#5b8fe0', '#3f6fc0'],
-    morado: ['#9a7be0', '#7a5bc0'], jefe: ['#3d3a8f', '#2b2870'],
+    morado: ['#9a7be0', '#7a5bc0'], jefe: ['#3d3a8f', '#2b2870'], oro: ['#f2c94c', '#c99a2e'],
   };
   function palDokkaebi(color) {
     const [g, G] = COLOR_DOKKAEBI[color] || COLOR_DOKKAEBI.verde;
@@ -121,6 +121,17 @@
   function perro(dir, paso) { return memo(`d-${dir}-${paso}`, () => deFilas(conPaso(PERRO, paso), PAL_PERRO, dir === 'izquierda')); }
   function dokkaebi(color, espejo) { return memo(`g-${color}-${espejo}`, () => deFilas(DOKKAEBI, palDokkaebi(color), espejo)); }
   function objeto(id) { return memo(`o-${id}`, () => deFilas(OBJETOS[id] || OBJETOS.gimbap, PAL_OBJ)); }
+  // El mismo sprite todo blanco, para el destello de un golpe
+  const siluetas = new WeakMap();
+  function silueta(spr) {
+    if (siluetas.has(spr)) return siluetas.get(spr);
+    const c = lienzo(T, T), x = c.getContext('2d');
+    x.drawImage(spr, 0, 0);
+    x.globalCompositeOperation = 'source-in';
+    x.fillStyle = '#ffffff'; x.fillRect(0, 0, T, T);
+    siluetas.set(spr, c);
+    return c;
+  }
   // Para <img> en la mochila y la tienda
   function aURL(spr, escala) {
     const c = document.createElement('canvas');
@@ -209,10 +220,12 @@
         suelo(c, sueloVecino(filas, x, y), px, py, x, y);
         c.fillStyle = 'rgba(0,0,0,.18)'; c.fillRect(px + 3, py + 13, 10, 2);
         c.fillStyle = '#7a5230'; c.fillRect(px + 6, py + 10, 4, 5);
-        c.fillStyle = '#2f7340'; circulo(c, px + 8, py + 7, 7);
-        c.fillStyle = '#3f8f4f'; circulo(c, px + 8, py + 6, 6);
-        c.fillStyle = '#59a865'; circulo(c, px + 6, py + 4, 3);
-        c.fillStyle = '#2f7340'; c.fillRect(px + 9, py + 8, 2, 1); c.fillRect(px + 4, py + 9, 2, 1);
+        // Uno de cada tres es un 은행나무 (ginkgo): el otoño de Sejong-daero
+        const copa = hash(x, y, 77) < 0.36 ? ['#c99a2e', '#e8b84b', '#f7dc7a'] : ['#2f7340', '#3f8f4f', '#59a865'];
+        c.fillStyle = copa[0]; circulo(c, px + 8, py + 7, 7);
+        c.fillStyle = copa[1]; circulo(c, px + 8, py + 6, 6);
+        c.fillStyle = copa[2]; circulo(c, px + 6, py + 4, 3);
+        c.fillStyle = copa[0]; c.fillRect(px + 9, py + 8, 2, 1); c.fillRect(px + 4, py + 9, 2, 1);
         break;
       }
       case '#':
@@ -366,5 +379,5 @@
     }
   }
 
-  root.SPRITES = { T, tigre, npc, perro, dokkaebi, objeto, aURL, dibujarBaldosa, puertaPalacio, estatua, tablero, circulo, OBJETOS };
+  root.SPRITES = { T, tigre, npc, perro, dokkaebi, objeto, silueta, aURL, dibujarBaldosa, puertaPalacio, estatua, tablero, circulo, OBJETOS };
 })(typeof self !== 'undefined' ? self : this);

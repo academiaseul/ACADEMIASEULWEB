@@ -132,7 +132,8 @@
       v: VERSION, mapa: ini.mapa, x: ini.x, y: ini.y, dir: ini.dir || 'abajo',
       nivel: 1, xp: 0, hp: 0, won: ini.won || 0,
       objetos: {}, letras: [], letreros: {}, misiones: {}, flags: {},
-      ajustes: { sonido: true, rom: false },
+      repaso: {}, racha: { n: 0, dia: null },
+      ajustes: { sonido: true, musica: true, rom: false, cruz: false },
       stats: { aciertos: 0, errores: 0, duelos: 0, inicio: Date.now(), fin: null },
     };
     est.hp = hpMax(est);
@@ -309,17 +310,27 @@
   }
 
   /* ── Duelo ──────────────────────────────────────────────────────────── */
-  function nuevaBatalla(mundo, est, tipo, banco, seed) {
+  const GOLPE_REPASO = 10;
+  function nuevaBatalla(mundo, est, tipo, banco, seed, ahora) {
     const E = mundo.enemigos[tipo];
     const rnd = azar(seed || Date.now());
-    let pool = banco.filter((q) => E.niveles.includes(q.nivel));
+    let pool = E.repaso ? banco.filter((q) => est.repaso[q.id]) : banco.filter((q) => E.niveles.includes(q.nivel));
     if (!pool.length) pool = banco.slice();
-    const cola = barajar(pool, rnd).slice(0, E.preguntas || pool.length);
-    return {
-      tipo, nombre: E.nombre, hp: E.hp, hpMax: E.hp, atk: E.atk,
+    const cola = ordenarPreguntas(pool, est, rnd, ahora == null ? Date.now() : ahora).slice(0, E.preguntas || pool.length);
+    const b = {
+      tipo, nombre: E.nombre, hp: E.hp, hpMax: E.hp, atk: E.atk, repaso: !!E.repaso,
       cola, i: 0, combo: 0, intento: 0, tachadas: [], ocultas: [], pista: false, escudo: false,
       repetidas: [], opciones: null, fin: null, aciertos: 0, errores: 0, seed: Math.floor(rnd() * 1e9),
+      ahora: ahora == null ? Date.now() : ahora,
     };
+    if (b.repaso) vidaDeRepaso(b);
+    return b;
+  }
+  // Un repaso dura lo que duran sus preguntas, no lo que pegue el tigre: a nivel 7, el
+  // dorado caía con dos respuestas. La pregunta fallada vuelve y alarga la barra.
+  function vidaDeRepaso(b) {
+    b.hpMax = b.cola.length * GOLPE_REPASO;
+    b.hp = (b.cola.length - b.i) * GOLPE_REPASO;
   }
   function preguntaActual(b) {
     const q = b.cola[b.i % b.cola.length];
@@ -338,21 +349,25 @@
       let dano = ataque(est), critico = false;
       if (primera) {
         b.combo++;
-        if (b.combo % 3 === 0) { dano *= 2; critico = true; }
+        if (!b.repaso && b.combo % 3 === 0) { dano *= 2; critico = true; }
         b.aciertos++; est.stats.aciertos++;
+        anotar(est, q.id, true, b.ahora);
       } else {
         b.combo = 0;
         dano = Math.ceil(dano / 2);
       }
-      b.hp = Math.max(0, b.hp - dano);
+      if (b.repaso) dano = GOLPE_REPASO;
+      else b.hp = Math.max(0, b.hp - dano);
       avanzar(b);
+      if (b.repaso) vidaDeRepaso(b);
       if (b.hp === 0) b.fin = 'victoria';
       return { correcta: true, primera, dano, critico, combo: b.combo, pregunta: q, fin: b.fin };
     }
+    if (b.intento === 0) anotar(est, q.id, false, b.ahora);
     b.combo = 0; b.intento++; b.errores++; est.stats.errores++;
     b.tachadas.push(opcion);
     // La pregunta fallada vuelve más adelante en este duelo (una vez)
-    if (!b.repetidas.includes(q.id)) { b.repetidas.push(q.id); b.cola.splice(Math.min(b.i + 3, b.cola.length), 0, b.cola[b.i % b.cola.length]); }
+    if (!b.repetidas.includes(q.id)) { b.repetidas.push(q.id); b.cola.splice(Math.min(b.i + 3, b.cola.length), 0, b.cola[b.i % b.cola.length]); if (b.repaso) vidaDeRepaso(b); }
     let dano = b.atk, escudo = false;
     if (b.escudo) { dano = 0; b.escudo = false; escudo = true; }
     est.hp = Math.max(0, est.hp - dano);
@@ -362,7 +377,7 @@
   // Botín: primero una letra que te falte para un letrero de una misión activa
   // (de las que ese 도깨비 puede llevar), si no, una letra nueva de su bolsa, y si
   // ya las tienes todas, más 원.
-  function botin(b, est, mundo, rnd) {
+  function botin(b, est, mundo, rnd, ahora) {
     const E = mundo.enemigos[b.tipo];
     rnd = rnd || azar(b.seed + 7);
     const bolsa = bolsaDe(mundo, b.tipo);
@@ -376,8 +391,10 @@
     }
     const propias = (E.letras || []).filter((j) => !est.letras.includes(j));
     let letras = [], extra = 0;
-    // El jefe devuelve de una vez todas las que falten
-    if (necesarias.length) letras = E.jefe ? necesarias : [necesarias[0]];
+    // El jefe devuelve de una vez todas las que falten. El primer duelo de la partida
+    // suelta dos: así el primer letrero se arma enseguida, que es la gracia del juego.
+    const cuantas = E.jefe ? necesarias.length : (est.stats.duelos === 0 ? 2 : 1);
+    if (necesarias.length) letras = necesarias.slice(0, cuantas);
     else if (propias.length) letras = [propias[Math.floor(rnd() * propias.length)]];
     else extra = 300;
     let won = entre(rnd, E.won[0], E.won[1]);
@@ -390,7 +407,8 @@
     const subio = ganarXP(est, E.xp);
     est.stats.duelos++;
     const eventos = evento(est, mundo, { tipo: 'derrotar', id: b.tipo });
-    return { letra, letras, won, objeto, xp: E.xp, subio, eventos };
+    const racha = E.repaso ? marcarRacha(est, ahora == null ? Date.now() : ahora) : 0;
+    return { letra, letras, won, objeto, xp: E.xp, subio, eventos, racha };
   }
   // Un 도깨비 lleva sus letras y también las de los 도깨비 más débiles
   function bolsaDe(mundo, tipo) {
@@ -398,6 +416,109 @@
     const out = (E.letras || []).slice();
     for (const otro of Object.values(mundo.enemigos)) if (otro.rango < E.rango) for (const j of otro.letras || []) if (!out.includes(j)) out.push(j);
     return out;
+  }
+
+  /* ── Repaso: cada jugador tiene sus propias cajas (Leitner) ─────────── */
+  // Caja 0 vuelve en 10 minutos; acertar sube de caja y fallar la devuelve a la 0.
+  const CAJAS_MIN = [10, 1440, 4320, 10080, 20160];
+  function anotar(est, id, acierto, ahora) {
+    const r = est.repaso[id] || (est.repaso[id] = { c: 0, v: 0, e: 0, p: 0 });
+    r.v++;
+    if (acierto) r.c = Math.min(r.c + 1, CAJAS_MIN.length - 1); else { r.e++; r.c = 0; }
+    r.p = ahora + CAJAS_MIN[r.c] * 60000;
+    return r;
+  }
+  // Primero lo que ya venció, después lo nuevo (de los niveles bajos a los altos) y al final el resto.
+  function ordenarPreguntas(pool, est, rnd, ahora) {
+    const mezcla = barajar(pool, rnd), de = (q) => est.repaso[q.id];
+    const vencidas = mezcla.filter((q) => de(q) && de(q).p <= ahora).sort((a, b) => de(b).e - de(a).e || de(a).p - de(b).p);
+    const nuevas = mezcla.filter((q) => !de(q)).sort((a, b) => a.nivel - b.nivel);
+    const resto = mezcla.filter((q) => de(q) && de(q).p > ahora).sort((a, b) => de(a).p - de(b).p);
+    return vencidas.concat(nuevas, resto);
+  }
+  // Lo que más le cuesta a este jugador, para el panel de repaso
+  function debiles(est, banco, n) {
+    return banco.filter((q) => est.repaso[q.id] && est.repaso[q.id].e > 0)
+      .sort((a, b) => (est.repaso[a.id].c - est.repaso[b.id].c) || (est.repaso[b.id].e - est.repaso[a.id].e))
+      .slice(0, n || 5);
+  }
+  function diaDe(ahora, restar) {
+    const d = new Date(ahora);
+    d.setDate(d.getDate() - (restar || 0));
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+  function marcarRacha(est, ahora) {
+    const hoy = diaDe(ahora);
+    if (est.racha.dia === hoy) return est.racha.n;
+    est.racha.n = est.racha.dia === diaDe(ahora, 1) ? est.racha.n + 1 : 1;
+    est.racha.dia = hoy;
+    return est.racha.n;
+  }
+  // La racha se corta si pasó más de un día sin repasar
+  function rachaViva(est, ahora) {
+    return est.racha.dia === diaDe(ahora) || est.racha.dia === diaDe(ahora, 1) ? est.racha.n : 0;
+  }
+  // El 도깨비 dorado aparece una vez al día, cuando ya hay algo que repasar
+  function doradoDisponible(est, ahora) {
+    return est.racha.dia !== diaDe(ahora) && Object.keys(est.repaso).length >= 6;
+  }
+
+  /* ── El siguiente paso (la guía del HUD y la caminata automática) ──── */
+  function dondeNPC(mundo, id) {
+    for (const [mapa, m] of Object.entries(mundo.mapas)) for (const n of m.npcs) if (n.id === id) return { mapa, x: n.x, y: n.y };
+    return null;
+  }
+  function dondeZona(mundo, tipo) {
+    for (const [mapa, m] of Object.entries(mundo.mapas)) for (const z of m.zonas || []) if (z.enemigo === tipo) return { mapa, x: z.x + Math.floor(z.w / 2), y: z.y + Math.floor(z.h / 2) };
+    return null;
+  }
+  const irA = (tipo, id, texto, pos) => (pos ? Object.assign({ tipo, id, texto }, pos) : null);
+  const haciaNPC = (mundo, id, texto) => irA('npc', id, texto, dondeNPC(mundo, id));
+  function pasoDeObjetivo(est, mundo, m, o, i, e) {
+    const sinLugar = (o.texto || '').replace(/\s*\(.*\)$/, '');
+    const conCuenta = metaDe(o) > 1 ? `${sinLugar} · ${e.prog[i] || 0}/${metaDe(o)}` : sinLugar;
+    if (o.tipo === 'derrotar') {
+      if (mundo.enemigos[o.id].jefe) return haciaNPC(mundo, 'jefe', conCuenta);
+      return irA('zona', o.id, conCuenta, dondeZona(mundo, o.id));
+    }
+    if (o.tipo === 'comprar') return haciaNPC(mundo, mundo.tiendas[Object.keys(mundo.tiendas).find((t) => mundo.tiendas[t].objetos.includes(o.id))].npc, conCuenta);
+    if (o.tipo === 'flag') {
+      if (o.npc) return haciaNPC(mundo, o.npc, conCuenta);
+      if (o.salida) {
+        const p = mundo.mapas[o.salida].portales[0];
+        return irA('salida', o.salida, conCuenta, { mapa: o.salida, x: p.x, y: p.y });
+      }
+      return null;
+    }
+    if (o.tipo === 'letrero') {
+      const j = faltanLetras(est, mundo, o.id)[0];
+      if (j === undefined) return null;
+      const quien = Object.keys(mundo.enemigos).find((k) => (mundo.enemigos[k].letras || []).includes(j));
+      return quien ? irA('zona', quien, `Te falta ${j}: gánale a otro ${mundo.enemigos[quien].es}`, dondeZona(mundo, quien)) : null;
+    }
+    return null;
+  }
+  function siguientePaso(est, mundo) {
+    const ids = Object.keys(mundo.misiones);
+    for (const id of ids) if (estadoMision(est, mundo, id) === 'lista') return haciaNPC(mundo, mundo.misiones[id].entrega, `Vuelve con ${mundo.npcs[mundo.misiones[id].entrega].nombre}`);
+    for (const id of ids) {
+      if (estadoMision(est, mundo, id) !== 'activa') continue;
+      const m = mundo.misiones[id], e = est.misiones[id];
+      // Un letrero que ya se puede armar va primero: es la recompensa
+      for (const o of m.objetivos) {
+        if (o.tipo !== 'letrero' || est.letreros[o.id] || faltanLetras(est, mundo, o.id).length) continue;
+        const l = mundo.letreros[o.id];
+        return irA('letrero', o.id, `Arma el letrero: ${l.lugar}`, { mapa: l.mapa, x: l.x, y: l.y });
+      }
+      for (let i = 0; i < m.objetivos.length; i++) {
+        const o = m.objetivos[i];
+        if ((e.prog[i] || 0) >= metaDe(o)) continue;
+        const p = pasoDeObjetivo(est, mundo, m, o, i, e);
+        if (p) return p;
+      }
+    }
+    for (const id of ids) if (estadoMision(est, mundo, id) === 'disponible') return haciaNPC(mundo, mundo.misiones[id].da, `Habla con ${mundo.npcs[mundo.misiones[id].da].nombre}`);
+    return null;
   }
 
   /* ── Diálogos ───────────────────────────────────────────────────────── */
@@ -482,9 +603,10 @@
     try {
       const est = JSON.parse(texto);
       if (!est || est.v !== VERSION || !mundo.mapas[est.mapa]) return null;
-      for (const k of ['objetos', 'letreros', 'misiones', 'flags']) if (!est[k] || typeof est[k] !== 'object') est[k] = {};
+      for (const k of ['objetos', 'letreros', 'misiones', 'flags', 'repaso']) if (!est[k] || typeof est[k] !== 'object') est[k] = {};
+      est.racha = Object.assign({ n: 0, dia: null }, est.racha || {});
       if (!Array.isArray(est.letras)) est.letras = [];
-      est.ajustes = Object.assign({ sonido: true, rom: false }, est.ajustes || {});
+      est.ajustes = Object.assign({ sonido: true, musica: true, rom: false, cruz: false }, est.ajustes || {});
       est.stats = Object.assign({ aciertos: 0, errores: 0, duelos: 0, inicio: Date.now(), fin: null }, est.stats || {});
       est.hp = Math.min(Math.max(1, est.hp | 0), hpMax(est));
       return est;
@@ -499,6 +621,7 @@
     estadoMision, iniciarMision, objetivosCumplidos, evento, completarMision,
     faltanLetras, revisarSilaba, restaurarLetrero,
     nuevaBatalla, preguntaActual, responder, botin, bolsaDe,
+    anotar, ordenarPreguntas, debiles, marcarRacha, rachaViva, doradoDisponible, diaDe, siguientePaso,
     cumple, elegirDialogo, aplicarAccion,
     pensarEnemigo, serializar, cargar,
   };
