@@ -1,12 +1,26 @@
-# Guion de grabación · la voz de Jay · 2 de noviembre de 2026
+# Guion de grabación · la voz de Jay · 2 de noviembre de 2026, actualizado el 4 de noviembre
 
-**Hoy no existe ni un solo clip con tu voz.** `public/audio/kr-jay/` no está creada y en `public/audio/` la única subcarpeta es `kr/`, con **1.990 clips, todos voz sintética** (Azure ko-KR-SunHiNeural a −8 %). Verificado con `ls` y `find`, no de memoria.
+**Hoy no existe ni un solo clip con tu voz.** `public/audio/kr-jay/` no está creada y en `public/audio/` la única subcarpeta es `kr/`, con **2.018 clips, todos voz sintética** (Azure ko-KR-SunHiNeural a −8 %). Verificado con `ls` el 4 de noviembre.
 
 - **Bloques 1 a 6 = los imprescindibles: 358 ítems, 45 minutos de grabación.** Cubren Dubu entero, la parte del Lector que el alumno toca el primer día, las 127 palabras de Básico 1 que faltan y las 23 frases clave del curso de Kiran.
 - **Si solo alcanzas 10 minutos: graba el bloque 1 y nada más.** Es el único que enciende algo visible el mismo día.
 - Bloques 7 y 8 son opcionales y están al final, con la recomendación honesta de cada uno.
-- **Bloque 9 (nuevo, 2 nov): el RPG 호랑이의 모험 · La aventura del Tigre (`/aventura`).** El juego dice 139 textos distintos y 114 ya están en los bloques 1–8. El bloque 9 trae solo los que faltan: **40 ítems, 7 minutos**. Con el bloque 1 + el 9, todo el juego suena con tu voz.
+- **Bloque 9: el RPG 호랑이의 모험 · La aventura del Tigre (`/aventura`).** El juego dice 150 textos distintos: 105 están en los bloques 1, 2, 3 y 5, y el bloque 9 trae los otros 45 (**8 minutos**). Para que todo el juego suene con tu voz hacen falta los **bloques 1, 2, 3, 5 y 9**.
 - Ningún texto se repite entre bloques: están deduplicados en cascada (salvo 5 sílabas del bloque 7 que el juego necesita y que repito en el 9, porque el 7 es el que recomiendo no grabar).
+
+## El plan: 3 sesiones, 53 minutos
+
+Graba una sesión por día como máximo, y antes de dar clase, no después: la voz cansada se nota (el miércoles tienes Básico 2 a las 21:00).
+
+| Sesión | Cuándo | Graba | Ítems | Minutos | Qué deja listo |
+|---|---|---|---|---|---|
+| 1 | día 1 | Bloque 1 y bloque 9, con su parte dos | 143 | 18 | Dubu completo y 116 de los 150 textos del juego, con la lección de 김재희 선생님 |
+| 2 | día 2 | Bloques 2, 3 y 4 | 110 | 15 | El Lector del primer día y los números; el juego llega a 129 |
+| 3 | día 3 | Bloques 5 y 6 | 150 | 20 | El vocabulario y las frases de Básico 1; el juego llega a 150 de 150 |
+
+- **Tu voz entra al juego cuando termines las 3 sesiones.** 안녕하세요, 감사합니다 y otros 19 textos del juego están en el bloque 5; si la subo antes, en una misma escena se mezclarían tu voz y SunHi. Dubu sí puede subir después de la sesión 1.
+- **Al terminar cada sesión,** pasa los archivos a este PC, a `_privado/voz_jay/`, por cable o por Drive. No uses WhatsApp, porque comprime el audio. Esa carpeta queda fuera de git.
+- **Los bloques 7 y 8 no entran en este plan.**
 
 ## Cómo grabar
 
@@ -716,11 +730,13 @@ pieza chica con ropa o cortinas (sin eco), celular en modo avión a 15–20 cm d
 
 ## Bloque 9 · La aventura del Tigre (el RPG)
 
-**40 ítems · 7 minutos.** Todo lo que el RPG `/aventura` dice y que no está en los bloques 1–6: lo que dicen los personajes, lo que se pide en la tienda, las sílabas de los letreros y las palabras de los duelos. El juego ya está preparado: en cuanto tus clips estén en `public/audio/kr-jay/` suenan con tu voz (y aparece «Ajustes → Voz de Jay» para apagarla); lo que no hayas grabado sigue sonando con SunHi. Lo que más se nota: los personajes, que hoy hablan con la voz del dispositivo porque esas frases no existen ni en SunHi.
+**45 ítems · 8 minutos.** Todo lo que el RPG `/aventura` dice y que no está en los bloques 1–6: lo que dicen los personajes y 김재희 선생님 en la lección, lo que se pide en la tienda, las sílabas de los letreros y las palabras de los duelos. El juego ya está preparado: en cuanto tus clips estén en `public/audio/kr-jay/` suenan con tu voz (y aparece «Ajustes → Voz de Jay» para apagarla); lo que no hayas grabado sigue sonando con SunHi. Lo que más se nota: los personajes, que hoy hablan con SunHi.
 
-**Cómo leerlo:** Di «bloque nueve». Las frases de los personajes (1–11) llévalas actuadas, como en el juego: 하나 contenta de conocerte, la abuela con un 아이고 de suspiro y después un 아이고 de alegría, el dependiente amable de tienda, el 뚝딱 del 도깨비 corto y fuerte (es el golpe de su garrote mágico) y el 멍멍 de un perrito chico. 2 segundos entre frase y frase. Las de la tienda (12–19) con tono de cliente amable; 김밥이에요 y 부채예요 son las respuestas equivocadas que el juego muestra al lado de 주세요, así que léelas neutras, como un «es un 김밥». Las palabras y sílabas (20–30) como en clase, 1 segundo entre una y otra. **Si alguna frase de los personajes no te suena natural, dila como la dirías tú y avísame:** cambio el texto del juego para que calce con tu grabación (son frases nuevas que todavía no revisaste).
+**Cómo leerlo:** Di «bloque nueve». Las frases de los personajes (1–11) llévalas actuadas, como en el juego: 하나 contenta de conocerte, la abuela con un 아이고 de suspiro y después un 아이고 de alegría, el dependiente amable de tienda, el 뚝딱 del 도깨비 corto y fuerte (es el golpe de su garrote mágico) y el 멍멍 de un perrito chico. 2 segundos entre frase y frase. Las de la tienda (12–19) con tono de cliente amable; 김밥이에요 y 부채예요 son las respuestas equivocadas que el juego muestra al lado de 주세요, así que léelas neutras, como un «es un 김밥». Las palabras y sílabas (20–30) como en clase, 1 segundo entre una y otra. **Si alguna frase de los personajes no te suena natural, dila como la dirías tú y avísame:** cambio el texto del juego para que calce con tu grabación (son frases nuevas que todavía no revisaste). Las de la lección (las 5 antes de la parte dos) las dice tu personaje, 김재희 선생님: 호랑이야, 안녕 y 잘했어 con voz de profe cariñoso; 하늘, 땅, 사람 como quien enseña, con una pausa en cada coma.
 
-**Parte dos (31–40): solo si NO vas a grabar el bloque 8.** Son 10 textos del bloque 8 que el juego también usa. Di «parte dos» antes de empezarla.
+**Dos frases que la revisión nativa dejó para ti:** una abuela a un joven diría más bien 고마워 o 고마워라 en vez de 「아이고, 고마워요」, y en una tienda lo más típico es 여기 있습니다 en vez de 「네, 여기 있어요」. Dilas como te suenen naturales y avísame cuál usaste.
+
+**Parte dos (36–45): grábala también.** Son 10 textos del bloque 8 que el juego usa, y el bloque 8 no entra en el plan. Di «parte dos» antes de empezarla. Sáltala solo si decides grabar el bloque 8 completo.
 
 ```
 저는 하나예요. 반갑습니다
@@ -753,6 +769,11 @@ pieza chica con ropa o cortinas (sin eco), celular en modo avión a 15–20 cm d
 외
 웨
 개
+호랑이야, 안녕
+잘했어
+하늘, 땅, 사람
+하늘
+땅
 parte dos
 시작이 반이다
 안녕하세요! 저는 발렌티나예요

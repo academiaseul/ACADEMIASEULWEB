@@ -35,6 +35,19 @@ for (const l of Object.values(MUNDO.letreros)) { add(l.palabra, 'letreros', { es
 for (const j of R.CHO + R.JUNG) add(R.silabaDeLetra(j), 'letras');
 // 5) Duelos: el audio de cada pregunta
 for (const q of BANCO) if (q.audio) add(q.audio, 'duelos');
+// 6) La lección de 김재희 선생님: lo que dice y lo que suena en la pizarra
+const LEC = MUNDO.leccion;
+for (const l of LEC.intro.concat(LEC.final)) if (l.ko) add(l.ko, 'lección', { quien: '김재희 선생님', es: l.es });
+for (const p of LEC.partes) for (const paso of p.pasos) {
+  if (paso.ko) add(paso.ko, 'lección', { quien: '김재희 선생님' });
+  for (const t of paso.trazos || []) add(t.ko, 'lección', { es: t.es });
+  for (const q of paso.preguntas || []) { add(q.audio, 'lección'); q.opciones.forEach((j) => add(R.silabaDeLetra(j), 'lección')); }
+  for (const l of paso.letras || []) add(R.silabaDeLetra(l.letra || l), 'lección');
+  for (const f of paso.familias || []) f.forEach((j) => add(R.silabaDeLetra(j), 'lección'));
+  for (const l of Object.values(paso.lados || {})) add(R.silabaDeLetra(l.vocal), 'lección');
+  for (const c of paso.consonantes || []) for (const v of paso.vocales) add(R.compose(c, v), 'lección');
+  if (paso.palabra) { add(paso.palabra, 'lección', { es: paso.significa }); for (const s of paso.palabra) add(s, 'lección'); }
+}
 
 // Lo que ya está en los bloques 1–8 del guion de voz
 const guion = fs.readFileSync(path.join(RAIZ, 'Juego_Dubu', 'voz', 'Guion_Voz_Jay_2nov2026.md'), 'utf8');

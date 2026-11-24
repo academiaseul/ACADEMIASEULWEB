@@ -44,3 +44,21 @@ Fecha: 2 de noviembre de 2026. La hizo un revisor adversarial con el perfil de h
 - **El 부채 en un 편의점 en otoño** es raro (en verano venden 손선풍기). Se dejó como objeto de juego.
 - **El sprite del 도깨비 lleva un cuerno.** Los folcloristas asocian el aspecto de oni japonés (cuernos y maza con púas) a la época colonial. El garrote liso está bien; el cuerno se puede quitar.
 - **Regla para el futuro:** nunca usar 「X(이)요」 como distractor de 「X 주세요」, porque 「김밥이요」 sí es una forma real de pedir.
+
+## La lección de 김재희 선생님 (23 nov 2026)
+Revisor adversarial con el mismo perfil (nativo, profesor de coreano para hispanohablantes, 훈민정음 해례본). Revisó `mundo.json` → `leccion` y el NPC `hunjang`, los cortes de la boca (`bocaSVG`) y el armado de vocales.
+
+**Corregido el mismo día:**
+1. «Con los siglos, el punto se volvió una rayita» era falso: en pocos años (석보상절, 언해본 de 1459) ya eran rayitas.
+2. ㄱ decía «tapa la garganta» (literal de 閉喉): podía llevar a una «j» o a un golpe de glotis. Ahora: la lengua toca el fondo del paladar, entre «g» y «k».
+3. El primer coreano del juego es 반말 de un mayor («호랑이야, 안녕!»): ahora el maestro aclara que a los mayores se les dice 안녕하세요, también en el repaso.
+4. En el 서당 se enseñaban caracteres chinos, no 한글: el maestro lo cuenta y lo usa de gancho («hoy te enseño algo mucho más fácil»). Además glosa 훈장님 = «señor maestro». Antes decía «Soy el 훈장님», y nadie se nombra a sí mismo con 님. **El mismo día Jay le puso nombre al maestro: 김재희 선생님.** La frase quedó «Mis alumnos me dicen 김재희 선생님: 선생님 es «profesor»», otra vez sin nombrarse con 님, y el título pasó a «김재희 선생님의 한글 교실». El revisor vio la versión con 훈장님.
+5. Cada consonante tiene ahora su sonido de referencia (ㄴ «n», ㅁ «m», ㅅ «s», ㅇ final «ng»); ㅗ es «más cerrada que nuestra o»; la mano frente a la boca para sentir el soplo de ㅋ.
+6. El quiz de vocales empezaba con 오/어, el contraste más difícil: ahora va 우 primero.
+7. 아이 = «niño o niña» (no tiene género). La parte 3 se llama «Sílabas en bloque» (글자 no es «palabra»).
+
+**Sin cambios, a juicio del revisor:** 잘했어, 하늘/땅/사람, 모음/자음, «훈장님의 한글 교실», 1443, la cita de 정인지, las cinco consonantes base, las familias por trazos y «el sonido sale más fuerte» (聲出稍厲), los cortes de la boca, el armado (derecha ㅏ, izquierda ㅓ, arriba ㅗ, abajo ㅜ), el 갓 en la calle y el CSS sin rojo ni rosado.
+
+**Quedan para Jay:**
+- **화이팅** al cierre: la forma estándar es 파이팅, y en boca de un 훈장 con 갓 suena fuera de personaje; 「힘내라!」 sería coreano de mayor a niño. Se dejó 화이팅 porque es el saludo de la marca.
+- **ㅇ → ㅎ:** la cadena real es ㅇ→ㆆ→ㅎ; se simplificó para A1, sin nota.

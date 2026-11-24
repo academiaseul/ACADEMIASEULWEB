@@ -3,6 +3,7 @@
    Revisa que los mapas estén bien formados, que todo lo que nombra mundo.json exista,
    que cada letrero se pueda armar con letras que algún 도깨비 suelta, y juega el
    capítulo 1 de punta a punta sin pantalla. */
+const fs = require('fs');
 const path = require('path');
 const assert = require('assert');
 const RPG = require('../public/aventura/motor.js');
@@ -232,6 +233,37 @@ t('una partida guardada antes de la guía y del repaso se puede cargar', () => {
 });
 
 /* ── El capítulo completo, sin pantalla ───────────────────────────── */
+t('la lección de 김재희 선생님: cada paso enseña lo que dice y todo suena', () => {
+  const L = MUNDO.leccion;
+  assert.ok(MUNDO.npcs[L.maestro], 'el maestro existe');
+  assert.ok(MUNDO.mapas.plaza.npcs.some((n) => n.id === L.maestro), 'el maestro se queda en la plaza para repasar');
+  assert.ok(L.intro.some((l) => l.pregunta), 'la bienvenida pregunta si ya sabes leer');
+  const hex = (s) => Buffer.from(s, 'utf8').toString('hex');
+  const clips = new Set(fs.readdirSync(path.join(__dirname, '..', 'public', 'audio', 'kr')).map((f) => f.replace(/\.mp3$/, '')));
+  const PUNTO = { 'ㅣ': { izq: 'ㅓ', der: 'ㅏ' }, 'ㅡ': { arriba: 'ㅗ', abajo: 'ㅜ' } };
+  const suena = [];
+  for (const p of L.partes) for (const paso of p.pasos) {
+    if (paso.tipo === 'punto') for (const [lado, v] of Object.entries(paso.lados)) assert.strictEqual(v.vocal, PUNTO[paso.base][lado], `${paso.base} con el cielo ${lado}`);
+    else if (paso.tipo === 'quiz') for (const q of paso.preguntas) {
+      assert.ok(q.opciones.includes(q.respuesta) && RPG.letrasDe(q.audio).includes(q.respuesta), `${q.audio} lleva ${q.respuesta}`);
+      suena.push(q.audio, ...q.opciones.map(RPG.silabaDeLetra));
+    } else if (paso.tipo === 'boca') {
+      assert.deepStrictEqual(paso.letras.map((l) => l.letra), ['ㄱ', 'ㄴ', 'ㅁ', 'ㅅ', 'ㅇ'], 'las cinco consonantes base del 훈민정음');
+      suena.push(...paso.letras.map((l) => RPG.silabaDeLetra(l.letra)));
+    } else if (paso.tipo === 'familias') for (const f of paso.familias) {
+      assert.ok(f.every(RPG.esConsonante));
+      suena.push(...f.map(RPG.silabaDeLetra));
+    } else if (paso.tipo === 'suenan') suena.push(...paso.letras.map(RPG.silabaDeLetra));
+    else if (paso.tipo === 'bloque') { for (const c of paso.consonantes) for (const v of paso.vocales) suena.push(RPG.compose(c, v)); }
+    else if (paso.tipo === 'palabra') {
+      for (const s of paso.palabra) { const [c, v, f] = RPG.decompose(s); assert.ok(paso.consonantes.includes(c) && paso.vocales.includes(v) && !f, `${s} se puede armar`); suena.push(s); }
+      suena.push(paso.palabra);
+    } else assert.strictEqual(paso.tipo, 'trazos');
+  }
+  const sinClip = [...new Set(suena)].filter((s) => !clips.has(hex(s)));
+  assert.deepStrictEqual(sinClip, [], 'todo lo que suena en la lección tiene clip');
+});
+
 t('capítulo 1 de punta a punta', () => {
   const est = RPG.crearEstado(MUNDO);
   const rnd = RPG.azar(99);

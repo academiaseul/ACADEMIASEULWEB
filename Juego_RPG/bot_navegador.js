@@ -1,4 +1,5 @@
-/* Bot que juega el capítulo 1 en el navegador, con los mismos botones que un alumno.
+/* Bot que juega el capítulo 1 en el navegador, con los mismos botones que un alumno,
+   empezando por la lección de 김재희 선생님.
    Se pega en la consola de /aventura?prueba=1 con una partida nueva empezada y deja el
    avance en window.__bot: { hitos, fin, error }. Sirve para medir cuánto se demora el
    jugador en llegar a cada momento y para encontrar lo que se traba. */
@@ -15,6 +16,22 @@
       bot.pasos = i;
       await w(60);
       if (a.est.misiones.q6 && a.est.misiones.q6.estado === 'hecha' && $('f-seguir')) { hito('fin del capítulo'); bot.fin = true; break; }
+      if (a.modo === 'leccion') {
+        // La lección de 김재희 선생님, entera: el bot elige «Enséñame» y hace cada paso
+        const L = a.lec, seguir = $('l-seguir');
+        nuevo('lec-' + L.fase + (L.fase === 'paso' ? L.p : ''), L.fase === 'paso' ? `lección: ${a.MUNDO.leccion.partes[L.p].titulo}` : `lección: ${L.fase}`);
+        if (seguir && !seguir.disabled) { seguir.click(); continue; }
+        if (L.fase !== 'paso') continue;
+        const paso = a.MUNDO.leccion.partes[L.p].pasos[L.k], st = L.st;
+        const pulsa = (sel) => { const b = document.querySelector(sel); if (b && !b.disabled) b.click(); };
+        if (paso.tipo === 'punto') pulsa(`[data-lado="${Object.keys(paso.lados).find((x) => !(st.hechos || []).includes(x))}"]`);
+        else if (paso.tipo === 'suenan' || paso.tipo === 'familias') { const b = [...document.querySelectorAll('#l-pizarra [data-j]')].find((x) => !x.classList.contains('oido')); if (b) b.click(); }
+        else if (paso.tipo === 'quiz') { const q = paso.preguntas[st.q]; if (q && !st.bien) pulsa(`[data-op="${q.respuesta}"]`); }
+        else if (paso.tipo === 'boca') pulsa('#l-otra');
+        else if (paso.tipo === 'bloque') { const [c, v] = [['ㄱ', 'ㅏ'], ['ㄴ', 'ㅗ'], ['ㅁ', 'ㅜ']][(st.hechas || []).length % 3]; pulsa(`[data-parte="ini"][data-j="${c}"]`); pulsa(`[data-parte="voc"][data-j="${v}"]`); }
+        else if (paso.tipo === 'palabra') { const [c, v] = a.R.decompose(Array.from(paso.palabra)[st.i]); pulsa(`[data-parte="ini"][data-j="${c}"]`); pulsa(`[data-parte="voc"][data-j="${v}"]`); pulsa('#l-poner'); await w(150); }
+        continue;
+      }
       if (a.modo === 'escena') { a.terminarCine(); continue; }
       if (a.modo === 'dialogo') {
         const ops = [...$('dlg-ops').children];

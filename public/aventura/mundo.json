@@ -6,6 +6,67 @@
   "prologo": { "letrero": "hangeul", "desde": { "x": 18, "y": 13 }, "hasta": { "x": 5, "y": 13 }, "textos": ["Seúl, una mañana de otoño.", "¡Un 도깨비 se roba las letras del último letrero!"] },
   "dorado": { "mapa": "plaza", "x": 23, "y": 15 },
 
+  "leccion": {
+    "maestro": "hunjang",
+    "titulo": "김재희 선생님의 한글 교실",
+    "intro": [
+      { "ko": "호랑이야, 안녕!", "es": "¡Hola, tigrecito! Yo te digo 안녕 porque eres pequeño; a los mayores, tú les dices 안녕하세요." },
+      { "es": "Mis alumnos me dicen 김재희 선생님: 선생님 es «profesor». Antes, en los 서당, las escuelas de antaño, se enseñaban difíciles caracteres chinos con pincel y papel. Yo te voy a enseñar algo mucho más fácil." },
+      { "es": "En 1443, el rey 세종, el de la estatua de Gwanghwamun, inventó unas letras para que todo el pueblo pudiera leer: el 한글." },
+      { "es": "Uno de sus sabios escribió que alguien despierto las aprende en una mañana, y cualquiera, en diez días. ¿Probamos?", "pregunta": true }
+    ],
+    "partes": [
+      {
+        "id": "vocales", "ko": "모음", "titulo": "Las vocales",
+        "pasos": [
+          { "tipo": "trazos", "ko": "하늘, 땅, 사람", "es": "Las vocales (모음) nacen de tres trazos: un punto redondo, el cielo; una raya plana, la tierra; y una raya de pie, la persona.",
+            "trazos": [{ "forma": "punto", "ko": "하늘", "es": "cielo" }, { "forma": "ㅡ", "ko": "땅", "es": "tierra" }, { "forma": "ㅣ", "ko": "사람", "es": "persona" }] },
+          { "tipo": "punto", "base": "ㅣ", "es": "Pon el cielo al lado de la persona: toca un lado de la ㅣ.", "nota": "Pocos años después, el punto se volvió una rayita, más fácil de trazar con pincel.",
+            "lados": { "izq": { "vocal": "ㅓ", "es": "ㅓ: abre la boca como para «a», pero di «o», sin redondear los labios." }, "der": { "vocal": "ㅏ", "es": "ㅏ suena «a»." } } },
+          { "tipo": "punto", "base": "ㅡ", "es": "Ahora con la tierra: pon el cielo arriba o abajo.",
+            "lados": { "arriba": { "vocal": "ㅗ", "es": "ㅗ es una «o» más cerrada que la nuestra, con los labios bien redondos y hacia adelante." }, "abajo": { "vocal": "ㅜ", "es": "ㅜ es la «u» de uva, con los labios hacia adelante." } } },
+          { "tipo": "suenan", "es": "Con dos rayitas suena una «y» delante. Y las rayas solas también son vocales. Toca cada una.",
+            "letras": ["ㅑ", "ㅕ", "ㅛ", "ㅠ", "ㅡ", "ㅣ"], "notas": { "ㅑ": "«ya»", "ㅕ": "«y» + ㅓ", "ㅛ": "«yo»", "ㅠ": "«yu»", "ㅡ": "sonríe y di «u»", "ㅣ": "«i»" } },
+          { "tipo": "quiz", "es": "Escucha y toca la vocal.",
+            "preguntas": [{ "audio": "우", "respuesta": "ㅜ", "opciones": ["ㅏ", "ㅓ", "ㅗ", "ㅜ"] }, { "audio": "오", "respuesta": "ㅗ", "opciones": ["ㅏ", "ㅓ", "ㅗ", "ㅜ"] }, { "audio": "어", "respuesta": "ㅓ", "opciones": ["ㅏ", "ㅓ", "ㅗ", "ㅜ"] }] }
+        ]
+      },
+      {
+        "id": "consonantes", "ko": "자음", "titulo": "Las consonantes",
+        "pasos": [
+          { "tipo": "boca", "es": "Las consonantes (자음) dibujan la boca cuando suena cada una. El rey 세종 partió de cinco.",
+            "letras": [
+              { "letra": "ㄱ", "es": "La parte de atrás de la lengua sube, toca el fondo del paladar y cierra el paso del aire. Suena entre «g» y «k»." },
+              { "letra": "ㄴ", "es": "La punta de la lengua toca detrás de los dientes de arriba, como en nuestra «n»." },
+              { "letra": "ㅁ", "es": "Los labios se juntan, como en «m»: la ㅁ es la boca." },
+              { "letra": "ㅅ", "es": "La punta de un diente: el aire silba entre los dientes, como en «s»." },
+              { "letra": "ㅇ", "es": "La garganta, redonda. Al inicio de la sílaba no suena (아 es solo «a»); al final, suena «ng»." }
+            ] },
+          { "tipo": "familias", "es": "Ahora agrégales trazos: con cada trazo, el sonido sale más fuerte. ㅋ ㅌ ㅍ ㅊ llevan un soplo de aire: pon la mano frente a la boca y lo sientes. Toca y escucha.",
+            "familias": [["ㄱ", "ㅋ"], ["ㄴ", "ㄷ", "ㅌ"], ["ㅁ", "ㅂ", "ㅍ"], ["ㅅ", "ㅈ", "ㅊ"], ["ㅇ", "ㅎ"]],
+            "nota": "ㄹ no sigue la regla, y las dobles (ㄲ ㄸ ㅃ ㅆ ㅉ) te las van a enseñar los 도깨비." },
+          { "tipo": "quiz", "es": "Escucha y toca la consonante.",
+            "preguntas": [{ "audio": "마", "respuesta": "ㅁ", "opciones": ["ㄱ", "ㄴ", "ㅁ", "ㅅ"] }, { "audio": "카", "respuesta": "ㅋ", "opciones": ["ㄱ", "ㅋ", "ㄴ", "ㅎ"] }] }
+        ]
+      },
+      {
+        "id": "silabas", "ko": "글자", "titulo": "Sílabas en bloque",
+        "pasos": [
+          { "tipo": "bloque", "es": "Ahora júntalas: consonante + vocal = un bloque. Si la vocal está de pie, va a la derecha (가); si está acostada, va abajo (고). Arma dos.",
+            "consonantes": ["ㄱ", "ㄴ", "ㅁ", "ㅅ", "ㅇ"], "vocales": ["ㅏ", "ㅓ", "ㅗ", "ㅜ", "ㅣ"], "minimo": 2 },
+          { "tipo": "palabra", "palabra": "아이", "significa": "niño o niña", "es": "Tu primera palabra: arma 아이, «niño o niña». Escucha cada sílaba y ármala.",
+            "consonantes": ["ㄱ", "ㄴ", "ㅁ", "ㅅ", "ㅇ"], "vocales": ["ㅏ", "ㅓ", "ㅗ", "ㅜ", "ㅣ"] }
+        ]
+      }
+    ],
+    "final": [
+      { "ko": "잘했어!", "es": "¡Bien hecho! Ya leíste tu primera palabra." },
+      { "es": "Pero ten cuidado: los 도깨비, duendes traviesos de los cuentos, andan robando letras por Gwanghwamun." },
+      { "es": "Te regalo mi 도감, el cuaderno de letras: cada letra que recuperes queda ahí (🎒 → 한 Letras)." },
+      { "ko": "화이팅!", "es": "¡Ánimo! Si quieres repasar, búscame junto a la estatua del rey 세종." }
+    ]
+  },
+
   "mapas": {
     "plaza": {
       "nombre": "Plaza Gwanghwamun",
@@ -59,6 +120,7 @@
       ],
       "npcs": [
         { "id": "hana", "x": 21, "y": 13 },
+        { "id": "hunjang", "x": 16, "y": 11 },
         { "id": "jefe", "x": 19, "y": 4 },
         { "id": "halmeoni", "x": 31, "y": 11 },
         { "id": "doyun", "x": 4, "y": 19 },
@@ -191,6 +253,17 @@
   },
 
   "npcs": {
+    "hunjang": {
+      "nombre": "김재희 선생님", "sprite": { "tipo": "persona", "peinado": "gat", "pelo": "#e4e2ee", "piel": "#efc9a4", "ropa": "#f1ecdf", "sombra": "#d2c9b2" },
+      "dialogos": [
+        {
+          "lineas": [
+            { "ko": "호랑이야, 안녕!", "es": "¡Hola, tigrecito! (A los mayores, tú les dices 안녕하세요.)" },
+            { "es": "¿Repasamos el 한글? Elige qué quieres ver.", "accion": { "leccion": "repaso" } }
+          ]
+        }
+      ]
+    },
     "hana": {
       "nombre": "하나", "sprite": { "tipo": "persona", "peinado": "largo", "pelo": "#2b2233", "piel": "#f5d0ae", "ropa": "#4a9fd0", "sombra": "#3a85b3" },
       "dialogos": [

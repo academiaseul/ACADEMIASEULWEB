@@ -40,6 +40,12 @@
     coletas: { 4: '..hKhhhhhhhhKh..', 5: '..hKhsssssshKh..', 6: '.hhKssessessKhh.' },
     chef: { 0: '....KKKKKKKK....', 1: '....KwwwwwwK....', 2: '....KwwwwwwK....' },
     gorra: { 1: '.....KKKKKK.....', 2: '....KccccccK....', 3: '...KCCCCCCCCK...' },
+    // 김재희 선생님, el maestro de la lección: 갓 de ala ancha, barba blanca larga y 도포 hasta los pies
+    gat: {
+      0: '......KKKK......', 1: '.....KggggK.....', 2: '.....KggggK.....', 3: '.KKKKKKKKKKKKKK.',
+      8: '....KswwwwsK....', 9: '.....KwwwwK.....', 10: '....KcwwwwcK....', 13: '....KccccccK....',
+      14: '....KccCCccK....', 15: '....KKKKKKKK....',
+    },
   };
   function persona(peinado) {
     const filas = PERSONA.slice();
@@ -115,7 +121,7 @@
   }
   function npc(p) {
     return memo(`p-${p.peinado}-${p.pelo}-${p.piel}-${p.ropa}`, () => deFilas(persona(p.peinado), {
-      K, h: p.pelo, s: p.piel, e: '#1d1b2e', c: p.ropa, C: p.sombra || p.ropa, p: p.pantalon || '#3b4358', w: '#ffffff',
+      K, h: p.pelo, s: p.piel, e: '#1d1b2e', c: p.ropa, C: p.sombra || p.ropa, p: p.pantalon || '#3b4358', w: '#ffffff', g: '#2a2440',
     }));
   }
   function perro(dir, paso) { return memo(`d-${dir}-${paso}`, () => deFilas(conPaso(PERRO, paso), PAL_PERRO, dir === 'izquierda')); }

@@ -252,6 +252,77 @@ body:not(.tactil) #controles{display:none}
 .cifras div{border:1px solid var(--border);border-radius:14px;padding:10px;text-align:center}
 .cifras b{display:block;font-size:1.5rem;font-weight:900}
 .cifras small{color:var(--muted);font-weight:700;font-size:.78rem}
+/* ── Lección de 김재희 선생님 ─────────────────────────────────────────────────── */
+#leccion{position:fixed;inset:0;z-index:45;background:radial-gradient(circle at 50% 18%,#2f2a7a 0,#17153f 60%,#0d0c24 100%);color:#fff;display:flex;flex-direction:column;align-items:center;gap:10px;padding:calc(10px + env(safe-area-inset-top)) 12px calc(12px + env(safe-area-inset-bottom));overflow:auto}
+.l-cab{width:min(100%,720px);display:flex;align-items:center;gap:10px}
+.l-tit{flex:1;min-width:0;font-weight:900;font-size:.95rem;line-height:1.25}
+.l-tit small{display:block;color:#cfcaff;font-weight:700;font-size:.78rem}
+.l-puntos{display:flex;gap:5px}
+.l-puntos i{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.22)}
+.l-puntos i.hecho{background:#cfcaff}.l-puntos i.on{background:var(--oro)}
+.l-saltar{color:rgba(255,255,255,.78);font-weight:800;font-size:.82rem;padding:8px 10px;border-radius:10px}
+.l-saltar:hover{background:rgba(255,255,255,.12)}
+.l-pizarra{width:min(100%,720px);flex:1 0 auto;min-height:230px;background:var(--card);color:var(--txt);border-radius:22px;box-shadow:var(--sombra);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:18px 14px;text-align:center}
+.l-globo{width:min(100%,720px);flex-shrink:0;background:var(--card);color:var(--txt);border-radius:22px;border:3px solid var(--azul);padding:12px 14px 14px;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;box-shadow:0 -6px 32px rgba(0,0,0,.3)}
+.l-globo .retrato{width:64px;height:64px;border-radius:16px;background:var(--oro-suave);image-rendering:pixelated;align-self:start}
+.l-globo .quien{font-weight:900;color:var(--azul-txt);font-size:.85rem}
+.l-globo .linea-ko{display:flex;align-items:center;gap:10px}
+.l-globo .linea-ko .ko{font-size:1.4rem;font-weight:900;line-height:1.3}
+.l-globo .linea-es{margin:0;font-size:1rem;line-height:1.5}
+.l-acciones{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;margin-top:8px}
+.l-acciones .btn{min-height:46px;flex:0 1 auto}
+@media (max-width:480px){.l-acciones .btn{flex:1 1 140px}.l-globo .retrato{width:52px;height:52px}}
+.l-maestro{width:128px;height:128px;image-rendering:pixelated}
+.l-sello{font-size:.8rem;color:var(--muted);font-weight:700;max-width:30ch}
+.l-trazos{display:flex;gap:clamp(14px,6vw,40px);align-items:flex-end;justify-content:center}
+.l-trazos button{display:flex;flex-direction:column;align-items:center;gap:6px;border-radius:16px;padding:8px}
+.l-trazos button:hover{background:var(--lila-suave)}
+.l-trazos svg{width:76px;height:76px}
+.l-trazos b{font-size:1.3rem}.l-trazos small{color:var(--muted);font-weight:700}
+.tinta{fill:var(--txt)}.tinta-azul{fill:var(--azul-txt)}
+.l-punto{position:relative;width:min(56vw,210px);aspect-ratio:1}
+.l-punto svg{width:100%;height:100%}
+.l-blanco{position:absolute;width:24%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;border:3px dashed var(--azul-txt);background:var(--lila-suave);font-size:.72rem;font-weight:900;color:var(--azul-txt)}
+.l-blanco:hover{background:var(--azul);color:#fff;border-style:solid}
+.l-blanco.hecho{border-style:solid;opacity:.55}
+.l-fila{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
+.l-res{display:flex;align-items:center;gap:10px}
+.l-res .ko{font-size:3.4rem;font-weight:900;line-height:1;color:var(--azul-txt)}
+.l-letras{display:grid;grid-template-columns:repeat(3,minmax(78px,1fr));gap:8px;width:min(100%,380px)}
+.l-letra{min-height:76px;border-radius:16px;border:2px solid var(--border);display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:2rem;font-weight:900;line-height:1.1;background:var(--card)}
+.l-letra small{font-size:.7rem;color:var(--muted);font-weight:700;margin-top:3px}
+.l-letra:hover:not(:disabled){border-color:var(--azul-txt)}
+.l-letra.oido{border-color:var(--azul);background:var(--lila-suave)}
+.l-letra.bien{border-color:var(--azul);background:var(--azul);color:#fff}
+.l-letra.bien small{color:#fff}
+.l-letra.mal{border-color:var(--oro);background:var(--oro-suave);color:var(--oro-txt);opacity:.75}
+.l-letra svg{width:46px;height:46px}
+.l-letra.bien .tinta{fill:#fff}.l-letra.mal .tinta{fill:var(--oro-txt)}
+.l-res svg{width:72px;height:72px}
+.l-fams{display:grid;gap:8px}
+.l-fam{display:flex;align-items:center;justify-content:center;gap:6px}
+.l-fam .l-letra{min-height:56px;width:60px;font-size:1.6rem}
+.l-fam span{color:var(--muted);font-weight:900}
+.l-chica{font-size:.82rem;color:var(--muted);font-weight:700;max-width:46ch;margin:0}
+.l-boca{display:flex;align-items:center;justify-content:center;gap:clamp(10px,4vw,26px);flex-wrap:wrap}
+.l-boca svg{width:min(58vw,230px);height:auto}
+.bc-techo{fill:none;stroke:var(--txt);stroke-width:2.6;stroke-linecap:round;opacity:.8}
+.l-boca .ko{font-size:4rem;font-weight:900;line-height:1;color:var(--azul-txt)}
+.l-desc{margin:0;font-weight:700;max-width:36ch;line-height:1.45}
+.l-letras.cuatro{grid-template-columns:repeat(4,minmax(64px,1fr));width:min(100%,420px)}
+@media (max-width:420px){.l-letras.cuatro{grid-template-columns:repeat(2,1fr)}}
+.bc-cara{fill:none;stroke:var(--muted);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.bc-linea{fill:none;stroke:var(--muted);stroke-width:1.4;opacity:.75;stroke-linecap:round}
+.bc-diente{fill:var(--card);stroke:var(--muted);stroke-width:1.2}
+.bc-lengua{fill:var(--lila-suave);stroke:var(--azul-txt);stroke-width:1.6;stroke-linejoin:round}
+.bc-glifo{fill:none;stroke:var(--azul);stroke-width:5;stroke-linecap:round;stroke-linejoin:round;opacity:.85}
+.bc-marca{fill:var(--oro);opacity:.9}
+.l-escucha{width:76px;height:76px;border-radius:22px;font-size:2rem}
+.l-silabas{display:flex;align-items:center;gap:8px;color:var(--muted);font-weight:800;font-size:.9rem}
+#leccion .fichas{justify-content:center}
+#leccion .armar{width:min(100%,420px)}
+#leccion .vista .bloque{width:96px;height:96px;font-size:3.4rem}
+
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -329,6 +400,25 @@ body:not(.tactil) #controles{display:none}
     <button class="btn sec" id="bt-huir">🏃 Huir</button>
   </div>
   <div class="mochila-duelo" id="bt-objetos" hidden></div>
+</section>
+
+<section id="leccion" hidden aria-label="La lección de 김재희 선생님">
+  <header class="l-cab">
+    <div class="l-tit"><span class="ko" id="l-titulo"></span><small id="l-parte"></small></div>
+    <div class="l-puntos" id="l-puntos" aria-hidden="true"></div>
+    <button class="l-saltar" id="l-saltar">Saltar</button>
+  </header>
+  <div class="l-pizarra" id="l-pizarra" aria-live="polite"></div>
+  <div class="l-globo">
+    <canvas class="retrato" id="l-retrato" width="16" height="16" aria-hidden="true"></canvas>
+    <div>
+      <div class="quien" id="l-quien"></div>
+      <div class="linea-ko" id="l-ko-fila" hidden><span class="ko" id="l-ko"></span><button class="oir" id="l-oir" aria-label="Escuchar">🔊</button></div>
+      <p class="linea-es" id="l-es"></p>
+      <div class="nota" id="l-nota" hidden></div>
+    </div>
+    <div class="l-acciones" id="l-acciones"></div>
+  </div>
 </section>
 
 <section id="capa" class="capa" hidden>

@@ -13,7 +13,7 @@
   const CLAVE = 'as-aventura-v1';
   const BASE = '/aventura/';
   let MUNDO = null, BANCO = [], est = null;
-  let modo = 'titulo'; // titulo · mapa · dialogo · batalla · capa
+  let modo = 'titulo'; // titulo · leccion · escena · mapa · dialogo · batalla · capa
   const rnd = R.azar(Date.now() & 0xffffff);
 
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -287,6 +287,10 @@
       if ((e.code === 'Space' || e.code === 'Enter') && document.activeElement === document.body) { e.preventDefault(); const s = $('bt-seguir'); if (s) s.click(); }
     } else if (modo === 'capa') {
       if (e.code === 'Escape') { const c = $('tarjeta').querySelector('.cerrar'); if (c) c.click(); }
+    } else if (modo === 'leccion') {
+      // Espacio o Enter siguen, salvo que el foco esté en otro botón (ese ya responde solo)
+      if ((e.code === 'Space' || e.code === 'Enter') && !(document.activeElement && document.activeElement.tagName === 'BUTTON')) { e.preventDefault(); const s = $('l-seguir'); if (s && !s.disabled) s.click(); }
+      if (e.code === 'Escape' && lec && lec.repaso) cerrarLeccion();
     }
   });
   window.addEventListener('keyup', (e) => { const d = TECLAS[codigo(e)]; const i = pulsadas.indexOf(d); if (i >= 0) pulsadas.splice(i, 1); });
@@ -864,6 +868,7 @@
     avisarCompletadas(r.completadas);
     if (a.tienda) dlg.despues.push(() => abrirTienda(a.tienda));
     if (a.duelo) dlg.despues.push(() => empezarDuelo({ tipo: a.duelo, jefe: true }));
+    if (a.leccion) dlg.despues.push(() => abrirLeccion({ repaso: true }));
     if (r.completadas.some((c) => c.mision === 'q6')) dlg.despues.push(() => setTimeout(mostrarFin, 400));
     hud(); guardar();
   }
@@ -1466,6 +1471,253 @@
     if (e > CINE.huye + CINE.dur + 250) terminarCine();
   }
 
+  /* ── Lección de 김재희 선생님: el tutorial del principio y el repaso ─────────── */
+  // Antes del robo de las letras, el maestro enseña cómo funciona el 한글: vocales de
+  // tres trazos, consonantes que dibujan la boca y sílabas en bloque. Después se queda
+  // junto a la estatua para repasar. El contenido está en MUNDO.leccion.
+  let lec = null;
+  const DE_PIE = 'ㅏㅓㅣㅑㅕ';
+  const BLANCO = { izq: [34, 50], der: [66, 50], arriba: [50, 34], abajo: [50, 66] };
+  const RAYITA = { izq: [23, 45, 22, 10], der: [55, 45, 22, 10], arriba: [45, 23, 10, 22], abajo: [45, 55, 10, 22] };
+  const NOMBRE_LADO = { izq: 'a la izquierda', der: 'a la derecha', arriba: 'arriba', abajo: 'abajo' };
+  function abrirLeccion(op) {
+    const L = MUNDO.leccion;
+    jug.ruta = []; pulsadas.length = 0; dirTactil = null;
+    lec = { repaso: !!op.repaso, alTerminar: op.alTerminar, fase: op.repaso ? 'menu' : 'intro', i: 0, p: 0, k: 0, st: {}, ko: null, dicho: null };
+    modo = 'leccion';
+    $('leccion').hidden = false;
+    $('l-titulo').textContent = L.titulo;
+    $('l-quien').textContent = nombreNPC(L.maestro);
+    $('l-saltar').textContent = lec.repaso ? 'Volver' : 'Saltar';
+    pintarMaestro($('l-retrato'));
+    pintarLeccion();
+  }
+  function pintarMaestro(c) { const x = c.getContext('2d'); x.imageSmoothingEnabled = false; x.clearRect(0, 0, 16, 16); x.drawImage(S.npc(MUNDO.npcs[MUNDO.leccion.maestro].sprite), 0, 0); }
+  function cerrarLeccion(como) {
+    if (!lec) return;
+    const l = lec; lec = null;
+    $('leccion').hidden = true;
+    if (!l.repaso) est.flags.leccion = como;
+    modo = 'mapa'; hud(); guardar();
+    if (l.alTerminar) l.alTerminar();
+  }
+  $('l-saltar').addEventListener('click', () => cerrarLeccion(lec && lec.fase === 'final' ? 'hecha' : 'saltada'));
+  $('l-oir').addEventListener('click', () => { if (lec && lec.ko) oir(lec.ko); });
+  function decir(ko, es, clave) {
+    lec.ko = ko || null;
+    $('l-ko-fila').hidden = !ko; $('l-ko').textContent = ko || '';
+    $('l-es').textContent = es || '';
+    if (ko && lec.dicho !== clave) setTimeout(() => oir(ko), 150);
+    lec.dicho = clave;
+  }
+  function notaLeccion(n) { const el = $('l-nota'); el.hidden = !n; el.className = 'nota ' + (n ? n.clase : ''); el.textContent = n ? n.texto : ''; }
+  function botonesLeccion(lista) {
+    const cont = $('l-acciones'); cont.innerHTML = '';
+    for (const b of lista) {
+      const el = document.createElement('button');
+      el.className = 'btn' + (b.sec ? ' sec' : ''); el.textContent = b.txt;
+      if (b.id) el.id = b.id;
+      el.disabled = !!b.off;
+      el.addEventListener('click', b.fn);
+      cont.appendChild(el);
+    }
+  }
+  function pintarLeccion() {
+    const L = MUNDO.leccion, piz = $('l-pizarra'), puntos = $('l-puntos');
+    puntos.innerHTML = '';
+    if (lec.fase === 'intro' || lec.fase === 'final') {
+      const final = lec.fase === 'final', l = (final ? L.final : L.intro)[lec.i], ultima = lec.i === (final ? L.final : L.intro).length - 1;
+      $('l-parte').textContent = final ? '¡Listo!' : 'Bienvenida';
+      piz.innerHTML = `<canvas class="l-maestro" id="l-grande" width="16" height="16" aria-hidden="true"></canvas>` +
+        (final ? `<div class="fin-dicho" style="margin:0"><div class="ko">${esc(L.partes[L.partes.length - 1].pasos.find((p) => p.palabra).palabra)}</div><div>Tu primera palabra</div></div>` : `<p class="l-sello"><span class="ko" style="font-size:2rem;font-weight:900;color:var(--txt)">한글</span><br>las letras del rey 세종</p>`);
+      pintarMaestro($('l-grande'));
+      decir(l.ko, l.es, lec.fase + lec.i);
+      notaLeccion(null);
+      if (l.pregunta) botonesLeccion([{ txt: 'Ya sé leer: quiero jugar', sec: true, fn: () => cerrarLeccion('saltada') }, { txt: 'Enséñame', id: 'l-seguir', fn: () => irAParte(0) }]);
+      else botonesLeccion([{ txt: final && ultima ? 'Ir a Gwanghwamun ▶' : 'Seguir ▶', id: 'l-seguir', fn: () => { if (final && ultima) cerrarLeccion('hecha'); else { lec.i++; pintarLeccion(); } } }]);
+      return;
+    }
+    if (lec.fase === 'menu') {
+      $('l-parte').textContent = 'Repaso';
+      piz.innerHTML = `<div style="display:grid;gap:10px;width:min(100%,360px)">${L.partes.map((p, n) => `<button class="btn ancho" data-parte="${n}"><span class="ko">${esc(p.ko)}</span> · ${esc(p.titulo)}</button>`).join('')}</div>`;
+      piz.querySelectorAll('[data-parte]').forEach((b) => b.addEventListener('click', () => irAParte(+b.dataset.parte)));
+      decir(null, '¿Qué repasamos?', 'menu');
+      notaLeccion(null);
+      botonesLeccion([]);
+      return;
+    }
+    const parte = L.partes[lec.p], paso = parte.pasos[lec.k], st = lec.st;
+    $('l-parte').textContent = `${lec.p + 1} de ${L.partes.length} · ${parte.ko} · ${parte.titulo}`;
+    parte.pasos.forEach((_, n) => { const i = document.createElement('i'); i.className = n < lec.k ? 'hecho' : n === lec.k ? 'on' : ''; puntos.appendChild(i); });
+    decir(paso.ko, paso.es, `p${lec.p}-${lec.k}`);
+    const listo = PASOS[paso.tipo](piz, paso, st);
+    notaLeccion(st.nota);
+    botonesLeccion([{ txt: 'Seguir ▶', id: 'l-seguir', off: !listo, fn: siguienteDeLeccion }]);
+  }
+  function irAParte(n) { lec.fase = 'paso'; lec.p = n; lec.k = 0; lec.st = {}; pintarLeccion(); }
+  function siguienteDeLeccion() {
+    const L = MUNDO.leccion;
+    lec.st = {};
+    if (lec.k + 1 < L.partes[lec.p].pasos.length) lec.k++;
+    else if (lec.repaso) lec.fase = 'menu';
+    else if (lec.p + 1 < L.partes.length) { lec.p++; lec.k = 0; }
+    else { lec.fase = 'final'; lec.i = 0; }
+    pintarLeccion();
+  }
+  const fichaLec = (st, j, parte) => `<button class="ko ${st[parte] === j ? 'sel' : ''}" data-parte="${parte}" data-j="${esc(j)}" aria-label="${esc(j)}">${esc(j)}</button>`;
+  const armarLec = (st, paso) => `<div class="armar"><h3>Consonante</h3><div class="fichas">${paso.consonantes.map((j) => fichaLec(st, j, 'ini')).join('')}</div><h3>Vocal</h3><div class="fichas">${paso.vocales.map((j) => fichaLec(st, j, 'voc')).join('')}</div></div>`;
+  // Cada paso pinta la pizarra y dice si ya se puede seguir
+  const PASOS = {
+    trazos(piz, paso) {
+      piz.innerHTML = `<div class="l-trazos">${paso.trazos.map((t, n) => `<button data-n="${n}" aria-label="${esc(t.ko)}: ${esc(t.es)}">${trazoSVG(t.forma)}<b class="ko">${esc(t.ko)}</b><small>${esc(t.es)}</small></button>`).join('')}</div>`;
+      piz.querySelectorAll('[data-n]').forEach((b) => b.addEventListener('click', () => oir(paso.trazos[+b.dataset.n].ko)));
+      return true;
+    },
+    punto(piz, paso, st) {
+      st.hechos = st.hechos || [];
+      const lados = Object.keys(paso.lados), v = st.ultimo && paso.lados[st.ultimo].vocal;
+      const base = paso.base === 'ㅣ' ? '<rect class="tinta" x="45" y="12" width="10" height="76" rx="3"/>' : '<rect class="tinta" x="12" y="45" width="76" height="10" rx="3"/>';
+      const r = st.ultimo && RAYITA[st.ultimo];
+      const puesto = r ? `<rect class="tinta-azul" x="${r[0]}" y="${r[1]}" width="${r[2]}" height="${r[3]}" rx="3"/>` : '';
+      const blancos = lados.filter((l) => l !== st.ultimo).map((l) => `<button class="l-blanco ${st.hechos.includes(l) ? 'hecho' : ''}" data-lado="${l}" style="left:${BLANCO[l][0]}%;top:${BLANCO[l][1]}%" aria-label="Poner el cielo ${NOMBRE_LADO[l]}">●</button>`).join('');
+      piz.innerHTML = `<div class="l-fila"><div class="l-punto"><svg viewBox="0 0 100 100" aria-hidden="true">${base}${puesto}</svg>${blancos}</div>` +
+        (v ? `<div class="l-res">${glifoLec(v, 'tinta-azul')}<button class="oir" id="l-oir-res" aria-label="Escuchar ${esc(v)}">🔊</button></div>` : '') + '</div>' +
+        (st.hechos.length === lados.length && paso.nota ? `<p class="l-chica">${esc(paso.nota)}</p>` : '');
+      piz.querySelectorAll('[data-lado]').forEach((b) => b.addEventListener('click', () => {
+        const l = b.dataset.lado;
+        st.ultimo = l; if (!st.hechos.includes(l)) st.hechos.push(l);
+        st.nota = { clase: 'bien', texto: paso.lados[l].es };
+        SFX.toque(); oirLetra(paso.lados[l].vocal);
+        pintarLeccion();
+      }));
+      if (v) $('l-oir-res').addEventListener('click', () => oirLetra(v));
+      return st.hechos.length === lados.length;
+    },
+    suenan(piz, paso, st) {
+      st.oidas = st.oidas || [];
+      piz.innerHTML = `<div class="l-letras">${paso.letras.map((j) => `<button class="l-letra ko ${st.oidas.includes(j) ? 'oido' : ''}" data-j="${esc(j)}" aria-label="${esc(j)}">${glifoLec(j)}<small>${esc(paso.notas[j] || '')}</small></button>`).join('')}</div>`;
+      piz.querySelectorAll('[data-j]').forEach((b) => b.addEventListener('click', () => { const j = b.dataset.j; oirLetra(j); if (!st.oidas.includes(j)) { st.oidas.push(j); pintarLeccion(); } }));
+      return st.oidas.length === paso.letras.length;
+    },
+    quiz(piz, paso, st) {
+      st.q = st.q || 0; st.mal = st.mal || [];
+      if (st.q >= paso.preguntas.length) { piz.innerHTML = '<div class="fin-dicho" style="margin:0"><div class="ko">✓</div><div>¡Muy bien!</div></div>'; return true; }
+      const q = paso.preguntas[st.q];
+      if (st.sono !== st.q) { st.sono = st.q; setTimeout(() => { if (lec && lec.st === st) oir(q.audio); }, 450); }
+      piz.innerHTML = `<div class="l-silabas">${st.q + 1} de ${paso.preguntas.length} · Escucha y toca</div><button class="oir l-escucha" id="l-escucha" aria-label="Escuchar otra vez">🔊</button>` +
+        `<div class="l-letras ${q.opciones.length > 3 ? 'cuatro' : ''}">${q.opciones.map((j) => `<button class="l-letra ko ${st.bien && j === q.respuesta ? 'bien' : st.mal.includes(j) ? 'mal' : ''}" data-op="${esc(j)}" aria-label="${esc(j)}" ${st.bien || st.mal.includes(j) ? 'disabled' : ''}>${glifoLec(j)}</button>`).join('')}</div>`;
+      $('l-escucha').addEventListener('click', () => oir(q.audio));
+      piz.querySelectorAll('[data-op]').forEach((b) => b.addEventListener('click', () => {
+        const j = b.dataset.op;
+        if (j === q.respuesta) {
+          SFX.golpe(); st.bien = true; st.nota = { clase: 'bien', texto: `✓ Eso: ${q.audio} lleva ${j}.` };
+          pintarLeccion();
+          setTimeout(() => { if (lec && lec.st === st) { st.q++; st.mal = []; st.bien = false; st.nota = null; pintarLeccion(); } }, 1100);
+        } else {
+          SFX.error(); st.mal.push(j);
+          st.nota = { clase: 'mal', texto: `Esa es ${j}, que suena «${R.silabaDeLetra(j)}». Escucha otra vez.` };
+          oirLetra(j); setTimeout(() => { if (lec && lec.st === st) oir(q.audio); }, 1100);
+          pintarLeccion();
+        }
+      }));
+      return false;
+    },
+    boca(piz, paso, st) {
+      st.c = st.c || 0;
+      const L = paso.letras[st.c], ultima = st.c === paso.letras.length - 1;
+      if (st.sono !== st.c) { st.sono = st.c; setTimeout(() => { if (lec && lec.st === st) oirLetra(L.letra); }, 400); }
+      piz.innerHTML = `<div class="l-silabas">${st.c + 1} de ${paso.letras.length}</div><div class="l-boca">${bocaSVG(L.letra)}<div class="l-res"><span class="ko">${esc(L.letra)}</span><button class="oir" id="l-oir-boca" aria-label="Escuchar ${esc(L.letra)}">🔊</button></div></div>` +
+        `<p class="l-desc">${esc(L.es)}</p>` + (ultima ? '' : '<button class="btn sec" id="l-otra">Siguiente letra ▶</button>');
+      $('l-oir-boca').addEventListener('click', () => oirLetra(L.letra));
+      if (!ultima) $('l-otra').addEventListener('click', () => { st.c++; pintarLeccion(); });
+      return ultima;
+    },
+    familias(piz, paso, st) {
+      st.oidas = st.oidas || [];
+      piz.innerHTML = `<div class="l-fams">${paso.familias.map((f) => `<div class="l-fam">${f.map((j) => `<button class="l-letra ko ${st.oidas.includes(j) ? 'oido' : ''}" data-j="${esc(j)}" aria-label="${esc(j)}">${esc(j)}</button>`).join('<span aria-hidden="true">→</span>')}</div>`).join('')}</div>` +
+        (paso.nota ? `<p class="l-chica">${esc(paso.nota)}</p>` : '');
+      piz.querySelectorAll('[data-j]').forEach((b) => b.addEventListener('click', () => { const j = b.dataset.j; oirLetra(j); if (!st.oidas.includes(j)) { st.oidas.push(j); pintarLeccion(); } }));
+      return st.oidas.length >= paso.familias.length;
+    },
+    bloque(piz, paso, st) {
+      st.hechas = st.hechas || [];
+      const sil = st.ini && st.voc ? R.compose(st.ini, st.voc) : null;
+      const como = sil ? `${st.ini} + ${st.voc} = ${sil} · ${DE_PIE.includes(st.voc) ? 'la vocal de pie va a la derecha' : 'la vocal acostada va abajo'}` : 'Elige una consonante y una vocal.';
+      piz.innerHTML = `<div class="vista"><div class="bloque ko">${esc(sil || (st.ini || '') + (st.voc || '') || '·')}</div>${sil ? '<button class="oir" id="l-oir-bloque" aria-label="Escuchar">🔊</button>' : ''}</div>` +
+        `<p class="l-chica">${esc(como)}</p>${armarLec(st, paso)}<div class="l-silabas">${st.hechas.length >= paso.minimo ? '✓ ' : ''}Armaste ${Math.min(st.hechas.length, paso.minimo)} de ${paso.minimo}</div>`;
+      piz.querySelectorAll('[data-parte]').forEach((b) => b.addEventListener('click', () => {
+        st[b.dataset.parte] = b.dataset.j;
+        const s = st.ini && st.voc ? R.compose(st.ini, st.voc) : null;
+        if (s) { oir(s); if (!st.hechas.includes(s)) st.hechas.push(s); } else oirLetra(b.dataset.j);
+        pintarLeccion();
+      }));
+      if (sil) $('l-oir-bloque').addEventListener('click', () => oir(sil));
+      return st.hechas.length >= paso.minimo;
+    },
+    palabra(piz, paso, st) {
+      const sil = Array.from(paso.palabra);
+      st.i = st.i || 0; st.intentos = st.intentos || 0;
+      const casillas = sil.map((s, k) => k < st.i ? `<span class="lista ko">${esc(s)}</span>` : `<span class="${k === st.i ? 'ahora' : ''}">?</span>`).join('');
+      if (st.i >= sil.length) { piz.innerHTML = `<div class="tabla-letrero">${casillas}</div><div class="fin-dicho" style="margin:0"><div class="ko">${esc(paso.palabra)}</div><div>«${esc(paso.significa)}»</div></div>`; return true; }
+      if (st.sono !== st.i) { st.sono = st.i; setTimeout(() => { if (lec && lec.st === st) oir(sil[st.i]); }, st.i ? 1000 : 450); }
+      const armada = st.ini && st.voc ? R.compose(st.ini, st.voc) : (st.ini || '') + (st.voc || '');
+      piz.innerHTML = `<div class="tabla-letrero">${casillas}</div><div class="vista"><button class="oir" id="l-oir-sil" aria-label="Escuchar la sílaba">🔊</button><div class="bloque ko">${esc(armada || '·')}</div></div>` +
+        `${armarLec(st, paso)}<button class="btn" id="l-poner" ${st.ini && st.voc ? '' : 'disabled'}>Poner la sílaba</button>`;
+      $('l-oir-sil').addEventListener('click', () => oir(sil[st.i]));
+      piz.querySelectorAll('[data-parte]').forEach((b) => b.addEventListener('click', () => { st[b.dataset.parte] = b.dataset.j; oirLetra(b.dataset.j); pintarLeccion(); }));
+      $('l-poner').addEventListener('click', () => {
+        const meta = sil[st.i], r = R.revisarSilaba(meta, st.ini, st.voc, '', st.intentos);
+        if (!r.ok) { SFX.error(); st.intentos++; st.nota = { clase: 'mal', texto: r.explicacion }; pintarLeccion(); setTimeout(() => oir(meta), 500); return; }
+        SFX.golpe(); oir(meta);
+        st.i++; st.ini = null; st.voc = null; st.intentos = 0;
+        if (st.i >= sil.length) { SFX.letra(); st.nota = { clase: 'bien', texto: `✓ ${paso.palabra} = «${paso.significa}». ¡Leíste tu primera palabra!` }; setTimeout(() => oir(paso.palabra), 700); }
+        else st.nota = { clase: 'bien', texto: `✓ ${meta}. Ahora la sílaba ${st.i + 1}.` };
+        pintarLeccion();
+      });
+      return false;
+    },
+  };
+  // Las vocales con los mismos trazos del armado: la fuente dibuja ㅗ y ㅜ chicas y corridas
+  const TRAZOS_VOCAL = {
+    'ㅣ': [[45, 12, 10, 76]], 'ㅏ': [[45, 12, 10, 76], RAYITA.der], 'ㅓ': [[45, 12, 10, 76], RAYITA.izq],
+    'ㅑ': [[45, 12, 10, 76], [55, 31, 22, 10], [55, 59, 22, 10]], 'ㅕ': [[45, 12, 10, 76], [23, 31, 22, 10], [23, 59, 22, 10]],
+    'ㅡ': [[12, 45, 76, 10]], 'ㅗ': [[12, 45, 76, 10], RAYITA.arriba], 'ㅜ': [[12, 45, 76, 10], RAYITA.abajo],
+    'ㅛ': [[12, 45, 76, 10], [31, 23, 10, 22], [59, 23, 10, 22]], 'ㅠ': [[12, 45, 76, 10], [31, 55, 10, 22], [59, 55, 10, 22]],
+  };
+  const glifoLec = (j, clase) => TRAZOS_VOCAL[j]
+    ? `<svg viewBox="0 0 100 100" role="img" aria-label="${esc(j)}">${TRAZOS_VOCAL[j].map((r) => `<rect class="${clase || 'tinta'}" x="${r[0]}" y="${r[1]}" width="${r[2]}" height="${r[3]}" rx="3"/>`).join('')}</svg>`
+    : esc(j);
+  function trazoSVG(f) {
+    const r = f === 'punto' ? '<circle class="tinta" cx="40" cy="40" r="11"/>' : f === 'ㅡ' ? '<rect class="tinta" x="8" y="34" width="64" height="12" rx="3"/>' : '<rect class="tinta" x="34" y="8" width="12" height="64" rx="3"/>';
+    return `<svg viewBox="0 0 80 80" aria-hidden="true">${r}</svg>`;
+  }
+  // Corte de perfil, mirando a la izquierda: así se ven las formas del 훈민정음
+  // (ㄱ la lengua tapa la garganta, ㄴ la punta toca arriba, ㅁ la boca, ㅅ el diente, ㅇ la garganta)
+  function bocaSVG(j) {
+    // Nariz, labios (juntos solo en ㅁ), mentón y cuello
+    const cara = 'M30 4C28 10 22 16 14 22L26 27C21 29 19 33 21 37C22 39 23 40 25 40.5' + (j === 'ㅁ' ? 'C24 41.5 24 42.5 25 43.5' : 'M25 44') +
+      'C22 45 20 48 22 51C23 53 25 54 26 55C24 60 25 66 30 70C38 74 48 74 56 80C60 86 61 98 62 110';
+    // La lengua: el borde de arriba cambia; el de abajo se apoya siempre en el piso de la boca
+    const lomo = {
+      'ㄱ': 'M33 47C40 44 50 38 60 33C68 29 75 28 79 31C83 35 83 46 82 58',
+      'ㄴ': 'M35 31C33 35 33 39 36 42C44 43 56 41 66 40C74 40 80 45 82 58',
+    }[j] || 'M33 47C40 41 52 37 64 37C73 37 80 42 82 58';
+    const glifo = {
+      'ㄱ': '<path class="bc-glifo" d="M55 25H81V60"/><circle class="bc-marca" cx="78" cy="30" r="3.2"/>',
+      'ㄴ': '<path class="bc-glifo" d="M37 29V45H70"/><circle class="bc-marca" cx="35" cy="31" r="3.2"/>',
+      'ㅁ': '<path class="bc-glifo" d="M12 30H31V55H12Z"/>',
+      'ㅅ': '<path class="bc-glifo" d="M29 26L19 46M27 33L37 46"/>',
+      'ㅇ': '<circle class="bc-glifo" cx="76" cy="92" r="8"/>',
+    }[j] || '';
+    return `<svg viewBox="0 0 100 112" role="img" aria-label="La boca cuando suena ${j}">` +
+      // Paladar: detrás de los dientes, el bordecito (ㄴ), el paladar duro y el blando (ㄱ)
+      '<path class="bc-techo" d="M31 33C33 29 36 28 40 28C50 25 62 24 72 26C79 28 83 32 84 40"/>' +
+      '<path class="bc-linea" d="M90 22C88 50 88 80 91 112"/>' +
+      `<path class="bc-lengua" d="${lomo}C82 66 80 72 76 76C66 74 52 66 42 58C37 54 34 51 33 47Z"/>` +
+      '<path class="bc-diente" d="M27 33H31V40Q29 42 27 40Z"/><path class="bc-diente" d="M28 52H32V45Q30 43 28 45Z"/>' +
+      `<path class="bc-cara" d="${cara}"/>${glifo}</svg>`;
+  }
+
   /* ── Título y arranque ─────────────────────────────────────────────── */
   function pintarElenco() {
     const p = (id, img) => { const c = $(id).getContext('2d'); c.imageSmoothingEnabled = false; c.clearRect(0, 0, 16, 16); c.drawImage(img, 0, 0); };
@@ -1484,7 +1736,7 @@
     modo = 'mapa';
     hud();
     tocarMusica('plaza');
-    if (nueva) prologo(() => { jug.dir = 'derecha'; abrirDialogo(R.elegirDialogo(est, MUNDO, 'hana').lineas, 'hana'); });
+    if (nueva) abrirLeccion({ alTerminar: () => prologo(() => { jug.dir = 'derecha'; abrirDialogo(R.elegirDialogo(est, MUNDO, 'hana').lineas, 'hana'); }) });
     else aviso('¡Bienvenido de vuelta!');
     guardar();
     setTimeout(() => { $('ayuda-teclas').hidden = true; }, 15000);
@@ -1517,7 +1769,7 @@
       if (actx) { try { if (document.hidden) actx.suspend(); else actx.resume(); } catch (e) {} }
     });
     // Para probar: /aventura?prueba=1 deja mirar el estado desde la consola
-    if (/[?&]prueba=1/.test(location.search)) window.__aventura = { get est() { return est; }, get bat() { return bat; }, get modo() { return modo; }, get enemigos() { return enemigos; }, get paso() { return paso; }, get jug() { return jug; }, get mus() { return mus; }, get arm() { return arm; }, duelo: (en) => empezarDuelo(en), mostrarFin, R, cargarMapa: (...a) => cargarMapa(...a), hud, poblarZonas, autoCaminar, destinoGuia, terminarCine, MUNDO };
+    if (/[?&]prueba=1/.test(location.search)) window.__aventura = { get est() { return est; }, get bat() { return bat; }, get modo() { return modo; }, get enemigos() { return enemigos; }, get paso() { return paso; }, get jug() { return jug; }, get mus() { return mus; }, get arm() { return arm; }, get lec() { return lec; }, abrirLeccion: (o) => abrirLeccion(o || {}), duelo: (en) => empezarDuelo(en), mostrarFin, R, cargarMapa: (...a) => cargarMapa(...a), hud, poblarZonas, autoCaminar, destinoGuia, terminarCine, MUNDO };
     requestAnimationFrame(bucle);
   }
   iniciar();

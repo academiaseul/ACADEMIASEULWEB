@@ -89,6 +89,20 @@ La revisión en pantalla de esas mejoras encontró cuatro errores, ya corregidos
 
 Medición con `Juego_RPG/bot_navegador.js` (juega con los mismos botones que un alumno, sin leer ni pensar): primer letrero a los ~11 s de bot. Cuánto se demora una persona que lee no está medido: hay que verlo con un alumno real.
 
+### La lección de 김재희 선생님 (23 nov 2026, pedido de Jay: «como el profesor que le enseña al protagonista al empezar»)
+
+Antes, la partida arrancaba con el robo de las letras y nadie explicaba cómo funciona el 한글: se aprendía a punta de duelos. Ahora, al tocar «Nueva partida», un maestro con 갓 y barba blanca, al estilo de un 훈장 de 서당, recibe al tigre. Jay le puso nombre: **김재희 선생님** (al principio era «훈장님»). Le enseña el sistema en unos 3 minutos, tocando todo:
+
+| Parte | Qué hace el jugador |
+|---|---|
+| Bienvenida | 김재희 선생님 cuenta que el rey 세종 inventó el 한글 en 1443 y la frase de 정인지 («en una mañana… en diez días»). Se puede saltar con «Ya sé leer». |
+| 모음 · Las vocales | Ve los tres trazos (ㆍ cielo, ㅡ tierra, ㅣ persona), pone el punto a cada lado de ㅣ y de ㅡ y salen ㅏ ㅓ ㅗ ㅜ con su sonido; escucha ㅑ ㅕ ㅛ ㅠ ㅡ ㅣ; quiz de 3 (우 fácil primero, después 오 y 어). |
+| 자음 · Las consonantes | Cinco cortes de la boca (ㄱ ㄴ ㅁ ㅅ ㅇ, el 象形 del 해례본) con la letra dibujada encima; familias por trazos (ㄱ→ㅋ, ㄴ→ㄷ→ㅌ, ㅁ→ㅂ→ㅍ, ㅅ→ㅈ→ㅊ, ㅇ→ㅎ); quiz de 2 (마, 카). |
+| 글자 · Sílabas en bloque | Arma dos sílabas libres (la vocal de pie va a la derecha, la acostada abajo) y después 아이, «niño o niña», con la misma revisión de sílabas de los letreros. |
+| Cierre | Le regala el 도감 y lo manda a Gwanghwamun; ahí viene el prólogo del robo. |
+
+Después 김재희 선생님 se queda junto a la estatua (16, 11): al hablarle, abre el repaso con las tres partes. Contenido en `mundo.json` → `leccion` (se corrige sin tocar código); pantalla en `juego.js` (`abrirLeccion`, `PASOS`, `bocaSVG`); prueba en `prueba_motor.js` (cada vocal sale del lado correcto, cada respuesta está en sus opciones y todo lo que suena tiene clip). Se guarda `est.flags.leccion = 'hecha' | 'saltada'`; las partidas viejas siguen igual. Las vocales se dibujan con trazos (SVG) y no con la fuente, porque la fuente pone ㅗ y ㅜ chicas y corridas. Los 5 textos coreanos nuevos tienen clip SunHi y están en el bloque 9 del guion de voz (ahora 45 ítems; el juego dice 150 textos).
+
 ## 3. Arquitectura
 
 Sigue el principio de Tigre 100 (`Juego_100/00_Plan_de_Accion.md` §7): app estática, sin build, motor sin DOM, contenido en JSON, prueba en Node.
@@ -135,7 +149,7 @@ Juego_RPG/
 
 - **Prioridad del negocio:** la matrícula de Básico 1 cierra el lun 9 nov y al 2 nov no se había publicado nada de la campaña. El juego no llena esa clase esta semana; un reel de Jay sí. El juego sirve como pieza para un reel («hice un videojuego para aprender coreano») y como imán desde enero.
 - **Coreano nuevo sin revisar:** los diálogos de los NPC son nuevos. Pasaron una revisión nativa adversarial (ver §7), pero Jay tiene la última palabra.
-- **Audio:** desde el 3 nov todo tiene clip SunHi. El **bloque 9** del guion de voz de Jay los reemplaza por su voz (40 ítems, 7 min; `Juego_Dubu/voz/Guion_Voz_Jay_2nov2026.md`). El juego ya prefiere la voz de Jay cuando el clip existe: lee `public/audio/kr-jay/indice.json` (lo arma `node Juego_RPG/voz/indice_kr_jay.js`) y, si falta un clip, usa SunHi.
+- **Audio:** desde el 3 nov todo tiene clip SunHi. Los **bloques 1, 2, 3, 5 y 9** del guion de voz de Jay los reemplazan por su voz (los 139 textos; el plan de 3 sesiones y 52 min está al inicio de `Juego_Dubu/voz/Guion_Voz_Jay_2nov2026.md`). El juego ya prefiere la voz de Jay cuando el clip existe: lee `public/audio/kr-jay/indice.json` (lo arma `node Juego_RPG/voz/indice_kr_jay.js`) y, si falta un clip, usa SunHi.
 - **Repo público:** todo lo de `public/aventura/` es visible en GitHub. No hay nada privado ahí.
 
 ## 7. Revisión nativa
