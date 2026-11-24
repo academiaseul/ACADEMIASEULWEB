@@ -407,12 +407,21 @@
       if (!est.flags.despedida) { abrirDialogo(MUNDO.despedida, 'jeomwon', cruzar); return; }
       aviso('점원: 안녕히 가세요!'); oir('안녕히 가세요');
     }
+    // En un 식당 se paga en la caja al salir: si falta, 지수 te lo recuerda
+    if (p.pagar && est.mesa.etapa === 'comido') {
+      const r = MUNDO.restaurantes[est.mesa.rest];
+      abrirDialogo([r.escenas.sinPagar].concat(lineasPagar(est.mesa.rest)), r.npc);
+      return;
+    }
+    if (p.pagar && est.mesa.etapa === 'mesa') est.mesa = { etapa: 'fuera' };
     cruzar();
   }
   function fundido(fn) {
     const v = $('velo'); v.classList.add('on'); modo = 'transicion';
     setTimeout(() => { fn(); v.classList.remove('on'); modo = 'mapa'; }, 170);
   }
+  // Los 도깨비 no se paran en una puerta ni en el paradero del bus: taparían la salida
+  const esPuerta = (x, y) => 'DO'.includes(R.baldosa(MUNDO, est.mapa, x, y) || '-');
   function actualizarEnemigo(en, dt) {
     if (en.fijo) return;
     if (en.mov) { en.mov.t += dt; if (en.mov.t >= en.mov.dur) { en.x = en.mov.to.x; en.y = en.mov.to.y; en.mov = null; } return; }
@@ -423,7 +432,7 @@
     if (!quiere) return;
     const mover = (p) => {
       if (p.x === yo.x && p.y === yo.y) { if (en.estado === 'persigue' && !jug.mov) empezarDuelo(en); return true; }
-      if (R.baldosa(MUNDO, est.mapa, p.x, p.y) === 'D' || !libre(p.x, p.y, en)) return false;
+      if (esPuerta(p.x, p.y) || !libre(p.x, p.y, en)) return false;
       en.dir = p.x > en.x ? 'derecha' : p.x < en.x ? 'izquierda' : en.dir;
       en.mov = { from: { x: en.x, y: en.y }, to: { x: p.x, y: p.y }, t: 0, dur: en.estado === 'persigue' ? 240 : 340 };
       return true;
@@ -432,7 +441,7 @@
     // Si el paso directo choca con un árbol o un letrero, rodea el obstáculo (ruta corta)
     if (en.estado === 'persigue' || en.estado === 'vuelve') {
       const meta = en.estado === 'persigue' ? yo : { x: en.casaX, y: en.casaY };
-      const r = R.ruta(MUNDO, est.mapa, en, meta, (x, y) => !(x === meta.x && y === meta.y) && (!!npcEn(x, y) || !!enemigoEn(x, y, en) || R.baldosa(MUNDO, est.mapa, x, y) === 'D'));
+      const r = R.ruta(MUNDO, est.mapa, en, meta, (x, y) => !(x === meta.x && y === meta.y) && (!!npcEn(x, y) || !!enemigoEn(x, y, en) || esPuerta(x, y)));
       if (r && r.length && r.length <= 12) mover(r[0]);
     }
   }
@@ -467,6 +476,14 @@
       const o = Math.floor((t / 160 + i * 5 + j * 3) % 16);
       ctx.fillRect(i * T + o, j * T + 5, 4, 1); ctx.fillRect(i * T + ((o + 8) % 16), j * T + 11, 3, 1);
     }
+    // Granja: lo que crece en cada parcela y la fruta de los árboles (cambian con el reloj)
+    const ahora = Date.now();
+    for (const p of mapa().parcelas || []) {
+      const e = R.etapaParcela(est, MUNDO, p.id, ahora);
+      if (e.cultivo) e.objeto = MUNDO.cultivos[e.cultivo].objeto;
+      S.planta(ctx, p.x * T, p.y * T, e);
+    }
+    for (const a of mapa().arboles || []) if (R.arbolListo(est, MUNDO, a, ahora)) S.frutasArbol(ctx, a.x * T, a.y * T, MUNDO.cultivos[a.fruta].color);
     // Letreros (el tablero; la palabra va en la pasada de texto)
     for (const l of Object.values(MUNDO.letreros)) if (l.mapa === est.mapa) S.tablero(ctx, l.x * T, l.y * T + 1, !!est.letreros[idLetrero(l)] || (cine && cine.l === l && t - cine.t0 < CINE.huye));
     // Personajes, de atrás hacia adelante
@@ -630,8 +647,8 @@
       const e = R.estadoMision(est, MUNDO, mid);
       if (e === 'lista' && m.entrega === id) return '★';
       if (e === 'disponible' && m.da === id && id !== 'jefe') return '!';
-      // Misión que solo pide hablar (la primera): marca a quien hay que saludar
-      if (e === 'activa' && m.entrega === id && m.objetivos.every((o) => o.tipo === 'flag')) return '!';
+      // Un objetivo que pide hablar con alguien (saludar a 하나, el 할아버지, pedir a 지수): lo marca
+      if (e === 'activa' && m.objetivos.some((o, i) => o.npc === id && (est.misiones[mid].prog[i] || 0) < (o.n || 1))) return '!';
     }
     if (id === 'jefe' && R.estadoMision(est, MUNDO, 'q6') === 'activa') return '!';
     return null;
@@ -722,7 +739,9 @@
   /* ── Interactuar ───────────────────────────────────────────────────── */
   function letreroEn(x, y) { return Object.keys(MUNDO.letreros).find((k) => { const l = MUNDO.letreros[k]; return l.mapa === est.mapa && l.x === x && l.y === y; }) || null; }
   function infoEn(x, y) { const i = (mapa().info || []).find((q) => x >= q.x && y >= q.y && x < q.x + (q.w || 1) && y < q.y + (q.h || 1)); return i ? i.id : null; }
-  function interactuableEn(x, y) { return npcEn(x, y) || enemigoEn(x, y) || letreroEn(x, y) || infoEn(x, y) || (R.baldosa(MUNDO, est.mapa, x, y) === 'C'); }
+  const parcelaEn = (x, y) => (mapa().parcelas || []).find((p) => p.x === x && p.y === y) || null;
+  const arbolEn = (x, y) => (mapa().arboles || []).find((a) => a.x === x && a.y === y) || null;
+  function interactuableEn(x, y) { return npcEn(x, y) || enemigoEn(x, y) || letreroEn(x, y) || infoEn(x, y) || parcelaEn(x, y) || arbolEn(x, y) || (R.baldosa(MUNDO, est.mapa, x, y) === 'C'); }
   // Lo que hay para hacer aquí: primero al frente, después a los lados
   function cerca() {
     for (const d of [jug.dir].concat(Object.keys(R.DIRS).filter((q) => q !== jug.dir))) {
@@ -734,6 +753,10 @@
       const l = letreroEn(x, y);
       if (l) return { d, x, y, que: est.letreros[l] ? 'Leer' : 'Armar' };
       if (infoEn(x, y)) return { d, x, y, que: 'Mirar' };
+      const pa = parcelaEn(x, y);
+      if (pa) return { d, x, y, que: { vacia: 'Plantar', seca: 'Regar', creciendo: 'Mirar', lista: 'Cosechar' }[R.etapaParcela(est, MUNDO, pa.id, Date.now()).etapa] };
+      const ar = arbolEn(x, y);
+      if (ar) return { d, x, y, que: R.arbolListo(est, MUNDO, ar, Date.now()) ? 'Cosechar' : 'Mirar' };
     }
     return null;
   }
@@ -749,7 +772,11 @@
     const l = letreroEn(c.x, c.y);
     if (l) { tocarLetrero(l); return; }
     const i = infoEn(c.x, c.y);
-    if (i) abrirDialogo(MUNDO.info[i], null);
+    if (i) { abrirDialogo(MUNDO.info[i], null); return; }
+    const pa = parcelaEn(c.x, c.y);
+    if (pa) { tocarParcela(pa); return; }
+    const ar = arbolEn(c.x, c.y);
+    if (ar) tocarArbol(ar);
   }
   // El botón ✋ solo aparece cuando hay algo que hacer, y dice qué
   let relojA = 0;
@@ -783,6 +810,8 @@
   }
   function hablar(n) {
     if (n.mov) return;
+    const rest = Object.keys(MUNDO.restaurantes || {}).find((k) => MUNDO.restaurantes[k].npc === n.id);
+    if (rest) { atender(rest); return; }
     const d = R.elegirDialogo(est, MUNDO, n.id);
     if (!d) return;
     if (n.x !== jug.x && MUNDO.npcs[n.id].sprite.tipo === 'perro') n.dir = jug.x < n.x ? 'izquierda' : 'derecha';
@@ -869,6 +898,10 @@
     if (a.tienda) dlg.despues.push(() => abrirTienda(a.tienda));
     if (a.duelo) dlg.despues.push(() => empezarDuelo({ tipo: a.duelo, jefe: true }));
     if (a.leccion) dlg.despues.push(() => abrirLeccion({ repaso: true }));
+    if (a.pagarMesa) {
+      const p = R.pagarMesa(est, MUNDO);
+      if (p.ok) { SFX.moneda(); aviso(`-${R.fmtWon(p.plato.precio)}`, 'oro'); avisarEventos(p.eventos); }
+    }
     if (r.completadas.some((c) => c.mision === 'q6')) dlg.despues.push(() => setTimeout(mostrarFin, 400));
     hud(); guardar();
   }
@@ -1270,6 +1303,154 @@
     hud(); guardar();
   }
 
+  /* ── Una pregunta con opciones dentro de la tarjeta (restaurante y granja) ── */
+  // La mala explica y queda tachada; la buena muestra por qué y aparece «Seguir».
+  function eligeEnCapa(cab, e, alAcertar, alCerrar, alFallar) {
+    abrirCapa(`${alCerrar ? '<button class="cerrar" aria-label="Volver">✕</button>' : ''}${cab}<p class="sub" style="margin:6px 0 8px"><b>${esc(e.pregunta)}</b></p><div class="opciones" id="c-ops"></div><div class="nota" id="c-nota" hidden></div>`, alCerrar);
+    const cont = $('c-ops');
+    R.barajar(e.opciones, rnd).forEach((o) => {
+      const b = document.createElement('button');
+      b.className = 'op'; b.innerHTML = `<span class="ko">${esc(o.ko)}</span>`;
+      b.addEventListener('click', () => {
+        oir(o.ko);
+        const nota = $('c-nota'); nota.hidden = false;
+        b.innerHTML = `<span class="ko">${esc(o.ko)}</span><small>${esc(o.es || '')}</small>`;
+        if (!o.ok) { SFX.error(); b.classList.add('mal'); b.disabled = true; nota.className = 'nota mal'; nota.textContent = o.porque; if (alFallar) alFallar(o); return; }
+        SFX.golpe(); b.classList.add('bien');
+        [...cont.children].forEach((x) => { x.disabled = true; });
+        nota.className = 'nota bien'; nota.textContent = o.dice;
+        const s = document.createElement('button');
+        s.className = 'btn ancho'; s.id = 'c-seguir'; s.style.marginTop = '12px'; s.textContent = 'Seguir ▶';
+        s.addEventListener('click', alAcertar);
+        $('tarjeta').appendChild(s); s.focus();
+      });
+      cont.appendChild(b);
+    });
+  }
+  // Fila de la carta o de las semillas: el 🔊 va junto al nombre, así el texto usa todo el ancho
+  const filaConOido = (img, ko, es, desc) => `<img alt="" src="${img}"><div class="txt"><div class="con-oido"><b class="ko">${esc(ko)}</b><button class="oir chico" data-oir="${esc(ko)}" aria-label="Escuchar ${esc(ko)}">🔊</button></div><span class="es">${esc(es)}</span><small>${esc(desc)}</small></div>`;
+  const grandes = {};
+  const iconoGrande = (id) => grandes[id] || (grandes[id] = S.aURL(S.objeto(id), 8));
+
+  /* ── 식당: sentarse, pedir, comer y pagar en coreano ─────────────────── */
+  // est.mesa va de «fuera» a «mesa» (sentado) a «comido» (falta pagar). Las frases salen de
+  // MUNDO.restaurantes; se paga al final, en la caja, como en Corea.
+  function atender(rid) {
+    const r = MUNDO.restaurantes[rid];
+    if (est.mesa.etapa === 'comido') { abrirDialogo(lineasPagar(rid), r.npc); return; }
+    if (est.mesa.etapa === 'mesa') { abrirMenu(rid); return; }
+    abrirDialogo(r.escenas.entrar, r.npc, () => {
+      est.mesa = { etapa: 'mesa', rest: rid };
+      fundido(() => cargarMapa(est.mapa, r.mesa.x, r.mesa.y, r.mesa.dir));
+      setTimeout(() => abrirMenu(rid), 220);
+    });
+  }
+  function abrirMenu(rid) {
+    const r = MUNDO.restaurantes[rid], barato = Math.min(...r.platos.map((p) => p.precio));
+    const filas = r.platos.map((p) => `<div class="fila-obj">${filaConOido(iconoObjeto(p.id), p.nombre, p.es, p.desc)}<button class="btn" data-plato="${p.id}" ${est.won >= p.precio ? '' : 'disabled'}>${esc(R.fmtWon(p.precio))}</button></div>`).join('');
+    abrirCapa(`<button class="cerrar" aria-label="Dejar para después">✕</button><h2><span class="ko">메뉴판</span> · la carta</h2><p class="sub">${esc(r.nombre)} · tienes <b>${esc(R.fmtWon(est.won))}</b>. ` +
+      `${est.won < barato ? 'No te alcanza para ningún plato: gana duelos para juntar 원.' : 'Escucha cada plato y elige uno. Se paga al salir.'}</p>${filas}`);
+    $('tarjeta').querySelectorAll('[data-oir]').forEach((b) => b.addEventListener('click', () => oir(b.dataset.oir)));
+    $('tarjeta').querySelectorAll('[data-plato]').forEach((b) => b.addEventListener('click', () => pedirPlato(rid, b.dataset.plato)));
+  }
+  function pedirPlato(rid, pid) {
+    const r = MUNDO.restaurantes[rid], E = r.escenas, p = r.platos.find((x) => x.id === pid);
+    const cab = `<div class="mesa-cab"><img alt="" src="${iconoObjeto(p.id)}"><div><b class="ko">${esc(p.nombre)}</b><small>${esc(p.es)} · ${esc(R.fmtWon(p.precio))}</small></div></div>`;
+    const pedido = { pregunta: `${nombreNPC(r.npc)} se acerca. ¿Cómo pides ${p.nombre}?`, opciones: [
+      { ko: `${p.nombre} 주세요.`, es: `${p.nombre}, por favor.`, ok: true, dice: `¡Eso! 주세요 = «deme, por favor». En el restaurante también se pide con la cantidad: ${p.nombre} 하나 주세요.` },
+      { ko: `${R.conEs(p.nombre)}.`, es: `Es ${p.esUn}.`, porque: `Eso significa «es ${p.esUn}»: describe, no pide. Para pedir: ${p.nombre} 주세요.` },
+      { ko: '안녕히 계세요.', es: 'Adiós (a quien se queda).', porque: `Eso es para irte. Para pedir: ${p.nombre} 주세요.` },
+    ] };
+    eligeEnCapa(cab, E.llamar, () => eligeEnCapa(cab, pedido, () => servir(rid, p), () => abrirMenu(rid)), () => abrirMenu(rid));
+  }
+  function servir(rid, p) {
+    const r = MUNDO.restaurantes[rid], E = r.escenas;
+    abrirCapa(`<h2 class="ko">${esc(nombreNPC(r.npc))}: ${esc(E.esperar.ko)}</h2><p class="sub">${esc(E.esperar.es)}</p><div class="plato-grande esperando"><span>🍳</span></div>`);
+    oir(E.esperar.ko);
+    setTimeout(() => {
+      if (modo !== 'capa') return;
+      SFX.toque(); oir(E.servir.ko);
+      const cab = `<div class="plato-grande"><img alt="${esc(p.nombre)}" src="${iconoGrande(p.id)}"></div><p class="sub" style="text-align:center;margin:0"><b class="ko">${esc(nombreNPC(r.npc))}: ${esc(E.servir.ko)}</b> ${esc(E.servir.es)}</p>`;
+      eligeEnCapa(cab, E.antes, () => comer(rid, p));
+    }, 1500);
+  }
+  function comer(rid, p) {
+    const E = MUNDO.restaurantes[rid].escenas, res = R.comerEnMesa(est, MUNDO, rid, p.id);
+    if (!res.ok) { aviso(res.msg, 'oro'); cerrarCapa(); return; }
+    abrirCapa(`<div class="plato-grande comiendo"><img alt="${esc(p.nombre)}" src="${iconoGrande(p.id)}"></div><p class="sub" style="text-align:center"><b class="ko">냠냠…</b> +${res.curo} 기운</p>`);
+    SFX.moneda(); hud(); guardar();
+    setTimeout(() => {
+      if (modo !== 'capa') return;
+      eligeEnCapa(`<div class="plato-grande"><img alt="" src="${iconoGrande(p.id)}" style="opacity:.35"></div>`, E.despues, () => { cerrarCapa(); avisarEventos(res.eventos); hud(); });
+    }, 1100);
+  }
+  // Pagar en la caja: 얼마예요? → el precio en coreano → 잘 먹었습니다
+  function lineasPagar(rid) {
+    const r = MUNDO.restaurantes[rid], E = r.escenas, p = r.platos.find((x) => x.id === est.mesa.plato);
+    return [
+      { elige: E.pagar },
+      { quien: r.npc, ko: `${R.conEs(p.leer)}.`, es: `Son ${R.fmtWon(p.precio)}. ${p.desglose} Los precios se dicen con los números sino-coreanos.`, accion: { pagarMesa: true } },
+      { elige: E.salir },
+      { quien: r.npc, ko: E.chau.ko, es: E.chau.es },
+    ];
+  }
+
+  /* ── Granja: plantar, regar y cosechar contestando 이게 뭐예요? ────────── */
+  function tocarParcela(pa) {
+    const e = R.etapaParcela(est, MUNDO, pa.id, Date.now()), c = e.cultivo && MUNDO.cultivos[e.cultivo];
+    if (e.etapa === 'vacia') { elegirCultivo(pa); return; }
+    if (e.etapa === 'seca') {
+      R.regar(est, pa.id, Date.now()); guardar();
+      SFX.toque(); oir('물을 줘요');
+      chispas(pa.x * T + 8, pa.y * T + 6, 14, ['#bfe3fb', '#4f9fe0', '#ffffff'], 0.05);
+      aviso(`물을 줘요: le das agua al ${c.nombre}. Ahora crece solo.`);
+      return;
+    }
+    if (e.etapa === 'creciendo') { oir(c.nombre); aviso(`${c.nombre} (${c.es}) está creciendo: falta${Math.ceil(e.falta / 1000) === 1 ? '' : 'n'} ${Math.ceil(e.falta / 1000)} s.`); return; }
+    cosechaQuiz(e.cultivo, { parcela: pa.id });
+  }
+  function tocarArbol(ar) {
+    const c = MUNDO.cultivos[ar.fruta];
+    if (R.arbolListo(est, MUNDO, ar, Date.now())) { cosechaQuiz(ar.fruta, { arbol: ar.id }); return; }
+    const falta = Math.ceil((c.crece - (Date.now() - est.granja.arboles[ar.id])) / 1000);
+    oir(c.nombre); aviso(`Este árbol de ${c.nombre} (${c.es}) vuelve a dar fruta en ${falta} s.`);
+  }
+  function elegirCultivo(pa) {
+    const ids = Object.keys(MUNDO.cultivos).filter((k) => MUNDO.cultivos[k].donde === 'parcela');
+    const filas = ids.map((k) => { const c = MUNDO.cultivos[k]; return `<div class="fila-obj">${filaConOido(iconoObjeto(c.objeto), c.nombre, c.es, `Lista en unos ${Math.round(c.crece / 1000)} s si la riegas.`)}<button class="btn" data-cultivo="${k}">Plantar</button></div>`; }).join('');
+    abrirCapa(`<button class="cerrar" aria-label="Volver">✕</button><h2>¿Qué plantas?</h2><p class="sub">En el <b class="ko">비닐하우스</b> (invernadero) crecen frutas de verano aunque sea otoño. Después riégala: <b class="ko">물을 줘요</b>.</p>${filas}`);
+    $('tarjeta').querySelectorAll('[data-oir]').forEach((b) => b.addEventListener('click', () => oir(b.dataset.oir)));
+    $('tarjeta').querySelectorAll('[data-cultivo]').forEach((b) => b.addEventListener('click', () => {
+      const c = MUNDO.cultivos[b.dataset.cultivo];
+      if (!R.plantar(est, MUNDO, pa.id, b.dataset.cultivo)) return;
+      SFX.toque(); oir(c.nombre); cerrarCapa();
+      aviso(`Plantaste ${c.nombre}. Ahora riégala: 물을 줘요.`);
+    }));
+  }
+  function cosechaQuiz(cid, donde) {
+    const c = MUNDO.cultivos[cid], fin = R.decompose(Array.from(c.nombre).pop())[2];
+    const otras = R.barajar(Object.keys(MUNDO.cultivos).filter((k) => k !== cid), rnd).slice(0, 2);
+    const opciones = [cid].concat(otras).map((k) => {
+      const o = MUNDO.cultivos[k];
+      return k === cid
+        ? { ko: R.conEs(o.nombre), es: `Es ${o.esUn}.`, ok: true, dice: `${R.conEs(o.nombre)} = «es ${o.esUn}». ${o.nombre} ${fin ? 'termina con 받침 (consonante abajo): por eso va 이에요' : 'no tiene 받침: por eso va 예요'}.` }
+        : { ko: R.conEs(o.nombre), es: `Es ${o.esUn}.`, porque: `${R.conEs(o.nombre)} = «es ${o.esUn}». Mira bien la fruta y escucha cómo se llama.` };
+    });
+    const cab = `<div class="plato-grande"><img alt="Una fruta" src="${iconoGrande(c.objeto)}"></div><p class="sub" style="text-align:center;margin:0"><b class="ko">이게 뭐예요?</b> ¿Qué es esto?</p>`;
+    oir('이게 뭐예요?');
+    eligeEnCapa(cab, { pregunta: 'Contéstale al 할아버지:', opciones }, () => {
+      const r = R.cosechar(est, MUNDO, cid, donde, Date.now());
+      SFX.letra(); hud(); guardar();
+      const lugar = donde.arbol ? mapa().arboles.find((a) => a.id === donde.arbol) : mapa().parcelas.find((p) => p.id === donde.parcela);
+      if (lugar) chispas(lugar.x * T + 8, lugar.y * T + 4, 16, ['#ffe08a', c.color || '#9fd36a', '#ffffff'], 0.06);
+      if (!r.nueva) { cerrarCapa(); aviso(`+1 ${c.nombre} (${c.es}) a la mochila`); avisarEventos(r.eventos); return; }
+      abrirCapa(`<h2>¡Fruta nueva!</h2><div class="fin-dicho"><div class="ko">${esc(c.nombre)}</div><div>${esc(c.es)}</div></div><p class="sub">${esc(c.dato)}</p><button class="btn ancho" id="g-listo">Seguir</button>`);
+      oir(c.nombre);
+      $('g-listo').addEventListener('click', () => { cerrarCapa(); avisarEventos(r.eventos); });
+      $('g-listo').focus();
+    }, () => cerrarCapa(), () => setTimeout(() => oir(c.nombre), 900));
+  }
+
   /* ── Panel: misiones, mochila, letras, ajustes ─────────────────────── */
   let pestana = 'misiones';
   $('btn-misiones').addEventListener('click', () => { if (modo === 'mapa') abrirPanel('misiones'); });
@@ -1330,7 +1511,13 @@
       const audio = q.audio ? `<button class="oir" data-oir="${esc(q.audio)}" aria-label="Escuchar">🔊</button>` : '';
       return `<div class="repasar"><b class="ko">${esc(q.respuesta)}</b><small>${esc(q.explicacion)}</small>${audio}</div>`;
     };
+    // Lo que probaste en el 식당 y lo que cosechaste en la granja, para volver a oírlo
+    const platos = Object.values(MUNDO.restaurantes || {}).flatMap((r) => r.platos).filter((p) => est.comidas[p.id]);
+    const frutas = Object.values(MUNDO.cultivos || {}).filter((c) => est.granja.frutas[Object.keys(MUNDO.cultivos).find((k) => MUNDO.cultivos[k] === c)]);
+    const botones = (l) => `<div class="palabras">${l.map((x) => `<button class="ko" data-oir="${esc(x.nombre)}">${esc(x.nombre)}<small>${esc(x.es)}</small></button>`).join('')}</div>`;
     return (palabras.length ? titulo('PALABRAS QUE YA LEES') + `<div class="palabras">${palabras.map((l) => `<button class="ko" data-oir="${esc(l.palabra)}">${esc(l.palabra)}<small>${esc(l.es)}</small></button>`).join('')}</div>` : '') +
+      (platos.length ? titulo('COMIDAS QUE PROBASTE') + botones(platos) : '') +
+      (frutas.length ? titulo('FRUTAS QUE COSECHASTE') + botones(frutas) : '') +
       (dificiles.length ? titulo('LO QUE MÁS TE HA COSTADO') + dificiles.map(fila).join('') : '');
   }
   function panelAjustes(el) {

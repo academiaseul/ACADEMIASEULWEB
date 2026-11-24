@@ -35,6 +35,28 @@ for (const l of Object.values(MUNDO.letreros)) { add(l.palabra, 'letreros', { es
 for (const j of R.CHO + R.JUNG) add(R.silabaDeLetra(j), 'letras');
 // 5) Duelos: el audio de cada pregunta
 for (const q of BANCO) if (q.audio) add(q.audio, 'duelos');
+// 7) El 식당: lo que dice 지수, lo que elige el tigre y cada plato (nombre, 주세요, «es N», precio)
+for (const r of Object.values(MUNDO.restaurantes || {})) {
+  const quien = MUNDO.npcs[r.npc].nombre;
+  for (const e of Object.values(r.escenas)) for (const l of [].concat(e)) {
+    if (l.ko) add(l.ko, 'restaurante', { quien, es: l.es });
+    const el = l.elige || (l.opciones ? l : null);
+    if (el) for (const o of el.opciones) add(o.ko, 'restaurante', { quien: 'tigre (opción)', es: o.es });
+  }
+  for (const p of r.platos) {
+    add(p.nombre, 'restaurante', { es: p.es });
+    add(`${p.nombre} 주세요.`, 'restaurante', { quien: 'tigre (opción)', es: `${p.nombre}, por favor` });
+    add(R.conEs(p.nombre), 'restaurante', { quien: 'tigre (opción)', es: `es ${p.esUn}` });
+    add(`${R.conEs(p.leer)}.`, 'restaurante', { quien, es: `son ${p.precio} wones` });
+  }
+}
+// 8) La granja: cada fruta, «es N», regar y la pregunta de la cosecha
+for (const c of Object.values(MUNDO.cultivos || {})) {
+  add(c.nombre, 'granja', { es: c.es });
+  add(R.conEs(c.nombre), 'granja', { quien: 'tigre (opción)', es: `es ${c.esUn}` });
+}
+add('물을 줘요', 'granja', { es: 'le doy agua' });
+add('이게 뭐예요?', 'granja', { quien: '할아버지', es: '¿qué es esto?' });
 // 6) La lección de 김재희 선생님: lo que dice y lo que suena en la pizarra
 const LEC = MUNDO.leccion;
 for (const l of LEC.intro.concat(LEC.final)) if (l.ko) add(l.ko, 'lección', { quien: '김재희 선생님', es: l.es });

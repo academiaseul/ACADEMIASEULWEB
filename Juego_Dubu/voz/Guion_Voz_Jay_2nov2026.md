@@ -5,18 +5,18 @@
 - **Bloques 1 a 6 = los imprescindibles: 358 ítems, 45 minutos de grabación.** Cubren Dubu entero, la parte del Lector que el alumno toca el primer día, las 127 palabras de Básico 1 que faltan y las 23 frases clave del curso de Kiran.
 - **Si solo alcanzas 10 minutos: graba el bloque 1 y nada más.** Es el único que enciende algo visible el mismo día.
 - Bloques 7 y 8 son opcionales y están al final, con la recomendación honesta de cada uno.
-- **Bloque 9: el RPG 호랑이의 모험 · La aventura del Tigre (`/aventura`).** El juego dice 150 textos distintos: 105 están en los bloques 1, 2, 3 y 5, y el bloque 9 trae los otros 45 (**8 minutos**). Para que todo el juego suene con tu voz hacen falta los **bloques 1, 2, 3, 5 y 9**.
+- **Bloque 9: el RPG 호랑이의 모험 · La aventura del Tigre (`/aventura`).** El juego dice 201 textos distintos: 110 están en los bloques 1, 2, 3, 5 y 6, el bloque 9 trae 45 (**8 minutos**) y el bloque 10, el del 식당 y la granja, 46 (**7 minutos**; 3 se repiten con el bloque 8, que no entra en el plan).
 - Ningún texto se repite entre bloques: están deduplicados en cascada (salvo 5 sílabas del bloque 7 que el juego necesita y que repito en el 9, porque el 7 es el que recomiendo no grabar).
 
-## El plan: 3 sesiones, 53 minutos
+## El plan: 3 sesiones, 60 minutos
 
 Graba una sesión por día como máximo, y antes de dar clase, no después: la voz cansada se nota (el miércoles tienes Básico 2 a las 21:00).
 
 | Sesión | Cuándo | Graba | Ítems | Minutos | Qué deja listo |
 |---|---|---|---|---|---|
-| 1 | día 1 | Bloque 1 y bloque 9, con su parte dos | 143 | 18 | Dubu completo y 116 de los 150 textos del juego, con la lección de 김재희 선생님 |
-| 2 | día 2 | Bloques 2, 3 y 4 | 110 | 15 | El Lector del primer día y los números; el juego llega a 129 |
-| 3 | día 3 | Bloques 5 y 6 | 150 | 20 | El vocabulario y las frases de Básico 1; el juego llega a 150 de 150 |
+| 1 | día 1 | Bloques 1, 9 (con su parte dos) y 10 | 189 | 25 | Dubu completo y 162 de los 201 textos del juego: la lección, el 식당 y la granja |
+| 2 | día 2 | Bloques 2, 3 y 4 | 110 | 15 | El Lector del primer día y los números; el juego llega a 177 |
+| 3 | día 3 | Bloques 5 y 6 | 150 | 20 | El vocabulario y las frases de Básico 1; el juego llega a 201 de 201 |
 
 - **Tu voz entra al juego cuando termines las 3 sesiones.** 안녕하세요, 감사합니다 y otros 19 textos del juego están en el bloque 5; si la subo antes, en una misma escena se mezclarían tu voz y SunHi. Dubu sí puede subir después de la sesión 1.
 - **Al terminar cada sesión,** pasa los archivos a este PC, a `_privado/voz_jay/`, por cable o por Drive. No uses WhatsApp, porque comprime el audio. Esa carpeta queda fuera de git.
@@ -788,6 +788,63 @@ parte dos
 ```
 
 Los textos van tal cual los busca el juego (sin el signo final: el juego quita la puntuación del final antes de buscar el clip). La lista se arma con `node Juego_RPG/voz/textos_aventura.js`, que cruza lo que dice el juego con este guion y con los clips SunHi.
+
+## Bloque 10 · El 식당 de 도윤 y la granja del 할아버지 (el RPG)
+
+**46 ítems · 7 minutos.** (라면이에요, 불고기예요 y 사과예요 también están en el bloque 8, que no entra en el plan.) Lo nuevo del 23 de noviembre: pedir comida en el restaurante (지수 atiende; se llama con 저기요, se pide con 주세요 y se paga al salir) y la granja (plantar, regar y cosechar contestando 이게 뭐예요?). Todo está revisado por un revisor nativo.
+
+**Cómo leerlo:** Di «bloque diez». Primero el 식당: lo de 지수 con voz amable de quien atiende (어서 오세요, 이쪽으로 앉으세요, los precios), y lo del tigre como un cliente educado. Los platos, como en clase; 맛없어요 y 배고파요 son respuestas equivocadas del juego: léelas neutras. Los precios con calma y bien separados (만 이천 원이에요). Después di «granja»: 어서 와 con voz de abuelo cariñoso, las frutas como en clase y cada «es N» (사과예요, 감이에요) como quien contesta una pregunta. 물을 줘요 = «le doy agua» a las plantas.
+
+```
+bloque diez
+어서 오세요! 몇 분이세요
+한 명이요
+하나예요
+이쪽으로 앉으세요
+네, 알겠습니다. 잠시만 기다려 주세요
+맛있게 드세요
+잘 먹겠습니다
+잘 먹었습니다
+맛있어요
+맛없어요
+배고파요
+얼마예요
+뭐예요
+어디예요
+감사합니다. 안녕히 가세요
+김밥
+사천 원이에요
+라면 주세요
+라면이에요
+오천 원이에요
+떡볶이
+떡볶이 주세요
+떡볶이예요
+김치찌개
+김치찌개 주세요
+김치찌개예요
+구천 원이에요
+비빔밥
+비빔밥 주세요
+비빔밥이에요
+만 원이에요
+불고기 주세요
+불고기예요
+만 이천 원이에요
+granja
+어서 와
+사과예요
+배예요
+감
+감이에요
+수박
+수박이에요
+참외
+참외예요
+포도
+포도예요
+물을 줘요
+```
 
 ## Qué hago yo cuando me mandes los archivos
 

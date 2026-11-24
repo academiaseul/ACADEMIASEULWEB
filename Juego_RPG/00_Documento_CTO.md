@@ -103,6 +103,10 @@ Antes, la partida arrancaba con el robo de las letras y nadie explicaba cómo fu
 
 Después 김재희 선생님 se queda junto a la estatua (16, 11): al hablarle, abre el repaso con las tres partes. Contenido en `mundo.json` → `leccion` (se corrige sin tocar código); pantalla en `juego.js` (`abrirLeccion`, `PASOS`, `bocaSVG`); prueba en `prueba_motor.js` (cada vocal sale del lado correcto, cada respuesta está en sus opciones y todo lo que suena tiene clip). Se guarda `est.flags.leccion = 'hecha' | 'saltada'`; las partidas viejas siguen igual. Las vocales se dibujan con trazos (SVG) y no con la fuente, porque la fuente pone ㅗ y ㅜ chicas y corridas. Los 5 textos coreanos nuevos tienen clip SunHi y están en el bloque 9 del guion de voz (ahora 45 ítems; el juego dice 150 textos).
 
+### El 식당 y la granja (23 nov 2026, pedido de Jay)
+
+Dos misiones opcionales, que no cortan el camino al jefe. **7 · Una mesa en el 식당 de 도윤** (después de la 4): se entra por la puerta del restaurante y 지수 atiende; cada paso es una elección en coreano con explicación (한 명이요 → 저기요 → N 주세요 → 잘 먹겠습니다 → 맛있어요 → 얼마예요? → el precio en sino-coreano → 잘 먹었습니다), y se paga al salir: si te vas sin pagar, 지수 te frena. **8 · La granja del 할아버지** (después de la 3): bus desde el 정류장 al este del mercado; en el 과수원, 사과, 배, 감 y 포도 vuelven a dar fruta cada 90 s; en el 비닐하우스 se planta 수박 o 참외, se riega (물을 줘요) y crece con el reloj real, aunque cierres el juego. Al cosechar, 이게 뭐예요? y se contesta con 예요/이에요 según el 받침. Lo probado y lo cosechado aparece en Letras con su audio. Motor: `comerEnMesa`, `pagarMesa`, `etapaParcela`, `plantar`, `regar`, `arbolListo`, `cosechar`, `dondeGranja`; datos en `mundo.json` (`restaurantes`, `cultivos`, mapas `sikdang` y `nongjang`).
+
 ## 3. Arquitectura
 
 Sigue el principio de Tigre 100 (`Juego_100/00_Plan_de_Accion.md` §7): app estática, sin build, motor sin DOM, contenido en JSON, prueba en Node.

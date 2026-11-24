@@ -80,9 +80,21 @@
     mul: ['................', '.......KK.......', '......KbbK......', '......KKKK......', '.....KllllK.....', '....KllllllK....', '....KllllllK....', '....KbbbbbbK....', '....KbwwwwbK....', '....KbbbbbbK....', '....KllllllK....', '....KllllllK....', '....KKKKKKKK....', '................', '................', '................'],
     buchae: ['................', '................', '................', '....KKKKKKKK....', '..KKbybybybyKK..', '.KbybybybybybK..', '.KybybybybybyK..', '..KybybybybyK...', '...KybybybyK....', '....KybybyK.....', '.....KybyK......', '......KmK.......', '......KmK.......', '.......K........', '................', '................'],
     yeonpil: ['................', '................', '................', '................', '................', '................', '...KKKKKKKKKK...', '..KlKyyyyyyyKtK.', '..KlKYYYYYYYKttK', '..KlKyyyyyyyKtK.', '...KKKKKKKKKK...', '................', '................', '................', '................', '................'],
+    ramyeon: ['................', '................', '................', '................', '...KKKKKKKKKK...', '..KoyoyyoyoyoK..', '..KyoywwyoyyoK..', '..KoyywyyoyooK..', '..KKKKKKKKKKKK..', '...KbbbbbbbbK...', '....KbwbwbwK....', '.....KbbbbK.....', '......KKKK......', '................', '................', '................'],
+    tteokbokki: ['................', '................', '................', '................', '................', '...KKKKKKKKKK...', '..KowwoowwwooK..', '..KoowwgowwooK..', '..KgowwoowwgoK..', '..KKKKKKKKKKKK..', '.KllllllllllllK.', '..KKKKKKKKKKKK..', '................', '................', '................', '................'],
+    kimchijjigae: ['................', '................', '.....w...w......', '......w...w.....', '..KKKKKKKKKKKK..', '..KoowoogooowK..', '..KogoowwoogoK..', '.KdKKKKKKKKKKdK.', '..KddddddddddK..', '..KddddddddddK..', '...KddddddddK...', '....KKKKKKKK....', '................', '................', '................', '................'],
+    bibimbap: ['................', '................', '................', '................', '...KKKKKKKKKK...', '..KggoowwnnggK..', '..KgooowyywnnK..', '..KoogwwyywngK..', '..KKKKKKKKKKKK..', '...KddddddddK...', '....KddddddK....', '.....KKKKKK.....', '................', '................', '................', '................'],
+    bulgogi: ['................', '................', '................', '................', '................', '...KKKKKKKKKK...', '..KnnNnngnNnnK..', '..KnNnwnnNngnK..', '..KgnnNnwnnNnK..', '..KKKKKKKKKKKK..', '.KllllllllllllK.', '..KKKKKKKKKKKK..', '................', '................', '................', '................'],
+    sagwa: ['................', '................', '.......mG.......', '.......mGG......', '.....KKKKKK.....', '....KaaaaaaK....', '...KaawaaaaaK...', '...KawaaaaaaK...', '...KaaaaaaaAK...', '...KaaaaaaaAK...', '...KAaaaaaAAK...', '....KAaaaAAK....', '.....KKKKKK.....', '................', '................', '................'],
+    bae: ['................', '................', '................', '........m.......', '.....KKKKKK.....', '....KeeeeeeK....', '...KeeweeeeeK...', '...KewEeeeEeK...', '...KeeeeeEeEK...', '...KeEeeeeeEK...', '...KEeeeeeEEK...', '....KEEeeEEK....', '.....KKKKKK.....', '................', '................', '................'],
+    gam: ['................', '................', '................', '................', '......GGGG......', '....KKGGGGKK....', '...KooGooGooK...', '..KoowoooooooK..', '..KowooooooooK..', '..KooooooooqqK..', '...KqoooooqqK...', '....KKKKKKKK....', '................', '................', '................', '................'],
+    subak: ['................', '................', '.......mm.......', '.....KKKKKK.....', '...KKgGgGgGKK...', '..KgGGgGGgGGgK..', '.KGgGGgGGgGGgGK.', '.KgGGgGGgGGgGGK.', '.KGgGGgGGgGGgGK.', '..KGgGGgGGgGGK..', '...KKGgGGgGKK...', '.....KKKKKK.....', '................', '................', '................', '................'],
+    chamoe: ['................', '................', '................', '................', '.......mG.......', '....KKKKKKKK....', '..KKywyywyywKK..', '.KyywyywyywyyyK.', '.KYywyywyywyyYK.', '..KKYwYYwYYwKK..', '....KKKKKKKK....', '................', '................', '................', '................', '................'],
+    podo: ['................', '................', '.......mGG......', '.....KKmKK......', '....KpPKpPK.....', '...KpPpKpPpK....', '...KppKpPKppK...', '....KpPpKpPpK...', '....KppKpPKpK...', '.....KpPpKpK....', '......KppKK.....', '.......KK.......', '................', '................', '................', '................'],
     usan: ['................', '................', '.......KK.......', '.....KKbbKK.....', '...KKbbBBbbKK...', '..KbbBBbbBBbbK..', '.KbbBBbbbbBBbbK.', '.KKKKKKKKKKKKKK.', '.......Km.......', '.......Km.......', '.......Km.......', '.......Km.......', '.....Km.Km......', '......KmmK......', '................', '................'],
   };
-  const PAL_OBJ = { K, k: '#1f2b24', w: '#ffffff', y: '#f2c94c', Y: '#d9a92e', g: '#3f9f50', o: '#f08a3c', b: '#4236F6', B: '#2d23c9', l: '#bfe3fb', m: '#8a5a30', t: '#e8c99a' };
+  const PAL_OBJ = { K, k: '#1f2b24', w: '#ffffff', y: '#f2c94c', Y: '#d9a92e', g: '#3f9f50', o: '#f08a3c', b: '#4236F6', B: '#2d23c9', l: '#bfe3fb', m: '#8a5a30', t: '#e8c99a',
+    n: '#7a4a2a', N: '#5a3418', d: '#3a3040', p: '#6b4fb0', P: '#9a82d8', G: '#2f7340', a: '#9fd36a', A: '#78b04a', e: '#e3c07a', E: '#b8914a', q: '#d06f2a' };
 
   /* ── Pintar sprites (con caché) ─────────────────────────────────────── */
   const cache = new Map();
@@ -308,6 +320,37 @@
           c.fillRect(px + 1 + k * 4, py + 9, 3, 5);
         }
         break;
+      case 'M':
+        suelo(c, '-', px, py, x, y);
+        c.fillStyle = '#6b4a2e'; c.fillRect(px + 1, py + 3, 14, 12);
+        c.fillStyle = '#a8784a'; c.fillRect(px + 1, py + 3, 14, 10);
+        c.fillStyle = '#c99560'; c.fillRect(px + 1, py + 3, 14, 2);
+        c.fillStyle = '#ffffff'; c.fillRect(px + 5, py + 7, 3, 2);
+        c.fillStyle = '#8a8fa8'; c.fillRect(px + 10, py + 6, 1, 5); c.fillRect(px + 12, py + 6, 1, 5);
+        break;
+      case 'P':
+        suelo(c, sueloVecino(filas, x, y), px, py, x, y);
+        c.fillStyle = '#6b4a2e'; c.fillRect(px + 1, py + 1, 14, 14);
+        c.fillStyle = '#8a5f37'; c.fillRect(px + 2, py + 2, 12, 12);
+        c.fillStyle = '#6b4a2e'; for (let k = 0; k < 3; k++) c.fillRect(px + 2, py + 4 + k * 4, 12, 1);
+        break;
+      case 'Q': {
+        suelo(c, sueloVecino(filas, x, y), px, py, x, y);
+        c.fillStyle = 'rgba(0,0,0,.18)'; c.fillRect(px + 2, py + 13, 12, 2);
+        c.fillStyle = '#7a5230'; c.fillRect(px + 6, py + 10, 4, 5);
+        c.fillStyle = '#2f7340'; circulo(c, px + 8, py + 7, 7);
+        c.fillStyle = '#3f8f4f'; circulo(c, px + 8, py + 6, 6);
+        c.fillStyle = '#59a865'; circulo(c, px + 6, py + 4, 3);
+        break;
+      }
+      case 'O':
+        suelo(c, sueloVecino(filas, x, y), px, py, x, y);
+        c.fillStyle = 'rgba(0,0,0,.18)'; c.fillRect(px + 5, py + 14, 6, 2);
+        c.fillStyle = '#3b4358'; c.fillRect(px + 7, py + 5, 2, 10);
+        c.fillStyle = '#4236F6'; c.fillRect(px + 3, py, 10, 7);
+        c.fillStyle = '#ffffff'; c.fillRect(px + 5, py + 2, 6, 3);
+        c.fillStyle = '#4236F6'; c.fillRect(px + 6, py + 3, 1, 1); c.fillRect(px + 9, py + 3, 1, 1);
+        break;
       case 'G': case '^':
         suelo(c, '=', px, py, x, y); break;
       default:
@@ -385,5 +428,28 @@
     }
   }
 
-  root.SPRITES = { T, tigre, npc, perro, dokkaebi, objeto, silueta, aURL, dibujarBaldosa, puertaPalacio, estatua, tablero, circulo, OBJETOS };
+  /* ── Granja: lo que crece en la parcela y la fruta en el árbol ─────── */
+  function planta(c, px, py, e) {
+    if (e.etapa === 'vacia') return;
+    if (e.regada !== false && e.etapa !== 'seca') { c.fillStyle = 'rgba(40,24,10,.28)'; c.fillRect(px + 2, py + 2, 12, 12); }
+    if (e.etapa === 'seca') {
+      c.fillStyle = '#e8c99a'; c.fillRect(px + 4, py + 5, 2, 1); c.fillRect(px + 8, py + 9, 2, 1); c.fillRect(px + 11, py + 5, 2, 1);
+      return;
+    }
+    const k = e.etapa === 'lista' ? 1 : e.k;
+    c.fillStyle = '#3f8f4f'; c.fillRect(px + 7, py + 9 - Math.round(k * 4), 2, 4 + Math.round(k * 4));
+    c.fillStyle = '#59a865';
+    c.fillRect(px + 4, py + 9, 3, 2); c.fillRect(px + 9, py + 9, 3, 2);
+    if (k > 0.34) { c.fillRect(px + 3, py + 6, 4, 2); c.fillRect(px + 9, py + 6, 4, 2); }
+    if (k > 0.67 && e.etapa !== 'lista') { c.fillStyle = '#f2c94c'; c.fillRect(px + 7, py + 3, 2, 2); c.fillRect(px + 4, py + 5, 1, 1); c.fillRect(px + 11, py + 5, 1, 1); }
+    if (e.etapa === 'lista' && e.objeto) c.drawImage(objeto(e.objeto), px + 2, py - 2, 12, 12);
+  }
+  function frutasArbol(c, px, py, color) {
+    for (const [dx, dy] of [[3, 4], [9, 3], [11, 8], [5, 9], [8, 6]]) {
+      c.fillStyle = '#1d1b2e'; c.fillRect(px + dx - 1, py + dy - 1, 4, 4);
+      c.fillStyle = color; c.fillRect(px + dx, py + dy, 2, 2);
+    }
+  }
+
+  root.SPRITES = { T, tigre, npc, perro, dokkaebi, objeto, silueta, aURL, dibujarBaldosa, puertaPalacio, estatua, tablero, circulo, planta, frutasArbol, OBJETOS };
 })(typeof self !== 'undefined' ? self : this);

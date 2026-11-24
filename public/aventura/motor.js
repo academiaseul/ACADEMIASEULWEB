@@ -79,7 +79,8 @@
 
   /* ── Mapas y baldosas ───────────────────────────────────────────────── */
   // Se camina por: . pasto · , flores · = piedra · : tierra · _ arena · - piso · b puente · D puerta
-  const BLOQUEA = new Set(['R', 'G', 'T', '#', 'W', 'V', '^', 'F', 'S', 'C', 'H', 'L', 'X', 'd', '~', 'h']);
+  // M mesa · P parcela del 밭 · Q árbol frutal (O, el paradero de bus, sí se pisa)
+  const BLOQUEA = new Set(['R', 'G', 'T', '#', 'W', 'V', '^', 'F', 'S', 'C', 'H', 'L', 'X', 'd', '~', 'h', 'M', 'P', 'Q']);
   function baldosa(mundo, mapaId, x, y) {
     const m = mundo.mapas[mapaId];
     if (!m || y < 0 || y >= m.filas.length || x < 0 || x >= m.filas[0].length) return null;
@@ -133,6 +134,7 @@
       nivel: 1, xp: 0, hp: 0, won: ini.won || 0,
       objetos: {}, letras: [], letreros: {}, misiones: {}, flags: {},
       repaso: {}, racha: { n: 0, dia: null },
+      comidas: {}, mesa: { etapa: 'fuera' }, granja: { parcelas: {}, arboles: {}, frutas: {} },
       ajustes: { sonido: true, musica: true, rom: false, cruz: false },
       stats: { aciertos: 0, errores: 0, duelos: 0, inicio: Date.now(), fin: null },
     };
@@ -214,6 +216,81 @@
     return { ok: true, msg: `Compraste ${o.nombre}.`, eventos: evento(est, mundo, { tipo: 'comprar', id }) };
   }
   const fmtWon = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '원';
+  // «Es N»: 예요 después de vocal, 이에요 después de consonante (김밥이에요, 불고기예요)
+  function conEs(palabra) {
+    const d = decompose(Array.from(palabra).pop());
+    return palabra + (d && d[2] ? '이에요' : '예요');
+  }
+
+  /* ── Restaurante: la visita va de «fuera» a «comido» (falta pagar) ─── */
+  // Se elige el plato en el 메뉴판 y se come; se paga al final, en la caja, como en Corea.
+  const platoDe = (mundo, rid, pid) => (mundo.restaurantes[rid].platos || []).find((p) => p.id === pid) || null;
+  function comerEnMesa(est, mundo, rid, pid) {
+    const r = mundo.restaurantes[rid], p = r && platoDe(mundo, rid, pid);
+    if (!p) return { ok: false, msg: 'Ese plato no está en el 메뉴판.' };
+    if (est.mesa.etapa === 'comido') return { ok: false, msg: 'Primero paga lo que comiste.' };
+    if (est.won < p.precio) return { ok: false, msg: `Te faltan ${fmtWon(p.precio - est.won)}.` };
+    est.mesa = { etapa: 'comido', rest: rid, plato: pid };
+    est.comidas[pid] = (est.comidas[pid] || 0) + 1;
+    const curo = curar(est, p.curar || 0);
+    return { ok: true, plato: p, curo, eventos: evento(est, mundo, { tipo: 'flag', id: r.flags.pedir }) };
+  }
+  function pagarMesa(est, mundo) {
+    const m = est.mesa;
+    if (m.etapa !== 'comido') return { ok: false, msg: 'No hay nada que pagar.' };
+    const r = mundo.restaurantes[m.rest], p = platoDe(mundo, m.rest, m.plato);
+    est.won = Math.max(0, est.won - p.precio);
+    est.mesa = { etapa: 'fuera' };
+    return { ok: true, plato: p, eventos: evento(est, mundo, { tipo: 'flag', id: r.flags.pagar }) };
+  }
+
+  /* ── Granja: plantar, regar y cosechar, con el reloj de verdad ──────── */
+  // est.granja.parcelas[id] = { cultivo, regada: hora o null } · arboles[id] = hora de la última cosecha
+  // · frutas[cultivo] = cuántas cosechaste. Lo del 밭 crece solo si lo riegas.
+  function etapaParcela(est, mundo, pid, ahora) {
+    const p = est.granja.parcelas[pid];
+    if (!p) return { etapa: 'vacia' };
+    if (!p.regada) return { etapa: 'seca', cultivo: p.cultivo };
+    const crece = mundo.cultivos[p.cultivo].crece, k = Math.min(1, (ahora - p.regada) / crece);
+    return { etapa: k >= 1 ? 'lista' : 'creciendo', cultivo: p.cultivo, k, falta: Math.max(0, crece - (ahora - p.regada)) };
+  }
+  function plantar(est, mundo, pid, cultivo) {
+    const c = mundo.cultivos[cultivo];
+    if (!c || c.donde !== 'parcela' || est.granja.parcelas[pid]) return false;
+    est.granja.parcelas[pid] = { cultivo, regada: null };
+    return true;
+  }
+  function regar(est, pid, ahora) {
+    const p = est.granja.parcelas[pid];
+    if (!p || p.regada) return false;
+    p.regada = ahora;
+    return true;
+  }
+  function arbolListo(est, mundo, arbol, ahora) {
+    const t = est.granja.arboles[arbol.id];
+    return !t || ahora - t >= mundo.cultivos[arbol.fruta].crece;
+  }
+  // La fruta va a la mochila; la primera de cada clase cuenta para la misión
+  function cosechar(est, mundo, cultivo, donde, ahora) {
+    const g = est.granja;
+    if (donde.parcela) delete g.parcelas[donde.parcela]; else g.arboles[donde.arbol] = ahora;
+    agregar(est, mundo.cultivos[cultivo].objeto);
+    const nueva = !g.frutas[cultivo];
+    g.frutas[cultivo] = (g.frutas[cultivo] || 0) + 1;
+    return { nueva, eventos: nueva ? evento(est, mundo, { tipo: 'fruta', id: 'nueva' }) : [] };
+  }
+  // Adónde ir en la granja: un árbol con fruta, algo listo, algo por regar o una parcela vacía
+  function dondeGranja(est, mundo, ahora) {
+    for (const [mid, m] of Object.entries(mundo.mapas)) {
+      const arbol = (m.arboles || []).find((a) => arbolListo(est, mundo, a, ahora));
+      const parcelas = (m.parcelas || []).map((p) => Object.assign({ e: etapaParcela(est, mundo, p.id, ahora).etapa }, p));
+      const p = ['lista', 'seca', 'vacia', 'creciendo'].map((e) => parcelas.find((q) => q.e === e)).find(Boolean);
+      if (p && p.e === 'lista') return { mapa: mid, x: p.x, y: p.y };
+      if (arbol) return { mapa: mid, x: arbol.x, y: arbol.y };
+      if (p) return { mapa: mid, x: p.x, y: p.y };
+    }
+    return null;
+  }
 
   /* ── Misiones ───────────────────────────────────────────────────────── */
   function estadoMision(est, mundo, id) {
@@ -231,6 +308,7 @@
     m.objetivos.forEach((o, i) => {
       if (o.tipo === 'letrero' && est.letreros[o.id]) est.misiones[id].prog[i] = 1;
       if (o.tipo === 'flag' && est.flags[o.id]) est.misiones[id].prog[i] = 1;
+      if (o.tipo === 'fruta' && est.granja) est.misiones[id].prog[i] = Math.min(metaDe(o), Object.keys(est.granja.frutas).length);
     });
     return true;
   }
@@ -474,7 +552,7 @@
   }
   const irA = (tipo, id, texto, pos) => (pos ? Object.assign({ tipo, id, texto }, pos) : null);
   const haciaNPC = (mundo, id, texto) => irA('npc', id, texto, dondeNPC(mundo, id));
-  function pasoDeObjetivo(est, mundo, m, o, i, e) {
+  function pasoDeObjetivo(est, mundo, m, o, i, e, ahora) {
     const sinLugar = (o.texto || '').replace(/\s*\(.*\)$/, '');
     const conCuenta = metaDe(o) > 1 ? `${sinLugar} · ${e.prog[i] || 0}/${metaDe(o)}` : sinLugar;
     if (o.tipo === 'derrotar') {
@@ -490,6 +568,7 @@
       }
       return null;
     }
+    if (o.tipo === 'fruta') return irA('granja', o.id, conCuenta, dondeGranja(est, mundo, ahora));
     if (o.tipo === 'letrero') {
       const j = faltanLetras(est, mundo, o.id)[0];
       if (j === undefined) return null;
@@ -498,7 +577,8 @@
     }
     return null;
   }
-  function siguientePaso(est, mundo) {
+  function siguientePaso(est, mundo, ahora) {
+    if (ahora == null) ahora = Date.now();
     const ids = Object.keys(mundo.misiones);
     for (const id of ids) if (estadoMision(est, mundo, id) === 'lista') return haciaNPC(mundo, mundo.misiones[id].entrega, `Vuelve con ${mundo.npcs[mundo.misiones[id].entrega].nombre}`);
     for (const id of ids) {
@@ -513,7 +593,7 @@
       for (let i = 0; i < m.objetivos.length; i++) {
         const o = m.objetivos[i];
         if ((e.prog[i] || 0) >= metaDe(o)) continue;
-        const p = pasoDeObjetivo(est, mundo, m, o, i, e);
+        const p = pasoDeObjetivo(est, mundo, m, o, i, e, ahora);
         if (p) return p;
       }
     }
@@ -603,8 +683,10 @@
     try {
       const est = JSON.parse(texto);
       if (!est || est.v !== VERSION || !mundo.mapas[est.mapa]) return null;
-      for (const k of ['objetos', 'letreros', 'misiones', 'flags', 'repaso']) if (!est[k] || typeof est[k] !== 'object') est[k] = {};
+      for (const k of ['objetos', 'letreros', 'misiones', 'flags', 'repaso', 'comidas']) if (!est[k] || typeof est[k] !== 'object') est[k] = {};
       est.racha = Object.assign({ n: 0, dia: null }, est.racha || {});
+      est.mesa = Object.assign({ etapa: 'fuera' }, est.mesa || {});
+      est.granja = Object.assign({ parcelas: {}, arboles: {}, frutas: {} }, est.granja || {});
       if (!Array.isArray(est.letras)) est.letras = [];
       est.ajustes = Object.assign({ sonido: true, musica: true, rom: false, cruz: false }, est.ajustes || {});
       est.stats = Object.assign({ aciertos: 0, errores: 0, duelos: 0, inicio: Date.now(), fin: null }, est.stats || {});
@@ -617,7 +699,8 @@
     VERSION, CHO, JUNG, compose, decompose, esVocal, esConsonante, silabaDeLetra, romLetra, romSilaba, letrasDe,
     azar, barajar, BLOQUEA, baldosa, caminable, DIRS, dist, ruta,
     crearEstado, xpTotalPara, hpMax, ataque, ganarXP, curar,
-    cuantos, agregar, quitar, darLetra, usarObjeto, comprar, fmtWon,
+    cuantos, agregar, quitar, darLetra, usarObjeto, comprar, fmtWon, conEs,
+    comerEnMesa, pagarMesa, etapaParcela, plantar, regar, arbolListo, cosechar, dondeGranja,
     estadoMision, iniciarMision, objetivosCumplidos, evento, completarMision,
     faltanLetras, revisarSilaba, restaurarLetrero,
     nuevaBatalla, preguntaActual, responder, botin, bolsaDe,

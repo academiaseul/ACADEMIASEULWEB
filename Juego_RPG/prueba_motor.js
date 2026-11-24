@@ -35,7 +35,7 @@ t('revisar sílaba: dice qué parte falló', () => {
 
 /* ── Contenido ─────────────────────────────────────────────────────── */
 t('mapas rectangulares y con baldosas conocidas', () => {
-  const conocidas = new Set('.,=:_-b~TRG#WVDd^FSCHLXh'.split(''));
+  const conocidas = new Set('.,=:_-b~TRG#WVDd^FSCHLXhMPQO'.split(''));
   for (const [id, m] of Object.entries(MUNDO.mapas)) {
     const W = m.filas[0].length;
     m.filas.forEach((f, y) => {
@@ -51,7 +51,7 @@ t('NPC, letreros, portales e info en su lugar', () => {
       assert.ok(RPG.caminable(MUNDO, id, n.x, n.y), `${id}: NPC ${n.id} está sobre una baldosa que no se pisa (${n.x},${n.y})`);
     }
     for (const p of m.portales) {
-      assert.strictEqual(RPG.baldosa(MUNDO, id, p.x, p.y), 'D', `${id}: portal en (${p.x},${p.y}) no es una puerta`);
+      assert.ok('DO'.includes(RPG.baldosa(MUNDO, id, p.x, p.y)), `${id}: portal en (${p.x},${p.y}) no es una puerta ni un paradero`);
       assert.ok(RPG.caminable(MUNDO, p.a.mapa, p.a.x, p.a.y), `${id}: el portal lleva a una baldosa que no se pisa`);
     }
     for (const z of m.zonas) {
@@ -264,6 +264,75 @@ t('la lección de 김재희 선생님: cada paso enseña lo que dice y todo suen
   assert.deepStrictEqual(sinClip, [], 'todo lo que suena en la lección tiene clip');
 });
 
+const SPR = require('../public/aventura/sprites.js').SPRITES;
+t('식당: se pide en coreano, se come y se paga al salir', () => {
+  assert.strictEqual(RPG.conEs('김밥'), '김밥이에요');
+  assert.strictEqual(RPG.conEs('불고기'), '불고기예요');
+  const r = MUNDO.restaurantes.sikdang;
+  for (const p of r.platos) {
+    assert.ok(SPR.OBJETOS[p.id], `plato ${p.id} sin dibujo`);
+    assert.ok(p.leer && p.desglose && p.esUn && p.curar > 0, `plato ${p.id} incompleto`);
+  }
+  for (const e of Object.values(r.escenas)) {
+    const eliges = e.opciones ? [e] : Array.isArray(e) ? e.filter((l) => l.elige).map((l) => l.elige) : [];
+    for (const el of eliges) {
+      assert.strictEqual(el.opciones.filter((o) => o.ok).length, 1, `${el.pregunta}: una sola buena`);
+      for (const o of el.opciones) assert.ok(o.ok ? o.dice : o.porque, `«${o.ko}» sin explicación`);
+    }
+  }
+  const est = RPG.crearEstado(MUNDO);
+  for (const q of ['q1', 'q2', 'q3', 'q4']) est.misiones[q] = { estado: 'hecha', prog: [] };
+  for (const l of RPG.elegirDialogo(est, MUNDO, 'doyun').lineas) RPG.aplicarAccion(est, MUNDO, l.accion);
+  assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q7'), 'activa', '도윤 invita a comer');
+  est.won = 2000;
+  assert.ok(!RPG.comerEnMesa(est, MUNDO, 'sikdang', 'bulgogi').ok, 'sin plata no se pide');
+  est.won = 20000; est.hp = 1;
+  const c = RPG.comerEnMesa(est, MUNDO, 'sikdang', 'bulgogi');
+  assert.ok(c.ok && c.curo > 0 && est.won === 20000, 'se come primero y se paga al salir');
+  assert.ok(!RPG.comerEnMesa(est, MUNDO, 'sikdang', 'gimbap').ok, 'no se pide otra cosa sin pagar');
+  const otra = RPG.cargar(RPG.serializar(est), MUNDO);
+  assert.strictEqual(otra.mesa.etapa, 'comido', 'guardar y cargar no borra la cuenta');
+  const p = RPG.pagarMesa(est, MUNDO);
+  assert.ok(p.ok && est.won === 8000 && est.mesa.etapa === 'fuera');
+  assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q7'), 'lista');
+  assert.strictEqual(est.comidas.bulgogi, 1);
+});
+t('granja: plantar, regar, esperar y cosechar', () => {
+  const est = RPG.crearEstado(MUNDO), t0 = 1e12, g = MUNDO.mapas.nongjang;
+  for (const c of Object.values(MUNDO.cultivos)) assert.ok(MUNDO.objetos[c.objeto] && SPR.OBJETOS[c.objeto], `${c.nombre} sin objeto o dibujo`);
+  for (const a of g.arboles) { assert.strictEqual(RPG.baldosa(MUNDO, 'nongjang', a.x, a.y), 'Q'); assert.strictEqual(MUNDO.cultivos[a.fruta].donde, 'arbol'); }
+  for (const p of g.parcelas) assert.strictEqual(RPG.baldosa(MUNDO, 'nongjang', p.x, p.y), 'P');
+  const llegada = g.portales[0].a && MUNDO.mapas.plaza.portales.find((p) => p.a.mapa === 'nongjang').a;
+  for (const o of [...g.parcelas, ...g.arboles, ...g.npcs, g.portales[0]]) assert.ok(RPG.ruta(MUNDO, 'nongjang', llegada, o, null), `en la granja no se llega a (${o.x},${o.y})`);
+  assert.ok(!RPG.plantar(est, MUNDO, 'p1', 'sagwa'), 'un manzano no va en la parcela');
+  assert.ok(RPG.plantar(est, MUNDO, 'p1', 'chamoe'));
+  assert.strictEqual(RPG.etapaParcela(est, MUNDO, 'p1', t0).etapa, 'seca', 'sin agua no crece');
+  RPG.regar(est, 'p1', t0);
+  assert.strictEqual(RPG.etapaParcela(est, MUNDO, 'p1', t0 + 1000).etapa, 'creciendo');
+  assert.strictEqual(RPG.etapaParcela(est, MUNDO, 'p1', t0 + MUNDO.cultivos.chamoe.crece).etapa, 'lista');
+  let r = RPG.cosechar(est, MUNDO, 'chamoe', { parcela: 'p1' }, t0 + 1e6);
+  assert.ok(r.nueva && RPG.cuantos(est, 'chamoe') === 1 && RPG.etapaParcela(est, MUNDO, 'p1', t0).etapa === 'vacia');
+  // El 참외 se cosechó antes de aceptar la misión: cuenta igual
+  for (const q of ['q1', 'q2', 'q3']) est.misiones[q] = { estado: 'hecha', prog: [] };
+  for (const l of RPG.elegirDialogo(est, MUNDO, 'halmeoni').lineas) RPG.aplicarAccion(est, MUNDO, l.accion);
+  assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q8'), 'activa', 'la 할머니 manda a la granja');
+  assert.strictEqual(est.misiones.q8.prog[1], 1, 'el 참외 de antes ya cuenta');
+  assert.strictEqual(RPG.siguientePaso(est, MUNDO, t0).id, 'harabeoji', 'primero se habla con el 할아버지');
+  for (const l of RPG.elegirDialogo(est, MUNDO, 'harabeoji').lineas) RPG.aplicarAccion(est, MUNDO, l.accion);
+  assert.strictEqual(RPG.siguientePaso(est, MUNDO, t0).mapa, 'nongjang', 'después, la guía lleva a cosechar');
+  const a1 = g.arboles[0];
+  RPG.cosechar(est, MUNDO, 'sagwa', { arbol: a1.id }, t0);
+  assert.ok(!RPG.arbolListo(est, MUNDO, a1, t0 + 1000), 'el árbol tarda en volver a dar');
+  assert.ok(RPG.arbolListo(est, MUNDO, a1, t0 + MUNDO.cultivos.sagwa.crece));
+  r = RPG.cosechar(est, MUNDO, 'sagwa', { arbol: a1.id }, t0 + 2e5);
+  assert.ok(!r.nueva, 'la segunda manzana no es fruta nueva');
+  RPG.cosechar(est, MUNDO, 'bae', { arbol: 'a2' }, t0);
+  RPG.cosechar(est, MUNDO, 'gam', { arbol: 'a3' }, t0);
+  assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q8'), 'lista');
+  for (const l of RPG.elegirDialogo(est, MUNDO, 'halmeoni').lineas) RPG.aplicarAccion(est, MUNDO, l.accion);
+  assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q8'), 'hecha');
+});
+
 t('capítulo 1 de punta a punta', () => {
   const est = RPG.crearEstado(MUNDO);
   const rnd = RPG.azar(99);
@@ -331,7 +400,8 @@ t('capítulo 1 de punta a punta', () => {
   arma('hangeul');
   habla('hana');
   assert.strictEqual(RPG.estadoMision(est, MUNDO, 'q6'), 'hecha');
-  assert.strictEqual(guia(), null);
+  // Con el capítulo terminado, la guía ya solo sugiere lo opcional: el 식당 y la granja
+  assert.ok(['doyun', 'halmeoni'].includes(guia().id), 'después del jefe, la guía lleva a las misiones opcionales');
   console.log(`  capítulo jugado: nivel ${est.nivel}, ${est.letras.length} letras, ${est.stats.duelos} duelos, ${RPG.fmtWon(est.won)}`);
   // Guardar y cargar
   const otra = RPG.cargar(RPG.serializar(est), MUNDO);

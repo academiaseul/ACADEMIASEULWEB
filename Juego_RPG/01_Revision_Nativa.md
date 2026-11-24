@@ -62,3 +62,6 @@ Revisor adversarial con el mismo perfil (nativo, profesor de coreano para hispan
 **Quedan para Jay:**
 - **화이팅** al cierre: la forma estándar es 파이팅, y en boca de un 훈장 con 갓 suena fuera de personaje; 「힘내라!」 sería coreano de mayor a niño. Se dejó 화이팅 porque es el saludo de la marca.
 - **ㅇ → ㅎ:** la cadena real es ㅇ→ㆆ→ㅎ; se simplificó para A1, sin nota.
+
+## El 식당 de 도윤 y la granja del 할아버지 (23 nov 2026)
+Mismo perfil de revisor. No encontró coreano mal escrito. **Corregido el mismo día:** la uva pasó del 밭 al 과수원 como parra (포도나무), con el dato de 거봉/캠벨 frente a 샤인머스캣; «¿Qué tal estuvo?» ahora pregunta en presente (지수: 맛있어요?), porque el pasado no es de Básico 1; «주세요 sirve en cualquier lugar» chocaba con la regla del 편의점 y ahora enseña 김밥 하나 주세요; 잠시만 기다려 주세요 en vez de 기다리세요; 혼자요 y la diferencia 분/명; 계산해 주세요 y que en Corea no se deja propina; glosas para Chile (guiso de kimchi, carne de res salteada, trocitos de masa de arroz, pera asiática); el 김밥 a 4.000 ₩; el 할아버지 explica su 반말; la explicación del quiz habla de 받침. **Quedan para Jay:** si se prefiere 딸기 en el invernadero (es la fruta de invierno en Corea, pero es roja y el juego no usa rojo) y si el 불고기 debe ir como 불고기 정식.

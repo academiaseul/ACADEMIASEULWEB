@@ -79,7 +79,7 @@
         "T..T......,...============L::.RRRRRRRR.T",
         "T._____.T.....T===========.::.WVWVVWVW.T",
         "T._____......,============.::.WWWDWWWW.T",
-        "T._____..,....============.::..........T",
+        "T._____..,....============.::..........O",
         "T.....T.......T===========L::.........,T",
         "T......S.T....====^^^^====.::.FFS......T",
         "T.,......,....====^^^^====.::..........T",
@@ -89,7 +89,7 @@
         "T.............T===========.::..........T",
         "T.RRRRRRRR....===~~~~~~===.::.FFS......T",
         "T.WVWWVWVW....===~~~~~~===.::..........T",
-        "T.WWWdWWWW....T===========L::.RRRR.RRRRT",
+        "T.WWWDWWWW....T===========L::.RRRR.RRRRT",
         "T......S......============.::.WVVW.WVVWT",
         "T,...........,============.::.WdWW.WWdWT",
         "T..T......T...T===========.::..S..T.S..T",
@@ -108,7 +108,8 @@
       ],
       "etiquetas": [
         { "x": 19.5, "y": 1.55, "texto": "光化門", "tipo": "placa" },
-        { "x": 34, "y": 5.5, "texto": "편의점", "tipo": "techo" }
+        { "x": 34, "y": 5.5, "texto": "편의점", "tipo": "techo" },
+        { "x": 37, "y": 7.35, "texto": "농장 버스", "tipo": "techo" }
       ],
       "zonas": [
         { "enemigo": "verde", "x": 1, "y": 4, "w": 12, "h": 11, "n": 3, "desde": "q2" },
@@ -116,7 +117,9 @@
         { "enemigo": "morado", "x": 33, "y": 9, "w": 6, "h": 9, "n": 3, "desde": "q5" }
       ],
       "portales": [
-        { "x": 33, "y": 7, "a": { "mapa": "tienda", "x": 5, "y": 7, "dir": "arriba" } }
+        { "x": 33, "y": 7, "a": { "mapa": "tienda", "x": 5, "y": 7, "dir": "arriba" } },
+        { "x": 5, "y": 18, "a": { "mapa": "sikdang", "x": 4, "y": 7, "dir": "arriba" } },
+        { "x": 39, "y": 8, "a": { "mapa": "nongjang", "x": 11, "y": 12, "dir": "arriba" } }
       ],
       "npcs": [
         { "id": "hana", "x": 21, "y": 13 },
@@ -134,7 +137,7 @@
         { "id": "palacio", "x": 15, "y": 3, "w": 9, "h": 1 },
         { "id": "bukchon", "x": 38, "y": 3 },
         { "id": "barrera", "x": 39, "y": 4 },
-        { "id": "restaurante", "x": 5, "y": 18 },
+        { "id": "restaurante", "x": 6, "y": 18 },
         { "id": "cafeteria", "x": 31, "y": 20 },
         { "id": "panaderia", "x": 37, "y": 20 },
         { "id": "fuente", "x": 17, "y": 16, "w": 6, "h": 2 },
@@ -165,6 +168,77 @@
         { "id": "jeomwon", "x": 9, "y": 2 }
       ],
       "info": []
+    },
+    "sikdang": {
+      "nombre": "도윤네 식당",
+      "interior": true,
+      "filas": [
+        "WWWWWWWWWW",
+        "WCCCCCC-HW",
+        "W--------W",
+        "W-MM--MM-W",
+        "W--------W",
+        "W-MM--MM-W",
+        "W--------W",
+        "W--------W",
+        "WWWWDWWWWW"
+      ],
+      "objetos": [],
+      "etiquetas": [],
+      "zonas": [],
+      "portales": [
+        { "x": 4, "y": 8, "a": { "mapa": "plaza", "x": 5, "y": 19, "dir": "abajo" }, "pagar": true }
+      ],
+      "npcs": [
+        { "id": "jisu", "x": 4, "y": 2 }
+      ],
+      "info": []
+    },
+    "nongjang": {
+      "nombre": "할아버지 농장",
+      "filas": [
+        "TTTTTTTTTTTTTTTTTTTTTT",
+        "T....................T",
+        "T.WWWWW..Q...Q...Q.Q.T",
+        "T.WVWdW..............T",
+        "T....................T",
+        "T....................T",
+        "T.......:::::::......T",
+        "T.......:P:P:P:......T",
+        "T.......:::::::......T",
+        "T.......:P:P:P:......T",
+        "T.......:::::::......T",
+        "T....................T",
+        "T..........:.........T",
+        "TTTTTTTTTTTOTTTTTTTTTT"
+      ],
+      "objetos": [],
+      "etiquetas": [
+        { "x": 13.5, "y": 1.25, "texto": "과수원", "tipo": "techo" },
+        { "x": 11.5, "y": 5.6, "texto": "비닐하우스", "tipo": "techo" }
+      ],
+      "zonas": [],
+      "portales": [
+        { "x": 11, "y": 13, "a": { "mapa": "plaza", "x": 38, "y": 8, "dir": "izquierda" }}
+      ],
+      "npcs": [
+        { "id": "harabeoji", "x": 5, "y": 5 }
+      ],
+      "arboles": [
+        { "id": "a1", "x": 9, "y": 2, "fruta": "sagwa" },
+        { "id": "a2", "x": 13, "y": 2, "fruta": "bae" },
+        { "id": "a3", "x": 17, "y": 2, "fruta": "gam" },
+        { "id": "a4", "x": 19, "y": 2, "fruta": "podo" }
+      ],
+      "parcelas": [
+        { "id": "p1", "x": 9, "y": 7 },
+        { "id": "p2", "x": 11, "y": 7 },
+        { "id": "p3", "x": 13, "y": 7 },
+        { "id": "p4", "x": 9, "y": 9 },
+        { "id": "p5", "x": 11, "y": 9 },
+        { "id": "p6", "x": 13, "y": 9 }
+      ],
+      "info": []
     }
   },
 
@@ -174,7 +248,313 @@
     "mul": { "nombre": "물", "es": "agua", "esUn": "agua", "precio": 1000, "efecto": { "curar": 8 }, "desc": "Recupera 8 de 기운.", "pedir": "물 주세요.", "noPedir": "물이에요." },
     "buchae": { "nombre": "부채", "es": "abanico", "esUn": "un abanico", "precio": 2000, "efecto": { "quitarOpcion": true }, "desc": "En un duelo, se lleva una opción incorrecta.", "pedir": "부채 주세요.", "noPedir": "부채예요." },
     "yeonpil": { "nombre": "연필", "es": "lápiz", "esUn": "un lápiz", "precio": 1000, "efecto": { "pista": true }, "desc": "En un duelo, escribe la pista en letras latinas.", "pedir": "연필 주세요.", "noPedir": "연필이에요." },
-    "usan": { "nombre": "우산", "es": "paraguas", "esUn": "un paraguas", "precio": 5000, "efecto": { "escudo": true }, "desc": "En un duelo, te protege del próximo golpe de 방망이.", "pedir": "우산 주세요.", "noPedir": "우산이에요." }
+    "usan": { "nombre": "우산", "es": "paraguas", "esUn": "un paraguas", "precio": 5000, "efecto": { "escudo": true }, "desc": "En un duelo, te protege del próximo golpe de 방망이.", "pedir": "우산 주세요.", "noPedir": "우산이에요." },
+    "sagwa": { "nombre": "사과", "es": "manzana", "esUn": "una manzana", "efecto": { "curar": 10 }, "desc": "De la granja del 할아버지. Recupera 10 de 기운." },
+    "bae": { "nombre": "배", "es": "pera coreana", "esUn": "una pera coreana", "efecto": { "curar": 12 }, "desc": "De la granja del 할아버지. Recupera 12 de 기운." },
+    "gam": { "nombre": "감", "es": "caqui", "esUn": "un caqui", "efecto": { "curar": 10 }, "desc": "De la granja del 할아버지. Recupera 10 de 기운." },
+    "subak": { "nombre": "수박", "es": "sandía", "esUn": "una sandía", "efecto": { "curar": 20 }, "desc": "De la granja del 할아버지. Recupera 20 de 기운." },
+    "chamoe": { "nombre": "참외", "es": "melón coreano", "esUn": "un melón coreano", "efecto": { "curar": 12 }, "desc": "De la granja del 할아버지. Recupera 12 de 기운." },
+    "podo": { "nombre": "포도", "es": "uva", "esUn": "un racimo de uvas", "efecto": { "curar": 10 }, "desc": "De la granja del 할아버지. Recupera 10 de 기운." }
+  },
+
+  "restaurantes": {
+    "sikdang": {
+      "nombre": "도윤네 식당",
+      "npc": "jisu",
+      "mesa": {
+        "x": 3,
+        "y": 4,
+        "dir": "arriba"
+      },
+      "flags": {
+        "pedir": "sik_pidio",
+        "pagar": "sik_pago"
+      },
+      "platos": [
+        {
+          "id": "gimbap",
+          "nombre": "김밥",
+          "es": "rollo de arroz y algas",
+          "esUn": "un rollo de arroz y algas",
+          "precio": 4000,
+          "leer": "사천 원",
+          "desglose": "사천 = 사 (4) + 천 (mil).",
+          "curar": 25,
+          "desc": "El clásico para llevar: arroz, verduras y 김, las algas."
+        },
+        {
+          "id": "ramyeon",
+          "nombre": "라면",
+          "es": "ramyeon, fideos en sopa",
+          "esUn": "un ramyeon",
+          "precio": 5000,
+          "leer": "오천 원",
+          "desglose": "오천 = 오 (5) + 천 (mil).",
+          "curar": 25,
+          "desc": "En Corea se come a cualquier hora. 매워요: suele ser picante."
+        },
+        {
+          "id": "tteokbokki",
+          "nombre": "떡볶이",
+          "es": "trocitos de masa de arroz en salsa picante",
+          "esUn": "un 떡볶이",
+          "precio": 5000,
+          "leer": "오천 원",
+          "desglose": "오천 = 오 (5) + 천 (mil).",
+          "curar": 25,
+          "desc": "Comida de la calle: 떡, la pastita de arroz, con salsa de 고추장. 매워요."
+        },
+        {
+          "id": "kimchijjigae",
+          "nombre": "김치찌개",
+          "es": "guiso caldoso de kimchi",
+          "esUn": "un 김치찌개",
+          "precio": 9000,
+          "leer": "구천 원",
+          "desglose": "구천 = 구 (9) + 천 (mil).",
+          "curar": 35,
+          "desc": "Llega hirviendo en una olla de barro (뚝배기), con 밥 aparte. 매워요."
+        },
+        {
+          "id": "bibimbap",
+          "nombre": "비빔밥",
+          "es": "arroz con verduras para mezclar",
+          "esUn": "un 비빔밥",
+          "precio": 10000,
+          "leer": "만 원",
+          "desglose": "만 = diez mil: en coreano, 10.000 es una sola palabra.",
+          "curar": 40,
+          "desc": "비빔 = mezclar. Se revuelve todo antes de comer."
+        },
+        {
+          "id": "bulgogi",
+          "nombre": "불고기",
+          "es": "carne de res marinada, salteada",
+          "esUn": "un 불고기",
+          "precio": 12000,
+          "leer": "만 이천 원",
+          "desglose": "만 이천 = 만 (10.000) + 이천 (2.000).",
+          "curar": 50,
+          "desc": "불 = fuego y 고기 = carne. Res marinada en salsa de soya: dulce, nada picante. Para una persona se pide 불고기 정식."
+        }
+      ],
+      "escenas": {
+        "entrar": [
+          {
+            "ko": "어서 오세요! 몇 분이세요?",
+            "es": "¡Bienvenido! ¿Cuántas personas son?"
+          },
+          {
+            "elige": {
+              "pregunta": "Vienes solo. ¿Qué le respondes a 지수?",
+              "opciones": [
+                {
+                  "ko": "한 명이요.",
+                  "es": "Una persona.",
+                  "ok": true,
+                  "dice": "¡Eso! 명 cuenta personas: 한 명, 두 명. Si vienes solo, también se dice 혼자요. Ojo: 지수 dice 몇 분 (분 es la forma respetuosa); de ti mismo hablas con 명, nunca con 분."
+                },
+                {
+                  "ko": "하나예요.",
+                  "es": "Es uno.",
+                  "porque": "하나 es «uno» a secas. Para contar personas se dice 한 명: «una persona»."
+                },
+                {
+                  "ko": "안녕히 계세요.",
+                  "es": "Adiós (a quien se queda).",
+                  "porque": "Eso es para irte. Para decir cuántos son: 한 명이요."
+                }
+              ]
+            }
+          },
+          {
+            "ko": "이쪽으로 앉으세요.",
+            "es": "Siéntese por aquí."
+          }
+        ],
+        "llamar": {
+          "pregunta": "Ya elegiste. ¿Cómo llamas a 지수?",
+          "opciones": [
+            {
+              "ko": "저기요!",
+              "es": "¡Disculpe!",
+              "ok": true,
+              "dice": "저기요 (o 여기요) es la forma normal de llamar a quien atiende en Corea. No es descortés."
+            },
+            {
+              "ko": "안녕!",
+              "es": "¡Hola! (entre amigos)",
+              "porque": "안녕 es «hola» entre amigos. Para llamar a quien atiende se dice 저기요."
+            },
+            {
+              "ko": "감사합니다.",
+              "es": "Gracias.",
+              "porque": "감사합니다 es «gracias», y todavía no te traen nada. Para llamar: 저기요."
+            }
+          ]
+        },
+        "esperar": {
+          "ko": "네, 알겠습니다. 잠시만 기다려 주세요.",
+          "es": "Sí, entendido. Espere un momento, por favor."
+        },
+        "servir": {
+          "ko": "맛있게 드세요!",
+          "es": "¡Que lo disfrute!"
+        },
+        "antes": {
+          "pregunta": "Antes de comer, en Corea se dice…",
+          "opciones": [
+            {
+              "ko": "잘 먹겠습니다!",
+              "es": "¡Gracias por la comida! (antes de comer)",
+              "ok": true,
+              "dice": "잘 먹겠습니다: algo como «gracias por la comida», antes de empezar. Se dice a quien invita o cocina, o en voz baja si comes solo."
+            },
+            {
+              "ko": "잘 먹었습니다!",
+              "es": "¡Gracias, estuvo rico! (al terminar)",
+              "porque": "Ese es para cuando terminas. Antes de comer se dice 잘 먹겠습니다."
+            },
+            {
+              "ko": "맛있게 드세요!",
+              "es": "¡Que lo disfrute!",
+              "porque": "Eso lo dice quien sirve. Quien va a comer dice 잘 먹겠습니다."
+            }
+          ]
+        },
+        "despues": {
+          "pregunta": "지수 te pregunta: 맛있어요? ¿Qué le contestas?",
+          "opciones": [
+            {
+              "ko": "맛있어요!",
+              "es": "¡Está rico!",
+              "ok": true,
+              "dice": "맛있어요 = «está rico». A 도윤 le va a encantar."
+            },
+            {
+              "ko": "맛없어요.",
+              "es": "No está rico.",
+              "porque": "맛없어요 es «no está rico». ¡Pobre 도윤! Para decir que te gustó: 맛있어요."
+            },
+            {
+              "ko": "배고파요.",
+              "es": "Tengo hambre.",
+              "porque": "배고파요 es «tengo hambre», y ya comiste. Para decir que estuvo rico: 맛있어요."
+            }
+          ]
+        },
+        "pagar": {
+          "pregunta": "Vas a la caja. ¿Cómo preguntas cuánto es?",
+          "opciones": [
+            {
+              "ko": "얼마예요?",
+              "es": "¿Cuánto es?",
+              "ok": true,
+              "dice": "얼마예요? = «¿cuánto es?». En la caja también se dice 계산해 주세요, «la cuenta, por favor». En Corea no se deja propina."
+            },
+            {
+              "ko": "뭐예요?",
+              "es": "¿Qué es?",
+              "porque": "뭐예요? es «¿qué es?». Para el precio: 얼마예요?"
+            },
+            {
+              "ko": "어디예요?",
+              "es": "¿Dónde es?",
+              "porque": "어디예요? es «¿dónde es?». Para el precio: 얼마예요?"
+            }
+          ]
+        },
+        "salir": {
+          "pregunta": "Ya pagaste. Al irte de un restaurante se dice…",
+          "opciones": [
+            {
+              "ko": "잘 먹었습니다!",
+              "es": "¡Gracias, estuvo rico! (al terminar)",
+              "ok": true,
+              "dice": "잘 먹었습니다: «gracias, estuvo rico». Se le dice a quien cocinó o atendió al irte."
+            },
+            {
+              "ko": "잘 먹겠습니다!",
+              "es": "¡Gracias por la comida! (antes de comer)",
+              "porque": "Ese es para antes de comer. Al irte: 잘 먹었습니다."
+            },
+            {
+              "ko": "어서 오세요!",
+              "es": "¡Bienvenido!",
+              "porque": "어서 오세요 lo dice quien te recibe. Al irte: 잘 먹었습니다."
+            }
+          ]
+        },
+        "chau": {
+          "ko": "감사합니다. 안녕히 가세요!",
+          "es": "Gracias. ¡Que le vaya bien!"
+        },
+        "sinPagar": {
+          "es": "¡Espera! En la mayoría de los 식당 coreanos se paga en la caja, al salir."
+        }
+      }
+    }
+  },
+
+  "cultivos": {
+    "sagwa": {
+      "nombre": "사과",
+      "es": "manzana",
+      "esUn": "una manzana",
+      "objeto": "sagwa",
+      "donde": "arbol",
+      "crece": 90000,
+      "color": "#9fd36a",
+      "dato": "En Corea las manzanas son grandes, dulces y se cosechan en otoño."
+    },
+    "bae": {
+      "nombre": "배",
+      "es": "pera coreana",
+      "esUn": "una pera coreana",
+      "objeto": "bae",
+      "donde": "arbol",
+      "crece": 90000,
+      "color": "#d9b26a",
+      "dato": "La 배 coreana (en Chile, pera asiática o nashi) es redonda, grande y crujiente. Para 추석 se regala en cajas. Ojo: 배 también es «barriga», como en 배고파요."
+    },
+    "gam": {
+      "nombre": "감",
+      "es": "caqui",
+      "esUn": "un caqui",
+      "objeto": "gam",
+      "donde": "arbol",
+      "crece": 90000,
+      "color": "#f08a3c",
+      "dato": "까치밥: en otoño se dejan algunos 감 en la punta del árbol para los pájaros. 까치밥 = «la comida de la urraca»."
+    },
+    "subak": {
+      "nombre": "수박",
+      "es": "sandía",
+      "esUn": "una sandía",
+      "objeto": "subak",
+      "donde": "parcela",
+      "crece": 80000,
+      "dato": "Fruta del verano coreano: en el 비닐하우스 se adelanta la temporada."
+    },
+    "chamoe": {
+      "nombre": "참외",
+      "es": "melón coreano",
+      "esUn": "un melón coreano",
+      "objeto": "chamoe",
+      "donde": "parcela",
+      "crece": 60000,
+      "dato": "El 참외 es un melón chico, amarillo con rayas blancas: muy coreano y muy de verano."
+    },
+    "podo": {
+      "nombre": "포도",
+      "es": "uva",
+      "esUn": "un racimo de uvas",
+      "objeto": "podo",
+      "donde": "arbol",
+      "crece": 90000,
+      "dato": "La uva crece en parra (포도나무). En Corea, la uva 거봉 o 캠벨 se aprieta para comer la pulpa y la piel se deja; la 샤인머스캣 se come entera.",
+      "color": "#8f74d0"
+    }
   },
 
   "tiendas": {
@@ -249,10 +629,52 @@
         { "tipo": "letrero", "id": "hangeul", "texto": "Arma el letrero frente a la estatua del rey 세종" }
       ],
       "recompensa": { "xp": 50 }
+    },
+    "q7": {
+      "titulo": "Una mesa en el 식당 de 도윤", "da": "doyun", "entrega": "doyun", "requiere": ["q4"],
+      "objetivos": [
+        { "tipo": "flag", "id": "sik_pidio", "texto": "Pide y come en el 식당 de 도윤", "npc": "jisu" },
+        { "tipo": "flag", "id": "sik_pago", "texto": "Paga en la caja y despídete", "npc": "jisu" }
+      ],
+      "recompensa": { "xp": 25, "won": 3000 }
+    },
+    "q8": {
+      "titulo": "La granja del 할아버지", "da": "halmeoni", "entrega": "halmeoni", "requiere": ["q3"],
+      "objetivos": [
+        { "tipo": "flag", "id": "granja", "texto": "Toma el bus a la granja y habla con el 할아버지", "npc": "harabeoji" },
+        { "tipo": "fruta", "id": "nueva", "n": 4, "texto": "Cosecha 4 frutas distintas" }
+      ],
+      "recompensa": { "xp": 30, "won": 5000 }
     }
   },
 
   "npcs": {
+    "jisu": {
+      "nombre": "지수", "sprite": { "tipo": "persona", "peinado": "coletas", "pelo": "#2b2233", "piel": "#f2cba6", "ropa": "#3f9f50", "sombra": "#2f7f3e" },
+      "dialogos": []
+    },
+    "harabeoji": {
+      "nombre": "할아버지", "sprite": { "tipo": "persona", "peinado": "gorra", "pelo": "#c9c6cf", "piel": "#e3b48c", "ropa": "#5b7f3a", "sombra": "#46652b", "pantalon": "#5b4a3a" },
+      "dialogos": [
+        { "si": { "mision": "q8", "estado": "activa", "noFlag": "granja" }, "lineas": [
+          { "ko": "어서 와!", "es": "¡Bienvenido! Tú eres el tigre que ayudó a la 할머니, mi señora." },
+          { "es": "Esta es mi granja. Arriba está el 과수원, el huerto frutal, con 사과, 배, 감 y 포도. Abajo, el 비닐하우스: un invernadero donde crecen frutas de verano aunque sea otoño." },
+          { "es": "En el 밭, la tierra del invernadero, toca una parcela para plantar. Después riégala: 물을 줘요, «le doy agua». Lo regado crece solo." },
+          { "es": "Yo te hablo en confianza (반말), porque eres pequeño. Tú, a un mayor, contéstale con 예요 o 이에요: eso es lo respetuoso." },
+          { "es": "Al cosechar te voy a preguntar 이게 뭐예요?, «¿qué es esto?». Contesta con el nombre y 예요 o 이에요: 사과예요, 감이에요.", "accion": { "flag": "granja" }}
+        ] },
+        { "si": { "mision": "q8", "estado": "activa" }, "lineas": [
+          { "es": "Los árboles vuelven a dar fruta en un rato, y lo del 밭 crece solo si lo riegas. ¡Cosecha de todo!" }
+        ] },
+        { "si": { "mision": "q8", "estado": "lista" }, "lineas": [
+          { "es": "¡Muy bien! Llévale la fruta a la 할머니, al mercado: ella la vende en su puesto." }
+        ] },
+        { "lineas": [
+          { "ko": "어서 와!", "es": "¡Bienvenido!" },
+          { "es": "En mi granja siempre hay algo que cosechar. Toca un árbol o una parcela." }
+        ] }
+      ]
+    },
     "hunjang": {
       "nombre": "김재희 선생님", "sprite": { "tipo": "persona", "peinado": "gat", "pelo": "#e4e2ee", "piel": "#efc9a4", "ropa": "#f1ecdf", "sombra": "#d2c9b2" },
       "dialogos": [
@@ -339,6 +761,17 @@
           { "es": "¿Me harías un favor? Necesito 우유 (leche) y no puedo dejar el puesto. El 편의점 está ahí arriba, al norte del mercado." },
           { "es": "En la tienda se pide así: el nombre de lo que quieres + 주세요 («deme, por favor»). 우유 주세요.", "accion": { "iniciar": "q3" } }
         ] },
+        { "si": { "mision": "q8", "estado": "lista" }, "lineas": [
+          { "ko": "아이고, 고마워요!", "es": "¡Ay, gracias!" },
+          { "es": "¡Cuánta fruta! En coreano, «fruta» es 과일. Con esto lleno el puesto toda la semana.", "accion": { "completar": "q8" }}
+        ] },
+        { "si": { "mision": "q8", "estado": "activa" }, "lineas": [
+          { "es": "El bus a la granja sale del 정류장, al este del mercado. Allá te espera el 할아버지." }
+        ] },
+        { "si": { "mision": "q8", "estado": "disponible" }, "lineas": [
+          { "es": "Mi esposo, el 할아버지, tiene una granja en el campo. ¡Le falta ayuda para cosechar!" },
+          { "es": "Toma el bus en el 정류장, al este del mercado. Él te enseña cómo se llama cada fruta.", "accion": { "iniciar": "q8" }}
+        ] },
         { "si": { "mision": "q3", "estado": "hecha" }, "lineas": [
           { "es": "Mis 오이 están fresquitos. ¡화이팅, tigre!" }
         ] },
@@ -372,8 +805,22 @@
           { "es": "Soy cocinero. Mi restaurante quedó sin letrero: los 도깨비 azules se llevaron las letras." },
           { "es": "Ellos tienen las consonantes: ㄱ, ㄴ, ㅁ... Andan al sur, del otro lado del 청계천. Con esas letras arma también el 나무 del parque y el letrero del puesto de gorros.", "accion": { "iniciar": "q4" } }
         ] },
+        { "si": { "mision": "q7", "estado": "lista" }, "lineas": [
+          { "ko": "감사합니다!", "es": "¡Gracias!" },
+          { "es": "지수 me contó que dijiste 맛있어요. ¡Es lo más lindo que se le puede decir a un cocinero!", "accion": { "completar": "q7" }}
+        ] },
+        { "si": { "mision": "q7", "estado": "activa" }, "lineas": [
+          { "es": "Entra al 식당: 지수 te atiende. Para llamar a quien atiende, en Corea se dice 저기요!" }
+        ] },
+        { "si": { "mision": "q7", "estado": "disponible" }, "lineas": [
+          { "es": "¡Mi letrero volvió! Ahora sí: pasa a comer a mi 식당." },
+          { "es": "지수 te atiende. Vas a ver cómo se come en Corea: se llama con 저기요, se pide con 주세요 y se paga al salir, en la caja.", "accion": { "iniciar": "q7" }}
+        ] },
+        { "si": { "mision": "q7", "estado": "hecha" }, "lineas": [
+          { "es": "¡Vuelve cuando quieras! El 메뉴판 tiene seis platos: ¿ya los probaste todos?" }
+        ] },
         { "si": { "mision": "q4", "estado": "hecha" }, "lineas": [
-          { "es": "¿Ya probaste la carne a la coreana? Se asa en la mesa. ¡Ven cuando quieras!" }
+          { "es": "¿Ya probaste el 불고기? ¡Ven cuando quieras!" }
         ] },
         { "lineas": [
           { "es": "(도윤 mira el letrero vacío de su restaurante y suspira.)" }
@@ -473,7 +920,7 @@
     "barrera": [
       { "es": "Los 도깨비 bloquearon el camino a Bukchon con cajas. Capítulo 2: próximamente." }
     ],
-    "restaurante": [ { "es": "Es el restaurante de 도윤. Abre en la tarde." } ],
+    "restaurante": [ { "es": "Es el 식당 de 도윤: el restaurante. Se entra por la puerta de al lado." } ],
     "cafeteria": [ { "es": "La cafetería abre cuando su letrero se pueda leer." } ],
     "panaderia": [ { "es": "Huele a pan recién hecho." } ],
     "fuente": [ { "es": "Las fuentes de la plaza. En verano, los niños juegan en el agua." } ],
